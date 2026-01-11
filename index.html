@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMC Radio Archive | 1933-1957</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📻</text></svg>">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #fafafa;
+            --text: #1a1a1a;
+            --text-light: #666;
+            --border: #e0e0e0;
+            --accent: #2d5a27;
+            --card-bg: #fff;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a1a;
+                --text: #e0e0e0;
+                --text-light: #999;
+                --border: #333;
+                --accent: #6b9b65;
+                --card-bg: #252525;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 2rem 1rem;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .search-section {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .date-input-group {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .input-field {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 0.5rem;
+        }
+
+        input[type="date"] {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            background: var(--bg);
+            color: var(--text);
+            font-family: inherit;
+        }
+
+        input[type="date"]:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        button {
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: inherit;
+            transition: opacity 0.2s;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .results {
+            display: none;
+        }
+
+        .results.visible {
+            display: block;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .results-date {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        .results-day {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .song-list {
+            list-style: none;
+        }
+
+        .song-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .song-item:last-child {
+            border-bottom: none;
+        }
+
+        .song-rank {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            min-width: 24px;
+        }
+
+        .song-prob {
+            background: var(--accent);
+            color: #fff;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            min-width: 45px;
+            text-align: center;
+        }
+
+        .song-prob.low {
+            background: #888;
+        }
+
+        .song-info {
+            flex: 1;
+        }
+
+        .song-title {
+            font-weight: 500;
+            margin-bottom: 0.2rem;
+        }
+
+        .song-artist {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .song-meta {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.3rem;
+        }
+
+        .song-genre, .song-source {
+            font-size: 0.75rem;
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            background: var(--bg);
+            color: var(--text-light);
+        }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            display: none;
+        }
+
+        .error-message.visible {
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-light);
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 500px) {
+            .date-input-group {
+                flex-direction: column;
+            }
+
+            .input-field {
+                width: 100%;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BMC Radio Archive</h1>
+            <p class="subtitle">What was playing at Black Mountain College? 1933-1957</p>
+        </header>
+
+        <section class="search-section">
+            <div class="date-input-group">
+                <div class="input-field">
+                    <label for="date-picker">Select a date</label>
+                    <input type="date" id="date-picker" min="1933-09-01" max="1957-10-31" value="1948-04-06">
+                </div>
+                <button id="search-btn" onclick="searchDate()">Search</button>
+            </div>
+            <div class="error-message" id="error-msg"></div>
+        </section>
+
+        <section class="results" id="results">
+            <div class="results-header">
+                <span class="results-date" id="results-date"></span>
+                <span class="results-day" id="results-day"></span>
+            </div>
+            <ul class="song-list" id="song-list"></ul>
+        </section>
+
+        <div class="loading" id="loading" style="display: none;">
+            Loading archive...
+        </div>
+
+        <footer>
+            <p>Part of the <a href="https://rbmirc.github.io/essays">Retcon Black Mountain</a> project</p>
+            <p>Data sources: Billboard, Your Hit Parade, WWNC Asheville</p>
+        </footer>
+    </div>
+
+    <script>
+        let radioData = null;
+
+        // Day names
+        const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                           'July', 'August', 'September', 'October', 'November', 'December'];
+
+        // Load JSON data
+        async function loadData() {
+            const loading = document.getElementById('loading');
+            const searchBtn = document.getElementById('search-btn');
+
+            loading.style.display = 'block';
+            searchBtn.disabled = true;
+
+            try {
+                const response = await fetch('bmc_radio_archive_1933-1957.json');
+                if (!response.ok) throw new Error('Failed to load data');
+                radioData = await response.json();
+                loading.style.display = 'none';
+                searchBtn.disabled = false;
+
+                // Auto-search on load
+                searchDate();
+            } catch (error) {
+                loading.textContent = 'Error loading data. Please refresh the page.';
+                console.error('Load error:', error);
+            }
+        }
+
+        function searchDate() {
+            const dateInput = document.getElementById('date-picker');
+            const resultsSection = document.getElementById('results');
+            const errorMsg = document.getElementById('error-msg');
+            const resultsDate = document.getElementById('results-date');
+            const resultsDay = document.getElementById('results-day');
+            const songList = document.getElementById('song-list');
+
+            errorMsg.classList.remove('visible');
+            resultsSection.classList.remove('visible');
+
+            if (!radioData) {
+                showError('Data not loaded yet. Please wait...');
+                return;
+            }
+
+            const dateValue = dateInput.value;
+            if (!dateValue) {
+                showError('Please select a date.');
+                return;
+            }
+
+            const [year, month, day] = dateValue.split('-');
+            const dateObj = new Date(dateValue);
+
+            // Check date range
+            if (dateObj < new Date('1933-09-01') || dateObj > new Date('1957-10-31')) {
+                showError('Date must be between September 1933 and October 1957 (BMC operational period).');
+                return;
+            }
+
+            // Get data
+            try {
+                const dayData = radioData.bmc_radio_archive.years[year]?.months[month]?.days[day];
+
+                if (!dayData || !dayData.songs) {
+                    showError('No data available for this date.');
+                    return;
+                }
+
+                // Format date display
+                const dayName = dayNames[dateObj.getDay()];
+                const monthName = monthNames[dateObj.getMonth()];
+                resultsDate.textContent = `${monthName} ${parseInt(day)}, ${year}`;
+                resultsDay.textContent = dayName;
+
+                // Build song list
+                songList.innerHTML = '';
+                dayData.songs.forEach((song, index) => {
+                    const probPercent = Math.round(song.probability * 100);
+                    const probClass = probPercent < 40 ? 'low' : '';
+                    const source = song.source || 'National';
+
+                    const li = document.createElement('li');
+                    li.className = 'song-item';
+                    li.innerHTML = `
+                        <span class="song-rank">${index + 1}.</span>
+                        <span class="song-prob ${probClass}">${probPercent}%</span>
+                        <div class="song-info">
+                            <div class="song-title">${escapeHtml(song.title)}</div>
+                            <div class="song-artist">${escapeHtml(song.artist)}</div>
+                            <div class="song-meta">
+                                <span class="song-genre">${escapeHtml(song.genre)}</span>
+                                <span class="song-source">${escapeHtml(source)}</span>
+                            </div>
+                        </div>
+                    `;
+                    songList.appendChild(li);
+                });
+
+                resultsSection.classList.add('visible');
+
+            } catch (error) {
+                showError('Error retrieving data for this date.');
+                console.error('Search error:', error);
+            }
+        }
+
+        function showError(message) {
+            const errorMsg = document.getElementById('error-msg');
+            errorMsg.textContent = message;
+            errorMsg.classList.add('visible');
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Handle Enter key
+        document.getElementById('date-picker').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') searchDate();
+        });
+
+        // Load data on page load
+        window.onload = loadData;
+    </script>
+</body>
+</html>

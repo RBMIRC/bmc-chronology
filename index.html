@@ -742,7 +742,7 @@
             try {
                 const [archiveRes, weatherRes, radioRes, coursesRes, contextRes, peopleRes, verifiedRes, cultureRes, chronoRes, nationalRes, bmcTimelineRes] = await Promise.all([
                     fetch('bmc_complete_archive.json'),
-                    fetch('bmc_weather_complete_1933-1957.json'),
+                    fetch('bmc_weather.json'),
                     fetch('bmc_radio_archive_1933-1957.json'),
                     fetch('bmc_courses_by_year.json'),
                     fetch('bmc_yearly_context.json'),

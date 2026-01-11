@@ -769,8 +769,8 @@
                 document.getElementById('loading').style.display = 'none';
                 search();
             } catch (err) {
-                document.getElementById('loading').textContent = 'Error loading data.';
-                console.error(err);
+                document.getElementById('loading').textContent = 'Error: ' + err.message;
+                console.error('Load error:', err);
             }
         }
 

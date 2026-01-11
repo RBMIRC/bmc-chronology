@@ -3,192 +3,542 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMC Radio Archive | 1933-1957</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📻</text></svg>">
+    <title>Black Mountain College Chronology</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon points='10,90 50,20 90,90' fill='%23000'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
 
         :root {
             --bg: #fafafa;
-            --text: #1a1a1a;
-            --text-light: #666;
-            --border: #e0e0e0;
-            --accent: #2d5a27;
             --card-bg: #fff;
+            --text: #1a1a1a;
+            --text-light: #555;
+            --text-lighter: #888;
+            --border: #e0e0e0;
+            --accent: #333;
         }
 
         @media (prefers-color-scheme: dark) {
             :root {
-                --bg: #1a1a1a;
-                --text: #e0e0e0;
-                --text-light: #999;
-                --border: #333;
-                --accent: #6b9b65;
-                --card-bg: #252525;
+                --bg: #0a0a0a;
+                --card-bg: #151515;
+                --text: #e8e8e8;
+                --text-light: #aaa;
+                --text-lighter: #666;
+                --border: #2a2a2a;
+                --accent: #ddd;
             }
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: "Source Serif Pro", Georgia, serif;
             background: var(--bg);
             color: var(--text);
             min-height: 100vh;
-            padding: 2rem 1rem;
-            line-height: 1.6;
+            line-height: 1.5;
+            font-size: 14px;
         }
 
         .container {
-            max-width: 700px;
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 1.5rem;
         }
 
+        /* Header */
         header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        h1 {
-            font-size: 1.8rem;
-            font-weight: 400;
-            margin-bottom: 0.5rem;
-            letter-spacing: -0.02em;
-        }
-
-        .subtitle {
-            color: var(--text-light);
-            font-size: 0.95rem;
-        }
-
-        .search-section {
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .date-input-group {
             display: flex;
-            gap: 1rem;
-            align-items: flex-end;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
             flex-wrap: wrap;
+            gap: 1rem;
         }
 
-        .input-field {
-            flex: 1;
-            min-width: 200px;
+        .logo h1 {
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
         }
 
-        label {
-            display: block;
-            font-size: 0.85rem;
-            color: var(--text-light);
-            margin-bottom: 0.5rem;
+        .logo .subtitle {
+            color: var(--text-lighter);
+            font-size: 0.8rem;
+        }
+
+        /* Date picker */
+        .date-picker {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
         }
 
         input[type="date"] {
-            width: 100%;
-            padding: 0.75rem 1rem;
-            font-size: 1rem;
+            padding: 0.5rem 0.75rem;
+            font-size: 0.9rem;
             border: 1px solid var(--border);
-            border-radius: 4px;
-            background: var(--bg);
+            background: var(--card-bg);
             color: var(--text);
             font-family: inherit;
         }
 
-        input[type="date"]:focus {
-            outline: none;
-            border-color: var(--accent);
-        }
-
         button {
-            padding: 0.75rem 1.5rem;
-            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            font-size: 0.8rem;
             background: var(--accent);
-            color: #fff;
+            color: var(--bg);
             border: none;
-            border-radius: 4px;
             cursor: pointer;
             font-family: inherit;
-            transition: opacity 0.2s;
         }
 
-        button:hover {
-            opacity: 0.9;
+        button:hover { opacity: 0.85; }
+
+        /* Date display */
+        .date-banner {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 1rem 1.25rem;
+            margin-bottom: 1.5rem;
         }
 
-        button:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
+        .date-main {
+            font-size: 1.4rem;
+            margin-bottom: 0.25rem;
         }
 
-        .results {
-            display: none;
-        }
-
-        .results.visible {
-            display: block;
-        }
-
-        .results-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .results-date {
-            font-size: 1.2rem;
-            font-weight: 500;
-        }
-
-        .results-day {
+        .date-day {
             color: var(--text-light);
             font-size: 0.9rem;
         }
 
-        .song-list {
-            list-style: none;
+        .year-context {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.8rem;
+            color: var(--text-light);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0.5rem;
         }
 
+        .context-item strong {
+            color: var(--text);
+        }
+
+        /* Widget Grid - Masonry layout */
+        .widget-grid {
+            column-count: 3;
+            column-gap: 1rem;
+        }
+
+        @media (max-width: 900px) {
+            .widget-grid {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .widget-grid {
+                column-count: 1;
+            }
+        }
+
+        .widget {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            break-inside: avoid;
+            margin-bottom: 1rem;
+        }
+
+        .widget-header {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .widget-title {
+            font-size: 0.65rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-lighter);
+        }
+
+        .widget-count {
+            font-size: 0.7rem;
+            color: var(--text-lighter);
+        }
+
+        .widget-content {
+            padding: 0.75rem 1rem;
+            flex: 1;
+        }
+
+        /* Full width widgets */
+        .widget.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .widget.half-width {
+            grid-column: span 2;
+        }
+
+        /* Weather widget */
+        .weather-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.75rem;
+            text-align: center;
+        }
+
+        .weather-item {
+            padding: 0.5rem;
+        }
+
+        .weather-value {
+            font-size: 1.1rem;
+            margin-bottom: 0.15rem;
+        }
+
+        .weather-label {
+            font-size: 0.65rem;
+            color: var(--text-lighter);
+            text-transform: uppercase;
+        }
+
+        .weather-desc {
+            grid-column: 1 / -1;
+            text-align: left;
+            color: var(--text-light);
+            font-style: italic;
+            padding-top: 0.5rem;
+            border-top: 1px solid var(--border);
+            margin-top: 0.25rem;
+        }
+
+        /* Dropdown/Accordion */
+        .dropdown {
+            border: 1px solid var(--border);
+            margin-bottom: 0.5rem;
+        }
+
+        .dropdown:last-child {
+            margin-bottom: 0;
+        }
+
+        .dropdown-header {
+            padding: 0.6rem 0.75rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            background: var(--bg);
+            user-select: none;
+        }
+
+        .dropdown-header:hover {
+            background: var(--border);
+        }
+
+        .dropdown-title {
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .dropdown-count {
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        .dropdown-arrow {
+            font-size: 0.7rem;
+            color: var(--text-lighter);
+            transition: transform 0.2s;
+        }
+
+        .dropdown.open .dropdown-arrow {
+            transform: rotate(180deg);
+        }
+
+        .dropdown-content {
+            display: none;
+            padding: 0.75rem;
+            border-top: 1px solid var(--border);
+            max-height: 300px;
+            overflow-y: auto;
+            font-size: 0.8rem;
+            line-height: 1.6;
+            color: var(--text-light);
+        }
+
+        .dropdown.open .dropdown-content {
+            display: block;
+        }
+
+        /* People list */
+        .people-list {
+            column-count: 2;
+            column-gap: 1rem;
+        }
+
+        .person-item {
+            break-inside: avoid;
+            padding: 0.15rem 0;
+        }
+
+        .person-focus {
+            font-size: 0.7rem;
+            color: var(--text-lighter);
+        }
+
+        /* Courses */
+        .courses-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+        }
+
+        .course-chip {
+            font-size: 0.7rem;
+            padding: 0.25rem 0.5rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+        }
+
+        .course-instructor {
+            color: var(--text-lighter);
+        }
+
+        /* Events */
+        .event-group {
+            margin-bottom: 1rem;
+        }
+
+        .event-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .event-group-title {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-lighter);
+            margin-bottom: 0.4rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .event-item {
+            padding: 0.4rem 0;
+            border-bottom: 1px dotted var(--border);
+        }
+
+        .event-item:last-child {
+            border-bottom: none;
+        }
+
+        .event-text {
+            font-size: 0.85rem;
+        }
+
+        .event-meta {
+            font-size: 0.7rem;
+            color: var(--text-lighter);
+            margin-top: 0.15rem;
+        }
+
+        .event-source {
+            color: var(--text-lighter);
+            font-size: 0.65rem;
+            display: block;
+            margin-top: 0.2rem;
+        }
+
+        .event-source i {
+            font-style: italic;
+        }
+
+        .certainty-low {
+            color: var(--text-lighter);
+            font-style: italic;
+        }
+
+        .event-people {
+            color: var(--text-light);
+        }
+
+        .event-quote {
+            font-style: italic;
+            color: var(--text-light);
+            font-size: 0.8rem;
+            margin: 0.25rem 0;
+            padding-left: 0.6rem;
+            border-left: 2px solid var(--border);
+        }
+
+        /* World/USA events */
+        .context-event {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .context-event:last-child {
+            border-bottom: none;
+        }
+
+        .context-event-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .context-event-desc {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            line-height: 1.5;
+            margin-bottom: 0.25rem;
+        }
+
+        .context-event-meta {
+            font-size: 0.7rem;
+            color: var(--text-lighter);
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .context-tag {
+            font-size: 0.6rem;
+            padding: 0.15rem 0.35rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            text-transform: uppercase;
+            color: var(--text-lighter);
+        }
+
+        .context-tag.politics { border-color: #c44; color: #c44; }
+        .context-tag.culture { border-color: #48a; color: #48a; }
+        .context-tag.war { border-color: #a44; color: #a44; }
+        .context-tag.economy { border-color: #4a4; color: #4a4; }
+        .context-tag.science { border-color: #84a; color: #84a; }
+        .context-tag.sports { border-color: #a84; color: #a84; }
+        .context-tag.military { border-color: #a66; color: #a66; }
+        .context-tag.civil_rights { border-color: #6a8; color: #6a8; }
+        .context-tag.local { border-color: #8a6; color: #8a6; }
+
+        /* Category badges for national events */
+        .category-badge {
+            font-size: 0.55rem;
+            padding: 0.1rem 0.3rem;
+            text-transform: uppercase;
+            margin-right: 0.3rem;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+        .category-badge.congress { background: #1a2a3a; color: #6af; border: 1px solid #6af; }
+        .category-badge.asheville { background: #2a1a2a; color: #a6f; border: 1px solid #a6f; }
+        .category-badge.north_carolina { background: #2a2a1a; color: #ca6; border: 1px solid #ca6; }
+        .category-badge.national { background: #1a1a2a; color: #88c; border: 1px solid #88c; }
+
+        /* Culture widget */
+        .culture-item {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .culture-item:last-child {
+            border-bottom: none;
+        }
+
+        .culture-type {
+            font-size: 0.6rem;
+            padding: 0.15rem 0.35rem;
+            text-transform: uppercase;
+            margin-right: 0.4rem;
+            display: inline-block;
+        }
+
+        .culture-type.film { background: #2a1a1a; color: #e88; border: 1px solid #e88; }
+        .culture-type.book { background: #1a2a1a; color: #8c8; border: 1px solid #8c8; }
+        .culture-type.theater { background: #2a1a2a; color: #c8c; border: 1px solid #c8c; }
+        .culture-type.concert { background: #1a1a2a; color: #88e; border: 1px solid #88e; }
+        .culture-type.art { background: #2a2a1a; color: #cc8; border: 1px solid #cc8; }
+
+        .culture-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .culture-creator {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            font-style: italic;
+        }
+
+        .culture-desc {
+            font-size: 0.75rem;
+            color: var(--text-lighter);
+            margin-top: 0.2rem;
+            line-height: 1.4;
+        }
+
+        .culture-duration {
+            font-size: 0.7rem;
+            color: var(--text-lighter);
+            font-style: italic;
+        }
+
+        .event-duration {
+            font-size: 0.6rem;
+            padding: 0.1rem 0.3rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            color: var(--text-lighter);
+        }
+
+        .event-date {
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-right: 0.4rem;
+        }
+
+        .no-events {
+            color: var(--text-lighter);
+            font-style: italic;
+            font-size: 0.8rem;
+            padding: 0.5rem 0;
+        }
+
+        /* Radio */
         .song-item {
             display: flex;
-            align-items: flex-start;
-            gap: 1rem;
-            padding: 1rem 0;
-            border-bottom: 1px solid var(--border);
+            gap: 0.6rem;
+            padding: 0.35rem 0;
+            border-bottom: 1px dotted var(--border);
+            align-items: baseline;
         }
 
         .song-item:last-child {
             border-bottom: none;
         }
 
-        .song-rank {
-            font-size: 0.85rem;
-            color: var(--text-light);
-            min-width: 24px;
-        }
-
         .song-prob {
-            background: var(--accent);
-            color: #fff;
-            padding: 0.2rem 0.5rem;
-            border-radius: 3px;
-            font-size: 0.8rem;
-            font-weight: 500;
-            min-width: 45px;
-            text-align: center;
-        }
-
-        .song-prob.low {
-            background: #888;
+            font-size: 0.7rem;
+            color: var(--text-lighter);
+            min-width: 28px;
         }
 
         .song-info {
@@ -196,75 +546,61 @@
         }
 
         .song-title {
-            font-weight: 500;
-            margin-bottom: 0.2rem;
+            font-size: 0.85rem;
         }
 
         .song-artist {
-            color: var(--text-light);
-            font-size: 0.9rem;
-        }
-
-        .song-meta {
-            display: flex;
-            gap: 0.5rem;
-            margin-top: 0.3rem;
-        }
-
-        .song-genre, .song-source {
             font-size: 0.75rem;
-            padding: 0.15rem 0.4rem;
-            border-radius: 3px;
-            background: var(--bg);
             color: var(--text-light);
         }
 
-        .error-message {
-            background: #f8d7da;
-            color: #721c24;
-            padding: 1rem;
-            border-radius: 4px;
-            margin-top: 1rem;
-            display: none;
-        }
-
-        .error-message.visible {
-            display: block;
-        }
-
+        /* Loading */
         .loading {
             text-align: center;
-            padding: 2rem;
-            color: var(--text-light);
+            padding: 3rem;
+            color: var(--text-lighter);
         }
 
+        .results { display: none; }
+        .results.visible { display: block; }
+
+        /* Footer */
         footer {
-            margin-top: 3rem;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.75rem;
+            color: var(--text-lighter);
             text-align: center;
-            font-size: 0.85rem;
-            color: var(--text-light);
+        }
+
+        .footer-sources {
+            display: block;
+            margin-top: 0.5rem;
+            font-size: 0.65rem;
+            line-height: 1.6;
+        }
+
+        .footer-sources i {
+            font-style: italic;
         }
 
         footer a {
-            color: var(--accent);
+            color: var(--text-light);
             text-decoration: none;
         }
 
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 500px) {
-            .date-input-group {
+        /* Mobile */
+        @media (max-width: 600px) {
+            .weather-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .people-list {
+                column-count: 1;
+            }
+            header {
                 flex-direction: column;
-            }
-
-            .input-field {
-                width: 100%;
-            }
-
-            button {
-                width: 100%;
+                align-items: flex-start;
             }
         }
     </style>
@@ -272,166 +608,914 @@
 <body>
     <div class="container">
         <header>
-            <h1>BMC Radio Archive</h1>
-            <p class="subtitle">What was playing at Black Mountain College? 1933-1957</p>
+            <div class="logo">
+                <h1>Black Mountain College Chronology</h1>
+                <p class="subtitle">Daily Archive · 1933–1957</p>
+            </div>
+            <div class="date-picker">
+                <input type="date" id="date-picker" min="1933-01-01" max="1957-12-31" value="1948-04-01">
+                <button onclick="search()">Go</button>
+            </div>
         </header>
 
-        <section class="search-section">
-            <div class="date-input-group">
-                <div class="input-field">
-                    <label for="date-picker">Select a date</label>
-                    <input type="date" id="date-picker" min="1933-09-01" max="1957-10-31" value="1948-04-06">
+        <div class="loading" id="loading">Loading archives...</div>
+
+        <div class="results" id="results">
+            <div class="date-banner">
+                <div class="date-main" id="date-main"></div>
+                <div class="date-day" id="date-day"></div>
+                <div class="year-context" id="year-context"></div>
+            </div>
+
+            <div class="widget-grid">
+                <!-- Weather -->
+                <div class="widget" id="weather-widget">
+                    <div class="widget-header">
+                        <span class="widget-title">Weather</span>
+                    </div>
+                    <div class="widget-content">
+                        <div class="weather-grid" id="weather-content"></div>
+                    </div>
                 </div>
-                <button id="search-btn" onclick="searchDate()">Search</button>
-            </div>
-            <div class="error-message" id="error-msg"></div>
-        </section>
 
-        <section class="results" id="results">
-            <div class="results-header">
-                <span class="results-date" id="results-date"></span>
-                <span class="results-day" id="results-day"></span>
-            </div>
-            <ul class="song-list" id="song-list"></ul>
-        </section>
+                <!-- People -->
+                <div class="widget" id="people-widget">
+                    <div class="widget-header">
+                        <span class="widget-title">People at BMC</span>
+                        <span class="widget-count" id="people-total"></span>
+                    </div>
+                    <div class="widget-content" id="people-content"></div>
+                </div>
 
-        <div class="loading" id="loading" style="display: none;">
-            Loading archive...
+                <!-- Courses -->
+                <div class="widget" id="courses-widget">
+                    <div class="widget-header">
+                        <span class="widget-title">Courses</span>
+                        <span class="widget-count" id="courses-count"></span>
+                    </div>
+                    <div class="widget-content" id="courses-content"></div>
+                </div>
+
+                <!-- Radio -->
+                <div class="widget" id="radio-widget">
+                    <div class="widget-header">
+                        <span class="widget-title">On the Radio</span>
+                    </div>
+                    <div class="widget-content" id="radio-content"></div>
+                </div>
+
+                <!-- BMC Events -->
+                <div class="widget half-width" id="events-widget">
+                    <div class="widget-header">
+                        <span class="widget-title">Events at BMC</span>
+                        <span class="widget-count" id="events-count"></span>
+                    </div>
+                    <div class="widget-content" id="events-content"></div>
+                </div>
+
+                <!-- Culture -->
+                <div class="widget" id="culture-widget">
+                    <div class="widget-header">
+                        <span class="widget-title">Culture</span>
+                        <span class="widget-count" id="culture-count"></span>
+                    </div>
+                    <div class="widget-content" id="culture-content"></div>
+                </div>
+
+                <!-- National Events (Asheville, NC, Congress, National) -->
+                <div class="widget" id="national-widget">
+                    <div class="widget-header">
+                        <span class="widget-title">National</span>
+                        <span class="widget-count" id="national-count"></span>
+                    </div>
+                    <div class="widget-content" id="national-content"></div>
+                </div>
+
+                <!-- International Events -->
+                <div class="widget" id="world-widget">
+                    <div class="widget-header">
+                        <span class="widget-title">International</span>
+                        <span class="widget-count" id="world-count"></span>
+                    </div>
+                    <div class="widget-content" id="world-content"></div>
+                </div>
+            </div>
         </div>
 
         <footer>
-            <p>Part of the <a href="https://rbmirc.github.io/essays">Retcon Black Mountain</a> project</p>
-            <p>Data sources: Billboard, Your Hit Parade, WWNC Asheville</p>
+            <a href="https://rbmirc.github.io/essays">Retcon Black Mountain</a><br>
+            <span class="footer-sources">
+                Sources:
+                DUBERMAN, Martin. <i>Black Mountain: An Exploration in Community</i>. New York: E.P. Dutton, 1972 ·
+                <a href="https://collection.ashevilleart.org/objects-1/portfolio?query=Portfolios%20%3D%20%22579%22" target="_blank">Dreier Collection</a>, Asheville Art Museum (369 docs) ·
+                HARRIS, Mary Emma. <i>The Arts at Black Mountain College</i>. MIT Press, 1987. Papers at Appalachian State University, Boone, NC ·
+                <a href="https://open-meteo.com/" target="_blank">Open-Meteo</a> Historical Weather API ·
+                <a href="https://www.billboard.com/charts/" target="_blank">Billboard</a> Hot 100 Archives
+            </span>
         </footer>
     </div>
 
     <script>
+        let archiveData = null;
+        let weatherData = null;
         let radioData = null;
+        let coursesData = null;
+        let contextData = null;
+        let peopleIndex = null;
+        let verifiedData = null;
+        let cultureData = null;
+        let chronologyData = null;
+        let nationalData = null;
+        let bmcTimelineData = null;
 
-        // Day names
         const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
-                           'July', 'August', 'September', 'October', 'November', 'December'];
+        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-        // Load JSON data
+        const weatherCodes = {
+            0: 'Clear sky', 1: 'Mainly clear', 2: 'Partly cloudy', 3: 'Overcast',
+            45: 'Fog', 48: 'Rime fog', 51: 'Light drizzle', 53: 'Drizzle', 55: 'Dense drizzle',
+            61: 'Light rain', 63: 'Rain', 65: 'Heavy rain', 71: 'Light snow', 73: 'Snow', 75: 'Heavy snow',
+            80: 'Rain showers', 81: 'Showers', 82: 'Heavy showers', 95: 'Thunderstorm'
+        };
+
         async function loadData() {
-            const loading = document.getElementById('loading');
-            const searchBtn = document.getElementById('search-btn');
-
-            loading.style.display = 'block';
-            searchBtn.disabled = true;
-
             try {
-                const response = await fetch('bmc_radio_archive_1933-1957.json');
-                if (!response.ok) throw new Error('Failed to load data');
-                radioData = await response.json();
-                loading.style.display = 'none';
-                searchBtn.disabled = false;
+                const [archiveRes, weatherRes, radioRes, coursesRes, contextRes, peopleRes, verifiedRes, cultureRes, chronoRes, nationalRes, bmcTimelineRes] = await Promise.all([
+                    fetch('bmc_complete_archive.json'),
+                    fetch('bmc_weather_complete_1933-1957.json'),
+                    fetch('bmc_radio_archive_1933-1957.json'),
+                    fetch('bmc_courses_by_year.json'),
+                    fetch('bmc_yearly_context.json'),
+                    fetch('bmc_people_index.json'),
+                    fetch('bmc_verified_faculty_courses.json'),
+                    fetch('bmc_culture_1933-1957.json'),
+                    fetch('bmc_chronology_precise.json'),
+                    fetch('bmc_national_events.json'),
+                    fetch('bmc_timeline.json')
+                ]);
 
-                // Auto-search on load
-                searchDate();
-            } catch (error) {
-                loading.textContent = 'Error loading data. Please refresh the page.';
-                console.error('Load error:', error);
+                archiveData = await archiveRes.json();
+                weatherData = await weatherRes.json();
+                radioData = await radioRes.json();
+                coursesData = await coursesRes.json();
+                contextData = await contextRes.json();
+                peopleIndex = await peopleRes.json();
+                cultureData = await cultureRes.json();
+                verifiedData = await verifiedRes.json();
+                chronologyData = await chronoRes.json();
+                nationalData = await nationalRes.json();
+                bmcTimelineData = await bmcTimelineRes.json();
+
+                document.getElementById('loading').style.display = 'none';
+                search();
+            } catch (err) {
+                document.getElementById('loading').textContent = 'Error loading data.';
+                console.error(err);
             }
         }
 
-        function searchDate() {
-            const dateInput = document.getElementById('date-picker');
-            const resultsSection = document.getElementById('results');
-            const errorMsg = document.getElementById('error-msg');
-            const resultsDate = document.getElementById('results-date');
-            const resultsDay = document.getElementById('results-day');
-            const songList = document.getElementById('song-list');
-
-            errorMsg.classList.remove('visible');
-            resultsSection.classList.remove('visible');
-
-            if (!radioData) {
-                showError('Data not loaded yet. Please wait...');
-                return;
-            }
-
-            const dateValue = dateInput.value;
-            if (!dateValue) {
-                showError('Please select a date.');
-                return;
-            }
+        function search() {
+            const dateValue = document.getElementById('date-picker').value;
+            if (!archiveData || !dateValue) return;
 
             const [year, month, day] = dateValue.split('-');
             const dateObj = new Date(dateValue);
 
-            // Check date range
-            if (dateObj < new Date('1933-09-01') || dateObj > new Date('1957-10-31')) {
-                showError('Date must be between September 1933 and October 1957 (BMC operational period).');
+            // Date display
+            document.getElementById('date-main').textContent = `${monthNames[dateObj.getMonth()]} ${parseInt(day)}, ${year}`;
+            document.getElementById('date-day').textContent = dayNames[dateObj.getDay()];
+
+            // Context
+            renderContext(year, dateValue);
+
+            // Widgets
+            renderWeather(year, month, day);
+            renderPeople(year, dateValue);
+            renderCourses(year, month);
+            renderEvents(year, dateValue);
+            renderCulture(year, month, day);
+            renderNational(year, dateValue);
+            renderWorld(year, dateValue);
+            renderRadio(year, month, day);
+
+            // Optimize widget layout - reorder by height for better masonry
+            optimizeWidgetLayout();
+
+            document.getElementById('results').classList.add('visible');
+        }
+
+        function optimizeWidgetLayout() {
+            // Wait for DOM to update, then reorder widgets by height
+            requestAnimationFrame(() => {
+                const grid = document.querySelector('.widget-grid');
+                if (!grid) return;
+
+                const widgets = Array.from(grid.querySelectorAll('.widget'));
+
+                // Get visible widgets with their heights
+                const widgetData = widgets
+                    .filter(w => w.style.display !== 'none')
+                    .map(w => ({
+                        el: w,
+                        height: w.offsetHeight,
+                        id: w.id
+                    }));
+
+                // Sort by height descending (tallest first works better with columns)
+                widgetData.sort((a, b) => b.height - a.height);
+
+                // Reorder in DOM
+                widgetData.forEach(w => grid.appendChild(w.el));
+            });
+        }
+
+        function renderContext(year, dateKey) {
+            const el = document.getElementById('year-context');
+            const selectedDate = new Date(dateKey);
+
+            // Find BMC events active on this date
+            const activeEvents = [];
+            if (bmcTimelineData?.events) {
+                for (const [startDateKey, evt] of Object.entries(bmcTimelineData.events)) {
+                    const startDate = new Date(startDateKey);
+                    const endDate = evt.end_date ? new Date(evt.end_date) : startDate;
+
+                    // Event is active if selectedDate is between start and end
+                    if (selectedDate >= startDate && selectedDate <= endDate) {
+                        activeEvents.push({ ...evt, start_date: startDateKey });
+                    }
+                }
+            }
+
+            if (activeEvents.length === 0) {
+                const ctx = contextData?.[year];
+                if (ctx?.bmc_status) {
+                    el.innerHTML = `<div class="context-item"><strong>BMC ${year}:</strong> ${esc(ctx.bmc_status)}</div>`;
+                } else {
+                    el.innerHTML = '';
+                }
                 return;
             }
 
-            // Get data
-            try {
-                const dayData = radioData.bmc_radio_archive.years[year]?.months[month]?.days[day];
+            el.innerHTML = activeEvents.map(evt => {
+                const startFormatted = formatEventDate(evt.start_date);
+                let dateDisplay = `<span class="event-date">${startFormatted}</span>`;
+                if (evt.end_date) {
+                    const endFormatted = formatEventDate(evt.end_date);
+                    const start = new Date(evt.start_date);
+                    const end = new Date(evt.end_date);
+                    const days = Math.round((end - start) / (1000 * 60 * 60 * 24));
+                    let durationText = '';
+                    if (days > 365) {
+                        durationText = `${Math.round(days / 365 * 10) / 10} years`;
+                    } else if (days > 30) {
+                        durationText = `${Math.round(days / 30)} months`;
+                    } else {
+                        durationText = `${days} days`;
+                    }
+                    dateDisplay += ` <span class="event-duration">→ ${endFormatted} (${durationText})</span>`;
+                }
+                return `<div class="context-item">
+                    <div><strong>BMC:</strong> ${dateDisplay} ${esc(evt.event)}</div>
+                    ${evt.description ? `<div class="context-event-desc">${esc(evt.description)}</div>` : ''}
+                    ${evt.source ? `<div class="event-source">${esc(evt.source)}</div>` : ''}
+                </div>`;
+            }).join('');
+        }
 
-                if (!dayData || !dayData.songs) {
-                    showError('No data available for this date.');
+        function renderWeather(year, month, day) {
+            const widget = document.getElementById('weather-widget');
+            const el = document.getElementById('weather-content');
+
+            try {
+                const d = weatherData?.black_mountain_college_weather_archive?.years?.[year]?.months?.[month]?.days?.[day]?.daily;
+                if (!d) { widget.style.display = 'none'; return; }
+
+                widget.style.display = 'flex';
+                const desc = weatherCodes[d.weather_code] || '';
+
+                el.innerHTML = `
+                    <div class="weather-item">
+                        <div class="weather-value">${d.temperature_2m_min}°–${d.temperature_2m_max}°</div>
+                        <div class="weather-label">Temp (°C)</div>
+                    </div>
+                    <div class="weather-item">
+                        <div class="weather-value">${d.precipitation_sum}</div>
+                        <div class="weather-label">Precip (mm)</div>
+                    </div>
+                    <div class="weather-item">
+                        <div class="weather-value">${d.wind_speed_10m_max}</div>
+                        <div class="weather-label">Wind (km/h)</div>
+                    </div>
+                    <div class="weather-item">
+                        <div class="weather-value">${(d.sunshine_duration / 3600).toFixed(1)}</div>
+                        <div class="weather-label">Sun (hours)</div>
+                    </div>
+                    ${desc ? `<div class="weather-desc">${desc}</div>` : ''}
+                `;
+            } catch (e) { widget.style.display = 'none'; }
+        }
+
+        function renderPeople(year, dateKey) {
+            const widget = document.getElementById('people-widget');
+            const el = document.getElementById('people-content');
+            const total = document.getElementById('people-total');
+
+            try {
+                const yearNum = parseInt(year);
+                const facultyMap = new Map();
+                const studentsMap = new Map();
+                const staffMap = new Map();
+                const guestsMap = new Map();
+                const familyMap = new Map();
+
+                // Get people from peopleIndex (from BlackMountainPeople.txt)
+                for (const [name, data] of Object.entries(peopleIndex)) {
+                    const startYear = data.start_year || 9999;
+                    const endYear = data.end_year || 0;
+
+                    if (yearNum >= startYear && yearNum <= endYear) {
+                        const person = { name, ...data };
+                        const role = (data.role || '').toLowerCase();
+
+                        // Classify by role (order matters for multi-role people)
+                        if (role.includes('faculty') || role.includes('admin')) {
+                            facultyMap.set(name, person);
+                        } else if (role.includes('student')) {
+                            studentsMap.set(name, person);
+                        } else if (role.includes('staff')) {
+                            staffMap.set(name, person);
+                        } else if (role.includes('guest')) {
+                            guestsMap.set(name, person);
+                        } else if (role.includes('family')) {
+                            familyMap.set(name, person);
+                        } else {
+                            guestsMap.set(name, person);
+                        }
+                    }
+                }
+
+                const faculty = Array.from(facultyMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+                const students = Array.from(studentsMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+                const staff = Array.from(staffMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+                const guests = Array.from(guestsMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+                const family = Array.from(familyMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+
+                if (faculty.length === 0 && students.length === 0) {
+                    widget.style.display = 'none';
                     return;
                 }
 
-                // Format date display
-                const dayName = dayNames[dateObj.getDay()];
-                const monthName = monthNames[dateObj.getMonth()];
-                resultsDate.textContent = `${monthName} ${parseInt(day)}, ${year}`;
-                resultsDay.textContent = dayName;
+                widget.style.display = 'flex';
+                const totalCount = faculty.length + students.length + staff.length + guests.length + family.length;
+                total.textContent = totalCount + ' people';
 
-                // Build song list
-                songList.innerHTML = '';
-                dayData.songs.forEach((song, index) => {
-                    const probPercent = Math.round(song.probability * 100);
-                    const probClass = probPercent < 40 ? 'low' : '';
-                    const source = song.source || 'National';
+                el.innerHTML = `
+                    ${faculty.length > 0 ? createPeopleDropdown('Faculty', faculty, true) : ''}
+                    ${students.length > 0 ? createPeopleDropdown('Students', students, false) : ''}
+                    ${staff.length > 0 ? createPeopleDropdown('Staff', staff, false) : ''}
+                    ${guests.length > 0 ? createPeopleDropdown('Guests', guests, false) : ''}
+                    ${family.length > 0 ? createPeopleDropdown('Family', family, false) : ''}
+                `;
 
-                    const li = document.createElement('li');
-                    li.className = 'song-item';
-                    li.innerHTML = `
-                        <span class="song-rank">${index + 1}.</span>
-                        <span class="song-prob ${probClass}">${probPercent}%</span>
-                        <div class="song-info">
-                            <div class="song-title">${escapeHtml(song.title)}</div>
-                            <div class="song-artist">${escapeHtml(song.artist)}</div>
-                            <div class="song-meta">
-                                <span class="song-genre">${escapeHtml(song.genre)}</span>
-                                <span class="song-source">${escapeHtml(source)}</span>
-                            </div>
-                        </div>
-                    `;
-                    songList.appendChild(li);
+                el.querySelectorAll('.dropdown-header').forEach(header => {
+                    header.addEventListener('click', () => {
+                        header.parentElement.classList.toggle('open');
+                    });
                 });
-
-                resultsSection.classList.add('visible');
-
-            } catch (error) {
-                showError('Error retrieving data for this date.');
-                console.error('Search error:', error);
+            } catch (e) {
+                console.error(e);
+                widget.style.display = 'none';
             }
         }
 
-        function showError(message) {
-            const errorMsg = document.getElementById('error-msg');
-            errorMsg.textContent = message;
-            errorMsg.classList.add('visible');
+        function getAcademicYear(year, month) {
+            // Academic year runs Sept-Aug
+            // e.g., Sept 1933 = "1933-1934", Jan 1934 = "1933-1934"
+            if (month >= 9) {
+                return `${year}-${year + 1}`;
+            } else {
+                return `${year - 1}-${year}`;
+            }
         }
 
-        function escapeHtml(text) {
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
+        function createPeopleDropdown(title, people, showDetails) {
+            const namesList = people.map(p => {
+                let details = '';
+                if (showDetails && p.title) {
+                    details = ` <span class="person-focus">${esc(p.title)}</span>`;
+                } else if (p.focus) {
+                    details = ` <span class="person-focus">(${esc(p.focus)})</span>`;
+                } else if (p.department) {
+                    details = ` <span class="person-focus">${esc(p.department)}</span>`;
+                }
+                return `<div class="person-item">${esc(p.name)}${details}</div>`;
+            }).join('');
+
+            return `
+                <div class="dropdown">
+                    <div class="dropdown-header">
+                        <span class="dropdown-title">
+                            <span class="dropdown-count">${people.length}</span>
+                            ${title}
+                        </span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="people-list">${namesList}</div>
+                    </div>
+                </div>
+            `;
         }
 
-        // Handle Enter key
-        document.getElementById('date-picker').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') searchDate();
-        });
+        function createDropdown(title, count, names) {
+            const namesList = names && names.length > 0
+                ? `<div class="people-list">${names.map(n => `<div class="person-item">${esc(n)}</div>`).join('')}</div>`
+                : '<div style="color: var(--text-lighter); font-style: italic;">Full list not available</div>';
 
-        // Load data on page load
+            return `
+                <div class="dropdown">
+                    <div class="dropdown-header">
+                        <span class="dropdown-title">
+                            <span class="dropdown-count">${count}</span>
+                            ${title}
+                        </span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="dropdown-content">${namesList}</div>
+                </div>
+            `;
+        }
+
+        function renderCourses(year, month) {
+            const widget = document.getElementById('courses-widget');
+            const el = document.getElementById('courses-content');
+            const countEl = document.getElementById('courses-count');
+
+            try {
+                const yearNum = parseInt(year);
+                const m = parseInt(month);
+                const academicYear = getAcademicYear(yearNum, m);
+                // Also try short format (1943-44 instead of 1943-1944)
+                const academicYearShort = academicYear.replace(/-(\d{2})\d{2}$/, '-$1');
+                const semester = m >= 9 ? 'Fall' : m >= 6 ? 'Summer' : 'Spring';
+
+                // Get verified courses (try both long and short format keys)
+                let verifiedCourses = verifiedData?.academic_years?.[academicYear]?.courses;
+                if (!verifiedCourses || verifiedCourses.length === 0) {
+                    verifiedCourses = verifiedData?.academic_years?.[academicYearShort]?.courses;
+                }
+
+                // Get unverified courses
+                const unverifiedCourses = coursesData?.[year] || [];
+
+                // Check data quality: count courses with instructors
+                const verifiedWithInstructors = verifiedCourses?.filter(c => c.instructor)?.length || 0;
+                const unverifiedWithInstructors = unverifiedCourses.filter(c => c.instructor).length;
+
+                // Prefer source with more instructor info, fallback to more courses
+                let courses, isVerified;
+                if (verifiedWithInstructors > 0 && verifiedWithInstructors >= unverifiedWithInstructors) {
+                    courses = verifiedCourses;
+                    isVerified = true;
+                } else if (unverifiedWithInstructors > 0) {
+                    courses = unverifiedCourses;
+                    isVerified = false;
+                } else if (verifiedCourses && verifiedCourses.length >= unverifiedCourses.length) {
+                    courses = verifiedCourses;
+                    isVerified = true;
+                } else {
+                    courses = unverifiedCourses;
+                    isVerified = false;
+                }
+
+                if (!courses || courses.length === 0) { widget.style.display = 'none'; return; }
+
+                widget.style.display = 'flex';
+                const verifiedLabel = isVerified ? ' (Dreier)' : '';
+                countEl.textContent = `${semester} — ${courses.length}${verifiedLabel}`;
+
+                // Group by department
+                const byDept = {};
+                courses.forEach(c => {
+                    const dept = c.department || 'General';
+                    if (!byDept[dept]) byDept[dept] = [];
+                    byDept[dept].push(c);
+                });
+
+                // Sort departments alphabetically
+                const sortedDepts = Object.keys(byDept).sort();
+
+                let html = '';
+                for (const dept of sortedDepts) {
+                    const deptCourses = byDept[dept];
+                    const courseChips = deptCourses.map(c => {
+                        const instructor = c.instructor ? getLastName(c.instructor) : '';
+                        const instructorHtml = instructor ? ` <span class="course-instructor">(${esc(instructor)})</span>` : '';
+                        return `<span class="course-chip">${esc(c.name)}${instructorHtml}</span>`;
+                    }).join('');
+
+                    html += `
+                        <div class="dropdown">
+                            <div class="dropdown-header">
+                                <span class="dropdown-title">
+                                    <span class="dropdown-count">${deptCourses.length}</span>
+                                    ${esc(dept)}
+                                </span>
+                                <span class="dropdown-arrow">▼</span>
+                            </div>
+                            <div class="dropdown-content">
+                                <div class="courses-grid">${courseChips}</div>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                el.innerHTML = html;
+
+                el.querySelectorAll('.dropdown-header').forEach(header => {
+                    header.addEventListener('click', () => {
+                        header.parentElement.classList.toggle('open');
+                    });
+                });
+            } catch (e) { widget.style.display = 'none'; }
+        }
+
+        function renderEvents(year, dateKey) {
+            const widget = document.getElementById('events-widget');
+            const el = document.getElementById('events-content');
+            const countEl = document.getElementById('events-count');
+
+            try {
+                const events = archiveData?.daily_calendar?.[year]?.[dateKey]?.bmc_events;
+                if (!events || events.length === 0) { widget.style.display = 'none'; return; }
+
+                widget.style.display = 'flex';
+                countEl.textContent = events.length;
+
+                // Group by category
+                const byCategory = {};
+                events.forEach(e => {
+                    const cat = e.category || 'other';
+                    if (!byCategory[cat]) byCategory[cat] = [];
+                    byCategory[cat].push(e);
+                });
+
+                const catLabels = {
+                    'performance': 'Performances', 'academic': 'Academic', 'meeting': 'Meetings',
+                    'arrival': 'Arrivals', 'departure': 'Departures', 'hiring': 'Faculty',
+                    'farm': 'Farm', 'construction': 'Construction', 'education': 'Education',
+                    'financial': 'Financial', 'administrative': 'Administrative', 'other': 'Other'
+                };
+
+                let html = '';
+                for (const [cat, catEvents] of Object.entries(byCategory)) {
+                    html += `<div class="event-group">`;
+                    html += `<div class="event-group-title">${catLabels[cat] || cat}</div>`;
+                    catEvents.forEach(e => {
+                        const people = e.people ? e.people.slice(0, 4).join(', ') : '';
+                        html += `<div class="event-item">`;
+                        html += `<div class="event-text">${esc(e.event)}</div>`;
+                        if (e.quote) html += `<div class="event-quote">"${esc(e.quote)}"</div>`;
+                        if (people) {
+                            html += `<div class="event-meta"><span class="event-people">${esc(people)}</span></div>`;
+                        }
+                        html += `</div>`;
+                    });
+                    html += `</div>`;
+                }
+
+                el.innerHTML = html;
+            } catch (e) { widget.style.display = 'none'; }
+        }
+
+        function formatSource(source, location, certainty) {
+            if (!source) return '';
+
+            let citation = '';
+
+            // Already formatted ISO 690 citation (starts with AUTHOR NAME in caps)
+            if (source.match(/^[A-Z]{2,},\s/)) {
+                citation = source;
+            }
+            // Duberman book references (Page XX or p. XX)
+            else if (source.match(/^Page \d+/i) || source.match(/Duberman.*p\.\s*\d+/i)) {
+                const pageNum = source.match(/\d+/)[0];
+                citation = `Duberman p. ${pageNum}`;
+            }
+            // Farm PDF from Dreier Collection
+            else if (source.includes('farm_low.pdf')) {
+                const pageMatch = source.match(/pages? (\d+)(?:-(\d+))?/i);
+                const pages = pageMatch ? (pageMatch[2] ? `p. ${pageMatch[1]}-${pageMatch[2]}` : `p. ${pageMatch[1]}`) : '';
+                citation = `Dreier Collection${pages ? ', ' + pages : ''}`;
+            }
+            // Harris interviews
+            else if (source.includes('Harris interview') || source.includes('Harris Papers')) {
+                const nameMatch = source.match(/with ([^(,]+)/);
+                const interviewee = nameMatch ? nameMatch[1].trim() : '';
+                citation = `Harris interview${interviewee ? ' (' + interviewee + ')' : ''}`;
+            }
+            // Rollins Archives
+            else if (source.includes('Rollins')) {
+                citation = `Rollins College Archives`;
+            }
+            // Asheville/Dreier Collection
+            else if (source.match(/asheville|Dreier/i) || source.match(/^\d{4}_/)) {
+                const objectId = source.match(/(\d{4}[_\.][^,\s]+)/);
+                const idStr = objectId ? ` ${objectId[1]}` : '';
+                citation = `Dreier Collection${idStr}`;
+            }
+            // Keep original source as-is (don't invent citations)
+            else {
+                citation = source;
+            }
+
+            let html = `<span class="event-source">${esc(citation)}</span>`;
+
+            // Add certainty indicator if available
+            if (certainty && certainty < 80) {
+                html += ` <span class="certainty-low" title="Certitude: ${certainty}%">~</span>`;
+            }
+
+            return html;
+        }
+
+        function renderNational(year, dateKey) {
+            const widget = document.getElementById('national-widget');
+            const el = document.getElementById('national-content');
+            const countEl = document.getElementById('national-count');
+
+            try {
+                // Get events from national data (Asheville, NC, Congress, National)
+                const nationalEvents = nationalData?.events?.[dateKey] || [];
+
+                // Get events from precise chronology (USA)
+                const chronoEvents = chronologyData?.events?.[dateKey]?.usa || [];
+
+                // Also get from archive (legacy data)
+                const archiveEvents = (archiveData?.daily_calendar?.[year]?.[dateKey]?.world_events || [])
+                    .filter(e => e.category === 'usa');
+
+                // Merge all, avoiding duplicates
+                const events = [...nationalEvents];
+                chronoEvents.forEach(e => {
+                    if (!events.some(ce => ce.event === e.event)) {
+                        events.push({...e, category: 'national'});
+                    }
+                });
+                archiveEvents.forEach(e => {
+                    if (!events.some(ce => ce.event === e.event)) {
+                        events.push({...e, category: 'national'});
+                    }
+                });
+
+                // Sort by category priority: asheville, north_carolina, congress, national
+                const categoryOrder = { asheville: 0, north_carolina: 1, congress: 2, national: 3 };
+                events.sort((a, b) => (categoryOrder[a.category] || 3) - (categoryOrder[b.category] || 3));
+
+                widget.style.display = 'flex';
+                countEl.textContent = events.length || '';
+
+                if (events.length === 0) {
+                    el.innerHTML = '<div class="no-events">No national events recorded for this date</div>';
+                } else {
+                    el.innerHTML = events.map(e => renderNationalEvent(e, dateKey)).join('');
+                }
+            } catch (e) { widget.style.display = 'flex'; el.innerHTML = '<div class="no-events">No national events recorded for this date</div>'; }
+        }
+
+        function formatEventDate(dateKey) {
+            const [year, month, day] = dateKey.split('-');
+            const monthShort = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            return `${monthShort[parseInt(month) - 1]} ${parseInt(day)}, ${year}`;
+        }
+
+        function renderNationalEvent(e, startDate) {
+            const categoryLabel = {
+                asheville: 'Asheville',
+                north_carolina: 'NC',
+                congress: 'Congress',
+                national: 'USA'
+            };
+            const categoryBadge = e.category ?
+                `<span class="category-badge ${esc(e.category)}">${categoryLabel[e.category] || e.category}</span>` : '';
+            const dateTag = `<span class="event-date">${formatEventDate(startDate)}</span>`;
+            const topicTag = e.topic ? `<span class="context-tag ${esc(e.topic)}">${esc(e.topic)}</span>` : '';
+            const locationTag = e.location ? `<span>${esc(e.location)}</span>` : '';
+            const sourceTag = e.source ? `<span class="event-source">${esc(e.source)}</span>` : '';
+
+            // Duration display
+            let durationTag = '';
+            if (e.end_date) {
+                const start = new Date(startDate);
+                const end = new Date(e.end_date);
+                const days = Math.round((end - start) / (1000 * 60 * 60 * 24));
+                if (days > 365) {
+                    const years = Math.round(days / 365 * 10) / 10;
+                    durationTag = `<span class="event-duration">→ ${formatEventDate(e.end_date)} (${years} years)</span>`;
+                } else if (days > 30) {
+                    const months = Math.round(days / 30);
+                    durationTag = `<span class="event-duration">→ ${formatEventDate(e.end_date)} (${months} months)</span>`;
+                } else {
+                    durationTag = `<span class="event-duration">→ ${formatEventDate(e.end_date)} (${days} days)</span>`;
+                }
+            }
+
+            return `<div class="context-event">
+                <div class="context-event-title">${dateTag}${categoryBadge}${esc(e.event)}</div>
+                ${e.description ? `<div class="context-event-desc">${esc(e.description)}</div>` : ''}
+                <div class="context-event-meta">
+                    ${topicTag}${durationTag}${locationTag}${sourceTag}
+                </div>
+            </div>`;
+        }
+
+        function renderWorld(year, dateKey) {
+            const widget = document.getElementById('world-widget');
+            const el = document.getElementById('world-content');
+            const countEl = document.getElementById('world-count');
+
+            try {
+                // Get events from precise chronology
+                const chronoEvents = chronologyData?.events?.[dateKey]?.world || [];
+
+                // Also get from archive (legacy data)
+                const archiveEvents = (archiveData?.daily_calendar?.[year]?.[dateKey]?.world_events || [])
+                    .filter(e => e.category === 'world' || e.category === 'international');
+
+                // Merge, avoiding duplicates
+                const events = [...chronoEvents];
+                archiveEvents.forEach(e => {
+                    if (!events.some(ce => ce.event === e.event)) {
+                        events.push(e);
+                    }
+                });
+
+                widget.style.display = 'flex';
+                countEl.textContent = events.length || '';
+
+                if (events.length === 0) {
+                    el.innerHTML = '<div class="no-events">No international events recorded for this date</div>';
+                } else {
+                    el.innerHTML = events.map(e => renderContextEvent(e, dateKey)).join('');
+                }
+            } catch (e) { widget.style.display = 'flex'; el.innerHTML = '<div class="no-events">No international events recorded for this date</div>'; }
+        }
+
+        function renderContextEvent(e, startDate) {
+            const dateTag = `<span class="event-date">${formatEventDate(startDate)}</span>`;
+            const topicTag = e.topic ? `<span class="context-tag ${esc(e.topic)}">${esc(e.topic)}</span>` : '';
+            const locationTag = e.location ? `<span>${esc(e.location)}</span>` : '';
+            const sourceTag = e.source ? `<span class="event-source">${esc(e.source)}</span>` : '';
+
+            // Duration display
+            let durationTag = '';
+            if (e.end_date) {
+                const start = new Date(startDate);
+                const end = new Date(e.end_date);
+                const days = Math.round((end - start) / (1000 * 60 * 60 * 24));
+                if (days > 365) {
+                    const years = Math.round(days / 365 * 10) / 10;
+                    durationTag = `<span class="event-duration">→ ${formatEventDate(e.end_date)} (${years} years)</span>`;
+                } else if (days > 30) {
+                    const months = Math.round(days / 30);
+                    durationTag = `<span class="event-duration">→ ${formatEventDate(e.end_date)} (${months} months)</span>`;
+                } else {
+                    durationTag = `<span class="event-duration">→ ${formatEventDate(e.end_date)} (${days} days)</span>`;
+                }
+            }
+
+            return `<div class="context-event">
+                <div class="context-event-title">${dateTag}${esc(e.event)}</div>
+                ${e.description ? `<div class="context-event-desc">${esc(e.description)}</div>` : ''}
+                <div class="context-event-meta">
+                    ${topicTag}${durationTag}${locationTag}${sourceTag}
+                </div>
+            </div>`;
+        }
+
+        function renderCulture(year, month, day) {
+            const widget = document.getElementById('culture-widget');
+            const el = document.getElementById('culture-content');
+            const countEl = document.getElementById('culture-count');
+
+            try {
+                const dateKey = `${year}-${month}-${day}`;
+                const selectedDate = new Date(dateKey);
+
+                // Collect all culture events with their dates
+                const events = [];
+
+                // Get from precise chronology
+                if (chronologyData?.events) {
+                    for (const [evtDate, data] of Object.entries(chronologyData.events)) {
+                        if (data.culture) {
+                            data.culture.forEach(e => {
+                                const startDate = new Date(evtDate);
+                                const endDate = e.end_date ? new Date(e.end_date) : startDate;
+                                if (selectedDate >= startDate && selectedDate <= endDate) {
+                                    if (!events.some(ce => ce.title === e.title)) {
+                                        events.push({ ...e, eventDate: evtDate });
+                                    }
+                                }
+                            });
+                        }
+                    }
+                }
+
+                // Get from culture file (exact dates and check if active)
+                if (cultureData?.events) {
+                    for (const [evtDate, evtList] of Object.entries(cultureData.events)) {
+                        evtList.forEach(e => {
+                            const startDate = new Date(evtDate);
+                            const endDate = e.end_date ? new Date(e.end_date) : startDate;
+                            if (selectedDate >= startDate && selectedDate <= endDate) {
+                                if (!events.some(ce => ce.title === e.title)) {
+                                    events.push({ ...e, eventDate: evtDate });
+                                }
+                            }
+                        });
+                    }
+                }
+
+                widget.style.display = 'flex';
+                countEl.textContent = events.length || '';
+
+                if (events.length === 0) {
+                    el.innerHTML = '<div class="no-events">No cultural events recorded for this date</div>';
+                    return;
+                }
+
+                el.innerHTML = events.map(e => {
+                    const typeLabels = { film: 'Film', book: 'Book', theater: 'Theater', concert: 'Concert', art: 'Art' };
+                    const typeLabel = typeLabels[e.type] || e.type || '';
+
+                    // Date display
+                    const dateTag = e.eventDate ? `<span class="event-date">${formatEventDate(e.eventDate)}</span>` : '';
+
+                    // Duration for exhibitions, etc.
+                    let durationTag = '';
+                    if (e.end_date && e.eventDate) {
+                        const start = new Date(e.eventDate);
+                        const end = new Date(e.end_date);
+                        const days = Math.round((end - start) / (1000 * 60 * 60 * 24));
+                        if (days > 30) {
+                            const months = Math.round(days / 30);
+                            durationTag = `<span class="event-duration">→ ${formatEventDate(e.end_date)} (${months} months)</span>`;
+                        } else if (days > 0) {
+                            durationTag = `<span class="event-duration">→ ${formatEventDate(e.end_date)} (${days} days)</span>`;
+                        }
+                    }
+
+                    return `<div class="culture-item">
+                        <div>${dateTag}<span class="culture-type ${esc(e.type || '')}">${typeLabel}</span><span class="culture-title">${esc(e.title)}</span></div>
+                        ${durationTag ? `<div>${durationTag}</div>` : ''}
+                        ${e.creator ? `<div class="culture-creator">${esc(e.creator)}</div>` : ''}
+                        ${e.description ? `<div class="culture-desc">${esc(e.description)}</div>` : ''}
+                    </div>`;
+                }).join('');
+            } catch (e) { widget.style.display = 'flex'; el.innerHTML = '<div class="no-events">No cultural events recorded for this date</div>'; }
+        }
+
+        function renderRadio(year, month, day) {
+            const widget = document.getElementById('radio-widget');
+            const el = document.getElementById('radio-content');
+
+            try {
+                const songs = radioData?.bmc_radio_archive?.years?.[year]?.months?.[month]?.days?.[day]?.songs;
+                if (!songs || songs.length === 0) { widget.style.display = 'none'; return; }
+
+                widget.style.display = 'flex';
+
+                el.innerHTML = songs.slice(0, 6).map(s => `
+                    <div class="song-item">
+                        <span class="song-prob">${Math.round(s.probability * 100)}%</span>
+                        <div class="song-info">
+                            <div class="song-title">${esc(s.title)}</div>
+                            <div class="song-artist">${esc(s.artist)}</div>
+                        </div>
+                    </div>
+                `).join('');
+            } catch (e) { widget.style.display = 'none'; }
+        }
+
+        function getLastName(fullName) {
+            if (!fullName) return '';
+            // Remove suffixes like Jr., Sr., II, III, IV, etc.
+            const suffixes = /,?\s*(Jr\.?|Sr\.?|II|III|IV|V)$/i;
+            const cleaned = fullName.replace(suffixes, '').trim();
+            const parts = cleaned.split(' ');
+            return parts[parts.length - 1] || '';
+        }
+
+        function esc(t) {
+            if (!t) return '';
+            const d = document.createElement('div');
+            d.textContent = t;
+            return d.innerHTML;
+        }
+
+        document.getElementById('date-picker').addEventListener('change', search);
         window.onload = loadData;
     </script>
 </body>

@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "description": "Black Mountain College timeline with precise dates",
+    "coverage": "1933-1957",
+    "sources": ["Duberman", "Dreier Collection", "Harris"]
+  },
+  "events": {
+    "1933-09-25": {
+      "event": "Black Mountain College opens",
+      "description": "First day of classes. 22 students, 9 faculty. John Andrew Rice as rector.",
+      "category": "founding",
+      "source": "Duberman, p. 34"
+    },
+    "1933-10-01": {
+      "event": "Josef Albers arrives",
+      "description": "Albers and wife Anni arrive from Germany. Will teach until 1949.",
+      "category": "faculty",
+      "end_date": "1949-03-15",
+      "source": "Duberman, p. 56"
+    },
+    "1936-04-01": {
+      "event": "Harper's Magazine article published",
+      "description": "Louis Adamic's article brings national attention to BMC's educational experiment.",
+      "category": "media",
+      "source": "Harper's Magazine, April 1936"
+    },
+    "1938-06-15": {
+      "event": "European refugee faculty wave",
+      "description": "Artists and intellectuals fleeing Nazi Germany join faculty.",
+      "category": "faculty",
+      "end_date": "1941-12-07",
+      "source": "Duberman"
+    },
+    "1941-12-08": {
+      "event": "War discussion after Pearl Harbor",
+      "description": "Community meeting to discuss US entry into WWII. Some students leave to enlist.",
+      "category": "community",
+      "source": "Harris interviews"
+    },
+    "1942-03-02": {
+      "event": "John Cage CBS Radio broadcast",
+      "description": "Cage's percussion concert broadcast nationally on CBS.",
+      "category": "performance",
+      "source": "CBS Archives"
+    },
+    "1942-01-01": {
+      "event": "Wartime austerity period",
+      "description": "Reduced enrollment, rationing, students leaving for military service.",
+      "category": "institution",
+      "end_date": "1945-08-15",
+      "source": "BMC records"
+    },
+    "1945-06-15": {
+      "event": "Clement Greenberg summer session",
+      "description": "Influential art critic teaches during summer.",
+      "category": "faculty",
+      "end_date": "1945-08-15",
+      "source": "Duberman"
+    },
+    "1946-09-01": {
+      "event": "GI Bill enrollment wave",
+      "description": "Post-war enrollment surge. Veterans using GI Bill benefits.",
+      "category": "students",
+      "end_date": "1949-06-01",
+      "source": "BMC enrollment records"
+    },
+    "1947-06-20": {
+      "event": "Buckminster Fuller first visit",
+      "description": "Fuller visits BMC, beginning long association with college.",
+      "category": "faculty",
+      "end_date": "1947-07-15",
+      "source": "Duberman"
+    },
+    "1948-06-22": {
+      "event": "Summer Art Institute",
+      "description": "Willem de Kooning, Buckminster Fuller, Merce Cunningham, John Cage gather.",
+      "category": "institute",
+      "end_date": "1948-09-01",
+      "source": "Duberman, p. 278"
+    },
+    "1948-07-04": {
+      "event": "Fuller's first dome attempt",
+      "description": "Geodesic dome construction. Collapses but proves concept.",
+      "category": "event",
+      "end_date": "1948-07-06",
+      "source": "Fuller archives"
+    },
+    "1949-03-15": {
+      "event": "Josef Albers leaves for Yale",
+      "description": "Albers accepts position at Yale. Major loss for BMC.",
+      "category": "faculty",
+      "source": "Duberman, p. 301"
+    },
+    "1949-06-01": {
+      "event": "Financial crisis",
+      "description": "Serious budget shortfall. Debate about college future.",
+      "category": "institution",
+      "end_date": "1957-10-21",
+      "source": "BMC Board minutes"
+    },
+    "1950-07-01": {
+      "event": "Charles Olson at BMC",
+      "description": "Poet Charles Olson joins as faculty, transforms college toward poetry.",
+      "category": "faculty",
+      "end_date": "1956-10-01",
+      "source": "Duberman"
+    },
+    "1951-03-01": {
+      "event": "Olson becomes rector",
+      "description": "Charles Olson assumes leadership. Poetry and writing become central.",
+      "category": "administration",
+      "end_date": "1956-10-01",
+      "source": "Duberman"
+    },
+    "1951-04-01": {
+      "event": "Origin magazine launched",
+      "description": "Cid Corman's poetry magazine, closely tied to BMC poets.",
+      "category": "publication",
+      "end_date": "1957-01-01",
+      "source": "Origin archives"
+    },
+    "1952-08-16": {
+      "event": "Theatre Piece No. 1 performed",
+      "description": "Cage, Cunningham, Rauschenberg create first 'Happening'. Historic multimedia event.",
+      "category": "performance",
+      "source": "Duberman, p. 350"
+    },
+    "1953-05-01": {
+      "event": "Black Mountain Review published",
+      "description": "Robert Creeley edits literary magazine. Publishes Ginsberg, Kerouac, Levertov.",
+      "category": "publication",
+      "end_date": "1957-01-01",
+      "source": "Black Mountain Review archives"
+    },
+    "1954-06-15": {
+      "event": "Robert Rauschenberg summer",
+      "description": "Rauschenberg creates key works during summer residency.",
+      "category": "artist",
+      "end_date": "1954-08-30",
+      "source": "Rauschenberg Foundation"
+    },
+    "1955-09-01": {
+      "event": "Enrollment crisis",
+      "description": "Only 9 students enrolled. Minimal operations continue.",
+      "category": "institution",
+      "end_date": "1957-06-01",
+      "source": "Duberman"
+    },
+    "1956-03-01": {
+      "event": "Final semester",
+      "description": "Last regular semester of classes. Only handful of students remain.",
+      "category": "institution",
+      "end_date": "1956-06-15",
+      "source": "Duberman"
+    },
+    "1957-10-21": {
+      "event": "Black Mountain College closes",
+      "description": "Official closure. 24-year experiment in education ends. Property sold.",
+      "category": "closing",
+      "source": "Duberman, p. 410"
+    }
+  }
+}

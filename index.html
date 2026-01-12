@@ -129,7 +129,7 @@
 
         /* Ridgeline Plot */
         .ridgeline-container {
-            background: var(--card-bg);
+            background: transparent;
             border: 1px solid var(--border);
             margin: 0;
             margin-bottom: 1.5rem;
@@ -1080,22 +1080,14 @@
             const maxSummerStudents = Math.max(...ridgelineData.summerStudents.data.map(d => d.count));
             const globalMax = Math.max(maxStudents, maxFaculty, maxStaff, maxGuests, maxSummerFaculty, maxSummerStudents);
 
-            // Grayscale palette - adapts to dark mode
-            const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            const colors = isDark ? {
-                students: '#666666',      // Light gray (back)
-                staff: '#888888',         // Lighter gray
-                guests: '#aaaaaa',        // Even lighter
-                faculty: '#cccccc',       // Near white
-                summerFaculty: '#ffffff', // White - dashed
-                summerStudents: '#ffffff' // White - dotted
-            } : {
-                students: '#999999',      // Medium gray (back)
-                staff: '#666666',         // Dark gray
-                guests: '#444444',        // Darker gray
-                faculty: '#222222',       // Near black
-                summerFaculty: '#000000', // Black - dashed
-                summerStudents: '#000000' // Black - dotted
+            // Colorful palette matching Double Helix and Network visualizations
+            const colors = {
+                students: '#4ecdc4',      // Cyan/teal
+                staff: '#ff6b6b',         // Coral/red
+                guests: '#ffe66d',        // Yellow
+                faculty: '#a86bff',       // Purple
+                summerFaculty: '#ff8c42', // Orange - dashed
+                summerStudents: '#4ecdc4' // Cyan - dotted
             };
 
             // Gradient definitions

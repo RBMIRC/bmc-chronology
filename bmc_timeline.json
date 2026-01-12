@@ -7,16 +7,17 @@
   "events": {
     "1933-09-25": {
       "event": "Black Mountain College opens",
-      "description": "First day of classes. 22 students, 9 faculty. John Andrew Rice as rector.",
+      "description": "First day of classes at Blue Ridge Assembly. 10 founding faculty, 22 students.",
       "category": "founding",
-      "source": "Duberman, p. 34"
+      "founding_faculty": ["John Rice", "Theodore Dreier", "John Evarts", "Frederick Georgia", "Ralph Lounsbury", "William Hinckley", "Joseph J.W. Martin", "Helen Boyden", "Hilda Peggy Loram Bailey", "Elizabeth Vogler"],
+      "founding_students": 22,
+      "source": "Duberman, p. 34; BMC Yearbook"
     },
-    "1933-10-01": {
-      "event": "Josef Albers arrives",
-      "description": "Albers and wife Anni arrive from Germany. Will teach until 1949.",
+    "1933-11-28": {
+      "event": "Josef and Anni Albers arrive",
+      "description": "Josef and Anni Albers arrive from Germany, fleeing the Nazi regime after the Bauhaus was closed. Josef will teach art until 1949.",
       "category": "faculty",
-      "end_date": "1949-03-15",
-      "source": "Duberman, p. 56"
+      "source": "Duberman"
     },
     "1936-04-01": {
       "event": "Harper's Magazine article published",

@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Mountain College Chronology</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon points='10,90 50,20 90,90' fill='%23000'/></svg>">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fonts.css">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -130,6 +129,113 @@
 
         .context-item strong {
             color: var(--text);
+        }
+
+        /* Ridgeline Plot */
+        .ridgeline-container {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            margin: 0;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            position: relative;
+            overflow: visible;
+        }
+
+        .ridgeline-svg {
+            width: 100%;
+            height: 320px;
+            display: block;
+        }
+
+        .ridgeline-area {
+            transition: opacity 0.15s;
+        }
+
+        .ridgeline-area:hover {
+            opacity: 0.9 !important;
+        }
+
+        .ridgeline-cursor-row {
+            position: relative;
+            height: 10px;
+            margin: 0;
+        }
+
+        .ridgeline-cursor-triangle {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-bottom: 8px solid #000;
+            transform: translateX(-6px);
+            transition: left 0.15s ease-out;
+            top: 0;
+        }
+
+        .ridgeline-legend {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-top: 0.5rem;
+            flex-wrap: wrap;
+            padding: 0 1.5rem;
+        }
+
+        .ridgeline-legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            font-size: 0.6rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .ridgeline-legend-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 1px;
+        }
+
+        .ridgeline-year-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.5rem;
+            color: #999;
+            padding: 0;
+            margin-top: 2px;
+        }
+
+        .ridgeline-year-labels span {
+            flex: 1;
+            text-align: center;
+        }
+
+        .ridgeline-year-labels span:first-child {
+            text-align: left;
+        }
+
+        .ridgeline-year-labels span:last-child {
+            text-align: right;
+        }
+
+        .ridgeline-tooltip {
+            position: absolute;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 0.4rem 0.6rem;
+            font-size: 0.65rem;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.15s;
+            z-index: 10;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        }
+
+        .ridgeline-tooltip.visible {
+            opacity: 1;
         }
 
         /* Widget Grid - Masonry layout */
@@ -451,6 +557,23 @@
         .category-badge.asheville { background: #2a1a2a; color: #a6f; border: 1px solid #a6f; }
         .category-badge.north_carolina { background: #2a2a1a; color: #ca6; border: 1px solid #ca6; }
         .category-badge.national { background: #1a1a2a; color: #88c; border: 1px solid #88c; }
+        .category-badge.nyt { background: #1a1a1a; color: #999; border: 1px solid #666; }
+
+        .event-link {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--text-lighter);
+        }
+        .event-link:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        .culture-type.nyt {
+            background: #1a1a1a;
+            color: #999;
+            border: 1px solid #666;
+        }
 
         /* Culture widget */
         .culture-item {
@@ -475,6 +598,28 @@
         .culture-type.theater { background: #2a1a2a; color: #c8c; border: 1px solid #c8c; }
         .culture-type.concert { background: #1a1a2a; color: #88e; border: 1px solid #88e; }
         .culture-type.art { background: #2a2a1a; color: #cc8; border: 1px solid #cc8; }
+
+        /* NY Times headlines */
+        .nyt-headline {
+            padding: 0.4rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nyt-headline:last-child {
+            border-bottom: none;
+        }
+
+        .nyt-headline-text {
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+
+        .nyt-headline-section {
+            font-size: 0.65rem;
+            color: var(--text-lighter);
+            margin-top: 0.2rem;
+            text-transform: uppercase;
+        }
 
         .culture-title {
             font-size: 0.85rem;
@@ -603,6 +748,69 @@
                 align-items: flex-start;
             }
         }
+
+        /* Contact Widget */
+        .contact-desc {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 0.75rem;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .contact-input, .contact-textarea {
+            padding: 0.6rem 0.8rem;
+            font-size: 0.85rem;
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text);
+            font-family: inherit;
+        }
+
+        .contact-textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        .contact-hp {
+            position: absolute;
+            left: -9999px;
+            opacity: 0;
+            height: 0;
+            width: 0;
+        }
+
+        .contact-submit {
+            align-self: flex-start;
+            padding: 0.6rem 1.2rem;
+            font-size: 0.85rem;
+            background: var(--accent);
+            color: var(--bg);
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        .contact-submit:hover {
+            opacity: 0.85;
+        }
+
+        .contact-status {
+            font-size: 0.8rem;
+            padding: 0.5rem 0;
+        }
+
+        .contact-status.success {
+            color: #4a4;
+        }
+
+        .contact-status.error {
+            color: #a44;
+        }
     </style>
 </head>
 <body>
@@ -625,6 +833,17 @@
                 <div class="date-main" id="date-main"></div>
                 <div class="date-day" id="date-day"></div>
                 <div class="year-context" id="year-context"></div>
+            </div>
+
+            <!-- Ridgeline Plot -->
+            <div class="ridgeline-container" id="ridgeline-container">
+                <svg class="ridgeline-svg" id="ridgeline-svg" preserveAspectRatio="none"></svg>
+                <div class="ridgeline-cursor-row">
+                    <div class="ridgeline-cursor-triangle" id="ridgeline-cursor"></div>
+                </div>
+                <div class="ridgeline-year-labels" id="ridgeline-years"></div>
+                <div class="ridgeline-legend" id="ridgeline-legend"></div>
+                <div class="ridgeline-tooltip" id="ridgeline-tooltip"></div>
             </div>
 
             <div class="widget-grid">
@@ -699,6 +918,23 @@
                     </div>
                     <div class="widget-content" id="world-content"></div>
                 </div>
+
+                <!-- Contact Widget -->
+                <div class="widget" id="contact-widget">
+                    <div class="widget-header">
+                        <span class="widget-title">Submit a Correction</span>
+                    </div>
+                    <div class="widget-content">
+                        <p class="contact-desc">Help improve this chronology with corrections or additional sources.</p>
+                        <form id="contact-form" class="contact-form">
+                            <input type="text" name="name" placeholder="Your name" required class="contact-input">
+                            <input type="email" name="email" placeholder="Your email" required class="contact-input">
+                            <textarea name="message" placeholder="Your correction or information..." required class="contact-textarea"></textarea>
+                            <button type="submit" class="contact-submit">Send Message</button>
+                            <div id="contact-status" class="contact-status"></div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -709,8 +945,11 @@
                 DUBERMAN, Martin. <i>Black Mountain: An Exploration in Community</i>. New York: E.P. Dutton, 1972 ·
                 <a href="https://collection.ashevilleart.org/objects-1/portfolio?query=Portfolios%20%3D%20%22579%22" target="_blank">Dreier Collection</a>, Asheville Art Museum (369 docs) ·
                 HARRIS, Mary Emma. <i>The Arts at Black Mountain College</i>. MIT Press, 1987. Papers at Appalachian State University, Boone, NC ·
+                Custom database with documents from the Western Regional Archives in Asheville, the Josef & Anni Albers Foundation in Bethany, Stanford Archives Collection, New York Public Library, and other online resources ·
                 <a href="https://open-meteo.com/" target="_blank">Open-Meteo</a> Historical Weather API ·
-                <a href="https://www.billboard.com/charts/" target="_blank">Billboard</a> Hot 100 Archives
+                <a href="https://www.billboard.com/charts/" target="_blank">Billboard</a> Hot 100 Archives ·
+                <a href="https://developer.nytimes.com/" target="_blank">NY Times</a> Archive API
+                <br><em>This is a personal project and may contain errors.</em>
             </span>
         </footer>
     </div>
@@ -727,6 +966,9 @@
         let chronologyData = null;
         let nationalData = null;
         let bmcTimelineData = null;
+        let nytCultureData = null;
+        let nytNationalData = null;
+        let nytInternationalData = null;
 
         const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -738,9 +980,322 @@
             80: 'Rain showers', 81: 'Showers', 82: 'Heavy showers', 95: 'Thunderstorm'
         };
 
+        // Ridgeline plot data and rendering
+        let ridgelineData = null;
+
+        function computeRidgelineData() {
+            // Compute people counts per year by category
+            const categories = {
+                faculty: { label: 'Faculty', data: [] },
+                students: { label: 'Students', data: [] },
+                staff: { label: 'Staff', data: [] },
+                guests: { label: 'Guests', data: [] },
+                summerFaculty: { label: 'Summer Faculty', data: [] },
+                summerStudents: { label: 'Summer Students', data: [] }
+            };
+
+            for (let year = 1933; year <= 1957; year++) {
+                const counts = { faculty: 0, students: 0, staff: 0, guests: 0, summerFaculty: 0, summerStudents: 0 };
+
+                for (const [name, data] of Object.entries(peopleIndex)) {
+                    const startYear = data.start_year || 9999;
+                    const endYear = data.end_year || 0;
+
+                    if (year >= startYear && year <= endYear) {
+                        const role = (data.role || '').toLowerCase();
+                        // Check for summer institute first (priority)
+                        if (role.includes('summer') && role.includes('faculty')) {
+                            counts.summerFaculty++;
+                        } else if (role.includes('summer') && role.includes('student')) {
+                            counts.summerStudents++;
+                        } else if (role.includes('summer')) {
+                            counts.summerFaculty++; // Default summer to faculty
+                        } else if (role.includes('faculty') || role.includes('admin')) {
+                            counts.faculty++;
+                        } else if (role.includes('student')) {
+                            counts.students++;
+                        } else if (role.includes('staff')) {
+                            counts.staff++;
+                        } else if (role.includes('guest')) {
+                            counts.guests++;
+                        }
+                    }
+                }
+
+                categories.faculty.data.push({ year, count: counts.faculty });
+                categories.students.data.push({ year, count: counts.students });
+                categories.staff.data.push({ year, count: counts.staff });
+                categories.guests.data.push({ year, count: counts.guests });
+                categories.summerFaculty.data.push({ year, count: counts.summerFaculty });
+                categories.summerStudents.data.push({ year, count: counts.summerStudents });
+            }
+
+            return categories;
+        }
+
+        function renderRidgeline() {
+            if (!peopleIndex) return;
+
+            ridgelineData = computeRidgelineData();
+            const svg = document.getElementById('ridgeline-svg');
+            const container = document.getElementById('ridgeline-container');
+            const legend = document.getElementById('ridgeline-legend');
+
+            // Use fixed viewBox coordinates (will scale to SVG size)
+            const width = 1000;  // Fixed coordinate system
+            const height = 320;
+            const padding = { top: 10, right: 0, bottom: 5, left: 0 };
+            const plotWidth = width;
+            const plotHeight = height - padding.top - padding.bottom;
+
+            // Set viewBox for proper scaling
+            svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+
+            const numYears = 25; // 1933 to 1957 inclusive
+
+            // Calculate total per year for stacked chart
+            const totals = [];
+            for (let i = 0; i < numYears; i++) {
+                totals.push(
+                    ridgelineData.students.data[i].count +
+                    ridgelineData.faculty.data[i].count +
+                    ridgelineData.staff.data[i].count +
+                    ridgelineData.guests.data[i].count
+                );
+            }
+            const maxTotal = Math.max(...totals);
+
+            // Simple line chart for each category - not stacked, just overlapping lines
+            const categories = [
+                { key: 'students', color: '#000000', label: 'Students' },
+                { key: 'faculty', color: '#666666', label: 'Faculty' }
+            ];
+
+            const baseLineY = height - padding.bottom;
+            let svgContent = '';
+
+            // Find individual max for each to scale properly
+            const maxStudents = Math.max(...ridgelineData.students.data.map(d => d.count));
+            const maxFaculty = Math.max(...ridgelineData.faculty.data.map(d => d.count));
+            const maxStaff = Math.max(...ridgelineData.staff.data.map(d => d.count));
+            const maxGuests = Math.max(...ridgelineData.guests.data.map(d => d.count));
+            const maxSummerFaculty = Math.max(...ridgelineData.summerFaculty.data.map(d => d.count));
+            const maxSummerStudents = Math.max(...ridgelineData.summerStudents.data.map(d => d.count));
+            const globalMax = Math.max(maxStudents, maxFaculty, maxStaff, maxGuests, maxSummerFaculty, maxSummerStudents);
+
+            // Grayscale palette - adapts to dark mode
+            const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const colors = isDark ? {
+                students: '#666666',      // Light gray (back)
+                staff: '#888888',         // Lighter gray
+                guests: '#aaaaaa',        // Even lighter
+                faculty: '#cccccc',       // Near white
+                summerFaculty: '#ffffff', // White - dashed
+                summerStudents: '#ffffff' // White - dotted
+            } : {
+                students: '#999999',      // Medium gray (back)
+                staff: '#666666',         // Dark gray
+                guests: '#444444',        // Darker gray
+                faculty: '#222222',       // Near black
+                summerFaculty: '#000000', // Black - dashed
+                summerStudents: '#000000' // Black - dotted
+            };
+
+            // Gradient definitions
+            svgContent += `
+                <defs>
+                    <linearGradient id="gradStudents" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:${colors.students};stop-opacity:0.7"/>
+                        <stop offset="100%" style="stop-color:${colors.students};stop-opacity:0.05"/>
+                    </linearGradient>
+                    <linearGradient id="gradFaculty" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:${colors.faculty};stop-opacity:0.7"/>
+                        <stop offset="100%" style="stop-color:${colors.faculty};stop-opacity:0.05"/>
+                    </linearGradient>
+                    <linearGradient id="gradStaff" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:${colors.staff};stop-opacity:0.7"/>
+                        <stop offset="100%" style="stop-color:${colors.staff};stop-opacity:0.05"/>
+                    </linearGradient>
+                    <linearGradient id="gradGuests" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:${colors.guests};stop-opacity:0.7"/>
+                        <stop offset="100%" style="stop-color:${colors.guests};stop-opacity:0.05"/>
+                    </linearGradient>
+                </defs>
+            `;
+
+            // White background
+            // Background handled by container CSS (supports dark mode)
+
+            // Helper function to draw area + line (uses globalMax for proportional scaling)
+            function drawCategory(data, gradId, color, strokeWidth) {
+                // Area with gradient
+                let areaPath = `M ${padding.left} ${baseLineY}`;
+                data.forEach((d, i) => {
+                    const x = padding.left + ((i + 0.5) / numYears) * plotWidth;
+                    const h = globalMax > 0 ? (d.count / globalMax) * plotHeight * 0.85 : 0;
+                    areaPath += ` L ${x} ${baseLineY - h}`;
+                });
+                areaPath += ` L ${plotWidth} ${baseLineY} Z`;
+                svgContent += `<path d="${areaPath}" fill="url(#${gradId})"/>`;
+
+                // Line on top
+                if (data[0].count > 0) {
+                    let linePath = `M ${padding.left + (0.5 / numYears) * plotWidth} ${baseLineY - (data[0].count / globalMax) * plotHeight * 0.85}`;
+                    data.forEach((d, i) => {
+                        if (i === 0) return;
+                        const x = padding.left + ((i + 0.5) / numYears) * plotWidth;
+                        const h = globalMax > 0 ? (d.count / globalMax) * plotHeight * 0.85 : 0;
+                        linePath += ` L ${x} ${baseLineY - h}`;
+                    });
+                    svgContent += `<path d="${linePath}" fill="none" stroke="${color}" stroke-width="${strokeWidth}"/>`;
+                }
+            }
+
+            // Draw summer lines at summer position (July-Sept) with dashed/dotted style
+            function drawSummerLine(data, color, dashArray, strokeWidth) {
+                const yearWidth = plotWidth / numYears;
+                const summerCenter = 0.625; // July-Aug center
+
+                data.forEach((d, i) => {
+                    if (d.count === 0) return;
+                    const yearStart = padding.left + (i / numYears) * plotWidth;
+                    const x = yearStart + summerCenter * yearWidth;
+                    const h = globalMax > 0 ? (d.count / globalMax) * plotHeight * 0.85 : 0;
+
+                    // Draw vertical line at summer position
+                    svgContent += `<line x1="${x}" y1="${baseLineY}" x2="${x}" y2="${baseLineY - h}"
+                        stroke="${color}" stroke-width="${strokeWidth}" stroke-dasharray="${dashArray}"/>`;
+                });
+            }
+
+            // Draw all categories (order: back to front)
+            drawCategory(ridgelineData.students.data, 'gradStudents', colors.students, 2);
+            drawCategory(ridgelineData.staff.data, 'gradStaff', colors.staff, 1.5);
+            drawCategory(ridgelineData.guests.data, 'gradGuests', colors.guests, 1.5);
+            drawCategory(ridgelineData.faculty.data, 'gradFaculty', colors.faculty, 2);
+
+            // Draw summer lines on top: dashed for faculty, dotted for students
+            drawSummerLine(ridgelineData.summerFaculty.data, colors.summerFaculty, '8,4', 2);
+            drawSummerLine(ridgelineData.summerStudents.data, colors.summerStudents, '2,3', 2);
+
+            svg.innerHTML = svgContent;
+
+            // Render legend with gradient samples and line styles
+            legend.innerHTML = `
+                <div class="ridgeline-legend-item">
+                    <svg width="24" height="12">
+                        <defs><linearGradient id="legStudents" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:${colors.students};stop-opacity:0.7"/><stop offset="100%" style="stop-color:${colors.students};stop-opacity:0.1"/></linearGradient></defs>
+                        <rect x="0" y="0" width="24" height="12" fill="url(#legStudents)"/>
+                        <line x1="0" y1="2" x2="24" y2="2" stroke="${colors.students}" stroke-width="2"/>
+                    </svg>
+                    <span>Students</span>
+                </div>
+                <div class="ridgeline-legend-item">
+                    <svg width="24" height="12">
+                        <defs><linearGradient id="legFaculty" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:${colors.faculty};stop-opacity:0.7"/><stop offset="100%" style="stop-color:${colors.faculty};stop-opacity:0.1"/></linearGradient></defs>
+                        <rect x="0" y="0" width="24" height="12" fill="url(#legFaculty)"/>
+                        <line x1="0" y1="2" x2="24" y2="2" stroke="${colors.faculty}" stroke-width="2"/>
+                    </svg>
+                    <span>Faculty</span>
+                </div>
+                <div class="ridgeline-legend-item">
+                    <svg width="24" height="12">
+                        <line x1="0" y1="6" x2="24" y2="6" stroke="${colors.summerFaculty}" stroke-width="2" stroke-dasharray="8,4"/>
+                    </svg>
+                    <span>Summer Faculty</span>
+                </div>
+                <div class="ridgeline-legend-item">
+                    <svg width="24" height="12">
+                        <line x1="0" y1="6" x2="24" y2="6" stroke="${colors.summerStudents}" stroke-width="2" stroke-dasharray="2,3"/>
+                    </svg>
+                    <span>Summer Students</span>
+                </div>
+                <div class="ridgeline-legend-item">
+                    <svg width="24" height="12">
+                        <defs><linearGradient id="legStaff" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:${colors.staff};stop-opacity:0.7"/><stop offset="100%" style="stop-color:${colors.staff};stop-opacity:0.1"/></linearGradient></defs>
+                        <rect x="0" y="0" width="24" height="12" fill="url(#legStaff)"/>
+                        <line x1="0" y1="2" x2="24" y2="2" stroke="${colors.staff}" stroke-width="2"/>
+                    </svg>
+                    <span>Staff</span>
+                </div>
+                <div class="ridgeline-legend-item">
+                    <svg width="24" height="12">
+                        <defs><linearGradient id="legGuests" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:${colors.guests};stop-opacity:0.7"/><stop offset="100%" style="stop-color:${colors.guests};stop-opacity:0.1"/></linearGradient></defs>
+                        <rect x="0" y="0" width="24" height="12" fill="url(#legGuests)"/>
+                        <line x1="0" y1="2" x2="24" y2="2" stroke="${colors.guests}" stroke-width="2"/>
+                    </svg>
+                    <span>Guests</span>
+                </div>
+            `;
+
+            // Render year labels - all years from 1933 to 1957
+            const yearsEl = document.getElementById('ridgeline-years');
+            let yearsHtml = '';
+            for (let y = 1933; y <= 1957; y++) {
+                yearsHtml += `<span>${y}</span>`;
+            }
+            yearsEl.innerHTML = yearsHtml;
+
+            // Add hover interaction
+            svg.addEventListener('mousemove', (e) => {
+                const rect = svg.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const yearIndex = Math.floor((x / rect.width) * numYears);
+                const year = 1933 + Math.max(0, Math.min(numYears - 1, yearIndex));
+
+                const tooltip = document.getElementById('ridgeline-tooltip');
+                const counts = {};
+                Object.entries(ridgelineData).forEach(([key, cat]) => {
+                    const d = cat.data.find(d => d.year === year);
+                    if (d) counts[cat.label] = d.count;
+                });
+
+                tooltip.innerHTML = `<strong>${year}</strong><br>` +
+                    Object.entries(counts).map(([k, v]) => `${k}: ${v}`).join('<br>');
+                tooltip.style.left = `${Math.min(e.clientX - rect.left + 10, rect.width - 120)}px`;
+                tooltip.style.top = `${e.clientY - rect.top - 60}px`;
+                tooltip.classList.add('visible');
+            });
+
+            svg.addEventListener('mouseleave', () => {
+                document.getElementById('ridgeline-tooltip').classList.remove('visible');
+            });
+
+            // Make SVG clickable to change date
+            svg.style.cursor = 'pointer';
+            svg.addEventListener('click', (e) => {
+                const rect = svg.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const yearIndex = Math.floor((x / rect.width) * numYears);
+                const year = 1933 + Math.max(0, Math.min(numYears - 1, yearIndex));
+
+                // Set date picker to July 1 of clicked year
+                document.getElementById('date-picker').value = `${year}-07-01`;
+                search();
+            });
+        }
+
+        function updateRidgelineCursor(dateValue) {
+            const cursor = document.getElementById('ridgeline-cursor');
+            if (!cursor) return;
+
+            const year = parseInt(dateValue.substring(0, 4));
+            const month = parseInt(dateValue.substring(5, 7));
+            const day = parseInt(dateValue.substring(8, 10));
+
+            // Calculate precise position - data points are centered in year segments
+            // Each year segment is 1/25 of width, data point at center (+0.5)
+            const yearIndex = year - 1933;
+            const yearFraction = (month - 1) / 12 + day / 365;
+            const yearPos = (yearIndex + 0.5 + yearFraction) / 25;
+
+            // Position as percentage of container width
+            cursor.style.left = `${Math.min(Math.max(yearPos * 100, 0), 100)}%`;
+        }
+
         async function loadData() {
             try {
-                const [archiveRes, weatherRes, radioRes, coursesRes, contextRes, peopleRes, verifiedRes, cultureRes, chronoRes, nationalRes, bmcTimelineRes] = await Promise.all([
+                const [archiveRes, weatherRes, radioRes, coursesRes, contextRes, peopleRes, verifiedRes, cultureRes, chronoRes, nationalRes, bmcTimelineRes, nytCultureRes, nytNationalRes, nytIntlRes] = await Promise.all([
                     fetch('bmc_complete_archive.json'),
                     fetch('bmc_weather.json'),
                     fetch('bmc_radio_archive_1933-1957.json'),
@@ -751,7 +1306,10 @@
                     fetch('bmc_culture_1933-1957.json'),
                     fetch('bmc_chronology_precise.json'),
                     fetch('bmc_national_events.json'),
-                    fetch('bmc_timeline.json')
+                    fetch('bmc_timeline.json'),
+                    fetch('nyt_culture.json').catch(() => ({ ok: false })),
+                    fetch('nyt_national.json').catch(() => ({ ok: false })),
+                    fetch('nyt_international.json').catch(() => ({ ok: false }))
                 ]);
 
                 archiveData = await archiveRes.json();
@@ -765,8 +1323,12 @@
                 chronologyData = await chronoRes.json();
                 nationalData = await nationalRes.json();
                 bmcTimelineData = await bmcTimelineRes.json();
+                if (nytCultureRes.ok) nytCultureData = await nytCultureRes.json();
+                if (nytNationalRes.ok) nytNationalData = await nytNationalRes.json();
+                if (nytIntlRes.ok) nytInternationalData = await nytIntlRes.json();
 
                 document.getElementById('loading').style.display = 'none';
+                renderRidgeline();
                 search();
             } catch (err) {
                 document.getElementById('loading').textContent = 'Error: ' + err.message;
@@ -797,6 +1359,9 @@
             renderNational(year, dateValue);
             renderWorld(year, dateValue);
             renderRadio(year, month, day);
+
+            // Update ridgeline cursor position
+            updateRidgelineCursor(dateValue);
 
             // Optimize widget layout - reorder by height for better masonry
             optimizeWidgetLayout();
@@ -883,6 +1448,100 @@
             }).join('');
         }
 
+        // Calculate sunrise/sunset for Black Mountain College (35.6°N, 82.3°W)
+        function getSunTimes(year, month, day) {
+            const lat = 35.6;
+            const lng = -82.3;
+            const date = new Date(year, month - 1, day);
+
+            // Day of year
+            const start = new Date(year, 0, 0);
+            const diff = date - start;
+            const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+            // Solar calculations
+            const zenith = 90.833;
+            const D2R = Math.PI / 180;
+            const R2D = 180 / Math.PI;
+
+            // Approximate time
+            const lngHour = lng / 15;
+            const tRise = dayOfYear + ((6 - lngHour) / 24);
+            const tSet = dayOfYear + ((18 - lngHour) / 24);
+
+            // Sun's mean anomaly
+            const MRise = (0.9856 * tRise) - 3.289;
+            const MSet = (0.9856 * tSet) - 3.289;
+
+            // Sun's true longitude
+            function trueLong(M) {
+                let L = M + (1.916 * Math.sin(M * D2R)) + (0.020 * Math.sin(2 * M * D2R)) + 282.634;
+                while (L > 360) L -= 360;
+                while (L < 0) L += 360;
+                return L;
+            }
+
+            const LRise = trueLong(MRise);
+            const LSet = trueLong(MSet);
+
+            // Right ascension
+            function rightAsc(L) {
+                let RA = R2D * Math.atan(0.91764 * Math.tan(L * D2R));
+                while (RA > 360) RA -= 360;
+                while (RA < 0) RA += 360;
+                const Lquad = Math.floor(L / 90) * 90;
+                const RAquad = Math.floor(RA / 90) * 90;
+                RA = RA + (Lquad - RAquad);
+                return RA / 15;
+            }
+
+            const RARise = rightAsc(LRise);
+            const RASet = rightAsc(LSet);
+
+            // Sun's declination
+            function sinDec(L) { return 0.39782 * Math.sin(L * D2R); }
+            function cosDec(L) { return Math.cos(Math.asin(sinDec(L))); }
+
+            // Hour angle
+            function hourAngle(L, rise) {
+                const cosH = (Math.cos(zenith * D2R) - (sinDec(L) * Math.sin(lat * D2R))) / (cosDec(L) * Math.cos(lat * D2R));
+                if (cosH > 1 || cosH < -1) return null;
+                let H = R2D * Math.acos(cosH);
+                return rise ? (360 - H) / 15 : H / 15;
+            }
+
+            const HRise = hourAngle(LRise, true);
+            const HSet = hourAngle(LSet, false);
+
+            if (HRise === null || HSet === null) return { sunrise: '--:--', sunset: '--:--' };
+
+            // Local time
+            const TRise = HRise + RARise - (0.06571 * tRise) - 6.622;
+            const TSet = HSet + RASet - (0.06571 * tSet) - 6.622;
+
+            // UTC time
+            let UTRise = TRise - lngHour;
+            let UTSet = TSet - lngHour;
+            while (UTRise < 0) UTRise += 24;
+            while (UTRise >= 24) UTRise -= 24;
+            while (UTSet < 0) UTSet += 24;
+            while (UTSet >= 24) UTSet -= 24;
+
+            // Convert to EST (UTC-5)
+            let localRise = UTRise - 5;
+            let localSet = UTSet - 5;
+            if (localRise < 0) localRise += 24;
+            if (localSet < 0) localSet += 24;
+
+            function formatTime(t) {
+                const h = Math.floor(t);
+                const m = Math.round((t - h) * 60);
+                return `${h}:${m.toString().padStart(2, '0')}`;
+            }
+
+            return { sunrise: formatTime(localRise), sunset: formatTime(localSet) };
+        }
+
         function renderWeather(year, month, day) {
             const widget = document.getElementById('weather-widget');
             const el = document.getElementById('weather-content');
@@ -893,6 +1552,7 @@
 
                 widget.style.display = 'flex';
                 const desc = weatherCodes[d.weather_code] || '';
+                const sun = getSunTimes(parseInt(year), parseInt(month), parseInt(day));
 
                 el.innerHTML = `
                     <div class="weather-item">
@@ -904,12 +1564,12 @@
                         <div class="weather-label">Precip (mm)</div>
                     </div>
                     <div class="weather-item">
-                        <div class="weather-value">${d.wind_speed_10m_max}</div>
-                        <div class="weather-label">Wind (km/h)</div>
+                        <div class="weather-value">${sun.sunrise}</div>
+                        <div class="weather-label">Sunrise</div>
                     </div>
                     <div class="weather-item">
-                        <div class="weather-value">${(d.sunshine_duration / 3600).toFixed(1)}</div>
-                        <div class="weather-label">Sun (hours)</div>
+                        <div class="weather-value">${sun.sunset}</div>
+                        <div class="weather-label">Sunset</div>
                     </div>
                     ${desc ? `<div class="weather-desc">${desc}</div>` : ''}
                 `;
@@ -953,6 +1613,12 @@
                 const staffMap = new Map();
                 const guestsMap = new Map();
                 const familyMap = new Map();
+                const summerFacultyMap = new Map();
+                const summerStudentsMap = new Map();
+
+                // Get month from dateKey to check for summer (June-September = 06-09)
+                const month = parseInt(dateKey.split('-')[1]);
+                const isSummerMonth = month >= 6 && month <= 9;
 
                 // Get people from peopleIndex (verified data)
                 for (const [name, data] of Object.entries(peopleIndex)) {
@@ -964,8 +1630,14 @@
                     const person = { name, ...data };
                     const role = (data.role || '').toLowerCase();
 
-                    // Classify by role (order matters for multi-role people)
-                    if (role.includes('faculty') || role.includes('admin')) {
+                    // Classify by role - check Summer first (only show in summer months)
+                    if (role.includes('summer') && role.includes('faculty')) {
+                        if (isSummerMonth) summerFacultyMap.set(name, person);
+                    } else if (role.includes('summer') && role.includes('student')) {
+                        if (isSummerMonth) summerStudentsMap.set(name, person);
+                    } else if (role.includes('summer')) {
+                        if (isSummerMonth) summerFacultyMap.set(name, person);
+                    } else if (role.includes('faculty') || role.includes('admin')) {
                         facultyMap.set(name, person);
                     } else if (role.includes('student')) {
                         studentsMap.set(name, person);
@@ -985,19 +1657,23 @@
                 const staff = Array.from(staffMap.values()).sort((a, b) => a.name.localeCompare(b.name));
                 const guests = Array.from(guestsMap.values()).sort((a, b) => a.name.localeCompare(b.name));
                 const family = Array.from(familyMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+                const summerFaculty = Array.from(summerFacultyMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+                const summerStudents = Array.from(summerStudentsMap.values()).sort((a, b) => a.name.localeCompare(b.name));
 
-                if (faculty.length === 0 && students.length === 0) {
+                if (faculty.length === 0 && students.length === 0 && summerFaculty.length === 0 && summerStudents.length === 0) {
                     widget.style.display = 'none';
                     return;
                 }
 
                 widget.style.display = 'flex';
-                const totalCount = faculty.length + students.length + staff.length + guests.length + family.length;
+                const totalCount = faculty.length + students.length + staff.length + guests.length + family.length + summerFaculty.length + summerStudents.length;
                 total.textContent = totalCount + ' people';
 
                 el.innerHTML = `
                     ${faculty.length > 0 ? createPeopleDropdown('Faculty', faculty, true) : ''}
                     ${students.length > 0 ? createPeopleDropdown('Students', students, false) : ''}
+                    ${summerFaculty.length > 0 ? createPeopleDropdown('Summer Faculty', summerFaculty, false) : ''}
+                    ${summerStudents.length > 0 ? createPeopleDropdown('Summer Students', summerStudents, false) : ''}
                     ${staff.length > 0 ? createPeopleDropdown('Staff', staff, false) : ''}
                     ${guests.length > 0 ? createPeopleDropdown('Guests', guests, false) : ''}
                     ${family.length > 0 ? createPeopleDropdown('Family', family, false) : ''}
@@ -1281,6 +1957,16 @@
                 const archiveEvents = (archiveData?.daily_calendar?.[year]?.[dateKey]?.world_events || [])
                     .filter(e => e.category === 'usa');
 
+                // Get NYT national headlines for this date
+                const nytEvents = (nytNationalData || [])
+                    .filter(h => h.date === dateKey)
+                    .map(h => ({
+                        event: h.title,
+                        category: 'nyt',
+                        source: 'NY Times',
+                        url: h.url
+                    }));
+
                 // Merge all, avoiding duplicates
                 const events = [...nationalEvents];
                 chronoEvents.forEach(e => {
@@ -1293,9 +1979,11 @@
                         events.push({...e, category: 'national'});
                     }
                 });
+                // Add NYT at the end
+                nytEvents.forEach(e => events.push(e));
 
-                // Sort by category priority: asheville, north_carolina, congress, national
-                const categoryOrder = { asheville: 0, north_carolina: 1, congress: 2, national: 3 };
+                // Sort by category priority: asheville, north_carolina, congress, national, nyt
+                const categoryOrder = { asheville: 0, north_carolina: 1, congress: 2, national: 3, nyt: 4 };
                 events.sort((a, b) => (categoryOrder[a.category] || 3) - (categoryOrder[b.category] || 3));
 
                 widget.style.display = 'flex';
@@ -1320,7 +2008,8 @@
                 asheville: 'Asheville',
                 north_carolina: 'NC',
                 congress: 'Congress',
-                national: 'USA'
+                national: 'USA',
+                nyt: 'NYT'
             };
             const categoryBadge = e.category ?
                 `<span class="category-badge ${esc(e.category)}">${categoryLabel[e.category] || e.category}</span>` : '';
@@ -1346,8 +2035,12 @@
                 }
             }
 
+            const eventText = e.url ?
+                `<a href="${esc(e.url)}" target="_blank" class="event-link">${esc(e.event)}</a>` :
+                esc(e.event);
+
             return `<div class="context-event">
-                <div class="context-event-title">${dateTag}${categoryBadge}${esc(e.event)}</div>
+                <div class="context-event-title">${dateTag}${categoryBadge}${eventText}</div>
                 ${e.description ? `<div class="context-event-desc">${esc(e.description)}</div>` : ''}
                 <div class="context-event-meta">
                     ${topicTag}${durationTag}${locationTag}${sourceTag}
@@ -1368,6 +2061,15 @@
                 const archiveEvents = (archiveData?.daily_calendar?.[year]?.[dateKey]?.world_events || [])
                     .filter(e => e.category === 'world' || e.category === 'international');
 
+                // Get NYT international headlines for this date
+                const nytEvents = (nytInternationalData || [])
+                    .filter(h => h.date === dateKey)
+                    .map(h => ({
+                        event: h.title,
+                        source: 'NY Times',
+                        url: h.url
+                    }));
+
                 // Merge, avoiding duplicates
                 const events = [...chronoEvents];
                 archiveEvents.forEach(e => {
@@ -1375,6 +2077,8 @@
                         events.push(e);
                     }
                 });
+                // Add NYT at the end
+                nytEvents.forEach(e => events.push(e));
 
                 widget.style.display = 'flex';
                 countEl.textContent = events.length || '';
@@ -1410,8 +2114,12 @@
                 }
             }
 
+            const eventText = e.url ?
+                `<a href="${esc(e.url)}" target="_blank" class="event-link">${esc(e.event)}</a>` :
+                esc(e.event);
+
             return `<div class="context-event">
-                <div class="context-event-title">${dateTag}${esc(e.event)}</div>
+                <div class="context-event-title">${dateTag}${eventText}</div>
                 ${e.description ? `<div class="context-event-desc">${esc(e.description)}</div>` : ''}
                 <div class="context-event-meta">
                     ${topicTag}${durationTag}${locationTag}${sourceTag}
@@ -1463,6 +2171,17 @@
                     }
                 }
 
+                // Get NYT culture headlines for this date
+                const nytEvents = (nytCultureData || [])
+                    .filter(h => h.date === dateKey)
+                    .map(h => ({
+                        title: h.title,
+                        type: 'nyt',
+                        eventDate: dateKey,
+                        url: h.url
+                    }));
+                nytEvents.forEach(e => events.push(e));
+
                 widget.style.display = 'flex';
                 countEl.textContent = events.length || '';
 
@@ -1472,7 +2191,7 @@
                 }
 
                 el.innerHTML = events.map(e => {
-                    const typeLabels = { film: 'Film', book: 'Book', theater: 'Theater', concert: 'Concert', art: 'Art' };
+                    const typeLabels = { film: 'Film', book: 'Book', theater: 'Theater', concert: 'Concert', art: 'Art', nyt: 'NYT' };
                     const typeLabel = typeLabels[e.type] || e.type || '';
 
                     // Date display
@@ -1492,8 +2211,13 @@
                         }
                     }
 
+                    // Title with optional URL
+                    const titleText = e.url ?
+                        `<a href="${esc(e.url)}" target="_blank" class="event-link">${esc(e.title)}</a>` :
+                        esc(e.title);
+
                     return `<div class="culture-item">
-                        <div>${dateTag}<span class="culture-type ${esc(e.type || '')}">${typeLabel}</span><span class="culture-title">${esc(e.title)}</span></div>
+                        <div>${dateTag}<span class="culture-type ${esc(e.type || '')}">${typeLabel}</span><span class="culture-title">${titleText}</span></div>
                         ${durationTag ? `<div>${durationTag}</div>` : ''}
                         ${e.creator ? `<div class="culture-creator">${esc(e.creator)}</div>` : ''}
                         ${e.description ? `<div class="culture-desc">${esc(e.description)}</div>` : ''}
@@ -1546,7 +2270,59 @@
         }
 
         document.getElementById('date-picker').addEventListener('change', search);
-        window.onload = loadData;
+
+        // Contact form initialization (mailto approach for static site)
+        function initContactForm() {
+            const form = document.getElementById('contact-form');
+            const status = document.getElementById('contact-status');
+
+            if (!form || !status) return;
+
+            // Email parts (split to avoid scrapers)
+            const emailUser = 'retconblackmountain';
+            const emailDomain = 'gmail.com';
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                const name = form.querySelector('[name="name"]').value.trim();
+                const email = form.querySelector('[name="email"]').value.trim();
+                const message = form.querySelector('[name="message"]').value.trim();
+
+                if (!name || !email || !message) {
+                    status.textContent = 'Please fill in all fields.';
+                    status.className = 'contact-status error';
+                    return;
+                }
+
+                // Build mailto URL
+                const subject = encodeURIComponent('BMC Chronology - Correction from ' + name);
+                const body = encodeURIComponent(
+                    'From: ' + name + '\n' +
+                    'Email: ' + email + '\n\n' +
+                    message
+                );
+
+                const mailtoUrl = 'mailto:' + emailUser + '@' + emailDomain + '?subject=' + subject + '&body=' + body;
+
+                // Open email client
+                window.location.href = mailtoUrl;
+
+                status.textContent = 'Opening your email client...';
+                status.className = 'contact-status success';
+
+                // Reset after delay
+                setTimeout(() => {
+                    form.reset();
+                    status.textContent = '';
+                }, 3000);
+            });
+        }
+
+        window.onload = function() {
+            initContactForm();
+            loadData();
+        };
     </script>
 </body>
 </html>

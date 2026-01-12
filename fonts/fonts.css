@@ -1,0 +1,24 @@
+/* Source Serif Pro - Local */
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('source-serif-pro-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('source-serif-pro-600.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('source-serif-pro-italic.ttf') format('truetype');
+}

@@ -929,7 +929,7 @@
                 const guestsMap = new Map();
                 const familyMap = new Map();
 
-                // Get people from peopleIndex (from BlackMountainPeople.txt)
+                // Get people from peopleIndex (verified data from BlackMountainPeople.txt)
                 for (const [name, data] of Object.entries(peopleIndex)) {
                     const startYear = data.start_year || 9999;
                     const endYear = data.end_year || 0;
@@ -1501,11 +1501,16 @@
 
         function getLastName(fullName) {
             if (!fullName) return '';
-            // Remove suffixes like Jr., Sr., II, III, IV, etc.
-            const suffixes = /,?\s*(Jr\.?|Sr\.?|II|III|IV|V)$/i;
-            const cleaned = fullName.replace(suffixes, '').trim();
-            const parts = cleaned.split(' ');
-            return parts[parts.length - 1] || '';
+            // Handle multiple instructors separated by comma
+            const instructors = fullName.split(',').map(name => {
+                const trimmed = name.trim();
+                // Remove suffixes like Jr., Sr., II, III, IV, etc.
+                const suffixes = /,?\s*(Jr\.?|Sr\.?|II|III|IV|V)$/i;
+                const cleaned = trimmed.replace(suffixes, '').trim();
+                const parts = cleaned.split(' ');
+                return parts[parts.length - 1] || '';
+            }).filter(n => n);
+            return instructors.join(', ');
         }
 
         function esc(t) {

@@ -2,7 +2,13 @@
   "metadata": {
     "description": "Cultural events 1933-1957: films, books, theater, concerts, art",
     "coverage": "1933-1957",
-    "categories": ["film", "book", "theater", "concert", "art"]
+    "categories": [
+      "film",
+      "book",
+      "theater",
+      "concert",
+      "art"
+    ]
   },
   "events": {
     "1933-03-02": [
@@ -35,6 +41,12 @@
         "title": "Porgy and Bess",
         "creator": "George Gershwin",
         "description": "Gershwin's 'folk opera' premieres at Alvin Theatre. 'Summertime' becomes jazz standard."
+      },
+      {
+        "type": "theater",
+        "title": "Porgy and Bess premieres",
+        "creator": "George Gershwin",
+        "description": "Folk opera at Alvin Theatre. 'Summertime' becomes standard."
       }
     ],
     "1935-08-21": [
@@ -51,6 +63,12 @@
         "title": "MoMA: Cubism and Abstract Art",
         "creator": "Alfred H. Barr Jr.",
         "description": "Landmark exhibition defines modernist canon. First comprehensive survey of abstract art."
+      },
+      {
+        "type": "art",
+        "title": "Cubism and Abstract Art",
+        "creator": "Alfred Barr, MoMA",
+        "description": "Landmark exhibition defines modernist canon."
       }
     ],
     "1937-07-12": [
@@ -115,6 +133,12 @@
         "title": "Gone with the Wind",
         "creator": "Victor Fleming",
         "description": "David O. Selznick's Civil War epic premieres in Atlanta. Vivien Leigh and Clark Gable star."
+      },
+      {
+        "type": "film",
+        "title": "Gone with the Wind premiere",
+        "creator": "Victor Fleming",
+        "description": "Atlanta premiere. Vivien Leigh, Clark Gable. 10 Oscars."
       }
     ],
     "1940-12-25": [
@@ -163,6 +187,12 @@
         "title": "Oklahoma!",
         "creator": "Rodgers and Hammerstein",
         "description": "Revolutionary musical integrates song, dance, and story. Opens at St. James Theatre."
+      },
+      {
+        "type": "theater",
+        "title": "Oklahoma! opens",
+        "creator": "Rodgers & Hammerstein",
+        "description": "St. James Theatre. Revolutionizes musical theater."
       }
     ],
     "1944-12-26": [
@@ -259,6 +289,12 @@
         "title": "The Cocktail Party",
         "creator": "T.S. Eliot",
         "description": "Eliot's verse drama opens on Broadway at Henry Miller's Theatre. Rex Harrison stars."
+      },
+      {
+        "type": "film",
+        "title": "The Asphalt Jungle",
+        "creator": "John Huston",
+        "description": "Heist film. Marilyn Monroe early role."
       }
     ],
     "1950-08-25": [
@@ -267,6 +303,12 @@
         "title": "Sunset Boulevard",
         "creator": "Billy Wilder",
         "description": "Gloria Swanson as faded silent film star. 'I'm ready for my close-up, Mr. DeMille.'"
+      },
+      {
+        "type": "film",
+        "title": "All About Eve",
+        "creator": "Joseph L. Mankiewicz",
+        "description": "Bette Davis. 'Fasten your seatbelts.'"
       }
     ],
     "1951-03-29": [
@@ -395,6 +437,566 @@
         "title": "West Side Story",
         "creator": "Leonard Bernstein, Stephen Sondheim",
         "description": "Modern Romeo and Juliet in NYC streets at Winter Garden Theatre. Jerome Robbins choreography."
+      }
+    ],
+    "1933-01-30": [
+      {
+        "type": "film",
+        "title": "The Sign of the Cross",
+        "creator": "Cecil B. DeMille",
+        "description": "Epic religious film released widely."
+      }
+    ],
+    "1933-02-06": [
+      {
+        "type": "book",
+        "title": "The 20th Amendment ratified",
+        "creator": "US Congress",
+        "description": "Changes presidential inauguration date."
+      }
+    ],
+    "1933-03-31": [
+      {
+        "type": "film",
+        "title": "42nd Street",
+        "creator": "Lloyd Bacon",
+        "description": "Busby Berkeley musical. Defines Depression-era escapism."
+      }
+    ],
+    "1933-05-27": [
+      {
+        "type": "art",
+        "title": "Century of Progress opens",
+        "creator": "Chicago World's Fair",
+        "description": "Art Deco exposition showcases modernist design."
+      }
+    ],
+    "1933-11-17": [
+      {
+        "type": "film",
+        "title": "Duck Soup",
+        "creator": "Leo McCarey",
+        "description": "Marx Brothers political satire. Later cult classic."
+      }
+    ],
+    "1934-02-22": [
+      {
+        "type": "film",
+        "title": "It Happened One Night",
+        "creator": "Frank Capra",
+        "description": "Clark Gable, Claudette Colbert. Sweeps all 5 major Oscars."
+      }
+    ],
+    "1934-06-09": [
+      {
+        "type": "film",
+        "title": "Donald Duck debut",
+        "creator": "Walt Disney",
+        "description": "The Wise Little Hen introduces Donald Duck."
+      }
+    ],
+    "1934-10-19": [
+      {
+        "type": "theater",
+        "title": "Anything Goes opens",
+        "creator": "Cole Porter",
+        "description": "Ethel Merman stars. 'I Get a Kick Out of You.'"
+      }
+    ],
+    "1935-02-14": [
+      {
+        "type": "film",
+        "title": "The Informer",
+        "creator": "John Ford",
+        "description": "Victor McLaglen wins Oscar. Irish rebellion drama."
+      }
+    ],
+    "1935-06-13": [
+      {
+        "type": "film",
+        "title": "A Night at the Opera",
+        "creator": "Sam Wood",
+        "description": "Marx Brothers MGM debut. 'That's a-some sanity clause.'"
+      }
+    ],
+    "1935-08-14": [
+      {
+        "type": "concert",
+        "title": "Benny Goodman Swing Era begins",
+        "creator": "Benny Goodman",
+        "description": "Palomar Ballroom concert ignites swing craze."
+      }
+    ],
+    "1936-02-05": [
+      {
+        "type": "film",
+        "title": "Modern Times",
+        "creator": "Charlie Chaplin",
+        "description": "Chaplin's last silent film. Critique of industrialization."
+      }
+    ],
+    "1936-06-17": [
+      {
+        "type": "film",
+        "title": "The Great Ziegfeld",
+        "creator": "Robert Z. Leonard",
+        "description": "Best Picture Oscar. William Powell, Myrna Loy."
+      }
+    ],
+    "1936-11-14": [
+      {
+        "type": "concert",
+        "title": "Prokofiev's Peter and the Wolf",
+        "creator": "Sergei Prokofiev",
+        "description": "Moscow premiere. Musical tale for children."
+      }
+    ],
+    "1937-05-06": [
+      {
+        "type": "concert",
+        "title": "Hindenburg broadcast",
+        "creator": "Herbert Morrison",
+        "description": "'Oh, the humanity!' Radio covers disaster live."
+      }
+    ],
+    "1937-12-21": [
+      {
+        "type": "film",
+        "title": "Snow White and the Seven Dwarfs",
+        "creator": "Walt Disney",
+        "description": "First full-length animated feature. 'Heigh-Ho!'"
+      }
+    ],
+    "1938-06-22": [
+      {
+        "type": "concert",
+        "title": "Joe Louis defeats Schmeling",
+        "creator": "Boxing",
+        "description": "2:04 first round knockout. Symbol against Nazism."
+      }
+    ],
+    "1938-10-30": [
+      {
+        "type": "concert",
+        "title": "War of the Worlds broadcast",
+        "creator": "Orson Welles",
+        "description": "CBS Mercury Theatre causes mass panic."
+      }
+    ],
+    "1939-02-27": [
+      {
+        "type": "film",
+        "title": "Stagecoach",
+        "creator": "John Ford",
+        "description": "John Wayne breakthrough. Reinvents the Western."
+      }
+    ],
+    "1939-04-30": [
+      {
+        "type": "art",
+        "title": "New York World's Fair opens",
+        "creator": "NYC",
+        "description": "'World of Tomorrow' introduces television to public."
+      }
+    ],
+    "1939-08-25": [
+      {
+        "type": "film",
+        "title": "The Wizard of Oz",
+        "creator": "Victor Fleming",
+        "description": "Judy Garland. 'Somewhere Over the Rainbow.'"
+      }
+    ],
+    "1940-03-15": [
+      {
+        "type": "film",
+        "title": "The Grapes of Wrath",
+        "creator": "John Ford",
+        "description": "Henry Fonda. Steinbeck adaptation. Social realism."
+      }
+    ],
+    "1940-10-18": [
+      {
+        "type": "film",
+        "title": "The Great Dictator",
+        "creator": "Charlie Chaplin",
+        "description": "Chaplin satirizes Hitler. First talking picture."
+      }
+    ],
+    "1940-11-13": [
+      {
+        "type": "film",
+        "title": "Fantasia",
+        "creator": "Walt Disney",
+        "description": "Classical music animation. Revolutionary Fantasound."
+      }
+    ],
+    "1941-10-03": [
+      {
+        "type": "film",
+        "title": "The Maltese Falcon",
+        "creator": "John Huston",
+        "description": "Humphrey Bogart as Sam Spade. Defines film noir."
+      }
+    ],
+    "1941-11-28": [
+      {
+        "type": "film",
+        "title": "How Green Was My Valley",
+        "creator": "John Ford",
+        "description": "Best Picture over Citizen Kane. Welsh mining drama."
+      }
+    ],
+    "1942-05-26": [
+      {
+        "type": "film",
+        "title": "Yankee Doodle Dandy",
+        "creator": "Michael Curtiz",
+        "description": "James Cagney as George M. Cohan. Wartime patriotism."
+      }
+    ],
+    "1943-07-15": [
+      {
+        "type": "film",
+        "title": "The Ox-Bow Incident",
+        "creator": "William Wellman",
+        "description": "Henry Fonda. Anti-lynching Western."
+      }
+    ],
+    "1944-04-19": [
+      {
+        "type": "film",
+        "title": "Lifeboat",
+        "creator": "Alfred Hitchcock",
+        "description": "Tallulah Bankhead. Single-set suspense."
+      }
+    ],
+    "1944-10-09": [
+      {
+        "type": "film",
+        "title": "Double Indemnity",
+        "creator": "Billy Wilder",
+        "description": "Barbara Stanwyck. Quintessential film noir."
+      }
+    ],
+    "1944-12-28": [
+      {
+        "type": "theater",
+        "title": "On the Town opens",
+        "creator": "Bernstein, Comden & Green",
+        "description": "Three sailors on leave in NYC."
+      }
+    ],
+    "1945-04-05": [
+      {
+        "type": "film",
+        "title": "The House on 92nd Street",
+        "creator": "Henry Hathaway",
+        "description": "Semi-documentary spy film. FBI cooperation."
+      }
+    ],
+    "1945-09-06": [
+      {
+        "type": "film",
+        "title": "Mildred Pierce",
+        "creator": "Michael Curtiz",
+        "description": "Joan Crawford comeback. Oscar winner."
+      }
+    ],
+    "1945-11-21": [
+      {
+        "type": "film",
+        "title": "The Lost Weekend",
+        "creator": "Billy Wilder",
+        "description": "Ray Milland. Alcoholism drama. Best Picture."
+      }
+    ],
+    "1946-05-03": [
+      {
+        "type": "film",
+        "title": "The Best Years of Our Lives",
+        "creator": "William Wyler",
+        "description": "Veterans returning home. 7 Oscars."
+      }
+    ],
+    "1946-09-20": [
+      {
+        "type": "art",
+        "title": "First Cannes Film Festival",
+        "creator": "France",
+        "description": "Post-war revival of international cinema."
+      }
+    ],
+    "1947-10-20": [
+      {
+        "type": "film",
+        "title": "HUAC Hollywood hearings begin",
+        "creator": "US Congress",
+        "description": "Blacklist era begins. Hollywood Ten cited."
+      }
+    ],
+    "1947-10-09": [
+      {
+        "type": "theater",
+        "title": "A Streetcar Named Desire",
+        "creator": "Tennessee Williams",
+        "description": "Marlon Brando as Stanley. 'STELLA!'"
+      }
+    ],
+    "1948-08-28": [
+      {
+        "type": "film",
+        "title": "Hamlet",
+        "creator": "Laurence Olivier",
+        "description": "First British film to win Best Picture Oscar."
+      }
+    ],
+    "1948-12-02": [
+      {
+        "type": "film",
+        "title": "The Red Shoes",
+        "creator": "Powell & Pressburger",
+        "description": "Ballet film. Technicolor masterpiece."
+      }
+    ],
+    "1949-08-19": [
+      {
+        "type": "film",
+        "title": "The Third Man",
+        "creator": "Carol Reed",
+        "description": "Orson Welles as Harry Lime. Vienna noir."
+      }
+    ],
+    "1950-11-24": [
+      {
+        "type": "theater",
+        "title": "Guys and Dolls",
+        "creator": "Frank Loesser",
+        "description": "46th Street Theatre. Damon Runyon characters."
+      }
+    ],
+    "1951-07-16": [
+      {
+        "type": "book",
+        "title": "The Catcher in the Rye",
+        "creator": "J.D. Salinger",
+        "description": "Holden Caulfield. Defines teenage alienation."
+      }
+    ],
+    "1951-10-04": [
+      {
+        "type": "film",
+        "title": "An American in Paris",
+        "creator": "Vincente Minnelli",
+        "description": "Gene Kelly, Leslie Caron. Gershwin. Best Picture."
+      }
+    ],
+    "1951-10-15": [
+      {
+        "type": "concert",
+        "title": "I Love Lucy premiere",
+        "creator": "CBS",
+        "description": "Lucille Ball. Revolutionizes TV sitcom."
+      }
+    ],
+    "1951-11-24": [
+      {
+        "type": "theater",
+        "title": "Gigi",
+        "creator": "Anita Loos",
+        "description": "Audrey Hepburn Broadway debut. Fulton Theatre."
+      }
+    ],
+    "1951-12-04": [
+      {
+        "type": "film",
+        "title": "A Streetcar Named Desire",
+        "creator": "Elia Kazan",
+        "description": "Brando, Vivien Leigh. 4 acting Oscar nominations."
+      }
+    ],
+    "1952-03-20": [
+      {
+        "type": "film",
+        "title": "Singin' in the Rain",
+        "creator": "Stanley Donen",
+        "description": "Gene Kelly. Greatest movie musical."
+      }
+    ],
+    "1952-07-30": [
+      {
+        "type": "film",
+        "title": "High Noon",
+        "creator": "Fred Zinnemann",
+        "description": "Gary Cooper. Real-time Western. Blacklist allegory."
+      }
+    ],
+    "1952-11-26": [
+      {
+        "type": "theater",
+        "title": "The Mousetrap",
+        "creator": "Agatha Christie",
+        "description": "London premiere. Longest-running play in history."
+      }
+    ],
+    "1953-02-19": [
+      {
+        "type": "theater",
+        "title": "The Crucible",
+        "creator": "Arthur Miller",
+        "description": "Salem witch trials as McCarthy allegory."
+      }
+    ],
+    "1953-03-19": [
+      {
+        "type": "film",
+        "title": "25th Academy Awards",
+        "creator": "NBC",
+        "description": "First televised Oscars. 'Greatest Show on Earth' wins."
+      }
+    ],
+    "1953-05-26": [
+      {
+        "type": "theater",
+        "title": "Can-Can",
+        "creator": "Cole Porter",
+        "description": "Shubert Theatre. Gwen Verdon breakthrough."
+      }
+    ],
+    "1953-08-13": [
+      {
+        "type": "film",
+        "title": "Roman Holiday",
+        "creator": "William Wyler",
+        "description": "Audrey Hepburn Oscar. Gregory Peck."
+      }
+    ],
+    "1953-09-16": [
+      {
+        "type": "film",
+        "title": "The Robe",
+        "creator": "Henry Koster",
+        "description": "First CinemaScope film. Richard Burton."
+      }
+    ],
+    "1954-06-28": [
+      {
+        "type": "film",
+        "title": "On the Waterfront",
+        "creator": "Elia Kazan",
+        "description": "Brando. 'I coulda been a contender.' 8 Oscars."
+      }
+    ],
+    "1954-09-09": [
+      {
+        "type": "theater",
+        "title": "The Pajama Game",
+        "creator": "Adler & Ross",
+        "description": "St. James Theatre. Bob Fosse choreography."
+      }
+    ],
+    "1954-10-14": [
+      {
+        "type": "film",
+        "title": "Rear Window",
+        "creator": "Alfred Hitchcock",
+        "description": "James Stewart, Grace Kelly. Voyeurism thriller."
+      }
+    ],
+    "1955-01-05": [
+      {
+        "type": "theater",
+        "title": "The Diary of Anne Frank",
+        "creator": "Goodrich & Hackett",
+        "description": "Cort Theatre. Pulitzer Prize. Susan Strasberg."
+      }
+    ],
+    "1955-03-24": [
+      {
+        "type": "film",
+        "title": "East of Eden",
+        "creator": "Elia Kazan",
+        "description": "James Dean film debut. Steinbeck adaptation."
+      }
+    ],
+    "1955-07-17": [
+      {
+        "type": "art",
+        "title": "Disneyland opens",
+        "creator": "Walt Disney",
+        "description": "Anaheim, California. First theme park."
+      }
+    ],
+    "1955-10-01": [
+      {
+        "type": "film",
+        "title": "Rebel Without a Cause",
+        "creator": "Nicholas Ray",
+        "description": "James Dean. Teenage angst classic."
+      }
+    ],
+    "1955-11-30": [
+      {
+        "type": "film",
+        "title": "Oklahoma! film",
+        "creator": "Fred Zinnemann",
+        "description": "First Todd-AO film. Rodgers & Hammerstein."
+      }
+    ],
+    "1956-06-01": [
+      {
+        "type": "film",
+        "title": "The Searchers",
+        "creator": "John Ford",
+        "description": "John Wayne. Influential Western."
+      }
+    ],
+    "1956-10-17": [
+      {
+        "type": "film",
+        "title": "Giant",
+        "creator": "George Stevens",
+        "description": "James Dean final film. Texas epic."
+      }
+    ],
+    "1956-11-16": [
+      {
+        "type": "film",
+        "title": "The Ten Commandments",
+        "creator": "Cecil B. DeMille",
+        "description": "Charlton Heston as Moses. Epic spectacle."
+      }
+    ],
+    "1956-12-01": [
+      {
+        "type": "theater",
+        "title": "Candide",
+        "creator": "Leonard Bernstein",
+        "description": "Martin Beck Theatre. Lillian Hellman book."
+      }
+    ],
+    "1957-04-13": [
+      {
+        "type": "film",
+        "title": "12 Angry Men",
+        "creator": "Sidney Lumet",
+        "description": "Henry Fonda. Courtroom drama. Single-set tension."
+      }
+    ],
+    "1957-10-04": [
+      {
+        "type": "concert",
+        "title": "Sputnik inspires art",
+        "creator": "USSR",
+        "description": "Space age influences design and culture."
+      }
+    ],
+    "1957-12-05": [
+      {
+        "type": "film",
+        "title": "The Bridge on the River Kwai",
+        "creator": "David Lean",
+        "description": "William Holden. 7 Oscars. WWII epic."
       }
     ]
   },

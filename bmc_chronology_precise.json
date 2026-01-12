@@ -14,6 +14,13 @@
           "location": "Berlin, Germany",
           "source": "The New York Times, January 31, 1933",
           "topic": "politics"
+        },
+        {
+          "event": "Hitler appointed Chancellor",
+          "description": "Hindenburg names Hitler. Nazi Germany begins.",
+          "location": "Berlin, Germany",
+          "source": "The Times, January 31, 1933",
+          "topic": "politics"
         }
       ],
       "culture": []
@@ -79,6 +86,13 @@
           "location": "Berlin, Germany",
           "source": "The Manchester Guardian, March 24, 1933",
           "topic": "politics"
+        },
+        {
+          "event": "Enabling Act passed",
+          "description": "Hitler gains dictatorial powers. Democracy ends.",
+          "location": "Berlin, Germany",
+          "source": "Manchester Guardian",
+          "topic": "politics"
         }
       ],
       "culture": []
@@ -91,6 +105,13 @@
           "description": "Students burn 25,000 'un-German' books in Berlin's Opera Square. Works by Jewish, pacifist authors destroyed.",
           "location": "Berlin, Germany",
           "source": "The New York Times, May 11, 1933",
+          "topic": "culture"
+        },
+        {
+          "event": "Nazi book burnings",
+          "description": "25,000 'un-German' books burned in Berlin.",
+          "location": "Berlin, Germany",
+          "source": "New York Times",
           "topic": "culture"
         }
       ],
@@ -117,6 +138,13 @@
           "description": "Hitler announces withdrawal from League and Disarmament Conference.",
           "location": "Geneva, Switzerland",
           "source": "League of Nations Archives",
+          "topic": "politics"
+        },
+        {
+          "event": "Germany quits League of Nations",
+          "description": "Hitler withdraws from disarmament talks.",
+          "location": "Geneva, Switzerland",
+          "source": "The Times",
           "topic": "politics"
         }
       ],
@@ -153,7 +181,7 @@
       "world": [
         {
           "event": "Night of the Long Knives",
-          "description": "Hitler purges SA leadership. Ernst Röhm and at least 85 others killed. SS becomes dominant.",
+          "description": "Hitler purges SA leadership. Ernst R\u00f6hm and at least 85 others killed. SS becomes dominant.",
           "location": "Germany",
           "source": "The Times, July 2, 1934",
           "topic": "politics",
@@ -166,7 +194,7 @@
       "usa": [],
       "world": [
         {
-          "event": "Hitler becomes Führer",
+          "event": "Hitler becomes F\u00fchrer",
           "description": "Following Hindenburg's death, Hitler merges Chancellor and President offices.",
           "location": "Berlin, Germany",
           "source": "The New York Times, August 3, 1934",
@@ -197,6 +225,13 @@
           "location": "Berlin, Germany",
           "source": "The Times, March 18, 1935",
           "topic": "war"
+        },
+        {
+          "event": "Germany rearms",
+          "description": "Hitler repudiates Versailles Treaty. Conscription returns.",
+          "location": "Berlin, Germany",
+          "source": "The Times",
+          "topic": "military"
         }
       ],
       "culture": []
@@ -248,6 +283,13 @@
           "description": "Laws strip Jews of citizenship and forbid marriage between Jews and non-Jews.",
           "location": "Nuremberg, Germany",
           "source": "Reichsgesetzblatt I",
+          "topic": "politics"
+        },
+        {
+          "event": "Nuremberg Laws",
+          "description": "Jews stripped of citizenship. Marriage banned.",
+          "location": "Nuremberg, Germany",
+          "source": "New York Times",
           "topic": "politics"
         }
       ],
@@ -303,6 +345,13 @@
           "location": "Rhineland, Germany",
           "source": "The Manchester Guardian, March 9, 1936",
           "topic": "war"
+        },
+        {
+          "event": "Rhineland remilitarized",
+          "description": "Hitler defies Versailles. Troops enter demilitarized zone.",
+          "location": "Rhineland, Germany",
+          "source": "The Times",
+          "topic": "military"
         }
       ],
       "culture": []
@@ -353,7 +402,7 @@
       "world": [
         {
           "event": "Edward VIII abdicates",
-          "description": "King abdicates to marry American divorcée Wallis Simpson. Brother becomes George VI.",
+          "description": "King abdicates to marry American divorc\u00e9e Wallis Simpson. Brother becomes George VI.",
           "location": "London, England",
           "source": "The Times, December 12, 1936",
           "topic": "politics"
@@ -410,6 +459,14 @@
           "source": "The Times, July 9, 1937",
           "topic": "war",
           "end_date": "1945-09-02"
+        },
+        {
+          "event": "Second Sino-Japanese War",
+          "description": "Marco Polo Bridge Incident. Japan invades China.",
+          "location": "Beijing, China",
+          "source": "New York Times",
+          "topic": "war",
+          "end_date": "1945-09-02"
         }
       ],
       "culture": []
@@ -462,6 +519,13 @@
           "location": "Austria",
           "source": "The Times, March 14, 1938",
           "topic": "war"
+        },
+        {
+          "event": "Anschluss",
+          "description": "Germany annexes Austria. Union declared.",
+          "location": "Vienna, Austria",
+          "source": "The Times",
+          "topic": "politics"
         }
       ],
       "culture": []
@@ -474,6 +538,13 @@
           "description": "Britain, France agree to German annexation of Sudetenland. 'Peace for our time.'",
           "location": "Munich, Germany",
           "source": "The Times, October 1, 1938",
+          "topic": "politics"
+        },
+        {
+          "event": "Munich Agreement",
+          "description": "Chamberlain declares 'Peace for our time.' Sudetenland ceded.",
+          "location": "Munich, Germany",
+          "source": "The Times",
           "topic": "politics"
         }
       ],
@@ -568,6 +639,13 @@
           "location": "Moscow, USSR",
           "source": "The Times, August 24, 1939",
           "topic": "politics"
+        },
+        {
+          "event": "Nazi-Soviet Pact",
+          "description": "Molotov-Ribbentrop non-aggression pact signed.",
+          "location": "Moscow, USSR",
+          "source": "The Times",
+          "topic": "politics"
         }
       ],
       "culture": []
@@ -581,6 +659,13 @@
           "location": "Poland",
           "source": "The Times, September 2, 1939",
           "topic": "war"
+        },
+        {
+          "event": "Germany invades Poland",
+          "description": "World War II begins in Europe.",
+          "location": "Poland",
+          "source": "The Times",
+          "topic": "war"
         }
       ],
       "culture": []
@@ -593,6 +678,13 @@
           "description": "After Germany ignores ultimatum, Allies declare war. Second World War begins.",
           "location": "London/Paris",
           "source": "The Times, September 4, 1939",
+          "topic": "war"
+        },
+        {
+          "event": "Britain and France declare war",
+          "description": "WWII expands. Allies vs Axis.",
+          "location": "London/Paris",
+          "source": "The Times",
           "topic": "war"
         }
       ],
@@ -634,6 +726,13 @@
           "location": "Western Europe",
           "source": "The Times, May 11, 1940",
           "topic": "war"
+        },
+        {
+          "event": "Germany invades Western Europe",
+          "description": "Blitzkrieg through Low Countries. Churchill becomes PM.",
+          "location": "Belgium/Netherlands",
+          "source": "The Times",
+          "topic": "war"
         }
       ],
       "culture": []
@@ -658,8 +757,15 @@
         {
           "event": "France surrenders to Germany",
           "description": "Armistice signed in same railway car where Germany surrendered in 1918.",
-          "location": "Compiègne, France",
+          "location": "Compi\u00e8gne, France",
           "source": "The Times, June 24, 1940",
+          "topic": "war"
+        },
+        {
+          "event": "France surrenders",
+          "description": "Armistice signed. Vichy regime begins.",
+          "location": "Compi\u00e8gne, France",
+          "source": "The Times",
           "topic": "war"
         }
       ],
@@ -753,6 +859,13 @@
           "location": "USSR",
           "source": "The Times, June 23, 1941",
           "topic": "war"
+        },
+        {
+          "event": "Operation Barbarossa",
+          "description": "Germany invades Soviet Union. Largest invasion in history.",
+          "location": "USSR",
+          "source": "The Times",
+          "topic": "war"
         }
       ],
       "culture": []
@@ -767,7 +880,15 @@
           "topic": "war"
         }
       ],
-      "world": [],
+      "world": [
+        {
+          "event": "Pearl Harbor attacked",
+          "description": "Japanese attack. 'A date which will live in infamy.'",
+          "location": "Hawaii, USA",
+          "source": "New York Times",
+          "topic": "war"
+        }
+      ],
       "culture": []
     },
     "1941-12-08": {
@@ -859,6 +980,13 @@
           "location": "North Africa",
           "source": "The Times, November 9, 1942",
           "topic": "war"
+        },
+        {
+          "event": "Operation Torch",
+          "description": "Allied invasion of North Africa.",
+          "location": "Morocco/Algeria",
+          "source": "The Times",
+          "topic": "war"
         }
       ],
       "culture": []
@@ -884,6 +1012,13 @@
           "description": "6th Army surrenders after brutal urban combat. 91,000 captured. Major turning point.",
           "location": "Stalingrad, USSR",
           "source": "The Times, February 3, 1943",
+          "topic": "war"
+        },
+        {
+          "event": "Stalingrad surrenders",
+          "description": "German 6th Army destroyed. War's turning point.",
+          "location": "Stalingrad, USSR",
+          "source": "The Times",
           "topic": "war"
         }
       ],
@@ -938,6 +1073,13 @@
           "location": "Normandy, France",
           "source": "The Times, June 7, 1944",
           "topic": "war"
+        },
+        {
+          "event": "D-Day",
+          "description": "Allied invasion of Normandy. 'Operation Overlord.'",
+          "location": "Normandy, France",
+          "source": "The Times",
+          "topic": "war"
         }
       ],
       "culture": []
@@ -977,6 +1119,13 @@
           "location": "Paris, France",
           "source": "The Times, August 26, 1944",
           "topic": "war"
+        },
+        {
+          "event": "Paris liberated",
+          "description": "French and American forces free capital.",
+          "location": "Paris, France",
+          "source": "The Times",
+          "topic": "war"
         }
       ],
       "culture": []
@@ -989,6 +1138,14 @@
           "description": "Germany's last major offensive. 200,000 troops attack through Ardennes.",
           "location": "Ardennes, Belgium",
           "source": "The Times, December 18, 1944",
+          "topic": "war",
+          "end_date": "1945-01-25"
+        },
+        {
+          "event": "Battle of the Bulge",
+          "description": "German counter-offensive. Last major Nazi attack.",
+          "location": "Ardennes, Belgium",
+          "source": "The Times",
           "topic": "war",
           "end_date": "1945-01-25"
         }
@@ -1084,6 +1241,13 @@
           "location": "Berlin, Germany",
           "source": "The Times, May 9, 1945",
           "topic": "war"
+        },
+        {
+          "event": "V-E Day",
+          "description": "Germany surrenders. Victory in Europe.",
+          "location": "Berlin, Germany",
+          "source": "The Times",
+          "topic": "war"
         }
       ],
       "culture": []
@@ -1110,6 +1274,13 @@
           "location": "Hiroshima, Japan",
           "source": "The New York Times, August 7, 1945",
           "topic": "war"
+        },
+        {
+          "event": "Hiroshima atomic bombing",
+          "description": "'Little Boy' kills 80,000 instantly.",
+          "location": "Hiroshima, Japan",
+          "source": "New York Times",
+          "topic": "war"
         }
       ],
       "culture": []
@@ -1123,6 +1294,13 @@
           "location": "Nagasaki, Japan",
           "source": "The New York Times, August 10, 1945",
           "topic": "war"
+        },
+        {
+          "event": "Nagasaki atomic bombing",
+          "description": "'Fat Man' kills 40,000. Japan near surrender.",
+          "location": "Nagasaki, Japan",
+          "source": "New York Times",
+          "topic": "war"
         }
       ],
       "culture": []
@@ -1135,6 +1313,13 @@
           "description": "Emperor Hirohito announces surrender. World War II ends after six years.",
           "location": "Tokyo, Japan",
           "source": "The Times, August 16, 1945",
+          "topic": "war"
+        },
+        {
+          "event": "Japan surrenders",
+          "description": "V-J Day. World War II ends.",
+          "location": "Tokyo, Japan",
+          "source": "New York Times",
           "topic": "war"
         }
       ],
@@ -1163,6 +1348,13 @@
           "location": "Fulton, Missouri",
           "source": "The New York Times, March 6, 1946",
           "topic": "politics"
+        },
+        {
+          "event": "Iron Curtain speech",
+          "description": "Churchill coins term at Westminster College.",
+          "location": "Fulton, Missouri",
+          "source": "The Times",
+          "topic": "politics"
         }
       ],
       "culture": []
@@ -1190,7 +1382,15 @@
           "topic": "politics"
         }
       ],
-      "world": [],
+      "world": [
+        {
+          "event": "Truman Doctrine",
+          "description": "US pledges to contain communism.",
+          "location": "Washington, D.C.",
+          "source": "New York Times",
+          "topic": "politics"
+        }
+      ],
       "culture": []
     },
     "1947-04-15": {
@@ -1216,7 +1416,15 @@
           "topic": "economy"
         }
       ],
-      "world": [],
+      "world": [
+        {
+          "event": "Marshall Plan announced",
+          "description": "European Recovery Program proposed at Harvard.",
+          "location": "Cambridge, Massachusetts",
+          "source": "New York Times",
+          "topic": "economy"
+        }
+      ],
       "culture": []
     },
     "1947-12-03": {
@@ -1240,6 +1448,13 @@
           "description": "Ben-Gurion declares independence. U.S. recognizes immediately. Arab-Israeli War begins.",
           "location": "Tel Aviv, Israel",
           "source": "The Times, May 15, 1948",
+          "topic": "politics"
+        },
+        {
+          "event": "Israel declares independence",
+          "description": "David Ben-Gurion proclaims Jewish state.",
+          "location": "Tel Aviv, Israel",
+          "source": "New York Times",
           "topic": "politics"
         }
       ],
@@ -1424,6 +1639,557 @@
           "description": "First artificial satellite. Space race begins. Americans shocked.",
           "location": "Baikonur, Kazakhstan",
           "source": "The New York Times, October 5, 1957",
+          "topic": "science"
+        }
+      ],
+      "culture": []
+    },
+    "1934-10-16": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Long March begins",
+          "description": "Chinese Communists flee Nationalists. Mao emerges.",
+          "location": "China",
+          "source": "Reuters",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1936-10-25": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Rome-Berlin Axis formed",
+          "description": "Hitler and Mussolini alliance announced.",
+          "location": "Berlin, Germany",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1937-12-13": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Nanjing Massacre begins",
+          "description": "Japanese troops kill 200,000+ civilians.",
+          "location": "Nanjing, China",
+          "source": "New York Times",
+          "topic": "war"
+        }
+      ],
+      "culture": []
+    },
+    "1939-03-15": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Germany occupies Czechoslovakia",
+          "description": "Hitler breaks Munich Agreement.",
+          "location": "Prague, Czechoslovakia",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1940-06-04": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Dunkirk evacuation ends",
+          "description": "338,000 Allied troops rescued.",
+          "location": "Dunkirk, France",
+          "source": "The Times",
+          "topic": "war"
+        }
+      ],
+      "culture": []
+    },
+    "1940-06-14": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Paris falls",
+          "description": "German troops enter French capital.",
+          "location": "Paris, France",
+          "source": "The Times",
+          "topic": "war"
+        }
+      ],
+      "culture": []
+    },
+    "1940-09-07": {
+      "usa": [],
+      "world": [
+        {
+          "event": "The Blitz begins",
+          "description": "German bombing of London starts.",
+          "location": "London, England",
+          "source": "The Times",
+          "topic": "war",
+          "end_date": "1941-05-11"
+        }
+      ],
+      "culture": []
+    },
+    "1941-03-01": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Bulgaria joins Axis",
+          "description": "Nazi influence expands in Balkans.",
+          "location": "Sofia, Bulgaria",
+          "source": "The Times",
+          "topic": "war"
+        }
+      ],
+      "culture": []
+    },
+    "1941-04-06": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Germany invades Yugoslavia and Greece",
+          "description": "Balkan campaign. Athens falls April 27.",
+          "location": "Balkans",
+          "source": "The Times",
+          "topic": "war"
+        }
+      ],
+      "culture": []
+    },
+    "1941-09-08": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Siege of Leningrad begins",
+          "description": "900-day siege. 1 million civilians die.",
+          "location": "Leningrad, USSR",
+          "source": "The Times",
+          "topic": "war",
+          "end_date": "1944-01-27"
+        }
+      ],
+      "culture": []
+    },
+    "1942-01-20": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Wannsee Conference",
+          "description": "Final Solution planned. Holocaust systematized.",
+          "location": "Berlin, Germany",
+          "source": "Historical records",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1942-08-23": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Battle of Stalingrad begins",
+          "description": "Bloodiest battle in history. 2 million casualties.",
+          "location": "Stalingrad, USSR",
+          "source": "The Times",
+          "topic": "war",
+          "end_date": "1943-02-02"
+        }
+      ],
+      "culture": []
+    },
+    "1943-11-28": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Tehran Conference",
+          "description": "FDR, Churchill, Stalin meet. Plan D-Day.",
+          "location": "Tehran, Iran",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1945-10-24": {
+      "usa": [],
+      "world": [
+        {
+          "event": "United Nations founded",
+          "description": "UN Charter ratified. 51 founding members.",
+          "location": "San Francisco, USA",
+          "source": "New York Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1946-07-04": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Philippines independence",
+          "description": "US grants independence after 48 years.",
+          "location": "Manila, Philippines",
+          "source": "New York Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1947-08-15": {
+      "usa": [],
+      "world": [
+        {
+          "event": "India and Pakistan independence",
+          "description": "British India partitioned. Massive migration.",
+          "location": "India/Pakistan",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1947-11-29": {
+      "usa": [],
+      "world": [
+        {
+          "event": "UN votes for Palestine partition",
+          "description": "Jewish and Arab states planned.",
+          "location": "New York City",
+          "source": "New York Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1948-01-30": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Gandhi assassinated",
+          "description": "Hindu extremist kills Mahatma Gandhi.",
+          "location": "New Delhi, India",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1948-02-25": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Communist coup in Czechoslovakia",
+          "description": "Soviets install communist government.",
+          "location": "Prague, Czechoslovakia",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1949-05-23": {
+      "usa": [],
+      "world": [
+        {
+          "event": "West Germany established",
+          "description": "Federal Republic of Germany founded.",
+          "location": "Bonn, Germany",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1949-08-29": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Soviet atomic bomb test",
+          "description": "USSR ends US nuclear monopoly.",
+          "location": "Kazakhstan, USSR",
+          "source": "New York Times",
+          "topic": "military"
+        }
+      ],
+      "culture": []
+    },
+    "1950-10-07": {
+      "usa": [],
+      "world": [
+        {
+          "event": "China enters Korean War",
+          "description": "300,000 Chinese troops cross Yalu River.",
+          "location": "North Korea",
+          "source": "New York Times",
+          "topic": "war"
+        }
+      ],
+      "culture": []
+    },
+    "1951-04-11": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Truman fires MacArthur",
+          "description": "General relieved of Korean command.",
+          "location": "Washington, D.C.",
+          "source": "New York Times",
+          "topic": "military"
+        }
+      ],
+      "culture": []
+    },
+    "1951-09-08": {
+      "usa": [],
+      "world": [
+        {
+          "event": "San Francisco Peace Treaty",
+          "description": "Japan peace treaty signed. Occupation ends.",
+          "location": "San Francisco, USA",
+          "source": "New York Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1951-10-03": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Bobby Thomson's 'Shot Heard Round the World'",
+          "description": "Giants win pennant. Historic baseball moment.",
+          "location": "New York City",
+          "source": "New York Times",
+          "topic": "sports"
+        }
+      ],
+      "culture": []
+    },
+    "1951-10-26": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Churchill returns as PM",
+          "description": "Conservatives win. Labour defeated.",
+          "location": "London, England",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1952-02-06": {
+      "usa": [],
+      "world": [
+        {
+          "event": "King George VI dies",
+          "description": "Elizabeth II becomes Queen.",
+          "location": "Sandringham, England",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1952-10-03": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Britain tests atomic bomb",
+          "description": "Third nuclear power after US, USSR.",
+          "location": "Monte Bello Islands, Australia",
+          "source": "The Times",
+          "topic": "military"
+        }
+      ],
+      "culture": []
+    },
+    "1952-11-01": {
+      "usa": [],
+      "world": [
+        {
+          "event": "US tests hydrogen bomb",
+          "description": "'Ivy Mike' at Eniwetok. 1000x Hiroshima.",
+          "location": "Marshall Islands",
+          "source": "New York Times",
+          "topic": "military"
+        }
+      ],
+      "culture": []
+    },
+    "1953-03-05": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Stalin dies",
+          "description": "Soviet dictator dead at 74. Power struggle begins.",
+          "location": "Moscow, USSR",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1953-06-02": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Elizabeth II coronation",
+          "description": "First televised coronation. 27 million watch.",
+          "location": "London, England",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1953-06-17": {
+      "usa": [],
+      "world": [
+        {
+          "event": "East German uprising",
+          "description": "Workers revolt. Soviet tanks crush protest.",
+          "location": "East Berlin",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1954-05-07": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Dien Bien Phu falls",
+          "description": "French defeated in Vietnam. Colonial era ends.",
+          "location": "Vietnam",
+          "source": "The Times",
+          "topic": "war"
+        }
+      ],
+      "culture": []
+    },
+    "1954-07-21": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Geneva Accords",
+          "description": "Vietnam divided at 17th parallel.",
+          "location": "Geneva, Switzerland",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1955-04-18": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Einstein dies",
+          "description": "Physicist dies at 76 in Princeton.",
+          "location": "Princeton, New Jersey",
+          "source": "New York Times",
+          "topic": "science"
+        }
+      ],
+      "culture": []
+    },
+    "1955-05-14": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Warsaw Pact formed",
+          "description": "Soviet military alliance responds to NATO.",
+          "location": "Warsaw, Poland",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1955-07-17": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Disneyland opens",
+          "description": "First theme park in Anaheim.",
+          "location": "Anaheim, California",
+          "source": "Los Angeles Times",
+          "topic": "culture"
+        }
+      ],
+      "culture": []
+    },
+    "1956-02-25": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Khrushchev denounces Stalin",
+          "description": "Secret speech reveals Stalin's crimes.",
+          "location": "Moscow, USSR",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1956-10-23": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Hungarian Revolution",
+          "description": "Anti-Soviet uprising in Budapest.",
+          "location": "Budapest, Hungary",
+          "source": "The Times",
+          "topic": "politics",
+          "end_date": "1956-11-10"
+        }
+      ],
+      "culture": []
+    },
+    "1956-10-29": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Suez Crisis",
+          "description": "Israel, Britain, France attack Egypt.",
+          "location": "Suez Canal, Egypt",
+          "source": "The Times",
+          "topic": "war",
+          "end_date": "1956-11-07"
+        }
+      ],
+      "culture": []
+    },
+    "1957-03-25": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Treaty of Rome",
+          "description": "European Economic Community founded.",
+          "location": "Rome, Italy",
+          "source": "The Times",
+          "topic": "politics"
+        }
+      ],
+      "culture": []
+    },
+    "1957-11-03": {
+      "usa": [],
+      "world": [
+        {
+          "event": "Sputnik 2 with Laika",
+          "description": "First animal in orbit. Dog dies in space.",
+          "location": "Kazakhstan, USSR",
+          "source": "New York Times",
           "topic": "science"
         }
       ],

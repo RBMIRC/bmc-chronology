@@ -2,7 +2,8 @@
   "metadata": {
     "description": "Black Mountain College timeline with precise dates",
     "coverage": "1933-1957",
-    "sources": ["Duberman", "Dreier Collection", "Harris"]
+    "sources": ["Duberman", "Dreier Collection", "Harris"],
+    "last_verified": "2025-01-12"
   },
   "events": {
     "1933-09-25": {
@@ -38,25 +39,12 @@
       "category": "community",
       "source": "Harris interviews"
     },
-    "1942-03-02": {
-      "event": "John Cage CBS Radio broadcast",
-      "description": "Cage's percussion concert broadcast nationally on CBS.",
-      "category": "performance",
-      "source": "CBS Archives"
-    },
     "1942-01-01": {
       "event": "Wartime austerity period",
       "description": "Reduced enrollment, rationing, students leaving for military service.",
       "category": "institution",
       "end_date": "1945-08-15",
       "source": "BMC records"
-    },
-    "1945-06-15": {
-      "event": "Clement Greenberg summer session",
-      "description": "Influential art critic teaches during summer.",
-      "category": "faculty",
-      "end_date": "1945-08-15",
-      "source": "Duberman"
     },
     "1946-09-01": {
       "event": "GI Bill enrollment wave",
@@ -65,16 +53,15 @@
       "end_date": "1949-06-01",
       "source": "BMC enrollment records"
     },
-    "1947-06-20": {
-      "event": "Buckminster Fuller first visit",
-      "description": "Fuller visits BMC, beginning long association with college.",
-      "category": "faculty",
-      "end_date": "1947-07-15",
-      "source": "Duberman"
+    "1948-04-01": {
+      "event": "John Cage and Merce Cunningham first visit",
+      "description": "Cage and Cunningham visit BMC on their way to the West Coast. Cage premieres Sonatas and Interludes for prepared piano.",
+      "category": "performance",
+      "source": "MoMA, Duberman"
     },
     "1948-06-22": {
-      "event": "Summer Art Institute",
-      "description": "Willem de Kooning, Buckminster Fuller, Merce Cunningham, John Cage gather.",
+      "event": "Summer Art Institute 1948",
+      "description": "Legendary summer with Willem de Kooning, Buckminster Fuller, Merce Cunningham, John Cage. Erik Satie's The Ruse of Medusa performed.",
       "category": "institute",
       "end_date": "1948-09-01",
       "source": "Duberman, p. 278"
@@ -86,31 +73,41 @@
       "end_date": "1948-07-06",
       "source": "Fuller archives"
     },
-    "1949-03-15": {
-      "event": "Josef Albers leaves for Yale",
-      "description": "Albers accepts position at Yale. Major loss for BMC.",
+    "1948-09-01": {
+      "event": "Charles Olson joins faculty",
+      "description": "Poet Charles Olson becomes visiting professor, replacing Edward Dahlberg for the academic year.",
       "category": "faculty",
-      "source": "Duberman, p. 301"
+      "source": "Duberman, Wikipedia"
+    },
+    "1949-02-01": {
+      "event": "Josef Albers resigns",
+      "description": "Albers announces resignation. Will leave at end of school year in May.",
+      "category": "faculty",
+      "source": "Albers Foundation"
+    },
+    "1949-05-01": {
+      "event": "Josef and Anni Albers leave BMC",
+      "description": "The Alberses leave Black Mountain College after 16 years. Josef will join Yale in 1950.",
+      "category": "faculty",
+      "source": "Duberman, p. 301; Albers Foundation"
     },
     "1949-06-01": {
-      "event": "Financial crisis",
+      "event": "Financial crisis begins",
       "description": "Serious budget shortfall. Debate about college future.",
       "category": "institution",
-      "end_date": "1957-10-21",
       "source": "BMC Board minutes"
     },
-    "1950-07-01": {
-      "event": "Charles Olson at BMC",
-      "description": "Poet Charles Olson joins as faculty, transforms college toward poetry.",
+    "1950-06-15": {
+      "event": "Clement Greenberg summer session",
+      "description": "Influential art critic teaches during summer, delivering lectures on modernist painting. Kenneth Noland among his students.",
       "category": "faculty",
-      "end_date": "1956-10-01",
-      "source": "Duberman"
+      "end_date": "1950-08-15",
+      "source": "Greenberg biography, Duberman"
     },
-    "1951-03-01": {
-      "event": "Olson becomes rector",
-      "description": "Charles Olson assumes leadership. Poetry and writing become central.",
-      "category": "administration",
-      "end_date": "1956-10-01",
+    "1951-09-01": {
+      "event": "Charles Olson returns to faculty",
+      "description": "Olson returns to BMC faculty after absence. Poetry and writing become increasingly central.",
+      "category": "faculty",
       "source": "Duberman"
     },
     "1951-04-01": {
@@ -122,15 +119,22 @@
     },
     "1952-08-16": {
       "event": "Theatre Piece No. 1 performed",
-      "description": "Cage, Cunningham, Rauschenberg create first 'Happening'. Historic multimedia event.",
+      "description": "Cage, Cunningham, Rauschenberg, Tudor, Olson, Richards create first 'Happening' in the dining hall. Historic multimedia event.",
       "category": "performance",
       "source": "Duberman, p. 350"
     },
-    "1953-05-01": {
-      "event": "Black Mountain Review published",
-      "description": "Robert Creeley edits literary magazine. Publishes Ginsberg, Kerouac, Levertov.",
+    "1953-01-01": {
+      "event": "Charles Olson becomes Rector",
+      "description": "Charles Olson assumes leadership as Rector after many faculty depart. Transforms college toward poetry and writing.",
+      "category": "administration",
+      "end_date": "1956-10-01",
+      "source": "Duberman, Wikipedia"
+    },
+    "1954-03-01": {
+      "event": "Black Mountain Review first issue",
+      "description": "Robert Creeley edits literary magazine from Mallorca. First issue includes Olson, Blackburn, Zukofsky, Levertov, Duncan.",
       "category": "publication",
-      "end_date": "1957-01-01",
+      "end_date": "1957-09-01",
       "source": "Black Mountain Review archives"
     },
     "1954-06-15": {
@@ -144,7 +148,7 @@
       "event": "Enrollment crisis",
       "description": "Only 9 students enrolled. Minimal operations continue.",
       "category": "institution",
-      "end_date": "1957-06-01",
+      "end_date": "1957-03-01",
       "source": "Duberman"
     },
     "1956-03-01": {
@@ -154,9 +158,15 @@
       "end_date": "1956-06-15",
       "source": "Duberman"
     },
-    "1957-10-21": {
+    "1956-09-01": {
+      "event": "Decision to close",
+      "description": "Farm sold. Olson and Wesley Huss decide to close the college.",
+      "category": "institution",
+      "source": "Duberman"
+    },
+    "1957-03-01": {
       "event": "Black Mountain College closes",
-      "description": "Official closure. 24-year experiment in education ends. Property sold.",
+      "description": "Courts order Olson to cease programs. Official closure after 24-year experiment in education. Final issue of Black Mountain Review appears in autumn.",
       "category": "closing",
       "source": "Duberman, p. 410"
     }

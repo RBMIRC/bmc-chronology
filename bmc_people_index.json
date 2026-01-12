@@ -1176,7 +1176,10 @@
     "focus": "Art/ Design/ Craft",
     "role": "Faculty, Admin",
     "start_year": 1933,
-    "end_year": 1949
+    "end_year": 1949,
+    "start_date": "1933-09-25",
+    "end_date": "1949-06-15",
+    "date_note": "Faculty. Arrived with wife Anni."
   },
   "John Harrington": {
     "bio": "John was a student from fall 1935 to spring 1937.",
@@ -3021,7 +3024,22 @@
     "focus": "Art/ Design/ Craft",
     "role": "Guest Faculty",
     "start_year": 1945,
-    "end_year": 1951
+    "end_year": 1951,
+    "periods": [
+      {
+        "start": "1945-07-02",
+        "end": "1945-09-08",
+        "type": "summer",
+        "note": "Summer Art Institute 1945"
+      },
+      {
+        "start": "1951-06-18",
+        "end": "1951-09-01",
+        "type": "summer",
+        "note": "Summer 1951"
+      }
+    ],
+    "date_note": "Guest Faculty - Summer sessions"
   },
   "Alexandra Weekes": {
     "bio": "Alexandra Weekes was a student in 1940.",
@@ -3048,7 +3066,28 @@
     "focus": "Performance Art",
     "role": "Faculty",
     "start_year": 1950,
-    "end_year": 1952
+    "end_year": 1952,
+    "periods": [
+      {
+        "start": "1950-06-19",
+        "end": "1950-08-25",
+        "type": "summer",
+        "note": "Summer 1950"
+      },
+      {
+        "start": "1951-06-18",
+        "end": "1951-09-01",
+        "type": "summer",
+        "note": "Summer 1951"
+      },
+      {
+        "start": "1952-06-24",
+        "end": "1952-09-11",
+        "type": "summer",
+        "note": "Summer 1952"
+      }
+    ],
+    "date_note": "Faculty - multiple summer sessions"
   },
   "Fannie Hillsmith": {
     "bio": "Fannie Hillsmith was an American cubist painter from Boston who during a long career, mostly based in New York City, developed a style of Cubism which combined traditional Cubist motifs with what she called \"an early American feeling.\"",
@@ -6594,7 +6633,10 @@
     "focus": "Music",
     "role": "Faculty",
     "start_year": 1933,
-    "end_year": 1942
+    "end_year": 1942,
+    "start_date": "1933-09-25",
+    "end_date": "1942-06-10",
+    "date_note": "Faculty. Left to join military."
   },
   "Miriam \"Mimi\" French": {
     "bio": "Miriam \u201cMimi\u201d French was a student at the college from the fall of 1939 to the winter of 1944. She took Introductory and Advanced Weaving with Anni Albers, from 1940 through 1944.",
@@ -7332,7 +7374,10 @@
     "focus": "English/ Writing",
     "role": "Faculty, Admin",
     "start_year": 1948,
-    "end_year": 1957
+    "end_year": 1957,
+    "start_date": "1951-03-01",
+    "end_date": "1956-10-01",
+    "date_note": "Faculty, then Rector from 1951"
   },
   "Christa \"Cris\" Noland": {
     "bio": "As shared in a college bulletin, \"Christa Noland, wife of one of the students, Harry Noland, is a registered nurse and has been given charge of the infirmary.\"",
@@ -7926,7 +7971,34 @@
     "focus": "Performance Art",
     "role": "Guest Faculty",
     "start_year": 1948,
-    "end_year": 1953
+    "end_year": 1953,
+    "periods": [
+      {
+        "start": "1948-04-01",
+        "end": "1948-04-15",
+        "type": "visit",
+        "note": "April visit with Merce Cunningham"
+      },
+      {
+        "start": "1948-06-22",
+        "end": "1948-09-01",
+        "type": "summer",
+        "note": "Summer Art Institute"
+      },
+      {
+        "start": "1952-06-24",
+        "end": "1952-09-11",
+        "type": "summer",
+        "note": "Summer session, Theatre Piece No. 1"
+      },
+      {
+        "start": "1953-06-15",
+        "end": "1953-09-01",
+        "type": "summer",
+        "note": "Summer in residence"
+      }
+    ],
+    "date_note": "Guest Faculty - multiple summer sessions"
   },
   "Mary Fitton": {
     "bio": "During World War II, Mary Fitton Fiore served in the Women\u2019s Army Corps. She graduated from Radcliffe College in 1946. She enrolled at Black Mountain College in the fall of 1949. After her marriage to Joseph Fiore (February 3, 1925-September 8, 2008), a former student who taught art, she remained at the college as faculty wife until the college closed the Lake Eden campus in September 1956.",
@@ -8043,7 +8115,10 @@
     "focus": "Music",
     "role": "Faculty",
     "start_year": 1952,
-    "end_year": 1956
+    "end_year": 1956,
+    "start_date": "1952-09-01",
+    "end_date": "1956-06-01",
+    "date_note": "Faculty of Music"
   },
   "Thomas Raleigh": {
     "bio": "Thomas Joseph Raleigh was a student in 1945. While a student, he served as a student officer and was part of the hauling crew in the work program.",
@@ -9600,7 +9675,10 @@
     "focus": "Art/ Design/ Craft",
     "role": "Guest Faculty",
     "start_year": 1950,
-    "end_year": 1950
+    "end_year": 1950,
+    "start_date": "1950-06-19",
+    "end_date": "1950-08-25",
+    "date_note": "Guest Faculty - Summer 1950 only"
   },
   "Edwin \"Cy\" Twombly, Jr.": {
     "bio": "Cy Twombly was a student from summer 1951 to spring 1952. Before BMC, he attended Boston Museum School, 1947-1949, Washington Lee University, 1949-1950, and Art Students\u2019 League (NY), 1950-1951.",
@@ -9789,7 +9867,10 @@
     "focus": "Art/ Design/ Craft",
     "role": "Guest Faculty",
     "start_year": 1952,
-    "end_year": 1952
+    "end_year": 1952,
+    "start_date": "1952-06-24",
+    "end_date": "1952-09-11",
+    "date_note": "Guest Faculty - Summer 1952 only"
   },
   "Louis Core, Jr.": {
     "bio": "Louis Core was a student at the college from fall to spring of 1947.",
@@ -9933,7 +10014,10 @@
     "focus": "English/ Writing",
     "role": "Faculty",
     "start_year": 1954,
-    "end_year": 1957
+    "end_year": 1957,
+    "start_date": "1954-03-01",
+    "end_date": "1955-10-01",
+    "date_note": "Faculty of English and Writing, Editor Black Mountain Review"
   },
   "Mary Harrington": {
     "bio": "Mary was a student and guest instructor of dance for summer 1951.",
@@ -11680,5 +11764,89 @@
     "role": "Guest Faculty",
     "start_year": 1948,
     "end_year": 1953
+  },
+  "Anni Albers": {
+    "bio": "Anni Albers was a textile artist and printmaker who served as faculty at Black Mountain College from 1933 to 1949. She arrived with her husband Josef Albers from Germany. She revolutionized textile art and taught weaving.",
+    "relations": "Husband: Josef Albers",
+    "courses_taken": "",
+    "focus": "Art/ Design/ Craft",
+    "role": "Faculty",
+    "start_year": 1933,
+    "end_year": 1949,
+    "start_date": "1933-09-25",
+    "end_date": "1949-06-15",
+    "date_note": "Faculty. Arrived with husband Josef from Germany."
+  },
+  "Merce Cunningham": {
+    "bio": "Merce Cunningham was a dancer and choreographer who was guest faculty at Black Mountain College during multiple summer sessions. He collaborated closely with John Cage and created groundbreaking dance works.",
+    "relations": "Partner: John Cage",
+    "courses_taken": "",
+    "focus": "Performance Art",
+    "role": "Guest Faculty",
+    "start_year": 1948,
+    "end_year": 1953,
+    "periods": [
+      {
+        "start": "1948-04-01",
+        "end": "1948-04-15",
+        "type": "visit",
+        "note": "April visit with John Cage"
+      },
+      {
+        "start": "1948-06-22",
+        "end": "1948-09-01",
+        "type": "summer",
+        "note": "Summer Art Institute"
+      },
+      {
+        "start": "1952-06-24",
+        "end": "1952-09-11",
+        "type": "summer",
+        "note": "Summer session, Theatre Piece No. 1"
+      },
+      {
+        "start": "1953-06-15",
+        "end": "1953-09-01",
+        "type": "summer",
+        "note": "Summer in residence"
+      }
+    ],
+    "date_note": "Guest Faculty - multiple summer sessions with Cage"
+  },
+  "R. Buckminster Fuller": {
+    "bio": "Buckminster Fuller was an architect, systems theorist, and inventor who was guest faculty at Black Mountain College. He attempted to build his first geodesic dome at the 1948 Summer Art Institute.",
+    "relations": "",
+    "courses_taken": "",
+    "focus": "Architecture",
+    "role": "Guest Faculty",
+    "start_year": 1948,
+    "end_year": 1949,
+    "periods": [
+      {
+        "start": "1948-06-22",
+        "end": "1948-09-01",
+        "type": "summer",
+        "note": "Summer Art Institute, first dome attempt (collapsed)"
+      },
+      {
+        "start": "1949-06-15",
+        "end": "1949-08-30",
+        "type": "summer",
+        "note": "Summer session"
+      }
+    ],
+    "date_note": "Guest Faculty - Summer sessions 1948, 1949"
+  },
+  "Willem de Kooning": {
+    "bio": "Willem de Kooning was an abstract expressionist painter who was guest faculty at the 1948 Summer Art Institute at Black Mountain College.",
+    "relations": "Wife: Elaine de Kooning",
+    "courses_taken": "",
+    "focus": "Art/ Design/ Craft",
+    "role": "Guest Faculty",
+    "start_year": 1948,
+    "end_year": 1948,
+    "start_date": "1948-06-22",
+    "end_date": "1948-09-01",
+    "date_note": "Guest Faculty - Summer Art Institute 1948 only"
   }
 }

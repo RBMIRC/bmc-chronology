@@ -916,42 +916,67 @@
             } catch (e) { widget.style.display = 'none'; }
         }
 
+        function isPersonPresentOnDate(data, dateKey) {
+            // Check if person was present on specific date
+            // dateKey format: "YYYY-MM-DD"
+
+            // If person has periods array (for guest faculty with multiple visits)
+            if (data.periods && Array.isArray(data.periods)) {
+                for (const period of data.periods) {
+                    if (dateKey >= period.start && dateKey <= period.end) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            // If person has precise start_date and end_date
+            if (data.start_date && data.end_date) {
+                return dateKey >= data.start_date && dateKey <= data.end_date;
+            }
+
+            // Fall back to year-based check
+            const yearNum = parseInt(dateKey.substring(0, 4));
+            const startYear = data.start_year || 9999;
+            const endYear = data.end_year || 0;
+            return yearNum >= startYear && yearNum <= endYear;
+        }
+
         function renderPeople(year, dateKey) {
             const widget = document.getElementById('people-widget');
             const el = document.getElementById('people-content');
             const total = document.getElementById('people-total');
 
             try {
-                const yearNum = parseInt(year);
                 const facultyMap = new Map();
                 const studentsMap = new Map();
                 const staffMap = new Map();
                 const guestsMap = new Map();
                 const familyMap = new Map();
 
-                // Get people from peopleIndex (verified data from BlackMountainPeople.txt)
+                // Get people from peopleIndex (verified data)
                 for (const [name, data] of Object.entries(peopleIndex)) {
-                    const startYear = data.start_year || 9999;
-                    const endYear = data.end_year || 0;
+                    // Use precise date checking
+                    if (!isPersonPresentOnDate(data, dateKey)) {
+                        continue;
+                    }
 
-                    if (yearNum >= startYear && yearNum <= endYear) {
-                        const person = { name, ...data };
-                        const role = (data.role || '').toLowerCase();
+                    const person = { name, ...data };
+                    const role = (data.role || '').toLowerCase();
 
-                        // Classify by role (order matters for multi-role people)
-                        if (role.includes('faculty') || role.includes('admin')) {
-                            facultyMap.set(name, person);
-                        } else if (role.includes('student')) {
-                            studentsMap.set(name, person);
-                        } else if (role.includes('staff')) {
-                            staffMap.set(name, person);
-                        } else if (role.includes('guest')) {
-                            guestsMap.set(name, person);
-                        } else if (role.includes('family')) {
-                            familyMap.set(name, person);
-                        } else {
-                            guestsMap.set(name, person);
-                        }
+                    // Classify by role (order matters for multi-role people)
+                    if (role.includes('faculty') || role.includes('admin')) {
+                        facultyMap.set(name, person);
+                    } else if (role.includes('student')) {
+                        studentsMap.set(name, person);
+                    } else if (role.includes('staff')) {
+                        staffMap.set(name, person);
+                    } else if (role.includes('guest')) {
+                        guestsMap.set(name, person);
+                    } else if (role.includes('family')) {
+                        familyMap.set(name, person);
+                    } else {
+                        guestsMap.set(name, person);
                     }
                 }
 

@@ -7,28 +7,17 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon points='10,90 50,20 90,90' fill='%23000'/></svg>">
     <link rel="stylesheet" href="fonts/fonts.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
 
         :root {
-            --bg: #fafafa;
-            --card-bg: #fff;
-            --text: #1a1a1a;
-            --text-light: #555;
-            --text-lighter: #888;
-            --border: #e0e0e0;
-            --accent: #333;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --bg: #0a0a0a;
-                --card-bg: #151515;
-                --text: #e8e8e8;
-                --text-light: #aaa;
-                --text-lighter: #666;
-                --border: #2a2a2a;
-                --accent: #ddd;
-            }
+            --bg: #0d0d14;
+            --card-bg: #151520;
+            --text: #e8e8e8;
+            --text-light: #aaa;
+            --text-lighter: #666;
+            --border: #2a2a2a;
+            --accent: #ddd;
         }
 
         body {
@@ -49,25 +38,32 @@
         /* Header */
         header {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
             margin-bottom: 1.5rem;
-            padding-bottom: 1rem;
+            padding: 1.5rem 0;
             border-bottom: 1px solid var(--border);
-            flex-wrap: wrap;
             gap: 1rem;
         }
 
+        .logo {
+            text-align: center;
+        }
+
         .logo h1 {
-            font-size: 1rem;
+            font-family: 'EB Garamond', Georgia, serif;
+            font-size: 1.6rem;
             font-weight: 400;
-            letter-spacing: 0.05em;
+            letter-spacing: 0.3em;
             text-transform: uppercase;
         }
 
         .logo .subtitle {
-            color: var(--text-lighter);
-            font-size: 0.8rem;
+            font-family: 'EB Garamond', Georgia, serif;
+            color: rgba(255,255,255,0.5);
+            font-size: 0.9rem;
+            font-style: italic;
+            margin-top: 0.2rem;
         }
 
         /* Date picker */
@@ -168,7 +164,7 @@
             height: 0;
             border-left: 6px solid transparent;
             border-right: 6px solid transparent;
-            border-bottom: 8px solid #000;
+            border-bottom: 8px solid #fff;
             transform: translateX(-6px);
             transition: left 0.15s ease-out;
             top: 0;
@@ -188,7 +184,7 @@
             align-items: center;
             gap: 0.35rem;
             font-size: 0.6rem;
-            color: #666;
+            color: rgba(255,255,255,0.5);
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
@@ -203,7 +199,7 @@
             display: flex;
             justify-content: space-between;
             font-size: 0.5rem;
-            color: #999;
+            color: rgba(255,255,255,0.4);
             padding: 0;
             margin-top: 2px;
         }
@@ -712,10 +708,11 @@
         /* Footer */
         footer {
             margin-top: 2rem;
-            padding-top: 1rem;
+            padding: 2rem 0;
             border-top: 1px solid var(--border);
-            font-size: 0.75rem;
-            color: var(--text-lighter);
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            color: rgba(255,255,255,0.2);
             text-align: center;
         }
 
@@ -1067,8 +1064,8 @@
 
             // Simple line chart for each category - not stacked, just overlapping lines
             const categories = [
-                { key: 'students', color: '#000000', label: 'Students' },
-                { key: 'faculty', color: '#666666', label: 'Faculty' }
+                { key: 'students', color: '#4ecdc4', label: 'Students' },
+                { key: 'faculty', color: '#a86bff', label: 'Faculty' }
             ];
 
             const baseLineY = height - padding.bottom;

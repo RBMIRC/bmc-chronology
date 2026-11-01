@@ -33,6 +33,9 @@ Source : collection.ashevilleart.org (fonds Theodore Dreier Sr. 2017.40.*, etc.)
   Wunsch) ; le champ « qui » d'origine reste dans la fiche.
   Adresse partageable : `index.html#1944-10-23/presences`.
   Données : `semainier/data.js`, regénéré par `scripts/export_semainier.py` (et par `sauvegarde.sh`).
+  **Couche Duberman** (1/11/2026) : événements de `duberman/evenements_duberman.csv` en sarcelle (« D. »), case
+  « Duberman » ; doublons avec l'AAM fondus dans la ligne AAM (renvoi dans sa fiche) d'après `duberman/001_doublons_aam.csv` ;
+  dates imprécises au panneau latéral ; documents datés des notes de Duberman dans « Documents datés ». Voir `duberman/LISEZMOI_duberman.md`.
   Ajouter des documents datés (photos, lettres d'autres fonds) : une ligne dans `semainier/documents_extra.csv`
   (date, titre, url, image, type, datation, source, part_deduite_pct, inventaire), puis relancer le script.
 - **Couche spéculative** (semaines reconstituées là où aucun document ne donne le programme) :

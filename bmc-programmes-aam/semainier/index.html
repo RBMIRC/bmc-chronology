@@ -59,6 +59,12 @@
   .ec-event.approx { outline:1.5px dashed rgba(0,0,0,.55); outline-offset:-2px; }
   .ec-event.spec { border:1.5px dashed currentColor; font-style:italic; }
   .fam i.ispec { background:#fff; border:1.5px dashed #555; }
+  /* couche Duberman : couleur propre (sarcelle), filet épais à gauche */
+  .ec-event.dub { border-left:4px solid #0b4f4f; }
+  .fam i.idub { background:#1f7f7f; border-left:3px solid #0b4f4f; }
+  .dubp { font-size:12px; margin:5px 0; padding:3px 6px; border-left:3px solid #1f7f7f; background:#eef6f6; cursor:pointer; }
+  .dubp:hover { background:#e0eeee; }
+  .renvoi { border-left:3px solid #1f7f7f; padding:2px 6px; margin:3px 0; background:#f3f8f8; }
   .reconst { background:#fff; border:1.5px dashed var(--gris); padding:8px 10px; font-size:12.5px; margin:6px 0; }
   #fiche h4 { font-size:14px; margin:16px 0 4px; } #fiche table { border-collapse:collapse; font-size:12px; } #fiche td { border-top:1px solid #eee; padding:2px 6px; vertical-align:top; }
   .ev-b { font-size:9.5px; opacity:.9; margin-left:3px; white-space:nowrap; }
@@ -97,6 +103,7 @@
   </div>
   <div class="grp" id="familles"></div>
   <label class="fam" title="Semaines reconstituées à partir de sources indirectes"><input type="checkbox" id="spec" checked><i class="ispec"></i>Couche spéculative</label>
+  <label class="fam" title="Événements tirés de Duberman, Black Mountain: An Exploration in Community (1972) ; les doublons avec l'AAM sont fondus dans la ligne AAM"><input type="checkbox" id="dub" checked><i class="idub"></i>Duberman</label>
 </header>
 <main>
   <div id="cal"></div>
@@ -117,7 +124,8 @@ const FAMILLES = [
   ["cal", "Calendrier, examens", "#7d6a55", ["calendrier", "examen"]],
 ];
 const FAM_DE = {}; FAMILLES.forEach(f => f[3].forEach(t => FAM_DE[t] = f));
-const etat = { familles: new Set(FAMILLES.map(f => f[0])), maxPct: 100, q: "", spec: true };
+const DUB_COULEUR = "#1f7f7f";
+const etat = { familles: new Set(FAMILLES.map(f => f[0])), maxPct: 100, q: "", spec: true, dub: true };
 const teinte = (hex, k) => { const n = parseInt(hex.slice(1), 16), c = [n >> 16, (n >> 8) & 255, n & 255].map(v => Math.round(v + (255 - v) * k)); return `rgb(${c.join(",")})`; };
 
 D.events.forEach(e => {
@@ -125,6 +133,12 @@ D.events.forEach(e => {
   if (e.extendedProps.spec) { e.backgroundColor = teinte(f[2], .85); e.textColor = f[2]; } else e.backgroundColor = f[2];
   e.extendedProps.fam = f[0];
   e._txt = (e.title + " " + e.extendedProps.qui + " " + e.resourceIds.join(" ") + " " + e.extendedProps.lieu).toLowerCase();
+});
+D.duberman = D.duberman || []; D.duberman_panneau = D.duberman_panneau || [];
+D.duberman.concat(D.duberman_panneau).forEach(e => {
+  const f = FAM_DE[e.extendedProps.type] || FAMILLES[4];
+  e.backgroundColor = DUB_COULEUR; e.extendedProps.fam = f[0];
+  e._txt = (e.title + " " + e.extendedProps.qui + " " + e.resourceIds.join(" ") + " " + e.extendedProps.lieu + " duberman").toLowerCase();
 });
 const JOURS = [...new Set(D.events.map(e => e.start.slice(0, 10)))].sort();
 
@@ -172,7 +186,9 @@ function specEntre(a, b) {
   return out;
 }
 function evenementsEntre(a, b) {
-  return D.events.filter(e => { const d = e.start.slice(0, 10); return d >= a && d < b && garde(e); }).concat(specEntre(a, b));
+  const dans = e => { const d = e.start.slice(0, 10); return d >= a && d < b && garde(e); };
+  const dub = etat.dub ? D.duberman.filter(e => { const d = e.start.slice(0, 10), f = e.allDay ? e.end.slice(0, 10) : plusJours(d, 1); return d < b && f > a && garde(e); }) : [];
+  return D.events.filter(dans).concat(dub, specEntre(a, b));
 }
 
 // ---- calendrier
@@ -198,6 +214,7 @@ const ec = EventCalendar.create(document.getElementById("cal"), {
   eventClassNames: info => {
     const p = info.event.extendedProps, c = [];
     if (p.spec) c.push("spec"); else if (p.pct >= 30) c.push("d-haut"); else if (p.pct >= 10) c.push("d-mid");
+    if (p.duberman) c.push("dub");
     if (p.placement && p.placement.startsWith("«")) c.push("approx");
     return c;
   },
@@ -205,6 +222,7 @@ const ec = EventCalendar.create(document.getElementById("cal"), {
     const p = info.event.extendedProps;
     const h = p.heure ? (/^\d/.test(p.heure) ? p.heure + " " : `[${p.heure}] `) : "";
     const b = p.pct ? `<span class="ev-b">${p.spec ? "spéc. " : ""}${p.pct} %</span>` : "";
+    if (p.duberman) return { html: `<div class="ec-event-title">${esc(h)}<b>D.</b> ${esc(info.event.title)}${b}</div>` };
     return { html: `<div class="ec-event-title">${esc(h)}${esc(info.event.title)}${b}</div>` };
   },
   eventClick: info => fiche(info.event),
@@ -244,10 +262,22 @@ function cote(debut, fin) {
   h += noms.length ? `<div class="pers">${noms.map(n => `<a data-q="${esc(n)}">${esc(n)}<sup>${cpt[n]}</sup></a>`).join("")}</div>`
     : `<div class="vide">Personne de nommé.</div>`;
 
+  if (etat.dub) {
+    const dp = D.duberman_panneau.filter(e => e.start < b && e.fin_periode >= a && garde(e));
+    const duree = e => (new Date(e.fin_periode) - new Date(e.start)) / 864e5;
+    const ligneDub = e => `<div class="dubp" data-k="${D.duberman_panneau.indexOf(e)}">${esc(e.title)} <span class="q legende">· ${esc(e.extendedProps.date_livre)}</span> ${pctTag(e.extendedProps.pct)}</div>`;
+    const court = dp.filter(e => duree(e) <= 122), long = dp.filter(e => duree(e) > 122);
+    if (dp.length) h += `<h2>Duberman : ${dp.length} événement${dp.length > 1 ? "s" : ""} datés de façon imprécise</h2>
+      <div class="legende">Datés au mois, à la saison ou à l'année dans le livre : la période couvre ces jours, l'événement n'est pas placé dans la grille.</div>` +
+      court.map(ligneDub).join("") +
+      (long.length ? `<details><summary>${long.length} daté${long.length > 1 ? "s" : ""} à l'année ou sur plusieurs années</summary>${long.map(ligneDub).join("")}</details>` : "");
+  }
   const docs = D.documents.filter(d => d.date >= a && d.date < b);
-  const invSem = new Set(evs.flatMap(e => e.extendedProps.inv.split(" ; ")));
+  const invSem = new Set(evs.flatMap(e => e.extendedProps.inv.split(" ; "))); invSem.delete("");
   const sources = D.documents.filter(d => invSem.has(d.inv) && !(d.date >= a && d.date < b));
-  const carte = d => `<a class="doc" href="${esc(d.url)}" target="_blank">
+  const carte = d => d.origine === "duberman" ? `<div class="doc"><div><div class="t">${esc(d.titre)}</div>
+      <div class="m">${fmt(d.date)} · ${esc(d.categorie)} · ${esc(d.source)}</div>
+      <div class="m">${esc(d.datation)} · ${pctTag(d.pct)}</div></div></div>` : `<a class="doc" href="${esc(d.url)}" target="_blank">
       ${d.img ? `<img loading="lazy" src="${esc(d.img)}" alt="">` : `<img alt="">`}
       <div><div class="t">${esc(d.titre)}</div>
       <div class="m">${d.date ? fmt(d.date) : esc(d.date_musee)} · inv. ${esc(d.inv)}${d.nimg > 1 ? ` · ${d.nimg} vues` : ""}</div>
@@ -272,13 +302,16 @@ function cote(debut, fin) {
     <span style="background:#3b6ea5;opacity:.75"></span>10–25 % déduit
     <span style="background:repeating-linear-gradient(135deg,#9db4d0 0 4px,#3b6ea5 4px 8px)"></span>≥ 30 % déduit
     <span style="background:#3b6ea5;outline:1.5px dashed #000;outline-offset:-2px"></span>heure indicative (« soir »…)
-    <span style="background:#d8e2ed;border:1.5px dashed #3b6ea5"></span>couche spéculative (reconstitution)<br>
+    <span style="background:#d8e2ed;border:1.5px dashed #3b6ea5"></span>couche spéculative (reconstitution)
+    <span style="background:#1f7f7f;border-left:4px solid #0b4f4f"></span>Duberman (livre de 1972, « D. »)<br>
     Cliquer une activité ouvre sa fiche : source exacte, part déduite et motifs.</div>
-    <p id="info">Données générées le ${D.genere} · ${D.events.length} activités · ${D.documents.length} documents · calendrier : Event Calendar (MIT, vkurko).</p>`;
+    <p id="info">Données générées le ${D.genere} · ${D.events.length} activités attestées (AAM) · ${D.duberman.length + D.duberman_panneau.length} événements Duberman · ${D.documents.length} documents · calendrier : Event Calendar (MIT, vkurko).</p>`;
   const el = document.getElementById("cote");
   el.innerHTML = h;
   const la = el.querySelector("#lireAnalyse");
   if (la) la.onclick = ev => { ev.preventDefault(); analyse(la.dataset.k); };
+  el.querySelectorAll(".dubp").forEach(x => x.onclick = () => { const e = D.duberman_panneau[+x.dataset.k];
+    fiche({ title: e.title, start: new Date(e.start + "T12:00"), extendedProps: e.extendedProps }); });
   el.querySelectorAll(".pers a").forEach(a => a.onclick = () => { qEl.value = a.dataset.q; etat.q = a.dataset.q; maj(); });
 }
 
@@ -287,7 +320,7 @@ function fiche(ev) {
   const p = ev.extendedProps;
   const d = iso(ev.start);
   const invs = p.inv.split(" ; "), urls = p.url.split(" "), srcs = p.src.split(" ; ");
-  const doc = D.documents.find(x => x.inv === invs[0]);
+  const doc = invs[0] ? D.documents.find(x => x.inv === invs[0]) : null;
   const liens = srcs.map((t, i) => `<a href="${esc(urls[i] || "")}" target="_blank">${esc(t)}</a>`).join("<br>");
   const ligne = (k, v) => v ? `<dt>${k}</dt><dd>${v}</dd>` : "";
   document.getElementById("fiche").innerHTML = `
@@ -308,8 +341,12 @@ function fiche(ev) {
       ${p.unite ? ligne("Rattachement", esc(p.rattachement)) : ""}
       ${p.unite ? ligne("Année précédente", esc(p.equivalent_avant)) : ""}
       ${p.unite ? ligne("Année suivante", esc(p.equivalent_apres)) : ""}
-      ${ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
-      ${ligne("Inventaire", esc(p.inv))}
+      ${p.duberman ? ligne("Couche", `<b>Duberman</b> : événement tiré du livre (${esc(p.categorie)}) · date dans le livre : ${esc(p.date_livre)}`) : ""}
+      ${p.duberman ? ligne("Source", `${esc(p.src)}<br><span class="legende">chapitre ${esc(p.chapitre)} · p. ${esc(p.page)} · ${esc(p.paragraphe)}</span>`) : ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
+      ${p.duberman && p.notes ? ligne("Notes de Duberman", `<details><summary>source primaire citée</summary>${esc(p.notes)}</details>`) : ""}
+      ${p.duberman && p.aam && p.aam.length ? ligne("Même jour (AAM)", p.aam.map(r => `<div class="renvoi">rapprochement possible : ${esc(r.activite)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span></div>`).join("")) : ""}
+      ${p.dub && p.dub.length ? ligne("Renvoi Duberman", p.dub.map(r => `<div class="renvoi">${r.decision === "doublon" ? "même événement" : "rapprochement possible"} : ${esc(r.activite)} ${pctTag(r.pct)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span>${r.notes ? `<details><summary>notes de Duberman</summary><span class="legende">${esc(r.notes)}</span></details>` : ""}</div>`).join("")) : ""}
+      ${p.duberman ? "" : ligne("Inventaire", esc(p.inv))}
       ${doc && doc.img ? ligne("Vue", `<a href="${esc(urls[0])}" target="_blank"><img src="${esc(doc.img)}" style="max-width:220px;border:1px solid #ddd"></a>`) : ""}
     </dl>`;
   document.getElementById("voile").classList.add("on");
@@ -350,6 +387,7 @@ FAMILLES.forEach(([k, lib, c]) => {
 const qEl = document.getElementById("q");
 let tq; qEl.oninput = () => { clearTimeout(tq); tq = setTimeout(() => { etat.q = qEl.value; maj(); }, 200); };
 document.getElementById("spec").onchange = e => { etat.spec = e.target.checked; maj(); };
+document.getElementById("dub").onchange = e => { etat.dub = e.target.checked; maj(); };
 document.getElementById("maxPct").onchange = e => { etat.maxPct = +e.target.value; maj(); };
 document.querySelectorAll("[data-vue]").forEach(b => b.onclick = () => vue(b.dataset.vue));
 function vue(v) {

@@ -40,4 +40,22 @@ Dépouillement chronologique complet de Martin Duberman, *Black Mountain: An Exp
 python3 construire_duberman.py
 ```
 
-Le script ne touche ni à `programme/` ni à `semainier/`. L'intégration dans `scripts/export_semainier.py` reste à décider.
+Le script ne touche ni à `programme/` ni à `semainier/`. **Ne pas le relancer dans le dépôt cloud** : Chronos 2
+(`DATA_BMC/Chronos 2/`) n'y est pas recopié, et `recoupements_duberman.csv` perdrait sa partie Chronos.
+
+## Intégration au semainier (1/11/2026)
+
+`scripts/export_semainier.py` lit `evenements_duberman.csv`, `documents_extra_duberman.csv` et
+`001_doublons_aam.csv` :
+
+- **`001_doublons_aam.csv`** (décision à la main sur les 94 rapprochements AAM de `recoupements_duberman.csv`) :
+  `doublon` (15) = même événement, la ligne AAM est gardée et sa fiche reçoit le « Renvoi Duberman » (texte, page,
+  notes) ; `possible` (13) = les deux restent, avec renvoi mutuel (surtout « réunion du corps enseignant » de Duberman
+  contre « Faculty and Student Officers » de l'AAM, deux instances distinctes qui siègent parfois le même jour) ;
+  `rejeté` (66) = activités différentes le même jour (rapprochement automatique par nom ou type seulement).
+- Événements datés au jour (et plages de 14 jours au plus) : dans la grille, couleur sarcelle, préfixe « D. »,
+  `part_deduite_pct` du CSV. Datés au mois, à la saison ou à l'année : panneau latéral « Duberman : … datés de façon
+  imprécise » (plus de 4 mois : bloc replié). Case « Duberman » dans l'en-tête ; les filtres de famille (d'après le
+  type), de part déduite et la recherche s'appliquent aussi (« duberman » dans la recherche les isole).
+- Fiche : source = livre, chapitre, page, paragraphe ; notes de Duberman (source primaire) ; date telle que dans le livre.
+- Documents datés des notes (1 031) : panneau « Documents datés de ces jours », avec la référence de la note.

@@ -1,0 +1,152 @@
+# Concordance des cours 1949-50 → gabarits de l'année reconstituée (deux semestres + Summer Session 1950).
+#
+# Sources :
+#   2017.40.048 (Bulletin 1950-51, Vol. 8 No. 1, mars 1950) : « courses given » en 1949-50, avec l'enseignant de chaque
+#     groupe de cours, sans le semestre ; vie de la communauté (thé du mercredi, café du dimanche, « work afternoon »)
+#   2017.40.360 (liste du corps enseignant et des cours 1949-50, septembre 1949) : corps enseignant de la rentrée
+#     (« design, drawing, painting, sculpture : enseignants à l'étude ») ; Rosen « not yet definite » ; Seelye invitée
+#   2017.40.047 (Bulletin, novembre 1949) : cours de l'automne 1949 pour Alvin et Margaret Freeman et Robert Turner ;
+#     projections de films deux fois par mois
+#   2017.40.049 (Bulletin, 20 août 1950) : concerts du samedi soir, programmes de danse, conférences du week-end (1949-50)
+#   2017.40.359 (Summer Session in the Arts 1950) : enseignants et matières de l'été 1950
+#   Duberman, ch. 11, p. 344-352 (¶1417-1420) : Fiore (dessin, peinture), Hazel Larsen (photographie) et les Jennerjahn
+#     enseignent dès la rentrée 1949 (absents de la liste de septembre 2017.40.360, présents dans les « courses given »)
+# Semestres : la liste « courses given » ne dit pas quand chaque cours a eu lieu. Un cours est placé aux deux semestres ;
+# quand un enseignant a plusieurs titres, chaque unité retient un titre, les autres sont candidats (chance 1/n).
+# Un cours seul dans son unité, donné « dans l'année », a 2 chances sur 3 d'avoir lieu un semestre donné.
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ANTHROPOLOGIE, SOCIOLOGIE, PHILOSOPHIE (P. W. Leser, A. W. Levi, M. Dehn) ----------
+C|ant.intro|Anthropology|Introduction to General Anthropology|—|Social Anthropology (1950-51)
+C|ant.phys|Anthropology|Physical Anthropology|—|—
+C|ant.hist|Anthropology|History, Theories and Methods|—|—
+C|ant.afrique|Anthropology|Anthropology of Africa|—|Anthropology of Africa (1950-51)
+C|ant.genetique|Science|Genetics (Physical Anthropology)|—|Introduction to Genetics (1950-51)
+C|bio.botanique|Science|Botany (at a neighboring college)|—|—
+C|soc.savoir|Sociology|Knowledge and Society|—|—
+C|soc.intro|Sociology|Introduction to the Social Sciences|—|—
+C|phi.cle|Philosophy|Philosophy in a New Key|—|—
+C|phi.platon|Philosophy|Introduction to Plato|—|Philosophy from 400 B.C. until 1600 A.D. (Dehn, 1950-51)
+C|phi.connaissance|Philosophy|Theory of Knowledge|—|—
+C|phi.ethique|Philosophy|Ethics|Ethics (1947-48)|—
+U|PL1|Paul W. Leser|3|MEME_ANNEE+R_ATTESTE+VOLUME|ant.intro||ant.phys;ant.genetique|1/3|« Anthropology: … » et « Science: … Genetics (Physical Anthropology) », Paul W. Leser (2017.40.048)|||fall,spring
+U|PL2|Paul W. Leser|3|MEME_ANNEE+R_ATTESTE+VOLUME|ant.afrique||ant.hist|1/2|« Anthropology: … », Paul W. Leser (2017.40.048) ; « Anthropology of Africa » encore donné à l'automne 1950 (2017.40.049)|||fall,spring
+N|bio.botanique|suivi « at a neighboring college » : hors du campus, sans horaire au collège
+U|BL1|Albert William Levi|3|MEME_ANNEE+R_ATTESTE+VOLUME|phi.cle||phi.connaissance;phi.ethique|1/3|« Philosophy: … », Albert William Levi; Max Dehn (2017.40.048) ; Levi est le philosophe du corps enseignant|||fall,spring
+U|BL2|Albert William Levi|3|MEME_ANNEE+R_ATTESTE+VOLUME|soc.intro||soc.savoir|1/2|« Sociology: … », Albert William Levi (2017.40.048)|||fall,spring
+U|MD4|Max Dehn|2|MEME_ANNEE+R_ELIM+VOLUME|phi.platon|||2/3|« Philosophy » est attribuée ensemble à Levi et Dehn (2017.40.048) ; Platon rattaché à Dehn, qui enseigne en 1950-51 la philosophie de 400 av. J.-C. à 1600 (2017.40.049)|||fall,spring
+
+# ---------- HISTOIRE ET LITTÉRATURE (A. Z. Freeman, D. Corkran, M. C. Richards) ----------
+C|hi.medieval|History|Medieval European History|—|—
+C|hi.moderne|History|Modern European History|—|—
+C|hi.am1900|History|America since 1900|American Civilization (1947-48)|The South in U.S. History (1950-51)
+C|lit.amfiction|Literature|American Fiction 1835-1900|American Literature 1850-1900 (1947-48)|American Literature before 1860 (1950-51)
+C|lit.ammoderne|Literature|Modern American Literature|—|—
+C|lit.poesie|Literature|History of English Poetry|Poetry (1947-48)|Reading Literature (1950-51)
+C|lit.forme|Literature|Studies in Poetic Form|—|—
+C|lit.proust|Literature|The Achievements of Marcel Proust|—|—
+C|ecr.atelier|Workshops|Writing|Writing (1947-48)|Writing (1950-51)
+U|AF1|Alvin Z. Freeman|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.medieval|||1|« Medieval and modern European history », Alvin Freeman, automne 1949 (2017.40.047) ; idem dans les « courses given » (2017.40.048)|||fall
+U|AF2|Alvin Z. Freeman|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.moderne|||1|idem|||fall
+U|AF3|Alvin Z. Freeman|3|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|hi.medieval|||2/3|cours de l'automne reconduit au printemps (aucune liste du printemps 1950)|=AF1||spring
+U|AF4|Alvin Z. Freeman|3|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|hi.moderne|||2/3|idem|=AF2||spring
+U|DC1|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.am1900|||2/3|« History: America since 1900 », David Corkran (2017.40.048)|||fall,spring
+U|DC2|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|lit.amfiction||lit.ammoderne|1/2|« Literature: American Fiction 1835-1900; Modern American Literature », David Corkran (2017.40.048)|||fall,spring
+U|MR1|Mary Caroline Richards|3|MEME_ANNEE+R_ATTESTE+VOLUME|lit.poesie||lit.forme|1/2|« Literature: History of English Poetry; Studies in Poetic Form; The Achievements of Marcel Proust », M. C. Richards (2017.40.048)|||fall,spring
+U|MR2|Mary Caroline Richards|2|MEME_ANNEE+R_ATTESTE+VOLUME|lit.proust|||1/2|idem ; cours d'un seul semestre probablement|||fall,spring
+U|MR3|Mary Caroline Richards|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|ecr.atelier|atelier||2/3|« Workshops: Writing », M. C. Richards (2017.40.048) ; « Reading – Writing » (2017.40.360)|||fall,spring
+
+# ---------- LANGUES (F. L. Shepard, A. Goldowski) ----------
+C|la.francais|Language|French|French and Russian (informal study, 1947-48)|French and German (1950-51)
+C|la.allemand|Language|German|German (1947-48)|French and German (1950-51)
+C|la.russe|Language|Russian|French and Russian (tutor, 1948-49)|Russian and French (individual tutorials, 1950-51)
+C|la.linguistique|Language|Linguistics|—|Linguistics (1950-51)
+U|FS1|Flola L. Shepard|3|MEME_ANNEE+R_ATTESTE+VOLUME|la.francais|||2/3|« Language: French; German; Russian; Linguistics », Flora L. Shepard; Anna Goldowski (2017.40.048) ; Shepard, « French; German; Linguistics » (2017.40.360)|||fall,spring
+U|FS2|Flola L. Shepard|3|MEME_ANNEE+R_ATTESTE+VOLUME|la.allemand|||2/3|idem|||fall,spring
+U|FS3|Flola L. Shepard|2|MEME_ANNEE+R_ATTESTE+VOLUME|la.linguistique|||1/2|idem|||fall,spring
+U|AG|Anna Goldowski|2|MEME_ANNEE+R_ATTESTE+VOLUME|la.russe|tutorat||2/3|Anna Goldowski, « French; Russian » (2017.40.360) ; tutorats individuels en 1950-51 (2017.40.049)|||fall,spring
+
+# ---------- MATHÉMATIQUES ET SCIENCES (M. Dehn, N. Goldowski) ----------
+C|ma.intro|Mathematics|Introduction to Mathematics|Elementary and Higher Mathematics (1947-48)|—
+C|ma.algebre|Mathematics|Algebra|—|—
+C|ma.calcul|Mathematics|Calculus|Calculus (1947-48)|Calculus (1950-51)
+C|ma.calcul2|Mathematics|Advanced Calculus|Advanced Mathematics (1947-48)|Higher Mathematics (tutorials, 1950-51)
+C|ma.geoart|Mathematics|Geometry for Artists|Projective Geometry (1947-48)|Geometry (elementary, projective, analytic) (1950-51)
+C|ph.elem|Science|Elementary Physics|Physics (1947-48)|Introductory Physics (1950-51)
+C|ph.atome|Science|Atomic Physics|—|—
+C|ph.avance|Science|Advanced Physics|—|—
+C|ph.maths|Science|Mathematics applied to Physics|—|—
+C|ch.organique|Science|Organic Chemistry|Organic Chemistry (1947-48)|Physics and Chemistry (1950-51)
+C|ch.materiaux|Science|Properties of Plastics and Metals|—|—
+U|MD1|Max Dehn|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.intro||ma.algebre|1/2|« Mathematics: Algebra; Calculus; Advanced Calculus; Geometry for Artists; Introduction to Mathematics », Max Dehn (2017.40.048)|||fall,spring
+U|MD2|Max Dehn|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.calcul||ma.calcul2|1/2|idem|||fall,spring
+U|MD3|Max Dehn|2|MEME_ANNEE+R_ATTESTE+VOLUME|ma.geoart|||2/3|idem|||fall,spring
+U|NG1|Natasha Goldowski|3|MEME_ANNEE+R_ATTESTE+VOLUME|ph.elem||ph.atome;ph.avance|1/3|« Science: Elementary Physics; Atomic Physics; Advanced Physics; Mathematics applied to Physics; Organic Chemistry; Properties of Plastics and Metals », Natasha Goldowski (2017.40.048)|||fall,spring
+U|NG2|Natasha Goldowski|3|MEME_ANNEE+R_ATTESTE+VOLUME|ch.organique||ch.materiaux|1/2|idem|||fall,spring
+U|NG3|Natasha Goldowski|2|MEME_ANNEE+R_ATTESTE+VOLUME|ph.maths|||1/2|idem|||fall,spring
+
+# ---------- ARTS (W. et E. Jennerjahn, J. Fiore, H. Larsen, J. Jalowetz, R. C. Turner, J. McCandless, E. Siegel) ----------
+C|art.couleur|Art|Color|—|Color (1950-51)
+C|art.design|Art|Design|Design (1947-48)|Design (1950-51)
+C|art.dessin|Art|Drawing|Drawing (1947-48)|Drawing (1950-51)
+C|art.peinture|Art|Painting|Painting (1947-48)|Painting (1950-51)
+C|at.danse|Workshops|Dance|—|Dance Technique; Creative Dance (1950-51)
+C|at.photo|Workshops|Photography|—|Photography (1950-51)
+C|at.reliure|Workshops|Bookbinding|Bookbinding (1947-48)|Bookbinding (1950-51)
+C|at.ceramique|Workshops|Ceramics|—|Ceramics (1950-51)
+C|at.imprimerie|Workshops|Printing|—|Printing (1950-51)
+C|at.tissage|Workshops|Weaving|Weaving (1947-48)|—
+C|at.ferme|Workshops|Farm|—|Farm Workshop (1950-51)
+U|WJ1|Warren P. Jennerjahn|3|MEME_ANNEE+R_ATTESTE+VOLUME|art.couleur|||2/3|« Art: Color; Design », Warren P. Jennerjahn (2017.40.048) ; « Color » (2017.40.360)|||fall,spring
+U|WJ2|Warren P. Jennerjahn|3|MEME_ANNEE+R_ATTESTE+VOLUME|art.design|||2/3|idem|||fall,spring
+U|JF1|Joseph Fiore|3|MEME_ANNEE+R_ATTESTE+VOLUME|art.dessin|||2/3|« Art: Drawing; Painting », Joseph Fiore (2017.40.048) ; enseigne dès la rentrée selon Duberman (ch. 11, p. 344, ¶1418)|||fall,spring
+U|JF2|Joseph Fiore|3|MEME_ANNEE+R_ATTESTE+VOLUME|art.peinture|||2/3|idem|||fall,spring
+U|EJ|Elizabeth Jennerjahn|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.danse|atelier||2/3|« Workshops: Dance », Elizabeth Jennerjahn (2017.40.048) ; « Dance » (2017.40.360)|||fall,spring
+U|HL|Hazel Larsen|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.photo|atelier||2/3|« Workshops: Photography », Hazel Larsen (2017.40.048) ; enseigne dès la rentrée selon Duberman (ch. 11, p. 344, ¶1418)|||fall,spring
+U|JJ2|Johanna Jalowetz|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.reliure|atelier||2/3|« Workshops: Bookbinding », Johanna Jalowetz (2017.40.048) ; « Voice; Bookbinding » (2017.40.360)|||fall,spring
+U|RT1|Robert C. Turner|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.ceramique|atelier ; à l'automne, construction du four||1|« Workshop course in ceramics (beginning with building a kiln) », Robert C. Turner, automne 1949 (2017.40.047)|||fall
+U|RT2|Robert C. Turner|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|at.ceramique|atelier||2/3|« Workshops: Ceramics », Robert C. Turner (2017.40.048) ; atelier de l'automne reconduit|=RT1||spring
+U|JM|John H. McCandless|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.imprimerie|atelier||2/3|« Workshops: Printing », John H. McCandless (2017.40.048)|||fall,spring
+U|ES|Ellen Siegel|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.tissage|atelier||2/3|« Workshops: Weaving », Ellen Siegel (2017.40.048)|||fall,spring
+U|RT3|Raymond S. Trayer|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.ferme|atelier||2/3|« Workshops: Farm », Raymond S. Trayer (2017.40.048) ; « Farming » (2017.40.360)|||fall,spring
+
+# ---------- MUSIQUE ET SCÈNE (V. et L. Hetherington, J. Jalowetz, M. W. Freeman, M.-A. Seelye) ----------
+C|mu.fondamentaux|Music|Fundamentals|Music (theory) (1947-48)|Music Theory and Practice (1950-51)
+C|mu.harmonie|Music|Harmony|—|—
+C|mu.solfege|Music|Solfeggio|—|—
+C|mu.contrepoint|Music|Counterpoint|—|—
+C|mu.composition|Music|Composition|—|—
+C|mu.ecoute|Music|Appreciation|—|The Shaping Forces in Music (1950-51)
+C|mu.contemporain|Music|Analysis of Contemporary Music|—|—
+C|mu.violon|Music|Violin|—|—
+C|mu.piano|Music|Piano|Piano (1947-48)|—
+C|mu.voix|Music|Voice|Bookbinding and Voice (1948-49)|Voice Training (1950-51)
+C|mu.choeur|Music|Chorus|Chorus (1947-48)|—
+C|sc.theatre|Drama|Drama (visiting instructor)|—|Acting; Theatre (Huss, 1950-51)
+C|ph.seminaire|Science|Physics Seminar|—|—
+U|VH1|Vollmer Hetherington|3|MEME_ANNEE+R_ATTESTE+VOLUME|mu.fondamentaux||mu.harmonie;mu.solfege|1/3|« Music: Appreciation; Fundamentals; Counterpoint; Composition; Analysis of Contemporary Music; Harmony; Solfeggio; Violin », Vollmer Hetherington (2017.40.048)|||fall,spring
+U|VH2|Vollmer Hetherington|3|MEME_ANNEE+R_ATTESTE+VOLUME|mu.contrepoint||mu.composition|1/2|idem|||fall,spring
+U|VH3|Vollmer Hetherington|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.ecoute||mu.contemporain|1/2|idem|||fall,spring
+U|VH4|Vollmer Hetherington|1|MEME_ANNEE+R_ATTESTE+OCCASION|mu.violon|leçons individuelles||1|idem||plage indicative|fall,spring
+U|LH|Louise Hetherington|1|MEME_ANNEE+R_ATTESTE+OCCASION|mu.piano|leçons individuelles||1|« Music: Piano », Louise Hetherington (2017.40.048)||plage indicative|fall,spring
+U|JJ1|Johanna Jalowetz|1|MEME_ANNEE+R_ATTESTE+OCCASION|mu.voix|leçons individuelles||1|« Music: Voice », Johanna Jalowetz (2017.40.048)||plage indicative|fall,spring
+U|MF1|Margaret W. Freeman|1x90|MEME_ANNEE+R_ATTESTE+VOISIN+VOLUME|mu.choeur|chœur et groupes a cappella||1|« Choral and a cappella groups », Margaret Freeman, automne 1949 (2017.40.047) ; « Music: Chorus » (2017.40.048) ; chœur du mardi soir des années 1946-49|mar 19:30-21:00||fall
+U|MF2|Margaret W. Freeman|1x90|MEME_ANNEE+R_ATTESTE+VOISIN+VOLUME+TERME_DEDUIT|mu.choeur|chœur et groupes a cappella||2/3|« Music: Chorus » (2017.40.048) ; chœur de l'automne reconduit|=MF1||spring
+N|sc.theatre|Mary-Averett Seelye, « visiting instructor » à la rentrée (2017.40.360) : absente des « courses given » (2017.40.048), période de séjour inconnue
+N|ph.seminaire|Nathan Rosen, « not yet definite » (2017.40.360) ; seule une conférence de week-end (« Relativity », sans date) est attestée (2017.40.049)
+
+# ---------- SUMMER SESSION 1950 (2017.40.359, 2017.40.049) ----------
+C|ete.sculpture|Summer Session 1950|Sculpture|—|—
+C|ete.ecriture|Summer Session 1950|Writing|—|—
+C|ete.artmoderne|Summer Session 1950|Modern Art and History|—|—
+C|ete.danse|Summer Session 1950|Dance (creative approach)|Hindu Dance (été 1949)|—
+C|ete.theatre|Summer Session 1950|Theatre: dramatics workshop and a performance|Verse and Drama (Olson, été 1949)|—
+C|ete.peinture|Summer Session 1950|Painting|Painting, drawing, sculpture (été 1949)|—
+U|E1|Leo Amino|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.sculpture|||1|cours de la Summer Session 1950 avec son enseignant (2017.40.359)||volume et horaire supposés|summer
+U|E2|Paul Goodman|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.ecriture|||1|idem ; Goodman présent tout l'été selon Duberman (ch. 11, p. 355-359)||volume et horaire supposés|summer
+U|E3|Clement Greenberg|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.artmoderne|||1|idem||volume et horaire supposés|summer
+U|E4|Katherine Litz|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.danse|||1|idem ; concert de danse de Litz annoncé (2017.40.049)||volume et horaire supposés|summer
+U|E5|Robert Klein|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.theatre|||1|idem||volume et horaire supposés|summer
+U|E6|Theodoros Stamos|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.peinture|||1|idem||volume et horaire supposés|summer

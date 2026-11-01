@@ -37,6 +37,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 | 1950-51 | fait | 45 (aut. 13+5, print. 18, été 4+5) | 357 (~3 820) | 50,1 % (aut. 47, print. 62, été 39-41) | « speculation 1950-51 » |
 | 1951-52 | fait | 30 (aut. 15, print. 15 ; été non daté) | 112 (~1 680) | 65,1 % (cours seuls : 86 %) | « speculation 1951-52 » |
 | 1952-53 | fait | 44 (aut. 19 en 5 morceaux, print. 16 en 2, été 9) | 497 (~2 600) | 64,7 % (été 40) | « speculation 1952-53 » |
+| 1953-54 | fait (printemps et été 1954 seulement) | 22 (print. 11, été 11) | 29 (~320) | 66,1 % (print. 71, été 62) | « speculation 1953-54 » |
 
 ### Notes 1949-50
 - Sources : 2017.40.360 (corps enseignant de septembre 1949), 2017.40.048 (« courses given » 1949-50, sans semestre),
@@ -72,6 +73,14 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 - Été 1953 d'après Duberman (Cunningham : cours le matin, répétitions après-midi et soir ; Vicente) et 2017.40.051.
 - **Questions** : dates réelles du séminaire « New Sciences of Man » (trois semaines) ; date du départ de Sprague ;
   date de la mort de Max Dehn (Duberman ne la donne pas).
+
+### Notes 1953-54
+- Automne 1953 et hiver 1954 : aucune date de trimestre attestée → non reconstitués.
+- Plus de repas en commun (campus bas fermé à l'automne 1953, Duberman ¶1654) : aucun repas dans la grille.
+- Printemps 1954 : Olson et Creeley (cours du soir, Duberman), revue mensuelle (2017.40.051), résidents reconduits
+  depuis l'été (proches du plafond). Été 1954 d'après 2017.40.324 (Hellman : annonce 1954 contre Duberman 1955).
+- **Questions** : l'annonce du Spring Quarter 1954 (« recent announcement », citée par 2017.40.051) existe-t-elle dans
+  un autre fonds ? Dates des trimestres d'automne 1953 et d'hiver 1954 ?
 
 ## Points à vérifier sur scan
 (aucun pour l'instant)

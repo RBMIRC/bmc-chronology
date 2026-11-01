@@ -1,0 +1,39 @@
+# Concordance des cours 1953-54 → gabarits de l'année reconstituée (Spring Quarter et Summer Quarter 1954 seulement).
+#
+# Sources :
+#   2017.40.051 (Bulletin Vol. 11 No. 2, hiver 1953-54) : année en trois trimestres de onze semaines ; Spring Quarter du
+#     29 mars au 12 juin 1954 ; Summer Quarter avec le « Summer Institute of the Arts » ; « the curriculum is the Faculty
+#     and the students, not a list of courses » ; revue mensuelle de tous les travaux ; corps enseignant résident : « see
+#     recent announcement of Spring Quarter » (cette annonce n'est pas dans le corpus)
+#   2017.40.324 (Summer Quarter 1954, avril 1954) : enseignants et matières de l'été 1954, du 21 juin au 4 septembre
+#   Duberman, ch. 13-14 : arrivée de Creeley en mars 1954 (¶1757-1759) ; Hellman enseigne les langues « environ six
+#     mois à partir de l'été 1955 » (¶1801), contre 2017.40.324 qui l'annonce dès l'été 1954 : le document daté est gardé
+# Automne 1953 et hiver 1954 : aucune date de trimestre attestée, non reconstitués.
+# Printemps 1954 : aucune liste de cours ; les enseignants résidents de l'été 1954 sont reconduits dans leur domaine
+# (TERME_DEDUIT + PRESENCE, une chance sur deux). Olson et Creeley : lignes S du fichier de l'année (source Duberman).
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+C|ete.ecriture|Writing|Special Institute in Writing|The Act of Writing… (Olson, 1952-53)|—
+C|ete.peinture|Art|Painting; basic instruction in Lithography and the lithography workshop|Painting (Fiore, 1952-53)|—
+C|ete.theatre|Theatre|Theater (workshop in production method)|Theatre; Production (Huss, 1952-53)|—
+C|ete.poterie|Crafts|Pottery|Ceramics (Karnes, Weinrib, 1952-53)|—
+C|ete.carreaux|Crafts|Ceramics and Tiles|Ceramics (Karnes, Weinrib, 1952-53)|—
+C|ete.langues|Language|Languages|French, German or Spanish (Shepard, 1952-53)|—
+C|ete.musique|Music|Music: Theory and Composition|Musical Composition (Wolpe, 1952-53)|—
+
+# ---------- SUMMER QUARTER 1954 (2017.40.324) ----------
+U|E1|Robert Creeley; Charles Olson|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.ecriture|||1|« Special Institute in Writing », Robert Creeley; Charles Olson (2017.40.324)||volume et horaire supposés|summer
+U|E2|Joseph Fiore|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.peinture|||1|« Painting; basic instruction in Lithography and the lithography workshop », Joseph Fiore (2017.40.324)||volume et horaire supposés|summer
+U|E3|Wesley Huss|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.theatre|atelier||1|« Theater (workshop in production method) », Wesley Huss (2017.40.324)||volume et horaire supposés|summer
+U|E4|Karen Karnes|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.poterie|atelier||1|« Pottery », Karen Karnes (2017.40.324)||volume et horaire supposés|summer
+U|E5|David Weinrib|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.carreaux|atelier||1|« Ceramics and Tiles », David Weinrib (2017.40.324)||volume et horaire supposés|summer
+U|E6|Robert Hellman|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.langues|||1/2|« Languages », Robert Hellman (2017.40.324) ; Duberman (ch. 14, p. 446-447, ¶1801) le fait enseigner à partir de l'été 1955 seulement : réalisation en 1954 incertaine||volume et horaire supposés|summer
+U|E7|Stefan Wolpe|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.musique|||1|« Music: Theory and Composition », Stefan Wolpe (2017.40.324)||volume et horaire supposés|summer
+
+# ---------- SPRING QUARTER 1954 : enseignants résidents reconduits depuis l'été (aucune liste du printemps) ----------
+U|P2|Joseph Fiore|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME+TERME_DEDUIT+PRESENCE|ete.peinture|domaine de l'été 1954 ; titre inconnu||1/2|enseignant résident (peinture en 1952-53 et à l'été 1954) ; aucune liste du Spring Quarter 1954 dans le corpus||volume et horaire supposés|spring
+U|P3|Wesley Huss|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME+TERME_DEDUIT+PRESENCE|ete.theatre|atelier ; domaine de l'été 1954||1/2|idem (théâtre en 1952-53 et à l'été 1954)||volume et horaire supposés|spring
+U|P4|Karen Karnes; David Weinrib|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME+TERME_DEDUIT+PRESENCE|ete.poterie|atelier ; domaine de l'été 1954||1/2|idem (céramique en 1952-53 et à l'été 1954)||volume et horaire supposés|spring
+U|P7|Stefan Wolpe|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME+TERME_DEDUIT+PRESENCE|ete.musique|domaine de l'été 1954 ; titre inconnu||1/2|idem (composition en 1952-53 et à l'été 1954)||volume et horaire supposés|spring

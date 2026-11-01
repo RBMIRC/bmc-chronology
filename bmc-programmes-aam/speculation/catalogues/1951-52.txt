@@ -1,0 +1,62 @@
+# Concordance des cours 1951-52 → gabarits de l'année reconstituée (deux semestres ; pas d'été daté).
+#
+# Sources :
+#   2017.40.361 (BMC Bulletin Vol. 9 No. 3, « Education », 1951-52) : calendrier, et seulement des DOMAINES annoncés
+#     (« The specific classes which will be given during 1951-1952 will be organized to meet the needs and requests of
+#     the students in attendance… Fields represented will be: … ») ; « the largest [class] has about eight members, and
+#     there are a good number of tutorials »
+#   Aucun enseignant n'est nommé dans le corpus AAM pour 1951-52. Les enseignants viennent :
+#     - de Duberman (R_DUBERMAN, +10) : Sprague (biologie) et Adams (anthropologie), seuls recrutés au printemps 1951
+#       (ch. 13, p. 363, ¶1480) ; Lou Harrison (musique), que Wolpe remplace pendant sa bourse Guggenheim de 1952-53
+#       (ch. 14, p. 382-383, ¶1543-1544) ; Olson (écriture), ligne S du fichier de l'année ;
+#     - d'un document de l'année voisine qui les nomme dans ce domaine (R_NOMME, +5) : Fiore, Larsen, Jalowetz, Huss,
+#       Shepard (2017.40.049 pour 1950-51 et catalogue 1952-53) ; Dehn (2017.40.049, 1950-51), avec PRESENCE ;
+#     - sinon enseignant inconnu (R_COMPET, +20) : céramique, imprimerie, tissage, atelier du bois, littérature.
+# Chaque domaine est un cours au titre inconnu (ANNONCE, +15), d'une chance sur deux par semestre ; volume supposé.
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ARTS ----------
+C|art.peinture|Arts|Painting|Painting (Fiore, 1950-51)|Painting; Landscape Painting (Fiore, 1952-53)
+C|art.dessin|Arts|Drawing|Drawing (Fiore, 1950-51)|Drawing; Composition (Fiore, 1952-53)
+C|art.design|Arts|Color and Design|Design; Color (W. Jennerjahn, 1950-51)|Design I (Learning to See); Color (Larsen, Fiore, 1952-53)
+C|art.ceramique|Arts|Ceramics|Ceramics (Turner, 1950-51)|Ceramics (Karnes, Weinrib, 1952-53)
+C|art.musique|Arts|Music|The Shaping Forces in Music (Hetherington, 1950-51)|Musical Composition (Wolpe, 1952-53)
+C|art.voix|Arts|Voice|Voice Training (Jalowetz, 1950-51)|Singing (Jalowetz, 1952-53)
+C|art.theatre|Arts|Acting and Theatre|Acting; Theatre (Huss, 1950-51)|Theatre; Approach to Acting… (Huss, 1952-53)
+C|art.photo|Arts|Photography|Photography (Larsen, 1950-51)|Photography; Movie Photography (Larsen, 1952-53)
+C|art.reliure|Arts|Bookbinding|Bookbinding (Jalowetz, 1950-51)|Bookbinding (Jalowetz, 1952-53)
+C|art.ecriture|Arts|Writing|Writing (Richards, 1950-51)|The Act of Writing… (Olson, 1952-53)
+C|art.bois|Arts|Woodshop|—|Woodworking (1952-53, sans enseignant)
+C|art.imprimerie|Arts|Printing|Printing (McCandless, 1950-51)|Printing (Carroll Williams, 1952-53)
+C|art.tissage|Arts|Weaving|—|Weaving (1952-53, sans enseignant)
+U|JF1|Joseph Fiore|2|MEME_ANNEE+ANNONCE+R_NOMME+VOLUME|art.peinture|titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Fiore nommé en peinture en 1950-51 (2017.40.049) et en 1952-53|||fall,spring
+U|JF2|Joseph Fiore|2|MEME_ANNEE+ANNONCE+R_NOMME+VOLUME|art.dessin|titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Fiore nommé en dessin en 1950-51 et en 1952-53|||fall,spring
+U|HL1|Hazel Larsen|2|MEME_ANNEE+ANNONCE+R_NOMME+VOLUME|art.design|titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Larsen donne « Design I (Learning to See) » en 1952-53 ; Warren Jennerjahn, qui l'enseignait en 1950-51, est parti en France (Duberman, p. 362-363)|||fall,spring
+U|HL2|Hazel Larsen|1x120L|MEME_ANNEE+ANNONCE+R_NOMME+VOLUME|art.photo|atelier ; titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Larsen nommée en photographie en 1950-51 et 1952-53, « of the resident staff » à l'été 1951 (Duberman, p. 381)|||fall,spring
+U|CE|—|1x120L|MEME_ANNEE+ANNONCE+R_COMPET+VOLUME|art.ceramique|atelier ; enseignant inconnu||1/2|domaine annoncé (2017.40.361) ; Turner parti au printemps 1951, Karnes et Weinrib arrivés à l'été 1952 (Duberman, p. 362-372) : enseignant inconnu|||fall,spring
+U|LH|Lou Harrison|2|MEME_ANNEE+ANNONCE+R_DUBERMAN+VOLUME|art.musique|titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Harrison tient le poste de composition, que Wolpe reprend pendant sa bourse Guggenheim de 1952-53 (Duberman, ch. 14, p. 382-383, ¶1543-1544)|||fall,spring
+U|JJ1|Johanna Jalowetz|1|MEME_ANNEE+ANNONCE+R_NOMME+OCCASION|art.voix|leçons individuelles||1/2|domaine annoncé (2017.40.361) ; Jalowetz nommée en 1950-51 et 1952-53||plage indicative|fall,spring
+U|JJ2|Johanna Jalowetz|1x120L|MEME_ANNEE+ANNONCE+R_NOMME+VOLUME|art.reliure|atelier||1/2|domaine annoncé (2017.40.361) ; Jalowetz nommée en reliure en 1950-51 et 1952-53|||fall,spring
+U|WH|Wesley Huss|1x120L|MEME_ANNEE+ANNONCE+R_NOMME+VOLUME|art.theatre|atelier ; titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Huss nommé en 1950-51 (2017.40.049) et 1952-53 ; « business manager » en 1951-52 (Duberman, p. 399-400)|||fall,spring
+U|BO|—|1x120L|MEME_ANNEE+ANNONCE+R_COMPET+VOLUME|art.bois|atelier ; enseignant inconnu||1/2|domaine annoncé (2017.40.361) ; aucun enseignant connu|||fall,spring
+U|IM|—|1x120L|MEME_ANNEE+ANNONCE+R_COMPET+VOLUME|art.imprimerie|atelier ; enseignant inconnu||1/2|domaine annoncé (2017.40.361) ; McCandless parti, Carroll Williams nommé seulement en 1952-53|||fall,spring
+U|TI|—|1x120L|MEME_ANNEE+ANNONCE+R_COMPET+VOLUME|art.tissage|atelier ; enseignant inconnu||1/2|domaine annoncé (2017.40.361) ; aucun enseignant connu|||fall,spring
+N|art.ecriture|cours d'écriture d'Olson, ligne S du fichier de l'année (source : Duberman)
+
+# ---------- MATIÈRES ACADÉMIQUES ----------
+C|ac.nature|Academic|Natural Sciences|Introductory Physics (N. Goldowski, 1950-51)|Biology (Sprague, 1952-53)
+C|ac.social|Academic|Social Sciences|Anthropology (Leser, 1950-51)|—
+C|ac.litterature|Academic|Literature|Reading Literature (Richards, 1950-51)|English Literature of the 19th Century (Morley, 1952-53)
+C|ac.linguistique|Academic|Linguistics|Linguistics (Shepard, 1950-51)|Problems in Linguistics (Shepard, 1952-53)
+C|ac.langues|Academic|Languages|French and German (Shepard, 1950-51)|French, German or Spanish (Shepard, 1952-53)
+C|ac.maths|Academic|Mathematics|Geometry; Calculus (Dehn, 1950-51)|Mathematics: Elementary (N. Goldowski, 1952-53)
+C|ac.philo|Academic|Philosophy|Philosophy from 400 B.C. until 1600 A.D. (Dehn, 1950-51)|—
+U|VS|Victor Sprague|3|MEME_ANNEE+ANNONCE+R_DUBERMAN+VOLUME|ac.nature|biologie ; titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Sprague recruté en biologie au printemps 1951 (Duberman, ch. 13, p. 363, ¶1480) ; Natasha Goldowski à Paris pour l'année|||fall,spring
+U|JA|John Adams|3|MEME_ANNEE+ANNONCE+R_DUBERMAN+VOLUME|ac.social|anthropologie ; titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Adams recruté en anthropologie au printemps 1951 (Duberman, ch. 13, p. 363, ¶1480)|||fall,spring
+U|LI|—|2|MEME_ANNEE+ANNONCE+R_COMPET+VOLUME|ac.litterature|enseignant inconnu||1/2|domaine annoncé (2017.40.361) ; présence de M. C. Richards en 1951-52 non établie dans les sources|||fall,spring
+U|FS1|Flola L. Shepard|2|MEME_ANNEE+ANNONCE+R_NOMME+VOLUME|ac.linguistique|titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Shepard nommée en 1950-51 (2017.40.049) et 1952-53 ; Sprague lui écrit le 31 décembre 1951 (Duberman, p. 368)|||fall,spring
+U|FS2|Flola L. Shepard|3|MEME_ANNEE+ANNONCE+R_NOMME+VOLUME|ac.langues|français ou allemand ; titre exact inconnu||1/2|idem|||fall,spring
+U|MD1|Max Dehn|2|MEME_ANNEE+ANNONCE+R_NOMME+VOLUME+PRESENCE|ac.maths|titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Dehn nommé en mathématiques en 1950-51 (2017.40.049) ; sa présence en 1951-52 n'est pas attestée dans le corpus|||fall,spring
+U|MD2|Max Dehn|2|MEME_ANNEE+ANNONCE+R_NOMME+VOLUME+PRESENCE|ac.philo|titre exact inconnu||1/2|domaine annoncé (2017.40.361) ; Dehn nommé en philosophie en 1950-51 (2017.40.049) ; présence non attestée|||fall,spring

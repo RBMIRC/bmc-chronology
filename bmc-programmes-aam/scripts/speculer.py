@@ -45,6 +45,9 @@ CODES = {
     "LISTE_VOISINE": (15, "liste de cours de l'année précédente : celle de l'année n'est pas lisible dans le corpus"),
     "TERME_DEDUIT": (15, "liste de cours donnée pour d'autres trimestres de l'année, reconduite pour celui-ci"),
     "PRESENCE": (15, "présence de l'enseignant pendant tout le trimestre non attestée"),
+    # ajoutés le 1/11/2026 pour 1951-57 (sans effet sur les années précédentes, qui ne les emploient pas)
+    "R_DUBERMAN": (10, "enseignant rattaché d'après Duberman (texte corrigé), pas d'après un document de l'année"),
+    "ANNONCE": (15, "domaine annoncé à l'avance (« fields represented will be… ») : cours réel non attesté"),
 }
 JOURS = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"]
 NOMS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]

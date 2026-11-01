@@ -35,6 +35,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 |---|---|---|---|---|---|
 | 1949-50 | fait | 45 (aut. 18, print. 18, été 9) | 263 (~4 380) | 60,5 % (aut. 63, print. 65, été 42) | « speculation 1949-50 » |
 | 1950-51 | fait | 45 (aut. 13+5, print. 18, été 4+5) | 357 (~3 820) | 50,1 % (aut. 47, print. 62, été 39-41) | « speculation 1950-51 » |
+| 1951-52 | fait | 30 (aut. 15, print. 15 ; été non daté) | 112 (~1 680) | 65,1 % (cours seuls : 86 %) | « speculation 1951-52 » |
 
 ### Notes 1949-50
 - Sources : 2017.40.360 (corps enseignant de septembre 1949), 2017.40.048 (« courses given » 1949-50, sans semestre),
@@ -52,6 +53,16 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 - Été 1951 : 2017.40.340 nomme Herbert Matter, Duberman Arthur Siegel (photographie) — l'annonce est gardée, l'écart noté.
 - Cours d'écriture d'Olson (été 1951) : ligne S sourcée Duberman, jeudi 19-23 h choisi (JOUR).
 - **Question** : date réelle du départ de Corkran et des quakers (avant ou après le 7 février 1951) ?
+
+### Notes 1951-52
+- Une seule source AAM (2017.40.361) : calendrier et **domaines** annoncés, sans enseignant ni titre. Un cours par domaine,
+  titre inconnu, 1 chance sur 2 par semestre ; enseignants d'après Duberman (Sprague, Adams, Harrison, Olson) ou l'année
+  voisine (Fiore, Larsen, Jalowetz, Huss, Shepard, Dehn + PRESENCE) ; inconnus pour céramique, imprimerie, tissage,
+  bois, littérature.
+- Nouveaux codes dans `scripts/speculer.py` : R_DUBERMAN (+10), ANNONCE (+15).
+- Été 1952 : pas de période attestée dans `calendrier_periodes.csv` → non reconstitué (Duberman seul).
+- **Questions** : M. C. Richards enseigne-t-elle en 1951-52 ? Dehn enseigne-t-il encore en 1951-52 ? Qui tient
+  céramique, imprimerie, tissage et l'atelier du bois ?
 
 ## Points à vérifier sur scan
 (aucun pour l'instant)

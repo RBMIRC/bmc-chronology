@@ -34,6 +34,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 | Année | État | Semaines | Entrées de gabarit (développées) | Part déduite moy. | Commit |
 |---|---|---|---|---|---|
 | 1949-50 | fait | 45 (aut. 18, print. 18, été 9) | 263 (~4 380) | 60,5 % (aut. 63, print. 65, été 42) | « speculation 1949-50 » |
+| 1950-51 | fait | 45 (aut. 13+5, print. 18, été 4+5) | 357 (~3 820) | 50,1 % (aut. 47, print. 62, été 39-41) | « speculation 1950-51 » |
 
 ### Notes 1949-50
 - Sources : 2017.40.360 (corps enseignant de septembre 1949), 2017.40.048 (« courses given » 1949-50, sans semestre),
@@ -43,6 +44,14 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
   botanique (« at a neighboring college »). Olson : visiteur, rien de reconstitué.
 - Réunions du corps enseignant : jours irréguliers chez Duberman, pas de créneau régulier reconstitué.
 - Question : Flola / Flora Shepard (2017.40.360 écrit « Flora », 2017.40.049 et Duberman « Flola ») ; « Flola » retenu.
+
+### Notes 1950-51
+- Automne : liste annoncée de 2017.40.049. Printemps : reconduit (TERME_DEDUIT). Départs d'après Duberman seul :
+  Levi en décembre 1950 (automne coupé au 12/12) ; Corkran, McCandless, les Hetherington, Trayer au printemps à 1 chance
+  sur 2 (PRESENCE) ; suite de philosophie « par Levi » au printemps non reconstituée.
+- Été 1951 : 2017.40.340 nomme Herbert Matter, Duberman Arthur Siegel (photographie) — l'annonce est gardée, l'écart noté.
+- Cours d'écriture d'Olson (été 1951) : ligne S sourcée Duberman, jeudi 19-23 h choisi (JOUR).
+- **Question** : date réelle du départ de Corkran et des quakers (avant ou après le 7 février 1951) ?
 
 ## Points à vérifier sur scan
 (aucun pour l'instant)

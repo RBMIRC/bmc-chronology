@@ -1,0 +1,118 @@
+# Concordance des cours 1950-51 → gabarits de l'année reconstituée (deux semestres + Summer Session 1951).
+#
+# Sources :
+#   2017.40.049 (Bulletin, 20 août 1950) : cours annoncés pour l'automne 1950, enseignant par enseignant
+#   2017.40.048 (Bulletin 1950-51) : calendrier de l'année
+#   2017.40.283 : démonstration du Light Sound Movement Workshop, 2 février 1951
+#   2017.40.340 (Summer Session 1951) : photographie, danse, peinture
+#   Duberman, ch. 11 et 13, p. 354-363 (¶1449-1450, ¶1479-1480) : départ de Levi en décembre 1950 ; Corkran et les
+#     quakers partis « still earlier » que les départs du printemps 1951 (Jennerjahn, Turner, Trayer, Leser, Goldowski) ;
+#     retour d'Olson à l'été 1951 et son cours d'écriture « un soir par semaine » (p. 420-421, ¶1714-1715)
+# Le cours d'écriture d'Olson (été 1951) est une ligne S du fichier de l'année, avec Duberman pour source.
+# Printemps 1951 : aucune liste ; les cours de l'automne sont reconduits (#terme_deduit spring, +15). Pour Corkran,
+# les quakers (McCandless, les Hetherington) et Trayer, présence au printemps incertaine : unités du printemps à part,
+# avec PRESENCE et une chance sur deux.
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ANTHROPOLOGIE, PHILOSOPHIE, MATHÉMATIQUES (P. W. Leser, A. W. Levi, M. Dehn) ----------
+C|ant.afrique|Anthropology|Anthropology of Africa|Anthropology of Africa (1949-50)|—
+C|ant.sociale|Anthropology|Social Anthropology|Introduction to General Anthropology (1949-50)|—
+C|ant.genetique|Anthropology|Introduction to Genetics|Genetics (Physical Anthropology) (1949-50)|—
+C|phi.education|Philosophy|The Philosophy of Education|—|—
+C|phi.sociale|Philosophy|Social Philosophy Today|Introduction to the Social Sciences (1949-50)|—
+C|phi.histoire|Philosophy|Philosophy from 400 B.C. until 1600 A.D.|Introduction to Plato (1949-50)|—
+C|ma.geometrie|Mathematics|Geometry (elementary, projective, analytic)|Geometry for Artists (1949-50)|—
+C|ma.calcul|Mathematics|Calculus|Calculus (1949-50)|—
+C|ma.superieur|Mathematics|Higher Mathematics (tutorials)|Advanced Calculus (1949-50)|—
+U|PL1|Paul W. Leser|3|MEME_ANNEE+R_ATTESTE+VOLUME|ant.afrique|||1|« Anthropology of Africa; Social Anthropology; Introduction to Genetics », Paul W. Leser, automne 1950 (2017.40.049) ; démission le 24 avril 1951, effective en fin d'année (Duberman, p. 362-363)|||fall,spring
+U|PL2|Paul W. Leser|3|MEME_ANNEE+R_ATTESTE+VOLUME|ant.sociale|||1|idem|||fall,spring
+U|PL3|Paul W. Leser|2|MEME_ANNEE+R_ATTESTE+VOLUME|ant.genetique|||1|idem|||fall,spring
+U|BL1|Albert William Levi|3|MEME_ANNEE+R_ATTESTE+VOLUME+PRESENCE|phi.education|||1|« The Philosophy of Education; Social Philosophy Today », Levi, automne 1950 (2017.40.049) ; Levi quitte la communauté en décembre 1950 (Duberman, ch. 11, p. 354-355) : cours arrêtés aux vacances d'hiver (13 décembre)|||fall@1950-09-20..1950-12-12
+U|BL2|Albert William Levi|3|MEME_ANNEE+R_ATTESTE+VOLUME+PRESENCE|phi.sociale|||1|idem|||fall@1950-09-20..1950-12-12
+U|MD1|Max Dehn|3|MEME_ANNEE+R_ATTESTE+VOLUME|phi.histoire|||1|« Philosophy from 400 B.C. until 1600 A.D. (continued in spring by Dr Levi) », Max Dehn, automne 1950 (2017.40.049)|||fall
+U|MD2|Max Dehn|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.geometrie|||1|« Geometry (elementary, projective, analytic); Calculus; Higher Mathematics (tutorials) », Max Dehn (2017.40.049)|||fall,spring
+U|MD3|Max Dehn|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.calcul|||1|idem|||fall,spring
+U|MD4|Max Dehn|1|MEME_ANNEE+R_ATTESTE+OCCASION|ma.superieur|tutorats||1|idem||plage indicative|fall,spring
+
+# ---------- HISTOIRE, LITTÉRATURE, LANGUES (D. Corkran, M. C. Richards, F. L. Shepard, A. Goldowski) ----------
+C|lit.am1860|Literature|American Literature before 1860|American Fiction 1835-1900 (1949-50)|—
+C|hi.franklin|History|The World of Franklin and Jefferson|America since 1900 (1949-50)|—
+C|hi.sud|History|The South in U.S. History|—|—
+C|lit.lecture|Literature|Reading Literature|History of English Poetry (1949-50)|—
+C|ecr.ecriture|Literature|Writing|Writing (workshop, 1949-50)|—
+C|la.linguistique|Language|Linguistics|Linguistics (1949-50)|—
+C|la.frall|Language|French and German|French; German (1949-50)|—
+C|la.russe|Language|Russian and French (individual tutorials)|Russian (1949-50)|—
+U|DC1|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|lit.am1860|||1|« American Literature before 1860; The World of Franklin and Jefferson; The South in U.S. History », Corkran, automne 1950 (2017.40.049)|||fall
+U|DC2|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.franklin|||1|idem|||fall
+U|DC3|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.sud|||1|idem|||fall
+U|DC1p|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME+PRESENCE|lit.am1860|||1/2|Corkran « made his decision to leave by fall of 1950 » ; parti avant les départs du printemps 1951 (Duberman, ch. 11 et 13, p. 354-363) : présence au printemps incertaine|=DC1||spring
+U|DC2p|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME+PRESENCE|hi.franklin|||1/2|idem|=DC2||spring
+U|DC3p|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME+PRESENCE|hi.sud|||1/2|idem|=DC3||spring
+U|MR1|Mary Caroline Richards|3|MEME_ANNEE+R_ATTESTE+VOLUME|lit.lecture|||1|« Reading Literature; Writing », M. C. Richards (2017.40.049)|||fall,spring
+U|MR2|Mary Caroline Richards|2|MEME_ANNEE+R_ATTESTE+VOLUME|ecr.ecriture|||1|idem|||fall,spring
+U|FS1|Flola L. Shepard|3|MEME_ANNEE+R_ATTESTE+VOLUME|la.frall|||1|« Linguistics; French and German », Flola L. Shepard (2017.40.049)|||fall,spring
+U|FS2|Flola L. Shepard|2|MEME_ANNEE+R_ATTESTE+VOLUME|la.linguistique|||1|idem|||fall,spring
+U|AG|Anna Goldowski|1|MEME_ANNEE+R_ATTESTE+OCCASION|la.russe|tutorats individuels||1|« Russian and French (individual tutorials) », Anna Goldowski (2017.40.049)||plage indicative|fall,spring
+
+# ---------- SCIENCES (N. Goldowski) ----------
+C|ph.intro|Science|Introductory Physics|Elementary Physics (1949-50)|—
+C|ph.chimie|Science|Physics and Chemistry|Organic Chemistry (1949-50)|—
+U|NG1|Natasha Goldowski|3|MEME_ANNEE+R_ATTESTE+VOLUME|ph.intro|||1|« Introductory Physics; Physics and Chemistry », Natasha Goldowski (2017.40.049) ; nouveau laboratoire de sciences « for fall use » (2017.40.049)|||fall,spring
+U|NG2|Natasha Goldowski|3|MEME_ANNEE+R_ATTESTE+VOLUME|ph.chimie|||1|idem|||fall,spring
+
+# ---------- ARTS (J. Fiore, W. et E. Jennerjahn, H. Larsen, J. Jalowetz, R. C. Turner, J. McCandless, W. Huss, R. S. Trayer) ----------
+C|art.dessin|Art|Drawing|Drawing (1949-50)|—
+C|art.peinture|Art|Painting|Painting (1949-50)|—
+C|art.design|Art|Design|Design (1949-50)|—
+C|art.couleur|Art|Color|Color (1949-50)|—
+C|art.percussion|Art|Percussion|—|—
+C|da.technique|Dance|Dance Technique|Dance (workshop, 1949-50)|—
+C|da.creation|Dance|Creative Dance|—|—
+C|th.jeu|Theatre|Acting|Drama (visiting instructor, 1949-50)|—
+C|th.theatre|Theatre|Theatre|—|—
+C|at.photo|Workshops|Photography|Photography (1949-50)|—
+C|at.reliure|Workshops|Bookbinding|Bookbinding (1949-50)|—
+C|at.ceramique|Workshops|Ceramics|Ceramics (1949-50)|—
+C|at.imprimerie|Workshops|Printing|Printing (1949-50)|—
+C|at.ferme|Workshops|Farm Workshop|Farm (1949-50)|—
+U|JF1|Joseph Fiore|3|MEME_ANNEE+R_ATTESTE+VOLUME|art.dessin|||1|« Drawing; Painting », Joseph Fiore (2017.40.049)|||fall,spring
+U|JF2|Joseph Fiore|3|MEME_ANNEE+R_ATTESTE+VOLUME|art.peinture|||1|idem|||fall,spring
+U|WJ1|Warren P. Jennerjahn|3|MEME_ANNEE+R_ATTESTE+VOLUME|art.design|||1|« Design; Color; Percussion », W. P. Jennerjahn (2017.40.049) ; « weekly problems » en design|||fall,spring
+U|WJ2|Warren P. Jennerjahn|3|MEME_ANNEE+R_ATTESTE+VOLUME|art.couleur|||1|idem|||fall,spring
+U|WJ3|Warren P. Jennerjahn|1|MEME_ANNEE+R_ATTESTE+VOLUME|art.percussion|||1|idem|||fall,spring
+U|EJ1|Elizabeth Jennerjahn|2|MEME_ANNEE+R_ATTESTE+VOLUME|da.technique|||1|« Dance Technique; Creative Dance (visits planned by Merce Cunningham, Katherine Litz) », Elizabeth Jennerjahn (2017.40.049)|||fall,spring
+U|EJ2|Elizabeth Jennerjahn|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|da.creation|atelier||1|idem|||fall,spring
+U|WH1|Wesley Huss|2|MEME_ANNEE+R_ATTESTE+VOLUME|th.jeu|||1|« Acting; Theatre », Wesley Huss, nouveau « business manager and teacher of dramatics » (2017.40.049)|||fall,spring
+U|WH2|Wesley Huss|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|th.theatre|atelier||1|idem|||fall,spring
+U|HL|Hazel Larsen|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.photo|atelier||1|« Photography », Hazel Larsen (2017.40.049)|||fall,spring
+U|JJ2|Johanna Jalowetz|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.reliure|atelier||1|« Voice Training; Bookbinding », Johanna Jalowetz (2017.40.049)|||fall,spring
+U|RT1|Robert C. Turner|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.ceramique|atelier||1|« Ceramics », Robert C. Turner (2017.40.049)|||fall,spring
+U|JM|John H. McCandless|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.imprimerie|atelier||1|« Printing », John H. McCandless (2017.40.049)|||fall
+U|JMp|John H. McCandless|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME+PRESENCE|at.imprimerie|atelier||1/2|quaker ; « the Quaker contingent… had pulled up stakes » avant le printemps 1951 (Duberman, ch. 13, p. 362-363) : présence au printemps incertaine|=JM||spring
+U|RS|Raymond S. Trayer|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME|at.ferme|atelier||1|« Farm Workshop », Raymond S. Trayer (2017.40.049)|||fall
+U|RSp|Raymond S. Trayer|1x120L|MEME_ANNEE+R_ATTESTE+VOLUME+PRESENCE|at.ferme|atelier||1/2|« the Trayers had left for Earlham » au printemps 1951 (Duberman, ch. 13, p. 362-363) : présence au printemps incertaine|=RS||spring
+
+# ---------- MUSIQUE (V. et L. Hetherington, J. Jalowetz) ----------
+C|mu.forces|Music|The Shaping Forces in Music|Appreciation (1949-50)|—
+C|mu.theorie|Music|Music Theory and Practice|Fundamentals (1949-50)|—
+C|mu.voix|Music|Voice Training|Voice (1949-50)|—
+C|phi.suite|Philosophy|Philosophy from 400 B.C. until 1600 A.D. (spring continuation)|—|—
+U|VH1|Vollmer Hetherington; Louise Hetherington|3|MEME_ANNEE+R_ATTESTE+VOLUME|mu.forces|||1|« The Shaping Forces in Music; Music Theory and Practice », Vollmer et Louise Hetherington (2017.40.049)|||fall
+U|VH2|Vollmer Hetherington; Louise Hetherington|3|MEME_ANNEE+R_ATTESTE+VOLUME|mu.theorie|||1|idem|||fall
+U|VH1p|Vollmer Hetherington; Louise Hetherington|3|MEME_ANNEE+R_ATTESTE+VOLUME+PRESENCE|mu.forces|||1/2|quakers ; partis avant le printemps 1951 (Duberman, ch. 13, p. 362-363) : présence au printemps incertaine|=VH1||spring
+U|VH2p|Vollmer Hetherington; Louise Hetherington|3|MEME_ANNEE+R_ATTESTE+VOLUME+PRESENCE|mu.theorie|||1/2|idem|=VH2||spring
+U|JJ1|Johanna Jalowetz|1|MEME_ANNEE+R_ATTESTE+OCCASION|mu.voix|leçons individuelles||1|« Voice Training », Johanna Jalowetz (2017.40.049)||plage indicative|fall,spring
+N|phi.suite|« continued in spring by Dr Levi » (2017.40.049) : Levi quitte la communauté en décembre 1950 (Duberman, ch. 11, p. 354-355) ; suite non reconstituée
+
+# ---------- SUMMER SESSION 1951 (2017.40.340 ; Duberman ch. 13-14) ----------
+C|ete.photo|Summer Session 1951|Photography: history, stills, movies|—|—
+C|ete.danse|Summer Session 1951|Dance|Dance (creative approach, été 1950)|—
+C|ete.peinture1|Summer Session 1951|Painting (July)|Painting (Stamos, été 1950)|—
+C|ete.peinture2|Summer Session 1951|Painting: visiting painters, two in residence each two weeks in August|—|—
+U|E1|Aaron Siskind; Harry Callahan; Herbert Matter; Hazel Larsen|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.photo|||1|cours de la Summer Session 1951 avec ses enseignants (2017.40.340, annonce d'avril 1951) ; Duberman (ch. 14, p. 381) nomme Arthur Siegel au lieu de Herbert Matter||volume et horaire supposés|summer
+U|E2|Katherine Litz|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.danse|||1|idem (2017.40.340) ; Litz revient « a second time » (Duberman, p. 381)||volume et horaire supposés|summer
+U|E3|Ben Shahn|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.peinture1|||1|« Painting (July) », Ben Shahn (2017.40.340)||volume et horaire supposés|summer@1951-07-09..1951-07-31
+U|E4|peintres invités|3|MEME_ANNEE+R_COMPET+VOLUME|ete.peinture2|deux peintres invités par quinzaine||1|« visiting painters, two in residence each two weeks in August » (2017.40.340) ; noms non donnés (Duberman cite Motherwell pour l'été)||volume et horaire supposés|summer@1951-08-01..1951-08-31

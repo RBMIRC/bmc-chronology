@@ -134,7 +134,8 @@ def process_file(input_path, output_path, title_patterns=None):
 
 
 if __name__ == "__main__":
-    base_path = "/Users/sylvain/Documents/DATA BMC"
+    import os
+    base_path = os.path.dirname(os.path.abspath(__file__))  # DATA_BMC/ dans le dépôt
 
     # Traiter farm_low_ocr.txt
     process_file(

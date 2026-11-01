@@ -1,7 +1,7 @@
 """Dépouillement chronologique de Duberman, Black Mountain: An Exploration in Community (1972).
 
 Entrées : duberman/extraction/*.txt (lignes E|…, voir _FORMAT.txt), écrites à la lecture du texte corrigé
-          ~/Documents/DATA BMC/Duberman_Black_Mountain_corrige.txt ;
+          DATA_BMC/Duberman_Black_Mountain_corrige.txt (racine du dépôt) ;
           /tmp/dub/paged.json et /tmp/dub/notes_by_id.json (paragraphes et notes → pages du livre),
           ou leurs copies dans duberman/_appui/ si /tmp a été vidé.
 Sorties (dans duberman/, jamais par-dessus programme/ ni semainier/) :
@@ -17,7 +17,10 @@ ICI = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(ICI)
 EXTR = os.path.join(ICI, "extraction")
 APPUI = os.path.join(ICI, "_appui")
-CHRONOS = os.path.expanduser("~/Documents/DATA BMC/Chronos 2/bmc_chronology.json")
+# racine du dépôt = dossier parent de bmc-programmes-aam/ ; Chronos 2 n'est pas recopié dans le dépôt
+# (recoupement Chronos sauté s'il manque : ne pas relancer le script pour écraser recoupements_duberman.csv)
+DEPOT = os.path.dirname(ROOT)
+CHRONOS = os.path.join(DEPOT, "DATA_BMC", "Chronos 2", "bmc_chronology.json")
 AAM = os.path.join(ROOT, "programme", "evenements.csv")
 
 LIVRE = "Duberman, Black Mountain: An Exploration in Community (1972 ; Anchor 1973)"

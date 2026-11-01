@@ -1,4 +1,6 @@
-p = '/Users/sylvain/Documents/bmc-programmes-aam/semainier/index.html'
+import os
+# chemin relatif à bmc-programmes-aam/ (ce fichier est dans programme/audit/lots/)
+p = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', 'semainier', 'index.html')
 s = open(p).read()
 R = [
 ('''function filtres() {

@@ -1,0 +1,202 @@
+{
+ "passe": "mois",
+ "cle": "1943-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4404,
+  "sortie": 12904,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1943-12 (décembre 1943)",
+  "session": null,
+  "saison_et_climat": "Hiver et fin d'année près d'Asheville ; les fiches ne décrivent pas le climat de décembre, la saison est déduite de la date.",
+  "situation": "Le collège est en pleine guerre et en creux d'effectifs : les hommes sont partis, une partie des jeunes femmes aussi, et la faculté est recomposée autour de femmes et d'étrangers déplacés. Wunsch est encore au poste, comme le montre sa présence au réveillon de South Lodge. Le conflit sur les mœurs et le contrôle des étudiants est vif, et les nouveaux enseignants contestent l'ancienne garde. Le cours allemand Werklehre perd son nom officiel, la dernière mention officielle étant, selon une source, le bulletin de décembre 1943 (formulé au conditionnel).",
+  "presents_probables": [
+   {
+    "nom": "Robert Wunsch, recteur",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers (peinture nocturne, enseignement)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier (co-dirigeant de la faculté)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eric Bentley (histoire, théâtre)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Clark Foreman (co-enseigne Europe moderne)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus (conférences sur le matérialisme)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Sam Brown (seul étudiant masculin signalé à la mi-octobre)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lorrie Goulet (étudiante arrivée en 1943)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Deaver (étudiant, couple du bal avec French)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Étudiants du réveillon de South Lodge, noms non donnés",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1943-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le cours Werklehre est renommé Basic Design ou General Design à cause de la guerre allemande ; le mot disparaît officiellement, mais les étudiants continuent de l'employer.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03436"
+    ]
+   },
+   {
+    "date": "1943-12-09",
+    "precision": "jour",
+    "ce_qui_arrive": "Mariage civil d'Elaine Fried et Willem de Kooning à New York, sans fête ; la mère de la mariée refuse de venir. Hors campus, mais lié à l'avenir de BMC.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03437",
+     "SC-00869"
+    ]
+   },
+   {
+    "date": "1943-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Dreier écrit que le collège a su garder ses idées maîtresses à travers la crise ; la date exacte de ce texte n'est pas donnée.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1943"
+    ]
+   }
+  ],
+  "quotidien": "La vie culturelle tient malgré la guerre : concerts du samedi (des blessés du Moore General Hospital y assistent, date non précisée), répétitions du Quatuor Kolisch au réfectoire, bals du samedi, fêtes étudiantes à South Lodge. Albers peint la nuit dans la salle blanche de Black Dwarf. Les chantiers, le travail manuel et les cours continuent, sous un nouveau nom pour le cours de design. La communauté est resserrée, réduite et largement féminine.",
+  "tensions": [
+   "Wunsch contre les étudiants sur les mœurs : il s'alarme des couples qui quittent le bal ensemble, puis du réveillon où les étudiants enlacés lui paraissent avoir perdu toute mesure. Les étudiants refusent l'accord interdisant les visites dans les chambres de l'autre sexe et réclament voix égale et discussion libre des standards moraux.",
+   "Faculté : les nouveaux enseignants, énergiques, se heurtent à Albers, Dreier et Wunsch, qui dominent toujours ; une « tempête » agite les rapports de pouvoir.",
+   "Guerre idéologique interne : Bentley attire étudiants et théâtre vers la politique ; Straus l'accuse d'endoctrinement pro-soviétique et anti-britannique ; Bentley répond par une déclaration en sept points. Les épisodes datés seulement 1942-1944 pèsent sur ce mois sans date précise.",
+   "Recrutement : presque plus d'étudiants masculins, et des jeunes femmes parties vers les WACs, les WAVES et les usines de munitions.",
+   "Statut de Wunsch : Burns le dit parti en 1943, mais les fiches le montrent encore à la rentrée et au Nouvel An (contradiction non résolue).",
+   "Codification selon Duberman : notation externe pour les transferts, absences surveillées, passages accélérés en division supérieure (lecture, sans date précise)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le Nouvel An de South Lodge",
+    "date": "1943-12-31",
+    "lieu": "lobby de South Lodge",
+    "personnages": [
+     "Robert Wunsch",
+     "étudiants"
+    ],
+    "deroule": "Wunsch entre dans le lobby où les étudiants fêtent le Nouvel An. Il juge que trop de vin a transformé les petits garçons et filles en Greenwich Villagers enlacés, repart aussitôt, très bouleversé, et le raconte à Evarts.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00870"
+    ]
+   },
+   {
+    "titre": "Mariage à l'hôtel de ville",
+    "date": "1943-12-09",
+    "lieu": "City Hall, New York",
+    "personnages": [
+     "Elaine de Kooning",
+     "Willem de Kooning",
+     "Charles Fried",
+     "Peter Fried",
+     "Janice Biala",
+     "Daniel Brustlein",
+     "Max Margulis",
+     "Bart Vanderschellen"
+    ],
+    "deroule": "Un matin de décembre : robe bleu marine, sac de la sœur, alliance à 9,50 $, sans la mère ni Conrad. Ensuite soit un verre dans un bar, soit un déjeuner de cafétéria offert par Biala et Brustlein, selon les versions. Retour immédiat à l'atelier, chacun reprend le travail. Elaine notera que le jour est l'anniversaire d'Emily Dickinson et tombe deux ans et deux jours après Pearl Harbor.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00869",
+     "EV-03437"
+    ]
+   },
+   {
+    "titre": "Le cours qui garde son vieux nom",
+    "date": "1943-12",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "enseignants du cours de design",
+     "étudiants"
+    ],
+    "deroule": "Le cours change officiellement de nom pour des raisons de guerre, mais les étudiants continuent de l'appeler Werklehre, comme un signe de résistance douce à la nouvelle appellation.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03436"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Wunsch au lobby de South Lodge, le 31 décembre, après le réveillon",
+    "vers_date": null,
+    "vers": "Le bal du samedi où Deaver et French quittent ensemble la salle, confidence que Wunsch fait à Evarts, parti à l'armée",
+    "refs": [
+     "SC-00870",
+     "synthèse 1943"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le recteur choqué par le désordre des mœurs en décembre",
+    "vers_date": "1944",
+    "vers": "La scission de 1944 : rivalité Bentley/Straus et ruptures au sein de la faculté",
+    "refs": [
+     "synthèse 1943"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le mariage civil de Willem de Kooning et Elaine Fried, le 9 décembre",
+    "vers_date": "1948",
+    "vers": "Willem de Kooning enseignera à BMC à l'été 1948, premier lien concret du couple avec le collège",
+    "refs": [
+     "EV-03437",
+     "synthèse 1943"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le mot Werklehre encore employé par les étudiants en décembre",
+    "vers_date": null,
+    "vers": "Les années d'avant-guerre, quand le cours portait son nom allemand officiel",
+    "refs": [
+     "EV-03436"
+    ]
+   }
+  ],
+  "motifs": [
+   "la puritanie du recteur face à la sensualité étudiante",
+   "une communauté en guerre qui se vide de ses hommes",
+   "l'union d'Elaine et Willem, dont tous prévoient les tensions",
+   "un nom de cours qu'on change mais que les étudiants gardent",
+   "la règle héritée contre la liberté de discussion",
+   "Wunsch, rhétorique démocratique et soupçons"
+  ],
+  "lacunes": "Session inconnue : aucune fiche ne dit si décembre tombe en session, en vacances ou entre deux trimestres. Aucune fiche ne donne l'effectif ni l'emploi du temps de décembre. Wunsch : Burns (départ en 1943) contre les fiches (présence à la rentrée et au Nouvel An), sans résolution. Le récit du mariage diverge (bar ou déjeuner de cafétéria ; âge d'Elaine 23 ou 25 ans). Le Nouvel An ne vient que du point de vue sévère de Wunsch, par Duberman, sans témoignage étudiant. Les fiches ne distinguent pas toujours Josef et Anni Albers. La synthèse 1943 n'a pas d'identifiant et est citée comme telle. La date exacte de la dernière apparition de Werklehre reste conditionnelle."
+ }
+}

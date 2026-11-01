@@ -1,0 +1,336 @@
+{
+ "passe": "mois",
+ "cle": "1938-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5162,
+  "sortie": 16867,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1938-03",
+  "session": "trimestre de printemps de l'année académique 1937-1938 (déduit : aucune fiche ne nomme la session)",
+  "saison_et_climat": "fin d'hiver ; Caroline du Sud côtière, air plutôt doux et ambiance de station balnéaire hors saison à Folly Beach (déduit, non décrit par les fiches)",
+  "situation": "Rice est officiellement en congé depuis le 3 mars jusqu'au 1er mai et ne peut revenir qu'avec l'accord de la faculté. La décision a été prise entre Mangold, Dreier, Albers et Rice, sans consulter les étudiants, qui ont seulement reçu la formule « peut ou non revenir avant septembre ». Rice est parti seul pour Folly Beach ; Nell est chez son frère à Swarthmore. Une consultation informelle de la faculté, via Mangold, est prévue vers la mi-avril. Les rumeurs montent au Nord, la levée de fonds est menacée, et la communauté a décidé qu'Alice ne doit pas être pénalisée.",
+  "presents_probables": [
+   {
+    "nom": "Fred Mangold (secrétaire)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier (trésorier)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Alice (étudiante, nom de famille absent des fiches)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "étudiants de la communauté (non consultés sur le congé)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Schawinsky (enseignant, déjà mal vu du Conseil)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1938-03-03",
+    "precision": "jour",
+    "ce_qui_arrive": "Mangold et Dreier négocient avec Rice un congé jusqu'au 1er mai, avec retour conditionné à l'accord de la faculté. Les étudiants ne sont pas consultés. La faculté vote le congé à large consensus et décide qu'Alice ne sera pas pénalisée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02837",
+     "EV-02835",
+     "SC-00733"
+    ]
+   },
+   {
+    "date": "1938-03-03",
+    "precision": "jour",
+    "ce_qui_arrive": "Le mémorandum de cet entretien est rapporté à la faculté le jour même ; une copie est conservée aux archives de Raleigh.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02836"
+    ]
+   },
+   {
+    "date": "1938-03-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Rice part seul en voiture vers Folly Beach, Nell part pour Swarthmore. La date est contestée : EV-02838 dit « le lendemain de l'accord », ce qui donnerait le 4 mars, alors que la fiche retient le 7 mars selon Duberman.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02838"
+    ]
+   },
+   {
+    "date": "1938-03",
+    "precision": "periode",
+    "ce_qui_arrive": "Séjour de Rice dans un cottage prêté à Folly Beach : il met en forme ses souvenirs du Sud, reçoit des délégations d'étudiants (crabes, huîtres, bière) et emprunte cinq dollars pour du whiskey. Il compte revenir au plus tard le 1er mai, reposé.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02834",
+     "chapitre 1938 (synthèse)"
+    ]
+   },
+   {
+    "date": "1938-03",
+    "precision": "periode",
+    "ce_qui_arrive": "Au printemps, Rice rend visite à Louis et Stella Adamic à Milford (New Jersey), qui le poussent et l'encouragent à écrire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02834",
+     "EV-02677",
+     "EV-02676"
+    ]
+   },
+   {
+    "date": "1938-03",
+    "precision": "periode",
+    "ce_qui_arrive": "Selon Duberman, après quatre à cinq semaines de silence, Mangold rend visite à Rice puis lui écrit que le collège va bien et que la faculté sait désormais se diriger seule (« nous avons grandi »). La fiche EV-02834 présente cette visite comme une autre version, sans la confirmer.",
+    "certitude": "probable",
+    "refs": [
+     "CI-01479",
+     "EV-02834"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches décrivent peu la vie ordinaire de mars. Le campus est occupé par des réunions formelles et des conciliabules privés. Les étudiants apprennent le congé par des formules vagues et des rumeurs qui arrivent du Nord. Les cours et les repas continuent sans doute (déduit, non décrit). Les grands chantiers de l'été, ferme et auberge du Lake Eden Inn, ne sont pas encore engagés.",
+  "tensions": [
+   "Le vote de la faculté a écarté le fondateur sans consulter les étudiants, ce qui nourrit l'amertume.",
+   "Rice dit que le collège est en « panic and almost lunacy » ; il s'estime victime d'un coup de force.",
+   "Albers a posé un ultimatum : aucune levée de fonds personnelle tant que Rice reste ; la menace sur les finances pèse sur tous.",
+   "La liaison avec Alice reste floue ; la communauté la protège, mais la faculté se divise sur sa responsabilité.",
+   "Les dates divergent : le départ de Rice est daté du 3 mars par certains et du 7 mars par Duberman, et la visite de Mangold ou de Rice chez les Adamic est présentée de deux façons.",
+   "Les rumeurs qui montent au Nord menacent les donateurs et la réputation du collège."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le congé voté en salle",
+    "date": "1938-03-03",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Andrew Rice",
+     "Theodore Dreier",
+     "Josef Albers",
+     "Fred Mangold"
+    ],
+    "deroule": "Après des semaines de conciliabules et de « fearful stew », la faculté se réunit formellement sans les étudiants et vote le congé de Rice jusqu'au 1er mai, avec une consultation informelle prévue vers la mi-avril via Mangold. On décide qu'Alice ne sera pas pénalisée. Le vote est un coup d'État de velours : le fondateur est écarté par ses pairs.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00733",
+     "EV-02837",
+     "EV-02836"
+    ]
+   },
+   {
+    "titre": "Le mémo du soir",
+    "date": "1938-03-03",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Fred Mangold",
+     "Theodore Dreier",
+     "John Andrew Rice"
+    ],
+    "deroule": "Le jeudi, Mangold et Dreier rencontrent Rice, puis rapportent l'entretien à la faculté par mémorandum le jour même. Les mots sont pesés pour un homme absent de la pièce où se décide son sort.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02836",
+     "EV-02837"
+    ]
+   },
+   {
+    "titre": "Crabes et whiskey à Folly Beach",
+    "date": "1938-03",
+    "lieu": "Folly Beach, Caroline du Sud",
+    "personnages": [
+     "John Andrew Rice",
+     "délégations d'étudiants (noms non donnés)"
+    ],
+    "deroule": "Dans le cottage prêté, Rice écrit sur sa jeunesse sudiste et accueille des délégations venues de Black Mountain, autour de crabes, d'huîtres et de bière. Il emprunte cinq dollars pour du whiskey. Les fiches ne disent pas si les visiteurs le pressent de revenir.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02834",
+     "chapitre 1938 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Mangold à Folly Beach",
+    "date": "1938-03",
+    "lieu": "Folly Beach, Caroline du Sud",
+    "personnages": [
+     "Fred Mangold",
+     "John Andrew Rice"
+    ],
+    "deroule": "Après quatre à cinq semaines de silence, Mangold se demande « what the Hell was going on » et rend visite à Rice. Il lui écrit ensuite que le collège va bien et que la faculté peut se diriger seule.",
+    "certitude": "probable",
+    "refs": [
+     "CI-01479",
+     "EV-02834"
+    ]
+   },
+   {
+    "titre": "Chez les Adamic",
+    "date": "1938-03",
+    "lieu": "Milford, New Jersey",
+    "personnages": [
+     "John Andrew Rice",
+     "Louis Adamic",
+     "Stella Adamic"
+    ],
+    "deroule": "Rice rend visite aux Adamic au printemps. Ils le poussent et l'encouragent. Les fiches ne décrivent pas l'échange, mais la scène sert de refuge loin de Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02834",
+     "EV-02677",
+     "EV-02676"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rice en congé à Folly Beach, qui ressasse sa solitude de l'hiver",
+    "vers_date": "1937-12",
+    "vers": "Après Noël 1937, Rice s'enferme dans son study, boude et fume sa pipe. La communauté se partage entre répulsion et sympathie.",
+    "refs": [
+     "chapitre 1938 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la faculté, au moment du vote de mars, où les vieux griefs remontent",
+    "vers_date": null,
+    "vers": "Les piques de Rice contre le jeune économiste (« You always quote Plato… ») et la plaisanterie Bacardi qui a fâché l'exilé cubain Portell-Vila ; dates non précisées.",
+    "refs": [
+     "EV-02644",
+     "EV-02645",
+     "CF-00276"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Alice, dont la liaison avec Rice est exposée par le congé",
+    "vers_date": "1937",
+    "vers": "La liaison est datée de façons divergentes : rumeurs dès l'automne 1937 selon CF-00281 et EC-01567, mi-hiver 1938 selon RE-01062. Sa matérialité reste floue.",
+    "refs": [
+     "RE-01062",
+     "CF-00281",
+     "EC-01567"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la communauté en mars, qui ne sait pas ce qui est vrai",
+    "vers_date": null,
+    "vers": "Le récit de Nell surprenant les deux amants n'est qu'un double oui-dire. Un membre de la faculté doute encore qu'ils aient « réellement forniqué ».",
+    "refs": [
+     "SC-00686"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la faculté en mars, qui se souvient de la lettre d'Albers",
+    "vers_date": "1938-01-28",
+    "vers": "Albers écrit à Rice que la perte de confiance menace l'existence du collège. Il pose aussi l'ultimatum : aucune levée de fonds personnelle tant que Rice reste.",
+    "refs": [
+     "EV-02833",
+     "RE-00985"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rice à Folly Beach, en attente de la consultation de mi-avril",
+    "vers_date": "1938-04-13",
+    "vers": "Chaddock fait démissionner Rice de son rectorat, furieux que le vote unanime des fellows ait refusé d'abréger le congé et l'ait prolongé jusqu'en septembre.",
+    "refs": [
+     "EV-02840",
+     "EV-02839",
+     "EV-02841"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la faculté et le Board, à la fin d'avril",
+    "vers_date": "1938-04-29",
+    "vers": "Réunion spéciale du Board. Le même jour, Albers prononce à Cambridge (Mass.) son discours « Life, not school, is the goal ». On ne sait pas qui siégeait au Board.",
+    "refs": [
+     "EV-02841",
+     "EV-02842"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les étudiants de Black Mountain au printemps",
+    "vers_date": "1938-05",
+    "vers": "Danse Macabre de Schawinsky : théâtre en rond, spectateurs masqués et encapuchonnés, partition d'Evarts, orchestre sous Allan Sly.",
+    "refs": [
+     "EV-02846",
+     "EV-02817",
+     "EV-02765"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les étudiants de cinquième année, dans l'année 1937-1938",
+    "vers_date": null,
+    "vers": "Suicide de Dick Porter, qui se tire une balle dans la tempe et meurt au Biltmore Hospital d'Asheville. Le lendemain, Moellenhoff évoque la culpabilité du groupe. Un lien avec la scène Danse Macabre est plausible mais jamais affirmé. La date est inconnue.",
+    "refs": [
+     "EV-02762",
+     "EV-02763",
+     "SC-00715",
+     "EV-02817"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le conseil final, au retour de Rice",
+    "vers_date": "1938-06-02",
+    "vers": "Le conseil final ajoute 200 dollars de frais de vie et propose à Rice de représenter le collège à Chicago. Il refuse.",
+    "refs": [
+     "EV-02847",
+     "EV-02848"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Schawinsky, mal vu du Conseil et de Mangold",
+    "vers_date": "1938-08-31",
+    "vers": "Un mémo traite du départ de Schawinsky, qui n'est pas réembauché.",
+    "refs": [
+     "CF-00284",
+     "EV-02850",
+     "EV-02816"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rice à Folly Beach, au printemps",
+    "vers_date": "1938",
+    "vers": "À l'automne, Rice revient en fantôme à Lee Hall. Personne ne veut le rectorat, et le Board le confie à Wunsch. Rice soupçonne Anni Albers de convoiter le poste pour son mari.",
+    "refs": [
+     "EV-02851",
+     "EV-02852",
+     "SC-00729"
+    ]
+   }
+  ],
+  "motifs": [
+   "éviction douce d'un fondateur par ses pairs",
+   "vote sans les étudiants et procédure contestée",
+   "rumeur et matérialité floue de la liaison",
+   "Alice protégée par la communauté",
+   "dates contradictoires (départ le 3 ou le 7 mars)",
+   "le Sud comme refuge et souvenir",
+   "la levée de fonds comme levier de pouvoir",
+   "la version de la faculté contre le récit des étudiants"
+  ],
+  "lacunes": "La session n'est pas nommée. Le jour exact du départ de Rice est contesté (3 ou 7 mars, « le lendemain de l'accord »). La visite de Mangold à Folly Beach n'est attestée que par Duberman, et la visite de Rice chez les Adamic seulement par EV-02834. Les noms des étudiants en délégation sont absents. On ne sait pas si Alice est présente en mars. La date de l'ultimatum d'Albers (RE-00985) n'est pas précisée. La date du suicide de Dick Porter n'est pas connue, pas plus que sa place par rapport à ce mois. Les détails de la vie quotidienne (cours, repas, travaux) sont absents des fiches."
+ }
+}

@@ -1,0 +1,271 @@
+{
+ "passe": "mois",
+ "cle": "1937-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6327,
+  "sortie": 12981,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-05",
+  "session": "trimestre de printemps, dans ses dernières semaines (probable : EV-02711 évoque « les trois derniers mois du trimestre » sans date exacte)",
+  "saison_et_climat": "printemps ; aucune fiche ne décrit le climat",
+  "situation": "Le collège est dans une crise de gouvernance sans issue. La pétition contre les non-reconductions de Knickerbocker et Goldenson a été rejetée au début de l'année ; Goldenson a seulement obtenu le droit de démissionner (EV-02694). Knickerbocker et sa cause se sont effondrés sans que le collège remarque son absence (EV-02712). En avril, l'affaire de Floride a abouti à un accord provisoire interdisant les vacances en groupes mixtes, sans sanction individuelle (EV-02709, SC-00703). Rice a publié au printemps sa riposte à Hutchins dans Harper's (EV-02666). Depuis la réunion du 17 février, dissidents et Rice tiennent que la séparation est la seule issue (EV-02705). La réunion marathon de mai n'aboutit à rien (EV-02711). Les visites de Huxley et Heard offrent une vitrine intellectuelle, sans apaiser les tensions internes (EV-02710). La rupture de juin est en gestation, mais aucune fiche de mai ne la montre encore au grand jour (déduction).",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "George Alsberg",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Beverly Coleman",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Louis Mangold",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frederick Zeuch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Porter Sargent",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "James Gore King",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Aldous Huxley",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Gerald Heard",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Portell",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Georgia",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Harrington",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Somers",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Visite d'Aldous Huxley et Gerald Heard, venus de leur propre initiative avec la famille de Huxley ; table ronde sur les limites du roman ; verdict général « damn nice »",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02710",
+     "SC-00704"
+    ]
+   },
+   {
+    "date": "1937-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunion marathon sur les renvois de Knickerbocker et Goldenson : Alsberg et Coleman interrogent Rice ; Rice propose d'abandonner son tenure, Sargent répond que cela reste en son pouvoir ; la réunion s'achève sans conclusion",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02711",
+     "SC-00705"
+    ]
+   },
+   {
+    "date": "1937-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Mangold écrit à Adamic que l'affaire Knickerbocker s'est effondrée, le collège n'ayant pas remarqué son absence de deux semaines et demie",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02712"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Réadmissions de fin d'année : Cane ajourné, Carter renvoyé vers le monde extérieur, Norris dans le doute, Somers gardée ; Rice cède à Albers et Portell sur Somers. Les fiches datent ces réunions du printemps par déduction, à partir de la présence de Zeuch",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02642",
+     "SC-00679",
+     "SC-00680",
+     "SC-00681",
+     "SC-00682",
+     "RE-01057"
+    ]
+   }
+  ],
+  "quotidien": "Documenté seulement par les visites et les réunions : le pique-nique avec Huxley, la table ronde, les discussions qui s'étirent en séances marathon. Les cours, repas, travaux, musique et séminaires de mai ne sont pas décrits. Les meubles seront entreposés en juin, selon le régime du bail annuel (déduit de la synthèse).",
+  "tensions": [
+   "Pouvoir aux compétents ou à la communauté : Alsberg et Coleman contre Rice, qui refuse l'égalité des opinions",
+   "Rice propose de renoncer à son tenure ; Sargent lui rappelle que ce choix lui appartient, ce qui ne règle rien",
+   "Knickerbocker et Goldenson restent en suspens et leur cause s'est effondrée, ce qui alimente l'amertume des dissidents",
+   "Zeuch et King plaident pour la confiance dans toute la communauté, Rice et Dreier maintiennent que certaines opinions valent plus",
+   "Huxley interroge la démocratie américaine et l'autogouvernement jusque dans l'industrie, ce qui résonne avec le débat interne",
+   "Les dissidents défendent une démocratie organique, Rice la persuasion : aucun des deux camps ne cède"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Table ronde d'Huxley sur les limites du roman",
+    "date": "1937-05",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Aldous Huxley",
+     "Gerald Heard",
+     "toute la communauté"
+    ],
+    "deroule": "Discussion née d'une causerie : difficulté d'incarner les idées sans les exhiber, personnages bons qui ennuient chez Dickens, Duc de Mesure pour mesure perçu comme symbole chrétien plutôt que comme être humain, Homère qui fait souper ses personnages malgré leur chagrin. Huxley pose la question : que reste-t-il du roman face à la vie ?",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00704",
+     "EV-02710"
+    ]
+   },
+   {
+    "titre": "Marathon sur le pouvoir et la flatterie",
+    "date": "1937-05",
+    "lieu": "Black Mountain College, salle de réunion",
+    "personnages": [
+     "John Andrew Rice",
+     "George Alsberg",
+     "Beverly Coleman",
+     "Louis Mangold",
+     "Frederick Zeuch",
+     "Porter Sargent",
+     "James Gore King",
+     "Theodore Dreier"
+    ],
+    "deroule": "Alsberg demande si un étudiant doit être flatté ; Rice répond non, Coleman objecte que la flatterie est de la persuasion. Alsberg lance « you are crazy » ; Rice répond que l'intelligence ne se vend pas en barriques. Rice offre son tenure, Sargent lui renvoie la responsabilité. King plaide l'harmonie, Zeuch la confiance, Rice maintient la supériorité de certaines opinions. Personne ne conclut.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00705",
+     "EV-02711"
+    ]
+   },
+   {
+    "titre": "Réadmissions de fin d'année et Somers",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "John Andrew Rice",
+     "Albers",
+     "Portell",
+     "Somers",
+     "Cane",
+     "Carter",
+     "Norris"
+    ],
+    "deroule": "Fiches de réadmission : Cane ajourné, Carter renvoyé, Norris dans le doute, Somers gardée. Rice cède à Albers et Portell sur Somers, ce qui montre un corps professoral à la fois franc et pitoyable.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02642",
+     "SC-00679",
+     "SC-00680",
+     "SC-00681",
+     "SC-00682",
+     "RE-01057"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "La réunion marathon de mai, où Alsberg et Coleman reprennent leurs griefs",
+    "vers_date": "1937-02-17",
+    "vers": "La réunion communautaire de février : Harrington, Alsberg et Coleman défendent la démocratie organique, Rice répond que seule la persuasion est légitime et qu'il décide lui-même qui est intelligent",
+    "refs": [
+     "EV-02705",
+     "SC-00700"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La liste des renvois en suspens en mai",
+    "vers_date": "1936",
+    "vers": "La crise Knickerbocker et Goldenson : la non-reconduction qui met le collège en crise et déclenche la pétition de l'hiver",
+    "refs": [
+     "EV-02694"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La réunion marathon de mai, qui s'effiloche sans décision",
+    "vers_date": "1937-06",
+    "vers": "La dernière réunion générale : le réquisitoire en 24 points de Coleman, la divulgation des salaires, la sortie de Portell et le départ de Georgia",
+    "refs": [
+     "EV-02715",
+     "EV-02716",
+     "EV-02727"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ des dissidents que la réunion de mai laisse venir",
+    "vers_date": "1937-06",
+    "vers": "Zeuch publie « The State of Black Mountain College », qui accuse le collège de fascisme et qui est rapproché de l'art dégénéré",
+    "refs": [
+     "EV-02722",
+     "OE-01307",
+     "CF-00275"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La mention de la liaison de Rice dans les sources, à partir du mois de mai",
+    "vers_date": null,
+    "vers": "La liaison de Rice avec une étudiante, à l'automne 1937 ; Nell la surprend et se confie à son fils au Carolina Inn. La date exacte reste inconnue",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693",
+     "EC-01624"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le bail annuel et l'entreposage des meubles qui reviennent chaque juin",
+    "vers_date": "1937-06",
+    "vers": "Le collège achète Lake Eden, ce qui met fin au bail annuel et à l'entreposage des meubles",
+    "refs": [
+     "EV-02726"
+    ]
+   }
+  ],
+  "motifs": [
+   "pouvoir aux compétents ou à la communauté",
+   "démocratie organique contre « comptage de nez »",
+   "la persuasion comme seule légitimité",
+   "flatterie et persuasion",
+   "art abstrait rapproché de l'art dégénéré (anticipé)",
+   "Lake Eden et le bail annuel",
+   "l'autogouvernement dans l'industrie (Huxley)",
+   "le mythe du pionnier, lu comme légitimation de la dureté"
+  ],
+  "lacunes": "Pas de date précise pour la réunion marathon (le mois seulement), ni pour les réadmissions (déduites du printemps). Le climat et la vie quotidienne de mai ne sont pas décrits. On ne sait pas si Knickerbocker et Goldenson sont présents en mai, ni si Albers et Portell assistent à la réunion marathon (leur présence est déduite). Deux sources se contredisent : EC-01627 place l'élopement de deux étudiants à la fin de 1936 et y voit une réaction calme, alors que la synthèse le place à la fin de 1937 avec une réaction forte de Rice (EV-02739). Sur la liaison de Rice, EC-01624 dit « hiver 1937 » et la synthèse dit « rondes automnales ». EC-01625 situe la « savoure des absences » en mai, alors que la synthèse la place dans la lettre à Adamic de l'année suivante (EV-02669). Date de la liaison et de la chute de Rice inconnues."
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "passe": "mois",
+ "cle": "1937-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4484,
+  "sortie": 11101,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-12",
+  "session": "Non précisée par les fiches : mois d'hiver, dans la suite de la rentrée d'automne 1937 (déduction, non attestée)",
+  "saison_et_climat": "Décembre, hiver. Les fiches ne décrivent ni la météo ni le climat de ce mois (lacune).",
+  "situation": "L'année scolaire a repris à l'automne avec 55 étudiants, après huit non-retours et cinq enseignants partis (EV-02669, EV-02734). Le séminaire d'écriture hebdomadaire de Rice, dans son study de Lee Hall, est à son meilleur (CO-00288, SC-00692). Sous cette surface, Rice a une liaison avec une étudiante rencontrée pendant les rondes automnales ; les rumeurs circulent, sans certitude sur son caractère physique. Nell l'a surpris et s'en est confiée à son fils Frank au Carolina Inn (EV-02670, EV-02671, SC-00693). Une soirée de sketches a tourné la faculté en dérision : Alice y a parodié une chanteuse d'opéra, et Rice s'est dit choqué (EV-02740, SC-00708). Le dernier mois de la période décrite est marqué par l'élopement de deux étudiants (EV-02739). En décembre, Albers séjourne à Harvard (EV-02741).",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Alice (étudiante, rôle de la parodie)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Étudiants et professeurs du collège (public des sketches)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Soirée de sketches : Alice, en chanteuse d'opéra dans un costume de papier mâché, fait rire tout le monde sauf Rice, qui se dit choqué et juge le numéro d'un goût détestable. La faculté en vient à voir en lui le bouffon jaloux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02740",
+     "SC-00708"
+    ]
+   },
+   {
+    "date": "1937-12-04",
+    "precision": "jour",
+    "ce_qui_arrive": "Le New York Sun publie un article sur le tissage d'Anni Albers, qui fait de son travail une curiosité de la presse new-yorkaise.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02742"
+    ]
+   },
+   {
+    "date": "1937-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Séjour d'Albers à Harvard en décembre. La fiche ne précise pas s'il s'agit de Josef ou d'Anni, et la certitude de l'événement n'apparaît pas dans l'extrait disponible.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02741"
+    ]
+   },
+   {
+    "date": "1937-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Élopement de deux étudiants ; Rice y réagit plus fortement que quiconque. Le mois est déduit de la formule « dernier mois » et de l'ordre du chapitre, qui place cet épisode avant le séjour d'Albers en décembre.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02739"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Nell surprend la liaison de Rice pendant un séjour où elle n'est pas au collège (longs séjours en Indiana après la mort de sa mère), puis se confie à son fils Frank au Carolina Inn.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   }
+  ],
+  "quotidien": "Vie d'une rentrée réduite : cours ordinaires, séminaire d'écriture hebdomadaire de Rice, soirées communes où l'on joue des sketches. Les travaux, les repas et la musique ne sont pas documentés pour ce mois (lacune).",
+  "tensions": [
+   "La jalousie de Rice devient visible pour toute la communauté après la soirée de sketches.",
+   "Les rumeurs de liaison sont connues, sans qu'on sache si la relation fut physique ; Nell le sait et en parle à son fils, ce qui fait monter l'enjeu (déduit).",
+   "Le risque de scandale rejoint la réputation morale du collège, soupçonné d'être un centre du libre amour, et l'accord d'avril interdisant les vacances en groupes mixtes (déduit).",
+   "La réaction de Rice à l'élopement des deux étudiants passe pour excessive, ce qui renforce la lecture de sa fragilité personnelle (déduit).",
+   "Les conflits de juin 1937 (salaire de Georgia, phrase de Rice) et le départ des dissidents ont laissé l'autorité de Rice contestée, sans que la crise soit close."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La soirée de sketches",
+    "date": "1937-12",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Alice",
+     "John Andrew Rice",
+     "étudiants et professeurs"
+    ],
+    "deroule": "Alice parodie une chanteuse d'opéra dans un costume de papier mâché qui rapetisse son corps et grossit sa tête. Le public rit, puis Rice se déclare choqué et affirme qu'Alice est une femme, et une femme fine, et qu'il était de mauvais goût de la rendre bouffonne. Le rire général laisse place à un malaise devant la colère du recteur.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00708",
+     "EV-02740"
+    ]
+   },
+   {
+    "titre": "Nell surprend la liaison de Rice",
+    "date": null,
+    "lieu": "Carolina Inn",
+    "personnages": [
+     "Nell Rice",
+     "Frank Rice",
+     "John Andrew Rice"
+    ],
+    "deroule": "Nell découvre la liaison de son mari avec une étudiante, puis confie sa blessure à Frank, son fils, au Carolina Inn. La scène peut servir de charnière entre l'intime et la vie publique du collège.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   },
+   {
+    "titre": "Le séminaire d'écriture de Lee Hall",
+    "date": null,
+    "lieu": "Lee Hall, study de Rice",
+    "personnages": [
+     "John Andrew Rice",
+     "étudiants du séminaire"
+    ],
+    "deroule": "Rice réunit chaque semaine ses étudiants d'écriture dans son study. Ce moment est alors à son meilleur, ce qui rend plus visible la contradiction avec sa conduite privée.",
+    "certitude": "atteste",
+    "refs": [
+     "CO-00288",
+     "SC-00692"
+    ]
+   },
+   {
+    "titre": "L'élopement des deux étudiants",
+    "date": "1937-11",
+    "lieu": null,
+    "personnages": [
+     "John Andrew Rice",
+     "deux étudiants élopés"
+    ],
+    "deroule": "Deux étudiants quittent ensemble le collège pour se marier. Rice réagit plus fortement que les autres membres de la faculté, ce qui oriente les regards vers sa propre situation.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02739"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "La soirée de sketches, quand la colère de Rice devient visible à toute la communauté.",
+    "vers_date": "1937-05",
+    "vers": "La réunion marathon de mai, où Alsberg et Coleman interrogent Rice sur la flatterie et la supériorité de la faculté. Rice refuse l'égalité des opinions et propose d'abandonner son tenure, ce qui fait voir sa position de pouvoir contestée.",
+    "refs": [
+     "EV-02711"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La jalousie et l'autorité fragilisée de Rice en décembre, dans la vie quotidienne du collège.",
+    "vers_date": "1937-06",
+    "vers": "Le schisme de juin : Zeuch rapporte la phrase de Rice selon laquelle Georgia doit partir et qu'il suffit de garder son salaire bas. Rice admet la phrase, la communauté explose, et la démission de Georgia est acceptée contre 3 500 dollars.",
+    "refs": [
+     "EV-02716",
+     "EV-02717",
+     "EV-02718",
+     "EV-02719",
+     "SC-00706"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La liaison connue de Nell et de Frank, qui pèse sur le collège à la fin de l'année.",
+    "vers_date": "1938",
+    "vers": "La furie communautaire, la lettre d'Albers, le congé de Rice et la prise du rectorat par Wunsch, qui relèvent de 1938.",
+    "refs": [
+     "CF-00276",
+     "CF-00282"
+    ]
+   }
+  ],
+  "motifs": [
+   "La parole publique contre l'intime : la colère de Rice au sketch répond à une vie privée qui se défait.",
+   "Le rire qui révèle : la parodie d'Alice fait apparaître ce que la faculté tait.",
+   "Autorité fixe contre persuasion : le conflit de gouvernance de 1937 se rejoue dans la personne de Rice.",
+   "Les départs comme forme de vie du collège : départs d'étudiants, d'enseignants, élopement, séjours à Harvard et en Indiana.",
+   "La réputation morale du collège, mise à l'épreuve par la liaison."
+  ],
+  "lacunes": "Les fiches ne donnent ni la session exacte ni le climat du mois ; le jour du sketch n'est pas indiqué ; l'étudiante liée à Rice et les deux étudiants élopés ne sont pas nommés ; la date de la liaison, de sa découverte par Nell et du séjour de Nell en Indiana reste floue ; le séjour à Harvard ne précise pas quel Albers est concerné, et la certitude de EV-02741 n'apparaît pas dans l'extrait ; le « dernier mois » de l'élopement est ambigu (novembre est déduit) ; les sources ne décrivent ni les repas ni la musique de ce mois."
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "passe": "mois",
+ "cle": "1957-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2858,
+  "sortie": 11238,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1957-03",
+  "session": "Aucune session régulière : selon la synthèse, le trimestre d'hiver ne s'ouvre pas ; fin mars, un juge suspend les programmes éducatifs jusqu'au paiement des dettes (EV-06964).",
+  "saison_et_climat": "Fin d'hiver. Les fiches ne donnent ni la météo ni la température du mois.",
+  "situation": "Le collège est en extinction. La décision remonterait à l'automne 1956 selon Chaddock, sans annonce publique, avec des terres vendues par parcelles. Fin mars 1957, un juge ordonne l'arrêt des programmes éducatifs jusqu'au remboursement intégral des dettes, ce que la fiche EV-06966 présente comme la fermeture effective. Olson est à San Francisco pour ses conférences Special View of History, donc loin du campus pendant une partie du mois. Le campus ne tient plus que par quelques restes : une ferme tenue par des étudiants épuisés, des cabanes occupées par les derniers.",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "quelques étudiants épuisés de la ferme",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "les derniers occupants des cabanes de la colline",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "moins d'une demi-douzaine d'étudiants payants",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1957-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson se rend à San Francisco pour donner ses conférences Special View of History.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06965",
+     "EV-06964"
+    ]
+   },
+   {
+    "date": "1957-03",
+    "precision": "periode",
+    "ce_qui_arrive": "Fin mars, un juge ordonne la suspension des programmes éducatifs jusqu'au remboursement intégral des dettes ; la fiche y voit une fermeture effective.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06966",
+     "EV-06964",
+     "CF-00806"
+    ]
+   },
+   {
+    "date": "1957-03-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Ouverture de l'exposition Artists of the New York School: Second Generation au Jewish Museum de New York, jusqu'au 28 avril ; un participant y figure, sans être nommé dans la fiche.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06967"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent ni les repas, ni la musique, ni les cours de mars 1957. Ce qui subsiste : une ferme tenue par quelques étudiants fatigués, des cabanes de la colline sans chauffage ni réfectoire, moins d'une demi-douzaine d'étudiants payants, et une liquidation des biens encore en cours.",
+  "tensions": [
+   "Les sources divergent sur la date de la fermeture : décision à l'automne 1956 selon Chaddock, ordonnance de fin mars 1957 présentée comme fermeture effective.",
+   "La synthèse dit que le trimestre d'hiver n'a pas ouvert, alors que EV-06964 parle de fin des activités académiques en mars : il faut trancher si les cours ont continué jusqu'à l'ordonnance.",
+   "Les dettes impayées conditionnent toute reprise, alors que les terres sont vendues par parcelles.",
+   "Olson est à San Francisco pendant qu'il devra ensuite liquider le reste du collège.",
+   "La communauté n'a plus de gouvernement et ne se réunit que face à une menace, ce qui rend la décision de fermer sans annonce publique.",
+   "Beaucoup de ceux qui y étaient le tiennent encore pour un vrai lieu d'apprentissage, en contraste avec son extinction."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Olson apprend la suspension depuis San Francisco",
+    "date": "1957-03",
+    "lieu": "San Francisco",
+    "personnages": [
+     "Olson"
+    ],
+    "deroule": "Entre deux conférences Special View of History, Olson apprend la décision judiciaire qui gèle les programmes. Il est loin du campus au moment où le collège se défait.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06965",
+     "EV-06966"
+    ]
+   },
+   {
+    "titre": "La ferme tenue par quelques étudiants",
+    "date": "1957-03",
+    "lieu": "la ferme du campus",
+    "personnages": [
+     "quelques étudiants épuisés"
+    ],
+    "deroule": "Le travail de la ferme repose sur une poignée d'étudiants fatigués. La vie ordinaire se réduit à quelques tâches répétées, dans un campus qui ressemble à celui des derniers jours.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06390",
+     "EV-06911"
+    ]
+   },
+   {
+    "titre": "Les cabanes sans chauffage",
+    "date": "1957-03",
+    "lieu": "la colline des cabanes",
+    "personnages": [
+     "les derniers occupants"
+    ],
+    "deroule": "Sans chauffage ni réfectoire, les derniers occupants vivent à l'écart du centre. La scène tient de l'habitat de fortune plus que de la vie de collège.",
+    "certitude": "deduit",
+    "refs": [
+     "LI-01405"
+    ]
+   },
+   {
+    "titre": "La photographie de l'annonce",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "la communauté réunie"
+    ],
+    "deroule": "Une photographie conservée aux archives de l'Université du Connecticut montre la communauté réunie pour l'annonce de la fermeture. Sa date exacte reste inconnue, elle peut être antérieure ou postérieure à mars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06949"
+    ]
+   },
+   {
+    "titre": "Ouverture de l'exposition new-yorkaise",
+    "date": "1957-03-10",
+    "lieu": "The Jewish Museum, New York",
+    "personnages": [],
+    "deroule": "Ouverture de l'exposition de la seconde génération de l'École de New York. Un participant, non nommé dans la fiche, y figure, à distance du campus en train de se défaire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06967"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Olson à San Francisco en mars 1957, ou les derniers étudiants à la ferme",
+    "vers_date": "1956",
+    "vers": "La décision de fermer, selon Chaddock, remonte à l'automne 1956 : peu de monde revenu, terres vendues par parcelles, trimestre d'hiver non ouvert, aucune annonce publique.",
+    "refs": [
+     "EV-06834"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les cabanes de la colline, sans gouvernement ni rituel",
+    "vers_date": "1955",
+    "vers": "Depuis 1955, la communauté vit sans gouvernement ni rituel ; on ne se réunit que lorsqu'une menace pèse sur tous.",
+    "refs": [
+     "EV-06536",
+     "EV-06537"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La suspension judiciaire de fin mars",
+    "vers_date": "1957-04-01",
+    "vers": "Olson écrit à John Rice, qui réclame environ 2000 volumes, pour lui annoncer la fermeture ; il le salue comme le Papa du collège.",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Olson reste le dernier, après la fermeture",
+    "vers_date": "1957",
+    "vers": "Vente des biens restants, règlement du sort de la bibliothèque de Rice, entretien prévu des tombes de Jalowetz et de Max Dehn ; départ pour la maison familiale de Gloucester.",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "CI-03430"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La fermeture du collège, en avril",
+    "vers_date": "1957-04",
+    "vers": "Daniel Dixon, ancien étudiant, apprend la nouvelle et écrit dans Pageant qu'il croyait le collège invincible.",
+    "refs": [
+     "SC-01858",
+     "CI-03463"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La fermeture acquise",
+    "vers_date": "1957-09",
+    "vers": "Olson annonce à Rice que le reste de la bibliothèque part à Rocky Mount ; Rice est furieux, et Nell Rice en emporte une partie.",
+    "refs": [
+     "EV-06844",
+     "EV-06910",
+     "CF-00800"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les mois de dispersion qui suivent",
+    "vers_date": "1957",
+    "vers": "Parution à l'automne du septième et dernier numéro de la Black Mountain Review, avec Ginsberg, Kerouac, Snyder, Whalen et McClure.",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   }
+  ],
+  "motifs": [
+   "La dispersion sans échec",
+   "La liquidation par la dette",
+   "Le dernier qui reste",
+   "Un lieu d'apprentissage face à son extinction",
+   "La légende qui commence à se répandre"
+  ],
+  "lacunes": "Aucune fiche ne décrit la vie quotidienne de mars 1957 ni son climat. La date exacte de l'ordonnance n'est pas précisée au jour. On ignore si des cours ont continué entre l'automne 1956 et mars, si Olson est revenu au campus après San Francisco, à quelle date se situe la photographie de l'annonce, et qui est le participant de l'exposition new-yorkaise."
+ }
+}

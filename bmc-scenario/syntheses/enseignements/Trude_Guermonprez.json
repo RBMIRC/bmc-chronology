@@ -1,0 +1,105 @@
+{
+ "passe": "enseignements",
+ "cle": "Trude Guermonprez",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2100,
+  "sortie": 2348,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Trude Guermonprez",
+  "cours": [
+   {
+    "intitule": "Cours de tissage (relais des cours d'Anni Albers ; cours de Bay Area / Pond Farm)",
+    "periodes": [
+     "1946 (été) : présence dans l'atelier de tissage de BMC",
+     "≈1949 : relais des cours d'Anni Albers pendant son congé",
+     "début des années 1950 : cours de tissage en Bay Area / Pond Farm (hors BMC)"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Faire du tissage à la main un art relié à autre chose que lui-même, à la société et à l'expérimentation esthétique. Selon ID-02126, la structure de la chaîne, et non le carton ou le livre de recettes, doit déterminer les composantes visuelles du tissu. Les objectifs de CO-00637 viennent du cours donné en Bay Area, pas de BMC.",
+    "deroule_type_seance": "Aucun déroulé de séance n'est attesté à BMC dans les fiches. Par déduction à partir du cours de la Bay Area (CO-00637) : on introduit les plans de tissage (weave drafts), on explique les divers types de tissage, puis on discute des fibres. L'atelier de BMC, en 1946, est un lieu où quatre femmes travaillent en même temps et où l'on parle des tissages précolombiens et des techniques préindustrielles (SC-00994, interprétation de l'auteur).",
+    "exercices": [
+     {
+      "consigne": "Introduction des plans de tissage (weave drafts). Cet exercice est attesté pour le cours de la Bay Area, pas pour BMC.",
+      "materiaux": "Fibres, chaîne et trame ; fils métalliques gris et or cités pour ce cours.",
+      "but": "Faire comprendre la structure du tissage avant de composer.",
+      "refs": [
+       "CO-00637"
+      ]
+     },
+     {
+      "consigne": "Explication des divers types de tissage, puis discussion des fibres (cours de la Bay Area).",
+      "materiaux": "Fibres.",
+      "but": "Situer le tissage dans une pratique plus large que celle du hobby.",
+      "refs": [
+       "CO-00637"
+      ]
+     },
+     {
+      "consigne": "Peindre directement sur les fils de chaîne tendus, parfois au pochoir, avant le tissage, puis observer la nuance naître du croisement. Attesté à BMC comme idée relayant les cours d'Anni Albers ; la formulation de la consigne (« en_classe ») est une suggestion de la fiche, pas une consigne documentée mot pour mot.",
+      "materiaux": "Chaîne tendue, peinture ou pigments, pochoir éventuel.",
+      "but": "Obtenir des nuances comparables à celles d'un peintre avec ses pigments, la variation de texture rehaussant le dessin. Exemples : la série des « textile graphics », Leaf Study (1950).",
+      "refs": [
+       "ID-02126"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Tissages précolombiens et techniques préindustrielles, évoqués dans l'atelier en 1946 (SC-00994)."
+    ],
+    "propos_types": [
+     "Le tissage artistique isolé n'est « pas une chose professionnelle » (cours de la Bay Area).",
+     "Plus que tout autre artisanat, le tissage est relié à autre chose (cours de la Bay Area).",
+     "Le tissage est interrelationnel et peut imiter la peinture ; la chaîne, et non le livre de recettes, détermine le visuel."
+    ],
+    "critique_et_evaluation": "Aucune évaluation de ses cours à BMC n'est donnée dans les fiches. Elle juge l'enseignement de Levi et de ses proches « complètement non structuré » face à l'ordre d'Albers, mais Duberman note que beaucoup d'étudiants trouvaient Levi trop ordonné, ce qui fragilise cette lecture (ID-01897).",
+    "reactions_etudiants": "Sekimachi (élève en Bay Area, pas à BMC) décrit un contraste frappant avec le tissage-hobby des ménagères aisées de l'époque (CO-00637). Aucune réaction d'étudiants de BMC n'est attestée.",
+    "evolution": "Dans l'atelier de BMC en 1946, elle figure parmi trois nouvelles venues aux côtés d'Anni Albers (SC-00994). Vers 1949, elle relaie les cours d'Albers (ID-02126). Début 1949, elle est présente dans le contexte de la crise du collège (SC-01239). Elle enseigne ensuite en Bay Area, à Pond Farm, où elle donne aussi des cours aux enfants d'Asawa, Lee et Renk chez elle (CO-00637). Les dates exactes de son enseignement à BMC ne sont pas fournies.",
+    "refs": [
+     "CO-00637",
+     "ID-02126",
+     "ID-01897",
+     "SC-00994",
+     "SC-01239"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le tissage est interrelationnel et peut imiter la peinture : la structure de la chaîne détermine les composantes visuelles, plutôt qu'un carton ou un livre de recettes.",
+    "en_classe": "Peindre sur la chaîne tendue avant tissage, parfois au pochoir, et observer la nuance naître du croisement avec la trame. Les textile graphics, dont Leaf Study (1950), servent d'exemple.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02126"
+    ]
+   },
+   {
+    "idee": "Le tissage ne vaut pas isolé : plus que tout autre artisanat, il est relié à autre chose ; le tissage artistique isolé n'est « pas une chose professionnelle ».",
+    "en_classe": "Discuter la place du tissage dans la société et le confronter au tissage-hobby. Propos tenus dans le cours de la Bay Area ; leur usage à BMC n'est pas attesté.",
+    "atteste": "incertain",
+    "refs": [
+     "CO-00637"
+    ]
+   },
+   {
+    "idee": "Les personnalités s'expriment à travers des idées : la vraie ligne de partage, pendant la crise de 1948, était structuré contre non-structuré (Albers, ordre et responsabilité de l'étudiant, contre Levi et les siens).",
+    "en_classe": "Faire parler des élèves sur ce que l'on attend d'un cadre pédagogique. À manier avec prudence : Duberman indique que beaucoup trouvaient Levi trop ordonné, donc la lecture est contestée.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01897"
+    ]
+   },
+   {
+    "idee": "L'atelier comme lieu de transmission : tissages précolombiens et techniques préindustrielles nourrissent la pratique moderne.",
+    "en_classe": "Faire examiner des tissages anciens avant de travailler. Les conversations sont attestées en 1946, mais comme interprétation de l'auteur (Molesworth) ; la mise en exercice est une déduction.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-00994"
+    ]
+   }
+  ]
+ }
+}

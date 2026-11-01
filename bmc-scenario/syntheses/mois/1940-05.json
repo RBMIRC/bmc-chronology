@@ -1,0 +1,173 @@
+{
+ "passe": "mois",
+ "cle": "1940-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4115,
+  "sortie": 12483,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-05",
+  "session": "Printemps ; le calendrier scolaire n'est pas précisé par les fiches",
+  "saison_et_climat": "Printemps à Blue Ridge. Aucune fiche ne décrit le temps de mai. L'hiver précédent a compté deux semaines de températures sous zéro (EV-03104), ce qui pèse sur le projet d'isoler et de chauffer les bâtiments (déduit).",
+  "situation": "Le collège occupe encore Blue Ridge, mais Lake Eden commence à devenir le centre du projet. La YMCA a accordé un an de plus avant de reprendre le site pour une école de filles (EV-03104). Rice a quitté le collège en mars et vit à Southern Pines (synthèse 1940, sans identifiant). La faculté restante doit se reconstituer après une crise interne dont Wunsch disait en février que la moitié de la faculté ne pouvait plus l'affronter. Le 6 mai, Albers prononce « The Meaning of Art » (EV-03105, EV-03106, EV-03107). Le même mois, la communauté décide de bâtir de ses propres mains : 3 000 $ pour un tracteur Farmall et un wagon de ciment, afin de lancer les fondations du bâtiment d'études au bord du lac. Les salaires de la faculté sont suspendus (EV-03104). La campagne des deux millions menée par Dreier depuis le MIT n'est pas encore abattue ; la chute de la France, en juin, la fera échouer (synthèse 1940, sans identifiant).",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch (conseil)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anne Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "faculté restante",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-05",
+    "precision": "mois",
+    "ce_qui_arrive": "La YMCA accorde au collège une année de grâce : le projet d'école de filles à Blue Ridge est repoussé.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03104"
+    ]
+   },
+   {
+    "date": "1940-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Le collège décide de construire lui-même : 3 000 $ pour un tracteur Farmall (1 000 $) et un wagon de ciment (2 000 $), afin de commencer les fondations du bâtiment d'études à Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03104"
+    ]
+   },
+   {
+    "date": "1940-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Les salaires de la faculté sont suspendus, seuls de petits paiements étant versés selon les besoins pressants.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03104"
+    ]
+   },
+   {
+    "date": "1940-05-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers prononce « The Meaning of Art » à Black Mountain College : un texte de sept pages sur l'équilibre, la proportion et la relation, qui conclut que l'économie est une affaire de proportion entre effort et effet.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03105",
+     "EV-03106",
+     "EV-03107"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent presque pas la vie de mai. On sait que les étudiants et la faculté vivent à Blue Ridge et que la salle à manger, les lodges-dortoirs et les cottages doivent être isolés et chauffés, ce qui suggère des bâtiments mal protégés du froid (EV-03104). Le travail de préparation, les cours et les repas sont à reconstituer par déduction ; l'allocution d'Albers est le seul temps collectif attesté.",
+  "tensions": [
+   "Les sources ne s'accordent pas sur le calendrier de la menace de la YMCA : EV-03104 parle d'un an de plus accordé en mai, alors que la synthèse 1940 situe le refus de renouveler le bail plus tôt et laisse le calendrier contesté. On ne sait donc pas exactement où en est le bail en mai.",
+   "Le campus rêvé de Gropius et Breuer coexiste avec le projet d'autoconstruction (déduit) : les architectes ne sont écartés qu'en juin, comme trop coûteux, alors que le collège lance déjà ses propres travaux.",
+   "Le discours d'Albers sur la proportion entre effort et effet contraste avec la crise de liquidité : les salaires sont suspendus au moment même où le texte parle d'économie (déduit).",
+   "Les témoignages sur le climat interne après le départ de Rice divergent : Anne Mangold évoque une « révolution de palais » sans triomphalisme, Chaddock un grand soulagement sans réjouissances.",
+   "Les trois fiches sur « The Meaning of Art » (EV-03105, EV-03106, EV-03107) décrivent probablement le même discours, avec des détails variés : il faut éviter de les compter comme trois événements.",
+   "Le salaire de la faculté est suspendu en mai (EV-03104), alors que la synthèse indique 40 % des salaires non garantis payés en 1940-41 : le manque d'argent se prolonge au-delà du mois."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Albers lit sur la proportion",
+    "date": "1940-05-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "membres de la communauté"
+    ],
+    "deroule": "Albers lit devant la communauté un texte dactylographié de sept pages. Il y parle de l'équilibre à garder en soi et avec les autres, du respect de la proportion et de la relation, et de la nécessité de choisir entre quantité et qualité. Il conclut que l'économie n'est pas une affaire de statistiques mais de proportion suffisante entre effort et effet. Quelques semaines plus tard, le collège doit compter chaque dollar : la scène peut jouer ce décalage entre la parole et la caisse.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03105",
+     "EV-03106",
+     "EV-03107"
+    ]
+   },
+   {
+    "titre": "Trois mille dollars pour commencer",
+    "date": "1940-05",
+    "lieu": "Blue Ridge, avec vue sur Lake Eden",
+    "personnages": [
+     "faculté restante",
+     "étudiants"
+    ],
+    "deroule": "La communauté réunit ses ressources pour un budget de 3 000 $ : un tracteur Farmall à 1 000 $ et un wagon de ciment à 2 000 $, pour lancer les fondations du bâtiment d'études au bord du lac. Au départ, le projet paraît impossible et ridicule à beaucoup. Il reste un mois pour rendre le programme plausible, et la scène peut montrer les calculs, les doutes et l'enthousiasme qui s'ensuivent.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03104"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Mai : la faculté vit sans salaire plein et doit décider du chantier, dans l'ombre du départ de Rice.",
+    "vers_date": "1940-02",
+    "vers": "La deuxième conférence avec Rice et Nell : Rice propose de revenir en maison de pierre et en cours trois fois par semaine, Wunsch répond que le conseil préfère fermer, Rice pleure, quitte la pièce puis la maison, se disant répudié.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mai : le bail de Blue Ridge est repoussé d'un an, mais le problème ne disparaît pas.",
+    "vers_date": null,
+    "vers": "Le projet de la YMCA d'installer une école de filles à Blue Ridge, dont le calendrier reste disputé entre les sources.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai : le collège prépare ses premiers travaux à Lake Eden.",
+    "vers_date": "1940-06",
+    "vers": "En juin, Albers fait devant des donateurs à New York une déclaration rare contre la guerre et affirme que l'enseignement de l'art est au centre de toute activité, germe de futures querelles.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai : la campagne des deux millions de Dreier tient encore.",
+    "vers_date": "1940-06",
+    "vers": "La chute de la France fait s'effondrer la campagne des deux millions, la peur gagne les donateurs, et Gropius et Breuer sont jugés trop coûteux.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai : le programme de 3 000 $ est établi.",
+    "vers_date": "1940-09-12",
+    "vers": "Le chantier de Lake Eden est officiellement ouvert, avec l'objectif roof by Christmas ; un vendredi, le terrain drainé révèle des poches de boue, et Godfrey invente un pilon de 27 pieds tiré par le Farmall.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai : Albers et la faculté ont déjà fait du travail intellectuel la base de la vie du collège.",
+    "vers_date": "1940",
+    "vers": "Pendant l'année 1940-41, seuls 40 % des salaires non garantis sont payés, puis 32 % l'année suivante ; la crise de liquidité est pire que sous Lee Hall, et les dons ne viendront qu'après 1940.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "La proportion et l'équilibre contre la quantité",
+   "Bâtir soi-même contre l'attente d'un campus idéal",
+   "L'argent qui manque et la dette de la faculté",
+   "Le départ de Rice comme plaie encore ouverte",
+   "La menace d'une école de filles sur Blue Ridge",
+   "L'art comme centre de la vie du collège, mis à l'épreuve par la guerre"
+  ],
+  "lacunes": "Les fiches ne donnent aucun jour précis pour la décision de mai, ni pour le moment où la YMCA a accordé son année de grâce. Elles ne décrivent pas la vie quotidienne de mai à Blue Ridge, ni le temps qu'il fait. La présence de Wunsch, de Nell, d'Anni Albers, de Dreier, de Gropius et de Breuer en mai n'est pas documentée. Le calendrier scolaire et la session ne sont pas précisés. La synthèse 1940 n'a pas d'identifiant : ses éléments sont donc sans refs et seulement signalés dans le texte."
+ }
+}

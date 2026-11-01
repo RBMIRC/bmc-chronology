@@ -1,0 +1,278 @@
+{
+ "passe": "mois",
+ "cle": "1956-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2838,
+  "sortie": 12985,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1956-04",
+  "session": "Printemps 1956 : trimestre de printemps probable, non précisé par les fiches",
+  "saison_et_climat": "Printemps. Les fiches ne donnent aucune indication de temps ni de climat. Le dimanche de Pâques tombe le 1er avril 1956, et l'exposition de Sidney Janis ouvre le lendemain.",
+  "situation": "Le collège n'est plus qu'une communauté résiduelle. Il n'a plus d'organisation formelle ni de rituels, les inscriptions tournent autour d'une quinzaine avec des allers-retours, et Stefan Wolpe est parti au début de l'année. Creeley part au printemps pour San Francisco. Le campus bas est loué à un camp chrétien de garçons qui ouvrira l'été. Olson continue d'écrire, Duncan prépare Medea, et Williams monte à New York la souscription de Maximus 11/22. La fermeture n'est pas encore annoncée, elle le sera en octobre. Mais la dispersion est engagée, et l'argent sert surtout à éponger les dettes.",
+  "presents_probables": [
+   {
+    "nom": "Duncan",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fiore",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Van de Wiele",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Eloise Mixon",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jonathan Williams",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956-04-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Ouverture de l'exposition personnelle de Willem de Kooning chez Sidney Janis à New York, avec Easter Monday, peint juste avant. Hors collège, mais ancré dans le même moment de l'art new-yorkais.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06845"
+    ]
+   },
+   {
+    "date": "1956-04-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit le poème « As the Dead Prey Upon Us » du 13 au 16 avril.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956-04-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Lettre de Sawyer à Osborn confirmant que le cours de couleur d'Albers était un prérequis pour la formation de Gene Nalle à Yale. Hors collège, mais signe du réseau d'anciens qui se prolonge ailleurs.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06846"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Au printemps, Creeley part pour San Francisco. La revue s'oriente ainsi vers la scène Beat, et son retour est attendu.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Duncan est présent au printemps et à l'été, fait travailler voyelles, consonnes et syllabes, et écrit Medea au fil des répétitions.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Le collège loue son campus bas à un camp de garçons chrétien, qui ouvre l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Williams prépare Maximus 11/22 par souscription à New York : 25 souscripteurs à 25 dollars, 350 exemplaires.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Vie ordinaire réduite au tutorat : il n'y a plus de cours structurés, chacun sert de ressource aux autres, et l'ancien travail collectif (Work Program) a disparu. Duncan fait travailler la voix aux répétitions, Olson écrit, Williams travaille à distance sur la souscription. Un Bulletin de quinze pages est prévu pour mai, surtout comme vitrine. Le statut GI est déjà perdu, et les demandes d'admission reçoivent des réponses désespérées. Les fiches ne documentent ni les repas, ni la musique, ni les travaux quotidiens du mois.",
+  "tensions": [
+   "Fiore reproche à Rice d'occuper le collège sans y être étudiant. Ce ressentiment vient d'Olson, qui tient Rice pour le meilleur peintre en activité. Rice veut partir, et Fiore parle de partir aussi.",
+   "Rivalité Olson-Duncan : la satire « Old Son » contre Olson, avec Van de Wiele en bébé dans une poussette, est une déclaration d'indépendance « méchante » selon Rumaker. Sa date exacte n'est pas donnée.",
+   "Argent : presque toute la recette doit aller aux dettes, et le campus bas est loué pour survivre.",
+   "Départs successifs : Wolpe au début de l'année, Creeley au printemps. La communauté ne croit plus à son avenir, et Wolpe estimait qu'on n'y formait pas de professionnels.",
+   "Perte du statut GI : la fausse brochure envoyée par Mixon traduit un espoir désespéré de le retrouver."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Olson écrit « As the Dead Prey Upon Us »",
+    "date": "1956-04-13",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Olson"
+    ],
+    "deroule": "Pendant quatre jours, Olson travaille au poème pendant que le collège se défait autour de lui. La scène peut faire de l'écriture un refuge contre la dissolution.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Répétitions de voix avec Duncan",
+    "date": null,
+    "lieu": "lieu non précisé",
+    "personnages": [
+     "Duncan",
+     "étudiants"
+    ],
+    "deroule": "Duncan fait travailler voyelles, consonnes et syllabes. Des fragments de Medea naissent au fil des répétitions, et la troupe se prépare à une pièce qui sortira du collège.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Départ de Creeley pour San Francisco",
+    "date": null,
+    "lieu": "Black Mountain College, puis San Francisco",
+    "personnages": [
+     "Creeley"
+    ],
+    "deroule": "Creeley quitte le collège au printemps. La revue prend une coloration Beat, et son retour est attendu. Scène d'adieu possible, sans date exacte.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Fiore et Rice : le ressentiment d'hiver",
+    "date": "1956",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Fiore",
+     "Dan Rice",
+     "Olson"
+    ],
+    "deroule": "Fiore reproche à Rice de profiter d'un collège sans structure. Le ressentiment vient d'Olson. Rice veut partir, et Fiore parle de partir aussi. Scène antérieure au mois, qui peut servir de flash-back.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le camp chrétien sur le campus bas",
+    "date": null,
+    "lieu": "campus bas",
+    "personnages": [
+     "camp chrétien de garçons",
+     "membres du collège"
+    ],
+    "deroule": "Le collège loue son campus bas à un camp de garçons chrétien. Deux mondes cohabitent sur les mêmes terrains, à l'approche de l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Williams et la souscription de Maximus",
+    "date": null,
+    "lieu": "New York",
+    "personnages": [
+     "Jonathan Williams"
+    ],
+    "deroule": "Williams monte la souscription de Maximus 11/22, avec 25 souscripteurs à 25 dollars pour 350 exemplaires. La scène new-yorkaise est en décalage avec la fin du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Avril 1956, quand Olson écrit et que le collège se défait",
+    "vers_date": "1956",
+    "vers": "Le départ de Wolpe au début de 1956, convaincu que la communauté n'a aucun avenir à long terme.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Avril 1956, Olson en campus sans programme",
+    "vers_date": null,
+    "vers": "Le Work Program des années précédentes, que Olson détestait. Ironie : il finira à quatre pattes dans les herbes.",
+    "refs": [
+     "EC-03192"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1956, moment de la dernière représentation de Medea",
+    "vers_date": "1956-08-29",
+    "vers": "Medea est jouée les 29 et 30 août, avec Duncan et la troupe.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1956, quand le campus tient encore debout",
+    "vers_date": "1956-09",
+    "vers": "Ebbe Borregaard arrive à la fin de septembre : kudzu envahissant, campus sans électricité.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1956, quand Olson est seul à tenir le collège",
+    "vers_date": "1956-10",
+    "vers": "L'annonce de la fermeture se fait à la bougie, chez Olson. Olson désherbe la route pour nettoyer le campus.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)",
+     "EC-03192",
+     "EC-03196"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1956, quand la troupe de Medea est encore au collège",
+    "vers_date": "1956-10",
+    "vers": "Dispersion : Fiore à New York, Huss et la troupe avec Duncan à San Francisco, où la trilogie Medea continue avec Jess.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)",
+     "EC-03193"
+    ]
+   }
+  ],
+  "motifs": [
+   "Dispersion plutôt que mort : le collège se disperse plus qu'il ne meurt",
+   "Le travail collectif remplacé par le tutorat",
+   "Dettes et location du campus pour survivre",
+   "Olson et l'écriture comme refuge",
+   "Les ruines et ironie des accomplissements passés",
+   "Le réseau d'anciens qui essaime (Albers, Asawa, Rauschenberg)",
+   "Un prestige moral sans argent (conseil consultatif)",
+   "Medea comme œuvre qui sort du collège"
+  ],
+  "lacunes": "Aucune fiche ne donne de date précise pour le départ de Creeley, celui de Rice, la location du campus bas, la souscription de Maximus, la satire « Old Son », ni la présence de Van de Wiele, Huss, Mixon ou Williams en avril. Rien sur le temps, les repas, la musique ou les cours. Le nombre d'étudiants en avril reste flou. Contradiction : EC-03193 place le dernier spectacle de Medea en septembre 1956, alors que le chapitre donne les 29 et 30 août. Les fiches EV-06845 et EV-06846 sont hors collège, et les échos EC sont datés par approximation (≈) et tirés d'un récit de souvenirs à manier avec prudence."
+ }
+}

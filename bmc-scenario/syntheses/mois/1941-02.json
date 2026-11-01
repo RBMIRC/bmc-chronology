@@ -1,0 +1,194 @@
+{
+ "passe": "mois",
+ "cle": "1941-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4045,
+  "sortie": 12545,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1941-02",
+  "session": "non précisée par les fiches ; année académique 1940-1941 en cours, avec cours ramenés au matin et au soir depuis l'automne 1940 (déduit)",
+  "saison_et_climat": "Plein hiver (déduit du mois). Aucune fiche ne décrit le temps ni les conditions de travail sur le chantier à cette date.",
+  "situation": "Le collège vit encore entièrement à Lee Hall, grand bâtiment unique au-dessus de la vallée où tout le monde dort sous le même toit (LI-00691). Le bail avec la Blue Ridge Assembly court jusqu'en juin 1941 et le propriétaire songe à une école de filles (QU-00742, CF-00291). Le site de Lake Eden, dans la vallée, se bâtit par les après-midi volontaires (EV-02990, EV-03125). Les cours sont au matin et au soir. La règle d'un à trois après-midi de chantier par semaine et la querelle entre partisans du travail manuel et « zombies » structurent le climat (EV-03149, CF-00317, EV-03153, CF-00322). Côté pédagogie, Josef Albers rédige ses notes sur l'enseignement du dessin (EV-03218) et Anni Albers voit paraître son article « Handweaving Today » dans The Weaver, janvier-février 1941 (EV-03217).",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Brett",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hall (étudiant, quitte BMC en juin 1941)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Derek Bovington (étudiant, fera la navette en mai-juin)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1941-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Publication de l'article « Handweaving Today » d'Anni Albers dans The Weaver (vol. VI, n° 1, janvier-février 1941), qui fait connaître l'atelier de tissage hors du campus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03217"
+    ]
+   },
+   {
+    "date": "1941-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Josef Albers rédige ses notes sur l'enseignement du dessin : exercices de mouvement, de parallélisme, d'égalité et d'illusions spatiales, pour obtenir « des yeux qui voient et des mains qui obéissent ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03218"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "La faculté fixe un maximum conseillé d'un à trois après-midi de chantier par semaine. La date exacte de cette décision n'est pas donnée par les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03149",
+     "CF-00317"
+    ]
+   }
+  ],
+  "quotidien": "Vie de Lee Hall : tout le monde dort sous le même toit ; les cours ont lieu le matin et le soir, et les après-midi sont au chantier volontaire (drainage, isolation, fondations). Des chansons entonnées sur le chemin du chantier agacent les « zombies ». Les fiches ne décrivent ni repas, ni musique, ni cours précis de février. L'atelier de tissage d'Anni Albers et le dessin de Josef Albers continuent de fonctionner (EV-03217, EV-03218).",
+  "tensions": [
+   "Chantier : ferveur du salut par le travail, porté par Dreier (RE-01181), contre agacement de ceux qu'on surnomme « zombies ». Le maximum d'après-midi cherche à trancher.",
+   "Menace sur le site : le bail de Lee Hall expire en juin et le propriétaire envisage une école de filles, alors que Lake Eden n'est pas prêt.",
+   "Pédagogie : la discipline stricte d'Albers (« mains qui obéissent ») contre un collège qui se veut progressiste. Le conflit sur le « laisser-faire » est signalé lors d'une réunion chez les Wiener, à date non précisée (EV-03207).",
+   "Opinion : le questionnaire de Forbes montre une majorité favorable au chantier, surtout chez les femmes (EV-03153, CF-00322).",
+   "Divergence entre sources : une version (Lane, EV-03157) lie le déménagement au départ de Thomas, ce qui ne colle pas au reste. On retient le déménagement de mai-juin."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les notes d'Albers en salle de dessin",
+    "date": "1941-02",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "étudiants en dessin"
+    ],
+    "deroule": "Albers met par écrit sa méthode : tracer des parallèles, répéter des signes, jouer sur les illusions spatiales. Il répète que le but est de former des yeux qui voient et des mains qui obéissent.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03218"
+    ]
+   },
+   {
+    "titre": "Le chemin du chantier",
+    "date": "1941-02",
+    "lieu": "entre Lee Hall et le chantier de Lake Eden, dans la vallée",
+    "personnages": [
+     "Theodore Dreier",
+     "étudiants volontaires",
+     "étudiants agacés par les chansons"
+    ],
+    "deroule": "Après le cours du matin, des groupes descendent vers la vallée en chantant. Pour les uns, c'est le salut par le travail ; pour d'autres, c'est la corvée moquée. Les après-midi de drainage et de fondations deviennent le lieu où se règle la question du maximum d'après-midi.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02990",
+     "EV-03125",
+     "RE-01181",
+     "EV-03149"
+    ]
+   },
+   {
+    "titre": "Le numéro de The Weaver",
+    "date": "1941-02",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Anni Albers"
+    ],
+    "deroule": "Anni Albers reçoit ou montre le numéro de janvier-février de The Weaver, qui présente le travail textile du collège à un public extérieur. Le tissage sort ainsi du campus.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03217"
+    ]
+   },
+   {
+    "titre": "Dernier hiver à Lee Hall",
+    "date": "1941-02",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "étudiants",
+     "professeurs logés sous le même toit"
+    ],
+    "deroule": "Le bâtiment unique rassemble toute la vie du collège. Le bail qui expire en juin fait de ce mois l'un des derniers de cette vie commune, à la veille d'un déménagement vers Lake Eden.",
+    "certitude": "deduit",
+    "refs": [
+     "LI-00691",
+     "QU-00742",
+     "CF-00291"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "le chantier d'après-midi, en cours en février 1941",
+    "vers_date": "1940",
+    "vers": "retour à l'automne 1940, quand les cours sont ramenés au matin et au soir et que les après-midi basculent vers le chantier volontaire.",
+    "refs": [
+     "EV-02990",
+     "EV-03125"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Lee Hall, pendant le dernier hiver avant le départ",
+    "vers_date": "1941-05",
+    "vers": "le site de Lake Eden est « à peine » habitable. Derek Bovington transporte instruments, livres et même le chauffage de Lee Hall, ce qui irrite la Blue Ridge Assembly.",
+    "refs": [
+     "EV-03219",
+     "EV-03220"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les notes d'Albers sur le dessin, écrites au même moment",
+    "vers_date": "1941-09",
+    "vers": "rentrée à Lake Eden, fin septembre, dans des bâtiments à moitié finis. Albers y affirme que « la vie signifie changement ».",
+    "refs": [
+     "EV-03226",
+     "SC-00826"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Goodman, qui théorise le cadre et l'écran dès 1941",
+    "vers_date": "1952",
+    "vers": "les expériences scéniques du collège, dont l'événement de Cage en 1952, que la pensée de Goodman sur le rapport public et spectacle prépare.",
+    "refs": [
+     "EC-01792",
+     "EC-01791"
+    ]
+   }
+  ],
+  "motifs": [
+   "le travail manuel comme vertu collective et source de querelle",
+   "l'œil et la main : la pédagogie du dessin et du tissage comme discipline",
+   "Lee Hall, lieu unique voué à disparaître",
+   "l'hiver qui précède le déménagement, avec le risque financier et le bail qui expire",
+   "la sortie du collège vers l'extérieur par la publication"
+  ],
+  "lacunes": "Aucune fiche ne décrit la vie quotidienne de février : repas, cours précis, météo, effectifs. La session n'est pas précisée. La date de la règle des après-midis de chantier reste inconnue. Les anecdotes de chantier (wagon de charbon, pieux, incendie, tempête) ne sont datées que de 1940-1942. Le « laisser-faire » chez les Wiener et la mort de Mark Dreier ne sont pas datés. John Andrew Rice, parti en 1940, est absent (déduit). Les mois d'Albers à Harvard, évoqués en septembre, ne sont pas placés dans le temps."
+ }
+}

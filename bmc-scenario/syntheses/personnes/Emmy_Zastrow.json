@@ -1,0 +1,240 @@
+{
+ "passe": "personnes",
+ "cle": "Emmy Zastrow",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3558,
+  "sortie": 6249,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Emmy Zastrow",
+  "autres_noms": [
+   "Mme Zastrow",
+   "Mrs Zastrow"
+  ],
+  "dates_de_vie": "Inconnues : aucune fiche ne donne sa naissance, sa mort ni son âge. Elle est présentée comme une réfugiée allemande, mère d'un fils adulte, fonctionnaire en Allemagne.",
+  "statut_bmc": "Figure secondaire de la toute première faculté (1933-1934) : enseignante d'allemand, aide à l'intendance, traductrice improvisée dans la classe d'Albers. Sa place dans la mémoire du collège tient surtout à la méfiance que les Albers lui portent.",
+  "presence": [
+   {
+    "debut": "1933",
+    "fin": "",
+    "role": "Réfugiée allemande aidant Dreier pour sa lettre à Albers (été 1933), puis « instructrice d'allemand » inscrite au premier catalogue. Elle seconde Mrs Lounsbury à l'intendance, préside une table allemande et traduit dans la classe d'Albers. Son départ n'est documenté dans aucune fiche.",
+    "refs": [
+     "PE-00302",
+     "EV-02158",
+     "QU-00457",
+     "EV-02197"
+    ]
+   },
+   {
+    "debut": "1933-11",
+    "fin": "",
+    "role": "Élue officiellement membre de la faculté (allemand), avec six autres instructeurs qui enseignaient déjà depuis quatre ou cinq semaines. Elle reçoit chambre et pension, sans salaire.",
+    "refs": [
+     "EV-02195"
+    ]
+   },
+   {
+    "debut": "1933-11",
+    "fin": "1934",
+    "role": "Traductrice d'Albers aux côtés d'Evarts, jusqu'à l'abandon du système. Les Albers voient en elle une sympathisante nazie.",
+    "refs": [
+     "EV-02202",
+     "SC-00561",
+     "SC-00443",
+     "RE-00773",
+     "RE-00774"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune description physique dans les fiches. À inventer avec prudence : une Allemande adulte, assez âgée pour avoir un fils fonctionnaire, dans un collège où presque tout le monde est jeune. Le seul détail matériel lié à elle est une habitude : des coupures de presse laissées dans le hall de Lee Hall.",
+  "noyau_psychologique": "Déduction, car les sources ne la montrent presque jamais de l'intérieur. Elle semble vivre entre deux mondes : exilée ou réfugiée, elle garde un fils dans l'appareil d'État allemand. Elle est utile partout (lettre, intendance, table allemande, traduction, catalogue) et reste pourtant à la marge, sans salaire et soupçonnée. Attesté : on lui prête des sympathies pour le gouvernement allemand, et les Albers l'en soupçonnent. Qu'elle ait réellement ces sympathies, personne ne le confirme dans les fiches : c'est le soupçon des Albers, relayé par Duberman. Le scénariste peut jouer de cette ambiguïté (loyauté filiale, nostalgie, ou conviction) sans la trancher.",
+  "blessures": "Non documenté. Déductions possibles, à signaler comme telles : un déracinement (« réfugiée »), et l'humiliation de se voir tenue à distance par des exilés bien plus prestigieux qu'elle. Les fiches ne disent pas ce qu'elle ressent d'être écartée de la classe.",
+  "desirs": "Rien d'explicite. Les actes montrent qu'elle cherche à se rendre indispensable et à tenir une place dans le collège naissant : elle aide Dreier, préside la table allemande, accepte de traduire. Déduction : elle veut peut-être rester proche de la langue et de la culture allemandes, aussi bien que gagner sa place au collège.",
+  "peurs": "Non documenté. Déduction : être jugée, ou renvoyée, à cause de son lien avec l'Allemagne ; perdre sa place dans une communauté qui ne la paie pas.",
+  "maniere_d_aimer": "Une seule trace d'attachement : son fils, fonctionnaire en Allemagne. On ne sait rien de ce qu'elle ressent pour lui ni de leurs rapports. Aucune amitié ni aucun amour documenté au collège.",
+  "rapport_au_pouvoir": "Elle sert ceux qui décident : elle aide Dreier à écrire à Albers, Rice l'enrôle comme traductrice, et le Board l'élit. Face à Evarts, elle ne cède pas sur le sens des phrases d'Albers. Le pouvoir réel lui échappe : ce sont les étudiants, par leur délégation auprès de Rice, puis Albers, qui mettent fin à son rôle. Elle reste dépendante : ni salaire ni statut stable.",
+  "voix": {
+   "registre": "Aucun propos d'Emmy Zastrow n'est rapporté. Seul fait attesté : elle est germanophone, et c'est la raison de son emploi. Elle parle à Albers en allemand et traduit vers l'anglais, ce qui suppose un anglais correct. La façon dont elle parle reste à inventer : un anglais probablement marqué d'un accent allemand, une politesse formelle. Ce sont des déductions.",
+   "tics": "Non documenté. Seul trait de comportement attesté : elle laisse traîner des coupures de presse favorables au gouvernement allemand, silencieusement, sans en discuter dans les sources.",
+   "exemples_paraphrases": []
+  },
+  "habitudes": [
+   "Elle préside une table allemande, où les étudiants s'exercent à des phrases de bienvenue (novembre 1933).",
+   "Elle laisse à plusieurs reprises des coupures de presse favorables au gouvernement allemand dans le hall de Lee Hall, selon les Albers.",
+   "Elle seconde Mrs Lounsbury à l'intendance générale (logement).",
+   "Elle loge et mange au collège, comme les autres instructeurs, sans salaire."
+  ],
+  "convictions": [
+   "Attesté : les Albers la tiennent pour sympathisante nazie, à cause de son fils fonctionnaire et des coupures de presse. C'est leur lecture, pas sa déclaration.",
+   "Ses propres convictions ne sont pas rapportées. Sa foi dans le collège est seulement déductible de son travail pour lui."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933",
+    "moment": "Elle aide Dreier à rédiger sa lettre à Albers, qui l'avertit qu'il s'agit d'une aventure pionnière. Elle apparaît d'abord comme un maillon discret du recrutement des Albers, avant qu'on les soupçonne, elle, de sympathies nazies.",
+    "etat_interieur": "Déduction : zélée et disponible, heureuse de servir le projet. Les sources ne disent rien de ses sentiments.",
+    "refs": [
+     "EV-02158",
+     "PE-00302"
+    ]
+   },
+   {
+    "date": "1933",
+    "moment": "Elle aide Mrs Lounsbury à l'intendance et figure au premier catalogue comme « instructrice d'allemand », ce qui, selon Duberman, sert aussi à étoffer la liste des professeurs.",
+    "etat_interieur": "Déduction : elle est utile mais fragile : son titre est en partie une façade, et elle ne touche aucun salaire.",
+    "refs": [
+     "QU-00457",
+     "EV-02195"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "moment": "Elle accueille les Albers à Lee Hall : cela fait plusieurs semaines qu'elle préside une table allemande, et les étudiants ont répété des phrases de bienvenue qu'ils oublient aussitôt. Quelques jours ou semaines plus tard, le Board l'élit officiellement à la faculté d'allemand.",
+    "etat_interieur": "Déduction : fierté d'être reconnue officiellement, et peut-être attente du couple allemand arrivé. Rien n'est dit de sa réaction face aux Albers.",
+    "refs": [
+     "EV-02197",
+     "EV-02195"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "moment": "Rice l'enrôle avec Evarts comme traductrice dans la classe d'Albers. Ils divergent ouvertement sur le sens de ses phrases, et Rice ajoute sa version. Parallèlement, les Albers se méfient d'elle : une coupure de presse indigne Anni, qui veut la brûler, et Josef l'en empêche en proposant de la glisser dans le cahier publicitaire du New York Times.",
+    "etat_interieur": "Déduction : exposée et tendue, prise entre un maître qu'elle comprend mal ou traduit à sa façon, un rival, et un patron qui s'en mêle. Elle ignore peut-être la méfiance des Albers.",
+    "refs": [
+     "EV-02202",
+     "SC-00561",
+     "RE-00774",
+     "RE-00773"
+    ]
+   },
+   {
+    "date": "1934",
+    "moment": "Après quelques semaines, une délégation d'étudiants obtient de Rice l'arrêt du système des traducteurs. Albers approuve et enseigne désormais visuellement au tableau noir. Zastrow disparaît de la classe d'Albers ; sa trace ultérieure n'est pas documentée.",
+    "etat_interieur": "Déduction : évincée sans cérémonie, peut-être blessée ou soulagée. Elle garde probablement ses cours d'allemand, mais les sources n'en disent rien.",
+    "refs": [
+     "EV-02202",
+     "SC-00561",
+     "SC-00443",
+     "EV-01802"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Elle est une réfugiée allemande installée aux États-Unis avant l'été 1933. On ignore quand et pourquoi elle a quitté l'Allemagne, et à quoi ressemblait sa vie antérieure.",
+    "refs": [
+     "PE-00302",
+     "QU-00457"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Elle a un fils fonctionnaire en Allemagne, resté dans le pays sous le régime en place. Aucune fiche ne précise son âge, son poste ni ses liens avec elle.",
+    "refs": [
+     "EV-02202",
+     "RE-00773"
+    ]
+   }
+  ],
+  "apres": [],
+  "relations_cles": [
+   {
+    "avec": "Josef et Anni Albers",
+    "nature": "Méfiance, conflit larvé : ils la soupçonnent de sympathies nazies, sans l'affronter directement dans les sources.",
+    "evolution": "Dès leur arrivée en novembre 1933, ils rencontrent à Lee Hall, selon Duberman, des coupures de presse laissées dans le hall et s'en indignent. Anni veut en brûler une, Josef l'en empêche. Ils se débarrassent aussi des traducteurs. Le soupçon reste, sans suite documentée.",
+    "refs": [
+     "RE-00773",
+     "EV-02202",
+     "EV-02197"
+    ]
+   },
+   {
+    "avec": "John Evarts",
+    "nature": "Rivalité de traducteurs, conflit.",
+    "evolution": "Ils traduisent ensemble les phrases d'Albers et divergent ouvertement sur leur sens, jusqu'à se disputer. Le système est arrêté après quelques semaines par les étudiants.",
+    "refs": [
+     "RE-00774",
+     "SC-00443",
+     "SC-00561"
+    ]
+   },
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Employeur et recteur, qui l'enrôle ; il aggrave la cacophonie en ajoutant sa propre version en classe.",
+    "evolution": "Rice l'enrôle, puis cède à la délégation d'étudiants qui met fin à son rôle.",
+    "refs": [
+     "EV-02202",
+     "SC-00561"
+    ]
+   },
+   {
+    "avec": "Theodore Dreier",
+    "nature": "Collaboration : elle l'aide à rédiger sa lettre à Albers.",
+    "evolution": "Aucune suite documentée.",
+    "refs": [
+     "EV-02158",
+     "PE-00302"
+    ]
+   },
+   {
+    "avec": "Mrs Lounsbury",
+    "nature": "Travail commun à l'intendance générale.",
+    "evolution": "Aucun détail sur leur entente.",
+    "refs": [
+     "QU-00457"
+    ]
+   },
+   {
+    "avec": "Les étudiants",
+    "nature": "Elle préside une table allemande, puis ils obtiennent la fin de son rôle de traductrice.",
+    "evolution": "Les étudiants répètent des phrases de bienvenue, puis la délégation fait cesser le système.",
+    "refs": [
+     "EV-02197",
+     "EV-02202"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Statut réel : elle est élue en novembre 1933 membre de la faculté d'allemand après quatre ou cinq semaines d'enseignement (EV-02195). Mais Duberman note aussi qu'on l'a inscrite au premier catalogue comme « instructrice d'allemand » pour étoffer la liste des professeurs (QU-00457) : son titre est peut-être en partie nominal. La lettre d'août 1933 la nomme « future professeure ».",
+   "Fin du système de traduction : Albers, dans le récit de Horowitz & Danilowitz, dit avoir « jeté dehors » les interprètes et enseigné visuellement (SC-00443, EV-01802). Chez Duberman, c'est une délégation d'étudiants qui va trouver Rice, et Albers approuve (EV-02202, SC-00561). Les deux versions sont compatibles, mais l'initiative diffère.",
+   "Qui a enrôlé les interprètes : Rice (EV-02202) ; Horowitz & Danilowitz parlent seulement d'une aide « d'abord » apportée à Albers (EV-01802).",
+   "Sympathies nazies : c'est un soupçon des Albers fondé sur son fils et les coupures, rien de plus. Les fiches ne rapportent aucune parole ni aucun acte de sa part qui le confirme ou l'infirme. Ne pas en faire un fait.",
+   "Date de sa présence : « dès 1933 » (PE-00302) ; le premier catalogue et l'été 1933 (lettre à Albers) montrent une implication antérieure à l'élection de novembre."
+  ],
+  "situations_revelatrices": [
+   "La classe aux trois traductions : Zastrow traduit Albers, contredit Evarts, Rice ajoute sa version.",
+   "L'arrivée des Albers à Lee Hall : la table allemande a répété des phrases de bienvenue qu'on oublie sur le moment.",
+   "Une coupure de presse favorable au gouvernement allemand dans le hall, ramassée par Anni sous le regard de Josef.",
+   "Sa lettre rédigée avec Dreier, l'été 1933 : le moment où elle fait basculer le recrutement des Albers.",
+   "Une nuit d'intendance avec Mrs Lounsbury : le travail invisible qui fait tourner le collège sans salaire.",
+   "Le jour où la délégation d'étudiants vient trouver Rice : la scène à imaginer du point de vue de celle qu'on écarte."
+  ],
+  "citations": [
+   "PE-00302",
+   "RE-00773",
+   "RE-00774",
+   "SC-00443",
+   "SC-00561",
+   "EV-01802",
+   "EV-02158",
+   "EV-02195",
+   "EV-02197",
+   "EV-02202",
+   "EV-02211",
+   "QU-00457"
+  ],
+  "questions_ouvertes": [
+   "D'où vient-elle exactement, quel âge a-t-elle, quand a-t-elle quitté l'Allemagne et pourquoi ? « Réfugiée » et fils fonctionnaire sont difficiles à concilier : à éclaircir.",
+   "Comment a-t-elle connu Dreier et Rice, et comment est-elle arrivée à Black Mountain ?",
+   "Que pense-t-elle réellement du régime allemand ? Les coupures étaient-elles les siennes ?",
+   "Les Albers l'ont-ils affrontée ? Savait-elle qu'on la soupçonnait ?",
+   "Combien de temps a-t-elle enseigné l'allemand, et avec quels étudiants ? Quand a-t-elle quitté le collège ?",
+   "Que devient-elle ensuite, et quel est le sort de son fils ?",
+   "Sa voix, son accent, son apparence : rien n'est documenté."
+  ]
+ }
+}

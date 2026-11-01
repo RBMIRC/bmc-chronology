@@ -1,0 +1,133 @@
+{
+ "passe": "mois",
+ "cle": "1939-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2859,
+  "sortie": 7113,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1939-02",
+  "session": null,
+  "saison_et_climat": "Hiver, déduit du mois ; les fiches ne donnent aucune information climatique pour février.",
+  "situation": "En février 1939, Rice se tient à l'écart dans sa chambre de Lee Hall et écrit son autobiographie. Sa liaison avec Alice est terminée, mais elle reste au collège. La trêve avec Albers et Dreier est déjà fragile, et les fiches ne datent pas sa rupture. Au même moment, l'Addison Gallery expose les peintures récentes d'Albers. Les tensions qui mèneront au départ de Rice au printemps et en juin sont encore en gestation.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1939-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Exposition de peintures récentes d'Albers à l'Addison Gallery : Four X's (1939), In the Soil (1938), Related Reds (1938). Elle a lieu deux ans après l'exposition 4 Painters.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02936"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Rice travaille à son autobiographie, commencée à Folly Beach, dans sa chambre de Lee Hall. Le titre définitif ne viendra qu'en novembre 1939.",
+    "certitude": "deduit",
+    "refs": [
+     "synthèse 1939 (sans identifiant)"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire de février 1939 : ni cours, ni repas, ni musique, ni travaux. Les seuls repères sont l'exposition d'Albers à l'Addison et la retraite de Rice dans sa chambre.",
+  "tensions": [
+   "Rice s'est retiré des affaires communes et son ancienne liaison avec Alice pèse encore sur le collège.",
+   "La trêve entre Rice, Albers et Dreier n'a pas tenu, et Rice et Albers se sont vite de nouveau querellés. Les fiches ne datent pas ces querelles à février.",
+   "Les menaces de Marian Nacke sur l'éclatement du collège (lettre du 24 avril) et la querelle publique de Rice dans Harper's relèvent du printemps, donc de la période postérieure à février."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Accrochage d'Albers à l'Addison",
+    "date": "1939-02",
+    "lieu": "Addison Gallery",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Les peintures récentes d'Albers sont exposées : Four X's, In the Soil, Related Reds. L'accrochage se présente deux ans après 4 Painters. La présence d'Albers à l'ouverture n'est pas attestée ; les fiches ne donnent ni la date d'ouverture ni la durée de l'exposition.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02936"
+    ]
+   },
+   {
+    "titre": "Rice seul à Lee Hall",
+    "date": "1939-02",
+    "lieu": "Lee Hall, chambre de Rice",
+    "personnages": [
+     "Rice"
+    ],
+    "deroule": "Rice écrit son autobiographie, à l'écart des affaires communes du collège, depuis sa chambre de Lee Hall. Il vit la fin de sa liaison avec Alice, qui reste dans les parages.",
+    "certitude": "deduit",
+    "refs": [
+     "synthèse 1939 (sans identifiant)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "L'exposition de l'Addison en février 1939",
+    "vers_date": "1937",
+    "vers": "L'exposition 4 Painters à l'Addison, deux ans plus tôt. Le lien entre Albers et l'Addison se consolide avec les deux expositions.",
+    "refs": [
+     "EV-02936"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1939, Rice dans sa chambre de Lee Hall",
+    "vers_date": "1939-06",
+    "vers": "Fin juin, Rice quitte le collège pour Southern Pines. Nell refuse de le suivre et achève son stage à Asheville avant Chapel Hill.",
+    "refs": [
+     "synthèse 1939 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1939, le monde de l'art vu depuis le collège",
+    "vers_date": "1939-05",
+    "vers": "Guernica vu à New York en mai, puis la rétrospective Picasso de novembre.",
+    "refs": [
+     "synthèse 1939 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1939, les Albers à Black Mountain",
+    "vers_date": "1939-06-22",
+    "vers": "Le 22 juin, les parents d'Anni, les Fleischmann, débarquent à Veracruz. Ils sont en exil définitif, et Josef et Anni les accueillent.",
+    "refs": [
+     "synthèse 1939 (sans identifiant)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Reconnaissance extérieure d'Albers face aux querelles internes du collège",
+   "Un fondateur à l'écart qui écrit sa propre histoire",
+   "Trahison ressentie par les disciples et quête de sécurité"
+  ],
+  "lacunes": "Le calendrier et la session de février ne sont pas documentés. La présence effective de Rice, Alice et Albers ce mois-là n'est pas attestée. La vie quotidienne de février est absente des fiches. Les dates d'ouverture et la durée de l'exposition de l'Addison manquent. Les fiches ne datent pas la rupture de la trêve. Duberman et Chaddock divergent sur le congé de Rice, mais ce point relève du printemps 1939. Où se trouve Nell en février n'est pas dit."
+ }
+}

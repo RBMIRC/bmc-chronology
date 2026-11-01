@@ -1,0 +1,212 @@
+{
+ "passe": "mois",
+ "cle": "1942-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3138,
+  "sortie": 10410,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-12",
+  "session": "Trimestre d'automne, en fin de course (déduit : aucune fiche ne date la fin du trimestre ni les vacances de fin d'année)",
+  "saison_et_climat": "Fin d'année et hiver naissant dans les montagnes de Caroline du Nord (déduit de la saison ; aucune fiche ne décrit le temps).",
+  "situation": "Deuxième hiver de guerre. Le collège sort d'un trimestre d'automne chargé : orgue Hammond, mica trouvé dans le pâturage, poules perdues, départs pour la guerre. Il a obtenu en 1942 un quota dans les programmes militaires mais n'a pas le droit de délivrer de diplômes. Ses finances reposent sur des dons déjà absorbés par la construction et sur deux hypothèques. Le 16 décembre, le Board of Fellows décide un télégramme dont l'objet n'est pas indiqué.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Fritz Hansgirg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "l'épouse de Fritz Hansgirg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frederick Oppenheimer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1942-12-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Le Board of Fellows décide un télégramme dont l'objet et le destinataire ne sont pas indiqués.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03335"
+    ]
+   },
+   {
+    "date": "1942-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice répond à son éditrice chez Harper and Brothers : la menace de procès de Holt est pour lui un raid commando du « général Hammie ». Il sacrifie le succès du livre à sa liberté de parole.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00846"
+    ]
+   },
+   {
+    "date": "1942-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution de l'autobiographie de Rice, I Came Out of the Eighteenth Century, avec son chapitre sur Black Mountain. Les critiques sont élogieuses et Hamilton Holt menace d'un procès en libelle.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Le chantier communautaire continue : cours le matin et le soir, après-midi au travail volontaire. La laiterie et les silos à maïs, commencés à l'été, sont en cours ou achevés (non précisé). Molly Gregory dirige la menuiserie, qui devient le cœur du programme de construction. La ferme tient ses troupeaux et ses légumes, et un mineur a été embauché pour le mica. Le soir, l'orgue Hammond et les disques de Bach animent la salle à manger, et les bals du samedi se donnent avec Evarts au piano.",
+  "tensions": [
+   "Argent : la faculté ne verse plus que 10 $ par mois et par personne, une seconde hypothèque de 18 000 $ s'ajoute à un solde de 11 500 $.",
+   "Départs pour la guerre : Lindsley, Evarts, Boyden, Mangold, Babcock et French partent ; Bliss part aussi et Stoller, mobilisé après le trimestre d'automne, est parti.",
+   "Holt menace Rice d'un procès en libelle, et Rice refuse de céder.",
+   "L'accord étudiant « bedroom » a été abandonné fin octobre après une crise, mais son contenu n'est pas connu et la fracture reste visible.",
+   "Les soirées Bach et le luxe des Hansgirg divisent la communauté, notamment l'élément « anti-gemütlichkeit ».",
+   "La fiche de synthèse indique que le glissement vers l'« informe » commence à l'automne 1942 ; les sources ne prouvent pas encore que la fracture de 1944 se joue déjà."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Rice tient tête à son éditeur",
+    "date": "1942-12",
+    "lieu": "Correspondance avec Harper and Brothers",
+    "personnages": [
+     "John Andrew Rice",
+     "Elizabeth F. Lawrence"
+    ],
+    "deroule": "Face aux craintes de libelle, Rice écrit que la contestation de Holt est une sorte de raid commando du « général Hammie ». Il choisit sa liberté de parole plutôt que le succès du livre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00846"
+    ]
+   },
+   {
+    "titre": "Le télégramme de décembre",
+    "date": "1942-12-16",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "membres du Board of Fellows"
+    ],
+    "deroule": "Le Board décide un télégramme. Ni son destinataire ni son contenu ne sont connus, et aucune fiche ne le relie au télégramme de 1942 contre l'exécution de William Wellman. La scène peut jouer sur cette ignorance.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03335"
+    ]
+   },
+   {
+    "titre": "Orgue Hammond et soirées Bach",
+    "date": "1942",
+    "lieu": "Salle à manger",
+    "personnages": [
+     "Fritz Hansgirg",
+     "son épouse"
+    ],
+    "deroule": "Les Hansgirg, arrivés pour le trimestre d'automne dans une Cadillac crème, installent un orgue Hammond et une collection de disques. Les soirées Bach et cookies enchantent une partie de la communauté et en exaspèrent une autre.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Mica dans le pâturage",
+    "date": "1942",
+    "lieu": "Pâturage de la ferme",
+    "personnages": [
+     "Fritz Hansgirg",
+     "Straus",
+     "inspecteurs de la Colonial Mica Corporation",
+     "un mineur embauché"
+    ],
+    "deroule": "Hansgirg et Straus trouvent un trou plein de mica. En deux jours, on récolte 250 livres ; les inspecteurs d'Asheville jugent le minerai « bonne muscovite » et un mineur est embauché.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Bal du samedi dans la salle à manger",
+    "date": null,
+    "lieu": "Salle à manger",
+    "personnages": [
+     "Evarts",
+     "Elsa Kahl",
+     "Frances de Graaf"
+    ],
+    "deroule": "Evarts joue au piano, Elsa Kahl danse une valse viennoise et Frances de Graaf improvise un tsatska sur deux chaises. Les fiches datent ces scènes de 1942 ou 1943, sans précision du mois.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "En décembre, le collège attend encore la reconnaissance de ses diplômes",
+    "vers_date": "1942-05-24",
+    "vers": "Wunsch rencontre Huntley, de la Southern Association, qui s'étonne que le collège n'ait pas déjà ce droit.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Au moment où le Board décide un télégramme sans en dire l'objet",
+    "vers_date": "1942",
+    "vers": "Le télégramme envoyé au gouverneur de Caroline du Nord contre l'exécution de William Wellman, sans effet.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin de trimestre : Stoller est mobilisé et les premiers professeurs partent",
+    "vers_date": "1943",
+    "vers": "Les départs de Lindsley, Evarts, Boyden, Mangold, Babcock et French, datés 1942-1943 sans plus de précision.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne 1942, quand Sam Brown date le début du glissement vers l'« informe »",
+    "vers_date": "1944",
+    "vers": "La fracture idéologique de 1944, dont les sources ne prouvent pas encore la présence dès 1942.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre 1942, avec la menace de procès de Holt contre le livre de Rice",
+    "vers_date": "1944",
+    "vers": "Le contentieux Holt autour du livre de Rice, qui court jusqu'en 1944 selon les fils.",
+    "refs": [
+     "SC-00846",
+     "chapitre 1942 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "La guerre comme moteur et menace : programmes militaires, sursis, départs.",
+   "Argent et pénurie : les dons absorbés par la construction.",
+   "La ferme et le mica comme illusion de survie.",
+   "Le refuge qui fait scandale : « nigger-lovers » et réputation de liberté.",
+   "Le télégramme sans objet, une ignorance à jouer.",
+   "La liberté de parole contre le succès, avec Rice et Holt."
+  ],
+  "lacunes": "On ignore l'objet et le destinataire du télégramme du 16 décembre, et s'il se rattache à celui de 1942 contre l'exécution de Wellman. Le contenu de l'accord « bedroom » n'est pas précisé. Les dates de la fin du trimestre et des vacances ne sont pas données, ni le mois du quota d'accréditation, ni l'avancement de la laiterie et des silos. La présence effective de Rice et de Wunsch à Lake Eden en décembre n'est pas attestée. Le climat hivernal n'est pas documenté. Les dates des départs et le début du glissement vers 1944 restent disputés."
+ }
+}

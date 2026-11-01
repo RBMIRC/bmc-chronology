@@ -1,0 +1,219 @@
+{
+ "passe": "personnes",
+ "cle": "Thomas Whitney Surette",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1870,
+  "sortie": 5930,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Thomas Whitney Surette",
+  "autres_noms": [
+   "Thomas W. Surette",
+   "Surette de Concord"
+  ],
+  "dates_de_vie": "Mort en 1941. Les fiches ne donnent pas sa naissance. Une fiche (PE-00195) le décrit comme veuf et septuagénaire à l'époque de ses séjours au collège, ce qui est à manier avec prudence : la formulation « plus tard » n'est pas datée.",
+  "statut_bmc": "Membre du conseil consultatif de 1933 à 1941. Visiteur fréquent, au point d'être tenu pour professeur visitant, puis titulaire d'un poste en 1937. Une source parle de « professeur bref ». Il est crédité d'avoir lancé la musique au collège et lègue sa bibliothèque musicale à sa mort.",
+  "presence": [
+   {
+    "debut": "1933",
+    "fin": "1941",
+    "role": "Membre du conseil consultatif, caution musicale et pédagogique extérieure. Il vient souvent sur place.",
+    "refs": [
+     "PE-00195",
+     "EV-03166"
+    ]
+   },
+   {
+    "debut": "1937",
+    "fin": "",
+    "role": "Professeur : d'abord visiteur assez régulier pour être pris pour un enseignant, puis poste accepté. La fin de ce poste n'est pas datée, et Molesworth le dit bref.",
+    "refs": [
+     "EV-02667",
+     "PE-00195",
+     "EV-03166"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucun détail physique dans les fiches. On sait seulement qu'il est âgé (septuagénaire d'après PE-00195) et veuf. Tout le reste, dont la silhouette, le visage et la démarche, est à inventer. On peut s'appuyer sur l'image d'un vieil homme qui lit à voix haute et qui propose des promenades en voiture.",
+  "noyau_psychologique": "Ce qui est attesté : un pédagogue de la musique, tenu pour progressiste, qui s'ennuie au collège faute d'occupation suffisante. Il transmet l'enthousiasme par la voix, en lisant Blake à voix haute jusqu'à ce que tout le monde s'y mette. Il juge vite et sans fioritures. Ce qui est déduit : un homme qui n'a plus de rôle à sa mesure et le compense par la sociabilité, la lecture et la parole. Il est prestigieux mais un peu flottant, attaché à l'idée plus qu'à l'institution.",
+  "blessures": "Rien d'attesté. Seul indice biographique : il est veuf (PE-00195), sans date ni circonstances. Le sentiment de désœuvrement qu'il éprouve au collège peut se lire comme un vide à combler, mais c'est une déduction.",
+  "desirs": "Attesté : faire de la musique un élément central de l'éducation, par ses idées progressistes sur la musique à l'école. Déduit : trouver de quoi s'occuper et rester utile à un âge avancé, avec de la compagnie et des conversations.",
+  "peurs": "Non documentées. Seul le refus de l'inaction ressort indirectement, via l'ennui qu'il avoue ou qu'on lui prête.",
+  "maniere_d_aimer": "Elle passe par la présence et le partage plutôt que par la confidence. Il propose des promenades en voiture et le thé de l'après-midi à Asheville, en y entraînant des secrétaires surmenées. Il transmet ce qu'il aime en le lisant à voix haute, comme Blake. Les fiches ne disent rien de sa vie sentimentale.",
+  "rapport_au_pouvoir": "Il est du côté de l'autorité morale et du conseil, pas de la gestion. Il siège au conseil consultatif dès 1933, mais son poids vient de sa réputation de musicien et d'éducateur. Face au recteur Rice, il tranche d'un mot : « auto-indulgent ». Ce jugement s'ajoute à celui d'autres membres de la faculté, dans une perte de confiance générale, sans que Surette semble mener quoi que ce soit.",
+  "voix": {
+   "registre": "Le registre est celui d'un homme cultivé de Nouvelle-Angleterre, âgé, qui fait autorité sans élever le ton. La lecture à voix haute est sa marque, avec des verdicts brefs en conversation. Ce portrait est déduit de ses gestes et de ses deux mots attestés.",
+   "tics": "Il ouvre son verdict par un « Well » de réflexion, puis conclut en une formule sèche. Rien d'autre n'est documenté. Il revient en revanche à Blake de façon obsessionnelle.",
+   "exemples_paraphrases": [
+    "À propos de Rice, il juge en peu de mots que l'homme se laisse aller, qu'il est indulgent envers lui-même (citation anglaise : « Well, he's self-indulgent »).",
+    "Il se met à lire du Blake à voix haute, sans qu'on le lui demande, jusqu'à ce que tout le monde en lise (déduit de la scène rapportée).",
+    "Il invite une secrétaire débordée à sortir en voiture ou à prendre le thé à Asheville (déduit des habitudes)."
+   ]
+  },
+  "habitudes": [
+   "Lire Blake à voix haute en permanence (EV-02667).",
+   "Solliciter les secrétaires surmenées pour des promenades en voiture ou le thé de l'après-midi à Asheville (PE-00195).",
+   "Venir assez souvent au collège pour passer pour un professeur avant d'être officiellement engagé (EV-02667).",
+   "Diriger l'été l'institut de musique de Concord, où Ted Dreier vit ses expériences musicales (PE-00195, EV-02026)."
+  ],
+  "convictions": [
+   "La musique a un rôle progressiste à jouer dans l'école (EV-02667, PE-00195).",
+   "L'effort artistique est une discipline créatrice qui peut nourrir tout apprentissage. Il s'agit d'une conviction de Rice, nourrie par les conversations de Dreier à l'institut de Surette (EV-02026) : c'est celle que l'institut véhicule, pas forcément la formulation de Surette lui-même."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933",
+    "moment": "Entrée au conseil consultatif, la caution musicale et éducative du jeune collège.",
+    "etat_interieur": "Déduit : prestige, confiance, désir de voir sa conception de la musique à l'école s'appliquer ailleurs.",
+    "refs": [
+     "PE-00195",
+     "EV-03166"
+    ]
+   },
+   {
+    "date": "1933/1937",
+    "moment": "Visites fréquentes, traitées comme celles d'un professeur visitant. Il s'ennuie, cherche à s'occuper, entraîne les secrétaires en promenade.",
+    "etat_interieur": "Attesté : ennui. Déduit : désœuvrement sociable, une présence de vieux monsieur qui cherche compagnie.",
+    "refs": [
+     "PE-00195",
+     "EV-02667"
+    ]
+   },
+   {
+    "date": "1937",
+    "moment": "Il accepte un poste. Son influence est plus littéraire que musicale : Blake lu à voix haute devient une vogue du campus.",
+    "etat_interieur": "Déduit : une forme de bonheur de transmettre, mais pas dans le domaine où il est célèbre.",
+    "refs": [
+     "EV-02667"
+    ]
+   },
+   {
+    "date": "1937/1940",
+    "moment": "Face aux excès de Rice, il conclut qu'il est « auto-indulgent ». Dreier et Wunsch se sentent trahis, Albers méprise, Portell-Vila s'indigne. Surette est dans ce concert de réactions.",
+    "etat_interieur": "Attesté : jugement sévère et bref. Déduit : lucidité de vieil homme qui ne s'engage pas dans la querelle.",
+    "refs": [
+     "EV-02673",
+     "PE-00195"
+    ]
+   },
+   {
+    "date": "1941",
+    "moment": "Mort de Surette. Le collège hérite de sa bibliothèque musicale.",
+    "etat_interieur": "Non documenté.",
+    "refs": [
+     "EV-03141",
+     "EV-03166"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Fondateur et directeur de la Concord Summer School of Music (Concord, Massachusetts). Connu pour ses idées progressistes sur la musique à l'école. Dreier y a vécu ses expériences musicales.",
+    "refs": [
+     "PE-00195",
+     "EV-02667",
+     "EV-02026"
+    ]
+   },
+   {
+    "date": "1930",
+    "moment": "Son école de musique de Concord et Harvard sert de relais de recrutement pour le collège, par bouche à oreille, dans ce que l'on appelait en riant le « greater Boston Axis ». En 1935-1936, 40 étudiants sur 49 viennent de Nouvelle-Angleterre et du Middle Atlantic. Le lien entre Surette et ces chiffres reste indirect.",
+    "refs": [
+     "QU-00292"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Dans l'institut d'été, des conversations sur la musique entre Dreier et Surette convainquent Rice que l'effort artistique peut nourrir tout apprentissage. La date exacte est mal fixée (ancrage ≈1933).",
+    "refs": [
+     "EV-02026"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1941",
+    "moment": "Mort de Surette, qui laisse au collège une bibliothèque musicale considérable. Il est crédité d'avoir commencé la musique au collège.",
+    "refs": [
+     "EV-03141",
+     "PE-00195"
+    ]
+   },
+   {
+    "date": "1941",
+    "moment": "Le legs est présenté comme toute sa bibliothèque de musique enregistrée, qui nourrit la saturation musicale du campus.",
+    "refs": [
+     "EV-03166"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Ted Dreier",
+    "nature": "Lien musical et pédagogique. Dreier vit ses expériences musicales à l'institut de Surette et en parle avec Rice ; le ressort exact de leur lien est déduit.",
+    "evolution": "Après 1937, ils se retrouvent du même côté face à Rice : Dreier se sent trahi et las, Surette le juge sévèrement. Rien n'est précisé sur leur relation personnelle.",
+    "refs": [
+     "PE-00195",
+     "EV-02026",
+     "EV-02673"
+    ]
+   },
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Fondateur et recteur, jugé sévèrement par Surette (« auto-indulgent »). Ses conversations avec Dreier à l'institut de Surette nourrissent sa conviction sur l'art. Surette n'est pas leur interlocuteur direct dans les fiches.",
+    "evolution": "Du terrain d'inspiration commune (l'institut) à un verdict de défiance, dans un climat général de perte de confiance.",
+    "refs": [
+     "EV-02026",
+     "EV-02673"
+    ]
+   },
+   {
+    "avec": "Les secrétaires du collège",
+    "nature": "Il leur propose sorties en voiture et thé à Asheville, un lien de convivialité qui sort du cadre académique.",
+    "evolution": "Non documentée. Les secrétaires sont dites « surmenées », donc ses propositions peuvent être perçues comme envahissantes ou comme un répit. Les fiches ne tranchent pas.",
+    "refs": [
+     "PE-00195"
+    ]
+   },
+   {
+    "avec": "Étudiants et enseignants lecteurs de Blake",
+    "nature": "Il initie le collège à Blake par la lecture à voix haute, et tous s'y mettent.",
+    "evolution": "Une vogue plutôt qu'un cours organisé.",
+    "refs": [
+     "EV-02667"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Statut : PE-00195 le montre visiteur fréquent puis titulaire en 1937. Molesworth le qualifie de « professeur bref » et le fait membre du conseil depuis 1933. Les deux versions ne sont pas incompatibles, mais la durée de l'enseignement reste floue.",
+   "Influence : on le dit crédité d'avoir commencé la musique au collège (PE-00195, EV-03141), alors que Chaddock note que son influence musicale est éclipsée par ses intérêts littéraires (EV-02667). Il est donc à la fois fondateur symbolique de la musique et surtout connu pour Blake.",
+   "Legs : EV-03141 (Lane, présenté comme oui-dire) parle d'une bibliothèque musicale considérable. EV-03166 (Molesworth) précise qu'il s'agit de musique enregistrée, énorme. Il peut s'agir de partitions et de disques : à vérifier.",
+   "Date de l'idée de Rice : EV-02026 est ancré de manière très large (≈1933→1995). Il ne permet pas de dater la conversation Dreier–Rice à l'institut de Surette.",
+   "Le verdict « self-indulgent » est attribué par la même fiche (EV-02673) à Surette sans date précise, entre ≈1937 et 1940."
+  ],
+  "situations_revelatrices": [
+   "Lecture publique de Blake à voix haute, où il gagne tout un groupe sans enseignement formel.",
+   "Une promenade en voiture ou un thé à Asheville avec une secrétaire épuisée, où l'on voit la bienveillance, l'ennui et peut-être l'indiscrétion.",
+   "Un conseil ou une réunion de faculté où l'on discute du comportement de Rice : un verdict en deux mots, sans emphase.",
+   "Une soirée musicale ou un débat sur la place de l'art dans l'enseignement, avec Dreier : le point où sa réputation de musicien et son rôle réel (plutôt littéraire) s'écartent.",
+   "Le temps qui passe : un vieil homme veuf qui cherche à s'occuper, puis la fin et le legs des disques."
+  ],
+  "citations": [
+   "« Well, he's self-indulgent » — jugement attribué à Surette sur Rice (PE-00195, EV-02673). Traduction proposée : « Eh bien, il se laisse aller. »",
+   "Résumé attesté : il lisait Blake à voix haute en permanence, et tous se mirent à lire Blake (EV-02667)."
+  ],
+  "questions_ouvertes": [
+   "Quel âge exact avait-il, et quand est-il devenu veuf ? Le texte ne dit que « septuagénaire » et « veuf », sans date.",
+   "Qu'a-t-il enseigné précisément à partir de 1937 : musique, littérature, les deux ? Combien de temps est-il resté en poste ?",
+   "Comment ses promenades avec les secrétaires étaient-elles perçues ? Que sait-on des rapports de Surette avec les personnes concernées ?",
+   "Qui a hérité de sa bibliothèque, comment a-t-elle été classée et utilisée, et comment concilier « musique enregistrée » et « bibliothèque musicale » ?",
+   "Quelle fut sa part dans le recrutement par le « greater Boston Axis » ? Les fiches relient son école au réseau sans détailler ses démarches.",
+   "Que pensait-il de la musique que jouaient ou composaient les étudiants du collège ? Il est crédité d'avoir commencé la musique, mais on ne sait pas comment.",
+   "Qu'a-t-il fait entre la fin de son poste et sa mort en 1941 : est-il resté au conseil jusqu'au bout ?"
+  ]
+ }
+}

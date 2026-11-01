@@ -1,0 +1,391 @@
+{
+ "passe": "mois",
+ "cle": "1945-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3207,
+  "sortie": 15269,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1945-10",
+  "session": "rentrée d'automne, session régulière (le nom du trimestre n'est pas donné ; les instituts d'été sont terminés)",
+  "saison_et_climat": "Automne 1945 à Lake Eden, près d'Asheville, dans le Sud-Est américain, région que les fiches décrivent comme hostile au collège. Les fiches ne décrivent ni la température ni la lumière du mois.",
+  "situation": "Le collège se reconstruit après la scission de 1944, avec un corps enseignant réduit puis renouvelé : neuf nouveaux enseignants arrivent à l'automne, huit jeunes Américains dont plusieurs avec enfants. Il est agréé pour le GI Bill, accueille sa première étudiante noire à plein temps et voit se former une polarisation entre Wallen et Albers sur la place de l'art face à la communauté. Derrière la façade, l'affaire Wunsch pèse encore : la version officielle du surmenage tient, et le silence est la règle.",
+  "presents_probables": [
+   {
+    "nom": "John Wallen",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rachel Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bill Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Niebyl et ses trois disciples",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Baker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Sylvesta Martin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Beidler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Zabriskie",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kazin",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Neuf nouveaux enseignants engagés, huit jeunes Américains avec enfants, parmi lesquels Wallen, Levi, Richards et Niebyl avec trois disciples.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Le collège est agréé pour le GI Bill.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Baker est engagé comme chargé de cours invité, avec un salaire de 700 dollars payé par le Rosenwald Fund.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "R. R. Williams, avocat du collège à Asheville, démissionne du conseil consultatif en protestation.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Sylvesta Martin devient la première étudiante noire à plein temps. Les sources divergent sur la date exacte.",
+    "certitude": "probable",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Wallen donne deux cours sans manuel, dont un séminaire où l'on nomme la dynamique du groupe.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Weitzer arrive sans mobilier et suspend son bureau-sandwich au plafond de l'atelier de menuiserie.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Un groupe d'étude de la faculté sur les buts de l'éducation ne se réunit qu'une seule fois.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "date": "1945-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunions communautaires sur le programme de travail.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "date": "1945-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Elaine de Kooning part en croisière vers Provincetown avec Bill Hardy, subit une tempête et ne rentre qu'en début décembre. Les sources contestent le détail de l'épisode.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03802"
+    ]
+   }
+  ],
+  "quotidien": "Chorales de Bach dirigées par Jalowetz, qui durent deux à trois heures. Cours de rattrapage improvisés par Lowinsky. Travail dans les ateliers : menuiserie, imprimerie, écriture créative, matière et culture d'atelier d'Albers. Séminaires de Wallen. Au dîner, les chants passent de table en table. Pas de couvre-feu. Le Music Cubicle, dessiné par Beidler en février, sert aux étudiants de musique.",
+  "tensions": [
+   "Polarisation entre Wallen et Albers sur la place de l'art face à la communauté ; les réunions de novembre portent sur le programme de travail.",
+   "Question raciale : la formule arrêtée en mai (deux étudiants noirs aux instituts d'été, puis un enseignant noir si le calibre suit) reste sensible. La rumeur d'« instabilité nerveuse » contre Wallen, fausse selon l'armée, a laissé des traces. Straus et Kurtz s'y étaient opposés.",
+   "Silence sur l'affaire Wunsch : la faculté a interdit d'informer les étudiants. Personne n'a protesté sur le moment, et les remords viendront plus tard.",
+   "Hostilité du Sud-Est : la démission de R. R. Williams en est un signe.",
+   "Dynamique de groupe et code du silence qui se durcit.",
+   "Précarité : Baker est payé par le Rosenwald Fund, sans poste plein.",
+   "Contradictions entre sources : date d'entrée de Sylvesta Martin ; rectorat d'Albers (Chaddock dit qu'il est élu peu après juin 1945, d'autres fiches le placent en 1948) ; épisode Elaine et Bill Hardy (Hardy décrit comme novice ou marin chevronné selon les sources)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Réunion communautaire sur le programme de travail",
+    "date": "1945-11",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Wallen",
+     "Albers",
+     "la communauté"
+    ],
+    "deroule": "Réunion sur le programme de travail. Les fiches ne donnent ni le contenu ni l'issue. La scène peut mettre en face à face Wallen et Albers sur la place de l'art.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "titre": "Séminaire sur la dynamique du groupe",
+    "date": "1945",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Wallen",
+     "étudiants"
+    ],
+    "deroule": "Wallen enseigne sans manuel. Dans l'un de ses deux cours, on nomme la dynamique du groupe, c'est-à-dire ce qui se joue entre les personnes assises là.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "titre": "Le bureau suspendu de Weitzer",
+    "date": "1945",
+    "lieu": "atelier de menuiserie",
+    "personnages": [
+     "Weitzer",
+     "étudiants de l'atelier"
+    ],
+    "deroule": "Weitzer arrive sans mobilier et suspend son bureau-sandwich au plafond de l'atelier. Le collège se construit avec peu.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "titre": "Chorale de Bach de Jalowetz",
+    "date": "1945",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Jalowetz",
+     "étudiants du chœur"
+    ],
+    "deroule": "Séance de deux à trois heures de chorales de Bach, avec l'exigence du maître.",
+    "certitude": "probable",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "titre": "Chants en chaîne au dîner",
+    "date": "1945",
+    "lieu": "salle à manger",
+    "personnages": [
+     "étudiants",
+     "enseignants"
+    ],
+    "deroule": "Les chants passent de table en table pendant le repas, rituel de la vie commune.",
+    "certitude": "probable",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "titre": "Le groupe d'étude sur les buts de l'éducation",
+    "date": "1945",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "membres de la faculté"
+    ],
+    "deroule": "Groupe d'étude formé par la faculté, réuni une seule fois. La scène peut porter sur ce qui fait échouer une réflexion commune.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "titre": "Première étudiante noire à plein temps",
+    "date": "1945",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Sylvesta Martin",
+     "faculté",
+     "étudiants"
+    ],
+    "deroule": "Sylvesta Martin suit les cours à plein temps, après le test de l'été et la formule de mai. Les fiches divergent sur la date d'entrée.",
+    "certitude": "probable",
+    "refs": [
+     "SYN-1945"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1945, la faculté vit avec le silence imposé après l'affaire Wunsch",
+    "vers_date": "1945-06",
+    "vers": "Affaire Wunsch : arrestation près d'Asheville, plaidoyer coupable, réduction à une intrusion avec sursis, achat de la bibliothèque pour envoyer 700 dollars, départ nocturne de Wunsch et convocation de la communauté par Molly Gregory.",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Automne 1945, quand la question raciale et la place de Wallen reviennent dans la faculté",
+    "vers_date": "1945-05",
+    "vers": "Formule d'intégration arrêtée en mai. Lettre de Wallen du 16 mai, recommandé par Straus, retardé par la rumeur d'« instabilité nerveuse » qui est ensuite jugée fausse, puis contrat d'un an.",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1945, après les vacances d'été et les instituts",
+    "vers_date": "1945",
+    "vers": "Récital de Roland Hayes devant environ 400 personnes, dont 30 à 40 Noirs, places intégrées, sans incident. Hayes chante ensuite chez les Lowinsky, le soir, dans un climat d'idylle et de poids du lieu.",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin de l'automne 1945, quand la faculté publie ses écrits sur l'art",
+    "vers_date": "1945-12",
+    "vers": "Albers rédige « Art at Black Mountain College ».",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1945, pendant que Elaine est encore en mer ou à Provincetown",
+    "vers_date": "1945-12",
+    "vers": "Elaine rentre en début décembre ; Bill Hardy est furieux. C'est une crise conjugale.",
+    "refs": [
+     "EV-03802"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1945, au moment où Wallen est engagé pour un an",
+    "vers_date": "1946",
+    "vers": "Fin du contrat d'un an de Wallen, commencé après la lettre du 16 mai 1945.",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1945, avec la place d'Albers en débat",
+    "vers_date": "1948",
+    "vers": "Albers devient recteur. Chaddock le place peu après juin 1945, d'autres fiches le placent en 1948.",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1945, pendant que Rauschenberg est démobilisé de la Navy",
+    "vers_date": "1948",
+    "vers": "Rauschenberg vient à BMC pour la première fois.",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1945, pendant que Wunsch est malade en Louisiane",
+    "vers_date": null,
+    "vers": "Wunsch disparaît en Californie.",
+    "refs": [
+     "SYN-1945"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne 1945, quand les de Kooning vivent encore à la 22e Rue",
+    "vers_date": null,
+    "vers": "Les de Kooning sont expulsés de leur atelier de la 22e Rue et déménagent au 63 Carmine Street.",
+    "refs": [
+     "SYN-1945"
+    ]
+   }
+  ],
+  "motifs": [
+   "silence et code du groupe",
+   "rituels de la vie commune : chorales, chants de table, absence de couvre-feu",
+   "reconstruction avec peu de moyens : bureau suspendu, mobilier absent, salaire partiel",
+   "polarisation entre l'art et la communauté",
+   "intégration sous surveillance, du test de l'été à la formule de mai",
+   "contradictions des récits sur les hommes qui partent (Wunsch, Albers, Hardy)"
+  ],
+  "lacunes": "Les fiches ne donnent aucune date précise pour octobre : toutes les dates du mois sont des saisons ou des périodes. Le trimestre n'est pas nommé et le climat n'est pas décrit. Le contenu des réunions de novembre n'est pas connu. La présence en octobre de Lowinsky, Jalowetz, Beidler, Kazin, Zabriskie, Straus, Kurtz et Molly Gregory n'est pas attestée et repose sur l'inférence. La date d'entrée de Sylvesta Martin diverge selon les sources. La synthèse de 1945 n'a pas d'identifiant propre ; je la cite comme SYN-1945. L'épisode EV-03802 est marqué « conteste » dans sa fiche et je l'ai ramené à probable, faute de catégorie plus fine."
+ }
+}

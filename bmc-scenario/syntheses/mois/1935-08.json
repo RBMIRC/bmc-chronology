@@ -1,0 +1,241 @@
+{
+ "passe": "mois",
+ "cle": "1935-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3128,
+  "sortie": 10988,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1935-08",
+  "session": "Session d'été, sous la responsabilité de Mangold (attestée pour l'été 1935, sans mois précis). Les fiches ne disent pas si le reste du collège est en vacances ou en activité.",
+  "saison_et_climat": "Été dans les montagnes de Caroline du Nord, près d'Asheville. Aucune fiche ne décrit la météo ; le climat est une inférence.",
+  "situation": "Le collège achève sa deuxième année (1934-35) et prépare la troisième (1935-36). L'été est dominé par la session d'été de Mangold, que celui-ci juge désastreuse, et par la question financière : les salaires de 1934-35 sont enregistrés en juin et chaque déficit retombe sur la faculté. Les nouveaux arrivants de septembre ne sont pas encore là. Le campus semble en activité réduite, mais aucune fiche ne le décrit directement.",
+  "presents_probables": [
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier (Ted Dreier, qui s'occupe de la ferme ; à distinguer de Katherine Dreier, mécène et collectionneuse)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Étudiants de la session d'été, décrits comme adventistes et végétariens, non nommés",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bobbie Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Louis Adamic",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stella Adamic",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1935",
+    "precision": "session",
+    "ce_qui_arrive": "Mangold, chargé de la session d'été, écrit à Rice, Dreier et Bailey des lettres furibondes sur les étudiants adventistes et végétariens qu'il appelle « nincompoops ». Il y dit que le collège est voué à la mort.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "saison",
+    "ce_qui_arrive": "Dreier s'occupe de la ferme pendant l'été.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Premier voyage des Albers au Mexique, avec Ted et Bobbie Dreier. Anni achète à un petit garçon une tête de figurine ; Vaillant l'authentifie, et la collection d'idolos commence. Josef photographie Monte Albán. Les sources divergent : vacances d'été 1935, ou décembre 1935-janvier 1936.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-08-18",
+    "precision": "jour",
+    "ce_qui_arrive": "L'Asheville Citizen publie « Photographs of W.N.C. Scenery Prove Popular » (p. 24) : la photographie de montagne intéresse le public au-delà de Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02461"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "ce_qui_arrive": "Louis Adamic vient au collège pour quelques jours, conseillé par Henry Allen Moe. Sa durée varie selon les sources (quelques jours, ou deux à trois mois). Il observe le séminaire d'écriture et recueille la doctrine « méthode contre contenu ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "ce_qui_arrive": "Wunsch, épuisé et doutant trois mois après son arrivée, reçoit de Rice le conseil de prendre des vacances. Il en revient convaincu que la réalité du collège tient aux relations humaines. La date de ces vacances n'est pas donnée.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Corvées mixtes (bois, routes, tennis, ferme), répétitions et musique avec Evarts, théâtre de Wunsch, et bal du samedi soir avec Evarts au piano. Les fiches ne datent pas précisément ces activités en août. Le collège a aussi sa vie de travail manuel : chacun travaille de ses mains, et les repas partagés (hot-dogs, Roy's) font partie de la vie commune.",
+  "tensions": [
+   "Mangold contre les étudiants de la session d'été, qu'il juge inadaptés, et pessimisme sur l'avenir du collège.",
+   "Finances : 7 250 $ de salaires pour dix-sept personnes, un coût réel d'environ 350 $ par étudiant, un barème secret, et des déficits qui retombent sur la faculté.",
+   "Burn-out de Wunsch, apaisé par Rice mais révélateur du coût humain du collège.",
+   "Question raciale laissée en suspens : le personnel noir refuse de déménager à Lee Hall par crainte de l'hostilité du village (épisode lié à une panne de chauffage, date non précisée).",
+   "Sources contradictoires : date du voyage mexicain (été 1935 ou hiver 1935-1936), durée du séjour d'Adamic (quelques jours ou deux à trois mois), nombre de visites de Dewey (hors août).",
+   "Ambiguïté du nom Dreier (Ted ou Katherine) dans les fiches."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les lettres de Mangold",
+    "date": "1935",
+    "lieu": "Black Mountain (campus, bureau de la session d'été)",
+    "personnages": [
+     "Mangold",
+     "Rice",
+     "Dreier",
+     "étudiants de la session d'été (non nommés)"
+    ],
+    "deroule": "Mangold rédige ses lettres furibondes sur les adventistes et les végétariens de la session, et annonce que le collège court à sa perte. La scène peut opposer sa colère à la patience de Rice, en passant par la ferme où Dreier travaille.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le séjour d'Adamic",
+    "date": "1935",
+    "lieu": "Black Mountain (dîner, conversation nocturne, séminaire d'écriture)",
+    "personnages": [
+     "Louis Adamic",
+     "Stella Adamic",
+     "Rice",
+     "étudiants du séminaire d'écriture"
+    ],
+    "deroule": "Adamic est séduit par le dîner et la conversation de nuit, surtout par Rice. Il assiste au séminaire d'écriture et note la doctrine « méthode contre contenu, processus contre résultats ». Sa présence prépare l'article de 1936.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le premier voyage mexicain",
+    "date": null,
+    "lieu": "Monte Albán (Mexique)",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Ted Dreier",
+     "Bobbie Dreier",
+     "un petit garçon",
+     "George Vaillant (à venir)"
+    ],
+    "deroule": "Dans le village, un petit garçon propose une tête de figurine enveloppée dans un mouchoir. Anni l'achète, puis la montre à Vaillant, qui l'authentifie. Josef photographie le terrain de jeu de balle et le camp d'Alfonso Caso. La scène reste conditionnelle à la date : été 1935 ou décembre 1935-janvier 1936.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "L'article d'Asheville",
+    "date": "1935-08-18",
+    "lieu": "Asheville",
+    "personnages": [
+     "étudiants photographes (non nommés)"
+    ],
+    "deroule": "Un étudiant lit dans l'Asheville Citizen l'article sur les photographies de paysages montagnards qui connaissent un grand succès, et constate que la concurrence dépasse Black Mountain.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02461"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Les Albers au Mexique, si le voyage a lieu en été 1935",
+    "vers_date": "1934-12-28",
+    "vers": "Retour de Cuba après les conférences au Lyceum de La Havane, puis première exposition à l'Addison Gallery (janvier 1935).",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La session d'été de Mangold, en août 1935",
+    "vers_date": "1934",
+    "vers": "Visites de John Dewey pendant l'année 1934-35, qui suit en silence le cours de Rice et rejoint les étudiants à Roy's.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les lettres de Mangold sur la session d'été, en août 1935",
+    "vers_date": "1935-09",
+    "vers": "Rentrée : arrivée de Knickerbocker, Farrell, les Moellenhoff et Janet Seasongood. Naissance du schisme Rice-Knickerbocker.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le séjour d'Adamic à Black Mountain, pendant l'été 1935",
+    "vers_date": "1936-04",
+    "vers": "Parution de « Education on a Mountain » dans Harper's, et crise qu'elle prépare avec le collège.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le premier voyage mexicain, si le départ se fait en décembre 1935",
+    "vers_date": "1935-12",
+    "vers": "Version « décembre » du voyage mexicain des Albers, pendant laquelle Josef a déjà la tête tournée vers Harvard, où il enseignera en 1936.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "La session d'été comme révélateur des limites du collège",
+   "Argent : salaires, déficits et barème secret",
+   "La photographie de montagne et l'image publique du collège",
+   "La collection d'idolos et l'ambiguïté de l'achat",
+   "Rice comme figure d'autorité et de conciliation",
+   "Dewey et la légitimation par l'éducation progressiste"
+  ],
+  "lacunes": "On ignore la date exacte du voyage mexicain (été 1935 ou décembre 1935-janvier 1936) et la durée du séjour d'Adamic (quelques jours ou deux à trois mois). On ne sait pas si Wunsch était présent en août ni quand il a pris ses vacances. Les effectifs et les noms de la session d'été sont absents, et la présence réelle de Rice, des Albers et de Mangold ce mois-là n'est pas attestée.}OBJ}"
+ }
+}

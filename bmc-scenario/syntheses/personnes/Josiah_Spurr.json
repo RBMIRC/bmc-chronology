@@ -1,0 +1,188 @@
+{
+ "passe": "personnes",
+ "cle": "Josiah Spurr",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1939,
+  "sortie": 5411,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Josiah Spurr",
+  "autres_noms": [
+   "Spurr",
+   "J. Spurr"
+  ],
+  "dates_de_vie": "Non précisées par les fiches. Il est décrit comme géologue « retraité » ou « semi-retraité » en 1933, ce qui indique un âge avancé, mais on n'a aucune date de naissance ni de mort.",
+  "statut_bmc": "Figure manquée, une absence qui pèse. Il était pressenti pour diriger le collège (d'abord « président », puis « recteur ») et a soutenu le projet au moins en principe. Une crise cardiaque en 1933 l'a empêché de prendre ses fonctions. Il n'a jamais mis les pieds au collège (PE-00301, EV-02129, EV-02171).",
+  "presence": [],
+  "portrait_physique": "Aucun détail physique dans les fiches. On sait seulement qu'il est malade en 1933 (crise cardiaque) et assez âgé pour être retraité ou semi-retraité. Tout le reste est à inventer, en restant cohérent avec un homme de santé fragile, à l'autorité reconnue (PE-00301).",
+  "noyau_psychologique": "Attesté : un universitaire de renom, respecté dans les cercles académiques, qui juge assez bien l'affaire de Rollins pour s'en indigner et soutient l'idée d'un collège nouveau, au moins en principe (PE-00301). Il ouvre sa maison pour une longue session de planification (EV-01993). Déduction prudente : un notable installé qui prête son prestige et son hospitalité à des plus jeunes. Son rôle tient à sa caution : on le veut en tête parce qu'il rassure, tandis que le vrai meneur, Rice, est jugé trop marqué par le combat de Rollins (EV-02122). Ses motivations profondes ne sont pas documentées.",
+  "blessures": "Non documentées. Seule blessure attestée : la maladie qui brise son rôle (EV-02129, EV-02134). On peut imaginer, sans que les sources le disent, l'amertume de ne pas avoir pu tenir un rôle fondateur.",
+  "desirs": "Attesté seulement en creux : il accepte d'être, ou d'être pressenti comme, tête du collège (« stewardship ») et soutient le projet (PE-00301). Le reste est déduction.",
+  "peurs": "Aucune peur attestée. La crise cardiaque ne dit rien de ses sentiments. Ne rien lui prêter de précis sans l'assumer comme invention.",
+  "maniere_d_aimer": "Aucune information sur sa vie affective. Seul geste attesté : l'hospitalité envers d'anciens étudiants et professeurs de Rollins, accueillis chez lui à Alstead pendant près d'une semaine (EV-01993, PE-00301).",
+  "rapport_au_pouvoir": "Il représente le pouvoir académique établi : ex-membre du Board of Overseers de Harvard, professeur invité à Rollins, géologue célèbre (EV-02122, PE-00301). Le plan est de l'installer à la tête du collège, avec un titre qui change : « président », puis « recteur » selon Lane (EV-02122). Rice, vrai leader, est mis de côté officiellement par prudence après Rollins. Spurr est donc la façade respectable du pouvoir, pas son moteur. Comment il vivait cette position n'est pas documenté.",
+  "voix": {
+   "registre": "Aucune parole de Spurr n'est rapportée. Par déduction, un registre de professeur distingué, posé. À inventer avec prudence, en marquant que c'est une construction de scénariste.",
+   "tics": "Aucun tic attesté.",
+   "exemples_paraphrases": [
+    "Son indignation devant les incidents de Rollins est attestée (PE-00301), mais on n'a pas ses mots. À formuler en désapprobation mesurée plutôt qu'en colère.",
+    "Il soutient l'idée d'un nouveau collège « au moins en principe » (PE-00301). Sa position peut se jouer par des approbations nuancées, sans engagement concret."
+   ]
+  },
+  "habitudes": [
+   "Il reçoit chez lui, dans sa maison d'été d'Alstead (New Hampshire), pour des réunions de travail et de discussion philosophique qui durent près d'une semaine (EV-01993).",
+   "Il enseigne comme professeur invité à Rollins, dans un statut semi-retraité (PE-00301)."
+  ],
+  "convictions": [
+   "Il soutient, au moins en principe, l'idée d'un nouveau collège né de la crise de Rollins (PE-00301).",
+   "Il est indigné par les incidents de Rollins (PE-00301).",
+   "Il soutient implicitement l'idée d'une formation menée par des éducateurs pairs, mais cela n'est pas attesté pour lui. Le débat sur le titre est celui de Rice, de Dreier et d'un troisième acteur (EV-02171)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933",
+    "moment": "Session de planification chez lui à Alstead, avec d'anciens étudiants et professeurs de Rollins : près d'une semaine de discussions.",
+    "etat_interieur": "Hôte engagé et caution du projet. On le suppose attentif et solidaire des exilés de Rollins, mais ses sentiments ne sont pas documentés. Les fiches ne disent pas si la session précède ou suit sa crise cardiaque.",
+    "refs": [
+     "EV-01993",
+     "PE-00301"
+    ]
+   },
+   {
+    "date": "1933-07",
+    "moment": "Il est pressenti comme tête du collège, d'abord « président », titre ensuite changé en « recteur ». On préfère ne pas mettre Rice à la tête après le combat de Rollins.",
+    "etat_interieur": "Incertain. Il est le visage rassurant d'une entreprise fragile. Rien n'indique s'il avait demandé ou souhaité ce rôle.",
+    "refs": [
+     "EV-02122",
+     "PE-00301"
+    ]
+   },
+   {
+    "date": "1933-08",
+    "moment": "Crise cardiaque en plein été (« mi-été » selon Chaddock, mi-août selon Lane) : il se retire. Les défections s'accumulent autour de lui, Wunsch, Oldham et Tory se désistant déjà.",
+    "etat_interieur": "Impuissant, contraint à l'abandon. Sa maladie est le fait ; le vécu intérieur est à construire.",
+    "refs": [
+     "EV-02129",
+     "EV-02134",
+     "PE-00301"
+    ]
+   },
+   {
+    "date": "1933-09",
+    "moment": "Trop malade pour participer, il est absent quand le collège s'installe à Lee Hall. Son retrait ouvre la querelle du titre : « president » contre « rector », compromis proposé par Rice.",
+    "etat_interieur": "Absent de la scène. Il est le vide que d'autres comblent.",
+    "refs": [
+     "EV-02171"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Géologue réputé, longue carrière universitaire, membre du Board of Overseers de Harvard. Aucune date ni détail de carrière dans les fiches.",
+    "refs": [
+     "EV-02122",
+     "PE-00301",
+     "EV-02134"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Professeur invité, semi-retraité, à Rollins, respecté dans les cercles académiques. Il y est témoin des incidents qui l'indignent, ceux de l'affaire dont naît BMC.",
+    "refs": [
+     "PE-00301",
+     "EV-02122"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1933-09",
+    "moment": "Le titre « recteur » qui lui était destiné ou qui est lié à sa mise à l'écart devient permanent « toute l'histoire du collège ». Rice reste sans titre officiel à cause du rapport AAUP en suspens. C'est le seul prolongement indirect attesté.",
+    "refs": [
+     "EV-02171",
+     "EV-02122"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Sa vie après 1933 (guérison, mort, éventuelles nouvelles du collège) n'est pas documentée. Les fiches s'arrêtent à sa crise cardiaque.",
+    "refs": [
+     "PE-00301"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Leader réel du projet ; Spurr est destiné à être la tête officielle plus acceptable. La nature exacte de leur relation personnelle n'est pas documentée.",
+    "evolution": "Spurr est pressenti pour la tête ; il s'efface ; Rice reste sans titre officiel, et c'est lui qui propose le compromis « rector » (EV-02171).",
+    "refs": [
+     "EV-02122",
+     "EV-02171"
+    ]
+   },
+   {
+    "avec": "Theodore Dreier",
+    "nature": "Co-fondateur avec Rice. Aucune relation directe avec Spurr n'est attestée.",
+    "evolution": "Dreier reste avec Rice à Swarthmore quand Spurr abandonne ; ils font front ensemble sur le titre.",
+    "refs": [
+     "EV-02134",
+     "EV-02171"
+    ]
+   },
+   {
+    "avec": "Anciens étudiants et professeurs de Rollins",
+    "nature": "Hôte d'une session de planification à Alstead ; ancien collègue ou enseignant du groupe.",
+    "evolution": "Sa défection s'ajoute à celles de Wunsch, Oldham et Tory, ce qui oblige à recruter en urgence Loram, Martin et Evarts.",
+    "refs": [
+     "EV-01993",
+     "EV-02129",
+     "EV-02134"
+    ]
+   },
+   {
+    "avec": "Georgia (personne désignée uniquement par ce prénom dans la fiche)",
+    "nature": "Personne qui s'installe dans le bureau de Lee Hall en septembre 1933 après le retrait de Spurr, avec une pancarte « president ».",
+    "evolution": "Elle défend le titre de « president » contre Rice et Dreier, jusqu'au compromis « rector ». Le rapport avec Spurr n'est qu'indirect : elle occupe la place vacante.",
+    "refs": [
+     "EV-02171"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Chronologie du titre : Lane (EV-02122) dit que le titre fut changé de « président » en « recteur » pour la fonction que Spurr devait tenir. Chaddock (EV-02171) fait naître « recteur » en septembre 1933 comme compromis de Rice, après le retrait de Spurr, face à l'insistance de Georgia sur « president ».",
+   "Date de la crise cardiaque : « mi-été » (EV-02129, Chaddock), « août 1933 » (PE-00301) et mi-août avec les mauvaises nouvelles de Swarthmore (EV-02134, Lane). Compatible, mais à l'échelle 1 il faut choisir une date, sans jour précis.",
+   "Titre visé : « stewardship » (PE-00301), « chef du collège » (EV-02129), « président puis recteur » (EV-02122). Le périmètre exact de sa fonction reste flou.",
+   "Le titre de l'événement EV-02171 parle de « quarantaine » de la maladie de Spurr alors que la description n'en dit rien : un mot qui ne figure qu'au titre. La fiche attribue aussi la pancarte à « Georgia », dont l'identité n'est pas précisée. Peut-être une erreur d'extraction, à vérifier dans Chaddock p.125.",
+   "Place de la session d'Alstead : attestée en 1933 (EV-01993), mais la fiche ne dit pas si elle a eu lieu avant ou après la crise cardiaque."
+  ],
+  "situations_revelatrices": [
+   "Une veillée de travail chez lui à Alstead, avec d'anciens de Rollins : lui en hôte, entre prestige de l'âge et impuissance à guider le plan.",
+   "Le moment de l'appel ou de la lettre qui annonce son retrait, après la crise cardiaque, pendant que Rice et Dreier restent seuls à Swarthmore.",
+   "Une scène d'absence : à Lee Hall, la pancarte « president » sur la porte d'un bureau que Spurr aurait dû occuper.",
+   "Une conversation entre notables académiques qui jugent Rice trop marqué par Rollins pour porter le titre."
+  ],
+  "citations": [
+   "EV-01993",
+   "EV-02122",
+   "EV-02129",
+   "EV-02134",
+   "EV-02171",
+   "PE-00301"
+  ],
+  "questions_ouvertes": [
+   "Quelles sont ses dates de naissance et de mort, et que devient-il après 1933 ?",
+   "Quel était exactement son rôle à Rollins, et quels incidents l'ont indigné ?",
+   "Avait-il lui-même demandé ou accepté le poste de chef du collège, et sous quelle forme (président, recteur, stewardship) ?",
+   "La session d'Alstead a-t-elle eu lieu avant ou après la crise cardiaque ? Qui y participait exactement ?",
+   "Comment était-il lié à Rice, Dreier et aux anciens de Rollins avant l'été 1933 ?",
+   "A-t-il gardé un lien avec le collège après sa maladie (conseil consultatif, correspondance, soutien financier) ?",
+   "Qui est exactement « Georgia » dans EV-02171 ?",
+   "Quelle était sa vie hors de la géologie et de Harvard (famille, convictions, manière de parler) ?"
+  ]
+ }
+}

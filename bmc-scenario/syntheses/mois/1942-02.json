@@ -1,0 +1,206 @@
+{
+ "passe": "mois",
+ "cle": "1942-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4205,
+  "sortie": 10073,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-02",
+  "session": "Trimestre d'hiver (déduit du mois, non nommé par les fiches)",
+  "saison_et_climat": "Hiver (déduit du mois). Aucune fiche ne décrit le temps ni le paysage de Lake Eden ce mois-ci.",
+  "situation": "En février 1942, le collège en est à sa deuxième année à Lake Eden, installé depuis mai 1941. Le chantier communautaire continue : cours le matin et le soir, après-midi consacrés au travail volontaire, et la grande grange de Kocher et Godfrey est en cours (elle sera achevée au printemps). Le collège est riche en biens immobiliers mais sans liquidités. Les fiches ne datent en février ni la crise de l'accréditation (elle commence en mai), ni la ferme et le mica (automne), ni les départs pour la guerre (1942-1943), ni les bals et spectacles (1942-1943). Dans le monde extérieur, de Kooning expose à New York et Dawson accompagne son père mourant à l'hôpital des vétérans.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Godfrey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lindsley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Boyden",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Babcock",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "French",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bliss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Elsa Kahl",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frances de Graaf",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1942-01",
+    "precision": "periode",
+    "ce_qui_arrive": "Exposition « American and French Paintings » chez McMillen à New York, choisie par John Graham ; Willem de Kooning y figure. Événement extérieur au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03302"
+    ]
+   },
+   {
+    "date": "1942-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Visite de Fielding Dawson, enfant, à son père mourant à l'hôpital des vétérans : crise de vomissements au chevet, sous les yeux de ses parents. Événement extérieur au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03303",
+     "SC-00839"
+    ]
+   },
+   {
+    "date": "1942-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Le chantier communautaire se poursuit (cours matin et soir, travail volontaire l'après-midi) ; la grange de Kocher et Godfrey est en construction.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les journées sont scandées par le chantier communautaire : cours le matin et le soir, après-midi au travail volontaire sur la grange. Les fiches ne décrivent ni les repas, ni la musique, ni les cours de ce mois. Les bals du samedi, les spectacles et les soirées Bach sont datés de 1942-1943 et ne sont pas attestés pour février.",
+  "tensions": [
+   "Manque de liquidités : un patrimoine estimé à 150 000 $ mais aucun cash, et une dépendance aux dons, dont le total (environ 78 000 $ en deux ans) n'est donné qu'en juillet.",
+   "Menace de la guerre, qui vide le collège et pèsera sur les sursis de draft.",
+   "Accréditation non encore engagée : elle ne deviendra une urgence qu'à partir de mai.",
+   "Les fiches ne documentent aucun conflit interne pour février 1942."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le chantier de la grange",
+    "date": "1942-02",
+    "lieu": "Lake Eden, grange de Kocher et Godfrey",
+    "personnages": [
+     "Kocher",
+     "Godfrey",
+     "étudiants et professeurs du chantier"
+    ],
+    "deroule": "Un après-midi de travail volontaire : la communauté avance sur la grange, dont la livraison est prévue au printemps. Scène collective sans dialogue documenté, à construire à partir de la vie du chantier.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La visite à l'hôpital des vétérans",
+    "date": "1942-02",
+    "lieu": "Veterans Hospital",
+    "personnages": [
+     "Fielding Dawson",
+     "Clarence Dawson",
+     "Cara Byars Dawson"
+    ],
+    "deroule": "Après un déjeuner à l'école, l'enfant monte en voiture puis dans les couloirs de l'hôpital. Le père suit le match à l'oreillette et en commente les actions ; la conversation s'épuise, la mère parle d'un ton que l'enfant ne comprend pas. La nausée monte et l'enfant vomit au chevet, puis une seconde crise survient après un verre d'eau. Scène hors du collège, mais à lire comme matière d'ouverture.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00839",
+     "EV-03303"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le chantier de la grange, en février 1942 : la communauté construit depuis l'été 1941",
+    "vers_date": "1940",
+    "vers": "Lancement du chantier communautaire à l'automne 1940, puis installation à Lake Eden en mai 1941.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les caisses vides de février 1942, à la veille de la crise d'accréditation",
+    "vers_date": "1942-05-24",
+    "vers": "Le 24 mai, Wunsch rencontre Huntley de la Southern Association, qui s'étonne que le collège n'ait pas le droit de délivrer des diplômes.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le chantier de la grange, presque achevé au printemps",
+    "vers_date": "1942",
+    "vers": "À l'automne 1942, Hansgirg arrive dans une Cadillac et installe un orgue Hammond ; Hansgirg et Straus trouvent un filon de mica dans le pâturage.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La vie ordinaire du collège en hiver, avant la mobilisation",
+    "vers_date": "1942",
+    "vers": "Entre 1942 et 1943, Lindsley, Evarts, Boyden, Mangold, Babcock et French quittent le collège pour la guerre ou des postes à l'extérieur.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Précarité matérielle d'une communauté qui construit sans argent",
+   "Le corps malade et l'hôpital comme miroir de la fragilité",
+   "La guerre vue depuis le campus, avant qu'elle ne le vide",
+   "Le chantier comme rituel collectif"
+  ],
+  "lacunes": "Aucune fiche ne date un événement interne au collège en février 1942. La session n'est pas nommée (trimestre d'hiver déduit, non attesté). La visite de Dawson se passe hors du collège, et la fiche ne nomme pas l'école où il déjeune. Hansgirg n'arrive qu'à l'automne et ne doit donc pas figurer en février. Les dates exactes de Wunsch, du mica, des bals et de la crise de l'accord « bedroom » ne sont pas données. Les fiches sur Bentley, de Graaff et Straus couvrent 1942-1944 et ne prouvent pas leur présence en février 1942."
+ }
+}

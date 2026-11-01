@@ -1,0 +1,386 @@
+{
+ "passe": "mois",
+ "cle": "1951-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 13421,
+  "sortie": 21503,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1951-12",
+  "session": "Automne 1951 : cours d'automne et débats de faculté en cours ; le découpage en trimestres n'est pas précisé par les fiches",
+  "saison_et_climat": "Hiver naissant (déduit du calendrier). Les fiches ne décrivent ni le temps ni les fêtes de fin d'année au collège, et ne signalent aucun événement collectif à Black Mountain en décembre.",
+  "situation": "Fin 1951, le collège tourne à faible effectif. La faculté résidente se réduit presque à Sprague et Adams, après les départs du printemps (Turner, Trayer, Leser, Natasha Goldowski) et de l'été. Olson domine la vie intellectuelle sans statut de recteur officiel clairement établi. Les débats de faculté sur les « fins éducatives » sont en cours, jusqu'en mars 1952. La vente de bois ne couvre pas le déficit. Rauschenberg, reparti à l'automne, ne revient qu'en janvier 1952. Litz est à New York le 23 décembre. Les Harding vivent très pauvrement avec un nouveau-né. Le collège semble tenir par la vie d'atelier, les lectures nocturnes et l'énergie d'Olson plutôt que par une structure stable.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Victor Sprague",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Adams",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Harding",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mildred Harding",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dawson (étudiant, auteur de nouvelles)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Doyle",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Une étudiante rousse arrivée six semaines en retard (non nommée)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Débats de faculté sur les « fins éducatives » (Olson, Sprague, Adams), qui commencent en octobre et durent jusqu'en mars 1952, avec des échanges vifs",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": "1951-10-18",
+    "precision": "jour",
+    "ce_qui_arrive": "Rauschenberg écrit à Betty Parsons depuis Black Mountain (cachet du 18 octobre)",
+    "certitude": "atteste",
+    "refs": [
+     "EC-02757",
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Naissance à Asheville, à la mi-octobre, du fils de John et Mildred Harding",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "saison",
+    "ce_qui_arrive": "Le College Council interdit la corde à linge des Harding, jugée offense esthétique",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "saison",
+    "ce_qui_arrive": "Robertson et Kent, avec Doyle et Wes Huss, coupent des pins pour vendre du bois de pâte (deux haches, puis une tronçonneuse). La production reste insuffisante face au déficit, et les deux étudiants partent pour New York, sentant la fin proche",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": "1951-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Elaine de Kooning se brise la jambe et écrit à Albers",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": "1951-11-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson se pose en défenseur de la liberté absolue de l'étudiant",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Albers, à Yale, embauche Chaet en une heure et demie. Sa querelle avec le collège dure",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Jonathan Williams refuse la conscription pour objection de conscience, accompagné au draft board par une étudiante",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Siskind accepte le poste de l'Institute of Design. Une fiche le place pour l'automne 1951, une autre un an plus tard",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "saison",
+    "ce_qui_arrive": "Richards enseigne Ulysses à l'automne selon Dawson ; Lane la dit partie en 1951. Discordance non tranchée",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "annee",
+    "ce_qui_arrive": "Publication de Gestalt Therapy par Perls, Hefferline et Goodman, hors collège (Goodman non attesté à BMC en 1951)",
+    "certitude": "atteste",
+    "refs": [
+     "EC-02689",
+     "EC-02690"
+    ]
+   },
+   {
+    "date": "1951-12-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Katherine Litz danse The Glyph à New York",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05574"
+    ]
+   },
+   {
+    "date": "1951-12-30",
+    "precision": "periode",
+    "ce_qui_arrive": "Lanier écrit à Erwine Laverne (showroom new-yorkais) à propos du « wire stuff » de Ruth. Correspondance qui se poursuit jusqu'au 18 janvier 1952",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05575"
+    ]
+   },
+   {
+    "date": "1952-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Rauschenberg revient à Black Mountain avec Twombly",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   }
+  ],
+  "quotidien": "Cours d'automne et lectures ; ateliers de nuit d'Olson où chacun lit son texte et où Olson apprend à enseigner ; nouvelles de Dawson qui circulent. Travaux manuels : coupe de pins et bois de pâte vendu, avec la tronçonneuse qui remplace les haches. Les Harding, qui gagnent environ 1 000 dollars par an, se disputent une place dans le camion du collège les jours de paie et vivent de lait, d'œufs et de haricots rouges. Côté sorties, les fiches ne mentionnent en fin d'année que le match de baseball d'Asheville de l'automne, aux gradins ségrégués. Musique : aucun concert au collège en décembre ; les pièces de l'été (The Glyph, Boulez) sont derrière.",
+  "tensions": [
+   "Autorité d'Olson contestée : Chaddock le dit « élu recteur vite », Molesworth ne le fait recteur officiel qu'en 1954 ; Huss le juge piètre administrateur mais bon pour élever l'énergie du lieu",
+   "Débats sur les fins éducatives avec des échanges vifs entre Olson, Sprague et Adams",
+   "Déficit et pauvreté : bois insuffisant, famille Harding aux abois, conseil qui juge la corde à linge indécente",
+   "Départs en série (Turner, Trayer, Leser, Natasha, Robertson, Kent) et faculté réduite à presque rien",
+   "Rauschenberg : mariage avec Weil défait, attachement à Twombly, séjours brefs et intermittents au collège",
+   "Querelle d'Albers avec le collège, qui dure depuis son départ",
+   "Refus de conscription de Williams, soutenu par une étudiante au draft board",
+   "Discordances sur Richards (partie en 1951 selon Lane, enseignant à l'automne selon Dawson) et sur la date d'arrivée de Siskind à Chicago (automne 1951 ou 1952)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Débat sur les fins éducatives",
+    "date": "1951-12",
+    "lieu": "Collège (salle de faculté, lieu non précisé)",
+    "personnages": [
+     "Charles Olson",
+     "Victor Sprague",
+     "John Adams"
+    ],
+    "deroule": "Une séance du débat qui court d'octobre à mars : Olson défend une éducation qui se fait par l'exercice, Sprague et Adams opposent leurs exigences de discipline et de savoir. L'échange est vif, sans résolution. Le débat sert aussi de terrain pour la question de l'autorité d'Olson.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "titre": "Litz danse The Glyph à New York",
+    "date": "1951-12-23",
+    "lieu": "New York",
+    "personnages": [
+     "Katherine Litz"
+    ],
+    "deroule": "Litz donne The Glyph en ville, reprise de la pièce née en été au collège. Le spectacle est une trace de Black Mountain loin du campus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05574"
+    ]
+   },
+   {
+    "titre": "La corde à linge des Harding",
+    "date": "1951",
+    "lieu": "Collège, cour près des logements",
+    "personnages": [
+     "John Harding",
+     "Mildred Harding",
+     "College Council"
+    ],
+    "deroule": "Le conseil interdit la corde à linge, jugée offense esthétique. Les Harding, avec un nouveau-né, doivent trouver un autre moyen de faire sécher leur linge, sous les yeux de la communauté.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "titre": "Coupe de pins et départ pour New York",
+    "date": "1951",
+    "lieu": "Pinède du campus",
+    "personnages": [
+     "Ron Robertson",
+     "Carl Kent",
+     "Doyle",
+     "Wes Huss"
+    ],
+    "deroule": "Les étudiants abattent des pins, d'abord à la hache, puis à la tronçonneuse. La production ne suffit pas au déficit. Robertson et Kent partent pour New York, sentant la fin proche.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "titre": "Williams devant le draft board",
+    "date": null,
+    "lieu": "Asheville (draft board)",
+    "personnages": [
+     "Jonathan Williams",
+     "une étudiante (non nommée)"
+    ],
+    "deroule": "Williams se présente pour refuser la conscription au titre de l'objection de conscience. Une étudiante l'accompagne. La date exacte reste inconnue.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "23 décembre, la représentation new-yorkaise de The Glyph ramène à la vente aux enchères et au Glyph Exchange de l'été",
+    "vers_date": "1951-07",
+    "vers": "Le Glyph Exchange né d'une vente aux enchères en ville, la phrase d'Alvin Lipsey « It's like a race », le poème d'Olson et la réponse de Shahn",
+    "refs": [
+     "EV-05574",
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Décembre, avec Olson de retour depuis l'été et la faculté réduite",
+    "vers_date": "1951-02",
+    "vers": "Le départ d'Olson pour le Yucatan, d'où sont venues les lettres à Creeley (18 février au 1er juillet)",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Décembre, au moment où les départs sont passés et où Richards est dite à la période la plus basse",
+    "vers_date": "1951-04",
+    "vers": "Le printemps des départs : la lettre de Leser du 24 avril, le départ de Natasha et des Trayer, la séparation des Levi",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Décembre, avec la reprise de la photographie et de l'écriture au collège",
+    "vers_date": "1951-08",
+    "vers": "L'été de la photographie : Siskind, Callahan, Siegel, et Andy Oates premier diplômé en photographie, examiné par Steichen",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre, Rauschenberg absent depuis l'automne, avec femme et fils à New York",
+    "vers_date": "1952-01",
+    "vers": "Le retour de Rauschenberg et de Twombly au collège, et la suite des White Paintings et des Black Paintings",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre, débats sur les fins éducatives en cours",
+    "vers_date": "1952-03",
+    "vers": "La fin des débats sur les fins éducatives, prévue pour mars 1952 selon les fiches",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre, Richards commence la traduction d'Artaud et le travail avec Tudor et Litz",
+    "vers_date": "1952",
+    "vers": "Theater Piece No. 1, préparé par les échanges de l'été et de l'automne 1951",
+    "refs": [
+     "chapitre 1951 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "30 décembre, premier courrier de Lanier à Laverne sur le wire stuff de Ruth",
+    "vers_date": "1952-01-18",
+    "vers": "La fin de la correspondance, et un brouillon de lettre de Ruth vers 1952",
+    "refs": [
+     "EV-05575"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre, Williams qui publie et imprime au collège, en amitié avec Olson",
+    "vers_date": "1970",
+    "vers": "La tombe d'Olson à Gloucester, vue par Williams comme pierre puritaine dérisoire parmi les pêcheurs portugais",
+    "refs": [
+     "EC-02652"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre, Goodman, ancien étudiant du collège, travaille à Gestalt Therapy",
+    "vers_date": null,
+    "vers": "Goodman devient une voix majeure de la contre-culture psychologique américaine ; ses thèmes prolongent l'esprit de Black Mountain",
+    "refs": [
+     "EC-02714"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le glyphe comme modèle d'écriture et de performance, du Yucatan au Glyph Exchange",
+   "Perception et contraste : la pédagogie d'Albers croise les thèses gestaltistes sur la figure et le fond, sans lien attesté",
+   "La communauté qui s'administre elle-même contre les institutions qui « contrôlent »",
+   "L'enseignant assimilé par l'élève plutôt qu'adoré",
+   "La pauvreté comme matière de vie quotidienne : bois, linge, lait, œufs et haricots rouges",
+   "Le départ comme forme de fin : étudiants qui s'en vont en sentant la fin proche"
+  ],
+  "lacunes": "Aucune fiche ne donne d'événement daté de décembre au collège, à part la représentation new-yorkaise du 23 et la correspondance de Lanier. On ignore le jour exact de la plupart des événements d'automne, la session (trimestre ou semestre), le climat et les fêtes de fin d'année. Le statut de recteur d'Olson reste contesté. Les dates de départ et de retour de Rauschenberg et Twombly, de Richards, de Huss et de Dawson ne sont pas établies. La date de la conscription de Williams et celle du départ de Siskind restent inconnues. Plusieurs étudiants restent anonymes."
+ }
+}

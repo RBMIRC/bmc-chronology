@@ -1,0 +1,61 @@
+#annee 1939-40
+#catalogue speculation/catalogues/1939-40.txt 2017.40.014+2017.40.255a-b+2017.40.253+2017.40.254
+> ## 1939-40 : une année en sous-effectif, et un catalogue illisible
+>
+> **Une source piégée.** La fiche du catalogue 1939-40 (2017.40.015) n'a que 5 images : titre, sommaire, organisation, situation, vie. Son texte transcrit par le musée est **celui du catalogue 1938-39** : on y trouve « three miles » et « fourteen buildings », un calendrier qui commence en 1938-39, « On leave of absence 1938-1939 », et les officiers de 1938-39. Les images authentiques disent « five miles » et « fifteen buildings », et leur texte « LIFE » est nouveau. La liste des cours et le corps enseignant de 1939-40 ne sont donc pas lisibles. Mon extraction précédente en avait tiré à tort une liste « identique à 1938-39 » : elle est retirée.
+>
+> **1. Le calendrier est annoncé, non vérifié (15 %).** Les dates de 1939-40 sont imprimées à l'avance dans le catalogue 1938-39 (scan 014-04) :
+> - semestre d'automne du 11 septembre au 16 décembre 1939 ;
+> - vacances d'hiver jusqu'au 21 janvier ;
+> - semestre de printemps du 22 janvier au 1er juin 1940 ;
+> - vacances de printemps du 24 au 31 mars.
+>
+> **2. Les personnes**, établies par les lettres d'information de l'année :
+> - **août 1939** (2017.40.255a-b) : Allan Sly part, et Jalowetz le remplace ; les Moellenhoff partent ; un second enseignant d'art est recherché ; **congé sabbatique au semestre d'automne pour Dreier (études au MIT) et pour Rice** ;
+> - **mars 1940** (2017.40.253) : Rice en congé « this year », sa démission est annoncée le 4 mars et prend effet à la fin de l'année ; Wunsch est recteur ;
+> - **mai 1940** (2017.40.254) : « the faculty has been understaffed this year ». Postes vacants : biologie, histoire américaine, science politique, physique, car Dreier « is now giving all his time to teaching Mathematics ». Bedford Thurman est assistant en théâtre, Gerald Barnes enseigne l'économie (il sera remplacé), Straus et Albers parlent pendant la Guest Week, Lindsley dirigera l'auberge de Lake Eden l'été suivant ;
+> - **août 1941** (2017.40.260a-b) : Surette est malade depuis plus de deux ans ; il ne paraît plus enseigner.
+>
+> Restent incertains : Hilda Loram Bailey, Kenneth Kurtz et W. C. Barnes. Leurs cases portent le code PRESENCE et une chance réduite.
+>
+> **3. Les cours.** La liste de 1938-39, relue sur scan, est reconduite (LISTE_VOISINE, +15), puis corrigée par ces présences :
+> - pas de biologie, de physique ni de Platon ;
+> - pas de grec ni de latin, puisque Rice est absent ;
+> - l'allemand n'a pas d'enseignant connu (1/4) ;
+> - pas d'histoire américaine ;
+> - la musique de Sly passe à Jalowetz ;
+> - les mathématiques de Dreier n'ont lieu qu'au printemps.
+>
+> Chaque cours ainsi retiré figure dans la concordance, avec sa raison.
+>
+> **4. Faits attestés de l'année**, dans le semainier tels quels :
+> - Thanksgiving, le 23 novembre 1939 ;
+> - récital de violon de Wollner, le 30 novembre ;
+> - récital de Steuermann, le 12 décembre ;
+> - annonce de la démission de Rice, le 4 mars 1940 ;
+> - visite d'Odets début avril ;
+> - *Ah, Wilderness!* le 25 avril ;
+> - Visitors' Week du 3 au 7 mai, avec *Macbeth* le 7 ;
+> - examens de fin d'études en art devant Marcel Breuer, les 16 et 17 mai.
+>
+> La production d'automne de *John Gabriel Borkman*, mentionnée en mars 1940 (« last term »), n'est pas datée.
+>
+> **5. Le rythme de la journée** reprend les descriptions de 1938-39, car celles de 1939-40 ne sont pas lisibles (VOISIN) : travail l'après-midi jusqu'à 16 h, danse après le dîner, bal du samedi, réunion mensuelle de la faculté, réunions générales.
+
+S|semaine|||calendrier|Semaine de cours, {terme} (calendrier annoncé dans le catalogue 1938-39)|||dates imprimées à l'avance : réalisation non vérifiée|SEMAINE|2017.40.014
+
+S|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||repas en commun ; heure : bulletins de Lake Eden 1943-44|SEMAINE+LOIN|2017.40.014+2017.40.172a-g
+S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||heure de début : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.014+2017.40.172a-g
+S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.014+2017.40.172a-g
+S|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.014+2017.40.172a-g
+S|dim|13:00|14:00|social|Dîner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.014+2017.40.172a-g
+S|dim|18:00|18:45|social|Souper du dimanche|Communauté||souper froid le dimanche en 1944, heure non donnée|SEMAINE+LOIN+HEURE|2017.40.014+2017.40.172a-g
+
+S|lun-sam|13:30|16:00|travail|Travail et plein air jusqu'à 16 h : bibliothèque, reliure, imprimerie, ferme, routes, travaux à Lake Eden|Communauté||description de 1938-39 ; « work at Lake Eden » au programme de la Visitors' Week (mai 1940)|SEMAINE+VOISIN+HEURE_CADRE|2017.40.014+2017.40.253
+S|lun,mer,ven|19:00|19:30|danse|Demi-heure de danse après le dîner|Communauté||décrite en 1938-39 ; « informal dancing » après le concert du samedi de la Visitors' Week 1940|SEMAINE+VOISIN+JOUR+HEURE_CADRE|2017.40.014
+S|sam|20:30|23:00|social|Bal du samedi soir|Communauté||« almost every Saturday night a semi-formal dance » (1938-39)|SEMAINE+VOISIN+HEURE_CADRE|2017.40.014
+S|mar,ven|20:30|22:00|theatre|Répétition de la pièce en cours|Robert Wunsch; Bedford Thurman||productions attestées : John Gabriel Borkman (automne 1939), Ah, Wilderness! (25 avril 1940), Macbeth (7 mai 1940)|SEMAINE+JOUR+HEURE|2017.40.253+2017.40.254
+S|mer|20:00|22:00|reunion|Réunion d'affaires mensuelle de la faculté avec les officiers étudiants : possible cette semaine|Faculty||usage décrit en 1938-39 ; officiers de 1939-40 inconnus|OCCASION+VOISIN+JOUR+HEURE|2017.40.014
+S|jeu|21:00|22:00|reunion|Réunion générale de toute la communauté : possible cette semaine|Communauté||une réunion générale est attestée le lundi 4 mars 1940 (démission de Rice)|OCCASION+JOUR+HEURE|2017.40.253
+S|dim|20:00|21:30|concert|Programme musical (gens du collège ou invités) : possible|Communauté||récitals attestés les 30 novembre et 12 décembre 1939 ; « informal concert following supper » (mai 1940)|OCCASION+JOUR+HEURE|2017.40.254+2017.40.285+2017.40.286
+S|ven|19:30|20:15|conference|Causerie d'un visiteur : possible|Communauté||visiteurs attestés au printemps 1940 (Odets, Kozlenko, Gropius…)|OCCASION+JOUR+HEURE|2017.40.253+2017.40.254

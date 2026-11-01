@@ -1,0 +1,219 @@
+{
+ "passe": "mois",
+ "cle": "1948-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5504,
+  "sortie": 11114,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1948-05",
+  "session": "Fin du printemps, à la veille de l'institut d'été de juin (déduit : les fiches ne nomment pas de session de printemps, mais parlent d'une période « juste avant l'institut »)",
+  "saison_et_climat": "Printemps tardif, lumière vive et paysage éclatant : début mai, ciel dégagé, nuages blancs au-dessus des pins, route d'argile rouge, lac immobile.",
+  "situation": "Le collège vit un entre-deux. Le printemps s'achève et la querelle entre Albers et l'ère Levi couve : Albers juge sévèrement l'expansion (cours donnés par des étudiants, essor des sciences sociales) et craint une prise de pouvoir. Un conflit domestique à Roadside (salon commun, chaudière) double cette tension de politique. L'été se prépare à distance par lettres et télégrammes : Cunningham écrit aux Albers, Lippold aussi, Cage prépare une venue. Elaine est à New York, où elle signe déjà ses critiques ; Bill ne revient qu'à la fin de juin. La décision des de Kooning d'entrer au collège, qui suit l'exposition de Bill chez Egan, se joue au printemps sans date fixée par les fiches.",
+  "presents_probables": [
+   {
+    "nom": "Greg Masurovsky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi (recteur de l'ère Levi)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Petit chien auburn (nom incertain : Red ou Jake)",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1948-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Elaine publie sa première critique signée « E.K. », sur les paysages tardifs d'Arnold Friedman, après l'affaire Gorky. Elle obtient que les critiques portent des initiales.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04483"
+    ]
+   },
+   {
+    "date": "1948-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Une lettre de la mère de Masurovsky annonce la mort soudaine, par crise cardiaque, de son frère aîné de vingt ans. Il marche ensuite du Studies Building au dortoir.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04484",
+     "SC-01164"
+    ]
+   },
+   {
+    "date": "1948-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Cunningham écrit aux Albers le 17 mai, Lippold à Albers le 24 mai, en préparation de la venue d'été. Cage enverra un télégramme de nuit le 17 juin (hors du mois).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04485"
+    ]
+   },
+   {
+    "date": "1948-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Anni envoie à Ted Dreier, pour son anniversaire, The Function of Reason de Whitehead (1929).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04486",
+     "SC-01165"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "saison",
+    "ce_qui_arrive": "Au printemps, Albers, revenu du Mexique, critique sévèrement l'expansion de l'ère Levi et craint que Levi et les nouveaux venus ne prennent le pouvoir. Source : synthèse 1948 (date exacte non donnée).",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "La vie ordinaire de mai tient au courrier : lettres vers les Albers et Dreier, un livre offert pour un anniversaire, le deuil d'un étudiant sur le chemin entre Studies Building et dortoir, un chien roux qui le suit. Les fiches ne disent rien des cours, des repas ou de la musique de ce mois.",
+  "tensions": [
+   "Albers contre l'expansion de l'ère Levi : cours par étudiants, sciences sociales, crainte d'une prise de pouvoir",
+   "Conflit domestique à Roadside (désordre dans le salon commun, dispute sur la chaudière) qui redouble la querelle de politique",
+   "Deuil de Masurovsky, pris entre la beauté du paysage et la question « À quoi bon ? »",
+   "Affaire Gorky : Elaine soupçonnée d'avoir écrit la critique anonyme, Bill révolté, d'où la règle des initiales",
+   "Incertitude de l'été : venue annoncée de Cage, Cunningham et Lippold sans programme fixé"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La lettre annonçant la mort du frère",
+    "date": "1948-05",
+    "lieu": "Chemin entre le Studies Building et le dortoir",
+    "personnages": [
+     "Greg Masurovsky",
+     "le petit chien auburn"
+    ],
+    "deroule": "Début mai, la lettre de la mère est tombée. Masurovsky marche sous un ciel glorieux, entre les nuages au-dessus des pins, la route d'argile rouge et le lac immobile. Le chien roux le suit. La pensée « À quoi bon quoi que ce soit ? » revient sans cesse.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01164",
+     "EV-04484"
+    ]
+   },
+   {
+    "titre": "La première critique signée E.K.",
+    "date": "1948-05",
+    "lieu": "New York",
+    "personnages": [
+     "Elaine de Kooning"
+    ],
+    "deroule": "Elaine rédige sa première critique, consacrée aux paysages tardifs d'Arnold Friedman, employé des postes mort deux ans plus tôt. Elle travaille sous une limite de 200 mots et touche deux dollars par critique, dans une rédaction qui sort de l'affaire Gorky.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04483"
+    ]
+   },
+   {
+    "titre": "Le cadeau de Whitehead",
+    "date": "1948-05",
+    "lieu": null,
+    "personnages": [
+     "Anni Albers",
+     "Ted Dreier"
+    ],
+    "deroule": "Anni envoie avec enthousiasme The Function of Reason à Dreier pour son anniversaire. Le cadeau partage une pensée de l'événement et du devenir entre deux fondateurs du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01165",
+     "EV-04486"
+    ]
+   },
+   {
+    "titre": "Les lettres de l'été",
+    "date": "1948-05",
+    "lieu": "Correspondance entre New York et le collège",
+    "personnages": [
+     "Merce Cunningham",
+     "Lippold",
+     "Cage",
+     "Josef Albers"
+    ],
+    "deroule": "Cunningham écrit le 17 mai, Lippold le 24 mai. Ils préparent une venue d'été qui prendra la forme d'un télégramme de nuit de Cage à Dreier et Albers le 17 juin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04485"
+    ]
+   },
+   {
+    "titre": "Albers juge l'expansion Levi",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Levi"
+    ],
+    "deroule": "Au printemps, revenu du Mexique, Albers examine l'expansion de l'ère Levi. Il dénonce les cours donnés par des étudiants, la montée des sciences sociales et la menace d'une prise de pouvoir.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Elaine, à New York, en mai, face à la critique anonyme qui la fait soupçonner",
+    "vers_date": "1948-02",
+    "vers": "La fête de fin février chez Julian Levy, dernière rencontre avec Gorky, dont la mort ravivera le souvenir.",
+    "refs": [
+     "EC-02353",
+     "EV-04483"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Masurovsky, après la lettre de mai, dans son deuil",
+    "vers_date": null,
+    "vers": "La question « Suis-je remis ? » reste sans réponse : il n'est pas sûr de s'en être remis.",
+    "refs": [
+     "SC-01164",
+     "EV-04484"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Bill et Elaine à New York, après l'exposition de Bill chez Egan qui ne vend rien",
+    "vers_date": null,
+    "vers": "Quelques mois plus tard, le MoMA achète Painting, consécration muséale issue de cette exposition sans vente.",
+    "refs": [
+     "EC-02355"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Elaine, au moment où elle est l'amie de Cage au collège",
+    "vers_date": "1958",
+    "vers": "Environ une décennie plus tard, Cage dédie Solo for Piano à Elaine ; le choix d'une transmutation visuelle de la notation fait écho à sa sensibilité de peintre (date approximative).",
+    "refs": [
+     "EC-02352"
+    ]
+   }
+  ],
+  "motifs": [
+   "La mort reçue par lettre, qui brise la vie ordinaire du collège",
+   "La beauté indifférente du paysage face au deuil",
+   "Une pensée partagée d'un événement, offerte comme cadeau entre fondateurs",
+   "L'anonymat des critiques et la signature par initiales",
+   "Une communauté que l'on fait tenir à distance par courrier et télégrammes"
+  ],
+  "lacunes": "Les fiches ne donnent pas le calendrier exact du printemps ni la date de la pose d'Albers au Mexique, ni celle de l'exposition Egan ou de la décision des de Kooning. Elles ignorent qui habite Roadside et qui a provoqué la dispute de la chaudière. Le nom du chien reste incertain (Red ou Jake). Rien sur les cours, les repas ou la musique de mai."
+ }
+}

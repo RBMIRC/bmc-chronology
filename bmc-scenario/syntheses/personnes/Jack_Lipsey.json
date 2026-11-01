@@ -1,0 +1,234 @@
+{
+ "passe": "personnes",
+ "cle": "Jack Lipsey",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 3791,
+  "sortie": 2855,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Jack Lipsey",
+  "autres_noms": [
+   "Jack",
+   "Jack Lipsey (mentionné parfois « Ruby » pour sa femme dans une source, variante de Rubye)"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Cuisinier en chef, Afro-Américain, avec sa femme Rubye ; employé dès la fondation (présent lors de la visite de Rice en août 1933) ; figure parmi les personnes les plus estimées du collège",
+  "presence": [
+   {
+    "debut": "1933-08",
+    "fin": null,
+    "precision": "mois",
+    "role": "Cuisinier en chef, déjà en poste au Blue Ridge Assembly lors de la visite de Rice ; dirige la cuisine avec Rubye et deux ou trois aides ; encadre le volet cuisine du work program (1936)",
+    "refs": [
+     "EV-02143",
+     "EV-02211",
+     "EV-01718",
+     "EV-02518"
+    ]
+   },
+   {
+    "debut": "1933",
+    "fin": "1948",
+    "precision": "periode",
+    "role": "Période attestée par témoignages directs (steak des charbonniers, rituel matinal, cœurs de bœuf) ; terme haut de fourchette incertain",
+    "refs": [
+     "SC-00398",
+     "EV-02638",
+     "EV-02637"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Autocrate bienveillant du domaine quotidien : son royaume est la cuisine, sa loi est l'exigence de propreté et de politesse, son langage est le geste. Il juge chacun — Rice dit qu'il en savait autant que quiconque sur la nature humaine — mais le dit rarement en mots : c'est la manière de tendre l'assiette qui parle. Ferme, ironique, insensible à la prétention.",
+  "blessures": "Non attesté ; on peut déduire seulement la pression constante de vivre noir dans le Sud ségrégué, qui nourrit sa prudence politique.",
+  "desirs": "Tenir sa cuisine à ses standards ; être traité avec la politesse et le respect dus à son office ; que le collège, dont la sécurité lui tient à cœur, survive sans provoquer inutilement le dehors.",
+  "peurs": "Qu'un défi frontal à la ségrégation (recevoir un visiteur noir à égalité sur le campus) attire des représailles et menace la sécurité du collège — position proche de Booker T. Washington.",
+  "maniere_d_aimer": "Par la nourriture et la générosité charnelle : steaks généreux et parfaits en bonus pour les charbonniers noirs de suie ; vie et travail en couple avec Rubye, dans une complicité professionnelle de tous les jours.",
+  "rapport_au_pouvoir": "Exerce un pouvoir absolu dans sa sphère, qu'il ne partage pas : on vient le voir chaque matin, on ne lui impose rien. Mais face au pouvoir racial du dehors, il choisit la prudence et la survie plutôt que l'affrontement — au prix d'un déchirement visible lors de la réunion de 1933-34.",
+  "voix": {
+   "registre": "Sobre, économe, ironique ; parle peu, agit beaucoup ; juge par gestes et par silences",
+   "tics": "Frapper la louche sur le bord du poêle en écho moqueur ; tendre les plateaux de façon révélatrice ; exiger la visite matinale de chacun",
+   "exemples_paraphrases": "Pas de paroles rapportées directement ; il dit les choses en tendant une assiette avec plus ou moins de grâce, ou en rythmant le départ talonnant d'une impolie de coups de louche",
+   "refs": []
+  },
+  "habitudes": [
+   "Exige que chacun vienne chaque matin à la cuisine demander son petit-déjeuner",
+   "Cuisine du Sud : légumes cuits dans la graisse, steaks préparés « de façon vraiment spéciale »",
+   "Fournit les cœurs de bœuf au labo de biologie (qui finissent au menu du soir)",
+   "Guide expertement les aides et les étudiants affectés à la cuisine"
+  ],
+  "convictions": [
+   "Standards fermes : ni service pour les gens sales, ni pour les impolis",
+   "Ligne Booker T. Washington plutôt que Du Bois : la prudence d'abord, la sécurité du collège avant le défi direct à la ségrégation",
+   "Le jugement des gens sur leurs gestes et leur conduite, pas sur leurs discours"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933-08",
+    "precision": "mois",
+    "moment": "Rice visite le Blue Ridge Assembly et le juge site idéal notamment grâce à « un chef parfait, Jack, Noir, avec son assistante et femme Ruby »",
+    "etat_interieur": "Départ : Jack est déjà là avant le collège ; il est une des raisons du choix du lieu",
+    "refs": [
+     "EV-02143"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "moment": "Ouverture : le couple Lipsey tient la cuisine pour 12 enseignants et 22 étudiants ; « force considérable » du collège",
+    "etat_interieur": "En place, respecté, roi de sa cuisine",
+    "refs": [
+     "EV-02211",
+     "EV-01718"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Rice fait savoir que la manière dont Jack tend le plateau révèle son opinion de chacun ; plusieurs membres passent au self-service au petit-déjeuner",
+    "etat_interieur": "Son jugement devient un outil social — un pouvoir que tous reconnaissent",
+    "refs": [
+     "EV-01719",
+     "RE-00683"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "periode",
+    "moment": "Réunion houleuse sur l'accueil d'un visiteur noir : les Lipsey invoquent Booker T. Washington ; la prudence l'emporte, le visiteur loge en ville chez McGraw Sr.",
+    "etat_interieur": "Déchiré entre dignité et peur pour le collège — il vote la survie contre l'égalité, à contrecœur",
+    "refs": [
+     "SC-00421",
+     "EV-01758"
+    ]
+   },
+   {
+    "date": "1936",
+    "precision": "annee",
+    "moment": "Le work program est formalisé : la cuisine est « guidée par les cuisiniers Jack et Rubye Lipsey »",
+    "etat_interieur": "Intégré à la structure officielle du collège comme formateur, pas seulement comme domestique",
+    "refs": [
+     "EV-02518"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Scène de la gauchiste et de la louche (≈1937-42) ; rituel matinal ; steak des charbonniers ; cœurs de bœuf pour la biologie",
+    "etat_interieur": "Apogée de son règne domestique : comédie, complicité, ironie",
+    "refs": [
+     "EV-02638",
+     "SC-00676",
+     "SC-00398",
+     "EV-02637"
+    ]
+   },
+   {
+    "date": "1951-07",
+    "precision": "mois",
+    "moment": "Son neveu Alvin accompagne Olson à une vente aux enchères en ville, d'où naît le poème « Glyph »",
+    "etat_interieur": "Sa famille reste liée à l'orbite du collège, même si sa présence après 1948 n'est pas attestée",
+    "refs": [
+     "EV-05532",
+     "QU-01562"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Rien d'attesté avant août 1933 ; il est déjà en poste au Blue Ridge Assembly quand Rice visite le site",
+    "refs": [
+     "EV-02143"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1951-07",
+    "precision": "mois",
+    "moment": "Indirect : son neveu Alvin, identifié comme « neveu du cuisinier du collège Jack Lipsey », est encore dans la région et proche d'Olson",
+    "refs": [
+     "EV-05532",
+     "QU-01562"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Rubye Lipsey",
+    "nature": "Mari et femme ; équipe de cuisine (couple marié ≈1933, ensemble jusqu'au moins 1964 selon la fiche relation)",
+    "evolution": "Travail conjoint quotidien ; Rubye, diplômée universitaire, fait beaucoup de counseling auprès des étudiantes — le couple couvre à la fois corps et cœurs",
+    "refs": [
+     "RE-00766",
+     "EV-01718"
+    ]
+   },
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Admiration réciproque : Rice « vénère » ses cuisiniers et cite Jack comme fin connaisseur de la nature humaine (années 1930, ≈1937-42)",
+    "evolution": "Rice fait du jugement de Jack un savoir reconnu publiquement ; relation de respect entre fondateur et cuisinier",
+    "refs": [
+     "RE-00683",
+     "RE-01056",
+     "EV-02012"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": null,
+    "evolution": null,
+    "refs": []
+   },
+   {
+    "avec": "les étudiants (Nakata, Jane King, la « gauchiste »)",
+    "nature": "Pour les travailleurs, générosité (steak en bonus) ; pour les prétentieux, raillerie (louche sur le poêle)",
+    "evolution": "Juge infaillible et théâtral de la communauté étudiante",
+    "refs": [
+     "SC-00398",
+     "SC-00676"
+    ]
+   },
+   {
+    "avec": "Alvin (neveu)",
+    "nature": "Famille élargie dans la région",
+    "evolution": "Le neveu circule dans l'orbite du collège encore en 1951 (poème d'Olson)",
+    "refs": [
+     "EV-05532"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Le nom de sa femme apparaît comme « Rubye » (Duberman, Horowitz) et « Ruby » (Chaddock) — sans doute simple variante orthographique.",
+   "Les fiches donnent des bornes de présence divergentes : « dès 1933 / années 1940 » (agrégée), témoignages directs ≈1933-1948 (Lane), relation avec Rubye jusqu'à ≈1964 — la date de départ réelle de Jack n'est pas établie.",
+   "Une fiche relation situe l'admiration de Rice dès « 1930 », avant la fondation (1933) : date incohérente, probablement arrondie pour « années 1930 »."
+  ],
+  "situations_revelatrices": [
+   "La file du matin : chacun vient demander son petit-déjeuner — scène de pouvoir quotidien où l'on lit les hiérarchies inversées du collège",
+   "La façon de tendre une assiette à un membre du corps enseignant : micro-scène muette, très cinématographique",
+   "La réunion sur le visiteur noir : Jack, habituellement juge souverain, doit plaider la prudence devant les idéalistes blancs",
+   "Le départ talonnant de la gauchiste échoqué par les louches : comédie de batterie de cuisine",
+   "Le steak des charbonniers derrière la cuisine : récompense, complicité, reconnaissance du travail sale"
+  ],
+  "citations": [
+   "PE-00140",
+   "SC-00421",
+   "SC-00676",
+   "EV-01719",
+   "EV-02143",
+   "EV-02638",
+   "EV-01758"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, vie avant le collège (comment il est arrivé au Blue Ridge Assembly).",
+   "Date réelle de son départ de BMC : les fiches s'arrêtent entre 1942 (témoignages de Lane) et 1964 (fiche relation) ; rien sur la période 1943-1951.",
+   "A-t-il suivi le collège lors du déménagement du campus (Lake Eden, 1941) ? Les scènes postérieures se situent à Lee Hall.",
+   "Sa voix directe : aucune parole rapportée en discours direct — reste à chercher des entretiens ou correspondances.",
+   "Ce qu'il est devenu après le collège ; le sort de Rubye et d'Alvin."
+  ]
+ }
+}

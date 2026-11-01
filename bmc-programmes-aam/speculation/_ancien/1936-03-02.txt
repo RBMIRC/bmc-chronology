@@ -1,0 +1,76 @@
+#semaine 1936-03-02
+#catalogue speculation/catalogue_1935-36.txt 2017.40.011+2017.40.012+2017.40.009
+> ## Ce qu'on sait, ce qu'on ne sait pas
+>
+> **Aucun document du corpus ne donne le programme de cette semaine.** Il n'y a ni bulletin hebdomadaire (ils commencent en 1940-41), ni grille horaire, ni programme de concert ou de pièce daté de février-mars 1936. Tout ce qui suit est une reconstitution, et chaque entrée dit sur quoi elle repose.
+>
+> **1. Le cadre est attesté (0 %).** Le catalogue 1934-35 (inv. 2017.40.009, fiche 6577) imprime déjà le calendrier 1935-36 : semestre de printemps du 27 janvier au 6 juin 1936, vacances de printemps du 28 mars au 6 avril. Le catalogue 1935-36 (2017.40.011) donne les mêmes dates. Le lundi 2 mars ouvre donc la 6e semaine de cours du printemps, trois semaines avant les vacances. Aucun congé n'est signalé.
+>
+> **2. Quel document suivre pour les personnes.** La fiche 6577 décrit l'année 1934-35 : son corps enseignant (scan 009-04) n'a ni Knickerbocker, ni les Moellenhoff, ni Portell-Vilá, ni Sly, ni Zeuch. Pour mars 1936, il faut suivre le catalogue 1935-36 (2017.40.011), relu sur ses scans : le texte transcrit par le musée y omet des lignes et en déforme d'autres. Ce catalogue est postérieur à l'encart de l'automne 1935 (2017.40.010) :
+> - Zeuch (économie) y figure ;
+> - Mangold est entré au Board of Fellows ;
+> - les officiers étudiants ont changé (Beaman, Dwight, J. R. P. French, Seasongood) ;
+> - surtout, il offre des bourses « for the year 1936-1937 » (scan 011-09) : il a été imprimé pendant l'année 1935-36 pour recruter l'année suivante.
+>
+> C'est donc lui qui fixe qui est présent en mars 1936. Son corps enseignant (scans 011-10 et 011-11) compte 17 enseignants, dont Frederick R. Mangold pour les « Romance Languages ». Le texte transcrit l'omet, et une première version de cette reconstitution l'avait cru absent. Helen Boyden est en congé toute l'année.
+>
+> **3. Le rythme de la journée.** Il se reconstitue en trois couches, de la plus proche à la plus lointaine :
+> - *Même année* (catalogues 1934-35 et 1935-36) : repas pris en commun et servis par les membres du collège ; « presque tout le monde » dehors environ deux heures en début d'après-midi (sport, coupe du bois, ferme, routes). Le chant, le théâtre et la discussion de l'actualité ont « une place régulière dans l'emploi du temps ». Les officiers étudiants se réunissent chaque semaine avec le Board of Fellows.
+> - *Six mois plus tard* (catalogue 1936-38, 2017.40.012) : dehors « entre le déjeuner et quatre heures, quand les cours reprennent ». Il y avait donc des cours le matin et à partir de 16 h. Les fiches de cours donnent le volume horaire de chaque cours. On y trouve aussi : chant général une fois par semaine (Sly), chœur une fois par semaine, orchestre 3 h ; danse une demi-heure après le dîner deux ou trois fois par semaine ; bal semi-habillé « presque chaque samedi soir » ; réunion d'affaires *mensuelle* de la faculté.
+> - *Huit ans plus tard, autre campus* (bulletins de Lake Eden, 1943-44) : heures des repas (7 h 30, 12 h 30, 18 h 15 ; le dimanche 8 h 30, 13 h, souper froid). C'est la seule source pour ces heures : d'où une part déduite plus forte.
+>
+> **4. Quels cours remplissent les cases.** Les 90 « Courses of Instruction » du catalogue 1935-36 (scans 011-08 et 011-09) sont tous rattachés dans `speculation/catalogue_1935-36.txt` ; un contrôle du script vérifie qu'aucun n'est oublié. Pour chaque cours, la concordance donne :
+> - son titre exact ;
+> - son équivalent en 1934-35 (fiche 6577, scans 009-08 et 009-09) ;
+> - son équivalent en 1936-38 (titre, nombre de semestres, heures, enseignant) ;
+> - son enseignant et la façon dont il est rattaché.
+>
+> Le catalogue liste les cours par matière et les enseignants par matière, sans jamais relier un cours à une personne. Le rattachement est donc toujours une déduction, plus ou moins sûre :
+> - seul enseignant de la matière (+5) ;
+> - nommé pour l'équivalent en 1936-38 (+5) ;
+> - par élimination entre collègues (+10) ;
+> - par simple compétence (+20).
+>
+> Tous ces cours n'étaient pas donnés en même temps. « A list of courses regularly offered » n'est pas l'emploi du temps d'un semestre. Trois règles du catalogue 1936-38 le montrent :
+> - en langues, « an Introductory Course and an Advanced Course are offered in alternate years » (p. 25, vérifié sur le scan 012-14) : une seule des deux cases existe en 1935-36 ;
+> - les cours d'époque de Martin durent un semestre et ne sont donnés qu'une année sur deux (p. 23, scan 012-13) ;
+> - les cours de Zeuch, Goldenson et de psychologie durent un semestre.
+>
+> Le même catalogue dit aussi quels cours de langue ont été « offered last year and this year ». Pour le grec et le latin, ce sont seulement *introductory greek* et *latin lyric poetry* : Virgil, Roman Comedy, le « Plato » de grec, la littérature espagnole, Cervantes et l'italien ne sont donc vraisemblablement pas donnés en 1935-36. Ils restent dans la concordance, marqués « non programmés », avec la raison.
+>
+> Chaque case a donc **deux** parts déduites :
+> - celle de la *case* : qu'un enseignant donne un cours à ce moment ;
+> - celle du *titre* : que ce soit bien ce cours-là, ce semestre-là.
+>
+> Quand plusieurs cours sont possibles, la case affiche un titre retenu et la liste des autres. Le nombre de cases par enseignant vient du nombre de cours attendus au printemps : par exemple 7 cours d'époque × 1/4 ≈ 2 cases pour Martin. Les charges qui en résultent vont de 5 à 16 h par semaine, comparables à celles de 1936-37.
+>
+> Le jour et l'heure de chaque séance restent ceux d'*une* semaine possible. Le script les choisit sur le modèle de la seule grille complète du corpus (automne 1944, 2017.40.176a-h, relue sur le scan) :
+> - deux séances de 90 minutes par semaine, sur des jours non consécutifs ;
+> - début à 8 h 30, 10 h 30 ou 16 h (reprise des cours à 16 h d'après le catalogue 1936-38) ;
+> - samedi matin ;
+> - laboratoires l'après-midi ;
+> - jamais deux cours à la fois pour un même enseignant.
+>
+> Le script ne reconstruit pas les emplois du temps des étudiants : deux cours pour débutants peuvent tomber à la même heure.
+>
+> **5. Ce qui manque et qu'on ne peut pas inventer.** Les concerts, conférences de visiteurs, expositions et la pièce en répétition ne sont pas datés. Le catalogue 1936-38 parle d'un « flot assez constant de visiteurs » et de programmes musicaux « très fréquents », mais rien ne permet de placer un nom à cette semaine. Ces cases restent vides, sauf les répétitions de théâtre, présentées comme génériques. Les lieux ne sont pas nommés : les catalogues disent seulement que tout le monde vit « dans le même bâtiment ».
+
+S|semaine|||calendrier|Semaine ordinaire de cours : 6e semaine du semestre de printemps (rentrée le 27 janvier, vacances de printemps le 28 mars)|||calendrier imprimé dans les deux catalogues ; aucun congé attesté cette semaine-là|SEMAINE|2017.40.009+2017.40.011
+
+S|lun-sam|07:30|08:00|social|Petit déjeuner en commun (service assuré à tour de rôle par les membres du collège)|Communauté||repas pris ensemble : catalogues 1934-35 et 1935-36 ; heure : bulletins de Lake Eden 1943-44|SEMAINE+LOIN|2017.40.011+2017.40.009+2017.40.172a-g
+S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||heure de début : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.011+2017.40.009+2017.40.172a-g
+S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.011+2017.40.009+2017.40.172a-g
+S|dim|08:30|09:00|social|Petit déjeuner du dimanche (plus tard qu'en semaine)|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.011+2017.40.172a-g
+S|dim|13:00|14:00|social|Dîner du dimanche à 13 h|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.011+2017.40.172a-g
+S|dim|18:00|18:45|social|Souper froid du dimanche|Communauté||« cold supper » le dimanche en 1944, heure non donnée|SEMAINE+LOIN+HEURE|2017.40.011+2017.40.172a-g
+
+S|lun-sam|13:30|16:00|travail|Plein air : tennis, gymnase, terrain de sport, coupe du bois pour les cheminées, ferme, réparation des routes|Communauté||« about two hours in the early afternoon » (1935-36) ; « between lunch and four o'clock, when classes are resumed » (1936-38)|SEMAINE+VOISIN|2017.40.011+2017.40.009+2017.40.012
+
+S|lun|20:00|21:00|reunion|Réunion hebdomadaire du Board of Fellows avec les officiers étudiants|John A. Rice; Josef Albers; Ted Dreier; Frederick R. Georgia; Frederick R. Mangold; Joseph W. Martin; Mary Stacy Beaman; Duncan Dwight; John R. P. French Jr; Janet Seasongood||« the other student officers meet weekly with the Board of Fellows » ; membres du Board et officiers d'après le catalogue 1935-36|SEMAINE+JOUR+HEURE|2017.40.011+2017.40.009
+S|mer|20:00|22:00|reunion|Réunion d'affaires mensuelle de la faculté, avec les officiers étudiants : possible cette semaine (environ une chance sur quatre)|Faculty; Mary Stacy Beaman; Duncan Dwight; John R. P. French Jr; Janet Seasongood||« the student officers attend the monthly business meetings of the Faculty » (1936-38)|VOISIN+OCCASION+JOUR+HEURE|2017.40.012
+
+S|lun,mer,ven|19:00|19:30|danse|Demi-heure de danse après le dîner|Communauté||« two or three times a week there is a half hour of dancing after dinner » (1936-38)|SEMAINE+VOISIN+JOUR+HEURE_CADRE|2017.40.012
+S|sam|20:30|23:00|social|Bal semi-habillé du samedi soir|Communauté||« almost every Saturday night a semi-formal dance » (1936-38) ; heures choisies|SEMAINE+VOISIN+HEURE_CADRE|2017.40.012
+S|mar,ven|20:30|22:00|theatre|Répétition de la pièce en cours (pièce non identifiée)|Robert Wunsch||théâtre « a regular place in the schedule » (1935-36) ; « plays are worked on and produced throughout the year » (1936-38)|SEMAINE+JOUR+HEURE|2017.40.011+2017.40.012
+S|dim|20:00|21:00|conference|Art class pour toute la communauté (thèmes de forme, critique des expositions et des tissages) : réunion occasionnelle, possible|Josef Albers||« occasional meetings for the whole community » (1936-38, Albers et Schawinsky ; Schawinsky n'arrive qu'à l'automne 1936)|VOISIN+OCCASION+JOUR+HEURE|2017.40.012
+

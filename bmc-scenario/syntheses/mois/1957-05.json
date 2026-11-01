@@ -1,0 +1,310 @@
+{
+ "passe": "mois",
+ "cle": "1957-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2346,
+  "sortie": 10997,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1957-05",
+  "session": "aucune session ouverte attestée : le trimestre d'hiver n'a pas ouvert (EV-06834) et rien n'indique de session de printemps ou d'été",
+  "saison_et_climat": "printemps, déduit du mois ; les fiches ne décrivent ni le temps ni le climat de la région",
+  "situation": "Le collège est en extinction. Les sources datent diversement la décision, de l'automne 1956 selon Chaddock au printemps 1957 selon les lettres d'annonce. Il n'y a plus de cours réguliers, les terres ont été vendues par parcelles et la bibliothèque de Rice est en cours de dispersion. Olson est le dernier responsable et liquide ce qui reste. La fermeture a été annoncée à la communauté (photo EV-06949, non datée précisément). La nouvelle circule déjà hors du campus, chez les anciens étudiants.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "l'épouse d'Olson (non nommée dans les fiches)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "quelques étudiants épuisés à la ferme (non nommés)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "les derniers occupants de la colline des cabanes (non nommés)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice (la bibliothèque de Rice a été en partie emportée par elle, date non précisée)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Chaddock place la décision de fermeture : peu de monde revenu, terres vendues par parcelles, pas de trimestre d'hiver, pas d'annonce publique.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06834"
+    ]
+   },
+   {
+    "date": "1957-01-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit à Rumaker, à San Francisco, et lui envoie « The Librarian » le jour même.",
+    "certitude": "atteste",
+    "refs": [
+     "CI-03462",
+     "OE-03158"
+    ]
+   },
+   {
+    "date": "1957-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Un juge ordonne l'arrêt des programmes éducatifs jusqu'au paiement des dettes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06964",
+     "EV-06966",
+     "CF-00806"
+    ]
+   },
+   {
+    "date": "1957-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson donne ses conférences Special View of History à San Francisco.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1957-04-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit à John Rice, qui réclame environ 2000 volumes, et lui annonce la fermeture : « les loups ont eu tes moutons ».",
+    "certitude": "atteste",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "date": "1957-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Daniel Dixon, ancien étudiant, écrit dans Pageant qu'il croyait le collège invincible.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01858",
+     "CI-03463"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Photo de la communauté réunie pour l'annonce de la fermeture.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06949"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Olson vend ce qui reste de l'immobilier, règle la question de la bibliothèque de Rice et prévoit l'entretien des tombes de Jalowetz et de Max Dehn.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06766",
+     "EV-06933"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Olson tente sans succès de vendre le pot shop et son terrain à un potier local.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06935"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Olson écrit à Mary Caroline Richards « Now, ARISE » : Black Mountain s'est dispersée mais n'a pas échoué.",
+    "certitude": "atteste",
+    "refs": [
+     "CI-03430"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Les Olson partent pour la maison familiale de Gloucester.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06766"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "La réédition de l'autobiographie de Rice supprime les chapitres sur Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06662"
+    ]
+   },
+   {
+    "date": "1957-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson annonce à Rice que le reste de la bibliothèque est vendu au North Carolina Wesleyan College de Rocky Mount ; Rice est furieux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06844",
+     "EV-06910",
+     "CF-00800"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "saison",
+    "ce_qui_arrive": "Paraît le septième et dernier numéro de la Black Mountain Review (Ginsberg, Kerouac, Snyder, Whalen, McClure, extrait de Naked Lunch, recension de Howl par Rumaker). Creeley y voit « un aussi bon endroit que n'importe quel autre pour finir ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   },
+   {
+    "date": "1957-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Anni Albers rédige sa déclaration pour Asilomar.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06968"
+    ]
+   }
+  ],
+  "quotidien": "La ferme n'est plus travaillée que par quelques étudiants épuisés (EV-06390). La colline des cabanes abrite les derniers occupants, sans chauffage ni réfectoire (LI-01405). Olson règle les affaires courantes : ventes, bibliothèque, tombes. Il n'y a ni cours ni repas collectif attesté. Depuis 1955, les témoins décrivent une communauté sans gouvernement ni rituel, qui ne se réunit que lorsqu'une menace pèse sur tous.",
+  "tensions": [
+   "Olson contre Rice : la lettre du 1er avril et la vente de la bibliothèque, que Rice vit comme une trahison",
+   "Une partie des livres emportée par Nell Rice, le reste vendu hors du collège",
+   "Les dettes, qui ont conduit un juge à arrêter les programmes éducatifs",
+   "Le moment de la décision : Chaddock dit l'automne 1956, les lettres de 1957 disent le printemps ; les sources se contredisent",
+   "Olson parle de dispersion sans échec, Dixon disait le collège invincible et Rice le tient pour une perte",
+   "Une communauté sans autorité : les décisions reposent sur Olson seul",
+   "Moins d'une demi-douzaine d'étudiants payants face aux dettes (EV-06911)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le tri de la bibliothèque",
+    "date": null,
+    "lieu": "bibliothèque du campus",
+    "personnages": [
+     "Olson",
+     "l'épouse d'Olson"
+    ],
+    "deroule": "Olson trie les livres de Rice et ce qui reste, en vue de partager ou vendre la bibliothèque. Le souvenir de la lettre du 1er avril pèse sur chaque caisse.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "EV-06844"
+    ]
+   },
+   {
+    "titre": "La photo de l'annonce",
+    "date": null,
+    "lieu": "campus",
+    "personnages": [
+     "Olson",
+     "anciens et étudiants restants"
+    ],
+    "deroule": "La communauté se réunit pour entendre que le collège ferme. Une photographie en garde la trace, sans date précise.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06949"
+    ]
+   },
+   {
+    "titre": "Le pot shop qui ne se vend pas",
+    "date": null,
+    "lieu": "pot shop et son terrain",
+    "personnages": [
+     "Olson",
+     "un potier local (non nommé)"
+    ],
+    "deroule": "Olson fait visiter le pot shop à un potier de la région. L'offre n'aboutit pas.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06935"
+    ]
+   },
+   {
+    "titre": "Les derniers à la colline",
+    "date": null,
+    "lieu": "colline des cabanes",
+    "personnages": [
+     "derniers occupants (non nommés)"
+    ],
+    "deroule": "Les occupants vivent sans chauffage ni réfectoire et doivent décider de partir ou de rester.",
+    "certitude": "deduit",
+    "refs": [
+     "LI-01405"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Olson, au moment de liquider la bibliothèque de Rice",
+    "vers_date": "1956-03",
+    "vers": "Le début de l'affaire de la bibliothèque de Rice, qui occupe les mois suivants jusqu'à la vente.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Olson, au moment de dire que tout est fini",
+    "vers_date": "1956",
+    "vers": "La décision de fermer, selon Chaddock : peu de monde revenu, terres vendues, pas de trimestre d'hiver.",
+    "refs": [
+     "EV-06834"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Olson, en train de vendre les livres de Rice",
+    "vers_date": "1957-09",
+    "vers": "La vente au North Carolina Wesleyan College de Rocky Mount, annoncée à Rice, qui se met en colère.",
+    "refs": [
+     "EV-06910",
+     "CF-00800"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le campus désert, pendant que les anciens dispersent la légende",
+    "vers_date": "1957",
+    "vers": "Le septième et dernier numéro de la Review paraît à l'automne, avec Ginsberg, Kerouac et Snyder.",
+    "refs": [
+     "EV-06906",
+     "CI-03449"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le milieu new-yorkais, qui se souvient de Black Mountain",
+    "vers_date": "1958",
+    "vers": "Albers reste chairman de Yale jusqu'en 1958 et y propage la méthode Bauhaus-Black Mountain.",
+    "refs": [
+     "EV-06927",
+     "EV-06928",
+     "EV-06786"
+    ]
+   }
+  ],
+  "motifs": [
+   "dispersion sans échec",
+   "le dernier qui liquide",
+   "la bibliothèque comme butin",
+   "la légende qui commence",
+   "fidélité et trahison entre Olson et Rice"
+  ],
+  "lacunes": "Date exacte de la photo de l'annonce ; date de la lettre à Richards et du départ vers Gloucester ; effectif exact du campus en mai ; présence de Rice ou de Nell Rice ce mois-là ; cours, musique et repas collectifs non documentés en 1957 ; climat et temps de la région non décrits ; nombre exact de volumes restants."
+ }
+}

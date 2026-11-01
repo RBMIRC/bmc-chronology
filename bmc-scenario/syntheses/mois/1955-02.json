@@ -1,0 +1,340 @@
+{
+ "passe": "mois",
+ "cle": "1955-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 11084,
+  "sortie": 17625,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1955-02",
+  "session": "Suspension des cours décidée juste avant Noël 1954 pour trois mois, donc jusqu'en mars environ ; préparation du trimestre de printemps, que la lettre d'Olson du 10 février annonce pour le printemps et l'été",
+  "saison_et_climat": "Plein hiver : froid mordant à New York, camionnées de bois brûlées en une soirée dans les fours de Black Mountain, presque plus de charbon. Fin février, fleurs sauvages et jonquilles précoces au bord du Lake Eden, printemps en avance.",
+  "situation": "Le collège, réduit à huit ou dix personnes après la suspension des cours, vit d'autarcie : réfectoire fermé, cuisine commune par groupes de trois à cinq, moitié basse du campus pas encore vendue, ferme à l'arrêt. Olson écrit que « le tournant est venu » et que l'école fonctionnera au printemps ; le noyau se nomme « les solides ». Mais il n'y a plus de bourses, les professeurs ne sont plus payés, et l'admission exige un tiers de 850 $ par trimestre. Rumaker, à New York, hésite à revenir, et la réputation de ville fantôme court à l'extérieur.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tom Field",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jerry Van de Wiele",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ed Dorn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Connie Olson",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1955-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Terme prévu de la suspension de trois mois des cours ; la reprise est annoncée pour le trimestre de printemps",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06492",
+     "EV-06688"
+    ]
+   },
+   {
+    "date": "1955-02-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Rumaker envoie à Olson la réécriture de sa nouvelle d'ennui, rebaptisée The Jest, sur une machine empruntée de mauvaise qualité",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06687"
+    ]
+   },
+   {
+    "date": "1955-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker demande à Huss le détail du prêt Bovingdon et avoue n'avoir rien épargné ; il a raté A Doll's House faute d'argent",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06685"
+    ]
+   },
+   {
+    "date": "1955-02-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson annonce que le collège fonctionnera pour les trimestres de printemps et d'été ; le noyau des « solides » est désigné ; plus de bourses ; admission rigide avec un tiers de 850 $ par trimestre",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06688"
+    ]
+   },
+   {
+    "date": "1955-02-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Rumaker écrit qu'il ne sait pas s'il reviendra ; Olson répond sur papier de la Black Mountain Review, bouleversé : « What is this? »",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06689",
+     "SC-01809"
+    ]
+   },
+   {
+    "date": "1955-02-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson rassure : après deux ans, payer l'intérêt de 6 %, soit 36 $ par an, suffit à reconnaître la dette ; il s'excuse de ne pas lire les manuscrits, absorbé par la brocante des biens du collège",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06690"
+    ]
+   },
+   {
+    "date": "1955-02-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Creeley, depuis Majorque, juge « Exit 3 » la meilleure et annonce que la revue deviendra probablement biannuelle, plus petite, de 150 à 175 pages",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06691"
+    ]
+   },
+   {
+    "date": "1955-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Fin février, Rumaker revient en auto-stop pour le trimestre de printemps ; Olson lui dit avoir beaucoup rêvé de lui",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06686"
+    ]
+   },
+   {
+    "date": "1955-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Première lecture de The Pipe au loft de Merrill, à New York, entre janvier et février",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06677"
+    ]
+   },
+   {
+    "date": "1955-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Au bureau, Rumaker fait lire The Pipe à Marisa Traina, qui la rend avec une réserve, puis à une secrétaire catholique qui se dit très impressionnée",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06678"
+    ]
+   }
+  ],
+  "quotidien": "Olson brocante camions, vaches, plomberie, tables, chaises et réfrigérateurs pour garder l'école à flot, et ne lit plus les manuscrits. La cuisine commune se fait par petits groupes pour environ deux dollars par semaine. Les vivres volés à l'A&P sont un secret connu. À New York, Rumaker travaille chez IBM, où le pointage se fait à l'encre rouge, et déjeune en cachette de cocktails Dubonnet chez Ferdi's. Il est épuisé par son travail, n'écrit presque plus, et ses économies partent dans la nourriture. Il prévoit d'aller voir The Master Builder et, en mars, Le Bal des voleurs au Cherry Lane.",
+  "tensions": [
+   "Le silence d'Olson sur « The Pipe » fait douter Rumaker, qui menace de ne pas revenir",
+   "Le prêt Bovingdon et la scolarité à payer : Rumaker n'a rien pu épargner, alors que 100 $ ne durent que quatre mois à Black Mountain",
+   "Les professeurs n'ont pas été payés depuis un an, et certains ont épuisé leurs économies",
+   "L'appel de décembre n'a rapporté qu'environ 250 $, et le collège passe pour fermé",
+   "La scène de l'avion et l'épisode de farce pour les vétérans, datés de l'hiver et contestés",
+   "Olson oscille entre rhétorique de redressement et réalité de la misère"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La table au courrier du 230 West 11th",
+    "date": "1955-02",
+    "lieu": "hall du 230 West 11th, New York",
+    "personnages": [
+     "Michael Rumaker",
+     "la femme du concierge"
+    ],
+    "deroule": "Chaque soir après IBM, Rumaker vérifie le courrier sur la grande table du hall. Le samedi, la concierge éméchée, en peignoir taché, hèle les noms au pied de l'escalier. Semaine après semaine, aucune lettre d'Olson ; l'exaltation de The Pipe se change en doute.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01808"
+    ]
+   },
+   {
+    "titre": "Jonquilles au bord du Lake Eden",
+    "date": "1955-02",
+    "lieu": "Black Mountain, Lake Eden",
+    "personnages": [
+     "Michael Rumaker",
+     "Charles Olson"
+    ],
+    "deroule": "Rumaker arrive en auto-stop, avec ses manuscrits dans une valise. Fleurs sauvages, première herbe, jonquilles précoces ; le site paraît plus délabré qu'à l'automne. Olson, d'un sourire timide, dit avoir beaucoup rêvé de lui, sans rien ajouter.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06686"
+    ]
+   },
+   {
+    "titre": "« What is this? » sur papier à en-tête de la revue",
+    "date": "1955-02-25",
+    "lieu": "Black Mountain",
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker, par lettre"
+    ],
+    "deroule": "Olson lit la phrase « je ne sais pas si je reviendrai » et répond, ému, sur le papier de la Black Mountain Review. Il minimise le prêt, insiste sur le « centre dur » et propose de tenir. Le retour de Rumaker dépend de cette lettre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01809",
+     "EV-06689",
+     "EV-06690"
+    ]
+   },
+   {
+    "titre": "Première lecture de The Pipe au loft de Merrill",
+    "date": "1955-01",
+    "lieu": "loft d'ancienne usine de James Merrill, Lower East Side",
+    "personnages": [
+     "Michael Rumaker",
+     "James Merrill"
+    ],
+    "deroule": "Après le travail, par un froid mordant, Rumaker lit son manuscrit à voix haute, sa respiration visible dans l'air. Sous la lampe japonaise à abat-jour de papier de riz, Merrill écoute, tranquillement amusé, comme aux soirées de lecture de Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06677",
+     "EC-03109"
+    ]
+   },
+   {
+    "titre": "Le déjeuner chez Ferdi's",
+    "date": "1955-02",
+    "lieu": "Ferdi's, près des bureaux IBM, New York",
+    "personnages": [
+     "Michael Rumaker",
+     "Marisa Traina",
+     "une secrétaire catholique"
+    ],
+    "deroule": "Cocktails Dubonnet malgré l'interdit, pointeuses marquées à l'encre rouge, patron qui voit tout sans rien dire. Marisa rend la nouvelle avec une réserve ; la jeune secrétaire, joue rougie, se dit très impressionnée. Rumaker y voit le test d'une lecture possible pour sa famille.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06678",
+     "EC-03112"
+    ]
+   },
+   {
+    "titre": "L'avion qui ne vient pas",
+    "date": null,
+    "lieu": "champs autour du campus de Black Mountain",
+    "personnages": [
+     "membres du collège",
+     "le fils déficient d'un riche Sudiste",
+     "son père"
+    ],
+    "deroule": "Le collège a accepté l'élève contre ses principes. Le père doit signaler son legs en inclinant les ailes de son avion. Les membres errent plusieurs jours dans les champs, le nez en l'air. L'avion ne vient jamais. La date reste contestée : charnière 1954-1955 chez Duberman, 1955 chez Lane.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "la lecture chez Merrill, où Merrill aimait qu'on lui lise, comme aux soirées de Black Mountain",
+    "vers_date": null,
+    "vers": "les soirées de lecture à deux de Merrill et Rumaker à Black Mountain",
+    "refs": [
+     "EC-03109"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "le retour de Rumaker en fin de mois, et l'enthousiasme d'Olson en classe",
+    "vers_date": "1954",
+    "vers": "le premier « breakthrough » de l'automne 1954 avec « The Truck », même battement nerveux",
+    "refs": [
+     "EC-03110"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le rêve qu'Olson évoque à Rumaker sans jamais le raconter",
+    "vers_date": "1958-02",
+    "vers": "lettre de Gloucester, depuis Fort Square, où Olson décrit le contenu du rêve autour du Temple of Black Isis",
+    "refs": [
+     "EC-03111"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la lecture de The Pipe au bureau, test avant l'épreuve familiale",
+    "vers_date": null,
+    "vers": "l'envoi de la revue à sa mère, puis la révélation par Kay Hoffman du geste maternel, des années plus tard",
+    "refs": [
+     "EC-03112"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la nouvelle qui revient en cercle dans la vie de Rumaker",
+    "vers_date": null,
+    "vers": "après 1955, The Pipe ne se termine jamais pour lui",
+    "refs": [
+     "EC-03156"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'écriture de Rumaker après son diplôme, à l'automne 1955",
+    "vers_date": "1955-10-07",
+    "vers": "lettre de Duncan du 7 octobre 1955 jugeant les trois essais au-dessus du niveau moyen",
+    "refs": [
+     "EC-03128"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "le calcul de Rumaker pour économiser : 100 $ durent quatre mois",
+    "vers_date": null,
+    "vers": "les années d'études à Black Mountain, avec leurs coûts dérisoires et leur vie précaire",
+    "refs": [
+     "EC-03153"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "le démantèlement du bétail, des charrues et des propriétés du collège",
+    "vers_date": null,
+    "vers": "la ferme et le campus de Black Mountain en pleine activité",
+    "refs": [
+     "EC-03154"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la belle lettre de sa mère sur l'Appel du collège",
+    "vers_date": null,
+    "vers": "la vie que Rumaker tenait cachée à sa mère",
+    "refs": [
+     "EC-03155"
+    ]
+   }
+  ],
+  "motifs": [
+   "L'attente d'une lettre comme épreuve de fidélité au maître",
+   "Le redressement par la rhétorique face à la misère matérielle",
+   "L'argent comme seuil de chaque départ ou retour",
+   "Olson qui sauve l'école par la brocante",
+   "La lecture à voix haute comme forme d'amour et de test",
+   "La réputation de ville fantôme, contraire à la réalité"
+  ],
+  "lacunes": "Les sources se contredisent sur plusieurs points. Le chapitre fait partir Creeley en avril pour Majorque et revenir en juin, alors que la lettre du 25 février vient de Mallorca et que EV-06492 le dit déjà parti pendant l'hiver. La date du retour de Rumaker oscille entre fin février et début mars. Le rêve d'Olson est daté de fin février par EV-06686 et de mars par EC-03111. La date de l'épisode de l'avion reste discutée entre Duberman et Lane. La farce des vétérans et de la VA n'est pas datée. On ignore la liste exacte des huit à dix présents en février, la date réelle de reprise des cours, et si Connie Olson est au collège ce mois-ci."
+ }
+}

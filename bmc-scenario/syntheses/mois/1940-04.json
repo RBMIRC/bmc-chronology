@@ -1,0 +1,191 @@
+{
+ "passe": "mois",
+ "cle": "1940-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3003,
+  "sortie": 10397,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-04",
+  "session": null,
+  "saison_et_climat": "Printemps 1940 à Lake Eden (Caroline du Nord), dans la vallée de Blue Ridge. Les fiches ne décrivent pas le temps en avril : le climat n'est qu'une inférence saisonnière.",
+  "situation": "Le départ de Rice a été annoncé publiquement (Newsletter n° 7, mars) et son règlement est fixé : même pourcentage de salaire jusqu'à la fin de l'année, petite allocation, scolarité de sa fille, intérêt reconnu dans Lake Eden en cas de liquidation. Rice est retiré à Southern Pines, probablement hors du campus. Le collège reste en suspens. La YMCA refuse de renouveler le bail de Blue Ridge pour y installer une école de filles, et les sources ne s'accordent pas sur le calendrier de cette menace. Dès le printemps, le collège écrit à ses amis pour chercher un autre site, sans trouver mieux que Lake Eden. La campagne des deux millions, menée depuis le MIT par Dreier, est encore en cours : elle ne s'effondrera qu'avec la chute de la France, en juin. Gropius et Breuer ne sont pas encore écartés (ils le seront en juin), et Kocher n'intervient qu'en juillet.",
+  "presents_probables": [
+   {
+    "nom": "Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anne Mangold",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940",
+    "precision": "annee",
+    "ce_qui_arrive": "La YMCA refuse de renouveler le bail de Blue Ridge, qui doit servir à une école de filles. Le calendrier de cette menace est contesté entre les sources.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "saison",
+    "ce_qui_arrive": "Le collège écrit à ses amis pour trouver d'autres sites. Aucun n'égale Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "periode",
+    "ce_qui_arrive": "Selon Lane, la YMCA accorde une année de grâce. Il ne reste alors qu'environ un mois pour bâtir un programme plausible.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "periode",
+    "ce_qui_arrive": "La campagne des deux millions continue, sans que la peur des donateurs ne l'ait encore brisée.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire d'avril. On peut supposer, par déduction, des cours et la vie commune de la faculté, un suivi de la levée de fonds et du dossier Blue Ridge, et la maison de pierre que Rice proposait d'habiter en février. Albers, qui défend l'auto-éducation, enseigne probablement.",
+  "tensions": [
+   "Le départ de Rice laisse un climat contrasté : Mangold parle de « révolution de palais » et d'une attitude excellente, Chaddock de grand soulagement mais de peu de réjouissances.",
+   "Rice, dans sa lettre du 19 février, se sent trahi par Dreier et soupçonne Albers d'avoir jalousé son influence. Ces rancœurs sont encore fraîches.",
+   "Le campus rêvé (Gropius et Breuer) se heurte au coût, et le campus possible reste incertain.",
+   "La menace de la YMCA pèse sur le bail, et le calendrier reste contesté.",
+   "Les finances sont fragiles : les salaires non garantis ne seront payés qu'en partie les années suivantes."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Lettres aux amis pour trouver un autre site",
+    "date": "1940-04",
+    "lieu": null,
+    "personnages": [
+     "le collège (faculté et conseil, auteurs non précisés)"
+    ],
+    "deroule": "Le collège écrit à ses relations pour trouver un terrain. Les réponses ne donnent rien d'aussi attrayant que Lake Eden, et la comparaison avec le site rappelle ce qui est en jeu.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Attendre la réponse de la YMCA",
+    "date": "1940-04",
+    "lieu": null,
+    "personnages": [
+     "Wunsch",
+     "Dreier"
+    ],
+    "deroule": "Le conseil et Dreier attendent de savoir si la YMCA accorde un sursis. La décision se joue dans les semaines qui suivent, avant le budget de mai.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Rice à Southern Pines reçoit le règlement",
+    "date": "1940-04",
+    "lieu": "Southern Pines",
+    "personnages": [
+     "Rice"
+    ],
+    "deroule": "Rice, retiré depuis la démission de mars, vit du règlement fixé : salaire maintenu jusqu'à la fin de l'année, allocation, scolarité de sa fille. Il écrit depuis Southern Pines.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Avril : Rice, retiré, relit la confrontation de février.",
+    "vers_date": "1940-02",
+    "vers": "Lors de la deuxième conférence, Rice a proposé de revenir en habitant la maison de pierre, Wunsch a répondu que le conseil préférait fermer, et Nell a énuméré les promesses rompues. Rice a quitté la pièce, puis la maison, en se disant « répudié ».",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Avril : le collège mesure ce que le conseil a décidé en janvier.",
+    "vers_date": "1940-01",
+    "vers": "Le conseil décide de ne pas parier l'avenir sur le retour de Rice, après le premier voyage de Wunsch, où Rice l'a empêché de formuler sa demande.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril : le budget reste à établir pour le site.",
+    "vers_date": "1940-05",
+    "vers": "Le collège dégage 3 000 $ pour un tracteur Farmall et un wagon de ciment. Il faut bâtir un programme plausible en un mois.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril : la campagne des deux millions continue.",
+    "vers_date": "1940-06",
+    "vers": "La chute de la France fait fuir les donateurs et la campagne échoue. En juin, Albers déclare devant des donateurs que l'enseignement de l'art est au centre de toute activité, et Gropius et Breuer sont jugés trop coûteux.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril : la décision sur le campus n'est pas encore prise.",
+    "vers_date": "1940-07",
+    "vers": "Dreier correspond avec Kocher. Le campus rêvé est abandonné pour une seule aile conçue par Kocher, construite par la communauté pendant le work camp d'été à Lake Eden.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril : Rice est hors du collège, mais il écrit encore.",
+    "vers_date": "1940-09",
+    "vers": "Rice publie « My Father's Folks » dans Harper's, et le chantier de Lake Eden est ouvert le 12 septembre, avec l'objectif « roof by Christmas ».",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "le fondateur absent et la reprise du collège par ses membres",
+   "bâtir soi-même : le campus construit par la communauté",
+   "la vie qui forme la maison, contre le campus rêvé",
+   "l'argent et la peur des donateurs",
+   "la liberté et le travail, avec leurs contradictions"
+  ],
+  "lacunes": "La session d'avril n'est pas précisée. Aucune fiche ne date un événement de la vie quotidienne en avril, ni n'atteste la présence de Rice, de Dreier, de Wunsch ou de Mangold ce mois-là. Les dates du calendrier de la YMCA divergent entre les sources. Duberman et Chaddock ne décrivent pas la démission de la même façon (retour du courrier d'un côté, mémoire du 17 février de l'autre). L'époque où Anni apprend la fuite de sa mère n'est pas précisée. Les fiches n'ont pas d'identifiants propres : les références renvoient au chapitre de synthèse de 1940."
+ }
+}

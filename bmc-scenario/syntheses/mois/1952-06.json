@@ -1,0 +1,370 @@
+{
+ "passe": "mois",
+ "cle": "1952-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 11727,
+  "sortie": 21076,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1952-06",
+  "session": "Creux entre deux sessions en début de mois, selon Rumaker (« c'est entre les sessions », SC-01547). La session d'été n'est pas datée : la communauté d'été monte vers 70 personnes après l'arrivée de Tworkov, Kline, Wolpe et Morley, sans date précise dans les fiches.",
+  "saison_et_climat": "Début d'été en Caroline du Nord : chaleur et humidité qui montent, brumes du matin, kudzu épais sur les pentes, insectes et cris d'oiseaux, poussière sur les routes. Rumaker décrit le Mont Mitchell encore enneigé au sommet (EV-05824, SC-01550).",
+  "situation": "Le collège est presque vide : bâtiments créosotés et défraîchis, ancien camp d'été reconverti, peu d'occupants entre deux sessions. Connie et Charles Olson sont là. La communauté d'été ne s'installe qu'ensuite (synthèse). Les difficultés matérielles sont déjà présentes : les dons de Forbes ont cessé au premier semestre 1952 (EV-05798), et la faculté est divisée sur Sprague et Adams (RE-02244, RE-02245).",
+  "presents_probables": [
+   {
+    "nom": "Michael Rumaker (arrivée début juin, puis été chez les parents de Roger à Jamestown)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Roger (ami de Rumaker, Rider College)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Marge (lesbienne taciturne, au volant de sa Chevy verte)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Ann Fretz (élève de Mary Reed)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Connie Olson (Constance Wilcock selon SC-01548)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson (soirée avec Rumaker, début juin)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Père de Roger (figure dans SC-01546 et SC-01547 mais absent de la liste de EV-05821 : contradiction entre sources)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hermine et Mark Tworkov (Tworkov arrive en juin selon la synthèse)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski (refus du bâtiment scientifique, présente à la période)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Paul Goodman (enseignant de l'été 1952, propriétaire du chien orange selon EC-02862)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Cage, Merce Cunningham, David Tudor, M.C. Richards, Robert Rauschenberg (été 1952, juin non daté)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ben Wolpe et Hilda Morley (installation estivale)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Franz Kline (arrivée après Tworkov, été)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker, Roger, Marge et Mary Ann Fretz font près de 600 miles d'une traite depuis Philadelphie et passent la nuit dans la voiture près du panneau du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05821",
+     "SC-01546"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Arrivée au campus vers 9h : lieu désert entre deux sessions, seul un chien orange famélique traverse la route. Déception et premier doute sur le choix du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05822",
+     "SC-01547"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Rencontre avec Connie Olson sur la route : elle les invite au café sous la véranda grillagée et avoue une fête la veille. Visite guidée : lac Eden, Quiet House, bâtiment scientifique, Dinner Bell Circle, maison de Hazel Larsen couverte de glycine.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05823",
+     "EV-05824",
+     "SC-01548",
+     "SC-01549",
+     "SC-01550"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Début juin, soirée avec Olson : il jette les poèmes de Rumaker, lit sa nouvelle avec intérêt et l'encourage à postuler.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05652",
+     "EC-02852"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Tworkov arrive au collège, premier de la vague qui amène Kline et la communauté d'été.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05607"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers envoie à Griswold son rapport 1951-52 (non daté, probablement juin) : il juge « hautement réussi » le programme de critiques invités et propose de l'étendre aux étudiants de deuxième et troisième année.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05830"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Asawa et Cunningham conçoivent la couverture d'Arts and Architecture avec un photomontage d'Untitled (S.535). Asawa y est créditée Ruth Lanier, sans son nom de jeune fille.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05831"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Été chez les parents de Roger à Jamestown : Rumaker emballe fleurs et pêches pour les marchés de New York, puis travaille à l'Automatic Voting Machine Company dans la galvanoplastie, où les bains d'acide ruinent gants et chaussures.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05826",
+     "EV-05828"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Soirées à Chautauqua : cinéma en voiture, bière Genesee, baignades nocturnes, excursions aux gorges et aux chutes du Niagara. Rumaker repère un jeune blond en blazer bleu marine qu'il n'ose pas aborder.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05827",
+     "EV-05829",
+     "SC-01551"
+    ]
+   }
+  ],
+  "quotidien": "Le repas est annoncé par le gong rond du Dinner Bell Circle. On prend le café sous la véranda grillagée de la salle à manger, dans de grosses tasses blanches, et le lait arrive dans des bocaux Mason. Les bâtiments sont en bois créosoté, les trousses anticouleuvres rouillent aux lampadaires, et le kudzu envahit le paysage. Les occupants flânent entre le lac Eden, la Quiet House et le Studies Building. Aucun cours sur le campus n'est signalé ce mois-ci ; la musique se trouve à Chautauqua, dans l'État de New York, où Beethoven et Tchaïkovski se donnent en plein air. Olson écrit et lit les manuscrits de ses élèves.",
+  "tensions": [
+   "Doute de Rumaker : le collège vaut-il les 600 miles ? Il passe ensuite à l'attachement pour le lieu (SC-01547, SC-01550).",
+   "Désir secret et peur pour le blond de Chautauqua, qui reste sans suite (SC-01551).",
+   "Olson rejette les poèmes de Rumaker mais encourage sa nouvelle : séduction et jugement mêlés (EV-05652, EC-02852).",
+   "Natasha Goldowski juge le bâtiment scientifique dangereux, alors qu'il est achevé : sa fiche le dit « inutilisé », puis « utilisé parfois » pour des cours de langue ou d'écriture (EV-05824).",
+   "Contradiction sur le père de Roger : SC-01546 et SC-01547 le comptent parmi les quatre voyageurs, EV-05821 n'en cite que quatre jeunes sans lui.",
+   "Contradiction sur le chien orange : présent en juin (EV-05822, SC-01547), mais EC-02862 le dit absent à l'arrivée en septembre et le rattache à Goodman.",
+   "Pression matérielle : les dons de Forbes ont cessé et les fondations refusent de financer, ce qui pèse déjà sur le collège."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Nuit dans la voiture près du panneau du collège",
+    "date": "1952-06",
+    "lieu": "Accotement boisé près du panneau manuscrit du collège",
+    "personnages": [
+     "Michael Rumaker",
+     "Marge",
+     "Mary Ann Fretz",
+     "Père de Roger (contesté, voir EV-05821)"
+    ],
+    "deroule": "Après près de 600 miles d'une traite, les passagers s'arrêtent dans le noir, fenêtres levées et portes verrouillées. Ils s'effraient de fantômes imaginaires, rient jusqu'à l'hystérie, puis somnolent assis dans la voiture. Enjeu : l'arrivée commence dans la peur et l'épuisement.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01546"
+    ]
+   },
+   {
+    "titre": "Attente désœuvrée devant la salle à manger vide",
+    "date": "1952-06",
+    "lieu": "Parking au bord de la route de terre, près de la meule",
+    "personnages": [
+     "Michael Rumaker",
+     "Marge",
+     "Mary Ann Fretz",
+     "Père de Roger (contesté)"
+    ],
+    "deroule": "Personne en vue. Un chien orange traverse lentement la route et disparaît entre les pins. Rumaker justifie le vide (« entre les sessions »), les autres attendent, gênés. Enjeu : le collège vaut-il les 600 miles ?",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01547"
+    ]
+   },
+   {
+    "titre": "Connie Olson émerge des pins",
+    "date": "1952-06",
+    "lieu": "Route du campus",
+    "personnages": [
+     "Connie Olson (Constance Wilcock)",
+     "Michael Rumaker",
+     "Marge"
+    ],
+    "deroule": "Connie traverse pieds nus, cigarette aux lèvres, bocal vide à la main. Marge pousse Rumaker à la rattraper (« la dernière créature vivante de la journée »). Connie les accueille (« We've been expecting you ») et évoque la fête de la veille.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01548"
+    ]
+   },
+   {
+    "titre": "Café sur la véranda grillagée",
+    "date": "1952-06",
+    "lieu": "Salle à manger, véranda grillagée sur le lac Eden",
+    "personnages": [
+     "Michael Rumaker",
+     "Marge",
+     "Mary Ann Fretz",
+     "Connie Olson"
+    ],
+    "deroule": "Le groupe boit un café dans de grosses tasses blanches. Il découvre le lac, le Studies Building et le Mont Mitchell enneigé. Connie leur apprend que le lac s'appelle Lake Eden. Rumaker attend toujours de rencontrer le mari de Connie.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01549"
+    ]
+   },
+   {
+    "titre": "Marche au bord du lac, serpent évité",
+    "date": "1952-06",
+    "lieu": "Chemin de terre le long de Lake Eden jusqu'au Studies Building",
+    "personnages": [
+     "Connie Olson",
+     "Michael Rumaker",
+     "Mary Ann Fretz"
+    ],
+    "deroule": "Connie montre la maison de Hazel Larsen, la Quiet House et le bâtiment scientifique que Natasha Goldowski juge dangereux. Rumaker s'inquiète des trousses anticouleuvres rouillées. Connie le rassure : les cascabels et les mocassins « s'occupent de leurs affaires ». Le paysage rachète les bâtiments délabrés.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01550"
+    ]
+   },
+   {
+    "titre": "Guette à l'Amphithéâtre de Chautauqua",
+    "date": "1952-06",
+    "lieu": "Chautauqua, Amphithéâtre",
+    "personnages": [
+     "Michael Rumaker"
+    ],
+    "deroule": "Chaque soir, Rumaker, à quelques rampes de distance, vole des regards au jeune blond en blazer bleu marine aux boutons dorés, toujours seul. Il n'ose pas s'approcher. La musique de Beethoven et de Tchaïkovski accompagne le béguin.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01551"
+    ]
+   },
+   {
+    "titre": "Olson écarte les poèmes et lit la nouvelle",
+    "date": "1952-06",
+    "lieu": null,
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Olson met de côté les poèmes de Rumaker, mais lit sa nouvelle avec intérêt et l'encourage à postuler. La séduction du maître et son jugement sévère vont ensemble.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05652",
+     "EC-02852"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Les soirs à Chautauqua, quand Rumaker guette le blond en blazer",
+    "vers_date": null,
+    "vers": "La chambre d'hôtel avec le professeur de géométrie Henry L. Wood, relation antérieure qui ravive le désir.",
+    "refs": [
+     "EC-02808"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La visite de Lake Eden : la maison de Hazel Larsen et le bâtiment scientifique",
+    "vers_date": "1940",
+    "vers": "Le déménagement du collège depuis l'autre versant de la vallée vers un ancien camp d'été, qui explique l'allure de bâtisses hâtives.",
+    "refs": [
+     "EC-02857",
+     "EV-05822"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le refus de Natasha Goldowski d'occuper le bâtiment scientifique",
+    "vers_date": null,
+    "vers": "Ses années d'enseignement à Princeton après son immigration d'après-guerre, avec ses bâtiments de style roman.",
+    "refs": [
+     "EC-02858"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le chien orange absent sur la route, à l'arrivée",
+    "vers_date": null,
+    "vers": "Paul Goodman, enseignant de l'été 1952, prié de quitter le collège. Contradiction : EC-02862 situe le chien en septembre.",
+    "refs": [
+     "EC-02862",
+     "SC-01547"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La soirée où Olson jette les poèmes et lit la nouvelle",
+    "vers_date": null,
+    "vers": "Les luttes de pouvoir entre Rumaker et Olson à Black Mountain.",
+    "refs": [
+     "EC-02852"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les conversations du réfectoire, pendant que la communauté d'été arrive",
+    "vers_date": "1952-08",
+    "vers": "Theater Piece No. 1 : Cage et Tudor organisent dans le réfectoire l'événement tenu pour le premier happening, avec lectures, peintures, piano, danse et café.",
+    "refs": [
+     "EV-05630",
+     "EV-05843",
+     "EV-05844"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le conseil d'Olson à Mary Ann Fretz d'essayer les ateliers de photographie",
+    "vers_date": "1953",
+    "vers": "Elle revient à la session d'été 1953, ce qu'Olson avait prédit.",
+    "refs": [
+     "EC-02855"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le désir de Rumaker pour Merrill, en juin",
+    "vers_date": null,
+    "vers": "Son dernier été à Black Mountain, où il apprend amèrement la leçon de Stendhal.",
+    "refs": [
+     "EC-02809"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le seuil et l'arrivée : la peur de la nuit, puis l'ouverture du lieu",
+   "Le lieu vide contre la promesse du collège",
+   "Connie Olson comme figure d'accueil",
+   "Désir caché et terreur, au Chautauqua",
+   "Olson à la fois recruteur et juge",
+   "Architecture et nature : lac, kudzu, serpents, bâtiment scientifique",
+   "Mémoire rétrospective de Rumaker (2003) qui filtre toutes les scènes"
+  ],
+  "lacunes": "Aucun jour précis n'est donné pour les épisodes de juin, y compris l'arrivée. On ignore la date d'ouverture de la session d'été et l'arrivée exacte de Cage, Cunningham, Tudor, Richards, Rauschenberg, Kline, Wolpe et Morley. Les fiches ne disent rien de l'activité d'Olson en juin hors de la soirée avec Rumaker. Contradictions à signaler : la présence du père de Roger (SC-01546, SC-01547 contre EV-05821), le chien orange (EV-05822 contre EC-02862), le statut du bâtiment scientifique (« inutilisé » puis « utilisé parfois », EV-05824), et le nom de Hazel (Hazel Frieda Larsen dans EV-05824, Hazel Larsen Archer dans la synthèse)."
+ }
+}

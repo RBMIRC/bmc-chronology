@@ -1,0 +1,256 @@
+{
+ "passe": "mois",
+ "cle": "1944-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4008,
+  "sortie": 9654,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1944-03",
+  "session": "Trimestre de printemps (déduit : les fiches ne nomment pas la session ; les instituts d'été sont encore à venir)",
+  "saison_et_climat": "Fin d'hiver, début du printemps (EV-03620 parle du « début du printemps ») ; les fiches ne décrivent pas le temps qu'il fait.",
+  "situation": "Le collège est en plein débat sur l'admission d'étudiants noirs, qui occupe la communauté depuis janvier et ne se terminera qu'en mai. Les camps sont formés. Wunsch propose un compromis modeste, à savoir quelques visiteurs noirs pour quelques semaines. Les tensions se déplacent aussi vers des questions de vie commune, comme le bronzage nu, et vers des départs déjà survenus ou à venir.",
+  "presents_probables": [
+   {
+    "nom": "Wunsch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Herbert Miller",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hansgirg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bentley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "de Graaff",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Les Cohen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Les Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Radin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Foreman",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Orr (trésorier adjoint)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Duggar",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Une cinquantaine d'étudiants (dont une pétition signée par 38 d'entre eux)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-01",
+    "precision": "periode",
+    "ce_qui_arrive": "Le débat communautaire sur la question noire se poursuit, avec des réunions de faculté entre le 25 janvier et le 10 mai et des camps bien installés.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03612"
+    ]
+   },
+   {
+    "date": "1944-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Wunsch propose d'admettre un à trois Noirs comme visiteurs pendant trois à quatre semaines au plus, lors de l'institut de musique, après un cours sur les relations raciales pour toute la communauté.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03620"
+    ]
+   },
+   {
+    "date": "1944-03-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Herbert Miller proteste officiellement contre le bronzage intégral lors de la réunion de faculté.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03621"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches décrivent surtout les séances de faculté, longues et répétées, et les caucus secrets, qui occupent les soirées. La vie de la communauté passe par ces réunions, par la pétition étudiante et par les débats sur les règles de vie comme le bronzage. Elles ne donnent pas les cours ordinaires, les repas, la musique ou le travail quotidien de ce mois.",
+  "tensions": [
+   "Le camp « pour » (Foreman, Bentley, de Graaff, les Cohen, les Jalowetz, Radin) face au camp « contre » (Straus, les Albers, Hansgirg, Kurtz, Wunsch, Gregory, Miller, puis Dreier et Lowinsky après hésitation).",
+   "Crainte du boycott des commerçants et de l'incendie criminel, avec le précédent du séminaire d'Anniston incendié.",
+   "Lettres de mise en garde de Hurston, Rubye Lipsey et du président Shepard, que Wunsch avait lui-même sollicitées.",
+   "Wunsch écrit à Evarts qu'intégrer reviendrait à « déclarer une guerre ouverte au Sud ».",
+   "Une pétition étudiante (38 signataires sur cinquante) pour plus d'un étudiant noir, sans effet réel sur le vote de la faculté.",
+   "Miller contre le bronzage nu, en pleine atmosphère de débat sur les règles communes.",
+   "Un étudiant a démissionné en février ; le trésorier adjoint Orr partira fin avril, en partie à cause de cette admission.",
+   "Divergence entre Duberman, pour qui le corps enseignant se partage presque à égalité, et Lane, pour qui Dreier avait obtenu un engagement de la faculté, qui a ensuite reculé sous la menace."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Réunion du 14 mars : Miller proteste contre le bronzage nu",
+    "date": "1944-03-14",
+    "lieu": "Black Mountain College, réunion de faculté",
+    "personnages": [
+     "Herbert Miller",
+     "la faculté"
+    ],
+    "deroule": "Miller proteste officiellement, en séance de faculté, contre le bronzage intégral. Les notes de cette réunion sont conservées aux Raleigh Archives. Le débat sur la question noire pèse sur l'ambiance de la séance.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03621"
+    ]
+   },
+   {
+    "titre": "Wunsch propose des visiteurs noirs pour quelques semaines",
+    "date": "1944-03",
+    "lieu": "Black Mountain College, institut de musique (projeté)",
+    "personnages": [
+     "Wunsch",
+     "le corps enseignant"
+    ],
+    "deroule": "Wunsch présente un compromis : un à trois Noirs soigneusement choisis, comme simples visiteurs pendant trois à quatre semaines au plus, lors de l'institut de musique, précédé d'un cours sur les relations raciales. Le compromis ne suffira pas : plusieurs semaines de débat suivront avant un consensus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03620"
+    ]
+   },
+   {
+    "titre": "Wunsch écrit à Evarts : « une guerre ouverte au Sud »",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Wunsch",
+     "Evarts"
+    ],
+    "deroule": "Dans une lettre, Wunsch affirme qu'intégrer reviendrait à déclarer une guerre ouverte au Sud. Il avait lui-même sollicité les lettres de mise en garde de Hurston, Lipsey et Shepard.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Duggar examine la loi, et l'argument juridique tombe",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Duggar",
+     "des amis juristes de Foreman"
+    ],
+    "deroule": "Duggar vérifie d'abord qu'aucune loi de Caroline du Nord n'impose la ségrégation dans le supérieur ; des juristes proches de Foreman confirment. L'argument juridique contre l'admission ne tient plus.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Straus, Albers et Dreier, réfugiés, s'opposent à l'accueil d'étudiants noirs pendant le débat",
+    "vers_date": null,
+    "vers": "Leur propre fuite du racisme nazi, avant leur arrivée au collège ; Bentley en fera l'ironie du « Hofjude ».",
+    "refs": [
+     "EC-01931"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La peur des incendies criminels nourrit le camp de la prudence pendant le débat",
+    "vers_date": null,
+    "vers": "Le séminaire d'Anniston, incendié, précédent invoqué par Rubye Lipsey.",
+    "refs": [
+     "EC-01932"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le débat de mars sur l'intégration, avec la crainte de violence qu'il porte",
+    "vers_date": null,
+    "vers": "Les violences du Sud qui accompagnent l'intégration scolaire, dans les années 1950-60.",
+    "refs": [
+     "EC-01930"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le débat de mars, avec le recul du corps enseignant et l'isolement de Dreier",
+    "vers_date": "1945",
+    "vers": "Lane situe la décision définitive à l'automne 1945.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les discussions de mars, à quelques semaines de la séance du 17 avril",
+    "vers_date": "1944-04-17",
+    "vers": "Straus déclare en faculté que « le Noir est étrange » et que la formule « nous sommes tous des êtres humains » est trop simple.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le débat de mars, avec les camps déjà fixés",
+    "vers_date": "1944-04-26",
+    "vers": "Le départ du trésorier adjoint Orr, en partie à cause de l'admission et de l'effort trop lourd du collège.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les réunions de mars, avant les instituts d'été",
+    "vers_date": "1944",
+    "vers": "Les sessions d'été d'Albers, qui deviendront une référence pour Margaret Kennard Johnson et d'autres artistes.",
+    "refs": [
+     "EC-01861"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le « Hofjude » et l'ironie des réfugiés qui refusent l'égalité à d'autres persécutés",
+   "L'incendie criminel comme menace concrète",
+   "« Déclarer une guerre ouverte au Sud »",
+   "Le compromis mesuré (visiteurs pour quelques semaines) contre l'intégration pleine",
+   "« Trop avec trop peu » : l'usure du collège"
+  ],
+  "lacunes": "Les fiches ne donnent ni les dates exactes des réunions de faculté de mars, ni la date de la lettre à Evarts, ni celle de la consultation de Duggar, ni celle de la pétition étudiante. La présence effective de Foreman, Lowinsky et Orr en mars n'est pas attestée. Les sources divergent sur le rôle du corps enseignant (Duberman : partage presque égal ; Lane : engagement initial reculé). La vie quotidienne de mars (cours, repas, musique, travail) n'est pas documentée."
+ }
+}

@@ -1,0 +1,455 @@
+{
+ "passe": "mois",
+ "cle": "1952-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 9672,
+  "sortie": 22125,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1952-11",
+  "session": "Trimestre d'automne, session ordinaire (déduit de la saison : les fiches parlent d'automne sans donner de dates de session)",
+  "saison_et_climat": "Fin d'automne, jours courts et froid probables (déduit du calendrier, aucune fiche ne décrit le temps ce mois-ci). Thanksgiving marque la fin du mois.",
+  "situation": "Le collège se vide et se désorganise. Olson est absent depuis septembre (Washington ou Yucatan selon les fiches). Rauschenberg et Twombly sont partis pour l'Italie, Kline et les Tworkov ont quitté le collège, Herb Roco est rentré au Texas. La communauté, qui atteignait environ 70 personnes l'été, rétrécit. Les finances s'effondrent : Rockefeller et Ford refusent de subventionner le collège (6 novembre). Le 13 novembre, Huss présente au collège le nouveau programme des instituts, en rupture avec le cursus classique. Les potiers Karnes et Weinrib, installés dans l'atelier de Turner, sont mal vus d'une partie de la communauté. Le Community Council démissionnera en décembre.",
+  "presents_probables": [
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hilda Morley",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wes (nom de famille non donné)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mark Hedden",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Barbara Fritchey",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Karen Karnes",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Remy Charlip",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Terence Burns",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Virginia (nom non précisé)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Huss",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Weinrib",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Merrill Gillespie",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Leser",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Goldowski",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jorge Fick",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Doyle Jones",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-11-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Leser écrit au conseil : Rockefeller et Ford refusent de subventionner le collège, ce qui aggrave la crise financière.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05909"
+    ]
+   },
+   {
+    "date": "1952-11-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Huss prononce au collège « A Statement on the New Institute Program », exposé imprimé de quatre pages sur le nouveau programme des instituts.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05910"
+    ]
+   },
+   {
+    "date": "1952-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Herb Roco repart à Houston aider son père dans son garage de réparation, quelques semaines avant décembre. Merrill se retrouve plus seul.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05908"
+    ]
+   },
+   {
+    "date": "1952-11",
+    "precision": "mois",
+    "ce_qui_arrive": "À New York, fête d'adieu pour Alcopley qui part à Paris : chacun donne vieux billets et cartes, Elaine offre sa chaussure et son bas, Nancy Ward réplique avec son soutien-gorge. Hors du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05906",
+     "SC-01579"
+    ]
+   },
+   {
+    "date": "1952-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Au Philadelphia Museum of Art, Bill et Elaine de Kooning se disputent devant les Le Nain sur la force de la composition des mendiants. La lettre de fin novembre juge la ville « as much to do with art as Harry Truman ». Hors du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05907"
+    ]
+   },
+   {
+    "date": "1952-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Après le dîner de Thanksgiving, des convives empilent leurs os de dinde dans les plats et pots de Karnes, dans une communauté où l'artisanat commercial est méprisé.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01580",
+     "EV-05622"
+    ]
+   },
+   {
+    "date": "1952-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Hilda Morley, après une séance morne, prend Rumaker à part pour ranimer la classe, puis instaure le thé avec plaque chauffante, sachets et citron. Virginia s'endort comme toujours.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01581"
+    ]
+   },
+   {
+    "date": "1952-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Après le souper, Mark Hedden joue un sketch pour l'anniversaire de Barbara Fritchey. Wes explose, accusant l'usage du divider en bois qu'il réservait aux répétitions de Mother Courage. La fiche hésite sur le début, entre octobre et novembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05900"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Dawson et Dan Rice construisent un hangar à tabac en poteaux de chêne, en plantant les clous à la main. Travail d'automne sans date précise.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-05883",
+     "EV-05884",
+     "EV-05885",
+     "EV-05886",
+     "EV-05887"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Kline quitte le collège. Dawson est appelé sous les drapeaux. Les Tworkov partent aussi.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05832",
+     "EV-04885"
+    ]
+   }
+  ],
+  "quotidien": "Vie de dîners en commun, avec fêtes et souper suivi de sketches ou de répétitions (Mother Courage dans la salle à manger). Hilda Morley enseigne la poésie, ses classes s'enlisent et Virginia s'endort. Rumaker a perdu sa chambre au profit de Jorge Fick, vit au dortoir, fume des Sobranie et suit Olson par lectures prescrites. Dawson et Dan Rice bâtissent le hangar à tabac. Karnes et Weinrib travaillent dans l'atelier de Turner. Le catalogue 1952-53 gonfle la liste des cours et annonce cinq instituts. Huss tient ses bêtes et son programme. Aucune musique ni exposition du collège n'est décrite pour ce mois.",
+  "tensions": [
+   "Wes contre Mark Hedden après le sketch : le divider, Mother Courage et le sérieux de Brecht en jeu.",
+   "Karnes et Weinrib, mal vus, face aux moqueries de Thanksgiving.",
+   "Crise financière : refus de Rockefeller et Ford, dons de Forbes déjà arrêtés, bilan précaire de Huss.",
+   "Olson absent : les étudiants ont collecté 100 $ pour le faire revenir, et l'hostilité de Doyle Jones envers lui ruine leur amitié de travail.",
+   "Huss et le programme des instituts contre le cursus, sur fond de conservateurs comme Sprague et Adams.",
+   "Goldowski inscrite au catalogue alors qu'elle méprise Olson.",
+   "Rumaker isolé : Merrill seul après le départ de Herb Roco, et la proposition de Gillespie qui vient.",
+   "Le Community Council se préparera à démissionner en décembre."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les os de dinde dans les pots de Karnes",
+    "date": "1952-11",
+    "lieu": "Black Mountain College, salle à manger",
+    "personnages": [
+     "Karen Karnes",
+     "Remy Charlip",
+     "convives"
+    ],
+    "deroule": "Après le dîner de Thanksgiving, des convives empilent leurs os de dinde dans les plats et pots de Karnes. Mépris affiché, horreur du témoin.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01580",
+     "EV-05622"
+    ]
+   },
+   {
+    "titre": "Hilda invente le thé",
+    "date": "1952-11",
+    "lieu": "bibliothèque",
+    "personnages": [
+     "Hilda Morley",
+     "Michael Rumaker",
+     "Terence Burns",
+     "Virginia"
+    ],
+    "deroule": "Hilda demande à Rumaker comment ranimer la classe, puis annonce qu'elle servira le thé. La séance suivante, plaque chauffante, sachets et tasses de la cuisine. Virginia s'endort, les trois heures restent longues.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01581"
+    ]
+   },
+   {
+    "titre": "La colère de Wes contre le sketch de Mark Hedden",
+    "date": "1952-11",
+    "lieu": "salle à manger, près du divider en bois vers la cuisine",
+    "personnages": [
+     "Wes",
+     "Mark Hedden",
+     "Barbara Fritchey"
+    ],
+    "deroule": "Après le souper, sketch niais pour l'anniversaire de Barbara Fritchey. Wes accuse Mark d'avoir pris le divider qu'il réservait à Mother Courage, et domine le doux Mark, sourd, qui s'excuse humblement.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05900"
+    ]
+   },
+   {
+    "titre": "Lettre de Leser au conseil sur les refus des fondations",
+    "date": "1952-11-06",
+    "lieu": null,
+    "personnages": [
+     "Leser",
+     "membres du conseil"
+    ],
+    "deroule": "Leser annonce que Rockefeller et Ford refusent de subventionner le collège. Le conseil reçoit une crise financière aggravée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05909"
+    ]
+   },
+   {
+    "titre": "Huss présente le programme des instituts",
+    "date": "1952-11-13",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Huss"
+    ],
+    "deroule": "Huss lit quatre pages imprimées, « A Statement on the New Institute Program ». Le public n'est pas décrit.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05910"
+    ]
+   },
+   {
+    "titre": "Le départ de Herb Roco",
+    "date": "1952-11",
+    "lieu": "Black Mountain College, puis Houston (Texas)",
+    "personnages": [
+     "Herb Roco",
+     "Merrill Gillespie"
+    ],
+    "deroule": "Herb repart aider son père. Merrill se retrouve seul, ce qui prépare sa démarche vers Rumaker.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05908"
+    ]
+   },
+   {
+    "titre": "Le bas et la chaussure offerts à Alcopley",
+    "date": "1952-11",
+    "lieu": "39 East 8th Street, New York (hors du collège)",
+    "personnages": [
+     "Elaine de Kooning",
+     "Alcopley",
+     "Nancy Ward"
+    ],
+    "deroule": "Fête d'adieu toute la nuit. Elaine offre chaussure et bas, Nancy Ward répond avec son soutien-gorge. Un duel de gestes entre femmes, entre Dada et séduction.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01579",
+     "EV-05906"
+    ]
+   },
+   {
+    "titre": "Débat devant les Le Nain à Philadelphie",
+    "date": "1952-11",
+    "lieu": "Philadelphia Museum of Art (hors du collège)",
+    "personnages": [
+     "Bill de Kooning",
+     "Elaine de Kooning"
+    ],
+    "deroule": "Après une conférence et des repas avec des mécènes, une dispute violente sur la force de la composition des mendiants en haillons. Elle dit oui, lui non.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05907"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, en pleine séance morne, pense à la chambre d'hôtel de Chautauqua",
+    "vers_date": null,
+    "vers": "Relation antérieure avec le professeur de géométrie Henry L. Wood, dans une chambre d'hôtel",
+    "refs": [
+     "EC-02808"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, à propos de son apprentissage de la voix forte",
+    "vers_date": null,
+    "vers": "Enfance avec son frère aîné sourd, Bill, qui lui a appris à répéter plus fort",
+    "refs": [
+     "EC-02811"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Hilda Morley qui enseigne la poésie au collège",
+    "vers_date": null,
+    "vers": "Adolescence à Jérusalem, lecture d'Ulysses dans l'herbe des collines",
+    "refs": [
+     "EC-02873"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Cage et ses protocoles de hasard",
+    "vers_date": "1913",
+    "vers": "Les 3 Standard Stoppages de Duchamp, modèle direct des opérations de Cage",
+    "refs": [
+     "EC-02849"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'étude d'Artaud et du théâtre de Cage",
+    "vers_date": "1938",
+    "vers": "Publication du Théâtre et son Double en France, chaîne Boulez-Mallarmé-Artaud",
+    "refs": [
+     "EC-02847"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Hilda, dont la présence en classe s'éteint à la fin 1952",
+    "vers_date": "1953",
+    "vers": "Institut d'été 1953 : elle pose nue dans la classe de dessin d'Esteban Vicente",
+    "refs": [
+     "EC-02874"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, qui voit Glenn Lewis partir pour Princeton",
+    "vers_date": "1954",
+    "vers": "Princeton puis New York (1954-1958), la soirée de Hoboken et le Goodman complet",
+    "refs": [
+     "EC-02892",
+     "EC-02891"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Virginia qui lui dit « You exaggerate everything »",
+    "vers_date": "1956-09-30",
+    "vers": "La lettre de Rumaker à Olson, où il fait du mensonge de l'imagination une poétique",
+    "refs": [
+     "EC-02878",
+     "EC-02880"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les discussions sur le hasard à Black Mountain",
+    "vers_date": null,
+    "vers": "Les attaques contre Cage après le collège, sur qui porte l'intention dans l'acte expérimental",
+    "refs": [
+     "EC-02850"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les planches Variant d'Albers, montrées au collège",
+    "vers_date": "1958",
+    "vers": "Homage to the Square, continuité d'Albers du collège vers Yale",
+    "refs": [
+     "EC-02851"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les soupers de Nell Rice à l'automne",
+    "vers_date": null,
+    "vers": "La veuve de John Rice, bienveillante, deviendra la femme dont les procès abattront le collège",
+    "refs": [
+     "EC-02889"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'image du vétéran nu, vue par Rumaker au collège",
+    "vers_date": null,
+    "vers": "Le souvenir qui dure près de 45 ans plus tard",
+    "refs": [
+     "EC-02810"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker dans le dortoir, seul, après le départ de Herb Roco",
+    "vers_date": "1952-12",
+    "vers": "En décembre, Merrill Gillespie fait sa proposition à Rumaker, qui cède ; le Community Council démissionne « We therefore resign » ; un incendie détruit Roadside",
+    "refs": [
+     "EV-05912",
+     "EV-05913",
+     "EV-05914",
+     "EV-05643",
+     "EV-05915"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le mensonge de l'imagination qui crée la vérité (« You exaggerate everything »)",
+   "Le hasard de Cage, le vide et l'impermanence, avec Artaud et Duchamp en arrière-plan",
+   "Le théâtre comme terrain de conflit : sketches, Mother Courage, Untitled Event passé",
+   "La composition des mendiants et la pauvreté mise en scène (Le Nain, Elaine et Bill)",
+   "La surdité et la voix forte (Mark Hedden, Rumaker et son frère)",
+   "Le collège qui rétrécit : bâtiments inachevés, fondations refusées, départs en cascade"
+  ],
+  "lacunes": "On ignore où est Olson en novembre (Washington ou Yucatan selon les fiches, sans dates). Le départ de Herb Roco n'est daté que par « quelques semaines avant décembre ». Le sketch Hedden commence entre octobre et novembre selon la fiche. Le jour de Thanksgiving n'est pas donné. Le catalogue 1952-53 n'a pas de date. Les fiches divergent sur qui est sourd : EC-02811 dit Merrill, EV-05900 dit Mark Hedden. Wes n'est pas identifié. Virginia, Terence Burns et Barbara Fritchey ne sont pas identifiés autrement. Rien sur la musique, les concerts ni le temps qu'il fait ce mois-ci. Wolpe, Cage, Cunningham et Tudor ne sont pas situés en novembre."
+ }
+}

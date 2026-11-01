@@ -1,0 +1,448 @@
+{
+ "passe": "mois",
+ "cle": "1944-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 11563,
+  "sortie": 20155,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1944-06",
+  "session": "Fin du trimestre de printemps, puis session d'été : Institut d'art (annoncé pour la semaine suivante) et Institut de musique d'été de dix semaines",
+  "saison_et_climat": "Été 1944 en Caroline du Nord : chaleur, brume matinale sur le lac, route de terre poussiéreuse et argile rouge mouillée, gazogène rationné en période de guerre. À Chattanooga, chaleur sèche et poussière d'été sur la route.",
+  "situation": "Fin de trimestre tendue. La réunion-bilan bascule dans une querelle sur le vote majoritaire, que le collège adopte le 14 juin. Radin part après une attaque de Dreier. Barbara Anderson et Jeanne Wacker sont arrêtées au Tennessee, puis libérées grâce à Dreier. Une réunion extraordinaire fait de l'affaire une crise : Andy est exclue pour l'été et Addison Bray s'en va. Pendant ce temps arrivent les étudiants des instituts d'été, à commencer par Roberta Blair.",
+  "presents_probables": [
+   {
+    "nom": "Roberta Blair",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Fran de Graaff",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frederick Straus",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Wunsch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Heinrich Jalowetz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Sam Brown (modérateur étudiant)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Barbara Anderson (Andy)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jeanne Wacker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Addison Bray",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Kolisch (quatuor, répétitions du Op. 7)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Steuermann",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Krenek (conférences de l'Institut de musique)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Gropius, Ozenfant, de Creeft et Jean Charlot (arrivée de l'Institut d'art)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Agnes de Mille (visite de l'été 1944)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Margaret Kennard Johnson (étudiante d'été, non certifiée)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Coron (présent à BMC l'été 1944, non certifié)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Une professeure noire de musique de Fort Valley, admise pour l'été (non nommée)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-06-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Le lieutenant Allan T. Squire écrit au Board of Fellows pour protester contre une fête ; il menace l'expérience d'un oubli des systèmes établis.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03645"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Dreier accuse Radin de commérage et de complots communistes. Radin part avec sa femme plusieurs jours avant la fin du terme et ne reviendra pas à l'automne.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03631"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunion-bilan censée apaiser : le modérateur étudiant propose le vote majoritaire quand l'unanimité échoue, et la querelle est furieuse. Les anciens confirment que les nouveaux ne comprennent pas les principes du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03630",
+     "SC-00920"
+    ]
+   },
+   {
+    "date": "1944-06-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion générale : le consensus cède au vote majoritaire. Dreier juge plus tard qu'il n'aurait jamais dû y consentir.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03646"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Roberta Blair arrive tôt un matin après une nuit de train ; seuls les Albers sont à la gare. Elle s'installe à Lee Hall, dans un studio sans matelas ni chaises.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03629",
+     "SC-00919"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Le groupe Kolisch commence à répéter le Quatuor Op. 7 de Schönberg au North Lodge, devant des étudiants d'été assis sur les chaises et les escaliers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03632"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Annonce de l'Institut d'art pour la semaine suivante, avec Gropius, Ozenfant, de Creeft et Charlot, qui promet des fresques sur les pilotis du Studies Building.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03633"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Barbara Anderson et Jeanne Wacker, en autostop vers Chattanooga, sont arrêtées par deux policiers et inculpées de « loitering ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03634",
+     "SC-00921"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Nuit en cellule commune, séparée par des plaques d'acier. Barbara fête ses 21 ans à minuit.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03635",
+     "SC-00922"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Examen médical forcé : le médecin annonce une blennorragie chez Barbara. Un réexamen à Asheville, cinq jours plus tard, est négatif. Le diagnostic est donc contesté.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03636"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Condamnation à soixante jours de workhouse après une conférence du juge sur Scottsboro. Interrogatoire par le chef de la police, empreintes, lettres censurées.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03637",
+     "EV-03638"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Dreier arrive à Chattanooga, obtient la suspension des peines et ramène les filles en bus. Elles reviennent au collège dans la disgrâce.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03639"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Un article du journal de Chattanooga nomme le collège. L'Asheville Citizen y renonce après un appel de Wunsch.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03640"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunion extraordinaire de la faculté, comité de cinq membres. Straus accuse de Graaff, Dreier interroge Andy sur sa vie sexuelle et recommande son exclusion pour l'été. La remarque de Josef Albers fait tout basculer.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03641",
+     "EV-03642",
+     "SC-00923"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "mois",
+    "ce_qui_arrive": "La faculté vote l'exclusion d'Andy pour l'été. Addison Bray obtient un congé et part. Andy et lui gagnent la maison d'été de Foreman, à environ 60 miles. Jeanne reste pour l'Institut de musique.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03643"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "session",
+    "ce_qui_arrive": "Institut de musique d'été « Musical Interpretation » : dix semaines, Jalowetz, célébration des 70 ans de Schönberg (qui décline l'invitation). Steuermann et Kolisch sont les plus actifs, Krenek donne des conférences.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03644"
+    ]
+   }
+  ],
+  "quotidien": "Le mois oscille entre la fin du terme et l'installation des instituts : cabines de Lee Hall, douche glacée, matelas humide de brume, huit milles de route cahoteuse, breaks sans porte. La musique remplit le bord du lac (violoncelle, chant, piano dans chaque bâtiment), répétitions et conférences de l'Institut de musique. Les sources ne documentent ni les repas, ni les cours réguliers, ni la cuisine de ce mois.",
+  "tensions": [
+   "Consensus contre vote majoritaire : la querelle de procédure oppose les anciens aux nouveaux, qui ne comprennent pas les principes de la communauté.",
+   "Dreier contre Radin : commérage, complots communistes, reproche de cerveau sans personne ; Radin s'en va sans explication.",
+   "Dreier contre Andy : interrogatoire sexuel, morale sur la respectabilité du collège, exclusion pour l'été.",
+   "Straus contre de Graaff : Straus reproche à la conseillère d'avoir toléré l'autostop ; de Graaff se dit offensée.",
+   "Josef Albers relance la « boîte de Pandore » sur le coddling des étudiants ; Molly Gregory parle de « héros ou martyre ».",
+   "Les filles face à la police et à la justice de Chattanooga ; Highlander et Fisk sont vus comme des avant-postes rouges.",
+   "En filigrane, la question de l'admission noire reste latente. Lane décrit un Dreier isolé après le recul du corps enseignant, qui ne se tranche qu'à l'automne 1945."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Premier jour de Roberta Blair",
+    "date": "1944-06",
+    "lieu": "Gare de Black Mountain, puis Lee Hall",
+    "personnages": [
+     "Roberta Blair",
+     "Josef Albers",
+     "Anni Albers",
+     "étudiants d'été"
+    ],
+    "deroule": "Blair descend d'une nuit de train. Personne à la gare sauf les Albers, venus chercher un colis. Les valises restent dans le coffre du vieux break ; huit milles cahoteux jusqu'à Lee Hall, douche glacée, montée nocturne aux cabines, matelas trempé, changement de chambre sauvage. Rite de passage entre inconfort et éblouissement intellectuel.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00919",
+     "EV-03629"
+    ]
+   },
+   {
+    "titre": "La réunion-bilan qui tourne à la guerre de procédure",
+    "date": "1944-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Sam Brown",
+     "Heinrich Jalowetz",
+     "Theodore Dreier"
+    ],
+    "deroule": "Le modérateur étudiant propose le vote majoritaire quand l'unanimité échoue, et la salle se déchire. Wunsch demande de regarder la tempête retombée avec des yeux calmes : un observateur muet croirait à une affaire de vie ou de mort.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00920",
+     "EV-03630",
+     "EV-03646"
+    ]
+   },
+   {
+    "titre": "L'autostop et l'arrestation",
+    "date": "1944-06",
+    "lieu": "Route poussiéreuse vers Chattanooga",
+    "personnages": [
+     "Barbara Anderson",
+     "Jeanne Wacker",
+     "deux policiers"
+    ],
+    "deroule": "Dispute feinte, camion qui file dans la poussière, Jeanne le pouce levé et The Making of the Modern Mind sous le bras. La voiture de police se rapproche ; questions sur la virginité, réponses acides de Barbara, rire étouffé de Jeanne.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00921",
+     "EV-03634"
+    ]
+   },
+   {
+    "titre": "Minuit en cellule",
+    "date": "1944-06",
+    "lieu": "Prison municipale, Chattanooga",
+    "personnages": [
+     "Barbara Anderson",
+     "Jeanne Wacker",
+     "codétenues"
+    ],
+    "deroule": "Nuit parmi des dizaines de femmes séparées par des plaques d'acier. Une adolescente tuberculeuse crache du sang ; sa sœur, arrivée ensuite, raconte ses vingt dollars de soldats. À minuit, Barbara fête ses 21 ans.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00922",
+     "EV-03635"
+    ]
+   },
+   {
+    "titre": "La boîte de Pandore",
+    "date": "1944-06",
+    "lieu": "Black Mountain College, réunion de faculté",
+    "personnages": [
+     "Theodore Dreier",
+     "Frederick Straus",
+     "Fran de Graaff",
+     "Josef Albers",
+     "Anni Albers",
+     "Molly Gregory",
+     "Robert Wunsch",
+     "étudiants"
+    ],
+    "deroule": "Accusations de Straus contre de Graaff, défense de cette dernière, logique de Gregory (« héros ou martyre »), pique d'Anni Albers, puis la remarque de Josef Albers sur la souffrance secrète qui « crée un sérieux problème au collège ». Vote d'exclusion d'Andy, annonce du départ de Bray.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00923",
+     "EV-03641",
+     "EV-03643"
+    ]
+   },
+   {
+    "titre": "Répétitions du Quatuor Op. 7",
+    "date": "1944-06",
+    "lieu": "North Lodge, bord du lac",
+    "personnages": [
+     "groupe Kolisch",
+     "étudiants d'été"
+    ],
+    "deroule": "Les étudiants se pressent dans le hall sombre, assis sur les chaises et dans les escaliers. Violoncelle, chant et piano résonnent de tous les bâtiments du bord du lac.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03632"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashforward",
+    "depuis": "Le sourire de Dreier à l'arrivée des instituts, en juin, quand le téléphone sonne",
+    "vers_date": "1944-06",
+    "vers": "Le coup de téléphone de Chattanooga : la nouvelle de l'arrestation et la joie immédiatement punie",
+    "refs": [
+     "EC-01933",
+     "EC-01944"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'arrestation de juin, qui réveille les antagonismes endormis depuis le débat sur l'admission",
+    "vers_date": "1944-04",
+    "vers": "Le compromis d'avril-mai sur l'admission d'une femme noire, et l'ironie du « Hofjude » de Bentley",
+    "refs": [
+     "EC-01943",
+     "EC-01931"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La fin de juin, quand les filles reconstituent leur nuit de prison",
+    "vers_date": "1967-05-31",
+    "vers": "L'entretien chez Duberman où Barbara et Jeanne, mariées entre-temps, reconstituent l'histoire entre fou rire et versions contradictoires",
+    "refs": [
+     "EC-01945"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les cours d'Albers sur la couleur et la matière, à l'été 1944",
+    "vers_date": "1988",
+    "vers": "Margaret Kennard Johnson enseigne encore à Princeton ce qu'elle a appris d'Albers (≈44 ans après l'été 1944)",
+    "refs": [
+     "EC-01861"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La première rencontre avec Victor D'Amico à BMC pendant l'été",
+    "vers_date": "1946",
+    "vers": "Invitation de D'Amico à enseigner au MoMA à l'automne 1946",
+    "refs": [
+     "EC-01864"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La oconee-bell trouvée dans la cour de Meadows Inn pendant l'été 1944",
+    "vers_date": "1790",
+    "vers": "Les années 1790 : André Michaux nomme la Shortia galacifolia, longtemps introuvable",
+    "refs": [
+     "EC-01865"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le débat de juin sur l'intégration, les craintes de violence et d'incendie",
+    "vers_date": "1950",
+    "vers": "Les violences sudistes qui accompagnent l'intégration scolaire dans les années 1950-1960, que Duberman juge rétrospectivement non déraisonnables",
+    "refs": [
+     "EC-01930",
+     "EC-01932"
+    ]
+   }
+  ],
+  "motifs": [
+   "La boîte de Pandore : une remarque anodine rallume une guerre latente",
+   "Le sourire puni : la joie de Dreier brisée par la nouvelle de l'arrestation",
+   "Consensus contre vote majoritaire : un tournant dans la gouvernance",
+   "Des réfugiés qui refusent l'égalité à d'autres persécutés (l'ironie du « Hofjude »)",
+   "La route et la justice sudiste : autostop, arrestation, prison",
+   "Le collège vu comme avant-poste rouge (Highlander, Fisk)",
+   "Vitrine des instituts d'été : renommée et risque à la fois"
+  ],
+  "lacunes": "Les fiches ne donnent pas de jour pour l'arrestation, la libération ou la réunion-bilan (seuls le 2 juin et le 14 juin sont datés). La réunion « finale de l'année » (EV-03630, non datée) est peut-être celle du 14 juin (EV-03646), mais ce n'est pas établi. Le diagnostic de blennorragie est contesté (réexamen négatif à Asheville). La présence de Steuermann, Krenek, Charlot et des autres conférenciers n'est pas datée ce mois-ci. Le nom de la femme noire admise pour l'été n'est pas donné. Aucune fiche ne traite des repas, des cours réguliers ni de la vie de Foreman. Les sources se recoupent surtout sur Duberman 1972 ; Lane 1990 diverge sur la portée du compromis de printemps."
+ }
+}

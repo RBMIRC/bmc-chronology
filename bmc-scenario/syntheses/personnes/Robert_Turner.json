@@ -1,0 +1,282 @@
+{
+ "passe": "personnes",
+ "cle": "Robert Turner",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 5493,
+  "sortie": 6403,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Robert Turner",
+  "autres_noms": [
+   "Turnor (coquille dans la fiche SC-01203)"
+  ],
+  "dates_de_vie": "Non précisées dans les fiches. Il est « jeune diplômé » d'Alfred University en 1949, ce qui suggère un homme jeune à son arrivée (déduction).",
+  "statut_bmc": "Enseignant de céramique, fondateur du pot shop. Il inaugure le programme de poterie du collège, venu du milieu quaker recruté en 1949. Il part au printemps 1951 (attesté).",
+  "presence": [
+   {
+    "debut": "1949",
+    "fin": "1951-04",
+    "role": "Potier et instructeur de céramique, fondateur du pot shop. Il enseigne à partir de l'automne 1949 et démissionne au printemps 1951.",
+    "refs": [
+     "EV-04681",
+     "EV-04752",
+     "EV-04644",
+     "CO-00569",
+     "CO-00574",
+     "EV-05387",
+     "PE-00254"
+    ]
+   },
+   {
+    "debut": "1950",
+    "fin": "",
+    "role": "Installation du studio de poterie au-delà du lac, avec un constructeur de four. Il y enseigne le moulage, le coulage et le tournage à Richards, entre autres.",
+    "refs": [
+     "EV-04929",
+     "SC-01259",
+     "CO-00592"
+    ]
+   }
+  ],
+  "portrait_physique": "Les fiches ne décrivent pas son visage ni sa silhouette, seulement « jeune diplômé ». Elles donnent surtout des postures : il tourne et centre l'argile sans la regarder, l'oreille collée contre elle, dans une attention lente et tactile. C'est ce qu'il faut montrer à l'écran plutôt qu'un physique inventé.",
+  "noyau_psychologique": "Artisan patient et absorbé, formé dans ce qui était alors la meilleure école de céramique d'Amérique. Il arrive pour consolider ce qu'il sait, pas pour se réinventer. Il prend son temps, écoute la matière et tient à la valeur du bon artisanat dans la production. Il ne cherche pas le débat d'idées, il se protège des querelles du collège par le travail. L'éthos expérimental ne l'atteint qu'après coup (attesté par lui-même).",
+  "blessures": "Rien n'est attesté sur des blessures intimes. Une tension structurelle se déduit des fiches : une discipline longtemps méprisée par Albers (« art de cendrier ») et un homme qui se sent laissé seul, à l'écart des politiques divisives. À manier comme déduction.",
+  "desirs": "Bâtir un atelier et un four qui fonctionnent, comme une vraie poterie de production. Consolider son métier. Produire des pièces fonctionnelles de formes classiques, aux émaux subtils, destinées à la vente. Disposer de temps dans l'atelier : le manque de temps prévisible est l'un des motifs de son départ.",
+  "peurs": "Pas attestées. Il évite la politique du collège, on peut en déduire une réticence aux conflits et aux théories. Le temps qui manque à l'atelier semble aussi l'inquiéter (EV-05387).",
+  "maniere_d_aimer": "Il aime par le geste et la transmission, pas par les mots. Son mentorat auprès de Richards passe par la démonstration lente : tourner, étudier, mettre au coffre humide, reprendre le lendemain. Sa vie affective n'est pas documentée, sinon que des raisons familiales motivent son départ.",
+  "rapport_au_pouvoir": "Il garde ses distances. Il reste hors des luttes internes pendant la transition qui suit la démission d'Albers. Il pèse pourtant sans le dire : il prête de l'argent au collège, ce qui lui donne une influence discrète. Il est recruté par le réseau quaker, avec le soutien d'Olson et l'intérêt des étudiants, contre l'ancienne hostilité d'Albers à l'argile.",
+  "voix": {
+   "registre": "Sobre et concret, parole rare. Il parle de matière, de souffle, de temps de séchage, de coffre humide. Ses souvenirs sont mesurés, presque administratifs.",
+   "tics": "Personnifier l'argile : elle respire, elle dit quelque chose. Silence pendant le geste. Il pose des constats plutôt que des théories.",
+   "exemples_paraphrases": [
+    "Il murmure que l'argile respire, puis la gonfle d'air (CI-01541).",
+    "Il dira plus tard que ces années n'ont pas été une découverte mais la consolidation de ce qu'il avait appris (CI-02105).",
+    "Il répète qu'il faut prendre son temps et écouter ce que dit l'argile (déduit de CO-00592)."
+   ]
+  },
+  "habitudes": [
+   "Il centre et tire les parois sans regarder, l'oreille contre l'argile.",
+   "Il remplit la pièce d'air après avoir dit qu'elle respire.",
+   "Il laisse la pièce au coffre humide et la reprend au tour le lendemain. Richards le décrit comme le seul potier qu'elle ait connu à le faire.",
+   "Il travaille seul et dehors, au pot shop dans le champ.",
+   "Il tourne des formes classiques, fonctionnelles, destinées à la vente."
+  ],
+  "convictions": [
+   "La valeur du bon artisanat dans la production industrielle.",
+   "La poterie de production a sa dignité.",
+   "Il faut prendre son temps et écouter la matière.",
+   "Il vaut mieux consolider ce qu'on sait que courir après la découverte (selon son propre souvenir)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1949",
+    "moment": "Recruté dans le sillage du noyau quaker, avec le soutien d'Olson et l'intérêt des étudiants. Albers, démissionnaire, s'y était opposé.",
+    "etat_interieur": "Jeune diplômé confiant dans son métier, venu appliquer ce qu'il sait. Il ne partage pas l'éthos expérimental (déduit).",
+    "refs": [
+     "EV-04644",
+     "EV-04681",
+     "EV-04752"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Il consulte l'architecte Paul Williams, finance en partie la construction par un prêt, fait bâtir l'atelier et le four dans le champ derrière le Studies Building.",
+    "etat_interieur": "Solitude travailleuse. Il se sent laissé seul, tenu à l'écart des politiques divisives, et s'en accommode.",
+    "refs": [
+     "EV-04682",
+     "SC-01203",
+     "EV-04755",
+     "PE-00254"
+    ]
+   },
+   {
+    "date": "1949-10",
+    "moment": "Début des cours de céramique, programme de poterie de production.",
+    "etat_interieur": "Installation dans un rôle d'enseignant artisan, tourné vers le métier.",
+    "refs": [
+     "CO-00569",
+     "CO-00574",
+     "CO-00583"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Studio installé au-delà du lac : tours, four à huile, four électrique, vue sur les champs. Lente initiation de M. C. Richards au centrage, au tournage, au sgraffite.",
+    "etat_interieur": "Patience et transmission. L'enseignement le tire sans qu'il le sache vers l'expérience haptique que le collège valorise.",
+    "refs": [
+     "EV-04929",
+     "SC-01259",
+     "CO-00592",
+     "SC-00770",
+     "RE-01928"
+    ]
+   },
+   {
+    "date": "1951-04",
+    "moment": "Démission pour raisons familiales et manque de temps prévisible dans le pot shop.",
+    "etat_interieur": "Départ discret. Il n'a pas saisi l'éthos sur place, la transformation viendra plus tard.",
+    "refs": [
+     "EV-05387",
+     "EC-02272"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Fils de la Turner Construction Company, famille de constructeurs. Cette origine explique son aisance avec les chantiers et peut-être l'argent qu'il prête au collège (déduction).",
+    "refs": [
+     "PE-00254",
+     "EV-04644"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Formation à Alfred University, alors la meilleure formation céramique d'Amérique, dont il sort diplômé juste avant 1949. Il y a appris la poterie de production, les formes classiques et les émaux.",
+    "refs": [
+     "PE-00254",
+     "EV-04681",
+     "EV-04752"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Il prête au collège les fonds pour construire le pot shop. Le prêt est mentionné en note seulement.",
+    "refs": [
+     "EV-04682",
+     "PE-00254"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1952",
+    "moment": "Il reste consulté sur le recrutement de potiers d'Alfred : sa recommandation, appuyée par Harder, visait Karen Karnes. David Weinrib obtient finalement le poste officiel.",
+    "refs": [
+     "EV-05819"
+    ]
+   },
+   {
+    "date": "1952",
+    "moment": "Il produit des œuvres comme la Covered Casserole en terre cuite émaillée, que la fiche rattache à sa direction de l'atelier de céramique de BMC (date et lieu de fabrication non précisés).",
+    "refs": [
+     "OE-02564"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Plus tard, il dira que la philosophie artistique et l'intellectualisme du collège ont affecté sa perception des années suivantes. Le contenu de cette évolution n'est pas documenté.",
+    "refs": [
+     "EV-05387",
+     "EC-02272",
+     "PE-00254"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Son four et son atelier fondent une tradition de poterie qui dure jusqu'à la fermeture du collège.",
+    "refs": [
+     "EV-04755",
+     "EV-04644",
+     "EC-02492"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Mary Caroline Richards",
+    "nature": "Mentorat : il est son premier maître de poterie.",
+    "evolution": "Enseignante de littérature arrivée pour enseigner, elle repart étudiante en poterie. Il lui apprend centrage, moulage, tournage « off the hump », traînage, sgraffite. Elle en gardera une image directrice pour toute sa vie, et rapportera la scène dans Centering. Elle étudiera ensuite avec Peter Voulkos (1953).",
+    "refs": [
+     "RE-01242",
+     "RE-01846",
+     "RE-01928",
+     "SC-01259",
+     "SC-00770",
+     "EV-03019",
+     "EV-03736"
+    ]
+   },
+   {
+    "avec": "Paul Williams",
+    "nature": "Collaboration technique : l'architecte conçoit le pot shop en consultation avec Turner.",
+    "evolution": "Collaboration limitée au chantier de 1949.",
+    "refs": [
+     "SC-01203",
+     "EV-04682"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Opposition indirecte : Albers méprisait la céramique comme « art de cendrier » et jugeait l'argile trop rebelle.",
+    "evolution": "Albers a démissionné avant l'arrivée de Turner. Le four de Turner inaugure une tradition dans un art autrefois dédaigné.",
+    "refs": [
+     "EV-04681",
+     "EV-04755",
+     "EC-02492"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "Soutien institutionnel : il appuie l'invitation d'un potier.",
+    "evolution": "Olson écrit encore sur le recrutement de potiers en 1952, où le conseil de Turner pèse.",
+    "refs": [
+     "EV-04681",
+     "EV-05819"
+    ]
+   },
+   {
+    "avec": "Noyau quaker (Bodky, Trayer, Pittenger, McCandless, Warrington, Hetherington)",
+    "nature": "Réseau de recrutement ; Turner est plus tard décrit comme moins conventionnel que les autres quakers.",
+    "evolution": "Le conflit culturel entre ce noyau et l'avant-garde forme le cadre de son passage.",
+    "refs": [
+     "EV-04644",
+     "PE-00254"
+    ]
+   },
+   {
+    "avec": "Harder, Karen Karnes, David Weinrib",
+    "nature": "Relations professionnelles autour d'Alfred. Turner appuie la recommandation de Harder en faveur de Karnes.",
+    "evolution": "Weinrib obtient le poste officiel et le salaire, le collège obtient les deux.",
+    "refs": [
+     "EV-05819"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Les dates de présence varient : « automne 1949 », « 1949-printemps 1951 », « à partir de 1950 ». Le studio au-delà du lac date de 1950 alors que le pot shop est construit en 1949 dans un champ derrière le Studies Building. Ce sont peut-être deux états ou deux versions du même lieu (Molesworth et Harris d'un côté, Lane de l'autre) : il faut trancher.",
+   "Qui l'a fait venir ? Duberman parle du recrutement par le noyau quaker, Molesworth de l'intérêt des étudiants et du soutien d'Olson, Harris du recours à d'anciens étudiants faute de temps. Ces versions peuvent se combiner, aucune ne les articule.",
+   "Turner dit avoir été laissé seul à construire l'atelier, mais il a financé le pot shop par un prêt (note de Molesworth) et l'architecte Paul Williams l'a conçu : il n'était donc pas isolé.",
+   "Qui a construit le four ? Duberman dit que Turner le construit lui-même, Lane qu'il vient avec un constructeur de four.",
+   "Les deux dates de la citation sur l'argile sont incertaines (≈1940→1954) et Dawson 1970 donne une autre version de la phrase. La fiche ne la reproduit pas.",
+   "Dans EV-04644, Turner est présenté comme quaker recruté, mais PE-00254 le dit « moins conventionnel que les autres quakers » : sa foi réelle n'est pas établie.",
+   "Il vient dans le collège le plus expérimental d'Amérique sans partager son éthos, mais en sera transformé après coup (EC-02272). Son souvenir (« consolidation ») peut minimiser l'effet immédiat.",
+   "Le rôle de la Covered Casserole (1952) : la fiche situe l'œuvre après son départ, tout en parlant de sa direction de l'atelier."
+  ],
+  "situations_revelatrices": [
+   "Lui seul au tour, l'oreille contre l'argile, devant un témoin silencieux (Richards).",
+   "Un chantier dans un champ : Turner, l'architecte et le constructeur de four, sans discours.",
+   "Une dispute sur le budget ou sur le sens de l'art, où il se retire pour retourner à l'atelier.",
+   "La conversation avec Richards qui rêve de tourner « off the hump », et lui qui répond par la patience.",
+   "Une réunion de recrutement où l'on reparle d'Albers et de l'« art de cendrier ».",
+   "La scène de départ, au printemps 1951, avec des raisons familiales et peu de mots."
+  ],
+  "citations": [
+   "« It is breathing » (« Elle respire ») — CI-01541 ; autre version chez Dawson 1970.",
+   "« It was not a time of discovery so much as consolidation of what I had learned » (« Ce n'était pas un temps de découverte, mais de consolidation de ce que j'avais appris ») — CI-02105."
+  ],
+  "questions_ouvertes": [
+   "Quelles sont ses dates de naissance et de mort ? Où a-t-il vécu avant et après BMC ?",
+   "Quelle est la somme prêtée au collège, et a-t-elle été remboursée ?",
+   "Les raisons familiales de son départ : lesquelles ?",
+   "Était-il réellement quaker et pratiquant ?",
+   "Que devient sa carrière après 1951 ? Comment la philosophie du collège a-t-elle influencé sa pratique ?",
+   "Comment étaient ses relations avec les autres enseignants et étudiants en dehors de Richards ?",
+   "Qui fut son successeur immédiat, et comment sa recommandation en faveur de Karnes a-t-elle été reçue ?",
+   "Comment était-il physiquement ?"
+  ]
+ }
+}

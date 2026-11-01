@@ -1,0 +1,330 @@
+{
+ "passe": "personnes",
+ "cle": "John Dewey",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 7630,
+  "sortie": 7067,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "John Dewey",
+  "autres_noms": [
+   "Professeur Dewey"
+  ],
+  "dates_de_vie": "Non précisées dans les fiches (actif des années 1890 au moins jusqu'en 1943, date du portrait par Breitenbach)",
+  "statut_bmc": "Visiteur régulier au milieu des années 1930, puis membre du Conseil consultatif ; figure tutélaire de la pédagogie du collège, dont il a publiquement loué les ambitions",
+  "presence": [
+   {
+    "debut": "1934",
+    "fin": "1935",
+    "precision": "annee",
+    "role": "Visiteur : deux séjours d'une semaine ou plus durant l'année académique 1934-35, dont un de deux semaines ; assiste chaque jour au cours de Rice (Platon), parle peu, boit de la bière avec les étudiants à Roy's le soir ; seconde visite accompagné d'Albert Barnes (whiskys quotidiens avant dîner)",
+    "refs": [
+     "EV-02273",
+     "EV-02289",
+     "QU-00583",
+     "PE-00091"
+    ]
+   },
+   {
+    "debut": "1934",
+    "fin": "1935",
+    "precision": "periode",
+    "role": "Après ses visites, accepte de rejoindre le Conseil consultatif de Black Mountain College",
+    "refs": [
+     "EV-02273",
+     "EV-01963",
+     "RE-00946",
+     "RE-00723"
+    ]
+   },
+   {
+    "debut": "1940-07-18",
+    "fin": "1940-07-18",
+    "precision": "jour",
+    "role": "Lettre d'encouragement à Theodore Dreier (visiteur dans les années 1930, membre du conseil consultatif)",
+    "refs": [
+     "EV-03117",
+     "EV-03118",
+     "EV-03119"
+    ]
+   }
+  ],
+  "portrait_physique": "Peu décrit physiquement ; présence chaleureuse, sérénité calme et presque majestueuse, jamais pompeuse. Photographié par Josef Breitenbach en 1943 (épreuve gélatino-argentique) et par Josef Albers en 1935 à Black Mountain, aux côtés de Rice.",
+  "noyau_psychologique": "Humilité démocratique radicale : il ne questionne jamais le droit d'exister d'un individu. Sa puissance agit par l'écoute et la présence, non par l'affirmation : merveilleux auditeur, silencieux en classe, ne conseillant que sollicité. Pour lui, conclure n'est pas aboutir mais marquer une pause d'où l'on aperçoit un nouveau sommet — l'éducation et la démocratie sont des processus inachevés.",
+  "blessures": null,
+  "desirs": "Que l'éducation parte de l'expérience et des intérêts spontanés de chacun ; que la démocratie soit vécue dans les gestes quotidiens et non proclamée depuis une tribune ; que Black Mountain survive comme preuve vivante qu'une communauté peut s'autogouverner.",
+  "peurs": "L'autoritarisme : qu'une autorité fixe décide une fois pour toutes de ce qui est vrai — le choix des vérités définitives présuppose l'autoritarisme (sa controverse avec Hutchins).",
+  "maniere_d_aimer": "Par l'attention et la fréquentation d'égal à égal : il assiste aux cours en silence, quitte un déjeuner officiel pour rejoindre des étudiants au bar, boit de la bière avec eux le soir, refuse d'être traité en Grand Philosophe. L'amitié se montre par la présence discrète et les gestes concrets (dons de centaines de livres).",
+  "rapport_au_pouvoir": "Refus du pouvoir ostentatoire et des honneurs ; accepte des responsabilités (présider la conférence de Rollins, siéger au conseil consultatif, présider plus tard l'enquête sur la mort de Trotsky) comme des devoirs envers la démocratie, jamais comme des privilèges.",
+  "voix": {
+   "registre": "Sobre, interrogatif, chaleureux et subtil ; parle peu et lentement, pose des questions plutôt qu'il n'impose des réponses ; jamais dogmatique",
+   "tics": "Ouvrir un débat par une question directe et désarmante ; répondre sobrement quand on attend une envolée ; décourager gentiment toute posture de gourou",
+   "exemples_paraphrases": [
+    "Qu'est-ce qui vous excite spontanément, vous les étudiants ?",
+    "Tant que vous gardez l'œil sur l'individu, cela n'arrivera pas.",
+    "Le collège existe aux racines mêmes d'une vie démocratique."
+   ]
+  },
+  "habitudes": [
+   "Assister chaque jour en silence au cours de Rice",
+   "Se déplacer discrètement sur le campus",
+   "Boire de la bière avec les étudiants le soir, les accompagner à Roy's",
+   "Whisky avant dîner avec Barnes et deux ou trois personnes lors de sa seconde visite",
+   "Écouter longuement avant de dire quoi que ce soit"
+  ],
+  "convictions": [
+   "Le curriculum doit reconnaître les intérêts et aptitudes spontanés des étudiants",
+   "La vérité d'une idée est dans sa fonction ; l'expérience en est le test",
+   "L'enfant (l'étudiant) est le point de départ, le centre et la fin de l'éducation",
+   "L'éducation est la méthode fondamentale du progrès et de la réforme sociale",
+   "Choisir des vérités définitives présuppose l'autoritarisme",
+   "L'art franchit les barrières qui divisent les êtres humains",
+   "La démocratie est foi dans l'intelligence humaine et l'expérience coopérative",
+   "Garder l'œil sur l'individu préserve l'expérience de la banalisation"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1931-01",
+    "precision": "mois",
+    "moment": "Préside la Conference on Curriculum à Rollins College ; ouvre la semaine en demandant aux étudiants délégués ce qui les excite spontanément (travail, vie économique, loisirs, amitié, gloire, sexe) ; reste silencieux pendant que Watson domine le débat",
+    "etat_interieur": "Sérénité d'observateur au milieu d'une effervescence intellectuelle nationale ; c'est là que Rice, qui l'admire énormément, découvre chez lui le lien entre pédagogie et démocratie",
+    "refs": [
+     "EV-01598",
+     "SC-00379",
+     "EV-01584",
+     "RE-00727",
+     "EV-01509"
+    ]
+   },
+   {
+    "date": "1934",
+    "precision": "annee",
+    "moment": "Première visite à Black Mountain : déçoit légèrement la communauté car il ne s'enthousiasme pas visiblement comme les visiteurs précédents ; observe tranquillement, assiste chaque jour au cours de Rice, se balade discrètement, boit de la bière avec les étudiants le soir",
+    "etat_interieur": "Confortable dans le retrait ; décourage gentiment qu'on le traite en Grand Philosophe",
+    "refs": [
+     "EV-02273",
+     "CI-01199"
+    ]
+   },
+   {
+    "date": "1934",
+    "fin": "1935",
+    "precision": "annee",
+    "moment": "Deux visites d'une semaine ou plus (dont deux semaines au cours sur Platon de Rice) ; lors d'une réunion de la Progressive Education Association à Atlanta, éclipse le déjeuner officiel pour rejoindre les étudiants au bistrot ; répond à la crainte de Rice de voir l'expérimentation devenir pédante",
+    "etat_interieur": "Figure tutélaire qui rassure Rice sur l'avenir du collège ; joie simple du compagnon du soir",
+    "refs": [
+     "EV-02289",
+     "SC-00597",
+     "CI-01267",
+     "RE-00960",
+     "EV-02421"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "moment": "Après sa première visite (selon Molesworth), écrit à Rice : le travail du collège est impératif pour la démocratie, il existe aux racines mêmes d'une vie démocratique ; accepte de rejoindre le Conseil consultatif et donne des centaines de livres à la bibliothèque",
+    "etat_interieur": "Caution lucide et engagée : légitimation du collège par la figure majeure de l'éducation progressiste, en pleine crise",
+    "refs": [
+     "EV-02429",
+     "SC-00622",
+     "CI-01259",
+     "RE-00723"
+    ]
+   },
+   {
+    "date": "1937-01",
+    "precision": "mois",
+    "moment": "Dans Social Frontier, critique Hutchins : son recours à une autorité fixe tient de la méfiance envers la liberté — qui décidera des vérités définitives ? Rice souscrit à cette critique",
+    "etat_interieur": "Combat intellectuel tranquille contre l'autoritarisme éducatif",
+    "refs": [
+     "EV-02703",
+     "CI-01428",
+     "RE-00685",
+     "ID-01103"
+    ]
+   },
+   {
+    "date": "1940-07-18",
+    "precision": "jour",
+    "moment": "Lettre d'encouragement à Ted Dreier : impossible de séparer travail et vie du collège, un exemple vivant de la démocratie en action, enraciné aux grass roots de la vie démocratique",
+    "etat_interieur": "Fidélité de longue durée à l'expérience de Black Mountain, quel que soit l'issue de la crise présente",
+    "refs": [
+     "EV-03117",
+     "EV-03118",
+     "CI-01586",
+     "ID-01369"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1915",
+    "precision": "annee",
+    "moment": "Publie Democracy and Education ; plaide depuis la fin des années 1890 pour l'éducation progressiste",
+    "refs": [
+     "OE-00260",
+     "PE-00091",
+     "CI-00247"
+    ]
+   },
+   {
+    "date": "1931-01",
+    "precision": "mois",
+    "moment": "Présidence de la conférence de curriculum de Rollins, Winter Park : rencontre avec Rice (et Morgan), publicité nationale",
+    "refs": [
+     "PE-00091",
+     "EV-01598"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Hôte à New York de rencontres où Rice croise Edgar Lee Masters ; débats épistolaires fréquents avec Hutchins",
+    "refs": [
+     "PE-00091"
+    ]
+   },
+   {
+    "date": "1934",
+    "precision": "annee",
+    "moment": "Publication d'Art as Experience (conférences de Harvard, 1932) : l'art exprime et brise les barrières entre les humains",
+    "refs": [
+     "OE-01055",
+     "CI-01224",
+     "ID-01134"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1940-07-18",
+    "precision": "jour",
+    "moment": "Lettre à Dreier conservée aux NC State Archives, réaffirmant son soutien",
+    "refs": [
+     "EV-03118",
+     "EV-03119"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "annee",
+    "moment": "Portrait photographique par Josef Breitenbach (épreuve gélatino-argentique)",
+    "refs": [
+     "PE-00091"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "periode",
+    "moment": "Préside une enquête impartiale sur la mort de Trotsky, à la demande de personnes passionnément intéressées ; Goodman y voit un rare usage raisonnable d'un sage judicieux et incorruptible",
+    "refs": [
+     "EV-05005"
+    ]
+   },
+   {
+    "date": "1950",
+    "fin": "1960",
+    "precision": "periode",
+    "moment": "Postérité ambiguë : une génération après le New Deal, sa vision morale est en grande partie réalisée dans la loi et les mœurs, mais ses conceptions sociales ont fini en technocratie et conformisme suburbain ; Goodman déplore que son instrumentalisme ait été détourné — d'immenses moyens employés à la place de la valeur",
+    "refs": [
+     "PE-00091",
+     "RE-03304",
+     "EC-03656"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Amitié, admiration de Rice, mentorat",
+    "evolution": "Rencontre à Rollins en 1931 ; Dewey fournit à Rice le lien entre pédagogie et démocratie ; visites à Black Mountain, soutien épistolaire, poste au conseil consultatif et dons de livres. Rice le vénère comme le seul homme entièrement apte et fait pour vivre dans une démocratie, tout en jugeant rétrospectivement que les éducateurs progressistes ont trahi l'esprit de leur maître",
+    "refs": [
+     "RE-00022",
+     "RE-00026",
+     "RE-00347",
+     "RE-00685",
+     "RE-00723",
+     "RE-00727",
+     "RE-00895",
+     "RE-00915",
+     "RE-00946",
+     "RE-00960"
+    ]
+   },
+   {
+    "avec": "Albert Barnes",
+    "nature": "Amitié",
+    "evolution": "Barnes, « bon ami » de Dewey, l'accompagne au collège en 1934-35, offrant une caisse entière de whisky ; whiskys quotidiens avant dîner",
+    "refs": [
+     "RE-00945",
+     "EV-02273"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Convergence intellectuelle (admiration)",
+    "evolution": "Albers suit Democracy and Education (traduit en allemand) dès 1920, reprend la critique de la transmission sélective et fait de la croissance le concept central de l'éducation — probablement sans avoir lu Dewey directement ; Dewey a publiquement loué les ambitions de Black Mountain",
+    "refs": [
+     "RE-00245",
+     "RE-00442",
+     "ID-01162"
+    ]
+   },
+   {
+    "avec": "Robert Hutchins",
+    "nature": "Adversaire intellectuel",
+    "evolution": "Débats fréquents par écrit ; dans Social Frontier (janvier 1937), Dewey lui reproche son recours à une autorité fixe",
+    "refs": [
+     "PE-00091",
+     "EV-02703"
+    ]
+   },
+   {
+    "avec": "Theodore Dreier",
+    "nature": "Soutien épistolaire",
+    "evolution": "Lettre d'encouragement du 18 juillet 1940 approuvant le projet du collège",
+    "refs": [
+     "EV-03117",
+     "EV-03118",
+     "EV-03119"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Chronologie des visites : Duberman situe une première visite en 1934 (déception initiale de la communauté), Molesworth en 1935 (première visite suivie de la lettre « grass roots » à Rice) ; Chaddock parle de deux visites d'une semaine ou plus en 1934-35. Aucune source ne donne de dates au jour",
+   "Lettre « grass roots » : datée de 1935 à Rice (Molesworth) mais formulée à l'identique dans la lettre à Dreier du 18 juillet 1940 — Dewey réutilise sa formule, ou deux lettres distinctes se recoupent",
+   "Membre du conseil consultatif « dès la fondation » (Díaz) ou « après la seconde visite » en 1934-35 (Duberman)"
+  ],
+  "situations_revelatrices": [
+   "La conférence de Rollins : assis en silence à écouter Watson et sa claque pendant que sa propre présence domine la salle",
+   "Le premier soir à Black Mountain : la communauté déçue qu'il ne s'enthousiasme pas visiblement, lui qui observe tranquillement",
+   "Le bistrot d'Atlanta : quitter le déjeuner officiel pour rejoindre les étudiants au bar",
+   "La conversation avec Rice sur la banalisation : une seule phrase pour répondre à une angoisse existentielle",
+   "L'écriture de la lettre de soutien : le poids d'une caution donnée à une institution fragile"
+  ],
+  "citations": [
+   "CI-00247",
+   "CI-00807",
+   "CI-00848",
+   "CI-00999",
+   "CI-01199",
+   "CI-01224",
+   "CI-01259",
+   "CI-01267",
+   "CI-01395",
+   "CI-01428",
+   "CI-01586"
+  ],
+  "questions_ouvertes": [
+   "Dates exactes de naissance et de mort (non données par les fiches)",
+   "Le contenu exact des conversations de Dewey avec Rice à Black Mountain, au-delà de la phrase rapportée sur l'individu",
+   "Ce que Dewey a pensé des crises internes du collège (Rice, Albers, départ de Rice en 1938) — les fiches n'en disent rien",
+   "L'étendue réelle de son rôle au Conseil consultatif : consulté activement ou caution de prestige ?",
+   "La liste des centaines de livres donnés à la bibliothèque"
+  ]
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "passe": "mois",
+ "cle": "1943-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4368,
+  "sortie": 14039,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1943-09",
+  "session": "Rentrée d'automne 1943, après la session d'été (déduit : la faculté a décidé fin août de rouvrir)",
+  "saison_et_climat": "Fin d'été puis entrée en automne en Caroline du Nord. Les fiches ne décrivent pas le temps de septembre ; la chaleur écrasante de l'été, décrite par Lane pour l'équipe de route, peut encore peser sur les chantiers (déduit).",
+  "situation": "Le collège rouvre après un été consacré au chantier, au mica et à la recherche de fonds : 17 000 $ de promesses d'été et 55 étudiants espérés, dont 20 à 25 % de garçons (attesté pour les espoirs, non pour le résultat). La faculté est en creux : Lindsley, Evarts, Boyden, Mangold, Babcock et French sont partis à l'effort de guerre, et Kocher quitte le collège en 1943. Le chantier communautaire, lancé à l'automne 1940 pour près de trois ans, touche à sa fin. Albers, Dreier et Wunsch dominent encore la faculté, contestés par de nouveaux enseignants plus énergiques. Le collège vit entre reconstruction et menace de déclin, et cherche à tenir ses idées maîtresses.",
+  "presents_probables": [
+   {
+    "nom": "Jean Charlot",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Eric Bentley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lorrie Goulet",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Sam Brown",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1943-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Fin août, « dans l'euphorie du mica », la faculté décide de rouvrir, avec 17 000 $ de promesses d'été et 55 étudiants espérés. Marshall Field avait proposé 10 000 $ en juillet.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1943-09-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Jean Charlot arrive chez les Albers et admire leurs photographies du Mexique, qu'il note dans son journal.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03433",
+     "SC-00867"
+    ]
+   },
+   {
+    "date": "1943-09-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Charlot donne sa conférence sur le Mexique, suivie d'une réception chez les Albers avec du vin ; on lui propose d'enseigner l'été suivant.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03432",
+     "SC-00868"
+    ]
+   },
+   {
+    "date": "1943-09",
+    "precision": "mois",
+    "ce_qui_arrive": "La rentrée révèle la faiblesse du recrutement. Des jeunes femmes sont déjà parties vers les WACs, les WAVES et les usines de munitions.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Wunsch prononce le discours de rentrée de la onzième année : le collège est neuf, « d'abord une communauté, puis un collège », et chacun doit examiner les règles héritées. Salué comme éloquent, il est soupçonné de rhétorique démocratique.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Été 1943 : Straus accuse Bentley, en faculté, d'endoctriner dans un sens pro-soviétique et anti-britannique ; Bentley répond par une déclaration en sept points.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Une mine de mica, ouverte sur la propriété pour l'effort de guerre, absorbe une part de l'énergie et des espoirs du collège.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1943",
+    "precision": "annee",
+    "ce_qui_arrive": "Lorrie Goulet arrive, venue par My America de Louis Adamic, et passe de la sociologie de Miller à l'art d'Albers.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Clark Foreman arrive à l'automne et co-enseigne « Europe moderne » avec Bentley, qualifié de « long débat ».",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1943",
+    "precision": "annee",
+    "ce_qui_arrive": "Kocher quitte le collège.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Au fil de 1943, le travail manuel reste la base de la vie commune : allées gravelées bordées de galax et de laurier, route nivelée par l'équipe d'Albers, lambrissage et peinture de la salle à manger et des halls du lodge. Molly Gregory écoule ses surplus de légumes jusqu'au village et à Asheville. La vie culturelle tient : concerts du samedi suivis par des blessés du Moore General Hospital, répétitions du Quatuor Kolisch au réfectoire, Albers qui peint la nuit dans la salle blanche de Black Dwarf, expositions de photographies (Barbara Morgan sur Martha Graham). Les bals du samedi existent, et la Fête de 1943, avec revue satirique, cancan, boogie-woogie de Sam Brown et repas aux chandelles, a marqué l'année (date non donnée).",
+  "tensions": [
+   "Les mœurs : l'« accord » interdisant les visites dans les chambres de l'autre sexe est refusé par les étudiants, qui réclament voix égale et libre discussion des « standards moraux » en réunion générale.",
+   "Le malaise de Wunsch devant les couples qui quittent ensemble les bals ou se montrent enlacés après trop de vin.",
+   "La « tempête » dans la faculté : les nouveaux enseignants s'opposent à Albers, Dreier et Wunsch qui dominent toujours.",
+   "La rivalité Bentley/Straus : accusation d'endoctrinement, Bentley qui attire les étudiants vers le théâtre et la politique.",
+   "La codification (Duberman) : notation externe pour les transferts, absences surveillées, passage accéléré en division supérieure.",
+   "L'énergie partagée entre la mine de mica et le travail agricole, alors que les effectifs restent faibles.",
+   "La rhétorique démocratique de Wunsch, qui certains soupçonnent."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Arrivée de Charlot chez les Albers",
+    "date": "1943-09-06",
+    "lieu": "Maison des Albers, Black Mountain College",
+    "personnages": [
+     "Jean Charlot",
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Charlot arrive chez les Albers et admire leurs photographies du Mexique ; il les consigne dans son journal.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00867",
+     "EV-03433"
+    ]
+   },
+   {
+    "titre": "Conférence de Charlot sur le Mexique",
+    "date": "1943-09-07",
+    "lieu": "Black Mountain College, puis réception chez les Albers",
+    "personnages": [
+     "Jean Charlot",
+     "Josef Albers",
+     "Anni Albers",
+     "communauté du collège"
+    ],
+    "deroule": "Le soir, Charlot parle du Mexique devant la communauté. La réception chez les Albers se fait autour du vin ; on lui demande d'enseigner l'été suivant.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00868",
+     "EV-03432"
+    ]
+   },
+   {
+    "titre": "Discours de rentrée de Wunsch",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Wunsch",
+     "étudiants",
+     "faculté"
+    ],
+    "deroule": "Wunsch ouvre la onzième année en déclarant le collège neuf, d'abord communauté puis collège, et en invitant chacun à examiner les règles héritées. Certains y entendent une rhétorique démocratique suspecte.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Les étudiants refusent l'accord sur les visites",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "étudiants",
+     "Wunsch",
+     "faculté"
+    ],
+    "deroule": "Les étudiants refusent l'« accord » interdisant les visites dans les chambres de l'autre sexe et réclament voix égale et libre discussion des standards moraux en réunion générale.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Straus accuse Bentley en faculté",
+    "date": null,
+    "lieu": "Faculté",
+    "personnages": [
+     "Straus",
+     "Eric Bentley",
+     "faculté"
+    ],
+    "deroule": "Straus accuse Bentley d'endoctriner les étudiants dans un sens pro-soviétique et anti-britannique. Bentley répond par une déclaration en sept points.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "La rentrée de septembre, quand le collège compte ce qu'il a perdu en hommes et en argent",
+    "vers_date": "1943-07",
+    "vers": "L'été du mica : Albers en pantalon blanc dirige l'équipe de route, quatre jeunes filles nivellent le chemin sous une chaleur écrasante, et Molly Gregory vend ses légumes.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La rentrée, quand les étudiants masculins sont déjà rares",
+    "vers_date": "1943-10",
+    "vers": "À la mi-octobre, le dernier contingent de l'Enlisted Reserve Corps est parti ; Sam Brown, atteint de polio, reste le seul étudiant masculin.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Charlot, reçu chez les Albers avec du vin, et l'invitation à enseigner l'été suivant",
+    "vers_date": "1944",
+    "vers": "Charlot enseigne l'été suivant et les fresques de 1944 naissent de cette amitié et de cette collaboration.",
+    "refs": [
+     "SC-00868"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'accusation de Straus contre Bentley en faculté",
+    "vers_date": "1944",
+    "vers": "La rivalité Bentley/Straus débouche sur la scission de 1944.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La rentrée, où Hansgirg n'est pas encore en scène",
+    "vers_date": "1943-11",
+    "vers": "Hansgirg annonce son projet d'extraction de magnésium de l'olivine et offre 20 % au collège ; le don restera sans suite.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le monde de l'art new-yorkais, où Elaine Fried a quitté l'usine Liquidometer sans peindre pendant une année",
+    "vers_date": "1943-12-09",
+    "vers": "Elaine Fried épouse Willem de Kooning, qui enseignera à BMC à l'été 1948.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "Un collège qui rouvre à reculons, entre reconstruction matérielle et déclin de ses effectifs",
+   "L'hospitalité culturelle : le Mexique entre au collège par Charlot, le vin et les images",
+   "Le conflit entre une communauté libre et une codification morale réclamée par la faculté",
+   "La guerre idéologique interne qui oppose les anciens aux nouveaux enseignants",
+   "Le mica, espoir industriel et effort de guerre, qui absorbe l'énergie du collège"
+  ],
+  "lacunes": "On ignore la date exacte de la rentrée, celle du discours de Wunsch et l'effectif réel de septembre. Le sort de la mine de mica diverge selon les fiches (voir questions). Burns dit que Wunsch quitte BMC en 1943, alors que les fiches le montrent à la rentrée et au Nouvel An : contradiction non résolue. Les dates d'arrivée de Bentley, de Foreman et de Lorrie Goulet restent floues. Les épisodes de guerre idéologique (toast à la Révolution d'Octobre, affaire Russell, réunions secrètes, conférences de Straus) ne sont datés qu'autour de 1942-1944. La raison du déplacement de la conférence interraciale à Talladega reste inconnue (Duberman)."
+ }
+}

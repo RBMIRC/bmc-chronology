@@ -1,0 +1,261 @@
+{
+ "passe": "mois",
+ "cle": "1940-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3003,
+  "sortie": 9961,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-12 (décembre)",
+  "session": "Session d'automne probablement en cours (déduit ; les fiches ne décrivent pas le calendrier des sessions)",
+  "saison_et_climat": "Fin d'automne et début d'hiver dans les montagnes de Caroline du Nord (déduit). Le chantier de Lake Eden est en retard sur son objectif « roof by Christmas ». Le terrain drainé était boueux en septembre, et le froid rend le travail plus difficile.",
+  "situation": "Le collège a réglé la sortie de Rice en mars et se construit lui-même à Lake Eden. Le chantier est ouvert depuis le 12 septembre, Kocher travaille à plein temps depuis l'automne, et la faculté ne touche que 40 % de ses salaires non garantis pour 1940-41. Le campus rêvé a été abandonné au profit d'une aile unique conçue par Kocher. Les témoignages sur le climat interne de 1940 divergent : Anne Mangold parle d'une « révolution de palais » sans triomphalisme, Chaddock d'un grand soulagement sans réjouissances. Les photos de Dreier flattent l'image du chantier, mais une contestation étudiante conteste la « mystique du salut par le travail ».",
+  "presents_probables": [
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Godfrey (entrepreneur qui enseigne la construction)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bascombe Allen (chef charpentier)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nim et Nik (étudiants thaïlandais venus de la Harvard School of Architecture)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "deux étudiants mécontents anonymes à l'origine de l'affiche",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-09-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Ouverture du chantier de Lake Eden, avec l'objectif « roof by Christmas ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": "1940-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Un vendredi, le terrain drainé révèle des poches de boue. Godfrey invente un pilon de 27 pieds tiré par le Farmall. Le lundi suivant, étudiants et enseignants coupent des pieux en forêt. Le retard ne dépasse pas deux semaines.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Kocher s'installe à plein temps à Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Dreier fait photographier l'avancement du chantier. Les photos sont montrées à des donateurs, puis à la Maison-Blanche, où Dreier dîne avec les Roosevelt. Cela ne rapporte pas d'argent direct mais remonte le moral.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)",
+     "La mémoire d'Eddie Dreier et la Quiet House"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Arrivée d'étudiants de la Harvard School of Architecture, dont deux Thaïlandais surnommés Nim et Nik.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Affiche nocturne « Wanted: zombies for the work program » qui vise Dreier et les chants folkloriques sur le chemin du chantier. Une assemblée générale houleuse suit, sans date précise.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": "1940-11",
+    "precision": "mois",
+    "ce_qui_arrive": "May Sarton passe dix jours au collège : elle aide au mur de pierre, donne une conférence sur Yeats, lit un long poème sur la liberté et critique le manque d'hommage et de silence, parlant d'un « fétiche de la liberté ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": "1940-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Échéance visée pour la toiture : le toit doit être posé avant Noël. Les fiches ne disent pas si l'objectif est atteint.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "annee",
+    "ce_qui_arrive": "Seuls 40 % des salaires non garantis de la faculté sont payés en 1940-41.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)",
+     "La quête d'argent et de soutiens"
+    ]
+   }
+  ],
+  "quotidien": "Ce qui est documenté, c'est surtout le travail : pieux, charpente, mur de pierre, maçonnerie, transport avec le Farmall. Les cours sont donnés, notamment la construction enseignée par Godfrey, et des chants folkloriques rythment le chemin vers le chantier. Les repas et la vie domestique ne sont pas décrits dans les fiches.",
+  "tensions": [
+   "La contestation contre la « mystique du salut par le travail » : affiche anonyme, chants visés, assemblée houleuse.",
+   "La faculté payée à 40 % de ses salaires non garantis, avec une crise de liquidités pire que du temps de Lee Hall.",
+   "Le retard du chantier face à l'objectif de toiture, et la boue du terrain.",
+   "La menace de la YMCA sur le bail de Blue Ridge, dont le calendrier est contradictoire selon les sources.",
+   "Les tensions autour de Dreier, visé par la contestation alors que ses photos servent la campagne de dons.",
+   "Le souvenir de l'affaire Rice, rappelé par les récits divergents sur le climat de 1940 (Mangold contre Chaddock).",
+   "Le campus rêvé abandonné au profit de l'aile de Kocher, et les architectes Gropius et Breuer vexés."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La course au toit avant Noël",
+    "date": "1940-12",
+    "lieu": "Lake Eden, chantier de l'aile Kocher",
+    "personnages": [
+     "Kocher",
+     "Godfrey",
+     "Bascombe Allen",
+     "Dreier",
+     "étudiants du work program"
+    ],
+    "deroule": "Les charpentiers poussent la pose de la toiture contre le froid et la neige. Godfrey adapte le pilon et le Farmall, Allen organise les équipes, et Kocher doit arbitrer entre la qualité et le délai. La scène peut s'achever sur la question de savoir si le toit tiendra avant Noël, sans réponse dans les fiches.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le matin de l'affiche",
+    "date": null,
+    "lieu": "Chemin entre le campus et le chantier de Lake Eden",
+    "personnages": [
+     "Dreier",
+     "les deux étudiants mécontents anonymes",
+     "étudiants du work program"
+    ],
+    "deroule": "Au petit matin, l'affiche « Wanted: zombies for the work program » est découverte. Dreier, qui a photographié le chantier et dîné à Washington, doit répondre à une critique qui vise aussi les chants folkloriques. La scène débouche sur une assemblée générale houleuse.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)",
+     "La mémoire d'Eddie Dreier et la Quiet House"
+    ]
+   },
+   {
+    "titre": "Les étudiants venus de Harvard",
+    "date": null,
+    "lieu": "Lake Eden, chantier",
+    "personnages": [
+     "Nim",
+     "Nik",
+     "Kocher",
+     "Godfrey"
+    ],
+    "deroule": "Deux étudiants thaïlandais, venus d'Harvard, découvrent un chantier où l'on coupe des pieux à la main et où l'on tire les poutres au Farmall. Leur rapport au travail communautaire peut être comparé à celui des étudiants américains.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le mur de pierre après Sarton",
+    "date": null,
+    "lieu": "Lake Eden, mur de pierre",
+    "personnages": [
+     "May Sarton (souvenir)",
+     "étudiants et enseignants"
+    ],
+    "deroule": "Des membres de la communauté reprennent le mur de pierre où Sarton a travaillé en novembre. Ils discutent de sa critique du manque de silence et d'hommage et du « fétiche de la liberté ».",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le chantier de décembre, quand le retard de la toiture se fait sentir",
+    "vers_date": "1940-09",
+    "vers": "Le vendredi de septembre où le terrain révèle la boue, et la fabrication du pilon de 27 pieds.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La contestation contre le travail forcé",
+    "vers_date": "1940-05",
+    "vers": "Mai : le collège dégage 3 000 $ pour le tracteur Farmall et le wagon de ciment, dans l'année de grâce accordée par la YMCA.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les salaires gelés et les donateurs craintifs",
+    "vers_date": "1940-03",
+    "vers": "La sortie de Rice est réglée en mars : steak grillé, cocktails, discussion sur New Harmony et Brook Farm, et annonce d'un départ volontaire.",
+    "refs": [
+     "Après Rice : sa vie d'exilé et son héritage",
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La faculté qui cherche à apaiser la contestation des étudiants",
+    "vers_date": "1941",
+    "vers": "La faculté pose un maximum conseillé d'un à trois après-midi de travail par semaine, ce qui apaisera le conflit.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les caisses vides du collège en décembre",
+    "vers_date": "1941",
+    "vers": "L'année suivante, seuls 32 % des salaires non garantis sont payés. Les dons ne viendront qu'après 1940.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)",
+     "La quête d'argent et de soutiens"
+    ]
+   }
+  ],
+  "motifs": [
+   "La mystique du salut par le travail",
+   "Le campus rêvé contre le campus possible",
+   "La liberté comme « fétiche »",
+   "La communauté qui bâtit elle-même son collège",
+   "L'argent qui manque et la faculté mal payée",
+   "L'après-Rice et le fondateur absent"
+  ],
+  "lacunes": "Aucune fiche ne date précisément décembre 1940. On ignore si le toit est posé avant Noël, si les cours se tiennent, quel est le sort du travailleur autocrate Gothe, où se trouvent Albers, Sarton, Dewey et Rice à ce moment, et la date exacte de l'affiche et de l'assemblée. Le calendrier de la menace YMCA est contradictoire. Les fiches n'ont pas d'identifiants EV, SC ou PE ; les références renvoient donc aux titres des fiches."
+ }
+}

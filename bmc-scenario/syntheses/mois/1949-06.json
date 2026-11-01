@@ -1,0 +1,277 @@
+{
+ "passe": "mois",
+ "cle": "1949-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4275,
+  "sortie": 14419,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1949-06",
+  "session": "fin du semestre de printemps ; transition vers la session d'été (juillet, six semaines, dirigée par Fuller selon certaines fiches)",
+  "saison_et_climat": "début d'été ; aucune fiche ne décrit le temps ni le climat de juin 1949, seule la saison est déductible",
+  "situation": "Le collège achève son semestre de printemps dans la crise. Dreier est parti depuis mi-avril. Les quatre démissionnaires (Schlesinger, Guermonprez, Anni et Josef Albers) assurent leurs cours jusqu'à la fin de juin. Josef Albers part pour le Mexique le 10 juin. Le rectorat reste vacant : Pittenger ne reçoit les prérogatives administratives qu'en juillet, et Trayer est cité comme recteur par intérim. Les finances restent précaires, avec des pensions contestées et une vente de 70 acres en préparation. Asawa a quitté le collège pour San Francisco.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers (jusqu'au 10 juin)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers (jusqu'à la fin du semestre)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Schlesinger (jusqu'à la fin du semestre)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Guermonprez (jusqu'à la fin du semestre)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Olson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bodky",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1949-06-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Josef Albers part pour le Mexique, où il restera jusqu'au 15 août ; il y commence les Homage to the Square",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1949"
+    ]
+   },
+   {
+    "date": "1949-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Fin de l'engagement d'enseignement des quatre démissionnaires, qui clôt l'ère Albers-Dreier",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04855",
+     "synthèse 1949"
+    ]
+   },
+   {
+    "date": "1949-06-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Fuller rédige une note de trois pages contenant sa remarque sur la « plomberie » cosmique",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04871"
+    ]
+   },
+   {
+    "date": "1949-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Asawa s'installe à San Francisco et croise tangentiellement les cercles bohèmes",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04870"
+    ]
+   },
+   {
+    "date": "1949-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Aydelotte écrit que rappeler John Andrew Rice serait désastreux pour le collège",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1949"
+    ]
+   }
+  ],
+  "quotidien": "Derniers cours du semestre de printemps, que les enseignants démissionnaires assurent jusqu'au bout malgré la rupture. Vie d'atelier et de cours réduite, dans un collège à effectifs en baisse et sous pression financière. Les appels de fonds aux anciens se poursuivent, avec des lettres du nouveau Board of Fellows. Les fiches ne décrivent ni repas ni musique propres à ce mois ; le festival Bach de Bodky, la fête de Fuller et le théâtre d'Olson relèvent de l'été suivant.",
+  "tensions": [
+   "Albers contre Pittenger : Pittenger juge Albers « impossible comme exécutant », et Josef juge injuste et dégoûtante la réunion du 29 janvier",
+   "Pensions et détournement : Pittenger refuse de s'engager tant que la question n'est pas tirée au clair ; l'auditeur Cole garantit la légalité mais seuls 80 % des fonds sont protégés",
+   "Dehn et Natasha Goldowski ont tenté de retenir les Albers pour la session d'été ; Albers répond que c'est « clos »",
+   "Anni Albers évoque la tension, le manque d'intimité et le manque d'argent constants",
+   "Le Conseil suspend les rentes d'été des Albers ; Dreier proteste, Pittenger reproche à Albers d'avoir « presque coulé le bateau »",
+   "Sources divergentes : Albers et Guermonprez nient qu'on ait formellement demandé la démission de Dreier, et l'ordre des événements de janvier-février varie selon les sources",
+   "Trayer est cité comme recteur intérimaire alors que Pittenger doit assumer le rectorat en juillet",
+   "La vente de 70 acres à Grove Stone sauve la trésorerie mais suscite des réserves chez des professeurs"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le départ de Josef Albers pour le Mexique",
+    "date": "1949-06-10",
+    "lieu": "Black Mountain College, puis Mexique",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers quitte un collège où il a refusé de rester pour l'été, malgré les efforts de Dehn et de Goldowski. Il arrive au Mexique pour commencer les Homage to the Square. Son départ acte la fin de l'ère Albers-Dreier.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1949",
+     "EV-04855"
+    ]
+   },
+   {
+    "titre": "La note de Fuller sur la plomberie",
+    "date": "1949-06-01",
+    "lieu": null,
+    "personnages": [
+     "Buckminster Fuller"
+    ],
+    "deroule": "Fuller rédige une note de trois pages qui contient sa remarque sur la « plomberie » cosmique. Le thème sera repris plus tard dans l'été, dans sa fête où il lit un poème de 200 pages.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04871"
+    ]
+   },
+   {
+    "titre": "Asawa quitte le collège pour San Francisco",
+    "date": "1949-06",
+    "lieu": "San Francisco",
+    "personnages": [
+     "Ruth Asawa"
+    ],
+    "deroule": "Six mois après la brochure, Asawa s'installe à San Francisco et croise les cercles bohèmes. Elle entame sa vie californienne en dehors du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04870"
+    ]
+   },
+   {
+    "titre": "Une lettre d'Aydelotte sur John Andrew Rice",
+    "date": "1949-06",
+    "lieu": null,
+    "personnages": [
+     "Aydelotte",
+     "John Andrew Rice"
+    ],
+    "deroule": "Par courrier, Aydelotte écrit que rappeler John Andrew Rice, beau-frère de sa famille, serait désastreux. La scène se joue entre l'entourage du collège et ses anciens cadres.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1949"
+    ]
+   },
+   {
+    "titre": "Les derniers cours des démissionnaires",
+    "date": "1949-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Schlesinger",
+     "Guermonprez"
+    ],
+    "deroule": "Les quatre démissionnaires tiennent leurs cours jusqu'à la fin du semestre, au milieu d'une faculté déchirée et sans Dreier, parti depuis mi-avril.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04855",
+     "synthèse 1949"
+    ]
+   },
+   {
+    "titre": "Dehn et Natasha tentent de retenir les Albers",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dehn",
+     "Natasha Goldowski",
+     "Josef Albers"
+    ],
+    "deroule": "Dehn et Goldowski insistent pour garder les Albers au moins pour la session d'été. Albers répond que c'est « clos », et la scène tourne court.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1949"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "juin 1949, quand les obligations des pensions sont au cœur des accusations contre Dreier",
+    "vers_date": "1944",
+    "vers": "Institution du fonds de pension : les obligations mises au seul nom d'Albers nourrissent la fureur de 1949",
+    "refs": [
+     "EC-02392"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "juin 1949, au moment où Dreier a quitté le campus pour de bon",
+    "vers_date": null,
+    "vers": "La Quiet House, mémorial de Mark Dreier, mort dans un accident d'automobile près du collège",
+    "refs": [
+     "EC-02393"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "juin 1949, en pleine crise de gouvernance",
+    "vers_date": "1933",
+    "vers": "Les débuts du collège, fondé en réaction aux trustees de Rollins : le Board of Trustees proposé en 1948 y était déjà méprisé et contourné",
+    "refs": [
+     "EC-02391",
+     "synthèse 1949"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "juin 1949, quand Olson est déjà une figure de culte au collège",
+    "vers_date": "1956",
+    "vers": "Olson domine la communauté jusqu'à la fermeture du collège en 1956",
+    "refs": [
+     "EC-02390"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "juin 1949, à la veille de la session d'été",
+    "vers_date": "1949-07",
+    "vers": "Pittenger assume le rectorat, la faculté lui accordant toutes les prérogatives administratives ; le Conseil suspend les rentes d'été des Albers",
+    "refs": [
+     "synthèse 1949"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "juin 1949, Albers au Mexique",
+    "vers_date": "1949",
+    "vers": "À l'automne, Albers expose au MoMA, enseigne à Cincinnati et entame sa collaboration avec Kahn à Yale",
+    "refs": [
+     "synthèse 1949"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "juin 1949, au cœur de la querelle des pensions",
+    "vers_date": "1951",
+    "vers": "La querelle des factions culmine en 1950-1951, pendant la recherche d'un recteur",
+    "refs": [
+     "synthèse 1949"
+    ]
+   }
+  ],
+  "motifs": [
+   "fin d'une ère et rupture avec le collège fondateur",
+   "argent et pensions comme levier de pouvoir",
+   "loyauté et désertion (« presque coulé le bateau »)",
+   "réputation et insultes (« sorcière », déséquilibre psychique)",
+   "Albers, entre départ et attachement au collège",
+   "le collège comme chantier de gouvernance"
+  ],
+  "lacunes": "On ignore si Anni Albers accompagne Josef au Mexique après le 10 juin, la date exacte de fin du semestre, et si Pittenger, Fuller, Olson, Bodky, Rauschenberg ou Susan Weil sont sur le campus en juin. Aucune fiche ne décrit le quotidien précis (repas, musique) de ce mois, ni le temps qu'il fait. La date de conclusion de la vente de 70 acres reste inconnue."
+ }
+}

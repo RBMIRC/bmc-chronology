@@ -1,0 +1,388 @@
+{
+ "passe": "mois",
+ "cle": "1954-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 14928,
+  "sortie": 21056,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1954-02",
+  "session": "Intersession d'hiver : collège fermé pour l'hiver, entre deux trimestres. Le trimestre de printemps doit débuter le 29 mars 1954 selon la lettre d'Olson du 18 février (EV-06442).",
+  "saison_et_climat": "Fin d'hiver : neige encore au sol sur le campus, avec des pointes déjà printanières. À New York, vent sur l'Hudson et logements glacés. En Caroline du Nord, crépuscule dans les pins.",
+  "situation": "Le collège est presque vide et sans argent. L'appel de décembre n'a rapporté qu'environ 250 dollars, les cours sont suspendus et il ne reste que huit à dix personnes. Olson, malade et éprouvé par le froid, exerce le rectorat de fait et prépare le printemps. Il vient de promettre à Rumaker une graduation en écriture, sous conditions. Creeley est encore à Majorque : il n'arrivera que le 13 mars. Rumaker passe la plus grande partie du mois à New York, où il vit de peu et cherche un toit, avant de rentrer par la route vers la fin du mois.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Michael Rumaker (de retour vers la fin du mois)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tom Field",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Terence Burns",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Connie Olson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Kaiser",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stefan Wolpe",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jorge Fick",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1954-02-18",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson, après un mois éprouvant, répond à Rumaker qu'il peut se présenter à la graduation en écriture. Il doit déclarer une date, et un comité intermédiaire fixera les lacunes à combler. Olson, Rumaker et Fick seraient les premiers diplômés d'un département d'écriture.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06442",
+     "EC-03016"
+    ]
+   },
+   {
+    "date": "1954-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker rentre à Black Mountain dans le break Jeep de Joe Fiore, avec Tom Field, après une route de nuit à travers les contreforts de pins.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06437",
+     "SC-01730"
+    ]
+   },
+   {
+    "date": "1954-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Au petit matin de son retour, Rumaker parcourt le campus de Lake Eden et touche les jonquilles qui percent la neige.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06438",
+     "SC-01731"
+    ]
+   },
+   {
+    "date": "1954-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker s'installe à Meadows Inn avec Tom Field et Terence Burns, chacun dans sa chambre, en attendant Creeley et les premiers exemplaires de la Black Mountain Review.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06439"
+    ]
+   },
+   {
+    "date": "1953-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Rumaker loue une chambre étroite dans une pension près de l'Hudson, à quatre dollars la semaine, et travaille chez Prentice-Hall.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06250",
+     "SC-01690"
+    ]
+   },
+   {
+    "date": "1954-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Merrill Gillespie et Herb Roco, arrivés de Black Mountain sans logement, dorment enfermés dans la vieille Ford de Herb et cherchent un toit le jour.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06432"
+    ]
+   },
+   {
+    "date": "1954-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Merrill et Herb font l'amour dans leurs sacs de couchage à Minetta Lane. Rumaker, furieux, les fait taire en toussant jusqu'à ce qu'ils s'arrêtent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06433",
+     "SC-01728"
+    ]
+   },
+   {
+    "date": "1954-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Le lendemain, ils trouvent un immense loft bon marché de Rivington Street, ancienne usine à remettre en état, et y dorment en sacs de couchage.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06434"
+    ]
+   },
+   {
+    "date": "1954-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Mary Ann quitte Minetta Lane pour vivre avec Seymour à West 12th Street, et Rumaker, incapable de payer seul le loyer, cherche une chambre moins chère.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06435"
+    ]
+   },
+   {
+    "date": "1954-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker prend une chambre minuscule chez une logeuse du Sud qui ne loue qu'aux amateurs d'opéra. Il y entre avec sa malle, expédiée par fret depuis le collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06436",
+     "SC-01729"
+    ]
+   },
+   {
+    "date": "1954-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Malgré ses AVC récents, William Carlos Williams lit à la 92nd Street YMHA. Rumaker, trop timide pour parler d'Olson, n'obtient qu'un sourire interrogateur du poète.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06431",
+     "SC-01727"
+    ]
+   },
+   {
+    "date": "1954-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker, en pause de travail, arpente le Bowery des années 1890 de Stephen Crane et pense à Maxwell Bodenheim.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06430"
+    ]
+   }
+  ],
+  "quotidien": "En 1954 en général (synthèse annuelle), la vie commune s'est défaite : le bas du campus est fermé, les repas communs ont cessé, et les célibataires vivent en communes de trois à cinq personnes qui cuisinent sur plaques chauffantes et volent à l'A&P avec la complicité de la caissière. À Meadows Inn, Rumaker, Field et Burns se partagent le premier étage. À New York, Rumaker vit de peu : quatre dollars la semaine pour une chambre, linge propre une fois par semaine, loyer exigé à l'heure, un taxi de deux dollars gaspillé.",
+  "tensions": [
+   "Olson, malade et sans argent, porte seul le collège. Sa promesse de graduation reste conditionnelle, et le « département » d'écriture est décrit tantôt à trois diplômés, tantôt à deux enseignants (EV-06442).",
+   "Creeley est absent. Rumaker attend un homme qu'il ne connaît que par le papier, et la Review n'est pas encore sortie (EC-03079, EC-03084).",
+   "La liaison d'Olson avec Betty Kaiser sert de toile de fond ; Rumaker entend les ébats du couple au-dessus de sa chambre à Meadows Inn, mais la fiche ne date pas ce fait précisément (EC-03034).",
+   "Rumaker, entre pauvreté et désir, ressent une rage muette envers Merrill, qui le fait tousser dans le noir pour se venger (SC-01728)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les sacs de couchage de Minetta Lane",
+    "date": "1954-02",
+    "lieu": "Minetta Lane, New York",
+    "personnages": [
+     "Michael Rumaker",
+     "Merrill Gillespie",
+     "Herb Roco"
+    ],
+    "deroule": "Après leurs premières douches depuis des jours, les deux amants se glissent dans leurs sacs de couchage à quelques pieds du matelas de Rumaker. Éveillé dans le noir, celui-ci tousse de plus en plus fort jusqu'à ce qu'ils renoncent, puis reste rigide, dents serrées. Le lendemain, ils trouvent un loft à Rivington Street.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01728",
+     "EV-06433",
+     "EV-06434"
+    ]
+   },
+   {
+    "titre": "Williams à la YMHA",
+    "date": "1954-02",
+    "lieu": "92nd Street YMHA, New York",
+    "personnages": [
+     "William Carlos Williams",
+     "Michael Rumaker"
+    ],
+    "deroule": "Salle comble. Le poète, la parole ralentie par les AVC, lit en s'excusant de ses déformations. Quand il parle du pied variable, sa voix s'enflamme. À la signature, Rumaker, qui voudrait évoquer Olson et Black Mountain, n'ose pas. Williams le surprend à le fixer et lui renvoie un sourire interrogateur.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01727",
+     "EV-06431",
+     "EC-03013"
+    ]
+   },
+   {
+    "titre": "La chambre et la question de l'opéra",
+    "date": "1954-02",
+    "lieu": "brownstone, West 12th Street, New York",
+    "personnages": [
+     "Michael Rumaker",
+     "la logeuse"
+    ],
+    "deroule": "La porte ne s'ouvre que d'une fente. La logeuse, au doux accent du Sud, demande à Rumaker s'il aime l'opéra, puis lui confie qu'on peut toujours faire confiance à un amateur d'opéra. Elle exige le verrou, désigne une femme d'en haut qui « a une vie dans une autre rue », et le conduit vers une chambre minuscule au tuyau de chauffe.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01729",
+     "EV-06436"
+    ]
+   },
+   {
+    "titre": "L'oiseau sur la route",
+    "date": "1954-02",
+    "lieu": "contreforts de pins de Caroline du Nord",
+    "personnages": [
+     "Michael Rumaker",
+     "Joe Fiore",
+     "Tom Field"
+    ],
+    "deroule": "Rumaker se réveille au crépuscule dans le break Jeep. Un grand oiseau noir fond sur la route et éventre une petite bête qui frémit sur l'asphalte. Rumaker y verra plus tard le présage d'une réalité délirante, plus d'un an après.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01730",
+     "EC-03018"
+    ]
+   },
+   {
+    "titre": "Retour au bercail",
+    "date": "1954-02",
+    "lieu": "campus, sentier de Lake Eden",
+    "personnages": [
+     "Michael Rumaker"
+    ],
+    "deroule": "Au petit matin, Rumaker fait le tour du campus en posant chaque pas avec précaution, se penche pour toucher les jonquilles sous la neige, et se sent revenu là où il appartient, au moment même où le collège se défait.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01731",
+     "EV-06438"
+    ]
+   },
+   {
+    "titre": "La lettre sur la graduation",
+    "date": "1954-02-18",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Olson, à peine remis de la maladie et du froid, écrit à Rumaker qu'il peut se présenter en écriture. Il faut fixer une date, et un comité définira les lacunes et le niveau exigé. La lettre fait de Rumaker l'un des premiers diplômés possibles d'un département qui n'existe encore qu'à peine.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06442",
+     "EC-03016"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Lecture de Williams à New York : la paralysie de la timidité devant l'artiste admiré, comme autrefois à Philadelphie.",
+    "vers_date": null,
+    "vers": "Conférence de Ben Shahn à Philadelphie, où Rumaker était déjà trop timide pour parler.",
+    "refs": [
+     "EC-03013"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Fin février, retour vers le collège et le nom de Creeley, qui revient dans les lettres de Rumaker.",
+    "vers_date": "1950-04-21",
+    "vers": "Avril 1950 : Creeley, éleveur de poulets à Littleton, entame sa correspondance avec Olson, qui durera quatre ans avant leur rencontre.",
+    "refs": [
+     "EC-03015",
+     "EC-03080"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "À Meadows Inn, le plafond qui laisse passer les ébats d'Olson et Betty (≈1954).",
+    "vers_date": null,
+    "vers": "L'enfance dans la maison du New Jersey, où les cloisons en papier laissaient entendre les parents et où l'enfant craignait l'incendie.",
+    "refs": [
+     "EC-03034"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La chambre minuscule de West 12th Street, étouffante et pourtant à soi.",
+    "vers_date": null,
+    "vers": "L'enfance à trois dans un même lit, puis le dortoir de South Lodge et la chambre partagée avec Merrill.",
+    "refs": [
+     "EC-03017",
+     "EC-03020"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin février, Creeley est attendu à Black Mountain et Rumaker ne l'a jamais vu en personne.",
+    "vers_date": "1954-03-13",
+    "vers": "Creeley arrive à huit heures du matin après une nuit de route et enseigne le soir même. Son premier cours est un désastre.",
+    "refs": [
+     "EC-03019",
+     "EC-03081"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La chambre de Rumaker à New York, où il écrit peu.",
+    "vers_date": "1954",
+    "vers": "L'été 1954 transforme la vie d'écrivain de Rumaker, qu'il ignore encore.",
+    "refs": [
+     "EC-03085"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le retour au campus et la gratitude envers le collège.",
+    "vers_date": "1954-11",
+    "vers": "Thanksgiving aux Meadows Inn : le dernier grand rassemblement convivial, avant les réunions plus rudes et la fermeture.",
+    "refs": [
+     "EC-03041"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le regard de Rumaker sur les marginaux de New York, qu'il commence à noter.",
+    "vers_date": "1954-12",
+    "vers": "Noël 1954 : l'ivrogne gelé et le marine bagarreur, futures matières d'écriture.",
+    "refs": [
+     "EC-03044"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le premier cours de Creeley, que Rumaker raconte plus tard.",
+    "vers_date": "1968",
+    "vers": "Rumaker raconte la scène à Martin Duberman, quatorze ans plus tard.",
+    "refs": [
+     "EC-03081"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le mariage d'Olson et Connie, tenu pour acquis à Black Mountain.",
+    "vers_date": null,
+    "vers": "Des années plus tard, la liaison épistolaire d'Olson avec Boldereff et l'absence de mariage légal de Charles et Connie seront révélées.",
+    "refs": [
+     "EC-03038"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La voix de Creeley, déjà familière par la page.",
+    "vers_date": "1970",
+    "vers": "Dans les années 1970, la voix de Creeley continue d'être diffusée à la radio, comme dans son atelier de St. Mark's.",
+    "refs": [
+     "EC-03021"
+    ]
+   }
+  ],
+  "motifs": [
+   "L'oiseau noir qui éventre sa proie, présage sur la route du retour.",
+   "La toux comme vengeance d'un amant éconduit sous son propre toit.",
+   "L'étroitesse d'une chambre à soi, luxe après la promiscuité passée.",
+   "La voix du maître blessé, qui transmet le flambeau pendant que le disciple reste muet.",
+   "La gratitude envers le campus au moment même où il se meurt.",
+   "La filiation spirituelle : Olson comme père d'écrivain, Creeley connu d'abord par la page.",
+   "L'opéra comme code d'initiés, qui sert aussi de mot de passe social."
+  ],
+  "lacunes": "Aucune fiche ne donne de jour précis pour le retour de Rumaker ni l'ordre exact des épisodes new-yorkais (Minetta Lane, Rivington Street, West 12th Street). On ignore qui occupe réellement le campus hormis Olson, Field et Burns, et si Betty Kaiser ou Connie sont là ce mois-ci. Contradiction : EV-06442 fait d'Olson, Rumaker et Fick les premiers diplômés du département d'écriture, mais la conséquence qui lui est attachée le réduit à deux, Olson et Creeley. EV-06441 (Gablik et Rauschenberg) est daté de février alors qu'il décrit mars 1954, et son rôle est contesté par la source elle-même : il est écarté ici. Les finances du mois, le nombre exact de présents et la date de démission du régisseur Doyle Jones (1954) restent flous."
+ }
+}

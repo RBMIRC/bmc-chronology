@@ -1,0 +1,331 @@
+# Concordance des cours 1942-43 → gabarits de l'année reconstituée (trimestres de onze semaines).
+#
+# Sources : pas de liste de cours pour 1942-43. Les « Announcements 1942-43 » (2017.40.020) donnent le calendrier en
+# trimestres et les cours nouveaux annoncés (surveying, first aid, automobile mechanics, photography, inter-American
+# affairs, Oriental history, world geography), sans enseignant. Les présences et une partie des cours viennent :
+#   2017.40.077a-b (25 sept. 1942) : nominations de Frederic Cohen (musique), Fritz Hansgirg (chimie), Elsa Kahl
+#     (théâtre), Edward Lowinsky (musique), L. B. Voigt (botanique et architecture de paysage) ; poste vacant en sciences
+#     sociales et en physique ; 2017.40.078 : congé de Mangold (Board of Economic Warfare, Mexico)
+#   2017.40.263 (nov. 1942) : corps enseignant de l'automne (15 enseignants) et ce que chacun enseigne : Cohen « piano and
+#     musical theory » ; Kahl « Eukinetics… weekly classes in social dancing » ; Hansgirg « chemistry and physics » ;
+#     Lowinsky « advanced piano students, music history, madrigal group » ; Gretel Lowinsky « violin and viola » ;
+#     Mrs Mattison « laboratory work in practical journalism » ; Radin retardé par la maladie
+#   2017.40.079-084 : Evarts quitte le collège pour l'armée (concert d'adieu le 24 oct., départ le 26) ; Anatole Kopp
+#     arrive (7 nov.) : « Structures; Mechanical Drawing » (2017.40.081)
+#   2017.40.087a-c, 088a-b, 346 (déc. 1942 – janv. 1943) : Bentley (« Europe 1699-1800, Europe 1800-1918, and Current
+#     Affairs ») et Herbert A. Miller (« Introduction to the Scientific Analysis of Society », « The Beginnings of
+#     Tomorrow ») nommés pour l'hiver ; Kopp : histoire de l'architecture avec Kocher, structures, décor de théâtre ;
+#     Marianne Kopp : « elementary mathematics » ; cours sur les opéras de Mozart (Jalowetz) ; Radin ne viendra pas
+#     avant l'été 1943 ; règle : 15 heures de cours au plus par semaine
+#   2017.40.097 (horaire spécial du 9 mars 1943) : cours du soir de l'hiver (Seeing Art, Mozart, Shakespeare, Current
+#     Affairs, French Classics, chœur, a cappella) ; 2017.40.093.01 : périodes de 55 min à 8:15, 9:20, 10:25, 11:30
+#   2017.40.099-106 (printemps 1943) : Advanced Drama (Wunsch), Music History (Lowinsky), Eukinetics (Kahl), classe
+#     Mozart (lundi soir), classes « Nineteenth Century », « Shakespeare », « Twentieth Century » ; conférences de la
+#     faculté un mercredi sur deux
+# Les cours des enseignants restés (Albers, Kocher, Jalowetz, Kurtz, Wunsch, de Graaff, les Straus, Dreier) sont repris
+# de la liste 1940-41 / 1941-42 (LISTE_VOISINE, +15) ; ceux des enseignants partis sont retirés (lignes N).
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ART AND ARCHITECTURE (J. et A. Albers, A. L. Kocher, A. Kopp, L. B. Voigt) ----------
+C|art.dessin1|Art and Architecture|Introductory Drawing|Introductory Drawing (1941-42)|—
+C|art.dessin2|Art and Architecture|Advanced Drawing|Advanced Drawing (1941-42)|—
+C|art.couleur1|Art and Architecture|Introductory Color|Introductory Color (1941-42)|—
+C|art.couleur2|Art and Architecture|Advanced Color|Advanced Color (1941-42)|—
+C|art.werklehre|Art and Architecture|Werklehre|Werklehre (1941-42)|—
+C|art.tissage_t|Art and Architecture|Weaving Theory|Weaving Theory (1941-42)|—
+C|art.tissage_p|Art and Architecture|Weaving Practice|Weaving Practice (1941-42)|—
+C|art.conferences|Art and Architecture|General Art Lectures|General Art Lectures (1941-42)|—
+C|arch.1|Art and Architecture|Contemporary Architecture I|Contemporary Architecture I (1941-42)|—
+C|arch.2|Art and Architecture|Contemporary Architecture II|Contemporary Architecture II (1941-42)|—
+C|art.seeing|Art and Architecture|Seeing Art|— (nouveau)|Seeing Art (picture of the month, 1943-44)
+C|arch.structures|Art and Architecture|Structures; Mechanical Drawing (Building Structures)|Architectural Structure (Dearstyne, 1941-42, approché)|—
+C|arch.histoire|Art and Architecture|Architectural History|— (nouveau)|—
+C|arch.paysage|Art and Architecture|Landscape Architecture|— (nouveau)|—
+U|A1|Josef Albers|4|LISTE_VOISINE+R_NOMME+VOISIN|art.dessin1|||1|Albers présent toute l'année (liste du corps enseignant, nov. 1942)|||
+U|A2|Josef Albers|4|LISTE_VOISINE+R_NOMME+VOISIN|art.dessin2|||1/2|idem||niveau avancé : chance 1/2 par trimestre|
+U|A3|Josef Albers|2|LISTE_VOISINE+R_NOMME+VOISIN|art.couleur1|||1|idem|||
+U|A4|Josef Albers|2|LISTE_VOISINE+R_NOMME+VOISIN|art.couleur2|||1/2|idem|||
+U|A5|Josef Albers|2|LISTE_VOISINE+R_NOMME+VOISIN|art.werklehre|||1|idem|||
+U|SA|Josef Albers|1|MEME_ANNEE+R_NOMME|art.seeing|||1|« Seeing Art », cours du soir de l'hiver (horaire spécial du 9 mars 1943, 2017.40.097) ; Albers le donne en 1943-44|mar 19:00-20:00|enseignant non nommé dans l'horaire|winter
+U|AA1|Anni Albers|1|LISTE_VOISINE+R_NOMME+VOISIN|art.tissage_t|||1|Anni Albers présente (corps enseignant, nov. 1942)|||
+U|AA2|Anni Albers|4|LISTE_VOISINE+R_NOMME+VOISIN|art.tissage_p|||1|idem|||
+U|A6|Josef Albers; Anni Albers|1|LISTE_VOISINE+R_NOMME+VOLUME+OCCASION|art.conferences|||1/2|idem||séance indicative|
+U|KO1|A. Lawrence Kocher|3|LISTE_VOISINE+R_NOMME+VOLUME|arch.1|||1|Kocher présent toute l'année|||
+U|KO2|A. Lawrence Kocher|3|LISTE_VOISINE+R_NOMME+VOLUME|arch.2|projets individuels||1/2|idem|||
+U|AK1|Anatole Kopp|3|MEME_ANNEE+R_ATTESTE+VOLUME|arch.structures|||1|« Structures; Mechanical Drawing (Architecture Department, assisting Larry Kocher) » (2017.40.081) ; arrivé le 7 nov. 1942||volume supposé|fall@1942-11-07..1942-12-12
+U|AK2|Anatole Kopp|3|MEME_ANNEE+R_ATTESTE+VOLUME|arch.structures|||1|« He is also teaching building structures » (janv. 1943, 2017.40.346)|=AK1||winter
+U|AK3|Anatole Kopp; A. Lawrence Kocher|2|MEME_ANNEE+R_ATTESTE+VOLUME|arch.histoire|||1|« with Mr Kocher is giving a course in architectural history » (janv. 1943)|||winter
+U|AK4|Anatole Kopp|3|LISTE_VOISINE+R_ATTESTE+VOLUME+TERME_DEDUIT|arch.structures|||1/2|cours de l'hiver reconduit au printemps|=AK2||spring
+U|VO1|L. B. Voigt|3|MEME_ANNEE+R_ATTESTE+VOLUME|arch.paysage|||1/2|« an instructor in botany and landscape architecture » ; travaille avec Albers et Kocher au plan de paysage du collège (nov. 1942)||volume et rythme supposés|
+C|art.groupe|Art and Architecture|Group Art Conferences|Group Art Conferences (1941-42)|—
+N|art.groupe|non reconduit : activité occasionnelle sans trace en 1942-43
+C|arch.structure|Art and Architecture|Architectural Structure and Design Detail (on new College buildings)|Architectural Structure and Design Detail (on new College buildings) (1941-42)|—
+N|arch.structure|Dearstyne absent des documents de 1942-43 ; les structures passent à Kopp (arch.structures)
+
+# ---------- MUSIC (H. Jalowetz, F. Cohen, E. et G. Lowinsky, G. Straus ; J. Evarts jusqu'au 24 oct.) ----------
+C|mu.app1|Music|Music Appreciation I|Music Appreciation I (1941-42)|—
+C|mu.app2|Music|Music Appreciation II|Music Appreciation II (1941-42)|—
+C|mu.app3|Music|Music Appreciation III|Music Appreciation III (1941-42)|—
+C|mu.harmonie|Music|Harmony and Counterpoint|Harmony and Counterpoint (1941-42)|—
+C|mu.instruments|Music|Instruction in Piano and Violin|Instruction in Piano and Violin (1941-42)|—
+C|mu.chant|Music|General Singing|General Singing (1941-42)|—
+C|mu.choeur|Music|Chorus|Chorus (1941-42)|—
+C|mu.acappella|Music|A Cappella Chorus|A Cappella Chorus (1941-42)|—
+C|mu.orchestre|Music|Orchestra|Orchestra (1941-42)|—
+C|mu.chambre|Music|Chamber Music|Chamber Music (1941-42)|—
+C|mu.theorie|Music|Musical Theory|— (nouveau)|Elements of Musical Form and Structure (été 1943, approché)
+C|mu.histoire|Music|Music History|— (nouveau)|—
+C|mu.madrigal|Music|Madrigal Group|A Cappella Chorus (madrigaux, 1941-42, approché)|—
+C|mu.mozart|Music|Mozart Class (Mozart's operas, with pictorial libretti)|— (nouveau)|—
+U|MU1|John Evarts|3|LISTE_VOISINE+R_NOMME+VOISIN|mu.app1|||1|Evarts enseigne jusqu'à son départ pour l'armée (concert d'adieu le 24 oct. 1942)|||fall@1942-09-29..1942-10-24
+U|MU2|John Evarts|3|LISTE_VOISINE+R_NOMME+VOISIN|mu.app2|||1/2|idem|||fall@1942-09-29..1942-10-24
+U|CO1|Frederic Cohen|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.theorie|||1|« At Black Mountain he is teaching piano and musical theory » (nov. 1942)|||
+U|LO1|Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.histoire|||1|« teaching music history » (nov. 1942) ; « Music History » au printemps 1943 (2017.40.106a-f)|||
+U|LO2|Edward Lowinsky|1|MEME_ANNEE+R_ATTESTE+VOLUME+HEURE|mu.madrigal|||1|« directing the madrigal group » (nov. 1942)|sam 16:00-17:00|jour et heure supposés|
+U|MU4|Heinrich Jalowetz|2|LISTE_VOISINE+R_NOMME+VOLUME|mu.harmonie|||1/2|Jalowetz présent toute l'année|||
+U|MU6|Frederic Cohen; Edward Lowinsky; Gretel Lowinsky; Gertrude Straus; Heinrich Jalowetz|1|MEME_ANNEE+R_ATTESTE+VOLUME+OCCASION|mu.instruments|leçons individuelles||1|piano : Cohen et Lowinsky ; violon et alto : Gretel Lowinsky ; violon : Trudi Straus (nov. 1942)||plage indicative|
+U|MU8|Heinrich Jalowetz|1|MEME_ANNEE+R_ATTESTE|mu.choeur|||1|« Chorus », jeudi 19-20 h (horaire du 9 mars 1943) ; aussi le dimanche à 11 h|jeu 19:00-20:00||
+U|MU9|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE|mu.acappella|||1|« A Cappella », vendredi 19-20 h 30 (horaire du 9 mars 1943) ; « A Cappella classes » pendant l'Interlude de mai|ven 19:00-20:30||
+U|MZ1|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE|mu.mozart|||1|« the widely attended course on Mozart's Operas conducted by Dr Heinrich Jalowetz » (avril 1943) ; mardi 20-22 h (horaire du 9 mars)|mar 20:00-22:00||winter
+U|MZ2|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE+HEURE_CADRE|mu.mozart|Les Noces de Figaro, La Flûte enchantée||1|« The Mozart Class will study The Marriage of Figaro and The Magic Flute during the Spring Quarter » ; « Mozart class » le lundi soir (mai 1943)|lun 20:00-22:00|heure supposée|spring
+U|MU10|Heinrich Jalowetz; Edward Lowinsky|2|LISTE_VOISINE+R_NOMME+VOLUME|mu.chambre||mu.orchestre|1/2|concerts de musique de chambre du samedi (Lowinsky, G. Lowinsky, T. Straus, Jalowetz, Cohen)|||
+N|mu.app3|troisième niveau : non reconduit après le départ d'Evarts
+N|mu.chant|remplacé par le chœur ouvert à tous (unité MU8)
+N|mu.orchestre|candidat de MU10
+C|mu.oreille|Music|Ear Training and Keyboard Harmony|Ear Training and Keyboard Harmony (1941-42)|—
+N|mu.oreille|Jessie Ann Nelson a démissionné (été 1942)
+
+# ---------- DRAMATICS AND DANCE (W. R. Wunsch, E. Kahl, A. Kopp) ----------
+C|dr.prod1|Dramatics|Play Production I|Play Production I (1941-42)|—
+C|dr.prod2|Dramatics|Play Production II|Play Production II (1941-42)|—
+C|dr.regie|Dramatics|Stagecraft|Stagecraft (1941-42)|—
+C|dr.histoire|Dramatics|History of the Drama|History of the Drama (1941-42)|—
+C|dr.shakespeare|Dramatics|Shakespeare and the Elizabethan Drama|Shakespeare and the Elizabethan Drama (1941-42)|—
+C|dr.eukinetique|Dramatics|Eukinetics (body control for actors and dancers)|— (nouveau)|Eukinetics (1943-44)
+C|dr.danse|Dramatics|Social Dancing (weekly class)|— (nouveau)|—
+C|dr.decor|Dramatics|Stage Design|— (nouveau)|—
+U|DR1|Robert Wunsch; Elsa Kahl|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.prod1|productions de l'année : Shadow and Substance (déc. 1942), Ethan Frome et Le Malade imaginaire (hiver)||1|Wunsch ; Kahl « is assisting Robert Wunsch in play-production work » (nov. 1942)|||
+U|DR2|Robert Wunsch|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.prod2|Advanced Drama : Tchekhov, Coward, Paul Green||1|« Advanced Drama » (printemps 1943, 2017.40.099)|||spring
+U|EK1|Elsa Kahl|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.eukinetique|||1|« the courses in Eukinetics she is now teaching at Black Mountain » (nov. 1942) ; démonstration le 5 mars 1943|||fall,winter
+U|EK2|Elsa Kahl|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.eukinetique|||1|« Because of illness Elsa Kahl will not begin her course in Eukinetics for two or three weeks » (printemps 1943)|=EK1|début retardé : supposé au 19 avril|spring@1943-04-19..1943-06-12
+U|EK3|Elsa Kahl|1|MEME_ANNEE+R_ATTESTE+JOUR+HEURE_CADRE|dr.danse|||1|« leading weekly classes in social dancing » (nov. 1942)|mer 19:00-20:00|soirée choisie|fall
+U|AK5|Anatole Kopp|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.decor|||1|« He is also teaching… stage design » (janv. 1943) ; décors d'Ethan Frome|||winter
+N|dr.regie|remplacé par le cours de décor de Kopp (dr.decor)
+N|dr.histoire|non attesté en 1942-43
+N|dr.shakespeare|la classe « Shakespeare » de l'année est notée sous English (en.shakespeare)
+
+# ---------- WRITING AND JOURNALISM (W. R. Wunsch, D. Mattison) ----------
+C|ecr.intro|Writing|Introductory Writing|Introductory Writing (1941-42)|—
+C|ecr.journalisme|Writing|Journalism|Journalism (1941-42)|—
+U|W1|Robert Wunsch|3|LISTE_VOISINE+R_NOMME+VOISIN|ecr.intro|||1|écriture à Wunsch ; Introductory Writing attesté à l'été 1943|||
+U|W3|Dorothy Mattison|2|MEME_ANNEE+R_ATTESTE+VOLUME|ecr.journalisme|travaux pratiques de journalisme||1|Mrs Mattison « is directing laboratory work in practical journalism » (nov. 1942)|||
+C|ecr.critique|Writing|Criticism and Writing|Criticism and Writing (1941-42)|—
+N|ecr.critique|Mangold en congé (Mexico) : non donné
+C|ecr.seminaire|Writing|Writing Seminar|Writing Seminar (1941-42)|—
+N|ecr.seminaire|Mangold en congé (Mexico) : non donné
+
+# ---------- ENGLISH AND AMERICAN LITERATURE (K. Kurtz, W. R. Wunsch, E. Bentley) ----------
+C|en.survey|English|Introductory Survey of English Literature|Introductory Survey of English Literature (1941-42)|—
+C|en.shakespeare|English|Shakespeare and the Elizabethan Drama|Shakespeare and the Elizabethan Drama (1941-42)|—
+C|en.romantique|English|The Romantic Movement|The Romantic Movement (1941-42)|—
+C|en.victorien|English|Victorian England|Victorian England (1941-42)|—
+C|en.am19|English|Nineteenth Century American Literature|Nineteenth Century American Literature (1941-42)|—
+C|en.amcontemp|English|Contemporary American Literature|Contemporary American Literature (1941-42)|—
+C|en.amlettres|English|American Life and Letters|American Life and Letters (1941-42)|—
+C|en.xix|English|Nineteenth Century (class; Sunday readings of nineteenth-century drama)|— (nouveau)|—
+C|en.xx|English|Twentieth Century (class)|— (nouveau)|—
+U|KU2|Kenneth Kurtz|3|LISTE_VOISINE+R_NOMME+VOISIN|en.survey|||1|Kurtz présent toute l'année|||
+U|KU3|Kenneth Kurtz|3|LISTE_VOISINE+R_NOMME+VOISIN|en.amlettres|||1|American Life and Letters (1941-42, été 1943)|||
+U|SH1|Kenneth Kurtz|2|MEME_ANNEE+R_ELIM|en.shakespeare|||1|« Shakespeare », mardi 20-22 h (horaire du 9 mars 1943) ; enseignant non nommé : Kurtz, qui donnait Shakespeare|mar 20:00-22:00||winter
+U|SH2|Kenneth Kurtz|2|MEME_ANNEE+R_ELIM|en.shakespeare|||1|« Shakespeare (class) » au printemps (2017.40.102a-e)|=SH1||spring
+U|KU4|Kenneth Kurtz|3|LISTE_VOISINE+R_ELIM+VOISIN|en.romantique||en.victorien|1/4|alternance : retour des titres de 1940-41||un trimestre|fall
+U|WU1|Robert Wunsch|2|LISTE_VOISINE+R_NOMME+VOISIN|en.am19||en.amcontemp|1/2|Wunsch||un trimestre|fall
+U|EB4|Eric Bentley|3|MEME_ANNEE+R_ELIM+VOLUME|en.xix|||1|« The class in Nineteenth Century will sponsor the reading of Nineteenth Century Drama » chez les Bentley (avril-mai 1943)||enseignant déduit : lectures dans l'appartement de Bentley|spring
+U|EB5|Eric Bentley|1|MEME_ANNEE+R_COMPET|en.xx|actualité||1|« Twentieth Century (class) » : bulletin d'actualité chaque lundi soir (printemps 1943)|lun 18:45-19:45|enseignant inconnu ; le Current Affairs de l'hiver était à Bentley|spring
+N|en.victorien|candidat de KU4
+N|en.amcontemp|candidat de WU1
+C|en.medieval|English|Chaucer and Medieval Literature|Chaucer and Medieval Literature (1941-42)|—
+N|en.medieval|non reconduit (alternance ; Readings in Literature reparaît à l'été 1942)
+C|en.xvii|English|Seventeenth Century Literature|Seventeenth Century Literature (1941-42)|—
+N|en.xvii|non reconduit (alternance ; Readings in Literature reparaît à l'été 1942)
+C|en.xviii|English|Eighteenth Century Literature|Eighteenth Century Literature (1941-42)|—
+N|en.xviii|non reconduit (alternance ; Readings in Literature reparaît à l'été 1942)
+C|en.lectures|English|Readings in Literature|Readings in Literature (1941-42)|—
+N|en.lectures|non reconduit (alternance ; Readings in Literature reparaît à l'été 1942)
+C|en.forme|English|Form in Literature|Form in Literature (1941-42)|—
+N|en.forme|Mangold en congé (Mexico)
+C|en.roman|English|Problems of the Novel|Problems of the Novel (1941-42)|—
+N|en.roman|Mangold en congé (Mexico)
+C|ling.intro|English|General Introduction to Linguistics|General Introduction to Linguistics (1941-42)|—
+N|ling.intro|Mangold en congé (Mexico)
+
+# ---------- FOREIGN LANGUAGES (F. de Graaff, G. et E. W. Straus) ----------
+C|fr.intro|French|Introductory French|Introductory French (1941-42)|—
+C|fr.avance|French|Advanced French|Advanced French (1941-42)|—
+C|fr.survey|French|Introductory Survey of French Literature|Introductory Survey of French Literature (1941-42)|—
+C|fr.seminaire|French|Seminar on Stendhal, Flaubert, and Proust|Seminar on Stendhal, Flaubert, and Proust (1941-42)|—
+C|de.intro|German|Introductory German|Introductory German (1941-42)|—
+C|de.avance|German|Advanced German|Advanced German (1941-42)|—
+C|de.litt|German|Eighteenth and Nineteenth Century German Literature|Eighteenth and Nineteenth Century German Literature (1941-42)|—
+C|de.goethe|German|Seminar on Goethe|Seminar on Goethe (1941-42)|—
+C|fr.classiques|French|French Classics (evening class)|— (nouveau)|—
+U|FG1|Frances de Graaff|3|LISTE_VOISINE+R_SEUL+VOISIN|fr.avance||fr.intro|1/2|de Graaff présente toute l'année||alternance : complément de 1941-42|
+U|FG2|Frances de Graaff|3|LISTE_VOISINE+R_SEUL+VOISIN|fr.seminaire||fr.survey|1/2|idem|||fall,spring
+U|FG3|Frances de Graaff|1|MEME_ANNEE+R_ELIM|fr.classiques|||1|« Shakespeare / French Classics », jeudi 19 h (horaire du 9 mars 1943) ; seule enseignante de français|jeu 20:00-21:00|l'horaire du 9 mars place Shakespeare et French Classics au même créneau : French Classics mis à 20 h|winter
+U|GS1|Gertrude Straus|3|LISTE_VOISINE+R_ELIM+VOISIN|de.intro||de.avance|1/2|Trudi Straus (German for Beginners à l'été 1943)||alternance|
+U|GS2|Gertrude Straus; Erwin Straus|3|LISTE_VOISINE+R_ELIM+VOISIN|de.goethe||de.litt|1/2|idem|||
+C|es.intro|Spanish|Introductory Spanish|Introductory Spanish (1941-42)|—
+N|es.intro|Mangold en congé (Mexico) : pas d'espagnol attesté
+C|es.avance|Spanish|Advanced Spanish|Advanced Spanish (1941-42)|—
+N|es.avance|Mangold en congé (Mexico) : pas d'espagnol attesté
+C|es.cervantes|Spanish|Seminar on Cervantes|Seminar on Cervantes (1941-42)|—
+N|es.cervantes|Mangold en congé (Mexico) : pas d'espagnol attesté
+C|gr.intro|Greek|Introductory Greek|Introductory Greek (1941-42)|—
+N|gr.intro|non attesté en 1942-43
+C|gr.avance|Greek|Advanced Greek|Advanced Greek (1941-42)|—
+N|gr.avance|non attesté en 1942-43
+C|gr.platon|Greek|Plato|Plato (1941-42)|—
+N|gr.platon|non attesté en 1942-43
+C|la.intro|Latin|Introductory Latin|Introductory Latin (1941-42)|—
+N|la.intro|non attesté en 1942-43
+C|la.avance|Latin|Advanced Latin|Advanced Latin (1941-42)|—
+N|la.avance|non attesté en 1942-43
+C|la.lyrique|Latin|Latin Lyric Poetry|Latin Lyric Poetry (1941-42)|—
+N|la.lyrique|non attesté en 1942-43
+
+# ---------- HISTORY AND SOCIAL SCIENCES (E. Bentley et H. A. Miller à partir de l'hiver) ----------
+C|hi.europe18|History|Europe 1699-1800|— (nouveau)|—
+C|hi.europe19|History|Europe 1800-1918|— (nouveau)|—
+C|hi.actualite|History|Current Affairs|— (nouveau)|—
+C|soc.analyse|Social Sciences|Introduction to the Scientific Analysis of Society (beginners)|— (nouveau)|—
+C|soc.demain|Social Sciences|The Beginnings of Tomorrow (advanced)|— (nouveau)|—
+U|EB1|Eric Bentley|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.europe18|||1|« Mr Bentley will teach the following courses: Europe 1699-1800, Europe 1800-1918, and Current Affairs » (2017.40.087a-c)||le Newsletter de janvier écrit « European history from 1600-1800 »|winter
+U|EB2|Eric Bentley|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.europe19|||1|idem|||winter
+U|EB3|Eric Bentley|2|MEME_ANNEE+R_ATTESTE|hi.actualite|||1|idem ; « Current Affairs », mercredi 19-20 h 30 (horaire du 9 mars 1943)|mer 19:00-20:30||winter
+U|HM1|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|soc.analyse|||1|cours annoncés pour l'hiver (2017.40.087a-c)|||winter
+U|HM2|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|soc.demain|Chine, Inde, Russie, Europe occidentale, Amérique||1|idem|||winter
+U|HM3|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|soc.analyse|||1/2|Miller présent au printemps ; cours de l'hiver reconduit|=HM1||spring
+U|HM4|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|soc.demain|||1/2|idem|=HM2||spring
+C|hi.usa|History and Government|History of the United States|History of the United States (1941-42)|—
+N|hi.usa|Boyden dans la Marine (juin 1942) : pas d'historien à l'automne ; Bentley donne ses propres cours à partir de l'hiver
+C|hi.nouveaumonde|History and Government|Civilization in the New World|Civilization in the New World (1941-42)|—
+N|hi.nouveaumonde|Boyden dans la Marine (juin 1942) : pas d'historien à l'automne ; Bentley donne ses propres cours à partir de l'hiver
+C|hi.europe|History and Government|History of Modern Europe|History of Modern Europe (1941-42)|—
+N|hi.europe|Boyden dans la Marine (juin 1942) : pas d'historien à l'automne ; Bentley donne ses propres cours à partir de l'hiver
+C|hi.russie|History and Government|Modern Russia|Modern Russia (1941-42)|—
+N|hi.russie|Boyden dans la Marine (juin 1942) : pas d'historien à l'automne ; Bentley donne ses propres cours à partir de l'hiver
+C|hi.renaissance|History and Government|Renaissance and Reformation|Renaissance and Reformation (1941-42)|—
+N|hi.renaissance|Boyden dans la Marine (juin 1942) : pas d'historien à l'automne ; Bentley donne ses propres cours à partir de l'hiver
+C|hi.philo|History and Government|Philosophy of History|Philosophy of History (1941-42)|—
+N|hi.philo|Boyden dans la Marine (juin 1942) : pas d'historien à l'automne ; Bentley donne ses propres cours à partir de l'hiver
+C|gv.theorie|History and Government|Political Theory|Political Theory (1941-42)|—
+N|gv.theorie|Babcock parti (mai 1942) ; sciences sociales confiées à Miller à partir de l'hiver
+C|gv.relations|History and Government|International Relations|International Relations (1941-42)|—
+N|gv.relations|Babcock parti (mai 1942) ; sciences sociales confiées à Miller à partir de l'hiver
+C|gv.amerique|History and Government|American Government|American Government (1941-42)|—
+N|gv.amerique|Babcock parti (mai 1942) ; sciences sociales confiées à Miller à partir de l'hiver
+C|gv.europe|History and Government|European Political Institutions|European Political Institutions (1941-42)|—
+N|gv.europe|Babcock parti (mai 1942) ; sciences sociales confiées à Miller à partir de l'hiver
+C|eco.pensee|Economics and Sociology|Introduction to Economic Thinking|Introduction to Economic Thinking (1941-42)|—
+N|eco.pensee|aucun économiste attesté
+C|eco.travail|Economics and Sociology|The Science of Work|The Science of Work (1941-42)|—
+N|eco.travail|aucun économiste attesté
+C|eco.idees|Economics and Sociology|Evolution of Social Ideas|Evolution of Social Ideas (1941-42)|—
+N|eco.idees|aucun économiste attesté
+C|eco.educ|Economics and Sociology|Educational Sociology|Educational Sociology (1941-42)|—
+N|eco.educ|aucun économiste attesté
+C|new.surveying|Announcements 1942-43|Surveying|— (annoncé)|—
+N|new.surveying|annoncé dans les Announcements 1942-43, sans enseignant ni trimestre
+C|new.secourisme|Announcements 1942-43|First Aid|— (annoncé)|—
+N|new.secourisme|idem
+C|new.mecanique|Announcements 1942-43|Automobile Mechanics|— (annoncé)|—
+N|new.mecanique|idem
+C|new.photo|Announcements 1942-43|Photography|— (annoncé)|—
+N|new.photo|idem
+C|new.interamerique|Announcements 1942-43|Inter-American Affairs|— (annoncé)|—
+N|new.interamerique|idem
+C|new.orient|Announcements 1942-43|Oriental History|— (annoncé)|—
+N|new.orient|idem (Miller traite de la Chine et de l'Inde dans The Beginnings of Tomorrow)
+C|new.geographie|Announcements 1942-43|World Geography|— (annoncé)|—
+N|new.geographie|idem (European Geography donnée par Oliver Freud à l'été 1943)
+
+# ---------- PSYCHOLOGY AND PHILOSOPHY (E. W. Straus) ----------
+C|psy.fond|Psychology|Fundamentals of Psychology|Fundamentals of Psychology (1941-42)|—
+C|psy.pathologie|Psychology|Psychopathology|Psychopathology (1941-42)|—
+C|psy.psychanalyse|Psychology|Psychoanalysis|Psychoanalysis (1941-42)|—
+C|psy.esthetique|Psychology|Seminar on Psychology of Aesthetics|Seminar on Psychology of Aesthetics (1941-42)|—
+C|phi.classiques|Philosophy|Philosophical Classics|Philosophical Classics (1941-42)|—
+U|ES1|Erwin Straus|3|LISTE_VOISINE+R_NOMME+VOLUME|psy.fond||psy.esthetique|1/2|Straus présent toute l'année|||fall
+U|ES2|Erwin Straus|3|LISTE_VOISINE+R_NOMME+VOLUME|psy.pathologie||psy.psychanalyse|1/2|idem|=ES1||winter,spring
+U|ES3|Erwin Straus|3|LISTE_VOISINE+R_NOMME+VOLUME|phi.classiques|||1/2|idem|||
+N|psy.psychanalyse|candidat de ES2
+N|psy.esthetique|candidat de ES1
+C|psy.intro|Psychology|Introductory Psychology|Introductory Psychology (1941-42)|—
+N|psy.intro|French parti (travail gouvernemental, automne 1942)
+C|psy.enfant|Psychology|Child Psychology|Child Psychology (1941-42)|—
+N|psy.enfant|French parti (travail gouvernemental, automne 1942)
+C|psy.educ|Psychology|Educational Psychology|Educational Psychology (1941-42)|—
+N|psy.educ|French parti (travail gouvernemental, automne 1942)
+C|psy.sociale|Psychology|Social Psychology|Social Psychology (1941-42)|—
+N|psy.sociale|French parti (travail gouvernemental, automne 1942)
+C|anth.gen|Anthropology|Anthropology|Anthropology (1941-42)|—
+N|anth.gen|Radin retenu en Californie par la maladie : « I cannot come until next summer » (déc. 1942)
+
+# ---------- SCIENCES (F. Hansgirg, L. B. Voigt) ET MATHÉMATIQUES (T. Dreier, M. Kopp) ----------
+C|ch.gen|Chemistry|General Chemistry|General Chemistry (1941-42)|—
+C|ph.gen|Physics|General Physics|General Physics (1941-42)|—
+C|ma.analyse|Mathematics|Mathematical Analysis|Mathematical Analysis (1941-42)|—
+C|ma.trigo|Mathematics|Trigonometry|Trigonometry (1941-42)|—
+C|ma.geom|Mathematics|Analytic Geometry|Analytic Geometry (1941-42)|—
+C|ma.calcul|Mathematics|Intermediate Calculus|Intermediate Calculus (1941-42)|—
+C|ma.equations|Mathematics|Differential Equations|Differential Equations (1941-42)|—
+C|ma.avance|Mathematics|Advanced Calculus|Advanced Calculus (1941-42)|—
+C|bio.botanique|Biology|Botany|General Biology (Carpenter, 1941-42, approché)|Botany: Plant Identification (été 1943)
+C|ma.elem|Mathematics|Elementary Mathematics|— (nouveau)|—
+U|HG1|Fritz Hansgirg|3+4L|MEME_ANNEE+R_ATTESTE+VOISIN+EQUIV|ch.gen|||1|« At Black Mountain he is teaching chemistry and physics » (nov. 1942) ; chimie générale par équivalence||titre exact inconnu|
+U|HG2|Fritz Hansgirg|3|MEME_ANNEE+R_ATTESTE+VOLUME+EQUIV|ph.gen|||1|idem ; le poste de physique est vacant (sept. 1942)||titre exact inconnu|
+U|VO2|L. B. Voigt|3|MEME_ANNEE+R_ATTESTE+VOLUME|bio.botanique|||1|« Lou Bernard Voigt comes to Black Mountain as an instructor in botany » (nov. 1942)|||
+U|M1|Ted Dreier|3|LISTE_VOISINE+R_NOMME+VOISIN+PRESENCE|ma.analyse|||1|Dreier présent (trésorier) ; enseignement non attesté cette année||PRESENCE : charge administrative|
+U|M2|Ted Dreier|3|LISTE_VOISINE+R_NOMME+VOISIN+PRESENCE|ma.trigo+ma.geom|||1/2|idem|||fall,spring
+U|MK1|Marianne Kopp|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.elem|||1|« Marianne Kopp… is teaching elementary mathematics » (janv. 1943)|||winter
+N|ma.calcul|non attesté (cours avancés en années alternées)
+N|ma.equations|idem
+N|ma.avance|idem
+C|bio.gen|Biology|General Biology|General Biology (1941-42)|—
+N|bio.gen|Carpenter mort le 16 juillet 1942 ; la botanique de Voigt le remplace en partie (bio.botanique)
+C|bio.anatomie|Biology|Comparative Anatomy and Embryology|Comparative Anatomy and Embryology (1941-42)|—
+N|bio.anatomie|Carpenter mort le 16 juillet 1942 ; la botanique de Voigt le remplace en partie (bio.botanique)
+C|bio.plantes|Biology|Plant Morphology|Plant Morphology (1941-42)|—
+N|bio.plantes|Carpenter mort le 16 juillet 1942 ; la botanique de Voigt le remplace en partie (bio.botanique)
+C|bio.terrain|Biology|Field Biology and Ecology|Field Biology and Ecology (1941-42)|—
+N|bio.terrain|Carpenter mort le 16 juillet 1942 ; la botanique de Voigt le remplace en partie (bio.botanique)
+C|bio.regnes|Biology|The Plant and Animal Kingdoms|The Plant and Animal Kingdoms (1941-42)|—
+N|bio.regnes|Carpenter mort le 16 juillet 1942 ; la botanique de Voigt le remplace en partie (bio.botanique)
+C|bio.homme|Biology|Ecology in Relation to Man|Ecology in Relation to Man (1941-42)|—
+N|bio.homme|Carpenter mort le 16 juillet 1942 ; la botanique de Voigt le remplace en partie (bio.botanique)
+C|ph.meca|Physics|Mechanics|Mechanics (1941-42)|—
+N|ph.meca|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|ph.son|Physics|Sound|Sound (1941-42)|—
+N|ph.son|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|ph.chaleur|Physics|Heat|Heat (1941-42)|—
+N|ph.chaleur|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|ph.elec|Physics|Electricity|Electricity (1941-42)|—
+N|ph.elec|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|ph.optique|Physics|Optics|Optics (1941-42)|—
+N|ph.optique|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|ph.moderne|Physics|Modern Physics|Modern Physics (1941-42)|—
+N|ph.moderne|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|ph.musique|Physics|Physics of Musical Sounds|Physics of Musical Sounds (1941-42)|—
+N|ph.musique|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|ch.quali|Chemistry|Qualitative Analysis|Qualitative Analysis (1941-42)|—
+N|ch.quali|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|ch.quanti|Chemistry|Quantitative Analysis|Quantitative Analysis (1941-42)|—
+N|ch.quanti|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|ch.physique|Chemistry|Physical Chemistry|Physical Chemistry (1941-42)|—
+N|ch.physique|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|ch.organique|Chemistry|Organic Chemistry|Organic Chemistry (1941-42)|—
+N|ch.organique|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)
+C|sc.histoire|Physics and Chemistry|History of Science|History of Science (1941-42)|—
+N|sc.histoire|cours avancés non attestés (Bergmann et Lindsley partis ; un seul chimiste-physicien, Hansgirg)

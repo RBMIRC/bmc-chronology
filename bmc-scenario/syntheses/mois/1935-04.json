@@ -1,0 +1,334 @@
+{
+ "passe": "mois",
+ "cle": "1935-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2951,
+  "sortie": 16145,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1935-04 (avril 1935)",
+  "session": "Fin de la deuxième année du collège (1934-35), semestre de printemps. Le découpage trimestriel n'est pas précisé par les fiches ; la session est déduite de la section « Printemps ».",
+  "saison_et_climat": "Printemps. Les fiches ne décrivent ni la température ni le paysage du mois. Le contraste avec la session d'été qui se prépare et avec la ferme n'est qu'une déduction.",
+  "situation": "Le collège sort d'un hiver plus visible : retour des Albers de Cuba à la mi-janvier, première exposition personnelle de Josef à l'Addison Gallery, articles dans Arts and Decorations et éditorial de Walter Locke, souscription étudiante de 816 $ liée aux démêlés avec Rollins, hausse des frais votée le 17 février. En avril, la vie se concentre sur la fin de l'année : passages de visiteurs (Dewey, Adams), doutes de Wunsch, frictions entre Rice et ses enseignants, bilan financier à venir. Albers est attendu à Washington en mai.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Dewey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Arthur S. Adams",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Visites de John Dewey pendant l'année 1934-35 : deux séjours d'une semaine ou plus selon Chaddock, une seule visite avec Alfred Barnes selon Reynolds (par oui-dire). Le placement en avril n'est pas attesté.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "La légitimation par Dewey (1934→None)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Séjour d'une semaine d'Arthur S. Adams, amené par Mangold. Il juge que l'apprentissage ne commence que lorsque l'étudiant le veut et déconseille de renforcer les sciences.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Entretien privé entre Wunsch et Rice, trois mois après l'arrivée de Wunsch : Rice le trouve fatigué et lui conseille des vacances.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers parle à Washington devant l'American Federation of Arts (20-22 mai).",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-06-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Le Board enregistre pour l'année écoulée 7 250 $ de salaires répartis entre dix-sept personnes.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "saison",
+    "ce_qui_arrive": "Été : Mangold, chargé de la session d'été, écrit à Rice, Dreier et Bailey des lettres furibondes et annonce que le collège est voué à la mort.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "saison",
+    "ce_qui_arrive": "Premier voyage des Albers au Mexique avec Ted et Bobbie Dreier ; achat d'une tête de figurine, la première des idolos. Les sources datent ce voyage de l'été 1935 ou de décembre 1935-janvier 1936.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Les Albers et le Mexique (1935→1967)"
+    ]
+   },
+   {
+    "date": "1935-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rentrée : arrivées de Nancy Farrell, d'Irving Knickerbocker, d'Allan Sly, de Dante Fiorillo, des Moellenhoff et de Janet Seasongood. Knickerbocker exprime ses doutes sur les tactiques de classe de Rice.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Rice contre Knickerbocker : vers le schisme (1935-09→1937-06)",
+     "La musique au collège : d'Evarts à Sly (1935→1939)"
+    ]
+   },
+   {
+    "date": "1935-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Exposition de la collection Katherine Dreier au collège ; Albers publie « Art as Experience » dans Progressive Education.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Albers peintre et publiciste (1935→1936)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "ce_qui_arrive": "Séjour de Louis Adamic et de sa femme Stella, d'environ deux à trois mois selon les sources. Il observe le séminaire d'écriture et recueille la doctrine « méthode contre contenu ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Adamic et l'image publique du collège (1935→1936)"
+    ]
+   },
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution de « Education on a Mountain » dans Harper's, article d'Adamic qui provoque une crise.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Adamic et l'image publique du collège (1935→1936)"
+    ]
+   },
+   {
+    "date": "1936",
+    "precision": "annee",
+    "ce_qui_arrive": "Josef Albers commence à enseigner à Harvard.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Corvées mixtes (bois, routes, tennis, ferme) et travail manuel pour tous. Le samedi soir, bal avec Evarts au piano. Évarts et la communauté chantent, et l'on écoute à la radio les concerts de Toscanini le dimanche. Rice enseigne Platon. Anna Moellenhoff donne un cours de biologie, dont la date reste discutée. Wunsch prépare des pièces (Gloria Mundi, The Twelve-Pound Look, The Wild Duck, Fixin's de Paul Green) avec des travaux de classe. Les fiches décrivent ces pratiques sans les dater précisément pour avril.",
+  "tensions": [
+   "Rice et Wunsch : Wunsch, épuisé, redoute un « marteau-pilon » qui ne vient pas ; la conversation le détrompe en partie.",
+   "Mangold contre Adams : Mangold impute l'échec de l'apprentissage aux enseignants, sauf Anna Moellenhoff ; Adams l'impute à l'étudiant.",
+   "Finances : coût réel d'environ 350 $ par étudiant et par an, barème glissant tenu secret, déficits retombant sur la faculté ; démêlés avec Rollins.",
+   "Rice et Albers : frictions qui montent, date non précisée.",
+   "Question raciale : après une panne de chauffage, le personnel noir refuse de déménager à Lee Hall par crainte de l'hostilité du village (date non précisée).",
+   "Albers contre Wunsch : Albers méprise l'idée du théâtre comme thérapie.",
+   "Survie : Mangold annonce l'effondrement du collège (été 1935)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Dewey au séminaire de Platon",
+    "date": null,
+    "lieu": "salle de cours de Rice ; le soir, Roy's",
+    "personnages": [
+     "John Dewey",
+     "Rice",
+     "étudiants"
+    ],
+    "deroule": "Dewey suit en silence le cours de Rice sur Platon, puis rejoint le soir les étudiants à Roy's. Il écrit ensuite à Rice que le collège touche aux racines d'une vie démocratique.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "La légitimation par Dewey (1934→None)"
+    ]
+   },
+   {
+    "titre": "Le doute de Wunsch",
+    "date": null,
+    "lieu": "bureau de Rice",
+    "personnages": [
+     "Wunsch",
+     "Rice"
+    ],
+    "deroule": "Wunsch, épuisé trois mois après son arrivée, demande un entretien. Rice le trouve fatigué et lui conseille des vacances. Wunsch repart convaincu que la réalité du collège tient aux relations humaines.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La semaine d'Adams",
+    "date": null,
+    "lieu": "collège",
+    "personnages": [
+     "Arthur S. Adams",
+     "Mangold"
+    ],
+    "deroule": "Adams passe une semaine au collège et juge que l'apprentissage dépend de la volonté de l'étudiant. Il déconseille de renforcer les sciences que personne ne choisit. Mangold répond que le problème tient aux enseignants, à l'exception d'Anna Moellenhoff, dont le cours a attiré huit étudiants.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Albers à Washington",
+    "date": "1935-05",
+    "lieu": "Washington, American Federation of Arts",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers parle devant l'American Federation of Arts du 20 au 22 mai.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le Board compte les salaires",
+    "date": "1935-06-06",
+    "lieu": "Board du collège",
+    "personnages": [
+     "Rice",
+     "Albers",
+     "Wunsch",
+     "Joe Martin",
+     "Mangold"
+    ],
+    "deroule": "Le Board enregistre 7 250 $ de salaires : 1 600 $ pour Rice, 1 000 $ pour Albers et Wunsch, 100 $ pour sept membres. Chaque déficit retombe sur la faculté.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le premier idolo",
+    "date": "1935",
+    "lieu": "Mexique, Monte Albán et Oaxaca",
+    "personnages": [
+     "Anni Albers",
+     "Josef Albers",
+     "Ted Dreier",
+     "Bobbie Dreier",
+     "un petit garçon",
+     "George Vaillant"
+    ],
+    "deroule": "Un petit garçon propose à Anni une tête de figurine enveloppée dans un mouchoir. Elle l'achète et la montre à George Vaillant, qui confirme son authenticité. Josef photographie Monte Albán.",
+    "certitude": "probable",
+    "refs": [
+     "Les Albers et le Mexique (1935→1967)",
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Avril 1935 : Josef Albers, revenu de Cuba depuis la mi-janvier, cherche sa place en Nouvelle-Angleterre.",
+    "vers_date": "1934-12-28",
+    "vers": "Cuba : trois conférences au Lyceum de La Havane, du 28 décembre 1934 au 16 janvier 1935.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Avril 1935 : Rice défend le collège face aux démêlés avec Rollins et à la hausse des frais.",
+    "vers_date": "1935-01",
+    "vers": "Souscription étudiante de 816 $ au 14 janvier ; première exposition de Josef à l'Addison Gallery, quinze gravures sans critique.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1935 : Mangold prépare la session d'été.",
+    "vers_date": "1935",
+    "vers": "Été : lettres furibondes de Mangold sur les « nincompoops » adventistes et végétariens ; il annonce la mort du collège.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1935 : Irving Knickerbocker n'est pas encore arrivé, mais la faculté s'organise pour la rentrée.",
+    "vers_date": "1935-09",
+    "vers": "Rentrée : Knickerbocker arrive et doute des tactiques de classe de Rice ; le conflit entre eux s'installe jusqu'en 1937.",
+    "refs": [
+     "Rice contre Knickerbocker : vers le schisme (1935-09→1937-06)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1935 : Louis Adamic est en séjour ou attendu, date non fixée.",
+    "vers_date": "1936-04",
+    "vers": "« Education on a Mountain » paraît dans Harper's et provoque la crise d'image du collège.",
+    "refs": [
+     "Adamic et l'image publique du collège (1935→1936)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1935 : Josef Albers est toujours au collège et tourne déjà la tête vers Harvard.",
+    "vers_date": "1936",
+    "vers": "Albers commence à enseigner à Harvard.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Méthode contre contenu : le collège comme processus plutôt que comme résultat",
+   "Relations humaines et doute des enseignants",
+   "Survie financière et déficit porté par la faculté",
+   "Image publique et crise de presse",
+   "Pédagogie progressive légitimée par Dewey",
+   "Art moderne et exil : Albers entre Cuba, Mexique et Nouvelle-Angleterre"
+  ],
+  "lacunes": "Aucune date fine pour avril 1935 : les visites de Dewey et d'Adams, l'entretien Wunsch-Rice, les frictions Rice-Albers et la question raciale ne sont pas datées. La présence des personnes n'est attestée pour aucun jour d'avril. Anna Moellenhoff apparaît dans un cours du printemps alors que son arrivée est datée de septembre ; la contradiction n'est pas résolue. Les dates de la visite d'Adamic et du voyage au Mexique divergent. Roy's est cité pendant la visite de Dewey, mais sa naissance est liée aux fonds Forbes après le vote sec, sans date. Anni Albers n'apparaît pas dans les fiches de ce mois. Le climat et le calendrier de session sont absents. Les fiches n'ont pas d'identifiants EV, SC ou PE : les refs renvoient donc aux titres des fiches."
+ }
+}

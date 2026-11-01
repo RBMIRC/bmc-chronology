@@ -1,0 +1,370 @@
+{
+ "passe": "mois",
+ "cle": "1955-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 13031,
+  "sortie": 17709,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1955-05",
+  "session": "Fin de printemps sans session formelle attestée : les cours, suspendus en décembre 1954 pour trois mois, ne sont pas documentés pour mai. L'enseignement reste informel et Creeley est probablement absent, parti en avril pour Majorque.",
+  "saison_et_climat": "Fin du printemps en Caroline du Nord. Les fiches ne donnent ni température ni météo. Le décor est végétal (lauriers de montagne près de Streamside, bords du lac Eden) et la ferme est à l'arrêt.",
+  "situation": "Collège réduit et replié sur lui-même. La moitié basse du campus est fermée, le réfectoire aussi, les forêts sont louées aux bûcherons et la vie se fait par petits groupes. La menace de forclusion pèse : Forbes a fixé l'exigibilité au 29 juin et les salaires restent impayés. Le printemps a apporté quelques arrivées (Wieners, Chamberlain, Bogart, Betty Kaiser). Rumaker a signé sa dette Bovingdon fin mars.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Connie Olson (Constance Wilcock)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Chamberlain",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Wieners",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kate, fille de Connie",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jake (étudiant en théâtre, exclu)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Fiore",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jerry Van de Wiele",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jorge Fick",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Tom Field",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ed Dorn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Richard Bogart",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Kaiser",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson, ravi, rit et tape dans le dos de Rumaker en apprenant la supposée petite amie de Wieners, probablement une travailleuse du sexe.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06713",
+     "SC-01814"
+    ]
+   },
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Fête du samedi soir dans le hall de Streamside, organisée par Rumaker et Wieners pour une douzaine de personnes. Jazz sur phonographe, bourbon acheté à Asheville. C'est le dernier essai de cohésion avant la désagrégation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06714",
+     "EC-03169"
+    ]
+   },
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Connie, en robe crème et cheveux libres, boit beaucoup, complimente Rumaker et Wieners, puis se laisse séduire par Chamberlain, fiancé à Elaine restée à Chicago. Tous deux quittent la fête ensemble.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06715",
+     "SC-01816"
+    ]
+   },
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Jake fait irruption en défonçant le bas de la porte hollandaise, harangue la salle, casse une bouteille de bière contre la table et la brandit. La salle se fige. Rumaker est paralysé.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06716",
+     "SC-01817"
+    ]
+   },
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Joe Fiore expulse Jake d'un coup de pied. Jake quitte le collège le lendemain sans un mot.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1955 (synthèse)"
+    ]
+   },
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Avant l'aube, Olson fouille le campus pour retrouver Connie et Chamberlain. Le lendemain, tout le monde est au courant. Connie repart avec Kate pour le Massachusetts.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1955 (synthèse)"
+    ]
+   },
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker repousse les avances de Jake dans la cuisine de Meadows Inn, par le silence et le regard. Jake sort sans un mot. L'ordre exact par rapport à la fête n'est pas donné.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01815"
+    ]
+   },
+   {
+    "date": "1955-05-20",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers arrive à Ulm et écrit à Anni son impression du nouveau campus de la HfG, sur l'ancien site de Kuhberg. Il enseigne à vingt-six étudiants.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01818"
+    ]
+   },
+   {
+    "date": "1955-05-19",
+    "precision": "periode",
+    "ce_qui_arrive": "Second séjour d'enseignement d'Albers à Ulm pendant l'été. Le projet mexicain d'Anni avec Sewell Sillman est annulé par la maladie du frère de Sewell.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06718",
+     "EV-06719",
+     "EV-06720"
+    ]
+   }
+  ],
+  "quotidien": "Vie par petits groupes. Cuisine commune de trois à cinq personnes pour environ deux dollars par semaine, les vivres étant en partie volés à l'A&P. Les célibataires vont au Ma Peak's, à Asheville ou au softball du dimanche. Les voyages hebdomadaires à Asheville se font dans la Buick de Tom. Rumaker lit et écrit à Meadows Inn. Betty Kaiser joue dans les exercices de Wes Huss au sous-sol des Studies. Chamberlain travaille la sculpture. Les fêtes ont quitté le grand réfectoire pour le hall de Streamside, avec un phonographe portable (Miles Davis, Charlie Parker, Stan Getz).",
+  "tensions": [
+   "Forclusion fixée au 29 juin par Forbes. Les dettes atteignent environ 45 000 $ de salaires et 40 000 $ dus à Paul Williams. La collecte de Mary Fiore (5 250 $, mise en séquestre) est attestée sans date précise.",
+   "Jake, humilié et rejeté, est au bord de la violence. Rumaker le rejette, et la menace de la bouteille brisée reste en suspens.",
+   "Olson et Connie : fracture conjugale, Connie séduite par Chamberlain, Olson qui a Betty Kaiser pour maîtresse et dont Rumaker entend les nuits à travers le plafond.",
+   "Chamberlain est fiancé à Elaine, restée à Chicago.",
+   "Wieners : Olson le taquine sur une supposée petite amie, alors que la vie amoureuse de Wieners est tout autre. Les sources le situent à la fois à Boston et au collège en mai.",
+   "Rumaker est endetté auprès du fonds Bovingdon (287,50 $ signés le 29 mars, 50 $ supplémentaires le 13 juin) et ses manuscrits essuient des refus.",
+   "Creeley, parti en avril, revient en juin englué dans l'alcool et le désarroi conjugal. Nell Rice refuse la vente partielle et prépare son départ."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Promenade au bord du lac : la petite amie de Wieners",
+    "date": "1955-05",
+    "lieu": "Chemin au bord du lac, sous la bibliothèque",
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Rumaker annonce à Olson que Wieners aurait une petite amie. Olson, ravi, lui donne une grande tape amicale dans le dos. Scène ensoleillée et complice, dont l'ironie tient à l'écart entre l'interprétation d'Olson et la vérité de Wieners.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01814",
+     "EV-06713"
+    ]
+   },
+   {
+    "titre": "Le rejet dans la cuisine de Meadows Inn",
+    "date": "1955-05",
+    "lieu": "Cuisine de Meadows Inn",
+    "personnages": [
+     "Michael Rumaker",
+     "Jake"
+    ],
+    "deroule": "Rumaker lit seul. Jake se campe dans l'encadrement, le regarde, s'affale en face. Rumaker bavarde de rien, puis se tait et le fixe. Jake détourne les yeux, la glace dans le regard, et sort sans un mot. La fiche liste « femme de Jake » comme personnage, ce qui semble être une erreur.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01815"
+    ]
+   },
+   {
+    "titre": "Connie transformée à Streamside",
+    "date": "1955-05",
+    "lieu": "Hall de Streamside, près de l'escalier nord",
+    "personnages": [
+     "Connie Olson",
+     "Charles Olson",
+     "John Wieners",
+     "Michael Rumaker",
+     "John Chamberlain"
+    ],
+    "deroule": "Connie arrive en robe crème, cheveux libres, déjà alcoolisée, loin de Charles qui tient salon au sud. Elle complimente longuement Wieners et Rumaker. Chamberlain l'isole contre le mur, bras levé, et lui parle bas. Elle répond par un regard flirteur. Plus tard, ils disparaissent ensemble.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01816",
+     "EV-06715"
+    ]
+   },
+   {
+    "titre": "L'irruption de Jake et la bouteille cassée",
+    "date": "1955-05",
+    "lieu": "Hall de Streamside, devant la porte hollandaise",
+    "personnages": [
+     "Jake",
+     "Michael Rumaker",
+     "Mary Fiore",
+     "Joe Fiore",
+     "John Wieners",
+     "Jerry Van de Wiele",
+     "Jorge Fick"
+    ],
+    "deroule": "Jake défonce le bas de la porte et entre jambes écartées. Il harangue la salle. Van de Wiele et Mary Fiore tentent de l'apaiser. Il s'en prend à quelqu'un (Jorge Fick, peut-être), un homme s'avance et Jake casse une bouteille contre la table pour la brandir. La salle se fige. Rumaker est saisi de l'impulsion d'offrir son corps pour apaiser Jake. Joe Fiore l'expulsera ensuite. Ce qui suit est hors passage.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01817",
+     "EV-06716"
+    ]
+   },
+   {
+    "titre": "Albers découvre le campus d'Ulm",
+    "date": "1955-05-20",
+    "lieu": "HfG Ulm, Kuhberg",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Albers arrive à Ulm et écrit à Anni le 20 mai son impression d'un campus imposant. Il enseigne à vingt-six étudiants. Le retour en Allemagne, douze ans après la fuite nazie, se fait sur un ancien site concentrationnaire.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01818"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker face à Jake armé, à la fête de Streamside",
+    "vers_date": null,
+    "vers": "Enfance de Rumaker : son père ivre le battait à coups de ceinture et de pied, en accusant sa mère d'infidélité à travers la cloison. La même impulsion d'offrir son corps pour survivre.",
+    "refs": [
+     "EC-03174"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La fête du hall de Streamside, avec ses rituels de samedi soir",
+    "vers_date": null,
+    "vers": "Les samedis soir et les moonshine dances des premières années de Rumaker, où presque tout le collège venait au réfectoire.",
+    "refs": [
+     "EC-03169"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Connie en robe crème, séduite sous les yeux de Rumaker",
+    "vers_date": null,
+    "vers": "Le deuil de la réserve maternelle chez Rumaker : il souhaite que Connie se laisse aller, comme il l'aurait voulu pour sa propre mère.",
+    "refs": [
+     "EC-03172"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les conversations de mai sur Olson et Wieners",
+    "vers_date": null,
+    "vers": "Rumaker converti à Philadelphie en entendant Ben Shahn parler d'Olson et de Black Mountain. Même mécanisme de conversion que Wieners découvrant Olson à Boston.",
+    "refs": [
+     "EC-03165"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Jake qui harangue la fête et brandit la bouteille",
+    "vers_date": null,
+    "vers": "Le cours de théâtre de Wes Huss suivi par Jake : Rumaker se demande si sa menace n'est pas un exercice d'acteur, et l'imitation du film The Wild One.",
+    "refs": [
+     "EC-03171",
+     "EC-03170"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les nuits d'Olson chez Betty, entendues à travers le plafond de Meadows Inn",
+    "vers_date": null,
+    "vers": "Enfance de Rumaker dans la maison exiguë du New Jersey, où il écoutait les ébats de ses parents à travers des cloisons de papier.",
+    "refs": [
+     "EC-03158"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La fête de mai et la bouteille de bourbon bon marché",
+    "vers_date": null,
+    "vers": "Après Black Mountain, l'alcool deviendra un besoin central chez Rumaker.",
+    "refs": [
+     "EC-03173"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les présages de la fin du printemps et du début de l'été",
+    "vers_date": "1955-08",
+    "vers": "Le crash de cabriolet rouge sur la route d'Asheville, vu comme un présage du commencement de la fin, puis les suicides et la bagarre de l'été, jusqu'à la fermeture de 1957.",
+    "refs": [
+     "EC-03164"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La dette et la forclusion en préparation",
+    "vers_date": "1955-06-29",
+    "vers": "L'exigibilité fixée par Forbes au 29 juin, équivalente à une forclusion en cas de défaut.",
+    "refs": [
+     "chapitre 1955 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le collège en train de se défaire, mai 1955",
+    "vers_date": "1957",
+    "vers": "Après la fermeture : les idées nées à Black Mountain se dispersent dans le monde, comme un accouchement enfin survenu.",
+    "refs": [
+     "EC-03183"
+    ]
+   }
+  ],
+  "motifs": [
+   "La fête comme dernière tentative de cohésion, qui précipite au contraire l'éclatement du groupe.",
+   "L'alcool comme rite collectif et menace, depuis le bourbon de la fête jusqu'à la dépendance annoncée.",
+   "La violence comme spectacle et imitation culturelle, de The Wild One au geste de Jake.",
+   "Le couple Olson comme centre de la vie du collège : mariage en crise, nuits entendues, jalousie.",
+   "Le présage : accidents et scènes qu'on relit rétrospectivement comme signes."
+  ],
+  "lacunes": "On ignore le jour exact de la fête (un samedi soir de mai) et l'ordre entre la scène de cuisine et la fête. La date de la collecte de Mary Fiore n'est pas précisée. On ignore si les cours continuent en mai et si Dorn, Field et Huss sont présents. Les sources se contredisent sur Wieners : EV-06713 le dit de retour à Boston, alors qu'il organise la fête. Le nom « femme de Jake » apparaît dans SC-01815 et SC-01817 pour un personnage décrit au masculin. L'identité de Jorge Fick dans la scène de Jake reste incertaine (point d'interrogation dans la fiche). On ne sait pas si la bouteille a blessé quelqu'un, ni la date exacte du départ de Connie et Kate, ni la nature du lien entre Chamberlain et Elaine."
+ }
+}

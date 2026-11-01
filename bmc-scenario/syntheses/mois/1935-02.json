@@ -1,0 +1,207 @@
+{
+ "passe": "mois",
+ "cle": "1935-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2951,
+  "sortie": 9864,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1935-02",
+  "session": "Année universitaire 1934-1935, deuxième année du collège ; les fiches n'attestent aucun découpage en trimestre ou session pour février",
+  "saison_et_climat": "Plein hiver en Caroline du Nord, déduit de la saison ; les fiches ne décrivent ni le temps ni les bâtiments en février",
+  "situation": "Le collège achève sa deuxième année. Albers, rentré de Cuba le 16 janvier, vient d'exposer à Andover sans critique notable, Sawyer restant son seul soutien. La question financière pèse : les étudiants ont réuni 816 dollars au 14 janvier, et le Board relève les frais de scolarité le 17 février. Le collège commence à être connu hors les murs (éditorial de Walter Locke, article « Art as a Fourth R » dans Arts and Decorations en janvier).",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Martin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "étudiants (cotisation de 816 dollars)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1935-01-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Les étudiants ont réuni 816 dollars, souscription liée aux démêlés avec Rollins ; le montant atteint à cette date pèse encore sur le budget de février.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Première exposition personnelle d'Albers à l'Addison Gallery d'Andover : quinze gravures, brèves dans la presse locale, aucune critique.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Article « Art as a Fourth R » dans Arts and Decorations, qui fait connaître le collège.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-02-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Le Board relève les frais de scolarité.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "John Dewey suit le cours de Rice pendant l'année 1934-35 et rejoint les étudiants le soir à Roy's ; le nombre de visites diverge (deux séjours d'une semaine ou plus selon Chaddock, deux visites dont une avec Alfred Barnes selon Reynolds, par oui-dire).",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "La légitimation par Dewey (1934→None)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Arthur S. Adams passe une semaine au collège, amené par Mangold ; il juge que l'apprentissage ne commence que lorsque l'étudiant le veut.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Vie ordinaire telle que les fiches la décrivent pour l'ensemble de 1935, non datée au mois : corvées mixtes (bois, routes, tennis, ferme), tout le monde travaille de ses mains, bal du samedi soir avec Evarts au piano, chant et écoute radiophonique des concerts de Toscanini le dimanche, cours de Rice et séminaire sur Platon. Le théâtre de Wunsch et la folkdance de Sly sont attestés pour l'année mais leur présence en février n'est pas établie.",
+  "tensions": [
+   "La hausse des frais répond à un déficit structurel : environ 350 dollars par étudiant et par an, barème secret, et chaque déficit retombe sur la faculté.",
+   "Désaccord entre Adams et Mangold : Adams doute que l'apprentissage s'impose, Mangold en rejette la faute sur les enseignants, à l'exception d'Anna Moellenhoff.",
+   "Frictions Rice-Albers déjà en hausse, sans date précise dans les fiches.",
+   "La question raciale reste en suspens : après une panne de chauffage, le personnel noir refuse de déménager à Lee Hall par crainte de l'hostilité du village (date non attestée).",
+   "Démêlés avec Rollins, dont les fiches ne donnent pas le détail."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le relèvement des frais",
+    "date": "1935-02-17",
+    "lieu": null,
+    "personnages": [
+     "John Rice",
+     "Mangold",
+     "étudiants"
+    ],
+    "deroule": "Le Board décide la hausse alors que la faculté absorbe déjà les déficits. Les étudiants viennent de cotiser 816 dollars pour une affaire qui les dépasse. La scène peut poser la question de qui paie le collège.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Albers lit la presse d'Andover",
+    "date": "1935-01",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "Sawyer"
+    ],
+    "deroule": "Les brèves locales sur les quinze gravures ne font pas de critique. Albers mesure qu'il n'a en Nouvelle-Angleterre que Sawyer pour soutien, et la scène tourne autour de cette solitude.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Une semaine d'Adams au collège",
+    "date": null,
+    "lieu": "collège",
+    "personnages": [
+     "Arthur S. Adams",
+     "Mangold",
+     "étudiants",
+     "Anna Moellenhoff"
+    ],
+    "deroule": "Adams observe les cours et juge que l'apprentissage dépend de la volonté de l'étudiant. Mangold répond que le problème tient aux enseignants, et cite le cours de biologie d'Anna Moellenhoff qui attire huit étudiants passionnés.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Février, après le retour de Cuba",
+    "vers_date": "1934-12-28",
+    "vers": "Josef donne trois conférences au Lyceum de La Havane, du 28 décembre 1934 au 16 janvier 1935.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Février, quand la presse parle du collège",
+    "vers_date": "1934-11",
+    "vers": "Walter Locke publie à Dayton un éditorial sur le collège.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février, au moment de la hausse des frais",
+    "vers_date": "1935-05",
+    "vers": "Albers parle à Washington devant l'American Federation of Arts (20-22 mai), puis donne sa conférence « Abstract Art » à Asheville.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février, dans la faculté qui absorbe les déficits",
+    "vers_date": "1935-09",
+    "vers": "Arrivée de Knickerbocker, psychologue recommandé par Harvard, qui doute dès le départ des tactiques de classe de Rice.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Rice contre Knickerbocker : vers le schisme (1935-09→1937-06)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février, à l'époque du séjour d'Adamic (date incertaine)",
+    "vers_date": "1936-04",
+    "vers": "Adamic publie « Education on a Mountain » dans Harper's, qui fixe l'image publique du collège et prépare la crise de 1936.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Adamic et l'image publique du collège (1935→1936)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Un collège qui vit de la parole des visiteurs (Dewey, Adams, Adamic) plus que de ses comptes",
+   "La faculté porte le déficit, donc la fragilité personnelle de chacun",
+   "L'apprentissage tenu pour volontaire, qui déchire les enseignants",
+   "La visibilité naissante du collège dans la presse et ses effets sur la suite"
+  ],
+  "lacunes": "Aucun autre jour de février n'est attesté que le 17 ; ni session, ni calendrier de cours, ni effectifs. Les sources se contredisent : les visites de Dewey (deux séjours d'une semaine ou plus contre deux visites dont une avec Barnes, par oui-dire) ; la durée du séjour d'Adamic (quelques jours contre deux à trois mois) ; la date du voyage au Mexique (été 1935 contre décembre 1935-janvier 1936). Anna Moellenhoff enseigne la biologie au printemps 1935 selon l'épisode Adams, alors que les Moellenhoff rejoignent le collège à la rentrée de septembre : soit ils étaient déjà là comme visiteurs, soit la source est inexacte. Wunsch est arrivé en 1935 sans mois précis, et sa conversation avec Rice n'est pas datée. Le détail des démêlés avec Rollins et la date de la panne de chauffage restent inconnus."
+ }
+}

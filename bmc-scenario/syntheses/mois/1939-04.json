@@ -1,0 +1,216 @@
+{
+ "passe": "mois",
+ "cle": "1939-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3872,
+  "sortie": 9715,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1939-04",
+  "session": "Printemps 1939, en fin d'année scolaire (déduit : les fiches ne nomment pas la session)",
+  "saison_et_climat": "Printemps 1939 ; le climat n'est documenté par aucune fiche",
+  "situation": "Le collège est en crise ouverte autour de Rice, qui se tient à l'écart dans une chambre de Lee Hall et écrit son autobiographie. La faculté veut l'évincer, et Marian Nacke annonce une explosion prochaine. Rice et Albers se sont de nouveau querellés après une trêve sans lendemain, et Portell a démissionné. Allan Sly ne reviendra pas l'année suivante. Rice se bat aussi publiquement contre son cousin William H. Smith dans Harper's. Nell est absente (Asheville, Chapel Hill, Swarthmore) et Alice reste au collège après leur rupture. La durée du congé de Rice fait l'objet d'un désaccord entre sources.",
+  "presents_probables": [
+   {
+    "nom": "Rice, dans sa chambre de Lee Hall",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Marian Nacke",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Allan Sly",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1939-04",
+    "precision": "mois",
+    "ce_qui_arrive": "L'exposition Bauhaus 1919-1928 du MoMA est présentée à l'Addison ; Sawyer quitte peu après l'Addison pour diriger le Worcester Art Museum, et Bartlett Hayes lui succède",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02937"
+    ]
+   },
+   {
+    "date": "1939-04",
+    "precision": "mois",
+    "ce_qui_arrive": "William H. Smith publie dans Harper's une longue lettre qui relève des erreurs dans « Grandmother Smith's Plantation » et défend le sénateur Smith",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02938"
+    ]
+   },
+   {
+    "date": "1939-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice répond en citant le discours antilynchage du sénateur Smith du 16 avril 1935 ; la menace de procès en diffamation n'aboutira pas",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02939"
+    ]
+   },
+   {
+    "date": "1939-04-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Marian Nacke écrit qu'une partie de la faculté veut évincer Rice et menace de faire éclater le collège ; elle attend une explosion « dans les six semaines »",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02940"
+    ]
+   },
+   {
+    "date": "1939-04-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Allan Sly annonce qu'il ne reviendra pas l'année suivante ; Nacke espère un successeur",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02940"
+    ]
+   },
+   {
+    "date": "1939-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice quitte le collège fin juin pour Southern Pines ; Nell refuse de le suivre et finit son stage à Asheville avant Chapel Hill",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1939-06-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Josef et Anni Albers partent pour le Mexique, où ils resteront jusqu'au 8 septembre",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1939-06-22",
+    "precision": "jour",
+    "ce_qui_arrive": "Les parents d'Anni, les Fleischmann, débarquent à Veracruz ; Josef et Anni les accueillent, dans un exil définitif",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Rice travaille seul dans sa chambre de Lee Hall. La musique, que Nacke décrit comme la chose la plus importante de l'année, dépend de Sly, dont le départ se prépare. Albers enseigne et ses querelles avec Rice restent ouvertes. Les préparatifs d'été commencent : Frank et Mary Rice reviendront travailler à l'auberge de Lake Eden, et les Albers partiront au Mexique début juin. Les fiches ne décrivent pas les cours ni les repas.",
+  "tensions": [
+   "Une partie de la faculté veut évincer Rice et menace de faire éclater le collège",
+   "Rice contre son cousin William H. Smith, et la menace de procès qui reste sans suite",
+   "Rice et Albers, dont la trêve avec Dreier n'a pas tenu",
+   "Sly, dont les exigences paralysent Nacke au piano",
+   "Le sabbatique de Rice : Duberman parle d'un congé d'un an que le conseil voudrait utiliser pour l'éloigner, Chaddock d'un seul semestre obtenu à contrecœur",
+   "Le sentiment de trahison des disciples de Rice, selon Nacke"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La lettre de Nacke",
+    "date": "1939-04-24",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Marian Nacke",
+     "Allan Sly"
+    ],
+    "deroule": "Nacke écrit qu'une partie de la faculté veut évincer Rice, qu'une explosion est attendue dans les six semaines et que Sly ne reviendra pas. Elle se dit paralysée au piano par ses exigences.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02940"
+    ]
+   },
+   {
+    "titre": "La riposte dans Harper's",
+    "date": "1939-04",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "William H. Smith"
+    ],
+    "deroule": "Smith relève les erreurs de « Grandmother Smith's Plantation » et défend le sénateur. Rice répond en citant le discours antilynchage du sénateur Smith du 16 avril 1935. La menace de procès reste sans suite.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02938",
+     "EV-02939"
+    ]
+   },
+   {
+    "titre": "Rice dans Lee Hall",
+    "date": "1939-04",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "Rice"
+    ],
+    "deroule": "Retiré des affaires communes depuis 1938, Rice écrit son autobiographie commencée à Folly Beach. Sa liaison avec Alice est terminée, mais elle reste au collège.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "titre": "La trêve rompue",
+    "date": "1939-04",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rice",
+     "Albers",
+     "Dreier"
+    ],
+    "deroule": "La trêve entre Dreier, Albers et Rice n'a pas tenu. Rice et Albers se sont vite querellés de nouveau, et Portell, leur adversaire, a démissionné.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Avril 1939, dans la querelle de Harper's",
+    "vers_date": "1935-04-16",
+    "vers": "Le discours antilynchage du sénateur Smith, que Rice cite pour répondre à son cousin",
+    "refs": [
+     "EV-02939"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Avril 1939, dans la lettre de Nacke sur la crise",
+    "vers_date": "1938",
+    "vers": "La rupture de Rice avec Alice et sa mise à l'écart des affaires communes",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1939, à l'annonce du départ de Sly",
+    "vers_date": "1940",
+    "vers": "L'année suivante sans Sly, dans une période où la musique doit se reconstruire",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1939, dans l'attente de l'explosion annoncée",
+    "vers_date": "1939-06",
+    "vers": "Fin juin, Rice quitte le collège pour Southern Pines pendant que Nell refuse de le suivre",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "La chute du fondateur",
+   "Les disciples trahis et la quête de sécurité",
+   "La réputation du collège",
+   "La musique sans Sly",
+   "La rivalité entre Rice et Albers",
+   "Le passé raciste de la famille Smith"
+  ],
+  "lacunes": "Les fiches ne datent ni la lettre de Smith ni la démission de Portell, et ne donnent pas le jour de la sortie de Rice. Duberman et Chaddock s'opposent sur la durée du congé. La session exacte et le climat ne sont pas documentés. La synthèse ne porte pas d'identifiant de fiche, donc plusieurs faits s'appuient sur refs vides. Les sources divergent sur l'exposition Bauhaus d'avril : la synthèse parle de la maison d'Albers, EV-02937 de l'Addison. Le cours du collège et la vie quotidienne sont à peine documentés."
+ }
+}

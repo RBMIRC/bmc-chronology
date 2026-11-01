@@ -1,0 +1,223 @@
+# Concordance des cours 1940-41 → gabarits de l'année reconstituée.
+#
+# Sources :
+#   1940-41 : catalogue 2017.40.016 (fiche 6584), relu par un OCR refait sur ses 43 images (scans/016-*.jpg) ; calendrier
+#             p. 2 (016-04) ; cours pp. 12-27 (016-15 à 016-27) ; officiers et corps enseignant pp. 33-39 (016-35 à 016-40).
+#             Groupe Art : « *A ALBERS, †J ALBERS, A L KOCHER » ; « *On leave of absence fall semester 1940-1941. †On leave
+#             of absence 1940-1941 » (vérifié sur l'image 016-16). « Only special tutorial work is offered in Greek and Latin
+#             in 1940-1941 because of a temporary vacancy on the staff. » « Most of the courses are being given this year… »
+#             Pour chaque matière : un groupe d'enseignants et des titres, sans heures ni attribution par cours.
+#   Lettres de l'année : 2017.40.257 (déc. 1940 : Kocher dirige l'art pendant le sabbatique d'Albers ; Don Page encadre le
+#             tissage pendant le congé d'Anni Albers ; Trudi Straus au violon) ; 2017.40.258 (janv. 1941 : Alexander S. Reed,
+#             assistant pour le printemps, « will offer courses in Color, Drawing, and Werklehre » ; démission de Kirill Chenkin,
+#             qui a enseigné « from February through December of last year »).
+#   Structures (heures) : 1936-38 (2017.40.012) quand le cours existait, sinon supposées.
+#
+# C|id|discipline|titre 1940-41|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ART AND ARCHITECTURE ----------
+C|art.dessin1|Art and Architecture|Introductory Drawing|Introductory Drawing (Albers)|—
+C|art.dessin2|Art and Architecture|Advanced Drawing|Advanced Drawing|—
+C|art.couleur1|Art and Architecture|Introductory Color|Introductory Color|—
+C|art.couleur2|Art and Architecture|Advanced Color|Advanced Color|—
+C|art.werklehre|Art and Architecture|Werklehre|Werklehre|—
+C|art.tissage_t|Art and Architecture|Weaving Theory|Weaving Theory|—
+C|art.tissage_p|Art and Architecture|Weaving Practice|Weaving Practice|—
+C|art.conferences|Art and Architecture|General Art Lectures|General Art Class (approché)|—
+C|art.groupe|Art and Architecture|Group Art Conferences|Private Art Seminar (approché)|—
+C|arch.1|Art and Architecture|Contemporary Architecture I|— (nouveau)|—
+C|arch.2|Art and Architecture|Contemporary Architecture II|— (nouveau)|—
+U|RE1|Alexander S. Reed|4|MEME_ANNEE+R_ATTESTE+VOISIN|art.dessin1||art.dessin2|1/2|« Alexander S Reed… Assistant Instructor in Art for the Spring Semester, and will offer courses in Color, Drawing, and Werklehre » (2017.40.258)||printemps seulement ; niveau (introduction ou avancé) non précisé|spring
+U|RE2|Alexander S. Reed|2|MEME_ANNEE+R_ATTESTE+VOISIN|art.couleur1||art.couleur2|1/2|idem||idem|spring
+U|RE3|Alexander S. Reed|2|MEME_ANNEE+R_ATTESTE+VOISIN|art.werklehre|||1|idem||printemps seulement|spring
+U|TX1|Don Page|1+4|MEME_ANNEE+R_ATTESTE+VOISIN|art.tissage_t+art.tissage_p|tissage encadré par un étudiant||1/2|« textile design classes supervised during Anni Albers' leave » par Don Page (2017.40.257)||automne : un étudiant encadre l'atelier ; forme et horaire inconnus|fall
+U|AA1|Anni Albers|1|MEME_ANNEE+R_NOMME+VOISIN|art.tissage_t|||1|Anni Albers, de retour au printemps (congé « fall semester 1940-1941 »)|||spring
+U|AA2|Anni Albers|4|MEME_ANNEE+R_NOMME+VOISIN|art.tissage_p|||1|idem ; « Textile Design: floor covering samples » (janv. 1941)|||spring
+U|KO1|A. Lawrence Kocher|3|MEME_ANNEE+R_ATTESTE+VOLUME|arch.1|||1|« Lecture and laboratory classes in Contemporary Architecture » (déc. 1940) ; Kocher seul architecte du groupe||volume supposé|
+U|KO2|A. Lawrence Kocher|3|MEME_ANNEE+R_ATTESTE+VOLUME|arch.2|projets individuels : plans, dessins d'exécution, maquettes||1/2|idem||cours avancé : chance 1/2|
+U|KO3|A. Lawrence Kocher|1|MEME_ANNEE+R_ELIM+VOLUME+OCCASION|art.conferences||art.groupe|1/2|Kocher dirige le département d'art pendant le sabbatique d'Albers (déc. 1940)||conférences générales d'art, occasionnelles|
+N|art.dessin2|candidat de RE1
+N|art.couleur2|candidat de RE2
+
+# ---------- MUSIC (groupe : J. Evarts, H. Jalowetz, J. A. Nelson, G. Straus) ----------
+C|mu.app1|Music|Music Appreciation I|Music Appreciation I|1936-38 : deux semestres, 3 h, Evarts
+C|mu.app2|Music|Music Appreciation II|Music Appreciation II|idem
+C|mu.app3|Music|Music Appreciation III|Music Appreciation III|—
+C|mu.harmonie|Music|Harmony and Counterpoint|Composition (approché)|—
+C|mu.oreille|Music|Ear Training and Keyboard Harmony|— (nouveau)|—
+C|mu.instruments|Music|Instruction in Piano and Violin|Piano Lessons ; Violin Lessons|—
+C|mu.chant|Music|General Singing|General Singing|une fois par semaine
+C|mu.choeur|Music|Chorus|Chorus and Orchestra|—
+C|mu.acappella|Music|A Cappella Chorus|— (nouveau)|—
+C|mu.orchestre|Music|Orchestra|Chorus and Orchestra|1936-38 : 3 h
+C|mu.chambre|Music|Chamber Music|Chamber Music|—
+U|MU1|John Evarts|3|MEME_ANNEE+R_NOMME+VOISIN|mu.app1|||1|groupe Music ; Evarts nommé en 1936-38|||
+U|MU2|John Evarts|3|MEME_ANNEE+R_NOMME+VOISIN|mu.app2|||1|idem|||
+U|MU3|John Evarts|3|MEME_ANNEE+R_NOMME+VOLUME|mu.app3|||1|idem|||
+U|MU4|Heinrich Jalowetz|2|MEME_ANNEE+R_ELIM+VOLUME|mu.harmonie|||1|groupe Music : Jalowetz, élève de Schoenberg en composition|||
+U|MU5|Jessie Ann Nelson|2|MEME_ANNEE+R_ELIM+VOLUME|mu.oreille|||1|« Jessie Ann Nelson, Assistant in Music » (corps enseignant)||rattachement à l'assistante : déduit|
+U|MU6|John Evarts; Heinrich Jalowetz; Gertrude Straus|1|MEME_ANNEE+R_ELIM+VOLUME+OCCASION|mu.instruments|leçons individuelles||1|piano : Evarts et Jalowetz (« piano instructor to share the teaching of Dr Jalowetz and John Evarts », mai 1940) ; violon : Trudi Straus (déc. 1940)||plage indicative|
+U|MU7|Heinrich Jalowetz|1|MEME_ANNEE+R_ELIM+VOISIN|mu.chant|pour toute la communauté||1|groupe Music : Jalowetz a repris la musique d'ensemble de Sly (août 1939)|mar 19:30-20:30||
+U|MU8|Heinrich Jalowetz|1|MEME_ANNEE+R_ELIM+VOISIN|mu.choeur|||1|idem|jeu 19:30-20:30||
+U|MU9|Heinrich Jalowetz|1|MEME_ANNEE+R_ELIM+VOLUME|mu.acappella|||1|idem|ven 20:30-21:30|ensemble choral nouveau ; soirée choisie|
+U|MU10|Heinrich Jalowetz|3|MEME_ANNEE+R_ELIM+VOISIN|mu.orchestre|||1|idem|||
+U|MU11|Heinrich Jalowetz; Gertrude Straus|2|MEME_ANNEE+R_ELIM+VOLUME|mu.chambre|||1|Trudi Straus (violon) et Jalowetz jouent ensemble à l'automne 1940 (2017.40.257)|||
+
+# ---------- DRAMATICS (groupe : K. Kurtz, W. R. Wunsch) ----------
+C|dr.prod1|Dramatics|Play Production I|Dramatics I|—
+C|dr.prod2|Dramatics|Play Production II|Dramatics II|—
+C|dr.regie|Dramatics|Stagecraft|— (nouveau ; Bedford Thurman, assistant en 1939-40)|—
+C|dr.histoire|Dramatics|History of the Drama|—|—
+C|dr.shakespeare|Dramatics|Shakespeare and the Elizabethan Drama|Shakespeare and the Elizabethan Drama (English)|—
+U|DR1|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOLUME|dr.prod1|||1|groupe Dramatics ; Wunsch « American Literature and Dramatics » (corps enseignant)|||
+U|DR2|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOLUME|dr.prod2||dr.regie|1/2|idem||niveau avancé ou régie|
+U|KU1|Kenneth Kurtz|3|MEME_ANNEE+R_ELIM+VOLUME|dr.shakespeare||dr.histoire|1/2|groupe Dramatics : Kurtz, « English and American Literature » ; Shakespeare est aussi un cours d'anglais||un des deux à la fois|
+
+# ---------- WRITING (groupe : F. R. Mangold, W. R. Wunsch) ----------
+C|ecr.intro|Writing|Introductory Writing|Introductory Writing|—
+C|ecr.critique|Writing|Criticism and Writing|— (nouveau)|—
+C|ecr.seminaire|Writing|Writing Seminar|Writing Seminar|—
+C|ecr.journalisme|Writing|Journalism|Journalism|1936-38 : 2 h, Wunsch
+U|W1|Robert Wunsch|3|MEME_ANNEE+R_NOMME+VOISIN|ecr.intro|||1|groupe Writing ; écriture à Wunsch depuis 1935|||
+U|W2|Frederick R. Mangold|2|MEME_ANNEE+R_ELIM+VOLUME|ecr.critique||ecr.seminaire|1/2|groupe Writing : Mangold (« form in literature », « problems of the novel » : la critique)|||
+U|W3|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOISIN|ecr.journalisme|||1|idem|||
+
+# ---------- ENGLISH AND AMERICAN LITERATURE (groupe : K. Kurtz, F. R. Mangold, W. R. Wunsch) ----------
+C|en.survey|English|Introductory Survey of English Literature|Introductory Survey of English Literature|1936-38 : deux semestres, 3 h
+C|en.medieval|English|Chaucer and Medieval Literature|Chaucer and Medieval Literature|un semestre, 3 h, années alternées (1936-38)
+C|en.shakespeare|English|Shakespeare and the Elizabethan Drama|Shakespeare and the Elizabethan Drama|idem
+C|en.xvii|English|Seventeenth Century Literature|Seventeenth Century Literature|idem
+C|en.xviii|English|Eighteenth Century Literature|Eighteenth Century Literature|idem
+C|en.romantique|English|The Romantic Movement|The Romantic Movement|idem
+C|en.victorien|English|Victorian England|Victorian England|idem
+C|en.am19|English|Nineteenth Century American Literature|Nineteenth Century American Literature|un semestre, 2 h (1936-38)
+C|en.amcontemp|English|Contemporary American Literature|Contemporary American Literature|idem
+C|en.lectures|English|Readings in Literature|Readings in Literature|—
+C|en.forme|English|Form in Literature|Form in Literature|un semestre, 1 h (1936-38)
+C|en.roman|English|Problems of the Novel|Problems of the Novel|un semestre, 2 h (1936-38)
+C|ling.intro|English|General Introduction to Linguistics|General Introduction to Linguistics|deux semestres, 3 h (1936-38)
+U|KU2|Kenneth Kurtz|3|MEME_ANNEE+R_ELIM+VOISIN|en.survey|||1|groupe English : Kurtz, seul spécialiste de littérature anglaise du groupe|||
+U|KU3|Kenneth Kurtz|3|MEME_ANNEE+R_ELIM+VOISIN|en.romantique||en.medieval;en.xvii;en.xviii;en.victorien;en.lectures|1/4|idem||un semestre, une année sur deux (1936-38) ; complément des choix de 1939-40|fall
+U|KU4|Kenneth Kurtz|3|MEME_ANNEE+R_ELIM+VOISIN|en.victorien||en.medieval;en.xvii;en.xviii;en.romantique;en.lectures|1/4|idem|=KU3|idem|spring
+U|WU1|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOISIN|en.am19|||1/2|« American Literature and Dramatics » (corps enseignant)||un semestre : automne|fall
+U|WU2|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOISIN|en.amcontemp|||1/2|idem|=WU1|un semestre : printemps|spring
+U|MG1|Frederick R. Mangold|1|MEME_ANNEE+R_NOMME+VOISIN|en.forme|||1/2|Mangold nommé en 1936-38||automne|fall
+U|MG2|Frederick R. Mangold|2|MEME_ANNEE+R_NOMME+VOISIN|en.roman|||1/2|idem||printemps|spring
+U|LG|Frederick R. Mangold|3|MEME_ANNEE+R_ATTESTE+VOISIN|ling.intro|||1|« Frederick Rogers Mangold, Spanish and Linguistics » (corps enseignant)|||
+N|en.shakespeare|donné sous Dramatics (unité KU1, même titre)
+
+# ---------- FOREIGN LANGUAGES (groupe : K. Chenkin, F. R. Mangold, E. W. Straus, G. Straus) ----------
+C|fr.intro|French|Introductory French|Introductory French|années alternées
+C|fr.avance|French|Advanced French|Advanced French|idem
+C|fr.survey|French|Introductory Survey of French Literature|Introductory Survey of French Literature|—
+C|fr.seminaire|French|Seminar on Stendhal, Flaubert, and Proust|Seminar on Stendhal, Flaubert, and Proust|—
+C|de.intro|German|Introductory German|Introductory German|années alternées
+C|de.avance|German|Advanced German|Advanced German|idem
+C|de.litt|German|Eighteenth and Nineteenth Century German Literature|Nineteenth Century German Literature|—
+C|de.goethe|German|Seminar on Goethe|Seminar on Goethe|—
+C|gr.intro|Greek|Introductory Greek|Introductory Greek|tutorat seulement en 1940-41
+C|gr.avance|Greek|Advanced Greek|Advanced Greek|idem
+C|gr.platon|Greek|Plato|— (Platon en philosophie, Rice)|idem
+C|la.intro|Latin|Introductory Latin|— (nouveau)|idem
+C|la.avance|Latin|Advanced Latin|— (nouveau)|idem
+C|la.lyrique|Latin|Latin Lyric Poetry|Latin Lyric Poetry|idem
+C|es.intro|Spanish|Introductory Spanish|Introductory Spanish|années alternées
+C|es.avance|Spanish|Advanced Spanish|Advanced Spanish|idem
+C|es.cervantes|Spanish|Seminar on Cervantes|Seminar on Cervantes|—
+U|CH1|Kirill Chenkin|3|MEME_ANNEE+R_ATTESTE+VOISIN|fr.avance||fr.intro|1/2|« Kirill Chenkin, French and Comparative Literature » (corps enseignant)||automne seulement : il quitte le collège en décembre 1940 (2017.40.258) ; alternance : complément de 1939-40|fall
+U|CH2|Kirill Chenkin|3|MEME_ANNEE+R_ATTESTE+VOISIN|fr.seminaire||fr.survey|1/2|idem||automne seulement ; littérature comparée|fall
+U|MA1|Frederick R. Mangold|3|MEME_ANNEE+R_ATTESTE+VOISIN|fr.avance||fr.intro|1/2|après le départ de Chenkin, le français revient à Mangold (« Spanish and Linguistics »)|=CH1|printemps : reprise, sans certitude|spring
+U|MA2|Frederick R. Mangold|3|MEME_ANNEE+R_ATTESTE+VOISIN|es.avance||es.intro;es.cervantes|1/2|« Spanish and Linguistics »||complément de 1939-40|
+U|GS1|Gertrude Straus|3|MEME_ANNEE+R_ELIM+VOISIN|de.intro||de.avance|1/2|groupe Languages : les Straus ; l'allemand à Trudi Straus (Erwin Straus enseigne psychologie et philosophie)||années alternées|
+U|GS2|Gertrude Straus; Erwin Straus|3|MEME_ANNEE+R_ELIM+VOISIN|de.goethe||de.litt|1/2|idem|||
+U|TU1||2|MEME_ANNEE+R_COMPET+VOLUME+OCCASION|gr.intro+la.lyrique|tutorat en grec et en latin|gr.avance;gr.platon;la.intro;la.avance|1/2|« Only special tutorial work is offered in Greek and Latin in 1940-1941 because of a temporary vacancy on the staff »||par qui : inconnu (Erwin Straus, qui donne les « Philosophical Classics » ?)|
+
+# ---------- HISTORY AND GOVERNMENT (groupe : R. S. Babcock, W. C. Barnes) ----------
+C|hi.usa|History and Government|History of the United States|History of the United States|—
+C|hi.nouveaumonde|History and Government|Civilization in the New World|Civilization in the New World|—
+C|hi.europe|History and Government|History of Modern Europe|History of Modern Europe|—
+C|hi.russie|History and Government|Modern Russia|Modern Russia|—
+C|hi.renaissance|History and Government|Renaissance and Reformation|Renaissance and Reformation|—
+C|hi.philo|History and Government|Philosophy of History|— (nouveau)|—
+C|gv.theorie|History and Government|Political Theory|— (nouveau)|—
+C|gv.relations|History and Government|International Relations|— (nouveau)|—
+C|gv.amerique|History and Government|American Government|— (nouveau)|—
+C|gv.europe|History and Government|European Political Institutions|— (nouveau)|—
+U|WB1|W. C. Barnes|3|MEME_ANNEE+R_ELIM+VOLUME|hi.usa||hi.russie;hi.renaissance|3/5|« Walter Carl Barnes, History » (corps enseignant)||six titres d'histoire, environ quatre à la fois (« most of the courses are being given ») ; ordre du catalogue|
+U|WB2|W. C. Barnes|3|MEME_ANNEE+R_ELIM+VOLUME|hi.nouveaumonde||hi.russie;hi.renaissance|3/5|idem||idem|
+U|WB3|W. C. Barnes|3|MEME_ANNEE+R_ELIM+VOLUME|hi.europe||hi.russie;hi.renaissance|3/5|idem||idem|
+U|WB4|W. C. Barnes|2|MEME_ANNEE+R_ELIM+VOLUME|hi.philo|||1/2|idem||idem|
+U|BB1|Robert S. Babcock|3|MEME_ANNEE+R_ELIM+VOLUME|gv.amerique||gv.theorie|1/2|« Robert Shillingford Babcock, Government » (corps enseignant)||quatre titres de gouvernement, environ deux à la fois|
+U|BB2|Robert S. Babcock|3|MEME_ANNEE+R_ELIM+VOLUME|gv.relations||gv.europe;gv.theorie|1/2|idem|||
+
+# ---------- ECONOMICS AND SOCIOLOGY (R. Gothe seul) ----------
+C|eco.pensee|Economics and Sociology|Introduction to Economic Thinking|General Economics (G. Barnes)|—
+C|eco.travail|Economics and Sociology|The Science of Work|Labor Problems (approché)|—
+C|eco.idees|Economics and Sociology|Evolution of Social Ideas|General Sociology (approché)|—
+C|eco.educ|Economics and Sociology|Educational Sociology|— (nouveau)|—
+U|RG1|Richard Gothe|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.pensee|||4/5|seul nom du groupe ; « Richard Gothe, Economics and Sociology »||« most of the courses are being given this year »|
+U|RG2|Richard Gothe|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.travail|||4/5|idem||Gothe s'occupe aussi des camps de travail (janv. 1941)|
+U|RG3|Richard Gothe|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.idees|||4/5|idem|||
+U|RG4|Richard Gothe|2|MEME_ANNEE+R_ATTESTE+VOLUME|eco.educ|||1/2|idem|||
+
+# ---------- PSYCHOLOGY (groupe : J. R. P. French Jr., E. W. Straus) ----------
+C|psy.intro|Psychology|Introductory Psychology|Fundamentals of Psychology (approché)|—
+C|psy.fond|Psychology|Fundamentals of Psychology|Fundamentals of Psychology|—
+C|psy.enfant|Psychology|Child Psychology|—|—
+C|psy.educ|Psychology|Educational Psychology|—|—
+C|psy.sociale|Psychology|Social Psychology|—|—
+C|psy.psychanalyse|Psychology|Psychoanalysis|Psychoanalysis|—
+C|psy.pathologie|Psychology|Psychopathology|Psychopathology|—
+C|psy.esthetique|Psychology|Seminar on Psychology of Aesthetics|— (nouveau)|—
+U|JF1|John R. P. French Jr.|3|MEME_ANNEE+R_ATTESTE+VOLUME|psy.intro|||1|nommé « Introductory Psychology » (juillet 1940, 2017.40.256a-e)||l'introduction psychologique expérimentale ; French présente « Disruption of Groups » en 1941|
+U|JF2|John R. P. French Jr.|3|MEME_ANNEE+R_ELIM+VOLUME|psy.sociale||psy.enfant;psy.educ|1/2|groupe Psychology : French, psychologue social (topologique)|||
+U|ES1|Erwin Straus|3|MEME_ANNEE+R_ELIM+VOLUME|psy.fond||psy.esthetique|1/2|« Erwin Walter Straus, Psychology and Philosophy »||la « psychologie avancée » décrite dans le catalogue (« relations between man and his world »)|fall
+U|ES2|Erwin Straus|3|MEME_ANNEE+R_ELIM+VOLUME|psy.pathologie||psy.psychanalyse;psy.esthetique|1/2|idem|=ES1||spring
+
+# ---------- BIOLOGY (J. R. Carpenter seul) ----------
+C|bio.gen|Biology|General Biology|Introductory Biology (A. Moellenhoff, 1938-39)|1936-38 : deux semestres, 3 h + 4 h de laboratoire
+C|bio.anatomie|Biology|Comparative Anatomy and Embryology|—|—
+C|bio.plantes|Biology|Plant Morphology|—|—
+C|bio.terrain|Biology|Field Biology and Ecology|—|—
+C|bio.regnes|Biology|The Plant and Animal Kingdoms|—|—
+C|bio.homme|Biology|Ecology in Relation to Man|—|—
+U|JC1|J. Richard Carpenter|3+4L|MEME_ANNEE+R_ATTESTE+VOISIN|bio.gen|||1|seul nom du groupe ; nommé en biologie (juillet 1940)||écologue (Committee on Ecological Nomenclature, janv. 1941)|
+U|JC2|J. Richard Carpenter|3|MEME_ANNEE+R_ATTESTE+VOLUME|bio.terrain||bio.homme;bio.regnes|1/2|idem||l'écologie est sa spécialité|
+U|JC3|J. Richard Carpenter|3|MEME_ANNEE+R_ATTESTE+VOLUME|bio.anatomie||bio.plantes|1/2|idem||cours avancés, « in general offered in alternate years »|
+
+# ---------- PHYSICS AND CHEMISTRY (groupe : C. H. Lindsley, N. Rosen) ----------
+C|ph.gen|Physics|General Physics|Introductory General Physics (1938-39)|1936-38 : deux semestres, 3 h + 4 h
+C|ph.meca|Physics|Mechanics|Mechanics|—
+C|ph.son|Physics|Sound|—|—
+C|ph.chaleur|Physics|Heat|—|—
+C|ph.elec|Physics|Electricity|Electricity|—
+C|ph.optique|Physics|Optics|Elementary Optics|—
+C|ph.moderne|Physics|Modern Physics|—|—
+C|ph.musique|Physics|Physics of Musical Sounds|Physics of Musical Sounds|1936-38 : un semestre, 3 h + 4 h
+C|ch.gen|Chemistry|General Chemistry|Introductory General Chemistry|1936-38 : deux semestres, 3 h + 4 h
+C|ch.quali|Chemistry|Qualitative Analysis|Qualitative Analysis|—
+C|ch.quanti|Chemistry|Quantitative Analysis|Quantitive Analysis|—
+C|ch.physique|Chemistry|Physical Chemistry|—|—
+C|ch.organique|Chemistry|Organic Chemistry|—|—
+C|sc.histoire|Physics and Chemistry|History of Science|History of Science|—
+U|NR1|Nathan Rosen|3+4L|MEME_ANNEE+R_ATTESTE+VOISIN|ph.gen|||1|« Nathan Rosen, Physics » (corps enseignant)||la physique reprend après la vacance de 1939-40|
+U|NR2|Nathan Rosen|3|MEME_ANNEE+R_ATTESTE+VOLUME+OCCASION|ph.moderne||ph.meca;ph.son;ph.chaleur;ph.elec;ph.optique;ph.musique|1/7|idem||un cours avancé à la fois ; physique moderne retenue (Rosen, physicien théoricien) ; sinon inconnu|
+U|CL1|Charles H. Lindsley|3+4L|MEME_ANNEE+R_ATTESTE+VOISIN|ch.gen|||1|« Charles Halsey Lindsley, Chemistry »|||
+U|CL2|Charles H. Lindsley|3|MEME_ANNEE+R_ATTESTE+VOLUME|ch.quali||ch.quanti;ch.physique;ch.organique|1/4|idem||un cours avancé ; lequel : inconnu|
+U|HS|Nathan Rosen; Charles H. Lindsley|2|MEME_ANNEE+R_COMPET+VOLUME|sc.histoire|||1/2|groupe Physics and Chemistry : enseignant inconnu||titre sans structure connue|
+
+# ---------- MATHEMATICS (T. Dreier seul) ----------
+C|ma.analyse|Mathematics|Mathematical Analysis|Calculus I (approché)|—
+C|ma.trigo|Mathematics|Trigonometry|Trigonometry|—
+C|ma.geom|Mathematics|Analytic Geometry|Analytic Geometry|—
+C|ma.calcul|Mathematics|Intermediate Calculus|Calculus II (approché)|—
+C|ma.equations|Mathematics|Differential Equations|Differential Equations|—
+C|ma.avance|Mathematics|Advanced Calculus|— (nouveau)|—
+U|M1|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOISIN|ma.analyse|||1|« Theodore Dreier, Mathematics » (corps enseignant)||« invited even if he has not had trigonometry to start » par l'analyse|
+U|M2|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOISIN|ma.trigo+ma.geom|réunies comme en 1936-38||1|idem|||
+U|M3|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.calcul||ma.equations;ma.avance|1/2|idem||cours avancés, « in general offered in alternate years »|
+
+# ---------- PHILOSOPHY (E. W. Straus seul) ----------
+C|phi.classiques|Philosophy|Philosophical Classics|Plato I ; Plato II (Rice)|—
+U|ES3|Erwin Straus|3|MEME_ANNEE+R_ATTESTE+VOLUME|phi.classiques|||1|« E W STRAUS » seul nom du groupe ; « Psychology and Philosophy »||Rice parti : la philosophie passe à Straus|

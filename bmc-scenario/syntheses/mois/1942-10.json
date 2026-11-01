@@ -1,0 +1,336 @@
+{
+ "passe": "mois",
+ "cle": "1942-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3002,
+  "sortie": 12716,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-10",
+  "session": "trimestre d'automne 1942 (probable : les fiches situent l'arrivée des Hansgirg et les tensions de l'accord étudiant à l'automne, sans jour de début)",
+  "saison_et_climat": "Automne 1942 à Lake Eden, deuxième année de guerre pour le collège. Les fiches ne décrivent ni le temps ni la lumière de ce mois.",
+  "situation": "Le collège est en plein trimestre d'automne, après un été consacré à la collecte de fonds et à la lutte pour l'accréditation. Il manque d'argent malgré une dette lourde, et la guerre commence à vider les rangs : certains professeurs partent ou s'engagent, d'autres sont en instance de mobilisation. Le chantier de la grange est fini, la laiterie et les silos se poursuivent, la ferme se développe, et la découverte de mica dans le pâturage fait espérer une ressource. Une crise sur l'accord étudiant « bedroom » est en cours, et Fortune enquête sur les effets de la guerre.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Godfrey",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fritz Hansgirg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "l'épouse de Fritz Hansgirg (prénom non donné)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Frances de Graaf",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Elsa Kahl",
+    "certitude": "probable"
+   },
+   {
+    "nom": "William McLaughlin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Brett",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lindsley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Boyden",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Babcock",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "French",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bliss",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1942-10-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Fortune envoie un télégramme d'enquête sur les effets de la guerre. Le collège répond par une page dactylographiée, non datée, qui décrit bien ces effets.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03333"
+    ]
+   },
+   {
+    "date": "1942-10-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion de faculté sur la crise de la chambre et l'accord étudiant « bedroom ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03332"
+    ]
+   },
+   {
+    "date": "1942-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Une lettre ouverte des responsables étudiants suit la réunion, puis les étudiants abandonnent l'accord. William McLaughlin signe la décision. Le contenu de l'accord reste flou.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03332"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "session",
+    "ce_qui_arrive": "Fritz Hansgirg, chimiste réfugié, et sa femme arrivent pour le trimestre d'automne dans une Cadillac crème, suivis d'un orgue Hammond et d'une collection de disques.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "Hansgirg et Straus trouvent dans le pâturage un trou de mica. En deux jours on récolte 250 livres, jugées « bonne muscovite » par les inspecteurs de la Colonial Mica Corporation, et un mineur est embauché.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "Sam Brown date de l'automne 1942 le début du glissement vers une situation « informe », préparant le conflit de 1944.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1942",
+    "precision": "session",
+    "ce_qui_arrive": "Stoller, refusé à l'Enlisted Reserve à cause d'une oreille sourde, est mobilisé après le trimestre d'automne.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1942",
+    "precision": "periode",
+    "ce_qui_arrive": "Départs en 1942-1943 : Lindsley pour Washington, Evarts qui s'engage, Boyden dans le renseignement de la Marine, Mangold à l'ambassade de Mexico, Babcock au Trésor, French dans une usine de Virginie. Bliss part aussi, et Molly Gregory reprend l'atelier de menuiserie.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1942-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice publie son autobiographie I Came Out of the Eighteenth Century, avec un chapitre sur Black Mountain ajouté à la demande de l'éditeur.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1942-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board of Fellows décide d'envoyer un télégramme dont l'objet n'est pas précisé.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Le matin, les cours ; l'après-midi, le travail volontaire du chantier communautaire, qui dure depuis l'automne 1940. La grange est finie, la laiterie et les silos sont en cours. La ferme vit au rythme des troupeaux, des légumes et du taureau offert par Marshall Field, et le fiasco des poules (les bêtes vivent dans les arbres) continue de prêter à rire. L'atelier de menuiserie, repris par Molly Gregory, devient le cœur du programme de construction. Le samedi, bal dans la salle à manger avec Evarts au piano, spectacles où l'on réquisitionne Oppenheimer. Les soirées Bach et cookies chez les Hansgirg divisent la communauté, et Albers enseigne en classe avec des gestes et des figurines d'argile.",
+  "tensions": [
+   "Crise de l'accord « bedroom » : réunion de faculté le 28 octobre, lettre ouverte, abandon de l'accord.",
+   "Pénurie d'argent : la faculté a plafonné ses apports à 10 $ par mois et par personne, après une dette de 18 000 $ en plus d'un solde de 11 500 $ et des postes refusés ailleurs.",
+   "Départs en série pour la guerre, qui fragilisent la faculté et l'atelier.",
+   "Le mica, présenté comme une ressource providentielle, reste une solution d'appoint sans garantie.",
+   "Fritz Hansgirg et sa vie de luxe contre l'esprit « anti-gemütlichkeit » des autres membres ; la dispute sur la crème fraîche amuse, mais elle révèle des rancœurs.",
+   "Sources divergentes : le journal de Betty Brett cité dans la fiche EV-03332 est daté de novembre 1941, alors que la crise est datée d'octobre 1942. Il faut vérifier la datation avant de l'utiliser.",
+   "Le fil de 1944 (fracture idéologique) est en gestation, mais les sources qui le datent de 1942 restent contestées."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Réunion de faculté sur l'accord « bedroom »",
+    "date": "1942-10-28",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "la faculté",
+     "les responsables étudiants",
+     "William McLaughlin"
+    ],
+    "deroule": "La faculté se réunit pour traiter la crise de la chambre. Une lettre ouverte des responsables étudiants fait pression, et les étudiants finissent par abandonner l'accord. La tension entre autorité et autonomie étudiante est palpable.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03332"
+    ]
+   },
+   {
+    "titre": "La page dactylographiée pour Fortune",
+    "date": "1942-10-16",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "les responsables du collège (non nommés)"
+    ],
+    "deroule": "Un télégramme de Fortune demande une enquête sur les effets de la guerre. Le collège répond par une page dactylographiée, rédigée pour donner une image favorable de sa situation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03333"
+    ]
+   },
+   {
+    "titre": "Arrivée des Hansgirg",
+    "date": "1942",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Fritz Hansgirg",
+     "l'épouse de Fritz Hansgirg",
+     "la communauté"
+    ],
+    "deroule": "Une Cadillac crème arrive pour le trimestre d'automne. L'orgue Hammond s'installe dans la salle à manger et les disques s'empilent. Les soirées Bach et cookies enchantent certains et exaspèrent les autres.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Le mica du pâturage",
+    "date": "1942",
+    "lieu": "le pâturage du collège",
+    "personnages": [
+     "Hansgirg",
+     "Straus",
+     "les inspecteurs de la Colonial Mica Corporation d'Asheville",
+     "un mineur embauché"
+    ],
+    "deroule": "Hansgirg et Straus creusent un trou de 15 sur 10 pieds plein de mica. En deux jours, 250 livres sont récoltées. Les inspecteurs les jugent « bonne muscovite », et un mineur est embauché.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Bal du samedi",
+    "date": "1942",
+    "lieu": "la salle à manger",
+    "personnages": [
+     "Evarts",
+     "Elsa Kahl",
+     "Frances de Graaf",
+     "la communauté"
+    ],
+    "deroule": "Evarts joue du piano. On danse une valse viennoise, et Frances de Graaf improvise une tsatska sur deux chaises. Les fiches datent ces scènes de 1942 ou 1943.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Albers sur la table",
+    "date": "1942",
+    "lieu": "la salle de classe",
+    "personnages": [
+     "Josef Albers",
+     "les étudiants"
+    ],
+    "deroule": "En classe, Albers monte sur la table pour mimer l'arc gothique et loue les figurines d'argile d'Oppenheimer. Les fiches datent la scène de 1942-1943.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "la réunion du 28 octobre sur l'accord étudiant",
+    "vers_date": "1942-07-07",
+    "vers": "Le 7 juillet, Mangold résume la campagne de fonds : environ 78 000 $ en deux ans, tous absorbés par la construction. La faculté a déjà renoncé à tout au-delà de 10 $ par mois.",
+    "refs": [
+     "EV-03332"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "le télégramme de Fortune du 16 octobre",
+    "vers_date": "1942-05-24",
+    "vers": "Le 24 mai, Wunsch rencontre Huntley de la Southern Association. Le collège n'a pas encore le droit de délivrer des diplômes, et l'accréditation devient une question de survie.",
+    "refs": [
+     "EV-03333"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "les départs et la mobilisation d'automne",
+    "vers_date": "1940-10",
+    "vers": "L'automne 1940 marque le lancement du chantier communautaire : cours le matin et le soir, après-midi consacrés au travail volontaire, pour près de trois ans.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la crise de l'accord étudiant d'octobre",
+    "vers_date": "1942-11",
+    "vers": "En novembre, Rice publie son autobiographie, avec un chapitre sur Black Mountain. Les critiques sont élogieuses, et Hamilton Holt menace d'un procès en libelle.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la décision du Board of Fellows en décembre",
+    "vers_date": "1942-12",
+    "vers": "En décembre, le Board of Fellows prend la décision d'un télégramme dont l'objet n'est pas indiqué. Le contenu reste inconnu.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le mica et la ferme d'automne",
+    "vers_date": "1944",
+    "vers": "En 1944, la fracture idéologique éclate. Le glissement vers une situation « informe » commence peut-être à l'automne 1942, mais les fiches ne le prouvent pas pour cette date.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "L'argent : dettes, plafonnement des contributions, mica comme ressource d'appoint",
+   "La guerre qui vide le collège, départ après départ",
+   "Le luxe des Hansgirg face à l'austérité et à l'esprit « anti-gemütlichkeit »",
+   "La ferme et le fiasco des poules, qui disent le décalage entre l'idéal d'autosuffisance et la réalité",
+   "L'accord étudiant comme révélateur de l'autonomie et de l'autorité",
+   "L'enquête de Fortune comme miroir d'une image à construire",
+   "La réputation de refuge pour les opposants, confirmée par les télégrammes"
+  ],
+  "lacunes": "Le contenu de l'accord « bedroom » n'est pas précisé. L'objet du télégramme de décembre reste inconnu. La page envoyée à Fortune n'est pas datée et son auteur n'est pas nommé. Les fiches ne donnent ni le jour de l'arrivée des Hansgirg ni celui de la découverte du mica. Le départ de Stoller, Bliss et des autres professeurs n'est pas daté plus précisément que 1942-1943. La présence exacte de chacun en octobre n'est pas attestée. Le chapitre de synthèse n'a pas d'identifiant, donc certaines informations ne peuvent pas être référencées. La date du journal de Betty Brett (1941) cité pour une crise de 1942 reste à vérifier. Il n'y a aucune donnée sur le climat."
+ }
+}

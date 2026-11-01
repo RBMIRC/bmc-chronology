@@ -1,0 +1,291 @@
+{
+ "passe": "mois",
+ "cle": "1949-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5833,
+  "sortie": 14535,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1949-03 (mars 1949)",
+  "session": "Semestre de printemps en cours. La fin du semestre approche, suivie de la session d'été, que Dehn et Natasha Goldowski veulent voir assurée par Albers.",
+  "saison_et_climat": "Fin d'hiver et début de printemps, dans les montagnes de Caroline du Nord. Le climat est déduit de la saison : froid et neige encore possibles, sans que les fiches le précisent pour mars.",
+  "situation": "Le collège survit à la crise de février. Les démissions du 18 février sont actées, et Albers, Anni, Guermonprez et Schlesinger partent, mais Josef Albers continue d'enseigner jusqu'à la fin du semestre. Dreier reste sur le campus jusqu'à mi-avril, sous le feu des accusations. Pittenger tient les rênes à distance, par correspondance, et refuse de s'engager tant que les pensions ne sont pas éclaircies. Le projet « Black Mountain College of the Arts » est mort. Fuller est absent : il fait ériger un dôme au Pentagone à Washington le 13 mars. Elaine de Kooning n'est pas au collège : elle écrit depuis New York, où elle quitte les critiques courtes d'ARTnews. La trésorerie est exsangue, et l'on commence à vendre le gravier du site.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Guermonprez",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Schlesinger",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hazel Larsen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mel Mitchell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rauschenberg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Susan Weil",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1949-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Elaine de Kooning annonce à Albers qu'elle quitte ARTnews pour Tanger avec sa sœur. Le projet reste une fantaisie, mais elle cesse les critiques courtes, de peur de perdre les « rough edges » de l'artiste.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04850",
+     "SC-01242"
+    ]
+   },
+   {
+    "date": "1949-03-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Fuller fait ériger une seconde structure géodésique de quatorze pieds de diamètre dans le jardin du Pentagone, à Washington.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04853"
+    ]
+   },
+   {
+    "date": "1949-03-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Pittenger et Trayer échangent des lettres, les 25 et 30 mars, sur la vente de gravier du site et sur l'affaire Forbes. Le contenu précis de l'affaire reste flou.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04851"
+    ]
+   },
+   {
+    "date": "1949-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board of Fellows invite Hazel Larsen, après son travail photographique de l'été 1948, à devenir lecturer en photographie pour l'année suivante, premier poste officiel d'enseignement photographique du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04852"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Albers poursuit ses cours jusqu'à la fin du semestre, malgré sa démission actée le 18 février.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "La querelle des pensions éclate au printemps. Pittenger refuse de s'engager tant que la question n'est pas tirée au clair, et des accusations de détournement visent Dreier. L'auditeur Cole rassure sur la légalité du dispositif, mais seuls 80 % des fonds peuvent être protégés.",
+    "certitude": "atteste",
+    "refs": [
+     "EC-02392"
+    ]
+   }
+  ],
+  "quotidien": "Les cours du semestre continuent, et Albers enseigne encore sous le regard d'un collège qui se défait. Les étudiants travaillent en atelier, et Rauschenberg et Susan Weil sont probablement encore sur place avant leur départ pour New York au printemps ou au début de l'été. Le repas, les réunions et les discussions sur l'argent rythment les journées. Dehn et Natasha Goldowski multiplient les démarches pour retenir les Albers. Hazel Larsen se prépare à enseigner la photographie l'année suivante.",
+  "tensions": [
+   "Les pensions : Pittenger refuse de s'engager tant que les comptes ne sont pas clairs, et les accusations de détournement visent Dreier, encore présent.",
+   "L'auditeur Cole ne protège que 80 % des fonds, ce qui nourrit la défiance.",
+   "Albers, démissionnaire, reste en poste jusqu'à la fin du semestre, ce qui crée un malaise permanent.",
+   "Dehn et Natasha Goldowski tentent de retenir les Albers pour la session d'été. Albers répond que c'est « clos ». Anni évoque la tension, le manque d'intimité et le manque d'argent constants.",
+   "Les griefs de février (liaison de Dreier, « beautification », rumeurs de fermeture) restent vifs, et l'identité de la femme n'est toujours pas établie.",
+   "Vente de gravier et affaire Forbes : la trésorerie pousse à des liquidations que la faculté accepte à contrecœur.",
+   "Elaine de Kooning se détache du collège, et sa carrière new-yorkaise prend le dessus."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Lettre d'Elaine à Albers depuis New York",
+    "date": "1949-03",
+    "lieu": "New York",
+    "personnages": [
+     "Elaine de Kooning",
+     "Josef Albers"
+    ],
+    "deroule": "Elaine écrit à Albers pour annoncer son départ d'ARTnews et son rêve de peindre au bord de la Méditerranée. Elle évoque ses comptes rendus de la double exposition de février, et remercie pour le cadeau d'anniversaire du 12 mars. Le lien survit à la distance.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01242",
+     "EV-04850"
+    ]
+   },
+   {
+    "titre": "Le dôme du Pentagone",
+    "date": "1949-03-13",
+    "lieu": "Washington, D.C., jardin du Pentagone",
+    "personnages": [
+     "Fuller"
+    ],
+    "deroule": "Fuller fait ériger une seconde structure géodésique de quatorze pieds de diamètre dans le jardin du Pentagone, pendant que le collège se déchire à 200 kilomètres.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04853"
+    ]
+   },
+   {
+    "titre": "Le gravier et l'affaire Forbes en correspondance",
+    "date": "1949-03-25",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Pittenger",
+     "Trayer"
+    ],
+    "deroule": "Échanges de lettres les 25 et 30 mars entre Pittenger et Trayer sur la vente de gravier du site et sur l'affaire Forbes. En arrière-plan, la trésorerie exsangue et la pression sur Dreier.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04851"
+    ]
+   },
+   {
+    "titre": "Dreier face aux accusations de détournement",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dreier",
+     "Pittenger",
+     "Trayer"
+    ],
+    "deroule": "Dreier, encore sur le campus jusqu'à mi-avril, est visé par des accusations de détournement. La mémoire des obligations mises au seul nom d'Albers en 1944 nourrit la colère.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02392"
+    ]
+   },
+   {
+    "titre": "Dehn et Natasha tentent de retenir les Albers",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dehn",
+     "Natasha Goldowski",
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Dehn et Natasha Goldowski demandent aux Albers de rester au moins pour la session d'été. Albers répond que c'est « clos ». Anni évoque la fatigue, le manque d'intimité et l'argent qui manque toujours.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Mars 1949, pendant la querelle des pensions, quand on remonte à l'origine du fonds",
+    "vers_date": "1944",
+    "vers": "Institution du fonds de pension en 1944 : les obligations sont mises au seul nom d'Albers, ce qui nourrit la fureur de 1949.",
+    "refs": [
+     "EC-02392"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mars 1949, quand on invoque le Board of Trustees proposé en octobre 1948",
+    "vers_date": "1933",
+    "vers": "Fondation du collège en réaction aux trustees de Rollins, dont la machinerie a toujours été méprisée et contournée.",
+    "refs": [
+     "EC-02391"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mars 1949, dans le travail d'Albers à Black Mountain",
+    "vers_date": "1919",
+    "vers": "Le Bauhaus (1919-1933), où Albers a intégré beaux-arts, artisanat et technologie, héritage qu'il porte au collège.",
+    "refs": [
+     "EC-02364"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mars 1949, quand le mémorial du collège est évoqué",
+    "vers_date": null,
+    "vers": "La Quiet House, mémorial de Mark Dreier, mort dans un accident d'automobile au collège.",
+    "refs": [
+     "EC-02393"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mars 1949, pendant qu'Elaine reprend le fil de son été au collège",
+    "vers_date": "1948-06",
+    "vers": "Été 1948 : rencontre avec Cage et Cunningham à Black Mountain, origine du réseau musical qui irrigue la vie new-yorkaise d'Elaine.",
+    "refs": [
+     "EC-02363"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars 1949, quand Olson, arrivé en 1948, s'installe déjà comme figure de culte",
+    "vers_date": "1956",
+    "vers": "Olson domine la communauté jusqu'à la fermeture du collège en 1956.",
+    "refs": [
+     "EC-02390"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars 1949, quand Bill, engagé par Albers à l'été 1948, quitte le collège",
+    "vers_date": "1950",
+    "vers": "En 1950, Albers, doyen à Yale, invite Bill à des crits bi-hebdomadaires, tandis qu'Elaine sera invitée à enseigner à Yale en 1967.",
+    "refs": [
+     "EC-02362"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars 1949, quand les peintures de l'été 1948 sont encore dans l'atelier",
+    "vers_date": "1991",
+    "vers": "Exposition Black Mountain Paintings from 1948 à la Washburn Gallery et acquisition par le Met.",
+    "refs": [
+     "EC-02365"
+    ]
+   }
+  ],
+  "motifs": [
+   "La transmission d'un collège sans fondation solide : fondé sur la confiance personnelle, il vacille dès qu'il faut des comptes.",
+   "L'argent comme ligne de faille : pensions, gravier, commissions, rentes suspendues.",
+   "La mémoire des obligations de 1944 et la figure d'Albers, à la fois démissionnaire et encore en charge de ses cours.",
+   "Le dôme et la « plomberie » de Fuller : une image technique qui contraste avec la crise morale du collège.",
+   "Les départs et les lettres : Elaine, Dreier, Albers, tous écrivent à distance."
+  ],
+  "lacunes": "Les fiches ne donnent pas la date exacte du dernier cours d'Albers, ni celle du départ d'Anni du campus. On ignore où se trouve Pittenger en mars, et le contenu précis de la correspondance des 25 et 30 mars reste flou. L'affaire Forbes n'est pas décrite. La date de la querelle des pensions n'est pas établie, et l'auditeur Cole n'est pas daté. Les sources divergent sur l'ordre des événements de janvier-février et sur la question de savoir si l'on a formellement demandé la démission de Dreier. Le dôme est présenté comme réussi par certaines sources et aplati en septembre par Duberman, ce qui n'est pas vérifiable en mars."
+ }
+}

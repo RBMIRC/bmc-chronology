@@ -1,0 +1,170 @@
+{
+ "passe": "mois",
+ "cle": "1955-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5236,
+  "sortie": 13239,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1955-12",
+  "session": "Intersession présumée de fin d'année : aucune session n'est attestée en décembre 1955, les sessions d'hiver et de printemps 1956 viennent ensuite",
+  "saison_et_climat": "Hiver, froid et neige autour de Noël ; le chauffage central est coupé à la veille de Noël",
+  "situation": "Le collège sort de la crise de mars à juin, où la forclusion a été évitée grâce aux 5 250 $ réunis par Mary Fiore, et d'un été dévasté (tentative de suicide de Rumaker, départs de Connie, Jake et Rumaker, dérive de Creeley). Il est réduit mais vivant : les inscriptions sont passées de neuf à douze étudiants, avec une quinzaine attendue en 1956. Il n'y a plus de salaires, la nourriture est réduite à de vieilles poules et le chauffage est coupé. Olson, fatigué, se retire chez lui vers la fin de l'année pour travailler aux Maximus.",
+  "presents_probables": [
+   {
+    "nom": "Mary Fiore",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Joseph Fiore",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hilda Morley",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tom Field",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jerry Van de Wiele",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ed Dorn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Wieners",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Kaiser",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Richard Bogart",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1955-12-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Chauffage central coupé à la veille de Noël, salaires inexistants, nourriture réduite à de vieilles poules ; les Fiore chantent des carols de porte en porte dans la neige",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01826"
+    ]
+   },
+   {
+    "date": "1955-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson, épuisé, se retire vers la fin de l'année chez lui pour travailler aux Maximus",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1956",
+    "precision": "annee",
+    "ce_qui_arrive": "Retour de Duncan, arrivée de Heilman, Landreau et Sprengling, visite de l'évêque de Raleigh intéressé par l'achat, puis renonciation du diocèse",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Collège en autarcie : la moitié basse du campus est fermée, la ferme est à l'arrêt, les forêts sont louées aux bûcherons. On se retrouve au Ma Peak's ou à Asheville, et les fêtes se tiennent dans le hall de Streamside plutôt que dans le grand réfectoire. La musique tient ici à des carols chantés dans la neige. Le cours d'Olson devient The Present, avec lecture préalable du New York Times et de l'Asheville Citizen-Times (moment d'apparition non précisé).",
+  "tensions": [
+   "Dénuement persistant : chauffage coupé, salaires impayés et dettes ouvertes (prêt Bovingdon, anciens professeurs) alors que le collège se croit sauvé",
+   "Fatigue et isolement d'Olson, qui tient l'école à coups de brocante et de travaux, tout en étant toujours marié à Connie et lié à Betty Kaiser",
+   "Souvenirs lourds de l'été (suicide manqué de Rumaker, expulsion de Jake, fuite de Connie, ivresses de Creeley) qui pèsent sur le noyau restant",
+   "Rejets éditoriaux (« Ugh » de Greensboro, refus de la New Mexico Quarterly) et lenteur de la reconnaissance de Rumaker"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Carols dans la neige",
+    "date": "1955-12-24",
+    "lieu": "portes arrière des maisons de BMC",
+    "personnages": [
+     "Mary Fiore",
+     "Joseph Fiore",
+     "Hilda Morley"
+    ],
+    "deroule": "Au plus bas de l'institution, sans chauffage ni salaires et avec des poules coriaces, les Fiore vont de porte en porte chanter des chants de Noël à la porte arrière ; l'ambiance est froide mais affectueuse, et la dignité et la générosité tiennent le collège.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01826"
+    ]
+   },
+   {
+    "titre": "Le chauffage coupé à la veille de Noël",
+    "date": "1955-12-24",
+    "lieu": "campus de BMC",
+    "personnages": [],
+    "deroule": "Le chauffage central est coupé, les salaires n'existent plus et les vivres se réduisent. Les occupants restants passent les fêtes dans le froid, en comptant sur la solidarité du petit groupe.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "titre": "Olson part travailler chez lui",
+    "date": "1955-12",
+    "lieu": null,
+    "personnages": [
+     "Charles Olson"
+    ],
+    "deroule": "Vers la fin de l'année, Olson quitte le campus épuisé pour travailler chez lui aux Maximus, laissant le collège à son quotidien de froid et de dettes. Le départ est discret et n'est documenté par aucun témoin.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "24 décembre 1955, dans la neige, pendant les carols",
+    "vers_date": "1955-03",
+    "vers": "L'accident de cabriolet rouge sur la route d'Asheville, que Rumaker relira plus tard comme présage du commencement de la fin",
+    "refs": [
+     "EC-03164"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "fin 1955, dans l'après-coup de la crise administrative",
+    "vers_date": "1955-06",
+    "vers": "La forclusion fixée au 29 juin et les 5 250 $ réunis par la famille de Mary Fiore, retournés par Forbes avec un mot d'indifférence",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "décembre 1955, dans la neige et le froid",
+    "vers_date": "1957",
+    "vers": "La fermeture de Black Mountain, que Rumaker rattache après coup à l'accident de cabriolet et aux présages de l'été",
+    "refs": [
+     "EC-03164"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "fin 1955, le campus réduit et en attente",
+    "vers_date": "1956",
+    "vers": "Le retour de Duncan, l'arrivée de Heilman, Landreau et Sprengling, et la visite de l'évêque de Raleigh",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "L'attente sans réponse : l'avion qui ne vient jamais, les champs regardés en l'air, les espoirs de financement qui ne viennent pas",
+   "La générosité au nadir : carols, cuisine commune, solidarité du noyau de solides",
+   "Présages et accidents (cabriolet, corn-field, Morris Minor) relus après coup comme signes",
+   "Le manuscrit enfoui et la réputation de ville fantôme face à une vitalité réelle",
+   "La ruine qui s'entretient par la brocante et le travail volontaire"
+  ],
+  "lacunes": "Aucune fiche ne documente précisément la présence en décembre 1955 : les effectifs (neuf à douze étudiants) sont imprécis, et la présence de Wieners, Dorn, Bogart et Kaiser est déduite. La synthèse 1955 n'a pas d'identifiant, ses éléments ont donc des refs vides. La date de l'épisode de l'avion diverge (1954-1955 ou 1955) mais ne concerne pas ce mois. Charles, auprès de qui les amis organisent des tours, n'est pas identifié. La date d'apparition de The Present n'est pas précisée."
+ }
+}

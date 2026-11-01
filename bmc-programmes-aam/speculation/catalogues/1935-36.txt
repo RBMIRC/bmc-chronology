@@ -1,0 +1,196 @@
+# Concordance des « Courses of Instruction » 1935-36 → cases de la semaine reconstituée.
+# Lu par scripts/speculer.py (directive « #catalogue » d'un fichier de semaine).
+#
+# Sources (titres relus sur les scans, pas sur le texte transcrit du musée, qui contient des erreurs) :
+#   1935-36 : catalogue 2017.40.011 (fiche 6579), cours scans 011-08 et 011-09, corps enseignant 011-10 et 011-11
+#   1934-35 : catalogue 2017.40.009 (fiche 6577), cours scans 009-08 et 009-09, corps enseignant 009-04
+#   1936-38 : catalogue 2017.40.012 (fiche 6580), fiches de cours pp. 17-27 (pp. 23 et 25 vérifiées sur scan 012-13, 012-14)
+#
+# C|id|discipline|titre 1935-36 (scan)|équivalent 1934-35 (scan)|équivalent 1936-38 (titre ; structure ; enseignant)
+# U|unité|enseignant(s)|volume|codes de la case|cours retenu(s) (ids joints par +)|précision|candidats (ids séparés par ;)|chance|rattachement|placement fixe|note
+#   chance = probabilité que le cours retenu soit bien celui donné dans cette case cette semaine-là (hypothèses dans la note)
+#   placement fixe : « mar 19:30-20:30 » ; vide = réparti par le script
+# N|id|raison : cours rattaché à un enseignant mais non programmé cette semaine (et pourquoi)
+
+# ---------- ART (Josef Albers, « Art » ; Anni Albers, « Weaving ») ----------
+C|art.dessin1|Art|Introductory Drawing|Introductory Drawing|drawing I ; deux semestres, 4 h ; Albers
+C|art.dessin2|Art|Advanced Drawing|Advanced Drawing|drawing II ; deux semestres, 4 h ; Schawinsky
+C|art.couleur1|Art|Introductory Color|Introductory Color|color I ; deux semestres, 2 h ; Albers
+C|art.couleur2|Art|Advanced Color|Advanced Color|color II ; deux semestres, 2 h ; Schawinsky
+C|art.werklehre|Art|Werklehre (the development of the feeling for material and space)|Werklehre (the development of the feeling for material and space)|werklehre ; deux semestres, 2 h ; Albers
+C|art.seminaire|Art|Art Seminar|Art Seminar|private art seminar ; sans horaire (« only for those who have done art work independently ») ; Albers et Schawinsky
+C|art.tissage_t|Art|Weaving Theory|Weaving Theory|weaving ; deux semestres, 1 h de théorie ; Mrs Albers
+C|art.tissage_p|Art|Weaving Practice|Weaving Practice|weaving ; deux semestres, 4 h de pratique ; Mrs Albers
+
+U|A1|Josef Albers|4|MEME_ANNEE+R_SEUL+VOISIN|art.dessin1|||1|seul enseignant d'art au corps enseignant 1935-36 (scan 011-10)||
+U|A2|Josef Albers|4|MEME_ANNEE+R_SEUL+VOISIN|art.dessin2|||1|seul enseignant d'art en 1935-36 ; le cours passe à Schawinsky, arrivé à l'automne 1936||
+U|A3|Josef Albers|2|MEME_ANNEE+R_SEUL+VOISIN|art.couleur1|||1|seul enseignant d'art en 1935-36||
+U|A4|Josef Albers|2|MEME_ANNEE+R_SEUL+VOISIN|art.couleur2|||1|seul enseignant d'art en 1935-36 ; à Schawinsky en 1936-38||
+U|A5|Josef Albers|2|MEME_ANNEE+R_SEUL+VOISIN|art.werklehre|||1|seul enseignant d'art en 1935-36||
+U|A6|Josef Albers|1|MEME_ANNEE+R_SEUL+VOLUME+OCCASION|art.seminaire|||1|seul enseignant d'art en 1935-36||séminaire sans horaire réservé aux étudiants qui travaillent seuls : séance indicative d'une heure
+U|A7|Anni Albers|1|MEME_ANNEE+R_SEUL+VOISIN|art.tissage_t|||1|« Weaving » au corps enseignant (scan 011-10) ; Mrs Albers en 1936-38||
+U|A8|Anni Albers|4|MEME_ANNEE+R_SEUL+VOISIN|art.tissage_p|||1|idem||
+
+# ---------- BIOLOGY (Anna Moellenhoff, « Biology and German ») ----------
+C|bio.intro|Biology|Introduction to General Biology|—|introductory biology ; deux semestres, 3 h de cours + 4 h de laboratoire ; Mrs Moellenhoff
+C|bio.animale|Biology|Animal Biology|—|— (absent)
+U|B1|Anna Moellenhoff|3+4L|MEME_ANNEE+R_SEUL+VOISIN|bio.intro|||1|seule enseignante de biologie (scan 011-10)||
+U|B2|Anna Moellenhoff|3|MEME_ANNEE+R_SEUL+VOLUME|bio.animale|||1/2|seule enseignante de biologie||sans équivalent en 1936-38 : durée inconnue ; peut-être la suite du cours d'introduction au printemps, rien ne le dit ; une chance sur deux
+
+# ---------- CHEMISTRY (Frederick R. Georgia) ----------
+C|chim.gen|Chemistry|General Chemistry|General Chemistry|introductory general chemistry ; deux semestres, 3 h + 4 h de laboratoire ; Georgia
+C|chim.quali|Chemistry|Qualitative Analysis|Qualitative Analysis|qualitative analysis ; « one and two semesters, with appropriate class and laboratory hours » ; Georgia
+C|chim.quanti|Chemistry|Quantitative Analysis|Quantitative Analysis|quantitative analysis ; idem ; Georgia
+C|chim.org|Chemistry|Organic Chemistry|Organic Chemistry|organic chemistry ; idem ; Georgia
+U|CH1|Frederick R. Georgia|3+4L|MEME_ANNEE+R_SEUL+VOISIN|chim.gen|||1|seul enseignant de chimie (scan 011-10)||
+U|CH2|Frederick R. Georgia|3|MEME_ANNEE+R_SEUL+VOLUME|chim.quali||chim.quanti;chim.org|1/3|seul enseignant de chimie||un cours avancé pour les quelques étudiants avancés ; lequel des trois : inconnu (ordre du catalogue) ; heures non données
+
+# ---------- ECONOMICS AND SOCIOLOGY (William E. Zeuch ; Helen Boyden en congé) ----------
+C|eco.litt|Economics and Sociology|Introduction to Economic Literature|Elementary Economics (approché)|economic principles, problems, and policies (approché) ; un semestre, 4 h ; Zeuch
+C|eco.geo|Economics and Sociology|Economic Geography|—|world resources (approché) ; un semestre, 3 h ; Zeuch
+C|eco.hist|Economics and Sociology|Economic History|Economic History|american economic history ; economic development of modern europe (approchés) ; un semestre, 3 h ; Zeuch
+C|eco.theorie|Economics and Sociology|Theory and Problems of Economics|Evolution of Economic Theory (approché)|economic principles, problems, and policies (approché) ; un semestre, 4 h ; Zeuch
+C|eco.origines|Economics and Sociology|Social Origins|—|genetic economics (« origin and development of economic institutions », approché) ; un semestre, 3 h ; Zeuch
+C|eco.travail|Economics and Sociology|Labor Movements|—|—
+C|eco.postwar|Economics and Sociology|Economic Problems of Post-War America|—|american economic history (lointain) ; un semestre, 3 h ; Zeuch
+U|E1|William E. Zeuch|3|MEME_ANNEE+R_SEUL+VOISIN|eco.geo||eco.origines;eco.travail;eco.postwar;eco.litt;eco.theorie|1/2|seul enseignant d'économie présent (Boyden « absent on leave, 1935-36 », scan 011-11)||en 1936-38 tous les cours de Zeuch durent un semestre (« the first meets four hours a week, the rest three hours ») : chaque titre a une chance sur deux d'être au printemps ; 7 titres → environ 3 au printemps ; les deux cours d'introduction (literature, theory) sont plutôt d'automne : titres retenus dans l'ordre du catalogue parmi les autres ; printemps seulement : Zeuch est au catalogue 1935-36 mais pas dans l'encart de l'automne 1935 (2017.40.010) ; à l'automne, l'économie n'a pas d'enseignant (Boyden en congé)|spring
+U|E2|William E. Zeuch|3|MEME_ANNEE+R_SEUL+VOISIN|eco.hist||eco.origines;eco.travail;eco.postwar;eco.litt;eco.theorie|1/2|idem||idem ; printemps seulement : Zeuch est au catalogue 1935-36 mais pas dans l'encart de l'automne 1935 (2017.40.010) ; à l'automne, l'économie n'a pas d'enseignant (Boyden en congé)|spring
+U|E3|William E. Zeuch|3|MEME_ANNEE+R_SEUL+VOLUME|eco.origines||eco.travail;eco.postwar;eco.litt;eco.theorie;eco.geo;eco.hist|1/2|idem||sans équivalent en 1936-38 : 3 h supposées ; printemps seulement : Zeuch est au catalogue 1935-36 mais pas dans l'encart de l'automne 1935 (2017.40.010) ; à l'automne, l'économie n'a pas d'enseignant (Boyden en congé)|spring
+
+# ---------- ENGLISH (Joseph W. Martin, « English » ; Robert Wunsch, « English and Dramatics ») ----------
+C|ang.chaucer|English|Chaucer and his Period|Chaucer and his Period|medieval literature (« Chaucer and his contemporaries ») ; un semestre, 3 h, années alternées ; Martin
+C|ang.shakespeare|English|Shakespeare and Contemporary Dramatists|Shakespeare and the Elizabethan Drama|16th century literature (« Shakespeare and the earlier dramatists ») ; un semestre, 3 h, années alternées ; Martin
+C|ang.elisab|English|Elizabethan Non-Dramatic Literature|Spenser and other Sixteenth Century Non-dramatic Literature|16th century literature (en partie) ; un semestre, 3 h, années alternées ; Martin
+C|ang.milton|English|Milton and Seventeenth Century Literature|Milton and the Puritan Revolution ; Seventeenth Century Literature|17th century literature (« Milton, and the metaphysical poets ») ; un semestre, 3 h, années alternées ; Martin
+C|ang.restauration|English|the Restoration and the Augustans|Seminar in the Eighteenth Century|18th century literature (« Dryden to Dr Johnson ») ; un semestre, 3 h, années alternées ; Martin
+C|ang.romantiques|English|the Romantic Poets|Nineteenth Century Poetry (approché)|the romantic movement (poésie 1780-1832) ; un semestre, 3 h, années alternées ; Martin
+C|ang.xix|English|Nineteenth Century Literature|Nineteenth Century Poetry ; Nineteenth Century Prose|19th century literature ; un semestre, 3 h, années alternées ; Martin
+C|ang.amerique|English|the Rise of American Literature|—|american literature I (1850-1914) ; un semestre, 2 h ; Wunsch (scan p. 24)
+C|ang.amcontemp|English|Contemporary American Literature|—|american literature II (« Post-War literature ») ; un semestre, 2 h ; Wunsch
+C|ang.drame|English|Development of the Drama|English Drama from Sheridan to the Present Day (approché)|—
+C|ang.roman|English|Development of the Novel|—|problems of the novel (approché) ; un semestre, 2 h ; Mangold
+C|ecr.elem|English|Elementary Writing|Elementary Writing|creative writing (approché) ; deux semestres, 3 h ; Wunsch
+C|ecr.nouvelle|English|the Modern Short Story|the Modern Short Story|—
+C|ecr.theatre|English|Play Writing|— (nouveau en 1935-36)|—
+C|ecr.mise|English|Dramatic Direction|Dramatic Direction|dramatics (« plays are worked on and produced throughout the year ») ; Wunsch
+U|EN1|Joseph W. Martin|3|MEME_ANNEE+R_NOMME+VOISIN|ang.chaucer||ang.shakespeare;ang.elisab;ang.milton;ang.restauration;ang.romantiques;ang.xix|1/4|cours d'époque : tous à Martin en 1936-38||en 1936-38 chaque cours d'époque dure un semestre et n'est donné qu'une année sur deux : chance 1/2 × 1/2 = 1/4 ; 7 titres × 1/4 ≈ 2 cours au printemps ; titres retenus dans l'ordre du catalogue
+U|EN2|Joseph W. Martin|3|MEME_ANNEE+R_NOMME+VOISIN|ang.shakespeare||ang.chaucer;ang.elisab;ang.milton;ang.restauration;ang.romantiques;ang.xix|1/4|idem||idem
+U|EN3|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOISIN|ang.amerique|||1/2|american literature I : « Mr Wunsch » en 1936-38 (scan p. 24 ; le texte transcrit du musée donnait Martin)||un semestre : une chance sur deux
+U|EN4|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOISIN|ang.amcontemp|||1/2|american literature II : Wunsch en 1936-38||un semestre : une chance sur deux
+U|W1|Robert Wunsch|3|MEME_ANNEE+R_NOMME+VOISIN|ecr.elem|||1|l'écriture est à Wunsch en 1936-38 (creative writing, journalism)||
+U|W2|Robert Wunsch|2|MEME_ANNEE+R_ELIM+VOLUME|ecr.theatre||ecr.nouvelle;ecr.mise;ang.drame|1/2|le seul enseignant « Dramatics » (scan 011-11)||Wunsch a vraisemblablement deux de ces quatre cours en même temps (charge comparable à 1936-37 : 7 à 8 h + les pièces) ; chance 2/4 ; « Play Writing » apparaît en 1935-36
+U|W3|Robert Wunsch|2|MEME_ANNEE+R_ELIM+VOLUME|ecr.mise||ecr.nouvelle;ecr.theatre;ang.drame|1/2|idem||idem ; la mise en scène va avec la pièce en répétition
+U|MA3|Frederick R. Mangold|2|MEME_ANNEE+R_NOMME+EQUIV+VOISIN|ang.roman|||1/2|« problems of the novel » est à Mangold en 1936-38||équivalence de titre probable mais non certaine ; un semestre : une chance sur deux
+
+# ---------- FRENCH, SPANISH, ITALIAN (Frederick R. Mangold, « Romance Languages », scan 011-10) ----------
+C|fr.intro|French|Introductory French|Introductory French|introductory french ; deux semestres, 3 h ; Mangold ; « offered last year and this year »
+C|fr.avance|French|Advanced French|Advanced French|advanced french ; idem
+C|fr.survey|French|Survey of French Literature|Survey of French Literature|introductory survey of french literature ; idem
+C|fr.seminaire|French|Seminar in French Literature (dealing with an historical period, a literary genre, several writers or a single writer, according to the needs of the students)|Seminar in French Literature (même libellé)|seminar on stendhal, flaubert, and proust ; idem
+C|es.intro|Spanish|Introductory Spanish|Introductory Spanish|introductory spanish ; deux semestres, 3 h ; enseignant non nommé ; « offered last year and this year »
+C|es.avance|Spanish|Advanced Spanish|Advanced Spanish|advanced spanish ; idem
+C|es.survey|Spanish|Survey of Spanish Literature|Survey of Spanish Literature|— (absent de la liste « offered last year and this year »)
+C|es.seminaire|Spanish|Seminar in Spanish Literature (dealing with an historical period, a literary genre, several writers or a single writer, according to the needs of the students)|Seminar in Spanish Literature (même libellé)|— (absent)
+C|es.cervantes|Spanish|Cervantes|Cervantes|— (absent)
+C|it.intro|Italian|Introductory Italian|Introductory Italian|— (absent : « Work is offered in French, German, Greek, Latin, and Spanish »)
+U|MA1|Frederick R. Mangold|3|MEME_ANNEE+R_SEUL+VOISIN+DIT_1935|fr.intro||fr.avance|1/2|seul enseignant de langues romanes (scan 011-10)||« In all the languages an Introductory Course and an Advanced Course are offered in alternate years » (1936-38, p. 25) : un seul des deux en 1935-36 ; rien ne dit lequel
+U|MA2|Frederick R. Mangold|3|MEME_ANNEE+R_SEUL+VOISIN+DIT_1935|fr.survey||fr.seminaire|1/2|idem||les deux cours de littérature « offered last year and this year » : l'un en 1935-36, l'autre en 1936-37, vraisemblablement
+U|MA4|Frederick R. Mangold|3|MEME_ANNEE+R_SEUL+VOISIN+DIT_1935|es.intro||es.avance|1/2|idem ; l'espagnol n'a pas d'enseignant nommé en 1936-38||même règle d'alternance que le français
+N|es.survey|non donné en 1935-36 selon toute vraisemblance : le catalogue 1936-38 ne cite pour l'espagnol, parmi les cours « offered last year and this year », que introductory et advanced spanish
+N|es.seminaire|idem
+N|es.cervantes|idem
+N|it.intro|absent en 1936-37 (« Work is offered in French, German, Greek, Latin, and Spanish ») ; en 1935-36, au mieux à la demande d'un étudiant (Mangold)
+
+# ---------- LINGUISTICS ----------
+C|ling.intro|Linguistics|General Introduction to Linguistics|General Introduction to Linguistics|general introduction to linguistics ; deux semestres, 3 h ; Mangold et Martin
+U|L1|Frederick R. Mangold; Joseph W. Martin|3|MEME_ANNEE+R_NOMME+VOISIN|ling.intro|||1|discipline sans enseignant au corps enseignant ; nommés tous deux en 1936-38||
+
+# ---------- GERMAN (Anna Moellenhoff) ----------
+C|de.intro|German|Introductory German|Introductory German (sans enseignant au corps enseignant 1934-35)|introductory german ; deux semestres, 3 h ; Mrs Moellenhoff ; « offered last year and this year »
+C|de.avance|German|Advanced German|—|advanced german ; idem
+C|de.goethe|German|Goethe|—|seminar on goethe ; idem
+U|D1|Anna Moellenhoff|3|MEME_ANNEE+R_SEUL+VOISIN+DIT_1935|de.avance||de.intro|2/3|seule enseignante d'allemand (scan 011-10)||alternance introduction / avancé (1936-38, p. 25) ; 1934-35 n'offrait que « Introductory German » : si l'alternance jouait déjà, 1935-36 est l'année du cours avancé ; d'où une préférence (2/3) et non une certitude
+U|D2|Anna Moellenhoff|3|MEME_ANNEE+R_SEUL+VOISIN+DIT_1935|de.goethe|||1/2|idem||« seminar on goethe » offert « last year and this year » : l'une des deux années, pas forcément 1935-36
+
+# ---------- GREEK, LATIN (John A. Rice, « Classics ») ----------
+C|gr.elem|Greek|Elementary Greek|Elementary Greek|introductory greek ; deux semestres, 3 h ; Rice ; « offered last year and this year »
+C|gr.platon|Greek|Plato|Plato|— (seul « introductory greek » est cité pour le grec ; Plato I et II passent en philosophie)
+C|la.virgile|Latin|Virgil|Virgil|— (absent)
+C|la.lyrique|Latin|Latin Lyric Poetry|Latin Lyric Poetry|latin lyric poetry ; deux semestres, 3 h ; Rice ; « offered last year and this year »
+C|la.comedie|Latin|Roman Comedy|Roman Comedy|— (absent)
+U|R1|John A. Rice|3|MEME_ANNEE+R_SEUL+VOISIN+DIT_1935|gr.elem|||1|seul enseignant de lettres classiques (scan 011-11)||seul cours de grec cité comme offert « last year » (1935-36)
+U|R2|John A. Rice|3|MEME_ANNEE+R_SEUL+VOISIN+DIT_1935|la.lyrique|||1|idem||seul cours de latin cité comme offert « last year » (1935-36)
+N|gr.platon|pas dans la liste des langues « offered last year and this year » ; le Platon de Rice se fait sans doute dans le « Plato Seminar » de philosophie (unité R3)
+N|la.virgile|non donné en 1935-36 selon toute vraisemblance : pour le latin, seul « latin lyric poetry » est cité comme offert « last year and this year »
+N|la.comedie|idem
+
+# ---------- HISTORY (James Gore King Jr., Herminio Portell-Vilá : tous deux « History ») ----------
+C|hi.grece|History|Greek History and Culture|Greek History|— (absent)
+C|hi.medieval|History|the Medieval Mind|Intellectual History of the Middle Ages|— (absent)
+C|hi.renaissance|History|the Renaissance and Reformation|—|the renaissance and reformation ; deux semestres, 3 h, années alternées ; King
+C|hi.troissiecles|History|the Last Three Centuries in Europe|Modern European History (approché)|the last three centuries in europe ; idem ; King
+C|hi.angleterre|History|England since Elizabeth|English History from 1600|england since 1485 (approché) ; idem ; King
+C|hi.amerique|History|Trends in American History|American History|american history ; idem ; King
+C|hi.nouveaumonde|History|History of Civilization in the New World|—|history of civilization in the new world ; deux semestres, 3 h ; Portell-Vilá
+C|hi.latino|History|Modern Latin America|—|modern latin america ; un semestre, 1 h ; Portell-Vilá
+C|hi.actualite|History|Current International Affairs|—|current international affairs ; deux semestres, 1 h ; Portell-Vilá
+U|H1|James Gore King Jr.|3|MEME_ANNEE+R_ELIM+VOISIN|hi.grece||hi.renaissance;hi.troissiecles;hi.angleterre;hi.amerique|1/2|par élimination : les trois cours sur les Amériques sont à Portell-Vilá en 1936-38||cours de King d'une durée de deux semestres, donnés une année sur deux (1936-38) : 6 titres → 3 par an ; « Greek History and Culture » et « the Medieval Mind » disparaissent en 1936 : donnés en 1935-36 puis abandonnés, plutôt que jamais donnés ; « Greek History and Culture » pourrait aussi revenir à Rice
+U|H2|James Gore King Jr.|3|MEME_ANNEE+R_ELIM+VOISIN|hi.medieval||hi.renaissance;hi.troissiecles;hi.angleterre;hi.amerique|1/2|idem||idem
+U|H3|James Gore King Jr.|3|MEME_ANNEE+R_ELIM+VOISIN|hi.renaissance||hi.troissiecles;hi.angleterre;hi.amerique|1/2|idem||troisième cours de l'année : l'un des quatre titres repris en 1936-38 (ordre du catalogue)
+U|PV1|Herminio Portell-Vilá|3|MEME_ANNEE+R_NOMME+VOISIN|hi.nouveaumonde|||1|nommé pour ce cours en 1936-38||
+U|PV2|Herminio Portell-Vilá|1|MEME_ANNEE+R_NOMME+VOISIN|hi.latino|||1/2|idem||un semestre : une chance sur deux
+U|PV3|Herminio Portell-Vilá|1|MEME_ANNEE+R_NOMME+VOISIN|hi.actualite|||1|idem||vraisemblablement la forme que prend la « discussion of contemporary events » du catalogue
+
+# ---------- MATHEMATICS, PHYSICS (Theodore Dreier, « Physics and Mathematics ») ----------
+C|ma.trigo|Mathematics|Trigonometry|Trigonometry|algebra, trigonometry, and analytic geometry ; deux semestres, 3 h ; Dreier
+C|ma.algebre|Mathematics|Advanced Algebra|— (nouveau en 1935-36)|idem
+C|ma.geom|Mathematics|Analytic Geometry|Analytic Geometry|idem
+C|ma.calcul|Mathematics|Differential and Integral Calculus|Differential and Integral Calculus|differential and integral calculus ; deux semestres, 3 h ; Dreier
+C|ph.survey|Physics|Elementary Survey of Physics|Elementary Survey of Physics|—
+C|ph.gen|Physics|General Physics|General Physics|introductory general physics ; deux semestres, 3 h + 4 h de laboratoire ; Dreier
+C|ph.optique|Physics|Elementary Optics|Elementary Optics|—
+C|ph.elec|Physics|Electricity|Electricity|—
+C|ph.meca|Physics|Mechanics|Mechanics|—
+C|ph.moderne|Physics|Modern Physics|Modern Physics|—
+U|M1|Ted Dreier|3|MEME_ANNEE+R_SEUL+VOISIN|ma.trigo+ma.algebre+ma.geom|un seul cours en 1936-38||1|seul enseignant de mathématiques et physique (scan 011-10)||les trois titres sont réunis en un cours en 1936-38
+U|M2|Ted Dreier|3|MEME_ANNEE+R_SEUL+VOISIN|ma.calcul|||1|idem||
+U|P1|Ted Dreier|3+4L|MEME_ANNEE+R_SEUL+VOISIN|ph.gen|||1|idem||
+U|P2|Ted Dreier|3|MEME_ANNEE+R_SEUL+VOLUME+OCCASION|ph.elec||ph.survey;ph.optique;ph.meca;ph.moderne|1/5|idem||un cours de physique au-delà de l'introduction, sans doute en petit groupe ou en tutorat ; lequel des cinq : inconnu
+
+# ---------- MUSIC (John Evarts, Allan Sly : tous deux « Music ») ----------
+C|mu.appreciation|Music|Music Appreciation and History (three successive full-year courses, including music dictation and elementary harmony and counterpoint)|Music (through Beethoven) ; Music (since Beethoven)|music appreciation I, II, III ; deux semestres, 3 h (I et II) ; Evarts
+C|mu.opera|Music|Nineteenth Century Opera|Opera|19th century opera (Wagner, Debussy) ; deux semestres, 1 h ; Evarts
+C|mu.piano|Music|Instruction in Composition and Piano Playing|Piano|piano lessons ; « throughout the year as required » ; Evarts et Sly
+C|mu.ensembles|Music|Choral, Orchestral and Chamber Music|—|general singing, choral singing (une fois par semaine chacun), orchestra (deux semestres, 3 h) ; Sly
+C|mu.country|Music|English Country Dancing|—|—
+U|MU1|John Evarts|3|MEME_ANNEE+R_NOMME+VOISIN|mu.appreciation|I (débutants ; jusqu'à Haendel, Haydn, Mozart en 1936-38)||1|nommé pour ce cours en 1936-38||
+U|MU2|John Evarts|3|MEME_ANNEE+R_NOMME+VOISIN|mu.appreciation|II (de Beethoven à Brahms en 1936-38)||1|idem||
+U|MU3|John Evarts|3|MEME_ANNEE+R_NOMME+VOLUME|mu.appreciation|III (de Brahms aux contemporains en 1936-38)||1|idem||heures du III non données en 1936-38 : 3 h comme I et II
+U|MU4|John Evarts|1|MEME_ANNEE+R_NOMME+VOISIN|mu.opera|||1|idem||
+U|MU5|John Evarts; Allan Sly|1|MEME_ANNEE+R_NOMME+VOISIN+OCCASION|mu.piano|leçons individuelles||1|nommés tous deux en 1936-38||« as required » : plage indicative, en réalité des leçons individuelles réparties dans la semaine
+U|MU6|Allan Sly|3|MEME_ANNEE+R_NOMME+VOISIN|mu.ensembles|orchestre||1|orchestre, chant général et chœur sont à Sly en 1936-38||
+U|MU7|Allan Sly|1|MEME_ANNEE+R_NOMME+VOISIN|mu.ensembles|chant général pour toute la communauté||1|idem|mar 19:30-20:30|« once a week » (1936-38) ; « Singing… a regular place in the schedule » (1935-36) ; après le dîner : choix
+U|MU8|Allan Sly|1|MEME_ANNEE+R_NOMME+VOISIN|mu.ensembles|chœur (plain-chant, Bach, Holst, Hindemith en 1936-38)||1|idem|jeu 19:30-20:30|« once a week » (1936-38)
+U|MU9|Allan Sly|1|MEME_ANNEE+R_ELIM+VOLUME|mu.ensembles|musique de chambre||1|Sly a les ensembles en 1936-38 ; la musique de chambre n'y est pas décrite||une séance d'une heure supposée
+U|MU10||1|MEME_ANNEE+R_COMPET+VOLUME+OCCASION|mu.country|||1|animateur inconnu (Evarts ou Sly)|jeu 20:30-21:30|fréquence inconnue
+
+# ---------- PHILOSOPHY (Robert M. Goldenson, « Philosophy » ; Rice pour Platon) ----------
+C|phi.logique|Philosophy|Logic|Logic and the Scientific Method|logic ; un semestre, 3 h ; Goldenson
+C|phi.ethique|Philosophy|Ethics|Ethics|ethics ; un semestre, 3 h ; Goldenson
+C|phi.histoire|Philosophy|Studies in the History of Philosophy|—|—
+C|phi.science|Philosophy|Philosophy of Science|—|the philosophy of science ; un semestre, 3 h ; Goldenson
+C|phi.esthetique|Philosophy|Seminar in Aesthetics|—|esthetics ; un semestre, 3 h ; Goldenson (scan p. 34)
+C|phi.platon|Philosophy|Plato Seminar|Seminar on Plato|plato I (1 h) et plato II (3 h) ; deux semestres ; Rice
+U|G1|Robert M. Goldenson|3|MEME_ANNEE+R_ELIM+VOISIN|phi.logique||phi.ethique;phi.histoire;phi.science;phi.esthetique|1/2|par élimination : Platon est à Rice en 1936-38||en 1936-38 chaque cours de Goldenson dure un semestre : 5 titres → 2 ou 3 au printemps ; titres retenus dans l'ordre du catalogue ; « esthetics » est à Goldenson en 1936-38 (scan p. 34)
+U|G2|Robert M. Goldenson|3|MEME_ANNEE+R_ELIM+VOISIN|phi.ethique||phi.logique;phi.histoire;phi.science;phi.esthetique|1/2|idem||idem
+U|R3|John A. Rice|3|MEME_ANNEE+R_NOMME+VOISIN|phi.platon|||1|Plato I et II sont à Rice en 1936-38||volume de plato II (3 h)
+
+# ---------- PSYCHOLOGY (Irving Knickerbocker, Fritz Moellenhoff : tous deux « Psychology ») ----------
+C|psy.gen|Psychology|General Psychology|General Psychology (en philosophie, 1934-35)|introductory psychology ; un semestre, 3 h ; Knickerbocker et Moellenhoff
+C|psy.enfant|Psychology|Child Psychology|—|developmental psychology (« general psychology from the genetic point of view ») ; un semestre, 3 h ; Knickerbocker
+C|psy.sociale|Psychology|Social Psychology|—|—
+C|psy.anormale|Psychology|Abnormal Psychology|—|dynamic (abnormal) psychology ; un semestre, 3 h ; Knickerbocker
+C|psy.psychanalyse|Psychology|Seminar in Psychoanalysis|—|psychoanalysis ; un semestre, 3 h ; Moellenhoff
+U|PS1|Irving Knickerbocker; Fritz Moellenhoff|3|MEME_ANNEE+R_NOMME+VOISIN|psy.gen|||1/2|nommés tous deux en 1936-38||un semestre : une chance sur deux
+U|PS2|Irving Knickerbocker|3|MEME_ANNEE+R_NOMME+VOISIN|psy.anormale||psy.enfant;psy.sociale|1/2|équivalents nommés à Knickerbocker en 1936-38 ; « Social Psychology » sans équivalent, rattachée à lui par défaut||cours d'un semestre : avec l'introduction, environ deux cours de Knickerbocker par semestre
+U|PS3|Fritz Moellenhoff|3|MEME_ANNEE+R_NOMME+VOISIN|psy.psychanalyse|||1/2|nommé pour l'équivalent en 1936-38||un semestre : une chance sur deux

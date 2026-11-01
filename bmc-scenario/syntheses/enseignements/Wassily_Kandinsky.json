@@ -1,0 +1,418 @@
+{
+ "passe": "enseignements",
+ "cle": "Wassily Kandinsky",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 20788,
+  "sortie": 9828,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Wassily Kandinsky",
+  "cours": [
+   {
+    "intitule": "Exercices de forme au Bauhaus (formes pures et états intérieurs)",
+    "periodes": [
+     "Weimar, années 1920 (la fiche est datée de 1920, mais d'autres fiches placent son arrivée à Weimar en 1922 : date à manier avec prudence)"
+    ],
+    "atteste": "non",
+    "objectifs": "Enseignement donné au Bauhaus, pas à Black Mountain : aucune fiche ne l'atteste au collège. Il s'agit d'exprimer des états intérieurs par des formes abstraites pures, sans recours à la figuration.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Exprimer l'agression avec des triangles.",
+      "materiaux": "Formes géométriques élémentaires (triangle).",
+      "but": "Apprendre que la forme porte à elle seule une charge émotionnelle.",
+      "refs": [
+       "CO-00040"
+      ]
+     },
+     {
+      "consigne": "Suggérer le calme avec des carrés.",
+      "materiaux": "Formes géométriques élémentaires (carré).",
+      "but": "Associer une forme à un état intérieur précis.",
+      "refs": [
+       "CO-00040"
+      ]
+     },
+     {
+      "consigne": "Employer le cercle, présenté comme la forme qui mène à la quatrième dimension, pour invoquer le cosmique.",
+      "materiaux": "Formes géométriques élémentaires (cercle).",
+      "but": "Faire sentir l'ampleur cosmique de la forme la plus simple.",
+      "refs": [
+       "CO-00040",
+       "ID-00575"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Point and Line to Plane (ses lignes chaudes ou froides selon l'orientation), cité dans Weber 2009 p.237",
+     "Lettre à Grohmann sur le cercle, autour de 1924-1925 (Weber 2009 p.234)"
+    ],
+    "propos_types": [
+     "Le triangle, le carré et le cercle ne sont pas neutres : chacun porte un état d'âme (agression, calme, cosmos).",
+     "Le cercle est la forme la plus modeste mais s'impose sans condition. Il est précis et inépuisable, à la fois stable et instable, bruyant et doux, une seule tension qui en contient d'innombrables.",
+     "La couleur est le clavier, l'œil le marteau, l'âme un piano aux nombreuses cordes. (Idée de ses écrits de 1910-11, que la fiche rattache à son enseignement ; la formule exacte en classe n'est pas attestée.)",
+     "Selon la fiche, l'horizontale est froide et plate, la verticale chaude, la diagonale tiède. (Idée du livre : qu'il l'ait énoncée en cours n'est pas attesté.)"
+    ],
+    "critique_et_evaluation": "Le critique Paul Westheim l'accusait de fossilisation et de frigidité intellectuelle. Kandinsky répondait qu'il y a parfois de l'eau bouillante sous la glace. Le critique Carl Einstein le jugeait clos sur lui-même, et il répondait que l'attaque prouve la tension interne de l'œuvre. Ces réponses relèvent de la défense de son œuvre et ne décrivent pas des corrections en classe (ID-00236, ID-00614).",
+    "reactions_etudiants": null,
+    "evolution": "Ce programme sert de socle aux autres cours de Weimar (théorie de la forme, questionnaire). Le lien avec le Vorkurs que Josef Albers enseignera à BMC est une filiation posée par les fiches (incertain) ; aucune fiche ne montre Kandinsky à BMC.",
+    "refs": [
+     "CO-00040",
+     "ID-00575",
+     "ID-00576",
+     "ID-00236",
+     "ID-00614",
+     "ID-00062"
+    ]
+   },
+   {
+    "intitule": "Cours de théorie de la forme (Weimar)",
+    "periodes": [
+     "1922, Weimar"
+    ],
+    "atteste": "non",
+    "objectifs": "Hors BMC. Former l'artiste à réaliser son « rêve » avec le plus haut degré de précision, en apprenant à sentir la vie propre des lignes, des formes et des objets.",
+    "deroule_type_seance": "Il encourageait plutôt qu'il n'instruisait : il poussait les étudiants vers l'inconnu et la question, l'enseignement étant pensé comme une interaction. Les exercices partent d'objets domestiques ou d'arrangements simples, puis passent à des relations imaginaires entre formes. Dans une scène attestée, Kandinsky rit d'abord d'un arrangement banal (cafetière, laitière, sucrière alignées), puis incarne chaque objet : son rire moqueur devient rire d'enthousiasme.",
+    "exercices": [
+     {
+      "consigne": "Dessiner une cruche et une chope, puis explorer la ligne comme élément actif ou passif.",
+      "materiaux": "Crayon, papier, pinceau.",
+      "but": "Sentir la ligne comme force active ou passive.",
+      "refs": [
+       "CO-00051"
+      ]
+     },
+     {
+      "consigne": "Construire un rythme linéaire sur le plan, puis un rythme tridimensionnel avec la profondeur.",
+      "materiaux": "Crayon, papier, pinceau.",
+      "but": "Passer de la ligne à l'espace rythmé.",
+      "refs": [
+       "CO-00051"
+      ]
+     },
+     {
+      "consigne": "Créer des relations imaginaires, sans logique ni but, entre images reconnaissables ou formes abstraites.",
+      "materiaux": "Crayon, papier, pinceau.",
+      "but": "Libérer l'invention de toute justification logique.",
+      "refs": [
+       "CO-00051"
+      ]
+     },
+     {
+      "consigne": "Animer ses dessins : faire des formes qui se dévorent ou se rient l'une de l'autre.",
+      "materiaux": "Crayon, papier, pinceau.",
+      "but": "Donner une vie, voire un caractère, aux formes.",
+      "refs": [
+       "CO-00051"
+      ]
+     },
+     {
+      "consigne": "Devant un groupe d'objets (cafetière, laitière, sucrière), leur prêter un caractère. La fiche présente la scène comme une démonstration du maître et ne dit pas si les étudiants devaient la répéter ; l'exercice est donc à lire comme un modèle de regard.",
+      "materiaux": "Objets de table en nature morte.",
+      "but": "Faire voir la vie cachée des formes.",
+      "refs": [
+       "SC-00214",
+       "CO-00051"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Mystique des nombres : le trois divin, le quatre humain, le sept chanceux, et symbolisme des formes « poursuivi jusqu'au centième degré » (CO-00051)"
+    ],
+    "propos_types": [
+     "Selon les fiches, il tenait une mystique des nombres (trois divin, quatre humain, sept chanceux) et un symbolisme des formes poussé très loin.",
+     "Sur la nature morte : la cafetière est grasse, sotte et hautaine ; la petite laitière est humble et s'incline en révérence ; la sucrière est riche et contente, et rit quand on pose son couvercle de biais.",
+     "Il aurait déclaré, dès son arrivée à Weimar, que seul compte le caractère intérieur de la noix et non le nom de sa coquille, à propos de la querelle professeur/maître. La fiche ne dit pas si cela fut dit aux étudiants (ID-00234, incertain).",
+     "Tout ce qui existe, même un mégot ou un bouton dans une flaque, a un visage et une âme secrète. La fiche dit que cela est devenu la substance de son enseignement au Bauhaus (ID-00064)."
+    ],
+    "critique_et_evaluation": "Les fiches ne donnent pas de critères d'évaluation. Elles montrent surtout une critique par la moquerie : les étudiants raides se font railler. Un étudiant qui imitait un paravent japonais s'entend dire « Are you a Japanese, then? ». Déduction : le critère implicite est la souplesse et la vie de la ligne, non l'imitation d'un style.",
+    "reactions_etudiants": "Le témoin Vincent Weber décrit une excitation inédite : les lignes dansent sur la page. Les étudiants rigides ou imitateurs reçoivent des railleries (CO-00051, SC-00214).",
+    "evolution": "Le cours se situe en 1922 à Weimar, dans l'année de l'arrivée de Kandinsky. Les fiches ne montrent pas son devenir après Dessau. Aucune trace à BMC.",
+    "refs": [
+     "CO-00051",
+     "SC-00214",
+     "ID-00064",
+     "ID-00234"
+    ]
+   },
+   {
+    "intitule": "Atelier de peinture murale (Weimar)",
+    "periodes": [
+     "1922, Weimar"
+    ],
+    "atteste": "non",
+    "objectifs": "Hors BMC. Porter ses abstractions émotionnelles à l'échelle monumentale d'un espace public.",
+    "deroule_type_seance": "Les étudiants, surtout de jeunes femmes assises au sol, jupes longues étalées, exécutaient les images à l'échelle d'après les maquettes du maître.",
+    "exercices": [
+     {
+      "consigne": "Exécuter en grand format, à la caséine sur toile, les maquettes de Kandinsky dans l'auditorium du Bauhaus.",
+      "materiaux": "Caséine sur toile ; maquettes de Kandinsky.",
+      "but": "Passer de l'abstraction émotionnelle à l'échelle d'un espace public.",
+      "refs": [
+       "CO-00052"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": "Les fiches ne rapportent aucune évaluation. Déduction : le travail est d'exécution, d'après les maquettes du maître, et laisse peu de place à l'invention propre ; ce n'est pas dit explicitement.",
+    "reactions_etudiants": null,
+    "evolution": "L'atelier mène au questionnaire de 1923, imprimé par cet atelier.",
+    "refs": [
+     "CO-00052",
+     "CO-00070"
+    ]
+   },
+   {
+    "intitule": "Questionnaire couleurs et formes (atelier de peinture murale)",
+    "periodes": [
+     "1923, Weimar"
+    ],
+    "atteste": "non",
+    "objectifs": "Hors BMC. Prouver expérimentalement l'association universelle entre formes élémentaires et couleurs primaires, contre ceux qui accusent son art de rigidité.",
+    "deroule_type_seance": "Le questionnaire est distribué à toute l'école ; les retours sont anonymes, puis dépouillés. La grande majorité répond cercle bleu, triangle jaune, carré rouge.",
+    "exercices": [
+     {
+      "consigne": "Remplir les trois formes dessinées au trait (cercle, triangle, carré) avec les trois couleurs (jaune, rouge, bleu), une forme par couleur.",
+      "materiaux": "Questionnaire imprimé par l'atelier de peinture murale de Weimar ; crayons ou couleurs rouge, jaune, bleu.",
+      "but": "Vérifier l'accord entre formes et couleurs.",
+      "refs": [
+       "CO-00070",
+       "SC-00239",
+       "ID-00235"
+      ]
+     },
+     {
+      "consigne": "Indiquer sa profession, son sexe et sa nationalité, mais pas son nom.",
+      "materiaux": "Le questionnaire.",
+      "but": "Rendre les réponses anonymes mais classables.",
+      "refs": [
+       "CO-00070",
+       "SC-00239"
+      ]
+     },
+     {
+      "consigne": "Écrire, si possible, une justification de son choix.",
+      "materiaux": "Le questionnaire.",
+      "but": "Recueillir les raisons des réponses.",
+      "refs": [
+       "CO-00070",
+       "SC-00239"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Le cercle est cosmique, absorbant, féminin, doux ; le carré est actif et masculin ; le triangle, aux angles aigus, est intrinsèquement jaune.",
+     "Il ajoute que toutes les lignes courbes sont bleues, les droites rouges et les points jaunes.",
+     "Lui-même considère que le résultat prouve son système."
+    ],
+    "critique_et_evaluation": "Oskar Schlemmer, minoritaire, rend le cercle rouge et le carré bleu. Pour lui, le carré est bleu, couleur métaphysique, parce que c'est un concept humain absent de la nature. Les sources rapportent que la plupart acceptent le système comme un évangile, sans pouvoir questionner un point de vue affirmé avec tant d'emphase. Déduction : le questionnaire valide plus l'autorité du maître qu'une loi universelle, mais les fiches ne le disent pas aussi nettement.",
+    "reactions_etudiants": "La plupart acceptent docilement ; Schlemmer consterné ; Alfred Arndt figure parmi les personnes citées (SC-00239). Une divergence apparaît entre les fiches : l'une dit que Schlemmer « consterne », l'autre qu'il « rage » (CO-00070, SC-00239).",
+    "evolution": "1923 : le questionnaire sert aussi de réplique aux accusations de rigidité (ID-00236). Idée à transposer : le faire passer en classe en laissant le doute s'exprimer, en gardant Schlemmer comme contrepoint.",
+    "refs": [
+     "CO-00070",
+     "SC-00239",
+     "ID-00235",
+     "ID-00236"
+    ]
+   },
+   {
+    "intitule": "Cours de peinture, Bauhaus Dessau",
+    "periodes": [
+     "1931, Dessau",
+     "≈1933, Berlin (dernier épisode, hors cours)"
+    ],
+    "atteste": "non",
+    "objectifs": "Hors BMC. Remplacer les vieilles méthodes de rendu par un accès libre à la couleur et à la forme.",
+    "deroule_type_seance": "Les étudiants s'assoient avant l'arrivée du maître. Il entre d'un pas vif et manipule devant eux des formes transparentes teintées, superposées en divers arrangements pour créer des juxtapositions comme dans ses tableaux. La salle a un sol de linoléum poli, des bancs et des tables de classe de peinture. Ursula Diederichs (écrit aussi Diederich dans une fiche) le décrit en costume sombre et nœud papillon, lunettes acérées sur des yeux bleu pâle.",
+    "exercices": [
+     {
+      "consigne": "Dès l'entrée en classe, regarder des rectangles, carrés, disques et triangles transparents et teintés, superposés en divers arrangements pour créer des juxtapositions comme dans ses tableaux. La fiche décrit une présentation du maître : l'exercice demandé aux étudiants n'est pas précisé.",
+      "materiaux": "Formes transparentes teintées ; sol de linoléum poli ; bancs et tables de classe de peinture.",
+      "but": "Donner un accès direct à la couleur et à la forme, hors de tout rendu.",
+      "refs": [
+       "CO-00144",
+       "SC-00378"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "D'après la fiche de l'étudiante, son « impitoyable constance » et son amour de la vérité en art marquent la classe, mais ses mots exacts ne sont pas rapportés.",
+     "Ses yeux semblent découvrir sans cesse de nouveaux secrets dans le monde : l'étudiante l'énonce comme impression, non comme parole du maître."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Diederichs, d'abord intimidée par l'escalier et le silence des couloirs, y voit la promesse d'une approche qui donnerait un sens à sa vie. Elle venait de l'art académique parisien (SC-00378, CO-00144).",
+    "evolution": "Dessau : en 1931, l'élève voit encore le maître manipuler des formes transparentes. En 1933, ses « analyses géométriques » sont exposées sur la table centrale de la grande salle du Bauhaus berlinois lors d'une visite nazie. Mies les garde malgré une querelle ; SC-00509 dit qu'il les avait conservées après la colère de Kandinsky, SC-00510 évoque une crise. Le Bauhaus se dissout en 1933, avant que Rice n'embauche Albers pour BMC.",
+    "refs": [
+     "CO-00144",
+     "SC-00378",
+     "SC-00509",
+     "SC-00510",
+     "SC-00532"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "La synesthésie : les sens se répondent et se fondent (forme, couleur, son, goût, toucher).",
+    "en_classe": "Regarder un plat, une couleur, un son et décrire ce que chaque sens en perçoit, jusqu'au son d'une couleur. Modèle : sa lettre à Lily Klee sur la polenta, jaune pour l'œil, médium de flûte pour l'oreille, douceur pour les doigts mentaux. Non attesté à BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-00010",
+     "SC-00296"
+    ]
+   },
+   {
+    "idee": "Il y a toujours un « et » : refuser les exclusives, tout admet une autre face.",
+    "en_classe": "Devant une proposition d'étudiant, demander toujours l'alternative ou le complément. Anni Albers rapportait le dicton avec un large sourire et le citait souvent ; il a pu circuler à BMC, mais c'est incertain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00011",
+     "ID-00596"
+    ]
+   },
+   {
+    "idee": "S'arrêter et regarder : l'observation fine du quotidien fonde l'art.",
+    "en_classe": "Observer un phénomène banal (grains qui gonflent, eau qui bout, polenta qui cuit) et en tirer des formes en mouvement.",
+    "atteste": "non",
+    "refs": [
+     "ID-00012"
+    ]
+   },
+   {
+    "idee": "L'abstraction libère du tourment des tâches impossibles de la représentation.",
+    "en_classe": "Peindre non ce qu'on voit mais la force ressentie : par exemple l'heure du coucher de soleil sur Moscou, qui vibre comme un tuba sauvage.",
+    "atteste": "non",
+    "refs": [
+     "ID-00013",
+     "SC-00012"
+    ]
+   },
+   {
+    "idee": "Tout ce qui est mort tremble et a une âme secrète.",
+    "en_classe": "Demander aux étudiants de prêter une âme à l'objet le plus banal (mégot, bouton dans une flaque) et de le peindre. Les fiches ID-00064 et ID-00062 jugent cette idée attestée dans son enseignement au Bauhaus.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00014",
+     "ID-00064",
+     "ID-00062"
+    ]
+   },
+   {
+    "idee": "La peinture est un acte spirituel qui produit des « êtres purement picturaux » dotés d'âme ; la couleur est un clavier.",
+    "en_classe": "Faire sentir qu'une forme ou une couleur sonne comme un accord et porte une âme, indépendamment du sujet.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00062"
+    ]
+   },
+   {
+    "idee": "Le triangle spirituel : l'humanité se répartit en étages, des athées en bas aux voyants en haut.",
+    "en_classe": "Conversation de studio sur qui appartient à quel étage et pourquoi la forteresse rationnelle est une illusion.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00063"
+    ]
+   },
+   {
+    "idee": "La concision : limiter l'externe pour faire résonner plus fort l'interne.",
+    "en_classe": "Demander des travaux au moyen minimal. Sa réserve de façade au Bauhaus incarnait cette idée pour Klee, Gropius et d'autres.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00065"
+    ]
+   },
+   {
+    "idee": "La dissonance d'aujourd'hui est la consonance de demain.",
+    "en_classe": "Consoler les étudiants effrayés par la réaction du public à leur travail dissonant. Idée issue de sa lettre à Schoenberg ; les liens avec Schoenberg se brisent en 1923 (SC-00247).",
+    "atteste": "non",
+    "refs": [
+     "ID-00205",
+     "SC-00247"
+    ]
+   },
+   {
+    "idee": "Le cercle, lien avec le cosmique ; correspondances forme-couleur.",
+    "en_classe": "Faire dessiner des cercles et demander ce qu'on y entend (tension, calme, cosmos) ; distribuer trois formes et trois couleurs, faire remplir, comparer les réponses du groupe, en gardant la contre-position de Schlemmer.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00575",
+     "ID-00235",
+     "SC-00239"
+    ]
+   },
+   {
+    "idee": "La personnalité des lignes selon leur orientation (horizontale froide, verticale chaude, diagonale tiède).",
+    "en_classe": "Demander de rendre « chaud » puis « froid » avec la seule direction d'un trait. Filiation avec le Vorkurs d'Albers incertaine.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00576"
+    ]
+   },
+   {
+    "idee": "Le nouveau romantisme : un bloc de glace avec une flamme au-dedans.",
+    "en_classe": "Conversation sur ce que « beau » veut dire aujourd'hui et pourquoi restaurer ce mot.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00577",
+     "ID-00236"
+    ]
+   },
+   {
+    "idee": "Les titres limitent : ils doivent rendre le tableau ennuyeux.",
+    "en_classe": "Faire nommer un travail par un numéro plutôt que par une évocation et observer ce que le spectateur y projette.",
+    "atteste": "non",
+    "refs": [
+     "ID-00648"
+    ]
+   },
+   {
+    "idee": "L'angoisse comme état antécédent indispensable à l'œuvre.",
+    "en_classe": "Discuter de ce que la tension intérieure apporte à la couleur et à la ligne.",
+    "atteste": "non",
+    "refs": [
+     "ID-00649"
+    ]
+   },
+   {
+    "idee": "Synthèse de la science, de la technologie et de l'art (Pictures at an Exhibition).",
+    "en_classe": "Faire construire un spectacle où la lumière remplace la figuration. À Dessau en 1928, il a peint décors et costumes abstraits ; Felix Klee a réglé seize scènes d'éclairage sur Moussorgsky. Idée d'une scène totale proche des étés de BMC, mais non attestée là.",
+    "atteste": "non",
+    "refs": [
+     "ID-00615",
+     "SC-00328"
+    ]
+   },
+   {
+    "idee": "La peur du noir apprivoisée (le mur noir de Dessau).",
+    "en_classe": "Déduction : proposer un exercice où l'étudiant affronte ce qui l'inquiète dans un matériau ou une couleur. La fiche raconte la scène d'enfance (sabots noirs sur une aquarelle de cheval) puis le mur noir de sa salle à manger, sans en faire un exercice de classe.",
+    "atteste": "non",
+    "refs": [
+     "SC-00008",
+     "SC-00297"
+    ]
+   },
+   {
+    "idee": "Le nom compte moins que le caractère intérieur de ce qu'on fait (professeur ou maître).",
+    "en_classe": "Dire aux étudiants que ce qui compte est ce qu'ils font, pas comment on les appelle. Résonne avec l'anti-académisme de BMC, mais l'attestation à BMC est incertaine.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00234"
+    ]
+   },
+   {
+    "idee": "Aucune vraie œuvre d'art n'est jamais perdue.",
+    "en_classe": "Conversation sur le chemin du retour des cours. Idée rapportée par Albers par écrit après son arrivée en Amérique ; non attestée comme parole de classe.",
+    "atteste": "non",
+    "refs": [
+     "ID-00733"
+    ]
+   }
+  ]
+ }
+}

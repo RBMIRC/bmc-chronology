@@ -1,0 +1,184 @@
+{
+ "passe": "enseignements",
+ "cle": "Ludwig Mies van der Rohe",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 11514,
+  "sortie": 4709,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Ludwig Mies van der Rohe",
+  "cours": [
+   {
+    "intitule": "Atelier d'architecture pour étudiants avancés (Bauhaus de Dessau). Mies n'a jamais enseigné à Black Mountain : ce cours est attesté au Bauhaus, pas au collège.",
+    "periodes": [
+     "Dessau, direction du Bauhaus (1930-1933)",
+     "fin de l'école en 1933 : lieu donné tantôt à Dessau (SC-00509), tantôt à Berlin (SC-00510)"
+    ],
+    "atteste": "non",
+    "objectifs": "Enseigner comment travailler : la technique, l'usage de la raison, le sens des proportions et de l'ordre. Chacun doit atteindre son propre potentiel, mais Mies estime que les potentiels ne sont pas l'affaire du professeur. Certains étudiants, selon lui, ne peuvent simplement pas être enseignés, et seuls les plus doués comptent (CO-00141). Déduction : l'enseignement vise la discipline du métier plutôt que l'expression personnelle.",
+    "deroule_type_seance": "Attesté : l'étudiant présente son plan sur la table à dessin. Mies le couvre d'annotations au crayon noir, directement sur le plan, en montrant comment il aurait fallu faire. Puis il renvoie tout le monde à sa table avec un « try it again » calme, à voix basse mais catégorique (CO-00141, SC-00330). Dearstyne dit qu'il « passe au bulldozer » sur les plans. Aucune séance détaillée au-delà de cette correction n'est documentée ; le reste du déroulé (durée, fréquence, discussion collective) n'est pas dans les fiches.",
+    "exercices": [
+     {
+      "consigne": "Concevoir une maison d'une chambre donnant sur un jardin clos.",
+      "materiaux": "Papier, crayon noir, table à dessin",
+      "but": "Un programme minimal pour apprendre l'ordre, la proportion et la raison constructive avant toute grande ambition.",
+      "refs": [
+       "CO-00141"
+      ]
+     },
+     {
+      "consigne": "Reprendre pendant des mois les détails de ce premier projet avant d'aborder la structure plus grande dont l'étudiant rêve.",
+      "materiaux": "Papier, crayon noir, table à dessin",
+      "but": "Imposer la patience et la maîtrise du détail ; reprise répétée, sur le modèle du « try it again ».",
+      "refs": [
+       "CO-00141",
+       "SC-00330"
+      ]
+     },
+     {
+      "consigne": "Recevoir des corrections au crayon noir portées directement sur ses plans, puis refaire le travail.",
+      "materiaux": "Plans de l'étudiant, crayon noir",
+      "but": "Apprendre par la correction visible du maître plutôt que par la discussion (déduit de la scène).",
+      "refs": [
+       "CO-00141",
+       "SC-00330"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Références d'architecture revendiquées par Mies : Schinkel, la chapelle Palatine de Charlemagne, la Bourse d'Amsterdam de Berlage, la monumentalité romane d'Aix-la-Chapelle (ID-00030, ID-00761). Rien n'indique qu'elles figuraient au programme du cours.",
+     "Anecdote des « 3000 livres lus pour en garder 30 » : le savoir se distille par l'étude patiente (ID-00740, SC-00332). Dates incertaines, rien ne dit qu'il l'ait racontée en cours."
+    ],
+    "propos_types": [
+     "On peut apprendre aux étudiants à travailler, la technique, l'usage de la raison, même le sens des proportions et de l'ordre (CO-00141).",
+     "Les différents potentiels ne sont pas le problème du professeur ; certains étudiants, on ne peut simplement pas les enseigner (CO-00141).",
+     "Réponse type à une planche ratée : « try it again » (SC-00330).",
+     "Propos de Mies, de contexte non daté ou plus tardif, que les fiches ne rattachent pas à l'atelier : la raison se prouve, pas le sentiment ; chacun a des émotions, « c'est l'enfer de notre époque » ; la « situation humaine » n'est pas un problème d'architecture (SC-00332, ID-00740).",
+     "À un de ses premiers étudiants, Selman, il demande lequel de deux jumeaux ou jumelles également sains, intelligents et riches, l'un laid et l'autre beau, il épouserait. Il en tire qu'il existe des standards objectifs de beauté (SC-00347, ID-00741). Cadre précis inconnu : cela peut venir de l'enseignement.",
+     "Sur un bon objet, face au bureau de Rosenberg : un bon objet est un objet qu'on n'a pas à jeter par la fenêtre (ID-01108, 1933). Propos de circonstance, pas de cours."
+    ],
+    "critique_et_evaluation": "Les critiques sont brutales. Selon un ancien étudiant, Mies refusait de répondre aux questions sérieuses et devenait mauvais si l'on insistait (CO-00141, Weber). Dearstyne parle de bulldozer, et la scène oppose explicitement la brutalité de Mies à l'attention d'Albers (SC-00330). Des témoins tardifs le décrivent rugueux, catégorique, presque méchant (SC-00332). Pas de grille d'évaluation formelle dans les fiches : le jugement passe par la correction au crayon et l'exigence de perfection visuelle.",
+    "reactions_etudiants": "Blomeier et Heyerhoff, forts de leurs succès à Holzminden, présentent fièrement leurs plans. Blessés par les annotations, ils désertent le cours pendant un mois (CO-00141, SC-00330). Un ancien étudiant garde le souvenir d'un maître qui se fermait aux questions sérieuses (CO-00141).",
+    "evolution": "1930 : les étudiants occupent la cantine contre le renvoi de Meyer. Mies reste enfermé dans son bureau, fait appel à la police, le maire ferme l'école, puis Mies expulse tout le corps étudiant et exige une nouvelle candidature sous ses règles (SC-00364). 1933 : visites des nazis, perquisition, attente à la Gestapo, puis dissolution décidée par la faculté elle-même, avec Albers présent (SC-00509 à SC-00514). Les sources divergent sur la fin : selon Weber, la faculté, après lecture de la lettre de la Gestapo, remercie et annonce qu'elle ferme l'école d'elle-même ; selon Horowitz et Danilowitz, Mies apprend que Rosenberg autorise la réouverture à des conditions intolérables et déclare le Bauhaus fermé. Les deux versions s'accordent sur le champagne et la fermeture décidée par la faculté. Dessau et Berlin sont aussi deux lieux différents pour la visite nazie (SC-00509 et SC-00510).",
+    "refs": [
+     "CO-00141",
+     "SC-00330",
+     "SC-00364",
+     "SC-00509",
+     "SC-00510",
+     "SC-00511",
+     "SC-00512",
+     "SC-00513",
+     "SC-00514",
+     "SC-00332",
+     "SC-00347",
+     "ID-00740",
+     "ID-00741",
+     "ID-01108",
+     "ID-00030",
+     "ID-00761"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Commencer par connaître les habitants : la forme extérieure suit leurs souhaits, l'orientation et le terrain.",
+    "en_classe": "Interviewer un futur occupant avant tout dessin, puis déduire le plan ; ne pas partir de la façade.",
+    "atteste": "non",
+    "refs": [
+     "ID-00029"
+    ]
+   },
+   {
+    "idee": "La forme n'est pas un but mais un résultat ; seuls existent des problèmes de construction, et la destination gouverne les décisions.",
+    "en_classe": "Faire construire avec des matériaux bruts sans dessiner d'abord l'aspect final. Parenté avec la pédagogie d'Albers à Black Mountain, à ne pas confondre avec une pratique de Mies au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00170"
+    ]
+   },
+   {
+    "idee": "Construire de l'intérieur vers l'extérieur, avec plans ouverts, murs indépendants et absence d'ornement.",
+    "en_classe": "Exercice de plan libre : composer des espaces avec des murs seuls, sans cloisonner.",
+    "atteste": "non",
+    "refs": [
+     "ID-00171"
+    ]
+   },
+   {
+    "idee": "Une architecture doit avoir une qualité spirituelle au-delà de la fonction, grâce au tempo visuel et à la proportion.",
+    "en_classe": "Lire une façade comme une partition en comptant ses temps ; exemple tiré de l'immeuble Weissenhof.",
+    "atteste": "non",
+    "refs": [
+     "ID-00358"
+    ]
+   },
+   {
+    "idee": "Se plier aux limites du matériau et de la situation. Parallèle explicite dans la source avec le tissage d'Anni Albers.",
+    "en_classe": "Choisir un matériau, noter ses limites, en faire le principe du projet ; exemple : l'onyx pris comme module quand le marbre ne pouvait être transporté en hiver.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00359"
+    ]
+   },
+   {
+    "idee": "Less is more : le minimalisme peut être éloquent ; beauté des formes fonctionnelles non déguisées et des matériaux nus.",
+    "en_classe": "Réduire un objet (chaise, table) à ses éléments essentiels et laisser visibles les soudures et les structures.",
+    "atteste": "non",
+    "refs": [
+     "ID-00736",
+     "ID-00737"
+    ]
+   },
+   {
+    "idee": "La raison prime sur l'émotion : on prouve le logique, pas un sentiment.",
+    "en_classe": "Face à une question d'étudiant, prendre le temps de réfléchir plutôt que de réagir par émotion. En acte, Mies était souvent sec avec les questions (CO-00141).",
+    "atteste": "non",
+    "refs": [
+     "ID-00740",
+     "SC-00332",
+     "CO-00141"
+    ]
+   },
+   {
+    "idee": "Il existe des standards objectifs de beauté.",
+    "en_classe": "Choisir entre deux projets équivalents en tout sauf en beauté (la question des deux jumelles).",
+    "atteste": "non",
+    "refs": [
+     "ID-00741",
+     "SC-00347"
+    ]
+   },
+   {
+    "idee": "On n'avance qu'en solitude ; la perfection visuelle prime sur le travail d'équipe. Mies oppose son exigence à la communauté de Gropius.",
+    "en_classe": "Confronter un étudiant à un choix net entre deux solutions. Rapport avec Albers à Black Mountain seulement par la culture Bauhaus commune.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00759",
+     "SC-00331"
+    ]
+   },
+   {
+    "idee": "Le passé est une réserve de principes, pas un style à imiter.",
+    "en_classe": "Faire identifier dans un bâtiment moderne quel principe ancien il poursuit.",
+    "atteste": "non",
+    "refs": [
+     "ID-00761",
+     "ID-00030"
+    ]
+   },
+   {
+    "idee": "Faire des objets dont on n'a pas besoin de se débarrasser : exigence de qualité matérielle et morale.",
+    "en_classe": "Regarder un objet et se demander si on le garderait toute sa vie ; sinon le refaire. Proximité avec Albers, non attestée comme pratique de Mies.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01108",
+     "SC-00512"
+    ]
+   }
+  ]
+ }
+}

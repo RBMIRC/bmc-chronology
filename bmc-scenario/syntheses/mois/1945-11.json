@@ -1,0 +1,282 @@
+{
+ "passe": "mois",
+ "cle": "1945-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3622,
+  "sortie": 14312,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1945-11",
+  "session": "Trimestre d'automne 1945 (déduit : rentrée d'automne, neuf nouveaux enseignants, réunions communautaires de novembre ; aucune fiche ne nomme la session elle-même)",
+  "saison_et_climat": "Automne 1945, d'après la rentrée d'automne, l'agrément GI Bill et la croisière d'automne. Aucune fiche ne décrit le temps qu'il fait : ne pas en inventer.",
+  "situation": "Après la scission de 1944 et l'été ouvert aux instituts, le collège reprend une session d'automne à effectif renouvelé : neuf nouveaux enseignants, pour la plupart jeunes, américains et avec enfants. Le collège est agréé pour le GI Bill. Sylvesta Martin devient la première étudiante noire à plein temps (dates divergentes selon les sources). La faculté se réunit pour le programme de travail, et la polarisation Wallen/Albers s'installe. Le départ de Wunsch de juin n'est jamais nommé publiquement. Les moyens restent maigres : Baker est payé par le Rosenwald Fund, et l'avocat R. R. Williams démissionne du conseil consultatif en protestation.",
+  "presents_probables": [
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rachel Wallen",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bill Levi",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Niebyl (et ses trois disciples)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Baker",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Sylvesta Martin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Beidler",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-11-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion communautaire sur le programme de travail, résumée dans un document de cinq pages.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03805"
+    ]
+   },
+   {
+    "date": "1945-11-27",
+    "precision": "jour",
+    "ce_qui_arrive": "Recommandations issues de la réunion communautaire, qui prolongent la discussion du 13.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03805"
+    ]
+   },
+   {
+    "date": "1945-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Un groupe d'étude de la faculté sur les buts de l'éducation à BMC est lancé ; il ne se réunit qu'une fois, la seconde réunion prévue n'ayant jamais lieu.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03805"
+    ]
+   },
+   {
+    "date": "1945-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Bill (de Kooning, selon le contexte) écrit à son père depuis New York ; la lettre porte l'empreinte d'un baiser au rouge à lèvres d'Elaine et des photos des deux époux, alors que le mariage se fissure.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03804"
+    ]
+   },
+   {
+    "date": "1945-09",
+    "precision": "saison",
+    "ce_qui_arrive": "Elaine part en croisière à Provincetown avec Bill Hardy pour voir Denby ; tempête, puis retour apparemment en début décembre, ce qui met Bill en fureur. Le récit d'Elaine (Hardy sans expérience de la mer) est contesté par les biographes de Bill.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03802"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Neuf nouveaux enseignants sont engagés, huit jeunes et américains, avec enfants ; parmi eux ou autour d'eux, les Wallen, Bill Levi, M.C. Richards, Niebyl et Baker.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Le collège est agréé pour le GI Bill. Baker est engagé comme chargé de cours invité, avec un salaire de 700 dollars payé par le Rosenwald Fund.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Weitzer arrive sans mobilier et suspend son bureau-sandwich au plafond de l'atelier de menuiserie.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Sylvesta Martin devient la première étudiante noire à plein temps ; la date exacte varie selon les sources.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les réunions communautaires occupent la vie collective, notamment la discussion du programme de travail. Wallen donne deux cours sans manuel, dont un séminaire sur la dynamique de groupe. Les ateliers (menuiserie, imprimerie, écriture créative) fonctionnent. Le chœur de Jalowetz répète les chorales de Bach, qui durent deux à trois heures. Au dîner, les chants passent de table en table. Il n'y a pas de couvre-feu. Les familles des nouveaux enseignants s'installent. Beidler a été nommé architecte-conseil en février et a dessiné le Music Cubicle : sa présence en novembre est déduite.",
+  "tensions": [
+   "Wallen contre Albers : art contre communauté, le programme de travail devient le terrain de la querelle.",
+   "Le départ de Wunsch en juin reste tu. La faculté avait interdit d'informer les étudiants, personne n'a protesté, et les remords viendront plus tard.",
+   "Le code du silence se durcit et la psychologie de groupe s'installe ; le séminaire sur la dynamique de groupe devient lui-même un enjeu de pouvoir.",
+   "Hostilité du sud-est à l'intégration : R. R. Williams démissionne du conseil consultatif et les premiers étudiants noirs à plein temps arrivent.",
+   "Rumeur d'« instabilité nerveuse » contre Wallen, vérifiée auprès de l'armée et jugée fausse ; Wallen désigne Albers comme l'un de ceux qui la propageaient.",
+   "Précarité financière : les Cohen sont sans argent, Fritz n'a pas pu vendre son Music Institute, et les ressources viennent du GI Bill et du Rosenwald Fund.",
+   "Faculté réduite : les nouveaux arrivés de l'hiver (Zabriskie, Kazin) ne restent pas longtemps, et le projet rival new-yorkais ne supplante pas BMC."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Réunion communautaire sur le programme de travail",
+    "date": "1945-11-13",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Wallen",
+     "Albers",
+     "Lowinsky",
+     "Straus",
+     "Kurtz"
+    ],
+    "deroule": "La discussion porte sur le programme de travail, et la querelle entre l'art et la communauté s'y lit. Le document de cinq pages en garde trace, et les recommandations suivent le 27.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03805"
+    ]
+   },
+   {
+    "titre": "Le groupe d'étude qui ne se réunit qu'une fois",
+    "date": "1945-11",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "membres de la faculté (noms non donnés)"
+    ],
+    "deroule": "Le groupe sur les buts de l'éducation se met en place, se réunit une fois, et la seconde séance n'a jamais lieu. Scène de l'élan qui retombe.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03805"
+    ]
+   },
+   {
+    "titre": "Le séminaire de Wallen sur la dynamique de groupe",
+    "date": "1945",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Wallen",
+     "étudiants"
+    ],
+    "deroule": "Wallen enseigne sans manuel et donne un nom à la dynamique du groupe. Le groupe devient objet d'analyse et se met à se regarder.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "La lettre au père",
+    "date": "1945-11",
+    "lieu": "New York",
+    "personnages": [
+     "Bill de Kooning",
+     "le père de Bill"
+    ],
+    "deroule": "Bill écrit à son père et joint une empreinte de rouge à lèvres d'Elaine et des photos du couple. Elaine est apparemment absente, et la façade heureuse est tenue à distance.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03804"
+    ]
+   },
+   {
+    "titre": "Weitzer arrive sans mobilier",
+    "date": "1945",
+    "lieu": "atelier de menuiserie",
+    "personnages": [
+     "Weitzer"
+    ],
+    "deroule": "Weitzer arrive sans rien et suspend son bureau-sandwich au plafond de l'atelier. Scène d'arrivée sobre et un peu décalée.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "La réunion communautaire de novembre, où le silence sur le départ de Wunsch est devenu règle",
+    "vers_date": "1945-06",
+    "vers": "Affaire Wunsch : arrestation près d'Asheville, inculpation réduite, démission sous la pression, retour nocturne aux livres sous les yeux de Molly Gregory, et version officielle de surmenage.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La lettre de novembre avec l'empreinte de rouge à lèvres",
+    "vers_date": "1945-09",
+    "vers": "La croisière de Provincetown avec Bill Hardy : tempête, retour tardif et colère de Bill. Le mariage est déjà fissuré avant la lettre.",
+    "refs": [
+     "EV-03802",
+     "EV-03804"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le désaccord Wallen/Albers sur la place de l'art dans la communauté",
+    "vers_date": "1945-12",
+    "vers": "Albers rédige en décembre « Art at Black Mountain College », texte qui fixe sa position face à Wallen.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La lettre de novembre et la façade conjugale",
+    "vers_date": "1945-12",
+    "vers": "Retour d'Elaine en début décembre et crise conjugale. Les de Kooning sont ensuite expulsés de leur atelier de la 22e Rue et déménagent au 63 Carmine Street, date non précisée.",
+    "refs": [
+     "EV-03802",
+     "EV-03804"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les nouveaux enseignants arrivés à l'automne et la vie de groupe qu'ils rejoignent",
+    "vers_date": "1948",
+    "vers": "Rauschenberg, démobilisé de la Navy, retrouve sa famille à Lafayette et ne viendra à BMC qu'en 1948. Le rectorat d'Albers reste daté différemment selon les sources (1945 selon Chaddock, 1948 ailleurs).",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "La façade conjugale maintenue par la correspondance",
+   "Le silence comme règle de groupe",
+   "Art contre communauté",
+   "Le programme de travail comme lieu de pouvoir",
+   "La dynamique de groupe, objet d'étude et de contrôle",
+   "Reconstruction après la perte de la moitié rebelle",
+   "Intégration qui s'installe sous hostilité extérieure"
+  ],
+  "lacunes": "La synthèse de 1945 et les fils n'ont pas d'identifiant : leurs éléments ont des refs vides. Les dates de l'arrivée de Weitzer et de Baker, de Sylvesta Martin (dates divergentes) et du groupe d'étude sont imprécises. La présence de Lowinsky, Beidler, Jalowetz, Albers, Straus et Kurtz en novembre est déduite, non attestée. Le climat est absent. Dans la lettre et la croisière, « Bill » peut désigner de Kooning ou Hardy : à vérifier. Le sort de Wunsch après juin et la chronologie du rectorat d'Albers restent contradictoires entre sources. Les cours de Wallen de novembre ne sont pas datés."
+ }
+}

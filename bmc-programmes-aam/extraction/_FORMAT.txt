@@ -1,0 +1,11 @@
+Une fiche = un fichier <accession>.txt
+Ligne d'en-tête : #ref AAAA-MM-JJ   (date du document, sert à résoudre les dates relatives)
+E|date|début|fin|type|quoi|qui|lieu|note      événement daté
+C|période|cours|enseignant(s)|horaire|note     cours offert (trimestre / session)
+T|libellé|début|fin|note                        calendrier (début/fin de trimestre, vacances)
+date : AAAA-MM-JJ | MM-JJ (année la plus proche de #ref) | 0 (jour même) | +N / -N jours |
+       +lun..+dim (prochain jour de ce nom, strictement après) | -lun..-dim (dernier, strictement avant)
+       R:lun,mer@AAAA-MM-JJ..AAAA-MM-JJ  (récurrent)
+heure : HH:MM ou matin / après-midi / soir
+type : cours | atelier | conference | concert | theatre | danse | reunion | radio | travail |
+       calendrier | examen | social | expo | visite | sortie | autre

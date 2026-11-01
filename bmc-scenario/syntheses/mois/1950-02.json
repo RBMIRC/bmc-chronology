@@ -1,0 +1,223 @@
+{
+ "passe": "mois",
+ "cle": "1950-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4546,
+  "sortie": 12598,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1950-02",
+  "session": "trimestre d'hiver (déduit de la saison, non attesté par les fiches)",
+  "saison_et_climat": "Hiver (déduit). Aucune fiche ne décrit le temps ni la vie matérielle de février ; les rationnements d'électricité et d'essence apparaissent seulement plus tard, en été.",
+  "situation": "Le collège vit l'après-Albers. Albers, parti en 1949, n'appartient plus à la maison mais réclame encore les 20 % retenus de son fonds de pension (EV-05222). La querelle sur le recteur et sur le Board n'éclatera qu'au printemps ; en février, les camps se dessinent sans être tranchés : conservateurs (Corkran, Trayer, Goldowski, groupe Forbes) d'un côté, Levi, Richards et leur entourage de l'autre. Deux entrées marquent le mois : l'arrivée d'Oppenheimer (EV-05220) et la dédicace de Goodman à Stoehr (SC-01340, EV-05221), dont le lieu n'est pas établi.",
+  "presents_probables": [
+   {
+    "nom": "Joel Oppenheimer",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Taylor Stoehr",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Paul Goodman",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Corkran",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Forbes",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mary Fitton",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1950-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Arrivée de Joel Oppenheimer, vingt ans, déjà renvoyé de Cornell et de Chicago ; il trouve la présence quaker très étrange et décide de ne pas être pacifiste",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05220"
+    ]
+   },
+   {
+    "date": "1950-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Première rencontre de Stoehr avec Goodman, qui lui dédicace un exemplaire de The Dead of Spring (lieu non précisé)",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05221",
+     "SC-01340"
+    ]
+   },
+   {
+    "date": "1950-02-22",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers réclame les 20 % restants de son fonds de pension ; la date du procès-verbal est marquée d'un doute dans la source (22 février ?)",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05222"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "ce_qui_arrive": "Le collège cherche un recteur ; Forbes s'y emploie sans succès, le poste n'ayant ni pouvoirs définis ni garantie de tenure",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne documentent ni les cours, ni les repas, ni la musique de février. On sait seulement que le collège fonctionne avec un conseil, que la faculté est divisée entre conservateurs et gauche, et qu'un nouvel étudiant découvre la vie du lieu, notamment la présence quaker.",
+  "tensions": [
+   "Rancune d'Albers envers le collège, qui retient une part de son fonds de pension et qu'il continue de réclamer (EV-05222)",
+   "Choc entre pacifisme quaker et refus d'Oppenheimer : il voit un père frapper son enfant qui jouait au porte-armes, et tranche contre le pacifisme (EV-05220)",
+   "Latences non datées : la liaison de Fiore avec Fitton alors que sa femme est internée près d'Asheville, et l'usure du mariage Levi-Richards (les fiches ne donnent pas de date précise pour ces deux points)",
+   "Recherche de recteur et partage du pouvoir au Board, qui opposeront conservateurs et gauche au printemps (chapitre 1950 (synthèse))"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La dédicace de The Dead of Spring",
+    "date": "1950-02",
+    "lieu": null,
+    "personnages": [
+     "Paul Goodman",
+     "Taylor Stoehr"
+    ],
+    "deroule": "Goodman, déjà passé par des poèmes de lycée de 1927 et des essais de 1972, inscrit une dédicace sur un exemplaire encore chaud de la presse de Dave Dellinger, pour un jeune homme qui ne le connaît pas. Stoehr garde le volume cinquante ans plus tard, jauni et cassant. Le lieu n'est pas dit, et la synthèse place l'arrivée de Goodman à BMC en été : la scène doit être située avec prudence.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01340",
+     "EV-05221"
+    ]
+   },
+   {
+    "titre": "Le camion-poubelle et l'enfant",
+    "date": "1950-02",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Joel Oppenheimer",
+     "un quaker",
+     "son enfant de cinq ans (ni l'un ni l'autre nommés)"
+    ],
+    "deroule": "L'enfant crie « Here comes the weapons carrier! » en voyant le camion-poubelle, qui est un porte-armes de surplus militaire. Le père le frappe. Oppenheimer, qui vient d'arriver, en conclut qu'il ne sera pas pacifiste, comme il avait décidé à Cornell de ne pas devenir ingénieur civil.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05220"
+    ]
+   },
+   {
+    "titre": "Les 20 % d'Albers",
+    "date": "1950-02-22",
+    "lieu": "Black Mountain College (conseil)",
+    "personnages": [
+     "Albers (absent)",
+     "membres du Board"
+    ],
+    "deroule": "Au conseil, la question des 20 % restants du fonds de pension d'Albers revient. Le procès-verbal est daté avec un doute. Albers, parti en 1949, reste à l'écart mais sa réclamation pèse sur le collège.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05222"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Oppenheimer, nouvel arrivant en février",
+    "vers_date": null,
+    "vers": "Ses expulsions antérieures de Cornell et de l'Université de Chicago, dont les dates ne sont pas données",
+    "refs": [
+     "EV-05220"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La réclamation d'Albers sur son fonds de pension en février",
+    "vers_date": "1949",
+    "vers": "Le départ d'Albers en 1949 et la retenue de 20 % de son fonds de pension",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La dédicace de Goodman en février",
+    "vers_date": null,
+    "vers": "Cinquante ans plus tard, Stoehr garde le volume jauni et cassant",
+    "refs": [
+     "SC-01340"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le mois de février, où l'on découvre le collège à travers ses tensions",
+    "vers_date": "1950",
+    "vers": "L'été 1950 : arrivée de Goodman, explosion autour de sa liberté sexuelle, violence de Trayer contre Levi en réunion",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les tensions de février sur la gestion du Board",
+    "vers_date": "1950-06",
+    "vers": "En juin, vote secret du Board contre Levi et Fiore ; M.C. Richards écartée puis réintégrée",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Goodman et le collège en 1965, vus depuis la fermeture progressive",
+    "vers_date": null,
+    "vers": "L'influence de BMC sur la culture américaine, telle que Goodman la formule en 1965",
+    "refs": [
+     "EC-02575"
+    ]
+   }
+  ],
+  "motifs": [
+   "pacifisme et militarisme",
+   "dette et rancune (Albers)",
+   "transmission littéraire (Goodman et Stoehr)",
+   "fin des vieilles lignées et recherche d'une nouvelle autorité",
+   "nouveau venu confronté à l'ancien collège"
+  ],
+  "lacunes": "Session et climat ne sont pas attestés. Aucune fiche ne décrit la vie quotidienne, les cours ou l'effectif de février. Lieu et conditions de la rencontre Goodman-Stoehr sont inconnus, et la présence de Goodman à BMC en février contredit la synthèse qui le place à l'été. La date du procès-verbal Albers (22 février) est marquée d'un doute. Les relations Fiore-Fitton et Levi-Richards ne sont pas datées. Le statut de Dawson et de Stoehr au collège n'est pas établi pour ce mois."
+ }
+}

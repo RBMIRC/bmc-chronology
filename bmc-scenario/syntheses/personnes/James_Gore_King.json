@@ -1,0 +1,247 @@
+{
+ "passe": "personnes",
+ "cle": "James Gore King",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 7924,
+  "sortie": 8041,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "James Gore King",
+  "autres_noms": [
+   "King",
+   "J. G. King"
+  ],
+  "dates_de_vie": "Inconnues : aucune fiche ne donne sa naissance ni sa mort. Les sources le disent seulement descendant direct de Rufus King, présenté comme chef de la guerre d'Indépendance (formulation de la fiche, à vérifier).",
+  "statut_bmc": "Enseignant du collège dans les années 1930, membre de la faculté en 1936-1937. Il fait partie du camp dissident, opposé à John Andrew Rice, et joue le conciliateur. Il ne revient pas après l'été 1937. Son champ d'enseignement n'apparaît dans aucune fiche, et l'une d'elles le juge « incolore » comme enseignant.",
+  "presence": [
+   {
+    "debut": "",
+    "fin": "1937",
+    "role": "Enseignant. Date d'arrivée inconnue, première trace attestée à l'automne 1936. Il quitte le collège à l'été 1937 avec Zeuch, après des mois de conflit avec Rice. Les fiches divergent sur le moment exact : décision en juin, nouveaux postes trouvés durant l'été.",
+    "refs": [
+     "PE-00239",
+     "SC-00667",
+     "SC-00670",
+     "SC-00671",
+     "SC-00700",
+     "SC-00705",
+     "EV-02669",
+     "EV-02722"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune fiche ne décrit son apparence, son âge ou sa tenue. Seuls les traits de manière sont attestés : en retrait, il pose des questions douces. Tout le reste est à inventer, en restant cohérent avec ce tempérament effacé.",
+  "noyau_psychologique": "Homme doux et conciliant, fait pour le terrain neutre plutôt que pour l'affrontement. Il croit que chacun, enseignant comme étudiant, porte en lui quelque chose à faire grandir, et il cherche sans cesse la formule qui réunirait les camps. Il aurait voulu voir Rice et Knickerbocker travailler ensemble. Il est pourtant dans le camp perdant, d'un collège où l'on tranche plus qu'on ne concilie. Déduction : sa douceur est aussi une impuissance. Il a des principes (responsabilité des gouvernés, foi dans le potentiel de chacun) mais pas l'arme oratoire de Rice. Une seule fois, au procès de Knickerbocker, il sort de sa réserve, avec une comparaison brutale.",
+  "blessures": "Les sources ne parlent d'aucune blessure antérieure. Au collège, la blessure est répétée : ses interventions de médiation sont éludées ou balayées (« vous n'y arriverez pas par des moyens mécaniques »). Il voit son camp perdre, des collègues renvoyés ou poussés à partir, et il finit par partir lui-même. Déduction : il devient celui qu'on écoute poliment sans le suivre.",
+  "desirs": "Réconcilier. Construire sur la promesse de chacun. Élargir la responsabilité du choix du comité de direction à la communauté entière, et donner aux étudiants de vraies responsabilités. Que le pouvoir ne vienne que des gouvernés.",
+  "peurs": "Non dit dans les sources. On peut déduire, sans l'attester, la crainte de la rupture et de la scission en deux camps. Son instinct d'harmonie, très visible, suggère qu'il redoute un collège où l'on se juge sur la personnalité. Il perçoit aussi l'insécurité des mauvais enseignants : il la nomme avec précaution devant ses collègues.",
+  "maniere_d_aimer": "Par la bienveillance et la défense des plus fragiles. Il croit que même le mauvais professeur a en lui un bien enseignable, et il propose de laisser les étudiants s'enseigner eux-mêmes. Il est un soutien vocal de Zeuch. Aucune fiche ne documente une vie amoureuse ou familiale.",
+  "rapport_au_pouvoir": "Il ne croit au pouvoir légitime que lorsqu'il émane des gouvernés. Pour lui, le Board doit être élu par la communauté entière, et les étudiants doivent exercer des responsabilités. Face à Rice, qui juge seul qui est intelligent et qui refuse la démocratie « de comptage de nez », il ne peut que plaider. Il ne détient aucun levier réel, et sa pensée reste celle d'un réformateur sans prise sur le Board.",
+  "voix": {
+   "registre": "Doux, en retrait, sans emphase. Il parle par questions plutôt que par affirmations et cherche le terrain commun. Quand il s'enflamme (plaidoirie sur la promesse de chacun), il reste émouvant plutôt que combatif. Une exception attestée : la comparaison avec la remilitarisation hitlérienne de la Rhénanie.",
+   "tics": "Il revient toujours à l'harmonie. Il ramène le débat vers le neutre, le partagé, le commun. Il prend souvent la parole une fois que les autres ont fini. Il intervient peu dans les duels oratoires, et seulement pour tenter de les apaiser.",
+   "exemples_paraphrases": [
+    "Quand les délégués étudiants ont quitté la salle, il glisse que certains enseignants sont mauvais parce qu'ils se sentent en insécurité, mais qu'on devrait partir de l'idée que chacun a quelque chose d'enseignable en lui.",
+    "Il demande, sur un ton d'évidence, pourquoi le comité d'admission prend des « nez incompétents » s'il n'y a rien de plus en eux : tous sont des candidats à l'intelligence.",
+    "Au procès de Knickerbocker, il compare, avec une rudesse inhabituelle, la décision du Board à un coup de force hitlérien en Rhénanie.",
+    "Il plaide pour que la responsabilité du choix des dirigeants soit mieux partagée, quitte à voir Rice éluder."
+   ]
+  },
+  "habitudes": [
+   "Il assiste aux réunions de faculté et communautaires et y prend la parole avec mesure (SC-00667, SC-00670, SC-00671, SC-00700, SC-00705).",
+   "Il reste en retrait des duels et intervient à la marge : un mot de conciliation, une question douce.",
+   "Il soutient volontiers Zeuch dans les moments difficiles."
+  ],
+  "convictions": [
+   "Parmi les enseignants, il y a de mauvais professeurs qui se sentent en insécurité, mais l'on devrait supposer que chacun a en lui un bien enseignable.",
+   "On pourrait laisser les étudiants s'enseigner eux-mêmes.",
+   "Le pouvoir n'est légitime que s'il émane des gouvernés.",
+   "Le Board devrait être élu par toute la communauté, et les étudiants devraient avoir des responsabilités.",
+   "Tous sont des « candidats à l'intelligence » : il faut respecter la promesse de chacun et construire dessus.",
+   "Le choix du comité de direction doit être plus largement partagé."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1936-10",
+    "moment": "Réunion de faculté sur la présence des délégués étudiants : une fois les délégués sortis, King confie que certains enseignants sont mauvais parce qu'ils se sentent en insécurité. Rice écarte l'idée : les « opérations minières » pour extraire le bien d'un collègue sont trop fastidieuses.",
+    "etat_interieur": "Prudent et bienveillant. Il avance une hypothèse généreuse sur les collègues, sans espoir d'obtenir l'adhésion. Premier refus poli de sa vision.",
+    "refs": [
+     "SC-00667",
+     "EV-02615"
+    ]
+   },
+   {
+    "date": "1936-11",
+    "moment": "Réunion sur la personnalité et les personnalités dangereuses. King figure parmi les présents, sans parole rapportée.",
+    "etat_interieur": "Observateur. Les fiches ne lui attribuent rien de précis, donc on évitera de lui prêter des répliques et on le montrera plutôt attentif au malaise croissant.",
+    "refs": [
+     "SC-00670",
+     "EV-02621"
+    ]
+   },
+   {
+    "date": "1936-12",
+    "moment": "Procès de Knickerbocker. King compare la décision du Board à la remilitarisation hitlérienne de la Rhénanie. Zeuch dénonce Rice juge et procureur. Goldenson conclut qu'on n'a pas fait « la chose décente ».",
+    "etat_interieur": "Sa mesure habituelle cède. Il passe de la médiation à une comparaison brutale, signe qu'il juge l'acte de force illégitime. Bascule tonale à exploiter.",
+    "refs": [
+     "SC-00671",
+     "EV-02622"
+    ]
+   },
+   {
+    "date": "1937-02",
+    "moment": "Réunion communautaire du duel entre Rice et les étudiants dissidents. King tente de revenir à un terrain neutre. Rice lui répond qu'on n'y arrivera pas par des moyens mécaniques.",
+    "etat_interieur": "Conciliateur rebuté. Il comprend que son registre n'a pas de place dans la logique de Rice. Les enseignants dissidents intervenaient rarement, lui comme les autres.",
+    "refs": [
+     "SC-00700",
+     "EV-02705"
+    ]
+   },
+   {
+    "date": "1937-05",
+    "moment": "Marathon sur les renvois de Knickerbocker et Goldenson. King plaide pour l'harmonie et pour le partage de la responsabilité du choix du comité de direction. Rice élude. La séance s'effiloche sans conclusion.",
+    "etat_interieur": "Insistance lasse. Sa plaidoirie est constante mais sans effet. Dans la même période (avril à octobre 1937, datation approximative), il formule l'idée de « candidats à l'intelligence ».",
+    "refs": [
+     "SC-00705",
+     "EV-02711",
+     "ID-01420"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "moment": "King et Zeuch décident de ne pas revenir. C'est la déroute du camp anti-Rice. Zeuch laisse une critique de cinq mille mots, « The State of Black Mountain College ».",
+    "etat_interieur": "Résignation. Les fiches ne rapportent aucun adieu ni aucune parole de King à ce moment, donc elles laissent le scénariste libre de son départ, à garder discret en phase avec son tempérament.",
+    "refs": [
+     "EV-02722"
+    ]
+   },
+   {
+    "date": "1937-09",
+    "moment": "King et Zeuch ont trouvé d'autres postes durant l'été. Cinq membres de la faculté ne sont pas revenus, huit étudiants aussi, et l'année commence avec 55 inscrits.",
+    "etat_interieur": "Absent, donc sans état intérieur documenté. Le collège, assaini en apparence, a vidé le camp de la conciliation.",
+    "refs": [
+     "EV-02669",
+     "PE-00239"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Descendant direct de Rufus King, présenté par la fiche comme chef de la guerre d'Indépendance. Cette ascendance sert d'arrière-plan familial et historique pour un personnage qui raisonne en termes de pouvoir légitime et de gouvernés. Aucun détail sur son enfance, sa formation, son premier emploi, ni sur la façon dont il a rejoint le collège.",
+    "refs": [
+     "PE-00239"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1937",
+    "moment": "Il ne revient pas en 1937 et trouve une autre option durant l'été. Le poste, le lieu et la suite de sa carrière ne sont pas précisés. Déduction à manier avec prudence : il quitte seulement un collège, pas forcément l'enseignement.",
+    "refs": [
+     "PE-00239",
+     "EV-02669",
+     "EV-02722"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Adversaire institutionnel, et surtout contradicteur poli. King tente de le ramener à l'harmonie ; Rice l'écarte ou l'élude.",
+    "evolution": "D'abord un échange où Rice balaie sa proposition d'extraire le bien des collègues (octobre 1936). Puis King se fait plus dur au procès de Knickerbocker. En 1937, il essaie encore le terrain neutre (février), puis l'harmonie et le partage de la responsabilité (mai), sans obtenir de réponse. Il finit par partir.",
+    "refs": [
+     "SC-00667",
+     "SC-00671",
+     "SC-00700",
+     "SC-00705",
+     "EV-02711",
+     "PE-00239"
+    ]
+   },
+   {
+    "avec": "Harris (William/Frederick) Zeuch",
+    "nature": "Allié du camp dissident ; King est son soutien vocal. Les fiches donnent plusieurs prénoms pour Zeuch.",
+    "evolution": "Zeuch proteste contre Rice, juge et procureur, et plaide pour la diversité des personnalités. King le soutient et part avec lui à l'été 1937 ; Zeuch laisse un texte critique de cinq mille mots.",
+    "refs": [
+     "PE-00239",
+     "SC-00671",
+     "EV-02722",
+     "EV-02669"
+    ]
+   },
+   {
+    "avec": "Knickerbocker",
+    "nature": "Collègue au centre du conflit. King aurait voulu qu'il travaille avec Rice, ce qui le place dans son camp sans qu'on sache l'intensité du lien.",
+    "evolution": "Knickerbocker est visé par le vote du Board en décembre 1936. King prend position contre cette décision. Pas de trace d'échange direct entre eux.",
+    "refs": [
+     "PE-00239",
+     "SC-00671",
+     "EV-02622"
+    ]
+   },
+   {
+    "avec": "Étudiants dissidents (George Alsberg, Beverly Coleman, John Harrington)",
+    "nature": "Convergence d'idées : King défend aussi la responsabilité étudiante. Aucun lien personnel documenté.",
+    "evolution": "Ils mènent le duel oral contre Rice (février, mai 1937) ; King intervient à côté d'eux, avec un registre plus modéré.",
+    "refs": [
+     "SC-00700",
+     "SC-00705",
+     "EV-02705",
+     "EV-02711"
+    ]
+   },
+   {
+    "avec": "Georgia (Georgia Methvin)",
+    "nature": "Collègue dissident, intervenant rarement. Elle est aussi citée comme membre restant du Board ayant voté contre le non-renouvellement.",
+    "evolution": "Aux réunions de 1937 elle est présente à ses côtés ; rien de plus.",
+    "refs": [
+     "SC-00670",
+     "SC-00671",
+     "SC-00700",
+     "EV-02705"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Les fiches le disent « incolore » comme enseignant, alors que les mêmes lui prêtent une plaidoirie émouvante sur la promesse de chacun : prudence sur l'idée d'un personnage terne, il l'est peut-être seulement en classe.",
+   "Son tempérament est décrit comme doux et conciliant, mais au procès de Knickerbocker il compare la décision du Board à la remilitarisation hitlérienne de la Rhénanie, ce qui est tout sauf conciliant.",
+   "Le moment de son départ varie : EV-02722 (juin 1937) parle d'une décision de ne pas revenir, EV-02669 et PE-00239 d'un autre poste trouvé durant l'été. Les deux peuvent se combiner (décision en juin, poste confirmé ensuite), mais ce n'est pas attesté.",
+   "La même passe d'armes (étudiant jamais flatté, « jamais, George ») figure dans la réunion de février (SC-00700) et dans celle de mai (SC-00705, EV-02711). Soit la scène a été reprise, soit les fiches la datent mal. King est présent dans les deux, donc son rôle exact dans chacune reste incertain.",
+   "L'idée « candidats à l'intelligence » est datée approximativement d'avril à octobre 1937, donc en partie après le départ de King, sans que la date de prononcé soit sûre : l'attribuer à la réunion de mai 1937 est une déduction.",
+   "Le prénom de Zeuch varie (Harris, William, Frederick) selon les fiches, ce qui peut troubler la distinction entre les personnes présentes avec King.",
+   "SC-00665 est rattachée à la réunion de faculté du 28 septembre 1936 mais, dans sa « version alternative », décrit la séance de décembre (Rice absent, Zeuch plaidant pour Knickerbocker) ; elle ne mentionne pas King, donc aucune conclusion ne peut en être tirée pour lui."
+  ],
+  "situations_revelatrices": [
+   "Une réunion tendue où il cherche le terrain neutre alors que deux camps se figent.",
+   "Une discussion avec des étudiants où il plaide qu'ils méritent d'être traités en candidats à l'intelligence.",
+   "Une scène de sortie des délégués : une confidence pleine de précaution sur les mauvais enseignants en insécurité, que Rice écarte d'un trait d'humour.",
+   "Un face-à-face avec Rice, où King plaide pour l'harmonie et reçoit une pirouette.",
+   "Un moment de colère inhabituelle, la comparaison avec la Rhénanie, où le doux perd patience.",
+   "Une conversation avec Zeuch, au moment de décider de partir.",
+   "La dernière réunion : un homme qui sent que sa voix ne porte plus."
+  ],
+  "citations": [
+   "ID-01420 : formule attestée « candidates for intelligence » (tous sont des candidats à l'intelligence), et question sur les « nez incompétents » admis par le comité d'admission.",
+   "SC-00667 : King observe que certains enseignants sont mauvais parce qu'ils se sentent en insécurité (rapporté, pas en citation directe) ; Rice répond que les « opérations minières » sont trop fastidieuses.",
+   "SC-00671 : King compare le vote du Board à la remilitarisation hitlérienne de la Rhénanie (paraphrase).",
+   "SC-00700 : à King qui revient au terrain neutre, Rice répond qu'on n'y arrive pas par des moyens mécaniques (paraphrase).",
+   "EV-02711 : King plaide pour partager la responsabilité du choix du comité de direction.",
+   "PE-00239 : formule « gentle oar of concord » pour sa douceur."
+  ],
+  "questions_ouvertes": [
+   "Que enseignait-il, où et depuis quand ? Comment est-il arrivé au collège ?",
+   "Quelles études et quelle vie avant 1936 ? Quel lien concret avec Rufus King, et pourquoi la fiche le qualifie-t-elle de « chef de la guerre d'Indépendance » ?",
+   "Quel fut son nouveau poste à l'été 1937, et que devint-il ensuite ? Date et lieu de sa mort ?",
+   "Quelle fut son apparence, son âge, sa famille, sa vie privée ?",
+   "Avait-il des liens personnels avec Knickerbocker, Goldenson ou Zeuch, au-delà de la solidarité de camp ?",
+   "Pourquoi « incolore » comme enseignant ? Qui l'a jugé ainsi, et quels cours avaient été visités ?",
+   "A-t-il pris la parole lors de la réunion de décembre d'après les procès-verbaux complets, et qu'y dit-il exactement ?",
+   "Que pensait-il d'Albers et du Bauhaus, ou de la pédagogie d'expérience ? Aucune fiche ne le dit.",
+   "A-t-il lu ou signé le texte de Zeuch, « The State of Black Mountain College » ?"
+  ]
+ }
+}

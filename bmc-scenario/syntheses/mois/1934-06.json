@@ -1,0 +1,255 @@
+{
+ "passe": "mois",
+ "cle": "1934-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2793,
+  "sortie": 10828,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1934-06",
+  "session": "Fin de la première année académique (hiver-printemps), juste avant l'été loué à la Blue Ridge Assembly",
+  "saison_et_climat": "Juin, fin de printemps. Les fiches ne donnent aucune donnée météorologique. On peut déduire une chaleur croissante, sans certitude.",
+  "situation": "Le collège achève sa première année académique. Albers, dont le contrat expire le 12 juin, est resté à BMC après le refus de Bennington ; les fiches ne disent pas si son contrat est renouvelé. Le budget a été relevé d'environ 2 000 dollars le 3 juin, surtout pour des bourses. Le Bulletin n° 2 paraît en juin avec le texte d'Albers sur l'enseignement de l'art. Les amendements de mai ont fixé les droits étudiants. Les visites de l'hiver et du printemps sont passées, et le collège entre dans l'été.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bobbie Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Theodore Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Georgia (recteur)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John (pseudonyme, étudiant)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Paul (pseudonyme, étudiant)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ann (pseudonyme, étudiante)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fred et Isabel Mangold",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1934-06-03",
+    "precision": "jour",
+    "ce_qui_arrive": "Révision budgétaire à la hausse d'environ 2 000 dollars, surtout pour des bourses.",
+    "certitude": "atteste",
+    "refs": [
+     "S1934"
+    ]
+   },
+   {
+    "date": "1934-06-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Fin du contrat de BMC d'Albers, après sa candidature refusée à Bennington et son maintien au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "S1934",
+     "F-Albers"
+    ]
+   },
+   {
+    "date": "1934-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution du Bulletin n° 2, avec « Concerning Art Instruction » d'Albers, traduit par Ted Dreier après un mois de soirées de relecture.",
+    "certitude": "atteste",
+    "refs": [
+     "S1934",
+     "F-Pedagogie"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Entre juin et fin juillet, Albers porte ses bois gravés à Edward Warburg au MoMA ; Warburg écrit à Mongan (Fogg) et à Sawyer (Addison Gallery), seule l'Addison accepte, et l'exposition est prévue pour 1935.",
+    "certitude": "atteste",
+    "refs": [
+     "S1934"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Été 1934 : le campus est loué aux conférences de la Blue Ridge Assembly ; les Mangold gardent les lieux et les étudiants gèrent la ferme par roulements.",
+    "certitude": "atteste",
+    "refs": [
+     "S1934",
+     "F-Ferme"
+    ]
+   }
+  ],
+  "quotidien": "Cours et ateliers de la fin d'année, avec l'enseignement d'Albers qui attire régulièrement des visiteurs. Réunions de faculté souvent sans ordre du jour. Vie de réfectoire alimentée en partie par la ferme, dont un fermier salarié produit environ la moitié des légumes. Les soirées de relecture de la traduction du Bulletin ont pris fin. La musique et les cours hors art ne sont pas documentés pour ce mois.",
+  "tensions": [
+   "Incertitude financière de BMC et avenir d'Albers, qui a perdu sa candidature à Bennington ; la raison invoquée par Leigh (« plus essentiellement américaine ») suscite un malentendu de langue, et Johnson suggère que le facteur allemand n'était peut-être qu'un prétexte (sources divergentes sur la cause).",
+   "Désaccord entre Rice et la ligne progressiste ; Rice juge l'éducation progressiste stupide, et les visites décourageantes (dont la Lincoln School) l'ont confirmé.",
+   "Tension sentimentale entre John, Paul et Ann, avec la confiance de John détruite par Rice, sur un fond de recadrage. Les noms sont des pseudonymes.",
+   "Gouvernance : les nouveaux droits étudiants (accès aux registres, siège au Board, participation aux réunions de faculté) entrent dans les usages."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le contrat qui expire",
+    "date": "1934-06-12",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Georgia (recteur)",
+     "Anni Albers"
+    ],
+    "deroule": "Albers doit savoir si son poste est renouvelé après le refus de Bennington. La scène tourne autour d'un papier qu'on signe ou qu'on laisse en suspens, sans que les fiches tranchent.",
+    "certitude": "deduit",
+    "refs": [
+     "S1934",
+     "F-Albers"
+    ]
+   },
+   {
+    "titre": "Le Bulletin n° 2 sort",
+    "date": "1934-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Ted Dreier",
+     "Anni Albers"
+    ],
+    "deroule": "Les exemplaires arrivent après le mois de relecture nocturne. Albers y lit son texte traduit, où il pose le dessin au centre et dit que la plupart des étudiants ne deviendront pas artistes.",
+    "certitude": "deduit",
+    "refs": [
+     "S1934",
+     "F-Pedagogie"
+    ]
+   },
+   {
+    "titre": "Les bois gravés à New York",
+    "date": null,
+    "lieu": "MoMA, New York",
+    "personnages": [
+     "Josef Albers",
+     "Edward Warburg"
+    ],
+    "deroule": "Albers présente ses bois gravés à Warburg, qui les transmet ensuite à Mongan et Sawyer. Le détail de la rencontre n'est pas documenté.",
+    "certitude": "deduit",
+    "refs": [
+     "S1934"
+    ]
+   },
+   {
+    "titre": "Le recadrage de John",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Theodore Rice",
+     "John",
+     "Paul",
+     "Ann"
+    ],
+    "deroule": "John, qui vient de se confier à Paul, est raillé puis repris par Rice, qui détruit la confiance qu'il venait de retrouver. Paul se rapproche d'Ann.",
+    "certitude": "probable",
+    "refs": [
+     "S1934"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Albers, en juin, après le verdict de Leigh",
+    "vers_date": "1934-04-06",
+    "vers": "Le refus de Leigh pour Bennington (« plus essentiellement américaine ») et la réponse d'Albers en allemand, qui croyait à un malentendu.",
+    "refs": [
+     "F-Albers"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le collège en juin, qui vient de recevoir ses visiteurs",
+    "vers_date": "1934-02-23",
+    "vers": "La conférence formelle de Thornton Wilder, venu sur invitation d'Evarts : dîners avec les étudiants, lecture devant la cheminée de Lee Hall, conférence devant 250 invités extérieurs.",
+    "refs": [
+     "F-Visiteurs"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La gouvernance étudiante, en juin",
+    "vers_date": "1934-05-02",
+    "vers": "Les amendements aux statuts qui donnent aux étudiants un accès aux registres, le droit d'adopter une constitution et un siège au Board.",
+    "refs": [
+     "F-Gouvernance"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le campus en été, avec les conférences de la Blue Ridge Assembly",
+    "vers_date": "1934-09",
+    "vers": "Clara Porset vient de La Havane voir l'enseignement d'Albers, en est conquise et l'invite à Cuba.",
+    "refs": [
+     "F-Cuba"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La rentrée qui s'annonce, en juin",
+    "vers_date": null,
+    "vers": "À l'automne, Rice reprend le poste de recteur, Georgia devient secrétaire, et Anni Albers entre au corps enseignant avec son programme pour le tissage.",
+    "refs": [
+     "S1934",
+     "F-Anni"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le collège en été, qui tente l'autosuffisance",
+    "vers_date": "1934-11",
+    "vers": "À Thanksgiving, Robert Wunsch trouve un collège tourné vers lui-même ; les étudiants lèvent mille dollars pour son salaire, ce qui crée du ressentiment chez les enseignants payés en sous.",
+    "refs": [
+     "F-Wunsch",
+     "F-Gouvernance"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, avant le départ pour Cuba",
+    "vers_date": "1934-12-28",
+    "vers": "Les Albers, avec Ted et Bobbie Dreier, partent pour Cuba ; Josef donne trois conférences au Lyceum. Premier d'une série de plus de quatorze voyages en Amérique latine jusqu'en 1956.",
+    "refs": [
+     "F-Cuba"
+    ]
+   }
+  ],
+  "motifs": [
+   "Un collège qui se montre aux visiteurs et à la presse pour exister",
+   "Albers entre incertitude et maintien, et la question de la langue et de la nationalité",
+   "Autosuffisance par la ferme, l'imprimerie et la coopérative, contre la dépendance financière",
+   "Gouvernance étudiante et consensus, qui reste sans résolution nette",
+   "Le sceau « se rassembler, tenir ensemble, travailler ensemble »"
+  ],
+  "lacunes": "Les fiches n'ont pas d'identifiants ; j'ai attribué des libellés courts (S1934, F-Albers, F-Pedagogie, F-Anni, F-Gouvernance, F-Ferme, F-Visiteurs, F-Wunsch, F-Cuba) à partir des titres. On ignore si le contrat d'Albers est renouvelé après le 12 juin. On ne sait pas quelle est la météo, ni la vie musicale ou le détail de l'emploi du temps. La date de la visite de Dewey reste inconnue (1934-35). La cause du refus de Bennington diverge selon les sources (raison allemande ou simple prétexte). Le texte du sceau et les dates exactes de la rentrée ne sont pas précisés."
+ }
+}

@@ -1,0 +1,322 @@
+{
+ "passe": "mois",
+ "cle": "1944-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3739,
+  "sortie": 14249,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1944-02 (février 1944)",
+  "session": "trimestre d'hiver-printemps (les fiches ne précisent pas les dates exactes de la session)",
+  "saison_et_climat": "Hiver. Les fiches ne décrivent ni le temps ni le paysage de février ; seul le cadre saisonnier est attesté.",
+  "situation": "Le collège est pris depuis janvier dans un débat de quatre mois sur l'admission d'étudiants noirs. Les réunions de faculté s'échelonnent du 25 janvier au 10 mai, avec caucus secrets et séances marathon de toute la communauté. Les étudiants ont voté tôt, à deux contre un, pour l'admission au trimestre d'automne ; le corps enseignant est presque partagé à égalité. L'opposition invoque la peur du boycott des commerçants, de l'incendie criminel, le précédent d'Anniston et les lettres de mise en garde de Hurston, Lipsey et Shepard, que Wunsch avait lui-même sollicitées. L'argument juridique tombe (aucune loi de Caroline du Nord n'impose la ségrégation dans le supérieur), mais le vote n'en est pas changé. Une pétition de 38 étudiants sur 50 réclame plus d'un étudiant noir sans effet sur le vote. Wunsch propose d'abord un à trois visiteurs noirs pour quelques semaines. Un étudiant démissionne en février.",
+  "presents_probables": [
+   {
+    "nom": "Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bentley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "de Graaff",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Foreman",
+    "certitude": "probable"
+   },
+   {
+    "nom": "les Cohen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "les Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Radin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hansgirg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Miller",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Orr (trésorier adjoint)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Duggar",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "les étudiants (environ 50, dont 38 signataires de la pétition)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "deux étudiants noirs et un professeur de Fisk en dortoir",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-01",
+    "precision": "periode",
+    "ce_qui_arrive": "Débat communautaire sur la question noire qui se prolonge jusqu'en avril ; deux camps se forment, la communauté reste divisée",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03612"
+    ]
+   },
+   {
+    "date": "1944-01-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Ouverture des réunions de faculté sur l'admission, qui se poursuivent jusqu'au 10 mai",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": "1944-01",
+    "precision": "periode",
+    "ce_qui_arrive": "Vote des étudiants, à deux contre un, pour admettre des étudiants noirs au trimestre d'automne",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": "1944-02-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Première lecture en anglais d'une pièce au collège (pièce non nommée dans la fiche)",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03617"
+    ]
+   },
+   {
+    "date": "1944-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Un étudiant démissionne, dans le contexte de la question d'admission",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Pétition de 38 étudiants sur 50 pour plus d'un étudiant noir ; sans effet réel sur le vote du corps enseignant",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Wunsch écrit à Evarts qu'intégrer reviendrait à déclarer une guerre ouverte au Sud",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Deux étudiants noirs et un professeur de Fisk logent en dortoir sans incident",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches décrivent peu la vie ordinaire de février. Les soirées se passent en réunions de faculté très longues et en caucus secrets. Le collège s'organise autour de l'institut de musique, que Wunsch voudrait ouvrir à des visiteurs précédés d'un cours sur les relations raciales. Des visiteurs se logent en dortoir. Les fiches ne disent rien des cours, des repas ni du travail des ateliers pour ce mois.",
+  "tensions": [
+   "Division entre pour et contre : Straus, Albers, Hansgirg, Kurtz, Wunsch, Gregory et Miller contre ; Foreman, Bentley, de Graaff, les Cohen, les Jalowetz et Radin pour",
+   "Peur de l'incendie criminel et du boycott des commerçants, nourrie par le précédent d'Anniston",
+   "Ironie soulignée par Bentley : des réfugiés du racisme nazi refusent l'égalité à d'autres persécutés (EC-01931)",
+   "Wunsch a sollicité les lettres de mise en garde qu'il invoque ensuite contre l'admission",
+   "Contradiction : Duberman range Dreier parmi les opposants ayant rejoint le camp contre après hésitation, alors que Lane le dépeint comme ayant obtenu l'engagement du corps enseignant avant qu'il ne recule",
+   "Contradiction de calendrier : Duberman décrit un consensus d'avril-mai avec une seule femme admise pour l'été, Lane estime la question tranchée seulement à l'automne 1945",
+   "Le départ de Orr (avril) est attribué en partie à cette admission et plus largement à « trop avec trop peu » ; la démission de février est sans motif donné dans les fiches"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Réunion de faculté sur l'admission",
+    "date": "1944-02",
+    "lieu": "Black Mountain College, salle de réunion de la faculté",
+    "personnages": [
+     "Straus",
+     "Josef Albers",
+     "Bentley",
+     "Foreman",
+     "Wunsch"
+    ],
+    "deroule": "Séance marathon : Straus et les Albers opposent la peur des représailles et le précédent d'Anniston, Bentley raille le statut de Hofjude, Foreman rappelle l'argument juridique tombé. Le vote reste serré.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03612"
+    ]
+   },
+   {
+    "titre": "Pétition étudiante",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "étudiants (38 signataires sur 50)"
+    ],
+    "deroule": "Les étudiants signent une demande d'admettre plus d'un étudiant noir. La pétition n'a aucun effet sur le vote du corps enseignant.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Première lecture anglaise",
+    "date": "1944-02-16",
+    "lieu": "Black Mountain College",
+    "personnages": [],
+    "deroule": "Première lecture en anglais d'une pièce au collège ; les fiches ne nomment ni la pièce ni les participants.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03617"
+    ]
+   },
+   {
+    "titre": "Hébergement des visiteurs noirs",
+    "date": null,
+    "lieu": "dortoir du Black Mountain College",
+    "personnages": [
+     "deux étudiants noirs",
+     "professeur de Fisk"
+    ],
+    "deroule": "Ils logent en dortoir sans incident. Les fiches ne datent pas ce séjour, qui peut précéder ou suivre le débat de février.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Proposition de visiteurs et cours sur les relations raciales",
+    "date": null,
+    "lieu": "institut de musique",
+    "personnages": [
+     "Wunsch",
+     "étudiants",
+     "professeurs"
+    ],
+    "deroule": "Wunsch propose un à trois visiteurs noirs pour quelques semaines, précédés d'un cours sur les relations raciales.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "la réunion où Straus et Albers invoquent la peur de l'incendie et le précédent d'Anniston",
+    "vers_date": null,
+    "vers": "l'incendie du séminaire d'Anniston, précédent invoqué par Rubye Lipsey ; les fiches ne datent pas cet incendie",
+    "refs": [
+     "EC-01932"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "l'opposition des réfugiés européens (Straus, Albers, Dreier) à l'accueil d'étudiants noirs",
+    "vers_date": null,
+    "vers": "leur propre fuite du racisme nazi, que Bentley fait ressortir avec sa métaphore du Hofjude",
+    "refs": [
+     "EC-01931"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le débat de février, alors que la question paraît encore ouverte",
+    "vers_date": "1945",
+    "vers": "l'automne 1945, date à laquelle Lane estime seulement la question tranchée",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la pétition étudiante et le vote de l'admission",
+    "vers_date": "1950",
+    "vers": "la violence sudiste qui accompagne l'intégration scolaire dans les années 1950-60 ; Duberman juge les craintes de 1944 non déraisonnables",
+    "refs": [
+     "EC-01930"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le débat sur l'admission, à l'approche des instituts d'été",
+    "vers_date": "1944",
+    "vers": "l'été 1944 : Dreier sourit à l'arrivée des instituts, avant qu'un coup de téléphone de l'avocat de Chattanooga sur Anderson et Wacker ne brise ce soulagement",
+    "refs": [
+     "EC-01933"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les sessions d'été qui suivent le débat",
+    "vers_date": "1988",
+    "vers": "l'enseignement de Margaret Kennard Johnson à Princeton, environ 44 ans après l'été 1944, où elle se réclame encore d'Albers",
+    "refs": [
+     "EC-01861"
+    ]
+   }
+  ],
+  "motifs": [
+   "peur de l'incendie criminel",
+   "boycott des commerçants",
+   "précédent du séminaire d'Anniston",
+   "ironie de la métaphore du Hofjude",
+   "guerre ouverte au Sud",
+   "trop avec trop peu",
+   "réfugiés du racisme nazi refusant l'égalité",
+   "consensus fragile du corps enseignant"
+  ],
+  "lacunes": "Les fiches ne donnent ni la date du séjour des deux étudiants noirs et du professeur de Fisk, ni celle de la démission d'étudiant au-delà du mois, ni celle de l'incendie d'Anniston, ni celle des lettres de Hurston, Lipsey et Shepard. Les noms des étudiants, de la pièce lue le 16 février et des participants à cette lecture restent inconnus. Le rôle de Duggar et l'identité des amis juristes de Foreman ne sont pas précisés. La météo et la vie quotidienne de février manquent. Les sources se contredisent sur Dreier et sur la date de la décision finale."
+ }
+}

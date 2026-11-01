@@ -1,0 +1,343 @@
+{
+ "passe": "mois",
+ "cle": "1942-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2699,
+  "sortie": 10959,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-03",
+  "session": "trimestre de printemps (déduit : le printemps est mentionné, mais aucune fiche ne date mars)",
+  "saison_et_climat": "Fin d'hiver ou début de printemps dans les montagnes de Caroline du Nord ; les fiches ne décrivent pas le climat, c'est une déduction à partir du lieu et de la saison.",
+  "situation": "Deuxième année à Lake Eden, après trois ans de chantier communautaire qui se poursuit. La grande grange est achevée. Le collège n'a aucune accréditation, peu de liquidités et une dette croissante. La guerre commence à peser sur les hommes du collège. Les démarches auprès des universités seront envoyées en mai ; en mars, elles sont probablement en préparation.",
+  "presents_probables": [
+   {
+    "nom": "Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Godfrey",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lindsley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Boyden",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Babcock",
+    "certitude": "probable"
+   },
+   {
+    "nom": "French",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bliss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Elsa Kahl",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frances de Graaf",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940",
+    "precision": "saison",
+    "ce_qui_arrive": "Lancement du chantier communautaire à l'automne : cours le matin et le soir, travail volontaire l'après-midi, pour près de trois ans.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1941-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Installation du collège à Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "La grande grange de Kocher et Godfrey, commencée à l'été 1941, est achevée au printemps ; une laiterie et deux silos suivront l'été et l'automne.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942-05-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Wunsch rencontre Huntley de la Southern Association, qui s'étonne que le collège n'ait pas encore le droit de délivrer des diplômes.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Wunsch écrit à une dizaine d'universités de mai à juillet ; Antioch, Swarthmore, Reed et l'Université de Caroline du Nord répondent favorablement et le collège obtient un quota dans les programmes Navy V-1 et Enlisted Reserve Corps. Les fiches datent ce quota de 1942 sans mois précis.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : Survivre : argent, accréditation, programmes de guerre"
+    ]
+   },
+   {
+    "date": "1942-07-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Mangold résume la campagne de fonds : environ 78 000 $ de dons en deux ans, tous absorbés par la construction.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "L'été : une seconde hypothèque de 18 000 $ s'ajoute à un solde de 11 500 $ ; la faculté plafonne ses dons à 10 $ par mois et par personne.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "periode",
+    "ce_qui_arrive": "Des membres du corps enseignant partent : Lindsley à Washington, Evarts dans l'armée, Boyden dans le renseignement de la Marine, Mangold à l'ambassade de Mexico, Babcock au Trésor, French dans une usine de Virginie, Bliss ailleurs. Les fiches datent ces départs de 1942-1943 sans précision.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : La guerre vide le collège"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "session",
+    "ce_qui_arrive": "Arrivée des Hansgirg pour le trimestre d'automne, avec une Cadillac, un orgue Hammond et une collection de disques.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "À l'automne, la découverte de mica dans le pâturage : 250 livres récoltées en deux jours, jugées « bonne muscovite » ; un mineur est embauché.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : Autosuffisance : ferme et mica (1942→1943)"
+    ]
+   },
+   {
+    "date": "1942-10-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Fortune envoie un télégramme d'enquête sur les effets de la guerre ; le collège répond par une page dactylographiée.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Fin octobre : crise sur l'accord étudiant dit « bedroom », réunion de faculté, lettre ouverte des responsables étudiants et abandon de l'accord. Le contenu de l'accord n'est pas précisé.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution de l'autobiographie de Rice, I Came Out of the Eighteenth Century, avec un chapitre sur Black Mountain ; Hamilton Holt menace d'un procès en libelle.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : Le livre de Rice et le contentieux Holt (1942-05→1944)"
+    ]
+   },
+   {
+    "date": "1942-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board of Fellows prend la décision d'envoyer un télégramme dont l'objet n'est pas indiqué.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "Sam Brown date du automne 1942 le début d'un glissement du collège vers une situation « informe », préparant le conflit de 1944.",
+    "certitude": "probable",
+    "refs": [
+     "fil : La fracture idéologique de 1944 en gestation (1942→1944)"
+    ]
+   }
+  ],
+  "quotidien": "Les cours ont lieu le matin et le soir, et l'après-midi est consacré au travail volontaire : construction, ferme, menuiserie. La grange est achevée et la laiterie est en projet. La vie sociale (bals du samedi, spectacles) est datée de 1942-1943 et ne peut pas être située en mars. Les repas, la musique et les activités de mars ne sont pas documentés.",
+  "tensions": [
+   "Le collège est sans liquidités et refuse à la fois les programmes de guerre et la dépendance à des donateurs, sans accréditation ni diplôme reconnu.",
+   "La conscription pèse sur les hommes du collège : il faut obtenir des sursis par les programmes militaires et des demandes au Selective Service pour épargner les professeurs les plus âgés.",
+   "Le chantier mobilise une main-d'œuvre sans salaire pendant qu'il absorbe tout l'argent récolté."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Achèvement de la grande grange",
+    "date": "1942",
+    "lieu": "grange de Kocher et Godfrey, Lake Eden",
+    "personnages": [
+     "Kocher",
+     "Godfrey",
+     "Albers",
+     "Mangold"
+    ],
+    "deroule": "La grange, commencée à l'été 1941, est terminée au printemps. La communauté peut la voir comme un signe que le chantier avance, alors que l'argent manque déjà. Scène déduite, aucune fiche ne décrit cette fin de chantier.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Lettres en brouillon pour l'accréditation",
+    "date": "1942-03",
+    "lieu": "bureau de la faculté, Lake Eden",
+    "personnages": [
+     "Wunsch",
+     "Albers",
+     "Dreier"
+    ],
+    "deroule": "Wunsch prépare les lettres aux universités et la pétition au Selective Service pour protéger les professeurs âgés. La faculté discute des sursis et de ce qu'il faut promettre pour obtenir un quota. Les lettres partiront en mai, et les réponses ne viendront qu'après. Scène déduite.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le chantier de l'après-midi",
+    "date": "1942-03",
+    "lieu": "Lake Eden, pâturages et chantiers",
+    "personnages": [
+     "Lindsley",
+     "Evarts",
+     "Boyden",
+     "Stoller"
+    ],
+    "deroule": "Enseignants et étudiants travaillent ensemble après les cours du matin. Certains partiront bientôt pour la guerre, ce qui donne à cette routine une ombre. Scène déduite à partir des départs ultérieurs.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : La guerre vide le collège (1941-12→1945)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "mars 1942, la grange achevée et le chantier qui continue",
+    "vers_date": "1940",
+    "vers": "l'automne 1940, lancement du chantier communautaire et de la vie de travail partagé",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "mars 1942, le collège encore sans accréditation",
+    "vers_date": "1941-05",
+    "vers": "l'installation à Lake Eden, premier printemps de la communauté sur ce site",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "mars 1942, au moment où les lettres se préparent",
+    "vers_date": "1942-05-24",
+    "vers": "la rencontre de Wunsch avec Huntley, qui s'étonne que le collège n'ait pas le droit de délivrer des diplômes",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "mars 1942, la guerre qui approche des étudiants",
+    "vers_date": "1942-10-16",
+    "vers": "le télégramme de Fortune sur les effets de la guerre sur le collège",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "mars 1942, les premières fissures idéologiques",
+    "vers_date": "1944",
+    "vers": "l'affrontement de 1944, dont le glissement commence à l'automne 1942 selon Sam Brown",
+    "refs": [
+     "fil : La fracture idéologique de 1944 en gestation (1942→1944)"
+    ]
+   }
+  ],
+  "motifs": [
+   "accréditation et diplômes refusés",
+   "argent sans liquidités et dette",
+   "guerre et sursis",
+   "travail manuel comme vie commune",
+   "grange et ferme comme signes de survie"
+  ],
+  "lacunes": "Aucune fiche ne date un événement de mars 1942. Le quota militaire n'a pas de mois précis. Les départs sont datés 1942-1943 sans précision. Les bals et spectacles sont datés 1942 ou 1943. Fritz Hansgirg arrive à l'automne, il est donc probablement absent en mars. Sam Brown place le glissement à l'automne 1942, mais les fiches sur Bentley, de Graaff et Straus couvrent 1942-1944 sans prouver que le conflit soit déjà là. Les repas, la musique et les cours de mars ne sont pas documentés."
+ }
+}

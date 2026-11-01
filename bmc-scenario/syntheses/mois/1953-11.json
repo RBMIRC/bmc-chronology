@@ -1,0 +1,448 @@
+{
+ "passe": "mois",
+ "cle": "1953-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 11381,
+  "sortie": 16441,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1953-11",
+  "session": "Trimestre d'automne, après le dernier grand Summer Institute et le passage en trimestres ; la session d'été n'a pas ramené d'étudiants à l'année (synthèse 1953 ; EV-06223)",
+  "saison_et_climat": "Novembre en montagne de Caroline du Nord : froid âpre, nuits très froides, charbon qui s'épuise, bois coupé à la main et à la tronçonneuse neuve. L'automne bascule vers l'hiver.",
+  "situation": "Le collège se replie. Le bas du campus ferme progressivement, on vit dans les cottages, au Meadows Inn et parfois dans les études, et le budget tourne autour de 25 000 $. Le 5 novembre Huss renonce à la cotisation d'accréditation. Olson, recteur de fait depuis 1950 et nommé officiellement après l'été, dirige une école qui se rétrécit. Natasha Goldowski est partie pour sa ferme, Johanna Jalowetz s'en va aussi, et Duberman rapporte des démissions. Dans ce creux, la faculté se tourne vers les lettres : Creeley, encore à Majorque, est accepté pour la future Black Mountain Review. Albers est en mer le 23 novembre puis à Ulm, et ne fait plus partie du collège ce mois-ci.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Merrill Gilchrist",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Paul Williams",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Terence Burns",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tom (prénom seul dans EV-06236)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Karen Karnes",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bert Morgan",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Connie Olson",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1953-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Paul Williams revient évaluer la situation, enseigne une classe d'architecture informelle et organise la découpe à la scie circulaire : chaque samedi matin tôt, tous alimentent la scie pour les fours à charbon des cottages (septembre à décembre)",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06224"
+    ]
+   },
+   {
+    "date": "1953-10",
+    "precision": "periode",
+    "ce_qui_arrive": "Corvées de bûcheronnage avec Olson sur les pentes près de la ferme, à la tronçonneuse neuve ; discussions entre hommes sur Karen Karnes, que Terence Burns dit entendre soupirer la nuit",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06235",
+     "EC-02989"
+    ]
+   },
+   {
+    "date": "1953-10",
+    "precision": "periode",
+    "ce_qui_arrive": "Le charbon s'épuise dans la trémie du Studies ; plusieurs étudiants dorment dans leurs études ; Tom, Terence et Rumaker se relaient pour le four du Meadows Inn, dans une cave en terre, et Rumaker craint l'explosion de la chaudière",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06236"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "La faculté vote la suppression des bourses de travail",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06074"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Natasha Goldowski quitte le collège pour une petite ferme, victoire d'Olson dans un long conflit",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06009",
+     "RE-02500"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Johanna Jalowetz part après avoir tenté de vendre la collection de partitions de son mari",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05955"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Incendie du bâtiment Roadside selon Duberman, suivi de démissions (Malrey Few, Flola Shepard, Len Billing). Les fiches de Rumaker le situent à l'hiver précédent : contradiction non résolue",
+    "certitude": "probable",
+    "refs": [
+     "EV-05954",
+     "EV-05915"
+    ]
+   },
+   {
+    "date": "1953-11-05",
+    "precision": "jour",
+    "ce_qui_arrive": "Huss écrit à Hillman (North Carolina College Conference) que BMC cesse de payer ses 21 $ de cotisation : le collège renonce définitivement à l'accréditation",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06244"
+    ]
+   },
+   {
+    "date": "1953-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Une fête de salle à manger un samedi soir, parmi les dernières avant la fermeture complète du bas du campus : Merrill invite Rumaker, qui ment et reste seul",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06238",
+     "SC-01688"
+    ]
+   },
+   {
+    "date": "1953-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers, premier Thanksgiving à Ulm : visite du chantier, déjeuner avec les Aicher, longues discussions sur l'Allemagne ; il juge Inge Aicher-Scholl la plus intelligente et la plus gentille",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06239"
+    ]
+   },
+   {
+    "date": "1953-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers écrit à Anni pour remercier ensemble de ce qu'ils ont accompli depuis leur arrivée à New York en 1933",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06240"
+    ]
+   },
+   {
+    "date": "1953-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Premier week-end : excursion en voiture avec les Aicher dans les villes alpines ; l'architecture baroque le bouleverse",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06242"
+    ]
+   },
+   {
+    "date": "1953-11",
+    "precision": "mois",
+    "ce_qui_arrive": "La semaine suivante, Albers rend visite à Ludwig et Maude Grote à Nuremberg puis Bamberg, et marche « dans l'ombre des cathédrales »",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06243"
+    ]
+   },
+   {
+    "date": "1953-11-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers accoste à Bremerhaven sur le United States après une traversée agitée, retrouve sa sœur Lisbet et son beau-frère Rudolf Marx, déjeune avec eux, puis prend le train pour Ulm",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06245",
+     "SC-01689"
+    ]
+   },
+   {
+    "date": "1953-11-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers décrit à Anni le trajet en train : Münsterland, Ruhr laide et inchangée, vignobles rhénans, hameaux du Rhin",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06246"
+    ]
+   },
+   {
+    "date": "1953-11-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Séjour de deux mois d'enseignement à la Hochschule für Gestaltung d'Ulm, premier retour en Allemagne depuis la guerre (jusqu'au 23 janvier 1954)",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06247"
+    ]
+   }
+  ],
+  "quotidien": "Samedis matin tôt : équipes de scie circulaire sous Paul Williams pour alimenter les fours des cottages. En semaine : corvées de bûcheronnage avec Olson sur les pentes, à la tronçonneuse portative, et relais nocturne au four du Meadows Inn, sous la chambre de Tom. On mange encore au bas du campus, où circulent la bière maison de Bert Morgan à 25 cents et le vin acheté à Asheville. Les étudiants dorment parfois dans leurs études faute de chauffage. Les cours : une classe d'architecture informelle de Williams. Le collège vit au rythme du bois, du charbon et des fêtes d'adieu.",
+  "tensions": [
+   "Rumaker et Merrill : la rupture se joue dans une fête et dans le silence ; Rumaker se punit en punissant Merrill (SC-01688)",
+   "Rumaker sous l'emprise d'Olson : la dépendance au maître reste intacte alors que le collège se défait (EC-02992)",
+   "Karen Karnes et David séparés ; Terence Burns fantasme sur la nuit de Karen, ce qui nourrit les conversations des corvées (EV-06235, EC-02989)",
+   "Chauffage : le vieux four du Meadows Inn menace d'exploser et le charbon manque (EV-06236)",
+   "Olson en chef de chantier : il tient les équipes, et Charles reste nerveux devant la tronçonneuse (EV-06235)",
+   "Fermeture : fin de l'accréditation, départs, bas du campus abandonné, budget réduit de moitié (EV-06244, EV-06224)",
+   "Contradiction de dates : Duberman place l'incendie du Roadside à l'automne, Rumaker à l'hiver précédent (EV-05954, EV-05915)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le samedi de la fête : bain et polo rouge",
+    "date": "1953-11",
+    "lieu": "Streamside, salle de bains et pièce de devant",
+    "personnages": [
+     "Michael Rumaker",
+     "Merrill Gilchrist"
+    ],
+    "deroule": "Merrill demande « Are you going tonight? ». Rumaker répond qu'il a du travail et refuse le vin. Après la vaisselle, il entend l'eau du bain se vider, voit l'autre partir en polo rouge et jean propre, bouteille dans un sac brun, sans un mot. Il reste seul, espérant que Merrill revienne supplier.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01688",
+     "EV-06238"
+    ]
+   },
+   {
+    "titre": "Corvée avec Olson et la discussion entre hommes",
+    "date": "1953-10",
+    "lieu": "Pentes près de la ferme",
+    "personnages": [
+     "Charles Olson",
+     "Terence Burns",
+     "Michael Rumaker"
+    ],
+    "deroule": "Des équipes abattent et débitent des arbres à la tronçonneuse neuve. Olson mène le travail et Charles semble nerveux. Entre deux arbres, on parle discrètement de Karen Karnes et de ses soupirs à travers le mur de l'étude.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06235",
+     "EC-02989"
+    ]
+   },
+   {
+    "titre": "La nuit du four du Meadows Inn",
+    "date": "1953-10",
+    "lieu": "Meadows Inn, cave en terre sous la chambre de Tom",
+    "personnages": [
+     "Tom",
+     "Terence Burns",
+     "Michael Rumaker"
+    ],
+    "deroule": "Trois étudiants se relaient pour nourrir la chaudière. Le bois brûle, la vapeur monte vers les radiateurs, et Rumaker craint que le vieil appareil n'explose. La grande cheminée du lobby sert en renfort.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06236"
+    ]
+   },
+   {
+    "titre": "Samedi matin à la scie circulaire",
+    "date": "1953-11",
+    "lieu": "Zone ouverte au-delà de Meadows Inn",
+    "personnages": [
+     "Paul Williams",
+     "Michael Rumaker"
+    ],
+    "deroule": "Tôt le samedi, tout le monde alimente la scie en rondins pour les fours des cottages. Williams, venu de la fortune familiale de gantier, dirige l'opération et enseigne l'architecture entre deux équipes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06224"
+    ]
+   },
+   {
+    "titre": "Débarquement à Bremerhaven, vingt ans après",
+    "date": "1953-11-23",
+    "lieu": "Quai de Bremerhaven",
+    "personnages": [
+     "Josef Albers",
+     "Lisbet Marx",
+     "Rudolf Marx"
+    ],
+    "deroule": "Petit matin après une traversée agitée. Le United States accoste. La sœur cadette et son mari, venus de Bottrop, attendent sur le quai. Petit-déjeuner ensemble, puis train pour Ulm.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01689",
+     "EV-06245"
+    ]
+   },
+   {
+    "titre": "Thanksgiving à Ulm",
+    "date": "1953-11",
+    "lieu": "Ulm",
+    "personnages": [
+     "Josef Albers",
+     "Inge Aicher-Scholl"
+    ],
+    "deroule": "Visite du chantier, déjeuner avec les hôtes, longue conversation sur l'état actuel de l'Allemagne. Albers juge Inge la plus intelligente et la plus gentille de tous.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06239",
+     "EV-06240"
+    ]
+   },
+   {
+    "titre": "La lettre à Hillman",
+    "date": "1953-11-05",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Wes Huss"
+    ],
+    "deroule": "Huss écrit au Dr James Hillman qu'on cesse de payer la cotisation de 21 dollars. Il explique que les termes de l'accréditation n'ont jamais couvert « le point même de son existence ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06244"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, après la fête manquée, pendant le silence de la salle de bains",
+    "vers_date": null,
+    "vers": "Les histoires racontées à ses frères sous l'édredon dans le New Jersey, et l'enfant de chœur honteux qu'il était",
+    "refs": [
+     "EC-02991",
+     "EC-02993"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker voit Olson nu dans son lit à l'été 1953",
+    "vers_date": null,
+    "vers": "L'aube d'hiver où son père, en caleçon, ouvrit la fenêtre ébréchée pendant l'enfance",
+    "refs": [
+     "EC-02904"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les corvées de tronçonneuse et les pentes sonores",
+    "vers_date": null,
+    "vers": "Le premier automne de Rumaker au collège, le vent et la « musique des chiens » des chasseurs",
+    "refs": [
+     "EC-02984"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le chantier d'Olson et son autorité sur les équipes",
+    "vers_date": null,
+    "vers": "Les années 1930 : Olson pauvre, hébergé chez Eleanor Melville Metcalf grâce aux papiers de Melville",
+    "refs": [
+     "EC-02906"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers à Ulm, premier Thanksgiving depuis l'Allemagne",
+    "vers_date": "1933-11",
+    "vers": "Le premier Thanksgiving de 1933, à l'arrivée à New York, et la fuite de l'Allemagne vingt ans plus tôt",
+    "refs": [
+     "EV-06240",
+     "EV-06245"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La phrase d'Olson sur le cloacal et le génital, entendue en 1953",
+    "vers_date": "1977",
+    "vers": "La scène visionnaire de A Day and a Night at the Baths, qui revient des années après l'épreuve de l'alcool et des drogues",
+    "refs": [
+     "EC-02905"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le Bartleby célébré à BMC et l'attention d'Olson",
+    "vers_date": "1963",
+    "vers": "La publication du texte dans Kulchur 10 à l'été 1963",
+    "refs": [
+     "EC-02908"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Natasha pour sa ferme, bonheur que le collège aurait eu besoin",
+    "vers_date": null,
+    "vers": "Ce que la force de Natasha aurait pu apporter au collège face à Olson, ce qui ne se réalisera pas",
+    "refs": [
+     "EC-03002"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le Maximus 1-10 acheté en économisant",
+    "vers_date": null,
+    "vers": "La vente de ce premier exemplaire, après la désintoxication et la pauvreté",
+    "refs": [
+     "EC-02986",
+     "EC-02990"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La rencontre de Rumaker avec Seymour Barab au trio à cordes",
+    "vers_date": null,
+    "vers": "Moins d'un an plus tard, Barab devient l'amant puis le mari de Mary Ann Fretz",
+    "refs": [
+     "EC-02988"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Bill McNeil, l'un des premiers à partir",
+    "vers_date": null,
+    "vers": "San Francisco dans les années 1970 et les morts du sida au début des années 1980",
+    "refs": [
+     "EC-02921"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le mot de Wolpe sur l'idée qui mûrit à BMC",
+    "vers_date": "1954",
+    "vers": "La première histoire de veau racontée en classe par Olson, vers 1954",
+    "refs": [
+     "EC-02916"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le bois et la chaleur : chaque bûche sauve une nuit, chaque nuit froide rappelle l'échec du collège",
+   "Le corps et le désir sous la contrainte : Merrill, Karen Karnes, la nuit qui n'est pas dite",
+   "Olson comme figure d'autorité, paternelle et dominante, qui dirige jusque dans les corvées",
+   "La fête comme dernière occasion de réconciliation, et l'orgueil qui la fait manquer",
+   "L'Allemagne retrouvée par Albers contre le collège qui se défait : deux trajectoires de retour",
+   "Le bas du campus fermé : ce qui disparaît avec la fin des générations d'origine"
+  ],
+  "lacunes": "Date exacte de l'incendie du Roadside, automne selon Duberman, hiver précédent selon Rumaker. Dates des départs de Johanna Jalowetz, de Len Billing et des autres démissions. Présence exacte de Karen Karnes et de Huss ce mois-ci. Jour exact de la fête (seulement « un samedi soir »). Jour exact de Thanksgiving et du premier jour à Ulm, non donnés. Date du départ d'Albers avant le 23 novembre, non donnée. Plusieurs échos sont seulement datés ≈1953 et ne doivent pas être précisés davantage. Date de départ de Rumaker pour New York non donnée."
+ }
+}

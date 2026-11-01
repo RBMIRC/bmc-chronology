@@ -1,0 +1,55 @@
+#annee 1934-35
+#catalogue speculation/catalogues/1934-35.txt 2017.40.009+2017.40.008+2017.40.012
+> ## Deuxième année : une année sans calendrier
+>
+> **Sources de l'année** : le catalogue 1934-35 (2017.40.009, fiche 6577) et l'encart « Fall Term, 1934 » (2017.40.008, fiche 6576). Tous deux ont été relus sur leurs scans (009-04, 009-08, 009-09, 008-01). Aucun bulletin, programme ou grille de 1934-35 n'est au musée.
+>
+> **1. Le calendrier est lui-même spéculatif.** Le catalogue 1934-35 n'imprime pas son propre calendrier, mais celui de 1935-36. Deux indices attestent la structure en trimestres : l'encart porte « Fall Term, 1934 », et le catalogue liste les étudiants des « Fall and Winter Terms 1934-1935 ». Les dates sont celles de 1933-34, transposées au même jour de la semaine :
+> - automne du lundi 24 septembre au samedi 15 décembre 1934 ;
+> - hiver du mercredi 2 janvier au samedi 16 mars 1935 ;
+> - printemps du lundi 25 mars au mardi 11 juin 1935.
+>
+> Elles sont tenues dans `speculation/calendrier_speculatif.csv`, avec leur part déduite : 30 % pour l'automne et l'hiver, 45 % pour le printemps, dont même l'existence est déduite. Cette part ne s'ajoute pas à celle des cases, mais elle vaut pour toutes les semaines de l'année : une semaine entière peut tomber à côté.
+>
+> **2. Deux états du corps enseignant.** L'encart d'automne (008-01) et le catalogue (009-04) ne donnent pas les mêmes noms :
+> - **à l'automne**, quatorze noms. Hinckley enseigne encore la psychologie, Wunsch n'est pas là. Officiers : N. S. French, E. N. Jenks, N. B. Weston. Rice est recteur ;
+> - **au catalogue**, imprimé pendant l'hiver, Hinckley a disparu et Wunsch (anglais et théâtre) est arrivé. Barber a remplacé Jenks parmi les officiers. Le Board of Fellows réunit Albers, Dreier, N. S. French, Georgia, Martin et Rice.
+>
+> Le gabarit d'automne suit l'encart, ceux de l'hiver et du printemps suivent le catalogue. Personne n'enseigne l'allemand : Emmy Zastrow est partie, et Anna Moellenhoff n'arrive qu'en 1935. « Introductory German » figure pourtant au catalogue : la case existe avec une chance sur deux et un enseignant inconnu.
+>
+> **3. Les cours.** Le catalogue donne « a list of courses regularly offered at present », soit 71 titres, sans volume horaire ni enseignant. La concordance (`speculation/catalogues/1934-35.txt`) suit la même méthode que pour 1933-34 et 1935-36 :
+> - l'enseignant est déduit de la discipline ;
+> - les volumes sont repris du catalogue 1936-38 ;
+> - le nombre de cours donnés à la fois est estimé enseignant par enseignant (Martin a huit cours d'époque, King cinq titres d'histoire) ;
+> - chaque case garde ses autres cours possibles ;
+> - la colonne « année précédente » renvoie aux titres de 1933-34, la colonne « année suivante » à ceux de 1935-36.
+>
+> Le « General Psychology » passe de Hinckley, à l'automne, à Goldenson ensuite, aux mêmes heures, avec une chance sur deux. Les cours d'écriture de Wunsch commencent en hiver, sa présence pendant tout le trimestre n'étant pas attestée.
+>
+> **4. Le rythme de la journée.** Il vient du catalogue de l'année (Recreation, Organization) :
+> - repas en commun, service volontaire ;
+> - « about two hours in the early afternoon » au-dehors ;
+> - chant, théâtre et « discussion of contemporary events » ont « a regular place in the schedule » ;
+> - « the other student officers meet weekly with the Board of Fellows ».
+>
+> Comme en 1933-34, les heures des repas viennent de Lake Eden (1943-44) et le samedi dansant du catalogue 1936-38.
+
+S|semaine|||calendrier|Semaine de cours, {terme} (calendrier spéculatif : dates de 1933-34 transposées)|||le calendrier de 1934-35 n'est pas imprimé ; trimestres attestés par l'encart et le catalogue|SEMAINE+VOISIN|2017.40.008+2017.40.009+2017.40.006
+S|semaine|||social|Première semaine : chaque nouvel étudiant choisit un conseiller|Students||usage décrit par le catalogue 1933-34 (« during his first week in college »)|VOISIN|2017.40.006|fall@1934-09-24..1934-09-30
+
+S|lun-sam|07:30|08:00|social|Petit déjeuner en commun (servi par des volontaires)|Communauté||repas en commun : catalogue 1934-35 (Living accommodations) ; heure : bulletins de Lake Eden 1943-44|SEMAINE+LOIN|2017.40.009+2017.40.172a-g
+S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||heure de début : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.009+2017.40.172a-g
+S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.009+2017.40.172a-g
+S|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.009+2017.40.172a-g
+S|dim|13:00|14:00|social|Dîner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.009+2017.40.172a-g
+S|dim|18:00|18:45|social|Souper du dimanche|Communauté||souper froid le dimanche en 1944, heure non donnée|SEMAINE+LOIN+HEURE|2017.40.009+2017.40.172a-g
+
+S|lun-sam|13:30|15:30|travail|Au-dehors : tennis, terrain de sport, gymnase, piscine, ferme, coupe du bois pour les cheminées, réparation des routes|Communauté||« Nearly everyone gets out-of-doors for about two hours in the early afternoon » (Recreation, 1934-35)|SEMAINE+HEURE_CADRE|2017.40.009
+
+S|lun|20:00|21:00|reunion|Réunion hebdomadaire du Board of Fellows avec les autres officiers étudiants|John A. Rice; Josef Albers; Ted Dreier; Nathaniel S. French; Frederick R. Georgia; Joseph W. Martin; Edward N. Jenks; Norman B. Weston||« the other student officers meet weekly with the Board of Fellows » ; officiers de l'encart d'automne ; Board du catalogue (état de l'hiver)|SEMAINE+JOUR+HEURE|2017.40.009+2017.40.008|fall
+S|lun|20:00|21:00|reunion|Réunion hebdomadaire du Board of Fellows avec les autres officiers étudiants|John A. Rice; Josef Albers; Ted Dreier; Nathaniel S. French; Frederick R. Georgia; Joseph W. Martin; George Barber; Norman B. Weston||idem ; officiers et Board du catalogue|SEMAINE+JOUR+HEURE|2017.40.009|winter,spring
+S|ven|20:00|21:30|reunion|Réunion de toute la communauté : possible cette semaine|Communauté||décrite en 1933-34 (« a meeting of the whole College community ») ; rien en 1934-35|OCCASION+VOISIN+JOUR+HEURE|2017.40.006
+S|mar|19:15|20:00|concert|Chant pour toute la communauté|John Evarts||« Singing… a regular place is made for them in the schedule » (Recreation, 1934-35) ; Evarts seul enseignant de musique|SEMAINE+R_COMPET+JOUR+HEURE_CADRE|2017.40.009
+S|jeu|19:15|20:15|conference|Discussion de l'actualité (« discussion of contemporary events »)|Communauté||« a regular place is made for them in the schedule » (Recreation, 1934-35) ; forme et animateur inconnus|SEMAINE+VOLUME+JOUR+HEURE|2017.40.009
+S|sam|10:30|11:30|conference|Hygiène : séminaire ou entretien avec le Professor of Hygiene : possible|Frank Howard Richardson||« Professor of Hygiene and Consulting Physician » (encart) ; enseignement par séminaire décrit en 1933-34|OCCASION+VOISIN+JOUR+HEURE|2017.40.008+2017.40.006
+S|sam|20:30|23:00|social|Soirée dansante du samedi : possible|Communauté||« almost every Saturday night a semi-formal dance » est attesté en 1936-38 seulement|SEMAINE+LOIN+HEURE_CADRE|2017.40.012

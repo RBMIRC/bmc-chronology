@@ -1,0 +1,339 @@
+{
+ "passe": "mois",
+ "cle": "1949-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5567,
+  "sortie": 15474,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1949-05",
+  "session": "Fin du semestre de printemps : les cours continuent jusqu'en juin, la session d'été est en préparation et Dehn et Goldowski tentent de retenir les Albers pour cette session",
+  "saison_et_climat": "Printemps. Les fiches ne décrivent pas le temps qu'il fait en mai ; le camping de Pâques sous la neige est antérieur, en avril.",
+  "situation": "Le collège traverse une transition sans fermeture. L'ère Albers-Dreier s'achève : Dreier a quitté le campus à la mi-avril et ne revient pas, tandis que les quatre démissionnaires de février (Josef et Anni Albers, Schlesinger, Guermonprez) assurent encore leurs enseignements jusqu'à la fin du semestre. Le nouveau Board of Fellows s'adresse aux Amis du collège et lance un appel de fonds ; la rectorie reste vacante et la querelle des pensions, avec les accusations contre Dreier, occupe le printemps. La survie dépend d'argent et de soutiens extérieurs.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Schlesinger",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Guermonprez",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mel Mitchell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Pittenger",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Cunningham",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rauschenberg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Susan Weil",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1949-04",
+    "precision": "periode",
+    "ce_qui_arrive": "Les quatre démissionnaires restent jusqu'en juin pour honorer leurs engagements d'enseignement ; Dreier, sans cours, est déjà parti à la mi-avril.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04855"
+    ]
+   },
+   {
+    "date": "1949-05-03",
+    "precision": "jour",
+    "ce_qui_arrive": "Le nouveau Board of Fellows écrit une lettre officielle aux Amis du collège pour annoncer la nouvelle donne.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04866"
+    ]
+   },
+   {
+    "date": "1949-05-10",
+    "precision": "jour",
+    "ce_qui_arrive": "James Leo Herlihy, ancien étudiant, envoie une petite somme en réponse à l'appel de fonds, avec un mot saluant le courage du collège à ne pas laisser « un bon navire devenir épave ». Les deux fiches (EV-04867 et EV-04868) décrivent le même don.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04867",
+     "EV-04868"
+    ]
+   },
+   {
+    "date": "1949-05-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Dreier est accusé de vouloir livrer le collège à l'Université de Caroline du Nord, parce qu'il avait demandé à son président Frank Graham si l'université s'intéresserait au collège en cas de faillite. Il racontera plus tard la chose à Duberman, en 1967.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04869"
+    ]
+   },
+   {
+    "date": "1949-05",
+    "precision": "mois",
+    "ce_qui_arrive": "À New York, Elaine de Kooning passe la nuit au bureau d'ARTnews pour sa critique de Nakian et Hess la croise à l'aube.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04864",
+     "SC-01244"
+    ]
+   },
+   {
+    "date": "1949-05",
+    "precision": "mois",
+    "ce_qui_arrive": "À New York, le loft de 35 East Eighth Street continue après la dissolution de Subjects of the Artist : Tony Smith et d'autres reprennent le bail pour le cycle de conférences du vendredi, baptisé Studio 35. La source date mal une conférence antérieure.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04865"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "saison",
+    "ce_qui_arrive": "Dehn et Natasha Goldowski tentent de retenir les Albers au moins pour la session d'été ; Albers répond que c'est « clos ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "saison",
+    "ce_qui_arrive": "Querelle des pensions : Pittenger refuse de s'engager tant que la question n'est pas éclaircie, des accusations de détournement visent Dreier, et l'auditeur Cole juge le dispositif légal tout en notant que seuls 80 % des fonds peuvent être protégés.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1949 (synthèse)",
+     "EC-02392"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "saison",
+    "ce_qui_arrive": "Rauschenberg et Susan Weil partent pour New York, à l'Art Students League ; les fiches divergent entre le printemps et le début de l'été.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "saison",
+    "ce_qui_arrive": "Cunningham passe au collège ; les fiches ne donnent ni le jour ni la durée de sa visite.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les cours d'Albers et des autres démissionnaires continuent jusqu'en juin, dans un collège privé de Dreier. Les fiches ne décrivent ni les repas, ni la musique, ni les travaux de mai. La vie administrative se réduit à la correspondance de collecte de fonds et aux négociations sur les pensions ; Anni Albers dit la tension, le manque d'intimité et l'argent qui manque toujours.",
+  "tensions": [
+   "Dreier, absent depuis la mi-avril, reste l'objet d'accusations de détournement et de la rumeur d'une remise du collège à l'UNC.",
+   "Les démissionnaires achèvent leur année alors que Pittenger, qui juge Albers « impossible comme exécutant », n'a pas réglé la querelle des pensions.",
+   "Dehn et Natasha Goldowski veulent retenir les Albers ; Albers refuse et déclare l'affaire « close ».",
+   "Le Board of Fellows agit au nom d'une faculté divisée et sans recteur, et l'appel de fonds dépend de la générosité d'anciens étudiants.",
+   "L'idée de rappeler John Andrew Rice circule ; Aydelotte la jugera désastreuse en juin."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Herlihy répond à l'appel de fonds",
+    "date": "1949-05-10",
+    "lieu": null,
+    "personnages": [
+     "James Leo Herlihy"
+    ],
+    "deroule": "Une petite somme accompagnée d'un mot de soutien, qui salue le courage du collège à ne pas laisser un bon navire devenir épave. C'est l'une des premières réponses concrètes à l'appel de fonds.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04867",
+     "EV-04868"
+    ]
+   },
+   {
+    "titre": "La rumeur de l'UNC vise Dreier",
+    "date": "1949-05-25",
+    "lieu": null,
+    "personnages": [
+     "Dreier",
+     "Frank Graham"
+    ],
+    "deroule": "Le bruit court que Dreier veut livrer le collège à l'UNC, parce qu'il avait demandé à Graham si l'université s'intéresserait au collège en cas de faillite. Dreier, absent, s'en expliquera plus tard à Duberman.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04869"
+    ]
+   },
+   {
+    "titre": "Dehn et Goldowski plaident pour les Albers",
+    "date": "1949",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dehn",
+     "Natasha Goldowski",
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Ils insistent pour une présence au moins pendant la session d'été. Albers répond que l'affaire est « close ». Anni, dans le même temps, parle de la tension, du manque d'intimité et de l'argent qui manque toujours.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Un Albers chaleureux pour Mel Mitchell",
+    "date": "1949",
+    "lieu": null,
+    "personnages": [
+     "Mel Mitchell",
+     "Josef Albers"
+    ],
+    "deroule": "Au même printemps, Mitchell découvre un Albers chaleureux, en contraste avec la crise qui l'entoure. Les anciens étudiants tiendront plus tard 1949 pour la meilleure année du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Nuit blanche au bureau d'ARTnews",
+    "date": "1949-05",
+    "lieu": "bureaux d'ARTnews, New York",
+    "personnages": [
+     "Elaine de Kooning",
+     "Thomas Hess"
+    ],
+    "deroule": "Elle reste écrire seule après le départ de tous, pour une critique de Nakian. Hess arrive à neuf heures du matin et la soupçonne d'avoir passé la nuit là ; elle rit faiblement et s'enfuit sans répondre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01244",
+     "EV-04864"
+    ]
+   },
+   {
+    "titre": "Le Board of Fellows écrit aux Amis",
+    "date": "1949-05-03",
+    "lieu": null,
+    "personnages": [
+     "Board of Fellows"
+    ],
+    "deroule": "Lettre officielle qui annonce la nouvelle donne et sollicite soutien et dons. Elle institutionnalise le nouveau pouvoir face à une faculté divisée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04866"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Mai : la querelle des pensions et les accusations contre Dreier",
+    "vers_date": "1944",
+    "vers": "L'institution du fonds de pension en 1944, avec des obligations au seul nom d'Albers, nourrit la fureur de 1949.",
+    "refs": [
+     "EC-02392"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mai : le conflit sur la gouvernance et la tentation d'un Board of Trustees",
+    "vers_date": "1948-10",
+    "vers": "Octobre 1948 : Albers accepte le rectorat et un Board of Trustees est proposé, alors que le collège avait toujours méprisé ce type de machinerie.",
+    "refs": [
+     "EC-02391",
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mai : la faculté divisée et les séquelles des démissions",
+    "vers_date": "1949-02-18",
+    "vers": "Les démissions datées du 18 février, après la réunion du 29 janvier et la lettre où Pittenger traite Anni de « sorcière ».",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mai : le souvenir de Dreier au collège",
+    "vers_date": null,
+    "vers": "La mort de Mark Dreier dans un accident d'automobile au collège ; la Quiet House garde sa mémoire.",
+    "refs": [
+     "EC-02393"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai : Pittenger tient en suspens la question des pensions",
+    "vers_date": "1949-07",
+    "vers": "En juillet, Pittenger assume le rectorat et la faculté lui accorde toutes les prérogatives administratives ; Natasha Goldowski devient secrétaire.",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai : la fin du semestre et les départs",
+    "vers_date": "1949-06-10",
+    "vers": "Du 10 juin au 15 août, Albers est au Mexique, où il commence les Homage to the Square.",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai : le collège sans recteur et sans argent",
+    "vers_date": "1949-07",
+    "vers": "L'été voit le dôme géodésique de Fuller monté et Snelson montrer la X-Piece, et Dawson arrive à dix-neuf ans.",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai : la recherche d'un recteur",
+    "vers_date": "1950",
+    "vers": "La querelle des factions culmine en 1950-1951 ; Olson dominera le collège jusqu'à sa fermeture en 1956.",
+    "refs": [
+     "chapitre 1949 (synthèse)",
+     "EC-02390"
+    ]
+   }
+  ],
+  "motifs": [
+   "fin d'une ère et sursis",
+   "argent et survie du collège",
+   "loyautés déchirées entre faculté, trustees et anciens",
+   "Dreier comme bouc émissaire",
+   "Albers, pilier qui part",
+   "liberté communautaire contre contrôle extérieur"
+  ],
+  "lacunes": "Les fiches ne donnent ni la vie quotidienne de mai (repas, musique, travaux), ni la météo, ni la présence exacte de Pittenger, Dehn, Goldowski, Mitchell ou Cunningham en mai. La date de départ de Rauschenberg et Weil diverge selon les sources, le montant du don de Herlihy n'est pas précisé, et la composition du Board of Fellows n'est pas donnée. La fiche EV-04865 signale une incohérence de date pour une conférence de février 1949."
+ }
+}

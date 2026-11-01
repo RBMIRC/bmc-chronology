@@ -1,0 +1,243 @@
+{
+ "passe": "mois",
+ "cle": "1935-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3229,
+  "sortie": 8216,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1935-09",
+  "session": "Rentrée de septembre, début de la troisième année du collège (1935-36)",
+  "saison_et_climat": "Début d'automne. Les fiches ne décrivent pas le temps qu'il fait, et la date de la rentrée est seulement déduite de la structure du chapitre.",
+  "situation": "Le collège reprend après l'été, avec un corps enseignant renouvelé et renforcé : arrivées de Knickerbocker, Farrell, Sly, Fiorillo, les Moellenhoff et Seasongood. Les finances restent fragiles, avec un coût d'environ 350 $ par étudiant et par an et des déficits qui retombent sur la faculté. Les premières frictions entre Rice et ses nouveaux collègues apparaissent dès l'arrivée de Knickerbocker.",
+  "presents_probables": [
+   {
+    "nom": "Irving Knickerbocker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nancy Farrell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Allan Sly",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dante Fiorillo",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fritz Moellenhoff",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anna Moellenhoff",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Janet Seasongood",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Evarts",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Heinrich Rice (Black Mountain College)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Katherine Dreier",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1935-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Arrivée de Knickerbocker, psychologue recommandé par Harvard, qui exprime d'emblée ses doutes sur les tactiques de classe de Rice.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02462"
+    ]
+   },
+   {
+    "date": "1935-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rentrée : arrivent Nancy Farrell, Allan Sly et Dante Fiorillo pour la musique et les arts, ainsi que les Moellenhoff et Janet Seasongood.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "saison",
+    "ce_qui_arrive": "Ouverture du music cottage à l'automne, inauguré avec hot-dogs, Coca ou cidre ; Albers y plie son cintre à saucisse en S, et la saucisse tombe dans le feu.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   },
+   {
+    "date": "1935-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Katherine Dreier prête une exposition de sa collection (Kandinsky, Klee, Léger, Miró, Mondrian, Schwitters) ; les étudiants choisissent trente ou quarante toiles pour leurs chambres.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   },
+   {
+    "date": "1935-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers publie « Art as Experience » dans Progressive Education, où il affirme que les règles naissent de l'expérience.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   }
+  ],
+  "quotidien": "Vie commune marquée par les corvées mixtes (bois, routes, tennis, ferme), le bal du samedi soir avec Evarts au piano, la folkdance anglaise de Sly, le théâtre de Wunsch et les travaux de classe. Le music cottage sert de lieu de rencontre, et Roy's, né cette année-là grâce aux fonds anonymes de Stephen Forbes, est un lieu de sociabilité. Les repas et les tâches sont partagés, car tout le monde travaille de ses mains.",
+  "tensions": [
+   "Knickerbocker contre Rice : il juge que les méthodes de classe produisent de la peur et brisent les gens sans les reconstruire.",
+   "Rice contre Albers : la friction monte.",
+   "La question raciale reste en suspens : le personnel noir refuse de déménager à Lee Hall par crainte de l'hostilité du village.",
+   "Le déficit retombe sur la faculté, ce qui entretient une fragilité financière permanente.",
+   "Wunsch, arrivé en 1935, risque l'épuisement ; Rice lui a conseillé des vacances."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Premier entretien de Knickerbocker avec Rice",
+    "date": "1935-09",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Irving Knickerbocker",
+     "Heinrich Rice"
+    ],
+    "deroule": "Knickerbocker, arrivé avec ses recommandations de Harvard, expose à Rice ses doutes sur la manière dont il mène sa classe. La conversation tourne autour de la peur produite par les tactiques de classe, et Rice défend son approche. Le ton reste poli mais déjà tendu.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02462"
+    ]
+   },
+   {
+    "titre": "Rentrée et arrivée des nouveaux enseignants",
+    "date": "1935-09",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Nancy Farrell",
+     "Allan Sly",
+     "Dante Fiorillo",
+     "Fritz Moellenhoff",
+     "Anna Moellenhoff",
+     "Janet Seasongood",
+     "John Evarts"
+    ],
+    "deroule": "Les nouveaux arrivants découvrent la vie commune : corvées, repas, bal du samedi avec Evarts au piano. Evarts a déjà rallié la communauté au chant et aux concerts de Toscanini diffusés à la radio le dimanche.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   },
+   {
+    "titre": "Inauguration du music cottage",
+    "date": "1935",
+    "lieu": "Black Mountain College, music cottage",
+    "personnages": [
+     "John Evarts",
+     "Allan Sly",
+     "Josef Albers",
+     "étudiants"
+    ],
+    "deroule": "Première soirée au music cottage, avec hot-dogs, Coca et cidre. Albers tente de plier son cintre à saucisse en S, la saucisse tombe dans le feu, et la soirée se transforme en anecdote partagée.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rentrée de septembre 1935, quand Knickerbocker découvre le collège",
+    "vers_date": "1934",
+    "vers": "Les visites de John Dewey pendant l'année 1934-35 : il suit en silence le cours de Rice sur Platon et rejoint les étudiants à Roy's. Il écrit ensuite à Rice que le collège existe « aux racines mêmes » d'une vie démocratique.",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rentrée de septembre 1935, quand Albers est déjà installé à Black Mountain",
+    "vers_date": "1935-01",
+    "vers": "L'exposition personnelle de Josef à l'Addison Gallery d'Andover, après son retour de Cuba : quinze gravures, peu de critiques, et Sawyer comme seul soutien en Nouvelle-Angleterre.",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne 1935, quand Louis Adamic observe le collège pendant son séjour",
+    "vers_date": "1936-04",
+    "vers": "Parution de « Education on a Mountain » dans Harper's, qui prépare la crise de l'image publique du collège en 1936.",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne 1935, quand les frictions Rice-Knickerbocker commencent",
+    "vers_date": "1937-06",
+    "vers": "Le schisme entre Rice et Knickerbocker, qui se développe de septembre 1935 à juin 1937.",
+    "refs": [
+     "synthèse 1935 (chapitre)",
+     "EV-02462"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne 1935, quand Josef a déjà la tête tournée vers Harvard",
+    "vers_date": "1936",
+    "vers": "Albers commence à enseigner à Harvard, ce qui marque un tournant dans son rapport au collège.",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin 1935, lors du voyage mexicain des Albers",
+    "vers_date": "1935-12",
+    "vers": "Le voyage au Mexique, dont la date diverge selon les sources entre les vacances d'été et décembre 1935-janvier 1936. La collection d'idolos commence là.",
+    "refs": [
+     "synthèse 1935 (chapitre)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Méthode contre contenu, processus contre résultats : la doctrine du collège, que Adamic recueille.",
+   "L'art comme expérience : les règles naissent de la pratique plutôt que d'un programme préétabli.",
+   "L'argent et le déficit : chaque manque retombe sur les enseignants.",
+   "La musique comme ciment de la communauté, avec Evarts puis Sly.",
+   "Le regard extérieur qui juge le collège, de Dewey à Adamic en passant par Knickerbocker.",
+   "La question raciale laissée en suspens, qui révèle les limites de l'idéal communautaire."
+  ],
+  "lacunes": "On ne sait pas le jour de l'arrivée de Knickerbocker ni celui des autres nouveaux enseignants, car le chapitre ne donne que le mois. La présence de Wunsch, Mangold et Dreier en septembre est seulement déduite. Le séjour d'Adamic n'a pas de date précise en 1935 et sa durée varie entre deux et trois mois selon les sources, donc on ignore s'il est déjà là en septembre. La date du voyage mexicain diverge entre l'été et décembre 1935. On ne sait rien du temps qu'il fait ni de l'état exact des bâtiments à la rentrée."
+ }
+}

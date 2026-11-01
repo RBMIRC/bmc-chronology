@@ -1,0 +1,41 @@
+{
+ "passe": "enseignements",
+ "cle": "auteur de l'essai",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1084,
+  "sortie": 1538,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "auteur de l'essai (clé non nominative : les fiches ne désignent pas une personne unique. ID-00289 renvoie à Anni Albers, 1965/2017, ch. 21 ; ID-01857 et ID-01858 renvoient à un texte du catalogue Guggenheim 2004, dont l'auteur n'est pas nommé, à propos de l'architecture minimale et de Pawson. Rien ne permet de les rattacher à un seul enseignant)",
+  "cours": [],
+  "idees_enseignables": [
+   {
+    "idee": "La toile simple (plain weave) serait l'archè de la peinture. Le monochrome, aboutissement de la peinture moderniste, est le dernier déni de l'espace chez Worringer. Le tissage plat en serait au contraire l'origine : dans l'Antiquité, son évolution technique a suivi celle de sa fonction de « technique de figuration ». Les langages symboliques des arts anciens se seraient formés à partir du tissage, par le déploiement graduel de formes abstraites, du méandre orthogonal vers la ligne libre.",
+    "en_classe": "Séance de conversation : retracer la généalogie du tableau jusqu'au croisement de la chaîne et de la trame. Non attesté à Black Mountain : la fiche indique explicitement « non » pour le collège. La date (≈1918→1970) est déduite et la source est un texte de 1965 (réédition 2017), donc la transposition en classe reste une hypothèse de travail pour le scénario.",
+    "atteste": "non",
+    "refs": [
+     "ID-00289"
+    ]
+   },
+   {
+    "idee": "L'architecture minimale est un acte de foi optimiste : croire que l'intelligence peut guider le dessin et donner du sens dans le chaos. La position d'une masse, la jonction d'un mur et d'un sol, l'emplacement d'une ouverture affectent notre bien-être. Masse, lumière, structure, ordre et répétition sont des phénomènes authentiques qui nous relient au monde naturel. Exemples cités : plateformes de terre des premières villes, cercles de pierres, tertres artificiels, pyramides, gratte-ciel.",
+    "en_classe": "Pourrait nourrir une conversation d'atelier sur la position d'un mur et le sens qu'il porte. La fiche la rapproche de la pédagogie d'Albers sur la perception des formes et des matériaux, mais il s'agit d'un rapprochement déduit, non d'un fait documenté. Source de 2004, donc postérieure au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01857"
+    ]
+   },
+   {
+    "idee": "La réduction matérielle est traditionnellement liée à l'élévation morale. La simplicité a longtemps porté une promesse spirituelle, des Shakers (objets construits pour durer éternellement) aux monastères cisterciens (sobriété qui rappelle les vœux) jusqu'à Loos. Exemple contemporain : Pawson bâtit le premier monastère cistercien de Tchéquie depuis au moins 1939, avec des vêtements liturgiques dessinés par Calvin Klein.",
+    "en_classe": "Pourrait servir de fil de discussion sur le lien entre éthique et forme, filiation que la fiche relie à l'avant-garde. Non attesté à Black Mountain. L'exemple de Pawson est trop tardif pour figurer dans une séance d'époque, et seul le fond de l'idée est transposable.",
+    "atteste": "non",
+    "refs": [
+     "ID-01858"
+    ]
+   }
+  ]
+ }
+}

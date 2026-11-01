@@ -1,0 +1,364 @@
+{
+ "passe": "mois",
+ "cle": "1955-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 11950,
+  "sortie": 11979,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1955-03",
+  "session": "Printemps 1955 : reprise des cours après la suspension de trois mois décidée avant Noël 1954, mais la classe d'Olson tourne à la Reading Room. Aucune session officielle n'est documentée ce mois-ci.",
+  "saison_et_climat": "Fin d'hiver qui bascule vers le printemps en Caroline du Nord. Orages d'après-midi d'intensité tropicale, pluie battante et eau qui s'infiltre sous les bâtiments. Nuits encore froides, torrent glacé au-dehors. Les jonquilles précoces, déjà visibles au bord du Lake Eden fin février, s'épanouissent.",
+  "situation": "Le collège est réduit à une poignée de personnes après l'hiver de misère, sans réfectoire ni charbon suffisant. La cuisine se fait en petits groupes. Olson tient l'école à flot en brocantant meubles et équipements, et la Black Mountain Review est sauvée. La crise administrative avec Stephen Forbes et le premier mortgage s'ouvre à ce moment-là, avec pour horizon l'exigibilité du 29 juin. Rumaker est revenu de New York, signe son prêt Bovingdon le 29 mars et entre dans la phase la plus intense de son apprentissage avec Olson. Creeley est censé quitter le collège en avril, mais les sources ne s'accordent pas sur sa présence réelle en mars.",
+  "presents_probables": [
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Joseph Fiore",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Fiore",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Creeley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Kaiser",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tom Field",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ed Dorn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jerry Van de Wiele",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hazel Larsen",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Wieners",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Chamberlain",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1955-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Un orage d'après-midi inonde le bâtiment des Studies. Creeley sauve à la hâte les chèques d'abonnement de la Review en les séchant, et la conversation tant attendue avec Rumaker se réduit à des platitudes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06692",
+     "SC-01810"
+    ]
+   },
+   {
+    "date": "1955-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Une minuscule grenouille tapote la nuit dans la chambre de Rumaker à Meadows Inn, puis revient se glisser sous la porte jusqu'à grandir et cesser ses visites.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06693",
+     "SC-01811"
+    ]
+   },
+   {
+    "date": "1955-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker lit « Exit 3 » en classe d'Olson, qui suggère seulement de supprimer la mention de Noël. Plusieurs séances plus tard, il lit « The Pipe », jamais commentée jusque-là, et Olson va la chercher dans sa study.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06694"
+    ]
+   },
+   {
+    "date": "1955-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Lecture de « The Pipe » devant la classe : silence interminable, Olson sort précipitamment, puis revient avec « Shall we begin? ». La discussion dure plusieurs heures au-delà de minuit, et la séance suivante lui est entièrement consacrée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06695",
+     "SC-01812"
+    ]
+   },
+   {
+    "date": "1955-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson s'excuse : il avait enfoui l'enveloppe kraft de Rumaker sous le courrier d'autres correspondants, accablé par la gestion de l'école.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06696"
+    ]
+   },
+   {
+    "date": "1955-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Second atelier sur « The Pipe » : Olson exige de retirer le cliché « in a death grip », l'archaïsme « to boot » et « it was stunning ». Rumaker tranche entre les retranchements et garde certaines formules.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06697"
+    ]
+   },
+   {
+    "date": "1955-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson surnomme Rumaker « master of American speech », une approbation que Rumaker savoure en la prenant avec distance.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06698"
+    ]
+   },
+   {
+    "date": "1955-03-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Lettre de Creeley, depuis Majorque, qui salue « The Pipe », critique le lead-in trop long et annonce le télégramme d'Olson : la revue est « safe ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06699"
+    ]
+   },
+   {
+    "date": "1955-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson, depuis la lecture de la nouvelle, glisse à Rumaker qu'il a beaucoup rêvé de lui, sans en dire davantage.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01813"
+    ]
+   },
+   {
+    "date": "1955-03-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Rumaker signe la reconnaissance de dette de 287,50 $ au fonds Bovingdon, à 2 % d'intérêt. Le prêt couvre sa scolarité et lui permet de finir son diplôme, mais il s'inquiète du remboursement.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06700"
+    ]
+   },
+   {
+    "date": "1955-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Forbes refuse la vente partielle des actifs proposée par Huss et Olson et veut tout liquider pour payer les salaires arriérés et la dette à Paul Williams. Olson plaide l'ouverture du collège à la société.",
+    "certitude": "probable",
+    "refs": [
+     "synthese-1955"
+    ]
+   }
+  ],
+  "quotidien": "Repas en cuisine commune par petits groupes, avec un budget misérable, les réfectoires étant fermés. Cours d'Olson à la Reading Room des Studies, avec des séances qui débordent largement. Vie de chambre à Meadows Inn et de bâtiment à bâtiment sous les pluies. Olson tient la maison : camions, vaches, plomberie, tables et réfrigérateurs à brocanter. Creeley fait sa lessive dans les Studies. Les bruits nocturnes d'Olson et Betty traversent les plafonds. La musique n'est pas documentée ce mois-ci.",
+  "tensions": [
+   "La dette de Rumaker au fonds Bovingdon pèse sur lui et sa dépendance à Olson.",
+   "Olson, débordé par les camions, les vaches et la faillite, n'a plus le temps de lire les manuscrits. Il a perdu celui de Rumaker et doit s'en excuser.",
+   "La crise administrative : Forbes veut liquider le collège, Nell Rice pousse, Olson plaide l'ouverture, et la forclusion se profile pour le 29 juin.",
+   "Le rejet d'Olson, et son admiration, mêlent le disciple à l'exigence du maître. Rumaker vit dans l'attente de sa reconnaissance.",
+   "La rupture entre Olson et Betty, et la liaison avec Connie, restent cachées mais audibles.",
+   "Creeley, dont la présence en mars est incertaine, relit des chèques mouillés et des conseils vagues plutôt qu'un vrai dialogue."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les chèques sous l'orage",
+    "date": "1955-03",
+    "lieu": "appartement de Creeley, bâtiment des Studies",
+    "personnages": [
+     "Robert Creeley",
+     "Michael Rumaker"
+    ],
+    "deroule": "L'orage éclate, l'eau remonte, Creeley abandonne sa lessive et guide Rumaker par les escaliers provisoires. La pluie entre par la vitre cassée. Creeley agite les chèques de la Review pour les sécher. La rencontre tant attendue tourne au trivial, avec pour conseil « Variez la longueur de vos phrases ».",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01810",
+     "EV-06692"
+    ]
+   },
+   {
+    "titre": "La grenouille de Meadows Inn",
+    "date": "1955-03",
+    "lieu": "chambre de Rumaker, Meadows Inn",
+    "personnages": [
+     "Michael Rumaker",
+     "la grenouille"
+    ],
+    "deroule": "Un tapement nocturne réveille Rumaker. Il découvre la minuscule bête dans une boule de poussière et la relâche dans l'herbe. Elle revient chaque nuit, aplatie sous la porte, jusqu'à ce qu'elle grossisse et cesse de venir.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01811",
+     "EV-06693"
+    ]
+   },
+   {
+    "titre": "« Shall we begin? »",
+    "date": "1955-03",
+    "lieu": "Reading Room, bâtiment des Studies",
+    "personnages": [
+     "Michael Rumaker",
+     "Charles Olson",
+     "Joseph Fiore",
+     "Mary Fiore"
+    ],
+    "deroule": "Rumaker lit « The Pipe » d'une voix tendue, sans un rire. Olson, voûté, fixe la salle, sort uriner en claquant ses workshoes, puis revient s'affaler avec un large sourire : « Shall we begin? ». La discussion dépasse minuit. Joe Fiore demande pourquoi il faut un meurtre, et Mary lâche « This is it ».",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01812",
+     "EV-06695"
+    ]
+   },
+   {
+    "titre": "Le rêve d'Olson",
+    "date": "1955-03",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Peu après l'arrivée de Rumaker, Olson lui confie d'un sourire timide qu'il a beaucoup rêvé de lui, sans rien ajouter. Rumaker, ravi et inquiet, se demande ce qu'il peut bien être dans ces rêves.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01813"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker en classe, enthousiasme d'Olson devant « The Pipe » en mars",
+    "vers_date": "1954",
+    "vers": "Le premier « breakthrough » de l'automne 1954 avec « The Truck », même battement de cœur et même accueil surprenant.",
+    "refs": [
+     "EC-03110"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Lecture de « The Pipe » au loft de Merrill, vers la fin de l'hiver 1955",
+    "vers_date": null,
+    "vers": "Les soirées de lecture à deux de Merrill et Rumaker à Black Mountain, où il aimait qu'on lui lise.",
+    "refs": [
+     "EC-03109"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Nuits d'Olson et Betty entendues à travers le plafond",
+    "vers_date": null,
+    "vers": "L'enfance de Rumaker dans la maison exiguë du New Jersey, écoutant ses parents à travers des cloisons de papier.",
+    "refs": [
+     "EC-03158",
+     "EC-03159"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Chambre de Wieners dans Streamside, au printemps",
+    "vers_date": null,
+    "vers": "Le curieux tutorat de français de Rumaker, dans la même chambre de Madame.",
+    "refs": [
+     "EC-03168"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le rêve qu'Olson évoque sans le raconter, en mars",
+    "vers_date": "1958-02",
+    "vers": "Olson décrira enfin le contenu du rêve trois ans plus tard, dans une lettre depuis Fort Square, sur le Temple of Black Isis.",
+    "refs": [
+     "EC-03111"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker fait lire « The Pipe » à la secrétaire catholique, test avant l'épreuve familiale",
+    "vers_date": null,
+    "vers": "Des années plus tard, la révélation du rasoir par Kay Hoffman éclaire le geste maternel et l'envoi de la revue à sa mère.",
+    "refs": [
+     "EC-03112"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les conseils de Creeley sur l'impossibilité de transmettre l'expérience",
+    "vers_date": null,
+    "vers": "Creeley reformulera la même idée des années plus tard avec la métaphore de l'enfant qui grandit.",
+    "refs": [
+     "EC-03160"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les amertumes de Rumaker, qui n'a pas reçu « le secret » en mars",
+    "vers_date": "1955",
+    "vers": "Quelques mois plus tard, sa première histoire approuvée par Olson paraît dans le Review.",
+    "refs": [
+     "EC-03162"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La crise de liquidation qui s'annonce en mars",
+    "vers_date": "1955-06-29",
+    "vers": "Forbes fixe l'exigibilité au 29 juin, ce qui équivaut à une forclusion en cas de défaut.",
+    "refs": [
+     "synthese-1955"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le trouble de Rumaker face à la vie de bâtiment et d'amour à Black Mountain",
+    "vers_date": "1955-08",
+    "vers": "Un accident de cabriolet rouge devant les portes de Meadows Inn, que Rumaker lira comme le présage du commencement de la fin.",
+    "refs": [
+     "EC-03164"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le travail de Rumaker sur les trois essais de diplôme",
+    "vers_date": "1955-10",
+    "vers": "La lettre de Duncan du 7 octobre juge les essais au-dessus du niveau moyen, et écrit aussi qu'il y a un « univers Rumaker ».",
+    "refs": [
+     "EC-03128"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le manuscrit égaré et retrouvé sous le courrier",
+   "La grenouille qui revient, puis cesse de venir",
+   "Le rêve évoqué sans être raconté",
+   "La dette et la reconnaissance",
+   "L'eau, les orages et les chèques mouillés",
+   "La nuit et les bruits derrière les plafonds",
+   "La rhétorique du redressement face au réel",
+   "Les présages"
+  ],
+  "lacunes": "La suspension de trois mois des cours, décidée avant Noël 1954, est censée avoir pris fin, mais la date exacte de la reprise n'est pas donnée. Les sources se contredisent sur la présence de Creeley : la lettre datée du 12 mars 1955 vient de Majorque, alors que l'orage de mars le place à Black Mountain. Le départ d'avril est donné par la synthèse. La date exacte des lectures de « Exit 3 » et de « The Pipe », et du télégramme d'Olson, n'est pas précisée. La date d'arrivée de Wieners, de Dana, de Chamberlain et de Van de Wiele reste floue dans le printemps. La présence de Duncan au printemps est mentionnée par Duberman sans précision. Le nom de Mary dans la scène de la Reading Room est ambigu dans la fiche (Martin ou Emma ?), et je l'identifie à Mary Fiore par la synthèse. Les dates du financement de Mary Fiore, de l'arrivée de Bogart et de la chronologie entre Olson, Betty et Connie restent inconnues ce mois-ci."
+ }
+}

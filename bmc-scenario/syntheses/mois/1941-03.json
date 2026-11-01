@@ -1,0 +1,372 @@
+{
+ "passe": "mois",
+ "cle": "1941-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3556,
+  "sortie": 11858,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1941-03",
+  "session": "Trimestre de printemps, non nommé dans les fiches. Les cours sont ramenés au matin et au soir depuis l'automne 1940, et les après-midi sont consacrés au chantier.",
+  "saison_et_climat": "Fin d'hiver. Les fiches ne disent rien du temps en mars. Le drainage et les fondations en cours supposent un sol travaillable (déduction).",
+  "situation": "Le collège vit encore entièrement à Lee Hall, où tout le monde dort sous le même toit. Le bail avec la Blue Ridge Assembly expire en juin et le propriétaire envisage une école de filles. Le site de Lake Eden, dans la vallée, n'est pas encore habitable : on y bâtit le drainage, l'isolation et les fondations l'après-midi. La faculté vient de fixer un maximum conseillé d'un à trois après-midi de chantier par semaine. Les notes de février d'Albers sur l'enseignement du dessin circulent.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Brett",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Derek Bovington",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hall (étudiant, prénom absent des fiches)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher (enseigne l'architecture)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940",
+    "precision": "annee",
+    "ce_qui_arrive": "Les cours passent au matin et au soir et les après-midi deviennent un chantier volontaire de drainage, d'isolation et de fondations à Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02990",
+     "EV-03125"
+    ]
+   },
+   {
+    "date": "1941-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers rédige ses notes sur l'enseignement du dessin, où il oppose des yeux qui voient à des mains obéissantes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03218"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "La faculté fixe un maximum conseillé d'un à trois après-midi de chantier par semaine, après une querelle entre partisans et réticents.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03149",
+     "CF-00317"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Le questionnaire de Forbes montre une majorité d'étudiants favorables au chantier, surtout parmi les femmes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03153",
+     "CF-00322"
+    ]
+   },
+   {
+    "date": "1941-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Le site de Lake Eden devient habitable « à peine ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03219"
+    ]
+   },
+   {
+    "date": "1941-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Derek Bovington fait la navette en tracteur avec une grande remorque et emporte instruments, livres, matériel et le système de chauffage de Lee Hall. La Blue Ridge Assembly s'en irrite.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03220"
+    ]
+   },
+   {
+    "date": "1941-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Le bail avec la Blue Ridge Assembly expire. Hall quitte BMC. L'argent manque au point que tout travail risque de s'arrêter.",
+    "certitude": "atteste",
+    "refs": [
+     "QU-00742",
+     "CF-00291",
+     "EV-03221",
+     "EV-03222",
+     "EV-03223"
+    ]
+   },
+   {
+    "date": "1941-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Une tournée de collecte parcourt le pays jusqu'en août. Dreier annonce un don anonyme de 5 000 dollars, que l'on soupçonnera venir de lui-même.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03222",
+     "EV-03223",
+     "CI-01595"
+    ]
+   },
+   {
+    "date": "1941-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers est à New York pour son atelier du MoMA.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03225"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Albers s'oppose, chez les Wiener, au « laisser-faire » des écoles progressistes lors d'une réunion de BMC.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03207"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "session",
+    "ce_qui_arrive": "Pendant l'été, Zoya Sandomirsky suit quelques semaines de travail et de cours. Une rubéole, une quarantaine, puis la fontaine « For Colored » d'Asheville la font repartir pour Chicago.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03146",
+     "EV-03147",
+     "SC-00804",
+     "SC-00805"
+    ]
+   },
+   {
+    "date": "1941-09",
+    "precision": "mois",
+    "ce_qui_arrive": "La rentrée, repoussée de deux semaines, a lieu fin septembre dans des bâtiments à moitié finis. Albers y évoque « la vie signifie changement ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03226",
+     "SC-00826",
+     "CI-01624"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "periode",
+    "ce_qui_arrive": "Pearl Harbor. Le collège réagit d'abord avec incrédulité, et une radio est apportée au dîner.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00831",
+     "EV-03235"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Une réunion étudiante au lobby de North Lodge débat entre pacifistes et partisans de la guerre, puis vote un message de soutien.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03142",
+     "SC-00801",
+     "CF-00350"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Mark Dreier, fils de Theodore, meurt dans un accident de véhicule sur le campus. La Quiet House sera bâtie en sa mémoire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03173",
+     "LI-00697"
+    ]
+   },
+   {
+    "date": "1941-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le collège suspend le calendrier et tout le monde monte sur le toit du Studies Building, y compris Richard Carpenter, qui cloue toute la journée malgré sa peur des hauteurs.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   }
+  ],
+  "quotidien": "Les cours se tiennent le matin et le soir. L'après-midi, on travaille au chantier de Lake Eden : drainage, isolation, fondations. Les étudiants chantent sur le chemin du chantier, ce qui agace les « zombies ». Tout le monde dort à Lee Hall. Les repas, la musique et les cours précis ne sont pas documentés pour mars.",
+  "tensions": [
+   "Le chantier divise : salut par le travail pour les uns, corvée pour les autres (les « zombies »).",
+   "La faculté doit limiter le nombre d'après-midi de chantier.",
+   "La menace de perdre Lee Hall, avec le bail qui expire en juin et le projet d'école de filles.",
+   "L'argent, qui commence à manquer, alors que la collecte n'a pas encore commencé.",
+   "Le déménagement vers Lake Eden, qui reste incertain. Une source (EV-03157, version Lane) le relie au départ de Thomas, ce qui ne concorde pas avec le reste ; on retient le déménagement de mai-juin.",
+   "Le questionnaire de Forbes montre une majorité favorable au chantier, mais des réticences subsistent."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le chemin du chantier",
+    "date": "1941-03",
+    "lieu": "Lee Hall et la route vers Lake Eden",
+    "personnages": [
+     "Theodore Dreier",
+     "Betty Brett",
+     "étudiants « zombies »"
+    ],
+    "deroule": "Un groupe descend à pied vers le chantier en chantant. D'autres s'agacent du bruit. Dreier défend le travail comme salut, et la faculté doit justifier son maximum d'après-midi.",
+    "certitude": "deduit",
+    "refs": [
+     "RE-01181",
+     "EV-03149",
+     "CF-00317"
+    ]
+   },
+   {
+    "titre": "Les notes de février",
+    "date": "1941-03",
+    "lieu": "Lee Hall, salle de dessin",
+    "personnages": [
+     "Josef Albers",
+     "étudiants"
+    ],
+    "deroule": "Albers commente ses notes sur l'enseignement du dessin. Il insiste sur des yeux qui voient et des mains qui obéissent, et prépare l'exercice de matière.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03218"
+    ]
+   },
+   {
+    "titre": "Le bail qui expire",
+    "date": "1941-03",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "Theodore Dreier",
+     "Josef Albers",
+     "la Blue Ridge Assembly (en arrière-plan)"
+    ],
+    "deroule": "On apprend que le propriétaire envisage une école de filles. La date de juin se rapproche, et il faut décider comment déménager.",
+    "certitude": "deduit",
+    "refs": [
+     "QU-00742",
+     "CF-00291"
+    ]
+   },
+   {
+    "titre": "Le questionnaire de Forbes",
+    "date": "1941-03",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "étudiantes",
+     "étudiants",
+     "Forbes (enquêteur)"
+    ],
+    "deroule": "Les résultats du questionnaire circulent. Les femmes sont plus favorables au chantier que les hommes, et la faculté s'appuie sur ces chiffres pour fixer son maximum d'après-midi.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03153",
+     "CF-00322",
+     "EV-03149"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Lee Hall, mars 1941, quand le chantier est déjà installé comme routine",
+    "vers_date": "1940-09",
+    "vers": "Les cours passent au matin et au soir, et les après-midi deviennent un chantier volontaire à Lake Eden.",
+    "refs": [
+     "EV-02990",
+     "EV-03125"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Lee Hall, mars 1941, avec le bail qui expire",
+    "vers_date": "1941-05",
+    "vers": "Le site de Lake Eden devient habitable « à peine », et Bovington emporte le matériel et le chauffage de Lee Hall.",
+    "refs": [
+     "EV-03219",
+     "EV-03220"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Lee Hall, mars 1941, quand l'argent commence à manquer",
+    "vers_date": "1941-06",
+    "vers": "Hall quitte BMC, la tournée de collecte commence, et un don anonyme de 5 000 dollars est annoncé.",
+    "refs": [
+     "EV-03221",
+     "EV-03222",
+     "EV-03223",
+     "CI-01595"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Lee Hall, mars 1941, à la fin de la fiche sur le chantier",
+    "vers_date": "1941-09",
+    "vers": "La rentrée a lieu dans des bâtiments à moitié finis. Albers parle de changement, et Betty Brett voit « un autre collège ».",
+    "refs": [
+     "EV-03226",
+     "SC-00826",
+     "CI-01624"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Lee Hall, mars 1941, où la guerre reste lointaine",
+    "vers_date": "1941",
+    "vers": "Pearl Harbor ouvre la dernière partie de l'année. Le collège, jusque-là coupé de la politique, se met à débattre.",
+    "refs": [
+     "SC-00831",
+     "EV-03235"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Lee Hall, mars 1941, au moment où le chantier semble encore un travail d'avenir",
+    "vers_date": "1942",
+    "vers": "Richard Carpenter, qui a cloué sur le toit du Studies Building, meurt un an plus tard d'un cancer du poumon.",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Goodman théorise le cadre et l'écran vers 1941",
+    "vers_date": "1952",
+    "vers": "Goodman, futur visiteur de Black Mountain, prépare par sa typologie du spectacle les expériences scéniques du collège, dont l'événement de Cage de 1952.",
+    "refs": [
+     "EC-01792",
+     "EC-01791"
+    ]
+   }
+  ],
+  "motifs": [
+   "Lee Hall comme unité physique et sociale avant la dispersion.",
+   "Le chantier comme salut par le travail et comme corvée.",
+   "L'argent comme menace permanente.",
+   "La guerre comme arrière-plan qui n'entre pas encore dans le quotidien.",
+   "Albers et la pédagogie du voir et du faire."
+  ],
+  "lacunes": "Aucune fiche ne donne un événement daté à mars 1941. La date du maximum d'après-midi, celle du questionnaire de Forbes et celle de la réunion chez les Wiener sont inconnues. Les repas, la musique, le climat et la présence exacte de chacun en mars ne sont pas documentés. La date de la mort de Mark Dreier et celle du diaporama de matière restent inconnues. Une source contredit les autres sur le lien entre le déménagement et le départ de Thomas."
+ }
+}

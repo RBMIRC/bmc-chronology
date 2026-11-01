@@ -1,0 +1,291 @@
+{
+ "passe": "mois",
+ "cle": "1953-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 8821,
+  "sortie": 12897,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1953-01",
+  "session": "Intersession d'hiver : le collège attend l'institut d'hiver « New Sciences of Man » (début février à fin mars 1953, Jung invité). Aucune session formelle n'est documentée pour janvier.",
+  "saison_et_climat": "Plein hiver, premier hiver de Rumaker à Black Mountain. Le climat n'est pas décrit dans les fiches ; l'incendie de Roadside et l'absence d'hydrant ou de matériel d'incendie disent un campus démuni. Le manque de charbon est attesté à l'automne suivant, pas en janvier.",
+  "situation": "Le collège traverse une débâcle financière et matérielle. Le feu de Roadside vient de ravager les logements des Huss et des Fiore, et la rumeur accuse Wes Huss. Olson dirige déjà le collège de fait depuis 1950 et sa classe d'écriture est le centre de la vie intellectuelle. Wes Huss prépare Noces de sang avec presque toute l'école, et l'institut d'hiver approche.",
+  "presents_probables": [
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bea Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joseph Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Madame Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Len Billing",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Incendie du cottage Roadside pendant un souper. Les Huss et les Fiore perdent tout, et la rumeur accuse Wes Huss, qui devait veiller le fourneau.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05915"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Olson demande du whiskey pour Wes au dortoir. Rumaker, qui cache une bouteille, se tait, et ce silence le hantera.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05916"
+    ]
+   },
+   {
+    "date": "1953-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Wes Huss attribue à Rumaker le rôle du Marié dans Noces de sang, loin de son seul rôle antérieur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06164"
+    ]
+   },
+   {
+    "date": "1953-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Dawson rencontre au collège un jeune homme qu'il appelle « sa plus belle fille ». Nuits d'amour et d'inquiétude.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06165"
+    ]
+   },
+   {
+    "date": "1953-01",
+    "precision": "mois",
+    "ce_qui_arrive": "À New York, Elaine de Kooning interviewe Burgoyne Diller pour son article « Diller Paints a Picture ». Diller, déjà malade, meurt peu après.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06166"
+    ]
+   },
+   {
+    "date": "1953-01-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Lettre de Piwonka depuis Santiago, qui décrit un cours d'observation et de critique très proche de celui d'Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06167"
+    ]
+   },
+   {
+    "date": "1953-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Début de l'institut d'hiver « New Sciences of Man ». Rumaker subit en février les critiques cruelles et la colère publique d'Olson.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06172",
+     "EV-06169",
+     "EV-05992"
+    ]
+   },
+   {
+    "date": "1953-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Arrivée de von Franz, malade Jung absent. Elle est logée sous les combles de Streamside et fait des consultations de rêves.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06174",
+     "EV-06175"
+    ]
+   }
+  ],
+  "quotidien": "Les journées tournent autour de la classe d'écriture d'Olson, où l'on fume des Camels sous les tableaux de Kline, Tworkov et de Kooning. Rumaker travaille son Bartleby et prépare son rôle. Le dortoir et la bouteille cachée donnent à la vie ordinaire une tension sourde. On écoute Bach aux flûtes à bec dans un collège presque vide, ce qui fait penser à la fin du collège.",
+  "tensions": [
+   "Rumeur de faute contre Wes Huss après l'incendie de Roadside, chuchotée comme notoire.",
+   "Olson réclame du whiskey pour Wes, Rumaker garde sa bouteille et se tait : culpabilité durable.",
+   "Olson critique Rumaker avec une cruauté publique, alors que le jeune homme cherche sa place.",
+   "Engagements financiers déjà en gestation : troupeau, ferme, dette. Leur calendrier précis n'est pas daté en janvier.",
+   "Le collège se rétrécit, et les générations d'origine commencent à s'éloigner."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "L'incendie de Roadside",
+    "date": null,
+    "lieu": "Route de la ferme, au-delà de la passerelle, Black Mountain",
+    "personnages": [
+     "Wesley Huss",
+     "Bea Huss",
+     "Joseph Fiore",
+     "Mary Fiore",
+     "Natasha Goldowski",
+     "Madame Goldowski",
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Pendant le souper, le cottage s'embrase. Tous accourent de la salle à manger et restent impuissants. Les étincelles menacent les pins. Natasha conduit sa mère à travers les racines. Les pompiers volontaires arrivent trop tard, en tenue d'amiante. Olson pose la main sur l'épaule voûtée de Wes.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01584",
+     "EV-05915"
+    ]
+   },
+   {
+    "titre": "Olson au dortoir : « Wes est en piteux état »",
+    "date": null,
+    "lieu": "Dortoir de South Lodge",
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Olson entre, baisse la tête sous la porte et demande du whiskey à voix basse. Rumaker, qui cache une bouteille, se tait. Olson repart les mains vides.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01585",
+     "EV-05916"
+    ]
+   },
+   {
+    "titre": "Rumaker reçoit le rôle du Marié",
+    "date": "1953-01",
+    "lieu": "Campus de Black Mountain",
+    "personnages": [
+     "Wes Huss",
+     "Michael Rumaker"
+    ],
+    "deroule": "Wes Huss annonce à Rumaker qu'il jouera le Marié dans Noces de sang de Lorca. Le jeune homme, qui n'avait chanté que dans un lycée, sent qu'il progresse.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06164"
+    ]
+   },
+   {
+    "titre": "Nuit de janvier avec Dawson",
+    "date": "1953-01",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dawson",
+     "un jeune étudiant non nommé dans la fiche"
+    ],
+    "deroule": "Dawson, qui appelle son jeune partenaire « sa plus belle fille », le voit frapper à sa porte. Ils passent des nuits ensemble sur des draps sales et un petit matelas, entre fierté, culpabilité et peur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06165"
+    ]
+   },
+   {
+    "titre": "Diller paints a picture",
+    "date": "1953-01",
+    "lieu": "New York, bar de quartier",
+    "personnages": [
+     "Elaine de Kooning",
+     "Burgoyne Diller",
+     "Rudy Burckhardt"
+    ],
+    "deroule": "Elaine interviewe Diller pour son article. Il mange de l'anguille fumée et enchaîne les boilermakers. Il glisse une mise en garde de sa marchande Rose Fried, puis propose quelques corrections justes. Il cache sa douleur abdominale, et il meurt peu après.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06166"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, après le silence de la bouteille cachée, à l'hiver 1953",
+    "vers_date": "1952-09",
+    "vers": "Rêveries sur Glenn Lewis à l'automne 1952 : même idéal de « sûr » et « respectable » que sur le quai de Charlottesville.",
+    "refs": [
+     "EC-02890"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker hanté par sa faute de janvier",
+    "vers_date": "1963",
+    "vers": "Publication à New York de son essai sur Bartleby, célébré par Olson dès 1953.",
+    "refs": [
+     "EC-02908",
+     "EV-05993"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les soupers bienveillants de Nell Rice à l'automne 1952",
+    "vers_date": null,
+    "vers": "La veuve de John Rice, bienveillante, devient l'adversaire qui fera tomber le collège dans ses procès.",
+    "refs": [
+     "EC-02889"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Amitié d'Olson et Metcalf au printemps 1953",
+    "vers_date": null,
+    "vers": "Années 1930 : Olson pauvre, hébergé par Metcalf grâce à ses travaux melvilliens, et accès aux papiers de la famille.",
+    "refs": [
+     "EC-02906",
+     "EV-05997"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Bill McNeil à l'été 1953",
+    "vers_date": null,
+    "vers": "San Francisco, années 1970 puis mort du sida au début des années 1980.",
+    "refs": [
+     "EC-02921"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La blessure de Connie, racontée à Mary Fiore, en janvier 1953",
+    "vers_date": null,
+    "vers": "Années 1940 à Washington : le petit-déjeuner où le poème d'Olson fut écarté.",
+    "refs": [
+     "EC-02907"
+    ]
+   }
+  ],
+  "motifs": [
+   "La culpabilité du silence : la bouteille cachée et l'incendie.",
+   "Olson comme figure paternelle et père spirituel controversé, à la fois modèle et objet de rejet.",
+   "Un collège qui se rétrécit et annonce sa fin, quinze ans avant la fermeture.",
+   "Le tournant littéraire en germe : Bartleby, revue, Creeley.",
+   "Les amours cachés et les désirs qui circulent sous le collège."
+  ],
+  "lacunes": "Contradictions entre sources : Rumaker date l'incendie de Roadside de l'hiver 1952-1953, alors que Duberman le situe à l'automne 1953 (EV-05954). Olson revient du Yucatán « au début du printemps » (EV-05971) alors qu'il enseigne déjà en février. On ignore le nombre exact d'étudiants et d'enseignants présents en janvier, le jour précis des événements du mois, la date de la mort de Diller, la date de la dette et de l'hypothèque de Williams, et si Natasha Goldowski était bien sur place à l'incendie."
+ }
+}

@@ -1,0 +1,272 @@
+{
+ "passe": "mois",
+ "cle": "1950-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3615,
+  "sortie": 14015,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1950-10",
+  "session": "automne 1950, rentrée (aucun découpage en trimestres attesté dans les fiches)",
+  "saison_et_climat": "Automne 1950. Les fiches décrivent l'été (baignade sous la cascade, serpents, électricité et essence rationnées) mais ne disent rien du temps en octobre.",
+  "situation": "Le collège se recompose sans direction installée. Ballou a refusé le rectorat à la mi-juillet, le rôle de Huss reste flou (business manager ou recteur), et le rectorat garanti sur trois ans voté en juin n'a pas de titulaire attesté. Albers, parti, enseigne à Yale depuis l'automne. Le Board a écarté Levi et Fiore en juin, la faculté a obtenu la réintégration de M.C. Richards, et l'été s'est achevé par la violence contre Trayer et le départ de Goodman. La faculté est divisée, les inscriptions baissent après la modification du GI Bill, et la plupart des publications officielles vont cesser. Pendant que la droite se retire ou se tait, Olson commence à enseigner et de nouveaux arrivants s'installent (Kitty, Dorothea Rockburne).",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kitty (potier)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dorothea Rockburne",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Carroll Williams (enseignant de gravure)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Robert Turner",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rumaker",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Merrill",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Max Dehn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Larsen",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1950-09",
+    "precision": "saison",
+    "ce_qui_arrive": "W. de Kooning fait la navette hebdomadaire entre New York et New Haven pour enseigner à Yale pendant l'automne.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05261"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Olson commence à enseigner à l'automne : lecture des manuscrits à voix haute et atelier d'écriture. Sa présence exacte dans les épisodes de l'été est discutée.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Kitty, potier gay, arrive au collège à l'automne.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Dorothea Rockburne arrive de Montréal à l'automne.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Dorothea Rockburne épouse l'enseignant de gravure Carroll Williams ; la date du mariage n'est pas donnée.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Le collège cesse la plupart de ses publications officielles, à la suite du schisme de la faculté et de la baisse d'inscriptions après la modification du GI Bill.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Rentrée d'automne : cours et ateliers reprennent, Olson lit les manuscrits à voix haute et anime un atelier d'écriture, Kitty et Rockburne s'installent. Le studio de poterie de l'autre côté du lac, installé pendant l'été par Turner (tours, four à huile, four électrique), sert aux potiers. Des préparatifs de la pièce de Cocteau que Richards traduit et met en scène sont probables ; le Thanksgiving est prévu sur son décor en novembre. Les repas et la vie commune gardent leur rythme, sur fond de bilan des pertes de l'été.",
+  "tensions": [
+   "Le mariage Levi–Richards se défait ; Richards choisit de rester alors que Levi prépare son départ en décembre.",
+   "Le vote de juin a écarté Levi et Fiore ; le sort de Fiore après juin n'est pas indiqué, et sa liaison avec Mary Fitton pèse.",
+   "La violence de l'été (Levi frappé par Trayer, Oppenheimer sur le dos de Trayer) laisse la faculté divisée entre conservateurs et partisans de Levi.",
+   "Le collège n'a ni recteur installé ni pouvoirs définis pour ce poste (90 $ par mois, sans garantie de tenure).",
+   "Albers part en conflit avec le collège : pension (20 % retenus), plancher de pin, et une lettre annoncée pour novembre exigeant le retrait de son nom et de celui d'Anni des publications.",
+   "La baisse d'inscriptions après la modification du GI Bill rend les finances fragiles.",
+   "Le mot « l'été homosexuel » est devenu pour les conservateurs la preuve d'une désintégration morale, ce qui pèse sur Rumaker et Merrill."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Première lecture à voix haute d'Olson",
+    "date": "1950",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Olson",
+     "étudiants"
+    ],
+    "deroule": "Olson lit à voix haute les manuscrits des élèves et ouvre un atelier d'écriture. La scène peut poser la question de sa place après la querelle de la faculté.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Richards entre deux départs",
+    "date": "1950",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "M.C. Richards",
+     "Levi",
+     "Natasha Goldowski"
+    ],
+    "deroule": "Le mariage Levi–Richards se défait. Richards choisit de rester, tandis que Levi prépare son départ de décembre et que Natasha doit être invitée à son dîner d'adieu.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Apprentissage du tournage au studio du lac",
+    "date": "1950",
+    "lieu": "studio de poterie de l'autre côté du lac",
+    "personnages": [
+     "M.C. Richards",
+     "Robert Turner",
+     "Kitty"
+    ],
+    "deroule": "Richards apprend le tournage dans le studio installé par Turner. Kitty, arrivé à l'automne, peut y travailler avec les autres potiers.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Arrivée de Dorothea Rockburne",
+    "date": "1950",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dorothea Rockburne",
+     "Carroll Williams"
+    ],
+    "deroule": "Rockburne arrive de Montréal et rencontre l'enseignant de gravure Carroll Williams, qu'elle épousera.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Départs de l'ancienne garde",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Nemenyi",
+     "Oates",
+     "Olson"
+    ],
+    "deroule": "Nemenyi part pour Princeton et Oates s'en va. Olson observe que l'ancienne garde disparaît.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1950, à partir de la faculté divisée après le vote du Board",
+    "vers_date": "1950-06",
+    "vers": "Le Board, à bulletin secret, vote de ne pas réengager Levi ni Fiore ; M.C. Richards est écartée puis réintégrée presque aussitôt. Le sondage étudiant (daté du 23 mars ou de juin selon les sources) soutient les trois.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1950, au souvenir de l'été",
+    "vers_date": "1950",
+    "vers": "Goodman arrive en prônant la liberté sexuelle ; un ancien marine l'accuse d'avoir uriné en public. La faculté vote contre son maintien, Levi est frappé par Trayer en réunion, et Goodman repart.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1950, à propos de la recherche de recteur",
+    "vers_date": "1950-07",
+    "vers": "Ballou refuse le rectorat à la mi-juillet, invoquant la confusion entre communauté et éducation. Huss est présenté tantôt comme business manager, tantôt comme recteur qui accepte après cinq visites.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1950, à partir des lectures publiques de Dawson",
+    "vers_date": "1950",
+    "vers": "Dawson écrit « Father » à la fin du printemps, le lit à la Community House sous les applaudissements, et reçoit de Mary Richards le mot « writer ».",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1950, en attendant le courrier d'Albers",
+    "vers_date": "1950-11",
+    "vers": "Albers écrit une lettre furieuse exigeant que son nom et celui d'Anni ne figurent plus dans les publications du collège.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1950, en préparation des fêtes",
+    "vers_date": "1950-11",
+    "vers": "Le Thanksgiving est servi sur le décor d'une terrasse de la tour Eiffel pour la pièce de Cocteau mise en scène et traduite par M.C. Richards, avec un énorme appareil photo sur scène et June Rice Christensen en photographe.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1950, au fil de la fin d'année",
+    "vers_date": "1950-12",
+    "vers": "Levi part en décembre, après son dîner d'adieu. Olson part au Yucatan vers la fin de l'année, où il écrira les Mayan Letters à Creeley.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1950, à l'arrivée de Rumaker dans le collège",
+    "vers_date": "1950-12",
+    "vers": "Rumaker refuse de rentrer à Noël et découvre autour d'un dindon et d'une bûche que BMC est « sa maison ». Il entame à l'hiver sa liaison avec Merrill à « Next-to-the-Last-Chance ».",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1950, depuis la matière du collège",
+    "vers_date": null,
+    "vers": "Goodman écrit en 1965 que le ton de communauté intentionnelle de BMC a été son influence dans la culture américaine.",
+    "refs": [
+     "EC-02575"
+    ]
+   }
+  ],
+  "motifs": [
+   "le départ de l'ancienne garde (Albers, Cage, Oates, Nemenyi) et l'arrivée d'une nouvelle (Olson, Rockburne, Kitty)",
+   "le pouvoir partagé entre recteur et Board, et la confusion entre communauté et éducation",
+   "la sexualité comme scandale : « l'été homosexuel » comme preuve de désintégration",
+   "la violence physique au bout d'une querelle de principes",
+   "l'argent et les infrastructures (pension, plancher de pin, GI Bill)",
+   "le collège comme maison, idéal de Rumaker"
+  ],
+  "lacunes": "Aucune fiche ne donne de date au jour près pour octobre 1950, ni le temps qu'il fait. Le sort de Fiore après juin reste inconnu. Cage, Nemenyi et Oates : les dates de leurs départs ne sont pas fixées. Corkran quitte son poste de registrar et du Board sans date. Le titre de Huss et sa date d'entrée restent flous. Le sondage étudiant est daté différemment selon les sources (23 mars ou juin). La présence d'Olson dans les épisodes de l'été est douteuse. La présence de Dawson à l'automne n'est pas établie. La date d'arrêt des publications officielles est inconnue. La synthèse de 1950 n'a pas d'identifiant de fiche, donc certains éléments n'ont pas de refs."
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "passe": "personnes",
+ "cle": "William Roth",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 4168,
+  "sortie": 5145,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "William Roth",
+  "autres_noms": [
+   "M. William Roth de Sausalito (formule du catalogue de 1960 : « M. et Mrs William Roth »)"
+  ],
+  "dates_de_vie": "Inconnues : les fiches ne donnent ni naissance ni mort. Il est actif comme mécène et homme d'affaires de la Bay Area des années 1950 aux années 1970 au moins.",
+  "statut_bmc": "Aucun lien attesté avec Black Mountain College dans les fiches. Il est une figure de l'après-collège, liée à Ruth Asawa (ancienne du collège) : premier collectionneur, puis mécène et commanditaire. Pour un scénario centré sur le collège, c'est un personnage de flash-forward, qui n'apparaît pas à l'échelle 1 du campus.",
+  "presence": [],
+  "portrait_physique": "Rien dans les fiches : ni âge, ni apparence, ni voix. Seuls sont attestés son cadre (maison de Sausalito, enfants dans la maison selon une chronique contestée) et son rôle (propriétaire de Ghirardelli Square avec sa mère). Tout portrait physique serait à inventer.",
+  "noyau_psychologique": "Homme d'affaires qui met son argent au service de ce qu'il croit durable : un bâtiment menacé de démolition, une artiste dont il a pressenti la valeur très tôt. Il agit par fidélité et par confiance personnelle plutôt que par théorie esthétique. Déduction : il se fie à son flair, tient ses engagements (acheter l'œuvre si la coulée échoue) et garde le sens de la mesure, puisqu'il juge le projet monumental excessif.",
+  "blessures": "Aucune blessure attestée. Les fiches ne disent rien de son enfance, de ses pertes ni de ses échecs.",
+  "desirs": "Attesté : sauver Ghirardelli Square de la démolition, soutenir Asawa et le Workshop dans la durée. Déduction : il tient à laisser un lieu vivant et accessible dans la ville, avec une œuvre publique lisible par tous.",
+  "peurs": "Non attestées. Indice indirect : il craint l'excès ou la démesure du monumental, et il veut éviter l'échec technique de la coulée, qu'il se propose d'absorber par un achat personnel.",
+  "maniere_d_aimer": "Il aime par le soutien concret : il achète, commande, rassure par écrit, finance. Avec Asawa, la relation est classée « admiration » et dure de l'époque du Tin Angel aux années 1970. Les fiches ne disent rien de sa famille, sauf qu'il a agi avec sa mère pour Ghirardelli et qu'une chronique mondaine lui prête des enfants.",
+  "rapport_au_pouvoir": "Il détient le pouvoir de l'argent et de la propriété (propriétaire du site, commanditaire, donateur) et l'exerce sans autoritarisme apparent. Il laisse Asawa mener son projet face à Halprin, mais intervient pour tempérer l'échelle monumentale. Entre l'architecte paysagiste Halprin et l'artiste, il joue le rôle d'arrière-plan stable. Le détail de son arbitrage dans le conflit n'est pas documenté.",
+  "voix": {
+   "registre": "Aucune parole directe de Roth n'est conservée dans les fiches. On a seulement le sens de ses interventions, rapporté par des lettres : un ton de lettre d'affaires chaleureuse, pragmatique et encourageante (déduction).",
+   "tics": "Non documentés.",
+   "exemples_paraphrases": [
+    "Continuez, ne vous découragez pas ; si la coulée rate, je l'achèterai moi-même (lettre à Asawa, 31 juillet 1967).",
+    "Ce projet-là est trop grand, il vise trop monumental (jugement rapporté par une lettre de Warren Lemmon à Asawa, un vendredi de 1966)."
+   ]
+  },
+  "habitudes": [
+   "Il collectionne et soutient l'art de proximité : pièce en fil achetée au Tin Angel, puis prêtée à une exposition du de Young en 1960.",
+   "Il écrit pour encourager (lettre du 31 juillet 1967).",
+   "Il donne régulièrement au Workshop d'Asawa, aux côtés de la Zellerbach Family Foundation et de la Rosenberg Foundation."
+  ],
+  "convictions": [
+   "Préserver le patrimoine bâti : il sauve la chocolaterie Ghirardelli de la démolition.",
+   "L'art public doit avoir une échelle humaine, sans excès de monumental (attesté pour 1966).",
+   "Faire confiance à l'artiste (Asawa) plutôt que dicter la forme.",
+   "Déduction : l'art à l'école et dans la ville mérite un financement privé, d'où ses dons au Workshop."
+  ],
+  "arc_bmc": [],
+  "avant": [],
+  "apres": [
+   {
+    "date": "1953",
+    "moment": "Il achète une pièce en fil d'Asawa au Tin Angel, à San Francisco : il devient son premier collectionneur. La date 1953 vient de l'écho EC-02096 ; l'événement EV-03930 donne seulement une fourchette large.",
+    "refs": [
+     "PE-00326",
+     "EV-03930",
+     "EC-02096"
+    ]
+   },
+   {
+    "date": "1959",
+    "moment": "Avec sa mère, il achète l'ancienne chocolaterie Ghirardelli pour la sauver de la démolition ; Lawrence Halprin dirige ensuite la rénovation en espace piéton (briques, beffroi-horloge, terrasses, vue sur la baie). Datation approximative (≈1959→1967).",
+    "refs": [
+     "EV-07155",
+     "PE-00326"
+    ]
+   },
+   {
+    "date": "1960",
+    "moment": "Une sculpture en fil prêtée par M. et Mrs William Roth de Sausalito est exposée au de Young Museum. Une chroniqueuse, Millie Robbins, raconte qu'un oiseau y aurait fait son nid dans la maison des Roth ; l'anecdote est jugée probablement inventée.",
+    "refs": [
+     "EV-07272",
+     "SC-01933"
+    ]
+   },
+   {
+    "date": "1966",
+    "moment": "La commande de la fontaine pour Ghirardelli Square est confiée à Asawa ; Roth juge le projet monumental excessif. Elle visite le site avec Halprin, qui défend une abstraction monumentale.",
+    "refs": [
+     "EV-07856",
+     "SC-02036",
+     "EV-07577"
+    ]
+   },
+   {
+    "date": "1967-07-31",
+    "moment": "Asawa doute de l'avancement de la commande ; Roth lui écrit de continuer et promet d'acheter la sculpture si les procédés de coulée échouent.",
+    "refs": [
+     "EV-07972",
+     "RE-02925"
+    ]
+   },
+   {
+    "date": "1966/1968",
+    "moment": "Andrea, deux sirènes en bronze dans un habitat de tortues et de grenouilles, est installée à Ghirardelli Square. Elle reste visible aujourd'hui ; Asawa en tire le surnom de « fountain lady ».",
+    "refs": [
+     "EV-07855",
+     "EC-02096"
+    ]
+   },
+   {
+    "date": "1968/1972",
+    "moment": "Roth finance, avec la Zellerbach Family Foundation, un Workshop encore entièrement bénévole jusqu'en 1972.",
+    "refs": [
+     "QU-02132",
+     "RE-02919"
+    ]
+   },
+   {
+    "date": "1970",
+    "moment": "Avec la Zellerbach Family Foundation, la Rosenberg Foundation puis des fonds fédéraux (Emergency School Aid Act, 1972), son appui permet d'implanter le Workshop dans cinq écoles de plus (Mission, Chinatown, Hunters Point, Potrero Hill).",
+    "refs": [
+     "EV-08146",
+     "QU-02149"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Ruth Asawa",
+    "nature": "Mécène, premier collectionneur puis commanditaire ; relation d'admiration et de confiance sur deux décennies.",
+    "evolution": "Des années 1950 (achat d'une pièce en fil au Tin Angel) à la commande d'Andrea (1966-1968), puis au soutien du Workshop dans les années 1960-1970.",
+    "refs": [
+     "RE-02105",
+     "RE-02919",
+     "RE-02925",
+     "EV-03930",
+     "EV-07972",
+     "EC-02096"
+    ]
+   },
+   {
+    "avec": "Lawrence Halprin",
+    "nature": "Architecte paysagiste de la rénovation de Ghirardelli Square, en désaccord esthétique avec Asawa : abstraction monumentale contre figuration.",
+    "evolution": "Roth est présent mais en retrait. Une fiche agrégée dit qu'il reçoit les objections et les lettres de Halprin ; les fiches détaillées ne le confirment pas.",
+    "refs": [
+     "EV-07155",
+     "SC-02036",
+     "EV-07577",
+     "PE-00326"
+    ]
+   },
+   {
+    "avec": "Warren Lemmon",
+    "nature": "Intermédiaire : sa lettre à Asawa rapporte le commentaire de Roth sur l'échelle excessive.",
+    "evolution": "Un seul épisode connu (1966).",
+    "refs": [
+     "EV-07856",
+     "SC-02036"
+    ]
+   },
+   {
+    "avec": "Sa mère (non nommée)",
+    "nature": "Co-acheteuse de Ghirardelli Square.",
+    "evolution": "Aucun développement dans les fiches.",
+    "refs": [
+     "EV-07155",
+     "PE-00326"
+    ]
+   },
+   {
+    "avec": "Zellerbach Family Foundation et Rosenberg Foundation",
+    "nature": "Co-financeurs du Workshop.",
+    "evolution": "Les dons de Roth précèdent le financement fédéral de 1972.",
+    "refs": [
+     "EV-08146",
+     "QU-02132",
+     "QU-02149"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Date du premier achat : EV-03930 donne une fourchette très large (≈1946→1985), EC-02096 parle de 1953. Le Tin Angel doit être clarifié.",
+   "La fiche agrégée range « acheta Ghirardelli Square avec sa mère » dans « avant_bmc », mais l'achat est daté ≈1959→1967, après le collège ; c'est une erreur de classement ou de libellé.",
+   "RE-02925 date de 1960 le soutien de Roth sur la commande de Ghirardelli, alors que la lettre de promesse est du 31 juillet 1967 et la commande de 1966. La fiche relationnelle est mal datée.",
+   "L'anecdote de l'oiseau (SC-01933, EV-07272) est conteste : aucun autre document ne la confirme, et le texte évoque une invention probable de la chroniqueuse.",
+   "La fiche agrégée parle de lettres de Halprin et Kortum reçues par Roth ; les fiches détaillées ne mentionnent que Halprin et Lemmon."
+  ],
+  "situations_revelatrices": [
+   "Une lettre où il rassure l'artiste en doute et s'engage financièrement (EV-07972).",
+   "Une visite ou une réunion à Ghirardelli Square où Halprin plaide pour l'abstraction monumentale et où Roth tempère l'échelle (SC-02036, EV-07856).",
+   "Une scène chez les Roth à Sausalito, autour de la sculpture en fil près de la fenêtre, éventuellement l'anecdote de l'oiseau traitée comme légende mondaine (SC-01933).",
+   "Une réunion de financement du Workshop avec les fondations."
+  ],
+  "citations": [
+   "PE-00326",
+   "RE-02105",
+   "RE-02919",
+   "RE-02925",
+   "SC-01933",
+   "SC-02036",
+   "EV-03930",
+   "EV-07155",
+   "EV-07272",
+   "EV-07577",
+   "EV-07855",
+   "EV-07856",
+   "EV-07972",
+   "EV-08146",
+   "EC-02096",
+   "QU-02132",
+   "QU-02149"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, famille, origine de sa fortune, nom et rôle de sa mère.",
+   "Comment Roth a-t-il connu Asawa : par le Tin Angel seulement ? Date exacte de l'achat ?",
+   "Y a-t-il un lien direct de Roth avec Black Mountain College ou ses anciens, hors Asawa ?",
+   "Quelle est exactement la pièce en fil qu'il possédait : celle du Tin Angel ou celle prêtée au de Young en 1960 ?",
+   "Quelle fut sa position détaillée face à Halprin, et que disent exactement les lettres de Halprin et de Kortum ?",
+   "A-t-il tenu sa promesse du 31 juillet 1967, ou la coulée a-t-elle réussi ?"
+  ]
+ }
+}

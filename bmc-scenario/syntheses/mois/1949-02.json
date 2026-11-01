@@ -1,0 +1,344 @@
+{
+ "passe": "mois",
+ "cle": "1949-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 7934,
+  "sortie": 10958,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1949-02",
+  "session": "Fin du semestre d'hiver : Albers doit assurer ses cours jusqu'à la fin du semestre, après quoi son départ devient effectif (lettre de Pittenger du 1er février). L'été suit, avec la session dirigée par Fuller.",
+  "saison_et_climat": "Plein hiver en montagne caroline. Les fiches ne décrivent pas le temps qu'il fait ce mois-ci ; la neige n'apparaît qu'au camping de Pâques, plus tard (déduction, à prendre avec précaution).",
+  "situation": "Le collège traverse sa crise la plus aiguë. Une réunion de faculté devait demander la démission de Dreier ; il l'a devancée en démissionnant. Albers, Anni, Guermonprez et Schlesinger démissionnent, avec des dates officielles fixées au 18 février, et Dreier se retire avec eux. Albers reste en classe jusqu'à la fin du semestre. Pittenger, venu en janvier, a porté sur tous des jugements hostiles, et sa lettre du 1er février qualifie Anni de sorcière. La faculté est divisée en factions : Nell Rice parle pour cinq enseignants, qui forment une majorité de justesse. Les Rice commencent à quitter le collège pour Long Island.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Caroline Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Frank Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Guermonprez",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Schlesinger",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Isabel Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rauschenberg et Susan Weil (étudiants, encore sur place avant leur départ du printemps)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1949-02-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Pittenger écrit à Aydelotte une lettre pleine de préjugés contre les Allemands et contre l'idée d'élever l'art dans le collège. Il y qualifie Anni de sorcière et ajoute que si Dreier part maintenant, Albers partira à la fin du semestre. Albers répond le jour même.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04847"
+    ]
+   },
+   {
+    "date": "1949-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Elaine de Kooning publie dans ARTnews son texte « 5 Stars for February », dans un numéro qui contient dix-neuf de ses critiques. Elle y cite Albers avant de réfuter sa formule « My work is study, not revelation ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04837"
+    ]
+   },
+   {
+    "date": "1949-02",
+    "precision": "mois",
+    "ce_qui_arrive": "ARTnews publie « Albers Paints a Picture » d'Elaine, après des comptes rendus de l'exposition d'Albers dans deux galeries new-yorkaises.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04838"
+    ]
+   },
+   {
+    "date": "1949-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Création à Town Hall de la Première Sonate pour piano d'Ives, jouée par William Masselos sur une édition reconstituée par Lou Harrison. Riegger et Varèse sont dans le public. Williams, qui y assiste, en gardera un souvenir très fort.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04840"
+    ]
+   },
+   {
+    "date": "1949-02",
+    "precision": "mois",
+    "ce_qui_arrive": "La pétition des enseignants demande une réunion pour obtenir la démission de Dreier. Dreier devance la demande en démissionnant. La pétition étudiante décrite par plusieurs témoins n'a pas été retrouvée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04844",
+     "SC-01240"
+    ]
+   },
+   {
+    "date": "1949-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Mel Mitchell Kelly affirme que les Rondthaler et les Levi, encore membres officiels de la faculté, ont envoyé par câble des procurations contre Dreier. Mary Caroline Richards dit n'en avoir aucun souvenir.",
+    "certitude": "probable",
+    "refs": [
+     "EV-04845"
+    ]
+   },
+   {
+    "date": "1949-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Frank et Nell Rice, épuisés par les réunions de faculté sans fin, se mettent en quête d'un meilleur poste à Quogue. Ann les suit peu après.",
+    "certitude": "probable",
+    "refs": [
+     "EV-04842"
+    ]
+   },
+   {
+    "date": "1949-02",
+    "precision": "mois",
+    "ce_qui_arrive": "La petite chorale dirigée par Bimbus, à laquelle se joint un étudiant ou une étudiante, chante un dimanche au YMCA noir d'Asheville. Elle donne des fragments d'une cantate de Bach, puis reçoit des spirituels, dont « I Been 'Buked and I Been Scorned ». Un moment de partage suit.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04843"
+    ]
+   },
+   {
+    "date": "1949-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Elaine dicte à de Kooning, qui parle beaucoup et s'exprime mieux qu'il n'écrit, les idées de « A Desperate View ». Le texte est repris pendant des jours avant qu'il tienne sa forme finale.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01241"
+    ]
+   },
+   {
+    "date": "1949-02-18",
+    "precision": "jour",
+    "ce_qui_arrive": "Les lettres de démission de Josef et Anni Albers, de Guermonprez, de Schlesinger et de Dreier portent cette date. Les Albers ont démissionné début février, et leur rupture est attribuée à leur solidarité avec Dreier.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04844",
+     "EV-04846",
+     "SC-01240"
+    ]
+   },
+   {
+    "date": "1949-02-18",
+    "precision": "jour",
+    "ce_qui_arrive": "Conférence de Willem de Kooning, « A Desperate View », lue à la discussion du vendredi soir de la nouvelle école Subjects of the Artist à New York. Ce n'est pas un événement de Black Mountain, mais il se produit le jour même des démissions.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04848"
+    ]
+   },
+   {
+    "date": "1949-02-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Une lettre signée « Kim » et adressée à « Leslie », avec la mention « Copy for Mr. Albers », est tapée en copie carbone. Son contenu n'est pas donné.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04849"
+    ]
+   }
+  ],
+  "quotidien": "Albers continue ses cours jusqu'à la fin du semestre, alors qu'il a déjà démissionné. La petite chorale de Bimbus répète et sort un dimanche pour chanter à Asheville. Les étudiants sont tenus à l'écart des réunions de faculté, ce qui nourrit les griefs. Les Rice rentrent tard et épuisés des réunions. Les fiches ne décrivent ni les repas, ni les travaux d'atelier, ni la vie matérielle du campus ce mois-ci.",
+  "tensions": [
+   "Pétition des enseignants contre Dreier, suivie de sa démission devancée ; la mémoire contradictoire des pétitions et des démissions (la pétition étudiante reste introuvable).",
+   "Lettre de Pittenger à Aydelotte : Albers « impossible comme exécutant », Dreier sans la confiance de tous, Anni traitée de « sorcière ». Albers répond le 1er février, puis le Committee of Friends est saisi le 3.",
+   "Liaison de Dreier avec une enseignante de l'école d'art, condamnée par des moralistes comme Trayer ; l'identité de la femme n'est pas établie.",
+   "Lettre de Mangold à Albers, au nom de collègues, qui met en cause le déséquilibre psychique de Dreier.",
+   "Les démissions d'Albers, de Guermonprez et de Schlesinger contre la ligne de Nell Rice et des cinq enseignants.",
+   "Proxies câblés contre Dreier, affirmés par Kelly et niés par Richards : une version contestée.",
+   "Les sources ne s'accordent pas sur l'ordre exact des événements de janvier-février. Albers et Guermonprez ont nié, vingt ans plus tard, qu'on ait formellement demandé la démission de Dreier."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La réunion qui devait renvoyer Dreier",
+    "date": "1949-02",
+    "lieu": "Black Mountain College, réunion de faculté",
+    "personnages": [
+     "Theodore Dreier",
+     "Josef Albers",
+     "Mary Caroline Richards"
+    ],
+    "deroule": "Des enseignants dissidents ont pétitionné pour une réunion en vue de demander la démission de Dreier. Dreier se retire avant elle, et la réunion se transforme en coup de force tendu. Chacun en gardera plus tard une version différente.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01240",
+     "EV-04844"
+    ]
+   },
+   {
+    "titre": "Les démissions datées du 18 février",
+    "date": "1949-02-18",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Guermonprez",
+     "Schlesinger",
+     "Theodore Dreier"
+    ],
+    "deroule": "Quatre personnes ont décidé de démissionner le soir même d'une réunion préparée de façon jugée injuste et dégoûtante. Dreier et d'autres les rejoignent. Les lettres portent la date du 18 février. Albers poursuit pourtant ses cours jusqu'à la fin du semestre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04846",
+     "EV-04844"
+    ]
+   },
+   {
+    "titre": "Lettre de Pittenger et réplique d'Albers",
+    "date": "1949-02-01",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "N. O. Pittenger",
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Pittenger écrit à Aydelotte qu'Anni est une sorcière et que l'Albers du collège n'est pas celui du couple. Albers répond le jour même, puis saisit le Committee of Friends le 3 février.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04847"
+    ]
+   },
+   {
+    "titre": "Chanter Bach au YMCA noir d'Asheville",
+    "date": "1949-02",
+    "lieu": "Negro Y, Asheville",
+    "personnages": [
+     "Bimbus",
+     "membres de la petite chorale du collège"
+    ],
+    "deroule": "Un dimanche, la chorale donne des fragments de cantate de Bach. Le chœur du YMCA répond par des spirituels d'un son profond, dont « I Been 'Buked and I Been Scorned ». Les étudiants partagent ensuite des rafraîchissements avec les chanteurs locaux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04843"
+    ]
+   },
+   {
+    "titre": "Elaine dicte « A Desperate View » à Bill",
+    "date": "1949-02",
+    "lieu": "New York",
+    "personnages": [
+     "Willem de Kooning",
+     "Elaine de Kooning"
+    ],
+    "deroule": "Pendant des jours, Bill parle, Elaine note ses idées, ils reprennent le texte et elle propose des modifications. À la fin, Bill énonce une phrase « totalement juste » qui ne laisse aucune place à la contradiction.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01241"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Février 1949, pendant la crise des démissions : le fonds de pension dont les obligations ont été mises au seul nom d'Albers alimente la furie de l'année.",
+    "vers_date": "1944",
+    "vers": "Institution du fonds de pension, qui nourrit les accusations de détournement contre Dreier.",
+    "refs": [
+     "EC-02392"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Février 1949, quand Dreier est mis en cause et que le Board of Trustees est proposé en octobre 1948.",
+    "vers_date": "1933",
+    "vers": "Les débuts du collège, fondé en réaction aux trustees de Rollins, où cette machinerie a toujours été méprisée et contournée.",
+    "refs": [
+     "EC-02391"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Février 1949, lorsque la crise touche la figure de Dreier.",
+    "vers_date": "1919",
+    "vers": "Le Bauhaus, de 1919 à 1933, où Albers a appris à intégrer beaux-arts, artisanat et technologie, héritage qu'il porte à Black Mountain.",
+    "refs": [
+     "EC-02364"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Février 1949, au moment où Dreier est jugé et où son fils Mark est évoqué par la mémoire du collège.",
+    "vers_date": null,
+    "vers": "La Quiet House, mémorial de Mark Dreier, mort dans un accident d'automobile près du collège.",
+    "refs": [
+     "EC-02393"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1949, quand Albers quitte le collège après sa démission.",
+    "vers_date": "1950",
+    "vers": "Albers, doyen à Yale, invite Bill de Kooning à des crits bi-hebdomadaires ; le couple reçoit un enseignement aux résultats opposés.",
+    "refs": [
+     "EC-02362"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1949, quand la faculté se reconstitue dans la division.",
+    "vers_date": "1956",
+    "vers": "Olson, qui est arrivé en 1948 comme remplaçant de passage, domine la communauté jusqu'à la fermeture du collège.",
+    "refs": [
+     "EC-02390"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1949, lorsque Elaine publie ses premières critiques sur Albers.",
+    "vers_date": "1958",
+    "vers": "Solo for Piano dédié à Elaine : le réseau musical de Black Mountain irrigue la vie new-yorkaise ultérieure d'Elaine.",
+    "refs": [
+     "EC-02363"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1949, quand le souvenir de l'été 1948 reste vivant dans les lettres.",
+    "vers_date": "1991",
+    "vers": "Exposition Black Mountain Paintings from 1948 à la Washburn Gallery et acquisition par le Met des peintures d'Elaine de l'été 1948.",
+    "refs": [
+     "EC-02365"
+    ]
+   }
+  ],
+  "motifs": [
+   "la fidélité à Dreier et son prix pour les Albers",
+   "la mémoire contradictoire de la crise et l'aveuglement sélectif",
+   "l'écriture critique et la voix d'Elaine",
+   "la musique noire et le chant comme seul moment de communion",
+   "la figure de Pittenger, qui juge et trie",
+   "les femmes effacées du récit : Anni, Elaine, la femme de la liaison inconnue"
+  ],
+  "lacunes": "On ignore l'identité de la femme de la liaison de Dreier et la date exacte de la lettre de Mangold. On ignore aussi la date précise de la réunion du 29 janvier et celle du départ des Rice, ainsi que les présences exactes de Dehn, Rauschenberg et Weil pendant le mois. La pétition étudiante reste introuvable, les proxies de Kelly sont contestés, et l'étudiant ou l'étudiante de la chorale de Bimbus n'est pas nommé dans la source."
+ }
+}

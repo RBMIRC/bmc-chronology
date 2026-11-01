@@ -1,0 +1,174 @@
+{
+ "passe": "mois",
+ "cle": "1948-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3834,
+  "sortie": 11693,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1948-02",
+  "session": "Non précisée par les fiches (mois d'hiver, trimestre inconnu)",
+  "saison_et_climat": "Plein hiver. Les fiches ne décrivent ni le temps ni le climat du mois.",
+  "situation": "En février 1948, Levi est encore recteur et le collège laisse des étudiants donner des cours. Le 23 février, la faculté décide du cours informel de sculpture de Harry Holl en l'absence d'Albers, qui proteste à son retour et obtient que Holl le consulte. La contestation de la procédure annonce la crise de gouvernance de l'année. À Yale, Sawyer écrit le 6 février qu'il n'est pas impressionné par les alumni proposés et invite Albers six jours plus tard.",
+  "presents_probables": [
+   {
+    "nom": "Harry Holl",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rondthaler",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1948-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Sawyer prononce à Yale un discours plaidant pour l'art comme entreprise intellectuelle, annonce la création de la Division of Arts et évoque des laboratoires des arts avec ateliers, studios et presses.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04469"
+    ]
+   },
+   {
+    "date": "1948-02-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Sawyer écrit au président du comité universitaire qu'il n'est pas impressionné par les alumni proposés.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04470"
+    ]
+   },
+   {
+    "date": "1948-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Six jours après sa lettre, Sawyer invite Albers à Yale.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04470"
+    ]
+   },
+   {
+    "date": "1948-02-23",
+    "precision": "jour",
+    "ce_qui_arrive": "En réunion de faculté, la proposition de cours informel de sculpture de Holl, troisième étudiant autorisé à enseigner ainsi, est traitée sans Albers, absent. La faculté juge que Holl devrait conférer avec Albers sur le cours.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04471"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "À son retour, Albers proteste que la proposition aurait dû lui être soumise.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04471"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches disent très peu de la vie ordinaire en février. Des étudiants enseignent, comme Holl, qui a travaillé avec Jose de Creeft avant d'arriver. La faculté se réunit. Aucune fiche ne mentionne les repas, la musique, les travaux ou les cours réguliers pour ce mois.",
+  "tensions": [
+   "Le cours de Holl est discuté sans Albers : l'autorité de la direction se heurte à l'initiative d'un étudiant enseignant, ce qui annonce le conflit de printemps sur l'expansion de l'ère Levi.",
+   "Albers reproche à la faculté de ne pas lui avoir soumis la proposition, et la faculté renvoie Holl vers lui : le conflit porte sur la procédure autant que sur le contenu.",
+   "À Yale, Sawyer méprise les alumni proposés, ce qui fait apparaître une tension de sélection interne à l'université, en dehors de Black Mountain."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La réunion du 23 février",
+    "date": "1948-02-23",
+    "lieu": "Black Mountain College, réunion de faculté",
+    "personnages": [
+     "Harry Holl",
+     "membres de la faculté (non nommés)"
+    ],
+    "deroule": "La faculté examine le cours informel de sculpture proposé par Holl, en l'absence d'Albers. La discussion aboutit à une décision qui laisse le cours ouvert, à condition que Holl consulte Albers. Le procès-verbal fixe la règle, et Albers la contestera dès son retour.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04471"
+    ]
+   },
+   {
+    "titre": "Le retour d'Albers",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Harry Holl"
+    ],
+    "deroule": "Albers découvre la décision prise en son absence et proteste. Holl doit alors s'expliquer et entrer dans une discussion sur le contenu de son cours. La scène peut porter sur la première rencontre entre les deux hommes.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-04471"
+    ]
+   },
+   {
+    "titre": "La lettre de Sawyer et l'invitation à Albers",
+    "date": "1948-02-06",
+    "lieu": "Yale",
+    "personnages": [
+     "Charles Sawyer",
+     "Josef Albers (invité)"
+    ],
+    "deroule": "Sawyer écrit qu'il n'est pas impressionné par les alumni proposés, puis, six jours plus tard, invite Albers. La scène peut montrer le contraste entre l'exigence de Sawyer et la situation de Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04470"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "La réunion du 23 février, où la faculté décide sans Albers",
+    "vers_date": "1933",
+    "vers": "La fondation du collège, quand la communauté se voulait à bâtir soi-même. Le rêve initial sert de point de comparaison à la querelle sur qui décide.",
+    "refs": [
+     "EC-02316"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La protestation d'Albers sur la procédure",
+    "vers_date": "1948-06",
+    "vers": "Le Board of Fellows se bloque, Levi démissionne du rectorat et Albers prend la charge à la fin de l'été.",
+    "refs": [
+     "chapitre de l'année 1948 (synthèse, sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'invitation de Sawyer adressée à Albers à Yale",
+    "vers_date": "1950",
+    "vers": "Albers, installé à Yale, engage de Kooning, qui lui avait reproché sans rancune son départ de Black Mountain.",
+    "refs": [
+     "EV-04470",
+     "chapitre de l'année 1948 (synthèse, sans identifiant)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Une communauté à inventer à la campagne, reprise de l'idéal fondateur de 1933 (EC-02316).",
+   "Bâtir comme rite d'institution, écho à l'autoconstruction du campus (EC-02317).",
+   "La fondation d'une cité par un geste de violence rituel, qui évoque le mythe de Remus (EC-02319).",
+   "La blague qui se retourne en menace, un personnage venu du dehors (EC-02321).",
+   "L'enthousiasme du départ qui enferme dans l'invention, sans communauté où revenir (EC-02322)."
+  ],
+  "lacunes": "Les fiches ne précisent ni le trimestre, ni le nombre d'étudiants, ni la liste des présents le 23 février. Elles ne donnent pas la date du retour d'Albers : la synthèse le place du Mexique « au printemps », alors que la fiche Holl le montre de retour après le 23 février. Il faut trancher ou laisser ce flou. Albers n'est pas compté parmi les présents ce mois-ci. Aucune donnée sur la vie quotidienne, ni sur Levi ou Dreier en février. Les échos EC-02316 à EC-02322 viennent d'un texte littéraire de Goodman, non d'une source historique, et ne doivent pas être pris pour des faits."
+ }
+}

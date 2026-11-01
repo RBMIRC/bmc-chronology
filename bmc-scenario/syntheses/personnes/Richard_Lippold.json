@@ -1,0 +1,250 @@
+{
+ "passe": "personnes",
+ "cle": "Richard Lippold",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 6200,
+  "sortie": 2936,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Richard Lippold",
+  "autres_noms": [],
+  "dates_de_vie": null,
+  "statut_bmc": "Professeur visiteur de sculpture, Summer Art Institute 1948 (non salarié : logé et nourri)",
+  "presence": [
+   {
+    "debut": "1948-06",
+    "fin": "1948-08",
+    "precision": "session",
+    "role": "Professeur invité de sculpture à l'institut d'été d'Albers ; y assemble Devotion I, dessine la queue du singe mécanique du Piège de Méduse, propose une causerie sur Rilke",
+    "refs": [
+     "EV-04313",
+     "EV-04326",
+     "EV-04225",
+     "EV-04236",
+     "EV-04508",
+     "EV-04395",
+     "OE-02036"
+    ]
+   }
+  ],
+  "portrait_physique": "Non décrit dans les fiches ; on ne retient que l'image forte de sa famille débarquant d'un vieux corbillard noir à colonnes classiques.",
+  "noyau_psychologique": "Sculpteur ingénieux, pauvre et fier : quand le collège hésite à l'accueillir faute d'argent, il retourne l'obstacle en argument (il apporte son propre dortoir). Lucide, perspicace sur les tensions humaines, jugeant les hommes avec une ironie drôle et précise (Fuller en Zoroastre, Albers vu comme exigeant mais sans envie). Mû par une exigence intérieure : l'art comme expérience pure, non fonctionnelle, nourrie de Rilke.",
+  "blessures": "La pauvreté chronique — devoir plaider son admission par lettres, emprunter dix cents pour des glaces à ses enfants (PE-00133, RE-01660, SC-01067).",
+  "desirs": "Travailler sa sculpture linéaire — un mémorial « assez grand pour y marcher, comme une architecture » ; être au milieu des gens qui comptent, même sans salaire ; plus tard, une vie amoureuse avec Ray Johnson à New York.",
+  "peurs": null,
+  "maniere_d_aimer": "Bisexualité assumée dans les faits : marié, deux enfants, puis vingt ans de partenariat avec Ray Johnson commencé à New York après avoir partagé un studio avec lui (RE-00722, RE-01034, RE-02065).",
+  "rapport_au_pouvoir": "Se place hors des luttes de pouvoir, en observateur lucide : il écoute Albers se plaindre du cycle des révolutions stériles et reconnaît chez lui la force sans envie ; il admire Fuller sans se laisser absorber. Convaincu que Black Mountain tenait par un équilibre exquis entre liberté personnelle et obligation de performance — et qu'après 1948 il n'y restait plus d'énergie, seulement du rêve (PE-00133).",
+  "voix": {
+   "registre": "Élégant, littéraire, ingénieux ; l'ironie intellectuelle de quelqu'un qui cite Rilke et compare un conférencier à Zoroastre",
+   "tics": "Images métaphoriques savantes et drôles ; formules épistolaires généreuses pour retourner une situation",
+   "exemples_paraphrases": [
+    "Dire de la conférence de Fuller qu'elle est comme entendre Zoroastre parler la langue de l'islam",
+    "Écrire au conseil qu'il a acheté un corbillard qui dort toute la famille, pourvu qu'on lui prête la plomberie",
+    "Résumer la pédagogie d'Albers en une formule : lui, il exigeait la performance"
+   ]
+  },
+  "habitudes": [
+   "Voyager et vivre avec femme et deux enfants dans un vieux corbillard aménagé en dortoir",
+   "Correspondance inventive pour obtenir ce qu'il veut (lettres, appui de Cage par télégramme de nuit)"
+  ],
+  "convictions": [
+   "La vraie éducation artistique exige une discipline — Albers « exigeait la performance », à la différence du laisser-faire d'autres écoles progressistes",
+   "La sculpture peut être architecture : linéaire, immense, pure expérience, non fonctionnelle",
+   "Black Mountain avant 1948 fonctionnait par un équilibre entre liberté personnelle et obligation de performance ; c'en était une cause perdue ensuite"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1948-05",
+    "precision": "mois",
+    "moment": "D'abord décliné l'invitation avec Fuller (remplacements prévus : Burchard, Grippe), puis les deux annoncent venir finalement ; Albers, agacé : cela va compliquer",
+    "etat_interieur": "Tiraillé par le manque d'argent, décidé à trouver un moyen",
+    "refs": [
+     "EV-04169"
+    ]
+   },
+   {
+    "date": "1948-05-24",
+    "precision": "jour",
+    "moment": "Lettre à Albers : il a acheté un corbillard-dortoir pour femme et deux enfants, demande la plomberie du collège, propose une causerie sur Rilke",
+    "etat_interieur": "Ingéniosité joyeuse face à la pauvreté",
+    "refs": [
+     "EV-04225",
+     "EV-04485"
+    ]
+   },
+   {
+    "date": "1948-06-17",
+    "precision": "jour",
+    "moment": "Cage envoie un télégramme de nuit plaider sa cause : le corbillard a été testé pour dormir et fonctionne ; le collège accepte",
+    "etat_interieur": "Soulagement, gratitude envers Cage",
+    "refs": [
+     "EV-04226"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "moment": "Arrivée au collège dans le corbillard noir ; Fuller en vante les colonnes classiques ; M.C. Richards prête dix cents pour les glaces des enfants ; soirée d'ouverture : conférence marathon de Fuller qu'il baptise « Zoroastre parlant l'islamique »",
+    "etat_interieur": "Amusé, fasciné, lucide",
+    "refs": [
+     "SC-01078",
+     "EV-04257",
+     "SC-01177"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "moment": "Participe au montage du Piège de Méduse de Satie : il dessine la queue du singe mécanique de Cunningham, queue que Cunningham gardera suspendue dans son studio",
+    "etat_interieur": "Plaisir de l'artisan au service du collectif",
+    "refs": [
+     "EV-04236"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "mois",
+    "moment": "Sur le porche de la salle à manger au cœur de la crise de gouvernance, Albers lui confie sa lassitude du cycle annuel où chaque bande nouvelle croit tout changer ; il assemble Devotion I ; il repart avec le sentiment que l'équilibre fondateur s'est rompu",
+    "etat_interieur": "Témoin mélancolique d'un sommet artistique coïncidant avec la fin d'une époque",
+    "refs": [
+     "SC-01094",
+     "EV-04313",
+     "EV-04395",
+     "PE-00133",
+     "OE-02036"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Sculpteur établi à New York avant BMC ; c'est Cage qui le recommande, avec de Kooning, pour l'été 1948",
+    "refs": [
+     "EV-04386"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Arrive à New York avec sa femme puis partage un studio avec Ray Johnson ; début d'une relation amoureuse qui durera vingt ans",
+    "etat_interieur": null,
+    "refs": [
+     "RE-02065",
+     "RE-01034",
+     "EV-01583"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Dessine Sketch for The Sun ; Fuller estime l'avoir excité à faire bien plus en sculpture, notamment par les structures de tension",
+    "refs": [
+     "OE-02688",
+     "OE-02689",
+     "PE-00133"
+    ]
+   },
+   {
+    "date": "≈1950",
+    "precision": "periode",
+    "moment": "Enseigne la sculpture à Hunter College : Sillman le remplace pendant son congé — preuve d'un poste new-yorkais stable",
+    "refs": [
+     "EV-04931"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Cage",
+    "nature": "Allié dévoué, complice d'ingéniosité",
+    "evolution": "Cage le recommande à Albers et envoie un télégramme de nuit pour faire admettre sa famille ; amitié d'estime réciproque",
+    "refs": [
+     "SC-01067",
+     "EV-04226",
+     "EV-04386"
+    ]
+   },
+   {
+    "avec": "Buckminster Fuller",
+    "nature": "Admiration ironique et féconde",
+    "evolution": "Fascination immédiate en 1948 (formule de Zoroastre) ; Fuller dira ensuite l'avoir poussé vers plus d'ambition sculpturale via les structures de tension",
+    "refs": [
+     "SC-01177",
+     "PE-00133"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Respect entre exigents",
+    "evolution": "Lippold reconnaît la discipline d'Albers et son absence d'envie ; Albers se confie à lui sur sa lassitude en 1948",
+    "refs": [
+     "PE-00133",
+     "SC-01094",
+     "CI-02090"
+    ]
+   },
+   {
+    "avec": "Ray Johnson",
+    "nature": "De la rencontre à BMC à un amour de vingt ans",
+    "evolution": "Rencontrés à Black Mountain en 1948 ; deviennent amants à New York (Lippold y arrive avec sa femme, puis partage un studio avec Johnson) ; partenariat d'environ vingt ans",
+    "refs": [
+     "RE-00722",
+     "RE-01034",
+     "RE-02065",
+     "EV-01583"
+    ]
+   },
+   {
+    "avec": "Mary Caroline Richards",
+    "nature": "Petite entraide symbolique de la pauvreté commune",
+    "evolution": "Elle prête dix cents aux Lippold pour des glaces — geste resté en mémoire comme emblème de l'été 1948",
+    "refs": [
+     "RE-01660",
+     "SC-01078"
+    ]
+   },
+   {
+    "avec": "Merce Cunningham",
+    "nature": "Collaboration artisanale",
+    "evolution": "Lippold dessine la queue du singe mécanique du Piège de Méduse ; Cunningham la conserve des années durant dans son studio",
+    "refs": [
+     "EV-04236"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Effectifs de l'été 1948 : Molesworth dit soixante-dix-sept étudiants, Duberman soixante-quatorze, Díaz environ soixante-quinze (EV-04326, EV-04508, EV-04525).",
+   "Le cœur de la relation avec Ray Johnson : Molesworth p.73 (oui-dire d'un conservateur) versus p.182 et p.280 qui la précisent — vingt ans, studio partagé ; à manier avec prudence.",
+   "Fuller et Lippold déclinent d'abord l'invitation puis reviennent sur leur décision (Lane) — moment de bascule à dramatiser plutôt que contradiction."
+  ],
+  "situations_revelatrices": [
+   "La négociation épistolaire du corbillard : la pauvreté retournée en théâtre comique et en argument victorieux",
+   "L'arrivée au campus, famille et corbillard noirs, sous le regard enchanté de Fuller",
+   "Le soir de la conférence de Fuller : l'homme qui trouve LA formule qui fixe un prophète",
+   "Le porche avec Albers : le jeune visiteur écoutant la lassitude du fondateur",
+   "Les coulisses du Piège de Méduse : le sculpteur fabriquant une queue de singe"
+  ],
+  "citations": [
+   "CI-02090",
+   "PE-00133",
+   "SC-01067",
+   "SC-01078",
+   "SC-01094",
+   "SC-01177",
+   "EV-04225"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, origines et formation : rien dans les fiches.",
+   "Le prénom de sa femme et la vie de ses deux enfants pendant et après BMC.",
+   "Comment la double vie (mariage, puis amour avec Ray Johnson) s'est négociée : aucune source ne le dit.",
+   "Ce qu'il a exactement enseigné pendant la session, et le contenu de sa causerie sur Rilke promises dans sa lettre.",
+   "Dates précises de son poste à Hunter et de son départ en Europe (à déduire de EV-04931, source indirecte)."
+  ]
+ }
+}

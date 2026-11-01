@@ -1,0 +1,67 @@
+#annee 1933-34
+#catalogue speculation/catalogues/1933-34.txt 2017.40.006+2017.40.009+2017.40.012
+#terme_deduit spring
+> ## Première année : ce qu'on sait, ce qu'on ne sait pas
+>
+> **Une seule source de l'année : le premier catalogue** (2017.40.006, fiche 6574). Il a été relu sur ses scans (006-02, 006-07, 006-12, 006-13) : le texte transcrit par le musée y concorde mot pour mot. Aucun bulletin, programme de concert ou grille horaire de 1933-34 n'est au musée. Tout ce qui suit est une reconstitution, et chaque case dit sur quoi elle repose.
+>
+> **1. Le cadre est attesté (0 %).** Le calendrier est imprimé en tête du catalogue (scan 006-02) :
+> - Fall Term du 25 septembre au 16 décembre 1933 ;
+> - vacances de Noël jusqu'au 3 janvier ;
+> - Winter Term du 3 janvier au 17 mars 1934 ;
+> - vacances de printemps jusqu'au 26 mars ;
+> - Spring Term du 26 mars au 12 juin 1934.
+>
+> Trois trimestres, alors qu'à partir de 1935-36 on aura deux semestres.
+>
+> **2. Les personnes.** Le corps enseignant (scan 006-07) compte treize noms :
+> - Albers (art) ;
+> - Boyden (économie) ;
+> - Dreier (physique et mathématiques, trésorier) ;
+> - Evarts (musique) ;
+> - Georgia (chimie, recteur et secrétaire) ;
+> - Hinckley (psychologie) ;
+> - Keith (langues romanes) ;
+> - Loram (anglais et théâtre) ;
+> - Lounsbury (gouvernement, droit public et histoire) ;
+> - Martin (anglais) ;
+> - Rice (lettres classiques) ;
+> - Richardson (hygiène, médecin) ;
+> - Zastrow (allemand).
+>
+> Le Board of Fellows réunit John Dreier, Ted Dreier, Georgia et Rice. Les étudiants sont 21 au trimestre d'automne. **Ralph Reed Lounsbury meurt le 16 octobre 1933** (« *Deceased October 16, 1933 ») : le gabarit d'automne est donc coupé en deux, et ses cours d'histoire passent ensuite, au mieux, à un collègue. Anni Albers n'est pas au corps enseignant. Une brochure de 1944 (2017.40.356) la dit pourtant « teaching at Black Mountain College since 1933 » : le tissage est proposé en hiver et au printemps avec une chance sur deux. La présence de Josef Albers dès la rentrée n'est pas attestée dans le corpus : ses cours d'automne portent le code PRESENCE (+15).
+>
+> **3. Les cours.** Le catalogue donne « a list of courses offered to students during the fall and winter terms » : 68 titres en quinze matières, aucun volume horaire, aucune attribution à un enseignant. Pour chaque matière :
+> - **l'enseignant** est celui dont c'est la discipline au corps enseignant. Une seule personne par matière, sauf en anglais (Loram et Martin) et en histoire après la mort de Lounsbury ;
+> - **les volumes horaires** viennent du catalogue 1936-38, faute de mieux (code VOLUME, +10) ;
+> - **le nombre de cours donnés à la fois** est estimé enseignant par enseignant. Keith a douze titres, Hinckley neuf, Dreier onze : avec 21 étudiants, ils n'en donnaient qu'une partie en même temps. Une case garde le titre retenu et la liste des autres possibles, avec la chance correspondante ;
+> - **le printemps** n'a pas de liste de cours : la liste d'automne et d'hiver est reconduite (code TERME_DEDUIT, +15).
+>
+> **4. Le rythme de la journée.** Il tient à quatre éléments du catalogue de l'année :
+> - repas pris ensemble, servis par des volontaires (Foreword) ;
+> - « Nearly everyone gets out of doors for about two hours in the early afternoon » (Athletics), souvent pour du travail au-dehors (coupe du bois, routes) ou la marche ;
+> - le comité de trois étudiants « meet with the Board at least once a week » ; une réunion de toute la communauté pour les questions importantes ;
+> - trois séminaires, en philosophie, en écriture, en littérature anglaise et histoire, « in which there are four or more instructors who attend every meeting ».
+>
+> Les heures des repas viennent des bulletins de Lake Eden (1943-44), le soir dansant du samedi du catalogue 1936-38 : ce sont des transpositions lointaines (code LOIN). La première semaine, chaque étudiant choisit son conseiller (« During his first week in college »).
+>
+> **5. Ce qui manque.** Concerts, conférences, pièces, visiteurs : rien n'est daté pour 1933-34 dans le corpus. Le catalogue nomme le théâtre (« Dramatics ») mais aucune production. Le lieu est le bâtiment principal de la Blue Ridge Assembly (« directly north of the main building »), sans plus de précision.
+
+S|semaine|||calendrier|Semaine de cours, {terme} (calendrier du premier catalogue)|||aucun congé attesté dans la semaine|SEMAINE|2017.40.006
+S|semaine|||social|Première semaine : chaque étudiant choisit un conseiller parmi les enseignants|Students||« During his first week in college the student is expected to choose an advisor from the faculty »||2017.40.006|fall@1933-09-25..1933-10-01
+
+S|lun-sam|07:30|08:00|social|Petit déjeuner en commun (servi par des volontaires)|Communauté||repas pris ensemble, service par des volontaires : Foreword du catalogue ; heure : bulletins de Lake Eden 1943-44|SEMAINE+LOIN|2017.40.006+2017.40.172a-g
+S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||heure de début : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.006+2017.40.172a-g
+S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.006+2017.40.172a-g
+S|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.006+2017.40.172a-g
+S|dim|13:00|14:00|social|Dîner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.006+2017.40.172a-g
+S|dim|18:00|18:45|social|Souper du dimanche|Communauté||souper froid le dimanche en 1944, heure non donnée|SEMAINE+LOIN+HEURE|2017.40.006+2017.40.172a-g
+
+S|lun-sam|13:30|15:30|travail|Au-dehors : jeux, coupe du bois, routes, marche sur les sentiers de la montagne, piscine, tennis|Communauté||« Nearly everyone gets out of doors for about two hours in the early afternoon… athletic games… wood cutting or walking on the mountain trails » (Athletics, 1933-34)|SEMAINE+HEURE_CADRE|2017.40.006
+
+S|lun|20:00|21:00|reunion|Réunion hebdomadaire du Board of Fellows avec le comité des trois officiers étudiants|John Dreier; Ted Dreier; Frederick R. Georgia; John A. Rice; student officers||« a committee of three students, who meet with the Board at least once a week » (Foreword) ; Board d'après le catalogue ; officiers non nommés|SEMAINE+JOUR+HEURE|2017.40.006
+S|ven|20:00|21:30|reunion|Réunion de toute la communauté : possible cette semaine|Communauté||« when a matter is considered sufficiently important, there is a meeting of the whole College community » (Foreword)|OCCASION+JOUR+HEURE|2017.40.006
+S|mer|20:00|22:00|cours|Séminaire collectif de philosophie (quatre enseignants ou plus à chaque séance)|Faculty||« three seminars, one in philosophy, one in writing, and another in English literature and history, in which there are four or more instructors who attend every meeting » (Foreword) ; fréquence, jour et heure inconnus|SEMAINE+VOLUME+JOUR+HEURE|2017.40.006
+S|lun|16:00|18:00|cours|Séminaire collectif de littérature anglaise et d'histoire (quatre enseignants ou plus)|Faculty||idem|SEMAINE+VOLUME+JOUR+HEURE|2017.40.006
+S|sam|10:30|11:30|conference|Hygiène : séminaire ou entretien avec le Professor of Hygiene (« through seminar and conference rather than by lecture ») : possible|Frank Howard Richardson||le médecin vit au village ; séance occasionnelle|OCCASION+JOUR+HEURE|2017.40.006
+S|sam|20:30|23:00|social|Soirée dansante du samedi : possible|Communauté||« almost every Saturday night a semi-formal dance » est attesté en 1936-38 seulement|SEMAINE+LOIN+HEURE_CADRE|2017.40.012

@@ -1,0 +1,289 @@
+{
+ "passe": "enseignements",
+ "cle": "Frederick Perls, Paul Goodman, Ralph Hefferline",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 11641,
+  "sortie": 9419,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Frederick Perls, Paul Goodman, Ralph Hefferline",
+  "cours": [
+   {
+    "intitule": "Expériences d'awareness de « Gestalt Therapy » (ouvrage collectif, ≈1951) – aucun cours à Black Mountain College n'est documenté par les fiches",
+    "periodes": [
+     "≈1951 (date de l'ouvrage, pas d'un cours au collège)"
+    ],
+    "atteste": "non",
+    "objectifs": "Ce que les fiches donnent, c'est le livre, pas un cours. Il propose des expériences où l'on apprend sur soi, en mangeant, lisant ou vivant, et où l'on découvre ses propres résistances. Le but n'est pas l'assentiment verbal ni un test réussi. Il s'agit de retrouver le sentiment d'actualité (ID-02403, ID-02406, ID-02547) et de changer réellement de perspective, jusqu'à se sentir comme un flux continu de processus (ID-02406). Les auteurs refusent de produire des preuves « objectives » pour convaincre les sceptiques (ID-02547). Lien avec BMC : une seule fiche (ID-02598) présente l'ouvrage collectif comme celui d'un ancien enseignant d'été du collège. Elle ne dit pas lequel des trois, ni quand, ni ce qu'il enseignait. Une autre fiche suppose qu'Hefferline « pouvait » mener des séances de psychologie expérimentale (ID-02419), ce qui relève de l'hypothèse. Aucun cours, emploi du temps ni élève n'est attesté. Toutes les mentions « en classe » des fiches sont des transpositions proposées, pas des faits.",
+    "deroule_type_seance": "Non attesté à BMC. Déduit du livre, à manier comme hypothèse de scénario : (1) une consigne brève, par exemple décrire à mesure ce qui arrive avec « maintenant » ; (2) le participant exécute l'exercice seul, dans le métro ou sa chambre ; (3) il note ses résistances (ennui, agacement, fatigue, fuite dans les pensées, besoin de ranger) sans se moraliser ; (4) il rend compte de ce qu'il a perçu, concret contre abstrait ; (5) l'enseignant refuse de juger la « réussite » et renvoie à l'élargissement de l'attention. Le livre annonce aussi que le travail est conçu pour créer des ennuis, afin de faire surgir le conflit (ID-02422).",
+    "exercices": [
+     {
+      "consigne": "Écrire ou dire des phrases qui commencent par « maintenant » ou « ici et maintenant », sans chercher l'extraordinaire (« maintenant mon nez me gratte », « ici et maintenant je le gratte »). Écrire aussi « Maintenant j'écris. Maintenant je m'ennuie. Maintenant je fuis. »",
+      "materiaux": "Papier et crayon. Aucun matériel particulier.",
+      "but": "Réhabiliter la banalité de l'actuel. Si l'actuel reste chroniquement terne, chercher ce qui empêche d'animer sa vie, et non se plaindre (ID-02403). Décrire ses fuites comme un comportement en cours, sans reproche (ID-02411).",
+      "refs": [
+       "ID-02403",
+       "ID-02411"
+      ]
+     },
+     {
+      "consigne": "Monologue « now » dans le métro. Renoncer à sa lecture habituelle et décrire à mesure ce qui arrive : « À cet instant je roule dans le métro. Maintenant le train se balance. Maintenant les gens se dirigent vers la sortie. Maintenant cet homme me regarde. Maintenant je me soucie de l'effet que je lui fais. » Deux volets : mettre « now » dans chaque phrase, et repérer ses résistances (ennui, agacement, fuite du sentiment d'actualité).",
+      "materiaux": "Un trajet en transport. Pour BMC, les fiches suggèrent seulement des transpositions non attestées : le trajet en bus vers le collège, la salle à manger, le lac.",
+      "but": "Éprouver le sentiment d'actualité et la différence entre concret et abstrait. Repérer ce qui éveille l'anxiété, masquée en fatigue, ennui ou impatience, et qui désigne la résistance (ID-02413). Les fiches notent aussi la difficulté de l'exercice et un long chemin entre lui et le sentiment plein d'actualité (ID-02415).",
+      "refs": [
+       "ID-02412",
+       "ID-02413",
+       "ID-02414",
+       "ID-02415"
+      ]
+     },
+     {
+      "consigne": "Ne pas se forcer à rester ici-et-maintenant quand on se retrouve en spectateur de soi (« je prends de moi une vue d'homme venu de Mars »). Remarquer seulement en détail ce que l'on fait. Ne pas se moraliser sur ses escapes dans le passé ou le futur, les énoncer comme comportement actuel : quelle rancune, gratitude, remords ou excuse présente fait anticiper l'avenir ?",
+      "materiaux": null,
+      "but": "Distinguer les deux fuites du présent : s'absenter dans le passé ou le futur, ou rester au présent mais hors de soi. La structure change d'elle-même avec l'awareness, sans répression ni culpabilisation.",
+      "refs": [
+       "ID-02408",
+       "ID-02411"
+      ]
+     },
+     {
+      "consigne": "Se dire rédacteur en chef de son attention. Remarquer d'où vient ce qu'on sait de la pièce : yeux, oreilles, peau, viscères ? Noter toute la gamme d'informations qui arrive à la rédaction, qu'on la « publie » ou non.",
+      "materiaux": null,
+      "but": "Prendre conscience des sources que l'on néglige : certains ne perçoivent que l'extérieur, d'autres que l'intérieur de leur peau.",
+      "refs": [
+       "ID-02405"
+      ]
+     },
+     {
+      "consigne": "Dresser des listes de paires d'opposés dont chaque terme exige l'autre (jour/nuit). Chercher le terme intermédiaire ou « point zéro » (début/fin : milieu ; passé/futur : présent ; désir/aversion : indifférence). Variante : chercher plusieurs inverses contextuels d'une même action. Exemple du livre pour « taper à la machine » : effacer, la lettre d'acceptation contre la lettre de démission, ou faire taper par un autre. Canotage et direction d'orchestre ne sont pas ses contraires.",
+      "materiaux": "Papier. Les fiches évoquent l'image d'une tache noire sur blanc pur, sans dire qu'elle ait été montrée.",
+      "but": "Comprendre que la perception opère par contraste : du blanc sur du blanc passe inaperçu, du noir sur du blanc intensifie les deux. La validité d'un contraire dépend du contexte, et il n'existe pas d'inverse parfait d'une activité très différenciée.",
+      "refs": [
+       "ID-02418",
+       "ID-02419",
+       "ID-02425"
+      ]
+     },
+     {
+      "consigne": "Décrire des situations vécues de « point mort » (repos) et de « freins serrés, moteur à fond » (conflit extrême), puis se demander laquelle des deux c'est vraiment. Après l'échec d'un plan, revenir explicitement au point zéro d'indifférence avant de choisir de nouveau (« creative pre-commitment »).",
+      "materiaux": null,
+      "but": "Voir le conflit entre deux forces égales et opposées, illustré par le pilote retenu par ses freins pendant que l'hélice tremble. Se tenir attentif aux deux directions sans s'engager, sans indécision chronique ni détachement.",
+      "refs": [
+       "ID-02420",
+       "ID-02421"
+      ]
+     },
+     {
+      "consigne": "Citer une de ses surcompensations (modestie compulsive, arrogance, « besoin d'être aimé ») et imaginer la tendance originelle inversée.",
+      "materiaux": null,
+      "but": "Repérer les inversions : la modestie compulsive couvre la cupidité, l'arrogance cache un tremblement. Le « besoin d'être aimé » naît surtout de la peur du rejet. Il faut « retourner » ce qui est sur la tête pour le remettre sur ses pieds.",
+      "refs": [
+       "ID-02424"
+      ]
+     },
+     {
+      "consigne": "Tenir un carnet de rêveries diurnes et les lire comme des inversions de frustrations présentes. Exemple : l'étudiante en zoologie qui note « Je ne dissèque pas le porc fœtal. Maintenant c'est lui qui me dissèque ! »",
+      "materiaux": "Un carnet.",
+      "but": "Le contenu de la rêverie indique la direction des besoins. Il vaut mieux suivre pratiquement les indications, moins grandioses que le fantasme, par exemple fréquenter la personne attirante de la rue plutôt que rêver d'une star.",
+      "refs": [
+       "ID-02426"
+      ]
+     },
+     {
+      "consigne": "Expérience 16 : à chaque repas, mâcher une seule bouchée jusqu'à liquéfaction, ne laisser aucun morceau échapper, le chercher avec la langue, le ramener en position, puis le boire. Éviter de compter les mouvements de mâchoire (fletchérisme). Contrepartie intellectuelle : prendre une phrase difficile d'un livre « viande dure », la démonter mot à mot, décider soi-même de sa clarté, sa vérité ou de son incompréhensibilité. Contrepartie émotionnelle : en colère, s'en prendre à une pomme ou à une croûte de pain, mâcher avec férocité, mordre et mâcher sans gober.",
+      "materiaux": "Une bouchée de nourriture à chaque repas. Un livre difficile pour la contrepartie intellectuelle. Une pomme ou une croûte de pain pour l'émotionnelle.",
+      "but": "Déloger et digérer les introjects, ces idées avalées toutes crues. Ressentir sa propre agressivité de destruction et d'assimilation, et se sentir agent actif. Le livre prévoit les résistances : s'oublier et avaler, manquer de temps, croire gâter le goût, être surpris par le dégoût.",
+      "refs": [
+       "ID-02544",
+       "ID-02541",
+       "ID-02543",
+       "ID-02545"
+      ]
+     },
+     {
+      "consigne": "Classer ses pensées du jour dans le schéma attribué à Freud : conscient, préconscient, inconscient. Quelles pensées pouvait-on regarder, lesquelles aurait-on pu regarder, lesquelles échappaient totalement ? (La consigne est seulement une proposition de transposition ; la fiche donne la théorie.)",
+      "materiaux": null,
+      "but": "Comprendre les classes : conscient (intentions introspectables), préconscient (accessible par un acte d'attention), inconscient (inaccessible au moi, domaine réservé du thérapeute) ; somatique-conforme et somatique ne sont pas des intentions.",
+      "refs": [
+       "ID-02598"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Freud : critique de son goût du passé, de la recherche de « causes » et d'excuses, de la révélation des cachotteries et de l'analyse des rêves en éléments séparés ; schéma de cinq classes du mental et du somatique (ID-02409, ID-02423, ID-02598)",
+     "Adler : critiqué pour son goût du futur, du plan de vie et de l'ambition (ID-02409)",
+     "Cybernétique et robots : image du robot opposée au routinisé (ID-02402)",
+     "Fletcher (« fletchérisme ») : mâchoire comptée, critiquée comme distraction de l'attention (ID-02544)",
+     "L'ouvrage collectif de 1951 est présenté par les fiches comme source unique de la matière (pages citées dans les fiches, p. 35 à 51, 193 à 201, 257)",
+     "Rapprochements avec Albers faits par les fiches (attention au matériel immédiat, études de contraste, apprendre par l'expérience) : ce sont des liens suggérés par l'extraction, pas des sources de BMC (ID-02402, ID-02418, ID-02547)"
+    ],
+    "propos_types": [
+     "Un robot de vous-même : vouloir maximiser l'automatisme et minimiser la conscience, c'est faire le chemin inverse des ingénieurs de la cybernétique ; l'automatisme est utile pour le routinier et libère l'attention pour le neuf, mais en faire un but de vie, c'est accueillir la mort avant l'heure (ID-02402).",
+     "Votre nez qui gratte est une expérience valable : n'exigez pas du merveilleux à chaque instant (ID-02403).",
+     "Ne cherchez pas ce qui manque, comme si, à l'appel, on demandait aux absents de crier leur nom ; élargissez l'attention et dissolvez les résistances une à une (ID-02404).",
+     "Vous êtes votre propre rédacteur en chef : que vous les publiiez ou non, remarquez toutes les sources d'information qui arrivent (ID-02405).",
+     "Prouver sa puissance (« ça a marché ») est la plus dangereuse des auto-tromperies ; calculer à l'avance si l'expérience vaudra l'effort, c'est débattre de son goût devant un repas servi ; une plante arrosée ne fleurit pas instantanément (ID-02406, ID-02407).",
+     "Freud regardait en arrière, Adler devant ; le patient, lui, n'était jamais là (ID-02409).",
+     "Vivre de façon futuriste, c'est répéter même l'entretien le plus banal et se trouver démuni quand l'imprévu arrive (ID-02410).",
+     "Décrivez simplement « c'est ainsi que je me comporte » : la structure change d'elle-même, sans moralisation (ID-02411).",
+     "Ce travail est conçu pour vous créer des ennuis, afin de faire surgir le conflit et montrer ensuite comment agir (ID-02422).",
+     "Ce qui bloque semble venir du dehors mais est de votre création ; la part résistante a de la vitalité et de la force (ID-02422).",
+     "L'analyste qui impose son évaluation fabrique une nouvelle morale compulsive en sens inverse ; le but est que vous deveniez celui qui juge, non celui qui est jugé (ID-02423).",
+     "Regardez comment vous buvez, littéralement : voulez-vous vos idées en sirop, prêtes à avaler, ou êtes-vous prêt à mâcher ? (ID-02541, formule proposée en classe, non attestée)",
+     "« Je suis impatient avec toi » veut dire « tu m'énerves parce que tu ne me donnes pas tout de suite ce que je veux, et je refuse l'effort de détruire les obstacles » (ID-02542).",
+     "Le dégoût est le désir de rejeter ce qui est indigeste, et il opère pareillement pour la nourriture perceptive ; la langue en témoigne : « tu me donnes mal au cœur » (ID-02545).",
+     "Ce que l'on cherche est l'effet de la découverte directe dans son propre fonctionnement non verbal, pas l'assentiment verbal (ID-02547)."
+    ],
+    "critique_et_evaluation": "Les fiches ne donnent aucune évaluation de cours à BMC. Dans le livre, le refus d'évaluer est affiché : réussir un test est une auto-tromperie (ID-02406), les auteurs ne cherchent pas à produire des preuves objectives (ID-02547), et l'analyste qui juge est critiqué (ID-02423). Les critères sont l'awareness et le changement réel de perspective, pas la réussite. Les auteurs voient dans l'ajournement (« je m'y mettrai cet été à la maison ») un rejet temporaire (ID-02547).",
+    "reactions_etudiants": "Aucune réaction d'étudiants de BMC n'est attestée. Les fiches rapportent seulement des comptes rendus d'étudiants anonymes du livre, sans lien établi avec le collège : l'étudiant honteux de n'avoir trouvé que « mon nez me gratte » (ID-02403) ; celui qui cherchait ce qui manquait (ID-02404) ; celui qui a déclaré l'expérience « complètement réussie » (ID-02406) ; celui qui calculait le rendement de l'expérience (ID-02407) ; celui de « l'homme de Mars » (ID-02408) ; l'étudiant dont la peur était un souffle profond avec constriction thoracique, qui voyait les objets de sa chambre « pour la première fois », puis dont la vision dans le métro était « multipliée par cent », jeu amusant mais épuisant (ID-02414) ; l'étudiant qui fletchérise jusqu'à la nausée et s'arrête deux fois (ID-02544).",
+    "evolution": "Aucune évolution de cours n'est attestée. Le livre note seulement qu'il y a un long chemin du simple exercice « now » à l'expérience complète de l'actualité (ID-02415).",
+    "refs": [
+     "ID-02402",
+     "ID-02403",
+     "ID-02404",
+     "ID-02405",
+     "ID-02406",
+     "ID-02407",
+     "ID-02408",
+     "ID-02409",
+     "ID-02410",
+     "ID-02411",
+     "ID-02412",
+     "ID-02413",
+     "ID-02414",
+     "ID-02415",
+     "ID-02418",
+     "ID-02419",
+     "ID-02420",
+     "ID-02421",
+     "ID-02422",
+     "ID-02423",
+     "ID-02424",
+     "ID-02425",
+     "ID-02426",
+     "ID-02541",
+     "ID-02543",
+     "ID-02544",
+     "ID-02545",
+     "ID-02547",
+     "ID-02598"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le « maintenant » : décrire à mesure ce qui arrive sans chercher l'extraordinaire, et repérer ses résistances (ennui, fuite, agacement).",
+    "en_classe": "Séance d'écriture sur le trajet vers le collège, dans la salle à manger ou au bord du lac, avec la consigne « Maintenant… », puis un retour sur les résistances sans jugement. Transposition non attestée à BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-02403",
+     "ID-02411",
+     "ID-02412",
+     "ID-02413"
+    ]
+   },
+   {
+    "idee": "Contraste et opposés : une chose n'est perçue que par sa différence avec son fond ; les opposés ont un terme intermédiaire.",
+    "en_classe": "Ouvrir une séance par des paires d'opposés, chercher le point zéro, relier à la perception (blanc sur blanc / noir sur blanc). Les fiches y voient une résonance avec les études de contraste d'Albers : lien proposé, pas prouvé.",
+    "atteste": "non",
+    "refs": [
+     "ID-02418",
+     "ID-02419",
+     "ID-02425"
+    ]
+   },
+   {
+    "idee": "Équilibre et petite force : quand de grandes forces s'équilibrent, une petite force ajoutée produit de grands changements ; le débutant à vélo surcompense, l'expert corrige avant le déséquilibre.",
+    "en_classe": "Conversation de physique-fiction avec balance, ascenseur, vélo, en écho à l'équilibre en art. Non attesté.",
+    "atteste": "non",
+    "refs": [
+     "ID-02417"
+    ]
+   },
+   {
+    "idee": "Point mort et freins serrés : distinguer le repos du conflit extrême ; revenir au point zéro après un échec avant de se réengager (« creative pre-commitment »).",
+    "en_classe": "Faire décrire des situations vécues et décider de quel cas il s'agit ; après un projet raté, revenir explicitement à l'indifférence avant de choisir. Non attesté.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02420",
+     "ID-02421"
+    ]
+   },
+   {
+    "idee": "Fuir le présent par le passé ou le futur : critique de Freud (le passé comme excuse) et d'Adler (le futur comme plan et ambition).",
+    "en_classe": "Conversation : où est-on quand on prépare à l'avance l'entretien ou qu'on blâme ses parents ? Non attesté.",
+    "atteste": "non",
+    "refs": [
+     "ID-02409",
+     "ID-02410"
+    ]
+   },
+   {
+    "idee": "Les résistances sont des conflits entre deux parts de soi ; il faut réclamer la part résistante pour en faire un assistant, non la juger.",
+    "en_classe": "Annoncer d'emblée que l'exercice est fait pour déranger et que le dérangement est le matériau ; discuter de qui décide ce qui est « résistance » chez l'autre (séduction de l'expert). Rapproché par les fiches de l'anti-autoritarisme pédagogique de BMC, sans preuve.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02422",
+     "ID-02423"
+    ]
+   },
+   {
+    "idee": "Introjection, mastication et agressivité orale : avaler tout rond les aliments comme les idées ; mâcher, détruire et assimiler.",
+    "en_classe": "Une bouchée par repas, une phrase difficile par chapitre, avec la même discipline de destruction et d'assimilation ; comparer la façon de manger à la façon de lire. Non attesté.",
+    "atteste": "non",
+    "refs": [
+     "ID-02543",
+     "ID-02544",
+     "ID-02541",
+     "ID-02546"
+    ]
+   },
+   {
+    "idee": "Le dégoût comme rejet de ce qui est indigeste, aussi pour la nourriture perceptive ; le langage dit l'identité du digestif et du psychique.",
+    "en_classe": "Recenser en classe les expressions courantes de nausée appliquées à des situations psychologiques. Non attesté.",
+    "atteste": "non",
+    "refs": [
+     "ID-02545"
+    ]
+   },
+   {
+    "idee": "Apprendre par l'expérience directe sur soi plutôt que par l'argument : seul compte ce que l'on prouve soi-même.",
+    "en_classe": "Position rapprochée par les fiches de la pédagogie du faire d'Albers et de BMC ; à traiter comme convergence supposée, non comme influence documentée.",
+    "atteste": "non",
+    "refs": [
+     "ID-02547",
+     "ID-02402"
+    ]
+   },
+   {
+    "idee": "Concret contre abstrait : les intellectuels parlent à partir de mots empruntés et vivent l'awareness d'abord comme un travail pénible.",
+    "en_classe": "Scène possible : un enseignant intellectuel essayant l'exercice seul dans sa chambre, ou comparaison avec les enfants de la communauté, dont les résistances sont négligeables selon le livre. Pur parti pris de mise en scène, non attesté.",
+    "atteste": "non",
+    "refs": [
+     "ID-02414",
+     "ID-02416"
+    ]
+   },
+   {
+    "idee": "Les rêveries et rêves comme inversions spontanées des besoins ; surcompensations comme inversions.",
+    "en_classe": "Carnet de rêveries diurnes lues comme inversions de frustrations présentes ; demander une surcompensation personnelle et la tendance originelle inversée. Non attesté.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02424",
+     "ID-02426"
+    ]
+   },
+   {
+    "idee": "Les trois niveaux du conscient chez Freud et le schéma du préconscient.",
+    "en_classe": "Classer ses pensées du jour en regardables, regardables sur attention, échappant totalement. La fiche présente la théorie comme celle d'un ouvrage collectif d'un ancien enseignant d'été de BMC, sans que les fiches établissent un cours.",
+    "atteste": "non",
+    "refs": [
+     "ID-02598"
+    ]
+   }
+  ]
+ }
+}

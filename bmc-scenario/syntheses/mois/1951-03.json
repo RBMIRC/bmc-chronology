@@ -1,0 +1,192 @@
+{
+ "passe": "mois",
+ "cle": "1951-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 14058,
+  "sortie": 11477,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "mars 1951 (1951-03)",
+  "session": "Trimestre de printemps, déduit : les fiches ne nomment pas la session de mars.",
+  "saison_et_climat": "Printemps (déduit). Au Yucatan, fouilles dans la poussière et la chaleur, qu'évoquent les fiches ; en Caroline du Nord, redoux printanier (déduit, les fiches ne décrivent pas le climat).",
+  "situation": "Le collège est à un creux. Le groupe qui l'avait reconstruit depuis 1949 se défait au printemps après une dernière ronde de factionnalisme. Olson, qui doit devenir la figure dominante, est absent : il fouille au Yucatan et écrit à Creeley depuis le Mexique. Il n'est pas encore recteur officiel. La faculté résidente se réduit presque à rien, et les candidatures aboutissent rarement. On attend l'été, où Richards lui laisse sa place.",
+  "presents_probables": [
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Pittenger",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Corkran",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Paul Leser",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bill Levi",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1951-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Fouilles sur la route côtière au Yucatan : Olson et Constance rapportent tessons et petites têtes et pieds, puis Olson déterre seul sa première pierre hiéroglyphique plus au sud.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05493",
+     "SC-01449"
+    ]
+   },
+   {
+    "date": "1951-03-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Lettre d'Olson depuis Lerma : la touche f de sa machine casse et la lettre s'achève en jurons.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01450"
+    ]
+   },
+   {
+    "date": "1951-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson est au Yucatan pour quatre ou cinq mois. La date de départ est discordante : fin 1950 selon Dawson, février 1951 selon Harris.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1951"
+    ]
+   },
+   {
+    "date": "1951-02-18",
+    "precision": "jour",
+    "ce_qui_arrive": "Début de la série de dix-sept lettres d'Olson à Creeley (les Mayan Letters), qui court jusqu'au 1er juillet.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1951"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "saison",
+    "ce_qui_arrive": "Au printemps, le groupe fondateur de 1949 (Natasha Goldowski, les quakers, Pittenger, Trayer, Corkran) quitte le collège, certains avec dégoût.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1951"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches décrivent peu la vie ordinaire de mars. Ce qu'on sait : les cours et l'atelier tournent sans Olson, et la correspondance mexicaine sert de seul fil avec le collège. Le quotidien matériel (lait, œufs, haricots rouges, corde à linge) est documenté à l'automne, non en mars. On peut le supposer tout aussi précaire (déduit).",
+  "tensions": [
+   "Dernière ronde de factionnalisme : les alignements sont inextricables, et chacun assure que les autres sources se trompent.",
+   "Départ du groupe qui avait reconstruit le collège depuis 1949, certains à contrecœur.",
+   "Les personnalités de Natasha et de Bill Levi pèsent plus que les enjeux pédagogiques.",
+   "Le mariage de Bill Levi se défait ; M.C. Richards traverse ce que Dawson tient pour sa période la plus basse, dont personne ne parle.",
+   "Autorité de facto incertaine pendant l'absence d'Olson, qui n'est reconnu recteur officiel qu'en 1954.",
+   "Faculté résidente réduite presque à rien, et candidatures sans suite.",
+   "Discordance : Lane dit Richards partie en 1951, Dawson la fait enseigner à l'automne."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Fouilles sur la route côtière",
+    "date": "1951-03",
+    "lieu": "route côtière, Yucatan",
+    "personnages": [
+     "Charles Olson",
+     "Constance Wilcock"
+    ],
+    "deroule": "Depuis la fenêtre d'un bus de troisième classe, Olson repère quelque chose. Le couple rapporte des sacs de tessons et de petites têtes et pieds. Le lendemain, seul et plus au sud, il déterre sa première pierre gravée, puis interrompt une lettre à Creeley, les nerfs tendus vers les ruines.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05493",
+     "SC-01449"
+    ]
+   },
+   {
+    "titre": "La touche f cassée",
+    "date": "1951-03-17",
+    "lieu": "Lerma, Mexique",
+    "personnages": [
+     "Charles Olson"
+    ],
+    "deroule": "Lettre fiévreuse ouverte par « christamiexcited ». La touche f casse, les jurons s'enchaînent et finissent par « fuck it ». La machine participe à l'écriture.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01450"
+    ]
+   },
+   {
+    "titre": "La dernière ronde",
+    "date": "1951",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Natasha Goldowski",
+     "Bill Levi",
+     "M.C. Richards",
+     "Pittenger",
+     "Trayer",
+     "Corkran"
+    ],
+    "deroule": "Réunion ou querelle de faculté où les alignements se croisent et où chacun accuse les autres de se tromper. Les personnalités l'emportent sur les enjeux pédagogiques, et l'on voit partir ceux qui ont reconstruit le collège. La scène est probable, non attestée à une date précise.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1951"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Mars, au Mexique : Olson relit ses fouilles et le moment où il a quitté le collège.",
+    "vers_date": "1950-12",
+    "vers": "Départ d'Olson pour le Yucatan à la fin de 1950 selon Dawson (en février 1951 selon Harris). Discordance à conserver dans la mise en scène.",
+    "refs": [
+     "synthèse 1951"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, la première pierre gravée déterrée sur la route côtière.",
+    "vers_date": "1951-07",
+    "vers": "Le Glyph Exchange de l'été : Olson écrit « Glyph (For Alvin & the Shahns) », Shahn répond, Harrison et Litz travaillent le motif. L'écriture glyphique devient un jeu collectif.",
+    "refs": [
+     "EV-05493",
+     "SC-01449",
+     "synthèse 1951"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, au moment où le groupe fondateur se défait.",
+    "vers_date": "1951",
+    "vers": "Natasha part un an à Paris, avec moins d'aménité. Les Trayer vont cultiver à Earlham. Paul Leser rejoint Hartford Seminary pour le salaire, malgré sa lettre du 24 avril sur son amour du collège.",
+    "refs": [
+     "synthèse 1951"
+    ]
+   }
+  ],
+  "motifs": [
+   "Écrire comme fouiller : le glyphe, le tesson et la pierre.",
+   "Absence du poète et vacance de l'autorité au collège.",
+   "Le collectif défait par les querelles de personnes plus que par les idées.",
+   "La lettre comme seul fil entre le collège et ses membres absents.",
+   "La machine à écrire et le corps engagés dans la langue."
+  ],
+  "lacunes": "Les fiches ne donnent ni la session exacte de mars, ni le détail de la vie quotidienne, ni la présence effective de Richards, Dawson, Sprague, Adams, des Harding ou de Bill Levi en mars. La date de départ d'Olson est discordante (fin 1950 ou février 1951). La date du départ du groupe est seulement dite « au printemps ». La synthèse 1951 et les fils n'ont pas d'identifiant de fiche : ils sont cités ici comme « synthèse 1951 ». Le climat et la saison sont déduits."
+ }
+}

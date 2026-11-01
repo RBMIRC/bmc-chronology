@@ -1,0 +1,305 @@
+{
+ "passe": "mois",
+ "cle": "1942-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3407,
+  "sortie": 15589,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-05",
+  "session": "Trimestre de printemps, probable : les fiches parlent de trimestres et d'un trimestre d'automne, mais ne datent pas la session de printemps",
+  "saison_et_climat": "Fin de printemps dans les Appalaches de Caroline du Nord, à Lake Eden. Aucune fiche ne décrit le temps ce mois-ci.",
+  "situation": "Le collège entre dans sa deuxième année de guerre avec une précarité sans répit. La grande grange de Kocher et Godfrey, commencée à l'été 1941, est censée être achevée au printemps : elle est peut-être terminée ce mois-ci. La question qui pèse est l'accréditation : sans droit de délivrer des diplômes, le collège ne peut entrer dans les programmes militaires qui donnent des sursis. Wunsch multiplie les démarches : pétition au Selective Service (5 au 14 mai, réponse évasive), visite à Huntley le 24 mai, lettres à une dizaine d'universités étalées de mai à juillet. Le manuscrit de Rice vient d'être livré avec un chapitre sur Black Mountain. La campagne de fonds se prépare pour l'été.",
+  "presents_probables": [
+   {
+    "nom": "Wunsch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lindsley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Boyden",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Babcock",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "French",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bliss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1942-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Remise du manuscrit de Rice, neuf mois après l'échéance promise, avec un chapitre sur Black Mountain ajouté à la demande de l'éditeur Canfield.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03307"
+    ]
+   },
+   {
+    "date": "1942-05",
+    "precision": "semaine",
+    "ce_qui_arrive": "Pétition du collège au National Selective Service Board pour épargner les professeurs les plus âgés (écrit à partir du 5 mai). Le Major T. Upton répond le 14 mai que chaque cas sera décidé par les bureaux locaux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03308"
+    ]
+   },
+   {
+    "date": "1942-05-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Wunsch rencontre Huntley, secrétaire exécutif de la Southern Association, qui s'étonne que le collège n'ait pas déjà le droit de délivrer des diplômes. Wunsch rédige un rapport dactylographié d'une page.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03309",
+     "EV-03310"
+    ]
+   },
+   {
+    "date": "1942-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Wunsch écrit à une dizaine d'universités pour obtenir un quota dans les programmes militaires. Antioch, Swarthmore, Reed et l'Université de Caroline du Nord répondent favorablement, mais les dates de ces réponses ne sont pas données.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "Achèvement de la grande grange de Kocher et Godfrey, commencée à l'été 1941, prévu au printemps.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Début probable de la campagne de fonds menée par Albers, Kocher, Mangold et Dreier, qui occupe presque tout l'été. Sa date de départ n'est pas précisée.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les journées suivent le chantier communautaire lancé en 1940 : cours le matin et le soir, après-midi consacrés au travail volontaire, pour près de trois ans. Les bras vont à la ferme (troupeaux, légumes) et à la construction, dont la laiterie et les silos suivront l'été et l'automne. L'atelier de menuiserie est en train de devenir le cœur du programme de construction, même si Molly Gregory ne le reprend qu'après le départ de Bliss. Les bals du samedi, les spectacles et les soirées musicales existent, mais leurs dates précises (1942 ou 1943) ne sont pas fixées dans les fiches.",
+  "tensions": [
+   "Argent : la faculté a déjà donné sa main-d'œuvre et refuse de donner plus de 10 $ par mois et par personne. Certains refusent des postes ailleurs, dont un à 10 000 $. Selon la synthèse, une seconde hypothèque de 18 000 $ s'ajoute à un solde de 11 500 $ au cours de l'été.",
+   "Accréditation : la North Carolina Conference refuse le droit de diplômer (bibliothèque trop maigre, revenu garanti, salaires inférieurs aux minima). Le collège doit prouver le contraire pour obtenir un quota.",
+   "Conscription : les professeurs les plus âgés dépendent de décisions locales, et le collège ne peut pas compter sur une dispense générale.",
+   "Image publique : le chapitre de Rice n'est pas encore publié, mais il annonce la réaction de Hamilton Holt et un contentieux à venir."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Wunsch face à Huntley",
+    "date": "1942-05-24",
+    "lieu": null,
+    "personnages": [
+     "Wunsch",
+     "C. Huntley"
+    ],
+    "deroule": "Wunsch s'entretient avec Huntley, qui juge incompréhensible que le collège n'ait pas le droit de diplômer neuf ans après sa charte. Huntley croit que le collège ne l'a jamais demandé. Wunsch rentre au collège avec de quoi rédiger son rapport d'une page.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03309",
+     "EV-03310"
+    ]
+   },
+   {
+    "titre": "La réponse du Selective Service",
+    "date": "1942-05-14",
+    "lieu": null,
+    "personnages": [
+     "Wunsch",
+     "Major T. Upton"
+    ],
+    "deroule": "Le collège attend une réponse à sa pétition. Le Major Upton répond que chaque professeur sera jugé par les bureaux locaux. Aucune dispense générale n'est accordée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03308"
+    ]
+   },
+   {
+    "titre": "Le manuscrit arrive, en retard",
+    "date": "1942-05",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "Canfield"
+    ],
+    "deroule": "Le manuscrit, promis neuf mois plus tôt, arrive avec le chapitre sur Black Mountain que l'éditeur avait demandé. Canfield y voit une expérience d'une importance exceptionnelle.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03307"
+    ]
+   },
+   {
+    "titre": "Les lettres aux universités",
+    "date": "1942-05",
+    "lieu": null,
+    "personnages": [
+     "Wunsch"
+    ],
+    "deroule": "Wunsch envoie une dizaine de lettres à des universités. Les réponses favorables d'Antioch, Swarthmore, Reed et de l'Université de Caroline du Nord arrivent peu à peu, et le quota dans les programmes militaires devient possible.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La grange achevée",
+    "date": "1942",
+    "lieu": "Lake Eden, grange de Kocher et Godfrey",
+    "personnages": [
+     "Kocher",
+     "Godfrey"
+    ],
+    "deroule": "La grande grange, commencée à l'été 1941, est terminée au printemps. La communauté passe ensuite à la laiterie et aux silos à maïs.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le plan de campagne de l'été",
+    "date": "1942-05",
+    "lieu": null,
+    "personnages": [
+     "Albers",
+     "Kocher",
+     "Mangold",
+     "Dreier"
+    ],
+    "deroule": "Les quatre hommes préparent la collecte de fonds qui occupera l'été, alors que la faculté a déjà donné sa main-d'œuvre et refuse de donner davantage.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Mai 1942, à l'arrivée du manuscrit de Rice",
+    "vers_date": "1941-08",
+    "vers": "L'échéance promise à Canfield pour août 1941, dont le retard de neuf mois est la mesure de la relation entre Rice et le collège.",
+    "refs": [
+     "EV-03307"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le 24 mai, dans la discussion avec Huntley",
+    "vers_date": "1933",
+    "vers": "L'incorporation et la charte de 1933, dont le collège n'a pas demandé le droit de diplômer, selon Huntley.",
+    "refs": [
+     "EV-03310"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mai 1942, la grange en voie d'achèvement",
+    "vers_date": "1941-05",
+    "vers": "L'installation à Lake Eden en mai 1941, puis le début de la grange l'été suivant.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La campagne de fonds de l'été",
+    "vers_date": "1942-07",
+    "vers": "Le 7 juillet, Mangold résume environ 78 000 $ de dons en deux ans, tous absorbés par la construction.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les lettres aux universités",
+    "vers_date": "1942-10-16",
+    "vers": "Le 16 octobre, Fortune envoie un télégramme d'enquête sur les effets de la guerre, et le collège répond par une page dactylographiée.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La campagne de fonds et le manque d'argent",
+    "vers_date": "1942",
+    "vers": "L'automne apporte les Hansgirg, une Cadillac crème, un orgue Hammond, et la découverte de mica dans le pâturage, qui fait naître un espoir de revenu.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le manuscrit et le chapitre sur Black Mountain",
+    "vers_date": "1942-11",
+    "vers": "Publication de l'autobiographie de Rice, I Came Out of the Eighteenth Century. Les critiques sont élogieuses, et Hamilton Holt menace d'un procès en libelle.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les tensions sur l'accréditation et la mise en place des programmes",
+    "vers_date": "1944",
+    "vers": "La fracture idéologique de 1944 : Sam Brown date de l'automne 1942 le début du glissement vers une situation informe. Les fiches ne prouvent pas que cela se joue déjà en mai 1942.",
+    "refs": [
+     "chapitre 1942 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "La légitimité par le papier : charte, accréditation, diplôme",
+   "L'argent qui tient la communauté debout et l'use",
+   "La guerre comme ressource (sursis, programmes) et comme vide (départs)",
+   "L'autosuffisance agricole et artisanale",
+   "L'image publique : Rice, Holt, Fortune"
+  ],
+  "lacunes": "On ignore la date de départ de la campagne de fonds et celle de réception de la plupart des réponses universitaires : le quota est daté 1942 sans mois. On ne sait pas si la grange est achevée en mai ou plus tôt. La session de printemps n'est pas datée. Les bals et spectacles (1942 ou 1943) ne le sont pas non plus. Les fiches EV-03309 et EV-03310 décrivent la même rencontre (24 mai, Duberman p.484 et p.484-485) : c'est un doublon, pas deux événements. Aucune fiche ne décrit le climat ni la présence exacte des professeurs en mai."
+ }
+}

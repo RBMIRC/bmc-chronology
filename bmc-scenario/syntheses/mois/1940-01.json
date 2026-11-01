@@ -1,0 +1,234 @@
+{
+ "passe": "mois",
+ "cle": "1940-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6038,
+  "sortie": 18337,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-01",
+  "session": "hiver 1940 (trimestre ou session précise non donnés par les fiches)",
+  "saison_et_climat": "Hiver. Les fiches ne décrivent pas le temps. Le site de Lake Eden est sur un flanc de montagne (EV-03086), donc froid et neige sont plausibles (déduction prudente). Les présentations ont lieu à New York, au MoMA.",
+  "situation": "Le collège vit une crise ouverte sur l'avenir de son fondateur. John Andrew Rice, en congé depuis l'automne 1939, est retiré à Southern Pines. Le conseil a décidé, sur fond de précarité financière, de ne pas le reprendre (EV-03081). Wunsch lui rend visite pour obtenir une démission que Rice refuse de laisser formuler (SC-00785). Dans le même temps, la faculté se tourne vers l'avenir : elle confie à Gropius et Breuer les bâtiments principaux de Lake Eden (EV-03082), puis la maquette est présentée au MoMA les 9 et 10 janvier, ce qui lance une campagne de levée de fonds à l'échelle nationale (EV-03086, SC-00786, SC-00787). Le collège vend donc son avenir sur plans pendant qu'il règle en interne une crise de direction.",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice (absent, retiré à Southern Pines)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Max Wilhelm Dehn Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Walter Gropius",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Marcel Breuer",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bailleurs de fonds et donateurs (MoMA)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dreier (campagne menée depuis le MIT ; présence en janvier non attestée)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Étudiants (effectif non donné)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Le conseil décide de ne pas miser sur le retour de Rice : trop de problèmes extérieurs pour risquer une difficulté interne majeure, et des promesses non tenues. Une nouvelle mission de Wunsch à Southern Pines, avec Nell Rice, en découle ; la fiche ne donne pas sa date.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03081"
+    ]
+   },
+   {
+    "date": "1940-01",
+    "precision": "mois",
+    "ce_qui_arrive": "La faculté charge Gropius et Breuer de concevoir les bâtiments principaux du nouveau campus de Lake Eden, un mois avant la démission de Rice. Le départ du fondateur coïncide ainsi avec le début du second campus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03082"
+    ]
+   },
+   {
+    "date": "1940-01-09",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion de levée de fonds au MoMA : Gropius et Breuer présentent la maquette de maisons vitrées sur pilotis ; Albers lit un texte sur l'auto-éducation et l'expérience. Une source parle d'une allocution de trois pages, une autre d'un texte non titré : il peut s'agir d'un même texte.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03083",
+     "EV-03084",
+     "SC-00786"
+    ]
+   },
+   {
+    "date": "1940-01-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Le Herald Tribune rend compte du projet : maisons allongées à pans de verre sur pilotis, sur la terre achetée en 1937. Gropius vante « letting the life form the house », Albers attaque le stigmate du mot « académique » et défend l'auto-éducation. La maquette est photographiée. Publicité nationale pour le collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03085",
+     "EV-03086",
+     "EV-03087",
+     "EV-03088",
+     "SC-00787"
+    ]
+   },
+   {
+    "date": "1940-01-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Article du Herald Tribune « Gropius Finds a College Run by Teamwork » (p. 11) sur la visite de Gropius au collège. La date de l'article est donnée, mais celle de la visite elle-même ne l'est pas.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03089"
+    ]
+   },
+   {
+    "date": "1940-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Première visite de Wunsch à Rice à Southern Pines. Wunsch vient chercher la démission, Rice l'empêche de formuler la demande et le fait dépasser son temps. Wunsch repart sans trancher, puis écrit une lettre courtoise où il loue un Rice « calme, amical et sage ». La synthèse place cette visite entre fin décembre et janvier.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00785"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire de janvier 1940 : ni cours, ni repas, ni travaux, ni musique. On sait seulement que le collège occupe déjà le site de Lake Eden, acheté en 1937 (EV-03086), sans bâtiment encore construit, et que Josef Albers dirige le département d'art (EV-03086). Il est raisonnable de penser que cours et réunions de faculté continuent, sous la pression des dépenses.",
+  "tensions": [
+   "Le conseil a tranché sans Rice, qui n'a pas encore été confronté à la décision ; Wunsch et Rice s'affrontent en silence (SC-00785).",
+   "Écart entre l'image publique et la réalité : le MoMA présente un campus d'architectes de Harvard « letting the life form the house » alors que les bâtiments restent sur plans (EV-03087, SC-00786).",
+   "La précarité financière rend le conflit interne insupportable et pèse sur chaque décision (EV-03081).",
+   "Albers qualifie les masses d'improductives et sans créativité (EV-03086) : propos susceptibles de heurter les donateurs qu'il est censé séduire (déduit).",
+   "Les architectes sont à la fois bâtisseurs du campus et figures du Bauhaus exilé, et le coût de leur projet n'est pas encore un problème documenté pour janvier (déduit)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le chat et la souris : première visite de Wunsch à Southern Pines",
+    "date": "1940-01",
+    "lieu": "Southern Pines",
+    "personnages": [
+     "John Andrew Rice",
+     "Max Wilhelm Dehn Wunsch"
+    ],
+    "deroule": "Wunsch vient chercher une démission ; Rice l'empêche de la formuler et le fait dépasser son temps. Wunsch lutte intérieurement puis repart. Par lettre, il loue ensuite un Rice « calme, amical et sage », avec « quelque chose de l'esprit d'autrefois ». L'enjeu : obtenir ou non la démission du fondateur.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00785"
+    ]
+   },
+   {
+    "titre": "Gropius et Breuer présentent la maquette au MoMA",
+    "date": "1940-01-09",
+    "lieu": "Museum of Modern Art, New York",
+    "personnages": [
+     "Walter Gropius",
+     "Marcel Breuer",
+     "Josef Albers",
+     "bailleurs de fonds"
+    ],
+    "deroule": "Réunion de levée de fonds : Gropius évoque son séjour au collège et l'esprit de coopération ; avec Breuer, il présente la maquette des maisons vitrées sur pilotis. Albers, en visiteur vedette, livre sa profession de foi éducative (« One can suffocate from knowledge, never from experience »). Les photographes du Herald Tribune saisissent les deux architectes autour de la maquette.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00786",
+     "EV-03083",
+     "EV-03084"
+    ]
+   },
+   {
+    "titre": "Présentation de la maquette au MoMA",
+    "date": "1940-01-10",
+    "lieu": "Museum of Modern Art, New York",
+    "personnages": [
+     "Walter Gropius",
+     "Marcel Breuer"
+    ],
+    "deroule": "Les deux architectes de Harvard présentent la maquette des bâtiments projetés pour Black Mountain ; un photographe du Herald Tribune saisit la scène. Mise en scène publique de l'héritage du Bauhaus en Amérique. Le campus de rêve ne sera jamais bâti tel quel.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00787",
+     "EV-03088",
+     "EV-03087"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Janvier 1940, pendant que le conseil délibère sur le cas Rice",
+    "vers_date": "1939",
+    "vers": "Automne 1939 : Rice part en congé et se retire à Southern Pines, après une facture de réparation de 145 $ liée à un accident de voiture (probable déclencheur selon Duberman), sur fond de liaison avec une étudiante et de perte générale de confiance. Source : synthèse 1940, sans identifiant de fiche.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1940, après la décision du conseil et la première visite de Wunsch",
+    "vers_date": "1940-02",
+    "vers": "Février : deuxième conférence à Southern Pines, avec Nell Rice. Rice propose de revenir en habitant la maison de pierre ; Nell énumère les promesses rompues. Le 16 février, Wunsch écrit que la moitié de la faculté ne peut affronter une nouvelle lutte interne. La démission, datée du 17 février selon Chaddock, part par retour de courrier.",
+    "refs": [
+     "EV-03081",
+     "SC-00785"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1940, au moment de la commande aux architectes",
+    "vers_date": "1940-06",
+    "vers": "Juin puis juillet : Gropius et Breuer jugés trop coûteux. Dreier correspond avec Kocher, les deux architectes, vexés, le recommandent mais acceptent de le conseiller. Le campus rêvé est abandonné au profit d'une seule aile conçue par Kocher et bâtie par la communauté.",
+    "refs": [
+     "EV-03082",
+     "EV-03087"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1940, après la levée de fonds au MoMA",
+    "vers_date": "1940",
+    "vers": "Printemps et été : la campagne des deux millions, menée par Dreier, s'effondre quand la France tombe et que la peur gagne les donateurs. La YMCA menace le bail de Blue Ridge pour une école de filles. En mai, le collège dégage 3 000 $ pour un tracteur Farmall et un wagon de ciment.",
+    "refs": [
+     "EV-03086"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1940, la maquette montrée à New York",
+    "vers_date": "1940-09-12",
+    "vers": "Le 12 septembre, le chantier de Lake Eden est ouvert avec l'objectif « roof by Christmas ». Les photographies du chantier serviront ensuite à séduire donateurs et Maison-Blanche.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1940, les bâtiments encore sur plans",
+    "vers_date": "1940",
+    "vers": "Le Studies Building est construit vers 1940-41, sans que le projet Gropius-Breuer soit réalisé tel quel.",
+    "refs": [
+     "EV-03087"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le fondateur écarté par une décision de conseil et un silence négocié",
+   "Un campus vendu sur plans avant d'exister",
+   "« letting the life form the house » : la vie qui façonne le bâtiment",
+   "Auto-éducation et expérience contre l'académisme",
+   "Le Bauhaus exilé et l'image américaine du collège",
+   "L'argent comme cause silencieuse de chaque décision"
+  ],
+  "lacunes": "Les fiches ne décrivent ni la vie quotidienne, ni le climat, ni l'effectif étudiant ou enseignant de janvier 1940. La date de la première visite de Wunsch oscille entre fin décembre 1939 et janvier. Les fiches EV-03083 et EV-03084 décrivent peut-être la même allocution d'Albers. Les fiches datent la présentation au MoMA tantôt du 9 janvier (SC-00786, EV-03083, EV-03084), tantôt du 10 (EV-03086, EV-03088, SC-00787) : il peut s'agir de deux jours ou de deux récits d'un même événement. La fiche EV-03089 date l'article, mais pas la visite qu'il rapporte. Nell Rice n'est pas attestée en janvier. La session exacte, la présence de Dreier, d'Anni Albers ou de Kocher en janvier restent inconnues. La menace YMCA sur Blue Ridge n'est pas située dans le temps par les fiches."
+ }
+}

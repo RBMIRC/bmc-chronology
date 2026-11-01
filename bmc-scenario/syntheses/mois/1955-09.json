@@ -1,0 +1,288 @@
+{
+ "passe": "mois",
+ "cle": "1955-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 7883,
+  "sortie": 15583,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1955-09",
+  "session": "Fin d'été, probablement entre deux sessions (déduit : aucune fiche ne nomme la session d'automne 1955 ni sa date de rentrée)",
+  "saison_et_climat": "Fin d'été 1955. Les fiches ne décrivent ni la météo ni le paysage de septembre ; seuls les textes d'octobre suggèrent que l'automne commence.",
+  "situation": "Le collège survit réduit mais debout après la crise de mars-juin et un été dégradé. La forclusion a été évitée de justesse grâce aux 5 250 $ réunis par la famille Fiore, mais les salaires arriérés restent impayés et la nourriture est rare. Le 5 septembre, la remise du diplôme de Rumaker est la dernière scène collective que les sources donnent pour ce mois. Rumaker, Fick et Dorn sont les derniers diplômés. Duncan écrit depuis Majorque, absent. Rumaker doit partir après la cérémonie, et l'effectif, bientôt remonté de neuf à douze puis à une quinzaine, ne se reconstitue qu'après.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Joseph Fiore",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Stefan Wolpe",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tom Field",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ed Dorn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fick (diplômé avec Rumaker)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Richard Bogart",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Robert Creeley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Kaiser",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jerry Van de Wiele",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Chamberlain",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Wieners",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1955-09-05",
+    "precision": "jour",
+    "ce_qui_arrive": "Remise du diplôme de Rumaker à la Minimum House des Fiore : Joe Fiore calligraphie à regret un diplôme demandé au dernier moment, Olson l'annonce avec « Summa cum laude » en lettres bleues. Rumaker, épuisé, reste silencieux. Richard Bogart est absent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06742",
+     "SC-01825"
+    ]
+   },
+   {
+    "date": "1955-09-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Duncan écrit depuis Banalbufar, à Majorque, à Olson et Creeley pour appuyer la recommandation de Rumaker : il reconnaît un univers Rumaker, mais s'impatiente de sa manière d'écrire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06743"
+    ]
+   },
+   {
+    "date": "1955-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker brûle ses manuscrits près des Stables, puis part le lendemain matin en auto-stop vers le nord. Les sources ne précisent pas si le feu précède ou suit la cérémonie.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1955 (synthèse)"
+    ]
+   },
+   {
+    "date": "1955-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Contrepoint extérieur : à Cassel, pour la première Documenta, « Bill » fait inclure deux verres sablés d'Albers et deux Homage to the Square récents.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06731"
+    ]
+   }
+  ],
+  "quotidien": "Vie resserrée : cuisine commune par groupes de trois à cinq, réfectoire fermé, moitié basse du campus à l'abandon, ferme à l'arrêt, forêts louées aux bûcherons. On se retrouve au Ma Peak's, à Asheville ou au softball du dimanche. Les fêtes ont désormais lieu dans le hall de Streamside. Les étudiants se partagent les tâches de réparation (camions, plomberie, tables, réfrigérateurs) qu'Olson brocante pour garder l'école à flot.",
+  "tensions": [
+   "Rumaker a tenté de se suicider fin août : il porte encore des pansements, et sa détresse sous la fête du diplôme est visible.",
+   "Le diplôme honore l'élève tout en le blessant : l'éclat du « Summa cum laude » contraste avec son épuisement, et Olson cherche à se faire pardonner quelque chose.",
+   "Richard Bogart reste indifférent aux sentiments de Rumaker, et Olson doit demander pardon à Richard après sa visite à la porte de Rumaker.",
+   "Les dettes pèsent toujours : salaires impayés, reconnaissance de dette Bovingdon de Rumaker, pas de chauffage ni de charbon.",
+   "Les amours sont compliquées : Olson et Betty Kaiser alors qu'il est marié à Connie, Connie et Chamberlain après la fête de mai, Creeley englué dans sa rupture.",
+   "Le collège est en réputation de ville fantôme et reste fragile, avec des visiteurs et des acheteurs potentiels qui repartent sans rien."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le diplôme en lettres bleues",
+    "date": "1955-09-05",
+    "lieu": "Minimum House des Fiore",
+    "personnages": [
+     "Michael Rumaker",
+     "Charles Olson",
+     "Joseph Fiore",
+     "Stefan Wolpe"
+    ],
+    "deroule": "Olson remet le diplôme avec un grand geste et son plus large sourire, « Summa cum laude » en bleu. Joe, agacé par la demande de dernière minute, a calligraphié à contrecœur. Rumaker, bandé, se tient sur sa chaise pour ne pas fuir pendant que la voix stridente de Wolpe lui perce les oreilles. Le regard d'Olson cherche le sien comme pour compenser quelque chose.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01825",
+     "EV-06742"
+    ]
+   },
+   {
+    "titre": "Les manuscrits brûlés près des Stables",
+    "date": "1955-09",
+    "lieu": "Stables, Black Mountain College",
+    "personnages": [
+     "Michael Rumaker"
+    ],
+    "deroule": "Rumaker brûle ses manuscrits, puis part le lendemain matin en auto-stop vers le nord. Le geste clôt son apprentissage ; le moment exact et l'ordre par rapport à la cérémonie restent inconnus.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1955 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Lettre depuis Banalbufar",
+    "date": "1955-09-06",
+    "lieu": "Banalbufar, Majorque",
+    "personnages": [
+     "Robert Duncan"
+    ],
+    "deroule": "Duncan écrit à « Dear Charles » et « Dear Bob » : il loue l'univers Rumaker, s'impatiente de sa prose, distingue la réussite éducative de la Learning, cite Pound et Lorca via Blackburn, et exhorte Olson à relire son Maximus. Un numéro d'ORIGIN est arrivé la veille.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06743"
+    ]
+   },
+   {
+    "titre": "Olson frappe à la porte de Meadows Inn",
+    "date": "1955-08",
+    "lieu": "Meadows Inn",
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker",
+     "Richard Bogart",
+     "Tom Field"
+    ],
+    "deroule": "Après la tentative de Rumaker, Tom Field le soigne. Olson vient frapper à sa porte sans obtenir de réponse, puis demande pardon à Richard.",
+    "certitude": "atteste",
+    "refs": [
+     "EC-03185",
+     "chapitre 1955 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le jour du diplôme, Rumaker assis, qui pense à la ville de son enfance où tous les garçons jouaient au baseball",
+    "vers_date": null,
+    "vers": "Ses étés de baseball, source de son aisance au softball",
+    "refs": [
+     "EC-03126"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La cérémonie et la lettre de Duncan, quand Rumaker mesure le chemin parcouru",
+    "vers_date": null,
+    "vers": "Quelques années plus tôt à Philadelphie, quand Ben Shahn parlait d'Olson et de Black Mountain : une conversion qui mène vers le sud",
+    "refs": [
+     "EC-03165"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le départ de Rumaker, après sa tentative de suicide de fin août",
+    "vers_date": "1955-08",
+    "vers": "Sa vie sexuelle répétée avec Richard et d'autres, vécue comme pénitence ; l'impossibilité d'aimer sa mère",
+    "refs": [
+     "EC-03184"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La mémoire des suicides dans l'école, que Rumaker porte depuis l'été",
+    "vers_date": "1955",
+    "vers": "L'overdose du jeune Sudiste, à Streamside puis à Asheville : deux suicides en un an sur le dos du recteur. Date contestée : printemps selon un fiche, été selon la synthèse",
+    "refs": [
+     "EC-03185",
+     "chapitre 1955 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le 6 septembre, Duncan à Majorque",
+    "vers_date": "1955-10-07",
+    "vers": "La lettre de Duncan du 7 octobre, qui juge les trois essais au-dessus du niveau moyen",
+    "refs": [
+     "EC-03128",
+     "EV-06743"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le diplôme de Rumaker, quand il lit les accidents de l'été comme des présages",
+    "vers_date": "1957",
+    "vers": "La fermeture du collège ; l'accident de cabriolet sur la route d'Asheville, vu comme le commencement de la fin",
+    "refs": [
+     "EC-03164"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Rumaker, qui écrit ses mémoires plus tard",
+    "vers_date": null,
+    "vers": "Le souvenir d'un Olson excentrique, mais plus centré que tout ce qui passait pour le centre",
+    "refs": [
+     "EC-03129"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le sous-sol où Rumaker a appris à lire Olson et à « mâcher » ses phrases",
+    "vers_date": "1955-10",
+    "vers": "Albers enseigne à Ulm, campus inauguré en octobre par Gropius, contrepoint de la fin du collège",
+    "refs": [
+     "chapitre 1955 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le campus réduit de septembre",
+    "vers_date": "1956",
+    "vers": "Les inscriptions passent de neuf à douze, puis à une quinzaine pendant les sessions d'hiver et de printemps 1956, Duncan revient",
+    "refs": [
+     "chapitre 1955 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le campus de l'automne, avec Olson qui s'apprête à se retirer chez lui pour travailler aux Maximus",
+    "vers_date": "1955-12",
+    "vers": "La veille de Noël : chauffage central coupé, salaires inexistants, Mary et Joe Fiore chantant des carols de porte en porte dans la neige",
+    "refs": [
+     "chapitre 1955 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Les présages : accidents de voiture, serpents, auto-stop vers le nord",
+   "Le diplôme comme honneur et faute, le « Summa cum laude » ironique",
+   "Le départ comme sortie d'apprentissage et seuil de l'écriture",
+   "La culpabilité et le pardon chez Olson",
+   "L'écriture comme dette, face aux rejets et aux reconnaissances de dette",
+   "La farce et la débrouille, au service de la survie du collège"
+  ],
+  "lacunes": "Aucune fiche ne donne la date de la rentrée d'automne ni la liste des inscrits de septembre. L'ordre exact entre le brûlement des manuscrits, la cérémonie et le départ n'est pas établi, ni l'heure du départ. La météo est absente. Contradiction de datation : l'overdose du jeune Sudiste est au printemps 1955 selon EC-03185 mais en été selon la synthèse. Les effectifs (neuf, douze, quinze) ne sont pas datés précisément. La date exacte de la visite de l'évêque de Raleigh est inconnue."
+ }
+}

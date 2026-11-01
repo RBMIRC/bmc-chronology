@@ -1,0 +1,1221 @@
+{
+  "black_mountain_college_weather_archive": {
+    "metadata": {
+      "title": "Retcon Black Mountain - Atmospheric Archive",
+      "description": "Historical weather data for Black Mountain College, NC (1933-1957)",
+      "project": "Retcon Black Mountain",
+      "author": "Eden Summer Institute",
+      "location": {
+        "name": "Black Mountain, North Carolina",
+        "latitude": 35.6179,
+        "longitude": -82.3968,
+        "elevation_m": 640,
+        "county": "Buncombe",
+        "state": "North Carolina",
+        "nearby_stations": [
+          {
+            "name": "Asheville, NC",
+            "id": "USC00310300",
+            "distance_km": 24
+          },
+          {
+            "name": "Asheville Regional Airport",
+            "id": "USW00003812",
+            "distance_km": 32
+          },
+          {
+            "name": "Waynesville, NC",
+            "id": "USC00319028",
+            "distance_km": 45
+          }
+        ]
+      },
+      "period": {
+        "archive_start": "1933-09-01",
+        "archive_end": "1957-12-31",
+        "bmc_opening": "1933-09-25",
+        "bmc_closing": "1957-10-21",
+        "total_days_requested": 8888
+      },
+      "data_sources": {
+        "primary_1940_1957": {
+          "name": "Open-Meteo Historical Weather API",
+          "dataset": "ERA5 Reanalysis (ECMWF)",
+          "resolution_spatial": "0.25\u00b0 (~25km)",
+          "resolution_temporal": "hourly, aggregated to daily",
+          "url": "https://open-meteo.com/en/docs/historical-weather-api",
+          "api_endpoint": "https://archive-api.open-meteo.com/v1/archive",
+          "license": "Free for non-commercial use"
+        },
+        "supplementary_1933_1939": {
+          "name": "NOAA GHCN-Daily",
+          "description": "Global Historical Climatology Network - Daily",
+          "url": "https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily",
+          "access": "https://www.ncei.noaa.gov/cdo-web/",
+          "note": "Station data may have gaps; reanalysis not available before 1940"
+        }
+      },
+      "data_availability": {
+        "1933-1939": {
+          "status": "REQUIRES_NOAA_GHCN",
+          "era5_available": false,
+          "station_data_likely": true,
+          "instructions": "Use NOAA CDO API with token or download from GHCN-Daily"
+        },
+        "1940-1957": {
+          "status": "AVAILABLE_VIA_OPENMETEO",
+          "era5_available": true,
+          "hourly_data": true,
+          "instructions": "Run bmc_weather_local.py to fetch"
+        }
+      },
+      "variables": {
+        "daily": {
+          "weather_code": "WMO weather interpretation code",
+          "temperature_2m_max": "Maximum air temperature at 2m (\u00b0C)",
+          "temperature_2m_min": "Minimum air temperature at 2m (\u00b0C)",
+          "temperature_2m_mean": "Mean air temperature at 2m (\u00b0C)",
+          "apparent_temperature_max": "Maximum feels-like temperature (\u00b0C)",
+          "apparent_temperature_min": "Minimum feels-like temperature (\u00b0C)",
+          "sunrise": "Sunrise time (ISO 8601)",
+          "sunset": "Sunset time (ISO 8601)",
+          "daylight_duration": "Daylight duration (seconds)",
+          "sunshine_duration": "Sunshine duration (seconds)",
+          "precipitation_sum": "Total precipitation (mm)",
+          "rain_sum": "Total rain (mm)",
+          "snowfall_sum": "Total snowfall (mm)",
+          "precipitation_hours": "Hours with precipitation",
+          "wind_speed_10m_max": "Maximum wind speed at 10m (km/h)",
+          "wind_gusts_10m_max": "Maximum wind gusts at 10m (km/h)",
+          "wind_direction_10m_dominant": "Dominant wind direction (degrees)"
+        },
+        "hourly": {
+          "temperature_2m": "Air temperature at 2m (\u00b0C)",
+          "relative_humidity_2m": "Relative humidity at 2m (%)",
+          "dew_point_2m": "Dew point at 2m (\u00b0C)",
+          "apparent_temperature": "Feels-like temperature (\u00b0C)",
+          "precipitation": "Precipitation in hour (mm)",
+          "rain": "Rain in hour (mm)",
+          "snowfall": "Snowfall in hour (mm)",
+          "weather_code": "WMO weather code",
+          "pressure_msl": "Sea-level pressure (hPa)",
+          "cloud_cover": "Total cloud cover (%)",
+          "wind_speed_10m": "Wind speed at 10m (km/h)",
+          "wind_direction_10m": "Wind direction at 10m (degrees)",
+          "wind_gusts_10m": "Wind gusts at 10m (km/h)"
+        }
+      },
+      "units": {
+        "temperature": "\u00b0C (Celsius)",
+        "precipitation": "mm (millimeters)",
+        "wind_speed": "km/h (kilometers per hour)",
+        "wind_direction": "degrees (0=N, 90=E, 180=S, 270=W)",
+        "pressure": "hPa (hectopascals)",
+        "humidity": "% (percent)",
+        "cloud_cover": "% (percent)",
+        "duration": "seconds"
+      },
+      "weather_codes": {
+        "0": "Clear sky",
+        "1": "Mainly clear",
+        "2": "Partly cloudy",
+        "3": "Overcast",
+        "45": "Fog",
+        "48": "Depositing rime fog",
+        "51": "Light drizzle",
+        "53": "Moderate drizzle",
+        "55": "Dense drizzle",
+        "56": "Light freezing drizzle",
+        "57": "Dense freezing drizzle",
+        "61": "Slight rain",
+        "63": "Moderate rain",
+        "65": "Heavy rain",
+        "66": "Light freezing rain",
+        "67": "Heavy freezing rain",
+        "71": "Slight snow",
+        "73": "Moderate snow",
+        "75": "Heavy snow",
+        "77": "Snow grains",
+        "80": "Slight rain showers",
+        "81": "Moderate rain showers",
+        "82": "Violent rain showers",
+        "85": "Slight snow showers",
+        "86": "Heavy snow showers",
+        "95": "Thunderstorm",
+        "96": "Thunderstorm with slight hail",
+        "99": "Thunderstorm with heavy hail"
+      },
+      "generated_at": "2026-01-10T08:12:15.278846",
+      "schema_version": "1.0",
+      "notes": [
+        "ERA5 reanalysis combines observations with weather models",
+        "Data may differ slightly from actual station measurements",
+        "Pre-1940 requires NOAA GHCN station records",
+        "Hourly data available but creates much larger files",
+        "Run bmc_weather_local.py locally to populate this archive"
+      ]
+    },
+    "statistics": {
+      "note": "To be populated after data collection"
+    },
+    "years": {
+      "1933": {
+        "status": "PENDING_NOAA_GHCN",
+        "data_source": "NOAA GHCN-Daily (station data)",
+        "note": "ERA5 reanalysis not available before 1940",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1934": {
+        "status": "PENDING_NOAA_GHCN",
+        "data_source": "NOAA GHCN-Daily (station data)",
+        "note": "ERA5 reanalysis not available before 1940",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1935": {
+        "status": "PENDING_NOAA_GHCN",
+        "data_source": "NOAA GHCN-Daily (station data)",
+        "note": "ERA5 reanalysis not available before 1940",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1936": {
+        "status": "PENDING_NOAA_GHCN",
+        "data_source": "NOAA GHCN-Daily (station data)",
+        "note": "ERA5 reanalysis not available before 1940",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1937": {
+        "status": "PENDING_NOAA_GHCN",
+        "data_source": "NOAA GHCN-Daily (station data)",
+        "note": "ERA5 reanalysis not available before 1940",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1938": {
+        "status": "PENDING_NOAA_GHCN",
+        "data_source": "NOAA GHCN-Daily (station data)",
+        "note": "ERA5 reanalysis not available before 1940",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1939": {
+        "status": "PENDING_NOAA_GHCN",
+        "data_source": "NOAA GHCN-Daily (station data)",
+        "note": "ERA5 reanalysis not available before 1940",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1940": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1941": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1942": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1943": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1944": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1945": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1946": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1947": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1948": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1949": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1950": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1951": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1952": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1953": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1954": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1955": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1956": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      },
+      "1957": {
+        "status": "PENDING_OPENMETEO",
+        "data_source": "Open-Meteo (ERA5)",
+        "months": {
+          "01": {
+            "days": {}
+          },
+          "02": {
+            "days": {}
+          },
+          "03": {
+            "days": {}
+          },
+          "04": {
+            "days": {}
+          },
+          "05": {
+            "days": {}
+          },
+          "06": {
+            "days": {}
+          },
+          "07": {
+            "days": {}
+          },
+          "08": {
+            "days": {}
+          },
+          "09": {
+            "days": {}
+          },
+          "10": {
+            "days": {}
+          },
+          "11": {
+            "days": {}
+          },
+          "12": {
+            "days": {}
+          }
+        }
+      }
+    }
+  }
+}

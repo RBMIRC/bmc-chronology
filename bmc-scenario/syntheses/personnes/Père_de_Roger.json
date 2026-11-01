@@ -1,0 +1,340 @@
+{
+ "passe": "personnes",
+ "cle": "Père de Roger",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 13978,
+  "sortie": 10702,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Père de Roger",
+  "autres_noms": [
+   "Roger",
+   "Roger de Rider College (chez Rumaker)",
+   "Roger de Vanderzee (chez Goodman)"
+  ],
+  "dates_de_vie": "Inconnues. Étudiant à Rider College vers 1951-1952 dans le récit de Rumaker. Aucune date de naissance ni de mort dans les fiches.",
+  "statut_bmc": "Visiteur, jamais inscrit. Il vient au collège au printemps 1951 et en juin 1952 avec Michael Rumaker, Marge et Mary Ann, puis repart vers le nord. ATTENTION À LA CLÉ : « Père de Roger » est un libellé trompeur. Les fiches parlent de Roger lui-même, pas de son père. Elles amalgament en outre deux personnages : (1) le Roger réel de Rumaker 2003, étudiant gay de Rider, fils d'une famille de Jamestown (État de New York) ; (2) le Roger du roman de Goodman 1963, militant new-yorkais puis habitant de Vanderzee, marié, qui frappe sa femme et plaide devant le maire. Rien ne prouve qu'il s'agisse de la même personne. Tout ce qui vient de Goodman est fiction et ne se rattache pas au collège. Le vrai père de Roger, ouvrier du meuble et producteur de fleurs à Jamestown, n'apparaît que de loin (EV-05826).",
+  "presence": [
+   {
+    "debut": "1951-04",
+    "fin": "1951-04",
+    "role": "Visiteur d'un week-end avec Rumaker, Marge et Mary Ann. Logé à Roadside, au premier étage, avec Rumaker. Il part le samedi après-midi avec Marge dans la Chevy et ne revient que le dimanche, jour du départ prévu.",
+    "refs": [
+     "EV-05495",
+     "EV-05497",
+     "EV-05498",
+     "EV-05501",
+     "SC-01451",
+     "SC-01452",
+     "SC-01455"
+    ]
+   },
+   {
+    "debut": "1952-06",
+    "fin": "1952-06",
+    "role": "Passager et compagnon de route de Rumaker lors du voyage de 600 miles. Arrivée au collège vide d'entre-deux-sessions, attente, café sur la véranda. Le groupe repart sans que Roger reste, après la décision de Mary Ann d'aller à Moore Institute.",
+    "refs": [
+     "EV-05821",
+     "EV-05822",
+     "SC-01546",
+     "SC-01547",
+     "SC-01549",
+     "EV-05654",
+     "EV-05650"
+    ]
+   }
+  ],
+  "portrait_physique": "Peu de matière. Chez Goodman, Roger forme avec Jason un couple frappant : Roger est le sombre (mal rasé, féroce d'allure), Jason le blond. Le visage de Roger est grave, au point que des policiers le prennent pour le chef d'une manifestation (SC-01996). Il est probablement le plus rude des deux, peut-être « l'artiste » (déduction du narrateur, incertaine). Chez Rumaker, aucune description physique. On sait seulement qu'il a un permis de conduire, que Marge refuse de le laisser utiliser, et qu'il travaille à la ferme familiale et au drive-in.",
+  "noyau_psychologique": "Deux faces à ne pas confondre. Roger-Rumaker (attesté) est un jeune homme gay, sarcastique et sec, lucide sur son avenir. Il se sait trop prudent ou trop dépendant d'un diplôme pour tenter BMC, et le dit avec une résignation presque joyeuse. Il se moque de ce que les autres vénèrent (Wolfe), mais il est capable d'une franchise chaleureuse (« I like you »). Roger-Goodman (fiction) est un intransigeant moral, honnête jusqu'à la candeur : cette vertu le rend inutilisable devant la loi, devant le maire, devant l'isoloir. Il explose vite, boude, rumine. Le point commun probable est une raideur de principe mêlée de moquerie, mais il faut le déduire, car rien ne prouve que ce soit une seule personne.",
+  "blessures": "Attesté chez Rumaker : un père buveur et avare, avec lequel Rumaker et lui partagent en silence une réalité d'enfants d'alcooliques (RE-02371). La fiche agrégée évoque aussi une fureur contre son père, mais elle est attachée à un nom (Prendergast) que les fiches n'expliquent pas. Autre blessure : la maladresse d'un geste de tendresse repoussé à Trenton. Chez Goodman : il est blessé quand on le disqualifie, quand on rit de ses tableaux, quand on le juge inapte comme témoin.",
+  "desirs": "Une sécurité tangible (diplôme de Rider : « cette garantie ») plutôt qu'un pari. Chez Goodman, il veut attirer les artistes à Vanderzee par fierté, pour embellir les rues et narguer New York, et il croit à la communauté de l'art. Il cherche aussi un compagnon : la tentative auprès de Rumaker à Trenton, repoussée, montre un désir de contact physique que personne ne nomme ensuite.",
+  "peurs": "Non dites dans les sources. On peut déduire de CI-02785 une peur de l'incertitude matérielle et du risque artistique : il préfère le « sure thing » au pari, tandis que Rumaker saute. Chez Goodman, sa crainte semble être l'humiliation publique et le fait de devenir complice (« incapable de travailler pour les sociétés »). Il refuse de s'inscrire dans un jeu qu'il méprise.",
+  "maniere_d_aimer": "Chez Rumaker : une amitié sincère, mais marquée par un geste maladroit que l'autre repousse. L'accord tacite (« chastes comme des frères ») est ensuite respecté tout l'été, ce qui montre qu'il sait se retirer sans rancune visible. Il présente Rumaker à ses amis gays de Chautauqua et l'héberge dans la ferme familiale. Chez Goodman : un amour trop fort pour comparaître devant un tribunal, puisqu'il avoue frapper sa femme quand il ne la supporte plus. C'est une violence conjugale attestée dans le roman, à traiter comme telle et non comme un trait pittoresque.",
+  "rapport_au_pouvoir": "Chez Goodman : défi systématique de l'autorité (maire, bureaucratie électorale, police), toujours par la logique et la moquerie plutôt que par la révolte physique. Il est capable de plaider calmement l'assiette fiscale devant le maire, puis d'exploser contre le haut-parleur électoral. Il refuse de voter, tient tête à un policier venu arracher le rideau, et répond à une question sur la ligne de piquet avec ironie. Il reste respectueux de la procédure quand elle lui est favorable (le crayon qu'on lui apporte, il le rend en remerciant). Chez Rumaker : aucun pouvoir en jeu. Il dépend de Marge, qui lui refuse le volant.",
+  "voix": {
+   "registre": "Sarcastique, sec, parfois cynique. Chez Rumaker, ricanements et commentaires acerbes sur le paysage qui défile, avec un sourire moqueur. Chez Goodman, discours articulé de militant capable de parler en termes fiscaux, puis éclats de colère.",
+   "tics": "Sourire fier et moqueur. Jeu de mots sur les « queers » repérés avec compétence. Phrase brève et définitive (« je lirai un chapitre et le jetterai »). Ricanements devant ce que les autres vénèrent. Formule sincère et soudaine (« I like you ») qui désarme l'interlocuteur.",
+   "exemples_paraphrases": [
+    "À Rumaker, dans la chambre de Roadside : cet endroit est pour toi, moi je finirai à Rider, il me faut la garantie d'un diplôme.",
+    "Présentant Chautauqua à Rumaker avec un sourire de propriétaire : l'endroit grouille d'homosexuels (formulation crue, ironique et d'initié).",
+    "À propos d'un livre de Purdy laissé devant sa porte : il en lira un chapitre puis le jettera.",
+    "Dans l'isoloir : il est venu pour ne pas voter et ne votera pas, qu'on laisse un homme prendre son temps.",
+    "Au maire, moqueur : il faut s'inscrire si on veut voter, et ne pourrait-il pas au moins refaire l'enregistrement du haut-parleur ?",
+    "À l'avocat qui le congédie : sincèrement, il l'aime bien."
+   ]
+  },
+  "habitudes": [
+   "Travaille depuis des étés au drive-in de crème glacée de la région de Jamestown (fiche agrégée).",
+   "Aide à la ferme familiale : emballage de fleurs coupées à l'aube par son père, expédiées à Manhattan par le train (EV-05826).",
+   "Soirées d'été : bière Genessee au Mayville Inn, baignades nues nocturnes dans le lac Chautauqua, drive-in gratuit grâce au terrain loué par sa mère (EV-05829).",
+   "Marge ne le laisse pas conduire malgré son permis (EV-05654).",
+   "Chez Goodman : gagne quelques dollars en peignant des murs et en faisant de la menuiserie soignée, mais sous-estime ses devis et se retrouve avec environ quarante cents de l'heure (fiche agrégée, rattachement incertain).",
+   "Chez Goodman : vote nul par principe ; manifeste sans prendre de rôle de chef."
+  ],
+  "convictions": [
+   "Vertu de l'honnêteté absolue, même devant la loi.",
+   "Croyance dans la communauté de l'art et dans le triomphe des artistes sur New York (Goodman).",
+   "Refus de travailler pour les sociétés (Goodman).",
+   "Refus de voter quand personne ne mérite sa voix (SC-01993).",
+   "Refus de se disputer avec la police, qu'il juge lavée de cerveau, mais sans les respecter pour autant (SC-01996).",
+   "Chez Rumaker : conviction d'un destin différent de celui de Rumaker, sans amertume apparente (CI-02785)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1951-04",
+    "moment": "Arrivée à Roadside, visite guidée par Connie, présentation à des étudiants (dont Mark Hedden) ; Roger loge au premier étage avec Rumaker, Marge et Mary Ann au second.",
+    "etat_interieur": "Observateur détaché, non conquis. Il suit le groupe, plaisante, ne partage pas la ferveur de Rumaker.",
+    "refs": [
+     "EV-05495",
+     "EV-05497",
+     "SC-01451",
+     "SC-01452"
+    ]
+   },
+   {
+    "date": "1951-04",
+    "moment": "Pèlerinage Wolfe à Asheville : Rumaker et Mary Ann lisent pieusement la pierre, Roger ricane et plaisante, Marge s'ennuie.",
+    "etat_interieur": "Moqueur envers le sérieux littéraire des autres. La ferveur de Rumaker lui échappe ou l'agace.",
+    "refs": [
+     "EV-05498",
+     "SC-01455"
+    ]
+   },
+   {
+    "date": "1951-04",
+    "moment": "Dans la chambre de Roadside, il dit à Rumaker que BMC est fait pour lui, que lui finira à Rider. Marge et lui partent samedi après-midi, ne reviennent que le dimanche.",
+    "etat_interieur": "Lucidité résignée. Il choisit la sécurité et reconnaît l'écart entre lui et Rumaker. Le départ en voiture suggère aussi un malaise ou un désintérêt pour le lieu.",
+    "refs": [
+     "CI-02785",
+     "EV-05501"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "moment": "Voyage de 600 miles avec Marge, Rumaker et Mary Ann, nuit dans la voiture près du bourg de Black Mountain, rires hystériques.",
+    "etat_interieur": "Fatigue, nervosité, complicité de groupe. Commentaires acerbes sur le paysage qui défile.",
+    "refs": [
+     "EV-05821",
+     "SC-01546"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "moment": "Arrivée au collège vide (entre deux sessions), chien orange, café sur la véranda avec vue sur le lac ; Mary Ann décide de continuer à Moore Institute, Marge dépose Mary Ann puis ramène le groupe vers le nord.",
+    "etat_interieur": "Semble croire à une course folle (SC-01547, les autres plus que Rumaker). Aucune parole de Roger rapportée. On peut déduire qu'il est plus enclin que Rumaker à juger l'endroit délabré.",
+    "refs": [
+     "EV-05822",
+     "SC-01547",
+     "SC-01549",
+     "EV-05654"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "moment": "Visite éclair chez la mère de Rumaker, à National Park (New Jersey). Il est présent mais passif.",
+    "etat_interieur": "Non documenté. Observateur discret d'une honte familiale que Rumaker partage avec lui à demi-mot.",
+    "refs": [
+     "SC-01497",
+     "EV-05655"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "moment": "Nuit à Trenton : Roger gratte maladroitement le dos de Rumaker, qui le repousse. Ils dorment ensuite « chastes comme des frères ».",
+    "etat_interieur": "Désir, maladresse, retrait. On suppose une gêne contenue mais pas de rupture.",
+    "refs": [
+     "RE-02366"
+    ]
+   },
+   {
+    "date": "1952-06/1952-08",
+    "moment": "Été à Jamestown : Rumaker hébergé à la ferme, emballage des fleurs, soirées d'été à Chautauqua, excursions avec les parents de Roger, amis gays.",
+    "etat_interieur": "Roger est dans son élément : propriétaire, guide, ironique, famille et amis autour de lui. La complicité d'enfants d'alcooliques unit les deux amis sans besoin de mots.",
+    "refs": [
+     "EV-05826",
+     "EV-05829",
+     "RE-02371",
+     "CI-02845"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Famille de Jamestown (État de New York) : père ouvrier du meuble et producteur de fleurs (buveur et avare selon la fiche agrégée), mère qui loue un terrain au drive-in, jeune sœur Karen. Pas de téléphone. Étés au drive-in de crème glacée.",
+    "refs": [
+     "EV-05826",
+     "EV-05829"
+    ]
+   },
+   {
+    "date": "≈1951",
+    "moment": "Étudiant à Rider College. Il sait qu'il lui faut le diplôme comme garantie.",
+    "refs": [
+     "CI-02785",
+     "EV-05501"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Fiche agrégée : « père à la Chambre de commerce de Wichita ; enregistrement sur les listes électorales ». Détail non expliqué, sans lien clair avec le Roger de Jamestown (voir contradictions).",
+    "refs": []
+   }
+  ],
+  "apres": [
+   {
+    "date": "≈1952",
+    "moment": "Retour à Rider pour finir son diplôme, comme annoncé en 1951. La prophétie « moi, je finirai à Rider » est présentée comme réalisée dans la fiche.",
+    "refs": [
+     "CI-02785",
+     "EV-05501"
+    ]
+   },
+   {
+    "date": "≈?",
+    "moment": "Dans le roman de Goodman (Making Do, 1963), un Roger militant à Vanderzee. Il défend l'idée d'attirer des artistes, plaide devant le maire Kavanagh, explose contre son haut-parleur ; il vote nul à une élection et marche dans une manifestation pacifiste. Utilisable comme flash-forward fictionnel seulement si l'on assume que le personnage est un double romanesque.",
+    "refs": [
+     "EV-08889",
+     "EV-08890",
+     "SC-02279",
+     "SC-02281",
+     "SC-01993",
+     "SC-01996"
+    ]
+   },
+   {
+    "date": "≈1950→1957",
+    "moment": "Dans le même roman, Roger témoigne chez l'avocat Duyckman pour la garde de l'enfant de Meg : il avoue sous serment frapper sa femme et est congédié avec une invitation au bridge.",
+    "refs": [
+     "EV-05197",
+     "SC-01334",
+     "RE-02214"
+    ]
+   },
+   {
+    "date": "≈?",
+    "moment": "Gagne quelques dollars en peignant des murs et faisant de la menuiserie soignée, mais sous-estime ses devis (quarante cents de l'heure net). Rattachement au roman ou à la vie réelle incertain.",
+    "refs": []
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Ami, compagnon de voyage, confident d'enfant d'alcoolique, objet d'un geste de désir repoussé.",
+    "evolution": "1951 : camarades de chambre à Roadside, Roger ironise sur la ferveur de Rumaker. 1952 : trajet de 600 miles, tentative de Trenton, accord tacite de chasteté, été à la ferme où Roger présente ses amis gays. Rien de plus après l'été.",
+    "refs": [
+     "RE-02366",
+     "RE-02371",
+     "EV-05497",
+     "EV-05826"
+    ]
+   },
+   {
+    "avec": "Marge",
+    "nature": "Conductrice de la Chevy, compagne de route, lesbienne taciturne selon Rumaker. Elle refuse de laisser conduire Roger.",
+    "evolution": "Complicité de voyage, mais rapports de pouvoir : elle décide, il suit. Départ ensemble le samedi 1951.",
+    "refs": [
+     "EV-05821",
+     "EV-05654",
+     "EV-05501"
+    ]
+   },
+   {
+    "avec": "Mary Ann Fretz",
+    "nature": "Compagne de voyage, seule non-gay du groupe.",
+    "evolution": "Elle choisit Moore Institute, la relation s'arrête à l'arrivée.",
+    "refs": [
+     "EV-05497",
+     "EV-05654"
+    ]
+   },
+   {
+    "avec": "Jason",
+    "nature": "Collaborateur (Goodman) : le blond qui sait parler aux gens, qui contient Roger du coude quand il explose.",
+    "evolution": "Alliance pour attirer les artistes à Vanderzee ; complémentarité (Roger parle assiette fiscale, Jason a les relations) ; entretien manqué.",
+    "refs": [
+     "RE-03355",
+     "SC-02279",
+     "SC-02281"
+    ]
+   },
+   {
+    "avec": "Duyckman",
+    "nature": "Avocat de la famille de Meg (Goodman).",
+    "evolution": "Disqualifie Roger comme témoin, mais le raccompagne avec une invitation au bridge ; Roger, sincère, répond qu'il l'aime bien.",
+    "refs": [
+     "RE-02214",
+     "SC-01334"
+    ]
+   },
+   {
+    "avec": "Tim Kavanagh",
+    "nature": "Maire de Vanderzee, adversaire de principe.",
+    "evolution": "Roger plaide puis explose ; Kavanagh le prend pour un réformateur et panique.",
+    "refs": [
+     "SC-02279",
+     "SC-02281",
+     "EV-08890"
+    ]
+   },
+   {
+    "avec": "Terry",
+    "nature": "Ami du cercle de Vanderzee (Goodman) : Terry hésite à se présenter les mains vides et laisse un livre de Purdy devant sa porte.",
+    "evolution": "Roger se moque du livre (« un chapitre et je le jette ») tout en faisant partie de la communauté que Terry cherche à rassembler.",
+    "refs": [
+     "EV-08880",
+     "EV-08882",
+     "SC-02277"
+    ]
+   },
+   {
+    "avec": "Famille de Jamestown (père, mère, Karen)",
+    "nature": "Famille d'origine, ferme de fleurs et ouvrier du meuble.",
+    "evolution": "Accueillent Rumaker tout l'été 1952. Mère généreuse (drive-in), père figure de travail et d'alcool, excursions à Niagara avec les parents.",
+    "refs": [
+     "EV-05826",
+     "EV-05829",
+     "RE-02371"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Le libellé « Père de Roger » ne correspond pas au contenu : les fiches décrivent Roger lui-même. Le père de Roger est une figure distincte qu'on devine à peine (ouvrier du meuble, producteur de fleurs, buveur et avare).",
+   "Deux Rogers fusionnés : celui de Rumaker (étudiant gay de Rider, famille de Jamestown) et celui de Goodman (militant marié, qui frappe sa femme, vit à Vanderzee). Rien ne garantit qu'il s'agisse d'une seule personne. Le Roger de Goodman est marié, celui de Rumaker ne l'est pas.",
+   "La fiche agrégée mêle des détails appartenant à d'autres personnes : « pas de téléphone » est dit des parents de Rumaker (EV-05655), pas de Roger ; « père à la Chambre de commerce de Wichita » et « furieux contre son père… (Prendergast) » sont inexpliqués.",
+   "Datation de Rumaker : deux séjours, avril 1951 et juin 1952. La visite de la maison de Wolfe apparaît à deux dates (EV-05498 en 1951-04, EV-05650 en 1952), ce qui peut être un doublon ou deux visites distinctes ; les fiches ne tranchent pas.",
+   "Les dates « ≈1950→1957 » et « ≈1963 » des scènes de Goodman sont des ancrages de publication ou de convenance, pas des dates de faits.",
+   "Rumaker note que Mary Ann est la seule non-gay du groupe, tout en parlant de séparation des sexes pour la forme : ironie voulue de l'auteur.",
+   "Roger partage le voyage de 1952 mais n'est mentionné qu'en bloc (« les autres semblent croire à une course folle ») ; ses réactions précises ne sont pas isolables."
+  ],
+  "situations_revelatrices": [
+   "Scène de voyage en voiture sous la direction d'une autre personne (Marge) : Roger ironise sur le paysage, subit l'autorité.",
+   "Visite d'un lieu sacralisé par un autre (maison de Wolfe, campus de BMC) : il ricane, plaisante, garde ses distances.",
+   "Confrontation avec une institution (isoloir, mairie, cabinet d'avocat) : son honnêteté le rend ingérable et comique.",
+   "Présentation de son propre territoire (Chautauqua, la ferme) à un ami : il retrouve son assurance, sarcasme et générosité mêlés.",
+   "Moment de tendresse gauche (Trenton) : désir, geste maladroit, retrait dans le silence.",
+   "Discussion à deux voix avec Jason devant un tiers : Roger le sombre explose, Jason le blond arrange."
+  ],
+  "citations": [
+   "CI-02785 — À Rumaker à Roadside : l'endroit est fait pour lui, lui finira à Rider car il lui faut la garantie d'un diplôme.",
+   "CI-02845 — À Rumaker, sourire moqueur, à propos de Chautauqua : le lieu grouille d'homosexuels (formulation crue d'initié).",
+   "CI-03815 — Dans l'isoloir : il est venu pour ne pas voter, qu'on laisse un homme prendre son temps.",
+   "CI-04664 — Raillerie du haut-parleur électoral du maire : il faut s'inscrire si on veut voter.",
+   "SC-02277 — À propos du livre de Purdy : il en lira un chapitre et le jettera.",
+   "RE-02214 — À l'avocat qui le renvoie : « Je vous aime bien. »"
+  ],
+  "questions_ouvertes": [
+   "Le Roger de Rumaker et celui de Goodman sont-ils la même personne, ou deux personnages distincts ? Il faut le trancher avant de les faire vivre dans un même scénario.",
+   "Qui est réellement « Père de Roger » : un personnage à part (le père de Jamestown), ou une étiquette erronée pour Roger ?",
+   "Nom de famille de Roger : absent des fiches, de même que son âge, sa date de naissance, sa spécialité à Rider.",
+   "Pourquoi Marge et Roger partent-ils le samedi 1951 et reviennent-ils le dimanche ? Mal à l'aise, ou autre raison ? Où sont-ils allés ?",
+   "Que devient Roger après l'été 1952 ? A-t-il fini à Rider, comme il l'annonce ? Quel contact garde-t-il avec Rumaker ?",
+   "Quelle est la place exacte de Marge (lesbienne taciturne) dans la vie de Roger : amie, compagne de voyage, protectrice ?",
+   "Le père buveur et avare, la fureur contre le père : concernent-ils Roger de Jamestown, ou un autre personnage (Prendergast) ?",
+   "Le Roger de Goodman a-t-il un modèle réel ? Si oui, qui, et à quelle époque ?"
+  ]
+ }
+}

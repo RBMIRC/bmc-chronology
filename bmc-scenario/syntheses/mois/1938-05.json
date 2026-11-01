@@ -1,0 +1,414 @@
+{
+ "passe": "mois",
+ "cle": "1938-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5305,
+  "sortie": 15481,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1938-05",
+  "session": "Fin de l'année académique 1937-1938, dernière session du printemps, avec les dernières réunions communautaires et les bilans",
+  "saison_et_climat": "Printemps avancé et fin d'année universitaire. Rice est au bord de la mer en Caroline du Sud. Les fiches ne documentent pas le climat ; le printemps est une déduction.",
+  "situation": "Le collège fonctionne sans son fondateur. Rice est en congé forcé et a été démis de son rectorat par Chaddock en avril. Le Board of Fellows a prolongé son absence jusqu'en septembre contre sa demande d'abréger. Quatre membres de la faculté lui apportent la décision à Folly Beach et il réagit avec colère. En mai, Wunsch résume la crise aux étudiants lors de la dernière réunion communautaire : Rice a dissipé son leadership et il faut voir si le collège peut vivre sans lui. Le 14 mai, la Danse Macabre de Schawinsky est jouée. Le conseil final doit se tenir le 2 juin. La question du rectorat reste ouverte.",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Heinrich Wunsch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Quatre membres de la faculté (non nommés dans les fiches)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Étudiants de la communauté (réunion de fin d'année)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mangold (secrétaire)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier (trésorier)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Chaddock",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Schawinsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Allan Sly (chef d'orchestre de la Danse Macabre)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hendrickson (décors de Bury the Dead)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Moellenhoff",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Portell-Vila",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nancy Farrell",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alice",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1938-04-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Chaddock fait démissionner Rice de son rectorat. Duberman, lui, place la lettre de Rice à la mi-avril, ce qui contredit cette date.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02840",
+     "EV-02839"
+    ]
+   },
+   {
+    "date": "1938-04-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion spéciale du Board of Fellows. Le même jour, Albers prononce son discours « Life, not school, is the goal » à Cambridge (Mass.). On ignore qui siège au Board.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02841",
+     "EV-02842",
+     "EV-02839"
+    ]
+   },
+   {
+    "date": "1938-05-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Date de fin prévue du congé de Rice. Le congé est en réalité prolongé jusqu'en septembre et Rice ne peut revenir qu'avec l'accord de la faculté.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02835",
+     "EV-02839"
+    ]
+   },
+   {
+    "date": "1938-05-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Représentation de la Danse Macabre de Schawinsky : théâtre en rond, spectateurs masqués, partition d'Evarts, orchestre dirigé par Allan Sly.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02846",
+     "EV-02817",
+     "EV-02765"
+    ]
+   },
+   {
+    "date": "1938-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Quatre membres de la faculté viennent annoncer à Rice la prolongation de son congé à Folly Beach. Il s'emporte contre un collège qui pense à lui-même et non à son bien.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00734",
+     "EV-02843"
+    ]
+   },
+   {
+    "date": "1938-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Dernière réunion communautaire de l'année. Wunsch y résume la crise ; la réconciliation reste ouverte.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00735",
+     "EV-02844"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Suicide de Dick Porter, étudiant en cinquième année (donc 1937-1938) : balle dans la tempe, mort à l'hôpital Biltmore d'Asheville. Le lendemain, Moellenhoff parle en réunion générale de la culpabilité du groupe face à une solitude choisie. Le mois exact n'est pas connu.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02762",
+     "EV-02763",
+     "SC-00715",
+     "EV-02817"
+    ]
+   },
+   {
+    "date": "1938-05-27",
+    "precision": "jour",
+    "ce_qui_arrive": "Mangold écrit encore à Rice.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02845"
+    ]
+   },
+   {
+    "date": "1938-06-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Conseil final : 200 dollars de frais de vie pour Rice et proposition de représenter le collège à Chicago, qu'il refuse. Chaddock place ce refus en avril, Duberman en juin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02847",
+     "EV-02848",
+     "EV-02845"
+    ]
+   },
+   {
+    "date": "1938-06-05",
+    "precision": "jour",
+    "ce_qui_arrive": "Nancy Farrell obtient son congé honorable.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02463"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "Été : le collège gère l'auberge du Lake Eden Inn, la ferme prend forme avec Roscoe Penley, et Gropius et Breuer livrent leurs plans contre 400 dollars. Dreier estime le coût à 500 000 dollars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02795",
+     "EV-02796",
+     "EV-02772",
+     "OE-01358"
+    ]
+   },
+   {
+    "date": "1938-08-31",
+    "precision": "jour",
+    "ce_qui_arrive": "Mémo traitant du départ de Schawinsky, qui n'est pas réembauché.",
+    "certitude": "atteste",
+    "refs": [
+     "CF-00284",
+     "EV-02850",
+     "EV-02816"
+    ]
+   },
+   {
+    "date": "1938-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Fin août : Albers écrit à Moholy-Nagy pour faire supprimer deux remarques de The New Vision, et obtient gain de cause.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02849",
+     "SC-00736"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "Automne : Rice revient comme une présence fantomatique à Lee Hall, écrit son autobiographie et reçoit sur rendez-vous. Le Board vote Wunsch au rectorat.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02851",
+     "EV-02852",
+     "SC-00729",
+     "CO-00297"
+    ]
+   },
+   {
+    "date": "1938-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le MoMA ouvre l'exposition Bauhaus 1919-1928, où figurent des exercices d'élèves d'Albers à Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02794",
+     "EV-02858"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire se fait sur fond de crise : réunions communautaires, dont la dernière de l'année, où l'on se partage entre sobriété et espoir mitigé ; répétitions et représentations au théâtre du collège (Danse Macabre en rond, avec un public masqué, et Bury the Dead avec ses décors en sections autour des spectateurs). Les fiches ne décrivent ni les cours ni les repas de ce mois. Les salaires, réduits de 25 % cette année-là, dépendent de budgets de besoin.",
+  "tensions": [
+   "Rice contre la faculté et la communauté : il estime qu'on a décidé sans le voir ni jauger son état d'esprit",
+   "Querelle de pouvoir après la chute de Rice : Albers, Mangold, Dreier et le Board face au fondateur absent",
+   "Décision du Board de prolonger le congé contre le vœu de Rice, qui a vu sa demande d'abréger rejetée à l'unanimité",
+   "Rectorat vacant depuis la démission de Rice, sans candidat pour le reprendre",
+   "Schawinsky, mal vu du Conseil et de Mangold, dont la production macabre inquiète",
+   "Culpabilité du groupe après la mort de Porter",
+   "Affaire Alice : elle ne doit pas être pénalisée, mais l'équilibre des responsabilités reste disputé",
+   "Pression financière : salaires coupés, dépendance aux budgets de besoin, fonds à lever",
+   "Doute des étudiants sur la capacité du collège à vivre sans Rice"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les quatre visiteurs à Folly Beach",
+    "date": "1938-05",
+    "lieu": "Folly Beach, Caroline du Sud",
+    "personnages": [
+     "John Andrew Rice",
+     "quatre membres de la faculté (non nommés)"
+    ],
+    "deroule": "Les quatre membres viennent annoncer la prolongation du congé. Rice leur répond avec colère que le collège a pensé à lui-même et non à son bien, et qu'il était indécent de décider sans le voir. La rupture de confiance est consommée au bord de la mer.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00734",
+     "EV-02843"
+    ]
+   },
+   {
+    "titre": "Wunsch face aux étudiants",
+    "date": "1938-05",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Heinrich Wunsch",
+     "étudiants"
+    ],
+    "deroule": "À la dernière réunion communautaire de l'année, Wunsch dit que Rice a manqué de jugement et dissipé son leadership, et que la faculté lui a demandé de voir si le collège peut vivre sans lui. Il rappelle à la communauté que Rice disait lui-même que l'endroit ne devait pas être un collège d'un seul homme. Les étudiants espèrent retrouver Rice en automne.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00735",
+     "EV-02844"
+    ]
+   },
+   {
+    "titre": "La Danse Macabre",
+    "date": "1938-05-14",
+    "lieu": "Black Mountain College, théâtre en rond",
+    "personnages": [
+     "Schawinsky",
+     "Evarts (partition)",
+     "Allan Sly (orchestre)",
+     "spectateurs masqués et encapuchonnés"
+    ],
+    "deroule": "Le public, masqué et encapuchonné, entoure la scène en rond pour la Danse Macabre. Elle est jouée sur une partition d'Evarts, l'orchestre étant dirigé par Allan Sly. Les spectateurs vivent la représentation dans un climat de deuil récent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02846",
+     "EV-02817",
+     "EV-02765"
+    ]
+   },
+   {
+    "titre": "Moellenhoff parle de la culpabilité du groupe",
+    "date": null,
+    "lieu": "Black Mountain College, réunion générale",
+    "personnages": [
+     "Moellenhoff",
+     "étudiants"
+    ],
+    "deroule": "Le lendemain de la mort de Dick Porter, Moellenhoff s'adresse à la réunion générale sur la culpabilité d'un groupe face à une solitude choisie. La date exacte reste inconnue.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02762",
+     "EV-02763",
+     "SC-00715"
+    ]
+   },
+   {
+    "titre": "Conseil final et proposition à Chicago",
+    "date": "1938-06-02",
+    "lieu": "Black Mountain College, Board of Fellows",
+    "personnages": [
+     "Board of Fellows",
+     "John Andrew Rice (absent)"
+    ],
+    "deroule": "Le conseil ajoute 200 dollars de frais de vie pour Rice et lui propose de représenter le collège à Chicago. Il refuse. Le scénario peut le placer en mai, en anticipation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02847",
+     "EV-02848"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rice à Folly Beach, ruminant sa colère après la visite des quatre membres de la faculté",
+    "vers_date": "1937",
+    "vers": "Automne 1937 : premières rumeurs de sa liaison avec Alice, datées de façons divergentes selon les sources (mi-hiver 1938 pour RE-01062).",
+    "refs": [
+     "CF-00281",
+     "EC-01567",
+     "RE-01062"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La réunion générale où Moellenhoff parle de la culpabilité du groupe après la mort de Porter",
+    "vers_date": null,
+    "vers": "Le suicide de Dick Porter, en cinquième année, sans date précise ; une fiche évoque un étudiant acteur mort par suicide et Schawinsky éloigné du matériau macabre.",
+    "refs": [
+     "EV-02762",
+     "EV-02763",
+     "SC-00715",
+     "EV-02817"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le lendemain du congé forcé de Rice, dans la communauté qui n'a pas été consultée",
+    "vers_date": "1938-03-03",
+    "vers": "Le 3 mars, Mangold et Dreier négocient le congé jusqu'au 1er mai. Les étudiants ne sont pas consultés et la communauté décide qu'Alice ne doit pas être pénalisée.",
+    "refs": [
+     "EV-02837",
+     "EV-02835",
+     "SC-00733"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La dernière réunion de l'année, quand Wunsch rappelle que le collège doit savoir vivre sans Rice",
+    "vers_date": "1938-06-02",
+    "vers": "Le conseil final du 2 juin : 200 dollars de frais de vie et proposition de représenter le collège à Chicago, refusée par Rice.",
+    "refs": [
+     "EV-02847",
+     "EV-02848"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La Danse Macabre du 14 mai, après laquelle Schawinsky reste en tension avec le Conseil",
+    "vers_date": "1938-08-31",
+    "vers": "Mémo du 31 août qui traite du départ de Schawinsky ; il n'est pas réembauché.",
+    "refs": [
+     "CF-00284",
+     "EV-02850",
+     "EV-02816"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La crise de mai, quand le collège doit tenir sans son fondateur",
+    "vers_date": "1938",
+    "vers": "Automne 1938 : Rice revient en fantôme à Lee Hall ; le Board vote Wunsch au rectorat. Rice juge Wunsch gentil mais incapable de gouverner.",
+    "refs": [
+     "EV-02851",
+     "EV-02852",
+     "SC-00729"
+    ]
+   }
+  ],
+  "motifs": [
+   "Chute du fondateur et autorité vacante",
+   "Un collège qui se réapproprie son propre mythe",
+   "Décision collective contre le pouvoir personnel",
+   "Culpabilité de groupe après la mort d'un étudiant",
+   "Théâtre total et mémoire du deuil",
+   "Argent, salaires et dépendance aux budgets de besoin",
+   "Le matériau et la forme face à l'effondrement"
+  ],
+  "lacunes": "On ignore la date exacte du suicide de Dick Porter et s'il est lié à la Danse Macabre ; un lien est plausible mais jamais affirmé. On ne connaît pas la composition du Board lors de la réunion spéciale du 29 avril. Les fiches ne donnent pas les noms des quatre membres de la faculté venus à Folly Beach, ni où se trouve Alice en mai. Les sources se contredisent : le départ de Rice est daté du 3 mars ou du 7 mars selon Duberman ; Chaddock place la démission du 13 avril alors que Duberman place la lettre à la mi-avril et le vote dix jours plus tard ; le refus de Chicago est daté d'avril par Chaddock et de juin par Duberman. Les fiches EV-02843 et SC-00734 décrivent le même épisode, de même que EV-02844 et SC-00735. Le climat et la vie quotidienne (cours, repas) de mai ne sont pas documentés."
+ }
+}

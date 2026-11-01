@@ -1,0 +1,233 @@
+{
+ "passe": "mois",
+ "cle": "1939-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5401,
+  "sortie": 13717,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1939-06",
+  "session": "Fin du printemps et début de l'été ; les fiches ne nomment aucune session précise pour ce mois.",
+  "saison_et_climat": "Début d'été en Caroline du Nord comme à Mexico ; les fiches ne décrivent pas le temps qu'il fait.",
+  "situation": "Le collège sort d'un printemps de crise autour de Rice. Fin juin, Rice quitte Black Mountain pour Southern Pines. Sa liaison avec Alice est terminée, et Nell refuse de le suivre : elle achève son travail à Asheville avant Chapel Hill. La faculté veut empêcher son retour définitif, et la durée de son congé reste disputée. Josef et Anni Albers sont à Mexico depuis le 8 juin, jusqu'au 8 septembre, donc absents du campus. Jalowetz n'arrivera qu'à la rentrée. La musique n'a plus Allan Sly, que Nacke espère remplacer.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Frank Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Marian Nacke",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1939-06-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Josef et Anni Albers partent pour leur séjour mexicain, qui doit durer jusqu'au 8 septembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02950"
+    ]
+   },
+   {
+    "date": "1939-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Première fête à Mexico, avec des peintres et des Américains : elle dure jusqu'à 1 h 30 et se termine chez un célibataire par un souper à 23 h. Anni la raconte à Anne Mangold dans une lettre du 15 juin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02945",
+     "EV-02947",
+     "SC-00754"
+    ]
+   },
+   {
+    "date": "1939-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Josef réalise à Tenayuca un montage de 62 contacts intitulé « Tenayuca, juin 1939 », complété par un autre montage.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02946"
+    ]
+   },
+   {
+    "date": "1939-06-22",
+    "precision": "jour",
+    "ce_qui_arrive": "Les parents d'Anni, les Fleischmann, débarquent à Veracruz de l'Orinoco, le bateau de leur voyage de 1937. C'est un exil définitif, et Josef et Anni les accueillent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02951",
+     "SC-00755",
+     "SC-00756"
+    ]
+   },
+   {
+    "date": "1939-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice quitte Black Mountain fin juin pour Southern Pines. Nell refuse de le suivre et ne veut pas être près de lui. Un enseignant écrit que personne ne tient à le voir revenir.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02948",
+     "EV-02949"
+    ]
+   },
+   {
+    "date": "1939-06-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers écrit à Fred Mangold pour chercher un peintre invité ; c'est la première d'une série de lettres exigeantes de l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02952"
+    ]
+   },
+   {
+    "date": "1939-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Frank et Mary Rice reviennent pour l'été et prennent des emplois au Lake Eden Inn voisin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02949"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches disent peu de la vie ordinaire du collège en juin. Frank et Mary Rice travaillent à l'auberge voisine pour l'été. Rice vit encore à l'écart dans sa chambre de Lee Hall, où il écrit son autobiographie, jusqu'à son départ. Côté mexicain, la vie d'Albers tient aux sorties photographiques de Tenayuca, aux fêtes nocturnes qui épuisent Anni, et aux lettres de recrutement pour Black Mountain. Nell finit son travail à l'Asheville Normal School.",
+  "tensions": [
+   "Une partie de la faculté veut évincer Rice et empêcher son retour. Nacke parle d'une explosion « dans les six semaines » après sa lettre du 24 avril : cette échéance tombe en juin.",
+   "La durée du congé est contradictoire : Duberman parle d'un sabbatique d'un an que le conseil veut utiliser contre Rice, Chaddock d'un seul semestre obtenu à contrecœur.",
+   "Nell refuse de suivre Rice, et le plan de réconciliation à Chapel Hill est abandonné.",
+   "La trêve entre Rice, Dreier et Albers n'a pas tenu ; les querelles ont repris.",
+   "La querelle publique de Rice dans Harper's, avec son cousin William H. Smith, laisse une menace de procès en diffamation restée sans suite.",
+   "L'exil définitif des Fleischmann mêle la joie des retrouvailles au chagrin de Toni.",
+   "Albers se montre très exigeant dans le choix du peintre invité : il refuse les profils abstraits et les candidats qu'il juge trop vides ou politiquement suspects."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Première fête à Mexico",
+    "date": "1939-06",
+    "lieu": "Mexico",
+    "personnages": [
+     "Anni Albers",
+     "Josef Albers"
+    ],
+    "deroule": "Soirée avec des peintres et des Américains, « un peu folle », qui s'étire jusqu'à 1 h 30 du matin et finit chez un célibataire autour d'un souper à 23 h. Le lendemain, les deux sont épuisés. Anni le raconte à Anne Mangold.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02945",
+     "EV-02947",
+     "SC-00754"
+    ]
+   },
+   {
+    "titre": "Débarquement des Fleischmann à Veracruz",
+    "date": "1939-06-22",
+    "lieu": "Port de Veracruz",
+    "personnages": [
+     "Siegfried Fleischmann",
+     "Toni Fleischmann",
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "L'Orinoco accoste, le bateau du voyage de 1937. Josef et Anni attendent au quai. Toni note le contraste entre les deux voyages : hier une visite, aujourd'hui un départ pour toujours. Joie des retrouvailles et chagrin de l'exil se mêlent.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00755",
+     "SC-00756",
+     "EV-02951"
+    ]
+   },
+   {
+    "titre": "Le départ de Rice",
+    "date": "1939-06",
+    "lieu": "Black Mountain",
+    "personnages": [
+     "Rice",
+     "Nell",
+     "Frank Rice",
+     "Mary Rice"
+    ],
+    "deroule": "Rice, resté à l'écart dans sa chambre de Lee Hall, quitte le collège fin juin pour Southern Pines. Nell refuse de le suivre et reste pour finir son travail à Asheville. Rice évoque un logement près d'Adamic. Frank et Mary, revenus pour l'été, travaillent à l'auberge voisine.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02948",
+     "EV-02949"
+    ]
+   },
+   {
+    "titre": "Lettre de Josef à Fred Mangold",
+    "date": "1939-06-29",
+    "lieu": "Mexique",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Depuis Mexico, Albers cherche un peintre invité pour Black Mountain et se montre exigeant : il rejette les peintres abstraits et les candidats qu'il juge vides ou communistes. Aucun recrutement n'en sort cet été.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02952"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Fin juin, quand la faculté se demande s'il faut laisser Rice revenir",
+    "vers_date": "1939-04-24",
+    "vers": "La lettre de Marian Nacke du 24 avril : une partie de la faculté veut évincer Rice, et elle annonce une explosion prochaine.",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le débarquement des Fleischmann à Veracruz le 22 juin",
+    "vers_date": "1937",
+    "vers": "Le même bateau, l'Orinoco, deux ans plus tôt, pour un voyage de vacances destiné à revoir leurs enfants, avant le départ définitif.",
+    "refs": [
+     "SC-00756",
+     "EV-02951"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Rice pour Southern Pines, fin juin",
+    "vers_date": "1939-12",
+    "vers": "À partir de Noël, Wunsch rend visite à Rice à Southern Pines pour obtenir sa démission ; la première visite échoue en jeu du chat et de la souris.",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le séjour mexicain des Albers, pendant l'été",
+    "vers_date": "1939-08",
+    "vers": "Fin d'été, Josef passe une semaine à Oaxaca avec le jeune Guillermo Meza et lui donne son verdict : « je suis convaincu ».",
+    "refs": [
+     "fil : Le voyage mexicain d'Albers (1939-06→1939-09)"
+    ]
+   }
+  ],
+  "motifs": [
+   "le même bateau, deux fois",
+   "départ et exclusion",
+   "exil définitif",
+   "lettres comme seul lien entre Mexique et campus",
+   "recrutement qui échoue",
+   "fête comme revers de l'épuisement"
+  ],
+  "lacunes": "La date exacte du départ de Rice n'est donnée que par « fin juin ». La durée de son congé se contredit (Duberman : un an ; Chaddock : un semestre). On ne sait pas si Nell est encore à Black Mountain ou déjà à Asheville : une fiche la place au collège, la synthèse à Asheville. La présence d'Adamic, d'Anne ou de Fred Mangold au collège n'est pas établie. Aucune fiche ne décrit les cours, les repas ou la vie d'été du campus. La date de la naturalisation américaine des Albers reste inconnue, et celle de la venue des plans Gropius-Breuer n'est pas précisée."
+ }
+}

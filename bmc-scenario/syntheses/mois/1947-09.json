@@ -1,0 +1,370 @@
+{
+ "passe": "mois",
+ "cle": "1947-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6022,
+  "sortie": 17725,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1947-09",
+  "session": "Rentrée d'automne : exercices d'ouverture, puis premier trimestre du calendrier en trimestres adopté en mars (le découpage en trimestres est une déduction)",
+  "saison_et_climat": "Fin d'été puis entrée en automne sur la montagne de Caroline du Nord, mais les fiches ne décrivent pas le climat. Au Mexique, Josef peint sans interruption et les fiches ne donnent pas la saison.",
+  "situation": "Le collège rentre sous la direction de Levi et Rondthaler, sans Albers, resté au Mexique jusqu'à fin octobre selon la synthèse (son retour reste en suspens). Levi prononce le discours d'ouverture devant une communauté d'environ 90 étudiants, effectif passé de 65 à 85 puis à environ 90 grâce au GI Bill. Bolotowsky remplace Albers à la peinture. Niebyl est parti après le non-renouvellement notifié en mars. Dreier, découragé, songe à partir en Allemagne (lettre du 22 août). La ferme de Lake Eden est en train de se monter. Le programme penche vers les humanités, mais la vie du campus reste mêlée d'art et de musique.",
+  "presents_probables": [
+   {
+    "nom": "Albert William Levi",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers (absent, au Mexique)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers (au Mexique avec Josef)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bolotowsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Howard Rondthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M. C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frank Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jim Tite",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trude Guermonprez",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tasker Howard Jr.",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Arthur Penn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Masurovsky",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1947-09-09",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers écrit à Charlot que les jardins de Barragán sont la plus grande architecture de jardins nouvelle qu'il ait vue ; Porset et Guerrero les leur ont fait découvrir. Le lieu exact (Tacubaya ou Pedregal) reste incertain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04118"
+    ]
+   },
+   {
+    "date": "1947-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Josef écrit à Perdekamp qu'il peint presque sans arrêt, jour et nuit selon Anni, sur un seul thème (environ 70 études depuis janvier), et qu'il voyage peu. La série Variants/Adobes prend forme.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04117",
+     "EV-04119"
+    ]
+   },
+   {
+    "date": "1947-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Levi prononce « The Meaning of Black Mountain » devant la communauté réunie lors des exercices d'ouverture, en définissant le collège comme expérimental et éducatif.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04120",
+     "SC-01035"
+    ]
+   },
+   {
+    "date": "1947-09",
+    "precision": "mois",
+    "ce_qui_arrive": "William Huff écrit depuis Yale que son cours d'art expérimental, où l'on « remplit l'espace » sans peindre ni dessiner, le déroute. Il ne s'agit pas de BMC.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04121",
+     "SC-01036"
+    ]
+   },
+   {
+    "date": "1947-07-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Exposition internationale du Surréalisme à la Galerie Maeght, ouverte jusqu'au 30 septembre. Elle est sans lien direct avec BMC mais se tient pendant le mois.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04114"
+    ]
+   },
+   {
+    "date": "1947-09",
+    "precision": "session",
+    "ce_qui_arrive": "Les effectifs atteignent environ 90 étudiants, plus de la moitié d'hommes, logés dans des barraques de surplus militaire sous l'effet du GI Bill.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "date": "1947-09",
+    "precision": "session",
+    "ce_qui_arrive": "Le programme se rééquilibre vers les humanités : Logique, L'individu dans la société, histoire de la langue anglaise, Processus de groupe, et Problèmes de philosophie donné par Dehn à la demande des étudiants.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "date": "1947-09",
+    "precision": "session",
+    "ce_qui_arrive": "Bolotowsky reprend l'enseignement de la peinture à la place d'Albers, et les tensions entre les peintres montent, retenues par leur hostilité commune à Levi.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Arthur Penn, 24 ans, s'inscrit comme étudiant régulier après une visite de deux semaines, attiré par les récits de son frère sur le Bauhaus.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "date": "1947-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Le régime agricole de Lake Eden est en place (Moles et Trayer) : ravin défriché en pâture, 8 acres loués, 4 500 arbres plantés, génisse Junket et son veau noir. La période court de mai à octobre 1947.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les cours : Dehn (Problèmes de philosophie, Logique), Rondthaler qui compose dans sa cabane, Goldowski en physique et chimie, M. C. Richards qui fait son séminaire assis par terre, Wallen qui pratique le psychodrame avec une règle : une absence exige un texte justificatif. Levi donne l'histoire de la langue anglaise et les cours sur l'individu et le groupe. L'art et la musique occupent moins de place qu'avant. Frank Rice et Jim Tite relancent l'imprimerie avec une presse de surplus. Les étudiants vivent dans les barraques de surplus militaire. Les anecdotes de 1947-48 (la valse de Natasha et de Lyle qui écrase un piano, le croc à viande dans la porte du frigo, la jeep de Masurovsky, la sortie de Bolotowsky avec quatre étudiantes) ne sont pas datées de septembre : leur place ici est déduite. Les mères organisent une garderie informelle.",
+  "tensions": [
+   "Albers absent : sa demande de prolonger son congé, les 1 000 $ réclamés pour son second semestre et la lettre de Levi qui le dit indispensable préparent le conflit de son retour.",
+   "Wallen contre les anciens sur la nature du lieu, collège ou communauté ; sa démission est confirmée par le Board, mais les sources divergent sur la date de son départ (1948 selon une source, encore en poste en 1947-48 selon une autre).",
+   "Bolotowsky et les autres peintres se disputent, contenus par leur aversion commune pour Levi.",
+   "Dreier découragé ; l'hypothèque de second rang de 16 500 $ qu'il détient structure toute la gouvernance.",
+   "Pression budgétaire : le budget 1947-48 prévoit 115 239 $ de recettes pour 119 402 $ de dépenses, et Levi a renvoyé le personnel d'entretien et de cuisine (vaisselle cassée, locaux dégradés).",
+   "Race : la faculté déclare l'admission ouverte à toutes les races sans avoir recruté d'enseignant noir ; une seule des cinq étudiantes noires de l'hiver est revenue ; les étudiants noirs vivent presque reclus et Krikorian a été arrêté pour vitesse, puis pour vagabondage (date non donnée).",
+   "Un sociologue a démissionné et le budget n'autorise qu'un seul remplacement.",
+   "Molly Gregory a quitté son poste de secrétaire et refuse de se représenter au Board ; Albers l'accuse de l'avoir vendu."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Levi ouvre la session devant toute la communauté",
+    "date": "1947-09",
+    "lieu": "Black Mountain College, exercices d'ouverture",
+    "personnages": [
+     "Albert William Levi",
+     "communauté de BMC"
+    ],
+    "deroule": "Levi part de Whitehead (trois cents ans pour l'université mûre, donc cent quatre-vingt-six ans d'attente pour BMC), se moque de la sénilité des grandes universités, passe par Platon, l'Empire State Building et les toilettes de Yale, avoue ses inquiétudes devant les quatre-vingt-dix étudiants, évoque les démissions croisées et expose sa théorie des quatre dimensions du moi. Il cite Shaw : la jeunesse est si belle qu'il est honteux de la gaspiller sur les jeunes.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01035",
+     "EV-04120"
+    ]
+   },
+   {
+    "titre": "Josef mesure la métamorphose des couleurs",
+    "date": "1947-09",
+    "lieu": "Mexique",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Dans sa lettre à Perdekamp, Josef raconte que, depuis janvier, il travaille un seul thème en soixante-dix études. Il voit les couleurs se transformer selon leurs proportions et se dit fier quand elles perdent leur identité. Il voudrait continuer sans être dérangé.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01034",
+     "EV-04117",
+     "EV-04119"
+    ]
+   },
+   {
+    "titre": "Huff dans la classe qui ne peint pas",
+    "date": "1947-09",
+    "lieu": "Yale (hors BMC)",
+    "personnages": [
+     "William Huff",
+     "Herbert Gute",
+     "Gilbert Switzer"
+    ],
+    "deroule": "Huff et ses camarades remplissent l'espace avec des plans, des lignes et des solides en carton, fil de fer et argile. Il écrit à ses parents que ce cours le déroute. Scène parallèle, utile pour le contraste avec la pédagogie d'Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01036",
+     "EV-04121"
+    ]
+   },
+   {
+    "titre": "Bolotowsky dans l'atelier de peinture de l'absent",
+    "date": "1947-09",
+    "lieu": "Atelier de peinture de BMC",
+    "personnages": [
+     "Bolotowsky",
+     "Levi"
+    ],
+    "deroule": "Bolotowsky enseigne la peinture à la place d'Albers. Les tensions entre peintres montent, et Levi reste la cible commune. La scène se déduit de la place de Bolotowsky et de ses rapports avec les autres enseignants.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Penn fait rire la salle avec des sketchs",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Arthur Penn"
+    ],
+    "deroule": "Penn monte des sketchs burlesques, un peu grivois, qui créent un petit choc. Il arrive comme étudiant régulier à l'automne, attiré par les histoires de son frère sur le Bauhaus. La date exacte du premier sketch n'est pas donnée.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Dreier songe à partir",
+    "date": "1947-09",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Ted Dreier"
+    ],
+    "deroule": "Dreier, déçu, a écrit le 22 août à Ise Gropius qu'il pensait partir pour l'Allemagne après la conférence troublante d'un candidat au poste d'histoire. La scène se déduit de cette lettre, sans date précise en septembre.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Septembre 1947, Levi évoque les démissions croisées et l'âme du collège",
+    "vers_date": "1947-05-09",
+    "vers": "Les notices du 9 mai : Niebyl part après le non-renouvellement de mars, les pétitions étudiantes et la réunion du Board du 8 mai.",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Josef peint à Mexico, loin des affaires de BMC",
+    "vers_date": "1946",
+    "vers": "Le sabbatique commence à l'automne 1946. Les Albers arrivent à Mexico fin avril ou le 1er mai 1947 (les fiches divergent).",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Levi, en septembre, parle d'un collège qui se cherche",
+    "vers_date": "1933",
+    "vers": "Albers enseigne à BMC depuis 1933 ; « form follows function » est l'idée qu'il incarne, et que Goodman discute en 1947.",
+    "refs": [
+     "EC-02185"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Une avant-garde qui doute d'elle-même en 1947",
+    "vers_date": "1920",
+    "vers": "L'âge d'or de l'avant-garde et du Bauhaus, confiant dans la paix, comparé à l'anxiété atomique de l'après-guerre (Goodman).",
+    "refs": [
+     "EC-02186"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les jardins de Barragán découverts en septembre",
+    "vers_date": null,
+    "vers": "Des années plus tard, Barragán, très sélectif, rend à Albers le compliment sur l'art de sa maison.",
+    "refs": [
+     "EV-04118"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La classe déroutante de Huff à Yale",
+    "vers_date": "1948",
+    "vers": "Albers, invité à Yale en 1948, viendra incarner la méthode que Huff ne comprend pas encore.",
+    "refs": [
+     "SC-01036"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le groupe de Wallen en désaccord avec les anciens",
+    "vers_date": "1948",
+    "vers": "Le groupe de Wallen part à l'été 1948 (une autre source le fait enseigner encore en 1947-48).",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La série des Variants/Adobes commencée à Mexico",
+    "vers_date": null,
+    "vers": "La série dépassera deux cents toiles au fil des années.",
+    "refs": [
+     "EV-04119"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'exposition surréaliste ouverte à la Galerie Maeght",
+    "vers_date": "1968",
+    "vers": "Rubin y verra en 1968 le coup de grâce du mouvement.",
+    "refs": [
+     "EV-04114"
+    ]
+   }
+  ],
+  "motifs": [
+   "la taille contre la communauté",
+   "la couleur qui se transforme au contact d'autres couleurs",
+   "l'absence du pilier Albers",
+   "race et exclusion à Black Mountain",
+   "surplus militaire et GI Bill",
+   "calendrier en trimestres",
+   "humanités contre art"
+  ],
+  "lacunes": "Le climat et la saison au Mexique ne sont pas décrits. On ignore la date exacte de la lettre et du discours (les fiches donnent seulement le mois, sauf la lettre à Charlot du 9 septembre). Les dates divergent : arrivée des Albers au Mexique (fin avril ou 1er mai), nombre d'études (environ 70, environ 80 ou plus de 100), statut de Dreier (recteur nominal en 1946-47 ou élu en mars 1947), rôle d'Albers dans le rectorat (1947 ou 1948), date de départ de Wallen (1948 ou après 1947-48), photo d'Anahuacalli (1947 ou 1949). Le jardin visité est Tacubaya ou Jardines del Pedregal. Le nom du sociologue démissionnaire, la date du retour d'Albers et la date des sketchs de Penn ne sont pas connus. Krikorian n'a pas de date d'arrestation."
+ }
+}

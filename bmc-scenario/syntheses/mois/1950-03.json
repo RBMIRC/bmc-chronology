@@ -1,0 +1,227 @@
+{
+ "passe": "mois",
+ "cle": "1950-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3778,
+  "sortie": 10811,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1950-03",
+  "session": "trimestre de printemps (déduit : la synthèse situe la querelle sur l'avenir du collège « au printemps », sans date de session fournie)",
+  "saison_et_climat": "printemps 1950 ; aucune fiche ne décrit le temps ni le paysage de mars. Les seules notations climatiques concernent l'été (chaleur, serpents, électricité rationnée, essence rare).",
+  "situation": "Le collège n'a ni recteur ni business manager. L'ère Albers est close depuis son départ en 1949, et la gauche Levi–Richards est menacée. Le recrutement d'un recteur s'enlise : Forbes cherche, le poste ne séduit pas, et la faculté n'a pas encore fait d'offre (Ballou et Huss n'arrivent qu'à la fin de juin). Le Board, où les conservateurs dominent, ne compte que huit des vingt-deux enseignants. Son vote de non-réembauche n'a pas encore eu lieu, il viendra en juin.",
+  "presents_probables": [
+   {
+    "nom": "Corkran",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Warrington",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Forbes",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Flola Shepard",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Leser",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mary Fitton",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nick Cernovich",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Pete Jennerjahn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Jennerjahn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1950-03-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Gropius écrit à Albers qu'il est « tops in the field », mais l'administration veut un homme plus jeune et moins cher. Albers n'obtiendra pas le poste de Harvard, annoncé en juin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05223"
+    ]
+   },
+   {
+    "date": "1950-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Nick Cernovich mène un sondage étudiant qui soutient massivement Levi, Richards et Fiore, menacés de non-réembauche. Les sources datent le sondage différemment : le 23 mars pour l'une, juin pour l'autre.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Au printemps, Forbes cherche un recteur. Le poste paie 90 $ par mois, sans pouvoirs définis ni garantie de tenure, et l'échec est acquis : il rend ses dossiers et part pour l'Europe.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Peu de matière pour la vie ordinaire de mars. On sait que la faculté siège en réunions (Community Council, Board), que les conservateurs et la gauche s'affrontent en séance, que Dawson suit sa première année et que le campus est occupé par la recherche d'un recteur. Les fiches ne documentent ni les cours, ni les repas, ni la musique de ce mois.",
+  "tensions": [
+   "Conservateurs (Corkran, Trayer, Warrington, Goldowski, groupe Forbes) contre Levi, Flola Shepard et Leser, sur la forme du collège : recteur fort ou Community Council étoffé",
+   "Board réduit et bulletins secrets contre étudiants influents",
+   "Menace de non-réembauche visant Levi, Fiore et M.C. Richards, que le Board fond dans le « paquet » Levi",
+   "Liaison de Fiore avec l'étudiante Mary Fitton alors que sa femme est internée près d'Asheville (date de la liaison non fixée dans les sources)",
+   "Contentieux d'Albers avec le collège (fonds de pension, plancher de pin), et Gropius qui le fait attendre",
+   "Recrutement d'un recteur bloqué : Corkran méprise les candidats, Washburne se retire"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Forbes rend ses dossiers",
+    "date": "1950",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Forbes",
+     "Corkran",
+     "Trayer"
+    ],
+    "deroule": "Forbes, chargé de trouver un recteur, constate que le poste de 90 $ par mois, sans pouvoirs ni garantie, ne séduit personne. Corkran juge les candidats « épaves de l'establishment éducatif sudiste ». Forbes rend ses dossiers au printemps et part pour l'Europe, laissant le champ libre aux conservateurs.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Le sondage de Cernovich",
+    "date": "1950-03",
+    "lieu": null,
+    "personnages": [
+     "Nick Cernovich",
+     "Levi",
+     "M.C. Richards",
+     "Fiore",
+     "étudiants"
+    ],
+    "deroule": "Un étudiant fait circuler un sondage qui tourne en faveur des trois enseignants visés par le Board. Les sources ne datent pas la scène de la même façon (23 mars ou juin). Le sondage servira d'argument à la faculté, qui recommandera les réembauches.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Albers apprend qu'il n'aura pas Harvard",
+    "date": "1950-03-16",
+    "lieu": "Cambridge",
+    "personnages": [
+     "Albers",
+     "Gropius"
+    ],
+    "deroule": "Gropius écrit qu'Albers est le premier choix, mais que l'administration veut un plus jeune et moins cher. Il demande même l'avis d'Albers sur des candidats qui rivalisent avec lui. Albers répond avec un mépris diplomatique pour toutes les suggestions.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05223"
+    ]
+   },
+   {
+    "titre": "Liaison Fiore et Fitton",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Joe Fiore",
+     "Mary Fitton"
+    ],
+    "deroule": "La liaison entre l'enseignant et l'étudiante est connue du collège. Elle pèsera au vote de non-réembauche de juin. Les sources ne donnent pas de date précise à la liaison ni à ce qu'on en dit en mars.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashforward",
+    "depuis": "mars 1950, Albers attend la décision de Gropius depuis Pratt",
+    "vers_date": "1950-06",
+    "vers": "Gropius annonce en juin qu'il n'aura pas le poste de Harvard ; Albers ira à Yale à l'automne",
+    "refs": [
+     "EV-05223"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "mars 1950, la querelle sur le recteur ravive les rancunes de l'ère Albers",
+    "vers_date": "1949",
+    "vers": "le départ d'Albers en 1949 et le contentieux qu'il laisse : fonds de pension retenu à 20 %, plancher de pin, lettre furieuse",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "mars 1950, Dawson est en première année au collège",
+    "vers_date": "1950",
+    "vers": "fin du printemps : il lit « Father » au Community House sous les applaudissements, et Mary Richards lui dit le mot « writer »",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "mars 1950, les conservateurs et la gauche se disputent le Board",
+    "vers_date": "1950-06",
+    "vers": "vote à bulletin secret contre le réengagement de Levi, Fiore et M.C. Richards ; le Board recule presque aussitôt pour Richards, et Levi part en décembre",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "mars 1950, le collège se tient encore debout malgré la crise",
+    "vers_date": "1950",
+    "vers": "l'été : Goodman arrive, provoque une explosion, est défendu par Levi ; Levi est frappé par Trayer en pleine réunion",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "mars 1950, un collège sans dotation qui cherche son identité",
+    "vers_date": null,
+    "vers": "ce qu'il en reste dans la culture américaine : Goodman, écrivant en 1965, fait de BMC l'expérience réelle de la guilde de savants, et y voit son influence durable",
+    "refs": [
+     "EC-02574",
+     "EC-02575"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le poste vacant : un recteur qu'on ne trouve pas, un pouvoir qu'on ne définit pas",
+   "La succession d'Albers : le départ d'un patron qui laisse un contentieux",
+   "Le Board contre la faculté : bulletins secrets contre réunion ouverte",
+   "Le dossier des trois enseignants menacés (Levi, Fiore, Richards) et le poids du sondage étudiant",
+   "La liaison Fiore–Fitton comme point de scandale latent",
+   "La mémoire longue : une expérience pédagogique que ses acteurs jugent déjà exemplaire"
+  ],
+  "lacunes": "Aucune fiche ne donne la vie quotidienne, les cours, le temps ni les activités artistiques de mars 1950. La date du sondage est contestée (23 mars ou juin). La date du recrutement de Forbes, son échec et son départ ne sont pas précisées au-delà du printemps. La liaison Fiore–Fitton n'est pas datée. Les positions de Max Dehn, Johanna Jalowetz, Cage et Rumaker ne sont pas documentées pour ce mois. Olson, Goodman, Stamos et Frankenthaler arrivent plus tard dans l'année, et Albers est à Pratt, pas au collège. Les mentions de Rauschenberg dans les échos (EC-02576) datent des années 1950 et ne fixent rien pour mars."
+ }
+}

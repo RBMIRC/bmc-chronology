@@ -1,0 +1,223 @@
+{
+ "passe": "personnes",
+ "cle": "Lilly Reich",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5922,
+  "sortie": 2791,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Lilly Reich",
+  "autres_noms": [
+   "Reich"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Jamais présente à Black Mountain College ; compagne et collaboratrice de Mies van der Rohe au Bauhaus de Dessau-Berlin, figure d'arrière-plan essentielle pour les personnages Albers et Mies.",
+  "presence": [],
+  "portrait_physique": "Toujours impeccablement soignée ; cheveux lissés, robes élégantes d'allure moderne et masculine qui choquait son entourage. Rejetait le mou et les froufrous dans sa tenue comme dans son comportement (PE-00134).",
+  "noyau_psychologique": "Disciplinarienne du fonctionnalisme, prompte à l'objection tranchante et à l'exclamation méprisante, elle fait de la présentation de soi — tenue, parole, table — une question de doctrine. Sa force est réelle (designer reconnue, dirigeante d'atelier, organisatrice d'expositions) mais elle la met au service de Mies avec une dévotion que les observateurs qualifient de servile : elle imite son goût, le soutient, le protège, objecte puis obéit.",
+  "blessures": null,
+  "desirs": "Imposer l'austérité fonctionnaliste jusqu'aux gestes domestiques ; être reconnue comme garde du goût de Mies et du Bauhaus — allant jusqu'à présenter comme siens des tissus d'Anni Albers à Johnson (RE-00905).",
+  "peurs": "La ruine matérielle (s'alarme du champagne faute d'argent) ; pour la sécurité de Mies — craint qu'il ne soit tué en allant voir Rosenberg (EV-02048).",
+  "maniere_d_aimer": "Amour de loyauté disciplinaire et publique : vie commune ouverte à Berlin et Stuttgart, mêmes goûts, culte partagé de l'apparence. Aimant par le contrôle — elle reloge les filles de Mies à ses goûts, habille Georgia en tailleur-homme — ce qui fait d'elle une belle-mère détestée (RE-00325, RE-00516).",
+  "rapport_au_pouvoir": "Autoritaire et opinionée avec les faibles et les subordonnés (jeune épouse, enfants), caustique et parfois duplice selon les Albers ; impérieuse mais loyale et anxieuse face au pouvoir de Mies, qu'elle conteste verbalement avant de céder.",
+  "voix": {
+   "registre": "Assuré, tranchant, didactique ; l'exclamation agressive plutôt que la nuance.",
+   "tics": "Froncer les sourcils ; entrer sans ôter son manteau ni saluer ; objecter d'abord, obéir ensuite.",
+   "exemples_paraphrases": [
+    "Des boulettes de beurre ? Ici, au Bauhaus ? Au Bauhaus, on aurait simplement un bon bloc massif de beurre.",
+    "Du champagne ? Nous n'avons pas d'argent."
+   ]
+  },
+  "habitudes": [
+   "Vit avec Mies à Dessau trois jours par semaine, sinon à Berlin (EV-01535)",
+   "Redresse la garde-robe et le décor de son entourage selon son goût austère",
+   "Culte scrupuleux de sa propre tenue : cheveux lissés, taille homme, élégance chère"
+  ],
+  "convictions": [
+   "L'austérité fonctionnaliste jusque sur la table : pas d'ornement, pas de froufrous",
+   "Suprématie de la présentation de soi : tenue, parole, apparence",
+   "L'objection franche comme devoir de goût"
+  ],
+  "arc_bmc": [],
+  "avant": [
+   {
+    "date": "1914",
+    "precision": "annee",
+    "moment": "Organise un défilé du Werkbund à Berlin ; créatrice de textiles et de vêtements féminins déjà établie.",
+    "refs": [
+     "PE-00134"
+    ]
+   },
+   {
+    "date": "1926",
+    "precision": "annee",
+    "moment": "Milieu des années 1920 : vie commune ouverte avec Mies à Berlin et Stuttgart ; mêmes goûts, même culte de la présentation de soi.",
+    "refs": [
+     "RE-00323"
+    ]
+   },
+   {
+    "date": "1927",
+    "precision": "annee",
+    "moment": "À Stuttgart pendant Weissenhof : responsable d'une exposition concurrente de mobilier et objets domestiques où la chaise MR est lancée.",
+    "refs": [
+     "PE-00134",
+     "EV-01266"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "annee",
+    "moment": "≈ années 1920 : rejette les vêtements choisis par Ada pour les filles de Mies et les rhabille à ses goûts, plus austères et plus chers, avec l'argent familial ; les filles la détestent et Mies s'éloigne de ses enfants.",
+    "refs": [
+     "RE-00325",
+     "RE-00516",
+     "SC-00158",
+     "EV-00598"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "annee",
+    "moment": "≈ avant 1933 : dîner chez les jeunes Albers à Dessau ; à peine entrée, manteau sur le dos, elle foudroie les boules de beurre d'Anni — blessure qu'Anni gardera mot pour mot un demi-siècle.",
+    "refs": [
+     "SC-00024",
+     "SC-00154",
+     "EV-00116",
+     "EV-00585",
+     "CI-00081",
+     "CI-00337",
+     "QU-00094",
+     "QU-00563"
+    ]
+   },
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "Vie commune avec Mies à Dessau ; elle dirige l'atelier de tissage du Bauhaus (avec Otti Berger comme assistante) ; trois jours par semaine seulement.",
+    "refs": [
+     "EV-01535",
+     "RE-00709"
+    ]
+   },
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "1930-31 : exécute l'appartement new-yorkais de Philip Johnson au 424 East 52nd Street — chaises Barcelona, soie brute, natte de Chine — au scandale des voisins traditionalistes.",
+    "refs": [
+     "EV-01539"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "S'attribue auprès de Johnson des tissus d'Anni Albers comme les siens ; la découverte, plus tard, rehausse l'estime de Johnson pour Anni.",
+    "refs": [
+     "RE-00905"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Tente de dissuader Mies d'aller chez Rosenberg ; avec Hilberseimer, l'attend terrée dans le café d'en face, derrière la vitrine, pendant l'entretien nocturne.",
+    "refs": [
+     "SC-00512",
+     "EV-02048",
+     "RE-00909"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Après la lettre de la Gestapo autorisant la réouverture, Mies l'appelle en premier : « Commande du champagne » ; elle objecte qu'ils n'ont pas d'argent, il insiste, elle obéit — champagne de l'autodissolution souveraine du Bauhaus.",
+    "refs": [
+     "SC-00514",
+     "EV-02051",
+     "QU-00571",
+     "RE-00909"
+    ]
+   },
+   {
+    "date": "1933-07-20",
+    "precision": "jour",
+    "moment": "Présente à la réunion officielle de dissolution du Bauhaus à Berlin : dissolution votée à l'unanimité, entre bail résiliable, dettes et salaires impayés ; Mies signe le procès-verbal.",
+    "refs": [
+     "EV-02132",
+     "SC-00532",
+     "PE-00134"
+    ]
+   }
+  ],
+  "apres": [],
+  "relations_cles": [
+   {
+    "avec": "Ludwig Mies van der Rohe",
+    "nature": "amour et collaboration",
+    "evolution": "Des années 1920 à 1933 : vie commune ouverte à Berlin, Stuttgart puis Dessau ; elle dirige l'atelier de tissage, imite son goût, le soutient en disciplinarienne ; lors de la fin du Bauhaus, elle est celle qu'il appelle en premier — objection sur le champagne puis obéissance.",
+    "refs": [
+     "RE-00323",
+     "RE-00709",
+     "RE-00901",
+     "RE-00909",
+     "EV-01535",
+     "SC-00514",
+     "SC-00512"
+    ]
+   },
+   {
+    "avec": "Anni Albers",
+    "nature": "conflit diffus",
+    "evolution": "L'humiliation des boulettes de beurre brûle Anni un demi-siècle ; Reich s'attribue en outre des tissus d'Anni auprès de Johnson, ce qu'Anni ne découvre pas immédiatement.",
+    "refs": [
+     "SC-00024",
+     "SC-00154",
+     "RE-00905",
+     "EV-00585"
+    ]
+   },
+   {
+    "avec": "Georgia (Dorothea) van der Rohe et les filles de Mies",
+    "nature": "rejet mutuel",
+    "evolution": "Elle impose des robes sobres taillées comme des vêtements d'homme, que Georgia déteste au profit des fleurs et de la dentelle ; les filles la détestent comme une belle-mère froide et Mies se distance de ses enfants.",
+    "refs": [
+     "RE-00325",
+     "RE-00516",
+     "SC-00158",
+     "EV-00598"
+    ]
+   },
+   {
+    "avec": "Philip Johnson",
+    "nature": "professionnelle ambiguë",
+    "evolution": "Elle exécute son appartement new-yorkais en 1930-31, mais se présente comme auteure de tissus d'Anni ; la découverte renverse l'impression laissée à Johnson.",
+    "refs": [
+     "EV-01539",
+     "RE-00905"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Le dîner des boulettes de beurre est daté ≈1899→1985 dans une fiche et ≈1919→1972 dans l'autre : la date réelle est incertaine (Dessau suggère après 1926, mais les fiches ne tranchent pas).",
+   "Sur le champagne de la dissolution, une autre version (Horowitz & Danilowitz 2009) remplace la lettre de la Gestapo par des conditions intolérables posées par Rosenberg, le déroulé et la date exacte différant.",
+   "Les jugements sur son caractère (impérieuse, tyrannique, dévotion servile) viennent largement du témoignage des Albers, partie prenante des conflits — à manier comme point de vue subjectif."
+  ],
+  "situations_revelatrices": [
+   "Un dîner bourgeois : elle entre, ne salue pas, et juge à voix haute ce qui est servi — le clash des étiquettes.",
+   "Une scène d'argent : elle objecte « nous n'aves pas d'argent » puis exécute l'ordre — l'obéissance malgré l'objection.",
+   "L'attente angoissée derrière une vitrine de café pendant que Mies entre chez un chef nazi — la loyauté dans la peur.",
+   "L'habillage autoritaire des enfants de l'autre — elle se révèle en redressant le monde d'autrui."
+  ],
+  "citations": [
+   "CI-00081",
+   "CI-00337"
+  ],
+  "questions_ouvertes": [
+   "Ses dates de naissance et de mort, sa vie après 1933 (activité sous le nazisme, rapport à Mies après son départ pour l'Amérique) ne figurent dans aucune fiche.",
+   "Anni a-t-elle jamais appris l'attribution de ses tissus, et quand ? Les fiches disent seulement « ne semble pas au courant immédiatement ».",
+   "Sa propre carrière de designer (Werkbund, exposition de Stuttgart, atelier de tissage) mériterait des sources hors Weber pour équilibrer le portrait hostile des Albers."
+  ]
+ }
+}

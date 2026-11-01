@@ -1,0 +1,231 @@
+{
+ "passe": "mois",
+ "cle": "1939-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4312,
+  "sortie": 14202,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1939-05",
+  "session": "trimestre de printemps, probablement en cours jusqu'à la fin de juin (déduit ; le calendrier exact n'est pas donné)",
+  "saison_et_climat": "Printemps, fin de l'année scolaire approchante. Les fiches ne décrivent pas le climat du mois.",
+  "situation": "Le collège est en crise ouverte autour de son fondateur. Rice, écarté des affaires communes, vit en retrait dans une chambre de Lee Hall. La trêve avec Dreier et Albers a déjà cédé, Portell a démissionné, et Marian Nacke, écrivant le 24 avril, annonce une explosion « dans les six semaines », soit vers début juin. Selon elle, une partie de la faculté veut évincer Rice ; les motifs affichés (insultes aux donateurs et aux étudiants) masquent, dit-elle, un sentiment de trahison, une quête de sécurité et des rivalités. Le départ de Rice est en préparation pour fin juin. Nell poursuit sa vie ailleurs, Alice reste au collège.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Alice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Marian Nacke",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Allan Sly",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1939-04-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Marian Nacke écrit qu'une partie de la faculté veut évincer Rice, menace de faire éclater le collège s'il reste, annonce que le pianiste Allan Sly ne reviendra pas et attend une explosion dans les six semaines.",
+    "certitude": "atteste",
+    "refs": [
+     "fil: La sortie de Rice (1939-04→1940-02)"
+    ]
+   },
+   {
+    "date": "1939-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Querelle publique dans Harper's : le cousin de Rice, William H. Smith, relève des erreurs dans Grandmother Smith's Plantation et défend le sénateur Smith. Rice réplique en citant son discours antilynchage du 16 avril 1935 ; la menace de procès en diffamation reste sans suite.",
+    "certitude": "atteste",
+    "refs": [
+     "fil: La sortie de Rice (1939-04→1940-02)"
+    ]
+   },
+   {
+    "date": "1939-04",
+    "precision": "mois",
+    "ce_qui_arrive": "La maison Albers accueille l'exposition Bauhaus 1919-1928.",
+    "certitude": "atteste",
+    "refs": [
+     "fil: La parole d'Albers sur l'enseignement (1939-09→1939-12)"
+    ]
+   },
+   {
+    "date": "1939-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Les sources divergent sur le congé de Rice. Duberman parle d'un sabbatique convenu pour toute l'année 1939-40, que le conseil veut utiliser pour l'éloigner. Chaddock raconte que la faculté demande une année, que Rice refuse pour garder la face et qu'il obtient un seul semestre à contrecœur.",
+    "certitude": "probable",
+    "refs": [
+     "fil: La sortie de Rice (1939-04→1940-02)"
+    ]
+   },
+   {
+    "date": "1939-05",
+    "precision": "mois",
+    "ce_qui_arrive": "À New York, Guernica est vu en mai, hors du collège (le témoin n'est pas nommé).",
+    "certitude": "atteste",
+    "refs": [
+     "synthese 1939 (hors collège)"
+    ]
+   },
+   {
+    "date": "1939-05",
+    "precision": "mois",
+    "ce_qui_arrive": "À Paris, le père de Francine du Plessix Gray déchire la première histoire de sa fille, âgée de huit ans, et lui interdit d'écrire. Il mourra quatorze mois plus tard dans la Résistance. Hors du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02942",
+     "EV-02943",
+     "EV-02944",
+     "SC-00752",
+     "SC-00753"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches disent peu de la vie ordinaire en mai. Rice travaille seul dans sa chambre de Lee Hall à son autobiographie, commencée à Folly Beach. Le poste de musique reste en suspens : Sly ne reviendra pas, et Nacke espère un successeur, car les exigences de Sly la paralysent. Albers enseigne encore à Black Mountain (déduit) avant son départ pour le Mexique en juin. Les fiches ne datent pas en mai la reprise de Frank et Mary Rice à l'auberge de Lake Eden pour l'été.",
+  "tensions": [
+   "Le fondateur contre une partie de la faculté : la trêve avec Dreier et Albers n'a pas tenu, et Rice et Albers se sont à nouveau querellés.",
+   "Les motifs d'éviction affichés (insultes) contre les motifs réels selon Nacke (trahison des disciples, sécurité, rivalités).",
+   "Le congé en débat : une année pour le conseil et Duberman, un semestre concédé à contrecœur selon Chaddock. Les sources ne s'accordent pas.",
+   "La querelle Harper's avec le cousin Smith et la menace de diffamation.",
+   "Le vide laissé par Sly, dont les exigences épuisent Nacke, et l'absence de successeur.",
+   "Le départ de Portell et l'écart entre Nell et Rice, qui vit désormais ailleurs."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Paris, mai 1939 : la première histoire déchirée",
+    "date": "1939-05",
+    "lieu": "salle d'étude du domicile parisien (hors collège)",
+    "personnages": [
+     "Francine enfant",
+     "son père"
+    ],
+    "deroule": "Une institutrice demande une histoire libre. L'enfant écrit la fable minimale d'une fille qui désobéit, va voir une grenouille aux yeux verts et se noie. Lors de sa visite quotidienne, le père tonne (« Pathetic dribble! »), arrache la feuille et la déchire, puis prédit ce qu'elle deviendra si elle n'achève rien.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00752",
+     "SC-00753",
+     "EV-02943",
+     "EV-02944"
+    ]
+   },
+   {
+    "titre": "Lee Hall : le silence de Rice pendant la menace d'éclatement",
+    "date": "1939-05",
+    "lieu": "chambre de Rice à Lee Hall",
+    "personnages": [
+     "Rice"
+    ],
+    "deroule": "Rice, à l'écart, écrit son autobiographie pendant que la faculté se réunit contre lui et que Nacke annonce une explosion prochaine. La scène peut opposer le travail solitaire du fondateur aux conciliabules de ses anciens disciples.",
+    "certitude": "deduit",
+    "refs": [
+     "fil: Le livre de Rice (1938→1942)",
+     "fil: La sortie de Rice (1939-04→1940-02)"
+    ]
+   },
+   {
+    "titre": "Harper's : le cousin Smith et l'antilynchage",
+    "date": "1939-04",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "William H. Smith"
+    ],
+    "deroule": "Smith relève les erreurs de Grandmother Smith's Plantation et défend le sénateur Smith. Rice répond en rappelant son discours antilynchage du 16 avril 1935. La menace de procès reste sans suite.",
+    "certitude": "atteste",
+    "refs": [
+     "fil: La sortie de Rice (1939-04→1940-02)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Lee Hall, mai 1939, pendant que Rice écrit son autobiographie",
+    "vers_date": "1938",
+    "vers": "Le début de l'écriture à Folly Beach, et la fin de la liaison avec Alice, dont la date n'est pas donnée.",
+    "refs": [
+     "fil: Le livre de Rice (1938→1942)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Paris, mai 1939, la feuille déchirée",
+    "vers_date": "1940",
+    "vers": "Mort du père dans la Résistance, quatorze mois après la déchirure.",
+    "refs": [
+     "EV-02942",
+     "EV-02944",
+     "SC-00752"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Paris, mai 1939, l'interdit d'écrire",
+    "vers_date": null,
+    "vers": "Le motif de la censure paternelle rejoué puis accompli avec Olson à Black Mountain, sans date fournie.",
+    "refs": [
+     "SC-00752",
+     "SC-00753"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "fin de la session de printemps, au collège",
+    "vers_date": "1939-06",
+    "vers": "Rice quitte le collège pour Southern Pines ; Nell refuse de le suivre et achève son stage à Asheville avant Chapel Hill.",
+    "refs": [
+     "fil: La sortie de Rice (1939-04→1940-02)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "fin de la session de printemps, au collège",
+    "vers_date": "1939-06-08",
+    "vers": "Les Albers partent pour Mexico jusqu'au 8 septembre. Le 22 juin, les Fleischmann débarquent à Veracruz, en exil définitif.",
+    "refs": [
+     "fil: Le voyage mexicain d'Albers (1939-06→1939-09)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Southern Pines, où Rice s'est retiré",
+    "vers_date": "1939-12",
+    "vers": "À partir de Noël, Wunsch rend visite à Rice pour obtenir sa démission ; la première visite tourne au jeu du chat et de la souris et échoue.",
+    "refs": [
+     "fil: La sortie de Rice (1939-04→1940-02)"
+    ]
+   }
+  ],
+  "motifs": [
+   "le fondateur écarté et la menace d'éclatement",
+   "la trahison ressentie par les disciples et la quête de sécurité",
+   "les motifs affichés contre les motifs réels",
+   "la censure paternelle et l'interdit d'écrire, qui résonnent avec l'autobiographie de Rice",
+   "les départs successifs (Portell, Sly, Nell, Rice)",
+   "l'écriture comme refuge et comme arme"
+  ],
+  "lacunes": "Aucune date précise pour la crise de mai ni pour les réunions de la faculté. Le calendrier de la session n'est pas donné. Le congé est contradictoire selon Duberman et Chaddock. La date de la réponse de Rice dans Harper's est inconnue. La vie quotidienne de mai (cours, repas, travaux) n'est documentée que de manière indirecte. La présence exacte d'Albers, de Dreier et de Sly en mai n'est pas attestée. Le climat n'est pas décrit. La scène de Paris se passe hors du collège. L'épisode Olson n'est pas daté. Le témoin de Guernica à New York n'est pas nommé. Les fiches sur le campus de Lake Eden et les plans Gropius-Breuer ne datent pas leur discussion en mai. Les fiches ne donnent pas de fiche identifiée pour la synthèse 1939 : ses renvois sont donc donnés par le titre de chaque fil."
+ }
+}

@@ -1,0 +1,306 @@
+{
+ "passe": "personnes",
+ "cle": "Sam Brown",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 4773,
+  "sortie": 6286,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Sam Brown",
+  "autres_noms": [
+   "Student Moderator",
+   "Moderator étudiant"
+  ],
+  "dates_de_vie": "Non précisées dans les fiches. Seul repère : étudiant au collège dans les années 1940 ; entretien téléphonique avec Duberman daté du 19 décembre 1967 (donc vivant à cette date, d'après QU-00879).",
+  "statut_bmc": "Étudiant, Nordiste d'origine, victime de la polio, Student Moderator des assemblées communautaires au moins de 1942 à 1944. Il reste au collège pendant la guerre et se retrouve à un moment le seul étudiant masculin. Témoin plus tard interrogé par Duberman.",
+  "presence": [
+   {
+    "debut": "1942",
+    "fin": "1944",
+    "role": "Student Moderator des assemblées ; observateur du déclin de la cohérence éducative (« au moins » 1942-1944, l'agrégat parle aussi de « 1943-1944 »)",
+    "refs": [
+     "PE-00204",
+     "EV-03259",
+     "EV-03260",
+     "EV-03385"
+    ]
+   },
+   {
+    "debut": "1943-10",
+    "fin": "1943-10",
+    "role": "Seul étudiant masculin resté après le départ de l'Enlisted Reserve Corps, à la mi-octobre 1943",
+    "refs": [
+     "EV-03434",
+     "PE-00204"
+    ]
+   },
+   {
+    "debut": "1943",
+    "fin": "1943",
+    "role": "Pianiste de boogie-woogie à la fête de 1943",
+    "refs": [
+     "EV-03356"
+    ]
+   },
+   {
+    "debut": "1944-06",
+    "fin": "1944-06",
+    "role": "Student Moderator lors de la réunion finale de l'année, proposant le vote majoritaire",
+    "refs": [
+     "SC-00920",
+     "EV-03630"
+    ]
+   },
+   {
+    "debut": "1944",
+    "fin": "1946",
+    "role": "Dirige « Happy Birthday Wolfgang » (anniversaire de Mozart, 27 janvier) ; date ≈ déduite, à manier avec prudence",
+    "refs": [
+     "EC-01873"
+    ]
+   }
+  ],
+  "portrait_physique": "Touché par la polio (attesté : PE-00204, EV-03434), sans précision sur les séquelles, l'âge, la taille ou le visage. Il joue pourtant du piano, du boogie-woogie, devant tout le collège (EV-03356). À inventer avec retenue : démarche, fatigue, place dans la salle. Pour le reste, aucun détail.",
+  "noyau_psychologique": "Un médiateur lucide qui tient la communauté ensemble par la parole et la procédure, tout en voyant plus clairement que beaucoup la perte de substance du projet éducatif. Mieux équilibré que bien des professeurs (PE-00204), il est attiré par la brillance sans en être dupe, attaché à la liberté pédagogique et à l'honnêteté intellectuelle (préférer l'aveu d'ignorance au déni). Ce qui le fait agir : le désir de préserver un lieu où « ce que nous faisions comptait », et le malaise de voir ce lieu devenir « informe ». Déduction : sa position de modérateur lui donne à la fois autorité et solitude.",
+  "blessures": "Attesté : la polio. Déduit, sans preuve directe : l'isolement d'être le dernier étudiant masculin en 1943 et d'assister au départ des autres vers la guerre. Il ne parle pas de blessure intime ; son désenchantement est surtout intellectuel : ses appels au débat sur l'éducation tombent dans le vide (EV-03259, CI-01637).",
+  "desirs": "Attesté : relancer la réflexion collective sur l'enseignement et l'apprentissage ; sauvegarder la liberté pédagogique (pas de cours imposés, programmes sur mesure) ; faire fonctionner les assemblées, quitte à changer la règle du consensus pour sortir des blocages (SC-00920). Déduit : retrouver la cohérence des années Lee Hall, qu'il regrette en creux (EC-01797, EC-01801).",
+  "peurs": "Déduit des témoignages : la dissolution du collège en « situation sans forme » (EV-03260), l'indifférence des étudiants, l'éclatement en camps lors du débat de 1944 (EV-03480), le trop grand poids de Bentley sur les étudiants (« Bentley parlait trop à l'étudiant », PE-00204). Rien n'est dit de peurs personnelles.",
+  "maniere_d_aimer": "Non documentée. Seules traces de lien affectif : l'attirance intellectuelle pour la brillance de Bentley malgré ses réserves (PE-00204, EV-03385) et la participation joyeuse aux fêtes (EV-03356). Rien sur d'éventuelles amours ; ne pas inventer comme fait. Le « Garden of Eden » mentionné en 1967 (QU-00879) est une allusion non développée, à ne pas lire comme une histoire sentimentale sans autre source.",
+  "rapport_au_pouvoir": "Il exerce un pouvoir procédural : modérateur des assemblées « pendant longtemps » (PE-00204). Il cherche à rapprocher les parties. En juin 1944, il propose le vote majoritaire en cas d'échec du consensus, ce qui déclenche une querelle furieuse, car les anciens y lisent une attaque contre les principes de la communauté ; l'enjeu est le pouvoir réel, ancienne garde contre nouvelle (SC-00920, EV-03630). Sur le plan pédagogique, il juge la charge contre Bentley en partie fondée, tout en observant qu'Albers poussait l'étudiant à produire (PE-00204). Il parle de Dreier et des Albers comme de ceux qui tentent de préserver l'unité par une infusion de mysticisme quaker (EV-03260). Position : critique mais pas rebelle.",
+  "voix": {
+   "registre": "Témoignage a posteriori recueilli par Duberman (entretiens, dont un par téléphone en 1967) : analytique, nuancé, parfois ironique ; vocabulaire d'éducation et de gouvernance communautaire. Il juge ses pairs sans acrimonie. Le registre en scène peut être plus sec et plus factuel de modérateur.",
+   "tics": "Déduits, non attestés : retours sur « ce que nous faisions » ; formule de contraste (« nous sommes descendus déterminés… et nous n'en avons trouvé aucune ») ; qualificatifs imagés comme « shapeless situation » ; litote sur ses échecs (« j'ai tenu cette réunion… sans obtenir aucune réponse »).",
+   "exemples_paraphrases": [
+    "J'ai organisé une réunion sur l'éducation, j'ai dit mon mot, et personne n'a répondu (CI-01637).",
+    "Nous sommes arrivés du Nord décidés à ne voir aucune différence entre les cultures, et naturellement nous n'en avons vu aucune (CI-01455).",
+    "Straus au moins avouait ne pas comprendre les Noirs, c'est plus honnête que notre assurance (ID-01431).",
+    "Le collège est devenu « enseignez comme vous voulez » : une situation sans forme (EV-03260).",
+    "Malgré la guerre, personne ne nous imposait de cours, chacun était pris du petit déjeuner au coucher (ID-01543)."
+   ]
+  },
+  "habitudes": [
+   "Présider les assemblées comme Student Moderator (PE-00204).",
+   "Jouer du piano, notamment du boogie-woogie en fête (EV-03356).",
+   "Diriger la célébration annuelle de l'anniversaire de Mozart, « Happy Birthday Wolfgang », le 27 janvier (EC-01873, date ≈ à confirmer).",
+   "Tenir des réunions sur l'éducation, sans succès (EV-03259)."
+  ],
+  "convictions": [
+   "Pas de cours imposés, programmes sur mesure, implication de tous « du petit déjeuner au coucher » ; la fausse formalité n'a pas sa place (PE-00204, ID-01543).",
+   "La liberté pédagogique et communautaire a survécu à la guerre, malgré le « marquage de temps » (ID-01543).",
+   "Pour l'intégration, mais méfiant envers le déni des Nordistes : mieux vaut avouer ne pas comprendre (ID-01431, ID-01689).",
+   "Les étudiants apprennent mieux que les professeurs à s'entendre dans la vie (PE-00204).",
+   "Le vote majoritaire peut être nécessaire quand le consensus échoue (SC-00920).",
+   "La critique de Bentley (trop de paroles à l'étudiant) avait un fondement, comme celle d'Albers (trop de production exigée) (PE-00204)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1942",
+    "moment": "Automne : il remarque un déplacement d'intérêt chez les étudiants et tente de relancer le débat éducatif",
+    "etat_interieur": "Volontaire mais déjà inquiet ; il constate un décalage entre les étudiants des années 1930 et ceux du milieu des années 1940, moins intéressés par la théorie éducative.",
+    "refs": [
+     "EV-03259",
+     "EV-03385",
+     "EV-03260"
+    ]
+   },
+   {
+    "date": "1943",
+    "moment": "Fête de 1943 : il joue du boogie-woogie au piano lointain, avec le jeune Swackhammer à la batterie",
+    "etat_interieur": "Moment de joie communautaire, contraste avec le malaise éducatif ; personnage moins sombre qu'on pourrait le croire.",
+    "refs": [
+     "EV-03356"
+    ]
+   },
+   {
+    "date": "1943-10",
+    "moment": "Mi-octobre : il est le seul étudiant masculin resté, les autres partis avec l'Enlisted Reserve Corps",
+    "etat_interieur": "Isolement, responsabilité ; déduction : conscience d'être le dernier témoin d'une génération. Le collège n'a plus aucun jeune enseignant américain de naissance.",
+    "refs": [
+     "EV-03434",
+     "PE-00204"
+    ]
+   },
+   {
+    "date": "1943",
+    "moment": "Vie culturelle maintenue pendant la guerre (danses, théâtre, concerts avec vétérans du Moore General Hospital)",
+    "etat_interieur": "Fierté du maintien de la liberté et du sérieux ; ce que nous faisions comptait (témoignage ultérieur).",
+    "refs": [
+     "EV-03381",
+     "ID-01543"
+    ]
+   },
+   {
+    "date": "1944",
+    "moment": "Débat communautaire sur l'admission de Noirs : mois de réunions, caucus secrets, démissions",
+    "etat_interieur": "Lucidité critique sur le déni des Nordistes ; il se place comme observateur et analyste plus que comme chef de camp (déduction).",
+    "refs": [
+     "EV-03480",
+     "CI-01455",
+     "ID-01431",
+     "ID-01689"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "moment": "Réunion générale finale : il propose le vote majoritaire, la querelle devient furieuse",
+    "etat_interieur": "Position de médiateur mise à l'épreuve : sa proposition, procédurale, est reçue comme une attaque contre l'identité du collège.",
+    "refs": [
+     "SC-00920",
+     "EV-03630"
+    ]
+   },
+   {
+    "date": "1944",
+    "moment": "Scission de 1944 : constat d'une « situation sans forme »",
+    "etat_interieur": "Désenchantement : le collège n'est plus la tête de pont d'éducation libre des années Lee Hall.",
+    "refs": [
+     "EV-03260",
+     "EV-03385",
+     "EC-01797"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Il vient du Nord (Nordiste) ; aucune information sur sa famille, sa ville, son âge ou son parcours scolaire. La polio a précédé ou accompagné ses années au collège, sans date.",
+    "refs": [
+     "PE-00204"
+    ]
+   },
+   {
+    "date": "≈1938",
+    "moment": "Les années Lee Hall (années 1930), qu'il connaît par comparaison ou par récit : collège « bastion d'éducation libre ». Il n'est pas établi qu'il y ait été présent ; il oppose cette époque aux années 1940. À traiter prudemment en flash-back.",
+    "refs": [
+     "EC-01797",
+     "EC-01801"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1967-12",
+    "moment": "Entretien téléphonique avec Duberman (19 décembre 1967) où il évoque un « Garden of Eden », allusion non développée ; matière à un flash-forward-témoignage, sans contenu précis.",
+    "refs": [
+     "QU-00879"
+    ]
+   },
+   {
+    "date": "≈1944→1972",
+    "moment": "Il est témoin de la période de guerre et de la scission, rapporté dans Duberman 1972 : sa voix d'après vient d'un recul de plusieurs décennies.",
+    "refs": [
+     "EV-03259",
+     "EV-03260",
+     "CI-01637"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Eric Bentley",
+    "nature": "Attirance intellectuelle mêlée de réserve",
+    "evolution": "Il est attiré par la brillance de Bentley mais inquiet de ses vues traditionalistes sur l'éducation ; il admet qu'on lui reproche de trop parler aux étudiants.",
+    "refs": [
+     "PE-00204",
+     "EV-03385",
+     "EV-03356"
+    ]
+   },
+   {
+    "avec": "Josef et Anni Albers",
+    "nature": "Respect critique",
+    "evolution": "Il juge qu'Albers cherchait à faire produire l'étudiant ; avec Dreier, les Albers tentent de préserver l'unité par une infusion quaker, ce qu'il perçoit comme un palliatif.",
+    "refs": [
+     "PE-00204",
+     "EV-03260",
+     "EV-03356"
+    ]
+   },
+   {
+    "avec": "Theodore Dreier",
+    "nature": "Collaboration institutionnelle",
+    "evolution": "Présent à la réunion finale de juin 1944 ; Dreier fait partie de ceux qui tentent de maintenir l'unité.",
+    "refs": [
+     "SC-00920",
+     "EV-03260"
+    ]
+   },
+   {
+    "avec": "Heinrich Jalowetz",
+    "nature": "Présence dans la même assemblée ; ancienne garde",
+    "evolution": "Nommé parmi les personnages de la réunion finale ; liens personnels non documentés.",
+    "refs": [
+     "SC-00920",
+     "EV-03356"
+    ]
+   },
+   {
+    "avec": "Straus",
+    "nature": "Estime intellectuelle",
+    "evolution": "Brown prend en exemple l'aveu d'incertitude de Straus face aux Noirs comme plus honnête que le déni des Nordistes.",
+    "refs": [
+     "ID-01431",
+     "ID-01689"
+    ]
+   },
+   {
+    "avec": "Les étudiants des années 1940",
+    "nature": "Décalage générationnel",
+    "evolution": "Ils ne répondent pas à ses appels à débattre ; il constate leur moindre intérêt pour la théorie éducative.",
+    "refs": [
+     "EV-03259",
+     "EV-03385",
+     "CI-01637"
+    ]
+   },
+   {
+    "avec": "Les anciens de la communauté",
+    "nature": "Tension sur la règle de décision",
+    "evolution": "Sa proposition de vote majoritaire les conforte dans l'idée que les nouveaux ne comprennent pas les principes communautaires.",
+    "refs": [
+     "SC-00920",
+     "EV-03630"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Durée de la fonction de Student Moderator : « 1943-1944 » dans une rubrique, « 1942-1944 au moins » dans d'autres, « pendant longtemps » ailleurs ; EV-03259 situe déjà en 1942 son rôle de Moderator.",
+   "Il est dit « seul étudiant masculin » en octobre 1943 (EV-03434), mais la fête de 1943 le montre avec le « jeune Swackhammer » à la batterie (EV-03356) ; la date de la fête dans l'année n'est pas précisée, d'où une possible chronologie différente, ou Swackhammer n'est pas étudiant.",
+   "Le ton sur la guerre : « marquage de temps » mais communauté et cursus « libres » (ID-01543) face à la « situation sans forme » (EV-03260) : ce n'est pas forcément contradictoire, mais deux jugements à conserver ensemble.",
+   "ID-01689 marque le lien avec le débat de 1944 comme « incertain », alors que ID-01431 et CI-01455 l'attestent : la date exacte de l'idée (≈1938→1944) est floue.",
+   "Le « Samuel » du « Happy Birthday Wolfgang » (EC-01873) est daté ≈1944→1946 : cela dépasse la scission de 1944 et suppose qu'il est encore là ensuite ; à vérifier."
+  ],
+  "situations_revelatrices": [
+   "Présider une assemblée qui s'enlise : il cherche une procédure plutôt qu'une victoire (SC-00920).",
+   "Tenir une réunion sur l'éducation devant un public indifférent : humilité et obstination (EV-03259, CI-01637).",
+   "Être le seul garçon dans un collège vidé par la guerre : solitude, responsabilité (EV-03434).",
+   "Jouer du boogie-woogie en fête pendant que le collège plaisante sur sa propre cuisine : légèreté, appartenance (EV-03356).",
+   "Débattre de l'admission des Noirs : lucidité sur l'hypocrisie des bonnes intentions (CI-01455, ID-01431).",
+   "Répondre plus tard à Duberman : un homme qui juge ce qu'il a vécu avec recul (QU-00879)."
+  ],
+  "citations": [
+   "CI-01455",
+   "CI-01637",
+   "ID-01431",
+   "ID-01543",
+   "ID-01689",
+   "EV-03260",
+   "SC-00920"
+  ],
+  "questions_ouvertes": [
+   "Sa date d'arrivée au collège, son âge, sa famille, sa ville d'origine, ses études avant.",
+   "Quelle fut la gravité de la polio, et quand la maladie l'a frappé.",
+   "Pourquoi il reste seul étudiant masculin en 1943 : exemption pour polio, ou autre raison.",
+   "Son véritable rôle dans le débat de 1944 sur les Noirs : a-t-il pris parti, voté, parlé ?",
+   "S'il a quitté le collège à la scission ou après, et avec quel diplôme.",
+   "Sa vie après le collège : métier, lieu de résidence, relations avec le collège.",
+   "Ce que recouvre le « Garden of Eden » évoqué en 1967.",
+   "Ses rapports personnels avec Dreier, Jalowetz, Bentley, Albers au-delà de leurs positions publiques.",
+   "Son instrument : formation musicale, répertoire autre que le boogie-woogie ; lien avec la fête annuelle de Mozart.",
+   "Comment il vit le désintérêt des étudiants des années 1940 : frustration, résignation ou ironie."
+  ]
+ }
+}

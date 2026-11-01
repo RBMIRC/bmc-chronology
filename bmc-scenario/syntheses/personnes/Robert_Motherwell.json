@@ -1,0 +1,348 @@
+{
+ "passe": "personnes",
+ "cle": "Robert Motherwell",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 7722,
+  "sortie": 3572,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Robert Motherwell",
+  "autres_noms": [],
+  "dates_de_vie": null,
+  "statut_bmc": "Professeur d'art invité aux sessions d'été (1945, 1951 ; présence aussi attestée en 1949 et autour de 1950 selon certaines sources)",
+  "presence": [
+   {
+    "debut": "1945-06",
+    "fin": "1945-08",
+    "precision": "session",
+    "role": "Enseignant d'art à l'Institut d'été ; cours sur l'automatisme subconscient ; étudiants notamment Rauschenberg, Twombly, Francine Gray",
+    "refs": [
+     "EV-03761",
+     "EV-03524",
+     "CO-00409",
+     "RE-01482"
+    ]
+   },
+   {
+    "debut": "1949",
+    "fin": "1949",
+    "precision": "annee",
+    "role": "Présence attestée (fiche agrégée, sans détail)",
+    "refs": [
+     "PE-00095"
+    ]
+   },
+   {
+    "debut": "1950",
+    "fin": "1950",
+    "precision": "annee",
+    "role": "Présence attestée l'été 1950 ; une murale de couleurs vives lui est liée sur une maison du campus",
+    "refs": [
+     "PE-00095",
+     "OE-02300"
+    ]
+   },
+   {
+    "debut": "1951-06",
+    "fin": "1951-08",
+    "precision": "session",
+    "role": "Enseignant de la session d'été aux côtés de Ben Shahn ; été jugé étrange et difficile ; scène de la toile goudronnée avec Rauschenberg et Twombly",
+    "refs": [
+     "EV-05525",
+     "EV-05460",
+     "SC-01446",
+     "EV-05112"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Intellectuel de l'avant-garde, à la fois théoricien et praticien : il croit que le geste libéré vaut toute doctrine et l'enseigne par l'action plutôt que par le discours. Modeste et séduisant en personne, il gagne ses auditoires par la simplicité ; mais il ambitionne une place dans l'éternité de l'art, ce qui le rend vulnérable à la charge de nombrilisme et aux rivalités du monde new-yorkais. Il vient à Black Mountain autant par nécessité économique (il ne peut s'offrir d'autre été) que par engagement avant-gardiste.",
+  "blessures": "Réputation contestée : Josef Albers voit en lui un nombriliste prétendant à « l'éternité » ; Elaine de Kooning en 1977 attaque son expo parisienne et sa déclaration d'être « le seul survivant de l'Expressionnisme abstrait ».",
+  "desirs": "Faire reconnaître l'avant-garde américaine (et sa place en son sein) ; transmettre le geste automatique aux jeunes ; trouver une pause loin de New York sans se sentir aliéné.",
+  "peurs": null,
+  "maniere_d_aimer": null,
+  "rapport_au_pouvoir": "Joueur du monde de l'art new-yorkais (galeries Kootz, Guggenheim, biennales), fondateur d'institutions (Subjects of the Artist, conférences du vendredi qui préfigurent le Club) ; à BMC, il enseigne sans chercher le pouvoir, par le geste et l'exemple plutôt que par l'autorité.",
+  "voix": {
+   "registre": "Chaleureux, superlatif, pédagogue simple et gagnant ; côté théoricien de l'avant-garde, catégorique dans les interviews",
+   "tics": "Superlatifs (« marvellous guys ») ; pédagogie par le geste minimal plutôt que le discours long",
+   "exemples_paraphrases": [
+    "Expliquer que Picasso et Klee ont fait certaines de leurs images les plus magistrales précisément en laissant le crayon tracer des lignes hors contrôle",
+    "Un seul mot, répété : « Encore » — aux jeunes qui jettent des cailloux sur la toile",
+    "Dire que tout peintre intelligent porte dans sa tête toute la culture de la peinture moderne"
+   ]
+  },
+  "habitudes": [
+   "Baseball le dimanche avec les étudiants, son meilleur souvenir de BMC",
+   "La nuit, étudier sa propre murale en fumant une cigarette"
+  ],
+  "convictions": [
+   "L'automatisme : devant une feuille, yeux de préférence fermés, laisser le crayon tracer des lignes aussi peu contrôlées que possible par l'esprit",
+   "Engagement total envers l'avant-garde ; Black Mountain comme « le collège d'avant-garde des Américains »",
+   "Ce qu'on aime chez les surréalistes n'est pas leur programme : la force de Duchamp et Ernst tient à leur irrespect dadaïste pour les usages traditionnels du médium ; même leurs réussites sont d'ordre technique (Dyn, 1944)",
+   "Se déclare plus tard « le seul survivant du mouvement Expressionniste abstrait » (contesté par Elaine de Kooning)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1945-06",
+    "precision": "session",
+    "moment": "Premier été : ne pouvant s'offrir d'autre destination, il enseigne l'automatisme subconscient ; parmi ses étudiants Rauschenberg, Twombly, Francine Gray ; matchs de baseball dominicaux",
+    "etat_interieur": "Modeste, séduisant, à l'aise dans la petite communauté",
+    "refs": [
+     "EV-03761",
+     "CO-00409",
+     "EV-02530"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "Présence attestée (sans détail)",
+    "etat_interieur": null,
+    "refs": [
+     "PE-00095"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Autour de l'été 1950 : une murale de couleurs vives de lui sur une maison du campus ; il l'étudie de nuit en fumant une cigarette, observé par Fielding Dawson",
+    "etat_interieur": "Absorbé dans son travail, solitaire nocturne",
+    "refs": [
+     "OE-02300",
+     "PE-00095"
+    ]
+   },
+   {
+    "date": "1951-06",
+    "precision": "session",
+    "moment": "Été Shahn/Motherwell, étrange et difficile ; scène du patio : Rauschenberg et Twombly jettent des cailloux sur une toile goudronnée, il gesticule « Encore » trois fois",
+    "etat_interieur": "Pédagogue du geste, énergisant la transmission par le rituel plutôt que la doctrine",
+    "refs": [
+     "EV-05525",
+     "EV-05460",
+     "SC-01446"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1943",
+    "precision": "annee",
+    "moment": "Collagiste accompli de veine cubiste : The Displaced Table",
+    "refs": [
+     "OE-01646"
+    ]
+   },
+   {
+    "date": "1944-11",
+    "precision": "mois",
+    "moment": "Publie « The Modern Painter's World » dans Dyn : défense technicienne et dadaïste des surréalistes",
+    "refs": [
+     "CI-01792",
+     "PE-00095"
+    ]
+   },
+   {
+    "date": "1944",
+    "fin": "1946",
+    "precision": "periode",
+    "moment": "Expose chez Peggy Guggenheim (Art of This Century), puis chez Betty Parsons ou Sam Kootz",
+    "refs": [
+     "EV-04290"
+    ]
+   },
+   {
+    "date": "1945-08",
+    "precision": "mois",
+    "moment": "Juste avant/après son premier été BMC : démonstration d'automatisme commentée",
+    "refs": [
+     "CI-01862",
+     "CO-00409"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Cofonde l'école Subjects of the Artist (35 East 8th Street) avec Hare, Baziotes, Rothko, sur suggestion ironique de Newman",
+    "refs": [
+     "EV-04290"
+    ]
+   },
+   {
+    "date": "1948",
+    "fin": "1949",
+    "precision": "periode",
+    "moment": "Organise avec Newman les conférences publiques du vendredi soir ; l'école ferme au printemps 1949 faute d'étudiants, engendrant Studio 35 puis le Club",
+    "refs": [
+     "EV-04291",
+     "EV-04455",
+     "EV-04656"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "Expose dans Intrasubjectives chez Kootz (Rosenberg commissaire)",
+    "refs": [
+     "EV-04661"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Vivant à Boston ; lit deux fois « The Renaissance and Order » à Studio 35 pour de Kooning inquiet de son accent ; questionne de Kooning sur l'achèvement d'un tableau ; expose dans Black on White chez Kootz",
+    "refs": [
+     "EV-04909",
+     "SC-01330",
+     "EV-05182",
+     "EV-04969"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Déclare Twombly « le plus accompli des jeunes peintres » rencontrés",
+    "refs": [
+     "CI-02770"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Épouse Helen Frankenthaler après le départ de celle-ci de BMC",
+    "refs": [
+     "EV-02495",
+     "RE-01006"
+    ]
+   },
+   {
+    "date": "1958",
+    "precision": "annee",
+    "moment": "Cage met son volume sur Dada au programme de son cours à la New School, à côté de Suzuki",
+    "refs": [
+     "EV-07048"
+    ]
+   },
+   {
+    "date": "1971-11-24",
+    "precision": "jour",
+    "moment": "Interviewé par Paul Cummings (Archives of American Art/Smithsonian) : évoque avec le plus grand plaisir les matchs de baseball du dimanche à BMC",
+    "refs": [
+     "CI-04167",
+     "PE-00095"
+    ]
+   },
+   {
+    "date": "1977",
+    "precision": "annee",
+    "moment": "Exposition parisienne mal notée par Elaine de Kooning, qui raille sa déclaration d'unique survivant de l'Expressionnisme abstrait",
+    "refs": [
+     "RE-03183"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Robert Rauschenberg",
+    "nature": "Mentorat (été 1945), puis relation renouvelée à BMC en 1952",
+    "evolution": "De professeur à jeune collègue ; renouvellement du lien à BMC en 1952 selon la fiche agrégée (deduction de date à manier avec prudence)",
+    "refs": [
+     "RE-01482",
+     "PE-00095",
+     "SC-00646"
+    ]
+   },
+   {
+    "avec": "Cy Twombly",
+    "nature": "Mentorat ; admiration publique déclarée",
+    "evolution": "Élève à BMC, devenu à ses yeux « le plus accompli des jeunes peintres »",
+    "refs": [
+     "RE-01482",
+     "CI-02770",
+     "SC-01446"
+    ]
+   },
+   {
+    "avec": "Willem de Kooning",
+    "nature": "Amitié, voix prêtée",
+    "evolution": "Motherwell lit deux fois le texte de Bill à Studio 35 quand celui-ci craint son accent néerlandais ; conversations sur l'achèvement des tableaux",
+    "refs": [
+     "RE-02202",
+     "SC-01330",
+     "EV-04909",
+     "EV-05182"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Rivalité symbolique / tension",
+    "evolution": "Albers l'invite dans la faculté diverse de BMC, puis entre en rage contre son interview au New York Times où il prétend atteindre « l'éternité » (cuisine des Albers, Connecticut, après BMC)",
+    "refs": [
+     "EV-00657",
+     "EV-01161"
+    ]
+   },
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "Rivalité critique",
+    "evolution": "Co-écriture de « The Renaissance and Order » (1950) puis critique féroce de son expo parisienne (1977)",
+    "refs": [
+     "EV-04909",
+     "RE-03183"
+    ]
+   },
+   {
+    "avec": "Helen Frankenthaler",
+    "nature": "Mariage après BMC",
+    "evolution": "Mariés après le départ de Frankenthaler de BMC",
+    "refs": [
+     "EV-02495",
+     "RE-01006"
+    ]
+   },
+   {
+    "avec": "Francine du Plessix Gray",
+    "nature": "Élève (été 1945)",
+    "evolution": "Participe aux matchs de baseball dominicaux",
+    "refs": [
+     "RE-01482",
+     "SC-00646"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Sa présence à BMC : la fiche agrégée liste 1945, 1949, 1951 et « sessions d'été dont 1950 », tandis que les événements détaillés n'attestent clairement que 1945 et 1951 ; la présence de 1949 et l'été 1950 ne sont pas documentés ailleurs dans les fiches (la murale de 1950 en est un indice indirect).",
+   "Attribution de « The Renaissance and Order » : plusieurs versions le donnent comme texte de Willem de Kooning (rédigé en 1950, publié dans trans/formation 1951), une version dit qu'Elaine l'a co-écrit ; Motherwell en est le lecteur, pas nécessairement l'auteur.",
+   "Duberman note que les instituts d'été ont déformé l'image du collège : les artistes d'été comme Motherwell y voyaient surtout une retraite campagnarde, sans influence profonde sur leur œuvre — à confronter au témoignage chaleureux de Motherwell lui-même.",
+   "Le « renouvellement de sa relation avec Rauschenberg à BMC en 1952 » est une date approximative (≈) de la fiche agrégée, postérieure aux séjours attestés."
+  ],
+  "situations_revelatrices": [
+   "La démonstration d'automatisme devant une feuille, yeux fermés (été 1945)",
+   "Le rituel des cailloux sur la toile goudronnée : un maître qui n'enseigne que par « Encore » (été 1951)",
+   "Le match de baseball du dimanche, professeurs et étudiants mêlés — le petit monde clos",
+   "La nuit, seul devant sa murale, cigarette au coin, observé sans le savoir",
+   "La lecture du texte d'un ami trop inquiet de son accent : prêter sa voix",
+   "La colère d'Albers déclenchée par ses déclarations à la presse"
+  ],
+  "citations": [
+   "CI-01792",
+   "CI-01862",
+   "CI-02766",
+   "CI-02768",
+   "CI-02770",
+   "CI-04167"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort non couvertes par les fiches",
+   "Circonstances exactes et réciproque de la relation avec Rauschenberg après 1951",
+   "Contenu et retentissement réels de l'interview au New York Times qui a mis Albers en rage (date précise inconnue)",
+   "Détail de sa présence en 1949 et à l'été 1950",
+   "Sa vie conjugale avec Frankenthaler et sa rupture éventuelle (les fiches ne couvrent que le mariage)"
+  ]
+ }
+}

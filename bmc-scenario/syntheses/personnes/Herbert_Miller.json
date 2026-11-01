@@ -1,0 +1,285 @@
+{
+ "passe": "personnes",
+ "cle": "Herbert Miller",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 4543,
+  "sortie": 5832,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Herbert Miller",
+  "autres_noms": [
+   "Dr Herbert Miller",
+   "Dr Miller",
+   "Herbert A. Miller (non attesté dans les fiches, à vérifier)"
+  ],
+  "dates_de_vie": "Non précisées dans les fiches. Il est décrit comme historien à la retraite et septuagénaire pendant les années BMC (années 1940), ce qui situe sa naissance approximativement dans les années 1870 (déduction).",
+  "statut_bmc": "Membre de la faculté (sociologie, conseiller d'étudiants), l'un des aînés de la communauté. Voix conservatrice sur les mœurs et la question noire dans les années 1940.",
+  "presence": [
+   {
+    "debut": "1943",
+    "fin": "",
+    "role": "Professeur de sociologie ; conseiller de faculté. La date de début est déduite de l'enquête sociologique sur la ville (≈1943) ; la fin n'est pas attestée.",
+    "refs": [
+     "EV-03361",
+     "RE-01499"
+    ]
+   },
+   {
+    "debut": "1944",
+    "fin": "1944",
+    "role": "Participant aux réunions de faculté : accusation contre Bentley, protestation contre le bronzage nu, camp opposé à l'admission d'étudiants noirs.",
+    "refs": [
+     "EV-03492",
+     "EV-03621",
+     "EV-03612"
+    ]
+   },
+   {
+    "debut": "1945",
+    "fin": "1945",
+    "role": "Porte-parole de la faculté devant la communauté lors du départ de Wunsch.",
+    "refs": [
+     "EV-03706",
+     "EV-03791",
+     "SC-00944"
+    ]
+   },
+   {
+    "debut": "1946",
+    "fin": "1946",
+    "role": "Mentor et conseiller de faculté de Kenneth Noland, qui suit aussi son cours de sociologie.",
+    "refs": [
+     "RE-01499"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune description physique dans les fiches. Seuls éléments : il est septuagénaire et le collège le perçoit comme un ancien. M.C. Richards le dit « assez audacieux et assez jeune, malgré son antiquité » (donc un homme très âgé, mais jugé vif). Le reste est à inventer avec prudence.",
+  "noyau_psychologique": "Un vieil universitaire dont la vie a été consacrée aux causes égalitaires et qui, au contact de la vie communautaire de Black Mountain, se fait gardien de l'ordre : il croit que les formes, même artificielles, protègent le tissu social. Il est franc, parfois brutal, attaché aux règles et à l'éthique professionnelle ; il protège ses protégés (Noland). Déduction : la peur du désordre l'emporte chez lui sur l'élan réformateur de jeunesse. Il agit par devoir et par souci de cohésion, pas par goût du pouvoir (non attesté).",
+  "blessures": "Aucune blessure personnelle attestée. Déduction prudente : il est blessé, ou du moins solidaire de la blessure de ses pairs, quand les étudiants « intellectuels » quittent leurs anciens conseillers pour Bentley et de Graaff (EV-03492 : ressentiment des anciens conseillers). Peut-être se sent-il dépassé par une génération qui ne respecte plus les formes.",
+  "desirs": "Que la communauté tienne ensemble par un minimum de conventions partagées (comité des normes, discours sur les manières). Qu'un conseiller soit respecté dans son rôle auprès de ses étudiants. Qu'un enseignement sérieux de sociologie, de terrain (enquête de type Middletown), s'ancre dans la réalité locale.",
+  "peurs": "Non attestées directement. Déduit des fiches : le changement brusque qui trouble, l'informalité débridée (nudité, pieds nus en public), la perte de légitimité de l'autorité des aînés, l'éclatement du collège en factions.",
+  "maniere_d_aimer": "Par la tutelle : il prend Noland « sous son aile », le conseille, l'accueille dans son cours. Rien dans les fiches sur sa vie affective, familiale ou amoureuse. Il aime en protégeant et en encadrant plus qu'en s'exposant (déduction).",
+  "rapport_au_pouvoir": "Il parle avec l'autorité d'un aîné, plutôt qu'en détenteur d'un titre administratif. Il se range avec les gardiens (Wunsch, Dreier, Albers, Gregory, Straus) contre le camp Bentley / de Graaff / Foreman, et signe ou rejoint le mouvement contre Fran de Graaff (déduction : il est probablement l'un des dix signataires, non confirmé). Il se fait porteur du message de la faculté quand Molly Gregory convoque la communauté, mais il dit la vérité là où la hiérarchie voulait le silence. L'autorité chez lui passe par la parole publique, les motions et les accusations formelles en réunion.",
+  "voix": {
+   "registre": "Professoral, posé, moralisant ; ton d'érudit âgé qui parle à toute la communauté, souvent sur le mode du principe général (« les manières… ») plus que de l'anecdote personnelle. Franchise directe quand il informe (arrestation de Wunsch).",
+   "tics": "Non attestés. Pistes plausibles (déduction) : il revient aux notions de « conventions », « manières », « ce qui lie les gens ensemble » ; il généralise, il compare les régions ; il s'appuie sur une anecdote pour clore un débat (l'histoire des chaussures de Russell).",
+   "exemples_paraphrases": [
+    "Les conventions sont artificielles et changent d'une région à l'autre, mais ce sont elles qui lient les gens ; un changement brusque désoriente.",
+    "La politesse efface les différences, même quand la forme semble insignifiante.",
+    "Russell ne se plairait pas ici : on raconte qu'il met ses chaussures dehors pour qu'on les cire.",
+    "Je ne supporte pas qu'on aille pieds nus en public (sa propre liste d'intolérances).",
+    "Au sujet de Wunsch : il est parti, c'est fait, et voilà ce qui s'est passé (annonce franche, sans appel)."
+   ]
+  },
+  "habitudes": [
+   "Conduit avec ses étudiants des enquêtes de terrain dans la ville et la montagne : questionnaires sur revenu, âge, nombre de réfrigérateurs, enfants, etc., sur le modèle de Middletown, à pied dans les collines.",
+   "Intervient en réunion de faculté par des accusations ou protestations formelles, consignées dans les procès-verbaux.",
+   "Prononce des discours devant toute la communauté sur les usages et les manières.",
+   "Dresse une liste personnelle d'intolérances lors du débat sur le comité des normes (pieds nus en public).",
+   "Fait fonction de conseiller de faculté et de mentor pour de nouveaux venus."
+  ],
+  "convictions": [
+   "Les manières et conventions, même artificielles et variables, sont le ciment social ; la politesse lisse les différences.",
+   "Contre les pieds nus en public et le bronzage nu : une communauté doit respecter un minimum de tenue.",
+   "Égalitariste de longue date (attesté), mais opposé à l'admission d'étudiants noirs au collège en 1944 (camp « contre », EV-03612) : les sources parlent de militant égalitaire devenu conservateur sur la question noire.",
+   "Éthique professionnelle des conseillers : on ne détourne pas les étudiants d'un conseiller pour les attirer vers un autre (accusation contre Bentley).",
+   "La sociologie doit s'appuyer sur l'enquête de terrain.",
+   "Opposition à un poste pour Bertrand Russell, sur un argument de caractère plus que de pensée (déduction : l'argument est mince)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1943",
+    "moment": "Enquête sociologique de terrain sur la ville de Black Mountain, avec sa classe.",
+    "etat_interieur": "Professeur actif et méthodique, tourné vers l'extérieur ; ses étudiants sont parfois mal reçus par les montagnards. Date approximative (≈1943), à manier avec prudence.",
+    "refs": [
+     "EV-03361"
+    ]
+   },
+   {
+    "date": "1944",
+    "moment": "Affaire Bertrand Russell : il argue que Russell ne s'y plairait pas (anecdote des chaussures) ; de Graaff répond ironiquement.",
+    "etat_interieur": "Méfiant envers une figure qui pourrait bousculer l'équilibre de la communauté ; prend position dans un clivage faculté / rebelles. Datation ≈1942-1944 dans la fiche.",
+    "refs": [
+     "EV-03265"
+    ]
+   },
+   {
+    "date": "1944",
+    "moment": "Accuse Bentley en réunion de faculté d'avoir détourné des étudiants de leurs conseillers.",
+    "etat_interieur": "Ressentiment d'aîné, souci de la déontologie ; il se fait l'avocat des anciens conseillers dépossédés.",
+    "refs": [
+     "EV-03492"
+    ]
+   },
+   {
+    "date": "1944-01",
+    "moment": "Débat de quatre mois sur la question noire : il est dans le camp « contre » l'admission.",
+    "etat_interieur": "Le militant égalitaire de jadis choisit la prudence et le conservatisme ; contradiction vécue ou refoulée (non documentée).",
+    "refs": [
+     "EV-03612",
+     "PE-00177"
+    ]
+   },
+   {
+    "date": "1944-03",
+    "moment": "Protestation officielle contre le bronzage intégral en réunion de faculté (14 mars 1944).",
+    "etat_interieur": "Indignation pour les mœurs ; défense des convenances face à l'érotisme ambiant du collège.",
+    "refs": [
+     "EV-03621",
+     "QU-00871"
+    ]
+   },
+   {
+    "date": "1944-07",
+    "moment": "Crise autour de Fran de Graaff (lettre des dix collègues) : le fiche ne nomme pas Miller parmi les signataires.",
+    "etat_interieur": "À déduire : il appartient au camp des dix, vraisemblablement favorable à la lettre, mais rien ne l'atteste.",
+    "refs": [
+     "EV-03649"
+    ]
+   },
+   {
+    "date": "1944",
+    "moment": "Débats sur le comité des normes ; Miller donne sa liste (pieds nus) et prononce un discours sur les manières devant toute la communauté.",
+    "etat_interieur": "Il devient la voix morale de la communauté sur les usages ; sa position s'inscrit dans le virage conservateur du collège. Date non fixée dans les fiches (≈?).",
+    "refs": [
+     "EV-08788",
+     "EV-08791",
+     "ID-04199"
+    ]
+   },
+   {
+    "date": "1945-06",
+    "moment": "Annonce à la communauté de l'arrestation de Wunsch, présentée comme un fait accompli, à la demande de Molly Gregory en l'absence de Dreier.",
+    "etat_interieur": "Honnêteté crue, sans effusion ; sentiment de devoir accompli. Résignation de la salle. Date : 1945 (juin d'après EV-03791).",
+    "refs": [
+     "SC-00944",
+     "EV-03706",
+     "EV-03791"
+    ]
+   },
+   {
+    "date": "1946",
+    "moment": "Prend Kenneth Noland sous son aile, comme mentor et conseiller ; Noland suit aussi son cours.",
+    "etat_interieur": "Facette paternelle, protectrice ; il est encore actif et sollicité malgré son âge.",
+    "refs": [
+     "RE-01499"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Historien à la retraite, septuagénaire, ayant consacré des décennies à des causes égalitaires (non détaillées dans les fiches). Aucun lieu, aucun poste, aucune date précise donnés ; à documenter.",
+    "refs": [
+     "PE-00177"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "",
+    "moment": "M.C. Richards le cite comme quelqu'un d'« assez audacieux et assez jeune, malgré son antiquité », pour montrer que l'âge n'implique pas la rigidité ; ce jugement reste sans date et sans circonstance.",
+    "refs": [
+     "PE-00177"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Kenneth Noland",
+    "nature": "Mentorat : conseiller de faculté et professeur de sociologie",
+    "evolution": "Dès l'arrivée de Noland en 1946, Miller le prend sous son aile ; on ne sait rien de la suite.",
+    "refs": [
+     "RE-01499"
+    ]
+   },
+   {
+    "avec": "Molly Gregory",
+    "nature": "Alliée de circonstance lors de la crise Wunsch ; Miller est l'instrument de sa décision de dire la vérité",
+    "evolution": "Gregory brave l'interdit de la faculté ; Miller parle. Gregory est aussi dans le même camp « contre » en 1944.",
+    "refs": [
+     "SC-00944",
+     "EV-03706",
+     "EV-03612"
+    ]
+   },
+   {
+    "avec": "Clark Foreman, Bentley, de Graaff",
+    "nature": "Opposition : camp adverse sur la question noire, rivalité de conseillers, polémique sur Russell",
+    "evolution": "Miller accuse Bentley en 1944 ; de Graaff répond ironiquement à l'argument de Russell ; tensions durables.",
+    "refs": [
+     "EV-03492",
+     "EV-03265",
+     "EV-03612"
+    ]
+   },
+   {
+    "avec": "Wunsch",
+    "nature": "Collègue du même camp conservateur ; Miller annonce son départ à la communauté",
+    "evolution": "Wunsch avait lui aussi sa liste d'intolérances et votait « contre » ; il est contraint de partir en 1945 sans que personne ne proteste.",
+    "refs": [
+     "EV-08788",
+     "EV-03791",
+     "SC-00944"
+    ]
+   },
+   {
+    "avec": "Dreier, Albers, Hansgirg, Kurtz, Straus, Lowinsky",
+    "nature": "Camp conservateur de la faculté (question noire, normes de comportement)",
+    "evolution": "Alignement de 1944 ; Dreier et Lowinsky rejoignent après hésitation.",
+    "refs": [
+     "EV-03612",
+     "EV-08788"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Égalitariste de longue date (PE-00177) mais dans le camp opposé à l'admission d'étudiants noirs en 1944 (EV-03612) : les fiches parlent de « militant égalitaire devenu conservateur » sans expliquer la bascule.",
+   "Le même PE-00177 présente Miller comme force conservatrice, tandis que M.C. Richards le cite comme exemple de quelqu'un d'audacieux et jeune malgré son âge : portraits divergents.",
+   "Dates floues : l'enquête sociologique est datée ≈1943→1987 (fourchette très large, issue d'un témoignage tardif) ; le discours sur les manières et la liste d'intolérances sont sans date.",
+   "EV-03706 et EV-03791 situent le départ de Wunsch en 1945 (juin dans l'une) : Miller y « dit la vérité » alors que la version officielle ultérieure est mensongère ; son rôle exact (porte-parole contraint ou volontaire) n'est pas tranché.",
+   "Duberman écrit « Strauss » et « Straus » pour la même personne dans EV-03265 ; orthographe à normaliser."
+  ],
+  "situations_revelatrices": [
+   "Réunion de faculté où il dépose une accusation ou une protestation formelle (Bentley, bronzage nu).",
+   "Discours devant toute la communauté sur les manières, face à un public jeune et indiscipliné.",
+   "Annonce d'une mauvaise nouvelle (arrestation de Wunsch) devant une salle résignée.",
+   "Débat sur la question noire, où il doit assumer le décalage entre son passé égalitaire et sa position de 1944.",
+   "Tournée de terrain avec ses étudiants chez des montagnards méfiants, montrant son côté méthodique et sa rigueur physique malgré l'âge.",
+   "Scène de mentorat avec Noland, jeune artiste qui découvre le collège.",
+   "Discussion d'une invitation à Bertrand Russell, avec l'anecdote des chaussures."
+  ],
+  "citations": [
+   "PE-00177",
+   "RE-01499",
+   "SC-00944",
+   "EV-03265",
+   "EV-03361",
+   "EV-03492",
+   "EV-03612",
+   "EV-03621",
+   "EV-03649",
+   "EV-03706",
+   "EV-03711",
+   "EV-03791",
+   "EV-08788",
+   "EV-08791",
+   "ID-04199",
+   "QU-00871"
+  ],
+  "questions_ouvertes": [
+   "Quelle est sa biographie avant BMC : quelle université, quelles causes égalitaires, quelles publications ?",
+   "Quelles dates exactes d'arrivée et de départ du collège, et son statut (salarié, retraité invité, membre du Board of Fellows) ?",
+   "A-t-il signé la lettre des dix à Fran de Graaff ?",
+   "Comment justifie-t-il personnellement son opposition à l'admission d'étudiants noirs, lui qui était égalitariste ?",
+   "Que devient-il après 1946 et après son passage à BMC ? Date et lieu de mort ?",
+   "Quelle est sa vie privée (famille, conjoint) ?",
+   "Comment Noland a-t-il vécu ce mentorat ? Existe-t-il un témoignage de Noland sur Miller ?",
+   "Comment Miller a-t-il réagi à la version mensongère de la démission de Wunsch ?",
+   "Qui est la source exacte de la remarque de M.C. Richards, et à quel moment l'a-t-elle faite ?"
+  ]
+ }
+}

@@ -1,0 +1,326 @@
+{
+ "passe": "mois",
+ "cle": "1945-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3672,
+  "sortie": 15046,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1945-12",
+  "session": "Trimestre d'automne 1945, en cours ; fin de session et vacances de décembre non documentées (déduit)",
+  "saison_et_climat": "Début de l'hiver (déduit du mois). Le climat de Lake Eden n'est pas décrit dans les fiches. À New York, l'installation à Carmine Street dans un deux-pièces sans chauffage (EV-03806) donne le froid de la période.",
+  "situation": "Fin 1945, le collège se reconstruit après la scission de 1944 et le départ de Wunsch en juin. L'automne a apporté neuf nouveaux enseignants, surtout jeunes, américains et avec enfants, l'agrément pour le GI Bill, un premier étudiant noir à plein temps et des cours nouveaux de Wallen. La polarisation entre Wallen (art par la communauté) et Albers (art par l'atelier) s'installe. Albers rédige son article sur l'art au collège.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rachel Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bill Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Niebyl et ses trois disciples",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Baker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Beidler",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Herbert Miller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Sylvesta Martin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zabriskie et Kazin",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers rédige son article « Art at Black Mountain College ». Une fiche le date de décembre 1945 à janvier 1946, pour Junior Bazaar, en version inédite.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03808"
+    ]
+   },
+   {
+    "date": "1945-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Bill et Conrad déménagent à pied, sur plus de vingt pâtés de maisons, de la 22e Rue vers 63 Carmine Street, après l'expulsion de l'atelier ; loyer de 18 dollars, cinq étages sans ascenseur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03806"
+    ]
+   },
+   {
+    "date": "1945-09",
+    "precision": "saison",
+    "ce_qui_arrive": "À l'automne, Elaine part en croisière à Provincetown avec Bill Hardy et ne rentre qu'en début de décembre, ce qui provoque une crise conjugale. Le passé marin de Hardy est contesté.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03802"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Neuf nouveaux enseignants sont engagés à l'automne, huit jeunes et américains avec enfants : John et Rachel Wallen, Bill Levi, M.C. Richards, Niebyl avec trois disciples, Baker.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Le collège est agréé pour le GI Bill.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Baker est engagé comme chargé de cours invité, avec un salaire de 700 dollars payé par le Rosenwald Fund.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Wallen donne deux cours sans manuel, dont un séminaire sur la dynamique du groupe.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Sylvesta Martin devient la première étudiante noire à plein temps. Les sources divergent sur les dates.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "R. R. Williams, avocat du collège à Asheville, démissionne du conseil consultatif en protestation.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1945-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunions communautaires consacrées au programme de travail.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Vie ordinaire déduite de l'ensemble des fiches, sans date précise pour décembre : chorales de Bach de Jalowetz, qui durent deux à trois heures ; chants en chaîne de table en table au dîner ; pas de couvre-feu ; travail à l'atelier de menuiserie (Weitzer y a suspendu son bureau) et à l'imprimerie ; cours de rattrapage de Lowinsky ; Music Cubicle dessiné par Beidler ; réunions communautaires sur le programme de travail.",
+  "tensions": [
+   "Polarisation entre Wallen (art et communauté) et Albers (atelier et culture de matière) ; Wallen, nommé après la rumeur d'« instabilité nerveuse », en impute l'origine à Albers selon ses propres dires.",
+   "Silence imposé sur l'affaire Wunsch ; les versions divergent entre adultère, marin et montage, et agent provocateur sans preuve. Le remords viendra plus tard.",
+   "Intégration raciale : premier étudiant noir à plein temps, et hostilité du sud-est des États-Unis.",
+   "Le groupe d'étude sur les buts de l'éducation ne s'est réuni qu'une fois.",
+   "Enseignants peu heureux et peu stables (Zabriskie, Kazin) ; finances fragiles, financements du Rosenwald Fund et du GI Bill.",
+   "À New York, Elaine de Kooning et Bill se disputent après la croisière de Provincetown, puis perdent leur atelier."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le bureau suspendu de Weitzer",
+    "date": "1945",
+    "lieu": "Atelier de menuiserie, Black Mountain College",
+    "personnages": [
+     "Weitzer",
+     "étudiants de menuiserie"
+    ],
+    "deroule": "Weitzer arrive sans mobilier et suspend son bureau-sandwich au plafond de l'atelier. Le geste dit à la fois l'improvisation ordinaire du collège et une forme de dérision.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "La réunion de novembre sur le programme de travail",
+    "date": "1945-11",
+    "lieu": "Black Mountain College (lieu de réunion non précisé)",
+    "personnages": [
+     "Wallen",
+     "Albers",
+     "Straus",
+     "Lowinsky"
+    ],
+    "deroule": "La communauté se réunit pour fixer le programme de travail. La réunion laisse voir la division entre l'art de l'atelier et la vie commune, sans trancher.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Le séminaire de Wallen sur la dynamique du groupe",
+    "date": "1945",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Wallen",
+     "étudiants"
+    ],
+    "deroule": "Wallen donne un cours sans manuel où l'on nomme la dynamique du groupe. La communauté s'y regarde elle-même, ce qui peut devenir gênant.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Albers écrit son article",
+    "date": "1945-12",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Albers"
+    ],
+    "deroule": "Albers rédige l'article sur l'art au collège, qui porte la position de l'atelier face à la communauté de Wallen. Le texte reste inédit à l'époque.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03808"
+    ]
+   },
+   {
+    "titre": "Le déménagement à pied vers Carmine Street",
+    "date": "1945-12",
+    "lieu": "New York, de la 22e Rue vers 63 Carmine Street",
+    "personnages": [
+     "Bill (de Kooning, selon le contexte)",
+     "Conrad"
+    ],
+    "deroule": "Les deux hommes portent à la main leurs biens sur plus de vingt pâtés de maisons, le linoléum roulé en équilibre sur les épaules, jusqu'au deux-pièces froid et sans chauffage.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03806"
+    ]
+   },
+   {
+    "titre": "Le retour d'Elaine de Provincetown",
+    "date": "1945-12",
+    "lieu": "New York",
+    "personnages": [
+     "Elaine",
+     "Bill"
+    ],
+    "deroule": "Elaine rentre en début de décembre après la croisière. Bill est furieux. La tempête et le plancher qui fuit de la cabine restent à raconter, avec les versions contestées.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03802"
+    ]
+   },
+   {
+    "titre": "Première étudiante noire à plein temps",
+    "date": "1945",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Sylvesta Martin",
+     "faculté"
+    ],
+    "deroule": "Sylvesta Martin s'installe comme première étudiante noire à plein temps. Sa présence met à l'épreuve la formule d'intégration décidée en mai.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Décembre 1945 : la faculté se tait sur Wunsch, et Molly Gregory se souvient d'avoir entendu ses pas en juin sans oser descendre.",
+    "vers_date": "1945-06",
+    "vers": "La nuit où Wunsch revient chercher ses livres à une heure du matin, selon l'accord avec le Board of Fellows, puis le départ avant le réveil et la réunion de la communauté où Herbert Miller présente le départ comme fait accompli.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Wallen, nouvel enseignant sous contrat d'un an, se souvient de la rumeur d'« instabilité nerveuse » qui a failli bloquer sa nomination.",
+    "vers_date": "1945-05-16",
+    "vers": "La lettre de Wallen au collège le 16 mai, la rumeur tirée d'une lettre d'Allport, sa vérification auprès de l'armée et le contrat qui suit.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Elaine, dans son deux-pièces de Carmine Street, repense à la croisière qui a fâché Bill.",
+    "vers_date": "1945-09",
+    "vers": "La croisière à Provincetown à l'automne, la tempête et la visite prévue à Denby.",
+    "refs": [
+     "EV-03802"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, en train d'écrire son article sur l'art au collège.",
+    "vers_date": "1948",
+    "vers": "La plupart des fiches placent son rectorat en 1948 ; Chaddock le place peu après 1945. Le détail reste contesté.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rauschenberg, démobilisé de la Navy, retrouve sa famille à Lafayette.",
+    "vers_date": "1948",
+    "vers": "Il ne viendra à Black Mountain College qu'en 1948.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La polarisation entre Wallen et Albers et la question de l'intégration, en cours.",
+    "vers_date": "1947",
+    "vers": "Le fil Wallen contre Albers court jusqu'en 1947, de même que la question de l'intégration raciale et la croissance portée par les vétérans du GI Bill.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Wunsch, rentré malade en Louisiane après son départ de juin.",
+    "vers_date": null,
+    "vers": "Il disparaît ensuite en Californie. Les récits divergent entre adultère, marin et montage, et agent provocateur.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "Silence et aveu tardif",
+   "La rumeur comme arme",
+   "L'argent qui décide de la survie du collège",
+   "Les rituels (chorales, chants de table) comme ciment communautaire",
+   "Objets improvisés et mobilier absent",
+   "L'art contre la communauté",
+   "Le déménagement comme perte"
+  ],
+  "lacunes": "Aucune fiche ne date les vacances de décembre, la fin du trimestre ni le climat de Lake Eden. Les dates d'arrivée de Weitzer et de Sylvesta Martin divergent ou manquent. Le sort de Zabriskie et Kazin après l'automne est inconnu. Le rectorat d'Albers (1945 ou 1948) reste contesté. L'identité de « Conrad » n'est pas précisée. Le passé marin de Hardy est contesté. Le devenir exact de Wunsch après juin varie selon les sources."
+ }
+}

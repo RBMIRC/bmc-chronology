@@ -1,0 +1,911 @@
+{
+ "passe": "enseignements",
+ "cle": "Paul Klee",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 44531,
+  "sortie": 19962,
+  "cache_lu": 0,
+  "cache_ecrit": 1769
+ },
+ "donnees": {
+  "enseignant": "Paul Klee",
+  "cours": [
+   {
+    "intitule": "Premier exercice à l'atelier : dessiner des arbres",
+    "periodes": [
+     "années Bauhaus (Weimar/Dessau), sans date précise"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Non précisés par la fiche. Déduction prudente : c'est un exercice d'entrée pour étudiants avancés qui travaillent dans son studio. Aucune fiche ne le situe à Black Mountain, et la date d'ancrage de la fiche (≈1880→1911) est sans rapport avec l'enseignement.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Dessiner des arbres, première tâche donnée aux étudiants avancés qui travaillent dans son studio.",
+      "materiaux": null,
+      "but": null,
+      "refs": [
+       "CO-00002"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "CO-00002"
+    ]
+   },
+   {
+    "intitule": "Cours sur la forme picturale (Weimar), dont la première leçon et « Scènes au grand magasin »",
+    "periodes": [
+     "1920-1921 (CO-00037)",
+     "13 mai 1921 : première leçon de forme et de composition (CO-00044, SC-00196)",
+     "1922 : conférence « Scènes au grand magasin » (CO-00050)"
+    ],
+    "atteste": "non",
+    "objectifs": "Analyser les œuvres pour « commencer à marcher nous-mêmes ». Mener les étudiants vers l'indépendance et l'inventivité. Montrer que l'art procède d'une nécessité intérieure, comme la croissance d'une graine ou d'un œuf. Faire comprendre les éléments formels (ligne, ton, couleur) par rapport à la composition d'ensemble. Conduire l'étudiant à la « genèse », au moment où tout surgit pour la première fois. Aucune fiche n'atteste ce cours à Black Mountain : c'est de l'enseignement Bauhaus.",
+    "deroule_type_seance": "Après-midi, devant un groupe d'une trentaine d'étudiants. Klee parle librement pendant deux heures. Le 13 mai 1921, il fait circuler dix de ses aquarelles récentes et en discute les éléments formels. Au tableau noir, ambidextre, il trace des diagrammes des deux mains à la fois. Il passe de l'analyse de la ligne au chaos initial du jeu, puis aux débuts de l'ordre. Il parle « comme un sage et comme un enfant », avec un enthousiasme visible pour les faits de la vie. Le 13 mai 1921, un policier entre pour réprimander un étudiant non déclaré à la mairie. La classe éclate de rire et Klee savoure la scène (déduit des fiches : l'ambiance est amicale, sans précédent pour lui).",
+    "exercices": [
+     {
+      "consigne": "Comparer l'analyse picturale à l'analyse chimique d'un produit qui se vend bien (pâte dentifrice, détergent) : décomposer pour comprendre.",
+      "materiaux": "craie, tableau noir",
+      "but": "Comprendre une image en la décomposant.",
+      "refs": [
+       "CO-00037"
+      ]
+     },
+     {
+      "consigne": "Comparer une image ratée à un aliment qui rend malade et chercher la composante nocive.",
+      "materiaux": "craie, tableau noir",
+      "but": "Repérer ce qui ne fonctionne pas dans une image.",
+      "refs": [
+       "CO-00037"
+      ]
+     },
+     {
+      "consigne": "Étudier la ligne : d'abord une « promenade pour elle-même, sans destination », puis des lignes qui décrivent triangles, carrés et cercles, au caractère calmant, sans commencement ni fin.",
+      "materiaux": "craie, tableau noir (diagrammes dessinés des deux mains)",
+      "but": "Saisir ce que sont les lignes et les points (et non apprendre à dessiner ou à colorer, selon Fischli).",
+      "refs": [
+       "CO-00037",
+       "SC-00180"
+      ]
+     },
+     {
+      "consigne": "Observer la genèse du dessin comme celle de l'enfant : un crayon pointu mis en mouvement dans la direction qui fait plaisir, puis le chaos du jeu initial cède aux débuts de l'ordre.",
+      "materiaux": "crayon, papier",
+      "but": "Passer du chaos à l'ordre sans tuer l'instinct.",
+      "refs": [
+       "CO-00037",
+       "SC-00180"
+      ]
+     },
+     {
+      "consigne": "Faire circuler dix aquarelles et discuter leurs éléments formels par rapport à leur composition. Expliquer les tons sombres et clairs en les comparant à des bains de températures différentes.",
+      "materiaux": "dix aquarelles",
+      "but": "Analyser les éléments formels par rapport à la composition d'ensemble.",
+      "refs": [
+       "CO-00044",
+       "SC-00196"
+      ]
+     },
+     {
+      "consigne": "Suivre le dialogue du marchand et du client en trois paliers. Ligne : plus long, plus court, plus épais. Tonalité : plus clair, plus sombre, plus lourd. Couleur : plus beau, trop saturé, trop chaud, laid, trop sucré. Exemple : un seau à 100 marks, le même seau d'un produit plus lourd à 200, un troisième de même poids à 400 parce qu'il est « deux fois meilleur ».",
+      "materiaux": null,
+      "but": "Montrer le passage de la mesure au domaine de la couleur pure : mesure, poids, qualité pure.",
+      "refs": [
+       "CO-00050"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucune lecture citée dans ces fiches pour ce cours.",
+     "Comparaison constante de l'art avec la nature (graine, œuf), la musique et la cuisine (déduit des fiches)."
+    ],
+    "propos_types": [
+     "On reste primitif, mais on ne peut persévérer longtemps dans le primitif : il faut enrichir le résultat appauvri sans détruire la clarté du croquis simple.",
+     "Les sentiments les plus profonds ne servent à rien si l'on n'a pas sous la main les formes qui leur correspondent.",
+     "La ligne est une promenade pour elle-même, sans destination.",
+     "L'art procède d'une nécessité intérieure, comme la vie naît d'une genèse (idée attribuée à Klee dans ID-00396)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Les étudiants, pour la plupart dans leur vingtaine, n'avaient jamais entendu ces évidences expliquées si clairement. Hans Fischli se souvient que Klee ne leur a appris ni à dessiner ni à colorer, mais ce que sont les lignes et les points : des lignes arrogantes, malades, ou qui ont trop mangé. Le jour de la première leçon, la classe est trop joyeuse pour feindre le respect devant le policier.",
+    "evolution": "Ce cours est le plus ancien à Weimar, après l'arrivée de Klee en janvier 1921 (SC-00193). Il évolue vers les cours de 1923 sur la création de la forme. Le fil commun est le mot « genèse », favori de Klee de 1921 à 1931 (CO-00042). Tension de dates : CO-00037 donne « 1920-1921 », alors que Klee n'arrive à Weimar qu'en janvier 1921 et que sa première leçon date du 13 mai 1921. Les sources se contredisent donc légèrement sur le début.",
+    "refs": [
+     "CO-00037",
+     "CO-00042",
+     "CO-00044",
+     "CO-00050",
+     "SC-00180",
+     "SC-00196",
+     "SC-00193",
+     "ID-00396"
+    ]
+   },
+   {
+    "intitule": "Atelier de vitrail (forme et couleur)",
+    "periodes": [
+     "vers 1920-1921 (CO-00038)",
+     "1921 (CO-00045)"
+    ],
+    "atteste": "non",
+    "objectifs": "Enseigner uniquement la forme et la couleur. Espérer « injecter un peu d'élan » dans une école trop grave et sérieuse, et faire émerger un esprit nouveau par l'art. Non attesté à Black Mountain.",
+    "deroule_type_seance": "Quatre étudiants seulement (trois filles, un garçon). Klee s'en tient à la forme et à la couleur et évite tout autre sujet, notamment les querelles de doctrine de l'école.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Il espère apporter un peu d'élan à une école trop sérieuse."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Les deux fiches (CO-00038 et CO-00045) décrivent le même atelier avec des dates légèrement différentes (1920-1921 contre 1921). Gropius avait d'abord proposé à Klee la maîtrise de la reliure, avec un salaire de 16 500 marks, en lui disant qu'il y enseignerait la théorie (SC-00185). Aucune fiche ne donne de consignes précises pour le vitrail. La neutralité de Klee face aux querelles est un trait d'enseignement attesté ailleurs (ID-00412).",
+    "refs": [
+     "CO-00038",
+     "CO-00045",
+     "SC-00185",
+     "ID-00412"
+    ]
+   },
+   {
+    "intitule": "Conférences hebdomadaires sur la nature et la création (circulation, eau, structure)",
+    "periodes": [
+     "1921-1924 (Bauhaus, Weimar)",
+     "années Weimar avant 1933 pour les conférences sur l'eau (CO-00240)"
+    ],
+    "atteste": "non",
+    "objectifs": "Partager ce qu'il a glané de la vérité pour aider les étudiants dans leur propre travail, non les impressionner par son érudition. Faire comprendre le déploiement de la forme et le progrès des processus vitaux par l'exemple naturel. Non attesté à Black Mountain.",
+    "deroule_type_seance": "Klee dessine devant les étudiants, à la craie et à la règle, des diagrammes de zigzags et de boucles croisées de lignes droites. Il note angles et dimensions avec des logarithmes et des équations, puis commente par aphorismes. Il ajoute des croquis animés pour le système circulatoire. L'après-midi, un exercice pratique de représentation prolonge le cours magistral. Dans les conférences sur l'eau, on écoute une description qui va des rigoles d'altitude aux ruisseaux, torrents, larges fleuves, puis à la mer, avec une liberté d'appropriation et sans reproduction attendue.",
+    "exercices": [
+     {
+      "consigne": "Représenter un système circulatoire en allant au-delà du schéma au tableau : suggérer le passage du sang de stade en stade, graphiquement et par un dégradé du rouge au bleu.",
+      "materiaux": "règle, craie, tableau noir, rouge et bleu",
+      "but": "Rendre visible un processus plutôt que de recopier un schéma.",
+      "refs": [
+       "CO-00046"
+      ]
+     },
+     {
+      "consigne": "Utiliser variations de tonalité et de densité dans chaque couleur pour représenter les déplacements de poids.",
+      "materiaux": "rouge et bleu",
+      "but": "Rendre le poids par la couleur et la tonalité.",
+      "refs": [
+       "CO-00046"
+      ]
+     },
+     {
+      "consigne": "Symboliser le sang qui perd ses nutriments ou retrouve sa force par le passage du léger au lourd, ou l'inverse.",
+      "materiaux": null,
+      "but": "Traduire un cycle en mouvement visuel.",
+      "refs": [
+       "CO-00046"
+      ]
+     },
+     {
+      "consigne": "Écouter la description de l'eau, des rigoles de montagne à la mer, non pour reproduire ces événements mais pour les intégrer à sa compréhension de l'existence terrestre.",
+      "materiaux": null,
+      "but": "Comprendre par l'exemple naturel le déploiement de la forme.",
+      "refs": [
+       "CO-00240"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "La nature (eau, sang, graine, saisons) comme référence principale.",
+     "Les motifs de l'eau courante de l'Ilm, qui nourrissent ses leçons sur les lois communes de la nature et de l'art (ID-00398)."
+    ],
+    "propos_types": [
+     "L'eau ne finit pas nécessairement dans un lac ni dans la mer. Les sources de montagne doivent elles aussi être alimentées d'ailleurs.",
+     "L'épopée de la nature n'a ni commencement ni fin. La sagesse est l'acceptation de l'incertitude.",
+     "Tout est circulaire et il n'y a pas de vrai point de départ. On commence par le chaos, comme une graine qui germe (ID-00364)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Certains, comme Anni Albers, retiennent durablement ses conseils. D'autres le jugent névrosé ou schizophrène.",
+    "evolution": "Les conférences hebdomadaires de 1921-1924 se précisent en 1923 avec les cours de création de la forme (graine, sable, archet) et les leçons destinées au tissage. La date d'ancrage de CO-00240 (1933) est trompeuse : le texte dit « avant 1933 ».",
+    "refs": [
+     "CO-00046",
+     "CO-00240",
+     "ID-00364",
+     "ID-00398"
+    ]
+   },
+   {
+    "intitule": "Cours de forme : « création de la forme » (graine, sable, archet)",
+    "periodes": [
+     "1923, toutes les deux semaines environ (CO-00068)",
+     "novembre 1923 : cours du lundi 5 novembre 1923 (SC-00260) et plaque de sable (SC-00259)"
+    ],
+    "atteste": "non",
+    "objectifs": "Formuler une philosophie de l'art où la nature est le point de départ et où la création artistique est l'image de la création naturelle. Non attesté à Black Mountain.",
+    "deroule_type_seance": "Klee écrit et corrige son texte à l'avance, puis le lit aux étudiants en l'illustrant de diagrammes. Il enchaîne végétal, digestif, mythologique et quotidien, avec reproches et encouragements. Le lundi 5 novembre 1923, il traite de la graine comme centre d'énergie maximale. Il dessine au tableau W, E, L, des flèches, de la pluie, puis parle de la germination et de la faim d'espace. Les gouaches punaisées dans les couloirs prolongent la leçon.",
+    "exercices": [
+     {
+      "consigne": "Observer une graine, sa germination, la structure des feuilles, la croissance vers la lumière.",
+      "materiaux": "graines et sachets de graines triés et étiquetés, plantes",
+      "but": "Voir dans la graine une énergie contenant déjà la forme future (violette ou tournesol).",
+      "refs": [
+       "CO-00068",
+       "SC-00260",
+       "ID-00460"
+      ]
+     },
+     {
+      "consigne": "Tracer un réseau de lignes horizontales et verticales, puis alterner bandes claires et sombres pour engendrer des tonalités.",
+      "materiaux": "tableau, papier",
+      "but": "Faire naître des tonalités d'une structure linéaire.",
+      "refs": [
+       "CO-00068"
+      ]
+     },
+     {
+      "consigne": "Étaler un voile de sable fin sur une plaque métallique, faire vibrer la plaque à l'archet de violon et observer le réarrangement du matériau.",
+      "materiaux": "sable, plaque métallique, archet de violon",
+      "but": "Montrer la genèse de la forme : la matière fertilisée prend une vie propre.",
+      "refs": [
+       "CO-00068",
+       "SC-00259",
+       "ID-00461"
+      ]
+     },
+     {
+      "consigne": "Observer de près les empreintes que la mer laisse puis efface dans le sable.",
+      "materiaux": null,
+      "but": "Sentir ce qui laisse trace et ce qui s'efface.",
+      "refs": [
+       "CO-00068"
+      ]
+     },
+     {
+      "consigne": "Diagrammer tissage, tresses, nattes, alvéoles, écailles de poisson.",
+      "materiaux": "tableau",
+      "but": "Relier la structure naturelle à la structure fabriquée.",
+      "refs": [
+       "CO-00068"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Observation des graines, du sable, de la mer, des structures de fabrication (tissage, tresses, nattes, écailles)."
+    ],
+    "propos_types": [
+     "La graine est un centre d'énergie maximale. L'esprit de cette création de forme est linéaire.",
+     "Une graine deviendra violette, l'autre tournesol, jamais fortuitement.",
+     "« Nous sommes l'archet » : tout geste doit être justifié, sinon il est rigide (ID-00461).",
+     "La force dynamique est une faim d'espace, de sève sous terre, d'air et de lumière.",
+     "L'artiste est un morceau de nature dans l'espace de la nature (ID-00460)."
+    ],
+    "critique_et_evaluation": "Klee récuse l'ornementation symétrique « glaçante » produite par certains étudiants (CO-00068). Il dénonce aussi, avec une verve de prédicateur, la stérilité, le formalisme et les fausses façades (ID-00462).",
+    "reactions_etudiants": "Les plus réceptifs sentent des mondes nouveaux s'ouvrir. Dans les ateliers de verre et de tissage, les nouveaux arrivants appliquent la croissance végétale à leurs métiers. Des étudiants bravent le froid pour l'écouter et l'appellent en pensée « saint Christophe portant le poids du monde ». Langage difficile, mais énergie communicative (SC-00260).",
+    "evolution": "Ce cours précède les leçons pour les tisserandes de 1923-1924 et prépare le cours préliminaire de Dessau, où la méthode passe d'un texte lu à des conseils sobres.",
+    "refs": [
+     "CO-00068",
+     "SC-00259",
+     "SC-00260",
+     "ID-00460",
+     "ID-00461",
+     "ID-00462"
+    ]
+   },
+   {
+    "intitule": "Leçons hebdomadaires pour les étudiantes du tissage (Weimar)",
+    "periodes": [
+     "1923-1924 ; leçon du 4 décembre 1923 (SC-00264)"
+    ],
+    "atteste": "non",
+    "objectifs": "Lier les lois de la nature à la création artistique et rendre la structure poétique pour les tisserandes. Non attesté à Black Mountain.",
+    "deroule_type_seance": "Auditoire presque uniquement féminin, un jour d'hiver venteux. Klee parle lentement, d'une voix chantante, sans regarder les étudiantes, les yeux tournés vers l'intérieur. Il passe de l'obscur au fantasque. Il dessine l'eau en lui prêtant des humeurs, puis enchaîne sur les parallèles qui cessent d'être parallèles. Quand il regarde les travaux textiles, c'est comme s'il regardait à travers eux pour en discerner l'essence.",
+    "exercices": [
+     {
+      "consigne": "Dessiner l'eau mouvante et ses états : agressive, en colère, calme, muette et douce au lac.",
+      "materiaux": "craie, papier",
+      "but": "Prêter un caractère et un mouvement à la ligne.",
+      "refs": [
+       "CO-00069",
+       "SC-00264"
+      ]
+     },
+     {
+      "consigne": "Tracer des diagrammes de zigzags, des progressions d'hypoténuses, des boucles croisées de lignes droites à la règle, annotés de logarithmes et d'équations.",
+      "materiaux": "craie, papier, règle, équations",
+      "but": "Faire sentir la structure comme rythme.",
+      "refs": [
+       "CO-00069"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucune lecture citée."
+    ],
+    "propos_types": [
+     "La structure est l'organisation initiale de la matière, un rythme des petites parties.",
+     "La structure n'est pas un pont abandonné après la traversée. Les parties et les parties intermédiaires s'engrènent mutuellement et avec le tout.",
+     "L'épopée de la nature n'a ni commencement ni fin. La sagesse est l'acceptation de l'incertitude.",
+     "Rien n'agit de façon autonome : tout est réponse et contre-mouvement (ID-00125).",
+     "Conseil aux tisserands : s'immerger dans les matériaux et les techniques plutôt que dans le but final (ID-00362)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Marianne Heymann décrit « intimidation, ivresse », un monde de perception pour lequel elles n'étaient pas encore équipées, « comme en transe ». Selon SC-00264, certaines étudiantes se sentaient « mortes » plusieurs jours après un mot, puis ressuscitées par quelques mots amicaux.",
+    "evolution": "Ces leçons prolongent le cours de forme de 1923. Elles deviennent en 1926 les « conférences sur la forme » du tissage à Dessau.",
+    "refs": [
+     "CO-00069",
+     "SC-00264",
+     "ID-00125",
+     "ID-00362"
+    ]
+   },
+   {
+    "intitule": "Vorkurs (cours préparatoire) à Dessau",
+    "periodes": [
+     "23 avril 1926 : première à Dessau (CO-00079)",
+     "années Dessau, vers juillet 1926 à mai 1930 (CO-00082)"
+    ],
+    "atteste": "non",
+    "objectifs": "Développer la forme, non la reproduire. Apprendre à voir clairement et simplement, et à penser en travaillant. Non attesté à Black Mountain.",
+    "deroule_type_seance": "Deux heures par semaine. Klee est debout au tableau, les étudiants assis au fond. Il donne des conseils plutôt que des conférences sur l'art. Il dessine une forme au tableau, l'efface, puis laisse l'étudiant continuer seul, sans copier. Sa règle : pas de raturage ni d'étalage de couleur. Pas de notes, car Klee est le seul maître du Bauhaus à ne pas noter.",
+    "exercices": [
+     {
+      "consigne": "Dessiner un cube sur une petite ardoise, l'effacer, et laisser l'étudiant poursuivre seul sans copier.",
+      "materiaux": "petite ardoise",
+      "but": "Développer la forme plutôt que la reproduire.",
+      "refs": [
+       "CO-00079"
+      ]
+     },
+     {
+      "consigne": "Donner au cube une personnalité, passive ou active, plutôt qu'une reproduction inerte.",
+      "materiaux": "petite ardoise",
+      "but": "Faire de la forme un caractère.",
+      "refs": [
+       "CO-00079"
+      ]
+     },
+     {
+      "consigne": "Savoir ce qu'on veut dessiner et le représenter en une ou deux lignes seulement.",
+      "materiaux": "papier, encre de Chine",
+      "but": "Économie et clarté du trait.",
+      "refs": [
+       "CO-00082"
+      ]
+     },
+     {
+      "consigne": "Respecter la couleur, la tenir pour sacrée : poser un point de couleur à côté d'un autre plutôt que de les étaler ensemble.",
+      "materiaux": "aquarelle",
+      "but": "Garder à chaque couleur son identité.",
+      "refs": [
+       "CO-00082"
+      ]
+     },
+     {
+      "consigne": "Pour une image harmonieuse : connaître d'abord le format (vertical, horizontal, carré), puis déterminer les points spécifiques du papier, le milieu par les diagonales des coins.",
+      "materiaux": "papier",
+      "but": "Construire l'image à partir du format.",
+      "refs": [
+       "CO-00082"
+      ]
+     },
+     {
+      "consigne": "Dessiner une forêt de sapins par simples symboles linéaires, sans remplir la feuille.",
+      "materiaux": "tableau noir, papier, encre de Chine",
+      "but": "Penser en symboles linéaires.",
+      "refs": [
+       "CO-00082"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucune lecture citée ; le cours s'appuie sur le tableau et les exercices."
+    ],
+    "propos_types": [
+     "On peut, de temps en temps, prendre un tableau comme un rêve.",
+     "Chaque trait est une chose en soi.",
+     "Les points trouvés par soi-même ne peuvent être repris par personne."
+    ],
+    "critique_et_evaluation": "Pas de notes attribuées. On comprend ou on ne comprend pas (CO-00082).",
+    "reactions_etudiants": "Les conférences sont difficiles à saisir, comme la formule d'un mathématicien ou d'un physicien, mais en réalité de la poésie pure. Fischli écoutait avec une telle intensité qu'il ne pouvait pas prendre de notes. Un observateur parle d'enrichissement essentiel pour l'atelier de tissage. Contradiction : Anni Albers raconte qu'elle ne comprenait vraiment pas ce que disait Klee, qui parlait dos aux élèves (SC-00278). Cette fiche situe la scène à Weimar, avec une date floue (≈1925→1975), alors que le témoignage d'Anni sur ses cours date de 1927-1929 (ID-00602). Une incohérence de lieu et de période reste donc non tranchée.",
+    "evolution": "Même enseignement que celui de Weimar, mais sobre : conseils brefs, peu de théorie. Le Vorkurs de Dessau est plus économe que les lectures préparées de 1923 (déduit des fiches).",
+    "refs": [
+     "CO-00079",
+     "CO-00082",
+     "SC-00278",
+     "ID-00602"
+    ]
+   },
+   {
+    "intitule": "Conférences sur la forme pour l'atelier de tissage (Dessau)",
+    "periodes": [
+     "printemps 1926"
+    ],
+    "atteste": "non",
+    "objectifs": "Offrir une théorie de la forme qui vient compléter l'enseignement pratique du tissage. Non attesté à Black Mountain.",
+    "deroule_type_seance": "Exposés théoriques donnés dans son langage propre, souvent obscurs. Klee utilise la petite ardoise (CO-00080).",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": "Silence de jugement dans l'atelier : Klee jauge les tentures d'Anni Albers et les accepte à chaque fois sans un mot. Elle en doute de son travail (SC-00280).",
+    "reactions_etudiants": "Dur à suivre, mais d'un enrichissement essentiel, comme des formules de mathématicien qui sont en réalité pure poésie. Anni Albers l'appelait « notre dieu », tout en avouant n'avoir pas compris ce qu'il disait (SC-00278). Elle trouvait presque toutes ses aquarelles déséquilibrées mais en a acheté une (SC-00279).",
+    "evolution": "Ce cours prolonge les leçons de tissage de 1923-1924 à Weimar. Il nourrit les idées de multiplication et de polyphonie dans les cahiers d'Anni.",
+    "refs": [
+     "CO-00080",
+     "SC-00278",
+     "SC-00279",
+     "SC-00280"
+    ]
+   },
+   {
+    "intitule": "Cours de forme et de couleur (diagrammes tonals, musique)",
+    "periodes": [
+     "années 1920, Dessau (CO-00039) ; la date d'ancrage « 1920 » est incohérente avec « Dessau » et reste à vérifier"
+    ],
+    "atteste": "non",
+    "objectifs": "Voir sous la surface, au-delà des styles. Analyser la construction naturelle ou fabriquée. Rien n'est acquis d'avance. Non attesté à Black Mountain.",
+    "deroule_type_seance": "Non décrit en détail. Les fiches indiquent des diagrammes de gammes tonales et des progressions du noir au blanc, ainsi qu'une comparaison constante de l'art avec la musique.",
+    "exercices": [
+     {
+      "consigne": "Dessiner des jambes comme signes des membres d'un marcheur compétent, non comme rendu réaliste.",
+      "materiaux": "papier, aquarelle, encre",
+      "but": "Passer du rendu au signe.",
+      "refs": [
+       "CO-00039"
+      ]
+     },
+     {
+      "consigne": "Créer des équivalents visuels de staccato, legato, allegro.",
+      "materiaux": "papier, aquarelle, encre",
+      "but": "Traduire le rythme musical en forme.",
+      "refs": [
+       "CO-00039"
+      ]
+     },
+     {
+      "consigne": "Réaliser des progressions précises du noir au blanc et retour.",
+      "materiaux": "papier, aquarelle, encre",
+      "but": "Maîtriser la gamme tonale.",
+      "refs": [
+       "CO-00039"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "La musique, en particulier Mozart, comme modèle de liberté et d'excellence (ID-00662)."
+    ],
+    "propos_types": [
+     "Comparer sans cesse l'art à la musique.",
+     "Distinguer l'« absolu » (psychique, en soi, comme un morceau de musique) de l'« abstrait », qui risque d'être sans esprit.",
+     "Aucune forme ni couleur n'est supérieure à une autre : ce qui compte est le composé (ID-00711).",
+     "La couleur est l'élément le plus irrationnel de la peinture ; un glacis éloigne, l'intensité rapproche (ID-00710)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Prolonge la comparaison musique/peinture des cours de Weimar.",
+    "refs": [
+     "CO-00039",
+     "ID-00662",
+     "ID-00710",
+     "ID-00711"
+    ]
+   },
+   {
+    "intitule": "Principes de design : multiplication et polyphonie",
+    "periodes": [
+     "Bauhaus, Dessau (≈1926 ; fiche ancrée ≈1926→1970 car le contenu survit dans les cahiers d'Anni Albers)"
+    ],
+    "atteste": "non",
+    "objectifs": "Produire des compositions complexes à partir d'unités simples. La fiche ne dit pas si cela formait un cours distinct ou une partie du cours de forme. Non attesté à Black Mountain, bien qu'Anni Albers ait enseigné le tissage à BMC (selon ID-00534).",
+    "deroule_type_seance": "Non décrit. On dispose de notes dactylographiées en minuscules (kleinschrift) et des cahiers d'Anni Albers.",
+    "exercices": [
+     {
+      "consigne": "Multiplier une unité définie en la poussant (Schiebung) et en la répétant à travers ou vers le bas de la page.",
+      "materiaux": "notes dactylographiées en minuscules",
+      "but": "Engendrer un motif complexe.",
+      "refs": [
+       "CO-00078",
+       "ID-00533"
+      ]
+     },
+     {
+      "consigne": "Répéter l'unité avec interruption (Schiebung mit Unterbrechung).",
+      "materiaux": null,
+      "but": "Introduire le rythme.",
+      "refs": [
+       "CO-00078"
+      ]
+     },
+     {
+      "consigne": "Déplacer l'unité (Verschiebung) et la répéter par intermittence.",
+      "materiaux": null,
+      "but": "Varier la distribution.",
+      "refs": [
+       "CO-00078"
+      ]
+     },
+     {
+      "consigne": "Miroiter l'unité (Spiegelung).",
+      "materiaux": null,
+      "but": "Créer symétrie et figure/fond.",
+      "refs": [
+       "CO-00078",
+       "ID-00533"
+      ]
+     },
+     {
+      "consigne": "Faire tourner l'unité (Drehung).",
+      "materiaux": null,
+      "but": "Créer une variation par la rotation.",
+      "refs": [
+       "CO-00078",
+       "ID-00533"
+      ]
+     },
+     {
+      "consigne": "Superposer deux voix indépendantes (1. Stimme, 2. Stimme) à la manière de la polyphonie musicale.",
+      "materiaux": null,
+      "but": "Faire coexister deux lignes séparables, qui ne se mélangent pas comme des pigments.",
+      "refs": [
+       "CO-00078",
+       "ID-00534"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Les notes dactylographiées et la conférence « On Modern Art », traduite par Anni Albers (ID-00632)."
+    ],
+    "propos_types": [
+     "Prendre une ligne pour la « promener » (CO-00078, ID-00535)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Anni Albers reconnaîtra plus tard des cousins de ses propres motifs dans une tunique royale inca.",
+    "evolution": "Ces principes survivent dans l'œuvre d'Anni Albers. La série Meandro (1969-1970) prolonge l'idée de la ligne en promenade (ID-00535).",
+    "refs": [
+     "CO-00078",
+     "ID-00533",
+     "ID-00534",
+     "ID-00535",
+     "ID-00632"
+    ]
+   },
+   {
+    "intitule": "Critique d'œuvres dans le studio privé de Klee",
+    "periodes": [
+     "1926-1930 (Dessau)"
+    ],
+    "atteste": "non",
+    "objectifs": "Faire dépasser aux étudiants leur intention consciente et leur faire saisir ce qu'ils ont créé inconsciemment. Non attesté à Black Mountain.",
+    "deroule_type_seance": "Une fois par semaine, l'après-midi, six ou sept étudiants, parfois dix, marchent une demi-heure jusqu'à Burgkühnauer Allee. Chacun apporte sa dernière œuvre. Trois peintures sont exposées sur trois chevalets, les chaises en demi-cercle. Klee, dos à la classe dans un rocking chair, se balance lentement en silence, avec des pauses d'une à cinq minutes. Puis il parle de la peinture en général, sans louer ni critiquer. À la fin, discussion collective autour d'un grand pot gris émaillé : pipe pour Klee, cigarettes pour les étudiants.",
+    "exercices": [
+     {
+      "consigne": "Apporter sa dernière œuvre, exposée sur l'un des trois chevalets.",
+      "materiaux": "trois chevalets, chaises en demi-cercle, fauteuil à bascule",
+      "but": "Se confronter à l'œuvre sous le regard silencieux du maître.",
+      "refs": [
+       "CO-00081",
+       "SC-00302"
+      ]
+     },
+     {
+      "consigne": "Observer en silence un long moment avant que Klee ne parle.",
+      "materiaux": null,
+      "but": "Laisser l'œuvre agir avant tout commentaire.",
+      "refs": [
+       "CO-00081",
+       "SC-00302"
+      ]
+     },
+     {
+      "consigne": "Discuter autour du grand pot gris émaillé en fin de séance.",
+      "materiaux": "grand pot gris émaillé, pipe, cigarettes",
+      "but": "Conversation libre pour clore la séance.",
+      "refs": [
+       "CO-00081"
+      ]
+     },
+     {
+      "consigne": "Peindre de l'encre de Chine dans l'aquarelle mouillée, puis ajouter du bleu dans les zones grises humides, sans mélanger : Klee ne l'explique pas, il faut le détecter et l'essayer seul.",
+      "materiaux": "encre de Chine, aquarelle, pinceau",
+      "but": "Maîtriser le hasard contrôlé.",
+      "refs": [
+       "SC-00304",
+       "ID-00661"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucune lecture citée.",
+     "Klee joue de la musique : l'étui à violon est ouvert dans le studio (SC-00304)."
+    ],
+    "propos_types": [
+     "Il évitait louange et critique : la critique, latente, était ressentie plus intensément.",
+     "C'est lui qui devrait payer les étudiants, tant il reçoit d'eux.",
+     "Devant Fischli : « Le Suisse Hans Fischli est nostalgique, mais il a bien réussi à surmonter cela » (SC-00303)."
+    ],
+    "critique_et_evaluation": "Silence prolongé suivi d'une parole générale sur la peinture, sans louange ni blâme. Admission silencieuse : Klee feuillette le portfolio de Fischli sans un mot, sourit à peine, puis l'invite à rejoindre le groupe (SC-00303).",
+    "reactions_etudiants": "Mémorisation profonde. Impression de comprendre son propre travail pour la première fois. Sentiment de voyager avec Klee à travers des dizaines de millénaires, vers des expériences primordiales (CO-00081).",
+    "evolution": "Le cadre intime remplace le cours magistral de Weimar. Fin de période : en 1929-1931, Klee poursuit une classe de peinture sur tableau noir (CO-00093) ; il a accepté un poste à temps partiel à Düsseldorf en 1931 (ID-00756). Une perquisition de SA a lieu chez lui en mars 1933 (SC-00520). Aucune fiche ne documente son enseignement ensuite.",
+    "refs": [
+     "CO-00081",
+     "SC-00302",
+     "SC-00303",
+     "SC-00304",
+     "ID-00661",
+     "CO-00093",
+     "ID-00756",
+     "SC-00520"
+    ]
+   },
+   {
+    "intitule": "Classe de peinture au Bauhaus (Dessau)",
+    "periodes": [
+     "1929-1931"
+    ],
+    "atteste": "non",
+    "objectifs": "Non précisés dans la fiche. Non attesté à Black Mountain.",
+    "deroule_type_seance": "Classe hebdomadaire convoquée parfois en même temps que des réunions de département que Klee ne fréquentait jamais. Il dessine au tableau noir des formes abstraites en lignes parallèles, apparentées aux constructions du cours préliminaire.",
+    "exercices": [
+     {
+      "consigne": "Observer Klee dessiner au tableau noir des formes abstraites en lignes parallèles.",
+      "materiaux": "tableau noir",
+      "but": "Apparenter la peinture aux constructions du cours préliminaire.",
+      "refs": [
+       "CO-00093"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Un étudiant s'inquiéta d'un conflit d'horaire avec une réunion ; tous les autres rirent, sachant que Klee n'y irait pas.",
+    "evolution": "Dernière période documentée. Klee quitte Dessau pour Düsseldorf en 1931-1933 (ID-00756, SC-00520).",
+    "refs": [
+     "CO-00093",
+     "ID-00756",
+     "SC-00520"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "L'art naît d'une nécessité intérieure, comme la vie naît de la genèse. Avant le premier trait, il y a toute une préhistoire : une attitude envers le monde qui exige l'expression.",
+    "en_classe": "Faire précéder tout exercice d'une réflexion sur ce qui existait avant le premier trait. Chercher le premier instant d'une forme, la naissance d'une ligne. Non attesté à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00396",
+     "ID-00015",
+     "CO-00042"
+    ]
+   },
+   {
+    "idee": "La ligne est une promenade pour elle-même, sans destination.",
+    "en_classe": "Faire promener une ligne sur une feuille, sans but, puis voir naître triangles, carrés et cercles. Non attesté à Black Mountain, mais l'idée survit dans l'œuvre d'Anni Albers.",
+    "atteste": "non",
+    "refs": [
+     "CO-00037",
+     "SC-00180",
+     "ID-00535",
+     "CO-00078"
+    ]
+   },
+   {
+    "idee": "Développer la forme au lieu de la reproduire : le cube effacé que l'étudiant poursuit seul.",
+    "en_classe": "Dessiner une forme au tableau, l'effacer, laisser l'étudiant continuer sans copier. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "CO-00079"
+    ]
+   },
+   {
+    "idee": "La forme comme fin est morte ; donner forme est vie.",
+    "en_classe": "Conseil aux tisserands : s'immerger dans les matériaux et les techniques plutôt que dans le but final. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00362"
+    ]
+   },
+   {
+    "idee": "L'inconscient et le rêve éveillé sont la matière première de l'art, mais le rêve ne devient art qu'uni aux moyens créateurs.",
+    "en_classe": "Demander de dessiner un paysage en cherchant à laisser monter l'inconscient plutôt qu'à se détendre, puis relier cette vision à la technique de l'atelier. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00019",
+     "CO-00079",
+     "ID-00573",
+     "ID-00632"
+    ]
+   },
+   {
+    "idee": "L'artiste est un médiateur, ni maître ni serviteur : le tronc qui reçoit la sève.",
+    "en_classe": "Se présenter aux étudiants comme canal et non comme génie. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00363",
+     "ID-00463",
+     "ID-00020"
+    ]
+   },
+   {
+    "idee": "Le hasard contrôlé : laisser la couleur se diffuser d'elle-même, accueillir l'empreinte du chat.",
+    "en_classe": "Ne pas montrer la technique explicitement ; laisser les élèves l'observer et la tenter seuls. Non attesté à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00661",
+     "SC-00304",
+     "SC-00361"
+    ]
+   },
+   {
+    "idee": "La critique silencieuse : silence prolongé devant les œuvres, puis parole générale sans louange ni blâme.",
+    "en_classe": "Poser trois tableaux sur trois chevalets, faire une longue pause, puis parler de la peinture en général avant de discuter autour d'un pot. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "CO-00081",
+     "SC-00302"
+    ]
+   },
+   {
+    "idee": "L'échange avec les étudiants est vital : on enseigne pour apprendre d'eux.",
+    "en_classe": "Dire aux étudiants qu'on reçoit d'eux au moins autant qu'on leur donne. Non attesté à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00756",
+     "CO-00081",
+     "SC-00302"
+    ]
+   },
+   {
+    "idee": "Le silence et le travail convainquent plus que la prise de parti.",
+    "en_classe": "Un maître qui peint en continu devant les étudiants plutôt qu'il ne délibère ; ne parler que de forme et de couleur. Non attesté à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00397",
+     "ID-00412",
+     "CO-00045"
+    ]
+   },
+   {
+    "idee": "La multiplication : toute unité se répète par poussée, poussée interrompue, déplacement, miroir ou rotation.",
+    "en_classe": "Analyser un tissu ancien ou moderne en repérant l'opération de multiplication appliquée à chaque unité. Non attesté à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00533",
+     "CO-00078"
+    ]
+   },
+   {
+    "idee": "La polyphonie : deux voix indépendantes superposées, qui restent séparables contrairement aux pigments mélangés.",
+    "en_classe": "Suivre le chemin d'un fil à travers un tissage et repérer où il semble rejoindre une bande et où il poursuit seul. Non attesté à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00534",
+     "CO-00078"
+    ]
+   },
+   {
+    "idee": "Préférer « absolu » à « abstrait », et tenir la couleur pour l'élément le plus irrationnel de la peinture.",
+    "en_classe": "Faire varier une même forme par la seule application de la couleur ; bannir le jugement hiérarchique devant les œuvres des élèves. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00710",
+     "ID-00711",
+     "CO-00039"
+    ]
+   },
+   {
+    "idee": "La musique comme modèle : staccato, legato, allegro, Mozart pour la liberté et l'excellence.",
+    "en_classe": "Demander des équivalents visuels de staccato, legato et allegro. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "CO-00039",
+     "ID-00662",
+     "ID-00464"
+    ]
+   },
+   {
+    "idee": "Le jeu d'enfant comme imitation des forces créatrices, associé à une technique irréprochable.",
+    "en_classe": "Faire dessiner comme un enfant joue, sans but utilitaire, mais exiger que la naïveté coexiste avec la maîtrise. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00457",
+     "ID-00464"
+    ]
+   },
+   {
+    "idee": "Dénoncer la fraude artistique : infertilité, formalisme, fausses façades.",
+    "en_classe": "Aider l'étudiant à reconnaître et nommer la fraude sans équivoque. Non attesté à Black Mountain (la fiche ID-00124 marque d'ailleurs l'attestation comme incertaine).",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00124",
+     "ID-00462"
+    ]
+   },
+   {
+    "idee": "L'étude de la nature est essentielle : observer longuement avant de faire (arbres, eau, oiseaux).",
+    "en_classe": "Marcher dans un parc avec les étudiants, observer l'eau, les racines, les arbres, et en tirer des lois de forme. Cela rejoint l'exercice d'arbres du studio (CO-00002), qui reste incertain. Non attesté à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00398",
+     "ID-00712",
+     "ID-00414",
+     "CO-00002",
+     "SC-00191"
+    ]
+   },
+   {
+    "idee": "Rien n'agit de façon autonome : toute forme est réponse et contre-mouvement ; l'illusion optique est une réalité.",
+    "en_classe": "Faire dessiner des flots et des diagrammes, puis constater que l'impression compte plus que la mesure. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00125",
+     "SC-00264"
+    ]
+   },
+   {
+    "idee": "Tout est circulaire, sans vrai point de départ ; le processus créatif est comme la croissance d'un fruit.",
+    "en_classe": "Commencer un cours en comparant le travail à une graine qui germe. Ne pas montrer la lutte dans l'œuvre finie. Non attesté à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00364",
+     "ID-00504"
+    ]
+   },
+   {
+    "idee": "La cuisine et la peinture sont d'une même étoffe : assembler de petites parties, ne rien gaspiller.",
+    "en_classe": "Comparer l'improvisation en cuisine à l'improvisation à l'atelier. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00126",
+     "SC-00053",
+     "SC-00238"
+    ]
+   },
+   {
+    "idee": "L'ambiguïté est l'un des grands frissons de la vie : ne pas trancher l'interprétation d'une image.",
+    "en_classe": "Laisser la question ouverte devant une image. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00401"
+    ]
+   },
+   {
+    "idee": "Il n'y a ni juste ni faux : l'œuvre vit du jeu des forces opposées, y compris dans les conflits de la communauté.",
+    "en_classe": "Considérer chaque conflit comme une force productive, sans juger. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00399"
+    ]
+   },
+   {
+    "idee": "Plus le monde devient horrifique, plus l'art devient abstrait.",
+    "en_classe": "Conversation sur ce que l'abstraction offre comme refuge ou équilibre. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00201"
+    ]
+   },
+   {
+    "idee": "L'art de vivre passe avant l'art : on ne peint qu'avec une vie derrière soi.",
+    "en_classe": "Dire aux étudiants que la peinture découle de l'existence, non l'inverse. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00018"
+    ]
+   },
+   {
+    "idee": "Les textiles sont des « objets serviteurs » qui doivent prendre leur juste place dans l'environnement.",
+    "en_classe": "Discuter du rôle du design au service de l'usage. Non attesté à Black Mountain (Anni Albers aurait entendu cela en 1927-1929).",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00602"
+    ]
+   },
+   {
+    "idee": "Défendre la nature, la main et les formes anciennes contre l'orientation purement mécanique de l'image.",
+    "en_classe": "Débat : enseigner la projection mécanique de l'image ou la main et le geste naturel. Non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00465",
+     "ID-00572"
+    ]
+   }
+  ]
+ }
+}

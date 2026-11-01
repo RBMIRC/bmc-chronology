@@ -1,0 +1,215 @@
+{
+ "passe": "mois",
+ "cle": "1947-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3898,
+  "sortie": 13464,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1947-04",
+  "session": "Fin du printemps 1947, dans l'année universitaire 1946-47. Le calendrier en trimestres adopté le 18 mars par la faculté (proposition Hansgirg) n'est pas daté d'application dans les fiches.",
+  "saison_et_climat": "Printemps dans les montagnes de Caroline du Nord (déduit, aucune fiche ne décrit le temps). Au Mexique, Josef et Anni Albers travaillent dans la lumière de La Luz, puis de Mexico à partir de fin avril ou du 1er mai.",
+  "situation": "Le collège se gouverne sans Josef Albers, en sabbatique depuis l'automne 1946 et absent, qui peint à La Luz avant de rejoindre Mexico. L'équipe Levi-Rondthaler, portée par Ted Dreier en mars, réorganise : frais relevés de 1 400 à 1 600 $, personnel d'entretien et de cuisine renvoyé, déficit 1946-47 évité de justesse avec une petite réserve. Le débat collège contre communauté dure depuis deux ans. John Wallen a remis sa démission à la mi-mars après le refus de sa proposition de chaire en community development, et la démission est confirmée. Niebyl a reçu notification de non-renouvellement le 27 mars ; les pétitions étudiantes et les réunions du Board suivront en mai. Ce mois est un entre-deux : les décisions sont prises, les départs pas encore consommés.",
+  "presents_probables": [
+   {
+    "nom": "Bill Levi (recteur élu en mars)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Howard Rondthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier (de retour, désireux d'enseigner)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Wallen (démission confirmée, mais enseignement encore attesté en 1947-48 par d'autres sources)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Niebyl (non-renouvelé, part en mai)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Molly Gregory (démissionnaire du secrétariat, refuse de se représenter au Board)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "M. C. Richards",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lowinsky (départ prévu en Italie avec une bourse Guggenheim, date non précisée)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Arthur Penn (visiteur, avec une proposition à la faculté le 24 avril)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Les cinq étudiantes noires de l'hiver 1946-47 (noms non donnés)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1947-04-19",
+    "precision": "jour",
+    "ce_qui_arrive": "Yale entérine la nomination de Sawyer. Il recrutera Albers en 1950 : fait extérieur au collège, utile comme arrière-plan.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04102"
+    ]
+   },
+   {
+    "date": "1947-04-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Arthur Penn fait une proposition à la faculté, liée à la relance de l'imprimerie. Le contenu n'est pas précisé.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "date": "1947-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Josef Albers quitte La Luz pour Mexico, fin avril ou 1er mai selon les fiches (divergence non tranchée). Il y restera jusqu'à fin octobre.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Vie ordinaire de fin d'année : cours des enseignants en place, réunions de faculté et du Board sur le budget, réparations après le renvoi du personnel d'entretien (vaisselle cassée, locaux dégradés). Le défrichement du ravin et les plantations de la ferme ne sont pas datés précisément par les fiches, qui les placent au printemps sans préciser l'année : à traiter comme un projet en cours. Les étudiantes noires présentes vivent presque reclus, la ville étant hostile. Pas de fiche sur les repas, la musique ou les cours de ce mois précis.",
+  "tensions": [
+   "Collège contre communauté : deux enseignants ont démissionné au printemps à une semaine d'intervalle pour des motifs opposés, puis retiré leur démission avant l'été.",
+   "Wallen contre les anciens : sa démission remise à la mi-mars, après le refus de sa proposition, lue par lui comme un désengagement.",
+   "Levi-Rondthaler contre Albers : Albers demandera en mai une prolongation de son congé, et Levi répond que les étudiants seraient perdus sans lui.",
+   "Molly Gregory contre Albers et Dreier : elle se dit utilisée comme propriété, et Albers l'accuse de l'avoir vendu.",
+   "Niebyl : son non-renouvellement déclenche deux pétitions étudiantes et une réunion du Board.",
+   "Pouvoir et dette : toute la gouvernance tourne autour de l'hypothèque de second rang de 16 500 $ détenue par les Dreier.",
+   "Race : la faculté vote la fin du stade expérimental et l'admission ouverte à toutes les races, sans enseignant noir recruté et avec une seule étudiante revenue à l'automne.",
+   "Contradictions des sources : arrivée d'Albers au Mexique (fin avril ou 1er mai), départ de Wallen (1947-48 ou été 1948), rectorat d'Albers (1947 ou 1948), rôle de Dreier (recteur nominal en 1946-47 ou non)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La proposition de Penn devant la faculté",
+    "date": "1947-04-24",
+    "lieu": "Salle de réunion du collège (lieu non précisé)",
+    "personnages": [
+     "Arthur Penn",
+     "Levi",
+     "Rondthaler",
+     "les enseignants présents"
+    ],
+    "deroule": "Penn, jeune homme de 24 ans qui n'est pas encore étudiant régulier, soumet à la faculté une proposition liée à la relance de l'imprimerie. Son contenu n'est pas donné, et sa suite pourrait être la naissance du théâtre au collège. La scène joue sur la prudence d'une équipe qui serre le budget et doit décider sous pression.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)",
+     "fil : Renouveau de l'imprimerie et de la vie littéraire (1947→1947-12)",
+     "fil : Naissance du théâtre avec Arthur Penn (1947→1948)"
+    ]
+   },
+   {
+    "titre": "Le compromis de la chaire de Wallen",
+    "date": "1947-04",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Wallen",
+     "Bill Levi",
+     "Howard Rondthaler",
+     "Ted Dreier",
+     "Board of Fellows"
+    ],
+    "deroule": "Wallen a proposé une chaire en community development, avec diplôme de service communautaire et travail de terrain dans les communautés voisines. Le Board l'accepte mollement en gardant l'étiquette de psychologie. Wallen y lit un désengagement et sa démission est confirmée. Dreier, revenu et désireux d'enseigner, sert de médiateur entre les deux camps.",
+    "certitude": "deduit",
+    "refs": [
+     "fil : Communauté contre art : Wallen contre les anciens (1947-03→1948)",
+     "fil : Nouvelle direction Levi-Rondthaler et retour annoncé d'Albers (1947-03→1948)",
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le départ d'Albers pour le Mexique",
+    "date": "1947-04",
+    "lieu": "La Luz, puis Mexico",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Albers, qui s'est imposé une diète de peinture stricte à La Luz, quitte la maison d'adobe pour Mexico. Il y peint presque jour et nuit la série des Variants/Adobes. Au collège, sa chaire reste vide, et la nouvelle équipe prépare déjà le retour qu'il demandera en mai.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)",
+     "fil : Les Variants/Adobes et la métamorphose des Albers en artistes (1946-12→1947-10)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Au moment de la réorganisation Levi-Rondthaler, les anciens débattent encore du caractère du lieu, collège ou communauté, issu du projet de 1933 et de la pédagogie Bauhaus apportée par Albers.",
+    "vers_date": "1933",
+    "vers": "Fondation du collège en 1933 et importation du modèle Bauhaus, où l'art est au centre de la formation.",
+    "refs": [
+     "fil : L'enseignement du Bauhaus de Josef Albers à BMC (1933-1949)",
+     "EC-02185"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Pendant que Goodman, l'avant-garde d'après-guerre et Albers parlent de « form follows function », on regarde la décennie qui vient de se refermer.",
+    "vers_date": "1920",
+    "vers": "Confiance pacifique des années 1920, âge d'or de l'avant-garde et du Bauhaus, comparée à l'anxiété atomique de l'après-1945.",
+    "refs": [
+     "EC-02186"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Au printemps 1947, l'équipe Levi-Rondthaler affronte les frais et la dette avec la chaire de Wallen en suspens.",
+    "vers_date": "1950",
+    "vers": "Sawyer, dont la nomination est entérinée à Yale en avril 1947, recrute Albers en 1950.",
+    "refs": [
+     "EV-04102"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Niebyl a été notifié de son non-renouvellement le 27 mars, et les pétitions étudiantes sont encore en cours.",
+    "vers_date": "1947-05",
+    "vers": "Le Board se réunit le 8 mai, deux notices suivent le 9 mai, et Niebyl part.",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Wallen a remis sa démission à la mi-mars, et sa chaire est redéfinie sans lui convaincre.",
+    "vers_date": "1948",
+    "vers": "Son groupe quitte le collège à l'été 1948, selon une source ; d'autres le font enseigner encore en 1947-48.",
+    "refs": [
+     "fil : Communauté contre art : Wallen contre les anciens (1947-03→1948)",
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "« Form follows function » du Bauhaus, face à une communauté qui veut vivre sans programme.",
+   "La peinture comme diète : couleur pure sortie du tube, une seule couche, un seul thème.",
+   "Collège ou communauté : qui décide de la nature du lieu.",
+   "La dette comme pouvoir : hypothèque de 16 500 $ détenue par les Dreier.",
+   "Admission ouverte annoncée, pratique absente.",
+   "Anxiété d'après-guerre dans l'avant-garde, entre confiance des années 1920 et peur atomique."
+  ],
+  "lacunes": "Aucune fiche ne décrit le quotidien d'avril 1947 en détail : ni liste de cours, ni repas, ni musique, ni travaux datés. On ignore le contenu de la proposition de Penn, son statut exact en avril, et si les étudiantes noires présentes ont un nom. Le jour exact du départ d'Albers (fin avril ou 1er mai) reste incertain. La date de l'arrestation de Leo Krikorian n'est pas donnée. Les fiches se contredisent sur le rectorat d'Albers (1947 ou 1948), le rôle de Dreier et le départ de Wallen."
+ }
+}

@@ -1,0 +1,257 @@
+{
+ "passe": "personnes",
+ "cle": "Terence Burns",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 4684,
+  "sortie": 3056,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Terence Burns",
+  "autres_noms": [
+   "Terence"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant boursier à la ferme, écrivain-peintre de Providence (arrivé ≈ automne 1952)",
+  "presence": [
+   {
+    "debut": "1952-09",
+    "fin": "1956",
+    "precision": "periode",
+    "role": "Étudiant boursier affecté à la ferme (traite des vaches, bétail, maïs, bûcheronnage, entretien du four de Meadows Inn) ; dort à Meadows Inn puis au barn ; présent jusqu'aux dernières années du collège",
+    "refs": [
+     "PE-00145",
+     "EV-05856",
+     "EV-05859",
+     "EV-06236",
+     "EV-06490",
+     "QU-01887",
+     "SC-01833"
+    ]
+   }
+  ],
+  "portrait_physique": "Frêle, « pas exactement un poids lourd », lunettes, cheveux auburn ; léger de corps et remuant. Revenant de l'incendie, couvert de suie de la tête aux pieds.",
+  "noyau_psychologique": "Intelligence excentrique et fantasque, bavarde et remuante, mais enveloppée d'une farouche autodéfense : selon Olson, « il protège son âme ». Il est double : poète aspirant, collagiste, lecteur acéré en anglais et en français, récitation de Villon et chansons françaises pendant les corvées — et en même temps homme de ferme volontaire, taciturne dans son coin du barn, qui ne sort de sa tanière que lorsqu'il prend d'affection pour quelqu'un (Mona Stea).",
+  "blessures": "Une âme qu'il garde farouchement, derrière le bavardage et la saleté assumée ; on peut deviner une solitude protégée par l'excentricité (vivre au barn, draps couleur de café serré).",
+  "desirs": "Écrire, peindre, faire des collages ; être consolant et consolé (rêve d'aller consoler Karen Karnes qu'il croit entendre soupirer à travers le mur) ; aimer Mona Stea et fonder quelque chose hors de la montagne.",
+  "peurs": "L'intrusion — dans sa chambre (odeur d'étable, porte fermée par tact des autres), dans son intériorité ; peur déguisée en indifférence à la propreté et au qu'en-dira-t-on.",
+  "maniere_d_aimer": "À distance d'abord, par l'écoute oblique à travers les murs et le fantasme chevaleresque ; puis concrètement : la prise d'affection pour Mona Stea le fait littéralement sortir du barn, jusqu'au mariage.",
+  "rapport_au_pouvoir": "Aucune ambition visible ; se tient à la marge des instances du collège, choisit ses services (pompier volontaire, four, vaches) et refuse les codes (propreté, ordre) au nom d'une philosophie lawrencienne du sang.",
+  "voix": {
+   "registre": "Bavard, fantasque, sautant du français impeccable à l'argot de ferme ; ton de récitation quand il travaille",
+   "tics": "Chante « Auprès de ma blonde » et récite Villon (« Où sont les neiges d'antan ? ») pendant les corvées ; parle français dans les champs de maïs ; invoque Lawrence sur la propreté",
+   "exemples_paraphrases": [
+    "Réciter Villon en tranchant les tiges de maïs",
+    "Assurer qu'il entend Karen Karnes « soupirer lourdement » la nuit à travers le mur",
+    "Soutenir qu'un excès de propreté appauvrit le sang"
+   ]
+  },
+  "habitudes": [
+   "Traire les vaches avant l'aube ; passe son temps à la ferme, dort à Meadows Inn ou au barn",
+   "Chambre en désordre, draps inchangés depuis longtemps, couleur d'un café bien serré ; odeur d'étable",
+   "Volontaire contre les incendies de forêt avec pompe à dos indienne",
+   "Co-entretien du four de Meadows Inn avec Tom Field et Rumaker (relais dans le minuscule cave en terre)",
+   "Habitué des veillées cuisine ; a vécu un temps au Canada ; parle français"
+  ],
+  "convictions": [
+   "Comme D. H. Lawrence : un excès de propreté « appauvrit le sang »",
+   "La poésie (Villon) appartient au travail manuel, pas seulement aux salles de classe",
+   "Le dévouement concret à la communauté : feu, bétail, nourriture"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "moment": "Arrivée comme boursier de la ferme ; dortoir sous les toits de South Lodge ; chocage du maïs en chantant Villon et « Auprès de ma blonde », français dans les champs avec Don",
+    "etat_interieur": "Exubérance verbale et physique malgré un corps frêle ; il séduit et intrigue d'emblée",
+    "refs": [
+     "EV-05856",
+     "EV-05859",
+     "SC-01562",
+     "RE-02378"
+    ]
+   },
+   {
+    "date": "1952-10",
+    "precision": "mois",
+    "moment": "Incendie des Seven Sisters : part avec Weinberger et les pompes à dos indiennes, revient le lendemain couvert de suie, excité de sa nuit sur la montagne en feu",
+    "etat_interieur": "Exaltation du volontaire ; le courage compense la fragilité physique",
+    "refs": [
+     "EV-05892",
+     "PE-00145"
+    ]
+   },
+   {
+    "date": "1953-10",
+    "precision": "mois",
+    "moment": "Bûcheronnage avec Olson et pauses « entre hommes » : fantasme d'aller consoler Karen Karnes, dont il affirme entendre les soupirs à travers le mur de son étude",
+    "etat_interieur": "Érotisme imaginatif, chevaleresque et un peu burlesque ; tendresse inavouée",
+    "refs": [
+     "EV-06235",
+     "CI-03021"
+    ]
+   },
+   {
+    "date": "1953-11",
+    "precision": "mois",
+    "moment": "Pénurie de charbon : nuits dans les études, relais au four de Meadows Inn dans le cave claustrophobe sous la chambre de Tom",
+    "etat_interieur": "Endurance taciturne ; le feu entretenu comme forme de fidélité au lieu",
+    "refs": [
+     "EV-06236"
+    ]
+   },
+   {
+    "date": "1954-03",
+    "precision": "mois",
+    "moment": "Vie à Meadows Inn avec Rumaker et Tom Field (ancien appartement des Goldowski) ; draps couleur de café, Lawrence et la propreté ; il garde les quelques vaches restantes",
+    "etat_interieur": "Retrait : la communauté rétrécit, il se blottit dans le barn et la ferme",
+    "refs": [
+     "EV-06447",
+     "ID-03311",
+     "QU-01859",
+     "PE-00145"
+    ]
+   },
+   {
+    "date": "1954-11",
+    "precision": "mois",
+    "moment": "Thanksgiving à Meadows Inn : il est à la ferme s'occuper du bétail pendant que les autres cuisinent ; on laisse sa porte fermée à cause de l'odeur — dernier rassemblement au vieux esprit du collège",
+    "etat_interieur": "Absent-présent : indispensable et marginal à la fois",
+    "refs": [
+     "EV-06490",
+     "QU-01887"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "annee",
+    "moment": "Pique-nique de début de printemps : danse défiante sous l'orage avec Mona Stea, Joe et Carol Dunn, Wieners, Field, Rumaker ; il prend d'affection pour Mona, ce qui le fait sortir du barn",
+    "etat_interieur": "Ouverture enfin incarnée : la peur perdue dans la nature, le charme protecteur de Black Mountain à son sommet",
+    "refs": [
+     "SC-01833",
+     "EV-06772",
+     "RE-02768"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Né et grandi à Providence, Rhode Island ; devenu écrivain-peintre ; a vécu un temps au Canada, d'où son français impeccable",
+    "refs": [
+     "PE-00145",
+     "EV-05856"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1956",
+    "precision": "annee",
+    "moment": "Épouse Mona Stea et s'installe à Providence, sa ville natale",
+    "refs": [
+     "PE-00145",
+     "RE-02768"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Michael Rumaker",
+    "nature": "camaraderie de boursier, colocataire à Meadows Inn",
+    "evolution": "Complices des corvées (maïs, four, Thanksgiving) ; Rumaker observe avec tendresse et gêne ses excentricités (chambre, odeur) ; liens qui survivent au départ",
+    "refs": [
+     "EV-05859",
+     "EV-06236",
+     "EV-06447",
+     "EV-06490",
+     "SC-01562",
+     "SC-01563"
+    ]
+   },
+   {
+    "avec": "Mona Stea",
+    "nature": "amour",
+    "evolution": "Vers 1956, il prend d'affection pour elle, ce qui le fait sortir du barn ; mariage puis installation à Providence",
+    "refs": [
+     "RE-02768",
+     "SC-01833",
+     "PE-00145"
+    ]
+   },
+   {
+    "avec": "Tom Field",
+    "nature": "colocataire et co-chauffeur du four de Meadows Inn",
+    "evolution": "Relais nocturnes dans le cave en terre pendant la pénurie de charbon ; cohabitation au premier étage de Meadows Inn",
+    "refs": [
+     "EV-06236",
+     "EV-06439",
+     "EV-06447"
+    ]
+   },
+   {
+    "avec": "Karen Karnes",
+    "nature": "fantasme érotique idéalisé",
+    "evolution": "Il affirme l'entendre « soupirer lourdement » la nuit à travers le mur et rêve de la consoler ; pure spéculation de bûcheron, sans suite",
+    "refs": [
+     "EV-06235",
+     "CI-03021"
+    ]
+   },
+   {
+    "avec": "Don (étudiant en langues)",
+    "nature": "amitié linguistique",
+    "evolution": "Ils parlent français dans les champs de maïs pendant les corvées de 1952",
+    "refs": [
+     "RE-02378",
+     "SC-01562"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "relation maître-élève oblique",
+    "evolution": "Bûcheronnage commun avec la tronçonneuse neuve ; Olson le lit : « He's protecting his soul »",
+    "refs": [
+     "EV-06235",
+     "PE-00145"
+    ]
+   },
+   {
+    "avec": "Eric Weinberger",
+    "nature": "compagnons d'incendie",
+    "evolution": "Partent ensemble sur les Seven Sisters avec les pompes à dos, reviennent couverts de suie",
+    "refs": [
+     "EV-05892"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Le poète lettré (Villon, français impeccable) versus l'homme de ferme encroûté — contradiction constitutive du personnage, assumée par lui-même plutôt que dispute entre sources.",
+   "La fiche agrégée situe l'affection pour Mona Stea en 1956 ; sa présence au collège n'est attestée explicitement que jusqu'au printemps 1954 (Meadows Inn) puis indirectement en 1956 — l'intervalle 1954-1956 reste flou."
+  ],
+  "situations_revelatrices": [
+   "Le champ de maïs : chante et récite Villon sous les rangées mortes, parle français — le corps frêle mais la voix pleine",
+   "Le retour couvert de suie de l'incendie, excité de sa nuit sur la montagne",
+   "Les pauses de bûcheronnage : fantasme de consoler Karen Karnes à travers le mur",
+   "Le cave du four en hiver : relais silencieux qui réchauffe plus que la chaudière",
+   "Sa porte laissée fermée à Thanksgiving, l'odeur d'étable, lui absent aux vaches — la communauté qui l'aime à distance",
+   "La danse sous l'orage avec Mona : l'ermite du barn qui s'ouvre enfin"
+  ],
+  "citations": [
+   "CI-03021",
+   "ID-03311",
+   "PE-00145",
+   "SC-01562"
+  ],
+  "questions_ouvertes": [
+   "Dates et lieu de naissance, mort, ce qu'il devient après son mariage à Providence (écriture, peinture, collages ?)",
+   "Ce qu'il a fait au Canada et comment il a appris le français",
+   "Nature exacte de sa scolarité : est-il inscrit comme étudiant régulier, auditeur, simple boursier de ferme ?",
+   "Ce qui se passe pour lui entre le printemps 1954 et 1956 au collège mourant",
+   "Le contexte de la phrase d'Olson « He's protecting his soul » — propos de quand, à propos de quoi ?"
+  ]
+ }
+}

@@ -1,0 +1,247 @@
+{
+ "passe": "mois",
+ "cle": "1939-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3075,
+  "sortie": 13453,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1939-08",
+  "session": "Vacances d'été, entre deux sessions (déduit : les fiches ne donnent ni calendrier estival ni nom de session ; la rentrée est fixée au 12 septembre)",
+  "saison_et_climat": "Été 1939. Les fiches ne décrivent pas le climat. On peut supposer une chaleur estivale à Mexico comme en Caroline du Nord (déduit).",
+  "situation": "Le collège tourne au ralenti. Josef et Anni Albers sont à Mexico jusqu'au 8 septembre. Rice a quitté le collège fin juin pour Southern Pines. Nell est partie finir son stage à Asheville. Le recrutement d'un peintre invité, confié à Mangold, piétine. Le chantier du nouveau foyer reste au stade du papier. La querelle autour de Rice est en sommeil, mais elle n'est pas réglée.",
+  "presents_probables": [
+   {
+    "nom": "Fred D. Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frank Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Rice",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1939-06-08",
+    "precision": "periode",
+    "ce_qui_arrive": "Les Albers séjournent au Mexique jusqu'au 8 septembre (base calle de París 23, puis Tlalpan, Allende 2), avec des voyages à Morelia, Pátzcuaro et Guadalajara.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02950"
+    ]
+   },
+   {
+    "date": "1939-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice quitte le collège fin juin pour Southern Pines. Nell refuse de le suivre et achève d'abord son stage à Asheville, avant Chapel Hill. Un enseignant écrit que personne ne tient à le voir dans les parages.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "date": "1939-06-22",
+    "precision": "jour",
+    "ce_qui_arrive": "Les parents d'Anni, les Fleischmann, débarquent à Veracruz de l'Orinoco, en exil définitif. Josef et Anni les accueillent. Anni dit avoir dû soudoyer les uns après les autres pour obtenir le débarquement, et en garde une anxiété chronique.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "date": "1939-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Josef enseigne au Gobert College de Tlalpan.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02950"
+    ]
+   },
+   {
+    "date": "1939-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Au Taller de Gráfica Popular, Josef réalise la suite lithographique Alfa-Beta-Gamma-Delta, son premier retour à la lithographie depuis environ 1917.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02950",
+     "synthese-1939"
+    ]
+   },
+   {
+    "date": "1939-08-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Dans sa lettre à Mangold, Albers se montre exigeant pour le choix du peintre invité : « pas un autre peintre abstrait », un candidat « inflexible et vide », un autre qu'il croit communiste, ce qui est « insupportable ». Aucun recrutement n'en sort.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02952"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "À la fin de l'été, Josef passe une semaine à Oaxaca avec le jeune Guillermo Meza (20 ans) et lui rend son verdict : « je suis convaincu » (« Me convence »). La date exacte n'est pas donnée.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "date": "1939",
+    "precision": "annee",
+    "ce_qui_arrive": "Les Albers deviennent citoyens américains cette année-là. Les fiches ne donnent pas la date, et ne disent pas si elle tombe pendant le séjour mexicain. Anni inscrit « housewife » comme profession.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02950",
+     "synthese-1939"
+    ]
+   }
+  ],
+  "quotidien": "Josef enseigne à Tlalpan et travaille sa lithographie à Mexico. Il fait des voyages de travail dans le pays. Anni écrit à Anne Mangold ; en juin elle raconte une première fête « un peu folle » qui finit à 1 h 30 du matin. Côté campus, Frank et Mary Rice travaillent à l'auberge de Lake Eden pour l'été. Rice, à Southern Pines, écrit son autobiographie (déduit). Les lettres d'Albers à Mangold jalonnent les semaines (juin, juillet, août), tandis que les plans de Gropius et Breuer, jugés inabordables, dorment.",
+  "tensions": [
+   "La menace de Marian Nacke : elle attendait une explosion « dans les six semaines » à partir du 24 avril, soit vers début juin (déduit). Les fiches ne disent pas si elle s'est produite ni ce qui a suivi.",
+   "Le congé de Rice est daté de deux façons. Duberman parle d'un sabbatique pour toute l'année 1939-40 ; Chaddock parle d'un seul semestre obtenu à contrecœur par Rice. Les deux versions se contredisent.",
+   "Les exigences d'Albers face au recrutement compliquent la recherche du peintre invité ; Mangold reste pris entre ces critères et les candidats disponibles.",
+   "L'anxiété d'Anni face à l'exil de ses parents, après des démarches pénibles pour les faire débarquer.",
+   "Le dossier de Rice avec Harper's et son cousin William H. Smith, qui n'est pas refermé."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La lettre de l'exigence",
+    "date": "1939-08-07",
+    "lieu": "Mexico (calle de París 23 ou Tlalpan, Allende 2)",
+    "personnages": [
+     "Josef Albers",
+     "Fred D. Mangold"
+    ],
+    "deroule": "Josef écrit à Mangold pour rejeter les candidats au poste de peintre invité : abstraction jugée à éviter, profil « inflexible et vide », soupçon politique jugé insupportable. Le lecteur ne voit pas la réponse de Mangold.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02952",
+     "EV-02950"
+    ]
+   },
+   {
+    "titre": "Le verdict d'Oaxaca",
+    "date": null,
+    "lieu": "Oaxaca",
+    "personnages": [
+     "Josef Albers",
+     "Guillermo Meza"
+    ],
+    "deroule": "Pendant une semaine, Albers et le jeune Meza, 20 ans, voyagent ensemble. À la fin, Josef rend son verdict : « je suis convaincu » (« Me convence »). La fin de l'été forme le cadre, sans date précise.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "titre": "Le débarquement de Veracruz",
+    "date": "1939-06-22",
+    "lieu": "Veracruz",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "les parents Fleischmann"
+    ],
+    "deroule": "Le bateau Orinoco, celui du voyage de 1937, accoste à Veracruz. Josef et Anni accueillent les parents Fleischmann, qui s'installent en exil définitif. Anni raconte la série de pots-de-vin qu'il a fallu verser pour débarquer.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "titre": "Rice à Southern Pines",
+    "date": null,
+    "lieu": "Southern Pines",
+    "personnages": [
+     "Heinrich Rice"
+    ],
+    "deroule": "Loin du collège depuis fin juin, Rice écrit son autobiographie. Il a quitté les affaires du collège et n'a pas encore obtenu le statut de congé dont il négocie les termes. Nell ne le rejoint pas.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1939"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Été 1939, depuis Mexico, quand les nouvelles du collège arrivent",
+    "vers_date": "1939-04-24",
+    "vers": "La lettre de Marian Nacke : une partie de la faculté veut évincer Rice et menace de faire éclater le collège. Elle annonce aussi le départ de Sly.",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin-août 1939, lors de l'accueil des Fleischmann à Veracruz",
+    "vers_date": "1937",
+    "vers": "Le voyage de 1937 à bord de l'Orinoco, le même bateau qui amène les parents d'Anni en exil.",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1939, depuis l'impasse du foyer : les plans restés sur le papier",
+    "vers_date": "1940",
+    "vers": "Faute d'argent, Gropius et Breuer restent sur le papier, et le collège se tourne vers Kocher en 1940.",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1939, depuis Southern Pines, où Rice est en congé",
+    "vers_date": "1939-09",
+    "vers": "Une facture de 145 dollars liée à un accident de voiture déclenche une correspondance de septembre à février avec Dreier, qui juge que cela « frôle la malhonnêteté ».",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rentrée prévue au mois de septembre, après le retour de Mexico",
+    "vers_date": "1939-09-12",
+    "vers": "Albers ouvre la septième année par un discours. Jalowetz arrive avec sa femme Johanna et leur fille, et trouve le collège absorbé par le chantier du nouveau foyer.",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1939, depuis Southern Pines",
+    "vers_date": "1939-10",
+    "vers": "Rice signe avec Harper and Brothers un contrat de 500 dollars d'avance.",
+    "refs": [
+     "synthese-1939"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1939, depuis la démission que le collège veut obtenir de Rice",
+    "vers_date": "1939-12",
+    "vers": "À partir de Noël, Wunsch rend visite à Rice à Southern Pines pour obtenir sa démission. La première visite tourne au jeu du chat et de la souris et échoue.",
+    "refs": [
+     "synthese-1939"
+    ]
+   }
+  ],
+  "motifs": [
+   "L'exil et l'anxiété de ceux qui attendent un visa ou un débarquement",
+   "Le goût d'Albers pour l'exigence, à l'épreuve du recrutement",
+   "Le retour à la lithographie, dans le pays de la gravure populaire",
+   "Une fondation ébranlée, avec un fondateur qui s'éloigne par étapes",
+   "Un projet d'architecture qui reste sur le papier, faute d'argent"
+  ],
+  "lacunes": "Les fiches ne donnent ni calendrier de session estivale ni présence avérée de Rice ou de Nell en août. Le sort de la menace de Nacke, la date exacte de la naturalisation et celle du séjour à Oaxaca restent inconnus. Les lettres de Mangold n'ont pas de réponses dans les fiches. L'avancement du chantier du foyer à l'été n'est pas documenté. Les fiches de synthèse n'ont pas d'identifiants et sont citées sous le nom « synthese-1939 ». Les fiches portant sur Mexico et la lithographie n'ont pas de dates précises au-delà de « août »."
+ }
+}

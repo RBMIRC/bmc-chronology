@@ -1,0 +1,268 @@
+{
+ "passe": "mois",
+ "cle": "1935-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3846,
+  "sortie": 17583,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1935-05",
+  "session": "Fin du trimestre de printemps de la deuxième année (1934-35), avant la session d'été ; déduit du calendrier annuel, non nommé dans les fiches",
+  "saison_et_climat": "Printemps avancé. Les fiches ne décrivent ni le temps ni le climat du mois.",
+  "situation": "Le collège achève sa deuxième année (1934-35) dans une position contrastée. Sa réputation extérieure progresse (éditorial de Locke, article « Art as a Fourth R », visite de Dewey, Albers à la tribune de Washington), mais sa base reste fragile : frais relevés en février, salaires modestes, déficits retombant sur la faculté. Wunsch, arrivé en 1935, traverse une crise de doute que Rice désamorce par une conversation privée et un conseil de repos. Rice, au centre de l'ensemble, apparaît ici plus attentif que brutal.",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Wunsch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Dewey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Arthur S. Adams",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Joe Martin",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1935-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Wunsch, épuisé et doutant trois mois après son arrivée, obtient un entretien privé avec Rice dans la chambre de celui-ci. Rice le trouve fatigué, ne juge son travail que sur ses résultats tangibles et lui conseille des vacances (un voyage au Kentucky Derby est évoqué).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02453",
+     "SC-00624"
+    ]
+   },
+   {
+    "date": "1935-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Wunsch part en vacances sur le conseil de Rice, puis en revient convaincu que la réalité du collège tient aux relations humaines. La durée et la date du départ ne sont pas données.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02453",
+     "SC-00624"
+    ]
+   },
+   {
+    "date": "1935-05-20",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers prononce à Washington, devant l'American Federation of Arts (convention du 20 au 22 mai), une présentation sans titre dont le manuscrit est conservé dans les JA Papers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02455"
+    ]
+   },
+   {
+    "date": "1935-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers donne sa conférence « Abstract Art » à Asheville. La synthèse la place dans le mois de mai, sans date précise.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-05-15",
+    "precision": "jour",
+    "ce_qui_arrive": "Publication dans Physical Review de l'article EPR sur la description quantique de la réalité. Aucun lien avec le collège n'est attesté par les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02454"
+    ]
+   }
+  ],
+  "quotidien": "Cours et séminaires ordinaires : Rice enseigne Platon, Wunsch donne anglais et art dramatique avec des travaux de classe, Albers s'absente pour ses conférences. La vie matérielle repose sur les corvées mixtes (bois, routes, tennis, ferme), les repas et soirées à Roy's et le bal du samedi soir. Ces éléments sont décrits pour l'année entière, sans date précise pour mai.",
+  "tensions": [
+   "Wunsch doute de sa place et craint le « marteau-pilon » de Rice. L'entretien le détrompe, mais révèle un désaccord de fond : il voit désormais le théâtre comme une thérapie, point de vue que méprise Albers (date de cette divergence non précisée).",
+   "Débat sur la qualité de l'enseignement : Adams juge que l'apprentissage ne commence que lorsque l'étudiant le veut et déconseille de renforcer les sciences. Mangold impute le problème aux enseignants, à l'exception d'Anna Moellenhoff.",
+   "Précarité financière : 816 $ collectés en janvier pour les démêlés avec Rollins, frais relevés en février, déficits retombant sur la faculté, coût d'environ 350 $ par étudiant et par an avec un barème tenu secret.",
+   "Image publique contre réalité : le collège est médiatisé, mais les visiteurs jugent diversement (Dewey favorable, Adams sceptique)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Confidence de Wunsch à Rice",
+    "date": "1935-05",
+    "lieu": "chambre de Rice, Black Mountain College",
+    "personnages": [
+     "Robert Wunsch",
+     "John Andrew Rice"
+    ],
+    "deroule": "Wunsch s'attend à être écrasé ; Rice l'écoute, le trouve fatigué et lui suggère des vacances, avec la fantaisie d'un voyage au Kentucky Derby. L'ambiance est chaleureuse et calme. Rice lui fait remarquer qu'il n'évalue son travail que par ses résultats tangibles. Wunsch repart soigné plutôt que broyé.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00624",
+     "EV-02453"
+    ]
+   },
+   {
+    "titre": "Albers devant l'American Federation of Arts",
+    "date": "1935-05-20",
+    "lieu": "Washington, convention de l'American Federation of Arts",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers présente une communication sans titre, du 20 au 22 mai. La scène se joue à distance du collège : un Albers public, dont la parole circule hors de Black Mountain.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02455"
+    ]
+   },
+   {
+    "titre": "Dewey silencieux au séminaire de Rice",
+    "date": null,
+    "lieu": "salle de cours de Rice, puis Roy's",
+    "personnages": [
+     "John Dewey",
+     "John Andrew Rice",
+     "étudiants"
+    ],
+    "deroule": "Dewey suit en silence le cours de Rice sur Platon, puis rejoint le soir les étudiants à Roy's. Il écrira ensuite à Rice que le collège touche « aux racines mêmes » d'une vie démocratique. La date exacte est disputée entre les sources.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le verdict d'Adams sur les étudiants",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Arthur S. Adams",
+     "Mangold"
+    ],
+    "deroule": "Adams, amené par Mangold, passe une semaine au collège. Il juge que l'apprentissage ne commence que lorsque l'étudiant le veut et conseille de ne pas renforcer des sciences que personne ne choisit. Mangold réplique que le problème tient aux enseignants, sauf Anna Moellenhoff et son cours de biologie.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Wunsch, trois mois après son arrivée, au moment de l'entretien",
+    "vers_date": "1935",
+    "vers": "l'arrivée de Wunsch comme instructeur d'anglais et d'art dramatique, et la montée de sa fatigue durant les premiers mois",
+    "refs": [
+     "EV-02453",
+     "SC-00624"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers, en pleine série de conférences et d'expositions",
+    "vers_date": "1935-01",
+    "vers": "retour de La Havane le 16 janvier 1935, puis première exposition personnelle à l'Addison Gallery d'Andover : quinze gravures, sans critique",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "les finances du collège en mai",
+    "vers_date": "1935-01",
+    "vers": "souscription de 816 $ au 14 janvier liée aux démêlés avec Rollins, puis hausse des frais décidée par le Board le 17 février",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Wunsch et la trésorerie du collège, à la fin de mai",
+    "vers_date": "1935-06-06",
+    "vers": "le Board enregistre pour l'année écoulée 7 250 $ de salaires pour dix-sept personnes : 1 600 $ pour Rice, 1 000 $ pour Albers et pour Wunsch, 100 $ pour sept membres dont Joe Martin et Mangold. Chaque déficit retombe sur la faculté.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mangold, chargé de la session d'été",
+    "vers_date": "1935",
+    "vers": "lettres véhémentes à Rice, Dreier et Bailey contre les participants adventistes et végétariens de la session d'été ; Mangold y prédit la mort du collège. Dreier s'occupe de la ferme.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les Albers et les Dreier, à la fin de l'année scolaire",
+    "vers_date": null,
+    "vers": "premier voyage au Mexique et achat d'une tête d'idolo qui amorce la collection d'« idolos » ; photographies de Monte Albán. Les sources divergent entre vacances d'été et décembre 1935-janvier 1936.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les frictions Rice-Albers déjà présentes au printemps",
+    "vers_date": "1935-09",
+    "vers": "rentrée avec l'arrivée de Nancy Farrell et d'Irving Knickerbocker, qui exprime d'emblée ses doutes sur les tactiques de classe de Rice ; le conflit mènera au schisme.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les visiteurs du printemps, dont Dewey et Adams",
+    "vers_date": "1935",
+    "vers": "séjour de Louis Adamic et de sa femme, de deux à trois mois selon les sources, date non précisée ; il prépare l'article « Education on a Mountain » (Harper's, avril 1936)",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, entre conférences et vie du collège",
+    "vers_date": "1935-10",
+    "vers": "exposition des œuvres de Katherine Dreier aux étudiants, logo du collège, article « Art as Experience » dans Progressive Education",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Josef Albers, la tête tournée vers Harvard en fin d'année",
+    "vers_date": "1936",
+    "vers": "enseignement d'Albers à Harvard à partir de 1936",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "la fatigue et le doute des nouveaux enseignants, reçus avec bienveillance ou tactique par Rice",
+   "le collège comme lieu de relations humaines, thèse de Wunsch et de Dewey",
+   "les visiteurs qui jugent le collège diversement : Dewey, Adams, Adamic",
+   "l'argent qui pèse sur les personnes et les déficits",
+   "Albers entre scène publique et vie du collège",
+   "le théâtre comme thérapie contre le mépris d'Albers"
+  ],
+  "lacunes": "Aucun jour précis n'est donné pour l'entretien Wunsch-Rice, ni pour la durée de ses vacances. La visite de Dewey est disputée : Chaddock parle de deux visites d'une semaine ou plus, Reynolds de deux visites dont une avec Barnes, et leur date au printemps 1935 n'est pas assurée. La naissance de Roy's n'est pas datée, ce qui fragilise le soir de Dewey à Roy's s'il a eu lieu au printemps. Anna Moellenhoff apparaît dans un cours de biologie au printemps, mais l'arrivée du couple n'est listée qu'à la rentrée de septembre : c'est une contradiction entre fiches. Les dates des conférences d'Asheville, de la visite d'Adams et de celle d'Adamic sont inconnues. Rien n'est dit de la vie des étudiants en mai, du temps qu'il fait ou des effectifs. La synthèse 1935 n'a pas d'identifiant et est citée par son titre."
+ }
+}

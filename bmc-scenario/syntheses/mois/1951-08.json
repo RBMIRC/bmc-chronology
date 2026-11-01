@@ -1,0 +1,511 @@
+{
+ "passe": "mois",
+ "cle": "1951-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 16123,
+  "sortie": 31107,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1951-08 (août 1951)",
+  "session": "session d'été 1951 (dates exactes non données ; plage juin-août dans les fiches)",
+  "saison_et_climat": "Été 1951 près d'Asheville, en Caroline du Nord (lac Eden, ABC store d'Asheville). Les fiches ne disent rien du temps qu'il fait.",
+  "situation": "Le collège sort de l'après-Albers et du départ, au printemps, du groupe qui l'avait reconstruit depuis 1949 (Goldowski, quakers, Pittenger, Trayer, Corkran). La faculté résidente est réduite presque à rien : sur de nombreux candidats, seuls Sprague et Adams ont accepté une offre. Olson, revenu du Yucatan, anime la session d'été avec des visiteurs (Shahn, Callahan et Siskind, Harrison, Litz, Tudor, Motherwell). L'argent manque : salaires de façade, provisions maigres. Selon Duberman (lecture d'auteur), le collège devient résolument américain et radical. Le mois mêle une fête de création collective (les glyphes) et une précarité réelle.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ben Shahn",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Motherwell",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Katherine Litz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "David Tudor",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Lou Harrison",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nicholas Cernovich",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Harry Callahan",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Aaron Siskind",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hazel Larsen Archer",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Siegel",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Robert Rauschenberg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cy Twombly",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jonathan Williams",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Andy Oates",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fielding Dawson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alvin Lipsey",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fitton",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Victor Sprague",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Adams",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Harding",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stan VanDerBeek",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1951-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Olson lit « Human Universe » devant une cinquantaine de membres de la session d'été, à son retour du Yucatan ; l'essai paraîtra dans Origin n°4 à l'hiver 1951-1952.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05520",
+     "SC-01457"
+    ]
+   },
+   {
+    "date": "1951-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Katherine Litz crée The Glyph, solo de neuf minutes sur la partition de Lou Harrison, avec David Tudor au piano ; elle apparaît et disparaît derrière un panneau de 4 x 8 pieds, et Shahn fournit décor et motif.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05521"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Le Glyph Exchange naît d'une vente aux enchères en ville, où Alvin Lipsey lance « It's like a race » ; Olson écrit « Glyph (For Alvin & the Shahns) » et Shahn répond par A Glyph for Charles.",
+    "certitude": "atteste",
+    "refs": [
+     "EC-02777",
+     "EV-05521"
+    ]
+   },
+   {
+    "date": "1951-07-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Ben Shahn, arrivé fin juillet pour quatre semaines, donne « Aspects of Realism » au réfectoire.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1951-07",
+    "precision": "session",
+    "ce_qui_arrive": "Callahan et Siskind enseignent juillet-août à l'invitation d'Hazel Larsen Archer, Siegel venant pour deux semaines ; c'est leur premier travail étendu en commun.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05530"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Tudor joue la Deuxième Sonate de Boulez ; Olson la proclame la seule pièce depuis Bach.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Richards et Litz font renaître les événements de cirque et de théâtre en rond hérités des Jennerjahn ; Richards, compagne de Tudor, commence la traduction du Théâtre et son Double d'Artaud.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Olson imprime Apollonius of Tyana au print shop avec une carte de Stan VanDerBeek, écrit deux pièces dansées et plaide auprès de W. H. Ferry pour des fonds.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1951-08-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit à W. H. Ferry pour demander des fonds, en plaidant pour le travail commun d'artistes de disciplines différentes dans l'Amérique de 1951.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05537"
+    ]
+   },
+   {
+    "date": "1951-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Lou Harrison arrive au bord du lac Eden, quatre ans après une dépression qui l'avait conduit à l'hôpital Presbyterian de New York ; sa détresse est encore vive. Deux mois plus tard il achèvera la partition chant-piano de Rapunzel.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05535"
+    ]
+   },
+   {
+    "date": "1951-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Imogen Cunningham, depuis San Francisco, propose à Asawa et Lanier de repeindre deux pièces de sa maison de Greene Street contre trois ans de photographies de leurs deux jeunes enfants ; elle paie peinture et matériel.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05536"
+    ]
+   },
+   {
+    "date": "1951-08-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Cunningham écrit à Ruth et Albert Lanier, trace de leur amitié.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05538"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Olson revient pour de bon grâce à Richards, qui part pour l'été et lui laisse son appartement et sa place « room and board ». Fitton et Oppenheimer réunissent cent dollars de salaire de façade, ce qui le décide.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Siskind accepte le poste de l'Institute of Design ; une fiche le fait commencer à l'automne, une autre un an plus tard.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05530"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Andy Oates devient le premier diplômé en photographie du collège, examiné par Steichen.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1951-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Twombly peint des abstractions noir et blanc à BMC, que Molesworth dit recouvertes plus tard.",
+    "certitude": "atteste",
+    "refs": [
+     "EC-02780",
+     "EC-02781"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Rauschenberg revient à BMC avec Twombly, après la naissance de son fils à la mi-juillet ; la synthèse écrit « dans le mois », ce qui laisse juillet ou août.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Rauschenberg et Twombly jettent des cailloux sur une toile goudronnée sous l'œil de Motherwell, et posent nus pour la classe de dessin faute de modèle.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Williams se rend à Asheville pour l'ABC store, où il retrouve Harrison pour un Rock and Rye ; son glissement de la photographie vers l'écriture est en cours.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02650"
+    ]
+   }
+  ],
+  "quotidien": "Cours et ateliers de la session d'été ; répétitions de danse et de cirque ; le print shop tourne pour Olson (Apollonius of Tyana) et Williams (Jargon) ; repas au réfectoire, où Shahn prend la parole ; sorties à Asheville pour l'alcool ; enchères en ville ; photos de Callahan et Siskind ; musique de Harrison (Rapunzel, The Glyph) et piano de Tudor. Provisions maigres et argent rare : selon le souvenir de Callahan, les professeurs étaient presque sans salaire et l'hiver avait épuisé les réserves.",
+  "tensions": [
+   "Statut d'Olson : Chaddock le dit « élu recteur vite », Huss le juge piètre administrateur, et Molesworth ne le fait recteur officiel qu'en 1954, de facto d'abord.",
+   "Financement du retour d'Olson : Fitton et Oppenheimer parlent d'un salaire de façade, Dawson d'une collecte pour payer son voyage.",
+   "Richards : la synthèse dit qu'elle part pour l'été, mais elle figure dans les activités estivales (cirque, Artaud). Lane la dit partie en 1951, Dawson la fait enseigner Ulysses à l'automne.",
+   "Cage : Lane le montre au dîner de cet été-là, Harris le dit absent.",
+   "Siskind : l'Institute of Design l'attend pour l'automne selon une fiche, un an plus tard selon une autre.",
+   "Harrison : une visite d'avril placée par Rumaker à BMC, alors qu'Olson est au Yucatan et que Harrison n'arrive qu'en août, ne tient pas.",
+   "Administration désorganisée (Callahan) face à une communauté qui se croit libre ; Albers, à Yale, garde une querelle ouverte avec le collège et avec Cage.",
+   "Le groupe fondateur part au printemps dans l'amertume ; chaque protagoniste accuse les autres de mentir (Duberman), et Bill Levi quitte le collège avec sa fille, laissant Richards dans sa période la plus basse."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Olson face aux cinquante",
+    "date": "1951-06",
+    "lieu": "Black Mountain College, salle de conférence",
+    "personnages": [
+     "Charles Olson",
+     "une cinquantaine d'auditeurs de la session d'été"
+    ],
+    "deroule": "De retour du Yucatan, Olson lit « Human Universe » : l'Occident de Socrate aux camps, l'expérience interrompue, la chair commune des Mayas dans les bus. L'action est « absolutely interfered with », la touche est « la loi naturelle de la chair ». Urgence prophétique devant un auditoire restreint mais captivé ; le collège est une polis qui meurt et renaît.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01457",
+     "EV-05520"
+    ]
+   },
+   {
+    "titre": "Le Glyph Exchange à la vente aux enchères",
+    "date": null,
+    "lieu": "une vente aux enchères en ville",
+    "personnages": [
+     "Alvin Lipsey",
+     "Charles Olson",
+     "Ben Shahn"
+    ],
+    "deroule": "Alvin Lipsey, neveu de la cuisinière ou du cuisinier du collège, lance « It's like a race ». Olson répond par son poème pour Alvin et les Shahn ; Shahn répond par A Glyph for Charles, peint sur palimpseste pour Harris, et par un dessin perdu, torse sans tête, pour Molesworth.",
+    "certitude": "atteste",
+    "refs": [
+     "EC-02777",
+     "EV-05521"
+    ]
+   },
+   {
+    "titre": "Le solo derrière le panneau",
+    "date": "1951-06",
+    "lieu": "Black Mountain College, salle de danse",
+    "personnages": [
+     "Katherine Litz",
+     "David Tudor",
+     "Lou Harrison",
+     "Ben Shahn",
+     "Nicholas Cernovich",
+     "Teri Helen Dick"
+    ],
+    "deroule": "Litz danse The Glyph pendant neuf minutes, apparaissant et disparaissant derrière un panneau de 4 x 8 pieds, Tudor au piano. Shahn a dessiné un motif directement sur le corps de l'étudiant Cernovich. Teri Helen Dick prend la photographie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05521"
+    ]
+   },
+   {
+    "titre": "« Aspects of Realism » au réfectoire",
+    "date": "1951-07-29",
+    "lieu": "réfectoire du collège",
+    "personnages": [
+     "Ben Shahn",
+     "les étudiants et visiteurs de la session d'été"
+    ],
+    "deroule": "Shahn prend la parole au réfectoire, le 29 juillet, pendant son séjour de quatre semaines. Le texte, « Aspects of Realism », s'adresse à une communauté qui mange et qui débat ensemble.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "titre": "Lettre à Ferry, le plaidoyer pour l'argent",
+    "date": "1951-08-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Charles Olson",
+     "W. H. Ferry (destinataire)"
+    ],
+    "deroule": "Inspiré par l'échange de glyphes, Olson écrit à son ami Ferry pour demander des fonds, et plaide pour le travail commun d'artistes de disciplines différentes. Le collège survit avec des lettres de ce genre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05537"
+    ]
+   },
+   {
+    "titre": "Harrison arrive au lac Eden",
+    "date": "1951-08",
+    "lieu": "Black Mountain College, bord du lac Eden",
+    "personnages": [
+     "Lou Harrison"
+    ],
+    "deroule": "Harrison arrive quatre ans après une dépression qui l'avait conduit en psychiatrie à New York. Il est encore fragile ; deux mois plus tard il achèvera la partition chant-piano de Rapunzel.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05535"
+    ]
+   },
+   {
+    "titre": "Callahan et Siskind, liberté et pénurie",
+    "date": "1951-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Harry Callahan",
+     "Aaron Siskind",
+     "Hazel Larsen Archer",
+     "Siegel"
+    ],
+    "deroule": "Callahan et Siskind enseignent côte à côte, invités par Larsen Archer. Callahan trouve le collège plus libre et démocratique que l'Institute of Design, malgré une administration désorganisée. Il se souvient que les professeurs étaient presque sans salaire et que les étudiants avaient mangé les provisions de l'hiver.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05530"
+    ]
+   },
+   {
+    "titre": "Rauschenberg et Twombly sur la toile goudronnée",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Robert Rauschenberg",
+     "Cy Twombly",
+     "Robert Motherwell"
+    ],
+    "deroule": "Sous l'œil de Motherwell, les deux hommes jettent des cailloux sur une toile goudronnée. Faute de modèle, ils posent nus pour la classe de dessin. La date exacte n'est pas fixée ; la scène peut tomber en août ou en automne.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Olson de retour en été, avec les tessons et les Mayan Letters écrites à Creeley du 18 février au 1er juillet",
+    "vers_date": "1951-02",
+    "vers": "Le séjour au Yucatan, où il fouille tessons et pierre gravée pendant quatre ou cinq mois (départ daté fin 1950 par Dawson, février 1951 par Harris)",
+    "refs": [
+     "EV-05520",
+     "SC-01457"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Shahn et Olson, qui reprennent leur échange de glyphes",
+    "vers_date": null,
+    "vers": "Leur amitié née au début des années 1940 à l'Office of War Information à Washington, puis la campagne Roosevelt de 1944",
+    "refs": [
+     "EC-02777",
+     "EV-05525"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'écriture picturale d'Olson à BMC",
+    "vers_date": null,
+    "vers": "Les voyages mexicains et latino-américains des Albers à la fin des années 1930, qui avaient inspiré Asawa et Ray Johnson",
+    "refs": [
+     "EC-02776"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Williams à Asheville, pour l'ABC store, en été 1951",
+    "vers_date": "1949-02",
+    "vers": "Au Town Hall de février 1949, première audition de Harrison à la création de la Sonate d'Ives",
+    "refs": [
+     "EC-02650"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rauschenberg, qui revient seul sans sa femme et son fils",
+    "vers_date": "1950",
+    "vers": "Son mariage avec Susan Weil",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le dessin perdu de Shahn, qui vient d'être fait pour le collège",
+    "vers_date": "1966",
+    "vers": "Denise Levertov filme Olson chez lui à Gloucester ; le dessin est encore accroché derrière lui",
+    "refs": [
+     "EC-02778"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le solo de Litz en 1951",
+    "vers_date": "1977-09-04",
+    "vers": "Reprise de The Glyph au New York Dance Festival, Central Park, documentée en vidéo",
+    "refs": [
+     "EC-02779"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La lecture de « Human Universe » en été 1951",
+    "vers_date": null,
+    "vers": "Publication dans Origin n°4 à l'hiver 1951-1952, puis dans les Mayan Letters éditées par Creeley en 1954",
+    "refs": [
+     "EV-05520"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les répétitions de Richards et Litz sur le cirque et le théâtre en rond",
+    "vers_date": "1952",
+    "vers": "Le Theater Piece No. 1 de 1952",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rauschenberg à BMC avec Twombly, en plein été",
+    "vers_date": "1952-01",
+    "vers": "Retour de Rauschenberg au collège en janvier 1952, après un bref passage à l'automne",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Williams, qui doit à Olson son entrée dans l'écriture",
+    "vers_date": "1970",
+    "vers": "Tombe d'Olson à Gloucester, pierre puritaine dérisoire parmi les pêcheurs portugais",
+    "refs": [
+     "EC-02652"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le glyphe comme écriture et modèle d'échange entre disciplines",
+   "« For use, now » et « The Afterwards » : l'usage immédiat comme mot d'ordre d'Olson",
+   "Théâtre en rond, cirque, danse : l'héritage des Jennerjahn repris par Richards et Litz",
+   "Liberté de l'étudiant face à la précarité matérielle",
+   "Passage de relais : le groupe fondateur s'en va, la génération Olson prend la place",
+   "Goodman (Gestalt Therapy, 1951) : éducation sans gouvernement, communauté coopérative, maître assimilé plutôt qu'adoré, écho théorique à BMC (non attesté dans le texte)"
+  ],
+  "lacunes": "Le temps qu'il fait, les logements, les repas au-delà des allusions et la liste des étudiants (seul Cernovich est nommé) sont absents. Le jour exact du Glyph Exchange et de la vente aux enchères n'est pas donné. La présence de Cage (Lane le met au dîner, Harris le dit absent) et celle de Richards (partie pour l'été selon la synthèse, active sur le cirque et Artaud) restent incertaines. La date d'arrivée de Siegel, la présence de Stan VanDerBeek et le prénom de Fitton ne sont pas donnés. Le retour de Rauschenberg (« dans le mois ») est ambigu entre juillet et août. Plusieurs passages viennent de la seule synthèse 1951, qui n'a pas d'identifiant : leurs refs restent vides."
+ }
+}

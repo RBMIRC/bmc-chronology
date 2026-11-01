@@ -1,0 +1,150 @@
+{
+ "passe": "personnes",
+ "cle": "June Wayne",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3377,
+  "sortie": 5303,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "June Wayne",
+  "autres_noms": [],
+  "dates_de_vie": "Non précisées par les fiches. Elle apparaît seulement entre 1963 et 1965 (≈1966-1971 pour l'amitié avec Asawa), comme directrice de Tamarind.",
+  "statut_bmc": "Aucune présence au Black Mountain College n'est attestée dans les fiches. June Wayne est une figure extérieure, de l'après-collège. Elle croise d'anciens membres du collège (Anni et Josef Albers, Ruth Asawa) à Los Angeles, dans l'atelier qu'elle dirige. Dans un scénario, elle ne peut servir que de flash-forward, vu depuis le collège, ou de personnage de l'épilogue.",
+  "presence": [],
+  "portrait_physique": "Rien dans les fiches : ni âge, ni silhouette, ni manière de se vêtir. Toute description physique serait de l'invention. Seul l'environnement est attesté : un atelier de lithographie à Los Angeles, avec des imprimeurs, des pierres, des presses.",
+  "noyau_psychologique": "Déduit des actes attestés. Wayne est une directrice qui sait repérer chez les autres un potentiel qu'ils ne soupçonnent pas. Devant une observatrice qui n'était pas venue pour travailler (Anni Albers), elle propose d'essayer. Devant une proposition technique audacieuse (Asawa et l'impression recto-verso), elle s'enthousiasme tout de suite et reconnaît la manière propre de l'artiste. Elle est à la fois fondatrice, cheffe d'atelier et passeuse. Elle ouvre la porte, puis laisse l'artiste faire sa propre œuvre. Le goût qu'on lui prête pour les profondeurs troubles des lavis lithographiques (PE-00276) laisse penser à une sensibilité pour l'ombre, la matière et la nuance. C'est une indication, pas un portrait complet.",
+  "blessures": "Les fiches n'en donnent aucune. On peut seulement noter qu'elle combat une théorie qui rabaisse l'art des femmes, ce qui suggère une sensibilité aiguë à ce mépris (hypothèse, non attestée comme blessure personnelle).",
+  "desirs": "Déduit, non attesté directement : faire vivre et rayonner son atelier Tamarind, y accueillir des artistes déjà établis comme des artistes de passage, et leur ouvrir la lithographie. Les fiches la montrent attentive à ce que les femmes artistes soient prises au sérieux, sans dire quelle part de son projet cela représente.",
+  "peurs": "Non documenté. Aucune fiche ne dit ce qu'elle craint. À chercher avant d'écrire une scène où elle serait vulnérable.",
+  "maniere_d_aimer": "Pas d'information sur sa vie intime. Dans les fiches, son affection prend la forme de l'invitation et du compagnonnage de travail. Avec Anni Albers, c'est un mentorat (RE-03035, RE-03037). Avec Ruth Asawa, une amitié de « proche collègue » (RE-03079).",
+  "rapport_au_pouvoir": "Elle exerce un pouvoir d'institution : fondatrice et directrice de Tamarind, elle choisit qui invite, qui est boursier, qui a accès aux imprimeurs et aux pierres. Elle l'exerce de façon plutôt généreuse : elle invite et accueille, sans imposer. Elle a aussi une posture critique envers l'autorité intellectuelle masculine : elle dénonce des enseignants hommes qui professent encore la thèse de l'art féminin comme substitut pathologique de l'enfantement, expression de l'envie du pénis (PE-00276).",
+  "voix": {
+   "registre": "Aucune parole directe n'est conservée. Déduction prudente : une directrice d'atelier, directe, pratique, capable d'enthousiasme franc. Elle polémique quand il s'agit de la condition des femmes artistes.",
+   "tics": "Aucun tic de langage documenté. Ne pas en inventer sans source complémentaire.",
+   "exemples_paraphrases": [
+    "Elle invite Anni Albers, venue comme simple observatrice, à essayer sa main à la lithographie (SC-01989).",
+    "Elle accueille avec enthousiasme l'idée d'Ruth Asawa d'imprimer sur les deux faces du papier fin, et reconnaît aussitôt chez elle le goût de la réversibilité (SC-02030).",
+    "Elle récuse, avec colère ou ironie (ton déduit), la théorie selon laquelle l'art des femmes serait un substitut de l'enfantement (PE-00276)."
+   ]
+  },
+  "habitudes": [
+   "Diriger l'atelier Tamarind à Los Angeles, avec une équipe d'imprimeurs (PE-00276).",
+   "Inviter des artistes, parfois pour une saison entière : l'été 1964 pour Anni Albers (RE-03037).",
+   "Accueillir les artistes par une causerie d'introduction où ils présentent ce qu'ils veulent graver (SC-02030)."
+  ],
+  "convictions": [
+   "L'art des femmes n'est pas un substitut pathologique de l'enfantement, et la théorie de l'envie du pénis appliquée à la création féminine est à combattre (PE-00276).",
+   "Déduit : un artiste d'un autre médium peut se renouveler en lithographie, et un atelier bien tenu doit lui en donner l'occasion (SC-01989, SC-02030)."
+  ],
+  "arc_bmc": [],
+  "avant": [],
+  "apres": [
+   {
+    "date": "1963",
+    "moment": "Wayne dirige Tamarind. Anni Albers y accompagne Josef, boursier, comme observatrice. Wayne l'invite à essayer la lithographie : naissent les deux estampes Enmeshed, première étape d'une seconde carrière pour Anni, alors âgée de 64 ans.",
+    "refs": [
+     "PE-00276",
+     "RE-03035",
+     "SC-01989",
+     "EV-07565",
+     "EV-07617"
+    ]
+   },
+   {
+    "date": "1964",
+    "moment": "Wayne accueille les deux Albers comme boursiers de Tamarind. Anni travaille avec l'équipe d'imprimeurs et réalise Line Involvements. Elle abandonne peu à peu le tissage pour les arts graphiques, sous l'influence de Wayne.",
+    "refs": [
+     "RE-03037",
+     "EV-07662",
+     "EV-07617",
+     "PE-00276"
+    ]
+   },
+   {
+    "date": "1965-09",
+    "moment": "Ruth Asawa, première fois loin de chez elle depuis 1950, travaille à Tamarind. Elle propose l'impression recto-verso, que Wayne accueille avec enthousiasme. Le portfolio Flowers (1965) en sort.",
+    "refs": [
+     "SC-02030",
+     "EV-07832"
+    ]
+   },
+   {
+    "date": "1966/1971",
+    "moment": "Période (≈, déduite) où Wayne est décrite comme proche collègue d'Asawa, dans une relation d'amitié.",
+    "refs": [
+     "RE-03079"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Anni Albers",
+    "nature": "Mentorat : Wayne ouvre à Anni la lithographie, à Tamarind.",
+    "evolution": "1963 : l'invitation à essayer, simple observatrice. 1964 : bourse et travail avec l'équipe, Line Involvements. Conséquence : Anni quitte presque entièrement le tissage pour la gravure ; la fiche EV-07617 parle d'influence de Wayne sur ses premières lithographies. Anni dira plus tard avoir rejeté les principes de ces séries (EV-07662, version 1985).",
+    "refs": [
+     "RE-03035",
+     "RE-03037",
+     "SC-01989",
+     "EV-07565",
+     "EV-07617",
+     "EV-07662"
+    ]
+   },
+   {
+    "avec": "Ruth Asawa",
+    "nature": "Amitié et collégialité d'artiste ; Wayne est présentée comme proche collègue.",
+    "evolution": "Sept. 1965 : Asawa vient à Tamarind, Wayne salue son idée recto-verso. Puis, ≈1966-1971, une amitié durable est évoquée sans détail.",
+    "refs": [
+     "RE-03079",
+     "SC-02030",
+     "EV-07832",
+     "PE-00276"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Relation indirecte : boursier de Tamarind, c'est lui qui amène Anni à l'atelier.",
+    "evolution": "Aucune interaction directe documentée avec Wayne ; il est présent dans la scène de 1963 et parmi les boursiers de 1964.",
+    "refs": [
+     "SC-01989",
+     "EV-07565",
+     "EV-07662"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Date de l'invitation à Anni : les fiches 1963 (SC-01989, EV-07565, RE-03035) la placent lors d'une visite à Tamarind, tandis que RE-03037 et PE-00276 (Anni Albers 1965/2017) parlent d'une invitation pour l'été 1964. Il peut s'agir de deux moments distincts (visite puis séjour) ; les sources ne tranchent pas.",
+   "Line Involvements : six lithographies (Title Page + I-VI) dans une version, sept dans Anni Albers 1985 (EV-07662). Le rôle exact de Wayne y est décrit différemment : une version insiste sur sa direction de l'atelier, une autre sur son influence.",
+   "Statut de Josef : boursier en 1963 (anne accompagnante), mais en 1964 les deux Albers sont boursiers de Tamarind ; la fiche ne dit pas si le statut de Anni a changé ou si c'est une simplification.",
+   "Chronologie avec Asawa : séjour en sept.-oct. 1965 (EV-07832) mais amitié datée ≈1966-1971 (RE-03079, dates déduites) : ne pas supposer une amitié déjà installée en 1965.",
+   "EV-08418 (Elaine de Kooning à Crown Point Press) ne mentionne pas Wayne : fiche sans rapport avec ce personnage, à ne pas utiliser pour elle."
+  ],
+  "situations_revelatrices": [
+   "Accueillir une observatrice dans l'atelier et lui tendre un outil pour la faire passer à l'acte (1963).",
+   "Écouter une artiste présenter ses dessins lors d'une causerie d'introduction, et saisir tout de suite ce qui fait sa singularité (Asawa, 1965).",
+   "Faire tourner l'atelier entre imprimeurs, pierres, tirages et éditions, avec des artistes de passage.",
+   "Affronter, dans une discussion ou un débat, des enseignants masculins qui défendent la théorie psychanalytique de l'art des femmes (convictions de PE-00276)."
+  ],
+  "citations": [
+   "SC-01989 : invitation de Wayne à Anni à essayer la lithographie (paraphrasée) — Anni Albers, gravures p. 3",
+   "SC-02030 : accueil enthousiaste de l'idée recto-verso — Troeller 2025 (Asawa) p. 217",
+   "PE-00276 : fondatrice et directrice de Tamarind ; conviction contre la théorie de l'envie du pénis — Anni Albers, gravures p. 3 ; Anni Albers 1965/2017 ch. 22 ; Anni Albers 1985 p. 108",
+   "RE-03035, RE-03037 : mentorat d'Anni Albers",
+   "RE-03079 : amitié avec Ruth Asawa — Troeller 2025 p. 286",
+   "EV-07565, EV-07617, EV-07662 : conséquences de Tamarind pour Anni",
+   "EV-07832 : résidence d'Asawa à Tamarind"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, origine, formation et parcours de Wayne avant Tamarind : aucune fiche.",
+   "Date et circonstances de la fondation de Tamarind : les fiches ne disent pas quand ni comment.",
+   "A-t-elle eu un lien direct avec le Black Mountain College ? Rien ne l'indique ; à chercher avant tout flash-back.",
+   "Qui a invité Josef Albers à Tamarind, et quel rôle précis a joué Wayne dans ce choix ?",
+   "Sa voix réelle : interviews, écrits, lettres. Aucun mot rapporté directement dans les fiches.",
+   "Quel lien exact entre Wayne et la théorie qu'elle dénonce : texte, conférence, polémique ? À dater.",
+   "Que sont devenues ses relations avec Anni Albers et Ruth Asawa après 1965-1971 ?"
+  ]
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "passe": "enseignements",
+ "cle": "Max Dehn",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 4479,
+  "sortie": 4547,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Max Dehn",
+  "cours": [
+   {
+    "intitule": "Geometry for Artists (Géométrie pour artistes)",
+    "periodes": [
+     "≈1933→1966 (fourchette large et déduite ; la fiche indique seulement « BMC »)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Offrir une géométrie à des artistes. C'est tout ce que la fiche donne, et elle renvoie à Horowitz & Danilowitz 2009. Aucun programme, déroulé ni exercice n'est documenté pour ce cours.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Seule trace indirecte : après avoir terminé un problème de géométrie, Dehn s'exclame qu'Albers (« Juppi ») adorerait ça, et court lui porter ses dessins (scène rapportée par oui-dire). Cela montre un goût du dessin géométrique partagé avec Albers, sans prouver que le fait appartienne au cours."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Les dates sont trop vagues pour suivre une évolution. La scène SC-00475 porte la même fourchette large, ≈1933→1966.",
+    "refs": [
+     "CO-00195",
+     "SC-00475"
+    ]
+   },
+   {
+    "intitule": "Philosophy (séminaire hebdomadaire de philosophie socratique)",
+    "periodes": [
+     "1945-1948"
+    ],
+    "atteste": "oui",
+    "objectifs": "Apprendre à penser par soi-même, à la manière socratique. Le cours se fait sans manuel et passe par l'interrogation patiente de chaque étudiant.",
+    "deroule_type_seance": "Six à sept étudiants se réunissent une fois par semaine dans le study de Dehn. Le plus souvent, le devoir est sans texte : on indique le thème de la prochaine fois et on demande d'y réfléchir d'ici là. La séance est un long interrogatoire de plusieurs heures, mené jusqu'à l'aveu cherché. Dehn le récompense d'un sourire et d'un « Ach so ! ». Une variante sort de la salle : on refait une expérience des Anciens, sur le toit, de nuit, avec un instrument de géomètre.",
+    "exercices": [
+     {
+      "consigne": "Devoir sans texte : annoncer le thème de la prochaine séance et demander d'y réfléchir d'ici là. CONTRADICTION entre les sources : CO-00412 cite « la Connaissance », SC-00938 cite « le Progrès » pour la même formule.",
+      "materiaux": "Aucun manuel.",
+      "but": "Faire arriver chaque étudiant à la séance avec une pensée personnelle déjà engagée, sans appui sur un texte.",
+      "refs": [
+       "CO-00412",
+       "SC-00938"
+      ]
+     },
+     {
+      "consigne": "Séance thématique « Progrès » : interroger chaque étudiant, pendant des heures, jusqu'à ce qu'il concède au moins un progrès partiel. Dans la scène, Hank Bergman tient le dernier et finit par admettre « au moins quelque progrès ».",
+      "materiaux": "Le study de Dehn ; la seule patience de l'interrogateur.",
+      "but": "Désarmer le cynisme d'après-guerre par la seule logique du questionnement.",
+      "refs": [
+       "CO-00412",
+       "SC-00938"
+      ]
+     },
+     {
+      "consigne": "Refaire l'expérience des Anciens qui mesuraient la durée du jour : mesurer le mouvement d'Orion avec un théodolite, à minuit, sur le toit du Studies Building. Il faut viser des étoiles hautes pour la précision. On mesure, on redescend se resservir, on remesure.",
+      "materiaux": "Un théodolite de géomètre (seul instrument disponible) ; du vin chaud contre le froid.",
+      "but": "Retrouver par le corps et le froid l'expérience intellectuelle des Anciens. Le résultat obtenu est un jour de 22 h 11, faux mais atteint « selon les lignes de la pure logique ».",
+      "refs": [
+       "CO-00412",
+       "SC-00939"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucune lecture : le cours se fait sans manuel (CO-00412). Les Anciens et leur mesure de la durée du jour servent de référence pour l'exercice sur Orion."
+    ],
+    "propos_types": [
+     "Sur le progrès, Dehn avoue à ses étudiants qu'à son âge il peut se permettre d'en douter, mais que les jeunes ne le peuvent pas. Il reconnaît avoir joué déloyalement (SC-00938).",
+     "Après la mesure d'Orion, il fait valoir que la logique pure du raisonnement compte plus que l'exactitude du résultat (CO-00412).",
+     "Il dit « Ach so ! » à l'aveu qu'il cherchait."
+    ],
+    "critique_et_evaluation": "Il n'y a pas de note attestée. L'évaluation est l'aveu arraché : le moment où l'étudiant concède. La mesure d'Orion est jugée sur la validité du raisonnement, pas sur le chiffre.",
+    "reactions_etudiants": "Les étudiants, des cyniques d'après-guerre qui se croyaient mentalement durs, « s'effondrent » un à un sous le questionnement. Puis la classe retourne l'interrogatoire contre le maître. La mesure nocturne donne un résultat inexact, vécu comme une victoire logique (CO-00412, SC-00938, SC-00939).",
+    "evolution": "Ce cours est le noyau de l'enseignement philosophique de Dehn à BMC, qui se prolonge sous d'autres intitulés (voir les fiches suivantes). Les scènes sont datées ≈1945→1948, sans plus de précision.",
+    "refs": [
+     "CO-00412",
+     "SC-00938",
+     "SC-00939"
+    ]
+   },
+   {
+    "intitule": "Mathématiques, Platon, Éthique",
+    "periodes": [
+     "à partir de 1945"
+    ],
+    "atteste": "oui",
+    "objectifs": "La fiche ne donne que l'intitulé, sans objectifs détaillés : ces trois matières sont ce qu'il enseigne à partir de 1945 (Duberman 1972 p.229).",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [
+     "Platon, d'après l'intitulé. Aucun texte ni passage précis n'est attesté."
+    ],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "1945 marque le début de cet enseignement, qui se déploie en philosophie (voir les cours suivants). Cette progression est une déduction à partir des dates.",
+    "refs": [
+     "CO-00415"
+    ]
+   },
+   {
+    "intitule": "Problems of Philosophy",
+    "periodes": [
+     "automne 1947"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non précisés dans la fiche, qui ne donne que l'intitulé et la circonstance de création.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Le cours est créé à la demande des étudiants (Duberman 1972 p.287) : signe de l'attrait du séminaire de philosophie de Dehn.",
+    "evolution": "Il s'agit d'un cours ajouté à l'automne 1947, à l'initiative des étudiants et non de l'enseignant.",
+    "refs": [
+     "CO-00455"
+    ]
+   },
+   {
+    "intitule": "Philosophie (1948-1949)",
+    "periodes": [
+     "1948-1849 (sic dans la fiche, vraisemblablement une coquille pour 1948-1949)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non précisés dans la fiche.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Le cours est un casse-tête pour Gerda, mais suivable et élargissant les horizons (Lane 1990 p.256). Cela suggère un cours exigeant, accessible à une personne qui s'y consacre.",
+    "evolution": "Le cours poursuit l'enseignement philosophique de Dehn après 1947. La date contenant une faute (1849), je la lis comme 1948-1949, par déduction.",
+    "refs": [
+     "CO-00480"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Dans une crise, on peut désirer un dictateur : mise en garde contre l'exécutif fort.",
+    "en_classe": "Évoquer les étudiants allemands de 1933 qui, devant des circonstances désespérées, disaient avoir besoin d'un dictateur, comme avertissement contre le pouvoir exécutif fort. Dehn le dit en réunion, pas en cours (≈1948→1950).",
+    "atteste": "oui",
+    "refs": [
+     "ID-01975"
+    ]
+   },
+   {
+    "idee": "Le doute est un luxe de l'âge : le maître peut douter du progrès, pas les jeunes.",
+    "en_classe": "Faire concéder au moins un progrès partiel par questionnement, puis laisser la classe retourner l'interrogation contre le maître, qui avoue sa déloyauté. Séance « Progrès » de Hank Bergman. Attesté en cours ; l'idée provient du récit, pas d'un texte de Dehn.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00412",
+     "SC-00938"
+    ]
+   },
+   {
+    "idee": "La rigueur du raisonnement vaut plus que l'exactitude du résultat.",
+    "en_classe": "Refaire une mesure ancienne avec un seul instrument (théodolite sur Orion) et juger la démarche, pas le chiffre (jour de 22 h 11). Attesté à BMC.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00412",
+     "SC-00939"
+    ]
+   },
+   {
+    "idee": "La logique enfantine peut corriger l'adulte.",
+    "en_classe": "Exemple de la petite Elena (3 ans), qui corrige « toothwort » en « teethwort » ; Dehn se réjouit de la supériorité de la logique enfantine. Scène de randonnée, pas de cours ; transposable en séance comme anecdote ou question de départ (usage en classe non attesté).",
+    "atteste": "non",
+    "refs": [
+     "SC-00900"
+    ]
+   },
+   {
+    "idee": "Observer avant de juger, et montrer les choses vivantes (fleurs sauvages).",
+    "en_classe": "Dehn ne juge pas l'enfant (Branwen, 2 ans et demi) sans l'avoir observée, puis propose de lui montrer les fleurs sauvages. Attitude d'observation attentive, transposable en sortie de terrain. Non attestée comme enseignement formel au collège.",
+    "atteste": "non",
+    "refs": [
+     "SC-01363"
+    ]
+   },
+   {
+    "idee": "Partager le plaisir du dessin géométrique avec les artistes.",
+    "en_classe": "Dessiner la solution d'un problème de géométrie et la montrer à un artiste (Albers). Le contenu précis du cours Geometry for Artists est inconnu, donc tout exercice de géométrie lui attribué serait une déduction.",
+    "atteste": "incertain",
+    "refs": [
+     "CO-00195",
+     "SC-00475"
+    ]
+   }
+  ]
+ }
+}

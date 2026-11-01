@@ -1,0 +1,416 @@
+{
+ "passe": "mois",
+ "cle": "1947-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3738,
+  "sortie": 16592,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1947-11",
+  "session": "trimestre d'automne 1947 (calendrier en trimestres de Hansgirg adopté le 18 mars 1947 ; session déduite du calendrier)",
+  "saison_et_climat": "Fin d'automne. Les fiches ne décrivent pas le climat ; la saison est déduite du mois.",
+  "situation": "Deux mois après la rentrée de septembre, le collège tourne avec l'équipe réorganisée par Levi et Rondthaler, environ 90 étudiants (plus de la moitié d'hommes, logés en partie dans des barraques de surplus) et une faculté renouvelée en partie. Albers n'enseigne pas ce trimestre : Bolotowsky le remplace en peinture. Son retour à Black Mountain n'est pas daté par les fiches, qui le donnent rentré de Mexique après fin octobre. Molly Gregory a quitté son poste, Niebyl a été renvoyé en mai, Lowinsky est parti en Italie. Le budget 1947-48 est déficitaire (115 239 $ de recettes pour 119 402 $ de dépenses), et l'hypothèque de second rang de 16 500 $ des Dreier pèse sur toute la gouvernance.",
+  "presents_probables": [
+   {
+    "nom": "Bill Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Howard Rondthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M. C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bolotowsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Frank Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jim Tite",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tasker Howard Jr.",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trude Guermonprez",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Arthur Penn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Charles Bloomstein",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Moles et Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Masurovsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lyle",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Leo Krikorian",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1947-03-18",
+    "precision": "jour",
+    "ce_qui_arrive": "La faculté adopte le calendrier en trimestres de Hansgirg, qui évite une pause de trois mois d'un bloc.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "date": "1947-05-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion du Board le 8 mai et deux notices le 9 mai après deux pétitions étudiantes contre le non-renouvellement de Niebyl, qui part.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "saison",
+    "ce_qui_arrive": "Pendant l'été, la faculté vote la fin du stade expérimental et déclare l'admission ouverte à toutes les races. Aucun enseignant noir n'est recruté et une seule des cinq étudiantes noires de l'hiver revient à l'automne.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "date": "1947-08-22",
+    "precision": "jour",
+    "ce_qui_arrive": "Dreier, découragé, écrit à Ise Gropius qu'il songe à partir en Allemagne.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "date": "1947-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Levi prononce The Meaning of Black Mountain. Le programme se rééquilibre vers les humanités et les effectifs passent de 65 à environ 90 étudiants avec le GI Bill.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947",
+     "fil: Nouvelle direction Levi-Rondthaler et retour annoncé d'Albers",
+     "fil: Croissance des effectifs et logements de surplus"
+    ]
+   },
+   {
+    "date": "1947-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers quitte Mexico à la fin d'octobre, après sa série de Variants/Adobes (les chiffres varient, de 70 à plus de 100). Bolotowsky prend son cours de peinture.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947",
+     "fil: Les Variants/Adobes et la métamorphose des Albers en artistes"
+    ]
+   },
+   {
+    "date": "1947-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Charles Bloomstein, comptable, arrive. Le couple Moles et Trayer inaugure à Lake Eden un régime agricole d'inspiration biologique.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947",
+     "fil: La ferme et le nouveau régime agricole"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "session",
+    "ce_qui_arrive": "Arthur Penn, 24 ans, s'inscrit comme étudiant régulier et monte des sketchs burlesques légèrement grivois qui causent un petit choc. Trude Guermonprez remplace Anni au tissage.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947",
+     "fil: Naissance du théâtre avec Arthur Penn"
+    ]
+   },
+   {
+    "date": "1947-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Le trimestre d'automne se poursuit. Le conflit entre Bolotowsky et Levi reste contenu par leur aversion commune pour Levi, et la garderie informelle des mères fonctionne.",
+    "certitude": "deduit",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "date": "1947-12",
+    "precision": "mois",
+    "ce_qui_arrive": "M. C. Richards imprime ses Poems en 50 exemplaires sur le Print Shop.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947",
+     "fil: Renouveau de l'imprimerie et de la vie littéraire"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "ce_qui_arrive": "Une fiche date de 1947 l'acceptation du rectorat par Albers, avec Dreier comme trésorier. Le reste des fiches place cet événement en 1948.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "saison",
+    "ce_qui_arrive": "Été 1948 : le groupe de Wallen quitte le collège. Les sources se contredisent, puisqu'il enseigne encore en 1947-48.",
+    "certitude": "probable",
+    "refs": [
+     "fil: Communauté contre art : Wallen contre les anciens",
+     "synthèse 1947"
+    ]
+   }
+  ],
+  "quotidien": "Le trimestre tourne autour des cours de Dehn (philosophie, à la demande des étudiants), de Rondthaler (composition dans sa cabane), de Goldowski (physique et chimie), de Richards (séminaire par terre), de Wallen (psychodrame, règle du texte justificatif en cas d'absence), de Rice (allemand) et de Tasker Howard Jr. (économie). L'imprimerie relancée avec une presse en surplus occupe Rice et Tite. La ferme est en place depuis le printemps, avec un ravin défriché en pâture, 8 acres loués et 4 500 arbres plantés. Les fiches ne disent rien des repas ni de la vie musicale en novembre.",
+  "tensions": [
+   "Wallen contre les anciens sur la nature du lieu, collège ou communauté, débat vieux de deux ans, sa chaire redéfinie en community development et sa démission contestée",
+   "Levi contre Albers : Albers demande une prolongation de congé, Levi répond que ses étudiants seraient perdus sans lui, et Albers annote la lettre comme une réponse du Board",
+   "Bolotowsky contre Levi, contenue par leur aversion commune",
+   "Dreier découragé et tenté par l'Allemagne ; Gregory accuse Albers de l'avoir vendue",
+   "Finances : budget déficitaire, personnel d'entretien renvoyé, vaisselle cassée et locaux dégradés",
+   "Race : admission proclamée ouverte alors que le collège n'a pas recruté de Noirs ; Lowinsky écrit à Bobbie Dreier qu'il n'en veut pas vraiment ; les étudiants noirs vivent presque reclus dans une ville hostile",
+   "Art contre humanités : le recul de l'art et de la musique prépare le conflit du retour des Albers"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le discours de rentrée de Levi",
+    "date": "1947-09",
+    "lieu": null,
+    "personnages": [
+     "Bill Levi",
+     "étudiants",
+     "enseignants"
+    ],
+    "deroule": "Levi développe The Meaning of Black Mountain : les quatre dimensions du moi et l'inquiétude devant la taille grandissante du collège, qui passe de 65 à environ 90 étudiants.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947",
+     "fil: Nouvelle direction Levi-Rondthaler et retour annoncé d'Albers"
+    ]
+   },
+   {
+    "titre": "Bolotowsky devant la classe de peinture",
+    "date": "1947",
+    "lieu": null,
+    "personnages": [
+     "Bolotowsky",
+     "Levi",
+     "étudiants peintres"
+    ],
+    "deroule": "Bolotowsky enseigne la peinture à la place d'Albers. Les tensions avec lui se contiennent parce que lui et Levi s'accordent sur leur aversion pour Levi.",
+    "certitude": "deduit",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "titre": "Les sketchs grivois de Penn",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Arthur Penn",
+     "étudiants",
+     "faculté"
+    ],
+    "deroule": "Penn monte des sketchs burlesques légèrement grivois qui créent un petit choc dans une communauté qui tient encore à ses règles.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947",
+     "fil: Naissance du théâtre avec Arthur Penn"
+    ]
+   },
+   {
+    "titre": "La valse de Natasha et Lyle",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Natasha Goldowski",
+     "Lyle"
+    ],
+    "deroule": "Une valse qui écrase un piano, anecdote de l'année 1947-48 qui illustre un lieu libre mais pas sans règles.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "titre": "La jeep de Masurovsky vers le lac",
+    "date": null,
+    "lieu": "route vers le lac",
+    "personnages": [
+     "Masurovsky"
+    ],
+    "deroule": "Une jeep conduite jusqu'au lac, autre anecdote de 1947-48.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "titre": "La sortie en jalopy de Bolotowsky",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Bolotowsky",
+     "quatre étudiantes"
+    ],
+    "deroule": "Bolotowsky emmène quatre étudiantes en jalopy, anecdote de 1947-48.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "titre": "Krikorian arrêté à la sortie de la ville",
+    "date": null,
+    "lieu": "sortie de la ville",
+    "personnages": [
+     "Leo Krikorian",
+     "policiers"
+    ],
+    "deroule": "Arrêté pour excès de vitesse et conduite dangereuse, condamné puis frappé d'un sursis pour vagabondage assorti de la menace d'un road gang. Les policiers poussent sa Model A à la batterie vide.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "titre": "Les Poems de Richards sortent du Print Shop",
+    "date": "1947-12",
+    "lieu": "Print Shop",
+    "personnages": [
+     "M. C. Richards",
+     "Frank Rice",
+     "Jim Tite"
+    ],
+    "deroule": "Cinquante exemplaires de Poems imprimés à la main sur la presse relancée.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947",
+     "fil: Renouveau de l'imprimerie et de la vie littéraire"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "En novembre 1947, quand Goodman discute de l'avant-garde d'après 1945, décrite comme désespérée à cause de l'angoisse atomique",
+    "vers_date": null,
+    "vers": "Les années 1920, âge d'or de l'avant-garde et du Bauhaus, où la confiance était pacifique",
+    "refs": [
+     "EC-02186"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Bolotowsky remplace Albers en peinture pendant qu'Albers est encore au Mexique",
+    "vers_date": "1933",
+    "vers": "L'arrivée d'Albers au collège et l'enseignement Bauhaus, dont Goodman discute la formule form follows function",
+    "refs": [
+     "EC-02185",
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Dreier, découragé à la fin de l'été",
+    "vers_date": "1947-08-22",
+    "vers": "La lettre de Dreier à Ise Gropius, où il évoque son départ pour l'Allemagne",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le trimestre d'automne s'achève et la presse est en activité",
+    "vers_date": "1947-12",
+    "vers": "Les Poems de Richards imprimés en cinquante exemplaires",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le budget déficitaire et l'hypothèque Dreier de 16 500 $ tiennent toute la gouvernance",
+    "vers_date": "1948",
+    "vers": "Albers réclame au moins 1 000 $ pour son second semestre, et le rectorat se joue entre lui, Dreier et le Board",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le conflit de Wallen avec les anciens, sur l'identité du lieu",
+    "vers_date": "1948",
+    "vers": "Le départ du groupe de Wallen à l'été 1948, dans une version qui contredit son enseignement de 1947-48",
+    "refs": [
+     "fil: Communauté contre art : Wallen contre les anciens",
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La ferme ordonnée au printemps et les barraques de surplus",
+    "vers_date": "1949",
+    "vers": "La croissance des effectifs et des logements de surplus jusqu'en 1949, avec les nouveaux venus sur le chemin de Black Mountain",
+    "refs": [
+     "fil: Croissance des effectifs et logements de surplus",
+     "fil: Futurs venus : sur le chemin de Black Mountain"
+    ]
+   }
+  ],
+  "motifs": [
+   "collège contre communauté",
+   "l'absence d'Albers et son retour différé",
+   "la gouvernance par l'hypothèque Dreier",
+   "la question raciale et l'admission proclamée",
+   "la ferme et l'économie du surplus",
+   "l'effacement de l'art au profit des humanités",
+   "les anecdotes de la vie libre et ses règles"
+  ],
+  "lacunes": "Aucune fiche ne donne un fait daté précisément en novembre 1947. Le retour exact d'Albers, la présence de Dreier, de Krikorian et de l'étudiante noire qui est revenue, le nombre exact d'étudiants et le climat ne sont pas documentés. Les fiches divergent sur le nombre de peintures des Variants (70, 80 ou plus de 100), sur la date du rectorat d'Albers (1947 ou 1948), sur la présence d'Albers à Anahuacalli (1947 ou 1949) et sur le départ de Wallen (il enseigne en 1947-48, son groupe part à l'été 1948). La fiche de synthèse et les fils n'ont pas d'identifiant EV, SC ou PE ; ils sont cités par leur titre."
+ }
+}

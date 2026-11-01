@@ -1,0 +1,228 @@
+{
+ "passe": "mois",
+ "cle": "1942-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2911,
+  "sortie": 11156,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-01",
+  "session": "Probablement le trimestre d'hiver (déduit : le collège fonctionne par trimestres, les fiches citent les trimestres d'automne et de printemps, mais aucune ne nomme la session de janvier 1942).",
+  "saison_et_climat": "Hiver à Lake Eden, dans les montagnes de Caroline du Nord (saison déduite du calendrier ; aucune fiche ne décrit le temps qu'il fait).",
+  "situation": "Le collège en est à sa deuxième année à Lake Eden, où il s'est installé en mai 1941. Le chantier communautaire, lancé à l'automne 1940 pour près de trois ans, se poursuit : cours le matin et le soir, après-midi consacrés au travail volontaire. La grande grange de Kocher et Godfrey, commencée à l'été 1941, est encore en chantier et ne sera achevée qu'au printemps. Le collège possède des actifs importants mais n'a aucune liquidité. Il n'est accrédité nulle part et ne peut pas délivrer de diplômes ; la démarche pour obtenir un quota de programmes militaires n'apparaît dans les fiches qu'à partir de mai, donc elle n'est probablement pas encore engagée (déduit). Le début de la guerre pour les États-Unis n'est pas daté par une fiche de ce mois, mais les fils qui la suivent commencent en décembre 1941, ce qui suggère qu'elle commence à peser sur la vie du collège (déduit). Hors du collège, la première exposition en galerie de de Kooning s'ouvre à New York (EV-03302).",
+  "presents_probables": [
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Albers (prénom non précisé dans les fiches, Josef probable)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Godfrey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lindsley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Boyden",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Babcock",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "French",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bliss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frances de Graaf",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1942-01",
+    "precision": "periode",
+    "ce_qui_arrive": "Première exposition en galerie de de Kooning chez McMillen, Inc. à New York, choisie par John Graham avec des œuvres de de Chirico, Davis, Graham, Matisse et Picasso. Le peintre y rencontre Pollock et Duchamp. L'exposition se prolonge jusqu'en février. Elle se passe hors du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03302"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "ce_qui_arrive": "Le chantier communautaire, qui occupe les après-midi depuis l'automne 1940, est toujours en cours ; les cours du matin et du soir continuent.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "ce_qui_arrive": "Le collège n'a pas encore de quota dans les programmes militaires. Les fiches le datent de 1942 sans mois, ce qui le place après janvier.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire se fait au rythme du chantier : cours le matin et le soir, travail manuel volontaire l'après-midi sur la grange, presque achevée au printemps, et sur les autres bâtiments prévus pour l'été. Les fiches ne décrivent ni les repas, ni la musique, ni les cours de ce mois. Les bals du samedi, les spectacles et les soirées sont datés de 1942-1943 ; on ne peut pas les situer en janvier.",
+  "tensions": [
+   "Une propriété estimée à 150 000 $ sans aucune liquidité : la question de l'argent est déjà là, même si les fiches la traitent surtout pour l'été (déduit).",
+   "Le collège ne peut pas délivrer de diplômes, donc il ne peut pas garantir de sursis aux étudiants face au draft (déduit).",
+   "La menace de la conscription pousse étudiants et professeurs vers les programmes militaires, alors que le collège n'y est pas admis (déduit)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Après-midi de chantier sur la grange",
+    "date": "1942",
+    "lieu": "Lake Eden, chantier de la grange de Kocher et Godfrey",
+    "personnages": [
+     "Kocher",
+     "Godfrey"
+    ],
+    "deroule": "Après les cours du matin, une équipe travaille à la grange, presque achevée au printemps. Le travail manuel tient la communauté ensemble, et les cours reprennent le soir.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Albers en classe, figurines d'argile",
+    "date": "1942",
+    "lieu": "Salle de classe",
+    "personnages": [
+     "Albers",
+     "Oppenheimer"
+    ],
+    "deroule": "Albers monte sur la table pour mimer l'arc gothique et loue les figurines d'argile d'Oppenheimer. La fiche date cette scène de 1942-1943 : elle peut avoir lieu en janvier, sans que ce soit attesté.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Bal du samedi dans la salle à manger",
+    "date": "1942",
+    "lieu": "Salle à manger",
+    "personnages": [
+     "Evarts"
+    ],
+    "deroule": "Evarts joue du piano pour le bal du samedi soir. Les fiches datent ce bal de 1942 ou 1943 ; la scène reste plausible sans être attestée en janvier.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Janvier 1942, pendant le chantier qui dure depuis plus d'un an",
+    "vers_date": "1940",
+    "vers": "Lancement du chantier communautaire à l'automne 1940, prévu pour près de trois ans de cours du matin et du soir et de travail volontaire l'après-midi.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Janvier 1942, quand la communauté est installée depuis moins de deux ans",
+    "vers_date": "1941-05",
+    "vers": "Arrivée du collège à Lake Eden en mai 1941, avant le début de la grange et de l'été de travail.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1942, quand la grange est encore en chantier",
+    "vers_date": "1942",
+    "vers": "Achèvement de la grange de Kocher et Godfrey au printemps 1942.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1942, quand le collège n'est pas encore accrédité",
+    "vers_date": "1942-05-24",
+    "vers": "Rencontre de Wunsch avec Huntley de la Southern Association, qui s'étonne que le collège n'ait pas déjà le droit de délivrer des diplômes.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1942, quand la guerre commence à peser",
+    "vers_date": "1942-10-16",
+    "vers": "Télégramme d'enquête de Fortune sur les effets de la guerre ; le collège répond par une page dactylographiée.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1942, quand le glissement commence à peine",
+    "vers_date": "1944",
+    "vers": "La fracture idéologique de 1944 est en gestation depuis l'automne 1942 selon Sam Brown.",
+    "refs": [
+     "La fracture idéologique de 1944 en gestation (1942→1944)"
+    ]
+   }
+  ],
+  "motifs": [
+   "La communauté tient par le travail manuel et le chantier",
+   "La survie du collège dépend de l'accréditation et de l'argent",
+   "La guerre comme horizon qui vide le collège",
+   "Le décalage entre les fiches et le mois précis : presque tout est daté d'une année ou d'une saison"
+  ],
+  "lacunes": "Aucune fiche ne donne le trimestre ni la vie quotidienne de janvier 1942 (repas, musique, météo, cours). Le prénom de l'Albers présent n'est pas donné, Josef est seulement probable. L'orthographe de Frances de Graaf/de Graaff varie. Les fiches ne disent pas si Hansgirg, Bentley ou Rice sont là : Hansgirg arrive à l'automne, Bentley est recommandé de juillet à août, Rice est à l'extérieur. Pearl Harbor et l'entrée en guerre ne sont pas mentionnés explicitement."
+ }
+}

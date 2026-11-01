@@ -1,0 +1,262 @@
+{
+ "passe": "mois",
+ "cle": "1947-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6049,
+  "sortie": 16938,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1947-03",
+  "session": "Fin du trimestre de printemps 1947 ; le calendrier en trimestres est adopté le 18 mars (EV-04100), mais les fiches ne disent pas s'il s'applique déjà à ce printemps (déduit).",
+  "saison_et_climat": "Fin d'hiver, début de printemps. Pour Josef et Anni Albers, c'est le ciel bleu et le désert de La Luz (EV-03980, SC-01008). Le climat de la montagne caroline n'est pas documenté dans les fiches ; on peut seulement supposer un froid résiduel et un sol encore humide (déduit).",
+  "situation": "Le collège se gouverne sans Albers, parti en congé à La Luz depuis l'automne 1946 (EV-03979, synthèse 1947). Bill Levi, élu recteur en mars avec l'appui de Ted Dreier de retour, forme avec Howard Rondthaler l'équipe de réorganisation (EV-04098). John Wallen a remis sa démission à mi-mars ; sa proposition de redéfinir sa chaire en community development est accueillie mollement par le Board, qui garde l'étiquette de psychologie (EV-04097, SC-01029). La faculté vote le calendrier en trimestres le 18 mars (EV-04100). Niebyl est informé le 27 mars que son contrat ne sera pas renouvelé ; les pétitions et la réunion du Board viendront en mai (synthèse 1947). Molly Gregory a quitté le secrétariat de la corporation, mais la date n'est pas donnée. Les effectifs ne montent qu'à l'automne.",
+  "presents_probables": [
+   {
+    "nom": "John Wallen",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bill Levi (appelé John Levi dans SC-01029)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Howard Rondthaler (appelé Robert Rondthaler dans SC-01029)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Caroline Richards",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Niebyl",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Les cinq étudiantes noires de l'hiver 1946-47 (noms non donnés)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1947-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Dernier mois du congé sabbatique des Albers à La Luz : Josef peint en diète stricte avant le départ pour le Mexique, prévu fin avril ou 1er mai selon les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03979",
+     "EV-03980",
+     "synthese-1947"
+    ]
+   },
+   {
+    "date": "1947-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Wallen remet sa démission à mi-mars ; Levi et Rondthaler le pressent de revenir sur sa décision.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04097",
+     "synthese-1947"
+    ]
+   },
+   {
+    "date": "1947-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Bill Levi est élu recteur avec l'appui de Ted Dreier ; Levi et Rondthaler constituent l'équipe de réorganisation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04098",
+     "synthese-1947"
+    ]
+   },
+   {
+    "date": "1947-03-18",
+    "precision": "jour",
+    "ce_qui_arrive": "La faculté adopte le calendrier en trimestres de Hansgirg, qui évite toute pause de trois mois d'un bloc.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04100"
+    ]
+   },
+   {
+    "date": "1947-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Wallen expose sa redéfinition devant la faculté puis le Board, qui l'accepte mollement. Selon la synthèse, sa démission est confirmée malgré cela.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01029",
+     "EV-04097",
+     "synthese-1947"
+    ]
+   },
+   {
+    "date": "1947-03-27",
+    "precision": "jour",
+    "ce_qui_arrive": "Notification du non-renouvellement de Niebyl. Deux pétitions étudiantes suivront, puis une réunion du Board le 8 mai.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1947"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire de mars. On peut supposer (déduit) que les cours continuent au rythme du trimestre de printemps, que les repas et l'entretien reposent encore sur le personnel que la nouvelle équipe renverra dans l'année, et que l'art et la musique gardent encore la première place dans le programme, que la rentrée d'automne réduira.",
+  "tensions": [
+   "Wallen contre les anciens : psychologie pour la psychologie contre community development, avec un Board qui garde l'étiquette et un Wallen qui y lit un désengagement.",
+   "Collège ou communauté : le débat sur la nature du lieu dure depuis deux ans.",
+   "Gouvernance par l'argent : l'hypothèque de second rang de 16 500 $ détenue par les Dreier structure les décisions (synthèse 1947).",
+   "Molly Gregory, qu'Albers et Dreier se seraient partagée comme propriété ; Albers l'accuse de l'avoir vendu.",
+   "Niebyl : son non-renouvellement, notifié le 27 mars, prépare les pétitions de mai.",
+   "Phase raciale : la faculté n'a recruté aucun enseignant noir, et les étudiantes noires de l'hiver vivent sous hostilité de la ville ; la fin du stade expérimental n'est votée qu'en été.",
+   "Contradictions des sources : Dreier est recteur nominal en 1946-47 et absent selon une fiche, alors qu'il soutient l'élection de Levi en mars ; Wallen part en 1948 ou à l'été 1948 selon les sources ; Albers accepte le rectorat en 1947 ou en 1948 ; les noms varient (Bill ou John Levi, Howard ou Robert Rondthaler)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le Board avale la redéfinition de Wallen",
+    "date": "1947-03",
+    "lieu": "Black Mountain College : faculté puis Board of Fellows",
+    "personnages": [
+     "John Wallen",
+     "Bill Levi",
+     "Howard Rondthaler",
+     "Mary Caroline Richards"
+    ],
+    "deroule": "Wallen présente son revirement : finir avec la psychologie pour la psychologie, passer au community development, créer un diplôme de community service et envoyer les étudiants dans les communautés voisines. Le Board répond en substance : reste et fais exactement ça, on continuera de l'appeler psychologie. Malaise, offre vécue comme désengagement.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01029",
+     "EV-04097"
+    ]
+   },
+   {
+    "titre": "Le calendrier de Hansgirg voté",
+    "date": "1947-03-18",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "la faculté"
+    ],
+    "deroule": "La faculté adopte la révision en trimestres : automne, printemps, été, avec des périodes étude-travail et environ neuf mois de session, sans pause de trois mois d'un bloc. Les fiches ne donnent pas le détail des débats.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04100"
+    ]
+   },
+   {
+    "titre": "Levi élu, Dreier derrière lui",
+    "date": "1947-03",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Ted Dreier",
+     "Bill Levi",
+     "Howard Rondthaler"
+    ],
+    "deroule": "Dreier, de retour et impatient d'enseigner, soutient la candidature de Levi. L'équipe Levi-Rondthaler se met aussitôt au travail sur les frais et le personnel. Une fiche présente pourtant Dreier comme recteur nominal absent en 1946-47 : la scène peut jouer cette contradiction.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04098",
+     "synthese-1947"
+    ]
+   },
+   {
+    "titre": "La notification à Niebyl",
+    "date": "1947-03-27",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Niebyl"
+    ],
+    "deroule": "Le non-renouvellement de Niebyl est notifié le 27 mars. Les fiches ne disent ni qui le signe ni pourquoi : scène à ouvrir, qui mène aux pétitions étudiantes de mai.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1947"
+    ]
+   },
+   {
+    "titre": "Un hiver de peinture à La Luz",
+    "date": "1946-12",
+    "lieu": "La Luz, Nouveau-Mexique",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Dans la maison d'adobe, Josef s'impose une diète de peinture : une couleur pure, une couche, un thème. Il écrit à Perdekamp que, loin de l'éducation et de l'administration, ils peuvent enfin penser à eux-mêmes. La scène s'étire jusqu'en mars, pendant que le collège vote son calendrier.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01008",
+     "SC-01009",
+     "EV-03979"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "La réunion où Wallen défend sa redéfinition de la psychologie (mars 1947)",
+    "vers_date": "1933",
+    "vers": "Les débuts de Black Mountain et l'enseignement de Josef Albers à la lumière du Bauhaus, dont l'idée de forme et fonction est justement en discussion dans le débat sur la nature du lieu.",
+    "refs": [
+     "EC-02185",
+     "synthese-1947"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les Albers à La Luz, en pleine diète de peinture (hiver 1946-47)",
+    "vers_date": "1920",
+    "vers": "Les années 1920, âge d'or de l'avant-garde et du Bauhaus, comparées par Goodman à l'après-guerre de 1947, jugé désespéré.",
+    "refs": [
+     "EC-02186",
+     "SC-01008"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Levi élu recteur et équipe de réorganisation en place (mars 1947)",
+    "vers_date": "1947-05",
+    "vers": "Albers, au Mexique à partir de la fin avril ou du 1er mai, demande à prolonger son congé ; Levi répond que l'année a été rude. Le Board se réunit le 8 mai sur l'affaire Niebyl.",
+    "refs": [
+     "synthese-1947",
+     "EV-04098"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Calendrier en trimestres voté le 18 mars 1947",
+    "vers_date": "1947-09",
+    "vers": "Rentrée d'automne : Levi prononce The Meaning of Black Mountain, les effectifs passent de 65 à 85 puis à environ 90 avec le GI Bill, et les programmes glissent vers les humanités.",
+    "refs": [
+     "EV-04100",
+     "synthese-1947"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La redéfinition de Wallen acceptée mollement par le Board (mars 1947)",
+    "vers_date": "1948",
+    "vers": "Le départ du groupe de Wallen, daté soit de 1948 soit de l'été 1948 ; d'autres sources le font encore enseigner en 1947-48.",
+    "refs": [
+     "SC-01029",
+     "EV-04097",
+     "synthese-1947"
+    ]
+   }
+  ],
+  "motifs": [
+   "La métamorphose d'un pédagogue en peintre à distance",
+   "Gouvernance par l'hypothèque et la propriété",
+   "Psychologie comme étiquette contre communauté réelle",
+   "La couleur pure contre le collège",
+   "Seuil racial et exclusion",
+   "Engagement contre désengagement"
+  ],
+  "lacunes": "Les fiches ne donnent ni date précise ni montant pour les frais, le renvoi du personnel d'entretien, la démission de Molly Gregory, ni la cause du non-renouvellement de Niebyl. La vie ordinaire et le climat de la montagne sont inconnus, et la liste des présents est incomplète. La synthèse 1947 n'a pas d'identifiant propre (citée ici comme synthese-1947). On ignore aussi si le calendrier s'applique déjà au printemps 1947."
+ }
+}

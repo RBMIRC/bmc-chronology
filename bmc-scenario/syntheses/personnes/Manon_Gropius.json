@@ -1,0 +1,263 @@
+{
+ "passe": "personnes",
+ "cle": "Manon Gropius",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5441,
+  "sortie": 3639,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Manon Gropius",
+  "autres_noms": [
+   "Mutzi"
+  ],
+  "dates_de_vie": "née le 1916-10-05 (d'après EV-00464) ; décès non couvert par les fiches",
+  "statut_bmc": "Jamais présente à Black Mountain College : toutes les fiches la concernent comme enfant de Walter Gropius et Alma Mahler, dans l'orbite du Bauhaus (Weimar, Dessau, Vienne). Matière pour le scénario BMC uniquement via son père et l'héritage Bauhaus.",
+  "presence": [
+   {
+    "debut": "1919-05",
+    "fin": "1919-06",
+    "precision": "mois",
+    "role": "enfant (≈3 ans) amenée par sa mère à Weimar lors du premier rapprochement familial autour du Bauhaus naissant ; repart avec Alma mi-juin",
+    "refs": [
+     "EV-00606",
+     "EV-00613"
+    ]
+   },
+   {
+    "debut": "1920-03",
+    "fin": "1920-05",
+    "precision": "mois",
+    "role": "enfant logeant avec ses parents à l'Hotel Zum Elephanten de Weimar, près du Bauhaus ; repart avec Alma quand celle-ci déclare le mariage fini, puis la famille se reforme brièvement",
+    "refs": [
+     "EV-00707",
+     "EV-00708",
+     "EV-00712"
+    ]
+   },
+   {
+    "debut": "1921",
+    "fin": "1921",
+    "precision": "annee",
+    "role": "enfant en visite à Weimar : rencontre Paul Klee, soirée des fraises",
+    "refs": [
+     "EV-00746",
+     "SC-00190",
+     "RE-00342"
+    ]
+   },
+   {
+    "debut": "1927",
+    "fin": "1927",
+    "precision": "annee",
+    "role": "séjour d'environ un mois à Dessau (11 ans) : répétitions de théâtre au Bauhaus, activités organisées par Ise, timidité avec les enfants de la communauté",
+    "refs": [
+     "EV-01318",
+     "SC-00315"
+    ]
+   }
+  ],
+  "portrait_physique": "Enfant décrite comme « très jolie » et « éveillée, pleine de vivacité » en bas âge ; les sources se contredisent ensuite : selon l'une elle ressemble beaucoup à Walter, selon Klee (qui la voit en 1921) elle ressemble davantage à Alma (PE-00147 ; EV-00746).",
+  "noyau_psychologique": "Enfant-otage entre deux parents qui se déchirent et deux foyers qui se disputent. Douce, gentille, intelligente, mais élevée à l'écart — précepteurs, gouvernante, pas d'amis de son âge — elle n'a jamais appris le commerce spontané des autres enfants. Elle intéresse le théâtre, cherche une scène où exister, mais reste timide même au milieu d'une communauté d'avant-garde.",
+  "blessures": "Mère qui part, revient, repart ; père lointain (front, puis Bauhaus, puis Ise) qui ne la voit qu'aux repas et le week-end ; garde utilisée comme monnaie d'échange entre Alma et Walter ; l'été à Weimar promis puis annulé (1924) ; regard d'Alma rapporté comme un « mauvais esprit » rôdant entre elle et son père.",
+  "desirs": "Vivre une vie d'enfant ordinaire : des amis, une famille réunie, un père présent. Du côté des parents, elle est l'objet de désirs contradictoires — Alma en fait sa priorité affichée, Walter exige la garde complète, Ise veut l'éloigner du couple.",
+  "peurs": "Les adieux : à deux ans elle regarde sa mère partir en ambulance « comme pour un adieu éternel », debout sur le chemin — image fondatrice d'une peur de l'abandon (SC-00136, EV-00538).",
+  "maniere_d_aimer": "Attachement docile et observateur : elle « assiste », regarde, subit les allées et venues ; avec les enfants du Bauhaus elle se tient en retrait, visiteuse polie plutôt que compagne (SC-00315).",
+  "rapport_au_pouvoir": "Aucun pouvoir propre : elle est l'enjeu du pouvoir des adultes. Chacun de ses déplacements traduit une décision des autres (obligation de garde, jalousie d'Ise, caprices d'Alma).",
+  "voix": {
+   "registre": "Enfant sage, posée, rarement rapportée directement ; sa seule plainte connue (via Klee) porte sur l'absence des siens — non pas sur elle-même.",
+   "tics": null,
+   "exemples_paraphrases": [
+    "Seule plainte exprimée devant Klee en 1921 : regretter que sa propre famille ne soit pas là, elle qui est elle-même en visite chez celle des autres (SC-00190)."
+   ]
+  },
+  "habitudes": [
+   "Élevée par précepteurs et gouvernante, sans camarades de son âge (EV-01318)",
+   "S'intéresse au théâtre ; assiste aux répétitions du Bauhaus à Dessau (PE-00147, SC-00315)",
+   "Voyages entre Vienne, Weimar, Berlin, Venise selon les humeurs d'Alma"
+  ],
+  "convictions": [
+   "Non documentées pour l'enfant elle-même : les fiches ne donnent aucune conviction propre, seulement des juges adultes la concernant"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1916-10-05",
+    "precision": "jour",
+    "moment": "Naissance à Vienne après une grossesse de dix mois ; père au front, dévasté de ne ni la voir ni l'entendre ; prénommée d'après la grand-mère paternelle Manon",
+    "etat_interieur": null,
+    "refs": [
+     "EV-00464",
+     "PE-00147"
+    ]
+   },
+   {
+    "date": "1917-03",
+    "precision": "mois",
+    "moment": "À cinq mois, bébée adulée d'un père en permission « totalement amoureux », gazouillant sans fin",
+    "etat_interieur": "objet d'un amour paternel intense mais épisodique",
+    "refs": [
+     "EV-00504"
+    ]
+   },
+   {
+    "date": "1918-08-02",
+    "precision": "jour",
+    "moment": "À deux ans, debout sur le chemin, regarde sa mère emportée tête en bas vers le sanatorium pour la naissance prématurée de son frère",
+    "etat_interieur": "l'adieu éternel — première blessure",
+    "refs": [
+     "SC-00136",
+     "EV-00538"
+    ]
+   },
+   {
+    "date": "1919-05",
+    "precision": "mois",
+    "moment": "Premier séjour à Weimar, le Bauhaus a un mois ; Alma ne tient que six semaines et repart avec elle",
+    "etat_interieur": null,
+    "refs": [
+     "EV-00606",
+     "EV-00613"
+    ]
+   },
+   {
+    "date": "1920-03",
+    "precision": "mois",
+    "moment": "Retour à Weimar avec Alma, installation à l'Hotel Zum Elephanten au cœur des émeutes de la grève générale ; Alma repart en mai en déclarant le mariage fini, puis revient",
+    "etat_interieur": "ballotée par la bataille de garde ; l'enfant comme monnaie d'échange",
+    "refs": [
+     "EV-00707",
+     "EV-00712",
+     "RE-00211"
+    ]
+   },
+   {
+    "date": "1921",
+    "precision": "annee",
+    "moment": "Visite à Weimar : soirée des fraises avec Klee, qui s'identifie à cette enfant solitaire",
+    "etat_interieur": "solitude reconnue pour la première fois avec tendresse par un adulte extérieur",
+    "refs": [
+     "EV-00746",
+     "SC-00190",
+     "RE-00342"
+    ]
+   },
+   {
+    "date": "1924",
+    "precision": "annee",
+    "moment": "Alma ne respecte pas les deux visites annuelles ; voyage du père à Vienne sous couvert d'une conférence payée ; l'été promis à Weimar est annulé, Ise interdit un nouveau voyage et Gropius renonce à voir sa fille",
+    "etat_interieur": "coupée de son père par les trois adultes qui se la disputent",
+    "refs": [
+     "EV-01040",
+     "EV-01043"
+    ]
+   },
+   {
+    "date": "1927",
+    "precision": "annee",
+    "moment": "Après refus d'Alma et un essai d'internat à Genève abandonné au bout d'une nuit, un mois à Dessau : répétitions de théâtre au Bauhaus, mais père débordé, belle-mère organisatrice, pas d'amis trouvés",
+    "etat_interieur": "timidité et malaise au sein de la communauté ; miroir de l'étrangeté de Gropius dans son propre monde",
+    "refs": [
+     "EV-01318",
+     "SC-00315"
+    ]
+   }
+  ],
+  "avant": [],
+  "apres": [],
+  "relations_cles": [
+   {
+    "avec": "Alma Mahler",
+    "nature": "mère-fille, instrument de la guerre conjugale",
+    "evolution": "Alma l'emmène et la reprend selon ses humeurs et ses amours (Werfel, Kokoschka) ; promet puis annule les séjours chez le père ; la garde de l'enfant devient le champ de bataille permanent du divorce",
+    "refs": [
+     "RE-00211",
+     "EV-00606",
+     "EV-00613",
+     "EV-00707",
+     "EV-01040",
+     "EV-01043",
+     "EV-01318"
+    ]
+   },
+   {
+    "avec": "Walter Gropius",
+    "nature": "père-fille, amour lointain",
+    "evolution": "Amour paternel intense mais presque toujours à distance (front, Weimar, Vienne) ; en 1924 il renonce à la voir sous pression d'Ise ; à Dessau en 1927 il ne la voit qu'aux repas et le week-end",
+    "refs": [
+     "EV-00464",
+     "EV-00504",
+     "EV-01040",
+     "EV-01043",
+     "EV-01318"
+    ]
+   },
+   {
+    "avec": "Ise Gropius",
+    "nature": "belle-mère jalouse et intrusive",
+    "evolution": "Ise, insécure face à Alma, refuse d'accompagner Gropius à Vienne, interdit le voyage de 1924, veut toute l'énergie du mari tournée vers le Bauhaus ; à Dessau elle organise les activités de Mutzi sans créer de vraie proximité",
+    "refs": [
+     "EV-01040",
+     "EV-01043",
+     "EV-01318"
+    ]
+   },
+   {
+    "avec": "Paul Klee",
+    "nature": "rencontre brève, empathie d'un solitaire pour une solitaire",
+    "evolution": "Un soir de 1921, des fraises, un très beau papier : Klee voit en elle le portrait d'Alma et une enfant sans amis de son âge, ce qui ravive son propre désir d'avoir Felix près de lui",
+    "refs": [
+     "EV-00746",
+     "SC-00190",
+     "RE-00342"
+    ]
+   },
+   {
+    "avec": "Manon Gropius (grand-mère homonyme)",
+    "nature": "homonymie : la grand-mère paternelle, veuve ambitieuse et conventionnelle",
+    "evolution": "La grand-mère, belligérante contre le mariage d'Alma et Walter (1915-1916), a donné son prénom à l'enfant ; sa binarité belliqueuse/conciliante traverse la famille",
+    "refs": [
+     "EV-00405",
+     "EV-00429",
+     "RE-00134",
+     "RE-00137",
+     "RE-00152"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Homonymie non résolue dans PE-00147 : la fiche mélange la grand-mère Manon (mère de Walter, veuve depuis 1911, fille d'un conseiller d'arrondissement d'ascendance huguenote, conventionaliste) et la petite-fille Manon/Mutzi (née 1916) ; le scénariste doit séparer les deux personnages.",
+   "Âge incompatible en 1921 : EV-00746 et Klee la disent « 17 ans » alors qu'elle est née en 1916 et serait donc enfant d'environ 5 ans ; les mêmes fiches la disent aussi « adolescente » — vraisemblablement une erreur de la source ou un décalage de date à traiter avec prudence.",
+   "Portrait physique contradictoire : « ressemblant beaucoup à son père » (PE-00147) contre « ressemble physiquement plus à Alma qu'à Walter » selon Klee (EV-00746).",
+   "Statut « près de trois ans en août 1919 » (PE-00147) cohérent avec la naissance de 1916, mais « 17 ans en 1921 » ne l'est pas : la source Weber est elle-même incohérente sur l'âge."
+  ],
+  "situations_revelatrices": [
+   "L'enfant debout sur le chemin glacé regardant l'ambulance emporter sa mère : la blessure fondatrice, muette",
+   "Les va-et-vients de trains Vienne-Berlin-Weimar où chaque départ d'Alma décide de sa vie sans elle",
+   "La soirée des fraises avec Klee : le moment rare où un adulte la voit elle, pas comme un enjeu",
+   "Dessau 1927 : assister aux répétitions de théâtre, entourée d'enfants du Bauhaus avec lesquels elle ne parvient pas à jouer",
+   "Les négociations adultes (Alma, Walter, Ise) où l'on parle d'elle à la troisième personne pendant qu'elle est dans la pièce"
+  ],
+  "citations": [
+   "EV-00464",
+   "EV-00504",
+   "EV-00538",
+   "EV-00746",
+   "EV-01043",
+   "EV-01318",
+   "SC-00136",
+   "SC-00190",
+   "SC-00315",
+   "EV-00405",
+   "EV-00429"
+  ],
+  "questions_ouvertes": [
+   "Sa vie après 1927 (adolescence à Vienne, mort prématurée connue hors sources mais absente des fiches) : rien n'est couvert, tout est à documenter.",
+   "Ce qu'elle dit, pense ou ressent : aucune parole directe d'elle dans les fiches ; tout passe par le regard des adultes.",
+   "Nature exacte de son intérêt pour le théâtre et son éventuel rapport aux scènes du Bauhaus.",
+   "La question de l'« internat de Genève » (une seule nuit, 1927) : pourquoi cet échec immédiat ?",
+   "Résolution de l'erreur d'âge de 1921 chez Weber : faute de frappe, confusion avec une autre personne, ou visite décalée ?"
+  ]
+ }
+}

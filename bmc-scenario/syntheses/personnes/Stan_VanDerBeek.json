@@ -1,0 +1,216 @@
+{
+ "passe": "personnes",
+ "cle": "Stan VanDerBeek",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2708,
+  "sortie": 6367,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Stan VanDerBeek",
+  "autres_noms": [
+   "Stan Vanderbeek (graphie des fiches EV-04888)",
+   "Stan VanDerBeek (futur cinéaste)"
+  ],
+  "dates_de_vie": "Non données par les fiches. Seuls repères : arrivé au collège en 1949, Movie-Drome dévoilé à l'automne 1966.",
+  "statut_bmc": "Étudiant, arrivé en 1949 (OE-02198 le dit « étudiant au collège »). Il devient plus tard cinéaste, ce que la fiche agrégée signale comme avenir.",
+  "presence": [
+   {
+    "debut": "1949",
+    "fin": "1957",
+    "role": "Étudiant. Arrivée en 1949 bien attestée ; fin « environ 1957 » seulement (PE-00202). Les traces datées de façon sûre s'arrêtent en 1951-1952. Rattaché à la « période de Dawson ».",
+    "refs": [
+     "PE-00202",
+     "EV-04628",
+     "EV-04888",
+     "EV-05454",
+     "OE-02198"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune description du corps ni du visage dans les fiches. Seuls indices matériels : une main de lettreur remarquable, et des plumes de bambou qu'il taille lui-même pour dessiner et écrire (PE-00202, EV-04888). Pour une scène, ces objets et ce geste sont plus sûrs qu'un physique inventé.",
+  "noyau_psychologique": "Attesté : un esprit de découverte « difficile à contenir » (PE-00202, citant Dawson, Molesworth et Duberman). Il fabrique ses propres outils, plumes taillées et presse baptisée One-Thumb Press, et il est à l'aise dans les projets collectifs concrets comme la Minimum House. Déduit : un bricoleur-visionnaire qui passe du petit artisanat (lettrage, carte, presse) à l'utopie de grande échelle (réseau mondial de Movie-Dromes par satellite). Ce qui le fait agir semble être l'envie de relier les gens et les images, avec des moyens modestes.",
+  "blessures": "Rien dans les fiches. À chercher avant d'écrire une vulnérabilité : famille, argent, rapport à sa formation.",
+  "desirs": "Attesté pour l'après-collège : un théâtre d'images qui devienne un réseau planétaire, des Movie-Dromes reliés à des satellites qui stockent et transmettent des images (EV-07853). Attesté au collège : prouver par la pratique qu'on construit bien à bas coût (EV-04219, EV-04628), en tant que membre du groupe. Déduit : il veut être vu et reconnu, ce que suggère la cérémonie de 1966, sans qu'une fiche le dise.",
+  "peurs": "Non documentées. Ne pas en inventer sans source.",
+  "maniere_d_aimer": "Aucune relation amoureuse ou amicale intime n'est documentée. Sa façon de donner est pratique : une carte dessinée à la main pour guider des visiteurs (OE-03752, SC-02034), une carte pour la pièce d'Olson (EV-05454), le travail de groupe sur la maison. Cela reste une inférence.",
+  "rapport_au_pouvoir": "Aucun conflit d'autorité documenté au collège. Il participe à un groupe d'étudiants autogéré qui discute chaque semaine du développement du domaine (PE-00202). Plus tard, il s'impose sans l'institution : il construit et met en scène son propre lieu (Movie-Drome), reconnu par la presse et les pairs. Il fonctionne par fondation de lieux et de réseaux plus que par hiérarchie (inférence).",
+  "voix": {
+   "registre": "Aucune parole rapportée dans les fiches. La voix sera à construire par son œuvre : lettrage soigné, cartes avec indications pratiques (sorties, stations-service, « Blue Note », « The Pottery », bus depuis Manhattan, OE-03752), enthousiasme de découvreur.",
+   "tics": "Aucun tic de langage attesté. Tics gestuels et de style attestés : il taille ses plumes de bambou, dessine des cartes à main levée, soigne le lettrage (PE-00202, EV-04888).",
+   "exemples_paraphrases": [
+    "Pour guider quelqu'un jusqu'au Land, il ne dit pas « suivez la route » mais dessine le trajet : sorties, pompes à essence, bus depuis Manhattan (OE-03752, d'après la fiche) ; paraphrase d'usage, pas une parole attestée.",
+    "Sur son projet : un Movie-Drome n'est que le prototype, il en faudrait partout dans le monde, reliés par des satellites qui stockent et envoient des images (EV-07853) ; formulation déduite de la fiche, pas une citation."
+   ]
+  },
+  "habitudes": [
+   "Il taille lui-même ses plumes de bambou pour dessiner et lettrer (PE-00202, EV-04888).",
+   "Il dessine des cartes à main levée pour guider les visiteurs jusqu'au Land (PE-00202, OE-03752).",
+   "Il se rend chaque semaine à la réunion du groupe d'étudiants en architecture (PE-00202, EV-04628).",
+   "Il donne un nom à sa presse : One-Thumb Press, comme d'autres étudiants baptisent la leur (EV-03737).",
+   "Il travaille la peinture sur bois en séries : A Book of Ours, 12 panneaux de 11 x 7 1/2 pouces, et des photographies (OE-02198, OE-02970)."
+  ],
+  "convictions": [
+   "Un réseau mondial de Movie-Dromes reliés à des satellites est possible et souhaitable (PE-00202, EV-07853).",
+   "Un bon design n'a pas à être cher : conviction du groupe d'étudiants de la Minimum House, dont il fait partie (EV-04219, EV-04628). On ne sait pas si c'est la sienne en propre."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1949",
+    "moment": "Arrivée au collège. Il rejoint dès son arrivée le groupe d'étudiants intéressés par l'architecture.",
+    "etat_interieur": "Curieux, difficile à contenir (attesté) ; disponible pour les projets collectifs (déduit).",
+    "refs": [
+     "PE-00202",
+     "EV-04628",
+     "EV-04219"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Il participe, avec sept ou huit étudiants, à la Minimum House : des après-midi de travail pendant environ un an, pour moins de 1 000 $ (un peu plus, selon Duberman), venus de la mère de Paul Williams. Les pierres sont ramassées dans les bois et la stèle du Dr Jalowetz est maçonnée par erreur dans le mur arrière.",
+    "etat_interieur": "Non documenté. Probablement un apprentissage du faire en collectif, mêlé à la gêne de l'incident macabre, mais c'est une déduction.",
+    "refs": [
+     "EV-04628",
+     "EV-04219"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Il taille ses plumes de bambou pour dessiner et lettrer. Dans le même temps (fourchette ≈1949-1952), des étudiants teignent des cols de chemise blanche en fuchsia ou chartreuse, comme marque de fabrique inspirée du logo du collège, un cercle dans un cercle.",
+    "etat_interieur": "Un artisan fier de ses outils, dans une culture d'étudiants qui aiment les signes distinctifs ; la fiche ne lie pas explicitement VanDerBeek aux cols.",
+    "refs": [
+     "EV-04888",
+     "PE-00202"
+    ]
+   },
+   {
+    "date": "1951",
+    "moment": "Il dessine la carte (« map of moves ») qui illustre Apollonius of Tyana de Charles Olson, pièce pour deux acteurs imprimée et reliée à l'atelier d'imprimerie du collège à l'été 1951.",
+    "etat_interieur": "Reconnu pour sa main de dessinateur et de lettreur par une figure majeure du collège (déduit) ; collaboration artistique concrète.",
+    "refs": [
+     "EV-05454"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Il baptise sa presse One-Thumb Press, parmi les presses des étudiants : Sad Devil, Black Cat, Grapnel, Black Mountain Graphics Workshop. Fourchette large de la fiche : ≈1945-1957.",
+    "etat_interieur": "Esprit d'atelier, humour dans le nom (inférence).",
+    "refs": [
+     "EV-03737"
+    ]
+   },
+   {
+    "date": "1955",
+    "moment": "Dates incertaines pour A Book of Ours (12 panneaux peints sur bois), une fiche donnant 1955→1957, une autre un « 1949-19 » tronqué. Œuvre liée à la période du collège.",
+    "etat_interieur": "Non documenté. L'œuvre est un indice d'un travail de séries et de livre visuel.",
+    "refs": [
+     "OE-02970",
+     "OE-02198"
+    ]
+   }
+  ],
+  "avant": [],
+  "apres": [
+   {
+    "date": "1966",
+    "moment": "Il s'installe au Land (Gate Hill Cooperative, Stony Point, NY) et construit le Movie-Drome à partir du sommet récupéré d'un silo à grains. L'installation est présentée comme un théâtre conceptuel, prototype d'un réseau mondial relié à des satellites.",
+    "refs": [
+     "PE-00202",
+     "EV-07853",
+     "SC-02034"
+    ]
+   },
+   {
+    "date": "1966",
+    "moment": "Dévoilement public du Movie-Drome à l'automne : cinéastes et critiques arrivent en voiture de New York en suivant sa carte. Sont cités Shirley Clarke, Ed Emshwiller, Agnès Varda, Andy Warhol, Annette Michelson. La couverture vient de Newsweek, Film Culture et du Village Voice. Le Movie-Drome devient une icône de l'Expanded Cinema.",
+    "refs": [
+     "SC-02034",
+     "EV-07853",
+     "OE-03752"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Il devient cinéaste. Les fiches ne donnent ni date ni détail de ce passage du dessin et de la peinture au cinéma.",
+    "refs": [
+     "PE-00202"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Charles Olson",
+    "nature": "Collaboration ponctuelle : VanDerBeek dessine la carte de la pièce Apollonius of Tyana, imprimée au collège.",
+    "evolution": "Relation non documentée au-delà de cet objet (été 1951).",
+    "refs": [
+     "EV-05454"
+    ]
+   },
+   {
+    "avec": "Paul Williams et le groupe d'étudiants en architecture",
+    "nature": "Camaraderie de chantier : sept ou huit étudiants construisent la Minimum House ; la mère de Paul Williams finance le projet.",
+    "evolution": "Le groupe se réunit chaque semaine pendant environ un an. On ignore ce que chacun devient ensuite.",
+    "refs": [
+     "EV-04628",
+     "EV-04219",
+     "PE-00202"
+    ]
+   },
+   {
+    "avec": "Autres étudiants imprimeurs (Oppenheimer, Carroll Williams, Jackson, Cernovich)",
+    "nature": "Pairs d'atelier, chacun avec sa presse nommée.",
+    "evolution": "Aucune relation personnelle documentée.",
+    "refs": [
+     "EV-03737"
+    ]
+   },
+   {
+    "avec": "Shirley Clarke, Ed Emshwiller, Agnès Varda, Andy Warhol, Annette Michelson",
+    "nature": "Invités ou témoins de la présentation du Movie-Drome en 1966.",
+    "evolution": "Nature exacte des liens non précisée.",
+    "refs": [
+     "SC-02034"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La Minimum House est datée de 1948 dans EV-04219, mais VanDerBeek n'y figure qu'« en 1949 ». EV-04628 date la construction de 1949 et précise qu'il est arrivé en 1949. Le chantier a pu s'étendre sur deux ans, ou une date est fautive.",
+   "La présence est donnée comme « 1949-1957 environ » (PE-00202), alors que les événements datés de façon sûre le situent entre 1949 et 1951, avec une fourchette ≈1949→1952 pour EV-04888. Ne pas affirmer huit années d'études sans autre source.",
+   "A Book of Ours est daté 1955→1957 (OE-02970) ou « 1949-19 » (OE-02198, date tronquée). Dates incompatibles ou incomplètes.",
+   "La fiche EV-04888 vient de Dawson 1970 et a une fourchette en ≈ : à manier avec prudence. EV-04219 et EV-04628 décrivent le même fait avec de légères différences.",
+   "Orthographes : VanDerBeek et Vanderbeek."
+  ],
+  "situations_revelatrices": [
+   "Un après-midi de chantier, sur la Minimum House : lui parmi les sept ou huit étudiants, des pierres ramassées dans les bois, et la découverte tardive de la stèle de Jalowetz dans le mur.",
+   "Dans l'atelier d'imprimerie, l'été 1951 : lui qui dessine la carte d'Apollonius pour Olson, la plume de bambou taillée à la main.",
+   "Guider des visiteurs par une carte dessinée à main levée, comme en 1966 : sorties, stations-service, bus depuis Manhattan.",
+   "L'automne 1966 : l'ouverture du Movie-Drome, le silo-théâtre, les invités arrivés de New York en voiture, la presse.",
+   "Une scène où les étudiants teignent des cols de chemise blanche en fuchsia ou chartreuse, signe d'appartenance et d'invention (EV-04888)."
+  ],
+  "citations": [
+   "PE-00202",
+   "SC-02034",
+   "EV-03737",
+   "EV-04219",
+   "EV-04628",
+   "EV-04888",
+   "EV-05454",
+   "EV-07853",
+   "OE-02198",
+   "OE-02970",
+   "OE-03752"
+  ],
+  "questions_ouvertes": [
+   "Quelles sont ses dates de naissance et de mort, son origine et sa famille ? Les fiches ne les donnent pas.",
+   "Que faisait-il avant 1949 : formation, métier, éducation ?",
+   "Quand et pourquoi quitte-t-il le collège, et en quelle année exactement ?",
+   "Qui furent ses enseignants et ses amis proches au collège ? Les fiches ne citent que Charles Olson (la carte) et les étudiants de la Minimum House.",
+   "Quel est le passage du dessin et de la peinture au cinéma, et quelles années, quels films, quelles rencontres ?",
+   "Que fait-il entre la fin du collège et 1966 ?",
+   "Que lui a coûté la construction du Movie-Drome, et qui l'a aidé ?",
+   "Quel était son rapport personnel à l'Expanded Cinema et au collège dans ses propos ultérieurs ?"
+  ]
+ }
+}

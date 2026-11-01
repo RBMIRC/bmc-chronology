@@ -1,0 +1,322 @@
+{
+ "passe": "mois",
+ "cle": "1941-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3902,
+  "sortie": 8247,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "avril 1941",
+  "session": "Trimestre de printemps, probablement en cours (déduit : les fiches ne datent pas la session précisément ; cours ramenés au matin et au soir depuis l'automne 1940, après-midi au chantier)",
+  "saison_et_climat": "Printemps dans la vallée de Lake Eden et de Lee Hall, avec des journées parfois torrides (terrassement du 14 avril, attesté par SC-00825), poussière et boue au chantier.",
+  "situation": "Le collège vit encore entièrement sous le toit de Lee Hall, grand bâtiment unique au-dessus de la vallée. Le chantier de Lake Eden, qui doit accueillir le futur campus, avance chaque après-midi : drainage, fossés, fondations. Le bail avec la Blue Ridge Assembly expire en juin, et le propriétaire envisage une école de filles, si bien que le départ est une échéance proche mais le site n'est pas encore habitable (« à peine » en mai, EV-03219).",
+  "presents_probables": [
+   {
+    "nom": "Betty Brett",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Kaye",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Étudiants surnommés « zombies », réticents au chantier",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1941-04-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Betty Brett, étudiante, dirige pour la première fois une équipe au fossé de la ligne de feu ; retour à pied, pioches sur l'épaule.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00825",
+     "CI-01623"
+    ]
+   },
+   {
+    "date": "1941-04-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Après-midi de terrassement torride, suivi d'un bain à l'eau brune ; Betty note qu'elle ne voudrait pas être « creuseuse de fossés ».",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00825"
+    ]
+   },
+   {
+    "date": "1941-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Le chantier d'après-midi fonctionne en ferveur et en querelle : le salut par le travail (Dreier) face à l'agacement de ceux qui chantent sur le chemin du chantier.",
+    "certitude": "deduit",
+    "refs": [
+     "RE-01181",
+     "EV-02990",
+     "EV-03125",
+     "EV-03153",
+     "CF-00322"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "annee",
+    "ce_qui_arrive": "La faculté fixe un maximum conseillé d'un à trois après-midi de chantier par semaine, en réponse aux tensions.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03149",
+     "CF-00317"
+    ]
+   },
+   {
+    "date": "1941-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Expiration du bail avec la Blue Ridge Assembly ; menace de l'école de filles.",
+    "certitude": "atteste",
+    "refs": [
+     "QU-00742",
+     "CF-00291"
+    ]
+   },
+   {
+    "date": "1941-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Le site est habitable « à peine ». Derek Bovington fait la navette en tracteur avec une grande remorque emportant instruments, livres et le chauffage de Lee Hall.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03219",
+     "EV-03220"
+    ]
+   },
+   {
+    "date": "1941-06",
+    "precision": "mois",
+    "ce_qui_arrive": "L'argent manque au point que le travail risque de s'arrêter ; Hall quitte BMC ; la tournée de collecte commence et se prolonge jusqu'en août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03221",
+     "EV-03222",
+     "EV-03223",
+     "CI-01595"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "saison",
+    "ce_qui_arrive": "Été : work camp, début de la grande grange de Kocher et Godfrey, cours d'été (Bentley). Zoya Sandomirsky passe quelques semaines au chantier avant de repartir pour Chicago après l'épisode de la fontaine d'Asheville.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03146",
+     "EV-03147",
+     "SC-00804",
+     "SC-00805"
+    ]
+   },
+   {
+    "date": "1941-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers est à New York pour son atelier du MoMA.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03225"
+    ]
+   },
+   {
+    "date": "1941-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rentrée repoussée de deux semaines, dans des bâtiments à moitié finis ; Albers évoque la différence avec Harvard à la première assemblée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03226",
+     "SC-00826",
+     "CI-01624"
+    ]
+   },
+   {
+    "date": "1941-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le collège suspend son calendrier pour le toit du Studies Building ; Richard Carpenter cloue toute la journée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "periode",
+    "ce_qui_arrive": "Pearl Harbor : incrédulité au collège, radio apportée au dîner, débat étudiant entre pacifistes et partisans de la guerre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00831",
+     "EV-03235",
+     "EV-03142",
+     "SC-00801"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Mark Dreier, fils de Theodore, meurt dans un accident de véhicule sur le campus ; la Quiet House sera bâtie en sa mémoire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03173",
+     "LI-00697"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "ce_qui_arrive": "Richard Carpenter meurt d'un cancer du poumon environ un an après le toit (déduit).",
+    "certitude": "deduit",
+    "refs": [
+     "EC-01752"
+    ]
+   }
+  ],
+  "quotidien": "Matin : cours. Après-midi : chantier volontaire à Lake Eden, pioches, fossés, terrassement, avec chansons en marchant et bains dans l'eau brune. Tout le monde dort encore à Lee Hall. Les repas, la vie domestique et les activités de soirée ne sont pas attestés pour avril.",
+  "tensions": [
+   "Le chantier est à la fois ferveur (salut par le travail, Dreier) et querelle (surnom de « zombies », agacement face aux chansons).",
+   "Lucidité de classe : Betty Brett voit l'écart entre l'élite intellectuelle et le travail de terrassement.",
+   "Menace du bail : le départ de Lee Hall est imposé par le propriétaire, le site n'est pas prêt.",
+   "Fragilité financière annoncée pour juin, qui risque d'arrêter le chantier.",
+   "Une fiche (EV-03157, version Lane) lie le déménagement au départ de Thomas, ce qui contredit le reste ; on retient mai-juin."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Retour de chantier de Betty Brett, chef d'équipe",
+    "date": "1941-04-08",
+    "lieu": "chantier de Lake Eden",
+    "personnages": [
+     "Betty Brett",
+     "Kurtz",
+     "Kaye"
+    ],
+    "deroule": "Betty dirige pour la première fois une équipe au fossé de la ligne de feu ; conversations digressives ; retour à pied, pioches sur l'épaule, chemise de flanelle dressée ; le 14, après-midi de terrassement torride, bain à l'eau brune.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00825"
+    ]
+   },
+   {
+    "titre": "Soirée à Lee Hall : chansons du chemin contre fatigue du chantier",
+    "date": "1941-04",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "étudiants du chantier",
+     "étudiants dits « zombies »"
+    ],
+    "deroule": "Au retour, des groupes chantent sur le chemin ; les plus réticents s'agacent, les partisans du chantier défendent le salut par le travail ; la question du maximum d'après-midi de chantier monte.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03149",
+     "CF-00317",
+     "EV-03153",
+     "CF-00322",
+     "RE-01181"
+    ]
+   },
+   {
+    "titre": "Dreier défend le chantier comme salut",
+    "date": "1941-04",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "Theodore Dreier"
+    ],
+    "deroule": "Dreier, en tête du camp du travail, plaide pour l'effort manuel face aux sceptiques, dans un collège encore réuni sous un seul toit.",
+    "certitude": "deduit",
+    "refs": [
+     "RE-01181",
+     "LI-00691"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Betty Brett, en avril 1941, sur le fossé de la ligne de feu, pioche en main",
+    "vers_date": "1940-09",
+    "vers": "Début du chantier volontaire à l'automne 1940, quand les cours sont ramenés au matin et au soir et que les après-midi deviennent chantier.",
+    "refs": [
+     "EV-02990",
+     "EV-03125"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le tracteur de Bovington et la remorque chargée de Lee Hall",
+    "vers_date": "1941-05",
+    "vers": "Navette de mai-juin : instruments, livres et chauffage de Lee Hall emportés vers Lake Eden, source de l'irritation de la Blue Ridge Assembly.",
+    "refs": [
+     "EV-03220"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le bail de la Blue Ridge Assembly qui expire en juin",
+    "vers_date": "1941-06",
+    "vers": "Départ de Lee Hall et de Hall ; l'argent manque, la tournée de collecte part jusqu'en août.",
+    "refs": [
+     "EV-03221",
+     "EV-03222",
+     "QU-00742"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La question du maximum d'après-midi de chantier, en avril",
+    "vers_date": "1941-09",
+    "vers": "Rentrée de fin septembre dans des bâtiments à moitié finis, et première assemblée où Albers parle de changement et d'un « autre collège ».",
+    "refs": [
+     "EV-03226",
+     "SC-00826",
+     "CI-01626"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les soirs de Lee Hall, où la mort de Mark Dreier n'est pas encore datée",
+    "vers_date": null,
+    "vers": "Mark Dreier meurt dans un accident sur le campus ; la Quiet House sera bâtie à la main par Alex Reed et Molly Gregory.",
+    "refs": [
+     "EV-03173",
+     "LI-00697"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les nouvelles de la guerre encore lointaines pour le collège en avril",
+    "vers_date": "1941",
+    "vers": "Pearl Harbor ouvre la dernière partie de l'année : radio au dîner, débat entre pacifistes et partisans de la guerre.",
+    "refs": [
+     "SC-00831",
+     "EV-03235",
+     "EV-03142"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le travail manuel comme salut ou comme corvée",
+   "Élite intellectuelle et classe ouvrière, vue de l'intérieur",
+   "Lee Hall comme maison commune en train de se défaire",
+   "Argent et survie du collège comme horizon constant",
+   "Chanson et fatigue sur le chemin du chantier"
+  ],
+  "lacunes": "La session exacte d'avril n'est pas datée. Le moment précis des chansons et des tensions sur le chemin reste non daté dans les fiches. Les fiches ne disent pas où étaient Albers, Kocher et Stoller en avril. La date de la mort de Mark Dreier est inconnue. Les anecdotes du chantier (wagon de charbon, sciage des pieux, incendie, tempête) ne sont datées que de 1940-1942. La version Lane (EV-03157) contredit le reste sur le lien avec Thomas. Les repas et la vie domestique d'avril ne sont pas documentés."
+ }
+}

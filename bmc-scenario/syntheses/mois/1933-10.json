@@ -1,0 +1,317 @@
+{
+ "passe": "mois",
+ "cle": "1933-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 8806,
+  "sortie": 15948,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1933-10",
+  "session": "Premier trimestre d'automne 1933, ouvert le 25 septembre à Lee Hall ; le collège n'a qu'un mois d'existence.",
+  "saison_et_climat": "Automne des Blue Ridge Mountains (Caroline du Nord). La fiche de la randonnée décrit des bois silencieux, des passages froids sans soleil sous les arbres, de la brume au sommet et des nuits hachées d'aboiements (SC-00559, EV-02188).",
+  "situation": "Le collège vit ses premières semaines. Lounsbury est mort le 16 octobre et la faculté se réduit à Rice, Dreier et Georgia, qui rédigent les statuts adoptés le 28 octobre (Georgia devient recteur). Albers et Anni ne sont pas encore là : ils restent en Europe jusqu'à leur arrivée à New York le 24 novembre, si bien que la classe d'art, pourtant centrale, n'a pas encore commencé. Les séminaires du soir fonctionnent et les répétitions de Congreve commencent.",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier (trésorier, cofondateur)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Georgia (recteur à partir du 28 octobre ; lit une déclaration le 20 octobre)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frank Rice (fils de Rice, randonnée de Craggy Dome)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Doughten Cramer (étudiant, randonnée de Craggy Dome)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Lounsbury (présent jusqu'à sa mort le 16 octobre)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nat French (student moderator)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Enseignants élus Evarts, Martin, Hinckley, Boyden, Loram, Zastrow et Keith",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Une vingtaine d'étudiants, dont treize ou quatorze venus de Rollins",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1933-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Randonnée de Doughten Cramer et Frank Rice à Craggy Dome : perdus, sommet vers 17h, retour au collège vers 21h après environ 26 miles. Ils en ressortent fatigués et prêts à recommencer deux jours plus tard.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02188",
+     "SC-00559"
+    ]
+   },
+   {
+    "date": "1933-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Un rapport public exonère Pace et blâme Holt à Rollins. La date d'octobre contredit le chapitre, qui place le rapport officiel de l'AAUP en novembre (voir tensions).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02189"
+    ]
+   },
+   {
+    "date": "1933-10-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Robert Lounsbury meurt brutalement d'une attaque. La communauté est profondément touchée et la faculté se réduit à trois hommes pour rédiger les statuts.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02190"
+    ]
+   },
+   {
+    "date": "1933-10-20",
+    "precision": "jour",
+    "ce_qui_arrive": "Service commémoratif pour Lounsbury à Black Mountain ; Georgia y lit une déclaration dactylographiée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02191"
+    ]
+   },
+   {
+    "date": "1933-10-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Adoption des statuts (Bylaws), d'environ six pages : Board of Fellows gérant les affaires, faculté entière pour l'éducation, Advisory Council purement consultatif, secrétaire et trésorier élus, recteur révocable élu par la faculté (Georgia, et non Rice, à cause de l'AAUP). Les titulaires en place sont protégés.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02192",
+     "EV-02193",
+     "EV-02194"
+    ]
+   },
+   {
+    "date": "1933-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Répétitions de The Way of the World de Congreve dans le séminaire sur le XVIIIe siècle, Rice compris, ses répliques écrites sur un rouleau. La représentation est prévue vers Noël.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1933 (synthèse)"
+    ]
+   },
+   {
+    "date": "1933-11-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Arrivée des Albers à New York sur l'Europa, sous les flashs des reporters, puis week-end chez les parents Dreier à Brooklyn Heights avant la Caroline du Nord.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1933 (synthèse)"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Publication du rapport officiel de l'AAUP sur Rollins, qui sera retiré de la liste le 31 décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1933 (synthèse)"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board décide de loger en ville un étudiant noir venu avec un groupe de visiteurs, sans consulter les étudiants. Une pétition de onze étudiants exige une réunion.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1933 (synthèse)"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Proposition d'une ferme par les étudiants, votée à l'unanimité. Molesworth la date de novembre, Duberman de la mi-année.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1933 (synthèse)"
+    ]
+   },
+   {
+    "date": "1933-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Représentation de The Way of the World vers Noël.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1933 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Lee Hall abrite une vingtaine d'étudiants et une dizaine d'enseignants ; les familles avec jeunes enfants occupent les cottages. On discute encore de tout : petit-déjeuner, étages séparés pour hommes et femmes, nombre de repas du dimanche (deux ou trois), tarifs de la buanderie. Les enseignants sont élus sans salaire, logés et nourris seulement. Trois séminaires interdisciplinaires du soir tournent (Philosophies of Social Reconstruction, Creative Writing, The Eighteenth Century). Les étudiants partent en randonnée dans la montagne. Le village observe la communauté et lui prête amour libre et nudisme (shorts, sandales) ; la règle de la chambre tranche le sujet : mélange libre tant qu'il n'y a pas de draps sur le lit pliant.",
+  "tensions": [
+   "Deux sources datent différemment le rapport sur Rollins : EV-02189 le place en octobre, le chapitre en novembre, avec une version préliminaire en mai ; à noter comme divergence.",
+   "L'AAUP n'a pas tranché sur Rice : Georgia est recteur par précaution, ce qui laisse Rice en retrait d'une autorité qu'il estime lui revenir.",
+   "Les trois fondateurs concentrent le pouvoir après la mort de Lounsbury, alors que les statuts se veulent collectifs.",
+   "Le budget annuel est estimé à environ 32 000 $, et les enseignants travaillent sans salaire.",
+   "Dans le village, on soupçonne la communauté de dérives morales ; dans la montagne, les habitants sont méfiants et leurs chiens agressifs (SC-00559).",
+   "Le Board et les étudiants s'opposent sur la manière de loger un étudiant noir ; la pétition de novembre est le premier signe de ce conflit.",
+   "Le titre de Georgia est disputé (pancarte « president » contre le compromis « rector »)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La montée de Craggy Dome",
+    "date": "1933-10",
+    "lieu": "Vallée de Sugar Fork, Craggy Dome",
+    "personnages": [
+     "Doughten Cramer",
+     "Frank Rice",
+     "le garde et son compagnon",
+     "« Pa » et sa famille"
+    ],
+    "deroule": "Partis le matin, les deux étudiants se perdent devant une maison assiégée de chiens. Pa leur donne des indications farfelues. Ils traversent trois fois le ruisseau Sugar Fork, montent une échelle à 45 degrés, atteignent le sommet vers 17h, redescendent vite et sont reçus par un garde qui les invite à une chasse à l'ours. Ils marchent la nuit au milieu des aboiements de toute la vallée, font du stop et arrivent au collège à 21h.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00559",
+     "EV-02188"
+    ]
+   },
+   {
+    "titre": "Le service pour Lounsbury",
+    "date": "1933-10-20",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Georgia",
+     "la faculté restante",
+     "les étudiants"
+    ],
+    "deroule": "Georgia lit une déclaration dactylographiée devant une communauté qui vient de perdre un de ses membres. Rice dira plus tard que tous s'étaient attachés à lui sans le savoir. Le groupe, réduit à trois fondateurs, doit désormais rédiger seul les statuts.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02191",
+     "EV-02190"
+    ]
+   },
+   {
+    "titre": "Les statuts à trois",
+    "date": "1933-10-28",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rice",
+     "Dreier",
+     "Georgia"
+    ],
+    "deroule": "Les trois fondateurs codifient en six pages les discussions des semaines précédentes. Ils décident d'un Board of Fellows, d'un recteur révocable (Georgia, parce que Rice reste sous le coup de l'enquête de l'AAUP), d'un Advisory Council sans pouvoir, et protègent les titulaires en place. Le résumé de ces règles tient en une formule : less is more, mais le pouvoir se concentre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02192",
+     "EV-02194"
+    ]
+   },
+   {
+    "titre": "Répétitions de Congreve",
+    "date": "1933-10",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "les étudiants du séminaire sur le XVIIIe siècle"
+    ],
+    "deroule": "Les répétitions de The Way of the World commencent dès octobre. Rice y tient un rôle, répliques inscrites sur un rouleau. La représentation est prévue vers Noël.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1933 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "En octobre, Rice, qui vient de quitter Rollins et d'emballer ses affaires",
+    "vers_date": "1933-06",
+    "vers": "Juin 1933 : Rice jette ses affaires dans des cartons, puis le récit bascule vers l'ouverture du collège.",
+    "refs": [
+     "EC-01261"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "En octobre, les Albers sont encore en Europe, avant leur traversée sur l'Europa",
+    "vers_date": "1933",
+    "vers": "Leurs douze années d'expérimentation au Bauhaus et sa fermeture plutôt que d'accepter des professeurs nazis ; le mot « pionnier » de Dreier résonne avec ce passé.",
+    "refs": [
+     "EC-01015"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rice, en octobre, au moment où il fonde le collège",
+    "vers_date": "1933",
+    "vers": "La rencontre avec Johnson au MoMA, où se décide l'invitation faite à Albers.",
+    "refs": [
+     "EC-01014"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1933 : Rice et Dreier viennent d'adopter les statuts",
+    "vers_date": null,
+    "vers": "La structure communautaire du collège est la réponse directe aux abus décrits dans le rapport de l'AAUP sur Rollins.",
+    "refs": [
+     "EC-01262",
+     "EV-02192"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1933, Cramer en pleine randonnée et en pleine découverte du collège",
+    "vers_date": null,
+    "vers": "Cramer apprendra plus tard la cruauté de Rice dans le débat intellectuel.",
+    "refs": [
+     "EC-01295"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1933, le premier trimestre",
+    "vers_date": null,
+    "vers": "Le collège ouvre avec plus de simplicité et d'aisance que ce qu'il connaîtra pendant la plupart de ses années suivantes.",
+    "refs": [
+     "EC-01296"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "En octobre, avant l'arrivée d'Albers, qui enseignera à partir de novembre",
+    "vers_date": null,
+    "vers": "Plus de trente ans plus tard, Rice affirme ne pas passer un jour sans que ses yeux disent Albers.",
+    "refs": [
+     "EC-01016"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le quotidien de Lee Hall en octobre 1933",
+    "vers_date": null,
+    "vers": "Moellenhoff portant huit tasses de café devient, dans les récits des anciens, l'emblème du cadre d'apprentissage.",
+    "refs": [
+     "EC-01298"
+    ]
+   }
+  ],
+  "motifs": [
+   "less is more : une structure minimale qui concentre pourtant le pouvoir",
+   "l'ombre de Rollins et la réponse communautaire aux abus d'autorité",
+   "la montagne comme éducatrice parallèle au collège",
+   "l'art au centre du cursus, en attendant Albers",
+   "la vie ordinaire comme laboratoire : repas, buanderie, lit pliant, visites de chambres"
+  ],
+  "lacunes": "On ignore le jour exact de la randonnée de Craggy Dome et la date précise du rapport Lovejoy-Edwards (octobre selon EV-02189, novembre selon le chapitre). On ne sait pas si Lounsbury était au collège le jour de sa mort. Les fiches ne disent pas quelles étaient, en octobre, les activités précises de Wunsch, retenu par des raisons familiales. Le contenu exact des séminaires du soir n'est pas documenté pour ce mois, et la date de la ferme reste contestée."
+ }
+}

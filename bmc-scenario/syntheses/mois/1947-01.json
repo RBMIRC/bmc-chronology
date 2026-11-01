@@ -1,0 +1,154 @@
+{
+ "passe": "mois",
+ "cle": "1947-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5091,
+  "sortie": 8697,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "janvier 1947 (1947-01)",
+  "session": "Session d'hiver, sous l'ancien découpage en semestres (déduit : mention des « cinq étudiantes noires de l'hiver » et passage au calendrier en trimestres seulement le 18 mars 1947)",
+  "saison_et_climat": "Hiver. Les fiches ne décrivent pas le temps à Black Mountain. À La Luz, au Nouveau-Mexique, c'est le désert, un ciel bleu et l'isolement (SC-01008).",
+  "situation": "Le collège se gouverne sans son pilier. Josef et Anni Albers sont en sabbatique et passent l'hiver dans une maison d'adobe à La Luz (EV-03979, EV-03980). Ted Dreier est rector nominal mais absent, et Molly Gregory dirige de fait. Le débat sur la nature du lieu, collège ou communauté, dure depuis deux ans sans trancher. La démission de Wallen, celle de Niebyl et la réorganisation Levi-Rondthaler ne sont pas encore survenues ; elles arrivent dans les mois suivants. La question raciale est ouverte, et la ville est hostile aux étudiants noirs présents.",
+  "presents_probables": [
+   {
+    "nom": "Bill Levi",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Howard Rondthaler",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Niebyl",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Les cinq étudiantes noires de l'hiver (non nommées)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1946-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Les Albers s'installent à La Luz, en route vers le Mexique pour leur année sabbatique. Josef se remet à peindre intensément, loin de l'enseignement et de l'administration.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03979",
+     "EV-03980"
+    ]
+   },
+   {
+    "date": "1947-01",
+    "precision": "mois",
+    "ce_qui_arrive": "La faculté continue de débattre de la nature du lieu, collège ou communauté, débat qui dure depuis deux ans.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1947 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire de janvier 1947. On peut seulement inférer que les cours de l'ancien calendrier se donnent encore, que l'équipe de direction actuelle ne tient pas encore les rênes et que les étudiants noires vivent presque reclus dans une ville hostile.",
+  "tensions": [
+   "Collège ou communauté : le débat sur la nature du lieu n'est pas tranché depuis deux ans",
+   "Gouvernance : Molly Gregory dirige de fait pendant que Dreier, rector nominal, est absent",
+   "Conflit d'héritage : Molly Gregory est considérée comme propriété d'Albers et de Dreier, et Albers l'accuse de l'avoir vendu",
+   "Argent : toute la gouvernance tient à l'hypothèque de second rang de 16 500 $ détenue par les Dreier",
+   "Racisme : l'admission reste en pratique fermée, et les étudiants noirs subissent l'hostilité de la ville"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La maison d'adobe de La Luz, hiver 1946-1947",
+    "date": "1946-12",
+    "lieu": "La Luz, Nouveau-Mexique",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Les Albers occupent la maison d'adobe. Josef écrit à Perdekamp qu'ils retrouvent enfin la paix, loin de l'éducation et de l'administration, et il s'impose une diète picturale stricte. Il peint jour et nuit et rend compte de ses découvertes sur les couleurs.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01008"
+    ]
+   },
+   {
+    "titre": "La paix de La Luz",
+    "date": "1946-12",
+    "lieu": "La Luz, Nouveau-Mexique",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Depuis la maison d'argile, Josef écrit à son ami Perdekamp que le couple peut enfin penser à lui-même. La scène pose le départ du pédagogue et la naissance du peintre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01009"
+    ]
+   },
+   {
+    "titre": "Débat sur la nature du lieu",
+    "date": "1947-01",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Bill Levi",
+     "Howard Rondthaler",
+     "John Wallen"
+    ],
+    "deroule": "Une réunion de faculté reprend la question collège ou communauté. Les participants nommés sont inférés depuis les fiches et ne sont pas attestés pour janvier.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1947 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Janvier 1947, Albers à La Luz, dans sa diète de peinture",
+    "vers_date": "1920",
+    "vers": "Les années 1920, âge d'or de l'avant-garde et du Bauhaus, que Goodman compare à l'après-1945 : confiance pacifique d'un côté, angoisse atomique de l'autre.",
+    "refs": [
+     "EC-02186"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1947, pendant le sabbatique de Josef Albers",
+    "vers_date": "1947-03-18",
+    "vers": "La faculté adopte le calendrier en trimestres de Hansgirg. À la mi-mars, Wallen remet sa démission, et Ted Dreier revient et soutient l'élection de Levi comme recteur.",
+    "refs": [
+     "chapitre 1947 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1947, pendant le sabbatique de Josef Albers",
+    "vers_date": "1947-05",
+    "vers": "Albers, encore au Mexique, demande une prolongation de son congé. Levi lui répond que l'année a été rude et que ses étudiants seraient perdus sans lui. Albers annote cette lettre comme en partie une réponse du Board le 24 mai.",
+    "refs": [
+     "chapitre 1947 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "La diète de peinture et la métamorphose du pédagogue en peintre",
+   "Collège ou communauté : un débat qui ne se résout pas",
+   "La gouvernance tenue par l'hypothèque des Dreier",
+   "L'exclusion raciale et l'hostilité de la ville",
+   "L'absence du pilier fondateur qui hante la direction"
+  ],
+  "lacunes": "Les fiches ne donnent aucun événement daté de janvier 1947 hors de l'hiver sabbatique des Albers. On ignore la date exacte de la démission de Molly Gregory, de l'arrestation de Leo Krikorian, du départ de Lowinsky et de l'intervention d'Arthur Penn, ainsi que la présence effective de Levi, Rondthaler, Wallen et Niebyl en janvier. Les sources se contredisent sur la date d'acceptation du rectorat par Albers (1947 ou 1948), sur la fin de l'enseignement de Wallen (1947-48 ou été 1948) et sur la date de l'arrivée des Albers au Mexique (fin avril ou 1er mai)."
+ }
+}

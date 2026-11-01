@@ -1,0 +1,278 @@
+{
+ "passe": "personnes",
+ "cle": "Sally Woodbridge",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5022,
+  "sortie": 3083,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Sally Woodbridge",
+  "autres_noms": [
+   "Sally Woodbridge (née c. 1930)"
+  ],
+  "dates_de_vie": "née en 1930 ; date de décès non connue des fiches",
+  "statut_bmc": "Aucune fiche n'atteste un séjour à Black Mountain College : son parcours documenté commence avant (Fulbright, Princeton), mais toutes les scènes datées se situent à San Francisco, dans l'orbite de Ruth Asawa. Statut BMC : non établi — à vérifier si le scénario en fait une anciennne du collège.",
+  "presence": [
+   {
+    "debut": null,
+    "fin": null,
+    "precision": "inconnue",
+    "role": "aucune présence attestée dans les fiches ; à confirmer par d'autres sources",
+    "refs": [
+     "PE-00089",
+     "RE-02909"
+    ]
+   }
+  ],
+  "portrait_physique": "Photographiée en 1966 par Imogen Cunningham aux côtés de son mari John et de leurs enfants ; aucun détail physique précis dans les fiches.",
+  "noyau_psychologique": "Artiste-mère et historienne de l'art qui refuse le sacrifice binaire entre famille et création : elle transforme la cuisine, l'école du quartier et la maison entière en ateliers. Intellectuelle formée (histoire de l'art, Fulbright) blessée par les portes fermées des institutions, elle tire son énergie de la récupération, du bricolage collectif et de l'écriture — tournant systématiquement ce que les institutions rejettent en matière neuve.",
+  "blessures": "Princeton refuse l'inscription des femmes : elle se retrouve cantonnée à la bibliothèque pendant que son mari étudie. Vingt ans plus tard, sa thèse de doctorat sur Julia Morgan est rejetée à Berkeley — par la seule femme du jury, spécialiste de Morgan. Divorce d'un mari souvent en voyage.",
+  "desirs": "Faire de l'art sans renoncer à la maternité ; faire entrer les parents, et surtout les mères artistes, dans l'école publique ; sauver l'architecture victorienne du mépris moderniste ; être reconnue comme historienne de l'architecture californienne.",
+  "peurs": "L'effacement intellectuel — être réduite au rôle d'épouse de dessinateur ou de bénévole scolaire ; que la contribution des mères ne soit jamais « une idée acceptable ».",
+  "maniere_d_aimer": "Elle aime en construisant avec : amitiés de travail (chasses aux matériaux avec Asawa), famille intégrée à l'œuvre (chaise haute peinte au portrait de Diana, enfants dessinés par Asawa), et même après le divorce, co-signature continue de livres avec son ex-mari.",
+  "rapport_au_pouvoir": "Pragmatique et pénétrante : elle sait que les institutions (universités, district scolaire) excluent, alors elle contourne — négociation directe avec l'administration scolaire en 1968, obtention de salaires pour les coordinatrices en 1972, presse grand public (Ladies'Home Journal) comme levier.",
+  "voix": {
+   "registre": "Vive, lettrée, ironique et concrète à la fois ; enthousiasme perceptible jusque dans son journal privé",
+   "tics": "Noter au journal les trouvailles avec excitation ; formuler des paradoxes théorie/pratique",
+   "exemples_paraphrases": [
+    "Ces formes municipales jetées feraient un Brancusi de n'importe qui",
+    "L'atelier, en théorie à part — en pratique il envahit toute la maison",
+    "L'architecture victorienne enjambe toutes les clôtures idéologiques",
+    "À l'époque, l'idée que des parents changent les programmes scolaires n'était simplement pas acceptable"
+   ]
+  },
+  "habitudes": [
+   "Tient un journal",
+   "Récupération de matériaux (patterns en bois municipaux)",
+   "Claybake annuel de Noël avec Asawa, pâte à modeler culinaire (baker's clay) et presse-ails pour sculptures",
+   "Peintures murales dans sa cuisine de Berkeley"
+  ],
+  "convictions": [
+   "Refus du cliché de l'artiste sacrifiant la famille à l'art (à la Edward Weston)",
+   "« Victorien » désigne une période, pas un style ; sauver les maisons victoriennes du modernisme",
+   "L'art et l'architecture sont « recousus de morceaux locaux et importés du passé »",
+   "Les parents doivent entrer dans les écoles, pas attendre que les enfants rentrent"
+  ],
+  "arc_bmc": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Aucun événement au collège attesté dans les fiches ; son arc documenté se joue à San Francisco (voir « après » et « relations »).",
+    "etat_interieur": null,
+    "refs": [
+     "PE-00089"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "Naissance",
+    "refs": [
+     "PE-00089"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Diplômée d'histoire de l'art, puis Fulbright en France où elle rencontre son futur mari, dessinateur dans un cabinet d'architecture",
+    "refs": [
+     "PE-00089",
+     "EV-00473"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Princeton : l'université fermée aux femmes ; elle travaille à la bibliothèque tout en participant à la vie intellectuelle",
+    "refs": [
+     "EV-00473"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1961-02",
+    "precision": "mois",
+    "moment": "Fin février : chasse aux patterns en bois municipaux avec Asawa — formes de bornes incendie destinées à la fonte, « qui feraient un Brancusi de n'importe qui »",
+    "refs": [
+     "SC-01953",
+     "EV-00044",
+     "CI-03701"
+    ]
+   },
+   {
+    "date": "1964-12",
+    "precision": "mois",
+    "moment": "Fait venir le Ladies'Home Journal au claybake de Noël chez Asawa ; le reportage fait entrer « baker's clay » dans l'usage",
+    "refs": [
+     "EV-07736"
+    ]
+   },
+   {
+    "date": "1965",
+    "precision": "annee",
+    "moment": "Peint le portrait grandeur nature de sa fille Diana sur une chaise haute en bois récupérée, assiette de petits pois entre les mains",
+    "refs": [
+     "OE-03673",
+     "PE-00089"
+    ]
+   },
+   {
+    "date": "1966",
+    "precision": "annee",
+    "moment": "Photographiée par Cunningham avec son mari John et leurs enfants",
+    "refs": [
+     "PE-00089"
+    ]
+   },
+   {
+    "date": "1968",
+    "precision": "annee",
+    "moment": "Co-fondation de l'Alvarado School Arts Workshop avec Asawa : douzaine de mères artistes, programme pilote d'été accepté par l'administration (cafétéria prêtée)",
+    "refs": [
+     "EV-00474",
+     "EV-08004",
+     "EV-08013",
+     "EV-08058",
+     "SC-02065"
+    ]
+   },
+   {
+    "date": "1970",
+    "precision": "annee",
+    "moment": "Céramique « Europa and the Bull », réappropriation ironique des mythes patriarcaux dans la lignée d'Asawa ; l'Alvarado Mosaic Mural salué par la NEA",
+    "refs": [
+     "OE-03916",
+     "EV-08013"
+    ]
+   },
+   {
+    "date": "1972",
+    "precision": "annee",
+    "moment": "Les parent coordinators, jusque-là bénévoles, sont désormais payées (200 dollars/mois)",
+    "refs": [
+     "EV-08230"
+    ]
+   },
+   {
+    "date": "1973",
+    "precision": "annee",
+    "moment": "Documente et présente la San Francisco Fountain (1971-1973, œuvre collective non signée) dans un livre de 1973 ; co-auteure avec Joan Abrahamson d'un texte sur l'éducation artistique",
+    "refs": [
+     "EV-08211",
+     "RE-03107",
+     "PE-00089"
+    ]
+   },
+   {
+    "date": "1974",
+    "precision": "annee",
+    "moment": "Ses carrés figurent dans le quilt collectif offert à Asawa pour ses 48 ans, avec au centre la recette de la pâte à sel (« 1 botte d'enfants »)",
+    "refs": [
+     "EV-08300"
+    ]
+   },
+   {
+    "date": "1977",
+    "precision": "annee",
+    "moment": "Le film de Snyder montre le Workshop (8 min sur 28) qu'Asawa, avec Woodbridge, voulait diffuser nationalement",
+    "refs": [
+     "EV-08426"
+    ]
+   },
+   {
+    "date": "1978",
+    "precision": "annee",
+    "moment": "Co-écrit Victoria's Legacy ; habite une Queen Anne à Noe Valley",
+    "refs": [
+     "PE-00089"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Divorce, puis doctorat à UC Berkeley sur Julia Morgan — thèse rejetée par la seule femme du jury, spécialiste de Morgan ; publie ensuite trois livres sur l'architecture de la Bay Area (interview de 1980 : le Workshop fut « une manière de s'identifier soi-même »)",
+    "refs": [
+     "EV-00477",
+     "EV-07773",
+     "CI-04278"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Ruth Asawa",
+    "nature": "amitié voisine (Noe Valley, mêmes écoles), collaboration artistique et pédagogique",
+    "evolution": "Des chasses aux matériaux et claybakes des années 1960 à la co-fondation de l'Alvarado School Arts Workshop (1968) et au livre sur la San Francisco Fountain (1973) ; Woodbridge historicise l'architecture victorienne qui cadre le studio-maison d'Asawa",
+    "refs": [
+     "RE-02081",
+     "RE-02909",
+     "RE-02981",
+     "RE-03095",
+     "RE-03096",
+     "RE-03098",
+     "RE-03107"
+    ]
+   },
+   {
+    "avec": "John Woodbridge (mari)",
+    "nature": "mariage",
+    "evolution": "Rencontré en France (Fulbright), dessinateur ; souvent en voyage, divorce — mais ils continuent de co-signer des livres d'histoire de l'architecture",
+    "refs": [
+     "PE-00089",
+     "EV-00477"
+    ]
+   },
+   {
+    "avec": "Administration scolaire (Herbert Simon, Verla Leonard, directeur d'Alvarado)",
+    "nature": "négociation institutionnelle",
+    "evolution": "Proposition du programme d'été 1968 couronnée de succès : cafétéria puis cour prêtées, programme pérennisé et payé dès 1972",
+    "refs": [
+     "SC-02065",
+     "EV-08058",
+     "EV-08230"
+    ]
+   },
+   {
+    "avec": "Ses enfants (Larry, Diana, Pamela)",
+    "nature": "maternité créatrice",
+    "evolution": "Dessinés par Asawa (v. 1963-1964) ; Pamela au claybake de 1964 ; Diana immortalisée sur la chaise haute peinte (1965)",
+    "refs": [
+     "PE-00089",
+     "EV-07736",
+     "OE-03673"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Le Workshop compte selon les fiches « plusieurs autres mères » (EV-00474), « une douzaine de femmes » (EV-08013) ou est fondé par les seules Asawa et Woodbridge (EV-08004) : nuancer selon les sources, la fondation est collective mais Asawa-Woodbridge en sont les figures publiques.",
+   "Aucune fiche n'établit un lien direct entre Woodbridge et Black Mountain College alors que le dossier la demande : soit le lien est ailleurs (non documenté ici), soit le personnage relève du contrepoint californien."
+  ],
+  "situations_revelatrices": [
+   "La fouille nocturne ou vespérale des décharges municipales, journal en poche",
+   "La cuisine envahie par la pâte à sel et les peintures murales, théorie contre pratique",
+   "La réunion avec l'administration scolaire : politesse d'artiste-mère contre institution incrédule",
+   "Le rejet de thèse à Berkeley : vingt ans après Princeton, la même porte fermée",
+   "Le claybake sous l'objectif du Ladies'Home Journal"
+  ],
+  "citations": [
+   "CI-02255",
+   "CI-02456",
+   "CI-03251",
+   "CI-03701",
+   "CI-04278"
+  ],
+  "questions_ouvertes": [
+   "A-t-elle fréquenté Black Mountain College (étudiante, été, visite) ? Rien dans les fiches ne le dit.",
+   "Dates et circonstances de son mariage, du divorce, et de la naissance de ses trois enfants.",
+   "Le contenu complet de son journal : autres scènes des années 1950-1960 avec Asawa.",
+   "Sa vie après 1980 et sa date de décès.",
+   "Le détail du rejet de thèse : quels arguments, quelle réaction personnelle documentée ?"
+  ]
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "passe": "mois",
+ "cle": "1956-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3343,
+  "sortie": 8812,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1956-06",
+  "session": "Dernière session d'été, de juin à août 1956 (dates exactes non précisées par les fiches)",
+  "saison_et_climat": "Début de l'été à Black Mountain, près d'Asheville. Le climat n'est pas décrit dans les fiches ; le kudzu et le manque d'électricité n'apparaissent qu'en fin d'année.",
+  "situation": "Le collège est en fin de vie. Il n'a plus d'organisation formelle ni de rituels, les rôles d'enseignant et d'étudiant se sont effacés, et les inscriptions sont réduites. La décision de fermer n'est pas encore prise ce mois-ci ; elle ne sera annoncée qu'en octobre. Le statut GI est perdu et les dettes absorbent presque tout l'argent.",
+  "presents_probables": [
+   {
+    "nom": "Robert Duncan",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Gerald Van de Wiele",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rumaker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jonathan Williams",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jake (étudiant menaçant, identité incertaine)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956-05-22",
+    "precision": "periode",
+    "ce_qui_arrive": "Rauschenberg expose à la Fifth Annual Exhibition de la Stable Gallery à New York, jusqu'à mi-juin. L'événement se joue loin du campus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06848"
+    ]
+   },
+   {
+    "date": "1956-06",
+    "precision": "session",
+    "ce_qui_arrive": "Duncan met en scène, pendant la dernière session d'été, The Origins of Old Sun, satire d'Olson jouée par Van de Wiele en adulte en couches-culottes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06856",
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Les répétitions de Medea et les exercices de voix de Duncan (voyelles, consonnes, syllabes) occupent le campus au printemps et à l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Un drame de l'été, dont la nature n'est pas décrite, entraîne une fête à Streamside où Jake a menacé les protagonistes, puis une scène à l'aube sur la passerelle. Un accident de Buick survient dans la même période.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03205",
+     "EC-03206"
+    ]
+   },
+   {
+    "date": "1956-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Rumaker, seul et mélancolique au Meadows Inn, passe ce dernier été à se remémorer la remarque d'Olson sur son introversion.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03204"
+    ]
+   }
+  ],
+  "quotidien": "La vie est lâche : étudiants et enseignants se servent les uns les autres de ressource, et le tutorat remplace les cours structurés. Duncan fait travailler la voix et prépare Medea. Olson dirige un atelier d'écriture d'une demi-douzaine d'étudiants, en ironisant sur eux. Les repas ont lieu au réfectoire, dont la cuisine sert de lieu de confidences. Une partie des étudiants et des enseignants vit en dehors du campus principal.",
+  "tensions": [
+   "Olson contre Duncan : la satire Old Sun ridiculise la théorie d'Olson sur la masculinité solaire et la fécondité réelle de ses années au collège.",
+   "Dissolution de la communauté : plus de structure, plus de hiérarchie, et le sentiment que le collège se disperse plus qu'il ne meurt.",
+   "Crise financière : les dettes empêchent toute planification, et la vitrine du conseil consultatif n'apporte que du crédit moral.",
+   "Rancœur de Fiore envers Olson, qui avait encensé Dan Rice, lequel est déjà parti.",
+   "Rumaker isolé, qui entend des mots blessants d'Olson et ne sait pas où il en est.",
+   "Menace d'accusation d'immoralité liée à l'affaire de l'étudiant violent dénoncé au Travelers' Aid.",
+   "Creeley est parti pour San Francisco au printemps, et son retour reste incertain."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Répétition de Medea sur la pelouse",
+    "date": "1956-06",
+    "lieu": "Black Mountain College, campus",
+    "personnages": [
+     "Robert Duncan",
+     "Gerald Van de Wiele",
+     "étudiants de la troupe"
+    ],
+    "deroule": "Duncan fait répéter voyelles, consonnes et syllabes en plein air, en travaillant la voix avant la mise en scène finale. Le texte de Medea s'écrit au fil des répétitions, et la satire Old Sun prend forme avec Van de Wiele en bébé adulte.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)",
+     "EV-06856"
+    ]
+   },
+   {
+    "titre": "Atelier d'écriture d'Olson",
+    "date": "1956-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Charles Olson",
+     "une demi-douzaine d'étudiants"
+    ],
+    "deroule": "Olson mène un atelier de poésie à l'ironie mordante. Il moque ses étudiants et cherche à obtenir d'eux une production sérieuse dans une ambiance de fin de règne.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Rumaker seul au Meadows Inn",
+    "date": "1956-06",
+    "lieu": "Meadows Inn, Black Mountain",
+    "personnages": [
+     "Rumaker"
+    ],
+    "deroule": "Rumaker se replie sur lui-même pendant le dernier été. Il ressasse la remarque cruelle d'Olson, entendue derrière la cuisine du réfectoire, sur son introversion.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03204"
+    ]
+   },
+   {
+    "titre": "Passerelle de Streamside à l'aube",
+    "date": "1956-06",
+    "lieu": "Passerelle vers Streamside",
+    "personnages": [
+     "Rumaker",
+     "Jake",
+     "étudiants de la fête"
+    ],
+    "deroule": "Après le drame, les participants se retrouvent sur la passerelle au petit matin. La scène rappelle la fête de Streamside où Jake les avait menacés.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03205"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, seul au Meadows Inn, au milieu de l'été",
+    "vers_date": null,
+    "vers": "La remarque d'Olson derrière la cuisine du réfectoire sur l'introversion de Rumaker, qu'il se rappelle mot pour mot.",
+    "refs": [
+     "EC-03204"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, pendant l'été du drame et de l'accident de Buick",
+    "vers_date": "1957",
+    "vers": "La fermeture du collège en 1957, Olson étant le dernier à partir. Rumaker pressent déjà que c'est très largement la fin pour lui à Black Mountain.",
+    "refs": [
+     "EC-03206"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, pendant les répétitions de Medea et l'élaboration de Old Sun",
+    "vers_date": "1956-08-29",
+    "vers": "Les représentations de Medea les 29 et 30 août, premier point d'arrivée du spectacle inachevé.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, au moment où Duncan travaille Medea en vue du dernier spectacle",
+    "vers_date": "1956-10",
+    "vers": "La suite de la trilogie Medea sur la côte Ouest, avec Duncan, Jess et Huss, après la dispersion vers San Francisco.",
+    "refs": [
+     "EC-03193",
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, pendant la rivalité entre Olson et Duncan",
+    "vers_date": "1956",
+    "vers": "À l'automne, Huss et Olson conviennent dans un café d'Asheville de fermer le collège, Olson disant ne plus vouloir enseigner.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin, pendant le dernier été où la bibliothèque et les bâtiments tiennent encore",
+    "vers_date": null,
+    "vers": "La bibliothèque « joyau » d'autrefois et le toit de la farmhouse monté par Molly Gregory une décennie plus tôt, que la ruine de 1956 rappelle.",
+    "refs": [
+     "EC-03195"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le temps qui reflue : la mémoire de Rumaker refait surface dans l'écriture, et le récit tout entier est une remontée du temps.",
+   "Ironie du travail : Olson, qui détestait le Work Program, finira à quatre pattes à désherber.",
+   "Accomplissement et ruine : chaque bâtiment ou objet abîmé rappelle un succès passé.",
+   "La satire comme déclaration d'indépendance : Duncan transforme Olson en objet de moquerie publique.",
+   "Le drapeau « SECONAL » proposé par Olson à la place de l'enseigne, signe d'humour noir sur la situation du collège.",
+   "La paternité d'Olson, mariage et enfant, en contraste avec la fécondité supposée de la théorie qu'il défend."
+  ],
+  "lacunes": "Les dates exactes de la session d'été et des répétitions de juin ne sont pas données. Les sources se contredisent sur la date de Medea : le chapitre annonce les 29 et 30 août, la fiche EC-03193 parle de septembre 1956. Le titre de la satire varie entre Old Son (chapitre) et The Origins of Old Sun (EV-06856), et la scène de Van de Wiele diffère (poussette de bébé ou adulte en couches-culottes). La nature du drame de l'été et l'identité de Jake ne sont pas établies. La présence exacte de Duncan en juin est attestée par la synthèse mais pas par une date. On ignore qui était sur le campus en juin, et le rôle de Huss ce mois-ci n'est pas documenté."
+ }
+}

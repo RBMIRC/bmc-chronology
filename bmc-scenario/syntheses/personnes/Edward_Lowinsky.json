@@ -1,0 +1,295 @@
+{
+ "passe": "personnes",
+ "cle": "Edward Lowinsky",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 10020,
+  "sortie": 3398,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Edward Lowinsky",
+  "autres_noms": [
+   "Eddie Lowinsky"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Professeur de musicologie, arrivé en 1942 après le départ d'Evarts, pilier du département de musique avec Jalowetz, chef du programme interracial jusqu'à son départ en 1947",
+  "presence": [
+   {
+    "debut": "1942",
+    "fin": "1947-08",
+    "precision": "annee",
+    "description": "Arrivée à la faculté en 1942 (après le départ d'Evarts) ; retenu jusqu'en août 1947 à cause de la mort de Jalowetz, malgré une bourse Guggenheim obtenue en 1946 ; départ pour l'Italie après août 1947",
+    "role": "Professeur de musicologie, pianiste des concerts, directeur du chœur, pilote du programme interracial",
+    "refs": [
+     "PE-00144",
+     "EV-02876",
+     "EV-03818",
+     "EV-03819",
+     "EV-04024"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Musicologue allemand rigoureux, exilé de la haute culture européenne, qui vit la musique comme une discipline totale et la conviction comme un travail de longue haleine. Sa force est le paradoxe : conservateur dans la forme (« ce robuste conservateur » selon Evarts) et radical dans l'engagement — c'est lui qui devient le champion de l'intégration raciale. Il croit que le risque ne porte ses fruits que présenté avec un calme exquis, sans pression ni division, et que le sérieux exige parfois une transgression cachée (huit mesures de boogie-woogie).",
+  "blessures": "Exil de l'Europe (arrivé dans le contexte des réfugiés du nazisme) ; douloureusement déçu, depuis l'Italie, d'apprendre l'échec du recrutement d'étudiants noirs, qu'il interprète comme un manque de volonté réelle du collège qu'il avait servi",
+  "desirs": "Offrir aux étudiants une éducation ancrée dans la texture, l'esprit et le tempérament du Sud ; réussir l'intégration raciale par un travail constant, discret et irréprochable ; mener ses recherches musicologiques (Guggenheim en Italie)",
+  "peurs": "Que l'agitation et la division ruinent une cause juste ; prêter le flanc aux soupçons ; que le programme interracial ne soit qu'une mode passagère",
+  "maniere_d_aimer": "Par la transmission exigeante : il est un taskmaster sévère dont le mentorat marque des carrières entières (Wood, trente ans de musique ancienne) ; l'hospitalité de sa maison (soirée Hayes-Brice) ; la complicité secrète et espiègle en privé",
+  "rapport_au_pouvoir": "Prudent et modéré dans la forme, têtu dans le fond : d'abord hésitant puis hostile à l'admission immédiate des Noirs (début 1944), il accepte le risque ensuite mais à sa manière — sondages, correspondances, réseau Fisk/NAACP, pas d'affrontement frontal. Signe pourtant la lettre des dix contre Fran de Graaff : il participe aux luttes de pouvoir quand il juge l'irresponsabilité établie",
+  "voix": {
+   "registre": "Précis, analytique, ironique ; la rigueur du musicologue appliquée à tout, y compris à la politique ; exubérant dans ses rapports quand il croit à une cause",
+   "tics": "Commenter tout en termes de rythme, de mesure et de ponctuation ; piques cinglantes mais souriantes envers les vantards",
+   "exemples_paroles": [
+    "Le mouvement est ponctué par la pause — sur le chant de Roland Hayes",
+    "Si BMC veut des étudiants noirs, elle en aura",
+    "Notre programme interracial est florissant",
+    "Ne le raconte à personne — après le boogie-woogie",
+    "Si l'église blanche ne veut pas de nous, nous irons à l'église noire"
+   ]
+  },
+  "habitudes": [
+   "Joue du piano aux concerts sans prendre d'autre rôle scénique",
+   "Joue clandestinement du boogie-woogie après les répétitions sérieuses et fait jurer le silence aux témoins",
+   "Dirige le chœur du collège et y fait chanter étudiants et collègues",
+   "Correspondance méthodique (Fisk, NAACP, Mordecai Johnson, Walter White) pour le recrutement d'étudiants noirs"
+  ],
+  "convictions": [
+   "Le rythme musical vit dans la ponctuation par la pause",
+   "Le risque doit être soumis sans pression, sans agitation, sans division",
+   "L'effort interracial doit être aussi dur et constant que le problème qu'il veut résoudre",
+   "L'intégration vaut mieux menée par un homme irréprochable que par des agitateurs",
+   "L'échec du recrutement révèle un manque de volonté réelle de l'institution",
+   "L'éducation doit plonger dans la texture du Sud, l'esprit du Sud, le tempérament du Sud"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1942",
+    "precision": "annee",
+    "moment": "Arrivée à la faculté, l'un des musicologues les plus distingués du pays ; commence les concerts avec Jalowetz (Art de la fugue sur deux pianos avec projections de Fanny Dreyfus)",
+    "etat_interieur": "Européen exilé transplantant la grande tradition musicale dans les montagnes de Caroline du Nord",
+    "refs": [
+     "EV-02876",
+     "EV-03314"
+    ]
+   },
+   {
+    "date": "1944-01",
+    "precision": "mois",
+    "moment": "Débat sur l'admission des Noirs : après hésitation, il rejoint le camp contre l'admission immédiate",
+    "etat_interieur": "Prudence de conservateur ; peur de la rupture ouverte avec le Sud",
+    "refs": [
+     "EV-03612"
+    ]
+   },
+   {
+    "date": "1944-04",
+    "precision": "mois",
+    "moment": "Réunion explosive du faculty : il pique Bentley de remarques arches sur son goût pour dénigrer ses collègues",
+    "etat_interieur": "Irritation ironique envers les agitateurs, dans une atmosphère où respirer est douloureux",
+    "refs": [
+     "SC-00917",
+     "RE-01410"
+    ]
+   },
+   {
+    "date": "1944-07",
+    "precision": "mois",
+    "moment": "Signe la lettre des dix contre Fran de Graaff, indigné (comme Anni Albers) par son irresponsabilité — tout en trouvant plus tard que Fran fut une excellente professeure de langue",
+    "etat_interieur": "Colère contenue, côté establishment",
+    "refs": [
+     "EV-03649",
+     "EV-03654",
+     "PE-00144"
+    ]
+   },
+   {
+    "date": "1944-09",
+    "precision": "mois",
+    "moment": "Renversement : il soulève lui-même l'intégration en réunion de faculté et prend en main le dossier ; mandaté pour les sondages, commence avec le Dr Redd de Fisk ; donne un cours sur la culture de la Renaissance pour combler l'absence d'historien",
+    "etat_interieur": "Conversion de la prudence en stratégie patiente — il devient le champion de la cause",
+    "refs": [
+     "EV-03665",
+     "CO-00393",
+     "EV-03520"
+    ]
+   },
+   {
+    "date": "1945-07",
+    "precision": "mois",
+    "moment": "Organise le concert de Roland Hayes : choisit les ouvreurs, consigne « où vous voudrez », places intégrées, aucun incident ; soirée Hayes-Brice chez lui ; Passion de Schütz portée à l'église noire après le veto du conseil paroissial blanc",
+    "etat_interieur": "Triomphe maîtrisé du pari du risque ; audace tranquille face à la peur du Klan",
+    "refs": [
+     "SC-00963",
+     "SC-00964",
+     "SC-00845",
+     "EV-03326"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "annee",
+    "moment": "Mort de Jalowetz : sa bourse Guggenheim pour l'Italie est reportée d'un an, le collège le retient jusqu'en août 1947 ; extension de la campagne de recrutement (lycées noirs, NAACP, Y.M.C.A., Amis) après le vote étudiant ; rapporte le travail splendide de Baker et Fax",
+    "etat_interieur": "Deuil du collègue, devoir envers le département, ténacité dans la campagne",
+    "refs": [
+     "EV-03818",
+     "EV-03819",
+     "EV-03863",
+     "EV-03859"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Dirige le Requiem de Brahms en mémoire de Jalo ; rapport exubérant de mai (« notre programme interracial est florissant ») ; départ pour l'Italie après août, puis Queens College",
+    "etat_interieur": "Satisfaction de la mission accomplie — bientôt démentie",
+    "refs": [
+     "EV-03992",
+     "CI-02009",
+     "EV-04024",
+     "EV-03888"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Formation en Europe ; fuite du nazisme — il appartient à la vague d'intellectuels et musiciens européens exilés qui peuplent BMC (Jalowetz, Bodky, Schlesinger…)",
+    "refs": [
+     "EV-02876",
+     "EV-03818",
+     "EV-03760"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Départ pour l'Italie avec la bourse Guggenheim (photographie de manuscrits en préparation) ; de là, lettre à Bobbie Dreier : sa douleur de l'échec du recrutement noir et sa conviction que BMC ne le voulait pas vraiment",
+    "etat_interieur": "Amertume lucide sur l'institution qu'il a quittée",
+    "refs": [
+     "EV-04024",
+     "RE-01553",
+     "CI-01939"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Professeur à Queens College, après avoir obtenu à BMC le plus haut salaire jamais payé à un musicologue",
+    "refs": [
+     "EV-02876",
+     "EV-03888"
+    ],
+    "moment_bis": null
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Heinrich Jalowetz",
+    "nature": "Collègues du département de musique, binôme des concerts",
+    "evolution": "Complicité musicale (Jalo dirige, Eddie joue) ; sa mort en 1946 retient Lowinsky un an de plus ; il dirige le Requiem de Brahms en sa mémoire en 1947",
+    "refs": [
+     "EV-03516",
+     "EV-03818",
+     "EV-03992"
+    ]
+   },
+   {
+    "avec": "Patsy Lynch Wood",
+    "nature": "Mentorat sévère",
+    "evolution": "Taskmaster qui l'initie à la musique médiévale et renaissance, base de trente ans de carrière — la sévérité qui donne naissance à une vocation",
+    "refs": [
+     "RE-01172",
+     "CO-00313"
+    ]
+   },
+   {
+    "avec": "Eric Bentley",
+    "nature": "Rivalité ironique",
+    "evolution": "Piques arches contre le goût de Bentley pour dénigrer ses collègues, notamment à la réunion d'avril 1944",
+    "refs": [
+     "RE-01410",
+     "SC-00917"
+    ]
+   },
+   {
+    "avec": "Roland Hayes",
+    "nature": "Organisateur et admirateur",
+    "evolution": "Du pari risqué du concert intégré (1945) à l'analyse musicale admirative du rythme du chanteur ; soirée intime Hayes-Brice chez lui",
+    "refs": [
+     "SC-00963",
+     "SC-00967",
+     "SC-00964"
+    ]
+   },
+   {
+    "avec": "Howard Rondthaler",
+    "nature": "Complicité secrète",
+    "evolution": "Lui fait jurer de ne rien dire du boogie-woogie clandestin ; secret gardé des décennies",
+    "refs": [
+     "RE-01458",
+     "SC-00935"
+    ]
+   },
+   {
+    "avec": "Barbara Dreier",
+    "nature": "Amitié épistolaire après le départ",
+    "evolution": "Depuis l'Italie, il lui confie sa peine et son diagnostic sur l'échec du recrutement noir",
+    "refs": [
+     "RE-01553",
+     "EV-04024"
+    ]
+   },
+   {
+    "avec": "Frances de Graaff",
+    "nature": "Conflit de faculté",
+    "evolution": "Signe la lettre des dix contre elle (1944) mais dira plus tard d'elle qu'elle fut une excellente professeure de langue",
+    "refs": [
+     "EV-03649",
+     "PE-00144"
+    ]
+   },
+   {
+    "avec": "Vesta Martin",
+    "nature": "Choriste et muse du programme interracial",
+    "evolution": "Chante dans son chœur, y compris la Passion de Schütz",
+    "refs": [
+     "RE-01204",
+     "EV-03326"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La réception de la Passion de Schütz à l'église noire : église bondée et enthousiaste, ou église vide, ou déserte puis à moitié remplie avec réception tendue — Duberman signale le désaccord des témoins (EV-03326, SC-00845).",
+   "Le public du concert Hayes : environ 400 spectateurs avec 30 à 40 Noirs selon les versions, dont le décompte des invités extérieurs varie (EV-03731 : 300 invités extérieurs selon Duberman vs Molesworth).",
+   "Evarts le surnomme « ce robuste conservateur » en 1944 alors qu'il devient ensuite le champion de l'intégration — contradiction apparente qui est en fait l'arc du personnage (EV-03507, PE-00144).",
+   "Son rapport à Fran de Graaff : signataire de la lettre des dix, mais éloge postérieur de son enseignement des langues (PE-00144).",
+   "Surnommé prudence même et hostile (après hésitation) à l'admission immédiate en 1944, il apparaît pourtant comme l'homme des transgressions raciales en 1945 (EV-03612 vs EV-03326)."
+  ],
+  "situations_revelatrices": [
+   "La répétition nocturne où le grand répertoire s'achève en boogie-woogie interdit",
+   "L'instruction aux ouvreurs avant le concert Hayes : « où vous voudrez »",
+   "Le veto du conseil paroissial blanc et sa décision d'aller à l'église noire",
+   "La réunion de faculté d'avril 1944 où il pique Bentley dans une atmosphère irrespirable",
+   "La lettre depuis l'Italie diagnosticant l'échec de son propre combat",
+   "Le Requiem de Brahms en mémoire de Jalo, un an après sa mort"
+  ],
+  "citations": [
+   "CI-01803",
+   "CI-01864",
+   "CI-01939",
+   "CI-02009"
+  ],
+  "questions_ouvertes": [
+   "Dates et lieu de naissance, dates de mort, trajectoire européenne précise avant 1942",
+   "Sa femme et sa vie familiale (les Lowinsky reçoivent, écrivent, se souviennent ensemble — mais elle n'est pas nommée)",
+   "Ce qui a réellement converti sa position sur l'intégration entre janvier et septembre 1944",
+   "Sa correspondance avec Fisk, la NAACP, Mordecai Johnson et Walter White : contenu exact",
+   "Sa carrière complète à Queens College et après"
+  ]
+ }
+}

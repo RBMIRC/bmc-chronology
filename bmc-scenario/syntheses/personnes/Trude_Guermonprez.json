@@ -1,0 +1,330 @@
+{
+ "passe": "personnes",
+ "cle": "Trude Guermonprez",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 12,
+  "sortie": 3785,
+  "cache_lu": 10112,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Trude Guermonprez",
+  "autres_noms": [
+   "Trudi G.",
+   "Trade Guermonprez (coquille Duberman)"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Enseignante de tissage (instructrice, puis instructrice adjointe), fille aînée des Jalowetz, ancienne du Bauhaus par sa formation",
+  "presence": [
+   {
+    "debut": "1946",
+    "fin": null,
+    "precision": "annee",
+    "role": "Obtention d'un visa américain en juin 1946 sur l'invitation d'Anni Albers ; arrivée aux États-Unis",
+    "refs": [
+     "EV-03970"
+    ]
+   },
+   {
+    "debut": "1947",
+    "fin": "1949",
+    "precision": "annee",
+    "role": "Venue visiter sa mère Anna Jalowetz ; enseigne le tissage en remplacement d'Anni Albers pendant son congé mexicain, puis instructrice adjointe aux côtés d'Albers (1947-1948) ; construction du tissage en 1948-1949 ; démission au printemps 1949 avec les Albers, Schlesinger et Dreier",
+    "refs": [
+     "EV-04043",
+     "EV-04508",
+     "EV-04563",
+     "EV-04751",
+     "EV-04855",
+     "RE-01564",
+     "RE-01519",
+     "EV-03760"
+    ]
+   },
+   {
+    "debut": "1952-10-15",
+    "fin": "1952-10-29",
+    "precision": "jour",
+    "role": "Participe au Pottery Seminar d'automne en tant que future enseignante du collège",
+    "refs": [
+     "EV-05905"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Veuve endeuillée ayant traversé la guerre aux Pays-Bas, elle tient par la rigueur du métier : formée par des tisserands du Bauhaus, elle voit dans la structure — du tissage comme de la vie communautaire — une protection contre le chaos. Elle agit par loyauté (envers sa mère, envers Anni Albers, envers Dreier) et par une appétit insatiable de vie et d'expériences : Asawa note en 1949 que ses désirs ne portent pas sur une chose mais sur des centaines.",
+  "blessures": "Mari tué dans la résistance hollandaise pendant la guerre ; exil et séparation d'avec sa famille restée aux États-Unis pendant les années d'occupation néerlandaise.",
+  "desirs": "Transmettre la pédagogie textile du Bauhaus ; lier le tissage au monde (à l'industrie, à l'art, à l'éducation des enfants) ; expérimenter sans cesse — peinture sur chaîne, fils métalliques, volumes suspendus.",
+  "peurs": "Le chaos non structuré : pour elle, la crise de BMC revenait aux personnalités, mais les personnalités s'expriment par des idées, et le camp Levi incarnait l'absence de structure et de responsabilité.",
+  "maniere_d_aimer": "Elle aime par le compagnonnage de travail : leçons données chez elle aux enfants d'Asawa, Lee et Renk ; mentorat officieux d'Asawa ; amitié fidèle avec Wildenhain et Anni Albers sur des décennies ; son visage finit moulé sur le mur de masques d'Asawa.",
+  "rapport_au_pouvoir": "Loyauté personnelle plutôt que stratégie : elle démissionne en 1949 par solidarité avec Dreier et les Albers, et niera plus tard que la démission de Dreier ait été demandée. Elle juge le comité organisé de la réunion de janvier 1949 « injuste et dégoûtant » (selon Albers, qu'elle suit).",
+  "voix": {
+   "registre": "Précise, artisanale, didactique ; allemande émigrée, anglais marqué par l'accent ; vocabulaire du tissage comme grille de lecture du monde",
+   "tics": "Pense en termes de chaîne et de trame, de structure et d'interrelation, même pour parler des gens",
+   "exemples_paraphrases": [
+    "Le tissage, plus que tout autre artisanat, est relié à autre chose",
+    "Le tissage purement artistique n'est pas une chose professionnelle",
+    "Ceux-là étaient complètement non structurés, dans leurs cours comme dans leur gestion"
+   ]
+  },
+  "habitudes": [
+   "Photographie les fêtes du collège (Mardi Gras 1949, costume de licorne)",
+   "Donne des leçons de tissage aux enfants de ses amies, chez elle, dans la Bay Area",
+   "Peint directement sur les fils de chaîne tendue, parfois au pochoir"
+  ],
+  "convictions": [
+   "Le tissage est interrelationnel : relié à la société, à l'industrie, à l'art",
+   "La structure de la chaîne, non le carton ni le livre de recettes, détermine les composantes visuelles",
+   "L'éducation exige une vie bien ordonnée et la responsabilité de l'étudiant (modèle Albers) contre l'enseignement non structuré (camp Levi)",
+   "Le tissage peut dialoguer avec la peinture jusqu'à l'imiter (série des textile graphics)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1946-06",
+    "precision": "mois",
+    "moment": "Visa américain obtenu sur l'invitation d'Anni Albers ; sortie des années de guerre néerlandaises",
+    "etat_interieur": "Veuve endeuillée, reconstruisant une vie par le métier et le patronage d'Albers",
+    "refs": [
+     "EV-03970"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Arrive à Black Mountain pour visiter sa mère Anna Jalowetz et reste enseigner le tissage en remplacement d'Anni Albers pendant son congé mexicain",
+    "etat_interieur": "Retrouvailles familiales après la guerre ; entrée dans une communauté d'émigrés européens",
+    "refs": [
+     "EV-04043",
+     "RE-01564"
+    ]
+   },
+   {
+    "date": "1948-06",
+    "precision": "mois",
+    "moment": "Session d'été 1948 : enseigne le tissage avec Anni Albers auprès de 74 étudiants ; en septembre, fait partie du corps enseignant squelettique (construction du tissage)",
+    "etat_interieur": "Enseignante confirmée, pilier d'un collège affaibli par les départs",
+    "refs": [
+     "EV-04508",
+     "EV-04563"
+    ]
+   },
+   {
+    "date": "1949-01-29",
+    "precision": "jour",
+    "moment": "Le soir de la réunion où la démission de Dreier est demandée, elle décide avec Schlesinger et les Albers de démissionner, annonce le lendemain",
+    "etat_interieur": "Loyauté blessée : le camp structuré se serre contre ce qu'Albers juge injuste et dégoûtant",
+    "refs": [
+     "EV-04836",
+     "SC-01239"
+    ]
+   },
+   {
+    "date": "1949-04",
+    "precision": "mois",
+    "moment": "Reste jusqu'en juin pour honorer ses engagements d'enseignement, puis quitte définitivement Black Mountain avec les Albers et Schlesinger",
+    "etat_interieur": "Rigueur professionnelle jusqu'au bout ; départ dans la dignité",
+    "refs": [
+     "EV-04855",
+     "EV-04751"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1933",
+    "precision": "periode",
+    "moment": "Fille du musicien Heinrich Jalowetz et de Johanna (Anna) ; la famille émigre quand ses parents rejoignent Black Mountain",
+    "refs": [
+     "RE-00842",
+     "EV-03760"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Formation de tisserande auprès de tisserands du Bauhaus",
+    "refs": [
+     "EV-04715",
+     "PE-00050"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Années de guerre aux Pays-Bas ; son mari est tué dans la résistance hollandaise",
+    "refs": [
+     "EV-04043",
+     "PE-00050"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "periode",
+    "moment": "Débute sa relation de travail et d'amitié avec Anni Albers, tisserande : conversations sur le métier et l'éducation qui nourriront On Weaving",
+    "refs": [
+     "RE-00822",
+     "EV-01903"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "Rejoint Marguerite Wildenhain à Pond Farm, où elle enseigne et participe aux ateliers rigoureux de la colonie",
+    "refs": [
+     "EV-04689",
+     "EV-04714",
+     "EV-06114"
+    ]
+   },
+   {
+    "date": "1949-11-04",
+    "precision": "jour",
+    "moment": "Participe avec Asawa à la First Annual Pacific Coast Decorative Arts Competition à San Francisco",
+    "refs": [
+     "EV-04904"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Sa tapisserie Leaf Study (peinture sur chaîne) présentée dans l'exposition Pond Farm du de Young ; Asawa l'aide à préparer sept panneaux de démonstration pour le San Francisco Museum of Art ; mentorat officieux d'Asawa et leçons de tissage aux enfants de son quartier",
+    "refs": [
+     "EV-05082",
+     "EV-05081",
+     "EV-05080",
+     "OE-02254"
+    ]
+   },
+   {
+    "date": "1952-10",
+    "precision": "mois",
+    "moment": "Retourne à Black Mountain comme participante au Pottery Seminar de Leach, Hamada, Wildenhain et Yanagi",
+    "refs": [
+     "EV-05905"
+    ]
+   },
+   {
+    "date": "1959-03",
+    "precision": "mois",
+    "moment": "Profilée dans Craft Horizons (mars-avril 1959) ; figure significative du studio craft américain",
+    "refs": [
+     "PE-00050"
+    ]
+   },
+   {
+    "date": "1964",
+    "precision": "annee",
+    "moment": "Œuvre Crystal : tissage tridimensionnel suspendu en fil métallique doré et coton chiné, écho aux volumes d'Asawa ; exposée en 1968 à The Intersection of Line (Fullerton) aux côtés d'Asawa, Sekimachi, Tawney",
+    "refs": [
+     "OE-03633",
+     "EV-08006"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "periode",
+    "moment": "Fonde le programme de tissage du California College of Arts and Crafts à Oakland ; vit dans la Bay Area (Noe Valley / Saturn Street) où son visage est moulé sur le mur de masques d'Asawa",
+    "refs": [
+     "PE-00050",
+     "EV-04367",
+     "EC-03439"
+    ]
+   },
+   {
+    "date": "1971-12-08",
+    "precision": "jour",
+    "moment": "Témoignage recueilli par l'historienne Mary Emma Harris sur Black Mountain",
+    "refs": [
+     "PE-00050"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Anni Albers",
+    "nature": "Mentorat puis collaboration ; conversations sur le tissage et l'éducation nourrissant On Weaving",
+    "evolution": "Albers l'invite aux États-Unis (1946), la fait enseigner à ses côtés (1947-1948) ; elles partagent l'atelier avec Blumeneau, Lindenfeld et Zeisler en été 1946 (selon Molesworth, Guermonprez déjà présente) ; liens durables après 1949",
+    "refs": [
+     "RE-00822",
+     "RE-01519",
+     "RE-01575",
+     "EV-03901",
+     "EV-01903",
+     "SC-00994"
+    ]
+   },
+   {
+    "avec": "Ruth Asawa",
+    "nature": "Mentorat officieux et amitié, échange sur texture et structure des matériaux souples",
+    "evolution": "Amitié tardive à BMC (janvier 1949 : Asawa écrit comprendre « Trudi G. » de mieux en mieux, ses désirs portant sur des centaines de choses) ; compagnonnage dans la Bay Area : leçons aux enfants, aide aux sept panneaux, voisinage à Saturn Street, masque sur le mur",
+    "refs": [
+     "RE-01267",
+     "RE-01853",
+     "EV-04829",
+     "EV-05080",
+     "EC-03439",
+     "RE-02806"
+    ]
+   },
+   {
+    "avec": "Marguerite Wildenhain",
+    "nature": "Amitié proche de tisserande et potière",
+    "evolution": "Amies dans les années 1940 ; la première visite de Wildenhain à BMC (1947) est motivée par Guermonprez ; elles rejoignent ensuite Pond Farm",
+    "refs": [
+     "RE-01245",
+     "EV-04056",
+     "EV-04689"
+    ]
+   },
+   {
+    "avec": "Anna Jalowetz (sa mère)",
+    "nature": "Famille ; raison initiale de sa venue à BMC",
+    "evolution": "Vient visiter sa mère en 1947 et reste enseigner",
+    "refs": [
+     "RE-01564",
+     "EV-04043"
+    ]
+   },
+   {
+    "avec": "Ted Dreier, Josef Albers, Charlotte Schlesinger",
+    "nature": "Loyauté politique ; bloc « structuré » lors de la crise",
+    "evolution": "Démission solidaire au printemps 1949 après la réunion du 29 janvier",
+    "refs": [
+     "EV-04751",
+     "EV-04836",
+     "QU-01190"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Sur la crise de 1949 : Harris situe les démissions quand la démission de Dreier est demandée, à la fin du trimestre de printemps ; Duberman les présente comme une protestation contre le traitement infligé à Dreier ; Horowitz & Danilowitz précisent que les démissions sont rendues publiques après que Pittenger a accepté la transition. Versions compatibles mais insistant différemment.",
+   "Guermonprez elle-même (entretiens 1967, avec les Albers) nie que la démission de Dreier ait été demandée ; Duberman suggère que Dreier a démissionné avant que la demande formelle n'aboutisse — sa mémoire reconstruit l'événement.",
+   "Sa lecture de la crise (Levi et les siens « complètement non structurés ») est fragilisée par le fait que beaucoup d'étudiants trouvaient Levi trop ordonné (Duberman).",
+   "Présence à l'été 1946 : Molesworth la décrit partageant l'atelier avec Albers et trois étudiantes dès l'été 1946, alors que son visa date de juin 1946 et que son enseignement attesté commence en 1947 — date à manier avec prudence."
+  ],
+  "situations_revelatrices": [
+   "L'atelier de tissage partagé : transmission de l'héritage précolombien et bauhausien à de nouvelles venues (Zeisler, Lindenfeld, Blumeneau)",
+   "La soirée du 29 janvier 1949 : le moment où elle choisit son camp par loyauté",
+   "Le Mardi Gras 1949, appareil en main : la fête qu'elle fixe sur pellicule juste avant de partir",
+   "Les leçons de tissage aux enfants dans sa maison de la Bay Area : le métier comme domesticité et transmission",
+   "La chaîne peinte au pochoir : l'expérimentatrice qui refuse le tissage-hobby des ménagères aisées"
+  ],
+  "citations": [
+   "CI-02251",
+   "ID-01897",
+   "ID-02126",
+   "CO-00637",
+   "EV-04829"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort absentes des fiches",
+   "Prénom et circonstances exactes de la mort de son mari dans la résistance hollandaise",
+   "Détails de sa vie aux Pays-Bas pendant la guerre",
+   "Contenu de ses lettres non datées conservées dans la famille Aronson-Jalowetz",
+   "Nature exacte de son retour possible comme enseignante après le Pottery Seminar de 1952 (fiche la dit « future enseignante du collège »)"
+  ]
+ }
+}

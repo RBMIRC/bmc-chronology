@@ -1,0 +1,289 @@
+{
+ "passe": "mois",
+ "cle": "1948-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4894,
+  "sortie": 20793,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1948-11",
+  "session": "semestre d'automne 1948, en cours depuis la rentrée de septembre (la synthèse parle de « semestre »)",
+  "saison_et_climat": "Automne finissant. Les fiches ne décrivent pas le temps de novembre ; la pluie citée (dôme de Fuller effondré) concerne l'été.",
+  "situation": "Le collège fonctionne à effectif réduit, environ 50 étudiants au lieu de 90, après une rentrée désastreuse : plus de diététicienne, de comptable ni de registraire. Albers est recteur depuis la fin de l'été, élu sans opposition après une séance « animée et non concluante », et applique sa réforme : faculté réduite, enseignants « visiting teachers » recrutés sans vote, recentrage sur arts et musique, projet de Board of Trustees extérieur. Levi est en Europe, Dreier a annoncé son départ, Dahlberg est reparti en moins de deux semaines, Olson a été recruté à contrecœur pour trois jours par mois. Le laboratoire de Natasha a brûlé, assuré à moins de 2 000 $ pour 12 000 $. Les trustees potentiels demandent un mois de plus, et la Whitney Foundation n'a pas encore tranché (elle refusera en décembre) : l'hiver sera dominé par la peur de la fermeture.",
+  "presents_probables": [
+   {
+    "nom": "Albers (recteur)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Olson (trois jours par mois)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha (dont le laboratoire a brûlé)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rauschenberg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Susan Weil",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "environ 50 étudiants (non nommés)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "enseignants « visiting teachers » (non nommés)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rentrée de septembre : environ 50 étudiants au lieu de 90, sans diététicienne, comptable ni registraire.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese_1948"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Incendie du laboratoire de Natasha, assuré à moins de 2 000 $ pour 12 000 $. La synthèse le range dans la rentrée, sans jour précis.",
+    "certitude": "probable",
+    "refs": [
+     "synthese_1948"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Dahlberg, venu enseigner, repart en moins de deux semaines.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese_1948"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers recrute Olson, qui accepte à contrecœur d'enseigner trois jours par mois (mois ≈, juste après le départ de Dahlberg). Olson deviendra la figure forte du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese_1948",
+     "EC-02390"
+    ]
+   },
+   {
+    "date": "1948-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Proposition du Board of Trustees extérieur. La synthèse le place parmi les mesures de la séance d'août, alors que Duberman le date d'octobre 1948.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese_1948",
+     "EC-02391"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "saison",
+    "ce_qui_arrive": "Rauschenberg et Susan Weil arrivent à l'automne, en cours de semestre, attirés par un article du Time sur la discipline d'Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese_1948"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Les trustees potentiels demandent un mois supplémentaire avant de s'engager (date non donnée, avant ou après la décision de la Whitney).",
+    "certitude": "probable",
+    "refs": [
+     "synthese_1948"
+    ]
+   }
+  ],
+  "quotidien": "Vie réduite et austère : repas à la cloche, nourriture jugée indigente, aucune diététicienne depuis la rentrée. Le campus, avec ses étudiants en jeans et sandales, est celui de l'été. Le chantier de la Minimum House avance ; les étudiants-architectes rejettent le dortoir de l'Architects' Collaborative. Les cours documentés sont ceux d'Albers (couleur, design) et du tissage d'Anni Albers et Guermonprez, mais aucune fiche ne les date pour l'automne. Musique et cours de novembre ne sont pas décrits.",
+  "tensions": [
+   "Albers face à la peur que Levi et les nouveaux venus « prennent le pouvoir » : la réforme exclut les enseignants du vote",
+   "Le Board of Trustees extérieur, méprisé dès les débuts du collège, contre une communauté qui préfère contourner les instances",
+   "Arts et musique contre sciences sociales, la ligne d'Albers contre l'expansion de l'ère Levi",
+   "Fermeture redoutée : effectifs, fonds non assurés (laboratoire), financements (Whitney) et délai demandé par les trustees",
+   "Départs successifs (Levi, Dreier, Dahlberg) et une direction qui ne compte que sur Olson à temps partiel",
+   "La Mush War secoue la communauté (date non précisée, peut-être à l'automne)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Séance du conseil sur le Board extérieur",
+    "date": null,
+    "lieu": "Black Mountain College, salle de réunion non précisée",
+    "personnages": [
+     "Albers",
+     "trustees potentiels (non nommés)"
+    ],
+    "deroule": "Albers présente le Board extérieur ; les trustees potentiels réclament un mois de plus. La discussion se nourrit du souvenir du vote renversé pendant une suspension, en juin.",
+    "certitude": "deduit",
+    "refs": [
+     "EC-02391",
+     "synthese_1948"
+    ]
+   },
+   {
+    "titre": "Les décombres du laboratoire de Natasha",
+    "date": "1948-09",
+    "lieu": "laboratoire de Natasha",
+    "personnages": [
+     "Natasha",
+     "Albers"
+    ],
+    "deroule": "Inventaire des pertes, sous-assurance (2 000 $ couverts pour 12 000 $), questions de responsabilité et de fonds à trouver.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese_1948"
+    ]
+   },
+   {
+    "titre": "Première séance d'Olson, trois jours par mois",
+    "date": "1948-09",
+    "lieu": null,
+    "personnages": [
+     "Olson",
+     "étudiants"
+    ],
+    "deroule": "Olson, venu à contrecœur, enseigne par blocs de trois jours mensuels dans un campus clairsemé, sans secrétariat ni registraire.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese_1948",
+     "EC-02390"
+    ]
+   },
+   {
+    "titre": "Arrivée de Rauschenberg et Susan Weil",
+    "date": "1948",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rauschenberg",
+     "Susan Weil",
+     "Albers"
+    ],
+    "deroule": "Ils arrivent en cours de semestre, attirés par l'article du Time sur la discipline d'Albers, et entrent dans un collège qui doute de sa survie.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese_1948"
+    ]
+   },
+   {
+    "titre": "Le dortoir refusé par les étudiants-architectes",
+    "date": null,
+    "lieu": "chantier de la Minimum House",
+    "personnages": [
+     "étudiants-architectes",
+     "Architects' Collaborative (représentants non nommés)"
+    ],
+    "deroule": "Les étudiants-architectes rejettent le dortoir proposé et discutent de la construction de la Minimum House, qui s'élève.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese_1948"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "novembre 1948, fermeture redoutée et Board extérieur en discussion",
+    "vers_date": "1933",
+    "vers": "La fondation du collège contre les trustees de Rollins : la machinerie des trustees y a toujours été méprisée et contournée.",
+    "refs": [
+     "EC-02391"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "novembre 1948, débat sur le fonds de pension et les obligations au nom d'Albers",
+    "vers_date": "1944",
+    "vers": "L'institution du fonds de pension en 1944 : les obligations au seul nom d'Albers, qui nourriront les accusations de 1949.",
+    "refs": [
+     "EC-02392"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "novembre 1948, Dreier en partance et le collège sous le choc",
+    "vers_date": null,
+    "vers": "La mort de Mark Dreier dans un accident d'automobile au collège, dont la Quiet House porte la mémoire.",
+    "refs": [
+     "EC-02393"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "novembre 1948, Albers à la tête du collège avec sa discipline",
+    "vers_date": "1919",
+    "vers": "Albers au Bauhaus (1919-1933), intégrant beaux-arts, artisanat et technologie, héritage qu'il porte à Black Mountain.",
+    "refs": [
+     "EC-02364"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "novembre 1948, la décision de la Whitney Foundation en attente",
+    "vers_date": "1948-12",
+    "vers": "La Whitney Foundation refuse en décembre ; les trustees potentiels réclament un mois de plus.",
+    "refs": [
+     "synthese_1948"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "novembre 1948, Olson recruté pour trois jours par mois",
+    "vers_date": "1949",
+    "vers": "Accusations de détournement contre Dreier en 1949, nourries par les obligations de 1944 au nom d'Albers.",
+    "refs": [
+     "EC-02392"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "novembre 1948, Olson au début de son engagement",
+    "vers_date": "1956",
+    "vers": "Olson domine la communauté jusqu'à la fermeture du collège en 1956.",
+    "refs": [
+     "EC-02390"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'été 1948 et la relation pédagogique nouée avec Albers, prolongée en novembre",
+    "vers_date": "1950",
+    "vers": "Albers, doyen à Yale, invite Bill de Kooning à des crits bi-hebdomadaires. Bill abandonne, Elaine s'épanouit.",
+    "refs": [
+     "EC-02362"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "novembre 1948, le réseau musical du collège encore frais",
+    "vers_date": "1958",
+    "vers": "Solo for Piano de Cage, dédié à Elaine de Kooning.",
+    "refs": [
+     "EC-02363"
+    ]
+   }
+  ],
+  "motifs": [
+   "La peur de la fermeture qui structure l'hiver 1948-1949",
+   "Gouvernance : le Board extérieur contre la communauté qui contourne les instances",
+   "Bâtir et détruire : laboratoire incendié, Minimum House qui s'élève, dôme effondré en été",
+   "La discipline d'Albers, attractive pour les nouveaux venus et source de départs",
+   "Échos littéraires de Goodman (Mynheer, Grand Piano) : la fondation communautaire, le départ qui enferme dans l'invention, le rire qui tourne en menace. Fiction, non historique."
+  ],
+  "lacunes": "Aucune fiche ne décrit les cours, les repas ni la musique de novembre. Présence inconnue en novembre de Dreier (départ annoncé le 31 août), Pat Passlof (parmi les six partis en septembre ou non), Fuller (poste d'été, suite inconnue), les de Kooning (retour à New York non daté) et Levi (date de retour inconnue). Dates exactes manquantes pour l'incendie, la Mush War, la Minimum House, l'arrivée de Rauschenberg et Weil et la proposition d'Olson. Divergence signalée : la synthèse place le projet de Board extérieur dans la séance d'août, Duberman le date d'octobre 1948. La synthèse 1948 n'a pas d'identifiant et est citée « synthese_1948 ». Les fiches EV-04586 et EV-04587 (surréalisme parisien, novembre 1948) ne concernent pas le collège et ne sont pas retenues. Les fiches EC-02316 à EC-02322 sont tirées d'une fiction de Goodman et ne servent que de motifs."
+ }
+}

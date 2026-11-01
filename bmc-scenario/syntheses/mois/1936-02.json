@@ -1,0 +1,288 @@
+{
+ "passe": "mois",
+ "cle": "1936-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6542,
+  "sortie": 10996,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-02",
+  "session": "trimestre d'hiver (déduit : aucune fiche ne le nomme, mais février tombe dans l'année scolaire, entre les séjours d'été et la rentrée de septembre)",
+  "saison_et_climat": "Plein hiver dans les montagnes de Caroline du Nord. Aucune fiche ne décrit le temps ; le climat est une déduction. Les Albers reviennent tout juste du Mexique (voyage d'hiver, déjà attesté par SC-00627 et SC-00633) et sont donc passés d'une lumière et d'une altitude à une autre.",
+  "situation": "Le collège vit à l'heure d'Adamic. Le visiteur, arrivé en janvier, est toujours là et a fait de Rice une figure publique. Le brouillon de son article circule et sera lu devant la communauté, ce qui déclenche une querelle sur Rice. Dans le même temps, la farce du Mondrian (4-5 février) met la communauté en effervescence, et Albers est furieux. Les premières fissures entre Rice et une partie du corps enseignant apparaissent, avant la crise Knickerbocker-Goldenson qui viendra en automne.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Evarts",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Allan Sly",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Morton Steinau",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Heinrich Rice (Black Mountain, rôle central)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Louis Adamic",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Stella Adamic",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Goldenson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Knickerbocker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zeuch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Martin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hendrickson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Barber",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nat French",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Le couple Adamic, arrivé en janvier pour une visite d'un après-midi, est toujours au collège en février. Les durées divergent selon les sources (deux, deux mois et demi ou trois mois), mais le séjour est bien en cours.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02566",
+     "EV-02568"
+    ]
+   },
+   {
+    "date": "1936-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Lecture du brouillon « Education on a Mountain » devant la communauté. La première partie passe bien, puis le portrait de Rice en chef et sauveur déclenche un procès, mené par Joe Martin, Evarts, Hendrickson, Barber et Nat French. Les sources datent la lecture différemment : février pour Chaddock, mars pour Duberman.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02571",
+     "EV-02550",
+     "EV-02576",
+     "EV-02577",
+     "SC-00657"
+    ]
+   },
+   {
+    "date": "1936-02-04",
+    "precision": "jour",
+    "ce_qui_arrive": "Canular du Mondrian : Evarts et Sly remplacent pendant la nuit le tableau de Morton Steinau par une planche de toile cirée rayée. Albers crie à une valeur de 50 000 dollars, Anni la ramène plus bas, une assemblée et une fouille sont organisées, puis le tableau réapparaît en quelques heures. Personne ne s'accuse.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02573",
+     "SC-00656"
+    ]
+   },
+   {
+    "date": "1936-02-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Entrée de journal sur le désir physique, à contrôler, dans une vie communautaire sous surveillance rapprochée. Le tiraillement entre devoir de contrôle et refus de contrôler est explicite. Le nom du diariste n'est pas établi avec certitude par les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02574"
+    ]
+   },
+   {
+    "date": "1936-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Le doyen Hudnut de Harvard approche Albers pour un poste ; l'approche est sans accord. Les motifs de cette démarche sont contestés par les sources.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02575"
+    ]
+   },
+   {
+    "date": "1936-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Le premier congrès des Artistes américains se tient à New York. Max Weber y dénonce la misère des artistes, qu'il décrit finissant « connectés au dépôt de mendicité ». L'événement ne concerne pas directement le collège mais en fixe le contexte.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02572"
+    ]
+   },
+   {
+    "date": "1936-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Les Albers sont revenus du Mexique à temps pour la farce de février. Le voyage d'hiver est donc attesté, mais sa numérotation et sa distance restent floues selon les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00627",
+     "SC-00633"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches décrivent peu la vie ordinaire de février. On y voit une communauté très resserrée où tout se sait vite, les repas et les soirées se mêlent aux discussions, et les conversations sur l'enseignement occupent le temps. Adamic passe ses journées à écouter Rice et les étudiants, ce qui donne à l'ambiance un air de cour. Il n'y a pas de précision sur la musique, le travail manuel ou les cours de ce mois-là ; la vie quotidienne reste à reconstituer.",
+  "tensions": [
+   "Rice devient une figure publique. Adamic le présente en chef et sauveur, ce que plusieurs enseignants jugent excessif.",
+   "La lecture du brouillon fait éclater un procès en règle : Joe Martin, Evarts, Hendrickson, Barber (« trop de moutons »), Nat French contre Rice, défendu par Wunsch. Goldenson lance son « un peu de Jésus ». Zeuch dénonce le ghost-writing.",
+   "Rice avoue son impatience et sa faim de reconnaissance, et appelle à fonder de petits « anti-Rice ». Cette franchise ajoute de la tension au débat.",
+   "L'interview de Rice dans la presse, parue fin janvier, paraît suffisante et dénigrante pour les autres collèges. Evarts note dans son journal le dégoût de beaucoup de ses collègues.",
+   "Albers est furieux à cause de la farce du Mondrian et de la valeur fantaisiste qu'il lui attribue. Anni tempère, mais le conflit d'humeur reste vif.",
+   "Le journal intime d'un étudiant décrit une surveillance qui pèse sur le désir et sur la liberté personnelle.",
+   "Le doyen Hudnut tente d'attirer Albers, ce qui crée une tension sur la loyauté envers le collège."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le canular du Mondrian",
+    "date": "1936-02-04",
+    "lieu": "chambre de Morton Steinau, puis dortoirs de Black Mountain College",
+    "personnages": [
+     "John Evarts",
+     "Allan Sly",
+     "Morton Steinau",
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "De nuit, Evarts et Sly glissent dans la chambre de Steinau, décrochent le Mondrian et le remplacent par une planche de toile cirée rayée. Le lendemain, la disparition provoque la panique : Albers menace de la colère et invoque 50 000 dollars, qu'Anni réduit. Une assemblée est convoquée, une fouille commence, et en quelques heures le tableau revient dans la chambre de Steinau. Les farceurs se taisent, et Albers marmonne « Ein sehr schlechter Witz ! ».",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00656",
+     "EV-02573"
+    ]
+   },
+   {
+    "titre": "Le procès de Rice après la lecture d'Adamic",
+    "date": "1936-02",
+    "lieu": "réunion de la communauté (lieu non précisé par les fiches)",
+    "personnages": [
+     "Louis Adamic",
+     "Heinrich Rice",
+     "Joe Martin",
+     "John Evarts",
+     "Hendrickson",
+     "Barber",
+     "Nat French",
+     "Wunsch",
+     "Goldenson",
+     "Zeuch"
+    ],
+    "deroule": "Adamic lit la première partie de son brouillon, qui passe bien. Quand il arrive au portrait de Rice en chef et sauveur, l'assemblée se fracture. Joe Martin, Evarts, Hendrickson, Barber et Nat French attaquent ; Wunsch prend la défense de Rice ; Goldenson lance sa formule sur Socrate et Jésus ; Zeuch dénonce le ghost-writing. Rice, pipe aux lèvres, avoue son impatience et sa faim de reconnaissance, et appelle à faire de petits « anti-Rice ». Le débat dure ensuite des semaines.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02571",
+     "EV-02550",
+     "EV-02576",
+     "EV-02577",
+     "SC-00657",
+     "CI-01292",
+     "CI-01293",
+     "CI-01268"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Février, dans l'atelier d'Albers de retour du Mexique, pendant qu'il revoit ses fragments de poterie et ses figurines.",
+    "vers_date": "1935-12",
+    "vers": "Le voyage d'hiver au Mexique : Oaxaca, Monte Albán, Mitla, et les fragments achetés aux paysans. Josef y découvre « l'art ancien ».",
+    "refs": [
+     "SC-00627",
+     "SC-00633"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Pendant la querelle sur le brouillon, quand les étudiants repensent à l'arrivée du couple Adamic.",
+    "vers_date": "1936-01",
+    "vers": "L'arrivée de Louis et Stella Adamic, venus pour une visite d'après-midi sur la suggestion de Henry Allen Moe, et leur conversation prolongée avec Rice.",
+    "refs": [
+     "EV-02566",
+     "EV-02568"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La lecture contestée du brouillon, qui nourrit déjà le débat sur Rice.",
+    "vers_date": "1936-04",
+    "vers": "Parution de l'article dans Harper's, flanqué de la réplique de DeVoto qui compare le collège à un sanatorium d'amateurs. La querelle devient publique, et le collège reçoit ensuite des dizaines de lettres par jour.",
+    "refs": [
+     "EV-02583",
+     "EV-02578",
+     "EV-02581"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le trimestre d'hiver, quand Albers prépare ses projets d'été.",
+    "vers_date": "1936-06",
+    "vers": "Les Albers repartent au Mexique pour trois mois. Josef peint ses huiles Archaeologic, Anni tisse Ancient Writing et Monte Alban, et Clave de sol est exposé à El Nacional.",
+    "refs": [
+     "EV-02595",
+     "EV-02597",
+     "EV-02598"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les tensions entre Rice et une partie du corps enseignant, déjà sensibles en février.",
+    "vers_date": "1936-11",
+    "vers": "La résolution de non-réappointement contre Knickerbocker et Goldenson, votée six semaines après la rentrée selon Duberman ou après Thanksgiving selon Chaddock. Les deux datations ne se concilient pas.",
+    "refs": [
+     "EV-02609",
+     "EV-02619",
+     "EV-02610"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les querelles de ce mois sur la gouvernance du collège.",
+    "vers_date": "1936-12-07",
+    "vers": "Zeuch exige une réunion nocturne et l'appel est rejeté. La démission de Goldenson est autorisée, et Zeuch parle de « début de la fin ».",
+    "refs": [
+     "EV-02622",
+     "EV-02629"
+    ]
+   }
+  ],
+  "motifs": [
+   "La farce comme contre-pouvoir : le canular du Mondrian contre l'autorité et le goût d'Albers.",
+   "La renommée dévorante : Adamic « éponge » les étudiants, et Rice devient héros public.",
+   "La parole sous surveillance : le désir, le silence et la peur de la colère.",
+   "Le ghost-writing et la vérité du portrait : qui parle à la place de qui.",
+   "Les lettres et la presse : la publicité qui fracture le collège au lieu de le soutenir.",
+   "L'exil et le retour : Albers entre le Mexique et Black Mountain."
+  ],
+  "lacunes": "Plusieurs points restent incertains. La durée du séjour Adamic varie de deux à trois mois selon les sources. La date de la lecture du brouillon oppose février (Chaddock) à mars (Duberman). Le voyage d'hiver des Albers est diversement numéroté (premier ou deuxième), et la distance parcourue varie entre 400 et 4000 km. Les fiches ne donnent ni le temps qu'il fait, ni les cours ou le programme de travail de février, ni la musique ou les repas. La date de l'interview de Rice et les réflexions d'Evarts dans son journal ne sont pas datées avec précision. La proposition de Rice de « fermer le collège » et la visite de Walter Locke restent non datées. Enfin, l'identité du diariste « John » n'est pas établie. Les échos de Goodman Reader (EC-01545 à EC-01548) ne concernent pas ce collège et n'ont pas été utilisés."
+ }
+}

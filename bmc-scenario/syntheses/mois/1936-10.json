@@ -1,0 +1,320 @@
+{
+ "passe": "mois",
+ "cle": "1936-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 7830,
+  "sortie": 18797,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-10",
+  "session": "Trimestre d'automne, après la rentrée de septembre (déduit : les fiches ne donnent pas de terme administratif)",
+  "saison_et_climat": "Automne (octobre). Les fiches ne décrivent ni la météo ni le paysage de la Caroline du Nord à ce moment : c'est une lacune, à ne pas combler par invention.",
+  "situation": "Le collège entre dans son premier trimestre après la rentrée, avec environ 55 étudiants. Les réunions de faculté sur l'enseignement se succèdent (28 septembre, 12 octobre, 19 octobre) et chaque débat met en cause la pédagogie elle-même : celle de Rice, celle d'Albers, celle de Zeuch. Le Board vient de voter pour la première fois des salaires au-delà des frais de subsistance. En toile de fond pèsent la polémique Adamic-DeVoto du printemps et de l'été, et le malaise autour de Knickerbocker et Goldenson, dont la résolution de non-réappointement est datée différemment selon les sources. Albers est au collège ; sa peinture est exposée hors de Black Mountain (Quatre Painters), et il écrira en novembre qu'il n'a pas peint depuis son retour.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "William Zeuch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Xanti Schawinsky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tasker Howard",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Harrington",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "James Gore King",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Knickerbocker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Irene Schawinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Goldenson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Joe Martin",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Georgia",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-09-14",
+    "precision": "periode",
+    "ce_qui_arrive": "Bill de Kooning est montré pour la première fois dans un musée (MoMA, New Horizons in American Art), hors du collège ; il y rencontre le critique Harold Rosenberg. L'exposition court jusqu'au 16 octobre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02605"
+    ]
+   },
+   {
+    "date": "1936-09-28",
+    "precision": "periode",
+    "ce_qui_arrive": "Deux réunions de faculté (28 septembre et 12 octobre) dont les procès-verbaux mentionnent Albers, vraisemblablement au sujet de son enseignement ; c'est une inférence des éditeurs, non un fait écrit.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02607"
+    ]
+   },
+   {
+    "date": "1936-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Quatre Painters (Société Anonyme) : Albers envoie six peintures récentes. Le catalogue maigre contient son manifeste « Why I Favor Abstract Art », premier texte public de sa part en faveur de l'art abstrait. L'exposition part en tournée à Bennington.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02611"
+    ]
+   },
+   {
+    "date": "1936-10-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Débat sur les personnalités « désintégrées » : Zeuch défend la place des profils bizarres, Albers soutient que chaque école choisit ses personnalités, Rice le teste sur les mauvais enseignants et clôt par une référence au Seigneur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02613",
+     "SC-00667"
+    ]
+   },
+   {
+    "date": "1936-10-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion sur la présence des délégués étudiants : Albers plaide pour des réunions réservées aux enseignants (médecins, parents, Gertrude Stein) ; les délégués Howard et Harrington défendent leur place, puis sortent en cours de séance.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02615",
+     "SC-00667"
+    ]
+   },
+   {
+    "date": "1936-10-19",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion sur « l'impérialisme dans l'enseignement » : Albers définit le maître impérialiste comme celui qui poursuit son propre intérêt ; Schawinsky décrit la manière dont Rice « collecte » les idées ; Rice répond qu'on ne débat pas d'opinions sur des faits.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02616",
+     "SC-00668"
+    ]
+   },
+   {
+    "date": "1936-10-19",
+    "precision": "jour",
+    "ce_qui_arrive": "Débat sur le feedback : Zeuch refuse tout éloge, Rice le presse, Albers résume la voie de la parcimonie, Knickerbocker défend le cours magistral qui peut inspirer.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02612",
+     "SC-00669"
+    ]
+   },
+   {
+    "date": "1936-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board vote pour la première fois des salaires au-delà des frais de subsistance, fixés sur la base du besoin : Rice et Wunsch 2 100 $, Albers 1 700 $, Georgia 1 300 $, Martin 300 $. Les montants ne deviendront publics qu'en juin 1937.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02614"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent ni repas ni musique pour ce mois. On connaît en revanche le rythme de travail : des réunions de faculté espacées de deux à trois semaines, longues et tendues, où l'enseignement est disséqué. Albers enseigne le dessin, et Rice renvoie Zeuch à ses cours. Wunsch a inauguré à l'automne son cours d'écriture créative, Schawinsky a démarré ses Stage Studies, et Irene Schawinsky fait les costumes sans être nommée. Le work program vient d'être formalisé. Pour la communauté, les débats d'enseignement sont en partie la vie ordinaire elle-même.",
+  "tensions": [
+   "Feedback : Zeuch refuse la louange, Rice le raille, Knickerbocker défend le cours magistral contre la méthode de la collecte des idées.",
+   "Qui parle de qui : Albers veut des réunions d'enseignants seuls, les délégués étudiants refusent d'être écartés et sortent sous la pression.",
+   "Démocratie et tyrannie : Albers accuse Rice d'impérialisme pédagogique ; Rice répond qu'il peut enseigner ainsi « parce qu'il ne sait pas », et qu'on ne débat pas des faits.",
+   "Mauvais enseignants et insécurité : King confie que certains professeurs se sentent en insécurité ; Rice refuse les « opérations minières » pour en extraire le bon.",
+   "Argent et rancunes : les premiers salaires votés sur le besoin posent les bases de comparaisons qui éclateront en 1937.",
+   "Crise Knickerbocker-Goldenson : la décision de non-réappointement pourrait être contemporaine de ce mois selon Duberman (environ six semaines après la rentrée), alors que Chaddock la place après Thanksgiving ; l'échéance reste floue.",
+   "Ombre de l'article Adamic et de la polémique DeVoto : les lettres du printemps et les photos du New York Times continuent de peser sur l'image publique du collège."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Faut-il parler devant les délégués étudiants ?",
+    "date": "1936-10-12",
+    "lieu": "Salle de réunion, Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "John Andrew Rice",
+     "Tasker Howard",
+     "John Harrington",
+     "James Gore King",
+     "Theodore Dreier"
+    ],
+    "deroule": "Rice demande si les questions de personnalités peuvent être abordées devant les délégués. Albers plaide pour l'intimité des réunions d'enseignants, en citant Gertrude Stein. Howard et Harrington répliquent ; Rice demande si le problème n'est pas de préserver le droit d'un âge d'être cet âge. Les délégués sortent. King confie qu'il y a de mauvais professeurs qui se sentent en insécurité ; Rice juge trop fastidieux d'en extraire le bon et enchaîne sur les trucs du métier.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00667"
+    ]
+   },
+   {
+    "titre": "Qu'est-ce que l'impérialisme dans l'enseignement ?",
+    "date": "1936-10-19",
+    "lieu": "Salle de réunion, Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "John Andrew Rice",
+     "Theodore Dreier",
+     "Xanti Schawinsky",
+     "William Zeuch"
+    ],
+    "deroule": "Albers lance sa question. Zeuch définit l'impérialisme comme une « extrême démocratie », ce qui jette le doute ; Albers précise : le maître qui poursuit son intérêt hors de portée des étudiants. Schawinsky témoigne de la méthode de Rice qui récolte l'idée de chacun ; Rice nuance : cela ne vaut que pour un cours peu factuel, et il peut enseigner ainsi « parce qu'il ne sait pas ». La scène pose la frontière entre direction légitime et tyrannie.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00668"
+    ]
+   },
+   {
+    "titre": "Faculté débattant du feedback : Zeuch contre Rice",
+    "date": "1936-10-19",
+    "lieu": "Réunion de faculté (salle non précisée)",
+    "personnages": [
+     "William Zeuch",
+     "John Andrew Rice",
+     "Josef Albers"
+    ],
+    "deroule": "Zeuch affirme ne jamais dire « c'est un bon travail ». Rice le presse longuement sur son refus de la louange, Zeuch ne cède pas, et Rice soupire qu'il devrait suivre les cours de dessin d'Albers et s'y faire ignorer une fois sans un mot. Joute chaleureuse et acharnée sur la pédagogie même du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00669"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le 12 octobre, quand Albers invoque le Bauhaus pour défendre l'intimité des réunions d'enseignants",
+    "vers_date": null,
+    "vers": "Le souvenir du Bauhaus, évoqué sans que la fiche en détaille le contenu : c'est l'expérience ancienne que mobilise Albers dans la querelle présente.",
+    "refs": [
+     "SC-00667"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le 12 octobre, quand Rice clôt le débat sur les mauvais enseignants par une référence au Seigneur",
+    "vers_date": "1936-02",
+    "vers": "La lecture par Adamic de « Education on a Mountain » : le portrait de Rice en chef et sauveur déclenche le procès du collège, Goldenson lançant qu'il faudrait « un peu de Jésus ». La date est disputée (février selon Chaddock, mars selon Duberman).",
+    "refs": [
+     "EV-02550",
+     "EV-02576",
+     "EV-02577",
+     "SC-00657"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le 19 octobre, quand Rice affirme qu'il enseigne parce qu'il ne sait pas",
+    "vers_date": "1936-01",
+    "vers": "La visite d'Adamic en janvier, pendant laquelle Rice expose longuement sa doctrine : enseigner la méthode et non le contenu, le processus et non les résultats. Adamic « éponge » les étudiants et surtout Rice.",
+    "refs": [
+     "EV-02547",
+     "CI-01337",
+     "SC-00668"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le mois d'octobre, où Albers n'a pas encore repris la peinture à Black Mountain",
+    "vers_date": "1936-06",
+    "vers": "L'été au Mexique : onze à douze huiles, aujourd'hui perdues, et l'exposition de Clave de sol et de gravures au hall d'El Nacional, saluée comme celle d'un fondateur de l'abstraction.",
+    "refs": [
+     "EV-02595",
+     "EV-02597",
+     "EV-02618"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le 19 octobre, quand Zeuch défend les personnalités désintégrées et que Rice ouvre la question des mauvais enseignants",
+    "vers_date": "1936-12-07",
+    "vers": "Zeuch exige une réunion nocturne de faculté ; l'appel contre la décision est rejeté le 7 décembre, la démission de Goldenson est autorisée, et Zeuch parle de « début de la fin ».",
+    "refs": [
+     "EV-02609",
+     "EV-02610",
+     "EV-02619"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le catalogue de Quatre Painters, publié en octobre avec le manifeste d'Albers",
+    "vers_date": "1937-02",
+    "vers": "L'étape de l'Addison Gallery, qui prolonge la tournée de l'exposition après Bennington.",
+    "refs": [
+     "EV-02611"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les salaires votés en octobre sur la base du besoin",
+    "vers_date": "1937-06",
+    "vers": "La publication des montants fait naître comparaisons et rancunes entre les enseignants.",
+    "refs": [
+     "EV-02614"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les Stage Studies de Schawinsky, démarrés à l'automne, avec Irene qui fait les costumes",
+    "vers_date": null,
+    "vers": "La performance qui aboutira au Spectodrama, datée de 1936 ou de 1937 selon les sources.",
+    "refs": [
+     "EV-02516",
+     "EV-02521"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le silence d'Albers sur sa peinture depuis son retour, en octobre",
+    "vers_date": "1936-11",
+    "vers": "La lettre à Kandinsky : Barr a cité Albers dans Cubism and Abstract Art mais ne l'a pas inclus, et il n'a pas peint depuis son retour.",
+    "refs": [
+     "EV-02618"
+    ]
+   }
+  ],
+  "motifs": [
+   "Qui a le droit de parler de qui dans une communauté qui se veut sans hiérarchie",
+   "Enseigner sans savoir, ou savoir sans enseigner : la doctrine de Rice face à celle d'Albers",
+   "La louange refusée et le silence comme sanction",
+   "L'argent qui se mesure au besoin, et les rancunes qu'il prépare",
+   "La discrétion et la publicité, entre tirés à part refusés et lettres de lecteurs"
+  ],
+  "lacunes": "On ignore le climat, les repas, la musique et le détail de la vie quotidienne pour octobre. Les dates des réunions ne sont précises que pour les 12 et 19 octobre. La date de la résolution de non-réappointement de Knickerbocker et Goldenson reste disputée : environ six semaines après la rentrée (Duberman, donc possiblement octobre) ou après Thanksgiving (Chaddock). L'attribution de la formule « je ne veux pas arrêter les souris » reste incertaine, Rice ou Albers. La date exacte des premiers salaires n'est donnée que comme « octobre »."
+ }
+}

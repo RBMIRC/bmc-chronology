@@ -1,0 +1,447 @@
+{
+ "passe": "mois",
+ "cle": "1954-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 17807,
+  "sortie": 28853,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1954-12",
+  "session": "Coupure d'hiver : suspension des cours juste avant Noël, fermeture annoncée pour trois mois selon Duberman, et collège replié sur un petit groupe.",
+  "saison_et_climat": "Hiver rude. Le charbon est presque introuvable et les fours à bois dévorent une camionnée de bois en une soirée. À New York, le matin du réveillon est gelé (pont George-Washington, alcôve glacée). Dans le New Jersey, le Noël est froid et brumeux.",
+  "situation": "Le collège est au plus bas. Les cours sont suspendus, la moitié des présents est partie et huit à dix personnes restent. Les finances sont épuisées : l'appel de décembre ne rapporte qu'environ 250 dollars, et des frais de plusieurs centaines de dollars sont annoncés pour le trimestre suivant. La ferme s'achemine vers l'arrêt. Olson, recteur de fait et de droit, reste le centre de gravité, tandis que Rumaker part pour New York et que Creeley est reparti à Majorque depuis l'automne.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Huit à dix personnes restées sur place, non nommées",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Michael Rumaker (jusqu'à son départ pour New York, avant Noël)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Baker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Connie Olson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stefan et Hilda Wolpe",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1954-12",
+    "precision": "mois",
+    "ce_qui_arrive": "La faculté suspend les cours et ferme le collège pour l'hiver afin d'économiser charbon et électricité, idée d'Olson empruntée à Antioch. Huss et Olson annoncent que les étudiants qui reviennent devront payer quelques centaines de dollars de frais pour le trimestre suivant, et les bourses de travail ont disparu.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06498",
+     "EV-06492"
+    ]
+   },
+   {
+    "date": "1954-12-15",
+    "precision": "jour",
+    "ce_qui_arrive": "L'appel du 15 décembre, qui s'ouvre sur « This is the craziest sort of appeal », ne rapporte qu'environ 250 dollars. Son ton consterne Forbes et les anciens. La date est donnée par la synthèse, non par la fiche.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06493"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Pendant la suspension, environ la moitié du groupe restant s'en va, et il ne reste que huit à dix personnes. Au moins une tentative de suicide et des menaces d'autres ont lieu dans le collège réduit.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06492"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Affaire du fils arriéré d'un riche Sudiste : sous l'appât d'un don, le collège accepte l'admission après une longue réunion, malgré ses principes. Le père doit signaler sa décision en survolant le campus, et pendant trois ou quatre jours on guette un avion qui ne vient jamais. L'argent ne vient pas.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06491",
+     "SC-01751"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Un nouvel incendie détruit presque toutes les peintures de Joe Fiore, dans un hiver où presque aucun charbon ne peut être acheté.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06492"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker quitte le collège à l'aube avec sa vieille valise, pour loger chez Ben Weber à New York (230 West 11th Street). Ben lui offre son lit par lettre ; Rumaker accepte par désespoir, malgré ses réserves.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06499",
+     "EV-06498"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Ben Weber annonce au dîner un Prix de Rome et part une à deux semaines en Italie. Rumaker garde l'appartement, menacé par une série de cambriolages dans le quartier.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06500"
+    ]
+   },
+   {
+    "date": "1954-12-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Création de Minutiae à la Brooklyn Academy of Music : chorégraphie de Cunningham, musique de Cage, costumes de Charlip, décor autonome de Rauschenberg.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06508",
+     "EV-06509"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Rauschenberg expose ses « red paintings » à l'Egan Gallery, où deux toiles sont vendues.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06507"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Soirée dans un loft de Hoboken. Goodman, en habit d'ouvrier, se lamente d'avoir blessé un jeune homme, puis lance à Rumaker « So you think I'm a devil ». Rumaker, trahi par Glenn Lewis, rentre seul en bus à Manhattan, chez Mary Ann Fretz à Minetta Lane.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06494",
+     "SC-01752"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Jorge Fick lit des poèmes de Hart Crane à Pat Nelson sur First Avenue. Rumaker, venu chercher l'immeuble de Maxwell Bodenheim, écoute à distance sans être vu.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06497",
+     "SC-01754"
+    ]
+   },
+   {
+    "date": "1954-12-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Matin gelé : Rumaker prend le train vers le pont George-Washington, trouve dans une alcôve un vieil ivrogne apparemment mort de froid, puis, en autostop vers le New Jersey, assiste à la bagarre d'un marine ivre devant une pharmacie. Il note tout pour son carnet.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06512",
+     "SC-01756",
+     "EV-06503"
+    ]
+   },
+   {
+    "date": "1954-12-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Noël en famille à National Park : whisky et bières de Philadelphie, poignée de main molle du père, « Whyn't you get a haircut? », puis messe de minuit dans la petite église blanche de l'enfance.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06501",
+     "EV-06502",
+     "SC-01755"
+    ]
+   },
+   {
+    "date": "1954-12-25",
+    "precision": "jour",
+    "ce_qui_arrive": "À San Francisco, au matin de Noël, Duncan frappe chez Jonathan Williams et se présente comme son cadeau de Noël. Hors de Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06513",
+     "SC-01757"
+    ]
+   },
+   {
+    "date": "1954-12-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Concert de Morton Feldman à l'Egan Gallery, au milieu des red paintings de Rauschenberg.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06514",
+     "SC-01758"
+    ]
+   },
+   {
+    "date": "1954-12-31",
+    "precision": "jour",
+    "ce_qui_arrive": "Réveillon à Times Square avec Merrill Gillespie : foule écrasante, fuite vers Bryant Park, whisky fini sur un banc. Au petit matin, dans le lit de Ben, Rumaker cède à Merrill pour la première fois, dans la culpabilité et le secret.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06515",
+     "SC-01759"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Rumaker commence « Exit 3 » sur la machine portative de Ben, à la table de cuisine donnant sur le jardin de St. John's, et travaille jusqu'au Nouvel An tout en cherchant du travail.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06504"
+    ]
+   }
+  ],
+  "quotidien": "Les repas communs sont finis. Ceux qui restent vivent en communes de trois à cinq personnes, cuisinent sur des plaques chauffantes et se ravitaillent à l'A&P avec la complicité de la caissière, pour environ deux dollars par semaine chacun (synthèse 1954). Les enseignants n'ont plus de salaire depuis un an et les bourses de travail ont disparu. Les cours sont suspendus : rien n'est documenté sur la musique ou les ateliers pendant la pause. Les soirées de la ferme sont désertées et le fumier, les vaches et le bois ne suffisent plus à chauffer les lieux.",
+  "tensions": [
+   "Le collège accepte l'admission d'un enfant contre une promesse d'argent qui n'arrive pas, en contradiction avec ses principes éducatifs.",
+   "L'appel de décembre, au ton délirant, déplaît à Forbes et aux anciens alors que la situation est réellement critique.",
+   "Manque d'argent : charbon et bois introuvables, frais exigés pour le trimestre suivant, bourses de travail supprimées, enseignants non payés depuis un an.",
+   "Olson au centre des tensions : sa liaison avec Betty Kaiser est connue de Rumaker, et Connie reste absente du récit de décembre.",
+   "Rumaker, entre Ben qui lui offre son lit et son propre désir pour Merrill, est aussi trahi par Glenn Lewis devant Goodman.",
+   "Pression familiale : silence du père, remarque sur les cheveux, honte d'un fils qui doit rester caché.",
+   "Hart Crane est interdit en classe, mais lu en cachette ; Creeley est absent et la vie du collège se réduit à quelques personnes.",
+   "Le collège réduit oscille entre découragement et tentatives de sauvetage, avec une menace de suicide documentée."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Guetter l'avion",
+    "date": "1954-12",
+    "lieu": "champs adjacents au collège",
+    "personnages": [
+     "membres de la communauté restante"
+    ],
+    "deroule": "Pendant trois ou quatre jours, après la décision honteuse d'admettre le fils arriéré du riche Sudiste, hommes et femmes errent dans les champs, nez en l'air, pour voir si le père viendra incliner les ailes de son avion. L'avion ne vient jamais. Une citation attribuée à Creeley, dont la présence sur place est contestée, résume le sentiment de gâchis.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01751",
+     "EV-06491"
+    ]
+   },
+   {
+    "titre": "Le départ à l'aube",
+    "date": "1954-12",
+    "lieu": "Black Mountain College, Gatehouse puis route comtale",
+    "personnages": [
+     "Michael Rumaker"
+    ],
+    "deroule": "Valise cabossée de sa mère à la main, Rumaker quitte le collège avant le jour, passe le Gatehouse, redescend la montagne vers la route comtale, puis gagne Raleigh et l'US 1 en autostop vers New York.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06499",
+     "EV-06498"
+    ]
+   },
+   {
+    "titre": "« The craziest sort of appeal »",
+    "date": "1954-12-15",
+    "lieu": null,
+    "personnages": [],
+    "deroule": "L'appel de décembre s'ouvre sur cette phrase, qui consterne Forbes et les anciens. Il ne rapporte qu'environ 250 dollars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06493"
+    ]
+   },
+   {
+    "titre": "Le Prix de Rome de Ben",
+    "date": "1954-12",
+    "lieu": "appartement de Ben Weber, 230 West 11th Street, New York",
+    "personnages": [
+     "Ben Weber",
+     "Michael Rumaker"
+    ],
+    "deroule": "Au dîner, Ben annonce, rougissant, son Prix de Rome. Il s'envole une à deux semaines pour l'Italie et laisse Rumaker garder l'appartement contre les cambriolages du quartier.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06500"
+    ]
+   },
+   {
+    "titre": "L'ivrogne du pont George-Washington",
+    "date": "1954-12-24",
+    "lieu": "alcôve à la base du câble sud du pont George-Washington",
+    "personnages": [
+     "Michael Rumaker"
+    ],
+    "deroule": "Par un matin glacial, Rumaker découvre un vieil homme ivre, violet et raide, apparemment mort de froid. Il note les bouteilles de pinte vides, se dit qu'on le trouvera bien assez tôt, et poursuit vers le New Jersey Turnpike, déjà en train de noter pour son carnet.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01756",
+     "EV-06512"
+    ]
+   },
+   {
+    "titre": "Noël à National Park",
+    "date": "1954-12-24",
+    "lieu": "National Park, New Jersey, puis petite église blanche",
+    "personnages": [
+     "Michael Rumaker",
+     "son père",
+     "sa mère"
+    ],
+    "deroule": "Whisky Carstair's et bières de Philadelphie entretiennent une familiarité superficielle. Le père serre une main molle et ne commente que la coupe de cheveux de son fils. Suit la messe de minuit dans la petite église où Rumaker fut enfant de chœur.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01755",
+     "EV-06501",
+     "EV-06502"
+    ]
+   },
+   {
+    "titre": "Jorge lit Crane",
+    "date": "1954-12",
+    "lieu": "porte d'un tenement, First Avenue, Lower East Side, New York",
+    "personnages": [
+     "Jorge Fick",
+     "Pat Nelson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Rumaker cherche l'immeuble du meurtre Bodenheim et aperçoit Jorge Fick, emphatique, lisant des poèmes de Crane à Pat Nelson, qui le regarde avec un amusement séduisant. Rumaker se tient à distance et écoute sans être vu.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01754",
+     "EV-06497"
+    ]
+   },
+   {
+    "titre": "Goodman en habit d'ouvrier",
+    "date": "1954-12",
+    "lieu": "loft, Hoboken, New Jersey",
+    "personnages": [
+     "Paul Goodman",
+     "Glenn Lewis",
+     "Michael Rumaker"
+    ],
+    "deroule": "Goodman répète son inquiétude d'avoir blessé un jeune homme cet après-midi. Rumaker souffle à Glenn que Goodman ressemble à un diable ; Goodman s'approche et lâche « So you think I'm a devil ». Rumaker, trahi, rentre seul en bus à Manhattan.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01752",
+     "EV-06494"
+    ]
+   },
+   {
+    "titre": "Réveillon à Times Square",
+    "date": "1954-12-31",
+    "lieu": "Times Square puis Bryant Park, New York",
+    "personnages": [
+     "Michael Rumaker",
+     "Merrill Gillespie"
+    ],
+    "deroule": "Merrill arrive chez Ben avec une pinte de whisky et entraîne Rumaker à Times Square. Panique dans la foule, fuite vers une rue latérale, puis banc de Bryant Park où ils finissent la bouteille au son des célébrations. De retour dans le lit de Ben, ils passent la première nuit ensemble.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01759",
+     "EV-06515"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Noël chez les parents à National Park : la familiarité du réveillon ravive la chambre d'enfance aux cloisons de papier",
+    "vers_date": null,
+    "vers": "Enfance de Rumaker au New Jersey : écouter les frottements des parents à travers les cloisons, craindre l'incendie",
+    "refs": [
+     "EC-03034"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La suspension du collège et la peur de l'effondrement, en décembre",
+    "vers_date": null,
+    "vers": "Une nuit d'hiver de l'enfance où le père ivre est parti en hurlant qu'il ne reviendrait jamais ; le fils, effrayé pour la paye, est resté hébété en classe",
+    "refs": [
+     "EC-03035"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'incendie des peintures de Joe Fiore, dans l'hiver 1954-1955",
+    "vers_date": "1952",
+    "vers": "Le feu de forêt de 1952 qui a détruit Roadside et hante encore l'archive des Crosby",
+    "refs": [
+     "EC-03039"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le départ en autostop vers New York, en décembre 1954",
+    "vers_date": null,
+    "vers": "Le premier voyage à New York, plus sombre, hanté par les bars gay du Village",
+    "refs": [
+     "EC-03042"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Noël 1954 : l'œil froid du futur écrivain commence à noter l'ivrogne gelé et le marine bagarreur",
+    "vers_date": null,
+    "vers": "Les carnets et les nouvelles qui feront de ces incidents une matière d'écriture",
+    "refs": [
+     "EC-03044"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le Thanksgiving passé, relu comme dernier dîner convivial, avant la suspension",
+    "vers_date": "1955",
+    "vers": "Les rassemblements suivants, de plus en plus rudes et laids, jusqu'à la fermeture",
+    "refs": [
+     "EC-03041"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La liaison d'Olson et la vie en commun du collège à la fin de 1954",
+    "vers_date": null,
+    "vers": "La révélation tardive de la liaison Boldereff et du non-mariage de Charles et Connie",
+    "refs": [
+     "EC-03038"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le désir pour Merrill et l'hiver new-yorkais de 1955",
+    "vers_date": "1958-02",
+    "vers": "La lettre de Gloucester où Olson raconte le rêve qu'il a fait de Rumaker au printemps 1955",
+    "refs": [
+     "EC-03111"
+    ]
+   }
+  ],
+  "motifs": [
+   "le foyer paternel qui attire et repousse",
+   "guetter ce qui ne viendra pas : l'avion, l'argent",
+   "Hart Crane lu en cachette, malgré l'interdit d'Olson",
+   "le secret queer contre la famille et le collège",
+   "écrire ce que l'on connaît : la matière des nouvelles",
+   "la chute d'un idéal communautaire qui se replie sur quelques personnes",
+   "l'arrachement au familier, à la manière de Maximus (« estranged »)"
+  ],
+  "lacunes": "On ignore la date exacte de la suspension et du départ de Rumaker, ainsi que si Olson reste sur place après la suspension. La date du 15 décembre pour l'appel ne vient que de la synthèse. On ignore qui sont les huit à dix personnes restées. SC-01751 cite Creeley parmi les personnages, alors que les fiches le disent déjà parti depuis l'automne ; la citation est peut-être rapportée de loin. EV-06502 situe la maison familiale en Pennsylvanie, tandis qu'EV-06501 et EV-06512 la placent à National Park, New Jersey. SC-01755 liste la mère comme personnage, mais le texte décrit le père. Le meurtre Bodenheim n'est pas daté. Rien n'est documenté sur les cours, la musique ou le quotidien du collège en dehors de la suspension. La naissance de Charles Peter reste datée de septembre ou de l'automne selon les sources."
+ }
+}

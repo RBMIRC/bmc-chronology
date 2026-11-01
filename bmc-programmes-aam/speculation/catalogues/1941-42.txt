@@ -1,0 +1,275 @@
+# Concordance des cours 1941-42 → gabarits de l'année reconstituée.
+#
+# ATTENTION : la liste des cours de 1941-42 n'est pas lisible dans le corpus. La fiche du catalogue 1941-42 (2017.40.017,
+# fiche 6585) n'a pas de texte transcrit ; ses 15 images (scans/017-01 à 017-15, OCR refait le 31/10/2026) ne contiennent
+# que les pages liminaires : sommaire, calendrier (017-03), buts, organisation, situation, vie, études, divisions, travail,
+# examinateurs. Ni corps enseignant ni « Courses of Instruction ». La liste du catalogue 1940-41 (110 titres, relue sur
+# scan) est donc reconduite (code LISTE_VOISINE, +15), et les présences sont corrigées d'après les documents de l'année :
+#   2017.40.260a-b (août 1941) : nominations de Roland Boyden (histoire) et de Frances de Graaff (français) ; Albers
+#     enseigne l'été à Harvard ; Rosen enseigne l'été à Chapel Hill ; Paul Radin nommé (anthropologie)
+#   2017.40.261a-b (oct. 1941) : rentrée le 22 septembre à Lake Eden, « seventy students and twenty teachers » ; Albers
+#     de retour ; Nathan Rosen part en septembre, Peter Bergmann le remplace en physique
+#   2017.40.262a-b (nov. 1941) : Lindsley part (défense nationale), « chemistry classes are being conducted by Margot
+#     Bergmann » ; Howard Dearstyne, assistant de Kocher, « will also teach a course in architectural structure » ;
+#     « the course in American Life and Letters » (Kurtz) ; Radin parle à la radio
+#   2017.40.362 (févr. 1942) : « Robert Babcock conducts class in political science »
+#   bulletins de la faculté et de la communauté (déc. 1941 – mai 1942, 2017.40.052 à 075) : Kocher, Jalowetz, Evarts,
+#     Nelson, les Straus, Kurtz, Mangold, de Graaff, French, Radin, Babcock, Boyden, Dreier ; « students in Drama I » ;
+#     « the American Life and Letters class » ; chœur le mardi soir
+#   2017.40.076a-f (été 1942) : départs de fin d'année (Nelson démissionne ; Babcock part en mai ; Boyden dans la Marine
+#     en juin ; French au gouvernement à l'automne) ; Carpenter « member of the Faculty for two years » ; « During the
+#     Spring Semester the Architecture Class worked on designs for bomb shelters »
+# Absents des documents de l'année : Richard Gothe (économie), W. C. Barnes (histoire), Alexander Reed (art).
+#
+# C|id|discipline|titre (liste 1940-41)|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ART AND ARCHITECTURE (J. et A. Albers, A. L. Kocher, H. Dearstyne) ----------
+C|art.dessin1|Art and Architecture|Introductory Drawing|Introductory Drawing (1940-41)|—
+C|art.dessin2|Art and Architecture|Advanced Drawing|Advanced Drawing (1940-41)|—
+C|art.couleur1|Art and Architecture|Introductory Color|Introductory Color (1940-41)|—
+C|art.couleur2|Art and Architecture|Advanced Color|Advanced Color (1940-41)|—
+C|art.werklehre|Art and Architecture|Werklehre|Werklehre (1940-41)|—
+C|art.tissage_t|Art and Architecture|Weaving Theory|Weaving Theory (1940-41)|—
+C|art.tissage_p|Art and Architecture|Weaving Practice|Weaving Practice (1940-41)|—
+C|art.conferences|Art and Architecture|General Art Lectures|General Art Lectures (1940-41)|—
+C|art.groupe|Art and Architecture|Group Art Conferences|Group Art Conferences (1940-41)|—
+C|arch.1|Art and Architecture|Contemporary Architecture I|Contemporary Architecture I (1940-41)|—
+C|arch.2|Art and Architecture|Contemporary Architecture II|Contemporary Architecture II (1940-41)|—
+C|arch.structure|Art and Architecture|Architectural Structure and Design Detail (on new College buildings)|— (nouveau, 1941-42)|—
+U|A1|Josef Albers|4|LISTE_VOISINE+R_NOMME+VOISIN|art.dessin1|||1|Albers de retour après son année à Harvard (discours de rentrée du 22 sept. 1941, 2017.40.261a-b) ; dessin à Albers depuis 1933|||
+U|A2|Josef Albers|4|LISTE_VOISINE+R_NOMME+VOISIN|art.dessin2|||1|idem ; seul enseignant de dessin attesté (Reed absent des documents)|||
+U|A3|Josef Albers|2|LISTE_VOISINE+R_NOMME+VOISIN|art.couleur1|||1|idem|||
+U|A4|Josef Albers|2|LISTE_VOISINE+R_NOMME+VOISIN|art.couleur2|||1|idem|||
+U|A5|Josef Albers|2|LISTE_VOISINE+R_NOMME+VOISIN|art.werklehre|||1|idem|||
+U|AA1|Anni Albers|1|LISTE_VOISINE+R_NOMME+VOISIN|art.tissage_t|||1|Anni Albers présente (conférence au Woman's Club de Black Mountain, mars 1942)|||
+U|AA2|Anni Albers|4|LISTE_VOISINE+R_NOMME+VOISIN|art.tissage_p|||1|idem ; bijoux avec Bill Reed (mars 1942)|||
+U|A6|Josef Albers; Anni Albers|1|LISTE_VOISINE+R_NOMME+VOLUME+OCCASION|art.conferences||art.groupe|1/2|groupe Art des Albers (1938-39)||séance indicative|
+U|KO1|A. Lawrence Kocher|3|LISTE_VOISINE+R_NOMME+VOLUME|arch.1|||1|Kocher présent toute l'année (bulletins 1941-42) ; « the Architecture Class worked on designs for bomb shelters » au printemps (2017.40.076a-f)||volume supposé|
+U|KO2|A. Lawrence Kocher|3|LISTE_VOISINE+R_NOMME+VOLUME|arch.2|projets individuels||1/2|idem||cours avancé : chance 1/2|
+U|HD1|Howard Dearstyne|3|MEME_ANNEE+R_ATTESTE+VOLUME|arch.structure|travail sur les nouveaux bâtiments du collège||1|« He will also teach a course in architectural structure and design detail work on new college buildings » (nov. 1941, 2017.40.262a-b)||arrivée en novembre : début supposé au 3 novembre ; volume supposé|fall@1941-11-03..1942-01-31,spring
+
+# ---------- MUSIC (J. Evarts, H. Jalowetz, J. A. Nelson, G. Straus) ----------
+C|mu.app1|Music|Music Appreciation I|Music Appreciation I (1940-41)|—
+C|mu.app2|Music|Music Appreciation II|Music Appreciation II (1940-41)|—
+C|mu.app3|Music|Music Appreciation III|Music Appreciation III (1940-41)|—
+C|mu.harmonie|Music|Harmony and Counterpoint|Harmony and Counterpoint (1940-41)|—
+C|mu.oreille|Music|Ear Training and Keyboard Harmony|Ear Training and Keyboard Harmony (1940-41)|—
+C|mu.instruments|Music|Instruction in Piano and Violin|Instruction in Piano and Violin (1940-41)|—
+C|mu.chant|Music|General Singing|General Singing (1940-41)|—
+C|mu.choeur|Music|Chorus|Chorus (1940-41)|—
+C|mu.acappella|Music|A Cappella Chorus|A Cappella Chorus (1940-41)|—
+C|mu.orchestre|Music|Orchestra|Orchestra (1940-41)|—
+C|mu.chambre|Music|Chamber Music|Chamber Music (1940-41)|—
+U|MU1|John Evarts|3|LISTE_VOISINE+R_NOMME+VOISIN+PRESENCE|mu.app1|||1|Evarts présent ; souvent à New York pour le collège (concert Steuermann-Kolisch, janv. 1942 ; retour le 15 mars 1942)|||
+U|MU2|John Evarts|3|LISTE_VOISINE+R_NOMME+VOISIN+PRESENCE|mu.app2|||1|idem|||
+U|MU3|John Evarts|3|LISTE_VOISINE+R_NOMME+VOLUME+PRESENCE|mu.app3|||1/2|idem||troisième niveau : chance 1/2|
+U|MU4|Heinrich Jalowetz|2|LISTE_VOISINE+R_NOMME+VOLUME|mu.harmonie|||1|Jalowetz présent toute l'année|||
+U|MU5|Jessie Ann Nelson|2|LISTE_VOISINE+R_NOMME+VOLUME|mu.oreille|||1|« Miss Jessie Ann Nelson, Instructor in Music during the past year » (2017.40.076a-f)|||
+U|MU6|John Evarts; Heinrich Jalowetz; Gertrude Straus|1|LISTE_VOISINE+R_NOMME+VOLUME+OCCASION|mu.instruments|leçons individuelles||1|piano : Evarts et Jalowetz ; violon : Trudi Straus (Ruthabeth Krueger, son élève, joue Bruch et Berg)||plage indicative|
+U|MU7|Heinrich Jalowetz|1|LISTE_VOISINE+R_NOMME+VOISIN|mu.chant|pour toute la communauté||1|idem|jeu 19:30-20:30||
+U|MU8|Heinrich Jalowetz|1|MEME_ANNEE+R_NOMME+HEURE_CADRE|mu.choeur|||1|« Chorus rehearsal » le mardi soir, attesté (9 déc. 1941, 27 janv. 1942)|mar 19:30-20:30|au Roundhouse (déc. 1941)|
+U|MU9|Heinrich Jalowetz|1|MEME_ANNEE+R_NOMME+VOLUME+JOUR|mu.acappella|groupe de madrigaux||1|« Madrigal group sings Christmas music » (17 déc. 1941)|ven 20:30-21:30|soirée choisie|
+U|MU10|Heinrich Jalowetz|3|LISTE_VOISINE+R_NOMME+VOISIN|mu.orchestre|||1|idem|||
+U|MU11|Heinrich Jalowetz; Gertrude Straus|2|LISTE_VOISINE+R_NOMME+VOLUME|mu.chambre|||1|Trudi Straus et Jalowetz jouent ensemble (concerts de 1941-42)|||
+
+# ---------- DRAMATICS (W. R. Wunsch, K. Kurtz) ----------
+C|dr.prod1|Dramatics|Play Production I|Play Production I (1940-41)|—
+C|dr.prod2|Dramatics|Play Production II|Play Production II (1940-41)|—
+C|dr.regie|Dramatics|Stagecraft|Stagecraft (1940-41)|—
+C|dr.histoire|Dramatics|History of the Drama|History of the Drama (1940-41)|—
+C|dr.shakespeare|Dramatics|Shakespeare and the Elizabethan Drama|Shakespeare and the Elizabethan Drama (1940-41)|—
+U|DR1|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOLUME|dr.prod1|débutants||1|« students in Drama I will present Suppressed Desires » (mars 1942)|||
+U|DR2|Robert Wunsch|2|LISTE_VOISINE+R_NOMME+VOLUME|dr.prod2||dr.regie|1/2|Wunsch, recteur et professeur de théâtre||niveau avancé ou régie|
+U|KU1|Kenneth Kurtz|3|LISTE_VOISINE+R_ELIM+VOLUME|dr.shakespeare||dr.histoire|1/2|Kurtz, littérature anglaise||un des deux à la fois|
+
+# ---------- WRITING (W. R. Wunsch, F. R. Mangold) ----------
+C|ecr.intro|Writing|Introductory Writing|Introductory Writing (1940-41)|—
+C|ecr.critique|Writing|Criticism and Writing|Criticism and Writing (1940-41)|—
+C|ecr.seminaire|Writing|Writing Seminar|Writing Seminar (1940-41)|—
+C|ecr.journalisme|Writing|Journalism|Journalism (1940-41)|—
+U|W1|Robert Wunsch|3|LISTE_VOISINE+R_NOMME+VOISIN|ecr.intro|||1|écriture à Wunsch depuis 1935|||
+U|W2|Frederick R. Mangold|2|LISTE_VOISINE+R_ELIM+VOLUME|ecr.critique||ecr.seminaire|1/2|Mangold présent (bulletins de 1942)|||
+U|W3|Robert Wunsch|2|LISTE_VOISINE+R_NOMME+VOISIN|ecr.journalisme|||1/2|idem||charge de recteur : chance réduite|
+
+# ---------- ENGLISH AND AMERICAN LITERATURE (K. Kurtz, F. R. Mangold, W. R. Wunsch) ----------
+C|en.survey|English|Introductory Survey of English Literature|Introductory Survey of English Literature (1940-41)|—
+C|en.medieval|English|Chaucer and Medieval Literature|Chaucer and Medieval Literature (1940-41)|—
+C|en.shakespeare|English|Shakespeare and the Elizabethan Drama|Shakespeare and the Elizabethan Drama (1940-41)|—
+C|en.xvii|English|Seventeenth Century Literature|Seventeenth Century Literature (1940-41)|—
+C|en.xviii|English|Eighteenth Century Literature|Eighteenth Century Literature (1940-41)|—
+C|en.romantique|English|The Romantic Movement|The Romantic Movement (1940-41)|—
+C|en.victorien|English|Victorian England|Victorian England (1940-41)|—
+C|en.am19|English|Nineteenth Century American Literature|Nineteenth Century American Literature (1940-41)|—
+C|en.amcontemp|English|Contemporary American Literature|Contemporary American Literature (1940-41)|—
+C|en.lectures|English|Readings in Literature|Readings in Literature (1940-41)|—
+C|en.forme|English|Form in Literature|Form in Literature (1940-41)|—
+C|en.roman|English|Problems of the Novel|Problems of the Novel (1940-41)|—
+C|ling.intro|English|General Introduction to Linguistics|General Introduction to Linguistics (1940-41)|—
+C|en.amlettres|English|American Life and Letters|— (nouveau, 1941-42)|—
+U|KU2|Kenneth Kurtz|3|LISTE_VOISINE+R_NOMME+VOISIN|en.survey|||1|Kurtz, seul spécialiste de littérature anglaise attesté|||
+U|KU3|Kenneth Kurtz|3|MEME_ANNEE+R_ATTESTE+VOLUME|en.amlettres|||1|« the teachers and students in the course in American Life and Letters » (nov. 1941) ; série radio « The American Dream » ; « the American Life and Letters class » (févr. 1942)||volume supposé ; enseignant : Kurtz (C de 2017.40.262a-b)|
+U|KU4|Kenneth Kurtz|3|LISTE_VOISINE+R_ELIM+VOISIN|en.xvii||en.medieval;en.xviii;en.lectures|1/4|idem||un semestre, années alternées : complément de 1940-41 (romantisme, époque victorienne)|fall
+U|KU5|Kenneth Kurtz|3|LISTE_VOISINE+R_ELIM+VOISIN|en.xviii||en.medieval;en.xvii;en.lectures|1/4|idem|=KU4|idem|spring
+U|WU1|Robert Wunsch|2|LISTE_VOISINE+R_NOMME+VOISIN|en.am19|||1/2|Wunsch, « American Literature and Dramatics » (1940-41)||un semestre : automne|fall
+U|WU2|Robert Wunsch|2|LISTE_VOISINE+R_NOMME+VOISIN|en.amcontemp|||1/2|idem|=WU1|un semestre : printemps|spring
+U|MG1|Frederick R. Mangold|1|LISTE_VOISINE+R_NOMME+VOISIN|en.forme|||1/2|Mangold||automne|fall
+U|MG2|Frederick R. Mangold|2|LISTE_VOISINE+R_NOMME+VOISIN|en.roman|||1/2|idem||printemps|spring
+U|LG|Frederick R. Mangold|3|LISTE_VOISINE+R_NOMME+VOISIN|ling.intro|||1/2|« Spanish and Linguistics » (1940-41)|||
+N|en.shakespeare|donné sous Dramatics (unité KU1, même titre)
+N|en.romantique|donné en 1940-41 : alternance (non reconduit)
+N|en.victorien|donné en 1940-41 : alternance (non reconduit)
+
+# ---------- FOREIGN LANGUAGES (F. de Graaff, F. R. Mangold, E. W. et G. Straus) ----------
+C|fr.intro|French|Introductory French|Introductory French (1940-41)|—
+C|fr.avance|French|Advanced French|Advanced French (1940-41)|—
+C|fr.survey|French|Introductory Survey of French Literature|Introductory Survey of French Literature (1940-41)|—
+C|fr.seminaire|French|Seminar on Stendhal, Flaubert, and Proust|Seminar on Stendhal, Flaubert, and Proust (1940-41)|—
+C|de.intro|German|Introductory German|Introductory German (1940-41)|—
+C|de.avance|German|Advanced German|Advanced German (1940-41)|—
+C|de.litt|German|Eighteenth and Nineteenth Century German Literature|Eighteenth and Nineteenth Century German Literature (1940-41)|—
+C|de.goethe|German|Seminar on Goethe|Seminar on Goethe (1940-41)|—
+C|gr.intro|Greek|Introductory Greek|Introductory Greek (1940-41)|—
+C|gr.avance|Greek|Advanced Greek|Advanced Greek (1940-41)|—
+C|gr.platon|Greek|Plato|Plato (1940-41)|—
+C|la.intro|Latin|Introductory Latin|Introductory Latin (1940-41)|—
+C|la.avance|Latin|Advanced Latin|Advanced Latin (1940-41)|—
+C|la.lyrique|Latin|Latin Lyric Poetry|Latin Lyric Poetry (1940-41)|—
+C|es.intro|Spanish|Introductory Spanish|Introductory Spanish (1940-41)|—
+C|es.avance|Spanish|Advanced Spanish|Advanced Spanish (1940-41)|—
+C|es.cervantes|Spanish|Seminar on Cervantes|Seminar on Cervantes (1940-41)|—
+U|FG1|Frances de Graaff|3|LISTE_VOISINE+R_SEUL+VOISIN|fr.intro||fr.avance|1/2|« Dr Frances De Graaf, as Instructor in French » (août 1941, 2017.40.260a-b) ; présente en 1942||alternance : complément de 1940-41|
+U|FG2|Frances de Graaff|3|LISTE_VOISINE+R_SEUL+VOISIN|fr.survey||fr.seminaire|1/2|idem ; elle donne aussi le russe à l'été 1942|||
+U|MA1|Frederick R. Mangold|3|LISTE_VOISINE+R_NOMME+VOISIN|es.intro||es.avance;es.cervantes|1/2|Mangold, espagnol||alternance : complément de 1940-41|
+U|GS1|Gertrude Straus|3|LISTE_VOISINE+R_ELIM+VOISIN|de.avance||de.intro|1/2|l'allemand aux Straus||alternance : complément de 1940-41|
+U|GS2|Gertrude Straus; Erwin Straus|3|LISTE_VOISINE+R_ELIM+VOISIN|de.litt||de.goethe|1/2|idem|||
+U|TU1|Frederick R. Mangold; Erwin Straus|2|LISTE_VOISINE+R_COMPET+VOLUME+OCCASION|gr.intro+la.intro|tutorat|gr.avance;gr.platon;la.avance;la.lyrique|1/2|grec et latin d'introduction offerts à l'été 1942 par de Graaff, Mangold et les Straus (2017.40.019) ; en 1941-42 : non attesté||par qui : inconnu|
+
+# ---------- HISTORY AND GOVERNMENT (R. Boyden, R. S. Babcock) ----------
+C|hi.usa|History and Government|History of the United States|History of the United States (1940-41)|—
+C|hi.nouveaumonde|History and Government|Civilization in the New World|Civilization in the New World (1940-41)|—
+C|hi.europe|History and Government|History of Modern Europe|History of Modern Europe (1940-41)|—
+C|hi.russie|History and Government|Modern Russia|Modern Russia (1940-41)|—
+C|hi.renaissance|History and Government|Renaissance and Reformation|Renaissance and Reformation (1940-41)|—
+C|hi.philo|History and Government|Philosophy of History|Philosophy of History (1940-41)|—
+C|gv.theorie|History and Government|Political Theory|Political Theory (1940-41)|—
+C|gv.relations|History and Government|International Relations|International Relations (1940-41)|—
+C|gv.amerique|History and Government|American Government|American Government (1940-41)|—
+C|gv.europe|History and Government|European Political Institutions|European Political Institutions (1940-41)|—
+U|RB1|Roland Boyden|3|LISTE_VOISINE+R_SEUL+VOLUME|hi.usa||hi.russie;hi.renaissance|3/5|« Mr Roland Boyden, an Instructor in History » (août 1941) ; W. C. Barnes absent des documents||six titres d'histoire, environ quatre à la fois|
+U|RB2|Roland Boyden|3|LISTE_VOISINE+R_SEUL+VOLUME|hi.europe||hi.russie;hi.renaissance|3/5|idem||idem|
+U|RB3|Roland Boyden|3|LISTE_VOISINE+R_SEUL+VOLUME|hi.nouveaumonde||hi.russie;hi.renaissance|3/5|idem||idem|
+U|RB4|Roland Boyden|2|LISTE_VOISINE+R_SEUL+VOLUME|hi.philo|||1/2|idem||idem|
+U|BB1|Robert S. Babcock|3|LISTE_VOISINE+R_NOMME+VOLUME|gv.amerique||gv.theorie|1/2|« Robert Babcock conducts class in political science » (févr. 1942, 2017.40.362)||il part en mai 1942 (jour inconnu)|
+U|BB2|Robert S. Babcock|3|LISTE_VOISINE+R_NOMME+VOLUME|gv.relations||gv.europe;gv.theorie|1/2|idem ; il parle du plan V-1 de la Marine à la radio (5 mai 1942)|||
+
+# ---------- ECONOMICS AND SOCIOLOGY (aucun enseignant attesté) ----------
+C|eco.pensee|Economics and Sociology|Introduction to Economic Thinking|Introduction to Economic Thinking (1940-41)|—
+C|eco.travail|Economics and Sociology|The Science of Work|The Science of Work (1940-41)|—
+C|eco.idees|Economics and Sociology|Evolution of Social Ideas|Evolution of Social Ideas (1940-41)|—
+C|eco.educ|Economics and Sociology|Educational Sociology|Educational Sociology (1940-41)|—
+N|eco.pensee|Richard Gothe, seul économiste de 1940-41, est absent des documents de 1941-42 : aucun enseignant d'économie attesté
+N|eco.travail|idem
+N|eco.idees|idem
+N|eco.educ|idem
+
+# ---------- PSYCHOLOGY (J. R. P. French Jr., E. W. Straus) ----------
+C|psy.intro|Psychology|Introductory Psychology|Introductory Psychology (1940-41)|—
+C|psy.fond|Psychology|Fundamentals of Psychology|Fundamentals of Psychology (1940-41)|—
+C|psy.enfant|Psychology|Child Psychology|Child Psychology (1940-41)|—
+C|psy.educ|Psychology|Educational Psychology|Educational Psychology (1940-41)|—
+C|psy.sociale|Psychology|Social Psychology|Social Psychology (1940-41)|—
+C|psy.psychanalyse|Psychology|Psychoanalysis|Psychoanalysis (1940-41)|—
+C|psy.pathologie|Psychology|Psychopathology|Psychopathology (1940-41)|—
+C|psy.esthetique|Psychology|Seminar on Psychology of Aesthetics|Seminar on Psychology of Aesthetics (1940-41)|—
+U|JF1|John R. P. French Jr.|3|LISTE_VOISINE+R_NOMME+VOLUME|psy.intro|||1|French présent (conférence des Community Councils, oct. 1941 ; « Mr French will be in governmental work before next fall »)|||
+U|JF2|John R. P. French Jr.|3|LISTE_VOISINE+R_NOMME+VOLUME|psy.sociale||psy.enfant;psy.educ|1/2|idem|||
+U|ES1|Erwin Straus|3|LISTE_VOISINE+R_NOMME+VOLUME|psy.fond||psy.esthetique|1/2|Straus présent (« Psychology of Architecture », 17 sept. 1941)||automne|fall
+U|ES2|Erwin Straus|3|LISTE_VOISINE+R_NOMME+VOLUME|psy.pathologie||psy.psychanalyse;psy.esthetique|1/2|idem ; à l'été 1942 : « the role of psychopathology in the development of modern civilization »|=ES1|printemps|spring
+
+# ---------- ANTHROPOLOGY (P. Radin) ----------
+C|anth.gen|Anthropology|Anthropology|— (nouveau, 1941-42)|—
+U|PR1|Paul Radin|3|MEME_ANNEE+R_ATTESTE+VOLUME|anth.gen|||1|« Anthropology (appointment announced) » (2017.40.260a-b) ; Radin présent toute l'année (radio, nov. 1941 ; bulletins de 1942)||titre exact et volume inconnus|
+
+# ---------- BIOLOGY (J. R. Carpenter) ----------
+C|bio.gen|Biology|General Biology|General Biology (1940-41)|—
+C|bio.anatomie|Biology|Comparative Anatomy and Embryology|Comparative Anatomy and Embryology (1940-41)|—
+C|bio.plantes|Biology|Plant Morphology|Plant Morphology (1940-41)|—
+C|bio.terrain|Biology|Field Biology and Ecology|Field Biology and Ecology (1940-41)|—
+C|bio.regnes|Biology|The Plant and Animal Kingdoms|The Plant and Animal Kingdoms (1940-41)|—
+C|bio.homme|Biology|Ecology in Relation to Man|Ecology in Relation to Man (1940-41)|—
+U|JC1|J. Richard Carpenter|3+4L|LISTE_VOISINE+R_NOMME+VOISIN|bio.gen|||1|« Assistant Professor of Biology… a member of the Faculty for two years » (2017.40.076a-f)|||
+U|JC2|J. Richard Carpenter|3|LISTE_VOISINE+R_NOMME+VOLUME|bio.terrain||bio.homme;bio.regnes|1/2|idem ; écologue||à l'été 1942 : « ecology and reconstruction planning »|
+U|JC3|J. Richard Carpenter|3|LISTE_VOISINE+R_NOMME+VOLUME|bio.anatomie||bio.plantes|1/2|idem||cours avancés, années alternées|
+
+# ---------- PHYSICS AND CHEMISTRY (P. G. Bergmann ; C. H. Lindsley puis M. E. Bergmann) ----------
+C|ph.gen|Physics|General Physics|General Physics (1940-41)|—
+C|ph.meca|Physics|Mechanics|Mechanics (1940-41)|—
+C|ph.son|Physics|Sound|Sound (1940-41)|—
+C|ph.chaleur|Physics|Heat|Heat (1940-41)|—
+C|ph.elec|Physics|Electricity|Electricity (1940-41)|—
+C|ph.optique|Physics|Optics|Optics (1940-41)|—
+C|ph.moderne|Physics|Modern Physics|Modern Physics (1940-41)|—
+C|ph.musique|Physics|Physics of Musical Sounds|Physics of Musical Sounds (1940-41)|—
+C|ch.gen|Chemistry|General Chemistry|General Chemistry (1940-41)|—
+C|ch.quali|Chemistry|Qualitative Analysis|Qualitative Analysis (1940-41)|—
+C|ch.quanti|Chemistry|Quantitative Analysis|Quantitative Analysis (1940-41)|—
+C|ch.physique|Chemistry|Physical Chemistry|Physical Chemistry (1940-41)|—
+C|ch.organique|Chemistry|Organic Chemistry|Organic Chemistry (1940-41)|—
+C|sc.histoire|Physics and Chemistry|History of Science|History of Science (1940-41)|—
+U|PB1|Peter G. Bergmann|3+4L|LISTE_VOISINE+R_ELIM+VOISIN|ph.gen|||1|« Peter Bergmann… is joining the Black Mountain Faculty as Assistant Professor of Physics » à la place de Rosen (oct. 1941)|||
+U|PB2|Peter G. Bergmann|3|LISTE_VOISINE+R_ELIM+VOLUME+OCCASION|ph.moderne||ph.meca;ph.son;ph.chaleur;ph.elec;ph.optique;ph.musique|1/7|idem ; élève d'Einstein, auteur d'une Introduction to the Theory of Relativity||un cours avancé à la fois ; lequel : inconnu|
+U|CL1|Charles H. Lindsley|3+4L|LISTE_VOISINE+R_NOMME+VOISIN|ch.gen|||1|Lindsley enseigne jusqu'à son départ (vers le 15 oct. 1941)|||fall@1941-09-22..1941-10-15
+U|CL2|Charles H. Lindsley|3|LISTE_VOISINE+R_NOMME+VOLUME|ch.quali||ch.quanti;ch.physique;ch.organique|1/4|idem||un cours avancé ; lequel : inconnu|fall@1941-09-22..1941-10-15
+U|MB1|Margot E. Bergmann|3+4L|MEME_ANNEE+R_ATTESTE+VOISIN|ch.gen|||1|« In his absence, chemistry classes are being conducted by Margot Bergmann » (nov. 1941)|=CL1|reprise des cours de Lindsley|fall@1941-10-16..1942-01-31,spring
+U|MB2|Margot E. Bergmann|3|MEME_ANNEE+R_ATTESTE+VOLUME|ch.quali||ch.quanti;ch.physique;ch.organique|1/4|idem|=CL2|idem|fall@1941-10-16..1942-01-31,spring
+U|HS|Peter G. Bergmann|2|LISTE_VOISINE+R_COMPET+VOLUME|sc.histoire|||1/2|enseignant inconnu||titre sans structure connue|
+
+# ---------- MATHEMATICS (T. Dreier) ----------
+C|ma.analyse|Mathematics|Mathematical Analysis|Mathematical Analysis (1940-41)|—
+C|ma.trigo|Mathematics|Trigonometry|Trigonometry (1940-41)|—
+C|ma.geom|Mathematics|Analytic Geometry|Analytic Geometry (1940-41)|—
+C|ma.calcul|Mathematics|Intermediate Calculus|Intermediate Calculus (1940-41)|—
+C|ma.equations|Mathematics|Differential Equations|Differential Equations (1940-41)|—
+C|ma.avance|Mathematics|Advanced Calculus|Advanced Calculus (1940-41)|—
+U|M1|Ted Dreier|3|LISTE_VOISINE+R_NOMME+VOISIN|ma.analyse|||1|Dreier présent (trésorier, bulletins de 1942)|||
+U|M2|Ted Dreier|3|LISTE_VOISINE+R_NOMME+VOISIN|ma.trigo+ma.geom|réunies comme en 1936-38||1|idem ; trigonométrie et géométrie analytique annoncées pour l'été 1942|||
+U|M3|Ted Dreier|3|LISTE_VOISINE+R_NOMME+VOLUME|ma.calcul||ma.equations;ma.avance|1/2|idem||cours avancés, années alternées|
+
+# ---------- PHILOSOPHY (E. W. Straus) ----------
+C|phi.classiques|Philosophy|Philosophical Classics|Philosophical Classics (1940-41)|—
+U|ES3|Erwin Straus|3|LISTE_VOISINE+R_NOMME+VOLUME|phi.classiques|||1|« Psychology and Philosophy » (1940-41)|||
+
+# ---------- SUMMER QUARTER 1942 (2017.40.076a-f : liste de la première session ; « Most of them will be continued during the Second Session ») ----------
+C|ete.polphilo|Summer Quarter|Readings in Political Philosophy|—|—
+C|ete.civ|Summer Quarter|Introduction to the History of Western Civilization|—|—
+C|ete.design|Summer Quarter|Fundamental Design|—|—
+C|ete.tissage|Summer Quarter|Advanced Weaving|—|—
+C|ete.fr|Summer Quarter|French Conversation|—|—
+C|ete.theorie|Summer Quarter|Music Theory|—|—
+C|ete.ensemble|Summer Quarter|Ensemble Music and Piano Lessons|—|—
+C|ete.choeur|Summer Quarter|Chorus|—|—
+C|ete.theatre|Summer Quarter|Dramatics (classroom production of Saroyan, The Time of Your Life)|—|—
+C|ete.archi|Summer Quarter|Architecture (for architecture students in the Work Camp)|—|—
+U|S1|Erwin Straus|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.polphilo|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S1b|Erwin Straus|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.polphilo|||4/5|« Most of them will be continued during the Second Session »|=S1|seconde session : chance 4/5|summer@1942-07-27..1942-09-05
+U|S2|Eric Bentley|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.civ|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S2b|Eric Bentley|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.civ|||4/5|« Most of them will be continued during the Second Session »|=S2|seconde session : chance 4/5|summer@1942-07-27..1942-09-05
+U|S3|Kenneth Kurtz|3|MEME_ANNEE+R_ATTESTE+VOLUME|en.lectures|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S3b|Kenneth Kurtz|3|MEME_ANNEE+R_ATTESTE+VOLUME|en.lectures|||4/5|« Most of them will be continued during the Second Session »|=S3|seconde session : chance 4/5|summer@1942-07-27..1942-09-05
+U|S4|Josef Albers|4|MEME_ANNEE+R_ATTESTE+VOLUME|ete.design|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S4b|Josef Albers|4|MEME_ANNEE+R_ATTESTE+VOLUME|ete.design|||4/5|« Most of them will be continued during the Second Session »|=S4|seconde session : chance 4/5|summer@1942-07-27..1942-09-05
+U|S5|Anni Albers|4|MEME_ANNEE+R_ATTESTE+VOLUME|ete.tissage|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S5b|Anni Albers|4|MEME_ANNEE+R_ATTESTE+VOLUME|ete.tissage|||4/5|« Most of them will be continued during the Second Session »|=S5|seconde session : chance 4/5|summer@1942-07-27..1942-09-05
+U|S6|Frances de Graaff|2|MEME_ANNEE+R_ATTESTE+VOLUME|ete.fr|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S6b|Frances de Graaff|2|MEME_ANNEE+R_ATTESTE+VOLUME|ete.fr|||4/5|« Most of them will be continued during the Second Session »|=S6|seconde session : chance 4/5|summer@1942-07-27..1942-09-05
+U|S7|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE+VOLUME|ete.theorie|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S7b|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE+VOLUME|ete.theorie|||4/5|« Most of them will be continued during the Second Session »|=S7|seconde session : chance 4/5|summer@1942-07-27..1942-09-05
+U|S8|Heinrich Jalowetz|1|MEME_ANNEE+R_ATTESTE+VOLUME|ete.ensemble|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S8b|Heinrich Jalowetz|1|MEME_ANNEE+R_ATTESTE+VOLUME|ete.ensemble|||4/5|« Most of them will be continued during the Second Session »|=S8|seconde session : chance 4/5|summer@1942-07-27..1942-09-05
+U|S9|Heinrich Jalowetz|1|MEME_ANNEE+R_ATTESTE+VOLUME|ete.choeur|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S9b|Heinrich Jalowetz|1|MEME_ANNEE+R_ATTESTE+VOLUME|ete.choeur|||4/5|« Most of them will be continued during the Second Session »|=S9|seconde session : chance 4/5|summer@1942-07-27..1942-09-05
+U|S10|Eric Bentley; Robert Wunsch|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.theatre|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S10b|Eric Bentley; Robert Wunsch|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.theatre|||4/5|« Most of them will be continued during the Second Session »|=S10|seconde session : chance 4/5|summer@1942-07-27..1942-09-05
+U|S11|A. Lawrence Kocher|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.archi|||1|liste de la première session de l'été 1942 avec son enseignant (2017.40.076a-f)||volume supposé|summer@1942-06-22..1942-07-25
+U|S11b|A. Lawrence Kocher|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.archi|||4/5|« Most of them will be continued during the Second Session »|=S11|seconde session : chance 4/5|summer@1942-07-27..1942-09-05

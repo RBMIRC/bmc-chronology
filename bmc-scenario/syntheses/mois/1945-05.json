@@ -1,0 +1,292 @@
+{
+ "passe": "mois",
+ "cle": "1945-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3222,
+  "sortie": 12215,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1945-05 (mai 1945)",
+  "session": "trimestre de printemps, probablement (déduit : les fiches ne nomment pas la session de mai 1945)",
+  "saison_et_climat": "Fin de printemps à Lake Eden, dans les Blue Ridge (déduit ; aucune fiche ne décrit le temps de mai). Les fiches parlent surtout de l'été, des crues et des serpents, qui relèvent d'une autre saison.",
+  "situation": "Le collège se reconstruit après la scission de 1944 avec une faculté réduite. Lowinsky improvise des cours de rattrapage, Zabriskie et Kazin sont arrivés sans s'installer durablement, et le chœur de Jalowetz et la vie rituelle continuent. La question raciale a été tranchée en mai : deux étudiants noirs aux instituts d'été, puis un enseignant noir à l'automne si le candidat est de calibre. La nomination de Wallen, écrite le 16 mai, est retardée par deux voix de la faculté qui s'appuient sur une rumeur d'« instabilité nerveuse » tirée d'une lettre d'Allport. La rumeur est vérifiée auprès de l'armée, jugée fausse, et Wallen obtient un contrat d'un an. Wunsch est encore rector ; son affaire n'éclatera qu'en juin.",
+  "presents_probables": [
+   {
+    "nom": "Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Zabriskie",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kazin",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Herbert Miller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Fritz Cohen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Beidler",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-05-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Wallen écrit au collège. Il a refusé plusieurs offres académiques, mais a hésité à remplacer Carl Rogers à l'USO ; il choisit Black Mountain pour tester si la compréhension de la dynamique humaine améliore la démocratie. Straus l'a évalué à Baltimore et le recommande.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03788",
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": "1945-05",
+    "precision": "mois",
+    "ce_qui_arrive": "La formule raciale est arrêtée : deux étudiants noirs aux instituts d'été, puis un enseignant noir à l'automne si le candidat est de calibre. Lowinsky porte la mesure, Straus et Kurtz s'y opposent.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": "1945-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Deux voix vocales de la faculté retardent la nomination de Wallen en citant une rumeur d'« instabilité nerveuse » tirée d'une lettre d'Allport. Selon Wallen, Albers est l'une de ces voix. La rumeur est ensuite vérifiée auprès de l'armée, jugée fausse, et Wallen reçoit un contrat d'un an. Le calendrier exact n'est pas donné.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1945 (synthèse)",
+     "EV-03788"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "periode",
+    "ce_qui_arrive": "Lowinsky improvise des cours de rattrapage pendant l'hiver et le printemps, alors que le corps enseignant est réduit ; Zabriskie et Kazin sont arrivés sans rester longtemps.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": "1945-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Wunsch, rector, est arrêté près d'Asheville, garé avec un marin, pour « crimes contre nature ». Il plaide coupable ; l'inculpation est ramenée à une intrusion avec sursis. Les récits varient selon les sources.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": "1945-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Wunsch démissionne sans que personne le retienne. Il revient chercher ses affaires à une heure du matin et repart avant le réveil. Molly Gregory l'entend sans descendre l'aider. Herbert Miller dit la vérité à la communauté, qui ne proteste pas. La version officielle parle de surmenage.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Été : les instituts amènent Gropius, Feininger, Motherwell et d'autres. Le récital de Roland Hayes se tient devant environ 400 personnes, avec des places intégrées et sans incident.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Automne : neuf nouveaux enseignants sont engagés, dont John et Rachel Wallen, Bill Levi, M.C. Richards, Niebyl et Baker. Le collège est agréé pour le GI Bill. Sylvesta Martin devient la première étudiante noire à plein temps (dates divergentes).",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "La vie est dense et ritualisée. Les chorales de Bach de Jalowetz durent deux à trois heures. Au dîner, les chants passent de table en table. Il n'y a pas de couvre-feu. Les cours sont donnés par une faculté réduite et les étudiants s'organisent avec les moyens du bord. Beidler, nommé instructeur en février, dessine le Music Cubicle. Les Cohen manquent d'argent et Fritz tente de vendre son Music Institute.",
+  "tensions": [
+   "La question raciale : la formule de mai est arrêtée, mais Straus et Kurtz s'y opposent.",
+   "La rumeur d'« instabilité nerveuse » sert d'arme contre la nomination de Wallen, avec Albers soupçonné par Wallen.",
+   "Le corps enseignant est réduit, et aucun des nouveaux arrivés ne reste longtemps.",
+   "La faculté sait que Wunsch vit une crise qu'elle n'évoque pas encore, et le silence va s'installer.",
+   "Les finances sont fragiles : Fritz Cohen n'arrive pas à vendre son institut.",
+   "Le projet rival à New York ne supplante pas BMC, mais il entretient la concurrence."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La formule de mai",
+    "date": "1945-05",
+    "lieu": "Lake Eden, réunion de faculté (lieu non précisé)",
+    "personnages": [
+     "Lowinsky",
+     "Straus",
+     "Kurtz"
+    ],
+    "deroule": "La faculté débat de la question raciale. Lowinsky défend un calendrier progressif, Straus et Kurtz résistent. Le compromis retenu (deux étudiants noirs l'été, un enseignant noir l'automne si le candidat est de calibre) sort de cette discussion.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La lettre de Wallen",
+    "date": "1945-05-16",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Straus",
+     "deux voix anonymes de la faculté",
+     "Albers (soupçonné par Wallen)"
+    ],
+    "deroule": "Wallen écrit pour proposer sa candidature. Deux membres de la faculté s'appuient sur la lettre d'Allport pour évoquer une instabilité nerveuse. Le collège vérifie auprès de l'armée, qui dément, et la nomination avance.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03788",
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Les chorales de Jalowetz",
+    "date": "1945-05",
+    "lieu": "Black Mountain College, salle de musique (déduit)",
+    "personnages": [
+     "Jalowetz",
+     "étudiants",
+     "Lowinsky"
+    ],
+    "deroule": "Les chorales de Bach durent deux à trois heures. Les voix s'entraînent sans interruption, dans le rituel quotidien qui structure la vie du collège.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le dîner en chaîne",
+    "date": "1945-05",
+    "lieu": "Réfectoire de Black Mountain College (déduit)",
+    "personnages": [
+     "étudiants",
+     "enseignants"
+    ],
+    "deroule": "Au dîner, les chants passent de table en table. Le soir, le collège vit sans couvre-feu, dans une atmosphère de communauté.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "En mai 1945, la faculté réduite se reconstruit après le départ du camp rebelle.",
+    "vers_date": "1944",
+    "vers": "La scission de 1944, qui a vidé le collège de sa moitié rebelle et explique la faculté clairsemée de mai.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mai 1945 : Fritz Cohen est sans argent et ne parvient pas à vendre son Music Institute.",
+    "vers_date": "1945-03",
+    "vers": "La tentative de vente à Kenyon, qui échoue en mars 1945.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mai 1945 : Clark Foreman vient de quitter le collège pour un nouveau poste.",
+    "vers_date": "1945-01",
+    "vers": "Foreman annonce en janvier qu'il devient secrétaire du National Citizens Political Action Committee.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai 1945 : la rumeur d'« instabilité nerveuse » circule contre Wallen.",
+    "vers_date": "1945-06",
+    "vers": "En juin, la version officielle du départ de Wunsch parle de surmenage ou de dépression nerveuse légère, en écho à la rumeur de mai.",
+    "refs": [
+     "chapitre 1945 (synthèse)",
+     "EV-03788"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai 1945 : Wallen et Albers commencent à s'opposer dans la faculté.",
+    "vers_date": "1948",
+    "vers": "Le rectorat d'Albers, daté par d'autres fiches de 1948, alors que Chaddock le place peu après juin 1945.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai 1945 : le collège recrute et se transforme.",
+    "vers_date": "1948",
+    "vers": "Rauschenberg, démobilisé de la Navy, ne vient à BMC qu'en 1948 après avoir retrouvé sa famille à Lafayette.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai 1945 : Elaine de Kooning est à New York, en plein travail sur l'art.",
+    "vers_date": "1945",
+    "vers": "Elle écrit son premier article sur Stuart Davis, reçoit le télégramme « Magnificent » de Denby, puis part pour Provincetown à l'automne.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "La rumeur de fragilité nerveuse comme arme de nomination, qui préfigure la version officielle du départ de Wunsch.",
+   "L'intégration par la politesse : les places intégrées du récital de Hayes comme test.",
+   "Le silence institutionnel sur les crises personnelles.",
+   "La rivalité entre Wallen et Albers, de l'art contre la communauté.",
+   "Le collège réduit qui recrute pour survivre, avec le GI Bill en ligne de mire."
+  ],
+  "lacunes": "Les fiches ne donnent pas le jour de la décision raciale, ni la date exacte de la vérification auprès de l'armée, ni quand Wallen obtient son contrat. La session exacte et le climat de mai ne sont pas décrits. Le rectorat d'Albers reste contesté (1945 selon Chaddock, 1948 ailleurs). La synthèse de chapitre n'a pas d'identifiant ; elle est citée par son titre. Les deux voix anti-Wallen ne sont pas nommées, et Albers n'est désigné que par le témoignage de Wallen."
+ }
+}

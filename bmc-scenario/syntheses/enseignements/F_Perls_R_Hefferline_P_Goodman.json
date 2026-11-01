@@ -1,0 +1,139 @@
+{
+ "passe": "enseignements",
+ "cle": "F. Perls, R. Hefferline, P. Goodman",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3884,
+  "sortie": 3450,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "F. Perls, R. Hefferline, P. Goodman",
+  "cours": [
+   {
+    "intitule": "Exercices d'attention au corps et à la respiration tirés de l'ouvrage de 1951 (séance reconstituée, pas un cours attesté)",
+    "periodes": [
+     "≈1951 (date du texte, non d'un enseignement)"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Les fiches ne décrivent aucun cours donné au collège par Perls, Hefferline ou Goodman. Elles ne portent que sur le livre de 1951, dont elles tirent des consignes d'expérimentation : faire éprouver que l'anxiété vient d'une excitation bloquée, et que relâcher la respiration et les contractions la dissout. Une fiche note seulement que Hefferline est « lié au collège » et enseigne par consignes expérimentales plutôt que par dogme, ce qui rapproche cette démarche des exercices d'Albers. Cette parenté est une déduction de la fiche et rien ne la documente davantage. Tout ce qui suit est une transposition possible, non un fait de Black Mountain.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Observer d'abord la respiration des autres (rythme, amplitude, irrégularités, hoquets, soupirs, bâillements). Puis sentir la sienne : l'air qui entre par le nez, la gorge, les bronches, les côtes qui s'écartent, le dos qui s'étire, l'espace occupé qui augmente. L'expiration est un simple retour élastique au repos, sans effort. Se penser et se sentir comme « un être qui respire ».",
+      "materiaux": "Aucun matériel. Le rappel que « psychologie » vient d'un mot grec qui désignait d'abord le souffle vital.",
+      "but": "Dissiper l'anxiété en levant les restrictions que l'on s'impose à la respiration.",
+      "refs": [
+       "ID-02495"
+      ]
+     },
+     {
+      "consigne": "Prendre le chat pour modèle de bâillement et d'étirement. Au début, laisser la mâchoire tomber comme si elle allait se détacher. Aspirer l'air comme pour remplir tout le corps, pas seulement les poumons. Coudes pliés, pousser les épaules en arrière. Au sommet de l'étirement et de l'inspiration, lâcher et laisser retomber les tensions. En faire une habitude fréquente.",
+      "materiaux": "Aucun. Modèle : le chat qui sort de sa sieste, dos cambré, membres étendus à l'extrême, mâchoire relâchée, gonflé d'air jusqu'à occuper son maximum d'espace, puis qui se laisse retomber.",
+      "but": "Rétablir la tendance spontanée de l'organisme à briser une constriction, que la bienséance a réprimée en la prenant pour un signe d'ennui envers autrui.",
+      "refs": [
+       "ID-02496"
+      ]
+     },
+     {
+      "consigne": "Pour qui est « trop poli » : écrire la lettre de colère contre les auteurs, l'envoyer à l'éditeur ou la jeter à la corbeille, mais de toute façon la sortir de sa poitrine.",
+      "materiaux": "Papier et crayon.",
+      "but": "Faire exprimer l'agressivité suscitée par les exercices plutôt que de la retenir.",
+      "refs": [
+       "ID-02503"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Perls, Hefferline, Goodman, 1951, pp. 133-145 (pagination citée par les fiches)"
+    ],
+    "propos_types": [
+     "L'anxiété naît d'une excitation bloquée et se dissout quand on lève les restrictions à la respiration (déduction fondée sur ID-02495).",
+     "Le bâillement et l'étirement signalent un excitement supprimé (somnolence, ennui, attente tendue avant un examen ou une entrée en scène). La bonne éducation les a réprimés à tort (ID-02496).",
+     "Recommander ces exercices est un acte agressif contre le statu quo du lecteur. Dire « pour votre bien » n'y change rien, et la colère qu'ils suscitent doit s'exprimer (ID-02503).",
+     "La résistance est une contre-agression naturelle et en partie saine. Il faut explorer l'évitement autant que ce qui est évité (ID-02500, ID-02502)."
+    ],
+    "critique_et_evaluation": "Les fiches contiennent la critique que les auteurs font de la notion de « normal », assimilé au respectable en apparence, et des freudiens orthodoxes comme des remèdes miracles (ID-02498). Elles ne contiennent aucune évaluation par des étudiants ou collègues du collège.",
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "ID-02495",
+     "ID-02496",
+     "ID-02498",
+     "ID-02500",
+     "ID-02502",
+     "ID-02503"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "L'anxiété est une excitation bloquée, et elle s'apaise quand on cesse de retenir sa respiration.",
+    "en_classe": "Séance d'observation en deux temps. D'abord regarder la respiration des autres (rythme, soupirs, hoquets, bâillements), puis sentir la sienne et l'espace du corps qui s'agrandit. Non attesté au collège. Seule la proximité de méthode (apprendre en faisant) avec Albers est suggérée, et elle est incertaine.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02495"
+    ]
+   },
+   {
+    "idee": "Bâiller et s'étirer sont une réponse saine à la constriction, que la politesse a réprimée.",
+    "en_classe": "Ouvrir une séance par un étirement-bâillement collectif sur le modèle du chat, avant une attente tendue comme une critique d'atelier ou une présentation. Non attesté au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02496"
+    ]
+   },
+   {
+    "idee": "On peut distinguer l'ennui de contrainte (l'horloge) de l'ennui de blocage intérieur (« je ne sais quoi faire de moi »).",
+    "en_classe": "Sujet de conversation : quel ennui éprouve-t-on quand on est libre et qu'on ne sait que faire ? Non attesté au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02497"
+    ]
+   },
+   {
+    "idee": "La frontière entre normal et anormal est un leurre : chacun a ses tendances névrotiques.",
+    "en_classe": "Débat de table : qu'appelle-t-on « normal » dans une communauté comme la nôtre ? Les fiches notent une résonance avec l'anti-conformisme de BMC, mais rien n'atteste que ce texte y ait été discuté.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02498"
+    ]
+   },
+   {
+    "idee": "Achever les affaires inachevées exige d'affronter ce que l'on évite, d'où l'image de remonter en selle.",
+    "en_classe": "Conversation sur le travail douloureux et l'acharnement : l'évitement de « son » cheval. Elle peut s'appuyer sur la distinction faite entre la résistance, qu'il faut comprendre, et le forcement d'un coup. Non attesté au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02499",
+     "ID-02500"
+    ]
+   },
+   {
+    "idee": "Après la lune de miel avec le thérapeute vient la déception, et le patient trop poli qui n'attaque pas accumule du ressentiment.",
+    "en_classe": "Réflexion sur l'idéalisation puis la désillusion à l'égard d'un maître, et sur la nécessité de pouvoir contester ouvertement. Cette transposition au collège est une extrapolation, non une donnée des fiches.",
+    "atteste": "non",
+    "refs": [
+     "ID-02501",
+     "ID-02503"
+    ]
+   },
+   {
+    "idee": "L'entourage « normal » peut saboter la démarche de changement par chantage émotionnel, et la résistance est une contre-agression naturelle.",
+    "en_classe": "Discuter des pressions qu'exercent famille et proches sur celui qui change. Non attesté au collège.",
+    "atteste": "non",
+    "refs": [
+     "ID-02502"
+    ]
+   },
+   {
+    "idee": "Tout mécanisme névrotique est une interruption de l'excitement. Rétroflexion, introjection et projection sont utilisées par chacun, sans qu'il faille classer les gens.",
+    "en_classe": "Ne pas faire classifier les étudiants (« suis-je rétroflecteur ? »). Développer plutôt, par l'environnement, la sensation, le corps et la parole, des zones de fonctionnement intégré qui en appellent d'autres. Non attesté au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02504"
+    ]
+   }
+  ]
+ }
+}

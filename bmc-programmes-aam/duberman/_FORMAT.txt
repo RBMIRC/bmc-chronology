@@ -1,0 +1,34 @@
+Dépouillement chronologique de Duberman, Black Mountain: An Exploration in Community (1972 ; éd. Anchor 1973)
+Texte : ~/Documents/DATA BMC/Duberman_Black_Mountain_corrige.txt (¶N = n° de paragraphe dans ce fichier, p.N = page du livre)
+Un fichier par chapitre : extraction/chNN.txt (introduction.txt, preface.txt, acknowledgments.txt)
+
+E|date|fin|heure|type|categorie|quoi|qui|lieu|¶|codes|note
+
+date / fin :
+  AAAA-MM-JJ  jour            AAAA-MM   mois          AAAA   année
+  AAAA-printemps / -ete / -automne / -hiver  (saison ; hiver = déc.-févr. de l'année scolaire, rattaché à janvier)
+  AAAA-AA      année scolaire (1935-36 = 1935-09 → 1936-06)
+  préfixe ~    date approximative ou déduite (« vers », « au début de », « quelques semaines après »)
+heure : HH:MM | matin | après-midi | soir | nuit (vide sinon)
+type (familles du semainier ; un institut d'été = calendrier, un voyage = sortie) : cours | atelier | conference | concert | theatre | danse | reunion | radio | travail |
+       calendrier | examen | social | expo | visite | sortie | autre
+categorie (plus fine) : arrivee | depart | recrutement | renvoi | demission | deces | naissance | mariage | conflit |
+       decision | gouvernance | finances | immobilier | construction | ferme | publication | lettre | admission |
+       integration | proces | sante | voyage | vie_privee | enseignement | spectacle | fete | institut_ete | calendrier | social | visite | travail | concert | examen |
+       contexte (hors BMC, cité par Duberman) | historiographie (recherche de Duberman, 1967-71) | autre
+qui : noms séparés par « ; » (forme complète quand le livre la donne)
+lieu : Blue Ridge (Lee Hall) | Lake Eden | Black Mountain (ville) | Asheville | Rollins (Winter Park) | …
+¶ : numéro(s) de paragraphe (¶123 ou ¶123-125)
+codes de déduction (barème du projet, voir LISEZMOI) :
+  calc  jour calculé d'après une autre date du livre (« two days later », « the following Monday ») ........ +5
+  rel   date relative résolue sur une date du livre moins précise ......................................... +10
+  ded   élément supposé par moi (date, durée, participant) ................................................. +15
+  prevu annoncé / prévu, réalisation non attestée ............................................................ +15
+  corr  date corrigée (incohérence interne du livre ou contre une autre source) .............................. +20
+  approx date approximative ou incomplète dans le livre (mois, saison, année, « vers ») ...................... +25
+  (la précision de la date — mois, saison, année — ajoute +25 automatiquement si « approx » n'est pas déjà mis)
+note : citation courte « … » + source primaire donnée par la note de Duberman (nN : …) + remarques
+       (souvenir rapporté des décennies plus tard, contradiction entre témoins, etc.)
+
+D|date|type_doc|description|¶ ou nN|note    document daté cité (lettre, procès-verbal, bulletin) — extrait des notes
+// commentaire

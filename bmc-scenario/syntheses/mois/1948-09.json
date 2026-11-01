@@ -1,0 +1,321 @@
+{
+ "passe": "mois",
+ "cle": "1948-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 7893,
+  "sortie": 15060,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1948-09",
+  "session": "Rentrée d'automne, début du semestre : premier mois après la crise de l'été et l'élection d'Albers au rectorat",
+  "saison_et_climat": "Fin d'été qui glisse vers l'automne dans les montagnes autour d'Asheville ; les fiches ne décrivent pas le temps ce mois-ci.",
+  "situation": "Le collège est exsangue. La rentrée tombe à une cinquantaine d'étudiants au lieu de 90, sans diététicienne, comptable, registraire ni gérant. Albers, élu recteur à la fin de l'été, applique sa ligne : recentrage sur arts et musique, personnel administratif professionnalisé, visée de 90 étudiants avec une quinzaine d'enseignants, et projet de Board of Trustees extérieur. Levi est reparti en Europe, Dreier a annoncé son départ, le laboratoire de Natasha a brûlé et Dahlberg quitte le collège. La question de la survie reste ouverte et se tranchera plus tard dans l'hiver.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers (recteur élu)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ted Dreier (annonce son départ, encore sur place)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski (labo incendié, séminaire ajouté)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hazel Larsen Archer (négatifs perdus dans l'incendie)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anna Goldowski (français et russe)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Guermonprez (construction du tissage)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jalowetz (voix et reliure)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Schlesinger (harmonie et composition, élu pour le quorum)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bodky (style et structure en musique)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frank Rice (allemand)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Trayer (The Farmer and Society)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dehn (un week-end par mois, mathématiques et philosophie)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ben Dahlberg (enseignant, part fin septembre)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Olson (recruté, accepte à contrecœur trois jours par mois)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Une cinquantaine d'étudiants (sans noms dans les fiches)",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rentrée à une cinquantaine d'étudiants au lieu de 90 ; la plupart des anciens reviennent malgré tout ; le corps enseignant se réduit à une liste squelettique complétée par Dehn et Trayer.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04562",
+     "EV-04563"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers expose à la fondation Whitney son plan : arts et musique, matières académiques choisies, travaux pratiques, administration confiée à des professionnels, visée de 90 étudiants avec environ 15 enseignants sur un cursus qui en exigerait 30.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04565"
+    ]
+   },
+   {
+    "date": "1948-09-11",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers rédige un manuscrit daté « September 11, 1948 BMC » où l'éducation, comme l'art, signifie l'ordre, opposé au chaos, à la saleté et à la confusion.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04573",
+     "EV-04574"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Bill de Kooning présente Pat Passlof à Milton Resnick à New York ; le couple se formera et se mariera en 1962. Le départ de six élèves de De Kooning sur dix a lieu en septembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04561",
+     "EV-04562"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Incendie du laboratoire de Natasha Goldowski, détruit entièrement avec la chambre noire et les négatifs de Hazel Larsen ; structure assurée moins de 2 000 $ pour 12 000 $ ; les pompiers de la ville tardent à répondre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04564",
+     "SC-01188"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Ben Dahlberg quitte le collège, excédé et sans réponse d'Albers à ses lettres d'août ; Albers le résume aux Dehn en une phrase sèche.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04567",
+     "SC-01189"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Incendie de la maison Bridgeman ; la caserne locale échoue, le tuyau d'incendie étant défectueux selon Droll, et la rancune envers la protection locale s'installe.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04569"
+    ]
+   },
+   {
+    "date": "1948-09-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Le Board of Fellows traite la question de l'assurance liée à l'incendie de la maison Bridgeman.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04569"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Ted Dreier annonce qu'il quittera le collège au plus tard en septembre, sans pouvoir s'arracher au lieu où il a investi tout son argent et son temps.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04571"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson entre au collège comme remplaçant de l'automne et commence à s'imposer comme figure de la communauté.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02390"
+    ]
+   }
+  ],
+  "quotidien": "Les cours de la rentrée : Bodky en structure musicale, Guermonprez en construction du tissage, Jalowetz en voix et reliure, Schlesinger en harmonie et composition, Natasha en chimie et physique avec un nouveau séminaire, Anna Goldowski en français et russe, Frank Rice en allemand, Dehn un week-end par mois, Trayer sur The Farmer and Society, les Jennerjahn en imprimerie et eurythmie. Après le feu, la communauté a tenu la chaîne des seaux ; il faut ensuite remettre en route les cours sans registraire ni comptable. Les étudiants en architecture et le programme de menuiserie, peinture, reliure et construction attendus par la réorganisation restent à mettre en place. Les repas, la nourriture et l'intendance manquent de personnel dédié.",
+  "tensions": [
+   "Le plan d'Albers (pouvoirs élargis, enseignants « visiting » nommés sans vote, trustees extérieurs) heurte une culture du collège qui a toujours contourné les trustees.",
+   "Dreier, qui a tout investi dans le lieu, s'en va malgré lui : attachement et départ coexistent.",
+   "Dahlberg réclame des explications qu'Albers ne donne pas ; l'incommunicabilité devient une blessure durable.",
+   "Assurance et sécurité : le labo est sous-assuré (moins de 2 000 $ pour 12 000 $), la caserne locale a failli, et le Board doit régler la question dès le 29 septembre.",
+   "Peur de fermeture : la fondation Whitney ne tranchera qu'en décembre et les trustees potentiels réclament du temps.",
+   "Départ vers New York : six élèves de De Kooning sur dix partent en septembre, alors que le collège cherche désespérément des étudiants."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "L'incendie du laboratoire",
+    "date": "1948-09",
+    "lieu": "Laboratoire de Natasha Goldowski, Black Mountain College",
+    "personnages": [
+     "Natasha Goldowski",
+     "Hazel Larsen Archer",
+     "la communauté",
+     "les pompiers de la ville"
+    ],
+    "deroule": "Le feu se déclare vers la fin du mois ; la communauté fait la chaîne avec des seaux remplis aux baignoires des dortoirs et des tuyaux anciens. Natasha entre chercher des produits chimiques explosifs ; le téléphone des pompiers ne répond pas d'abord et le bâtiment brûle entièrement, avec les négatifs de Hazel Larsen.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01188",
+     "EV-04564"
+    ]
+   },
+   {
+    "titre": "Dahlberg part",
+    "date": "1948-09",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Ben Dahlberg",
+     "Josef Albers"
+    ],
+    "deroule": "Après des lettres d'août restées sans réponse, Dahlberg quitte le collège. Albers l'annonce aux Dehn d'une phrase sèche ; le départ ouvre une correspondance blessée qui se poursuivra.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01189",
+     "EV-04567"
+    ]
+   },
+   {
+    "titre": "Le manuscrit du 11 septembre",
+    "date": "1948-09-11",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers écrit, dans un manuscrit daté du BMC, que l'éducation est ordre face au chaos, à la saleté et à la confusion, au moment où le collège s'effondre autour de lui.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04573",
+     "EV-04574"
+    ]
+   },
+   {
+    "titre": "Le Board répond à l'incendie",
+    "date": "1948-09-29",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Board of Fellows",
+     "Ted Dreier"
+    ],
+    "deroule": "Le Board examine l'assurance après l'incendie de la maison Bridgeman et la défaillance des pompiers. La question de la protection locale nourrira une rancune qui éclatera plus tard.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-04569"
+    ]
+   },
+   {
+    "titre": "Rentrée à cinquante étudiants",
+    "date": "1948-09",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Natasha Goldowski",
+     "une cinquantaine d'étudiants"
+    ],
+    "deroule": "Une rentrée où la moitié des étudiants manque à l'appel et où les services administratifs sont vides ; Albers doit présenter son plan à des élèves peu nombreux pendant que le labo fume encore.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-04562",
+     "EV-04565"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le Board qui examine l'assurance après l'incendie de la maison Bridgeman, fin septembre",
+    "vers_date": "1933",
+    "vers": "Les débuts du collège, quand les trustees étaient déjà méprisés et contournés par la communauté",
+    "refs": [
+     "EC-02391",
+     "EV-04569"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le départ des élèves de De Kooning en septembre, après l'été où Albers les a engagés",
+    "vers_date": "1948-06",
+    "vers": "L'été de Black Mountain : Bill affamé engagé par Albers, Elaine en cours de danse et de couleur",
+    "refs": [
+     "EC-02362",
+     "EV-04562"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La rentrée où Olson accepte à contrecœur de venir trois jours par mois",
+    "vers_date": "1956",
+    "vers": "Olson domine la communauté jusqu'à la fermeture du collège",
+    "refs": [
+     "EC-02390"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Dahlberg fin septembre, sans réponse d'Albers",
+    "vers_date": "1949-02",
+    "vers": "Dahlberg écrit qu'Albers ne répond jamais et l'invite à New York",
+    "refs": [
+     "SC-01189"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Bill présente Pat Passlof à Milton Resnick à New York",
+    "vers_date": "1962",
+    "vers": "Le couple se marie ; Pat Passlof et Resnick deviennent un couple",
+    "refs": [
+     "EV-04561"
+    ]
+   }
+  ],
+  "motifs": [
+   "L'ordre contre le chaos : Albers écrit sur l'ordre pendant que le labo brûle et que les effectifs s'effondrent.",
+   "La chaîne de seaux : la communauté se resserre dans l'urgence, mais la solidarité ne compense pas l'absence de personnel.",
+   "Départ et invention d'une communauté : l'enthousiasme du départ enferme dans l'invention, et il n'existe plus de communauté où retourner.",
+   "L'incommunicabilité : le silence d'Albers face aux lettres de Dahlberg.",
+   "La gouvernance contournée : les trustees que le collège a toujours méprisés deviennent une nécessité de survie.",
+   "Le feu et la défaillance de l'infrastructure : pompiers, tuyaux, assurance, rancune."
+  ],
+  "lacunes": "Aucun jour précis pour l'incendie du labo, celui de la maison Bridgeman, ni le départ de Dahlberg (seulement « fin septembre »). Sources contradictoires : la synthèse dit que Dahlberg part « en moins de deux semaines », ce qui situerait son départ vers mi-septembre, alors que EV-04567 écrit fin septembre. La présence de Bill et d'Elaine de Kooning, d'Anni Albers, de Dehn et d'Olson n'est pas attestée jour par jour ; Bill semble déjà à New York. La date exacte d'arrivée d'Olson en septembre n'est pas donnée. Rauschenberg et Susan Weil arrivent « à l'automne » sans mois précis ; Levi part pour l'Europe sans date ; la Minimum House, la Mush War et les trois pièces de Penn ne sont pas datées ce mois-ci."
+ }
+}

@@ -1,0 +1,342 @@
+{
+ "passe": "mois",
+ "cle": "1942-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2699,
+  "sortie": 15223,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-09",
+  "session": "trimestre d'automne 1942 (début exact non donné ; probablement en cours ou imminent ce mois-ci)",
+  "saison_et_climat": "Fin d'été ou début d'automne, déduit du trimestre d'automne et des récoltes de la ferme. Les fiches ne décrivent ni le climat ni la météo.",
+  "situation": "Le collège sort de l'été de la campagne de fonds, avec une dette lourde (hypothèque de 18 000 $ en plus d'un solde de 11 500 $) et une faculté qui a plafonné ses contributions à 10 $ par mois et par personne. L'accréditation avance : le quota dans les programmes militaires est obtenu, sans mois précisé. La grange est finie depuis le printemps, la laiterie et les silos sont en chantier. Le trimestre d'automne ouvre ou est sur le point de s'ouvrir, avec l'arrivée attendue des Hansgirg. La guerre commence à vider le corps enseignant, mais les départs de ce mois ne sont pas datés.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Godfrey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Fritz Hansgirg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mme Hansgirg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frances de Graaf",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Elsa Kahl",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1942-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Arrivée des Hansgirg pour le trimestre d'automne, dans une Cadillac crème, avec orgue Hammond et collection de disques.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section automne"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "Laiterie et deux silos à maïs en construction après la grange, achevée au printemps.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "Découverte de mica dans le pâturage : 250 livres en deux jours, jugées « bonne muscovite » par les inspecteurs d'Asheville, un mineur embauché.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : Autosuffisance : ferme et mica (1942→1943)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "ce_qui_arrive": "Quota obtenu dans les programmes militaires (Navy V-1, Enlisted Reserve Corps) après les lettres d'universités favorables ; mois non précisé.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section printemps"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "Été : la faculté renonce à donner plus de 10 $ par mois et par personne ; certains refusent des postes ailleurs, dont un à 10 000 $.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section été"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "periode",
+    "ce_qui_arrive": "Départs pour la guerre (Lindsley, Evarts, Boyden, Mangold, Babcock, French, Bliss), datés 1942-1943 sans précision.",
+    "certitude": "deduit",
+    "refs": [
+     "fil : La guerre vide le collège (1941-12→1945)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "ce_qui_arrive": "Molly Gregory reprend l'atelier de menuiserie après le départ de Bliss ; l'atelier devient le cœur du programme de construction.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section guerre"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Stoller, refusé à l'Enlisted Reserve pour une oreille sourde, est mobilisé après le trimestre d'automne.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section guerre"
+    ]
+   }
+  ],
+  "quotidien": "Le chantier communautaire continue : cours le matin et le soir, travail volontaire l'après-midi. La ferme se développe (troupeaux, légumes, taureau offert par Marshall Field), avec le fiasco du poulailler : spécialiste mobilisé, poules perchées dans les arbres puis mangées. L'atelier de menuiserie, repris par Molly Gregory, devient central. Soirées Bach et cookies avec l'orgue Hammond. Le samedi, bals dans la salle à manger avec Evarts au piano, et spectacles (Ethan Frome, La Mégère apprivoisée) où l'on réquisitionne Oppenheimer ; ces scènes sont datées 1942-1943, sans mois.",
+  "tensions": [
+   "Argent : hypothèques empilées, campagne de fonds épuisante, faculté qui refuse d'aller au-delà de 10 $ par mois.",
+   "Départs : la communauté se vide au fil des mobilisations, Stoller étant appelé après le trimestre d'automne.",
+   "Accréditation : le quota est obtenu, mais le droit de délivrer des diplômes reste refusé par la North Carolina Conference (bibliothèque maigre, salaires sous les minima).",
+   "Goûts : les soirées Bach et l'orgue enchantent les uns, tandis que l'élément « anti-gemütlichkeit » s'en désole.",
+   "Crème fraîche réclamée par Hansgirg : dispute qui amuse la communauté, sans conflit grave signalé.",
+   "Mica : aubaine pour la guerre, mais le calcul économique pèse sur l'entreprise communautaire.",
+   "Réputation de refuge : le télégramme de 1942 contre l'exécution de Wellman, resté sans effet, a valu au collège des insultes racistes.",
+   "Sous la surface : le glissement vers l'« informe » que Sam Brown date de l'automne 1942 prépare la fracture de 1944, mais les fiches ne prouvent pas qu'elle soit active dès 1942."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Arrivée des Hansgirg dans la Cadillac crème",
+    "date": "1942-09",
+    "lieu": "Lake Eden, entrée puis salle à manger",
+    "personnages": [
+     "Fritz Hansgirg",
+     "Mme Hansgirg",
+     "la communauté"
+    ],
+    "deroule": "Une Cadillac crème arrive pour le trimestre d'automne. L'orgue Hammond prend place dans la salle à manger, et les disques suivent. Les premières soirées Bach et cookies partagent le collège entre enchantés et « anti-gemütlichkeit ».",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section automne"
+    ]
+   },
+   {
+    "titre": "Le trou de mica du pâturage",
+    "date": "1942",
+    "lieu": "pâturage de Lake Eden",
+    "personnages": [
+     "Hansgirg",
+     "Straus",
+     "inspecteurs de la Colonial Mica Corporation d'Asheville",
+     "un mineur embauché"
+    ],
+    "deroule": "Hansgirg et Straus trouvent un trou de 15 sur 10 pieds plein de mica, matériau dont le gouvernement a besoin. En deux jours, 250 livres sont récoltées. Les inspecteurs la jugent « bonne muscovite », et un mineur est embauché. Mois non précisé, autour de l'automne.",
+    "certitude": "probable",
+    "refs": [
+     "fil : Autosuffisance : ferme et mica (1942→1943)",
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Réunion de faculté : « dix-huit personnes bâtissant des châteaux en Espagne »",
+    "date": "1942",
+    "lieu": "Lake Eden, réunion de faculté",
+    "personnages": [
+     "la faculté"
+    ],
+    "deroule": "La réunion se sépare sur cette formule ironique, au milieu des projets de ferme, de mica et de financement. Les fiches ne donnent ni sujet précis ni date exacte.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section automne"
+    ]
+   },
+   {
+    "titre": "Bal du samedi avec Evarts au piano",
+    "date": "1942",
+    "lieu": "salle à manger",
+    "personnages": [
+     "Evarts",
+     "Elsa Kahl",
+     "Frances de Graaf"
+    ],
+    "deroule": "Bal dans la salle à manger, Evarts joue du piano. Elsa Kahl danse une valse viennoise, puis Frances de Graaf improvise un tsatska sur deux chaises. Les fiches datent ces scènes de 1942 ou 1943.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section vie sociale"
+    ]
+   },
+   {
+    "titre": "Oppenheimer réquisitionné pour les spectacles du samedi",
+    "date": "1942",
+    "lieu": null,
+    "personnages": [
+     "Oppenheimer",
+     "la troupe du samedi"
+    ],
+    "deroule": "Pour Ethan Frome et La Mégère apprivoisée, on réquisitionne le rare jeune homme restant. Albers loue ensuite les figurines d'argile d'Oppenheimer. Les fiches datent ces scènes de 1942-1943.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section vie sociale"
+    ]
+   },
+   {
+    "titre": "Albers monte sur la table pour mimer l'arc gothique",
+    "date": "1942",
+    "lieu": "salle de classe",
+    "personnages": [
+     "Albers",
+     "les élèves"
+    ],
+    "deroule": "En classe, Albers monte sur la table pour montrer la forme de l'arc gothique. Les fiches datent la scène de 1942-1943 ; l'identité exacte d'Albers (Josef ou Anni) n'est pas précisée.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section vie sociale"
+    ]
+   },
+   {
+    "titre": "Laiterie et silos à maïs",
+    "date": "1942",
+    "lieu": "ferme de Lake Eden",
+    "personnages": [
+     "Kocher",
+     "Godfrey",
+     "la communauté"
+    ],
+    "deroule": "Après la grange, la laiterie et deux silos suivent l'été et l'automne. Les travaux occupent les après-midi consacrés au travail volontaire.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "septembre 1942 : la faculté compte ce qu'elle a donné",
+    "vers_date": "1942-07-07",
+    "vers": "Mangold résume : environ 78 000 $ de dons en deux ans, tous absorbés par la construction.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section été"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "septembre 1942 : la mémoire de l'accréditation",
+    "vers_date": "1942-05-24",
+    "vers": "Wunsch rencontre Huntley, de la Southern Association, qui s'étonne que le collège n'ait pas déjà ce droit.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section printemps"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "septembre 1942 : le chantier qui dure depuis trois ans",
+    "vers_date": "1940",
+    "vers": "Le chantier communautaire commence à l'automne 1940, avec cours le matin et le soir et travail l'après-midi.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "début du trimestre d'automne",
+    "vers_date": "1942-10-16",
+    "vers": "Fortune envoie un télégramme d'enquête sur les effets de la guerre ; le collège répond par une page dactylographiée.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section guerre"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "automne, les premières tensions sur les règles de vie",
+    "vers_date": "1942-10",
+    "vers": "Crise fin octobre sur l'accord étudiant dit « bedroom » : réunion de faculté, lettre ouverte des responsables étudiants, abandon de l'accord (contenu non précisé).",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : section guerre"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "automne, la communauté qui se défait",
+    "vers_date": "1942-11",
+    "vers": "Rice publie son autobiographie avec un chapitre sur Black Mountain ; Hamilton Holt menace d'un procès en libelle.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse) : fin",
+     "fil : Le livre de Rice et le contentieux Holt (1942-05→1944)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "automne 1942, glissement déjà amorcé selon Sam Brown",
+    "vers_date": "1944",
+    "vers": "La fracture idéologique de 1944 : le collège se divise sur la forme qu'il doit prendre.",
+    "refs": [
+     "fil : La fracture idéologique de 1944 en gestation (1942→1944)"
+    ]
+   }
+  ],
+  "motifs": [
+   "argent et dette contre idéal communautaire",
+   "décor européen (Cadillac, orgue, disques) contre dénuement",
+   "la guerre comme planche de salut et comme vide",
+   "la ferme et le mica : autosuffisance par la matière",
+   "accréditation : légitimité jouée dans les lettres",
+   "refuge politique attaqué et moqué",
+   "la fracture de 1944 qui couve"
+  ],
+  "lacunes": "Les fiches n'ont pas d'identifiants (EV-, SC-, PE-) : les refs renvoient aux titres de chapitre et de fil. Aucun jour de septembre n'est donné, et le début du trimestre d'automne n'est pas daté. Le climat et la vie matérielle quotidienne ne sont pas décrits. Le contenu du « bedroom » et l'objet du télégramme de décembre sont inconnus. Les dates de mobilisation de Stoller, des départs et de l'épisode du poulailler restent floues. Contradiction : Albers conçoit Graphic Tectonic à Harvard « cet été-là », alors que la campagne de fonds le mobilise presque tout l'été ; on ignore donc s'il est au collège en septembre. L'Albers de la classe n'est pas identifié. Les fiches sur Bentley, de Graaff et Straus couvrent 1942-1944 et ne prouvent pas une tension déjà active en 1942."
+ }
+}

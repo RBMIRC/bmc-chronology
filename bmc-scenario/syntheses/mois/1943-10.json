@@ -1,0 +1,263 @@
+{
+ "passe": "mois",
+ "cle": "1943-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3244,
+  "sortie": 11848,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1943-10 (octobre 1943)",
+  "session": "Rentrée d'automne 1943 (déduit : aucune fiche ne nomme de trimestre ni de session ; la rentrée précède la mi-octobre)",
+  "saison_et_climat": "Automne 1943 à Lake Eden, en montagne de Caroline du Nord. Aucune fiche ne décrit le temps d'octobre ; seule la chaleur écrasante de l'été (équipe de route sous le soleil) est un repère climatique, et elle est passée. Fraîcheur croissante déduite.",
+  "situation": "À la mi-octobre, la rentrée a mis à nu la faiblesse du recrutement : le dernier contingent de l'Enlisted Reserve Corps est parti et Sam Brown, atteint de polio, reste le seul étudiant masculin (atteste). La faculté est surtout faite de femmes et d'étrangers déplacés, après le départ de Lindsley, Evarts, Boyden, Mangold, Babcock et French vers l'effort de guerre ; Kocher a quitté le collège en 1943. Le discours de rentrée de Wunsch, qui invoque une communauté d'abord, puis un collège, a été salué comme éloquent, mais la guerre interne couve : les nouveaux enseignants s'opposent à Albers, Dreier et Wunsch. Clark Foreman arrive à l'automne et co-enseigne « Europe moderne » avec Bentley. Le chantier communautaire touche à sa fin et la mine de mica, ouverte pendant l'été, pèse encore sur les esprits. Refs : synthese-1943, EV-03434.",
+  "presents_probables": [
+   {
+    "nom": "Sam Brown",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Clark Foreman",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Eric Bentley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lorrie Goulet",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Quatuor Kolisch",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1943-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Mi-octobre : le dernier contingent de l'Enlisted Reserve Corps est parti ; Sam Brown reste seul étudiant masculin ; des jeunes femmes sont aussi parties vers les WACs, les WAVES et les usines de munitions.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03434",
+     "synthese-1943"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "saison",
+    "ce_qui_arrive": "Arrivée de Clark Foreman, qui co-enseigne « Europe moderne » avec Bentley, cours qualifié de « long débat ».",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "session",
+    "ce_qui_arrive": "Discours de rentrée de Wunsch, salué comme éloquent : la onzième année est un collège neuf, « d'abord une communauté, puis un collège », et chacun doit examiner les règles héritées.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "saison",
+    "ce_qui_arrive": "Arrivée de Lorrie Goulet, venue par My America de Louis Adamic ; elle passe de la sociologie sous Miller à l'art sous Albers.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1943"
+    ]
+   }
+  ],
+  "quotidien": "Vie ordinaire réduite et centrée sur le campus : cours surtout tenus par des femmes et des étrangers ; Albers enseigne, peint la nuit dans la salle blanche de Black Dwarf et organise ou accueille des expositions de photographies. Concerts du samedi suivis par des blessés du Moore General Hospital ; répétitions du Quatuor Kolisch au réfectoire ; bals du samedi, où certains couples quittent ensemble la soirée. Les fêtes de 1943 (revue satirique « Pity me at dinner », cancan, boogie-woogie de Sam Brown, tenues de velours noir) donnent le ton. Les chantiers de plein air de l'été (route, lambrissage) ne sont plus de saison : la vie se déplace vers l'intérieur (déduit).",
+  "tensions": [
+   "Un collège de plus en plus masculin dans son nom mais vide d'hommes : Sam Brown est seul, et la vie sociale se trouve déséquilibrée.",
+   "Mœurs : Wunsch s'inquiète de couples qui quittent ensemble les bals et des couples enlacés au réveillon ; les étudiants refusent l'« accord » interdisant les visites dans les chambres de l'autre sexe et réclament voix égale et libre discussion des « standards moraux » en réunion générale.",
+   "Faculté : les nouveaux enseignants, énergiques, se heurtent à Albers, Dreier et Wunsch qui dominent toujours.",
+   "Bentley contre Straus : Straus l'accuse (été 1943) d'endoctriner dans un sens pro-soviétique et anti-britannique ; Bentley répond par une déclaration en sept points et attire les étudiants vers le théâtre et la politique, sur le territoire de Wunsch.",
+   "Argent : les promesses d'été (17 000 $ et 55 étudiants espérés) ne se sont pas traduites en effectifs ; Dreier évoque des licenciements ; Oppenheimer est parti en avril.",
+   "Guerre idéologique (toast à la Révolution d'Octobre, affaire Bertrand Russell, conférences de Straus sur le matérialisme) datée seulement ≈1942-1944 : probablement en partie 1943-44, avec la scission de 1944 au bout (déduit)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le dernier homme du collège",
+    "date": "1943-10",
+    "lieu": "réfectoire de Lake Eden",
+    "personnages": [
+     "Sam Brown",
+     "Wunsch",
+     "étudiantes"
+    ],
+    "deroule": "Après le départ du dernier contingent, Sam Brown, malade de la polio, reste la seule présence masculine parmi des étudiantes qui ont perdu leurs camarades. Il danse le boogie-woogie qui a fait sa réputation pendant les fêtes, tandis que la faculté pèse les règles à réécrire. Scène fondée sur EV-03434 et la synthèse ; l'ambiance est déduite.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03434",
+     "synthese-1943"
+    ]
+   },
+   {
+    "titre": "« Europe moderne » à deux voix",
+    "date": "1943",
+    "lieu": "salle de classe",
+    "personnages": [
+     "Clark Foreman",
+     "Eric Bentley",
+     "étudiantes"
+    ],
+    "deroule": "Foreman et Bentley co-enseignent l'histoire de l'Europe moderne et transforment le cours en long débat. Les étudiantes, qui viennent du théâtre et de la sociologie, y découvrent la politique. Le ton déduit du conflit Bentley-Straus de l'été.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "titre": "« Il faut que tu apprennes à voir »",
+    "date": "1943",
+    "lieu": "atelier d'Albers, Black Dwarf",
+    "personnages": [
+     "Lorrie Goulet",
+     "Albers"
+    ],
+    "deroule": "Lorrie Goulet, arrivée de la sociologie, se heurte à la rigueur d'Albers. La phrase qui résume leur rapport est tirée de la fiche ; la date précise de l'échange reste inconnue.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "titre": "Accord contre voix égale",
+    "date": null,
+    "lieu": "réunion générale",
+    "personnages": [
+     "Wunsch",
+     "étudiants",
+     "Albers",
+     "Dreier"
+    ],
+    "deroule": "Les étudiants demandent voix égale et libre discussion des « standards moraux » ; la faculté doit répondre à l'« accord » sur les visites dans les chambres. Les anciens dominants tiennent la ligne de la codification, tandis que la rentrée rend leur autorité plus fragile.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "titre": "Concert du samedi avec les blessés",
+    "date": null,
+    "lieu": "salle de concert ou réfectoire",
+    "personnages": [
+     "Quatuor Kolisch",
+     "blessés du Moore General Hospital",
+     "étudiants"
+    ],
+    "deroule": "Un samedi soir, le quatuor joue pour des soldats blessés venus de l'hôpital. Le collège offre à la guerre une musique qu'il veut communautaire. Scène déduite de l'habitude des concerts du samedi.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1943"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Mi-octobre, quand le collège compte un seul étudiant masculin et que la faculté se déchire",
+    "vers_date": "1943-08",
+    "vers": "Fin août : « dans l'euphorie du mica », la faculté décide de rouvrir avec 17 000 $ de promesses d'été et 55 étudiants espérés, dont 20 à 25 % de garçons.",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Octobre, après la visite de Charlot et ses diapositives sur le Mexique",
+    "vers_date": "1943-09",
+    "vers": "Visite de Jean Charlot les 6 et 7 septembre : conférence sur le Mexique et demande de l'inviter à enseigner l'été suivant.",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Octobre, quand Wunsch s'inquiète des mœurs et que Straus accuse Bentley",
+    "vers_date": "1943",
+    "vers": "Été 1943 : Straus accuse Bentley d'endoctriner dans un sens pro-soviétique et anti-britannique, et Bentley répond en sept points.",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre, quand le collège attend des fonds et des étudiants",
+    "vers_date": "1943-11",
+    "vers": "En novembre, Hansgirg annonce un projet d'extraction de magnésium de l'olivine et offre 20 % au collège ; le don restera sans suite.",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre, quand Elaine Fried travaille encore à l'usine Liquidometer sans peindre",
+    "vers_date": "1943-12-09",
+    "vers": "Le 9 décembre, Elaine Fried épouse Willem de Kooning, qui enseignera à BMC à l'été 1948.",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre, quand Bentley et Foreman co-enseignent et que les nouveaux enseignants se heurtent aux anciens",
+    "vers_date": "1944",
+    "vers": "Scission de la faculté en 1944, probablement issue de la guerre idéologique interne (déduit).",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre, quand Charlot est invité à enseigner l'été suivant",
+    "vers_date": "1944",
+    "vers": "Été 1944 : Charlot enseigne au collège, si l'invitation est suivie.",
+    "refs": [
+     "synthese-1943"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre, quand le collège se vide de ses hommes",
+    "vers_date": "1948",
+    "vers": "Été 1948 : Willem de Kooning enseigne à BMC.",
+    "refs": [
+     "synthese-1943"
+    ]
+   }
+  ],
+  "motifs": [
+   "Un collège tenu par des femmes et des étrangers, dans un monde d'hommes en guerre.",
+   "La codification de la vie (notes externes, absences, règles de mœurs) face à l'idéal d'une communauté libre.",
+   "La sexualité et la moralité comme terrain de conflit entre étudiants et faculté.",
+   "La guerre idéologique qui entre dans l'enseignement.",
+   "Art et enseignement : l'atelier d'Albers comme école du regard."
+  ],
+  "lacunes": "Aucune date précise pour la rentrée, l'arrivée de Foreman et de Goulet, la fête de 1943 ou la réunion sur l'« accord ». Le sort de la mine de mica est contradictoire entre les fiches. Burns dit que Wunsch quitte BMC en 1943, alors que les fiches le placent à la rentrée et au Nouvel An : sa présence en octobre reste probable mais non attestée. La scission de 1944 et les épisodes ≈1942-1944 restent déduits. La synthèse n'a pas d'identifiant propre ; elle est citée comme synthese-1943. Seul EV-03434 est attesté avec une fiche dédiée."
+ }
+}

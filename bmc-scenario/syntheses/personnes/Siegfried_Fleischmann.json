@@ -1,0 +1,261 @@
+{
+ "passe": "personnes",
+ "cle": "Siegfried Fleischmann",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 8675,
+  "sortie": 7870,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Siegfried Fleischmann",
+  "autres_noms": [
+   "Siegfried (père d'Anni)",
+   "le père d'Anni Albers",
+   "beau-père de Josef Albers"
+  ],
+  "dates_de_vie": "Dates de naissance et de mort non données par les fiches. Il est adulte et établi à Berlin dans les années 1890-1920 (père d'une fille née en 1899) et quitte l'Allemagne pour le Mexique en 1939.",
+  "statut_bmc": "Figure périphérique, jamais présente au collège dans les fiches. Il est le père d'Anni Albers et le beau-père de Josef Albers, donc une ressource pour le hors-champ : les racines berlinoises d'Anni, le Bauhaus d'avant, puis l'exil mexicain de la famille. Aucune fiche ne le place à Black Mountain.",
+  "presence": [],
+  "portrait_physique": "Aucune description physique dans les fiches. Seuls ses cadres sont attestés : le grand showroom Art nouveau de l'autre côté de la porte de Brandebourg, l'appartement familial de la Meinekestrasse, la loge à l'opéra et le déjeuner à l'Adlon. Tout portrait physique serait à inventer, en le signalant comme invention. Les photographies du voyage de 1937 sont une piste, aucune n'est décrite ici.",
+  "noyau_psychologique": "Bourgeois berlinois prospère et cultivé, tenu par un métier fait de styles, de savoir-faire et de clientèle. Il aime ses filles de façon concrète : il paie les précepteurs et les professeurs d'art, les emmène au musée le dimanche, offre vacances et mariage. Sa résistance à la modernité est la réaction d'un fabricant qui croit connaître toutes les possibilités du style. Elle ne tient pas devant l'insistance de sa fille : il cède et paie. Déduction à marquer comme telle : l'affection l'emporte chez lui sur le principe, et il gagne ensuite en dignité face à l'exil. Weber le juge « éclairé et sophistiqué » et doute qu'il ait vraiment dit ce qu'Anni lui prête. Il faut donc jouer un homme plus fin que sa légende.",
+  "blessures": "Attesté : l'exil de 1939 sous le nazisme. Sa femme écrit qu'ils quittent pour toujours un pays natal (SC-00755, SC-00756). Les fiches le présentent comme une famille allemande juive qui fuit. C'est la perte de la patrie, de la maison et probablement du commerce. Le sort de l'entreprise de meubles n'est pas documenté. Dans les fiches, seule Toni exprime la douleur, il n'a aucune parole attestée à ce sujet. Déduction : tout ce qui touche à son monde perdu est à jouer en retrait.",
+  "desirs": "Déduit des gestes attestés : voir ses filles installées et protégées, voir Anni avec un mari stable (Weber : Josef perçu comme un stabilisateur pour une fille passionnelle), garder la famille réunie. En 1937 il traverse l'Atlantique pour revoir ses enfants. En 1939 il les rejoint au Mexique.",
+  "peurs": "Non exprimées dans les sources. Déduction : que sa fille s'engage dans une voie incertaine (le Bauhaus, un artiste pauvre) et, plus tard, de façon plus lourde, la menace nazie. La traversée de 1939 est d'abord le fait de la nécessité, elle n'a rien d'un voyage d'agrément.",
+  "maniere_d_aimer": "Par la dépense, la présence et l'accueil, bien plus que par les paroles. Il emmène ses filles au musée le dimanche, paie précepteurs et professeurs d'art, finance les vacances du couple pendant l'inflation, offre le mariage à l'église et le déjeuner à l'Adlon. Quand Anni présente Josef, lui et Toni l'adoptent aussitôt et lui disent qu'il pourra revenir chez eux si elle devient trop difficile (EV-00855). Le désaccord avec Anni est affectueux : elle l'adore, il la contredit, puis il paie.",
+  "rapport_au_pouvoir": "Autorité paternelle et patronale de bourgeois, mais souple : il oppose un refus puis cède. Il tient le cordon de la bourse (le départ d'Anni à Weimar au printemps 1922 dépend de lui). Son pouvoir s'efface à l'exil, où il devient réfugié et dépend de gendre et fille installés à l'étranger. Aucune fiche ne donne d'engagement politique de sa part.",
+  "voix": {
+   "registre": "Direct, bref, sentencieux ; ton de fabricant qui sait de quoi il parle. Selon Weber, peut-être aussi ironique, d'un homme qui plaisante. Aucun écrit de lui n'est cité, et le journal de voyage est celui de Toni.",
+   "tics": "Formules tranchées qui clôturent la discussion (« That is all ») ; question de renvoi pour obliger l'autre à préciser (« What do you mean… ? ») ; renvoi à l'histoire des styles (Renaissance, Baroque) comme argument d'autorité.",
+   "exemples_paraphrases": [
+    "Un nouveau style ? Qu'est-ce que tu veux dire ? Il n'en existe pas : on a eu la Renaissance, on a eu le Baroque, et c'est tout (CI-00400, SC-00187, version directe d'Anni).",
+    "Tout cela a déjà été fait : la Renaissance, le Baroque (CI-00094, CI-00462 ; version qu'Anni racontait en riant, jugée embellie par Weber)."
+   ]
+  },
+  "habitudes": [
+   "Emmener ses deux filles, Anni et Lotte, dans les musées de Berlin le dimanche, notamment au Museum für Völkerkunde où Anni découvre les antiquités mexicaines et andines (EV-00642, EV-02359)",
+   "Fournir à ses filles précepteurs et professeurs d'art (PE-00163)",
+   "Partir en vacances et voyager en famille, y compris avec les enfants adultes (Mexique 1937)",
+   "Tenir un showroom Art nouveau et fabriquer des meubles, à l'autre bout de la porte de Brandebourg"
+  ],
+  "convictions": [
+   "Après la Renaissance et le Baroque, il n'y a pas de nouveau style : un fabricant de meubles connaît toutes les possibilités du style (version d'Anni ; contestée par Weber).",
+   "La famille se soutient : il finance la formation d'Anni et le mariage malgré ses réserves.",
+   "Déduit : le travail artisanal et la culture muséale comptent, et la fille doit être instruite."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1937-06",
+    "moment": "Traversée sur l'Orinoco et arrivée à Veracruz : les Fleischmann apportent aux Albers les peintures et photographies laissées en Allemagne en 1933.",
+    "etat_interieur": "Déduit : joie de revoir les enfants et curiosité d'un voyageur. Toni note que c'était un voyage pour revoir leurs enfants, Siegfried n'a pas de parole attestée.",
+    "refs": [
+     "EV-02713",
+     "EV-02714",
+     "SC-00756"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "moment": "Séjour à Mexico du 19 juin au 16 juillet, base calle de París 23, grand circuit (Teotihuacán, Tepoztlán, Toluca, Cuernavaca, Taxco, Puebla, Cholula, Tehuacán, Oaxaca, Mitla, Monte Albán), environ 6000 miles avec les Albers.",
+    "etat_interieur": "Déduit : un homme de plus de soixante ans entraîné dans l'enthousiasme de sa fille pour l'art précolombien, la même passion née de ses visites dominicales au musée de Berlin. Les cahots, la boue et les ruines sont vus par le journal de Toni.",
+    "refs": [
+     "EV-02731",
+     "EV-02732",
+     "EV-02713"
+    ]
+   },
+   {
+    "date": "1937",
+    "moment": "Route boueuse d'Oaxaca à Mitla : 40 km en deux heures, le chauffeur pose pierres et matelas dans les ornières. Les quatre oublient tout devant des ruines différentes de toutes les précédentes.",
+    "etat_interieur": "Déduit : fatigue physique puis émerveillement partagé ; il fait corps avec le groupe.",
+    "refs": [
+     "SC-00674",
+     "SC-00675"
+    ]
+   },
+   {
+    "date": "1939-06-22",
+    "moment": "Débarquement à Veracruz sur le même Orinoco, deux ans après : exil définitif, Josef et Anni attendent au quai.",
+    "etat_interieur": "Joie des retrouvailles mêlée de désespoir d'émigrants, d'après le journal de Toni. Pour lui, rien n'est attesté : il faut inventer avec retenue.",
+    "refs": [
+     "SC-00755",
+     "SC-00756",
+     "EV-02874",
+     "EV-02951"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1899-06-12",
+    "moment": "Naissance d'Annelise, sa fille, à Berlin ; les parents sont Siegfried et Toni Fleischmann.",
+    "refs": [
+     "EV-00110",
+     "EV-00133"
+    ]
+   },
+   {
+    "date": "1899-06-12→1915",
+    "moment": "Enfance d'Anni dans l'appartement familial de Berlin : loge à l'opéra, sœurs en robes de velours noir à dentelle irlandaise. Famille aisée, culture bourgeoise. Le père n'y est pas décrit directement, mais le décor est le sien.",
+    "refs": [
+     "EV-00133"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Fabricant de meubles prospère, grand showroom Art nouveau de l'autre côté de la porte de Brandebourg ; il finance précepteurs et professeurs d'art pour Anni.",
+    "refs": [
+     "PE-00163",
+     "EV-00725"
+    ]
+   },
+   {
+    "date": "≈1920",
+    "moment": "Les dimanches au musée : Siegfried emmène Anni et Lotte, et Anni se prend d'amour pour les collections mexicaines et andines du Museum für Völkerkunde.",
+    "refs": [
+     "EV-00642",
+     "EV-02359"
+    ]
+   },
+   {
+    "date": "1921",
+    "moment": "Anni, 22 ans, lui explique le Bauhaus, ouvert en 1919, dans l'appartement de la Meinekestrasse. Il rejette l'idée de nouveau style, elle insiste, et au printemps suivant il finance son départ à Weimar.",
+    "refs": [
+     "SC-00187",
+     "EV-00725",
+     "RE-00329",
+     "CI-00400"
+    ]
+   },
+   {
+    "date": "1922",
+    "moment": "Version contestée du même épisode : il aurait dit que tout avait été fait, Renaissance et Baroque. Weber juge la phrase embellie par Anni, qui la répétait en riant pour se peindre en rebelle.",
+    "refs": [
+     "EV-00140",
+     "RE-00379",
+     "CI-00094",
+     "CI-00462"
+    ]
+   },
+   {
+    "date": "≈1922",
+    "moment": "Anni présente Josef à sa famille à Berlin : les parents l'adoptent aussitôt et lui disent qu'il pourra revenir chez eux si elle devient trop difficile.",
+    "refs": [
+     "EV-00855"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Pendant l'inflation, Siegfried finance les vacances du couple.",
+    "refs": [
+     "PE-00163"
+    ]
+   },
+   {
+    "date": "1925",
+    "moment": "Mariage à Berlin : Siegfried et Toni, ravis, offrent la cérémonie à l'église catholique et un déjeuner somptueux à l'Adlon. Ils voient en Josef un stabilisateur pour leur fille passionnelle.",
+    "refs": [
+     "EV-01089",
+     "PE-00163"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1939",
+    "moment": "Installation au Mexique comme réfugié, après avoir quitté l'Allemagne nazie.",
+    "refs": [
+     "EV-02951",
+     "PE-00163",
+     "EV-02874"
+    ]
+   },
+   {
+    "date": "1939-06-22",
+    "moment": "Les parents arrivent à Veracruz accueillis par Josef et Anni. La suite de leur vie au Mexique n'est pas documentée ici (activité, lieu précis, date de mort).",
+    "refs": [
+     "SC-00755",
+     "SC-00756"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Anni Albers (née Fleischmann)",
+    "nature": "Père et fille : affection, conflit esthétique, soutien matériel",
+    "evolution": "Du refus du « nouveau style » (1921-1922) au financement de son départ pour Weimar, puis aux vacances, au mariage offert et à l'exil sous sa protection : à partir de 1939, la fille et son gendre accueillent les parents.",
+    "refs": [
+     "RE-00329",
+     "RE-00379",
+     "SC-00187",
+     "EV-00725",
+     "EV-01089"
+    ]
+   },
+   {
+    "avec": "Toni Fleischmann",
+    "nature": "Épouse ; c'est elle qui tient le journal des voyages de 1937 et de l'exil de 1939",
+    "evolution": "Compagne de voyage puis d'exil : ils quittent ensemble l'Allemagne. La voix attestée de leur couple est la sienne.",
+    "refs": [
+     "EV-02631",
+     "EV-02731",
+     "SC-00756"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Gendre ; d'abord artiste pauvre et plus âgé d'une autre ville, vite adopté",
+    "evolution": "Accueil chaleureux dès la présentation, mariage offert, voyages communs au Mexique en 1937, puis accueil à Veracruz en 1939.",
+    "refs": [
+     "EV-00855",
+     "EV-01089",
+     "EV-02714",
+     "SC-00755"
+    ]
+   },
+   {
+    "avec": "Lotte Fleischmann",
+    "nature": "Fille cadette, sœur d'Anni",
+    "evolution": "Emmenée aux musées avec Anni. Rien d'autre n'est documenté.",
+    "refs": [
+     "EV-00642",
+     "EV-02359"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Le propos du père (« tout a déjà été fait ») est contesté : Anni le raconte en riant en entrevue, Weber juge improbable qu'un père éclairé l'ait tenu autrement qu'en plaisanterie, et l'épisode servirait l'auto-mythologie d'Anni (EV-00140, CI-00094, CI-00462).",
+   "Les mots rapportés varient : « There are no new styles. We have had the Renaissance; we have had the Baroque. That is all. » (SC-00187, version d'Anni 1965) contre « it has all been done already » (version Weber 2009).",
+   "La fiche agrégée dit qu'il était opposé « ou pas » au départ d'Anni ; les fiches de relation parlent du conflit (RE-00379) puis du passage du conflit au soutien (RE-00329).",
+   "Les fiches numérotent différemment le voyage de 1937 : « second été mexicain » (EV-02713, EV-02714) et « troisième voyage » (EV-02731, EV-02732). L'été de 1937 est le même événement.",
+   "Une fiche parle de leur arrivée à Veracruz en 1937 « en juin » ; une autre place leur séjour à Mexico du 19 juin au 16 juillet, dans un voyage plus large de juin à août.",
+   "Une fiche de la mère à Anni date la naissance de 1899 mais précise 1921 : Staatliche Kunstgewerbeschule de Hambourg (EV-00110), alors que le récit du départ en 1921-1922 parle de Weimar et du Bauhaus (EV-00725) ; la chronologie exacte reste à fixer.",
+   "La fiche EV-00855 appelle Anni « Anke » dans le texte, probablement un surnom ou une erreur de transcription : à vérifier."
+  ],
+  "situations_revelatrices": [
+   "La table ou le salon de la Meinekestrasse : une fille de 22 ans explique une école nouvelle à un père fabricant de meubles, qui répond par la certitude ; il cède sans le dire en finançant ensuite.",
+   "Le showroom Art nouveau près de la porte de Brandebourg : l'homme au milieu de ses meubles, face à la modernité.",
+   "Le dimanche au Museum für Völkerkunde, avec deux filles en robe de ville : le père comme passeur involontaire de la passion mexicaine.",
+   "La présentation de Josef : des parents attendus froids, qui l'adoptent aussitôt et l'invitent à revenir si la vie devient difficile.",
+   "Le repas à l'Adlon après la messe de mariage : le père généreux, la fierté bourgeoise.",
+   "La route boueuse d'Oaxaca à Mitla : le Berlinois âgé dans une voiture embourbée, qui oublie tout devant des ruines inconnues.",
+   "Le quai de Veracruz en juin 1939 : le même navire, le même quai, mais l'exil définitif ; le silence du père face aux mots de Toni."
+  ],
+  "citations": [
+   "« What do you mean, a new style? There are no new styles. » (CI-00400, Anni Albers 1965/2017) : réponse à Anni sur le Bauhaus ; SC-00187 la prolonge par « We have had the Renaissance; we have had the Baroque. That is all. »",
+   "« There has been the Renaissance, there has been the Baroque—it has all been done already. » (CI-00094 et CI-00462, Weber 2009) : version contestée, probablement embellie par Anni ; en français : tout a déjà été fait.",
+   "Parole de sa femme Toni à l'arrivée en exil (SC-00755, SC-00756) : il y a deux ans, même bateau, un voyage pour revoir leurs enfants ; aujourd'hui, un départ de la patrie qu'ils doivent quitter pour toujours."
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort de Siegfried, lieu et circonstances de sa mort au Mexique ?",
+   "Que devient l'entreprise de meubles et le showroom sous le nazisme (aryanisation, vente, fermeture) ? Comment a-t-il quitté l'Allemagne en pratique ?",
+   "Que fait-il au Mexique entre 1939 et sa mort ? Où vit-il, avec qui, de quoi ?",
+   "Quelle est sa relation réelle à l'art moderne : le propos « tout a été fait » est-il une boutade, comme le suggère Weber ? A-t-il fini par apprécier le travail d'Anni ?",
+   "Y a-t-il des liens entre les Fleischmann au Mexique et Black Mountain College (visites, lettres, argent) ?",
+   "Quelles étaient sa religion et celle de Toni, au vu du mariage à l'église catholique offert pour Josef ?",
+   "Qui sont le frère et la sœur mentionnés à propos de la première visite de Josef, à côté de Lotte ? Que deviennent-ils ?",
+   "Pourquoi Anni est-elle à Hambourg en 1921, avant Weimar, et quel rôle y joue son père ?"
+  ]
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "passe": "mois",
+ "cle": "1938-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3477,
+  "sortie": 15745,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "juillet 1938",
+  "session": "vacances d'été ; aucune session d'été n'est attestée dans les fiches",
+  "saison_et_climat": "Été sur le campus du lac Eden, près d'Asheville (ville citée dans les fiches). Aucune fiche ne décrit le climat.",
+  "situation": "Le collège traverse la pause d'été après la crise de l'année académique. Rice, contraint de quitter son rectorat le 13 avril, est en congé prolongé jusqu'en septembre ; sa présence en juillet n'est pas attestée. Le conseil du 2 juin a accordé 200 dollars de frais de vie, et le budget reste serré (salaires coupés de 25 %). Le collège gère l'auberge du Lake Eden Inn et met en route la ferme. Les plans de Gropius et Breuer sont livrés, mais leur coût (500 000 dollars selon Dreier) dépasse les moyens. Le rectorat reste sans titulaire ; la suite ne sera tranchée qu'à l'automne.",
+  "presents_probables": [
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Roscoe Penley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Moellenhoff",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Portell",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Schawinsky",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Le collège gère l'auberge du Lake Eden Inn. La ferme prend forme avec Roscoe Penley et l'énergie de Dreier, et la communauté mange déjà ses produits.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02795",
+     "EV-02796"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Gropius et Breuer livrent leurs plans contre 400 dollars. Dreier estime la réalisation à 500 000 dollars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02772",
+     "OE-01358"
+    ]
+   },
+   {
+    "date": "1938-06-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Le conseil final ajoute 200 dollars de frais de vie et propose à Rice de représenter le collège à Chicago.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02847",
+     "EV-02848"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Rice refuse la proposition de Chicago. Chaddock date ce refus d'avril, Duberman de juin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02847",
+     "EV-02848"
+    ]
+   },
+   {
+    "date": "1938-08-31",
+    "precision": "jour",
+    "ce_qui_arrive": "Un mémo traite du départ de Schawinsky, qui n'est pas réembauché.",
+    "certitude": "atteste",
+    "refs": [
+     "CF-00284",
+     "EV-02850",
+     "EV-02816"
+    ]
+   },
+   {
+    "date": "1938-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers écrit à Moholy-Nagy pour faire supprimer deux remarques de The New Vision qu'il juge fausses, et obtient gain de cause.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02849",
+     "SC-00736"
+    ]
+   },
+   {
+    "date": "1938-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Le congé prolongé de Rice court jusqu'en septembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02840"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "À l'automne, Rice revient en existence fantomatique à Lee Hall. Le Board vote le rectorat à Wunsch, la liaison avec Alice est abandonnée, Portell démissionne, et Peggy et David Bailey rejoignent le personnel.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02851",
+     "EV-02767",
+     "EV-02771",
+     "EV-02769"
+    ]
+   },
+   {
+    "date": "1938-11-19",
+    "precision": "jour",
+    "ce_qui_arrive": "Dreier télégraphie à Eleanor Roosevelt dans le cadre de la collecte menée par les Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02854"
+    ]
+   },
+   {
+    "date": "1938-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le MoMA ouvre l'exposition Bauhaus 1919-1928, qui comprend des exercices d'élèves d'Albers à Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02794",
+     "EV-02858"
+    ]
+   }
+  ],
+  "quotidien": "Vie d'été faite de travail : faire tourner l'auberge du Lake Eden Inn, monter la ferme, manger les produits du jardin. Aucune fiche ne décrit les cours, la musique ou les répétitions pour juillet.",
+  "tensions": [
+   "Rice, toujours en congé, reste tenu à distance par la faculté. Sa demande d'abréger le congé a été rejetée à l'unanimité.",
+   "Les griefs anciens (liaison avec Alice, décisions unilatérales, plaisanterie Bacardi) restent vifs. Rice accuse le collège de penser à lui-même plutôt qu'à son bien.",
+   "Le budget est serré : salaires coupés de 25 %, frais de vie minimes, projet de bâtiments à 500 000 dollars.",
+   "La mort de Dick Porter reste une question sans réponse. Schawinsky, déjà mal vu, est en sursis.",
+   "La querelle entre Albers et Rice couve et reprendra à l'automne."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le chantier de la ferme",
+    "date": null,
+    "lieu": "ferme du Lake Eden",
+    "personnages": [
+     "Dreier",
+     "Roscoe Penley"
+    ],
+    "deroule": "Dreier pousse la mise en route de la ferme avec Penley. Les premiers produits entrent dans les repas de la communauté, pendant que la question de l'argent pèse sur chaque chantier.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02795",
+     "EV-02796"
+    ]
+   },
+   {
+    "titre": "Les plans de Gropius et Breuer",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Dreier",
+     "Gropius",
+     "Breuer"
+    ],
+    "deroule": "Les plans arrivent contre 400 dollars. Dreier chiffre la réalisation à 500 000 dollars. La scène porte sur l'écart entre l'ambition du projet et l'argent disponible ; le projet sera abandonné vers 1940.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02772",
+     "OE-01358"
+    ]
+   },
+   {
+    "titre": "Le retour de Rice redouté",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "Mangold",
+     "Albers"
+    ],
+    "deroule": "La faculté prépare le retour de Rice prévu en septembre, alors que son absence pèse sur les décisions. Des courriers circulent, dont la lettre de Mangold du 27 mai.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02840",
+     "EV-02845"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, la communauté vit de la ferme et de l'auberge",
+    "vers_date": "1938-03-03",
+    "vers": "Le 3 mars, Mangold et Dreier négocient avec Rice un congé jusqu'au 1er mai. Les étudiants ne sont pas consultés, et la communauté décide qu'Alice ne doit pas être pénalisée. Duberman date le départ de Rice du 7 mars, ce qui contredit le 3 mars.",
+    "refs": [
+     "EV-02837",
+     "EV-02835",
+     "SC-00733",
+     "EV-02838"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, le souvenir de la fin de l'année académique",
+    "vers_date": null,
+    "vers": "Dick Porter se tire une balle dans la tempe et meurt au Biltmore Hospital d'Asheville. Le lendemain, Moellenhoff parle de la culpabilité du groupe en réunion générale. La date n'est pas précisée, et un lien avec Schawinsky reste plausible mais jamais affirmé.",
+    "refs": [
+     "EV-02762",
+     "EV-02763",
+     "SC-00715",
+     "EV-02817"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, Rice absent et le rectorat vacant",
+    "vers_date": "1938-04-13",
+    "vers": "Le 13 avril, Chaddock fait démissionner Rice de son rectorat, furieux que les fellows aient voté à l'unanimité la prolongation du congé jusqu'en septembre.",
+    "refs": [
+     "EV-02840",
+     "EV-02839",
+     "EV-02841"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, Rice en congé",
+    "vers_date": null,
+    "vers": "À l'automne, Rice revient en existence fantomatique à Lee Hall et reçoit ses soutiens sur rendez-vous. Le Board vote le rectorat à Wunsch, et Rice soupçonne Anni Albers de convoiter le poste pour son mari.",
+    "refs": [
+     "EV-02851",
+     "SC-00729",
+     "CO-00297"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, les plans en attente",
+    "vers_date": "1940",
+    "vers": "Le projet Gropius-Breuer est abandonné vers 1940 au profit de Kocher.",
+    "refs": [
+     "OE-01358",
+     "EV-02772"
+    ]
+   }
+  ],
+  "motifs": [
+   "la ferme et l'auberge comme survie économique du collège",
+   "le rectorat vacant et la figure absente de Rice",
+   "la culpabilité collective et le silence autour de Porter",
+   "la rivalité Albers-Rice qui couve",
+   "l'argent comme contrainte permanente",
+   "Schawinsky, un départ déjà presque acté"
+  ],
+  "lacunes": "Aucune fiche ne date un fait précis de juillet 1938, et la présence exacte de chacun est inconnue. On ignore où se trouve Rice (les fiches de Folly Beach datent de mars, et sa visite chez les Adamic n'est pas datée), où est Nell (probablement à Swarthmore, non attesté), si Alice reste sur place, si des étudiants sont là et si des cours ont lieu. Dates contradictoires : départ de Rice le 3 ou le 7 mars, refus de Chicago en avril ou en juin, début de la liaison à l'automne 1937 ou à la mi-hiver 1938. Le suicide de Porter n'est pas daté, et le lien avec Schawinsky n'est pas affirmé."
+ }
+}

@@ -1,0 +1,226 @@
+{
+ "passe": "mois",
+ "cle": "1939-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3075,
+  "sortie": 12626,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1939-07 (juillet)",
+  "session": "vacances d'été ; aucune session estivale n'est datée dans les fiches",
+  "saison_et_climat": "Été 1939 ; le climat de Black Mountain n'est pas décrit dans les fiches. Albers et Anni sont au Mexique jusqu'au 8 septembre.",
+  "situation": "En juillet 1939, le collège fonctionne au ralenti et sans son fondateur. Rice a quitté le campus fin juin pour Southern Pines, mais la nature exacte de sa sortie reste disputée. Les Albers sont au Mexique, où ils accueillent les parents d'Anni arrivés à Veracruz le 22 juin. Frank et Mary Rice travaillent à l'auberge de Lake Eden pour l'été. La recherche d'un peintre invité n'a abouti à rien, et les projets d'architecture restent sur le papier. La rentrée est attendue le 12 septembre.",
+  "presents_probables": [
+   {
+    "nom": "Frank Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Rice",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1939-06-08",
+    "precision": "periode",
+    "ce_qui_arrive": "Séjour des Albers au Mexique du 8 juin au 8 septembre, avec une base à Mexico et des voyages à Morelia, Pátzcuaro et Guadalajara.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02950"
+    ]
+   },
+   {
+    "date": "1939-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice quitte le collège fin juin pour Southern Pines. Nell refuse de le suivre et achève son stage à Asheville avant de rejoindre Chapel Hill.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "date": "1939-06-22",
+    "precision": "jour",
+    "ce_qui_arrive": "Les parents d'Anni, les Fleischmann, débarquent à Veracruz à bord de l'Orinoco, en exil définitif. Josef et Anni les accueillent. Anni dit avoir dû corrompre plusieurs personnes pour obtenir le débarquement et en garde une anxiété chronique.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "date": "1939-07-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Lettre d'Albers à Mangold : il refuse « pas un autre peintre abstrait », juge un candidat « inflexible et vide » et dénonce un autre candidat qu'il croit communiste. Aucun recrutement n'en sort.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02952"
+    ]
+   },
+   {
+    "date": "1939",
+    "precision": "saison",
+    "ce_qui_arrive": "Frank et Mary Rice reviennent travailler à l'auberge de Lake Eden pour l'été.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "date": "1939-06-15",
+    "precision": "jour",
+    "ce_qui_arrive": "Dans une lettre à Anne Mangold, Anni raconte une première fête « un peu folle » qui s'achève à 1 h 30 du matin.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Juillet est une vie réduite. Les Rice servent à l'auberge de Lake Eden pour l'été, pendant que le campus attend la rentrée. La musique n'a plus Allan Sly, qui ne revient pas, et Marian Nacke espère un successeur. Les fiches ne décrivent pas la vie quotidienne du campus en juillet. Au Mexique, Josef prépare son enseignement de Tlalpan et travaille sur ses photographies de la pyramide de Tenayuca (62 contacts, en juin). Anni vit entre ses fêtes et l'inquiétude pour ses parents.",
+  "tensions": [
+   "La sortie de Rice est contestée : Duberman parle d'un sabbatique d'un an voulu par le conseil pour l'éloigner, tandis que Chaddock parle d'un seul semestre obtenu à contrecœur. Les deux versions coexistent.",
+   "Nacke annonçait en avril une explosion « dans les six semaines » et menaçait de faire éclater le collège. Le départ de Rice intervient dans ce délai, mais les fiches ne confirment pas l'éclat annoncé.",
+   "Nell refuse de suivre Rice et reste séparée de lui pendant son stage à Asheville.",
+   "Albers exige de ses recrues une grande rigueur esthétique et politique, et son rejet des candidats bloque le recrutement.",
+   "La querelle Rice–Smith dans Harper's reste ouverte, avec une menace de procès sans suite.",
+   "Anni vit une anxiété chronique liée au sauvetage de ses parents.",
+   "Le projet de foyer et d'architecte reste bloqué par le manque d'argent."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Frank et Mary Rice à l'auberge de Lake Eden",
+    "date": "1939-07",
+    "lieu": "auberge de Lake Eden",
+    "personnages": [
+     "Frank Rice",
+     "Mary Rice"
+    ],
+    "deroule": "Pendant que Rice est à Southern Pines, ses parents et sa femme tiennent le service de l'auberge pour l'été, sur un campus presque désert. La scène peut faire ressentir la distance entre le fondateur absent et ceux qui restent.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Rice à Southern Pines, sans congé tranché",
+    "date": "1939-07",
+    "lieu": "Southern Pines",
+    "personnages": [
+     "Rice"
+    ],
+    "deroule": "Installé loin du campus, Rice poursuit l'autobiographie commencée à Folly Beach. La durée de son congé reste en suspens entre la version du conseil et la sienne.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La lettre de Mangold",
+    "date": "1939-07-08",
+    "lieu": "Mexique (base à Mexico)",
+    "personnages": [
+     "Josef Albers",
+     "Fred D. Mangold"
+    ],
+    "deroule": "Albers écrit à Mangold pour trouver un peintre invité. Il rejette les abstraits et les candidats qu'il juge vides ou politiquement suspects, et la lettre montre ses critères.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02952"
+    ]
+   },
+   {
+    "titre": "Les parents Fleischmann à Mexico",
+    "date": "1939-07",
+    "lieu": "Mexico",
+    "personnages": [
+     "Anni Albers",
+     "Josef Albers",
+     "parents d'Anni (Fleischmann)"
+    ],
+    "deroule": "Après leur débarquement de Veracruz le 22 juin, les parents d'Anni vivent leur exil définitif. Anni porte l'anxiété liée aux pots-de-vin donnés pour les faire débarquer.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, Rice est parti et ses disciples restent en colère",
+    "vers_date": "1939-04-24",
+    "vers": "La lettre de Marian Nacke qui annonce une explosion « dans les six semaines » et menace de faire éclater le collège",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, Rice vit à l'écart dans sa chambre de Lee Hall et ne participe plus aux affaires communes",
+    "vers_date": "1938",
+    "vers": "Le début de son retrait des affaires communes, et le commencement de son autobiographie à Folly Beach",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, les Albers sont au Mexique, loin de New York",
+    "vers_date": "1939-05",
+    "vers": "Guernica vu en mai à New York, un souvenir que la fiche rattache à la rétrospective Picasso de novembre",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, le collège attend la rentrée",
+    "vers_date": "1939-09-12",
+    "vers": "La rentrée : Albers ouvre la septième année par un discours, Jalowetz arrive avec Johanna et leur fille, et le campus se consacre au nouveau foyer",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, Rice n'a plus de cadre budgétaire ni de congé définitif",
+    "vers_date": "1939-09",
+    "vers": "Une facture de 145 dollars liée à un accident de voiture, avec une correspondance Dreier–Steinau jusqu'en février, puis un contrat avec Harper and Brothers en octobre (500 dollars d'avance)",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin d'été, Albers passe une semaine à Oaxaca avec Guillermo Meza",
+    "vers_date": "1939-11",
+    "vers": "Le titre définitif de l'autobiographie, I Came Out of the Eighteenth Century, trouvé en novembre",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, Rice reste à Southern Pines en attendant la suite",
+    "vers_date": "1939-12",
+    "vers": "À partir de Noël, Wunsch rend visite à Rice à Southern Pines pour obtenir sa démission ; la première visite tourne au jeu du chat et de la souris et échoue",
+    "refs": [
+     "chapitre 1939 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "la sortie forcée du fondateur et ses versions concurrentes",
+   "le départ comme pièce de dossier",
+   "la correspondance comme seul lien avec le collège absent",
+   "l'exil et la naturalisation",
+   "la quête d'un corps enseignant idéal",
+   "l'écart entre les discours d'idéal et les intérêts réels",
+   "l'absence du fondateur et la présence de ses proches"
+  ],
+  "lacunes": "Les fiches ne donnent ni la session estivale, ni le climat, ni la liste des présents sur le campus en juillet. La date exacte de la sortie de Rice n'est pas connue, au-delà de « fin juin ». La durée du congé diverge selon les sources (Duberman : un an ; Chaddock : un semestre). On ignore si Nacke a trouvé un successeur à Sly. La date de la naturalisation américaine n'est pas donnée. La date de la décision sur le foyer et l'architecte n'est pas précisée. La présence de Dreier, Nacke ou d'autres enseignants en juillet n'est pas attestée."
+ }
+}

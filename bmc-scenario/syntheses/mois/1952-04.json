@@ -1,0 +1,204 @@
+{
+ "passe": "mois",
+ "cle": "1952-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5687,
+  "sortie": 11132,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1952-04",
+  "session": "trimestre de printemps, déduit de la saison ; aucune fiche ne donne le calendrier exact",
+  "saison_et_climat": "Printemps, entre l'hiver neigeux de janvier (neige attestée la nuit du 28 janvier) et l'été où la communauté grossit. Climat doux de Caroline du Nord, déduit et non documenté dans les fiches.",
+  "situation": "Le collège est en fin de trimestre et se prépare à l'été. Olson dirige de fait depuis 1951 (RE-02273). Les crises de janvier, la lettre à Creeley et la mise à l'écart de Rauschenberg pèsent encore. Les finances se fragilisent : Forbes arrête ses dons après plus de 20 000 $ (EV-05798), et les collectes sont ratées (EV-05733, EV-05735). La faculté débat de Sprague et Adams, conservateurs, entre février et juin (RE-02244, RE-02245). Des recrutements sont en cours : Olson séduit Rumaker au printemps (EC-02852), Rumaker n'arrivera qu'en juin ; Weinrib sera officiellement recruté fin mai (EV-05819), hors de ce mois. Walker Evans décline l'invitation à enseigner la photographie (EV-05814).",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Sprague",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Adams",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rauschenberg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Twombly",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wildenhain",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-04-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Junius Bird écrit à Albers : la largeur du tissu est aussi bornée par la quantité d'étoffe enroulable sur la barre inférieure du métier. Albers prépare sa réponse, un tissage depuis les deux extrémités vers le milieu.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05810"
+    ]
+   },
+   {
+    "date": "1952-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson recrute Rumaker par un discours flatteur. Ce recrutement précède les luttes de pouvoir annoncées plus tard.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02852"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Walker Evans décline l'invitation de Hazel Larsen Archer à enseigner la photographie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05814"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Forbes met fin à ses dons après plus de 20 000 $, dans les mêmes mois d'hiver et de printemps.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05798"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "La faculté débat de Sprague et Adams, qui sont des conservateurs.",
+    "certitude": "atteste",
+    "refs": [
+     "RE-02244",
+     "RE-02245"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Olson, Leach et Wildenhain échangent sur l'artisanat et l'éducation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05812"
+    ]
+   }
+  ],
+  "quotidien": "Aucune fiche ne décrit la vie ordinaire d'avril. On sait seulement que la ferme, la cuisine et le dortoir font partie du fonctionnement du collège, et que les repas et les tâches agricoles existent. Le déroulé des cours et des journées n'est pas documenté pour ce mois.",
+  "tensions": [
+   "Olson sauve Rauschenberg en janvier puis le rejette dans sa lettre (RE-02463) : la relation reste tendue.",
+   "La lettre du 29 janvier qualifie plusieurs étudiants de « sexually marginal » (EV-05801), ce qui pèse sur l'atmosphère.",
+   "La faculté est divisée sur Sprague et Adams, conservateurs (RE-02244, RE-02245).",
+   "Les finances se tarissent : arrêt des dons de Forbes (EV-05798) et collectes ratées (EV-05733, EV-05735).",
+   "Tension entre la pédagogie d'artisanat et l'académisme : échanges Olson-Wildenhain (EV-05812) et refus d'Evans (EV-05814)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Albers relit la lettre de Bird",
+    "date": "1952-04-23",
+    "lieu": null,
+    "personnages": [
+     "Anni Albers",
+     "Junius Bird, par lettre"
+    ],
+    "deroule": "Albers reçoit la lettre de Bird, qui lui rappelle que la largeur du tissu dépend aussi de la quantité d'étoffe que la barre inférieure du métier peut enrouler. Elle répond en imaginant de tisser depuis les deux extrémités vers le milieu, en insérant les dernières trames à l'aiguille. Le spécimen de référence est une pièce de Paracas Necropolis de 14 pieds 7 pouces sur 47 pieds 4 pouces.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05810"
+    ]
+   },
+   {
+    "titre": "Olson courtise Rumaker",
+    "date": "1952-04",
+    "lieu": null,
+    "personnages": [
+     "Olson",
+     "Rumaker, futur étudiant"
+    ],
+    "deroule": "Olson recrute Rumaker avec un discours flatteur. Rumaker ne viendra sur le campus qu'en juin, mais la séduction initiale annonce les conflits à venir avec Olson.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02852"
+    ]
+   },
+   {
+    "titre": "Réunion de faculté sur Sprague et Adams",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Sprague",
+     "Adams",
+     "membres de la faculté"
+    ],
+    "deroule": "Entre février et juin, la faculté débat de deux conservateurs. La scène peut se jouer en réunion, sur fond de divisions entre enseignants progressistes et conservateurs. Les positions précises ne sont pas détaillées dans les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "RE-02244",
+     "RE-02245"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashforward",
+    "depuis": "printemps 1952, Olson séduit Rumaker",
+    "vers_date": null,
+    "vers": "les luttes de pouvoir entre Rumaker et Olson à Black Mountain",
+    "refs": [
+     "EC-02852"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "avril 1952, Olson conseille à Mary Ann d'essayer les ateliers de photographie",
+    "vers_date": "1953",
+    "vers": "elle vient à la session d'été 1953",
+    "refs": [
+     "EC-02855"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les séries Variant d'Albers, 1947-1955, en cours pendant le collège",
+    "vers_date": "1958",
+    "vers": "Homage to the Square, après Black Mountain",
+    "refs": [
+     "EC-02851"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Tudor au collège en 1952, qui étudie Boulez entre 1948 et 1952",
+    "vers_date": "1938",
+    "vers": "la publication du Théâtre et son Double en France",
+    "refs": [
+     "EC-02847"
+    ]
+   }
+  ],
+  "motifs": [
+   "la séduction comme méthode de recrutement (Olson et Rumaker)",
+   "la contrainte matérielle qui structure la création (tissage d'Albers)",
+   "l'argent qui se tarit et les collectes qui échouent",
+   "la faculté divisée entre conservateurs et innovateurs",
+   "le hasard comme objet de conflit, qui annonce les attaques post-Black Mountain contre Cage"
+  ],
+  "lacunes": "Aucune fiche ne donne un événement daté d'avril hormis la lettre de Bird et le recrutement de Rumaker, dont la date reste un écho approximatif (≈1952-04 à 1952-08). La présence en avril de Cage, Tudor, Cunningham et Rauschenberg n'est pas attestée : ils sont signalés en janvier ou pendant l'été. Les dates exactes de la session, des cours et de la réunion de faculté sont inconnues. Les échanges Olson-Leach-Wildenhain et les refus de Walker Evans sont datés seulement entre février et juin."
+ }
+}

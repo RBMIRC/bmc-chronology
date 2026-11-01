@@ -1,0 +1,189 @@
+{
+ "passe": "personnes",
+ "cle": "Frances Boldereff",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2094,
+  "sortie": 5545,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Frances Boldereff",
+  "autres_noms": [
+   "Frances Motz Boldereff",
+   "Frances Bolderoff (graphie fautive ou variante dans certaines fiches)"
+  ],
+  "dates_de_vie": "Non précisées dans les fiches.",
+  "statut_bmc": "Correspondante extérieure d'Olson, sans séjour attesté à Black Mountain College. Les fiches la présentent comme mentor et muse secrète d'Olson, active à distance pendant sa période au collège. Le sujet est donc sa présence par lettres, non sa présence physique.",
+  "presence": [],
+  "portrait_physique": "Aucune description physique dans les fiches. Le scénariste devra inventer, ou la montrer surtout par ses lettres, sa voix et ses écrits, ce que les sources autorisent le mieux.",
+  "noyau_psychologique": "Attesté : elle est l'égale intellectuelle d'Olson, plus qu'une simple admiratrice. Son esprit sert de caisse de résonance à ses idées, et il la dit nourrissante (« hearth-meet », « taproot »). Déduit à partir de ses lettres : elle vit un conflit entre un esprit qui veut créer et un corps qu'elle ressent comme destiné à engendrer. Elle se voit libre par l'intelligence et entravée par sa condition de femme. Elle agit par la correspondance, qui est son lieu de pouvoir et d'intimité, entre échange d'idées et passion amoureuse.",
+  "blessures": "Attesté (PE-00262) : dans ses lettres, elle maudissait son asservissement à sa nature femelle, une « matrice de chair générative », alors que les hommes restaient libres de créer, d'innover et de subvertir. Déduit : son rôle de muse secrète signifie qu'elle reste dans l'ombre d'une œuvre qui porte le nom d'un autre. La romance fut en outre révélée seulement des années plus tard, ce qui suggère un effacement.",
+  "desirs": "Déduit, car les fiches ne le disent pas : être reconnue comme partenaire de pensée à part entière, et pas seulement comme destinataire ou amante. L'intensité de la correspondance et les rencontres charnelles occasionnelles indiquent aussi un désir d'union à la fois intellectuelle et physique.",
+  "peurs": "Aucune peur n'est attestée. Hypothèse à manier avec prudence : être réduite à une fonction (muse, matrice) et perdre sa place quand l'attention d'Olson se déplace vers Creeley, comme l'évolution notée en RE-01710 le suggère.",
+  "maniere_d_aimer": "Attesté : amour par lettres, « symbiotique », parfois charnel quand une rencontre a lieu (PE-00262, RE-02589, RE-02612, EV-06317). Elle reçoit les confidences amoureuses d'Olson, y compris ses confusions sur Connie et d'autres femmes (EV-06709). Elle aime en nourrissant la pensée de l'autre, en l'écoutant et en lui répondant à son niveau. Déduit : elle accepte une relation sans cadre officiel, tolérée ou connue de Connie.",
+  "rapport_au_pouvoir": "Un pouvoir intellectuel et d'influence, exercé de façon indirecte : mentor, muse secrète, point d'appui des idées d'Olson. Elle n'a pas de pouvoir institutionnel attesté et n'apparaît pas au collège. Sa maîtrise passe par le texte et par ce que l'autre lui confie. Elle dénonce aussi, dans ses lettres, un déséquilibre de liberté entre hommes et femmes.",
+  "voix": {
+   "registre": "Aucune citation directe dans les fiches. Les lettres sont décrites comme enflammées, passionnées, intellectuelles, avec un registre à la fois savant et charnel. Déduit : une voix cultivée, qui argumente et se plaint de sa condition sans s'excuser.",
+   "tics": "Non documentés. Les formules qui lui sont associées (« hearth-meet », « taproot », égale « et plus encore ») viennent des commentateurs et d'Olson, pas d'elle, et ne sont pas des tics de parole avérés.",
+   "exemples_paraphrases": [
+    "Elle dit à Olson qu'elle maudit d'être enfermée dans un corps fait pour engendrer, alors que lui peut créer sans entrave (PE-00262).",
+    "Elle lui répond d'égale à égal sur ses idées, comme un foyer où il vient se nourrir l'esprit (PE-00262, RE-02589).",
+    "Elle reçoit ses aveux sur Connie, sur d'autres femmes et sur ses spéculations étranges sur l'homosexualité, sans être scandalisée (EV-06709, paraphrase de Rumaker, oui-dire)."
+   ]
+  },
+  "habitudes": [
+   "Écrire de longues lettres à Olson, au cœur de leur relation (PE-00262).",
+   "Recevoir et accueillir ses confidences amoureuses (EV-06709).",
+   "Rencontrer Olson en personne de temps à autre (EV-06317, RE-02612)."
+  ],
+  "convictions": [
+   "Déduit de ses lettres : les hommes sont libres de créer et de subvertir, les femmes sont retenues par leur nature génératrice (PE-00262).",
+   "Déduit : la pensée se construit dans l'échange épistolaire, comme le suggère la genèse de « Projective Verse » (RE-01253, EV-05099 version Molesworth)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1948",
+    "moment": "Olson arrive à Black Mountain. Sa correspondance avec Boldereff est la première des correspondances matricielles de sa publication.",
+    "etat_interieur": "Déduit : elle est à distance, investie comme mentor et interlocutrice. Rôle formateur plus qu'amoureux à ce stade.",
+    "refs": [
+     "EV-04355",
+     "RE-01710"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "« Projective Verse » est publié. Selon la version Molesworth, l'essai naît de la correspondance avec elle et avec Creeley. Selon l'autre version, il est un pastiche de lettres à Creeley.",
+    "etat_interieur": "Déduit : fierté possible d'avoir contribué à un texte fondateur, mais sa part reste cachée, car elle n'est pas nommée comme auteur.",
+    "refs": [
+     "EV-05099",
+     "RE-01253"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "Lettres d'amour. Elle est décrite comme « taproot » de la vision d'Olson, son égale et plus encore.",
+    "etat_interieur": "Déduit : intensité amoureuse et intellectuelle à son comble, pleine reconnaissance de sa valeur.",
+    "refs": [
+     "RE-02589",
+     "PE-00262"
+    ]
+   },
+   {
+    "date": "1954",
+    "moment": "Romance épistolaire symbiotique, avec rencontres charnelles occasionnelles. Connie est au courant. L'affaire ne sera révélée que des années plus tard.",
+    "etat_interieur": "Déduit : proximité réelle, mais dans le secret et le non-dit, avec une situation ambiguë face à Connie.",
+    "refs": [
+     "EV-06317",
+     "RE-02612"
+    ]
+   },
+   {
+    "date": "1955",
+    "moment": "Olson lui confie par lettres ses confusions sur Connie et d'autres femmes, et ses spéculations sur l'homosexualité. Rumaker note que la correspondance est enflammée et que Connie la connaissait sans doute.",
+    "etat_interieur": "Déduit : elle est la confidente, ce qui peut être un privilège autant qu'un déplacement, d'amante vers confidente.",
+    "refs": [
+     "EV-06709",
+     "RE-02724",
+     "EC-03182"
+    ]
+   },
+   {
+    "date": "1957",
+    "moment": "Fin de la période décrite pour Olson au collège. Dans RE-01710, le lien avec Creeley est devenu central et celui avec Boldereff passé au second plan.",
+    "etat_interieur": "Non documenté. Question ouverte : comment elle vit ce déplacement.",
+    "refs": [
+     "RE-01710",
+     "EV-04355"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1947",
+    "moment": "Début de la correspondance avec Olson, selon PE-00262, soit avant son arrivée au collège à l'automne 1948 (EV-04355). Une autre fiche donne 1948 comme début (RE-01710).",
+    "refs": [
+     "PE-00262",
+     "RE-01710",
+     "EV-04355"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "",
+    "moment": "La romance avec Olson est révélée seulement des années plus tard (Rumaker). Le moment exact de la révélation et le devenir de Boldereff ensuite ne sont pas donnés.",
+    "refs": [
+     "EV-06317",
+     "RE-02612"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Charles Olson",
+    "nature": "Mentor et muse secrète, puis amante épistolaire et confidente. Égale intellectuelle, « taproot » de sa vision.",
+    "evolution": "La correspondance passe d'un échange d'idées (fin des années 1940, genèse de « Projective Verse ») à des lettres d'amour (1953), puis à une romance avec rencontres charnelles (1954) et aux confidences (1955). Le lien avec Creeley devient ensuite central pour Olson.",
+    "refs": [
+     "RE-01253",
+     "RE-01710",
+     "RE-02589",
+     "RE-02612",
+     "RE-02724",
+     "EV-06317",
+     "EV-06709"
+    ]
+   },
+   {
+    "avec": "Connie (compagne d'Olson)",
+    "nature": "Rivale en position indirecte. Elle est au courant de la romance et de la correspondance.",
+    "evolution": "Selon Rumaker, Connie savait pour la romance (RE-02612) ; ailleurs, on dit qu'elle la connaissait « sans doute » (RE-02724). Aucune rencontre entre elles n'est attestée.",
+    "refs": [
+     "RE-02612",
+     "RE-02724",
+     "PE-00262"
+    ]
+   },
+   {
+    "avec": "Robert Creeley",
+    "nature": "Autre correspondant d'Olson, qui lui succède comme interlocuteur central. Pas de lien direct attesté avec elle.",
+    "evolution": "Les deux sont cités ensemble comme sources de « Projective Verse » (version Molesworth), puis Creeley prend la place centrale auprès d'Olson.",
+    "refs": [
+     "EV-04355",
+     "EV-05099",
+     "RE-01710"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Début de la correspondance : 1947 (PE-00262), 1948 (RE-01710, EV-04355) ou « années 1940 » (RE-01253). Fin : 1950 (RE-01253, PE-00262) ou 1957 (RE-01710).",
+   "Genèse de « Projective Verse » : pastiche de lettres à Creeley seul (EV-05099, version principale) ou fruit de la correspondance avec Boldereff et Creeley (version Molesworth). Le rôle précis de Boldereff dans l'essai est donc incertain.",
+   "Connaissance de Connie : au courant (EV-06317, RE-02612) ou « sans doute » au courant (RE-02724). La certitude n'est pas la même selon les fiches.",
+   "Nature de la relation : mentorat (RE-01710), collaboration (RE-01253), amour (RE-02589, RE-02612, RE-02724). Ces catégories se chevauchent selon les moments. Les rencontres charnelles sont qualifiées de « parfois » ou « occasionnelles ».",
+   "Orthographe du nom : Boldereff, Bolderoff, Motz Boldereff. EV-06709 est classée « oui-dire » alors que EV-06317 est « atteste »."
+  ],
+  "situations_revelatrices": [
+   "Une scène d'écriture de lettres, où son intelligence et sa passion s'expriment sans contrainte.",
+   "Une rencontre charnelle occasionnelle avec Olson, très différente de la correspondance quotidienne.",
+   "La réception d'une lettre où Olson avoue ses confusions amoureuses, et sa réaction.",
+   "Un moment où elle apprend le rôle grandissant de Creeley auprès d'Olson.",
+   "Une conversation, directe ou imaginée, avec Connie sur ce que celle-ci sait."
+  ],
+  "citations": [
+   "« hearth-meet » (PE-00262)",
+   "« taproot » (RE-02589)",
+   "égale « et plus encore » (RE-02589, PE-00262)",
+   "« mentor et muse secrète » (RE-01253, RE-01710, EV-04355)",
+   "maudissant son asservissement à sa nature femelle, « matrice de chair générative » (PE-00262)"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, métier, lieu de vie, formation de Frances Boldereff : rien dans les fiches.",
+   "A-t-elle jamais visité Black Mountain College ? Où se sont tenues les rencontres avec Olson ?",
+   "Quelle fut exactement sa contribution à « Projective Verse » ?",
+   "Comment la correspondance a-t-elle pris fin, et qui a décidé de l'arrêter ?",
+   "Que savait précisément Connie, et comment cela a-t-il changé les rapports ?",
+   "Comment et quand la romance a-t-elle été révélée, et quelle fut la vie de Boldereff après Olson ?"
+  ]
+ }
+}

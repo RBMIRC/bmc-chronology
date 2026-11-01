@@ -1,0 +1,266 @@
+{
+ "passe": "mois",
+ "cle": "1937-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5382,
+  "sortie": 20748,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-07",
+  "session": "vacances d'été, intersession après le schisme de juin (déduction : aucune session estivale n'est documentée)",
+  "saison_et_climat": "Été 1937. Mexique : pluies fortes et chemins de boue en juin-juillet. Caroline du Nord : aucune fiche ne décrit le climat.",
+  "situation": "Après le schisme de juin, le collège est en intersession. King et Zeuch ne reviennent pas, Georgia est parti contre 3 500 $ et huit étudiants sont partis. Portell reste, sa démission ayant été retirée. Les Albers et les parents Fleischmann sont au Mexique jusqu'à la fin de la tournée, fixée au 6 août. Selon Chaddock seul, le collège a acheté Lake Eden en juin, ce qui met fin au bail annuel. Rice, au centre des conflits, n'est situé par aucune fiche en juillet.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Portell",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Sargent",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-06-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Départ de la troisième expédition mexicaine des Albers, en voiture deux places neuve. Base à Mexico (calle de París 23), près de 6 000 miles au total ; le voyage prend fin le 6 août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02731",
+     "EV-02732",
+     "EV-02713"
+    ]
+   },
+   {
+    "date": "1937-06-19",
+    "precision": "jour",
+    "ce_qui_arrive": "Les parents d'Anni Fleischmann rejoignent le groupe. Leur présence, notée dans le journal de Toni, court jusqu'au 16 juillet. EV-02713 les fait débarquer à Veracruz par bateau : l'arrivée exacte reste à vérifier.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02731",
+     "EV-02732",
+     "EV-02713"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Circuit de Teotihuacán, Tenayuca, Tepoztlán, Toluca, Cuernavaca, Taxco, Tlalpan, Tlaxcala, Puebla, Cholula, Tehuacán, Oaxaca, Mitla et Monte Albán. À Mitla, 40 km en deux heures sur des chemins de boue ; Monte Albán le lendemain. Tenayuca devient un motif photographique récurrent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02713",
+     "EV-02731",
+     "EV-02632"
+    ]
+   },
+   {
+    "date": "1937-07-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Fin de la présence des parents Fleischmann au Mexique, date de fin indiquée par le journal de Toni.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02731",
+     "EV-02732"
+    ]
+   },
+   {
+    "date": "1937-06-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Henry Allen Moe répond à Rice sur l'autogouvernement, héritage anglo-saxon et scandinave. L'ironie tient à Portell, Cubain, dont la démission vient d'être retirée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02730"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board accepte la démission de Georgia contre l'équivalent d'un an de salaire (3 500 $), après la réunion générale. Celle de Portell est retirée après entretien avec Rice.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02721",
+     "EV-02724",
+     "EV-02728",
+     "EV-02729"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "precision": "mois",
+    "ce_qui_arrive": "King et Zeuch décident de ne pas revenir. Zeuch publie « The State of Black Mountain College », cinq mille mots accusant le collège de dériver vers le fascisme et reliant l'art abstrait à la démence.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02722",
+     "OE-01307",
+     "CF-00275"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Achat de Lake Eden, selon Chaddock seul : fin du bail annuel et de l'entreposage des meubles chaque juin.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02726"
+    ]
+   }
+  ],
+  "quotidien": "Le collège vit au ralenti. Les Albers sont au Mexique et Toni Fleischmann tient son journal, achetant des figurines d'argile « pour quelques centimes ». À Lake Eden, l'achat de juin est la seule action documentée. Aucune fiche ne décrit les cours, les repas, la musique ou les travaux de juillet : la vie ordinaire reste une lacune.",
+  "tensions": [
+   "Le schisme de juin laisse des plaies : King, Zeuch, Georgia et huit étudiants sont partis, et le pamphlet de Zeuch accuse le collège de fascisme.",
+   "Les salaires divulgués (Rice et Wunsch 2 100 $, Albers 1 700 $, Portell 1 250 $) nourrissent les rancunes. Rice admet avoir dit que Georgia « had to be gotten rid of » mais Zeuch, qui nie, n'a pas comparu.",
+   "L'incident de la chaise de Portell reste dans les mémoires, même si sa démission a été retirée.",
+   "Le réquisitoire de Coleman en 24 points, qui qualifie Rice d'« école à un seul homme », reste une accusation ouverte contre le recteur.",
+   "En toile de fond, rien dans les fiches de juillet ne montre la liaison de Rice, qui ne sera documentée qu'à l'automne."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Boue à Mitla",
+    "date": null,
+    "lieu": "Mitla, Oaxaca",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Toni Fleischmann",
+     "parents Fleischmann"
+    ],
+    "deroule": "Pendant le séjour des parents (19 juin-16 juillet), la voiture s'enlise sur les chemins de boue. Un conducteur pose pierres et matelas pour franchir les ornières. Il faut deux heures pour 40 km, puis les quatre admirent des temples « dans les plus beaux sites » et Toni consigne tout dans son journal. Monte Albán suit le lendemain. La date exacte n'est pas fixée.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02713",
+     "EV-02731",
+     "EV-02732"
+    ]
+   },
+   {
+    "titre": "Le pamphlet de Zeuch",
+    "date": "1937-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Zeuch",
+     "Rice",
+     "Albers (absent, au Mexique)"
+    ],
+    "deroule": "Zeuch, parti, laisse un texte de cinq mille mots qui accuse le collège de dériver vers le fascisme et relie l'art abstrait à la démence. La communauté le rapproche de la thèse nazie de l'art dégénéré. L'accusation vise la peinture abstraite que défend Albers, alors absent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02722",
+     "OE-01307",
+     "CF-00275",
+     "EC-01626"
+    ]
+   },
+   {
+    "titre": "La lettre de Moe",
+    "date": "1937-06-08",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "Henry Allen Moe",
+     "Portell"
+    ],
+    "deroule": "Moe répond à Rice sur l'autogouvernement, héritage des Anglo-Saxons et des Scandinaves. Le texte est lu avec l'ironie d'une communauté où Portell, cubain, vient de voir sa démission retirée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02730",
+     "EV-02721"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juillet 1937, au Mexique : Anni Albers, qui a quitté l'Allemagne en 1933, voit ses parents apporter les peintures et photographies laissés là-bas.",
+    "vers_date": "1933",
+    "vers": "L'Allemagne quittée. L'accusation de Zeuch d'art dégénéré renvoie à ce passé, comme le collège de Black Mountain renvoyait à Weimar.",
+    "refs": [
+     "EV-02713",
+     "EC-01626",
+     "EV-02707"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1937 : Rice, qui triomphe de la crise et savoure les absences, est au sommet de son autorité.",
+    "vers_date": "1938",
+    "vers": "Rice est rattrapé à son tour par la liaison qu'il a nouée à l'automne. Le congé de Rice et la prise du rectorat par Wunsch relèvent de 1938.",
+    "refs": [
+     "EC-01625",
+     "CF-00276",
+     "CF-00282"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1937, avant la liaison documentée à l'automne.",
+    "vers_date": "1937-10",
+    "vers": "Rice se lie avec une étudiante rencontrée dans les rondes entre studies. Des années plus tard, il la surnommera « a slut ». Les dates sont approximatives.",
+    "refs": [
+     "EC-01624",
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1937, Rice et la purge de juin derrière lui.",
+    "vers_date": "1937-10",
+    "vers": "Rice déclenche un scandale à Charlotte en traitant les enfants de « nuisances générales » devant une association de parents. Les Business Men's Evangelical Clubs le déclarent « radical et communiste ».",
+    "refs": [
+     "EV-02736"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1937, à Lake Eden, campus encore en projet.",
+    "vers_date": "1937-09",
+    "vers": "Rice propose les instituts d'été de musique et d'art. Kocher suggère à Dreier de confier le campus de Lake Eden à Gropius et Breuer.",
+    "refs": [
+     "EV-02733",
+     "EV-02735"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1937, les Albers au Mexique.",
+    "vers_date": "1937-12",
+    "vers": "Séjour d'Albers à Harvard en décembre, en pleine période de tension au collège.",
+    "refs": [
+     "EV-02741"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1937, Adamic encore absent.",
+    "vers_date": null,
+    "vers": "Adamic revient au collège à l'automne 1937.",
+    "refs": [
+     "EV-02635"
+    ]
+   }
+  ],
+  "motifs": [
+   "Tenayuca comme motif photographique récurrent",
+   "Le voyage comme épreuve : boue, ornières, pierres et matelas sur les routes mexicaines",
+   "Figurines d'argile, « petites têtes de dieux »",
+   "L'art abstrait accusé de démence et rapproché de l'art dégénéré",
+   "Le collège comme refuge face à l'Allemagne, à la manière de Weimar",
+   "Rice et le « comptage de nez » : persuasion contre démocratie",
+   "Pionniers : la dureté de la vie de pionnier relue par Steinau et Mangold"
+  ],
+  "lacunes": "Rien sur la vie du campus en juillet 1937 : ni session estivale, ni repas, cours ou travaux. Rice n'est situé nulle part entre juin et octobre. L'achat de Lake Eden n'est daté en juin que par Chaddock. Conflits entre sources : EV-02713 fait débarquer les Fleischmann à Veracruz par bateau, alors que EV-02731 et EV-02732 les donnent présents à partir du 19 juin ; EV-02713 s'intitule « second été » alors que les autres fiches parlent du troisième voyage ; EC-01627 place l'élopement de deux étudiants fin 1936, là où EV-02739 le place à la fin de l'automne 1937. Les dates des échos EC-016xx sont approximatives. Le jour exact de la réunion générale de juin et du vote du Board n'est pas précisé."
+ }
+}

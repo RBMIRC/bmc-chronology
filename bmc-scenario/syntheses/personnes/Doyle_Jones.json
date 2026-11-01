@@ -1,0 +1,261 @@
+{
+ "passe": "personnes",
+ "cle": "Doyle Jones",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 8335,
+  "sortie": 3686,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Doyle Jones",
+  "autres_noms": [
+   "Doyle",
+   "le fermier Doyle Jones",
+   "régisseur de la ferme"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Fermier / régisseur de la ferme du collège (années 1950 jusqu'en 1954) ; époux de Claire (Cherokee), père de Ben ; figure du « camp des Sciences » avec Natasha et Bill Levi ; érigé en « enseignant » fictif par le catalogue 1952-1953 (sept cours dont Timber Operations et Production of Beef Cattle)",
+  "presence": [
+   {
+    "debut": "1950",
+    "fin": "1954",
+    "precision": "annee",
+    "role": "Fermier-régisseur de la ferme du collège, succédant à Ray Trayer ; logé dans la maison de la ferme avec Claire et Ben",
+    "refs": [
+     "EV-05639",
+     "QU-01590",
+     "QU-01627",
+     "EV-06283"
+    ]
+   }
+  ],
+  "portrait_physique": "Petit homme sec, taillé dans le cuir, maigre et beau, aux yeux bleus très clairs — les plus bleus du campus ; cou émacié aux veines saillantes qui gonflent quand la colère monte ; mégot de cigarette collé aux lèvres en permanence. Le dimanche en soirée, il se met en costume à larges revers et cravate, grosses mains de travailleur sortant de poignets amidonnés blancs. Attention : ne pas le confondre avec les étudiants John et Harvey, que le texte appelle les « taupes ».",
+  "noyau_psychologique": "Fermier des Appalaches, énergique, nerveux, colérique — Rumaker le compare à son propre père. Il est du côté du travail réel, de la terre, de la lumière du jour qui vaut pour un fermier ce qu'elle vaut pour un cinéaste : on ne perd pas une heure de soleil. Il rit fort, claque des dos, répète ses phrases, mais il est rancunier et l'humiliation ne pardonne pas. Son identité est celle d'un homme compétent parmi des intellectuels qui le méprisent sans le dire, et son haine grandissante pour Olson est la conséquence directe de ce mépris de classe.",
+  "blessures": "Être traité par Olson comme « un paysan qui ne connaît pas sa place », placé tout en bas de la hiérarchie implicite du collège, moins bien que les chiens errants ; voir sa femme Claire déférente et craintive dans ce monde qui n'est pas le sien.",
+  "desirs": "Que la ferme tourne, que le soleil ne se couche pas avant que l'ensilage soit rentré, que les gens du collège respectent le travail de la terre autant que l'Art et l'Histoire ; rester parmi les siens, dans la dignité du travailleur.",
+  "peurs": null,
+  "maniere_d_aimer": "Par le travail partagé : quinze heures par jour côte à côte aux silos, café et bière maison de Claire, « goodnight » affectueux après avoir rangé les outils en derniers. Avec Claire : une affection de façade patriarcale, elle lui est toujours déférente, sombre regard craintif.",
+  "rapport_au_pouvoir": "Il n'occupe pas le pouvoir officiel du collège mais celui, réel, de la compétence agricole et de l'entraide des voisins de la vallée. Face à la montée en puissance d'Olson, il s'oppose de front : camp des Sciences contre camp Histoire et Art. Il finit par voter avec ses pieds — démission brutale en 1954, la ferme s'éteint avec lui.",
+  "voix": {
+   "registre": "Parler sudiste lent, répétitif, humoristique et cru ; rires bruyants et soudains ; ordres brefs du chef de chantier agricole ; colère qui explose en phrases martelées, visage rouge sang.",
+   "tics": "Répète ses phrases (trait des Sudistes selon Dawson) ; mégot aux lèvres ; claque dans le dos ; les yeux « flashent » au mot teach ; crie « That does it! » quand il s'emporte.",
+   "exemples_paraphrases": [
+    "Ordonner de laisser souffler le vieux cheval, il est fatigué",
+    "Avertir que le chêne qu'on abat va leur donner une leçon — avec un clin d'œil au mot enseigner",
+    "Tempêter en répétant que ça suffit quand le canif bloque la machine",
+    "Hucher vers le silo qu'il faut descendre couvrir avant la pluie"
+   ]
+  },
+  "habitudes": [
+   "Nuits de travail de 12 à 15 heures, rangeait les outils en dernier",
+   "Mégot de cigarette perpétuel aux lèvres",
+   "Bêchait dans son jardin",
+   "Élevait assez de poules pour nourrir tout le collège",
+   "Apportait une flasque de moonshine aux fêtes du samedi soir",
+   "Possédait la seule télévision de la vallée, avec une antenne haute comme un poteau téléphonique sur le toit",
+   "Discutait tabac (culture, récolte, séchage) avec les gens du pays",
+   "Pressait le rythme du travail quand le soleil baissait vers les montagnes"
+  ],
+  "convictions": [
+   "La lumière du jour vaut pour un fermier ce qu'elle vaut pour un cinéaste en tournage",
+   "Camp des Sciences avec Natasha et Bill Levi, contre Olson et les Arts",
+   "Sollicitude pour les bêtes — faire souffler le vieux cheval dans la montée",
+   "Le travail est le rite d'appartenance : les « city slickers » doivent apprendre le vrai travail",
+   "Admiration secrète pour Dostoïevski (rapprochement fait par Rumaker)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Succède à Ray Trayer à la tête de la ferme ; ferme en bon état, plans d'extension des terres, troupeau de bœufs financé par 5 000 $ empruntés à Paul Williams",
+    "etat_interieur": "Énergie de bâtisseur, période de confiance",
+    "refs": [
+     "EV-05639",
+     "QU-01590"
+    ]
+   },
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "moment": "Propose et supervise l'exploitation de bois de pâte avec Robertson et Kent pour renflouer le collège en faillite : deux semaines à la hache, puis une tronçonneuse ; échec économique, les étudiants partent",
+    "etat_interieur": "Loyal envers l'institution, mais l'échec annonce la fin",
+    "refs": [
+     "SC-01471",
+     "EV-05559"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "moment": "Saison de l'ensilage : accélère le tapis au crépuscule, Rumaker perd son canif dans la machine ; rage explosive, visage rouge comme le soleil couchant, veines du cou prêtes à éclater ; il envoie Rumaker dans le silo",
+    "etat_interieur": "Colère du maître de travail contre le citadin inutile ; mais le lendemain Rumaker fuit la ferme pour la cuisine",
+    "refs": [
+     "SC-01566",
+     "EV-05677",
+     "EV-05864",
+     "CI-02939"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Le catalogue 1952-1953 lui invente sept cours (« Other Training Areas ») pour gonfler l'offre d'un collège qui se vide ; devant chez lui, ses yeux lancent des éclairs au mot teach face à Dawson — l'amitié de travail est morte à cause de la politique",
+    "etat_interieur": "Rancune installée ; rires de façade sur une hostilité politique profonde",
+    "refs": [
+     "EV-05616",
+     "EV-05617",
+     "SC-01538",
+     "EV-05777",
+     "CI-02888"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Temps moins tendus : Olson amène sa classe « Reading the Newspaper » regarder les audiences McCarthy à la télévision de la ferme, puis fait laver les fenêtres en remerciement ; mais dans la hiérarchie d'Olson, Doyle et Claire sont au-dessous des chiens errants",
+    "etat_interieur": "Coexistence précaire, dignité blessée en permanence",
+    "refs": [
+     "EV-06021",
+     "EV-06082",
+     "EV-06019"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Après avoir cessé de venir aux fêtes du samedi, il démissionne brusquement de la ferme ; les vaches sont vendues, la ferme s'éteint, deux étudiants incapables la mènent à l'arrêt complet en 1955",
+    "etat_interieur": "Rupture définitive : il ne pardonne pas",
+    "refs": [
+     "EV-06036",
+     "EV-06269",
+     "EV-06283",
+     "EV-06307"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Fermier des Appalaches, proche des gens du pays, connaisseur du tabac et de l'entraide paysanne de la vallée de la Swannanoa",
+    "refs": [
+     "QU-00521",
+     "QU-01637"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Arrive à la ferme du collège en succédant à Ray Trayer",
+    "refs": [
+     "EV-05639",
+     "QU-01590"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Démission, départ de la ferme ; vaches vendues, la ferme cesse tout fonctionnement en 1955 ; l'été 1956 le collège vend la ferme puis ferme",
+    "refs": [
+     "EV-06269",
+     "EV-06283",
+     "EV-04675"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Fielding Dawson",
+    "nature": "Amitié de travail intense (12-15 heures par jour aux silos, café et bière chez Claire) brisée par la politique",
+    "evolution": "Des tapes sur l'épaule aux politesses glacées et aux rires ambigus (« That oak is gonna teach you ») ; Dawson devient suspect aux yeux de Doyle pour son lien avec Olson",
+    "refs": [
+     "RE-01100",
+     "RE-02322",
+     "EV-02808",
+     "SC-01538"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "Haine de part et d'autre : Sciences contre Histoire et Art ; Olson le méprise comme « un paysan qui ne connaît pas sa place »",
+    "evolution": "Altercation verbale dans le couloir, Olson tremblant de rage sur les marches de North Lodge, incapable de frapper ce petit homme ; puis cohabitation utilitaire (télévision McCarthy), enfin démission de Doyle en 1954",
+    "refs": [
+     "RE-01292",
+     "RE-01872",
+     "RE-01976",
+     "EV-03044",
+     "SC-00774",
+     "EV-06019"
+    ]
+   },
+   {
+    "avec": "Claire Jones",
+    "nature": "Épouse (Cherokee), jolie, volubile, fumeuse à la chaîne, nerveuse mais aimable, toujours déférente à Doyle",
+    "evolution": "Aux fêtes du samedi, en robe moulante et rouge à lèvres, assis seuls, raides, buvant à la gourde de moonshine ; ils cessent de venir ensemble avant le départ de 1954",
+    "refs": [
+     "EV-06036",
+     "EV-05858",
+     "QU-01627"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Maître de travail impitoyable face à l'étudiant citadin en difficulté",
+    "evolution": "De l'initiation au chocage du maïs à l'humiliation du canif dans l'ensileuse et au renvoi de la ferme ; Rumaker, secrètement admiratif, le rapproche de Dostoïevski",
+    "refs": [
+     "SC-01503",
+     "SC-01566",
+     "EV-05677",
+     "EV-06020"
+    ]
+   },
+   {
+    "avec": "Ron Robertson et Carl Kent",
+    "nature": "Partenaires de l'entreprise de bois de pâte destinée à sauver le collège",
+    "evolution": "Collaboration loyale mais échec ; les deux étudiants partent pour New York en sentant la fin proche",
+    "refs": [
+     "SC-01471",
+     "EV-05559"
+    ]
+   },
+   {
+    "avec": "Gens du pays et fermiers voisins",
+    "nature": "Réseau d'entraide paysanne, tradition des récoltes, moqueries affectueuses des « city slickers »",
+    "evolution": "Stable : Doyle reste un des leurs, seul détenteur d'une télévision dans la vallée",
+    "refs": [
+     "QU-01637",
+     "SC-01503"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Apparence : la fiche agrégée (PE-00075) mélange « petit, cuir, leathery » et « grand, beau, sec » ; le témoignage de l'altercation avec Olson (petit homme que le géant ne peut frapper) penche pour un homme petit, mais le portrait de Rumaker (EV-05858) le dit maigre et beau aux yeux très bleus sans préciser la taille.",
+   "Dates de présence : PE-00075 suggère une présence dès « vers 1951 » et l'amitié avec Dawson datée ≈1938-1954 (RE-01100), tandis que Duberman situe sa prise de ferme vers 1950-1952 en succédant à Ray Trayer ; les dates exactes d'arrivée sont incertaines (marquées ≈).",
+   "Effectifs étudiants hiver 1952 : EV-05616 dit ~30, EV-05617 dit 35 — deux chiffres issus de la même page de Duberman."
+  ],
+  "situations_revelatrices": [
+   "Le crépuscule qui descend et le tapis roulant qui s'accélère : Doyle pressé par le soleil, machine, colère imminente",
+   "Les fêtes du samedi soir : Doyle en costume amidonné, à l'écart avec Claire et la gourde de moonshine, rires trop forts par-dessus l'exclusion",
+   "L'expédition du barbelé à l'aube : Doyle chef de file, protecteur du vieux cheval, rite d'appartenance collective",
+   "La classe d'Olson serrée dans le parloir devant les audiences McCarthy : ennemis intimes partageant le même écran granuleux",
+   "La rencontre au jardin avec Dawson : rires, claque dans le dos, et le mot teach qui fait flasher les yeux — l'amitié morte sous les politesses"
+  ],
+  "citations": [
+   "CI-01493",
+   "CI-02888",
+   "CI-02939",
+   "CI-02940"
+  ],
+  "questions_ouvertes": [
+   "Ses dates de naissance et de mort, sa vie après 1954 : où est-il allé, a-t-il repris une ferme à lui ?",
+   "Sa vie avant le collège : quelle ferme, quelle famille, comment a-t-il été recruté ?",
+   "Ce que Claire pensait vraiment du collège et d'Olson — les sources ne la donnent que vue de l'extérieur",
+   "Le contenu exact de l'altercation verbale « aux mots animaliers » avec Olson dans le couloir",
+   "L'épisode de l'admiration de Doyle pour Dostoïevski (EV-06020) : anecdote de Rumaker à creuser — Doyle lisait-il vraiment ?"
+  ]
+ }
+}

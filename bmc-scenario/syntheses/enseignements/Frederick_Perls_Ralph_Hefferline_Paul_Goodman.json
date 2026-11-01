@@ -1,0 +1,271 @@
+{
+ "passe": "enseignements",
+ "cle": "Frederick Perls / Ralph Hefferline / Paul Goodman",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 12554,
+  "sortie": 7366,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Frederick Perls / Ralph Hefferline / Paul Goodman",
+  "cours": [
+   {
+    "intitule": "Aucun cours attesté à Black Mountain College : matière tirée du livre de thérapie gestaltiste de 1951 (protocole d'expériences d'awareness)",
+    "periodes": [
+     "≈1951 (date du livre, déduite ; aucune période d'enseignement au collège donnée par les fiches)"
+    ],
+    "atteste": "non",
+    "objectifs": "Les fiches ne décrivent aucun enseignement au collège : toutes portent la mention « non » pour l'attestation à BMC. Elles ne donnent que le contenu d'un livre. Ce livre vise à rendre à la personne l'awareness du présent (contact, sensation, excitation, formation de Gestalten). Il propose des expériences graduées, non des tâches : l'important est de repérer ce qui interfère (tension, rétention du souffle, rêverie). Le but est d'élargir la frontière de ce qu'on accepte comme soi à toutes les activités organiques, pour faire sans effort ce que l'effort n'obtenait pas. Tout ce qui suit est donc une reconstitution possible à partir du texte. Les liens avec BMC (Albers, Dewey, pédagogie d'atelier) sont des rapprochements de l'auteur des fiches, non des faits.",
+    "deroule_type_seance": "Déroulé déduit du protocole du livre, non attesté au collège. (1) Un lieu sans intrus, de préférence un canapé ou un lit pas trop mou. (2) Une consigne qui n'exige rien : essayer et observer, sans se forcer ni se retenir. (3) Pendant l'expérience, noter les résistances : souffle retenu, mains crispées sur le bord du support, besoin impérieux d'interrompre, tension des muscles des yeux. (4) Quand la rêverie emporte l'attention, revenir à la formule « Now I am aware that… » (« Maintenant je suis conscient que… »), autant de fois qu'il faut. (5) Rester en surface et dans l'évident, sans deviner l'inconscient. (6) Le texte demande de faire les expériences consciencieusement : une simple lecture ne sert à rien.",
+    "exercices": [
+     {
+      "consigne": "Se mettre à l'aise sur un canapé ou un lit, sans chercher à se détendre. Observer comment on empêche la détente : souffle retenu, mains agrippées au bord, envie pressante de se lever et d'en finir. Quand une tension apparaît, noter si on la relâche ou si un inconfort anxieux survient.",
+      "materiaux": "Un canapé ou un lit pas trop mou, un lieu sans intrus.",
+      "but": "Faire de ces tensions, qui sont les résistances mêmes, l'objet du travail. La relaxation forcée est aussi vaine que la concentration forcée, et détendre un endroit crispe ailleurs.",
+      "refs": [
+       "ID-04222",
+       "ID-02368"
+      ]
+     },
+     {
+      "consigne": "Choisir un souvenir ni trop lointain ni trop difficile, par exemple la maison d'un ami. Fermer les yeux et regarder : la porte, quelqu'un qui l'ouvre, les meubles, d'autres personnes. Ne pas raisonner (« il devait y avoir des chaises, où étaient-elles ? »), seulement voir. Laisser revenir des détails d'eux-mêmes, et noter ceux qui restent bloqués.",
+      "materiaux": null,
+      "but": "S'appuyer sur la tendance de l'organisme à compléter toute situation inachevée : si l'on tient le contexte, la forme sur fond se constitue sans intervention délibérée. Distinguer les détails oubliés qui reviennent, ceux que bloque une résistance et ceux qui n'ont jamais intéressé.",
+      "refs": [
+       "ID-04224",
+       "ID-02361"
+      ]
+     },
+     {
+      "consigne": "Pour retrouver la visualisation, fermer les yeux, faire semblant de dormir et tenir la frontière entre sommeil et réveil. Tolérer les images incohérentes qui y apparaissent.",
+      "materiaux": null,
+      "but": "Dépasser la tension des muscles des yeux (comme dans la fixation du regard) et se servir des images hypnagogiques, de type schizoïde et incohérent, comme pont vers la mémoire visuelle. Elles ne signifient pas qu'on devient fou. Risque signalé : s'endormir pour de bon ; la pratique permet de tenir la limite.",
+      "refs": [
+       "ID-04227",
+       "ID-04226"
+      ]
+     },
+     {
+      "consigne": "Étendre l'expérience de mémoire à tous les sens : ce qu'on a entendu, senti, goûté, touché, éprouvé dans le mouvement, ainsi que le ton émotionnel. Par exemple se souvenir d'un repas par le goût, l'odeur et les gestes, pas seulement par l'image. Se demander aussi si l'on évite certaines personnes, si les situations restent figées ou comportent du mouvement et du drame, si les images sont en noir et blanc ou se brouillent.",
+      "materiaux": null,
+      "but": "Repérer les résistances sensorielles. La vue et l'ouïe, sens à distance, se déconnectent aisément du vécu corporel (sauf peinture et musique). Le goût et l'odorat, sens proches, gardent leur charge émotionnelle, mais le palais mort et le nez bouché sont des résistances courantes. Si l'on n'arrive pas à rappeler des voix, c'est peut-être qu'on n'écoute jamais vraiment autrui.",
+      "refs": [
+       "ID-04228",
+       "ID-04229"
+      ]
+     },
+     {
+      "consigne": "Expérience 6, affûter le sens du corps. Quatre consignes : (1) maintenir le sens d'actualité, l'awareness étant maintenant et ici ; (2) réaliser qu'on vit l'expérience, en tant qu'agissant, observant, subissant ou résistant ; (3) suivre toutes les expériences, internes et externes, passées et futures, souhaitées, dues ou simplement là ; (4) verbaliser « Now I am aware that… » pour chacune, sans exception. Modèle : « Maintenant je suis conscient d'être allongé sur le divan. Maintenant je suis conscient de l'hésitation, de me demander quoi faire d'abord. Maintenant je suis conscient que la radio joue dans la pièce voisine. Cela me rappelle… Non, je suis conscient que je voulais… » Après chaque divagation, revenir à la formule jusqu'à sentir que « je », « maintenant » et l'objet de conscience font une seule expérience.",
+      "materiaux": "Un divan ou équivalent (dans l'exemple du livre).",
+      "but": "Un entraînement phénoménologique : même un simple souhait est un événement réel, celui de souhaiter. L'exercice sort de la « transe » non verbale où l'on prend le verbaliser pour la réalité. Il étend la frontière de ce qu'on accepte comme soi. Les auteurs l'opposent à la libre association freudienne, qui perd le contexte d'actualité et devient souvent libre dissociation.",
+      "refs": [
+       "ID-04230",
+       "ID-04231",
+       "ID-04233",
+       "ID-04232"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Le livre lui-même (Perls, Hefferline, Goodman, 1951) : les fiches renvoient aux pp. 12-17, 76-84 et 258-265.",
+     "Perls, Ego, Hunger and Aggression : première formulation de la théorie du besoin dominant (ID-02365).",
+     "Sources digérées par le livre, selon les fiches : le freudisme (introjection, rêve comme accomplissement de souhait), Reich et sa cuirasse motrice, la sémantique, la philosophie ; la psychologie de la forme (Wertheimer, Köhler) est citée comme écho par l'auteur des fiches (ID-02363, ID-02369, ID-02362).",
+     "Goethe, cité comme exemple de mémoire éidétique (ID-04225)."
+    ],
+    "propos_types": [
+     "Le propos est celui du livre, non celui d'un enseignant au collège : rien n'atteste ce qui a été dit en classe.",
+     "L'éducation a enseveli sans détruire l'attitude gestaltiste. Notre langage coupe en deux ce qui est un : sentir, agir et penser sont un seul événement.",
+     "La psychologie porte sur le champ organisme/environnement, jamais sur l'un des deux isolé. Toute définition d'un vivant suppose son champ : air, sol, obstacles.",
+     "Le contact exige l'awareness, mais l'awareness exige le contact : la question est de savoir avec quoi l'on est en contact. Le spectateur d'un tableau moderne est peut-être en contact avec le critique de sa revue préférée.",
+     "La conscience naît d'un retard fonctionnel à la frontière de contact. La série va du phototropisme à la vision consciente, puis à l'attention délibérée.",
+     "Toute Gestalt inachevée réclame attention et bloque la croissance. Seule la Gestalt complétée fonctionne automatiquement.",
+     "On n'apprend pas en avalant tout cru : seule la substance assimilée s'unifie en un tout nouveau.",
+     "Dire « relaxe-toi » ou « ne censure pas » aggrave les difficultés. Il faut proposer des expériences graduées et demander ce qui se passe quand on essaie.",
+     "Le refoulé est devenu routine : le patient a oublié comment il inhibe. Il faut travailler la surface (manière de parler, respirer, bouger, censurer) plutôt qu'interpréter.",
+     "La société exige force, volonté et patience sans donner la croissance ni l'entraînement pour y parvenir, d'où des échecs résignés d'avance."
+    ],
+    "critique_et_evaluation": "Critiques portées par le livre, non par un enseignant au collège. Il juge la libre association freudienne vaine, car elle perd le contexte d'actualité et devient libre dissociation. Il juge aussi vaines les injonctions (« tiens-toi bien », « relaxe-toi ») et le forçage de soi, comparé à rouler avec le frein serré. Il tient la mémoire éidétique pour une capacité infantile écrasée par l'éducation. Il critique l'apprentissage par introjection verbale : un patient récitait des pages entières et réussissait des examens sans avoir rien assimilé. Il relève la « preuve de puissance » (« je me souviens avec une clarté parfaite ») comme la résistance la plus auto-défaillante. Aucun mode d'évaluation de séance n'est attesté.",
+    "reactions_etudiants": null,
+    "evolution": "Rien n'est attesté pour BMC. La théorie du besoin dominant a été proposée d'abord par Perls dans Ego, Hunger and Aggression, puis reprise dans le livre de 1951 (ID-02365). Les fiches ne donnent pas d'autre évolution.",
+    "refs": [
+     "ID-02359",
+     "ID-02360",
+     "ID-02361",
+     "ID-02363",
+     "ID-02364",
+     "ID-02365",
+     "ID-02366",
+     "ID-02368",
+     "ID-02601",
+     "ID-02603",
+     "ID-04222",
+     "ID-04223",
+     "ID-04224",
+     "ID-04225",
+     "ID-04226",
+     "ID-04227",
+     "ID-04228",
+     "ID-04229",
+     "ID-04230",
+     "ID-04231",
+     "ID-04232",
+     "ID-04233"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le contact et l'awareness : on peut croire voir une œuvre alors qu'on est en contact avec le discours qui l'accompagne.",
+    "en_classe": "Devant une œuvre, demander : parlez-vous de ce que vous voyez ou de ce qu'on vous a dit d'en voir ? Rapprochement possible avec le voir de l'atelier d'Albers, mais ce lien est une interprétation de l'auteur des fiches.",
+    "atteste": "non",
+    "refs": [
+     "ID-02360"
+    ]
+   },
+   {
+    "idee": "Figure et fond : le contexte donne sens à l'élément (le lilas paraît bleu sur fond rouge, rouge sur fond bleu).",
+    "en_classe": "Exercice visuel : mêmes taches de couleur sur fonds différents ; faire décrire ce qui figure et ce qui recule. Les fiches y voient un écho des exercices de couleur d'Albers, sans attestation d'un usage au collège.",
+    "atteste": "non",
+    "refs": [
+     "ID-02362"
+    ]
+   },
+   {
+    "idee": "Toute Gestalt inachevée est une situation inachevée qui réclame attention et bloque la croissance.",
+    "en_classe": "Repérer dans sa journée ce qui est resté en suspens et observer comment cela revient ; ou le mot sur le bout de la langue, qui surgit si on le laisse tranquille.",
+    "atteste": "non",
+    "refs": [
+     "ID-02361",
+     "ID-04224"
+    ]
+   },
+   {
+    "idee": "L'assimilation comme thème central : distinguer ce qu'on a avalé tout cru de ce qu'on a mâché.",
+    "en_classe": "À propos d'un texte lu, séparer ce qu'on répète de ce qu'on a vraiment fait sien. Les fiches rapprochent l'idée de l'apprendre en faisant de BMC, sans preuve que ce livre y ait été lu.",
+    "atteste": "non",
+    "refs": [
+     "ID-02363",
+     "ID-04225"
+    ]
+   },
+   {
+    "idee": "Le langage coupe en deux ce qui est un (corps/esprit, organisme/environnement).",
+    "en_classe": "Faire remarquer aux étudiants combien leur langage découpe ce qui est un : sentir, agir et penser sont un seul événement ; observer une conversation dont l'événement n'appartient à aucun des deux interlocuteurs.",
+    "atteste": "non",
+    "refs": [
+     "ID-02359",
+     "ID-02366"
+    ]
+   },
+   {
+    "idee": "Pédagogie de l'obstacle : remplacer l'exigence par une expérience graduée et travailler ce qui interfère.",
+    "en_classe": "Consigne : « Essaie, puis décris ce qui t'a arrêté. » Les fiches la jugent proche de la pédagogie d'atelier de BMC, où le processus compte plus que le produit, mais l'usage au collège n'est pas attesté.",
+    "atteste": "non",
+    "refs": [
+     "ID-02368",
+     "ID-04232",
+     "ID-04222"
+    ]
+   },
+   {
+    "idee": "Ne pas forcer ni retenir : la détente forcée est aussi vaine que la concentration forcée.",
+    "en_classe": "« Installez-vous, ne cherchez pas à vous détendre. Si vous retenez votre souffle ou agrippez le bord du banc, notez-le. »",
+    "atteste": "non",
+    "refs": [
+     "ID-04222",
+     "ID-04232"
+    ]
+   },
+   {
+    "idee": "Le champ organisme/environnement : on ne se définit pas sans l'air qu'on respire ni la chaise où l'on est assis.",
+    "en_classe": "« Définissez-vous sans mentionner l'air que vous respirez, la chaise où vous êtes assis. » Les fiches voient un voisinage avec Dewey et l'apprentissage par l'expérience.",
+    "atteste": "non",
+    "refs": [
+     "ID-02601",
+     "ID-02366"
+    ]
+   },
+   {
+    "idee": "Perception, mouvement naissant et sentiment forment un seul acte, jamais neutre : l'eau paraît brillante à l'assoiffé, et le goût ne se sépare pas de la bouche qui goûte.",
+    "en_classe": "« Goûtez ce que vous mangez : où finit le goût, où commence votre bouche ? » ; ou marcher dans un lieu inconnu en notant que regarder et bouger ne font qu'un.",
+    "atteste": "non",
+    "refs": [
+     "ID-02604",
+     "ID-02605",
+     "ID-02367"
+    ]
+   },
+   {
+    "idee": "Les moments d'absorption totale et ce qui les interrompt (équilibre, absorption esthético-érotique, danger, frustration, névrose).",
+    "en_classe": "Faire décrire à chacun le dernier moment d'absorption totale, puis chercher ce qui l'a interrompu.",
+    "atteste": "non",
+    "refs": [
+     "ID-02606"
+    ]
+   },
+   {
+    "idee": "Réactions protectrices à la frontière en cas de danger ou de frustration : sous-actives (panique, choc, évanouissement) et suractives (ruminations, pensée obsédante).",
+    "en_classe": "Interroger les souvenirs d'examen ou d'accident : qui s'est senti « partir », qui s'est mis à ressasser ?",
+    "atteste": "non",
+    "refs": [
+     "ID-02607"
+    ]
+   },
+   {
+    "idee": "Le rêve a une qualité plate, cinématographique, car la conscience rêvante est isolée de l'organisme ; sa fonction serait de maintenir l'animal endormi.",
+    "en_classe": "« Racontez un rêve : remarquez comme il est plat, comme un film. » Le développement théorique dépasse le cadre d'une séance d'atelier.",
+    "atteste": "non",
+    "refs": [
+     "ID-02609",
+     "ID-02614"
+    ]
+   },
+   {
+    "idee": "L'attention hypertrophiée par l'urgence chronique : l'homme fixe sans mieux voir, puis voit pire (tableau type de la névrose).",
+    "en_classe": "« Serrez la mâchoire, tendez le ventre, fixez le mur : voici comment on fabrique un « esprit ». » Les fiches citent cette image comme transposable.",
+    "atteste": "non",
+    "refs": [
+     "ID-02613",
+     "ID-04227"
+    ]
+   },
+   {
+    "idee": "Le besoin dominant devient figure, organise le comportement jusqu'à satisfaction, puis s'efface.",
+    "en_classe": "Suivre un après-midi quelconque : quel besoin prend la figure, quand s'efface-t-il, lequel prend la relève ?",
+    "atteste": "non",
+    "refs": [
+     "ID-02365"
+    ]
+   },
+   {
+    "idee": "La mémoire éidétique, que chacun a eue enfant, est supprimée par l'éducation ; apprendre par introjection verbale n'est pas comprendre.",
+    "en_classe": "Matière de discussion sur l'apprentissage verbal. Les fiches la jugent directement utilisable au collège parce que celui-ci rejetait l'apprentissage par introjection ; ce n'est qu'un rapprochement de l'auteur des fiches, non un fait attesté.",
+    "atteste": "non",
+    "refs": [
+     "ID-04225",
+     "ID-04226"
+    ]
+   },
+   {
+    "idee": "Les exigences sociales impossibles (« sois fort », « sois gentil ») sans la croissance ni l'entraînement pour y répondre.",
+    "en_classe": "Conversation sur les injonctions sociales et l'autoforçage ; où va l'énergie quand on se contrôle, contre quoi se bat-on ?",
+    "atteste": "non",
+    "refs": [
+     "ID-04223",
+     "ID-02369"
+    ]
+   },
+   {
+    "idee": "Le « Now I am aware » comme exercice de groupe : chacun énonce à voix haute ce dont il prend conscience et revient à la formule après chaque divagation.",
+    "en_classe": "Exercice de groupe imaginé par l'auteur des fiches à partir de l'expérience 6 ; le livre le décrit en situation individuelle. Aucune pratique au collège n'est attestée.",
+    "atteste": "non",
+    "refs": [
+     "ID-04230",
+     "ID-04233"
+    ]
+   }
+  ]
+ }
+}

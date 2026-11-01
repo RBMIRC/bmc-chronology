@@ -1,0 +1,224 @@
+{
+ "passe": "personnes",
+ "cle": "Sue Spayth Riley",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1768,
+  "sortie": 4724,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Sue Spayth Riley",
+  "autres_noms": [
+   "Sue Spayth",
+   "Sue Riley",
+   "Riley (nom sous lequel Rice et les sources la citent)"
+  ],
+  "dates_de_vie": "Dates de naissance et de mort non données par les fiches. Veuve en 1949, remariée en 1958 : elle vit donc au moins jusqu'à la fin des années 1950, et les sources de 1990 et 2002 la citent comme témoin (probablement encore en vie à ces dates, mais c'est une déduction).",
+  "statut_bmc": "Étudiante, fin des années 1930 (séjour 1938-1941 selon les fiches ; une scène de séminaire est datée 1937-1938, ce qui laisse un léger flou). Élève de John Andrew Rice, tutorée par Mary Barnes. Plus tard épouse d'un diplômé du collège et témoin dans les livres consacrés à Rice et au collège.",
+  "presence": [
+   {
+    "debut": "1938",
+    "fin": "1941",
+    "role": "Étudiante ; séminaires d'écriture avec Rice, tutorat avec Mary Barnes",
+    "refs": [
+     "PE-00300",
+     "RE-01084",
+     "RE-01085"
+    ]
+   },
+   {
+    "debut": "1937",
+    "fin": "1938",
+    "role": "Participante à un séminaire chez Rice (scène datée 1937→1938, d'où une incertitude sur l'entrée au collège)",
+    "refs": [
+     "SC-00692"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune description physique dans les fiches. Ne rien inventer de précis ; le scénariste devra choisir librement, avec une cohérence d'époque (jeune femme américaine de la fin des années 1930).",
+  "noyau_psychologique": "Jeune femme lucide et drôle, qui écrit avec une verve qui plaît à Rice (un pastiche sur la littérature abstraite), assume ses défauts (orthographe) sans honte, et reste capable de recul sur l'institution qui la forme. Elle se sent « atteinte et élevée » par l'enseignement de Rice et de Barnes, mais garde un regard critique : l'expérimentation affichée cache souvent des pratiques traditionnelles. Elle ne fait ni l'éloge pur ni le réquisitoire, et voit le collège comme une pierre à facettes inégalement polies, un équilibre de positif et de négatif. Déduction : un esprit de nuance, plus observateur que militant.",
+  "blessures": "Les fiches n'en disent aucune de façon directe. Une piste déduite : la mort de son premier mari en 1949, après une affaire où Wolpert s'était senti trompé par le collège. Mais rien n'atteste que Riley l'ait vécue comme une blessure liée à BMC.",
+  "desirs": "Attesté indirectement : être stimulée intellectuellement, écrire, comprendre l'expérience humaine (Barnes). Plus tard, enseigner et écrire sur la petite enfance. Le reste est déduction.",
+  "peurs": "Non documentées. Rien dans les fiches sur ce qu'elle craint.",
+  "maniere_d_aimer": "Peu documentée. Elle épouse un diplômé de BMC, Jerry Wolpert, et reste mariée jusqu'à sa mort en 1949 ; elle se remarie en 1958 et a des enfants (deux garçons du premier lit, un du second). Rien sur la nature de l'intimité ; on peut seulement déduire un attachement durable au monde du collège (le mari en vient).",
+  "rapport_au_pouvoir": "Elle admire l'autorité intellectuelle de Rice, qui l'élève, mais ne confond pas prestige et pratique réelle : elle remarque que la plupart des professeurs « expérimentaux » utilisent en fait les vieilles mesures, sauf Rice qui les avait vraiment jetées. Elle sépare donc les paroles des actes. Sur la crise de 1949, aucune parole d'elle n'est attestée.",
+  "voix": {
+   "registre": "Mémorialiste précise et ironique, tendre envers Rice mais sans flatterie ; témoin qui pèse le pour et le contre. Registre déduit des citations : une voix écrite plus que transcrite.",
+   "tics": "Elle plaisante volontiers de son orthographe (« bowl » écrit avec un E en trop) ; image de la « pierre à facettes » et des « vieilles règles fatiguées » pour parler des mesures traditionnelles. Tournures concrètes, imagées.",
+   "exemples_paraphrases": [
+    "Beaucoup de professeurs parlaient d'expérimentation, mais ils mesuraient encore avec les vieilles règles fatiguées ; seul Rice les avait vraiment jetées.",
+    "Le collège ressemblait à une pierre à facettes, dont certaines étaient bien polies et d'autres non : il y avait du bon et du mauvais, et ça s'équilibrait.",
+    "Je me souviens que Puce riait comme le père Noël, puis il a pointé le E en trop dans « bowl »."
+   ]
+  },
+  "habitudes": [
+   "Écrire des pastiches et des textes pour les séminaires de Rice (attesté).",
+   "Assister aux séminaires du soir dans le bureau de Rice, qui peuvent durer jusqu'à minuit, voire avec une caisse de bière (attesté pour le séminaire en général, pas pour elle en particulier).",
+   "Plus tard : enseigner et écrire dans le domaine de la petite enfance ; journalisme pendant et après la guerre."
+  ],
+  "convictions": [
+   "Le discours d'expérimentation masque souvent des pratiques traditionnelles ; Rice est l'exception qui a vraiment rompu avec les vieilles mesures.",
+   "Le collège doit être jugé dans sa totalité inégale, avec ses gains et ses pertes.",
+   "Un enseignement qui élève et touche la personne vaut plus que les procédés (déduit de ce qu'elle dit de Rice et Barnes)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1937",
+    "moment": "Séminaire chez Rice (étude de Lee Hall) : lecture de son pastiche sur la littérature abstraite ; Puce éclate de rire, puis relève le E en trop dans « bowl ». La scène est datée 1937-1938, donc avant ou au début de son séjour attesté.",
+    "etat_interieur": "Complice, joyeuse, à l'aise ; sa faute d'orthographe devient un moment de connivence plutôt qu'un affront (déduit du ton du souvenir).",
+    "refs": [
+     "SC-00692"
+    ]
+   },
+   {
+    "date": "1938",
+    "moment": "Début du séjour attesté : séminaires d'écriture avec Rice, porte ouverte tard le soir ; tutorat avec Mary Barnes.",
+    "etat_interieur": "Se sent « atteinte et élevée » ; sa compréhension de l'expérience humaine s'approfondit grâce à Barnes, qu'elle appelle une « rare gem ».",
+    "refs": [
+     "RE-01084",
+     "RE-01085",
+     "PE-00300"
+    ]
+   },
+   {
+    "date": "1938/1941",
+    "moment": "Elle prend du recul critique sur les professeurs qui parlent d'expérimental mais mesurent à l'ancienne (date de formation de l'idée incertaine, fiche ≈1933-1938).",
+    "etat_interieur": "Lucide, parfois désabusée ; capacité à admirer Rice tout en voyant les limites de l'institution.",
+    "refs": [
+     "ID-01099",
+     "PE-00300"
+    ]
+   },
+   {
+    "date": "1941",
+    "moment": "Fin du séjour.",
+    "etat_interieur": "Non documenté ; elle gardera un bilan nuancé, comme une pierre à facettes.",
+    "refs": [
+     "PE-00300"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Vie avant le collège entièrement absente des fiches : famille, origine, lieu de naissance, éducation. Elle porte le nom de jeune fille Spayth (déduit). À chercher avant d'écrire un flash-back.",
+    "refs": [
+     "PE-00300"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1941/1949",
+    "moment": "Entre la sortie du collège et 1949 : épouse Jerry Wolpert, diplômé de BMC ; journalisme pendant et après la guerre ; naissance de deux garçons (dates précises non données).",
+    "refs": [
+     "PE-00300",
+     "RE-01824"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Mort de Jerry Wolpert à Buffalo, où il enseignait à l'université. Selon Duberman, Wolpert, croyant à une offre ferme de BMC, avait démissionné, puis reçu une lettre de Natasha disant que l'offre était impossible ; il écrivit une lettre furieuse dénonçant la « double combine dégoûtante » et un « collège frauduleux ». Le lien entre cette affaire et la mort n'est pas précisé dans les fiches. Elle devient veuve avec deux garçons.",
+    "refs": [
+     "EV-04627",
+     "RE-01824"
+    ]
+   },
+   {
+    "date": "1958",
+    "moment": "Remariage ; naissance d'un troisième garçon.",
+    "refs": [
+     "PE-00300",
+     "RE-01824",
+     "EV-04627"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "B.A. et M.A. en éducation de la petite enfance ; carrière d'enseignante et d'autrice dans ce domaine. Plus tard, elle témoigne sur Rice (source Chaddock 2002) et sur le collège (Lane 1990), à des dates non précisées.",
+    "refs": [
+     "PE-00300",
+     "EV-04627"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Mentorat : séminaires d'écriture socratiques, porte ouverte tard le soir",
+    "evolution": "Admiration durable ; elle le distingue des autres professeurs parce qu'il a vraiment abandonné les vieilles mesures. Sa position sur son départ et sa fin n'est pas documentée.",
+    "refs": [
+     "RE-01085",
+     "SC-00692",
+     "PE-00300"
+    ]
+   },
+   {
+    "avec": "Mary Barnes",
+    "nature": "Mentorat : tutorat de 1938 à 1941",
+    "evolution": "Barnes est une « rare gem » qui approfondit sa compréhension de l'expérience humaine. Aucune suite connue.",
+    "refs": [
+     "RE-01084"
+    ]
+   },
+   {
+    "avec": "Jerry Wolpert",
+    "nature": "Mariage",
+    "evolution": "Mari diplômé du collège, mort en 1949 à Buffalo ; veuvage puis remariage en 1958 avec un autre homme (non nommé).",
+    "refs": [
+     "RE-01824",
+     "EV-04627"
+    ]
+   },
+   {
+    "avec": "Puce (surnom d'un participant au séminaire)",
+    "nature": "Condisciple ou familier du séminaire de Rice (identité de « Puce » non précisée dans les fiches)",
+    "evolution": "Un seul souvenir : son rire de père Noël devant le E en trop dans « bowl ».",
+    "refs": [
+     "SC-00692"
+    ]
+   },
+   {
+    "avec": "Emil Willimetz et Robert Sunley",
+    "nature": "Présents au même séminaire chez Rice",
+    "evolution": "Aucune relation détaillée.",
+    "refs": [
+     "SC-00692"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Dates de présence : séjour 1938-1941 (Lane 1990, fiches de relations) mais séminaire daté 1937-1938 (Chaddock 2002) ; à vérifier si elle était arrivée plus tôt.",
+   "Mort de Wolpert : Lane parle simplement de sa mort en 1949 à Buffalo ; Duberman décrit la querelle de l'offre d'emploi annulée, la lettre incendiaire, et la version de Natasha qui parle de malentendu. Ce sont deux récits différents d'un même épisode (ou de deux épisodes liés), et rien n'établit que Riley soit d'accord avec l'un ou l'autre.",
+   "L'idée selon laquelle les professeurs parlaient d'expérimental sans l'être est attribuée à Riley sur une période ≈1933-1938, ce qui est antérieur à son séjour attesté ; elle est marquée « incertain » comme observation faite à BMC."
+  ],
+  "situations_revelatrices": [
+   "Séminaire du soir chez Rice : un texte d'elle est lu à voix haute, les rires fusent, une faute d'orthographe devient un jeu.",
+   "Séance de tutorat avec Mary Barnes : une conversation sur l'expérience humaine qui bouscule sa vision.",
+   "Discussion entre étudiants sur les professeurs qui parlent d'expérimentation mais notent à l'ancienne.",
+   "Scène de veuvage : réception de la nouvelle de la mort de Wolpert à Buffalo, en pleine crise avec le collège (déduit, aucune fiche sur ses réactions).",
+   "Scène de bilan, des années plus tard, où elle raconte le collège avec nuance (pierre à facettes)."
+  ],
+  "citations": [
+   "PE-00300",
+   "RE-01084",
+   "RE-01085",
+   "RE-01824",
+   "SC-00692",
+   "EV-04627",
+   "ID-01099"
+  ],
+  "questions_ouvertes": [
+   "D'où vient-elle ? Quelle famille, quel milieu, quelles études avant BMC ? Pourquoi a-t-elle choisi ce collège ?",
+   "Quand est-elle arrivée et partie exactement ? A-t-elle obtenu un diplôme à BMC ?",
+   "Quand et comment a-t-elle rencontré Jerry Wolpert ? Étaient-ils ensemble au collège ?",
+   "Comment a-t-elle vécu la mort de Wolpert et sa querelle avec Natasha et le collège ? A-t-elle pris parti ?",
+   "Qui est le second mari (remariage de 1958) ?",
+   "Quel journal ou quel type de journalisme a-t-elle pratiqué pendant la guerre ?",
+   "Qu'a-t-elle écrit en éducation de la petite enfance, et où a-t-elle enseigné ?",
+   "Qui est exactement « Puce » ?"
+  ]
+ }
+}

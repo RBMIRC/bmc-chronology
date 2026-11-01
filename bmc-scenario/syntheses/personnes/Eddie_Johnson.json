@@ -1,0 +1,248 @@
+{
+ "passe": "personnes",
+ "cle": "Eddie Johnson",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3384,
+  "sortie": 7533,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Eddie Johnson",
+  "autres_noms": [],
+  "dates_de_vie": "Inconnues. Diplômé en 1960 (EV-07228). Revu \"des décennies plus tard\" avec une longue barbe blanche (EV-06976). Aucune date de naissance ni de mort dans les fiches.",
+  "statut_bmc": "Aucun séjour attesté à Black Mountain College dans les fiches. Johnson est un ancien étudiant d'Elaine de Kooning, vraisemblablement au Nouveau-Mexique (EV-07228 cite New York / Albuquerque, EV-06976 l'Université du Nouveau-Mexique), puis son assistant et compagnon. Il appartient à la périphérie du réseau BMC par Elaine, pas au collège. Tout ce qui suit est du matériau de personnage en marge du collège. Vérifier si un lien avec BMC existe avant de le placer sur le campus.",
+  "presence": [],
+  "portrait_physique": "Jeune homme tranquille, effacé. Dans l'autoportrait sérigraphié de 1964, il se replie sur un côté de l'estampe : bouche petite et tendue, yeux baissés (EV-07228, PE-00336). Des décennies plus tard, à l'Université du Nouveau-Mexique, il est voûté, avec une longue barbe blanche et les dents de devant manquantes. Conger y voit un Rip Van Winkle (EV-06976). Aucune taille, couleur de cheveux ni vêtement dans les fiches.",
+  "noyau_psychologique": "Un introverti vulnérable que le contact d'un être exubérant libère un temps dans le geste (la peinture) sans le sortir de sa réserve (PE-00336, EV-07228). Les fiches le disent silencieux, réservé, \"hanté\" (Curtis, repris dans RE-02814). Déduction : il fonctionne par dévouement discret. Il se rend utile, tend les outils, photographie, plutôt que de s'affirmer. Il est plus à l'aise derrière l'objectif ou au service d'une autre que sous les projecteurs. Ce qui le hante n'est pas précisé.",
+  "blessures": "Non documentées. Le mot \"hanté\" (RE-02814) indique une fragilité intérieure sans en donner la cause. Son retour au Nouveau-Mexique dans l'entreprise familiale de peinture en bâtiment, puis la silhouette ravagée des décennies plus tard (EV-06976), suggèrent un échec à s'installer dans le monde de l'art newyorkais. Ce n'est qu'une inférence, et la fin de sa liaison avec Elaine n'est pas racontée.",
+  "desirs": "Attesté : il suit le conseil d'Elaine et change radicalement sa peinture, ce qui montre une envie d'élargir son geste (EV-07228). Il rejoint New York après son diplôme et reste auprès d'elle de 1960 à 1964 environ. Déduction : il cherche une autorité bienveillante et un sens à donner à son talent. Aucun désir exprimé de gloire personnelle.",
+  "peurs": "Pas de peur énoncée. Déduction à partir des fiches : l'exposition sociale, d'où le besoin qu'Elaine le \"sorte de sa réserve\" en le présentant à Steve Poleskie. Peut-être aussi la violence du geste qu'on lui demandait d'adopter. La vie new-yorkaise auprès d'Elaine \"ne le sortira pas de sa coquille\" (PE-00336).",
+  "maniere_d_aimer": "Attesté : il est l'assistant devenu compagnon \"bienvenu\" d'Elaine en 1963-1964 (RE-03031, EV-07724). Ils font du vélo à midi à Palm Beach. Il la photographie, y compris dans une image intime en maillot une pièce, agenouillée devant le visage de Kennedy sculpté dans le sable. Déduction : un amour de service et de présence silencieuse, fait de gestes et d'images plus que de mots. La différence de statut, ancien élève et maître, structure la relation (RE-02814, RE-03004).",
+  "rapport_au_pouvoir": "Il accepte l'autorité d'Elaine : il suit son conseil de style, accepte ses présentations, collabore au film dont elle est productrice associée (EV-07228). À Palm Beach, il se tient en bas de l'escabeau, à portée de voix, et lui passe le fusain et les crayons quand elle les réclame \"comme un chirurgien\" (SC-01999, EV-07629). Il est proche du pouvoir politique (Kennedy, ministres) mais toujours en position d'ombre, sans que rien indique qu'il en retire du prestige.",
+  "voix": {
+   "registre": "Aucune parole de Johnson n'est rapportée dans les fiches. Les sources le décrivent silencieux et réservé (PE-00336). Déduction : parler rare, bref, plutôt en réaction qu'en initiative. Éviter de lui inventer des tirades.",
+   "tics": "Rien d'attesté. Il photographie plutôt qu'il ne parle, et n'est \"pas un habitué des bars\" (PE-00336), donc peu de sociabilité bavarde.",
+   "exemples_paraphrases": []
+  },
+  "habitudes": [
+   "Photographie : ses clichés d'Elaine croquant Kennedy paraissent sans crédit dans Life (PE-00336, EV-07724).",
+   "Fréquente peu les bars (PE-00336).",
+   "Fait du vélo à midi avec Elaine à Palm Beach (RE-03031, EV-07724).",
+   "Porte chaque jour les dessins au fusain d'Elaine pour les mettre sur toile, depuis l'atelier du vieux théâtre (EV-07449).",
+   "Se tient au pied de l'escabeau pour lui passer fusain et crayons pendant les séances (SC-01999, EV-07629)."
+  ],
+  "convictions": [
+   "Attesté par ses actes : il croit assez à l'enseignement d'Elaine pour abandonner ses petites natures mortes grises au profit de grands pinceaux, grands formats, coups violents et témérité (EV-07228).",
+   "Rien n'est dit de ses idées politiques, religieuses ou esthétiques au-delà de ce changement."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1958/1960",
+    "moment": "Hors collège : étudiant d'Elaine, son style bascule de petites natures mortes grises à une peinture de grands formats, gestuelle et audacieuse (portrait à l'huile pastel de Robert Corless).",
+    "etat_interieur": "Libéré dans le geste, mais toujours discret et réservé. Déduction : il admire son professeur et se laisse transformer par elle.",
+    "refs": [
+     "EV-07228",
+     "RE-02814",
+     "OE-03163"
+    ]
+   },
+   {
+    "date": "1960",
+    "moment": "Hors collège : diplômé, il rejoint Elaine à New York comme assistant. Elle le présente à Steve Poleskie (Chiron Press) pour le sortir de sa réserve. Il collabore avec lui à un film expérimental dont Elaine est productrice associée.",
+    "etat_interieur": "Protégé, poussé vers l'extérieur, sans que sa coquille cède (PE-00336).",
+    "refs": [
+     "EV-07228",
+     "RE-02814",
+     "PE-00336"
+    ]
+   },
+   {
+    "date": "1962",
+    "moment": "Hors collège : il part avec Elaine à West Palm Beach pour la commande du portrait de Kennedy. Il fait la navette avec l'atelier installé dans un vieux théâtre et porte les dessins au fusain pour les mettre sur toile.",
+    "etat_interieur": "Utile, dévoué, dans l'ombre d'une entreprise officielle qui le dépasse. Déduction, aucune émotion n'est notée.",
+    "refs": [
+     "EV-07447",
+     "EV-07449",
+     "RE-03004",
+     "PE-00336"
+    ]
+   },
+   {
+    "date": "1963-01-05",
+    "moment": "Hors collège : séance du Medicare à Palm Beach. Il reste en bas pendant qu'Elaine grimpe sur l'escabeau et réclame fusain et crayons comme un chirurgien. Les hommes présents sont médusés, Kennedy sourit sans rien dire.",
+    "etat_interieur": "Observateur silencieux d'une scène absurde, où l'invisibilité de l'artiste est choisie. Son propre état n'est pas décrit.",
+    "refs": [
+     "SC-01999",
+     "EV-07629"
+    ]
+   },
+   {
+    "date": "1963/1964",
+    "moment": "Hors collège : il devient compagnon bienvenu d'Elaine. Vélo à midi, complicité, photos d'elle dont une intime non publiée. Life publie ses photos non créditées (1964).",
+    "etat_interieur": "Apogée de proximité affective et de reconnaissance discrète, mais sans reconnaissance publique (photos non créditées).",
+    "refs": [
+     "RE-03031",
+     "EV-07724",
+     "PE-00336"
+    ]
+   },
+   {
+    "date": "1964",
+    "moment": "Sérigraphie autoportrait : il se montre refermé, bouche tendue, yeux baissés.",
+    "etat_interieur": "Malgré la proximité d'Elaine, repli persistant. Déduction : l'autoportrait révèle ce qu'il ne dit pas.",
+    "refs": [
+     "EV-07228"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "À une date non précisée, il rentre au Nouveau-Mexique et reprend l'entreprise familiale de peinture en bâtiment.",
+    "etat_interieur": "\"Hanté\" (RE-02814). Retour à un métier de peintre en bâtiment, loin de la scène artistique.",
+    "refs": [
+     "EV-07228",
+     "RE-02814",
+     "PE-00336"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Étudiant discret d'Elaine, probablement au Nouveau-Mexique (Albuquerque, Université du Nouveau-Mexique : déduction). Il peint de petites natures mortes grises avant le conseil d'Elaine.",
+    "refs": [
+     "EV-07228",
+     "EV-06976"
+    ]
+   },
+   {
+    "date": "≈1958/1960",
+    "moment": "Changement de style sous l'influence d'Elaine : grands pinceaux, grands formats, coups violents. Il peint le portrait à l'huile pastel d'un ami artiste, Robert Corless, aux couleurs vibrantes et à la touche sûre.",
+    "refs": [
+     "EV-07228",
+     "RE-02814",
+     "OE-03163"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Famille propriétaire d'une entreprise de peinture en bâtiment au Nouveau-Mexique : l'entreprise familiale qu'il reprend ensuite (EV-07228) existe donc avant son départ pour New York. Rien de plus sur l'enfance ni les parents.",
+    "refs": [
+     "EV-07228",
+     "PE-00336"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "",
+    "moment": "Retour au Nouveau-Mexique, où il reprend l'entreprise familiale de peinture en bâtiment. La date et les circonstances précises de la rupture avec Elaine ne sont pas données.",
+    "refs": [
+     "EV-07228",
+     "PE-00336",
+     "RE-02814"
+    ]
+   },
+   {
+    "date": "≈1958/1975",
+    "moment": "Plusieurs décennies plus tard, lors d'une conférence de Conger à l'Université du Nouveau-Mexique, à l'occasion d'une exposition d'artistes locaux de l'époque d'Elaine, Conger le revoit voûté, barbu, édenté, tel un Rip Van Winkle. Conger songe que c'est ce qu'il serait devenu lui-même s'il avait été l'assistant d'Elaine. Date de la scène incertaine.",
+    "refs": [
+     "EV-06976"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "Mentorat puis relation amoureuse : professeur, patronne, compagne.",
+    "evolution": "D'abord professeur qui transforme sa peinture (1958-1960), puis employeuse et appui à New York, assistante à Palm Beach (1962-1963), enfin compagne bienvenue (1963-1964). Après, il rentre au Nouveau-Mexique, hanté, et la fin de leur liaison n'est pas décrite.",
+    "refs": [
+     "RE-02814",
+     "RE-03004",
+     "RE-03031",
+     "EV-07724",
+     "SC-01999"
+    ]
+   },
+   {
+    "avec": "Steve Poleskie",
+    "nature": "Collaboration artistique : film expérimental.",
+    "evolution": "Elaine les présente pour sortir Johnson de sa réserve. Ils réalisent un film dont Elaine est productrice associée. Aucune suite connue.",
+    "refs": [
+     "EV-07228",
+     "RE-02814",
+     "PE-00336"
+    ]
+   },
+   {
+    "avec": "Robert Corless",
+    "nature": "Ami artiste, modèle de portrait.",
+    "evolution": "Johnson peint son portrait à l'huile pastel. Rien d'autre n'est dit de cette amitié.",
+    "refs": [
+     "EV-07228",
+     "OE-03163"
+    ]
+   },
+   {
+    "avec": "Conger",
+    "nature": "Témoin, regard extérieur et inquiet.",
+    "evolution": "Conger le revoit des décennies plus tard et voit en lui le destin qu'il aurait eu en restant l'assistant d'Elaine.",
+    "refs": [
+     "EV-06976"
+    ]
+   },
+   {
+    "avec": "John F. Kennedy",
+    "nature": "Sujet de la commande, rencontré sur le seul mode de la proximité professionnelle.",
+    "evolution": "Johnson photographie Elaine devant lui. Aucun échange direct n'est attesté entre eux.",
+    "refs": [
+     "EV-07447",
+     "SC-01999",
+     "EV-07724"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Date des photos de Johnson : PE-00336 (d'après Hall 1993) situe la photo d'Elaine croquant Kennedy en décembre 1962, alors que SC-01999 et EV-07629 situent la scène de l'escabeau au début de janvier 1963 et que Life publie les photos en 1964 (EV-07724). Rien ne prouve qu'il s'agisse de la même image.",
+   "Les fiches EV-07447 et EV-07449 datent le voyage de 1962, alors que la scène du Medicare est en janvier 1963 : le séjour Palm Beach s'étend probablement sur deux années civiles.",
+   "Statut de la relation : RE-03004 la qualifie de mentorat (1962-1963), RE-03031 d'amour (1963-1964). Il s'agit d'une évolution, pas forcément d'une contradiction, mais la bascule n'est pas datée.",
+   "Date de la rencontre avec Conger (EV-06976) : fourchette ≈1958-1975 pour \"des décennies plus tard\", ce qui est peu cohérent. La date réelle est inconnue.",
+   "Lieu de l'étude : EV-07228 indique \"New York / Albuquerque\" et PE-00336 parle d'un \"ancien étudiant d'Elaine\" sans préciser où. Le lien avec Black Mountain College n'est pas attesté.",
+   "Le lieu de la lettre sur les balades à vélo est donné avec un point d'interrogation (\"Palm Beach ?\") dans EV-07724, et l'auteur de la lettre n'est pas nommé (probablement Elaine : déduction)."
+  ],
+  "situations_revelatrices": [
+   "Au pied de l'escabeau, il tend fusain et crayons pendant que tout le monde regarde Elaine : la scène qui le montre au service et dans l'ombre.",
+   "Dans l'atelier du vieux théâtre de West Palm Beach, il reçoit les dessins d'Elaine et les met sur toile.",
+   "À vélo à midi avec Elaine, loin de la politique : intimité, légèreté, peu de mots.",
+   "Quand Elaine veut le sortir de sa réserve en le présentant à Poleskie : sa résistance silencieuse face à la sociabilité.",
+   "Devant l'autoportrait de 1964 : le moment où il se voit tel qu'il est.",
+   "Des décennies plus tard, face à Conger à l'Université du Nouveau-Mexique : la confrontation avec ce qu'il est devenu."
+  ],
+  "citations": [
+   "PE-00336",
+   "RE-02814",
+   "RE-03004",
+   "RE-03031",
+   "SC-01999",
+   "EV-06976",
+   "EV-07228",
+   "EV-07447",
+   "EV-07449",
+   "EV-07629",
+   "EV-07724",
+   "OE-03163"
+  ],
+  "questions_ouvertes": [
+   "A-t-il jamais mis les pieds à Black Mountain College ? Rien ne l'atteste. Sinon, que devient-il dans une histoire qui se passe au collège ?",
+   "Où a-t-il étudié avec Elaine, et dans quelles années exactement (≈1958-1960 ?) ?",
+   "Qui est exactement Conger, et quand ont-ils eu cette rencontre à l'Université du Nouveau-Mexique ?",
+   "Quand et comment s'est terminée sa relation avec Elaine, et pourquoi est-il rentré au Nouveau-Mexique ?",
+   "Qu'est-ce qui le \"hante\" ? Que dit-on de sa famille, de son enfance, de ses origines ?",
+   "Qu'est devenu le film expérimental avec Steve Poleskie, et quel y fut son rôle ?",
+   "A-t-il continué à peindre ou photographier après son retour ? Que sont devenues ses oeuvres et ses photos non créditées ?",
+   "Sa vie entre 1964 et la rencontre avec Conger : mariage, famille, santé, alcool ou non ?",
+   "A-t-il été reconnu comme auteur de ses photos de Kennedy, et le lui a-t-on reproché ou épargné ?"
+  ]
+ }
+}

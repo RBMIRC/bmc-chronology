@@ -1,0 +1,302 @@
+{
+ "passe": "personnes",
+ "cle": "Mark Rothko",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 9614,
+  "sortie": 11121,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Mark Rothko",
+  "autres_noms": [
+   "Rothko (nom d'usage dans toutes les fiches)"
+  ],
+  "dates_de_vie": "Naissance : aucune date fiable dans les fiches (l'ancrage « ≈1918→1989 » de ID-00302 est incohérent avec sa mort et ne doit pas servir). Mort : suicide en 1970 (RE-01252). Il commence à peindre à vingt-trois ans (PE-00164), sans année donnée.",
+  "statut_bmc": "Aucune présence attestée au Black Mountain College dans les fiches. Il n'apparaît ni parmi les invités de la session d'été 1950 (EV-04945 : Goodman, Greenberg, Stamos, Litz, Amino, Klein ; Cage, Olson, Cunningham et de Kooning sont réinvités mais pris ailleurs), ni dans aucune scène du collège. ID-00302 et ID-01621 sont marquées « atteste_a_bmc : non ». Il est donc un personnage hors-champ, ou périphérique : une réputation et une référence new-yorkaise qui arrivent au collège par d'autres (Stamos, son ami proche et professeur à la session de 1950 ; de Kooning ; Rauschenberg, qui voit ses toiles chez Betty Parsons). Tout lien direct avec BMC serait une invention du scénario.",
+  "presence": [],
+  "portrait_physique": "Un seul trait physique est attesté : un homme trapu, assis à gauche du banc face à de Kooning (EV-01208, SC-00290, PE-00164). Ni âge, ni visage, ni vêtements dans les fiches. Détails de comportement visibles : il offre un verre à dix heures du matin (EV-06983), il reste assis des heures dans un atelier, un livre à la main, et il va chercher des sandwichs (EV-06971).",
+  "noyau_psychologique": "Un peintre qui fait de la peinture un acte moral et qui vit dans l'angoisse de ce qu'on en fera. Il veut supprimer tout obstacle entre lui, l'idée et le regardeur (CI-01511). Il tient à la clarté, mais refuse toute étiquette, école ou catégorie : classer, c'est mutiler. Il s'intéresse moins à la couleur, qu'il décrit comme un simple instrument, qu'à une tonalité d'humeur poignante. Il vit ses tableaux comme des enfants à protéger d'un monde cruel, ce qui le conduit à se retirer du commentaire public (« le silence est si exact ») et parfois à renoncer à exposer ou à vendre. Ce retrait nourrit une relation d'opposition avec le spectateur. Il a de l'esprit, du charme, un côté séducteur ; l'alcool l'aide à tenir la vie quotidienne. Inférence : la fin de 1970 donne rétrospectivement un poids tragique à cette fragilité, mais aucune fiche ne décrit la dépression elle-même.",
+  "blessures": "Attesté : une susceptibilité extrême à l'étiquetage et au discours sur son œuvre (« une sorte de faiblesse », selon Elaine, EV-06971). Un sens douloureux de la vie privée de ses tableaux, malgré de nombreuses expositions personnelles (PE-00164). Un rapport à l'alcool qu'il nomme lui-même « tippler ». Rien dans les fiches sur l'enfance, la famille ou l'émigration. Ne pas inventer de blessure d'origine sans le signaler comme fiction.",
+  "desirs": "Être compris, c'est-à-dire que la progression du peintre aille vers la clarté (CI-01511). Que l'œuvre soit l'arbitre final de son identité (EV-07083). Que ses tableaux trouvent la compagnie d'un regard sensible, car c'est de cette compagnie qu'ils vivent (CI-01690). Que le sujet compte : avec Gottlieb, il affirme en 1943 qu'il n'existe pas de bonne peinture « à propos de rien » (EV-03415).",
+  "peurs": "La distorsion du sens de ses tableaux par la critique, les catégories, le marché ou le mauvais spectateur. La peur que l'œuvre meure aussi par la même compagnie qui la fait vivre (CI-01690). L'anxiété devant les mots écrits sur lui : il est le seul artiste, selon Marjorie Luyckx, à avoir désapprouvé ce qu'écrivait Elaine (EV-07083). Il peut aussi redouter les gestes anodins, comme un premier mot lancé à un inconnu : cela est dit de de Kooning, pas de lui.",
+  "maniere_d_aimer": "Amitié et séduction passent par la parole et la présence plus que par l'aveu. Sur le banc, il rompt le silence par une banalité (« Nice evening ») puis se rend à l'atelier de de Kooning quelques jours plus tard (SC-00290). Avec Elaine, il est spirituel et flirtueux, puis protecteur de son œuvre jusqu'à la dispute mot à mot ; elle lui garde « une tendresse amusée » (RE-02812). Ses amitiés durent : Stamos, un de ses plus proches amis, devient son exécuteur testamentaire après sa mort et en paie le prix (RE-01252).",
+  "rapport_au_pouvoir": "Méfiant envers les écoles, les institutions, les classements et la bureaucratie. Une idée qui lui est attribuée (ID-00302) soutient que l'art bureaucratique se définit par l'interdit et que le tyran moderne craint l'art qui pense par lui-même ; cette attribution est douteuse (voir contradictions). En pratique, il fonde ou rejoint des cadres collectifs (Artist's Union en 1934-1935, école Subjects of the Artist en 1948, déclaration cosignée en 1943), mais il refuse d'être rangé. Face à la critique, il exerce une pression directe : lettre formelle à Tom Hess, présence dans l'atelier d'Elaine pendant la réécriture, refus de céder sur un mot.",
+  "voix": {
+   "registre": "À l'écrit, formel, véhément, aphoristique (lettre à Hess). À l'oral, sobre ou cinglant, spirituel, flirtueux, avec des saillies sèches. Il parle de morale, de clarté, d'émotion, de silence, mais refuse le vocabulaire de la mystique et de la philosophie.",
+   "tics": "Il isole un mot et argumente jusqu'à ce que l'autre comprenne. Il fait de courtes sentences, d'aspect définitif, et recourt à l'ironie quand on le range (zen, Action painting). Il attaque les catégories par l'image (embaumer). Quand on le questionne sur la couleur, il retourne la question. Il propose un verre dès le matin.",
+   "exemples_paraphrases": [
+    "Sur le banc, première phrase d'un inconnu à un autre : il fait un beau soir, rien de plus (CI-00633).",
+    "Sur le zen : l'Occident a mis cinq siècles à produire un homme de la Renaissance, et il est là, donc inutile d'aller chercher ailleurs (CI-01693).",
+    "À Hess : classer, c'est embaumer ; l'identité réelle ne supporte pas les écoles sans mutilation (CI-03516).",
+    "Sur la couleur : sans ligne, de quoi dispose-t-on encore pour peindre ? (PE-00164).",
+    "Sur l'émotion : aucune n'est exclue, toutes sont réelles donc pertinentes, tout sert (CI-01696).",
+    "Plus tard : le silence est plus exact que l'explication (CI-01691).",
+    "Sur la peinture : elle vit de la compagnie d'un observateur sensible et meurt de la même façon (CI-01690).",
+    "Dans un débat de 1947 : pour nous, le déguisement doit être complet, c'est-à-dire contre la représentation (CI-02006)."
+   ]
+  },
+  "habitudes": [
+   "Il a commencé à peindre à vingt-trois ans (PE-00164).",
+   "Il utilise des pinceaux de peintre en bâtiment (PE-00164).",
+   "Ses palettes récentes se limitent à deux couleurs voisines du spectre (orange et rouge, jaune et orange, bleu et vert, gris et bleu) (PE-00164).",
+   "Il s'accorde le droit de renoncer à exposer ou à vendre pour éviter la distorsion du sens (PE-00164).",
+   "Il offre un verre à dix heures du matin ; il se dit « tippler » (EV-06983, PE-00164).",
+   "Il s'installe dans l'atelier de quelqu'un pendant qu'on travaille, lit, va chercher à manger (EV-06971).",
+   "Il partage les lectures du soir de de Kooning et d'Elaine au 63 Carmine Street : romans policiers avec Baziotes, le « vrai expert », comparaisons Hammett-Chandler (EV-03346).",
+   "Il fréquente les conférences du vendredi soir de Studio 35 et de l'école de la Huitième Rue (EV-04290, EV-04455)."
+  ],
+  "convictions": [
+   "La peinture n'a pas à être « à propos de rien » : le sujet est crucial (EV-03415, RE-01390).",
+   "Le peintre doit éliminer tous les obstacles entre lui et l'idée, entre l'idée et le spectateur (CI-01511).",
+   "L'identité réelle est incompatible avec les écoles et catégories ; l'œuvre est l'arbitre final (EV-07083).",
+   "« Action Painting » est antithétique à l'esprit de son œuvre (EV-07083).",
+   "Il n'exclut aucune émotion, car toutes sont réelles et pertinentes (CI-01696).",
+   "La couleur n'est qu'un instrument ; il refuse l'étiquette de mystique et toute dette philosophique envers l'architecture (PE-00164).",
+   "Un tableau vit par la compagnie du spectateur sensible et meurt par elle (CI-01690).",
+   "La démarche picturale est un acte moral, donc la réaction du spectateur l'est aussi (PE-00164)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1934",
+    "moment": "Artist's Union (hors collège, fait antérieur à toute présence éventuelle). Il en fait partie avec de Kooning, Gorky, Graham, Davis. Seul de Kooning est exclu du WPA, faute de citoyenneté. État intérieur : engagement collectif d'artiste précaire, sans trace de la rupture ultérieure avec les catégories.",
+    "etat_interieur": "Solidarité professionnelle ; Rothko reste un artiste parmi d'autres, pas encore le peintre des grandes toiles (inférence, la date de sa formation n'est pas donnée).",
+    "refs": [
+     "EV-02308"
+    ]
+   },
+   {
+    "date": "1943",
+    "moment": "Déclaration au New York Times avec Gottlieb : il n'y a pas de bonne peinture « à propos de rien », le sujet est crucial.",
+    "etat_interieur": "Il réclame publiquement le contenu et le sérieux de l'art abstrait, sans encore fuir le commentaire. Le texte est un manifeste collectif.",
+    "refs": [
+     "EV-03415",
+     "RE-01390"
+    ]
+   },
+   {
+    "date": "1948",
+    "moment": "Il entre, dit Elaine, dans « son Présent » : l'œuvre antérieure ne le représente plus. Il cofonde à l'automne l'école Subjects of the Artist avec Hare, Motherwell, Baziotes (et Newman selon EV-04455).",
+    "etat_interieur": "Rupture de style et d'identité : début des grandes toiles rectangulaires, appétit de fonder tout en refusant l'école ; passage de l'enseignement ouvert à la solitude.",
+    "refs": [
+     "EV-04460",
+     "EV-04290",
+     "EV-04455"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Exposition Intrasubjectives chez Kootz parmi douze artistes ; la Subjects of the Artist School disparaît au printemps, les conférences continuent sous le nom Studio 35.",
+    "etat_interieur": "Reconnaissance de groupe, fin d'une expérience pédagogique commune ; l'identité collective s'effrite pendant que l'œuvre s'isole.",
+    "refs": [
+     "EV-04661",
+     "EV-04455"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Entre 1943 et 1951 (fourchette approximative) : ses œuvres, vues chez Betty Parsons par Rauschenberg, sont jugées distantes et intimidantes. Entre 1943 et 1957, les soirées de lecture avec de Kooning et Baziotes.",
+    "etat_interieur": "Une aura d'austérité chez le public, une sociabilité réelle en privé (romans policiers, discussions).",
+    "refs": [
+     "EV-03407",
+     "EV-03346"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Entre 1943 et 1958 (approximatif) : il se retire du commentaire public (« le silence est si exact »), rejette le zen, l'étiquette mystique, les lectures qui l'enferment.",
+    "etat_interieur": "Wistful, protecteur, sur la défensive ; la réception hostile ou captive (« portes de l'enfer », bannières de processions espagnoles) lui prouve que ses tableaux reçoivent n'importe quoi.",
+    "refs": [
+     "CI-01691",
+     "SC-00866",
+     "SC-00864",
+     "PE-00164"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Parcours stylistique, selon l'article d'Elaine de Kooning : peinture expressionniste primitive, images surréalistes, fantaisies de vie sous-marine et de céphalopodes, lavis monochromes. Chaque étape abandonne un élément visuel pour un élément spirituel. Aucune date n'est donnée.",
+    "refs": [
+     "PE-00164"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Il commence à peindre à vingt-trois ans (âge attesté, année inconnue).",
+    "refs": [
+     "PE-00164"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Première rencontre avec de Kooning sur un banc de Washington Square Park, la nuit ; les sources divergent sur la date (voir contradictions). Silence réciproque, « Nice evening », puis visite à l'atelier quelques jours plus tard. Elle fonde une amitié décisive.",
+    "refs": [
+     "SC-00290",
+     "EV-01208",
+     "SC-00043",
+     "EV-00172",
+     "RE-00225",
+     "CI-00633"
+    ]
+   },
+   {
+    "date": "1934",
+    "moment": "Artist's Union, avec de Kooning, Gorky, Graham et Davis ; création du WPA Federal Art Project en août 1934. Rien n'indique si Rothko y entre.",
+    "refs": [
+     "EV-02308"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1958",
+    "moment": "Nuit blanche dans l'atelier d'Elaine : il désapprouve son texte « Two Americans in Action », elle le déchire et le réécrit, il reste, lit, va chercher un hot pastrami sur seigle, isole un mot, ils débattent jusqu'à ce qu'elle comprenne son objection. Elle voit dans cette inquiétude « une sorte de faiblesse » et garde une tendresse amusée.",
+    "refs": [
+     "SC-01872",
+     "EV-06971",
+     "RE-02812"
+    ]
+   },
+   {
+    "date": "1958",
+    "moment": "Elaine lui répond à propos du « luxe » : elle se moque de ses intentions, elle est « un œil éduqué ». Son portrait critique de l'œuvre (façade, refuge, murs de lumière agressifs et enveloppants) est une forme d'admiration.",
+    "refs": [
+     "RE-02811",
+     "RE-02843",
+     "SC-00864"
+    ]
+   },
+   {
+    "date": "1958",
+    "moment": "Lors d'un entretien pour ARTnews, il propose un verre à dix heures du matin, qu'Elaine refuse.",
+    "refs": [
+     "EV-06983"
+    ]
+   },
+   {
+    "date": "1958-11-14",
+    "moment": "Lettre à Tom Hess contre la classification « Action painter » ; le seul artiste, selon Marjorie, à avoir protesté contre un texte d'Elaine. La lettre est conservée dans les papiers d'Elaine.",
+    "refs": [
+     "EV-07083",
+     "RE-02842",
+     "CI-03516",
+     "PE-00164"
+    ]
+   },
+   {
+    "date": "1970",
+    "moment": "Suicide de Rothko. Stamos, son ami, devient exécuteur testamentaire, puis est révoqué par les tribunaux, au prix de sa réputation.",
+    "refs": [
+     "RE-01252"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Willem de Kooning",
+    "nature": "Amitié née d'une rencontre nocturne",
+    "evolution": "Banc silencieux, « Nice evening », visite d'atelier quelques jours plus tard ; puis lectures et discussions partagées au 63 Carmine Street, Artist's Union. Une amitié de longue durée, sans rupture attestée.",
+    "refs": [
+     "SC-00290",
+     "EV-01208",
+     "RE-00225",
+     "EV-03346",
+     "EV-02308"
+    ]
+   },
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "Amitié, conflit intellectuel, admiration réciproque",
+    "evolution": "En 1958 : elle écrit sur lui, il conteste, elle réécrit avec lui une nuit entière ; elle déplore sa susceptibilité mais en garde une tendresse amusée ; il écrit à Hess pour refuser la classification qu'elle a faite.",
+    "refs": [
+     "RE-02811",
+     "RE-02812",
+     "RE-02842",
+     "RE-02843",
+     "SC-01872",
+     "EV-06971"
+    ]
+   },
+   {
+    "avec": "Theodoros Stamos",
+    "nature": "Amitié proche",
+    "evolution": "Rothko est un de ses amis les plus proches ; après 1970, Stamos, exécuteur testamentaire, est révoqué par les tribunaux. L'amitié devient un fardeau posthume. Stamos accepte d'enseigner à BMC en 1950, ce qui est le seul fil indirect vers le collège (inférence).",
+    "refs": [
+     "RE-01252",
+     "EV-04945"
+    ]
+   },
+   {
+    "avec": "Adolph Gottlieb",
+    "nature": "Collaboration",
+    "evolution": "Cosignent en 1943 la déclaration au New York Times.",
+    "refs": [
+     "RE-01390",
+     "EV-03415"
+    ]
+   },
+   {
+    "avec": "Baziotes, Hare, Motherwell, Barnett Newman",
+    "nature": "Cofondateurs de l'école Subjects of the Artist",
+    "evolution": "Fondation à l'automne 1948, nom suggéré ironiquement par Newman ; fin au printemps 1949, conférences du vendredi prolongées sous le nom Studio 35. Baziotes partage aussi les romans policiers du soir.",
+    "refs": [
+     "EV-04290",
+     "EV-04455",
+     "EV-03346"
+    ]
+   },
+   {
+    "avec": "Thomas B. Hess",
+    "nature": "Destinataire de sa lettre de protestation",
+    "evolution": "Lettre du 14 novembre 1958 ; Hess est lié à Art News et participe aux conférences de Studio 35.",
+    "refs": [
+     "EV-07083",
+     "EV-04455"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Date de la rencontre avec de Kooning : SC-00043 et EV-00172 donnent une fourchette absurde (≈1904→1948), RE-00225 les années 1920-1930, SC-00290 et EV-01208 ≈1926→1940. La seule version détaillée est celle de Hall 1993 (témoignage direct) ; les autres sont des « oui-dire » à date déduite. Ne pas fixer d'année.",
+   "Seule la version Hall 1993 indique que de Kooning n'osait pas parler de peur d'être pris pour un homosexuel ; elle décrit Rothko comme le premier à parler. La version de de Kooning lui-même (écrits p.22) est moins précise.",
+   "Selon PE-00164, ses toiles sont dites « belles » alors que l'art contemporain laisse plutôt des traces dures, voire laides ; il dénigre la couleur alors que tout se joue par elle. Ce n'est pas une erreur, mais une tension à jouer.",
+   "Fondation de Subjects of the Artist : EV-04290 cite Hare, Motherwell, Baziotes et Rothko ; EV-04455 ajoute Newman. Les dates concordent (1948), les listes non.",
+   "CI-02006 (1947) est rattachée aux « débats du Club (fondé en 1949) » : le contexte est anachronique, la citation ne peut pas être située précisément.",
+   "ID-00302 est attribuée à Rothko avec un ancrage « ≈1918-03-12→1989 » incohérent (il meurt en 1970) et cite « un Gorky, un Bill, un Stuart Davis » à la troisième personne, avec ces prénoms intimes. L'attribution est douteuse ; ne pas l'utiliser comme parole de Rothko sans vérification.",
+   "Rothko est « peintre » avant tout, mais les fiches ne disent pas quelle part de ses refus (zen, mystique, Action Painting) relève d'une conviction et quelle part d'une pose défensive."
+  ],
+  "situations_revelatrices": [
+   "Un inconnu s'assoit à côté de lui la nuit : le silence tenu, puis la phrase banale qui ouvre une amitié.",
+   "Une critique ou un ami lui montre un texte sur son œuvre : il lit, désapprouve, reste sur place, isole un mot.",
+   "Un journaliste ou un étudiant lui pose la question du zen, de la mystique, de l'Action Painting : réplique sèche, ironique, de l'homme qui refuse toute catégorie.",
+   "Une salle de ses tableaux face à des spectateurs qui y voient les portes de l'enfer, des bannières, un bassin à poissons : il écoute ou fuit, et se renferme.",
+   "Une réunion de groupe (Subjects of the Artist, Studio 35) : il débat, théorise le « déguisement complet », mais ne s'y fixe pas.",
+   "Un entretien le matin : il offre un verre, révèle son goût de l'alcool en public.",
+   "Une soirée de lecture chez de Kooning : romans policiers, Hammett contre Chandler ; la sociabilité détendue d'un Rothko moins austère.",
+   "Une exposition, un achat possible : il envisage de retirer le tableau pour éviter la distorsion de son sens."
+  ],
+  "citations": [
+   "CI-00633 : « Nice evening » — sa première phrase à de Kooning, sur le banc.",
+   "CI-01511 : la progression du peintre va vers la clarté et l'élimination de tous les obstacles entre le peintre et l'idée.",
+   "CI-01690 : un tableau vit de la compagnie du spectateur sensible et meurt de la même manière.",
+   "CI-01691 : « Silence is so accurate » — le silence est exact.",
+   "CI-01693 : il a fallu cinq cents ans pour produire un homme de la Renaissance, et le voici (réponse sur le zen).",
+   "CI-01696 : il n'exclut aucune émotion, toutes sont réelles et pertinentes ; tout est grain pour le moulin.",
+   "CI-02006 : pour nous, le déguisement doit être complet (1947, contexte incertain).",
+   "CI-03516 : « To classify is to embalm » — classer, c'est embaumer (lettre à Hess, 14 novembre 1958).",
+   "PE-00164 : « since there is no line, what is there left to paint with? » (sur la couleur)."
+  ],
+  "questions_ouvertes": [
+   "Rothko est-il passé au Black Mountain College, à quelque titre que ce soit ? Aucune fiche ne le dit ; il faut chercher dans d'autres sources avant d'en faire un personnage en scène.",
+   "Quelle date pour la rencontre avec de Kooning, et pour son âge à cette époque ?",
+   "Quelle est sa vie avant 23 ans, son origine, sa famille, sa langue, son arrivée aux États-Unis ? Les fiches sont muettes.",
+   "Quand et comment ses images sous-marines et ses lavis sont-ils devenus les plaques de couleur ? PE-00164 donne la fin des années 1940, mais seulement par Elaine, en 1958.",
+   "Quelle est la nature de ses rapports avec Stamos et avec le collège par Stamos en 1950 ?",
+   "Que sait-on des circonstances de sa mort en 1970 ? Les fiches ne donnent que le suicide et l'affaire de l'exécution testamentaire.",
+   "Quels étaient ses sentiments à l'égard d'Albers ou de l'enseignement de BMC ? EV-05719 montre seulement l'hostilité d'Albers à l'école de New York, sans nommer Rothko.",
+   "Comment l'attribution de ID-00302 a-t-elle été faite, et à qui revient-elle vraiment ?"
+  ]
+ }
+}

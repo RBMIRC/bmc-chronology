@@ -1,0 +1,391 @@
+{
+ "passe": "mois",
+ "cle": "1949-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 9927,
+  "sortie": 17053,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1949-01",
+  "session": "semestre d'hiver 1948-1949 (déduit : Albers doit poursuivre ses cours « jusqu'à la fin du semestre » après son annonce de départ ; les fiches ne donnent ni les dates du semestre ni le calendrier des cours)",
+  "saison_et_climat": "Plein hiver, déduit de la saison ; les fiches ne décrivent ni le froid, ni la neige, ni le chauffage en janvier. Le seul repère climatique (un camping de Pâques sous la neige) est postérieur de plusieurs mois.",
+  "situation": "Le collège traverse une crise de succession. Dreier, cofondateur et trésorier, est contesté par la majorité de la faculté : des enseignants menés par Nell Rice demandent qu'il s'éloigne de toute fonction, une pétition étudiante réclame son retrait, et Mangold écrit à Albers contre lui. Dreier propose de céder ses responsabilités à Pittenger, envoyé par Aydelotte et présent du 27 au 30 janvier. La réunion du 29 janvier aboutit le soir même à la décision de démission de Schlesinger, Guermonprez et des deux Albers. Financièrement, le collège est exsangue : déficit pouvant atteindre 30 000 $, inscriptions en chute, salaires relevés, trésorerie menacée en avril. Le projet d'un « Black Mountain College of the Arts », formulé le 14 janvier, ne survit pas à la révolte de la faculté.",
+  "presents_probables": [
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charlotte Schlesinger",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Trude Guermonprez",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nathaniel O. Pittenger",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ruth Asawa",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Kelly (nouvelle étudiante, prénom non donné)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Isabel Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Olson",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1949-01-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Ruth Asawa écrit à Albert Lanier ; la lettre est conservée dans les archives Lanier, sans contenu résumé dans la fiche.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04830"
+    ]
+   },
+   {
+    "date": "1949-01-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Le formulaire officiel des effectifs est établi pour les collèges de Caroline du Nord. Albers, face aux départs d'étudiants, est décrit comme très amer, plus touché par ces départs que par ceux des enseignants.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04831"
+    ]
+   },
+   {
+    "date": "1949-01-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion chez Mrs Blaine à New York : Dreier annonce qu'il reste. Newhall, Burchard et Mrs Blaine refusent d'être trustees mais conseilleront. Accord pour renommer l'école « Black Mountain College of the Arts » et former des artistes. Les prix alimentaires ont baissé de 20 % depuis septembre grâce à la nouvelle diététicienne. Pittenger envisage le poste d'administrateur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04832"
+    ]
+   },
+   {
+    "date": "1949-01-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion sur le collège dont Newhall prend les minutes. La fiche la situe à Black Mountain, alors que la réunion chez Mrs Blaine se tient à New York. Dreier rédigera ensuite une « Note to our Committee of Friends ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04833"
+    ]
+   },
+   {
+    "date": "1949-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Isabel Mangold écrit à Albers au nom de collègues : elle reproche à Dreier la confusion de direction, l'autocratie, les exclusions et un pessimisme économique démoralisant. Une note manuscrite le dit « psychically unbalanced ». Elle demande à Albers de le dissuader.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04824"
+    ]
+   },
+   {
+    "date": "1949-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Lors d'une réunion new-yorkaise avec des trustees potentiels, Albers annonce que Dreier a décidé de ne pas quitter le collège. Deux semaines d'incertitude suivent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04825"
+    ]
+   },
+   {
+    "date": "1949-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Dans un post-scriptum manuscrit, Albers demande à Pittenger de libérer Dreier de la trésorerie, entouré de proches peu utiles, et propose qu'il désigne un autre intermédiaire s'il ne peut venir.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04826"
+    ]
+   },
+   {
+    "date": "1949-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Le jour du retour de Dreier au campus, Nell Rice, porte-parole de cinq enseignants (majorité de justesse), lui demande de couper tout lien administratif avec le collège. Dreier exige que la demande soit écrite.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04821"
+    ]
+   },
+   {
+    "date": "1949-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Une majorité d'étudiants, dont certains élèves d'Albers, signe une pétition demandant à Dreier de s'incliner devant la faculté. Dreier propose alors de céder ses responsabilités à Pittenger.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04822"
+    ]
+   },
+   {
+    "date": "1949-01-27",
+    "precision": "periode",
+    "ce_qui_arrive": "Pittenger séjourne au collège du 27 au 30 janvier, envoyé par Aydelotte. Il n'assiste pas à la réunion du 29.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04834"
+    ]
+   },
+   {
+    "date": "1949-01-27",
+    "precision": "jour",
+    "ce_qui_arrive": "Les Albers rentrent de New York et apprennent qu'une réunion sur le sort du collège s'est tenue sans eux ; l'invitation, envoyée chez Sidney Janis, est arrivée trop tard.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04835"
+    ]
+   },
+   {
+    "date": "1949-01-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Tolk-Watkins envoie à Asawa une brochure de Sausalito, « city of homes », avec l'emplacement du Tin Angel annoté et un « ha ! » sarcastique près du mot « homes ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04828"
+    ]
+   },
+   {
+    "date": "1949-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Dans une lettre à Peggy Tolk-Watkins, Asawa dit mieux comprendre Trude Guermonprez et ses désirs multiples.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04829"
+    ]
+   },
+   {
+    "date": "1949-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Pittenger rédige son rapport à Aydelotte : Albers est un professeur d'art exceptionnel mais « impossible comme exécutant » ; Dreier a perdu la confiance de tous, en grande partie à cause de sa liaison avec une enseignante de l'école d'art salariée par le collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04827"
+    ]
+   },
+   {
+    "date": "1949-01-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Nell Rice et quatre collègues convoquent une réunion pour demander la démission de Dreier. Après la réunion, que Dreier croit avoir gagnée, Schlesinger, Guermonprez et les deux Albers décident de démissionner le soir même.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04836",
+     "SC-01239"
+    ]
+   }
+  ],
+  "quotidien": "Le quotidien est surtout marqué par les départs d'étudiants et les finances. Les effectifs sont déclarés officiellement le 13 janvier. Le nouveau régime alimentaire, mené par une diététicienne, a réduit les prix de 20 % depuis septembre. Les Albers vivent dans une atmosphère de soupçon et d'exclusion. Asawa est encore étudiante au collège et correspond avec ses amis de Californie. Olson s'installe comme figure montante, mais les fiches ne décrivent ni les cours du mois, ni les travaux, ni la musique : seuls les réseaux musicaux de Cage et Cunningham, déjà visibles l'été précédent, en donnent une idée.",
+  "tensions": [
+   "Dreier, cofondateur, est sommé de quitter toute fonction par sa propre faculté, alors que Pittenger et Aydelotte observent en coulisse.",
+   "La faculté ne tient qu'à une majorité de justesse, le camp de Rice contre celui de Dreier et d'Albers.",
+   "La liaison de Dreier avec une enseignante de l'école d'art divise : moralistes comme Trayer la condamnent, et l'identité de la femme n'est pas établie.",
+   "Albers refuse de se laisser convaincre de dissuader Dreier, malgré la lettre de Mangold qui le dit psychiquement déséquilibré.",
+   "Une pétition étudiante réclame le retrait de Dreier, y compris de la part d'étudiants d'Albers.",
+   "Pittenger juge Albers « impossible comme exécutant » et traite Anni de « sorcière » dans sa lettre du 1er février.",
+   "Le déficit (jusqu'à 30 000 $), la chute des inscriptions et les salaires relevés menacent la survie du collège.",
+   "Le projet de trustees extérieurs, jugé contraire aux principes fondateurs, divise la faculté.",
+   "La rupture entre le projet d'un collège d'arts et l'esprit d'expérimentation de la fondation."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Dreier entend qu'on lui demande de partir",
+    "date": "1949-01",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Nell Rice",
+     "Theodore Dreier"
+    ],
+    "deroule": "Le jour de son retour au campus, Rice lui explique que le collège doit continuer sans lui dans aucune fonction administrative ou décisionnelle. Dreier, stupéfait, exige que la demande soit mise par écrit.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01235",
+     "EV-04821"
+    ]
+   },
+   {
+    "titre": "Les Albers découvrent la réunion tenue sans eux",
+    "date": "1949-01-27",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "De retour de New York, les Albers apprennent qu'une réunion sur le sort du collège s'est tenue le 14 janvier sans eux. La lettre d'invitation, envoyée chez leur marchand Sidney Janis, n'est pas arrivée à temps. Ils ressentent un sentiment de conspiration et d'exclusion.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01237",
+     "EV-04835"
+    ]
+   },
+   {
+    "titre": "Asawa ouvre la brochure de Sausalito",
+    "date": "1949-01-28",
+    "lieu": "Black Mountain College (correspondance)",
+    "personnages": [
+     "Ruth Asawa",
+     "Peggy Tolk-Watkins"
+    ],
+    "deroule": "Asawa reçoit une brochure aérienne de Sausalito, « city of homes », où l'emplacement du Tin Angel est annoté de la main de Peggy. Le mot « homes » porte un « ha ! » sarcastique, qui moque le rêve immobilier de l'après-guerre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01238",
+     "EV-04828"
+    ]
+   },
+   {
+    "titre": "Le 29 janvier : la réunion qui demande la démission de Dreier",
+    "date": "1949-01-29",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Nell Rice",
+     "Theodore Dreier",
+     "Josef Albers",
+     "Anni Albers",
+     "Charlotte Schlesinger",
+     "Trude Guermonprez"
+    ],
+    "deroule": "Rice et quatre collègues demandent la démission de Dreier. Celui-ci croit s'en être tiré (« we are holding the fort »). Albers juge la réunion préparée de façon « injuste et dégoûtante ». Le soir même, Schlesinger, Guermonprez et les deux Albers décident de démissionner. Pittenger, sur place, n'assiste pas à la réunion.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01239",
+     "EV-04836"
+    ]
+   },
+   {
+    "titre": "Un Albers amer devant les départs d'étudiants",
+    "date": "1949-01",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Kelly (nouvelle étudiante)"
+    ],
+    "deroule": "Une nouvelle étudiante, Kelly, trouve Albers très amer : les départs d'étudiants le bouleversent davantage que ceux des enseignants. Le dénombrement officiel des inscriptions est établi le 13 janvier.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04831"
+    ]
+   },
+   {
+    "titre": "Albers annonce à New York que Dreier reste",
+    "date": "1949-01",
+    "lieu": "New York",
+    "personnages": [
+     "Josef Albers",
+     "trustees potentiels"
+    ],
+    "deroule": "Moins d'une semaine après la lettre de Mangold, Albers annonce devant des trustees potentiels que Dreier ne quittera pas le collège. Deux semaines d'incertitude suivent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04825",
+     "EV-04824"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Janvier 1949, quand la faculté veut écarter Dreier de ses fonctions et que les accusations pleuvent",
+    "vers_date": "1944",
+    "vers": "Institution du fonds de pension : les obligations mises au seul nom d'Albers nourrissent la fureur de 1949 contre Dreier",
+    "refs": [
+     "EC-02392"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Janvier 1949, quand Pittenger et les trustees évoquent un conseil extérieur pour survivre",
+    "vers_date": "1933",
+    "vers": "Fondation du collège en réaction aux trustees de Rollins ; la machinerie des trustees y a toujours été méprisée et contournée",
+    "refs": [
+     "EC-02391"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le 29 janvier, quand Albers juge la réunion « injuste et dégoûtante »",
+    "vers_date": "1919",
+    "vers": "Le Bauhaus (1919-1933), qui mêle beaux-arts, artisanat et technologie : l'héritage qu'Albers emporte à Black Mountain",
+    "refs": [
+     "EC-02364"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Dreier, renvoyé par sa propre faculté, au moment où il défend sa place",
+    "vers_date": null,
+    "vers": "La Quiet House, mémorial de Mark Dreier, fils mort dans un accident d'automobile au collège",
+    "refs": [
+     "EC-02393"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La déclaration d'Albers qu'il poursuivra ses cours sans se considérer comme membre du collège",
+    "vers_date": "1950",
+    "vers": "Albers, doyen à Yale, invite Bill à des crits bi-hebdomadaires ; l'été 1948 de Black Mountain a engendré une relation pédagogique durable",
+    "refs": [
+     "EC-02362"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Olson, entré au collège en 1948, déjà figure de culte au début de l'année 1949",
+    "vers_date": "1956",
+    "vers": "Olson domine la communauté jusqu'à la fermeture du collège en 1956",
+    "refs": [
+     "EC-02390"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les peintures Black Mountain d'Elaine de Kooning, nées de l'été 1948 et encore fraîches en janvier 1949",
+    "vers_date": "1991",
+    "vers": "Exposition Black Mountain Paintings from 1948 à la Washburn Gallery, puis acquisition par le Met",
+    "refs": [
+     "EC-02365"
+    ]
+   }
+  ],
+  "motifs": [
+   "loyauté envers un cofondateur contre la survie du collège",
+   "exclusion et conspiration (lettre arrivée trop tard)",
+   "argent, déficit et liquidation",
+   "mémoire fondatrice et rupture avec les principes d'origine",
+   "morale sexuelle et liaison de l'administrateur",
+   "de la vocation de collège à la formation d'artistes",
+   "les absents qui pèsent : Aydelotte, Janis, Newhall, Burchard"
+  ],
+  "lacunes": "La date du retour de Dreier et celle de la lettre de Mangold ne sont pas données. Les sources se contredisent sur le lieu de la réunion du 14 janvier : New York pour EV-04832, Black Mountain pour EV-04833 ; EV-04825 fait annoncer par Albers une décision de Dreier à New York alors que les autres fiches l'y font absent ce jour-là. La date des démissions est incertaine : le 30 janvier selon EV-04836, le 18 février selon le chapitre ; SC-01236, datée de janvier, se rattache à la déclaration de février. La pétition, les lettres et le rapport de Pittenger restent sans jour précis. Rien sur la session elle-même (dates du semestre), le climat, le chauffage, les repas, l'emploi du temps des cours ou la vie musicale du mois."
+ }
+}

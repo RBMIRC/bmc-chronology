@@ -1,0 +1,389 @@
+{
+ "passe": "personnes",
+ "cle": "Marguerite Wildenhain",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 10008,
+  "sortie": 4918,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Marguerite Wildenhain",
+  "autres_noms": [
+   "la potière du Bauhaus",
+   "host potter (potière hôte du séminaire de 1952)"
+  ],
+  "dates_de_vie": "naissance non précisée dans les fiches ; morte en 1985",
+  "statut_bmc": "Jamais membre de la faculté : visiteuse (1947), participante et « potière hôte » du Pottery Seminar d'octobre 1952, elle refuse ensuite le poste de poterie offert par Olson et retourne définitivement à Pond Farm.",
+  "presence": [
+   {
+    "debut": "1947",
+    "fin": "1947",
+    "precision": "annee",
+    "role": "Visiteuse : vient voir son amie proche Trude Guermonprez, qui enseigne alors le tissage avec Anni Albers",
+    "refs": [
+     "EV-04056",
+     "RE-01245"
+    ]
+   },
+   {
+    "debut": "1952-10-15",
+    "fin": "1952-10-29",
+    "precision": "jour",
+    "role": "« Host potter » du Pottery Seminar : démonstrations, conférences et débats aux côtés de Leach, Hamada et Yanagi",
+    "refs": [
+     "EV-05904",
+     "EV-05905",
+     "EV-05889",
+     "EV-05768"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Réfugiée juive du Bauhaus, seule femme Master Potter de sa génération, elle a tout reconstruit deux fois — carrière en Europe, puis communauté de travail en Californie. Elle agit par la rigueur : l'atelier ascétique, la destruction des pots d'étudiants en fin de session, le refus des débutants. Elle croit au geste plus qu'à l'objet, au collectif de travail plus qu'au titre, et défend avec véhémence sa patrie d'adoption quand on la déclare sans traditions.",
+  "blessures": "L'exil forcé de 1940 : fuir l'Allemagne nazie comme juive, par les Pays-Bas puis l'Amérique, en laissant derrière elle l'atelier de céramique du Bauhaus (supprimé dès 1925) et son double métier d'enseignante et de designer.",
+  "desirs": "Vivre de ses mains comme artisan indépendant — c'est pour cela qu'elle refuse le poste de Black Mountain ; faire de Pond Farm « une façon de vivre » plutôt qu'une école ; faire reconnaître la légitimité multiculturaliste de la céramique américaine.",
+  "peurs": "Que l'enseignement du craft ne produise que des enseignants, des dilettantes ou des « faux » — des potiers imitateurs sans racines propres ; que la transmission mystifiée du maître à l'apprenti remplace le travail collégial.",
+  "maniere_d_aimer": "Par la communauté de travail et la fidélité de longue durée : amitié proche avec Guermonprez depuis les années 1940, clients fidèles à qui elle vend ses pots, fêtes de Thanksgiving et de Noël partagées avec Asawa et Lanier pendant des décennies, correspondence entretenue. Mais une affection exigeante, qui juge sévèrement et n'admet pas la médiocrité.",
+  "rapport_au_pouvoir": "Elle refuse les positions institutionnelles (California College of Arts and Crafts le temps d'un visa, poste de Robert Turner à BMC, offre d'Olson de rejoindre la faculté) au profit d'une autorité autonome : celle du maître d'atelier dans son propre lieu. Elle n'hésite pas à affronter publiquement une figure d'autorité comme Leach, ni à se plaindre officiellement à l'American Craft Council. En tant que femme dans un monde d'artisans hommes, elle convertit l'exclusion subie (seule femme Master Potter, seule non-intime invitée à Dartington) en posture d'exception combative.",
+  "voix": {
+   "registre": "Directe, véhémente, rigoureuse ; rhétorique de la question retournée et de la formule frappante ; le féminin revendiqué de la riposte publique",
+   "tics": "Formules lapidaires opposant deux termes (« pas une école… une façon de vivre ») ; jugements tranchants (« médiocre ou vraiment mauvais ») ; usage récurrent de la métaphore botanique retournée contre son adversaire",
+   "exemples_paraphrases": [
+    "Pond Farm n'est pas une école, c'est une façon de vivre",
+    "Il est certes utile d'avoir des racines — mais qui possède vraiment l'unique racine pivot dont vous parliez ?",
+    "L'histoire n'a jamais répété un visage",
+    "Ces expositions d'artisanat ne sont que des objets dispersés entre pièces médiocres ou franchement mauvaises"
+   ]
+  },
+  "habitudes": [
+   "Vend ses pots aux visiteurs fidèles qui reviennent à chaque saison",
+   "Fait détruire par les étudiants tous leurs pots et formes en fin de session : on coupe la paroi pour évaluer l'épaisseur, puis on écrase tout",
+   "Refuse les débutants dans ses ateliers d'été",
+   "Vit de manière ascétique dans sa maison d'abord d'une seule pièce (12x20 pieds) à Pond Farm",
+   "Correspond abondamment (Olson, Lanier, Morley, American Craft Council)"
+  ],
+  "convictions": [
+   "L'autonomie de l'artisan : vivre du travail de ses mains plutôt qu'enseigner",
+   "L'important est le geste, non l'objet fini — d'où la destruction des pots d'exercice, jamais cuits par les élèves",
+   "La racine pivot unique de la poterie n'existe plus, et n'a sans doute jamais existé : imiter les poteries Sung ou la vie rurale japonaise ne fait que des dilettantes et des faux",
+   "L'apprentissage doit être collégial, non fondé sur une transmission mystérieuse d'énergie du maître à l'apprenti",
+   "La céramique américaine est multiculturelle et c'est sa richesse, non sa faiblesse",
+   "Canon élargi incluant les objets industriels autant que les poteries préindustrielles (convergence avec Anni Albers)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Première visite à Black Mountain pour retrouver Trude Guermonprez ; elle découche le collège de l'intérieur sans jamais s'y installer",
+    "etat_interieur": "Curiosité amicale ; lien Bauhaus avec les Albers déjà ancien",
+    "refs": [
+     "EV-04056",
+     "RE-01245"
+    ]
+   },
+   {
+    "date": "1952-03",
+    "precision": "mois",
+    "moment": "Correspondance avec Olson et Leach sur l'artisanat et l'éducation (lettre du 5 mars) ; elle conseille sur le recrutement des potiers d'Alfred, ce qui mène à l'embauche de Karnes et Weinrib",
+    "etat_interieur": "Engagée dans le débat intellectuel autour du séminaire avant même d'y venir",
+    "refs": [
+     "EV-05812",
+     "EV-05388",
+     "EV-05819"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Invitée par Olson comme hôtesse officielle du séminaire ; elle accepte ce rôle sans être faculté",
+    "etat_interieur": "Position de pont : Bauhaus de Weimar apporté en Caroline du Nord",
+    "refs": [
+     "EV-05730"
+    ]
+   },
+   {
+    "date": "1952-10-15",
+    "precision": "jour",
+    "moment": "Ouverture du Pottery Seminar de dix jours : avec Leach, elle déclare d'abord ne pas pouvoir travailler avec des argiles et un four inconnus — puis Hamada, par sa parabole du carnet et du crayon anglais, met tout le monde au travail",
+    "etat_interieur": "Prudence de l'experte mise en défaut par l'improvisation de Hamada ; blessure d'amour-propre possible",
+    "refs": [
+     "SC-01573",
+     "EV-05890",
+     "SC-01536"
+    ]
+   },
+   {
+    "date": "1952-10-15",
+    "precision": "jour",
+    "moment": "L'affrontement avec Leach : pendant deux semaines de démonstrations et débats, il dénonce la céramique américaine comme sans traditions ; elle répond avec véhémence en défense de sa patrie d'adoption",
+    "etat_interieur": "Colère combative ; l'Américaine d'adoption s'approprie le débat sur l'identité de l'artisanat américain",
+    "refs": [
+     "SC-01577",
+     "EV-05904",
+     "EV-05053"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Après le séminaire, elle décline l'offre d'Olson de rejoindre la faculté et retourne à Pond Farm — tout en y rétablissant avec Guermonprez le centre de poterie après le départ des Herr",
+    "etat_interieur": "Choix de l'indépendance : idéaux partagés avec BMC mais refus de l'institution",
+    "refs": [
+     "EV-05740",
+     "RE-02430",
+     "PE-00079"
+    ]
+   },
+   {
+    "date": "1953-05",
+    "precision": "mois",
+    "moment": "Publication dans Craft Horizons de sa lettre ouverte à Leach (« Potter's Dissent »), niant l'existence de la racine pivot ; le débat se poursuit par livres interposés avec Pottery: Form and Expression",
+    "etat_interieur": "Détermination de la polémiste publique ; la confrontation de Black Mountain devient une scission nationale",
+    "refs": [
+     "EV-06143",
+     "EV-05053",
+     "RE-02150",
+     "OE-00976"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1924",
+    "precision": "periode",
+    "moment": "Au Bauhaus de Weimar, condisciple d'Anni et Josef Albers ; devient la seule femme à obtenir le titre de Master Potter",
+    "refs": [
+     "EV-01031"
+    ]
+   },
+   {
+    "date": "1925",
+    "precision": "annee",
+    "moment": "Suppression de l'atelier de céramique du Bauhaus ; elle se réoriente vers une double carrière d'enseignante et de designer pour l'industrie",
+    "refs": [
+     "EV-01031"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "annee",
+    "moment": "Juive, elle fuit l'Allemagne nazie : d'abord les Pays-Bas, puis les États-Unis, où elle devient la céramiste Bauhaus prééminente du pays",
+    "refs": [
+     "EV-03023"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "periode",
+    "moment": "Fondation de la colonie d'artistes de Pond Farm à Guerneville (Californie) par Gordon et Jane Herr",
+    "refs": [
+     "EV-04714"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "moment": "Elle fait bâtir avec Gordon Herr sa maison à Pond Farm : une cabine d'une seule pièce de 12 sur 20 pieds (deux pièces ajoutées en 1948)",
+    "refs": [
+     "EV-03285"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "Début des Pond Farm Workshops : méthodes rigoureuses et ascétiques, refus des débutants, destruction de tout le travail en fin de session ; son mari Frans y fait de la sculpture céramique",
+    "refs": [
+     "EV-04689"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Réalisations de vases tournés majeurs (Large Jar, Pitcher) ; lecture de l'article méprisant de Leach sur la poterie américaine dans Craft Horizons",
+    "refs": [
+     "OE-02237",
+     "OE-02249",
+     "EV-05053"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Invitée par Leach à la conférence de Dartington Hall sur « The Potter in the New World » — seule non-intime parmi ses proches disciples",
+    "refs": [
+     "EV-05770",
+     "RE-02445"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Rétablit Pond Farm comme centre de poterie avec Trude Guermonprez après le départ des Herr ; ateliers d'été pendant plus de trente ans",
+    "refs": [
+     "PE-00079",
+     "EV-04714"
+    ]
+   },
+   {
+    "date": "1953-08",
+    "precision": "mois",
+    "moment": "Correspondance avec Lanier et Morley autour d'une exposition ; elle approuve l'écart avec les expositions d'artisanat médiocres et suggère d'y mettre Pond Farm en avant, imaginant Asawa y donnant un cours",
+    "refs": [
+     "EV-06222",
+     "EV-06114"
+    ]
+   },
+   {
+    "date": "1954-04-01",
+    "precision": "jour",
+    "moment": "Expose ses céramiques à Four Artist-Craftsmen au San Francisco Museum of Art, avec Asawa, Renk et Dean — accrochage conçu par Lanier",
+    "refs": [
+     "EV-06458",
+     "EV-06395"
+    ]
+   },
+   {
+    "date": "1962-03-13",
+    "precision": "jour",
+    "moment": "Plaintes répétées à l'American Craft Council (lettre à Hal Fromhold) ; la même année, Lanier bâtit pour elle une maison d'hôtes à Pond Farm",
+    "refs": [
+     "PE-00079",
+     "EV-07462",
+     "RE-02561"
+    ]
+   },
+   {
+    "date": "1966",
+    "precision": "periode",
+    "moment": "Sa formule « l'histoire n'a jamais répété un visage » guide le projet des dix mille masques d'Asawa",
+    "refs": [
+     "EV-07864",
+     "RE-03049"
+    ]
+   },
+   {
+    "date": "1975",
+    "precision": "annee",
+    "moment": "Se met à la pâte à modeler pour des figures de fêtes, peut-être sous l'influence d'Asawa avec qui elle communique régulièrement",
+    "refs": [
+     "EV-08352",
+     "RE-02921"
+    ]
+   },
+   {
+    "date": "1985",
+    "precision": "annee",
+    "moment": "Meurt à Pond Farm, où elle a vécu depuis 1942",
+    "refs": [
+     "EV-05740",
+     "PE-00079"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Bernard Leach",
+    "nature": "Conflit doctrinal puis polémique publique",
+    "evolution": "Invitée par lui à Dartington comme seule non-intime (1951-52) ; joutes verbales notoires au séminaire de 1952 sur la prétendue absence de traditions américaines ; riposte publique par lettre ouverte dans Craft Horizons (mai 1953) puis par Pottery: Form and Expression contre A Potter's Book — divergence de fond : enracinement contre hybridité Bauhaus/Nouveau Monde",
+    "refs": [
+     "RE-02058",
+     "RE-02150",
+     "RE-02425",
+     "RE-02445",
+     "EV-06143"
+    ]
+   },
+   {
+    "avec": "Trude Guermonprez",
+    "nature": "Amitié proche et collaboration",
+    "evolution": "Amies depuis les années 1940 ; la visite de 1947 à BMC est motivée par Guermonprez ; celle-ci la rejoint ensuite à Pond Farm où elles rétablissent le centre de poterie en 1952",
+    "refs": [
+     "RE-01245",
+     "EV-04689"
+    ]
+   },
+   {
+    "avec": "Ruth Asawa",
+    "nature": "Mentorat et amitié de très longue durée",
+    "evolution": "Asawa étudie à Pond Farm (pots tournés puis écrasés, jamais cuits) ; visites de Thanksgiving et de Noël, collection de pots ; communication régulière dans les années 1960-70 ; la formule des « dix mille masques » et la pédagogie processus du Workshop prolongent son enseignement",
+    "refs": [
+     "RE-02097",
+     "RE-02107",
+     "RE-02921",
+     "RE-03049",
+     "EC-02417"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "Offre refusée, respectueuse mais ferme",
+    "evolution": "Correspondance de mars 1952 sur l'artisanat et l'éducation ; Olson l'invite comme hôtesse du séminaire puis à rejoindre la faculté ; elle décline et retourne à Pond Farm",
+    "refs": [
+     "EV-05812",
+     "EV-05730",
+     "EV-05740",
+     "RE-02430"
+    ]
+   },
+   {
+    "avec": "Anni et Josef Albers",
+    "nature": "Compagnonnage Bauhaus, admiration intellectuelle",
+    "evolution": "Condisciples à Weimar depuis les années 1920 ; dans les années 1950, son canon (industriel + préindustriel) converge avec celui d'Anni Albers",
+    "refs": [
+     "EV-01031",
+     "RE-02152"
+    ]
+   },
+   {
+    "avec": "Albert Lanier",
+    "nature": "Amitié de travail et de fidélité",
+    "evolution": "Découverte de sa poterie dans Arts and Architecture encore étudiant ; correspondance en 1953 ; il conçoit l'accrochage de Four Artist-Craftsmen et bâtit en 1962 une maison d'hôtes à Pond Farm",
+    "refs": [
+     "RE-02561",
+     "EV-07462",
+     "EV-04714"
+    ]
+   },
+   {
+    "avec": "Shoji Hamada",
+    "nature": "Émulation en miroir",
+    "evolution": "Au séminaire de 1952, tous deux déclarent d'abord ne pouvoir travailler — mais Hamada improvise avec l'argile du coteau et retourne la situation, forçant indirectement Wildenhain et Leach à se remettre au tour",
+    "refs": [
+     "SC-01573",
+     "EV-05890"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Durée du séminaire d'octobre 1952 : « deux semaines » (15-29 octobre selon Molesworth) contre « dix jours » (Duberman, arrivée mi-octobre)",
+   "Une fiche (Molesworth 2015 p.380-381) mentionne un séjour connu à l'« été 1952 » à Black Mountain, alors que les autres sources ne attestent que la visite de 1947 et le séminaire d'octobre ; l'agrégé note aussi un été 1949 « suggéré par le contexte » — ces dates restent incertaines",
+   "Dates de Pottery: Form and Expression fluctuent selon les fiches (≈1933-1957, ≈1950-1961) ; ce qui est attesté : le livre naît de la rencontre de 1952 et fait suite à la lettre ouverte de 1953",
+   "La fiche agrégée évoque un refus du poste « vers 1951-52 » (celui laissé par Robert Turner) tandis que d'autres fiches situent le refus de l'offre d'Olson après le séminaire d'octobre 1952 — il peut s'agir de deux refus successifs, mais les sources ne le précisent pas"
+  ],
+  "situations_revelatrices": [
+   "Le premier jour du séminaire : déclarer qu'on ne peut pas travailler avec des argiles inconnues, puis regarder Hamada cueillir des herbes et lier des pinceaux — la rigueur européennne défiée par l'adaptation",
+   "L'affrontement verbal avec Leach devant potiers et étudiants : le moment où la réfugiée défend l'Amérique contre l'Anglais qui la déclare sans traditions",
+   "La fin de session à Pond Farm : regarder les étudiants détruire tous leurs pots — coupés, évalués, écrasés",
+   "Le refus du poste d'Olson : choisir une cabane d'une pièce en Californie plutôt qu'une faculté",
+   "L'écriture de la lettre ouverte : une femme qui répond publiquement à la figure patriarcale du craft (Richards décrit Leach comme un « père »)"
+  ],
+  "citations": [
+   "CI-01969",
+   "CI-03076",
+   "CI-03835",
+   "CI-03988"
+  ],
+  "questions_ouvertes": [
+   "Date et lieu de naissance, biographie familiale avant le Bauhaus, circonstances exactes de la fuite de 1940 (rôle de son mari Frans)",
+   "Portrait physique, tenue de travail, gestuelle au tour — rien dans les fiches",
+   "Sa réaction précise et sa relation personnelle avec Hamada et Yanagi au-delà de l'épisode d'ouverture",
+   "Contenu de ses lettres à Olson (mars-mai 1952) : conseils de recrutement, termes exacts de ses refus",
+   "Ce qui s'est réellement passé à l'« été 1952 » ou « été 1949 » à BMC, si ces séjours ont eu lieu",
+   "Le vase « pond-farm » offert à Laurie Pearson et le détail de son réseaux de clients fidèles"
+  ]
+ }
+}

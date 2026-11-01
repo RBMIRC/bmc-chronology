@@ -1,0 +1,106 @@
+{
+ "passe": "enseignements",
+ "cle": "Hamilton Holt",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 5648,
+  "sortie": 4231,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Hamilton Holt",
+  "cours": [
+   {
+    "intitule": "Conference Plan / Eight-Hour Day (Rollins College) — dispositif conçu par Holt, pas un cours enseigné par lui",
+    "periodes": [
+     "à partir de 1925 (Rollins, selon CO-00075)",
+     "fiche ID-00802 : idée située entre juillet 1930 et 1933 (date déduite) ; recommandation de faculté d'abolir le dispositif en janvier 1933"
+    ],
+    "atteste": "non",
+    "objectifs": "Les fiches ne montrent pas Holt enseignant une matière. Elles montrent le président de Rollins, qui a imposé un cadre pédagogique. Son but était d'appliquer « Socrate à la journée de huit heures » : une éducation individualisée, vantée par la publicité du collège. Il voulait aussi perfectionner et dignifier le petit collège face aux universités qui sacrifient l'undergraduate. Rien n'atteste ce dispositif à Black Mountain. Holt y est l'adversaire dont l'éviction de Rice et de plusieurs collègues a précédé la fondation du collège. Le format de table de conférence que Rice y expérimente est dit retrouvé par lui à BMC (ID-00802), mais cela reste le lien de Rice, pas de Holt.",
+    "deroule_type_seance": "Séance type, d'après les fiches. La journée compte six heures de classe en trois « conferences » de deux heures, plus deux heures d'exercice supervisé. Cours magistraux et récitations sont officiellement abolis. La conférence mêle discussion, petits groupes et entretiens individuels (CO-00075, ID-00802). Les fiches ne donnent ni horaires précis, ni lieu, ni déroulé minute par minute.",
+    "exercices": [],
+    "lectures_et_references": [
+     "Aucune lecture attribuée à Holt dans les fiches.",
+     "Sources des fiches : Chaddock 2002 (Rice), Duberman 1972."
+    ],
+    "propos_types": [
+     "Sur la désignation de Rice (juillet 1930, SC-00369) : il dit en substance n'avoir aucun libéral dans sa faculté et qu'il vaut mieux l'engager. Sa lettre d'embauche prévoit un engagement permanent, mais chacun reste libre de rompre après un ou deux ans, sans raison ni rancune.",
+     "Janvier 1933, après la recommandation d'abolir l'Eight-Hour Day (SC-00517) : quand lui et un enseignant divergent d'au moins 50 % sur une question fondamentale, l'un des deux doit partir.",
+     "27 février 1933 (SC-00519) : il demande la démission de Rice sans « charge unique », seulement une accumulation de griefs.",
+     "Juin 1933 (SC-00526), en privé : un camp doit se rendre sans condition ou être anéanti. Lounsbury est « très touché » ; Georgia a encaissé « la tête haute » (paraphrase des citations).",
+     "Mémo sur Dreier (SC-00530) : il n'aurait pas le don rare et authentique de transmettre le savoir.",
+     "Sur une pièce d'étudiants (SC-00384, novembre 1932) : rien de vulgaire ; pas de public noir sans place séparée ; il juge néanmoins le travail l'un des meilleurs pas dans la bonne direction.",
+     "Annotations de 1943 sur le livre de Rice (SC-00862) : il nie avoir dit certaines choses (« never said it », « not true »). Il écrit avoir tout tenté jusqu'au bout pour sauver Rice, puis que Rice avait un bon côté à bien des égards."
+    ],
+    "critique_et_evaluation": "Critique côté étudiants : d'après Rice, ils trouvaient que la plupart des professeurs ne valaient pas mieux que leurs maîtres de lycée, et que deux heures avec un raseur, c'était au moins une de trop (CO-00075, citant Duberman 1972). Critique côté faculté : en 1933, la faculté recommande d'abolir le dispositif. Il n'y a pas de grille d'évaluation attestée pour les étudiants. Holt juge les enseignants à leur capacité de « transmettre » (cas Dreier) et à leur loyauté envers l'autorité présidentielle (serments de mai 1933).",
+    "reactions_etudiants": "Plaintes rapportées par Rice : deux heures avec un enseignant ennuyeux, c'est trop (CO-00075). Aucune réaction étudiante à Holt lui-même n'est attestée dans les fiches.",
+    "evolution": "Le dispositif est lancé à Rollins à partir de 1925. La faculté en recommande l'abolition en janvier 1933, ce qui déclenche le conflit avec Rice. Les audiences ont lieu en mai 1933, puis la purge de juin (huit enseignants renvoyés ou démissionnaires, dont Rice, Dreier, Georgia et Lounsbury) et l'AAUP vient enquêter. Divergences à noter entre fiches : CO-00075 place le plan dès 1925, ID-00802 l'associe à la période 1930-1933 (déduit). Le prénom du professeur Lounsbury varie (Ralph dans la plupart, « Richard » dans SC-00526). Les audiences sont datées de mai 1933 par Duberman, avec précision par jour (17 et 18 mai) chez Chaddock. Le détail de Lovejoy varie : cendrier chez Duberman (SC-00404), ashcan pour le même mot de Platon (SC-00521), et la pièce incriminée est un « chisel », ciseau.",
+    "refs": [
+     "CO-00075",
+     "ID-00802",
+     "ID-00645",
+     "SC-00369",
+     "SC-00384",
+     "SC-00404",
+     "SC-00517",
+     "SC-00519",
+     "SC-00521",
+     "SC-00522",
+     "SC-00524",
+     "SC-00525",
+     "SC-00526",
+     "SC-00530",
+     "SC-00539",
+     "SC-00862"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "« Socrate à la journée de huit heures » : remplacer cours magistraux et récitations par des conférences de deux heures mêlant discussion, petits groupes et entretiens individuels.",
+    "en_classe": "Scène possible : une séance de deux heures sans exposé, en table ronde, avec temps de discussion, sous-groupes et brefs entretiens individuels, pour montrer le principe avant sa version BMC. Non attesté au collège pour Holt ; seul Rice est dit y retrouver un format proche.",
+    "atteste": "non",
+    "refs": [
+     "CO-00075",
+     "ID-00802"
+    ]
+   },
+   {
+    "idee": "Le petit collège doit être perfectionné et dignifié face aux universités qui sacrifient l'undergraduate.",
+    "en_classe": "Argument de présentation pour un collège de petite taille. Utile en flash-back sur le contexte de Rollins, pas attesté dans un cours à BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-00802"
+    ]
+   },
+   {
+    "idee": "Les « classicistes » auraient tué les classiques ; le rôle du professeur est de faire aimer la matière ; les textes antiques doivent être enseignés comme littérature vivante et contemporaine. Attention : la fiche est étiquetée « auteur Holt », mais son contenu (témoignage d'anciens étudiants de Rice, convergence avec Rice) suggère une idée de Rice. L'attribution à Holt est incertaine.",
+    "en_classe": "Une séance de lecture d'un texte antique abordé comme texte moderne. À rattacher à Rice plutôt qu'à Holt tant que l'attribution n'est pas levée. Non attesté à BMC pour Holt.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00645"
+    ]
+   },
+   {
+    "idee": "Critère d'embauche et de maintien : le don de transmettre le savoir, mais aussi la loyauté envers l'autorité. Cas Dreier (le mémo de Holt) et serments de mai 1933, où tous les professeurs rendent leur copie après Lounsbury.",
+    "en_classe": "Scène-contrepoint pour BMC : un conseil où l'on juge un enseignant sur son « don » (SC-00530) ou sur sa signature d'un engagement (SC-00522). Attesté à Rollins, pas dans un enseignement.",
+    "atteste": "oui",
+    "refs": [
+     "SC-00530",
+     "SC-00522",
+     "SC-00517"
+    ]
+   },
+   {
+    "idee": "Contrôle de l'expérience artistique : autorisation de « From Sun to Sun » sous condition de n'y rien trouver de vulgaire, de publicité discrète et de ségrégation du public noir.",
+    "en_classe": "À montrer comme contre-modèle des libertés que BMC revendiquera pour les arts. Pas un enseignement de Holt ; attesté à Rollins en 1932.",
+    "atteste": "oui",
+    "refs": [
+     "SC-00384"
+    ]
+   }
+  ]
+ }
+}

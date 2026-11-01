@@ -1,0 +1,269 @@
+{
+ "passe": "mois",
+ "cle": "1936-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 7900,
+  "sortie": 14996,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-08",
+  "session": "session d'été (été 1936, sessions dirigées par Van Middlesworth à Black Mountain)",
+  "saison_et_climat": "Été 1936. Pour le Mexique, EV-02588 parle d'un climat fabuleux ; aucune fiche ne décrit le temps à Black Mountain en août.",
+  "situation": "Collège en pause estivale. Josef et Anni sont au Mexique depuis juin pour trois mois ; Josef expose à Mexico du 15 au 25 août et écrit à Kandinsky le 22. Sur place, Van Middlesworth dirige les sessions d'été. Trois affaires couvent : l'échec de l'overture à Noguchi (lettre de Martin du 31 août), la demande d'admission de « Sweeney » (débat qui commence le 21 août) et la fracture Rice contre Knickerbocker, qui éclatera à l'automne. Les retombées de l'article de Harper's continuent : des lettres de lecteurs arrivent encore en juin. La rentrée est prévue en septembre avec 55 étudiants.",
+  "presents_probables": [
+   {
+    "nom": "Van Middlesworth",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Martin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tasker Howard",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alice (admise de justesse cet été)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Trois mois au Mexique (juin-août). Josef peint onze ou douze huiles, dont Archaeologic et Temple, et commence des dessins au trait abstraits. Anni tisse ses deux grandes tapisseries, Ancient Writing et Monte Alban, et signe pour la première fois d'un AA brodé. Le trajet en voiture depuis la Caroline du Nord dure sept jours ou plus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02588",
+     "EV-02589",
+     "EV-02590",
+     "EV-02485"
+    ]
+   },
+   {
+    "date": "1936-08-15",
+    "precision": "jour",
+    "ce_qui_arrive": "Exposition de gouaches Clave de sol et de gravures dans le hall d'El Nacional, sous les auspices de la LEAR. Article en une le 16 août qui salue Josef comme « l'un des fondateurs de l'abstraction ». Il attendait des critiques hostiles.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02595",
+     "EV-02596",
+     "EV-02597",
+     "SC-00662",
+     "SC-00663",
+     "SC-00664"
+    ]
+   },
+   {
+    "date": "1936-08-22",
+    "precision": "jour",
+    "ce_qui_arrive": "Josef écrit à Kandinsky : la presse radicale a publié de longs articles élogieux, et il trouve le Mexique ouvert à l'abstraction.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02588",
+     "EV-02589",
+     "EV-02590"
+    ]
+   },
+   {
+    "date": "1936-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Anni écrit aux Kandinsky qu'elle a aimé les premières fresques de Rivera mais juge ses illustrations révolutionnaires récentes « horribles ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02598"
+    ]
+   },
+   {
+    "date": "1936-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Overture avortée à Noguchi. Environ un mois plus tôt, Noguchi avait laissé entendre qu'il pourrait venir réaliser un mur en bas-relief ; Rice, Evarts et Martin l'avaient rencontré. Le projet tombe, apparemment à cause de l'opposition d'Albers. Martin en rend compte à Mangold le 31 août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02599"
+    ]
+   },
+   {
+    "date": "1936-08-21",
+    "precision": "periode",
+    "ce_qui_arrive": "Discussion de l'admission d'un étudiant nommé Sweeney. Tasker Howard, au comité d'admissions, envoie à tout le comité une lettre dactylographiée de quatre pages, pour et contre. Evarts en fait état dans son journal en septembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02600"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Alice est admise de justesse, à une date non précisée de l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02594"
+    ]
+   }
+  ],
+  "quotidien": "Au Mexique : Josef peint et dessine, rencontre Rivera, expose, écrit ; Anni tisse et brode. À Black Mountain : sessions d'été sous la conduite de Van Middlesworth, correspondance sur les admissions, projet Noguchi qui se défait. Les sources ne disent rien des cours, de la musique ni des repas.",
+  "tensions": [
+   "Le succès mexicain de Josef contraste avec son oubli new-yorkais et avec son mépris ancien des murales.",
+   "Albers s'oppose seul au projet Noguchi, face à Rice, Evarts et Martin.",
+   "L'admission de Sweeney révèle le pouvoir du comité d'admissions et la division sur les candidats.",
+   "L'article de Harper's et la polémique DeVoto continuent de peser sur Rice et sur l'image du collège.",
+   "La doctrine de Rice (processus plutôt que résultats) et les motifs d'Albers s'éloignent ; la crise Knickerbocker-Goldenson se prépare déjà.",
+   "L'absence d'Albers et d'Anni pèse sur la vie du collège pendant l'été."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Vernissage à El Nacional",
+    "date": "1936-08-15",
+    "lieu": "Mexico, hall d'El Nacional, avenue Doctor Mora",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "intellectuels et artistes mexicains"
+    ],
+    "deroule": "Gouaches et gravures accrochées dans le hall du journal radical sous l'égide de la LEAR. Foule d'artistes et d'intellectuels. Josef, qui attendait l'hostilité, découvre un accueil inverse, puis l'article en une du 16 août.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00662",
+     "SC-00663",
+     "SC-00664"
+    ]
+   },
+   {
+    "titre": "La lettre de quatre pages",
+    "date": "1936-08-21",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Tasker Howard",
+     "membres du comité d'admissions",
+     "John Evarts"
+    ],
+    "deroule": "Howard rédige en interligne simple le pour et le contre de la candidature de Sweeney et l'envoie à tout le comité. Evarts consigne l'affaire dans son journal en septembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02600"
+    ]
+   },
+   {
+    "titre": "Noguchi ne viendra pas",
+    "date": "1936-08",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rice",
+     "Evarts",
+     "Martin",
+     "Noguchi",
+     "Albers"
+    ],
+    "deroule": "Rice, Evarts et Martin ont été conquis par Noguchi, qui propose un mur en bas-relief. L'opposition d'Albers fait échouer le projet. Martin écrit à Mangold le 31 août pour constater l'échec.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02599"
+    ]
+   },
+   {
+    "titre": "AA brodé",
+    "date": "1936-06",
+    "lieu": "Mexique",
+    "personnages": [
+     "Anni Albers"
+    ],
+    "deroule": "Anni tisse Ancient Writing et Monte Alban, première œuvre signée d'un AA brodé, puis écrit aux Kandinsky que les fresques de Rivera sont devenues « horribles ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02485",
+     "EV-02598",
+     "EV-02589"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Josef au Mexique en août, qui se souvient de l'hiver précédent passé sur la route avec les Dreier",
+    "vers_date": "1935-12",
+    "vers": "Voyage d'hiver : Oaxaca, Monte Albán et Mitla. Josef achète poteries et figurines aux paysans. Le trajet est flou, 400 ou 4000 km selon les sources.",
+    "refs": [
+     "SC-00627",
+     "SC-00633"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Août à Black Mountain, quand les sessions d'été reprennent les mêmes querelles de réputation",
+    "vers_date": "1936-02-04",
+    "vers": "Le faux Mondrian de Morton Steinau remplacé par une toile cirée rayée ; Albers furieux annonce une valeur de 50 000 dollars ; fouille et assemblée, sans aucun aveu.",
+    "refs": [
+     "EV-02573",
+     "SC-00656"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Août, après les lettres de lecteurs encore reçues en juin",
+    "vers_date": "1936-04",
+    "vers": "Article de Adamic dans Harper's, réplique de DeVoto qui compare le collège à un sanatorium d'amateurs, puis 40 à 50 lettres par jour.",
+    "refs": [
+     "EV-02583",
+     "EV-02578",
+     "EV-02581"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin août, à la veille de la rentrée, avec le projet Noguchi déjà enterré",
+    "vers_date": "1936-09-07",
+    "vers": "Première réunion générale de la rentrée : Albers prend la parole devant 55 étudiants. Schawinsky démarre ses Stage Studies.",
+    "refs": [
+     "EV-02545",
+     "EV-02516",
+     "EV-02517"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Août, au Mexique, quand l'été semble une parenthèse heureuse",
+    "vers_date": "1936-12-07",
+    "vers": "Zeuch exige une réunion nocturne de faculté ; l'appel est rejeté, la démission de Goldenson est autorisée, et Zeuch parle de « début de la fin ».",
+    "refs": [
+     "EV-02609",
+     "EV-02619",
+     "EV-02610",
+     "EV-02629",
+     "EV-02622"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été mexicain de Schawinsky, en germe dans le collège",
+    "vers_date": "1936",
+    "vers": "Stage Studies puis Spectodrama. La date de la performance est incertaine : 1936 ou 1937 selon les sources.",
+    "refs": [
+     "EV-02516",
+     "EV-02517",
+     "EV-02521"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le faux Mondrian comme farce qui révèle la vanité et l'autorité d'Albers.",
+   "L'abstraction reconnue au Mexique contre l'oubli new-yorkais.",
+   "Le comité d'admissions comme lieu de pouvoir discret.",
+   "Rice, exposé et attaqué, figure centrale de la controverse.",
+   "Les absents (Albers, Anni, Noguchi) qui pèsent sur le collège."
+  ],
+  "lacunes": "On ignore qui habite réellement le collège en août, hormis Van Middlesworth ; la présence de Rice, Martin et Evarts n'est que probable. Aucune fiche ne donne le programme des sessions d'été, les cours, la musique, les repas ou le temps à Black Mountain. La date d'admission d'Alice est inconnue. Sweeney n'est pas identifié et l'issue de sa candidature n'est pas donnée. Van Middlesworth n'a pas de fiche propre. Les fiches EC-01545 à EC-01548 (Goodman Reader) ne portent pas sur le collège et ne sont pas utilisées. Les sources se contredisent sur la distance du voyage d'hiver (400 ou 4000 km), la durée du séjour des Adamic (deux à trois mois), la numérotation des voyages mexicains (premier ou deuxième), le titre des gouaches (Clave de sol ou Treble Clef) et celui des tapisseries (Escritura antigua ou Ancient Writing). Le vote de non-réappointement de Knickerbocker et Goldenson, daté six semaines après la rentrée ou après Thanksgiving, est hors de ce mois."
+ }
+}

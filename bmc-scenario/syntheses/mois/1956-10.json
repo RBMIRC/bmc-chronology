@@ -1,0 +1,270 @@
+{
+ "passe": "mois",
+ "cle": "1956-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3754,
+  "sortie": 10903,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1956-10",
+  "session": "Automne 1956, sans session formelle : plus d'organisation, de rituels ni de cours structurés, le collège est en fin de vie.",
+  "saison_et_climat": "Automne dans les montagnes près d'Asheville. Le campus est envahi par le kudzu et n'a plus d'électricité : on vit à la bougie et au thé.",
+  "situation": "Le collège est condamné. Olson annonce la fermeture à la bougie, sans argent en vue. Le dernier groupe se disperse vers San Francisco, New York ou Chicago, et Olson reste pour liquider. Ebbe Borregaard, arrivé fin septembre sur un campus à bout, repart dans les jours qui suivent l'annonce.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ebbe Borregaard",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wesley Huss",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Basil King",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Betty Kaiser",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dita Frauenglass",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Harvey Frauenglass",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Joseph Fiore",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Eric Weinberger",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Eloise Mixon",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Don Mixon",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ann Simone",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Hawley",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956-08-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Medea est jouée les 29 et 30 août, dernier spectacle du collège (date de « septembre » contestée par EC-03193).",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1956",
+     "EC-03193"
+    ]
+   },
+   {
+    "date": "1956-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Ebbe Borregaard arrive fin septembre et trouve un campus envahi par le kudzu, sans électricité.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1956"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "À l'automne, Huss et Olson, dans un café d'Asheville, conviennent de fermer le collège ; Olson ne veut plus enseigner.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1956"
+    ]
+   },
+   {
+    "date": "1956-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Annonce de la fermeture à la bougie, chez Olson selon la synthèse, à la Jalowetz House selon SC-01854.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01854",
+     "SYN-1956"
+    ]
+   },
+   {
+    "date": "1956-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Départ en convoi vers San Francisco, le jour même ou le lendemain de l'annonce ; Olson à quatre pattes en train d'arracher les herbes de la route.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06879",
+     "SC-01855"
+    ]
+   },
+   {
+    "date": "1956-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Huss prévoit de rejoindre Duncan et Jess à San Francisco pour poursuivre la trilogie Medea, retrouver d'anciens étudiants et collaborer avec Ginsberg et Kerouac.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06880"
+    ]
+   },
+   {
+    "date": "1956-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Dispersion : Fiore part pour New York, Huss et la troupe vers San Francisco, Olson reste pour liquider les biens.",
+    "certitude": "probable",
+    "refs": [
+     "SYN-1956",
+     "SC-01854"
+    ]
+   }
+  ],
+  "quotidien": "Vie réduite : on regagne son cottage un à un le soir, on boit de la bière lors d'une fête discrète, on prend le thé aux sachets recyclés. Olson fait nettoyer et désherber l'enceinte. Dita Frauenglass prend deux photographies de la soirée. La bibliothèque a été pillée et une machine à laver est marquée FUCKT (écho daté approximativement de 1956). Les fiches ne disent rien de cours ni de musique ce mois-ci.",
+  "tensions": [
+   "La fermeture : Olson explique qu'il faut des étudiants payants, personne ne viendra au secours du collège ; les étudiants proposent d'écrire à leurs grands-mères, et Olson écarte la suggestion d'un geste.",
+   "Les dettes absorbent presque tout l'argent ; le campus bas loué au camp chrétien ne rapporte rien, et le sort de la ferme et du campus haut reste flou.",
+   "Olson, qui ne veut plus enseigner, se retrouve avec Huss comme seul corps enseignant.",
+   "Fiore, rancunier envers Rice et Olson, parle de partir ; Rice a déjà décidé de quitter le collège.",
+   "Menace d'accusation d'immoralité liée à l'affaire de l'étudiant violent, facteur probablement mineur.",
+   "Le conseil consultatif ne fournit plus que du crédit moral, sans argent."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Bougies à la Jalowetz House",
+    "date": "1956-10",
+    "lieu": "Jalowetz House (ou chez Olson selon la synthèse)",
+    "personnages": [
+     "Charles Olson",
+     "Ebbe Borregaard",
+     "Wesley Huss",
+     "Dan Rice",
+     "Basil King",
+     "Betty Kaiser",
+     "Dita Frauenglass",
+     "Harvey Frauenglass",
+     "Joseph Fiore",
+     "Eric Weinberger",
+     "Eloise Mixon",
+     "Don Mixon",
+     "Ann Simone",
+     "Robert Hawley"
+    ],
+    "deroule": "Nuit, bougies, thé aux sachets recyclés. Olson se lève et annonce la fermeture : il faut des étudiants payants, personne n'enverra d'argent. Un étudiant puis un autre proposent d'écrire à leur grand-mère ; Olson écarte la suggestion d'un geste. Bière, fête discrète, Dita prend deux photographies. Olson parle vaguement de la vente de la ferme et du campus haut, dit qu'il restera nettoyer. Chacun annonce sa destination, puis regagne son cottage.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01854",
+     "EC-03196"
+    ]
+   },
+   {
+    "titre": "Olson à quatre pattes sur la route",
+    "date": "1956-10",
+    "lieu": "route d'accès au collège",
+    "personnages": [
+     "Ebbe Borregaard",
+     "Charles Olson"
+    ],
+    "deroule": "Le convoi pour San Francisco s'éloigne. Ebbe, à l'arrière, se retourne et voit Olson à quatre pattes, arrachant frénétiquement les herbes de la route qui menait au collège. Image solitaire et absurde, dernière vue du collège par son dernier étudiant.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01855",
+     "EV-06879",
+     "EC-03192"
+    ]
+   },
+   {
+    "titre": "Café d'Asheville, décision de fermer",
+    "date": null,
+    "lieu": "café d'Asheville",
+    "personnages": [
+     "Charles Olson",
+     "Wesley Huss"
+    ],
+    "deroule": "Huss et Olson, seuls enseignants restants, s'installent dans un café et conviennent de fermer. Olson dit ne plus vouloir enseigner. Date précise inconnue, probablement à l'automne.",
+    "certitude": "atteste",
+    "refs": [
+     "SYN-1956"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Olson qui désherbe la route en octobre",
+    "vers_date": null,
+    "vers": "Le Work Program des années précédentes, que Olson détestait ; ironie d'un homme finissant à quatre pattes dans les herbes.",
+    "refs": [
+     "EC-03192"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Ebbe découvrant l'anarchie du collège à son arrivée",
+    "vers_date": null,
+    "vers": "Ses années de discipline militaire à Newport News, un choc mental.",
+    "refs": [
+     "EC-03194"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La bibliothèque pillée et la machine FUCKT",
+    "vers_date": null,
+    "vers": "La bibliothèque « joyau » d'autrefois et le toit de la farmhouse monté par Molly Gregory environ une décennie plus tôt.",
+    "refs": [
+     "EC-03195"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Medea restée inachevée au départ du convoi",
+    "vers_date": null,
+    "vers": "La suite de la trilogie Medea à San Francisco avec Duncan, Jess et Huss.",
+    "refs": [
+     "EC-03193",
+     "EV-06880"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'annonce de la fermeture à la bougie",
+    "vers_date": "1957",
+    "vers": "La liquidation menée par Olson, qui se prolonge jusqu'en 1957.",
+    "refs": [
+     "SYN-1956",
+     "SC-01854"
+    ]
+   }
+  ],
+  "motifs": [
+   "Ironie du Work Program : Olson à quatre pattes dans les herbes",
+   "Fermeture à la bougie : le collège s'éteint au sens propre",
+   "Le kudzu qui recouvre le campus",
+   "Dispersion plutôt que mort franche, selon plusieurs observateurs",
+   "Vitrine et prestige (conseil consultatif, Einstein et Williams cités) pour un collège sans argent",
+   "Les photographies de Dita comme trace de la fin"
+  ],
+  "lacunes": "Jour précis de l'annonce et du départ inconnu. Sources divergentes sur le lieu de l'annonce (Jalowetz House dans SC-01854, « chez Olson » dans la synthèse) et sur la date de Medea (29-30 août dans la synthèse, « septembre » dans EC-03193). Présence de Duncan, Jess, Rumaker et Van de Wiele en octobre non attestée, probablement absents. Rien sur les cours, les repas précis ni la musique ce mois-ci. Le sort exact de la ferme et du campus haut reste flou. Le référent « SYN-1956 » désigne le chapitre de synthèse, sans identifiant de fiche."
+ }
+}

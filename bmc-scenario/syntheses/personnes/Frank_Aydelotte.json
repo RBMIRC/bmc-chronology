@@ -1,0 +1,330 @@
+{
+ "passe": "personnes",
+ "cle": "Frank Aydelotte",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 8259,
+  "sortie": 4174,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Frank Aydelotte",
+  "autres_noms": [],
+  "dates_de_vie": null,
+  "statut_bmc": "Jamais membre du collège : beau-frère de John Andrew Rice (frère de Nell Rice), président de Swarthmore, conseiller extérieur et bienfaiteur de Black Mountain College de la fondation (1933) à la crise de 1949.",
+  "presence": [
+   {
+    "debut": "1933-06",
+    "fin": "1933-08",
+    "precision": "periode",
+    "role": "Hôte et conseiller des sessions de planification estivales à Swarthmore (porche de la maison présidentielle, nuit du budget) ; source de candidats professeurs et étudiants",
+    "refs": [
+     "SC-00500",
+     "SC-00501",
+     "EV-01999",
+     "EV-02110",
+     "EV-02130"
+    ]
+   },
+   {
+    "debut": "1933",
+    "fin": "1949",
+    "precision": "annee",
+    "role": "Conseiller de longue date à distance : correspondance avec Rice, Dreier et Albers (notamment 1947-1949) ; en janvier 1949 envoie Pittenger enquêter sur place",
+    "refs": [
+     "EV-01878",
+     "EV-04834",
+     "RE-01836",
+     "RE-01837"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Homme d'ordre et de méthode : la famille dira de lui que son second prénom était « respectabilité ». Il croit au travail lent, aux réseaux, à la persuasion discrète plutôt qu'à l'éruption. Progressiste pédagogique mais prudent dans la forme, il est fasciné par les idées trop audacieuses pour Swarthmore — à condition de les regarder fonctionner depuis son porche, pas d'y vivre. Tiraillé toute sa vie entre la loyauté familiale envers une sœur qu'il protège et l'exaspération devant un beau-frère brillant et incendiaire qu'il doit constamment sauver, placer, financer, puis empêcher de revenir.",
+  "blessures": "L'engagement de Nell (1913) avec un rebelle jugé indigne de la famille ; trois décennies à réparer les dégâts professionnels de Rice (NJCfW, campagne d'emploi de 1930, finances de la famille Rice).",
+  "desirs": "Faire prospérer le programme d'honneurs à Swarthmore et nationalement ; voir une expérience éducative radicale réussir — mais sans Rice à sa barre ; protéger Nell et ses neveux.",
+  "peurs": "Que le chaos de Rice détruise le collège, la réputation de la famille et son propre capital moral dans l'establishment académique.",
+  "maniere_d_aimer": "Aime en protecteur et pourvoyeur : hospitalité de la mansion de Swarthmore, financement des études de bibliothéconomie de Nell, frais médicaux des neveux, coulisses de la fondation Guggenheim. Affection exprimée par les actes et le service plus que par les mots.",
+  "rapport_au_pouvoir": "Homme de réseaux et de coulisses plutôt que d'autorité directe : il siège au conseil consultatif Guggenheim, place les gens, négocie les départs en douceur. Préjugé profond contre les constitutions : « un gouvernement d'hommes vaut mieux qu'un gouvernement de lois si l'on a les bons hommes » — quelques règles, faites lentement.",
+  "voix": {
+   "registre": "Courtois, pondéré, dithyrambique quand il admire (sur Rice : un des professeurs de classiques les plus brillants et stimulants qu'il ait connus), tranchant dans le privé quand il faut fermer une porte.",
+   "tics": "Formules épistolaires mesurées ; conseils pratiques qui tranchent sans débat (« Vous feriez mieux de nommer Ted trésorier ») ; rapidité de réponse quand un problème se pose.",
+   "exemples_paraphrases": [
+    "Prescrire non ce que l'étudiant doit suivre, mais ce qu'il doit savoir.",
+    "Mieux vaut gouverner par les hommes que par les lois, si l'on a les bons hommes.",
+    "Vous feriez mieux de faire de Ted votre trésorier.",
+    "Rien ne serait plus désastreux pour le collège (à propos d'un retour de Rice)."
+   ]
+  },
+  "habitudes": [
+   "Correspondance suivie, souvent relancée par une seconde lettre ou par un appel à Nell",
+   "Réseau étendu dans l'enseignement supérieur : plusieurs dizaines de lettres pour placer un candidat",
+   "Héberger les sessions de planification de mi-été sur son porche",
+   "Voyager et conférencer à travers le pays pour diffuser le système des honours",
+   "Ouvrir la mansion de Swarthmore à la famille et aux amis Rice"
+  ],
+  "convictions": [
+   "Travail, affaires sérieuses, valeurs huguenotes respectables",
+   "Pédagogie oxonienne : programme d'honneurs, diffusé à 93 institutions dès 1927",
+   "Gouvernement des hommes plutôt que des lois ; structures minimales, règles rares et lentes",
+   "Le renvoi de Rice par Holt en 1933 fut une grave injustice (d'où la saisine de l'AAUP)",
+   "Après 1949 : un retour de Rice tuerait le collège"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933-03",
+    "precision": "mois",
+    "moment": "Alerté par Nell sur la querelle Rice-Holt à Rollins, il enquête avec prudence, juge fin mars l'action de Holt « une grave injustice » et conseille de saisir l'AAUP ; il écrit lui-même à son directeur exécutif",
+    "etat_interieur": "Protecteur familial mobilisé, prudent car il connaît la capacité de Rice à s'aliéner ses employeurs",
+    "refs": [
+     "EV-02078",
+     "RE-00865"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Aux conférences d'Alstead, il encourage la fondation du collège — sans conseil d'administration, sans extérieurs dictant la politique — et héberge Rice à Swarthmore, peut-être lassé de chercher un poste pour lui",
+    "etat_interieur": "Curiosité réelle pour des idées trop audacieuses pour Swarthmore, mêlée de soulagement de voir Rice enfin à son compte",
+    "refs": [
+     "EV-01713",
+     "RE-00874"
+    ]
+   },
+   {
+    "date": "1933-06",
+    "precision": "periode",
+    "moment": "Sessions de planification sur son porche (été 1933) : participation enthousiaste aux discussions, présence de F.J. Wylie ; nuit du budget qui aboutit à imposer Dreier comme trésorier",
+    "etat_interieur": "Enthousiasme d'artisan de la fondation, garant du réalisme financier",
+    "refs": [
+     "SC-00500",
+     "SC-00501",
+     "EV-02110",
+     "EV-01999"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Correspondance sur le gouvernement du collège : il prêche peu de règles faites lentement ; il alimente le recrutement (nombreuses suggestions de candidats, mise en contact avec Peggy Loram)",
+    "etat_interieur": "Mentor satisfait, sage prudence institutionnelle",
+    "refs": [
+     "EV-01716",
+     "EV-02130",
+     "EV-01997"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "annee",
+    "moment": "Face aux salaires coupés de 25 %, Dreier le sollicite : il organise l'avenir de Nell (bibliothéconomie, future bibliothécaire du collège), finance sa formation, les voyages à Sullivan, complète les finances du collège et les frais médicaux de Mary et Frank Rice",
+    "etat_interieur": "Orchestrateur familial et financier, agissant dans l'ombre ; Rice ne lui en garde aucun ressentiment",
+    "refs": [
+     "EV-02821",
+     "EV-02823",
+     "RE-01109"
+    ]
+   },
+   {
+    "date": "1949-01",
+    "precision": "mois",
+    "moment": "Crise finale : il envoie son ami Pittenger enquêter à Black Mountain (27-30 janvier) ; après la réunion du 29, Dreier lui écrit que son mot auprès d'Albers puis de Nell a fait l'affaire",
+    "etat_interieur": "Poids de l'investissement de seize ans ; il tente de sauver le collège sans Rice",
+    "refs": [
+     "EV-04834",
+     "EV-04827",
+     "RE-01836",
+     "RE-01837"
+    ]
+   },
+   {
+    "date": "1949-06",
+    "precision": "mois",
+    "moment": "Quand Trayer et Goldowski proposent de rappeler Rice, il fait savoir via Pittenger puis écrit à Nell (lettre du 16 juin 1949) qu'un retour de Rice serait le pire des désastres ; la candidature est abandonnée",
+    "etat_interieur": "Opposition véhémente : le protecteur devient l'obstacle ; il écrit qu'un retour mettrait fin à son intérêt pour le collège",
+    "refs": [
+     "EV-04805",
+     "EV-04641",
+     "RE-01882",
+     "CI-02304"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1905",
+    "precision": "annee",
+    "moment": "Fils d'un propriétaire de filature de Sullivan (Indiana) ; boursier Rhodes, brillant universitaire et joueur de football à Indiana",
+    "refs": [
+     "PE-00071"
+    ]
+   },
+   {
+    "date": "1911",
+    "precision": "periode",
+    "moment": "À Oxford pour un doctorat de littérature (resté inachevé), secrétaire américain du Rhodes Trust ; il invite sa jeune sœur Nell en Europe — Rice la courtise presque immédiatement",
+    "refs": [
+     "EV-00302"
+    ]
+   },
+   {
+    "date": "1913",
+    "precision": "annee",
+    "moment": "Il désapprouve nettement la romance et l'engagement de Nell avec le critique rebelle et imprévisible : Rice est indigne de la famille Aydelotte ; Nell défie son frère, fidèle à sa mère",
+    "refs": [
+     "EV-00345",
+     "RE-00121"
+    ]
+   },
+   {
+    "date": "1921",
+    "precision": "annee",
+    "moment": "Après six ans d'anglais au MIT et son poste au Rhodes Trust, il devient président de Swarthmore et y implante le programme d'honneurs",
+    "refs": [
+     "EV-00738"
+    ]
+   },
+   {
+    "date": "1925",
+    "precision": "annee",
+    "moment": "Premier choix du sénateur Guggenheim pour diriger la fondation : il reste à Swarthmore, préside le conseil consultatif éducatif et propose Henry Allen Moe comme directeur",
+    "refs": [
+     "PE-00071"
+    ]
+   },
+   {
+    "date": "1927",
+    "precision": "annee",
+    "moment": "Il manœuvre en coulisses avec Moe pour la bourse Guggenheim de Rice (2 500 $ pour 1927-1928), que Rice reportera deux fois",
+    "refs": [
+     "EV-01169",
+     "EV-01302",
+     "RE-00490"
+    ]
+   },
+   {
+    "date": "1929",
+    "precision": "annee",
+    "moment": "Il négocie le départ de Rice du New Jersey College for Women : congé plutôt que démission, 2 500 $, statut préservé contre promesse de ne pas revenir",
+    "refs": [
+     "EV-01419"
+    ]
+   },
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "Campagne d'emploi de printemps-été : plusieurs dizaines de lettres avec Moe pour placer Rice ; aboutit à la recommandation auprès de Hamilton Holt (Rollins), qui le remercie en juillet d'avoir trouvé « exactement l'homme qu'il cherchait »",
+    "refs": [
+     "EV-01500",
+     "EV-01570",
+     "RE-00674"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1940",
+    "precision": "annee",
+    "moment": "Il quitte la présidence de Swarthmore et devient directeur de l'Institute for Advanced Study de Princeton",
+    "refs": [
+     "PE-00071",
+     "EV-01878"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "Depuis Princeton, il suit la crise de Black Mountain par Pittenger et sa correspondance avec Dreier et Albers ; il bloque le retour de Rice et écrit qu'un retour mettrait fin à son intérêt pour le collège",
+    "refs": [
+     "EV-01878",
+     "EV-04805"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Beau-frère ; de la désapprobation (1913) au mentorat, à la fondation, puis au rejet final",
+    "evolution": "Rejet initial du prétendant de Nell (1913) ; respect professionnel dans les années 1920 (Rice soutient la diffusion des honours) ; sauveteur de carrière récurrent (Guggenheim, NJCfW, Rollins) ; co-fondateur en coulisse (1933) ; bienfaiteur de la famille (1938-1939) ; opposition violemment au retour de Rice (1949). Contraste permanent entre sa méthode patiente et l'impatience de Rice, qui répond toujours en retard",
+    "refs": [
+     "RE-00121",
+     "RE-00252",
+     "RE-00490",
+     "RE-00674",
+     "RE-00763",
+     "RE-00874",
+     "RE-01109",
+     "RE-01882",
+     "PE-00071"
+    ]
+   },
+   {
+    "avec": "Nell Rice",
+    "nature": "Frère et sœur ; protecteur devenu employeur informel",
+    "evolution": "Il désapprouve son mariage, puis en fait son hôtesse officielle à Swarthmore, finance sa formation de bibliothécaire et organise son avenir — la tenant « trop occupée pour rouspéter » loin de son mari",
+    "refs": [
+     "RE-01328",
+     "EV-02766",
+     "EV-02821"
+    ]
+   },
+   {
+    "avec": "Theodore Dreier",
+    "nature": "Ami et conseiller ; lacteur du budget fondateur",
+    "evolution": "Il impose Dreier comme trésorier en 1933 ; en 1947-1949 Dreier recherche activement son conseil (correspondance conservée à Swarthmore) ; après la réunion du 29 janvier 1949, Dreier le crédite de l'avoir sauvé (« je ne suis pas encore jeté dehors »)",
+    "refs": [
+     "SC-00501",
+     "EV-01999",
+     "EV-01878",
+     "RE-01836"
+    ]
+   },
+   {
+    "avec": "Nathaniel O. Pittenger",
+    "nature": "Ami, confident et homme de confiance",
+    "evolution": "Trésorier retraité de Swarthmore ; envoyé en mission d'enquête à Black Mountain en janvier 1949, il transmet le jugement d'Aydelotte contre le retour de Rice",
+    "refs": [
+     "RE-01837",
+     "EV-04834",
+     "EV-04827",
+     "EV-04641"
+    ]
+   },
+   {
+    "avec": "Henry Allen Moe",
+    "nature": "Allié de réseau (Fondation Guggenheim)",
+    "evolution": "Moe, proposé par Aydelotte comme directeur ; partenaires des manœuvres pour la bourse de Rice (1927) et de la campagne d'emploi (1930)",
+    "refs": [
+     "PE-00071",
+     "EV-01302",
+     "EV-01500"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Durée du trésorat de Dreier issu de la nuit du budget : la fiche SC-00501 mentionne « douze ans » (Lane) et « seize ans » (Chaddock/EV-01999) — à vérifier.",
+   "Attitude envers Rice : il défend d'abord son beau-frère (grave injustice de Holt, saisine de l'AAUP) puis œuvre à son départ en douceur et bloque son retour — ce n'est pas une contradiction de sources mais une évolution que les fiches présentent parfois comme un contraste interne (PE-00071).",
+   "Motivation de l'accueil de Rice à Swarthmore en 1933 : lassitude de chercher un poste pour lui, ou curiosité sincère pour l'expérience pédagogique — les deux lectures coexistent dans les sources sans trancher."
+  ],
+  "situations_revelatrices": [
+   "Le porche d'été de Swarthmore : l'establishment académique forgeant la philosophie d'un collège expérimental loin des Blue Ridge",
+   "La nuit blanche du budget : face à un Rice qui veut annoncer le collège sans plan, il tranche d'une phrase en faveur de Dreier",
+   "Les coulisses de la fondation Guggenheim et de la campagne de lettres : le pouvoir par réseau à l'œuvre",
+   "1949 : la lettre à Nell où le protecteur de toujours devient le fossoyeur de la candidature de Rice",
+   "L'hospitalité de la mansion : la famille Rice, neveux et beau-frère errant, nourris et logés"
+  ],
+  "citations": [
+   "CI-00191",
+   "CI-00857",
+   "CI-02304"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, portrait physique, vie conjugale et descendance éventuelle d'Aydelotte",
+   "Contenu exact de sa correspondance avec Dreier des 24 septembre et 3 décembre 1948 (conservée à Swarthmore)",
+   "Ce qu'il savait exactement du rapport calomnieux de Pittenger (février 1949) et s'il en partageait les préjugés",
+   "Sa réaction après la fermeture du collège en 1957 et le destin de son soutien financier après 1949",
+   "Le degré réel de sa lassitude envers Rice dans les années 1930 : épuisement ou curiosité pédagogique ?"
+  ]
+ }
+}

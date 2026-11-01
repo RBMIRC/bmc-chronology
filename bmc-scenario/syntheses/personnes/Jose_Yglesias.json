@@ -1,0 +1,183 @@
+{
+ "passe": "personnes",
+ "cle": "Jose Yglesias",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2546,
+  "sortie": 4876,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Jose Yglesias",
+  "autres_noms": [
+   "Yglesias",
+   "Jose"
+  ],
+  "dates_de_vie": "Non précisées dans les fiches ; on sait seulement qu'il est présent au collège autour de 1947-1948 et qu'il devient écrivain ensuite.",
+  "statut_bmc": "Étudiant (déduit : il suit les cours de Wallen, d'Albers et de M.C. Richards et figure dans la classe Group Process de 1948 ; les fiches ne le désignent jamais explicitement ainsi).",
+  "presence": [
+   {
+    "debut": "1947",
+    "fin": "1948",
+    "role": "Étudiant, en classe avec Wallen (Group Process), Albers et M.C. Richards. Rôle déduit ; dates approximatives (PE-00305 : « vers 1947-1948 », « période de Wallen »).",
+    "refs": [
+     "PE-00305",
+     "RE-01560",
+     "SC-01064"
+    ]
+   }
+  ],
+  "portrait_physique": "Les fiches ne donnent aucun trait physique. Il faudra l'inventer ou le chercher ailleurs. On peut seulement jouer sur ce qu'elles attestent : un jeune homme impatient, expressif, qui lève la main pour demander qu'on tranche.",
+  "noyau_psychologique": "Un jeune homme de conviction, tourné vers le jugement et l'action. Il veut que l'analyse (marxisme des classes, politique) débouche sur une prise de parti. Les postures, les hésitations et les prétentions hâtives de maîtrise l'irritent. Il est pourtant honnête : il reconnaît ce qu'on lui a donné (Rank grâce à Wallen, un vrai enseignement chez M.C.) et il travaille dur à son métier d'écrivain. Déduit : l'écrivain en formation se forge ici à la friction entre son exigence politique et la lenteur du collège.",
+  "blessures": "Non documentées directement. On peut déduire une déception face à ce qu'il juge être la désinvolture administrative du collège (projets approuvés sans argent, décisions qui s'effondrent). Rien ne dit d'où vient cette sensibilité.",
+  "desirs": "Attesté : comprendre le monde par l'analyse des classes et de la politique, pouvoir prendre parti, apprendre quelque chose de solide, devenir écrivain (travail acharné). Déduit : un collège qui tienne ses engagements.",
+  "peurs": "Non attestées. Déduit, avec prudence : la pose creuse, la fausse maîtrise, l'enlisement dans la discussion sans conclusion.",
+  "maniere_d_aimer": "Les fiches n'abordent pas sa vie amoureuse. Côté affects, on voit une loyauté reconnaissante envers qui lui a ouvert des portes (Wallen, Rank) et une complicité tendue avec M.C. Richards. Albers, lui, l'étreint publiquement pour ses « vrais sentiments » (SC-00417), signe qu'il est perçu comme sincère.",
+  "rapport_au_pouvoir": "Critique et lucide. Il ne s'incline pas devant l'autorité pédagogique : il presse M.C. de conclure (« peut-on juger aujourd'hui ? »). Il juge les institutions à leurs actes et dénonce ici l'« impraticabilité » du collège dans l'affaire du dortoir. Mais il reconnaît la valeur de ceux qui le méritent (Wallen, M.C., Albers). Il n'occupe aucune fonction de pouvoir attestée.",
+  "voix": {
+   "registre": "Direct, oral, politique et impatient ; il pose des questions de jugement et de conclusion. Le ton reste complice avec M.C., sans hostilité. À l'écrit, il sera plus tard un écrivain exigeant (déduit).",
+   "tics": "Demander que l'on tranche, réclamer une prise de position ; interpeller les enseignants par leur prénom ou initiales (« M.C. », « Jose » en retour). Qualifier une chose d'« impraticable » (attesté pour le collège).",
+   "exemples_paraphrases": [
+    "Peut-on enfin porter un jugement aujourd'hui, M.C. ? (SC-01072)",
+    "Ce collège est impraticable : on approuve un projet sans avoir l'argent, puis on s'étonne de la contre-proposition. (déduit d'EV-04221 et PE-00305)",
+    "Du cours de critique littéraire, c'est la seule chose que j'ai vraiment apprise ici. (paraphrase de PE-00305)"
+   ]
+  },
+  "habitudes": [
+   "Travailler dur à son métier d'écrivain (PE-00305, Duberman p.51, 284, 307).",
+   "Réagir en classe, sans retenue, quand une méthode lui semble trop lente.",
+   "Suivre plusieurs cours, dont Group Process et la critique littéraire de M.C. Richards."
+  ],
+  "convictions": [
+   "L'analyse marxiste des classes et l'engagement politique comptent.",
+   "Il faut juger et prendre parti, pas se contenter de lire et relire.",
+   "Il rejette toute revendication hâtive et superficielle de maîtrise.",
+   "Le collège est administrativement impraticable (EV-04221, PE-00305).",
+   "Otto Rank mérite d'être lu, même si le cours de Wallen lui a laissé peu (RE-01560, PE-00305)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1947",
+    "moment": "Arrivée dans la période Wallen (déduit des dates approximatives) ; découverte d'Otto Rank grâce à Wallen.",
+    "etat_interieur": "Curiosité reconnaissante envers un mentor, sans enthousiasme durable pour son cours (il en retiendra peu).",
+    "refs": [
+     "RE-01560",
+     "PE-00305"
+    ]
+   },
+   {
+    "date": "1948",
+    "moment": "Classe Group Process : la classe joue le conflit du vote 11 contre 1 sur la reprise des pièces ; Yglesias est parmi les participants nommés.",
+    "etat_interieur": "Déduit : engagé dans un exercice de démocratie communautaire qui l'intéresse peut-être politiquement ; son rôle exact n'est pas précisé.",
+    "refs": [
+     "SC-01064",
+     "EV-04214"
+    ]
+   },
+   {
+    "date": "1948",
+    "moment": "Révolte contre le dortoir des Architects' Collaborative ; il y voit l'« impraticabilité » du collège ; Molly Gregory lui répond que personne n'avait écouté Fletcher.",
+    "etat_interieur": "Exaspération lucide ; sûr de son diagnostic, il se heurte à une femme blessée qui défend le collège.",
+    "refs": [
+     "EV-04221",
+     "RE-01635",
+     "PE-00305"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Cours de M.C. Richards : il presse la critique de conclure et se voit répondre qu'il faut lire encore. Datation incertaine (≈1948→1963).",
+    "etat_interieur": "Impatience politique face à la patience critique ; au bout du compte, c'est ce cours qui lui apprend quelque chose.",
+    "refs": [
+     "SC-01072",
+     "PE-00305"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Albers l'étreint en classe pour ses « vrais sentiments » ; datation douteuse (voir contradictions).",
+    "etat_interieur": "Surprise et reconnaissance d'être vu, chez l'homme austère, comme sincère (déduit).",
+    "refs": [
+     "SC-00417"
+    ]
+   }
+  ],
+  "avant": [],
+  "apres": [
+   {
+    "date": "",
+    "moment": "Devient écrivain ; les fiches ne précisent ni dates, ni œuvres, ni lieux.",
+    "refs": [
+     "PE-00305"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Wallen",
+    "nature": "Mentorat (enseignant de Group Process, découvreur de Rank)",
+    "evolution": "1947-1948 : gratitude durable pour Rank, mais peu de choses retenues du cours.",
+    "refs": [
+     "RE-01560",
+     "PE-00305",
+     "SC-01064"
+    ]
+   },
+   {
+    "avec": "Molly Gregory",
+    "nature": "Conflit",
+    "evolution": "1948 : il critique l'impraticabilité du collège ; elle, blessée, rappelle que Fletcher n'avait trouvé personne pour l'écouter.",
+    "refs": [
+     "RE-01635",
+     "EV-04221"
+    ]
+   },
+   {
+    "avec": "Mary Caroline (M.C.) Richards",
+    "nature": "Rapport élève-enseignante, tension complice",
+    "evolution": "Il s'exaspère de sa méthode, puis reconnaît que son cours fut le seul où il ait appris quelque chose.",
+    "refs": [
+     "SC-01072",
+     "PE-00305"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Élève remarqué par un maître austère",
+    "evolution": "Une étreinte en classe pour ses « vrais sentiments » ; rien d'autre n'est précisé.",
+    "refs": [
+     "SC-00417"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "SC-00417 est daté ≈1933 (date déduite), alors que PE-00305 situe sa présence vers 1947-1948 : la scène d'Albers est mal datée ; il faudra la replacer à l'époque de son séjour.",
+   "PE-00305 dit que le cours de critique littéraire de M.C. fut le seul où il ait appris quelque chose, alors qu'il reste reconnaissant à Wallen pour Rank et qu'Albers le félicite : à nuancer ; cela indique plutôt qu'il retient peu des autres cours, pas qu'ils n'ont aucune valeur.",
+   "SC-01072 est daté ≈1948→1963, fourchette trop large : la scène avec M.C. peut dater de son séjour, mais rien ne le garantit."
+  ],
+  "situations_revelatrices": [
+   "Un débat de classe où l'on refuse de conclure et où il exige un jugement.",
+   "Une réunion de communauté qui s'enlise ou décide mal (dortoir, reprise des pièces).",
+   "Un échange avec un mentor qu'il respecte sans le suivre (Wallen, Rank).",
+   "Un moment d'affection inattendue d'un maître austère (Albers).",
+   "Une dispute avec une défenseuse blessée du collège (Molly Gregory)."
+  ],
+  "citations": [
+   "SC-01072 — « M.C., can we make a judgment today? » / « No, Jose, let's read some more. »",
+   "SC-00417 — « Real feelings! » (Albers)",
+   "EV-04221 / RE-01635 — Yglesias juge le collège « impraticable » ; Gregory rappelle que personne n'a écouté Fletcher.",
+   "PE-00305 — le cours de M.C. est le seul où il ait appris quelque chose.",
+   "SC-01064 — contexte de la classe Group Process (Yglesias parmi les participants nommés)."
+  ],
+  "questions_ouvertes": [
+   "Quelle est sa vie avant le collège (origine, famille, études, expérience politique) ? Les fiches n'en disent rien.",
+   "Qu'écrit-il et publie-t-il après le collège ? Les dates et les œuvres manquent.",
+   "Quel est son rôle réel dans la troupe de théâtre et dans le vote 11 contre 1 ? Est-il l'opposant ou l'un des onze ?",
+   "Quel est son âge, son aspect, sa vie sentimentale ?",
+   "Quand exactement arrive-t-il et part-il ? Qui l'a recommandé ?",
+   "Quelle est la date réelle de la scène d'Albers et de celle de M.C. ?",
+   "Quelle est sa position exacte dans l'affaire du dortoir, au-delà du mot « impraticable » ?"
+  ]
+ }
+}

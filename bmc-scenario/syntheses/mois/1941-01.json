@@ -1,0 +1,228 @@
+{
+ "passe": "mois",
+ "cle": "1941-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4014,
+  "sortie": 11766,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1941-01",
+  "session": "Probablement la session d'hiver de l'année 1940-41 (déduit du rythme des cours matin et soir et du chantier de l'après-midi depuis l'automne 1940). Aucune fiche ne date la session de janvier.",
+  "saison_et_climat": "Hiver. Aucune fiche ne décrit le temps de janvier. Le drainage et les fondations commencés à l'automne se poursuivent donc, déduit, dans un froid de chantier de vallée.",
+  "situation": "Le collège vit encore à Lee Hall, grand bâtiment unique au-dessus de la vallée, et il lui reste environ cinq mois avant la fin du bail avec la Blue Ridge Assembly (juin). Le site de Lake Eden se bâtit dans la vallée : les cours ont lieu le matin et le soir, l'après-midi est au chantier volontaire. Le chantier fait à la fois ferveur et querelle. Pour janvier lui-même, les fiches ne donnent pas d'événement daté du collège ; on travaille à partir de la période 1940-41.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Brett",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hall (étudiant ou enseignant, prénom non donné)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alex Reed",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1941-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Anni Albers fait paraître « Handweaving Today » dans The Weaver, vol. VI, n° 1, pp. 3-7 : l'atelier de tissage de BMC devient connu hors du campus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03217"
+    ]
+   },
+   {
+    "date": "1941-01",
+    "precision": "mois",
+    "ce_qui_arrive": "À New York, Elaine de Kooning amène Gorky à une autre fête pour lui présenter Agnes Magruder, dix-neuf ans. Agnes deviendra sa deuxième femme huit mois plus tard.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03216"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Le chantier volontaire de l'après-midi se poursuit à Lake Eden, avec ferveur et agacement des sceptiques, sans date précise dans les fiches.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02990",
+     "EV-03125",
+     "RE-01181"
+    ]
+   }
+  ],
+  "quotidien": "Vie sous le même toit à Lee Hall (déduit de la situation du printemps). Cours le matin et le soir, après-midi au chantier : drainage, isolation, fondations, la marche vers le chantier s'accompagne de chansons. Travail d'atelier, notamment le tissage d'Anni Albers, dont l'article vient de paraître. Le collège tient aussi le budget à flot, sans que les fiches donnent de détail pour janvier.",
+  "tensions": [
+   "Le chantier divise : Dreier y voit le salut par le travail, tandis que les « zombies » s'agacent et que la faculté n'a pas encore fixé de maximum (date non connue).",
+   "Le bail de Blue Ridge expire en juin et le propriétaire songe à une école de filles : le collège peut perdre son lieu.",
+   "Présence d'Albers incertaine : Panofsky est venu pendant son sabbatique, et Albers évoque à la rentrée « ses mois à Harvard ». Les fiches ne datent ni l'un ni l'autre, donc on ne sait pas s'il est à BMC en janvier.",
+   "Les finances sont fragiles : la crise de juin et la collecte à travers le pays se préparent déjà."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le chantier de l'après-midi à Lake Eden",
+    "date": null,
+    "lieu": "Lake Eden, vallée, site du futur campus",
+    "personnages": [
+     "Theodore Dreier",
+     "Betty Brett",
+     "étudiants surnommés « zombies »",
+     "Kocher",
+     "Stoller"
+    ],
+    "deroule": "Après le cours du matin, les étudiants descendent dans la vallée pour drainer, isoler, poser des fondations. Certains chantent en marchant, ce qui agace les plus sceptiques. Dreier défend le travail comme salut. La date précise n'est pas donnée : scène déduite de la période.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02990",
+     "EV-03125",
+     "RE-01181"
+    ]
+   },
+   {
+    "titre": "Albers conteste le laisser-faire chez les Wiener",
+    "date": null,
+    "lieu": "chez les Wiener",
+    "personnages": [
+     "Josef Albers",
+     "les Wiener",
+     "membres de la faculté de BMC"
+    ],
+    "deroule": "Lors d'une réunion de BMC, Albers s'oppose au « laisser-faire » des écoles progressistes. La date n'est pas fixée dans les sources, on ne peut donc pas l'assigner à janvier avec certitude.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03207"
+    ]
+   },
+   {
+    "titre": "Elaine présente Agnes Magruder à Gorky",
+    "date": "1941-01",
+    "lieu": "New York",
+    "personnages": [
+     "Elaine de Kooning",
+     "Arshile Gorky",
+     "Agnes Magruder",
+     "Bill"
+    ],
+    "deroule": "Agacée du temps que Bill passe avec Gorky, Elaine emmène Gorky à une autre fête pour le présenter à Agnes Magruder, dix-neuf ans, qu'elle juge très belle et très élégante. Scène hors campus, qui sert de contrepoint au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03216"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Janvier 1941, tandis que le chantier de l'après-midi se poursuit",
+    "vers_date": "1940-09",
+    "vers": "Automne 1940 : les cours passent au matin et au soir, et les après-midi deviennent un temps de chantier volontaire.",
+    "refs": [
+     "EV-02990",
+     "EV-03125"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1941, Lee Hall encore occupée sous le bail",
+    "vers_date": "1941-05",
+    "vers": "Au printemps et en été, Derek Bovington fait la navette en tracteur pour emporter instruments, livres et même le chauffage de Lee Hall ; le site est habitable « à peine ».",
+    "refs": [
+     "EV-03219",
+     "EV-03220"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La soirée new-yorkaise de janvier, Gorky et Agnes",
+    "vers_date": "1941-09",
+    "vers": "Agnes devient la deuxième femme de Gorky, huit mois après leur rencontre (calcul à partir de la fiche).",
+    "refs": [
+     "EV-03216"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1941, Mark Dreier vit encore sur le campus",
+    "vers_date": "1941",
+    "vers": "À un moment non précisé de l'année, le jeune Mark Dreier meurt dans un accident de véhicule ; la Quiet House sera bâtie en sa mémoire, à la main.",
+    "refs": [
+     "EV-03173",
+     "LI-00697"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1941, la réflexion de Goodman sur le cadre et l'écran",
+    "vers_date": "1952",
+    "vers": "Les questions théoriques de Goodman sur le spectacle et la participation préparent les expériences scéniques du collège, dont l'événement de Cage en 1952.",
+    "refs": [
+     "EC-01792"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne 1941, la fin du chantier de l'année",
+    "vers_date": "1941-12",
+    "vers": "Le toit du Studies Building : le calendrier est suspendu en décembre, tout le monde monte sur le toit, Richard Carpenter cloue toute la journée malgré sa peur des hauteurs.",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le collège vit sous le régime du travail et des cours, sans nouvelles de la politique",
+    "vers_date": "1941",
+    "vers": "Pearl Harbor fait basculer la fin de l'année : radio apportée au dîner, réunion étudiante au lobby de North Lodge, vote d'un message de soutien.",
+    "refs": [
+     "SC-00831",
+     "EV-03235"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le chantier comme salut par le travail, ou comme corvée",
+   "Lee Hall, unité du collège, et son départ prochain",
+   "La pédagogie d'Albers : la matière, le tissage, le dessin",
+   "L'argent qui manque, et la collecte à travers le pays",
+   "Les écoles progressistes et leur « laisser-faire »"
+  ],
+  "lacunes": "Aucune fiche ne donne de date précise pour janvier 1941 : ni la session exacte, ni le temps, ni la présence réelle d'Albers (sabbatique non daté). Non datés aussi : la réunion chez les Wiener, la mort de Mark Dreier, le maximum d'après-midi de chantier, et les anecdotes de chantier (wagon de charbon, tempête, noyade) qui ne peuvent pas être placées en 1941 avec certitude. La version Lane lie le déménagement au départ de Thomas, ce qui n'est pas cohérent avec le reste ; on retient le déménagement de mai-juin."
+ }
+}

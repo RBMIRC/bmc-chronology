@@ -1,0 +1,198 @@
+{
+ "passe": "personnes",
+ "cle": "Kurt Schwitters",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2346,
+  "sortie": 5769,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Kurt Schwitters",
+  "autres_noms": [],
+  "dates_de_vie": "Non données par les fiches. Les sources le montrent actif à Hannover en 1923, puis en récitant à Weimar en 1925, et sa musique est reprise à BMC en 1936-37.",
+  "statut_bmc": "Absent en personne selon les fiches. Il n'est ni enseignant ni étudiant ni visiteur attesté. Il existe à BMC par son œuvre : l'Ursonate sert de musique au Spectodrama de Xanti Schawinsky (1936-37). Il existe aussi par la mémoire d'Albers, qui le cite en cours comme modèle d'artiste capable d'élever le banal. Un scénariste doit donc le faire apparaître par la médiation (disque, partition, récit, flash-back), sauf à inventer une venue que rien n'atteste.",
+  "presence": [
+   {
+    "debut": "1936",
+    "fin": "1937",
+    "role": "Compositeur dont l'Ursonate (1922-32) accompagne le Spectodrama de Schawinsky. Présence par l'œuvre seulement, aucune venue attestée. Le Spectodrama est daté de 1936 dans une fiche et de 1937 dans une autre.",
+    "refs": [
+     "PE-00289",
+     "EV-02517",
+     "EV-02659",
+     "OE-00466"
+    ]
+   },
+   {
+    "debut": "1933",
+    "fin": "",
+    "role": "Référence récurrente dans l'enseignement de Josef Albers, qui le cite pour illustrer l'élévation du banal en art. Dates approximatives (≈1933 pour la relation, 1941-1949 pour un entretien où Albers le loue).",
+    "refs": [
+     "RE-00804",
+     "RE-01336",
+     "PE-00289"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucun détail physique dans les fiches. Les seules images concrètes sont ses œuvres et ses gestes : collages de tickets de bus et de fragments de journaux, sculptures de rebuts dont la plus grande remplissait une pièce, récitation de ses propres contes en public. Tout portrait physique serait invention, à signaler comme telle.",
+  "noyau_psychologique": "Déduction à partir des fiches, non attestée comme trait de caractère. Schwitters semble agir par fidélité au matériau trouvé : il ramasse ce que la ville jette et lui donne une dignité sans l'idéaliser. Il s'intéresse à la matière pour ses associations propres, non pour l'illusion. Il garde en même temps une exigence formelle forte, au point qu'on a pu le dire traître à Dada, puisqu'il extrayait ses matériaux pour des raisons formelles autant que littéraires. Le tempérament noté est « impassionné dans ses compositions ». Il pratique plusieurs arts à la fois : collage, sculpture, récit dit à voix haute, composition sonore.",
+  "blessures": "Non documenté dans les fiches. Seule tension signalée : son statut ambigu vis-à-vis de Dada, qu'on lui reproche de trahir par son formalisme (PE-00289). Pas de matière pour une blessure intime sans invention.",
+  "desirs": "Déduit de ses pratiques : faire œuvre avec les débris du quotidien, rendre sensible le registre miniature de la vie urbaine (billets de théâtre, enveloppes timbrées, journaux). Ses gestes montrent un désir d'œuvre ouverte à plusieurs arts, que l'Ursonate, composée sur dix ans, illustre. Aucune source ne dit ce qu'il voulait pour lui-même.",
+  "peurs": "Non documenté dans les fiches.",
+  "maniere_d_aimer": "Non documenté. Les fiches ne donnent aucune relation affective de Schwitters. Les seuls liens attestés sont des relations d'estime : Klee apprécie le contact avec des artistes plus jeunes, comme lui, et Albers l'admire.",
+  "rapport_au_pouvoir": "Non documenté. On peut seulement noter une position de marge : il n'appartient pas au Bauhaus, que Klee, Hindemith et Schlemmer fréquentent à Weimar, mais s'y produit en invité (EV-01172). Il est admiré par des enseignants plutôt qu'il n'en est un.",
+  "voix": {
+   "registre": "Pas de parole directe dans les fiches. Ce qu'on sait : il récite ses propres contes en public (deux soirées à Weimar, 1925) et compose une sonate de sons (Ursonate), donc une voix de performeur, travaillée autant pour le son que pour le sens. Le registre exact (ton, humour, accent) est à inventer avec prudence.",
+   "tics": "Non documentés. Ne pas lui prêter de tics verbaux sans le signaler comme invention.",
+   "exemples_paraphrases": [
+    "Albers, parlant de lui : quel esprit pour les matériaux, il le place à un niveau très élevé (paroles d'Albers, non de Schwitters).",
+    "Albers à ses étudiants : Schwitters faisait des choses merveilleuses avec ce qu'il ramassait sur le trottoir."
+   ]
+  },
+  "habitudes": [
+   "Ramasser billets de théâtre, enveloppes timbrées et journaux, le petit matériau de la ville trouvé jusque dans le caniveau.",
+   "Faire des collages de tickets de bus et de fragments de journaux.",
+   "Bâtir des sculptures d'objets de rebut, dont la plus grande occupait une pièce entière de son logement à Hannover (EV-00954 : le texte dit « remplissait une pièce »).",
+   "Composer sur la durée : l'Ursonate est datée de 1922-32 dans les fiches de Díaz.",
+   "Réciter ses propres contes devant un public (Weimar, 1925).",
+   "Peindre sur les jonctions de papier, l'un des premiers à le faire (PE-00289)."
+  ],
+  "convictions": [
+   "Les objets réels valent par leurs associations propres, non par l'illusion qu'ils produiraient (PE-00289).",
+   "Le banal peut s'élever en art, c'est la leçon qu'Albers en tire et qu'il enseigne (RE-00804).",
+   "Le matériau ramassé peut être traité pour des raisons formelles aussi bien que littéraires, ce qui lui vaut le reproche de trahir Dada (PE-00289)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933",
+    "moment": "Albers commence à enseigner à BMC et, selon une relation datée ≈1933→1976, cite Schwitters en classe comme exemple de l'élévation du banal. La date de départ est approximative.",
+    "etat_interieur": "Aucun état intérieur de Schwitters n'est attesté, car il n'est pas là. L'état intérieur à jouer est celui d'Albers : admiration, valeur pédagogique du modèle.",
+    "refs": [
+     "RE-00804"
+    ]
+   },
+   {
+    "date": "1936",
+    "moment": "Le Spectodrama de Schawinsky, performance en quatre parties sur optique, forme et couleur, acoustique, son, langage, musique, temps, espace, architecture, technologie et illusion, utilise l'Ursonate comme musique (selon Díaz 2014 et Harris 2005). Ce détail n'est pas dans la fiche principale d'EV-02517, qui ne parle pas de Schwitters. Une autre fiche date l'événement de 1937.",
+    "etat_interieur": "Non attesté : Schwitters semble absent. Se demander s'il sait que sa pièce est jouée ou comment elle y arrive reste une question de scénario.",
+    "refs": [
+     "EV-02517",
+     "EV-02659",
+     "PE-00289",
+     "OE-00466"
+    ]
+   },
+   {
+    "date": "1941",
+    "moment": "Dans un entretien situé ≈1941-1949, Albers le loue pour sa sensibilité aux matériaux et le place « à un niveau si élevé ».",
+    "etat_interieur": "Admiration durable d'Albers, qui maintient Schwitters comme référence dans la mémoire du collège.",
+    "refs": [
+     "RE-01336",
+     "PE-00289"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1922",
+    "moment": "Début de l'Ursonate, datée 1922 par OE-00466 et 1922-32 ailleurs, ce qui en fait un travail d'une décennie.",
+    "refs": [
+     "OE-00466",
+     "PE-00289"
+    ]
+   },
+   {
+    "date": "1923",
+    "moment": "Il vit à Hannover. Paul Klee, revenant de vacances à Baltrum faute de moyens pour voyager plus loin, lui rend visite et voit ses collages de tickets de bus et de fragments de journaux, ainsi que ses sculptures de rebuts, dont la plus grande remplit une pièce. Klee apprécie le contact avec ces artistes plus jeunes. Scène exploitable en flash-back avec Klee comme point de vue.",
+    "refs": [
+     "EV-00954",
+     "PE-00289"
+    ]
+   },
+   {
+    "date": "1925-03",
+    "moment": "À Weimar, parmi les derniers plaisirs culturels avant le départ du Bauhaus, Schwitters donne deux soirées où il récite ses propres contes. L'événement s'inscrit entre Midia Pines, Schlemmer, Bartók et Hindemith, venu passer deux heures dans l'atelier de Klee.",
+    "refs": [
+     "EV-01172"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "",
+    "moment": "Ce qui reste de lui à BMC et dans l'enseignement d'Albers : Albers continue de le citer, jusqu'à ses entretiens ultérieurs avec Horowitz & Danilowitz, et Elaine de Kooning le mentionne dans ses écrits (renvoi bibliographique de PE-00289). Le dossier ne contient rien sur sa vie après 1937, ni sur sa mort, ni sur sa carrière hors d'Allemagne. Ces éléments devront venir d'autres sources.",
+    "refs": [
+     "RE-00804",
+     "RE-01336",
+     "PE-00289"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Admiration à sens unique, attestée côté Albers. Rien sur une rencontre ou un échange.",
+    "evolution": "Constante du début de l'enseignement d'Albers à BMC (≈1933) jusqu'aux entretiens (≈1941-1949) : il l'utilise comme exemple pédagogique d'un artiste qui donne de la valeur au banal.",
+    "refs": [
+     "RE-00804",
+     "RE-01336",
+     "PE-00289"
+    ]
+   },
+   {
+    "avec": "Paul Klee",
+    "nature": "Visite d'un artiste établi à un artiste plus jeune, qu'il admire ou du moins apprécie fréquenter.",
+    "evolution": "Une seule visite attestée, en 1923 à Hannover. Aucune suite documentée.",
+    "refs": [
+     "EV-00954"
+    ]
+   },
+   {
+    "avec": "Xanti Schawinsky",
+    "nature": "Lien indirect par la musique. Schawinsky, élève de Schlemmer au Bauhaus, utilise l'Ursonate pour son Spectodrama. Aucune rencontre attestée.",
+    "evolution": "Relation d'œuvre, ponctuelle (1936-37).",
+    "refs": [
+     "EV-02517",
+     "EV-02659",
+     "PE-00289",
+     "OE-00466"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Date de l'Ursonate : 1922 seul dans OE-00466, 1922-32 dans PE-00289 et EV-02517 (Díaz). Cela peut s'expliquer par une composition étalée sur dix ans.",
+   "Date du Spectodrama : 1936 dans EV-02517, 1937 dans EV-02659, 1936-37 dans PE-00289.",
+   "La mention de Schwitters comme compositeur du Spectodrama n'apparaît que dans les versions de Díaz 2014 et Harris 2005 (via EV-02517 et EV-02659). La version principale de ces fiches décrit costumes, lumières et dispositif sans parler de musique de lui.",
+   "PE-00289 note que Schwitters a été jugé « traître à Dada », tandis qu'Albers le loue sans réserve. Ces jugements ne se contredisent pas forcément, mais ils viennent de milieux différents.",
+   "Collage et sculpture : PE-00289 évoque une sculpture qui « remplissait une pièce », EV-00954 dit « la plus grande remplissait une pièce entière ». Pas de vraie contradiction, simple variation de formulation."
+  ],
+  "situations_revelatrices": [
+   "Une scène de récitation publique de contes (Weimar, 1925) où il se révèle comme performeur de sa propre voix, avec un auditoire de professeurs et d'invités du Bauhaus.",
+   "Une visite d'atelier, comme celle de Klee à Hannover en 1923 : accumulation de rebuts, sculpture qui envahit la pièce, dialogue d'un aîné avec un plus jeune.",
+   "Une répétition du Spectodrama à BMC où l'Ursonate est diffusée ou jouée en son absence, avec Schawinsky et ses élèves.",
+   "Une classe d'Albers où le professeur sort un morceau de papier ramassé et le donne en exemple de ce que Schwitters en faisait.",
+   "Le ramassage lui-même : le geste de se baisser pour prendre un ticket ou une enveloppe timbrée dans le caniveau, avec le regard qui trie."
+  ],
+  "citations": [
+   "PE-00289",
+   "RE-00804",
+   "RE-01336",
+   "EV-00954",
+   "EV-01172",
+   "EV-02517",
+   "EV-02659",
+   "OE-00466"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort : aucune fiche ne les donne.",
+   "Schwitters est-il jamais venu à BMC, ou la présence se limite-t-elle à sa musique ? Aucune source ne l'indique.",
+   "Comment l'Ursonate est-elle arrivée jusqu'à Schawinsky (partition, enregistrement, lecture à voix haute) ? Et qui l'exécutait pendant le Spectodrama ?",
+   "Que faisait Schwitters en 1936-37 et savait-il ce qui se jouait à BMC ?",
+   "Quelles relations avec Albers, Schlemmer ou Klee en dehors des deux visites et soirées attestées ?",
+   "Que devient-il après 1937 ? Les fiches ne disent rien de son exil, de sa production ultérieure ni de sa fin.",
+   "Quelle est la teneur exacte du reproche de « traître à Dada » : qui le formule, et quand ?"
+  ]
+ }
+}

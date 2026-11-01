@@ -1,0 +1,304 @@
+{
+ "passe": "personnes",
+ "cle": "Flola Shepard",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 3726,
+  "sortie": 3489,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Flola Shepard",
+  "autres_noms": [
+   "Fiola Shepard (coquille fréquente dans les sources)",
+   "Madame (par distinction avec « Madame », l'autre professeure de français)"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Professeure de langues (français, allemand), arrivée à la faculté à l'automne 1949, partie en 1954",
+  "presence": [
+   {
+    "debut": "1949",
+    "fin": "1954",
+    "precision": "annee",
+    "role": "Membre de la faculté, enseignante de langues (français à la table française, allemand) ; figure militante pour les droits civiques et la gouvernance démocratique",
+    "refs": [
+     "PE-00119",
+     "EV-04896",
+     "EV-05614",
+     "EV-05954",
+     "EV-06291",
+     "EV-06327",
+     "CO-00714",
+     "CO-00715",
+     "CO-00786"
+    ]
+   }
+  ],
+  "portrait_physique": "Petite femme ascétique : sourire squelettique, cheveux gris coupés court en carré sévère, toujours vêtue de gris puritain — vestes et jupes en coton qu'elle semble s'être cousues elle-même. Yeux épicanthiques au regard d'acier, bouche fine, petit nez pointu et vif qui frétille quand elle rit ; un frisson de souris dans la bouche. Hoche rapidement la tête.",
+  "noyau_psychologique": "Une logique « froide et passionnée » : elle démonte les situations par questions directes et précises, mais cette rigueur est au service d'une passion — la justice raciale, l'éducation démocratique, la gauche. Prudente quand elle est nouvelle (elle s'autocensure en 1949, se jugeant trop mal informée pour protester), elle devient ensuite la militante la plus engagée du campus, la seule communiste déclarée selon Rumaker. Formelle mais excentrique : elle grince sceptiquement aux déclarations cosmiques d'Olson tout en nourrissant des souris chez elle à coups de boîtes de sardines.",
+  "blessures": "Deux échecs militants cuisants dès sa première année : audience futile auprès du gouverneur de Caroline du Nord (affaire Daniels) et voyage vain au Mississippi pour Willie McGee. Plus tard, l'échec de son recrutement d'étudiants noirs (deux jeunes filles effrayées, quelques cours seulement) et le licenciement du personnel noir du collège.",
+  "desirs": "Vivre ses convictions sans compromis : intégrer BMC aux luttes civiques, ouvrir le collège aux étudiants noirs, préserver la participation démocratique de la communauté contre la dérive vers le contrôle autocratique.",
+  "peurs": "Sans doute le triomphe du confort autoritaire et de la commodité administrative sur la démocratie ; et, dans l'ère McCarthy, l'exposition politique — son communisme reste discret, voire caché, sur le campus.",
+  "maniere_d_aimer": "Rien d'attesté sur sa vie sentimentale. On peut déduire une affection déplacée vers les marges : la communauté noire locale, les églises noires où elle enseigne l'école du dimanche, et littéralement les souris qu'elle nourrit chez elle.",
+  "rapport_au_pouvoir": "Méfiance instinctive envers l'autorité non élue ou déguisée : elle voit les conservateurs éducatifs comme des conservateurs politiques, dénonce la purge administrative contre Mary Caroline et Levi, défend la démocratie participative contre la « commodité » d'un contrôle autocratique. Mais elle exerce aussi l'autorité institutionnelle quand la communauté le mandate (mission auprès de Fiore sur son divorce).",
+  "voix": {
+   "registre": "Articulation froide et précise, questionnement direct qui démonte ; ironie sceptique ; pointes d'excentricité ascétique.",
+   "tics": "Hoche rapidement la tête ; frisson de souris dans la bouche et nez qui frétille en riant ; grincement sceptique au premier rang face aux envolées d'Olson.",
+   "exemples_paraphrases": [
+    "Demande sèche à un étudiant qui veut son cours : pourquoi veut-il étudier le français avec elle ?",
+    "Frappeée par le vote contre Mary Caroline, elle dit avoir été simplement stupéfaite"
+   ]
+  },
+  "habitudes": [
+   "Tient une French Table à la salle à manger du collège",
+   "Nourrit les souris vivant chez elle avec des boîtes de sardines garnies de restes, semées par dizaines sur les sols et étagères",
+   "Glane sur la terre pour manger (été 1954)",
+   "S'assoit au premier rang des conférences d'Olson, où elle grince sceptiquement"
+  ],
+  "convictions": [
+   "La participation démocratique doit être préservée, non sacrifiée à la commodité d'un contrôle autocratique",
+   "Engagement pour les droits civiques et la justice raciale",
+   "Éducation démocratique",
+   "Communiste — la seule sur le campus selon Rumaker — mais discrète en pleine ère McCarthy",
+   "Les conservateurs en matière d'éducation sont aussi des conservateurs politiques"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1949-09",
+    "precision": "mois",
+    "moment": "Réunion spéciale de faculté du 5 septembre : toute nouvelle, elle désapprouve la vente de terrain mais se tait, se jugeant trop mal informée et trop verte pour protester",
+    "etat_interieur": "Prudence de débutante, autocensure frustrée",
+    "refs": [
+     "EV-04896",
+     "PE-00119"
+    ]
+   },
+   {
+    "date": "1949",
+    "fin": null,
+    "precision": "periode",
+    "moment": "S'engage aussitôt hors les murs : audience auprès du gouverneur de Caroline du Nord pour Daniels, voyage au Mississippi pour Willie McGee, école du dimanche dans des églises noires, liens avec la communauté noire locale — deux efforts vains",
+    "etat_interieur": "Militantisme immédiat, têtu malgré les échecs",
+    "refs": [
+     "EV-04651",
+     "QU-01248"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "moment": "Vote-surprise du Board par bulletin secret contre le réengagement de Mary Caroline Richards : la faculté est stupéfaite, purge politique déguisée en mesure administrative",
+    "etat_interieur": "Stupeur ; le moment où sa prudence initiale se mue en vigilance militante",
+    "refs": [
+     "SC-01341",
+     "PE-00119"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Mandatée par la communauté pour parler à Joe Fiore de l'« irrégularité » de sa vie ; il accepte de modérer ses démonstrations d'affection jusqu'à son divorce",
+    "etat_interieur": "Fidèle à l'institution même quand cela la gêne (ingérence qu'un an plus tôt elle jugeait impensable, note la source)",
+    "refs": [
+     "EV-04942"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Impasse de trois mois sur la réintégration de William Levi : avec Paul Leser, elle défend Levi (gauche commune) et dénonce la lecture politique des conservateurs (Corkran défend le capitalisme, Natasha le combat anticommuniste) ; réintégration obtenue, Corkran démissionne du Board",
+    "etat_interieur": "Combativité logique, alliés politiques identifiés",
+    "refs": [
+     "EV-04944",
+     "RE-01939"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Schème d'Olson des « instituts » : seule académique (avec les artistes) à garder un espoir ; les autres perdent tout, Sprague dénonce la désintégration et part",
+    "etat_interieur": "Survivante isolée du tournage artistique du collège",
+    "refs": [
+     "EV-05614"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Enseigne l'allemand (Ellen Schasberger) puis le français à la table française ; elle prend la suite de « Madame » comme professeure de français de Rumaker, qui découvre que son français désuet à accent russe blanc est incompréhensible",
+    "etat_interieur": "Rigueur pédagogique intacte",
+    "refs": [
+     "CO-00715",
+     "CO-00714",
+     "EC-03089"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Entretien d'inscription : elle demande à Rumaker pourquoi il veut étudier le français avec elle ; l'étudiant tétanisé bafouille, Olson tranche sèchement ; elle hoche la tête et recule",
+    "etat_interieur": "Questionnement chirurgical, sans complaisance",
+    "refs": [
+     "SC-01509",
+     "EV-05700"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Conférence d'Olson sur le cloacal et le génital : au premier rang, elle grince sceptiquement comme souvent ; Olson maintient son point",
+    "etat_interieur": "Résistance rationnelle à la mythologie olsonienne",
+    "refs": [
+     "EV-06001"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Incendie du bâtiment Roadside et départs en série : elle démissionne, avec Malrey Few et Len Billing ; le collège frôle la fermeture",
+    "etat_interieur": "Rupture — la fin d'un monde",
+    "refs": [
+     "EV-05954"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Annonces dans la presse noire locale pour recruter des étudiants noirs : seulement deux jeunes filles effrayées, amenées par un avocat noir d'Asheville pour quelques cours ; le personnel noir est licencié ; elle quitte le collège, sa dernière année marquée aussi par le glanage pour manger et ses quartiers infestés de souris à l'arrière du Black Dwarf",
+    "etat_interieur": "Échec de son projet d'ouverture raciale du collège ; départ dans l'ascétisme",
+    "refs": [
+     "EV-06291",
+     "QU-01840",
+     "QU-01872",
+     "EV-06327",
+     "QU-01874",
+     "CO-00786"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Spécialiste en linguistique ; dissidente d'Olivet College (d'où son arrivée à BMC à l'automne 1949)",
+    "refs": [
+     "PE-00119"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Après son départ en 1954, elle s'engage dans plusieurs causes locales de droits civiques ; avec elle disparaît de BMC tout engagement social direct",
+    "refs": [
+     "PE-00119",
+     "EV-06291"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "William Levi",
+    "nature": "Alliance politique et amicale à la gauche",
+    "evolution": "Elle défend sa réintégration pendant l'impasse de trois mois de 1950 ; il lui confie plus tard sa réplique laconique sur la dangerosité de l'enseignement",
+    "refs": [
+     "RE-01939",
+     "EV-04944"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "Rapport critique mais loyal : sceptique au premier rang de ses conférences, sauvée par lui en entretien d'inscription",
+    "evolution": "Coexistence d'une irrévérence rationnelle constante (grincements de 1953) et d'une dette : Olson tranche en sa faveur quand elle presse Rumaker ; c'est le schème d'Olson qui la garde en 1952 comme dernière académique",
+    "refs": [
+     "EV-06001",
+     "SC-01509",
+     "EV-05700",
+     "EV-05614"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Professeure exigeante et intimidante",
+    "evolution": "Elle le tétanise en entretien (1952-53), lui enseigne le français à la table française puis en 1954 après « Madame » ; son départ livre ses quartiers aux souris que Rumaker nettoiera pour quelques dollars",
+    "refs": [
+     "SC-01509",
+     "CO-00714",
+     "CO-00786",
+     "EV-06327"
+    ]
+   },
+   {
+    "avec": "Paul Leser",
+    "nature": "Allié politique",
+    "evolution": "Ensemble ils défendent Levi en 1950 contre les conservateurs du Board",
+    "refs": [
+     "EV-04944"
+    ]
+   },
+   {
+    "avec": "Mary Caroline Richards",
+    "nature": "Solidarité de faculté",
+    "evolution": "Stupéfaite comme toute la faculté par le vote-secret de juin 1950 contre M.C.",
+    "refs": [
+     "SC-01341"
+    ]
+   },
+   {
+    "avec": "Joe Fiore",
+    "nature": "Mandataire de la morale communautaire",
+    "evolution": "Elle doit lui parler de l'« irrégularité » de sa vie ; il accepte de modérer ses démonstrations jusqu'à son divorce",
+    "refs": [
+     "EV-04942"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Son prénom est orthographié « Flola » dans la plupart des fiches mais « Fiola » chez Rumaker (Duberman p.361 ; Rumaker 2003 p.170) — probable coquille à signaler.",
+   "Les fiches placent son départ en 1953 (démission après l'incendie de Roadside, EV-05954) et en 1954 (EV-06291, EV-06327, QU-01840) : sans doute une démission annoncée en 1953 et un départ effectif en 1954, mais les sources ne le tranchent pas.",
+   "Aucune contradiction factuelle majeure ; signaler toutefois que « jusqu'à son départ en 1954 » (EV-06291) cohabite avec la démission de 1953 (EV-05954)."
+  ],
+  "situations_revelatrices": [
+   "Les réunions de faculté : sa prudence de 1949 face à la vente de terrain, puis sa stupeur de juin 1950 — le contraste révèle son arc",
+   "L'entretien chirurgical avec un étudiant intimidé, interrompu par Olson",
+   "Le premier rang des conférences d'Olson : son grincement sceptique face à la ferveur collective",
+   "Ses allers-vers : bureau du gouverneur, Mississippi, églises noires du dimanche — le campus vu depuis ses marges militantes",
+   "Le nettoyage posthume de ses quartiers aux souris par Rumaker : l'excentricité ascétique vue par les autres",
+   "Le moment où, mandatée, elle doit parler de la vie privée de Fiore : la militante des libertés appliquant la morale communautaire"
+  ],
+  "citations": [
+   "PE-00119",
+   "SC-01341",
+   "SC-01509",
+   "EV-04651",
+   "EV-04896",
+   "EV-04942",
+   "EV-04944",
+   "EV-05614",
+   "EV-05700",
+   "EV-05954",
+   "EV-06001",
+   "EV-06291",
+   "EV-06327",
+   "RE-01939",
+   "CO-00714",
+   "CO-00715",
+   "CO-00786",
+   "QU-01248",
+   "QU-01840",
+   "QU-01872",
+   "QU-01874",
+   "EC-03089"
+  ],
+  "questions_ouvertes": [
+   "Ses dates de naissance et de mort, sa biographie complète avant et après BMC",
+   "Les circonstances exactes de sa dissidence à Olivet College",
+   "La chronologie précise entre sa démission de 1953 et son départ effectif de 1954",
+   "Quelles causes locales de droits civiques précises elle embrasse après 1954",
+   "Comment son communisme s'est-il manifesté concrètement sur le campus en pleine ère McCarthy, et qui le savait",
+   "La nature de son lien personnel (si lien il y a) avec la communauté noire d'Asheville et l'avocat qui amenait les jeunes filles"
+  ]
+ }
+}

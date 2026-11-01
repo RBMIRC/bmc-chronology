@@ -1,0 +1,286 @@
+{
+ "passe": "mois",
+ "cle": "1957-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2815,
+  "sortie": 11403,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1957-11",
+  "session": "Aucune : le trimestre d'hiver n'ouvre pas (Chaddock, EV-06834) et le collège ne tient plus de session. Le campus est en extinction, sans enseignement régulier.",
+  "saison_et_climat": "Fin d'automne dans les montagnes de Caroline du Nord. Le froid est probable, puisque les cabanes de la colline sont sans chauffage (LI-01405).",
+  "situation": "Le collège n'existe plus qu'en principe. Les terres ont été vendues par parcelles, l'immobilier liquidé, la bibliothèque Rice en partie emportée par Nell Rice et le reste vendu au North Carolina Wesleyan College (EV-06766, EV-06844, EV-06910). Olson, le dernier, est parti pour Gloucester (EV-06933). Le septième et dernier numéro de la Black Mountain Review est paru à l'automne (EV-06906, CI-03449). L'esprit du lieu s'est dispersé à San Francisco, à New York et sur les routes avec les livres de Jonathan Williams (EV-06909, EV-06948). Ce qui reste sur place : la ferme travaillée par quelques étudiants épuisés (EV-06390) et les derniers occupants des cabanes (LI-01405).",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson (probablement à Gloucester après la liquidation, date exacte non précisée)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Elaine de Kooning (vernissage de sa personnelle à New York en novembre, présence non notée)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Derniers occupants de la colline des cabanes, non nommés, sans chauffage ni réfectoire",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Quelques étudiants épuisés travaillant à la ferme, non nommés",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers (encore chairman jusqu'en 1958, mais sa localisation en novembre n'est pas donnée ; sa pièce est à São Paulo entre septembre et décembre)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1957-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Exposition personnelle d'Elaine de Kooning à la galerie Tibor de Nagy à New York : portraits (Bill, Tom Hess, Harold Rosenberg, Frank O'Hara) et abstractions, dont Herzog et des titres sombres issus du meurtre de Johnny Acropolis en 1952. Schuyler note la « rawness », un critique d'Arts Magazine parle d'exécution « masterly ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06970"
+    ]
+   },
+   {
+    "date": "1957-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Une sélection des œuvres de Josef Albers est exposée à la IVe Biennale de São Paulo, au Museu de Arte Moderna.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06969"
+    ]
+   },
+   {
+    "date": "1957-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson annonce à John Rice que le reste de la bibliothèque est vendu au North Carolina Wesleyan College de Rocky Mount. Rice est furieux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06910",
+     "CF-00800",
+     "EV-06844"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "saison",
+    "ce_qui_arrive": "Parution à l'automne du septième et dernier numéro de la Black Mountain Review (Ginsberg, Kerouac, Snyder, Whalen, McClure, extrait de Naked Lunch, fragment de Last Exit to Brooklyn, recension négative de Howl par Rumaker). Creeley y voit « un aussi bon endroit que n'importe quel autre pour finir ». Du matériel existait pour un huitième numéro, mais le collège n'était plus là.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   },
+   {
+    "date": "1957-04-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit à John Rice, qui réclame environ 2000 volumes, et lui annonce la fermeture : « cette fois, John Rice, les loups ont eu tes moutons ». Il le salue comme le « Papa » du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "date": "1957-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Un juge ordonne l'arrêt des programmes éducatifs jusqu'au paiement des dettes, plus tard dans le mois où Olson est à San Francisco pour ses conférences.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06964",
+     "EV-06966",
+     "CF-00806"
+    ]
+   },
+   {
+    "date": "1957-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Daniel Dixon, ancien étudiant, apprend la fermeture et écrit dans Pageant qu'il croyait le collège invincible.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01858",
+     "CI-03463"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "periode",
+    "ce_qui_arrive": "Olson vend ce qui reste de l'immobilier, règle la question de la bibliothèque Rice et prévoit l'entretien des tombes de Jalowetz et de Max Dehn. Il tente en vain de vendre le pot shop et son terrain à un potier local.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "EV-06935"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Une photographie des archives de l'Université du Connecticut montre la communauté réunie pour l'annonce de la fermeture. Elle n'est pas datée précisément.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06949"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Selon Chaddock, la décision de fermer est prise à l'automne 1956, sans annonce publique. Cette version est en tension avec les lettres et la photo de l'annonce de 1957.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06834"
+    ]
+   }
+  ],
+  "quotidien": "Sur le campus, la ferme n'est plus travaillée que par quelques étudiants épuisés (EV-06390). Les derniers occupants vivent sur la colline des cabanes, sans chauffage ni réfectoire (LI-01405), donc sans repas communs. Il n'y a plus de cours ni de rituel : chacun suit sa voie et l'on ne se réunit que lorsqu'une menace pèse sur tous (EV-06536, EV-06537). Il n'existe aucune fiche sur la musique ni sur les cours de ce mois précis.",
+  "tensions": [
+   "Olson contre John Rice au sujet des 2000 volumes de la bibliothèque, puis la vente à Rocky Mount, que Rice vit comme une trahison (CI-03464, EV-06910)",
+   "Le dernier numéro de la Review oppose Rumaker, qui écrit la recension négative de Howl, à Ginsberg et aux Beats qui occupent désormais la revue (EV-06906, CI-03449)",
+   "La légende de Black Mountain agace le milieu du Cedar Bar, qui en a assez de l'entendre (EV-06908)",
+   "Rice réédite son autobiographie en 1957 sans les chapitres sur Black Mountain (EV-06662), ce qui efface le collège de sa propre histoire",
+   "Elaine et Bill de Kooning se séparent publiquement, sans divorce (EV-06887)",
+   "Olson refuse l'idée d'un échec (« Now, ARISE ») alors que tout se défait (EV-06766, CI-03430)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Vernissage new-yorkais d'Elaine de Kooning",
+    "date": "1957-11",
+    "lieu": "galerie Tibor de Nagy, New York",
+    "personnages": [
+     "Elaine de Kooning",
+     "critiques (James Schuyler, un critique d'Arts Magazine)"
+    ],
+    "deroule": "Dans la galerie, les portraits de Bill, Tom Hess, Harold Rosenberg et Frank O'Hara côtoient Herzog et les toiles sombres sur le meurtre de Johnny Acropolis. Schuyler parle de « rawness » et de « psychological insight ». Le lecteur sent le poids de la séparation d'avec Bill derrière les toiles.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06970",
+     "EV-06887"
+    ]
+   },
+   {
+    "titre": "Les derniers occupants de la colline",
+    "date": "1957-11",
+    "lieu": "colline des cabanes, Black Mountain",
+    "personnages": [
+     "derniers occupants non nommés",
+     "étudiants de la ferme"
+    ],
+    "deroule": "Il fait froid dans les cabanes sans chauffage. On ne mange plus ensemble. Les gens se croisent à la ferme, épuisés, et parlent de ceux qui sont partis. Le collège survit dans des gestes ordinaires qu'on ne sait plus nommer.",
+    "certitude": "deduit",
+    "refs": [
+     "LI-01405",
+     "EV-06390"
+    ]
+   },
+   {
+    "titre": "Olson écrit depuis Gloucester",
+    "date": null,
+    "lieu": "maison familiale, Gloucester",
+    "personnages": [
+     "Charles Olson",
+     "Mary Caroline Richards"
+    ],
+    "deroule": "Après la vente des dernières terres, Olson écrit à Mary Caroline Richards : « Now, ARISE ». Pour lui, la communauté s'est dispersée sans échouer. Il tient la liquidation pour une fin possible plutôt qu'un désastre.",
+    "certitude": "deduit",
+    "refs": [
+     "CI-03430",
+     "EV-06933"
+    ]
+   },
+   {
+    "titre": "Albers recrute au Cedar Bar",
+    "date": null,
+    "lieu": "Cedar Bar, New York",
+    "personnages": [
+     "Josef Albers",
+     "Welliver",
+     "Engman",
+     "Hauer"
+    ],
+    "deroule": "Albers engage trois jeunes artistes au Cedar Bar et introduit son cours Structural Organization à Yale. Oppenheimer raille qu'il aurait pu y inscrire vingt jeunes pour Black Mountain un samedi soir.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06927",
+     "EV-06928",
+     "EV-06786",
+     "EV-06908"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Novembre 1957, Olson à Gloucester, après la liquidation",
+    "vers_date": "1957-04",
+    "vers": "La lettre du 1er avril à John Rice (« les loups ont eu tes moutons ») et la réception de la fermeture comme un fait accompli.",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le vernissage new-yorkais d'Elaine de Kooning en novembre",
+    "vers_date": "1952",
+    "vers": "Le meurtre de Johnny Acropolis, président des Teamsters Local 456 de Yonkers, dont les toiles sombres tirent leur titre.",
+    "refs": [
+     "EV-06970"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre 1957, vente de la bibliothèque Rice derrière soi",
+    "vers_date": "1956-03",
+    "vers": "Le début du litige avec John Rice sur les livres prêtés à la bibliothèque.",
+    "refs": [
+     "EV-06844",
+     "EV-06910",
+     "CF-00800"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre 1957, Albers chairman encore en poste à Yale",
+    "vers_date": "1958",
+    "vers": "La fin de sa présidence de Yale et la diffusion de la méthode Bauhaus-Black Mountain, qui se poursuit jusqu'en 1962.",
+    "refs": [
+     "EV-06927",
+     "EV-06928",
+     "EV-06786"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre 1957, la légende qui circule déjà au Cedar Bar",
+    "vers_date": null,
+    "vers": "Une légende de Black Mountain qui se répand sans fin, bien au-delà du collège.",
+    "refs": [
+     "EV-06908"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre 1957, la séparation d'Elaine et Willem de Kooning",
+    "vers_date": "1977",
+    "vers": "Une séparation qui dure sans divorce jusqu'en 1977.",
+    "refs": [
+     "EV-06887"
+    ]
+   }
+  ],
+  "motifs": [
+   "fermeture par la liquidation plutôt que par un événement unique",
+   "« les loups ont eu tes moutons » et la figure du « Papa » du collège",
+   "« Now, ARISE » : dispersion sans échec",
+   "la légende qui survit à l'institution",
+   "la bibliothèque comme objet de conflit",
+   "la Review, dernière trace collective, et son numéro final"
+  ],
+  "lacunes": "Aucune fiche ne décrit la vie quotidienne, les cours ou la musique de novembre 1957. On ignore où se trouvent exactement Olson, Albers, Elaine de Kooning et les derniers occupants ce mois-là. Les sources se contredisent : Chaddock date la décision de fermer de l'automne 1956 et parle d'absence d'annonce publique, alors que la lettre à Rice d'avril 1957 et la photo de l'annonce supposent une annonce. La photo n'est pas datée. La date exacte de la lettre à Mary Caroline Richards et celle de l'arrivée de la Review sont inconnues. Le fil sur Goodman face à la jeunesse Beat (1957→1958) n'a aucune fiche détaillée."
+ }
+}

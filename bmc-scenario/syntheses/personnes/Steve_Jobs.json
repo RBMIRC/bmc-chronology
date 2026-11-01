@@ -1,0 +1,280 @@
+{
+ "passe": "personnes",
+ "cle": "Steve Jobs",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 8681,
+  "sortie": 3655,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Steve Jobs",
+  "autres_noms": [],
+  "dates_de_vie": null,
+  "statut_bmc": "N'a jamais fréquenté Black Mountain College ; figure reliée au projet par le prisme Bauhaus (source : Weber 2020) — persona à exploiter en flash-back/flash-forward, jamais en scène à BMC.",
+  "presence": [],
+  "portrait_physique": "Chevelure noire épaisse d'une netteté remarquable (naturelle ou fixée) ; tenue ultradécontractée d'habitude — jeans au coupe négligée mais cheveux soignés ; exceptionnellement cravate « noceur » à Aspen en 1983, veste ôtée, manches retroussées ; à son retour chez Apple (1997), mal rasé, en short et baskets ; plus tard, pull à col roulé simple en public, pour passer pour « un des nôtres » plutôt qu'un magnat (PE-00135, SC-02206, SC-02208).",
+  "noyau_psychologique": "Un missionnaire de l'esthétique : éduquer le goût des masses passe avant toute personne proche. Même ténacité, même volonté de perfection, même primauté de la mission sur la vie privée que Gropius, selon l'auteur (RE-02978, RE-03248). Résistance innée aux suggestions d'autrui ; indomptable devant l'impossible ; habitué à l'urgence — Apple au bord du gouffre ou compte bancaire à zéro. Goût assumé de l'ambiguïté : mutisme calculé sur l'origine de ses choix (PE-00135, EV-08432).",
+  "blessures": "Né de parents non mariés, donné en adoption dans une Amérique puritaine (contraste relevé par l'auteur avec la liberté de mœurs du Bauhaus, EC-00433) ; il nie d'abord sa propre fille Lisa née hors mariage, répétant le schéma qu'il célèbre par ailleurs comme transgression fondatrice (PE-00135, EV-08463).",
+  "desirs": "Faire de beaux objets pour tous ; mettre « un peu d'arts libéraux dans les ordinateurs » ; que la différence entre le sublime et l'ordinaire structure toute une stratégie commerciale ; restaurer la gloire d'Apple par le design (PE-00135, SC-02171, ID-04196).",
+  "peurs": null,
+  "maniere_d_aimer": "Mission d'abord, personnes ensuite : Tina Redse le quitte vers 1985 parce qu'il est « trop influencé par le mouvement Bauhaus », avec le zèle messianique de Gropius (EV-08608, EV-08609) ; paternité d'abord niée envers Lisa, puis reconnue avec retard et de façon mesquine financièrement (EV-08463).",
+  "rapport_au_pouvoir": "Affable et hardi preneur de risque, mais brutal et grossier en public quand il faut secouer une entreprise ; met l'accent sur la perception et la réponse humaine plutôt que sur les faits ; aucune distinction travail/direction chez Apple — repas communautaires, 100 % des employés actionnaires (PE-00135, EV-08559).",
+  "voix": {
+   "registre": "Direct, candide, décontracté — « voilà qui je suis et ce que je fais » — capable de crudité brutale (« les produits sont nuls ! ») comme d'humilité suppliante devant un public qu'il veut convertir ; aplomb délibérément sans prétention (« je suis un type ordinaire »).",
+   "tics": "Silence volontaire quand on l'interroge sur l'origine de ses décisions marketing ; glissements californiens de grammaire (« do it great or do it so-so ») ; ouverture par une blague sur son cachet.",
+   "exemples_paraphrases": [
+    "Ils m'ont payé soixante dollars, alors j'ai mis une cravate (Aspen, 1983).",
+    "J'ai besoin de votre aide : si vous regardez les ordinateurs… ils sont moches.",
+    "Nous avons une chance de mettre un bel objet au monde ; sinon, nous y mettons un objet laid.",
+    "Les produits. Les produits sont nuls ! Il n'y a plus rien de sexy dedans (Apple, 1997).",
+    "Il faut beaucoup de travail acharné pour faire quelque chose de simple."
+   ]
+  },
+  "habitudes": [
+   "Pèlerinages estivaux annuels à Aspen (trois étés avant 1983)",
+   "Marijuana et LSD au lycée",
+   "Louait souvent le Bauhaus nommément en privé, hors conférence d'Aspen",
+   "Chercher la solution d'un domaine dans un autre (un Cuisinart chez Macy's, comme Breuer et ses guidons de vélo)"
+  ],
+  "convictions": [
+   "La beauté et la qualité priment sur le prix ; mieux vaut peu d'objets parfaits et chers",
+   "L'informatique est un « nouveau médium » après la radio et la télévision",
+   "Les gens de l'informatique sont les plus proches des artistes",
+   "La sagesse des Grecs (Aristote, Platon) reste pleinement pertinente pour la technologie",
+   "Il faut un environnement où tous croient qu'ils changent quelque chose",
+   "Le Bauhaus comme modèle d'éducation esthétique des masses (agenda comparable à celui d'Albers, dans la communication et l'accès à l'information)"
+  ],
+  "arc_bmc": [],
+  "avant": [
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Né de parents non mariés ; le grand-père maternel menace de déshériter sa fille enceinte, conduisant à l'adoption — contraste avec la tolérance du Bauhaus pour les familles non conventionnelles (flash-back possible).",
+    "refs": [
+     "EC-00433"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Lycée : marijuana et LSD ; couple avec Chrisann Brennan ; les parents habitent un été une cabane puis une maison modeste à Cupertino.",
+    "refs": [
+     "PE-00135",
+     "EV-08463"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Études à Reed College, Portland, interrompues sans diplôme — durée contestée entre sources (un trimestre selon Lisa Brennan-Jobs, deux ans selon Isaacson).",
+    "refs": [
+     "PE-00135"
+    ]
+   },
+   {
+    "date": "1976",
+    "precision": "annee",
+    "moment": "Cofonde Apple Computer avec Wozniak.",
+    "refs": [
+     "PE-00135",
+     "EV-08431"
+    ]
+   },
+   {
+    "date": "1977",
+    "precision": "annee",
+    "moment": "Conception du logo : McKenna engage Rob Janoff, qui découpe un sac de pommes ; Jobs choisit la version mordue (risque de confusion avec une cerise) et impose la couleur malgré les coûts ; gardera ensuite le silence sur l'hypothèse Turing, par goût de l'ambiguïté.",
+    "refs": [
+     "EV-08431",
+     "EV-08432"
+    ]
+   },
+   {
+    "date": "1978",
+    "precision": "annee",
+    "moment": "Naissance de Lisa Brennan-Jobs : Jobs nie la paternité, se prétend stérile ; test ADN en 1980 ; responsabilité financière modeste ; il nommera pourtant l'ordinateur Lisa d'après elle.",
+    "refs": [
+     "EV-08463",
+     "RE-03192"
+    ]
+   },
+   {
+    "date": "1980",
+    "precision": "annee",
+    "moment": "Échecs commerciaux de l'Apple III puis du Lisa (trop cher) ; trois mille Lisa invendus enterrés en Utah.",
+    "refs": [
+     "EV-08499"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1983",
+    "precision": "annee",
+    "moment": "Discours à l'Aspen Institute, dans le bâtiment de Bayer : vingt minutes, cachet de 60 dollars, plaidoyer pour des ordinateurs beaux ; public conquis. N'y nomme jamais le Bauhaus — ironie vérifiée en 2012 par la réécoute des bandes retrouvées.",
+    "refs": [
+     "EV-08557",
+     "EV-08558",
+     "EV-08776",
+     "EV-08777",
+     "SC-02171"
+    ]
+   },
+   {
+    "date": "1985",
+    "precision": "annee",
+    "moment": "Tina Redse le quitte notamment parce qu'il est « trop influencé par le Bauhaus » ; il quitte Apple, fonde NeXT et Pixar.",
+    "refs": [
+     "EV-08608",
+     "EV-08609",
+     "EV-08732"
+    ]
+   },
+   {
+    "date": "1997",
+    "precision": "annee",
+    "moment": "Retour chez Apple comme CEO intérimaire après le rachat de NeXT et le limogeage d'Amelio ; discours de juillet : « les produits sont nuls » — Ive, prêt à démissionner, décide de rester.",
+    "refs": [
+     "EV-08732",
+     "EV-08743",
+     "SC-02206"
+    ]
+   },
+   {
+    "date": "1998",
+    "precision": "annee",
+    "moment": "Dévoilement du « c-I » sous un drap gris ; bataille du nom : MacMan refusé par Segall, iMac rejeté deux fois avant d'être accepté ; naissance du préfixe i.",
+    "refs": [
+     "EV-08747",
+     "SC-02207"
+    ]
+   },
+   {
+    "date": "2006",
+    "precision": "annee",
+    "moment": "Impose à Corning de relancer le Chemcor en six semaines, épaisseur maximale 1,3 mm — Gorilla Glass ; écrira à son contact le jour du lancement : « Nous n'aurions pas pu le faire sans vous ».",
+    "refs": [
+     "EV-08762"
+    ]
+   },
+   {
+    "date": "2007-01-09",
+    "precision": "jour",
+    "moment": "Lancement de l'iPhone à la Macworld : pull à col roulé, objet plus petit que sa paume, logo Apple blanc sur écran noir — l'auteur y voit l'accomplissement des objectifs du Bauhaus.",
+    "refs": [
+     "EV-08765",
+     "SC-02208"
+    ]
+   },
+   {
+    "date": "2011",
+    "precision": "annee",
+    "moment": "Biographie d'Isaacson : malentendu répandu selon lequel Jobs citait le Bauhaus nommément ; rectifié en 2012 par la réécoute des bandes d'Aspen.",
+    "refs": [
+     "EV-08775",
+     "EV-08776"
+    ]
+   },
+   {
+    "date": "2018",
+    "precision": "annee",
+    "moment": "Lisa Brennan-Jobs publie un livre sur l'histoire de ses parents (flash-forward possible sur la blessure paternelle).",
+    "refs": [
+     "EV-08463"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Walter Gropius",
+    "nature": "admiration à distance (Gropius mort en 1969)",
+    "evolution": "Parallèle dressé par l'auteur : même charisme missionnaire, même refus des produits d'élite, même primauté de la mission sur la vie privée — mais Jobs moins raffiné, plus décontracté, fils de modeste mécanicien face à la formalité de Gropius.",
+    "refs": [
+     "RE-02978",
+     "RE-03248",
+     "PE-00135"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "parallèle établi par l'auteur",
+    "evolution": "Même goût de l'invention au service d'un besoin universel, même refus de l'obscurité et de l'élitisme ; agenda comparable dans la communication et l'accès à l'information.",
+    "refs": [
+     "RE-00264"
+    ]
+   },
+   {
+    "avec": "Herbert Bayer",
+    "nature": "admiration",
+    "evolution": "Jobs admire le fondateur d'Aspen et prêche depuis son bâtiment sans jamais le nommer ; croit sans doute Bayer pure victime du nazisme.",
+    "refs": [
+     "RE-03231",
+     "RE-03334",
+     "EV-08557"
+    ]
+   },
+   {
+    "avec": "Jony Ive",
+    "nature": "mentorat / collaboration",
+    "evolution": "Après l'humiliation publique de 1997, Ive renonce à démissionner et devient le réalisateur de la vision de Jobs ; partenariat qui perpétue les valeurs Bauhaus.",
+    "refs": [
+     "RE-03267",
+     "RE-03273",
+     "EV-00822",
+     "SC-02206"
+    ]
+   },
+   {
+    "avec": "Chrisann Brennan",
+    "nature": "rejet",
+    "evolution": "Négation de paternité, test ADN, responsabilité financière mesquine ; reconnaissance tardive du lien entre l'ordinateur Lisa et sa fille.",
+    "refs": [
+     "RE-03192",
+     "EV-08463"
+    ]
+   },
+   {
+    "avec": "Tina Redse",
+    "nature": "amour rompu",
+    "evolution": "Elle le quitte vers 1985 en raison de son zèle messianique hérité du Bauhaus/Gropius : la mission dévore la vie privée.",
+    "refs": [
+     "EV-08608",
+     "EV-08609",
+     "RE-03232"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Durée des études à Reed College : un trimestre (Lisa Brennan-Jobs) contre deux ans (Isaacson).",
+   "Isaacson (2011) suggère la révérence de Jobs pour le Bauhaus au point que les admirateurs d'Apple en ont déduit qu'il le citait nommément ; les bandes d'Aspen retrouvées en 2012 montrent qu'il ne le nomme jamais — hors conférence, il le louait pourtant souvent nommément selon l'auteur.",
+   "Mythe Turing de la pomme mordue : populaire mais démenti par Janoff ; Jobs, interrogé, garde le silence (fiche classée « conteste »).",
+   "Se dit « un type ordinaire » tout en étant inventeur-millionnaire ; célèbre la transgression sociale de sa propre naissance tout en niant d'abord sa fille hors mariage."
+  ],
+  "situations_revelatrices": [
+   "L'estrade d'Aspen : la cravate portée pour 60 dollars, retirée avec la veste — le missionnaire décontracté convertissant une élite du design",
+   "L'auditorium d'Apple 1997 : brutalité publique (« les produits sont nuls ») suivie d'un idéalisme qui retient Ive",
+   "Le drap gris de 1998 : nommer comme acte de design, la défaite deux fois répétée avant de céder sur iMac",
+   "Le face-à-face impossible avec Corning : six semaines, 1,3 mm — l'indomptable devant l'impossible",
+   "Les scènes privées ratées : Lisa niée, Tina partie à cause du Bauhaus"
+  ],
+  "citations": [
+   "CI-01226",
+   "CI-01227",
+   "CI-04308",
+   "CI-04309",
+   "CI-04310",
+   "CI-04390",
+   "CI-04391",
+   "CI-04395",
+   "CI-04409"
+  ],
+  "questions_ouvertes": [
+   "Aucune date de naissance ni de mort dans les fiches (seul 1976-2011 balise la trajectoire Apple) ; à documenter.",
+   "Ce que Jobs savait précisément de Black Mountain College en tant qu'institution distincte du Bauhaus : les fiches ne parlent que de sa fascination pour le « collège expérimental et ses génies », sans préciser lequel.",
+   "Contenu exact de ses trois étés à Aspen avant 1983, au-delà de la conférence attestée.",
+   "Sa vie domestique au moment du retour chez Apple, et les détails de la relation avec Lisa après 1980, hors la publication de 2018."
+  ]
+ }
+}

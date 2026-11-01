@@ -1,0 +1,237 @@
+{
+ "passe": "personnes",
+ "cle": "Norman Weston",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 3309,
+  "sortie": 2398,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Norman Weston",
+  "autres_noms": [],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant boursier, présent dès la fondation (1933) jusqu'en 1938 ; se définit comme « pas étudiant en art du tout »",
+  "presence": [
+   {
+    "debut": "1933",
+    "fin": "1938",
+    "precision": "annee",
+    "role": "étudiant, l'un des tout premiers de Black Mountain College ; marié sur place à Nan Chapin en 1935",
+    "refs": [
+     "PE-00151",
+     "RE-00977",
+     "EV-02400"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Puritaine rigueur doublée de loyauté affectueuse : il n'est pas venu à Black Mountain par conviction, mais par amour pour Nan et par une bourse — puis le lieu et ses maîtres l'ont façonné. Il se vit comme un homme de « standards », d'ordre et de précision, qui réserve son admiration à ceux qui la méritent durablement (Rice, Albers). Pragmatique : il finira banquier.",
+  "blessures": "Famille sans argent pour ses études — la bourse de Rice est une dette morale qui explique son admiration indéfectible envers le fondateur, même après sa chute.",
+  "desirs": "L'avenir du collège et le maintien de « standards » ; apprendre malgré lui (ordre et précision d'Albers) ; fonder une famille stable avec Nan.",
+  "peurs": "Le désordre, la dérive — d'où son malaise face à la déchéance matérielle de Rice à Folly Beach.",
+  "maniere_d_aimer": "Suivre : il suit Nan à Black Mountain ; leur lien devient un mariage en 1935 et une vie entière partagée (quatre enfants, plus de vingt conseils d'associations caritatives servis ensemble).",
+  "rapport_au_pouvoir": "Indifférent d'abord à l'agitation autour de Rice, il en vient à voir en lui « la force motrice » et en Dreier le pilier pratique ; il juge les hommes à l'aune de leurs standards, pas de leur statut.",
+  "voix": {
+   "registre": "Sobre, mesuré, un peu solennel ; l'humour passe par la litote et le regard rétrospectif",
+   "tics": "Témoignage tardif à la première personne du pluriel (« nous étions ») ; formulation sentencieuse",
+   "exemples_paraphrases": [
+    "Nous étions une bande de puritains, assis là-haut sur la montagne",
+    "Cela paraît risible, mais c'étaient des questions sérieuses",
+    "Ne vous y trompez pas : c'était lui la force motrice",
+    "On pouvait simplement s'asseoir avec Albers ou Rice et parler"
+   ]
+  },
+  "habitudes": [
+   "Participation assidue aux réunions communautaires (ferme, repas du dimanche)",
+   "Travail d'impression avec Albers sur le rapport annuel du collège",
+   "Achat d'art modeste mais fidèle (tirage de Kandinsky à cinq dollars)"
+  ],
+  "convictions": [
+   "Rice fut la force majeure des premières années, Dreier tenait la place en pratique",
+   "Avec le temps, Albers s'impose comme un très grand professeur",
+   "Les débats communautaires les plus triviaux (nombre de repas dominicaux) étaient des questions sérieuses",
+   "Une communauté doit avoir des standards"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Suit sa petite amie Nan Chapin, ardente partisane de Rice ; sa famille ne peut payer ses études, Rice lui offre une bourse complète",
+    "etat_interieur": "indifférent d'abord à l'agitation autour de Rice, guidé par l'amour et la nécessité financière",
+    "refs": [
+     "PE-00151",
+     "EV-01991",
+     "RE-00872",
+     "RE-00873"
+    ]
+   },
+   {
+    "date": "1933-09",
+    "precision": "mois",
+    "moment": "Sur la véranda de Lee Hall, avec Nan et Dreier, accueille les Albers qui débarquement du Bauhaus, presque sans anglais",
+    "etat_interieur": "curiosité amusée et affectueuse — « un tableau agréable à garder en mémoire »",
+    "refs": [
+     "SC-00546",
+     "EV-02043"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "moment": "Réunion communautaire : trois étudiants proposent la ferme ; longue discussion, vote unanime",
+    "etat_interieur": "investi dans la vie communautaire jusqu'à ses détails les plus concrets",
+    "refs": [
+     "SC-00567",
+     "EV-02216"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "moment": "Épouse Nan à Black Mountain",
+    "etat_interieur": "ancrage définitif : le collège devient aussi son foyer",
+    "refs": [
+     "EV-02400",
+     "RE-00977"
+    ]
+   },
+   {
+    "date": "1933",
+    "fin": "1938",
+    "precision": "periode",
+    "moment": "Travaille avec Albers et un imprimeur local sur le rapport annuel ; en retire une leçon d'ordre et de précision, impose à l'imprimeur un standard nouveau",
+    "etat_interieur": "l'élève « pas artiste » se laisse transformer par le maître",
+    "refs": [
+     "EV-02161",
+     "PE-00151"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "annee",
+    "moment": "Avec Nan, visite Rice exilé à Folly Beach ; Rice demande discrètement à Nan un prêt de cinq dollars pour du whiskey",
+    "etat_interieur": "gêne intime, confrontation douloureuse avec la chute du fondateur admiré",
+    "refs": [
+     "SC-00696",
+     "EV-02676"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Famille sans ressources pour financer ses études ; relation avec Anne « Nan » Chapin",
+    "refs": [
+     "PE-00151",
+     "EV-01991"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1940",
+    "precision": "annee",
+    "moment": "MBA à Harvard",
+    "etat_interieur": null,
+    "refs": [
+     "PE-00151"
+    ]
+   },
+   {
+    "date": "1942",
+    "fin": "1946",
+    "precision": "periode",
+    "moment": "Service dans l'U.S. Navy pendant la guerre",
+    "etat_interieur": null,
+    "refs": [
+     "PE-00151"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Analyste à la National Bank of Detroit ; quatre enfants avec Nan ; plus de vingt conseils d'associations caritatifs servis à deux ; vice-président d'un conseil jusqu'à la retraite en 1979",
+    "etat_interieur": "fidélité durable aux valeurs communautaires apprises à BMC",
+    "refs": [
+     "PE-00151",
+     "RE-00977"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Invité Albers à donner une conférence à Detroit ; Albers décline, prétextant être débordé, puis lui demande ce qu'il avait fait du tirage de Kandinsky acheté cinq dollars quarante ans plus tôt — dernier contact avant la mort d'Albers",
+    "etat_interieur": "attachement intact à son ancien maître, réciproque",
+    "refs": [
+     "EV-02162",
+     "RE-00753"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Nan Weston (née Anne Chapin)",
+    "nature": "amoureux puis mariage (1935)",
+    "evolution": "C'est elle qui l'entraîne à Black Mountain ; union durable, carrière et philanthropie partagées",
+    "refs": [
+     "RE-00872",
+     "RE-00977",
+     "EV-02400"
+    ]
+   },
+   {
+    "avec": "John Andrew Rice",
+    "nature": "mentorat (bourse complète)",
+    "evolution": "De bienfaiteur à figure déchue mais toujours admirée : Weston le rappelle des décennies plus tard comme « la force motrice » ; le voit emprunter cinq dollars à Folly Beach",
+    "refs": [
+     "RE-00873",
+     "EV-01991",
+     "SC-00696",
+     "CI-01101"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "mentorat (ordre et précision)",
+    "evolution": "De l'accueil sur la véranda (1933) au travail d'impression du rapport annuel, jusqu'à un dernier échange téléphonique où Albers se souvient du tirage de Kandinsky",
+    "refs": [
+     "RE-00753",
+     "SC-00546",
+     "EV-02161",
+     "EV-02162"
+    ]
+   },
+   {
+    "avec": "Theodore Dreier",
+    "nature": "relation communautaire",
+    "evolution": "Weston le crédite d'avoir tenu la place en pratique pendant que Rice portait la vision",
+    "refs": [
+     "PE-00151"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Weston se dit d'abord peu au courant de l'agitation autour de Rice, mais devient avec le temps son ardent défenseur — l'évolution est interne au témoignage, pas entre sources",
+   "Les fiches sur l'arrivée des Albers divergent légèrement entre elles (Dreier conduisant la voiture selon Lane ; week-end new-yorkais puis train selon Horowitz & Danilowitz) — sans effet direct sur Weston"
+  ],
+  "situations_revelatrices": [
+   "Les réunions communautaires interminables (repas du dimanche, ferme) où son sérieux puritain s'affiche",
+   "L'accueil des Albers sur la véranda : l'œil amusé et affectueux du témoin",
+   "La visite à Folly Beach : la gêne face à la misère de l'ancien héros",
+   "Le dernier appel téléphonique avec Albers : la mémoire longue des maîtres"
+  ],
+  "citations": [
+   "CI-01076",
+   "CI-01101"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort de Weston",
+   "Ce qu'il a exactement étudié à BMC et son rôle étudiant au quotidien",
+   "Ce que devient le tirage de Kandinsky",
+   "Le déroulé de son départ en 1938 et ses sentiments sur la crise du collège et le départ de Rice"
+  ]
+ }
+}

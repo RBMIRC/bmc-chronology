@@ -1,0 +1,516 @@
+{
+ "passe": "mois",
+ "cle": "1952-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 17386,
+  "sortie": 19801,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1952-09",
+  "session": "Rentrée d'automne, juste après la session d'été : les cours reprennent, mais Olson est absent et l'enseignement n'a pas encore pris sa forme. Rumaker parle de 35 inscrits à l'automne 1952.",
+  "saison_et_climat": "Fin d'été qui glisse vers l'automne : matins de brume sur les montagnes, soleil levant qui rougit l'argile des déblais, journées tièdes, fraîches et croustillantes. Dans la pâture, maïs fané et chênes qui résistent ; près du lac Eden, un héron blanc dans les roseaux.",
+  "situation": "Le collège redémarre dans un climat de vide relatif. Charles Olson est absent, et les fiches le placent soit à Washington, soit au Yucatan. Rauschenberg et Twombly sont partis pour l'Italie, Paul Goodman a été prié de quitter le collège et son chien orange a disparu du campus. Hazel Larsen tient l'administration et répartit les nouveaux dans les logements. Les boursiers travaillent à la ferme et à la construction d'un hangar à tabac, tandis que les cours de Huss, Morley et Goldowski commencent sans Olson. Les arrivants de septembre (Rumaker, Dorothy Darrell, une scientifique blonde, Jorge Fick) découvrent des conditions rudes et des colocations imposées.",
+  "presents_probables": [
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hazel Frieda Larsen",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jorge Fick",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Eric Weinberger",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Terence Burns",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Don Jones (étudiant en peinture)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Don (étudiant en langues, nom de famille absent)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "un étudiant du Vermont (non nommé)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Doyle Jones (fermier, à ne pas confondre avec Don Jones)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fielding Dawson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wesley Huss",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Merrill Gillespie",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Herb Roco",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eric Renner",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hilda Morley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Glenn Lewis",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dorothy Darrell",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tommy Jackson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Pat Nelson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "la scientifique blonde (nom non donné dans la fiche)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Karnes et Weinrib (potiers, atelier de Turner)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker arrive avec une bourse de travail. Il traverse la ségrégation dans le train, monte au collège à l'aube et dort dans un study vide du Studies Building.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05850",
+     "EV-05851",
+     "EV-05852",
+     "EV-05853",
+     "SC-01559",
+     "SC-01561"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Hazel Larsen pose les conditions de la bourse : quatre heures de ferme par jour, cinq jours sur sept, contre scolarité et pension. Elle annonce qu'Olson, en congé pour recherches, n'enseignera peut-être qu'à la fin de l'automne.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05854"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Jorge Fick, arrivé de Détroit, refuse la colocation imposée. Rumaker est renvoyé au dortoir des hommes, dans South Lodge, et installé près de la porte.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05855",
+     "SC-01560"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker découvre le dortoir sous les toits, huit lits, douche commune. Il y rencontre Eric Weinberger, Terence Burns et un vétéran de Corée qui étudie avec le GI Bill.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05856"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Travail de chocage du maïs : couper les tiges au couteau, les lier en bottes pour le silo. Il faut aussi transporter les lourds bidons de lait en Jeep vers la cuisine. Terence chante et récite Villon.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05858",
+     "EV-05859",
+     "EV-05860",
+     "SC-01562"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker s'inscrit aux cours d'automne d'Huss (théâtre), de Morley (poésie), de Goldowski (physique) et de Mme Goldowski (tutorat de français), alors qu'Olson est absent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05863"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Exercice d'improvisation au réfectoire : Huss commande « Be a tree, be a reed » et un étudiant (appelé Fee dans la source) refuse de plier.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01564"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Dimanche matin, Rumaker marche au-delà des fermes. Il croise des chiens aboyeurs et sent les regards derrière les rideaux : les fermiers sont peut-être à l'église.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05865"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Dorothy Darrell arrive, poussée par son amie Pat Nelson. Début de la romance avec Tommy Jackson.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05872"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Glenn Lewis, ancien étudiant devenu mathématicien à Princeton, revient en visite à l'automne. Rumaker s'éprend de lui, et les longues causeries sur le pallet commencent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05875",
+     "EC-02890"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker voit Merrill Gillespie pour la première fois dans le hall de Meadows Inn, assis à côté de Herb Roco. Ses oreilles le fascinent et le répugnent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05878",
+     "SC-01570"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson est absent. Rumaker parle d'un congé de recherches à Washington, Molesworth d'une subvention Wenner-Gren pour étudier les glyphes au Yucatan. Les deux versions ne sont pas conciliables.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05854",
+     "EV-05863",
+     "EV-05879"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Rauschenberg part en Italie avec Twombly à la fin de l'été, après une dépression liée à la séparation d'avec Susan Weil. Twombly y bénéficie d'une bourse de voyage.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05747",
+     "EV-05849"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Un matin de septembre, Dawson arrache sa verrue morceau par morceau, au pouce, pendant sa toilette. L'obsession prend fin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05881"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Devant North Lodge, une scientifique blonde arrive en break. Dawson, membre du comité des admissions, l'aide avec les valises. Ils deviennent amants pour un temps.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05882"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Dawson et Dan Rice dressent la superstructure du hangar à tabac sur la pâture. Les clous 20-penny plient ou refusent d'entrer dans le chêne. Dan guide de loin, les planches 1x5 sont posées en équilibre, et le niveau à bulle confirme l'aplomb.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05883",
+     "EV-05884",
+     "EV-05885",
+     "EV-05886",
+     "EV-05887",
+     "SC-01571",
+     "SC-01572"
+    ]
+   },
+   {
+    "date": "1952-09-04",
+    "precision": "jour",
+    "ce_qui_arrive": "Lettre de Sawyer à Schweikher : celui-ci accepte la présidence du département d'architecture de Yale, grâce à la persuasion de George Howe.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05888"
+    ]
+   }
+  ],
+  "quotidien": "Les journées commencent à la ferme ou au réfectoire. Les boursiers coupent le maïs au couteau, ficellent les bottes, transportent le lait en Jeep et montent le hangar à tabac à coups de marteau. Les cours ont lieu l'après-midi et le matin : théâtre le soir, poésie à la bibliothèque, physique dans le hall de Meadows Inn, français dans l'arrière-salon de Streamside. On fume des Sobranie, on lit, on se retrouve au réfectoire après le souper pour les exercices d'improvisation. Les étudiants marchent dans les collines, observent les vaches et les chiens des fermes, et Terence entonne « Auprès de ma blonde » en travaillant. La musique n'est pas attestée pour ce mois.",
+  "tensions": [
+   "L'absence d'Olson fait peser un doute sur l'enseignement attendu et sur l'autorité pédagogique du collège.",
+   "Jorge Fick contre Hazel Larsen : la colocation imposée tourne à l'affrontement, et Rumaker en fait les frais.",
+   "Rumaker contre les étudiants du Vermont et les allusions qui le visent ; il se sent exposé et soupçonné.",
+   "Fee refuse de plier devant Huss : autorité pédagogique contre intégrité d'artiste, pacifisme quaker en toile de fond.",
+   "Le chêne contre le corps : Dawson et Dan Rice se heurtent à un matériau que rien ne prépare à leur panique.",
+   "Rumaker et Merrill : répulsion et attirance mêlées, une tension qui n'a pas encore de nom.",
+   "Le départ de Goodman et de Rauschenberg-Twombly laisse un vide dans le campus.",
+   "Les colocations forcées et la vie en dortoir mettent en friction les nouveaux arrivants."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Première nuit : le study vide et le héron",
+    "date": "1952-09",
+    "lieu": "Studies Building, BMC",
+    "personnages": [
+     "Michael Rumaker"
+    ],
+    "deroule": "Le campus est désert, le chien orange de Goodman a disparu. Rumaker traîne sa valise jusqu'au Studies Building, trouve un study ouvert avec un matelas nu, aperçoit le lac, le héron et la brume sur les montagnes, puis s'endort. Odeur de moisi et de térébenthine.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01559"
+    ]
+   },
+   {
+    "titre": "« Qu'est-ce que tu fous ici ? »",
+    "date": "1952-09",
+    "lieu": "South Lodge, chambre de Jorge Fick",
+    "personnages": [
+     "Michael Rumaker",
+     "Jorge Fick",
+     "Hazel Frieda Larsen"
+    ],
+    "deroule": "Rumaker vient de faire le lit quand la porte claque. Jorge, arrivé de Détroit, l'apostrophe, apprend la colocation imposée, jure contre Hazel, sort se plaindre au bureau, revient inflexible. Rumaker est envoyé au dortoir, lit près de la porte.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01560"
+    ]
+   },
+   {
+    "titre": "Le wagon-restaurant ségrégué",
+    "date": "1952-09",
+    "lieu": "Train vers l'ouest de la Caroline du Nord",
+    "personnages": [
+     "Michael Rumaker",
+     "des passagers noirs (non nommés)"
+    ],
+    "deroule": "Au matin, une file de passagers noirs traverse le couloir. Les tables blanches sont vides et Rumaker est installé seul. Un groupe est parqué à l'unique table réservée. Le train grimpe en tire-bouchon vers la Swannanoa, et Rumaker mesure l'injustice des prix identiques pour tous.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01561"
+    ]
+   },
+   {
+    "titre": "Bottelage du maïs et chansons françaises",
+    "date": "1952-09",
+    "lieu": "Champ de maïs de la ferme",
+    "personnages": [
+     "Michael Rumaker",
+     "Terence Burns",
+     "Don Jones",
+     "Eric Weinberger",
+     "Don (étudiant en langues)",
+     "un étudiant du Vermont"
+    ],
+    "deroule": "Courbés rang après rang, les étudiants tranchent les tiges mortes et ficellent les bottes. Terence chante et récite Villon, parle français avec Don. Eric Weinberger travaille à l'écart, silencieux. L'étudiant du Vermont lance des débats philosophiques et des allusions à l'homosexualité. Une salamandre orange à pois bleus surprend tout le monde.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01562"
+    ]
+   },
+   {
+    "titre": "« Be a reed » : Fee refuse de plier",
+    "date": "1952-09",
+    "lieu": "Réfectoire",
+    "personnages": [
+     "Wesley Huss",
+     "Fielding Dawson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Après le souper, Huss lance l'exercice : « Be a tree, be a reed… Be the wind ». Les autres se lancent comme des atomes d'air. Fee, bras croisés sur son blouson délavé, argumente pour refuser de plier. La tension se lit sur le visage de Huss.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01564"
+    ]
+   },
+   {
+    "titre": "Oreilles de chauve-souris à Meadows Inn",
+    "date": "1952-09",
+    "lieu": "Lobby de Meadows Inn",
+    "personnages": [
+     "Michael Rumaker",
+     "Merrill Gillespie",
+     "Herb Roco"
+    ],
+    "deroule": "Assis deux ou trois rangs derrière, Rumaker fixe l'arrière de la tête de Merrill. Les oreilles se transforment, dans son imagination, de chauve-souris en faon puis en satyre. Il frissonne, se force à détourner le regard, et se dit qu'il ne pourrait jamais être attiré par de telles oreilles.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01570",
+     "EV-05878"
+    ]
+   },
+   {
+    "titre": "Premier clou dans le chêne",
+    "date": "1952-09",
+    "lieu": "Lower Pasture, grange à tabac",
+    "personnages": [
+     "Fielding Dawson",
+     "Dan Rice"
+    ],
+    "deroule": "Dawson tient un poteau en biais, tente d'amorcer un clou 20-penny et échoue malgré son bras. Il regarde Dan, affolé : « I can't get the nails in! » Dan répond calmement : « That's oak. » Dawson jette le poteau, contemple le paysage ouvert, puis réalise qu'il faut construire tout le bâtiment avec ce bois.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01571",
+     "SC-01572",
+     "EV-05884",
+     "EV-05885"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker dans le wagon ségrégué et son sentiment de criminalité, en train de rejoindre Black Mountain",
+    "vers_date": null,
+    "vers": "Le livre interdit confisqué par sa mère à douze ans, A Tree Grows in Brooklyn, et le même frisson de transgression",
+    "refs": [
+     "EC-02863",
+     "EV-05851"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker voit le jeune homme en seersucker s'éloigner sur le quai de Charlottesville, à la recherche de sa voie",
+    "vers_date": "1952-09",
+    "vers": "Glenn Lewis, béguin de l'automne : même figure sûre, respectable, qui séduisait déjà Rumaker",
+    "refs": [
+     "EC-02890",
+     "EC-02865"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Dawson arrache sa verrue au pouce dans la salle de bains de South Lodge",
+    "vers_date": null,
+    "vers": "Le rituel de la verrue, environ deux ans et demi plus tôt, quand Franz et Nancy sont encore là",
+    "refs": [
+     "EV-05881"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'odeur de moisi du study à l'arrivée de Rumaker",
+    "vers_date": "1952-06",
+    "vers": "La visite de juin à Roadside, première fois qu'il sent cette odeur qui deviendra « l'odeur de Black Mountain »",
+    "refs": [
+     "EC-02864",
+     "SC-01559"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker traverse le wagon ségrégué et découvre la dureté du monde",
+    "vers_date": "1956-09-30",
+    "vers": "Sa lettre à Olson de 1956 sur le mensonge créateur, nourrie de la remarque de Virginia « You exaggerate everything »",
+    "refs": [
+     "EC-02878",
+     "EC-02876"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Glenn Lewis, de retour en visite, s'apprête à repartir pour Princeton",
+    "vers_date": "1954",
+    "vers": "Rumaker à Princeton puis à Hoboken, où il rencontre le Goodman complet, et les prêts de 1958",
+    "refs": [
+     "EC-02891",
+     "EC-02892"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les oreilles de Merrill, premier frisson de Rumaker dans le lobby de Meadows Inn",
+    "vers_date": null,
+    "vers": "La leçon de Stendhal apprise à son dernier été au collège : la poursuite est plus vivifiante que la capture",
+    "refs": [
+     "EC-02809"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Hilda Morley enseigne la poésie à la bibliothèque, à l'automne 1952",
+    "vers_date": "1953",
+    "vers": "Sa dernière apparition en classe après Henry James, puis la pose nue à l'institut d'été 1953 chez Esteban Vicente",
+    "refs": [
+     "EC-02874"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les soupers de Nell Rice, bienveillants, à l'automne 1952",
+    "vers_date": null,
+    "vers": "La veuve de John Rice, dont les procès abattront le collège des années plus tard",
+    "refs": [
+     "EC-02889"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les discussions sur le hasard à Black Mountain, à l'été et à l'automne 1952",
+    "vers_date": null,
+    "vers": "Les attaques contre Cage après Black Mountain : de qui est l'intention dans l'acte expérimental ?",
+    "refs": [
+     "EC-02850",
+     "EV-05782"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le chêne qui résiste et le corps qui se défait : l'initiation physique au collège mourant",
+   "Les oreilles et la fascination répulsive : Éros trickster",
+   "Be a reed : plier ou tenir, la leçon d'Huss contre l'intégrité d'artiste",
+   "L'odeur de Black Mountain : moisi, peinture à l'huile et térébenthine",
+   "Le criminel en transit : la ségrégation et le sentiment de transgression de Rumaker",
+   "Le vide et le hasard qui s'annoncent dans le silence du campus",
+   "L'absence d'Olson, qui plane sur tout le mois",
+   "Le héron blanc et la salamandre orange : images de la nature qui se glissent dans le quotidien"
+  ],
+  "lacunes": "Olson : les fiches donnent deux lieux incompatibles (Washington chez Caresse Crosby selon Rumaker, Yucatan selon Molesworth), et les dates de son absence ne sont pas précisées. Les jours exacts sont inconnus pour presque tous les événements de septembre. On ne sait pas si Cage, Tudor, Cunningham ou Tworkov sont encore là en septembre. Pat Nelson et Tommy Jackson sont évoqués sans dates précises de présence. La scientifique blonde n'est pas nommée. « Fee » n'est pas identifié. Doyle Jones (fermier) et Don Jones (étudiant en peinture) sont deux personnages distincts, mais les fiches ne les distinguent pas toujours. Les dates de l'arrivée de Glenn Lewis (« automne ») et de la fin de l'été pour Rauschenberg et Twombly restent floues. La vie musicale du mois n'est pas documentée."
+ }
+}

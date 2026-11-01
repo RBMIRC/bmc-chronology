@@ -1,0 +1,172 @@
+{
+ "passe": "personnes",
+ "cle": "Barbara Steinau",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2183,
+  "sortie": 4960,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Barbara Steinau",
+  "autres_noms": [
+   "Barbara (épouse de Mort Steinau)"
+  ],
+  "dates_de_vie": "Inconnues : les fiches ne donnent ni naissance ni mort. Elle est encore vivante et interrogée à la fin des années 1960 ou au début des années 1970, et publiée en 1972.",
+  "statut_bmc": "Probablement étudiante dans les années 1930, d'après sa réflexion sur le fait de juger quelqu'un « comme étudiant ou comme être humain » (déduit, PE-00240). Épouse ou compagne de Mort Steinau, lui aussi lié à la période. Elle est ensuite témoin pour Duberman.",
+  "presence": [
+   {
+    "debut": "1934",
+    "fin": "1938",
+    "role": "Étudiante (déduit) du collège dans le milieu des années 1930, à une date approximative (≈1934→1938). Elle est liée à l'affaire de Floride, dont les auditions datent d'avril 1937 et que Mort et elle racontent plus tard.",
+    "refs": [
+     "PE-00240",
+     "RE-00943",
+     "SC-00581",
+     "EV-02263",
+     "EC-01369"
+    ]
+   },
+   {
+    "debut": "1933",
+    "fin": "",
+    "role": "Observatrice du magasin du collège à système d'honneur, expérience des années 1930. La fiche est ancrée sur une fourchette large (≈1933→1972) qui correspond au témoignage rapporté, pas à un séjour précis.",
+    "refs": [
+     "EV-01778",
+     "ID-00908"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucun détail physique dans les fiches. Seule l'impression de Duberman est attestée : une femme chaleureuse, extravertie, énergique, qui lui plaît immédiatement. Le corps, l'âge, le vêtement, la voix sont à inventer.",
+  "noyau_psychologique": "Idéaliste communautaire à qui l'expérience a donné de la lucidité. Elle croyait que des gens réunis par un idéal pouvaient se passer de gardien, et elle a vu les inventaires démentir cette foi. Elle n'en a pas tiré du cynisme, mais une théorie : une communauté de gens mûrs, où les immatures ont besoin de règles, fût-ce pour les enfreindre. Elle garde de la chaleur et de l'énergie, mais son jugement sur les gens est exigeant, attentif à la maturité plus qu'au statut d'étudiant. Cette lecture est déduite de PE-00240, ID-00908 et ID-01206.",
+  "blessures": "Attestée : le choc du magasin d'honneur. Les inventaires prouvent que certains ne laissaient rien, « un sacré coup » pour elle, car sa confiance était trahie par des gens du même idéal. Attesté aussi : un ressentiment envers les exigences de diplôme. Son origine n'est pas précisée (déduit : l'écart entre liberté proclamée et contraintes académiques).",
+  "desirs": "Attesté ou déduit : vivre dans une communauté fondée sur la confiance et l'adulte responsabilité, avec peu de règles formelles. Elle veut qu'on juge les gens comme êtres humains et non selon leur statut ou leur diplôme.",
+  "peurs": "Aucune peur n'est dite. Déduit de ses réflexions : que la communauté soit minée par l'immaturité et l'appropriation, et que la dissidence soit étouffée en l'absence de vote.",
+  "maniere_d_aimer": "Les sources ne disent presque rien. Mort et elle forment un couple, deux témoins de grande valeur pour Duberman, qui les interroge ensemble sur deux jours (RE-00943, EV-02262). Ils semblent se compléter : Mort est sobre et d'une intégrité remarquable, elle est chaleureuse et extravertie. Leurs échanges devant Duberman montrent un dialogue intellectuel posé et non un conflit. Le reste de l'intimité est à inventer.",
+  "rapport_au_pouvoir": "Elle n'aime pas l'autorité formelle (diplômes, gardiens), mais ne croit pas à l'absence de règles. Elle pense que la maturité est rare et que, sans vote, la dissidence contre le « sens de la communauté » est plus difficile. Les règles sont donc utiles à ceux qui n'ont pas la maturité, quitte à les transgresser. Position nuancée, sans doctrine claire sur la Strong Guard, dont la discussion est seulement mentionnée (SC-00581).",
+  "voix": {
+   "registre": "Parole posée, mesurée, intellectuellement vive dans l'entretien rapporté. Elle est chaleureuse et spontanée dans son rapport à l'interlocuteur. Le français doit rester concret, avec des formules d'expérience plutôt que de théorie.",
+   "tics": "Aucun tic de langage documenté. À éviter d'en inventer sans le signaler.",
+   "exemples_paraphrases": [
+    "Black Mountain, c'était une communauté pour des gens mûrs.",
+    "Ceux qui ne sont pas mûrs ont besoin de règles, même si c'est pour les briser.",
+    "J'ai cru qu'on pouvait avoir un magasin sans magasinier ; les inventaires m'ont montré le contraire, un sacré coup.",
+    "Quels que soient leurs sentiments pour la communauté, les gens se servent de ce qui n'est pas clairement marqué comme étant à quelqu'un.",
+    "Peut-on vraiment dissenter dans un groupe qui ne rassemble que des dissidents ?"
+   ]
+  },
+  "habitudes": [
+   "Elle parle en couple avec Mort et complète ou nuance ses propos devant Duberman (SC-00581, déduit).",
+   "Elle raconte volontiers ses expériences sous forme d'exemples précis, comme le magasin d'honneur (EV-01778)."
+  ],
+  "convictions": [
+   "Black Mountain est une communauté pour gens mûrs ; les immatures ont besoin de règles, même à transgresser.",
+   "Un magasin sans magasinier lui a paru possible ; l'expérience a montré les limites du pur système d'honneur.",
+   "Les gens s'approprient volontiers ce qui n'est pas clairement étiqueté propriété personnelle.",
+   "Elle juge quelqu'un comme être humain plutôt que comme étudiant.",
+   "Elle éprouve du ressentiment envers les exigences de diplôme."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933",
+    "moment": "Entrée dans la communauté et croyance au système d'honneur du magasin, sans gardien.",
+    "etat_interieur": "Confiance idéaliste. Déduit : elle partage l'esprit d'une communauté d'adultes. La date est large.",
+    "refs": [
+     "EV-01778",
+     "ID-00908"
+    ]
+   },
+   {
+    "date": "1937-04",
+    "moment": "Auditions d'avril 1937 de l'affaire de Floride, racontées plus tard par Mort et Barbara à Duberman. Quatre étudiants y sont impliqués ; la discussion porte sur leur droit de dissidence, l'absence de vote et la Strong Guard.",
+    "etat_interieur": "Elle est mêlée à un épisode où la liberté individuelle s'oppose à la responsabilité communautaire (déduit). Sa position se forme : la maturité est la condition.",
+    "refs": [
+     "EC-01369",
+     "SC-00581",
+     "ID-01206"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Découverte, par les inventaires, que certains ne laissent pas d'argent au magasin.",
+    "etat_interieur": "Désillusion et lucidité : le sentiment communautaire ne suffit pas à protéger le bien commun. La date exacte est inconnue (années 1930).",
+    "refs": [
+     "EV-01778",
+     "PE-00240"
+    ]
+   }
+  ],
+  "avant": [],
+  "apres": [
+   {
+    "date": "1967-06",
+    "moment": "Interviewée le 24 juin 1967 d'après la fiche de personne, avec Mort, par Martin Duberman. Elle lui plaît immédiatement, chaleureuse et énergique. L'entretien dure deux jours.",
+    "refs": [
+     "PE-00240",
+     "EV-02262",
+     "EV-02263"
+    ]
+   },
+   {
+    "date": "1972",
+    "moment": "Ses témoignages sont publiés dans Black Mountain de Duberman (pp. 84-86, 99, 463-464), où le magasin d'honneur et la discussion sur la dissidence sont rapportés.",
+    "refs": [
+     "PE-00240",
+     "EV-01778",
+     "SC-00581"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Mort Steinau",
+    "nature": "Couple ; Duberman les estime ensemble comme témoins de grande valeur.",
+    "evolution": "Présentés ensemble dans les années 1930, interviewés ensemble des décennies plus tard. Rien dans les sources sur la rencontre, le mariage ou leur vie ultérieure. Le contraste entre l'apparence de comptable de Mort, qui cache une grande intégrité, et l'extraversion de Barbara est un bon ressort de scène.",
+    "refs": [
+     "RE-00943",
+     "EV-02262",
+     "SC-00581"
+    ]
+   },
+   {
+    "avec": "Martin Duberman",
+    "nature": "Historien-interviewer ; elle lui plaît immédiatement, il la trouve chaleureuse.",
+    "evolution": "Premières heures difficiles avec Mort, puis conversation dense. Duberman l'objecte parfois, par exemple sur l'affaire de Floride.",
+    "refs": [
+     "EV-02262",
+     "EV-02263",
+     "EC-01369"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La date de l'entretien : PE-00240 donne le 24 juin 1967, alors que EV-02262 et EC-01369 sont ancrées sur une fourchette finissant en août 1970 (≈, probablement indexée sur la rédaction). À traiter avec prudence.",
+   "L'attestation de la discussion sur la dissidence est « atteste » ou « témoignage direct » dans SC-00581 et EV-02263, mais « incertain » pour ID-01206 quant à sa tenue à Black Mountain même.",
+   "Duberman objecte que personne en Floride n'aurait su qui étaient les quatre étudiants (EC-01369) : rien n'indique que les Steinau aient répondu à cela."
+  ],
+  "situations_revelatrices": [
+   "Un inventaire du magasin montre que certains ne paient pas : elle réagit à la trahison d'un idéal.",
+   "Une conversation sur la dissidence et la maturité, où elle défend des règles pour les immatures.",
+   "Un entretien en couple avec un historien : elle prend la parole avec chaleur pendant que Mort reste sobre.",
+   "Un débat sur le diplôme, où ressort son ressentiment envers les exigences académiques.",
+   "Un souvenir de l'affaire de Floride à raconter avec Mort."
+  ],
+  "citations": [
+   "EV-01778 : les gens entrent, prennent ce qu'ils veulent, laissent l'argent ; les inventaires montrent que certains ne laissent rien, « un sacré coup » pour elle.",
+   "ID-00908 : le sentiment communautaire ne suffit pas à empêcher l'appropriation du bien commun.",
+   "ID-01206 : dans un groupe de dissidents, sans vote, peut-on vraiment dissenter ? Les immatures ont besoin de règles, même à briser.",
+   "SC-00581 : Barbara défend une communauté pour gens mûrs ; Mort dit que peu de gens peuvent vivre sous anarchie, peut-être personne.",
+   "EV-02262 : Duberman la trouve chaleureuse, extravertie, énergique."
+  ],
+  "questions_ouvertes": [
+   "Quand a-t-elle été étudiante exactement, et quel diplôme visait-elle ?",
+   "Quel était son nom de jeune fille, son origine, sa famille, sa vie avant le collège ?",
+   "Comment a-t-elle connu Mort, et quand se sont-ils mariés ?",
+   "Quel rôle a-t-elle eu dans l'affaire de Floride d'avril 1937 ?",
+   "Qu'est-elle devenue après le collège, et où a-t-elle vécu avec Mort ?",
+   "Quel est exactement son ressentiment envers les diplômes : un fait précis ou une position générale ?",
+   "A-t-elle été au magasin elle-même, ou a-t-elle seulement partagé l'idée du système d'honneur ?"
+  ]
+ }
+}

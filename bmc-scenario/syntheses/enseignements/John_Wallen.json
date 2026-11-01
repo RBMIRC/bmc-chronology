@@ -1,0 +1,494 @@
+{
+ "passe": "enseignements",
+ "cle": "John Wallen",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 11807,
+  "sortie": 10042,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "John Wallen",
+  "cours": [
+   {
+    "intitule": "Introduction à la psychologie (Introductory Psychology)",
+    "periodes": [
+     "1945-1946"
+    ],
+    "atteste": "oui",
+    "objectifs": "Étudier les concepts de base qui expliquent le comportement humain. Wallen jouit d'une liberté totale sur le contenu.",
+    "deroule_type_seance": "Pas de déroulé détaillé dans les fiches. Aucun manuel ni texte imposé. Le cours s'ouvre sur la passation du Thematic Apperception Test (TAT). Des entretiens d'interprétation suivent, à la demande des étudiants.",
+    "exercices": [
+     {
+      "consigne": "Passer le Thematic Apperception Test (TAT) au début du cours.",
+      "materiaux": "Tests TAT",
+      "but": "Non précisé dans les fiches. On peut déduire qu'il s'agit d'amener chacun à se regarder, mais ce n'est pas attesté.",
+      "refs": [
+       "CO-00420"
+      ]
+     },
+     {
+      "consigne": "Entretien individuel d'interprétation du TAT, à la demande de l'étudiant.",
+      "materiaux": "Le TAT de l'étudiant",
+      "but": "Non précisé. Le nombre d'étudiants venant spontanément se faire interpréter leurs TAT va croissant.",
+      "refs": [
+       "CO-00420"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucun manuel ni texte imposé (Duberman p.239)."
+    ],
+    "propos_types": [
+     "Il n'y a pas de programme à couvrir : la liberté de contenu est entière.",
+     "Il s'agit de comprendre les concepts de base du comportement humain."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Un nombre croissant d'étudiants vient spontanément se faire interpréter son TAT. Ils restent aussi sensibles à une dynamique affective de classe : deux filles sont attirées par le même garçon.",
+    "evolution": "Les fiches décrivent la même matière en 1946-47 avec un cadre conceptuel plus explicite : les dualismes d'Otto Rank. La séquence TAT n'est attestée qu'en 1945-46.",
+    "refs": [
+     "CO-00417",
+     "CO-00420",
+     "SC-00946"
+    ]
+   },
+   {
+    "intitule": "Séminaire sur la psychologie de la relation enseignant-étudiant",
+    "periodes": [
+     "1945-1946"
+    ],
+    "atteste": "oui",
+    "objectifs": "Développer des compétences pour se comprendre et s'entendre avec soi-même et avec les autres, en prenant les processus du groupe comme matière première.",
+    "deroule_type_seance": "Discussion libre centrée sur les personnes présentes. On laisse chaque discussion se déployer sans obligation de couvrir un programme. Quand la dynamique relationnelle parasite le contenu, elle est nommée et discutée. Deux études de cas sont analysées à fond.",
+    "exercices": [
+     {
+      "consigne": "Laisser chaque discussion trouver son propre fil, sans programme à couvrir.",
+      "materiaux": null,
+      "but": "Laisser la matière naître du groupe.",
+      "refs": [
+       "CO-00418"
+      ]
+     },
+     {
+      "consigne": "Nommer et discuter la dynamique du groupe quand elle envahit chaque contenu. Exemple : deux jeunes femmes attirées par le même garçon.",
+      "materiaux": null,
+      "but": "Rendre de nouveau possibles les discussions de contenu.",
+      "refs": [
+       "CO-00418",
+       "SC-00946"
+      ]
+     },
+     {
+      "consigne": "Analyser « exhaustivement » deux études de cas.",
+      "materiaux": "Deux études de cas (nature non précisée)",
+      "but": "Voir ce que sont les gens quand on en sait plus qu'à l'ordinaire.",
+      "refs": [
+       "CO-00418",
+       "SC-00946"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Nathaniel Cantor, The Dynamics of Learning, qui porte les théories d'Otto Rank sur la fonction de l'enseignant et la responsabilité de l'étudiant.",
+     "Littérature récente et innovante (Duberman p.239)."
+    ],
+    "propos_types": [
+     "Quand une tension affective traverse tout ce que dit le groupe, il faut la nommer avant de poursuivre sur le fond.",
+     "Apprendre à vivre avec soi-même et avec les autres passe par ce que le groupe vit sous les yeux de tous."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Les fiches datent ce séminaire de 1945-46 (CO-00418, SC-00946). La fiche CO-00435 décrit un contenu quasi identique pour « ~1946-47 ». Les sources divergent donc sur l'année ; il peut s'agir d'un même enseignement vu sous deux dates.",
+    "refs": [
+     "CO-00418",
+     "SC-00946"
+    ]
+   },
+   {
+    "intitule": "Psychologie (cours d'introduction et cours avancé)",
+    "periodes": [
+     "~1946-1947"
+    ],
+    "atteste": "oui",
+    "objectifs": "Développer chez les étudiants la capacité de se comprendre et de s'entendre avec eux-mêmes et avec autrui. Laisser chaque discussion trouver son propre fil plutôt que couvrir un programme.",
+    "deroule_type_seance": "Discussion libre qui prend les personnes présentes comme matière première. Dans le cours d'introduction, aucun manuel et aucune obligation de traiter des sujets imposés dans un temps donné.",
+    "exercices": [
+     {
+      "consigne": "Quand deux étudiantes sont fortement attirées par le même garçon et que cela traverse chaque contenu, discuter la dynamique elle-même.",
+      "materiaux": null,
+      "but": "Rendre de nouveau possible la discussion de contenu.",
+      "refs": [
+       "CO-00435",
+       "SC-00946"
+      ]
+     },
+     {
+      "consigne": "Analyser à fond deux études de cas. L'analyse conduit au sentiment d'infériorité, aux mécanismes de défense, puis au problème ressemblance-différence comme problème fondamental de l'existence.",
+      "materiaux": "Deux études de cas",
+      "but": "Voir ce que sont les gens quand on en sait plus qu'à l'ordinaire.",
+      "refs": [
+       "CO-00435"
+      ]
+     },
+     {
+      "consigne": "Séance sur Œdipe roi de Sophocle. Présenter la conception freudienne du complexe d'Œdipe et ses modifications par Malinowski, Horney et Allen, puis analyser la pièce en termes de conflit de volonté.",
+      "materiaux": "Œdipe roi de Sophocle",
+      "but": "Montrer que plus de connaissance de soi appelle plus de responsabilité de son comportement.",
+      "refs": [
+       "CO-00435",
+       "ID-01801"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Cantor, The Dynamics of Learning.",
+     "Cadre conceptuel d'Otto Rank adapté par Fromm, Rogers, Allen et Horney.",
+     "Œdipe roi de Sophocle.",
+     "Freud, Malinowski, Horney, Allen (pour la séance sur Œdipe)."
+    ],
+    "propos_types": [
+     "La vie personnelle est structurée par des dualismes : passé/présent, déterminisme/liberté de choix, pensée/action, prévisibilité-similitude-certitude contre variété-différence-défi, soi contre autres.",
+     "Accepter et intégrer les deux pôles mène à l'accomplissement créateur ; les refouler mène au comportement répétitif névrotique.",
+     "Ce cadre vaut pour une communauté ou une organisation autant que pour un individu.",
+     "L'agression humaine est un apprentissage culturel, canalisable en quête de maîtrise de soi complémentaire des liens d'affiliation. La compétitivité, la violence et l'appétit de pouvoir ne sont pas instinctifs mais culturels."
+    ],
+    "critique_et_evaluation": "Certains anciens GI, proches de lui en âge, sont mal à l'aise devant sa mise à l'écart facile du pessimisme freudien. Aucune note ni évaluation formelle n'est décrite dans les fiches.",
+    "reactions_etudiants": "Enthousiasme, attisé par sa jeunesse, sa ferveur, sa connaissance de la dernière littérature et son immense intérêt pour les étudiants. Malaise chez certains anciens GI face à son rejet du pessimisme freudien.",
+    "evolution": "Même cadre de Rank que le séminaire de 1945-46, mais plus explicite ici. Il sert aussi de grille à Wallen pour lire la communauté du collège.",
+    "refs": [
+     "CO-00435",
+     "ID-01801",
+     "SC-00946"
+    ]
+   },
+   {
+    "intitule": "Human Relations (relations humaines)",
+    "periodes": [
+     "années 1940 (Evelyn Swann le suit en 1946-47)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Apprendre la résolution des conflits et la prise de décision dans les relations humaines.",
+    "deroule_type_seance": "Cours mêlant exposés et jeux de rôle.",
+    "exercices": [
+     {
+      "consigne": "Jeux de rôle pour essayer différentes approches de résolution de conflit.",
+      "materiaux": null,
+      "but": "Expérimenter les approches d'un conflit.",
+      "refs": [
+       "CO-00316"
+      ]
+     },
+     {
+      "consigne": "Appliquer le principe « will equals counter-will » (la volonté égale la contre-volonté) à l'éducation des enfants.",
+      "materiaux": null,
+      "but": "Comprendre qu'une attitude exigeante invite une contre-résistance.",
+      "refs": [
+       "CO-00316"
+      ]
+     },
+     {
+      "consigne": "S'exercer à « rester sur le sujet » face à un conflit.",
+      "materiaux": null,
+      "but": "Garder le fil du conflit sans dériver.",
+      "refs": [
+       "CO-00316"
+      ]
+     },
+     {
+      "consigne": "Prendre une décision en inventoriant tous les aspects, y compris le périphérique et le non-évident.",
+      "materiaux": null,
+      "but": "Valoriser la diversité de pensée dans le choix.",
+      "refs": [
+       "CO-00316"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "La volonté égale la contre-volonté : un parent exigeant provoque une résistance en retour.",
+     "Dans un conflit, restez sur le sujet.",
+     "Dans un choix, valorisez la diversité de pensée."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Evelyn Swann garde ces concepts toute sa vie comme modus operandi (source : Lane 1990).",
+    "evolution": "Les mêmes outils (jeu de rôle, résolution de conflit) se retrouvent dans Group Process en 1948. Les fiches ne précisent pas l'intitulé exact dans l'emploi du temps.",
+    "refs": [
+     "CO-00316"
+    ]
+   },
+   {
+    "intitule": "Psychologie avec psychodrame",
+    "periodes": [
+     "1946-1948"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non précisés dans les fiches.",
+    "deroule_type_seance": "Séances de psychodrame. Elles peuvent devenir assez violentes.",
+    "exercices": [
+     {
+      "consigne": "Séances de psychodrame. Arthur Penn y participe et en parle.",
+      "materiaux": null,
+      "but": "Non précisé.",
+      "refs": [
+       "CO-00433",
+       "CO-00445"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": "Le rôle exact de Wallen dans la conduite du psychodrame n'est pas précisé. Les fiches parlent de séances « pratiquées par Arthur Penn » et mentionnent des séances violentes.",
+    "reactions_etudiants": "Arthur Penn est fasciné par la dimension violente du psychodrame.",
+    "evolution": "Penn apporte ensuite à Group Process la structuration d'improvisations avec des objectifs imposés du dehors, ce qui sauve la classe en 1948.",
+    "refs": [
+     "CO-00433",
+     "CO-00445",
+     "CO-00486"
+    ]
+   },
+   {
+    "intitule": "Psychologie des interactions de groupe",
+    "periodes": [
+     "1947-1948"
+    ],
+    "atteste": "oui",
+    "objectifs": "Montrer que les décisions de groupe peuvent dépasser le compromis et représenter la volonté de tous, grâce à une communication suffisante.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "La classe décide collégialement que tout absent devra écrire un texte justificatif d'un nombre de mots fixé.",
+      "materiaux": null,
+      "but": "Tester une règle de groupe issue de la décision commune.",
+      "refs": [
+       "CO-00448"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Une décision de groupe peut représenter la volonté de tous si la communication est suffisante."
+    ],
+    "critique_et_evaluation": "Mary Miller, enrhumée et sanctionnée par la règle, admire l'idéal mais juge l'application à sa personne un échec.",
+    "reactions_etudiants": "Mary Miller admire l'idéal mais subit la règle comme un échec ; ce cours la conduit à la psychologie.",
+    "evolution": "Ce cours précède Group Process (1948). Le principe du consensus y est déjà posé.",
+    "refs": [
+     "CO-00448"
+    ]
+   },
+   {
+    "intitule": "Group Process",
+    "periodes": [
+     "1948"
+    ],
+    "atteste": "oui",
+    "objectifs": "Étudier l'interaction de groupe à partir de problèmes réels du collège, mis en scène par jeu de rôle. Transformer les conflits en cherchant le besoin qui se cache sous chaque position.",
+    "deroule_type_seance": "Discussion libre visant le consensus, puis vote. On cherche le besoin sous chaque position. Wallen met en garde contre la vente de solutions toutes faites.",
+    "exercices": [
+     {
+      "consigne": "Jouer en classe un problème courant de Black Mountain : rejouer ou non les pièces pour les visiteurs. Vote initial 11 pour, 1 contre ; l'opposant tenace détient le rôle principal.",
+      "materiaux": null,
+      "but": "Étudier l'interaction de groupe sur un cas réel du collège.",
+      "refs": [
+       "CO-00486",
+       "SC-01064"
+      ]
+     },
+     {
+      "consigne": "Trouver une ligne d'action qui satisfasse le minoritaire autant que les onze autres.",
+      "materiaux": null,
+      "but": "Dépasser le vote en traitant le besoin plutôt que la position.",
+      "refs": [
+       "CO-00486",
+       "SC-01064",
+       "ID-01890"
+      ]
+     },
+     {
+      "consigne": "Reformuler le débat : « comment atteindre l'objectif du Board tout en nous satisfaisant ? »",
+      "materiaux": null,
+      "but": "Déplacer la question pour qu'elle ne soit plus un camp contre un autre. La classe invente le spectacle-démonstration.",
+      "refs": [
+       "CO-00486",
+       "SC-01064"
+      ]
+     },
+     {
+      "consigne": "Structurer des improvisations avec des objectifs imposés du dehors et en partie en conflit.",
+      "materiaux": null,
+      "but": "Entraîner à la structure d'improvisation (apport d'Arthur Penn).",
+      "refs": [
+       "CO-00486"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Toute discorde humaine est un défaut de communication ; sous chaque position il y a un besoin.",
+     "Si l'on impose une solution à laquelle on est engagé, on court le rejet.",
+     "Le cast doit participer à l'élaboration de la solution pour s'engager. Wallen met en garde contre l'imposition de la solution au reste de la troupe, et le cast adopte une version modifiée."
+    ],
+    "critique_et_evaluation": "La classe est divisée. Spahn et Perrow sont hostiles : ils reprochent de la naïveté et le refus des antipathies légitimes. Liz Gellhorn y voit un besoin d'aimer « trop fort ». Yglesias est reconnaissant mais peu marqué.",
+    "reactions_etudiants": "Opinions partagées. Penn sauve la classe en y enseignant la structure d'improvisation. Soulagement et inventivité collectifs lors du vote 11-1.",
+    "evolution": "Aboutissement de l'enseignement de Wallen au collège : la doctrine du besoin sous la position est ici centrale. Le cours suit le cadre de Rank de 1946-47 et précède son départ.",
+    "refs": [
+     "CO-00486",
+     "SC-01064",
+     "ID-01890",
+     "SC-01063"
+    ]
+   },
+   {
+    "intitule": "Community development (projet de redéfinition de son enseignement)",
+    "periodes": [
+     "proposition de 1947, non réalisée sous ce nom"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Préparer des étudiants à une vie au service de communautés de moins de 5 000 habitants, idéalement des jeunes gens de petites villes qui rentrent chez eux. Il propose aussi de créer un diplôme de « community service ».",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Séminaires de lecture en sociologie rurale.",
+      "materiaux": null,
+      "but": "Fonder le travail de terrain.",
+      "refs": [
+       "CO-00451"
+      ]
+     },
+     {
+      "consigne": "Travail de terrain dans les communautés voisines : aide à la moisson chez un fermier, enseignement du tissage sur carte et du dessin, animation de discussions de groupe sur des sujets culturels, sociaux ou politiques, conférences et concerts, garde d'enfants et crèches de jour.",
+      "materiaux": null,
+      "but": "Servir de petites communautés.",
+      "refs": [
+       "CO-00451"
+      ]
+     },
+     {
+      "consigne": "Week-ends d'essai : bâtir un barrage dans le ruisseau d'alimentation du lac Eden, avec une quinzaine à une vingtaine d'étudiants (Wallen et Rachel Wallen).",
+      "materiaux": null,
+      "but": "Tester la capacité du groupe à travailler ensemble, avant de prospecter des sites en Maine, Utah et Oregon.",
+      "refs": [
+       "SC-00989"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Lectures sur les petites communautés (groupe d'étude)."
+    ],
+    "propos_types": [
+     "Wallen dit ne plus croire à l'approche collégiale de l'éducation : elle doit se faire dans la communauté, comme éducation d'adultes.",
+     "Il veut vivre « comme une personne et non dans l'isolation de sa spécialité »."
+    ],
+    "critique_et_evaluation": "Le Board accepte le contenu mais garde le titre « psychologie ». Wallen vit le compromis comme une offre permissive qui sonne comme un désengagement.",
+    "reactions_etudiants": "Le groupe d'étude réunit une quinzaine à une vingtaine d'étudiants et s'essaie au barrage. Les fiches ne disent rien de plus sur leurs réactions.",
+    "evolution": "Wallen démissionne à la mi-mars 1947, puis revient sur sa décision sous l'insistance de John Levi et de Robert Rondthaler. Il garde l'enseignement mais le recentre vers la communauté. La date de SC-00989 (1946-47) et celle de la proposition (mars 1947) se recoupent mal : le groupe d'étude semble antérieur ou parallèle. Sa conviction le mène ensuite de Black Mountain à l'Oregon.",
+    "refs": [
+     "CO-00451",
+     "SC-01029",
+     "SC-00989",
+     "ID-01804"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Tout apprentissage véritable est auto-apprentissage et ne peut survenir que dans la relation interpersonnelle. L'enseignant libère l'étudiant de ses sentiments d'infériorité, de peur de l'autorité, d'anxiété et de culpabilité, et l'aide à formuler ses problèmes actuels.",
+    "en_classe": "Hypothèse de transposition, non attestée en classe : l'enseignant dit ne pas juger à la place de l'élève la valeur d'un savoir, puis nomme ce qui se passe entre les personnes. Attesté à Black Mountain : Wallen enseigne en nommant la dynamique du groupe (CO-00418), et l'idée vient de sa lettre de candidature de 1945 et de ses classes de Maryland, où les étudiants s'auto-notent et tiennent des journaux.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01645",
+     "CO-00418"
+    ]
+   },
+   {
+    "idee": "Vivre est une fin en soi ; le premier office du savoir est de rendre la vie signifiante, et l'étudiant n'a pas à être retiré des expériences réelles.",
+    "en_classe": "Non attesté en séance telle quelle : demander ce que la matière fait pour la vie de chacun. Attesté à Black Mountain : cette idée attire Wallen vers le collège (« l'étudiant est le programme ») et sert de justification au programme de travail.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01646"
+    ]
+   },
+   {
+    "idee": "Soi et société sont inséparables ; la connaissance de soi améliore peut-être l'efficacité des processus démocratiques sans effacer l'individualité.",
+    "en_classe": "Séance imaginable : chercher comment la connaissance de nous-mêmes change la façon dont nous décidons ensemble (transposition, non attestée comme telle). Le programme est celui de sa lettre au collège du 16 mai 1945 et des lettres aux Steinzor de l'été 1945 ; il décline le poste de l'USO pour le tester à Black Mountain.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01654",
+     "SC-00947"
+    ]
+   },
+   {
+    "idee": "Toute discorde humaine est un défaut de communication ; sous chaque position il y a un besoin. On traite le besoin plutôt que la position.",
+    "en_classe": "Attesté dans Group Process : quand le groupe se bloque, chercher le besoin qui se cache derrière le refus. Exemple du vote 11-1 sur les pièces, réorienté pour satisfaire le minoritaire.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01890",
+     "SC-01064",
+     "CO-00486"
+    ]
+   },
+   {
+    "idee": "Les dualismes de Rank : leur acceptation et leur intégration mènent à la créativité, leur refus à la névrose. Le cadre s'applique à une communauté comme à un individu.",
+    "en_classe": "Attesté : séance sur Œdipe roi analysée en conflit de volonté, avec pour thème qu'une connaissance de soi accrue exige une responsabilité accrue.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01801",
+     "CO-00435"
+    ]
+   },
+   {
+    "idee": "Le laissez-faire de Black Mountain masque un autoritarisme latent et mène au cynisme étudiant. Distinguer liberté négative (absence de règles) et liberté positive (être constructif et créatif).",
+    "en_classe": "Principes attestés dans une note circulaire : le groupe qui exécute une décision devrait pouvoir la prendre ; les conséquences d'une action doivent être claires avant l'action ; les décisions d'autorité technique (tuyaux de chauffage, carburateur du camion) n'ont pas à encombrer l'ordre du jour. Souvenir d'un étudiant désabusé : « Aw, John, I see through it now… it just ain't that way, baby. » Le cas Harold (étudiant puni pour des règles qu'il ignorait) illustre la thèse.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01799",
+     "SC-00986"
+    ]
+   },
+   {
+    "idee": "Réunion de communauté structurée : urne à suggestions, sous-groupes, liste maîtresse, réassemblée (réforme Wallen).",
+    "en_classe": "Attesté pour la présentation devant la faculté : urne à suggestions 36 h avant, 20 minutes de Molly Gregory et Bas Allen, sept sous-groupes avec président et secrétaire, trois questions de 20 minutes, intermission café-gâteau, liste maîtresse, réassemblée. Albers et les anciens objectent qu'il s'agit d'une prolifération de discussions. Le résultat final n'est pas donné dans les fiches.",
+    "atteste": "oui",
+    "refs": [
+     "SC-00985",
+     "SC-00984"
+    ]
+   },
+   {
+    "idee": "Le collège est « un endroit formidable pour un étudiant déjà mûr » ; il convient surtout à celui qui sait gérer seul ses problèmes émotionnels. Mais les relations professeurs-étudiants y sont « beaucoup plus humaines » qu'ailleurs.",
+    "en_classe": "Hypothèse non attestée en classe : discuter de ce que le collège doit à ses étudiants les plus fragiles. Cas attesté dans un souvenir de Wallen : l'étudiante erratique, retenue à l'admission, que la faculté rejette ensuite.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01802",
+     "ID-04146",
+     "SC-02097"
+    ]
+   },
+   {
+    "idee": "Une institution est comme une personne : son style de vie formatif filtre ses expériences ultérieures. Black Mountain, née en révolte, n'a jamais développé de but positif unificateur.",
+    "en_classe": "Hypothèse non attestée : demander à un groupe ce que son institution affirme de positif, non ce qu'elle refuse (« pas de notes », « pas de cours obligatoires »), et observer si les mêmes conflits reviennent indépendamment des personnes. Diagnostic daté de 1970-71, donc non attesté à l'époque du collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-04143"
+    ]
+   },
+   {
+    "idee": "Je suis sceptique et non cynique : je critique par croyance en quelque chose de mieux.",
+    "en_classe": "Non attesté en classe : conversations avec les étudiants sur les valeurs et le sens du vivre communautaire. L'attitude est exprimée dans sa réponse à des amis qui lui suggèrent qu'il fuit dans une utopie.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01647"
+    ]
+   },
+   {
+    "idee": "Un cercle vertueux est possible en vie communautaire proche, selon les valeurs et les habiletés des personnes.",
+    "en_classe": "Non attesté en classe. Conviction qui le mène à l'Oregon ; en 1968, Wallen dirait oui à une nouvelle communauté intentionnelle, à condition d'un groupe plus aisé pour protéger le temps interpersonnel, tandis que Rachel dit non.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01804",
+     "SC-02060"
+    ]
+   }
+  ]
+ }
+}

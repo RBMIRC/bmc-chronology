@@ -1,0 +1,410 @@
+{
+ "passe": "personnes",
+ "cle": "Marcel Breuer",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 11431,
+  "sortie": 4663,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Marcel Breuer",
+  "autres_noms": [
+   "Lajko"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Architecte invité : co-auteur avec Gropius du projet de campus de Lake Eden (1939-1940) ; visiteur ponctuel dès le milieu des années 1930 ; enseigne brièvement à l'été 1940 ; refuse un poste de visiting teacher en 1948",
+  "presence": [
+   {
+    "debut": "1934",
+    "fin": null,
+    "precision": "annee",
+    "role": "visiteur d'été",
+    "refs": [
+     "PE-00034",
+     "QU-00358"
+    ]
+   },
+   {
+    "debut": "1939",
+    "fin": "1940",
+    "precision": "annee",
+    "role": "architecte co-commissionné (avec Gropius) du campus de Lake Eden ; maquette présentée au MoMA le 10 janvier 1940 ; enseigne à l'été 1940",
+    "refs": [
+     "PE-00034",
+     "EV-02893",
+     "EV-03086",
+     "EV-03087",
+     "OE-00481"
+    ]
+   },
+   {
+    "debut": "1940",
+    "fin": null,
+    "precision": "annee",
+    "role": "visite et enseignement à la session d'été, pendant l'abandon progressif de son projet au profit de Kocher",
+    "refs": [
+     "PE-00034",
+     "EV-03039"
+    ]
+   },
+   {
+    "debut": "1948",
+    "fin": null,
+    "precision": "annee",
+    "role": "visiting teacher pressenti (proposition d'Albers), refuse faute de temps",
+    "refs": [
+     "EV-04263"
+    ]
+   }
+  ],
+  "portrait_physique": "Non décrit directement dans les fiches. On sait qu'à 18 ans, arrivant de Hongrie, il ne comprend guère l'allemand et balbutie ses questions ; le surnom hongrois « Lajko » suggère une identité marquée.",
+  "noyau_psychologique": "Créateur de génie au service de la forme et du matériau — il voit une chaise dans un guidon de vélo — mais miné par un comportement erratique et colérique qui disqualifie ses ambitions institutionnelles (démission furieuse de 1927, écarté de la succession de Gropius). Il fonctionne par coups d'éclat et par fidélités personnelles intenses (son artisan hongrois, Gropius, les Albers), plutôt que par stratégie. Sa défense vitale est le secret : il a entièrement caché sa judéité, jusqu'à se faire déclarer « Aryen » dans un bureau de Weimar.",
+  "blessures": "Étranger double à 18 ans : Hongrois et juif dans une Allemagne où le quota juif du Bauhaus (10 %) est appliqué avec zèle et où la campagne nationaliste de 1924 dénonce « les Juifs et les étrangers » ; solitude aggravée par l'arrogance d'Itten à son entretien d'entrée. La blessure secrète de la judéité cachée, officiellement reniée. L'échec de la succession de Gropius en 1927 comme sanction de son caractère.",
+  "desirs": "Imposer ses formes et ses choix (son fabricant, son design) ; obtenir la reconnaissance comme successeur possible de Gropius ; réussir son installation américaine après 1937 ; voir ses chaises devenir des standards de la vie moderne (ce qui arrivera).",
+  "peurs": "Être exposé comme juif dans une Allemagne puis une Europe dangereuse ; être trahi ou lésé dans ses attributions (querelle finale avec Albers sur l'abbaye du Minnesota) ; perdre le contrôle de ses projets.",
+  "maniere_d_aimer": "Fidélité de compatriote et de complice : il impose son artisan hongrois contre l'administration par loyauté personnelle ; liens chaleureux et voyageurs avec les Albers (Paris 1926, projet d'exil berlinois à trois en 1924, Anni sollicitée pour Har Tzeon). L'amitié se transforme en brouille définitive quand il touche, sans crédit selon Josef, au design d'un proche : la fidélité trahie est son point de rupture.",
+  "rapport_au_pouvoir": "Conflituel et impulsif : il démissionne pour être désavoué, puis se rétracte ; écarté du pouvoir, il reste attaché à Gropius comme partenaire (cabinet commun, émigration commune, projet BMC) tout en étant « quelque peu vexé » quand un client le quitte pour Kocher. Il préfère l'autorité du créateur à celle de l'administrateur.",
+  "voix": {
+   "registre": "Hongrois balbutiant l'allemand à ses débuts ; vraisemblablement un anglais d'émigré plus tard. Ton direct, emporté, pratiqué du geste et du matériau plutôt que du discours.",
+   "tics": "Balbutie ses questions en langue étrangère (attesté en 1920)",
+   "exemples_paraphrases": [
+    "Sa question première à Albers, naïve et littérale : demander ce qu'est un balai, ce que signifie son nom sur la feuille de corvée",
+    "Sa réaction de 1927 : démissionner sur-le-champ quand Gropius impose Meissner GmbH à la place de son compatriote hongrois"
+   ]
+  },
+  "habitudes": [
+   "Regarder les objets quotidiens comme matière à design (guidon de bicyclette devenu structure de chaise)",
+   "Dessiner et présenter par maquettes et photocollages (photocollage BMC 1938 conservé à Harvard)",
+   "Construire fidèlement le vocabulaire Dessau — toits plats, pans de verre — quel que soit le climat"
+  ],
+  "convictions": [
+   "Le design prime sur l'efficacité pratique (jugement d'Albers, que Breuer incarne : toits plats qui fuient dans la neige du Connecticut)",
+   "La forme moderne standardisée comme langage universel (chaises tubulaires)",
+   "La loyauté personnelle contre les accords administratifs"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1934",
+    "precision": "annee",
+    "moment": "Premier été comme visiteur au collège, aux côtés d'autres figures invitées (Gropius, Dewey, Huxley, Léger)",
+    "etat_interieur": "Émigré en attente ; pas encore installé durablement aux États-Unis (l'émigration formelle avec les Gropius date de 1937)",
+    "refs": [
+     "QU-00358",
+     "PE-00034"
+    ]
+   },
+   {
+    "date": "1939",
+    "precision": "annee",
+    "moment": "Le collège achète Lake Eden (700 acres) et commande à Gropius et Breuer le campus idéal : bâtiments sur pilotis reliés par passerelles, mur de verre courbe, toit-terrasse ; maquette exposée au MoMA, photomontage dans Time, campagne visée de deux millions de dollars",
+    "etat_interieur": "Au sommet de sa visibilité américaine : professeur à Harvard aux côtés de Gropius, ce premier grand projet US semble lancer le cabinet",
+    "refs": [
+     "EV-02125",
+     "EV-02900",
+     "EV-02893",
+     "OE-01366"
+    ]
+   },
+   {
+    "date": "1940-01-10",
+    "precision": "jour",
+    "moment": "Présentation de la maquette au MoMA devant bailleurs de fonds, photographes du Herald Tribune ; Gropius vante la coopération, Albers livre sa profession de foi",
+    "etat_interieur": "Cérémonie new-yorkaise : le rêve de Lake Eden porté par des stars internationales",
+    "refs": [
+     "SC-00786",
+     "SC-00787",
+     "EV-03086",
+     "EV-03087",
+     "EV-03088"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "annee",
+    "moment": "La guerre tue la campagne de fonds ; les plans (estimés 500 000 $, honoraires de 400 $) sont abandonnés ; le collège se tourne vers Kocher — que Gropius et Breuer recommandent tout en étant vexés d'être écartés ; il enseigne néanmoins à l'été 1940",
+    "etat_interieur": "Piquant d'orgueil sous apparence de bonne grâce ; le projet-vedette reste sur le papier",
+    "refs": [
+     "EV-02772",
+     "EV-02989",
+     "EV-03039",
+     "EV-03114",
+     "OE-00481",
+     "EV-02900"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Albers le propose comme visiting teacher ; Breuer, trop occupé, refuse tout engagement régulier",
+    "etat_interieur": "Carrière américaine lancée ailleurs ; BMC n'est plus une priorité",
+    "refs": [
+     "EV-04263"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1920",
+    "precision": "annee",
+    "moment": "Arrivée à 18 ans au Bauhaus de Weimar : entretien glacial avec Itten, atelier de verre, rencontre du balai avec Albers — il ne comprend pas l'allemand",
+    "etat_interieur": null,
+    "refs": [
+     "EV-00703",
+     "SC-00182",
+     "RE-00304",
+     "RE-00305"
+    ]
+   },
+   {
+    "date": "1923",
+    "precision": "annee",
+    "moment": "Encore étudiant, il meuble le Haus am Horn (planches de citronnier et de noyer, boutons ronds et lisses)",
+    "etat_interieur": null,
+    "refs": [
+     "EV-00947"
+    ]
+   },
+   {
+    "date": "1924",
+    "precision": "annee",
+    "moment": "Campagne nationaliste thuringienne contre « Juifs et étrangers » ; en décembre, projet d'exil à trois avec Anni et Josef Albers (« Lajko ») vers Berlin, puis déménagement à Dessau",
+    "etat_interieur": null,
+    "refs": [
+     "EV-01052",
+     "EV-01058",
+     "EV-01081",
+     "EV-01082"
+    ]
+   },
+   {
+    "date": "1925",
+    "precision": "annee",
+    "moment": "Jungmeister à Dessau ; participe en charrette aux dessins d'exécution du bâtiment de Gropius",
+    "etat_interieur": null,
+    "refs": [
+     "EV-01174",
+     "EV-01177"
+    ]
+   },
+   {
+    "date": "1926",
+    "precision": "annee",
+    "moment": "Voyage à Paris avec Anni et Josef Albers, initié par Anni",
+    "etat_interieur": null,
+    "refs": [
+     "EV-01253"
+    ]
+   },
+   {
+    "date": "1927",
+    "precision": "annee",
+    "moment": "Chef de l'atelier de mobilier : invention du fauteuil Wassily (tubes de guidon de vélo) ; conflit Meissner contre l'artisan hongrois : démission furieuse, rétractation, disqualification comme successeur",
+    "etat_interieur": null,
+    "refs": [
+     "EV-01312",
+     "EV-01319",
+     "EV-01321",
+     "EV-01320",
+     "RE-00521"
+    ]
+   },
+   {
+    "date": "1928",
+    "precision": "annee",
+    "moment": "Départ effectif du Bauhaus avec Gropius, Bayer et Moholy, lassé de Hannes Meyer ; il assiste costumé à la fête de naturalisation des Kandinsky ; Albers reprend son atelier de meubles",
+    "etat_interieur": null,
+    "refs": [
+     "EV-01380",
+     "EV-01388",
+     "EV-01397",
+     "SC-00336",
+     "EV-01395"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "annee",
+    "moment": "Émigration aux États-Unis avec les Gropius ; professeur à Harvard",
+    "etat_interieur": null,
+    "refs": [
+     "EV-02690",
+     "PE-00034"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1940",
+    "precision": "annee",
+    "moment": "Le Studies Building est construit par Kocher d'après un plan plus simple que celui de Gropius-Breuer",
+    "etat_interieur": null,
+    "refs": [
+     "EV-02655",
+     "EV-02894"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Installé au Connecticut, il construit des maisons à toits plats qui fuient sous la neige et la glace — scandale durable d'Albers ; une école à dix-sept tailles de vitres devient pour Josef l'antithèse de la standardisation",
+    "etat_interieur": null,
+    "refs": [
+     "EV-00306",
+     "EV-01372",
+     "RE-00107",
+     "RE-02810"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Architecte de la chapelle de la St. John's Benedictine Community (Minnesota), où est installé le White Cross Window d'Albers",
+    "etat_interieur": null,
+    "refs": [
+     "EV-06640",
+     "PE-00034"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Il demande à Anni Albers les panneaux d'arche pour la synagogue Har Tzeon de Silver Spring — le juif qui s'était fait déclarer « Aryen » commande une synagogue",
+    "etat_interieur": null,
+    "refs": [
+     "RE-00466",
+     "EV-06954"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Rupture définitive avec Josef Albers : l'abbaye du Minnesota qu'il a dessinée reprend un design de Josef sans crédit ; Anni tente des rapprochements par amis communs, Josef rompt",
+    "etat_interieur": null,
+    "refs": [
+     "RE-00910",
+     "EV-02052"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Dans les années 1970, Anni découvre que Breuer avait caché sa judéité et s'était fait déclarer non-juif à Weimar : consternation mêlée de fascination",
+    "etat_interieur": null,
+    "refs": [
+     "EV-08172",
+     "EV-08173"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Ses chaises tubulaires deviennent des éléments essentiels de la vie moderne",
+    "etat_interieur": null,
+    "refs": [
+     "PE-00034",
+     "OE-00119"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "du balai de 1920 à la brouille définitive : amitié, projet d'exil à trois (1924), voisinage au Connecticut, puis rupture sur l'abbaye du Minnesota",
+    "evolution": "Complicité de jeunesse (Weimar, projet Berlin, Paris 1926) → collègues à Dessau (Albers lui succède en 1928) → voisins américains → critique des toits plats → querelle d'attribution → rupture définitive, Anni en médiatrice vaine",
+    "refs": [
+     "SC-00182",
+     "EV-00703",
+     "EV-01081",
+     "EV-01253",
+     "EV-01397",
+     "RE-00453",
+     "RE-00107",
+     "RE-00910",
+     "RE-02810",
+     "EV-02052"
+    ]
+   },
+   {
+    "avec": "Anni Albers",
+    "nature": "amitié et collaboration professionnelle",
+    "evolution": "Compagne du trio de 1924 ; bien après BMC, il lui commande les panneaux de la synagogue Har Tzeon ; elle tentera de réconcilier Josef et lui après la querelle ; horrifiée mais fascinée par la révélation de sa judéité cachée",
+    "refs": [
+     "EV-01081",
+     "EV-01253",
+     "RE-00466",
+     "EV-06954",
+     "RE-00910",
+     "EV-08172"
+    ]
+   },
+   {
+    "avec": "Walter Gropius",
+    "nature": "disciple, rival de succession, puis associé",
+    "evolution": "Conflit de 1927 (Meissner) puis réconciliation : émigration commune en 1937, cabinet partagé à Harvard, co-commission BMC 1939-40 ; éviction conjointe au profit de Kocher, acceptée avec humeur",
+    "refs": [
+     "RE-00517",
+     "RE-00521",
+     "EV-02690",
+     "RE-01118",
+     "RE-01119",
+     "EV-02989",
+     "EV-03114"
+    ]
+   },
+   {
+    "avec": "Johannes Itten",
+    "nature": "rejet immédiat",
+    "evolution": "Antipathie à l'entretien d'entrée de 1920 face à l'arrogance d'Itten (« Hmmm » hautains sur le carnet de dessins) ; sans suite connue dans les fiches",
+    "refs": [
+     "RE-00305",
+     "EV-00703"
+    ]
+   },
+   {
+    "avec": "A. Lawrence Kocher",
+    "nature": "successeur imposé sur le chantier de BMC",
+    "evolution": "Recommandé et conseillé par Gropius et Breuer eux-mêmes, qui restent vexés d'être remplacés ; Kocher construit le Studies Building",
+    "refs": [
+     "EV-02989",
+     "EV-03114"
+    ]
+   },
+   {
+    "avec": "Claude Stoller",
+    "nature": "influence admirative à distance",
+    "evolution": "Étudiant de la sphère Albers/BMC, Stoller admire son usage des matériaux",
+    "refs": [
+     "RE-00332"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Origines sociales : une fiche le dit fils de dentiste hongrois, une autre fils de maçon à Aachen habitué aux bagarres de rue — deux récits incompatibles, à trancher avant tout dialogue de flashback",
+   "Son lien exact avec l'été 1940 : une source (Weber, via la fiche du fauteuil Wassily) affirme qu'il enseigne à l'été 1940, les autres ne mentionnent qu'une « visite 1940 » ou sa commission d'architecte ; la nature de son enseignement n'est pas détaillée",
+   "Chronologie de la commission BMC : entre 1938 (photocollage), 1939 (commande et maquette) et 1940-01 (vote de la faculté un mois avant la démission de Rice) selon les sources — l'ordre précis commande/maquette/présentation doit être vérifié"
+  ],
+  "situations_revelatrices": [
+   "Le moment où il balbutie, à 18 ans, sa question sur le balai : l'étranger nu devant la langue et l'institution",
+   "L'administration de Weimar où il se fait déclarer « Aryen » : scène de reniement secret, sans un mot",
+   "La colère de 1927 : la feuille de démission posée puis reprise, devant Gropius",
+   "Le MoMA en janvier 1940 : poser pour les photographes du Herald Tribune autour d'une maquette qui ne sera jamais construite",
+   "L'apprendre — vexé — que le collège préfère Kocher, et devoir recommander son remplaçant de bonne grâce",
+   "La synagogue Har Tzeon des années 1950 : celui qui avait nié sa judéité commande des panneaux à Anni"
+  ],
+  "citations": [
+   "SC-00182",
+   "SC-00786",
+   "EV-03086"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, état civil, famille : rien dans les fiches",
+   "Sa vie à Berlin entre 1928 et 1937 : les fiches passent directement du Bauhaus à l'émigration",
+   "Ce qu'il a réellement enseigné à l'été 1940 de BMC et sa relation directe avec les étudiants",
+   "Sa réaction, s'il y en eut une, à la révélation posthume de son secret par Anni",
+   "Le détail exact de la querelle de l'abbaye du Minnesota : quel design, quelle attribution manquante",
+   "Portrait physique, manières de parler adultes (anglais, allemand, hongrois) : à documenter"
+  ]
+ }
+}

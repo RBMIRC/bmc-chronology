@@ -1,0 +1,276 @@
+{
+ "passe": "mois",
+ "cle": "1935-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3279,
+  "sortie": 11381,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1935-12",
+  "session": "Probablement le trimestre d'automne, en fin de session et à l'approche des vacances de Noël (déduit : les fiches ne donnent aucun calendrier de session, seulement la rentrée de septembre)",
+  "saison_et_climat": "Hiver naissant en Caroline du Nord. Le climat n'est pas décrit par les fiches ; seul indice : une panne de chauffage évoquée sans date, qui suppose des mois froids (déduit).",
+  "situation": "Le collège tourne après sa rentrée de septembre 1935, avec de nouveaux enseignants (Knickerbocker, Farrell, Sly, Fiorillo, les Moellenhoff, Seasongood). Les Albers et les Dreier sont probablement au Mexique à cette date, d'après la scène SC-00627 ; le voyage est pourtant daté de l'été selon d'autres sources, ce qui crée une contradiction. Les frictions Rice-Knickerbocker et Rice-Albers montent. Le collège prépare sa mise en avant publique, avec la visite d'Adamic et l'article à venir.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Irving Knickerbocker",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nancy Farrell",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Allan Sly",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dante Fiorillo",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anna Moellenhoff",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Fritz Moellenhoff",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Janet Seasongood",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Joe Martin",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1935-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rentrée : arrivée de Nancy Farrell, Knickerbocker, Sly et Fiorillo, des Moellenhoff et de Janet Seasongood.",
+    "certitude": "atteste",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Katherine Dreier prête une partie de sa collection (Kandinsky, Klee, Léger, Miró, Mondrian, Schwitters) ; les étudiants en choisissent trente ou quarante toiles pour leurs chambres.",
+    "certitude": "atteste",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers publie « Art as Experience » dans Progressive Education et dessine le logo du collège (anneau avec l'adresse).",
+    "certitude": "atteste",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "saison",
+    "ce_qui_arrive": "Ouverture du music cottage, inauguré avec hot-dogs, Coca ou cidre ; l'épisode de la saucisse qui tombe dans le feu.",
+    "certitude": "atteste",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Les Albers et les Dreier découvrent à Oaxaca des figurines précolombiennes et commencent à les acheter ; la collection d'idolos naît ainsi.",
+    "certitude": "probable",
+    "refs": [
+     "SC-00627",
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "ce_qui_arrive": "Séjour de Louis Adamic et de sa femme Stella au collège, de quelques jours à deux ou trois mois selon les sources ; il observe le séminaire d'écriture.",
+    "certitude": "probable",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Corvées mixtes (bois, routes, tennis, ferme) ; bal du samedi soir avec Evarts au piano ; folkdance anglaise de Sly ; répétitions et travaux de classe de Wunsch ; cours de Rice et séminaire de Platon ; soirées à Roy's, financées par les fonds anonymes de Stephen Forbes ; cours de biologie d'Anna Moellenhoff ; chant collectif et écoute des concerts de Toscanini le dimanche. Les étudiants travaillent de leurs mains et les déficits pèsent sur la faculté.",
+  "tensions": [
+   "Rice contre Knickerbocker sur les tactiques de classe, rapport qui se dégrade depuis la rentrée",
+   "Rice contre Albers, au moment où Josef a la tête tournée vers Harvard",
+   "Mangold contre Arthur Adams : l'apprentissage ne commence que quand l'étudiant le veut, et les enseignants sont en cause",
+   "Déficit structurel : environ 350 $ de coût par étudiant et par an, couvert par la faculté",
+   "Question raciale : le personnel noir refuse de déménager à Lee Hall après une panne de chauffage, par crainte de l'hostilité du village",
+   "Wunsch, épuisé, se rapproche de la vision de Rice tout en divergeant d'Albers sur le théâtre-thérapie"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Découverte des miniatures précolombiennes entre les mains des paysans",
+    "date": "1935-12",
+    "lieu": "Oaxaca, Monte Albán, Mitla",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Theodore Dreier",
+     "Barbara Dreier"
+    ],
+    "deroule": "En visitant sites et musées, les Albers examinent des fragments de céramique trouvés par les paysans en labourant : têtes délicatement façonnées, figurines souvent brisées. Ils commencent à acheter et à collectionner, jusqu'à plus de mille objets.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00627"
+    ]
+   },
+   {
+    "titre": "Frictions en séminaire entre Rice et Knickerbocker",
+    "date": "1935-12",
+    "lieu": "Salle de cours du collège",
+    "personnages": [
+     "Rice",
+     "Irving Knickerbocker",
+     "Nancy Farrell"
+    ],
+    "deroule": "Knickerbocker met en doute les tactiques de classe de Rice devant les étudiants, et l'échange glisse vers la rivalité ouverte. Scène reconstruite à partir du conflit déjà installé depuis septembre.",
+    "certitude": "deduit",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Bal du samedi soir",
+    "date": "1935-12",
+    "lieu": "Salle commune du collège",
+    "personnages": [
+     "Evarts",
+     "Allan Sly",
+     "Dante Fiorillo"
+    ],
+    "deroule": "Evarts joue du piano pour le bal, Sly anime la folkdance anglaise, et la communauté danse ensemble. Scène déduite des habitudes décrites, sans date précise.",
+    "certitude": "deduit",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Adamic observe le séminaire d'écriture",
+    "date": "1935",
+    "lieu": "Séminaire d'écriture du collège",
+    "personnages": [
+     "Louis Adamic",
+     "Stella Adamic",
+     "Rice"
+    ],
+    "deroule": "Adamic prend des notes pendant que Rice défend sa doctrine : méthode contre contenu, processus contre résultats. Cette doctrine nourrira l'article à venir.",
+    "certitude": "probable",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Panne de chauffage et refus de déménager à Lee Hall",
+    "date": null,
+    "lieu": "Lee Hall",
+    "personnages": [
+     "Personnel noir du collège",
+     "Direction"
+    ],
+    "deroule": "Après une panne de chauffage, la direction propose de loger le personnel à Lee Hall ; le personnel refuse, par crainte de l'hostilité du village. La question reste en suspens.",
+    "certitude": "probable",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Oaxaca, décembre 1935 : les Albers devant les têtes de figurines achetées aux paysans",
+    "vers_date": "1935-01",
+    "vers": "Première exposition personnelle de Josef à l'Addison Gallery d'Andover : quinze gravures, brèves dans la presse locale sans critique, Sawyer seul soutien en Nouvelle-Angleterre.",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Collège, décembre 1935 : les frictions Rice-Knickerbocker au séminaire",
+    "vers_date": null,
+    "vers": "Visite de John Dewey en 1934-35 : il suit en silence le cours de Rice, rejoint les étudiants à Roy's et écrit à Rice que le collège touche aux racines de la vie démocratique.",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Collège, décembre 1935 : Adamic reste ou repart, et son observation nourrit son texte",
+    "vers_date": "1936-04",
+    "vers": "Parution de « Education on a Mountain » dans Harper's, et crise autour de l'article en 1936.",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Oaxaca, décembre 1935 : Josef a la tête tournée vers Harvard",
+    "vers_date": "1936",
+    "vers": "Josef Albers commence à enseigner à Harvard.",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Oaxaca, décembre 1935 : les premières figurines achetées",
+    "vers_date": null,
+    "vers": "La collection d'idolos, qui compte des centaines de pièces jamais exposées, est léguée plus tard au Peabody Museum de Yale.",
+    "refs": [
+     "SC-00627",
+     "1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Collège, décembre 1935 : Knickerbocker conteste déjà les méthodes de Rice",
+    "vers_date": "1937-06",
+    "vers": "Le conflit Rice-Knickerbocker aboutit au schisme, qui s'achève en juin 1937.",
+    "refs": [
+     "1935 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "La collection d'idolos, née d'un achat à un petit garçon",
+   "Méthode contre contenu, processus contre résultats",
+   "L'apprentissage qui commence quand l'étudiant le veut",
+   "Le collège comme vie démocratique, selon Dewey",
+   "Le travail manuel de tous, et le déficit qui retombe sur la faculté",
+   "La question raciale laissée en suspens"
+  ],
+  "lacunes": "Aucun calendrier de session ni aucun jour précis pour décembre 1935. La date du voyage mexicain diverge : été 1935 selon certaines sources, décembre 1935 à janvier 1936 selon d'autres. La visite d'Adamic reste non datée, et sa durée est contestée (quelques jours, ou deux à trois mois). Pour Dewey, Chaddock parle de deux visites d'une semaine ou plus, Reynolds de deux visites dont une avec Barnes (par oui-dire). On ne sait pas qui est réellement sur le campus en décembre. L'épisode du chauffage et de Lee Hall n'est pas daté. La synthèse 1935 n'a pas d'identifiant : elle est citée par son libellé « 1935 (synthèse) »."
+ }
+}

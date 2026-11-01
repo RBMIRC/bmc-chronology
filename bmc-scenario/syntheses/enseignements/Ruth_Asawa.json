@@ -1,0 +1,683 @@
+{
+ "passe": "enseignements",
+ "cle": "Ruth Asawa",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 30434,
+  "sortie": 16718,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Ruth Asawa",
+  "cours": [
+   {
+    "intitule": "Vannerie de feuilles de palmier pour enfants",
+    "periodes": [
+     "été 1947"
+    ],
+    "atteste": "non",
+    "objectifs": "Apprendre à des enfants à tisser des paniers en feuilles de palmier. La fiche ne donne ni le lieu ni le public précis. Asawa est alors étudiante à Black Mountain, mais rien n'indique que ce cours y ait été donné (atteste_a_bmc : non).",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Tisser des feuilles de palmier en paniers, avec un peu de fil dans le processus.",
+      "materiaux": "feuilles de palmier, fil",
+      "but": "Faire fabriquer un objet tissé par le geste manuel.",
+      "refs": [
+       "CO-00462"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "On ne peut rien déduire des fiches sur une suite directe. Le geste tissé et noué réapparaîtra dans ses sculptures en fil (inférence, non attestée).",
+    "refs": [
+     "CO-00462"
+    ]
+   },
+   {
+    "intitule": "Transmission du Paper Fold d'Albers à Merry Renk (enseignement informel)",
+    "periodes": [
+     "1951"
+    ],
+    "atteste": "non",
+    "objectifs": "Passer à une autre artiste l'exercice de pliage de papier appris auprès d'Albers. C'est une transmission entre amies à San Francisco, pas un cours au collège. Le dispositif relève de la déduction : la fiche ne parle que d'explications données puis d'exercices exécutés.",
+    "deroule_type_seance": "Asawa explique le Paper Fold. Renk exécute les exercices et apprend les règles de base du pliage. Elle s'obstine ensuite seule, deux jours et deux nuits, à dessiner et plier une forme de carton à œufs.",
+    "exercices": [
+     {
+      "consigne": "Exécuter les exercices de pliage du Paper Fold d'Albers selon les règles de base. Puis dessiner et plier une forme de carton à œufs, jusqu'à l'obsession.",
+      "materiaux": "papier, carton (carton à œufs)",
+      "but": "Maîtriser les règles du pliage par la pratique répétée.",
+      "refs": [
+       "SC-01437"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Paper Fold de Josef Albers (exercice de pliage du papier)"
+    ],
+    "propos_types": [
+     "Renk se souvient d'avoir cherché, à l'école, sans trouver ni enfant ni solutions. Après Asawa, elle dit avoir appris les règles de base du pliage (SC-01437)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Renk est prise d'une obsession joyeuse : deux jours et deux nuits de travail sur une seule forme.",
+    "evolution": "Asawa évoque plus tard des dialogues nocturnes sur le pliage et le branchement (ID-03698). Son idée du travail comme étapes successives, plier, déplier, changer de matière, prolonge cet héritage albersien (ID-02976, atteste_a_bmc incertain).",
+    "refs": [
+     "SC-01437",
+     "ID-03698",
+     "ID-02976"
+    ]
+   },
+   {
+    "intitule": "Alvarado School Arts Workshop : programme général d'art en école publique",
+    "periodes": [
+     "1968 (proposition d'un programme d'été)",
+     "1968-années 1970"
+    ],
+    "atteste": "non",
+    "objectifs": "Faire de l'art une part régulière de l'expérience scolaire. Rapprocher les enfants de leur monde immédiat par l'apprentissage par le faire. Désamorcer la peur de l'erreur. Réunir parents, enseignants et enfants autour d'une pratique commune. Personne n'est censé se sentir obligé d'être artiste. Ce cours est postérieur à BMC et n'y est pas attesté.",
+    "deroule_type_seance": "En 1968, Asawa et Sally Woodbridge jaugent l'intérêt des mères du quartier. Elles proposent un programme d'été au chef de l'éducation artistique, à la superviseuse des arts du district et au directeur, qui prête la cafétéria. Dans la pratique, les enfants reçoivent un matériau sans consigne (voir l'atelier « boule de pâte »), puis travaillent en collectif avec des parents volontaires. Les travaux sont éphémères, ou transposés plus tard dans des œuvres durables.",
+    "exercices": [
+     {
+      "consigne": "Mouler le visage des élèves.",
+      "materiaux": "plâtre, vaseline (voir l'atelier de moulage)",
+      "but": "Voir le temps dans la matière ; créer de la confiance.",
+      "refs": [
+       "CO-00866",
+       "ID-04137"
+      ]
+     },
+     {
+      "consigne": "Modeler une boule de pâte farine-sel-eau sans consigne.",
+      "materiaux": "farine, sel, eau",
+      "but": "Révéler l'inhibition créative et faire accepter l'erreur.",
+      "refs": [
+       "CO-00866",
+       "SC-02004"
+      ]
+     },
+     {
+      "consigne": "Réaliser des mosaïques murales collectives.",
+      "materiaux": "carreaux de mosaïque",
+      "but": "Donner prise aux enfants sur leur propre espace.",
+      "refs": [
+       "CO-00866",
+       "ID-02131"
+      ]
+     },
+     {
+      "consigne": "Faire des collages avec haricots secs, macaronis, graines pour oiseaux, presses à ail, couteaux de table, pâte à pain.",
+      "materiaux": "aliments secs, ustensiles de cuisine",
+      "but": "Détourner le quotidien en matière d'art.",
+      "refs": [
+       "CO-00866"
+      ]
+     },
+     {
+      "consigne": "Réaliser des junk sculptures avec des matériaux de rebut.",
+      "materiaux": "rebuts",
+      "but": "Faire de l'art avec ce qui est donné ou récupéré.",
+      "refs": [
+       "CO-00866"
+      ]
+     },
+     {
+      "consigne": "Pratiquer le jardinage et organiser des festivals d'art.",
+      "materiaux": null,
+      "but": "Faire de l'art une pratique de communauté.",
+      "refs": [
+       "CO-00866",
+       "ID-04141"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Pédagogie du faire d'Albers et du Bauhaus, selon les liens que les fiches posent (déduit)",
+     "Pond Farm / Marguerite Wildenhain : les pots non cuits écrasés pour recommencer, cité comme précédent de la logique du processus (ID-02133)"
+    ],
+    "propos_types": [
+     "Les mots, les chiffres et les évaluations sont abstraits ; on n'apprend qu'en faisant (CO-00866, ID-03870).",
+     "La peur de l'erreur est inculquée. Pour l'artiste, l'erreur est simplement une expérience d'apprentissage (CO-00866).",
+     "Faire une murale, c'est se faire sa propre histoire (ID-02131).",
+     "Le but n'est pas d'acquérir des faits ou des techniques mais de multiplier les rencontres (ID-02132).",
+     "Le refrain du Workshop est l'autosuffisance : la communauté organise ses propres ressources (ID-02134).",
+     "Elle veut un nouvel environnement physique pour apprendre et rattache cet esprit à Black Mountain (ID-04136)."
+    ],
+    "critique_et_evaluation": "Face à la Arts Commission, qui se juge sans lien avec le Board of Education, Asawa propose de s'attaquer aux écoles ; la commission se moque de l'idée (SC-02066). Elle contourne alors les institutions. Le Workshop rejette l'évaluation abstraite. Ses productions sont largement éphémères, jetées avec le temps, comme les pots jamais cuits de Pond Farm (ID-02133, atteste_a_bmc incertain).",
+    "reactions_etudiants": "Les enfants cherchent des instructions et regardent autour d'eux. La bibliothécaire de McKinley pleure de voir des pré-adolescents si inhibés (CO-00866).",
+    "evolution": "De la proposition d'un programme d'été en 1968 aux ateliers de pâte, aux murales et aux monuments des années 1970-1980. La fiche CO-00869 donne environ quinze ans de pratique de pâte à sel avec des écoliers.",
+    "refs": [
+     "CO-00866",
+     "SC-02065",
+     "SC-02066",
+     "ID-02131",
+     "ID-02132",
+     "ID-02133",
+     "ID-02134",
+     "ID-03870",
+     "ID-04136",
+     "ID-04137",
+     "ID-04141",
+     "SC-02004"
+    ]
+   },
+   {
+    "intitule": "Atelier de la boule de pâte sans consigne",
+    "periodes": [
+     "≈1964 et après (date déduite, ≈1964→2013)"
+    ],
+    "atteste": "non",
+    "objectifs": "Mettre en scène la peur de l'erreur : un matériau simple, aucune consigne, et l'on regarde ce que font les élèves. Pratique d'école publique, non attestée à BMC.",
+    "deroule_type_seance": "Asawa pose une boule de pâte devant chaque enfant sans dire quoi faire. Les élèves regardent autour d'eux, cherchent ce qu'il faut faire. L'observatrice Nancy Faber note l'inhibition déjà installée.",
+    "exercices": [
+     {
+      "consigne": "Prendre la boule de pâte posée devant soi et en faire ce qu'on veut, sans instruction.",
+      "materiaux": "boule de pâte (farine, sel, eau)",
+      "but": "Faire découvrir qu'on apprend en faisant, et que l'erreur est une étape.",
+      "refs": [
+       "SC-02004",
+       "CO-00866",
+       "ID-03870"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "On ne peut apprendre qu'en faisant ; l'apprentissage abstrait est prioritaire à l'école alors que le concret devrait primer ; les erreurs sont des leçons et non des échecs (ID-03870)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Hésitation, silence d'enfants que l'école a déconditionnés ; ils cherchent des instructions (SC-02004, CO-00866).",
+    "evolution": null,
+    "refs": [
+     "SC-02004",
+     "CO-00866",
+     "ID-03870"
+    ]
+   },
+   {
+    "intitule": "Ateliers de pâte à sel / baker's clay (maison, école, foires, musées)",
+    "periodes": [
+     "1964 (cuisine familiale, Noël)",
+     "années 1960-1970",
+     "v. 1969-1985"
+    ],
+    "atteste": "non",
+    "objectifs": "Rendre l'art accessible à tous. Recréer une tradition d'art populaire que le pays n'a plus. Faire de l'enfant un agent d'engagement civique. Faire de la fabrication artistique une pratique domestique et civique pour mères et enfants. Pour les écoliers, créer une œuvre collective monumentale et les confronter aux structures auxquelles on leur demande de se conformer. Non attesté à BMC.",
+    "deroule_type_seance": "Pétrir 3 à 5 minutes, parfois refroidir la pâte au réfrigérateur. Modeler à plat, comme on dessinerait sur une feuille. Raidir les parties fines avec fil ou cure-dents. Cuire au four de cuisine (non comestible), peindre ou garder la couleur bisque naturelle. Pour les panneaux : coller sur planches, réparer les fissures, vernir au Varathane ou couler en résine polyester. Version école, sur plusieurs semaines : voir les travaux des années précédentes, entendre un invité (père Boeddeker), modeler son autoportrait (parfois d'après la photo scolaire officielle), puis prendre le bus jusqu'à la fonderie pour voir la coulée en béton armé de fibre de verre. Une version en bronze (cire perdue) est aussi mentionnée.",
+    "exercices": [
+     {
+      "consigne": "Mélanger farine, sel et eau, puis pétrir 3 à 5 minutes (pigment sec pour colorer).",
+      "materiaux": "4 parts de farine, 1 part de sel, 1,5 part d'eau ; pigment sec",
+      "but": "Obtenir une pâte plus élastique que l'argile.",
+      "refs": [
+       "CO-00851",
+       "CO-00852",
+       "CO-00869"
+      ]
+     },
+     {
+      "consigne": "Modeler à la main ou avec des outils domestiques : clous rainurés, bords de pièces, poils de brosse à dents.",
+      "materiaux": "outils de cuisine et de ménage",
+      "but": "Texturer sans outils de sculpteur.",
+      "refs": [
+       "CO-00851"
+      ]
+     },
+     {
+      "consigne": "Presser une boule de pâte dans un presse-ail pour obtenir cheveux fins ou jupe d'herbe.",
+      "materiaux": "presse-ail, pâte",
+      "but": "Détourner un ustensile en outil d'art.",
+      "refs": [
+       "CO-00851"
+      ]
+     },
+     {
+      "consigne": "Raidir les membres fins avec du fil ou des cure-dents.",
+      "materiaux": "fil, cure-dents",
+      "but": "Faire tenir les parties fragiles.",
+      "refs": [
+       "CO-00851"
+      ]
+     },
+     {
+      "consigne": "Construire une figure debout à plat, comme on la dessinerait sur une feuille de papier.",
+      "materiaux": "pâte, planche",
+      "but": "Faire tenir la figure en la composant comme un dessin.",
+      "refs": [
+       "CO-00852"
+      ]
+     },
+     {
+      "consigne": "Coller les pièces sur des planches, sécher ou cuire, réparer les fissures, recouvrir de Varathane ou de résine polyester.",
+      "materiaux": "planches, Varathane ou résine",
+      "but": "Conserver l'œuvre collective.",
+      "refs": [
+       "CO-00852"
+      ]
+     },
+     {
+      "consigne": "Cuire dans le four de cuisine plutôt que dans un four de potier.",
+      "materiaux": "four domestique",
+      "but": "Garder la pratique à portée de maison.",
+      "refs": [
+       "CO-00851",
+       "CO-00853"
+      ]
+     },
+     {
+      "consigne": "Modeler son autoportrait en pâte à sel, parfois d'après la photo scolaire officielle.",
+      "materiaux": "pâte à sel",
+      "but": "Produire un panneau pour une œuvre collective.",
+      "refs": [
+       "CO-00869"
+      ]
+     },
+     {
+      "consigne": "Partager les travaux antérieurs avant de commencer, écouter un invité local, puis aller voir la coulée à la fonderie.",
+      "materiaux": null,
+      "but": "Situer l'atelier dans une chaîne de production collective et publique.",
+      "refs": [
+       "CO-00869"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Folk art américain (comme tradition à recréer)",
+     "Pond Farm / Wildenhain, évoqué à propos du processus (ID-02133)",
+     "Presse domestique : le magazine Ladies' Home Journal photographie en 1964 un claybake de Noël (SC-02015)",
+     "Le quilt filmé par Snyder : le carré central rouge porte la recette de la pâte à sel (SC-02091)"
+    ],
+    "propos_types": [
+     "La pâte est une tentative de faire revivre le folk art américain dans un médium accessible à tous (CO-00851, ID-03833).",
+     "La pâte a une élasticité que l'argile n'a pas (CO-00852).",
+     "Personne ne doit se sentir obligé d'être artiste pour travailler la pâte avec des ustensiles de cuisine (CO-00852, ID-03956).",
+     "On a perdu le temps où tout le village bâtissait des cathédrales ensemble ; il faut réapprendre à faire des choses ensemble (ID-03956).",
+     "Le carré central du quilt avec la recette est « ce que tout ce programme à l'école veut dire » (CO-00869, SC-02091).",
+     "Le but de l'art n'est pas l'expression mais l'expérimentation (ID-00264, incertain à BMC)."
+    ],
+    "critique_et_evaluation": "À Pritzker, qui craignait que la fontaine du Hyatt ressemble à un cookie, Asawa répond que c'est exactement ce qu'elle veut (SC-02020). Tension entre sources : les produits du Workshop sont dits éphémères et jetés (ID-02133), alors que CO-00852 prévoit vernissage, résine et exposition de panneaux, et CO-00869 la fonte en bronze ou en béton.",
+    "reactions_etudiants": "Des écoliers d'Alvarado réalisent un autoportrait collectif en panneaux, exposé en 1969 (CO-00852). À la dédicace du monument, des dizaines d'enfants touchent avec émerveillement ce qu'ils ont créé, comme saint Thomas touchant les plaies du Christ (CO-00869). Lors du claybake de Noël de 1964, des enfants de 5 à 14 ans façonnent, cuisent et peignent à la table de la cuisine (SC-02015).",
+    "evolution": "De la cuisine familiale en 1964 (SC-02015) aux photos de la maison par Olga Gueft en 1967 (SC-02044), à l'exposition de pâtes de 1969 qui lui vaut la commande de Bassett pour la fontaine du Hyatt (SC-02076), puis au Dough-In de 1973 et à la pratique en école jusqu'en 1985. Divergence de dates : CO-00852 situe l'Alvarado Workshop dans « les années 1960 » avec une exposition en 1969, alors que la proposition du programme est de 1968 (SC-02065).",
+    "refs": [
+     "CO-00851",
+     "CO-00852",
+     "CO-00853",
+     "CO-00869",
+     "SC-02015",
+     "SC-02044",
+     "SC-02076",
+     "SC-02020",
+     "SC-02091",
+     "SC-02102",
+     "ID-03833",
+     "ID-03956",
+     "ID-00264",
+     "ID-02133"
+    ]
+   },
+   {
+    "intitule": "Le Dough-In de 1973 au San Francisco Museum of Art",
+    "periodes": [
+     "juin 1973 (ouverture de la rétrospective)"
+    ],
+    "atteste": "non",
+    "objectifs": "Ouvrir le musée à une participation massive : fabrication, cuisson et peinture collective de figures de pâte, avec des enfants. Hors BMC.",
+    "deroule_type_seance": "Pendant l'ouverture de la rétrospective, un atelier de pâte reçoit plus de mille enfants, bien au-delà du prévu. La farine s'épuise dès la première heure. Les réalisations sont exposées, puis rendues aux enfants à la clôture. Fabrication, cuisson et peinture collective sont citées dans CO-00851.",
+    "exercices": [
+     {
+      "consigne": "Fabriquer des figures de pâte, les cuire, puis les peindre en commun.",
+      "materiaux": "pâte à modeler (4 farine : 1 sel : 1,5 eau), peinture ou finition bisque",
+      "but": "Faire participer le public enfantin à l'art.",
+      "refs": [
+       "CO-00851",
+       "SC-02117"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "La pâte comme folk art populaire à la portée de tous (CO-00851)."
+    ],
+    "critique_et_evaluation": "L'institution des beaux-arts se trouve confrontée au désir populaire de participer, selon l'enjeu dramatique de la fiche SC-02117. Débordement logistique : la farine s'épuise en une heure.",
+    "reactions_etudiants": "Plus de mille enfants ; désir massif de participation à l'art ; musée transformé en cuisine géante (CO-00851, SC-02117).",
+    "evolution": "Aboutissement de dix ans d'ateliers de pâte (1964-1973), avant la poursuite des ateliers d'école jusqu'en 1985.",
+    "refs": [
+     "CO-00851",
+     "SC-02117"
+    ]
+   },
+   {
+    "intitule": "Moulage de visages avec les élèves et avec des proches",
+    "periodes": [
+     "≈1964 et après (moulages domestiques)",
+     "1968-années 1970 (Alvarado)"
+    ],
+    "atteste": "non",
+    "objectifs": "Saisir une minute d'une personne destinée à changer. Créer de la confiance entre élèves, malgré leurs inimitiés de classe. Pratique développée après BMC, sur une éthique de communauté qu'Asawa associe à BMC (ID-04137, incertain).",
+    "deroule_type_seance": "En classe, selon ID-04137 (pas de calendrier précis) : des élèves de onze ans s'enduisent mutuellement la peau de vaseline et lissent des bandes de plâtre (pariscraft) sur le visage d'un camarade, qui reste immobile. Selon la mère volontaire citée, c'est une leçon combinée d'art, d'histoire, de sciences et de mathématiques. À la maison, selon SC-02005 : coulée du matériau sur le visage d'un proche, démoulage d'un masque en biscuit, accrochage au mur extérieur, déplacé au fil des ans.",
+    "exercices": [
+     {
+      "consigne": "Se passer mutuellement de la vaseline sur la peau, poser et lisser les bandes de plâtre sur le visage d'un camarade immobile.",
+      "materiaux": "vaseline, bandes de plâtre (pariscraft)",
+      "but": "Obtenir un masque ; apprendre l'immobilité et la confiance (ne pas étouffer).",
+      "refs": [
+       "ID-04137",
+       "CO-00866"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Polaroid chez Warhol et Helen Molesworth (comparaison de l'autrice, ID-04137)",
+     "Les castings du Bronx de John Ahearn (écho cité par l'autrice)"
+    ],
+    "propos_types": [
+     "« Je sais que je capture juste une minute d'une personne… j'aime arrêter le moment d'un temps » (SC-02005).",
+     "Mouler, c'est accepter la perte que suppose la maternité : l'enfant qu'on a connu grandira et changera (ID-03872)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Les masques d'Alvarado ont été moulés les uns sur les autres malgré les inimitiés de classe (ID-04137).",
+    "evolution": "Une série de moulages de corps de voisines et de proches (Andrea Jepson, 1966-1967, pour la fontaine Andrea) prolonge cette pratique hors de l'école (SC-02035, SC-02042) ; moulages de torses enceints (SC-02153, interprétation de l'autrice).",
+    "refs": [
+     "ID-04137",
+     "CO-00866",
+     "SC-02005",
+     "ID-03872",
+     "SC-02035",
+     "SC-02042",
+     "SC-02153"
+    ]
+   },
+   {
+    "intitule": "Mosaïque murale, papier mâché, jardinage : un nouvel environnement physique d'école",
+    "periodes": [
+     "1968-années 1970",
+     "≈1970-1985"
+    ],
+    "atteste": "non",
+    "objectifs": "Transformer cours et couloirs d'écoles comparées à des prisons (asphalte, grillages, « gris San Quentin ») en lieux hospitaliers, par le travail créatif des enfants. Le jardinage vise à agir tout de suite sur la position de l'enfant dans un système. Asawa dit suivre l'éthos de Black Mountain, mais le projet est postérieur et hors du collège (ID-04136 : oui pour le lien revendiqué, non pour la pratique au collège).",
+    "deroule_type_seance": "Les enfants décident eux-mêmes de la pose de chaque carreau de la mosaïque sur un mur aveugle de cour. Ils peuvent aussi construire des monstres en papier mâché aux entrées, des ptérosaures et poissons-globes suspendus, des vitraux en plastique recyclé. Les rôles s'inversent : les élèves deviennent enseignants et les enseignants deviennent élèves. À côté, jardinage urbain en contact direct avec sol, soleil et eau.",
+    "exercices": [
+     {
+      "consigne": "Poser la mosaïque murale en décidant collectivement de la place de chaque carreau.",
+      "materiaux": "carreaux de mosaïque, mur de cour",
+      "but": "Apprendre qu'on a prise sur son espace et se mettre à parler de ce qu'on a fait.",
+      "refs": [
+       "ID-04136",
+       "ID-02131",
+       "CO-00866"
+      ]
+     },
+     {
+      "consigne": "Fabriquer monstres en papier mâché, ptérosaures et poissons-globes suspendus, vitraux en plastique recyclé.",
+      "materiaux": "papier mâché, plastique recyclé",
+      "but": "Rendre l'école hospitalière.",
+      "refs": [
+       "ID-04136"
+      ]
+     },
+     {
+      "consigne": "Jardiner à l'école.",
+      "materiaux": "sol, semences",
+      "but": "Restaurer l'identité des individus et des communautés ; atteindre les élèves là où ils sont.",
+      "refs": [
+       "ID-04141",
+       "ID-04140"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Déclaration devant la sous-commission Carter sur l'art et la santé mentale (ID-04141)"
+    ],
+    "propos_types": [
+     "Faire une murale, c'est se faire sa propre histoire ; commencer par un mur gris de la cour (ID-02131).",
+     "Le but n'est pas d'acquérir des faits d'histoire de l'art mais de multiplier les rencontres, comme voir des poules, jardiner, tondre un mouton et tisser sa laine devant les enfants (ID-02132, rêves non réalisés d'après la fiche).",
+     "Le jardinage urbain est un processus créatif qui restaure l'identité des gens et des communautés (ID-04141).",
+     "À son avis, l'art doit agir sur le racisme à un niveau structurel et concret, plutôt que d'être une « créativité » expressionniste (ID-04140)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "La mosaïque d'Alvarado est citée comme exemple central (ID-02131, ID-04136). L'idée d'un artiste dans chaque école, travaillant entre l'école et la maison, ressortit à ID-03953.",
+    "refs": [
+     "ID-04136",
+     "ID-02131",
+     "ID-02132",
+     "ID-04141",
+     "ID-04140",
+     "ID-03953",
+     "CO-00866"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Exercice d'inversion fond/forme : l'échange continu entre surface extérieure et intérieure, comme le ruban de Möbius.",
+    "en_classe": "Peindre un panneau où le bleu sert de fond au vert en haut et où le vert devient figure en bas. Faire éprouver le passage du fond à la forme.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00214"
+    ]
+   },
+   {
+    "idee": "Voir autrement la matière déplacée : un nid de chenilles présenté sur une surface métallique cesse d'être reconnaissable et devient autre chose.",
+    "en_classe": "Présenter un objet familier sur un support inattendu (métal brillant) et demander ce qu'on voit. C'est une leçon vécue par Asawa à BMC avec Ray Johnson, pas une séance qu'elle a donnée.",
+    "atteste": "oui",
+    "refs": [
+     "SC-00377"
+    ]
+   },
+   {
+    "idee": "Albers tolère la fleur figurative à condition qu'elle devienne une « fleur Asawa ».",
+    "en_classe": "Laisser un élève rester dans son motif préféré tout en lui imposant la discipline formelle du cours. Leçon reçue par Asawa, rapportée par témoignage direct.",
+    "atteste": "oui",
+    "refs": [
+     "SC-01002"
+    ]
+   },
+   {
+    "idee": "La répétition est exploration formelle et plaisir tactile.",
+    "en_classe": "Répéter un même signe ou motif (tampon de blanchisserie « BMC » sur la feuille) pour en explorer les variations. À BMC, c'est attesté par ses dessins de 1948 ; l'extension à une consigne d'enseignement est une déduction.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00639",
+     "ID-03698"
+    ]
+   },
+   {
+    "idee": "Le but de l'art est l'expérimentation, non l'expression.",
+    "en_classe": "Dire aux étudiants : ne cherchez pas à vous exprimer, cherchez ce que le matériau peut faire. Formule imaginée par l'autrice, rattachée à Albers.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00264"
+    ]
+   },
+   {
+    "idee": "On n'apprend qu'en faisant ; l'erreur est une étape, non un échec.",
+    "en_classe": "Poser une boule de pâte (ou autre matériau simple) devant chaque élève sans consigne et observer. Pratique d'Alvarado, non attestée à BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-03870",
+     "SC-02004",
+     "CO-00866"
+    ]
+   },
+   {
+    "idee": "Le dessin fait grandir la personne ; il révèle ce que les mots ne disent pas.",
+    "en_classe": "Faire dessiner puis décrire par écrit un même objet, et comparer. L'exemple vient de dessins d'élèves devant la fontaine Andrea. Non attesté à BMC.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02135"
+    ]
+   },
+   {
+    "idee": "Construire plutôt que sculpter : un volume naît de surfaces qui se croisent, non d'une matière creusée.",
+    "en_classe": "Construire un volume par intersection de surfaces (fil, papier plié) plutôt qu'en le creusant. Conception dérivée du Bauhaus.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02128"
+    ]
+   },
+   {
+    "idee": "Ce qu'on laisse dehors fait l'image autant que ce qu'on met dedans : une ligne seule peut définir deux formes.",
+    "en_classe": "Graver des rainures dans la pointe d'un feutre, tirer des lignes parallèles, montrer qu'une ligne en dessine deux volumes.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01908"
+    ]
+   },
+   {
+    "idee": "L'œuvre est une étape d'un continuum d'exploration matérielle ; le processus prime sur l'objet.",
+    "en_classe": "Plier, déplier, changer de matériau, recommencer ; faire, analyser, détruire, refaire sans jamais cuire, comme à Pond Farm. Attention : les ateliers de pâte prévoient aussi la conservation (vernis, bronze), donc la sources divergent sur l'éphémère.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02976",
+     "ID-02133",
+     "SC-01437",
+     "CO-00852"
+    ]
+   },
+   {
+    "idee": "Mouler, c'est arrêter un moment destiné à disparaître.",
+    "en_classe": "Faire mouler son visage aux enfants pour leur montrer le temps dans la matière. Pratique d'Alvarado et domestique, non attestée à BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-03872",
+     "SC-02005",
+     "ID-04137"
+    ]
+   },
+   {
+    "idee": "Faire une murale, c'est se faire sa propre histoire.",
+    "en_classe": "Partir d'un mur gris de la cour et demander aux enfants ce qu'ils veulent y mettre d'eux-mêmes, en inversant les rôles élèves-enseignants. Asawa rattache l'idée de « nouvel environnement physique » à l'éthos de BMC, mais la pratique n'y est pas attestée.",
+    "atteste": "non",
+    "refs": [
+     "ID-02131",
+     "ID-04136"
+    ]
+   },
+   {
+    "idee": "Ni faits ni techniques : multiplier les rencontres. Remplacer la leçon par le cycle vécu.",
+    "en_classe": "Faire vivre de la graine à la plante, de la laine au tissu (ses rêves incluaient poules, mouton à tondre et à tisser devant les enfants). Ces projets sont des rêves de réunions de planification, non des cours réalisés.",
+    "atteste": "non",
+    "refs": [
+     "ID-02132"
+    ]
+   },
+   {
+    "idee": "Autosuffisance de la communauté scolaire.",
+    "en_classe": "Compter sur ce que le quartier donne : matériaux donnés, parents volontaires, artistes du voisinage. Les récupérations de pavés et de modèles de fonderie municipaux relèvent de la même éthique domestique.",
+    "atteste": "non",
+    "refs": [
+     "ID-02134",
+     "SC-01740",
+     "SC-01953"
+    ]
+   },
+   {
+    "idee": "L'art populaire collectif : faire converger les compétences, l'anonymat contre le génie solitaire.",
+    "en_classe": "Faire modeler ensemble un panorama de la ville, chaque main comptant autant qu'une autre. Exemples : la fontaine de 250 voisins de 3 à 88 ans, le tambour pleine échelle de 1972 auquel voisins et visiteurs ajoutent leurs figures. L'autrice y voit un écho du travail collectif de BMC, sans preuve d'un cours équivalent.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03833",
+     "ID-03956",
+     "SC-02102"
+    ]
+   },
+   {
+    "idee": "Le « non-artist » (enfants, mères, exclus de la fabrication de l'art) est une figure à valoriser.",
+    "en_classe": "Atelier où l'on moule avec de la pâte maison (farine, eau, sel) ou plie du papier, sans exiger que l'on soit artiste. Ses moulages des mains et pieds de son petit-fils sont faits pour être touchés.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01843",
+     "SC-00998",
+     "ID-03956"
+    ]
+   },
+   {
+    "idee": "L'art et la maternité s'imbriquent : travailler à la maison, avec les enfants, avec des matériaux compatibles (fil, papier, non toxiques).",
+    "en_classe": "Conversation où elle explique qu'on peut choisir des matériaux compatibles avec la présence d'enfants. Les images la montrent lavant une sculpture au savon devant trois enfants ou travaillant dans une forme en fil avec le bébé. Mais Cunningham choisit le cliché où l'absorption n'est pas interrompue : la photographie construit un mythe.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01842",
+     "ID-03319",
+     "ID-02013",
+     "ID-02846",
+     "SC-01106",
+     "SC-01868",
+     "SC-01869",
+     "SC-01940"
+    ]
+   },
+   {
+    "idee": "Les écoles ne sont qu'un pas au-delà de la famille ; dépasser les séparations maison/école, adultes/enfants, riches/pauvres est l'éthos de l'éducation artistique.",
+    "en_classe": "Redéfinir l'éducation pour travailler avec les enfants là où ils vivent ; un artiste dans chaque école. Asawa dit avoir intériorisé cet éthos d'intégration à BMC à la fin des années 1940 ; l'idéal de John Andrew Rice est le rapprochement proposé par l'autrice.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03699",
+     "ID-03953",
+     "ID-03871"
+    ]
+   },
+   {
+    "idee": "Créer, c'est cultiver : la croissance de l'art ressemble à celle d'une graine ; enseigner, c'est devenir arrière-plan, comme un parent.",
+    "en_classe": "Faire observer une plante en croissance continue pour enseigner la répétition formative du geste ; en situation de transmission, laisser l'enfant s'exprimer. La métaphore vient du film de Snyder (1977), non d'un cours à BMC.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01273",
+     "SC-02150",
+     "ID-04141"
+    ]
+   },
+   {
+    "idee": "S'inspirer des motifs éprouvés de la nature plutôt que des styles humains qui passent de mode ; laisser le spectateur compléter l'œuvre par son propre fantasme.",
+    "en_classe": "Comparer motifs naturels et styles datés : pourquoi le style vieillit et la forme vivante non ; regarder la vue sans la boucher. Le choix entre abstraction et figuration dépend du lieu (Ghirardelli, baie).",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01853",
+     "ID-04083",
+     "ID-04081",
+     "SC-02036"
+    ]
+   },
+   {
+    "idee": "Dessiner le réel exact, y compris le corps enceint ou le nouveau-né, sans idéaliser ni masquer.",
+    "en_classe": "Discussion d'atelier autour d'un dessin de modèle enceinte : comment dessiner sans idéaliser ni masquer. Asawa dessine un nouveau-né de cinq jours « en cartographe » (SC-01919, SC-01920) et une amie alitée enceinte (SC-02018).",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03584",
+     "SC-01919",
+     "SC-01920",
+     "SC-02018"
+    ]
+   },
+   {
+    "idee": "Quand on ne parvient pas à dessiner un objet, le construire : le fil noué est né d'une plante du désert qu'elle n'arrivait pas à dessiner.",
+    "en_classe": "Proposer de construire le système de croissance d'un sujet par assemblage de brins avant de le dessiner. Source orale (oui-dire), non attestée comme consigne de cours.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-01889"
+    ]
+   },
+   {
+    "idee": "Faire, c'est vivre ; l'art est faire, et la routine remplace l'innovation.",
+    "en_classe": "Demander pourquoi faire précède penser. Faire répéter et reproduire plutôt qu'inventer ; traiter l'interruption comme méthode. Fidèle à l'esprit d'Albers selon les fiches, mais non attesté comme enseignement à BMC.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02277",
+     "ID-03698"
+    ]
+   },
+   {
+    "idee": "L'art doit être intégré à la vie, l'artiste à la communauté.",
+    "en_classe": "Amener les élèves à voir l'esthétique dans le quotidien : cuisine, artisanat, quartier. Même le soir de dessin entre voisines (sans professeur) en est une illustration.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03871",
+     "SC-01300"
+    ]
+   }
+  ]
+ }
+}

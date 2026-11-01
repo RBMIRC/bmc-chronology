@@ -1,0 +1,336 @@
+{
+ "passe": "mois",
+ "cle": "1936-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6390,
+  "sortie": 17027,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-11",
+  "session": "année académique 1936-1937, trimestre d'automne, dans la suite de la série de réunions de faculté sur l'enseignement",
+  "saison_et_climat": "fin d'automne en Caroline du Nord, Thanksgiving passé ou proche ; les fiches ne donnent aucune description du temps",
+  "situation": "Le collège, après trois ans d'existence, traverse la crise Knickerbocker-Goldenson dans sa phase la plus aiguë. Après les réunions de faculté de septembre à novembre, le Board of Fellows a voté, après Thanksgiving, la non-réinstallation des deux professeurs ; seuls Martin et Georgia ont voté contre. Zeuch organise la contre-attaque et réclame un réexamen en réunion de faculté. Josef Albers, rentré du Mexique, écrit à Kandinsky qu'il a été exclu de Cubism and Abstract Art et qu'il ne peint plus. La controverse Rice, relancée par Harper's et le New York Times, a fait du collège une célébrité contestée, et la fracture interne prend la forme de factions étudiantes autour de Rice et de Knickerbocker.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Zeuch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Georgia Methvin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "James Gore King",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Xanti Schawinsky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bob Martin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Knickerbocker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Goldenson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Irene Schawinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants (55 à la rentrée, noms non donnés)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-11-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion de faculté sur la personnalité : Albers sépare faits et personnalité, Zeuch défend des personnalités contrastées, Rice exclut le fabricant de disciples et plaisante sur les mauvais professeurs envoyés par le Seigneur",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02621",
+     "SC-00670"
+    ]
+   },
+   {
+    "date": "1936-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Lettre de Josef à Kandinsky, début de mois : Barr, qui l'avait cité, n'a pas retenu son travail pour Cubism and Abstract Art ; Josef s'en plaint et dit n'avoir rien peint depuis son retour du Mexique",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02617",
+     "EV-02618"
+    ]
+   },
+   {
+    "date": "1936-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Après Thanksgiving, le Board of Fellows vote la non-réinstallation de Knickerbocker et Goldenson après l'année en cours, avec peu d'impulsion de Rice ; Martin et Georgia seuls contre",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02619",
+     "EV-02620"
+    ]
+   },
+   {
+    "date": "1936-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Zeuch réclame une réunion de faculté nocturne pour réexaminer le vote ; Wunsch y explique que les témoignages d'étudiants ont progressivement miné sa confiance dans Knickerbocker",
+    "certitude": "probable",
+    "refs": [
+     "EV-02609",
+     "EV-02619"
+    ]
+   }
+  ],
+  "quotidien": "Rentrée à 55 étudiants. Le work program est formalisé. Wunsch donne son cours d'écriture créative. Schawinsky démarre ses Stage Studies, où Irene confectionne les costumes sans être nommée. La faculté se réunit régulièrement sur l'enseignement. Albers, selon sa lettre, ne peint plus depuis son retour. Les fiches ne décrivent ni les repas, ni les travaux agricoles, ni la musique de ce mois.",
+  "tensions": [
+   "Le vote de non-réinstallation oppose le Board, mené par Rice avec peu d'impulsion, à Zeuch, qui défend Knickerbocker avec fureur",
+   "Datation contradictoire : Duberman place la résolution six semaines après la rentrée, Chaddock après Thanksgiving ; sauf deux votes successifs, l'une des deux sources se trompe",
+   "Factions étudiantes formées autour de Rice et de Knickerbocker, sur fond de discours de Rice sur les « anti-Rice »",
+   "Zeuch contre Rice sur la notion de personnalité dangereuse : Zeuch veut des personnalités qui heurtent les étudiants, Rice refuse le fabricant de disciples",
+   "Amertume de Josef face à Barr et au MoMA, angoisse sur sa place dans l'histoire de la peinture",
+   "Écarts de salaires votés à l'automne (Rice et Wunsch 2 100 $, Martin 300 $), à dater dans la période septembre-novembre",
+   "Pression extérieure : Harvard a sollicité Albers sans succès, et la controverse Harper's rend le collège visible et suspect"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Personnalités dangereuses",
+    "date": "1936-11-16",
+    "lieu": "salle de réunion, Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "John Andrew Rice",
+     "Zeuch",
+     "Mangold",
+     "Theodore Dreier",
+     "Georgia Methvin",
+     "James Gore King",
+     "Xanti Schawinsky",
+     "Bob Martin"
+    ],
+    "deroule": "Rice demande combien pèse « ce qu'un homme est » dans la valeur d'un enseignant. Albers oppose faits et personnalité. Zeuch réclame des personnalités qui claquent, Mangold objecte avec les tendances homicides, Rice trace ses limites, Schawinsky propose une personnalité capable de s'abstraire elle-même.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00670",
+     "EV-02621"
+    ]
+   },
+   {
+    "titre": "La réunion nocturne",
+    "date": "1936-11",
+    "lieu": "salle de réunion, Black Mountain College",
+    "personnages": [
+     "Zeuch",
+     "Wunsch",
+     "Rice",
+     "Knickerbocker",
+     "Goldenson",
+     "Martin",
+     "Georgia Methvin"
+    ],
+    "deroule": "Zeuch impose un réexamen du vote en réunion nocturne. Wunsch explique devant tous que des témoignages d'étudiants ont érodé sa confiance en Knickerbocker. L'issue reste ouverte à ce stade.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02619",
+     "EV-02609"
+    ]
+   },
+   {
+    "titre": "La lettre à Kandinsky",
+    "date": "1936-11",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Josef écrit longuement sur l'art new-yorkais et parisien, se plaint de Barr qui a cité son enseignement sans retenir ses œuvres, et constate qu'il n'a rien peint depuis son retour du Mexique.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02617",
+     "EV-02618"
+    ]
+   },
+   {
+    "titre": "Stage Studies",
+    "date": "1936-11",
+    "lieu": null,
+    "personnages": [
+     "Xanti Schawinsky",
+     "Irene Schawinsky",
+     "étudiants non nommés"
+    ],
+    "deroule": "Schawinsky mène ses exercices de scène, laboratoire qui mènera au Spectodrama. Irene coud les costumes sans crédit officiel.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02545",
+     "EV-02516",
+     "EV-02517",
+     "EV-02521"
+    ]
+   },
+   {
+    "titre": "Cours d'écriture créative",
+    "date": "1936-11",
+    "lieu": null,
+    "personnages": [
+     "Wunsch",
+     "étudiants non nommés"
+    ],
+    "deroule": "Wunsch anime le cours d'écriture créative inauguré à l'automne, en pleine crise de la faculté.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02522",
+     "EV-02524"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Josef, qui se plaint de ne plus peindre depuis son retour",
+    "vers_date": "1936-01",
+    "vers": "L'hiver au Mexique avec les Dreier : Oaxaca, Monte Albán, Mitla, achat de poteries et de figurines aux paysans",
+    "refs": [
+     "SC-00627",
+     "SC-00633"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la réunion sur les personnalités, où l'on juge les hommes à leur valeur",
+    "vers_date": "1936-02-04",
+    "vers": "La nuit du canular : Evarts et Sly remplacent le Mondrian de Steinau par une toile cirée, suivie d'une fouille et d'une assemblée sans dénonciation",
+    "refs": [
+     "EV-02573",
+     "SC-00656"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "le vote contre Knickerbocker, né du procès de Rice",
+    "vers_date": "1936-02",
+    "vers": "La soirée où Adamic lit « Education on a Mountain » : le portrait de Rice en sauveur déclenche le procès public (Chaddock date février, Duberman mars)",
+    "refs": [
+     "EV-02550",
+     "EV-02576",
+     "EV-02577",
+     "SC-00657"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la réputation contestée du collège dans la presse",
+    "vers_date": "1936-04",
+    "vers": "Harper's publie l'article de Rice ; DeVoto le compare à un sanatorium d'amateurs, puis la controverse dure jusqu'en mai",
+    "refs": [
+     "EV-02583",
+     "EV-02578"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le vote d'après Thanksgiving",
+    "vers_date": "1936-12-07",
+    "vers": "L'appel contre le vote est rejeté, la démission de Goldenson est autorisée, et Zeuch parle de « début de la fin »",
+    "refs": [
+     "EV-02609",
+     "EV-02610",
+     "EV-02622"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, sans peinture depuis son retour",
+    "vers_date": "1936-12",
+    "vers": "Trois ateliers à la Graduate School of Design de Harvard et un discours au Cosmopolitan Club",
+    "refs": [
+     "EV-02625",
+     "EV-02626"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la tension des factions étudiantes",
+    "vers_date": "1936-12",
+    "vers": "Deux étudiants s'enfuient pour se marier",
+    "refs": [
+     "EV-02624"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les Stage Studies de Schawinsky en cours",
+    "vers_date": null,
+    "vers": "La performance du Spectodrama, datée 1936 ou 1937 selon les sources",
+    "refs": [
+     "EV-02516",
+     "EV-02517"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le vote de non-réinstallation",
+    "vers_date": "1937",
+    "vers": "Départ de Knickerbocker et Goldenson à la fin de l'année académique",
+    "refs": [
+     "EV-02619",
+     "EV-02620"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, en quête de reconnaissance après l'exclusion de Barr",
+    "vers_date": "1937-02",
+    "vers": "Le groupe 4 Painters expose à Addison, après Bennington",
+    "refs": [
+     "EV-02611",
+     "EV-02601"
+    ]
+   }
+  ],
+  "motifs": [
+   "la fracture du collège autour de Rice",
+   "le vote de renvoi et la scission de la faculté",
+   "la personnalité comme critère tacite d'embauche et d'exclusion",
+   "le mythe et la publicité de BMC après Harper's",
+   "Albers et la reconnaissance de son œuvre (Barr, MoMA)",
+   "l'autorité du Board contre le contre-pouvoir de Zeuch",
+   "les étudiants comme témoins et acteurs de la crise"
+  ],
+  "lacunes": "Date du vote de non-réinstallation : six semaines après la rentrée (Duberman) ou après Thanksgiving (Chaddock), à trancher. Date exacte de la réunion nocturne réclamée par Zeuch. Vie quotidienne (repas, météo, travaux agricoles) non documentée dans ces fiches. Date précise des salaires votés et de la visite de délégations. Les fiches EC-01545 à EC-01548 (route 4W, chaussure, panneaux) relèvent d'un récit de Goodman sans rapport avec le collège : écartées."
+ }
+}

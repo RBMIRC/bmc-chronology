@@ -1,0 +1,289 @@
+{
+ "passe": "mois",
+ "cle": "1934-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3030,
+  "sortie": 19453,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1934-05",
+  "session": "Fin de la première année académique (trimestre de printemps 1933-34), avant les vacances d'été et la location du campus à la Blue Ridge Assembly.",
+  "saison_et_climat": "Printemps 1934. Les fiches ne décrivent pas le climat de mai.",
+  "situation": "Albers reste à BMC après l'échec de sa candidature à Bennington : Leigh a refusé le 6 avril, jugeant qu'il fallait quelqu'un de plus « essentiellement américain ». Son contrat BMC expire le 12 juin. Il enseigne toujours sans anglais courant et donne rarement un cours sans visiteurs. Rice a publié ou publie dans Progressive Education (avril-mai), après des visites d'écoles décourageantes, et il écrit à Elmer Davis le 1er mai. Le 2 mai, les statuts sont amendés pour élargir les droits étudiants. Le Bulletin n°2 se prépare pour juin, avec le texte d'Albers traduit par Ted Dreier. Les estampes d'Albers sont proposées à des musées, et seule l'Addison Gallery acceptera. Les visiteurs de l'hiver (Wilder, la presse) ne sont plus là, et Johnson n'agit que par courrier. Le budget est fragile et sera révisé en hausse en juin.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Georgia (recteur)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bobbie Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "« John », « Paul », « Ann » (pseudonymes d'étudiants de première année)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Student Moderator (nom non donné)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1934-05-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Rice écrit à Elmer Davis : après des visites décourageantes d'écoles progressistes, il conclut que l'éducation progressiste stupide est plus stupide que l'autre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02344"
+    ]
+   },
+   {
+    "date": "1934-05-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Amendements aux statuts : accès des étudiants aux registres, droit d'adopter une constitution et de siéger aux réunions de faculté, siège effectif au Board pour le Student Moderator.",
+    "certitude": "atteste",
+    "refs": [
+     "Fil: Gouvernance, consensus et droits étudiants",
+     "Synthèse 1934"
+    ]
+   },
+   {
+    "date": "1934-04",
+    "precision": "periode",
+    "ce_qui_arrive": "Article de présentation du collège dans Progressive Education, à cheval sur avril et mai.",
+    "certitude": "atteste",
+    "refs": [
+     "Synthèse 1934"
+    ]
+   },
+   {
+    "date": "1934-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Traduction de « Concerning Art Instruction » par Ted Dreier, au terme d'un mois de soirées de relecture ; le texte doit paraître dans le Bulletin n°2 en juin.",
+    "certitude": "deduit",
+    "refs": [
+     "Synthèse 1934",
+     "Fil: La pédagogie d'Albers prend forme"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Albers dessine le sceau concentrique du collège (se rassembler, tenir ensemble, travailler ensemble). Date non précisée ; il paraît avec le Bulletin n°2.",
+    "certitude": "deduit",
+    "refs": [
+     "Synthèse 1934"
+    ]
+   },
+   {
+    "date": "1934-06-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Échéance du contrat d'Albers à BMC ; la synthèse le montre resté au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "Fil: Albers : s'installer, se faire connaître, rester"
+    ]
+   }
+  ],
+  "quotidien": "Albers enseigne en montrant plutôt qu'en parlant, devant des visiteurs qui assistent souvent à ses cours. Le soir, chez les Dreier, on relit et traduit son texte sur l'enseignement de l'art. Les étudiants discutent des statuts et de leur place en faculté. Rice écrit beaucoup (lettres, article). Anni Albers est présente mais ne peut pas enseigner faute d'équipement, selon les fiches, sans que sa situation de mai soit précisée. Les bois gravés d'Albers circulent vers New York et Cambridge. Les fiches ne disent rien des repas, de la musique, des cours ordinaires ni de la ferme pour ce mois.",
+  "tensions": [
+   "Albers est partagé entre le désir de Bennington (proximité de New York, sécurité) et la loyauté envers BMC.",
+   "Trois explications du refus de Leigh s'opposent : la langue allemande selon Albers, l'américanité selon Leigh, un simple prétexte selon Johnson.",
+   "Pouvoir étudiant contre autorité de la faculté et du recteur, à travers les statuts amendés le 2 mai.",
+   "Rice rejette la pédagogie progressiste bête et les écoles visitées, ce qui le place à distance du discours d'ouverture du collège.",
+   "Dépendance financière : incertitude sur l'avenir de BMC, budget à réviser, bourses à financer.",
+   "Dans les journaux de première année, l'aveu de John à Paul choque Paul, qui se rapproche d'Ann ; Rice recadre John et brise sa confiance retrouvée.",
+   "Langue : l'absence d'anglais courant d'Albers limite son enseignement et sa place dans les décisions."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Rice écrit à Davis",
+    "date": "1934-05-01",
+    "lieu": "BMC (probable)",
+    "personnages": [
+     "Rice",
+     "Elmer Davis (destinataire, absent)"
+    ],
+    "deroule": "Rice couche sur le papier son désenchantement après ses visites d'écoles : la mauvaise éducation progressiste lui semble pire que la mauvaise éducation traditionnelle. Il raille la formule dogmatique des maîtres qu'il a entendus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02344"
+    ]
+   },
+   {
+    "titre": "Vote sur les statuts",
+    "date": "1934-05-02",
+    "lieu": "BMC, réunion de faculté (probable)",
+    "personnages": [
+     "Georgia (recteur)",
+     "Rice",
+     "Student Moderator",
+     "étudiants"
+    ],
+    "deroule": "Les amendements ouvrent les registres aux étudiants, leur donnent le droit de siéger en faculté et un siège au Board pour le Student Moderator. La faculté doit désormais composer avec ce partage.",
+    "certitude": "deduit",
+    "refs": [
+     "Fil: Gouvernance, consensus et droits étudiants"
+    ]
+   },
+   {
+    "titre": "Soirées de relecture chez les Dreier",
+    "date": "1934-05",
+    "lieu": "cottage des Dreier (probable)",
+    "personnages": [
+     "Ted Dreier",
+     "Josef Albers"
+    ],
+    "deroule": "Pendant un mois, le soir, Ted Dreier traduit de l'allemand le texte d'Albers sur l'enseignement de l'art, phrase après phrase. Albers y défend le dessin comme centre et sa vision d'une formation pour la plupart non artistique.",
+    "certitude": "deduit",
+    "refs": [
+     "Synthèse 1934"
+    ]
+   },
+   {
+    "titre": "Rice recadre John",
+    "date": null,
+    "lieu": "BMC",
+    "personnages": [
+     "Rice",
+     "John",
+     "Paul",
+     "Ann"
+    ],
+    "deroule": "John, qui a avoué son amour à Paul, est raillé puis recadré par Rice, qui détruit la confiance qu'il avait retrouvée. Paul, lié à Ann, s'éloigne de l'aveu.",
+    "certitude": "probable",
+    "refs": [
+     "Synthèse 1934"
+    ]
+   },
+   {
+    "titre": "Albers enseigne devant des visiteurs",
+    "date": "1934-05",
+    "lieu": "salle de classe, BMC (probable)",
+    "personnages": [
+     "Josef Albers",
+     "visiteurs extérieurs (non nommés)"
+    ],
+    "deroule": "Albers montre au tableau, sans parler beaucoup, tandis que des visiteurs suivent le cours. Il ne donne rarement un cours sans public, et cette présence fait partie de la vie du collège.",
+    "certitude": "deduit",
+    "refs": [
+     "Fil: Le collège se montre : visiteurs et presse",
+     "Fil: Albers : s'installer, se faire connaître, rester"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Mai 1934, Albers relit l'échec de sa candidature à Bennington",
+    "vers_date": "1934-04-06",
+    "vers": "La lettre de refus de Leigh, la réponse d'Albers en allemand, le doute de Johnson sur le prétexte.",
+    "refs": [
+     "Fil: Albers : s'installer, se faire connaître, rester"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mai 1934, le collège encore plein de visiteurs",
+    "vers_date": "1934-02-23",
+    "vers": "La conférence de Thornton Wilder devant 250 invités, sa soirée chez les Dreier, son jugement d'un climat « mystérieusement heureux ».",
+    "refs": [
+     "Fil: Le collège se montre : visiteurs et presse"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Printemps 1934, fin de la première année",
+    "vers_date": null,
+    "vers": "Les premiers mois de l'année : l'aveu de John à Paul, la liaison de Paul avec Ann, le recadrage de Rice (date exacte inconnue).",
+    "refs": [
+     "Synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai 1934, Albers attend la parution de son texte",
+    "vers_date": "1934-06",
+    "vers": "Parution du Bulletin n°2 avec « Concerning Art Instruction » et le sceau du collège.",
+    "refs": [
+     "Synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai 1934, les bois gravés d'Albers sont en circulation",
+    "vers_date": "1935",
+    "vers": "L'exposition d'estampes à l'Addison Gallery, seule institution à accepter.",
+    "refs": [
+     "Synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin de l'année académique 1933-34",
+    "vers_date": null,
+    "vers": "Georgia rappelle que le collège sera jugé sur son travail intellectuel, resté en deçà de ses capacités.",
+    "refs": [
+     "Synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai 1934, le collège attend la suite",
+    "vers_date": null,
+    "vers": "Première visite de John Dewey pendant 1934-35 (date non précisée) : il assiste chaque jour au cours de Rice et boit de la bière avec les étudiants.",
+    "refs": [
+     "Fil: Cuba et ouverture latino-américaine",
+     "Synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai 1934",
+    "vers_date": "1934-11",
+    "vers": "Thanksgiving : Robert Wunsch trouve un collège tourné vers lui-même ; la levée de mille dollars pour son salaire divise la faculté.",
+    "refs": [
+     "Fil: Recrutement de Wunsch"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mai 1934",
+    "vers_date": "1934-12-28",
+    "vers": "Départ des Albers et des Dreier pour Cuba, premier d'une longue série de voyages en Amérique latine.",
+    "refs": [
+     "Fil: Cuba et ouverture latino-américaine"
+    ]
+   }
+  ],
+  "motifs": [
+   "la langue comme obstacle et comme mise en scène chez Albers",
+   "le désir de reconnaissance et l'attachement à BMC",
+   "la pédagogie progressiste jugée stupide, face à une exigence intellectuelle",
+   "pouvoir étudiant et règles de gouvernance",
+   "l'intimité cachée derrière les pseudonymes",
+   "l'argent, la dépendance aux visites et aux dons"
+  ],
+  "lacunes": "Aucune fiche sur le climat, les repas, la musique ou les cours ordinaires de mai. Pas de liste datée des présents. Présence en mai non attestée pour Anni Albers, Bobbie Dreier, Mrs. Swan et le Student Moderator. Date exacte des soirées de traduction, du sceau et de l'envoi à Warburg inconnue. L'affaire John/Paul/Ann n'est datée que par « première année ». Les sources se contredisent sur la cause du refus de Leigh (langue allemande, américanité, prétexte). La synthèse et les fils n'ont pas d'identifiant SC/EV/PE : ils sont cités par leur titre, seule EV-02344 a un identifiant. Georgia comme recteur en mai est déduit de la fin d'année."
+ }
+}

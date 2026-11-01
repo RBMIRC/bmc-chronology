@@ -1,0 +1,285 @@
+{
+ "passe": "enseignements",
+ "cle": "Robert Wunsch",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 10826,
+  "sortie": 9476,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Robert Wunsch",
+  "cours": [
+   {
+    "intitule": "Dramatics / théâtre et littérature (art dramatique)",
+    "periodes": [
+     "1933-1943 (Dramatics, CO-00206)",
+     "à partir de 1935 (intitulé « théâtre et littérature », orientation thérapeutique, CO-00266)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Attesté : amener l'individu à devenir plus pleinement conscient de lui-même comme personne, en lien avec l'influence du groupe (CO-00206). Après 1935, aider les étudiants à se trouver eux-mêmes : le théâtre sert de thérapie (CO-00266, ID-01208). La réalité du collège tenant aux relations humaines et à la vie commune, l'énergie doit aller à ceux qui « n'avançaient pas » plutôt qu'à des productions abouties. Déduit : « Dramatics » et « théâtre et littérature » désignent probablement le même enseignement, mais les fiches ne le disent pas.",
+    "deroule_type_seance": "Le déroulé d'une séance n'est pas documenté. Sont attestés seulement le cadre (productions de classe sans public extérieur) et un travail de construction de scène et d'éclairage mené avec le département d'art. Toute reconstitution minute par minute serait inventée.",
+    "exercices": [
+     {
+      "consigne": "Monter en classe des pièces sans public extérieur. Les fiches citent The Bear, une pièce de Dunsany, Saint Joan et Macbeth.",
+      "materiaux": "Textes dramatiques cités ; la scène est faite sur place.",
+      "but": "Faire du travail théâtral un moyen pour l'étudiant de se connaître, la pièce passant après la personne.",
+      "refs": [
+       "CO-00266",
+       "CO-00206",
+       "ID-01208"
+      ]
+     },
+     {
+      "consigne": "Construire la scène et l'éclairage en collaboration avec le département d'art.",
+      "materiaux": "Moyens de scène et d'éclairage ; le détail n'est pas donné.",
+      "but": null,
+      "refs": [
+       "CO-00266"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "The Bear (Tchekhov, d'après la fiche, qui ne nomme que le titre)",
+     "Une pièce de Dunsany (titre non précisé)",
+     "Saint Joan",
+     "Macbeth"
+    ],
+    "propos_types": [
+     "La pièce est un moyen, l'étudiant est la fin : on juge un travail théâtral à ce qu'il fait de la personne, non à la qualité du spectacle (CO-00206).",
+     "Black Mountain vit de relations humaines ; l'énergie doit servir à aider les gens à se trouver, non à fabriquer des productions finies (ID-01208).",
+     "Il s'était donné pour tâche d'aider à s'adapter ceux qui n'avançaient pas (ID-01208)."
+    ],
+    "critique_et_evaluation": "Dans SC-00624 (mai 1935), Rice juge que Wunsch n'évalue son travail que par ses résultats tangibles ; la fiche ne précise pas le sens exact. Cela s'accorde avec le tournant thérapeutique de 1935, mais c'est une déduction. Dans SC-00673 (déc. 1936), Wunsch cite des remarques de Rice sur « ses propres pièces » pour adoucir une critique. La fiche ne permet pas de savoir si ce sont les pièces de Wunsch ou celles de Rice, et ne dit pas quelle évaluation Wunsch faisait du travail de ses étudiants.",
+    "reactions_etudiants": "Plusieurs étudiants le décrivent comme « an absolute wonder » en tant qu'enseignant, et sa porte restait toujours ouverte (CO-00266).",
+    "evolution": "Les fiches datent le virage thérapeutique de l'après-1935, appliqué après des vacances que Rice lui avait conseillées (ID-01208, SC-00624). Rice l'avait trouvé fatigué et lui avait suggéré un voyage, par exemple au Kentucky Derby. Antérieurement, Wunsch apparaît dans les épisodes de From Sun to Sun (Rollins, 1932-33), spectacle de Zora Neale Hurston triomphalement accueilli, mais les fiches ne précisent pas son rôle exact (SC-00384, SC-00518). Son enseignement dramatique n'est attesté que jusqu'en 1943.",
+    "refs": [
+     "CO-00206",
+     "CO-00266",
+     "ID-01208",
+     "SC-00624",
+     "SC-00673",
+     "SC-00384",
+     "SC-00518"
+    ]
+   },
+   {
+    "intitule": "Écriture créative (creative writing)",
+    "periodes": [
+     "1936-1943 (CO-00277, CO-00278, CO-00279)",
+     "début des années 1940 pour les examens et le magazine étudiant"
+    ],
+    "atteste": "oui",
+    "objectifs": "Enseigner l'écriture comme medium artistique et créatif, au même titre que la musique, le théâtre et les beaux-arts (CO-00277). Développer l'étudiant comme individu : décrire et interpréter son environnement, voir la beauté du quotidien, s'exprimer authentiquement (CO-00278). La distinction centrale est entre « art expression » et simple « self-expression » (CO-00278). Enseigner aussi la discipline d'écriture, l'efficacité communicative et la conscience d'un public (CO-00279). Le cadre de groupe doit aider à former une personne authentique (CO-00277).",
+    "deroule_type_seance": "Attesté de façon générale : l'écrivain préside en tête de table, on étudie des nouvelles publiées, on pratique des exercices d'écriture (CO-00277). Sont aussi attestés une discussion sur les personnages après lecture d'une nouvelle, avec identification personnelle (ID-01021), et un enregistrement des perceptions sensorielles jugé sur son efficacité communicative (ID-01023). L'ordre exact, la durée et le rythme d'une séance ne sont pas attestés.",
+    "exercices": [
+     {
+      "consigne": "Écrire à partir de l'expérience vécue du monde qui entoure l'étudiant.",
+      "materiaux": null,
+      "but": "Authenticité, mémoire, observation : le point de départ systématiquement encouragé (CO-00277).",
+      "refs": [
+       "CO-00277"
+      ]
+     },
+     {
+      "consigne": "Décrire l'intérieur d'un « ice cream parlour » et d'une « haberdashery ».",
+      "materiaux": null,
+      "but": "Apprendre à décrire et interpréter son environnement, voir la beauté du quotidien.",
+      "refs": [
+       "CO-00278"
+      ]
+     },
+     {
+      "consigne": "Écrire des fables illustrant des leçons morales, par exemple « honesty is the best policy » et « evil communications corrupt good manners ».",
+      "materiaux": null,
+      "but": null,
+      "refs": [
+       "CO-00278"
+      ]
+     },
+     {
+      "consigne": "Rédiger à la première personne le compte d'un « feeling memory », avec des associations comme le son de la pluie sur le toit ou l'odeur moite d'une cave.",
+      "materiaux": null,
+      "but": "Aller de l'expérience intime vers une forme communicable (« art expression » plutôt que « self-expression »).",
+      "refs": [
+       "CO-00278"
+      ]
+     },
+     {
+      "consigne": "Écrire des poèmes fondés sur des noms abstraits : colère, pitié, chagrin, terreur, jalousie, patience.",
+      "materiaux": null,
+      "but": null,
+      "refs": [
+       "CO-00278"
+      ]
+     },
+     {
+      "consigne": "Faire des croquis d'impression et de personnage.",
+      "materiaux": null,
+      "but": "Ouvrir les yeux sur le monde où l'on vit.",
+      "refs": [
+       "CO-00278"
+      ]
+     },
+     {
+      "consigne": "Étudier des nouvelles publiées, souvent regroupées dans des manuels édités par les instructeurs eux-mêmes, et faire des travaux techniques tirés de Studies in Creative Writing (1933).",
+      "materiaux": "Manuels d'écriture créatrice du début du XXe siècle, dont Studies in Creative Writing (1933), co-écrit par Wunsch.",
+      "but": "Étudier la technique à partir de modèles publiés.",
+      "refs": [
+       "CO-00277",
+       "CO-00279"
+      ]
+     },
+     {
+      "consigne": "Après la lecture d'une nouvelle, discuter des personnages et s'y identifier personnellement (ex. Thicker Than Water, nouvelles morales).",
+      "materiaux": "Thicker Than Water, nouvelles morales.",
+      "but": "Explorer la psychologie du soi par procuration, sans exposition brute ni douloureuse.",
+      "refs": [
+       "ID-01021"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Studies in Creative Writing (1933), co-écrit par Wunsch avec Smith",
+     "Warren Bower, The College Writer (1935)",
+     "George G. Williams, Creative Writing for Advanced College Classes (1935)",
+     "Dorothy McCleary, Creative Fiction Writing (1947) : cité parmi les manuels de la bibliothèque, mais cette date est postérieure à 1936, donc ce n'est pas une source de l'introduction de 1936 ; contradiction ou anachronisme à signaler (CO-00279)",
+     "Nouvelles publiées issues de manuels édités par les instructeurs",
+     "Thicker Than Water (nouvelles morales)",
+     "Poètes lus dont les styles se retrouvent dans les travaux étudiants vers 1941 : Frost, Pound, Shakespeare (CO-00278)"
+    ],
+    "propos_types": [
+     "L'important n'est pas la production : il faut que l'étudiant sache qui il est réellement, quel faux self il a bâti autour de ce moi réel, et ce que le groupe pense de ces deux selves (CO-00278).",
+     "Écrire depuis l'expérience vécue ; le bon écrivain s'appuie sur l'authenticité, la mémoire, l'observation, la tradition, la révision et la concentration (CO-00277).",
+     "Le langage est le phénomène social par excellence : l'étudiant apprend la différence entre le personnellement pertinent et le socialement et artistiquement pertinent (ID-01023).",
+     "Étudier des personnages de fiction, c'est se voir soi-même sans se mettre à nu de façon nuisible (ID-01021)."
+    ],
+    "critique_et_evaluation": "L'étudiant est évalué sur son efficacité communicative et sa conscience d'un public (CO-00279, ID-01023). Les fiches ne décrivent ni notes ni commentaires écrits. Sur le plan institutionnel, la légitimité de l'écriture face aux arts établis a dû être défendue devant Albers (ID-01022).",
+    "reactions_etudiants": "Les travaux du magazine étudiant vers 1941 imitent ces exercices et les styles des poètes lus (CO-00278). Aucune autre réaction n'est documentée pour ce cours précis.",
+    "evolution": "Le manuel Studies in Creative Writing date de 1933 ; le prospectus de 1936-37 et le magazine étudiant du début des années 1940 marquent l'écriture comme discipline artistique instituée. Elle passe ainsi d'un exercice éducatif progressiste à un medium artistique, lignée qui mène plus tard au Black Mountain Review (ID-01022). Le cours est attesté de 1936 à 1943. Avec l'ID-01023, la doctrine des perceptions sensorielles est qualifiée d'officielle jusqu'à la guerre. Les fiches donnent deux ancrages différents pour la même doctrine (1933 et 1960) ; cette divergence est à signaler.",
+    "refs": [
+     "CO-00277",
+     "CO-00278",
+     "CO-00279",
+     "ID-01021",
+     "ID-01022",
+     "ID-01023"
+    ]
+   },
+   {
+    "intitule": "Écriture créative : examens de la division supérieure",
+    "periodes": [
+     "début des années 1940 (CO-00345, 1940)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Éprouver l'imagination et l'aptitude à écrire de l'étudiant au seuil de la division supérieure.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Décrire comment l'on jouit des couleurs des feuilles d'automne ou comment l'on y réagit.",
+      "materiaux": null,
+      "but": "Tester l'imagination et l'aptitude à écrire ; enregistrement de perceptions sensorielles.",
+      "refs": [
+       "CO-00345"
+      ]
+     },
+     {
+      "consigne": "Écrire un essai familier sur « The Black Mountain College Ducks », les canards du campus de Lake Eden.",
+      "materiaux": null,
+      "but": "Tester l'imagination et l'aptitude à écrire.",
+      "refs": [
+       "CO-00345"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Seule la technique peut en fin de compte s'enseigner.",
+     "L'essentiel est l'enregistrement des perceptions sensorielles (CO-00345, ID-01023)."
+    ],
+    "critique_et_evaluation": "Les critères précis ne sont pas donnés dans les fiches. La doctrine de la perception sensorielle suggère que les copies étaient lues selon l'efficacité de leur communication, mais c'est une déduction.",
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "CO-00345",
+     "ID-01023"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Étudier les personnages de fiction permet de se voir soi-même sans exposition brute, douloureuse ou nuisible ; la lecture et l'écriture empathiques offrent une voie sûre pour explorer la psychologie du soi.",
+    "en_classe": "Après la lecture d'une nouvelle, discuter les personnages et inviter chacun à dire avec lequel il s'identifie. La fiche cite Thicker Than Water comme exemple de nouvelles morales discutées en classe ; le format exact de la discussion n'est pas détaillé.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01021",
+     "CO-00277"
+    ]
+   },
+   {
+    "idee": "L'écriture créative s'enseigne comme une discipline artistique au même titre que le dessin, la peinture ou le tissage.",
+    "en_classe": "Traiter l'écriture comme un atelier d'art avec programme, exercices techniques et lecture de modèles. Attesté : le prospectus de 1936-37 et le magazine étudiant des années 1940 ; le déroulé d'une séance précise n'est pas attesté.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01022",
+     "CO-00277"
+    ]
+   },
+   {
+    "idee": "L'écriture est d'abord un enregistrement des perceptions sensorielles, avant l'effusion émotionnelle ; l'étudiant doit apprendre la différence entre le personnellement pertinent et le socialement et artistiquement pertinent.",
+    "en_classe": "Proposition de transposition par la fiche : noter les perceptions brutes d'un lieu en mouvement, sans ponctuation ni souci de sens, puis discuter de ce qui est communicable à un lecteur. Cet exercice n'est pas attesté au collège ; seuls le principe (ID-01023) et les sujets d'examen sur les feuilles d'automne et les canards le sont (CO-00345).",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01023",
+     "CO-00345"
+    ]
+   },
+   {
+    "idee": "Distinguer « art expression » et « self-expression » : l'enjeu n'est pas de se raconter mais de savoir qui l'on est réellement, quel faux self on a construit, et ce que le groupe en pense.",
+    "en_classe": "Faire écrire un « feeling memory » à la première personne, puis le soumettre au groupe. Les fiches attestent l'exercice et le principe, mais pas les modalités de retour du groupe.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00278"
+    ]
+   },
+   {
+    "idee": "Le théâtre comme thérapie : l'énergie va à aider les gens à se trouver, non à des productions finies ; la pièce compte moins que l'étudiant.",
+    "en_classe": "Ateliers de théâtre orientés vers la conscience de soi, avec productions de classe sans public extérieur. Ce cadre est attesté ; le détail des consignes ne l'est pas.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01208",
+     "CO-00206",
+     "CO-00266"
+    ]
+   },
+   {
+    "idee": "Une communauté se juge à la qualité des relations de chacun avec tous, et l'ordre qu'elle recherche est celui d'un « beautiful sense », non d'un ordre militaire.",
+    "en_classe": "Hors d'un cours attesté : le discours de rentrée 1943 énumère des fautes quotidiennes (bruit après 22h30, mégots jetés par la fenêtre, emprunts sans permission) et refuse d'exiger de chacun qu'il soit intellectuel ou artiste. Le transposer en discussion de règles de vie commune est une déduction, non attestée.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01542",
+     "SC-00860"
+    ]
+   },
+   {
+    "idee": "Chaque année, le collège doit se penser comme recommençant à neuf, pour ne pas être étranglé par « les morts et les partis » ; les plus conservateurs sont ceux qui sont là depuis le plus longtemps.",
+    "en_classe": "À la rentrée, inviter chacun, étudiant comme enseignant, à examiner critiquement toute règle héritée. L'allocution de 1943 est attestée ; l'usage en classe est une transposition non attestée.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01541",
+     "SC-00860"
+    ]
+   },
+   {
+    "idee": "L'ordre naît du travail commun : en regardant la répétition publique du quatuor Kolisch, Wunsch voit des désaccords, de vraies explications et un travail concentré d'où émerge l'ordre.",
+    "en_classe": "Pistes de transposition à partir de son commentaire : faire travailler en public un texte ou une scène, avec désaccords visibles, avant le résultat. Ce n'est pas une pratique attestée de ses cours ; seul son propos de 1944 l'est (SC-00926).",
+    "atteste": "incertain",
+    "refs": [
+     "SC-00926",
+     "ID-01542"
+    ]
+   }
+  ]
+ }
+}

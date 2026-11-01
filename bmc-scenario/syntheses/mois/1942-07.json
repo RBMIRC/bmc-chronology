@@ -1,0 +1,261 @@
+{
+ "passe": "mois",
+ "cle": "1942-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3085,
+  "sortie": 11991,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-07",
+  "session": "été, intersession entre deux trimestres (déduit : le trimestre d'automne vient après)",
+  "saison_et_climat": "Été 1942 à Lake Eden (Caroline du Nord) : saison des travaux de plein air. Le climat n'est pas décrit dans les fiches.",
+  "situation": "Le collège est en pleine campagne de fonds après avoir dépensé tous ses dons. Le bilan de Mangold du 7 juillet compte environ 78 000 $ reçus en deux ans, tous absorbés par la construction, sans réserves. Le quota obtenu dans les programmes Navy V-1 et Enlisted Reserve Corps, grâce à Antioch, Swarthmore, Reed et l'Université de Caroline du Nord, ne règle pas la question du droit à délivrer des diplômes. La dette pèse : une seconde hypothèque de 18 000 $ s'ajoute à un solde de 11 500 $. La faculté a plafonné sa contribution à 10 $ par mois et par personne, et certains ont refusé des postes ailleurs, dont un à 10 000 $.",
+  "presents_probables": [
+   {
+    "nom": "Mangold",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1942-07-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Mangold dresse le bilan : environ 78 000 $ de dons en deux ans, tout absorbé par l'équipement et la construction, sans réserves. Liste chiffrée des fondations (Carnegie 5 000 $, Whitney 9 000 $, etc.) et des donateurs anonymes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03327"
+    ]
+   },
+   {
+    "date": "1942-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Les réponses favorables d'Antioch, Swarthmore, Reed et de Frank Graham (Caroline du Nord) arrivent ; le collège obtient un quota dans les programmes militaires. La date exacte du quota n'est pas précisée.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "date": "1942-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Les lettres de recommandation de Frederic Cohen, Carleton Sprague Smith, John Martin et Martha Graham sur Eric Bentley arrivent de juillet à août.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "La campagne de fonds mobilise Albers, Kocher, Mangold et Dreier presque tout l'été ; la seconde hypothèque de 18 000 $ s'ajoute au solde de 11 500 $.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Josef Albers conçoit à Harvard la suite Graphic Tectonic, au moment où la campagne de fonds tourne sans lui.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Anni Albers reçoit Else Regensteiner, future fondatrice du département de tissage de l'Art Institute de Chicago.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "La laiterie et les deux silos à maïs suivent la grange terminée au printemps ; leur chantier se déroule à l'été et à l'automne.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   }
+  ],
+  "quotidien": "Le chantier communautaire continue : cours le matin et le soir, travail volontaire l'après-midi, comme depuis l'automne 1940. La grange de Kocher et Godfrey est achevée depuis le printemps et la laiterie se monte. La ferme avance (troupeaux, légumes). Les bals et spectacles du samedi, les soirées de musique et les cours ne sont pas datés précisément pour cet été dans les fiches.",
+  "tensions": [
+   "L'argent : dons engloutis, aucune réserve, hypothèques qui s'accumulent, et une faculté qui plafonne sa contribution à 10 $ par mois et par personne.",
+   "Des membres de la faculté refusent des postes ailleurs, dont un à 10 000 $, par loyauté au projet.",
+   "Albers est porté à la fois par la campagne de fonds et par son travail à Harvard, ce qui crée une tension entre présence et engagement.",
+   "L'accréditation n'est pas acquise : la North Carolina Conference refuse toujours le droit de délivrer des diplômes, et Wunsch pétitionne le Selective Service pour protéger les professeurs âgés.",
+   "La guerre commence à fragiliser la communauté, les départs étant à venir."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le chiffre du 7 juillet",
+    "date": "1942-07-07",
+    "lieu": "BMC, Lake Eden",
+    "personnages": [
+     "Mangold",
+     "Kocher",
+     "Dreier",
+     "Josef Albers"
+    ],
+    "deroule": "Mangold rend compte à la communauté de ce qui a été absorbé par la construction. La liste des fondations et des donateurs anonymes circule, et la question de la contribution plafonnée à 10 $ par mois ressurgit.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03327"
+    ]
+   },
+   {
+    "titre": "Les réponses favorables",
+    "date": "1942-05",
+    "lieu": "BMC, Lake Eden",
+    "personnages": [
+     "Wunsch"
+    ],
+    "deroule": "Wunsch lit les lettres d'Antioch, Swarthmore, Reed et de Frank Graham. Le quota est acquis, mais l'accréditation et le droit de diplômer restent en suspens.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "titre": "Albers entre Harvard et la campagne",
+    "date": null,
+    "lieu": "Harvard",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers travaille à la suite Graphic Tectonic pendant que ses collègues tiennent la campagne de fonds. Les deux occupations se disputent son été.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "titre": "La visite d'Else Regensteiner",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Anni Albers",
+     "Else Regensteiner"
+    ],
+    "deroule": "Anni Albers reçoit la future fondatrice du département de tissage de l'Art Institute de Chicago. La rencontre a lieu pendant l'été, sans date précise.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "titre": "Des lettres pour Eric Bentley",
+    "date": "1942-07",
+    "lieu": "BMC, Lake Eden",
+    "personnages": [
+     "Wunsch"
+    ],
+    "deroule": "Les lettres de Cohen, Smith, Martin et Graham arrivent une à une. Elles disent l'espoir d'un dossier solide, mais ne prouvent pas encore la suite des événements.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le bilan du 7 juillet, Mangold et la dette",
+    "vers_date": "1940",
+    "vers": "Le chantier lancé à l'automne 1940 et l'installation à Lake Eden en mai 1941, qui ont créé la dette et la dépendance aux dons.",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)",
+     "EV-03327"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les lettres d'accréditation de l'été",
+    "vers_date": "1942-05-24",
+    "vers": "L'entretien de Wunsch avec Huntley de la Southern Association, qui s'étonne que le collège n'ait pas encore ce droit.",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La campagne de fonds de l'été",
+    "vers_date": "1942",
+    "vers": "Le trimestre d'automne : arrivée des Hansgirg avec une Cadillac et un orgue Hammond, puis la découverte de mica dans le pâturage (250 livres, « bonne muscovite »).",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le manque d'argent de juillet",
+    "vers_date": "1942-10-16",
+    "vers": "Le télégramme d'enquête de Fortune sur les effets de la guerre ; le collège répond par une page dactylographiée.",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La dispersion annoncée par les lettres de l'été",
+    "vers_date": "1943",
+    "vers": "Les départs de Lindsley, Evarts, Boyden, Mangold, Babcock et French, datés 1942-1943, et la reprise de l'atelier de menuiserie par Molly Gregory.",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'été des lettres et des dons",
+    "vers_date": "1942-11",
+    "vers": "La publication de l'autobiographie de Rice avec un chapitre sur Black Mountain, et la menace de procès en libelle de Hamilton Holt.",
+    "refs": [
+     "chapitre 1942 (synthèse, sans id)"
+    ]
+   }
+  ],
+  "motifs": [
+   "l'argent comme moteur de chaque décision",
+   "l'accréditation comme question de survie",
+   "la guerre qui vide le collège",
+   "le travail manuel comme identité communautaire",
+   "la dette et l'illusion : ferme, construction, décor",
+   "Albers entre dehors et dedans"
+  ],
+  "lacunes": "Le climat et la vie quotidienne exacte de l'été ne sont pas documentés. Aucune date précise pour le quota, la visite de Regensteiner, la seconde hypothèque, les départs de Lindsley, Evarts, Boyden, Mangold, Babcock et French, ni pour l'arrivée des Hansgirg. La présence réelle d'Albers est contradictoire (campagne contre Harvard). Straus, Stoller et Wunsch ne sont présents qu'en déduction. Les bals, spectacles et la valse d'Elsa Kahl sont datés 1942 ou 1943. Le contenu de l'accord « bedroom » et l'objet du télégramme de décembre sont inconnus."
+ }
+}

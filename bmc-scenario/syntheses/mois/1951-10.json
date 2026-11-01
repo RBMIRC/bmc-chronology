@@ -1,0 +1,391 @@
+{
+ "passe": "mois",
+ "cle": "1951-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 16117,
+  "sortie": 16782,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1951-10",
+  "session": "trimestre d'automne 1951 : cours repris, réunions de réforme des études à partir du 25 octobre, débats jusqu'en mars 1952",
+  "saison_et_climat": "automne de montagne en Caroline du Nord, froid marqué : sur la montagne la température descend souvent sous zéro à mi-octobre (EV-05560)",
+  "situation": "Le collège vit l'ère Olson sans l'ancienne faculté. Le groupe qui l'avait reconstruit depuis 1949 est parti au printemps, il reste très peu d'enseignants (Victor Sprague et John Adams, recrutés), Olson agit en chef de fait sans titre officiel, et le déficit s'aggrave. Le mois est dense : l'atelier de nuit où chacun lit son texte, les réunions sur les fins éducatives, le bûcheronnage pour vendre du bois de pâte, la naissance du fils Harding à Asheville, la composition de Rapunzel par Harrison, Rauschenberg et Twombly installés au collège. Les sources ne donnent pas de liste complète des présents ce mois-là (synthèse annuelle sans identifiant).",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Fielding Dawson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Caroline Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nick Cernovich",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Joel Oppenheimer",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Duck (étudiant, nom complet inconnu)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Victor Danner",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Cynthia (étudiante, nom complet inconnu)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ron Robertson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Carl Kent",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Doyle Jones (fermier)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wesley Huss",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Lou Harrison",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Rauschenberg",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Cy Twombly",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Susan Weil",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Motherwell",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Harding",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mildred Harding",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Victor Sprague",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Adams",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Étudiante rousse arrivée six semaines en retard (non nommée)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Bûcheronnage des pins par Robertson et Kent pour vendre du bois de pâte ; deux haches, puis une tronçonneuse, production en hausse mais insuffisante face au déficit ; les deux étudiants partent ensuite pour New York en sentant la fin proche",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05559",
+     "SC-01471"
+    ]
+   },
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Naissance du fils de John et Mildred Harding à Asheville, à l'hôpital, par grand froid de montagne",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05560"
+    ]
+   },
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Harrison achève la partition chant-piano de Rapunzel, opéra en six brefs actes, deux mois après son arrivée",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05563"
+    ]
+   },
+   {
+    "date": "1951-10-18",
+    "precision": "jour",
+    "ce_qui_arrive": "Rauschenberg écrit à Betty Parsons, sur papier à en-tête du collège, pour défendre ses White Paintings dans un langage « édénique »",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05564",
+     "EC-02757"
+    ]
+   },
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Dawson écrit la nouvelle Mother, lue ensuite en classe d'Olson",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05565"
+    ]
+   },
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "ce_qui_arrive": "La nuit de lecture : Olson bute sur le passage HO HO HEY DROP de Mother, puis Dawson lit la nouvelle ; chacun lit désormais son texte, Olson expose sa formule d'enseignement",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05566",
+     "SC-01473"
+    ]
+   },
+   {
+    "date": "1951-10-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Première d'une série de réunions de faculté sur la réforme des études (25 octobre, puis 2, 9, 21, 28 et 30 novembre) ; le 2 novembre Olson proclame la liberté absolue de l'étudiant",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05567"
+    ]
+   },
+   {
+    "date": "1951-10-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Débats vifs sur les fins éducatives entre Olson, Sprague et Adams, lors de la série de réunions de réforme",
+    "certitude": "deduit",
+    "refs": [
+     "EV-05567"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "saison",
+    "ce_qui_arrive": "Olson enseigne à l'automne « Hieroglyphic Writing and Ovid's Metamorphoses » et prend pour devise « For use, now » ; il baptise la période « The Afterwards »",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Excavation de de Kooning reçoit la médaille Logan et le prix d'acquisition à Chicago (hors campus)",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05562"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "saison",
+    "ce_qui_arrive": "Rauschenberg repart brièvement du collège à l'automne, puis revient en janvier 1952 (calendrier incertain par rapport au cachet du 18 octobre)",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les journées tournent autour du bois de pâte (haches, puis tronçonneuse), des cours repris et des séances de lecture de nuit. Chez les Harding, la vie est très pauvre : lait, œufs et haricots rouges, dispute pour une place dans le camion du collège les jours de paie, corde à linge interdite par le College Council. Olson enseigne l'écriture hiéroglyphique et Ovid, Dawson écrit, Harrison compose Rapunzel. Rauschenberg et Twombly travaillent : White Paintings, puis Black Paintings et Night Blooming peu après, toiles pressées dans la terre, cailloux jetés sur une toile goudronnée. Les étudiants posent nus pour la classe de dessin faute de modèle.",
+  "tensions": [
+   "Autorité d'Olson contestée : Huss le juge piètre administrateur, des témoins le décrivent en guru de deux mètres en poncho ; son statut reste flou (Chaddock : « élu recteur vite » ; Molesworth : recteur officiel seulement en 1954, de facto d'abord)",
+   "Déficit croissant : le bois de pâte ne suffit pas, Robertson et Kent partent pour New York",
+   "Débats de faculté sur les fins éducatives, échanges vifs entre Olson, Sprague et Adams, jusqu'en mars 1952",
+   "Pauvreté des Harding (environ 1 000 dollars par an) et conflit avec le Conseil sur la corde à linge",
+   "Mariage de Rauschenberg et Susan Weil en défaire, attachement à Twombly, Weil revient brièvement",
+   "Présence de Mary Caroline Richards contestée : Lane la dit partie en 1951, Dawson la fait enseigner Ulysses à l'automne ; Dawson qualifie cette période de plus basse de Richards, dont personne ne parle"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Bûcheronnage de Robertson et Kent",
+    "date": "1951-10",
+    "lieu": "parcelle de pins du collège, Black Mountain",
+    "personnages": [
+     "Ron Robertson",
+     "Carl Kent",
+     "Doyle Jones",
+     "Wesley Huss"
+    ],
+    "deroule": "Les deux étudiants, inquiets du déficit, proposent une entreprise au fermier et à Huss. Ils abattent et ébranchent à la hache pendant deux semaines, vendent le bois de pâte, obtiennent une tronçonneuse du Conseil, puis abandonnent faute de résultats suffisants.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01471",
+     "EV-05559"
+    ]
+   },
+   {
+    "titre": "La nuit où Olson apprit à enseigner",
+    "date": "1951-10",
+    "lieu": "salle de classe, séance du soir",
+    "personnages": [
+     "Charles Olson",
+     "Fielding Dawson",
+     "Mary Caroline Richards",
+     "Nick Cernovich",
+     "Joel Oppenheimer",
+     "Duck",
+     "Victor Danner",
+     "Cynthia"
+    ],
+    "deroule": "Olson lit Mother à voix haute, bute sur HO HO HEY DROP, bégaie. Dawson dit que les rythmes sont faux ; Mary propose de laisser Fee lire. Dawson lit la nouvelle comme elle est écrite, puis chacun lit son texte et Olson construit sa formule d'enseignement sous les questions du groupe.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01473",
+     "EV-05566",
+     "EV-05565"
+    ]
+   },
+   {
+    "titre": "Lettre de Rauschenberg à Betty Parsons",
+    "date": "1951-10-18",
+    "lieu": "Black Mountain College, papier à en-tête du collège",
+    "personnages": [
+     "Robert Rauschenberg"
+    ],
+    "deroule": "Rauschenberg écrit à sa galeriste pour défendre les White Paintings, avec des formules d'innocence et de paradis (« presented with the innocence of a virgin »). La lettre porte un cachet du 18 octobre, qui atteste sa présence au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05564",
+     "EC-02757"
+    ]
+   },
+   {
+    "titre": "Réunion de faculté sur la réforme des études",
+    "date": "1951-10-25",
+    "lieu": "salle de faculté, Black Mountain College",
+    "personnages": [
+     "Charles Olson",
+     "Victor Sprague",
+     "John Adams"
+    ],
+    "deroule": "Première séance d'une série de réunions consacrées à la réforme des études. Les échanges sont vifs entre Olson d'un côté, Sprague et Adams de l'autre, sur les fins éducatives. Les procès-verbaux sont conservés aux Raleigh Archives.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-05567"
+    ]
+   },
+   {
+    "titre": "Naissance de Brayton Harding",
+    "date": "1951-10",
+    "lieu": "hôpital d'Asheville",
+    "personnages": [
+     "John Harding",
+     "Mildred Harding",
+     "nouveau-né Brayton"
+    ],
+    "deroule": "Le fils du couple Harding naît à Asheville, à mi-octobre, par un froid de montagne. La famille vit alors d'un revenu très bas, dans la gêne.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05560"
+    ]
+   },
+   {
+    "titre": "Composition de Rapunzel",
+    "date": "1951-10",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Lou Harrison"
+    ],
+    "deroule": "Harrison achève la partition d'un opéra dodécaphonique de cinquante-cinq minutes, mise en musique presque mot pour mot du poème de William Morris d'après Grimm.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05563"
+    ]
+   },
+   {
+    "titre": "Corde à linge interdite",
+    "date": "1951",
+    "lieu": "logement des Harding, Black Mountain College",
+    "personnages": [
+     "John Harding",
+     "Mildred Harding",
+     "membres du College Council"
+    ],
+    "deroule": "Le Conseil juge la corde à linge des Harding une offense esthétique et l'interdit, alors que la famille manque de tout.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Pendant la lecture nocturne de Mother, la classe repense aux lectures et performances de l'été",
+    "vers_date": "1951-07",
+    "vers": "L'été du Glyph Exchange, de Shahn, de Litz et de Tudor, qui prépare la nouvelle pédagogie",
+    "refs": [
+     "SC-01473"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Olson qui enseigne l'écriture hiéroglyphique à l'automne",
+    "vers_date": "1951-02",
+    "vers": "Le séjour au Yucatan et les Mayan Letters, où le glyphe devient modèle d'écriture",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Harrison qui achève Rapunzel en octobre",
+    "vers_date": "1954",
+    "vers": "L'acte III de Rapunzel remporte un prix à Rome",
+    "refs": [
+     "EV-05563"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le bûcheronnage qui échoue et le sentiment de fin proche chez Robertson et Kent",
+    "vers_date": null,
+    "vers": "Le départ des deux étudiants pour New York, puis la fin du collège",
+    "refs": [
+     "EV-05559",
+     "SC-01471"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La lettre à Betty Parsons sur les White Paintings, depuis Black Mountain",
+    "vers_date": "1952-01",
+    "vers": "Le retour de Rauschenberg au collège après un départ à l'automne",
+    "refs": [
+     "EV-05564"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les réunions de faculté d'octobre et novembre sur les fins éducatives",
+    "vers_date": "1952-03",
+    "vers": "La fin des débats sur les fins éducatives, en mars 1952",
+    "refs": [
+     "EV-05567"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le bois et la hache contre la faillite : travail pénible, lent, vain",
+   "La lecture à voix haute qui renverse l'autorité du maître",
+   "Le glyphe, l'écriture et la trace",
+   "Le blanc : White Paintings, rhétorique édénique, page vierge",
+   "Le corps fragile et la pauvreté : naissance, lait, œufs, haricots rouges",
+   "Le recteur sans titre : autorité de fait contre titre officiel"
+  ],
+  "lacunes": "On ignore la date exacte du départ de Robertson et Kent pour New York et s'ils sont encore là en octobre. Les sources se contredisent sur la présence de Rauschenberg (cachet du 18 octobre contre « repart brièvement à l'automne ») et sur celle de Richards (Lane contre Dawson). On ne sait ni si Twombly et Susan Weil sont là ce mois-ci, ni si Motherwell est présent, ni l'identité complète de Duck, Cynthia et de l'étudiante rousse. On ignore aussi le nombre exact d'étudiants, le statut officiel d'Olson, et le contenu des procès-verbaux des réunions de faculté."
+ }
+}

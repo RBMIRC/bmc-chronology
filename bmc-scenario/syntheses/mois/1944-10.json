@@ -1,0 +1,305 @@
+{
+ "passe": "mois",
+ "cle": "1944-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 1488,
+  "sortie": 12397,
+  "cache_lu": 0,
+  "cache_ecrit": 2613
+ },
+ "donnees": {
+  "mois": "1944-10 (octobre 1944)",
+  "session": "trimestre d'automne (déduit : les fiches évoquent un admission prévue au trimestre d'automne, sans confirmer le calendrier d'octobre)",
+  "saison_et_climat": "Automne, selon le calendrier ; les fiches ne disent rien du temps ni du climat.",
+  "situation": "Le collège sort d'une année 1944 éprouvante. Le débat sur l'admission d'étudiants noirs, ouvert en janvier, s'est refermé en mai sur un compromis minimal : une seule femme noire admise pour l'été, avec un statut hybride. Le trésorier adjoint Orr a démissionné en avril. En septembre 1944, la scission entre anciens et nouveaux se cristallise, un projet de collège rival porté par les partants prend forme, et la direction, usée, doit reconstruire un corps enseignant amputé. Aucune fiche ne date un événement d'octobre lui-même : le mois tombe dans la phase de réorganisation qui suit la rupture.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hansgirg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Miller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Radin",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bentley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "de Graaff",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Cohen",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-01-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Ouverture des réunions de faculté sur l'admission d'étudiants noirs, qui se succèdent jusqu'au 10 mai avec caucus secrets et séances-marathons.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)",
+     "fil : Intégration raciale : de l'engagement au compromis"
+    ]
+   },
+   {
+    "date": "1944-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Un étudiant démissionne, sans que la fiche relie explicitement ce départ au débat racial.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": "1944-04-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Straus déclare en faculty que le Noir est étrange et que la formule « nous sommes tous des êtres humains » est trop simple ; Albers réclame alors d'admettre aussi des étudiants indiens, chinois et américano-japonais.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": "1944-04-26",
+    "precision": "jour",
+    "ce_qui_arrive": "Démission du trésorier adjoint Orr, en partie à cause de l'admission envisagée et plus largement parce que le collège tente trop avec trop peu.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": "1944-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Consensus d'avril-mai : une seule femme noire, âgée et qualifiée, professeur de musique à Fort Valley, est admise pour l'été avec le statut hybride de « membre de l'Institut ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)",
+     "fil : Intégration raciale : de l'engagement au compromis"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Les instituts d'été deviennent à la fois vitrine du collège et voie parallèle, jusqu'en 1947.",
+    "certitude": "atteste",
+    "refs": [
+     "fil : Les instituts d'été comme vitrine et comme voie parallèle"
+    ]
+   },
+   {
+    "date": "1944-09",
+    "precision": "mois",
+    "ce_qui_arrive": "La scission entre anciens et nouveaux se cristallise.",
+    "certitude": "atteste",
+    "refs": [
+     "fil : Scission anciens / nouveaux (Bentley, de Graaff, Foreman, Cohen)"
+    ]
+   },
+   {
+    "date": "1944-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Projet de collège rival porté par les partants, jusqu'en mars 1945.",
+    "certitude": "atteste",
+    "refs": [
+     "fil : Projet de collège rival des partants"
+    ]
+   },
+   {
+    "date": "1944-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Reconstruction du corps enseignant et usure de la direction, jusqu'en 1945.",
+    "certitude": "atteste",
+    "refs": [
+     "fil : Reconstruction du corps enseignant et usure de la direction"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Selon Lane, la question de l'admission n'est tranchée qu'à l'automne 1945 ; Lane décrit aussi un recul des enseignants après des menaces, version que les autres sources ne partagent pas.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)",
+     "fil : Intégration raciale : de l'engagement au compromis"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire d'octobre 1944 : ni repas, ni cours, ni travaux. On sait seulement que le trimestre d'automne est en cours (déduit), que la direction doit recruter pour remplacer les départs, que le collège dispose de dortoirs (deux étudiants noirs et un professeur de Fisk y ont logé sans incident, à une date non précisée) et que les décisions se prennent encore en réunions longues et collectives.",
+  "tensions": [
+   "La fracture entre anciens et nouveaux, qui remonte à 1942, est consommée en septembre 1944.",
+   "Le compromis racial ne satisfait personne : Straus reste contre sans vouloir se battre, Bentley raille le statut hybride en parlant de Hofjude.",
+   "Les menaces (boycott des commerçants, incendie) qui ont pesé sur le vote peuvent resurgir ; Lane évoque des menaces et des feux possibles.",
+   "Dreier, selon Lane, aurait reçu l'ordre de rompre avec le Rosenwald Fund et resterait seul.",
+   "La direction s'use : Orr a démissionné en invoquant un collège qui tente trop avec trop peu.",
+   "Les sources divergent : Duberman et d'autres présentent un débat tranché par un compromis, Lane parle d'un recul sous pression et d'une question non réglée avant 1945."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Reconstituer le trimestre après la scission",
+    "date": "1944-10",
+    "lieu": "le collège, salle de faculté (lieu non précisé)",
+    "personnages": [
+     "Wunsch",
+     "Straus",
+     "Josef Albers",
+     "Dreier"
+    ],
+    "deroule": "Les restants se partagent les cours laissés vacants par les partants et débattent de qui peut être recruté. Chacun mesure ce qu'il a perdu dans le compromis d'été.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)",
+     "fil : Reconstruction du corps enseignant et usure de la direction"
+    ]
+   },
+   {
+    "titre": "Le collège rival en gestation",
+    "date": "1944-10",
+    "lieu": "le collège, hors des réunions officielles (lieu non précisé)",
+    "personnages": [
+     "Bentley",
+     "de Graaff",
+     "Cohen"
+    ],
+    "deroule": "Des partants discutent en privé d'un projet de collège concurrent : lieu, financement, recrutement d'enseignants déjà acquis à leur cause.",
+    "certitude": "probable",
+    "refs": [
+     "fil : Projet de collège rival des partants",
+     "fil : Scission anciens / nouveaux (Bentley, de Graaff, Foreman, Cohen)"
+    ]
+   },
+   {
+    "titre": "Un courrier pour justifier la prudence",
+    "date": "1944-10",
+    "lieu": "bureau de la direction (lieu non précisé)",
+    "personnages": [
+     "Wunsch",
+     "Dreier"
+    ],
+    "deroule": "Dreier, isolé, doit répondre à la pression du Rosenwald Fund. Wunsch, qui a écrit à Evarts qu'intégrer revenait à déclarer une guerre ouverte au Sud, relit ses arguments et choisit ce qu'il écrit.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Bilan de l'institut d'été",
+    "date": "1944-10",
+    "lieu": "le collège (lieu non précisé)",
+    "personnages": [
+     "Wunsch",
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "La direction fait le point sur ce que l'institut d'été a apporté comme vitrine et sur ce qu'il a coûté à la vie régulière du collège.",
+    "certitude": "deduit",
+    "refs": [
+     "fil : Les instituts d'été comme vitrine et comme voie parallèle"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1944, quand les restants ressassent la session de faculté ouverte en avril.",
+    "vers_date": "1944-04-17",
+    "vers": "La déclaration de Straus en faculty sur le Noir étrange, et la réplique d'Albers sur l'élargissement aux autres minorités.",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1944, au moment où les partants s'organisent contre les restants.",
+    "vers_date": "1942",
+    "vers": "Les origines de la scission entre anciens et nouveaux, qui précèdent le débat racial.",
+    "refs": [
+     "fil : Scission anciens / nouveaux (Bentley, de Graaff, Foreman, Cohen)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1944, pendant la reconstruction du corps enseignant.",
+    "vers_date": "1945-03",
+    "vers": "Fin prévue du projet de collège rival des partants ; l'issue n'est pas donnée par les fiches.",
+    "refs": [
+     "fil : Projet de collège rival des partants"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1944, pendant que la question raciale semble close pour l'été.",
+    "vers_date": "1945",
+    "vers": "Selon Lane, la question de l'admission n'est tranchée qu'à l'automne 1945.",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1944, dans la continuité des instituts d'été.",
+    "vers_date": "1947",
+    "vers": "Fin de la période où les instituts d'été servent de vitrine et de voie parallèle.",
+    "refs": [
+     "fil : Les instituts d'été comme vitrine et comme voie parallèle"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le compromis qui ne tranche rien",
+   "Les lettres de mise en garde et la stratégie du courrier",
+   "L'argument juridique qui tombe devant les faits",
+   "Le statut hybride et l'humiliation qu'il sous-entend",
+   "L'épuisement de la direction",
+   "L'institut d'été comme solution de repli",
+   "La déchirure entre anciens et nouveaux",
+   "L'ironie de l'exclusion (Hofjude)"
+  ],
+  "lacunes": "Aucune fiche n'est datée d'octobre 1944 : on ignore le contenu du trimestre, les cours, la vie quotidienne, l'effectif réel et qui a quitté le collège après la scission. Les fiches n'ont pas d'identifiants (EV-, SC-, PE-) : les refs sont donc des titres de chapitre et de fils. Foreman préside désormais la Southern Conference : on ignore s'il est encore au collège, et la fiche ne tranche pas son appartenance au groupe des partants. Le rôle de Duggar et les effectifs de Gregory et Miller ne sont pas précisés. La femme noire admise pour l'été n'est pas nommée et l'on ignore si elle est restée. Les sources divergent sur l'issue du débat racial et sur la date de sa clôture."
+ }
+}

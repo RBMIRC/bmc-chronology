@@ -1,0 +1,210 @@
+{
+ "passe": "personnes",
+ "cle": "Arthur Lovejoy",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 6660,
+  "sortie": 5598,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Arthur Lovejoy",
+  "autres_noms": [
+   "Arthur O. Lovejoy (forme non donnée par les fiches, à ne pas supposer)"
+  ],
+  "dates_de_vie": "Non précisées par les fiches.",
+  "statut_bmc": "Figure périphérique : il n'a jamais été membre du collège. Il intervient en amont de la fondation, comme enquêteur de l'AAUP dans l'affaire Rice contre Rollins (1933). Son rapport rend Rice innocent aux yeux de l'opinion universitaire et légitime ensuite les fondateurs de Black Mountain. Il reste un personnage de prologue ou de flash-back.",
+  "presence": [
+   {
+    "debut": "1933-05",
+    "fin": "1933-05",
+    "role": "Enquêteur de l'AAUP à Rollins College (Winter Park, Floride) ; il dirige le bras investigateur de l'association. Il siège aux audiences dans la sacristie de la chapelle Knowles avec Austin S. Edwards. Il n'est pas à Black Mountain, mais son action précède de peu la fondation.",
+    "refs": [
+     "PE-00220",
+     "EV-02091",
+     "EV-02096",
+     "EV-02097",
+     "SC-00521",
+     "SC-00524",
+     "SC-00525",
+     "EV-01989"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucun détail physique dans les fiches. Il est professeur de philosophie à Johns Hopkins. Pour la scène : un universitaire en mission, assis pendant des heures à une longue table de sacristie, sous les voûtes de la chapelle. Le reste (âge, allure, vêtements) est à inventer et à signaler comme tel.",
+  "noyau_psychologique": "Un érudit qui défend l'intégrité de la profession enseignante. Il est rigoureux, mais sa patience a des limites devant la mesquinerie. Le ridicule des accusations l'exaspère, puis il prend le parti de l'homme visé. Il garde la tête assez froide pour reconnaître chez Rice un mélange d'abrasif et de charismatique (attesté par PE-00220, qui le formule comme une compréhension probable). Il a de l'ironie, et il sait donner à l'érudition une fonction d'arme : citer Platon pour couper court à une charge. Il est direct dans ses conseils. Tout cela est déduit de peu de matière, uniquement de 1933.",
+  "blessures": "Rien dans les fiches. On peut seulement relever qu'il est agacé par les attaques contre le métier d'enseignant. Ce n'est pas une blessure attestée.",
+  "desirs": "Attesté : faire respecter l'intégrité de la profession enseignante, c'est-à-dire la protection d'un professeur qui croyait sa titularisation acquise. Déduit : que la procédure soit menée avec sérieux, et que Rice ait un avenir.",
+  "peurs": "Non documentées. On peut déduire, avec prudence, une aversion pour l'absurdité procédurale et pour l'arbitraire d'une autorité présidentielle.",
+  "maniere_d_aimer": "Non documentée. Sa sympathie pour Rice vient progressivement, par la preuve : il est d'abord enquêteur neutre, puis admirateur (RE-00759). Il offre à Rice un conseil franc et pratique, sans effusion (RE-00869). Dans les fiches, c'est sa seule marque de bienveillance.",
+  "rapport_au_pouvoir": "Il ne se laisse pas intimider par Holt, un président de collège : il lui répond ironiquement, devant tous, et l'invite à poursuivre sa lecture (« Mr. President »). Il fait cependant respecter la forme : il invite Rice à répondre point par point, et Rice a deux accompagnateurs. Le rapport final qu'il cosigne dénonce une autorité présidentielle excessive, humiliante pour la faculté. Holt l'accuse de dépasser son mandat en touchant à la titularisation (EV-02099). Son pouvoir est d'ordre moral et institutionnel : un rapport, une censure, une liste de collèges approuvés.",
+  "voix": {
+   "registre": "Savant, sec, ironique. Il cite l'Antiquité sans l'afficher, avec une politesse formelle (« Monsieur le Président ») qui sert de lame. Il pose des questions de philosophe (Rice ne crédite-t-il pas trop le genre humain de sens de l'humour ?). Ses conseils sont brefs et concrets.",
+   "tics": "Formule de politesse protocolaire pour désarmer ou piquer (« will you please read on, Mr. President »). Recours à l'analogie savante (Platon, l'ashcan, le cendrier) pour ramener une accusation à sa juste mesure. Image spatiale pour un conseil : « spread a little thinner ».",
+   "exemples_paraphrases": [
+    "À Holt, qui lit un affidavit sur un ciseau « magnifique » : Platon a dit à peu près la même chose d'un cendrier (ou ashcan), un parfait mariage de la forme et de la fonction ; que le président poursuive sa lecture.",
+    "À Rice, en demandant s'il ne prête pas à l'humanité trop de sens de l'humour (Rice répond : peut-être).",
+    "À Rice, à la fin : une plus grande institution lui conviendrait, il s'y répandrait un peu plus finement, il y serait dilué un peu."
+   ]
+  },
+  "habitudes": [
+   "Invite le témoin ou l'accusé à répondre après chaque lecture, selon la procédure.",
+   "Prend la parole peu mais à bon escient : avec Rice et Holt, il porte l'essentiel de la conversation (EV-02097).",
+   "Travaille en tandem avec Edwards, psychologue de l'Université de Géorgie."
+  ],
+  "convictions": [
+   "Un professeur ayant raison de croire sa titularisation acquise ne peut être renvoyé sur des accusations qui, même prouvées, ne seraient pas retenues dans la plupart des institutions (rapport, EV-01711).",
+   "L'enseignement socratique de Rice a une vraie valeur : substituer aux convictions reçues des convictions personnelles atteintes par la réflexion (EV-01711).",
+   "L'intégrité de la profession enseignante doit être défendue (PE-00220).",
+   "Une autorité présidentielle excessive est contraire aux statuts et humiliante pour la faculté (EV-02220)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933-05-17",
+    "moment": "Arrivée à Winter Park pour une enquête d'environ une semaine. Holt lui impose le trésorier Brown et le doyen Anderson ; les enquêteurs accordent à Rice deux accompagnateurs (Lounsbury et Georgia).",
+    "etat_interieur": "Neutre et attentif : il est venu enquêter, sans parti pris visible dans les fiches. Une certaine méfiance envers Holt peut être déduite de la façon dont il règle la composition de la table.",
+    "refs": [
+     "EV-02096",
+     "SC-00524"
+    ]
+   },
+   {
+    "date": "1933-05",
+    "moment": "Les audiences à la sacristie : Holt lit plus de soixante affidavits (jockstrap, ciseau « magnifique », chuchotements en chapelle, écailles de poisson dans l'évier, etc.). Lovejoy fait répondre Rice un à un.",
+    "etat_interieur": "Irritation croissante devant des heures d'accusations mesquines, entre l'absurde et le comique.",
+    "refs": [
+     "SC-00521",
+     "SC-00525",
+     "EV-02091",
+     "EV-02097"
+    ]
+   },
+   {
+    "date": "1933-05",
+    "moment": "Il réplique lui-même à la charge du ciseau avec Platon et l'ashcan (ou cendrier) ; plus tard il demande à Rice s'il ne crédite pas trop le genre humain de sens de l'humour.",
+    "etat_interieur": "L'ironie remplace la patience ; il passe de l'enquêteur à un allié intellectuel. Le procès de Rice devient celui de Holt.",
+    "refs": [
+     "SC-00404",
+     "CI-01099",
+     "CI-00849"
+    ]
+   },
+   {
+    "date": "1933-05-25",
+    "moment": "Rapport préliminaire de l'AAUP. Holt répond par un mémorandum confidentiel aux trustees : les enquêteurs l'ont jugé lui plutôt que Rice et ont dépassé leur mandat.",
+    "etat_interieur": "Non documenté. Il est visé personnellement, avec Edwards, par la contre-offensive.",
+    "refs": [
+     "EV-02099"
+    ]
+   },
+   {
+    "date": "1933-06",
+    "moment": "Après l'enquête, alors que Rice remballe dans une rage sombre, Lovejoy est le seul à lui offrir un conseil positif : une grande institution où il serait dilué.",
+    "etat_interieur": "Sympathie devenue lucidité pratique : il voit le caractère de Rice (abrasif, charismatique) et le conseille comme on conseille un homme qu'on estime. La tonalité exacte de la voix est à inventer.",
+    "refs": [
+     "EV-02106",
+     "EV-01990",
+     "CI-01104",
+     "CI-01067",
+     "RE-00869"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "moment": "Rapport officiel dans le Bulletin de l'AAUP : Rice blanchi, Rollins censuré. Holt répond par une campagne de lettres et une édition spéciale du Rollins College Bulletin (décembre 1933).",
+    "etat_interieur": "Non documenté. L'issue lui donne raison institutionnellement, mais Rice a déjà fondé Black Mountain.",
+    "refs": [
+     "EV-02217",
+     "EV-02220",
+     "EV-01711",
+     "EV-01989"
+    ]
+   }
+  ],
+  "avant": [],
+  "apres": [
+   {
+    "date": "1933-11",
+    "moment": "Publication du rapport officiel dans le Bulletin de l'AAUP (n° 19) : Rice blanchi, Rollins censuré ; le rapport légitime les fondateurs de Black Mountain. Holt ne désarme pas : campagne de lettres, accusation de parti pris, risque pour Rollins d'être retiré de la liste des collèges approuvés.",
+    "refs": [
+     "EV-02217",
+     "EV-02220",
+     "EV-01711"
+    ]
+   },
+   {
+    "date": "1933-10",
+    "moment": "Un rapport public attribué à Lovejoy et Edwards exonère Pace et blâme Holt. La date d'octobre diffère de celle de novembre pour le rapport officiel (voir contradictions).",
+    "refs": [
+     "EV-02189"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Enquêteur devenu admirateur ; sorte de mentor ponctuel.",
+    "evolution": "D'abord examinateur d'un accusé, puis allié : il le fait répondre point par point, le défend d'une plaisanterie savante, loue son enseignement socratique dans le rapport, et lui donne le seul conseil d'avenir (aller dans une plus grande institution). Rice le rejette en une réplique laconique : il a déjà connu les grandes institutions et n'appartient à aucune institution (EV-01712).",
+    "refs": [
+     "RE-00759",
+     "RE-00869",
+     "EV-01712",
+     "EV-01990",
+     "EV-02106"
+    ]
+   },
+   {
+    "avec": "Hamilton Holt",
+    "nature": "Adversaire institutionnel : président de Rollins, accusateur de Rice.",
+    "evolution": "Lovejoy le reprend ironiquement à l'audience, puis son rapport le blâme. Holt réagit par un mémorandum confidentiel, puis une campagne de plusieurs mois. Il avait lui-même suggéré à Rice une grande institution ; Lovejoy approuvait (EV-01712).",
+    "refs": [
+     "SC-00404",
+     "SC-00521",
+     "EV-02099",
+     "EV-02220",
+     "EV-01712"
+    ]
+   },
+   {
+    "avec": "Austin S. Edwards",
+    "nature": "Co-enquêteur de l'AAUP, psychologue à l'Université de Géorgie.",
+    "evolution": "Binôme stable tout au long de l'enquête et du rapport. Les fiches ne donnent aucune scène individuelle d'Edwards.",
+    "refs": [
+     "EV-02091",
+     "EV-02096",
+     "EV-02189"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Le rapport officiel est daté de six mois après les audiences (EV-01711, Duberman) ; EV-02217 et EV-02220 (Harris, Chaddock) le situent en novembre 1933, soit environ six mois après mai. Un rapport public « Lovejoy-Edwards » est daté d'octobre 1933 (EV-02189, Chaddock p.137) : s'agit-il du même texte ? Les fiches ne tranchent pas.",
+   "Durée des audiences : « dix jours » (EV-01710, Duberman) contre une « semaine d'enquête » (EV-02096, Chaddock). Les dates des fiches de scène vont du 17 au 19 mai. Il faut choisir une version pour le scénario.",
+   "L'attribution de la réplique sur Platon : Duberman l'attribue à Lovejoy ; PE-00220 et EV-02091 s'accordent. Mais SC-00404 et PE-00220 parlent d'un « cendrier », SC-00521 et EV-02091 d'un « ashcan » (poubelle ou cendrier ?), et la charge portait sur un ciseau. La citation CI-00849 est liée au cendrier, CI-01099 au ciseau et à l'ashcan : l'objet exact varie selon les fiches.",
+   "Le contexte de l'accusation de Holt varie : PE-00220 présente un Lovejoy rappelant que Platon a dit pareil ; SC-00404 dit que Holt « cite » Platon (CI-00849). Rôle de Holt ou de Lovejoy dans l'allusion platonicienne : peu clair.",
+   "Son rôle exact : il dirige le bras investigateur (PE-00220, EV-01989) mais les fiches donnent aussi Edwards comme co-enquêteur à parité. La part de chacun dans la rédaction n'est pas établie.",
+   "Rice est décrit comme abrasif et charismatique dans PE-00220 : c'est une lecture de l'enquêteur supposée, pas une parole attestée."
+  ],
+  "situations_revelatrices": [
+   "Une longue lecture d'affidavits absurdes, où il perd patience et répond par une pique savante.",
+   "Un face-à-face avec un président puissant, qu'il appelle « Monsieur le Président » avec une courtoisie coupante.",
+   "Une conversation seul à seul avec Rice, à la fin, où il lui offre un conseil net (et se fait rembarrer).",
+   "La rédaction du rapport, la lecture des critiques de Holt et sa contre-offensive.",
+   "Le soir : les enquêteurs à l'hôtel, tandis que Rice reçoit des visiteurs chez lui dans des éclats de rire (déduit de l'atmosphère de SC-00404)."
+  ],
+  "citations": [
+   "« Perfect mating of form and function — will you please read on, Mr. President » (CI-00849, CI-01099 ; Duberman 1972) : riposte à Holt à propos du cendrier ou de l'ashcan.",
+   "« where you'd spread a little thinner » (CI-01067, CI-01104 ; Chaddock 2002, p.91) : conseil d'avenir à Rice.",
+   "Rice à Lovejoy : « Possibly », en réponse à la question sur le sens de l'humour du genre humain (SC-00404).",
+   "Rice, sur les grandes institutions : « I've been in large institutions. I don't belong in institutions. » (EV-01712)"
+  ],
+  "questions_ouvertes": [
+   "Quelles sont ses dates de vie, son âge en 1933, son allure et sa voix réelle ? Aucune fiche ne le dit.",
+   "Que fait-il après 1933 ? Reste-t-il en contact avec Rice ou avec Black Mountain ? Les fiches ne parlent d'aucun lien ultérieur.",
+   "Quelle formation, quelle carrière et quelles prises de position l'ont conduit à diriger l'enquête de l'AAUP (hors Johns Hopkins) ?",
+   "Comment Lovejoy et Edwards s'entendaient-ils ? Quelle part chacun a-t-il eue dans la rédaction du rapport ?",
+   "Comment a-t-il réagi à la contre-offensive de Holt et à l'accusation d'avoir dépassé son mandat ?",
+   "Le conseil donné à Rice le fut-il en privé ou en séance ? Dans quel ton, et à quel moment précis entre mai et juin ?"
+  ]
+ }
+}

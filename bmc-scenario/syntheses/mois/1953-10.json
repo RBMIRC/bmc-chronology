@@ -1,0 +1,365 @@
+{
+ "passe": "mois",
+ "cle": "1953-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 8517,
+  "sortie": 19924,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1953-10",
+  "session": "Premier trimestre de l'année, en régime trimestriel depuis le passage décidé à l'automne ; la session d'été n'a pas ramené d'étudiants à l'année (EV-06235, EV-06223, EV-06065)",
+  "saison_et_climat": "Automne en montagne, froid qui s'installe ; par nuits très froides, les lodges manquent de chaleur et le charbon s'épuise (EV-06236). Le bois remplace le charbon pour les fours des maisons.",
+  "situation": "Le collège est en repli. Après le passage en trimestres, la baisse des frais, le déménagement vers les cottages et la fermeture du bas du campus, le budget tombe autour de 25 000 $ (synthèse 1953). Le charbon est réservé au seul Studies Building, si bien que les autres bâtiments chauffent au bois débité sur les pentes. La faculté a voté la suppression des bourses de travail (EV-06074), et les départs se succèdent : Natasha Goldowski pour sa petite ferme (EV-06009, RE-02500), Johanna Jalowetz après une tentative de vente de la collection de partitions de son mari (EV-05955). Une quête d'administrateur extérieur auprès de Schram a échoué (EV-05953). Olson dirige de fait le collège depuis 1950 et sera nommé recteur après l'été (EV-06103). Sur le versant littéraire, Creeley est accepté comme éditeur de la future revue et les Maximus Poems 1-10 paraissent (EV-05959, EV-06061).",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Terence Burns",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tom (nom de famille absent des fiches)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Paul Williams",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Karen Karnes",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Seymour Barab",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Merrill",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Connie Olson",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1953-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Paul Williams, revenu évaluer la situation financière du collège, enseigne une classe d'architecture informelle et organise la découpe à la scie circulaire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06224"
+    ]
+   },
+   {
+    "date": "1953-10",
+    "precision": "periode",
+    "ce_qui_arrive": "Corvées de bûcheronnage avec Olson : abattage à une tronçonneuse neuve, débitage du bois pour les fours des maisons, et discussions d'hommes sur Karen Karnes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06235",
+     "EC-02989"
+    ]
+   },
+   {
+    "date": "1953-10",
+    "precision": "periode",
+    "ce_qui_arrive": "Pénurie de charbon : le stock du Studies diminue, plusieurs étudiants dorment dans leurs études, et Tom, Terence et Rumaker se relaient pour le four du Meadows Inn.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06236"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "La faculté vote la suppression des bourses de travail, à l'automne selon la synthèse.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06074"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Natasha Goldowski quitte le collège pour une petite ferme, à l'automne, au terme d'un long conflit remporté par Olson.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06009",
+     "RE-02500"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Johanna Jalowetz part après avoir tenté de vendre la collection de partitions de son mari.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05955"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Incendie du bâtiment Roadside selon Duberman, suivi de démissions (Malrey Few, Flola Shepard, Len Billing). Les fiches de Rumaker situent l'incendie à l'hiver précédent : contradiction non tranchée.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05954",
+     "EV-05915"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Quête vaine d'un administrateur extérieur, Schram, dans un Automat de la 57e Rue.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05953"
+    ]
+   },
+   {
+    "date": "1953-11-05",
+    "precision": "jour",
+    "ce_qui_arrive": "Huss annonce qu'on cesse de payer la cotisation d'accréditation, en renonçant à celle-ci. Date postérieure à octobre, à garder en vue.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06244"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "periode",
+    "ce_qui_arrive": "Fin 1953, la faculté accepte Robert Creeley, encore à Majorque, comme éditeur de la future Black Mountain Review.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05959"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Olson espère 400 à 500 $ par numéro pour une revue censée faire la publicité du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05960"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Jonathan Williams publie les Maximus Poems 1-10, que les étudiants achètent trois dollars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06061"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Rumaker part en auto-stop vers New York, travaille chez Prentice-Hall et loge chez Mary Ann Fretz. La date du départ n'est pas donnée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06067",
+     "EV-06068",
+     "EV-06069"
+    ]
+   }
+  ],
+  "quotidien": "Les journées tournent autour du bois. Le samedi matin, tout le monde alimente la scie circulaire en rondins pour les vieux fours à charbon des cottages (EV-06224). En semaine, des équipes montent avec Olson abattre arbres et troncs morts sur les pentes près de la ferme (EV-06235). La nuit, on surveille le four du Meadows Inn, petite cave en terre où Rumaker craint que la chaudière n'explose, et l'on se réchauffe à la grande cheminée du lobby (EV-06236). Les études servent parfois de dortoirs. Aucune fiche ne décrit l'alimentation, les repas collectifs ou la musique de ce mois.",
+  "tensions": [
+   "Olson, maître de fait et autorité sur les étudiants, pèse sur Rumaker qui dépend de son approbation et lui fait subir des critiques cruelles (EC-02992, EC-02993).",
+   "Le charbon réservé au Studies contre des lodges glacés : le campus qui se ferme installe des inégalités visibles.",
+   "Les corvées et les conversations d'hommes objectivent Karen Karnes ; Burns rêve de la consoler, alors qu'elle vient de se séparer de David (EV-06235, EC-02989).",
+   "Le départ de Natasha Goldowski après sa victoire perdue face à Olson : Rumaker regrette que son exubérance ait manqué au collège comme contrepoids (EV-06009, EC-03002).",
+   "Le repli financier suit une logique d'argent : la ferme hypothéquée à 25 000 $ et la scie circulaire de Williams, l'hiver approchant sans charbon (synthèse 1953).",
+   "La suppression des bourses de travail et l'arrêt de la cotisation d'accréditation annoncé début novembre traduisent une école qui se rétracte (EV-06074, EV-06244).",
+   "Contradiction sur l'incendie du Roadside : Duberman le place à l'automne, Rumaker à l'hiver précédent (EV-05954, EV-05915)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Samedi matin à la scie circulaire",
+    "date": "1953-10",
+    "lieu": "zone ouverte au-delà de Meadows Inn",
+    "personnages": [
+     "Paul Williams",
+     "Rumaker",
+     "étudiants"
+    ],
+    "deroule": "Tôt le samedi, tout le monde alimente la scie en rondins pour les vieux fours à charbon des cottages ; Williams, qui enseigne une classe d'architecture informelle, dirige l'opération. Scène de fraternité fatiguée.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06224"
+    ]
+   },
+   {
+    "titre": "Corvée d'abattage et conversation d'hommes",
+    "date": "1953-10",
+    "lieu": "pentes près de la ferme",
+    "personnages": [
+     "Olson",
+     "Rumaker",
+     "Terence Burns"
+    ],
+    "deroule": "Olson mène les équipes avec une tronçonneuse neuve qui rend les hommes nerveux, lui compris. Entre deux coups, la conversation glisse vers le corps de Karen Karnes ; Burns affirme entendre ses soupirs à travers le mur de son étude et rêve d'aller la consoler.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06235",
+     "EC-02989"
+    ]
+   },
+   {
+    "titre": "Garde de nuit au four du Meadows Inn",
+    "date": "1953-10",
+    "lieu": "cave en terre sous la chambre de Tom, Meadows Inn",
+    "personnages": [
+     "Tom",
+     "Terence Burns",
+     "Rumaker"
+    ],
+    "deroule": "On se relaie pour nourrir la chaudière de bois dans une cave minuscule et claustrophobe, pour pousser la vapeur vers les radiateurs. Rumaker craint que l'antique n'explose ; le simple entretien réchauffe la pièce, et l'on finit à la cheminée du lobby.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06236"
+    ]
+   },
+   {
+    "titre": "Nuit dans l'étude",
+    "date": "1953-10",
+    "lieu": "Studies Building",
+    "personnages": [
+     "plusieurs étudiants"
+    ],
+    "deroule": "Le charbon s'amenuise dans la trémie extérieure ; par nuit très froide, faute de chaleur dans les lodges, plusieurs étudiants dorment sur place. Précarité et camaraderie mêlées.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06236"
+    ]
+   },
+   {
+    "titre": "Le départ de Natasha",
+    "date": null,
+    "lieu": "la petite ferme de Natasha, hors du collège",
+    "personnages": [
+     "Natasha Goldowski",
+     "Olson",
+     "Rumaker"
+    ],
+    "deroule": "Natasha quitte le collège à l'automne pour sa petite ferme, au terme d'un long conflit où Olson l'emporte. Rumaker mesure après coup ce que sa vitalité aurait apporté comme force d'équilibre.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06009",
+     "RE-02500",
+     "EC-03002"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Les corvées d'octobre dans les pentes, où le vent et le bruit des scies ramènent l'auteur à ses débuts",
+    "vers_date": null,
+    "vers": "Son premier automne au collège, où le vent et la musique des chiens de chasseurs formaient le fond sonore",
+    "refs": [
+     "EC-02984"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les corvées avec Olson, où le chef d'équipe devient une figure paternelle pour Rumaker",
+    "vers_date": null,
+    "vers": "L'aube d'hiver de son enfance où son père, en caleçon, ouvrit la fenêtre ébréchée",
+    "refs": [
+     "EC-02904"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les nuits de charbon manquant, quand le feu devient une affaire de survie",
+    "vers_date": null,
+    "vers": "La construction du Quiet House dans les années 1940 par Molly Gregory et Alex Reed, en mémoire d'Eddie Dreier tué sur le campus",
+    "refs": [
+     "EC-02920"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'achat des Maximus Poems 1-10, dans l'année où Williams les publie",
+    "vers_date": null,
+    "vers": "La vente de ces exemplaires des années plus tard, après l'arrêt de l'alcool et des drogues, dans la pauvreté",
+    "refs": [
+     "EC-02986",
+     "EC-02990"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La phrase d'Olson sur le cloacal et le génital, entendue au collège",
+    "vers_date": "1977",
+    "vers": "Le roman de Rumaker A Day and a Night at the Baths, où la scène visionnaire remonte",
+    "refs": [
+     "EC-02905"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'essai sur Bartleby célébré au collège au printemps",
+    "vers_date": "1963",
+    "vers": "Sa publication dans Kulchur 10, à New York",
+    "refs": [
+     "EC-02908"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'idée de Wolpe entendue au collège et enseignée dans la classe de l'année",
+    "vers_date": null,
+    "vers": "La formule « le mensonge de l'imagination » que Rumaker formulera des années plus tard",
+    "refs": [
+     "EC-02916"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le trouble encore sans langage du jeune Rumaker, à la période de ces corvées",
+    "vers_date": null,
+    "vers": "Ce que l'auteur écrira décennies plus tard, sa critique féministe et queer du présent",
+    "refs": [
+     "EC-03007"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1953, date approximative de la fiche, quand Betty Kaiser s'efface derrière Charles",
+    "vers_date": null,
+    "vers": "La mort de Betty Kaiser près de Wyoming, que Rumaker relie au prix payé pour cet effacement ; journaux découverts plus tard",
+    "refs": [
+     "EC-03004"
+    ]
+   }
+  ],
+  "motifs": [
+   "le corps et le désir comme monnaie d'échange entre maîtres et élèves",
+   "Olson en figure paternelle ou tyrannique",
+   "la chaleur comme manque permanent : charbon, bois, four, feu",
+   "la pauvreté et l'écriture : des livres achetés au prix de privations",
+   "Lawrence, père spirituel contesté et objet de vénération",
+   "le mémorial détourné en lieu d'éros (Quiet House)",
+   "l'effacement féminin payé au prix fort (Betty Kaiser)"
+  ],
+  "lacunes": "Aucune date précise d'octobre : toutes les scènes ne sont datées que par plages (EV-06224, EV-06235, EV-06236). Ignorés : la date du vote sur les bourses, celle du départ de Natasha et de Jalowetz, celle du départ de Rumaker pour New York, la présence exacte de Karen Karnes et de Connie Olson, et la date de l'incendie du Roadside, que Duberman place à l'automne et Rumaker à l'hiver précédent. La date de la mort de Betty Kaiser n'est qu'approximative (≈1953-10→1953 dans la fiche). Les fiches ne décrivent ni l'alimentation ni les cours réguliers de ce mois."
+ }
+}

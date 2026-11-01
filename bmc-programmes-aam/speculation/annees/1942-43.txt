@@ -1,0 +1,66 @@
+#annee 1942-43
+#catalogue speculation/catalogues/1942-43.txt 2017.40.020+2017.40.263+2017.40.346+2017.40.087a-c+2017.40.097
+#periodes 08:15,09:20,10:25,11:30 16:00 55
+> ## 1942-43 : le plan des trimestres, une faculté renouvelée par la guerre
+>
+> **Les sources.** Il n'y a pas de catalogue avec cours. Les « Announcements 1942-43 » (2017.40.020) donnent :
+> - le plan accéléré, quatre trimestres de onze semaines ;
+> - les cours nouveaux annoncés (arpentage, secourisme, mécanique automobile, photographie, affaires interaméricaines, histoire de l'Orient, géographie mondiale), sans enseignant ni trimestre.
+>
+> Les présences et une partie des cours viennent des lettres d'information (nov. 1942, janv. et avril 1943) et des bulletins hebdomadaires.
+>
+> **1. Le cadre** (calendrier attesté) :
+> - trimestre d'automne du mardi 29 septembre au 12 décembre 1942 ;
+> - vacances d'hiver du 12 décembre au 5 janvier ;
+> - trimestre d'hiver du mercredi 6 janvier au 20 mars 1943, avec un Interlude sans cours du 15 au 23 février ;
+> - vacances de printemps du 20 au 29 mars ;
+> - trimestre de printemps du 29 mars au 12 juin, avec un Interlude du 17 au 21 mai : seuls la classe Mozart et les classes a cappella ont lieu.
+>
+> L'été 1943 (Summer Quarter, American Seminar, Work Camp) est connu par une grille complète : ses semaines ne sont pas reconstituées.
+>
+> **2. L'horaire.** Les cours commencent à 8 h 15, en périodes de 55 minutes : 8:15, 9:20, 10:25, 11:30 (2017.40.093.01, grille de l'été 1943). La reconstitution suit ces périodes (directive `#periodes`) : une heure de cours au catalogue donne une période, un cours de 3 heures trois périodes (lundi-mercredi-vendredi ou mardi-jeudi-samedi), les laboratoires ont lieu à 16 h.
+>
+> Deux règles sont posées à l'hiver 1943 :
+> - quinze heures de cours au plus par semaine (laboratoire compté pour moitié) ;
+> - au moins trois demi-journées libres pour le travail. La communauté y donne « an average of three or four afternoons per week » (Announcements), environ 3 h 45 par après-midi.
+>
+> **3. Les personnes** :
+> - **restés** : les Albers, Kocher, Jalowetz, Kurtz, Wunsch (recteur), de Graaff, les Straus, Dreier ;
+> - **arrivés** : Frederic Cohen, Fritz Hansgirg, Elsa Kahl, Edward et Gretel Lowinsky, L. B. Voigt, Dorothy Mattison (journalisme) à l'automne ; Anatole Kopp le 7 novembre ; Eric Bentley, Herbert A. Miller et Marianne Kopp à l'hiver ;
+> - **partis** : Evarts (armée, fin octobre 1942) ;
+> - **absents** : Mangold (en congé à Mexico), Radin (malade en Californie) ; Babcock, Boyden, French et les Bergmann sont partis, Carpenter est mort en juillet 1942.
+>
+> **4. Les cours.**
+> - Les cours attestés de l'année sont placés tels quels, souvent avec leur heure, d'après l'horaire spécial du 9 mars 1943 : Seeing Art, Mozart, Shakespeare, Current Affairs, French Classics, chœur, a cappella.
+> - Le reste des enseignants restés reprend la liste de 1940-42 (LISTE_VOISINE).
+> - Les matières sans enseignant (espagnol, économie, biologie générale, gouvernement, psychologie expérimentale) sont retirées.
+>
+> **5. Le rythme de la semaine**, attesté par les bulletins :
+> - faculté le mercredi à 16 h 30 ;
+> - Board of Fellows le jeudi à 17 h ;
+> - résumé des nouvelles le lundi à 18 h 45 ;
+> - émission de radio le dimanche à 19 h 15, et le vendredi à 14 h 30 ;
+> - concert le samedi à 20 h, suivi de danse ;
+> - conférences le mercredi soir ;
+> - au printemps, conférences de la faculté un mercredi sur deux.
+
+S|semaine|||calendrier|Semaine de cours, {terme} (calendrier des trimestres 1942-43 : annonces et bulletins)|||aucun congé attesté dans la semaine|SEMAINE|2017.40.020+2017.40.088a-b
+
+S|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||heure : bulletins de 1943-44 (année voisine)|SEMAINE+VOISIN|2017.40.172a-g
+S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||heure de début : bulletins 1943-44 ; fin non attestée|SEMAINE+VOISIN|2017.40.172a-g
+S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins 1943-44 ; fin non attestée|SEMAINE+VOISIN|2017.40.172a-g
+S|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||usage de 1943-44|SEMAINE+VOISIN|2017.40.172a-g
+S|dim|13:00|14:00|social|Dîner du dimanche|Communauté||usage de 1943-44|SEMAINE+VOISIN|2017.40.172a-g
+S|dim|18:00|18:45|social|Souper du dimanche|Communauté||souper froid le dimanche en 1944, heure non donnée|SEMAINE+VOISIN+HEURE|2017.40.172a-g
+
+S|lun,mer,ven|13:30|17:15|travail|Programme de travail : ferme surtout, construction, entretien, réparations (équipes)|Communauté||« Members of the community now devote an average of three or four afternoons per week to this program » ; « The length of the afternoon work is assumed to be 3 ¾ hours on the job » (oct. 1942) ; jours choisis|SEMAINE+JOUR+HEURE_CADRE|2017.40.020+2017.40.078|fall,winter,spring
+S|lun|18:45|19:00|conference|Résumé et commentaire des nouvelles de la semaine|Communauté|Lobby of North Lodge|« news commentary in the lobby of North Lodge from 6:45 to 7:00 » (oct. 1942) ; le lundi à 18 h 45 dans dix-sept bulletins|SEMAINE|2017.40.078+2017.40.100a-b|fall,winter,spring
+S|mer|16:30|17:45|reunion|Réunion de la faculté (avec les officiers étudiants une semaine sur deux)|Faculty|Kocher Room|faculty meetings du mercredi à 16 h 30 attestés vingt fois en 1942-43 ; fin non attestée|SEMAINE+HEURE_CADRE|2017.40.088a-b+2017.40.100a-b|fall,winter,spring
+S|jeu|17:00|18:00|reunion|Board of Fellows|Board of Fellows|Study 10|réunion du jeudi à 17 h attestée treize fois en 1942-43|SEMAINE|2017.40.088a-b+2017.40.100a-b|fall,winter,spring
+S|dim|19:15|19:45|radio|Émission radio du collège|Radio Committee|Station WWNC, Asheville|émission du dimanche à 19 h 15 attestée dix-sept fois en 1942-43|SEMAINE|2017.40.088a-b+2017.40.100a-b|fall,winter,spring
+S|ven|14:30|15:00|radio|Émission radio du vendredi après-midi : possible|Radio Committee|Station WWNC, Asheville|attestée neuf fois en 1942-43|OCCASION|2017.40.090a-b|fall,winter,spring
+S|sam|20:00|21:30|concert|Concert du samedi soir|Music Department|Dining hall|« Saturday evening concerts » (Newsletter d'avril 1943) ; vingt concerts du samedi à 20 h attestés|SEMAINE|2017.40.022+2017.40.078|fall,winter,spring
+S|sam|21:30|23:30|danse|Danse après le concert|Communauté|Dining hall|« There will be dancing after the concert » (oct. 1942) ; soldats et officiers de Moore General Hospital invités|SEMAINE+HEURE_CADRE|2017.40.078+2017.40.346|fall,winter,spring
+S|mer|20:00|21:00|conference|Conférence du mercredi soir (visiteur ou membre de la faculté) : possible|Communauté|Dining hall|conférences du mercredi à 20 h attestées une quinzaine de fois ; au printemps, conférences de la faculté un mercredi sur deux (Albers, de Graaff, Kocher, Kurtz, Lowinsky, Straus, Voigt)|OCCASION|2017.40.099|fall,winter,spring
+S|dim|19:45|20:45|reunion|Réunion des étudiants : possible|Students|Lobby of North Lodge|réunions d'étudiants le dimanche à 19 h 15 ou le mardi à 19 h|OCCASION+HEURE_CADRE|2017.40.090a-b|fall,winter,spring
+S|mar,ven|20:30|22:00|theatre|Répétition de la pièce en cours|Robert Wunsch; Elsa Kahl||productions : Quare Medicine (7 nov.), Shadow and Substance (déc.), Ethan Frome et Le Malade imaginaire (hiver), Advanced Drama (printemps)|SEMAINE+JOUR+HEURE|2017.40.082+2017.40.087a-c+2017.40.099|fall,winter,spring

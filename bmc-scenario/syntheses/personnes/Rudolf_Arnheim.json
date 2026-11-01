@@ -1,0 +1,140 @@
+{
+ "passe": "personnes",
+ "cle": "Rudolf Arnheim",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3088,
+  "sortie": 5477,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Rudolf Arnheim",
+  "autres_noms": [],
+  "dates_de_vie": "Non données par les fiches. Les seuls repères sont une note à l'auteur du 6 mai 2001, qui prouve qu'il vivait encore à cette date, et une citation datée de façon très large (≈1918→1985), peu utilisable.",
+  "statut_bmc": "Aucune fiche ne le montre au Black Mountain College : ni séjour, ni cours, ni conférence. Il n'y apparaît que par son amitié avec Josef Albers, qui l'accueille à New Haven et l'invite à Yale après avoir quitté le collège. Figure périphérique : il ne peut être placé à Black Mountain sans invention, sauf comme référence théorique, correspondant ou visiteur hors champ. Tout ce qui suit relève du réseau d'Albers.",
+  "presence": [],
+  "portrait_physique": "Rien dans les fiches. Seul le geste d'Albers, qui le prend par le bras sur le quai, suggère un familier qu'on peut toucher et entraîner. Il n'en découle ni taille, ni âge apparent, ni tenue. À inventer en connaissance de cause.",
+  "noyau_psychologique": "Attesté : un théoricien de la perception, rattaché à la psychologie de la Gestalt, convaincu qu'une œuvre d'art tente de résoudre un problème et que, si elle y parvient, sa forme est une gestalt. Il lit l'art par ses tensions visuelles : compression, expansion, convergence. Il est précis jusqu'à relever une erreur de fait chez un ami admiré, le faux « triangle de Goethe ». Déduction prudente : un esprit analytique et exact, qui fait passer l'exactitude avant la déférence sans rompre l'amitié. Les fiches ne disent rien de sa vie intérieure.",
+  "blessures": "Aucune blessure documentée dans les fiches. Ne rien en tirer sans source supplémentaire.",
+  "desirs": "Déduit de ses écrits et de sa lettre : comprendre comment les formes agissent sur le regard, et que le savoir publié soit juste (il écrit à Albers pour faire corriger une erreur). Aucun désir personnel attesté.",
+  "peurs": "Non documentées.",
+  "maniere_d_aimer": "Attesté seulement avec Albers : une amitié faite d'échanges cordiaux et de rencontres ponctuelles. Albers l'attend à la gare, le prend par le bras, lui confie une plaisanterie, l'invite à parler devant ses étudiants. Arnheim répond par une correction écrite, franche et respectueuse. Rien sur sa vie amoureuse ou familiale.",
+  "rapport_au_pouvoir": "Aucun pouvoir institutionnel attesté. Son autorité est intellectuelle : devant les étudiants de Yale, tout le monde le cite, selon Albers. Il corrige un maître sans hauteur ni crainte, et la réponse est immédiate et cordiale.",
+  "voix": {
+   "registre": "Écrit, analytique, descriptif. Il décrit les œuvres par des forces et des mouvements (asymétrie, compression, expansion, convergence des diagonales) et recourt à des comparaisons de peintre, comme le cercueil de la Résurrection de Piero. Registre oral non documenté : ne pas lui prêter d'accent ni de verbe haut sans source.",
+   "tics": "Aucun tic attesté. Déduction à partir de l'écrit : il explique la dynamique d'une forme avant d'en juger la valeur, et il relève les faits inexacts avec politesse.",
+   "exemples_paraphrases": [
+    "Cette asymétrie crée la dynamique du motif : ça s'écrase en bas et ça s'élargit en haut (CI-00292, paraphrase).",
+    "Les diagonales des carrés se rejoignent en un point situé au quart de la hauteur, et ce socle solide fait monter le mouvement (PE-00286, paraphrase).",
+    "Dans votre livre, le triangle de couleurs attribué à Goethe n'existe pas (lettre de mars 1973, EV-08286, paraphrase du contenu)."
+   ]
+  },
+  "habitudes": [
+   "Il écrit des lettres de rectification précises, notamment à Albers en mars 1973 (EV-08286).",
+   "Il donne des conférences devant des étudiants d'art, ici à Yale (EV-01347, SC-00324).",
+   "Il répond à un échange en note ou en lettre : une note à l'auteur est datée du 6 mai 2001 (PE-00286)."
+  ],
+  "convictions": [
+   "Toute vraie œuvre d'art tente la solution d'un problème ; quand elle réussit, sa forme est une gestalt (note à l'auteur, 6 mai 2001, PE-00286).",
+   "L'œuvre se lit par sa structure visuelle et les tensions qu'elle produit : il analyse le rapport 1:2:3 des Homages d'Albers pour montrer comment un cadre et des proportions produisent un mouvement (PE-00286, CI-00292).",
+   "Une référence erronée doit être corrigée, même chez un ami admiré (EV-08286)."
+  ],
+  "arc_bmc": [],
+  "avant": [],
+  "apres": [
+   {
+    "date": "1950",
+    "moment": "Albers l'accueille à la gare de New Haven. Il le prend par le bras et lui confie que, dès son arrivée à Yale, sa première déclaration fut : plus de femmes nues, seulement des carrés. Scène de complicité entre vieux Européens ; Arnheim reçoit une confidence et ne parle pas dans les fiches.",
+    "refs": [
+     "SC-01289",
+     "SC-01290",
+     "EV-05019",
+     "EV-05018",
+     "RE-02037",
+     "RE-02038"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Albers l'invite à parler aux étudiants d'art de Yale et le présente avec humour : tant d'entre eux le citent qu'il en a assez et préfère en finir. Rires dans la salle. Date très incertaine (≈1928→1965, fourchette de la fiche) : le seul indice est le cadre des années Yale d'Albers.",
+    "refs": [
+     "EV-01347",
+     "SC-00324",
+     "RE-00529"
+    ]
+   },
+   {
+    "date": "1973-03",
+    "moment": "Il écrit à Albers pour signaler que le « triangle de Goethe » cité dans Interaction of Color n'existe pas. Albers répond tout de suite, cordialement, reconnaît avoir été mal informé et promet de faire retirer les références à Goethe et de renommer le triangle dans la seconde édition de poche. Compte rendu dans Leonardo, 1982.",
+    "refs": [
+     "EV-08286",
+     "RE-03163",
+     "PE-00286"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Dans The Power of the Center, il analyse le rapport 1:2:3 des Homages d'Albers : asymétrie, compression vers le bas, expansion vers le haut, diagonales convergeant au quart de la hauteur. Date de rédaction ou de publication non donnée.",
+    "refs": [
+     "PE-00286",
+     "CI-00292"
+    ]
+   },
+   {
+    "date": "2001-05",
+    "moment": "Dans une note à l'auteur, il formule sa conviction sur l'œuvre d'art comme solution d'un problème et la gestalt comme forme réussie.",
+    "refs": [
+     "PE-00286"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Admiration puis amitié (les fiches distinguent les deux pour une même scène). Albers est le pédagogue qui l'invite, l'accueille et le plaisante ; Arnheim est son lecteur et son analyste, et peut aussi le corriger.",
+    "evolution": "Années 1950 : accueil chaleureux à la gare, avec une confidence qui traduit la confiance. Années Yale (date incertaine) : Albers le présente à ses étudiants avec une autodérision affectueuse. 1973 : relation de pairs, où Arnheim corrige Albers sans froisser et où Albers cède de bonne grâce. Dans The Power of the Center (date inconnue), Arnheim analyse en profondeur les Homages d'Albers.",
+    "refs": [
+     "RE-00529",
+     "RE-02037",
+     "RE-02038",
+     "RE-03163",
+     "SC-01289",
+     "SC-00324",
+     "EV-08286",
+     "PE-00286"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Une même scène (la gare de New Haven, 1950) est classée « admiration » dans RE-02037 et « amitié » dans RE-02038 : à trancher selon l'effet voulu.",
+   "Datation : EV-05018 parle de « années 1950 » et mêle l'accueil à la gare à une remarque faite en septembre 1956 au cours de Basic Drawing, alors que SC-01289, SC-01290, EV-05019 et RE-02037 datent la gare de 1950. À traiter comme deux moments distincts, ou à rester dans le vague.",
+   "Conséquence de l'échange de 1973 : RE-03163 dit qu'Albers « fait corriger l'ouvrage », alors que EV-08286 dit seulement qu'il promet d'ordonner à son éditeur de retirer les références et de renommer le triangle dans la seconde édition de poche. La correction effective est donc affirmée dans une fiche et seulement promise dans l'autre.",
+   "SC-01290 contient une atmosphère peu lisible (« laitage d'un vieil homme »), vraisemblablement une coquille : ne pas s'en servir.",
+   "PE-00286 est marquée d'une date « ≈? » et CI-00292 d'une fourchette très large (≈1918→1985) : leurs dates ne servent à rien."
+  ],
+  "situations_revelatrices": [
+   "Une rencontre sur un quai de gare, où un ami plus âgé le saisit par le bras et lui confie une boutade sur son travail : lui sert de confident, non de protagoniste.",
+   "Une présentation à des étudiants où son nom est devenu un lieu commun : comment réagit un auteur cité par tous, devant l'ironie de son hôte ?",
+   "Une lettre de rectification à un ami admiré : la politesse du savant exact, l'attente de la réponse.",
+   "Une lecture d'œuvre devant un tableau d'Albers : le regard décrit des forces avant de dire si c'est beau.",
+   "Un échange sur un fait faux dans un livre : ce qu'il tolère en amitié et ce qu'il refuse en matière de savoir."
+  ],
+  "citations": [
+   "CI-00292 : « This asymmetry produces the dynamics of the theme, a squeezing below, an expansion above » (Arnheim, The Power of the Center, sur les Homages d'Albers). Fr. : cette asymétrie produit la dynamique du thème, une compression en bas, une expansion en haut.",
+   "SC-00324 / EV-01347 : Albers, en le présentant à Yale : « So many of you quote Mr. Arnheim that I got sick and tired of it, and thought we might as well get it over with. So, here he is. » (parole d'Albers, non d'Arnheim).",
+   "SC-01289 : Albers à Arnheim : « Listen, you know, when I came to Yale, the first thing I said was: 'No longer any naked women—only squares!' » (parole d'Albers, non d'Arnheim).",
+   "PE-00286 : note à l'auteur du 6 mai 2001 : toute vraie œuvre d'art tente la solution d'un problème ; quand elle réussit, sa forme est une gestalt (paraphrase)."
+  ],
+  "questions_ouvertes": [
+   "A-t-il jamais mis les pieds à Black Mountain, ou connu le collège par Albers seulement ? Aucune fiche ne le dit.",
+   "Où, quand et comment est-il né, a-t-il vécu, enseigné et écrit ? Les fiches ne donnent aucune biographie.",
+   "Quand exactement a-t-il parlé à Yale, et quel était le sujet de sa conférence ?",
+   "Quand et comment a-t-il connu Albers ? La relation commence-t-elle avant le départ d'Albers de Black Mountain ?",
+   "Qu'a-t-il répondu de vive voix à Albers sur le quai ? Les fiches ne rapportent que la parole d'Albers.",
+   "Quelle est la date de The Power of the Center, et jusqu'où va son analyse des Homages ?",
+   "Quel est son caractère hors des textes : humour, accent, habitudes, tenue, vie privée ?",
+   "Qui, dans la sphère de Black Mountain autre qu'Albers, l'a lu ou cité ?"
+  ]
+ }
+}

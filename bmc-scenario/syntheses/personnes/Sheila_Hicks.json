@@ -1,0 +1,200 @@
+{
+ "passe": "personnes",
+ "cle": "Sheila Hicks",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3049,
+  "sortie": 5665,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Sheila Hicks",
+  "autres_noms": [],
+  "dates_de_vie": "Non données dans les fiches. Elle est étudiante d'Albers à Yale dans les années 1950 et reste active comme artiste textile jusqu'aux années 1980 au moins (EV-08076).",
+  "statut_bmc": "Aucune fiche n'atteste qu'elle ait séjourné à Black Mountain College. Elle appartient au cercle des Albers (amie et disciple d'Anni, élève de Josef) et se situe surtout à Yale et au Chili. Le lien avec BMC passe par l'enseignement d'Albers : une fiche rattache l'exercice des enveloppes à BMC et à Yale (OE-00942), mais ce lien concerne l'exercice, pas sa présence. Pour le scénario, c'est un personnage de prolongement : elle montre ce que devient la pédagogie de BMC après 1949-1950, à Yale et en Amérique latine.",
+  "presence": [],
+  "portrait_physique": "Aucune description physique dans les fiches. À inventer librement, sans l'attribuer aux sources.",
+  "noyau_psychologique": "Attesté : une volonté d'indépendance (faire son travail sans compter sur personne) et un refus d'être happée par les querelles académiques. Elle veut vivre là où l'art peut se produire, et non enseigner (PE-00185, EV-07011). Elle a appris d'Albers à être articulée et claire. Déduit : une observatrice lucide, sensible à la cruauté des rapports de pouvoir entre maîtres, qui en tire une leçon de survie plutôt qu'un parti. La couleur est pour elle une passion partagée avec ses aînés (PE-00185).",
+  "blessures": "Non dites. La fiche la montre choquée, non blessée elle-même, par la dureté d'Albers envers Lebrun (SC-01883). Le scénariste peut en déduire une aversion pour les guerres de chapelle, mais les sources ne parlent d'aucune blessure intime.",
+  "desirs": "Attesté : une atmosphère où l'art peut se produire, de l'autonomie, et ne pas enseigner (PE-00185). Elle promeut aussi le contact entre l'école d'art chilienne et Albers depuis le Chili (EV-06991, RE-02820). Déduit : elle aime relier les gens et les lieux, sans s'enfermer dans une institution.",
+  "peurs": "Non dites. Indirectement : être absorbée par les conflits académiques ou dépendre des autres (EV-07011, PE-00185).",
+  "maniere_d_aimer": "Elle est amie et disciple des Albers, ce qui suppose une loyauté d'élève et une vraie intimité avec Anni (RE-00021, RE-01921). Elle reste pourtant capable d'affection pour Lebrun, qu'elle trouve chaleureux : un être humain qui ouvre les yeux sur l'humanité, proche de sa femme et de lui (RE-02829). Elle ne choisit donc pas un camp par fidélité aveugle. Déduit : l'amitié passe chez elle par l'admiration et l'attention, non par l'allégeance.",
+  "rapport_au_pouvoir": "Elle voit le pouvoir des maîtres de près : l'ignorance délibérée d'Albers envers Lebrun sur l'escalier lui semble blessante (SC-01883). Elle en tire une règle personnelle : ne jamais enseigner ni se laisser prendre dans les conflits académiques (EV-07011). Elle agit pourtant en intermédiaire efficace, puisqu'elle favorise le contact Larraín-Albers pour la nouvelle école d'art au Chili (EV-06991).",
+  "voix": {
+   "registre": "Claire et articulée, ce qu'elle dit tenir d'Albers (PE-00185). Les citations rapportées sont des souvenirs d'observatrice, imagés et sans emphase.",
+   "tics": "Les fiches ne donnent aucun tic de langage avéré. Une tendance : elle personnifie l'absence (« son fantôme dans chaque coin ») et pose des questions rhétoriques sur la cruauté des gestes (SC-01883, CI-03486).",
+   "exemples_paraphrases": [
+    "Albers et Lebrun n'avaient aucun terrain d'entente, même pas pour se saluer (CI-02093).",
+    "À son retour à Yale en 1958, elle sent encore le fantôme d'Albers dans tous les coins, et Lebrun s'y sent déplacé (CI-03486).",
+    "Comment peut-il être si blessant avec un homme d'une cordialité si expansive ? (SC-01883)"
+   ]
+  },
+  "habitudes": [
+   "Exercices de dessin de Basic Drawing : études d'enveloppes, « mirror writing » (PE-00185, OE-00942).",
+   "Voyage et travail à l'étranger : un an au Chili avec une bourse Fulbright, vers 1957-1958 (PE-00185).",
+   "Travail dans l'aire textile de l'atelier Huaquén, à Santiago (PE-00185, EV-06991).",
+   "Observation silencieuse des tensions entre maîtres, dont elle garde le souvenir précis (SC-01883, CI-02093)."
+  ],
+  "convictions": [
+   "L'indépendance : faire son travail sans compter sur personne (PE-00185).",
+   "Ne pas enseigner et ne pas se laisser prendre dans les conflits académiques (EV-07011, PE-00185).",
+   "La couleur est une passion partagée entre générations, ici entre Albers et Barragán (PE-00185).",
+   "Une atmosphère propice à la création compte plus que l'institution (PE-00185)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1950",
+    "moment": "Étudiante d'Albers à Yale : couleur, peinture, Basic Drawing (enveloppes, écriture en miroir). Elle devient amie et disciple d'Anni et de Josef.",
+    "etat_interieur": "Attention d'élève et admiration pour les Albers. Elle apprend la clarté et l'articulation. Déduit : elle cherche déjà un lieu où l'art peut se produire.",
+    "refs": [
+     "RE-01921",
+     "PE-00185",
+     "OE-00942"
+    ]
+   },
+   {
+    "date": "1957/1958",
+    "moment": "Année au Chili (bourse Fulbright, date approximative), travail dans l'aire textile de l'atelier Huaquén ; elle pousse Larraín à reprendre contact avec Albers pour l'école d'art de la PUC.",
+    "etat_interieur": "Elle est autonome et sert d'intermédiaire entre mondes. Elle pense encore en élève des Albers, mais elle agit seule.",
+    "refs": [
+     "PE-00185",
+     "EV-06991",
+     "RE-02820"
+    ]
+   },
+   {
+    "date": "1958",
+    "moment": "Retour à Yale à l'automne. Elle trouve la présence de Lebrun (invité par le doyen Danes) face à l'ombre d'Albers ; elle voit l'escalier où Albers détourne la tête.",
+    "etat_interieur": "Choc devant la cruauté entre deux hommes. Elle est partagée entre admiration pour Albers, affection pour Lebrun et rejet de la guerre qui pèse sur les étudiants. Elle en tire sa leçon d'indépendance.",
+    "refs": [
+     "CI-03486",
+     "EV-07011",
+     "SC-01883",
+     "RE-02829",
+     "CI-02093"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "années 1950",
+    "moment": "Elle étudie la couleur et la peinture avec Josef Albers à Yale. Elle dessine des enveloppes dans le Basic Drawing et pratique l'écriture en miroir.",
+    "refs": [
+     "PE-00185",
+     "RE-01921",
+     "OE-00942"
+    ]
+   },
+   {
+    "date": "1957/1958",
+    "moment": "Année au Chili avec une bourse Fulbright (date approximative). Elle y travaille dans l'aire textile du taller Huaquén.",
+    "refs": [
+     "PE-00185",
+     "EV-06991"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "fin des années 1950",
+    "moment": "Rencontre avec Luis Barragán ; la couleur est une passion partagée entre lui et Albers.",
+    "refs": [
+     "PE-00185"
+    ]
+   },
+   {
+    "date": "1969/1981",
+    "moment": "Elle expérimente les fils comme méthode sculpturale alternative, vers la même époque qu'Eva Hesse, et compte parmi les figures du fiber art. Les fiches disent seulement que le lien avec On Weaving d'Anni Albers est possible ou non.",
+    "refs": [
+     "EV-08076",
+     "EC-00528"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Elle est citée parmi les tisserands contemporains dans une chaîne de transmission qui remonte aux textiles péruviens anciens, les « grands maîtres » d'Anni Albers.",
+    "refs": [
+     "EC-00721"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Anni Albers",
+    "nature": "Mentorat et amitié. Hicks est amie et élève d'Anni.",
+    "evolution": "Les fiches ne donnent pas d'évolution datée. Plus tard, elles rapprochent leurs univers textiles (fiber art, textiles péruviens).",
+    "refs": [
+     "RE-00021",
+     "RE-01921",
+     "EC-00721"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Maître et élève à Yale, puis alliée à distance dans le projet chilien.",
+    "evolution": "D'élève, elle devient intermédiaire auprès de l'école d'art de la PUC (1958) ; elle observe aussi son côté dur envers Lebrun.",
+    "refs": [
+     "RE-02820",
+     "PE-00185",
+     "EV-06991",
+     "SC-01883"
+    ]
+   },
+   {
+    "avec": "Rico Lebrun",
+    "nature": "Amitié chaleureuse. Lebrun est ouvert à l'humanité et proche de sa femme.",
+    "evolution": "Née en 1958 et contemporaine de la guerre avec Albers ; elle ne choisit pas entre eux mais en tire une leçon.",
+    "refs": [
+     "RE-02829",
+     "EV-07011",
+     "CI-02093"
+    ]
+   },
+   {
+    "avec": "Larraín (école d'art de la PUC)",
+    "nature": "Relais : elle encourage le contact avec Albers.",
+    "evolution": "En 1958, Larraín redemande des conseils pédagogiques à Albers ; l'issue passe par l'abstraction et une première année commune.",
+    "refs": [
+     "EV-06991"
+    ]
+   },
+   {
+    "avec": "Luis Barragán",
+    "nature": "Rencontre et partage autour de la couleur.",
+    "evolution": "Elle le rencontre à la fin des années 1950, sans autre détail dans les fiches.",
+    "refs": [
+     "PE-00185"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Ancrage BMC : OE-00942 attache l'exercice des enveloppes à BMC et à Yale, mais les fiches montrent Hicks à Yale. Il ne faut pas en déduire sa présence à BMC.",
+   "Dates : CI-02093 est daté ≈1948→1958 alors que le conflit Albers-Lebrun se situe à Yale en 1958 ; la fourchette est large et vague. L'œuvre OE-00942 (≈1933→1956) donne aussi la durée de BMC, non la date de l'œuvre de Hicks.",
+   "Chronologie 1958 : l'année au Chili est approximative (≈1957-1958) et elle est décrite à la fois en action là-bas (EV-06991, juin 1958 pour Piwonka) et de retour à Yale à l'automne 1958 ; cela reste compatible mais l'ordre précis n'est pas établi.",
+   "RE-00021 est daté ≈1888→1968 : cela correspond à la vie d'Anni Albers et ne renseigne pas sur Hicks.",
+   "Le lien entre Hicks et On Weaving est incertain pour l'auteur lui-même : peut-être connu, peut-être non (EV-08076)."
+  ],
+  "situations_revelatrices": [
+   "L'escalier de Yale : Albers fait semblant de ne pas voir Lebrun, et elle observe avec les autres étudiants (SC-01883).",
+   "Le cours de dessin de base : écrire en miroir, dessiner des enveloppes, apprendre la clarté.",
+   "Une conversation au Chili où elle pousse un directeur d'école à écrire à son ancien maître (EV-06991).",
+   "Un atelier textile où l'on travaille sans appui extérieur (PE-00185).",
+   "Un retour dans un lieu hanté par le maître absent (CI-03486)."
+  ],
+  "citations": [
+   "CI-02093",
+   "CI-03486",
+   "SC-01883"
+  ],
+  "questions_ouvertes": [
+   "A-t-elle jamais séjourné à Black Mountain College, même brièvement ? Les fiches ne le disent pas.",
+   "Ses dates de vie, sa formation avant Yale et sa famille.",
+   "Les dates exactes de la bourse Fulbright au Chili et de son retour à Yale.",
+   "Comment est-elle devenue amie d'Anni et de Josef Albers, et à quel moment ?",
+   "Sa rencontre avec Barragán : où, quand, dans quelles circonstances ?",
+   "Quel rapport entretient-elle avec On Weaving et les textiles péruviens ?",
+   "Pourquoi refuse-t-elle d'enseigner, au-delà de la leçon de 1958 ?"
+  ]
+ }
+}

@@ -1,0 +1,240 @@
+{
+ "passe": "mois",
+ "cle": "1945-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3809,
+  "sortie": 10096,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1945-09",
+  "session": "Trimestre d'automne 1945, rentrée qui suit les instituts d'été",
+  "saison_et_climat": "Automne 1945 à Lake Eden, dans les montagnes de Caroline du Nord. Les fiches ne décrivent ni le temps ni la lumière de ce mois : la fraîcheur qui s'installe après la chaleur des instituts est une déduction générale, non attestée.",
+  "situation": "Le collège repart après la scission de 1944 et l'été des instituts. Neuf nouveaux enseignants, huit jeunes Américains avec leurs enfants, arrivent à l'automne, et le collège est agréé pour le GI Bill. Il s'ouvre aux Noirs : Sylvesta Martin devient première étudiante noire à plein temps, et Percy H. Baker, du Virginia State College, enseigne la biologie comme chargé de cours invité, payé 700 dollars par le Rosenwald Fund. En protestation, l'avocat R. R. Williams quitte le conseil consultatif. Wunsch est parti en juin et le rectorat est vacant de fait ; Albers est soit déjà recteur, soit pas encore, selon les sources. Wallen, engagé après la rumeur d'« instabilité nerveuse », donne des cours. La polarisation entre Wallen (l'art au service de la communauté) et Albers (l'atelier et la matière) s'amorce.",
+  "presents_probables": [
+   {
+    "nom": "John Wallen",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rachel Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Percy H. Baker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Sylvesta Martin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bill Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Niebyl",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Les trois disciples de Niebyl",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Herbert Miller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Croisière orageuse vers Provincetown : Elaine de Kooning part avec Bill Hardy, la tempête secoue le bateau, et elle ne rentre qu'en début décembre, ce qui met Bill en fureur. La date et le caractère platonique de l'épisode sont contestés.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03802",
+     "SC-00968"
+    ]
+   },
+   {
+    "date": "1945-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Sylvesta Martin devient première étudiante noire à plein temps. Percy H. Baker enseigne la biologie comme chargé de cours invité, avec un salaire de 700 dollars versé par le Rosenwald Fund.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03803"
+    ]
+   },
+   {
+    "date": "1945-09",
+    "precision": "saison",
+    "ce_qui_arrive": "Arrivée des neuf nouveaux enseignants, dont les Wallen, Bill Levi, M.C. Richards, Niebyl avec trois disciples, Baker. Weitzer arrive sans mobilier et suspend son bureau-sandwich au plafond de l'atelier de menuiserie.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1945-09",
+    "precision": "saison",
+    "ce_qui_arrive": "John Wallen donne deux cours sans manuel, dont un séminaire où l'on nomme la dynamique du groupe.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les chorales de Bach de Jalowetz, qui durent deux à trois heures, rythment sans doute les semaines, comme au printemps. Les repas gardent leur rituel de chants qui passent de table en table, et il n'y a pas de couvre-feu. L'atelier de menuiserie, l'imprimerie et les cours de Baker et des Wallen occupent les journées. Le Music Cubicle dessiné par Beidler est en service (déduction). Le collège vit en autarcie relative, dans la même dépendance aux instituts d'été et aux subventions.",
+  "tensions": [
+   "Wallen contre Albers : l'art au service de la communauté contre l'atelier et la matière, polarisation qui commence à l'automne",
+   "La question raciale : l'entrée de Martin et l'engagement de Baker provoquent la démission de R. R. Williams, et la faculté reste divisée depuis 1944",
+   "Le silence sur l'affaire Wunsch : la faculté a interdit d'informer les étudiants, les remords ne sont pas encore nés, et les versions divergent sur les motifs du départ",
+   "Le rectorat est sans titulaire clair : Chaddock dit qu'Albers est élu peu après juin 1945, d'autres fiches placent son rectorat en 1948",
+   "La croisière d'Elaine de Kooning : sa date et le caractère platonique de l'épisode sont contestés, et le couple se fracture",
+   "La rumeur d'« instabilité nerveuse » contre Wallen, vérifiée puis jugée fausse, laisse des traces dans la faculté",
+   "Les dates d'arrivée de Sylvesta Martin divergent selon les sources"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La tempête vers Provincetown",
+    "date": "1945-09",
+    "lieu": "en mer vers Provincetown",
+    "personnages": [
+     "Elaine de Kooning",
+     "Bill Hardy"
+    ],
+    "deroule": "Départ impulsif en voilier. La nuit, la tempête secoue le bateau, Elaine se réveille sur le plancher qui fuit de la cabine, et elle découvre que Hardy n'a jamais navigué. Elle le qualifiera plus tard de « pain in the neck ». La fugue blesse Bill et ne s'achève qu'en décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00968"
+    ]
+   },
+   {
+    "titre": "Le premier cours de biologie de Baker",
+    "date": "1945-09",
+    "lieu": null,
+    "personnages": [
+     "Percy H. Baker",
+     "Sylvesta Martin"
+    ],
+    "deroule": "Un enseignant noir fait cours à une faculté et à des étudiants blancs pour la première fois, le trimestre d'automne, avec le salaire du Rosenwald Fund en toile de fond. Scène déduite des fiches, sans détail sur son déroulement.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03803"
+    ]
+   },
+   {
+    "titre": "Démission de R. R. Williams",
+    "date": "1945-09",
+    "lieu": "Asheville",
+    "personnages": [
+     "R. R. Williams"
+    ],
+    "deroule": "L'avocat du collège quitte le conseil consultatif en protestation contre l'entrée d'un enseignant noir. Il ne veut pas appartenir à une institution contraire à « l'opinion publique éclairée de Caroline du Nord ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03803"
+    ]
+   },
+   {
+    "titre": "Séminaire de Wallen sur la dynamique du groupe",
+    "date": "1945-09",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Wallen"
+    ],
+    "deroule": "Wallen enseigne sans manuel. Dans son séminaire, on met des mots sur la dynamique du groupe, ce qui touche à la polarisation avec Albers. Scène déduite du résumé de l'automne.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Septembre, dans la vie du collège reconstruit ; la mémoire de juin pèse sur la faculté",
+    "vers_date": "1945-06",
+    "vers": "La nuit où Wunsch revient chercher ses affaires à une heure du matin, et Molly Gregory qui entend ses petits pas sans oser descendre l'aider. La faculté se tait ensuite.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Septembre, dans les cours de Baker et de Wallen, face aux étudiants d'été",
+    "vers_date": "1945",
+    "vers": "Le récital de Roland Hayes en été, devant environ 400 personnes dont 30 à 40 Noirs, sans incident : le test de l'intégration déjà passé.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Septembre, quand Elaine est en mer",
+    "vers_date": "1945-12",
+    "vers": "Le retour d'Elaine de Kooning en début décembre, la fureur de Bill Hardy et l'article de Stuart Davis qu'elle écrit cette année-là, salué par Denby.",
+    "refs": [
+     "EV-03802",
+     "SC-00968"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne, quand Albers et Wallen se disputent déjà l'art et la communauté",
+    "vers_date": "1945-12",
+    "vers": "L'article « Art at Black Mountain College » qu'Albers rédige en décembre, pendant que la polarisation devient une ligne de partage durable.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne, à l'arrivée de Wallen et de sa famille",
+    "vers_date": "1947",
+    "vers": "La querelle Wallen contre Albers, qui court jusqu'en 1947, et la fin de la reconstruction de 1944-1945.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne, quand les de Kooning sont encore à New York",
+    "vers_date": null,
+    "vers": "L'expulsion du couple de son atelier de la 22e Rue et leur déménagement au 63 Carmine Street.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne, quand Rauschenberg est démobilisé et retrouve sa famille à Lafayette",
+    "vers_date": "1948",
+    "vers": "L'arrivée de Rauschenberg à BMC, qui ne se produit qu'en 1948.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "Le silence et la honte : l'affaire Wunsch, la faculté qui se tait, les remords qui viendront plus tard",
+   "Les premiers pas de l'intégration, avec la difficulté de l'accueil et la démission de Williams",
+   "La fracture entre art et communauté, Wallen contre Albers",
+   "La fugue en mer, qui met le couple de Kooning à l'épreuve et prépare une crise",
+   "Le collège comme communauté qui reconstruit son identité sur des ruines"
+  ],
+  "lacunes": "Les fiches ne donnent aucun jour précis pour ce mois, et le climat n'est pas documenté. Les dates d'arrivée de Sylvesta Martin divergent entre sources, et la date exacte de la croisière d'Elaine est contestée. On ignore si Albers est déjà recteur, la fiche de Chaddock s'opposant à celles qui datent son rectorat de 1948. Le lieu précis des cours de Baker, l'ordre d'arrivée des neuf enseignants et la présence effective de Lowinsky, Jalowetz, Dreier et Molly Gregory à la rentrée ne sont pas attestés. Les fiches n'ont pas d'identifiant pour la synthèse de 1945, ce qui limite les références."
+ }
+}

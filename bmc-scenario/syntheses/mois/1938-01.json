@@ -1,0 +1,254 @@
+{
+ "passe": "mois",
+ "cle": "1938-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4345,
+  "sortie": 12657,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1938-01",
+  "session": "hiver 1937-1938, au cœur de l'année académique 1937-1938, après les fêtes de Noël",
+  "saison_et_climat": "Hiver. Les fiches ne décrivent ni le temps ni la lumière du campus ce mois-ci.",
+  "situation": "Le collège traverse une crise de confiance née de la liaison présumée entre Rice et Alice. Après Noël, Rice s'est retiré dans son study. Les membres de la communauté se partagent entre répulsion et sympathie, et les vieux griefs refont surface. Le 28 janvier, Albers écrit à Rice que la perte de confiance menace l'existence du collège, et il pose un ultimatum : aucune levée de fonds personnelle tant que Rice restera. La matérialité de la liaison reste floue, et les rumeurs grossissent au Nord. La négociation du congé de Rice n'aura lieu qu'en mars, mais la crise est déjà ouverte en janvier.",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Alice (étudiante)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold (secrétaire)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier (trésorier)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Portell-Vila (exilé cubain)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Schawinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiant masculin anonyme (SC-00732)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "un membre de la faculté non nommé, qui doute de la réalité de la liaison",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1938-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Après Noël, Rice se retire dans son study, boude et fume sa pipe. L'infatuation de la communauté pour Alice retombe quand elle préfère un autre étudiant, mais l'indignation demeure et rouvre les vieux griefs.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02832"
+    ]
+   },
+   {
+    "date": "1938-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice explique à un étudiant qu'Alice doit « s'épanouir » : il la connaît mieux que les autres, elle a besoin d'être mise en valeur.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00732"
+    ]
+   },
+   {
+    "date": "1938-01-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers écrit à Rice que les critiques de la faculté sont sérieuses, qu'elles viennent même de ceux qui l'avaient soutenu, et qu'elles menacent l'existence du collège par la perte de confiance qu'elles traduisent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02833"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Albers pose un ultimatum : aucune levée de fonds personnelle tant que Rice reste au collège. La fiche ne date pas cet ultimatum, qui est placé dans l'hiver.",
+    "certitude": "atteste",
+    "refs": [
+     "RE-00985"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Les rumeurs sur Rice et Alice grossissent au Nord, et Rice parle de « panique et quasi-folie ». La date n'est pas précisée.",
+    "certitude": "atteste",
+    "refs": [
+     "CI-01449"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Début de la liaison entre Rice et Alice : les sources divergent. Mi-hiver 1938 selon RE-01062, rumeurs dès l'automne 1937 selon CF-00281 et EC-01567. La matérialité reste floue : le récit de Nell surprenant le couple n'est qu'un double oui-dire.",
+    "certitude": "probable",
+    "refs": [
+     "RE-01062",
+     "CF-00281",
+     "EC-01567",
+     "SC-00686"
+    ]
+   }
+  ],
+  "quotidien": "Peu de matière sur la vie ordinaire en janvier : les fiches ne décrivent ni travaux, ni repas, ni musique, ni cours. On sait que Rice reste reclus dans son study, que des étudiants marchent avec lui sur les chemins du campus, et que la communauté commente sans cesse la liaison et la rupture de confiance.",
+  "tensions": [
+   "Rice contre la communauté : répulsion et sympathie se partagent les membres, et l'indignation rouvre les griefs anciens (piques contre le jeune économiste, plaisanterie Bacardi qui a fâché Portell-Vila, décisions unilatérales).",
+   "Rice contre Albers : l'hostilité grandit après la liaison, et l'ultimatum sur les levées de fonds rend le conflit public.",
+   "Discours et réalité : Rice présente Alice comme une jeune femme qui doit « s'épanouir » sous son regard, alors que l'affaire naissante inquiète la faculté.",
+   "Rumeur contre preuve : un membre de la faculté doute encore que la liaison ait été réelle, tandis que les rumeurs gagnent le Nord.",
+   "Confiance contre existence : Albers affirme que la perte de confiance met en danger le collège lui-même."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Marche sur les chemins : « elle doit s'épanouir »",
+    "date": "1938-01",
+    "lieu": "Black Mountain College, les chemins du campus",
+    "personnages": [
+     "John Andrew Rice",
+     "étudiant masculin anonyme"
+    ],
+    "deroule": "Rice marche avec un étudiant et explique qu'il connaît Alice mieux que les autres, qu'elle a besoin d'être mise en valeur et de se sentir importante, et qu'avec un peu d'attention elle va s'épanouir. Le ton est paternel, presque celui d'un bon père de famille, mais le désir affleure sous le discours de mentor.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00732"
+    ]
+   },
+   {
+    "titre": "Rice dans son study après Noël",
+    "date": "1938-01",
+    "lieu": "study de Rice, Black Mountain College",
+    "personnages": [
+     "John Andrew Rice"
+    ],
+    "deroule": "Rice s'enferme, boude et tète sa pipe. Le collège se divise autour de lui entre répulsion et sympathie. La scène peut montrer le retrait d'un homme qui n'est plus le centre de la communauté.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02832"
+    ]
+   },
+   {
+    "titre": "La lettre d'Albers",
+    "date": "1938-01-28",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "John Andrew Rice"
+    ],
+    "deroule": "Albers écrit à Rice que les critiques de la faculté sont graves, qu'elles viennent de ceux qui l'avaient soutenu, qu'elles menacent le collège et que la confiance est perdue. Il ne peut les balayer par des discussions dialectiques.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02833"
+    ]
+   },
+   {
+    "titre": "L'ultimatum de Albers",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "John Andrew Rice"
+    ],
+    "deroule": "Albers pose une condition : tant que Rice reste, aucune levée de fonds personnelle. La scène peut se jouer en confrontation ou par écrit, la fiche ne précise pas la forme.",
+    "certitude": "atteste",
+    "refs": [
+     "RE-00985"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Après Noël 1937, quand Rice boude et que les griefs remontent",
+    "vers_date": "1937",
+    "vers": "Les rumeurs de l'automne 1937 sur la liaison, les piques de Rice contre le jeune économiste, et les décisions unilatérales qui ont mis la communauté en colère.",
+    "refs": [
+     "CF-00281",
+     "EC-01567",
+     "EV-02644",
+     "EV-02645",
+     "CF-00276"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La lettre d'Albers du 28 janvier et son ultimatum",
+    "vers_date": "1938-03-03",
+    "vers": "Négociation avec Mangold et Dreier d'un congé de Rice jusqu'au 1er mai, décidé sans consulter les étudiants. La communauté décide qu'Alice ne doit pas être pénalisée.",
+    "refs": [
+     "EV-02837",
+     "EV-02835",
+     "SC-00733"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La crise de confiance de janvier",
+    "vers_date": "1938-04-13",
+    "vers": "Chaddock fait démissionner Rice de son rectorat après le rejet de sa demande d'abréger le congé. Les sources ne concordent pas : Duberman place la lettre de Rice à la mi-avril, et le vote dix jours plus tard.",
+    "refs": [
+     "EV-02840",
+     "EV-02839",
+     "EV-02841"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La liaison et la rupture de confiance qui s'installent en janvier",
+    "vers_date": "1938-05",
+    "vers": "Danse Macabre de Schawinsky est donnée en mai : théâtre en rond, spectateurs masqués et encapuchonnés, partition d'Evarts.",
+    "refs": [
+     "EV-02846",
+     "EV-02817",
+     "EV-02765"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Rice dans les mois qui suivent la crise de janvier",
+    "vers_date": "1938",
+    "vers": "À l'automne, Rice revient en existence fantomatique à Lee Hall, écrit son autobiographie et reçoit sur rendez-vous ses soutiens et les étudiants de son séminaire.",
+    "refs": [
+     "EV-02851",
+     "EV-02852",
+     "SC-00729"
+    ]
+   }
+  ],
+  "motifs": [
+   "mentor et protégée",
+   "confiance comme ressource du collège",
+   "rumeur contre preuve",
+   "pouvoir exercé sans consulter les étudiants",
+   "exil et appartenance"
+  ],
+  "lacunes": "Date exacte de l'ultimatum d'Albers. Date exacte du début de la liaison : mi-hiver 1938 ou automne 1937. Matérialité de la liaison. Identité de l'étudiant anonyme de SC-00732 et du jeune économiste. Aucune matière sur les cours, les repas, la musique ou les travaux de janvier."
+ }
+}

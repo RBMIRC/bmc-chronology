@@ -1,0 +1,166 @@
+{
+ "passe": "personnes",
+ "cle": "Harry Holl",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1651,
+  "sortie": 3165,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Harry Holl",
+  "autres_noms": [],
+  "dates_de_vie": "Non précisées dans les fiches.",
+  "statut_bmc": "Étudiant (milieu des années 1940 à 1948 environ), autorisé en 1948 à donner un cours informel de sculpture ; troisième étudiant à obtenir cette autorisation.",
+  "presence": [
+   {
+    "debut": "1946",
+    "fin": "1948",
+    "role": "Étudiant, bricoleur-forgeron, puis enseignant étudiant d'un cours informel de sculpture. Dates déduites : les fiches donnent « milieu des années 1940 », « vers 1948 » et un ancrage ≈1946 ; la fin exacte n'est pas établie.",
+    "refs": [
+     "PE-00317",
+     "EV-03826",
+     "EV-03831",
+     "EV-04471",
+     "CO-00509"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucun détail physique dans les fiches. Seule image : un homme actif, qui cueille, forge, cuisine en grand. Tout le reste serait invention.",
+  "noyau_psychologique": "Un faiseur enthousiaste et débrouillard, convaincu qu'à BMC tout est possible et qu'un collège digne de ce nom doit avoir sa forge. Il agit d'abord, procure l'enclume, lance l'idée, et son entrain gagne les autres. Jim Tite le range parmi les « extravertis ». Il a de la chevalerie (la « gallantry of the garbage brigade ») : une générosité pratique, tournée vers le collectif. Ce portrait vient du témoignage de Tite et de Lane 1990 ; le reste est déduction.",
+  "blessures": "Rien d'attesté. Le seul accroc connu est institutionnel : son cours est contesté par Albers en 1948, ce qui peut l'avoir froissé (pure hypothèse, aucune source sur sa réaction).",
+  "desirs": "Attesté : doter le collège d'une forge, faire des choses de ses mains, enseigner la sculpture. Déduit : être reconnu comme un pair par la faculté, ce que suggère sa demande d'un cours.",
+  "peurs": "Non documentées dans les fiches.",
+  "maniere_d_aimer": "Aucune relation amoureuse documentée. Il aime par le geste : nourrir (le grand spaghetti du soir de congé), entraîner autrui dans un projet (les outils, l'herminette), avec une galanterie rapportée par Tite.",
+  "rapport_au_pouvoir": "Il ne défie pas l'autorité frontalement. Il passe par la voie institutionnelle (la faculté l'autorise) mais ne consulte pas Albers, qui proteste. La faculté lui demande ensuite de conférer avec Albers : il doit négocier. Il est plutôt pragmatique et peu formaliste (déduction à partir d'un seul épisode). Il s'inscrit dans le mouvement d'enseignement par les étudiants qui s'institutionnalise.",
+  "voix": {
+   "registre": "Aucune parole directe conservée. Par déduction du tempérament : oral, chaleureux, direct, d'un entrepreneur de chantier plus que d'un théoricien.",
+   "tics": "Non documentés.",
+   "exemples_paraphrases": [
+    "Un collège sérieux, ça a une forge.",
+    "Ici on peut tout faire : on trouve l'enclume et on s'y met.",
+    "Ce soir c'est moi qui cuisine : j'ai cueilli de l'ail sauvage et des champignons."
+   ]
+  },
+  "habitudes": [
+   "Cueillir de l'ail sauvage et des champignons pour un spaghetti géant le soir de congé des cuisiniers.",
+   "Se procurer par débrouille le matériel (enclume, forge).",
+   "Entraîner d'autres personnes dans des projets d'atelier."
+  ],
+  "convictions": [
+   "Un collège qui se respecte doit avoir une forge.",
+   "À BMC, tout est possible.",
+   "Les étudiants peuvent enseigner (il fait partie du mouvement de student-teaching, avec Tite en imprimerie et Penn en théâtre)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1946",
+    "moment": "Arrivée et premiers projets : il s'impose comme figure d'initiative, proche de la \"brigade des poubelles\" (service de cuisine). Date ≈, à manier avec prudence.",
+    "etat_interieur": "Élan, enthousiasme, plaisir de bâtir ; confiance dans les possibles du lieu.",
+    "refs": [
+     "PE-00317",
+     "EV-03826"
+    ]
+   },
+   {
+    "date": "1946",
+    "moment": "Le student-teaching s'installe (Tite en imprimerie, Holl en sculpture, Penn en théâtre). Tite le cite comme l'un des exemples adoptés rapidement ; la date de son cours est celle du récit de Tite, non précisée pour Holl.",
+    "etat_interieur": "Probablement la fierté d'être pris au sérieux (déduit).",
+    "refs": [
+     "EV-03831"
+    ]
+   },
+   {
+    "date": "1948-02",
+    "moment": "La faculté l'autorise à donner un cours informel de sculpture ; Albers, absent lors de la décision, proteste à son retour. La faculté demande à Holl de conférer avec lui.",
+    "etat_interieur": "Non documenté. Il doit composer avec une autorité exigeante et reconnaître qu'il n'a pas toute liberté.",
+    "refs": [
+     "EV-04471",
+     "RE-01658",
+     "CO-00509"
+    ]
+   },
+   {
+    "date": "≈1948",
+    "moment": "Le projet de pirogue monoxyle découle de l'herminette forgée. Le rôle exact de Holl dans la pirogue n'est pas établi.",
+    "etat_interieur": "Contagion de l'enthousiasme collectif ; l'atelier devient aventure.",
+    "refs": [
+     "EV-03826"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Il a travaillé un temps avec le sculpteur Jose de Creeft avant d'arriver comme étudiant. Durée, lieu et circonstances inconnus.",
+    "refs": [
+     "PE-00317",
+     "EV-04471"
+    ]
+   }
+  ],
+  "apres": [],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Conflit institutionnel autour du cours informel de sculpture.",
+    "evolution": "En 1948, Albers proteste de n'avoir pas été consulté ; la faculté invite Holl à conférer avec lui. Issue non documentée.",
+    "refs": [
+     "RE-01658",
+     "EV-04471",
+     "CO-00509"
+    ]
+   },
+   {
+    "avec": "Jim Tite",
+    "nature": "Camarade et témoin ; il décrit Holl comme un extraverti contagieux. Le témoin de la forge est très probablement Tite (déduit, la fiche dit seulement « le témoin »).",
+    "evolution": "Holl entraîne Tite dans la fabrication d'outils et de l'herminette ; le lien semble amical et durable.",
+    "refs": [
+     "PE-00317",
+     "EV-03826",
+     "EV-03831"
+    ]
+   },
+   {
+    "avec": "Jose de Creeft",
+    "nature": "Maître ou collaborateur de sculpture avant BMC.",
+    "evolution": "Il s'agit du bagage qui fonde sa légitimité pour son cours.",
+    "refs": [
+     "PE-00317",
+     "EV-04471"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Datation floue de sa présence : « milieu des années 1940 », « 1947-48 », « vers 1948 ». Les récits de Lane (souvenirs) se situent entre ≈1946 et 1948, et l'événement de 1948 vient du procès-verbal cité par Duberman.",
+   "L'ancrage ≈1946→1967 de l'épisode de la forge est très large : il s'agit d'un souvenir tardif, et la date réelle est incertaine.",
+   "Tite place le student-teaching dès 1946 et cite Holl comme exemple ; le procès-verbal ne le désigne qu'en 1948 comme troisième étudiant autorisé. Les deux sont compatibles s'il enseignait déjà sans statut formel, mais ce n'est pas établi."
+  ],
+  "situations_revelatrices": [
+   "Un atelier improvisé : trouver du matériel, convaincre, lancer un projet manuel collectif.",
+   "Une cuisine un soir de congé : cuisiner en abondance pour les autres avec des produits cueillis.",
+   "Une réunion de faculté où son cours est discuté en son absence.",
+   "Une confrontation polie avec Albers, qui lui impose de négocier.",
+   "Un cours informel de sculpture : transmettre un savoir reçu de De Creeft."
+  ],
+  "citations": [
+   "PE-00317",
+   "EV-03826",
+   "EV-03831",
+   "EV-03847",
+   "EV-04471",
+   "RE-01658",
+   "CO-00509"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, origine, famille, âge à l'arrivée.",
+   "Quand et comment est-il arrivé à BMC, quand est-il parti, a-t-il obtenu un diplôme ?",
+   "Où et combien de temps a-t-il travaillé avec Jose de Creeft ?",
+   "Quelle fut l'issue de la rencontre avec Albers, et son cours a-t-il eu lieu tel quel ?",
+   "Quel rôle a-t-il joué dans la pirogue monoxyle ?",
+   "Que devient-il après le collège (carrière de sculpteur, forgeron, autre) ?",
+   "Quelle est sa voix réelle ? Aucune parole directe n'est conservée dans les fiches."
+  ]
+ }
+}

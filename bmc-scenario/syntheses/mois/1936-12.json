@@ -1,0 +1,311 @@
+{
+ "passe": "mois",
+ "cle": "1936-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 7854,
+  "sortie": 17788,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-12",
+  "session": "Trimestre d'automne, à l'approche des vacances de Noël (la pétition de Zeuch est annoncée pour « après les vacances de Noël »)",
+  "saison_et_climat": "Fin d'automne, début d'hiver (déduit du calendrier et du renvoi aux vacances de Noël). Aucune fiche ne décrit le temps, le paysage ni la lumière de décembre.",
+  "situation": "Le collège est au plus haut de la crise Knickerbocker-Goldenson. Le non-réappointement de Knickerbocker a été voté, mais sa date est contestée. Le 6 décembre, une réunion de faculté éclate après la boutade de Rice sur le golf. Le 7 décembre, la faculté rejette l'appel de Zeuch et autorise la démission de Goldenson. Une réunion d'explication du Board a lieu dans le mois : elle est probablement la même séance que le procès de Knickerbocker (déduit, non confirmé). Le collège sort de ce mois plus divisé : Wunsch parle de « deux collèges en formation » et Zeuch prédit « le début de la fin ». Hors du collège, Albers multiplie les déplacements (ateliers à Harvard, discours à New York).",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Knickerbocker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Goldenson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Katharine Wunsch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Harris Zeuch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tasker Howard",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "James Gore King",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Martin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Georgia",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mrs. Moellenhoff",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Schawinsky",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-12-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Lors d'une réunion de faculté, Rice dit à un professeur de philosophie inquiet de son enseignement qu'il devrait quitter l'enseignement pour devenir pro de golf. L'éclat provoque une tempête dans la faculté.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00672",
+     "EV-02628"
+    ]
+   },
+   {
+    "date": "1936-12-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Zeuch exige la révision de la décision sur Knickerbocker. La faculté rejette la révision mais autorise Goldenson à démissionner. Goldenson confronte Rice sur la boutade. EV-02629 dit que Rice était absent ce jour-là, alors que SC-00673 le place dans la réunion : contradiction entre sources.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02629",
+     "SC-00673"
+    ]
+   },
+   {
+    "date": "1936-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunion d'explication du Board sur la non-reconduction de Knickerbocker et Goldenson. Wunsch accuse Knickerbocker de former un second collège. Martin et Georgia avouent avoir voté contre. Zeuch proteste contre le rôle de Rice, juge et procureur à la fois. Goldenson se plaint de n'avoir jamais été observé en classe.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02622",
+     "SC-00671",
+     "CI-01387"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Le vote de non-réappointement de Knickerbocker et Goldenson est daté différemment selon les sources : six semaines après la rentrée (Duberman, donc vers octobre) ou après Thanksgiving (Chaddock, donc fin novembre). Ces datations ne se concilient pas, sauf à supposer deux votes successifs.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02609",
+     "EV-02619",
+     "EV-02610"
+    ]
+   },
+   {
+    "date": "1936-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers donne trois ateliers à la toute récente Graduate School of Design de Harvard, dont le doyen Hudnut recrute alors Gropius. Les dates exactes ne sont pas données.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02625"
+    ]
+   },
+   {
+    "date": "1936-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers prononce un discours au déjeuner de BMC au Cosmopolitan Club de New York, vers le 9 décembre (date approximative). Il reprend la distinction entre éducation et culture de « A Second Foreword », tapuscrit daté de décembre 1936.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02626"
+    ]
+   },
+   {
+    "date": "1936-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Deux étudiants s'enfuient pour se marier, environ trois mois après la rentrée (moment approximatif). Le collège réagit calmement, mais le recteur est plus bouleversé que quiconque, selon un membre du staff.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02624"
+    ]
+   },
+   {
+    "date": "1936-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Des délégations d'autres collèges viennent visiter Black Mountain College, selon la synthèse de l'année.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02627"
+    ]
+   },
+   {
+    "date": "1936-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Scène de kiosque à New York avec les Adamic, sur fond de crise de l'abdication d'Édouard VIII. La fiche ne donne pas le déroulé.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02490"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire de décembre est peu documentée. Wunsch enseigne l'écriture créative, cours inauguré à l'automne. Schawinsky poursuit ses Stage Studies, et sa femme Irene fait les costumes sans être nommée. Albers est souvent absent (Harvard, New York). Début novembre, il écrivait à Kandinsky n'avoir pas peint depuis son retour du Mexique, et rien ne dit que cela change en décembre. Les réunions de faculté sur l'enseignement, commencées en septembre, sont désormais occupées par les querelles de personnes. Aucune fiche ne parle de musique, de repas ni de travaux manuels pour ce mois.",
+  "tensions": [
+   "Rice, franc jusqu'à la blessure et figure de chef, contre Knickerbocker et Goldenson : la boutade du golf et l'accusation de Zeuch, qui voit Rice juger un homme qu'il hait.",
+   "Scission du collège : Wunsch parle de « deux collèges en formation » et Knickerbocker est accusé de bâtir un groupe d'étudiants contre Rice.",
+   "Goldenson est jugé sur des points en marge de l'enseignement, sans que personne ait visité ses cours.",
+   "Martin et Georgia, dissidents révélés, redoutent un collège-club.",
+   "King assimile la décision à un fait accompli, la remilitarisation de la Rhénanie par Hitler, ce qui relie la querelle locale à l'actualité européenne.",
+   "Le rejet de l'appel de Zeuch laisse un désaccord durable.",
+   "Contradiction de sources sur la présence de Rice le 7 décembre (SC-00673 contre EV-02629)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le procès de Knickerbocker",
+    "date": "1936-12",
+    "lieu": "salle de réunion, Black Mountain College",
+    "personnages": [
+     "John Andrew Rice",
+     "Knickerbocker",
+     "Katharine Wunsch",
+     "Harris Zeuch",
+     "Theodore Dreier",
+     "Tasker Howard",
+     "James Gore King",
+     "Mrs. Moellenhoff",
+     "Anni Albers",
+     "Martin",
+     "Georgia",
+     "Mangold",
+     "Robert Goldenson",
+     "Schawinsky"
+    ],
+    "deroule": "Wunsch expose les faits survenus après septembre et parle de deux collèges en formation. Knickerbocker répond que Rice a un effet très destructeur sur la personnalité. Zeuch défend l'intégrité individuelle. Tasker Howard retourne l'accusation contre Knickerbocker. Anni Albers demande le vote des deux membres restants : Martin et Georgia avouent avoir voté contre. King compare la décision à la Rhénanie. Zeuch proclame « le début de la fin ». Schawinsky demande à Knickerbocker d'exposer sa méthode. Goldenson conclut qu'on l'a jugé sur des choses en marge.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00671",
+     "EV-02622"
+    ]
+   },
+   {
+    "titre": "La boutade du golf",
+    "date": "1936-12-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Andrew Rice",
+     "un professeur de philosophie"
+    ],
+    "deroule": "Le professeur doute de sa performance d'enseignant. Rice le regarde en face et lui conseille de quitter l'enseignement pour devenir pro de golf. La faculté s'enflamme. Des décennies plus tard, Rice assume sans excuses.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00672",
+     "EV-02628"
+    ]
+   },
+   {
+    "titre": "Goldenson face à Rice",
+    "date": "1936-12-07",
+    "lieu": "réunion de faculté, Black Mountain College",
+    "personnages": [
+     "Robert Goldenson",
+     "John Andrew Rice",
+     "Theodore Dreier",
+     "Robert Wunsch"
+    ],
+    "deroule": "Goldenson cite la boutade comme une insensibilité. Dreier la trouve bon conseil. Wunsch tente d'adoucir en rappelant les remarques de Rice sur ses propres pièces. Goldenson réplique que Rice n'a pas fait cela après un renvoi. Rice répond que le choc était calculé.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00673"
+    ]
+   },
+   {
+    "titre": "Le kiosque new-yorkais",
+    "date": "1936-12",
+    "lieu": "New York",
+    "personnages": [
+     "Louis Adamic",
+     "Stella Adamic"
+    ],
+    "deroule": "Scène new-yorkaise avec les Adamic pendant la crise de l'abdication d'Édouard VIII, selon la synthèse. Le déroulé n'est pas décrit dans la fiche.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02490"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "la réunion d'explication du Board, en décembre",
+    "vers_date": "1936-02",
+    "vers": "la soirée où Adamic lit « Education on a Mountain » : Goldenson lance « un Socrate rude, il nous faudrait un peu de Jésus », Zeuch dénonce le ghost-writing de Rice, et le procès des « moutons » commence (date incertaine, février ou mars)",
+    "refs": [
+     "EV-02576",
+     "EV-02577",
+     "SC-00657"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "le procès de Knickerbocker, quand il rappelle son avertissement",
+    "vers_date": null,
+    "vers": "l'entretien d'embauche à Cambridge avec Rice, où Knickerbocker avait dit être combattif et où Rice pouvait renoncer à l'engager",
+    "refs": [
+     "EC-01574"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la phrase de Zeuch, « le début de la fin », prononcée au procès",
+    "vers_date": "1957",
+    "vers": "la fermeture du collège en 1957, que la phrase annonce par ironie",
+    "refs": [
+     "EC-01576"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la réunion de faculté du 7 décembre et le rejet de l'appel de Zeuch",
+    "vers_date": "1937-01",
+    "vers": "après les vacances de Noël, la pétition de Zeuch contre la décision",
+    "refs": [
+     "EV-02622"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la boutade du golf du 6 décembre",
+    "vers_date": null,
+    "vers": "trois décennies plus tard, Rice raconte l'épisode sans excuses et dit que c'était ce qu'il savait faire le mieux",
+    "refs": [
+     "SC-00672",
+     "EV-02628"
+    ]
+   }
+  ],
+  "motifs": [
+   "le chef et son procès : Rice juge et partie",
+   "la communauté soudée contre le pluralisme des individualités",
+   "l'équité de l'évaluation : juger un enseignant sur ce qui est en marge de la classe",
+   "le fait accompli et la comparaison avec la Rhénanie",
+   "l'ironie prophétique de « le début de la fin » face à la fermeture de 1957",
+   "la franchise blessante de Rice, à la fois lucidité et provocation"
+  ],
+  "lacunes": "Date exacte du vote de non-réappointement : fin octobre selon Duberman, après Thanksgiving selon Chaddock. Présence de Rice le 7 décembre, contradictoire entre SC-00673 et EV-02629. Lien entre la réunion d'explication du Board (EV-02622) et le procès (SC-00671) : probablement la même séance, non confirmé. Dates exactes des ateliers de Harvard et du discours new-yorkais (vers le 9, approximatif). Date précise de la fuite des deux étudiants et leur identité. Déroulé de la scène du kiosque. Rien sur la musique, les repas, les travaux ni le climat de décembre."
+ }
+}

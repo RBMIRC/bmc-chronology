@@ -1,0 +1,297 @@
+{
+ "passe": "mois",
+ "cle": "1941-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4320,
+  "sortie": 11467,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "juillet 1941 (1941-07)",
+  "session": "session d'été : cours d'été et work camp, sur le site de Lake Eden, après le départ de Lee Hall en juin",
+  "saison_et_climat": "été 1941 dans la vallée de Lake Eden, Caroline du Nord ; chaleur estivale et travail en plein air (chaleur déduite, non attestée explicitement pour juillet)",
+  "situation": "Le collège a quitté Lee Hall et vit sur le site de Lake Eden, encore inachevé. L'argent est au plus bas : une tournée de collecte traverse le pays, Hall est parti en juin, et un don anonyme de 5 000 $ est annoncé. Le chantier continue en été avec un work camp et le début de la grande grange de Kocher et Godfrey. Des cours d'été ont lieu, dont celui d'Eric Bentley. Albers est à New York pour son atelier du MoMA, et la critique d'Atwater sur le travail d'Anni paraît.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers (absent à New York du 16 au 22 juillet)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zoya Sandomirsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Heinrich Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "le philosophe Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eric Bentley (cours d'été)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kocher (enseignant, début de la grange)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Godfrey (début de la grange)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller (chef de chantier de la Jalowetz House)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants du work camp et des cours d'été (noms non précisés)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1941-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Tournée de collecte de fonds à travers le pays, avec Evarts en Californie ; seul Melvyn Douglas donne réellement de l'argent à Hollywood. La tournée se poursuit jusqu'en août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03222"
+    ]
+   },
+   {
+    "date": "1941-07-16",
+    "precision": "semaine",
+    "ce_qui_arrive": "Atelier de cinq jours « Fundamental Design of Today » de Josef Albers au Museum of Modern Art de New York, pour des professeurs d'art.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03225"
+    ]
+   },
+   {
+    "date": "1941-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Mary Meigs Atwater publie dans The Weaver un article sceptique, « C'est joli, mais est-ce de l'art ? », qui critique le travail d'Anni Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03224"
+    ]
+   },
+   {
+    "date": "1941-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Hall quitte le collège ; l'argent court et « le monde appelle ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03221"
+    ]
+   },
+   {
+    "date": "1941-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Derek Bovington fait la navette en tracteur avec une immense remorque et emporte instruments, livres et même le système de chauffage de Lee Hall, ce qui irrite la Blue Ridge Assembly.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03220"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Un don anonyme de 5 000 $ arrive par la poste ; on soupçonne Dreier lui-même, sans preuve.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03223",
+     "CI-01595"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Été combinant chantier et session : work camp, début de la grande grange de Kocher et Godfrey, cours d'été.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03146",
+     "EV-03147"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Cours d'été d'Eric Bentley, jugé « grisant ».",
+    "certitude": "probable",
+    "refs": [
+     "EV-03146",
+     "EV-03147"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Zoya Sandomirsky passe quelques semaines au collège, entre Albers, Jalowetz, Straus et le maïs à biner. Rubéole et quarantaine suivent, puis la fontaine « For Colored » d'Asheville la fait partir pour Chicago.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00804",
+     "SC-00805",
+     "EV-03146",
+     "EV-03147"
+    ]
+   }
+  ],
+  "quotidien": "Les journées tournent autour du chantier d'été (binage du maïs, fondations, drainage de la grange), des cours d'été et du travail d'atelier. Les repas et la vie commune se déroulent sur un campus dispersé. Le legs de la bibliothèque de disques de Surette et la musique sont évoqués dans l'année, sans date précise pour juillet.",
+  "tensions": [
+   "L'argent manque au point de menacer l'arrêt de tout travail, et la tournée de collecte peine (seul Melvyn Douglas donne à Hollywood).",
+   "La Blue Ridge Assembly reproche le déménagement du chauffage de Lee Hall ; le collège répond qu'il l'avait installé à ses frais.",
+   "Le chantier suscite ferveur et querelle : les « zombies » s'agacent des chansons, et la faculté plafonne le travail à un à trois après-midi par semaine (date exacte non précisée, 1940-41).",
+   "Anni Albers est attaquée publiquement par Atwater, dans une presse spécialisée.",
+   "Le racisme du Sud (fontaine « For Colored ») pousse Zoya Sandomirsky à partir.",
+   "Josef Albers défend l'exigence contre le « laisser-faire » des écoles progressistes (réunion chez les Wiener, date non précisée)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La fontaine « For Colored »",
+    "date": null,
+    "lieu": "Asheville",
+    "personnages": [
+     "Zoya Sandomirsky"
+    ],
+    "deroule": "Après la rubéole et la quarantaine, Zoya croise à Asheville la fontaine réservée aux Noirs. Elle pose sa houe et repart pour Chicago, laissant le maïs et le cercle d'Albers et de Jalowetz.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00804",
+     "SC-00805"
+    ]
+   },
+   {
+    "titre": "Cinq jours à New York : Fundamental Design of Today",
+    "date": "1941-07",
+    "lieu": "Museum of Modern Art, New York",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Pendant cinq jours, Albers enseigne à des professeurs d'art la méthode de Black Mountain. Il reprend l'anecdote de Rembrandt publiée en 1934. Le collège reste sans lui sur le chantier.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03225"
+    ]
+   },
+   {
+    "titre": "Lire l'article de Mary Atwater",
+    "date": "1941-07",
+    "lieu": "Black Mountain College, atelier de tissage",
+    "personnages": [
+     "Anni Albers",
+     "Mary Meigs Atwater (absente, par son texte)"
+    ],
+    "deroule": "Dans The Weaver, Atwater demande si le travail d'Anni est de l'art ou seulement du joli. Anni lit la critique au métier, entre la remorque vide de Bovington et le chantier.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03224"
+    ]
+   },
+   {
+    "titre": "Le chèque par la poste",
+    "date": null,
+    "lieu": "Black Mountain College, bureau de la direction",
+    "personnages": [
+     "Theodore Dreier"
+    ],
+    "deroule": "Un don anonyme de 5 000 $ arrive par la poste. Tout le monde soupçonne Dreier, mais personne ne le dit.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03223",
+     "CI-01595"
+    ]
+   },
+   {
+    "titre": "Le cours d'été de Bentley",
+    "date": null,
+    "lieu": "Black Mountain College, salle de cours",
+    "personnages": [
+     "Eric Bentley",
+     "étudiants du work camp"
+    ],
+    "deroule": "Entre deux journées de chantier, les étudiants suivent le cours d'été d'Eric Bentley, qu'ils trouvent grisant. Le dîner s'étire autour du sujet.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03146",
+     "EV-03147"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, sur le chantier, à la vue de la remorque de Bovington et du maïs",
+    "vers_date": "1941-05",
+    "vers": "La navette de Bovington emporte le chauffage de Lee Hall. Le collège n'avait pas encore quitté l'unité de Lee Hall, où tout le monde dormait sous le même toit.",
+    "refs": [
+     "EV-03220",
+     "LI-00691"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Été 1941, au moment de la grange et des chantiers",
+    "vers_date": "1940-09",
+    "vers": "Au début de l'automne 1940, les cours sont ramenés au matin et au soir, et les après-midi deviennent un chantier volontaire de drainage, d'isolation et de fondations.",
+    "refs": [
+     "EV-02990",
+     "EV-03125"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, la fontaine d'Asheville et le départ de Zoya",
+    "vers_date": "1941-09",
+    "vers": "Fin septembre, à la rentrée repoussée, Albers revient sur ses trois ans à Harvard : « la vie signifie changement ». Betty Brett y voit « un autre collège », plus petit et chaleureux.",
+    "refs": [
+     "SC-00826",
+     "CI-01624",
+     "CI-01626",
+     "EV-03226"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'été 1941, où la grange et le toit ne sont pas encore nés",
+    "vers_date": "1941-12",
+    "vers": "Le collège suspend son calendrier et monte sur le toit du Studies Building. Le jeune biologiste Richard Carpenter cloue toute la journée, terrifié par les hauteurs, malgré le faux calcul du chêne séché au four.",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Goodman théorise le cadre et l'écran vers 1941, dans la même pensée Bauhaus que les fondateurs de Black Mountain",
+    "vers_date": "1952",
+    "vers": "Les expériences scéniques du collège, dont l'événement de Cage en 1952, préparent les questions de participation et de public que Goodman posera.",
+    "refs": [
+     "EC-01791",
+     "EC-01792"
+    ]
+   }
+  ],
+  "motifs": [
+   "le chantier comme salut par le travail et comme querelle",
+   "la quête de fonds : une économie de survie et de dons",
+   "l'exportation de la pédagogie Albers (MoMA) face à la critique artisanale (Atwater)",
+   "la perte de l'unité de Lee Hall face à la dispersion des bâtiments",
+   "le racisme du Sud et la fuite de Zoya",
+   "le départ de Hall et le « monde qui appelle »"
+  ],
+  "lacunes": "On ne sait pas exactement quand la session d'été commence ni quand Zoya quitte le collège. La date du don de Dreier et celle de la réunion chez les Wiener sont inconnues. Les sources se contredisent sur le lien entre le déménagement et le départ de Thomas (EV-03157, version Lane). Le séjour de Panofsky pendant le sabbatique des Albers n'est pas daté. La présence d'Anni Albers en juillet n'est pas attestée. La mort de Mark Dreier reste non datée. Le début exact de la grange de Kocher et Godfrey n'est pas précisé."
+ }
+}

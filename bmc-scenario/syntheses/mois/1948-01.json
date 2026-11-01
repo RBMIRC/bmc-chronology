@@ -1,0 +1,158 @@
+{
+ "passe": "mois",
+ "cle": "1948-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3741,
+  "sortie": 12530,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1948-01",
+  "session": "Trimestre d'hiver, déduit : la scène du lac gelé se place deux semaines après Noël (EV-04467), donc en pleine reprise d'hiver. Aucune source ne nomme la session.",
+  "saison_et_climat": "Hiver rigoureux : une chute brutale de température après Noël fait geler le lac du campus, assez solide pour patiner et glisser en luge.",
+  "situation": "Le collège vit encore son régime d'avant la crise. Levi est au rectorat (déduit, puisqu'il ne démissionne qu'en juin 1948). La faculté s'élargit avec des cours donnés par des étudiants et l'essor des sciences sociales, et le théâtre de Penn démarre (fil 1948-01→1948-08). Le conflit art / lettres-sciences sociales est déjà installé mais n'a pas encore éclaté. Le froid rassemble les habitants sur le lac.",
+  "presents_probables": [
+   {
+    "nom": "Natasha Goldowsky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ann C. Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Johnny Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frances Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "étudiant infirmier (non nommé)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "groupe de la garderie (enfants promenés sur le lac)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Levi (recteur en place)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Arthur Penn",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1948-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Le lac du campus gèle après une chute brutale de température, deux semaines après Noël. On patine à tour de rôle et on tire des luges.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04467"
+    ]
+   },
+   {
+    "date": "1948-01",
+    "precision": "mois",
+    "ce_qui_arrive": "À New York, Tom Hess prend la direction d'ARTnews. Sa liaison avec Elaine et l'embauche de celle-ci compromettent son effort de neutralité dans la rivalité de Kooning-Pollock. Elaine n'est pas au collège ce mois-ci.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04468"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Elaine de Kooning entre à la rédaction d'ARTnews sous Hess. Aucune source ne donne la date de son embauche, seulement son rattachement à la prise de poste de Hess.",
+    "certitude": "probable",
+    "refs": [
+     "EV-04468",
+     "synthese-1948"
+    ]
+   }
+  ],
+  "quotidien": "Vie d'hiver ordinaire : patinage à tour de rôle sur le lac, luges improvisées, enfants de la garderie promenés, soins à l'infirmerie après les accidents. Les cours et les répétitions du théâtre de Penn continuent (déduit). Aucune source ne décrit les repas ni les cours précis de janvier.",
+  "tensions": [
+   "Le conflit idéologique art / lettres-sciences sociales est déjà en marche sur l'année (fil 1948-01→1948-12), mais il reste latent en janvier. La critique d'Albers sur l'expansion de l'ère Levi n'apparaît qu'au printemps (déduit pour le détail).",
+   "L'élargissement de la faculté, avec ses nouveaux venus et ses étudiants enseignants, commence déjà à inquiéter les anciens (déduit).",
+   "Décalage entre la vie apaisée du lac et les crises à venir : démission de Levi en juin, désastre de la rentrée, peur de fermeture de l'hiver suivant. Rien de cela n'est encore visible en janvier.",
+   "Hors campus, la carrière new-yorkaise d'Elaine, par sa liaison avec Hess, touche déjà à la rivalité de Kooning-Pollock (EV-04468)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La luge renverse dans le fossé",
+    "date": "1948-01",
+    "lieu": "pente devant Last Chance",
+    "personnages": [
+     "Ann C. Rice",
+     "Johnny Rice",
+     "Frances Rice",
+     "étudiant infirmier"
+    ],
+    "deroule": "Ann Rice pousse une luge faite d'un panier à linge attaché, où sont assis ses deux enfants. Elle perd le contrôle, la luge verse dans le fossé. Course à l'infirmerie, puis pendant la suture Frances apaise la panique de la mère en caressant la barbe de l'infirmier.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01156"
+    ]
+   },
+   {
+    "titre": "Patins et luges sur le lac gelé",
+    "date": "1948-01",
+    "lieu": "lac du campus",
+    "personnages": [
+     "Natasha Goldowsky",
+     "groupe de la garderie"
+    ],
+    "deroule": "Le lac est praticable : tout le monde glisse et tire des luges, et le groupe de la garderie est promené sur chaises et bains à linge. Natasha Goldowsky, ancienne danseuse de ballet devenue physicienne, y est une étoile exubérante.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04467"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1948, Elaine déjà liée à Hess et à la rédaction d'ARTnews, vie new-yorkaise",
+    "vers_date": "1948-06",
+    "vers": "Fin juin 1948, Elaine part avec Bill pour le collège, en train de nuit et sans oreillers loués. Le réseau new-yorkais bascule vers l'été de Black Mountain.",
+    "refs": [
+     "EV-04468",
+     "synthese-1948"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le lac gelé et le froid de janvier, pendant la reprise d'hiver",
+    "vers_date": "1948-12",
+    "vers": "En décembre 1948, la Whitney Foundation refuse son soutien. L'hiver est dominé par la peur de la fermeture du collège.",
+    "refs": [
+     "EV-04467",
+     "synthese-1948"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Lecture de Goodman en janvier (Mynheer, programme d'une communauté à la campagne). Il s'agit d'un écho littéraire, non d'un fait documenté du collège.",
+    "vers_date": "1933",
+    "vers": "La fondation de Black Mountain College, dont l'idéal est une communauté à inventer à la campagne.",
+    "refs": [
+     "EC-02316"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le lac gelé comme espace de jeu collectif : patins, luges, enfants transportés, tout le monde dehors.",
+   "La panique maternelle apaisée par un geste de soin, motif du soin communautaire après l'accident (SC-01156).",
+   "Échos de textes de Goodman (EC-02316 à EC-02322) : communauté à inventer à la campagne, fondation mythique, bâtir comme rite. Ce sont des lectures littéraires, non des faits du collège.",
+   "Le départ enthousiaste qui enferme dans l'invention (EC-02322). La communauté n'a plus de lieu où retourner, ce qui peut résonner avec la crise à venir (déduit)."
+  ],
+  "lacunes": "Aucune source ne précise la date exacte du gel, ni la présence en janvier d'Albers (revenu du Mexique au printemps), de Dreier, de Cage ou de Cunningham (arrivés en avril), ni la date d'entrée d'Elaine à ARTnews. Le nombre d'étudiants en janvier et le détail des cours sont inconnus. Les EC-02316 à EC-02322 sont des échos d'écrits de Goodman (Mynheer, Horatio, The Grand Piano), non des témoignages sur le collège, et ne doivent pas être pris pour des faits."
+ }
+}

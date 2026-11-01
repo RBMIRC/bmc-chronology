@@ -1,0 +1,441 @@
+{
+ "passe": "mois",
+ "cle": "1944-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4768,
+  "sortie": 18273,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1944-08",
+  "session": "Session d'été : institut de musique d'été « Musical Interpretation » (dix semaines, juin à août 1944), organisé par Jalowetz.",
+  "saison_et_climat": "Été 1944 dans les Blue Ridge, où le relief remplace les Alpes de l'institut viennois. Une pluie récente a lavé le gravier de Meadows Inn. Les fiches ne donnent ni températures ni détails de temps ; la chaleur estivale est une simple déduction.",
+  "situation": "Le collège vit dans l'après-coup de la crise de la scission. Le Board tient des réunions spéciales les 1, 6 et 8 août ; Frances de Graaff lit une déclaration devant la communauté le 7 août ; les départs de Bentley et de Graaff se consomment en septembre, avec une réponse pro forma du Board et un chèque de 1 000 dollars. En parallèle, l'institut de musique d'été tourne à plein autour de Jalowetz, Steuermann, Kolisch et Krenek, et reconstitue un Verein viennois éphémère en Caroline du Nord. La question de l'admission des étudiants noirs, tranchée au printemps par un compromis (une femme admise pour l'été, statut hybride), reste ouverte selon Lane, qui la donne tranchée seulement à l'automne 1945. Le 28 août, Gropius donne une conférence au collège.",
+  "presents_probables": [
+   {
+    "nom": "Jalowetz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Steuermann",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Kolisch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Krenek",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frances de Graaff",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Walter Gropius",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bentley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Agnes de Mille",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Margaret Kennard Johnson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Victor D'Amico",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Coron",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Andy",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jeanne",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Barbara",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-06",
+    "precision": "session",
+    "ce_qui_arrive": "Institut de musique d'été « Musical Interpretation » lancé par Jalowetz : dix semaines de séminaires, conférences, répétitions et concerts, double but de diffuser la Seconde École de Vienne et de célébrer le 70e anniversaire de Schoenberg, que sa santé empêche de venir. Krenek donne la conférence « Arnold Schoenberg at Seventy ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03644"
+    ]
+   },
+   {
+    "date": "1944-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunions spéciales du Board les 1er, 6 et 8 août, qui précèdent le départ de Bentley et de Graaff. Selon un récit anonyme et non citable, le Board aurait visé Frances de Graaff pour faire partir Bentley ; le rôle d'Anni Albers dans le comptage des voix ne repose que sur deux témoins anonymes.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03659"
+    ]
+   },
+   {
+    "date": "1944-08-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Frances de Graaff lit devant la communauté réunie une déclaration, au plus fort de la crise ; le texte est conservé aux Raleigh Archives.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03660"
+    ]
+   },
+   {
+    "date": "1944-08-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Jalowetz écrit au Board of Fellows ; ses sympathies vont aux partants, selon Wunsch. Il laisse aussi une déclaration dactylographiée de quatre pages, non datée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03662"
+    ]
+   },
+   {
+    "date": "1944-08-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Walter Gropius donne une conférence au collège pendant l'été ; le tapuscrit sans titre est conservé aux archives JAAF.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03663",
+     "EV-03664"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Arrestation d'Andy et Jeanne, pendant l'été. Une nuit de prison avec Barbara ; Jeanne est réexaminée à Asheville cinq jours plus tard et se révèle négative, après la médication donnée par le médecin de prison.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01943",
+     "EC-01945",
+     "EC-01946"
+    ]
+   },
+   {
+    "date": "1944-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Consensus sur l'admission d'une femme noire, âgée et qualifiée, professeur de musique à Fort Valley et recommandée par Bond ; elle est admise pour l'été avec un statut hybride de « membre de l'Institut ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": "1944-09-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Kurtz écrit au nom du Board à Frances de Graaff avec un chèque de 1 000 dollars, réponse pro forma aux démissions.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03658"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Visite d'Agnes de Mille à Black Mountain et participation à une table ronde.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01867"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "session",
+    "ce_qui_arrive": "Sessions d'Albers sur la relativité de la couleur, le fil de fer et le papier plié ; première rencontre de Margaret Kennard Johnson avec Victor D'Amico.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01861",
+     "EC-01864"
+    ]
+   },
+   {
+    "date": "1944-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Coron trouve une pointe de flèche dans le gravier après la pluie à Meadows Inn, tandis que l'oconee-bell est trouvée dans la cour du même lieu.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01862",
+     "EC-01865"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Le sourire de Dreier, joie aussitôt punie par la nouvelle de l'arrestation.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01944"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Remarque de Josef Albers sur de Graaff : « Albers a de nouveau ouvert la boîte de Pandore », qui relance une guerre latente sur le coddling des étudiants.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01947"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire de l'été tourne autour de l'institut de musique : répétitions, concerts et conférences des émigrés du réseau schoenbergien, dont Steuermann et Kolisch au centre. Les ateliers d'Albers travaillent la couleur, le fil de fer et le papier plié. Des visiteurs passent, comme Agnes de Mille pour sa table ronde, Gropius pour sa conférence, et Margaret Kennard Johnson et D'Amico. Coron herborise autour de Meadows Inn. La bibliothèque est une ancienne cabane en rondins près du Studies Building, sur le site où vivait autrefois la famille Christman avant la création du lac. Les fiches ne décrivent ni repas ni travaux agricoles.",
+  "tensions": [
+   "Le Board contre Bentley et de Graaff : soupçon d'une manœuvre visant de Graaff pour faire partir Bentley, dont le récit reste contesté.",
+   "Anni Albers accusée par des témoins anonymes d'avoir compté les voix et fait rejouer les compromis, alors qu'elle ne parlait jamais beaucoup en public.",
+   "Jalowetz, sympathique aux partants, qui ne peut pas vivre avec l'hostilité, selon Bentley.",
+   "Josef Albers relance les vieilles querelles sur le coddling des étudiants en parlant de de Graaff.",
+   "Admission des étudiants noirs : compromis fragile, menaces possibles selon Lane, Dreier isolé et sommé de rompre avec le Rosenwald Fund.",
+   "Arrestation d'Andy et Jeanne : elle réveille des antagonismes personnels et communautaires endormis depuis la crise de la question noire.",
+   "Démission d'Orr en avril, « trop avec trop peu », qui pèse encore sur le collège.",
+   "Schoenberg absent pour raisons de santé, ce qui affaiblit la figure centrale de l'institut."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Déclaration de Frances de Graaff",
+    "date": "1944-08-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Frances de Graaff",
+     "communauté réunie"
+    ],
+    "deroule": "Frances lit devant la communauté une déclaration écrite au plus fort de la crise. Le texte est conservé aux Raleigh Archives, mais son contenu n'est pas donné par les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03660"
+    ]
+   },
+   {
+    "titre": "Réunions spéciales du Board",
+    "date": "1944-08",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "membres du Board",
+     "Frances de Graaff",
+     "Bentley",
+     "Anni Albers (rôle contesté)"
+    ],
+    "deroule": "Trois séances, les 1, 6 et 8 août. Selon un récit anonyme non citable, le Board aurait calculé que Bentley ne partirait que si de Graaff partait, d'où un feu dirigé sur elle. Anni Albers aurait compté les voix dans les coulisses. Scène à traiter comme hypothèse.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03659"
+    ]
+   },
+   {
+    "titre": "Arrestation et nuit de prison",
+    "date": "1944-06",
+    "lieu": "prison (lieu non précisé) ; Asheville pour le réexamen",
+    "personnages": [
+     "Andy",
+     "Jeanne",
+     "Barbara",
+     "Dreier"
+    ],
+    "deroule": "Le téléphone sonne, Dreier, qui souriait, est puni par la nouvelle. Andy et Jeanne sont arrêtés. Jeanne passe la nuit en prison avec Barbara, reçoit une médication du médecin de la prison, et est réexaminée à Asheville cinq jours plus tard : négative. Plus tard, les deux femmes, mariées (Dupee, Hall), racontent la nuit en riant et avec des versions contradictoires.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01943",
+     "EC-01944",
+     "EC-01945",
+     "EC-01946"
+    ]
+   },
+   {
+    "titre": "Albers contre de Graaff",
+    "date": "1944-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Frances de Graaff"
+    ],
+    "deroule": "Une remarque de Josef Albers sur de Graaff rouvre la querelle sur le coddling des étudiants. La formule sur la boîte de Pandore fait resurgir une guerre latente.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01947"
+    ]
+   },
+   {
+    "titre": "Conférence de Gropius",
+    "date": "1944-08-28",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Walter Gropius",
+     "communauté"
+    ],
+    "deroule": "Gropius donne une conférence sans titre pendant l'été. Le tapuscrit est conservé aux archives JAAF. Ni le titre ni le contenu ne sont détaillés.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03663",
+     "EV-03664"
+    ]
+   },
+   {
+    "titre": "Table ronde d'Agnes de Mille",
+    "date": "1944-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Agnes de Mille",
+     "participants de la table ronde"
+    ],
+    "deroule": "La chorégraphe, récemment célébrée pour Oklahoma, visite le collège et participe à une table ronde. La fiche ne détaille pas les échanges.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01867"
+    ]
+   },
+   {
+    "titre": "La pointe de flèche de Meadows Inn",
+    "date": "1944-08",
+    "lieu": "Meadows Inn",
+    "personnages": [
+     "Coron"
+    ],
+    "deroule": "Après la pluie, Coron trouve une pointe de flèche dans le gravier. Cette trouvaille fonde toute sa carrière d'historien. Dans la même cour, l'oconee-bell attire son regard.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01862",
+     "EC-01865"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "La déclaration de Frances de Graaff, 7 août 1944",
+    "vers_date": "1944-04",
+    "vers": "Le 17 avril, Straus déclare en faculty que « le Noir est étrange » et que la formule « nous sommes tous des êtres humains » est trop simple ; Albers propose d'admettre aussi des étudiants indiens, chinois et américano-japonais.",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le sourire de Dreier, été 1944",
+    "vers_date": "1944-04",
+    "vers": "Le compromis sur l'admission des étudiants noirs, négocié de janvier à mai, dont Dreier, avec le Rosenwald Fund, avait obtenu l'engagement avant le recul du corps enseignant.",
+    "refs": [
+     "EC-01944",
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La remarque d'Albers sur de Graaff, été 1944",
+    "vers_date": null,
+    "vers": "Les anciennes luttes internes sur le coddling des étudiants, qui couvent depuis des années.",
+    "refs": [
+     "EC-01947"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La pointe de flèche de Meadows Inn, août 1944",
+    "vers_date": "1790",
+    "vers": "Les années 1790, quand André Michaux nomme la Shortia galacifolia, longtemps introuvable, et la quête épuisante de Coron aux chutes de Toxaway.",
+    "refs": [
+     "EC-01865"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La visite d'Agnes de Mille, été 1944",
+    "vers_date": null,
+    "vers": "Quelques années plus tôt, la chorégraphie d'Oklahoma de Rodgers et Hammerstein, qui précède la participation à la table ronde.",
+    "refs": [
+     "EC-01867"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les sessions d'Albers, été 1944",
+    "vers_date": "1988",
+    "vers": "Margaret Kennard Johnson enseigne à Princeton, quarante-quatre ans après l'été 1944, et dit qu'elle apprend encore d'Albers. La base visuelle traverse le MoMA, Pratt, Drake, Tokyo et Princeton.",
+    "refs": [
+     "EC-01861"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La pointe de flèche de Meadows Inn, août 1944",
+    "vers_date": null,
+    "vers": "La carrière de Coron comme historien, à Roosevelt University et au Newberry, avec trois livres, découle de cette trouvaille fortuite.",
+    "refs": [
+     "EC-01862"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les sessions d'Albers sur la couleur, été 1944",
+    "vers_date": null,
+    "vers": "Rauschenberg et Noland, dont les œuvres célèbres (bed, targets) reposent peut-être sur le passage des artistes par Black Mountain ; Coron se le demande.",
+    "refs": [
+     "EC-01863"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La première rencontre avec Victor D'Amico, été 1944",
+    "vers_date": "1946",
+    "vers": "L'invitation de D'Amico à enseigner au MoMA, à l'automne 1946. Sans Black Mountain, Johnson n'aurait jamais eu ce privilège.",
+    "refs": [
+     "EC-01864"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La nuit de prison de Barbara et Jeanne, été 1944",
+    "vers_date": "1967-05-31",
+    "vers": "L'entretien chez Duberman, où les deux femmes reconstituent l'histoire avec fou rire et embellies contradictoires.",
+    "refs": [
+     "EC-01945"
+    ]
+   }
+  ],
+  "motifs": [
+   "le sourire puni",
+   "la boîte de Pandore",
+   "compter les voix",
+   "trop avec trop peu",
+   "Hofjude, la raillerie de Bentley",
+   "la pointe de flèche qui fonde une vie",
+   "les montagnes, vieux Protée"
+  ],
+  "lacunes": "Les fiches ne donnent ni la date de fin de l'institut d'été ni les dates précises des démissions d'août. L'identité de la femme noire admise n'est pas donnée, ni si elle est arrivée pendant l'été. Le prisonnier est nommé Andy dans un récit et Barbara dans un autre, et l'arrestation n'a ni date ni lieu précis. Le contenu de la déclaration de Frances de Graaff n'est pas donné. Les sources divergent sur la question noire : le chapitre parle d'un consensus d'avril-mai, Lane d'un engagement puis d'un recul, tranché seulement à l'automne 1945. La version du Board visant de Graaff reste contestée et repose sur des témoins anonymes."
+ }
+}

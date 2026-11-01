@@ -1,0 +1,306 @@
+{
+ "passe": "personnes",
+ "cle": "Nick Cernovich",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5651,
+  "sortie": 3220,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Nick Cernovich",
+  "autres_noms": [
+   "Nicolas (chez Dawson)"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant (ancien élève d'Albers, puis d'Hazel Larsen Archer en photographie) ; Student Moderator en 1950 ; plasticien et écrivain (photographie, théâtre Noh)",
+  "presence": [
+   {
+    "debut": "1948",
+    "fin": null,
+    "precision": "annee",
+    "role": "Étudiant à BMC ; conçoit les décors du Lamento de Lorca",
+    "refs": [
+     "EV-04181"
+    ]
+   },
+   {
+    "debut": "1949",
+    "fin": null,
+    "precision": "annee",
+    "role": "Automne 1949 : toujours étudiant",
+    "refs": [
+     "PE-00126"
+    ]
+   },
+   {
+    "debut": "1950",
+    "fin": null,
+    "precision": "annee",
+    "role": "Student Moderator ; organise le sondage étudiant ; publie « Even Monkeys Can Take Pictures » dans Five Photographers",
+    "refs": [
+     "EV-04941",
+     "EV-05070",
+     "EV-05230",
+     "CI-02449"
+    ]
+   },
+   {
+    "debut": "1951-06",
+    "fin": null,
+    "precision": "mois",
+    "role": "Publication de sa pièce Noh dans la première Black Mountain Review",
+    "refs": [
+     "EV-05519"
+    ]
+   },
+   {
+    "debut": "1952-01-28",
+    "fin": null,
+    "precision": "jour",
+    "role": "Présent la nuit de l'incident sur le lac ; reçoit la lampe d'Olson",
+    "refs": [
+     "EV-05800",
+     "SC-01542"
+    ]
+   },
+   {
+    "debut": "1952",
+    "fin": null,
+    "precision": "annee",
+    "role": "Départ de BMC (Dawson situe son propre départ peu après ; la fiche agrégée évoque vers 1951-1953)",
+    "refs": [
+     "PE-00126",
+     "EV-04884",
+     "SC-01248"
+    ]
+   }
+  ],
+  "portrait_physique": "Toujours en pantalon et chemise de coton blanc, la chemise sans col, teintée à la maison d'un pastel — une silhouette monacale et lumineuse. Dormait sur un simple matelas posé à même le sol, sans cadre, draps un peu de travers ; sa chambre aux murs noirs et sol blanc.",
+  "noyau_psychologique": "Nick est une « identité vivante » : intelligence supérieure reconnue de tous, disciplines corporelles et mentales extrêmes (trances, masturbation mentale « sans les mains »), goût de l'exhibition tranquille. Il cherche par le corps et l'appareil une extension de soi dans le monde — la caméra devient partie de sa structure physique. Mais cette supériorité a une face sombre : il intimide ceux qu'il envie, et son harcèlement de Dawson masque une jalousie que Mary démasque.",
+  "blessures": "Une jalousie profonde, diagnostiquée par Mary, qu'il cache derrière son mépris et son harcèlement de Dawson — sa supériorité affichée recouvre une insécurité.",
+  "desirs": "Faire du corps et de l'appareil un seul organisme ouvert sur le monde ; être, presque littéralement, l'incarnation de Black Mountain (« si une personne pouvait être Black Mountain, ce serait Nick », pense Dawson).",
+  "peurs": "D'être écouté moins qu'il n'écoute mal lui-même ; d'être surpassé ou délaissé — d'où la jalousie.",
+  "maniere_d_aimer": "Attirance trouble pour ceux qu'il tourmente : des mois d'intimidation de Dawson où Dawson lit de l'amour et Nick de la jalousie ; à son départ, embrassades chaleureuses devant North Lodge — il quitte ses amis dans les larmes.",
+  "rapport_au_pouvoir": "Prend le pouvoir étudiant au sérieux : comme Student Moderator il organise le sondage de 1950 qui force le Board à réintégrer M.C. Richards, Levi et Fiore. En classe, il laisse Olson le prendre en embuscade (King Lear) sans sourciller ; dans la nuit de lecture d'octobre 1951, il est le premier à qui Olson tend le manuscrit. Il use de son ascendant autant pour intimider que pour organiser.",
+  "voix": {
+   "registre": "Tranchant, assuré, volontiers provocateur et exhibitionniste ; passe du constat cinglant au manifeste ; titres ironiques.",
+   "tics": null,
+   "exemples_paraphrases": [
+    "Dire à Dawson, sans ménagement, qu'il ne sait pas écouter.",
+    "Assumer sereinement ses trances de masturbation mentale et en revendiquer la réussite.",
+    "Proclamer que la caméra devient immédiatement partie de sa propre structure physique.",
+    "Titrer son texte : même les singes savent prendre des photographies."
+   ]
+  },
+  "habitudes": [
+   "Dormir sur un matelas à même le sol, draps de travers",
+   "S'exercer éveillé à la masturbation mentale « sans les mains », dans des trances immobiles",
+   "Porter coton blanc et pastels tinctoriaux faits maison",
+   "Ramer en silence sur le lac pour approcher un héron blanc",
+   "La caméra greffée au corps comme prolongement physique"
+  ],
+  "convictions": [
+   "La caméra s'intègre au corps : elle lui impose des limites mais ouvre de nouvelles relations au monde",
+   "Le geste photographique en soi ne vaut rien (même les singes…) ; tout est dans la mediation corps-appareil",
+   "Le renouvellement des formes : il écrit et monte une pièce Noh avec masques",
+   "L'action étudiante organisée : sondage de 1950 contre la purge du Board"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Conception des décors du Lamento de Lorca (mousseline teinte suspendue au plafond)",
+    "etat_interieur": "Jeune étudiant déjà au centre de la vie créative du collège",
+    "refs": [
+     "EV-04181"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Élève d'Albers puis d'Hazel Larsen Archer ; accident dans le laboratoire photo : sévère intoxication aux métaux",
+    "etat_interieur": "Le corps paye le prix de la pratique argentique — la caméra épouse le corps jusque dans le poison",
+    "refs": [
+     "EV-03180",
+     "ID-01553",
+     "PE-00126"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Mois de harcèlement de Dawson, jusqu'à la confrontation où Dawson cite Mary : « Nick est jaloux » — l'affaire s'arrête net",
+    "etat_interieur": "Blessure exposée ; sa supériorité verbale désarmée par un diagnostic",
+    "refs": [
+     "EV-01949",
+     "SC-00493",
+     "RE-00846"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Student Moderator : sondage étudiant massif pour la réintégration de M.C., Levi et Fiore ; le Board recule ; publie « Even Monkeys Can Take Pictures »",
+    "etat_interieur": "Sommet de son influence institutionnelle et théorique",
+    "refs": [
+     "EV-04941",
+     "EV-05230",
+     "EV-05070"
+    ]
+   },
+   {
+    "date": "1951-06",
+    "precision": "mois",
+    "moment": "Sa pièce Noh ouvre la première Black Mountain Review",
+    "etat_interieur": "Écriture au croisement des traditions, en harmonie avec l'ethos du collège",
+    "refs": [
+     "EV-05519",
+     "OE-02045"
+    ]
+   },
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "moment": "La nuit où Olson apprend à enseigner : premier destinataire du manuscrit que Olson ne sait pas lire",
+    "etat_interieur": "Spectateur attentif d'un renversement maître-élèves",
+    "refs": [
+     "EV-05566",
+     "SC-01473"
+    ]
+   },
+   {
+    "date": "1952-01-28",
+    "precision": "jour",
+    "moment": "Nuit du lac : crie à Olson d'apporter la lampe, reçoit le faisceau qui découvre Rauschenberg dans l'eau glacée",
+    "etat_interieur": "Dans l'urgence, un maillon de la chaîne de sauvetage",
+    "refs": [
+     "EV-05800",
+     "SC-01542"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Départ en voiture devant North Lodge, embrassé par Dawson, Herb et les autres",
+    "etat_interieur": "« Une identité vivante » quitte le collège, qui perd un organe vital ; Dawson se sait le prochain",
+    "refs": [
+     "EV-04884",
+     "SC-01248",
+     "RE-02317"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Ancien élève de Josef Albers avant de se tourner vers la photographie",
+    "refs": [
+     "PE-00126"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Rien d'attesté dans les fiches après son départ en voiture de BMC ; sa vie postérieure reste à documenter",
+    "refs": [
+     "EV-04884"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Fielding Dawson",
+    "nature": "harcèlement puis amitié",
+    "evolution": "Des mois d'intimidation (jalousie de Nick, amour chez Dawson), interrompus par la confrontation où Dawson cite Mary ; sa remarque « tu ne sais pas écouter » devient pour Dawson une discipline de vie ; embrassades au départ ; les deux quittent BMC à peu de temps d'intervalle",
+    "refs": [
+     "RE-00846",
+     "RE-02161",
+     "RE-02317",
+     "SC-00493",
+     "EV-01949",
+     "EV-04884"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "étudiant / professeur",
+    "evolution": "Interrogé dans la classe King Lear ; premier maillon de la circulation du manuscrit la nuit d'octobre 1951 ; acteur du sauvetage de Rauschenberg en janvier 1952",
+    "refs": [
+     "SC-01325",
+     "EV-05566",
+     "SC-01542"
+    ]
+   },
+   {
+    "avec": "Hazel Larsen Archer",
+    "nature": "élève / professeure de photographie",
+    "evolution": "Formation photographique ; publie dans son recueil Five Photographers (1950) ; accident aux métaux dans le laboratoire",
+    "refs": [
+     "ID-01553",
+     "EV-05070",
+     "EV-03180"
+    ]
+   },
+   {
+    "avec": "Franz Kline et Dawson",
+    "nature": "compagnons du lac",
+    "evolution": "Silence attentif à trois dans une barque pour approcher le héron blanc — tableau idyllique",
+    "refs": [
+     "SC-00743"
+    ]
+   },
+   {
+    "avec": "Betty et Stan (Jennerjahn), Gerda",
+    "nature": "collaboration théâtrale",
+    "evolution": "Co-conception des décors du Lamento de Lorca (1948)",
+    "refs": [
+     "EV-04181"
+    ]
+   },
+   {
+    "avec": "Victor",
+    "nature": "partenaire de scène",
+    "evolution": "Écrit pour eux deux une pièce Noh ; Joe réalise les masques",
+    "refs": [
+     "OE-02045"
+    ]
+   },
+   {
+    "avec": "Herb",
+    "nature": "amitié",
+    "evolution": "Embrassé à ses côtés au moment du départ de Nick",
+    "refs": [
+     "SC-01248"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La date exacte du départ est floue : la fiche agrégée donne « vers 1951-1953 » et situe des repères en 1951 et 1952, tandis que les adieux devant North Lodge sont rattachés à la fenêtre 1949-1952 ; le 28 janvier 1952 le montre encore présent, donc le départ se place au plus tôt début 1952.",
+   "Dawson se corrige lui-même sur le lieu des adieux (d'abord Dining Hall, puis North Lodge) : le souvenir du décor vacille même si l'émotion est sûre.",
+   "Les dates « ≈1933→1970 » ou « ≈1941→1995 » attachées à certaines fiches sont des bornes de publication/contexte, pas des dates d'événements : à ne pas prendre littéralement."
+  ],
+  "situations_revelatrices": [
+   "Seul, en transe sur son matelas au sol, murs noirs, coton blanc : l'exhibitionnisme tranquille du corps-esprit",
+   "En barque, muet, à ramer vers un héron : la discipline du silence",
+   "Face à Dawson qui lui renvoie « Nick est jaloux » : la supériorité qui s'effondre en une phrase",
+   "Organisant le sondage de 1950 : le manipulateur mis au service de la communauté",
+   "Criant dans la nuit de neige pour la lampe : l'urgence qui traverse le dandy"
+  ],
+  "citations": [
+   "CI-01610",
+   "CI-02449"
+  ],
+  "questions_ouvertes": [
+   "Dates et lieu de naissance et de mort ; vie entière après BMC (1952 jusqu'à la publication de Dawson en 1970)",
+   "Ce qu'il devient comme photographe ou artiste après le collège",
+   "La nature exacte de sa relation avec Mary, dont le diagnostic a retourné le rapport de force",
+   "Son rôle propre dans l'incident du lac (sources attestées le montrent récipiendaire de la lampe, mais son degré d'initiative varie selon les comptes rendus)",
+   "Le contenu complet de sa pièce Noh et de « Even Monkeys Can Take Pictures »"
+  ]
+ }
+}

@@ -1,0 +1,300 @@
+{
+ "passe": "personnes",
+ "cle": "Clement Greenberg",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 6385,
+  "sortie": 3523,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Clement Greenberg",
+  "autres_noms": [
+   "Clem"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Critique d'art invité pour la session d'été 1950 (histoire de l'art et critique), recommandé par de Kooning",
+  "presence": [
+   {
+    "debut": "1950",
+    "fin": "1950",
+    "precision": "session",
+    "role": "Enseignant d'été : histoire de l'art et critique (gages : chambre et pension, 160 $ en espèces, jusqu'à 100 $ de frais de voyage) ; accompagné de Helen Frankenthaler, venue le voir sans nomination",
+    "refs": [
+     "EV-04945",
+     "CO-00595",
+     "EV-03834",
+     "EV-04934",
+     "EV-05057",
+     "EV-04389",
+     "EV-03038"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Croisé du goût : il croit qu'il existe un critère objectif de qualité dans l'art et qu'il est celui qui peut le nommer. Condescendant mais charmeur, irrévérencieux et détendu en société, dictatorialement catégorique devant les toiles. Fait et défait les réputations, y compris celles de ses anciens protégés, sans états d'âme apparents.",
+  "blessures": null,
+  "desirs": "Imposer une hiérarchie de valeur claire — un art américain enfin « grand », mesuré à l'aune de la tradition européenne (Léonard, Picasso) ; être reconnu comme l'arbitre unique du goût de son temps.",
+  "peurs": "La confusion des valeurs : l'ornement, le biomorphisme « épidémique », l'« artiness », le pastiche — tout ce qui brouille la pureté optique de la peinture.",
+  "maniere_d_aimer": "Aime en critique autant qu'en amant : il promeut Helen Frankenthaler (relation d'environ cinq ans) tout en dictant dans les studios ce qui est ou n'est pas de l'art ; l'histoire finit par le mariage de Helen avec Robert Motherwell.",
+  "rapport_au_pouvoir": "Pouvoir exercé par la plume et par la présence : verdicts sans appel dans les studios (« tu ne peux pas faire ceci, tu ne peux pas faire cela »), ce qui lui vaut d'être jeté dehors par de Kooning. Son formalisme finit par dominer tout le récit de l'art mid-century, favorisant les œuvres qui se reproduisent bien en photographie.",
+  "voix": {
+   "registre": "Assuré, sentencieux, ironique ; joutes par allusions dérogatoires voilées ; aphorismes tranchants dans la presse",
+   "tics": "Contradicter avec désinvolture ; édicter des interdits ; superlatifs absolus puis reniement",
+   "exemples_paraphrases": [
+    "L'artiste américain contemporain peut être qualifié de grand, et Gorky doit nous apprendre le goût",
+    "Tu ne peux pas faire ceci, tu ne peux pas faire cela",
+    "Pas grand art n'est sorti de Black Mountain, seulement quelques noms célèbres",
+    "La sculpture biomorphe n'est qu'une statuaire de jardin supérieure et un objet d'art de nouvelle taille démesurée"
+   ]
+  },
+  "habitudes": [
+   "Cocktails de fin de journée dans son bureau (à BMC comme à New York)",
+   "Baignades au trou d'eau sous la cascade avec Frankenthaler",
+   "Visites de studios où il rend ses verdicts debout devant les toiles"
+  ],
+  "convictions": [
+   "Le test est dans l'art, pas dans le programme : rejette le contenu symbolique ou métaphysique revendiqué par Newman, Rothko, Still, Gottlieb comme mal cuit et revivaliste",
+   "La peinture doit tendre à la pureté optique et à la platitude assumée",
+   "L'essence du modernisme : la discipline critique la discipline elle-même par ses propres méthodes",
+   "Horreur de l'ornement et du biomorphisme ; la vraie structure après les improvisations organiques",
+   "Un moment d'ouverture — aucune zone d'expérience supérieure à une autre — qu'il ne peut pas soutenir"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1950",
+    "precision": "session",
+    "moment": "Arrivé pour la session d'été, sur recommandation de de Kooning, pour enseigner l'histoire de l'art et la critique ; il est l'un des invités du large filet equalitariste de 1950, aux côtés de Goodman et Stamos",
+    "etat_interieur": "En pleine croisade pour le nouvel art américain, champion de Pollock, auréolé de ses articles dans The Nation",
+    "refs": [
+     "EV-04945",
+     "EV-02191",
+     "CO-00595",
+     "EV-03834"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "session",
+    "moment": "Vie sociale animée : verres dans son bureau, sortie « luxe » en automobile au sommet d'une montagne pour dîner et écouter George Shearing ; Helen Frankenthaler le rejoint, réalise beaucoup d'œuvres sur papier mais repart vite, dissuadée par les serpents venimeux et le dénuement (électricité rationnée, essence rare)",
+    "etat_interieur": "Détendu, irrévérencieux, apparemment séduit par l'intensité des étudiants",
+    "refs": [
+     "SC-01261",
+     "EV-04936",
+     "EV-04934",
+     "EV-04935"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Bilan au départ : intensité impressionnante des étudiants, mais pas grand art sorti de Black Mountain — seulement quelques noms célèbres",
+    "etat_interieur": "Dédain de l'environnement au profit du seul verdict esthétique",
+    "refs": [
+     "EV-05057",
+     "CI-02442"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Recensions dans The Nation (Hedda Sterne, Adolph Gottlieb) : conteste le contenu symbolique des peintres new-yorkais, qualifie leurs positions de mal cuites et revivalistes",
+    "refs": [
+     "ID-01913"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Publie « The Crisis of the Easel Picture » ; compte rendu de l'exposition Egan plaçant de Kooning parmi les quatre ou cinq plus importants peintres du pays, louant l'ambiguïté née de la suppression de sa facilité",
+    "refs": [
+     "PE-00094",
+     "CI-02072",
+     "EV-05052"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "mois",
+    "moment": "Cocktail chez lui pour présenter Leo Castelli à Gorky, Pollock, Smith, Kline et de Kooning — les cinq futurs sujets de « Strokes of Genius »",
+    "refs": [
+     "EV-04464"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "periode",
+    "moment": "Vers 1948-1952 : visite le studio de de Kooning et lui énonce ses interdits ; Bill le met dehors — geste fondateur des camps Rosenberg-de Kooning contre Greenberg-Pollock",
+    "refs": [
+     "EV-04305",
+     "CI-02085"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "periode",
+    "moment": "Début de la rivalité publique avec Harold Rosenberg : duel par allusions dérogatoires interposées, chacun championnant un peintre",
+    "refs": [
+     "RE-01226",
+     "EV-03009"
+    ]
+   },
+   {
+    "date": "1950-04",
+    "precision": "mois",
+    "moment": "Co-sélectionne avec Meyer Schapiro l'exposition « Talent 1950 » chez Kootz, vingt-trois artistes de la relève",
+    "refs": [
+     "EV-05225"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Dans The Nation : il a fallu rattraper Gorky et apprendre de lui le goût — premier critique à oser qualifier un Américain contemporain de « great »",
+    "refs": [
+     "CI-02526",
+     "PE-00094"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "mois",
+    "moment": "L'article « Action Painting » de Rosenberg plante son drapeau sur le territoire critique et l'étrille nommément, élevant de Kooning et rabaissant Pollock",
+    "refs": [
+     "EV-05917",
+     "RE-02419"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Éloge extatique de de Kooning à Washington : « the most advanced in our time », relié à la tradition Léonard-Picasso, avec « le grand style » et le mot « génie »",
+    "refs": [
+     "EV-06083",
+     "CI-03028"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "« American-Type Painting » dénigre Bill incapable de s'arracher à la figure ; trois ans après l'éloge, il le compare à Lucifer ; dans les années 1960 il l'attaque régulièrement",
+    "refs": [
+     "EV-06516",
+     "EV-06083",
+     "PE-00094"
+    ]
+   },
+   {
+    "date": "1961",
+    "precision": "annee",
+    "moment": "Publication d'Art and Culture, recueil d'essais best-seller parmi les artistes, diffusant massivement le positivisme moderniste",
+    "refs": [
+     "EV-07394",
+     "OE-03460"
+    ]
+   },
+   {
+    "date": "1960",
+    "precision": "periode",
+    "moment": "Contesté frontalement : « Other Criteria » de Steinberg contre la flatness et l'opticality ; Judd et Morris en antagonistes directs ; rejet réciproque avec Josef Albers sur l'abstraction géométrique et le détachement social de l'art",
+    "refs": [
+     "RE-02955",
+     "RE-02958",
+     "RE-01585"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Helen Frankenthaler",
+    "nature": "Amour (compagne d'environ cinq ans)",
+    "evolution": "Elle l'accompagne à Black Mountain en 1950 sans nomination, le rejoint spécialement pendant son poste d'été (photo d'eux sous la cascade) ; la relation s'achève avec son mariage avec Robert Motherwell",
+    "refs": [
+     "RE-01249",
+     "RE-01931",
+     "RE-02057",
+     "EV-04934",
+     "EV-04936"
+    ]
+   },
+   {
+    "avec": "Harold Rosenberg",
+    "nature": "Rivalité critique publique",
+    "evolution": "Duel par allusions dérogatoires des années 1940 aux années 1950 ; Rosenberg le juge un fraudeur et utiliserait Pollock comme instrument contre lui ; la compétition de Kooning-Pollock devient leur véhicule de joutes publiques ; « Action Painting » (1952) consomme la guerre des camps",
+    "refs": [
+     "RE-01226",
+     "RE-02004",
+     "RE-02007",
+     "RE-02013",
+     "RE-02419",
+     "EV-03009",
+     "EV-05917"
+    ]
+   },
+   {
+    "avec": "Willem de Kooning",
+    "nature": "Alliance critique puis rupture",
+    "evolution": "De Kooning le recommande à Black Mountain (1950) ; Greenberg l'avait hissé parmi les plus grands (1948), l'exalte encore en 1953, puis le compare à Lucifer (1956) et l'attaque dans les années 1960 ; l'épisode du studio où Bill le jette dehors (≈1948-1952) cristallise les camps",
+    "refs": [
+     "RE-02191",
+     "EV-04305",
+     "EV-06083",
+     "EV-03009"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Rejet réciproque (déduit des positions)",
+    "evolution": "L'abstraction géométrique d'Albers s'oppose au formalisme greenbergien du détachement de l'art des conditions sociales",
+    "refs": [
+     "RE-01585"
+    ]
+   },
+   {
+    "avec": "Jackson Pollock",
+    "nature": "Mentorat critique / champion",
+    "evolution": "Champion inconditionnel de Pollock, ce qui en fait la cible des attaques de Rosenberg ; sa promotion alimente la rivalité Pollock-de Kooning",
+    "refs": [
+     "PE-00094",
+     "EV-05712",
+     "RE-02007"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Son éloge extatique de de Kooning en 1953 contraste avec sa comparaison à Lucifer trois ans plus tard et ses attaques des années 1960 — retournement attesté, à jouer dramatiquement",
+   "Il décrit un temps l'équivalence des éléments d'une toile (à la manière de Cage ou d'Albers) avant d'exiger la primauté de l'optique : incohérence interne relevée par les fiches",
+   "Sur son bilan de Black Mountain : Molesworth le rapporte comme témoignage direct, Díaz comme oui-dire (EV-05057 porte les deux certitudes)",
+   "Une fiche décrit sa venue 1950 comme une « visite » (EV-05052), les autres comme un poste d'enseignant effectif (EV-04945, CO-00595) : enseignant invité venu avec sa compagne semble la synthèse"
+  ],
+  "situations_revelatrices": [
+   "Le cocktail de fin de journée dans son bureau à Black Mountain : charme boho, verres, photos sous la cascade — l'arbitre new-yorkais en villégiature",
+   "La visite de studio où il édicte ses interdits et se fait jeter dehors par de Kooning",
+   "La galerie Betty Parsons, debout à portée de voix de Krasner pendant qu'Elaine dénigre Pollock",
+   "La soirée jazz de George Shearing au sommet de la montagne : le luxe contrastant avec le dénuement de BMC",
+   "La rédaction d'un compte rendu où il fait ou défait une réputation d'un trait de plume"
+  ],
+  "citations": [
+   "CI-00008",
+   "CI-02072",
+   "CI-02085",
+   "CI-02185",
+   "CI-02442",
+   "CI-02526",
+   "CI-03028",
+   "CI-03334"
+  ],
+  "questions_ouvertes": [
+   "Ses dates de naissance et de mort ne figurent dans aucune fiche",
+   "Aucun détail sur son physique ni sur sa vie d'enfance et de formation",
+   "Contenu exact de son enseignement à Black Mountain et réactions des étudiants : inconnus",
+   "Ce qu'il a précisément pensé d'Albers et de Cage pendant l'été 1950 : non attesté (le rejet Albers est déduit de positions théoriques)",
+   "L'issue concrète de sa relation avec Frankenthaler à Black Mountain (rupture, durée exacte après 1950) reste floue"
+  ]
+ }
+}

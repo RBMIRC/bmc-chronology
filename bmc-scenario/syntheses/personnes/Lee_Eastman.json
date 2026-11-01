@@ -1,0 +1,219 @@
+{
+ "passe": "personnes",
+ "cle": "Lee Eastman",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 4133,
+  "sortie": 6364,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Lee Eastman",
+  "autres_noms": [],
+  "dates_de_vie": "Non précisées par les fiches. Elles ne permettent de le situer que par ses interventions, de 1958 environ à 1984 environ. Les ancrages « ≈1899-06-12→1980 » de certaines fiches sont des bornes génériques, pas des dates de sa vie.",
+  "statut_bmc": "Personnage périphérique : aucune fiche ne l'a au collège. C'est un avocat new-yorkais lié à deux figures liées à Black Mountain : Josef et Anni Albers, puis Willem (Bill) de Kooning. Il est utile surtout pour l'après-collège : argent, héritages, contrats, ventes d'art. Tout ce qui touche à Black Mountain même reste hors des sources fournies.",
+  "presence": [],
+  "portrait_physique": "Aucune description physique dans les fiches. Seules sont attestées sa présence aux funérailles de Josef Albers à New Haven, avec sa femme Monique (SC-02149), et sa voix au téléphone (SC-00030, CI-00090). Il faudra inventer ou chercher le reste.",
+  "noyau_psychologique": "Conseiller de confiance et protecteur de ses clients, plus à l'aise dans l'ombre que sur le devant de la scène. Il agit par téléphone, par contrat, par un mot qui désamorce. Ce qui suit est déduit des scènes. Il flaire les prédateurs (« le renard ») et sait calmer ou faire taire un projet qui menace la collection d'Anni (EV-00130). Il pousse aussi ses clients vers la réalité matérielle : à Anni, qui vit en frugalité, il rappelle qu'elle peut se payer du caviar (EV-00863). Il unit sens de l'amitié et sens des affaires : il est qualifié à la fois d'avocat et d'ami de Bill (PE-00280).",
+  "blessures": "Rien dans les fiches. Aucune blessure personnelle n'est documentée. Seules perceptibles sont les tensions de métier, comme le procès Janis, où il porte la guerre de Bill (EV-07753), et la colère d'Elaine devant l'accord financier qu'il a rédigé (EV-08331).",
+  "desirs": "Déduit, non attesté : mettre ses clients à l'abri (de marchands, de prétendants, de leurs propres scrupules) et faire aboutir des arrangements durables. Il tient à ce qu'Anni soit épaulée après la mort de Josef : il confie à Weber la succession (SC-02149, EV-08415). Il cherche aussi à ce que Bill ait un logement digne : il lui propose la maison de Lily Pond Lane (EV-07058).",
+  "peurs": "Aucune peur déclarée. On peut déduire, avec prudence, qu'il craint le détournement de l'héritage d'Anni, d'où la vigilance contre l'offre de musée à Munich (EV-00130, SC-00030).",
+  "maniere_d_aimer": "Une loyauté pratique. Pour Anni, il est un recours auquel on renvoie les importuns (« elle en discuterait avec Lee »). Pour Bill, c'est un ami et avocat qui fait le travail pénible pour qu'il peigne (EV-07753 : « Bill laisse le soin à Eastman »). Il n'y a aucune trace de tendresse exprimée, hors le geste de conseiller Anni sur son rapport à l'argent.",
+  "rapport_au_pouvoir": "Un pouvoir de l'ombre, fondé sur la compétence et la confiance. Son appel ou son nom suffit à arrêter un projet : Maximilian abandonne son idée de musée (EV-00130 ; PE-00280 formule la chose plus fortement). Il mène les procès (Janis, 1965) et rédige des accords qui redistribuent le contrôle, comme celui qui laisse à Elaine des paiements mais retire de ses mains la succession de Bill (EV-08331). Il connaît à la fois les mécanismes du marché de l'art et les failles psychologiques des artistes.",
+  "voix": {
+   "registre": "Familier, ironique, complice avec ceux qu'il estime ; direct, presque taquin avec ses clients. Il parle en phrases courtes, imagées. Registre déduit de deux citations seulement.",
+   "tics": "Appelle ses interlocuteurs par leur prénom, parfois nom complet (« Nicholas Fox Weber »), ce qui donne un air de formalité moqueuse. Recours à l'image animale (le renard, le terrier). Formule à l'impératif ou à la constatation nette.",
+   "exemples_paraphrases": [
+    "Au téléphone, il annonce à Weber que le renard est sorti de son terrier, c'est-à-dire que Maximilian a montré son jeu (CI-00090, SC-00030).",
+    "À Anni, qui se prive : tu pourrais manger du caviar tous les jours (CI-00463, EV-00863).",
+    "Sur Bill, il rapporte que le peintre ne comprenait pas qu'on puisse payer une telle somme pour un petit tableau (EV-08534, paraphrase rapportée, pas citation directe)."
+   ]
+  },
+  "habitudes": [
+   "Répond au téléphone et conseille à distance : c'est le canal des deux scènes où il parle (SC-00030, EV-00130).",
+   "Est présent aux moments clés de la vie de ses clients : funérailles de Josef Albers, avec sa femme Monique (SC-02149).",
+   "Confie des tâches à des proches de confiance, comme à Weber pour l'aide à Anni (SC-02149, EV-08415).",
+   "Se charge des litiges et des accords financiers de Bill (EV-07753, EV-08331)."
+  ],
+  "convictions": [
+   "Déduit : l'œuvre et la succession d'un artiste doivent être défendues contre les convoitises.",
+   "Déduit : l'argent n'est pas à fuir ; Anni peut jouir de sa fortune (EV-00863).",
+   "Attesté par ses actes : un artiste doit pouvoir se consacrer à la création, l'avocat portant les batailles (EV-07753)."
+  ],
+  "arc_bmc": [],
+  "avant": [],
+  "apres": [
+   {
+    "date": "1958",
+    "moment": "Cherche une maison à Long Island pour Bill. Il lui trouve plus tard, à East Hampton, une grande demeure sur Lily Pond Lane, trop apprêtée à son goût (jardin de parc, atmosphère de Watteau) ; Bill achète plutôt une terre à Springs à Wilfrid Zogbaum. Les sources placent la recherche en 1958 et l'été suivant.",
+    "refs": [
+     "EV-07058",
+     "PE-00280"
+    ]
+   },
+   {
+    "date": "1965",
+    "moment": "Avocat de Bill dans le procès contre le marchand Sidney Janis : 150 000 $ de ventes impayées réclamés, accusations de ventes à la galerie elle-même et d'usage non consenti du nom. Janis répond par des prêts de 50 000 $ et 75 000 $ et un contrat verbal de treize ans.",
+    "refs": [
+     "EV-07753"
+    ]
+   },
+   {
+    "date": "1976-03-28",
+    "moment": "Aux funérailles de Josef Albers à New Haven avec sa femme Monique ; au déjeuner allemand qui suit, il confie à Weber le soutien à Anni et la succession.",
+    "refs": [
+     "SC-02149",
+     "EV-08415"
+    ]
+   },
+   {
+    "date": "1976",
+    "moment": "Dans l'orbite de Bill à East Hampton : Stevens et Swan lui font pousser Bill à demander l'aide d'Elaine en 1977, mais Curtis note qu'Elaine était déjà revenue un an et demi plus tôt.",
+    "refs": [
+     "EV-08368"
+    ]
+   },
+   {
+    "date": "1975→1982",
+    "moment": "Rédige l'accord financier entre Bill et Elaine : paiements réguliers à Elaine, mais perte du contrôle de la succession de Bill, ce qui la met en colère.",
+    "refs": [
+     "EV-08331",
+     "PE-00280"
+    ]
+   },
+   {
+    "date": "1982→1984",
+    "moment": "Témoin de l'envolée des prix : 1,2 M$ pour Two Women en 1982, 1,98 M$ en 1984, record pour une œuvre d'après-guerre. Il rapporte l'incompréhension de Bill.",
+    "refs": [
+     "EV-08534"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Dans une période non précisée, mais postérieure à la mort de Josef (1976), il est l'avocat d'Anni : son nom suffit à faire renoncer Maximilian à un musée Albers à Munich réclamant une cinquantaine de tableaux.",
+    "refs": [
+     "EV-00130",
+     "SC-00030",
+     "PE-00280"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Dit à Anni, fortunée mais économe (pain de la veille, admiration pour Pepperidge Farm et Entenmann's), qu'elle peut manger du caviar tous les jours.",
+    "refs": [
+     "EV-00863",
+     "CI-00463"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Anni Albers",
+    "nature": "Avocat et conseiller de confiance, interlocuteur pour les décisions de patrimoine.",
+    "evolution": "Du vivant de Josef, il est connu des Albers ; après 1976, il organise avec Weber l'entourage d'Anni et la succession, et la protège des propositions intéressées.",
+    "refs": [
+     "EV-00130",
+     "SC-02149",
+     "EV-08415",
+     "EV-00863"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Avocat des Albers ; présent à ses funérailles.",
+    "evolution": "Peu de matière directe : la relation passe par la succession et les funérailles (1976).",
+    "refs": [
+     "SC-02149",
+     "PE-00280"
+    ]
+   },
+   {
+    "avec": "Nicholas Fox Weber",
+    "nature": "Allié et confident ; Weber l'appelle quand il craint pour Anni, et Eastman le désigne pour aider celle-ci.",
+    "evolution": "Du complice au téléphone (le renard) au passeur de responsabilité après les funérailles.",
+    "refs": [
+     "SC-00030",
+     "SC-02149",
+     "EV-08415"
+    ]
+   },
+   {
+    "avec": "Willem (Bill) de Kooning",
+    "nature": "Avocat et ami ; il cherche une maison, mène le procès Janis, rapporte ses réactions aux prix.",
+    "evolution": "De l'aide domestique en 1958 à la gestion complète de ses affaires dans les années 1960-1980, jusqu'à l'accord avec Elaine.",
+    "refs": [
+     "EV-07058",
+     "EV-07753",
+     "EV-08534",
+     "PE-00280"
+    ]
+   },
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "Rédacteur de l'accord qui règle sa situation financière avec Bill ; selon certains auteurs, il pousse Bill à la solliciter.",
+    "evolution": "Avantage financier mais perte de contrôle de la succession, ce qui la met en colère ; datation du rapprochement contestée.",
+    "refs": [
+     "EV-08331",
+     "EV-08368"
+    ]
+   },
+   {
+    "avec": "Sidney Janis",
+    "nature": "Adversaire en justice, au nom de Bill (1965).",
+    "evolution": "Après plus de dix ans de collaboration, procès aux accusations croisées.",
+    "refs": [
+     "EV-07753"
+    ]
+   },
+   {
+    "avec": "Maximilian (identité non précisée par les fiches)",
+    "nature": "Adversaire discret : il propose un musée Albers à Munich contre une cinquantaine de tableaux ; connaît Eastman.",
+    "evolution": "Renonce après qu'Anni mentionne Eastman.",
+    "refs": [
+     "EV-00130",
+     "SC-00030",
+     "PE-00280"
+    ]
+   },
+   {
+    "avec": "Monique Eastman",
+    "nature": "Épouse ; elle l'accompagne aux funérailles de Josef.",
+    "evolution": "Aucune donnée au-delà.",
+    "refs": [
+     "SC-02149"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Sur le projet de musée de Munich, EV-00130 dit que Maximilian abandonne après qu'Anni a dit qu'elle en parlerait avec Lee, alors que PE-00280 laisse entendre que l'appel d'Eastman suffit à faire tomber le projet. Qui a fait quoi exactement n'est pas tranché.",
+   "Sur le retour d'Elaine auprès de Bill, Stevens et Swan l'attribuent à une poussée d'Eastman en été 1977, alors que Curtis la dit déjà installée un an et demi plus tôt. Datation contestée (EV-08368).",
+   "Sur la maison de Lily Pond Lane, PE-00280 la dit trouvée pour de Kooning, qui la refuse ; EV-07058 situe l'épisode en 1958-1959 (été suivant la location à Springs). Pas de contradiction réelle, mais le moment exact est flou.",
+   "Les fiches EV-00130, SC-00030 et CI-00090 portent des dates d'ancrage génériques (≈1899→1980) ; l'appel de Maximilian et de Weber n'est donc pas daté avec certitude, sauf qu'il est postérieur à 1976 puisque Weber fait suite aux funérailles."
+  ],
+  "situations_revelatrices": [
+   "Un coup de téléphone à enjeu : un visiteur ou un acheteur pressé veut s'emparer d'une collection, et Eastman répond avec ironie et fermeté.",
+   "Un déjeuner après les funérailles, où il distribue les responsabilités sans cérémonie.",
+   "Une visite de maisons avec un peintre qui refuse le décor trop soigné, et l'avocat qui comprend qu'il s'agit de goût plus que de prix.",
+   "Une audience ou une négociation de marchand, où il défend un artiste qui n'aime pas ces affaires.",
+   "La maison d'Anni : l'avocat voit la frugalité d'une riche veuve et la titille avec le caviar.",
+   "Un accord familial douloureux, où une épouse reçoit de l'argent mais perd le contrôle."
+  ],
+  "citations": [
+   "CI-00090",
+   "CI-00463",
+   "SC-00030",
+   "EV-00863",
+   "EV-08534"
+  ],
+  "questions_ouvertes": [
+   "Date de naissance et de mort, formation, cabinet, origine : rien dans les fiches.",
+   "A-t-il un lien direct avec Black Mountain College (élèves, financement, Albers à l'époque du collège) ? Aucune source ne le dit.",
+   "Comment et quand a-t-il rencontré les Albers ? Quand est-il devenu l'avocat de Bill ?",
+   "Quelle était sa position sur le conflit d'intérêts potentiel en représentant plusieurs artistes liés ?",
+   "Comment parlait-il en dehors de ces deux phrases ? Accent, humour, ton face à Elaine ou à Janis ?",
+   "Quelle suite a eu la tutelle de Weber sur la succession d'Anni, et le rôle d'Eastman ensuite ?",
+   "Quel était le degré de son attachement personnel à Anni ou à Bill, au-delà du professionnel ?"
+  ]
+ }
+}

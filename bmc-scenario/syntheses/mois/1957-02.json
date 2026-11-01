@@ -1,0 +1,197 @@
+{
+ "passe": "mois",
+ "cle": "1957-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2563,
+  "sortie": 10661,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1957-02",
+  "session": "Aucune session régulière : selon Chaddock, le trimestre d'hiver ne s'ouvre pas, la décision ayant été prise à l'automne 1956 (EV-06834). Le campus vit en liquidation, sans cours organisés.",
+  "saison_et_climat": "Plein hiver, déduit de la date et de la mention de cabanes sans chauffage sur la colline (LI-01405). Les fiches ne décrivent pas le temps qu'il fait.",
+  "situation": "Le collège n'a plus de gouvernement ni de rituel et n'accueille plus de trimestre. Il survit comme lieu de liquidation : Olson reste le dernier, les terres sont vendues par parcelles, la bibliothèque de Rice est en litige. Aucune annonce publique n'est attestée à ce stade (EV-06834), mais la fermeture est déjà acquise dans les faits.",
+  "presents_probables": [
+   {
+    "nom": "Olson (dernier sur place, liquidation en cours)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Derniers occupants des cabanes de la colline (non nommés)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Quelques étudiants épuisés qui travaillent encore la ferme (non nommés)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Le trimestre d'hiver ne s'ouvre pas ; le collège n'organise plus d'enseignement régulier.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06834"
+    ]
+   },
+   {
+    "date": "1957-02-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Life publie la photographie de la synagogue de Dallas (« Lofty Shrine »), probablement liée aux textiles d'Anni Albers ; ce lien reste une hypothèse.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06963"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Photographie de la communauté réunie pour l'annonce de la fermeture ; sa date exacte dans l'année est inconnue et rien ne permet de la placer en février.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06949"
+    ]
+   }
+  ],
+  "quotidien": "Pas de cours ni de réfectoire. Les occupants des cabanes vivent sans chauffage. À la ferme, quelques étudiants épuisés travaillent. Les fiches ne mentionnent ni repas précis, ni musique, ni cours pour ce mois.",
+  "tensions": [
+   "Olson contre Rice : Rice réclame environ 2000 volumes prêtés à la bibliothèque, et le litige court depuis mars 1956.",
+   "Liquidation silencieuse : aucune annonce publique, et des dettes qui mèneront à un arrêt judiciaire en mars.",
+   "Les sources datent la décision différemment : automne 1956 chez Chaddock, 1957 dans la synthèse.",
+   "Entre ceux qui tiennent le lieu pour un vrai lieu d'apprentissage et ceux qui y voient une ruine, les avis divergent.",
+   "Sans gouvernement, la hiérarchie repose sur le talent et l'honnêteté, et l'on ne se réunit que lorsqu'une menace pèse sur tous."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le dernier feu de la colline",
+    "date": "1957-02",
+    "lieu": "Colline des cabanes",
+    "personnages": [
+     "Derniers occupants (non nommés)"
+    ],
+    "deroule": "Les derniers habitants vivent dans des cabanes sans chauffage ni réfectoire, sans rituel ni chef. Ils ne se rassemblent que si une menace pèse sur tous, comme les membres de la communauté de 1955-56 le faisaient déjà.",
+    "certitude": "probable",
+    "refs": [
+     "LI-01405",
+     "EV-06536",
+     "EV-06537"
+    ]
+   },
+   {
+    "titre": "La ferme presque abandonnée",
+    "date": "1957-02",
+    "lieu": "La ferme du collège",
+    "personnages": [
+     "Quelques étudiants épuisés (non nommés)"
+    ],
+    "deroule": "Il ne reste que quelques étudiants pour travailler la ferme, à bout de forces. Le campus ressemble aux derniers jours du collège, et l'enseignement n'y a plus cours.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06390"
+    ]
+   },
+   {
+    "titre": "Olson, dernier sur place",
+    "date": null,
+    "lieu": "Campus du collège",
+    "personnages": [
+     "Olson"
+    ],
+    "deroule": "Olson, resté le dernier, liquide ce qui reste : il vend l'immobilier, règle la question de la bibliothèque de Rice et prévoit l'entretien des tombes de Jalowetz et de Max Dehn, avant de partir pour la maison familiale de Gloucester. La date de ces actes n'est pas fixée.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "CI-03430"
+    ]
+   },
+   {
+    "titre": "La synagogue de Dallas dans Life",
+    "date": "1957-02-25",
+    "lieu": "Dallas, Texas",
+    "personnages": [
+     "Anni Albers (lien hypothétique)"
+    ],
+    "deroule": "Life consacre une page à la synagogue de Dallas, probablement pourvue de textiles d'Anni Albers. Pendant que le collège se défait, son travail se répand ailleurs, installé dans un lieu public.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06963",
+     "EV-06899"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le campus gelé de février 1957",
+    "vers_date": "1956",
+    "vers": "La décision silencieuse de l'automne 1956 : parcelles vendues, trimestre d'hiver annulé, sans annonce publique.",
+    "refs": [
+     "EV-06834"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les cabanes de la colline, habitées par les derniers",
+    "vers_date": "1955",
+    "vers": "Une communauté sans gouvernement ni rituel, où chacun suit sa voie et où la hiérarchie repose sur le talent et l'honnêteté.",
+    "refs": [
+     "EV-06536",
+     "EV-06537"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le litige avec Rice, en cours ce mois-ci",
+    "vers_date": "1957-03",
+    "vers": "Un juge ordonne l'arrêt des programmes éducatifs jusqu'au paiement des dettes ; Olson part alors pour San Francisco.",
+    "refs": [
+     "EV-06964",
+     "EV-06966",
+     "CF-00806"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le litige avec Rice, en cours ce mois-ci",
+    "vers_date": "1957-04-01",
+    "vers": "Olson écrit à Rice pour lui annoncer la fermeture : « cette fois, John Rice, les loups ont eu tes moutons ».",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La liquidation en cours, dernier sur place",
+    "vers_date": "1957",
+    "vers": "À l'automne paraît le septième et dernier numéro de la Black Mountain Review, avec Ginsberg, Kerouac, Snyder et Whalen.",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Anni Albers, son tissage à Dallas",
+    "vers_date": "1957-06",
+    "vers": "Anni Albers rédige sa déclaration pour Asilomar.",
+    "refs": [
+     "EV-06968"
+    ]
+   }
+  ],
+  "motifs": [
+   "Extinction sans annonce publique",
+   "Liquidation menée par Olson, dernier sur place",
+   "Légende qui se répand loin du campus",
+   "Passage de témoin vers les Beats",
+   "Albers propage la méthode ailleurs"
+  ],
+  "lacunes": "On ignore la date exacte de la décision et de l'annonce. On ne sait pas si Olson est physiquement sur le campus en février. La date de la photo de l'annonce est inconnue. Le lien entre la photo de Life et Anni Albers est une hypothèse. Aucun des derniers occupants n'est nommé. Les fiches ne disent rien sur les repas, la musique ou les cours en février 1957."
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "passe": "mois",
+ "cle": "1949-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5829,
+  "sortie": 12690,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1949-10",
+  "session": "Semestre d'automne 1949 (déduit : la fiche dit que la faculté se reconstitue « à l'automne », sans date plus précise)",
+  "saison_et_climat": "Automne 1949. Le climat n'est décrit dans aucune fiche. Après un été dispersé (Albers au Mexique puis à Harvard, Olson au Yucatan, Fuller parti après sa session), le campus reprend avec une équipe presque entièrement renouvelée.",
+  "situation": "Le collège vit l'après-crise. Pittenger a démissionné le 26 octobre (EV-04902), après six mois de rectorat. Un groupe de six anciens étudiants, avec Pittenger et Corkran, a passé deux jours chez Stephen Forbes pour proposer un Board of Overseers qui choisirait et révoquerait le recteur, tout en laissant la propriété et la ligne éducative à la faculté (EV-04898). Forbes, de passage pendant ses vacances, offre jusqu'à 6000 dollars pour un bâtiment des sciences et se dit favorable à l'idée de Levi d'ajouter cinq ou six non-résidents au conseil (EV-04899, SC-01252). La recherche d'un nouveau recteur commence, dans un climat de factions. Albers, Anni, Dreier, Olson et Fuller sont probablement absents.",
+  "presents_probables": [
+   {
+    "nom": "Stephen Forbes",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Pittenger",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Corkran",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Steinau (ancien étudiant, réunion chez Forbes)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Howard (ancien étudiant, réunion chez Forbes)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dehn (à plein temps)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hazel Larsen Archer (enseigne, expose à New York)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Natasha Goldowski (secrétaire, écrit aux Rondthaler)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bodky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "McCandless",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Warrington",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hetherington et Louise Hetherington",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Robert Turner (céramique)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Paul Leser",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Eliane (Flola) Shepard",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Fiore",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Johanna Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jennerjahn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Paul Williams (construit l'atelier de poterie avec Turner)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1949-10-11",
+    "precision": "jour",
+    "ce_qui_arrive": "Ouverture au MoMA de l'exposition de photographie dirigée par Steichen (jusqu'au 15 novembre). Hazel-Frieda Larsen, présentée comme « young amateur », y montre sept portraits, dont deux photos de la Quiet House accrochées côte à côte.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04900",
+     "EV-04901",
+     "SC-01253"
+    ]
+   },
+   {
+    "date": "1949-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Visite de Stephen Forbes au collège pendant ses vacances : il offre jusqu'à 6000 dollars pour un bâtiment des sciences, se dit favorable à l'idée de non-résidents au conseil et propose de chercher un recteur en parallèle de la faculté.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04899",
+     "SC-01252"
+    ]
+   },
+   {
+    "date": "1949-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunion de deux jours chez Forbes entre six anciens étudiants, Pittenger et Corkran, qui aboutit à la proposition d'un Board of Overseers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04898"
+    ]
+   },
+   {
+    "date": "1949-10-26",
+    "precision": "jour",
+    "ce_qui_arrive": "Pittenger adresse sa démission au conseil et à la faculté. Levi dit à Forbes qu'on ne la regrettera pas, Dan Rice le décrit comme empesé mais bienveillant.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04902"
+    ]
+   },
+   {
+    "date": "1949-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Ouverture d'une double recherche d'un recteur, sur fond de conflits entre factions.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-04902"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Reconstitution hétéroclite de la faculté d'automne : retour des étudiants partis en protestation, recrutement d'un noyau quaker par Trayer, Pittenger et Bodky, arrivée de Leser et Shepard venus d'Olivet.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les étudiants revenus et les nouveaux venus reprennent les cours. Dehn enseigne à plein temps. Le noyau quaker (McCandless, Warrington, les Hetherington, Turner pour la céramique) s'installe. L'atelier de poterie se construit avec Paul Williams et Turner. Les effectifs sont tombés à environ 45 étudiants. Natasha Goldowski écrit avec optimisme aux Rondthaler. Les débats sur l'avenir du collège occupent les réunions. Aucune fiche ne décrit les repas, les concerts ni le détail des cours de ce mois.",
+  "tensions": [
+   "Un Board of Overseers qui choisirait et révoquerait le recteur face à une faculté qui veut garder la main sur la politique éducative",
+   "Des dons conditionnés (6000 dollars) et l'arrivée de non-résidents face à la méfiance envers toute ingérence extérieure",
+   "Le départ de Pittenger, après six mois, laisse un rectorat vacant alors que les factions se déchirent",
+   "Pittenger tenu pour inefficace par Levi et Forbes, mais décrit comme bienveillant par Dan Rice ; Forbes note qu'il n'avait jamais voulu quitter ses vergers de pommiers et que personne ne lui prête d'ambition personnelle",
+   "Une trésorerie fragile après la vente de 70 acres et les querelles de pensions",
+   "Les anciens étudiants, qui veulent peser sur les décisions, face à une faculté qui se reconstitue"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Forbes s'arrête entre deux vacances",
+    "date": "1949-10",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Stephen Forbes",
+     "Levi",
+     "faculté"
+    ],
+    "deroule": "Forbes, en pause de voyage, passe au collège. Il offre de financer le bâtiment des sciences jusqu'à 6000 dollars et déclare qu'il est enclin à soutenir l'idée de Levi d'ajouter cinq ou six non-résidents au conseil. Il propose de chercher un recteur en parallèle du travail de la faculté. Ton calme et conciliant : l'enjeu est de montrer qu'on peut aider sans dominer.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01252",
+     "EV-04899"
+    ]
+   },
+   {
+    "titre": "Deux jours chez Forbes",
+    "date": "1949-10",
+    "lieu": "chez Stephen Forbes",
+    "personnages": [
+     "Steinau",
+     "Howard",
+     "Pittenger",
+     "Corkran",
+     "Stephen Forbes"
+    ],
+    "deroule": "Six anciens étudiants, avec Pittenger et Corkran, passent deux jours à élaborer un Board of Overseers. Il choisirait et révoquerait le recteur, gérerait salaires, titularisations, budget et embauches avec lui, et s'occuperait de la collecte de fonds. La propriété et la politique éducative resteraient à la faculté.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04898"
+    ]
+   },
+   {
+    "titre": "La lettre de démission",
+    "date": "1949-10-26",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Pittenger",
+     "Levi",
+     "Dan Rice",
+     "Stephen Forbes"
+    ],
+    "deroule": "Pittenger adresse sa démission au conseil et à la faculté. Levi confie à Forbes qu'on ne le regrettera pas, car Pittenger ne rapportait pas d'argent et le collège n'a pas besoin d'un président aux pouvoirs forts. Dan Rice le décrit comme empesé mais bienveillant, un homme qui n'a jamais compris l'école. Forbes, qui consigne la scène dans son journal, note qu'il n'avait jamais voulu quitter ses vergers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04902"
+    ]
+   },
+   {
+    "titre": "Deux photos de la Quiet House au MoMA",
+    "date": "1949-10-11",
+    "lieu": "Museum of Modern Art, New York",
+    "personnages": [
+     "Hazel Larsen Archer",
+     "Ruth Asawa"
+    ],
+    "deroule": "Dans l'exposition de Steichen, deux photographies d'Archer se répondent : à gauche Asawa de profil devant les portes de la Quiet House, à droite un gros plan plus petit d'une poignée de porte dont les vis dessinent un visage. Le monde intime de Caroline du Nord entre dans les salles new-yorkaises, et l'« amateur » Larsen expose aux côtés de Lange et Levitt. Asawa, probablement en Californie à cette date, n'est pas présente physiquement.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01253",
+     "EV-04900",
+     "EV-04901"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "La démission de Pittenger, le 26 octobre",
+    "vers_date": "1949-01",
+    "vers": "Le séjour de Pittenger au collège en janvier, où il juge Albers « impossible comme exécutant » et Dreier privé de la confiance de tous, avant la série de démissions de février.",
+    "refs": [
+     "EV-04902"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La réunion chez Forbes, qui reprend l'idée d'un conseil extérieur",
+    "vers_date": "1949-01-14",
+    "vers": "La réunion new-yorkaise qui esquissait un « Black Mountain College of the Arts », conçue à l'insu des Albers et rendue caduque par la révolte de la faculté.",
+    "refs": [
+     "EV-04898"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La double recherche d'un recteur ouverte fin octobre",
+    "vers_date": "1950",
+    "vers": "Une guerre des factions qui culmine en 1950-1951, sur fond de conflit entre anciens étudiants, faculté reconstituée et conseil extérieur.",
+    "refs": [
+     "EV-04898",
+     "EV-04902"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le départ de Pittenger comme sortie de scène ; personne ne lui prête d'ambition personnelle",
+   "Le pouvoir décisionnel partagé entre intérieur et extérieur",
+   "Un regard (la photographie) qui révèle un monde intime au public new-yorkais",
+   "La reconstruction sans fondateurs : une faculté hétéroclite qui se refait"
+  ],
+  "lacunes": "La date exacte de la visite de Forbes et des deux jours chez lui n'est pas donnée : seul le mois est connu. La date de démission de Pittenger (26 octobre) contredit la synthèse, qui parle de « fin octobre ou novembre ». L'arrivée de la faculté d'automne n'est datée qu'à la saison. On ne sait pas si Archer était au collège pendant l'exposition new-yorkaise. Le quotidien (repas, cours, musique) n'est pas documenté. Deux scènes de Wyeth (SC-01254, SC-01255) ne concernent pas le collège et ont été écartées."
+ }
+}

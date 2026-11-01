@@ -1,0 +1,238 @@
+{
+ "passe": "mois",
+ "cle": "1956-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2044,
+  "sortie": 10631,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1956-11",
+  "session": "Automne 1956, sans session formelle : le collège n'a plus de structure d'enseignement et se liquide.",
+  "saison_et_climat": "Fin d'automne 1956 près d'Asheville, en Caroline du Nord. Les fiches ne décrivent pas le climat de novembre. On peut supposer, par déduction, un froid humide en montagne et des jours courts. Le kudzu, déjà envahissant à l'arrivée de Borregaard fin septembre, reste la présence végétale dominante du campus.",
+  "situation": "Le collège n'existe plus comme institution. La fermeture a été annoncée en octobre chez Olson, à la bougie. Il reste un campus à liquider, des dettes à éponger et quelques personnes dispersées : Fiore à New York, Huss et la troupe de Medea avec Duncan à San Francisco, Olson resté pour solder. La vente du campus bas à un acheteur est en cours ou à venir, sans date précise. Les fiches ne datent pas le départ de chacun, donc la chronologie exacte de novembre reste floue.",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ebbe Borregaard",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Duncan",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Annonce de la fermeture du collège, faite chez Olson à la bougie. Elle précède immédiatement novembre.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Liquidation du campus et des dettes, portée par Olson seul, qui ne veut plus enseigner.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Dispersion des derniers membres : Fiore à New York, Huss et la troupe de Medea avec Duncan à San Francisco.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Un homme décide d'acheter le campus. Date, montant et conditions ne sont pas donnés.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956-11-03",
+    "precision": "jour",
+    "ce_qui_arrive": "Cunningham dépose une demande de bourse Guggenheim. La fiche ne le relie pas à la vie du collège à ce moment.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06881"
+    ]
+   },
+   {
+    "date": "1956-11-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Au Mexique, les Albers découvrent un métier à tisser de ceinture à Santo Tomás, et rencontrent Thornton Wilder pendant le même voyage. Ils ne sont pas au collège à cette date.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06882"
+    ]
+   }
+  ],
+  "quotidien": "Une vie réduite au minimum : Olson, quelques restes du groupe, la gestion des comptes, des dettes et de la vente. Il n'y a plus de cours ni de rituels. Le tutorat informel subsiste, et chacun sert de ressource aux autres, mais l'essentiel est le démontage. Le campus, envahi par le kudzu, est probablement difficile à entretenir (déduit). Les repas et la vie domestique se font sans structure commune.",
+  "tensions": [
+   "Dettes qui absorbent presque tout l'argent : la fermeture ne ferme pas les comptes.",
+   "Olson, ironique et épuisé, face à un collège qu'il ne veut plus faire fonctionner.",
+   "Ressentiment de Fiore envers Olson, nourri par la rivalité autour de Dan Rice.",
+   "Satire de Duncan contre Olson, « Old Son », perçue comme une déclaration d'indépendance.",
+   "Perte du statut GI, et fausse brochure envoyée aux demandeurs d'admission par Eloise Mixon.",
+   "Menace d'accusation d'immoralité liée à l'affaire de l'étudiant violent, probablement mineure.",
+   "Le collège se disperse plus qu'il ne meurt : l'éclatement précède la fin formelle."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les comptes du campus",
+    "date": "1956-11",
+    "lieu": "Campus bas ou maison d'Olson",
+    "personnages": [
+     "Olson",
+     "Ebbe Borregaard"
+    ],
+    "deroule": "Olson fait le point sur les dettes et sur l'offre d'achat. Borregaard, arrivé fin septembre dans un campus envahi et sans électricité, découvre l'ampleur de la liquidation. La scène peut tourner autour de ce qui reste à vendre et de ce qui doit aller aux créanciers.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La visite de l'acheteur",
+    "date": null,
+    "lieu": "Campus bas",
+    "personnages": [
+     "Olson",
+     "un acheteur non identifié"
+    ],
+    "deroule": "Un homme visite le campus loué l'été précédent à un camp chrétien de garçons, pour en faire une acquisition jugée marginale par le collège. Olson montre ce qui reste, sous le kudzu, et négocie.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Lettre de candidature",
+    "date": "1956-11-03",
+    "lieu": null,
+    "personnages": [
+     "Cunningham"
+    ],
+    "deroule": "Cunningham écrit sa demande de bourse Guggenheim. La scène est hors du collège et sert de contrepoint à la dispersion de ceux qui restent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06881"
+    ]
+   },
+   {
+    "titre": "Rencontre au Mexique",
+    "date": "1956-11-14",
+    "lieu": "Santo Tomás, Mexique",
+    "personnages": [
+     "Albers",
+     "Thornton Wilder"
+    ],
+    "deroule": "Au cours d'un voyage, les Albers repèrent un métier à tisser de ceinture, « une variété intéressante du type habituel ». Ils rencontrent Wilder. Scène hors du collège, qui illustre le réseau d'anciens qui se prolonge ailleurs.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06882"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Novembre, Olson seul avec les restes du collège",
+    "vers_date": "1956-10",
+    "vers": "L'annonce de la fermeture à la bougie, chez Olson, en octobre.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre, après la décision d'arrêter",
+    "vers_date": null,
+    "vers": "Olson et Huss dans un café d'Asheville, à l'automne, qui conviennent de fermer : inscriptions minimes, corps enseignant réduit à eux deux.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre, la troupe dispersée",
+    "vers_date": "1956-08-29",
+    "vers": "Les représentations de Medea de Duncan les 29 et 30 août, dernier grand moment collectif.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre, le départ de Dan Rice et de Fiore",
+    "vers_date": "1956",
+    "vers": "L'hiver 1956 : Fiore reproche à Rice de profiter du manque de structure, et Rice préfère partir.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, Olson qui solde le campus",
+    "vers_date": "1957",
+    "vers": "La liquidation se poursuit jusqu'en 1957.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, les souscriptions de Williams à New York",
+    "vers_date": null,
+    "vers": "Maximus 11/22 par souscription : 25 souscripteurs à 25 dollars, 350 exemplaires prévus.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, la dispersion des anciens",
+    "vers_date": null,
+    "vers": "Le réseau d'anciens se prolonge ailleurs : Albers à Yale puis au Mexique, Asawa en Californie, Rauschenberg à New York.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)",
+     "EV-06882"
+    ]
+   }
+  ],
+  "motifs": [
+   "dispersion plutôt que mort",
+   "dettes et liquidation",
+   "campus envahi par le kudzu",
+   "bougie et fin à la lumière artificielle",
+   "satire et indépendance",
+   "la fausse brochure",
+   "réseau d'anciens"
+  ],
+  "lacunes": "On ignore la date exacte de la fermeture officielle et le moment précis des départs de novembre. On ne sait pas qui est encore sur place, ni si Huss et Duncan sont déjà à San Francisco. L'identité, la date et les conditions de l'acheteur du campus manquent. On ne sait pas si le campus est toujours sans électricité. Les fiches ne montrent pas que Cunningham ou les Albers soient liés au collège à cette date. La synthèse 1956 n'a pas d'identifiant : les éléments qui en viennent sont cités par son titre."
+ }
+}

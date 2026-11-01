@@ -1,0 +1,47 @@
+#annee 1946-47
+#catalogue speculation/catalogues/1946-47.txt 2017.40.217.01a-k+2017.40.218.01+2017.40.039+2017.40.040
+#periodes 08:30,09:30,10:30,11:30 15:00,16:00,17:00 50
+> ## 1946-47 : retour aux semestres, les Albers en congé
+>
+> **Les sources.** Le bulletin de septembre 1946 (2017.40.217.01a-k) donne les cours du premier semestre par enseignant, et une partie de ceux du second. Celui du 1er novembre 1946 (2017.40.218.01) décrit les groupes et les rendez-vous réguliers de l'automne, déjà dans le semainier jusqu'au 10 décembre. Après décembre 1946, le corpus ne contient presque plus de bulletins : trois programmes de concerts et la lettre de mars 1947. Le second semestre est donc reconstitué en reconduisant le premier (TERME_DEDUIT), sauf pour les cours dont la suite est annoncée.
+>
+> **1. Le cadre** (annonces de mai 1946) :
+> - premier semestre du 18 septembre 1946 au 8 février 1947 (cours dès le 19 à 8 h 30), coupé par les vacances de Noël du 11 décembre à midi au 8 janvier à 8 h 30 ;
+> - second semestre du 11 février au 14 juin, avec les vacances de printemps du 29 mars au 8 avril ;
+> - Summer Session du 30 juin au 23 août 1947, au programme annoncé en avril (2017.40.040).
+>
+> **2. L'horaire.** Celui de 1944-46 est reconduit (VOISIN) : cours de 50 minutes à 8:30, 9:30, 10:30, 11:30, 15:00, 16:00 et 17:00. Le cours Human Relations de Wallen suit la forme donnée par la source : deux séances d'1 h, une de 2 h et un après-midi de laboratoire.
+>
+> **3. Les personnes** :
+> - **en congé** : Josef et Anni Albers, remplacés par Ilya Bolotowsky (dessin, peinture) et Franziska Mayer (tissage) ;
+> - **partis** : Erwin et Trudi Straus (Lexington) ;
+> - **arrivés** : Charlotte Schlesinger (musique, vers le 23 septembre), Karl Niebyl (économie), William Malton (français, théâtre, au second semestre) ;
+> - **retours** : Dreier (de Cambridge, le 1er août 1946) et Dehn (au second semestre) ;
+> - **restés** : Corkran, Levi, Lowinsky, Miller, M. C. Richards, Wallen, Hansgirg, les Rondthaler, Molly Gregory, Johanna Jalowetz.
+>
+> **4. Le rythme de la semaine**, attesté à l'automne 1946 (2017.40.218.01) et reconduit après décembre :
+> - faculté le lundi soir ;
+> - « The World Today » de Miller le mardi soir ;
+> - portes ouvertes chez les Niebyl et groupe d'écrivains le vendredi soir ;
+> - groupe de lecture de pièces le vendredi à 20 h 30 ;
+> - danse moderne et groupe de discussion le dimanche à 10 h ;
+> - disques et expositions le dimanche soir ;
+> - un concert au moins toutes les trois semaines, le samedi.
+
+S|semaine|||calendrier|Semaine de cours, {terme} (calendrier 1946-47 : annonces de mai 1946)|||aucun congé attesté dans la semaine|SEMAINE|2017.40.037+2017.40.214.01a-h
+
+S|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g
+S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||horaire de 1944-45 ; fin non attestée|SEMAINE+VOISIN|2017.40.172a-g
+S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g
+S|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g
+S|dim|13:00|14:00|social|Dîner du dimanche|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g
+S|dim|18:00|18:45|social|Souper froid du dimanche|Communauté||usage de 1944-45, heure non donnée|SEMAINE+VOISIN+HEURE|2017.40.172a-g
+
+S|lun,mer,ven|13:30|17:30|travail|Programme de travail (ferme, bois, construction des logements fédéraux, ménage)|Communauté||horaires de 1944-45 ; Work Program Planning Committee (nov. 1946)|SEMAINE+JOUR+VOISIN|2017.40.176a-h+2017.40.218.01|fall,spring
+S|lun|19:30|21:00|reunion|Réunion de la faculté|Faculty||« Regular Faculty meetings », le lundi soir (automne 1946) ; heure supposée|SEMAINE+HEURE+TERME_DEDUIT|2017.40.218.01|fall@1947-01-09..1947-02-08,spring
+S|mar|19:30|20:30|conference|« The World Today » : actualité nationale et mondiale, ouvert à tous|Herbert A. Miller|Lobby of South Lodge|« This group meets Tuesday evenings in the lobby of south lodge » (nov. 1946) ; heure supposée|SEMAINE+HEURE+TERME_DEDUIT|2017.40.218.01|fall@1947-01-09..1947-02-08,spring
+S|ven|19:30|21:00|social|Portes ouvertes chez Karl et Elizabeth Niebyl (discussions)|Karl Niebyl; Elizabeth Niebyl|Black Dwarf|« Friday night at the Neibyl's » (nov. 1946)|SEMAINE+TERME_DEDUIT|2017.40.218.01|fall@1947-01-09..1947-02-08,spring
+S|dim|10:00|11:30|danse|Modern Dance Group|Students||« This group meets Sunday mornings and the time is ten o'clock » (nov. 1946)|SEMAINE+TERME_DEDUIT|2017.40.218.01|fall@1947-01-09..1947-02-08,spring
+S|dim|20:00|21:30|concert|Disques et exposition du dimanche soir dans la salle d'art : possible|Don Wight|Art Room|« Don Wight planned record concerts and art showings for Sunday evenings in the art room » (nov. 1946)|OCCASION+HEURE|2017.40.218.01|fall@1947-01-09..1947-02-08,spring
+S|sam|20:30|22:00|concert|Concert du samedi soir : possible|Music Department|Dining hall|« Concerts will be given every three weeks at least » (nov. 1946) ; concerts du samedi à 20 h 30 attestés le 1er et le 15 mars et le 26 avril 1947|OCCASION|2017.40.218.01+2017.40.320+2017.40.323|fall,spring
+S|ven|20:30|22:00|theatre|Groupe de lecture de pièces : possible|Students||« The established time up to now has been 8:30 on Friday evenings » (nov. 1946)|OCCASION+TERME_DEDUIT|2017.40.218.01|fall@1947-01-09..1947-02-08,spring

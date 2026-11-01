@@ -1,0 +1,396 @@
+{
+ "passe": "personnes",
+ "cle": "Francine du Plessix Gray",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 13122,
+  "sortie": 11979,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Francine du Plessix Gray",
+  "autres_noms": [
+   "Francine Gray",
+   "Francine du Plessix"
+  ],
+  "dates_de_vie": "Naissance non donnée par les fiches ; vers 1930-1931 d'après « vingt ans en 1951 » et « huit ans » en mai 1939 (déduction). Mort non documentée dans les fiches. Elle est active comme écrivaine au moins jusqu'en 1987.",
+  "statut_bmc": "Étudiante d'été, deux sessions seulement (1951 et 1952). Elle est venue pour la peinture mais a rejoint aussitôt l'atelier d'écriture de Charles Olson. En parallèle, elle est étudiante à Barnard. Elle est témoin directe de l'événement de Cage d'août 1952, dont son journal est une source majeure.",
+  "presence": [
+   {
+    "debut": "1951",
+    "fin": "1951",
+    "role": "Étudiante d'été venue étudier la peinture, vite passée à l'atelier d'écriture d'Olson. Premier été, avec coupe de cheveux courte et tutoriel foudroyant. Elle accompagne Jonathan Williams au bureau de recrutement d'Asheville.",
+    "refs": [
+     "EV-05326",
+     "EV-05304",
+     "EV-05303",
+     "EV-05307",
+     "SC-01366",
+     "SC-01365"
+    ]
+   },
+   {
+    "debut": "1952",
+    "fin": "1952-08",
+    "role": "Étudiante d'été de retour, lauréate éphémère de l'atelier réduit à six étudiants. Disgraciée par Olson après le prix de Barnard. Spectatrice et diariste de l'événement Cage d'août.",
+    "refs": [
+     "EV-05604",
+     "EV-05606",
+     "SC-01482",
+     "EV-05630",
+     "EV-05840",
+     "SC-01487",
+     "SC-01557",
+     "SC-01554",
+     "EV-05845",
+     "CI-02929",
+     "SC-01486"
+    ]
+   },
+   {
+    "debut": "",
+    "fin": "",
+    "role": "Mentionnée avec Rauschenberg et Twombly comme élève de Motherwell, dans le souvenir des dimanches de baseball. La date de 1945 donnée par EV-03761 est incompatible avec son âge, voir contradictions.",
+    "refs": [
+     "EV-02530",
+     "SC-00646",
+     "EV-03761"
+    ]
+   }
+  ],
+  "portrait_physique": "Jeune fille d'environ vingt ans en 1951 (déduction à partir de son âge). Cheveux coupés très courts et irréguliers, « comme une punk » selon son propre souvenir, ce qui donne une version unisexe et macho du style de Black Mountain. Elle se décrit elle-même comme garçon manqué, nomade, assoiffée de liberté. Elle a un regard d'observatrice acérée : elle décrit Cage, strictement habillé, avec une coupe en brosse envahissante et une transpiration énorme, « comme le fils du croque-mort ». Rien de plus précis sur le corps ou la tenue dans les fiches.",
+  "noyau_psychologique": "Fille obéissante, nourrie d'autorité (père censeur, éducation catholique et européenne), qui cherche, sans le formuler d'abord, des hommes assez forts pour qu'elle les défie et les fasse tomber. Elle croit à la fois au besoin d'un maître et à la nécessité du parricide. Sa vocation d'écrivaine naît de l'interdit : le père déchire son récit, Olson lui interdit de publier pendant dix ans, et elle devra écrire contre eux, et grâce à eux. Esprit critique, ironique, intellectuellement arrogant, elle désapprouve ce qu'elle admire et admire ce qu'elle désapprouve. Elle se protège de sa propre peur de devenir écrivain par le journal, puis par d'autres métiers (reportage, mode, peinture). Déduction : la docilité est à la fois sa blessure et sa stratégie de survie.",
+  "blessures": "Le père, « l'amour de sa vie » mais censeur, qui déchire son premier récit en mai 1939 en criant « pathetic dribble » et meurt quatorze mois plus tard dans la Résistance française. Elle n'a pas pu le réconcilier de son vivant et devra l'enterrer symboliquement. S'y ajoutent l'éducation autoritaire (gouvernante tyrannique, noblesse provençale « proud, poor ») et la répétition de la scène avec Olson, qui crie son interdit de publier. Plus tard, les vides et la solitude de la vie domestique à la campagne la font pleurer des heures.",
+  "desirs": "Devenir adulte en se purgeant des « folderols » ancestraux, des convenances européennes et de l'abstraction aristotélicienne. Trouver une voix à elle, par la subjectivité et la candeur, et non par la forme apprise. Être reconnue par un maître (« That's space! ») sans se laisser avaler par lui. Elle est aussi attirée par la liberté du monde : voyages, reportage, architecture ou théologie envisagées avant de se tourner vers l'écriture.",
+  "peurs": "Devenir écrivain : la fiche parle de « peur de Devenir Écrivain », que le journal sert à conjurer. Peur aussi d'être une « fille docile », tentation et danger permanents. Peur de la honte publique devant les autres étudiants, dont Olson l'épargne dans le tutoriel. Peur du vide domestique. Déduction : peur de décevoir l'autorité, qui prend la place de celle du père.",
+  "maniere_d_aimer": "Elle aime les figures masculines fortes et dictatoriales, qu'elle admire tout en les vivant comme des censeurs : le père « amour de sa vie », puis Olson, dont elle garde une reconnaissance à vie pour son « rigor paternel ». Elle aime en obéissant puis en se libérant. Elle reste lucide sur les défauts de ses mentors (« sham et magnificence »). Les sources ne disent rien de ses amours sentimentales à BMC ; son mariage plus tard est mentionné sans détail.",
+  "rapport_au_pouvoir": "Ambivalent. Elle se soumet aux hommes qui exercent une autorité spectaculaire (père, Olson) et l'attend comme une bénédiction, mais cherche aussi à en sortir par le parricide symbolique. Elle est capable d'ironie sévère sur la fabrication de « petits génies oraculaires » par Olson et sur l'économie de la faveur, tout en jouant le jeu. Plus tard elle théorise que les oppresseurs masculins, en nous apprenant à désobéir, peuvent devenir nos libérateurs. Sa conviction politique est pacifiste, de gauche, fédéraliste mondiale depuis l'adolescence.",
+  "voix": {
+   "registre": "Mélange de langue savante (philosophie médiévale, Kierkegaard) et de vivacité ironique de journaliste. Observation cinglante, jugement net et auto-ironie. Habituée à passer du français à l'anglais, elle a un humour sec sur les rituels du collège. Son journal écrit le soir même est vif et ironique. Rétrospectivement, elle porte un regard de professeur et de mémorialiste, qui pèse « dangers et vision ».",
+   "tics": "Condamnation par métaphores brutales (« pure messy noise », « adolescent screaming, shouting, yelling »). Précision sur les détails physiques ridicules (transpiration de Cage, coupe en brosse, croque-mort). Antithèses du type « pas assez de caractère, trop de personnalité ». Deux motifs reviennent : le père et les mentors. Dans ses premières nouvelles elle écrit à la troisième personne en s'inventant homme adulte ; Olson l'en guérit. Olson l'appelle « girl ».",
+   "exemples_paraphrases": [
+    "Sur la production du cours d'Olson : des adolescents qui hurlent, du pur bruit désordonné.",
+    "Sur la communauté olsonienne (citation attribuée avec prudence) : il y a trop de personnalité et pas assez de caractère.",
+    "Sur Olson, avec ambivalence : un gourou volage, usurpateur et magnifique, auquel elle doit pourtant d'écrire, sa sévérité paternelle lui ayant ouvert la voix.",
+    "Sur ses premières nouvelles : des déchets, en troisième personne, avec une actrice de vingt-deux ans pleurant à l'autel, ou un acteur alcoolique cherchant le salut dans une église du Bowery.",
+    "Sur sa trajectoire : des salons diplomatiques jusqu'au gourou le plus iconoclaste, pour se purger des conventions ancestrales."
+   ]
+  },
+  "habitudes": [
+   "Tient un journal quotidien, pendant des années (New Orleans, New York, Paris, campagne) ; à BMC, elle l'écrit le soir même des événements.",
+   "Écrit d'abord des nouvelles où elle s'invente en homme adulte, à la troisième personne, avant que le journal ne la corrige.",
+   "Obéit scrupuleusement aux consignes écrites de ses maîtres (une heure de journal par jour minimum pendant un an).",
+   "Observe et note les rituels de la communauté : poses supercool, orthographes phonétiques d'Olson (waz, enuf, kulchur…), baseball du dimanche.",
+   "Plus tard : veilles de nuit à United Press, martinis à huit heures du matin dans les bars sous le Third Avenue El avec ses collègues, peinture méticuleuse de paysages et natures mortes (cinq ans)."
+  ],
+  "convictions": [
+   "Pacifiste, de gauche, fédéraliste mondiale depuis l'adolescence ; l'accompagnement de Jonathan Williams au bureau de recrutement d'Asheville est pour elle une éducation politique aussi importante que celle de sa famille ou de son collège.",
+   "Valorisation de la subjectivité, de la candeur et de la désobéissance envers la forme et l'État.",
+   "Black Mountain est un lieu de parricide symbolique, où l'on vient par besoin instinctif de se purger des conventions ancestrales (formulation rétrospective, statut incertain à BMC).",
+   "Les mentors masculins, même oppresseurs, peuvent être des libérateurs : ses deux censures (père, Olson) lui ont donné sa voix.",
+   "Rétrospectivement : BMC se pensait comme frontière et salon de frontière, une utopie puritaine et une coterie artistique, à comparer à Brook Farm et Oneida."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1951",
+    "moment": "Arrivée pour peindre, mais Olson capte aussitôt son attention. Elle se coupe les cheveux, observe l'ambiance proto-beat et la fabrication de disciples.",
+    "etat_interieur": "Curiosité critique, désapprobation et fascination mêlées ; envie de se fondre dans le style macho et unisexe de l'endroit.",
+    "refs": [
+     "EV-05326",
+     "EV-05304",
+     "SC-01365"
+    ]
+   },
+   {
+    "date": "1951",
+    "moment": "Elle accompagne Jonathan Williams au bureau de recrutement d'Asheville, où il refuse l'incorporation par objection de conscience.",
+    "etat_interieur": "Éveil politique, sentiment d'appartenir à une communauté de principes.",
+    "refs": [
+     "EV-05307"
+    ]
+   },
+   {
+    "date": "1951",
+    "moment": "Tutoriel : Olson lit ses nouvelles et les déclare « pure shit ». Il lui ordonne un an de journal, une heure par jour minimum, et de revenir l'été suivant.",
+    "etat_interieur": "Humiliation sans humiliation publique, et obéissance de fille docile. Ce rejet réactive la blessure paternelle, mais elle accepte la sentence.",
+    "refs": [
+     "SC-01366",
+     "EV-05303"
+    ]
+   },
+   {
+    "date": "1951-12",
+    "moment": "Hors BMC, pendant son année de senior à Barnard : elle tient son journal, change sa thèse vers Kierkegaard.",
+    "etat_interieur": "Discipline et ouverture progressive à une écriture à la première personne (déduction sur la date : la fiche donne seulement « année de senior »).",
+    "refs": [
+     "EV-05303"
+    ]
+   },
+   {
+    "date": "1952",
+    "moment": "Prix de création littéraire de Barnard (500 dollars) pour trois récits autobiographiques écrits « depuis le centre » selon le précepte d'Olson.",
+    "etat_interieur": "Fierté, mais piège : le succès institutionnel va indisposer Olson.",
+    "refs": [
+     "EV-05605"
+    ]
+   },
+   {
+    "date": "1952",
+    "moment": "Été : elle montre son journal à Olson, qui l'acclame (« Si, si, girl! That's space! »). Quelques jours de gloire comme lauréate de l'atelier réduit à six étudiants. Elle écrit sur son père : « I pointed westward, towards his grave ».",
+    "etat_interieur": "Triomphe et adoration, sentiment d'être élue ; elle touche enfin au deuil.",
+    "refs": [
+     "EV-05604",
+     "RE-02241"
+    ]
+   },
+   {
+    "date": "1952",
+    "moment": "Olson lit les trois récits primés par Barnard, se lève de sa chaise et hurle qu'elle écrit encore du junk conservateur, qu'il faut s'en tenir au journal, et qu'elle ne doit rien publier avant dix ans.",
+    "etat_interieur": "Chute de la gloire à la disgrâce. Elle reconnaît le père, obéit à nouveau, et quelque chose se libère à long terme.",
+    "refs": [
+     "SC-01482",
+     "EV-05606"
+    ]
+   },
+   {
+    "date": "1952",
+    "moment": "Cage lit toute la nuit le Huang Po devant vingt à trente personnes, dont elle fait partie des témoins attestés.",
+    "etat_interieur": "Contraste avec l'olsonisme : Cage, plus doux et plus ironique, offre une autre manière de penser la vie et l'art. Déduction.",
+    "refs": [
+     "SC-01486",
+     "EV-05627"
+    ]
+   },
+   {
+    "date": "1952-08",
+    "moment": "Soirée du premier « Happening » : elle note dans son journal l'événement, du début à la fin, d'un trait vif et ironique.",
+    "etat_interieur": "Spectatrice amusée, cultivée, détachée ; sa trace écrite fonde plusieurs récits ultérieurs.",
+    "refs": [
+     "EV-05840",
+     "CI-02929",
+     "EV-05845",
+     "SC-01554",
+     "SC-01557",
+     "SC-01487"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Enfance européenne à Paris : préceptrice à domicile dès cinq ans, école par correspondance, gouvernante tyrannique. Origine dans la petite noblesse provençale, « proud, poor », éducation catholique et autoritaire.",
+    "refs": [
+     "EV-02942",
+     "PE-00200",
+     "EV-05326"
+    ]
+   },
+   {
+    "date": "1939-05",
+    "moment": "À huit ans, sujet libre donné par une nouvelle institutrice : elle écrit l'histoire d'une petite fille qui désobéit, va au lac voir une grenouille aux yeux verts détentrice de la clé de la liberté, et se noie. Le père la déchire et interdit d'écrire (« Pathetic dribble! »).",
+    "refs": [
+     "EV-02943",
+     "EV-02944",
+     "SC-00753",
+     "EV-02942"
+    ]
+   },
+   {
+    "date": "1940",
+    "moment": "Mort du père dans la Résistance française, quatorze mois environ après la scène (la fiche écrit « 1940 »).",
+    "refs": [
+     "EV-02942",
+     "EV-02944",
+     "RE-00586"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Formation américaine : écoles Spence, Bryn Mawr, Barnard ; thèse en philosophie médiévale (PE-00200) puis changée en Kierkegaard (EV-05303). Elle écrit alors des nouvelles « déchets » à la troisième personne.",
+    "refs": [
+     "PE-00200",
+     "EV-05303"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1952-12",
+    "moment": "Après BMC : elle suit le conseil d'Olson, tient son journal à New Orleans, en suivant un clarinettiste de jazz dans les tournées de Bourbon Street. Elle envisage Harvard en architecture et l'Union Theological Seminary.",
+    "refs": [
+     "EV-05933"
+    ]
+   },
+   {
+    "date": "1952",
+    "moment": "Reporter à United Press à New York, seule femme du quart de nuit, rédigeant des « World-in-Briefs » sur les purges de McCarthy (PE-00200 date l'emploi de 1952 à 1954).",
+    "refs": [
+     "PE-00200",
+     "EV-05933"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Reporter de mode à Paris auprès de narcissiques français ; retour aux États-Unis, mariage, cinq ans de peinture de paysages et natures mortes méticuleuses.",
+    "refs": [
+     "EV-05933",
+     "PE-00200"
+    ]
+   },
+   {
+    "date": "1962",
+    "moment": "Crise d'un jour d'hiver : mère de deux enfants, isolée à la campagne, elle pleure des heures devant un immense vide, puis sort un cahier et réécrit l'histoire de sa gouvernante. Publiée au New Yorker pile un an après l'échéance de dix ans fixée par Olson.",
+    "refs": [
+     "EV-07445",
+     "PE-00200"
+    ]
+   },
+   {
+    "date": "1964",
+    "moment": "Rédactrice en chef littéraire d'Art in America (1964-1966) ; plus tard enseigne à CCNY, Yale, Princeton.",
+    "refs": [
+     "PE-00200"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Psychanalyse, puis écriture en six mois des trois derniers chapitres de Lovers and Tyrants, dont le premier est le récit de la gouvernante. Deux livres de non-fiction publiés entre-temps.",
+    "refs": [
+     "OE-01436",
+     "EV-07445",
+     "RE-00586"
+    ]
+   },
+   {
+    "date": "1970",
+    "moment": "Début de la série de six livres (1970-1987) ; elle devient écrivain à part entière.",
+    "refs": [
+     "PE-00200"
+    ]
+   },
+   {
+    "date": "1987",
+    "moment": "Dans Adam and Eve & the City, elle raconte son expérience à BMC et attribue sa réussite en écriture « encore à Olson ». Le portrait est ambivalent : sham et magnificence.",
+    "refs": [
+     "PE-00200",
+     "RE-02241"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Réflexions rétrospectives : conversation féministe vingt ans plus tard sur les mentors oppresseurs et libérateurs ; diagnostic sur la double identité de BMC (utopie puritaine, coterie d'artistes).",
+    "refs": [
+     "ID-01478",
+     "ID-01477"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Père (nom non donné dans les fiches)",
+    "nature": "Famille ; amour et censure",
+    "evolution": "D'abord adoré et redouté ; la scène de mai 1939 fonde l'interdit d'écrire ; mort en 1940 ; deuil accompli par la psychanalyse et l'écriture, après le parricide symbolique tenté avec Olson.",
+    "refs": [
+     "RE-00586",
+     "SC-00753",
+     "EV-02944",
+     "EV-05604"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "Mentorat dictatorial et rivalité ; gourou volage",
+    "evolution": "Admiration, foudroiement, puis reconnaissance lucide à long terme. Il lui prescrit le journal, lui fait quitter la troisième personne, puis lui interdit de publier dix ans. Elle lui reproche son manque de précision et son refus des limites du langage, tout en lui devant sa vocation.",
+    "refs": [
+     "RE-02236",
+     "RE-02241",
+     "RE-02246",
+     "RE-01946",
+     "SC-01366",
+     "SC-01482"
+    ]
+   },
+   {
+    "avec": "John Cage",
+    "nature": "Interlocuteur intellectuel et sujet d'observation moqueuse",
+    "evolution": "Elle lui lit un passage ; il répond que l'opposition vie passive / art volontaire sonne creux (daté de façon vague ≈1948-1968). Elle assiste à ses événements de 1952 et le décrit avec une ironie précise.",
+    "refs": [
+     "SC-01077",
+     "CI-02823",
+     "SC-01486",
+     "SC-01487"
+    ]
+   },
+   {
+    "avec": "Jonathan Williams",
+    "nature": "Camarade de collège, objecteur de conscience",
+    "evolution": "Elle l'accompagne au bureau de recrutement d'Asheville ; expérience qu'elle juge formatrice sur le plan politique.",
+    "refs": [
+     "EV-05307"
+    ]
+   },
+   {
+    "avec": "Robert Motherwell",
+    "nature": "Professeur de peinture (cité avec Rauschenberg, Twombly)",
+    "evolution": "Relation décrite uniquement par son souvenir à lui des matchs de baseball du dimanche ; la date de 1945 est incohérente.",
+    "refs": [
+     "EV-02530",
+     "SC-00646",
+     "EV-03761"
+    ]
+   },
+   {
+    "avec": "Camarades de l'atelier d'Olson (Victor, Arthur)",
+    "nature": "Compétition pour la faveur du maître",
+    "evolution": "Elle observe comment Olson fabrique des génies d'une semaine (« Si, Victor, si ! », « Arthur—you have it! ») avant d'être elle-même élue, puis rejetée.",
+    "refs": [
+     "SC-01365",
+     "SC-01491",
+     "EV-05604"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Date de présence : EV-03761 situe en 1945 l'été de Motherwell avec Rauschenberg, Twombly et Francine Gray comme élèves. Or Gray n'est à BMC qu'en 1951-1952 et aurait environ quinze ans en 1945 ; les fiches de baseball sont ancrées sur une période large (≈1936-1953). Traiter 1945 comme une erreur probable, et ne rien affirmer sur le baseball sans réserve.",
+   "Le père : « visite quotidienne » à la salle d'étude (SC-00753, EV-02942) mais « visite hebdomadaire à l'école par correspondance » dans les détails d'EV-02942. Nature de l'enseignement : préceptrice à domicile ou école par correspondance.",
+   "Ses premières nouvelles : PE-00200 parle d'une actrice de vingt-deux ans pleurant à l'autel ; SC-01366 et EV-05303 d'un acteur alcoolique d'âge mûr dans une église du Bowery. Peut-être deux textes ; non tranché.",
+   "Sa thèse : philosophie médiévale (PE-00200) contre « Kierkegaard's View on the Demise of Christianity » (EV-05303). Non incompatible si elle a changé de sujet, mais la chronologie n'est pas donnée.",
+   "Durée de la carrière à United Press : 1952-1954 (PE-00200) contre une séquence 1953→1962 (EV-05933) ; les dates de New Orleans, de Paris et du mariage ne sont pas précisées.",
+   "Événement du 1952-08 : son journal note 20h30 ; EV-05840 donne 20h30-22h30 ; EV-05630 prévoit 45 minutes ; EV-05845 cite une conférence de Cage allant jusqu'à 16h30 selon le même journal, ce qui est incohérent. Douze danseurs ou Cunningham seul ; Richards sur une échelle, dans un panier ou à cheval ; surface de projection incertaine ; contenu de la conférence incertain. À traiter comme mythe documentaire (aucune photo, un seul score).",
+   "Interdiction d'Olson : EV-05303 (1951) lui ordonne un an de journal ; EV-05606/SC-01482 (1952) ajoute dix ans sans publier. Les deux sont des étapes distinctes mais la fiche PE-00200 les condense.",
+   "La citation « pas assez de caractère, trop de personnalité » (CI-02838) est attribuée à Gray comme locutrice, mais le contexte la présente comme bilan d'un « Olsonien désillusionné » ; attribution à vérifier.",
+   "Attitude envers Olson : critique sévère (RE-02246, ID-02345) contre reconnaissance durable (RE-02241, PE-00200). Les deux coexistent ; le scénario doit garder l'ambivalence.",
+   "Provenance rétrospective : ID-01477, ID-01478 et ID-02345 datent de ≈1939-05 à 1965 mais viennent de souvenirs tardifs ; ID-02345 et ID-01477 sont « incertains » comme attestation à BMC. Ne pas les mettre dans sa bouche en 1951-1952 sans précaution."
+  ],
+  "situations_revelatrices": [
+   "Le tutoriel où le maître lit ses textes à voix haute et la condamne : elle obéit en silence puis revient plus forte.",
+   "La salle d'étude du père, le soir de mai, où la feuille est déchirée : scène matricielle à rejouer en écho.",
+   "L'atelier d'Olson, où un étudiant devient génie d'une semaine ; elle sera l'élue puis la déchue.",
+   "Le soir de l'événement Cage : spectatrice au journal ironique, tout chaos extérieur et sang-froid intérieur.",
+   "Le bureau de recrutement d'Asheville : accompagner un objecteur, choix politique silencieux.",
+   "Les nuits de journal, partout (New Orleans, United Press, campagne) : écrire pour ne pas devenir écrivain.",
+   "La crise domestique : pleurer des heures devant le vide, puis sortir le cahier."
+  ],
+  "citations": [
+   "CI-02823 : portrait de Cage, coupe en brosse et transpiration, « comme le fils du croque-mort ».",
+   "CI-02838 : « pas assez de caractère, trop de personnalité » (attribution à vérifier).",
+   "CI-02929 : ouverture du journal sur la soirée d'août 1952, Cage grimpant sur une échelle à 20h30.",
+   "SC-00753 / EV-02944 : la phrase du père, « Pathetic dribble! ».",
+   "SC-01366 : « Girl, this is pure shit! » (Olson).",
+   "SC-01482 : « You're still writing conservative junk! » et l'interdit de dix ans.",
+   "EV-05604 : « Si, si, girl! That's space! » et « I pointed westward, towards his grave »."
+  ],
+  "questions_ouvertes": [
+   "Date exacte de naissance et, le cas échéant, de mort ; nom du père et circonstances réelles de sa mort dans la Résistance en 1940.",
+   "Nom du mari, date du mariage et noms des enfants ; calendrier précis de la psychanalyse.",
+   "Qui l'a enseignée en peinture à BMC ? Quels cours a-t-elle réellement suivis hors atelier d'Olson ?",
+   "Qu'a-t-elle fait pendant l'événement Cage (simple spectatrice ?) et que dit exactement son journal du 1952-08 ?",
+   "Que pensait-elle des autres élèves (Twombly, Rauschenberg, Williams) ? Les sources ne donnent que leur présence.",
+   "Comment Olson a-t-il réagi à sa publication de 1962-63 et à ses livres ? Ont-ils eu des contacts après 1952 ?",
+   "Quel est le contenu de l'échange avec Cage (SC-01077) : date, lieu, passage lu ?",
+   "Quelles relations avec sa mère et la gouvernante, personnages centraux de Lovers and Tyrants ?",
+   "Le rapport entre sa conversion tardive à une lecture « libératrice » des oppresseurs et ce qu'elle ressentait à chaud en 1952."
+  ]
+ }
+}

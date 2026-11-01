@@ -1,0 +1,351 @@
+{
+ "passe": "mois",
+ "cle": "1935-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2951,
+  "sortie": 12839,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1935-11",
+  "session": "Trimestre d'automne 1935, dans la troisième année du collège selon la synthèse (1935-36) ; aucune fiche ne date novembre précisément",
+  "saison_et_climat": "Fin d'automne dans les contreforts des Appalaches, près d'Asheville. Les fiches ne décrivent pas le climat : le froid est une déduction probable, et la panne de chauffage évoquée dans la vie courante en est un indice, sans date précise.",
+  "situation": "Le collège a passé sa rentrée de septembre : nouveaux venus installés (Farrell, Knickerbocker, Sly, Fiorillo, les Moellenhoff, Seasongood), music cottage inauguré, exposition Dreier d'octobre accrochée dans les chambres, Albers publie sa doctrine. Dans le même temps, les frictions Rice-Knickerbocker et Rice-Albers montent, et Adamic est peut-être sur place pour son enquête.",
+  "presents_probables": [
+   {
+    "nom": "John Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nancy Farrell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Irving Knickerbocker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Allan Sly",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dante Fiorillo",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fritz Moellenhoff",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anna Moellenhoff",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Janet Seasongood",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Louis Adamic et Stella Adamic",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1935-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rentrée : arrivent Nancy Farrell (venue de Bennington) et Irving Knickerbocker, qui exprime d'emblée ses doutes sur les tactiques de classe de Rice.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Allan Sly et Dante Fiorillo (bourse Guggenheim) rejoignent la musique aux côtés d'Evarts.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "La musique au collège : d'Evarts à Sly (1935→1939)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "saison",
+    "ce_qui_arrive": "Inauguration du music cottage à l'automne : hot-dogs, Coca ou cidre ; Albers y plie son cintre à saucisse en S, et la saucisse tombe dans le feu.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Katherine Dreier prête une partie de sa collection (Kandinsky, Klee, Léger, Miró, Mondrian, Schwitters) ; les étudiants en choisissent trente ou quarante pour leurs chambres.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers dessine le logo du collège, un anneau avec l'adresse, et publie « Art as Experience » dans Progressive Education.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Albers peintre et publiciste (1935→1936)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "ce_qui_arrive": "Albers entreprend des études à l'huile rugueuses (Hot-Dry, Red-Violet), vite abandonnées ; la date exacte de ces études n'est pas donnée.",
+    "certitude": "probable",
+    "refs": [
+     "Albers peintre et publiciste (1935→1936)"
+    ]
+   },
+   {
+    "date": "1935-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Les frictions Rice-Knickerbocker et Rice-Albers s'aggravent, prélude au schisme qui se joue jusqu'en juin 1937.",
+    "certitude": "probable",
+    "refs": [
+     "Rice contre Knickerbocker : vers le schisme (1935-09→1937-06)",
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "ce_qui_arrive": "Séjour de Louis et Stella Adamic, venus sur conseil de Henry Allen Moe ; la durée est de quelques jours selon l'arrivée, de deux à trois mois selon les sources. Il observe le séminaire d'écriture et recueille la doctrine « méthode contre contenu ».",
+    "certitude": "probable",
+    "refs": [
+     "Adamic et l'image publique du collège (1935→1936)",
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "ce_qui_arrive": "Après une panne de chauffage, le personnel noir refuse de déménager à Lee Hall par crainte de l'hostilité du village ; la question raciale reste en suspens.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "periode",
+    "ce_qui_arrive": "Premier voyage des Albers au Mexique avec Ted et Bobbie Dreier, où commence la collection d'idolos. Les sources divergent : vacances d'été 1935 ou décembre 1935-janvier 1936. Une version le place en fin d'année, ce qui le rendrait futur par rapport à novembre.",
+    "certitude": "probable",
+    "refs": [
+     "Les Albers et le Mexique (1935→1967)",
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "ce_qui_arrive": "Le séminaire et le théâtre de Wunsch (Gloria Mundi, The Twelve-Pound Look, The Wild Duck, Fixin's de Paul Green) occupent la vie de classe ; les dates des représentations ne sont pas données.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "ce_qui_arrive": "À New York, de Kooning entre au Federal Art Project et Elaine quitte le lycée, en fin d'année.",
+    "certitude": "atteste",
+    "refs": [
+     "Parallèle new-yorkais : de Kooning au Federal Art Project (1935→1936)",
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Corvées mixtes (bois, routes, tennis, ferme) ; bal du samedi soir avec Evarts au piano ; folkdance anglaise animée par Sly ; Toscanini écouté à la radio le dimanche ; séminaire de Rice sur Platon ; cours de biologie d'Anna Moellenhoff, qui attire huit étudiants passionnés ; théâtre de Wunsch ; repas et soirées à Roy's, née grâce aux fonds anonymes de Stephen Forbes après le vote sec de la ville ; music cottage ouvert, avec ses hot-dogs et son cidre.",
+  "tensions": [
+   "Rice contre Knickerbocker sur les tactiques de classe, qui mène vers le schisme",
+   "Rice contre Albers, dont les frictions montent",
+   "Question raciale laissée en suspens après la panne de chauffage et le refus de déménager à Lee Hall",
+   "Frais de scolarité relevés en février, déficits retombant sur la faculté, salaires modestes",
+   "Doute de Wunsch, épuisé trois mois après son arrivée, puis réconcilié avec le collège après sa conversation avec Rice",
+   "Mépris d'Albers envers le théâtre comme thérapie de Wunsch"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Inauguration du music cottage",
+    "date": "1935",
+    "lieu": "music cottage",
+    "personnages": [
+     "Evarts",
+     "Josef Albers",
+     "étudiants"
+    ],
+    "deroule": "Hot-dogs, Coca ou cidre, musique. Albers tente de plier un cintre à saucisse en S ; la saucisse tombe dans le feu, scène d'humour de l'atelier au milieu de la fête.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Choisir les toiles de Dreier",
+    "date": "1935-10",
+    "lieu": "chambres des étudiants",
+    "personnages": [
+     "Katherine Dreier",
+     "étudiants"
+    ],
+    "deroule": "Les étudiants passent parmi la collection prêtée et en choisissent trente ou quarante pour leurs chambres : Kandinsky, Klee, Léger, Miró, Mondrian, Schwitters.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Conversation nocturne avec Adamic",
+    "date": "1935",
+    "lieu": null,
+    "personnages": [
+     "Louis Adamic",
+     "Stella Adamic",
+     "Rice"
+    ],
+    "deroule": "Après le dîner, la conversation se prolonge tard. Adamic, séduit par Rice, assiste au séminaire d'écriture et note la formule « méthode contre contenu, processus contre résultats », qui deviendra la matière de son article.",
+    "certitude": "probable",
+    "refs": [
+     "Adamic et l'image publique du collège (1935→1936)"
+    ]
+   },
+   {
+    "titre": "Doutes de Knickerbocker devant Rice",
+    "date": "1935-09",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "Knickerbocker"
+    ],
+    "deroule": "Peu après son arrivée, Knickerbocker dit à Rice ses réserves sur ses tactiques de classe, dans une discussion qui pose les termes du futur schisme.",
+    "certitude": "deduit",
+    "refs": [
+     "Rice contre Knickerbocker : vers le schisme (1935-09→1937-06)"
+    ]
+   },
+   {
+    "titre": "Refus de déménager à Lee Hall",
+    "date": "1935",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "personnel noir du collège",
+     "direction du collège"
+    ],
+    "deroule": "Après une panne de chauffage, la direction propose de transférer le personnel à Lee Hall. Le personnel refuse, craignant l'hostilité du village ; le désaccord reste sans résolution.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Wunsch, au cours de l'automne, après s'être réconcilié avec le collège",
+    "vers_date": "1935",
+    "vers": "Sa conversation privée avec Rice : au lieu du marteau-pilon redouté, il trouve un homme fatigué qui lui conseille des vacances. Il en revient convaincu que la réalité du collège tient aux relations humaines.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers, en octobre, au moment de sa publication et de son logo",
+    "vers_date": "1935-01",
+    "vers": "Retour de Cuba, puis première exposition personnelle à l'Addison Gallery d'Andover : quinze gravures, brèves dans la presse, aucune critique, Sawyer seul soutien.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Albers peintre et publiciste (1935→1936)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rice, au milieu des tensions avec Knickerbocker",
+    "vers_date": "1935",
+    "vers": "Les visites de Dewey pendant l'année 1934-35 : cours de Rice suivi en silence, soirs à Roy's, lettre de Dewey sur les racines démocratiques du collège. Deux visites selon Chaddock, une ou deux selon Reynolds.",
+    "refs": [
+     "La légitimation par Dewey (1934→None)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Adamic, pendant son séjour",
+    "vers_date": "1936-04",
+    "vers": "Parution de « Education on a Mountain » dans Harper's, qui prépare la crise de l'article en 1936.",
+    "refs": [
+     "Adamic et l'image publique du collège (1935→1936)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, alors qu'il prépare sa carrière de peintre et de publiciste",
+    "vers_date": "1936",
+    "vers": "Josef commence à enseigner à Harvard.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Albers peintre et publiciste (1935→1936)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rice et Knickerbocker, en plein désaccord",
+    "vers_date": "1937-06",
+    "vers": "Terme de la chronologie du schisme entre Rice et Knickerbocker.",
+    "refs": [
+     "Rice contre Knickerbocker : vers le schisme (1935-09→1937-06)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, si le voyage mexicain a eu lieu en décembre",
+    "vers_date": "1935-12",
+    "vers": "Premier voyage au Mexique avec les Dreier : achat de la première idolo auprès d'un petit garçon, authentifiée par George Vaillant ; photographies de Monte Albán. Si le voyage a eu lieu l'été 1935, cette ouverture devient un flashback.",
+    "refs": [
+     "Les Albers et le Mexique (1935→1967)",
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le schisme entre Rice et Knickerbocker s'amorce dès la rentrée de septembre",
+   "La légitimation extérieure par Dewey et Adamic fait du collège une image publique",
+   "Opposition entre apprentissage voulu par l'élève et méthode imposée",
+   "Argent : déficits retombant sur la faculté, salaires modestes, barème tenu secret",
+   "Question raciale en suspens à Lee Hall",
+   "Albers partagé entre peinture, publicité du collège et départ pour Harvard"
+  ],
+  "lacunes": "Aucune date de novembre n'est documentée. On ignore la durée exacte du séjour d'Adamic, la date de la panne de chauffage, les dates des représentations de Wunsch, et si le voyage mexicain est de l'été 1935 ou de décembre 1935-janvier 1936 (sources divergentes). Le climat de novembre n'est pas décrit. Les visites de Dewey sont datées de 1934-35 et leur nombre est contesté (Chaddock contre Reynolds par oui-dire)."
+ }
+}

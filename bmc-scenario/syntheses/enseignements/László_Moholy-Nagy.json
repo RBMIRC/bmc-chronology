@@ -1,0 +1,103 @@
+{
+ "passe": "enseignements",
+ "cle": "László Moholy-Nagy",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2085,
+  "sortie": 2213,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "László Moholy-Nagy",
+  "cours": [
+   {
+    "intitule": "Mouvement et forme tridimensionnelle (New Bauhaus, Chicago)",
+    "periodes": [
+     "années 1940"
+    ],
+    "atteste": "non",
+    "objectifs": "Faire du mouvement un principe de la forme tridimensionnelle. Ce cours est attesté au New Bauhaus de Chicago, pas à Black Mountain : la fiche indique explicitement « non » pour BMC.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Concevoir des formes suspendues, superposées, empilées, spiralées, qui tournent ou s'enclenchent.",
+      "materiaux": "métal, fil",
+      "but": "Faire du mouvement un principe de la forme tridimensionnelle.",
+      "refs": [
+       "CO-00347"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Renk en tire ses « mobile earrings ». De Patta décrit la dissolution de la frontière entre beaux-arts, artisanat et design industriel. Ces réactions viennent d'étudiants de Chicago (source : Troeller 2025, à propos d'Asawa), non de Black Mountain.",
+    "evolution": null,
+    "refs": [
+     "CO-00347"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le « théâtre de totalité » orchestre les corps dans un espace architectonique pour étendre l'organisation spatiale à la vie quotidienne. La matière n'y est qu'un porteur de forces. Les gestes sont universels, « communs à l'humanité », et non liés par la causalité. La performance se réduit à lumière, espace, plan, mouvement, son et être humain.",
+    "en_classe": "Déduction : une séance de performance réduite à ces six éléments, sans intrigue ni récit causal, où l'on compose avec les corps, la lumière et le son dans l'espace. Transmission à BMC par Schawinsky, via le New Bauhaus de Chicago : aucune fiche n'atteste de séance de Moholy-Nagy lui-même à BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-00411"
+    ]
+   },
+   {
+    "idee": "Rompre les « liens causaux » du théâtre antérieur. Le théâtre du Bauhaus abandonne la causalité narrative pour examiner des événements transitoires et des mouvements dans des conditions environnementales.",
+    "en_classe": "Déduction : proposer des événements scéniques fondés sur des mouvements et des conditions d'environnement plutôt que sur une histoire. La transmission à Black Mountain par Schawinsky est donnée comme incertaine (Díaz 2014, p. 70). Les deux fiches sur le théâtre divergent d'ailleurs sur le degré d'attestation : « non » pour l'une, « incertain » pour l'autre.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00562",
+     "ID-00411"
+    ]
+   },
+   {
+    "idee": "La spécialisation obscurcit l'expérience individuelle totale. Dans The New Vision (1938), les spécialistes sont comparés à des membres d'une puissante société secrète. Le design doit intégrer politique, science, art et technologie, avec une responsabilité envers le système social total.",
+    "en_classe": "Exemple donné : l'artiste qui ignore statique, mathématiques et technologie, alors que ces savoirs le serviraient mieux que les règles esthétiques. Mise en œuvre : exercices de groupe et travaux individuels formant la perception à des phénomènes visuels et structurels complexes. La fiche précise que cela relève du Bauhaus puis de l'Institute of Design, et non de BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-02066"
+    ]
+   },
+   {
+    "idee": "La sculpture « en équilibre » libère la matière de son poids : accentuer les éléments dynamiques plutôt que statiques, unifier volumes et matériaux dans des systèmes équilibrés mais mobiles, et explorer la frontière entre architecture et sculpture.",
+    "en_classe": "Exemple cité : le treillis du planétarium Zeiss avec des hommes juchés dessus, « comme des avions volant en formation ». Une séance pourrait construire des structures légères équilibrées. La fiche note un écho avec les dômes de Fuller, mais ne l'atteste pas comme enseignement de Moholy-Nagy à BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-02067",
+     "CO-00347"
+    ]
+   },
+   {
+    "idee": "Le mouvement comme principe formel s'inscrit dans un décloisonnement des disciplines : beaux-arts, artisanat et design industriel. Selon De Patta, cette frontière se dissout chez les étudiants de Chicago.",
+    "en_classe": "Déduction : une séance où un même exercice de formes mobiles en métal et fil sert indifféremment la sculpture, le bijou et l'objet industriel. C'est attesté à Chicago (Renk, De Patta), non à BMC.",
+    "atteste": "non",
+    "refs": [
+     "CO-00347"
+    ]
+   },
+   {
+    "idee": "Moholy-Nagy et la paternité du Vorkurs : en 1938, à la réédition de The New Vision, Albers exige la correction de deux remarques laissant entendre qu'il aurait continué son enseignement du Bauhaus. Trois jours plus tard, Moholy cède et promet de les supprimer. Cet épisode éclaire les rivalités autour de l'héritage pédagogique du Bauhaus en Amérique.",
+    "en_classe": "Pas une séance, mais une toile de fond dramatique : Albers, déjà en Amérique (BMC, dont il est le pédagogue central), défend l'honneur de son enseignement face à Moholy. Attesté par une lettre (Horowitz & Danilowitz 2009). La fiche ne donne pas d'enseignement de Moholy à BMC.",
+    "atteste": "oui",
+    "refs": [
+     "SC-00736"
+    ]
+   },
+   {
+    "idee": "Moholy-Nagy à Dessau, dans le cercle des maîtres du Bauhaus, participe à la fête costumée célébrant la naturalisation des Kandinsky (1928). Cela le situe dans un milieu amical où l'ironie de l'histoire pèse sur les futurs exils.",
+    "en_classe": "Contexte de flash-back pour le scénario, sans valeur pédagogique : aucun contenu de cours. Attesté (Weber 2009).",
+    "atteste": "oui",
+    "refs": [
+     "SC-00336"
+    ]
+   }
+  ]
+ }
+}

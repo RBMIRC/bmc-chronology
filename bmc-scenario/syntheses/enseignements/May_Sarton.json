@@ -1,0 +1,71 @@
+{
+ "passe": "enseignements",
+ "cle": "May Sarton",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1108,
+  "sortie": 1595,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "May Sarton",
+  "cours": [
+   {
+    "intitule": "Conférence sur Yeats (visite d'une semaine)",
+    "periodes": [
+     "1940-11"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non précisés par les fiches. On sait seulement qu'il s'agit d'une conférence sur le poète Yeats, donnée pendant un bref séjour. Aucun programme ni cadre institutionnel (statut, nombre de séances) n'est documenté.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [
+     "Ses propres livres de Yeats, mis à disposition des étudiants (CO-00305)",
+     "Son poème sur la liberté, discuté longuement et de façon impersonnelle pendant la semaine (ID-01366)"
+    ],
+    "propos_types": [
+     "Elle observe le chantier de Lake Eden et y voit ce qui fait tenir BMC : bâtir de ses propres mains éloigne le collège de la fausseté (ID-01365).",
+     "Elle estime qu'aider au mur rend plus « entier » que n'importe quelle équipe de football, et que chaque promotion de freshmen devrait reconstruire son collège (ID-01365). Cette formule vient de sa réflexion sur le séjour, pas d'un cours.",
+     "Elle juge que le collège a fait un fétiche de la liberté et qu'il lui manque hommage, awe et silence (ID-01366)."
+    ],
+    "critique_et_evaluation": "Aucun dispositif d'évaluation attesté. Sarton critique le collège : fondé sur un négatif (« nous ne voulons pas ceci, cela »), il doit trouver un substitut à la religion, un absolu plus grand que l'individu ou la communauté. Elle suggère que les gens soient parfois unis dans le silence (ID-01366). Ces remarques datent de sa semaine à BMC et ont été bien reçues (Lane 1990 p.81).",
+    "reactions_etudiants": "Une étudiante passa une semaine d'interlude à étudier les livres de Yeats de Sarton (CO-00305). Le poème sur la liberté fut discuté longuement et impersonnellement (ID-01366). Les fiches n'en disent pas plus.",
+    "evolution": "Aucune évolution attestée : une seule visite, en novembre 1940, sans trace de retour ni d'enseignement ultérieur dans les fiches.",
+    "refs": [
+     "CO-00305",
+     "ID-01365",
+     "ID-01366",
+     "SC-00799"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le chantier comme éducation à la réalité : construire son propre bâtiment tient la communauté ensemble et la préserve de la fausseté et de la sentimentalité du collège moyen.",
+    "en_classe": "Séance possible : faire passer les étudiants par un travail manuel collectif (chaîne de pierres, scellement au ciment), puis discuter de ce que cela change dans leur rapport au collège. Dans la scène de Lake Eden, Straus lance les pierres, une jeune fille les passe, un garçon les scelle, et Sarton aide au mur un après-midi. Sarton formule l'idée comme observatrice et visiteuse. Rien n'indique qu'elle ait organisé ce travail dans un cours ou qu'elle l'ait proposé comme exercice.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01365",
+     "SC-00799"
+    ]
+   },
+   {
+    "idee": "La liberté érigée en fétiche : le collège, fondé sur un refus, manque d'hommage, d'awe et de silence et cherche un absolu plus grand que l'individu ou la communauté.",
+    "en_classe": "Séance possible : un temps de silence partagé, suivi de la lecture et de la discussion impersonnelle d'un poème sur la liberté. Les fiches attestent la discussion de son poème pendant sa semaine. Le temps de silence n'est qu'une suggestion de Sarton, non attestée comme pratique en classe. Le poème est mentionné sans titre ni texte.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01366"
+    ]
+   },
+   {
+    "idee": "Lire un poète à travers les livres de l'enseignante : mettre ses exemplaires de Yeats à la disposition des étudiants, qui s'y plongent pendant une semaine d'interlude.",
+    "en_classe": "Séance possible : conférence sur un poète, prolongée par une immersion libre dans les volumes prêtés par l'intervenante. Seul est attesté le cas d'une étudiante ayant passé une semaine sur ces livres. Le contenu de la conférence n'est pas connu et le prêt organisé des livres n'est pas établi.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00305"
+    ]
+   }
+  ]
+ }
+}

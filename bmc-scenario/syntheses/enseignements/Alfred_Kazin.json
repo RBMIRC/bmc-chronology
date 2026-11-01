@@ -1,0 +1,119 @@
+{
+ "passe": "enseignements",
+ "cle": "Alfred Kazin",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1592,
+  "sortie": 2322,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Alfred Kazin",
+  "cours": [
+   {
+    "intitule": "Melville et Blake (cours de littérature centré sur Moby Dick)",
+    "periodes": [
+     "1944, un trimestre (CO-00396)",
+     "≈1943→1987 pour la mémoire d'un ancien étudiant (CO-00375, dates déduites)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Lire Moby Dick avec la classe et en donner les repères nécessaires, notamment bibliques. Déduit des fiches : faire assimiler un savoir solide avant l'interprétation. Le lien avec Blake n'est pas détaillé dans les fiches.",
+    "deroule_type_seance": "Format traditionnel (CO-00396) : cours magistral suivi d'une discussion, porté par une manière passionnée d'évangéliste. Un mini-cours sur l'Ancien Testament interrompt la lecture de Melville pour donner les repères bibliques (CO-00396). Selon ID-01642, il a dû enseigner l'Ancien Testament parce que personne ne savait qui était Jonas. Les fiches ne donnent pas l'horaire ni la durée des séances.",
+    "exercices": [
+     {
+      "consigne": "Lire Moby Dick avec la classe.",
+      "materiaux": "Moby Dick",
+      "but": "Faire entrer les étudiants dans le texte de Melville.",
+      "refs": [
+       "CO-00396"
+      ]
+     },
+     {
+      "consigne": "Mini-cours sur l'Ancien Testament.",
+      "materiaux": null,
+      "but": "Donner les repères bibliques nécessaires à Melville ; l'exemple de Jonas montre l'ignorance constatée.",
+      "refs": [
+       "CO-00396",
+       "ID-01642"
+      ]
+     },
+     {
+      "consigne": "Exigences de base pour le cours Moby Dick : remettre des dissertations, venir en classe, être à l'heure.",
+      "materiaux": null,
+      "but": "Discipline de travail. Les fiches ne donnent ni sujets ni longueur des dissertations.",
+      "refs": [
+       "CO-00375"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Moby Dick (Melville) (CO-00396, CO-00375)",
+     "Ancien Testament, notamment l'épisode de Jonas (CO-00396, ID-01642)",
+     "William Blake, titre du cours seulement (CO-00396)"
+    ],
+    "propos_types": [
+     "Son discours mêlait par à-coups commérages, profondeur, impétuosité calculée et exhortations (CO-00396).",
+     "Déduit de ID-01642 : sans connaître Jonas, on ne peut pas entrer dans Moby Dick."
+    ],
+    "critique_et_evaluation": "Le seul élément d'évaluation attesté est l'obligation de remettre des dissertations (CO-00375). Aucune note ni critère n'est donné.",
+    "reactions_etudiants": "Les cours devinrent vite les plus populaires du collège. Les étudiants littéraires en sortaient « ivres et chancelants » (CO-00396). Roberts y voit l'un des meilleurs cours de sa vie, « encore aujourd'hui » (CO-00375). On se pressait pour auditer sa « sagesse melvillienne » (CO-00386).",
+    "evolution": "Un trimestre en 1944 d'après CO-00396. CO-00386 situe un cours Emerson et Melville vers 1944-1946 : il s'agit peut-être du même enseignement ou d'une suite, les fiches ne le disent pas. Les périodes sont des dates déduites.",
+    "refs": [
+     "CO-00396",
+     "CO-00375",
+     "ID-01642"
+    ]
+   },
+   {
+    "intitule": "Emerson et Melville",
+    "periodes": [
+     "≈1944→1946 (date déduite)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non précisés dans les fiches. Le titre associe deux auteurs américains.",
+    "deroule_type_seance": "Salle surchauffée, bondée d'auditeurs libres (CO-00386). Rien d'autre n'est attesté sur le déroulé.",
+    "exercices": [],
+    "lectures_et_references": [
+     "Emerson et Melville, d'après le seul intitulé (CO-00386). Aucun texte précis n'est cité."
+    ],
+    "propos_types": [
+     "Sa « sagesse melvillienne » attirait les auditeurs (CO-00386). Le contenu exact de ses propos n'est pas conservé dans les fiches."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "On se pressait pour auditer le cours (CO-00386).",
+    "evolution": "Impossible de dire s'il s'agit d'un cours distinct de Melville et Blake ou d'une reprise. Les sources ne tranchent pas.",
+    "refs": [
+     "CO-00386"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Apprendre, c'est assimiler et accumuler de l'information.",
+    "en_classe": "Marquer une pause dans la lecture de Melville pour un cours sur l'Ancien Testament et Jonas : sans ce savoir, on ne lit pas Moby Dick. Exercice transposable : vérifier ce que les étudiants savent avant de commenter. Ce principe est attesté à BMC et le mettait en porte-à-faux avec la pédagogie du lieu (ID-01642). La mise en scène des réactions des étudiants relève de la déduction.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01642",
+     "CO-00396"
+    ]
+   },
+   {
+    "idee": "Pour un écrivain sérieux, Black Mountain pouvait être très insuffisant : les arts visuels dominaient dans les années 1940, non l'écriture.",
+    "en_classe": "Toile de fond pour une scène de conflit : Kazin enseigne la littérature dans un collège dont le centre est visuel. Le collège offrait refuge et lieu de travail, non un partage de l'expérience d'écriture. D'autres écrivains réagirent négativement (Zabriskie, Isaac Rosenfeld, Edward Dahlberg). Le basculement vers l'écriture vient dans les années 1950, avec Olson, Creeley, Duncan et la Black Mountain Review (flash-forward possible).",
+    "atteste": "oui",
+    "refs": [
+     "ID-01643"
+    ]
+   },
+   {
+    "idee": "L'écoute attentive comme éducation. Kazin joue chaque jour, vers 1945, le finale de l'acte II des Noces de Figaro, yeux fermés, visage au soleil, sur les marches du Round House. Un témoin l'observe en cachette et découvre ainsi sa première musique entendue vraiment.",
+    "en_classe": "Il ne s'agit pas d'un cours : c'est une scène hors classe (témoignage direct), à placer comme interlude. Aucune séance n'est attestée autour de cette pratique. Transposition : faire écouter un passage en silence, sans commentaire. Ce serait une invention de scénario, non attestée.",
+    "atteste": "non",
+    "refs": [
+     "SC-00928"
+    ]
+   }
+  ]
+ }
+}

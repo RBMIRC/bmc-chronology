@@ -1,0 +1,203 @@
+{
+ "passe": "mois",
+ "cle": "1939-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3105,
+  "sortie": 11998,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1939-09",
+  "session": "rentrée d'automne : début de la septième année (session non nommée par les fiches, déduit)",
+  "saison_et_climat": "fin de l'été puis rentrée d'automne ; les fiches ne décrivent ni le temps ni le climat",
+  "situation": "Le collège sort d'un printemps de crise autour de Rice, parti à Southern Pines fin juin ; il reste en conflit avec Dreier et Albers, et sa facture de 145 dollars commence à empoisonner la correspondance. Albers, de retour du Mexique (séjour du 8 juin au 8 septembre), ouvre la septième année le 12 septembre. Jalowetz arrive à la rentrée et trouve une accalmie : toute la communauté est absorbée par le projet de nouveau foyer à Lake Eden, qui reste pourtant sur le papier faute d'argent.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Johanna Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "la fille des Jalowetz (non nommée)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "étudiants de la septième année (non nommés)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1939-09-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Fin du séjour mexicain des Albers commencé le 8 juin ; leur retour au collège avant le 12 septembre est déduit",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02950"
+    ]
+   },
+   {
+    "date": "1939-09-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Discours d'ouverture d'Albers à la première assemblée générale de la septième année",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02954",
+     "EV-02955"
+    ]
+   },
+   {
+    "date": "1939-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Arrivée de Jalowetz avec sa femme Johanna (reliure et chant) et leur fille ; il s'émerveille de l'ouverture de chacun, le collège étant absorbé par le foyer de Lake Eden (source : synthèse 1939, non numérotée)",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1939-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Début de la correspondance sur la facture de 145 dollars liée à l'accident de voiture de Rice ; Dreier, à Steinau, juge que cela « frôle la malhonnêteté » ; l'échange court jusqu'en février 1940",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1939",
+    "precision": "annee",
+    "ce_qui_arrive": "Plans de Gropius et Breuer pour le nouveau foyer, jugés inabordables : 50 000 dollars pour le bâtiment d'études selon une fiche, 500 000 pour l'ensemble selon une autre ; ils restent sur le papier, et le collège se tourne vers Kocher en 1940",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "La vie ordinaire de la rentrée tourne autour du chantier du nouveau foyer à Lake Eden, qui occupe tout le monde selon Jalowetz. L'assemblée d'ouverture du 12 septembre marque la reprise. Rice est absent, retiré à Southern Pines avec son autobiographie en cours. Les fiches ne décrivent ni les cours ni les repas ; elles signalent seulement que le poste de musique reste à pourvoir depuis le départ de Sly.",
+  "tensions": [
+   "Le congé de Rice est contesté : Duberman parle d'un sabbatique pour toute l'année 1939-40 voulu par le conseil pour l'éloigner, Chaddock d'un seul semestre obtenu à contrecœur ; les deux versions se contredisent",
+   "La facture de 145 dollars et l'accusation de malhonnêteté de Dreier ravivent la rupture avec Rice",
+   "Les projets Gropius-Breuer sont inabordables, et les chiffres divergent (50 000 contre 500 000 dollars)",
+   "Albers se montre exigeant envers les peintres invités qu'il cherche au Mexique, sans recrutement à la clé",
+   "Nacke avait prédit en avril une explosion « dans les six semaines » ; les fiches ne disent pas si elle a eu lieu",
+   "Anni garde une anxiété chronique liée au débarquement de ses parents, les Fleischmann, à Veracruz"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Première assemblée de la septième année",
+    "date": "1939-09-12",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "étudiants",
+     "enseignants"
+    ],
+    "deroule": "Albers prend la parole à la première assemblée générale de la septième année. Les fiches ne donnent pas le contenu du discours du jour ; ses thèmes de la période (le maître ne peut exiger de l'élève ce qu'il ne fait pas lui-même, « Truthfulness in Art ») sont à manier comme possibles, non comme attestés pour ce jour.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02954",
+     "EV-02955"
+    ]
+   },
+   {
+    "titre": "Jalowetz arrive dans l'accalmie",
+    "date": "1939-09",
+    "lieu": "Lake Eden, chantier du foyer",
+    "personnages": [
+     "Jalowetz",
+     "Johanna Jalowetz",
+     "leur fille"
+    ],
+    "deroule": "La famille découvre un collège tout entier occupé par le chantier du foyer, et s'étonne de l'ouverture et de l'intérêt de chacun. Scène d'accueil où le nouveau venu observe une communauté apparemment apaisée.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Premier échange sur la facture",
+    "date": "1939-09",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "Dreier"
+    ],
+    "deroule": "Rice doit répondre à la facture de 145 dollars née de son accident de voiture ; Dreier, depuis Steinau, juge l'affaire proche de la malhonnêteté. Les fiches datent le début de l'échange de septembre et sa fin de février 1940.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "titre": "Le foyer sur papier",
+    "date": "1939",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Gropius",
+     "Breuer",
+     "responsables du collège"
+    ],
+    "deroule": "Les plans de Gropius et Breuer circulent et l'on compare les devis, dont l'écart (50 000 contre 500 000 dollars selon les fiches) tient à ce qui est compté. Scène de bureau où le projet se défait faute d'argent.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rentrée de septembre 1939, après le printemps de crise",
+    "vers_date": "1939-04-24",
+    "vers": "La lettre de Marian Nacke : une partie de la faculté veut évincer Rice et menace de faire éclater le collège ; elle annonce le départ de Sly et attend une explosion « dans les six semaines »",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers au Mexique, en quête d'un peintre invité pour Black Mountain",
+    "vers_date": "1939-06-29",
+    "vers": "Les lettres à Fred Mangold des 29 juin, 8 juillet et 7 août, exigeantes : « pas un autre peintre abstrait », un candidat « inflexible et vide », un autre qu'il croit communiste",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Fin de l'été, Albers à Oaxaca avec le jeune Guillermo Meza",
+    "vers_date": "1939-08",
+    "vers": "Le verdict d'Albers après une semaine à Oaxaca : « je suis convaincu » (« Me convence »)",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le chantier de Lake Eden et les devis de Gropius et Breuer",
+    "vers_date": "1940",
+    "vers": "Le collège se tourne vers Kocher pour le foyer, après l'abandon des plans jugés inabordables",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rice retiré à Southern Pines pendant la correspondance sur sa facture",
+    "vers_date": "1939-12",
+    "vers": "À partir de Noël, Wunsch lui rend visite pour obtenir sa démission ; la première visite tourne au jeu du chat et de la souris et échoue",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le contrat qui se dessine avec Harper and Brothers pour l'autobiographie de Rice",
+    "vers_date": "1939-11",
+    "vers": "Le titre I Came Out of the Eighteenth Century est trouvé en novembre ; le contrat d'octobre prévoit 500 dollars d'avance",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "rentrée et promesse d'une communauté",
+   "le foyer comme projet et comme dette",
+   "exigence du maître face à ses élèves et aux candidats",
+   "départ et isolement de Rice",
+   "argent et fragilité du collège",
+   "exil et survie des Fleischmann en toile de fond"
+  ],
+  "lacunes": "Les fiches ne donnent ni la session exacte ni le calendrier des cours, ni le climat, ni le contenu du discours du 12 septembre, ni la date précise de l'arrivée des Jalowetz, ni le jour du retour des Albers après le 8 septembre. Elles ne disent pas si l'explosion annoncée par Nacke a eu lieu, ni quel congé Rice a finalement pris (Duberman et Chaddock divergent). La date de la naturalisation américaine reste inconnue (« cette année-là »). Le discours de Chaet sur « le début de la guerre » pourrait correspondre à ce mois, mais rien ne l'atteste. Les noms des étudiants et enseignants présents sont absents. EV-02954 et EV-02955 décrivent le même discours (doublon)."
+ }
+}

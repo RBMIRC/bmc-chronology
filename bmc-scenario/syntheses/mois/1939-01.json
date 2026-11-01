@@ -1,0 +1,206 @@
+{
+ "passe": "mois",
+ "cle": "1939-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3231,
+  "sortie": 13953,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1939-01",
+  "session": "non précisée par les fiches (année scolaire en cours, déduit)",
+  "saison_et_climat": "Hiver (déduit du mois) ; les fiches ne décrivent ni le temps ni le paysage de janvier.",
+  "situation": "Le collège vit une crise qui couve sans avoir encore éclaté. Rice, le fondateur, se tient à l'écart des affaires communes depuis 1938 et écrit son autobiographie dans une chambre de Lee Hall. Sa liaison avec Alice est terminée, mais elle reste au collège. La trêve entre Rice, Dreier et Albers n'a pas tenu (date non donnée), et l'opposant Portell a démissionné (date non donnée). Les conflits de personnes et les questions d'argent pèsent déjà sur la vie de la faculté, sans procédure ouverte.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Allan Sly",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Marian Nacke",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1938-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Exposition Bauhaus 1919-1928 au MoMA à New York, visitée par Herbert Bayer peu après son arrivée aux États-Unis ; elle fait découvrir au public américain une école que le régime allemand avait fermée. Hors du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02858",
+     "EV-02859"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "annee",
+    "ce_qui_arrive": "Rice se retire des affaires communes et s'installe dans une chambre de Lee Hall, où il écrit l'autobiographie commencée à Folly Beach.",
+    "certitude": "atteste",
+    "refs": [
+     "FIL: Le livre de Rice (1938→1942)"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "annee",
+    "ce_qui_arrive": "Le projet Gropius-Breuer pour le campus est évoqué ; les plans restent sur le papier, jugés inabordables.",
+    "certitude": "probable",
+    "refs": [
+     "FIL: Le campus de Lake Eden et le choix de l'architecte (1938→1940)"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire du mois tourne autour de l'écriture de Rice, isolé à Lee Hall, et des cours de musique dirigés par Sly, dont les exigences épuisent Nacke. Les fiches ne décrivent ni repas ni travaux de janvier. La question du nouveau bâtiment d'études et de l'architecte reste un sujet de discussion sans chantier.",
+  "tensions": [
+   "Rice contre une partie de la faculté : ses insultes aux donateurs et aux étudiants lui sont reprochées (motif affiché, date non donnée)",
+   "Rice contre Albers et Dreier : trêve rompue, querelles reprises",
+   "Rivalités personnelles et sentiment de trahison chez les disciples de Rice (selon Nacke, source postérieure à janvier)",
+   "Dépense impossible pour le nouveau bâtiment, qui bloque le projet d'architecture",
+   "Le statut de Rice après l'été (sabbatique) n'est pas encore réglé"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Rice dans sa chambre de Lee Hall",
+    "date": "1939-01",
+    "lieu": "Lee Hall, chambre de Rice",
+    "personnages": [
+     "Rice"
+    ],
+    "deroule": "Rice écrit son autobiographie à l'écart des affaires communes. Le titre définitif ne viendra qu'en novembre 1939. Scène d'isolement, sans jour précis dans les fiches.",
+    "certitude": "probable",
+    "refs": [
+     "FIL: Le livre de Rice (1938→1942)"
+    ]
+   },
+   {
+    "titre": "Visite de l'exposition Bauhaus au MoMA",
+    "date": "1938-12",
+    "lieu": "Museum of Modern Art, New York",
+    "personnages": [
+     "Herbert Bayer"
+    ],
+    "deroule": "Bayer, arrivé depuis peu aux États-Unis, parcourt la grande exposition Bauhaus 1919-1928. Une école fermée par le régime allemand se révèle au public américain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02858",
+     "EV-02859"
+    ]
+   },
+   {
+    "titre": "Sly et les exigences de la musique",
+    "date": "1939-01",
+    "lieu": "collège (lieu précis non donné)",
+    "personnages": [
+     "Allan Sly",
+     "Marian Nacke"
+    ],
+    "deroule": "Nacke est paralysée par les exigences de Sly, dont le départ sera annoncé en avril. Scène de tension sur la musique à la faculté.",
+    "certitude": "deduit",
+    "refs": [
+     "FIL: La musique après Sly (1939-04→1947)"
+    ]
+   },
+   {
+    "titre": "Rice et Albers se querellent de nouveau",
+    "date": null,
+    "lieu": "collège",
+    "personnages": [
+     "Rice",
+     "Josef Albers"
+    ],
+    "deroule": "La trêve avec Dreier et Albers n'a pas tenu : Rice et Albers se reprennent à partie. Date exacte non donnée.",
+    "certitude": "atteste",
+    "refs": [
+     "FIL: Chapitre de l'année 1939 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rice dans sa chambre de Lee Hall, en janvier 1939",
+    "vers_date": "1938",
+    "vers": "Le départ à Folly Beach, où Rice commence son autobiographie, et la fin de la liaison avec Alice",
+    "refs": [
+     "FIL: Le livre de Rice (1938→1942)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1939, la trêve Rice-Albers-Dreier déjà fragile",
+    "vers_date": "1939-04-24",
+    "vers": "La lettre de Marian Nacke : une partie de la faculté veut évincer Rice et menace de faire éclater le collège, avec une explosion attendue dans les six semaines",
+    "refs": [
+     "FIL: La sortie de Rice (1939-04→1940-02)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1939, Rice toujours à Lee Hall",
+    "vers_date": "1939-06",
+    "vers": "Rice quitte le collège fin juin pour Southern Pines ; Nell refuse de le suivre et achève son stage à Asheville avant Chapel Hill",
+    "refs": [
+     "FIL: La sortie de Rice (1939-04→1940-02)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1939, Albers prépare déjà la recherche d'un peintre invité",
+    "vers_date": "1939-06-08",
+    "vers": "Les Albers partent pour Mexico jusqu'au 8 septembre ; Anni y reçoit en juin ses parents, les Fleischmann, arrivés de l'Orinoco",
+    "refs": [
+     "FIL: Le voyage mexicain d'Albers (1939-06→1939-09)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1939, Rice endetté par la rédaction de son livre",
+    "vers_date": "1939-10",
+    "vers": "Contrat avec Harper and Brothers, 500 dollars d'avance ; la facture de 145 dollars liée à un accident de voiture déclenche une correspondance avec Dreier",
+    "refs": [
+     "FIL: Le livre de Rice (1938→1942)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1939, Rice à Lee Hall pour écrire son autobiographie",
+    "vers_date": "1939-12",
+    "vers": "À partir de Noël, Wunsch rend visite à Rice à Southern Pines pour obtenir sa démission ; la première visite tourne au jeu du chat et de la souris",
+    "refs": [
+     "FIL: La sortie de Rice (1939-04→1940-02)"
+    ]
+   }
+  ],
+  "motifs": [
+   "retrait de Rice et écriture de l'autobiographie",
+   "fondateur contesté par ses propres disciples",
+   "trêve fragile entre Rice, Albers et Dreier",
+   "Bauhaus redécouvert aux États-Unis",
+   "plans d'architecture irréalisables faute d'argent"
+  ],
+  "lacunes": "Les fiches datent très peu de choses pour janvier 1939 : seule l'exposition Bauhaus au MoMA (EV-02858 et EV-02859, doublon du même événement) tombe dans ce mois, et elle est hors du collège. La date de la trêve, de la démission de Portell, de la rupture avec Alice et du séjour à Folly Beach manque. Les sources se contredisent sur le congé de Rice : Duberman parle d'un sabbatique convenu pour toute l'année 1939-40, Chaddock d'un seul semestre obtenu après refus d'une année entière. La synthèse et les fils n'ont pas d'identifiant EV, SC ou PE ; ils sont cités ici sous la forme FIL. Session et climat ne sont pas attestés. Les fiches hors collège (Guernica, Picasso, Kline, Elaine, Fee) n'ont pas de date de janvier et ne sont pas utilisées."
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "passe": "mois",
+ "cle": "1935-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3172,
+  "sortie": 10459,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1935-07",
+  "session": "session d'été, dirigée par Mangold selon la synthèse",
+  "saison_et_climat": "Été. Les fiches ne disent rien de la météo. Les corvées de ferme et de bois donnent une vie surtout en plein air, ce qui reste une inférence.",
+  "situation": "Le collège fonctionne en session d'été sous la conduite de Mangold, qui écrit à Rice, Dreier et Bailey des lettres furibondes contre les étudiants adventistes et végétariens de la session et prédit la mort du collège. Le budget de l'année écoulée a été enregistré le 6 juin, avec des déficits qui retombent sur la faculté. Les fiches ne disent pas qui est sur place en juillet : le voyage mexicain d'Anni et Josef Albers, avec Ted et Bobbie Dreier, peut couvrir cet été ou tomber à la fin de 1935.",
+  "presents_probables": [
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier (la fiche ne précise pas lequel ; il s'occupe de la ferme)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bailey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants de la session d'été, dont les adventistes et végétariens visés par Mangold",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1935-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Pendant la session d'été, Mangold écrit à Rice, Dreier et Bailey des lettres très virulentes sur les étudiants adventistes et végétariens et dit que le collège est voué à la mort.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-07",
+    "precision": "saison",
+    "ce_qui_arrive": "Dreier s'occupe de la ferme pendant l'été.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-07",
+    "precision": "saison",
+    "ce_qui_arrive": "Premier voyage des Albers au Mexique avec Ted et Bobbie Dreier, pendant lequel Anni achète une tête de figurine à un petit garçon. Les sources divergent : vacances d'été ou décembre 1935 à janvier 1936.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "date": "1935-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Publication dans Physical Review de l'article d'Einstein et Rosen décrivant un pont entre couches d'espace-temps. Aucun lien avec le collège n'apparaît dans les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02459"
+    ]
+   }
+  ],
+  "quotidien": "Travaux de ferme et corvées mixtes (bois, routes, tennis), tenus par la communauté. Le bal du samedi, les cours de musique et le théâtre de Wunsch sont attestés pour l'année, sans date précise en juillet. Les repas se prennent au collège, avec Roy's en cours de fondation.",
+  "tensions": [
+   "Mangold contre les étudiants adventistes et végétariens de la session d'été, et contre la manière dont le collège est tenu",
+   "Déficits budgétaires qui retombent sur la faculté, avec un barème tenu secret",
+   "Question raciale non résolue : le personnel noir refuse de déménager à Lee Hall (date non fixée dans les fiches)",
+   "Frictions Rice-Albers et Rice-Knickerbocker qui montent (dates exactes non précisées)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les lettres de Mangold",
+    "date": "1935-07",
+    "lieu": "le collège, pendant la session d'été",
+    "personnages": [
+     "Mangold",
+     "Rice",
+     "Dreier",
+     "Bailey",
+     "étudiants adventistes et végétariens de la session"
+    ],
+    "deroule": "Mangold écrit d'un ton furieux à trois destinataires pour dénoncer ses étudiants et prédire la fin du collège. La scène peut montrer la lecture des lettres par leurs destinataires et le poids que la faculté porte déjà pour les déficits.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La tête enveloppée dans un mouchoir",
+    "date": "1935-07",
+    "lieu": "Mexique, lieu non précisé",
+    "personnages": [
+     "Anni Albers",
+     "Josef Albers",
+     "Ted Dreier",
+     "Bobbie Dreier",
+     "un petit garçon"
+    ],
+    "deroule": "Un enfant propose à Anni une tête de figurine enveloppée dans un mouchoir, et elle l'achète. Plus tard, George Vaillant confirme son authenticité, et la collection d'idolos commence. La date reste à confirmer, car la fiche hésite entre l'été et l'hiver 1935-1936.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Travaux d'été à la ferme",
+    "date": "1935-07",
+    "lieu": "la ferme du collège",
+    "personnages": [
+     "Dreier"
+    ],
+    "deroule": "Dreier organise le travail agricole de la session d'été. La scène peut servir à montrer le travail manuel commun et les dépenses qui retombent sur la faculté.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, au moment où Mangold accuse le collège de courir à sa perte",
+    "vers_date": "1935-06-06",
+    "vers": "Le Board enregistre les salaires de l'année écoulée : 7 250 $ pour dix-sept personnes, environ 350 $ de coût par étudiant et par an, et des déficits qui retombent sur la faculté.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, à propos de la légitimité du collège que Mangold met en doute",
+    "vers_date": null,
+    "vers": "Les visites de John Dewey pendant l'année 1934-35, qui suit le cours de Rice en silence et écrit ensuite que le collège touche aux racines de la vie démocratique. Les sources divergent sur le nombre de visites.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Fils : La légitimation par Dewey (1934→None)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, alors que la faculté se prépare à la rentrée",
+    "vers_date": "1935-09",
+    "vers": "Arrivée d'Irving Knickerbocker, psychologue recommandé par Harvard, qui exprime d'emblée ses doutes sur les tactiques de classe de Rice. Le schisme Rice-Knickerbocker commence ici.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Fils : Rice contre Knickerbocker : vers le schisme (1935-09→1937-06)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, pendant le séjour possible de Louis Adamic au collège",
+    "vers_date": "1936-04",
+    "vers": "Parution de « Education on a Mountain » dans Harper's, à partir de ce que Adamic a observé et recueilli sur la doctrine du collège. Cet article fait ensuite crise en 1936.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Fils : Adamic et l'image publique du collège (1935→1936)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, à la fin du voyage mexicain et au moment où Josef Albers regarde déjà vers Harvard",
+    "vers_date": "1936",
+    "vers": "Josef Albers commence à enseigner à Harvard.",
+    "refs": [
+     "chapitre de l'année 1935 (synthèse)",
+     "Fils : Les Albers et le Mexique (1935→1967)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le collège annoncé comme mourant alors qu'il continue à vivre",
+   "L'argent et les déficits qui pèsent sur les enseignants",
+   "Le collège comme expérience de vie commune plutôt que comme institution",
+   "Le Mexique et la collection d'idolos",
+   "La légitimation du collège par des figures extérieures comme Dewey"
+  ],
+  "lacunes": "La présence réelle de Josef et Anni Albers, de Ted et Bobbie Dreier, de Wunsch, de Dreier (lequel ?) et de Bailey en juillet n'est pas établie. La date du voyage mexicain et celle du séjour d'Adamic restent incertaines. Les fiches ne donnent aucun jour précis en juillet et ne disent rien du climat. La fiche Einstein-Rosen n'a aucun rapport documenté avec le collège."
+ }
+}

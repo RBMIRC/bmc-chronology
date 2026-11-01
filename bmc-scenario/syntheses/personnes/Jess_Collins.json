@@ -1,0 +1,221 @@
+{
+ "passe": "personnes",
+ "cle": "Jess Collins",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1929,
+  "sortie": 4269,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Jess Collins",
+  "autres_noms": [
+   "Jess",
+   "Jess Collins (peintre-collagiste, plus tard connu sous le seul nom de Jess)"
+  ],
+  "dates_de_vie": "Non précisées dans les fiches.",
+  "statut_bmc": "Compagnon de Robert Duncan, présent au collège sans fonction officielle attestée dans les fiches : il accompagne Duncan lors de ses séjours (printemps 1955, puis été 1956). Figure discrète, vue à travers Duncan.",
+  "presence": [
+   {
+    "debut": "1955-04",
+    "fin": "1955",
+    "role": "Compagnon de Duncan lors de son premier séjour au collège (printemps 1955). Les fiches disent qu'il l'accompagne la plupart du temps ; l'étendue exacte de sa présence n'est pas précisée.",
+    "refs": [
+     "EV-06702",
+     "RE-01951",
+     "PE-00320"
+    ]
+   },
+   {
+    "debut": "1956",
+    "fin": "1956",
+    "role": "Accompagne a priori Duncan lors du retour de celui-ci au début de l'été 1956 (déduction à partir de « la plupart du temps » ; pas de confirmation directe pour ce second séjour).",
+    "refs": [
+     "EV-06702",
+     "PE-00320"
+    ]
+   }
+  ],
+  "portrait_physique": "Presque rien dans les sources. Une seule indication, d'allure : une « attente grise », une réserve silencieuse et aimable. À construire avec prudence ; aucune donnée sur la taille, le visage, la tenue, l'âge.",
+  "noyau_psychologique": "Un homme retiré, doux, dévotionnel, qui met son énergie dans le foyer et dans l'œuvre plutôt que dans la scène sociale. Il est l'ancre de Duncan : il rend possible la vie de l'autre (cuisine, réparations, salaire de pharmacie) et poursuit à côté un art visionnaire. Fiche à lire en creux : son contraire apparent est Duncan, bavard, flamboyant, rivalisant avec Olson. Déduction : une force tranquille, qui tient parce qu'elle ne s'exhibe pas. Le fond de sa motivation reste à inventer à partir de cette tension entre abnégation domestique et vocation artistique.",
+  "blessures": "Non documenté directement. Pistes déduites, à manier avec prudence : la rupture avec sa carrière scientifique (le chimiste/physicien qui a surveillé la production de plutonium à Oak Ridge puis renoncé), et le fait de vivre avec un homme dont les virées lui échappent.",
+  "desirs": "Attesté : devenir peintre et collagiste, quitter le complexe militaro-intellectuel pour un nouveau départ dans l'art, vivre durablement auprès de Duncan. Après 1988, poursuivre son art dévotionnel dans la retraite.",
+  "peurs": "Non documenté. Déduction très fragile : la perte de Duncan, l'humiliation publique, le retour à la science militaire. Aucune source ne l'affirme.",
+  "maniere_d_aimer": "Fidélité durable et pratique : tenir le foyer, cuisiner magnifiquement, réparer meubles et interrupteurs, travailler en pharmacie pour faire vivre le couple. Il reste l'amant de Duncan plus de 37 ans, jusqu'à la mort de celui-ci en 1988, malgré les virées de Duncan, même en sa présence, au collège. Les sources ne disent pas comment il les vit : tolérance, souffrance ou accord tacite ? Silence à exploiter.",
+  "rapport_au_pouvoir": "Aucun goût manifeste pour le pouvoir ou la reconnaissance sociale : il se tient en retrait pendant que Duncan rivalise avec Olson pour l'importance dans la communauté. Son passé à Oak Ridge est celui d'un homme qui a connu de l'intérieur la puissance de l'appareil militaro-scientifique et s'en est détourné (attesté par la fiche ; la motivation reste à imaginer).",
+  "voix": {
+   "registre": "Aucune parole de lui n'est rapportée dans les fiches. Registre à construire à partir de la réserve : peu de mots, ton aimable, doux, sans emphase, par contraste avec le « bavardage merveilleux » de Duncan.",
+   "tics": "Non documentés. Le seul trait d'attitude disponible est le silence aimable.",
+   "exemples_paraphrases": [
+    "Une réplique brève, domestique, qui ramène Duncan au concret (repas, objet à réparer) : invention à partir des habitudes attestées, pas une parole sourcée.",
+    "Une absence de réponse aux provocations ou aux envolées de Duncan, silence aimable plutôt que dispute."
+   ]
+  },
+  "habitudes": [
+   "Cuisiner magnifiquement.",
+   "Réparer meubles et interrupteurs.",
+   "Tenir le ménage.",
+   "Travailler dans une pharmacie pour subvenir aux besoins du couple (période exacte non précisée ; pas attesté à Black Mountain).",
+   "Accompagner Duncan presque partout ; s'absenter parfois (la fiche PE-00320 le mentionne, sans précision).",
+   "Peindre et faire des collages (pratique dévotionnelle)."
+  ],
+  "convictions": [
+   "Une vocation artistique vécue comme dévotion, plutôt que comme carrière ou rivalité.",
+   "Un refus du complexe militaro-intellectuel (déduit de sa rupture avec la physique nucléaire ; il n'y a pas de déclaration citée).",
+   "Une vie commune à long terme avec Duncan comme choix central."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1955-04",
+    "moment": "Arrive avec Duncan au printemps 1955, dans un collège où Duncan prend de la place face à Olson.",
+    "etat_interieur": "Déduction : posture d'observateur discret, au service de Duncan ; ni rival ni disciple d'Olson. Rien n'est attesté sur son état intérieur.",
+    "refs": [
+     "EV-06702",
+     "PE-00320"
+    ]
+   },
+   {
+    "date": "1955",
+    "moment": "Vie de couple ouvertement assumée avec Duncan, évoquée par les fiches à Majorque (Mallorca) en 1955. La chronologie exacte par rapport aux séjours à Black Mountain n'est pas donnée.",
+    "etat_interieur": "Stabilité du couple attestée de l'extérieur ; intériorité inconnue.",
+    "refs": [
+     "RE-02716",
+     "RE-02740"
+    ]
+   },
+   {
+    "date": "1956",
+    "moment": "Duncan revient début été 1956 ; Jess l'accompagne le plus souvent, tandis que Duncan s'échappe parfois en virées, même en sa présence.",
+    "etat_interieur": "Déduction : il endure ou accepte ces escapades avec réserve. Aucune source ne dit s'il en souffre, y consent ou les ignore.",
+    "refs": [
+     "EV-06702",
+     "RE-01951"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Scientifique : physicien nucléaire selon une formulation, chimiste surveillant la production de plutonium à Oak Ridge selon une autre. Il renonce au complexe militaro-intellectuel pour un nouveau départ artistique.",
+    "refs": [
+     "PE-00320"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Entend Duncan lire à Berkeley, abandonne l'université, étudie à la California School of Fine Arts (Still, Corbett, Hassel Smith, Bischoff, David Park).",
+    "refs": [
+     "PE-00320"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Devient le partenaire de Duncan ; Duncan tombe amoureux de lui en écrivant « The Song of the Borderguard ».",
+    "refs": [
+     "PE-00320",
+     "RE-02071"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1966",
+    "moment": "Illustre A Book of Resemblances, poèmes de Duncan.",
+    "refs": [
+     "PE-00320",
+     "RE-02071"
+    ]
+   },
+   {
+    "date": "1967",
+    "moment": "Illustre le livre pour enfants The Cat and the Blackbird.",
+    "refs": [
+     "PE-00320"
+    ]
+   },
+   {
+    "date": "1968",
+    "moment": "Illustre Names of People.",
+    "refs": [
+     "PE-00320"
+    ]
+   },
+   {
+    "date": "1988",
+    "moment": "Mort de Duncan ; Jess reste son amant jusqu'à la fin et poursuit ensuite son art dévotionnel dans la retraite.",
+    "refs": [
+     "RE-03260",
+     "RE-01814",
+     "PE-00320"
+    ]
+   },
+   {
+    "date": "1994",
+    "moment": "Rétrospective au Whitney ; comparaisons avec Moreau, Ernst, Balthus.",
+    "refs": [
+     "PE-00320"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Robert Duncan",
+    "nature": "Amour, partenariat de vie, collaboration artistique",
+    "evolution": "Rencontre autour de 1949-1950 ; vie commune à Majorque en 1955 ; accompagnement à Black Mountain en 1955-1956 malgré les virées de Duncan ; amants jusqu'à la mort de Duncan en 1988 ; collaboration par les illustrations dans les années 1960.",
+    "refs": [
+     "RE-01814",
+     "RE-01951",
+     "RE-02071",
+     "RE-02716",
+     "RE-02740",
+     "RE-03260",
+     "EV-06702",
+     "PE-00320"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "Relation indirecte : Jess n'est pas mentionné face à Olson ; il est au côté de Duncan, rival d'Olson pour l'importance dans la communauté (la rivalité est jugée délibérée par certains).",
+    "evolution": "Non documentée entre Jess et Olson ; à inventer avec prudence.",
+    "refs": [
+     "EV-06702"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Profession scientifique : « physicien nucléaire » dans un passage, « chimiste surveillant la production de plutonium à Oak Ridge » dans un autre.",
+   "Nature de la relation avant 1950 : Duncan est dit « ami de longue date » à Black Mountain (EV-06702) alors que d'autres fiches placent la rencontre en 1949 et la mise en couple en 1950 ; « longue date » est relatif, et la durée exacte reste vague.",
+   "Les relations datées de 1950 (RE-01951) évoquent « les années 1950 » comme période alors que l'événement concerne 1955-1956 ; la date d'ancrage est large.",
+   "Vie à Majorque en 1955 (RE-02716, RE-02740) et séjour de Duncan à Black Mountain au printemps 1955 : le calendrier précis entre ces deux lieux n'est pas établi par les fiches.",
+   "Rapport entre « retiré, doux » et un homme qui vit auprès d'un Duncan flamboyant : pas contradictoire en soi, mais aucune source ne décrit sa vie sociale à Black Mountain."
+  ],
+  "situations_revelatrices": [
+   "Une scène de cuisine ou de réparation pendant que Duncan fait le brillant en public : sa force passe par le geste.",
+   "Une virée de Duncan en sa présence : la réserve aimable de Jess face à l'ego de l'autre.",
+   "Une séance de collage ou de peinture silencieuse, dévotionnelle, à côté d'un Duncan qui parle.",
+   "Une conversation où l'on évoque Oak Ridge et le plutonium : ce qu'il tait ou confie de sa vie d'avant.",
+   "Un moment où le couple est regardé (par Olson, les étudiants) et où Jess reste simplement là."
+  ],
+  "citations": [
+   "PE-00320",
+   "RE-01814",
+   "RE-01951",
+   "RE-02071",
+   "RE-02716",
+   "RE-02740",
+   "RE-03260",
+   "EV-06702"
+  ],
+  "questions_ouvertes": [
+   "Quelles dates exactes de présence de Jess à Black Mountain, et y a-t-il séjourné pendant tout le séjour de Duncan ?",
+   "A-t-il peint ou fait des collages au collège, et sous quelles conditions matérielles ?",
+   "Comment a-t-il vécu les virées de Duncan ?",
+   "Quelle fut sa relation avec Olson, les étudiants, les autres compagnons du collège ?",
+   "Chimiste ou physicien : quel fut exactement son rôle à Oak Ridge, et pourquoi a-t-il rompu ?",
+   "Quelle vie quotidienne à Majorque en 1955, et quel lien avec le calendrier de Black Mountain ?",
+   "Quelle voix réelle : existe-t-il des témoignages directs, lettres, entretiens ?",
+   "Quelle fut sa vie entre 1957 et 1988, au-delà des illustrations citées (lieux, travail en pharmacie, expositions) ?"
+  ]
+ }
+}

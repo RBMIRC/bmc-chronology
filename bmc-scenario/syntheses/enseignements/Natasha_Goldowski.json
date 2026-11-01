@@ -1,0 +1,203 @@
+{
+ "passe": "enseignements",
+ "cle": "Natasha Goldowski",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 5675,
+  "sortie": 6282,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Natasha Goldowski",
+  "cours": [
+   {
+    "intitule": "Physique théorique",
+    "periodes": [
+     "1947-48"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire sentir les « mystères numériques » de la physique théorique, plus que dérouler un programme. Elle visait la solution la plus élégante, pas seulement la solution juste (CO-00447).",
+    "deroule_type_seance": "Attesté : cours au tableau noir, à la craie. Elle écrit fébrilement, bondit, tournoie et casse la craie. L'étudiant suit dans un étroit bandeau de clarté entre deux brouillards (CO-00447). Aucune structure de séance (durée, lieu, progression) n'est donnée. Le cours précède l'incendie du laboratoire de septembre 1948 (SC-01188), mais les fiches ne disent pas s'il s'y tenait.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Arriver à la bonne solution ne suffit pas : seule la solution la plus élégante possible relève de la bonne physique (CO-00447)."
+    ],
+    "critique_et_evaluation": "Aucune évaluation documentée. La source (Lane 1990) est un témoignage d'étudiant enthousiaste, non un jugement institutionnel.",
+    "reactions_etudiants": "Enthousiasme. La clarté est momentanée, puis vient le brouillard, mais la magie dure (CO-00447). Dans une scène de danse (hors cours) elle explique la fission en valsant avec Lyle Bonge (SC-01016), ce qui montre son goût pour l'image physique et corporelle ; la fiche ne la situe pas en classe.",
+    "evolution": "Cours antérieur à la perte du laboratoire (SC-01188). Après l'incendie, l'enseignement se fait sans instruments (CO-00506).",
+    "refs": [
+     "CO-00447",
+     "SC-01016",
+     "SC-01188"
+    ]
+   },
+   {
+    "intitule": "Groupe informel de cybernétique",
+    "periodes": [
+     "1948-1949"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non documentés. Déduction prudente : il s'agit d'initier un petit groupe à la cybernétique ; les fiches ne le précisent pas.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "« A brain strain » pour Gerda (identité non précisée par la fiche), mais une expérience qui élargit (CO-00481, Lane 1990).",
+    "evolution": "Les fiches ne permettent pas de dire si ce groupe de 1948-49 est le même objet que le séminaire non crédité de cybernétique daté d'environ 1950-1956 (CO-00603). Les deux sont attestés ; leur continuité est incertaine.",
+    "refs": [
+     "CO-00481",
+     "CO-00603"
+    ]
+   },
+   {
+    "intitule": "Séminaire sur Our Destinies and Our Instincts",
+    "periodes": [
+     "1948, après l'incendie du laboratoire"
+    ],
+    "atteste": "oui",
+    "objectifs": "Combler le programme et son temps après la perte du laboratoire (CO-00506).",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Travail autour du volume Our Destinies and Our Instincts. Aucune consigne précise n'est documentée ; seule l'existence du séminaire sur ce livre est attestée.",
+      "materiaux": "Le volume Our Destinies and Our Instincts",
+      "but": "Remplacer les travaux de laboratoire disparus par un travail de lecture et de discussion (déduit du but « combler le programme »).",
+      "refs": [
+       "CO-00506"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Our Destinies and Our Instincts (volume utilisé ; les fiches n'en donnent pas l'auteur)",
+     "Percy Bridgman, dont elle reste fidèle à l'idée qu'un fait dépend des instruments de mesure (CO-00506)"
+    ],
+    "propos_types": [
+     "Elle enseignait, fidèle à Bridgman, qu'un fait est fonction des instruments de mesure. L'ironie est qu'il n'y avait alors plus d'instruments au collège (CO-00506, Duberman 1972)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Cours de remplacement né de l'incendie de la fin de septembre 1948, qui a détruit entièrement le laboratoire (SC-01188). La même idée sur l'absence d'instruments revient en 1952 (CO-00724).",
+    "refs": [
+     "CO-00506",
+     "SC-01188",
+     "CO-00724"
+    ]
+   },
+   {
+    "intitule": "Séminaire non crédité sur la cybernétique",
+    "periodes": [
+     "≈1950→1956 (date déduite du contexte, à manier avec prudence)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Présenter la cybernétique (CO-00603).",
+    "deroule_type_seance": "Séance suivie par beaucoup de monde. Elle expose la cybernétique à partir des épreuves en plaques du premier livre de Norbert Wiener. Olson, présent, loue longuement la beauté du travail d'équipe pluridisciplinaire de Wiener et regrette seulement qu'il n'y ait pas de poète dans l'équipe (CO-00603, SC-01269). Aucune autre structure n'est documentée.",
+    "exercices": [
+     {
+      "consigne": "Exposé commenté d'après les épreuves du livre de Wiener, suivi de digressions de l'auditoire ; aucune consigne d'exercice proprement dite n'est documentée. Cette forme est déduite des fiches.",
+      "materiaux": "Épreuves en plaques du premier livre de Norbert Wiener",
+      "but": "Faire connaître la cybernétique à un public large et non crédité.",
+      "refs": [
+       "CO-00603",
+       "SC-01269"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Premier livre de Norbert Wiener, lu en épreuves en plaques (CO-00603, SC-01269)"
+    ],
+    "propos_types": [],
+    "critique_et_evaluation": "Le seul jugement conservé porte sur l'ambiance : agacement de l'auditoire devant les digressions d'Olson (CO-00603, SC-01269 ; Duberman 1972). La fiche présente la scène comme une collision entre la rigueur scientifique et la génialité olsonienne.",
+    "reactions_etudiants": "Agacement face aux digressions d'Olson (CO-00603). Olson, lui, est fasciné par le travail d'équipe de Wiener (CO-00603).",
+    "evolution": "Les dates ne sont pas fixées (≈1950-1956). Le lien avec le groupe informel de 1948-49 est incertain (CO-00481).",
+    "refs": [
+     "CO-00603",
+     "SC-01269",
+     "CO-00481"
+    ]
+   },
+   {
+    "intitule": "Physique moderne",
+    "periodes": [
+     "automne 1952, matins"
+    ],
+    "atteste": "oui",
+    "objectifs": "Maintenir des standards académiques rigoureux, avec des tutoriats privés à l'européenne (CO-00724). Le contenu est décrit comme « physique moderne et sujets voisins » (CO-00712).",
+    "deroule_type_seance": "Le cours est donné le matin dans le hall de l'appartement de Natasha et Eric Renner à Meadows Inn (CO-00708). Environ six étudiants sont allongés sur des paillasses couvertes de jetés devant une énorme cheminée rugissante. Le cours dure deux heures, qui passent sans qu'on les voie passer (CO-00712). L'espace est celui de l'appartement parce que le bâtiment scientifique lui a été refusé (CO-00724). Contradiction mineure : les fiches parlent tantôt de l'appartement, tantôt de son hall ; il s'agit vraisemblablement du même lieu.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Leçons pleines d'esprit et de brillance sur la physique moderne et les sujets voisins (CO-00712).",
+     "Elle constate qu'il n'y a pas d'instruments de mesure à Black Mountain College (CO-00724). C'est la même idée que son rappel de 1948 sur la dépendance des faits à l'égard des instruments (CO-00506). Que la phrase de 1952 soit une reprise délibérée de cette position est une déduction, non une attestation."
+    ],
+    "critique_et_evaluation": "Rumaker 2003 est le seul témoin, et il est conquis. Aucun point de vue critique n'est conservé.",
+    "reactions_etudiants": "Fascination : les deux heures semblent trop courtes (CO-00712). Rumaker est séduit par la cordialité flatteuse de l'enseignante (CO-00724).",
+    "evolution": "Dernier cours documenté à Black Mountain. En 1953, Rumaker la visite à la ferme près de Beaucatcher Mountain (SC-01613). Les fiches suggèrent que son énergie manque alors au collège, mais elles ne disent pas explicitement qu'elle a quitté son poste.",
+    "refs": [
+     "CO-00708",
+     "CO-00712",
+     "CO-00724",
+     "CO-00506",
+     "SC-01613"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "L'élégance comme critère : une solution juste ne suffit pas, seule la plus élégante relève de la bonne physique.",
+    "en_classe": "Attesté à Black Mountain : elle le disait dans son cours de physique théorique de 1947-48 (CO-00447). Séance transposable : faire comparer deux démonstrations ou solutions justes du même problème, puis débattre laquelle est la plus élégante et pourquoi. Cette séance n'est pas attestée.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00447"
+    ]
+   },
+   {
+    "idee": "Un fait dépend des instruments de mesure (idée héritée de Percy Bridgman).",
+    "en_classe": "Attesté : elle l'enseignait en 1948, dans un séminaire donné alors que le laboratoire avait brûlé (CO-00506), et en 1952 elle notait l'absence d'instruments au collège (CO-00724). Séance transposable : partir de ce qu'un instrument permet ou interdit de constater, et faire énoncer ce qui reste « fait » sans instrument. Ce déroulé n'est pas attesté.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00506",
+     "CO-00724"
+    ]
+   },
+   {
+    "idee": "Expliquer une loi physique par le corps en mouvement : la fission comme valse qui fend les couples.",
+    "en_classe": "Attesté seulement hors classe, dans une scène de danse avec Lyle Bonge (SC-01016, témoignage direct). Elle explique que la masse et la vitesse du couple dépassent la force de liaison des autres, qui se fendent. Transposition possible : faire jouer une collision ou une liaison par des corps. L'usage de ce procédé en cours n'est pas attesté.",
+    "atteste": "non",
+    "refs": [
+     "SC-01016"
+    ]
+   },
+   {
+    "idee": "La cybernétique comme travail d'équipe pluridisciplinaire, avec la question de la place du poète.",
+    "en_classe": "Attesté : séminaire d'après les épreuves de Wiener, où Olson loue la beauté du travail d'équipe et regrette l'absence d'un poète (CO-00603, SC-01269). Séance transposable : lire un extrait de Wiener et faire discuter ce que chaque discipline apporterait à l'équipe. La séance est déduite, non attestée. Il faut aussi prévoir le risque de digressions, qui ont agacé l'auditoire.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00603",
+     "SC-01269"
+    ]
+   },
+   {
+    "idee": "Enseigner dans un dispositif intime : étudiants allongés devant la cheminée, cours long mais fluide.",
+    "en_classe": "Attesté en 1952 pour la physique moderne : environ six étudiants, des paillasses, un feu, deux heures (CO-00712, CO-00708). Le dispositif sert de modèle pour un petit groupe où l'exposé brillant est suivi dans le confort. Aucune consigne ni méthode pédagogique n'est documentée au-delà de l'ambiance.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00712",
+     "CO-00708",
+     "CO-00724"
+    ]
+   },
+   {
+    "idee": "Apprendre par le geste, en faisant : traire une vache.",
+    "en_classe": "Attesté hors cours, à la ferme en 1953 (SC-01614, témoignage de Rumaker). Elle demande qui a déjà trait, montre le geste rapide, puis exige que chacun essaie à tour de rôle ; la traite du collège était mécanique, avec Mantovani à la radio. La séquence « je montre, vous faites chacun votre tour » est transposable. Ce n'est pas un cours de physique et ce n'est pas attesté au collège.",
+    "atteste": "non",
+    "refs": [
+     "SC-01614",
+     "SC-01613"
+    ]
+   }
+  ]
+ }
+}

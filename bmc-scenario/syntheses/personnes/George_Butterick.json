@@ -1,0 +1,167 @@
+{
+ "passe": "personnes",
+ "cle": "George Butterick",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2632,
+  "sortie": 5959,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "George Butterick",
+  "autres_noms": [],
+  "dates_de_vie": "Naissance inconnue des fiches. Mort avant 1990 (PE-00321 : Dawson regrette qu'il ne puisse plus entendre qu'Olson apprenait de ses étudiants). Aucune autre date n'est donnée.",
+  "statut_bmc": "Il n'est pas attesté au collège. Les fiches ne le montrent ni étudiant, ni enseignant, ni visiteur. C'est une figure de l'après : archiviste et gardien des papiers de Charles Olson à la Wilbur Cross Library (Université du Connecticut), auteur d'un Guide to the Maximus Poems et de l'introduction de The Post Office. Il sert de relais et de correcteur de mémoire sur Olson et Black Mountain, pas de personnage du campus. Pour le scénario, il appartient au cadre de flash-forward (années 1970).",
+  "presence": [],
+  "portrait_physique": "Attesté : sourcils noirs, yeux ronds derrière des lunettes. Quand il s'emporte, il halète et ses sourcils se dressent (EV-08803, PE-00321). Ni âge, ni taille, ni vêtements ne sont donnés.",
+  "noyau_psychologique": "Un gardien. Sa vie professionnelle tourne autour d'un homme mort dont il protège et classe les traces. Il est doux, serviable, précis, avec une pointe d'humour malicieux. Ce qui le fait sortir de son calme, c'est la perte d'un document ou d'une exactitude : la rage archivistique. Il tient à la rigueur des faits au point de rectifier un historien par lettre, deux fois (1978, 1979). Déduction : son attachement à Olson semble plus affectueux que révérencieux, puisqu'il montre avec drôlerie les billes de l'enfance du poète. Les sources ne le disent pas directement.",
+  "blessures": "Les fiches n'en montrent aucune au sens biographique. La seule blessure attestée est professionnelle : l'idée qu'une pièce olsonienne ait été détruite, ici les feuilles de la fosse à cendres que Rumaker n'a pas sauvées (EV-08803). Tout le reste serait de l'invention.",
+  "desirs": "Déduit de ses actes : que les papiers d'Olson soient complets, conservés et exacts ; que les récits sur Olson soient justes (il corrige les erreurs de Dawson sur l'anecdote de la côtelette et sur le testament) ; que son Guide to Maximus paraisse chez University of California Press (EV-08460, PE-00321).",
+  "peurs": "Déduit, non attesté : la perte irréparable d'un papier. Sa réaction à l'histoire de la fosse à cendres est presque violente. Il se rassure avec « Olson ne jetait jamais rien » tout en admettant que ce cas est peut-être une exception (EV-08803).",
+  "maniere_d_aimer": "Aucune vie sentimentale n'est documentée. Sa loyauté passe par le travail : conserver, vérifier, expliquer, aider ceux qui écrivent sur Olson. Il montre aussi une complicité joueuse avec les visiteurs, comme le sac de billes d'Olson exhibé à Rumaker lors de sa première visite.",
+  "rapport_au_pouvoir": "Un pouvoir de dépositaire, sans autorité hiérarchique attestée : il détient les papiers, l'accès, et la capacité de dire « non, c'était une autre histoire ». Il l'exerce avec douceur et aide volontiers (« serviable, efficace »), mais il corrige avec fermeté quand un chercheur se trompe. Les sources ne disent rien de ses relations à une institution ou à une hiérarchie universitaire.",
+  "voix": {
+   "registre": "Écrit : familier, vif, drôle, exclamatif ; Dawson parle de « blue ribbon information ». Oral : doux, impassible, de manière et de voix. Le contraste entre les deux est à exploiter.",
+   "tics": "Interjections répétées (« Oh my gosh! my gosh! »), insistance sur le nombre (« deux histoires », « deux côtelettes »), formule de consolation « Olson never threw anything out ».",
+   "exemples_paraphrases": [
+    "Il s'exclame, saisi, qu'on a deux histoires différentes en cours, deux morceaux de porc différents (CI-04259, 1978).",
+    "Il rectifie sans détour : Olson a bel et bien laissé un testament, qui nommait ses deux enfants héritiers (CI-04264, 1979).",
+    "Devant la fosse à cendres, il souffle, puis se rabat sur sa maxime : Olson ne jetait jamais rien (CI-04428)."
+   ]
+  },
+  "habitudes": [
+   "Répond aux demandeurs par lettres datées, avec précisions et pièces jointes (épreuves du Guide pp. 298-300, feuilles de « quick rewrite » xeroxées).",
+   "Accueille les visiteurs à la Wilbur Cross Library et leur montre des curiosités de la collection, comme le sac de billes d'enfance d'Olson.",
+   "Tient ses propres papiers de travail, où il avait consigné une histoire proche de celle de Dawson.",
+   "Se réfère à la manie de conservation d'Olson, qui gardait même les lettres et des serviettes de restaurant griffonnées (EV-08803)."
+  ],
+  "convictions": [
+   "Olson ne jetait jamais rien : l'archive d'Olson est en principe exhaustive (PE-00321, EV-08803).",
+   "Il faut sauver les papiers, y compris les feuilles ordinaires ou jugées mineures (EV-08803).",
+   "Les faits doivent être rectifiés même chez un ami ou un collègue : l'anecdote de la côtelette et le testament en témoignent."
+  ],
+  "arc_bmc": [],
+  "avant": [],
+  "apres": [
+   {
+    "date": "",
+    "moment": "Années d'après-collège, non datées précisément : il est archiviste des papiers d'Olson à la Wilbur Cross Library de l'Université du Connecticut. Lors de la première visite de Rumaker, il lui montre avec malice un sac de billes d'Olson, puis réagit presque avec violence au récit de la fosse à cendres : il halète, sourcils dressés, et déplore que Rumaker n'ait pas sauvé les feuilles. Il se console par « Olson never threw anything out » (déduction : la scène est postérieure à la mort d'Olson, en 1970 ; les fiches ne donnent pas la date).",
+    "refs": [
+     "EV-08803",
+     "CI-04428",
+     "PE-00321"
+    ]
+   },
+   {
+    "date": "1978-02-16",
+    "moment": "Il répond à Dawson qu'il n'a pas lu le récit de l'incident de la côtelette mais qu'il en a écrit dans ses propres papiers (selon EV-08459) ou dans son Guide to Maximus à paraître (selon EV-08460). Il joint les épreuves pp. 298-300 et des feuilles de « quick rewrite ».",
+    "refs": [
+     "EV-08459",
+     "EV-08460",
+     "OE-04143",
+     "PE-00321"
+    ]
+   },
+   {
+    "date": "1978-02",
+    "moment": "Environ une semaine après avoir reçu le texte de Dawson, il rectifie : l'histoire est celle de Dahlberg, il y a deux récits, deux côtelettes différentes. Il s'exclame de surprise et de plaisir. Dawson réécrit alors sa version.",
+    "refs": [
+     "EV-08460",
+     "CI-04259"
+    ]
+   },
+   {
+    "date": "1979-10-17",
+    "moment": "Il corrige Dawson sur un autre point : Olson avait laissé un testament qui nommait ses deux enfants héritiers, mais il n'a jamais été prouvé ni accepté par le tribunal. Après près de sept ans d'incertitude, Charles Peter est nommé seul héritier, Kate ayant été adoptée contre les vœux de son père et, dit-on, à son insu.",
+    "refs": [
+     "EV-08480",
+     "CI-04264"
+    ]
+   },
+   {
+    "date": "1978",
+    "moment": "Son Guide to the Maximus Poems of Charles Olson est annoncé chez University of California Press (1978/79 selon PE-00321). Il y relate l'arrière-plan Dahlberg/Olson et documente la scène de 1940 et l'incident de 1952.",
+    "refs": [
+     "OE-04143",
+     "PE-00321"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Il meurt avant 1990 (Dawson déplore qu'il ne puisse plus entendre qu'Olson apprenait de ses étudiants). Les circonstances et la date exacte sont inconnues.",
+    "refs": [
+     "PE-00321"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Charles Olson",
+    "nature": "Archiviste et gardien de ses papiers, auteur d'un guide sur Maximus et d'une introduction à The Post Office. Rien n'indique qu'ils se soient connus de son vivant : à vérifier.",
+    "evolution": "Relation posthume, de travail et d'attachement. Il connaît Olson par ses papiers, ses billes, ses serviettes de restaurant.",
+    "refs": [
+     "PE-00321",
+     "EV-08803",
+     "EV-04402",
+     "OE-04143"
+    ]
+   },
+   {
+    "avec": "Dawson (Fielding Dawson, auteur du récit, d'après les références « Dawson 1970 »)",
+    "nature": "Correspondant et correcteur : Dawson l'interroge, il répond et rectifie.",
+    "evolution": "Échange de lettres en 1978, puis rectification sur le testament en 1979 ; Dawson garde son texte erroné comme avertissement méthodologique. Remarque : le prénom de Dawson n'est pas dans les fiches, c'est une identification déduite.",
+    "refs": [
+     "EV-08459",
+     "EV-08460",
+     "EV-08480"
+    ]
+   },
+   {
+    "avec": "Rumaker (Michael Rumaker)",
+    "nature": "Visiteur, ami de l'Olson de BMC, auteur de l'histoire de la fosse à cendres.",
+    "evolution": "Butterick l'accueille d'abord avec malice (les billes), puis sa réaction presque violente à l'histoire de la fosse à cendres marque Rumaker, qui conserve depuis chaque papier d'Olson reçu. Le prénom de Rumaker est une identification déduite.",
+    "refs": [
+     "EV-08803"
+    ]
+   },
+   {
+    "avec": "Edward Dahlberg",
+    "nature": "Absent de sa vie directe, mais central dans l'anecdote de la côtelette : l'histoire de Dahlberg est ce que Butterick avait écrit.",
+    "evolution": "La confusion entre l'histoire Dahlberg et l'histoire de Dawson est résolue en 1978 par sa correction.",
+    "refs": [
+     "EV-08460",
+     "OE-04143"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Où Butterick avait-il écrit l'incident ? EV-08459 et PE-00321 disent « dans ses propres papiers », EV-08460 dit « dans son Guide to Maximus » à paraître. Les deux ne s'excluent pas forcément, mais les sources diffèrent.",
+   "EV-08460 dit qu'il l'a raconté dans le Guide, mais qu'une semaine plus tard il précise qu'il s'agit de l'histoire Dahlberg, différente de celle de Dawson. Il n'avait donc pas écrit l'incident que Dawson avait en tête.",
+   "Datation de la mort : « avant 1990 » seulement, par déduction de PE-00321.",
+   "Les fiches citent la référence « Dawson 1970 » pour des lettres de 1978-79, ce qui indique que la source est une édition ou un texte postérieur. À manier avec prudence.",
+   "L'omission d'Olson sur 1952 (EV-08059) est une interprétation de Dawson, pas un fait attesté, et elle n'implique pas Butterick directement."
+  ],
+  "situations_revelatrices": [
+   "Un chercheur lui soumet un récit : il répond par une lettre exclamative et précise, puis rectifie.",
+   "Un visiteur lui raconte la perte d'un papier d'Olson : sa douceur cède à une colère contenue, puis il se console avec sa formule.",
+   "Première visite d'un ami d'Olson à la bibliothèque : il sort avec malice un objet insolite (les billes).",
+   "Il découvre qu'un récit se confond avec un autre : surprise joyeuse (« deux côtelettes »).",
+   "Il corrige un fait juridique ou familial (le testament d'Olson, Kate adoptée à l'insu de son père)."
+  ],
+  "citations": [
+   "CI-04259 (1978-02) : « Oh my gosh! my gosh! We got two different stories going on here! Two different cuts of pork chops! »",
+   "CI-04264 (1979-10-17) : « Olson in fact left a will — naming both his children as heirs to his estate. »",
+   "CI-04428 (≈?) : « Olson never threw anything out »"
+  ],
+  "questions_ouvertes": [
+   "Date et lieu de naissance, formation, parcours avant le poste d'archiviste ?",
+   "A-t-il connu Olson de son vivant, ou Black Mountain, même indirectement ?",
+   "Date de sa mort et circonstances ?",
+   "Date de la visite de Rumaker à la Wilbur Cross Library ?",
+   "Le Guide to Maximus a-t-il paru en 1978 ou 1979 ? Que contiennent précisément les pages 298-300 ?",
+   "Comment est-il devenu le gardien des papiers d'Olson ?",
+   "Quelle est exactement la différence entre les deux récits de la côtelette (Dahlberg, 1940, et l'épisode de Dawson) ?"
+  ]
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "passe": "mois",
+ "cle": "1937-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5139,
+  "sortie": 13744,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-04",
+  "session": "Printemps : les vacances de printemps viennent de s'achever (EV-02709), et le trimestre de printemps reprend. Son découpage exact n'est pas documenté (déduit).",
+  "saison_et_climat": "Printemps. Aucune fiche ne décrit le temps ; on peut supposer une douceur croissante, sans certitude.",
+  "situation": "Le collège sort de l'hiver de bataille de gouvernance. La pétition de Zeuch a été rejetée, la réunion communautaire du 17 février a conclu que la séparation était la seule issue (EV-02705), et Rice a publié sa riposte à Hutchins. En avril, l'affaire de Floride occupe le Board et la faculté : quatre étudiants sont partis ensemble pendant les vacances de printemps, et il faut sanctionner une faute qu'aucune règle ne nommait (SC-00703). Le 9 avril, un accord provisoire interdit les groupes mixtes en vacances, sans autre sanction (EV-02709). La gouvernance reste ouverte et prépare la réunion marathon de mai, puis le schisme de juin.",
+  "presents_probables": [
+   {
+    "nom": "Board of Fellows",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mort Steinau (journal de l'affaire de Floride)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Les quatre étudiants de Floride (noms non donnés dans les fiches)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Fred Moellenhoff",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mme Moellenhoff",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alsberg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Coleman",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Harrington",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Portell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zeuch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Georgia",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-04-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Le Board of Fellows siège avec les quatre étudiants de Floride. Peu sort de la réunion.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02709",
+     "SC-00703"
+    ]
+   },
+   {
+    "date": "1937-04-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Décision que Fred et Mme Moellenhoff parleront aux quatre étudiants ; le problème est renvoyé à la réunion étudiante du lendemain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02709",
+     "SC-00703"
+    ]
+   },
+   {
+    "date": "1937-04-09",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion étudiante sur l'opinion du collège à propos des voyages de groupes mixtes ; accord provisoire : les groupes mixtes ne partent pas ensemble en vacances, sans sanction individuelle.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02709",
+     "SC-00703"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "saison",
+    "ce_qui_arrive": "Rice publie dans Harper's sa riposte à Hutchins, « Fundamentalism and the Higher Learning » : l'éducation est une manière de faire, et « savoir ne suffit pas ». Le mois exact n'est pas donné ; ce printemps peut tomber avant ou après avril.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02666",
+     "EV-02668",
+     "OE-01340"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent presque pas la vie ordinaire d'avril. On peut déduire que les cours reprennent après les vacances, et que les journées sont occupées par les auditions et les réunions de l'affaire de Floride. Rien n'est attesté sur les repas, la musique, les travaux ou les cours eux-mêmes. Le séminaire d'écriture de Rice est attesté pour l'automne, pas pour avril.",
+  "tensions": [
+   "La réputation morale du collège, soupçonné d'être un « centre du libre amour », sert de cadre à la sanction d'une conduite qu'aucune règle ne prévoyait",
+   "Les dissidents défendent une « démocratie organique » avec un Board élu, contre la persuasion de Rice, qui refuse la démocratie de comptage",
+   "Rice affirme seul décider qui est intelligent, ce qui nourrit le soupçon d'autorité fixe",
+   "La séparation a été jugée seule issue en février, mais aucune rupture n'est encore consommée",
+   "Les enseignants dissidents (Zeuch, Goldenson, King, Georgia) contestent la gouvernance de Rice, tandis que Knickerbocker reste silencieux",
+   "Rice et Albers divergent sur le fond de l'éducation, thème de la riposte publiée dans Harper's"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Audition du Board sur l'affaire de Floride",
+    "date": "1937-04-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Board of Fellows",
+     "les quatre étudiants",
+     "Mort Steinau",
+     "Fred Moellenhoff",
+     "Mme Moellenhoff"
+    ],
+    "deroule": "Le Board siège toute une journée avec les quatre étudiants. Steinau note dans son journal que le puissant Board n'a rien tiré de la réunion. Le collège ne sait toujours pas quelle faute il doit sanctionner.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00703",
+     "EV-02709"
+    ]
+   },
+   {
+    "titre": "Les Moellenhoff chargés de parler aux étudiants",
+    "date": "1937-04-08",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Fred Moellenhoff",
+     "Mme Moellenhoff",
+     "les quatre étudiants"
+    ],
+    "deroule": "Le Board décide que Fred et Mme Moellenhoff parleront aux quatre étudiants. La question de la sanction est renvoyée à la réunion étudiante du lendemain.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00703"
+    ]
+   },
+   {
+    "titre": "Réunion étudiante sur les groupes mixtes",
+    "date": "1937-04-09",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "étudiants et officiers étudiants",
+     "les quatre étudiants de Floride",
+     "Mort Steinau (déduit)"
+    ],
+    "deroule": "La communauté discute de son opinion sur les voyages de groupes mixtes. On aboutit à un accord provisoire : les groupes mixtes ne partent plus ensemble en vacances. Aucune autre sanction n'est prononcée.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00703",
+     "EV-02709"
+    ]
+   },
+   {
+    "titre": "La riposte de Rice dans Harper's",
+    "date": "1937",
+    "lieu": null,
+    "personnages": [
+     "Rice"
+    ],
+    "deroule": "Rice publie dans Harper's une réponse argumentée à Hutchins sur l'éducation comme manière de faire. Le texte circule dans un campus déjà divisé sur la gouvernance.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02666",
+     "EV-02668",
+     "OE-01340"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le 7 avril, lorsque le Board siège avec les quatre étudiants",
+    "vers_date": "1937-02-17",
+    "vers": "La réunion communautaire du 17 février oppose Harrington, Alsberg et Coleman à Rice sur la démocratie organique. Rice défend la persuasion et affirme décider lui-même de l'intelligence. Les deux camps concluent que la séparation est la seule issue.",
+    "refs": [
+     "EV-02705",
+     "SC-00700",
+     "CF-00264"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "En avril, pendant que la faculté règle la conduite des vacances",
+    "vers_date": "1937-03",
+    "vers": "Anni Albers écrit depuis New York à Ted Dreier : Black Mountain est son refuge face à Manhattan. Elle rencontre Hudnut, Kocher et Youtz, et accueille à l'aube le bateau de Walter et Ise Gropius.",
+    "refs": [
+     "EV-02707"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le 9 avril, après l'accord provisoire sur les groupes mixtes",
+    "vers_date": "1937-05",
+    "vers": "Réunion marathon : Alsberg et Coleman interrogent Rice sur la flatterie et la supériorité de la faculté. Rice propose d'abandonner son tenure, et Sargent rappelle que cela reste en son pouvoir. La réunion s'effiloche sans conclusion.",
+    "refs": [
+     "EV-02711"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "En avril, alors que la morale du collège est jugée en Floride",
+    "vers_date": "1937-05",
+    "vers": "Huxley et Gerald Heard viennent de leur propre initiative : pique-nique, table ronde sur les « limites du roman », verdict général « damn nice ».",
+    "refs": [
+     "EV-02710",
+     "CO-00283",
+     "EV-02654"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "En avril, quand la gouvernance reste sans issue",
+    "vers_date": "1937-06",
+    "vers": "Schisme à la dernière réunion générale : Coleman lit un réquisitoire en 24 points signé de huit étudiants qui partent. La question du salaire de Georgia fait exploser l'assemblée. Le Board accepte la démission de Georgia contre 3 500 $. Zeuch laisse « The State of Black Mountain College ». Le collège achète Lake Eden.",
+    "refs": [
+     "EV-02715",
+     "EV-02716",
+     "EV-02721",
+     "EV-02722",
+     "EV-02726"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "En avril, quand Rice défend sa position par la plume",
+    "vers_date": "1937-10",
+    "vers": "Scandale de Charlotte : Rice traite les enfants de « nuisances générales » devant une association de parents. Les Business Men's Evangelical Clubs le déclarent « radical et communiste ».",
+    "refs": [
+     "EV-02736"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "En avril, alors que Rice est déjà au centre des attentions",
+    "vers_date": "1937",
+    "vers": "La liaison de Rice avec une étudiante, ses rumeurs, Nell qui le surprend puis se confie à Frank au Carolina Inn. Lors d'une soirée de sketches, Rice se dit seul « choqué ».",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693",
+     "EV-02740",
+     "SC-00708",
+     "EC-01625"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "En avril, au terme de la séquence de l'année",
+    "vers_date": "1938",
+    "vers": "La furie communautaire, la lettre d'Albers, le congé de Rice et la prise du rectorat par Wunsch relèvent de 1938.",
+    "refs": [
+     "CF-00276",
+     "CF-00282"
+    ]
+   }
+  ],
+  "motifs": [
+   "La réputation morale comme prétexte disciplinaire : sanctionner une faute qu'aucune règle ne nommait",
+   "La persuasion de Rice contre la démocratie de comptage",
+   "La séparation comme seule issue, déjà énoncée en février",
+   "Black Mountain comme refuge face aux grandes villes, écho de Weimar face à Berlin",
+   "Les pionniers : la dureté du conflit relue comme légitime (EC-01628)",
+   "L'art abstrait menacé par la comparaison avec l'art dégénéré (EC-01626)",
+   "L'agitation de Rice face à un mariage étudiant, présage de ses propres fuites (EC-01627)"
+  ],
+  "lacunes": "On ignore le temps qu'il fait, la vie quotidienne, l'identité des quatre étudiants de Floride et le rôle exact de Rice dans l'affaire. Les dates divergent : EC-01624 place la liaison de Rice avec Alice à l'hiver 1937, alors que le récit du chapitre la situe aux rondes d'automne. EC-01627 place l'élopement de deux étudiants fin 1936, alors que le chapitre le range en fin de l'année 1937 (EV-02739). La publication de Harper's n'est datée que du printemps."
+ }
+}

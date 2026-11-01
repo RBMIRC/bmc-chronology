@@ -1,0 +1,220 @@
+{
+ "passe": "mois",
+ "cle": "1941-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4581,
+  "sortie": 12104,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1941-09",
+  "session": "Rentrée d'automne : début de l'année universitaire après la session d'été, première rentrée sur le site de Lake Eden, repoussée de deux semaines.",
+  "saison_et_climat": "Fin d'été et début d'automne dans la vallée : matins frais, on prend le petit-déjeuner blotti dans des manteaux.",
+  "situation": "Le collège quitte la logique du toit unique de Lee Hall pour s'installer à Lake Eden. La rentrée a été repoussée de deux semaines afin de rattraper le retard du chantier, et presque tous les étudiants sont revenus en avance pour aider. Les bâtiments ne sont qu'à moitié finis. Le collège ouvre officiellement fin septembre, et la première assemblée générale consacre le lieu et le credo pédagogique d'Albers, de retour de Harvard.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "communauté du collège (étudiants et enseignants)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Betty Brett",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Will Hamlin",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alex Reed",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1941-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Ouverture officielle du nouveau site de Lake Eden, fin de mois, avec deux semaines de retard sur le calendrier. Bâtiments à moitié finis, étudiants revenus en avance pour aider.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03226"
+    ]
+   },
+   {
+    "date": "1941-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Première assemblée générale : Albers, revenu d'un an à Harvard, oppose huit ans d'existence à trois siècles de tradition et affirme que la vie signifie changement. Les fiches datent le texte différemment (21 ou 22 septembre) et en rapportent la teneur de deux façons : voir tensions.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00826",
+     "EV-03227",
+     "EV-03228"
+    ]
+   }
+  ],
+  "quotidien": "Les cours sont ramenés au matin et au soir depuis l'automne 1940, et les après-midi restent voués au chantier volontaire : drainage, fondations, isolation. Les repas se prennent dans des locaux encore en travaux, sous un air frais. Les fiches ne décrivent pas la vie musicale ni les activités culturelles de ce mois précis.",
+  "tensions": [
+   "Deux versions du discours d'Albers : Duberman le centre sur le contraste entre Harvard et le jeune collège, tandis que Díaz 2014 et Horowitz & Danilowitz 2009 le rapportent comme une affirmation que toute contemplation historique se rapporte à l'avenir, ou comme une défense de l'apprentissage par l'expérience.",
+   "Dates contradictoires de l'assemblée : le manuscrit (EV-03227) indique le 21 septembre, le tapuscrit (EV-03228) le 22.",
+   "Enthousiasme de la consécration contre regret de l'unité perdue : Betty Brett trouve « un autre collège », plus petit et chaleureux, mais Hamlin puis Dreier regretteront la dispersion en une douzaine de bâtiments et la perte de Lee Hall.",
+   "Le chantier comme ferveur et querelle : les partisans du salut par le travail s'opposent aux « zombies » agacés par les chansons, et la faculté vient de fixer un maximum d'un à trois après-midi de travail par semaine.",
+   "Un site inachevé et une économie fragile héritée de l'été, deduit : le retard du chantier et les finances restent des sujets de préoccupation."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Première assemblée à Lake Eden",
+    "date": "1941-09",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Josef Albers",
+     "communauté du collège"
+    ],
+    "deroule": "Albers, revenu d'un an à Harvard, prend la parole devant tout le collège dans des bâtiments à moitié finis. Il oppose huit ans d'existence à trois siècles de tradition et défend l'idée que le collège avance. L'exaltation de l'installation se mêle à la fatigue du chantier.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00826",
+     "EV-03227",
+     "EV-03228"
+    ]
+   },
+   {
+    "titre": "Petit-déjeuner en manteaux",
+    "date": "1941-09",
+    "lieu": "Lake Eden, bâtiments inachevés",
+    "personnages": [
+     "étudiants revenus en avance",
+     "Betty Brett"
+    ],
+    "deroule": "Les étudiants arrivés avant la rentrée mangent le matin dans le froid naissant, emmitouflés, au milieu des chantiers. Betty Brett trouve le lieu plus petit et chaleureux, presque « un autre collège ».",
+    "certitude": "probable",
+    "refs": [
+     "EV-03226",
+     "CI-01626"
+    ]
+   },
+   {
+    "titre": "Après-midi de chantier, fin septembre",
+    "date": "1941-09",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "étudiants volontaires",
+     "Stoller",
+     "Kocher"
+    ],
+    "deroule": "Après les cours du matin, les équipes reprennent le drainage et les fondations. Les partisans du travail et les « zombies » se disputent, pendant que la faculté vient de limiter le chantier à un à trois après-midi par semaine.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03149",
+     "CF-00317",
+     "EV-03125",
+     "EV-02990"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "L'assemblée de Lake Eden, quand Albers rappelle son année d'enseignement à Harvard",
+    "vers_date": null,
+    "vers": "L'année passée à Harvard, à l'origine du discours sur la tradition et le changement",
+    "refs": [
+     "SC-00826",
+     "EV-03226"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La rentrée à Lake Eden, où l'on garde en mémoire la vie sous le toit de Lee Hall",
+    "vers_date": "1941-05",
+    "vers": "Lee Hall, où tout le monde dormait sous un même toit, et la navette de Bovington qui emporte en mai-juin le chauffage et le matériel du bâtiment",
+    "refs": [
+     "LI-00691",
+     "EV-03220"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les bâtiments à moitié finis de la rentrée",
+    "vers_date": "1941-06",
+    "vers": "Le départ de Hall en juin et la collecte d'argent qui menaçait d'arrêter le chantier",
+    "refs": [
+     "EV-03221",
+     "EV-03222"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les après-midi de chantier de l'automne",
+    "vers_date": "1941-12",
+    "vers": "La suspension du calendrier en décembre pour monter sur le toit du Studies Building ; le jeune biologiste Richard Carpenter, terrifié par les hauteurs, cloue toute la journée",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Un collège encore relativement à l'écart de la politique",
+    "vers_date": "1941",
+    "vers": "Pearl Harbor : incrédulité, puis débat entre pacifistes et partisans de la guerre et vote d'un message de soutien, vraisemblablement à l'hiver 1941-42",
+    "refs": [
+     "SC-00831",
+     "EV-03235",
+     "EV-03142",
+     "SC-00801",
+     "CF-00350"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La rentrée et la dispersion des bâtiments",
+    "vers_date": null,
+    "vers": "Des voix, dont celle de Will Hamlin puis celle de Dreier lui-même, regretteront la perte de l'unité de Lee Hall",
+    "refs": [
+     "CF-00352",
+     "ID-01536",
+     "EC-01753"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'enseignement d'Albers à Lake Eden et ses expériences de pédagogie",
+    "vers_date": "1952",
+    "vers": "La visite future de Goodman et les expériences scéniques du collège, dont l'événement de Cage",
+    "refs": [
+     "EC-01792"
+    ]
+   }
+  ],
+  "motifs": [
+   "consécration d'un lieu contre la nostalgie de Lee Hall",
+   "le changement comme credo pédagogique",
+   "le chantier comme ferveur et querelle",
+   "l'unité du campus éclatée",
+   "la guerre qui approche en arrière-plan"
+  ],
+  "lacunes": "La date exacte de l'assemblée (21 ou 22 septembre selon les fiches) et la teneur exacte du discours d'Albers restent incertaines. Seuls Albers et la communauté sont attestés présents ; la présence des autres personnes listées est déduite. La date du retour d'Albers à Harvard, la mort de Mark Dreier et la construction de la Quiet House ne sont pas datées avec précision. Les fiches ne décrivent pas la vie musicale ni les activités culturelles de ce mois."
+ }
+}

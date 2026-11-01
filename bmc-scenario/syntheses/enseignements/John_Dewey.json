@@ -1,0 +1,155 @@
+{
+ "passe": "enseignements",
+ "cle": "John Dewey",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3145,
+  "sortie": 4836,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "John Dewey",
+  "cours": [
+   {
+    "intitule": "Aucun cours enseigné par Dewey à Black Mountain : la seule séance de questionnement attestée (conférence de Rollins College)",
+    "periodes": [
+     "1931-01"
+    ],
+    "atteste": "oui",
+    "objectifs": "Dewey n'est pas enseignant à BMC et les fiches ne mentionnent aucun cours de lui au collège. La seule situation proche d'un enseignement est son ouverture de la semaine de conférence à Rollins College, en janvier 1931, en présence de John Andrew Rice. Elle sert de matrice aux idées pédagogiques qui nourriront BMC. Il s'agit de faire partir la réflexion sur le curriculum de ce qui passionne spontanément les étudiants, plutôt que des matières.",
+    "deroule_type_seance": "Déroulé attesté une seule fois, et à Rollins, non à BMC. Dewey ouvre la semaine en interrogeant des étudiants délégués. Ils répondent par une liste : travail, vie économique, loisirs, amitié, gloire, sexe. Le débat glisse alors des matières vers les philosophies curriculaires. Goodwin Watson, entouré de sa claque, domine les échanges selon Rice, tandis que Dewey écoute en silence. Parmi les personnages présents figurent aussi Arthur Morgan et Constance Warren. Aucun déroulé type récurrent n'est documenté.",
+    "exercices": [
+     {
+      "consigne": "Demander aux étudiants invités ce qui les excite spontanément (formule rapportée : « What do you students get spontaneously excited about? »).",
+      "materiaux": null,
+      "but": "Partir des intérêts et aptitudes spontanés des étudiants pour penser le curriculum, puis ouvrir le débat sur les philosophies curriculaires.",
+      "refs": [
+       "SC-00379",
+       "ID-00788"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Le pragmatisme de William James, que Dewey prolonge en éducation (ID-00801).",
+     "Art as Experience (1934), où l'art communique parce qu'il exprime (ID-01134).",
+     "Critique de Hutchins dans Social Frontier, janvier 1937 (ID-01103)."
+    ],
+    "propos_types": [
+     "Il ne cherche pas à donner des réponses : il pose une question aux étudiants et laisse la conversation dériver vers les conceptions du curriculum.",
+     "Une idée vaut par sa fonction et par l'épreuve de l'expérience, non par son origine (ID-00801).",
+     "L'enfant ou l'étudiant est le point de départ, le centre et la fin de l'éducation ; la personnalité compte plus que la matière (ID-01017)."
+    ],
+    "critique_et_evaluation": "Le récit de Rice, notre source, juge que Watson, avec sa claque, a dominé la discussion pendant que Dewey se taisait. Les fiches ne rapportent aucune évaluation par Dewey de ce qui a été dit.",
+    "reactions_etudiants": "Les étudiants délégués répondent sans détour par le travail, la vie économique, les loisirs, l'amitié, la gloire et le sexe. La fiche ne rapporte pas d'autre réaction.",
+    "evolution": "Rien n'est documenté sur une évolution de ce dispositif. L'idée sera reprise à BMC sous forme de discussion libre, mais l'attestation à BMC est négative pour cet exercice précis (ID-00788).",
+    "refs": [
+     "SC-00379",
+     "ID-00788",
+     "ID-00801",
+     "ID-01017"
+    ]
+   },
+   {
+    "intitule": "Conversations et visite de Dewey à Black Mountain (hors cours)",
+    "periodes": [
+     "1934-1935",
+     "1933-1938"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Il ne s'agit pas d'un enseignement, mais de moments où Dewey cautionne ou commente le collège. Visite sur place, conversation avec Rice, lettre de soutien. La datation est flottante : Molesworth place la première visite en 1935, d'autres fiches la situent dans une fourchette ≈1933-1938.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [
+     "Le premier prospectus du collège cite la philosophie deweyenne de l'éducation comme expérience continue (ID-01017, Burns).",
+     "Social Frontier, janvier 1937 : critique de Hutchins (ID-01103)."
+    ],
+    "propos_types": [
+     "À la crainte de Rice que l'expérimentation ne devienne pédante, il répond que garder l'œil sur l'individu préserve l'expérience de la banalisation (ID-01097).",
+     "Dans sa lettre de soutien, il dit que le collège existe aux racines mêmes d'une vie démocratique et que son travail est impératif, quoi qu'il advienne de la crise présente (SC-00622, ID-01369).",
+     "Il voit à BMC le travail et la vie inséparables, un exemple vivant de démocratie en action (ID-01369).",
+     "Contre Hutchins : choisir des vérités définitives (Aristote, Hegel, Marx ou Mussolini comme prophètes) présuppose l'autoritarisme, car la question de qui décide reste entière (ID-01103). Attesté chez Dewey ; que Rice ait fait sienne cette critique à BMC est incertain."
+    ],
+    "critique_et_evaluation": "Les fiches ne donnent pas d'évaluation des cours ou des étudiants par Dewey. Son jugement porte sur le collège dans son ensemble (démocratie à la base) et sur le risque de pédanterie (ID-01097).",
+    "reactions_etudiants": "Dans la scène d'Atlanta, hors BMC (Progressive Education Association, 1934-1935), des étudiants s'étonnent du raffut que Dewey provoque au meeting, puis le retrouvent au bar : il a quitté le déjeuner officiel pour les rejoindre (SC-00597).",
+    "evolution": "Contradiction à signaler : SC-00622 (Molesworth 2015) donne une lettre à Rice après la visite de 1935, tandis que ID-01369 (Duberman 1972) cite une lettre à Dreier datée du 18 juillet 1940 (le jour n'est donné que là) contenant la formule « the very grass roots of a democratic way of life ». Il peut s'agir de deux lettres ou d'une confusion de sources ; les fiches ne tranchent pas. Rien n'indique un suivi régulier de Dewey au collège.",
+    "refs": [
+     "SC-00622",
+     "SC-00597",
+     "ID-01097",
+     "ID-01103",
+     "ID-01369",
+     "ID-01162"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le curriculum doit partir des intérêts et aptitudes spontanés des étudiants.",
+    "en_classe": "Ouvrir une séance en demandant ce qui passionne vraiment les étudiants, puis construire le cours à partir de leurs réponses. Scène source : Rollins, 1931. Non attesté à BMC (Chaddock 2002) : proche de l'esprit de discussion libre, mais à ne pas montrer comme pratique documentée du collège.",
+    "atteste": "non",
+    "refs": [
+     "ID-00788",
+     "SC-00379"
+    ]
+   },
+   {
+    "idee": "La vérité d'une idée tient à sa fonction et l'expérience en est le test (pragmatisme prolongé en éducation).",
+    "en_classe": "Apprendre par la découverte et l'expérience plutôt que par cours magistraux, devoirs et règles. C'est le soubassement intellectuel des expériences que Rice et Dreier rêvent de mener ; sa mise en œuvre à BMC est incertaine.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00801"
+    ]
+   },
+   {
+    "idee": "L'éducation comme formation continue de l'expérience : l'individu éduqué est social, le moi se forme par le choix de l'action.",
+    "en_classe": "Séminaire d'écriture où l'on écrit librement depuis son expérience personnelle, en la formant et la reformant par l'écriture. Idée attestée à BMC comme philosophie de base, citée dans le premier prospectus (Burns).",
+    "atteste": "oui",
+    "refs": [
+     "ID-01017"
+    ]
+   },
+   {
+    "idee": "Garder l'œil sur l'individu préserve l'expérience de la banalisation.",
+    "en_classe": "Le respect du processus d'apprentissage découle du respect des personnes : suivre chaque étudiant plutôt qu'appliquer une méthode uniforme. Propos tenu à Rice lors de la visite à BMC.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01097"
+    ]
+   },
+   {
+    "idee": "Choisir des vérités définitives présuppose l'autoritarisme (contre Hutchins).",
+    "en_classe": "Conversation avec les étudiants : qui, dans ce collège, décide de ce qui est vrai ? La critique est attestée chez Dewey ; son appropriation par Rice à BMC est incertaine.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01103"
+    ]
+   },
+   {
+    "idee": "L'art communique parce qu'il exprime et brise les barrières entre les humains.",
+    "en_classe": "Faire parler d'une œuvre en demandant ce qu'elle communique et à qui, avant toute analyse technique. Le lien avec le cursus de BMC (cours non obligatoires, séminaires interdisciplinaires, examinateurs externes) est une inférence de la source, incertaine.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01134"
+    ]
+   },
+   {
+    "idee": "La démocratie est foi dans l'intelligence humaine et l'expérience coopérative ; chacun contribue selon ses capacités et est jugé sur sa fonction.",
+    "en_classe": "Répartir les tâches d'un travail commun et juger chaque contribution à sa place dans l'ensemble, non à son statut antérieur. Dewey a visité BMC ; Albers faisait écho à ces idées sans les avoir probablement lues : influence directe incertaine.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01162"
+    ]
+   },
+   {
+    "idee": "À BMC, travail et vie sont inséparables : une démocratie à la base de la vie sociale.",
+    "en_classe": "Conversation montrant que gouverner le collège à égalité, c'est déjà apprendre la démocratie. Le soutien de Dewey est rapporté par la lettre (Duberman 1972), mais la fiche marque cette application en classe comme non attestée ; la datation de la lettre diverge (voir cours 2).",
+    "atteste": "non",
+    "refs": [
+     "ID-01369",
+     "SC-00622"
+    ]
+   }
+  ]
+ }
+}

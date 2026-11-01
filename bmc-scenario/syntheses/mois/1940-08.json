@@ -1,0 +1,213 @@
+{
+ "passe": "mois",
+ "cle": "1940-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3730,
+  "sortie": 10714,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-08",
+  "session": "session d'été : camp de travail d'été à Lake Eden (démarré durant l'été, date non précisée dans les fiches)",
+  "saison_et_climat": "Été 1940. Aucune fiche ne décrit le temps qu'il fait ; la chaleur est plausible mais non attestée. Le collège est à Lake Eden, Rice est à Bella Vista (Arkansas).",
+  "situation": "Le collège vit son premier été sans Rice, parti en mars. Le campus rêvé de Gropius et Breuer est abandonné au profit d'une aile conçue par Kocher, que la communauté doit construire. La ferme fournit déjà l'essentiel du lait et de la viande, et le Studies Building est dessiné, mais l'argent manque pour commencer. La campagne des deux millions s'est effondrée après la chute de la France, et la YMCA menace le bail de Blue Ridge (calendrier disputé). Le camp de travail prépare le chantier de septembre.",
+  "presents_probables": [
+   {
+    "nom": "Eddie Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Gothe (économiste, ancien des camps de travail, engagé pour le work camp)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Godfrey (entrepreneur, enseigne la construction)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bascombe Allen (futur chef charpentier)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants du camp de travail d'été",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Les plans du grand Studies Building sont achevés. Les bâtiments d'été sont isolés pour un usage hivernal. La ferme fournit tous les produits laitiers et la plupart de la viande. Tout est prêt sauf l'argent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03120"
+    ]
+   },
+   {
+    "date": "1940-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Premier dîner d'Ann Sutton chez les Rice à Bella Vista : les défis socratiques de Rice la font fuir en larmes. La réconciliation entre beau-père et belle-fille ne viendra que plus tard.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03121",
+     "SC-00795"
+    ]
+   },
+   {
+    "date": "1940-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice se trouve à Bella Vista avec ses enfants, comme en juin.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1940"
+    ]
+   },
+   {
+    "date": "1940-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Après la chute de la France, la peur gagne les donateurs et la campagne des deux millions échoue. Le collège cherche déjà d'autres sites sans rien trouver d'aussi bon que Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1940"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Le camp de travail d'été démarre à Lake Eden. Gothe y est engagé, mais il se révèle trop autocrate pour les étudiants américains.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1940"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire tourne autour de la ferme (lait, viande, bâtiments d'été isolés pour l'hiver) et du camp de travail : étudiants et enseignants travaillent au chantier, sous l'autorité contestée de Gothe. Godfrey et Allen préparent la construction. Les fiches ne mentionnent ni cours, ni repas collectifs, ni musique pour ce mois.",
+  "tensions": [
+   "Aucun argent pour lancer la construction alors que les plans sont prêts (EV-03120)",
+   "Gothe, autocrate, face aux étudiants américains",
+   "Une contestation contre la « mystique du salut par le travail » commence peut-être déjà (la fiche la place à l'automne)",
+   "Menace de la YMCA sur le bail de Blue Ridge, avec un calendrier disputé selon les sources",
+   "Campus rêvé abandonné au profit d'une aile de Kocher : Albers et Dreier ont des vues différentes sur l'enseignement de l'art (déclaration de juin)",
+   "Séquelles de la sortie de Rice : Ann Sutton, le dîner socratique et les rancœurs de la faculté",
+   "La guerre européenne pèse sur les donateurs et sur la situation des exilés (Albers, Anni)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le dîner socratique à Bella Vista",
+    "date": "1940-08",
+    "lieu": "Bella Vista, Arkansas",
+    "personnages": [
+     "John Andrew Rice",
+     "Ann Craig Sutton",
+     "Frank Pace",
+     "Mary Rice"
+    ],
+    "deroule": "Ann, venue voir Frank après sa demande en mariage par lettre, s'assoit à sa première table avec la famille Rice. Le père la soumet à un feu roulant de défis socratiques jusqu'à ce qu'elle quitte la table en larmes.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00795",
+     "EV-03121"
+    ]
+   },
+   {
+    "titre": "Traite et isolation avant l'hiver",
+    "date": "1940-08",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "personnel de la ferme (non nommé dans les fiches)"
+    ],
+    "deroule": "Pendant que la ferme fournit l'essentiel des produits laitiers et de la viande, le personnel isole les bâtiments d'été pour l'hiver, en attendant l'argent promis pour le Studies Building.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03120"
+    ]
+   },
+   {
+    "titre": "Le camp de travail avant le chantier",
+    "date": "1940-08",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Gothe",
+     "Godfrey",
+     "Bascombe Allen",
+     "Eddie Dreier",
+     "étudiants du camp de travail"
+    ],
+    "deroule": "Gothe dirige le camp de travail et heurte les étudiants américains par son autorité. Godfrey enseigne la construction et Allen se prépare au rôle de chef charpentier, avant l'ouverture officielle du chantier à l'automne.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1940"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le dîner de Bella Vista, Rice en pleine joute intellectuelle avec la future belle-fille",
+    "vers_date": "1940-02",
+    "vers": "La seconde conférence de février avec Nell : Rice propose de revenir, le conseil refuse, Nell énumère ses promesses rompues, Rice pleure puis quitte la maison en se disant répudié. Sa démission part par retour de courrier.",
+    "refs": [
+     "synthese-1940",
+     "SC-00795"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le collège en été, après la chute de la France",
+    "vers_date": "1940-06",
+    "vers": "Effondrement de la campagne des deux millions, menace de la YMCA sur Blue Ridge, et discours d'Albers contre la guerre devant des donateurs à New York.",
+    "refs": [
+     "synthese-1940"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le camp de travail d'août, les pieux et le travail manuel",
+    "vers_date": "1940-09-12",
+    "vers": "Ouverture officielle du chantier, avec l'objectif « roof by Christmas ». Un vendredi de septembre, le terrain révèle des poches de boue. Godfrey invente un pilon de 27 pieds tiré par le Farmall.",
+    "refs": [
+     "synthese-1940"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le dîner socratique de Bella Vista",
+    "vers_date": null,
+    "vers": "Une relation affectueuse entre Rice et Ann Sutton se construit plus tard, après une réconciliation différée.",
+    "refs": [
+     "EV-03121",
+     "SC-00795"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La contestation qui se prépare autour du salut par le travail",
+    "vers_date": "1941",
+    "vers": "La faculté pose un maximum conseillé d'un à trois après-midi de travail par semaine, ce qui apaise le conflit.",
+    "refs": [
+     "synthese-1940"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rice à Bella Vista pendant l'été",
+    "vers_date": "1940-09",
+    "vers": "Rice publie « My Father's Folks » dans Harper's, alors qu'il s'est retiré de Lake Eden.",
+    "refs": [
+     "synthese-1940"
+    ]
+   }
+  ],
+  "motifs": [
+   "La sortie de Rice et son héritage ambigu",
+   "Bâtir soi-même : la communauté contre l'architecte",
+   "L'argent qui manque alors que les plans sont prêts",
+   "La guerre européenne comme ombre sur les donateurs et les exilés",
+   "Le salut par le travail et la contestation qui le vise",
+   "Les belles-filles et les dîners socratiques"
+  ],
+  "lacunes": "Le chapitre de synthèse n'a pas d'identifiant et il est cité comme synthese-1940. Ne sont pas datés : le démarrage exact du camp de travail, la présence d'Albers, de Dreier et de Gothe en août, et le climat. Le Studies Building de EV-03120 contredit ou précise la décision de faire une seule aile par Kocher : les fiches ne disent pas si ce sont deux projets distincts. Le calendrier de la menace YMCA est disputé. La place de Mary Rice (fille ou autre) n'est pas précisée. Aucune fiche ne donne la vie quotidienne détaillée du mois."
+ }
+}

@@ -1,0 +1,298 @@
+{
+ "passe": "mois",
+ "cle": "1950-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5699,
+  "sortie": 19742,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1950-11 (novembre 1950)",
+  "session": "Trimestre d'automne, après la reprise de septembre. Le mot « session » n'apparaît pas dans les fiches : la notion est déduite de la rentrée d'automne et des cours d'Olson.",
+  "saison_et_climat": "Automne, avec la fin de l'année qui approche. Aucune fiche ne décrit le temps de novembre. Les pénuries d'électricité et d'essence, les serpents et la baignade relèvent de l'été et ne valent pas pour ce mois. Déduction : froid, jours courts, repas de Thanksgiving pris à l'intérieur.",
+  "situation": "Le collège se recompose après un été de crise. Albers est parti pour Yale (New Haven) et, le 2 novembre, réclame par une lettre d'une phrase que son nom et celui d'Anni disparaissent des publications, le collège gardant sa propriété (fonds de pension amputé de 20 %, pin réclamé) sans répondre à ses courriers. Le rectorat reste sans titulaire : le compromis de juin (rector garanti trois ans, pouvoirs partagés avec le Board) n'a pas abouti, Ballou a refusé en juillet, et le statut de Huss reste flou. Le Board a voté en juin de ne pas réengager Levi et Fiore ; M.C. Richards a été réintégrée. Levi quitte le collège en décembre, son mariage avec Richards se défait et Richards reste. Olson commence à enseigner, Kitty et Dorothea Rockburne arrivent, tandis que Cage, Oates et Nemenyi s'effacent. Le collège cesse la plupart de ses publications officielles, sous l'effet du schisme de la faculté et de la baisse d'inscriptions liée à la réforme du GI Bill.",
+  "presents_probables": [
+   {
+    "nom": "Hazel Larsen Archer",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "June Rice Christensen",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Caroline Richards",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dorothea Rockburne",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kitty (potier)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Carroll Williams",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rumaker",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1950-11-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers envoie sa lettre d'une seule phrase, exigeant que lui et sa femme ne soient plus mentionnés dans les publications du collège, qui retient sa propriété et ne répond pas à ses lettres.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05264",
+     "SC-01353"
+    ]
+   },
+   {
+    "date": "1950-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Dîner de Thanksgiving servi sur le décor du premier étage de la tour Eiffel, suivi de la pièce de Cocteau Les mariés de la tour Eiffel, traduite par M.C. Richards. Hazel Larsen Archer photographie la représentation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05262",
+     "SC-01352"
+    ]
+   },
+   {
+    "date": "1950-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Elaine de Kooning publie « Albers Paints a Picture » dans Art News (pp. 40-43 et 57-58), article sur l'ancien maître du Bauhaus qu'elle a connu à Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05263"
+    ]
+   },
+   {
+    "date": "1950-09",
+    "precision": "periode",
+    "ce_qui_arrive": "De Kooning enseigne à Yale pendant l'automne, avec une navette hebdomadaire entre New York et New Haven, jusqu'en décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05261"
+    ]
+   },
+   {
+    "date": "1950-09",
+    "precision": "saison",
+    "ce_qui_arrive": "Olson commence à enseigner à l'automne : lecture des manuscrits à voix haute et atelier d'écriture. La date exacte du début n'est pas donnée, et la présence estivale qu'on lui prête dans les épisodes de Rumaker est datée de façon douteuse.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950-09",
+    "precision": "saison",
+    "ce_qui_arrive": "Arrivée à l'automne de Kitty, potier gay, et de Dorothea Rockburne, venue de Montréal, qui épousera l'enseignant de gravure Carroll Williams (date du mariage non fixée).",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "ce_qui_arrive": "Le collège cesse la plupart de ses publications officielles, sous l'effet du schisme de la faculté et de la baisse d'inscriptions après la modification du GI Bill.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Levi quitte le collège. Selon une source, il demande que Natasha soit invitée à son dîner d'adieu.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson part pour le Yucatan vers la fin de l'année. Il y écrira les Mayan Letters à Creeley, avec qui la correspondance a commencé en avril.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker refuse de rentrer chez ses parents à Noël et découvre, autour d'un dindon et d'une bûche, que BMC est « sa maison ». L'année est supposée d'après le contexte.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Vie ordinaire de l'automne : le Thanksgiving se prend dans la salle à manger du lac Eden, sur le décor de la tour Eiffel, avec la préparation de la pièce de Cocteau, traduite par M.C. Richards, et son appareil géant. Cours : atelier d'écriture et lectures à voix haute d'Olson. Arrivées de Kitty et de Rockburne. M.C. Richards apprend probablement le tournage au studio de poterie installé par Robert Turner pendant l'été (continuité probable). Le dîner jazz avec George Shearing et les fêtes de l'été ne concernent pas novembre. Aucune fiche ne donne de musique propre à ce mois.",
+  "tensions": [
+   "La lettre d'Albers rompt symboliquement avec le collège, qui garde sa propriété et ne répond pas.",
+   "Le départ de Levi et la dissolution de son mariage avec M.C. Richards, qui reste, laissent la gauche du collège affaiblie.",
+   "Le rectorat est vacant : compromis de juin non appliqué, Ballou refusé, Huss présenté tantôt comme business manager, tantôt comme recteur.",
+   "Le vote de juin contre Levi et Fiore, puis le recul du Board, laissent des ressentiments ; Fiore vit avec Mary Fitton pendant que sa femme est internée près d'Asheville.",
+   "Après l'été de Goodman et la violence de Trayer contre Levi, la droite (Trayer, Quakers, Goldowski) renonce à toute réorganisation, et Corkran a quitté registrar et Board.",
+   "La vieille garde se défait : Cage, Oates et Nemenyi s'effacent, Olson parle de « la dernière de la vieille garde ».",
+   "Rumaker, chassé de chez lui pour absentéisme religieux et homosexualité, s'attache à BMC et refuse de rentrer, ce qui pèse sur sa famille."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Thanksgiving 1950 : la noce avalée par l'appareil",
+    "date": "1950-11",
+    "lieu": "salle à manger surplombant le lac Eden",
+    "personnages": [
+     "June Christensen",
+     "Mary Caroline Richards",
+     "la communauté de BMC",
+     "Hazel Larsen Archer"
+    ],
+    "deroule": "Le repas est servi sur le décor de la terrasse de la tour Eiffel, puis commence la pièce de Cocteau. June Christensen, perchée sur une échelle derrière l'objectif géant, tente de photographier la noce ; l'autruche, le chasseur, le lion, le cycliste, les télégrammes et le Général à la tarte aux guêpes se succèdent, puis la noce disparaît dans l'appareil, dont le soufflet sort de scène « comme un char ». Dans la salle, Archer photographie à travers les ouvertures du soufflet.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01352",
+     "EV-05262"
+    ]
+   },
+   {
+    "titre": "La lettre d'une phrase",
+    "date": "1950-11-02",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers, installé à New Haven, couche sa colère sur une seule phrase : ni lui ni Anni ne doivent être cités dans les publications d'un collège qui retient sa propriété et ne répond pas. La scène se joue à distance ; la réception de la lettre au collège n'est pas documentée.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01353",
+     "EV-05264"
+    ]
+   },
+   {
+    "titre": "Le dîner d'adieu de Levi",
+    "date": "1950-12",
+    "lieu": null,
+    "personnages": [
+     "Levi",
+     "Natasha Goldowski"
+    ],
+    "deroule": "Avant son départ de décembre, Levi demande (selon une source) que Natasha soit invitée à son dîner d'adieu, alors même que la droite du collège vient de se retirer de toute réorganisation. Le dîner peut devenir un geste de réconciliation ou un affrontement, mais la fiche ne dit rien de son déroulement.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Olson lit les manuscrits à voix haute",
+    "date": "1950",
+    "lieu": null,
+    "personnages": [
+     "Olson",
+     "étudiants"
+    ],
+    "deroule": "Dans l'atelier d'écriture de l'automne, Olson fait lire à voix haute les manuscrits des élèves et les commente. Le moment précis n'est pas daté.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "novembre : la lettre d'Albers et le silence du collège sur sa propriété",
+    "vers_date": "1950-06",
+    "vers": "En juin, Gropius signifie à Albers qu'il n'aura pas le poste de Harvard, et il accepte Yale. La même année, le Board vote à bulletin secret de ne pas réengager Levi et Fiore ; la faculté recommande les réembauches et le Board recule, M.C. Richards étant réintégrée presque aussitôt. La date du sondage étudiant divergence entre les sources (23 mars ou juin).",
+    "refs": [
+     "chapitre 1950 (synthèse)",
+     "EV-05264"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "novembre : la réorganisation et le Thanksgiving, après l'échec du rectorat",
+    "vers_date": "1950",
+    "vers": "L'été : Goodman arrive, proclame la liberté sexuelle et provoque l'explosion. Un ancien marine l'accuse d'avoir uriné en public pendant un match de softball. Trayer frappe Levi en pleine réunion, Oppenheimer saute sur le dos de Trayer, Johanna Jalowetz l'encourage. La faculté vote contre Goodman, qui repart ; la droite parle alors de « l'été homosexuel » comme preuve de désintégration morale. Date exacte non fixée.",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "novembre : Olson sur le point de partir",
+    "vers_date": null,
+    "vers": "Olson, au Yucatan, écrit les Mayan Letters à Creeley. La correspondance avait commencé en avril 1950 ; la date d'écriture des lettres n'est pas fixée.",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "décembre : Rumaker refuse de rentrer à Noël",
+    "vers_date": "1950-12",
+    "vers": "À l'hiver, Rumaker entame sa liaison avec Merrill à « Next-to-the-Last-Chance ».",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Dawson, écrivain en formation, après le succès de « Father » au printemps 1950",
+    "vers_date": "1952",
+    "vers": "La « période homosexuelle » que Dawson situe de 1949 ou du printemps 1950 jusqu'à l'été 1952 se joue en filigrane dès l'automne 1950. Les dates de Dawson ne concordent pas exactement avec les autres sources.",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "après la fermeture de la période de publication et de la vie collective",
+    "vers_date": null,
+    "vers": "Goodman, dans son texte de 1965, fait de l'« influence dans la culture américaine » le signe durable de la communauté de BMC ; formule à exploiter pour les suites du collège.",
+    "refs": [
+     "EC-02575"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le nom effacé d'Albers et la rupture symbolique avec le collège",
+   "La photographie comme dévoration (Archer et la pièce de Cocteau)",
+   "Le rectorat vacant et le compromis de juin resté sans titulaire",
+   "Le départ de Levi et la défaite de la gauche du collège",
+   "Olson, dernier de la vieille garde",
+   "BMC comme « maison » pour Rumaker"
+  ],
+  "lacunes": "Le jour du Thanksgiving n'est pas donné. Aucune fiche ne date l'arrivée d'Olson ni l'ouverture de son atelier, ni le départ de Cage, d'Oates ou de Nemenyi. Le sort de Fiore après le vote de juin et la présence de Mary Fitton au collège sont inconnus. Le statut de Huss en novembre est ambigu (business manager dans EV-05244, recteur après cinq visites dans EV-04952 et EV-04955). Les sources divergent sur la date du sondage étudiant (23 mars ou juin). La présence estivale d'Olson dans les épisodes de Rumaker contredit son arrivée à l'automne : datation douteuse. Merrill n'apparaît dans aucune fiche pour l'automne. L'année de Noël chez Rumaker est supposée. Aucune donnée sur la météo ni sur la vie musicale de novembre."
+ }
+}

@@ -1,0 +1,409 @@
+{
+ "passe": "mois",
+ "cle": "1944-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 8042,
+  "sortie": 12894,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1944-07",
+  "session": "Institut d'été de musique (« Musical Interpretation », dix semaines, juin à août 1944) ; le collège vit sa session estivale, ouverte aux visiteurs et aux membres de l'institut.",
+  "saison_et_climat": "Été 1944 dans les montagnes de la Blue Ridge, en Caroline du Nord. Les fiches ne donnent aucune information météorologique.",
+  "situation": "Le collège est divisé en deux factions. Le Board of Fellows siège depuis trois semaines pour trancher la querelle entre les partisans de Frances de Graaff (Bentley, Foreman, Cohen) et ceux qui l'accusent. Dix collègues ont signé une lettre demandant à de Graaff de démissionner, ce qu'elle refuse. Le scandale autour de deux étudiantes, Barbara Anderson et Jeanne Wacker, est devenu public. Dreier et les autres préparent des mesures disciplinaires, et des départs sont prévus pour août. Pendant ce temps, l'institut d'été continue et l'on tente de cacher la crise aux visiteurs.",
+  "presents_probables": [
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Heinrich Jalowetz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Fritz Cohen",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rudolf Kolisch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frances de Graaff",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hansgirg",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "De Creeft",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Steuermann",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Krenek",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Barbara Anderson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jeanne Wacker",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-06",
+    "precision": "session",
+    "ce_qui_arrive": "Ouverture de l'institut d'été de musique, dix semaines de séminaires, répétitions et concerts autour de la Seconde École de Vienne et du 70e anniversaire de Schoenberg, que celui-ci décline pour raisons de santé.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03644"
+    ]
+   },
+   {
+    "date": "1944-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Foreman part travailler pour le CIO afin de faire réélire Roosevelt, alors qu'il avait promis de lever des fonds pendant l'été. Bentley part enseigner à Fisk pour l'été. Le collège perd ainsi un collecteur de fonds et un partisan de de Graaff.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03647"
+    ]
+   },
+   {
+    "date": "1944-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Anderson et Wacker quittent le collège pour rejoindre Bentley à Fisk, après avoir prévenu de Graaff.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03648"
+    ]
+   },
+   {
+    "date": "1944-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Une semaine après leur départ, un avocat de Chattanooga appelle Dreier au sujet des deux étudiantes.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03648",
+     "SC-00924"
+    ]
+   },
+   {
+    "date": "1944-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Les deux étudiantes sont arrêtées et passent une nuit en prison. Jeanne est réexaminée à Asheville cinq jours plus tard et son test est négatif. La version de la prison et les souvenirs des intéressées divergent sur plusieurs points.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01943",
+     "EC-01946",
+     "EC-01945"
+    ]
+   },
+   {
+    "date": "1944-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Dix membres de la faculté signent une lettre à de Graaff : ils ne croient plus qu'elle soutienne l'éducation qu'ils défendent. Dreier, avec Bentley, lui reproche de choyer ses protégés. Elle refuse de démissionner et demande que les charges soient définies.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03649"
+    ]
+   },
+   {
+    "date": "1944-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Trois semaines de réunions du Board of Fellows. Les deux factions évitent de se parler : elles s'assoient de part et d'autre de la salle à manger et marchent sur des côtés opposés de la route. La querelle ne peut plus être cachée aux visiteurs de l'institut.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03650"
+    ]
+   },
+   {
+    "date": "1944-07-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Premier jour de l'atelier de Kolisch. Wunsch écrit à Evarts que c'est un « privilège » et décrit un travail dur où l'ordre naît des désaccords.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03653",
+     "SC-00926"
+    ]
+   },
+   {
+    "date": "1944-07-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunions de faculté les 10, 14, 17 et 19 juillet au cœur de la crise. Les Lowinsky et Anni Albers s'indignent de l'irresponsabilité de de Graaff. Cette série mène aux sanctions d'août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03654"
+    ]
+   },
+   {
+    "date": "1944-07-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Lors de la réunion du 17 juillet, de Graaff déclare que nombre d'étudiantes ne sont pas vierges. Hansgirg manque de s'évanouir. Ce récit vient d'un entretien de 1967, de Graaff étant la seule source directe citée.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03651",
+     "SC-00927"
+    ]
+   },
+   {
+    "date": "1944-07-19",
+    "precision": "jour",
+    "ce_qui_arrive": "Une note datée de ce jour est déposée aux Raleigh Archives. Gregory s'en souvient.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03655"
+    ]
+   },
+   {
+    "date": "1944-07-20",
+    "precision": "jour",
+    "ce_qui_arrive": "Dreier écrit aux Foreman que la publicité malheureuse, même fausse, rendait une action inévitable. Il prépare ainsi les mesures disciplinaires contre les étudiants.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03656",
+     "EV-03657"
+    ]
+   },
+   {
+    "date": "1944-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Sanctions contre des étudiants et départs d'août, consécutifs à l'escalade de juillet. Le contenu exact des sanctions n'est pas décrit.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03654",
+     "EV-03657"
+    ]
+   }
+  ],
+  "quotidien": "La vie de l'institut se mêle à la crise. Le matin, les répétitions de l'atelier de Kolisch se tiennent dans le hall obscur du North Lodge, où les étudiants se pressent et suivent la partition du Quatuor op. 7 sur un écran suspendu. Les conférences de Krenek portent sur Schoenberg à soixante-dix ans. Les repas se prennent à la salle à manger commune, où les deux factions s'assoient de chaque côté. Les promenades sur les routes sont l'occasion de s'éviter. Les étudiants logent en dortoir. Des invités de passage comme de Creeft circulent entre les deux camps. Des rumeurs circulent sur le campus.",
+  "tensions": [
+   "Affrontement entre de Graaff et ses adversaires (Dreier, Bentley) : lettre des dix, refus de démissionner, demande de définition des charges.",
+   "Réputation des étudiantes contre réputation du collège : la rumeur et l'arrestation dévoilent un conflit moral.",
+   "Accusation portée par de Graaff contre Hansgirg et les autres, sur fond de choc puritain.",
+   "Le « coddling » des étudiants, relancé par la remarque de Josef Albers sur de Graaff, ravive d'anciennes luttes.",
+   "La crise menace la réputation de l'institut d'été, que l'on cherche à protéger des visiteurs.",
+   "Dreier est tiraillé entre l'espoir de renouveau et l'obligation d'agir contre les étudiants.",
+   "Absence de Foreman et de Bentley, deux soutiens de de Graaff, qui affaiblit son camp.",
+   "Les deux factions refusent de se parler, et leur séparation se matérialise dans l'espace du campus."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le sourire de Dreier et le téléphone de Chattanooga",
+    "date": "1944-07",
+    "lieu": "Salle à manger et hall du North Lodge",
+    "personnages": [
+     "Theodore Dreier",
+     "Heinrich Jalowetz",
+     "Fritz Cohen",
+     "Kolisch Quartet"
+    ],
+    "deroule": "Dreier sirote son café en écoutant Jalowetz et Cohen décrire l'arrivée des musiciens. Dans le hall obscur, les étudiants regardent le quatuor travailler Schoenberg. Dreier sourit enfin, puis le téléphone sonne : un avocat de Chattanooga parle d'Anderson et Wacker. Il sent qu'il n'aurait jamais dû sourire.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00924",
+     "EV-03648",
+     "EC-01933",
+     "EC-01944"
+    ]
+   },
+   {
+    "titre": "Le retour en auto-stop et les réunions de juillet",
+    "date": "1944-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Barbara Anderson",
+     "Jeanne Wacker",
+     "Frances de Graaff",
+     "Hansgirg",
+     "Theodore Dreier",
+     "Lowinsky",
+     "Anni Albers"
+    ],
+    "deroule": "Deux étudiantes reviennent d'Highlander et Fisk en auto-stop. Une rumeur de gonorrhée circule et Bentley affirme qu'il n'y en avait pas au collège. Les Lowinsky et Anni Albers s'indignent de l'irresponsabilité de de Graaff. Les réunions de faculté se tiennent les 10, 14 et 17 juillet. Dreier écrit ensuite que la publicité fausse rendait une action inévitable. La version de de Graaff sur la mise en garde contre l'auto-stop est contestée par les deux étudiantes.",
+    "certitude": "probable",
+    "refs": [
+     "SC-00925",
+     "EV-03652",
+     "EV-03654",
+     "EV-03657"
+    ]
+   },
+   {
+    "titre": "Première répétition publique de Kolisch",
+    "date": "1944-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rudolf Kolisch",
+     "musiciens du Kolisch Quartet",
+     "étudiants et professeurs du public",
+     "Robert Wunsch"
+    ],
+    "deroule": "Le quatuor travaille le Quatuor op. 7 de Schoenberg devant le public. La partition défile sur l'écran suspendu. Les musiciens se disputent sur une phrase, s'expliquent et travaillent dur. Peu à peu, l'ordre naît de cette familiarité. Wunsch écrit que c'est un privilège.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00926",
+     "EV-03653"
+    ]
+   },
+   {
+    "titre": "Hansgirg manque de s'évanouir",
+    "date": "1944-07-17",
+    "lieu": "Réunion de faculté",
+    "personnages": [
+     "Frances de Graaff",
+     "Hansgirg"
+    ],
+    "deroule": "Devant la faculté réunie, de Graaff lance que nombre d'étudiantes ne sont pas vierges. Hansgirg manque de s'évanouir. La scène repose sur le témoignage de de Graaff en 1967.",
+    "certitude": "probable",
+    "refs": [
+     "SC-00927",
+     "EV-03651"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "L'arrestation d'Anderson et Wacker en juillet réveille les antagonismes endormis depuis le compromis sur l'admission des Noirs.",
+    "vers_date": "1944-05",
+    "vers": "Le compromis d'avril-mai 1944 sur l'admission d'une seule femme noire, avec le statut hybride de « membre de l'Institut », et les divisions qu'il a laissées.",
+    "refs": [
+     "EC-01943",
+     "EC-01931"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Dreier sourit, au moment où l'avocat de Chattanooga appelle.",
+    "vers_date": null,
+    "vers": "Les réfugiés européens (Straus, Albers, Dreier) qui, fuyant le racisme nazi, s'opposent à l'accueil d'étudiants noirs. Bentley raille cette ironie avec la métaphore du « Hofjude ».",
+    "refs": [
+     "EC-01931",
+     "EC-01944"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les cours d'Albers sur la couleur et le papier plié pendant l'été.",
+    "vers_date": null,
+    "vers": "La croyance naturaliste de Coron à BMC et les années de collège où la poésie wordsworthienne structure son regard.",
+    "refs": [
+     "EC-01866"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'oconee-bell trouvée dans la cour de Meadows Inn.",
+    "vers_date": "1790",
+    "vers": "Les années 1790, quand André Michaux nomme la Shortia galacifolia, longtemps introuvable, et la quête épuisante de Coron aux chutes de Toxaway.",
+    "refs": [
+     "EC-01865"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La visite d'Agnes de Mille à BMC pendant l'été 1944.",
+    "vers_date": null,
+    "vers": "La chorégraphie d'Oklahoma de Rodgers et Hammerstein, qui précède la participation de de Mille à la table ronde.",
+    "refs": [
+     "EC-01867"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les sessions d'Albers à BMC pendant l'été 1944.",
+    "vers_date": "1988",
+    "vers": "Margaret Kennard Johnson enseigne à Princeton, environ 44 ans plus tard, et dit qu'elle apprend encore d'Albers. La base visuelle passe par le MoMA, Pratt, Drake et Tokyo.",
+    "refs": [
+     "EC-01861"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La première rencontre avec D'Amico à BMC pendant l'été 1944.",
+    "vers_date": "1946",
+    "vers": "L'invitation de Victor D'Amico à enseigner au MoMA à l'automne 1946. Sans BMC, Johnson n'aurait jamais eu ce privilège.",
+    "refs": [
+     "EC-01864"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La pointe de flèche trouvée dans le gravier après la pluie à Meadows Inn.",
+    "vers_date": null,
+    "vers": "Toute la carrière d'historien de Coron, de Roosevelt University au Newberry, en découle.",
+    "refs": [
+     "EC-01862"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les cours de matière et de couleur d'Albers pendant l'été 1944.",
+    "vers_date": null,
+    "vers": "Rauschenberg et Noland, dont les œuvres célèbres (bed, targets) ont-elles existé sans le passage des artistes par BMC ?",
+    "refs": [
+     "EC-01863"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La nuit de prison de Barbara et Jeanne, en 1944.",
+    "vers_date": "1967-05-31",
+    "vers": "L'entretien chez Duberman en 1967, où les deux femmes, mariées depuis, reconstituent l'histoire avec des fous rires et des versions contradictoires.",
+    "refs": [
+     "EC-01945"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le débat sur l'intégration de 1944 et la division qu'il laisse.",
+    "vers_date": "1950",
+    "vers": "Les années 1950-1960, où la violence sudiste accompagne l'intégration scolaire. Duberman juge que les craintes de 1944 n'étaient pas déraisonnables.",
+    "refs": [
+     "EC-01930"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le sourire de Dreier puni par le téléphone",
+   "La pointe de flèche de Coron comme origine d'une carrière",
+   "L'oconee-bell et les deux siècles de botanique",
+   "La remarque d'Albers, qui rouvre la boîte de Pandore",
+   "La pilule qui rend le diagnostic indiscutable",
+   "Le Hofjude et l'ironie des réfugiés",
+   "La partition sur l'écran et l'ordre né du travail",
+   "Le chemin que l'on prend pour ne pas croiser l'autre faction"
+  ],
+  "lacunes": "Les fiches ne donnent pas le jour exact de l'arrestation d'Anderson et Wacker, ni le lieu où elles ont été arrêtées. Elles ne précisent pas non plus l'ordre exact entre le départ, la rumeur de retour et le coup de téléphone. SC-00924 place le téléphone pendant l'arrivée des musiciens, alors que EV-03648 le situe une semaine après le départ. Les récits viennent de témoignages de 1967 et sont parfois contestés : l'histoire de l'auto-stop et de la mise en garde de de Graaff en est un exemple. Les fiches EV-03656 et EV-03657 décrivent la même lettre de Dreier, et EV-03651 et SC-00927 la même réunion du 17 juillet. On ignore le détail des sanctions d'août et qui a été sanctionné. La présence exacte en juillet de Steuermann, Krenek, Gregory et de Creeft n'est pas établie. Les fiches ne disent rien du sort de Bentley, parti à Fisk, ni de la décision finale du Board of Fellows."
+ }
+}

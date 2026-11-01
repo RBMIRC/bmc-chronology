@@ -1,0 +1,288 @@
+{
+ "passe": "personnes",
+ "cle": "Sewell Sillman",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5890,
+  "sortie": 3436,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Sewell Sillman",
+  "autres_noms": [
+   "Si"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant à Black Mountain College (années 1940), où il suit notamment le cours de couleur de Josef Albers ; son œuvre d'étudiant est conservée et donnée par Albers à des musées.",
+  "presence": [
+   {
+    "debut": "1940",
+    "fin": null,
+    "precision": "annee",
+    "description": "Date repérée dans les fiches pour son étude sous Albers à BMC ; les fiches signalent aussi une présence « ca. 1938 » et « années 1940 », sans bornes précises.",
+    "role": "étudiant (cours de couleur d'Albers, études libres avec matières)",
+    "refs": [
+     "RE-01231",
+     "PE-00053",
+     "EV-02286",
+     "OE-00954",
+     "OE-01050"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Disciple zélé devenu bras droit : Sillman trouve en Albers un système total de pensée et y adhère avec une fidélité quasi religieuse — il reproduit les exercices, les transmet, les exporte. Mais le disciple est aussi un œil sévère : il juge durement élèves et collègues (à Santiago comme, implicitement, partout), et sa rigueur tourne parfois au raidissement. Sa vie est une longue tension entre dévotion et lucidité acide, qui finit par une rupture définitive avec le maître.",
+  "blessures": "La brouille finale avec Albers (« dreadful feud ») après avoir été désigné pour gérer son héritage — une déchéance après une filiation totale ; la maladie de son frère qui annule le voyage au Mexique avec Anni (1955).",
+  "desirs": "Transmettre fidèlement la méthode albersienne ; être reconnu comme l'exécuteur légitime de l'œuvre du maître (sérigraphies d'Interaction of Color, gestion de l'héritage) ; enseigner avec éveil plutôt que routine.",
+  "peurs": "La dilution ou la trahison de la méthode (d'où ses diagnostics sévères sur Santiago) ; probablement aussi de ne jamais sortir de l'ombre du maître.",
+  "maniere_d_aimer": "Par la fidélité concrète et artisanale : cartes de Noël faites main, mélange des plus de 800 encres pour les planches d'Albers, décennies d'assistanat ; attachement de longue durée aux époux Albers, y compris Anni (voyage projeté ensemble).",
+  "rapport_au_pouvoir": "Lieutenant plutôt que chef : il exerce le pouvoir par délégation, applique la doctrine, corrige les cours déviants (PUC). Mais il juge ceux qu'il surveille, et derrière la soumission une autorité propre s'affirme — jusqu'au conflit frontal avec Albers.",
+  "voix": {
+   "registre": "Direct, tranchant, didactique ; passe du vocabulaire de la dévotion (« religieusement », « être en état d'éveil ») à la critique cinglante sans transition.",
+   "tics": "Se réfère explicitement à Albers et à ses exercices ; jugements catégoriques et sans ménagement.",
+   "exemples_paraphrases": [
+    "On ne prépare pas un cours : on y arrive éveillé, et l'on sait aussi parfois en sortir d'un coup d'œil.",
+    "Ses lettres de Santiago : le programme va de travers, les élèves ne suivent pas, tel professeur ne sait pas ce qu'il fait."
+   ]
+  },
+  "habitudes": [
+   "Offre des cartes de Noël faites main à Albers (1953), format réduit à l'encre",
+   "Prend des notes de cours détaillées (1948-49), conservées en photocopie aux archives JAAF",
+   "Travaille la sérigraphie avec Norman Ives ; mélange plus de 800 encres pour Interaction of Color",
+   "Fait peindre ses étudiants assis à petites tables, objets posés au sol : oranges, pots, sacs en papier, bouteilles"
+  ],
+  "convictions": [
+   "L'enseignement : moins préparer qu'être en état d'éveil",
+   "La méthode d'Albers vaut fidélité absolue — exercices, matériel, progression",
+   "La couleur doit être simple et structurelle ; rien d'expressif, d'impressionniste ni d'anecdotique",
+   "La critique directe vaut mieux que la complaisance"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1940",
+    "precision": "annee",
+    "moment": "Étudiant dans le cours de couleur d'Albers à BMC ; réalise une étude libre mêlant papiers commerciaux et journal, attentive aux surfaces autant qu'à la couleur, et un collage Values in Neutrals qu'Albers donnera plus tard au Busch-Reisinger.",
+    "etat_interieur": "Formation de la filiation décisive ; l'étudiant intègre corps et biens la méthode.",
+    "refs": [
+     "EV-02286",
+     "RE-00803",
+     "OE-00954",
+     "OE-01050",
+     "RE-01234"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Avant BMC : rien d'attesté dans les fiches en dehors de son arrivée comme étudiant (présence signalée « ca. 1938 » et « années 1940 »).",
+    "refs": [
+     "PE-00053"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Notes de cours d'Albers (probablement à Yale), 1948-49, conservées en photocopie aux archives JAAF — l'ancien étudiant continue d'apprendre et de documenter.",
+    "refs": [
+     "EV-04325",
+     "PE-00053"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Avec Feldman puis seul, il enseigne à Yale le cours de deuxième année (Introductory Studies in Painting, « Plastic Relationships ») calqué sur le basic course de BMC : peinture sur papier bon marché, objets au sol, puis partie libre.",
+    "etat_interieur": "Le disciple devient professeur ; Albers le trouve un peu trop rigide, ses travaux trop semblables.",
+    "refs": [
+     "EV-05377",
+     "CO-00823"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Offre à Albers une carte de Noël faite main parmi quatre étudiants de Yale.",
+    "refs": [
+     "EV-06096",
+     "PE-00053"
+    ]
+   },
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "moment": "Projet de voyage au Mexique avec Anni Albers, annulé à cause de la maladie de son frère (pendant le second séjour d'Josef à Ulm).",
+    "refs": [
+     "EV-06718",
+     "EV-06719"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Assistant d'Albers à Yale en 1956-57 : assure l'essentiel du cours de dessin, aidé de Kloszewski et Bittleman, Albers ne faisant que des apparitions. Les « Dix Commandements » parodiques d'un étudiant le placent en second honneur après Albers.",
+    "refs": [
+     "PE-00053",
+     "SC-01287",
+     "EV-05008"
+    ]
+   },
+   {
+    "date": "1958-12-16",
+    "precision": "jour",
+    "moment": "Lettre à Larraïn depuis le Connecticut préparant son départ au Chili ; il part sur Fulbright à la Pontificia Universidad Católica de Santiago, premier et plus important des professeurs de Yale envoyés par Albers.",
+    "refs": [
+     "EV-07195",
+     "EV-07196",
+     "EV-07193"
+    ]
+   },
+   {
+    "date": "1959-05",
+    "fin": "1959-10",
+    "precision": "mois",
+    "moment": "Quatre mois et demi à Santiago : enseigne Diseño Básico, Dibujo Básico et Color dans la ligne des cours préliminaires d'Albers ; publie une brochure de suggestions pour la nouvelle école (1er juillet).",
+    "etat_interieur": "Missionnaire de la méthode.",
+    "refs": [
+     "EV-07195",
+     "EV-07196",
+     "CO-00843"
+    ]
+   },
+   {
+    "date": "1959-06-22",
+    "precision": "jour",
+    "moment": "Lettre sévère aux Albers depuis Santiago : critique l'orientation de l'école PUC, la pédagogie de Piwonka, l'influence de Carreño en peinture, l'inexpérience de Carlberg en sculpture ; il réitère ce diagnostic en personne à Vilches, arrivé à Yale.",
+    "etat_interieur": "La lucidité acide du missionnaire : il diffuse la méthode tout en condamnant l'école qui l'accueille.",
+    "refs": [
+     "EV-07199",
+     "EV-07200",
+     "RE-02854",
+     "RE-02855"
+    ]
+   },
+   {
+    "date": "1960",
+    "precision": "annee",
+    "moment": "Patronne la bourse de Vilches à Yale (1960-61), assurant la génération suivante de diffusion des théories de la couleur.",
+    "refs": [
+     "EV-07235",
+     "EV-07239",
+     "RE-02853"
+    ]
+   },
+   {
+    "date": "1963",
+    "precision": "annee",
+    "moment": "Avec Norman Ives, exécute les sérigraphies d'Albers et mélange les plus de 800 encres colorées des planches d'Interaction of Color.",
+    "refs": [
+     "RE-00032",
+     "RE-03039"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Désigné pour gérer l'héritage d'Albers comme dernier sérigraphe, puis terrible brouille définitive (« dreadful feud »), sans réconciliation ; Ives a un grave accident après la rupture ; départ de Sillman précipité par la retraite d'Albers, Lytle prenant la suite du cours.",
+    "refs": [
+     "RE-00454",
+     "EV-00564"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Mentorat filial puis collaboration, finissant en conflit",
+    "evolution": "Étudiant à BMC → héritier du cours de couleur à Yale → bras droit et exécuteur des sérigraphies → missionnaire de la méthode au Chili → brouille définitive autour de la gestion de l'héritage, sans réconciliation.",
+    "refs": [
+     "RE-00194",
+     "RE-00803",
+     "RE-00921",
+     "RE-01231",
+     "RE-01234",
+     "RE-01924",
+     "RE-00454",
+     "EV-00564"
+    ]
+   },
+   {
+    "avec": "Anni Albers",
+    "nature": "Amitié familiale",
+    "evolution": "Ami commun du couple, au point de projeter un voyage au Mexique avec Anni en 1955, annulé par la maladie de son frère.",
+    "refs": [
+     "PE-00053",
+     "EV-06718"
+    ]
+   },
+   {
+    "avec": "Norman Ives",
+    "nature": "Collaboration artisanale",
+    "evolution": "Co-exécuteurs des sérigraphies d'Albers ; Ives a un grave accident après la brouille finale.",
+    "refs": [
+     "RE-00032",
+     "RE-03039",
+     "RE-00454"
+    ]
+   },
+   {
+    "avec": "Eduardo Vilches",
+    "nature": "Mentorat",
+    "evolution": "Professeur de Vilches à la PUC, lui obtient une bourse Yale (1960-61), lui expose en personne son diagnostic sévère sur l'école de Santiago ; Vilches devient diffuseur de la couleur albersienne.",
+    "refs": [
+     "RE-02853",
+     "RE-02855",
+     "EV-07235"
+    ]
+   },
+   {
+    "avec": "Norman Carlberg et Wilson Wright",
+    "nature": "Collègues de la mission chilienne",
+    "evolution": "Partent ensemble au Chili sur Fulbright (1959-62) ; Sillman critique néanmoins dans ses lettres l'inexpérience de Carlberg en sculpture.",
+    "refs": [
+     "RE-00966",
+     "EV-07145",
+     "EV-07199"
+    ]
+   },
+   {
+    "avec": "Richard Lytle",
+    "nature": "Relais pédagogique",
+    "evolution": "Lytle prend la suite du cours quand la retraite d'Albers précipite le départ de Sillman, et ajoute de nouveaux exercices.",
+    "refs": [
+     "EV-00564"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "PE-00053 signale une présence à BMC « ca. 1938 » et « années 1940 » tandis que RE-01231 date son étude sous Albers de 1940 : bornes exactes de son séjour à BMC incertaines.",
+   "Fiche agrégée : diffuseur zélé de la méthode au Chili tout en portant un diagnostic très dur sur l'école et ses professeurs — tension interne plutôt que contradiction entre sources, mais à crever à l'écran.",
+   "EV-07199/07200 : la responsabilité des critiques (Sillman seul ou via Vilches) est formulée différemment selon la fiche."
+  ],
+  "situations_revelatrices": [
+   "Le cours de couleur à Yale : Sillman règne sur les petites tables et les objets au sol, Albers ne faisant qu'apparaître — la scène de la transmission.",
+   "La récitation parodique des Dix Commandements : Sillman honoré en second, entre rire et dévotion.",
+   "L'atelier de sérigraphie : mélange des 800 encres, la main du disciple dans l'œuvre du maître.",
+   "La lettre de Santiago du 22 juin 1959 : la nuit, la table, l'anglais, la trahison charitable de ses collègues.",
+   "La brouille finale : ce qui s'est dit — ou pas dit — lors de la rupture avec Albers."
+  ],
+  "citations": [
+   "EC-01019",
+   "SC-01287",
+   "EV-07199",
+   "CO-00843",
+   "PE-00053"
+  ],
+  "questions_ouvertes": [
+   "Dates et lieu de naissance et de mort, vie familiale (son frère malade), formation avant BMC.",
+   "Contenu exact et circonstances de la « dreadful feud » avec Albers : motifs, date, échanges éventuels (une carte à l'hôpital est évoquée).",
+   "Ce qu'il devient après la rupture : carrière, œuvre personnelle de peintre, rôle dans la gestion (perdue ?) de l'héritage d'Albers.",
+   "Le détail de ses années exactes à BMC et son passage de BMC à Yale.",
+   "Contenu intégral de sa lettre du 22 juin 1959 et de sa brochure du 1er juillet 1959 pour Santiago."
+  ]
+ }
+}

@@ -1,0 +1,318 @@
+{
+ "passe": "personnes",
+ "cle": "Frederick Georgia",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 13251,
+  "sortie": 3884,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Frederick Georgia",
+  "autres_noms": [
+   "F. Georgia",
+   "Rector Frederick Georgia"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Cofondateur, professeur de chimie, premier rector du collège (1933-1934), dissident régulier du board of fellows, démissionnaire de juin 1937",
+  "presence": [
+   {
+    "debut": "1933-09",
+    "fin": "1937-06",
+    "precision": "mois",
+    "role": "Professeur de chimie, membre du Board of Fellows, rector (1933-1934), incorporateur et négociateur du bail fondateur ; démissionne après la réunion de juin 1937",
+    "refs": [
+     "PE-00086",
+     "EV-01932",
+     "EV-02725",
+     "EV-02138"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Homme d'institution et de dignité : chimiste conventionnel, défenseur de la liberté académique non par radicalisme mais par principe professionnel. Croit aux titres, aux structures, au travail intellectuel mesurable. Selon Rice, son but profond serait de briller un jour dans une école conventionnelle ; il aurait aidé à fonder une école non conventionnelle pour y gagner un statut. Sa soif du titre (pancarte « president », défense du mot avant d'accepter « rector ») coexiste avec une capacité surprenante à céder sans résistance quand on le convainc.",
+  "blessures": "Renvoyé de Rollins comme « meneur de la rébellion » après sept ans de service, motif écrit : « activité pernicieuse dans l'affaire Rice » ; blessé d'apprendre en 1937 que son bas salaire (1 300 $ contre 2 100 $ pour Rice) reflétait un jugement négatif sur son enseignement et son engagement communautaire — ce qui précipite sa démission.",
+  "desirs": "Reconnaissance officielle et influence — Rice lui prête même l'ambition de la présidence ; voir le collège jugé par la qualité et l'étendue de son travail intellectuel, lui qui représente une tradition académique plus ancienne, moins intéressée par le communal.",
+  "peurs": "L'effondrement de son avenir professionnel après le renvoi de Rollins, au point d'envisager des projets improbables ; que le collège dérive vers l'informel et perde sa raison d'être académique.",
+  "maniere_d_aimer": "Non documenté dans les fiches.",
+  "rapport_au_pouvoir": "Ambivalent : il s'autoinstalle dans le plus grand bureau avec une pancarte « president » et tient ferme sur le titre, mais cède volontiers le rectorat à Rice après un an, sans résistance — facilité qui étonne Rice. Rice le juge enclin à investir la fonction d'une autorité que la philosophie du collège refusait (le chef ne doit pas être réellement chef). Au board, il use de sa position de dissident systématique plutôt que de commandement.",
+  "voix": {
+   "registre": "Grave, formel, digne ; langage d'administrateur et d'universitaire traditionnel, moral sans être passionné",
+   "tics": null,
+   "exemples_paraphrases": [
+    "Rappel solennel en fin d'année que le collège sera jugé par la qualité de son travail intellectuel, et qu'il en est encore loin",
+    "Défense obstinée du titre de « president » avant d'accepter le compromis « rector »",
+    "Déclaration dactylographiée lue au service commémoratif de Lounsbury"
+   ]
+  },
+  "habitudes": [
+   "Maison d'été (cabane) à Highlands, Caroline du Nord, d'où il gère la correspondance de recrutement en 1933",
+   "Maître charpentier : fabrique lui-même les métiers à tisser à pédales d'Anni Albers",
+   "Travail administratif minutieux : feuilles ronéotypées, documents officiels, négociation du bail"
+  ],
+  "convictions": [
+   "L'intégrité de la profession enseignante vaut qu'on défende un collègue qu'on n'aime pas (Rice)",
+   "Le collège sera jugé par la qualité et l'étendue de son travail intellectuel",
+   "Tradition académique ancienne : primat de l'académique sur le communal",
+   "Opposition constante aux résolutions du board contre Knickerbocker et Goldenson (votes dissidents d'avril, octobre et novembre 1936)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933-06",
+    "precision": "mois",
+    "moment": "Licencié par Holt comme « meneur de la rébellion » dans la purge qui suit l'enquête AAUP ; selon Holt, il encaisse « le coup sur le menton, la tête haute »",
+    "etat_interieur": "Dignité blessée, désespoir sur son avenir, mais résolution intacte",
+    "refs": [
+     "EV-02101",
+     "EV-02102",
+     "EV-02103",
+     "SC-00526"
+    ]
+   },
+   {
+    "date": "1933-06",
+    "precision": "periode",
+    "moment": "Passe l'été en Caroline du Nord avec Lounsbury : négociation du bail de la Blue Ridge Assembly, rédaction des documents officiels, standardisation des candidatures depuis sa cabane de Highlands ; signe le certificat d'incorporation fin août",
+    "etat_interieur": "Bâtisseur méthodique, pilier logistique de la fondation",
+    "refs": [
+     "EV-02109",
+     "EV-02130",
+     "EV-02138",
+     "EV-02147"
+    ]
+   },
+   {
+    "date": "1933-08",
+    "precision": "mois",
+    "moment": "Conduit Rice à la Blue Ridge Assembly ; arrête la voiture devant un panneau « New College » — le nom convenu est pris, naissance de Black Mountain College par accident de circulation",
+    "etat_interieur": "Enthousiasme discret ; l'homme qui connaît la Caroline du Nord",
+    "refs": [
+     "EV-02143",
+     "EV-02128",
+     "SC-00499",
+     "SC-00534",
+     "SC-00536"
+    ]
+   },
+   {
+    "date": "1933-09",
+    "precision": "mois",
+    "moment": "S'installe dans le plus grand bureau de Lee Hall, pancarte « president » sur la porte ; bras de fer feutré avec Rice et Dreier, compromis « rector » ; à la première réunion communautaire (fin septembre), appelle le gardien pour les précautions incendie — geste que Rice jugera « juste et approprié »",
+    "etat_interieur": "Soif du titre, besoin d'incarner la nouvelle institution",
+    "refs": [
+     "SC-00553",
+     "EV-02171",
+     "EV-02184",
+     "SC-00558"
+    ]
+   },
+   {
+    "date": "1933-10",
+    "precision": "mois",
+    "moment": "Avec Rice et Dreier, codifie les statuts du collège (bylaws) ; devient recteur élu officiellement — Rice écarté à cause du rapport AAUP en suspens ; lit une déclaration au service commémoratif de Lounsbury (20 octobre)",
+    "etat_interieur": "Légitimité officielle enfin atteinte",
+    "refs": [
+     "EV-02192",
+     "EV-02191"
+    ]
+   },
+   {
+    "date": "1934",
+    "precision": "annee",
+    "moment": "Cède le rectorat à Rice sans résistance après un an ; Rice, qui le croyait accroché au pouvoir, en reste ébranlé ; en fin d'année, exhortation solennelle à la communauté sur la centralité du travail intellectuel",
+    "etat_interieur": "Renvoi du titre sans drame ; recentrage sur l'académique",
+    "refs": [
+     "EV-02252",
+     "EV-02275",
+     "RE-00765"
+    ]
+   },
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "moment": "Vote contre l'avertissement à Knickerbocker et Goldenson (dissident avec Martin, 5-2) ; réitère sa dissidence en octobre et novembre contre leur non-reconduction",
+    "etat_interieur": "Isolement croissant au board, fidélité à ses principes",
+    "refs": [
+     "EV-02584",
+     "EV-02609",
+     "EV-02619",
+     "EV-02620"
+    ]
+   },
+   {
+    "date": "1936-10",
+    "precision": "mois",
+    "moment": "Premiers salaires votés « sur la base du besoin » : 1 300 $ pour lui contre 2 100 $ pour Rice",
+    "etat_interieur": "Humiliation en germe, encore ignorée",
+    "refs": [
+     "EV-02614"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "precision": "mois",
+    "moment": "Apprend de Rice et d'autres que son bas salaire reflétait des problèmes d'enseignement et un engagement communautaire jugé insuffisant ; démissionne, acceptée",
+    "etat_interieur": "Blessure finale ; départ la tête haute, comme à Rollins",
+    "refs": [
+     "EV-02725",
+     "PE-00086"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1926",
+    "precision": "annee",
+    "moment": "Arrivée approximative à Rollins College comme professeur de chimie (sept ans de service au moment de la purge de 1933)",
+    "refs": [
+     "PE-00086",
+     "EV-02093"
+    ]
+   },
+   {
+    "date": "1932-10",
+    "precision": "mois",
+    "moment": "Préside le comité sur la baisse des salaires de 30 % avec Rice et Lounsbury ; lettre à Holt en janvier 1933 protestant contre le poids mis sur des enseignants sous-payés — début de la brouille",
+    "refs": [
+     "EV-01643",
+     "EV-02069"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Dirige la section locale de l'AAUP ; représente une tradition académique conventionnelle, maison d'été à Highlands, NC ; maître charpentier",
+    "refs": [
+     "PE-00086",
+     "EV-02093"
+    ]
+   },
+   {
+    "date": "1933-05",
+    "precision": "jour",
+    "moment": "Accompagne volontairement Rice aux audiences AAUP dans la sacristie de la Knowles Chapel — non par amitié mais par principe professionnel ; marathon d'affidavits triviaux lus par Holt",
+    "refs": [
+     "RE-00757",
+     "EV-02091",
+     "EV-02093",
+     "EV-02097",
+     "SC-00524",
+     "SC-00525"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Selon Rice, c'est Georgia qui aurait pressé Rice de fonder le collège ; participe aux conférences de fondation (porche d'Aydelotte à Swarthmore)",
+    "refs": [
+     "RE-00760",
+     "SC-00500",
+     "EV-02110"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1937-06",
+    "precision": "mois",
+    "moment": "Démission acceptée après la réunion de juin ; quitte la faculté — les fiches ne disent rien de sa vie ultérieure (Rice lui prédisait une carrière dans une école conventionnelle)",
+    "refs": [
+     "EV-02725",
+     "PE-00086"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Alliance de principe, puis conflit larvé sur l'autorité",
+    "evolution": "Soutient Rice aux audiences AAUP sans en être l'ami (1933) ; pressé par lui de fonder le collège ; bras de fer sur le titre « president/rector » (septembre 1933) ; cède le rectorat sans résistance (1934) ; Rice le juge « complaisamment ignorant », portrait que d'autres contestent ; la révélation de 1937 sur son salaire, faite par Rice et d'autres, achève la rupture par démission",
+    "refs": [
+     "RE-00729",
+     "RE-00757",
+     "RE-00760",
+     "RE-00765",
+     "RE-00886",
+     "EV-02725"
+    ]
+   },
+   {
+    "avec": "Theodore Dreier",
+    "nature": "Cofondateurs, alliés dans la négociation du titre",
+    "evolution": "Dreier s'allie à Rice en septembre 1933 pour convaincre Georgia qu'un éducateur n'est pas un président ; collaborent sur les statuts et la première année",
+    "refs": [
+     "SC-00553",
+     "EV-02192",
+     "EV-02185"
+    ]
+   },
+   {
+    "avec": "Ralph Lounsbury",
+    "nature": "Compagnon de purge et de fondation",
+    "evolution": "Licenciés ensemble en juin 1933 comme « meneurs de la rébellion » ; passent l'été 1933 ensemble en Caroline du Nord à négocier le bail ; Lounsbury meurt dès octobre 1933, Georgia lit une déclaration à son service commémoratif",
+    "refs": [
+     "EV-02101",
+     "EV-02109",
+     "EV-02191"
+    ]
+   },
+   {
+    "avec": "Anni Albers",
+    "nature": "Collègue et artisan",
+    "evolution": "Vers 1933-1934, fabrique bénévolement plusieurs métiers à tisser à pédales pour elle, maître charpentier au service de sa pédagogie naissante",
+    "refs": [
+     "EV-02199"
+    ]
+   },
+   {
+    "avec": "Joseph Martin",
+    "nature": "Compagnon de dissidence",
+    "evolution": "Votent ensemble et seuls contre les résolutions du board contre Knickerbocker et Goldenson (avril-octobre-novembre 1936)",
+    "refs": [
+     "EV-02584",
+     "EV-02609",
+     "EV-02619"
+    ]
+   },
+   {
+    "avec": "Hamilton Holt",
+    "nature": "Adversaire (président de Rollins)",
+    "evolution": "De la confrontation syndicale (comité des salaires) au licenciement de juin 1933 ; Holt note qu'il a « encaissé le coup la tête haute »",
+    "refs": [
+     "EV-01643",
+     "EV-02101",
+     "EV-02103",
+     "SC-00526"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Portrait de Rice : « complaisamment ignorant de tout », sans curiosité, anti-intellectuel — jugement vivement contesté par d'autres interviewés de Duberman, qui le trouvent simplement conventionnel et digne",
+   "Selon Rice, son but serait de briller dans une école conventionnelle alors qu'il aide à fonder une école non conventionnelle — interprétation non confirmée par d'autres sources",
+   "Considéré « incolore » comme enseignant par beaucoup, mais ses dissidences répétées et son rôle logistique central de 1933 dessinent un personnage bien plus engagé",
+   "La cession sans résistance du rectorat (1934) contredit l'image d'un homme assoiffé de pouvoir"
+  ],
+  "situations_revelatrices": [
+   "Le bras de fer feutré de septembre 1933 : la pancarte « president », la négociation du titre à trois dans un bureau",
+   "L'arrêt de la voiture devant le panneau « New College » — l'homme pratique qui résout un problème de nom au bord de la route",
+   "Les votes dissidents solitaires (avec Martin) contre le renvoi de Knickerbocker et Goldenson",
+   "La scène de 1937 : apprendre que son salaire disait ce que le collège pensait de lui, et démissionner",
+   "La fabrication nocturne des métiers à tisser pour Anni Albers : le charpentier au service d'une avant-garde qu'il ne comprend pas forcément"
+  ],
+  "citations": [
+   "EV-02275",
+   "EV-02192",
+   "SC-00553",
+   "SC-00558",
+   "EV-02101"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, vie familiale, ce qu'il fait après juin 1937 (Rice lui prédisait une école conventionnelle — l'a-t-il retrouvée ?)",
+   "Contenu exact de sa déclaration au service commémoratif de Lounsbury (archives de Raleigh)",
+   "Sa lettre à Knickerbocker du 15 avril 1936 : comment un dissident du board notifie-t-il un avertissement qu'il a combattu ?",
+   "Ce que les étudiants pensaient réellement de son enseignement de la chimie",
+   "Sa présence exacte aux conférences d'Alstead (été 1933) : les fiches ne le listent pas explicitement"
+  ]
+ }
+}

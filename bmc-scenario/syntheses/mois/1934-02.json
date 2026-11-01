@@ -1,0 +1,249 @@
+{
+ "passe": "mois",
+ "cle": "1934-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3196,
+  "sortie": 20273,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1934-02",
+  "session": "fin de la première année académique (session d'hiver-printemps 1934), avant l'été de campus loué à la Blue Ridge Assembly",
+  "saison_et_climat": "Plein hiver. Les fiches ne donnent ni météo ni température. Seule note sur le lieu : Thornton Wilder, en visite fin février, le trouve « mystérieusement heureux ».",
+  "situation": "Le collège est encore une jeune institution de première année. Albers enseigne sans anglais courant tout en cherchant discrètement à partir pour Bennington en 1934-35, et son contrat BMC expire le 12 juin. La correspondance avec Leigh est en cours et une halte de Mrs. Leigh à BMC est prévue pour mars. Le collège reçoit des visiteurs de prestige, dont Wilder (conférence formelle du 23 février). Rice tente d'attirer Janet Seasongood, qui hésite encore à quitter Smith.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Georgia (recteur)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Thornton Wilder (visite de février)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier et Bobbie Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "étudiants de la première année",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John (pseudonyme)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Paul (pseudonyme)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ann (pseudonyme)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1934-01",
+    "precision": "periode",
+    "ce_qui_arrive": "Albers pose sa candidature à Bennington pour 1934-35, avec l'appui de Philip Johnson et de Mrs. Swan. Son argument officiel est l'incertitude financière de BMC et le désir de se rapprocher de New York. La correspondance court jusqu'au début d'avril.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1934-02-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Rice somme Janet Seasongood de cesser d'hésiter à quitter Smith pour Black Mountain. Il juge son indécision, qui fait souffrir ses proches, « à peu près la chose la plus stupide » qu'un être humain puisse faire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02338"
+    ]
+   },
+   {
+    "date": "1934-02-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers écrit à Leigh pour raconter son enseignement au Bauhaus. On décide que Mrs. Leigh, en route de Floride vers le Vermont, s'arrêtera à BMC en mars pour le rencontrer.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02339"
+    ]
+   },
+   {
+    "date": "1934-02-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Conférence formelle de Thornton Wilder, invité par Evarts. Il dîne avec les étudiants et lit ses pièces devant la cheminée de Lee Hall.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Vie d'hiver : Albers enseigne par le dessin et la démonstration visuelle, sans traducteurs depuis que la délégation étudiante a obtenu l'arrêt des traductions et des leçons d'anglais de l'hiver 1933-34. Les soirées se passent en dîners avec les étudiants, en lectures au coin de la cheminée de Lee Hall et en visites au cottage des Dreier. Les fiches ne disent rien de la ferme, de la musique ou des cours hors art ce mois-ci.",
+  "tensions": [
+   "Précarité d'Albers : contrat qui s'achève le 12 juin, candidature à Bennington menée en parallèle, réponse de Leigh encore incertaine.",
+   "Fragilité financière de BMC, qui pousse Albers à chercher ailleurs et freine les projets.",
+   "Barrière de la langue entre Albers et une partie des étudiants, dont la délégation a obtenu la fin des traductions.",
+   "Pression de Rice sur les candidatures, face à l'indécision de Janet Seasongood.",
+   "Amours et secrets de la première année : l'aveu de John choque Paul, qui se rapproche d'Ann. La date exacte est inconnue, mais l'affaire relève probablement de la première année.",
+   "Autorité et partage des rôles entre Rice et Georgia, sans que les fiches du mois précisent leurs désaccords."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Wilder lit ses pièces devant la cheminée de Lee Hall",
+    "date": "1934-02",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "Thornton Wilder",
+     "étudiants"
+    ],
+    "deroule": "Après le dîner, Wilder lit ses pièces à un groupe d'étudiants. Il juge le climat « mystérieusement heureux » mais réclame plus de diversité humaine et « un peu plus de discipline intellectuelle ».",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Conférence de Wilder devant le public extérieur",
+    "date": "1934-02-23",
+    "lieu": null,
+    "personnages": [
+     "Thornton Wilder",
+     "250 invités extérieurs"
+    ],
+    "deroule": "Wilder prononce une conférence sur la littérature et la vie. Le texte ne précise pas si ce public de 250 personnes correspond à la conférence formelle du 23 février.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Soirée au cottage des Dreier",
+    "date": "1934-02",
+    "lieu": "cottage des Dreier",
+    "personnages": [
+     "Thornton Wilder",
+     "Josef Albers",
+     "Anni Albers",
+     "Ted Dreier",
+     "Bobbie Dreier"
+    ],
+    "deroule": "Wilder passe une soirée chez les Dreier avec les Albers. La scène donne le ton amical et intellectuel des invités extérieurs au collège.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Rice écrit à Janet Seasongood",
+    "date": "1934-02-14",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "Janet Seasongood"
+    ],
+    "deroule": "Rice l'exhorte sèchement à quitter Smith pour Black Mountain. Il lui reproche d'hésiter alors que son indécision afflige sa famille et ses proches.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02338"
+    ]
+   },
+   {
+    "titre": "Albers répond à Leigh sur le Bauhaus",
+    "date": "1934-02-23",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "Leigh"
+    ],
+    "deroule": "Albers décrit à Leigh son expérience d'enseignement au Bauhaus. La lettre déclenche la décision de recevoir Mrs. Leigh à BMC en mars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02339"
+    ]
+   },
+   {
+    "titre": "Les étudiants font abandonner les traductions d'Albers",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "délégation d'étudiants"
+    ],
+    "deroule": "Pendant l'hiver 1933-34, une délégation étudiante obtient l'arrêt des traducteurs et des leçons d'anglais. Albers dit préférer se faire comprendre par le dessin.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "février 1934, lorsqu'Albers raconte à Leigh son enseignement au Bauhaus",
+    "vers_date": null,
+    "vers": "Son passé d'enseignant au Bauhaus, antérieur à 1933, qui fonde sa candidature et son autorité pédagogique",
+    "refs": [
+     "EV-02339"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "l'hiver 1933-34, lorsque les étudiants obtiennent l'abandon des traducteurs et des cours d'anglais",
+    "vers_date": null,
+    "vers": "L'arrivée d'Albers fin 1933, sans anglais courant, et les premiers mois de son enseignement",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la candidature d'Albers à Bennington, en pleine correspondance",
+    "vers_date": "1934-04-06",
+    "vers": "Le refus de Leigh, qui réclame une personne « plus essentiellement américaine »",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la lettre de Rice à Janet Seasongood",
+    "vers_date": "1935",
+    "vers": "Janet Seasongood devient étudiante à Black Mountain College en 1935",
+    "refs": [
+     "EV-02338"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la halte de Mrs. Leigh prévue en mars",
+    "vers_date": "1934-03-26",
+    "vers": "La lettre de Leigh, nettement moins enthousiaste que celle de février",
+    "refs": [
+     "EV-02339"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le doute qu'Albers entretient sur son avenir à BMC",
+    "vers_date": "1934-06-12",
+    "vers": "L'expiration de son contrat BMC, date butoir de sa position",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les visiteurs qui affluent et les finances fragiles du collège",
+    "vers_date": "1934-06-03",
+    "vers": "La révision budgétaire à la hausse d'environ 2 000 dollars, surtout pour des bourses",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "La langue comme barrière et comme ressource : Albers enseigne par l'image",
+   "Visibilité du collège : visiteurs, presse et réseaux new-yorkais",
+   "Mobilité des enseignants : candidatures ailleurs et loyauté incertaine",
+   "Recrutement par Rice et hésitations des candidates",
+   "Fragilité financière comme moteur des décisions",
+   "Amours et secrets de la première année, sous pseudonymes"
+  ],
+  "lacunes": "Les fiches ne donnent pas la date exacte de la visite de Wilder, ni si la conférence devant 250 invités est celle du 23 février. Elles ne disent pas si Mrs. Leigh est effectivement passée à BMC en mars : seul le projet est attesté en février. Elles ne précisent pas où se trouvent Rice et Georgia ce mois-là, ni le rôle de Johnson et de Mrs. Swan en février. Rien sur le climat, la ferme, la musique ou les cours hors art. Les dates de la romance de la première année restent inconnues, et John, Paul et Ann sont des pseudonymes (Duberman). Les éléments tirés de la synthèse n'ont pas d'identifiant de fiche, d'où les refs vides. Les sources divergent sur le refus de Leigh : la synthèse le lit comme une question d'origine nationale, Johnson y voit un prétexte (avril, hors de ce mois)."
+ }
+}

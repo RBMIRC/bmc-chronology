@@ -1,0 +1,347 @@
+{
+ "passe": "mois",
+ "cle": "1943-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3544,
+  "sortie": 10138,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1943-05",
+  "session": "Intersession printemps-été, entre la fin de l'année scolaire et le travail d'été (déduit : les fiches ne donnent pas le calendrier de mai)",
+  "saison_et_climat": "Printemps finissant ; la chaleur écrasante de l'été s'annonce, et l'été est consacré au travail manuel (déduit du contexte, non daté précisément pour mai)",
+  "situation": "Le collège se vide de ses hommes et achève son chantier communautaire, lancé à l'automne 1940 et prévu pour près de trois ans. Oppenheimer est parti en avril. En mai, Anni Albers date son essai sur la forme et les objets, et Harper retire le livre de John Andrew Rice après la menace de poursuite de Holt. La reprise de la rentrée n'est pas encore décidée : la faculté ne décidera de rouvrir qu'à la fin août, en misant sur une mine de mica et sur des promesses financières. Le recrutement est faible et les enseignants partis à la guerre laissent une faculté composée surtout de femmes et d'étrangers déplacés.",
+  "presents_probables": [
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eric Bentley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lane",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Sam Brown",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lorrie Goulet",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1943-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Anni Albers date son essai sur la forme et les objets, qui critique la décoration comme camouflage et prône de posséder moins.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03426"
+    ]
+   },
+   {
+    "date": "1943-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Harper and Brothers retire le stock restant du livre de John Andrew Rice, après environ 8 200 exemplaires vendus sur plus de 10 000 ; Holt, satisfait, n'engage pas de poursuite.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03428",
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "saison",
+    "ce_qui_arrive": "Été : travail manuel, construction de la route par une équipe dirigée par Albers, mine de mica ouverte sur la propriété pour l'effort de guerre, vente de légumes par Molly Gregory.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Fin août, la faculté décide de rouvrir, avec 17 000 $ de promesses d'été et 55 étudiants espérés dont 20 à 25 % de garçons ; Marshall Field a aussi proposé 10 000 $ en juillet.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "saison",
+    "ce_qui_arrive": "Été : Straus accuse Bentley en faculté d'endoctriner dans un sens pro-soviétique et anti-britannique ; Bentley répond par une déclaration en sept points.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943-09-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Jean Charlot est accueilli les 6 et 7 septembre et donne sa conférence sur le Mexique ; on lui demande d'enseigner l'été suivant.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "saison",
+    "ce_qui_arrive": "À l'automne, la rentrée : Wunsch prononce un discours sur la onzième année du collège, et Clark Foreman arrive pour co-enseigner « Europe moderne » avec Bentley.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943-10",
+    "precision": "mois",
+    "ce_qui_arrive": "À la mi-octobre, le dernier contingent de l'Enlisted Reserve Corps est parti ; Sam Brown, atteint de polio, reste le seul étudiant masculin.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Hansgirg annonce son projet d'extraction de magnésium de l'olivine et offre 20 % au collège ; le don restera sans suite.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943-12-09",
+    "precision": "jour",
+    "ce_qui_arrive": "Elaine Fried épouse Willem de Kooning, hors campus.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le mot allemand Werklehre fait sa dernière apparition officielle.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1944",
+    "precision": "annee",
+    "ce_qui_arrive": "Un an après le retrait, Harper refuse à Rice dix exemplaires personnels supplémentaires.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03428"
+    ]
+   },
+   {
+    "date": "1944",
+    "precision": "annee",
+    "ce_qui_arrive": "La scission de la faculté, déjà préparée par la guerre idéologique entre Bentley et Straus.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Le chantier avance : allées gravelées, bordées de galax et de laurier, et Albers conduit une équipe qui lambrisse et peint la salle à manger et les halls du lodge. Albers peint la nuit dans la salle blanche de Black Dwarf. Les concerts du samedi se donnent avec des blessés du Moore General Hospital dans l'assistance ; le Quatuor Kolisch répète au réfectoire. Les étudiantes préparent des projets artistiques et intellectuels (Lorrie Goulet passe de la sociologie à l'art). Les dates précises de ces activités ne sont pas données par les fiches.",
+  "tensions": [
+   "Les étudiants refusent l'« accord » interdisant les visites dans les chambres de l'autre sexe et réclament voix égale et libre discussion des « standards moraux ».",
+   "Wunsch s'inquiète de couples qui quittent ensemble le bal ou s'enlacent au réveillon, et il s'en confie à Evarts.",
+   "Les nouveaux enseignants, énergiques, se heurtent à Albers, Dreier et Wunsch qui dominent toujours la faculté.",
+   "Bentley attire les étudiants vers le théâtre et la politique ; Straus l'accuse d'endoctrinement.",
+   "Le livre de Rice embarrasse le collège : Albers, Dreier et Nell Rice refusaient d'abord de lire le chapitre sur BMC.",
+   "La mine de mica absorbe l'énergie et les espoirs du collège, sans qu'on sache si elle a vraiment produit.",
+   "Les finances fragiles : Dreier évoque des licenciements et remercie Forbes d'un don de 3 000 $.",
+   "Les jeunes femmes partent vers les WACs, les WAVES et les usines de munitions, et les hommes partent à l'effort de guerre."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Anni Albers écrit son essai sur un bouton",
+    "date": "1943-05",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Anni Albers"
+    ],
+    "deroule": "Partant d'un bouton parmi les coquillages, elle oppose l'ordre simplifié des objets fabriqués à la variété de la nature, et écrit que la décoration n'est qu'un camouflage. Elle date le texte de mai et appelle à posséder moins.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03426"
+    ]
+   },
+   {
+    "titre": "Le livre retiré et annoté",
+    "date": "1943-05",
+    "lieu": null,
+    "personnages": [
+     "Holt",
+     "John Andrew Rice"
+    ],
+    "deroule": "Harper retire le stock restant. Holt, qui n'attaque pas en justice, annote son exemplaire de « never said it » et « not true », puis écrit qu'il a tout tenté pour sauver Rice et que celui-ci avait ses bons côtés.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03428"
+    ]
+   },
+   {
+    "titre": "Albers sur le chantier du lodge",
+    "date": "1943",
+    "lieu": "Lodge de Lake Eden",
+    "personnages": [
+     "Josef Albers",
+     "équipe de lambrissage et de peinture"
+    ],
+    "deroule": "Albers dirige des mois de travail pour lambrisser et peindre la salle à manger et les halls, avec une équipe mixte d'étudiants et d'ouvriers.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La route en plein été",
+    "date": "1943",
+    "lieu": "Allées et chemin du campus",
+    "personnages": [
+     "Josef Albers",
+     "Lane",
+     "quatre jeunes filles"
+    ],
+    "deroule": "Albers, en pantalon blanc, dirige l'équipe de route ; quatre jeunes filles nivellent le chemin sous une chaleur écrasante.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Concert du samedi avec des blessés",
+    "date": "1943",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Quatuor Kolisch",
+     "blessés du Moore General Hospital"
+    ],
+    "deroule": "Le concert du samedi réunit la communauté et des blessés venus du Moore General Hospital.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le malaise de Wunsch au réveillon",
+    "date": "1943-12",
+    "lieu": "South Lodge",
+    "personnages": [
+     "Wunsch",
+     "Evarts",
+     "couples d'étudiants"
+    ],
+    "deroule": "Wunsch, trop ému par des couples enlacés après trop de vin, se confie à Evarts, parti à l'armée.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le seul étudiant masculin",
+    "date": "1943-10",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Sam Brown"
+    ],
+    "deroule": "Sam Brown, atteint de polio, reste le seul étudiant masculin après le départ du dernier contingent. Il danse le boogie-woogie à la fête de 1943.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Albers, la route et les notes de mai 1943",
+    "vers_date": "1943-02",
+    "vers": "Le Bulletin de février « Learning and Living » présente le collège sans curriculum ni notes, et la conférence d'Albers sur la photographie, « type d'image le plus plat », donne le ton de l'année.",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le chantier qui touche à sa fin en mai",
+    "vers_date": "1940",
+    "vers": "Le chantier communautaire est lancé à l'automne 1940 et doit durer près de trois ans.",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le retrait du livre de Rice en mai",
+    "vers_date": "1943-02",
+    "vers": "Fin février, l'autobiographie de Rice embarrasse le collège ; Albers, Dreier et Nell Rice refusent d'abord de lire le chapitre sur BMC.",
+    "refs": [
+     "EV-03428",
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La mine et la décision de rouvrir de l'été",
+    "vers_date": "1944",
+    "vers": "La scission de la faculté, au bout de la rivalité entre Bentley et Straus.",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le recrutement faible de l'automne",
+    "vers_date": "1948",
+    "vers": "Willem de Kooning enseignera à BMC à l'été 1948 ; Cage et Cunningham commencent leurs tournées ; Rauschenberg quitte le Texas.",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le creux : un collège vidé de ses hommes mais qui continue à bâtir et à jouer de la musique",
+   "La communauté contre la codification des règles",
+   "Mœurs et morale dans la vie étudiante",
+   "La guerre à l'intérieur comme à l'extérieur",
+   "La forme et le superflu, chez Anni Albers",
+   "La réputation du collège face au livre de Rice"
+  ],
+  "lacunes": "Le calendrier précis de mai n'est pas donné ; les fiches datent surtout l'été et l'automne. Le sort de la mine de mica est contesté : les fiches divergent sur ce qu'elle a produit. La fiche sur Burns dit que Wunsch quitte BMC en 1943, alors que les fiches le montrent à la rentrée et au réveillon. Plusieurs épisodes de la guerre idéologique ne sont datés que ≈1942-1944. Le chapitre de synthèse n'a pas d'identifiant propre : il est cité par son titre. La date du départ de Kocher reste imprécise, et l'on ignore quelles étudiantes arrivent en 1943 et quand."
+ }
+}

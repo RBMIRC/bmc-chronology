@@ -1,0 +1,361 @@
+{
+ "passe": "personnes",
+ "cle": "A. Lawrence Kocher",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 8425,
+  "sortie": 10180,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "A. Lawrence Kocher",
+  "autres_noms": [
+   "Larry (surnom utilisé au collège, EV-02990)",
+   "Albert Lawrence Kocher (développement du prénom non donné dans les fiches ; à vérifier)"
+  ],
+  "dates_de_vie": "Non fournies par les fiches (naissance et mort inconnues). Il est actif comme rédacteur dans les années 1920, puis comme architecte et enseignant jusqu'en 1943 au moins.",
+  "statut_bmc": "Architecte résident puis professeur d'architecture, installé à temps plein avec sa famille à Lake Eden d'automne 1940 à 1943. Il est d'abord consultant extérieur (1937-1940). Molesworth le présente comme « professeur d'architecture invité », ce qui est plus flou. Il dirige le chantier du Studies Building, conçoit la Jalowetz House et la grande grange avec Godfrey, et construit des meubles à l'atelier.",
+  "presence": [
+   {
+    "debut": "1937",
+    "fin": "1940",
+    "role": "Consultant extérieur et correspondant de Theodore Dreier. Il suggère Gropius et Breuer pour le campus (lettre du 24 sept. 1937), consulte Gropius pour réviser les plans (1938-1940) et envoie ses idées de cours (lettre du 17 juillet 1940). Dreier l'avait déjà consulté le 9 juillet 1937, d'après PE-00155.",
+    "refs": [
+     "EV-02735",
+     "RE-01068",
+     "RE-01099",
+     "EV-03114",
+     "PE-00155"
+    ]
+   },
+   {
+    "debut": "1938",
+    "fin": "1939",
+    "role": "Un cours d'architecture complet (Architectural Elements, Intermediate and Advanced Design, Mechanics, Structural Design 1 et 2, History of Architecture, Field Work) est daté d'environ 1938-39. Cela contredit l'arrivée en 1940 : ce peut être un programme annoncé ou une datation approximative (voir contradictions).",
+    "refs": [
+     "CO-00295"
+    ]
+   },
+   {
+    "debut": "1940-09",
+    "fin": "1943",
+    "role": "Architecte résident et professeur d'architecture et de design. Il s'installe avec sa famille, dirige le chantier du Studies Building, supervise la Jalowetz House et la grande grange, puis quitte le collège en 1943.",
+    "refs": [
+     "EV-03126",
+     "EV-02990",
+     "EV-03033",
+     "EV-03024",
+     "EV-01246",
+     "EV-03168",
+     "CO-00343",
+     "CO-00364",
+     "RE-01246"
+    ]
+   }
+  ],
+  "portrait_physique": "Les fiches ne donnent aucun trait physique, ni âge ni taille ni allure. Seuls éléments concrets : il travaille de ses mains sur le chantier et à l'atelier de menuiserie, au milieu d'étudiants. Le physique est à inventer, sans contredire un homme d'âge mûr, déjà installé dans sa carrière, venu avec sa famille, dont une fille qui a témoigné plus tard (EV-03114).",
+  "noyau_psychologique": "Attesté : un prosélyte de l'architecture moderne, qui croit que le design doit servir la vie réelle et sociale (logement des familles modestes, matériaux industriels, modularité) et qui apprend en construisant. Il passe de l'éditeur-prescripteur national à l'homme qui construit ses propres plans avec des novices. Déduit : un pragmatique convaincu, soucieux d'être utile et de prouver ses thèses par le chantier. Il est à l'aise entre le milieu de l'establishment (Gropius, Dreier) et la rusticité de Lake Eden. Le collège lui offre un terrain d'application rare : un client sans argent, une main-d'œuvre enthousiaste et un programme qui coïncide avec ses convictions.",
+  "blessures": "Rien n'est attesté sur son intimité. Un seul inconfort documenté : l'affaire Gropius-Breuer, où ses maîtres de référence sont vexés qu'on le choisisse, lui, plutôt que de demander une version simplifiée de leurs plans (EV-02989, EV-03114). Déduit, à manier avec prudence : une position ambiguë, héritier réclamé par défaut après l'échec des grands noms, avec un plan unique à quatre ailes dont seule la première sera construite (EV-03024).",
+  "desirs": "Attesté : améliorer l'habitat (« improved living, improved community planning »), diffuser l'architecture moderne et les idées du Bauhaus aux États-Unis, faire construire de vrais bâtiments par des étudiants du plan aux pilotis (CO-00343, CI-01585). Déduit : voir son plan de campus réalisé, et le collège ancré dans le milieu architectural national, ce qu'il avait déjà préparé en 1936 (EV-02601).",
+  "peurs": "Les fiches n'en donnent pas. Déduit des contraintes : l'échec financier (seconde hypothèque de 18 000 $ en 1942, près du maximum empruntable) et le gaspillage d'un chantier sans moyens ni main-d'œuvre formée (EV-03248, EV-03024). Aucune fiche ne dit qu'il les ressent personnellement.",
+  "maniere_d_aimer": "Aucun témoignage sur sa vie affective, hormis la présence de sa famille à Lake Eden et une fille qui évoque plus tard les échanges de son père avec Gropius et Breuer. Dans le travail : il transmet par l'exemple, avec des étudiants qu'il forme (Stoller, chef de chantier de la Jalowetz House ; Bliss) qui deviendront architectes. Ce lien repose sur le faire-ensemble plus que sur la confidence, par déduction.",
+  "rapport_au_pouvoir": "Il fait partie du cercle des décideurs en tant que conseiller : il conseille Dreier à distance, s'appuie sur Gropius comme caution (guide spirituel, conseiller à distance, envoi d'étudiants de Harvard), puis pèse sur la décision de campus en 1940. Il n'est pas gestionnaire du collège mais celui qui rend le projet finançable (EV-02989). Au chantier il dirige avec l'entrepreneur local Godfrey, sans hiérarchie rigide, et participe chaque jour. En 1942 il passe presque tout l'été à lever des fonds avec Albers, Mangold et Dreier (EV-03248).",
+  "voix": {
+   "registre": "Registre de prescripteur et d'éducateur, tourné vers l'usage : formules programmatiques sur la « réalité de la vie d'aujourd'hui », termes d'hygiène et d'efficacité (« attractifs, sanitaires et efficaces »), vocabulaire de métier (fondations, ossature, matériaux, modules). Le ton est celui d'un rédacteur en chef passé à l'enseignement : clair, affirmatif, plus argumentatif que lyrique. Ceci est déduit des seules citations et résumés de cours disponibles.",
+   "tics": "Aucun tic de parole attesté. À partir des fiches : retour à la « réalité » comme critère de tout design, et insistance sur le tactile des matériaux (CO-00342). On l'appelle « Larry » au collège.",
+   "exemples_paraphrases": [
+    "Le design n'a de sens que s'il se rapporte à la vie réelle d'aujourd'hui (lettre à Dreier, 17 juillet 1940).",
+    "Une maison bien pensée donne une vie améliorée et un voisinage mieux planifié ; un cadre doit être attractif, sain et efficace.",
+    "On n'apprend pas l'architecture sans toucher les matériaux : du papier aux pilotis, on fait le tout soi-même.",
+    "Faisons simple et moins cher : les plans de Gropius et Breuer sont magnifiques, mais le collège n'a pas les moyens de les construire (reformulation déduite d'EV-02989, EV-03024)."
+   ]
+  },
+  "habitudes": [
+   "Participe chaque jour à la construction de ses propres plans (EV-02990, EV-03126).",
+   "Construit lui-même des meubles simples à l'atelier du collège : tabouret et table d'appoint en érable, 1942 (EV-03279).",
+   "Enseigne le matin et le soir, le chantier occupant les après-midi (EV-02990).",
+   "Écrit et consulte à distance : correspondance avec Dreier (juillet 1937, septembre 1937, juillet 1940), avec Gropius pour réviser les plans (RE-01068, RE-01099).",
+   "Passe l'été 1942 à démarcher des fonds (EV-03248)."
+  ],
+  "convictions": [
+   "L'architecture moderne doit trouver une expression américaine ; il défend aussi l'habitat vernaculaire américain et sa préservation (PE-00155).",
+   "Les matériaux nouveaux (aluminium, murs minces, industriels) et le design modulaire résolvent des problèmes sociaux, notamment le logement des familles à revenus modestes (ID-01304, CO-00343).",
+   "Le design doit se rapporter à la réalité de la vie d'aujourd'hui (CI-01585).",
+   "Le véritable enseignement de l'architecture est pratique : concevoir, dessiner, maquetter, puis construire.",
+   "La chaleur, la domesticité et la praticité n'excluent pas le modernisme (PE-00155)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1936-09",
+    "moment": "Dans Architectural Record, il cite BMC parmi dix institutions pionnières de la pédagogie du design (avec MIT, Harvard, Cranbrook, Taliesin), et mentionne l'essai d'Albers « Art as Experience ».",
+    "etat_interieur": "Déduit : il a déjà repéré le collège avant d'y travailler, par la lecture d'Albers, et en fait une vitrine dans sa revue ; une relation d'éditeur à objet d'intérêt, sans engagement.",
+    "refs": [
+     "EV-02601"
+    ]
+   },
+   {
+    "date": "1937-09-24",
+    "moment": "Il écrit à Dreier pour proposer Gropius et Breuer pour le nouveau campus de Lake Eden.",
+    "etat_interieur": "Déduit : rôle de médiateur et de prescripteur, content de placer les grands noms du Bauhaus, sans y voir un rôle pour lui-même (rien ne l'indique).",
+    "refs": [
+     "EV-02735",
+     "RE-01068"
+    ]
+   },
+   {
+    "date": "1938",
+    "moment": "Il consulte étroitement Gropius pour réviser les plans du campus ; une liste de cours d'architecture attribuée à Kocher est datée d'environ 1938-39.",
+    "etat_interieur": "Déduit : relais entre Gropius et le collège ; ses idées sont déjà en place. La présence réelle de cette année-là n'est pas établie.",
+    "refs": [
+     "RE-01099",
+     "CO-00295"
+    ]
+   },
+   {
+    "date": "1940-07",
+    "moment": "Avis d'expulsion de Blue Ridge : plus qu'une année sur le site. Les plans Gropius-Breuer (maquette de 1939) sont abandonnés ; Dreier écrit à Kocher les 8, 11 et 17 juillet. Kocher envoie ses idées de cours, dont la formule sur la « réalité ».",
+    "etat_interieur": "Déduit : à la fois sollicité et placé dans une situation délicate avec ses prédécesseurs. Il argumente ses principes (CI-01585) pour s'imposer comme celui qui peut bâtir avec peu.",
+    "refs": [
+     "EV-03039",
+     "EV-03114",
+     "EV-02989",
+     "CI-01585"
+    ]
+   },
+   {
+    "date": "1940-09",
+    "moment": "Il s'installe avec sa famille à Lake Eden, propose une structure à quatre ailes autour d'un hall central et dirige le chantier de la première aile. Les cours sont reprogrammés matin et soir, les après-midi libérés pour le chantier.",
+    "etat_interieur": "Déduit : énergie du pionnier ; il voit son programme (design-build) se réaliser. Il change de statut, du conseil à l'incarnation du projet.",
+    "refs": [
+     "EV-03126",
+     "EV-03024",
+     "EV-02990",
+     "CO-00343"
+    ]
+   },
+   {
+    "date": "1941",
+    "moment": "Étudiants et enseignants creusent, coulent et maçonnent ; la Jalowetz House, avec expériences d'acoustique, est achevée sous la conduite de Stoller ; les étudiants emménagent dans leurs espaces du Studies Building ; le toit est terminé juste avant Noël 1941.",
+    "etat_interieur": "Déduit : apogée. Le chantier devient « le souvenir le plus marquant de communauté » pour de nombreux témoins (SC-00771), et les projets rencontrent un intérêt extérieur (New York Times, 14 sept. 1941).",
+    "refs": [
+     "SC-00771",
+     "EV-03172",
+     "EV-03170",
+     "OE-01473",
+     "EV-03033",
+     "CO-00318"
+    ]
+   },
+   {
+    "date": "1942",
+    "moment": "Construction de la grande grange (conçue avec Godfrey), puis laiterie et silos ; tabouret et table en érable ; campagne de fonds de l'été 1942 après une seconde hypothèque de 18 000 $.",
+    "etat_interieur": "Déduit : du bâtisseur au quêteur d'argent ; l'été entier part en démarchage pendant que la dette pèse. Le design reste dans les petites formes (meubles) : chaleur et simplicité.",
+    "refs": [
+     "EV-03168",
+     "EV-03279",
+     "OE-01606",
+     "EV-03248"
+    ]
+   },
+   {
+    "date": "1943",
+    "moment": "Il quitte le collège (« quitte le collège en 1943 »).",
+    "etat_interieur": "Les sources ne donnent ni cause ni état d'esprit du départ. Hypothèses à ne pas poser comme faits : épuisement des fonds, guerre, nouvelle étape de carrière.",
+    "refs": [
+     "EV-03033"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1920",
+    "moment": "Années 1920 : directeur de la rédaction d'Architectural Record (dix ans comme rédacteur en chef gérant, selon PE-00155) ; il étudie l'habitat vernaculaire résidentiel des États-Unis.",
+    "refs": [
+     "PE-00155"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Il fonde l'école d'architecture de Pennsylvania State College et enseigne à l'Université de Virginie et à Carnegie Tech. Les dates de ces postes ne sont pas données.",
+    "refs": [
+     "PE-00155",
+     "EV-02989"
+    ]
+   },
+   {
+    "date": "1931",
+    "moment": "Harrison House, avec Albert Frey : ossature d'aluminium, murs plus fins que ce qu'autorisait la ville. Il a aussi conçu l'Aluminaire House, maison tout métal. Elles lui valent une notoriété nationale pour ses petites maisons bon marché en matériaux basiques.",
+    "refs": [
+     "EV-03033",
+     "PE-00155"
+    ]
+   },
+   {
+    "date": "1932",
+    "moment": "Harrison House est présentée à l'exposition « International Style » du MoMA.",
+    "refs": [
+     "EV-03033"
+    ]
+   },
+   {
+    "date": "1936-09",
+    "moment": "Encore rédacteur en chef d'Architectural Record, il présente BMC comme institution pionnière.",
+    "refs": [
+     "EV-02601"
+    ]
+   },
+   {
+    "date": "1937",
+    "moment": "Dreier le consulte une première fois (9 juillet selon PE-00155) ; en septembre il propose Gropius et Breuer.",
+    "refs": [
+     "PE-00155",
+     "EV-02735"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1944-07",
+    "moment": "Des designs du Jalowetz Cottage sont publiés dans Architectural Forum.",
+    "refs": [
+     "OE-01722",
+     "PE-00155"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Ses étudiants Bliss et Stoller deviendront architectes professionnels ; la Jalowetz House, légèrement remaniée, est devenue une résidence privée.",
+    "refs": [
+     "PE-00155",
+     "EV-03172"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Milieu et fin des années 1940 : explosion de créativité architecturale étudiante dans le sillage de son programme ; le Studies Building devient une icône du collège et subsiste encore.",
+    "refs": [
+     "CO-00343",
+     "EV-03170"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Son tabouret et sa table de 1942 restent des exemples de son design et sont conservés au BMC Museum and Arts Center.",
+    "refs": [
+     "PE-00155",
+     "OE-01607"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Theodore Dreier",
+    "nature": "Collaboration, correspondance active sur l'architecture du campus.",
+    "evolution": "De conseiller épistolaire (suggestions de 1937, idées de cours de juillet 1940) à partenaire d'un chantier collectif ; en 1942 ils travaillent côte à côte à lever des fonds.",
+    "refs": [
+     "RE-01068",
+     "EV-02735",
+     "EV-03114",
+     "EV-03248"
+    ]
+   },
+   {
+    "avec": "Walter Gropius (et Marcel Breuer)",
+    "nature": "Maître-référence, conseiller à distance, concurrent involontaire.",
+    "evolution": "Kocher consulte étroitement Gropius sur la révision des plans (1938-1940). Gropius et Breuer le recommandent mais sont vexés qu'on ne leur demande pas une version simplifiée. Gropius envoie ensuite ses étudiants de Harvard au chantier.",
+    "refs": [
+     "RE-01099",
+     "EV-02989",
+     "EV-03114",
+     "EV-03033",
+     "EV-03126"
+    ]
+   },
+   {
+    "avec": "Charles Godfrey",
+    "nature": "Collaboration : entrepreneur local, constructeur.",
+    "evolution": "Ils supervisent ensemble le Studies Building, puis la grande grange conçue avec Kocher (1941-1942).",
+    "refs": [
+     "RE-01246",
+     "EV-02990",
+     "EV-03168",
+     "SC-00771"
+    ]
+   },
+   {
+    "avec": "Claude Stoller",
+    "nature": "Mentorat.",
+    "evolution": "Chef de chantier de la Jalowetz House sous la direction de Kocher (1941) ; il devient architecte professionnel.",
+    "refs": [
+     "RE-01338",
+     "EV-03172"
+    ]
+   },
+   {
+    "avec": "Robert Bliss",
+    "nature": "Étudiant sur le chantier du Studies Building.",
+    "evolution": "Présent sur le chantier ; devient plus tard architecte professionnel.",
+    "refs": [
+     "SC-00771",
+     "PE-00155"
+    ]
+   },
+   {
+    "avec": "Heinrich Jalowetz",
+    "nature": "Client et usager de sa maison.",
+    "evolution": "Kocher conçoit son cottage avec expérimentation acoustique (contreplaqué perforé, vermiculite) qui améliore le son du piano ; les plans sont publiés en 1944.",
+    "refs": [
+     "EV-03172",
+     "OE-01722"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Pair et alliée intellectuelle ; collègue de campagne.",
+    "evolution": "Kocher cite l'essai d'Albers en 1936 ; le programme combine chantier, design moderne et cours préliminaires d'Albers ; ils passent l'été 1942 à lever des fonds.",
+    "refs": [
+     "EV-02601",
+     "EV-03033",
+     "EV-03248"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Arrivée : les fiches parlent d'« années 1930-40 », « automne 1940 », « vers 1940-1942 » et « 1940-1943 » ; le cours de 1938-39 et la correspondance de 1937-1940 en font un consultant avant 1940. Le programme de cours de CO-00295 (1938-39) est identique à celui de CO-00364 (1941-42) : la datation 1938 est suspecte.",
+   "Départ : 1943 (thèse UMD) ou « milieu des années 1940 » (PE-00155) ; la fiche ne tranche pas.",
+   "Conception du bâtiment : EV-02972 attribue le Studies Building à Gropius ; les autres sources l'attribuent à Kocher, après abandon des plans Gropius-Breuer.",
+   "Forme du bâtiment : quatre ailes autour d'un hall, dont seule la première a été construite (EV-03024) ; un bâtiment de 75 pièces avec quatre ailes (dortoir, bibliothèque, administration, salles de classe) construit par la communauté (OE-01473, Molesworth) ; une longueur de 200 pieds (EV-03170).",
+   "Motif de la vexation de Gropius et Breuer : ils l'ont recommandé tout en étant froissés qu'on n'ait pas demandé une version simplifiée (EV-02989) ; ou froissés par l'hésitation du collège (EV-03114).",
+   "Statut : « architecte résident » (EV-02655, PE-00155) contre « professeur d'architecture invité » (Molesworth) ; titre aussi décrit comme rédacteur « estimé » ou « dix ans rédacteur en chef gérant ».",
+   "Chronologie des plans : Gropius-Breuer jugés trop coûteux (EV-02655, EV-02735) ; maquette de 1939 (EV-03039) ; en 1937 Kocher les suggère déjà (EV-02735).",
+   "Calendrier du chantier : début à l'automne 1940 (plusieurs sources) ; achèvement « signalé » par le New York Times le 14 sept. 1941 (EV-03033), emménagement des étudiants en 1941, toit terminé juste avant Noël 1941 (OE-01473) : l'achèvement est donc partiel ou progressif.",
+   "Jalowetz : maison construite en 1941 (EV-03172) ; designs publiés dans Architectural Forum en juillet 1944 (OE-01722) ; Harris la décrit aussi comme « cottage »."
+  ],
+  "situations_revelatrices": [
+   "Une scène de chantier où il discute fondations, pierres et ossature avec Godfrey tandis que des étudiants novices posent un sous-plancher ou coulent le béton (SC-00771).",
+   "Une scène de correspondance ou de réunion avec Dreier : arbitrage entre le rêve Gropius-Breuer et ce que le collège peut payer, juillet 1940.",
+   "Un échange avec Gropius ou Breuer, froissés d'être contournés, où il doit défendre un projet plus modeste sans trahir ses maîtres.",
+   "Un cours après-midi / soir : il articule design, matériaux et vie réelle devant des étudiants qui ont les mains sales.",
+   "L'atelier de menuiserie où il construit tabouret et table avec trois planches.",
+   "L'été 1942, quand la communauté doit solliciter amis et voisins pour payer l'hypothèque : l'architecte devient démarcheur.",
+   "L'acoustique de la maison Jalowetz : la musique comme preuve de son travail sur le matériau."
+  ],
+  "citations": [
+   "« Design should relate to reality; the reality of the life for today » (« Le design doit se rapporter à la réalité ; la réalité de la vie d'aujourd'hui ») — lettre à Theodore Dreier, 17 juillet 1940 (CI-01585).",
+   "Formules rapportées : « improved living, improved community planning » ; des cadres « attractifs, sanitaires et efficaces » (CO-00343, PE-00155).",
+   "Un témoignage de Gisela Kronenberg Herwitz sur le chantier : elle y a appris à poser un sous-plancher, enfoncer droit un clou, maçonner avec la pierre des champs (SC-00771)."
+  ],
+  "questions_ouvertes": [
+   "Quelles sont ses dates de naissance et de mort, son parcours exact (Virginia, Carnegie Tech, Penn State) et sa vie après 1943 ?",
+   "Pourquoi et comment quitte-t-il le collège en 1943 ? Est-ce lié à la guerre, aux finances ou à un désaccord ?",
+   "Quelle était sa situation exacte avant 1940 : a-t-il enseigné à BMC vers 1938-39 ou le cours est-il hypothétique ?",
+   "Qui est sa famille (épouse, enfants) et comment vit-elle à Lake Eden ? Sa fille témoigne ; qui est-elle ?",
+   "Quelle était la relation personnelle réelle avec Gropius et Breuer après la vexation de 1940 ?",
+   "Quel rôle réel a-t-il eu dans le choix du site de Lake Eden et dans la conception de la grande grange ?",
+   "Comment ses étudiants (Bliss, Stoller, les deux Thaïlandais de Harvard) le décrivent-ils ?",
+   "Pourquoi n'y a-t-il eu qu'une aile, et quel est le plan complet à quatre ailes (75 pièces) ?",
+   "A-t-il dessiné d'autres bâtiments pour BMC que le Studies Building, la Jalowetz House et la grange ?"
+  ]
+ }
+}

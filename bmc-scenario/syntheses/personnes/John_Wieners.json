@@ -1,0 +1,381 @@
+{
+ "passe": "personnes",
+ "cle": "John Wieners",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 11885,
+  "sortie": 4506,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "John Wieners",
+  "autres_noms": [
+   "John"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant en poésie venu de Boston College uniquement pour étudier avec Olson ; poète homosexuel catholique, figure de la dernière génération littéraire du collège (1955-1956)",
+  "presence": [
+   {
+    "debut": "1955",
+    "fin": "1955",
+    "precision": "annee",
+    "role": "arrivée comme étudiant, conduit par Dana ; loge d'abord à l'arrière des Studies puis chez les Dunn à Streamside",
+    "refs": [
+     "EV-06551",
+     "EV-06578",
+     "PE-00130"
+    ]
+   },
+   {
+    "debut": "1955",
+    "fin": "1956",
+    "precision": "annee",
+    "role": "étudiant en poésie, élève d'Olson puis de Robert Duncan ; membre de la distribution de Medea qui partira à San Francisco",
+    "refs": [
+     "PE-00130",
+     "EV-06771",
+     "EV-06871"
+    ]
+   },
+   {
+    "debut": "1955-04",
+    "fin": "1955-08",
+    "precision": "mois",
+    "role": "départ du collège (période approximative avril-août 1955 selon Rumaker)",
+    "refs": [
+     "EV-06708"
+    ]
+   }
+  ],
+  "description": "Les sources donnent des bornes approximatives et parfois contradictoires : présent vers 1955 (arrivée printemps), séjour jusqu'en 1955 ou 1956 selon les fiches ; il loge à Streamside au printemps 1955 et participe encore à la vie du collège en 1956 (Duncan, orage, Medea).",
+  "portrait_physique": "Jeune homme pâle et mince d'environ 21 ans à son arrivée, presque malnutri (café noir et cigarettes pour tout régime) ; traits fins et rapides comme un oiseau, sourire chaleureux toujours prêt.",
+  "noyau_psychologique": "Un cœur romantique absolu qui vit sa vie amoureuse comme sa vie tout court : pour lui, l'union avec Dana est un mariage pour l'éternité, et la peur de le perdre l'obsède dès la route d'arrivée (Dana muet, dents serrées, sur les cent derniers milles). Catholique de Boston venu chez les « commies and queers », il est assoiffé de maître — conquis par la voix d'Olson à la radio sous l'ouragan Hazel, il se soumet après le savon pédagogique et devient apprent zélé. Sa gayté est encore timide dans ses poèmes, mais l'audace des autres (le baiser dans « Exit 3 ») agit sur lui comme un déclic : il commence à écrire ouvertement son expérience queer.",
+  "blessures": "Le départ de Dana après quelques jours, reparti vers une vie conventionnelle (costume-cravate, plus tard mariage et enfants) ; la sortie du placard avortée à Ma Peak's, où l'incompréhension polie des Dorn brise une confiance naïve ; la honte et la terreur de l'irruption de Jake, qu'il fuit en déménageant à Streamside.",
+  "desirs": "Garder Dana pour toujours (il poursuivra des années durant ce pompier volontaire blond et vigoureux) ; plaire à Olson en tout ; faire de sa vie, même misérable, de la matière poétique ; se trouver des frères queer (Rumaker).",
+  "peurs": "Perdre Dana — peur permanente et fondatrice ; l'exposition publique de son homosexualité, d'où les chuchotements et la prudence ; la violence physique de Jake.",
+  "maniere_d_aimer": "Amoureux obsessionnel et exclusif, le cœur ailleurs même quand un corps est disponible : la tentative charnelle avec Rumaker échoue parce que son cœur est resté à Swampscott. Il aime par identification romantique — aux chanteuses de torch songs droguées ou mortes (Libby Holman, Billie Holiday, Kim Novak dans Jeanne Eagels), aux travailleuses du sexe qu'il romantise, à la femme victime des blues. Avec Rumaker, tendresse animale, enlacements habillés, chaleur sans érotisme.",
+  "rapport_au_pouvoir": "Recherche la soumission à un maître charismatique : converti par Olson, il cherchera un second père en Robert Duncan en 1956. Face à la violence (Jake), il fuit plutôt qu'affronter. Face aux corps proposés (Jake nu), il tient bon par fidélité.",
+  "voix": {
+   "registre": "Accent de Boston dans une voix douce et séduisante ; très silencieux et hésitant en public, courtois et drôle en privé ; gaieté insistante, rire bavard qui désamorce la tension ; susurre sa stupéfaction admirative.",
+   "tics": "Chuchote pour ne pas être entendu quand il parle de choses interdites ; rire « chattering » ; compulse sur ses peines amoureuses en pliant l'oreille de Rumaker.",
+   "exemples_paraphrases": [
+    "Chuchote à Rumaker qu'il ose faire embrasser deux hommes sur la bouche — et le lire à voix haute.",
+    "Murmure, terrifié devant le blessé de la route, que ce blond ressemble à Dana.",
+    "Quatrain lu en classe : c'est étrange avec les femmes, quand elles découvrent qu'on aime les hommes, elles ne te laissent plus t'embrasser sur la bouche."
+   ]
+  },
+  "habitudes": [
+   "Vit de café noir et de cigarettes",
+   "Écrit des poèmes courts et obliques, souvent la nuit même d'un événement (poème sur l'accident de la route)",
+   "Compulse sur ses peines amoureuses auprès de Rumaker",
+   "Idolâtre Edna St. Vincent Millay et les chanteuses de torch songs",
+   "Cherche à plaire à Olson en tout",
+   "Loge à Streamside, entrée arrière"
+  ],
+  "convictions": [
+   "Son union avec Dana est un mariage pour toute l'éternité",
+   "Sa vie amoureuse est sa vie, et donc sa poésie",
+   "L'amour des femmes de blues et de torch songs, surtout droguées ou mortes de drogue",
+   "Dévotion quasi religieuse au maître (Olson, puis Duncan)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "À Boston, entend Olson à la radio pendant l'ouragan Hazel puis à une lecture au Charles Street Meeting House ; immédiatement conquis, décide de descendre à Black Mountain.",
+    "etat_interieur": "Ferveur de converti ; le cœur déjà séparé entre Dana et le maître à venir.",
+    "refs": [
+     "EV-06338"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Arrive à 21 ans, conduit par Dana, qui ne lui adresse pas la parole sur les cent derniers milles ; Dana repart après quelques jours.",
+    "etat_interieur": "Obsession de la perte ; misère amoureuse qui devient matière première de ses poèmes.",
+    "refs": [
+     "EV-06551",
+     "EV-06552"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Test d'initiation : sa critique académique et snob de « The Pipe » est vertement démontée par Olson, qui lui ordonne d'apprendre à lire ; il se soumet et trouve son maître.",
+    "etat_interieur": "Décontenancé mais admiratif ; conversion intellectuelle et affective.",
+    "refs": [
+     "EV-06553",
+     "SC-01769"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Accident sur la route d'Asheville : terrifié par le jeune blond sanglant qui ressemble à Dana, écrit un poème cette nuit-là.",
+    "etat_interieur": "Présage inconscient ; l'horreur transmutée en art dès le lendemain.",
+    "refs": [
+     "EV-06554",
+     "SC-01770"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "mois",
+    "moment": "Fait venir ses amis de Boston Joe et Carol Dunn, qui s'installent à Mountain Stream ; partage la misère (sandwichs de baloney à quatre pour deux) ; tentative charnelle sans conviction avec Rumaker, constat d'amitié.",
+    "etat_interieur": "Plus à l'aise parmi ses compatriotes bostoniens ; cœur toujours à Swampscott.",
+    "refs": [
+     "EV-06555",
+     "EV-06558",
+     "EV-06559",
+     "SC-01772"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Après la lecture d'« Exit 3 », chuchote son admiration à Rumaker pour le baiser entre hommes lu à voix haute ; peu après, introduit ouvertement l'expérience queer dans ses poèmes ; son quatrain sur les femmes déclenche l'étonnement ravi d'Olson en classe.",
+    "etat_interieur": "Seuil de l'audace ; de timide à audacieux, encore hésitant.",
+    "refs": [
+     "EV-06562",
+     "EV-06563",
+     "SC-01773"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Confidence à Ma Peak's avec Rumaker devant Ed et Helene Dorn : incompréhension polie, silence qui tue.",
+    "etat_interieur": "Confiance naïve brisée ; repli.",
+    "refs": [
+     "SC-01715",
+     "EV-06341"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Départ des Dunn pour raisons économiques ; se prend d'affection réciproque pour Ed et surtout Helene Dorn ; fuit Jake (qui parade nu pour le séduire) en montant habiter à Streamside.",
+    "etat_interieur": "Cherche chaleur familiale de substitution ; prudence face à la violence du désir.",
+    "refs": [
+     "EV-06564",
+     "EV-06578",
+     "RE-02710",
+     "RE-02719"
+    ]
+   },
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "moment": "Coorganise avec Rumaker la fête de Streamside — les « deux organisateurs queers » complimentés par Connie — puis vit l'irruption de Jake et la bouteille cassée ; dort enlacé, habillé, avec Rumaker dans le hall ; Olson les surprend à l'aube en cherchant Connie et Chamberlain.",
+    "etat_interieur": "Gai, rieur, organisateur ; terreur figée face à Jake ; chaleur animale et sommeil profond sous l'intrusion d'Olson.",
+    "refs": [
+     "EV-06714",
+     "EV-06715",
+     "EV-06716",
+     "EV-06590",
+     "EV-06591",
+     "SC-01816",
+     "SC-01817",
+     "SC-01783",
+     "RE-02728",
+     "RE-02729"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "annee",
+    "moment": "Toujours au collège au printemps : pique-nique dans le nord, danse sous l'orage ; trouve un second maître en Robert Duncan ; membre de la distribution de Medea jouée les 29-30 août lors des tout derniers jours du collège, puis part avec la troupe pour San Francisco.",
+    "etat_interieur": "Épanouissement poétique et théâtral au moment même où tout s'effondre ; « véritablement charmé » par la montagne.",
+    "refs": [
+     "EV-06771",
+     "EV-06772",
+     "EV-06871",
+     "EV-06767",
+     "SC-01833"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1934",
+    "precision": "annee",
+    "moment": "Grandit à South Boston, nourri aux salles de cinéma obscures et à la tradition queer du grand écran.",
+    "refs": [
+     "PE-00130"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "B.A. à Boston College, éducation catholique rigoureuse ; étudiant ouvertement homosexuel.",
+    "refs": [
+     "PE-00130"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Amant de Dana, pompier volontaire blond et vigoureux de Swampscott, Massachusetts.",
+    "refs": [
+     "PE-00130",
+     "EV-06551"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Découverte d'Olson à la radio pendant l'ouragan Hazel, puis à la lecture du Charles Street Meeting House.",
+    "refs": [
+     "EV-06338"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1956",
+    "precision": "annee",
+    "moment": "Avec la troupe de Medea partie à San Francisco ; la troupe se disperse, beaucoup traînent dans le bar de Knute Stiles et Leo Krikorian.",
+    "refs": [
+     "EV-06767",
+     "EV-06871",
+     "PE-00130"
+    ]
+   },
+   {
+    "date": "1958",
+    "precision": "annee",
+    "moment": "Dans un hôtel bon marché de North Beach, San Francisco : The Hotel Wentley Poems, couronnement de la transmutation de son « soap opera queer » en poèmes ; « A poem for cocksuckers » (daté du 20 juin 1958, publié censuré) et « A poem for the old man » qui enregistre la perte définitive de Dana ; retrouvailles temporaires avec Dana.",
+    "refs": [
+     "OE-03178",
+     "OE-03179",
+     "OE-03249",
+     "OE-03250",
+     "EV-06996",
+     "PE-00130",
+     "RE-02709"
+    ]
+   },
+   {
+    "date": "1964",
+    "precision": "annee",
+    "moment": "Publication d'Ace of Pentacles, qui reprend le quatrain « Strange with women… » remarqué par Olson en classe à Black Mountain.",
+    "refs": [
+     "OE-03625",
+     "OE-03626"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Frôlera plus tard la mort par drogue ; entretiens avec Charley Shively vers 1973-1977.",
+    "refs": [
+     "PE-00130"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Dana",
+    "nature": "amour fondateur, mariage vécu comme éternel",
+    "evolution": "Arrivée silencieuse et glaciale, départ après quelques jours ; cœur de John reste à Swampscott ; reprise temporaire à San Francisco, puis perte définitive enregistrée dans « A poem for the old man » (20 juin 1958) ; Dana finira marié avec des enfants.",
+    "refs": [
+     "RE-02702",
+     "RE-02709",
+     "EV-06551",
+     "EV-06552",
+     "OE-03249"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "mentorat, dévotion de disciple",
+    "evolution": "Conquis à distance (radio, ouragan Hazel), soumis après le savon sur « The Pipe », devient apprent zèle cherchant à plaire en tout ; Olson lui ouvre esprit et cœur ; son quatrain queer suscite un étonnement ravi.",
+    "refs": [
+     "RE-02701",
+     "EV-06338",
+     "EV-06553",
+     "EV-06563"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker",
+    "nature": "amitié queer, complicité de dévotion à Olson, tendresse non érotique",
+    "evolution": "Confidences sur Dana, tentative charnelle avortée (leur attirance « contourne le charnel »), coorganisation de la fête, nuit enlacés dans le hall de Streamside ; son départ laisse Rumaker seul « out » au collège.",
+    "refs": [
+     "RE-02703",
+     "RE-02708",
+     "RE-02728",
+     "RE-02729",
+     "EV-06559",
+     "EV-06590",
+     "EV-06708"
+    ]
+   },
+   {
+    "avec": "Ed et Helene Dorn",
+    "nature": "admiration mutuelle puis affection, surtout avec Helene",
+    "evolution": "Shine réciproque pour Ed après le départ des Dunn ; refroidi par l'incompréhension d'Ed lors de la confidence à Ma Peak's ; affection profonde pour Helene, lui qui aime les femmes torch-song.",
+    "refs": [
+     "RE-02638",
+     "RE-02710",
+     "SC-01715",
+     "EV-06564"
+    ]
+   },
+   {
+    "avec": "Jake",
+    "nature": "poursuite non désirée, menace",
+    "evolution": "Jake parade nu pour le séduire ; John, épris de Dana, refuse et déménage à Streamside notamment pour le fuir ; Jake finit par partir brusquement.",
+    "refs": [
+     "RE-02719",
+     "EV-06578",
+     "EV-06580"
+    ]
+   },
+   {
+    "avec": "Robert Duncan",
+    "nature": "second mentorat",
+    "evolution": "Duncan devient son second maître en 1956 ; John jouera dans sa Medea aux derniers jours du collège.",
+    "refs": [
+     "EV-06771",
+     "EV-06871"
+    ]
+   },
+   {
+    "avec": "Joe et Carol Dunn",
+    "nature": "amitié bostonienne",
+    "evolution": "Il les fait venir au collège après le départ de Dana ; ils repartent pour raisons économiques, privant John de son enclave bostonienne.",
+    "refs": [
+     "EV-06555",
+     "EV-06564",
+     "SC-01772"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Absence de Wieners dans l'anthologie d'Allen et dans Black Mountain Review alors qu'il fut bien au collège — discordance entre le record documentaire et le témoignage direct.",
+   "Bornes de présence incertaines : les fiches donnent « vers 1954-1955 » puis retour à Boston au printemps 1955, un départ entre avril et août 1955, mais aussi une présence en 1956 (Duncan, orage, Medea) — sans qu'on sache s'il s'agit de séjours discontinus.",
+   "Rumeur d'une petite amie à son retour à Boston en 1955, en tension avec son homosexualité affichée."
+  ],
+  "situations_revelatrices": [
+   "Chuchotements admiratifs après une lecture publique : là où il n'ose pas, il vénère l'audace des autres.",
+   "La nuit de création poétique immédiate après un choc (accident, fête, perte) : l'art comme exutoire.",
+   "Les scènes de misère partagée (sandwichs, faim) où sa gaieté insistante couvre la gêne.",
+   "Les moments de soumission au maître : le savon d'Olson, la quête constante d'approbation.",
+   "La confrontation à la violence queer retournée (Jake) : figé, fuyant, fidèle."
+  ],
+  "citations": [
+   "CI-03136",
+   "CI-03286",
+   "CI-03288"
+  ],
+  "questions_ouvertes": [
+   "Dates et circonstances exactes de ses allers-retours entre Black Mountain et Boston entre 1955 et 1956.",
+   "Ce qui s'est réellement passé entre lui et Dana à San Francisco en 1958, au-delà du poème.",
+   "Sa relation précise avec Robert Duncan comme second maître : contenu du mentorat, traces dans les poèmes.",
+   "Sa vie immédiate après le collège jusqu'en 1958 (notamment le rôle supposé de la « petite amie » de la rumeur bostonnaise).",
+   "Dates de naissance et de mort non fournies par les fiches."
+  ]
+ }
+}

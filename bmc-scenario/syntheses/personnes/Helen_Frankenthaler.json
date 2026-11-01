@@ -1,0 +1,253 @@
+{
+ "passe": "personnes",
+ "cle": "Helen Frankenthaler",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 5106,
+  "sortie": 5034,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Helen Frankenthaler",
+  "autres_noms": [
+   "Helen",
+   "Frankenthaler"
+  ],
+  "dates_de_vie": "Naissance indiquée seulement par une ancre ≈1936 (date déduite, non fiable : aucune fiche ne donne sa naissance ni sa mort). Diplômée de Bennington en 1949 ; carrière longue après BMC, sans dates précises dans les fiches.",
+  "statut_bmc": "Visiteuse de passage à l'été 1950, venue pour son compagnon Clement Greenberg, enseignant d'été. Elle ne reçoit aucune nomination et est citée parmi les femmes « clandestines » du corps enseignant (Molesworth). Ni étudiante ni enseignante attestée : elle est invitée, peintre et compagne.",
+  "presence": [
+   {
+    "debut": "1950-06",
+    "fin": "1950-08",
+    "role": "Visiteuse, compagne de Clement Greenberg, pour un séjour de quelques jours à l'été 1950. Pas de nomination officielle. Les fiches donnent « été 1950 » : les mois sont une déduction, pas une donnée attestée.",
+    "refs": [
+     "PE-00199",
+     "EV-04934",
+     "EV-05052",
+     "RE-01931",
+     "EV-02521",
+     "QU-01308"
+    ]
+   }
+  ],
+  "portrait_physique": "Les fiches ne la décrivent pas physiquement. Seuls détails visuels : elle apparaît sur une photo, la tête sous la cascade du trou de baignade avec Greenberg (cliché probablement de Cora Ward). Elle ne se montre pas à l'aise dans le décor rustique : peur des serpents, refus du camping. Tout portrait physique serait à inventer.",
+  "noyau_psychologique": "Jeune peintre d'une famille aisée, formée à Bennington, déjà au cœur du milieu new-yorkais. Elle regarde avec ironie et franchise, et se montre peu complaisante envers la rudesse du Sud. Elle est attachée à son confort, à son mode de vie new-yorkais et à l'ordre de la Nouvelle-Angleterre. Elle documente ses souvenirs en photographe (elle garde les clichés et les commente). Sous la réserve mondaine perce une sensibilité de peintre : elle voit les choses en tableaux (les grottes en 1953). Déduction : une femme qui accompagne un homme influent tout en construisant son propre œuvre.",
+  "blessures": "Aucune blessure attestée dans les fiches. Piste déduite : la position d'accompagnatrice, sans statut ni nomination, à BMC comme ailleurs. Cela reste une interprétation du contexte (EV-02521), pas un fait la concernant personnellement.",
+  "desirs": "Attesté : voir Greenberg, produire sur papier pendant son bref séjour. Déduit à partir de la suite : être reconnue comme peintre (enseignement à Yale, Princeton, Hunter ; œuvre au MMA et au MOMA).",
+  "peurs": "Attesté : serpents venimeux la nuit sur la route, vie de camping (« je ne suis pas très bonne campeuse »). Les serpents la dissuadent de prolonger son séjour. Elle trouve aussi les gens « sinistres » à l'austérité du lieu.",
+  "maniere_d_aimer": "Relation de cinq ans avec Clement Greenberg avant son mariage avec Robert Motherwell. Elle le suit à BMC, partage cocktails, baignades et excursions. Elle lui écrit en 1953 des lettres où elle confie ses impressions de peintre (grottes). Ce lien est amoureux et intellectuel. Les fiches ne disent rien de la fin de la relation, sinon qu'elle épouse ensuite Motherwell.",
+  "rapport_au_pouvoir": "Elle évolue à côté du pouvoir critique : Greenberg, dont le formalisme dominera ensuite le récit de l'art de mid-century (EV-05052). Elle-même n'a ici aucun poste. Elle signe la pétition de la grève des artistes locataires (1961), ce qui montre un engagement solidaire discret (EV-07352). Le reste est déduction.",
+  "voix": {
+   "registre": "Franc, ironique, concret, avec un œil de peintre ; ton de lettre à un amant-critique, puis de souvenir rétrospectif nuancé. Les fiches ne donnent que quelques paroles, tournées vers la comparaison et le jugement.",
+   "tics": "Comparaisons de tableaux et de supports (« toile non encollée ») ; adjectifs tranchés sur les gens et les lieux (« sinistres », « morne et fripée ») ; aveu de limites personnelles (« pas très bonne campeuse »).",
+   "exemples_paraphrases": [
+    "Les grottes, c'est comme un seul immense tableau sur toile non encollée, et beaucoup des miens ressemblent à ça (lettre à Greenberg, 1953).",
+    "Je ne suis pas vraiment faite pour le camping, avec ces serpents sur la route la nuit, je ne vais pas rester.",
+    "Plus tard : la bohème du Sud était morne et fripée, celle du Vermont nette ; chacune reflète son climat, et pourtant ces jours-là étaient instructifs, productifs, réels."
+   ]
+  },
+  "habitudes": [
+   "Travaille sur papier, beaucoup, même pendant un bref séjour.",
+   "Prend et garde des photos de ses séjours, qu'elle commente plus tard.",
+   "Fréquente les verres de fin de journée dans le bureau de Greenberg.",
+   "À New York (fiche EV-04137, 1948) : sorties au Cedar Tavern avec Elaine de Kooning, Greenberg et les Phillips.",
+   "Voyage en dehors des cercles familiers : Provincetown, puis le Sud, hébergée chez la colocatrice Gaby Rodgers."
+  ],
+  "convictions": [
+   "Les bohèmes régionales sont chacune l'écho de leur climat, sans hiérarchie de valeur créative (ID-02192).",
+   "L'art pariétal annonce la peinture abstraite moderne : tout y ressemble à ses propres tableaux (CI-02963).",
+   "Déduit : la vie d'artiste doit être « réelle » et productive, même si elle regrette parfois la rudesse des lieux."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1950",
+    "moment": "Arrivée après Provincetown et New York : passage chez Gaby Rodgers, puis montée à BMC pour retrouver Greenberg.",
+    "etat_interieur": "Curiosité et confiance de visiteuse privilégiée, mais choc devant le dépouillement : électricité rationnée, bougies, essence rare.",
+    "refs": [
+     "EV-04934",
+     "PE-00199",
+     "RE-01931"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Vie de séjour : cocktails au bureau de Greenberg, baignade sous la cascade, dessins sur papier, excursion « luxe » avec dîner et jazz de George Shearing.",
+    "etat_interieur": "Elle s'intègre au groupe de passage (Stamos, Cora Ward) et retrouve un peu de l'été new-yorkais ; l'élégance de la sortie contraste avec les nuits de BMC. Elle est productive.",
+    "refs": [
+     "SC-01261",
+     "EV-04936",
+     "EV-04935",
+     "QU-01308"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Départ écourté : serpents venimeux sur la route la nuit, vie rustique et gens trouvés « sinistres ».",
+    "etat_interieur": "Peur concrète et rejet du camping ; elle repart sans s'attacher au lieu. Elle en tirera plus tard un récit, « A Few Days at Black Mountain ».",
+    "refs": [
+     "EV-04934",
+     "PE-00199"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Famille aisée ; naissance et enfance non datées (une ancre ≈1936 est déduite, à manier avec prudence).",
+    "refs": [
+     "PE-00199",
+     "EV-02495"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Diplômée de Bennington College (Vermont) ; elle se dit ensuite « bohémienne de la Nouvelle-Angleterre ».",
+    "refs": [
+     "PE-00199"
+    ]
+   },
+   {
+    "date": "1940/1950",
+    "moment": "Relation de cinq ans avec Clement Greenberg, dans le milieu new-yorkais (Cedar Tavern avec Elaine de Kooning et d'autres). La fiche donne les années 1940-1950 : déduction large.",
+    "refs": [
+     "RE-01249",
+     "EV-04137"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Colocataire à New York de l'actrice Gaby Rodgers ; quelques semaines à Provincetown avant de descendre au Sud.",
+    "refs": [
+     "PE-00199",
+     "EV-04934"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1953",
+    "moment": "Visite des grottes : elle écrit à Greenberg, son amant, que tout lui rappelle ses tableaux (« one huge painting on unsized canvas »). Cette lettre sera mise en écho par Curtis avec la visite d'Elaine de Kooning en 1983.",
+    "refs": [
+     "PE-00199",
+     "CI-02963",
+     "EC-03571",
+     "RE-03244"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Elle épouse le peintre Robert Motherwell après son départ de BMC et la fin de sa relation avec Greenberg. Date du mariage non donnée.",
+    "refs": [
+     "RE-01006",
+     "EV-02495",
+     "RE-01249"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Enseigne la peinture à Yale, Princeton, Hunter College ; renommée internationale, œuvre au MMA et au MOMA. Dates non précisées.",
+    "refs": [
+     "EV-02495",
+     "PE-00199"
+    ]
+   },
+   {
+    "date": "1961",
+    "moment": "Elle figure parmi les signataires de la pétition de grève de l'Artist Tenants Association, à New York (Elaine de Kooning s'y oppose).",
+    "refs": [
+     "EV-07352"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Rétrospectivement, elle évoque ces journées BMC comme « instructives, productives, réelles », envolées avec le vent du début des années 50.",
+    "refs": [
+     "PE-00199",
+     "ID-02192"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Clement Greenberg",
+    "nature": "Amour ; compagnon, critique influent ; raison de sa venue à BMC.",
+    "evolution": "Cinq ans de relation avant son mariage avec Motherwell ; ils s'écrivent encore en 1953 (elle l'appelle alors son amant dans la fiche agrégée, ce qui pose une question de chronologie). Il l'amène à BMC comme compagne sans nomination.",
+    "refs": [
+     "RE-01249",
+     "RE-01931",
+     "RE-02057",
+     "SC-01261",
+     "PE-00199"
+    ]
+   },
+   {
+    "avec": "Robert Motherwell",
+    "nature": "Mariage, après BMC.",
+    "evolution": "Aucun détail sur leur rencontre ou la durée du mariage dans les fiches.",
+    "refs": [
+     "RE-01006",
+     "EV-02495"
+    ]
+   },
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "Amie du cercle new-yorkais ; sorties au Cedar Tavern ; mise en écho avec Elaine à propos des grottes.",
+    "evolution": "Compagnes de bars en 1948 ; en 1961 elles divergent sur la grève des artistes locataires (Frankenthaler signe, Elaine s'y oppose). Dans les années 1980, Elaine admire les grottes de façon parallèle. La fiche RE-03244 est ambiguë sur l'admiration.",
+    "refs": [
+     "EV-04137",
+     "EV-07352",
+     "RE-03244",
+     "EC-03571"
+    ]
+   },
+   {
+    "avec": "Gaby Rodgers",
+    "nature": "Colocataire à New York ; actrice.",
+    "evolution": "Lui sert d'étape avant BMC (Abington Theater).",
+    "refs": [
+     "EV-04934",
+     "PE-00199"
+    ]
+   },
+   {
+    "avec": "Theodore Stamos et Cora Ward",
+    "nature": "Présents au groupe de cocktails ; Ward probable photographe.",
+    "evolution": "Rencontres ponctuelles pendant l'été 1950.",
+    "refs": [
+     "SC-01261",
+     "EV-04936"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La fiche agrégée dit « 1953, écrit à son amant Clement Greenberg » alors qu'elle l'aurait quitté pour Motherwell : les fiches parlent de cinq ans de relation (années 1940-1950, imprécis) mais le mariage est daté seulement « après BMC ». Chronologie à éclaircir.",
+   "Les dates de naissance et du mariage avec Motherwell sont données en ancre ≈1936→1990 : cette ancre est une déduction, pas une date de vie.",
+   "Elle serait venue à BMC « pour visiter Clem » (Lane), tandis que Molesworth parle d'une visite « fortuite » du couple. Les deux ne s'opposent pas nécessairement, mais l'accent diffère.",
+   "Les fiches la décrivent comme « compagne » non nommée à BMC (Molesworth), alors que Lane la montre active : œuvres sur papier et vie sociale. Pas de contradiction stricte, mais deux statuts."
+  ],
+  "situations_revelatrices": [
+   "Nuit rustique : bougies, lampes de poche, serpents sur la route — elle révèle sa peur et son goût du confort.",
+   "Cocktails au bureau de Greenberg, entre amis et gens de passage : son rôle de compagne et son regard ironique.",
+   "Baignade sous la cascade avec Greenberg : intimité et liberté du corps, photo gardée.",
+   "Dîner luxueux avec George Shearing : elle compare l'élégance du jazz au dépouillement de BMC.",
+   "Visite de grottes en 1953 : l'œil de peintre qui voit des tableaux partout.",
+   "Décision de partir malgré l'attachement à Greenberg : arbitrage entre loyauté amoureuse et confort."
+  ],
+  "citations": [
+   "CI-02963",
+   "ID-02192",
+   "EV-04934",
+   "PE-00199"
+  ],
+  "questions_ouvertes": [
+   "Quand et comment la relation avec Greenberg a-t-elle pris fin, et dans quelles circonstances a-t-elle rencontré Motherwell ?",
+   "Quelles œuvres sur papier a-t-elle réalisées à BMC, et que sont-elles devenues ?",
+   "Quel rôle a joué son milieu familial aisé dans ses choix ?",
+   "Comment a-t-elle perçu son absence de nomination à BMC ?",
+   "Qui étaient les autres personnes qu'elle a rencontrées à BMC en 1950, et quels échanges eurent lieu avec elles ?",
+   "Que contient précisément le texte « A Few Days at Black Mountain » (date, forme, ton) ?",
+   "Quelles sont ses dates de naissance et de mort ?"
+  ]
+ }
+}

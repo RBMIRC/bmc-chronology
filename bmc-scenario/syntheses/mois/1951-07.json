@@ -1,0 +1,475 @@
+{
+ "passe": "mois",
+ "cle": "1951-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 17753,
+  "sortie": 21677,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1951-07",
+  "session": "Session d'été 1951 (juin à août selon les fiches), après le départ du printemps",
+  "saison_et_climat": "Plein été en Caroline du Nord. Les fiches ne décrivent pas le climat ; seule une « soirée d'été » est évoquée, avec des oisifs qui enchérissent en ville (SC-01460). Pas de détail météo attesté.",
+  "situation": "Le collège sort de la ronde de factionnalisme du printemps : le groupe qui l'avait reconstruit depuis 1949 est parti, et la faculté résidente est réduite à presque rien. Olson est revenu du Yucatan et tient la place centrale de fait, sans titre officiel (recteur seulement en 1954 selon Molesworth). L'été est une session de visiteurs et d'invités (Shahn, Motherwell, Callahan, Siskind, Siegel, Williams, Rauschenberg avec Twombly) qui fait du collège un laboratoire d'arts croisés, mais le budget est fragile et l'organisation désorganisée.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ben Shahn",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Motherwell",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Katherine Litz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Harry Callahan",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Aaron Siskind",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jonathan Williams",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Alvin, neveu du cuisinier (Lipsey dans la synthèse, Lustig dans SC-01460)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nicholas Cernovich, étudiant danseur",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "David Tudor",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hazel Larsen Archer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Siegel (deux semaines)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Robert Rauschenberg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cy Twombly",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards (présence estivale contestée)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Andy Oates, premier diplômé en photographie",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lou Harrison (arrivée en août, œuvre composée cet été)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Susan Weil (brève visite)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Harding",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mildred Harding",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Teri Helen Dick, photographe de la danse de Litz",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1951-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Un blueprint de Rauschenberg et Susan Weil est montré au MoMA dans Abstraction in Photography, sous le titre Blueprint: Photogram for Mural Decoration, de mai à juillet selon la version française (mai-juin en allemand). Une fiche conteste l'attribution de ce blueprint.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05514",
+     "EV-05515"
+    ]
+   },
+   {
+    "date": "1951-06",
+    "precision": "session",
+    "ce_qui_arrive": "Olson, de retour du Yucatan, lit « Human Universe » devant une cinquantaine de membres de la session d'été. L'essai paraîtra dans Origin n°4 puis dans les Mayan Letters (1954).",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01457",
+     "EV-05520"
+    ]
+   },
+   {
+    "date": "1951-06",
+    "precision": "session",
+    "ce_qui_arrive": "Pendant la session, Litz danse The Glyph, sur une partition de Harrison, avec Tudor au piano ; Shahn peint A Glyph for Charles et conçoit décors et motif pour Cernovich. C'est le Glyph Exchange.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05521",
+     "EC-02777",
+     "EC-02779"
+    ]
+   },
+   {
+    "date": "1951-06",
+    "precision": "session",
+    "ce_qui_arrive": "Session d'été avec Shahn et Motherwell ; Olson connaît Shahn de l'Office of War Information. Dawson qualifie l'été d'étrange et difficile.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05525"
+    ]
+   },
+   {
+    "date": "1951-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Jonathan Williams arrive à Black Mountain, un mois après sa visite à Henry Miller à Big Sur. Le lien avec Olson commence.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05526"
+    ]
+   },
+   {
+    "date": "1951-07",
+    "precision": "semaine",
+    "ce_qui_arrive": "Ben Shahn arrive en fin de mois pour quatre semaines d'enseignement de peinture et de conférences, et collabore avec les danseurs.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05531"
+    ]
+   },
+   {
+    "date": "1951-07-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Shahn donne au réfectoire la conférence « Aspects of Realism » : le même tableau vu par un psychologue, un physicien, un critique. Transcription conservée à Asheville.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05534",
+     "SC-01461"
+    ]
+   },
+   {
+    "date": "1951-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson assiste à une vente aux enchères en ville, où Alvin dit « like a race » ; il en tire le poème « Glyph (For Alvin & the Shahns) ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05532",
+     "SC-01460"
+    ]
+   },
+   {
+    "date": "1951-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson achève deux pièces dansées, Apollonius of Tyana et The Born Dancer, et fait imprimer Apollonius au print shop.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05533"
+    ]
+   },
+   {
+    "date": "1951-07",
+    "precision": "semaine",
+    "ce_qui_arrive": "Naissance mi-juillet du fils de Rauschenberg et Susan Weil, Christopher, à New York. Le père reste dans l'ombre du collège.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1951-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Rauschenberg revient à Black Mountain avec Cy Twombly, laissant femme et bébé à New York. Weil le rejoint brièvement ; le mariage se défait et Rauschenberg tombe amoureux de Twombly.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02781",
+     "EC-02780"
+    ]
+   },
+   {
+    "date": "1951-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Callahan et Siskind enseignent en photographie juillet-août, invités par Hazel Larsen Archer. Premier travail commun étendu, Siskind découvre une approche libre et accepte le poste de l'Institute of Design.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05530"
+    ]
+   },
+   {
+    "date": "1951-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Twombly peint des abstractions noir et blanc qu'il recouvrira plus tard.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02780"
+    ]
+   },
+   {
+    "date": "1951-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Andy Oates devient le premier diplômé en photographie du collège, examiné par Steichen.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les repas se prennent au réfectoire, lieu des conférences improvisées. La cuisine est tenue par des employés dont Alvin est le neveu. Les étudiants travaillent en ateliers : peinture (Shahn, Motherwell), photo (Callahan, Siskind), danse et musique (Litz, Tudor, Harrison), imprimerie (Olson, Williams). Les modèles manquent, et les étudiants posent nus pour la classe de dessin. Les sorties vont vers Asheville (magasin d'alcool, ABC store). Callahan se souvient plus tard de repas maigres et de salaires presque nuls, mais c'est un souvenir rétrospectif, non daté. Les finances sont tendues : Olson réclame des fonds et l'hiver a déjà épuisé les stocks, selon ce souvenir.",
+  "tensions": [
+   "Factionnalisme resté vif après le départ du groupe de 1949 ; Duberman note des alignements inextricables.",
+   "Olson, sans titre officiel, impose son style ; Huss le juge piètre administrateur, et certains le voient en guru entouré de disciples qui singent son orthographe.",
+   "Le statut d'Olson : « élu recteur vite » selon Chaddock, recteur officiel seulement en 1954 selon Molesworth.",
+   "Tension raciale palpable à la vente aux enchères, où un garçon noir est le centre du regard des acheteurs blancs ; le mot « race » devient un sujet de poème.",
+   "Esthétique : Shahn, réaliste social, face aux abstraits de l'été, Motherwell en tête.",
+   "Vie privée éclatée : le mariage Rauschenberg/Weil se défait pendant que Rauschenberg vit avec Twombly ; Bill Levi a quitté M.C. Richards, période basse qu'on ne mentionne pas.",
+   "Finances : déficit structurel, salaires presque nuls, nourriture rationnée.",
+   "Richards est censée partir pour l'été, mais elle est active cet été (cirque, traduction d'Artaud) ; Lane la dit partie en 1951, Dawson la fait enseigner Ulysses en automne."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Olson face aux cinquante",
+    "date": "1951-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Charles Olson",
+     "auditeurs de la session d'été"
+    ],
+    "deroule": "Olson lit « Human Universe » devant une cinquantaine de personnes : de Socrate aux camps, l'expérience interrompue, la chair commune des Mayas dans les bus. Il parle d'une action « absolutely interfered with » et de la touche comme loi naturelle de la chair.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01457",
+     "EV-05520"
+    ]
+   },
+   {
+    "titre": "La vente aux enchères",
+    "date": "1951-07",
+    "lieu": "ville de Black Mountain",
+    "personnages": [
+     "Charles Olson",
+     "Alvin (neveu du cuisinier, nom discordant)",
+     "acheteurs du Sud",
+     "participants de la session"
+    ],
+    "deroule": "Olson se tient dans l'encadrement de la porte, à côté d'Alvin. Le garçon franchit le seuil, sa voix attire les regards blancs. Une pièce d'argent passe de main en main pour en sentir le poids ; les acheteurs enchérissent dollar par dollar. Alvin dit « like a race », et Olson doute d'avoir bien entendu. Le lieu est trop éclairé, les sièges moelleux, la tension raciale palpable.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01460",
+     "EV-05532"
+    ]
+   },
+   {
+    "titre": "Shahn au réfectoire",
+    "date": "1951-07-29",
+    "lieu": "réfectoire de Black Mountain College",
+    "personnages": [
+     "Ben Shahn",
+     "communauté réunie pour le repas"
+    ],
+    "deroule": "Dans la salle à manger ordinaire, Shahn improvise les regards d'un psychologue, d'un physicien, d'un critique sur un même tableau, et définit le réalisme comme recherche sincère de la vérité dans le cadre de ses propres valeurs.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01461",
+     "EV-05534"
+    ]
+   },
+   {
+    "titre": "Le Glyph dansé par Litz",
+    "date": "1951-06",
+    "lieu": "Black Mountain College (lieu précis non donné)",
+    "personnages": [
+     "Katherine Litz",
+     "David Tudor",
+     "Lou Harrison (compositeur)"
+    ],
+    "deroule": "Solo de neuf minutes : Litz apparaît et disparaît derrière un panneau de 4 x 8 pieds, sur la partition de Harrison (piano préparé, cloches, claves, diapason, peut-être un gong). Tudor joue au piano.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05521"
+    ]
+   },
+   {
+    "titre": "Shahn peint le corps de Cernovich",
+    "date": "1951-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Ben Shahn",
+     "Nicholas Cernovich"
+    ],
+    "deroule": "Shahn trace un motif directement sur le corps de l'étudiant danseur, qui prolonge le Glyph. La scène est décrite de façon brève dans les sources, les détails restent à imaginer.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05521"
+    ]
+   },
+   {
+    "titre": "Pierres sur la toile goudronnée",
+    "date": "1951-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Robert Rauschenberg",
+     "Cy Twombly",
+     "Robert Motherwell (sous son œil)"
+    ],
+    "deroule": "Rauschenberg et Twombly jettent des cailloux sur une toile goudronnée. Faute de modèle, ils posent nus pour la classe de dessin. Date approximative, rapportée sans jour précis.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02780",
+     "EC-02781"
+    ]
+   },
+   {
+    "titre": "Callahan, Siskind et la photographie libre",
+    "date": "1951-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Harry Callahan",
+     "Aaron Siskind",
+     "Hazel Larsen Archer",
+     "Siegel"
+    ],
+    "deroule": "Les deux photographes enseignent côte à côte juillet-août. Callahan trouve le collège plus libre et démocratique que l'Institute of Design, malgré l'administration désorganisée. Siskind y accepte son poste à Chicago.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05530"
+    ]
+   },
+   {
+    "titre": "Williams et Harrison au magasin d'alcool d'Asheville",
+    "date": "1951-07",
+    "lieu": "Asheville (ABC store)",
+    "personnages": [
+     "Jonathan Williams",
+     "Lou Harrison"
+    ],
+    "deroule": "Williams conduit à Asheville pour le magasin d'alcool d'État ; le début de leur amitié passe par ces sorties. Date approximative.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02650"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Shahn au réfectoire, fin juillet, quand il rappelle sa collaboration avec Olson",
+    "vers_date": "1940",
+    "vers": "Office of War Information à Washington : c'est là que naît l'amitié qui mène à l'échange de glyphes et à l'invitation de Shahn.",
+    "refs": [
+     "EC-02777",
+     "EV-05531"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Williams conduit à Asheville au cours de l'été",
+    "vers_date": "1949-02",
+    "vers": "Town Hall : Williams découvre Harrison à la création de la Sonate d'Ives, deux ans avant l'amitié de Black Mountain.",
+    "refs": [
+     "EC-02650"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Olson lit « Human Universe » au retour du Yucatan",
+    "vers_date": "1951-02",
+    "vers": "Départ d'Olson pour le Yucatan, où il passe quatre ou cinq mois à fouiller tessons et pierre gravée, et écrit les Mayan Letters. La date du départ varie selon les sources.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Litz danse The Glyph en solo cet été",
+    "vers_date": "1977-09-04",
+    "vers": "Reprise de The Glyph au New York Dance Festival, Central Park, documentée en vidéo.",
+    "refs": [
+     "EC-02779"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le dessin de Shahn pour Molesworth, perdu aujourd'hui",
+    "vers_date": "1966",
+    "vers": "Le dessin est accroché derrière Olson chez lui à Gloucester, visible dans le film de Levertov et Olson.",
+    "refs": [
+     "EC-02778"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La conférence et les glyphes de Shahn cet été",
+    "vers_date": "1954",
+    "vers": "Invitation à représenter les États-Unis à la Biennale de Venise, et tournant palimpseste dans sa peinture.",
+    "refs": [
+     "EV-05531"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Siskind accepte le poste de l'Institute of Design cet été",
+    "vers_date": "1951",
+    "vers": "Arrivée à Chicago, prévue pour l'automne selon une fiche, un an plus tard selon une autre.",
+    "refs": [
+     "EV-05530"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rauschenberg écrit à Betty Parsons depuis Black Mountain et peint ses White Paintings",
+    "vers_date": "1999",
+    "vers": "Rauschenberg, interviewé, affirme n'avoir jamais dévié de la lecture édénique de ses White Paintings.",
+    "refs": [
+     "EC-02757"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Olson enseigne l'écriture glyphique et lit Human Universe",
+    "vers_date": "1970",
+    "vers": "Deuil de Williams devant la tombe d'Olson à Gloucester, dans le cimetière puritain parmi les pêcheurs portugais.",
+    "refs": [
+     "EC-02652"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Twombly peint ses abstractions noir et blanc à Black Mountain",
+    "vers_date": null,
+    "vers": "Twombly recouvrira plus tard la plupart de ces premières peintures.",
+    "refs": [
+     "EC-02780"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le mot « race » comme abstraction appliquée à un corps vivant (vente aux enchères, poème Glyph)",
+   "Le glyphe comme modèle d'écriture et de corps (Olson, Shahn, Litz)",
+   "Le palimpseste (Shahn) et la trace effacée (Twombly recouvre, Rauschenberg efface)",
+   "L'argent et son poids (pièce qu'on se passe, enchères dollar par dollar, déficit)",
+   "La photographie comme pratique libre contre l'institution (Callahan, Siskind)",
+   "L'échange entre disciplines : danse, musique, peinture, poésie dans une même soirée",
+   "Le collège comme polis en train de mourir et de renaître (Olson)",
+   "L'expérience directe et le faire : « for use, now »"
+  ],
+  "lacunes": "Aucune date précise par jour sauf la conférence de Shahn (29 juillet). Les dates des séjours de Lou Harrison (août ?), Siegel, Oates et Siskind restent floues. Divergences : Lane met Cage au dîner d'été, Harris le dit absent. Le nom d'Alvin varie (Lipsey, Lustig, Jack Lipsey). L'attribution et la date du blueprint au MoMA sont contestées (mai-juillet ou mai-juin), et la publication dans Life varie (19 ou 9 avril). Le statut exact de Richards cet été est incertain. Les éléments tirés de la synthèse de chapitre n'ont pas d'identifiant de fiche, d'où les refs vides. Le lieu précis des représentations de danse n'est pas donné. Rien sur le temps qu'il fait, ni sur le quotidien jour par jour."
+ }
+}

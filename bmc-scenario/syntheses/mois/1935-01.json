@@ -1,0 +1,246 @@
+{
+ "passe": "mois",
+ "cle": "1935-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4121,
+  "sortie": 15695,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1935-01",
+  "session": "Deuxième année du collège (année scolaire 1934-35). Les fiches ne précisent ni trimestres ni sessions pour ce mois.",
+  "saison_et_climat": "Plein hiver en montagne, dans la région d'Asheville évoquée par les fiches (déduit, non décrit). Contraste avec la chaleur de La Havane, où Josef et Anni se trouvent jusqu'au 16 janvier.",
+  "situation": "Le collège est dans sa deuxième année et vit de visibilité naissante, d'argent tendu et de solidarité étudiante. Josef Albers est à Cuba jusqu'au 16 janvier, puis revient. Son exposition de quinze gravures à l'Addison Gallery d'Andover est ouverte ce mois-ci : la presse en a parlé brièvement, sans critique, et Sawyer reste son seul soutien en Nouvelle-Angleterre. Un article paraît dans Arts and Decorations, et les étudiants ont réuni 816 $ au 14 janvier pour une souscription liée aux démêlés avec Rollins. Rice est probablement au centre de la vie du collège, mais les fiches ne le placent pas explicitement ce mois-ci. Les arrivées de septembre 1935 (Knickerbocker, Farrell, Fiorillo, Sly, les Moellenhoff, Seasongood) et celle de Wunsch n'ont pas encore eu lieu, ou leur date est inconnue.",
+  "presents_probables": [
+   {
+    "nom": "Rice (directeur, figure centrale du collège)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Josef Albers (de retour de Cuba le 16 janvier)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted et Bobbie Dreier (revenus de Cuba avec les Albers)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Joe Martin",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Evarts (musique)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "les étudiants (collecte de 816 $ au 14 janvier)",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1934-12-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Départ des Albers avec Ted et Bobbie Dreier, en voiture puis par ferry de Miami vers La Havane, sur invitation de Clara Porset",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02360",
+     "EV-02358"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Cycle de trois conférences de Josef au Lyceum de La Havane, fondé en 1928 comme club social de femmes",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02360",
+     "EV-02358"
+    ]
+   },
+   {
+    "date": "1935-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Première exposition personnelle de Josef à l'Addison Gallery d'Andover : quinze gravures, brèves dans la presse, aucune critique",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02451"
+    ]
+   },
+   {
+    "date": "1935-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Article « Art as a Fourth R » de Grace Alexandra Young dans Arts and Decorations, qui met le collège en vue",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02354"
+    ]
+   },
+   {
+    "date": "1935-01-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Les étudiants ont réuni 816 $ à cette date, dans le cadre d'une souscription liée aux démêlés avec Rollins",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02452"
+    ]
+   },
+   {
+    "date": "1935-01-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Retour des Albers de Cuba",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02360"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire de janvier n'est pas documentée jour par jour. On peut déduire des corvées d'hiver (bois, routes, ferme), des cours de Rice (dont le séminaire sur Platon) et de la faculté présente, de la musique avec Evarts, et des réunions étudiantes qui ont produit la collecte. Les fiches évoquent aussi le bal du samedi soir et le lieu Roy's, mais sans les dater pour ce mois.",
+  "tensions": [
+   "Le différend avec Rollins, qui a déclenché une souscription étudiante dont les détails manquent",
+   "Un collège qui fonctionne sur un déficit que la faculté absorbe : le coût réel est d'environ 350 $ par étudiant, ce qui met la question des frais au premier plan",
+   "Albers, de retour, a une reconnaissance publique très faible : des brèves sans critique, un seul soutien extérieur",
+   "La visibilité médiatique (Locke, Young) n'est pas une reconnaissance de la doctrine, et le collège reste mal connu hors de ses cercles"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La réunion étudiante qui réunit 816 $",
+    "date": "1935-01-14",
+    "lieu": null,
+    "personnages": [
+     "les étudiants",
+     "Rice (présence déduite)"
+    ],
+    "deroule": "Une assemblée étudiante fait le point sur la souscription liée à Rollins et sur ce que le collège peut payer. Les minutes enregistrent la somme, et la discussion porte sur qui doit assumer l'argent manquant.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02452"
+    ]
+   },
+   {
+    "titre": "Le retour d'Albers et le récit de Cuba",
+    "date": "1935-01-16",
+    "lieu": "Black Mountain (lieu de retour, déduit)",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Ted et Bobbie Dreier"
+    ],
+    "deroule": "Le groupe revient après trois semaines de conférences et de chaleur. Josef raconte le Lyceum, le café très fort et le vin du Nouvel An, et sa perspective latine se déplace vers le campus.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02360",
+     "EV-02358"
+    ]
+   },
+   {
+    "titre": "Les brèves d'Andover circulent dans le collège",
+    "date": "1935-01",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "les étudiants (déduit)"
+    ],
+    "deroule": "Des coupures de presse sur l'exposition d'Andover arrivent au collège. Elles sont courtes et n'apportent aucune critique, et Albers les lit en sachant que Sawyer est presque seul à le soutenir.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02451"
+    ]
+   },
+   {
+    "titre": "Trois conférences au Lyceum de La Havane",
+    "date": null,
+    "lieu": "La Havane, Lyceum Club",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Ted et Bobbie Dreier",
+     "Clara Porset"
+    ],
+    "deroule": "Cycle de trois jours de conférences d'Albers, organisé par Porset. Le groupe voyage en voiture de Dreier et découvre les fruits, les palmiers et les cigarettes noires.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02360",
+     "EV-02358"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "16 janvier, retour d'Albers et récit de Cuba",
+    "vers_date": "1934-09",
+    "vers": "Passage de Clara Porset à Black Mountain en septembre 1934, qui lance l'invitation cubaine",
+    "refs": [
+     "EV-02360"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "janvier 1935, brèves de presse sur l'exposition d'Andover",
+    "vers_date": "1934-09",
+    "vers": "Sawyer voit probablement les estampes d'Albers dans le bureau de Warburg, début septembre 1934",
+    "refs": [
+     "EV-02451"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "14 janvier, collecte étudiante de 816 $",
+    "vers_date": "1934-11",
+    "vers": "Éditorial de Walter Locke dans le Dayton Daily News (16 novembre 1934), premier relais public du collège, par un ami de Rice",
+    "refs": [
+     "EV-02354"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1935, exposition d'Andover et soutien unique de Sawyer",
+    "vers_date": "1935",
+    "vers": "Sawyer continue d'offrir à Albers des occasions d'exposition les années suivantes",
+    "refs": [
+     "EV-02451"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1935, tensions budgétaires du mois",
+    "vers_date": "1935-02-17",
+    "vers": "Le Board relève les frais de scolarité, à un moment où le coût réel est d'environ 350 $ par étudiant",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1935, Albers de retour avec Anni",
+    "vers_date": null,
+    "vers": "Voyage mexicain avec les Dreier (dates contestées : été 1935 ou décembre 1935-janvier 1936), début de la collection d'idolos",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1935, faculté restreinte, Rice au centre",
+    "vers_date": "1935-09",
+    "vers": "Arrivée de Knickerbocker et Farrell à la rentrée, puis frictions Rice-Knickerbocker qui mènent vers le schisme",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "Cuba comme parenthèse latine d'Albers",
+   "Presse et réputation : visibilité sans consensus",
+   "Argent et souscription étudiante",
+   "Un collège fragile, dont les déficits retombent sur la faculté",
+   "Départs et retours : le calendrier du mois se construit autour du retour d'Albers"
+  ],
+  "lacunes": "Le découpage en trimestres n'est pas documenté. Le mois de la visite de Dewey, de l'arrivée de Wunsch et du séjour d'Adamic ne sont pas fixés. Les dates du voyage mexicain se contredisent (été 1935 ou décembre 1935-janvier 1936). Dewey est vu deux fois par Chaddock, et une seule fois avec Barnes selon Reynolds, par oui-dire. La synthèse place l'arrivée des Moellenhoff à l'automne 1935, mais Mangold cite déjà le cours d'Anna Moellenhoff au printemps : contradiction interne. Le détail du différend avec Rollins est absent. Les éléments tirés de la synthèse de chapitre n'ont pas d'identifiant de fiche, et l'hiver est déduit, non documenté."
+ }
+}

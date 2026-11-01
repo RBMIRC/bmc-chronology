@@ -1,0 +1,146 @@
+# Concordance des « Courses of Instruction » 1933-34 → gabarits de l'année reconstituée.
+#
+# Sources (titres relus sur les scans ; ici le texte transcrit du musée concorde mot pour mot) :
+#   1933-34 : premier catalogue 2017.40.006 (fiche 6574), cours scans 006-12 et 006-13, corps enseignant 006-07
+#   1934-35 : catalogue 2017.40.009 (fiche 6577), cours scans 009-08 et 009-09 (colonne « année suivante »)
+#   1936-38 : catalogue 2017.40.012 (fiche 6580) : seule source des volumes horaires (aucun n'est donné avant)
+#   « list of courses offered to students during the fall and winter terms » : rien pour le trimestre de printemps
+#
+# C|id|discipline|titre 1933-34 (scan)|année précédente|année suivante (1934-35, scan ; et 1936-38 pour la structure)
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement fixe|note|termes
+#   termes : vide = automne, hiver, printemps ; « fall@1933-09-25..1933-10-15 » = seulement entre ces dates
+# N|id|raison
+
+# ---------- CHEMISTRY (Frederick R. Georgia, « Professor of Chemistry », aussi recteur) ----------
+C|ch.intro|Chemistry|Introduction to Chemistry|— (première année)|— (absent en 1934-35)
+C|ch.gen|Chemistry|General Chemistry|—|General Chemistry ; 1936-38 : deux semestres, 3 h + 4 h de laboratoire
+C|ch.quali|Chemistry|Qualitative Analysis|—|Qualitative Analysis
+C|ch.quanti|Chemistry|Quantitative Analysis|—|Quantitative Analysis
+C|ch.org|Chemistry|Organic Chemistry|—|Organic Chemistry
+C|ch.phys|Chemistry|Physical Chemistry|—|— (absent en 1934-35)
+U|CH1|Frederick R. Georgia|3|MEME_ANNEE+R_SEUL+VOLUME|ch.intro|||1|seul enseignant de chimie (scan 006-07)|||
+U|CH2|Frederick R. Georgia|3+4L|MEME_ANNEE+R_SEUL+VOLUME|ch.gen|||1|idem||volume de 1936-38|
+U|CH3|Frederick R. Georgia|3|MEME_ANNEE+R_SEUL+VOLUME|ch.quali||ch.quanti;ch.org;ch.phys|1/4|idem||un cours avancé pour les rares étudiants avancés (21 étudiants à l'automne) ; lequel des quatre : inconnu, ordre du catalogue|
+
+# ---------- PHYSICS, MATHEMATICS (Theodore Dreier, aussi trésorier) ----------
+C|ph.survey|Physics|Elementary Survey of Physics|—|Elementary Survey of Physics
+C|ph.gen|Physics|General Physics|—|General Physics ; 1936-38 : deux semestres, 3 h + 4 h de laboratoire
+C|ph.optique|Physics|Elementary Optics|—|Elementary Optics
+C|ph.elec|Physics|Electricity|—|Electricity
+C|ph.radio|Physics|Electro-Magnetic Theory and Application to Radio|—|— (absent en 1934-35)
+C|ph.machines|Physics|Electrical Machinery|—|— (absent en 1934-35)
+C|ph.meca|Physics|Mechanics|—|Mechanics
+C|ph.moderne|Physics|Modern Physics|—|Modern Physics
+C|ma.trigo|Mathematics|Trigonometry|—|Trigonometry ; 1936-38 : « algebra, trigonometry, and analytic geometry », un cours, deux semestres, 3 h
+C|ma.geom|Mathematics|Analytical Geometry|—|Analytic Geometry ; idem
+C|ma.calcul|Mathematics|Differential and Integral Calculus|—|Differential and Integral Calculus ; 1936-38 : deux semestres, 3 h
+U|P1|Ted Dreier|3+4L|MEME_ANNEE+R_SEUL+VOLUME|ph.gen|||1|seul enseignant de physique et mathématiques (scan 006-07)||volume de 1936-38|
+U|P2|Ted Dreier|3|MEME_ANNEE+R_SEUL+VOLUME+OCCASION|ph.elec||ph.survey;ph.optique;ph.radio;ph.machines;ph.meca;ph.moderne|1/7|idem||un cours de physique au-delà de l'introduction, sans doute en petit groupe ; lequel des sept : inconnu (Electricity retenu : Dreier est ingénieur électricien, S.B. in E.E.)|
+U|M1|Ted Dreier|3|MEME_ANNEE+R_SEUL+VOLUME+EQUIV|ma.trigo+ma.geom|réunis en un cours comme en 1936-38||1|idem||rien ne dit qu'ils étaient déjà réunis en 1933-34|
+U|M2|Ted Dreier|3|MEME_ANNEE+R_SEUL+VOLUME|ma.calcul|||1|idem|||
+
+# ---------- PSYCHOLOGY (William Wheeler Hinckley, « Instructor in Psychology ») ----------
+C|psy.gen|Psychology|General Psychology|—|General Psychology (en philosophie, 1934-35)
+C|psy.educ|Psychology|Educational Psychology|—|— (absent ; Hinckley n'est plus au catalogue 1934-35)
+C|psy.tests|Psychology|Mental Testing|—|—
+C|psy.philoeduc|Psychology|Philosophy of Education|—|—
+C|psy.caractere|Psychology|Psychology of Character|—|—
+C|psy.religion|Psychology|Psychology of Religion|—|—
+C|psy.sociale|Psychology|Social Psychology|—|— (revient en 1935-36)
+C|psy.famille|Psychology|Psychology of Family Relationships|—|—
+C|psy.problemes|Psychology|Educational Problems for Psychological Study|—|—
+U|PS1|William W. Hinckley|3|MEME_ANNEE+R_SEUL+VOLUME|psy.gen|||1/2|seul enseignant de psychologie (scan 006-07)||cours de base : retenu en premier ; neuf titres pour un seul enseignant : environ trois à la fois|
+U|PS2|William W. Hinckley|3|MEME_ANNEE+R_SEUL+VOLUME|psy.educ||psy.tests;psy.philoeduc;psy.caractere;psy.religion;psy.sociale;psy.famille;psy.problemes|1/4|idem||orientation pédagogique de l'enseignement de Hinckley : la psychologie de l'éducation retenue ; sinon ordre du catalogue|
+U|PS3|William W. Hinckley|3|MEME_ANNEE+R_SEUL+VOLUME|psy.tests||psy.educ;psy.philoeduc;psy.caractere;psy.religion;psy.sociale;psy.famille;psy.problemes|1/4|idem||ordre du catalogue|
+
+# ---------- ECONOMICS (Helen Elizabeth Boyden, « Instructor in Economics ») ----------
+C|eco.elem|Economics|Elementary Economics|—|Elementary Economics
+C|eco.hist|Economics|Economic History|—|Economic History
+C|eco.reconstruction|Economics|Philosophies of Social Reconstruction|—|— (absent ; « Socialism » en 1934-35)
+C|eco.theorie|Economics|Evolution of Economic Theory|—|Evolution of Economic Theory
+C|eco.travail|Economics|Labor Problems|—|— (absent ; « The Business Cycle » en 1934-35)
+U|E1|Helen Boyden|3|MEME_ANNEE+R_SEUL+VOLUME|eco.elem|||3/5|seule enseignante d'économie (scan 006-07)||cinq titres, environ trois à la fois : chance 3/5 pour chaque titre retenu ; ordre du catalogue|
+U|E2|Helen Boyden|3|MEME_ANNEE+R_SEUL+VOLUME|eco.hist||eco.theorie;eco.travail|3/5|idem||idem|
+U|E3|Helen Boyden|3|MEME_ANNEE+R_SEUL+VOLUME|eco.reconstruction||eco.theorie;eco.travail|3/5|idem||idem|
+
+# ---------- HISTORY (Ralph Reed Lounsbury, « Professor of Government, Public Law and History », mort le 16 octobre 1933) ----------
+C|hi.antique|History|Ancient History|—|Greek History (approché)
+C|hi.medieval|History|Intellectual History of the Middle Ages|—|Intellectual History of the Middle Ages (même titre)
+U|H1|Ralph Reed Lounsbury|3|MEME_ANNEE+R_SEUL+VOLUME|hi.antique|||1|seul enseignant d'histoire au corps enseignant (scan 006-07)||jusqu'à sa mort le 16 octobre 1933|fall@1933-09-25..1933-10-15
+U|H2|Ralph Reed Lounsbury|3|MEME_ANNEE+R_SEUL+VOLUME|hi.medieval|||1|idem||idem|fall@1933-09-25..1933-10-15
+U|H3|John A. Rice|3|MEME_ANNEE+R_COMPET+VOLUME|hi.antique|||1/2|après la mort de Lounsbury : rattaché au professeur de lettres classiques par compétence|=H1|le cours a pu s'interrompre (« additional work in the field of History » est annoncé pour plus tard) : chance 1/2|fall@1933-10-16..1933-12-16,winter,spring
+U|H4||3|MEME_ANNEE+R_COMPET+VOLUME|hi.medieval|||1/2|après la mort de Lounsbury : enseignant inconnu (Rice ou Martin ?)|=H2|même titre au catalogue 1934-35 (James Gore King Jr. arrive alors) ; chance 1/2 qu'il ait continué cette année|fall@1933-10-16..1933-12-16,winter,spring
+
+# ---------- FINE ARTS (Josef Albers, « Professor of Art » ; Anni Albers hors corps enseignant) ----------
+C|art.dessin|Fine Arts|Drawing|—|Introductory Drawing ; Advanced Drawing (1934-35) ; 1936-38 : 4 h
+C|art.couleur|Fine Arts|Color|—|Introductory Color ; Advanced Color (1934-35) ; 1936-38 : 2 h
+C|art.werklehre|Fine Arts|Werklehre (The development of the feeling for material and space)|—|Werklehre (1934-35) ; 1936-38 : 2 h
+C|art.tissage|Fine Arts|Weaving (hors de la liste des cours)|—|Weaving Theory ; Weaving Practice (1934-35) ; 1936-38 : 1 h + 4 h
+U|A1|Josef Albers|4|MEME_ANNEE+R_SEUL+VOLUME+PRESENCE|art.dessin|||1|seul enseignant d'art (scan 006-07)||Albers est au corps enseignant du catalogue, imprimé pendant l'hiver ; sa présence dès la rentrée n'est pas attestée dans le corpus (l'historiographie le fait arriver fin novembre 1933, non vérifié ici)|fall
+U|A2|Josef Albers|2|MEME_ANNEE+R_SEUL+VOLUME+PRESENCE|art.couleur|||1|idem||idem|fall
+U|A3|Josef Albers|2|MEME_ANNEE+R_SEUL+VOLUME+PRESENCE|art.werklehre|||1|idem||idem|fall
+U|A4|Josef Albers|4|MEME_ANNEE+R_SEUL+VOLUME|art.dessin|||1|idem|||winter,spring
+U|A5|Josef Albers|2|MEME_ANNEE+R_SEUL+VOLUME|art.couleur|||1|idem|||winter,spring
+U|A6|Josef Albers|2|MEME_ANNEE+R_SEUL+VOLUME|art.werklehre|||1|idem|||winter,spring
+U|A7|Anni Albers|1+4|LOIN+R_COMPET+VOLUME+PRESENCE|art.tissage|théorie et pratique||1/2|absente du corps enseignant 1933-34 ; « Teaching at Black Mountain College since 1933 » (brochure de 1944, 2017.40.356)||le tissage n'est pas dans la liste des cours : peut-être enseigné à quelques étudiants en cours d'année ; chance 1/2|winter,spring
+
+# ---------- MUSIC (John Evarts, « Instructor in Music ») ----------
+C|mu.appreciation|Music|Appreciation of Music|—|Music (through Beethoven) ; Music (since Beethoven) (1934-35) ; 1936-38 : 3 h
+C|mu.harmonie|Music|Elementary Harmony and Music Dictation|—|— (intégré à « Music Appreciation and History » en 1935-36)
+C|mu.xviii|Music|Eighteenth Century Music|—|—
+C|mu.seminaire|Music|Seminar in Music History|—|—
+C|mu.opera|Music|Nineteenth Century Opera|—|Opera (1934-35) ; 1936-38 : 1 h
+U|MU1|John Evarts|3|MEME_ANNEE+R_SEUL+VOLUME|mu.appreciation|||1|seul enseignant de musique (scan 006-07)|||
+U|MU2|John Evarts|2|MEME_ANNEE+R_SEUL+VOLUME|mu.harmonie|||1|idem|||
+U|MU3|John Evarts|2|MEME_ANNEE+R_SEUL+VOLUME|mu.xviii||mu.seminaire|1/2|idem||l'un des deux à la fois, vraisemblablement|
+U|MU4|John Evarts|1|MEME_ANNEE+R_SEUL+VOLUME|mu.opera|||1|idem||volume de 1936-38|
+
+# ---------- ENGLISH (Hilda Margaret Loram, « English and Dramatics » ; Joseph Walford Martin, « English ») ----------
+C|en.chaucer|English|Chaucer|—|Chaucer and his Period (1934-35) ; 1936-38 : Martin, un semestre, 3 h, années alternées
+C|en.shakespeare|English|Shakespeare|—|Shakespeare and the Elizabethan Drama (1934-35)
+C|en.drame|English|Contemporary Drama|—|English Drama from Sheridan to the Present Day (1934-35, approché)
+C|en.milton|English|Milton|—|Milton and the Puritan Revolution (1934-35)
+C|en.restauration|English|The Restoration|—|Seminar in the Eighteenth Century (1934-35, approché)
+C|en.seminaire|English|Seminar in Writing|—|Elementary Writing ; Advanced Writing (1934-35, approché)
+C|en.composition|English|Elements of English Composition|—|Elementary Writing (1934-35, approché)
+C|en.dramatics|English|Dramatics|—|Dramatic Direction (1934-35)
+U|L1|Hilda Loram|3|MEME_ANNEE+R_ELIM+VOLUME|en.drame|||1|le théâtre revient à l'enseignante « English and Dramatics » ; Martin est « English »|||
+U|L2|Hilda Loram|3|MEME_ANNEE+R_ELIM+VOLUME|en.composition|||1|idem (l'écriture élémentaire)|||
+U|L3|Hilda Loram|2|MEME_ANNEE+R_ELIM+VOLUME+HEURE|en.dramatics|répétitions et productions||1|idem|mar 20:00-22:00|séance du soir choisie par moi ; il y en avait sans doute plusieurs selon les productions|
+U|MT1|Joseph W. Martin|3|MEME_ANNEE+R_NOMME+VOLUME|en.chaucer||en.shakespeare;en.milton;en.restauration|1/2|les cours d'époque sont à Martin en 1936-38||quatre cours d'époque, environ deux à la fois ; ordre du catalogue ; Shakespeare pourrait revenir à Loram|
+U|MT2|Joseph W. Martin|3|MEME_ANNEE+R_NOMME+VOLUME|en.shakespeare||en.chaucer;en.milton;en.restauration|1/2|idem||idem|
+U|SW|Joseph W. Martin; Hilda Loram; John A. Rice|2|MEME_ANNEE+R_COMPET+VOLUME+HEURE|en.seminaire|séminaire collectif||1|« three seminars… in which there are four or more instructors who attend every meeting », dont un en écriture (Foreword, 2017.40.006) ; enseignants nommés : choix par compétence|jeu 20:00-22:00|quatre enseignants ou plus : trois noms proposés, les autres inconnus ; jour et heure choisis par moi|
+
+# ---------- FRENCH, SPANISH, ITALIAN (John A. H. Keith, « Instructor in Romance Languages ») ----------
+C|fr.elem|French|Elementary French|—|Introductory French (1934-35)
+C|fr.avance|French|Advanced French|—|Advanced French (1934-35)
+C|fr.civ|French|Civilization of France|—|—
+C|fr.medieval|French|Studies in Medieval Literature|—|—
+C|fr.xvii|French|Studies in French Literature of the Seventeenth Century|—|Seminar in French Literature (1934-35, approché)
+C|fr.conversation|French|Introduction to French Conversation|—|—
+C|fr.rousseau|French|Rousseau and his works|—|—
+C|fr.seminaire|French|Seminar|—|Seminar in French Literature (1934-35)
+C|es.elem|Spanish|Elementary Spanish|—|Introductory Spanish (1934-35)
+C|es.avance|Spanish|Advanced Spanish|—|Advanced Spanish (1934-35)
+C|it.elem|Italian|Elementary Italian|—|Introductory Italian (1934-35)
+C|it.dante|Italian|the works of Dante|—|— (absent)
+U|K1|John A. H. Keith|3|MEME_ANNEE+R_SEUL+VOLUME|fr.elem||fr.avance|1/2|seul enseignant de langues romanes (scan 006-07)||douze titres pour un seul enseignant : environ quatre à la fois ; débutants plus nombreux la première année : Elementary retenu|
+U|K2|John A. H. Keith|3|MEME_ANNEE+R_SEUL+VOLUME|fr.civ||fr.medieval;fr.xvii;fr.conversation;fr.rousseau;fr.seminaire|1/6|idem||un cours de littérature ou de civilisation à la fois ; lequel des six : inconnu (ordre du catalogue)|
+U|K3|John A. H. Keith|3|MEME_ANNEE+R_SEUL+VOLUME|es.elem||es.avance|1/2|idem|||
+U|K4|John A. H. Keith|3|MEME_ANNEE+R_SEUL+VOLUME|it.elem||it.dante|1/2|idem|||
+
+# ---------- GERMAN (Emmy Zastrow, « Instructor in German ») ----------
+C|de.elemavance|German|Elementary and Advanced|—|Introductory German (1934-35, sans enseignant)
+C|de.traduction|German|Translation and Composition|—|—
+U|Z1|Emmy Zastrow|3|MEME_ANNEE+R_SEUL+VOLUME|de.elemavance|élémentaire et avancé||1|seule enseignante d'allemand (scan 006-07)||« Elementary and Advanced » est un seul libellé au catalogue : un cours, ou deux niveaux dans la même heure|
+U|Z2|Emmy Zastrow|2|MEME_ANNEE+R_SEUL+VOLUME|de.traduction|||1/2|idem|||
+
+# ---------- GREEK, LATIN (John Andrew Rice, « Professor of Classics ») ----------
+C|gr.elem|Greek|Elementary Greek|—|Elementary Greek (1934-35) ; 1936-38 : deux semestres, 3 h
+C|gr.platon|Greek|Plato|—|Plato (1934-35)
+C|la.virgile|Latin|Virgil|—|Virgil (1934-35)
+C|la.lyrique|Latin|Latin Lyric Poetry|—|Latin Lyric Poetry (1934-35) ; 1936-38 : deux semestres, 3 h
+C|la.comedie|Latin|Latin Comedy|—|Roman Comedy (1934-35)
+U|R1|John A. Rice|3|MEME_ANNEE+R_SEUL+VOLUME|gr.elem|||1|seul enseignant de lettres classiques (scan 006-07)|||
+U|R2|John A. Rice|3|MEME_ANNEE+R_SEUL+VOLUME|gr.platon|||1|idem||Platon est au cœur de l'enseignement de Rice d'une année à l'autre (1934-35, 1935-36, 1936-38)|
+U|R3|John A. Rice|3|MEME_ANNEE+R_SEUL+VOLUME|la.virgile||la.lyrique;la.comedie|1/3|idem||un cours de latin à la fois ; lequel : inconnu (ordre du catalogue)|

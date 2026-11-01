@@ -1,0 +1,271 @@
+{
+ "passe": "mois",
+ "cle": "1946-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4078,
+  "sortie": 15188,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1946-01",
+  "session": "Semestre d'hiver (la synthèse parle d'un « hiver-printemps » ; la date de fin n'est pas donnée)",
+  "saison_et_climat": "Hiver. Lane situe la mort de Jalowetz « par une nuit d'hiver ». Les fiches ne donnent aucun détail sur le temps.",
+  "situation": "Le collège est en plein semestre d'hiver, porté par l'afflux d'après-guerre (GI Bill) pour des locaux prévus pour 60. Il vit peut-être le choc de la mort de Jalowetz, dont la date est disputée. Les soupçons politiques et les rivalités de pouvoir existent déjà mais ne deviennent conflits ouverts qu'à partir de février. Albers rédige un article pour Junior Bazaar, Olson est à Washington auprès de Pound, et le département de musique est affaibli.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Heinrich Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mme Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Charlotte « Bimbus » Schlesinger",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Edward « Eddie » Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Karl Niebyl",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ross Penley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rondthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Famille Straus (hôtes du concert et de la veillée)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Étudiants (effectif de janvier inconnu ; environ 75 au printemps, dont beaucoup de GI)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Albers rédige un article inédit sur l'art au collège pour le magazine Junior Bazaar, entre décembre 1945 et janvier 1946.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03808"
+    ]
+   },
+   {
+    "date": "1946-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson commence à rendre visite à Pound, interné à St Elizabeth's, reçoit et répond à son courrier et lance une Committee of Correspondence. Il agit hors du collège ; ce réseau épistolaire sera repris plus tard à Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03955"
+    ]
+   },
+   {
+    "date": "1946-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Un incendie détruit le studio du Connecticut et une trentaine de tableaux, dont la moitié peints dans les neuf mois précédents. Les fiches ne relient pas ce studio au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03956"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Mort de Heinrich Jalowetz. Ce mois est possible mais non établi : Duberman écrit « début 1946 », Lane écrit « hiver », un autre récit de Lane la place au printemps après le Requiem, et Duberman la date aussi vers 1945. La mort elle-même est attestée par tous les témoignages.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1946",
+    "precision": "annee",
+    "ce_qui_arrive": "Le voyage en Italie des Lowinsky, financé par la bourse Guggenheim d'Eddie, est reporté d'un an ; le collège les retient jusqu'en août 1947. Le département de musique est décimé.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Vie d'après-guerre : cours pour des étudiants nombreux, parfois anciens combattants, dans des locaux saturés. Mme Jalowetz et Charlotte Schlesinger assurent l'enseignement du chant et de la reliure pour maintenir la musique. Les étudiants aident à construire et réparer les bâtiments à la main, et le woodshop occupe Weitzer. Les concerts du samedi soir et les chants (Requiem de Brahms) forment la vie collective. La bibliothèque, les machines à écrire et la presse arrivent par le gouvernement, dates non précisées.",
+  "tensions": [
+   "Quatre datations contradictoires pour la mort de Jalowetz, qui rendent le deuil difficile à situer dans le temps.",
+   "Le département de musique perd son noyau et ne tient que sur deux femmes.",
+   "Niebyl, soupçonné par les Européens d'organiser une cellule communiste, voit son contrat non renouvelé ; la suspicion politique annonce les conflits du printemps.",
+   "Les « grondements clandestins » sont déjà là, mais la rivalité Albers-Wallen n'éclate pas encore (le comité date du 13 février).",
+   "Des locaux pour 60 étudiants accueillent 75 personnes, et l'argent manque pour construire.",
+   "Dreier, recteur nominal, est absent : Molly Gregory gouverne de fait.",
+   "Les Lowinsky sont bloqués au collège à cause du deuil."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La pelouse après le concert",
+    "date": null,
+    "lieu": "Maison des Straus, pelouse voisine",
+    "personnages": [
+     "Heinrich Jalowetz",
+     "Famille Straus",
+     "Mme Jalowetz"
+    ],
+    "deroule": "Après un concert du samedi soir, Jalowetz prend un verre chez les Straus, dit « going home now » et s'effondre sur la pelouse à quelques pas. Ce récit de Lane est le seul à donner ce détail ; d'autres témoignages placent la scène autrement.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "La tombe sur le rocher",
+    "date": null,
+    "lieu": "Site de la tombe, au pied du collège",
+    "personnages": [
+     "Étudiants",
+     "Ross Penley",
+     "Mme Jalowetz"
+    ],
+    "deroule": "Les étudiants creusent la tombe et découvrent un rocher. Le corps est hissé sur un wagon plat tiré par le tracteur, puis enterré sous un tas de pierres. La pierre est choisie avec Mme Jalowetz, et le Requiem est chanté. Les témoignages concordent sur ces points, sauf sur le détail du wagon, attesté par Rumaker seul.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Les cours de chant et de reliure",
+    "date": null,
+    "lieu": "Salle de musique et atelier de reliure",
+    "personnages": [
+     "Mme Jalowetz",
+     "Charlotte « Bimbus » Schlesinger",
+     "Étudiants"
+    ],
+    "deroule": "Mme Jalowetz forme quelques étudiants au chant et donne un cours de reliure. Schlesinger tient le département de musique seule face au manque de professeurs. Les fiches ne datent pas ces cours.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Le Board et le contrat de Niebyl",
+    "date": null,
+    "lieu": "Réunion du Board",
+    "personnages": [
+     "Karl Niebyl",
+     "Dehn",
+     "Albers",
+     "Board"
+    ],
+    "deroule": "Les Européens soupçonnent Niebyl de monter une cellule communiste sous couvert du Southern Negro Youth Congress. Le Board ne renouvelle pas son contrat d'un an, à l'unanimité. Le texte ne date pas cette décision.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "La bibliothèque enfin éclairée",
+    "date": null,
+    "lieu": "Bibliothèque",
+    "personnages": [
+     "Nell Rice",
+     "Rondthaler"
+    ],
+    "deroule": "La bibliothèque reçoit un éclairage enfin suffisant, et Nell Rice s'en réjouit. Les fiches ne datent pas cette amélioration.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Janvier : la communauté porte le deuil de Jalowetz ou cherche à dater sa mort",
+    "vers_date": "1945-11",
+    "vers": "Réunions de communauté sur le programme de travail les 13 et 27 novembre 1945, où Jalowetz figure parmi les deux signataires européens.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Janvier : Albers écrit pour Junior Bazaar et le collège est au centre de la presse",
+    "vers_date": "1945-11",
+    "vers": "Pétition de 34 étudiants et 11 enseignants et plan de réunion en groupes de douze, probablement de l'automne 1945 (certaines fiches les datent de 1946-47).",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier : les Lowinsky sont retenus au collège",
+    "vers_date": "1947-08",
+    "vers": "Les Lowinsky partent enfin pour l'Italie après leur année de report.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier : le collège n'a pas encore de comité de gouvernement",
+    "vers_date": "1946-02-13",
+    "vers": "Création du comité Wallen-Levi-Rondthaler. Albers y déclare qu'il faudrait moins de souci à gouverner les autres.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier : Olson rend visite à Pound à St Elizabeth's et écrit du courrier",
+    "vers_date": null,
+    "vers": "Le réseau épistolaire d'Olson, né de cette correspondance, sera développé plus tard à Black Mountain.",
+    "refs": [
+     "EV-03955"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier : les Albers vivent encore au collège",
+    "vers_date": "1946-08",
+    "vers": "Fin de l'institut d'été ; les Albers partent en voiture pour une année sabbatique (New York, Boston, Niagara, Chicago, Denver, Californie, Nouveau-Mexique).",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier : les rivalités de pouvoir sont latentes",
+    "vers_date": "1946-05-13",
+    "vers": "Wallen lit à la faculté une déclaration écrite qui accuse Albers d'user des tactiques des « Bentleyites ». Elle est datée du 13 mai selon les archives.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier : Albers n'a pas encore quitté le collège",
+    "vers_date": "1946-12",
+    "vers": "Les Albers s'installent dans une maison en adobe à La Luz, où naît selon une fiche la série Variants/Adobes ; les autres fiches la placent au Mexique en 1947.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "Deuil et mémoire : la tombe sur le rocher et le Requiem chanté",
+   "Pouvoir et soupçon : le comité, la déclaration de Wallen, les « grondements clandestins »",
+   "Après-guerre : l'afflux des GI, la débrouille matérielle, les surplus militaires",
+   "Musique et survie : la reprise par Schlesinger et Mme Jalowetz",
+   "Correspondance et réseaux : Olson et Pound, à distance du collège"
+  ],
+  "lacunes": "La date de la mort de Jalowetz reste inconnue, et c'est le point central du mois. Les fiches ne donnent ni l'effectif exact de janvier, ni la présence certaine d'Albers ou de Wallen ce mois-ci, ni les dates de la bibliothèque, des baraquements ou des machines. Les allers-retours d'Olson entre Washington et le collège ne sont pas datés. La fiche de synthèse n'a pas d'identifiant, donc les faits qui en viennent n'ont pas de références (refs vide) ; seuls EV-03808, EV-03955 et EV-03956 sont cités."
+ }
+}

@@ -1,0 +1,751 @@
+{
+ "passe": "enseignements",
+ "cle": "Elaine de Kooning",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 130834,
+  "sortie": 20721,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Elaine de Kooning",
+  "cours": [
+   {
+    "intitule": "Black Mountain College, été 1948 : Elaine de Kooning, compagne invitée et participante (aucun enseignement de sa part n'est attesté)",
+    "periodes": [
+     "été 1948"
+    ],
+    "atteste": "non",
+    "objectifs": "Aucun objectif d'enseignement documenté pour elle. L'invitation d'Albers vise Bill : 200 $, pension, billets de train pour deux, un studio chacun (SC-01047). Plusieurs fiches d'idées la disent « enseignante d'été 1948 », « artiste invitée » ou ayant « enseigné la peinture à BMC » (ID-02226, ID-03740, ID-03535, ID-04171). Ces formules sont des déductions de l'extracteur, et aucune scène ne les confirme. Les scènes la montrent comme participante : Fuller, théâtre, atelier personnel.",
+    "deroule_type_seance": "Ce que les fiches attestent d'elle : arrivée en train de nuit sans oreillers louables, avec 94 $ pour l'été (SC-01173, SC-01174). Elle peint seule des abstractions biomorphiques sur papier brun, rencontre Cage et Cunningham, retrouve Fuller, Kline, Vicente et Tworkov (SC-01028). Elle assiste au cours de Fuller, photographiée par Beaumont Newhall (SC-01117). Elle aide au montage du dôme de lattes de store, qui s'affaisse (le « Supine Dome », SC-01175, SC-01114, SC-01103). Elle joue Frisette dans The Ruse of Medusa de Satie, mis en scène par Arthur Penn avec Fuller en Baron et Cunningham en singe mécanique (SC-01112, SC-01096, SC-01050). Un bal de fin d'été clôt la session (SC-01153). Elle figure aussi dans une scène où Albers montre quatre verts, dont celui du Coca-Cola, mais le texte ne dit pas si elle y est élève, observatrice ou simplement citée (SC-00645, date très large, ≈1936→1953).",
+    "exercices": [
+     {
+      "consigne": "Peindre pendant l'été un rouleau de peintures à l'émail sur papier d'emballage, malgré la vie sociale intense. C'est sa pratique propre et non une consigne donnée à des élèves ; la fiche en fait « un témoignage de la durabilité de la peinture, sinon plus ».",
+      "materiaux": "Émail, papier d'emballage brun en rouleau",
+      "but": "Éprouver la durabilité de la peinture avec des matériaux pauvres",
+      "refs": [
+       "ID-02081",
+       "SC-01028",
+       "SC-01086"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Fuller (tétraèdre, résistance à la traction, dôme) : elle dit être tombée amoureuse de lui à l'annonce du tétraèdre (SC-01102, oui-dire) et le célèbre plus tard dans « Dymaxion Artist » (ID-02183)",
+     "Satie, The Ruse of Medusa (SC-01112)",
+     "Kierkegaard lu à voix haute à Bill : les fiches divergent. SC-01182 le situe à Black Mountain (Passlof présente) ; SC-01141 le place à l'automne 1948 à New York.",
+     "Albers : elle écrira sur lui. SC-01257 date son annonce d'Homage to the Square de 1950, SC-01660 de 1953 (les dates divergent entre fiches)."
+    ],
+    "propos_types": [
+     "Devant l'empressement général à la cloche du réfectoire, elle compare les convives aux « chiens de Pavlov » (SC-01170).",
+     "Devant l'échec du dôme, elle dit avoir su que « Bucky avait raison et qu'ils avaient tous tort » (SC-01175).",
+     "Elle racontera plus tard l'été comme un chapitre drôle, car la pauvreté vue de loin devient comique (ID-04181)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Elle fait de l'été 1948 le point de départ de sa constante, l'infusion du mouvement dans les formes (ID-04195, ID-04194, incertain). L'ancrage BMC de ces deux fiches est invoqué par l'extracteur et non prouvé. Elle a failli jeter les rouleaux d'émail, que Lieber et Marjorie Luyckx ont fait restaurer (SC-01086). Elle quitte le collège avec Bill : l'été finit sur le deuil de Gorky (SC-01180) et sur la peur du vide de Bill (SC-01038, SC-01056, SC-01154, trois versions d'une même scène).",
+    "refs": [
+     "SC-01028",
+     "SC-01047",
+     "SC-01173",
+     "SC-01174",
+     "SC-01117",
+     "SC-01175",
+     "SC-01114",
+     "SC-01103",
+     "SC-01112",
+     "SC-01096",
+     "SC-01050",
+     "SC-01153",
+     "SC-00645",
+     "SC-01102",
+     "SC-01170",
+     "SC-01141",
+     "SC-01182",
+     "SC-01257",
+     "SC-01660",
+     "SC-01086",
+     "ID-02081",
+     "ID-02183",
+     "ID-02226",
+     "ID-03740",
+     "ID-03535",
+     "ID-04171",
+     "ID-04181",
+     "ID-04194",
+     "ID-04195"
+    ]
+   },
+   {
+    "intitule": "Peinture, université du Nouveau-Mexique (Albuquerque)",
+    "periodes": [
+     "1958-1959"
+    ],
+    "atteste": "non",
+    "objectifs": "Enseigner l'énergie et l'audace de l'acte de peindre, et donner une vue de l'intérieur du monde de l'art par des histoires (CO-00839). Impulser une audace nouvelle aux étudiants (CO-00840).",
+    "deroule_type_seance": "Cours d'atelier avec modèle (Margaret Randall a posé) mêlé à un cours-causerie. Elaine y raconte des anecdotes du milieu comme des leçons déguisées : Kline et ses titres, Gorky et ses calques. Sa critique est parfois dure (« I don't want to see this anymore ! »). Tous les travaux sont notés A. Elle y voit un « shop talk among friends ».",
+    "exercices": [
+     {
+      "consigne": "Aller à la quincaillerie acheter de gros pinceaux : plus c'est grand, mieux c'est.",
+      "materiaux": "Gros pinceaux de quincaillerie, toiles de grand format",
+      "but": "Libérer l'énergie et l'audace du geste",
+      "refs": [
+       "CO-00839",
+       "CO-00840"
+      ]
+     },
+     {
+      "consigne": "Ne pas perdre de temps avec le gesso : un gallon de colle Elmer suffit à préparer la toile.",
+      "materiaux": "Colle Elmer à la place du gesso",
+      "but": "Aller vite à la peinture, sans rituel de préparation",
+      "refs": [
+       "CO-00839"
+      ]
+     },
+     {
+      "consigne": "Peindre sans plan ni idée préalable : l'acte compte plus que le concept.",
+      "materiaux": null,
+      "but": "Faire de l'acte, non de l'image, le centre du travail",
+      "refs": [
+       "CO-00839"
+      ]
+     },
+     {
+      "consigne": "Travailler d'après un modèle vivant en cours d'atelier.",
+      "materiaux": null,
+      "but": null,
+      "refs": [
+       "CO-00839"
+      ]
+     },
+     {
+      "consigne": "Prendre des pinceaux plus larges et des toiles plus grandes, avec des couleurs plus vives et un travail plus vigoureux.",
+      "materiaux": null,
+      "but": "Résultat décrit : en une semaine les toiles grandissent et le travail s'enhardit",
+      "refs": [
+       "CO-00840"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Kline et ses titres, Gorky et ses calques sur reproductions de maîtres (CO-00839 ; ID-03495 en donne le détail : Gorky encerclait les espaces négatifs entre les figures)"
+    ],
+    "propos_types": [
+     "Contre le gesso : la colle Elmer fait l'affaire.",
+     "Sur le genre, à l'étudiante qui l'interroge sur la « woman artist » : « I am an artist, period » ; si on lui demande si elle est le modèle des Woman de Bill : « Absolutely not » (SC-01874).",
+     "Sur les notes, au président du département qui exige une notation sur courbe : ses étudiants sont simplement meilleurs que ceux de son collègue (SC-01873).",
+     "Sur l'enseignement : « I needed the money, and I liked teaching » (CO-00840).",
+     "Elle disait qu'on peut utiliser l'art du passé pour faire des bonds énormes vers le présent (ID-03495, incertain)."
+    ],
+    "critique_et_evaluation": "Critique franche, parfois brutale. Notation généreuse assumée devant l'institution : tout le monde reçoit A (CO-00839, SC-01873).",
+    "reactions_etudiants": "Conger est conquis par l'énergie et les « guts ». Les étudiants des sororités sont intimidés par sa sévérité, et certains sont froissés par sa franchise (CO-00839). Un compte rendu parle d'« une vision rayonnante de l'art » (CO-00840).",
+    "evolution": "Ce séjour déclenche ses sujets de taureaux (corrida de Ciudad Juárez avec Randall, SC-01876 ; série Veronica, Faena, ID-03496) et l'amène aux danses Shalako des Zuni (SC-01875). Elle dit avoir été « happée » par les couleurs intenses d'Albuquerque après avoir été contenue par le dessin (ID-03528, incertain). Vers 1970, elle conseille encore aux étudiants de rester en province (ID-03494).",
+    "refs": [
+     "CO-00839",
+     "CO-00840",
+     "SC-01873",
+     "SC-01874",
+     "SC-01875",
+     "SC-01876",
+     "ID-03493",
+     "ID-03494",
+     "ID-03495",
+     "ID-03496",
+     "ID-03528",
+     "ID-04712"
+    ]
+   },
+   {
+    "intitule": "Professeure invitée, Pennsylvania State University",
+    "periodes": [
+     "1960"
+    ],
+    "atteste": "non",
+    "objectifs": "Non documenté.",
+    "deroule_type_seance": "Elle n'enseigne qu'un ou deux jours par semaine. Elle travaille dans l'atelier exigé par l'université, avec des matériaux qu'elle peut trouver ou se payer (CO-00850).",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Les étudiants sont charmés (CO-00850).",
+    "evolution": "Elle décrit plus tard l'université comme le nouveau mécène de l'art des années 1950. Elle y fait deux décennies de postes invités avec un seul jour d'étudiants par semaine (ID-03434).",
+    "refs": [
+     "CO-00850",
+     "ID-03434"
+    ]
+   },
+   {
+    "intitule": "Cours de peinture de deux semaines, Contemporary Arts Museum de Houston",
+    "periodes": [
+     "1960-06"
+    ],
+    "atteste": "non",
+    "objectifs": "Non documenté.",
+    "deroule_type_seance": "Session d'été de deux semaines obtenue sur la recommandation de Rosenberg (CO-00847).",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "CO-00847"
+    ]
+   },
+   {
+    "intitule": "Ateliers pour amateurs",
+    "periodes": [
+     "années 1960-1970"
+    ],
+    "atteste": "non",
+    "objectifs": "Sortir les amateurs de leurs idées reçues sur l'art et les amener à « un nouvel état d'esprit » (CO-00846).",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Commencer une peinture différente chaque jour.",
+      "materiaux": null,
+      "but": "Sortir des a priori, changer d'état d'esprit",
+      "refs": [
+       "CO-00846"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "CO-00846"
+    ]
+   },
+   {
+    "intitule": "Enseignement invité à l'université (fonderie, cire perdue), Californie",
+    "periodes": [
+     "1964-01",
+     "1964-02"
+    ],
+    "atteste": "non",
+    "objectifs": "Non formulé. La fiche CO-00859 range le séjour sous « sculpture/plastique », et SC-02014 le situe à la fonderie de l'Université de Californie, Davis.",
+    "deroule_type_seance": "Elle découvre la fonderie pendant une coulée de bronze. Le sculpteur résident lui explique la cire perdue, puis elle travaille au milieu des gens. Le contexte est le deuil de Kennedy : elle est « incapable d'ouvrir ses tubes de peinture » (SC-02014).",
+    "exercices": [
+     {
+      "consigne": "Travailler les feuilles de cire « à la manière d'un peintre » et en faire des collages tridimensionnels avec des morceaux de bois. La formulation évoque sa pratique personnelle plus qu'une consigne donnée aux étudiants.",
+      "materiaux": "Feuilles de cire, bois",
+      "but": "Retrouver le geste de peintre par un autre médium",
+      "refs": [
+       "CO-00859",
+       "SC-02014"
+      ]
+     },
+     {
+      "consigne": "Suivre tout le procédé de fonte à cire perdue : la cire fondue hors du moule céramique laisse un creux rempli de métal en fusion.",
+      "materiaux": "Moules céramiques, bronze",
+      "but": "Comprendre la fonte du début à la fin",
+      "refs": [
+       "CO-00859"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "« C'était magique » (SC-02014)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Ce séjour mène à des bronzes. Elle dira que son deuil et l'échec du portrait Truman Library ont canalisé son énergie vers un médium inattendu : un obstacle devenu quatorze bronzes (ID-03869).",
+    "refs": [
+     "CO-00859",
+     "SC-02014",
+     "ID-03869"
+    ]
+   },
+   {
+    "intitule": "Atelier de portrait de cinq après-midi, Tyler Museum of Art (Texas)",
+    "periodes": [
+     "1972-07"
+    ],
+    "atteste": "non",
+    "objectifs": "Atelier pratique de portrait, qui lui sert aussi à annoncer sa disponibilité pour des commandes (CO-00874).",
+    "deroule_type_seance": "Ateliers l'après-midi au musée. Elle y récolte des commandes privées, notamment de la famille Collins (CO-00874).",
+    "exercices": [
+     {
+      "consigne": "Peindre l'après-midi au musée pendant cinq jours.",
+      "materiaux": null,
+      "but": "Pratiquer le portrait et trouver des commandes",
+      "refs": [
+       "CO-00874"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Elle exige que son portrait soit accroché à un mur précis, ce qui suppose de déplacer le lustre. À la famille qui lui demande ironiquement s'il faut l'envoyer à New York, elle répond qu'on l'a envoyé (SC-02112)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Les familles locales millionnaires l'adoptent et la surnomment « The Dutchess » (CO-00874, SC-02112).",
+    "evolution": null,
+    "refs": [
+     "CO-00874",
+     "SC-02112"
+    ]
+   },
+   {
+    "intitule": "Programme d'été de la New York Studio School, Paris",
+    "periodes": [
+     "été 1974",
+     "été 1976"
+    ],
+    "atteste": "non",
+    "objectifs": "Immersion totale : être « impliqué dans l'art jour et nuit » (CO-00878).",
+    "deroule_type_seance": "Journée type : lever à 7 h, café et omelette, sortie à 8 h, puis marche dans la ville et aquarelle sur le motif. Visite méthodique de chaque musée, grotte et église (CO-00878). L'étudiant Jim Touchton, qui la suit, raconte un épisode devant le gorille du Jardin des Plantes (SC-02134, 1976).",
+    "exercices": [
+     {
+      "consigne": "Marcher dans la ville avec une boîte d'aquarelle de voyage, s'arrêter sur un muret de pierre et peindre une vue.",
+      "materiaux": "Boîtes d'aquarelle de voyage Winsor & Newton ; fusain sur toile",
+      "but": "Peindre sur le motif, dans la durée",
+      "refs": [
+       "CO-00878"
+      ]
+     },
+     {
+      "consigne": "Visiter chaque musée, chaque grotte, chaque église, sans en sauter.",
+      "materiaux": null,
+      "but": "Être impliqué dans l'art jour et nuit",
+      "refs": [
+       "CO-00878"
+      ]
+     },
+     {
+      "consigne": "Ne pas donner son avis avant que l'élève ait regardé et ressenti l'œuvre.",
+      "materiaux": null,
+      "but": "Ne pas préformer le regard de l'autre",
+      "refs": [
+       "CO-00878",
+       "ID-03498"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Monet : devant un petit carré de sa toile, elle dit « c'est un Bill de Kooning » (CO-00878)"
+    ],
+    "propos_types": [
+     "« Regardez ce petit carré là — c'est un Bill de Kooning » (devant un Monet).",
+     "À Florence avec sa nièce, elle refuse de donner ses idées avant que Maud ait regardé et été touchée (ID-03498, incertain, date large ≈1958→1982)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Maud Fried : « Elaine ne fait rien en spectatrice ». Touchton dit, mi-plaisant, qu'on l'avait emmené « juste pour porter sa valise et ses toiles » (CO-00878).",
+    "evolution": "Elle fera ensuite des séries d'après les grottes de la Dordogne (1983, SC-02173) : elle y peint chaque soir sa réponse à l'aquarelle dans sa chambre d'hôtel.",
+    "refs": [
+     "CO-00878",
+     "SC-02134",
+     "SC-02173",
+     "ID-03498"
+    ]
+   },
+   {
+    "intitule": "Programme d'études à l'étranger, Université de Géorgie",
+    "periodes": [
+     "milieu des années 1970 (été)"
+    ],
+    "atteste": "non",
+    "objectifs": "Non documenté ; la fiche CO-00870 ne donne que le titre et la saison.",
+    "deroule_type_seance": "En 1976, sur le campus, pendant sa projection de diapositives, elle regarde sans cesse les pantalons rapiécés d'un étudiant, Jim Touchton. On le lui présente à la fin, elle rit de sa tenue et c'est le début d'une amitié durable (SC-02133). Il n'est pas établi si cette scène relève du programme d'études à l'étranger ou d'une autre visite.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Touchton se souvient qu'elle le « regardait sans arrêt avec ses grands yeux ronds de petit chat » (SC-02133).",
+    "evolution": null,
+    "refs": [
+     "CO-00870",
+     "SC-02133"
+    ]
+   },
+   {
+    "intitule": "Chaire Mellon (Cooper Union) et chaire Lamar Dodd (Université de Géorgie)",
+    "periodes": [
+     "1977-1978"
+    ],
+    "atteste": "non",
+    "objectifs": "Non documenté.",
+    "deroule_type_seance": "Navette hebdomadaire entre New York et Athens (Géorgie), avec deux jours par semaine en Géorgie (CO-00882).",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Elle plaisante auprès de John Cage : elle « n'a jamais le temps de s'asseoir » (CO-00882)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "CO-00882"
+    ]
+   },
+   {
+    "intitule": "Interventions ponctuelles devant des étudiants (Maryland Institute)",
+    "periodes": [
+     "≈1975→1984"
+    ],
+    "atteste": "non",
+    "objectifs": "Non formulé. Les fiches montrent la façon dont elle se confrontait à une génération plus jeune (SC-02126).",
+    "deroule_type_seance": "Face aux étudiants de Grace Hartigan, elle écoute une étudiante décrire avec passion les earthworks de Smithson. Elle avoue ne pas y tenir mais se laisse gagner par l'enthousiasme. Puis, cigarette en main, elle raille l'art conceptuel : on peut aujourd'hui faire une œuvre d'art par téléphone (SC-02126).",
+    "exercices": [],
+    "lectures_et_references": [
+     "Mondrian et Albers cités comme « conceptuels » qui acceptent de changer de cap en cours de route, à la différence de Stella et Noland qui divisent la toile (ID-04167)"
+    ],
+    "propos_types": [
+     "L'enthousiasme d'autrui est contagieux et vaut mieux que la controverse (ID-04166).",
+     "Tout art est conceptuel, mais le bon concept travaille : on le voit aux repentirs (ID-04167).",
+     "Il n'y a plus d'avant-garde possible, car plus rien ne choque (ID-04168)."
+    ],
+    "critique_et_evaluation": "Elle critique l'art conceptuel et les peintres qui exécutent des ordres qu'ils se donnent (ID-04167).",
+    "reactions_etudiants": "Les étudiants rient, elle hoche la tête et sourit (SC-02126).",
+    "evolution": null,
+    "refs": [
+     "SC-02126",
+     "ID-04166",
+     "ID-04167",
+     "ID-04168"
+    ]
+   },
+   {
+    "intitule": "Conseils de carrière et philosophie de l'enseignement",
+    "periodes": [
+     "≈1957→1992-03"
+    ],
+    "atteste": "non",
+    "objectifs": "Permettre aux artistes de survivre en gardant un maximum de temps d'atelier (CO-00833).",
+    "deroule_type_seance": "Cette fiche ne décrit pas de séance. Elle prolonge son ton d'enseignante : enthousiaste et franche, mais sans décourager. Elle sait que, sur vingt étudiants, un seul peindra encore vingt ans plus tard, et elle cache ce savoir (ID-03435). Elle décrit une approche brisk and forthright, héritée de son expérience de coach au Leader's Club (ID-00216, incertain).",
+    "exercices": [
+     {
+      "consigne": "Chercher un job de jour à haut taux horaire, comme la plomberie.",
+      "materiaux": null,
+      "but": "Garder le plus de temps possible pour l'atelier",
+      "refs": [
+       "CO-00833"
+      ]
+     },
+     {
+      "consigne": "Vivre aussi bon marché que possible.",
+      "materiaux": null,
+      "but": "Réduire le besoin d'argent",
+      "refs": [
+       "CO-00833"
+      ]
+     },
+     {
+      "consigne": "Travailler deux ou trois jours par semaine pour se soutenir, afin que le temps restant soit respecté.",
+      "materiaux": null,
+      "but": "Protéger le temps d'atelier",
+      "refs": [
+       "CO-00833"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "« C'est l'obstacle » — le besoin d'argent — « qui vous aide » (CO-00833).",
+     "Il faut une confiance frôlant l'arrogance pour créer quelque chose que personne n'a commandé (ID-03494).",
+     "Aux femmes artistes : la peinture est un métier à plein temps comme un bébé ; elle propose d'emprunter un bébé un week-end pour essayer de peindre (ID-02223, incertain).",
+     "L'artiste n'a que le temps comme ennemi et comme luxe (ID-01453)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "CO-00833",
+     "ID-00216",
+     "ID-02223",
+     "ID-03434",
+     "ID-03435",
+     "ID-03494",
+     "ID-01453"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Peindre sans plan : l'acte et la confiance priment sur le concept. Elle dit commencer en résistant à ce qu'elle croit déjà savoir, pour découvrir ce qu'elle sait sans savoir qu'elle le sait.",
+    "en_classe": "Séance de peinture sans projet annoncé, avec de gros pinceaux et de grandes toiles. À la fin, chacun note ce qui a surgi et le reconnaît. (Non attesté à BMC ; la consigne de peindre sans plan est attestée à l'université du Nouveau-Mexique.)",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01460",
+     "CO-00839",
+     "ID-03432"
+    ]
+   },
+   {
+    "idee": "Matériaux pauvres : peindre à l'émail sur papier d'emballage en rouleau éprouve la durabilité du médium. Elle conseille aussi la colle Elmer à la place du gesso.",
+    "en_classe": "Peindre sur papier d'emballage en rouleau avec des matériaux courants, puis comparer leur tenue des semaines plus tard. (L'émail sur rouleau est attesté à BMC, comme pratique personnelle ; la colle Elmer à Albuquerque.)",
+    "atteste": "oui",
+    "refs": [
+     "ID-02081",
+     "CO-00839",
+     "SC-01086"
+    ]
+   },
+   {
+    "idee": "Un obstacle ou une pauvreté de moyens peut ouvrir une forme nouvelle : en roulant ses toiles faute de châssis, elle a trouvé les colonnes peintes.",
+    "en_classe": "Regarder la contrainte matérielle de l'atelier (stockage, cylindres, rouleaux) comme une forme en puissance et la transformer en œuvre. (Non attesté à BMC.)",
+    "atteste": "non",
+    "refs": [
+     "ID-03777",
+     "CO-00833",
+     "ID-00216"
+    ]
+   },
+   {
+    "idee": "Ne pas préformer le regard de l'autre : l'enseignante se tait devant l'œuvre jusqu'à ce que l'élève ait regardé et ressenti.",
+    "en_classe": "Conduire les élèves devant une œuvre en silence, puis questionner ; énoncer d'abord tout ce qui est là avant tout jugement sur ce qui manque. (Non attesté à BMC ; attesté à Paris avec la New York Studio School.)",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03498",
+     "CO-00878",
+     "ID-01459"
+    ]
+   },
+   {
+    "idee": "Écrire ce qu'on voit avant ce qu'on sait : la vraie critique part d'un regard direct sur l'œuvre.",
+    "en_classe": "Devant une toile, chacun décrit ce qu'il voit avant de dire ce qu'il en sait ou de la juger. (Non attesté à BMC.)",
+    "atteste": "non",
+    "refs": [
+     "ID-01271",
+     "ID-01698"
+    ]
+   },
+   {
+    "idee": "Utiliser le passé pour faire un bond : Gorky posait du papier calque sur des maîtres et encerclait les espaces négatifs, d'où ses formes végétales étranges.",
+    "en_classe": "Calquer un maître ancien et dessiner non les figures mais les vides entre elles. (Elle racontait cette anecdote à Albuquerque ; rien ne l'établit à BMC.)",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03495",
+     "CO-00839"
+    ]
+   },
+   {
+    "idee": "Un même rouge posé de cinq manières (coulé, traîné, glacé, éclaboussé, étalé à la truelle) change de caractère. Le désir a un droit de veto sur ce que la couleur « veut ».",
+    "en_classe": "Poser le même rouge de cinq façons sur cinq supports et nommer ce que chaque geste change. (Non attesté à BMC.)",
+    "atteste": "non",
+    "refs": [
+     "ID-01457"
+    ]
+   },
+   {
+    "idee": "Dessin et couleur : le dessin la contrôlait, la couleur la libérait, le geste devant refréner sa puissance.",
+    "en_classe": "Dessiner strictement pour cadrer l'élan, puis laisser la couleur déborder, puis reprendre le contrôle au coup de pinceau.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03528"
+    ]
+   },
+   {
+    "idee": "Deux conceptions de la toile : surface limitée à diviser (tradition européenne) contre image qui se déploie et dont les bords sont le dernier fait (Action Painting).",
+    "en_classe": "Deux consignes : peindre d'abord les bords, ou en décider en dernier. Comparer ce que la contrainte fait à la volonté. (BMC possible mais non attesté.)",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02874"
+    ]
+   },
+   {
+    "idee": "Horizontal et vertical : un tableau horizontal est naturaliste (paysage, bataille), un vertical est humain ou architectural. Elle ajoute que le noir résout tout.",
+    "en_classe": "Peindre le même motif en horizontal puis en vertical, et oser sacrifier la lucidité à l'action. Cette idée vient de ses aphorismes de 1958.",
+    "atteste": "non",
+    "refs": [
+     "ID-01465"
+    ]
+   },
+   {
+    "idee": "Grand format et petit format : une grande toile donne un « faux impressionnant » dont il faut se méfier. Le petit format est un défi, mais elle peint aussi de dix à vingt pieds avec un pinceau au bout d'un tube d'aluminium.",
+    "en_classe": "Peindre le même sujet en petit et en très grand, puis comparer ce qui résiste.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03529",
+     "SC-01924"
+    ]
+   },
+   {
+    "idee": "Portrait en gestalt : un aperçu global plutôt qu'une collection de traits. Elle peint Megan en vingt minutes, cinq minutes par trait du visage, en laissant le coup de pinceau visible.",
+    "en_classe": "Séance de portrait rapide, avec un chronomètre par trait, et un coup de pinceau laissé apparent.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02202",
+     "SC-02167"
+    ]
+   },
+   {
+    "idee": "Partir d'un seul trait du visage (un œil) et laisser ce trait engendrer le portrait. Il faut oublier ce qu'on sait du nez et de l'œil pour les réduire à des coups de peinture.",
+    "en_classe": "Exercice : commencer par un seul élément, un trait ou une tache, et construire toute la toile à partir de lui.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02334"
+    ]
+   },
+   {
+    "idee": "Le portrait est une réponse à la solitude, non à la présence : on ne peint pas un sourire, qui est une réponse à un autre être humain.",
+    "en_classe": "Faire poser sans sourire et chercher ce que le visage a été et sera, non ce qu'il joue.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02332"
+    ]
+   },
+   {
+    "idee": "Pour un modèle qui bouge, il faut mémoriser gestes et expressions et changer de dessin à chaque mouvement. Le fusain est le plus rapide.",
+    "en_classe": "Croquer un modèle en mouvement permanent, une feuille par posture, sans raturer. Puis peindre en atelier uniquement d'après les croquis et comparer les deux états d'attention.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03820",
+     "ID-03779",
+     "ID-01514"
+    ]
+   },
+   {
+    "idee": "Ressemblance et tableau abstrait : le portrait doit être reconnaissable (« l'épicier doit dire : c'est bien lui ») tout en résolvant un espace abstrait.",
+    "en_classe": "Peindre un même modèle trois fois : traits exagérés, ombres gribouillées, contour pur.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02333"
+    ]
+   },
+   {
+    "idee": "L'artiste de commande garde ses droits : le portraitiste flatte, le peintre utilise le modèle comme point de départ.",
+    "en_classe": "Peindre le modèle tel qu'on le ressent et non tel qu'il souhaite être vu, puis assumer le conflit. (La scène du dentiste vexé la montre en pratique.)",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03438",
+     "SC-01861",
+     "SC-01961"
+    ]
+   },
+   {
+    "idee": "Le sujet d'une abstraction : toute peinture abstraite a un sujet, et le style choisi en fait partie.",
+    "en_classe": "Faire décrire à des élèves ce que peint un tableau abstrait : ils nomment toujours quelque chose, une histoire ou une filiation. (Lien indirect avec Albers ; non attesté à BMC.)",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02197",
+     "ID-03417",
+     "ID-03496"
+    ]
+   },
+   {
+    "idee": "La platitude est autant une illusion que l'espace tridimensionnel : elle n'a de sens que dans la vie pratique (conduire, dresser une table).",
+    "en_classe": "Montrer qu'un tableau « plat » fabrique quand même de la profondeur par les seuls rapports de couleur. (Elle répondait implicitement à Greenberg ; lien possible avec Albers, non attesté.)",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02198",
+     "ID-03007"
+    ]
+   },
+   {
+    "idee": "Titrer, c'est identifier et non décrire : le titre doit être ambigu et fidèle à l'expérience du peintre. Chez Kline, un titre est un mot qui convainc tout le monde.",
+    "en_classe": "Atelier de titrage : on parle de tout sauf de peinture, et un mot pêché devient titre s'il convainc tous les participants. (Elle a vécu cela avec Kline, SC-00783, et avec Bill, SC-01159 ; non attesté en classe à BMC.)",
+    "atteste": "non",
+    "refs": [
+     "ID-01516",
+     "SC-00783",
+     "SC-01159"
+    ]
+   },
+   {
+    "idee": "Regarder une fissure ou une tache jusqu'à y voir une forme : l'art des cavernes, les animaux surgis des fissures de la pierre, et sa propre méthode.",
+    "en_classe": "Regarder une tache ou une fissure jusqu'à y voir une forme, puis la fixer d'un trait minimal. Travailler avec la surface, pas contre elle.",
+    "atteste": "non",
+    "refs": [
+     "ID-01466",
+     "ID-04188",
+     "ID-01463"
+    ]
+   },
+   {
+    "idee": "Travailler en série : répéter un motif pour découvrir la variété qu'il contient et obtenir la liberté. Il faut être obsédé par une image pour faire ses meilleures peintures.",
+    "en_classe": "Reprendre le même sujet dix fois, ou dessiner une forme chaque jour jusqu'à ce qu'elle engendre la suivante.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-04189",
+     "ID-04171",
+     "ID-03497"
+    ]
+   },
+   {
+    "idee": "L'abandon longtemps pratiqué devient habileté : la liberté du geste et le risque permanent forgent la compétence.",
+    "en_classe": "Commencer par un geste grand et téméraire ; le contrôle viendra de la répétition. (Elle a mis un fusain dans la main de Randall qui n'avait jamais dessiné.)",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03493"
+    ]
+   },
+   {
+    "idee": "Même en partant d'un concept, l'intuition reprend le dessus : si elle ne vous surprend pas, vous n'avez rien.",
+    "en_classe": "Commencer avec une idée si l'on veut, puis vérifier si le travail a surpris son auteur.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03532",
+     "ID-03000"
+    ]
+   },
+   {
+    "idee": "Un geste apparemment spontané peut être le résultat de dizaines d'essais : la discipline se cache sous l'arbitraire apparent.",
+    "en_classe": "Travailler un geste jusqu'à ce qu'il soit reconnu : repeindre dix fois la même touche et comparer avec la première. (Idée formulée à propos de Bill ; non attestée à BMC.)",
+    "atteste": "non",
+    "refs": [
+     "ID-00831",
+     "ID-01989"
+    ]
+   },
+   {
+    "idee": "Peindre grand ceux que personne ne regarde : la taille elle-même est un argument.",
+    "en_classe": "Choisir comme sujet des personnes invisibles du quartier et les peindre en très grand format. (Elle l'a pratiqué avec The Burghers of Amsterdam Avenue, 1962-1963.)",
+    "atteste": "non",
+    "refs": [
+     "ID-03741"
+    ]
+   },
+   {
+    "idee": "La corrida : la toile comme arène où l'acte compte plus que l'image. Elle peint à la perche d'aluminium, en fente de matador, et regarde le sujet du point de vue du taureau.",
+    "en_classe": "Peindre debout, en mouvement, au bout d'une perche ; ou regarder un spectacle du point de vue de la victime, puis le pousser jusqu'à la pure tranche de couleur.",
+    "atteste": "non",
+    "refs": [
+     "ID-03432",
+     "ID-03433",
+     "ID-03496",
+     "SC-01924"
+    ]
+   },
+   {
+    "idee": "Le portrait et la mémoire : on voit les gens à travers la mémoire, non seulement les yeux ; le portrait garde des pressentiments du passé et de l'avenir du visage.",
+    "en_classe": "Regarder le modèle comme la somme de tous les instants où on l'a vu, puis fixer cette somme en une pose.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03740",
+     "ID-02332"
+    ]
+   },
+   {
+    "idee": "Reproduction et original : trop de reproductions donnent l'illusion de connaître un tableau jamais rencontré.",
+    "en_classe": "Comparer reproduction et original, et se demander ce que fait à la perception une familiarité de seconde main.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01953"
+    ]
+   },
+   {
+    "idee": "Ne pas peindre « en anglais » (littérairement), et noter à la fin ce que le tableau interdit de recommencer.",
+    "en_classe": "À la fin d'un travail, noter ce que le tableau interdit de refaire plutôt que ce qu'il a réussi.",
+    "atteste": "non",
+    "refs": [
+     "ID-01458"
+    ]
+   },
+   {
+    "idee": "Le sport comme langage universel et la photo de presse comme matrice : regarder une photo de journal à distance, nommer les zones de valeur, puis inventer la palette.",
+    "en_classe": "Repeindre une photo de sport de presse en noir et blanc dans une palette inventée. (Esprit proche des exercices en matériaux pauvres de BMC, non attesté.)",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00031",
+     "ID-01956"
+    ]
+   }
+  ]
+ }
+}

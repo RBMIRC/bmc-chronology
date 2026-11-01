@@ -1,0 +1,575 @@
+{
+ "passe": "personnes",
+ "cle": "John Cage",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 95838,
+  "sortie": 6810,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "John Cage",
+  "autres_noms": [
+   "John Milton Cage Jr."
+  ],
+  "dates_de_vie": "né en 1912 ; mort non datée dans les fiches",
+  "statut_bmc": "Visiteur puis enseignant d'été : accompagnateur de Cunningham en avril 1948, instructeur (premier poste d'enseignement de composition) à l'été 1948, retours aux étés 1951-1953 selon certaines sources (été 1952 attesté)",
+  "presence": [
+   {
+    "debut": "1948-04",
+    "fin": "1948-04",
+    "precision": "mois",
+    "role": "Première visite comme accompagnateur au piano de Merce Cunningham ; joue les Sonates et Interludes et expose longuement sa démarche",
+    "refs": [
+     "EV-04329",
+     "EV-04480",
+     "EV-04481",
+     "CO-00487",
+     "SC-01162",
+     "SC-01163"
+    ]
+   },
+   {
+    "debut": "1948-07",
+    "fin": "1948-08",
+    "precision": "saison",
+    "role": "Instructeur (Structure de la musique et chorégraphie) ; festival Satie (25 concerts), Defense of Satie, mise en scène du Piège de Méduse ; petits-déjeuners Fuller-Cunningham",
+    "refs": [
+     "EV-04229",
+     "EV-04231",
+     "EV-04158",
+     "EV-04346",
+     "EV-04442",
+     "CO-00489",
+     "SC-01094"
+    ]
+   },
+   {
+    "debut": "1952-07",
+    "fin": "1952-08",
+    "precision": "saison",
+    "role": "Été du Williams Mix, de la lecture nocturne du Huang Po, des discussions Artaud et du Theater Piece No. 1 (premier happening)",
+    "refs": [
+     "EV-05624",
+     "EV-05627",
+     "EV-05786",
+     "EV-05844",
+     "CO-00698",
+     "SC-01487"
+    ]
+   },
+   {
+    "debut": "1953-06",
+    "fin": "1953-08",
+    "precision": "saison",
+    "role": "Présence attestée autour de la fondation de la compagnie Cunningham (fête d'anniversaire de Merce à Streamside)",
+    "refs": [
+     "EV-06027",
+     "EV-06097"
+    ]
+   }
+  ],
+  "portrait_physique": "Toujours très formel : costume citadin noir, cravate, col empesé, souliers noirs pointus très brillants (« comme le fils du croque-mort » selon Francine du Plessix Gray), grosse transpiration montant d'un crâne un peu touffu. À côté d'Olson en serape torse nu, le contraste est saisissant. Peut aussi apparaître en salopette kaki, visage pâle et inexpressif de « montagnard lunaire », pris pour un aide-fermier jusqu'à ce qu'il parle. Écriture manuscrite distinctive en capitales, sorte de calligraphie visuelle. Se dit lui-même mauvais pianiste. Photographié par Kalischer en 1948, dans sa Ford Model A en 1952.",
+  "noyau_psychologique": "Un homme qui a transformé une blessure (l'échec de communication de The Perilous Night, la rupture avec l'héritage harmonique que Schoenberg lui reprochait) en programme : renoncer à l'expression de soi, laisser les sons et les choses être eux-mêmes, remplacer les choix par des questions posées au hasard. Ascète provocateur : prêche la non-intention avec un aplomb de prédicateur et une rigueur d'administrateur. Conflit central que Duberman souligne : son anarchie proclamée repose sur une structure intentionnelle considérable — horaires stricts, brackets temporels, exigence d'interprétation sobre.",
+  "blessures": "Échec de son mariage avec Xenia (turbulence de The Perilous Night, 1944) ; constat que son émotion ne communiquait pas — décide d'abandonner la composition s'il ne trouve pas mieux que la communication ; verdict de Schoenberg sur son manque de sens de l'harmonie ; rupture d'amitié avec Albers en 1952 (« tu renonces à ta responsabilité d'artiste ») ; refus répété de Black Mountain à ses candidatures des années 1930-1942 ; mémoire sélective qui confond Bodky et Goodman dans le récit du duel Beethoven.",
+  "desirs": "Effacer la différence entre art et vie ; faire du silence et du bruit ambiant une matière d'écoute ; imposer Satie contre Beethoven comme ligneée musicale légitime ; fonder une esthétique américaine opposée à la tradition allemande ; que la musique « imite la nature dans la manière de ses opérations ».",
+  "peurs": "Selon Carolyn Brown, « les sous-produits de l'anarchie le rendaient extrêmement mal à l'aise » — le chaos réel le gêne alors qu'il le théorise ; inquiétude perceptible envers Albers ressenti comme menace personnelle ; peur implicite d'être en retard sur la peinture (c'est ce qui déclenche 4'33» face aux White Paintings).",
+  "maniere_d_aimer": "Amours et amitiés par admiration esthétique réciproque et travail partagé : Cunningham (compagnon « plutôt bien cachés », arrivées ensemble au petit-déjeuner), Rauschenberg (amitié-émulation, querelle de paternité du Tire Print), Fuller (petits-déjeuners quotidiens, allégeance durable), Elaine de Kooning (dédicace du Solo for Piano), Anni Albers. Lettre d'excuse à Tudor suggérant des avances rejetées. Honore les liens par des dédicaces d'œuvres. Refroidissement postérieur avec Rauschenberg après 1964 (brouille liée à la phrase sur la compagnie Cunningham).",
+  "rapport_au_pouvoir": "Se dit anarchiste mais pense que « pour être praticable, l'anarchie a besoin que tous les services publics fonctionnent » — d'où l'alliance avec le design total de Fuller, contradiction soulignée par Kostelanetz et Duberman (tendances totalitaires chez Fuller). Au collège, compare Albers (autorité oligarchique sous anarchie de surface) et Olson (communauté « vraiment anarchique » mais direction insuffisante). Conteste toute hiérarchie sonore ou matérielle, mais exige des interprètes une exécution sobre et minutée. Enseigne sans enseigner : « ils ne voulaient pas faire mon travail pour moi, donc je ne les enseignerais pas ».",
+  "voix": {
+   "registre": "Formules définitives, aphorismes tranchants, ton de manifeste déguisé en causerie ; ironie sardonique puis bénédiction orientale ; télégrammes pleins d'humour et de diplomatie ; rire zen cristallin ponctuant le laconisme",
+   "tics": "Rires en cascade à table avec Elaine et Cunningham (« les giggleuses ») ; répète la phrase de Coomaraswamy sur la nature ; refuse de répondre aux questions sur les tasses avant la fin ; formules zen (« chaque jour est un beau jour »)",
+   "exemples_paraphrases": [
+    "Beethoven était dans l'erreur, et son influence a été mortelle pour l'art musical",
+    "Il n'y a eu qu'une seule idée nouvelle depuis Beethoven — chez Webern et Satie",
+    "L'expérimental, c'est simplement un acte dont l'issue est inconnue",
+    "Je n'ai rien à dire et je le dis, et c'est de la poésie",
+    "À qui cela peut concerner : les peintures blanches sont venues en premier, ma pièce silencieuse ensuite",
+    "Pour s'intéresser à Satie, il faut d'abord être désintéressé",
+    "Je consacrerai ma vie à me cogner la tête contre ce mur (à Schoenberg)",
+    "Elles sont toutes également bonnes (sur les places assises)",
+    "Nous sommes fiers de ne pas savoir ce que nous faisons",
+    "C'était comme une bombe tombant sur l'endroit"
+   ]
+  },
+  "habitudes": [
+   "Petits-déjeuners quotidiens sous les arbres avec Fuller et Cunningham (1948) : invention de la « finishing school » itinérante",
+   "Concerts Satie trois soirs par semaine, souvent dans son cottage, fenêtres ouvertes, public sur la pelouse",
+   "Travaille le piano préparé : boulons, vis, lanières de cuir dans les cordes",
+   "Composition par tirages du I Ching (pièces de monnaie, bâtonnets d'achillée)",
+   "Dormir par terre quand il n'y a pas de lit (été 1948)",
+   "Conduire sa Ford Model A — seul propriétaire de voiture du cercle",
+   "Écriture manuscrite en capitales calligraphiées"
+  ],
+  "convictions": [
+   "L'action expérimentale est un acte dont le résultat n'est pas prévu",
+   "La musique s'organise dans la durée, non dans l'harmonie ; le silence s'entend en durées",
+   "Le silence n'existe pas : le corps est un concert ambulant (chambre anéchoïque)",
+   "Le hasard est une discipline, non un abandon des choix : poser des questions au lieu de choisir",
+   "L'art n'est pas l'auto-expression ; l'art est une affirmation de la vie, s'éveiller à la vie qu'on vit",
+   "L'anarchie pratique requiert que les services publics fonctionnent (Fuller)",
+   "Les sons et objets sont des faits, pas des symboles",
+   "La bonne musique peut servir de guide à la bonne vie"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1948-04",
+    "precision": "mois",
+    "moment": "Première visite avec Cunningham : concert des Sonates et Interludes, longues explications ; découvertes sous la voiture au départ : cadeaux des étudiants",
+    "etat_interieur": "Reconnaissance inattendue dans une communauté amicale ; lettre aux Albers : « je vois que les gens peuvent encore travailler ensemble »",
+    "refs": [
+     "SC-01162",
+     "SC-01163",
+     "EV-04356",
+     "CI-02107"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "moment": "Festival Satie : 25 concerts, Defense of Satie dénonçant Beethoven comme une bombe ; querelle avec Bodky ; duels verbaux à table ; bataille de nourriture de Levi",
+    "etat_interieur": "Zèle de néophyte au « premier éblouissement amoureux » de Satie ; provocation assumée face à l'establishment germanique",
+    "refs": [
+     "EV-04231",
+     "EV-04232",
+     "EV-04233",
+     "EV-04234",
+     "SC-01079",
+     "SC-01097",
+     "CI-02168"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "mois",
+    "moment": "Le Piège de Méduse : Fuller en Baron, Cunningham en singe mécanique, Penn à la mise en scène — succès qui réhabilite Cage ; petits-déjeuners de la finishing school avec Fuller",
+    "etat_interieur": "Apaisement et exaltation : naissance de l'alliance Fuller-Cage contre le modèle d'Albers",
+    "refs": [
+     "EV-04339",
+     "EV-04239",
+     "EV-04442",
+     "EV-04443"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Music of Changes par I Ching ; visite de l'exposition Parsons ; rupture Albers-Cage sur la question du hasard (« tu renonces à ta responsabilité d'artiste »)",
+    "etat_interieur": "Bascule vers le hasard exclusif ; douleur de perdre l'amitié d'Albers qu'il admirait (« il unissait la rigueur allemande et la capacité d'inspirer la liberté »)",
+    "refs": [
+     "EV-05469",
+     "EV-05318",
+     "CI-00550",
+     "CI-00640",
+     "EV-01439"
+    ]
+   },
+   {
+    "date": "1952-07",
+    "precision": "mois",
+    "moment": "Été du Williams Mix (aucun étudiant inscrit), lecture nocturne du Huang Po, discussions Artaud avec Tudor et Richards",
+    "etat_interieur": "Maturité spirituelle et isolation pédagogique : « ami des étudiants » plutôt que professeur ; conversations « électriques » avec Tudor",
+    "refs": [
+     "EV-05626",
+     "EV-05627",
+     "EV-05786",
+     "CI-02821",
+     "CI-02829"
+    ]
+   },
+   {
+    "date": "1952-08",
+    "precision": "mois",
+    "moment": "Theater Piece No. 1 dans le réfectoire : 45 minutes de segments chevauchants, chaises en quatre triangles, White Paintings, Piaf accélérée, Wolpe sort furieux ; composition de 4'33» la même année",
+    "etat_interieur": "Accomplissement du « dessein sans dessein » ; serein au milieu du chaos (« toutes les places sont également bonnes »)",
+    "refs": [
+     "EV-05844",
+     "EV-05630",
+     "EV-05762",
+     "SC-01487",
+     "CI-02826",
+     "CI-02827"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Retour au collège autour de la fondation de la compagnie Cunningham ; apparition en salopette kaki, pris pour un aide-fermier",
+    "etat_interieur": "Ancrage communautaire ; présence discrète, quasi paysanne",
+    "refs": [
+     "EV-06030",
+     "EV-06097"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1912",
+    "precision": "annee",
+    "moment": "Naissance",
+    "refs": [
+     "PE-00006"
+    ]
+   },
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "Deux ans d'études avec Schoenberg à Los Angeles ; verdict sur l'harmonie ; réponse de Cage : se cogner la tête contre ce mur ; antipathie durable envers l'héritage germanique",
+    "refs": [
+     "EV-01496",
+     "RE-00667",
+     "CI-00638"
+    ]
+   },
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "Premier contact avec le zen et Dada à la Cornish School de Seattle (conférence de Nancy Wilson Ross)",
+    "refs": [
+     "EV-01497"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "annee",
+    "moment": "Premiers talks publics où il parle déjà de procédures « expérimentales », à vingt-cinq ans",
+    "refs": [
+     "EV-02664"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "annee",
+    "moment": "Candidatures à Black Mountain refusées (fin des années 1930 et 1942, projet de Centre de musique expérimentale) ; cours avorté chez Moholy-Nagy à Chicago faute d'argent",
+    "refs": [
+     "EV-02775",
+     "EV-03208",
+     "EV-03552"
+    ]
+   },
+   {
+    "date": "1944",
+    "precision": "annee",
+    "moment": "The Perilous Night : échec de communication, décide d'abandonner la composition sans meilleur motif",
+    "refs": [
+     "EV-03572",
+     "CI-04367"
+    ]
+   },
+   {
+    "date": "1946-02",
+    "precision": "annee",
+    "moment": "Composition des Sonatas and Interludes, « mariage de la forme et du contenu », vues « assez germaniques » — bagage avec lequel il arrive à BMC",
+    "refs": [
+     "EV-03958",
+     "OE-01835"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Music for Marcel Duchamp : signe de l'importance de Duchamp ; projet antérieur de Silent Prayer (pièce silencieuse pour la radio, contredisant la chronologie officielle de 4'33»)",
+    "refs": [
+     "EV-04089",
+     "EV-04385"
+    ]
+   },
+   {
+    "date": "1944",
+    "precision": "periode",
+    "moment": "Séminaires de Suzuki sur le bouddhisme ; rencontre décisive avec Boulez à Paris (1949) qui le mène à Artaud ; premier « éblouissement amoureux » pour Satie découvert peu avant, avec Le Piège de Méduse trouvé à la New York Public Library",
+    "refs": [
+     "EV-03590",
+     "RE-01300",
+     "EV-04686",
+     "EV-04230"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Automobile Tire Print avec Rauschenberg à Fulton Street ; querelle amicale de paternité",
+    "refs": [
+     "EV-06135",
+     "SC-01649",
+     "CI-03040"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Rejoint la Gate Hill Cooperative de Stony Point avec Richards, Tudor, Karnes, Weinrib ; musique de Minutiae avec décor de Rauschenberg",
+    "refs": [
+     "EV-06381",
+     "EV-06508"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "moment": "Winter Music, première incursion dans l'indéterminisme, dédié à Rauschenberg et Johns ; conférence « Vers le théâtre »",
+    "refs": [
+     "EV-06947",
+     "CI-03450"
+    ]
+   },
+   {
+    "date": "1958",
+    "precision": "annee",
+    "moment": "Rétrospective Town Hall (25 ans de musique) ; conférence « Indeterminacy » à Darmstadt",
+    "refs": [
+     "EV-07070",
+     "EV-07080"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "periode",
+    "moment": "Cours Experimental Composition à la New School : forme Kaprow, Brecht, Higgins, Hansen, Mac Low — genèse de Fluxus et des happenings",
+    "refs": [
+     "EV-06952",
+     "CO-00838"
+    ]
+   },
+   {
+    "date": "1960-01",
+    "precision": "mois",
+    "moment": "Water Walk à la télévision (I've Got a Secret) : 34 objets, 3 minutes, slapstick contrôlé au chronomètre",
+    "refs": [
+     "EV-07314",
+     "SC-01935"
+    ]
+   },
+   {
+    "date": "1961",
+    "precision": "annee",
+    "moment": "Publication de Silence ; essai sur Rauschenberg dans Metro (« Pas d'idées mais des faits ») ; consécration de la dette envers les White Paintings",
+    "refs": [
+     "EV-07383",
+     "CI-03682",
+     "CI-03710"
+    ]
+   },
+   {
+    "date": "1963-09",
+    "precision": "mois",
+    "moment": "Marathon de Vexations de Satie (plus de 18 heures) ; directeur de la Foundation for Contemporary Performance Arts",
+    "refs": [
+     "EV-07649",
+     "EV-07600"
+    ]
+   },
+   {
+    "date": "1969-04",
+    "precision": "mois",
+    "moment": "Entretien avec Duberman : se défait du crédit du premier happening (« les histoires m'attribuent toutes sortes de choses »)",
+    "refs": [
+     "EV-08105",
+     "CI-04112"
+    ]
+   },
+   {
+    "date": "1988",
+    "precision": "annee",
+    "moment": "Conférences Norton à Harvard, publiées sous le titre I-VI ; autobiographie en 1991",
+    "refs": [
+     "PE-00006"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Merce Cunningham",
+    "nature": "compagnon de vie et collaborateur",
+    "evolution": "Accompagnateur au piano depuis les tournées de 1943 ; « plutôt bien cachés » à BMC ; collaboration par structure rythmique, musique et danse indépendantes ; amitié et attachement durable",
+    "refs": [
+     "RE-01240",
+     "RE-01691",
+     "RE-01712",
+     "RE-02351",
+     "EV-06028"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "mentorat puis rupture",
+    "evolution": "Accord « eye-to-eye » en 1948, admiration mutuelle, premier poste d'enseignement offert par Albers ; rupture de l'amitié en 1952 sur la question du hasard (« tu renonces à ta responsabilité d'artiste ») ; Cage reconstruit la querelle comme américain contre européen",
+    "refs": [
+     "RE-01634",
+     "RE-01762",
+     "RE-01767",
+     "CI-00550",
+     "CI-02154",
+     "EV-05782"
+    ]
+   },
+   {
+    "avec": "Buckminster Fuller",
+    "nature": "admiration et alliance intellectuelle",
+    "evolution": "Petits-déjeuncers de la finishing school (1948) ; amitié à vie ; Cage pense anarchisme et planification globale compatibles (Duberman et Kostelanetz en doutent)",
+    "refs": [
+     "RE-01690",
+     "RE-01777",
+     "RE-01436",
+     "EV-04442"
+    ]
+   },
+   {
+    "avec": "Robert Rauschenberg",
+    "nature": "amitié, émulation, collaboration",
+    "evolution": "Rencontre à BMC puis exposition Parsons 1951 ; White Paintings déclenchant 4'33» ; Tire Print, querelle de paternité ; échange d'œuvres ; refroidissement après 1952 puis brouille durable après la phrase de 1964 (« la compagnie est ma plus grande toile »)",
+    "refs": [
+     "RE-01706",
+     "RE-02313",
+     "EV-05418",
+     "SC-01649",
+     "EV-07689",
+     "RE-02354"
+    ]
+   },
+   {
+    "avec": "David Tudor",
+    "nature": "collaboration artistique et probable attirance",
+    "evolution": "Compositeur pour Tudor d'œuvres d'indétermination croissante ; lettre d'excuse suggérant des avances rejetées ; complicité de la conception du happening ; correspondance méticuleuse et comptée",
+    "refs": [
+     "RE-02060",
+     "EV-01582",
+     "RE-02350",
+     "CI-02796"
+    ]
+   },
+   {
+    "avec": "Erik Satie",
+    "nature": "admiration passionnée",
+    "evolution": "« Premier éblouissement amoureux de jeunesse » ; devient moteur du festival de 1948, de la Defense of Satie et du marathon Vexations de 1963",
+    "refs": [
+     "RE-01250",
+     "RE-01765",
+     "EV-04230"
+    ]
+   },
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "amitié, rires, dédicaces",
+    "evolution": "Rencontre 1947-48 ; rires en cascade à table (« les giggleuses ») ; rôle de Frisette ; dédicace du Solo for Piano (1958)",
+    "refs": [
+     "RE-01591",
+     "RE-02805",
+     "EV-04477"
+    ]
+   },
+   {
+    "avec": "Anni Albers",
+    "nature": "admiration et amitié",
+    "evolution": "« Elle a cherché les possibilités de liberté plus que lui » ; Silence et On Weaving chez le même éditeur",
+    "refs": [
+     "RE-01437",
+     "RE-00354"
+    ]
+   },
+   {
+    "avec": "Stefan Wolpe",
+    "nature": "conflit et rejet mutuel",
+    "evolution": "Wolpe répugne à l'indétermination (« il ne donnera pas le domaine de la décision humaine ») ; quitte le happening de 1952 furieux ; Cage lui préfère Lou Harrison",
+    "refs": [
+     "RE-01247",
+     "RE-02352",
+     "RE-02345"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "admiration personnelle, réserve administrative",
+    "evolution": "Cage « dévoué » à Olson (« doux et charmant qu'un petit chien ») mais juge son autorité insuffisante ; participe à son happening malgré l'hostilité d'Olson à la musique hasardeuse",
+    "refs": [
+     "RE-02346",
+     "RE-02347",
+     "RE-02444",
+     "CI-02822"
+    ]
+   },
+   {
+    "avec": "M.C. Richards",
+    "nature": "collaboration intellectuelle",
+    "evolution": "Aide à la traduction du Piège de Méduse puis d'Artaud ; l'intensité nourrit le happening",
+    "refs": [
+     "RE-00838",
+     "EV-01934",
+     "EV-05786"
+    ]
+   },
+   {
+    "avec": "Arnold Schoenberg",
+    "nature": "mentorat et rupture",
+    "evolution": "Critique du manque de sens harmonique ; Cage promet de se cogner la tête contre ce mur ; antipathie durable envers l'héritage germanique",
+    "refs": [
+     "RE-00667",
+     "EV-01496"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La querelle du « duel » Beethoven : Cage attribue l'indignation à Paul Goodman (brouille durable), mais Goodman n'était pas à BMC l'été 1948 — Duberman conclut que Cage a fusionné deux souvenirs, l'outragé étant Bodky",
+   "Genèse de 4'33» : version officielle (White Paintings d'abord, pièce silencieuse ensuite, proclamée en 1961) contre l'existence antérieure de Silent Prayer (projet radiophonique silencieux, 1948)",
+   "Cage revendique le hasard comme anarchie non intentionnelle, mais Duberman et Díaz soulignent la structure intentionnelle considérable sous-jacente ; Weinrib note que les œuvres « indéterminées » ne pouvaient venir que de Cage ; la pratique de Tudor fixait l'aléatoire par répétition",
+   "L'anarchisme de Cage coexisterait avec la planification totalisante de Fuller — accord Cage, doute de Kostelanetz et Duberman",
+   "Détails du Theater Piece No. 1 : contenus, présence d'Olson, nature des toiles (noires ou blanches), texte lu (Eckhart contesté) varient selon les témoins ; durée prévue 45 minutes mais récits s'étalant sur des heures",
+   "Date de l'événement de 1952 : calendrier du collège note un « concert » de Cage le 16 août, sans certitude",
+   "Dates de présence : certains auteurs évoquent des enseignements 1952-1953 ou « cinq années » — seuls les étés 1948 et 1952 sont solidement attestés"
+  ],
+  "situations_revelatrices": [
+   "À table, face à Bodky : la déclaration « Beethoven était dans l'erreur » — le provocateur assumé contre l'ancien monde",
+   "Au piano, fenêtres ouvertes, jouant Satie trois fois par semaine avec délicatesse — le champion zélé, mauvais pianiste assumé",
+   "Seul dans une classe vide pour le Williams Mix — le maître du hasard abandonné par ses étudiants",
+   "Sur une échelle pendant le happening, calme au milieu du chaos — la théorie incarnée",
+   "Au volant de sa Ford A sur l'encre de Fulton Street — le collaborateur égalitaire, querelle de paternité à la clé",
+   "En salopette kaki au réfectoire, pris pour un aide-fermier — l'anonymat choisi du maître zen",
+   "Confondant Bodky et Goodman des années plus tard — la mémoire sélective du mythe en construction"
+  ],
+  "citations": [
+   "CI-01749",
+   "CI-02096",
+   "CI-02103",
+   "CI-02168",
+   "CI-02107",
+   "CI-02097",
+   "CI-02098",
+   "CI-02099",
+   "CI-02154",
+   "CI-00638",
+   "CI-00640",
+   "CI-00550",
+   "CI-00551",
+   "CI-03710",
+   "CI-03676",
+   "CI-03682",
+   "CI-03688",
+   "CI-02761",
+   "CI-02762",
+   "CI-02826",
+   "CI-02827",
+   "CI-02829",
+   "CI-03040",
+   "CI-04112",
+   "CI-02001",
+   "CI-01515",
+   "CI-00402",
+   "CI-02821",
+   "CI-02822",
+   "CI-04367",
+   "CI-02057"
+  ],
+  "questions_ouvertes": [
+   "Où dormait réellement Cunningham pendant l'été 1948 — Cage ne l'a jamais dit",
+   "Le contenu exact de la lecture de Cage pendant Theater Piece No. 1 (Eckhart ? Emerson et Thoreau ? Zen ?) et la date précise de l'événement",
+   "La nature exacte des relations avec Tudor au-delà de la lettre d'excuse",
+   "Ce que sont devenus les décors et costumes du Piège de Méduse emportés à New York (projet avorté)",
+   "Les réponses (ou absence de réponses) du collège aux candidatures des années 1930-1942 — pas de trace aux archives de Raleigh",
+   "Les circonstances de la brouille postérieure avec Rauschenberg : quelle phrase exacte, quel contexte",
+   "Sa vie conjugale avec Xenia et les détails de la séparation, seulement esquissés"
+  ]
+ }
+}

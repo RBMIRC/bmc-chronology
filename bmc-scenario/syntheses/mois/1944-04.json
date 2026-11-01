@@ -1,0 +1,358 @@
+{
+ "passe": "mois",
+ "cle": "1944-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5161,
+  "sortie": 20285,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1944-04 (avril 1944)",
+  "session": "Trimestre de printemps, avant les instituts d'été (déduit : les fiches ne nomment pas la session ; l'admission est visée pour le trimestre d'automne et les instituts d'été commencent en juin)",
+  "saison_et_climat": "Printemps 1944 (déduit du mois). Aucune fiche ne décrit le climat. Les instituts d'été s'annoncent pour juin.",
+  "situation": "En avril, le débat sur l'admission d'étudiants noirs atteint son point le plus tendu. Quatre mois de réunions de faculté et de séances communautaires (du 25 janvier au 10 mai) ont formé des camps nets. Les étudiants sont favorables à deux contre un, mais 38 signataires sur 50 pour plus d'un étudiant noir n'ont aucun effet sur le vote du corps enseignant. Le 17 avril, Straus expose sa position en réunion ; le 25, Albers propose d'élargir l'admission aux étudiants indiens, chinois et américano-japonais pour ne pas paraître agressif. Un compromis se dessine : une seule femme noire, âgée et qualifiée, admise pour l'été comme « membre de l'Institut ». La communauté reste divisée. Le trésorier adjoint Orr démissionne le 26 avril. Selon Lane, Dreier est sommé de rompre avec le Rosenwald Fund, à une date non précisée. La scission entre anciens et nouveaux membres est déjà engagée.",
+  "presents_probables": [
+   {
+    "nom": "Erwin Straus",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frances de Graaff",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Paul Radin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Eric Bentley",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Edward Lowinsky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ferdinand Hansgirg",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Miller",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Orr",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cohen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Foreman",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-01-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Ouverture de la série de réunions de faculté sur l'admission d'étudiants noirs, qui se succèdent jusqu'au 10 mai.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03612"
+    ]
+   },
+   {
+    "date": "1944-04-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Gropius écrit à Dreier, dans une correspondance suivie pendant la guerre. La lettre est conservée aux Archives du Bauhaus à Berlin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03624"
+    ]
+   },
+   {
+    "date": "1944-04-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Straus déclare en faculté que le Noir est « étrange » et que la formule « nous sommes tous des êtres humains » est trop simple. Certains le qualifient de raciste, anonymement.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03625",
+     "SC-00918"
+    ]
+   },
+   {
+    "date": "1944-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunion de faculté où les accusations fusent (couloir, communisme, propagande) ; plusieurs heures d'affrontement sans résolution.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00917"
+    ]
+   },
+   {
+    "date": "1944-04-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers écrit à d'Harnoncourt : il faudrait aussi admettre des étudiants indiens, chinois et américano-japonais pour que l'action ne paraisse pas une agression.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03626"
+    ]
+   },
+   {
+    "date": "1944-04-26",
+    "precision": "jour",
+    "ce_qui_arrive": "Démission du trésorier adjoint Orr, en partie à cause de l'admission et plus généralement parce que le collège tente « trop avec trop peu ».",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1944-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Consensus d'avril-mai : une seule femme noire, âgée et qualifiée, professeur de musique à Fort Valley et recommandée par Bond, est admise pour l'été avec le statut hybride de « membre de l'Institut ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03612"
+    ]
+   },
+   {
+    "date": "1944-05-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Fin de la série de réunions de faculté sur la question noire, selon la synthèse.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03612"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Selon Lane, Dreier, qui avait obtenu l'engagement du corps enseignant auprès du Rosenwald Fund, voit celui-ci reculer « pas trop vite ». Il reçoit l'ordre de rompre avec la fondation et reste seul. La synthèse ne date pas cette séquence et ne la recoupe pas.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les fiches documentent très peu la vie ordinaire. On sait que la communauté vit sous des réunions à répétition et des séances marathon. Deux étudiants noirs et un professeur de Fisk logent en dortoir sans incident (date non précisée). Wunsch propose des visiteurs noirs pour quelques semaines à l'institut de musique, précédés d'un cours sur les relations raciales. Rien n'est donné sur les repas, les travaux, la musique ou les cours pour avril.",
+  "tensions": [
+   "Accusation de communisme contre Bentley, relayée par Hansgirg qui croit la retirer ; Bentley enrage et Lowinsky le pique",
+   "Straus accuse de Graaff de parler à portes closes aux étudiants pour les pousser dans une position ; de Graaff porte plainte pour accusation de couloir",
+   "Radin demande à partir de quand un professeur a le droit de perdre patience, en se défendant par son propre cas",
+   "Menaces externes invoquées par le camp du refus : boycott des commerçants, incendie criminel, précédent du séminaire d'Anniston, lettres de Hurston, Lipsey et Shepard",
+   "Wunsch écrit à Evarts qu'intégrer reviendrait à déclarer une guerre ouverte au Sud",
+   "Bentley ironise sur le statut « Hofjude » : des réfugiés du racisme nazi refusent l'égalité à d'autres persécutés",
+   "Départs : démission d'Orr ; fracture entre anciens et nouveaux membres",
+   "Pressions sur Dreier et le Rosenwald Fund, selon Lane"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Réunion de faculté : l'explosion de la boîte de Pandore",
+    "date": "1944-04",
+    "lieu": "Black Mountain College, salle de réunion",
+    "personnages": [
+     "Frances de Graaff",
+     "Erwin Straus",
+     "Paul Radin",
+     "Eric Bentley",
+     "Edward Lowinsky",
+     "Ferdinand Hansgirg"
+    ],
+    "deroule": "De Graaff porte plainte contre l'accusation de couloir de Straus. Straus répète et ajoute l'abus des « institutions démocratiques ». Radin demande quand un professeur a le droit de perdre patience. Bentley s'emporte contre l'accusation de communisme, Lowinsky le pique, et Hansgirg répète l'accusation en croyant la retirer. Après plusieurs heures, une vingtaine de personnes épuisées sortent dans la nuit sans rien avoir résolu.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00917"
+    ]
+   },
+   {
+    "titre": "Straus devant la faculté : le Noir « étrange »",
+    "date": "1944-04-17",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Erwin Straus",
+     "faculté"
+    ],
+    "deroule": "Straus affirme qu'il existe des différences définies à affronter, sans supériorité, et doute que le collège doive les changer. Il juge la formule de l'humain commun trop petite et trop simple. L'atmosphère est sourde et la communauté se fissure.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00918",
+     "EV-03625"
+    ]
+   },
+   {
+    "titre": "Albers écrit à d'Harnoncourt",
+    "date": "1944-04-25",
+    "lieu": null,
+    "personnages": [
+     "Albers",
+     "René d'Harnoncourt"
+    ],
+    "deroule": "Albers propose d'admettre aussi des étudiants indiens, chinois et américano-japonais pour que l'admission ne ressemble pas à une agression. Il y voit un moyen de désamorcer les frictions.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03626"
+    ]
+   },
+   {
+    "titre": "Lettre de Gropius à Dreier",
+    "date": "1944-04-16",
+    "lieu": null,
+    "personnages": [
+     "Walter Gropius",
+     "Ted Dreier"
+    ],
+    "deroule": "Correspondance de guerre entre les deux hommes, conservée aux Archives du Bauhaus à Berlin. Elle entretient une relation qui servira plus tard à Dreier, lorsqu'il joindra Gropius à l'envoi de sa démission.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03624"
+    ]
+   },
+   {
+    "titre": "Bentley et le « Hofjude »",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Eric Bentley"
+    ],
+    "deroule": "Bentley raille le statut hybride de « membre de l'Institut » accordé à la femme noire admise pour l'été. Il compare la situation à celle des Hofjuden : des réfugiés du racisme nazi refusent l'égalité à d'autres persécutés.",
+    "certitude": "atteste",
+    "refs": [
+     "EC-01931"
+    ]
+   },
+   {
+    "titre": "Démission du trésorier adjoint Orr",
+    "date": "1944-04-26",
+    "lieu": null,
+    "personnages": [
+     "Orr"
+    ],
+    "deroule": "Orr quitte ses fonctions, en partie à cause de l'admission et plus généralement parce que le collège tente « trop avec trop peu ».",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le débat d'avril, quand Straus, Albers et Dreier s'opposent à l'accueil de Noirs et que Bentley relève l'ironie",
+    "vers_date": null,
+    "vers": "Leur propre fuite du racisme nazi, que la métaphore des Hofjuden fait resurgir",
+    "refs": [
+     "EC-01931"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le débat d'avril sur les risques d'incendie et de boycott",
+    "vers_date": null,
+    "vers": "Le séminaire d'Anniston incendié, précédent invoqué par Rubye Lipsey",
+    "refs": [
+     "EC-01932"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le débat d'avril sur la violence possible contre l'admission",
+    "vers_date": "1950",
+    "vers": "La violence sudiste qui accompagne l'intégration scolaire dans les années 1950 et 1960 ; Duberman juge rétrospectivement les craintes de 1944 non déraisonnables",
+    "refs": [
+     "EC-01930"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les instituts d'été qui s'annoncent pour juin 1944",
+    "vers_date": null,
+    "vers": "Le sourire de Dreier à l'arrivée des instituts est brisé par l'appel de l'avocat de Chattanooga au sujet d'Anderson et Wacker : une nouvelle crise arrive",
+    "refs": [
+     "EC-01933"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le cours de matière et de couleur d'Albers, à l'été 1944",
+    "vers_date": null,
+    "vers": "Les œuvres de Rauschenberg et Noland ; Coron se demande si elles auraient existé sans le passage des artistes par BMC",
+    "refs": [
+     "EC-01863"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les sessions d'Albers à l'été 1944 (relativité de la couleur, fil de fer, papier plié)",
+    "vers_date": "1988",
+    "vers": "≈1988 : Margaret Kennard Johnson enseigne encore à Princeton ce qu'elle a appris d'Albers ; la base visuelle traverse MoMA, Pratt, Drake, Tokyo et Princeton",
+    "refs": [
+     "EC-01861"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La première rencontre de l'été 1944 avec Victor D'Amico",
+    "vers_date": "1946",
+    "vers": "L'invitation de D'Amico à enseigner au MoMA à l'automne 1946, sans laquelle Johnson n'aurait pas eu ce privilège",
+    "refs": [
+     "EC-01864"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'oconee-bell trouvée dans la cour de Meadows Inn pendant l'été 1944",
+    "vers_date": "1790",
+    "vers": "Les années 1790 : André Michaux nomme la Shortia galacifolia, longtemps introuvable ; la quête de Coron aux chutes de Toxaway",
+    "refs": [
+     "EC-01865"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La question de l'admission, encore ouverte en avril 1944",
+    "vers_date": "1945",
+    "vers": "L'automne 1945 : selon Lane, la question n'est tranchée qu'à ce moment-là",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "Peur du boycott des commerçants et de l'incendie criminel",
+   "Précédent du séminaire d'Anniston",
+   "Argument juridique : aucune loi de Caroline du Nord n'impose la ségrégation dans le supérieur",
+   "Crainte d'aller « trop vite » ; admission par petites doses (visiteurs, une femme, statut hybride)",
+   "Ironie des réfugiés face à l'égalité des persécutés",
+   "Conviction contre propagande : la frontière est au cœur de la dispute",
+   "Justice ou survie : l'âme du collège en jeu",
+   "Précédent de la pétition étudiante sans effet sur le vote du faculty",
+   "Divergence de lecture entre Duberman (Dreier parmi les contre après hésitation) et Lane (Dreier moteur d'un engagement du corps enseignant)"
+  ],
+  "lacunes": "Les réunions d'avril ne sont datées que jusqu'au 17 avril ; SC-00917 n'a pas de jour et pourrait correspondre à une autre séance. Le nom de Straus diverge : Erwin dans EV-03625 et SC-00918, Kurt dans SC-00917. Dreier est présenté comme contre par Duberman et comme ayant obtenu un engagement par Lane ; la séquence du Rosenwald Fund n'est pas datée. La cause exacte de la démission d'Orr est mêlée (admission et « trop avec trop peu »). Les dates d'arrivée des deux étudiants noirs et du professeur de Fisk, ainsi que celle de la pétition (38 sur 50), ne sont pas données. Le climat et la vie quotidienne ne sont pas documentés. Les échos EC-01861 à EC-01868 et EC-01933 sont ancrés à l'été 1944 (≈) et non à avril. La présence de Foreman, des Cohen et des Jalowetz en avril n'est pas attestée, seulement inférée de leur camp."
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "passe": "mois",
+ "cle": "1957-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2346,
+  "sortie": 8817,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1957-01",
+  "session": "Aucune session ouverte : le trimestre d'hiver 1957 n'ouvre pas, selon Chaddock, qui place la décision à l'automne 1956 (EV-06834).",
+  "saison_et_climat": "Hiver. Le froid est implicite (cabanes de la colline sans chauffage, LI-01405) ; les fiches ne décrivent pas le climat du mois.",
+  "situation": "Le collège n'a plus de gouvernement ni de programme régulier. Les terres sont vendues par parcelles, la ferme n'est plus travaillée que par quelques étudiants épuisés, et seuls quelques occupants restent sur la colline. La fermeture est déjà décidée, mais les fiches divergent sur son annonce publique.",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "quelques étudiants payants, moins d'une demi-douzaine, non nommés",
+    "certitude": "probable"
+   },
+   {
+    "nom": "derniers occupants des cabanes de la colline, non nommés",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1957-01-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit à Rumaker, alors à San Francisco, et lui envoie le même jour le texte « The Librarian ».",
+    "certitude": "atteste",
+    "refs": [
+     "CI-03462",
+     "OE-03158"
+    ]
+   },
+   {
+    "date": "1957-01",
+    "precision": "session",
+    "ce_qui_arrive": "Le trimestre d'hiver n'ouvre pas ; la décision a été prise à l'automne 1956 et n'a fait l'objet d'aucune annonce publique selon Chaddock.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06834"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Les terres sont vendues par parcelles et la ferme n'est plus travaillée que par quelques étudiants épuisés.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06834",
+     "EV-06390"
+    ]
+   }
+  ],
+  "quotidien": "Pas de cours réguliers attestés pour ce mois. La vie ordinaire se réduit à la ferme presque abandonnée, aux cabanes froides sans réfectoire, et au courrier entre anciens membres. Pas de rituel ; chacun suit sa voie, et l'on ne se réunit que si une menace pèse sur tous. Les fiches ne disent rien de la musique.",
+  "tensions": [
+   "Rice réclame environ 2000 volumes prêtés à la bibliothèque ; l'affaire reste ouverte jusqu'à l'automne 1957 (CI-03464, CF-00800).",
+   "Les sources divergent : Chaddock affirme qu'il n'y a pas d'annonce publique, alors qu'une photo des archives de l'UConn montre la communauté réunie pour une annonce de fermeture, non datée (EV-06949).",
+   "Une menace judiciaire pèse sur les dettes : l'arrêt des programmes ne tombera qu'en mars (EV-06964, EV-06966, CF-00806).",
+   "Le collège continue de se dire un lieu d'apprentissage pour beaucoup d'anciens, alors que la fin est déjà actée (EV-06536, EV-06537)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le courrier du 28 janvier",
+    "date": "1957-01-28",
+    "lieu": "campus de Black Mountain (probable)",
+    "personnages": [
+     "Olson",
+     "Rumaker, absent, à San Francisco"
+    ],
+    "deroule": "Olson, resté sur place, écrit à un ancien étudiant parti à San Francisco et joint le texte « The Librarian » ce même jour, alors que le collège n'a plus de programme régulier.",
+    "certitude": "probable",
+    "refs": [
+     "CI-03462",
+     "OE-03158"
+    ]
+   },
+   {
+    "titre": "Vivre sur la colline sans chauffage",
+    "date": "1957-01",
+    "lieu": "colline des cabanes",
+    "personnages": [
+     "derniers occupants, non nommés"
+    ],
+    "deroule": "Les derniers occupants vivent sans chauffage ni réfectoire, sans rituel, et ne se retrouvent ensemble que si une menace pèse sur tous.",
+    "certitude": "probable",
+    "refs": [
+     "LI-01405",
+     "EV-06536"
+    ]
+   },
+   {
+    "titre": "La ferme à bout de forces",
+    "date": null,
+    "lieu": "ferme du collège",
+    "personnages": [
+     "étudiants épuisés, non nommés"
+    ],
+    "deroule": "Quelques étudiants continuent de travailler la ferme, à bout de forces, alors que le reste du campus se vide.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06390"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "janvier 1957, alors que le trimestre d'hiver ne s'ouvre pas",
+    "vers_date": "1956",
+    "vers": "La décision de fermer est prise à l'automne 1956, sans annonce publique selon Chaddock ; c'est le point de départ de la liquidation.",
+    "refs": [
+     "EV-06834"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "janvier 1957, sur la colline des cabanes",
+    "vers_date": "1955",
+    "vers": "Depuis 1955, la communauté n'a plus de gouvernement ni de rituel ; chacun suit sa voie et la hiérarchie repose sur le talent et l'honnêteté.",
+    "refs": [
+     "EV-06536",
+     "EV-06537"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "28 janvier 1957, lettre d'Olson à Rumaker",
+    "vers_date": "1957-04-01",
+    "vers": "Olson écrit à John Rice pour annoncer la fermeture, avec la formule « les loups ont eu tes moutons », et le salue comme le « Papa » du collège.",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1957, au fil de la correspondance",
+    "vers_date": "1957-03",
+    "vers": "Un juge ordonne l'arrêt des programmes éducatifs jusqu'au paiement des dettes.",
+    "refs": [
+     "EV-06964",
+     "EV-06966",
+     "CF-00806"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1957, parmi les anciens étudiants",
+    "vers_date": "1957-04",
+    "vers": "Daniel Dixon apprend la nouvelle et écrit dans Pageant qu'il croyait le collège invincible.",
+    "refs": [
+     "SC-01858",
+     "CI-03463"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1957, au moment où la Review est encore en préparation",
+    "vers_date": "1957",
+    "vers": "À l'automne paraît le septième et dernier numéro de la Black Mountain Review, avec Ginsberg, Kerouac, Snyder et la recension de Howl par Rumaker ; Creeley y voit « un aussi bon endroit que n'importe quel autre pour finir ».",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   }
+  ],
+  "motifs": [
+   "extinction plutôt que fermeture nette",
+   "Olson, dernier occupant du lieu",
+   "une légende qui commence à se répandre hors du campus",
+   "la bibliothèque comme enjeu de la liquidation",
+   "absence d'annonce publique selon Chaddock, contredite par la photo"
+  ],
+  "lacunes": "Aucune fiche ne date précisément janvier 1957 hors la lettre du 28. On ignore qui est encore présent sur le campus, le nombre exact d'étudiants ce mois-là, si des cours ont eu lieu, et la date de la photo de l'annonce (EV-06949)."
+ }
+}

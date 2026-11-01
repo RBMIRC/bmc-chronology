@@ -1,0 +1,276 @@
+{
+ "passe": "personnes",
+ "cle": "Johanna Jalowetz",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 25,
+  "sortie": 3653,
+  "cache_lu": 10112,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Johanna Jalowetz",
+  "autres_noms": [
+   "Mrs. Jalowetz",
+   "Johanna (née ?)"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Épouse de Heinrich Jalowetz, musicologue ; réfugiée viennoise arrivée en 1939 ; enseigne le chant et la reliure, surtout après son veuvage (1946) ; figure bien-aimée de la première heure, partie en 1953.",
+  "presence": [
+   {
+    "debut": "1939",
+    "fin": "1953",
+    "precision": "annee",
+    "role": "Compagne du professeur de musique Heinrich Jalowetz (arrivée avec lui et leur fille Lisa pour l'année académique 1939-1940) ; installeée dans la Jalowetz House construite pour eux ; après la mort de son mari en 1946 : enseignante de chant et de reliure, veuve vivant seule sur le campus jusqu'à son départ",
+    "refs": [
+     "EV-02878",
+     "EV-02892",
+     "EV-00728",
+     "EV-03818",
+     "EV-04563",
+     "EV-04643",
+     "EV-05955",
+     "PE-00055"
+    ]
+   }
+  ],
+  "portrait_physique": "Vieille femme au visage profondément sillonné, au front profondément ridé qui se plisse encore d'attention ; yeux noirs brillants, écarquillés d'étonnement quand elle écoute chanter. Délabrement physique croissant à partir de la fin des années 1940, visage buriné qu'on dirait furieusement sombre quand sa cause est perdue.",
+  "noyau_psychologique": "Viennoise de culture, transplantée par l'exil dans des bois américains : elle survit en servant la communauté — reliure, chant, couture, petits soins — et en préservant farouchement ce qui lui reste : ses outils, la mémoire de Jalo, sa maigre pension, son droit de vote. Sa douceur cache une frayeur constante d'être déracinée, comme l'arbre qu'on abattra en 1953.",
+  "blessures": "L'exil hitlérien ; la mort de Heinrich en 1946, qu'elle ne surmonte jamais — effondrement hystérique à l'enterrement, veuvage isolé sur le campus ; le déclassement social : femme « clandestine » du corps enseignant, sans poste propre tant que son mari vit.",
+  "desirs": "Rendre utile la fin de sa vie par l'enseignement (reliure, chant) ; rester au collège, son dernier monde, auprès de sa seconde famille ; être reconnue (vote, pension) malgré son âge et sa marginalité.",
+  "peurs": "Qu'on touche à ses outils et à sa place ; que son vote et sa pension lui soient retirés (limite d'âge de 65 ans, querelle avec Corkran) ; que sa propre position soit impitoyablement déracinée, comme l'arbre ancien de 1953.",
+  "maniere_d_aimer": "Par le service et le geste artisanal : coudre la robe de mariage d'Asawa dans le tissu d'Anni, relier les livres de la bibliothèque pour Nell, choisir la pierre tombale de Jalo avec les étudiants, veiller à son deuil dans la musique. Indulgence encourageante avec les élèves médiocres (« vous sonnez comme cent voix »), mais confidences franches en privé.",
+  "rapport_au_pouvoir": "Sans pouvoir formel : épouse, puis veuve protégée par Dehn et le contingent européen, avec qui elle vote en bloc du côté d'Albers. Elle n'attaque jamais frontalement, mais encourage les autres du bord (« You tell him ! »), proteste vivement quand les aînées sont bafouées, et finit par rejoindre les poursuites en arriérés de salaire qui acculent le collège — colère des sans-pouvoir contre l'institution qui les laisse tomber.",
+  "voix": {
+   "registre": "Allemand-viennois accentué, tendre et admonestant à la fois ; phrases courtes, images concrètes tirées de l'artisanat et de la musique ; compliment généreux en public, franchise brutale en confidence.",
+   "tics": "Balance la tête de droite à gauche en écoutant chanter ; front plissé, yeux écarquillés ; interdits nerveux sur ses outils (« ne touchez à rien ») ; cris d'encouragement depuis le bord des bagarres.",
+   "exemples_paraphrases": [
+    "Admonestation de relieuse : ne travaillez pas dans le vide — travaillez le matériau.",
+    "À des ténors catastrophiques : vous sonnez comme cent voix ; et de toute façon personne ne peut complètement détruire Bach.",
+    "Confidence sur son élève Virginia : pas beaucoup de voix, celle-là.",
+    "Encouragement à Oppenheimer sautant sur Trayer : c'est ça, dis-lui !"
+   ]
+  },
+  "habitudes": [
+   "Relier les livres de la bibliothèque dans son atelier des Stables",
+   "Chercher une orchidée sauvage rare dans les bois au-dessus du collège avec Hilda Morley",
+   "Donner quelques leçons de chant (Virginia notamment) et encourager la chorale",
+   "Voter en bloc avec le contingent européen, côté Albers",
+   "Coudre pour les jeunes gens de la communauté (robe d'Asawa)"
+  ],
+  "convictions": [
+   "La musique de Bach survit à tout — personne ne peut complètement détruire Bach",
+   "Le travail artisanat : travailler le matériau, jamais dans le vide",
+   "Amour profond et service du collège, même quand il la déçoit",
+   "Solidarité du contingent européen exilé"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1939",
+    "precision": "annee",
+    "moment": "Arrivée au collège avec Heinrich et Lisa, réfugiés d'Europe ; installation pour l'année 1939-1940 dans une communauté en accalmie constructive",
+    "etat_interieur": "Appréhensions de couple européen n'ayant jamais vécu en communauté, vite converti par l'ouverture de tous",
+    "refs": [
+     "EV-02878",
+     "EV-02892",
+     "SC-00737"
+    ]
+   },
+   {
+    "date": "1944",
+    "precision": "annee",
+    "moment": "Crise interne : Heinrich dégoûté demande à quitter le Board ; les Jalowetz déclarent leur sympathie à Bentley et de Graaff et disent ne rester que parce qu'ils sont trop vieux et sans autre endroit",
+    "etat_interieur": "Loyauté ébranlée, enlisement résigné",
+    "refs": [
+     "EV-03503"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "annee",
+    "moment": "Mort de Heinrich (concert, véranda chez les Straus) ; veillée musicale nocturne ; enterrement dans la clairière — pierre choisie avec Johanna, Requiem de Brahms ; elle s'effondre et doit être portée jusqu'à la maison",
+    "etat_interieur": "Deuil dévastateur : sophistication viennoise obligée d'enterrer son homme dans un lieu étranger, par des gens à peine liés à lui",
+    "refs": [
+     "SC-00844",
+     "SC-00970",
+     "SC-00971",
+     "EV-03818",
+     "EV-03821",
+     "EV-03825"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "precision": "mois",
+    "moment": "Corps enseignant squelettique : elle porte « voix et reliure », seule figure féminine européanisée du noyau",
+    "etat_interieur": "Survivante devenue pilier par défaut",
+    "refs": [
+     "EV-04563"
+    ]
+   },
+   {
+    "date": "1949-10",
+    "precision": "mois",
+    "moment": "Retour officiel à la faculté à l'automne (reliure, chant) ; été : coud la robe de mariage d'Asawa dans le tissu d'Anni Albers",
+    "etat_interieur": "Reconstruction par le service des jeunes",
+    "refs": [
+     "EV-04643",
+     "EV-04704",
+     "SC-01206",
+     "CO-00568"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Querelle du droit de vote : Corkran estime que les plus de 65 ans à la retraite (elle) ne devraient pas voter ; Dehn la soutient ; la même année, elle encourage du bord la bagarre Trayer/Levi (« You tell him ! »)",
+    "etat_interieur": "Sentiment que son vote et sa maigre pension sont menacés ; combativité sourde",
+    "refs": [
+     "EV-04652",
+     "EV-04947",
+     "SC-01266"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Été : événement « multimédia » de Cage — elle fait partie des rares à ne pas aimer (avec Wolpe), n'aimant que les participants ; promenades botaniques avec Hilda Morley ; enseigne la reliure aux sœurs Franklin, relie le manuscrit de Patchen pour Jonathan Williams ; hiver : poursuites en arriérés de salaire avec Nell Rice et Natasha",
+    "etat_interieur": "Étrangère à la nouvelle avant-garde, fébrile et possessive dans son atelier, colère de veuve flouée",
+    "refs": [
+     "EV-05613",
+     "EV-05633",
+     "EV-05874",
+     "EV-06008"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Proteste contre l'abattage de l'arbre ancien et la démolition du vieux bâtiment avec Nell Rice et Toni Dehn ; les hommes se moquent des « vieilles femmes » et procèdent ; elle décide à regret de partir vivre près de ses filles, bradant les partitions originales de Schoenberg de Jalo pour payer son déménagement",
+    "etat_interieur": "Visage furieusement sombre : elle sait que ce qui est déraciné sans pitié, c'est aussi elle ; départ en decadence partagée avec le collège",
+    "refs": [
+     "EV-06059",
+     "EV-05955",
+     "PE-00055"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "Mariage avec Heinrich Jalowetz ; vie dans le monde de la culture viennoise ; Heinrich perd son poste de chef d'orchestre à Cologne dans la purge nazie de 1933, six années d'errance européenne suivent avant l'émigration",
+    "refs": [
+     "RE-00617",
+     "EV-02892"
+    ]
+   },
+   {
+    "date": "1939",
+    "precision": "annee",
+    "moment": "Entrée aux États-Unis comme réfugiés juifs ; le National Coordinating Committee to Aid Refugees signale le poste vacant de Heinrich à Black Mountain",
+    "refs": [
+     "EV-02878",
+     "EV-02892"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Départ définitif vers ses filles ; les partitions de Schoenberg bradées vaudront plus tard des sommes énormes ; Charles et Connie s'installent dans l'ancienne Jalowetz House",
+    "refs": [
+     "EV-05955",
+     "EC-02805"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Heinrich Jalowetz",
+    "nature": "mariage (années 1930-1946) ; couple de réfugiés artistes",
+    "evolution": "Complicité de exil ; sa mort en 1946 la laisse veuve, effondrée, enchaînée au collège faute d'ailleurs ; elle vend son héritage musical pour partir",
+    "refs": [
+     "RE-00617",
+     "SC-00737",
+     "SC-00844",
+     "EV-05955"
+    ]
+   },
+   {
+    "avec": "Max Dehn",
+    "nature": "protecteur et soutien après le veuvage",
+    "evolution": "Il la soutient dans la querelle du vote (1949-1950) et la porte physiquement à l'enterrement de 1946",
+    "refs": [
+     "SC-00971",
+     "EV-04652"
+    ]
+   },
+   {
+    "avec": "Nell Rice et Toni Dehn",
+    "nature": "solidarité des « veuves » contre les hommes au pouvoir",
+    "evolution": "De la coexistence au front commun de 1953 (arbre, bâtiment) puis aux poursuites judiciaires collectives contre le collège",
+    "refs": [
+     "EV-05874",
+     "EV-06059"
+    ]
+   },
+   {
+    "avec": "Ruth Asawa",
+    "nature": "couturière de sa robe de mariage (1949)",
+    "evolution": "Geste maternel artisanal envers une ancienne élève ; la robe noire en tissu d'Anni Albers conçue pour être raccourcie après la cérémonie",
+    "refs": [
+     "EV-04704",
+     "SC-01206"
+    ]
+   },
+   {
+    "avec": "Hilda Morley",
+    "nature": "amie de promenades botaniques",
+    "evolution": "Cherchent ensemble, avec délice, une orchidée sauvage rare dans les bois (années 1950)",
+    "refs": [
+     "EV-05613",
+     "QU-01589"
+    ]
+   },
+   {
+    "avec": "Dan Rice, Olson, Huss",
+    "nature": "conflit générationnel (1953)",
+    "evolution": "Ils se moquent des « vieilles femmes » et abattent l'arbre malgré les protestations ; rancœur définitive",
+    "refs": [
+     "EV-06059",
+     "RE-02530"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Molesworth 2015 (EV-02521) rattache l'enseignement du chant et de la reliure de Johanna « après la mort de son mari » à une chronologie qui commence en 1936 — alors que son arrivée attestée est 1939 (Duberman) ; l'enseignement précoce est donc douteux.",
+   "Rumaker 2003 situe l'arrivée de Jalo « dans les années 1930 » alors que Duberman et Molesworth précisent 1939.",
+   "Le cours de reliure « années 1930 » (Harris 2005, CO-00132) contredit l'arrivée de 1939 ; vraisemblablement erreur de datation.",
+   "La mort de Jalo est datée 1946 (Lane, EV-03818/03821), mais le récit de Lockwood (Duberman, SC-00844/EV-03325) est ancré ≈1942-07→1947 sans jour précis.",
+   "Deux récits de la mort divergent légèrement : mort sur la véranda après un concert de sonates de Beethoven (Lockwood) vs verre chez les Straus puis effondrement sur la pelouse en sortant (Lane).",
+   "Duberman 2003/EV-04704 : Troeller 2025 la désigne comme « mère de Trude Guermonprez » — point non corroboré ailleurs, à vérifier."
+  ],
+  "situations_revelatrices": [
+   "L'atelier de reliure aux Stables : fébrile, possessive, interdisant de toucher — on la voit par l'œil d'un visiteur gêné qui part avant la fin",
+   "La réunion de faculté qui dégénère : elle, au bord, encourageant les jeunes contre Trayer",
+   "L'enterrement de 1946 : rite viennois improvisé sur la roche américaine, fleur, poignée de terre, effondrement",
+   "Le chant face aux ténors désespérants : indulgence publique, franchise privée",
+   "La scène de l'arbre abattu : trois veuves face aux hommes moqueurs, son visage buriné et sombre",
+   "La leçon de chant tête balançante, écoutant Virginia : la confiance « pas beaucoup de voix »"
+  ],
+  "citations": [
+   "CI-01929",
+   "CI-01937",
+   "CI-02864"
+  ],
+  "questions_ouvertes": [
+   "Ses dates de naissance et de mort, son nom de jeune fille, sa vie exacte après 1953 auprès de ses filles",
+   "La réalité de son lien de parenté avec Trude Guermonprez (Troeller)",
+   "Ce qu'elle enseignait exactement avant 1946 et sous quel statut (bénévole ? payée ?)",
+   "L'issue de la querelle du vote de 1949-1950 et le montant réel de sa pension",
+   "Le détail des poursuites en arriérés de salaire (montants, issue judiciaire)"
+  ]
+ }
+}

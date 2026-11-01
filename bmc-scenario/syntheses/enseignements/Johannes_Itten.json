@@ -1,0 +1,205 @@
+{
+ "passe": "enseignements",
+ "cle": "Johannes Itten",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2791,
+  "sortie": 5322,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Johannes Itten",
+  "cours": [
+   {
+    "intitule": "Vorkurs (cours préliminaire) du Bauhaus de Weimar",
+    "periodes": [
+     "à partir de 1920 (CO-00035)",
+     "1919-1923 (CO-00015)",
+     "années 1920 (CO-00024)",
+     "avant 1923 (CO-00058)"
+    ],
+    "atteste": "non",
+    "objectifs": "Rien dans les fiches n'atteste qu'Itten ait enseigné à Black Mountain College (CO-00015, CO-00021, CO-00024 et CO-00058 sont marquées non ; CO-00035 est incertaine). Cet enseignement est donc attesté au Bauhaus seulement. Il s'agit d'un cours de fondation pratique, obligatoire pour tous les étudiants avant l'entrée en atelier. Il doit faire explorer la nature de la forme et faire comprendre les possibilités et les limites de chaque matériau avant tout travail créatif (CO-00035). Il vise aussi l'éducation par le jeu, d'après Froebel, et l'apprentissage par découverte personnelle (CO-00015). Il relève de l'expérience intuitive et de l'expression de soi (CO-00058). Les dates divergent : début en 1919 (CO-00015) ou en 1920 (CO-00035) ; CO-00058 porte une date déduite (≈1923-1932) qui contredit son propre intitulé « avant 1923 ».",
+    "deroule_type_seance": "Pas de déroulé détaillé dans les fiches. On sait seulement que le cours est de fondation pratique et obligatoire, suivi avant l'atelier (CO-00035). Ses notes d'étudiant comportent des discussions sur Goethe et Chevreul à propos de la couleur (CO-00024). Le reste est déduit : manipuler, observer, puis reproduire.",
+    "exercices": [
+     {
+      "consigne": "Improviser quelque chose à partir de matériaux de rebut présentés aux étudiants.",
+      "materiaux": "Journaux, carton, grillage",
+      "but": "Apprendre par la découverte personnelle, dans l'esprit du jeu selon Froebel.",
+      "refs": [
+       "CO-00015"
+      ]
+     },
+     {
+      "consigne": "Observer de près des matériaux naturels, les toucher et les dessiner jusqu'à pouvoir les reproduire de mémoire.",
+      "materiaux": "Matériaux naturels",
+      "but": "Acquérir une connaissance sensible, tactile et mémorisée de la matière.",
+      "refs": [
+       "CO-00015"
+      ]
+     },
+     {
+      "consigne": "Expérimenter le papier, le verre et le bois.",
+      "materiaux": "Papier, verre, bois",
+      "but": "Comprendre les possibilités et les limites de chaque matériau avant tout travail créatif.",
+      "refs": [
+       "CO-00035"
+      ]
+     },
+     {
+      "consigne": "Réaliser des constructions combinant de nombreux matériaux différents.",
+      "materiaux": "Matériaux variés (non précisés)",
+      "but": "Expérience intuitive et expression de soi.",
+      "refs": [
+       "CO-00058"
+      ]
+     },
+     {
+      "consigne": "Travailler le format carré-dans-carré pour examiner l'avancée et la récession des couleurs, les changements de luminosité et le contraste simultané.",
+      "materiaux": null,
+      "but": "Étudier la couleur comme relation entre voisines, en s'appuyant sur Goethe et Chevreul.",
+      "refs": [
+       "CO-00024"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Goethe et Chevreul, discutés dans les notes d'un étudiant sur la couleur (CO-00024)",
+     "Froebel, pour l'éducation par le jeu (CO-00015)"
+    ],
+    "propos_types": [
+     "Aucune couleur n'est positive ou absolue : chacune entre en relation vivante et réciproque avec ce qui l'entoure, dans une dynamique continue (paraphrase de CO-00024).",
+     "Il faut s'en remettre au sentiment intérieur et à l'intuition, développés par la méditation (CO-00021)."
+    ],
+    "critique_et_evaluation": "Gropius dénoncera ensuite les préoccupations mystiques liées à cet enseignement (CO-00021). Pas d'autre critique ni de mode d'évaluation dans les fiches.",
+    "reactions_etudiants": "Cours enseigné avec flamme et passion (CO-00035). Itten devient le second membre de la faculté (CO-00035). L'assiduité se relâche dans le cours préliminaire du samedi (CO-00021).",
+    "evolution": "Les fiches situent le cours de 1919-1920 à 1923. Elles montrent un déplacement vers le mysticisme, qui nourrit le schisme du Bauhaus (CO-00021, ID-00404). Rien n'est dit sur un prolongement à Black Mountain.",
+    "refs": [
+     "CO-00015",
+     "CO-00024",
+     "CO-00035",
+     "CO-00058"
+    ]
+   },
+   {
+    "intitule": "Vorlehre / programme d'enseignement préparatoire (cours du samedi, semestre probatoire)",
+    "periodes": [
+     "après octobre 1920"
+    ],
+    "atteste": "non",
+    "objectifs": "Étude élémentaire de la forme et des matériaux pendant le semestre d'essai, avant l'atelier.",
+    "deroule_type_seance": "Cours donné le samedi pendant le premier semestre (CO-00021). Aucun détail supplémentaire.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Recours au sentiment intérieur et à l'intuition, développés par la méditation (paraphrase de CO-00021)."
+    ],
+    "critique_et_evaluation": "Gropius dénonce plus tard les préoccupations mystiques d'Itten (CO-00021).",
+    "reactions_etudiants": "Assiduité relâchée (CO-00021).",
+    "evolution": "La Vorlehre est présentée comme une étape avant l'atelier. La dérive mystique est dénoncée ensuite.",
+    "refs": [
+     "CO-00021"
+    ]
+   },
+   {
+    "intitule": "Séance de dessin et d'écriture intuitive (chanson populaire, tempête, La Danse de Matisse)",
+    "periodes": [
+     "15 janvier 1921"
+    ],
+    "atteste": "non",
+    "objectifs": "Percevoir intuitivement l'esprit d'un sujet avant de l'exécuter (CO-00043). Opposition à la tradition académique, que Klee remarque (CO-00043, SC-00194).",
+    "deroule_type_seance": "Séance du samedi 15 janvier 1921, que Klee observe (SC-00194). Itten, en bordeaux, fait d'abord écrire sur la chanson « Mariechen sass auf einem Stein ». Le mobilier est étrange : tabourets de piano à trois pieds, assise rouge, pieds de fer, et fusains énormes. Itten démontre lui-même : il prend un fusain, concentre son corps et trace en frénésie des lignes abstraites et des formes élémentaires. À 17h, en amphithéâtre où l'on s'assoit sur les marches, il projette La Danse de Matisse au mur et fait dessiner dans le noir. Son épouse est à ses pieds, les participants sont blottis ; Klee reste en haut, sur une chaise, la pipe aux lèvres. Contradiction mineure : CO-00043 parle d'un « cours du soir à 17h », SC-00194 d'un samedi après-midi. Rien n'indique que ce soit la routine du cours ; c'est une séance attestée.",
+    "exercices": [
+     {
+      "consigne": "Écrire sur la chanson populaire « Mariechen sass auf einem Stein », sans commencer avant d'avoir perçu intuitivement son esprit.",
+      "materiaux": "Non précisés pour l'écriture ; tabourets de piano rouges et tables à dessin dans la salle",
+      "but": "Percevoir intuitivement l'esprit du sujet avant de l'exécuter.",
+      "refs": [
+       "CO-00043",
+       "SC-00194"
+      ]
+     },
+     {
+      "consigne": "Dessiner en dix minutes une représentation d'une tempête.",
+      "materiaux": "Fusain énorme, tables à dessin",
+      "but": "Exprimer un sujet par une exécution rapide et corporelle.",
+      "refs": [
+       "CO-00043"
+      ]
+     },
+     {
+      "consigne": "Dessiner dans l'obscurité les éléments compositionnels essentiels de La Danse de Matisse, projetée sur le mur.",
+      "materiaux": "Projection murale, fusain",
+      "but": "Saisir l'essentiel d'une composition, sans le contrôle de la vue.",
+      "refs": [
+       "CO-00043",
+       "SC-00194"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "La Danse de Matisse, projetée",
+     "Chanson populaire « Mariechen sass auf einem Stein »"
+    ],
+    "propos_types": [
+     "Ne commencez pas avant d'avoir perçu intuitivement l'esprit de la chanson (paraphrase de SC-00194 et CO-00043)."
+    ],
+    "critique_et_evaluation": "Klee juge qu'Itten a une tête « mi-instituteur, mi-pasteur », avec ses lunettes (SC-00194). La théâtralité du cours s'oppose à la distance de Klee (SC-00194).",
+    "reactions_etudiants": "Les étudiants sont blottis, concentrés dans le noir. Klee, spectateur, est captivé par la méthode, opposée à la tradition académique, mais garde une distance amusée (CO-00043, SC-00194).",
+    "evolution": null,
+    "refs": [
+     "CO-00043",
+     "SC-00194"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "L'intuition précède l'exécution : percevoir l'esprit du sujet avant de commencer à écrire ou dessiner.",
+    "en_classe": "Poser un sujet (chanson, tempête, tableau projeté), imposer un temps de silence avant toute trace, puis faire dessiner vite avec un grand fusain. Le maître peut démontrer en engageant tout son corps. Attesté au Bauhaus en 1921 ; aucune attestation à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "CO-00043",
+     "SC-00194"
+    ]
+   },
+   {
+    "idee": "On apprend les matériaux par l'expérience directe, avant toute création, en les touchant et en les dessinant de mémoire.",
+    "en_classe": "Distribuer des déchets (journaux, carton, grillage), du papier, du verre, du bois, des éléments naturels. Faire improviser, toucher, dessiner puis reproduire de mémoire. Attesté au Bauhaus ; incertain pour Black Mountain (CO-00035).",
+    "atteste": "incertain",
+    "refs": [
+     "CO-00015",
+     "CO-00035",
+     "CO-00058"
+    ]
+   },
+   {
+    "idee": "La couleur n'existe que par relation : aucune couleur n'est absolue, chacune dépend de son entourage.",
+    "en_classe": "Exercice carré-dans-carré : changer le fond d'une même teinte pour observer avancée/récession, luminosité et contraste simultané, avec Goethe et Chevreul comme références. Attesté au Bauhaus ; non attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "CO-00024"
+    ]
+   },
+   {
+    "idee": "Le développement de l'individu prime sur l'impact social de l'art ; le corps et la discipline libèrent l'étudiant avant la technique.",
+    "en_classe": "Séance d'ouverture ritualisée (discipline du corps, méditation) avant le travail technique, comme le mode de vie mazdaïste d'Itten (crânes rasés, costumes, bains rituels, végétarisme, ail cru). Cette posture alimente le schisme du Bauhaus et préfigure une opposition art individuel / art social que les débats de Black Mountain reprendront (ID-00404, c'est une mise en perspective, pas un fait attesté à Black Mountain). Dérive mystique critiquée par Gropius (CO-00021). Point de datation : SC-00052 place les nus zoroastriens au parc de Weimar vers 1906-1908 (date déduite), alors qu'ID-00404 situe le mode de vie mazdaïste en 1920-1922, ce qui est incompatible avec le Bauhaus ; à vérifier avant emploi.",
+    "atteste": "non",
+    "refs": [
+     "ID-00404",
+     "CO-00021",
+     "SC-00052"
+    ]
+   },
+   {
+    "idee": "Le jeu est une voie d'éducation (Froebel) et l'étudiant apprend par sa propre découverte.",
+    "en_classe": "Proposer des consignes ouvertes et ludiques avec des matériaux pauvres, sans modèle à copier. Attesté au Bauhaus ; aucune attestation à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "CO-00015"
+    ]
+   }
+  ]
+ }
+}

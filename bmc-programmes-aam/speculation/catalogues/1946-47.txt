@@ -1,0 +1,150 @@
+# Concordance des cours 1946-47 → gabarits de l'année reconstituée (retour aux deux semestres).
+#
+# Sources :
+#   2017.40.217.01a-k (bulletin de septembre 1946) : cours du premier semestre par enseignant, et une partie des cours
+#     annoncés pour le second (Dreier, Levi, Niebyl, Richards, Corkran, Dehn, Malton)
+#   2017.40.218.01 (1er nov. 1946) : groupes et rendez-vous réguliers de l'automne (déjà dans le semainier)
+#   2017.40.039 (mars 1947) : Bolotowsky au second semestre ; Dreier démissionne de la charge de recteur
+#   2017.40.040 (avril 1947) : programme de la Summer Session 1947 (annoncé)
+# Absents : Josef et Anni Albers (en congé pour l'année ; Bolotowsky et Franziska Mayer les remplacent), Erwin et
+# Trudi Straus (partis pour Lexington), Dehn au premier semestre (Wisconsin).
+# Au second semestre, les cours dont la suite n'est pas annoncée sont reconduits (TERME_DEDUIT, +15).
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ARTS (I. Bolotowsky, F. Mayer, M. Gregory, J. Jalowetz) ----------
+C|art.dessin|Arts|Drawing (beginning and advanced)|Drawing (Albers, 1945-46)|—
+C|art.peinture|Arts|Painting (beginning and advanced)|Painting (Albers, 1945-46)|—
+C|art.tissage1|Arts|Weaving I|Weaving, introductory (A. Albers, 1945-46)|—
+C|art.tissage2|Arts|Weaving II|Weaving, advanced (A. Albers, 1945-46)|—
+C|cons.bois|Arts|Woodworking|Woodworking (1945-46)|—
+C|art.reliure|Arts|Book Binding|Bookbinding (1945-46)|—
+U|IB1|Ilya Bolotowsky|4|MEME_ANNEE+R_ATTESTE+VOLUME|art.dessin|||1|« Drawing; Painting (beginning and advanced) » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k)) ; Bolotowsky « in Albers' place » toute l'année (2017.40.039)||volume supposé (2 × 2 h comme Albers)|
+U|IB2|Ilya Bolotowsky|4|MEME_ANNEE+R_ATTESTE+VOLUME|art.peinture|||1|idem|||
+U|FM1|Franziska Mayer|1+4|MEME_ANNEE+R_ATTESTE+VOLUME|art.tissage1|||1|« Weaving I; Weaving II » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))||structure de l'atelier d'Anni Albers (théorie + atelier)|fall
+U|FM1s|Franziska Mayer|1+4|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|art.tissage1|||4/5|cours du premier semestre reconduit au second (suite non annoncée)|=FM1||spring
+U|FM2|Franziska Mayer|1+4|MEME_ANNEE+R_ATTESTE+VOLUME|art.tissage2|||1|idem (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|||fall
+U|FM2s|Franziska Mayer|1+4|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|art.tissage2|||4/5|cours du premier semestre reconduit au second (suite non annoncée)|=FM2||spring
+U|MG|Molly Gregory|2|MEME_ANNEE+R_ATTESTE+OCCASION|cons.bois|||1|« Woodworking » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|lun,mar,jeu 10:30-12:00|atelier ouvert ; heures d'atelier de 1944-45|
+U|JJ1|Johanna Jalowetz|2|MEME_ANNEE+R_ATTESTE+VOLUME|art.reliure|||1|« Voice; Book Binding » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k)) ; reliure « deux fois par semaine » à l'été 1947|||
+
+# ---------- MUSIQUE (E. Lowinsky, C. Schlesinger, J. Jalowetz) ----------
+C|mu.forme|Music|Problems of Musical Form and Structure|Fundamentals of Music (1945-46, approché)|—
+C|mu.contrepoint2|Music|Counterpoint II|Counterpoint (1945-46)|—
+C|mu.acappella|Music|A Cappella Chorus|A Cappella Singing (1945-46)|—
+C|mu.intro|Music|Introduction to Music|Fundamentals of Music (Fax, 1945-46)|—
+C|mu.contrepoint1|Music|Counterpoint I|—|—
+C|mu.harmonie|Music|Harmony|Harmony (Fax, 1945-46)|—
+C|mu.choeur|Music|Chorus|Chorus (1945-46)|—
+C|mu.ensemble|Music|Ensemble|Ensemble (1945-46)|—
+C|mu.instruments|Music|Piano; Voice (lessons)|Piano; Voice Coaching (1945-46)|—
+U|EL1|Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.forme|||1|« Problems of Musical Form and Structure; Counterpoint II; A Cappella Chorus; Piano; Ensemble » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|||fall
+U|EL1s|Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|mu.forme|||4/5|cours du premier semestre reconduit au second (suite non annoncée)|=EL1||spring
+U|EL2|Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.contrepoint2|||1|idem (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|||fall
+U|EL2s|Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|mu.contrepoint2|||4/5|cours du premier semestre reconduit au second (suite non annoncée)|=EL2||spring
+U|EL3|Edward Lowinsky|1x90|MEME_ANNEE+R_ATTESTE+VOISIN+HEURE_CADRE|mu.acappella|||1|idem (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|ven 19:00-20:30|soir et heure des années précédentes|
+U|CS0|Charlotte Schlesinger|3|MEME_ANNEE+R_ATTESTE+VOLUME|mu.intro|||1|« Introduction to Music; Counterpoint I; Harmony; Chorus; Piano; Ensemble » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k)) ; arrivée vers le 23 septembre|||fall@1946-09-23..1947-02-08,spring
+U|CS1|Charlotte Schlesinger|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.contrepoint1|||1|idem|||fall@1946-09-23..1947-02-08,spring
+U|CS2|Charlotte Schlesinger|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.harmonie|||1|idem|||fall@1946-09-23..1947-02-08,spring
+U|CS3|Charlotte Schlesinger|2x90|MEME_ANNEE+R_ATTESTE+VOISIN+HEURE_CADRE|mu.choeur|||1|idem ; chœur du mardi soir des années précédentes|mar 19:30-21:00||fall@1946-09-23..1947-02-08,spring
+U|EN|Edward Lowinsky; Charlotte Schlesinger|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.ensemble|||1|« Ensemble » chez Lowinsky et chez Schlesinger (idem)|||
+U|MU|Edward Lowinsky; Charlotte Schlesinger; Johanna Jalowetz|1|MEME_ANNEE+R_ATTESTE+OCCASION|mu.instruments|leçons individuelles||1|piano (Lowinsky, Schlesinger), chant (Johanna Jalowetz) (idem)||plage indicative|
+
+# ---------- LANGUE, LITTÉRATURE, THÉÂTRE (M. C. Richards, T. Rondthaler, W. Malton) ----------
+C|en.shakespeare|English|Shakespeare|—|—
+C|en.critique|English|Literary Criticism|Reading Literature (1945-46, approché)|—
+C|ecr.ecriture|Writing|Writing|Principles of Writing (1945-46)|—
+C|la.elem|Latin|Elementary Latin|Elementary Latin (1945-46)|—
+C|fr.cours|French|French|French (1945-46)|—
+C|dr.theatre|Dramatics|Dramatics|Drama class (1945-46)|—
+U|MR1|Mary Caroline Richards|3|MEME_ANNEE+R_ATTESTE+VOLUME|en.shakespeare|||1|« Shakespeare; Literary Criticism » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|||fall
+U|MR2|Mary Caroline Richards|3|MEME_ANNEE+R_ATTESTE+VOLUME|en.critique|||1|idem|||fall
+U|MR3|Mary Caroline Richards|3|MEME_ANNEE+R_ATTESTE+VOLUME|ecr.ecriture|||1|« 2e semestre : Writing » (idem)|=MR1||spring
+U|TR|Theodore Rondthaler|3|MEME_ANNEE+R_ATTESTE+VOLUME|la.elem|||1|« Elementary Latin » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|||fall
+U|TRs|Theodore Rondthaler|3|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|la.elem|||4/5|cours du premier semestre reconduit au second (suite non annoncée)|=TR||spring
+U|WM1|William Malton|3|MEME_ANNEE+R_ATTESTE+VOLUME|fr.cours|||1|« French; Dramatics », Malton « arrive au 2e semestre » (2017.40.217.01a-k)|||spring
+U|WM2|William Malton|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.theatre|||1|idem|||spring
+
+# ---------- SCIENCES SOCIALES ET PHILOSOPHIE (D. Corkran, A. W. Levi, H. A. Miller, K. Niebyl, J. Wallen) ----------
+C|hi.amciv|Social Studies|American Civilization (American literature and history of ideas)|American Civilization (1945-46)|—
+C|hi.politique|Social Studies|Foreign Policy of the United States since 1900|—|—
+C|gv.am|Social Studies|American Government|American Government (1945-46)|—
+C|hi.grece|Social Studies|Cultural History of the Greek World|—|—
+C|phi.grece|Social Studies|Philosophy of Plato and Aristotle|Problems of Philosophy (1945-46, approché)|—
+C|hi.medieval|Social Studies|The Medieval World|—|—
+C|phi.medieval|Social Studies|Medieval Philosophy|—|—
+C|soc.race|Social Studies|Race Problems|The Race Problem (1945-46)|—
+C|eco.histoire|Social Studies|Historical Introduction to Present-Day Economic Analysis|Theory and Practice of Modern Economy (1945-46, approché)|—
+C|eco.inter|Social Studies|International Economics|—|—
+C|eco.interne|Social Studies|Analysis of the Internal Economy|—|—
+C|psy.relations|Social Studies|Human Relations (with laboratory)|Introduction to Psychology (1945-46, approché)|—
+C|psy.social|Social Studies|Psychology of Social Issues|Pedagogical Psychology (1945-46, approché)|—
+U|DC1|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.amciv|||1|« American Civilization; Foreign Policy of the US since 1900 » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|||fall
+U|DC2|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.politique|||1|idem|||fall
+U|DC3|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|gv.am|||1/2|« American government (probable) » au second semestre (idem)|=DC2||spring
+U|DC4|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|hi.amciv|||4/5|American Civilization reconduit au second semestre|=DC1||spring
+U|BL1|Albert W. Levi|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.grece|||1|« Cultural History of the Greek World; Philosophy of Plato and Aristotle » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|||fall
+U|BL2|Albert W. Levi|3|MEME_ANNEE+R_ATTESTE+VOLUME|phi.grece|||1|idem|||fall
+U|BL3|Albert W. Levi|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.medieval|||1|« 2e semestre : Medieval World ; Medieval Philosophy » (idem)|=BL1||spring
+U|BL4|Albert W. Levi|3|MEME_ANNEE+R_ATTESTE+VOLUME|phi.medieval|||1|idem|=BL2||spring
+U|HM|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|soc.race|||1|« Race Problems; World Today » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|||fall
+U|HMs|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|soc.race|||4/5|cours du premier semestre reconduit au second (suite non annoncée)|=HM||spring
+U|KN1|Karl Niebyl|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.histoire|||1|« Historical Introduction to Present-Day Economic Analysis; International Economics » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k)) ; groupe de discussion d'histoire économique (nov. 1946)|||fall
+U|KN2|Karl Niebyl|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.inter|||1|idem|||fall
+U|KN3|Karl Niebyl|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.interne|||1|« 2e semestre : Analysis of the Internal Economy » (idem)|=KN1||spring
+U|JW1|John Wallen|2x50+1x110+1x180L|MEME_ANNEE+R_ATTESTE|psy.relations|||1|« Human Relations (2 × 1 h + 1 × 2 h + one afternoon of laboratory) » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|||fall
+U|JW2|John Wallen|2x50+2x50|MEME_ANNEE+R_ATTESTE|psy.social|||1|« Psychology of Social Issues (4 × 1 h) » (idem)|||fall
+U|JW1s|John Wallen|2x50+1x110+1x180L|MEME_ANNEE+R_ATTESTE+TERME_DEDUIT|psy.relations|||4/5|reconduit au second semestre|=JW1||spring
+U|JW2s|John Wallen|2x50+2x50|MEME_ANNEE+R_ATTESTE+TERME_DEDUIT|psy.social|||4/5|reconduit au second semestre|=JW2||spring
+
+# ---------- MATHÉMATIQUES ET SCIENCES (T. Dreier, M. Dehn, F. Hansgirg) ----------
+C|ma.meca|Mathematics|Mechanics and Mathematical Analysis|Advanced Mathematics (1945-46, approché)|—
+C|phi.logique|Mathematics|Logic and the Philosophy of Science|—|—
+C|ph.physique|Physics|Physics|Matter and Energy (1945-46, approché)|—
+C|ma.dehn|Mathematics|Mathematics (incl. geometry for art students)|Introductory Mathematics (1945-46)|—
+C|ch.theorie|Chemistry|Introduction to Theoretical Chemistry, with laboratory|Introductory Chemistry (1945-46)|—
+U|TD1|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.meca|||1|« Mechanics and Mathematical Analysis » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k)) ; Dreier de retour de Cambridge le 1er août 1946|||fall
+U|TD2|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOLUME|phi.logique|||1|« 2e semestre : Logic and the Philosophy of Science ; Physics » (idem)|=TD1||spring
+U|TD3|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOLUME|ph.physique|||1|idem|||spring
+U|MD|Max Dehn|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.dehn|||1|« mathematics incl. geometry for art students, possibly philosophy » au second semestre ; « Dr Max Dehn has been granted a leave of absence for the first semester » (idem)|||spring
+U|FH|Fritz Hansgirg|3+4L|MEME_ANNEE+R_ATTESTE+VOLUME|ch.theorie|||1|« Introduction to Theoretical Chemistry, with laboratory » (liste des cours du premier semestre (bulletin de septembre 1946, 2017.40.217.01a-k))|||fall
+U|FHs|Fritz Hansgirg|3+4L|MEME_ANNEE+R_ATTESTE+VOLUME+TERME_DEDUIT|ch.theorie|||4/5|cours du premier semestre reconduit au second (suite non annoncée)|=FH||spring
+
+# ---------- SECRÉTARIAT (A. Rondthaler) ----------
+C|sec.steno|Secretarial|Shorthand (Gregg)|Gregg Shorthand; Typewriting (1945-46)|—
+U|AR|Alice Rondthaler|2|MEME_ANNEE+R_ATTESTE+VOLUME|sec.steno|||1|« Shorthand (Gregg) » (2017.40.217.01a-k)|||
+
+# ---------- SUMMER SESSION 1947 (programme annoncé, 2017.40.040) ----------
+C|ete.photo|Summer Session 1947|Photography|—|—
+C|ete.physique|Summer Session 1947|Physics; History of Science|—|—
+C|ete.humanites|Summer Session 1947|English and the Humanities|—|—
+C|ete.amlit|Summer Session 1947|American Literature|—|—
+C|ete.choeur|Summer Session 1947|Chorus; Ensemble|—|—
+C|ete.clavier|Summer Session 1947|Development of Keyboard Music|—|—
+C|ete.allemand|Summer Session 1947|German Language and Literature|—|—
+C|ete.tissage|Summer Session 1947|Weaving|—|—
+C|ete.peinture|Summer Session 1947|Painting; Drawing|—|—
+C|ete.reliure|Summer Session 1947|Bookbinding|—|—
+C|ete.maths|Summer Session 1947|Mathematics and Philosophy|—|—
+C|ete.bois|Summer Session 1947|Woodworking|—|—
+C|ete.socio|Summer Session 1947|General Sociology|—|—
+C|ete.ecriture|Summer Session 1947|Writing, Music and Humanities|—|—
+C|ete.kahler|Summer Session 1947|Seminars in World Government and in the Crisis of the Individual|—|—
+C|ete.chimie|Summer Session 1947|Organic Chemistry (if sufficient demand)|—|—
+U|E1|Beaumont Newhall|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.photo|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E2|Carl Clement|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.physique|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E3|Charles Bell|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.humanites|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E4|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.amlit|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E5|Edward Lowinsky|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.choeur|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E6|Erwin Bodky|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.clavier|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E7|Frank Aydelotte Rice|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.allemand|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E8|Franziska Mayer; Trude Guermonprez|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.tissage|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E9|Ilya Bolotowsky|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.peinture|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E10|Johanna Jalowetz|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.reliure|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E11|Max Dehn|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.maths|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E12|Molly Gregory|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.bois|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E13|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.socio|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E14|Harold Sproul|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.ecriture|||4/5|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé|summer
+U|E15|Erich Kahler|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.kahler|||1/2|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé ; « if sufficient demand » ou une partie de l'été|summer
+U|E16|Fritz Hansgirg|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.chimie|||1/2|programme de la Summer Session 1947 (« Supplement to Black Mountain College Bulletin », avril 1947)||annoncé : réalisation non vérifiée ; volume supposé ; « if sufficient demand » ou une partie de l'été|summer

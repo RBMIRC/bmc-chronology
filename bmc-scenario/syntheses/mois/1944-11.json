@@ -1,0 +1,246 @@
+{
+ "passe": "mois",
+ "cle": "1944-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 1775,
+  "sortie": 8410,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1944-11",
+  "session": "Trimestre d'automne, déduit de la synthèse qui y rattache l'admission votée au printemps ; aucune fiche ne documente le déroulement concret du trimestre.",
+  "saison_et_climat": "Fin d'automne : Kazin note le 7 novembre que l'automne s'est prolongé des jours entiers puis que le froid s'est installé, avec une gelée blanche sur l'herbe près de la salle à manger au petit matin.",
+  "situation": "Après quatre mois de débat sur l'admission d'étudiants noirs, le collège n'a retenu qu'une seule femme noire, âgée et qualifiée, admise pour l'été 1944 sous un statut hybride. Le trimestre d'automne ne voit pas l'admission votée en début d'année. Le collège est en recomposition : un groupe d'anciens (Bentley, de Graaff, Cohen, Foreman) prépare un collège rival, et la direction s'use. Dans le monde extérieur, Janis prépare son exposition et son livre, mais cela se passe à New York, hors du campus.",
+  "presents_probables": [
+   {
+    "nom": "Kazin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hansgirg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Miller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Radin",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bentley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "de Graaff",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Cohen",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Le consensus de fin de printemps retient une seule femme noire, professeure de musique à Fort Valley, admise pour l'été avec un statut hybride de « membre de l'Institut ». Straus dit rester contre sans se battre.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese 1944"
+    ]
+   },
+   {
+    "date": "1944-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Le projet de collège rival des partants est en cours, comme la reconstruction du corps enseignant, sur une période qui va jusqu'en mars 1945.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese 1944 (fils : projet de collège rival 1944-09 à 1945-03 ; reconstruction du corps enseignant 1944-09 à 1945)"
+    ]
+   },
+   {
+    "date": "1944-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Sidney Janis retient des dessins de Willem de Kooning pour « Abstract and Surrealist Art in America », à la Mortimer Brandt Gallery de New York. Événement extérieur au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03667"
+    ]
+   },
+   {
+    "date": "1944-11-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Kazin note dans son journal le froid qui s'installe sur le campus, près de la salle à manger, avec la gelée blanche du petit matin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03668"
+    ]
+   },
+   {
+    "date": "1944-11",
+    "precision": "mois",
+    "ce_qui_arrive": "La dissidence de Dreier s'aggrave : il reçoit l'ordre de rompre avec le Rosenwald Fund et reste seul. Le moment exact de cet ordre n'est pas daté.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese 1944 (version de Lane)"
+    ]
+   }
+  ],
+  "quotidien": "Peu documenté. Ce qui est attesté : le froid, la gelée sur l'herbe près de la salle à manger, la vie du campus qui continue malgré le débat. Les cours, repas et travaux sont à supposer, sans détail dans les fiches.",
+  "tensions": [
+   "Le trimestre d'automne devait accueillir des étudiants noirs selon le vote étudiant, et la décision finale ne retient qu'une femme pour l'été : frustration et ressentiment possibles.",
+   "Straus a déclaré en avril que « le Noir est étrange », et Bentley a raillé le statut hybride de la femme admise (« Hofjude »).",
+   "Dreier, isolé, doit rompre avec le Rosenwald Fund : tension entre la direction et sa position.",
+   "Les anciens (Bentley, de Graaff, Cohen) se préparent à partir, ce qui fragilise le collège.",
+   "Les menaces (boycott, incendie) pèsent toujours : sources contradictoires sur leur intensité réelle.",
+   "Usure de la direction : « trop avec trop peu » (Orr, qui a démissionné en avril)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le gel du matin",
+    "date": "1944-11-07",
+    "lieu": "Campus, près de la salle à manger",
+    "personnages": [
+     "Kazin"
+    ],
+    "deroule": "Au petit matin, Kazin marche sur l'herbe gelée près de la salle à manger et note dans son journal que l'automne a duré et que le froid est arrivé. Scène d'ambiance, la pause avant le débat à venir.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03668"
+    ]
+   },
+   {
+    "titre": "Le trimestre sans l'admission votée",
+    "date": "1944-11",
+    "lieu": "Faculté, salle de réunion",
+    "personnages": [
+     "Wunsch",
+     "Straus",
+     "Josef Albers",
+     "Anni Albers",
+     "Dreier"
+    ],
+    "deroule": "Réunion de faculté où l'on constate que le vote étudiant n'a pas été suivi d'admissions au trimestre d'automne. Wunsch doit justifier la position prise devant la lettre à Evarts sur « la guerre ouverte au Sud ». Straus et Josef Albers rappellent leur opposition ; Dreier doit répondre à l'ordre de rompre avec le Rosenwald Fund.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese 1944"
+    ]
+   },
+   {
+    "titre": "Départ du groupe des anciens",
+    "date": "1944-11",
+    "lieu": "Campus",
+    "personnages": [
+     "Bentley",
+     "de Graaff",
+     "Cohen"
+    ],
+    "deroule": "Les anciens préparent leur départ et le collège rival. Scène de préparatifs, de lettres et de conversations sur ce qui reste du collège.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese 1944 (fils : scission anciens/nouveaux, projet de collège rival)"
+    ]
+   },
+   {
+    "titre": "Les dessins choisis",
+    "date": "1944-11",
+    "lieu": "Mortimer Brandt Gallery, New York",
+    "personnages": [
+     "Sidney Janis"
+    ],
+    "deroule": "Janis sélectionne des dessins de de Kooning pour son exposition. Scène extérieure au collège, utile pour un décalage de lieu.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03667"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Novembre 1944 : Wunsch doit justifier son choix dans le débat sur l'admission.",
+    "vers_date": "1944-01-25",
+    "vers": "Ouverture des réunions de faculté sur l'admission des étudiants noirs, qui vont durer jusqu'au 10 mai.",
+    "refs": [
+     "synthese 1944"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre 1944 : le départ de l'opposant Orr reste dans les mémoires du trésorier et des enseignants.",
+    "vers_date": "1944-04-26",
+    "vers": "Démission du trésorier adjoint Orr, en partie à cause de l'admission et plus généralement parce que le collège tente « trop avec trop peu ».",
+    "refs": [
+     "synthese 1944"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre 1944 : Dreier reste isolé après l'ordre de rompre avec le Rosenwald Fund.",
+    "vers_date": "1945",
+    "vers": "L'automne 1945 tranche la question de l'admission des étudiants noirs, selon la version de Lane.",
+    "refs": [
+     "synthese 1944 (version de Lane)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre 1944 : le projet de collège rival est en cours avec les partants.",
+    "vers_date": "1945-03",
+    "vers": "Fin de la période de préparation du collège rival des partants.",
+    "refs": [
+     "synthese 1944 (fils : projet de collège rival 1944-09 à 1945-03)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Froid qui s'installe",
+   "Le vote étudiant contre la décision finale",
+   "La scission des anciens et le collège rival",
+   "La vitrine et la voie parallèle des instituts d'été",
+   "La fragilité financière et l'usure de la direction",
+   "Le précédent du séminaire d'Anniston et les menaces"
+  ],
+  "lacunes": "Aucune fiche ne décrit la vie du trimestre d'automne 1944 (cours, repas, musique, travaux) hors la gelée de Kazin. On ignore si la femme admise pour l'été est arrivée et comment elle a été accueillie. La date exacte de l'ordre fait à Dreier n'est pas donnée. Le statut de Foreman en novembre est incertain (il préside la Southern Conference). Les présences listées sont déduites des positions prises au printemps, sauf Kazin. Les sources se contredisent sur la solidité de l'engagement du corps enseignant : Duberman parle d'un consensus pro-admission et d'un vote ferme, Lane d'un recul sous la menace. Le chapitre de synthèse n'a pas d'identifiant propre, d'où la référence « synthese 1944 »."
+ }
+}

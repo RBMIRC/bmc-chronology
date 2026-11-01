@@ -1,0 +1,310 @@
+{
+ "passe": "mois",
+ "cle": "1943-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3251,
+  "sortie": 13768,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1943-08",
+  "session": "Entre-deux estival : aucun cours d'août n'est signalé, la faculté prépare la rentrée d'automne 1943 (déduit)",
+  "saison_et_climat": "Été 1943 : chaleur écrasante, travail en plein air sur les allées gravelées bordées de galax et de laurier. La saison est attestée, le jour ne l'est pas.",
+  "situation": "Le chantier communautaire lancé à l'automne 1940 touche à sa fin. Fin août, la faculté décide de rouvrir en automne malgré un recrutement fragile, dans l'euphorie du mica. Le collège reste largement féminin et composé d'étrangers déplacés, plusieurs enseignants sont déjà partis à l'effort de guerre, et les tensions idéologiques entre Bentley et Straus couvent.",
+  "presents_probables": [
+   {
+    "nom": "Albers (Josef ou Anni, les fiches ne tranchent pas toujours)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lane (témoin de la route)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eric Bentley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Sam Brown",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "quatre jeunes étudiantes de l'équipe de route (non nommées)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1943-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Fin août, dans l'euphorie du mica, la faculté décide de poursuivre malgré tout : 17 000 $ de promesses d'été et 55 étudiants espérés, dont 20 à 25 % de garçons.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03431"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "saison",
+    "ce_qui_arrive": "Une mine de mica ouverte sur la propriété pour l'effort de guerre absorbe une partie de l'énergie et des espoirs de l'été. Les sources divergent sur son sort.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "saison",
+    "ce_qui_arrive": "Straus accuse Bentley en faculté d'endoctriner dans un sens pro-soviétique et anti-britannique ; Bentley répond par une déclaration en sept points.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   }
+  ],
+  "quotidien": "Équipe de route qui nivelle les allées, Albers qui lambrisse et peint la salle à manger et les halls du lodge, mine de mica qui mobilise les bras. Molly Gregory écoule un surplus de légumes au village et à Asheville. La vie culturelle continue : répétitions du Quatuor Kolisch au réfectoire, concerts du samedi, Albers qui peint la nuit dans la salle blanche de Black Dwarf. Les dates précises de ces activités ne sont pas fixées.",
+  "tensions": [
+   "Straus accuse Bentley d'endoctrinement pro-soviétique devant la faculté, Bentley répond par une déclaration en sept points",
+   "Les nouveaux enseignants énergiques se heurtent à Albers, Dreier et Wunsch qui dominent encore la faculté",
+   "La mine de mica détourne l'énergie du collège vers l'effort de guerre, alors que les inscriptions restent incertaines",
+   "Recrutement fragile : seuls 55 étudiants sont espérés, et les jeunes hommes manquent",
+   "Wunsch : Burns dit qu'il quitte BMC en 1943, mais les fiches le montrent à la rentrée et au Nouvel An (contradiction)",
+   "French : la synthèse le dit parti à l'effort de guerre, alors qu'une fiche le montre dans un couple au bal du samedi (contradiction)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le chemin nivelé sous la chaleur",
+    "date": "1943",
+    "lieu": "route du campus, Lake Eden",
+    "personnages": [
+     "Albers",
+     "quatre jeunes étudiantes",
+     "Lane (témoin)"
+    ],
+    "deroule": "Albers, en pantalon blanc, dirige l'équipe de route. Quatre jeunes filles nivellent le chemin sous une chaleur écrasante, Lane observe la scène.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "titre": "Le pari de la rentrée",
+    "date": "1943-08",
+    "lieu": "faculté",
+    "personnages": [
+     "la faculté"
+    ],
+    "deroule": "Dans l'euphorie du mica, la faculté décide de poursuivre malgré la faiblesse du recrutement, en comptant sur 17 000 $ de promesses et 55 étudiants.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03431"
+    ]
+   },
+   {
+    "titre": "La déclaration en sept points",
+    "date": "1943",
+    "lieu": "faculté",
+    "personnages": [
+     "Eric Bentley",
+     "Straus"
+    ],
+    "deroule": "Straus accuse Bentley d'endoctriner les étudiants dans un sens pro-soviétique et anti-britannique. Bentley répond par une déclaration en sept points.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "titre": "Le mica au service de la guerre",
+    "date": "1943",
+    "lieu": "mine de mica sur la propriété",
+    "personnages": [
+     "ouvriers de la mine (non nommés)",
+     "la faculté"
+    ],
+    "deroule": "Une mine ouverte sur le terrain du collège pour l'effort de guerre aspire l'énergie et les espoirs de l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "titre": "Légumes à vendre",
+    "date": "1943",
+    "lieu": "village voisin et Asheville",
+    "personnages": [
+     "Molly Gregory"
+    ],
+    "deroule": "Molly Gregory tente d'écouler un surplus de légumes jusque dans le village et à Asheville.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "titre": "Peinture de nuit à Black Dwarf",
+    "date": "1943",
+    "lieu": "salle blanche de Black Dwarf",
+    "personnages": [
+     "Albers"
+    ],
+    "deroule": "Albers peint la nuit dans la salle blanche de Black Dwarf.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "titre": "Concert du samedi au chevet des blessés",
+    "date": "1943",
+    "lieu": "collège",
+    "personnages": [
+     "musiciens du collège",
+     "blessés du Moore General Hospital"
+    ],
+    "deroule": "Les concerts du samedi sont suivis par des blessés du Moore General Hospital.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "la route que l'équipe nivelle en août",
+    "vers_date": "1940",
+    "vers": "Lancement du chantier communautaire à l'automne 1940, programme prévu pour près de trois ans",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la décision de rouvrir de fin août",
+    "vers_date": "1943-07",
+    "vers": "Marshall Field propose 10 000 $ au collège",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "l'été de la mine et de la faculté qui se déchire",
+    "vers_date": "1943-05",
+    "vers": "Anni Albers date son essai sur la forme et les objets, critique la décoration et prône de posséder moins ; Harper retire l'autobiographie de John Andrew Rice après la menace de Holt",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la faculté qui se prépare à rouvrir",
+    "vers_date": "1943-04",
+    "vers": "Oppenheimer part pour l'armée de l'air après neuf mois ; la conférence interraciale prévue à BMC est déplacée à Talladega",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "le collège qui se pense sans curriculum obligatoire",
+    "vers_date": "1943-02",
+    "vers": "Bulletin « Learning and Living » ; Albers donne sa conférence sur la photographie le 24 février ; Negro History Week avec W. A. Robinson et professeurs noirs d'Asheville",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la rentrée annoncée par la décision de fin août",
+    "vers_date": "1943-09-06",
+    "vers": "Jean Charlot visite le collège, donne sa conférence sur le Mexique, et on lui demande d'enseigner l'été suivant",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le recrutement espéré en août",
+    "vers_date": "1943-10",
+    "vers": "Le dernier contingent de l'Enlisted Reserve Corps est parti ; Sam Brown reste seul étudiant masculin à la mi-octobre",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la faculté qui cherche de l'argent pour la rentrée",
+    "vers_date": "1943-11",
+    "vers": "Hansgirg annonce un projet d'extraction de magnésium de l'olivine et offre 20 % au collège ; le don reste sans suite",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'art new-yorkais en arrière-plan",
+    "vers_date": "1943-12-09",
+    "vers": "Elaine Fried, après une année sans peindre à l'usine Liquidometer, épouse Willem de Kooning",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la rivalité Bentley/Straus",
+    "vers_date": "1944",
+    "vers": "Scission de la faculté (déduction : probablement en partie 1943-44)",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la mine de mica et l'effort de guerre",
+    "vers_date": "1945",
+    "vers": "Suite de l'histoire de la mine de mica sur la propriété",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les liens futurs avec New York",
+    "vers_date": "1948",
+    "vers": "Willem de Kooning enseigne à BMC à l'été 1948",
+    "refs": [
+     "synthèse 1943 (sans identifiant)"
+    ]
+   }
+  ],
+  "motifs": [
+   "chaleur et travail manuel comme vertu communautaire",
+   "le mica : espoir et leurre",
+   "promesses d'argent et recrutement fragile",
+   "guerre présente par ses départs",
+   "la musique comme ciment de la vie collective",
+   "la faculté de femmes et d'étrangers face à ses anciens hommes"
+  ],
+  "lacunes": "On ignore la date exacte de la décision de rouvrir au-delà de « fin août », le sort de la mine (sources divergentes), la présence exacte de Wunsch (Burns le dit parti en 1943), la date de l'accusation de Straus et de la déclaration de Bentley (« été » seulement), et si chaque scène concerne Josef ou Anni Albers. Les dates des répétitions du Quatuor Kolisch, des concerts du samedi et des expositions ne sont pas fixées."
+ }
+}

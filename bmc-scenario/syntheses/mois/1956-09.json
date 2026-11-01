@@ -1,0 +1,278 @@
+{
+ "passe": "mois",
+ "cle": "1956-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4211,
+  "sortie": 14503,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1956-09",
+  "session": "Rentrée d'automne très informelle : fin septembre, les cours d'automne ne sont pas encore commencés (EV-06874). Le collège est en fin de vie, sans décision publique de fermeture.",
+  "saison_et_climat": "Fin d'été qui glisse vers l'automne dans les montagnes de Caroline du Nord, près d'Asheville. Chaleur estivale probablement encore présente en début de mois (déduit). Végétation qui envahit le campus (kudzu) à la fin du mois (synthèse 1956).",
+  "situation": "Le collège n'a plus de structure ni de rituels. Les inscriptions sont minuscules et le corps enseignant se réduit à Olson et Huss, qui décident à l'automne de fermer (synthèse 1956). Rumaker, venu de Philadelphie en août, a quitté le campus pour San Francisco au plus tard fin septembre (EV-06878). Ebbe Borregaard arrive fin septembre et trouve un campus envahi par le kudzu et sans électricité (EV-06874, synthèse 1956). Horowitz suit des cours à Yale, hors du collège (EV-06872, SC-01852). La fermeture n'est pas encore annoncée : elle le sera en octobre, à la bougie, chez Olson (synthèse 1956).",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Duncan",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Van de Wiele",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ebbe Borregaard",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rumaker",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Fiore",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Dernière production du collège : Medea, écrite et mise en scène par Duncan, jouée par toute la communauté. Date contestée : la synthèse la place les 29 et 30 août, alors que EV-06877, SC-01853 et EC-03193 la rattachent à septembre, au troisième ou quatrième jour d'Ebbe.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06877",
+     "SC-01853",
+     "EC-03193",
+     "synthèse 1956"
+    ]
+   },
+   {
+    "date": "1956-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Ebbe Borregaard arrive à Black Mountain après avoir fait de l'auto-stop depuis la Virginie, avec de maigres bagages, avant le début des cours d'automne. Il trouve le campus envahi par le kudzu et sans électricité. Arrivée située fin septembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06874",
+     "synthèse 1956"
+    ]
+   },
+   {
+    "date": "1956-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Dès son premier jour complet, des étudiants emmènent Ebbe en ville et lui apprennent à voler de la nourriture au supermarché A&P.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06875"
+    ]
+   },
+   {
+    "date": "1956-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Première nuit : Ebbe rejoint étudiants et professeurs au bar Ma Peek's, juste hors de la ville de Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06876"
+    ]
+   },
+   {
+    "date": "1956-09",
+    "precision": "mois",
+    "ce_qui_arrive": "À Yale, Horowitz suit le premier cours de Basic Drawing avec Albers, qui annonce un cours de voir et de penser et non d'imitation des Old Masters. Hors collège, il sert de contrepoint.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06872",
+     "SC-01852"
+    ]
+   },
+   {
+    "date": "1956-09-30",
+    "precision": "jour",
+    "ce_qui_arrive": "Rumaker écrit de Philadelphie à Olson avant de partir en auto-stop vers San Francisco. Il avait d'abord trouvé l'œuvre d'Olson chaotique, puis dit avoir entendu la limpidité, le rythme et la forme qu'Olson lui réclamait.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06878"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire est faite de tutorat, qui est la réalité du collège selon la synthèse, et d'un atelier d'écriture d'Olson réunissant une demi-douzaine d'étudiants (août). Des répétitions de Medea occupent Duncan et la communauté jusqu'à la représentation. Les sorties nocturnes passent par Ma Peek's, et les petits larcins au A&P font partie de l'initiation des nouveaux. Le campus est sans électricité et se dégrade. Les fiches ne donnent ni les repas ni les horaires.",
+  "tensions": [
+   "Olson et Duncan : la satire « Old Son » contre Olson, avec Van de Wiele en bébé dans une poussette, est vécue comme une déclaration d'indépendance méchante, selon Rumaker. Date non précisée.",
+   "Fiore nourrit un ressentiment envers Rice, que Olson avait tenu pour le meilleur peintre ; Fiore parle de partir.",
+   "Van de Wiele cache sa hache (août), indice d'une violence latente.",
+   "Ironie d'Olson envers ses étudiants et proposition du drapeau rouge « SECONAL » à la place de l'enseigne (août).",
+   "Dettes et finances : presque tout l'argent doit aller aux dettes, et le campus bas est loué à un camp chrétien.",
+   "Menace d'accusation d'immoralité après l'affaire d'un étudiant violent dénoncé par sa vraie femme au Travelers' Aid. Date inconnue, facteur probablement mineur.",
+   "Contradiction sur la date de Medea : synthèse (29 et 30 août) contre EV-06877, SC-01853 et EC-03193 (septembre)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Première nuit à Ma Peek's",
+    "date": "1956-09",
+    "lieu": "Ma Peek's, bar juste hors de Black Mountain",
+    "personnages": [
+     "Ebbe Borregaard",
+     "étudiants et professeurs non nommés"
+    ],
+    "deroule": "Ebbe, arrivé depuis peu, rejoint la bande au bar local. Son premier soir au collège se déroule dans ce lieu hors de la ville.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06876"
+    ]
+   },
+   {
+    "titre": "Initiation au vol au A&P",
+    "date": "1956-09",
+    "lieu": "Ville de Black Mountain, supermarché A&P",
+    "personnages": [
+     "Ebbe Borregaard",
+     "étudiants non nommés"
+    ],
+    "deroule": "Dès le premier jour complet, les étudiants apprennent à Ebbe à voler de la nourriture au supermarché. Scène de bizutage et d'intégration à l'anarchie du lieu.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06875"
+    ]
+   },
+   {
+    "titre": "Medea, dernière représentation",
+    "date": "1956-09",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Robert Duncan",
+     "Ebbe Borregaard",
+     "toute la communauté au plateau"
+    ],
+    "deroule": "Toute la communauté joue Medea, écrite et mise en scène par Duncan. Ebbe compte parmi les rares spectateurs. Date contestée (voir tensions).",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01853",
+     "EV-06877"
+    ]
+   },
+   {
+    "titre": "Arrivée d'Ebbe sur un campus envahi",
+    "date": "1956-09",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Ebbe Borregaard"
+    ],
+    "deroule": "Après l'auto-stop depuis la Virginie, Ebbe découvre un campus couvert de kudzu et sans électricité, avec peu de monde.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06874",
+     "synthèse 1956"
+    ]
+   },
+   {
+    "titre": "Leçon de voir à Yale",
+    "date": "1956-09",
+    "lieu": "Street Hall, Yale (hors collège)",
+    "personnages": [
+     "Josef Albers",
+     "Frederick A. Horowitz"
+    ],
+    "deroule": "Horowitz s'assoit dans la salle silencieuse. Albers annonce un cours de voir et de penser, ce qui renverse les attentes de l'étudiant.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01852"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Fin septembre, quand Ebbe découvre la liberté sans règles du collège",
+    "vers_date": null,
+    "vers": "Ses années de service militaire à Newport News, dont la discipline contraste avec l'anarchie de BMC, « un tel choc mental ».",
+    "refs": [
+     "EC-03194"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Fin septembre, quand la bibliothèque et la machine à laver sont pillées ou détruites (date ≈ autour de 1956-10)",
+    "vers_date": "1946",
+    "vers": "La bibliothèque « joyau » d'autrefois et le toit de la farmhouse monté par Molly Gregory vers ≈1946 (une décennie plus tôt).",
+    "refs": [
+     "EC-03195"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Ebbe lit la lettre de Rumaker du 30 septembre, qui parle du chemin vers la limpidité",
+    "vers_date": null,
+    "vers": "Les premières lectures d'Olson, que Rumaker trouvait chaotiques et gratuites avant de corriger son oreille.",
+    "refs": [
+     "EV-06878"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Début de l'automne, quand la végétation envahit le campus et que Olson est seul à entretenir les lieux",
+    "vers_date": null,
+    "vers": "Le Work Program des années précédentes, que Olson détestait, dont l'ironie est qu'il finit à quatre pattes dans les herbes en octobre.",
+    "refs": [
+     "EC-03192"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin septembre, quand Medea est jouée pour la dernière fois",
+    "vers_date": "1956-10",
+    "vers": "La trilogie Medea continue à San Francisco avec Duncan, Jess et Huss, dans la diaspora du collège (date ≈ octobre).",
+    "refs": [
+     "EC-03193",
+     "synthèse 1956"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin septembre, quand le campus est à bout",
+    "vers_date": "1956-10",
+    "vers": "Annonce de la fermeture à la bougie, chez Olson. Le conseil consultatif, où figurent Einstein et Williams Carlos Williams, n'apporte plus que du crédit moral.",
+    "refs": [
+     "EC-03196",
+     "synthèse 1956"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin septembre, quand Olson et Huss ont fermé le collège dans un café d'Asheville (automne)",
+    "vers_date": "1956-10",
+    "vers": "Dispersion : Fiore part à New York, Huss et la troupe de Medea partent avec Duncan vers San Francisco, et Olson reste pour liquider.",
+    "refs": [
+     "synthèse 1956"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Lecture de Horowitz, qui vient de suivre le cours d'Albers à Yale",
+    "vers_date": null,
+    "vers": "L'expérience le change « irrévocablement » et le pousse vers l'enseignement.",
+    "refs": [
+     "EV-06872"
+    ]
+   }
+  ],
+  "motifs": [
+   "La limpidité, notion qu'Olson réclamait et que Rumaker finit par entendre",
+   "Voir et penser contre imiter (Albers)",
+   "Le travail et la déchéance : désherber le campus face au Work Program",
+   "Le drapeau « SECONAL » et la dérision du collège",
+   "Le kudzu qui envahit et efface le campus",
+   "La dispersion plutôt que la mort",
+   "Le prestige passé face au crédit moral qui reste"
+  ],
+  "lacunes": "On ignore la date exacte de Medea (août selon la synthèse, septembre selon EV-06877, SC-01853 et EC-03193). Le nombre réel d'étudiants en septembre n'est pas donné. On ne sait pas si Fiore, Williams, Creeley ou Rice sont présents. La date de l'affaire de l'étudiant violent et celle de la satire « Old Son » sont inconnues. On ignore si le campus bas est encore loué au camp chrétien en septembre. Les fiches ne précisent pas non plus le jour de l'arrivée de Borregaard."
+ }
+}

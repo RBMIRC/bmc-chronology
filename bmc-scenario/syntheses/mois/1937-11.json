@@ -1,0 +1,253 @@
+{
+ "passe": "mois",
+ "cle": "1937-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4340,
+  "sortie": 14981,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-11",
+  "session": "trimestre d'automne (déduit : l'élopement de novembre est situé environ trois mois après le début du trimestre, EV-02739 ; aucune date de rentrée n'est donnée)",
+  "saison_et_climat": "Fin d'automne, déduit du mois. Aucune fiche ne décrit le temps ni le climat de novembre à Black Mountain.",
+  "situation": "Le collège reprend après le schisme de juin 1937. Zeuch, King, Knickerbocker, Goldenson et Georgia ne sont plus là, et les huit étudiants signataires du réquisitoire sont partis. Portell est resté, le Board ayant retiré sa démission. La rentrée d'automne comptait 55 étudiants, selon une fiche qui rapporte aussi huit non-retours et cinq enseignants non revenus (EV-02669, EV-02734). Rice est toujours au centre du pouvoir mais fragilisé : sa riposte publique à Hutchins, le scandale de Charlotte en octobre (EV-02736) et une liaison naissante avec une étudiante, Alice, qui commence à se savoir. Nell Rice est absente pour de longs séjours en Indiana après la mort de sa mère. Albers prépare son séjour à Harvard pour décembre (EV-02741).",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers (Josef)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Portell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Adamic",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Surette",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alice (étudiante, nom de famille absent des fiches)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Somers (étudiante réadmise en fin d'année scolaire précédente)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Scandale de Charlotte : Rice traite les enfants de nuisances générales devant une association de parents de Central High School. Les Business Men's Evangelical Clubs le déclarent radical et communiste, et une semaine de lettres furieuses paraît dans le Charlotte News. La suite en novembre n'est pas documentée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02736"
+    ]
+   },
+   {
+    "date": "1937-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Deux étudiants s'enfuient ensemble pour se marier, environ trois mois après le début du trimestre. La communauté réagit calmement ; le recteur est plus bouleversé que quiconque.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02739"
+    ]
+   },
+   {
+    "date": "1937-11",
+    "precision": "mois",
+    "ce_qui_arrive": "À New York, les frais de l'American Artists School passent à cinq dollars par mois, pour de Kooning et Elaine Fried. Événement hors campus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02738"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "saison",
+    "ce_qui_arrive": "Rice s'éprend d'une étudiante, Alice, rencontrée dans les rondes d'automne entre studies. Les rumeurs courent et l'on ignore si la relation fut physique.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693",
+     "EV-02739"
+    ]
+   }
+  ],
+  "quotidien": "Le séminaire d'écriture hebdomadaire de Rice se tient dans son study de Lee Hall et serait à son meilleur en octobre-novembre. Le trimestre suit son cours avec un corps enseignant amputé et 55 étudiants. Les fiches ne décrivent ni repas, ni musique, ni travaux, ni cours précis pour ce mois. Le chiffre de 55 étudiants est celui de la rentrée d'automne, non un recensement de novembre.",
+  "tensions": [
+   "Rice face au collège : la communauté est divisée depuis juin, et la réussite de la réunion de juin (« plus unie qu'au début ») ne tient pas au quotidien.",
+   "La liaison de Rice avec Alice contre le soupçon de « centre du libre amour » qui pèse sur le collège depuis l'affaire de Floride. L'accord provisoire interdit les vacances en groupes mixtes, sans sanction individuelle.",
+   "Nell Rice, absente, et la rumeur qui pourrait lui parvenir.",
+   "La jalousie de Rice, seul à se dire « choqué » lors de la soirée de sketches.",
+   "Rice réagit plus fort que tous à l'élopement de deux étudiants, ce qui peut refléter ses propres fantasmes de fuite (interprétation de la fiche EV-02739, non un fait établi).",
+   "Le scandale de Charlotte et la pression des milieux conservateurs de Caroline du Nord sur Rice.",
+   "La réputation morale du collège, mise en cause par la presse et les clubs évangéliques."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le séminaire d'écriture de Lee Hall",
+    "date": "1937-11",
+    "lieu": "Lee Hall, study de Rice",
+    "personnages": [
+     "Rice",
+     "étudiants du séminaire",
+     "Alice (probable)"
+    ],
+    "deroule": "Rice conduit son séminaire hebdomadaire, réputé à son meilleur à cette époque. La scène peut servir à faire voir la liaison naissante : les regards, qui lit à voix haute, qui s'attarde après la séance.",
+    "certitude": "deduit",
+    "refs": [
+     "CO-00288",
+     "SC-00692"
+    ]
+   },
+   {
+    "titre": "La fuite des deux étudiants",
+    "date": "1937-11",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rice",
+     "les deux étudiants (noms absents des fiches)",
+     "la communauté"
+    ],
+    "deroule": "Deux étudiants s'enfuient pour se marier. La communauté accueille la nouvelle calmement, tandis que le recteur se montre plus bouleversé que quiconque. La scène oppose la sérénité collective et l'émotion de Rice.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02739"
+    ]
+   },
+   {
+    "titre": "La cantatrice de papier mâché",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Alice",
+     "Rice",
+     "étudiants"
+    ],
+    "deroule": "Une soirée de sketches met Alice en cantatrice de papier mâché. Seul Rice, jaloux, se dit « choqué ». La scène rend visible la liaison à la communauté sans que les autres réagissent de la même façon.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02740",
+     "SC-00708"
+    ]
+   },
+   {
+    "titre": "Nell surprend Rice",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Nell Rice",
+     "Rice",
+     "Alice"
+    ],
+    "deroule": "Nell découvre la relation. Elle s'en ouvre ensuite à son fils Frank au Carolina Inn. Les fiches ne donnent ni le jour ni le lieu de la découverte.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   },
+   {
+    "titre": "Les lettres après le scandale de Charlotte",
+    "date": "1937-10",
+    "lieu": "Charlotte, Caroline du Nord",
+    "personnages": [
+     "Rice",
+     "lecteurs du Charlotte News",
+     "Business Men's Evangelical Clubs"
+    ],
+    "deroule": "Une semaine de lettres furieuses et d'éditoriaux suit la conférence de Rice. Le scandale s'étend à tout l'État et installe Rice dans la réputation de provocateur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02736"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Novembre, quand la parole publique de Rice est attaquée et que la liaison se noue",
+    "vers_date": "1937-02-17",
+    "vers": "La réunion communautaire du 17 février : Rice dit que seule la persuasion est légitime et rejette la démocratie de « comptage de nez ». Les dissidents concluent que la séparation est la seule issue.",
+    "refs": [
+     "EV-02705",
+     "SC-00700",
+     "CF-00264"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre, avec la communauté recomposée de 55 étudiants et les huit absents",
+    "vers_date": "1937-06",
+    "vers": "Le schisme de juin : réquisitoire de Coleman en 24 points, révélation de la phrase de Rice sur Georgia, sortie de Georgia contre 3 500 $, et texte de Zeuch sur le fascisme qui relie la peinture abstraite à la démence.",
+    "refs": [
+     "EV-02715",
+     "EV-02716",
+     "EV-02720",
+     "EV-02722",
+     "EV-02724"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, quand Albers prépare son départ pour Harvard",
+    "vers_date": "1937-12",
+    "vers": "Séjour d'Albers à Harvard en décembre, qui clôt l'année du trimestre.",
+    "refs": [
+     "EV-02741"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, à la veille de la liaison rendue publique",
+    "vers_date": "1938",
+    "vers": "La furie communautaire, la lettre d'Albers, le congé de Rice et la prise du rectorat par Wunsch. Ces événements relèvent de 1938, selon la synthèse.",
+    "refs": [
+     "CF-00276",
+     "CF-00282"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, après la surprise de Nell et les rumeurs",
+    "vers_date": null,
+    "vers": "Nell se confie à Frank au Carolina Inn. La liaison devient la chute annoncée de Rice, fil qui court de 1937 à 1938.",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   }
+  ],
+  "motifs": [
+   "Partir : Rice définit le collège comme un lieu où l'on vient faire ce qu'on a à faire, puis partir (EV-02704). Les départs de juin et de novembre font écho à cette formule.",
+   "La séparation, non l'ajustement, comme seule issue au conflit de gouvernance.",
+   "La réputation morale du collège, suspecté de « libre amour ».",
+   "La persuasion contre la démocratie de comptage, et la parole de Rice comme autorité.",
+   "« Savoir ne suffit pas », formule de la riposte de Rice à Hutchins.",
+   "La réputation de provocateur de Rice, du Charlotte News aux clubs évangéliques.",
+   "Le fantasme de fuite, lu dans la réaction de Rice à l'élopement."
+  ],
+  "lacunes": "Aucune fiche ne donne de jour précis pour novembre 1937. Le climat, la vie quotidienne (repas, musique, cours) et la suite des lettres de Charlotte sont absents. La date de la liaison, celle de la surprise de Nell, celle de la soirée de sketches et l'identité des deux étudiants qui s'enfuient ne sont pas données. EV-02736 porte la plage 1937-10→1937-11, mais ses détails sont d'octobre. Duberman et Chaddock divergent sur plusieurs dates, sans que les fiches précisent lesquelles. On ignore si la relation de Rice avec Alice fut physique, et si Rice s'absente du campus pendant le trimestre."
+ }
+}

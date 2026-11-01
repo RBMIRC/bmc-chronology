@@ -1,0 +1,307 @@
+{
+ "passe": "mois",
+ "cle": "1937-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5382,
+  "sortie": 19042,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-08 (août 1937)",
+  "session": "Vacances d'été, hors session : aucune session ni rentrée n'est attestée en août ; l'année suivante ne commence qu'à l'automne.",
+  "saison_et_climat": "Été 1937. Au Mexique, saison des pluies : orages, flaques, boue et ornières sur les routes (EV-02713, EV-02731). Le climat du campus de Caroline du Nord n'est décrit dans aucune fiche.",
+  "situation": "Le collège sort de la crise de juin. Zeuch et King ne reviennent pas, Georgia a démissionné contre 3 500 $, Knickerbocker est parti et une huitaine d'étudiants dissidents s'en vont (EV-02721, EV-02722, EV-02727). Portell est resté après que le Board a retiré sa démission (EV-02724). Rice reste en place, sans opposition ouverte sur le campus. Le collège a acheté Lake Eden en juin selon Chaddock, ce qui met fin au bail annuel et à l'entreposage des meubles (EV-02726). Les Albers voyagent au Mexique avec les parents d'Anni jusqu'au 6 août (EV-02731). Le campus tourne au ralenti, et l'année suivante reste à préparer.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Portell",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-06-10",
+    "precision": "periode",
+    "ce_qui_arrive": "Voyage au Mexique des Albers avec les parents d'Anni (Fleischmann) : Mexico, Teotihuacán, Taxco, Puebla, Oaxaca, Mitla, Monte Albán. Les parents sont présents du 19 juin au 16 juillet.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02713",
+     "EV-02731",
+     "EV-02732"
+    ]
+   },
+   {
+    "date": "1937-08-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Fin du voyage mexicain, près de 6 000 miles parcourus en voiture.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02731",
+     "EV-02713"
+    ]
+   },
+   {
+    "date": "1937-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Retour probable des Albers vers le campus après le 6 août ; la date exacte n'est pas attestée.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02731"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Achat de Lake Eden selon Chaddock : fin du bail annuel et de l'entreposage des meubles à chaque juin. Source unique.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02726"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Zeuch, absent, fait paraître « The State of Black Mountain College », cinq mille mots accusant le collège de dériver vers le fascisme.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02722",
+     "OE-01307",
+     "CF-00275"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Kocher suggère à Dreier de confier le campus de Lake Eden à Gropius et Breuer.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02735"
+    ]
+   },
+   {
+    "date": "1937-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice propose les instituts d'été de musique et d'art, selon la section automne de la synthèse.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02733"
+    ]
+   },
+   {
+    "date": "1937-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Scandale à Charlotte : Rice qualifie les enfants de « nuisances générales » devant une association de parents, et les Business Men's Evangelical Clubs le déclarent « radical et communiste ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02736"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Liaison de Rice avec une étudiante, rencontrée lors des rondes automnales entre studies. Les rumeurs courent ; Nell la découvre et s'en confie à Frank.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   },
+   {
+    "date": "1937-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Séjour d'Albers à Harvard en décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02741"
+    ]
+   }
+  ],
+  "quotidien": "Vie ordinaire presque absente des fiches pour août. Les Albers circulent sur les routes mexicaines, achètent des figurines en argile et photographient Tenayuca (EV-02731, EV-02632). Sur le campus, les dissidents sont partis et l'on ne sait pas qui occupe les studios. Le séminaire d'écriture hebdomadaire de Rice dans son study de Lee Hall est attesté pour l'automne, non pour l'été (CO-00288, SC-00692). Aucun cours, repas ou concert d'août n'est documenté.",
+  "tensions": [
+   "Le pamphlet de Zeuch rapproche le collège du fascisme et associe l'art abstrait à la démence. Albers et ses partisans y voient l'écho de la condamnation nazie de l'art dégénéré (EC-01626).",
+   "Le modèle de Rice, qui refuse l'égalité des opinions et s'oppose à la démocratie « de comptage de nez », contre la démocratie organique défendue par les dissidents. Les deux camps ont conclu que la séparation était la seule issue (EV-02705).",
+   "Le départ de la huitaine d'étudiants et le réquisitoire de Coleman en 24 points, qui dénonce « l'école à un seul homme » (EV-02715, EV-02727).",
+   "Le salaire de Georgia et la phrase attribuée à Rice (« had to be gotten rid of »), niée par Rice mais admise sur le fond (EV-02716, EV-02717, SC-00706).",
+   "La chaise de Portell, son départ, puis le retrait de sa démission sous la pression de Rice (EV-02721, EV-02724).",
+   "Les salaires divulgués (Rice et Wunsch 2 100 $, Albers 1 700 $, Portell 1 250 $) (EV-02718).",
+   "L'accord d'avril interdit les vacances en groupes mixtes. En été, il pèse sur les sorties communes et sa portée reste floue (EV-02709, SC-00703).",
+   "Contradictions entre sources : EV-02713 parle d'un « second été mexicain », tandis qu'EV-02731 et EV-02732 parlent du « troisième voyage ». EC-01627 date l'élopement de fin 1936, alors que la synthèse le place à l'automne 1937 (EV-02739). L'achat de Lake Eden en juin ne repose que sur Chaddock."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Mitla sous la pluie",
+    "date": null,
+    "lieu": "Mitla (Oaxaca)",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Toni Fleischmann"
+    ],
+    "deroule": "Route de boue de quarante kilomètres, parcourue en deux heures. Le conducteur pose pierres et matelas pour franchir les ornières, puis les visiteurs admirent les temples. Le journal de Toni en garde la trace. Scène située dans la fenêtre du 10 juin au 6 août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02713",
+     "EV-02731"
+    ]
+   },
+   {
+    "titre": "Retour de Mexico vers le campus",
+    "date": "1937-08",
+    "lieu": "Trajet de retour, lieu non attesté",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Après le 6 août, les Albers reprennent leur voiture neuve pour rentrer. La date d'arrivée n'est pas connue ; la scène peut être ancrée à la fin du voyage.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02731"
+    ]
+   },
+   {
+    "titre": "Le pamphlet de Zeuch circule",
+    "date": "1937-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Albers",
+     "Rice"
+    ],
+    "deroule": "Le texte de cinq mille mots, paru après le départ de Zeuch, est lu comme un procès du collège. Albers et ses partisans le rapprochent de la condamnation nazie de l'art abstrait. Rice, visé, répond par le silence ou la fermeté.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02722",
+     "OE-01307",
+     "CF-00275",
+     "EC-01626"
+    ]
+   },
+   {
+    "titre": "Kocher écrit à Dreier sur Lake Eden",
+    "date": null,
+    "lieu": "Lettre entre New York et Lake Eden",
+    "personnages": [
+     "Kocher",
+     "Dreier",
+     "Gropius",
+     "Breuer"
+    ],
+    "deroule": "Kocher propose de confier le campus de Lake Eden à Gropius et Breuer. Le projet d'un campus rêvé commence à prendre forme pour les années suivantes.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02735",
+     "EV-02726"
+    ]
+   },
+   {
+    "titre": "Rice écrit à Adamic sur les absences",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "Adamic"
+    ],
+    "deroule": "Rice savoure les absences de la crise qui vient de se clore, dans une lettre à Adamic. Le bilan a des airs de victoire, et l'auteur le lit comme un triomphe qui précède sa chute.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02669",
+     "EV-02734",
+     "EC-01625"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "En août, les Albers sur les routes du Mexique ; le retour au campus ramène la pétition d'hiver",
+    "vers_date": "1937-01",
+    "vers": "La pétition de Zeuch au Board pour rouvrir les non-reconductions de Knickerbocker et Goldenson est rejetée ; on jette à Goldenson l'autorisation de démissionner.",
+    "refs": [
+     "EV-02694",
+     "EV-02705"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Anni à Mexico, écrivant à Dreier sur Black Mountain comme refuge",
+    "vers_date": "1933",
+    "vers": "Weimar face à Berlin : les peintures laissées en Allemagne en 1933 arrivent avec les Fleischmann, et l'Allemagne fuie revient dans la querelle sur l'art abstrait.",
+    "refs": [
+     "EV-02707",
+     "EV-02713",
+     "EC-01626"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1937, Rice triomphant après les départs",
+    "vers_date": "1938",
+    "vers": "Sa chute : liaison avec une étudiante, rumeurs, Nell qui le surprend, congé de Rice, prise du rectorat par Wunsch. La synthèse place ces événements en 1938.",
+    "refs": [
+     "EC-01625",
+     "CF-00276",
+     "CF-00282",
+     "EV-02670",
+     "EV-02671"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1937, le campus de Lake Eden encore en projet",
+    "vers_date": "1941",
+    "vers": "Lake Eden et le campus rêvé, du rachat de juin 1937 jusqu'en 1941.",
+    "refs": [
+     "EV-02726",
+     "EV-02735"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1937, Rice avant sa liaison",
+    "vers_date": null,
+    "vers": "Plus tard, Rice traite Alice de « a slut » en se vengeant d'elle ; l'auteur rappelle la liaison de l'hiver 1937.",
+    "refs": [
+     "EC-01624"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1937, les Albers encore à Mexico",
+    "vers_date": "1937-12",
+    "vers": "Séjour d'Albers à Harvard en décembre, suite de la même année.",
+    "refs": [
+     "EV-02741"
+    ]
+   }
+  ],
+  "motifs": [
+   "la route et la boue (Mitla, ornières, voiture neuve)",
+   "les petites têtes de dieux en argile achetées pour quelques centimes",
+   "Tenayuca, motif photographique récurrent",
+   "l'os jeté à Goldenson",
+   "Lake Eden : terre achetée, bail annuel rompu, meubles plus entreposés en juin",
+   "la démocratie organique contre le comptage de nez",
+   "l'art abstrait accusé de dégénérescence",
+   "la chaise de Portell et la porte claquée par Georgia",
+   "le refuge américain face à l'Allemagne et Manhattan"
+  ],
+  "lacunes": "Date exacte du retour des Albers au campus et présence de Rice, Wunsch et Portell pendant l'été ; aucune fiche ne décrit la vie quotidienne d'août. La date d'achat de Lake Eden ne repose que sur Chaddock, et Duberman n'en donne pas. Les dates de la lettre de Kocher et de la proposition d'instituts d'été ne sont pas précisées. La date de l'élopement diverge entre EC-01627 (fin 1936) et la synthèse (automne 1937). L'identité de « Lea » et la composition exacte du corps étudiant en août restent inconnues."
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "passe": "mois",
+ "cle": "1941-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4132,
+  "sortie": 11124,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1941-05",
+  "session": "Printemps 1941 : la fin du trimestre de printemps est probable mais non attestée par les fiches",
+  "saison_et_climat": "Printemps avancé avec beau temps, qui permet de traverser la vallée entre Lee Hall et Lake Eden (EV-03219). Les fiches évoquent la chaleur du terrassement et les bains à l'eau brune, mais sans les dater précisément en mai.",
+  "situation": "Le collège vit encore à Lee Hall, sous un toit unique au-dessus de la vallée. Le site de Lake Eden devient habitable « à peine » : neuf bâtiments à isoler, intérieur du Studies Building inachevé, anciennes rotonde, bains et cottages en cours de transformation. Le déménagement commence par tracteur, alors que le bail avec la Blue Ridge Assembly expire en juin et que le propriétaire songe à une école de filles. Le chantier volontaire occupe les après-midi depuis l'automne 1940, dans la ferveur et la querelle.",
+  "presents_probables": [
+   {
+    "nom": "Derek Bovington",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Brett",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hall (étudiant ou enseignant, seul nom donné par la fiche, qui quitte BMC en juin)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1941-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Le site de Lake Eden est habitable « à peine » : bâtiments encore en travaux, isolation des neuf bâtiments existants, transformations en salles de musique, laboratoires et logements de professeurs.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03219"
+    ]
+   },
+   {
+    "date": "1941-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Derek Bovington entame la navette en tracteur avec une immense remorque entre Lee Hall et Lake Eden. Il emporte instruments, livres, matériel, affaires personnelles et tout le système de chauffage de Lee Hall, ce qui irrite la Blue Ridge Assembly.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03220"
+    ]
+   },
+   {
+    "date": "1941-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Le bail avec la Blue Ridge Assembly expire, et le propriétaire envisage une école de filles à la place du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "QU-00742",
+     "CF-00291"
+    ]
+   },
+   {
+    "date": "1941-06",
+    "precision": "mois",
+    "ce_qui_arrive": "L'argent manque au point que tout travail risque de s'arrêter. Une tournée de collecte commence.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03222"
+    ]
+   }
+  ],
+  "quotidien": "Tout le monde dort encore sous le même toit à Lee Hall. Les cours se tiennent le matin et le soir, et les après-midi sont consacrés au chantier : drainage, isolation, fondations. Sur le chemin du chantier, des chansons rythment la marche, ce qui agace les étudiants surnommés « zombies ». Des corvées et des tâches manuelles, comme le terrassement, occupent les équipes. La vie musicale et théâtrale n'est pas décrite précisément pour ce mois.",
+  "tensions": [
+   "Le chantier est à la fois une ferveur (le salut par le travail, porté par Dreier) et une querelle (les « zombies » et leurs chansons). La faculté fixe un maximum conseillé d'un à trois après-midi par semaine, sans date précise.",
+   "Le déménagement par tracteur irrite la Blue Ridge Assembly. Le collège répond que le chauffage avait été installé à ses frais, mais la version de l'étudiant est plus désinvolte.",
+   "Le bail arrive à terme en juin, avec la menace d'une école de filles qui prendrait la place.",
+   "L'argent manque en juin, et tout le projet pourrait s'arrêter.",
+   "Une fiche (EV-03157, version Lane) relie le déménagement au départ de Thomas, ce qui contredit le reste des sources. On retient le déménagement de mai-juin."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le tracteur de Bovington sur la route de la vallée",
+    "date": "1941-05",
+    "lieu": "Entre Lee Hall et Lake Eden",
+    "personnages": [
+     "Derek Bovington",
+     "représentants de la Blue Ridge Assembly (non nommés)",
+     "étudiants du collège"
+    ],
+    "deroule": "Bovington conduit le tracteur, la remorque chargée de métiers à tisser, de pianos, de livres, de radiateurs et de tuyaux de Lee Hall. Le convoi passe jour après jour sur la route de la vallée, sous le beau temps. Des voix s'élèvent à la Blue Ridge Assembly, tandis que le collège affirme que le chauffage lui appartenait.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03220"
+    ]
+   },
+   {
+    "titre": "Dernières nuits sous le toit de Lee Hall",
+    "date": "1941-05",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "Theodore Dreier",
+     "Betty Brett",
+     "Hall"
+    ],
+    "deroule": "Le bâtiment se vide peu à peu au fil des chargements. Les étudiants dorment encore tous sous le même toit, mais une partie des affaires et du chauffage a déjà disparu. On discute du chantier et de l'avenir du site.",
+    "certitude": "deduit",
+    "refs": [
+     "LI-00691",
+     "EV-03219",
+     "EV-03220"
+    ]
+   },
+   {
+    "titre": "Betty Brett chef d'équipe au terrassement",
+    "date": "1941-05",
+    "lieu": "Chantier de Lake Eden",
+    "personnages": [
+     "Betty Brett"
+    ],
+    "deroule": "Brett dirige son équipe de terrassement sous la chaleur. Elle refuse d'être une « creuseuse de fossés » et tient son journal. Après l'effort, elle prend un bain à l'eau brune.",
+    "certitude": "deduit",
+    "refs": [
+     "SC-00825",
+     "CI-01623"
+    ]
+   },
+   {
+    "titre": "Les chansons sur le chemin du chantier",
+    "date": null,
+    "lieu": "Chemin entre Lee Hall et le chantier",
+    "personnages": [
+     "Theodore Dreier",
+     "les « zombies » (étudiants qui chantent)"
+    ],
+    "deroule": "Des étudiants chantent en marchant vers le chantier, ce qui énerve ceux qui croient au salut par le travail. Le conflit reste ouvert entre ferveur et ironie.",
+    "certitude": "deduit",
+    "refs": [
+     "RE-01181"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Lee Hall en mai, quand le collège se retrouve encore sous un seul toit",
+    "vers_date": "1940-09",
+    "vers": "Le chantier volontaire commence à l'automne 1940, et les cours sont ramenés au matin et au soir.",
+    "refs": [
+     "EV-02990",
+     "EV-03125"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le journal de Betty Brett, en mai, après sa première prise de responsabilité",
+    "vers_date": "1941-04",
+    "vers": "Brett devient chef d'équipe pour la première fois, au milieu d'un terrassement torride et d'un bain à l'eau brune.",
+    "refs": [
+     "SC-00825",
+     "CI-01623"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le déménagement de mai, quand Bovington conduit son tracteur",
+    "vers_date": null,
+    "vers": "Bovington meurt plus tard à la guerre, sans date donnée.",
+    "refs": [
+     "EV-03220"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le manque d'argent de juin",
+    "vers_date": "1941-08",
+    "vers": "Tournée de collecte à travers le pays, jusqu'en Californie chez Evarts, où seul Melvyn Douglas donne vraiment. Un don anonyme de 5 000 dollars arrive par la poste, que l'on soupçonne venir de Dreier.",
+    "refs": [
+     "EV-03222",
+     "EV-03223",
+     "CI-01595"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La fin de Lee Hall, à l'approche du départ de juin",
+    "vers_date": "1941-09",
+    "vers": "Rentrée à Lake Eden, repoussée de deux semaines, dans des bâtiments à moitié finis. Albers évoque huit ans d'existence contre trois siècles de tradition, et Betty Brett trouve que cela ressemble à « un autre collège ». La dispersion de Lee Hall est regrettée.",
+    "refs": [
+     "EV-03226",
+     "SC-00826",
+     "CI-01624",
+     "CF-00352"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le déménagement et la vie sur la vallée",
+    "vers_date": "1941-12",
+    "vers": "Pearl Harbor. Le collège réagit d'abord avec incrédulité, et une radio apparaît au dîner.",
+    "refs": [
+     "EV-03235",
+     "SC-00831"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le campus en construction de mai",
+    "vers_date": null,
+    "vers": "Mark Dreier, fils de Theodore, meurt dans un accident de véhicule sur le campus, à une date non précisée. La Quiet House est bâtie en sa mémoire.",
+    "refs": [
+     "EV-03173",
+     "LI-00697"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le chantier de mai et la dureté du travail manuel",
+    "vers_date": "1942",
+    "vers": "Richard Carpenter, terrifié par les hauteurs, cloue le toit du Studies Building en décembre 1941, puis meurt d'un cancer du poumon environ un an plus tard.",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Goodman théorise le cadre et l'écran en 1941, au moment où le collège construit ses premières salles",
+    "vers_date": "1952",
+    "vers": "Les expériences scéniques de Black Mountain, dont l'événement de Cage en 1952, préparent la réflexion de Goodman sur le rapport public et spectacle.",
+    "refs": [
+     "EC-01792",
+     "EC-01791"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le travail manuel comme salut ou comme querelle",
+   "Une maison qui se vide pièce par pièce",
+   "Habitable « à peine »",
+   "La fin de Lee Hall et la dispersion du collège",
+   "Le toit commun qui disparaît"
+  ],
+  "lacunes": "La session exacte de mai n'est pas attestée. Le jour du déménagement n'est pas donné. Une fiche (EV-03157) relie le déménagement au départ de Thomas, contredisant les autres sources. Les anecdotes du chantier (wagon de charbon, sciage des pieux, incendie, tempête et noyade) sont seulement datées de 1940-1942 et ne peuvent être placées en mai 1941. La présence de Dreier, Albers et Hall en mai n'est que déduite. La date de la réunion où Albers s'oppose aux écoles progressistes chez les Wiener est inconnue. Le moment exact où la limite d'un à trois après-midi de chantier est fixée reste imprécis. La date de la mort de Mark Dreier est inconnue."
+ }
+}

@@ -1,0 +1,161 @@
+# Concordance des cours 1944-45 → gabarits de l'année reconstituée (trimestres de onze semaines).
+#
+# Sources :
+#   2017.40.172a-g (annonces du trimestre d'automne, 30 sept. 1944) : liste des cours avec enseignant, niveau (B, A),
+#     heures et trimestres (F, W, S)
+#   2017.40.176a-h : grille horaire de l'automne 1944 (lue sur scan ; les noms sont déduits), qui couvre les semaines du
+#     9 octobre au 14 décembre : ces semaines sont « complètes » et ne sont pas reconstituées
+#   2017.40.185.01a-g (11 janv. 1945) : cours de l'hiver et horaire provisoire du 12 au 16 janvier (« Each class will run
+#     for fifty minutes; ten minutes are allowed for class change ») : 8:30, 9:30, 10:30, 11:30, 15:00, 16:00, 17:00, soir
+#   2017.40.036 (catalogue 1945-46) : « courses given » en 1944-45, avec trimestres (F, W, S)
+#   bulletins du printemps 1945 : Economics (Miller pendant l'absence de Schwarz), Landscape with Figures (Wunsch),
+#     causeries de biologie de Joseph W. Jailer, Paul Beidler architecte invité
+# Kazin ne donne ses cours qu'à l'automne ; Dehn et Corkran arrivent pour l'hiver ; Schwarz est nommé instructeur
+# d'économie en février 1945 ; les Wood sont absents de janvier à mars.
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ART, TISSAGE, CONSTRUCTION (J. et A. Albers, M. Gregory, McG. Wood, P. Beidler) ----------
+C|art.dessin|Art|Drawing (B + A)|Drawing I-II (1943-44)|—
+C|art.peinture|Art|Painting (B + A)|Private Studies in Painting (1943-44)|—
+C|art.design|Art|Design|Werklehre (1943-44, approché)|—
+C|art.tissage|Art|Textile Design, theory and practice (Introductory and Advanced Weaving)|Introductory / Advanced Weaving (1943-44)|—
+C|cons.bois|Construction|Woodworking|Woodworking (1943-44)|—
+C|cons.maison|Construction|Small House Design (Plan Analysis; Fundamentals)|Small House Design (1943-44)|—
+C|cons.dessin|Construction|Elementary Architectural Drawing|Mechanical and Architectural Drawing (1943-44)|—
+U|A1f|Josef Albers|4|MEME_ANNEE+R_ATTESTE+SEMAINE|art.dessin|||1|« Drawing (B + A) », 2 × 2 h par semaine, F-W-S (2017.40.172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|mar,jeu 10:30-12:30||fall
+U|A2f|Josef Albers|4|MEME_ANNEE+R_ATTESTE+SEMAINE|art.peinture|||1|« Painting (B + A) », 2 × 2 h, F-W (idem) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|mer,ven 10:30-12:30||fall
+U|A1|Josef Albers|4|MEME_ANNEE+R_ATTESTE+HEURE|art.dessin|||1|« Drawing; Painting (classes Thursday and Friday) » (11 janv. 1945, 2017.40.185.01a-g) ; F-W-S|jeu,ven 08:30-10:20|jeudi et vendredi attestés ; heures supposées|winter,spring
+U|A2|Josef Albers|4|MEME_ANNEE+R_ATTESTE+HEURE|art.peinture|||1|idem ; Painting F-W-S (2017.40.036)|jeu,ven 10:30-12:20|jeudi et vendredi attestés ; heures supposées|winter,spring
+U|A3|Josef Albers|2|MEME_ANNEE+R_ATTESTE+VOLUME|art.design|||1|« Design (W-S) » (2017.40.036)||volume supposé|winter,spring
+U|AAf|Anni Albers|1+4|MEME_ANNEE+R_ATTESTE+SEMAINE|art.tissage|||1|« Textile Design, theory and practice (B and A) », 1 h + 6 h par semaine (2017.40.172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|lun 11:30-12:30;mar,ven 15:00-17:00|théorie : grille ; atelier : créneaux supposés|fall
+U|AA|Anni Albers|1+4|MEME_ANNEE+R_ATTESTE|art.tissage|||1|« Advanced Weaving » le vendredi 12 janvier à 11 h 30, « Introductory Weaving » le lundi 15 à 19 h (horaire provisoire) ; Weaving F-W-S|||winter,spring
+U|MG|Molly Gregory|2|MEME_ANNEE+R_ATTESTE+OCCASION|cons.bois|||1|« Woodworking », sur rendez-vous (172a-g) ; heures d'atelier lun, mar, jeu 10:30-12:00 à l'automne (2017.40.177a-g) ; vendredi 12 janvier 8 h 30|lun,mar,jeu 10:30-12:00|heures d'atelier ouvertes|fall,winter,spring
+U|MWf|McGuire Wood|2|MEME_ANNEE+R_ATTESTE+SEMAINE|cons.maison|||1|« Small House Design (B) », 2 h par semaine (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|mer 08:30-10:30||fall
+U|MW|McGuire Wood|2|MEME_ANNEE+R_ATTESTE+VOLUME|cons.maison|Fundamentals||1|« House Design (Plan Analysis; Fundamentals S) » (2017.40.036) ; les Wood rentrent « at the beginning of the Spring Quarter »|||spring
+U|PB|Paul Beidler|2|MEME_ANNEE+R_ATTESTE+R_COMPET+VOLUME|cons.dessin|||1/2|« Elementary Architectural Drawing » (2017.40.036) ; Paul Beidler, « Visiting Architect » au printemps et à l'été 1945 (2017.40.200a-d)||enseignant déduit|spring
+
+# ---------- MUSIQUE (H. Jalowetz, E. Lowinsky, G. Straus) ----------
+C|mu.forme|Music|Elements of Form and Structure in Music|Analysis of Musical Form (1943-44)|—
+C|mu.choeur|Music|Chorus|Chorus (1943-44)|—
+C|mu.ensemble.j|Music|Ensemble (Jalowetz)|Ensemble (1943-44)|—
+C|mu.ensemble.l|Music|Ensemble (Lowinsky)|—|—
+C|mu.rythme|Music|Rhythm and Melody (practice in improvisation)|—|—
+C|mu.contrepoint|Music|Counterpoint|Harmony I-II; Counterpoint (1943-44)|—
+C|mu.vienne|Music|Viennese School in Music (after Beethoven)|Music Since Wagner (1943-44, approché)|—
+C|mu.instruments|Music|Piano; Violin (lessons)|Piano Lessons; Violin (1943-44)|—
+U|JA1f|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE+SEMAINE|mu.forme|||1|« Elements of Form and Structure in Music », 2 × 1 h (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|mar,jeu 09:00-10:00||fall
+U|JA2|Heinrich Jalowetz|2x120|MEME_ANNEE+R_ATTESTE+SEMAINE|mu.choeur|||1|« Chorus », 1 à 2 h par semaine, F-W-S (172a-g) ; mardi 19 h 30 dans la grille d'automne et dans les bulletins de l'hiver (« Community Chorus rehearsal »)|mar 19:30-21:30||fall,winter,spring
+U|JA3f|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE+SEMAINE|mu.ensemble.j|||1|« Ensemble (B + A) » (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|lun 08:30-10:30;ven 08:30-10:30||fall
+U|JA3|Heinrich Jalowetz|1|MEME_ANNEE+R_ATTESTE+HEURE_CADRE|mu.ensemble.j|||1|« Ensemble », lundi 15 janvier à 21 h (horaire provisoire)|lun 21:00-21:50||winter,spring
+U|JA4|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE|mu.contrepoint|||1|« Counterpoint », mardi 16 janvier à 10 h 30 (horaire provisoire)|||winter
+U|JA5|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE|mu.vienne|||1|« Viennese School in Music », mardi 16 janvier à 11 h 30 (horaire provisoire) ; « Viennese School after Beethoven (W-S) » (2017.40.036)|||winter,spring
+U|LO1f|Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE+SEMAINE|mu.rythme|||1|« Rhythm and Melody », 2 h par semaine (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|lun,jeu 17:00-18:30||fall
+U|LO1|Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE|mu.rythme|||1|« Rhythm and Melody », samedi 13 janvier à 9 h 30 (horaire provisoire)|||winter
+U|LO2|Edward Lowinsky|1|MEME_ANNEE+R_ATTESTE|mu.ensemble.l|||1|« Ensemble » de Lowinsky, samedi 13 janvier à 9 h 30 ; « there are two classes in Ensemble, one with Heinrich Jalowetz and one with Edward Lowinsky »|||winter,spring
+U|MU|Heinrich Jalowetz; Edward Lowinsky; Gertrude Straus|1|MEME_ANNEE+R_ATTESTE+OCCASION|mu.instruments|leçons individuelles||1|« Students wishing to take piano lessons should make arrangements with Heinrich Jalowetz or Edward Lowinsky… violin lessons… Trudi Straus » (janv. 1945)||plage indicative|winter,spring
+
+# ---------- LITTÉRATURE, ÉCRITURE, THÉÂTRE (G. Zabriskie, A. Kazin, R. Wunsch, D. Corkran, M. Hansgirg) ----------
+C|en.poesie|English|Contemporary Poetry (Modern Poetry)|The Art of Poetry (1943-44, approché)|—
+C|en.vers|Writing|Elements of Verse Writing (B + A)|—|—
+C|en.lecture|English|Poetry: The Development of Reading Technique|—|—
+C|en.melville|English|Herman Melville: An Introduction to American Writing|—|—
+C|en.blake|English|William Blake and the Romantic Period in England|—|—
+C|en.amlit|English|American Literature Since the Civil War|Contemporary American Literature (1943-44)|—
+C|ecr.intro|Writing|Introductory Writing and Composition|Introductory Writing (1943-44)|—
+C|ecr.journalisme|Writing|Journalism|Journalism (1943-44)|—
+C|dr.intro|Dramatics|Introductory Drama (Drama I)|Dramatic Production (1943-44)|—
+C|dr.romain|Dramatics|Roman Drama and Production|—|—
+C|dr.prod|Dramatics|Dramatic Production|Dramatic Production (1943-44)|—
+C|dr.ecriture|Dramatics|Playwriting|Playwriting (1943-44)|—
+C|dr.grec|Dramatics|Greek Tragedy; Greek Comedy|—|—
+C|dr.moliere|Dramatics|Molière and Contemporaries (tutorial on French Drama); Medieval Drama|—|—
+C|fr.cours|French|French (Beginners; French I)|Beginning French (1943-44)|—
+C|de.debut|German|Introductory German (B)|Beginning German (1943-44)|—
+C|de.avance|German|Advanced German (A)|Advanced German (1943-44)|—
+U|GZ1f|George Zabriskie|3|MEME_ANNEE+R_ATTESTE+SEMAINE|en.poesie|||1|« Contemporary Poetry (B + A) », 2 × 1 h 30, F-W-S (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|mar 16:30-18:30||fall
+U|GZ1|George Zabriskie|2x90|MEME_ANNEE+R_ATTESTE|en.poesie|||1|« Contemporary Poetry », 2 × 1 h 30, F-W-S (172a-g) ; « Modern Poetry » (2017.40.036)|||winter,spring
+U|GZ2f|George Zabriskie|2|MEME_ANNEE+R_ATTESTE+SEMAINE|en.vers|||1|« Elements of Verse Writing (B + A) », 1 h 30 (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|lun,ven 16:30-18:30||fall
+U|GZ2|George Zabriskie|1x90|MEME_ANNEE+R_ATTESTE|en.vers|||1|« Elements of Verse Writing: Beginning and Advanced (continued) », samedi 13 janvier à 11 h 30 (horaire provisoire) ; F-W-S|||winter,spring
+U|GZ3|George Zabriskie|1|MEME_ANNEE+R_ATTESTE|en.lecture|||1|« Poetry: The Development of Reading Technique », lundi 15 janvier à 15 h (horaire provisoire)|||winter
+U|AK1f|Alfred Kazin|2x90|MEME_ANNEE+R_ATTESTE+SEMAINE|en.melville|||1|« Herman Melville », 2 × 1 h 30, automne (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|mar 16:30-18:00;jeu 19:30-21:00||fall
+U|AK2f|Alfred Kazin|2x90|MEME_ANNEE+R_ATTESTE+SEMAINE|en.blake|||1|« William Blake and the Romantic Period in England », 2 × 1 h 30, automne (idem) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|mer,ven 08:30-10:00||fall
+U|DC2|David Corkran|2|MEME_ANNEE+R_ATTESTE+VOLUME|en.amlit|||1|« American Literature Since the Civil War », mardi 16 janvier à 9 h 30 (horaire provisoire) ; « American Literature (W-S) » (2017.40.036)|||winter,spring
+U|BW1f|Robert Wunsch|3|MEME_ANNEE+R_ATTESTE+SEMAINE|dr.intro|||1|« Introductory Drama (B) », 3 h par semaine, automne (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|mer,ven 10:30-12:00||fall
+U|BW2f|Robert Wunsch|3|MEME_ANNEE+R_ATTESTE+SEMAINE|dr.romain|||1|« Roman Drama and Production (A) », 6 h par semaine, automne (idem) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|lun,jeu 10:30-12:00|les autres heures sont des répétitions du soir|fall
+U|BW3|Robert Wunsch|3|MEME_ANNEE+R_ATTESTE|ecr.intro|||1|« Introductory Writing and Composition », lundi 15 janvier à 9 h 30 (horaire provisoire)|||winter,spring
+U|BW4|Robert Wunsch|3|MEME_ANNEE+R_ATTESTE|dr.prod|||1|« Dramatic Production » (réunion le lundi 15 janvier à 11 h 30) ; production du printemps : Landscape with Figures de Tennessee Williams (2017.40.195a-c)|||winter,spring
+U|BW5|Robert Wunsch|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.ecriture|||1/2|« Playwriting (W) » (2017.40.036)|||winter
+U|BW6|Robert Wunsch|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.grec|||1/2|« Greek Tragedy (W); Greek Comedy (W) » (2017.40.036) ; enseignant déduit (théâtre)|||winter
+N|dr.moliere|tutorats (« Students interested in attending the tutorial on French Drama and Moliere should make arrangements with Bob Wunsch ») : sans horaire
+N|ecr.journalisme|« Journalism (F) » (2017.40.036) : absent de la grille d'automne ; non programmé
+U|MH1f|Maria Hansgirg|2|MEME_ANNEE+R_ATTESTE+SEMAINE|fr.cours|||1|« French I » et « French for beginners (new class) » (grille d'automne) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|lun,jeu 11:30-12:00;lun,jeu 10:30-11:30||fall
+U|MH1|Maria Hansgirg|2|MEME_ANNEE+R_ATTESTE+VOLUME|fr.cours|||1|« French (W-S) » (2017.40.036) ; Maria Hansgirg de retour le 9 janvier après deux semaines d'hôpital|||winter,spring
+U|TS1f|Gertrude Straus|3|MEME_ANNEE+R_ATTESTE+SEMAINE|de.debut|||1|« Introductory German (B) », 3 h, F-W-S (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|mar,jeu 08:30-10:00;sam 10:30-12:30||fall
+U|TS1|Gertrude Straus|3|MEME_ANNEE+R_ATTESTE|de.debut|||1|« Introductory German (continued) », vendredi 12 janvier à 9 h 30 (horaire provisoire)|||winter,spring
+U|TS2|Gertrude Straus|2x90|MEME_ANNEE+R_ATTESTE|de.avance|||1|« Advanced German (A) », 2 × 1 h 30, F-W-S (172a-g)|||winter,spring
+
+# ---------- SCIENCES SOCIALES ET PHILOSOPHIE (H. A. Miller, D. Corkran, S. Schwarz, E. Lowinsky, G. Zabriskie, M. Dehn) ----------
+C|soc.problemes|Social Studies|Contemporary Problems — social, political, economic (Social Problems)|Social Problems and Their Treatment (1943-44)|—
+C|soc.minorites|Social Studies|Nationalism and World Minorities|American Minorities (1943-44)|—
+C|soc.changement|Social Studies|Social Change|—|—
+C|soc.anthropologie|Social Studies|Cultural Anthropology|General Anthropology (Radin, 1943-44)|—
+C|hi.usa|Social Studies|American History (History of the United States)|American History (Foreman, 1943-44)|—
+C|eco.gen|Social Studies|Economics|Elementary Economics (1943-44)|—
+C|hi.renaissance|Social Studies|Culture of the Renaissance|—|—
+C|rel.bible|Social Studies|The Bible|—|—
+C|psy.esthetique|Social Studies|Psychology and Aesthetics I and II (Patterns in Psychology and Aesthetics; Psychodynamics of Creativity)|—|—
+C|phi.platon|Social Studies|Dialogues of Plato|Philosophical Classics (1943-44, approché)|—
+C|hi.occident|Social Studies|Outline of Western Culture|—|—
+U|HM1f|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+SEMAINE|soc.problemes|||1|« Contemporary Problems (B) », 3 h, F-W-S (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|lun 11:30-13:00;jeu 16:00-17:30;sam 11:30-12:30||fall
+U|HM1|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE|soc.problemes|||1|« Contemporary Problems (continued) », samedi 13 janvier à 10 h 30 (horaire provisoire)|||winter,spring
+U|HM2f|Herbert A. Miller|2x90|MEME_ANNEE+R_ATTESTE+SEMAINE+JOUR|soc.minorites|||1|« World Minorities (A) », 2 × 1 h 30, F-W (172a-g) ; absent de la grille d'automne lue|mar,ven 15:00-16:30|créneau supposé|fall
+U|HM2|Herbert A. Miller|2x90|MEME_ANNEE+R_ATTESTE|soc.minorites|||1|« Nationalism and World Minorities », lundi 15 janvier à 10 h 30 (horaire provisoire)|||winter
+U|HM3|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|soc.changement|||1/2|« Social Change (S) » (2017.40.036)|||spring
+U|HM4|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|soc.anthropologie|||1/2|« Cultural Anthropology (S) » (2017.40.036) ; enseignant déduit (Radin parti)|||spring
+U|DC1|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.usa|||1|« American History », mardi 16 janvier à 8 h 30 (horaire provisoire) ; « History of the United States » (2017.40.036)|||winter
+U|DC1s|David Corkran|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.usa|||1/2|Corkran nommé pour l'hiver et le printemps ; le catalogue donne « (F-W) »|=DC1||spring
+U|SS1|Siegfried Schwarz; Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.gen|||1|« Economics (W-S) » (2017.40.036) ; Schwarz nommé instructeur d'économie (févr. 1945) ; « Economics (taught by Herbert Miller during Siegfried Schwarz's absence) » (juin 1945)|||spring
+U|LO3|Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE|hi.renaissance|||1|« Culture of the Renaissance (continued) », lundi 15 janvier à 9 h 30 ; « Culture of the Renaissance (B) », 1-2 h, automne (172a-g)|||fall,winter
+U|LO4|Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE|rel.bible|||1|« The Bible », vendredi 12 janvier à 16 h (horaire provisoire) ; « Bible (W-S) » (2017.40.036)|||winter,spring
+U|GZ4f|George Zabriskie|1x90|MEME_ANNEE+R_ATTESTE+SEMAINE|psy.esthetique|||1|« Patterns in Psychology and Aesthetics (B + A) », 1 h 30, automne (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|mar 19:30-21:00||fall
+U|GZ4|George Zabriskie|2|MEME_ANNEE+R_ATTESTE|psy.esthetique|I et II||1|« Psychology and Aesthetics I » (vendredi 12 janvier à 15 h) et « II » (à 17 h) (horaire provisoire) ; « Psychodynamics of Creativity » (2017.40.036)|||winter,spring
+U|MD2|Max Dehn|1|MEME_ANNEE+R_ATTESTE+HEURE_CADRE|phi.platon|||1|« Dialogues of Plato », lundi 15 janvier à 20 h (horaire provisoire) ; « (W-S) » (2017.40.036)|lun 20:00-20:50||winter,spring
+U|HO|George Zabriskie; Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE+R_COMPET+VOLUME|hi.occident|||1/2|« Outline of Western Culture (S) » (2017.40.036) ; enseignant inconnu|||spring
+
+# ---------- MATHÉMATIQUES ET SCIENCES (T. Dreier, M. Dehn, F. Hansgirg, J. W. Jailer) ----------
+C|ma.calcul|Mathematics|Calculus (B)|Calculus and Analytic Geometry (1943-44)|—
+C|ma.intro|Mathematics|Introductory Mathematics|Introduction to Mathematical Thinking (1943-44, approché)|—
+C|ma.base|Mathematics|Basic Mathematics|—|—
+C|sc.matiere|Physics and Chemistry|Matter and Energy (B) + laboratory|Matter and Energy (1943-44)|—
+C|sc.avance|Physics and Chemistry|Advanced Chemistry and Physics (A)|—|—
+C|bio.gen|Biology|Biology (informal talks)|Biology (vacant, 1943-44)|—
+U|TD1f|Ted Dreier|4|MEME_ANNEE+R_ATTESTE+SEMAINE|ma.calcul|||1|« Calculus (B) », 4 h (3 h de crédit), F-W-S (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|lun,mar,jeu,sam 08:30-10:00||fall
+U|TD1|Ted Dreier|2+2|MEME_ANNEE+R_ATTESTE|ma.calcul|||1|« Calculus (B) », 4 h par semaine, F-W-S (172a-g)|||winter,spring
+U|MD1|Max Dehn|3|MEME_ANNEE+R_ATTESTE|ma.intro|||1|« Introductory Mathematics », lundi 15 janvier à 16 h (horaire provisoire) ; « (W-S) » (2017.40.036)|||winter,spring
+U|MD3|Max Dehn|2|MEME_ANNEE+R_ATTESTE+VOLUME|ma.base|||1/2|« Basic Mathematics (S) » (2017.40.036)|||spring
+U|FHf|Fritz Hansgirg|3+2+4L|MEME_ANNEE+R_ATTESTE+SEMAINE|sc.matiere|||1|« Matter and Energy (B) », 5 h + 4 h, F-W-S (172a-g) ; grille de l'automne 1944 (2017.40.176a-h), étendue à la première et à la dernière semaine du trimestre|lun,mar,mer,jeu,ven 11:30-12:20;lun,ven 16:00-18:00||fall
+U|FH|Fritz Hansgirg|3+2+4L|MEME_ANNEE+R_ATTESTE|sc.matiere|||1|« Matter and Energy (continued) », vendredi 12 janvier à 10 h 30 (horaire provisoire) ; F-W-S|||winter,spring
+N|sc.avance|« Advanced Chemistry and Physics (A) », sur rendez-vous : tutorat sans horaire
+U|JJ|Joseph W. Jailer|1|MEME_ANNEE+R_ATTESTE+SEMAINE|bio.gen|||1|« Biology (S) » (2017.40.036) ; causeries informelles de biologie le lundi à 20 h 30 (« The Cell », « The Animal Kingdom », « Invertebrates », « Vertebrates », « The Endocrine Glands », mai-juin 1945)|lun 20:30-21:30||spring@1945-05-07..1945-06-18
+
+# ---------- ÉTÉ 1945 : SESSION RÉGULIÈRE (cours annoncés, 2017.40.036) ----------
+C|ete.shelley|Summer Quarter 1945|Shelley (G. Zabriskie)|—|—
+C|ete.socio|Summer Quarter 1945|Introduction to Sociology (H. A. Miller)|—|—
+C|ete.minorites|Summer Quarter 1945|Nationalism and Minorities (H. A. Miller)|—|—
+C|ete.ecriture|Summer Quarter 1945|Writing; Advanced Writing (M. G. Beidler)|—|—
+C|ete.histmath|Summer Quarter 1945|History of Mathematics (M. Dehn)|—|—
+C|ete.philogrecque|Summer Quarter 1945|Greek Philosophy (M. Dehn)|—|—
+C|ete.construction|Summer Quarter 1945|Construction Problems (McG. Wood)|—|—
+C|ete.economie|Summer Quarter 1945|Problems of Modern Economy; Economic and Social Aspects of the Machine Age (S. Schwarz)|—|—
+C|ete.allemand|Summer Quarter 1945|German Conversation and Reading (G. Straus)|—|—
+U|E1|George Zabriskie|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.shelley|||1|cours de la session régulière de l'été 1945 (« Summer Quarter 1945 », catalogue 1945-46, 2017.40.036)||volume supposé|summer
+U|E2|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.socio|||1|cours de la session régulière de l'été 1945 (« Summer Quarter 1945 », catalogue 1945-46, 2017.40.036)||volume supposé|summer
+U|E3|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.minorites|||1|cours de la session régulière de l'été 1945 (« Summer Quarter 1945 », catalogue 1945-46, 2017.40.036)||volume supposé|summer
+U|E4|Margaret Grant Beidler|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.ecriture|||1|cours de la session régulière de l'été 1945 (« Summer Quarter 1945 », catalogue 1945-46, 2017.40.036)||volume supposé|summer
+U|E5|Max Dehn|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.histmath|||1|cours de la session régulière de l'été 1945 (« Summer Quarter 1945 », catalogue 1945-46, 2017.40.036)||volume supposé|summer
+U|E6|Max Dehn|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.philogrecque|||1|cours de la session régulière de l'été 1945 (« Summer Quarter 1945 », catalogue 1945-46, 2017.40.036)||volume supposé|summer
+U|E7|McGuire Wood|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.construction|||1|cours de la session régulière de l'été 1945 (« Summer Quarter 1945 », catalogue 1945-46, 2017.40.036)||volume supposé|summer
+U|E8|Siegfried Schwarz|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.economie|||1|cours de la session régulière de l'été 1945 (« Summer Quarter 1945 », catalogue 1945-46, 2017.40.036)||volume supposé|summer
+U|E9|Gertrude Straus|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.allemand|||1|cours de la session régulière de l'été 1945 (« Summer Quarter 1945 », catalogue 1945-46, 2017.40.036)||volume supposé|summer

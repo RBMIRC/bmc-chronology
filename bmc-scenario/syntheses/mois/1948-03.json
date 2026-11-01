@@ -1,0 +1,173 @@
+{
+ "passe": "mois",
+ "cle": "1948-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3529,
+  "sortie": 9849,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1948-03",
+  "session": "Non nommée par les fiches ; probablement le semestre de printemps (déduit du calendrier, à vérifier).",
+  "saison_et_climat": "Fin d'hiver qui laisse place au printemps. Aucune fiche ne décrit le temps qu'il fait ; le printemps s'annonce avec la visite de Cage et Cunningham en avril.",
+  "situation": "Le collège vit sa routine de semestre, mais la gouvernance est déjà tendue. Albers, revenu du Mexique, juge sévèrement l'expansion de l'ère Levi : cours donnés par des étudiants, essor des sciences sociales, crainte que Levi et les nouveaux venus ne prennent le pouvoir. En mars, Albers organise une exposition du travail récent de Siskind au collège. Les de Kooning sont à New York, où Willem prépare sa première exposition chez Egan. Le conflit de politique est doublé d'un conflit domestique à Roadside. Le sommet artistique de l'année (été à venir) n'est pas encore visible : il reste à venir après avril.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Levi (recteur, en poste jusqu'en juin)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier (membre du Board of Fellows)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rondthaler (trésorier jusqu'à fin août)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants, dont certains enseignent des cours",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1948-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers organise au collège une exposition du travail récent de Siskind, après avoir vu ses photographies de Martha's Vineyard et Gloucester chez Egan.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04472"
+    ]
+   },
+   {
+    "date": "1948-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Willem de Kooning, Elaine et Charles Egan fixent les titres définitifs des tableaux de la première exposition de Willem, dans la nuit précédant l'ouverture.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01158"
+    ]
+   },
+   {
+    "date": "1948-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Cage et Cunningham visitent le collège ; Cage y joue ses sonates pour piano préparé.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1948 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Au printemps, Albers, revenu du Mexique, critique l'expansion de l'ère Levi et la prise de pouvoir qu'il craint.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1948 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Cours ordinaires, dont certains donnés par des étudiants. Vie domestique à Roadside, où l'on se dispute sur l'état du salon commun et sur la chaudière. Les tableaux de la communauté restent à faire ; la vie reste celle d'un petit collège rural, sans encore les fêtes de l'été.",
+  "tensions": [
+   "Albers contre l'expansion de l'ère Levi : cours par des étudiants, sciences sociales en croissance, crainte d'une prise de pouvoir par Levi et les nouveaux venus.",
+   "Conflit domestique à Roadside (désordre dans le salon commun, dispute sur la chaudière) qui double le conflit de politique.",
+   "Écart entre la réputation artistique du collège et une gouvernance déjà fragile."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Un soir de titres chez Egan",
+    "date": "1948-03",
+    "lieu": "New York",
+    "personnages": [
+     "Willem de Kooning",
+     "Elaine de Kooning",
+     "Charles Egan"
+    ],
+    "deroule": "À la veille du vernissage, Willem, Elaine et Egan fixent les titres définitifs des tableaux. Le choix du nom devient une lutte contre l'indécidable, en écho à la méfiance de Willem pour les titres trop nets.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01158"
+    ]
+   },
+   {
+    "titre": "Accrochage Siskind",
+    "date": "1948-03",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers installe au collège le travail récent de Siskind, qu'il a découvert chez Egan. L'exposition arrive au moment où il critique la direction de Levi.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04472"
+    ]
+   },
+   {
+    "titre": "Le salon de Roadside",
+    "date": "1948",
+    "lieu": "Roadside",
+    "personnages": [
+     "habitants de Roadside (non nommés)"
+    ],
+    "deroule": "Dispute sur le désordre du salon commun et sur la chaudière. Le conflit domestique rejoint le conflit de politique du collège.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1948 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, au printemps, juge sévèrement l'expansion de l'ère Levi.",
+    "vers_date": "1948-06",
+    "vers": "En juin, le Board of Fellows se bloque sur les propositions de Levi. Un vote gagné à une voix est renversé pendant une suspension de séance, et Levi démissionne du rectorat.",
+    "refs": [
+     "chapitre de l'année 1948 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les titres de l'exposition chez Egan, dont la vente reste nulle malgré la critique.",
+    "vers_date": "1948-06",
+    "vers": "Fin juin, Elaine et Bill partent pour Black Mountain en train de nuit, invités par Albers (200 $, gîte, deux trains, un studio chacun).",
+    "refs": [
+     "SC-01158",
+     "chapitre de l'année 1948 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'exposition Siskind et la préparation du printemps.",
+    "vers_date": "1948-04",
+    "vers": "La visite de Cage et Cunningham, qui donnent à voir la sonate pour piano préparé et lancent l'attrait new-yorkais pour le collège.",
+    "refs": [
+     "EV-04472",
+     "chapitre de l'année 1948 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La vie du collège en mars 1948, sa gouvernance et son idéal de communauté.",
+    "vers_date": "1933",
+    "vers": "La fondation du collège, dont la communauté à inventer revient comme motif dans les échos de Goodman.",
+    "refs": [
+     "EC-02316"
+    ]
+   }
+  ],
+  "motifs": [
+   "Une communauté à inventer : la fondation de 1933 et le projet de 1948 se répondent.",
+   "Le nom contre l'indécidable : les titres chez Egan et la méfiance envers les titres trop nets.",
+   "Bâtir comme rite d'institution : l'autoconstruction du campus et le sacrifice qui crée des esprits.",
+   "Le rire qui se retourne en menace : la plaisanterie des déplacés qui devient inquiétante."
+  ],
+  "lacunes": "Session exacte, climat et jours précis absents des fiches. Date du vernissage chez Egan et critique de Renée Arb non précisées (on sait seulement qu'elles précèdent l'arrivée des de Kooning). Date de l'exposition Siskind non précisée au jour. Pièces de Penn non datées. Présence réelle de Levi, Dreier et Rondthaler en mars non attestée. Le conflit de Roadside n'est pas daté au mois près et ses protagonistes ne sont pas nommés. Les fiches EC sont des échos littéraires de Goodman, non des faits du collège."
+ }
+}

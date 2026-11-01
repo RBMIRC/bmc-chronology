@@ -1,0 +1,334 @@
+{
+ "passe": "personnes",
+ "cle": "Ben Shahn",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 8022,
+  "sortie": 3575,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Ben Shahn",
+  "autres_noms": [
+   "Benjamin Shahn"
+  ],
+  "dates_de_vie": "1898-1969",
+  "statut_bmc": "Professeur invité pour la session d'été 1951 (peinture et conférences, quatre semaines) ; les sources mentionnent aussi une conférence à l'été 1952",
+  "presence": [
+   {
+    "debut": "1951-07",
+    "fin": "1951-08",
+    "precision": "mois",
+    "role": "Enseignant invité de peinture et conférencier pour la session d'été 1951, arrivé fin juillet pour quatre semaines ; co-enseigne avec Robert Motherwell ; participe au « Glyph Exchange » multimédia",
+    "refs": [
+     "EV-05531",
+     "EV-05525",
+     "CO-00684",
+     "EV-05456"
+    ]
+   },
+   {
+    "debut": "1952",
+    "fin": "1952",
+    "precision": "annee",
+    "role": "Conférence « The Education of an Artist » pendant la session d'été 1952 (attestée par la citation et l'idée associées ; la présence physique exacte n'est pas précisée)",
+    "refs": [
+     "EV-05722",
+     "CI-02872",
+     "CI-02873"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune description physique détaillée dans les fiches ; on sait seulement qu'il est photographié par Hazel Larsen Archer à Black Mountain en 1951. À charge du scénariste.",
+  "noyau_psychologique": "Humaniste né, agissant par la conviction que « l'être humain est valeur ultime ; les arts, sa manifestation première ». Vif, enthousiaste, orateur-né : il transforme un réfectoire en amphithéâtre et sème des vocations par la seule parole. Malgré son étiquette de réaliste social, il n'est pas dogmatique : il défend un réalisme contingent, pluriel, nourri de l'observation du quotidien, et emprunte volontiers à l'abstraction. Passé par la propagande de guerre et la politique, il croit à la fonction publique de l'art — créer la communauté sans en avoir nécessairement l'intention.",
+  "blessures": "Non documentées directement dans les fiches ; à déduire : un artiste figuratif au moment où l'abstraction triomphe, se trouvant « réaliste social au milieu des abstraits de l'été 1951 » — position de marginal dans le champ qu'il a marqué.",
+  "desirs": "Faire dialoguer figuration et abstraction ; transmettre l'acte d'observation ; honorer ses amitiés par des œuvres-offrandes (A Glyph for Charles, échange poème/dessin avec Olson) ; participer pleinement à une communauté artistique même lors d'un court séjour.",
+  "peurs": null,
+  "maniere_d_aimer": "Par l'échange et le don : il répond au poème d'Olson par un tableau, offre des glyphes, peint sur le corps d'un étudiant — l'amitié se manifeste en actes artistiques réciproques plutôt qu'en discours.",
+  "rapport_au_pouvoir": "Homme de gauche passé par l'appareil étatique (OWI, campagnes pour Roosevelt) : il met son art au service de causes publiques, mais conçoit la fonction publique de l'art comme effet (créer la communauté) plus que comme propagande délibérée.",
+  "voix": {
+   "registre": "Oral, vif, concret, pédagogue sans jargon ; passe de l'anecdote à l'aphorisme ; conférencier captivant capable d'improviser devant une salle qui mange",
+   "tics": "Questions rhétoriques lancées au public (« pour qui peint-on ? ») ; exemples multipliés par changement de point de vue (le psychologue, le physicien, le critique devant le même tableau)",
+   "exemples_paraphrases": [
+    "Pour moi, l'être humain est la valeur ultime ; les arts, sa manifestation première",
+    "Le réalisme est une recherche sincère de la vérité dans le cadre de ses propres valeurs",
+    "Pour qui peint-on ?",
+    "La fonction publique de l'art a toujours été de créer la communauté ; ce n'est pas nécessairement son intention, mais c'est son résultat"
+   ]
+  },
+  "habitudes": [
+   "Peindre en style « palimpseste », sans aucun effacement",
+   "Travailler à partir de l'observation du quotidien et de la performance (corps en mouvement)",
+   "Répondre aux œuvres des amis par des œuvres-offrandes",
+   "Improviser des conférences dans des lieux ordinaires (réfectoire)"
+  ],
+  "convictions": [
+   "L'être humain est valeur ultime ; les arts, sa manifestation première",
+   "Le réalisme est contingent, à aspects multiples selon qui regarde (psychologue, physicien, critique)",
+   "La figure et l'abstraction peuvent se servir mutuellement",
+   "L'art, fondé sur l'acte d'observation — position proche d'Albers",
+   "L'art crée la communauté sans que ce soit nécessairement son intention",
+   "Vertus peu conventionnelles et innovantes de Black Mountain"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1951-07",
+    "precision": "mois",
+    "moment": "Invité par Olson, qu'il connaît de l'OWI, il arrive fin juillet 1951 pour quatre semaines d'enseignement ; la même année paraît sa biographie Portrait of the Artist as an American",
+    "etat_interieur": "Confiance d'un artiste établi, enthousiaste à retrouver son vieil ami et à plonger dans la communauté",
+    "refs": [
+     "EV-05531",
+     "EV-05525",
+     "PE-00131"
+    ]
+   },
+   {
+    "date": "1951-07-29",
+    "precision": "jour",
+    "moment": "Conférence « Aspects of Realism » au réfectoire : il imagine les réponses d'un psychologue, d'un physicien, d'un critique à un même tableau et définit le réalisme comme recherche sincère de la vérité dans le cadre de ses propres valeurs",
+    "etat_interieur": "Orateur au sommet de son art, lucide sur la relativité des regards, humaniste assumé face aux abstraits",
+    "refs": [
+     "SC-01461",
+     "EV-05534",
+     "CI-02794"
+    ]
+   },
+   {
+    "date": "1951-06",
+    "precision": "mois",
+    "moment": "Échange de glyphes : Olson offre un poème, Shahn répond par A Glyph for Charles (style palimpseste, traits lettristes sur un torse) ; il peint un motif directement sur le corps de Nicholas Cernovich pour une danse, donnant aussi naissance aux dessins Down Fall et Nicolas C ; collaboration avec Harrison, Litz, Cernovich",
+    "etat_interieur": "Joueur, généreux, au cœur d'une collaboration spontanée interdisciplinaire",
+    "refs": [
+     "EV-05451",
+     "EV-05448",
+     "EV-05401",
+     "EV-05521",
+     "EV-05385",
+     "RE-02280"
+    ]
+   },
+   {
+    "date": "1951-08",
+    "precision": "mois",
+    "moment": "Fin du séjour : participation pleine à la vie du collège malgré la brièveté ; l'été Shahn/Motherwell est qualifié par un témoin d'étrange et difficile",
+    "etat_interieur": "Engagé malgré les tensions de l'époque ; départ sur un élan",
+    "refs": [
+     "PE-00131",
+     "EV-05525"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Conférence « The Education of an Artist » : il demande au public « pour qui peint-on ? » et affirme que la fonction publique de l'art est de créer la communauté",
+    "etat_interieur": "Synthèse de sa vision de l'art comme lien social, en résonance avec l'idéal de BMC",
+    "refs": [
+     "EV-05722",
+     "CI-02872",
+     "CI-02873",
+     "ID-01176"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1898",
+    "precision": "annee",
+    "moment": "Naissance",
+    "refs": [
+     "PE-00131"
+    ]
+   },
+   {
+    "date": "1930",
+    "precision": "periode",
+    "moment": "Ancien assistant de Diego Rivera ; s'inscrit dans la tradition réaliste et muraliste américaine (aux côtés de Charlot, Varda, Lawrence)",
+    "refs": [
+     "EV-03410",
+     "EV-01495"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "annee",
+    "moment": "Rencontre de Charles Olson à l'Office of War Information à Washington ; fascination partagée pour le codage et le décodage",
+    "refs": [
+     "EV-03026",
+     "RE-00923"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "annee",
+    "moment": "Collabore avec Olson sur la brochure bilingue Spanish-Speaking Americans in the War (propagande pour la campagne de Bataan, printemps 1943) ; il enseignera plus tard à Dawson à dessiner des briques",
+    "refs": [
+     "EV-03026",
+     "EV-03410",
+     "PE-00131"
+    ]
+   },
+   {
+    "date": "1944",
+    "precision": "annee",
+    "moment": "Travaille avec Olson à la mobilisation des minorités ethniques pour la réélection de Roosevelt",
+    "refs": [
+     "EV-03573",
+     "RE-01255"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Peint Song (deux chanteurs, aplats, distorsion) — méthode qui annonce son séjour de 1951",
+    "refs": [
+     "OE-02246",
+     "ID-02273"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Publication de sa biographie Portrait of the Artist as an American",
+    "refs": [
+     "PE-00131",
+     "EV-05531"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Conséquence directe du séjour : invitation à représenter les États-Unis à la Biennale de Venise 1954 ; adoption du tournant « palimpseste » dans sa peinture",
+    "refs": [
+     "EV-05531",
+     "PE-00131"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Représente les États-Unis à la Biennale de Venise",
+    "refs": [
+     "PE-00131"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "moment": "Publication de The Shape of Content, recueil contenant sa conférence de BMC « The Education of an Artist »",
+    "refs": [
+     "OE-03129",
+     "PE-00131"
+    ]
+   },
+   {
+    "date": "1959",
+    "precision": "annee",
+    "moment": "Everything Comes From Everything, techniques mixtes sur papier — dans la lignée d'après 1951",
+    "refs": [
+     "OE-03315"
+    ]
+   },
+   {
+    "date": "1966",
+    "precision": "annee",
+    "moment": "A Glyph for Charles apparaît derrière Olson dans le film de 1966 (l'œuvre, aujourd'hui perdue, était dans la collection de Katherine Olson)",
+    "refs": [
+     "OE-02446",
+     "OE-02444"
+    ]
+   },
+   {
+    "date": "1969",
+    "precision": "annee",
+    "moment": "Mort",
+    "refs": [
+     "PE-00131"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Charles Olson",
+    "nature": "Amitié née à l'OWI (Washington, années 1940), complicité du codage/décodage, collaboration politique (Roosevelt 1944), puis échange artistique de glyphes à BMC",
+    "evolution": "De la propagande de guerre à l'échange poème/tableau : Olson invite Shahn en 1951, lui offre un poème, reçoit A Glyph for Charles ; leur « Glyph Exchange » précède le happening de Cage",
+    "refs": [
+     "EV-03026",
+     "EV-03573",
+     "RE-01254",
+     "RE-01255",
+     "RE-01290",
+     "RE-02314",
+     "EV-01933"
+    ]
+   },
+   {
+    "avec": "Robert Motherwell",
+    "nature": "Co-enseignants d'arts visuels pour l'été 1951",
+    "evolution": "Rencontre de deux positions — réalisme social et abstraction — pendant un été qualifié d'étrange et difficile",
+    "refs": [
+     "EV-05525",
+     "EV-05531",
+     "SC-01461"
+    ]
+   },
+   {
+    "avec": "Nicholas Cernovich",
+    "nature": "Collaboration maître/étudiant : Shahn peint un motif directement sur son corps pour une performance de danse",
+    "evolution": "Le design corporel engendre A Glyph for Charles et deux grands dessins (Down Fall, Nicolas C)",
+    "refs": [
+     "EV-05401",
+     "RE-02280"
+    ]
+   },
+   {
+    "avec": "Katherine Litz et Lou Harrison",
+    "nature": "Collaborateurs du « Glyph Exchange » multimédia (danse, musique, peinture, poésie)",
+    "evolution": "Chaque contribution produite séparément mais rapidement, assemblée en performance — modèle de collaboration spontanée",
+    "refs": [
+     "EV-05451",
+     "EV-05448",
+     "EV-05521"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker (et le public de Philadelphie)",
+    "nature": "Relais de fascination : la conférence de Shahn au Philadelphia Museum of Art vante BMC et Olson",
+    "evolution": "Rumaker écrit au collège après l'avoir entendue — origine de toute son histoire avec BMC ; même mécanisme de conversion que pour Wieners via Olson",
+    "refs": [
+     "EV-05347",
+     "EC-02767",
+     "EC-02859",
+     "EC-03013"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La conférence « Aspects of Realism » est datée de la session d'été 1951 (29 juillet, au réfectoire de BMC) par Molesworth, tandis que Rumaker (temoignage_direct) situe la conférence qu'il a entendue au Philadelphia Museum of Art, « l'été précédent » par rapport à 1952 — deux conférences distinctes ou décalage de datation à clarifier (EV-05347, EV-05534, EC-02859).",
+   "Harris (2005) décrit A Glyph for Charles comme une peinture/dessin en style palimpseste que lit Olson (glyphe maya + caractère chinois), Molesworth précise qu'il s'agit d'un torse sans tête aujourd'hui perdu ; la nature exacte de l'œuvre et sa localisation restent incertaines (OE-02444, OE-02446, EV-05451).",
+   "Les fiches PE et CO attestent le séjour d'été 1951, mais EV-05722 et les citations CI-02872/02873 placent une conférence de Shahn à l'été 1952 à BMC, sans préciser s'il s'agit d'un second séjour ou d'une publication de la conférence de 1951 (la conférence paraîtra dans The Shape of Content, 1957)."
+  ],
+  "situations_revelatrices": [
+   "L'orateur au réfectoire : transformer une salle où l'on mange en amphithéâtre, improviser les regards croisés d'un psychologue, d'un physicien, d'un critique sur un même tableau",
+   "Le réaliste social parmi les abstraits : dialogues de l'été 1951 avec Motherwell et la communauté",
+   "Peindre sur le corps vivant d'un étudiant danseur : l'acte artistique comme contact physique et don d'amitié",
+   "L'échange de glyphes avec Olson : répondre à un poème par une image, conversation entre amis passée par l'œuvre",
+   "La conférence à Philadelphie : le charisme qui fait naître des vocations à distance, sans le savoir"
+  ],
+  "citations": [
+   "CI-02794",
+   "CI-02872",
+   "CI-02873"
+  ],
+  "questions_ouvertes": [
+   "Description physique et personnalité privée (aucune fiche ne décrit son apparence ni sa vie de famille) ; Hazel Larsen Archer l'a photographié en 1951 — chercher ces clichés",
+   "Détail de son enseignement quotidien de la peinture pendant les quatre semaines : exercices précis, réactions des étudiants autres que l'éloge de sa conférence",
+   "Contenu exact de sa relation avec Motherwell pendant cet été « étrange et difficile »",
+   "S'agit-il d'un second séjour en 1952 ou d'une simple conférence reprise/publiée ?",
+   "Circonstances de la conférence de Philadelphie : date exacte, contenu, lien avec « Aspects of Realism »",
+   "Ce qu'il a dit ou pensé d'Albers, présent dans la vente aux enchères qui inspira le poème « Glyph »"
+  ]
+ }
+}

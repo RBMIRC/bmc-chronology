@@ -1,0 +1,243 @@
+{
+ "passe": "personnes",
+ "cle": "Kenneth Snelson",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 6047,
+  "sortie": 2843,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Kenneth Snelson",
+  "autres_noms": [
+   "Ken Snelson"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant en sculpture (session d'été 1948 et été 1949), vétéran de guerre financé par le GI Bill ; devient ensuite fellow de la Fuller Research Foundation",
+  "presence": [
+   {
+    "debut": "1948-07",
+    "fin": "1948-08",
+    "precision": "session",
+    "role": "Étudiant en sculpture à la session d'été 1948 (cohorte d'environ 75 étudiants avec Asawa, Noland, Ray Johnson…) ; y rencontre Fuller, son premier poste d'enseignant, arrivé en remplaçant de dernière minute",
+    "refs": [
+     "EV-04531",
+     "EV-04525",
+     "EV-04450",
+     "CI-02172",
+     "SC-01177"
+    ]
+   },
+   {
+    "debut": "1949",
+    "fin": "1949",
+    "precision": "session",
+    "role": "Étudiant à l'institut d'été 1949 dirigé par Fuller ; lui montre son X-Piece et participe à l'érection du second dôme géodésique",
+    "refs": [
+     "EV-04793",
+     "EV-04790",
+     "SC-01228",
+     "SC-01229"
+    ]
+   }
+  ],
+  "portrait_physique": "Non décrit dans les fiches. On sait seulement de lui qu'il manipule de petites structures — croix de bois, fils nylon — avec une précision d'artisan.",
+  "noyau_psychologique": "Jeune sculpteur intensément motivé, vétéran finance par le GI Bill, doté d'une compréhension intuitive et immédiate des principes structurels : là où les autres subissent le charisme de Fuller, lui saisit ce qui est réellement neuf dans ses concepts et innove par lui-même, au point d'éblouir le maître. Sa conviction profonde : la structure naît de forces formant des systèmes stables, pas de notions floues héritées du Bauhaus ; l'occupation de l'espace n'a rien à voir avec la structure.",
+  "blessures": "La paternité de la tensegrité : c'est lui qui fait la démonstration originale du principe tension/compression, Fuller le reconnaît par lettre (22 décembre 1949) comme « un vrai pionnier », mais s'approprie ensuite largement le principe dans son œuvre ; chacun brevette séparément sa version — germe d'une rivalité de paternité.",
+  "desirs": "Comprendre et incarner la structure vraie — l'équilibre des forces — dans des objets ; être reconnu comme l'inventeur du principe qu'il a découvert.",
+  "peurs": "Que la démonstration lumineuse de son X-Piece soit absorbée par la légende et les brevets de Fuller, et que son rôle s'efface.",
+  "maniere_d_aimer": "Non documenté. On peut déduire une forme d'attachement admiratif-intellectuel : séduit par un maître-prophète qu'il finit par dépasser techniquement.",
+  "rapport_au_pouvoir": "Rapport ambigu au charisme : il décrit lucidement Fuller comme un « professeur mystique » capable de faire arriver « logiquement à des conclusions illogiques » — admiration et lucidité critiques mêlées. Il accepte de fournir main-d'œuvre et compétence aux projets du maître (constructions géométriques mobiles, Fondation), tout en brevetant sa propre version du principe, séparément.",
+  "voix": {
+   "registre": "Précis, technique, mémoriel ; l'observation sèche d'un témoin qui a vu le phénomène de l'intérieur",
+   "tics": "Descriptions chiffrées et matérielles (dimensions, matériaux, fils, tubes)",
+   "exemples_paraphrases": [
+    "Fuller arrivait pour la session d'été en remplacement d'un professeur d'architecture désisté au dernier moment ; c'était son premier poste d'enseignant",
+    "Fuller nous faisait arriver logiquement à des conclusions illogiques",
+    "La structure, ce sont des forces formant des systèmes stables — pas les recettes du Bauhaus"
+   ]
+  },
+  "habitudes": [
+   "Construire aussitôt : après la première conférence de Fuller, il réalise immédiatement ses constructions géométriques mobiles",
+   "Travailler petit et exact : X-Piece, une colonne d'environ un pied en bois et nylon",
+   "Suivre Fuller de collège en collège comme fellow de sa Fondation, donnant temps et énergie à ses projets"
+  ],
+  "convictions": [
+   "La structure naît de forces formant des systèmes stables, pas de notions floues héritées du Bauhaus",
+   "L'occupation de l'espace n'a rien à voir avec la structure",
+   "Fuller est un prophète fascinant mais capable de faire arriver « logiquement à des conclusions illogiques »",
+   "La compression discontinue et la tension continue forment un vrai principe d'ingénierie (future tensegrité)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "moment": "Soir d'arrivée de Fuller : remorque aluminium déchargée par les étudiants, conférence de trois heures sur la fin de « l'ère du carré »",
+    "etat_interieur": "Fascination immédiate — le sculpteur trouve un langage pour ce qu'il pressent : la structure comme forces",
+    "refs": [
+     "SC-01177",
+     "EV-04337",
+     "EV-04441"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "moment": "Effondrement du Supine Dome : lames de stores vénitiens assemblées un matin humide, le dôme de 22 pieds refuse de se dresser, l'école vient se moquer ; Snelson est dans la classe de Fuller",
+    "etat_interieur": "L'échec assumé comme pédagogie le forme : il comprend ce qui manque — la tension",
+    "refs": [
+     "SC-01114",
+     "EV-04521",
+     "EV-04334"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Il construit Wood X Piece et les constructions géométriques mobiles de Fuller dès sa première conférence",
+    "etat_interieur": "Excitation créatrice : de disciple il passe à collaborateur",
+    "refs": [
+     "OE-02034",
+     "EV-04425",
+     "RE-01798"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "session",
+    "moment": "Il montre à Fuller son X-Piece : deux croix de bois, la supérieure suspendue en l'air par des fils nylon tendus ; Fuller y lit aussitôt un nouveau principe et demande une version modifiée",
+    "etat_interieur": "Déclic décisif et ambivalent : l'étudiant inspire le maître — paternité d'une découverte en jeu",
+    "refs": [
+     "SC-01228",
+     "EV-04790",
+     "OE-02051"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "session",
+    "moment": "Érection réussie du second dôme en tubes d'aluminium, influencé par son X-Piece, avec la cohorte d'étudiants d'ID de Chicago ; test de la peau plastique thermosoudée",
+    "etat_interieur": "Triomphe partagé : sa démonstration validée dans l'œuvre du maître",
+    "refs": [
+     "SC-01229",
+     "EV-04793",
+     "EV-04794",
+     "RE-01876"
+    ]
+   },
+   {
+    "date": "1949-12-22",
+    "precision": "jour",
+    "moment": "Lettre de Fuller le créditant dans toutes ses conférences publiques comme « un vrai pionnier » de la démonstration tension/compression",
+    "etat_interieur": "Reconnaissance officielle — mais promise à rester lettrée : Fuller s'appropriera le principe",
+    "refs": [
+     "EV-04908",
+     "RE-01787"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1945",
+    "precision": "annee",
+    "moment": "Vétéran de la Seconde Guerre mondiale, il arrive parmi la cohorte de vétérans talentueux financés par le GI Bill qui fréquentent ce collège non accrédité centré sur l'art",
+    "refs": [
+     "EV-03773",
+     "PE-00117"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Fellow de la Fuller Research Foundation : il fournit main-d'œuvre et compétence aux projets du maître, suit Fuller de collège en collège (vers 1948-1952)",
+    "refs": [
+     "EV-02059",
+     "EV-03067",
+     "RE-01797"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Il brevette sa propre version du principe de tensegrity, séparément de Fuller — chacun des deux côtés des bureaux des brevets",
+    "refs": [
+     "EV-04791",
+     "RE-01771"
+    ]
+   },
+   {
+    "date": "≈1952",
+    "precision": "annee",
+    "moment": "Elaine de Kooning le décrit comme fellow de la Fondation, traçant sa carrière depuis la première conférence de Fuller à BMC",
+    "refs": [
+     "EC-01257"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Buckminster Fuller",
+    "nature": "Mentorat, collaboration et rivalité de paternité",
+    "evolution": "1948 : éblouissement réciproque dès l'arrivée du maître ; 1948-1949 : disciple devenu collaborateur, ses innovations en tensegrité réorientent la géométrie énergétique de Fuller ; 1949 : le X-Piece inspire le second dôme, Fuller nomme le principe « tensegrity » ; 22 décembre 1949 : lettre de reconnaissance publique comme pionnier ; ensuite : brevets séparés, appropriation large par Fuller — germe durable de querelle",
+    "refs": [
+     "RE-01620",
+     "RE-01693",
+     "RE-01740",
+     "RE-01759",
+     "RE-01771",
+     "RE-01783",
+     "RE-01787",
+     "RE-01797",
+     "RE-01798",
+     "RE-01876",
+     "EV-04908"
+    ]
+   },
+   {
+    "avec": "Elaine de Kooning, Richard Lippold, Merce Cunningham, Josef Albers",
+    "nature": "Camarades et témoins de l'été 1948",
+    "evolution": "Ils partagent la « galaxie de talents » de l'été 1948 et l'épisode du Supine Dome ; Elaine de Kooning devient plus tard celle qui relie sa carrière à BMC",
+    "refs": [
+     "SC-01114",
+     "SC-01177",
+     "EV-04525",
+     "EC-01257"
+    ]
+   },
+   {
+    "avec": "Ruth Asawa, Masato Nakagawa",
+    "nature": "Camarades d'atelier sous Fuller",
+    "evolution": "Coéquipiers des « exploratory work » de l'été 1949, notamment l'érection du second dôme",
+    "refs": [
+     "SC-01229",
+     "EV-04793"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Dates de présence : certaines fiches donnent seulement 1948, d'autres les étés 1948 et 1949 ; le X-Piece est daté 1948 (Wood X Piece, Harris) mais montré à Fuller à l'été 1949 (Díaz).",
+   "Sur le Supine Dome : version Molesworth/Díaz (l'école soutient le dôme à bout de bras pour la photo, bonne humeur) contre version Elaine de Kooning (l'école vient se moquer, dôme « comme des spaghettis mouillés », tous savaient qu'il ne se lèverait pas).",
+   "Les fiches agrégées (EV-02059, EV-03067) portent des fourchettes ≈1933-1952 et ≈1940-1953 visiblement erronées pour des événements situés après 1948 : dates déduites à manier avec prudence."
+  ],
+  "situations_revelatrices": [
+   "Le soir d'arrivée de Fuller : comment Snelson regarde le prophète — fascination ou lucidité ?",
+   "La nuit de calculs et le matin humide du Supine Dome : l'étudiant qui voit déjà où est l'erreur de tension",
+   "L'instant du X-Piece montré dans la paume : le maître penché sur l'objet d'un pied de haut",
+   "La lecture de la lettre du 22 décembre 1949 : reconnaissance et pressentiment de l'effacement",
+   "Les bureaux des brevets, chacun de son côté"
+  ],
+  "citations": [
+   "CI-01918",
+   "CI-02172"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, biographie familiale, années de service militaire exactes.",
+   "Comment il vit matériellement et sentimentalement l'après-BMC comme fellow de la Fondation.",
+   "Le contenu et le ton exacts de sa lettre/réaction à l'appropriation du principe par Fuller.",
+   "Sa relation avec les autres étudiants (Asawa, Noland, Ray Johnson) au-delà de la présence commune aux étés 1948-1949."
+  ]
+ }
+}

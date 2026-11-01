@@ -1,0 +1,91 @@
+{
+ "passe": "enseignements",
+ "cle": "Molly Gregory",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3499,
+  "sortie": 3661,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Molly Gregory",
+  "cours": [
+   {
+    "intitule": "Travail du bois (atelier de menuiserie)",
+    "periodes": [
+     "années de guerre (Harris 2005)",
+     "à partir de 1940 (Duberman 1972)",
+     "1943-1947 (Molesworth 2015)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Attesté : apprendre aux étudiants à meubler eux-mêmes leurs workrooms. Le but est donc utilitaire et ancré dans la vie du collège : on fabrique ce dont la communauté se sert. Les fiches ne donnent aucun autre objectif pédagogique, ni artistique ni technique.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Fabriquer du mobilier pour les salles de travail : chaises et pupitres, parfois des commodes. Les fiches ne précisent ni l'ordre des tâches, ni la durée, ni l'organisation par niveaux, ni la façon de corriger.",
+      "materiaux": "Bois. Les outils ne sont pas mentionnés.",
+      "but": "Meubler les workrooms des étudiants.",
+      "refs": [
+       "CO-00379",
+       "CO-00319",
+       "CO-00218"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Aucune parole prononcée en cours n'est attestée dans les fiches. Ce qu'on sait de sa parole vient de la vie communautaire, hors atelier. Lors de la réunion de faculté de juin 1944, sur le cas d'une étudiante dont on craignait qu'elle souffre en secret, elle aurait dit, paraphrasé, que la jeune femme « serait héros ou martyre » (SC-00923).",
+     "Rétrospectivement, elle disait avoir mal supporté d'être « possédée » : on traitait son vote comme la propriété d'Albers et de Dreier (ID-01899, ID-01898). Cette parole date de l'analyse après coup, non de la période d'enseignement.",
+     "En 1945, elle protesta contre l'effacement de Wunsch. On lui répondit qu'il « ne voudrait voir personne ». Les fiches SC-00943 et SC-00962 divergent sur la réplique : l'une la place comme réponse à sa protestation, l'autre comme consigne qu'on lui avait donnée. Elle regretta toute sa vie de ne pas être descendue l'aider (SC-00943, SC-00962)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Les sources divergent sur la durée de l'enseignement. Harris parle des « années de guerre », Duberman d'un début en 1940, Molesworth de 1943-1947. On peut retenir qu'il couvre au moins 1943-1947, mais le début exact (1940 ou 1943) reste incertain. La fiche CO-00218 porte une borne large (≈1933→1962) qui sert d'ancrage et n'a pas valeur de dates de cours. Hors atelier, elle a aussi eu des tâches de ferme et de communauté. En 1943, elle tente de vendre des légumes en surplus porte à porte, faillit être arrêtée, puis écoule le tout à bas prix au marché d'Asheville (SC-00859). En 1944, elle conduit de nuit quinze milles de routes en lacets jusqu'au mont Mitchell pour une étudiante que l'on croyait mourante. L'étudiante avait seulement trop bu d'alcool de contrebande (SC-00879). En 1945, elle est responsable de la communauté après le départ de Dreier, selon SC-00944. Elle convoque alors l'assemblée malgré l'interdiction de la faculté.",
+    "refs": [
+     "CO-00218",
+     "CO-00319",
+     "CO-00379"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Une communauté a besoin d'une fonction commune pour tenir. Black Mountain a survécu parce que ses membres se croyaient, à tort ou à raison, engagés dans l'entreprise partagée de l'éducation. La communauté de l'Oregon, sans collège, s'est dissoute après trois ans faute de ce ciment.",
+    "en_classe": "Non attesté en cours : c'est une analyse rétrospective rapportée par Duberman. Transposition possible en séance d'atelier bois : construire le mobilier de la salle où le groupe travaille, comme dans le cours de 1943-1947, et faire discuter de ce que cet objet commun fait tenir ensemble. Ce lien entre l'idée et l'atelier est une déduction, non une pratique documentée.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01805",
+     "CO-00379"
+    ]
+   },
+   {
+    "idee": "Le vrai moteur de la crise de 1947-1948 n'était pas les « standards », mais le sentiment de possessivité des anciens envers les nouveaux et leurs votes. Elle avait senti monter sa colère d'être traitée, avec son vote, comme la propriété d'Albers et de Dreier. Duberman juge cette lecture plus convaincante que la thèse des standards. Albers lui aurait reproché, à sa démission de 1947, de l'avoir « vendu ».",
+    "en_classe": "Non attesté au collège comme séance. Transposition possible : un jeu de rôle ou un débat sur le vote, où un groupe « ancien » tente de garder l'allégeance des « nouveaux ». Les fiches ne datent pas la crise de façon cohérente : ID-01898 parle de la démission de 1947, ID-01899 de 1948. À garder en tête pour l'ancrage temporel.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01898",
+     "ID-01899"
+    ]
+   },
+   {
+    "idee": "La démocratie exige une disposition permanente à céder, à s'ajuster et à évoluer, et c'est épuisant. Après quinze ans d'ajustements constants, Albers se serait raidi. Elle disait n'avoir pas aimé « être possédée ».",
+    "en_classe": "La fiche propose elle-même une conversation sur ce que coûte, année après année, de ne jamais dominer. Rien n'indique qu'elle l'ait tenue en classe, et ce serait une transposition. Elle pourrait se faire en fin d'atelier, à partir d'un cas concret de décision partagée.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01899"
+    ]
+   },
+   {
+    "idee": "Le silence obéissant peut devenir une faute morale. En 1945, elle a respecté l'interdiction de descendre aider Wunsch partant de nuit. Elle l'a regretté toute sa vie. Elle a aussi réuni la communauté pour dire la vérité sur son départ, malgré l'interdit de la faculté, mais trop tard pour le sauver.",
+    "en_classe": "Non attesté en classe : tiré des scènes de 1945 et non de son enseignement. Transposition possible : un exercice sur la différence entre égards et lâcheté collective, à partir de ce récit. Il ne s'appuie sur aucune pratique documentée.",
+    "atteste": "non",
+    "refs": [
+     "SC-00943",
+     "SC-00944",
+     "SC-00962"
+    ]
+   }
+  ]
+ }
+}

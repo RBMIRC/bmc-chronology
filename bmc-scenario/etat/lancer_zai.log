@@ -1,0 +1,1942 @@
+773 morceaux, moteur zai, modèle glm-5.2, 4 fils
+  001-001  51 entrées  (10209→7979 tokens)  marginale
+  001-002  62 entrées  (9897→9702 tokens)  utile
+  001-004  74 entrées  (9584→12606 tokens)  utile
+  001-005  76 entrées  (5268→12834 tokens)  marginale
+  001-006  72 entrées  (4818→12110 tokens)  centrale
+  001-008  55 entrées  (5019→9221 tokens)  utile
+  001-009  83 entrées  (5015→14362 tokens)  marginale
+  001-007 102 entrées  (4922→15944 tokens)  utile
+  001-012  41 entrées  (4905→6920 tokens)  marginale
+  001-010 101 entrées  (5123→15860 tokens)  marginale
+  001-003 ÉCHEC ReponseInvalide: JSON invalide après 3 essais : Expecting value: line 1 column 37706 (char 37705)
+  001-011  72 entrées  (5106→12156 tokens)  marginale
+  001-013  56 entrées  (5117→10250 tokens)  marginale
+  001-015  85 entrées  (5254→13840 tokens)  marginale
+  001-014  96 entrées  (4776→17038 tokens)  marginale
+  001-016  74 entrées  (5045→11701 tokens)  utile
+  001-017  66 entrées  (5268→14091 tokens)  marginale
+  001-020  42 entrées  (5202→7513 tokens)  marginale
+  001-018  74 entrées  (4838→12530 tokens)  utile
+  001-019  77 entrées  (5042→11823 tokens)  marginale
+  001-021  59 entrées  (4870→10629 tokens)  marginale
+  001-022  63 entrées  (4888→11698 tokens)  marginale
+  001-024  55 entrées  (4984→8615 tokens)  marginale
+  001-023  86 entrées  (5063→13535 tokens)  marginale
+  001-025  65 entrées  (5302→10825 tokens)  marginale
+  001-029  21 entrées  (5480→3621 tokens)  marginale
+  001-027  43 entrées  (5557→7776 tokens)  marginale
+  001-030   9 entrées  (5962→1598 tokens)  marginale
+  001-028  55 entrées  (5940→10024 tokens)  utile
+  001-026  71 entrées  (4887→12777 tokens)  marginale
+  001-032  36 entrées  (5620→5316 tokens)  marginale
+  001-035   0 entrées  (6232→191 tokens)  nulle
+  001-034  17 entrées  (6092→2745 tokens)  marginale
+  001-031  50 entrées  (5296→7482 tokens)  marginale
+  001-036   0 entrées  (4297→203 tokens)  nulle
+  001-033  37 entrées  (5872→5838 tokens)  marginale
+  002-004   0 entrées  (10274→328 tokens)  nulle
+  002-005  18 entrées  (5587→3367 tokens)  marginale
+  002-001  37 entrées  (9613→6589 tokens)  utile
+  002-003  41 entrées  (10382→6886 tokens)  marginale
+  002-007   0 entrées  (5780→304 tokens)  nulle
+  002-008   0 entrées  (2929→429 tokens)  nulle
+  002-002  41 entrées  (10196→6530 tokens)  marginale
+  002-006  31 entrées  (5381→5058 tokens)  marginale
+  005-001  39 entrées  (10072→5822 tokens)  utile
+  005-002  49 entrées  (9383→7446 tokens)  centrale
+  005-003  56 entrées  (10038→9108 tokens)  centrale
+  005-005  70 entrées  (5296→12129 tokens)  centrale
+  005-004  69 entrées  (9639→12995 tokens)  centrale
+  005-007  47 entrées  (5004→8164 tokens)  centrale
+  005-006  60 entrées  (5263→10101 tokens)  centrale
+  005-011  56 entrées  (5156→9046 tokens)  centrale
+  005-008  81 entrées  (5176→12930 tokens)  centrale
+  005-010  92 entrées  (4940→14093 tokens)  centrale
+  005-013  45 entrées  (4635→6794 tokens)  centrale
+  005-012  87 entrées  (4854→13385 tokens)  centrale
+  005-009  75 entrées  (5130→11464 tokens)  centrale
+  005-014  78 entrées  (5084→13504 tokens)  centrale
+  005-015  92 entrées  (4899→14554 tokens)  centrale
+  005-016  89 entrées  (5084→14096 tokens)  centrale
+  005-017 101 entrées  (5388→15262 tokens)  utile
+  005-020  33 entrées  (4865→6257 tokens)  centrale
+  005-018  96 entrées  (5219→15099 tokens)  centrale
+  005-021  62 entrées  (4697→11743 tokens)  centrale
+  005-023  83 entrées  (4849→13944 tokens)  centrale
+  005-022  76 entrées  (5312→15166 tokens)  centrale
+  005-019  89 entrées  (4952→13165 tokens)  centrale
+  005-024  64 entrées  (5246→11364 tokens)  centrale
+  005-025  76 entrées  (5187→11809 tokens)  centrale
+  005-026  88 entrées  (5231→14627 tokens)  centrale
+  005-028 140 entrées  (5154→21571 tokens)  centrale
+  005-029  94 entrées  (5058→16174 tokens)  centrale
+  005-027  77 entrées  (5133→12606 tokens)  centrale
+  005-030  84 entrées  (5645→14816 tokens)  centrale
+  005-031  53 entrées  (5109→8321 tokens)  utile
+  005-035  99 entrées  (5584→15733 tokens)  utile
+  005-034  98 entrées  (5276→16851 tokens)  centrale
+  005-032  65 entrées  (5333→11498 tokens)  centrale
+  005-036  67 entrées  (4102→10540 tokens)  utile
+  005-033  87 entrées  (10→14395 tokens)  centrale
+  006-001  42 entrées  (9408→7753 tokens)  centrale
+  006-002  54 entrées  (9541→10470 tokens)  centrale
+  006-005  47 entrées  (4568→7238 tokens)  centrale
+  006-004  64 entrées  (8411→11507 tokens)  centrale
+  006-003  64 entrées  (9472→11175 tokens)  centrale
+  006-006  53 entrées  (4576→9734 tokens)  centrale
+  006-008  30 entrées  (4669→5482 tokens)  centrale
+  006-009  70 entrées  (4713→11214 tokens)  centrale
+  006-011  67 entrées  (4640→10050 tokens)  centrale
+  006-007  59 entrées  (4772→11539 tokens)  centrale
+  006-012  39 entrées  (5112→7313 tokens)  centrale
+  006-010  64 entrées  (12→10771 tokens)  centrale
+  006-013  85 entrées  (5216→12476 tokens)  centrale
+  006-015  55 entrées  (4607→9775 tokens)  centrale
+  006-014  73 entrées  (4608→12177 tokens)  centrale
+  006-017  58 entrées  (5260→10602 tokens)  centrale
+  006-018  46 entrées  (5036→8756 tokens)  centrale
+  006-019  69 entrées  (5184→11873 tokens)  centrale
+  006-016  39 entrées  (12→7669 tokens)  centrale
+  006-020  63 entrées  (5178→11058 tokens)  centrale
+  006-021  73 entrées  (4698→13960 tokens)  centrale
+  006-022  77 entrées  (4950→12381 tokens)  centrale
+  006-023  84 entrées  (5042→13457 tokens)  centrale
+  006-024  63 entrées  (4577→10468 tokens)  centrale
+  006-026  61 entrées  (5145→10823 tokens)  centrale
+  006-027  72 entrées  (5112→11548 tokens)  centrale
+  006-028  64 entrées  (4679→12325 tokens)  centrale
+  006-025  73 entrées  (4526→11880 tokens)  centrale
+  006-029  73 entrées  (4820→12645 tokens)  centrale
+  006-032  57 entrées  (4651→9437 tokens)  centrale
+  006-031  80 entrées  (5328→14645 tokens)  centrale
+  006-034  40 entrées  (4417→7414 tokens)  centrale
+  006-033  50 entrées  (4509→8950 tokens)  centrale
+    [19:38] RateLimitError : quota ou service, nouvel essai dans 10 min
+  006-035  51 entrées  (4351→9914 tokens)  centrale
+    [19:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+  006-037  37 entrées  (4510→8447 tokens)  utile
+  006-036  60 entrées  (5051→10498 tokens)  centrale
+    [19:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:58] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:08] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:18] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:28] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:38] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:58] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:08] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:18] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:28] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:38] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:58] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+  006-039  87 entrées  (9900→14505 tokens)  centrale
+  006-041  83 entrées  (9905→13821 tokens)  centrale
+  006-042  54 entrées  (4639→11084 tokens)  centrale
+  006-040  87 entrées  (5225→15560 tokens)  centrale
+  006-043  86 entrées  (5331→10302 tokens)  centrale
+  006-044  61 entrées  (4504→10442 tokens)  centrale
+  006-046  62 entrées  (4494→8640 tokens)  centrale
+  006-045  92 entrées  (5040→14751 tokens)  centrale
+  006-047  60 entrées  (4599→10198 tokens)  centrale
+  006-048  58 entrées  (4813→9614 tokens)  centrale
+  006-049  72 entrées  (5112→11786 tokens)  centrale
+  006-050  49 entrées  (58→8459 tokens)  centrale
+  006-038  62 entrées  (4663→10478 tokens)  centrale
+  006-051  87 entrées  (5236→15027 tokens)  centrale
+  006-052  76 entrées  (5299→12780 tokens)  centrale
+  006-055  67 entrées  (5291→11064 tokens)  centrale
+  006-053  62 entrées  (4768→9063 tokens)  centrale
+  006-056  97 entrées  (5102→16671 tokens)  centrale
+  006-059  49 entrées  (6000→7314 tokens)  utile
+  006-057 101 entrées  (4599→17125 tokens)  centrale
+  006-054  89 entrées  (51→14031 tokens)  centrale
+  006-058  74 entrées  (4996→12194 tokens)  centrale
+  006-060  67 entrées  (6381→10189 tokens)  utile
+  006-062  73 entrées  (5561→11316 tokens)  utile
+  006-063  60 entrées  (5→8048 tokens)  utile
+  006-061  87 entrées  (6027→14961 tokens)  utile
+  006-064  75 entrées  (5797→12086 tokens)  utile
+  006-066  65 entrées  (6236→11933 tokens)  utile
+  006-067  86 entrées  (6329→12673 tokens)  utile
+  006-065  78 entrées  (6437→13972 tokens)  centrale
+  006-068  93 entrées  (6722→15148 tokens)  utile
+  006-070  66 entrées  (6349→10020 tokens)  utile
+  006-071  71 entrées  (6471→10379 tokens)  utile
+  007-001  64 entrées  (10004→10053 tokens)  centrale
+  006-069  69 entrées  (31→11746 tokens)  utile
+  007-004  78 entrées  (9846→12006 tokens)  centrale
+  007-007  71 entrées  (5263→11384 tokens)  centrale
+  007-003  62 entrées  (11→11387 tokens)  centrale
+  007-006  85 entrées  (5146→13565 tokens)  centrale
+  007-005 100 entrées  (5228→15936 tokens)  centrale
+  007-010  67 entrées  (5255→11320 tokens)  centrale
+  007-009  86 entrées  (5284→14249 tokens)  centrale
+  007-011  78 entrées  (5380→13299 tokens)  centrale
+  007-008  77 entrées  (5221→12902 tokens)  centrale
+  007-014  65 entrées  (5294→11367 tokens)  centrale
+  007-015  58 entrées  (5385→11007 tokens)  centrale
+  007-013  64 entrées  (5183→13985 tokens)  centrale
+  007-018  57 entrées  (5145→9353 tokens)  centrale
+  007-017  72 entrées  (5318→12935 tokens)  centrale
+  007-019 ÉCHEC RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+  007-012  83 entrées  (5148→15018 tokens)  centrale
+  007-016  83 entrées  (5220→14602 tokens)  centrale
+  007-021 101 entrées  (5209→16265 tokens)  centrale
+  007-022  79 entrées  (5367→12748 tokens)  centrale
+  007-023  77 entrées  (5227→14997 tokens)  centrale
+  007-025  49 entrées  (5374→8288 tokens)  centrale
+  007-026  59 entrées  (5156→11166 tokens)  centrale
+  007-028  54 entrées  (5162→9533 tokens)  centrale
+  007-024 108 entrées  (5211→18152 tokens)  centrale
+  007-027  59 entrées  (5168→10470 tokens)  centrale
+  007-029  71 entrées  (5295→11526 tokens)  centrale
+  007-030  68 entrées  (5221→11299 tokens)  centrale
+  007-031  71 entrées  (5244→10684 tokens)  centrale
+  007-032  74 entrées  (5236→13750 tokens)  centrale
+  007-033  59 entrées  (5470→11840 tokens)  utile
+  007-034  60 entrées  (5266→11038 tokens)  utile
+  007-035  90 entrées  (5267→14486 tokens)  centrale
+  007-036  64 entrées  (5340→10260 tokens)  centrale
+  007-038  50 entrées  (5300→10413 tokens)  utile
+  007-039  60 entrées  (5225→10791 tokens)  utile
+  007-040  58 entrées  (5420→11012 tokens)  centrale
+  007-037  86 entrées  (5370→15022 tokens)  centrale
+  007-041  63 entrées  (5261→10285 tokens)  centrale
+  007-043  73 entrées  (5040→11286 tokens)  centrale
+  007-042  64 entrées  (5235→10745 tokens)  centrale
+  007-044  67 entrées  (4980→11645 tokens)  centrale
+  007-045  51 entrées  (5321→10761 tokens)  centrale
+  007-048  67 entrées  (5111→9616 tokens)  centrale
+  007-046  58 entrées  (5392→10383 tokens)  centrale
+  007-047  75 entrées  (5369→12860 tokens)  centrale
+  007-049  41 entrées  (5273→8214 tokens)  centrale
+  007-051  47 entrées  (4910→9403 tokens)  centrale
+  007-050  63 entrées  (5307→12151 tokens)  centrale
+  007-053  43 entrées  (2083→7248 tokens)  utile
+  009-001  40 entrées  (9711→7074 tokens)  marginale
+  009-002  62 entrées  (9686→9376 tokens)  utile
+  009-003  62 entrées  (9446→9750 tokens)  utile
+  009-004  50 entrées  (4790→8619 tokens)  utile
+  009-006  40 entrées  (4918→6072 tokens)  utile
+  009-005  61 entrées  (4949→9982 tokens)  marginale
+  007-052  80 entrées  (4992→14710 tokens)  centrale
+  009-007  52 entrées  (4943→9270 tokens)  utile
+  009-008  48 entrées  (5042→7598 tokens)  marginale
+  009-009  69 entrées  (5028→10165 tokens)  utile
+  009-010  45 entrées  (5044→7805 tokens)  marginale
+  009-012  39 entrées  (4808→7607 tokens)  marginale
+  009-011  52 entrées  (5073→10409 tokens)  utile
+  009-013  45 entrées  (4890→7609 tokens)  marginale
+  009-014  48 entrées  (5076→8031 tokens)  marginale
+  009-016  33 entrées  (4905→5437 tokens)  utile
+  009-015  51 entrées  (4868→7940 tokens)  marginale
+  009-018  50 entrées  (5136→8158 tokens)  marginale
+  009-019  33 entrées  (5219→6536 tokens)  utile
+  009-020  52 entrées  (5320→9778 tokens)  utile
+  009-021  60 entrées  (4826→10028 tokens)  marginale
+  009-022  55 entrées  (5123→10161 tokens)  marginale
+  009-017  64 entrées  (7→10138 tokens)  utile
+  009-023  56 entrées  (4751→9180 tokens)  utile
+  009-026  42 entrées  (5165→6970 tokens)  marginale
+  009-027  31 entrées  (5243→5860 tokens)  utile
+  009-025  52 entrées  (5971→8461 tokens)  marginale
+  009-024  54 entrées  (5113→9095 tokens)  utile
+  009-028  46 entrées  (4953→7950 tokens)  marginale
+  009-029  56 entrées  (5059→9405 tokens)  marginale
+  009-031  57 entrées  (5254→9802 tokens)  marginale
+  009-034   3 entrées  (7027→589 tokens)  nulle
+  009-033  17 entrées  (7676→3192 tokens)  marginale
+  009-032  47 entrées  (5576→8668 tokens)  marginale
+  010-002  19 entrées  (9573→4229 tokens)  marginale
+  010-001  22 entrées  (9808→4765 tokens)  marginale
+  010-003  11 entrées  (9548→2342 tokens)  marginale
+    [00:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+  010-005  19 entrées  (5117→3998 tokens)  marginale
+    [00:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+  010-004  23 entrées  (4878→4782 tokens)  marginale
+    [00:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:58] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:08] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:08] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:18] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:18] RateLimitError : quota ou service, nouvel essai dans 10 min
+  010-006  28 entrées  (9627→5905 tokens)  utile
+  010-008  19 entrées  (9506→4001 tokens)  marginale
+  010-007  25 entrées  (9634→5802 tokens)  utile
+  009-030  58 entrées  (9956→9329 tokens)  marginale
+  010-010  21 entrées  (4866→4165 tokens)  marginale
+  010-009  20 entrées  (4818→5812 tokens)  marginale
+  010-011  20 entrées  (4840→4488 tokens)  marginale
+  010-012  25 entrées  (4853→5381 tokens)  utile
+  010-013  34 entrées  (4870→6916 tokens)  marginale
+  010-015  16 entrées  (4787→3831 tokens)  utile
+  010-017   8 entrées  (4950→1842 tokens)  marginale
+  010-016  20 entrées  (4860→4716 tokens)  marginale
+  010-018  17 entrées  (4813→4080 tokens)  marginale
+  010-019  17 entrées  (4914→3635 tokens)  marginale
+  010-020  16 entrées  (4987→3208 tokens)  marginale
+  010-021  23 entrées  (5072→4639 tokens)  marginale
+  010-022  14 entrées  (5066→3728 tokens)  marginale
+  010-023  18 entrées  (43→3847 tokens)  marginale
+  010-014  24 entrées  (4773→4894 tokens)  marginale
+  010-024  18 entrées  (4951→3748 tokens)  marginale
+  010-025  20 entrées  (5010→4774 tokens)  marginale
+  010-027  22 entrées  (4870→4529 tokens)  marginale
+  010-028  18 entrées  (4892→3415 tokens)  marginale
+  010-030   1 entrées  (4844→423 tokens)  nulle
+  010-026  14 entrées  (4976→2986 tokens)  marginale
+  010-029  18 entrées  (4552→4457 tokens)  marginale
+  010-031  19 entrées  (5025→3891 tokens)  marginale
+  010-033  15 entrées  (4835→3779 tokens)  marginale
+  010-032  27 entrées  (4796→6280 tokens)  marginale
+  010-035  20 entrées  (5058→4496 tokens)  marginale
+  010-036  20 entrées  (5067→4425 tokens)  marginale
+  010-034  14 entrées  (4853→3815 tokens)  marginale
+  010-037  16 entrées  (4622→4496 tokens)  marginale
+  010-039  20 entrées  (4861→5270 tokens)  marginale
+  010-038  21 entrées  (4882→5055 tokens)  marginale
+  010-040  16 entrées  (4902→4612 tokens)  marginale
+  010-042  13 entrées  (5061→3170 tokens)  marginale
+  010-044  11 entrées  (4971→3348 tokens)  marginale
+  010-045  11 entrées  (5013→2420 tokens)  marginale
+  010-047  18 entrées  (4885→3913 tokens)  marginale
+  010-043  19 entrées  (4952→4501 tokens)  marginale
+  010-046  19 entrées  (4631→4625 tokens)  marginale
+  010-048  14 entrées  (4682→2978 tokens)  marginale
+  010-050  17 entrées  (4989→3886 tokens)  marginale
+  010-049  17 entrées  (4852→3563 tokens)  marginale
+  010-041  21 entrées  (11→5073 tokens)  marginale
+  010-052  16 entrées  (5006→3806 tokens)  marginale
+  010-051  14 entrées  (5107→3524 tokens)  marginale
+  010-053  20 entrées  (4930→4545 tokens)  marginale
+  010-054  19 entrées  (5153→4551 tokens)  marginale
+  010-055  10 entrées  (4852→3047 tokens)  marginale
+  010-056  14 entrées  (4242→3500 tokens)  marginale
+  011-001  19 entrées  (9975→3991 tokens)  marginale
+  011-002  19 entrées  (9781→4246 tokens)  marginale
+  011-004  21 entrées  (9919→4701 tokens)  marginale
+  011-003  26 entrées  (10131→5563 tokens)  marginale
+  011-006  19 entrées  (5205→4626 tokens)  marginale
+  011-005  26 entrées  (5153→6093 tokens)  marginale
+  011-007  28 entrées  (5553→5069 tokens)  marginale
+  011-008  31 entrées  (5104→5768 tokens)  marginale
+  011-010  21 entrées  (5135→3823 tokens)  marginale
+  011-009  18 entrées  (5320→4200 tokens)  marginale
+  011-011  17 entrées  (5318→3330 tokens)  utile
+  011-013  17 entrées  (5307→4601 tokens)  marginale
+  011-012  21 entrées  (5264→5227 tokens)  marginale
+  011-014  31 entrées  (5116→7743 tokens)  utile
+  011-015  28 entrées  (5367→6454 tokens)  marginale
+  011-016  20 entrées  (5268→4939 tokens)  marginale
+  011-017  36 entrées  (5345→7067 tokens)  marginale
+  011-018  17 entrées  (5495→3936 tokens)  marginale
+  011-019  19 entrées  (5540→5114 tokens)  marginale
+  011-021  18 entrées  (5032→4181 tokens)  marginale
+  011-023  17 entrées  (5072→3567 tokens)  marginale
+  011-022  24 entrées  (5198→5376 tokens)  marginale
+  011-024  15 entrées  (5355→3082 tokens)  marginale
+  011-025  14 entrées  (5229→3428 tokens)  utile
+  011-020  21 entrées  (63→3848 tokens)  marginale
+  011-027  17 entrées  (5586→4131 tokens)  marginale
+  011-028  17 entrées  (1216→3479 tokens)  marginale
+  011-026  38 entrées  (5473→7561 tokens)  marginale
+  013-001  26 entrées  (9348→5275 tokens)  utile
+  013-002  29 entrées  (9526→5979 tokens)  centrale
+  013-003  28 entrées  (9476→6849 tokens)  centrale
+  013-005  27 entrées  (4109→5538 tokens)  utile
+  013-004  39 entrées  (9266→7513 tokens)  centrale
+  014-001  48 entrées  (8752→8013 tokens)  utile
+  014-002  46 entrées  (8836→7584 tokens)  utile
+  014-003  60 entrées  (9734→9796 tokens)  utile
+  014-004  53 entrées  (9735→9309 tokens)  utile
+  014-005  60 entrées  (4388→10653 tokens)  centrale
+  014-007  58 entrées  (4460→8616 tokens)  centrale
+  014-008  65 entrées  (4590→11683 tokens)  centrale
+  014-009  62 entrées  (4152→10338 tokens)  centrale
+  014-010  57 entrées  (4202→9722 tokens)  utile
+  014-011  71 entrées  (5044→11863 tokens)  utile
+  014-014  63 entrées  (4253→10060 tokens)  marginale
+  014-006  84 entrées  (5268→14859 tokens)  centrale
+  014-012  81 entrées  (4223→14002 tokens)  utile
+  014-016  48 entrées  (4532→8023 tokens)  centrale
+  014-018  40 entrées  (4038→7318 tokens)  centrale
+  014-017  43 entrées  (4124→7177 tokens)  centrale
+  014-015  72 entrées  (4386→12164 tokens)  centrale
+  014-019  41 entrées  (4695→7239 tokens)  centrale
+  014-021  37 entrées  (4595→7985 tokens)  centrale
+  014-023  44 entrées  (4951→8179 tokens)  centrale
+  014-022  47 entrées  (4643→8710 tokens)  centrale
+  014-024  43 entrées  (4701→7392 tokens)  centrale
+  014-027  46 entrées  (4600→9858 tokens)  utile
+  014-028  33 entrées  (4747→6786 tokens)  centrale
+  014-025  46 entrées  (57→8054 tokens)  centrale
+  014-026  61 entrées  (5026→11123 tokens)  centrale
+  014-031  25 entrées  (4779→5088 tokens)  centrale
+  014-033  46 entrées  (4574→7409 tokens)  centrale
+  014-030  53 entrées  (5107→8390 tokens)  centrale
+  014-032  67 entrées  (4179→11794 tokens)  centrale
+  014-029  47 entrées  (10→8709 tokens)  centrale
+  014-034  50 entrées  (4105→9635 tokens)  centrale
+  014-036  39 entrées  (4300→8372 tokens)  centrale
+  014-035  49 entrées  (4748→10427 tokens)  centrale
+  014-038  39 entrées  (4536→7689 tokens)  centrale
+  014-037  55 entrées  (5037→9870 tokens)  centrale
+  014-039  48 entrées  (4215→8032 tokens)  utile
+  014-040  57 entrées  (4987→10471 tokens)  utile
+  014-041  41 entrées  (3984→6309 tokens)  utile
+  014-042  36 entrées  (4750→6242 tokens)  marginale
+  014-043  64 entrées  (5558→10363 tokens)  utile
+  014-046  65 entrées  (5766→10507 tokens)  utile
+  014-045  80 entrées  (5603→11592 tokens)  utile
+  014-044  87 entrées  (5610→14675 tokens)  utile
+  014-047  51 entrées  (3064→8740 tokens)  utile
+  014-049  44 entrées  (3018→6785 tokens)  centrale
+  014-050  50 entrées  (2823→7608 tokens)  utile
+  014-051  53 entrées  (2871→7694 tokens)  utile
+  014-052  36 entrées  (2985→6212 tokens)  utile
+  014-055   0 entrées  (6255→207 tokens)  nulle
+  014-056   0 entrées  (4252→234 tokens)  nulle
+  014-054  41 entrées  (4969→7248 tokens)  marginale
+  014-053  63 entrées  (5555→11369 tokens)  utile
+  014-057  55 entrées  (6262→7531 tokens)  utile
+  014-048  77 entrées  (5496→13777 tokens)  centrale
+  016-001  16 entrées  (9768→2833 tokens)  marginale
+  014-058  50 entrées  (4865→7886 tokens)  marginale
+  016-003  56 entrées  (11145→9381 tokens)  centrale
+  016-002  87 entrées  (9901→12797 tokens)  centrale
+  016-005  64 entrées  (4909→9840 tokens)  centrale
+  016-004  74 entrées  (28→11666 tokens)  centrale
+  016-007  58 entrées  (5507→9501 tokens)  centrale
+  016-009  50 entrées  (4923→7412 tokens)  centrale
+  016-006  61 entrées  (5468→10362 tokens)  utile
+  016-010  92 entrées  (5208→14023 tokens)  centrale
+  016-014   0 entrées  (6440→22 tokens)  utile
+  016-013  59 entrées  (4552→9439 tokens)  centrale
+  016-012  91 entrées  (5123→12869 tokens)  centrale
+  016-008  51 entrées  (4938→7424 tokens)  utile
+  016-015  62 entrées  (6851→8946 tokens)  centrale
+  016-016  86 entrées  (5270→11462 tokens)  centrale
+  016-017  61 entrées  (5253→9450 tokens)  centrale
+  016-018  89 entrées  (5447→14287 tokens)  centrale
+  016-020  58 entrées  (4973→8453 tokens)  utile
+  016-019  66 entrées  (4497→10033 tokens)  utile
+  016-021  63 entrées  (5601→9397 tokens)  centrale
+  016-022  65 entrées  (4972→11479 tokens)  centrale
+  016-023  85 entrées  (5159→12113 tokens)  centrale
+  016-025  75 entrées  (4796→12054 tokens)  centrale
+  016-024  67 entrées  (5127→10250 tokens)  utile
+  016-026  78 entrées  (4492→11625 tokens)  utile
+  016-027  65 entrées  (5355→10088 tokens)  centrale
+  016-029  50 entrées  (5607→7644 tokens)  centrale
+  016-028  69 entrées  (4750→10075 tokens)  centrale
+  016-032  37 entrées  (5616→4218 tokens)  marginale
+  016-033  30 entrées  (6348→3641 tokens)  marginale
+    [05:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+  016-031  52 entrées  (5850→7465 tokens)  utile
+    [05:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+  016-030  64 entrées  (4948→11039 tokens)  centrale
+    [05:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:52] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:53] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:03] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:13] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:23] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:33] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:43] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:52] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:52] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:52] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:53] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:03] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:13] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:23] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:33] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:43] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:52] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:52] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:53] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:53] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:03] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:03] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:13] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:13] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:23] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:23] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:33] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:33] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:43] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:43] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:52] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:52] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:53] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:53] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:03] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:03] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:13] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:13] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:23] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:23] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:23] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [09:23] RateLimitError : quota ou service, nouvel essai dans 10 min
+  016-035   7 entrées  (10825→1256 tokens)  marginale
+  016-034  11 entrées  (10979→1447 tokens)  marginale
+  016-036   0 entrées  (4222→188 tokens)  nulle
+  017-002  18 entrées  (9652→4003 tokens)  utile
+  017-004  22 entrées  (8929→3873 tokens)  utile
+  017-003  21 entrées  (8829→4444 tokens)  marginale
+  017-007  14 entrées  (3576→3077 tokens)  utile
+  017-005  13 entrées  (2→2731 tokens)  marginale
+  017-008  21 entrées  (2700→4137 tokens)  marginale
+  017-001  20 entrées  (2627→4177 tokens)  utile
+  017-009  24 entrées  (4787→5284 tokens)  utile
+  017-006  24 entrées  (3749→4562 tokens)  utile
+  017-010  35 entrées  (3944→3800 tokens)  marginale
+  017-011  42 entrées  (3925→7100 tokens)  utile
+  017-013  21 entrées  (2386→3494 tokens)  marginale
+  017-016  23 entrées  (7495→3187 tokens)  marginale
+  017-015  35 entrées  (4044→5652 tokens)  utile
+  017-014  54 entrées  (5067→8335 tokens)  utile
+  017-012  55 entrées  (5078→8596 tokens)  centrale
+  017-017  12 entrées  (790→1859 tokens)  marginale
+  018-002  22 entrées  (9470→4838 tokens)  utile
+  018-004  27 entrées  (9470→5509 tokens)  utile
+  018-001  40 entrées  (2→6364 tokens)  utile
+  018-005  32 entrées  (4879→6137 tokens)  utile
+  018-006  17 entrées  (5026→3347 tokens)  utile
+  018-003  31 entrées  (24→5854 tokens)  utile
+  019-001  20 entrées  (6681→2523 tokens)  marginale
+  018-007  22 entrées  (4705→4721 tokens)  marginale
+  020-002  48 entrées  (9473→6144 tokens)  utile
+  020-003  38 entrées  (8053→6052 tokens)  utile
+  021-001  37 entrées  (7334→5486 tokens)  utile
+  020-001  55 entrées  (9335→9048 tokens)  centrale
+  022-001  55 entrées  (9164→8962 tokens)  centrale
+  022-003  45 entrées  (9485→6977 tokens)  utile
+  024-001  49 entrées  (9665→8320 tokens)  utile
+  022-002  74 entrées  (9309→10892 tokens)  centrale
+  024-003  45 entrées  (9574→6713 tokens)  utile
+  024-002  44 entrées  (9393→7228 tokens)  utile
+  024-005  60 entrées  (4691→9424 tokens)  utile
+  024-004  39 entrées  (20→5639 tokens)  utile
+  024-006  72 entrées  (4834→11181 tokens)  centrale
+  024-008  51 entrées  (4824→8664 tokens)  marginale
+  024-007  62 entrées  (4637→9242 tokens)  utile
+  024-009  50 entrées  (5124→8366 tokens)  utile
+  024-010  57 entrées  (4820→9647 tokens)  utile
+  024-012  43 entrées  (5230→6702 tokens)  utile
+  024-013  46 entrées  (5146→7396 tokens)  utile
+  024-014  54 entrées  (4954→9271 tokens)  utile
+  024-015  49 entrées  (5098→7664 tokens)  utile
+  024-018  38 entrées  (5286→5688 tokens)  utile
+  024-017  52 entrées  (4901→7582 tokens)  utile
+  024-020  47 entrées  (4990→7640 tokens)  utile
+  024-016 ÉCHEC ReponseInvalide: réponse tronquée (max_tokens)
+  024-011  82 entrées  (47→13650 tokens)  utile
+  024-019  50 entrées  (5075→8223 tokens)  utile
+  024-021  49 entrées  (4670→8222 tokens)  centrale
+  024-022  57 entrées  (5224→9921 tokens)  utile
+  024-023  61 entrées  (5094→9597 tokens)  utile
+  024-025  42 entrées  (4556→8634 tokens)  utile
+  024-024  59 entrées  (4805→9408 tokens)  utile
+  024-027  49 entrées  (4978→8548 tokens)  marginale
+  024-031   0 entrées  (5970→327 tokens)  nulle
+  024-028  49 entrées  (5182→8357 tokens)  utile
+  024-032  25 entrées  (6101→4091 tokens)  marginale
+  024-029  49 entrées  (4964→8726 tokens)  utile
+  024-035  15 entrées  (6383→2034 tokens)  marginale
+  024-034  23 entrées  (6269→4038 tokens)  marginale
+  024-030  42 entrées  (4929→7532 tokens)  utile
+  025-001  53 entrées  (9592→8684 tokens)  utile
+  024-033  39 entrées  (6369→7358 tokens)  marginale
+  025-002  41 entrées  (9706→6578 tokens)  utile
+  026-002  39 entrées  (10604→5347 tokens)  utile
+  027-002  10 entrées  (7859→1610 tokens)  marginale
+  029-001   0 entrées  (5784→163 tokens)  nulle
+  027-001  62 entrées  (10238→9760 tokens)  utile
+  028-001  54 entrées  (7677→7737 tokens)  centrale
+  030-001  52 entrées  (10490→7941 tokens)  utile
+  026-001   0 entrées  (20→6132 tokens)  utile
+  030-003  46 entrées  (9536→7430 tokens)  utile
+  030-004  51 entrées  (4869→7534 tokens)  centrale
+  030-005  54 entrées  (4661→8568 tokens)  centrale
+  030-008   0 entrées  (1665→189 tokens)  nulle
+  030-007  28 entrées  (6060→4366 tokens)  utile
+  030-006  57 entrées  (4582→8443 tokens)  centrale
+  030-002  53 entrées  (5170→9185 tokens)  utile
+  036-001  42 entrées  (10231→7039 tokens)  utile
+  036-002  45 entrées  (9718→6984 tokens)  utile
+  036-005  56 entrées  (5021→7559 tokens)  marginale
+  036-003  85 entrées  (10221→13737 tokens)  centrale
+  036-007  49 entrées  (6040→7649 tokens)  marginale
+  036-004  70 entrées  (5194→10930 tokens)  centrale
+  036-008  51 entrées  (5488→7755 tokens)  utile
+  036-009  47 entrées  (4951→8184 tokens)  utile
+  036-012   6 entrées  (3974→1279 tokens)  marginale
+  036-011  68 entrées  (5444→9790 tokens)  marginale
+  036-006  58 entrées  (34→8506 tokens)  marginale
+  041-001  60 entrées  (9282→8717 tokens)  centrale
+  041-002 106 entrées  (9485→15353 tokens)  centrale
+  041-003  77 entrées  (10099→11096 tokens)  centrale
+  036-010  87 entrées  (5194→14112 tokens)  centrale
+  041-004  75 entrées  (5074→11366 tokens)  centrale
+  041-005  56 entrées  (4771→9251 tokens)  centrale
+  041-007  66 entrées  (5216→10046 tokens)  centrale
+  041-006  76 entrées  (5060→11670 tokens)  centrale
+  041-008  75 entrées  (4964→12438 tokens)  centrale
+  041-011  41 entrées  (4274→5695 tokens)  marginale
+  041-009  77 entrées  (5314→11588 tokens)  centrale
+  043-001  65 entrées  (9751→8580 tokens)  utile
+  041-010 103 entrées  (6508→12196 tokens)  utile
+  043-003  49 entrées  (8272→6921 tokens)  utile
+  043-002  73 entrées  (9805→10808 tokens)  centrale
+  046-001  75 entrées  (10022→11703 tokens)  centrale
+  046-002  68 entrées  (9906→11503 tokens)  centrale
+  046-004  86 entrées  (9838→14344 tokens)  centrale
+  046-003  76 entrées  (9521→13567 tokens)  centrale
+  046-005  69 entrées  (5490→11230 tokens)  centrale
+  046-006  68 entrées  (5130→10645 tokens)  centrale
+  046-007  42 entrées  (5440→7589 tokens)  utile
+  046-008  55 entrées  (5595→9402 tokens)  utile
+  046-010  72 entrées  (5385→12823 tokens)  centrale
+  046-011  67 entrées  (5139→9633 tokens)  utile
+  046-009  88 entrées  (5474→14387 tokens)  centrale
+  046-012  54 entrées  (5401→8568 tokens)  utile
+  046-013  69 entrées  (5523→13017 tokens)  centrale
+  046-014  81 entrées  (5114→12781 tokens)  centrale
+  046-015  86 entrées  (5200→14273 tokens)  centrale
+  046-016  85 entrées  (5357→14102 tokens)  centrale
+  046-019  67 entrées  (5437→11592 tokens)  centrale
+  048-001   5 entrées  (5608→1173 tokens)  marginale
+  046-020  66 entrées  (3580→12650 tokens)  centrale
+  048-002  47 entrées  (4801→7757 tokens)  marginale
+  048-003  38 entrées  (3884→8041 tokens)  utile
+  046-017  84 entrées  (61→12367 tokens)  centrale
+  048-004  23 entrées  (3629→4862 tokens)  marginale
+  046-018  94 entrées  (50→14781 tokens)  centrale
+  048-005  20 entrées  (15→4534 tokens)  marginale
+  048-006  20 entrées  (27→4053 tokens)  marginale
+  048-007  14 entrées  (39→3282 tokens)  utile
+  048-008  17 entrées  (4437→4063 tokens)  marginale
+  048-010  18 entrées  (4751→4182 tokens)  marginale
+  048-011  20 entrées  (4376→4149 tokens)  marginale
+  048-009  30 entrées  (4107→6394 tokens)  marginale
+  048-012  18 entrées  (1547→3297 tokens)  marginale
+  048-014   8 entrées  (281→1549 tokens)  marginale
+  048-013  28 entrées  (4911→5065 tokens)  marginale
+  048-017  20 entrées  (4199→3739 tokens)  marginale
+  048-016  21 entrées  (3022→4086 tokens)  marginale
+  048-018  21 entrées  (4546→4529 tokens)  marginale
+  048-020  26 entrées  (4151→6036 tokens)  utile
+  048-015  27 entrées  (49→6188 tokens)  marginale
+  048-019  27 entrées  (42→5839 tokens)  marginale
+    [10:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+  048-023  12 entrées  (1336→2818 tokens)  marginale
+    [10:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+  048-022  25 entrées  (4163→5734 tokens)  marginale
+    [10:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+  048-024  20 entrées  (4174→3901 tokens)  marginale
+    [10:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [10:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [10:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [10:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [10:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [11:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [12:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:42] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:51] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:52] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [13:52] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:01] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:02] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:11] HTTP 529 : quota ou service, nouvel essai dans 10 min
+    [14:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:12] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:22] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [14:32] RateLimitError : quota ou service, nouvel essai dans 10 min
+  048-025  14 entrées  (8825→3506 tokens)  utile
+  048-021  32 entrées  (9080→6597 tokens)  marginale
+  048-026  29 entrées  (9298→5884 tokens)  marginale
+  048-028  18 entrées  (3670→3061 tokens)  marginale
+  048-027 ÉCHEC RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+  048-029  17 entrées  (4414→3405 tokens)  marginale
+  048-030  21 entrées  (4431→3936 tokens)  marginale
+  048-031  13 entrées  (3988→3463 tokens)  marginale
+  048-032  22 entrées  (3954→4677 tokens)  utile
+  048-034  16 entrées  (3643→3620 tokens)  marginale
+  048-033  25 entrées  (4164→5471 tokens)  marginale
+  048-036  25 entrées  (3727→4792 tokens)  marginale
+  048-035  27 entrées  (3868→5212 tokens)  marginale
+  048-037  19 entrées  (4387→4516 tokens)  marginale
+  048-041  17 entrées  (3855→3981 tokens)  marginale
+  048-042  21 entrées  (4021→4284 tokens)  marginale
+  048-039  31 entrées  (4680→6205 tokens)  marginale
+  048-038  19 entrées  (4386→3777 tokens)  marginale
+  048-043  17 entrées  (4116→4325 tokens)  marginale
+  048-046  11 entrées  (300→2095 tokens)  marginale
+  048-044  14 entrées  (1837→3759 tokens)  marginale
+  048-049  11 entrées  (5396→2524 tokens)  marginale
+  048-045  26 entrées  (5123→5993 tokens)  marginale
+  048-047  42 entrées  (5101→8601 tokens)  marginale
+  048-048  41 entrées  (4481→9058 tokens)  marginale
+  048-050  36 entrées  (3944→7501 tokens)  marginale
+  048-051  42 entrées  (4593→8976 tokens)  marginale
+  048-052  31 entrées  (4562→5902 tokens)  marginale
+  048-054  31 entrées  (4727→6294 tokens)  marginale
+  048-057  16 entrées  (4533→3193 tokens)  marginale
+  048-053  27 entrées  (30→5535 tokens)  marginale
+  048-056  23 entrées  (4238→5380 tokens)  marginale
+  048-058  24 entrées  (3441→4874 tokens)  marginale
+  048-060  29 entrées  (4844→5641 tokens)  marginale
+  048-059  41 entrées  (4355→8363 tokens)  utile
+  048-063   5 entrées  (5233→1049 tokens)  nulle
+  048-061  16 entrées  (5125→3483 tokens)  marginale
+  048-064   4 entrées  (1058→854 tokens)  marginale
+  048-055  23 entrées  (6→4675 tokens)  marginale
+  051-001  33 entrées  (8049→5120 tokens)  utile
+  048-062  48 entrées  (5020→8870 tokens)  marginale
+  051-003  42 entrées  (9060→7252 tokens)  centrale
+  051-002  64 entrées  (8708→9519 tokens)  centrale
+  051-006  38 entrées  (4361→4797 tokens)  centrale
+  051-005  45 entrées  (4659→7776 tokens)  centrale
+  051-004  37 entrées  (4523→5375 tokens)  centrale
+  051-007  35 entrées  (4499→5766 tokens)  utile
+  051-008  78 entrées  (4679→12104 tokens)  centrale
+  051-009  72 entrées  (4884→11367 tokens)  centrale
+  051-010  67 entrées  (4812→10985 tokens)  centrale
+  051-012  52 entrées  (4778→7619 tokens)  centrale
+  051-011  64 entrées  (4847→9952 tokens)  centrale
+  051-015  48 entrées  (4565→9218 tokens)  centrale
+  051-016  53 entrées  (4119→8717 tokens)  centrale
+  051-013  48 entrées  (4372→6803 tokens)  centrale
+  051-014  48 entrées  (4368→8661 tokens)  centrale
+  051-018  30 entrées  (3920→5145 tokens)  utile
+  051-017  40 entrées  (4045→7136 tokens)  utile
+  051-019  48 entrées  (4299→7654 tokens)  centrale
+  051-020  47 entrées  (4483→7534 tokens)  utile
+  051-022  60 entrées  (5591→8491 tokens)  utile
+  051-021  74 entrées  (4806→10976 tokens)  utile
+  051-023  60 entrées  (5566→9621 tokens)  utile
+  051-027   0 entrées  (6789→166 tokens)  nulle
+  051-028   0 entrées  (3777→178 tokens)  nulle
+  051-026  13 entrées  (6124→2726 tokens)  marginale
+  051-024  49 entrées  (4952→7589 tokens)  utile
+  053-002  59 entrées  (9153→8784 tokens)  centrale
+  053-001  36 entrées  (36→6129 tokens)  utile
+  051-025  45 entrées  (46→6732 tokens)  utile
+  053-003  64 entrées  (9787→11101 tokens)  utile
+  053-004  58 entrées  (5013→11256 tokens)  utile
+  053-005  52 entrées  (5070→9043 tokens)  centrale
+  053-006  63 entrées  (5258→9748 tokens)  utile
+  053-007  65 entrées  (4811→11118 tokens)  utile
+  053-008  56 entrées  (4940→9307 tokens)  utile
+  053-009  54 entrées  (5242→9752 tokens)  utile
+  053-010  58 entrées  (4991→10236 tokens)  centrale
+  053-011  69 entrées  (5008→12044 tokens)  centrale
+  053-013  57 entrées  (5094→9157 tokens)  centrale
+  053-012  56 entrées  (5088→10099 tokens)  centrale
+  053-014  63 entrées  (4829→9987 tokens)  centrale
+  053-017  77 entrées  (4898→12523 tokens)  centrale
+  053-018   0 entrées  (4955→9024 tokens)  utile
+  053-016  79 entrées  (5185→13591 tokens)  centrale
+  053-015  63 entrées  (4696→9958 tokens)  centrale
+  053-020  69 entrées  (4901→11491 tokens)  centrale
+  053-021  61 entrées  (4875→10885 tokens)  centrale
+  053-019  97 entrées  (5037→14290 tokens)  centrale
+  053-022  71 entrées  (4963→12165 tokens)  centrale
+  053-025  41 entrées  (4942→6406 tokens)  centrale
+  053-024  84 entrées  (5139→13459 tokens)  centrale
+  053-023  93 entrées  (5374→13085 tokens)  centrale
+  053-029   0 entrées  (6809→169 tokens)  nulle
+  053-030   0 entrées  (7376→257 tokens)  marginale
+  053-027  57 entrées  (4951→6719 tokens)  centrale
+  053-026  84 entrées  (4988→12906 tokens)  centrale
+  053-031  25 entrées  (4524→3857 tokens)  marginale
+  053-028  50 entrées  (5607→7802 tokens)  utile
+  055-003  42 entrées  (9576→6181 tokens)  utile
+  055-001  45 entrées  (10481→7948 tokens)  utile
+  055-002  63 entrées  (10647→9970 tokens)  utile
+  055-005  47 entrées  (5333→7073 tokens)  marginale
+  055-006  51 entrées  (5358→7746 tokens)  marginale
+  055-004  54 entrées  (9920→9827 tokens)  utile
+  055-007  45 entrées  (5351→7306 tokens)  marginale
+  055-008  55 entrées  (5201→8259 tokens)  utile
+  055-009  46 entrées  (5222→7684 tokens)  marginale
+  055-012  13 entrées  (2691→2114 tokens)  marginale
+  055-011  55 entrées  (5657→8664 tokens)  utile
+  055-010  58 entrées  (5145→10619 tokens)  marginale
+  058-001  46 entrées  (10530→8965 tokens)  utile
+  056-001  60 entrées  (8649→9818 tokens)  centrale
+  058-003  54 entrées  (9442→10128 tokens)  marginale
+  058-005  57 entrées  (4945→10137 tokens)  utile
+  058-004  58 entrées  (4773→11029 tokens)  marginale
+  058-002  66 entrées  (9299→11570 tokens)  marginale
+  058-006  58 entrées  (4996→10631 tokens)  utile
+  058-008  46 entrées  (5050→8355 tokens)  marginale
+  058-007  65 entrées  (5010→12234 tokens)  marginale
+  058-010  52 entrées  (4650→9589 tokens)  utile
+  058-009  83 entrées  (4999→14259 tokens)  utile
+  058-011  66 entrées  (4819→12846 tokens)  utile
+  058-012  66 entrées  (5029→11572 tokens)  utile
+  058-013  77 entrées  (4640→11904 tokens)  utile
+  058-014  62 entrées  (9903→10108 tokens)  utile
+  058-015  68 entrées  (5099→11506 tokens)  utile
+  058-016  81 entrées  (4896→14013 tokens)  utile
+  058-018  57 entrées  (4614→10244 tokens)  marginale
+  058-017  73 entrées  (5123→13530 tokens)  marginale
+  058-019  60 entrées  (4941→10167 tokens)  marginale
+  058-020  52 entrées  (4891→8547 tokens)  marginale
+  058-022  39 entrées  (4937→7311 tokens)  marginale
+  058-021  51 entrées  (4911→9691 tokens)  utile
+  058-024  74 entrées  (5368→13537 tokens)  utile
+  058-025  78 entrées  (5532→11823 tokens)  utile
+  058-023  63 entrées  (15→12195 tokens)  utile
+  058-026  54 entrées  (5273→9363 tokens)  utile
+  058-027  62 entrées  (5375→10282 tokens)  marginale
+  058-028  85 entrées  (5060→14365 tokens)  utile
+  058-029  81 entrées  (5420→13512 tokens)  utile
+  058-031  61 entrées  (5088→10888 tokens)  utile
+  058-032  60 entrées  (5357→11129 tokens)  utile
+  058-030  60 entrées  (19→10618 tokens)  utile
+  058-033  56 entrées  (4963→9125 tokens)  marginale
+  058-034  62 entrées  (4771→10817 tokens)  utile
+  058-037  48 entrées  (5019→7755 tokens)  utile
+  058-035  61 entrées  (5055→11223 tokens)  utile
+  058-036  63 entrées  (5091→11448 tokens)  utile
+  058-038  48 entrées  (5193→7069 tokens)  utile
+  058-039  50 entrées  (5082→9362 tokens)  utile
+  058-042  52 entrées  (4848→9586 tokens)  utile
+  058-041  54 entrées  (5013→11154 tokens)  utile
+  058-043  55 entrées  (4560→10241 tokens)  utile
+    [15:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [15:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+  058-045  65 entrées  (5463→11432 tokens)  centrale
+    [15:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [15:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [15:58] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [15:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [15:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [16:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [17:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:50] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [18:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:00] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:10] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:11] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:20] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:21] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:30] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:31] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:40] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [19:41] RateLimitError : quota ou service, nouvel essai dans 10 min
+  058-040  57 entrées  (9680→8400 tokens)  utile
+  058-044  63 entrées  (9451→11168 tokens)  utile
+  058-046  50 entrées  (9371→9218 tokens)  utile
+  058-048  68 entrées  (4845→11907 tokens)  utile
+  058-047  57 entrées  (5149→9589 tokens)  utile
+  058-049  83 entrées  (5058→14693 tokens)  centrale
+  058-050  72 entrées  (5140→11791 tokens)  centrale
+  058-051  58 entrées  (5187→9883 tokens)  utile
+  058-053  44 entrées  (4659→8022 tokens)  utile
+  058-054  56 entrées  (5328→10330 tokens)  utile
+  058-055  68 entrées  (5106→12260 tokens)  utile
+  058-056  72 entrées  (4854→12196 tokens)  centrale
+  058-052  49 entrées  (25→8395 tokens)  utile
+  058-058  44 entrées  (4824→7189 tokens)  marginale
+  058-059  41 entrées  (5128→7122 tokens)  marginale
+  058-060  55 entrées  (5015→8500 tokens)  utile
+  058-061  55 entrées  (4836→10390 tokens)  marginale
+  058-057  72 entrées  (13→14710 tokens)  utile
+  058-062  48 entrées  (4756→8631 tokens)  utile
+  058-064  58 entrées  (5016→10488 tokens)  utile
+  058-063  75 entrées  (5374→15074 tokens)  utile
+  058-067  12 entrées  (8280→2364 tokens)  marginale
+  058-065  45 entrées  (5358→8274 tokens)  utile
+  058-068   4 entrées  (4373→974 tokens)  marginale
+  058-066  44 entrées  (5121→7739 tokens)  marginale
+  060-004  42 entrées  (9976→7048 tokens)  marginale
+  060-003  66 entrées  (9300→10407 tokens)  marginale
+  060-001  68 entrées  (9978→13177 tokens)  utile
+  060-006  35 entrées  (4521→6842 tokens)  utile
+  060-002  56 entrées  (51→9225 tokens)  utile
+  060-005  30 entrées  (4465→5675 tokens)  marginale
+  060-007  28 entrées  (35→4140 tokens)  marginale
+  060-008  41 entrées  (5089→7318 tokens)  utile
+  060-009  46 entrées  (4929→7499 tokens)  marginale
+  060-011  41 entrées  (4923→7048 tokens)  utile
+  060-013  29 entrées  (4585→4932 tokens)  marginale
+  060-012  39 entrées  (4492→8301 tokens)  utile
+  060-010  45 entrées  (7→7130 tokens)  marginale
+  060-014  36 entrées  (4960→6210 tokens)  marginale
+  060-016  17 entrées  (4457→3458 tokens)  marginale
+  060-015  44 entrées  (5017→7569 tokens)  marginale
+  060-017  32 entrées  (4986→5796 tokens)  marginale
+  060-018  19 entrées  (5249→4133 tokens)  marginale
+  060-020  46 entrées  (4899→8260 tokens)  marginale
+  060-019  53 entrées  (49→8287 tokens)  marginale
+  060-021  39 entrées  (23→5828 tokens)  marginale
+  060-022  42 entrées  (52→7018 tokens)  marginale
+  060-023  49 entrées  (4994→9510 tokens)  centrale
+  060-027  20 entrées  (4841→3896 tokens)  marginale
+  060-025  54 entrées  (4986→8267 tokens)  utile
+  060-026  62 entrées  (5348→8777 tokens)  marginale
+  060-024  80 entrées  (5226→13557 tokens)  centrale
+769/773 faits
+245 morceaux, moteur zai, modèle glm-5.2, 4 fils
+  003-001  36 entrées  (10064→6179 tokens)  utile
+  003-003  63 entrées  (10788→8375 tokens)  utile
+  003-004  54 entrées  (10544→7840 tokens)  utile
+  003-002  68 entrées  (10476→11173 tokens)  utile
+  003-005  30 entrées  (6014→5284 tokens)  utile
+  003-006  64 entrées  (7024→7458 tokens)  utile
+  003-007  59 entrées  (6383→7821 tokens)  utile
+  003-008  56 entrées  (6629→8012 tokens)  utile
+  003-009  65 entrées  (5461→10279 tokens)  utile
+  003-011  42 entrées  (5530→5604 tokens)  marginale
+  003-010  65 entrées  (5510→11152 tokens)  marginale
+  003-012  74 entrées  (6066→9261 tokens)  utile
+  003-013  80 entrées  (6684→10254 tokens)  centrale
+  003-016 101 entrées  (7744→11397 tokens)  marginale
+  003-014 122 entrées  (7068→15021 tokens)  utile
+  003-017  54 entrées  (5683→9282 tokens)  utile
+  003-015  87 entrées  (7738→8156 tokens)  marginale
+  003-019  56 entrées  (4085→9373 tokens)  utile
+  003-018  59 entrées  (4111→10051 tokens)  utile
+  003-021  56 entrées  (4649→7147 tokens)  utile
+  003-022  38 entrées  (4657→5990 tokens)  utile
+  003-020  68 entrées  (4515→10827 tokens)  utile
+  003-023  59 entrées  (5017→8696 tokens)  utile
+  003-025  51 entrées  (5403→9181 tokens)  utile
+  003-024  68 entrées  (4982→11860 tokens)  utile
+  003-026  68 entrées  (5171→11447 tokens)  utile
+  003-027  96 entrées  (4951→13590 tokens)  utile
+  015-001  49 entrées  (9510→7751 tokens)  centrale
+  003-028  63 entrées  (4605→9055 tokens)  utile
+  015-002  56 entrées  (9633→8040 tokens)  utile
+  015-003  63 entrées  (10010→9243 tokens)  utile
+  015-004  69 entrées  (4836→11336 tokens)  centrale
+  015-005  94 entrées  (5874→10693 tokens)  utile
+  023-001  28 entrées  (7179→4677 tokens)  marginale
+  031-002  22 entrées  (9689→5222 tokens)  marginale
+  031-004  15 entrées  (9771→3443 tokens)  marginale
+  031-003  23 entrées  (9391→5399 tokens)  utile
+  031-007  15 entrées  (4814→3311 tokens)  marginale
+  031-005  18 entrées  (5116→3805 tokens)  marginale
+  031-006  20 entrées  (4719→4650 tokens)  marginale
+  031-008  23 entrées  (4752→4604 tokens)  marginale
+  031-001  16 entrées  (54→4119 tokens)  marginale
+  031-009  21 entrées  (4755→3393 tokens)  marginale
+  031-011  10 entrées  (4931→2332 tokens)  marginale
+  031-010  19 entrées  (60→3854 tokens)  utile
+  031-013  22 entrées  (5105→5116 tokens)  marginale
+  031-014  31 entrées  (4778→6641 tokens)  marginale
+  031-012  16 entrées  (52→4005 tokens)  marginale
+  031-015  32 entrées  (4671→5479 tokens)  utile
+  031-016  26 entrées  (4801→4816 tokens)  marginale
+  031-017  18 entrées  (5046→3161 tokens)  marginale
+  031-019  19 entrées  (5044→4172 tokens)  marginale
+  031-021  19 entrées  (5066→3717 tokens)  marginale
+  031-020  31 entrées  (4738→5193 tokens)  marginale
+  031-018  30 entrées  (4960→7286 tokens)  marginale
+  031-023  28 entrées  (1861→4758 tokens)  marginale
+  033-001  50 entrées  (9984→6548 tokens)  utile
+  034-001  61 entrées  (10692→9005 tokens)  utile
+  034-003  50 entrées  (11042→7131 tokens)  utile
+  031-022  39 entrées  (47→7770 tokens)  utile
+  034-002  91 entrées  (10433→12311 tokens)  utile
+  034-004  68 entrées  (5115→9438 tokens)  marginale
+  034-007  38 entrées  (5991→5259 tokens)  marginale
+  034-006  50 entrées  (6068→7370 tokens)  marginale
+  034-008  58 entrées  (5251→7727 tokens)  utile
+  034-005  56 entrées  (6502→8000 tokens)  marginale
+  034-009  58 entrées  (5244→7122 tokens)  marginale
+  034-012  38 entrées  (6361→5819 tokens)  marginale
+  034-011  38 entrées  (6030→6887 tokens)  utile
+  034-016   7 entrées  (7153→1552 tokens)  marginale
+  034-013  29 entrées  (7049→4397 tokens)  marginale
+  034-014  31 entrées  (7377→4470 tokens)  utile
+  034-015  20 entrées  (6295→3626 tokens)  marginale
+  034-017   7 entrées  (6657→1857 tokens)  marginale
+  034-018   8 entrées  (6653→2088 tokens)  marginale
+  034-020   9 entrées  (6531→1599 tokens)  marginale
+  034-019   9 entrées  (7104→1877 tokens)  marginale
+  034-021  11 entrées  (6763→2371 tokens)  marginale
+  034-022   8 entrées  (6409→1644 tokens)  marginale
+  034-023   9 entrées  (7182→1654 tokens)  marginale
+  034-024   7 entrées  (6338→1527 tokens)  marginale
+  034-025   9 entrées  (6884→1981 tokens)  marginale
+  034-026  10 entrées  (6837→1925 tokens)  marginale
+  034-027   4 entrées  (6469→1637 tokens)  marginale
+  034-030  27 entrées  (5468→4665 tokens)  marginale
+  034-028  32 entrées  (5779→6388 tokens)  utile
+  034-029  39 entrées  (5767→5674 tokens)  marginale
+  034-031  73 entrées  (6482→7247 tokens)  marginale
+  034-032  43 entrées  (7090→5114 tokens)  marginale
+  035-001  50 entrées  (9533→6911 tokens)  utile
+  035-002  69 entrées  (10042→9499 tokens)  utile
+  035-005  43 entrées  (7387→4976 tokens)  marginale
+  035-004   0 entrées  (9904→7329 tokens)  utile
+  037-001  10 entrées  (9110→1746 tokens)  marginale
+  035-006  39 entrées  (2485→5365 tokens)  utile
+  037-002  34 entrées  (10008→5415 tokens)  marginale
+  037-003  31 entrées  (3944→5517 tokens)  marginale
+  037-005  11 entrées  (271→1789 tokens)  marginale
+  037-004  38 entrées  (5438→6504 tokens)  marginale
+  035-003  84 entrées  (5439→12889 tokens)  utile
+  037-007  18 entrées  (1382→2708 tokens)  marginale
+  037-009   7 entrées  (289→1518 tokens)  marginale
+  037-006  30 entrées  (5368→6211 tokens)  marginale
+  037-010  27 entrées  (5512→4447 tokens)  marginale
+  037-013   0 entrées  (276→214 tokens)  nulle
+  037-008  47 entrées  (5309→8839 tokens)  marginale
+  037-012  29 entrées  (4898→5508 tokens)  marginale
+  037-011  31 entrées  (2217→5508 tokens)  marginale
+  037-017   4 entrées  (294→1115 tokens)  marginale
+  037-014  47 entrées  (5191→8607 tokens)  marginale
+  037-016  44 entrées  (5497→7412 tokens)  marginale
+  037-015  34 entrées  (2702→5968 tokens)  marginale
+  037-019  15 entrées  (385→2222 tokens)  marginale
+  037-018  22 entrées  (5584→3880 tokens)  marginale
+  037-021  17 entrées  (298→2833 tokens)  marginale
+  037-023  24 entrées  (673→3815 tokens)  marginale
+  037-022  30 entrées  (5532→5682 tokens)  marginale
+  037-020  42 entrées  (5417→6968 tokens)  marginale
+  037-024  38 entrées  (5382→5986 tokens)  marginale
+  037-025  11 entrées  (285→2020 tokens)  marginale
+    [20:55] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:55] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [20:55] RateLimitError : quota ou service, nouvel essai dans 10 min
+  037-026  32 entrées  (5442→5529 tokens)  marginale
+    [20:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:05] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:05] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:05] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:15] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:15] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:15] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:25] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:25] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:25] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:35] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:35] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:35] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:45] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:45] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:45] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:55] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:55] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:55] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [21:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:05] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:05] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:05] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [22:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [23:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [00:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+  037-027  20 entrées  (4956→3489 tokens)  marginale
+  037-031   0 entrées  (283→310 tokens)  nulle
+  037-028  25 entrées  (9943→4644 tokens)  marginale
+  037-029  29 entrées  (5899→5877 tokens)  marginale
+  037-033  22 entrées  (3790→4633 tokens)  marginale
+  037-032  37 entrées  (5476→6079 tokens)  marginale
+  037-034  19 entrées  (5273→4140 tokens)  marginale
+  037-035  10 entrées  (288→2104 tokens)  marginale
+  037-030  53 entrées  (5476→8590 tokens)  marginale
+  037-036  36 entrées  (5157→5670 tokens)  marginale
+  037-037  39 entrées  (4006→6795 tokens)  marginale
+  037-039  18 entrées  (1912→3414 tokens)  marginale
+  037-041   0 entrées  (356→243 tokens)  nulle
+  037-043   0 entrées  (303→192 tokens)  nulle
+  037-038  41 entrées  (5303→7422 tokens)  marginale
+  037-045   8 entrées  (344→1286 tokens)  marginale
+  037-040  22 entrées  (6906→4241 tokens)  marginale
+  037-042  13 entrées  (6839→2939 tokens)  marginale
+  037-047   0 entrées  (367→188 tokens)  nulle
+  037-049   0 entrées  (344→192 tokens)  nulle
+  037-046  11 entrées  (6907→2146 tokens)  marginale
+  037-044  38 entrées  (6614→6202 tokens)  marginale
+  037-053   0 entrées  (390→186 tokens)  nulle
+  037-054   0 entrées  (6741→186 tokens)  nulle
+  037-055   0 entrées  (385→177 tokens)  nulle
+  037-050  27 entrées  (7163→4158 tokens)  marginale
+  037-051  16 entrées  (1442→2865 tokens)  marginale
+  037-048  29 entrées  (6737→5499 tokens)  marginale
+  037-059   0 entrées  (376→168 tokens)  nulle
+  037-057  13 entrées  (426→1992 tokens)  marginale
+  037-056  14 entrées  (7089→2726 tokens)  marginale
+  037-060  21 entrées  (7002→3611 tokens)  marginale
+  037-061  18 entrées  (2648→2947 tokens)  marginale
+  037-063   0 entrées  (395→172 tokens)  nulle
+  037-065   9 entrées  (410→1157 tokens)  marginale
+  037-058  25 entrées  (6846→5191 tokens)  marginale
+  037-062  29 entrées  (7321→5023 tokens)  marginale
+  037-064  20 entrées  (7127→3861 tokens)  marginale
+  037-067  16 entrées  (340→2829 tokens)  marginale
+  037-070   0 entrées  (7839→211 tokens)  nulle
+  037-071   0 entrées  (396→175 tokens)  nulle
+  037-072   0 entrées  (8094→217 tokens)  nulle
+  037-069   6 entrées  (1909→1248 tokens)  marginale
+  037-073   0 entrées  (7327→202 tokens)  nulle
+  037-074   0 entrées  (10052→171 tokens)  nulle
+  037-068  18 entrées  (6726→3074 tokens)  marginale
+  037-075  15 entrées  (5865→2285 tokens)  marginale
+  037-066  28 entrées  (15→5341 tokens)  marginale
+  042-002  20 entrées  (9608→3391 tokens)  marginale
+  042-001  22 entrées  (10094→5400 tokens)  marginale
+  042-003  15 entrées  (9990→3601 tokens)  marginale
+  042-004  23 entrées  (9877→4794 tokens)  marginale
+  042-005  17 entrées  (5130→4480 tokens)  marginale
+  042-006  19 entrées  (5065→3489 tokens)  marginale
+  042-007  17 entrées  (5367→3847 tokens)  marginale
+  042-008  17 entrées  (5155→4332 tokens)  marginale
+  042-010  16 entrées  (5171→3671 tokens)  marginale
+  042-009  18 entrées  (5402→5120 tokens)  marginale
+  042-011  16 entrées  (5524→4124 tokens)  marginale
+  042-013  16 entrées  (4911→3720 tokens)  marginale
+  042-012  16 entrées  (5292→3973 tokens)  marginale
+  042-014  25 entrées  (5338→4154 tokens)  marginale
+  042-015  16 entrées  (5269→3929 tokens)  marginale
+  042-017  13 entrées  (5319→3801 tokens)  marginale
+  042-018  17 entrées  (5550→3498 tokens)  marginale
+  042-016  26 entrées  (5066→5611 tokens)  marginale
+  042-019  16 entrées  (5250→3688 tokens)  marginale
+  042-020  15 entrées  (5215→3705 tokens)  marginale
+  042-021  18 entrées  (5460→3685 tokens)  utile
+  042-023  17 entrées  (5358→3565 tokens)  marginale
+  042-024  19 entrées  (5315→4268 tokens)  marginale
+  042-022  34 entrées  (5081→6454 tokens)  utile
+  042-025  19 entrées  (5257→4263 tokens)  marginale
+  042-026  22 entrées  (5322→4824 tokens)  utile
+  042-027  11 entrées  (4763→2929 tokens)  marginale
+  050-001  38 entrées  (9646→6904 tokens)  utile
+  050-003  52 entrées  (9878→7676 tokens)  utile
+  050-002  57 entrées  (9832→9154 tokens)  utile
+  050-004  58 entrées  (10210→8351 tokens)  utile
+  050-005  46 entrées  (5214→7460 tokens)  utile
+  050-007  39 entrées  (4720→6671 tokens)  utile
+  050-008  62 entrées  (6816→8675 tokens)  utile
+  050-009  53 entrées  (7276→5905 tokens)  utile
+  050-006  37 entrées  (4977→5268 tokens)  utile
+  052-001  56 entrées  (9737→8879 tokens)  utile
+  052-003  47 entrées  (13470→6222 tokens)  utile
+  052-004  54 entrées  (9459→8591 tokens)  utile
+  052-002  72 entrées  (10885→12107 tokens)  utile
+  052-006  45 entrées  (6976→5763 tokens)  utile
+  052-005  56 entrées  (6278→7955 tokens)  utile
+  052-010  15 entrées  (3566→2860 tokens)  marginale
+  052-007  41 entrées  (4766→6302 tokens)  utile
+  052-008  51 entrées  (5653→7848 tokens)  marginale
+  052-009  49 entrées  (5598→7147 tokens)  utile
+  054-002  68 entrées  (9860→10158 tokens)  utile
+  054-003  79 entrées  (9991→11247 tokens)  marginale
+  054-004 ÉCHEC RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+  054-007   0 entrées  (1554→158 tokens)  nulle
+  054-001  53 entrées  (9824→8490 tokens)  marginale
+  059-002   0 entrées  (10117→306 tokens)  nulle
+  054-005  50 entrées  (5546→8334 tokens)  utile
+  059-001  16 entrées  (10478→3614 tokens)  marginale
+  054-006  69 entrées  (5907→10666 tokens)  utile
+  059-004  19 entrées  (5559→4538 tokens)  marginale
+  059-003  42 entrées  (5660→7815 tokens)  marginale
+  059-006  27 entrées  (5587→5112 tokens)  marginale
+  059-007  24 entrées  (5878→5912 tokens)  marginale
+  059-008  32 entrées  (5294→7757 tokens)  marginale
+  059-010  11 entrées  (5665→2560 tokens)  marginale
+  059-005  62 entrées  (5687→11715 tokens)  marginale
+  059-009  48 entrées  (5716→9488 tokens)  marginale
+  059-012  15 entrées  (5619→3567 tokens)  marginale
+  059-011  37 entrées  (5737→8068 tokens)  marginale
+  059-015  19 entrées  (5576→3939 tokens)  marginale
+  059-013  43 entrées  (5746→7968 tokens)  marginale
+  059-014  33 entrées  (5301→6678 tokens)  marginale
+  059-016  18 entrées  (5505→4465 tokens)  marginale
+  059-017  46 entrées  (5322→8768 tokens)  marginale
+  059-020  26 entrées  (5498→5401 tokens)  marginale
+  059-019  41 entrées  (5421→7602 tokens)  marginale
+  059-021   0 entrées  (5570→391 tokens)  nulle
+  059-022   0 entrées  (5571→264 tokens)  nulle
+  059-018  36 entrées  (5464→7980 tokens)  marginale
+  059-023  49 entrées  (6085→8814 tokens)  marginale
+244/245 faits
+67 morceaux, moteur zai, modèle glm-5.2, 4 fils
+  008-001  13 entrées  (7302→2043 tokens)  marginale
+  012-001  37 entrées  (11148→5157 tokens)  marginale
+  004-002  41 entrées  (8715→5935 tokens)  marginale
+  012-003  26 entrées  (1327→4355 tokens)  marginale
+  004-001  76 entrées  (10716→12033 tokens)  utile
+  012-002  58 entrées  (11344→9996 tokens)  utile
+  032-002  13 entrées  (9428→2707 tokens)  marginale
+  032-003  28 entrées  (9469→4118 tokens)  marginale
+  038-001  26 entrées  (9767→3954 tokens)  marginale
+  040-001   8 entrées  (9352→1626 tokens)  marginale
+  039-001  44 entrées  (8582→5084 tokens)  utile
+  039-002  45 entrées  (8203→5606 tokens)  marginale
+  040-003   8 entrées  (5132→1797 tokens)  marginale
+  040-002  13 entrées  (5119→2548 tokens)  marginale
+  040-004   0 entrées  (4658→263 tokens)  nulle
+  040-006   0 entrées  (4797→238 tokens)  nulle
+  040-005  19 entrées  (5119→3166 tokens)  marginale
+  040-007  19 entrées  (4966→3053 tokens)  marginale
+  032-001  53 entrées  (4643→8898 tokens)  marginale
+  040-011   3 entrées  (6810→828 tokens)  marginale
+  040-008  28 entrées  (5374→4772 tokens)  utile
+  040-012   3 entrées  (3967→699 tokens)  marginale
+  040-010  12 entrées  (5631→2338 tokens)  marginale
+  040-009  16 entrées  (4552→3164 tokens)  marginale
+  044-004  45 entrées  (10381→5555 tokens)  marginale
+  044-001  43 entrées  (9443→7160 tokens)  utile
+  044-003  49 entrées  (10604→7628 tokens)  marginale
+  044-002  39 entrées  (9861→7163 tokens)  utile
+  044-005  16 entrées  (5508→2541 tokens)  marginale
+  044-007  30 entrées  (5913→4670 tokens)  marginale
+  044-008  28 entrées  (4744→4233 tokens)  marginale
+  044-006  42 entrées  (6192→6019 tokens)  marginale
+  044-009  31 entrées  (5266→4849 tokens)  marginale
+  044-011  16 entrées  (5595→2843 tokens)  marginale
+  044-013   5 entrées  (5614→1188 tokens)  marginale
+  044-010  18 entrées  (5130→3287 tokens)  marginale
+  044-012  40 entrées  (5683→5742 tokens)  marginale
+  057-001   6 entrées  (5442→1095 tokens)  marginale
+  049-002  42 entrées  (11616→4530 tokens)  marginale
+  049-003  49 entrées  (7318→6725 tokens)  utile
+  049-001  51 entrées  (9531→7802 tokens)  marginale
+  057-003  15 entrées  (289→2977 tokens)  marginale
+  057-005  10 entrées  (596→2003 tokens)  marginale
+  057-007  12 entrées  (250→2222 tokens)  utile
+  057-002  51 entrées  (4950→8919 tokens)  marginale
+  057-004  38 entrées  (4741→8071 tokens)  marginale
+  057-010  29 entrées  (4903→5424 tokens)  marginale
+  057-008  52 entrées  (4949→8514 tokens)  utile
+  057-006  42 entrées  (45→7172 tokens)  utile
+  057-009  30 entrées  (41→6188 tokens)  marginale
+  057-012  35 entrées  (4743→6080 tokens)  marginale
+  057-013  30 entrées  (1543→4902 tokens)  marginale
+  057-015  33 entrées  (4107→6160 tokens)  utile
+  057-011  15 entrées  (60→2672 tokens)  marginale
+  057-014  42 entrées  (4824→7796 tokens)  utile
+  057-016  36 entrées  (4613→6469 tokens)  utile
+  057-018  22 entrées  (1724→3955 tokens)  marginale
+  057-019  28 entrées  (3183→5359 tokens)  marginale
+  057-020  37 entrées  (3629→5964 tokens)  marginale
+  057-021  23 entrées  (2920→4071 tokens)  marginale
+  057-017  54 entrées  (4731→9770 tokens)  utile
+  057-022  12 entrées  (4841→2743 tokens)  marginale
+  057-024  14 entrées  (687→2534 tokens)  marginale
+  057-023  28 entrées  (5029→4711 tokens)  marginale
+  057-026  20 entrées  (3133→3699 tokens)  marginale
+  057-027  14 entrées  (3710→2803 tokens)  marginale
+  057-025  41 entrées  (4915→7320 tokens)  utile
+67/67 faits
+5 morceaux, moteur zai, modèle glm-5.2, 4 fils
+  024-016  41 entrées  (9232→6398 tokens)  marginale
+  048-027  20 entrées  (32→5015 tokens)  marginale
+  054-004  52 entrées  (10081→8296 tokens)  marginale
+  007-019  87 entrées  (9912→14461 tokens)  centrale
+  001-003  71 entrées  (9779→12524 tokens)  utile
+5/5 faits
+1095 morceaux fusionnés
+evenements    9525 extraites →   8901 après fusion
+personnes     8472 extraites →   2147 après fusion
+relations     3362 extraites →   3362 après fusion
+cours          893 extraites →    893 après fusion
+idees         4716 extraites →   4716 après fusion
+lieux         1765 extraites →   1765 après fusion
+quotidien     2271 extraites →   2271 après fusion
+scenes        2319 extraites →   2289 après fusion
+citations     4750 extraites →   4680 après fusion
+oeuvres       5487 extraites →   4625 après fusion
+conflits      1035 extraites →   1002 après fusion
+echos         3747 extraites →   3747 après fusion
+noms rattachés automatiquement : 482 (voir _noms.csv)
+personnes : 335 tâches, 15.08 M caractères ≈ 4.19 M tokens
+  Paul Goodman (170380→7254 tokens)
+  Robert Rauschenberg (176940→7919 tokens)
+  Anni Albers (180287→8144 tokens)
+  Charles Olson (175771→7722 tokens)
+  John Cage (95838→6810 tokens)
+    [01:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+  Willem de Kooning (181099→6595 tokens)
+    [01:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+  John Andrew Rice (173913→9598 tokens)
+    [01:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [01:58] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:08] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:18] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:27] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:28] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:37] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:38] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:47] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:57] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:58] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [02:58] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:07] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:08] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:08] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:17] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:18] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:18] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:28] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:28] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:28] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:38] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:38] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:38] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:58] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:58] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [03:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:08] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:08] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:18] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:18] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:28] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:28] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:38] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:38] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:48] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [04:59] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:09] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:19] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:29] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:39] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [05:49] RateLimitError : quota ou service, nouvel essai dans 10 min
+  Elaine de Kooning (181998→6349 tokens)
+  Theodore Dreier (74072→6105 tokens)
+  Walter Gropius (107566→8025 tokens)
+  Mary Caroline Richards (47056→6028 tokens)
+  Paul Klee (111537→8478 tokens)
+  Buckminster Fuller (66396→6331 tokens)
+  Michael Rumaker (40→8815 tokens)
+  Wassily Kandinsky (59443→8567 tokens)
+  Merce Cunningham (42141→5471 tokens)
+  Wesley Huss (28682→5256 tokens)
+  Franz Kline (35721→5988 tokens)
+  Ruth Asawa (96701→6283 tokens)
+  Johannes Itten (14458→4026 tokens)
+  Robert Creeley (37269→5805 tokens)
+  Fielding Dawson (92494→6861 tokens)
+  Nicholas Fox Weber (40291→4951 tokens)
+  Nell Rice (18605→5706 tokens)
+  Jonathan Williams (21337→5691 tokens)
+  Heinrich Jalowetz (18677→5631 tokens)
+  Robert Wunsch (27480→6156 tokens)
+  Stefan Wolpe (21576→4702 tokens)
+  Joseph Fiore (19294→4775 tokens)
+  John Evarts (13737→3949 tokens)
+  Hazel Larsen Archer (22130→5976 tokens)
+  Harold Rosenberg (15792→3796 tokens)
+  Marcel Breuer (11431→4663 tokens)
+  Molly Gregory (13655→4861 tokens)
+  Susan Weil (39961→5702 tokens)
+  Natasha Goldowski (17380→5116 tokens)
+  Oskar Schlemmer (12041→4552 tokens)
+  László Moholy-Nagy (10907→3105 tokens)
+  David Tudor (15208→3906 tokens)
+  Arshile Gorky (15904→4988 tokens)
+  Mary Fiore (12618→4734 tokens)
+  Ray Johnson (9939→3145 tokens)
+  Albert Lanier (19496→4652 tokens)
+  Jasper Johns (13854→4102 tokens)
+  Jorge Fick (13142→4344 tokens)
+  Louis Adamic (12788→4171 tokens)
+  Constance Wilcock (14815→4390 tokens)
+  Philip Johnson (16366→5544 tokens)
+  Jackson Pollock (18894→5094 tokens)
+  Trude Guermonprez (12→3785 tokens)
+  Sewell Sillman (5890→3436 tokens)
+  Dan Rice (20914→5877 tokens)
+  Max Dehn (11912→5297 tokens)
+  Frank Rice (4→4797 tokens)
+  Tom Field (17193→4704 tokens)
+  Johanna Jalowetz (25→3653 tokens)
+  Barbara Dreier (8736→3974 tokens)
+  Xanti Schawinsky (11004→4626 tokens)
+  Eric Bentley (14605→4653 tokens)
+  Felix Klee (13165→4107 tokens)
+  Robert Duncan (15429→4829 tokens)
+  Hannes Meyer (7381→2999 tokens)
+  Lou Harrison (10050→5015 tokens)
+  Esteban Vicente (8092→3721 tokens)
+  Arthur Penn (14001→4603 tokens)
+  Thomas Hess (11985→4346 tokens)
+  Lily Klee (16981→4600 tokens)
+  Franz Perdekamp (11693→3505 tokens)
+  Cy Twombly (11771→4098 tokens)
+  Edwin Denby (9269→3388 tokens)
+  Ludwig Mies van der Rohe (34396→6197 tokens)
+  Frank Aydelotte (8259→4174 tokens)
+  Lyonel Feininger (10313→3778 tokens)
+  Doyle Jones (8335→3686 tokens)
+  Marcel Duchamp (11240→4628 tokens)
+  Karen Karnes (8464→3720 tokens)
+  Joel Oppenheimer (9631→3477 tokens)
+  Imogen Cunningham (19554→5030 tokens)
+  Marguerite Wildenhain (10008→4918 tokens)
+  Grace Hartigan (6885→2855 tokens)
+  Fernando Belaúnde Terry (20192→5480 tokens)
+  Ed Dorn (5535→2940 tokens)
+  Jerry van de Wiele (7786→3818 tokens)
+  Merry Renk (10215→4085 tokens)
+  Frederick Georgia (13251→3884 tokens)
+  Sally Woodbridge (5022→3083 tokens)
+  Bill Levi (11307→4249 tokens)
+  John Wallen (21893→5969 tokens)
+  Kenneth Noland (7364→3125 tokens)
+  Lisa de Kooning (7760→4212 tokens)
+  Rudy Burckhardt (6372→3354 tokens)
+  John Dewey (7630→7067 tokens)
+  Robert Motherwell (7722→3572 tokens)
+  Clement Greenberg (6385→3523 tokens)
+  Jack Tworkov (7695→4398 tokens)
+  Bea Huss (6903→3814 tokens)
+  Betty Kaiser (9105→4192 tokens)
+  Nina Kandinsky (15296→3939 tokens)
+  Joan Ward (5618→3037 tokens)
+  Martin Duberman (20317→4827 tokens)
+  Stephen Forbes (6665→3765 tokens)
+  Hamilton Holt (19765→4483 tokens)
+  Fred Mangold (6476→3537 tokens)
+  Katherine Litz (7023→3404 tokens)
+  Paul Williams (5649→3456 tokens)
+  Jean-Jacques Lebel (12106→4540 tokens)
+  Alain Jouffroy (13756→4325 tokens)
+  Galka Scheyer (8221→4014 tokens)
+  Neil Welliver (4036→2979 tokens)
+  John Graham (5567→3114 tokens)
+  Marjorie Luyckx (3907→3485 tokens)
+  Charles Sawyer (8424→3513 tokens)
+  José Pierre (9601→3717 tokens)
+  André Breton (13656→4341 tokens)
+  Ilya Bolotowsky (5955→4034 tokens)
+  Kenneth Snelson (6047→2843 tokens)
+  Flola Shepard (3726→3489 tokens)
+  David Weinrib (7105→2954 tokens)
+  Kate Olson (6523→3750 tokens)
+  Robert Engman (4873→2570 tokens)
+  Mies van der Rohe (3856→2580 tokens)
+  Mary Gregory (2985→2493 tokens)
+  Alma Mahler (22440→6362 tokens)
+  John Chamberlain (5902→3156 tokens)
+  Nick Cernovich (5651→3220 tokens)
+  Lee Krasner (5986→3113 tokens)
+  Aladar Marberger (3202→3102 tokens)
+  Ralph Hefferline (8979→2739 tokens)
+  John Wieners (11885→4506 tokens)
+  Ben Shahn (8022→3575 tokens)
+  Edward M. M. Warburg (7384→3407 tokens)
+  Lilly Reich (5922→2791 tokens)
+  Steve Jobs (8681→3655 tokens)
+  Frank O'Hara (6467→3198 tokens)
+  Richard Lippold (6200→2936 tokens)
+  Henry Allen Moe (2460→2751 tokens)
+  Herbert Bayer (9499→3602 tokens)
+  Joseph Martin (5451→3176 tokens)
+  Jack Lipsey (3791→2855 tokens)
+  Beaumont Newhall (6201→3266 tokens)
+  Erwin Straus (7978→3808 tokens)
+  Dorothea Rockburne (3429→2508 tokens)
+  Edward Lowinsky (10020→3398 tokens)
+  Terence Burns (4684→3056 tokens)
+  Cynthia Homire (4841→2835 tokens)
+  William Bailey (1441→1757 tokens)
+  Marie Fried (5480→3468 tokens)
+  Manon Gropius (5441→3639 tokens)
+    [06:45] RateLimitError : quota ou service, nouvel essai dans 10 min
+  Norman Weston (3309→2398 tokens)
+    [06:45] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:55] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:55] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [06:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:05] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:15] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:25] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:35] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:45] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:46] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [07:56] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:06] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:16] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:26] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:36] RateLimitError : quota ou service, nouvel essai dans 10 min
+    [08:36] RateLimitError : quota ou service, nouvel essai dans 10 min

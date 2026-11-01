@@ -1,0 +1,170 @@
+{
+ "passe": "mois",
+ "cle": "1934-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2913,
+  "sortie": 9255,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1934-08",
+  "session": "vacances d'été : campus loué à la Blue Ridge Assembly, entre les deux années académiques",
+  "saison_et_climat": "fin d'été ; les fiches ne décrivent pas le temps, seulement le rythme de la ferme et des conférences",
+  "situation": "Le collège est en veille. Ses bâtiments accueillent les conférences adventistes, la ferme tourne par roulements étudiants, et la rentrée d'automne (retour de Rice, entrée d'Anni Albers dans le corps enseignant) se prépare sans être lancée. Albers est resté à BMC après le refus de Leigh pour Bennington, et il écrit à Perdekamp le 28 août.",
+  "presents_probables": [
+   {
+    "nom": "Fred et Isabel Mangold (gardiens du campus)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants en roulement à la ferme",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "participants de la Blue Ridge Assembly (≈900 adventistes, d'après les bulletins des Mangold)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1934",
+    "precision": "saison",
+    "ce_qui_arrive": "Le campus est loué à la Blue Ridge Assembly ; les Mangold le gardent et la ferme est tenue par roulements étudiants",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "date": "1934-08-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Lettre d'Albers à Perdekamp, premier témoignage connu d'une relation épistolière suivie ; le contenu n'est pas précisé",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02347"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Avant fin juillet, Albers porte ses bois gravés à Edward Warburg au MoMA, qui écrit ensuite au Fogg et à l'Addison",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Fred et Isabel Mangold envoient à Rice des bulletins moqueurs sur les participants adventistes",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1934"
+    ]
+   }
+  ],
+  "quotidien": "Pendant l'été, la vie ordinaire tourne autour de la ferme : les étudiants se relaient aux champs et au potager, mais la récolte, collective, attend l'automne. Un fermier salarié fournirait environ la moitié des légumes du réfectoire. Les conférenciers occupent les lieux et le ton des Mangold reste ironique. Le travail pédagogique est probablement en sommeil, et Albers poursuit sans doute ses estampes et sa correspondance.",
+  "tensions": [
+   "Albers a demandé Bennington et s'est vu refuser par Leigh ; il reste à BMC sans que les fiches disent si son contrat, échu le 12 juin, a été renouvelé en forme",
+   "Le collège loue son campus à des adventistes tout en se voulant un lieu d'éducation progressiste, ce qui crée une friction d'image",
+   "Budget tendu : la révision de juin a surtout servi aux bourses, et BMC reste financièrement incertain",
+   "Rice revient à l'automne avec ses critiques de l'éducation progressiste (lettre à Davis, 1er mai), ce qui laisse présager des comptes à régler"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les bulletins des Mangold",
+    "date": null,
+    "lieu": "campus de BMC, pendant la conférence adventiste",
+    "personnages": [
+     "Fred Mangold",
+     "Isabel Mangold"
+    ],
+    "deroule": "Les Mangold tiennent la maison pendant que près de neuf cents adventistes occupent les conférences. Ils écrivent à Rice des bulletins moqueurs sur ces « crétins végétariens ».",
+    "certitude": "deduit",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "titre": "Albers écrit à Perdekamp",
+    "date": "1934-08-28",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "Perdekamp (destinataire)"
+    ],
+    "deroule": "Albers écrit à Perdekamp, premier jalon d'une correspondance suivie. La fiche ne donne ni le contenu ni le lieu d'écriture ; la scène reste à construire autour de son bureau de travail.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02347"
+    ]
+   },
+   {
+    "titre": "Roulement à la ferme",
+    "date": null,
+    "lieu": "ferme du collège",
+    "personnages": [
+     "étudiants de garde",
+     "fermier salarié"
+    ],
+    "deroule": "Des étudiants se relaient aux champs sous l'œil d'un fermier salarié qui fournit une grande partie des légumes du réfectoire. La récolte collective attend l'automne.",
+    "certitude": "deduit",
+    "refs": [
+     "synthèse 1934"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Albers, en août, toujours à BMC après le refus de Leigh",
+    "vers_date": "1934-04-06",
+    "vers": "Leigh refuse Albers pour Bennington, réclamant une personne « plus essentiellement américaine » ; Albers avait répondu en allemand, croyant à un malentendu de langue",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la conférence adventiste qui rappelle les visites du printemps, quand le collège recevait du monde",
+    "vers_date": "1934-02-23",
+    "vers": "Conférence formelle de Thornton Wilder devant 250 invités extérieurs",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, fin août, qui écrit à Perdekamp et attend la suite de ses estampes",
+    "vers_date": "1935",
+    "vers": "Exposition d'estampes d'Albers à l'Addison Gallery, prévue en 1935",
+    "refs": [
+     "synthèse 1934",
+     "EV-02347"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la ferme en roulement et le campus loué pendant l'été",
+    "vers_date": "1934-09",
+    "vers": "Clara Porset vient de La Havane voir l'enseignement d'Albers et l'invite à Cuba",
+    "refs": [
+     "synthèse 1934"
+    ]
+   }
+  ],
+  "motifs": [
+   "l'été comme parenthèse qui révèle les fragilités du projet",
+   "un campus loué qui met en scène les contradictions du progressisme",
+   "un collège qui vit de sa ferme et de sa survie financière",
+   "Albers, peu à l'aise en anglais, qui continue d'écrire en Europe"
+  ],
+  "lacunes": "Hors la lettre du 28 août, aucune fiche ne donne de date précise pour ce mois. Le contenu et le lieu d'écriture de cette lettre sont inconnus. On ignore si Albers était présent pendant la location, si son contrat a été renouvelé, combien d'étudiants sont restés et quand les bulletins des Mangold ont été envoyés. La synthèse 1934 n'a pas d'identifiant, donc les renvois « synthèse 1934 » sont des substituts."
+ }
+}

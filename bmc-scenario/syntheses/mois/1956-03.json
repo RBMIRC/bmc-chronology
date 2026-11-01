@@ -1,0 +1,255 @@
+{
+ "passe": "mois",
+ "cle": "1956-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2436,
+  "sortie": 12400,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1956-03",
+  "session": "Fin du trimestre d'hiver, entrée dans le printemps 1956 (déduit : aucune fiche ne donne le calendrier exact)",
+  "saison_et_climat": "Fin d'hiver puis début de printemps dans les montagnes de Caroline du Nord. Aucune fiche ne décrit le temps ce mois-ci : tout ce qui touche au climat est déduit de la saison.",
+  "situation": "Le collège n'a plus d'organisation formelle ni de rituels. Enseignants et étudiants se confondent et chacun sert de ressource aux autres. Les inscriptions oscillent entre une douzaine et une quinzaine de personnes, avec des allées et venues. Wolpe est parti définitivement au début de 1956 et Creeley s'apprête à partir pour San Francisco. Rice ne fait plus partie des étudiants mais reste, et Fiore commence à parler de partir. Le campus bas est loué à un camp chrétien pour l'été, la question financière pèse (presque tout l'argent va aux dettes) et le statut GI est perdu. Le collège tient surtout par le tutorat.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Robert Duncan",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Robert Creeley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956",
+    "precision": "periode",
+    "ce_qui_arrive": "Stefan Wolpe part définitivement, convaincu que la communauté n'a aucune chance à long terme et qu'on n'y forme pas de professionnels.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Pendant l'hiver, Joe Fiore reproche à Dan Rice, qui n'est plus étudiant, de profiter du manque de structure ; le ressentiment vient d'Olson, qui tenait Rice pour le meilleur peintre en activité. Rice préfère partir et Fiore parle de partir aussi.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Dawson dessine Olson de mémoire chez Kline, pour l'annonce.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956-02",
+    "precision": "periode",
+    "ce_qui_arrive": "Jonathan Williams prépare Maximus 11/22 par souscription à New York : 25 souscripteurs à 25 dollars, 350 exemplaires.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Creeley part pour San Francisco, ce qui oriente le dernier numéro de la revue vers la scène Beat ; on s'attend à son retour.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Le collège loue son campus bas à un camp de garçons chrétien qui ouvre l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956-04-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit le poème « As the Dead Prey Upon Us », du 13 au 16 avril.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Bulletin de quinze pages paraît avec ses divisions savantes ; c'est surtout une vitrine pour la V.A., la réalité étant le tutorat.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Duncan fait travailler voyelles, consonnes et syllabes, et écrit Medea au fil des répétitions.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Pas de rituel ni d'emploi du temps commun. La vie passe par le tutorat, les ateliers informels et les travaux personnels : Olson écrit, Duncan répète avec ses étudiants, la revue se prépare à distance avec Williams à New York. Les repas, la musique et le détail des cours ne sont pas documentés pour ce mois.",
+  "tensions": [
+   "Fiore contre Olson et Rice : un ressentiment hérité d'Olson, et la question de savoir qui reste sans être étudiant.",
+   "Départs successifs : Wolpe déjà parti, Creeley sur le point de partir, Rice et Fiore qui envisagent de partir.",
+   "Finances : dettes à rembourser en priorité, campus bas loué à un camp, vente du campus envisagée plus tard.",
+   "Admissions : statut GI perdu, Eloise Mixon répond aux demandes avec une fausse brochure, par désespoir (date non précisée).",
+   "Olson et Duncan : rivalité déjà installée, à laquelle répond la satire « Old Son » (date non précisée).",
+   "Décalage entre la vitrine du Bulletin et le tutorat réel."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Fiore reproche à Rice sa présence",
+    "date": "1956",
+    "lieu": null,
+    "personnages": [
+     "Joe Fiore",
+     "Dan Rice"
+    ],
+    "deroule": "Fiore relaie le ressentiment d'Olson envers Rice, tenu pour le meilleur peintre en activité, et reproche à Rice de rester sans être étudiant et de profiter du flou. Rice songe à partir.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Wolpe quitte le collège",
+    "date": "1956",
+    "lieu": null,
+    "personnages": [
+     "Stefan Wolpe"
+    ],
+    "deroule": "Départ définitif, fondé sur la conviction que la communauté n'a pas d'avenir et ne forme pas de professionnels.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Creeley part pour San Francisco",
+    "date": "1956",
+    "lieu": null,
+    "personnages": [
+     "Robert Creeley"
+    ],
+    "deroule": "Départ au printemps vers la côte Ouest. Le numéro de la revue prend la direction de la scène Beat, et on attend un retour.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Olson écrit dans l'urgence",
+    "date": "1956-04-13",
+    "lieu": null,
+    "personnages": [
+     "Charles Olson"
+    ],
+    "deroule": "Olson écrit « As the Dead Prey Upon Us » du 13 au 16 avril, alors que le collège se défait.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Dawson dessine Olson de mémoire",
+    "date": "1956-02",
+    "lieu": "chez Kline",
+    "personnages": [
+     "Dawson",
+     "Charles Olson"
+    ],
+    "deroule": "Dawson dessine Olson de mémoire pour l'annonce ; le visage d'Olson devient l'image publique du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashforward",
+    "depuis": "Au printemps, Olson continue d'écrire alors que le collège se défait",
+    "vers_date": "1956-08-29",
+    "vers": "Medea est jouée les 29 et 30 août, dernier spectacle du collège.",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Au printemps, les répétitions de Medea avancent avec Duncan",
+    "vers_date": "1956-10",
+    "vers": "Le spectacle inachevé se prolonge à San Francisco avec la trilogie Medea, Duncan, Jess et Huss, dans la diaspora.",
+    "refs": [
+     "EC-03193"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Au départ de Creeley, on attend son retour",
+    "vers_date": null,
+    "vers": "Le retour de Creeley est attendu, sans qu'aucune fiche ne dise s'il a lieu.",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Au printemps, le campus bas est loué et la question financière s'aggrave",
+    "vers_date": "1956-10",
+    "vers": "Annonce de la fermeture à la bougie, chez Olson, puis dispersion du collège.",
+    "refs": [
+     "chapitre 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "En mars, Olson vit dans un campus sans programme de travail",
+    "vers_date": null,
+    "vers": "Le Work Program des années précédentes, que Olson détestait, et l'ironie de le voir désherber la route à l'automne.",
+    "refs": [
+     "EC-03192"
+    ]
+   }
+  ],
+  "motifs": [
+   "Dispersion plutôt que mort : le collège se défait, il ne s'arrête pas net.",
+   "Le campus comme ressource et comme ruine, qui rappelle les accomplissements passés.",
+   "Le prestige d'autrefois (Einstein, Williams) ne donne plus que du crédit moral.",
+   "Olson au centre : figure d'autorité, objet de ressentiment, auteur productif.",
+   "Départs et retours en cascade, qui font du collège un lieu de passage."
+  ],
+  "lacunes": "Aucune date précise pour le départ de Wolpe ni pour la fréquentation exacte en mars. La présence en mars de Duncan, Huss, Van de Wiele et Williams n'est pas établie. Pas de fiche sur la météo, les repas, la musique ou le détail des cours. La synthèse 1956 n'a pas d'identifiant propre et est citée comme « chapitre 1956 (synthèse) ». Les sources divergent sur la cause de la fermeture : affaire d'immoralité mineure, dispersion, ou décision de fermer prise à deux (Huss et Olson). L'affaire de l'étudiant violent et la date de la satire « Old Son » ne sont pas datées."
+ }
+}

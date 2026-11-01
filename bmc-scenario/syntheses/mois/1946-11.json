@@ -1,0 +1,308 @@
+{
+ "passe": "mois",
+ "cle": "1946-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4375,
+  "sortie": 12138,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1946-11",
+  "session": "Semestre d'automne, non précisé par les fiches ; l'institut d'été est terminé et les Albers sont partis en sabbatique.",
+  "saison_et_climat": "Automne, jusqu'à Thanksgiving. Aucune fiche ne décrit le temps, mais le match se joue en plein air sur la berge du lac Eden.",
+  "situation": "Le collège fonctionne sans Albers, parti en sabbatique à la fin de l'institut d'été ; Bolotowsky enseigne la peinture et reprend de fait les exercices, ce qui crée des frictions. Dreier est recteur nominal et absent, et Molly Gregory dirige la ferme et le collège de fait. Le conflit sur le pouvoir continue : le Council de Wallen est en place depuis le printemps, et la défiance des Européens envers Wallen reste vive. Les étudiants poussent l'intégration raciale plus vite que la faculté, qui vient de céder à l'unanimité sur l'admission immédiate d'étudiants noirs. Deux couples quakers prennent la ferme à l'automne. Le coût de la vie monte. Les étudiants sont nombreux pour des locaux trop petits (75 au printemps, 90 selon la pétition, chiffre contesté).",
+  "presents_probables": [
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bolotowsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rondthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eddie Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mme Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Charlotte « Bimbus » Schlesinger",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "les Moles et les Trayers (couples quakers)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kenneth Noland, Irwin Kremen, Joseph Fiore (arrivants de l'automne)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Karl Niebyl (contrat en cours, fin incertaine)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ike Nakata",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Faf Foster",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dave Corkran",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Pete Jennerjahn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Les étudiants (75 à 90 selon les sources)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1946-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Match de football parodique de Thanksgiving au bord de Lake Eden (Cro-Magnons contre Sticky Attitudes), qui tourne au sérieux sur le terrain. L'année du match est contestée (1946 ou 1947 selon Corkran).",
+    "certitude": "probable",
+    "refs": [
+     "EV-03978",
+     "SC-01007"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "saison",
+    "ce_qui_arrive": "À l'automne, les Moles et les Trayers prennent la ferme que Molly Gregory faisait tourner presque seule.",
+    "certitude": "probable",
+    "refs": [
+     "fil : Relance de la ferme (1946→1947)",
+     "chapitre 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "saison",
+    "ce_qui_arrive": "Résolution d'admission immédiate d'autant d'étudiants noirs que possible, y compris des hommes, votée à l'unanimité par la faculté après la pression étudiante. Une collecte pendant les vacances de Noël est prévue.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1946 (synthèse)",
+     "fil : Intégration raciale et engagement régional (1946→1947)"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "annee",
+    "ce_qui_arrive": "Une pétition de 61 étudiants est rejetée sèchement ; Wallen et Levi convainquent les pétitionnaires que la politique n'est pas en cause. La date exacte reste floue.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Les Albers s'installent dans une maison en adobe à La Luz, où Josef écrit « enfin la paix ». Selon les autres fiches, ce séjour au Mexique aurait eu lieu en 1947.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1946 (synthèse)",
+     "fil : Albers : doutes, sabbatique, Variants/Adobes (1946→1947)"
+    ]
+   }
+  ],
+  "quotidien": "Le collège déborde : 75 étudiants pour des locaux prévus pour 60, dans trois baraquements militaires et un Deep South en cours de montage par les étudiants. Bibliothèque enfin éclairée, machines et matériel donnés par le gouvernement. Cours de peinture de Bolotowsky, ateliers de menuiserie repris par Weitzer, cours de chant et de reliure de Mme Jalowetz, et enseignement de Lowinsky qui élargit ses contacts avec les lycées noirs, la NAACP, la YMCA et l'AFSC. La ferme passe aux Quakers. Le dimanche, le match de Thanksgiving rassemble les bancs sur la berge du lac. Le département de musique reste amoindri depuis la mort de Jalowetz.",
+  "tensions": [
+   "Albers, en sabbatique, écrit à Dreier qu'il attaque Wallen et « hait l'égalisation pour l'égalisation » ; Horowitz et Danilowitz lient le climat conflictuel à cette décision.",
+   "Le Council de Wallen contre la vieille garde européenne (Albers, Dehn) : soupçon de manœuvres, souvenir des « Bentleyites ».",
+   "Le soupçon politique autour de Niebyl, que Dehn et Albers accusent de vouloir fonder une cellule communiste ; son contrat n'a pas été renouvelé.",
+   "L'affaire du télégramme « 47 », ouvert par erreur et pris pour un complot.",
+   "Les étudiants poussent l'intégration plus vite que la faculté.",
+   "Le coût de la vie (nourriture de 23 595 $ à 36 279 $ entre 1945-46 et 1946-47) et la question des salaires, que Levi doit porter au Board.",
+   "Bolotowsky abroge de fait les exercices collectifs d'Albers, ce qui crée des frictions avec les étudiants.",
+   "Dreier absent : Molly Gregory dirige de fait, ce qui pose la question de l'autorité.",
+   "Les étudiants trop nombreux pour les locaux et la vie matérielle."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le match de Thanksgiving",
+    "date": "1946-11",
+    "lieu": "Terrain au bord de Lake Eden",
+    "personnages": [
+     "Ike Nakata",
+     "Faf Foster",
+     "Dave Corkran",
+     "Pete Jennerjahn",
+     "Dan Rice"
+    ],
+    "deroule": "Au premier snap, Ike plonge sur Faf qui l'a sauté élégamment ; même chose au deuxième. Au troisième, Ike se relève, et les joueurs deviennent sérieux. Corkran bloque Dan Rice à plat, puis lance une passe que Jennerjahn attrape du bout des doigts sur dix yards avant de tomber dans les rhododendrons sur la berge. Le score varie selon les témoins (8-0 ou 6-6).",
+    "certitude": "probable",
+    "refs": [
+     "EV-03978",
+     "SC-01007"
+    ]
+   },
+   {
+    "titre": "Wallen et Levi calment la pétition",
+    "date": "1946",
+    "lieu": null,
+    "personnages": [
+     "John Wallen",
+     "Levi",
+     "les 61 pétitionnaires"
+    ],
+    "deroule": "Les étudiants demandent un changement de politique ; Wallen et Levi les persuadent que la politique n'est pas en cause et que la pétition ne sert à rien.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1946 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Bolotowsky reprend la peinture",
+    "date": "1946",
+    "lieu": "Atelier de peinture",
+    "personnages": [
+     "Bolotowsky",
+     "étudiants de peinture"
+    ],
+    "deroule": "Bolotowsky enseigne sans Albers et abroge de fait les exercices collectifs, ce qui provoque des frictions avec les étudiants.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1946 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Les Quakers prennent la ferme",
+    "date": "1946",
+    "lieu": "La ferme du collège",
+    "personnages": [
+     "les Moles",
+     "les Trayers",
+     "Molly Gregory"
+    ],
+    "deroule": "Deux couples quakers reprennent la ferme que Molly Gregory faisait tourner presque seule ; Molly Gregory doit transmettre la main.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1946 (synthèse)",
+     "fil : Relance de la ferme (1946→1947)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le Council de Wallen fonctionne depuis le printemps et la défiance des Européens reste vive.",
+    "vers_date": "1946-02-13",
+    "vers": "La faculté crée le comité Wallen-Levi-Rondthaler, point de départ de la querelle sur le pouvoir.",
+    "refs": [
+     "chapitre 1946 (synthèse)",
+     "fil : Wallen, le Council et la vieille garde européenne (1946-02-13→None)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Automne 1946, la ferme et les locaux sont en réorganisation.",
+    "vers_date": "1945-11",
+    "vers": "Réunions de communauté sur le programme de travail (13 et 27 novembre 1945) ; pétition de 34 étudiants et 11 enseignants, dont Jalowetz parmi les signataires européens (fiche datée 1946-47, rattachée probablement à 1945).",
+    "refs": [
+     "chapitre 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre 1946, la communauté continue à porter le deuil de Jalowetz.",
+    "vers_date": null,
+    "vers": "Mort de Heinrich Jalowetz, datée diversement : début 1946 (Duberman), hiver après un concert (Lane), printemps 1946 ou environ 1945 selon un autre récit ; le corps enterré sous un tas de pierres au pied du rocher.",
+    "refs": [
+     "chapitre 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Automne 1946, Albers est en tournée après un été passé à enseigner.",
+    "vers_date": "1946-05",
+    "vers": "Le 13 mai, Wallen lit une déclaration écrite à la faculté pour « mettre les choses au grand jour » et accuse Albers de tactiques qu'il condamnait chez les Bentleyites.",
+    "refs": [
+     "chapitre 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre 1946, l'équipe du Summer Art Institute est déjà passée.",
+    "vers_date": "1946-07",
+    "vers": "Summer Art Institute de juillet-août : Jacob Lawrence, Leo Amino sculptant en plein air, quatre tisserandes dans l'atelier d'Anni, With Verticals.",
+    "refs": [
+     "chapitre 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Début décembre, Levi remet au Board son rapport préliminaire sur les salaires.",
+    "vers_date": "1946-12",
+    "vers": "Le rapport de Levi sur les salaires, qui pose la question du coût de la vie et de l'équité entre enseignants.",
+    "refs": [
+     "chapitre 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne 1946, les étudiants pressent pour l'intégration et une collecte est prévue pendant Noël.",
+    "vers_date": "1947",
+    "vers": "Cinq étudiants noirs sont inscrits à l'hiver 1947.",
+    "refs": [
+     "chapitre 1946 (synthèse)",
+     "fil : Intégration raciale et engagement régional (1946→1947)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre 1946, les Lowinsky sont retenus au collège à cause de la mort de Jalowetz et du report de leur voyage.",
+    "vers_date": "1947-08",
+    "vers": "Le voyage en Italie des Lowinsky, reporté d'un an, a enfin lieu en août 1947.",
+    "refs": [
+     "chapitre 1946 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "le pouvoir et la légitimité de la gouvernance",
+   "le soupçon et la politique (Niebyl, télégramme « 47 »)",
+   "l'intégration raciale poussée par les étudiants",
+   "l'absence d'Albers et l'héritage de son enseignement",
+   "la vie matérielle sous pression (coût, locaux, ferme)",
+   "les récits contradictoires (Jalowetz, pétition, match)"
+  ],
+  "lacunes": "Aucune fiche ne donne la session exacte du mois. On ignore la date exacte de la pétition de 61 étudiants, celle de la mort de Jalowetz, et si la pétition est de 1946 ou de 1947. Le nombre d'étudiants varie (75 ou 90). Le match de Thanksgiving est daté 1946 ou 1947 selon Corkran. On ne sait pas où en est exactement le voyage des Albers en novembre, ni si Niebyl est encore au collège. Le Mexique est daté de décembre 1946 par une fiche et de 1947 par d'autres. Le récit Albers-Wallen ne donne aucune date précise pour la lettre à Dreier."
+ }
+}

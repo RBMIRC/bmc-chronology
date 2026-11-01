@@ -1,0 +1,260 @@
+{
+ "passe": "mois",
+ "cle": "1940-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3897,
+  "sortie": 17675,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-06 (juin 1940)",
+  "session": "Non attestée par les fiches. Probablement intersession d'été, le travail d'été à Lake Eden n'étant pas daté (déduit).",
+  "saison_et_climat": "Début de l'été dans les Appalaches de Caroline du Nord. Les fiches ne décrivent pas le temps. Les déplacements se font en voiture, de Caroline du Nord vers l'Arkansas (via Asheville).",
+  "situation": "Le collège vit sans Rice depuis son départ annoncé en mars (Newsletter n° 7). La campagne des deux millions de Dreier, menée depuis le MIT, s'effondre quand la France tombe et que la peur gagne les donateurs. Gropius et Breuer sont jugés trop coûteux, et le campus rêvé commence à être abandonné au profit d'un bâtiment conçu par Kocher. La YMCA menace le bail de Blue Ridge. Le collège cherche d'autres sites sans rien trouver d'aussi attrayant que Lake Eden. Albers est à New York devant des donateurs potentiels. Le climat interne est discuté : Mangold parle d'une attitude excellente, Chaddock d'un grand soulagement avec peu de réjouissances.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anne Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Gothe",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Godfrey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bascombe Allen",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Annonce publique du départ volontaire de Rice pour se consacrer à l'écriture, diffusée par la Newsletter n° 7, avec un règlement financier modeste.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1940 (sans identifiant)"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "saison",
+    "ce_qui_arrive": "Dès le printemps, le collège écrit à ses amis pour chercher d'autres sites que Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1940 (sans identifiant)"
+    ]
+   },
+   {
+    "date": "1940-06",
+    "precision": "mois",
+    "ce_qui_arrive": "La chute de la France fait s'effondrer la campagne des deux millions menée par Dreier depuis le MIT.",
+    "certitude": "probable",
+    "refs": [
+     "synthese-1940 (sans identifiant)"
+    ]
+   },
+   {
+    "date": "1940-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Gropius et Breuer sont jugés trop coûteux. Le campus rêvé est en voie d'abandon. La date exacte de ce jugement n'est pas fixée.",
+    "certitude": "probable",
+    "refs": [
+     "synthese-1940 (sans identifiant)"
+    ]
+   },
+   {
+    "date": "1940-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Rare déclaration politique d'Albers contre la guerre devant des donateurs potentiels à New York, invitant à chérir la liberté, seuls les biens spirituels étant durables, trois jours avant l'entrée allemande dans Paris selon cette fiche.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03111"
+    ]
+   },
+   {
+    "date": "1940-06-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers déclare à la réunion de New York que l'enseignement de l'art est « au centre de toute activité » à Black Mountain, point de contestation interne.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03113"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "annee",
+    "ce_qui_arrive": "La YMCA refuse de renouveler le bail de Blue Ridge, qui doit devenir une école de filles. Le calendrier de cette menace est disputé.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1940 (sans identifiant)"
+    ]
+   },
+   {
+    "date": "1940-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice conduit ses enfants Mary et Frank, avec le teckel Nicky, vers le cottage d'été de sa belle-mère Launa Darnell Rice à Bella Vista, en Arkansas.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03112"
+    ]
+   },
+   {
+    "date": "1940-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Nuit à Asheville : Frank rencontre par hasard Ann Craig Sutton, connue à La Havane. Il lui demande ensuite sa main par lettre, et elle vient à Bella Vista en août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03112",
+     "SC-00794"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent ni les repas ni les cours de juin. On sait que le collège écrit à ses amis pour trouver un autre site, qu'il collecte des fonds auprès de donateurs à New York, et qu'il prépare le campus : les 3 000 $ dégagés en mai ont financé un tracteur Farmall et un wagon de ciment. Albers voyage entre New York et d'autres lieux. Rice part en voiture avec ses enfants et le teckel vers l'Arkansas.",
+  "tensions": [
+   "Albers lie à New York la défense de la paix et de la liberté à l'art placé « au centre de toute activité », ce qui annonce le futur schisme entre art et lettres ou sciences.",
+   "La campagne des deux millions s'effondre après la chute de la France, alors que le projet architectural de Gropius et Breuer est déjà jugé trop cher.",
+   "La YMCA menace le bail de Blue Ridge pour y installer une école de filles, et le collège n'a pas de site aussi attrayant que Lake Eden.",
+   "Les témoignages sur le climat après Rice divergent : Mangold parle d'une attitude excellente et de « révolution de palais », Chaddock de soulagement sans réjouissances, et Rice se dit « répudié ».",
+   "Désaccord de date : la fiche sur le discours anti-guerre (EV-03111) le place « trois jours avant » l'entrée allemande dans Paris, ce qui donne le 11 juin, alors que la fiche EV-03113 indique le 12 juin.",
+   "Crise de liquidité : les salaires non garantis ne seront payés qu'à 40 % en 1940-41, puis à 32 % l'année suivante."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le discours de New York",
+    "date": "1940-06-12",
+    "lieu": "New York",
+    "personnages": [
+     "Josef Albers",
+     "donateurs potentiels de Black Mountain College"
+    ],
+    "deroule": "Albers parle devant des donateurs potentiels. Il défend la liberté contre la guerre, en affirmant que seuls les biens spirituels durent, puis il place l'enseignement de l'art au centre du collège, ce qui ouvre un point de contestation interne.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03111",
+     "EV-03113"
+    ]
+   },
+   {
+    "titre": "La rencontre d'Asheville",
+    "date": "1940-06",
+    "lieu": "Asheville, Caroline du Nord",
+    "personnages": [
+     "Frank Pace",
+     "Ann Craig Sutton"
+    ],
+    "deroule": "En route vers Bella Vista avec son père, sa sœur et le teckel Nicky, Frank tombe par hasard sur Ann Craig Sutton, qu'il avait connue à La Havane avec l'American Friends Service Committee. Le hasard aura des suites lourdes : demande en mariage par lettre, mariage en 1941 et dernière rencontre des parents Rice.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00794",
+     "EV-03112"
+    ]
+   },
+   {
+    "titre": "La route vers Bella Vista",
+    "date": "1940-06",
+    "lieu": "Route entre Asheville et Bella Vista, Arkansas",
+    "personnages": [
+     "Rice",
+     "Mary",
+     "Frank",
+     "Nicky (teckel)"
+    ],
+    "deroule": "Rice conduit ses enfants vers le cottage de sa belle-mère Launa Darnell Rice. Le voyage est l'occasion de cette étape à Asheville, où le hasard fait basculer l'histoire de Frank.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03112"
+    ]
+   },
+   {
+    "titre": "Le dîner socratique de Bella Vista",
+    "date": "1940-08",
+    "lieu": "Bella Vista, Arkansas",
+    "personnages": [
+     "Rice",
+     "Ann Craig Sutton (identité déduite)"
+    ],
+    "deroule": "Rice, de passage à Bella Vista en juin puis en août avec ses enfants, organise un dîner socratique qui fait fuir en larmes sa future belle-fille. L'identification à Ann est une déduction à partir de la rencontre d'Asheville et de l'arrivée d'Ann en août.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1940 (sans identifiant)",
+     "SC-00794"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juin 1940 : le collège cherche de l'argent et un site sans Rice ni la campagne des deux millions.",
+    "vers_date": "1940-02-17",
+    "vers": "La démission de Rice. Selon Chaddock, elle est datée du 17 février, après la lettre de Wunsch du 16 février. Duberman dit qu'elle part par retour du courrier, à la surprise du conseil.",
+    "refs": [
+     "synthese-1940 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin 1940 : Albers vient de défendre l'art devant des donateurs à New York.",
+    "vers_date": "1940-01-09",
+    "vers": "Les 9 et 10 janvier, Gropius et Breuer présentent au MoMA la maquette des maisons vitrées sur pilotis. Gropius vante « letting the life form the house », et Albers défend l'auto-éducation.",
+    "refs": [
+     "synthese-1940 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin 1940 : Albers affirme que l'art est au centre de toute activité.",
+    "vers_date": null,
+    "vers": "Le schisme entre art et lettres ou sciences, enjeu de querelles futures dont la date n'est pas précisée.",
+    "refs": [
+     "EV-03113"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin 1940 : le départ vers Bella Vista et la rencontre d'Asheville.",
+    "vers_date": "1940-08",
+    "vers": "Ann Craig Sutton arrive à Bella Vista. Frank l'a demandée en mariage par lettre.",
+    "refs": [
+     "EV-03112",
+     "SC-00794"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin 1940 : la campagne des deux millions s'effondre.",
+    "vers_date": "1940",
+    "vers": "À l'automne, le chantier de Lake Eden fait naître une contestation : une affiche « Wanted: zombies for the work program » vise Dreier et la mystique du salut par le travail. Une assemblée houleuse suit. En 1941, la faculté fixera un maximum d'un à trois après-midi de travail par semaine.",
+    "refs": [
+     "synthese-1940 (sans identifiant)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le départ de Rice comme cicatrice et comme soulagement",
+   "La guerre qui entre dans le collège par les donateurs et la peur de l'argent",
+   "Le rêve architectural contre les moyens réels",
+   "L'art placé au centre et les querelles qu'il annonce",
+   "Le hasard romanesque d'Asheville et les liens familiaux des Rice",
+   "L'exil des Albers et l'Europe en guerre"
+  ],
+  "lacunes": "Session non attestée. Date exacte du discours anti-guerre (11 ou 12 juin selon les fiches). Arrivée de Rice à Bella Vista non datée. Présence effective de Wunsch, Dreier, Mangold et des architectes en juin non attestée. Anni Albers non localisée. Calendrier de la menace YMCA disputé. Date du jugement contre Gropius et Breuer non fixée. Ouverture du work camp d'été non datée. La synthèse 1940 n'a pas d'identifiant."
+ }
+}

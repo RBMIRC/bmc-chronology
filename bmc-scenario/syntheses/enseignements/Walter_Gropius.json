@@ -1,0 +1,363 @@
+{
+ "passe": "enseignements",
+ "cle": "Walter Gropius",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 31354,
+  "sortie": 11236,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Walter Gropius",
+  "cours": [
+   {
+    "intitule": "Manifeste et allocutions fondatrices aux premiers étudiants du Bauhaus (Weimar)",
+    "periodes": [
+     "1919",
+     "juillet 1919 (discours aux étudiants)",
+     "décembre 1919 (discours public à Weimar)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Fonder l'école sur l'alliance de l'art et de l'industrie, et sur l'effacement de la frontière entre artisan et artiste. Le manifeste de 1919 appelle à une guilde nouvelle, sans prétention de classe. Il propose la grande œuvre commune, la « cathédrale de l'avenir », dont la lumière atteindrait jusqu'aux objets quotidiens. Il demande aussi de commencer par apprendre un métier, la maîtrise technique passant avant la grâce de l'inspiration, que Gropius juge rare. Devant les étudiants, il présente la crise de l'après-guerre comme l'appel à une transformation intérieure de l'homme.",
+    "deroule_type_seance": "Pas de séance de cours au sens strict : ce sont des prises de parole. Gropius proclame le programme de l'école à de jeunes artistes attirés par la première brochure. Il parle avec assurance, alors que sa vie privée s'effondre. Un autre rituel complète le tout : des fêtes costumées, comme celle de juin 1919 avec salle décorée en motifs cubistes, lustre gainé de fil et de papier, étudiants déguisés et maître de cérémonie fantasque. Selon Weber, ces fêtes font partie de la naissance de l'esprit Bauhaus.",
+    "exercices": [],
+    "lectures_et_references": [
+     "Manifeste du Bauhaus de 1919, seul texte du dépliant",
+     "Hommage aux ateliers des cathédrales gothiques (tailleurs de pierre, sculpteurs sur bois)",
+     "Mémoire de huit pages de 1916 sur l'alliance de l'école avec l'industrie allemande, où il reprend l'idéal de la Bauhütte médiévale (« hutte » devenue « maison »)"
+    ],
+    "propos_types": [
+     "Il n'y a pas de différence essentielle entre l'artiste et l'artisan : tout le monde doit d'abord apprendre un métier.",
+     "L'art est une grâce rare, qui ne vient que sur un socle de compétence technique.",
+     "Maîtres et élèves travaillent main dans la main, dans l'anonymat et l'esprit de service, comme les bâtisseurs de cathédrales.",
+     "La catastrophe mondiale exige de renouveler l'homme intérieur : l'artiste doit oser son expérience intérieure.",
+     "La perfection esthétique et technique, du verre à boire à l'édifice public, ne vient que d'une communauté d'artistes qui coopèrent.",
+     "Le futur bâtiment doit monter vers le ciel, issu des mains d'un million d'ouvriers, comme symbole cristallin d'une foi nouvelle."
+    ],
+    "critique_et_evaluation": "Weber note l'écart entre cet idéal et la réalité : Gropius prescrit l'amitié entre maîtres et élèves et des fêtes joyeuses, mais le système de castes demeure à Weimar et à Dessau. Les mots du manifeste s'adressent à un public captivé, alors que l'orateur cache son désarroi intime (SC-00155).",
+    "reactions_etudiants": "Le public des premières années est décrit comme captivé. En décembre 1919, face à des diatribes hostiles, Gropius se juge « sharp and witty » et dit avoir mobilisé toute sa force et son calme (SC-00165). Il s'agit de son propre témoignage, sans contrepoint étudiant.",
+    "evolution": "Le ton prophétique et spirituel (Maisons du Peuple, cathédrale, transformation intérieure) cède dès 1922 à un discours d'alliance avec l'industrie : voir le cours « Direction pédagogique ».",
+    "refs": [
+     "SC-00155",
+     "SC-00161",
+     "SC-00162",
+     "SC-00165",
+     "ID-00305",
+     "ID-00306",
+     "ID-00307",
+     "ID-00343",
+     "ID-00355",
+     "ID-00360",
+     "ID-00361",
+     "ID-00479",
+     "ID-00232",
+     "SC-00111"
+    ]
+   },
+   {
+    "intitule": "Discours d'accueil aux nouveaux étudiants du Bauhaus",
+    "periodes": [
+     "1922 selon SC-00200",
+     "1923 selon SC-00242 (les deux fiches donnent des dates différentes pour le même récit d'Anni Albers)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Présenter aux nouveaux arrivants les idées fondatrices du Bauhaus et le travail à venir : fonction, nouveaux matériaux, vision d'ensemble du monde. Le but implicite est de transformer une espérance diffuse en direction.",
+    "deroule_type_seance": "Séance unique, d'environ une heure. Gropius parle devant des étudiants aux vêtements simples et fabriqués maison. Anni Albers, nouvelle venue égarée, est la seule source : elle ne retient ni mot ni argument, seulement une « condensation graduelle » de l'espoir flottant en un point focal, un but stable.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Le contenu exact n'est pas rapporté. Les fiches mentionnent seulement les idées fondatrices du Bauhaus, la fonction, les nouveaux matériaux et une vision du monde.",
+     "Le mot d'Anni sur le Bauhaus (« lieu de tâtonnement, d'expérimentation et de risque ») est sa description, non celle de Gropius."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Témoignage direct d'Anni Albers : une orientation plus qu'une information. Elle décrit un moment où la confusion devient vocation.",
+    "evolution": null,
+    "refs": [
+     "SC-00200",
+     "SC-00242"
+    ]
+   },
+   {
+    "intitule": "Direction pédagogique du Bauhaus : cours préliminaire, ateliers, recrutement",
+    "periodes": [
+     "Weimar 1919-1925",
+     "Dessau 1926-fin février 1928 (annonce de la démission)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire du Bauhaus une école qui produit des prototypes pour l'industrie, non des pièces uniques d'art pour l'art. Elle doit avoir l'architecture pour matière centrale et former des gens capables de combiner créativité individuelle et travail pratique du monde réel. L'étude de la nature de l'objet précède sa conception. Le « design organique » doit remplacer les ornements plaqués sur des formes existantes. Gropius vise aussi des conditions de vie meilleures pour le plus grand nombre (Törten, composants standardisés).",
+    "deroule_type_seance": "Pas de déroulé de séance attesté pour Gropius lui-même : il dirige, recrute, arbitre et délègue. Le schéma pédagogique qu'il décrit dans son mémoire de 1916 est : sélection rigoureuse des étudiants, formation pratique d'abord, puis studios de design organique avec enseignants compétents. En 1923, au départ d'Itten, il confie le cours préliminaire à Albers, devant les étudiants, dans l'atelier de verre.",
+    "exercices": [
+     {
+      "consigne": "« Tu prends les nouveaux et tu les inities au travail manuel » : consigne de Gropius à Albers pour le cours préliminaire (c'est une directive de direction, non un exercice détaillé)",
+      "materiaux": null,
+      "but": "Initier les nouveaux au travail manuel avant tout projet",
+      "refs": [
+       "SC-00240",
+       "SC-00229"
+      ]
+     },
+     {
+      "consigne": "Proposition faite à Klee d'assurer la reliure, accompagnée de l'argument de Gropius : aucun des maîtres de forme n'est expert du métier, les artisans sont là pour cela, et le maître de forme enseignerait la théorie",
+      "materiaux": "Reliure",
+      "but": "Organiser l'atelier en couplant maître de forme (théorie) et artisan (métier)",
+      "refs": [
+       "SC-00185"
+      ]
+     },
+     {
+      "consigne": "Épreuve de fin de semestre d'Albers (1921), sous sa direction : assemblages d'éclats de bouteille peints sur boîtes aplaties et grilles, présentés au Conseil des maîtres, qui l'autorise à continuer et lui demande d'ouvrir un atelier de verre. Il ne s'agit pas d'un exercice donné par Gropius.",
+      "materiaux": "Éclats de bouteille, boîtes aplaties, grilles",
+      "but": "Exemple de ce que l'école tolère chez un rebelle : un travail de matériau plutôt que la peinture murale",
+      "refs": [
+       "SC-00192"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Mémoire de 1916 au ministère d'État saxon",
+     "Mémoire de février 1922 critiquant l'approche d'Itten",
+     "Radiateurs et tuyaux apparents du Haus am Horn (1923)",
+     "Cité de Törten, composants standardisés et barèmes de coûts",
+     "Mémorandum à Rathenau (1910) sur l'industrialisation du logement"
+    ],
+    "propos_types": [
+     "L'artiste doit insuffler une âme au produit mort de la machine.",
+     "L'école doit rester en contact avec les méthodes du monde réel, sinon elle devient un refuge d'excentriques.",
+     "Il faut étudier la nature d'un récipient, d'une chaise ou d'une maison avant de le concevoir : utile, durable, économique, beau.",
+     "Le plus grand confort pour la plus grande économie ; chaque pièce a un caractère propre, fidèle à son but.",
+     "Ne rien dissimuler de ce dont la vie a besoin : radiateurs et tuyaux deviennent éléments de design.",
+     "Ce que nous voyons et touchons façonne ce que nous sommes : cendrier, placard, chaussures et façade méritent la même exigence.",
+     "Au départ d'Itten : « Tu es l'homme qu'il faut » (à Albers)."
+    ],
+    "critique_et_evaluation": "Gropius reproche à Itten de perpétuer le travail manuel à l'ancienne. Il attaque aussi l'architecture et les arts décoratifs de la génération précédente, qu'il juge faux et nés de l'effort spasmodique de « faire de l'Art ». Il privilégie l'excellence artistique des maîtres sur le dévouement pédagogique (refus de Baumeister, jugé de second rang). Le conflit entre prototype universel et art de studio de génies est interne, Kandinsky incarnant le second pôle. En 1922, Schlemmer sort une brochure qualifiant le Bauhaus de « Cathedral of Socialism » ; Gropius en saisit les exemplaires, ce qui coûte son poste au frère de Schlemmer (SC-00207).",
+    "reactions_etudiants": "À l'annonce de la démission de Gropius en 1928, les étudiants dansent puis se taisent : l'orchestre refuse de rejouer. Fritz Kuhr crie qu'on a eu faim à Dessau pour une idée et qu'il ne peut partir, redoutant Meyer. Gropius se pose en martyr et dit avoir dépensé 90 % de son énergie « défensivement ».",
+    "evolution": "Le mysticisme et l'artisanat de 1919 (Itten, cathédrale) laissent place à la ligne industrielle (1922-1923, Haus am Horn, exposition d'août 1923 pour le Landtag). À Dessau, la direction pèse sur lui : photo d'un Gropius épuisé en 1927, lettre amère à Kandinsky sur la charge surhumaine, démission annoncée en février 1928, effective au 1er avril.",
+    "refs": [
+     "SC-00240",
+     "SC-00229",
+     "SC-00185",
+     "SC-00192",
+     "SC-00207",
+     "SC-00225",
+     "SC-00254",
+     "SC-00305",
+     "SC-00313",
+     "SC-00314",
+     "SC-00334",
+     "SC-00335",
+     "ID-00230",
+     "ID-00231",
+     "ID-00232",
+     "ID-00163",
+     "ID-00198",
+     "ID-00402",
+     "ID-00403",
+     "ID-00454",
+     "ID-00523",
+     "ID-00524",
+     "ID-00527",
+     "ID-00611",
+     "ID-00612",
+     "ID-00613",
+     "ID-00657",
+     "ID-00138"
+    ]
+   },
+   {
+    "intitule": "Conférences publiques sur l'unité de l'art, de la technologie et de l'économie",
+    "periodes": [
+     "1923 (exemple : Hanovre, 28 mai 1923)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Défendre l'idée centrale de 1923 : l'art doit servir la production industrielle au lieu de rester séparé d'elle. La conférence est aussi un outil pour faire connaître le Bauhaus.",
+    "deroule_type_seance": "Conférence « standard » donnée à Hanovre devant un auditoire dont deux sœurs au premier rang. L'une, Ise Frank, le fixe avec une attention telle qu'il ressent qu'elle réagit comme si chaque mot changeait sa vie ; il oublie d'organiser une rencontre et leur écrit ensuite par un neveu de Hanovre. La fiche ne détaille pas le contenu.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Thème central des conférences et de l'exposition 1923 : unité de l'art, de la technologie et de l'économie.",
+     "Le vestibule remodelé de l'académie devait « démontrer les idées de Goethe » sur l'art et la science : roue chromatique rotative, prisme."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "SC-00248",
+     "ID-00454"
+    ]
+   },
+   {
+    "intitule": "Gropius à Black Mountain College : levée de fonds, visites et Institut d'été",
+    "periodes": [
+     "janvier 1940 (présentation de la maquette au MoMA)",
+     "été 1944 (hommage à Albers à la fin d'un premier séjour d'été)",
+     "été 1946 (Institut d'été : présence sur la photo du corps enseignant)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Soutenir le projet de campus de Lake Eden, conçu avec Breuer : maisons allongées vitrées sur pilotis, jointes, la communauté vivant sous un même toit. Il s'agit de laisser la vie former la maison plutôt que d'imposer un corset à la vie scolaire. L'autre fonction des séjours est de reconnaître publiquement la pédagogie d'Albers.",
+    "deroule_type_seance": "Aucun cours régulier de Gropius n'est attesté à Black Mountain. Au MoMA (9 ou 10 janvier 1940, les fiches divergent), il raconte son séjour, souligne l'esprit de coopération en réunion avec les étudiants et présente la maquette avec Breuer devant des bailleurs de fonds ; Albers prend la parole, photographes du Herald Tribune présents. En 1944, au terme de son séjour d'été, il prononce un discours d'adieu. En 1946, il figure sur la photo des enseignants de l'Institut d'été avec Ise, les Albers, les Lawrence, Lionni, Dreier, les Newhall et Varda dans un arbre ; ce qu'il a fait pendant cet institut n'est pas précisé dans les fiches.",
+    "exercices": [],
+    "lectures_et_references": [
+     "« Teaching the Arts of Design » (1948)"
+    ],
+    "propos_types": [
+     "Il faut « laisser la vie former la maison » (MoMA, 1940).",
+     "La vraie tradition s'appuie sur les acquis vivants du passé sans les imiter. Économie et simplicité répondent aux besoins pratiques, sans fausse austérité ni monumentalisme.",
+     "Albers donne des outils objectifs pour creuser la matière de la vie, plutôt qu'un système tout fait ; il voudrait envoyer tout étudiant en design ou en ingénierie à ses cours (1944).",
+     "En 1948 : nourrir l'instinct créatif par la connaissance des faits visuels, coordonner Werklehre (travail manuel) et Formlehre (design), donner la priorité au trois-dimensionnel, et donner au professeur le rôle de conférer confiance et indépendance.",
+     "À Ulm, en octobre 1955 : l'homme créatif est nécessaire à une démocratie progressiste (hors période BMC et propos non attesté à Black Mountain)."
+    ],
+    "critique_et_evaluation": "Il tient la méthode d'Albers pour un modèle, explicitement attribué au Bauhaus et à Albers. La maquette du campus reste un projet qui ne sera jamais construit : ce que le lieu garde de Gropius est surtout un prestige et un soutien.",
+    "reactions_etudiants": null,
+    "evolution": "Gropius reste lié à Black Mountain par des liens personnels. Une lettre avec Dreier, difficile à dater (fiche ≈1933-1948), évoque Ati Gropius invitée à l'institut d'été de musique, des moyens comptés (1000 $, cheval et seconde voiture abandonnés) et l'accord des Albers. Dreier écrit aux Gropius le 31 août 1948 qu'il quitte la direction, avec transition vers Albers. Tension : SC-00786 parle d'un séjour antérieur à janvier 1940, alors que le discours de 1944 est dit « premier séjour d'été ».",
+    "refs": [
+     "SC-00786",
+     "SC-00787",
+     "SC-00625",
+     "SC-00909",
+     "SC-00913",
+     "SC-00993",
+     "SC-00485",
+     "SC-01187",
+     "ID-01522",
+     "ID-01281",
+     "ID-01244"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le design doit servir la société tout entière, non l'ornement : logement sain et peu coûteux, composants uniformes, matériaux éprouvés, simplicité pratique.",
+    "en_classe": "Faire repérer dans les travaux d'étudiants ce qui est ostentatoire et superficiel, puis demander comment servir réellement l'usage de chacun. Transposition proposée, non attestée comme séance à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00026",
+     "ID-00343",
+     "ID-00612"
+    ]
+   },
+   {
+    "idee": "Étudier d'abord la nature et le but de l'objet (récipient, chaise, maison) avant tout geste de conception.",
+    "en_classe": "Donner un objet quelconque et demander de le définir : fonction, durabilité, économie, beauté, avant de dessiner. Proche des cours préliminaires d'Albers, mais la transposition est une déduction.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00611",
+     "ID-01281"
+    ]
+   },
+   {
+    "idee": "Éducation au design par les faits visuels, l'atelier manuel et le travail des matériaux ; priorité au trois-dimensionnel ; des outils objectifs plutôt qu'un système tout fait.",
+    "en_classe": "Coordonner une séance de manipulation de matériaux et une séance de forme, sans modèle imposé, comme dans le Vorkurs. Gropius lui-même rapproche cette idée de la méthode d'Albers à Black Mountain.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01281",
+     "SC-00909",
+     "SC-00913"
+    ]
+   },
+   {
+    "idee": "Le métier d'abord, la grâce ensuite : pas de différence essentielle entre artiste et artisan.",
+    "en_classe": "Consigne d'atelier : apprendre le geste et la technique avant de prétendre à l'œuvre. Esprit du manifeste de 1919, sans trace de consigne identique à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00305",
+     "ID-00306",
+     "SC-00240"
+    ]
+   },
+   {
+    "idee": "Honnêteté fonctionnelle : ne pas masquer ce dont la vie a besoin (radiateurs, tuyaux) ; chaque pièce conçue selon sa seule fonction.",
+    "en_classe": "Montrer un radiateur ou un tuyau et demander comment l'assumer visuellement ; concevoir une pièce à partir de sa fonction seule. Application proposée, non attestée.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00523",
+     "ID-00524"
+    ]
+   },
+   {
+    "idee": "L'école comme communauté de travail et de vie, héritière de la Bauhütte : travail collectif anonyme, maîtres et élèves côte à côte.",
+    "en_classe": "Un chantier commun sans signature individuelle ; débat : peut-on décréter la communauté ? Weber note que la hiérarchie de castes a persisté au Bauhaus malgré le programme. L'écho avec les bâtiments construits par maîtres et étudiants à Black Mountain relève de l'interprétation de Weber.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00232",
+     "ID-00355",
+     "ID-00613",
+     "ID-00657"
+    ]
+   },
+   {
+    "idee": "Laisser la vie former la maison : l'architecture du campus doit s'adapter à la vie scolaire et non l'enfermer.",
+    "en_classe": "Faire observer l'usage réel d'un lieu avant d'en dessiner les espaces ; présentation de la maquette de Lake Eden (maisons vitrées sur pilotis, communauté sous un même toit). Attestée pour la levée de fonds de 1940, non pour un cours.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01522",
+     "SC-00786"
+    ]
+   },
+   {
+    "idee": "Prototype universel plutôt que pièce unique de génie : collaboration avec l'industrie.",
+    "en_classe": "Opposer la pièce unique émotionnelle au prototype reproductible. La tension art/design traversait le Bauhaus (Kandinsky contre Gropius) ; l'application à Black Mountain est une déduction.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00198",
+     "ID-00402"
+    ]
+   },
+   {
+    "idee": "L'artiste donne une âme au produit de la machine : l'objet de série peut vivre par la forme, sans ornement plaqué.",
+    "en_classe": "Faire dessiner un objet industriel, puis le retravailler jusqu'à ce que sa forme « vive ».",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00230",
+     "ID-00231"
+    ]
+   },
+   {
+    "idee": "Le quotidien façonne ce que nous sommes : la même exigence pour un cendrier que pour une façade ; un bon objet peut rendre meilleur.",
+    "en_classe": "Discuter : un objet peut-il améliorer la vie de celui qui l'emploie ? Chaque objet du quotidien est étudié avec l'exigence d'un bâtiment.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00527",
+     "ID-00392",
+     "ID-00262"
+    ]
+   },
+   {
+    "idee": "Refuser les règles tenues pour inévitables ; un refus peut fonder son propre programme.",
+    "en_classe": "Dire aux étudiants qu'un refus (celui de Hambourg en 1918) peut devenir la naissance d'un projet. Le lien avec la fondation de Black Mountain par des dissidents de Rollins est une interprétation de l'auteur, non une parole de Gropius à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00088",
+     "ID-00263",
+     "SC-00128"
+    ]
+   },
+   {
+    "idee": "Apprendre la langue de la construction : vocabulaire et grammaire de la forme et de la couleur, comme un alphabet.",
+    "en_classe": "Enseigner les éléments de forme et de couleur comme un alphabet. Ce n'est pas attesté à Black Mountain.",
+    "atteste": "non",
+    "refs": [
+     "ID-00138"
+    ]
+   },
+   {
+    "idee": "Le travail collectif a ses limites : deux conceptions du collectif s'opposent chez Gropius et Mies.",
+    "en_classe": "Débat à partir de la boutade de Mies (« si vous décidez d'avoir un bébé, appelez-vous les voisins ? »), rapportée par ouï-dire. Écho inversé de la communauté de Black Mountain, interprétation de la fiche.",
+    "atteste": "non",
+    "refs": [
+     "SC-00331"
+    ]
+   },
+   {
+    "idee": "Un maître excellent d'abord : recruter des artistes de premier rang, l'atelier valant par le maître qui y règne.",
+    "en_classe": "Discussion sur le critère de recrutement. Le parallèle avec Rice recrutant Albers est avancé dans la fiche et n'est pas attesté ; l'argument est contredit par la délégation du cours préliminaire à Albers, enseignant réticent.",
+    "atteste": "non",
+    "refs": [
+     "ID-00403",
+     "SC-00185",
+     "SC-00229"
+    ]
+   }
+  ]
+ }
+}

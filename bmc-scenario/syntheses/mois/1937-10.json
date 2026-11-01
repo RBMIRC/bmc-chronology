@@ -1,0 +1,254 @@
+{
+ "passe": "mois",
+ "cle": "1937-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5292,
+  "sortie": 11800,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-10 (octobre 1937)",
+  "session": "Trimestre d'automne, probablement (déduction : l'année commence avec 55 étudiants et les rondes automnales sont évoquées) ; les fiches ne nomment pas la session",
+  "saison_et_climat": "Automne en Caroline du Nord ; les fiches ne donnent aucune indication météo pour octobre",
+  "situation": "Le collège sort de la scission de juin : huit étudiants sont partis, King et Zeuch ne reviennent pas, Georgia a quitté le collège contre 3 500 $, Portell est resté après le retrait de sa démission. L'année s'ouvre avec 55 étudiants, huit non-retours et cinq enseignants absents. Rice savoure le départ des dissidents, son séminaire d'écriture est à son meilleur, mais sa réputation de provocateur déborde déjà l'enceinte du collège avec le scandale de Charlotte. Une liaison avec une étudiante est en cours, la rumeur circule, et Nell passe de longs séjours en Indiana.",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Louis Adamic (revenu à l'automne)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alice (étudiante, liaison avec Rice)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Portell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Surette (visiteur devenu employé)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice traite les enfants de « nuisances générales » devant la PTA de Central High School à Charlotte ; les clubs évangéliques d'hommes d'affaires le disent « radical et communiste » et le Charlotte News publie une semaine de lettres furieuses",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02736",
+     "SC-00707"
+    ]
+   },
+   {
+    "date": "1937-10-06",
+    "precision": "jour",
+    "ce_qui_arrive": "L'Asheville Citizen signale une exposition d'œuvres des Albers dans une boutique de Chicago",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02737"
+    ]
+   },
+   {
+    "date": "1937-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Le séminaire d'écriture hebdomadaire de Rice, dans son study de Lee Hall, est à son meilleur",
+    "certitude": "probable",
+    "refs": [
+     "CO-00288",
+     "SC-00692"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "session",
+    "ce_qui_arrive": "Rentrée : 55 étudiants, huit non-retours, cinq enseignants non revenus ; Rice écrit à Adamic qu'il a savouré les absences",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02669",
+     "EV-02734"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "saison",
+    "ce_qui_arrive": "Adamic revient au collège",
+    "certitude": "probable",
+    "refs": [
+     "EV-02635"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Rice s'éprend d'une étudiante rencontrée dans les rondes automnales ; les rumeurs courent, la nature physique de la relation reste inconnue ; Nell le surprend puis se confie à son fils Frank au Carolina Inn",
+    "certitude": "probable",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693",
+     "EC-01624"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Surette, visiteur assidu, accepte un poste au collège",
+    "certitude": "probable",
+    "refs": [
+     "EV-02667"
+    ]
+   }
+  ],
+  "quotidien": "Les rondes automnales entre les studies, les séminaires d'écriture de Rice dans son study de Lee Hall, l'accueil des nouveaux étudiants après la rentrée, le retour d'Adamic, les absences de Nell. Les fiches ne décrivent ni repas, ni musique, ni cours précis pour ce mois. Une soirée de sketches met en scène Alice en cantatrice de papier mâché, sans date précise, probablement dans la même période.",
+  "tensions": [
+   "Le départ des dissidents (Coleman, Alsberg, Harrington, King, Zeuch, Georgia) laisse des blessures et des accusations, dont le pamphlet de Zeuch qui relie l'abstraction à la décadence",
+   "La réputation de Rice, jugé « radical et communiste » par des milieux conservateurs de Caroline du Nord",
+   "La liaison de Rice avec une étudiante, la jalousie qu'il montre lors de la soirée de sketches, le risque que Nell et la rumeur révèlent l'affaire",
+   "L'autorité du Board et de Rice encore contestée ; Rice a proposé d'abandonner son tenure lors de la réunion de mai, Sargent a rappelé que cela restait en son pouvoir",
+   "Les écarts de salaires révélés en juin (Rice et Wunsch 2 100 $, Albers 1 700 $, Portell 1 250 $) qui restent source de rancune",
+   "Le souvenir de l'Allemagne fuie, mis en parallèle avec la condamnation de l'art abstrait"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La conférence de Charlotte devant la PTA",
+    "date": "1937-10",
+    "lieu": "Charlotte, Caroline du Nord",
+    "personnages": [
+     "John Andrew Rice",
+     "membres de la PTA de Central High School"
+    ],
+    "deroule": "Rice compare la raison humaine à celle des singes, qualifie les enfants de « nuisances générales » et conseille d'apprendre d'eux plutôt que de les enseigner ; la salle se fâche, les clubs d'affaires le dénoncent, le courrier du Charlotte News s'enflamme pendant une semaine",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00707",
+     "EV-02736"
+    ]
+   },
+   {
+    "titre": "Le séminaire d'écriture du jeudi à Lee Hall",
+    "date": "1937-10",
+    "lieu": "Study de John Andrew Rice, Lee Hall",
+    "personnages": [
+     "John Andrew Rice",
+     "étudiants de l'atelier d'écriture"
+    ],
+    "deroule": "Séance hebdomadaire où Rice est à son meilleur ; l'ambiance est intense, la présence d'une étudiante qui occupe ses pensées n'est pas précisée par les fiches",
+    "certitude": "probable",
+    "refs": [
+     "CO-00288",
+     "SC-00692"
+    ]
+   },
+   {
+    "titre": "La soirée de sketches et la cantatrice de papier mâché",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Alice",
+     "John Andrew Rice",
+     "étudiants"
+    ],
+    "deroule": "Alice est mise en scène en cantatrice de papier mâché ; Rice, jaloux, se dit « choqué » devant la communauté",
+    "certitude": "probable",
+    "refs": [
+     "EV-02740",
+     "SC-00708"
+    ]
+   },
+   {
+    "titre": "Nell surprend son mari et se confie à Frank",
+    "date": null,
+    "lieu": "Carolina Inn",
+    "personnages": [
+     "Nell Rice",
+     "Frank"
+    ],
+    "deroule": "Nell découvre la liaison, puis se confie à son fils Frank au Carolina Inn ; l'échange reste discret, le scandale ne sort pas encore du collège",
+    "certitude": "probable",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rice, en octobre, savoure les absences de la rentrée et la défaite des dissidents",
+    "vers_date": "1937-06",
+    "vers": "La scène de juin : Coleman lit son réquisitoire en 24 points, Alsberg révèle le propos de Rice sur Georgia, Portell se lève la chaise à la main, le Board accepte la démission de Georgia",
+    "refs": [
+     "EV-02715",
+     "EV-02716",
+     "EV-02719",
+     "EV-02720",
+     "EV-02724",
+     "EV-02728"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La satire de Zeuch qui circule au collège à l'automne",
+    "vers_date": null,
+    "vers": "La condamnation nazie de l'art abstrait en Allemagne, que plusieurs membres ont fuie",
+    "refs": [
+     "EC-01626",
+     "OE-01307",
+     "CF-00275"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rice, tout à sa liaison et à sa victoire sur les dissidents",
+    "vers_date": null,
+    "vers": "Des années plus tard, Rice traite son ancienne maîtresse de « a slut »",
+    "refs": [
+     "EC-01624"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rice, qui triomphe de la crise de 1937 et ne voit pas venir sa propre chute",
+    "vers_date": "1938",
+    "vers": "Rice devient à son tour une victime : congé, prise du rectorat par Wunsch et furie communautaire",
+    "refs": [
+     "EC-01625",
+     "CF-00276",
+     "CF-00282"
+    ]
+   }
+  ],
+  "motifs": [
+   "La fuite : Rice rêve de « fantasies of flight » comme l'élopement des étudiants",
+   "La séparation comme seule issue, déjà admise en février et répétée en juin",
+   "Le parallèle entre le collège et Weimar, face à Berlin et à Manhattan",
+   "Les absences qui réjouissent Rice et que la communauté retourne contre lui",
+   "Le mythe des pionniers, qui justifie la dureté du conflit"
+  ],
+  "lacunes": "La session exacte n'est pas documentée. La date de la conférence de Charlotte est seulement encadrée par les articles du 24 au 27 octobre. La liaison est datée « hiver 1937 » par EC-01624 mais « rondes automnales » par la synthèse, contradiction à signaler. On ignore quand les Albers sont revenus du Mexique, si Alice est restée au collège, la date de la rentrée, le moment où Surette a accepté son poste, et le rôle exact de Lea. Nell : date et durée de ses séjours en Indiana non fixées. Duberman 1972 et Chaddock 2002 divergent sur plusieurs dates, dont l'achat de Lake Eden (Chaddock seul, en juin)."
+ }
+}

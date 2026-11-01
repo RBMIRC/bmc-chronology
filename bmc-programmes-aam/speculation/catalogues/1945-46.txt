@@ -1,0 +1,143 @@
+# Concordance des cours 1945-46 → gabarits de l'année reconstituée (trimestres de onze semaines).
+#
+# Sources : l'année est la plus mal documentée de la période des trimestres (bulletins mensuels seulement).
+#   2017.40.037 (Announcements 1946-47, mai 1946) : liste par domaine des cours donnés en 1945-46, sans enseignant
+#     ni trimestre ; notices du corps enseignant
+#   2017.40.211a-g (oct. 1945) : « 30 courses offered by 16 teachers to 60 students » ; « Additions to the Faculty,
+#     1945-46 Session: Percy Hayes Baker, Albert W. Levi, Elliott Merrick, Mary Caroline Richards, Robert Walcott, Jr,
+#     John Louis Wallen » ; Zabriskie et les Beidler partis
+#   2017.40.208a-f (juil. 1945) : Theodore Rondthaler, « Instructor in History »
+#   2017.40.214.01a-h (mars 1946) : mort de Heinrich Jalowetz le 2 février 1946 ; Johanna Jalowetz nommée instructrice
+#     de reliure, elle enseigne aussi le chant
+#   2017.40.215a-g (avril 1946) : Marc Fax remplace Jalowetz (harmonie, piano, introduction à la musique, chœur) ;
+#     « Field Work in Social Studies » (Wallen, ancien « Pedagogical Psychology ») ; classe de théâtre de Sylvia
+#     Rosenfeld ; programme de l'Art Institute de l'été 1946
+#   2017.40.216a-e (juin 1946) : « Bill Levi's classes in Contemporary Society »
+# Absents : Wunsch (parti à l'été 1945), Dreier (à Cambridge), Erwin Straus (Johns Hopkins), Zabriskie, les Beidler.
+# Les enseignants sont rattachés par la notice du corps enseignant (matière) ou par compétence ; les trimestres sont
+# inconnus sauf mention : un cours de la liste a une chance de 2/3 d'être donné un trimestre donné (30 cours pour 16
+# enseignants à l'automne).
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ARTS (J. et A. Albers, M. Gregory, J. Jalowetz) ----------
+C|art.design|Arts|Design|Design (1944-45)|—
+C|art.dessin|Arts|Drawing|Drawing (1944-45)|—
+C|art.peinture|Arts|Painting|Painting (1944-45)|—
+C|art.tissage|Arts|Weaving (introductory, advanced)|Textile Design (1944-45)|—
+C|cons.bois|Arts|Woodworking|Woodworking (1944-45)|—
+C|art.reliure|Arts|Bookbinding|—|—
+U|A1|Josef Albers|4|MEME_ANNEE+R_NOMME+VOISIN|art.dessin|||1|liste des cours donnés en 1945-46 (2017.40.037) ; Albers, « Art » (notices) ; structure de 1944-45 (2 × 2 h)|||
+U|A2|Josef Albers|4|MEME_ANNEE+R_NOMME+VOISIN|art.peinture|||2/3|idem||trimestres inconnus|
+U|A3|Josef Albers|2|MEME_ANNEE+R_NOMME+VOLUME|art.design|||1|liste des cours donnés en 1945-46 (2017.40.037) ; « Josef Albers, Basic Design and Color » parmi « their popular courses » (avril 1946)|||
+U|AA|Anni Albers|1+4|MEME_ANNEE+R_NOMME+VOISIN|art.tissage|||1|liste des cours donnés en 1945-46 (2017.40.037) ; Anni Albers, « Textile Design » ; structure de 1944-45|||
+U|MG|Molly Gregory|2|MEME_ANNEE+R_NOMME+OCCASION|cons.bois|||1|liste des cours donnés en 1945-46 (2017.40.037) ; Mary Gregory, « Woodworking »|lun,mar,jeu 10:30-12:00|atelier ouvert, plage indicative|
+U|JJ1|Johanna Jalowetz|2|MEME_ANNEE+R_ATTESTE+VOLUME|art.reliure|||1|« Jalowetz, who has been for years the bookbinder of the College, received an official appointment as instructor in bookbinding » (mars 1946)||volume supposé|
+
+# ---------- MUSIQUE (H. Jalowetz jusqu'au 2 févr. 1946, E. Lowinsky, J. Jalowetz, G. Straus, M. Fax) ----------
+C|mu.choeur|Music|Chorus|Chorus (1944-45)|—
+C|mu.acappella|Music|A Cappella Singing|—|—
+C|mu.voix|Music|Voice Coaching|—|—
+C|mu.fondements|Music|Fundamentals of Music (introductory course)|Elements of Form and Structure (1944-45, approché)|—
+C|mu.ensemble|Music|Ensemble|Ensemble (1944-45)|—
+C|mu.instruments|Music|Piano; Violin|Piano; Violin (1944-45)|—
+C|mu.classiques|Music|Haydn-Mozart-Beethoven|Viennese School in Music (1944-45, approché)|—
+C|mu.harmonie|Music|Harmony|—|—
+C|mu.contrepoint|Music|Counterpoint|Counterpoint (1944-45)|—
+U|HJ1|Heinrich Jalowetz|2x120|MEME_ANNEE+R_NOMME+VOISIN+HEURE_CADRE|mu.choeur|||1|liste des cours donnés en 1945-46 (2017.40.037) ; chœur de Jalowetz le mardi 19 h 30 en 1944-45|mar 19:30-21:30||fall,winter@1946-01-11..1946-02-02
+U|MF1|Marc Fax; Edward Lowinsky|2x120|MEME_ANNEE+R_ATTESTE+VOISIN+HEURE_CADRE|mu.choeur|||1|Fax « assisting with chorus and concerts » (avril 1946)|=HJ1||winter@1946-02-03..1946-03-29,spring
+U|HJ2|Heinrich Jalowetz|2|MEME_ANNEE+R_NOMME+VOLUME|mu.contrepoint|||2/3|liste des cours donnés en 1945-46 (2017.40.037) ; Counterpoint (Jalowetz, 1944-45)|||fall,winter@1946-01-11..1946-02-02
+U|HJ3|Heinrich Jalowetz|2|MEME_ANNEE+R_NOMME+VOLUME|mu.classiques|||2/3|liste des cours donnés en 1945-46 (2017.40.037) ; Viennese School (Jalowetz, 1944-45)|||fall,winter@1946-01-11..1946-02-02
+U|HJ4|Heinrich Jalowetz|2|MEME_ANNEE+R_NOMME+VOLUME|mu.harmonie|||2/3|liste des cours donnés en 1945-46 (2017.40.037)|||fall,winter@1946-01-11..1946-02-02
+U|MF2|Marc Fax|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.harmonie|||1|« In addition to teaching harmony and piano… » (avril 1946) ; Fax « joined the BMC community on relatively short notice in answer to the need created by the death of Dr Jalowetz »|=HJ4||spring
+U|MF3|Marc Fax|3|MEME_ANNEE+R_ATTESTE+VOLUME|mu.fondements|||1|« Fax is giving an introductory course in music for students without technical background » (avril 1946)|||spring
+U|EL1|Edward Lowinsky|1x90|MEME_ANNEE+R_NOMME+VOISIN+HEURE_CADRE|mu.acappella|||1|liste des cours donnés en 1945-46 (2017.40.037) ; Lowinsky, a cappella (1943-44)|ven 19:00-20:30||
+U|EL2|Edward Lowinsky|2|MEME_ANNEE+R_NOMME+VOLUME|mu.ensemble|||1|liste des cours donnés en 1945-46 (2017.40.037) ; ensemble de Lowinsky (1944-45) ; concerts de l'ensemble avec Trudi Straus (mars 1946)|||
+U|JJ2|Johanna Jalowetz|1|MEME_ANNEE+R_ATTESTE+OCCASION|mu.voix|leçons individuelles||1|« She is also teaching voice and has at present a number of voice students » (mars 1946)||plage indicative|winter,spring
+U|MU|Edward Lowinsky; Gertrude Straus; Marc Fax|1|MEME_ANNEE+R_NOMME+OCCASION|mu.instruments|leçons individuelles||1|liste des cours donnés en 1945-46 (2017.40.037) ; piano : Lowinsky, puis Fax au printemps ; violon : Trudi Straus||plage indicative|
+
+# ---------- LANGUE ET LITTÉRATURE (M. C. Richards, E. Merrick, G. Straus, T. Rondthaler) ----------
+C|ecr.principes|Writing|Principles of Writing|Introductory Writing and Composition (1944-45)|—
+C|ecr.avance|Writing|Advanced Writing|—|—
+C|en.lecture|English|Reading Literature|—|—
+C|en.roman|English|The Modern Novel|—|—
+C|fr.cours|French|French (introductory, advanced)|French (1944-45)|—
+C|de.cours|German|German (introductory, advanced)|Introductory / Advanced German (1944-45)|—
+C|la.elem|Latin|Elementary Latin|—|—
+C|dr.classe|Dramatics|Drama class (acting techniques, scenes, community program)|Dramatic Production (1944-45)|—
+U|MR1|Mary Caroline Richards|3|MEME_ANNEE+R_COMPET+VOLUME|ecr.principes|||1|liste des cours donnés en 1945-46 (2017.40.037) ; Richards, « English » (notices, nouvelle en 1945-46)||rattachement par compétence entre les deux enseignants d'anglais|
+U|MR2|Mary Caroline Richards|3|MEME_ANNEE+R_COMPET+VOLUME|en.lecture|||2/3|idem|||
+U|EM1|Elliott Merrick|3|MEME_ANNEE+R_COMPET+VOLUME|ecr.avance|||2/3|liste des cours donnés en 1945-46 (2017.40.037) ; Merrick, « English » (notices), écrivain||rattachement par compétence|
+U|EM2|Elliott Merrick|3|MEME_ANNEE+R_COMPET+VOLUME|en.roman|||2/3|idem|||
+U|FR|Maria Hansgirg|2|MEME_ANNEE+R_NOMME+PRESENCE+VOLUME|fr.cours|||2/3|liste des cours donnés en 1945-46 (2017.40.037) ; Maria Hansgirg enseigne le français en 1944-45||présence comme enseignante non attestée en 1945-46|
+U|TS1|Gertrude Straus|3|MEME_ANNEE+R_NOMME+VOISIN|de.cours|débutants||1|liste des cours donnés en 1945-46 (2017.40.037) ; Trudi Straus, allemand (1944-45)|||
+U|TS2|Gertrude Straus|2x90|MEME_ANNEE+R_NOMME+VOISIN|de.cours|avancé||2/3|idem ; structure de 1944-45 (2 × 1 h 30)|||
+U|TR2|Theodore Rondthaler|3|MEME_ANNEE+R_COMPET+VOLUME|la.elem|||2/3|liste des cours donnés en 1945-46 (2017.40.037) ; Rondthaler a dirigé le département de latin de Salem College (notice, 2017.40.036)|||
+U|SR|Sylvia Rosenfeld|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.classe|||1|« having organized a large drama class which is now working on a community program » (avril 1946) ; Sylvia Rosenfeld est étudiante|||spring
+
+# ---------- MATHÉMATIQUES ET SCIENCES (M. Dehn, F. Hansgirg, P. H. Baker) ----------
+C|ma.base|Mathematics|Basic Mathematics|Basic Mathematics (1944-45)|—
+C|ma.intro|Mathematics|Introductory Mathematics|Introductory Mathematics (1944-45)|—
+C|ma.avance|Mathematics|Advanced Mathematics|Calculus (Dreier, 1944-45, approché)|—
+C|bio.principes|Biology|Principles of Biology|Biology (Jailer, 1944-45)|—
+C|bio.terrain|Biology|Field Biology|—|—
+C|bio.heredite|Biology|Heredity|—|—
+C|ch.intro|Chemistry|Introductory Chemistry|—|—
+C|sc.matiere|Physics and Chemistry|Matter and Energy|Matter and Energy (1944-45)|—
+U|MD1|Max Dehn|3|MEME_ANNEE+R_NOMME+VOLUME|ma.intro|||1|liste des cours donnés en 1945-46 (2017.40.037) ; Dehn, « Mathematics » (notices) ; Dreier à Cambridge|||
+U|MD2|Max Dehn|2|MEME_ANNEE+R_NOMME+VOLUME|ma.base|||2/3|idem|||
+U|MD3|Max Dehn|3|MEME_ANNEE+R_NOMME+VOLUME|ma.avance|||2/3|idem|||
+U|PB1|Percy Hayes Baker|3+4L|MEME_ANNEE+R_ATTESTE+VOLUME|bio.principes|||1|« Percy Hayes Baker, Visiting Lecturer in Biology for Fall Quarter, 1945-46 » (notices, 2017.40.037)|||fall
+U|PB2|Percy Hayes Baker|3|MEME_ANNEE+R_ATTESTE+VOLUME|bio.terrain||bio.heredite|1/2|idem|||fall
+N|bio.heredite|candidat de PB2
+U|FH1|Fritz Hansgirg|3+2+4L|MEME_ANNEE+R_NOMME+VOISIN|sc.matiere|||1|liste des cours donnés en 1945-46 (2017.40.037) ; Hansgirg, « Chemistry and Physics » (notices) ; structure de 1944-45|||
+U|FH2|Fritz Hansgirg|3|MEME_ANNEE+R_NOMME+VOLUME|ch.intro|||2/3|idem|||
+
+# ---------- SCIENCES SOCIALES ET PHILOSOPHIE (D. Corkran, R. Walcott, T. Rondthaler, A. W. Levi, J. Wallen, H. A. Miller, S. Schwarz) ----------
+C|hi.amciv|Social Studies|American Civilization|American History (Corkran, 1944-45)|—
+C|gv.am|Social Studies|American Government|—|—
+C|hi.angleterre|Social Studies|Modern English History|—|—
+C|hi.europe|Social Studies|Modern European History|—|—
+C|hi.croissance|Social Studies|Growth in Modern Europe|—|—
+C|eco.planifiee|Social Studies|Planned Economy|—|—
+C|eco.moderne|Social Studies|Theory and Practice of Modern Economy|Economics (1944-45)|—
+C|soc.contemp|Social Studies|Contemporary Society|Contemporary Problems (Miller, 1944-45, approché)|—
+C|phi.monde|Social Studies|Philosophy and the Modern World|—|—
+C|phi.ethique|Social Studies|Problems of Philosophy (Ethics)|Dialogues of Plato (1944-45, approché)|—
+C|psy.intro|Social Studies|Introduction to Psychology|—|—
+C|psy.pedago|Social Studies|Pedagogical Psychology (Field Work in Social Studies)|—|—
+C|soc.asie|Social Studies|Cultures of Asia|—|—
+C|soc.race|Social Studies|The Race Problem|Nationalism and World Minorities (1944-45, approché)|—
+U|DC1|David Corkran|3|MEME_ANNEE+R_NOMME+VOLUME|hi.amciv|||1|liste des cours donnés en 1945-46 (2017.40.037) ; Corkran, « American History and Literature » (notices)|||
+U|DC2|David Corkran; Theodore Rondthaler|3|MEME_ANNEE+R_COMPET+VOLUME|gv.am|||2/3|idem ; enseignant par compétence|||
+U|RW1|Robert Walcott|3|MEME_ANNEE+R_COMPET+VOLUME|hi.angleterre|||2/3|liste des cours donnés en 1945-46 (2017.40.037) ; Robert Walcott Jr., nouvel enseignant (oct. 1945), membre de la faculté (déc. 1945)||rattachement par compétence|
+U|RW2|Robert Walcott|3|MEME_ANNEE+R_COMPET+VOLUME|hi.croissance|||2/3|idem|||
+U|TR1|Theodore Rondthaler|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.europe|||2/3|liste des cours donnés en 1945-46 (2017.40.037) ; Rondthaler « appointed Instructor in History » (juil. 1945)|||
+U|SS1|Siegfried Schwarz|3|MEME_ANNEE+R_NOMME+VOLUME|eco.moderne|||1|liste des cours donnés en 1945-46 (2017.40.037) ; Schwarz, économie (1944-45)|||
+U|SS2|Siegfried Schwarz|3|MEME_ANNEE+R_NOMME+VOLUME|eco.planifiee|||2/3|idem|||
+U|BL1|Albert W. Levi|3|MEME_ANNEE+R_ATTESTE+VOLUME|soc.contemp|||1|« Contemporary Society » (Levi, printemps 1946) ; « Bill Levi's classes in Contemporary Society » (juin 1946)|||spring
+U|BL2|Albert W. Levi|3|MEME_ANNEE+R_COMPET+VOLUME|phi.monde|||2/3|liste des cours donnés en 1945-46 (2017.40.037) ; Levi, « Social Science » (notices) ; philosophe|||fall,winter
+U|BL3|Albert W. Levi|3|MEME_ANNEE+R_COMPET+VOLUME|phi.ethique|||2/3|idem|||
+U|JW1|John Wallen|3|MEME_ANNEE+R_COMPET+VOLUME|psy.intro|||2/3|liste des cours donnés en 1945-46 (2017.40.037) ; Wallen, « Psychology » (notices)|||
+U|JW2|John Wallen|2|MEME_ANNEE+R_ATTESTE+VOLUME|psy.pedago|||1|« John Wallen's class in Pedagogical Psychology got a new title and method of working this quarter » (« Field Work in Social Studies », discussions deux fois par semaine, avril 1946)|||winter,spring
+U|HM1|Herbert A. Miller|3|MEME_ANNEE+R_NOMME+VOLUME|soc.race|||1|liste des cours donnés en 1945-46 (2017.40.037) ; Miller, minorités et races (1943-45)|||
+U|HM2|Herbert A. Miller|3|MEME_ANNEE+R_NOMME+VOLUME|soc.asie|||2/3|liste des cours donnés en 1945-46 (2017.40.037) ; Miller a enseigné en Chine et voyagé en Inde (notice)|||
+
+# ---------- SECRÉTARIAT (A. Rondthaler) ----------
+C|sec.steno|Secretarial|Gregg Shorthand; Typewriting|—|—
+U|AR|Alice Rondthaler|2|MEME_ANNEE+R_ATTESTE+VOLUME|sec.steno|||1|liste des cours donnés en 1945-46 (2017.40.037) (enseignante nommée)||volume supposé|
+
+# ---------- ÉTÉ 1946 : TROISIÈME ART INSTITUTE (programme annoncé en avril 1946, 2017.40.215a-g) ----------
+C|ete.design|Art Institute 1946|Basic Design and Color (Josef Albers)|—|—
+C|ete.tissage|Art Institute 1946|Textile Design (Anni Albers)|—|—
+C|ete.bois|Art Institute 1946|Woodworking (Molly Gregory)|—|—
+C|ete.peinture|Art Institute 1946|Painting (Jean Varda ; Jacob Lawrence)|—|—
+C|ete.sculpture|Art Institute 1946|Sculpture (Concetta Scaravaglione ; Leo Amino)|—|—
+C|ete.pub|Art Institute 1946|Advertising Design (Will Burtin ; Leo Lionni)|—|—
+U|E1|Josef Albers|4|MEME_ANNEE+R_ATTESTE+VOLUME|ete.design|||4/5|« The guest faculty thus far appointed… » ; « The regular members of the BMC art faculty will continue to give their popular courses » (avril 1946)||annoncé : réalisation et dates exactes non vérifiées ; volume supposé|summer@1946-07-02..1946-08-28
+U|E2|Anni Albers|4|MEME_ANNEE+R_ATTESTE+VOLUME|ete.tissage|||4/5|« The guest faculty thus far appointed… » ; « The regular members of the BMC art faculty will continue to give their popular courses » (avril 1946)||annoncé : réalisation et dates exactes non vérifiées ; volume supposé|summer@1946-07-02..1946-08-28
+U|E3|Molly Gregory|4|MEME_ANNEE+R_ATTESTE+VOLUME|ete.bois|||4/5|« The guest faculty thus far appointed… » ; « The regular members of the BMC art faculty will continue to give their popular courses » (avril 1946)||annoncé : réalisation et dates exactes non vérifiées ; volume supposé|summer@1946-07-02..1946-08-28
+U|E4|Jean Varda; Jacob Lawrence|4|MEME_ANNEE+R_ATTESTE+VOLUME|ete.peinture|||4/5|« The guest faculty thus far appointed… » ; « The regular members of the BMC art faculty will continue to give their popular courses » (avril 1946)||annoncé : réalisation et dates exactes non vérifiées ; volume supposé|summer@1946-07-02..1946-08-28
+U|E5|Concetta Scaravaglione; Leo Amino|4|MEME_ANNEE+R_ATTESTE+VOLUME|ete.sculpture|||4/5|« The guest faculty thus far appointed… » ; « The regular members of the BMC art faculty will continue to give their popular courses » (avril 1946)||annoncé : réalisation et dates exactes non vérifiées ; volume supposé|summer@1946-07-02..1946-08-28
+U|E6|Will Burtin; Leo Lionni|4|MEME_ANNEE+R_ATTESTE+VOLUME|ete.pub|||4/5|« The guest faculty thus far appointed… » ; « The regular members of the BMC art faculty will continue to give their popular courses » (avril 1946)||annoncé : réalisation et dates exactes non vérifiées ; volume supposé|summer@1946-07-02..1946-08-28

@@ -1,0 +1,329 @@
+{
+ "passe": "mois",
+ "cle": "1938-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3477,
+  "sortie": 16850,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "octobre 1938 (1938-10)",
+  "session": "rentrée d'automne, début de la nouvelle année académique (déduit : les fiches disent « automne » sans préciser le trimestre)",
+  "saison_et_climat": "Automne à Lake Eden, Caroline du Nord. Les fiches ne décrivent ni météo ni lumière ; la saison n'est qu'un cadre déduit.",
+  "situation": "Rice n'est plus recteur : le Board a voté la succession en faveur de Wunsch, personne ne voulant du poste. Rice vit en « fantôme » à Lee Hall, écrit son autobiographie et reçoit sur rendez-vous discrets ses soutiens et les étudiants de son séminaire. La liaison avec Alice est abandonnée, Portell a démissionné, Peggy et David Bailey viennent d'entrer au personnel. Un modus vivendi s'installe entre Rice et Albers, fragile. Schawinsky n'est pas réembauché (un mémo du 31 août traite de son départ). Le collège compte sur la collecte de fonds menée par les Albers et Dreier.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Peggy Bailey",
+    "certitude": "probable"
+   },
+   {
+    "nom": "David Bailey",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Roscoe Penley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alice",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "Rice revient à Lee Hall en « fantôme » : il écrit son autobiographie et reçoit sur rendez-vous discrets ses soutiens et les étudiants de son séminaire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02851",
+     "EV-02852",
+     "SC-00729",
+     "CO-00297"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "Personne ne veut le rectorat ; le Board le vote à Wunsch. Rice soupçonne Anni Albers de le convoiter pour son mari et juge Wunsch « gentil et sucré » mais incapable de gouverner.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02851"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "La liaison avec Alice est abandonnée, Portell démissionne, Peggy et David Bailey rejoignent le personnel. Un modus vivendi apparaît entre Rice et Albers, vite remis en cause par de nouvelles querelles.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02767",
+     "EV-02771",
+     "EV-02769"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "David Bailey devient directeur de la publicité et lance le Newsletter.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02776"
+    ]
+   },
+   {
+    "date": "1938-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Harper's publie en deux parties « Grandmother Smith's Plantation » de Rice, en novembre puis décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02853"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "Anni Albers fait paraître « Work with Material » dans le Bulletin 5. La fiche ne donne pas le mois exact ; elle est rangée dans l'automne.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02793",
+     "OE-01386"
+    ]
+   },
+   {
+    "date": "1938-11-19",
+    "precision": "jour",
+    "ce_qui_arrive": "Dreier télégraphie à Eleanor Roosevelt dans le cadre de la collecte de fonds.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02854"
+    ]
+   },
+   {
+    "date": "1938-12-09",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers prononce un discours au Cosmopolitan Club, à New York.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02860"
+    ]
+   },
+   {
+    "date": "1938-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le MoMA ouvre l'exposition Bauhaus 1919-1928, où figurent des exercices d'élèves d'Albers à Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02794",
+     "EV-02858"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "annee",
+    "ce_qui_arrive": "À New York, hors du collège, Elaine Fried rencontre Milton Resnick puis Willem de Kooning, devient son élève et sa maîtresse ; Bill passe à la nature morte et détruit ses toiles figuratives. La date exacte de ces faits n'est pas donnée.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02743",
+     "EV-02744",
+     "EV-02778"
+    ]
+   }
+  ],
+  "quotidien": "Vie d'un collège qui se reconstruit à tâtons. Pendant l'été, l'auberge du Lake Eden Inn et la ferme (Penley, l'énergie de Dreier) tournaient et nourrissaient déjà la communauté ; on ne sait pas si ce rythme tient en octobre. Les salaires sont coupés de 25 % cette année-là, sur budgets de besoin. Les enseignements reprennent : séminaire de Rice, ateliers d'Albers dont les exercices seront exposés à New York en décembre. Les publications s'enchaînent (Newsletter, Bulletin 5, feuilleton de Rice dans Harper's). Les fiches ne documentent ni les repas, ni la musique, ni les cours d'octobre eux-mêmes.",
+  "tensions": [
+   "Rice contre Albers : les querelles reprennent aussitôt après le modus vivendi ; Rice soupçonne Anni Albers de vouloir le rectorat pour son mari.",
+   "Rice contre le nouveau pouvoir : il juge Wunsch incapable de gouverner, Mangold et Albers tenant les rênes derrière lui.",
+   "Vieux griefs : l'indignation liée à la liaison avec Alice et aux décisions unilatérales de l'hiver n'est pas soldée.",
+   "Argent : Albers avait exigé qu'aucune levée de fonds personnelle n'ait lieu tant que Rice restait ; le collège dépend de la collecte, et l'on ne sait pas si cette règle tient après le retrait de Rice du rectorat.",
+   "Départs : Portell a démissionné ; Schawinsky, mal vu du Conseil et de Mangold, n'est pas réembauché ; la place d'Alice au collège est incertaine.",
+   "Ombre de Porter : le suicide de l'étudiant Dick Porter, l'année précédente, pèse sur un collège qui a parlé de culpabilité collective ; son lien avec le théâtre de Schawinsky n'est jamais affirmé.",
+   "Confiance envers la direction entamée : le Board a refusé la demande de Rice d'abréger son congé par un vote unanime."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Réception à Lee Hall",
+    "date": "1938",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "Rice",
+     "un étudiant de son séminaire"
+    ],
+    "deroule": "Rice, revenu en fantôme, reçoit sur rendez-vous discret un étudiant de son séminaire ou un soutien. Il parle de son autobiographie en cours et de la succession qu'on lui a retirée. Les fiches attestent la réception sur rendez-vous, pas le contenu des échanges.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02852",
+     "SC-00729",
+     "CO-00297"
+    ]
+   },
+   {
+    "titre": "Le vote du Board pour Wunsch",
+    "date": "1938",
+    "lieu": null,
+    "personnages": [
+     "Board",
+     "Wunsch",
+     "Rice",
+     "Mangold",
+     "Albers"
+    ],
+    "deroule": "Personne ne voulant le rectorat, le Board vote la succession à Wunsch. Rice y voit la main de Mangold et d'Albers et soupçonne Anni Albers. Le vote est la décision ; la rancœur de Rice reste son commentaire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02851"
+    ]
+   },
+   {
+    "titre": "Le télégramme de Dreier à Eleanor Roosevelt",
+    "date": "1938-11-19",
+    "lieu": null,
+    "personnages": [
+     "Dreier",
+     "Eleanor Roosevelt"
+    ],
+    "deroule": "Dreier envoie un télégramme à Eleanor Roosevelt pour la collecte de fonds. Le collège cherche de l'argent pendant que la crise interne se calme.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02854"
+    ]
+   },
+   {
+    "titre": "Discours au Cosmopolitan Club",
+    "date": "1938-12-09",
+    "lieu": "Cosmopolitan Club, New York",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers prononce un discours au Cosmopolitan Club, trois semaines après le télégramme de Dreier, dans le même effort de collecte.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02860"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rice à Lee Hall, en réclusion, au début de l'automne",
+    "vers_date": "1938-03-03",
+    "vers": "Le 3 mars, Mangold et Dreier négocient avec Rice un congé jusqu'au 1er mai ; il ne reviendra qu'avec l'accord de la faculté, et les étudiants ne sont pas consultés. Duberman date le départ de Rice du 7 mars, ce qui contredit le 3 mars.",
+    "refs": [
+     "EV-02837",
+     "EV-02835",
+     "SC-00733",
+     "EV-02838"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rice, qui ruminait sa chute au même moment",
+    "vers_date": "1938-04-13",
+    "vers": "Chaddock fait démissionner Rice de son rectorat le 13 avril, furieux que sa demande d'abréger le congé soit rejetée par un vote unanime des fellows. Duberman met la lettre de Rice à la mi-avril, le vote dix jours plus tard.",
+    "refs": [
+     "EV-02840",
+     "EV-02839",
+     "EV-02841"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le présent de la liaison abandonnée avec Alice",
+    "vers_date": "1937",
+    "vers": "Début de la liaison : rumeurs dès l'automne 1937 selon CF-00281 et EC-01567, mi-hiver 1938 selon RE-01062. Le récit de Nell surprenant les amants n'est qu'un double oui-dire.",
+    "refs": [
+     "CF-00281",
+     "EC-01567",
+     "RE-01062",
+     "SC-00686"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Lee Hall, où Rice relit son passé",
+    "vers_date": "1938",
+    "vers": "Suicide de Dick Porter, étudiant en cinquième année, balle dans la tempe, mort à Asheville. Le lendemain, Moellenhoff parle en réunion générale de la culpabilité d'un groupe face à une solitude choisie. La date précise n'est pas donnée.",
+    "refs": [
+     "EV-02762",
+     "EV-02763",
+     "SC-00715",
+     "EV-02817"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Lake Eden, où les plans de Gropius et Breuer sont déjà livrés (été 1938)",
+    "vers_date": "1940",
+    "vers": "Le projet, estimé à 500 000 dollars par Dreier, est abandonné vers 1940 au profit de Kocher.",
+    "refs": [
+     "EV-02772",
+     "OE-01358"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Elaine Fried et Bill à New York, en 1938",
+    "vers_date": "1948",
+    "vers": "Les étés de 1948 sont préparés par ce fil new-yorkais, lointain mais déjà en place.",
+    "refs": [
+     "EV-02743",
+     "EV-02744",
+     "EV-02778"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La réorganisation de l'automne 1938 et la formation de Nell",
+    "vers_date": null,
+    "vers": "Frank Aydelotte prépare Nell au métier de bibliothécaire et finance sa formation ; la date de ces arrangements n'est pas donnée.",
+    "refs": [
+     "EV-02821",
+     "QU-00653"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le fil théâtral de Schawinsky, en octobre 1938",
+    "vers_date": "1952",
+    "vers": "Le fil « Du théâtre total de Schawinsky à la mémoire de 1952 » s'ouvre ici, mais aucune fiche de ce lot ne décrit l'événement de 1952.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "réclusion et fantôme de Rice",
+   "mémoire de la faute collective",
+   "gouvernance collégiale contre autorité personnelle",
+   "argent et collecte comme moteur des relations",
+   "la scène comme épreuve collective",
+   "rupture et restauration à tâtons",
+   "l'ombre de Porter"
+  ],
+  "lacunes": "Aucune fiche ne donne de date précise en octobre 1938 : les événements sont dits « automne » ou, quand ils sont datés, situés en novembre-décembre. La date du vote du Board, la composition de ce Board et l'arrivée exacte de Peggy et David Bailey sont inconnues. Contradictions : congé de Rice daté du 3 mars (EV-02837) et du 7 mars (Duberman, EV-02838) ; refus du poste à Chicago placé en avril par Chaddock et en juin par Duberman ; début de la liaison entre automne 1937 et mi-hiver 1938. La date exacte du suicide de Porter est inconnue, et son lien avec Schawinsky reste non affirmé. On ignore où se trouve Nell à l'automne, le statut d'Alice, et si la règle d'Albers sur la collecte tient encore. Le fil 1952 et les candidatures de Cage ne sont pas étayés par les fiches fournies."
+ }
+}

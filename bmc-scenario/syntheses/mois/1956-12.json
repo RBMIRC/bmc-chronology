@@ -1,0 +1,210 @@
+{
+ "passe": "mois",
+ "cle": "1956-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 1701,
+  "sortie": 9866,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1956-12",
+  "session": null,
+  "saison_et_climat": "Hiver probable, non attesté par les fiches. Le campus est décrit en septembre-octobre envahi par le kudzu et sans électricité, ce qui suggère un lieu dégradé et isolé.",
+  "situation": "Le collège n'existe plus comme institution. Annoncée en octobre 1956 à la bougie, chez Olson, sa fermeture a dispersé le groupe entre New York, San Francisco et Asheville. En décembre il ne reste qu'une liquidation : dettes, campus en voie de vente, comptes à régler, et Olson seul sur place (déduit). Aucune session n'est en cours.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Famille d'Olson (épouse et enfant, marié et père selon Rumaker)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Annonce de la fermeture à la bougie, chez Olson. Le collège se disperse.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)",
+     "Dissolution de l'idée de communauté (1956→1956-10)"
+    ]
+   },
+   {
+    "date": "1956-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Fiore s'installe à New York. Huss et la troupe de Medea partent pour San Francisco avec Duncan.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)",
+     "Diaspora de San Francisco (1956-10→None)"
+    ]
+   },
+   {
+    "date": "1956-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson reste sur place pour liquider le collège, tâche qui se prolonge jusqu'en 1957.",
+    "certitude": "atteste",
+    "refs": [
+     "Liquidation par Olson (1956-10→1957)"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "À l'automne, Huss et Olson, réunis dans un café d'Asheville, conviennent de fermer. Olson dit ne plus vouloir enseigner.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "annee",
+    "ce_qui_arrive": "Un homme décide d'acheter le campus. Presque tout l'argent de la vente ira aux dettes.",
+    "certitude": "probable",
+    "refs": [
+     "Agonie financière et lutte pour la survie (1956→1956-10)"
+    ]
+   },
+   {
+    "date": "1956-08-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Medea de Duncan est jouée les 29 et 30 août, dernier grand moment commun du campus.",
+    "certitude": "atteste",
+    "refs": [
+     "Medea de Duncan (1956→1956-10)"
+    ]
+   },
+   {
+    "date": "1956-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Ebbe Borregaard arrive fin septembre et trouve un campus envahi par le kudzu, sans électricité.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Il n'y a plus de vie de collège attestée : pas de cours, d'atelier ni de rituel. La vie ordinaire se réduit à la liquidation : papiers, dettes, visites d'acheteurs, réponses aux demandes d'admission (sans statut GI à offrir). Les cours de musique et de peinture ne sont pas mentionnés pour ce mois (déduit : arrêtés).",
+  "tensions": [
+   "Ressentiment de Fiore envers Olson, hérité de la querelle autour de Dan Rice",
+   "Satire de Duncan contre Olson (« Old Son »), perçue comme une déclaration d'indépendance « méchante » selon l'oui-dire de Rumaker",
+   "Dettes qui absorbent presque toute la vente du campus",
+   "Menace d'accusation d'immoralité après l'affaire de l'étudiant violent, probablement mineure",
+   "Olson qui ne veut plus enseigner, face à un projet de fermeture déjà acté",
+   "Dispersion géographique : chacun part de son côté, le groupe ne tient plus"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Olson et les comptes",
+    "date": "1956-12",
+    "lieu": "Campus de Black Mountain",
+    "personnages": [
+     "Charles Olson",
+     "Un acheteur potentiel du campus (non identifié)"
+    ],
+    "deroule": "Olson fait visiter le campus à un acquéreur. Les bâtiments sont vides, la dette pèse sur chaque phrase, et la conversation tourne autour de ce qui restera après la vente.",
+    "certitude": "deduit",
+    "refs": [
+     "Agonie financière et lutte pour la survie (1956→1956-10)",
+     "Liquidation par Olson (1956-10→1957)"
+    ]
+   },
+   {
+    "titre": "La lettre d'Eloise Mixon",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Eloise Mixon",
+     "Charles Olson"
+    ],
+    "deroule": "Une réponse à une demande d'admission arrive avec une fausse brochure jointe, dans l'espoir désespéré de retrouver le statut GI. Le geste est dérisoire face à un collège qui ne recrute plus.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Duncan et la troupe à San Francisco",
+    "date": "1956-12",
+    "lieu": "San Francisco",
+    "personnages": [
+     "Robert Duncan",
+     "Huss",
+     "Acteurs de Medea"
+    ],
+    "deroule": "La troupe, dispersée, garde le souvenir de Medea. Duncan, qui a écrit la pièce au fil des répétitions, en parle comme d'un acte d'indépendance vis-à-vis d'Olson.",
+    "certitude": "deduit",
+    "refs": [
+     "Diaspora de San Francisco (1956-10→None)",
+     "Medea de Duncan (1956→1956-10)"
+    ]
+   },
+   {
+    "titre": "Fiore à New York",
+    "date": "1956-12",
+    "lieu": "New York",
+    "personnages": [
+     "Joe Fiore"
+    ],
+    "deroule": "Installé à New York, Fiore porte toujours son ressentiment envers Olson. Il pense peut-être à Rice, qui a préféré partir lui aussi.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Olson seul, en décembre, pendant la liquidation",
+    "vers_date": "1956-08-29",
+    "vers": "Les représentations de Medea les 29 et 30 août, quand le campus était encore à bout mais vivant, avec Olson ironique sur ses étudiants et un drapeau « SECONAL » proposé à la place de l'enseigne.",
+    "refs": [
+     "Medea de Duncan (1956→1956-10)",
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Olson qui mesure ce qui reste du collège",
+    "vers_date": "1956",
+    "vers": "Le départ de Stefan Wolpe au début de l'année, convaincu que la communauté n'a aucune chance et qu'on n'y forme pas de professionnels. C'est le premier signe de la défaite de l'idée de communauté.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Olson qui liquide le collège",
+    "vers_date": "1957",
+    "vers": "La fin de la liquidation : campus vendu, dettes réglées, fermeture officialisée. Les fiches ne donnent pas le détail de cette année.",
+    "refs": [
+     "Liquidation par Olson (1956-10→1957)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La dispersion de San Francisco et de New York",
+    "vers_date": null,
+    "vers": "Le retour attendu de Creeley, parti à San Francisco au printemps, et le sort du dernier numéro de la revue orienté vers la scène Beat. Les fiches ne disent pas ce qui advient.",
+    "refs": [
+     "chapitre de l'année 1956 (synthèse)",
+     "Maximus 11/22 et la revue (1956-02→1956)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Dispersion plutôt que mort brutale",
+   "La dette comme dernier lien entre anciens",
+   "Ironie et ressentiment entre anciens",
+   "Le collège survit dans un réseau d'anciens (Albers, Asawa, Rauschenberg)"
+  ],
+  "lacunes": "Aucune fiche ne date décembre 1956. Tout ce qui concerne ce mois est déduit de la dispersion d'octobre. On ignore qui vit encore au campus, la date et les conditions de la vente, l'état de la dette, le sort de Creeley, Williams, Van de Wiele, Borregaard et Rice. Les fiches n'ont pas d'identifiants visibles : les refs sont donc les titres des fiches. Tension entre sources : la synthèse décrit une fermeture officielle annoncée à la bougie en octobre, alors que Fiore envisageait déjà de partir et que la revue attendait Creeley. La formule « le collège se disperse plus qu'il ne meurt » reste une interprétation d'observateurs, non tranchée. La satire de Duncan n'est connue que par oui-dire."
+ }
+}

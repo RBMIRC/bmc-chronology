@@ -1,0 +1,310 @@
+{
+ "passe": "personnes",
+ "cle": "John Evarts",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 13737,
+  "sortie": 3949,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "John Evarts",
+  "autres_noms": [
+   "John R. Evarts"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Professeur de musique (et mathématiques selon sa propre périodisation), l'un des sept premiers instructeurs élus en novembre 1933 ; présent de la fondation (1933) à son départ pour l'armée (1942).",
+  "presence": [
+   {
+    "debut": "1933-09",
+    "fin": "1942",
+    "precision": "annee",
+    "role": "Professeur de musique, ensuite musique et mathématiques ; pianiste des bals du samedi soir ; germanophone, interprète occasionnel d'Albers ; collecteur de fonds en Californie (1941)",
+    "refs": [
+     "EV-02165",
+     "EV-02177",
+     "EV-02195",
+     "PE-00032",
+     "EV-02876",
+     "EV-03254"
+    ]
+   }
+  ],
+  "portrait_physique": "À son arrivée en 1933, un homme de 25 ans, « a nice chap » mais mal rasé, parfois rongé de fatigue et de doute ; au piano, la nuit venue, il est « décoré de sueur », parfois amolli de fatigue à minuit mais il continue (PE-00032 ; SC-00392).",
+  "noyau_psychologique": "Un musicien amateur au sens premier : peu de formation formelle, un don exceptionnel d'improvisation, et une conviction que la musique n'a de valeur que par ce qu'elle fait aux gens. Joyeux, enthousiaste, farceur, mais aussi observateur aigu et ironique, qui note tout dans un journal tenu à la main. Sa gaieté n'est pas de la légèreté : c'est une discipline de la joie communautaire, doublée d'un scepticisme constant envers l'auto-satisfaction collective et le pouvoir (PE-00032 ; EV-02177).",
+  "blessures": "Doutes constants sur sa capacité à être à la hauteur en classe dès la première rentrée (EV-02165 ; PE-00032, citant Duberman p. 74, 88, 90, 117).",
+  "desirs": "Faire de la musique un ciment communautaire : chants, chorales, écoute collective, danses où personne ne manque (EV-01693 ; CO-00151 ; SC-00392).",
+  "peurs": "La colère d'Albers — lui et Sly remettent secrètement le Mondrian en place, trop effrayés pour avouer (SC-00656 ; EV-02573).",
+  "maniere_d_aimer": "Il aime par la présence attentionnée et le service : jouer jusqu'à minuit pour que la communauté danse, « Happy Birthday » aux anniversaires, l'amitié fidèle épistolaire avec Wunsch pendant la guerre (SC-00392 ; EV-03242 ; RE-01374).",
+  "rapport_au_pouvoir": "Méfiance ironique envers l'autorité et ses excès : il reproche à la communauté sa « malice », estime que la franchise a des limites, se dégoûte de l'auto-satisfaction publique de Rice, mais reste loyal et constructif — il critique depuis l'intérieur, sans jamais détruire (EV-02577 ; EV-02723 ; EV-02570 ; SC-00657).",
+  "voix": {
+   "registre": "Chaleureux, primesautier au piano ; dans l'écriture et la conversation, d'une précision ironique et compassionnelle,New-England, américain d'Yale qui parle aussi allemand",
+   "tics": "Alternance de pince-sans-rire et d'enthousiasme (« gusto ») ; goût du mot juste, souvent en allemand dans son journal",
+   "exemples_paraphrases": [
+    "Sur Albers et l'anglais : l'anglais est si désordonné, si illogique — oui, ça me rend vraiment fou, parfois",
+    "Sur le refus de lire le chapitre de Rice : n'est-ce pas lui accorder plus d'importance que de le lire sans trop s'en troubler ? Drame, drame, drame",
+    "Sur Henry Fonda : un type très bien, il donnera peut-être même une petite somme",
+    "Sur le rapport de Wunsch : c'était pour moi comme une annonce de décès"
+   ]
+  },
+  "habitudes": [
+   "Tient un journal détaillé (dont 21 pages manuscrites sur la visite de Wilder en 1934)",
+   "Joue le samedi soir jusqu'à minuit : polkas, valses, schottisches, folk anglais, danses russes, fox-trot",
+   "Écoute des disques Toscanini le dimanche après-midi avec toute la communauté",
+   "« Happy Birthday » aux anniversaires, comme directeur social",
+   "Alternait piano et disques dans ses cours, camion de ferme pour aller chercher un piano et jazz sur le trajet retour"
+  ],
+  "convictions": [
+   "La musique vaut par son effet sur les gens, non pour elle-même",
+   "La critique communautaire contient trop de malice ; « la franchise a des limites »",
+   "Scepticisme envers les éloges dithyrambiques de l'art moderne (Mondrian) tout en aimant son Kandinsky « sauvage »",
+   "Compassion pour les candidats refusés à cause de leur « ardeur et de leur passé de souffrance » (Sweeney)",
+   "Doute sur le procès de Fran : le Board s'est trompé, le mélange n'a pas pris"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933-09",
+    "precision": "annee",
+    "moment": "Recruté par lettre après avoir appris l'ouverture à l'école d'été de Surette à Concord ; embauché pour son improvisation au piano et sa candeur qui plaît à Rice. Arrive à Lee Hall en pleine improvisation institutionnelle : mal rasé, plein de doutes, voisin de Joe Martin.",
+    "etat_interieur": "Excitation mêlée d'insécurité professionnelle",
+    "refs": [
+     "EV-02177",
+     "SC-00548",
+     "EV-02165"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "moment": "Élu officiellement parmi les sept premiers instructeurs : chambre et pension gratuites, aucun salaire. Devient traducteur d'Albers avec Zastrow, diverge avec elle sur le sens des phrases ; le système est arrêté sur demande des étudiants.",
+    "etat_interieur": "Loyal mais embarrassé par la cacophonie pédagogique",
+    "refs": [
+     "EV-02195",
+     "SC-00443",
+     "SC-00561",
+     "EV-02202"
+    ]
+   },
+   {
+    "date": "1934",
+    "precision": "annee",
+    "moment": "Invite son ami de Yale Thornton Wilder, première grande visite littéraire ; soirée bilingue au cottage des Dreier, 21 pages de journal sur la visite. Fonde la culture musicale : chants, chorales, écoute collective du Philharmonic de Toscanini.",
+    "etat_interieur": "Dans son élément : la musique comme ciment, l'amitié comme pont vers le monde",
+    "refs": [
+     "EV-02274",
+     "SC-00586",
+     "RE-00944",
+     "EV-01693",
+     "SC-00397"
+    ]
+   },
+   {
+    "date": "1936-02",
+    "precision": "mois",
+    "moment": "Co-auteur du canular du Mondrian avec Sly : la toile cirée aux dimensions exactes, la panique, Albers furieux parlant de 50 000 dollars, l'assemblée, la fouille — puis la restitution nocturne en silence.",
+    "etat_interieur": "Euphorie farceuse, puis frayeur réelle devant la colère d'Albers",
+    "refs": [
+     "SC-00656",
+     "EV-02573",
+     "RE-01024"
+    ]
+   },
+   {
+    "date": "1936-03",
+    "precision": "mois",
+    "moment": "Réunion générale sur l'article d'Adamic : monte au créneau pour dire qu'il y a trop de malice dans la critique communautaire, participant au procès de Rice.",
+    "etat_interieur": "Conflit intime : affection pour Rice, lucidité sur ses excès",
+    "refs": [
+     "SC-00657",
+     "EV-02577"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "annee",
+    "moment": "Compose la partition originale de la Danse Macabre de Schawinsky, spectacle total en rond, public masqué et encapé — anticipation oubliée de l'événement Cage de 1952.",
+    "etat_interieur": "Sommet de sa veine créatrice communautaire",
+    "refs": [
+     "SC-00716",
+     "EV-02765"
+    ]
+   },
+   {
+    "date": "1941-06",
+    "precision": "saison",
+    "moment": "Tournée de collecte de fonds chargé de la Californie : rencontre Henry Fonda, les Frederic March, Mankiewicz ; seul Melvyn Douglas donne réellement de l'argent.",
+    "etat_interieur": "Ambassadeur amusé et lucide d'un collège au bord de la faillite",
+    "refs": [
+     "EV-03222"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "moment": "Quitte le collège et s'engage dans l'armée ; remplacé par Edward Lowinsky. Depuis l'outre-mer, reçoit le lot des déclarations contradictoires de la crise de 1944 et répond à Wunsch sans indulgence ni haine.",
+    "etat_interieur": "Distance douloureuse : juge la scission depuis loin, perd Fran et les Cohen sans regretter Bentley ni Foreman",
+    "refs": [
+     "EV-03254",
+     "EV-02876",
+     "EV-03505",
+     "EV-03506",
+     "EV-03507"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1933-08",
+    "precision": "saison",
+    "moment": "Été à la Concord Summer School of Music de Thomas Whitney Surette (ami de Rice) ; les Dreier y sont aussi ; c'est là qu'il apprend l'existence du collège.",
+    "refs": [
+     "PE-00032",
+     "EV-02177"
+    ]
+   },
+   {
+    "date": "1932",
+    "precision": "annee",
+    "moment": "Critique musical au Brooklyn Eagle l'hiver précédant son arrivée ; formé à Yale (où il connaît Thornton Wilder) et à l'étranger.",
+    "refs": [
+     "EV-02165",
+     "RE-00944",
+     "EV-02177"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Originaire de la Nouvelle-Angleterre, venu via le réseau de Boston (« greater Boston Axis »).",
+    "refs": [
+     "PE-00032"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1942",
+    "precision": "annee",
+    "moment": "Engagement dans l'armée ; correspondance de guerre avec Wunsch sur la crise du collège (lettres 1943-1944).",
+    "refs": [
+     "EV-03254",
+     "EV-03422",
+     "EV-03506",
+     "EV-03507"
+    ]
+   },
+   {
+    "date": "1967-04",
+    "precision": "mois",
+    "moment": "Écrit ses « Reminiscences » / manuscrit « Music at Black Mountain College, 1933-1942 » et un texte sur le programme de travail de BMC.",
+    "refs": [
+     "PE-00032"
+    ]
+   },
+   {
+    "date": "1970-06",
+    "precision": "mois",
+    "moment": "Entretiens des 23 et 27 juin 1970 avec Duberman ; source majeure sur la période fondatrice.",
+    "refs": [
+     "PE-00032"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Admiration critique envers le fondateur, « figure paternelle » aimée, crainte et parfois haïe",
+    "evolution": "De la confiance du recrutement (1933) à la participation mesurée au procès de Rice (1936), puis au sourire ironique « Drama, drama, drama » (1943)",
+    "refs": [
+     "CI-01126",
+     "EV-02577",
+     "EV-03422",
+     "EV-02177"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Collaboration : interprète, professeur d'anglais, témoin du « concert d'images »",
+    "evolution": "Des disputes de traduction (1933) à la complicité esthétique, puis à la peur de sa colère lors du canular du Mondrian (1936)",
+    "refs": [
+     "SC-00443",
+     "EV-02201",
+     "SC-00452",
+     "RE-00796",
+     "SC-00656"
+    ]
+   },
+   {
+    "avec": "Allan Sly",
+    "nature": "Complice de musique et de farce",
+    "evolution": "Sly reconnaît en arrivant (1935) que la vitalité musicale doit beaucoup à Evarts ; co-auteurs du canular du Mondrian, liés par le secret ; Evarts compose la Danse Macabre jouée sous sa direction (1938)",
+    "refs": [
+     "RE-00755",
+     "RE-01024",
+     "EV-02765"
+    ]
+   },
+   {
+    "avec": "Emmy Zastrow",
+    "nature": "Conflit de traduction en classe d'Albers",
+    "evolution": "Divergences ouvertes sur le sens des phrases d'Albers aggravées par Rice ; les étudiants font cesser le système des traducteurs",
+    "refs": [
+     "RE-00774",
+     "EV-02202"
+    ]
+   },
+   {
+    "avec": "Thornton Wilder",
+    "nature": "Amitié de Yale",
+    "evolution": "Evarts initie la visite de 1934, première consécration littéraire du collège",
+    "refs": [
+     "RE-00944",
+     "EV-02274",
+     "SC-00586"
+    ]
+   },
+   {
+    "avec": "Robert Wunsch",
+    "nature": "Confident épistolaire pendant la guerre",
+    "evolution": "Wunsch lui confie ses inquiétudes sur les mœurs et la crise de 1944 ; Evarts répond sans complaisance mais sans trahir l'amitié",
+    "refs": [
+     "RE-01374",
+     "RE-01441",
+     "EV-03378",
+     "EV-03506",
+     "EV-03507"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "L'annonce initiale (1933) ne le crédite que de la musique, sa propre périodisation « 1933-1942, musique et mathématiques » (PE-00032) ajoute les mathématiques — à manier avec prudence.",
+   "Le cours CO-00210 porte une période floue (≈1933→1948) alors qu'Evarts quitte le collège vers 1942 : la date de fin est probablement erronée ou concerne le département de musique en général.",
+   "La Danse Macabre : Duberman 1972 (p. 90) et Díaz 2014 (p. 72-73) s'accordent sur le dispositif en rond mais avec des accents différents (partition originale d'Evarts chez Duberman ; détail des rites funéraires chez Díaz)."
+  ],
+  "situations_revelatrices": [
+   "Au piano à minuit, en sueur, continuant à jouer parce qu'il aime ce que la musique fait aux gens",
+   "La nuit du canular, remettant le Mondrian en silence, tiraillé entre fierté farceuse et peur d'Albers",
+   "Réunion de réadmission : le franc-parler clinique sur des étudiants absents, où il plaide pour le travail et la coopération",
+   "Lisant son journal à contre-courant : seul à trouver « plutôt mauvaise » l'interview qui flatte le collège",
+   "Outre-mer, écrivant à Wunsch : jugeant la scission avec la distance de celui qui a tout construit et ne peut rien défendre"
+  ],
+  "citations": [
+   "CI-00876",
+   "CI-00908",
+   "CI-01126",
+   "CI-01353",
+   "CI-01354",
+   "CI-01595",
+   "CI-01699",
+   "CI-01729"
+  ],
+  "questions_ouvertes": [
+   "Ses dates de naissance et de mort ne sont pas données par les fiches.",
+   "Le contenu complet de ses « Reminiscences » (1967) et de son manuscrit « BMC: 1933-1942 » : notamment ses 21 pages sur Wilder et son journal 1934-1936.",
+   "Ce qu'il devient exactement pendant et après la guerre : unité, théâtre d'opérations, vie ultérieure.",
+   "La nature précise de son enseignement de mathématiques, mentionné seulement par sa propre périodisation.",
+   "Son rôle, s'il y en eut un, dans les débats sur l'intégration raciale du collège (la visite de 1933, la lettre de Wunsch de 1944 sur les risques de l'intégration)."
+  ]
+ }
+}

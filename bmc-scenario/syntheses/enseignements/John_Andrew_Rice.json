@@ -1,0 +1,730 @@
+{
+ "passe": "enseignements",
+ "cle": "John Andrew Rice",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 89267,
+  "sortie": 22699,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "John Andrew Rice",
+  "cours": [
+   {
+    "intitule": "Grec et latin (cours de licence, Université du Nebraska)",
+    "periodes": [
+     "v. 1920-1927"
+    ],
+    "atteste": "non",
+    "objectifs": "Apprendre aux étudiants à penser par eux-mêmes. Lire les classiques pour de vraies questions à se poser soi-même, non pour des examens. Antécédent pré-BMC, à ne pas confondre avec le collège.",
+    "deroule_type_seance": "Cours de plus en plus conversationnels, connus dans toute l'université pour leurs discussions provocantes. Ils partent de Platon ou de Socrate, puis débordent largement. La conversation se poursuit hors classe, en marchant ou au bureau de Rice, dans l'ancien clocher d'University Hall.",
+    "exercices": [
+     {
+      "consigne": "Discussion partant de Platon ou de Socrate puis débordant sur d'autres penseurs et sur les questions des étudiants.",
+      "materiaux": null,
+      "but": "Lire pour de vraies questions et non pour des examens.",
+      "refs": [
+       "CO-00032"
+      ]
+     },
+     {
+      "consigne": "Prolonger la conversation hors de la classe : promenades, passage au bureau de Rice.",
+      "materiaux": null,
+      "but": "Enseigner autant hors des heures de cours que pendant.",
+      "refs": [
+       "CO-00032"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Platon et Socrate (seuls textes nommés dans la fiche CO-00032)"
+    ],
+    "propos_types": [
+     "Rice rapportera plus tard (autobiographie, formulation rétrospective) avoir appris de Sam Avery qu'on ne professe pas ses croyances mais qu'on mène l'élève par une méthode inductive. L'acte humain est un être humain en train d'agir (ID-00387).",
+     "Il juge le curriculum standard une cafétéria de la médiocrité (ID-00389). Il défend un travail d'honneurs libre dans les deux dernières années pour les étudiants exceptionnels (ID-00388).",
+     "Hors classe, il lance des provocations à ses collègues, par exemple une fausse enquête selon laquelle ils préféreraient tous l'immobilier (SC-00174), ou une pique sur un doctorat honorifique (SC-00173)."
+    ],
+    "critique_et_evaluation": "Son humour est pris pour des accusations. Avery lui conseille de se taire six mois ou un an pour obtenir une augmentation (SC-00172, SC-00173). Les fiches y voient l'incompatibilité entre Rice et l'institution.",
+    "reactions_etudiants": "Étudiants venus de tous les collèges de l'université. Une admiration que les autres enseignants ne s'expliquaient pas. Les étudiants disaient que Socrate devait ressembler à Rice.",
+    "evolution": "Le départ du Nebraska mène à New Jersey College for Women, où une doyenne lui demande pourquoi il a quitté le Nebraska (SC-00293). Vient ensuite une année à Londres, où il rejette l'érudition pour l'enseignement vivant (ID-00644), puis Rollins en 1930.",
+    "refs": [
+     "CO-00032",
+     "ID-00387",
+     "ID-00388",
+     "ID-00389",
+     "SC-00172",
+     "SC-00173",
+     "SC-00174",
+     "SC-00293",
+     "ID-00644"
+    ]
+   },
+   {
+    "intitule": "Classe de grec / humanisme grec à Rollins : « Qu'est-ce que l'art ? » (antécédent à BMC)",
+    "periodes": [
+     "1930-1933 (Rollins ; une fiche donne 1931-1933)"
+    ],
+    "atteste": "non",
+    "objectifs": "Rester sur un mot ou une idée jusqu'à ce que chacun croie la comprendre, professeur compris. Former l'esprit critique plutôt qu'enseigner la langue. Chercher de nouvelles prémisses pour des conclusions éternelles sur la vie.",
+    "deroule_type_seance": "Rice entre parfois en retard et s'assied, la pipe en bouche. Quinze à vingt étudiants se tiennent autour d'une table de conférence. Il interroge, relance, donne son avis et rit de son rire qui monte du ventre à la gorge. Aucun plan n'est annoncé : chaque séance suit l'intérêt immédiat de la classe et dure aussi longtemps que nécessaire. Les sujets dérivent vers l'art, la politique du collège, l'économie, la religion, la littérature, le sexe et l'amour.",
+    "exercices": [
+     {
+      "consigne": "Épingler au mur, avant l'arrivée des étudiants, trois ou quatre images découpées dans de vieux calendriers. Ne pas les mentionner et reprendre le fil de la séance précédente jusqu'à ce qu'un étudiant demande ce qu'elles font là.",
+      "materiaux": "Reproductions de calendrier grossièrement exécutées (dont « Sincerity », une tête féminine, une Indienne au bord d'un ruisseau)",
+      "but": "Déclencher la question de l'art par la curiosité des étudiants.",
+      "refs": [
+       "CO-00099",
+       "SC-00368",
+       "CO-00143"
+      ]
+     },
+     {
+      "consigne": "Répondre à la question par « Why? Don't you like them? ». Demander aux partisans puis aux adversaires de justifier leur verdict. Prolonger la discussion sur des semaines, jusqu'à épuisement du sujet.",
+      "materiaux": null,
+      "but": "Amener chacun à constater que sa réponse est peut-être un préjugé hérité (formule des enquêteurs AAUP).",
+      "refs": [
+       "CO-00099",
+       "SC-00368",
+       "ID-00799"
+      ]
+     },
+     {
+      "consigne": "À la fin, avouer que les images sont « obscènes » au sens de leur qualité d'exécution, non de leur contenu.",
+      "materiaux": null,
+      "but": "Montrer que le jugement esthétique ne se réduit pas à la morale.",
+      "refs": [
+       "CO-00099",
+       "ID-01119",
+       "SC-00525"
+      ]
+     },
+     {
+      "consigne": "Question socratique d'ouverture : « Que pensez-vous de ces images de calendrier au mur ? Est-ce de l'art ? »",
+      "materiaux": null,
+      "but": "Lancer le débat sur l'art.",
+      "refs": [
+       "CO-00137",
+       "SC-00370"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucune lecture précisée dans les fiches. Un étudiant rapporte seulement deux pages de latin en un semestre.",
+     "Les images de calendrier tiennent lieu de matériau d'étude."
+    ],
+    "propos_types": [
+     "« I've got to know what these things mean... it's part of my own education » : Rice dit avoir besoin de comprendre et espère que la classe l'aidera (CO-00099).",
+     "Les conclusions sur la vie humaine sont les mêmes à toutes les époques, mais chaque génération doit trouver de nouvelles prémisses (CO-00137).",
+     "Il juge le débat public pervers parce qu'il pousse à gagner plutôt qu'à chercher la vérité (ID-01125). Il tient les rapports d'absence pour du « high school stuff » (ID-00798).",
+     "Il juge deux heures de cours prescrites incompatibles avec la poursuite d'une idée (ID-00790).",
+     "Selon les affidavits, il lui arrive de lancer à un étudiant qu'il est « damn dumb » ou de lui conseiller de payer, prendre son diplôme et partir (SC-00373, SC-00523). Certains faits sont admis, d'autres niés ou jugés exagérés."
+    ],
+    "critique_et_evaluation": "Les enquêteurs AAUP résument la méthode ainsi : remplacer les convictions reçues par des convictions personnelles, par un usage habile du dialogue socratique (ID-00799). La défense y voit une enquête critique qui ramène aux fondamentaux (CO-00143). L'accusation y voit du sarcasme et du harcèlement : Lib quitte la salle en larmes après une demi-heure sur l'utilité de l'art (SC-00386), et un étudiant est raillé chaque semaine pour son emploi du temps (SC-00523). Rice formule ensuite le regret « trop de Socrate, pas assez de Jésus » (ID-00834, SC-00519).",
+    "reactions_etudiants": "Selon Rice, les étudiants sont venus et ont eu « a terrific time ». Betty Young Williams est très stimulée malgré l'absence de contenu. Emily Burks est indignée par deux pages de latin en un semestre. Certains y trouvent le déclencheur de leur maturité, d'autres y subissent un harcèlement sarcastique. Le campus y a vu des images indécentes affichées en classe (CO-00099, CO-00137, CO-00143).",
+    "evolution": "Les fiches se contredisent : CO-00099 marque ce cours comme attesté à BMC, alors que CO-00137 et CO-00143 le placent à Rollins et non à BMC. Les scènes confirment Rollins. Durée du débat : « des semaines » (SC-00368), deux semaines (ID-01119). À BMC, la méthode s'adoucit en facilitation (voir séminaire d'écriture). Les audiences AAUP de 1933 et le départ de Rice mènent à la fondation.",
+    "refs": [
+     "CO-00099",
+     "CO-00137",
+     "CO-00143",
+     "SC-00368",
+     "SC-00370",
+     "SC-00373",
+     "SC-00386",
+     "SC-00523",
+     "SC-00525",
+     "ID-00798",
+     "ID-00799",
+     "ID-00790",
+     "ID-01119",
+     "ID-01125",
+     "ID-00834",
+     "SC-00519"
+    ]
+   },
+   {
+    "intitule": "Séminaire du XVIIIe siècle et production de The Way of the World",
+    "periodes": [
+     "automne 1933"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Non documenté. Le seul lien est l'appartenance de la distribution au « séminaire du XVIIIe siècle ». Rice écrira que lire une pièce est bien, la voir mieux, la jouer, même maladroitement, saisir le rapport entre son et mouvement (ID-01130).",
+    "deroule_type_seance": "Répétitions depuis octobre dans la salle à manger de Lee Hall jusqu'à Noël. Représentation devant la moitié du collège, suivie d'une fête.",
+    "exercices": [
+     {
+      "consigne": "Jouer un rôle dans la pièce, avec répétitions collectives. Rice refuse d'apprendre ses répliques et arpente la scène avec son texte de souffleur roulé comme du papier toilette.",
+      "materiaux": "Texte annoté en rouleau, salle à manger de Lee Hall",
+      "but": "Apprendre par le faire. Mettre le fondateur à égalité avec les autres devant la communauté.",
+      "refs": [
+       "SC-00572",
+       "SC-00506",
+       "ID-01130"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "The Way of the World (pièce citée par son seul titre dans les fiches)"
+    ],
+    "propos_types": [
+     "Margaret Loram le réprimande devant tous : il est parmi les pires et donne un mauvais exemple. Il n'en garde que du respect pour elle (SC-00506).",
+     "« To read a play is good, to see a play is better, but to act in a play however awkwardly is to realize a subtle relationship between sound and movement » (ID-01130)."
+    ],
+    "critique_et_evaluation": "La fiche SC-00572 se demande si Rice refuse d'apprendre son texte ou s'il teste la communauté. La question reste ouverte.",
+    "reactions_etudiants": "Triomphe et fête effrénée après la représentation.",
+    "evolution": "Aucune suite documentée.",
+    "refs": [
+     "SC-00572",
+     "SC-00506",
+     "ID-01130"
+    ]
+   },
+   {
+    "intitule": "Entretiens d'orientation « socratiques » (premier semestre)",
+    "periodes": [
+     "automne 1933"
+    ],
+    "atteste": "oui",
+    "objectifs": "Amener l'étudiant à découvrir ses propres intérêts, sans programme imposé.",
+    "deroule_type_seance": "Entretien en rocking-chair sur le portique de Lee Hall, face aux montagnes. Rice, pipe au poing, refuse la conversation de surface et accueille chaleureusement la réponse sincère. Il oriente ensuite le choix de cours.",
+    "exercices": [
+     {
+      "consigne": "Ouvrir par : « Vous entrez à l'université pour la première fois. Qu'avez-vous envie d'étudier ? ». Resserrer par « quelle période, quel aspect ? ». Accepter une réponse bégayée comme point de départ.",
+      "materiaux": "Un rocking-chair, un portique, la vue sur les montagnes",
+      "but": "Faire démarrer l'auto-propulsion de l'étudiant.",
+      "refs": [
+       "CO-00237",
+       "SC-00554",
+       "SC-00412",
+       "ID-00877"
+      ]
+     },
+     {
+      "consigne": "Greffer des cours que l'étudiant n'aurait pas choisis (composition, musique) après avoir validé son intérêt premier.",
+      "materiaux": null,
+      "but": "Élargir sans contraindre.",
+      "refs": [
+       "SC-00554",
+       "CO-00237"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Devant Cramer, qui veut comprendre les causes de la Dépression : « Well, you have given the college a large order! » (CO-00237, SC-00554).",
+     "Avant l'entretien, Rice parle de « liberté d'abord, puis invitation répétée », sans règlements, sans cours obligatoires ni notes (ID-00877)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Cramer, déstabilisé puis soulagé, accepte des cours (composition, musique) qu'il n'aurait jamais choisis. Les fiches SC-00412 et SC-00554 racontent la même scène avec de légères variantes de lieu (véranda ou portique) et de mots.",
+    "evolution": null,
+    "refs": [
+     "CO-00237",
+     "SC-00554",
+     "SC-00412",
+     "ID-00877"
+    ]
+   },
+   {
+    "intitule": "Séminaire sur Platon / cours quotidien suivi par Dewey",
+    "periodes": [
+     "1934-1935"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non documenté dans les fiches.",
+    "deroule_type_seance": "John Dewey y assiste chaque jour pendant deux semaines (sa première visite), en silence. Nancy Farrell y est inscrite parmi ses six cours. Déduction : CO-00248 et CO-00260 décrivent probablement le même cours.",
+    "exercices": [],
+    "lectures_et_references": [
+     "Platon (par l'intitulé du séminaire)"
+    ],
+    "propos_types": [],
+    "critique_et_evaluation": "Dewey écrit à Rice que le collège existe aux racines d'une vie démocratique et que son travail est impératif (SC-00622). Lors de sa visite, Dewey rejoint des étudiants dans un bar plutôt que de rester au déjeuner officiel (SC-00597).",
+    "reactions_etudiants": null,
+    "evolution": "Dewey rejoint ensuite le conseil consultatif du collège (ID-01149). Le contenu des séances reste inconnu.",
+    "refs": [
+     "CO-00248",
+     "CO-00260",
+     "SC-00622",
+     "SC-00597",
+     "ID-01149"
+    ]
+   },
+   {
+    "intitule": "Séminaire d'écriture (writing seminar / workshop)",
+    "periodes": [
+     "1933-1936 (format public, plusieurs enseignants)",
+     "1937-1938 (study de Rice, Lee Hall)",
+     "1938-1941 selon une fiche (voir contradiction)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Développer l'individu par l'activité auto-dirigée et la consolidation de l'expérience, non pour publier. Déshabituer l'étudiant de plaire au professeur. À partir de 1937 : faire sortir sur le papier ce qu'on a en tête et mesurer l'effet sur le lecteur. Fiche tardive : étirer l'esprit et approfondir la compréhension par la méthode socratique.",
+    "deroule_type_seance": "1933-36 : aucune exigence sur qui écrit ni sur ce qui est écrit. Forme et contenu sont libres. Étudiants et enseignants lisent leurs textes créatifs, que le groupe discute et critique. Au moins quatre enseignants de disciplines différentes assistent à chaque séance, pour montrer comment une idée apparaît à des spécialistes. 1937-38 : une fois par semaine, deux heures après le dîner, dans le study de Rice à Lee Hall, avec six à douze étudiants. Si l'échange est passionnant, il dure jusqu'à minuit. S'il est très passionnant, Rice sort une caisse de bière et la séance dépasse largement minuit. Rice y est facilitateur plus que meneur socratique, et sa dureté s'adoucit.",
+    "exercices": [
+     {
+      "consigne": "Écrire ce qu'on veut, sous la forme qu'on veut. Lire et faire critiquer à voix haute son texte.",
+      "materiaux": null,
+      "but": "Consolider l'expérience personnelle, non préparer une publication.",
+      "refs": [
+       "CO-00205",
+       "CO-00288"
+      ]
+     },
+     {
+      "consigne": "Retenir les étudiants qui veulent soumettre leurs textes à des revues.",
+      "materiaux": null,
+      "but": "Éviter que la vanité ou la recherche d'approbation prenne le pas sur la découverte de soi.",
+      "refs": [
+       "CO-00205",
+       "SC-00595"
+      ]
+     },
+     {
+      "consigne": "Lire aux étudiants ses propres pages : histoires d'enfance en Caroline du Sud, futurs chapitres de son autobiographie.",
+      "materiaux": "Manuscrit de Rice",
+      "but": "Montrer l'écriture en train de se faire, par l'exemple.",
+      "refs": [
+       "CO-00288",
+       "CO-00297"
+      ]
+     },
+     {
+      "consigne": "Tutorat individuel selon le besoin : orthographe avec Mary Barnes pour Sue Spayth Riley.",
+      "materiaux": null,
+      "but": "Répondre à une difficulté précise.",
+      "refs": [
+       "CO-00288"
+      ]
+     },
+     {
+      "consigne": "Pour Willimetz, intéressé par la forme littéraire : écrire une même brève histoire dix fois dans le style de dix auteurs différents, avec Mangold et Puce comme tuteurs.",
+      "materiaux": null,
+      "but": "Travailler la forme par le pastiche.",
+      "refs": [
+       "CO-00288"
+      ]
+     },
+     {
+      "consigne": "Lire à voix haute un pastiche (celui de Riley sur la littérature abstraite). Un détail d'orthographe (« bowl » écrit avec un E) déclenche le rire du groupe.",
+      "materiaux": null,
+      "but": "Pas de but énoncé dans la fiche ; la séance montre un climat de complicité.",
+      "refs": [
+       "SC-00692"
+      ]
+     },
+     {
+      "consigne": "Tutorat individuel de spécialisation en écriture pour un étudiant demandeur.",
+      "materiaux": null,
+      "but": null,
+      "refs": [
+       "CO-00140"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Textes des étudiants et des enseignants",
+     "Récits d'enfance sudiste de Rice (autobiographie en cours)",
+     "Pastiches de dix auteurs (non nommés)"
+    ],
+    "propos_types": [
+     "Rice dissuade les étudiants de chercher à publier. Selon Adamic, certains textes lus étaient définitivement publiables, d'autres suggéraient le talent ou le génie (SC-00595).",
+     "Devant ses collègues en 1936, il explique qu'il enseigne à la manière de recueillir l'idée de chacun parce qu'il ne sait pas. Il précise que cela ne vaut que pour un cours à faible contenu factuel (SC-00668).",
+     "Le seminaire en petit comité adopte un dialogue chaleureux, presque grand-paternel, la porte de l'étude ouverte tard le soir (CO-00290)."
+    ],
+    "critique_et_evaluation": "Rice est dépeint à son meilleur pédagogique (CO-00288). Sa méthode d'enseignement socratique est perçue comme atteignant et élevant Riley (CO-00290).",
+    "reactions_etudiants": "Riley s'y sent atteinte et élevée. Willimetz trouve touchant que deux professeurs éminents collaborent pour inventer un cours pour un seul étudiant. Adamic, visiteur, est impressionné par certains textes.",
+    "evolution": "Du séminaire public à plusieurs enseignants (1933-36) à l'étude privée (1937-38). Contradiction : CO-00290 situe le séminaire en 1938-1941, alors que Rice est mis en congé de mars 1938 (SC-00733) et démissionne en février 1940 (SC-00789, SC-00790). CO-00297 le montre partageant ses pages à l'automne 1938 avec les étudiants qui seuls le voient encore régulièrement. Il faut sans doute lire une activité réduite et semi-clandestine, après 1938 au plus tard (SC-00729), mais ce n'est pas établi.",
+    "refs": [
+     "CO-00140",
+     "CO-00205",
+     "CO-00288",
+     "CO-00290",
+     "CO-00297",
+     "SC-00595",
+     "SC-00692",
+     "SC-00668",
+     "SC-00733",
+     "SC-00729"
+    ]
+   },
+   {
+    "intitule": "Latin et grec à BMC (supprimés)",
+    "periodes": [
+     "premières années du collège, puis abandon (date non précisée)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Formation linguistique classique, selon l'intitulé de la fiche. Aucun programme décrit.",
+    "deroule_type_seance": "Non documenté.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": "Un étudiant voulait poursuivre le latin. Rice, ayant perdu tout intérêt, cessa d'enseigner les langues et n'offrit rien (CO-00239, CO-00140). Il avait déjà jugé la grammaire morte à Tulane (ID-00120).",
+    "reactions_etudiants": "Un étudiant demande un équivalent pour le latin, sans réponse.",
+    "evolution": "Rice se tourne vers l'écriture et l'enseignement en conversation (voir séminaire d'écriture).",
+    "refs": [
+     "CO-00239",
+     "CO-00140",
+     "ID-00120"
+    ]
+   },
+   {
+    "intitule": "Enseignement informel : foyer de Lee Hall, marches, soirées d'étudiants",
+    "periodes": [
+     "1933-1938 environ"
+    ],
+    "atteste": "oui",
+    "objectifs": "Éduquer l'homme entier par un homme entier, sans cloison entre classe et vie. Deux tiers de la valeur du collège naîtraient de ce qui se passe hors des cours (ID-01148).",
+    "deroule_type_seance": "Rice s'installe près de la grande cheminée de pierre de Lee Hall, pipe en main, prêt à discuter des grandes questions avec quiconque s'approche. Il tire les passants dans la conversation, s'invite sans prévenir dans une chambre d'étudiant ou marche avec un étudiant. Le thème glisse de l'anecdote à la philosophie du collège.",
+    "exercices": [
+     {
+      "consigne": "Lancer au coin du feu : « Inventons une religion », où la meilleure part de soi monte dans le corps et le pire est poussé vers la surface du monde.",
+      "materiaux": "Cheminée de pierre de Lee Hall",
+      "but": "Transformer chaque soirée en classe.",
+      "refs": [
+       "SC-00541",
+       "SC-00487"
+      ]
+     },
+     {
+      "consigne": "Interpeller un étudiant à brûle-pourpoint sur sa vie privée : « Hope, voudrais-tu qu'il soit le père de tes enfants ? » ou « Pourquoi diable n'épouses-tu pas Betty ? ».",
+      "materiaux": null,
+      "but": "Provoquer la franchise (parfois libératrice, parfois intrusive).",
+      "refs": [
+       "SC-00540",
+       "SC-00411"
+      ]
+     },
+     {
+      "consigne": "Interrompre une étude pour inviter l'étudiant à parler à un visiteur : « Allez, Aldous Huxley est là. »",
+      "materiaux": null,
+      "but": "Ouvrir le collège au monde.",
+      "refs": [
+       "SC-00508",
+       "SC-00690"
+      ]
+     },
+     {
+      "consigne": "Provoquer en assemblée : proposer de fermer le collège le soir même, parce que les institutions survivent à leurs buts.",
+      "materiaux": "Hall de Lee Hall, réunion générale",
+      "but": "Éprouver l'attachement de la communauté. La séance s'achève sans conclusion, Rice fumant sa pipe.",
+      "refs": [
+       "SC-00651",
+       "ID-01102"
+      ]
+     },
+     {
+      "consigne": "Se joindre sans prévenir à quatre ou cinq étudiants et raconter ses rencontres (New York, Edgar Lee Masters chez les Dewey). Répondre à une plainte sur la rhétorique du « changement » par le danger de produire un « type Black Mountain ».",
+      "materiaux": null,
+      "but": "Aider chacun à devenir un individu et non un individualiste.",
+      "refs": [
+       "SC-00425",
+       "SC-00585",
+       "ID-00902"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aldous Huxley, visiteur",
+     "Edgar Lee Masters (anecdote racontée)",
+     "Platon est cité par Rice (SC-00684, un jeune économiste lui reproche de toujours citer Platon, mort depuis longtemps)"
+    ],
+    "propos_types": [
+     "Les institutions meurent à force de durer. Il souhaite voir le collège se scinder après dix ans en petits groupes fondant d'autres collèges (ID-01423).",
+     "Les ambitieux laissent des vies brisées. Il en parle dans le lobby de Lee Hall, pipe allumée (ID-01406).",
+     "Il blague sur les « fermiers » qui devraient aller à pied à la ferme (SC-00408).",
+     "Il relativise la justice sociale (ID-00907) et dénonce la chevalerie sudiste comme insulte aux femmes (ID-01523), mais ces propos sont datés de lettres ou d'écrits plus tardifs et leur place en séance est incertaine."
+    ],
+    "critique_et_evaluation": "Cette autorité de fait suscite la méfiance. Les étudiants lui reprochent un Socrate insensible lors de la lecture publique de l'article d'Adamic en 1936 (SC-00652, SC-00657). Rice plaide en réponse qu'ils partagent la faute de l'avoir élevé en lui apportant des problèmes qu'ils pourraient traiter seuls, et leur demande de former de petits anti-Rices (ID-01285).",
+    "reactions_etudiants": "Adamic voit Rice au centre d'un groupe, rires, disputes, puis colère qui arrache les gens à la fange pour les tourner vers les étoiles (SC-00542).",
+    "evolution": "Les conflits de gouvernance de 1936-1937, puis le congé de 1938 et la démission de 1940, mettent fin à cette présence quotidienne.",
+    "refs": [
+     "SC-00541",
+     "SC-00487",
+     "SC-00540",
+     "SC-00411",
+     "SC-00508",
+     "SC-00690",
+     "SC-00651",
+     "ID-01102",
+     "SC-00425",
+     "SC-00585",
+     "ID-00902",
+     "SC-00408",
+     "SC-00652",
+     "SC-00657",
+     "ID-01285",
+     "ID-01148",
+     "SC-00542",
+     "ID-01423",
+     "ID-01406",
+     "SC-00684"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "La liberté d'abord, puis l'invitation répétée : supprimer les listes d'interdits, puis entourer l'étudiant d'invitations à la littérature, à l'art, à la musique, à être agréable à avoir autour.",
+    "en_classe": "Ouvrir l'entretien par « Un monde entier s'ouvre devant vous. Qu'avez-vous envie d'étudier ? » et accepter une réponse bégayée comme point de départ, comme avec Cramer en 1933.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00877",
+     "SC-00554",
+     "SC-00412",
+     "CO-00237"
+    ]
+   },
+   {
+    "idee": "La vraie pauvreté est l'absence d'invitation, d'une chose offerte à saisir.",
+    "en_classe": "Offrir aux étudiants des choses à saisir plutôt que des matières imposées. Transposition déduite de l'idée, non attestée en séance.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00008"
+    ]
+   },
+   {
+    "idee": "Penser, faire, puis réfléchir sur ce qu'on a fait soi-même : l'art comme discipline de départ, qui forme des choisisseurs et non des artistes.",
+    "en_classe": "Proposer un atelier de dessin, de musique ou de théâtre. Demander de décrire ce qu'on pensait faire, ce qu'on a fait, ce qu'on en juge. Le produit compte moins que l'ordre que le geste instaure. Le catalogue de 1933-34 énonce la doctrine ; la forme d'exercice est déduite. Les citations sur McCarthy « marvelous chooser of evil » sont probablement une reformulation rétrospective, car elles sont placées dans un texte de 1933.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00807",
+     "ID-00862",
+     "ID-00881",
+     "ID-00879",
+     "ID-00860",
+     "ID-00249"
+    ]
+   },
+   {
+    "idee": "Enseigner la méthode, pas le contenu ; le processus, pas le résultat. Les faits changent, la manière de les manier demeure.",
+    "en_classe": "Demander à l'étudiant comment il a traité le problème. Un examen type demande de concevoir une housse de piano et d'énumérer les facteurs à considérer, pour tester l'acuité critique plutôt que la mémoire.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00804",
+     "ID-00857",
+     "ID-01039",
+     "ID-01032"
+    ]
+   },
+   {
+    "idee": "Pas de plan préalable : on ne peut pas codifier le comportement humain au-delà des tâches matérielles (« above the level of bricklaying »).",
+    "en_classe": "Refuser de remplir un plan de cours à l'avance, comme Rice devant les fondations Carnegie et Rockefeller. La formule attribuée à Rice sur le plan d'une maison et le plan d'une vie est une paraphrase de la fiche, non une citation attestée.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01121",
+     "SC-00405",
+     "SC-00020",
+     "ID-00052"
+    ]
+   },
+   {
+    "idee": "Un art volontairement « obscène » (exécrable dans sa forme) comme point de départ d'un cours sur l'art, par la curiosité des étudiants.",
+    "en_classe": "Épingler des images médiocres et attendre la question. Puis : « Pourquoi ? Vous ne les aimez pas ? ». Faire justifier chaque camp. Attesté à Rollins, non à BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-01119",
+     "SC-00368",
+     "ID-00799",
+     "CO-00099"
+    ]
+   },
+   {
+    "idee": "Les règles sont le dernier refuge de la médiocrité ; la durée d'une discussion doit suivre le débat, non l'horloge.",
+    "en_classe": "Un cours sans plan annoncé ni cloche. L'enseignant pose des questions jusqu'à ce que le groupe trouve ce qui mérite examen, puis n'en sort plus. Attesté à Rollins ; au collège, la liberté de durée est visible dans les séances d'écriture jusqu'à minuit.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00798",
+     "ID-00790",
+     "CO-00288"
+    ]
+   },
+   {
+    "idee": "On n'enseigne pas une matière, on enseigne ce qu'on est. Il faut regarder un étudiant à la fois plutôt que parler à la classe.",
+    "en_classe": "Construire une action dramatique entre deux personnes, comme Albers face à Nancy Farrell. La formule est dite en réunion de faculté à l'automne 1936. Les fiches divergent sur la date et sur la présence de Rice à la séance.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01267",
+     "ID-01353",
+     "SC-00665"
+    ]
+   },
+   {
+    "idee": "Un bon enseignant est plus apprenant qu'enseignant, avec humour et ironie profonde sans cynisme.",
+    "en_classe": "L'enseignant arrive en se demandant ce que les étudiants lui apprendront aujourd'hui.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01276"
+    ]
+   },
+   {
+    "idee": "Les bons disciples sont ceux du malaise mental. Le collège ne peut contenir trop de personnalités dangereuses : celles du système philosophique clos et celles qui fabriquent des disciples.",
+    "en_classe": "Débat de faculté sur le seuil entre conviction et dogme. Chacun examine son dogme au lieu de présumer sa justesse.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01270",
+     "ID-01356",
+     "SC-00670"
+    ]
+   },
+   {
+    "idee": "Le plus grand danger du collège est de produire un « type Black Mountain ». Il faut aider chacun à développer son meilleur moi comme individu et non comme individualiste.",
+    "en_classe": "Conversation de soirée dans une chambre d'étudiant, en réponse à une plainte sur la rhétorique du changement.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00902",
+     "ID-01207",
+     "SC-00425",
+     "SC-00585"
+    ]
+   },
+   {
+    "idee": "Les institutions survivent aveuglément à leurs buts : fermer à son sommet pour rester unique.",
+    "en_classe": "Réunion générale où l'on propose de décider le soir même de fermer le collège, et où chacun doit défendre son attachement.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01102",
+     "SC-00651"
+    ]
+   },
+   {
+    "idee": "Toutes les opinions ne se valent pas ; le seul pouvoir légitime est la persuasion. Ne jamais flatter un étudiant.",
+    "en_classe": "Distinguer persuasion légitime et flatterie pernicieuse lors d'une assemblée. Attesté lors des débats de 1937, où Alsberg et Coleman contestent cette hiérarchie des jugements.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01361",
+     "ID-01417",
+     "ID-01351",
+     "SC-00700",
+     "SC-00705"
+    ]
+   },
+   {
+    "idee": "Socrate seul ne suffit pas : il faut y ajouter Jésus, c'est-à-dire l'affection, pour ne pas étriper les étudiants par le sarcasme.",
+    "en_classe": "Un professeur qui provoque doit aussi aimer ses étudiants. La formule est lancée à Holt en 1933 à Rollins et reprise par un étudiant à BMC en 1936 (Goldenson, « il nous faudrait un peu de Jésus »). Rice la reprend ensuite à son compte.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00834",
+     "SC-00519",
+     "SC-00657"
+    ]
+   },
+   {
+    "idee": "Pas de conformité forcée : l'étudiant ne rivalise qu'avec lui-même ; la mesure du succès est la distance entre soi et ce qu'on veut créer.",
+    "en_classe": "Ne jamais comparer les travaux entre eux. Demander à chacun de rivaliser avec ce qu'il était hier.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00878",
+     "ID-00858"
+    ]
+   },
+   {
+    "idee": "La communauté entière est le professeur : tâches réelles (bois, routes, ferme) à la place du sport artificiel.",
+    "en_classe": "Séance de travail manuel collectif mêlant étudiants et professeurs, suivie d'une réflexion. La ferme est reprise par les étudiants en 1934. Rice moque pourtant les « fermiers » qui partent en voiture (SC-00408).",
+    "atteste": "oui",
+    "refs": [
+     "ID-00861",
+     "SC-00292",
+     "SC-00408",
+     "ID-01129"
+    ]
+   },
+   {
+    "idee": "Le repas et la vie commune sont une classe permanente ; l'éducation a lieu vingt-quatre heures par jour.",
+    "en_classe": "Aucune cloison entre classe et vie : chaque repas, chaque corvée est matière d'apprentissage.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01123",
+     "ID-01148",
+     "ID-01100"
+    ]
+   },
+   {
+    "idee": "Le dessin comme discipline fondamentale du voir, à enseigner à tous, sans école d'art.",
+    "en_classe": "Un cours de dessin pour tous les étudiants, approche « forte et virile » pour désamorcer le préjugé de la matière de mauviette. Programme d'art conçu avec Albers, Rice n'enseignant pas lui-même le dessin.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00840",
+     "SC-00413",
+     "SC-00440",
+     "SC-00538"
+    ]
+   },
+   {
+    "idee": "L'éducation doit se soucier de ce que les gens sentent, pas seulement de la pensée pure. L'intelligence est l'équilibre entre intellect et émotions.",
+    "en_classe": "Demander à quoi sert la pensée si elle ne touche pas ce que l'on ressent. Exiger des étudiants qu'ils pensent avec leur vie entière.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00054",
+     "ID-01045"
+    ]
+   },
+   {
+    "idee": "Les Great Books ne sont pas une éducation ; ce que l'on fait de ce que l'on sait est l'essentiel. Exclure ce qui doit être vu ou entendu, c'est amputer l'expérience.",
+    "en_classe": "Comparer Eschyle et la sculpture de Chichen-Itza, et demander pourquoi exclure l'une parce qu'elle n'est pas dans un livre. Idée publiée dans Harper's en 1937, non attestée comme séance.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00056",
+     "ID-01101",
+     "ID-00906"
+    ]
+   },
+   {
+    "idee": "Le collège est un lieu éducatif de passage, non une communauté idéale, et le gouvernement par les étudiants a des limites.",
+    "en_classe": "Désamorcer l'attente d'utopie devant des visiteurs : on vient pour quitter. Rice se heurte aux étudiants et affirme que les décisions d'embauche ne relèvent pas d'eux.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01360",
+     "ID-01095",
+     "ID-01351",
+     "SC-00700"
+    ]
+   },
+   {
+    "idee": "Passer à l'âge adulte, c'est cesser de collectionner des connaissances pour demander ce qu'elles signifient ; savoir ne suffit pas.",
+    "en_classe": "Dire aux étudiants de ne pas apporter des faits rangés en séries mais de demander ce qu'ils signifient. Transposition imaginée par la fiche, tirée de son enfance, non attestée en séance.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00083",
+     "ID-01129"
+    ]
+   },
+   {
+    "idee": "La mesure du temps de présence détruit l'éducation : la vraie question est « sais-tu ? » et non « es-tu assis, et combien de temps ? ».",
+    "en_classe": "Conversation sur l'absence de crédits, de notes et de registrar à BMC. L'origine est son expérience de Tulane en 1908, avant BMC.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00119",
+     "SC-00059",
+     "ID-00417"
+    ]
+   },
+   {
+    "idee": "Refuser de livrer son avis pour laisser l'élève penser seul, modèle hérité de John Webb et de Sam Avery.",
+    "en_classe": "Répondre à une question d'avis par un silence ou une pirouette. Webb répond à Rice à propos de The Clansman que certaines personnes aiment ce genre de choses. Modèle pré-BMC.",
+    "atteste": "non",
+    "refs": [
+     "SC-00050",
+     "SC-00049",
+     "ID-00387"
+    ]
+   },
+   {
+    "idee": "Le récit d'un détail minuscule peut porter tout le poids d'une relation humaine.",
+    "en_classe": "Leçon d'écriture : prendre un incident du quotidien et le laisser porter le rapport humain (modèle de « Miss Hattie »). Déduit de son autobiographie ; lien avec ses séminaires d'écriture non attesté.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01581",
+     "CO-00288"
+    ]
+   },
+   {
+    "idee": "La courtoisie crée la distance nécessaire à la vie privée dans une communauté isolée. Elle est souvent transgressée par Rice lui-même.",
+    "en_classe": "Règle affichée de conduite. Contraste attesté : conseil brutal du golf pro à un jeune instructeur en philosophie, avec ses conséquences durables.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00876",
+     "SC-00409",
+     "SC-00410",
+     "SC-00672",
+     "SC-00673"
+    ]
+   }
+  ]
+ }
+}

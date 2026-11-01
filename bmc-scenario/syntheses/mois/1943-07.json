@@ -1,0 +1,222 @@
+{
+ "passe": "mois",
+ "cle": "1943-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3555,
+  "sortie": 8762,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1943-07",
+  "session": "Session d'été probable (déduit : travail d'été et « promesses d'été » ; aucune date de session dans les fiches)",
+  "saison_et_climat": "Été 1943 : chaleur écrasante, poussière blanche sur les routes en terre, travail physique en plein air.",
+  "situation": "Le collège est en été, entre chantier, mine de mica et recherche de fonds. La faculté est réduite et tendue, et la rentrée n'est pas encore décidée : elle ne le sera qu'à la fin d'août. Le chantier communautaire touche à sa fin, et le recrutement reste faible.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "quatre jeunes filles de l'équipe de route (non nommées)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Lane (témoin de la scène de la route, source EV-03429)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Patsy Lynch (piano au Round House, probablement)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Molly Gregory (vente de légumes en été)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Andrew Rice ou Nell Rice (non documentés pour ce mois)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier (correspondance avec Marshall Field datée du 24 juillet 1943)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch (présent selon les fiches de la rentrée et du Nouvel An ; contredit par Burns)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus (accuse Bentley en faculté pendant l'été 1943)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eric Bentley (recruté pour l'histoire, visé par Straus cet été)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1943-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers dirige l'équipe de route en pantalon blanc : quatre jeunes filles nivellent le chemin sous une chaleur écrasante, avec poussière et râteaux. Il explique la courbe qui assure le drainage. Le témoin Lane retient le sentiment d'avoir fait sien ce bout de route.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03429"
+    ]
+   },
+   {
+    "date": "1943-07-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Dreier écrit à Marshall Field, qui propose 10 000 dollars. Le collège sollicite aussi les Babbott et John Burchard.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03430"
+    ]
+   },
+   {
+    "date": "1943-07",
+    "precision": "saison",
+    "ce_qui_arrive": "La mine de mica ouverte sur la propriété pour l'effort de guerre absorbe une partie de l'énergie et des espoirs du collège. Les fiches divergent sur son sort (voir tensions).",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1943",
+    "precision": "saison",
+    "ce_qui_arrive": "Molly Gregory tente de vendre un surplus de légumes au village et à Asheville.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1943",
+    "precision": "saison",
+    "ce_qui_arrive": "Straus accuse Bentley en faculté d'endoctriner dans un sens pro-soviétique et anti-britannique. Bentley répond par une déclaration en sept points.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Travail manuel au grand air : graviers, nivellement, lambrissage et peinture des halls du lodge, sous la direction d'Albers. Vie musicale : pianos au Round House, par l'arpège de Patsy Lynch, et répétitions du Quatuor Kolisch au réfectoire (datation de ces répétitions non précisée). Vente de surplus de légumes. Albers peint la nuit dans la salle blanche de Black Dwarf (datation non précisée).",
+  "tensions": [
+   "Le sort de la mine de mica diverge selon les fiches : l'énergie qu'elle absorbe ne se lit pas de la même façon dans toutes les sources.",
+   "La faculté est partagée : les nouveaux enseignants, énergiques, se heurtent à Albers, Dreier et Wunsch qui dominent toujours.",
+   "Accusation de Straus contre Bentley (pro-soviétique), qui rouvre la guerre idéologique interne.",
+   "Finances fragiles : Dreier a évoqué en mars la nécessité de licenciements, et l'argent d'été repose sur des promesses.",
+   "Recrutement faible : les hommes sont partis, et des jeunes femmes ont rejoint les WACs, les WAVES et les usines de munitions.",
+   "Statut de Wunsch contradictoire : Burns le dit parti en 1943, les fiches le montrent pourtant présent à la rentrée et au Nouvel An."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La route de Lane",
+    "date": "1943-07",
+    "lieu": "route en terre entre le réfectoire et le portail d'entrée",
+    "personnages": [
+     "Josef Albers",
+     "quatre jeunes filles de l'équipe de route",
+     "Lane"
+    ],
+    "deroule": "Sous une chaleur écrasante, Albers lisse l'air de la main pour montrer la courbe du drainage. Les jeunes filles râtissent et nivellent, la poussière blanche leur monte aux narines. Lane observe, puis comprend que ce chemin est devenu le leur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03429"
+    ]
+   },
+   {
+    "titre": "Le piano derrière les portes vitrées",
+    "date": "1943-07",
+    "lieu": "Round House",
+    "personnages": [
+     "Patsy Lynch",
+     "Lane (probable)"
+    ],
+    "deroule": "Des arpèges de piano sortent du Round House pendant que les équipes travaillent dehors. Patsy Lynch, probablement à l'ombre derrière les portes vitrées, répète tandis que la chaleur pèse sur le chemin.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03429"
+    ]
+   },
+   {
+    "titre": "La lettre à Marshall Field",
+    "date": "1943-07-24",
+    "lieu": null,
+    "personnages": [
+     "Dreier",
+     "Marshall Field (hors scène)"
+    ],
+    "deroule": "Dreier écrit à Marshall Field, qui a proposé 10 000 dollars. La lettre sollicite un soutien alors que le collège décide sa rentrée et compte sur des promesses d'été.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03430"
+    ]
+   },
+   {
+    "titre": "Le surplus de légumes",
+    "date": "1943",
+    "lieu": "village voisin et Asheville",
+    "personnages": [
+     "Molly Gregory"
+    ],
+    "deroule": "Molly Gregory charge des légumes en surplus et tente de les vendre au village, puis à Asheville, pour soutenir les finances du collège.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "La mine et la route",
+    "date": "1943-07",
+    "lieu": "propriété du collège, près de la mine de mica",
+    "personnages": [
+     "Josef Albers",
+     "étudiants de la mine (non nommés)"
+    ],
+    "deroule": "Des équipes partagent leur temps entre la route et la mine de mica. Le travail physique absorbe les énergies, et les espoirs de l'effort de guerre rivalisent avec l'économie du collège.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "la route de juillet, quand Albers dirige le chantier",
+    "vers_date": "1940",
+    "vers": "Le chantier communautaire est lancé à l'automne 1940 (synthèse 1943, sans identifiant de fiche) et doit durer près de trois ans.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'été de la mine et de la promesse de 17 000 dollars",
+    "vers_date": "1943-08",
+    "vers": "Fin août, la faculté décide de rouvrir, « dans l'euphorie du mica », avec 17 000 dollars de promesses d'été et 55 étudiants espérés, dont 20 à 25 % de garçons.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la lettre de juillet à Marshall Field",
+    "vers_date": "1943-09-06",
+    "vers": "Jean Charlot arrive les 6 et 7 septembre et donne sa conférence sur le Mexique ; on lui demande d'enseigner l'été suivant.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'accusation de Straus contre Bentley, été 1943",
+    "vers_date": "1944",
+    "vers": "Les épisodes de la guerre idéologique interne aboutissent probablement à la scission de 1944 (déduction à partir de fiches datées ≈1942-1944).",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la faiblesse du recrutement pendant l'été",
+    "vers_date": "1943-10",
+    "vers": "À la mi-octobre, le dernier contingent de l'Enlisted Reserve Corps est parti et Sam Brown, atteint de polio, reste le seul étudiant masculin.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "Le travail manuel comme consolation et comme appropriation du lieu (« ce bout de route était à nous »).",
+   "Le mica et la rentrée : l'espoir de l'effort de guerre face à la pauvreté du recrutement.",
+   "La codification de la vie collective, qui tient malgré la guerre.",
+   "La rivalité entre anciens (Albers, Dreier, Wunsch) et nouveaux enseignants.",
+   "Les fils new-yorkais (de Kooning, Cage, Cunningham) qui n'atteignent BMC qu'en flash-forward."
+  ],
+  "lacunes": "La synthèse 1943 n'a pas d'identifiant et n'est citée que dans le texte, pas dans refs. On ignore le nombre de présents en juillet, la présence de Sam Brown, le rôle exact de Lane, le sort définitif de la mine de mica, la date de l'accusation de Straus et la présence réelle de Wunsch en été (contradiction avec Burns). Les dates de la musique au réfectoire et des peintures nocturnes d'Albers ne sont pas fixées."
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "passe": "enseignements",
+ "cle": "Xanti Schawinsky",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 4418,
+  "sortie": 6712,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Xanti Schawinsky",
+  "cours": [
+   {
+    "intitule": "Stage Studies (études de scène)",
+    "periodes": [
+     "à partir de 1936",
+     "1936-1937 (catalogue de cours)",
+     "1937-1938",
+     "deux ans, jusqu'en 1938"
+    ],
+    "atteste": "oui",
+    "objectifs": "Attesté : le cours n'est pas une formation à une branche du théâtre contemporain. C'est une étude générale des phénomènes fondamentaux (espace, mouvement, temps). La scène est un laboratoire où les étudiants construisent une compréhension des fondamentaux de la création scénique, et un medium entièrement éducatif. Elle sert aussi de paramètre physique à l'intégration du cursus. Elle se distingue du cursus Dramatics de Robert Wunsch. L'orientation est celle d'un théâtre non narratif d'« expérience totale ».",
+    "deroule_type_seance": "Aucun emploi du temps de séance n'est attesté dans les fiches. Attesté : les travaux étaient montrés en performance publique, et chaque scène était à la fois spectacle, démonstration et relevé du travail étudiant. Attesté aussi : des saynètes étaient mises au point par improvisation répétée (fiche sur le Spectodrama de 1936-37). Déduction : le rythme d'une séance (improvisation, mise au point, montrage) est reconstitué à partir de ces éléments et n'est pas documenté tel quel.",
+    "exercices": [
+     {
+      "consigne": "Manipuler devant le public des figurines composées de plans mobiles de couleurs contrastées, en les recouvrant les uns les autres, pour montrer comment l'intensité chromatique varie lors des recouvrements (partie 1, scène 7 de la démonstration publique).",
+      "materiaux": "Figurines à plans mobiles, couleurs contrastées, éclairage.",
+      "but": "Démontrer la variation d'intensité chromatique ; la scène vaut aussi comme examen de fin de cours.",
+      "refs": [
+       "CO-00276",
+       "SC-00644"
+      ]
+     },
+     {
+      "consigne": "Réaliser des études de scène sur une série de thèmes élémentaires : optique, forme et couleur, acoustique, son, langage, musique, temps, espace, architecture, technologie, illusion. Ce sont des saynètes archétypales classées par concept.",
+      "materiaux": "Corps costumés et accessoires géométriques ; costumes inspirés de formes abstraites, masques, jeux d'ombre et de lumière.",
+      "but": "Faire percevoir la différence et la similitude. Le corps costumé se fond dans les accessoires géométriques ou s'en détache.",
+      "refs": [
+       "CO-00276",
+       "ID-00410",
+       "CO-00287"
+      ]
+     },
+     {
+      "consigne": "Monter des saynètes improvisées puis répétées, avec des corps camouflés dans des formes géométriques à fort contraste, sur l'Ursonate de Schwitters. Exemple : un performeur en rouleaux de papier blanc entrelacés émerge d'un décor de papiers torsadés vers un fond vide.",
+      "materiaux": "Formes géométriques contrastées, papier blanc en rouleaux et torsadé, Ursonate de Schwitters.",
+      "but": "Travailler la rigueur formelle et l'abstraction, comme laboratoire du théâtre Bauhaus implanté en Amérique.",
+      "refs": [
+       "SC-00650",
+       "ID-00410"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Ursonate de Kurt Schwitters, utilisée comme bande sonore des saynètes (attesté pour le Spectodrama de 1936-37).",
+     "Le travail de Schawinsky au Bauhaus (1927) sert de base (attesté, fiche sur le Spectodrama)."
+    ],
+    "propos_types": [
+     "Le théâtre est une étude générale de l'espace, du mouvement et du temps, pas une formation au théâtre (paraphrase de l'objectif attesté).",
+     "La scène est un medium d'éducation : on y construit la compréhension des fondamentaux (paraphrase).",
+     "Le spectateur doit être fondu avec l'interprète, la scène étant traitée comme œuvre d'art totale : c'est l'enjeu de la scène des figurines, formulé par la fiche et non cité comme parole directe."
+    ],
+    "critique_et_evaluation": "La scène publique des figurines servait à la fois de spectacle, de démonstration et d'examen de fin de cours (attesté). Les fiches ne disent rien des notes ou des critères.",
+    "reactions_etudiants": "Aucune réaction d'étudiant propre à ce cours n'est donnée. Le public est décrit comme devenant observateur-spectateur, dans une atmosphère ludique et optique.",
+    "evolution": "Le cours débute en 1936, moins d'un an après l'arrivée de Schawinsky. Il est attesté en 1936-37 (catalogue) puis en 1937-38, et s'arrête en 1938 : le départ en 1938 est une déduction à partir de « deux ans, jusqu'en 1938 ». Les sources se recoupent sur la durée de deux ans. Les fiches ne distinguent pas toujours Stage Studies et Spectodrama : la scène des figurines est rattachée aux deux. Voir le cours suivant.",
+    "refs": [
+     "CO-00275",
+     "CO-00276",
+     "CO-00281",
+     "CO-00287",
+     "CO-00291",
+     "ID-00410",
+     "ID-00552",
+     "SC-00644",
+     "SC-00650"
+    ]
+   },
+   {
+    "intitule": "Spectodrama",
+    "periodes": [
+     "milieu des années 1930 (CO-00103)",
+     "1936-1937 (montage à BMC selon d'autres fiches)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire interchanger les arts et les sciences, avec le théâtre comme laboratoire d'expérimentation. Chercher un nouvel alphabet d'expression. Le Spectodrama remplace la logique narrative par une « interaction symphonique » d'éléments visuels.",
+    "deroule_type_seance": "Attesté : une soirée complète, fondée sur le travail de Schawinsky au Bauhaus en 1927. Attesté pour 1936-37 : des saynètes répétées par improvisation. Aucun déroulé de séance régulier n'est donné.",
+    "exercices": [
+     {
+      "consigne": "Créer des représentations scéniques de concepts, à partir de points de vue multiples, avec des représentants de toutes les disciplines.",
+      "materiaux": "Couleur et forme, mouvement et lumière, son et mot, geste et musique, illustration et improvisation.",
+      "but": "Faire jouer l'interchange entre arts et sciences et inventer un nouvel alphabet d'expression.",
+      "refs": [
+       "CO-00103"
+      ]
+     },
+     {
+      "consigne": "Jouer des saynètes archétypales où des corps camouflés dans des formes géométriques contrastées évoluent sur l'Ursonate de Schwitters.",
+      "materiaux": "Formes géométriques, papier blanc, Ursonate.",
+      "but": "Implanter le théâtre Bauhaus en Amérique.",
+      "refs": [
+       "SC-00650",
+       "ID-00410"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Kurt Schwitters, Ursonate.",
+     "Les travaux de Schawinsky au Bauhaus (1927)."
+    ],
+    "propos_types": [
+     "Le théâtre est un lieu de recherche où interagissent symphoniquement couleur, forme, mouvement, lumière, son, mot et geste, au lieu de raconter une histoire (paraphrase de la fiche)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Dépaysant (« eye-opening ») pour l'époque, presque partout dans le monde. La fiche ne précise pas qui réagit : il s'agit peut-être du public plutôt que des étudiants.",
+    "evolution": "Divergence de datation : « milieu des années 1930 » pour une fiche, 1936-37 pour une autre. Cela suggère une datation imprécise de la même activité. Le prolongement le plus visible est Danse Macabre (1938), spectacle en cercles concentriques. Le public y est masqué et encapé, avec une partition originale d'Evarts et l'orchestre du BMC sous Sly. Une autre version décrit des acteurs masqués aux costumes abstraits, avec des mouvements répétitifs de rites funéraires sous projecteurs et ombres. Les deux versions sont compatibles et ne se contredisent pas. Le spectacle est présenté comme anticipation oubliée de l'événement Cage de 1952 : c'est un jugement rétrospectif.",
+    "refs": [
+     "CO-00103",
+     "ID-00410",
+     "SC-00644",
+     "SC-00650",
+     "SC-00716"
+    ]
+   },
+   {
+    "intitule": "Dessin",
+    "periodes": [
+     "jusqu'en 1938 (deux ans)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non documentés.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": "Dans une réunion de 1937, Schawinsky parle d'un étudiant (« Carter ») : égocentrique le trimestre précédent, il fait maintenant des choses pour le groupe. Il reste parfois des jours sans rien faire, mais on ne peut pas savoir s'il ne pense pas. Evarts souhaite qu'il trouve un travail pour apprendre à coopérer ; Weston regrette un échec avec une personne de grande capacité ; Albers le juge très talentueux mais unilatéral, et estime qu'il a besoin d'une forte réalité. Le verdict est qu'il vaut mieux qu'il entre dans le monde extérieur. Il s'agit d'une évaluation d'étudiant en réunion, pas d'un cours de dessin. La fiche est classée ici faute de mieux et sans lien établi avec ce cours.",
+    "reactions_etudiants": null,
+    "evolution": "Le cours n'est attesté que par la mention « stage studies et dessin, deux ans, jusqu'en 1938 ». Rien d'autre n'est connu de son contenu.",
+    "refs": [
+     "CO-00291",
+     "SC-00680"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Un théâtre non narratif d'« expérience totale », laboratoire où l'on perçoit différence et similitude. On y joue des saynètes archétypales par concept élémentaire (optique, forme, couleur, acoustique, son, langue, musique, temps, espace, architecture, technologie, illusion).",
+    "en_classe": "Attesté : Spectodrama monté à BMC en 1936-37. Déduction : on peut donner à chaque groupe un concept élémentaire à jouer en saynète. Le corps costumé s'y fond dans les accessoires géométriques ou s'en détache, comme le performeur en papier blanc.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00410",
+     "SC-00650",
+     "CO-00276"
+    ]
+   },
+   {
+    "idee": "La perception est relationnelle : l'espace du spectateur et celui du spectacle ne doivent pas être séparés, et le sens varie selon le point de vue.",
+    "en_classe": "Appliqué à Stage Studies dès 1936 d'après la fiche. Le projet de 1927 (public sur des îles, acteurs sur plateformes, roues, trampoline, cuve vitrée) vient du Bauhaus, pas de BMC. La transposition proposée est de faire circuler les étudiants dans l'espace scénique pendant l'exercice, de changer leur point de vue et de discuter de ce qui change. Cet exercice de circulation est une suggestion de la fiche, non attestée comme pratique du cours.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00552"
+    ]
+   },
+   {
+    "idee": "La scène comme paramètre physique de l'intégration du cursus : une étude de l'espace, du mouvement et du temps plutôt qu'une formation au théâtre.",
+    "en_classe": "Attesté : le cours est distingué du cursus Dramatics de Wunsch. Déduction : un même exercice scénique peut relier optique, acoustique, architecture et langage, mais aucune séance interdisciplinaire précise n'est documentée.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00275",
+     "CO-00276"
+    ]
+   },
+   {
+    "idee": "Le montrage public sert à la fois de spectacle, de démonstration et de relevé du travail étudiant, voire d'examen de fin de cours.",
+    "en_classe": "Attesté : la scène des figurines de couleurs en 1936. Elle fait du public un observateur-spectateur et fusionne spectateur et interprète.",
+    "atteste": "oui",
+    "refs": [
+     "SC-00644",
+     "CO-00276"
+    ]
+   },
+   {
+    "idee": "Le spectacle immersif en cercles : le public masqué et encapé, placé en cercles concentriques autour de la scène centrale.",
+    "en_classe": "Attesté : Danse Macabre (1938), avec partition d'Evarts, orchestre sous Sly et la communauté comme public masqué. Ce n'est pas une séance de cours mais une production communautaire, que l'on peut transposer en exercice de placement du public.",
+    "atteste": "oui",
+    "refs": [
+     "SC-00716"
+    ]
+   },
+   {
+    "idee": "Une pédagogie qui récolte l'idée de chacun, et un idéal de personnalité capable de s'abstraire d'elle-même.",
+    "en_classe": "Attesté : en réunion de faculté, Schawinsky témoigne de la méthode de Rice (récolter l'idée de chacun), que Rice limite aux cours à faible contenu factuel. Schawinsky propose aussi l'idéal de la personnalité qui s'abstrait elle-même. Ce sont des propos de réunion, non un principe documenté de son cours. Leur transposition dans les Stage Studies n'est pas attestée.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-00668",
+     "SC-00670"
+    ]
+   }
+  ]
+ }
+}

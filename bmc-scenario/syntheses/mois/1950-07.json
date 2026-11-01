@@ -1,0 +1,381 @@
+{
+ "passe": "mois",
+ "cle": "1950-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6648,
+  "sortie": 13768,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1950-07",
+  "session": "session d'été, probablement en cours (déduit de la vie d'été décrite dans les fiches, sans date de session donnée)",
+  "saison_et_climat": "Plein été dans les Blue Ridge : chaleur, longs après-midi à la rivière, serpents et tritons dans l'eau, électricité rationnée et essence rare (déduit des notations de l'été). Coups de soleil et peau « noire comme la terre » chez les baigneurs.",
+  "situation": "Mi-juillet 1950, le collège n'a pas de recteur : Ballou a refusé le poste, et Huss occupe au moins la fonction de business manager (EV-05244), que d'autres sources présentent comme un rectorat accepté après cinq visites de la communauté (EV-04952, EV-04955, à dater). Le Board a voté en juin contre le réengagement des Levi et de Fiore ; M.C. Richards a été réintégrée presque aussitôt. Albers est parti : il est attaché à Yale et écrit de loin pour fixer ses conditions. Goodman vient d'arriver ou vient de créer l'éclat de l'été, et la faculté se divise sur son maintien. La gauche Levi–Richards tient encore le terrain mais touche à sa fin (déduit).",
+  "presents_probables": [
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tom (partenaire de baignade de Rumaker, identité non fixée par les fiches)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wesley Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Richard Ballou",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Robert Turner",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Paul Goodman",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Johanna Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Max Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Stamos (avec ses élèves)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Frankenthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Greenberg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "dramaturge pacifiste de passage (non nommé)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1950-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Ballou refuse le rectorat, invoquant la confusion entre communauté et éducation ; Huss accepte le poste de business manager.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05244"
+    ]
+   },
+   {
+    "date": "1950-07-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers écrit que l'une de ses conditions à Yale est d'éviter l'essentiel de l'administration.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05253"
+    ]
+   },
+   {
+    "date": "1950-07-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers conserve dans sa collection de coupures une photo de quatre-vingt-dix voiliers du Long Island Sound, à rapprocher de son exercice sur les bancs de poissons.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05254"
+    ]
+   },
+   {
+    "date": "1950-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Lecture ratée d'un dramaturge pacifiste au sous-sol des Studies : les rires gagnent le public, l'auteur s'enfuit sans revenir.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05251",
+     "SC-01347"
+    ]
+   },
+   {
+    "date": "1950-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker, fauché, reçoit d'Olson la suggestion d'un travail de nuit aux filatures de Swannanoa ; il refuse, et Olson lui propose 5 dollars pour laver les fenêtres.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05252",
+     "SC-01348"
+    ]
+   },
+   {
+    "date": "1950-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Baignades quotidiennes à Snake River, avec pierres lancées par des fils de fermiers depuis les buissons.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05245"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Goodman arrive en affirmant la liberté sexuelle, provoque une explosion ; un ancien marine l'accuse d'avoir uriné en public pendant un match de softball ; la faculté vote massivement contre son maintien.",
+    "certitude": "probable",
+    "refs": [
+     "SYNTH-1950"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Pendant la réunion sur Goodman, Levi, qui le défend, est frappé par Trayer ; Oppenheimer saute sur le dos de Trayer, Johanna Jalowetz l'encourage. Goodman repart ensuite.",
+    "certitude": "probable",
+    "refs": [
+     "SYNTH-1950"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Stamos emmène ses élèves peindre au mont Mitchell et change de langage pictural.",
+    "certitude": "probable",
+    "refs": [
+     "SYNTH-1950"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Frankenthaler rend visite à Greenberg, dessine beaucoup, nage sous la cascade et repart.",
+    "certitude": "probable",
+    "refs": [
+     "SYNTH-1950"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Installation du studio de poterie par Robert Turner, de l'autre côté du lac (tours, four à huile, four électrique) ; M.C. Richards y apprend le tournage.",
+    "certitude": "probable",
+    "refs": [
+     "SYNTH-1950"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Goodman écrit The Quiet House, maison-fête d'après Mondrian de Don Alter ; une fête de même nature est évoquée. Un dîner jazz au sommet avec George Shearing est mentionné.",
+    "certitude": "probable",
+    "refs": [
+     "SYNTH-1950"
+    ]
+   }
+  ],
+  "quotidien": "Les après-midi se passent à la rivière (tourbillon, rochers, tritons pris pour des serpents). Le dimanche soir, lectures et programmes au sous-sol des Studies, où le public rit à qui mieux mieux. Certains étudiants travaillent à l'extérieur ou cherchent des petits boulots (filatures, fenêtres à laver pour 5 dollars). Côté poterie, on monte les tours et on apprend à tourner de l'autre côté du lac. Repas, dîners et fêtes ponctuent les semaines, sur fond de rationnement de l'électricité et de rareté de l'essence.",
+  "tensions": [
+   "La violence de la réunion sur Goodman (Levi frappé par Trayer) reste dans toutes les mémoires.",
+   "Le fossé entre conservateurs (Trayer, Corkran, le groupe Forbes) et gauche (Levi, Richards, Flola Shepard) s'aggrave : l'« été homosexuel » devient pour les conservateurs la preuve de la désintégration morale.",
+   "Le rectorat est vacant et mal défini : Ballou a refusé, Huss est ambigu, et la faculté ne sait pas quel pouvoir donner à qui.",
+   "Dépendance et argent : Rumaker est fauché, le collège le tient par le travail et la charité conditionnelle ; Albers laisse un contentieux (fonds de pension, bois).",
+   "Cruauté collective : le rire de la salle contre le dramaturge, la complicité de Rumaker, l'ascendant d'Olson sur le groupe.",
+   "Les Quakers craignent pour leurs enfants ; Dehn juge dangereuse la rhétorique de la liberté de Goodman ; Levi la défend comme un prix raisonnable pour son génie."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Supplication dentaire à la porte d'Olson",
+    "date": "1950-07",
+    "lieu": "Porte arrière de Charles Olson, puis cabinet d'un dentiste",
+    "personnages": [
+     "Michael Rumaker",
+     "Charles Olson"
+    ],
+    "deroule": "Rumaker, paniqué par un plombage tombé, frappe à la porte moustiquaire. Olson, habillé et agacé sur son lit, le fait supplier deux fois avant d'accepter. Trajet silencieux en Ford décapotable, consultation efficace, retour silencieux.",
+    "certitude": "probable",
+    "refs": [
+     "SC-01346"
+    ]
+   },
+   {
+    "titre": "Lecture humiliée du dramaturge pacifiste",
+    "date": "1950-07",
+    "lieu": "Sous-sol des Studies Building",
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker",
+     "dramaturge visiteur",
+     "Wesley Huss"
+    ],
+    "deroule": "Dimanche soir. Le dramaturge lit avec assurance. Olson ricane doucement puis plus fort, la salle suit, Rumaker rit aussi. L'auteur accélère, jette des regards affolés, termine au galop et disparaît dans la nuit. Huss, seul vrai pacifiste présent, reste figé.",
+    "certitude": "probable",
+    "refs": [
+     "SC-01347",
+     "EV-05251"
+    ]
+   },
+   {
+    "titre": "Cinq dollars pour laver les fenêtres",
+    "date": "1950-07",
+    "lieu": "Black Mountain College, salon et bibliothèque",
+    "personnages": [
+     "Michael Rumaker",
+     "Charles Olson"
+    ],
+    "deroule": "Après le refus de Rumaker des filatures de Swannanoa, Olson propose comme par hasard 5 dollars pour laver les fenêtres et épousseter les livres du salon. Rumaker sait que la somme lui permettrait de tenir quelques semaines ; la charité prend la forme d'un travail.",
+    "certitude": "probable",
+    "refs": [
+     "SC-01348",
+     "EV-05252"
+    ]
+   },
+   {
+    "titre": "Baignade dans Snake River",
+    "date": "1950-07",
+    "lieu": "Snake River, près du collège",
+    "personnages": [
+     "Michael Rumaker",
+     "Tom"
+    ],
+    "deroule": "Longs après-midi au tourbillon et sur les rochers. Tom rassure Michael en nommant « newts » les tritons qui ressemblent à des serpents. Des fils de fermiers lancent parfois des pierres depuis les buissons. Les deux garçons sortent noirs de soleil.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05245"
+    ]
+   },
+   {
+    "titre": "Refus de Ballou et choix de Huss",
+    "date": "1950-07",
+    "lieu": null,
+    "personnages": [
+     "Richard Ballou",
+     "Wesley Huss",
+     "faculté"
+    ],
+    "deroule": "Mi-juillet, Ballou décline le rectorat au nom de la confusion entre communauté et éducation. Huss accepte le poste administratif. Les conservateurs abandonnent l'espoir d'une réorganisation responsable.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05244"
+    ]
+   },
+   {
+    "titre": "Albers pose ses conditions depuis le Connecticut",
+    "date": "1950-07-12",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers écrit que l'une de ses conditions pour Yale est d'éviter l'essentiel de l'administration. Il s'éloigne ainsi de Black Mountain, où il laisse un contentieux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05253"
+    ]
+   },
+   {
+    "titre": "Réunion contre Goodman",
+    "date": null,
+    "lieu": "Réunion de la faculté",
+    "personnages": [
+     "Paul Goodman",
+     "Levi",
+     "Trayer",
+     "Oppenheimer",
+     "Johanna Jalowetz",
+     "Max Dehn"
+    ],
+    "deroule": "La faculté vote massivement contre le maintien de Goodman. Levi le défend et évoque l'abandon de la ferme déficitaire. Trayer le frappe en pleine réunion. Oppenheimer saute sur son dos, Jalowetz l'encourage. Levi remarque qu'il ne savait pas l'enseignement si dangereux. Goodman repart.",
+    "certitude": "probable",
+    "refs": [
+     "SYNTH-1950"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "pendant la lecture humiliée du dramaturge, Rumaker rit avec la salle",
+    "vers_date": null,
+    "vers": "l'humiliation qu'il a subie jadis d'Olson, dont il devient le bourreau à son tour",
+    "refs": [
+     "EC-02634",
+     "SC-01347"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "pendant les baignades dans la rivière, sauvage et menaçante",
+    "vers_date": null,
+    "vers": "la peur homosexuelle retrouvée à San Francisco, dans un autre refuge de tolérance, quelques années plus tard",
+    "refs": [
+     "EC-02632",
+     "EC-02633"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "à Swannanoa et après le vol de Chattanooga et La Nouvelle-Orléans, Rumaker est fauché",
+    "vers_date": null,
+    "vers": "le narrateur futur rira de ces morpions et de ce vol : la honte devenue matière littéraire",
+    "refs": [
+     "EC-02635",
+     "EV-05252"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la querelle de l'été autour de Goodman",
+    "vers_date": null,
+    "vers": "l'influence de l'esprit de communauté de BMC dans la culture américaine après la fermeture",
+    "refs": [
+     "EC-02575"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'été 1950, où Olson commence à se détacher de la faculté",
+    "vers_date": "1950",
+    "vers": "Olson part vers la fin de l'année pour le Yucatan et y écrit les Mayan Letters à Creeley",
+    "refs": [
+     "SYNTH-1950"
+    ]
+   }
+  ],
+  "motifs": [
+   "dette et dépendance économique",
+   "charité déguisée en travail",
+   "la rivière comme miroir sauvage et réduit du collège",
+   "serpents et tritons : menace déguisée",
+   "le rire collectif comme cruauté",
+   "vacance du pouvoir et rectorat mal défini",
+   "violence en réunion comme limite du débat",
+   "homosexualité comme objet de peur et de scandale"
+  ],
+  "lacunes": "Aucune date au jour n'est donnée pour la lecture du dramaturge, l'explosion Goodman ni la rixe en réunion. La présence d'Olson en juillet est contestée : Rumaker le met en scène cet été-là, alors que les fiches le font commencer à enseigner à l'automne ; ces épisodes sont à dater avec prudence. Huss : business manager (EV-05244) ou recteur accepté après cinq visites (EV-04952, EV-04955), évolution non datée. L'identité du Tom de la rivière n'est pas fixée par les fiches. La présence d'Albers, de Levi et de Stamos en juillet n'est pas documentée au jour."
+ }
+}

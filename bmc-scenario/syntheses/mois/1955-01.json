@@ -1,0 +1,398 @@
+{
+ "passe": "mois",
+ "cle": "1955-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 16860,
+  "sortie": 18953,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1955-01",
+  "session": "Suspension des cours : tous les cours ont été suspendus juste avant Noël 1954 pour trois mois, soit jusqu'à environ mars 1955 (≈).",
+  "saison_et_climat": "Hiver rude. Presque plus de charbon, les camionnées de bois brûlent en une soirée dans les fours. À New York, nuits d'un froid mordant.",
+  "situation": "Point bas du collège. Huit à dix personnes restent sur le campus haut, le réfectoire est fermé et la cuisine se fait en groupes de trois à cinq pour environ deux dollars par semaine, avec des vivres volés à l'A&P grâce à la complicité d'une caissière. Les professeurs ne sont pas payés depuis un an et certains ont épuisé leurs économies. L'appel de décembre n'a rapporté qu'environ 250 $. Au moins une tentative de suicide et des menaces d'autres. Le campus passe pour une ville fantôme : un acheteur potentiel pour un centre d'enfants perturbés ne trouve personne, et un visiteur de nuit repart en taxi à l'aube. Contre ses principes, le collège accepte le fils déficient d'un riche Sudiste, dont le père doit signaler sa décision en inclinant les ailes de son avion ; l'avion ne vient jamais. Rumaker, lui, est à New York : il travaille chez IBM et vient de quitter l'appartement de Ben pour une chambre à Greenwich Village.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Fiore",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Tom Field",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jerry Van de Wiele",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ed Dorn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1954-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Le collège suspend ses cours pour trois mois, il ne reste que huit à dix personnes, presque plus de charbon, et un incendie détruit presque toutes les peintures de Joe Fiore.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06492"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Épisode de l'avion : le collège accepte le fils arriéré d'un riche Sudiste, et pendant trois ou quatre jours la communauté erre dans les champs à guetter un signal qui ne vient jamais, tandis que l'argent n'arrive pas.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06491"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Rumaker tape le premier jet d'« Exit 3 » chez Ben, sur une machine portative prêtée, en suivant le conseil d'Olson : écrire ce qu'on connaît.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06504",
+     "EC-03108"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Soirée dans un loft de Hoboken : Goodman s'épanche, lance à Rumaker « So you think I'm a devil », et Rumaker rentre seul à Manhattan, trahi par Glenn.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06494",
+     "SC-01752"
+    ]
+   },
+   {
+    "date": "1954-12-31",
+    "precision": "jour",
+    "ce_qui_arrive": "Réveillon à Times Square avec Merrill, puis première nuit de Rumaker avec lui, dans le lit de Ben.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06515",
+     "EC-03105"
+    ]
+   },
+   {
+    "date": "1955-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Rupture avec Ben, qui hurle à Rumaker de partir. Rumaker emménage dans une chambre du deuxième étage du 230 West 11th Street, à 7 $ par semaine.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06666",
+     "EV-06671",
+     "EV-06672",
+     "SC-01801"
+    ]
+   },
+   {
+    "date": "1955-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker entre chez IBM World Trade comme clerk-typist pour 60 $ par semaine. Il ment sur la durée de son engagement, car il compte repartir pour Black Mountain au printemps.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06668",
+     "EV-06670",
+     "SC-01802",
+     "SC-01803"
+    ]
+   },
+   {
+    "date": "1955-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Première lecture de « The Pipe » dans le loft de Merrill, puis lecture à une secrétaire catholique et réactions tièdes ou admiratives de collègues.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06677",
+     "EV-06678",
+     "SC-01806",
+     "SC-01807"
+    ]
+   },
+   {
+    "date": "1955-01-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Rumaker écrit à Olson : reprise du tutorat Shakespeare, projet de Chaucer au printemps, visée d'un diplôme en juin, et ragots new-yorkais sur Olson qui le mettent en colère.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06682"
+    ]
+   },
+   {
+    "date": "1955-01-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Panel « Nature and the New Painting II » à 39 East 8th Street : O'Hara défend une acception large de la « nature » qui inclut l'abstraction, en prenant pour exemple Elaine de Kooning.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06683"
+    ]
+   },
+   {
+    "date": "1955-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Lettre de l'étudiant Goldring à Albers depuis l'HfG Ulm : le cours glisse vers le concret suisse et sud-américain, et l'on attend le retour d'Albers à l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06679"
+    ]
+   },
+   {
+    "date": "1955-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Rauschenberg déménage à Pearl Street, se lie d'amitié avec Jasper Johns et décore des vitrines pour Tiffany et Bonwit Teller.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06680"
+    ]
+   },
+   {
+    "date": "1955-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Le groupe surréaliste publie dans Médium no 4 l'exclusion de Max Ernst, « à son gré ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06681"
+    ]
+   }
+  ],
+  "quotidien": "Cours suspendus. Réfectoire fermé, cuisine commune par petits groupes, vivres en partie volés, bois brûlé dans les fours et charbon presque absent. Les professeurs travaillent sans salaire depuis un an. À New York, Rumaker travaille chez IBM, déjeune en cachette de Dubonnet avec Marisa Traina, et écrit le soir. Les fiches ne décrivent pas la musique ni les cours de ce mois sur le campus.",
+  "tensions": [
+   "Rumaker entre sa double vie new-yorkaise et son image d'employé IBM, qu'il craint de voir démasquée",
+   "La rupture avec Ben, la chambre trop chère et la quête d'emploi pressante",
+   "Le collège, dont les professeurs ne sont pas payés, accepte un élève pour de l'argent contre ses principes",
+   "Olson est la cible de ragots à New York, sur son bégaiement, son talent et sa logique, et le collège passe pour fermé",
+   "La survie financière dépend de la dette hypothécaire, dont l'échéance se rapproche",
+   "Rumaker se découvre attaché à Merrill et se sent coupable devant la religion de sa famille"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Guetter le ciel",
+    "date": "1954-12",
+    "lieu": "champs autour du Black Mountain College",
+    "personnages": [
+     "les membres restés sur le campus"
+    ],
+    "deroule": "Pendant trois ou quatre jours, les huit à dix personnes restantes errent dans les champs le nez en l'air, à l'écoute d'un avion qui ne vient jamais. L'argent promis par le père reste lui aussi suspendu à ce signal.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06491",
+     "EV-06492"
+    ]
+   },
+   {
+    "titre": "Le réveillon de Times Square",
+    "date": "1954-12-31",
+    "lieu": "Times Square, Bryant Park, puis le grand lit de Ben",
+    "personnages": [
+     "Michael Rumaker",
+     "James Merrill"
+    ],
+    "deroule": "Foule immense et pression humaine. Ils fuient vers Bryant Park, finissent la pinte de whiskey sur un banc sous les klaxons, puis rentrent chez Ben au petit matin. Ce que Merrill voulait à Black Mountain arrive enfin, dans la culpabilité et la honte.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06515",
+     "EC-03105"
+    ]
+   },
+   {
+    "titre": "Hoboken, la soirée de Goodman",
+    "date": "1954-12",
+    "lieu": "loft à Hoboken, New Jersey",
+    "personnages": [
+     "Paul Goodman",
+     "Glenn Lewis",
+     "Michael Rumaker"
+    ],
+    "deroule": "Goodman, en habit d'ouvrier, répète ses inquiétudes sur un jeune homme blessé. Rumaker murmure que Paul ressemble à un diable. Goodman vient droit à lui : « So you think I'm a devil ». Rumaker, trahi par Glenn, rentre seul en bus.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01752",
+     "EV-06494"
+    ]
+   },
+   {
+    "titre": "Expulsion par Ben",
+    "date": "1955-01",
+    "lieu": "appartement de Ben, 230 West 11th Street",
+    "personnages": [
+     "Michael Rumaker",
+     "Ben"
+    ],
+    "deroule": "Rumaker surprend Ben qui se masturbe dans la salle de bain. Ben, furieux, hurle de partir. Rumaker reconnaît qu'il ne peut pas lui en vouloir.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01801",
+     "EV-06666"
+    ]
+   },
+   {
+    "titre": "Le regard de Watson par-dessus les classeurs",
+    "date": "1955-01",
+    "lieu": "bureau IBM World Trade, First Avenue",
+    "personnages": [
+     "Michael Rumaker",
+     "Alan Watson",
+     "John Connolly"
+    ],
+    "deroule": "Watson, fils du fondateur, surgit et dévisage le clerk aux vêtements anachroniques et aux cheveux trop longs. Rumaker croit sa double vie découverte, puis Watson hoche la tête et repart.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01802",
+     "EV-06670"
+    ]
+   },
+   {
+    "titre": "Dubonnet chez Ferdi's",
+    "date": "1955-01",
+    "lieu": "Ferdi's, First Avenue",
+    "personnages": [
+     "Michael Rumaker",
+     "Marisa Traina"
+    ],
+    "deroule": "Déjeuner alcoolisé, interdit, avec une autre railleuse secrète. Ils comparent les ordinateurs IBM à des cercueils des morts.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01803",
+     "EV-06678"
+    ]
+   },
+   {
+    "titre": "Lire au loft glacé",
+    "date": "1955-01",
+    "lieu": "loft de Merrill, Lower East Side",
+    "personnages": [
+     "Michael Rumaker",
+     "James Merrill"
+    ],
+    "deroule": "Après le travail et le subway, Rumaker lit « The Pipe » dans le froid, la buée de son souffle dans l'air. Merrill écoute, sourire amusé, comme aux soirées de lecture de Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01806",
+     "EV-06677"
+    ]
+   },
+   {
+    "titre": "La secrétaire catholique et « The Pipe »",
+    "date": "1955-01",
+    "lieu": "bureaux IBM World Trade",
+    "personnages": [
+     "Michael Rumaker",
+     "la secrétaire catholique"
+    ],
+    "deroule": "Entre deux lettres, la secrétaire lit la nouvelle. Joues rougies, elle avoue n'avoir jamais rien lu de tel et se dit très impressionnée. Pour Rumaker, c'est un test avant d'oser montrer le texte à sa famille.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01807",
+     "EV-06678"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "La nuit du Nouvel An chez Ben, Rumaker cède enfin à Merrill",
+    "vers_date": null,
+    "vers": "Les années de Black Mountain où Merrill voulait cet acte et où Rumaker se refusait",
+    "refs": [
+     "EC-03105",
+     "EC-03106"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La lecture de « The Pipe » chez Merrill, qui aime qu'on lui lise",
+    "vers_date": null,
+    "vers": "Les soirées de lecture à deux à Black Mountain",
+    "refs": [
+     "EC-03109"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker écrit « Exit 3 » en suivant le conseil d'Olson",
+    "vers_date": "1954",
+    "vers": "L'automne 1954 au collège, la discipline d'écriture née de « The Truck »",
+    "refs": [
+     "EC-03108"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Hiver new-yorkais : Rumaker repense au démantèlement du collège, bétail et charrues vendus",
+    "vers_date": null,
+    "vers": "La ferme et le campus de Black Mountain en pleine activité",
+    "refs": [
+     "EC-03154"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1955 : Connolly voit déjà en Rumaker un futur compagnon d'ivrogne",
+    "vers_date": "2000",
+    "vers": "L'alcoolisme de Rumaker, puis les ordinateurs de bureau qui descendent des monstres IBM",
+    "refs": [
+     "EC-03107"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La secrétaire lit « The Pipe », test avant l'épreuve familiale",
+    "vers_date": null,
+    "vers": "L'envoi de la revue à la mère, puis la révélation tardive d'un geste maternel par Kay Hoffman",
+    "refs": [
+     "EC-03112"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker écrit « The Pipe » dans sa chambre-cabine, en fièvre",
+    "vers_date": null,
+    "vers": "Une nouvelle qui revient sans fin dans sa vie après 1955",
+    "refs": [
+     "EC-03156"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La lettre de Creeley annonçant la publication de la revue",
+    "vers_date": "1968",
+    "vers": "Rumaker dira à Duberman que la Black Mountain Review était « notre Bible »",
+    "refs": [
+     "EC-03098"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le froid et la faim comme décor d'une communauté qui survit par ses dettes",
+   "L'attente d'un signal qui ne vient jamais, l'avion et l'argent",
+   "Le secret de Rumaker : emploi d'employé, désir pour les hommes, famille à distance",
+   "Le travail comme écran, bureau IBM contre écriture nocturne",
+   "Le désir inassouvi de Merrill qui trouve enfin son objet hors du collège",
+   "L'alternance ville et collège, qui structure l'écriture de Rumaker"
+  ],
+  "lacunes": "Date de l'épisode de l'avion : Duberman le place à la charnière 1954-1955, Lane en 1955 ; la fiche EV-06491 le situe en décembre-janvier. Creeley : EV-06492 le dit déjà parti avant Noël, alors que la synthèse indique qu'il quitte le collège en avril 1955 ; sa présence en janvier reste incertaine. Retour de Rumaker : la synthèse dit fin février, la lettre du 13 janvier et EV-06668 disent fin mars ou début mars. On ne sait pas précisément qui est resté sur le campus ; seules des présences probables sont données, sans liste nominative. Olson : sa présence en janvier est déduite, la première trace de lui sur place est une lettre de février. Les fiches ne disent rien de la reprise des cours, de la nourriture ou des sorties en janvier. Le premier incendie ne reçoit pas de date précise."
+ }
+}

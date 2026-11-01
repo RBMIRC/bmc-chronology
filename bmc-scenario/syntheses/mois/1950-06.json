@@ -1,0 +1,397 @@
+{
+ "passe": "mois",
+ "cle": "1950-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 9490,
+  "sortie": 17858,
+  "cache_lu": 0,
+  "cache_ecrit": 2613
+ },
+ "donnees": {
+  "mois": "1950-06",
+  "session": "Fin du trimestre de printemps, à l'entrée de la session d'été (déduit : les fiches parlent de l'été sans fixer la coupure).",
+  "saison_et_climat": "Juin, début de l'été sudiste : chaleur qui monte, lac et rivières où l'on se baigne. Les détails d'électricité rationnée, de rareté de l'essence et de serpents viennent des récits de l'été en général, pas de juin précisément.",
+  "situation": "Fin juin, le Board a voté à bulletin secret contre le réengagement de M.C. Richards, des Levi et de Joe Fiore. La faculté s'y oppose, un sondage étudiant soutient les trois, et un compromis donne au recteur trois ans garantis avec un pouvoir partagé avec le Board. Des offres partent pour le rectorat (Ballou) et le poste de business manager (Huss). Gropius annonce à Albers en juin qu'il n'aura pas Harvard, et son départ pour Yale se dessine. Le collège traverse une crise de légitimité : le vote contredit l'opinion étudiante et la faculté conteste le Board.",
+  "presents_probables": [
+   {
+    "nom": "Mary Caroline Richards",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tom Field",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Flola Shepard",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nick Cernovich",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Fitton",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Corkran",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Don Warrington",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Pete Jennerjahn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Jennerjahn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Robert Turner",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Goodman",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stamos",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frankenthaler",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Gropius informe Albers qu'il n'aura pas le poste de Harvard pour raisons bureaucratiques, après une correspondance de mars où il le disait premier choix. Albers se tourne vers Yale.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05223"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board (huit des vingt-deux membres de faculté, dominé par les conservateurs) vote à bulletin secret le non-réengagement des Levi, de Joe Fiore et de M.C. Richards, assimilée à son mari. Fiore est visé pour sa liaison avec Mary Fitton, sa femme étant internée près d'Asheville.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05229",
+     "SC-01341"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Nick Cernovich organise un sondage étudiant : une large majorité veut le réengagement de M.C., et aussi celui de Levi et de Fiore. Les sources ne s'accordent pas sur la date (les dates de juin et du 23 mars circulent).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05230"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "La faculté adopte un compromis : rectorat garanti pour trois ans, nominations et réengagements partagés avec le Board, budget annuel soumis à l'approbation du Board, recteur non enseignant.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05231"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Fin juin, la faculté offre le rectorat à Richard Ballou (Ethical Culture) et le poste de business manager, avec l'art dramatique, à Wesley Huss (Quaker). Ballou refusera à la mi-juillet.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05232"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board recule presque aussitôt sous la pression de la faculté, qui recommande les réembauches : M.C. Richards est réintégrée. La date exacte de ce revirement n'est pas fixée.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05229",
+     "EV-05230"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Tom Field et Michael Rumaker rentrent en auto-stop de La Nouvelle-Orléans, un dimanche en fin d'après-midi, et Olson les accueille devant le Meadows Inn.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05233",
+     "EV-05235",
+     "SC-01345"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Sur la route du retour, un faux chauffeur disparaît avec les valises de Rumaker et de Tom Field, pendant qu'ils mangent un hamburger dans un café de Chattanooga.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05234",
+     "SC-01344"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Tom Field achète avec sa solde GI une Buick 1950 grise, garée sur l'herbe devant le Meadows Inn ; elle sert aux courses, aux sorties bière et au cinéma d'Asheville. Deux fiches décrivent cet achat.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05236",
+     "EV-05237"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Quelques jours après le retour, Rumaker découvre qu'il a attrapé des morpions lors de sa nuit à La Nouvelle-Orléans.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05238",
+     "SC-01342"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "ce_qui_arrive": "M.C. Richards met en scène The Death of Cuchulain de Yeats (programme imprimé daté du 4 juin 1950) et traduit puis met en scène la comédie de Cocteau Marriage on the Eiffel Tower.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05240"
+    ]
+   },
+   {
+    "date": "1950-06-03",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson, après un match à Washington (victoire 5-4 en douze manches), poste à Dawson une carte de score annotée et dessinée qui lui annonce The Rose of the World.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05242"
+    ]
+   },
+   {
+    "date": "1950-06-26",
+    "precision": "jour",
+    "ce_qui_arrive": "À Yale, George Howe adresse un mémorandum qualifiant ses conditions de travail d'intolérables, plainte proche de celle d'Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05243"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Dawson, en première année, écrit « Father » à la fin du printemps et le lit à la Community House sous les applaudissements ; Mary Richards lui dit qu'il est « writer ».",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Goodman arrive au collège, dans l'été 1950 (date non précisée, pas forcément en juin) ; il défend la liberté sexuelle et provoque une explosion dans la communauté.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les journées tournent autour du Meadows Inn, de la Buick garée sur l'herbe, des repas faits sur le Coleman (Quaker Oats quand il ne reste rien) et des allers-retours en ville. Richards prépare ses mises en scène de Yeats et de Cocteau. Sur l'autre rive du lac, le studio de poterie monté par Robert Turner commence à servir. Les baignades dans la rivière et les sorties à Ma Peak's rythment la vie d'été, tandis que la faculté se déchire en réunion.",
+  "tensions": [
+   "Le vote secret du Board est en contradiction avec le sondage étudiant et avec la position de la faculté ; M.C. Richards, réintégrée presque aussitôt, garde la trace de cette purge.",
+   "La mise en cause de M.C. Richards comme simple « paquet » Levi ne tient pas : elle vit sa propre carrière, et l'affaire touche aussi les Levi et Fiore.",
+   "Liaison de Joe Fiore avec Mary Fitton pendant que sa femme est internée ; craintes de suicide et de mauvaise publicité.",
+   "Huss est présenté tantôt comme business manager, tantôt comme recteur, et le moment du changement n'est pas daté.",
+   "Rumaker, humilié par le vol et sa valise perdue, ressent la honte devant Olson et fissure sa complicité avec Tom Field.",
+   "Olson est donné présent à Black Mountain en juin par le témoignage de Rumaker, alors que la synthèse le dit enseignant à partir de l'automne ; le même 3 juin, il se trouve à Washington."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le vote-surprise contre Mary Caroline",
+    "date": "1950-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Mary Caroline Richards",
+     "Flola Shepard"
+    ],
+    "deroule": "Le Board vote en secret le non-réengagement de M.C. Richards. La faculté est stupéfaite et M.C., foudroyée, découvre qu'un amour du lieu jugé incontesté ne la protège pas. Le vote fait soulever une tempête.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01341",
+     "EV-05229"
+    ]
+   },
+   {
+    "titre": "Nuit avec le Cajun à La Nouvelle-Orléans",
+    "date": "1950-06",
+    "lieu": "Appartement du Cajun, French Quarter, La Nouvelle-Orléans",
+    "personnages": [
+     "Michael Rumaker",
+     "Cajun de La Nouvelle-Orléans"
+    ],
+    "deroule": "Montée de l'escalier extérieur, prudence du Cajun qui protège ses draps neufs, longue attente aux toilettes, puis acte sur le ventre. Après, il frotte une tache de lubrifiant sur un drap. Il tente de jouir sans y parvenir et avoue son blocage avec autodérision. La nuit oscille entre tendresse et angoisse dans une ville sensuelle et dangereuse.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01342"
+    ]
+   },
+   {
+    "titre": "Petit-déjeuner à la pharmacie de Bourbon Street",
+    "date": "1950-06",
+    "lieu": "Pharmacie de Bourbon Street, La Nouvelle-Orléans",
+    "personnages": [
+     "Michael Rumaker",
+     "Cajun de La Nouvelle-Orléans"
+    ],
+    "deroule": "Le matin du départ, le Cajun emmène Michael dans la pharmacie où il travaille. Café chicorée pour l'un, Coca pour l'autre. Il présente Michael à ses collègues, qui les regardent avec ironie. Le Cajun lâche avec défi qu'il a couché avec lui. La lumière crue et le regard nerveux rappellent la peur sociale des années 1950.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01343"
+    ]
+   },
+   {
+    "titre": "Le vol des valises à Chattanooga",
+    "date": "1950-06",
+    "lieu": "Café de fond d'allée, Chattanooga",
+    "personnages": [
+     "Michael Rumaker",
+     "Tom Field"
+    ],
+    "deroule": "Le jeune chauffeur blond au visage d'enfant de chœur propose un burger, prétend vérifier un pneu, puis disparaît pendant qu'ils commandent et utilisent les toilettes. Son hamburger refroidit sur le comptoir. Tom sort vérifier et revient effaré : l'homme et les valises ont disparu. Ils attendent en vain.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01344",
+     "EV-05234"
+    ]
+   },
+   {
+    "titre": "Retour au Meadows Inn et accueil de Charles Olson",
+    "date": "1950-06",
+    "lieu": "Meadows Inn, Black Mountain College",
+    "personnages": [
+     "Michael Rumaker",
+     "Tom Field",
+     "Charles Olson"
+    ],
+    "deroule": "Dimanche en fin d'après-midi, affamés, ils ne trouvent que du Quaker Oats que Tom cuit sur le Coleman. Olson, en marchant sur les racines de pins, leur parle à travers la fenêtre moustiquaire et dit sa joie de les revoir. Tom raconte le voyage et le vol ; Olson écoute avidement. Rumaker a honte que son maître sache qu'ils ont été dupés, et ressent pourtant une sécurité retrouvée.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01345",
+     "EV-05235"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, pendant les moqueries d'été contre le dramaturge pacifiste, se rappelle sa propre humiliation passée",
+    "vers_date": null,
+    "vers": "L'humiliation qu'Olson lui fit subir quand il était son disciple, et qui fait de lui le bourreau à son tour",
+    "refs": [
+     "EC-02634"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers apprend en juin par Gropius qu'il n'aura pas Harvard",
+    "vers_date": "1950-03-16",
+    "vers": "La lettre de Gropius du 16 mars 1950, qui le disait « tops in the field » tout en préparant son éviction",
+    "refs": [
+     "EV-05223"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, éconduit en juin, prépare son départ du collège",
+    "vers_date": "1950",
+    "vers": "Son installation à New Haven, au Department of Design de Yale, à l'automne",
+    "refs": [
+     "EV-05223"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le refus de Ballou et les offres de juin pour le rectorat",
+    "vers_date": "1950-07",
+    "vers": "Le refus de Ballou à la mi-juillet, invoquant la confusion entre communauté et éducation",
+    "refs": [
+     "EV-05232"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le vote secret contre M.C. Richards et Levi en juin",
+    "vers_date": "1950-12",
+    "vers": "Le départ de Levi en décembre, la défaite de la gauche Levi–Richards, et le choix de Richards de rester",
+    "refs": [
+     "EV-05229"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La nuit de La Nouvelle-Orléans, la peur de la liaison cachée",
+    "vers_date": null,
+    "vers": "La même peur homosexuelle que Rumaker retrouvera à San Francisco, dans un autre refuge de tolérance",
+    "refs": [
+     "EC-02632"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le vol de Chattanooga et les morpions, encore frais",
+    "vers_date": null,
+    "vers": "Le narrateur futur qui en rit comme d'une éducation et en fait de la matière littéraire",
+    "refs": [
+     "EC-02635"
+    ]
+   }
+  ],
+  "motifs": [
+   "confiance trahie : vote secret du Board contre sondage étudiant",
+   "refuge du collège face à un monde extérieur trompeur",
+   "honte, peur et secret sexuels dans l'Amérique des années 1950",
+   "pouvoir partagé entre faculté et Board comme enjeu de l'avenir",
+   "la communauté comme maison, sentie au retour"
+  ],
+  "lacunes": "On ne sait pas exactement quand commence la session d'été ni quand arrive Goodman. La date du sondage étudiant reste disputée (juin ou 23 mars). Le moment exact où M.C. est réintégrée n'est pas fixé. Le passage de Huss de business manager à recteur n'est pas daté. La présence réelle d'Olson à Black Mountain en juin est contestée, la date du voyage à La Nouvelle-Orléans est imprécise, et les épisodes de dimanche avec Olson sont datés de l'été sans certitude."
+ }
+}

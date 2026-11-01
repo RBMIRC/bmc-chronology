@@ -1,0 +1,373 @@
+{
+ "passe": "personnes",
+ "cle": "Arthur Penn",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 14001,
+  "sortie": 4603,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Arthur Penn",
+  "autres_noms": [
+   "Arthur Hiller Penn"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant régulier (24 ans à l'arrivée en 1947), devenu moniteur-étudiant enseignant le théâtre (classe non accréditée, 1948) ; metteur en scène des productions théâtrales du collège, dont Le Piège de Méduse de Satie (été 1948)",
+  "presence": [
+   {
+    "debut": "1946",
+    "fin": "1948",
+    "precision": "annee",
+    "role": "Présence attestée vers 1946-1948 (bull sessions, chambre avec Stiles à Deep South, montage des one-acts) — chronologie exacte d'arrivée incertaine",
+    "refs": [
+     "PE-00066",
+     "RE-01506",
+     "QU-01041"
+    ]
+   },
+   {
+    "debut": "1947",
+    "fin": "1948",
+    "precision": "annee",
+    "role": "Étudiant régulier après une visite de deux semaines ; proposition à la faculté le 24 avril 1947 ; stay attesté jusqu'en 1948, possiblement jusqu'en 1949",
+    "refs": [
+     "EV-04035",
+     "EV-04036",
+     "PE-00066"
+    ]
+   },
+   {
+    "debut": "1948",
+    "fin": "1948",
+    "precision": "annee",
+    "role": "Enseignant de la classe de jeu d'acteur (Stanislavsky), non accréditée, deux séances par semaine, 20-30 participants dont Levi, Richards, Wallen",
+    "refs": [
+     "EV-04210",
+     "EV-04211",
+     "CO-00485"
+    ]
+   }
+  ],
+  "portrait_physique": "24 ans à son arrivée en 1947 ; jeune, énergique, direct.",
+  "noyau_psychologique": "Autodidacte avide qui se sait « peu éduqué, peu formé » et compense par une autorité naturelle et un savoir-faire théâtral sûr. Il veut une expérience réelle : pas de théâtre de convention (Barrie), mais du théâtre vivant, actuel, structuré. Le metteur en scène est pour lui un professeur qui tire des amateurs des performances véritables — quitte à pousser les gens au-delà de leurs limites.",
+  "blessures": "Sentiment d'infériorité académique : se décrit comme n'ayant presque rien lu sérieusement, en retard sur le plan scolaire ; s'ennuyait en sociologie et n'en parlait jamais.",
+  "desirs": "Devenir d'abord écrivain, mais il sent dès 1947 qu'il fera du théâtre « sa vie » ; acquérir une expérience réelle de mise en scène ; du théâtre topical, plus neuf que Barrie, fasciné par Brecht et par la violence (psychodrame dans la classe de Wallen).",
+  "peurs": "Quoi qu'il montre de l'assurance, une anxiété de jeunesse du metteur en scène transparaît : inquiet que personne ne vienne aux essais, insistant auprès de son roommate.",
+  "maniere_d_aimer": "Zone grise : une étudiante éprise de lui aurait été entretenue « sans scrupules » dans son attachement pour approfondir sa palette émotionnelle, puis congédiée froidement après la dernière — version hostile contestée par une version favorable qui voit là l'acte d'un simple bon directeur d'acteurs. Le soin amoureux passe plutôt par le coaching : il coache Stiles avec une patience infinie, expliquant chaque réplique.",
+  "rapport_au_pouvoir": "Sait dire « Fais ceci » avec autorité ; explique chaque réplique en détail et pourquoi l'ordre est inévitable. Se méfie du pouvoir diffus et consensuel : juge la méthode de Wallen « Gandhiesque », les discussions sans structure « informes ». Accepte l'enseignement sur une base informelle, comme il l'a demandé.",
+  "voix": {
+   "registre": "Direct, énergique, précis, technique ; humour effronté dans les bull sessions",
+   "tics": "Explications minutieuses, justification de chaque choix ; franchise brutale sur la qualité d'un jeu (« c'est ham, mais je te remettrai d'aplomb »)",
+   "exemples_paraphrases": [
+    "Tu ne sais presque rien — moi non plus, je n'avais presque rien lu sérieusement",
+    "Ta lecture est très ham, mais je saurai te corriger",
+    "Une improvisation sans objectifs contradictoires n'est que du vent parallèle — donne à chaque camp un objectif imposé, et le jeu devient vivant"
+   ]
+  },
+  "habitudes": [
+   "Rivalise de blagues et d'histoires effrontées avec Dick Spahn dans les bull sessions du Studies Building",
+   "Ne parle qu'avec Stiles de théâtre et de peinture (chambre à Deep South)",
+   "Boulonne les chutes de stores vénitiens du dôme de Fuller sous la pluie",
+   "Recâble le vieux tableau électrique comme contribution au programme de travail",
+   "Pendant l'été 1948, reste absorbé par l'écriture de sa propre pièce, inactif dans la vie communautaire — jusqu'à ce qu'on l'appelle pour Méduse"
+  ],
+  "convictions": [
+   "Le metteur en scène est un professeur : il apprend aux acteurs à jouer",
+   "Le jeu doit puiser dans l'expérience personnelle de l'acteur, non dans des images clichés",
+   "Une improvisation vivante exige des objectifs partiellement en conflit, imposés du dehors ; agir n'est pas jouer ses propres sentiments",
+   "L'improvisation doit rester dirigée, contrôlée, disciplinée par la musique ; contre le naturalisme littéral",
+   "Sur Fuller : sa vision du monde est « pratiquement palpable », un niveau de concept et d'usage des matériaux « absolument extraordinaire »",
+   "Forgé la formule « collective visionary » à propos du collège"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Arrivée : après une visite de deux semaines, s'inscrit comme étudiant régulier ; espère devenir écrivain, sent qu'il fera du théâtre sa vie ; le théâtre au collège est quasi inexistant",
+    "etat_interieur": "Émerveillement et sentiment d'infériorité culturelle mêlés",
+    "refs": [
+     "EV-04035",
+     "EV-04036"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Sketchs burlesques légèrement grivois qui provoquent « un petit choc » au collège ; proposition à la faculté le 24 avril 1947",
+    "etat_interieur": "Goût du comique populaire, désir de secouer",
+    "refs": [
+     "EV-04048",
+     "EV-03550"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Monte trois one-acts (Millay, Saroyan, Stein — suggestions probablement de M. C. Richards) dans la salle à manger : premier triomphe d'acteur de Stiles, révélation de Sylvia Girsh",
+    "etat_interieur": "Soif d'expérience réelle, lassé du Barrie du coach attitré",
+    "refs": [
+     "EV-03856",
+     "EV-04161"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Propose puis anime une classe de jeu deux fois par semaine : 20 à 30 participants, dont ses propres professeurs Levi, Richards et Wallen ; lit Stanislavsky, construit une scène au bout du refectoire",
+    "etat_interieur": "Étonnement et élan : un étudiant de 24 ans devient l'enseignant de ses professeurs",
+    "refs": [
+     "EV-04210",
+     "EV-04211",
+     "SC-01063"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Rumeurs sur l'exploitation émotionnelle d'une étudiante éprise de lui ; conflit interne à la troupe quand le Board demande de rejouer les pièces pour des visiteurs — il devient matière au jeu de rôle dans le cours de Wallen",
+    "etat_interieur": "Réputation en jeu ; prix psychologique de la méthode",
+    "refs": [
+     "EV-04212",
+     "EV-04213",
+     "SC-01065"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Échange avec Wallen : chacun emprunte à l'autre (Stanislavsky pour Wallen, techniques de groupe pour Penn) ; Penn enseigne au cours la structuration d'une improvisation par objectifs contradictoires",
+    "etat_interieur": "Estime mutuelle nourrie de réticences critiques ; il trouve la méthode de Wallen « Gandhiesque »",
+    "refs": [
+     "EV-04215",
+     "EV-04216",
+     "RE-01557"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "moment": "Été 1948 : participe au boulonnage du dôme de Fuller qui s'effondre sous la pluie ; absorbé par l'écriture de sa propre pièce, on l'appelle pour sauver Le Piège de Méduse de Satie",
+    "etat_interieur": "Détaché, puis rallié par l'ingéniosité du défi",
+    "refs": [
+     "SC-01050",
+     "EV-04237",
+     "EV-04173"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "mois",
+    "moment": "Répétitions de Méduse : libère Fuller de sa peur du ridicule par des exercices de « bêtise délibérée » ; coache Elaine sur une démarche pigeonnante ; représentation le 14 août, triomphe unanimement reconnu",
+    "etat_interieur": "Apogée : le pédagogue-directeur qui libère les autres en restant lui-même rigoureusement en contrôle",
+    "refs": [
+     "EV-04238",
+     "EV-04239",
+     "EV-04547",
+     "EV-04548"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Frère cadet (ou cadet de fait) du photographe Irving Penn, qui lui raconte des histoires sur le Bauhaus — déclencheur de son intérêt pour Black Mountain",
+    "refs": [
+     "RE-01470",
+     "RE-01559"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Acteur, régisseur et technicien au Neighborhood Playhouse de Philadelphie",
+    "refs": [
+     "PE-00066",
+     "EV-04035"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Pendant la guerre : organisateur de divertissements et spectacles pour les troupes en Europe",
+    "refs": [
+     "PE-00066",
+     "EV-04035"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Reste une année supplémentaire dans l'armée à diriger des pièces pour financer ses études",
+    "refs": [
+     "EV-04035"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Commence à diriger pour la télévision à New York, d'abord sur des matières orthodoxes, puis expérimente des techniques « aujourd'hui absorbées comme celles de la nouvelle vague » ; il ne comprend ce qu'il devait à l'été 1948 que dix ans plus tard",
+    "refs": [
+     "EV-05937"
+    ]
+   },
+   {
+    "date": "1962",
+    "precision": "annee",
+    "moment": "Grande carrière de metteur en scène à Broadway et Hollywood, marquée par des œuvres violentes (The Miracle Worker, puis Bonnie and Clyde en 1967) — rien dans ses trois one-acts de BMC ne le laissait présager",
+    "refs": [
+     "EV-04557",
+     "EC-02050"
+    ]
+   },
+   {
+    "date": "1961",
+    "precision": "periode",
+    "moment": "Début des années 1960 : Fuller, paniqué avant son doctorat honorifique de Harvard (qui l'avait expulsé), demande un dîner avec Penn — retransfert des exercices libérateurs de 1948 ; Fuller dira que Penn lui a rendu « l'un des plus grands services de sa vie »",
+    "refs": [
+     "EV-07358",
+     "RE-01645"
+    ]
+   },
+   {
+    "date": "1968-07-13",
+    "precision": "jour",
+    "moment": "Entrevue avec Duberman ; forge rétrospectivement la formule « collective visionary » pour qualifier le collège ; sur Albers : les règles qui gouvernent l'esthétique seraient celles qui gouvernent la vie",
+    "refs": [
+     "PE-00066",
+     "EV-08221",
+     "CI-04076"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Le MoMA lui demande de reconstituer la soirée Satie pour la photographier ; il met en garde : l'événement « a grandi comme un mythe », personne en 1948 n'était conscient de sa signification spéciale",
+    "refs": [
+     "EV-04243"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Knute Stiles",
+    "nature": "Amitié, camarades de chambre à Deep South (1946-1948)",
+    "evolution": "Ne parlent que de théâtre et de peinture ; Penn le coache avec une patience infinie (rôle dans la Stein après lecture « ham » de Saroyan) ; séparés après BMC, Penn devient célèbre",
+    "refs": [
+     "RE-01506",
+     "RE-01544",
+     "SC-01045",
+     "EV-03858"
+    ]
+   },
+   {
+    "avec": "Mary Caroline Richards",
+    "nature": "Mentorat (elle professeur, lui étudiant puis collègue)",
+    "evolution": "C'est vraisemblablement elle qui suggère les trois one-acts ; il compte en 1948 parmi ses étudiants de la classe de jeu ; elle traduit Méduse qu'il met en scène",
+    "refs": [
+     "RE-01507",
+     "EV-03856",
+     "EV-04158"
+    ]
+   },
+   {
+    "avec": "John Wallen",
+    "nature": "Collaboration et friction féconde (1947-1948)",
+    "evolution": "Penn suit son cours Group Process ; chacun emprunte à l'autre ; Penn juge sa méthode « Gandhiesque » et informe, et enseigne au cours la structuration par objectifs contradictoires",
+    "refs": [
+     "RE-01557",
+     "EV-04215",
+     "EV-04216"
+    ]
+   },
+   {
+    "avec": "Buckminster Fuller",
+    "nature": "Mentorat inversé (1948, renoué début des années 1960)",
+    "evolution": "Penn le libère de la peur du ridicule par des exercices de bêtise délibérée ; Fuller crédite Penn de son développement comme orateur et conférencier ; retransfert avant Harvard en 1960",
+    "refs": [
+     "RE-01645",
+     "RE-01781",
+     "EV-04238",
+     "EV-07358"
+    ]
+   },
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "Collaboration théâtrale (1948)",
+    "evolution": "Il la coache en Frisette (démarche pigeonnante, gestes flûtés, à l'opposé de son tempérament sportif) ; elle et Fuller créditent l'étudiant-metteur en scène de les avoir « décoinçés » comme interprètes",
+    "refs": [
+     "RE-01781",
+     "EV-04548"
+    ]
+   },
+   {
+    "avec": "John Cage et Merce Cunningham",
+    "nature": "Collaboration (été 1948)",
+    "evolution": "Cage monte le festival Satie et Penn met en scène Méduse ; il admire le sens scénique de Cunningham, « il existait vraiment là-haut » ; la leçon « Risque ça ! Change ceci ! » fécondera son œuvre dix ans plus tard",
+    "refs": [
+     "RE-01647",
+     "EV-04158",
+     "EV-05937"
+    ]
+   },
+   {
+    "avec": "Dick Spahn",
+    "nature": "Rivalité amicale (1946-1948)",
+    "evolution": "Dans les bull sessions du Studies Building, ils rivalisent de blagues et d'histoires effrontées",
+    "refs": [
+     "RE-01501"
+    ]
+   },
+   {
+    "avec": "Irving Penn",
+    "nature": "Fratrie",
+    "evolution": "Les récits d'Irving sur le Bauhaus conduisent Arthur à Black Mountain",
+    "refs": [
+     "RE-01470",
+     "RE-01559"
+    ]
+   },
+   {
+    "avec": "Étudiante non nommée",
+    "nature": "Amour ambigu (1947-1948)",
+    "evolution": "Attaches entretenue puis rupture froide après la dernière — versions hostiles et favorables s'affrontent",
+    "refs": [
+     "RE-01558",
+     "SC-01065"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Dates de présence : « 1946-1948 environ » (Lane via PE-00066) contre « entrée comme étudiant régulier en 1947 » et « jusqu'environ 1949 » (Duberman) — l'arrivée exacte et la durée du séjour restent floues",
+   "Qui met en scène Le Piège de Méduse : la plupart des sources donnent Cage comme organisateur du festival et Penn comme metteur en scène, mais Molesworth (EV-04557) crédite la mise en scène à deux étudiants de Richards, Helen Livingston et Arthur Penn",
+   "Décors de Méduse : Lane et Elaine de Kooning les attribuent à Bill et Elaine de Kooning avec les étudiants ; d'autres sources ajoutent Ruth Asawa et Ray Johnson ; Díaz crédite aussi Fuller",
+   "L'affaire de l'étudiante éprise : version hostile (exploitation délibérée, near-breakdown) contre version favorable (épanouissement par le jeu, comportement de tout bon directeur) — Duberman ne tranche pas",
+   "Le nom du soupirant muet : « William Schrauger » (Lane) contre « Schrager » (Curtis)"
+  ],
+  "situations_revelatrices": [
+   "Devant l'affiche clairsemée de sa classe, il voit débarquer vingt à trente personnes dont ses propres professeurs — l'inversion maître/élève",
+   "Les exercices de ridicule volontaire avec Fuller : le directeur qui fait le fou pour libérer un génie paralysé",
+   "Le coaching de Stiles : patience infinie, chaque réplique disséquée — le pédagogue dans l'intimité de la chambre",
+   "Le conflit des reprises pour visiteurs : la troupe divisée, et Penn dont le travail devient lui-même matière d'étude dans le cours de Wallen",
+   "La rupture froide avec l'étudiante éprise après la dernière : le prix humain de la méthode, raconté en deux voix opposées",
+   "Sous la pluie, à boulonner les stores vénitiens du dôme condamné d'avance — le stagiaire ingénieux dans l'échec collectif"
+  ],
+  "citations": [
+   "CI-01946",
+   "CI-01947",
+   "CI-02060",
+   "CI-04076"
+  ],
+  "questions_ouvertes": [
+   "Dates et circonstances exactes de son départ de BMC (fin 1948 ? 1949 ?) et sa destination immédiate",
+   "La pièce personnelle qu'il écrivait pendant l'été 1948 : titre, destin, lien éventuel avec sa carrière ultérieure",
+   "Identité et sort de l'étudiante éprise — les sources ne la nomment pas",
+   "Sa relation de travail concrète avec Cage pendant le festival Satie : qui décidait de quoi",
+   "Ce qu'il a retenu, dans ses propres termes, de l'enseignement d'Albers (seule la formule de 1968 sur les règles esthétiques/vie nous est parvenue)"
+  ]
+ }
+}

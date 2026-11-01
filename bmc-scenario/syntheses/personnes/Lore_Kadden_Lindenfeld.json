@@ -1,0 +1,198 @@
+{
+ "passe": "personnes",
+ "cle": "Lore Kadden Lindenfeld",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1450,
+  "sortie": 5209,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Lore Kadden Lindenfeld",
+  "autres_noms": [
+   "Lore Kadden",
+   "Lore Lindenfeld"
+  ],
+  "dates_de_vie": "Non documentées dans les fiches. Elle est active au collège autour de 1945-1948, puis plus tard au Japon (date non précisée). Kadden est probablement son nom de naissance et Lindenfeld son nom d'épouse, mais c'est une déduction : aucune fiche ne le dit.",
+  "statut_bmc": "Étudiante en tissage auprès d'Anni Albers, attestée pour l'été 1946 et déduite pour 1945-1948 d'après ses travaux. Elle suit aussi le cours de dessin de base et le cours de couleur. Un séjour plus ancien, vers 1938, est signalé par une seule fiche, sans autre confirmation.",
+  "presence": [
+   {
+    "debut": "1938",
+    "fin": "",
+    "role": "Séjour possible, signalé « ca. 1938 » dans la fiche agrégée. Rôle inconnu (peut-être étudiante). Non confirmé ailleurs et à manier avec prudence.",
+    "refs": [
+     "PE-00170"
+    ]
+   },
+   {
+    "debut": "1945",
+    "fin": "1948",
+    "role": "Étudiante d'Anni Albers (tissage, étude de la couleur). Période déduite de la datation des œuvres : échantillon tissé à huit lames, étude de couleur, tissages d'étudiante.",
+    "refs": [
+     "PE-00170",
+     "OE-01749",
+     "OE-01750",
+     "OE-01783"
+    ]
+   },
+   {
+    "debut": "1946",
+    "fin": "1946",
+    "role": "Étudiante d'été à l'atelier de tissage, avec Blumeneau et Zeisler, aux côtés de Guermonprez. Présence attestée.",
+    "refs": [
+     "EV-03901",
+     "SC-00994"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune description physique dans les fiches. À inventer librement, sans prétendre s'appuyer sur les sources. Seuls indices matériels : elle travaille à l'atelier de tissage, sur de grands formats de laine (62 x 102 cm) et des pièces suspendues en laine et coton (71 x 23 pouces).",
+  "noyau_psychologique": "Les fiches ne donnent aucun trait de caractère. On déduit seulement de ses travaux une élève appliquée, qui suit tout le programme d'Albers : dessin, couleur, tissage à huit lames. Sa trajectoire ultérieure (tapisseries, enseignement du tissage au Japon) fait d'elle quelqu'un qui prend ce qu'elle a appris au collège et le transmet ailleurs. Tout le reste est à construire par le scénariste. Piste cohérente avec les sources : une personne qui apprend d'abord par la discipline (lignes, couleurs, structures), puis par le déplacement.",
+  "blessures": "Non documenté.",
+  "desirs": "Non documenté directement. Déduction : elle veut maîtriser un métier, le tissage, et le pratiquer comme art, puisqu'elle en fera des tapisseries et l'enseignera.",
+  "peurs": "Non documenté.",
+  "maniere_d_aimer": "Non documenté. Aucune relation affective ou conjugale n'apparaît dans les fiches. Le nom Lindenfeld suggère un mariage, mais rien ne le confirme ni ne le situe dans le temps.",
+  "rapport_au_pouvoir": "Non documenté. Elle est élève face à une enseignante de grande autorité (Anni Albers) et partage l'atelier avec d'autres femmes, dont Guermonprez, sans rapport de force décrit. Elle appartient à un groupe où l'on se transmet un savoir, plutôt qu'à un jeu de pouvoir visible.",
+  "voix": {
+   "registre": "Aucune parole d'elle n'est rapportée. La seule parole de la scène d'été 1946 vient de Claire Zeisler. L'atmosphère décrite est chaleureuse et stimulante : les conversations portent sur les tissages précolombiens et les techniques préindustrielles. On peut donc lui prêter un registre d'atelier, technique et attentif, mais c'est une invention à marquer comme telle.",
+   "tics": "Aucun connu.",
+   "exemples_paraphrases": []
+  },
+  "habitudes": [
+   "Travaille aux exercices de dessin de base (lignes) et aux études de couleur, comme tous les élèves d'Albers (OE-00779, OE-01750).",
+   "Tisse des échantillons structurels à huit lames, c'est-à-dire des exercices de métier avant l'œuvre (OE-01749, OE-01783).",
+   "Passe l'été 1946 à l'atelier de tissage, en conversation avec trois autres femmes (SC-00994)."
+  ],
+  "convictions": [
+   "Aucune conviction personnelle n'est attestée.",
+   "Déduction, à prudence : l'atelier partage une vénération pour le tissage ancien (précolombien, préindustriel). Elle y baigne en 1946 (SC-00994), et son parcours montre qu'elle en a fait un métier."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1938",
+    "moment": "Présence possible, mentionnée une seule fois, sans détail.",
+    "etat_interieur": "Inconnu. À traiter comme une hypothèse de travail : une première rencontre avec le collège, très en amont de sa formation de tisserande.",
+    "refs": [
+     "PE-00170"
+    ]
+   },
+   {
+    "date": "1945",
+    "moment": "Début probable de ses études chez Anni Albers : échantillon à huit lames, étude de couleur « Black, Gold, Red ».",
+    "etat_interieur": "Déduit : apprentissage méthodique, par exercices progressifs, de la couleur à la structure.",
+    "refs": [
+     "OE-01749",
+     "OE-01750",
+     "OE-01783",
+     "PE-00170"
+    ]
+   },
+   {
+    "date": "1946",
+    "moment": "L'été à l'atelier de tissage avec Blumeneau, Zeisler et Guermonprez. Conversations sur les textiles précolombiens et les techniques préindustrielles. Zeisler présente son travail comme une « primitive sophistiquée ».",
+    "etat_interieur": "Déduit de l'atmosphère de la scène (chaleureuse, stimulante) : sentiment d'appartenir à une petite communauté de femmes qui partagent une même passion. Aucune émotion propre à Lindenfeld n'est rapportée.",
+    "refs": [
+     "SC-00994",
+     "EV-03901"
+    ]
+   },
+   {
+    "date": "1948",
+    "moment": "Fin probable de la période d'études (1945-1948, date déduite des œuvres).",
+    "etat_interieur": "Inconnu. Les circonstances de son départ ne sont pas documentées.",
+    "refs": [
+     "PE-00170"
+    ]
+   }
+  ],
+  "avant": [],
+  "apres": [
+   {
+    "date": "",
+    "moment": "Elle réalise des tapisseries et enseigne le tissage au Japon. Les fiches ne datent pas cette période ni ne disent combien de temps elle y est restée, ni pourquoi elle y est allée.",
+    "refs": [
+     "PE-00170",
+     "EV-03901"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Ses travaux d'étudiante (échantillons, tissages en laine et coton) sont ensuite donnés par la Josef and Anni Albers Foundation au Smithsonian. Ils sont conservés grâce à Anni Albers, pas par elle, d'après la fiche ; la date du don n'est pas précisée.",
+    "refs": [
+     "OE-01783"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Anni Albers",
+    "nature": "Enseignante : tissage, couleur, dessin. Relation d'élève à maîtresse.",
+    "evolution": "Non documentée au-delà de la période d'études. Albers conserve ses travaux, qui passent ensuite à la fondation, puis au Smithsonian.",
+    "refs": [
+     "EV-03901",
+     "OE-01749",
+     "OE-01750",
+     "OE-01783"
+    ]
+   },
+   {
+    "avec": "Lili Blumeneau",
+    "nature": "Condisciple de l'été 1946. Elle deviendra conservatrice des textiles au Cooper-Hewitt.",
+    "evolution": "Trajectoires parallèles : l'une conserve et expose les textiles, l'autre en fait. Aucun lien personnel documenté.",
+    "refs": [
+     "EV-03901",
+     "SC-00994"
+    ]
+   },
+   {
+    "avec": "Claire Zeisler",
+    "nature": "Condisciple de l'été 1946, collectionneuse d'art non occidental, notamment de textiles précolombiens.",
+    "evolution": "Non documentée. Zeisler formule la « primitive sophistiquée » qui sert d'écho à l'atelier.",
+    "refs": [
+     "EV-03901",
+     "SC-00994"
+    ]
+   },
+   {
+    "avec": "Trude Guermonprez",
+    "nature": "Quatrième femme de l'atelier cet été-là. La scène la présente comme déjà sur place, alors que trois des quatre sont dites nouvelles venues.",
+    "evolution": "Non documentée.",
+    "refs": [
+     "EV-03901",
+     "SC-00994"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Dates de présence incohérentes : « ca. 1938 », « vers 1945-1948 » et « 1945-1948 (déduit des œuvres) » coexistent dans la fiche PE-00170. Seule la période 1945-1948 s'appuie sur des œuvres et sur l'été 1946 attesté.",
+   "« Line exercises » (OE-00779) est daté ≈1929, soit avant la fondation du collège (1933), alors que la fiche le rattache au cours de dessin de base de BMC. Date probablement erronée ou approximative. Ne pas s'en servir comme repère.",
+   "Les œuvres OE-01749 et OE-01750 sont datées 1945 dans l'ancrage mais « 1945-48 » dans la description. OE-01783 a une date tronquée (« 1945-19 »). Il s'agit d'imprécisions de datation, pas de contradictions de fond.",
+   "SC-00994 note « trois nouvelles venues » parmi quatre femmes ; EV-03901 cite trois étudiantes d'Albers, puis Guermonprez en plus. La scène est une interprétation de l'auteur (Molesworth), à ne pas traiter comme un fait au même titre que l'événement."
+  ],
+  "situations_revelatrices": [
+   "Une conversation d'atelier sur les textiles précolombiens, où l'on voit comment elle écoute, intervient et pose des questions techniques.",
+   "Une séance de correction d'Albers sur un échantillon à huit lames ou une étude de couleur : comment elle reçoit la critique.",
+   "Un moment de transmission : elle explique un geste de tissage à un autre élève. C'est une scène anticipée sur son futur d'enseignante.",
+   "Un flash-forward au Japon, où elle enseigne le tissage : ce qu'elle garde du collège et ce qu'elle laisse."
+  ],
+  "citations": [
+   "SC-00994",
+   "EV-03901",
+   "PE-00170",
+   "OE-00779",
+   "OE-01749",
+   "OE-01750",
+   "OE-01783"
+  ],
+  "questions_ouvertes": [
+   "Quelle est la vraie date de son premier séjour ? 1938 est-il fiable ? A-t-elle étudié au collège deux fois, ou une seule fois en 1945-1948 ?",
+   "D'où venait-elle, quelle était sa famille (Kadden), son âge, son parcours avant BMC ? Rien dans les fiches.",
+   "Quand et pourquoi s'est-elle mariée avec un Lindenfeld, si c'est bien un nom d'épouse ?",
+   "Comment est-elle arrivée au Japon, à quelle date, pour combien de temps, dans quelle institution a-t-elle enseigné ?",
+   "À quoi ressemblent ses tapisseries postérieures, et quelle trace du style d'Albers y reste-t-il ?",
+   "Quels liens a-t-elle gardés avec Anni Albers, Blumeneau, Zeisler et Guermonprez après 1948 ?",
+   "A-t-elle une vie de campus, des amitiés, des conflits ? Les fiches ne montrent d'elle que l'atelier et l'enseignement d'Albers.",
+   "Que dit-elle ou écrit-elle elle-même ? Il faudrait chercher des entretiens, lettres ou notices de catalogue pour lui donner une voix."
+  ]
+ }
+}

@@ -1,0 +1,281 @@
+{
+ "passe": "mois",
+ "cle": "1938-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4316,
+  "sortie": 16228,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1938-12",
+  "session": "session d'automne, déduite : les fiches ne la nomment pas",
+  "saison_et_climat": "Fin d'automne, entrée dans l'hiver. Les fiches ne décrivent pas le climat ni la météo de ce mois.",
+  "situation": "Le collège n'a plus de recteur depuis la chute de Rice et son congé de 1938. À l'automne, le Board a voté le rectorat pour Wunsch, sans que la date précise soit donnée, car personne ne voulait le poste. Rice, devenu une présence « fantomatique », s'est installé à Lee Hall : il y écrit son autobiographie et reçoit sur rendez-vous ses soutiens et les étudiants de son séminaire. La liaison avec Alice est abandonnée, Portell a démissionné, et Peggy et David Bailey, vieux amis de Rice, ont rejoint le personnel ; David Bailey dirige la publicité et a lancé le Newsletter. Les Albers mènent une campagne de collecte : Dreier a télégraphié à Eleanor Roosevelt le 19 novembre, et Albers a pris la parole au Cosmopolitan Club à New York le 9 décembre, jour où il n'est donc probablement pas au collège. Le MoMA ouvre en décembre l'exposition Bauhaus 1919-1928. Un modus vivendi existe entre Rice et Albers, mais ils ont repris leurs querelles. Dans le même temps, Harper's publie la seconde partie de « Grandmother Smith's Plantation » de Rice.",
+  "presents_probables": [
+   {
+    "nom": "Rice (fantôme, installé à Lee Hall)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers (absent le 9 décembre, à New York)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch (désigné au rectorat par le Board)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "David Bailey",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Peggy Bailey",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants du séminaire de Rice",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1938-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Deuxième partie de « Grandmother Smith's Plantation » dans Harper's Magazine ; la première partie est sortie en novembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02853"
+    ]
+   },
+   {
+    "date": "1938-12-09",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers prononce un discours au déjeuner de collecte de fonds du collège au Cosmopolitan Club, à New York.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02860"
+    ]
+   },
+   {
+    "date": "1938-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Ouverture au MoMA de l'exposition Bauhaus 1919-1928, qui dure jusqu'en janvier 1939 et comprend des exercices d'élèves d'Albers à Black Mountain.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02794",
+     "EV-02858",
+     "EV-02859"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Publication de « Work with Material » d'Anni Albers dans le Bulletin 5, à l'automne ; le jour n'est pas connu.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02793",
+     "OE-01386"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "David Bailey devient directeur de la publicité et lance le Newsletter ; Peggy et David Bailey rejoignent le personnel.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02776",
+     "EV-02767",
+     "EV-02771",
+     "EV-02769"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Rice s'installe à Lee Hall, écrit son autobiographie et reçoit sur rendez-vous.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02851",
+     "EV-02852"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Le Board vote le rectorat à Wunsch ; Rice est écarté, et la décision est jugée par lui « gentille et sucrée » mais incapable de gouverner.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02851"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire de décembre : pas de repas, de cours, de musique ni de travaux datés. Ce qu'elles montrent : Rice écrit à Lee Hall et reçoit ses visiteurs sur rendez-vous, les Albers font la tournée des donateurs, David Bailey prépare le Newsletter, et l'exposition du MoMA attire l'attention sur le travail de Black Mountain. L'été précédent, le collège gérait le Lake Eden Inn et la ferme prenait forme avec Roscoe Penley, mais cela ne concerne pas décembre.",
+  "tensions": [
+   "Rice et Albers reprennent leurs querelles malgré le modus vivendi ; Rice soupçonne Anni Albers de convoiter le rectorat pour son mari (EV-02851).",
+   "Rice juge Wunsch incapable de gouverner, avec Mangold et Albers derrière lui (EV-02851).",
+   "Rancune de Rice envers un collège qui, selon lui, pense à lui-même et non à son bien (SC-00734, mai 1938).",
+   "Argent : les salaires ont été coupés de 25 % cette année-là, et l'ultimatum d'Albers (aucune levée de fonds personnelle tant que Rice reste) pèse encore (RE-00985, QU-00653).",
+   "Mémoire de la liaison Rice-Alice : ses débuts sont datés de l'automne 1937 par certaines sources et de la mi-hiver 1938 par d'autres, et sa matérialité reste floue (CF-00281, EC-01567, RE-01062, SC-00686).",
+   "Le départ de Schawinsky, mal vu du Conseil et de Mangold, est traité par un mémo du 31 août (CF-00284, EV-02850, EV-02816)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Rice reçoit un étudiant de son séminaire",
+    "date": "1938-12",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "Rice",
+     "étudiant du séminaire"
+    ],
+    "deroule": "Rice reçoit sur rendez-vous dans son retrait de Lee Hall. Il parle de son autobiographie et des rumeurs du passé. L'étudiant repart sans savoir quoi penser de l'affaire Alice.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02852",
+     "SC-00729",
+     "CO-00297"
+    ]
+   },
+   {
+    "titre": "Albers plaide la cause du collège au Cosmopolitan Club",
+    "date": "1938-12-09",
+    "lieu": "Cosmopolitan Club, New York",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers prend la parole au déjeuner de collecte. Le collège cherche de l'argent après la crise Rice, sans recteur en titre, et c'est lui qui défend l'avenir de Black Mountain devant des donateurs.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02860"
+    ]
+   },
+   {
+    "titre": "Les exercices de Black Mountain exposés au MoMA",
+    "date": "1938-12",
+    "lieu": "Museum of Modern Art, New York",
+    "personnages": [
+     "visiteurs du MoMA",
+     "élèves d'Albers (exercices exposés)"
+    ],
+    "deroule": "L'exposition Bauhaus 1919-1928 présente des exercices venus de Black Mountain. Le public new-yorkais découvre ainsi un travail que le collège n'a encore jamais montré largement.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02794",
+     "EV-02858",
+     "EV-02859"
+    ]
+   },
+   {
+    "titre": "Le Newsletter de Bailey",
+    "date": null,
+    "lieu": "campus",
+    "personnages": [
+     "David Bailey",
+     "Peggy Bailey"
+    ],
+    "deroule": "David Bailey, nouveau directeur de la publicité, écrit pour le Newsletter ce qu'on doit dire du collège, pendant que Rice s'efface de la vie publique.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02776"
+    ]
+   },
+   {
+    "titre": "La trêve Rice-Albers se rompt",
+    "date": null,
+    "lieu": "Lee Hall / campus",
+    "personnages": [
+     "Rice",
+     "Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Le modus vivendi éclate sur un détail. Rice accuse Anni Albers de vouloir le rectorat pour son mari, et la querelle reprend devant le collège.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02851",
+     "EV-02767",
+     "EV-02771",
+     "EV-02769"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rice, à Lee Hall, écrit ses souvenirs du Sud et de sa famille maternelle, alors que Harper's publie la seconde partie de son texte.",
+    "vers_date": "1938-03",
+    "vers": "Le séjour de mars à Folly Beach, où Rice mettait déjà en forme ses souvenirs du Sud, recevait des délégations d'étudiants et rendait visite aux Adamic dans le New Jersey.",
+    "refs": [
+     "EV-02838",
+     "EV-02834",
+     "EV-02853"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les rumeurs qui continuent de circuler sur la relation de Rice avec Alice, alors que celle-ci est désormais abandonnée.",
+    "vers_date": "1937",
+    "vers": "Les premières rumeurs de l'automne 1937 sur la liaison, que d'autres sources datent plutôt de la mi-hiver 1938. Le récit de Nell reste un simple oui-dire.",
+    "refs": [
+     "CF-00281",
+     "EC-01567",
+     "RE-01062",
+     "SC-00686"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers, qui collecte à New York pour un collège qui ne sait plus à qui il appartient, pense à la façon dont la crise a été réglée.",
+    "vers_date": "1938-05",
+    "vers": "En mai, quatre membres de la faculté viennent annoncer à Rice la décision du collège, et Rice s'emporte contre un collège qui pense à lui-même et non à son bien.",
+    "refs": [
+     "SC-00734",
+     "EV-02841"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les plans de Gropius et Breuer, livrés contre 400 dollars pendant l'été, sont encore sur la table pendant la campagne de collecte de décembre.",
+    "vers_date": "1940",
+    "vers": "Le projet de campus, estimé à 500 000 dollars par Dreier, est abandonné vers 1940 au profit de Kocher.",
+    "refs": [
+     "EV-02772",
+     "OE-01358"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Bill quitte l'atelier de la 22e Rue pour la nature morte et détruit ses toiles figuratives, tandis qu'Elaine devient l'élève et la maîtresse de Willem de Kooning à New York.",
+    "vers_date": "1948",
+    "vers": "Le fil Elaine-Bill, lancé à New York en 1938, prépare les étés de 1948.",
+    "refs": [
+     "EV-02743",
+     "EV-02744",
+     "EV-02778"
+    ]
+   }
+  ],
+  "motifs": [
+   "le fantôme de Rice et son retour sans pouvoir",
+   "une liaison dont la réalité reste floue et dont les rumeurs circulent",
+   "l'argent et la collecte comme nouvelle forme de pouvoir",
+   "le Bauhaus exporté aux États-Unis par le MoMA et par Albers",
+   "la mémoire du Sud et l'autobiographie",
+   "la rivalité Rice-Albers",
+   "un collège sans recteur ni autorité claire"
+  ],
+  "lacunes": "Les fiches ne datent ni l'élection de Wunsch ni la publication de « Work with Material » dans le Bulletin 5. Rien sur la vie quotidienne, la météo, les cours ou les concerts de décembre. Alice, Nell, Portell, Moellenhoff et Schawinsky sont absents de ce mois. EV-02858 et EV-02859 décrivent la même visite de Bayer au MoMA : ce sont des doublons. Le début de la liaison Rice-Alice diverge selon les sources (automne 1937 ou mi-hiver 1938)."
+ }
+}

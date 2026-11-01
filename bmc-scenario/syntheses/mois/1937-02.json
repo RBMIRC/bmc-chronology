@@ -1,0 +1,282 @@
+{
+ "passe": "mois",
+ "cle": "1937-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6065,
+  "sortie": 11767,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-02",
+  "session": "Hiver-printemps 1937 (déduit : les fiches parlent de ce temps de l'année sans nommer de session officielle ; découpage non attesté)",
+  "saison_et_climat": "Hiver. Aucune fiche ne décrit le temps qu'il fait ; le climat est une hypothèse sans appui direct dans les sources.",
+  "situation": "Le collège est en pleine bataille de gouvernance. Après le rejet par le Board de la pétition de Zeuch contre les non-reconductions de Knickerbocker et Goldenson (EV-02694), les dissidents se tournent vers la gouvernance. Rice défend un pouvoir fondé sur la persuasion et refuse le vote. Le 17 février, la réunion communautaire acte que la séparation, et non l'ajustement, est la seule issue (EV-02705, SC-00700). En toile de fond, la liaison de Rice avec Alice s'amorce vers la mi-hiver (EV-02695).",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Harrington",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "George Alsberg",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Beverly Coleman",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Harris Zeuch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "James Gore King",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Georgia",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Goldenson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Knickerbocker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alice",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-01",
+    "precision": "periode",
+    "ce_qui_arrive": "La liaison de Rice avec Alice s'amorce vers la mi-hiver. Rice dit la connaître « un peu mieux » et veut la faire s'épanouir, dans une posture de père bienveillant.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02695"
+    ]
+   },
+   {
+    "date": "1937-02-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Devant des étudiants visiteurs, Rice présente le collège comme un lieu où l'on vient faire ce qu'on a à faire avant de partir, et non comme une communauté idéale.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02704"
+    ]
+   },
+   {
+    "date": "1937-02-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion communautaire : les étudiants dissidents défendent la démocratie organique et Rice oppose la persuasion au comptage des voix. Les deux camps concluent que la séparation est la seule issue.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02705",
+     "SC-00700"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "saison",
+    "ce_qui_arrive": "Dewey critique Hutchins pour sa confiance dans une autorité fixe, approuvée par Rice, son ami. La date précise n'est pas donnée dans la fiche.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02703"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire est faite de réunions communautaires souvent houleuses, de visites d'étudiants, de soirées de sketches où l'on se moque des uns et des autres, et de conversations de couloir sur les querelles de pouvoir. Les fiches ne décrivent ni les cours ni les repas de ce mois.",
+  "tensions": [
+   "Le Board rejette la pétition de Zeuch et les enseignants dissidents perdent leur recours",
+   "Rice contre les étudiants dissidents : pouvoir, vote, « comptage de nez »",
+   "Rice contre Hutchins sur la philosophie publique du collège",
+   "Rice s'éprend d'Alice, au moment où les rumeurs commencent à circuler",
+   "Zeuch prédit que la voie suivie est « le début de la fin » du collège",
+   "Knickerbocker a prévenu qu'il était combattif, ce qui éclaire le conflit de décembre 1936 (EC-01574)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Duel oratoire du 17 février",
+    "date": "1937-02-17",
+    "lieu": "Réunion communautaire, Black Mountain College",
+    "personnages": [
+     "John Andrew Rice",
+     "John Harrington",
+     "George Alsberg",
+     "Beverly Coleman",
+     "Harris Zeuch",
+     "James Gore King",
+     "Georgia"
+    ],
+    "deroule": "Les étudiants plaident la démocratie organique. Rice répond que le collège n'est pas une communauté et qu'on y vient pour le quitter. Harrington objecte que nul ne sait ce dont il est capable avant d'essayer. Rice compte les silencieux comme sa majorité, puis lâche la formule sur les incompétents qui ont des opinions. Alsberg lui demande qui juge de l'intelligence, et Rice répond qu'il ne peut la tester que par l'intelligence. Coleman conclut sur la supériorité de la faculté, et Rice élude la question.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00700",
+     "EV-02705"
+    ]
+   },
+   {
+    "titre": "Visiteurs et finalité du collège",
+    "date": "1937-02-16",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Andrew Rice",
+     "étudiants visiteurs"
+    ],
+    "deroule": "Rice reçoit des étudiants venus visiter le collège et leur explique que la communauté n'est pas idéale. On y vient faire ce qu'on a à faire puis on repart, d'où le peu d'insistance sur le diplôme.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02704"
+    ]
+   },
+   {
+    "titre": "Alice en cantatrice de papier mâché",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Alice",
+     "John Andrew Rice",
+     "public étudiant"
+    ],
+    "deroule": "Lors d'une soirée de sketches, Alice, déguisée en papier mâché qui rend son corps minuscule et sa tête énorme, parodie une cantatrice. Tout le monde rit sauf Rice, qui est jaloux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02695"
+    ]
+   },
+   {
+    "titre": "Rice explique son intérêt pour Alice",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "John Andrew Rice",
+     "un étudiant non nommé"
+    ],
+    "deroule": "En marchant avec un étudiant, Rice présente Alice comme quelqu'un qui a besoin d'être mise en valeur et de se sentir importante. Il parle d'elle avec une tendresse protectrice qui cache mal son intérêt.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02695"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Février 1937, dans la réunion du 17 février, où l'on ressasse les non-reconductions",
+    "vers_date": "1937-01",
+    "vers": "Après les fêtes de fin d'année, Zeuch pétitionne le Board pour qu'il révise les non-reconductions de Knickerbocker et Goldenson. Le Board rejette la pétition et n'accorde à Goldenson que l'autorisation de démissionner.",
+    "refs": [
+     "EV-02694"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Février 1937, pendant la réunion du 17 février",
+    "vers_date": "1936-12",
+    "vers": "Décembre 1936 : la décision du Board est un fait accompli. King la compare à la remilitarisation de la Rhénanie par Hitler, ce qui fait entrer l'actualité européenne dans le débat interne.",
+    "refs": [
+     "EC-01575"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Février 1937, à la réunion du 17 février, quand Knickerbocker se tait",
+    "vers_date": null,
+    "vers": "Knickerbocker avait prévenu Rice avant son embauche qu'il était combattif et qu'on ne devait pas l'engager s'il ne le voulait pas.",
+    "refs": [
+     "EC-01574"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1937, pendant la liaison naissante avec Alice",
+    "vers_date": "1938",
+    "vers": "La liaison de Rice avec Alice sera connue. Nell le surprendra et se confiera à leur fils, puis la chute de Rice sera annoncée.",
+    "refs": [
+     "EV-02695",
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1937, à la veille du printemps de la fronde",
+    "vers_date": "1937-03",
+    "vers": "En mars, Anni écrit depuis New York que Black Mountain est son refuge face à Manhattan. Elle y accueille les Gropius à l'aube.",
+    "refs": [
+     "EV-02707"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1937, pendant la crise de gouvernance",
+    "vers_date": "1937-04",
+    "vers": "En avril, l'affaire de Floride oblige le collège à répondre de sa réputation morale. Un accord provisoire interdit les vacances en groupes mixtes.",
+    "refs": [
+     "EV-02709",
+     "SC-00703"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1937, pendant que le collège se déchire",
+    "vers_date": "1937-06",
+    "vers": "En juin, à la dernière réunion générale, Coleman lit un réquisitoire en 24 points signé de huit étudiants qui partent. Georgia est congédié, Zeuch et King ne reviennent pas, et Zeuch publie un texte qui accuse le collège de dériver vers le fascisme. Le collège achète Lake Eden.",
+    "refs": [
+     "EV-02715",
+     "EV-02716",
+     "EV-02722",
+     "EV-02726"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1937, quand la faction anti-Rice se radicalise",
+    "vers_date": "1937-05",
+    "vers": "En mai, une réunion marathon voit Rice refuser l'égalité des opinions et proposer d'abandonner son tenure. Mangold rapporte que la cause de Knickerbocker s'est effondrée.",
+    "refs": [
+     "EV-02711",
+     "EV-02712"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1937, quand le chaos de la liaison se découvre",
+    "vers_date": "1938",
+    "vers": "En 1938, la furie communautaire, la lettre d'Albers, le congé de Rice et la prise du rectorat par Wunsch aboutissent à la rupture.",
+    "refs": [
+     "CF-00276",
+     "CF-00282"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1937, pendant que la fermeture semble lointaine",
+    "vers_date": "1957",
+    "vers": "La fermeture du collège en 1957 donne une ironie prophétique à l'avertissement de Zeuch, « le début de la fin ».",
+    "refs": [
+     "EC-01576"
+    ]
+   }
+  ],
+  "motifs": [
+   "Persuasion contre comptage des voix : qui juge de l'intelligence",
+   "La séparation comme seule issue",
+   "La flatterie et l'autorité de la faculté",
+   "Rice en père bienveillant, cadre de la liaison naissante",
+   "L'actualité européenne (Rhénanie, Hitler) comme langage politique",
+   "Le « début de la fin » annoncé par Zeuch"
+  ],
+  "lacunes": "On ignore la date exacte de la liaison de Rice avec Alice et si elle fut physique ; les rumeurs ne tranchent pas. Les fiches ne donnent pas le jour de la pétition rejetée ni le prénom de Georgia. Knickerbocker est dit silencieux à la réunion du 17 février sans qu'on sache s'il était présent. Contradiction : EV-02695 place la soirée de sketches en mi-hiver 1937, alors que la synthèse la range dans l'automne suivant (EV-02740). La synthèse signale aussi des divergences de dates entre Duberman et Chaddock, sans les détailler. Le découpage de la session n'est pas attesté."
+ }
+}

@@ -1,0 +1,332 @@
+{
+ "passe": "personnes",
+ "cle": "Barbara Dreier",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 8736,
+  "sortie": 3974,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Barbara Dreier",
+  "autres_noms": [
+   "Bobbie Dreier",
+   "Barbara Loines"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Épouse du cofondateur Theodore Dreier ; figure matricielle, non enseignante au sens strict, présente de la fondation (1933) jusqu'au départ du couple en 1949",
+  "presence": [
+   {
+    "debut": "1933",
+    "fin": "1949",
+    "precision": "annee",
+    "role": "Fondatrice et pilier communautaire, avec son mari Ted ; colocataire puis voisine des Albers ; actrice sociale (relations donateurs, accueil, vie quotidienne)",
+    "refs": [
+     "PE-00059",
+     "EV-04316"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Enthousiasme contagieux doublé d'une énergie pratique : celle qui, en six semaines de frénésie, fait exister un collège sans argent. Femme d'une riche famille de Staten Island convertie à la simplicité pionnière — elle troque Baden-Baden et le baccarat contre la randonnée sac au dos et l'équipe d'entretien des routes. À l'aise dans les salons (elle cultive socialement les Forbes donateurs) comme dans la boue de Caroline du Nord, elle est le pont entre l'argent et l'idéal. Fuller la décrira comme « vraiment une sorte de reine » : une autorité charismatique sans titre officiel.",
+  "blessures": "La mort tragique de son fils Mark sur le campus vers 1941, mémorisée par la Quiet House (construite en 1942) ; puis l'érosion lente de l'idéal communautaire, qu'elle résumera plus tard par la comparaison avec Athènes après la guerre du Péloponnèse.",
+  "desirs": "Voir naître « la grande université » dont tous rêpaient à Rollins ; vivre l'art au quotidien (accrocher des Kandinsky dans les chambres, « sous toutes les lumières ») ; donner au collège des fondations financières et morales solides.",
+  "peurs": "Que la démocratie communautaire ne dérive dans le désordre (elle veut interdire le « pelotage du sexe opposé en public », veut que la faculté puisse discuter seule) ; que l'argent manque ou que l'école se dilue dans l'expansion.",
+  "maniere_d_aimer": "Par la présence concrète et l'hospitalité : maison partagée avec les Albers et son fils Eddie (1940), voyages en commun à Cuba et au Mexique, amitiés durables (Anni Albers, Lowinsky) entretenues par lettres après les départs. Une « chimie puissante » unissait les deux couples, jusqu'à une liaison probable avec Josef Albers (déduite, non attestée formellement).",
+  "rapport_au_pouvoir": "Pouvoir informel mais réel : influence sociale sur les donateurs, poids du couple Dreier (hypothèque de 16 500 $ sur la propriété en 1947), alignement fréquent avec Albers lors des débats de gouvernance (réunions de faculté sans étudiants). Partisane d'un ordre minimal mais ferme — elle soutient le virage conservateur tout en le relativisant comme une tentative de « retrouver ses nerfs ».",
+  "voix": {
+   "registre": "Chaleureuse, directe, imagée ; mêle le lyrisme de la pionnière au bon sens maternel",
+   "tics": "Exclamations mémorielles avec « we » collectif ; souvenirs très concrets et sensoriels",
+   "exemples_paraphrases": [
+    "« On pouvait les regarder sous toutes les lumières » — sur les tableaux de Katherine Dreier accrochés dans les chambres",
+    "« En six semaines nous avons fait un collège »",
+    "« Nous sentions que nous entrions dans quelque chose de neuf, tout le monde était plein d'espoir »"
+   ]
+  },
+  "habitudes": [
+   "Randonnées sac au dos, participation à l'équipe d'entretien des routes",
+   "Voyages réguliers avec les Albers (Cuba 1934-35, Mexique 1935-36) en voiture, dans la Ford Model A décapotable du couple",
+   "Cultivation sociale des donateurs (Forbes) à Winter Park puis après",
+   "Accueil et correspondance épistolaire entretenue avec les partants (Lowinsky, M.C. Richards)",
+   "Partage de la maison avec les Albers (1940)"
+  ],
+  "convictions": [
+   "Foi pionnière : « une grande université en train de naître »",
+   "Réforme sociale, arts et éducation ; art et musique partagés avec Ted",
+   "Simplicité anti-aristocratique assumée malgré son origine fortunée",
+   "Nécessité d'un minimum de normes de vie commune ; la faculté doit pouvoir délibérer seule parfois",
+   "Le virage conservateur d'après 1944 : une tentative de « retrouver ses nerfs » plutôt qu'une trahison"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Frénésie fondatrice : avec Ted et Rice, elle monte le collège en six semaines, sans capital, en pleine Dépression ; premier choc d'adaptation au Robert E. Lee Hall — la punaise dans la colonne ionique, symbole d'une Amérique sans aristocratie",
+    "etat_interieur": "Exaltation pionnière, espoir total",
+    "refs": [
+     "EV-01992",
+     "EV-02223",
+     "CI-01105"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "moment": "Vie communautaire débraillée des débuts : les crits d'Albers à quatre pattes dans le hall, les étudiants travaillant par terre faute de chaises",
+    "etat_interieur": "Fascination pour la nouvelle pédagogie",
+    "refs": [
+     "SC-00453",
+     "CI-00490"
+    ]
+   },
+   {
+    "date": "1934-12-28",
+    "precision": "jour",
+    "moment": "Voyage à Cuba avec Ted et les Albers, en voiture et ferry depuis Miami ; trois conférences de Josef au Lyceum de La Havane ; coup de foudre pour le monde latin",
+    "etat_interieur": "Émerveillement, complicité de voyage",
+    "refs": [
+     "EV-02250",
+     "EV-02360",
+     "SC-00603"
+    ]
+   },
+   {
+    "date": "1935-10",
+    "precision": "mois",
+    "moment": "Katherine Dreier (sa belle-tante par alliance) apporte sa collection ; les étudiants, Bobbie en tête, choisissent des Kandinsky et des Klee pour leurs chambres et les vivent au quotidien",
+    "etat_interieur": "Joie de l'art domestiqué, fierté familiale",
+    "refs": [
+     "EV-02464",
+     "SC-00626"
+    ]
+   },
+   {
+    "date": "1935-12",
+    "precision": "mois",
+    "moment": "Voyage au Mexique (Oaxaca, Monte Albán, Mitla) avec les Albers dans la Ford décapotable ; débuts de la collection précolombienne",
+    "etat_interieur": "Émerveillement incrédule devant les fragments de céramique paysans",
+    "refs": [
+     "SC-00627",
+     "EV-02427"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "annee",
+    "moment": "Pique-nique du campus pour Aldous Huxley : figure discrète de l'hospitalité du collège",
+    "etat_interieur": null,
+    "refs": [
+     "SC-00690",
+     "EV-02654"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "annee",
+    "moment": "Maison partagée avec les Albers et son fils Eddie, dont Josef fait un instantané devenu pointe sèche humoristique « Eh-De »",
+    "etat_interieur": "Intensité de la vie domestique fusionnelle des deux couples",
+    "refs": [
+     "EV-03014",
+     "QU-00783",
+     "SC-00768"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "moment": "Construction de la Quiet House en mémoire de Mark, son fils mort tragiquement sur le campus l'année précédente",
+    "etat_interieur": "Deuil, transformation de la perte en espace sacré",
+    "refs": [
+     "EV-03278"
+    ]
+   },
+   {
+    "date": "1944",
+    "precision": "annee",
+    "moment": "Scission de 1944 ; s'ensuivent les débats sur le comité des normes (elle inscrit « pas de pelotage du sexe opposé en public » sur sa liste d'intolérances) et sur les réunions de faculté sans étudiants",
+    "etat_interieur": "Besoin de « retrouver ses nerfs », recentrage conservateur assumé",
+    "refs": [
+     "EV-08788",
+     "EV-08789",
+     "CI-04419",
+     "RE-01184"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "annee",
+    "moment": "Échange de lettres à cœur ouvert avec Josef Albers, bouleversé, sur les problèmes du collège et ses doutes ; en 1947 la famille détient une hypothèque de second rang de 16 500 $ sur la propriété",
+    "etat_interieur": "Inquiétude croissante, loyauté éprouvée envers Albers",
+    "refs": [
+     "EV-03892",
+     "SC-00990",
+     "EV-04108",
+     "PE-00059"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Départ de Lowinsky pour l'Italie : il lui écrit sa peine devant l'échec du recrutement d'étudiants noirs, convaincu que BMC ne le voulait pas vraiment",
+    "etat_interieur": "Confrontée à une critique morale de la communauté qu'elle incarne",
+    "refs": [
+     "EV-04024",
+     "RE-01553"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Lettre franche de M.C. Richards (25 juillet) : suspecte les Dreier et Albers de vouloir faire de BMC un joyau lisse de design moderne, contre son idéal de campus débraillé ; formalisation de la rupture idéologique",
+    "etat_interieur": "Position défensive, camp du « design et de l'expansion » désigné",
+    "refs": [
+     "EV-04545",
+     "SC-01184"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "Départ conjoint des Dreier et des Albers, par différends philosophiques ; seuls eux, les Albers et Nell Rice restaient encore des pionniers de 1933",
+    "etat_interieur": "Épuisement : tension constante, argent constant manquant, friction constante",
+    "refs": [
+     "EV-04618",
+     "EV-04316"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Naissance Barbara Loines dans une riche famille de Staten Island ; grand-mère mécène et fondatrice du mouvement suffragiste — héritage social et féministe",
+    "refs": [
+     "PE-00059"
+    ]
+   },
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "Mariée à Theodore Dreier, professeur de physique ; s'installe à Winter Park (Rollins) presque en face des Rice ; effervescence des projets Holt",
+    "refs": [
+     "PE-00059",
+     "EV-01576",
+     "CI-00791"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "mois",
+    "moment": "Avec Ted, convainc Malcolm et Ethel Forbes d'activer leurs promesses de don (5 000 $ chacun) et cultive socialement le couple — dons anonymes décisifs pour la fondation",
+    "refs": [
+     "EV-02000"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Après 1949, plus aucune donnée dans les fiches ; on sait seulement qu'elle donnera plus tard à Duberman son regard rétrospectif sur le collège (« retrouver nos nerfs après la scission de 1944 », comparaison avec Athènes après la guerre du Péloponnèse)",
+    "refs": [
+     "CI-04419"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Theodore Dreier",
+    "nature": "mariage, partenariat fondateur",
+    "evolution": "Couple moteur du projet depuis Rollins jusqu'au départ de 1949 ; partage art, musique, voyages et charge financière (hypothèque de 1947)",
+    "refs": [
+     "PE-00059",
+     "EV-01576",
+     "EV-04108"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "amitié profonde, liaison probable (photos de nus d'Anni et Bobbie ensemble, selon Weber)",
+    "evolution": "De la colocatisation (1940) et des voyages latino-américains à l'alliance de gouvernance (1940s) puis au départ conjoint de 1949 ; intimité épistolaire des années de crise",
+    "refs": [
+     "RE-00707",
+     "SC-00990",
+     "EV-03892",
+     "SC-00472",
+     "EV-01875"
+    ]
+   },
+   {
+    "avec": "Anni Albers",
+    "nature": "amitié, colocataires et compagnes de voyage",
+    "evolution": "Stable et intime à travers les voyages à Cuba et au Mexique",
+    "refs": [
+     "RE-00658",
+     "EV-02299"
+    ]
+   },
+   {
+    "avec": "Katherine Dreier",
+    "nature": "famille par alliance (Katherine est la tante de Ted)",
+    "evolution": "Relais de la collection Dreier à BMC en 1935 : le modernisme entre dans la vie domestique",
+    "refs": [
+     "EV-02464",
+     "SC-00626"
+    ]
+   },
+   {
+    "avec": "Edward Lowinsky",
+    "nature": "amitié épistolaire",
+    "evolution": "Après son départ (1947), il lui confie son désenchantement sur la question des étudiants noirs",
+    "refs": [
+     "RE-01553",
+     "EV-04024"
+    ]
+   },
+   {
+    "avec": "M.C. Richards",
+    "nature": "conflit idéologique par lettres",
+    "evolution": "La lettre du 25 juillet 1948 nomme les Dreier comme porte d'un projet lisse et coûteux de design moderne — la rupture du camp pionnier",
+    "refs": [
+     "EV-04545",
+     "SC-01184"
+    ]
+   },
+   {
+    "avec": "Malcolm et Ethel Forbes",
+    "nature": "relations de mécénat cultivées socialement",
+    "evolution": "Dons anonymes de 1933 rendus possibles par le travail social du couple Dreier",
+    "refs": [
+     "EV-02000"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La liaison avec Josef Albers est une déduction de Weber à partir de photos de nus, non un fait attesté — à manier avec prudence dramaturgique",
+   "Sur le départ de 1949 : certaines notes (Molesworth) placent le départ d'Albers et Dreier après la session d'été 1948 plutôt qu'en 1949 ; Duberman confirme les efforts pour les retenir pour l'été 1949",
+   "L'enfance évoquée dans EV-01875 (Barbara Dreier enfant dans le studio d'Albers) est chronologiquement impossible pour Barbara née Loines ; il s'agit probablement d'une autre Barbara (sans doute Barbara Beate Dreier, fille de Ted et Bobbie) — à clarifier"
+  ],
+  "situations_revelatrices": [
+   "Les six semaines de fondation : téléphones, démarchages de donateurs,Installation dans un hôtel de jeunes filles délabré",
+   "Le choix des tableaux de Katherine Dreier avec les étudiants, œuvres dans les bras",
+   "La maison partagée avec les Albers en 1940 : intimité et tensions souterraines",
+   "Le deuil de Mark et la construction de la Quiet House",
+   "La réunion sur les « listes d'intolérances » : chacun écrit sa norme",
+   "La réception de la lettre brutale de M.C. Richards en 1948 : lire à voix haute avec Ted"
+  ],
+  "citations": [
+   "CI-00490",
+   "CI-00791",
+   "CI-01105",
+   "CI-04419"
+  ],
+  "questions_ouvertes": [
+   "Dates et lieu de naissance et de décès ; vie après 1949 (où vit le couple, quels liens maintenus avec le collège jusqu'à la fermeture de 1957)",
+   "La nature exacte et la durée de la relation avec Josef Albers : preuve photographique, réactions d'Anni et de Ted",
+   "Son rôle précis dans l'hypothèque de 1947 et les finances du collège",
+   "Sa position personnelle sur l'échec du recrutement d'étudiants noirs soulevé par Lowinsky",
+   "L'identité de la « Barbara Dreier » enfant témoin dans le studio d'Albers (EV-01875/SC-00472)"
+  ]
+ }
+}

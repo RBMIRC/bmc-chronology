@@ -1,0 +1,270 @@
+{
+ "passe": "mois",
+ "cle": "1952-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6720,
+  "sortie": 20011,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1952-02",
+  "session": "trimestre d'hiver (déduit de « Hiver et printemps » ; aucune date de session fournie)",
+  "saison_et_climat": "Plein hiver. La neige tombait encore fin janvier pendant la nuit du lac Eden. Les fiches ne donnent ni température ni météo précise pour février.",
+  "situation": "Le collège sort de la crise de janvier sans l'avoir résolue. Olson dirige de fait depuis 1951 et concentre les décisions. Les bailleurs se retirent : Forbes refuse définitivement, après plus de 20 000 $ donnés au total. Albers n'est pas sur le campus, il enseigne à La Havane du 9 au 17 février, depuis sa période de Yale. La faculté examine ses membres et débat de Sprague et Adams, qu'elle juge conservateurs, sur une période qui va de février à juin. Les arrivées de l'été (Tworkov, Kline, Wolpe, Weinrib, Karnes, Rumaker) sont postérieures à ce mois. Les fiches ne placent pas Cage et Tudor en février.",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fielding Dawson (Fee)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dr Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rauschenberg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Twombly",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Herb Roco",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Sprague",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Adams",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-01",
+    "precision": "periode",
+    "ce_qui_arrive": "Huss sollicite encore Forbes, qui refuse définitivement : il ne se sent plus proche de Black Mountain « ni en esprit ni dans la connaissance du lieu ». Plus de 20 000 $ donnés au total. Le bailleur majeur est perdu (lettres du 20 janvier et du 12 mars).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05798"
+    ]
+   },
+   {
+    "date": "1952-02-09",
+    "precision": "semaine",
+    "ce_qui_arrive": "Albers enseigne une semaine à l'Université de La Havane, reçu en célébrité. Ses exposés sont enregistrés et une photographie de ce cours existe.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05802",
+     "EV-05803",
+     "EV-05808"
+    ]
+   },
+   {
+    "date": "1952-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Laverne suggère à Asawa d'introduire la couleur dans ses œuvres en fil. Hors campus, à San Francisco.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05804"
+    ]
+   },
+   {
+    "date": "1952-02-20",
+    "precision": "jour",
+    "ce_qui_arrive": "Entenza, éditeur d'Arts and Architecture, écrit à Ruth et Albert Lanier pour vouloir publier les papiers pliés de Ruth. Hors campus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05809"
+    ]
+   },
+   {
+    "date": "1952-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunion de faculté où chaque étudiant est passé en revue. Fee (Fielding Dawson) est chaleureusement loué, le Dr Dehn souligne le contraste avec le Fee d'avant, et Fiore confirme la montée d'acuité que Olson avait remarquée en décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05806"
+    ]
+   },
+   {
+    "date": "1952-02-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit à Mme Dawson pour la rassurer, elle et Cara, au sujet de Fee.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05806"
+    ]
+   },
+   {
+    "date": "1952-02",
+    "precision": "periode",
+    "ce_qui_arrive": "La faculté débat de Sprague et Adams, qualifiés de conservateurs. Le débat se poursuit jusqu'en juin, son issue n'est pas donnée.",
+    "certitude": "atteste",
+    "refs": [
+     "RE-02244",
+     "RE-02245"
+    ]
+   },
+   {
+    "date": "1952-02",
+    "precision": "periode",
+    "ce_qui_arrive": "Walker Evans décline l'invitation de Hazel Larsen Archer à enseigner la photographie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05814"
+    ]
+   },
+   {
+    "date": "1952-02",
+    "precision": "periode",
+    "ce_qui_arrive": "Olson, Leach et Wildenhain échangent sur l'artisanat et l'éducation, entre février et juin.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05812"
+    ]
+   }
+  ],
+  "quotidien": "Peu de vie ordinaire est documentée pour ce mois. Les fiches donnent surtout la trame : réunions de faculté, correspondance (Olson écrit à Mme Dawson, la lettre à Creeley date de fin janvier), débats sur le personnel enseignant, échanges avec Leach et Wildenhain. Fin janvier, Rauschenberg jouait aux cartes à la ferme. Aucun cours régulier, concert ou travail collectif n'est décrit pour février.",
+  "tensions": [
+   "Olson sauve Rauschenberg après la nuit du lac tout en le rejetant, et il qualifie dans sa lettre du 29 janvier à Creeley Rauschenberg, Herb et d'autres de « sexually marginal girls and boys ».",
+   "Les dons s'effondrent avec le départ de Forbes, ce qui fragilise la trésorerie.",
+   "La faculté débat de Sprague et Adams, conservateurs, entre conservateurs et réformateurs.",
+   "L'état de Fee (Dawson) inquiète : Olson écrit à sa famille pour la rassurer.",
+   "Albers est absent du campus et son rôle réel à Black Mountain en 1952 reste flou.",
+   "Rauschenberg reste fragile après la nuit du 28 janvier, et Twombly l'a suivi jusqu'à mi-corps dans l'eau."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La semaine triomphale de La Havane",
+    "date": "1952-02",
+    "lieu": "Université de La Havane",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers est reçu comme une célébrité, logé au meilleur hôtel, fêté par les architectes, les universitaires et l'attaché culturel américain. Les classes débordent, les cours se succèdent du matin au soir, les questions ne s'arrêtent pas, et tout est enregistré. Il écrit quatre fois à Anni et dit éprouver la fraîcheur du métier après trente ans. Il utilise plus d'espagnol qu'au Mexique.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01543",
+     "EV-05802",
+     "EV-05803"
+    ]
+   },
+   {
+    "titre": "Revue des étudiants en réunion de faculté",
+    "date": "1952-02",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Fielding Dawson (Fee)",
+     "Dr Dehn",
+     "Fiore"
+    ],
+    "deroule": "Chaque étudiant est examiné et Fee reçoit des louanges unanimes. Dehn compare le Fee d'avant au citoyen d'aujourd'hui. Fiore confirme la montée d'acuité remarquée par Olson en décembre. Olson rassure ensuite Mme Dawson par lettre le 28 février.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05806"
+    ]
+   },
+   {
+    "titre": "Débat sur Sprague et Adams",
+    "date": "1952-02",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Sprague",
+     "Adams"
+    ],
+    "deroule": "La faculté discute de ces deux conservateurs de février à juin. Les fiches ne décrivent ni les arguments ni l'issue.",
+    "certitude": "atteste",
+    "refs": [
+     "RE-02244",
+     "RE-02245"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Dans la froidure de février, la nuit du 28 janvier reste dans toutes les mémoires.",
+    "vers_date": "1952-01-28",
+    "vers": "La nuit où Rauschenberg, pieds nus, entre dans le lac Eden sous la neige, où Twombly le suit jusqu'à mi-corps et où Olson le porte à moitié jusqu'à la cuisine.",
+    "refs": [
+     "SC-01542",
+     "EV-05800",
+     "RE-02465"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers, à La Havane, retrouve une ville qu'il avait visitée et qui a énormément grandi.",
+    "vers_date": "1934-12",
+    "vers": "Sa première visite à La Havane, en décembre 1934.",
+    "refs": [
+     "EV-05802"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Pendant les réunions de faculté où l'on examine les étudiants et leur santé.",
+    "vers_date": "1952",
+    "vers": "À l'automne, Dawson est appelé sous les drapeaux, et Kline et les Tworkov quittent le collège.",
+    "refs": [
+     "EV-05832",
+     "EV-04885"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rauschenberg, après la crise du lac et la séparation d'avec Susan Weil.",
+    "vers_date": "1952",
+    "vers": "À la fin de l'été, Rauschenberg part pour l'Italie avec Twombly, entre dépression, bourse de voyage de Twombly, collages et Feticci à Rome.",
+    "refs": [
+     "EV-05747",
+     "EV-05849"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Au moment où Olson concentre seul la direction du collège.",
+    "vers_date": "1952",
+    "vers": "À l'automne, Olson est absent, à Washington chez Caresse Crosby ou au Yucatán selon les sources. Les étudiants collectent 100 $ pour le faire revenir.",
+    "refs": [
+     "EV-05670",
+     "EV-05879",
+     "EV-05669"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La série Variant qu'Albers poursuit depuis 1947, dans son travail de peintre et d'enseignant.",
+    "vers_date": "1958",
+    "vers": "Homage to the Square (1958), après Black Mountain, montre la continuité de son travail du collège vers Yale.",
+    "refs": [
+     "EC-02851"
+    ]
+   }
+  ],
+  "motifs": [
+   "La nuit du lac Eden comme scène-pivot de l'année, ambiguë entre tentative de suicide et cri d'attention.",
+   "Olson qui protège et exclut à la fois.",
+   "Les réunions de faculté comme lieu de jugement des étudiants.",
+   "Le désaveu des bailleurs après 1951.",
+   "Albers, figure du maître qui retrouve la joie de l'enseignement, même hors du campus.",
+   "La neige et le froid comme décor de l'hiver.",
+   "Les lettres comme principale source d'information sur ce mois.",
+   "Un entretien de Mies van der Rohe avec des étudiants de Raleigh publié dans LINE en février 1952 : même époque, même État, sans lien direct avec le collège."
+  ],
+  "lacunes": "Aucune fiche ne situe au jour près Olson, Cage, Tudor, Wolpe, Herb Roco ou Dawson en février, et aucune date de session n'est donnée. Ce qui arrive à Rauschenberg et Twombly après la nuit du 28 janvier n'est que suggéré. Sources contradictoires : la fiche EV-05808 mêle la semaine de La Havane (9-17 février) à un voyage d'été au Yucatán, et le cours est décrit pendant la période de Yale d'Albers alors qu'il rompt avec Cage à l'été au collège (EV-05782), donc son rôle réel à Black Mountain en 1952 est incertain. Le journal hésite sur la nuit du 28 janvier. La date du refus de Forbes s'étend de janvier à mars. Les épisodes Asawa et Lanier sont hors campus."
+ }
+}

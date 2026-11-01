@@ -1,0 +1,319 @@
+{
+ "passe": "mois",
+ "cle": "1941-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3556,
+  "sortie": 13290,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1941-10",
+  "session": "Session d'automne : rentrée de fin septembre, repoussée de deux semaines, déjà engagée en octobre (déduit, aucune date d'octobre n'est donnée)",
+  "saison_et_climat": "Automne dans la vallée de Lake Eden, au pied des Blue Ridge Mountains. Les fiches ne décrivent pas le temps en octobre ; on suppose des matinées fraîches et des après-midi de chantier en plein air (déduit).",
+  "situation": "Le collège occupe Lake Eden depuis la rentrée de fin septembre, dans des bâtiments encore à moitié finis et dispersés en une douzaine de constructions. Lee Hall n'abrite plus la vie commune. Albers, revenu de Harvard, a donné le ton à la première assemblée (« la vie signifie changement »). Le chantier volontaire reste central, limité à un à trois après-midis par semaine. Le toit du Studies Building, dernier grand chantier, se prépare ; le calendrier sera suspendu en décembre.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Brett",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Will Hamlin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Richard Carpenter",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alex Reed",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frances Kuntz",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1941-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rentrée de fin septembre, repoussée de deux semaines, dans des bâtiments à moitié finis ; le collège reprend sur le site de Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03226"
+    ]
+   },
+   {
+    "date": "1941-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Première assemblée : Albers évoque ses mois à Harvard, huit ans contre trois siècles de tradition. Betty Brett trouve que le collège ressemble désormais à un autre collège, plus petit et plus chaleureux.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00826",
+     "CI-01624",
+     "CI-01626"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "La règle d'un à trois après-midis de chantier par semaine pèse sur l'emploi du temps de la session.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03149",
+     "CF-00317"
+    ]
+   },
+   {
+    "date": "1941-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Préparation du toit du Studies Building, dernier grand chantier, malgré un faux calcul sur le chêne séché au four ; la suspension du calendrier viendra en décembre.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03234",
+     "SC-00830"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "annee",
+    "ce_qui_arrive": "Albers poursuit les Graphic Tectonics, dessins à la plume traduits en lithographies sur zinc, dont Sanctuary et To Monte Alban.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03138",
+     "EV-03206"
+    ]
+   }
+  ],
+  "quotidien": "Les cours se tiennent au matin et au soir ; l'après-midi est au chantier : drainage, isolation, fondations, et la Jalowetz House dont Stoller dirige le chantier. Les étudiants occupent les espaces de travail du Studies Building. Molly Gregory installe l'atelier de menuiserie ; Albers et Alex Reed travaillent le bijou en quincaillerie. Wunsch prépare la revue littéraire étudiante et deux Molière, dont Frances Kuntz fait les costumes avec 25 dollars. Les chansons sur le chemin du chantier continuent d'agacer une partie des étudiants. Le legs de disques de Surette enrichit l'écoute.",
+  "tensions": [
+   "Le chantier est à la fois salut par le travail (Dreier) et querelle (les « zombies » qui s'agacent)",
+   "Regret de l'unité de Lee Hall et de la dispersion en une douzaine de bâtiments (Hamlin, puis Dreier)",
+   "Contrainte d'argent : souvenir de la crise de juin et de la collecte, don anonyme de 5 000 $ soupçonné de venir de Dreier lui-même",
+   "Conflit pédagogique entre Albers et le « laisser-faire » des écoles progressistes (date non précisée)",
+   "Artisanat contre priorités militaires : critiques sur les bijoux d'Albers et article du Chicago Tribune",
+   "Pacifistes contre partisans de la guerre, encore latent en octobre, le débat étant daté de l'hiver 1941-42",
+   "Version Lane qui lie le déménagement au départ de Thomas, jugée incohérente et écartée"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le lendemain de la première assemblée",
+    "date": "1941-09",
+    "lieu": "salle d'assemblée des bâtiments de Lake Eden",
+    "personnages": [
+     "Josef Albers",
+     "Betty Brett",
+     "Will Hamlin"
+    ],
+    "deroule": "Albers parle du changement contre la tradition. Brett note que le collège ressemble à un autre collège. Hamlin, en retrait, regrette la perte de l'unité de Lee Hall.",
+    "certitude": "probable",
+    "refs": [
+     "SC-00826",
+     "CI-01624",
+     "CI-01626",
+     "CF-00352"
+    ]
+   },
+   {
+    "titre": "Le chêne séché au four",
+    "date": null,
+    "lieu": "chantier du Studies Building",
+    "personnages": [
+     "Kocher",
+     "Stoller"
+    ],
+    "deroule": "Le calcul sur le chêne séché au four se révèle faux. Il faut reprendre le bois avant le toit, dans l'attente de la suspension du calendrier.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03234",
+     "SC-00830"
+    ]
+   },
+   {
+    "titre": "Vingt-huit photographies pour la matière",
+    "date": null,
+    "lieu": "salle de cours de Lake Eden",
+    "personnages": [
+     "Josef Albers",
+     "étudiants"
+    ],
+    "deroule": "Albers projette un diaporama de 28 photographies qui introduit l'exercice de matière. Il défend « des yeux qui voient et des mains obéissantes ».",
+    "certitude": "probable",
+    "refs": [
+     "EV-03159",
+     "EV-03160",
+     "CO-00325",
+     "EV-03218"
+    ]
+   },
+   {
+    "titre": "Zinc et plume",
+    "date": "1941",
+    "lieu": "atelier d'impression",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers transpose ses dessins à la plume sur zinc pour les lithographies des Graphic Tectonics.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03138",
+     "EV-03206"
+    ]
+   },
+   {
+    "titre": "Vingt-six costumes pour 25 dollars",
+    "date": null,
+    "lieu": "atelier de costumes",
+    "personnages": [
+     "Frances Kuntz",
+     "Wunsch"
+    ],
+    "deroule": "Kuntz coud vingt-six costumes pour deux Molière, avec un budget de 25 dollars.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03176",
+     "EV-03174"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Première assemblée de fin septembre, quand Albers et les étudiants parlent de Lee Hall",
+    "vers_date": "1941-05",
+    "vers": "Le site de Lake Eden est « à peine » habitable en mai ; la navette en tracteur de Bovington emporte les instruments et même le chauffage de Lee Hall durant mai et juin.",
+    "refs": [
+     "EV-03219",
+     "EV-03220",
+     "LI-00691"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Chantier quotidien de l'après-midi, en octobre",
+    "vers_date": "1940-09",
+    "vers": "Depuis l'automne 1940, les cours sont ramenés au matin et au soir, et l'après-midi devient celui du chantier volontaire.",
+    "refs": [
+     "EV-02990",
+     "EV-03125",
+     "RE-01181"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers à son atelier, en octobre",
+    "vers_date": "1941-02",
+    "vers": "Ses notes sur l'enseignement du dessin posent « des yeux qui voient et des mains obéissantes », avant le diaporama de matière.",
+    "refs": [
+     "EV-03218",
+     "EV-03159"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le toit du Studies Building, en préparation",
+    "vers_date": "1941-12",
+    "vers": "Le calendrier est suspendu et tout le monde monte sur le toit ; Richard Carpenter, terrifié par les hauteurs, cloue toute la journée.",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La vie quotidienne du collège, déjà traversée par la question de la guerre",
+    "vers_date": "1941-12",
+    "vers": "Pearl Harbor : une radio apportée au dîner, un débat entre pacifistes et partisans de la guerre, et un message de soutien « BMC déclare la guerre à l'Axe », daté par déduction de l'hiver 1941-42.",
+    "refs": [
+     "SC-00831",
+     "EV-03235",
+     "EV-03142",
+     "SC-00801",
+     "CF-00350"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les difficultés d'argent et l'effort de collecte",
+    "vers_date": "1942",
+    "vers": "Le collège cherche un programme de formation gouvernemental (V-1 de la Navy, Enlisted Reserve Corps) sans être accrédité nulle part ; c'est l'enjeu de 1942.",
+    "refs": [
+     "EV-03150",
+     "CF-00353"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "John Andrew Rice, parti en 1940, qui erre entre le New Jersey et New York",
+    "vers_date": "1942",
+    "vers": "Rice achève son livre avec Dikka Moen, voit son divorce d'avec Nell s'achever, et fait la tournée de ses anciens élèves de Cornwall.",
+    "refs": [
+     "EV-03209",
+     "EV-03210",
+     "EV-03211",
+     "SC-00824"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Goodman théorise le cadre et l'écran, dans le monde du Bauhaus",
+    "vers_date": "1952",
+    "vers": "Les expériences scéniques de Black Mountain, dont l'événement de Cage en 1952, que la typologie de Goodman prépare.",
+    "refs": [
+     "EC-01791",
+     "EC-01792"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La famille Dreier au collège, à un moment non précisé de 1941-1942",
+    "vers_date": null,
+    "vers": "Après la mort accidentelle de Mark Dreier sur le campus, Alex Reed et Molly Gregory bâtissent à la main la Quiet House en sa mémoire.",
+    "refs": [
+     "EV-03173",
+     "LI-00697"
+    ]
+   }
+  ],
+  "motifs": [
+   "Lieu contre dispersion : la perte de Lee Hall",
+   "Travail comme salut et comme querelle",
+   "Argent comme contrainte permanente",
+   "Albers : changement contre tradition",
+   "Guerre qui approche et neutralité du campus",
+   "Vide et deuil : Mark Dreier, Carpenter"
+  ],
+  "lacunes": "Aucun jour précis d'octobre n'est attesté. Les fiches ne donnent pas la date de la règle des un à trois après-midis, ni celle du débat sur le laisser-faire, ni celle de la mort de Mark Dreier, ni celle de la présentation des 28 photographies. La météo n'est pas documentée. La présence en octobre de Kocher, Stoller, Gregory, Reed, Wunsch et Kuntz est déduite. Le don de 5 000 $ et son origine supposée restent une hypothèse."
+ }
+}

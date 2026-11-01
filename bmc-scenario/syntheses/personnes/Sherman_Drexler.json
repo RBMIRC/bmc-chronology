@@ -1,0 +1,139 @@
+{
+ "passe": "personnes",
+ "cle": "Sherman Drexler",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1803,
+  "sortie": 4518,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Sherman Drexler",
+  "autres_noms": [],
+  "dates_de_vie": "Non données par les fiches.",
+  "statut_bmc": "Aucune présence au Black Mountain College n'est attestée dans les fiches. Il n'apparaît que comme ami et témoin du couple Bill et Elaine de Kooning, à New York (Greenwich Village, bar du Cedar). Il faut le traiter comme une figure périphérique, un conteur du cercle new-yorkais, et non comme un habitant du collège. Tout lien avec Black Mountain serait une invention du scénariste.",
+  "presence": [],
+  "portrait_physique": "Aucune description physique dans les fiches. Seule sa présence à une soirée au Cedar en 1948 est attestée (SC-01083).",
+  "noyau_psychologique": "Déduction à partir de ses récits : un homme qui fait de l'amitié une matière à anecdotes. Il est rieur, observateur, attaché au couple de Kooning et admiratif, surtout envers Elaine. Il transforme les épisodes marquants de ses amis en légendes drôles, et ce qui l'attire chez eux est leur démesure : l'excès, l'insolence envers l'autorité, la résistance physique. Il raconte plus qu'il ne s'expose. Aucune fiche ne dit ce qui le motive en propre.",
+  "blessures": "Aucune blessure personnelle documentée. Les fiches ne parlent que de ses amis.",
+  "desirs": "Rien d'attesté. On peut déduire qu'il tient à rester proche du couple et à faire durer leur légende en la racontant (EV-03001, PE-00250).",
+  "peurs": "Aucune peur attestée.",
+  "maniere_d_aimer": "Il aime en amusant et en admirant. Il rapporte l'anecdote du manteau avec humour et parle avec respect de la capacité d'Elaine à boire sans payer le lendemain (PE-00250, CI-03584). Il reste un ami fidèle sur la durée : il l'a connue pendant les décennies d'excès, puis a assisté à son arrêt de l'alcool et salué sa volonté. Rien n'est dit de ses amours.",
+  "rapport_au_pouvoir": "Il ne revendique rien. Il partage ou rapporte la sympathie du couple pour le marginal contre l'autorité, puisque Bill et Elaine préféraient le criminel au policier (PE-00250). Il présente le geste de Bill, qui salue le policier tout en se rapprochant de l'agresseur, comme une forme d'insoumission (EV-03001). Pour le reste, aucune fiche ne donne de position de Drexler sur le pouvoir.",
+  "voix": {
+   "registre": "Familier, d'anecdotier : humour, reconstitution de la pensée d'autrui, admiration affectueuse. Le registre est oral, celui du récit entre amis, avec des formules anglaises d'atelier ou de bar (ses mots sont cités en anglais).",
+   "tics": "Il se met à la place des autres pour faire rire, par exemple en imaginant l'agresseur déconcerté. Il conclut ses anecdotes sur une chute ou un jugement tranché sur l'excès ou la résistance d'Elaine. Ce sont des déductions tirées de deux fiches seulement.",
+   "exemples_paraphrases": [
+    "À propos de l'agresseur qui reçoit le manteau de Bill sans un mot : le pauvre type devait se croire face au Christ en personne (PE-00250).",
+    "À propos des beuveries d'Elaine : elle ne payait jamais le prix de ses excès (CI-03584).",
+    "Il raconte avec plaisir la fête où soixante personnes se demandaient si elles avaient toutes couché ensemble, d'après le récit d'Elaine (PE-00250)."
+   ]
+  },
+  "habitudes": [
+   "Il fréquente le Cedar, bar d'artistes où l'on parie et boit (SC-01083).",
+   "Il raconte les épisodes de la vie des de Kooning, dont celui du manteau, devenu légende grâce à lui (EV-03001).",
+   "Il reste lié à Elaine sur plusieurs décennies et témoigne de ses excès comme de son arrêt (PE-00250)."
+  ],
+  "convictions": [
+   "Il partage, ou rapporte, l'idée que Bill et Elaine préféraient le criminel au flic (PE-00250).",
+   "Il admire la résistance physique d'Elaine à l'alcool, qu'il juge exceptionnelle (CI-03584).",
+   "Il croit à la force de la volonté, au vu de son témoignage sur l'arrêt de l'alcool (PE-00250). C'est une déduction."
+  ],
+  "arc_bmc": [],
+  "avant": [
+   {
+    "date": "1940/1948",
+    "moment": "Scène d'hiver à Greenwich Village, près de Carmine Street : Bill de Kooning donne son manteau neuf à un agresseur colossal qui frappait une femme, puis se rapproche de lui quand un policier approche. Drexler raconte l'épisode et le colore d'humour. Rien ne prouve qu'il en ait été témoin, et l'on ignore à quelle date il est entré dans l'amitié du couple.",
+    "refs": [
+     "EV-03001",
+     "PE-00250"
+    ]
+   },
+   {
+    "date": "1948",
+    "moment": "Soirée très arrosée au Cedar : Betsy Egan, jalouse, défie Elaine au bras de fer devant un public d'artistes parieurs. Match nul, puis une amitié immédiate entre les deux femmes. Drexler est cité parmi les personnages présents. Charles Egan et Elaine sont là aussi.",
+    "refs": [
+     "SC-01083",
+     "EV-04285"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1960/1976",
+    "moment": "Drexler évoque la résistance d'Elaine à l'alcool : elle ne souffrait jamais de ses excès. La date de cette remarque est déduite du contexte et reste incertaine.",
+    "refs": [
+     "CI-03584"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Témoignage à long terme, non daté, recueilli dans Hall 1993 et Curtis 2017. Il rapporte le récit d'Elaine sur la fête des soixante personnes, parle des excès des décennies passées, puis de son arrêt de l'alcool et de sa volonté remarquable.",
+    "refs": [
+     "PE-00250"
+    ]
+   },
+   {
+    "date": "1967",
+    "moment": "Elaine, furieuse du livre de Gruen sur Bill, appelle ses amis pour le discréditer. Drexler n'est pas nommé dans la fiche. S'il est dans ce cercle d'amis, c'est une simple possibilité, à ne pas affirmer.",
+    "refs": [
+     "EV-07911"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "Ami proche et admirateur, témoin de sa vie sociale et de ses excès. Les fiches ne donnent aucune relation sentimentale.",
+    "evolution": "Il la voit au Cedar en 1948 à l'époque des soirées arrosées. Plus tard, il parle de sa résistance à l'alcool, puis de son arrêt et de sa volonté.",
+    "refs": [
+     "SC-01083",
+     "PE-00250",
+     "CI-03584"
+    ]
+   },
+   {
+    "avec": "Willem (Bill) de Kooning",
+    "nature": "Ami du couple, narrateur d'une anecdote qui fait de Bill un personnage presque légendaire.",
+    "evolution": "Aucune évolution documentée dans les fiches. Il fixe l'image d'un Bill insoumis à l'autorité, généreux et impassible.",
+    "refs": [
+     "EV-03001",
+     "PE-00250"
+    ]
+   },
+   {
+    "avec": "Betsy et Charles Egan",
+    "nature": "Connaissances du Cedar, présents à la soirée du bras de fer.",
+    "evolution": "La jalousie de Betsy se mue en complicité avec Elaine le soir même. Rien n'est dit sur ses liens propres avec les Egan.",
+    "refs": [
+     "SC-01083",
+     "EV-04285"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Aucune contradiction directe à propos de Drexler. Les deux fiches sur le bras de fer (SC-01083 et EV-04285) concordent : Betsy est plus forte, Elaine rit à moitié ivre, match nul. Mais seule SC-01083 cite Drexler parmi les présents.",
+   "Dans l'épisode du manteau, Drexler est le narrateur (EV-03001), mais les fiches ne disent pas s'il en a été témoin. Sa reconstitution des pensées de l'agresseur (« Jésus-Christ ») est une mise en scène humoristique, pas un fait. La fiche PE-00250 porte une date incertaine (≈?) et classe l'épisode « avant_bmc ».",
+   "Les passages signalés « avant » ou « après » dans PE-00250 se rapportent à la chronologie du couple de Kooning, pas à la vie de Drexler lui-même."
+  ],
+  "situations_revelatrices": [
+   "Une soirée de bar où il raconte ou commente un exploit d'ami, avec humour et admiration.",
+   "Une narration autour d'une table : il rejoue l'anecdote du manteau en imitant la stupeur de l'agresseur.",
+   "Une conversation avec Elaine à l'époque où elle arrête de boire : il évoque les décennies d'excès et salue sa volonté.",
+   "La campagne téléphonique d'Elaine contre le livre de Gruen, en 1967 : un ami proche pourrait y être sollicité. C'est une hypothèse de scénario, rien n'est attesté."
+  ],
+  "citations": [
+   "CI-03584 : « she just never suffered for her excesses » (elle ne souffrait jamais de ses excès), à propos de la résistance d'Elaine de Kooning à l'alcool, vers 1960-1976.",
+   "PE-00250 : l'anecdote du manteau, reconstituée avec humour, selon laquelle l'agresseur a dû croire rencontrer Jésus-Christ (propos paraphrasé, non cité mot à mot)."
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort de Drexler, origine et formation : rien dans les fiches.",
+   "Métier et activité : est-il artiste, écrivain, autre ? Les fiches ne le disent pas.",
+   "Comment et quand a-t-il rencontré Bill et Elaine ? A-t-il assisté à l'épisode du manteau ou l'a-t-il appris ?",
+   "Quel lien éventuel avec Black Mountain College, ses enseignants ou ses étudiants ?",
+   "Qu'est-ce que l'« épisode du sifflement » mentionné dans PE-00250, et quel est son rôle précis ?",
+   "Sa vie après 1976, et ses rapports avec Elaine après son arrêt de l'alcool."
+  ]
+ }
+}

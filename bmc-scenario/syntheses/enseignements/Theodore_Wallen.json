@@ -1,0 +1,91 @@
+{
+ "passe": "enseignements",
+ "cle": "Theodore Wallen",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1475,
+  "sortie": 2202,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Theodore Wallen",
+  "cours": [
+   {
+    "intitule": "Group Process",
+    "periodes": [
+     "1946-1947"
+    ],
+    "atteste": "oui",
+    "objectifs": "Étudier les méthodes de résolution de problèmes dans les groupes (CO-00436). Le cours cherchait à rendre le groupe capable de traiter ses propres difficultés, avec les enjeux réels du collège comme terrain d'étude.",
+    "deroule_type_seance": "Pas de déroulé détaillé attesté dans les fiches. Ce qui est attesté : pas de manuel, et des problèmes communautaires en cours à Black Mountain joués en « role-play ». Déduction prudente, non attestée : la séance partait d'un problème réel choisi par le groupe, le mettait en scène, puis le discutait. Les fiches ne donnent ni la durée, ni le rythme, ni le nombre de séances, ni le lieu.",
+    "exercices": [
+     {
+      "consigne": "Jouer en role-play les problèmes communautaires actuels de Black Mountain, sans manuel.",
+      "materiaux": "Aucun manuel ; les enjeux courants du collège servent d'illustration.",
+      "but": "Étudier les méthodes de résolution de problèmes dans un groupe à partir de situations vécues.",
+      "refs": [
+       "CO-00436"
+      ]
+     },
+     {
+      "consigne": "Mettre en scène un problème communautaire que le groupe choisit lui-même, et dont Arthur Penn, membre du cours, est le centre.",
+      "materiaux": "Le cas réel d'un participant ; aucun matériel particulier mentionné.",
+      "but": "Non précisé explicitement. Déduction : traiter par le jeu un cas concret touchant un membre du groupe. Le déroulement et l'issue de la scène ne sont pas documentés.",
+      "refs": [
+       "CO-00436"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucun manuel : la fiche précise explicitement l'absence de livre de cours (CO-00436).",
+     "Arrière-plan biographique, hors cours : Wallen a renoncé à terminer son doctorat à Harvard, par méfiance envers l'introspection psychologique (ID-01721)."
+    ],
+    "propos_types": [
+     "Il avertissait, selon la déduction de la fiche, des limites de l'analyse : une conscience accrue des concepts psychologiques peut conduire à l'introspection malsaine, à analyser au lieu de vivre l'expérience. Cet avertissement est rattaché au cours de Group Process par la fiche, sans citation directe (ID-01721).",
+     "Il déplorait que la psychologie devienne « la religion du vingtième siècle », ce qui rejoint les critiques d'Albers contre le « scientisme » (ID-01721). Le rattachement exact de cette phrase au cours n'est pas établi.",
+     "Hors classe, devant la faculté en 1946 : il demandait si tous devaient être exactement pareils pour coopérer, et disait qu'il ne croirait plus que ce que les gens font, non ce qu'ils disent (ID-01722, SC-00988)."
+    ],
+    "critique_et_evaluation": "Aucune évaluation formelle du cours n'est attestée dans les fiches. Seule la réception étudiante est documentée. Le doute intérieur de Wallen sur la psychologie (ID-01721) n'a peut-être pas été assez communiqué aux étudiants, selon la fiche : c'est une hypothèse, non un fait établi.",
+    "reactions_etudiants": "Format et buts sans précédent pour la plupart des étudiants. Les étudiants en art et ceux des sciences sociales « dures » s'en détournent progressivement (CO-00436, d'après Duberman 1972, p. 260).",
+    "evolution": "Le cours est daté de 1946-1947 : il connaît un désengagement progressif d'une partie des étudiants (art, sciences sociales « dures »). Les fiches ne disent pas si le cours s'arrête, ni quand exactement, ni pourquoi.",
+    "refs": [
+     "CO-00436",
+     "ID-01721",
+     "ID-01722",
+     "SC-00988"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Une conscience accrue des concepts psychologiques peut mener à une introspection malsaine et à l'analyse au lieu de l'expérience. Wallen en tire la conséquence personnelle (abandon du doctorat de Harvard) et regrette que la psychologie devienne « la religion du vingtième siècle ».",
+    "en_classe": "Attesté : un avertissement dans le cours de Group Process sur les limites de l'analyse, selon la fiche. Transposable en séance : après un role-play, laisser le groupe agir et vivre la situation avant de l'analyser, puis demander si l'analyse a aidé ou remplacé l'expérience. Cette mise en pratique précise n'est pas attestée.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01721"
+    ]
+   },
+   {
+    "idee": "La vie en commun étroite peut produire une compréhension et une foi mutuelles plus profondes, à condition que la communauté vive sa rhétorique sur l'individualité. La méfiance n'est pas un mal nécessaire, et la coopération n'exige pas l'uniformité.",
+    "en_classe": "Attesté : plaidoyer en community meeting, et déclaration à la faculté en 1946. Non attesté au cours : l'usage de cette idée comme critère dans les role-plays de Group Process, par exemple juger un problème communautaire selon que la communauté pratique ce qu'elle proclame (déduction).",
+    "atteste": "oui",
+    "refs": [
+     "ID-01722",
+     "SC-00988",
+     "CO-00436"
+    ]
+   },
+   {
+    "idee": "Juger les gens à ce qu'ils font, non à ce qu'ils disent : repère moral de Wallen après le conflit avec Albers. Tension dramatique : il dénonce chez Albers les tactiques mêmes qu'il reprochait aux Bentleyites (ingérence électorale) et refuse l'interprétation de ses actes comme projection.",
+    "en_classe": "Non attesté comme exercice de cours. Piste pour le scénario, pas pour la classe : mettre en parallèle la scène de la déclaration devant la faculté (sérieuse, tendue, plaintive par moments, en 1946) et les séances de role-play où le groupe traite des conflits réels. Les fiches ne disent pas si les conflits entre Wallen et Albers ont été abordés en cours.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-00988",
+     "ID-01722",
+     "CO-00436"
+    ]
+   }
+  ]
+ }
+}

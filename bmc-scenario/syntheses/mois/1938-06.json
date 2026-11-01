@@ -1,0 +1,330 @@
+{
+ "passe": "mois",
+ "cle": "1938-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4063,
+  "sortie": 12043,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1938-06",
+  "session": "Fin de l'année académique 1937-1938 : dernier conseil des fellows le 2 juin, puis vacances d'été, pendant lesquelles le collège gère l'auberge du Lake Eden Inn et lance la ferme.",
+  "saison_et_climat": "Fin du printemps et entrée dans l'été, dans les Appalaches de Caroline du Nord (déduit du lieu). Les fiches ne donnent aucune information météo.",
+  "situation": "Le collège sort d'une année de crise. Rice est exclu de la vie active : la rupture est formalisée, son congé est prolongé jusqu'en septembre et son refus de représenter le collège à Chicago est acté. Le Board accorde 200 dollars de frais de vie supplémentaires, geste ambivalent, et Wunsch dresse le bilan de la gestion de Rice au dernier conseil. La question du rectorat reste ouverte, et le collège doit maintenant vivre sans lui.",
+  "presents_probables": [
+   {
+    "nom": "Wunsch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mangold (secrétaire)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nancy Farrell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier (trésorier)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Chaddock",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Roscoe Penley",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1938-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Rupture définitive avec Rice : le Board tranche et Rice quitte le collège. La lettre de Mangold du 27 mai accompagne cette décision.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02845"
+    ]
+   },
+   {
+    "date": "1938-06-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Dernier conseil des fellows de l'année. Wunsch dresse le bilan : Rice a manqué de jugement sur la durée, dissipé son leadership, et la faculté lui a dit qu'il n'était pas en état de diriger. On espère son retour à l'automne sous ses traits d'avant.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02848"
+    ]
+   },
+   {
+    "date": "1938-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board accorde 200 dollars supplémentaires pour frais de vie et demande à Rice de représenter le collège à Chicago. Rice refuse. Chaddock date ce refus d'avril, Duberman de juin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02847",
+     "EV-02848"
+    ]
+   },
+   {
+    "date": "1938-06-05",
+    "precision": "jour",
+    "ce_qui_arrive": "Nancy Farrell obtient son congé honorable.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02463"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "Été : le collège fait tourner l'auberge du Lake Eden Inn, la ferme prend forme avec Roscoe Penley et l'énergie de Dreier, et la communauté mange déjà ses produits.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02795",
+     "EV-02796"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "Gropius et Breuer livrent leurs plans contre 400 dollars. Dreier estime la réalisation à 500 000 dollars ; le projet sera abandonné vers 1940 au profit de Kocher.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02772",
+     "OE-01358"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Dick Porter, étudiant en cinquième année, se tire une balle dans la tempe et meurt au Biltmore Hospital d'Asheville, pendant l'année 1937-1938 dont la date exacte reste inconnue. Le lendemain, Moellenhoff évoque en réunion générale la culpabilité d'un groupe face à une solitude choisie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02762",
+     "EV-02763",
+     "SC-00715"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "annee",
+    "ce_qui_arrive": "Elaine Fried rencontre Milton Resnick, puis Willem de Kooning, qui devient son maître et son amant, pendant que Bill passe à la nature morte et détruit ses toiles figuratives.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02743",
+     "EV-02744",
+     "EV-02778"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches décrivent peu la vie ordinaire de juin. On sait que la communauté se prépare à l'été : auberge à tenir, ferme à monter, repas partagés avec les produits du lieu. Les réunions de fin d'année et la rédaction du bilan occupent la faculté.",
+  "tensions": [
+   "Le Board soutient Rice par l'argent (200 dollars) tout en le tenant à l'écart du pouvoir ; les étudiants n'ont pas été consultés sur sa mise à l'écart.",
+   "Date contestée du refus de Chicago : avril selon Chaddock, juin selon Duberman.",
+   "Contradiction entre les dates de départ de Rice pour Folly Beach (3 mars dans la synthèse, 7 mars selon Duberman) ; la date reste à manier avec prudence.",
+   "Schawinsky, mal vu du Conseil et de Mangold, n'est pas réembauché, et le collège doit trouver ses marges sans lui.",
+   "Finances serrées : salaires coupés de 25 %, budgets calculés selon les besoins, collecte de fonds par les Albers mal vue de Rice.",
+   "Le suicide de Porter pèse sur la communauté ; le lien avec le matériau macabre de Schawinsky est plausible mais jamais affirmé.",
+   "Rice et Albers gardent leurs querelles en réserve."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le dernier conseil des fellows",
+    "date": "1938-06-02",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Wunsch",
+     "Mangold (probable)",
+     "Dreier (probable)",
+     "Albers (deduit)"
+    ],
+    "deroule": "Wunsch lit le bilan de la gestion de Rice : manque de jugement, leadership dissipé, faculté qui lui a dit qu'il n'était plus en état de diriger. La salle se partage entre regret de la stimulation de ses conversations et soulagement. Le conseil vote les 200 dollars et évoque la mission de Chicago, que Rice refusera.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02848",
+     "EV-02847"
+    ]
+   },
+   {
+    "titre": "Le refus de Chicago",
+    "date": "1938-06",
+    "lieu": null,
+    "personnages": [
+     "Rice (absent)",
+     "Board"
+    ],
+    "deroule": "Le Board demande à Rice de représenter le collège à une réunion d'écoles progressistes ; il refuse. La scène se joue par lettre ou par intermédiaire, et le geste montre l'ambivalence de Rice envers le collège qu'il a fondé.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02847"
+    ]
+   },
+   {
+    "titre": "Départ honorable de Nancy Farrell",
+    "date": "1938-06-05",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Nancy Farrell",
+     "Mangold (probable)"
+    ],
+    "deroule": "Farrell quitte le collège avec un congé honorable, après une année marquée par la fin de la période Rice. La scène est sobre : formalités, adieux, et un collège qui se ressert.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02463"
+    ]
+   },
+   {
+    "titre": "La lettre de Mangold à Rice",
+    "date": "1938-05-27",
+    "lieu": null,
+    "personnages": [
+     "Mangold",
+     "Rice"
+    ],
+    "deroule": "Mangold écrit à Rice pour maintenir le lien après la décision. Le ton reste conciliant, ce qui contraste avec la fermeté des fellows.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02845"
+    ]
+   },
+   {
+    "titre": "Premier été de la ferme et de l'Inn",
+    "date": "1938",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Roscoe Penley",
+     "Dreier"
+    ],
+    "deroule": "Dreier pousse la mise en route de la ferme et de l'auberge. La communauté mange ses premiers produits, et les plans de Gropius et Breuer servent de projection pour l'avenir.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02795",
+     "EV-02796",
+     "EV-02772"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Fin juin, après le conseil final",
+    "vers_date": "1938-05",
+    "vers": "Mai : quatre membres de la faculté viennent annoncer à Rice la décision du Board ; il s'emporte contre un collège qui pense à lui-même et non à son bien.",
+    "refs": [
+     "SC-00734",
+     "EV-02845"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin, au moment où le bilan de Rice est dressé",
+    "vers_date": "1938-03-03",
+    "vers": "Mars : Mangold et Dreier négocient avec Rice un congé jusqu'au 1er mai, sans consulter les étudiants. La date du départ pour Folly Beach reste contestée (3 ou 7 mars).",
+    "refs": [
+     "EV-02837",
+     "EV-02835",
+     "SC-00733",
+     "EV-02838"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin, dans la mémoire de la communauté",
+    "vers_date": "1938-01-28",
+    "vers": "Fin janvier : Albers écrit à Rice que la perte de confiance menace l'existence du collège, et pose l'ultimatum d'une levée de fonds bloquée tant que Rice reste.",
+    "refs": [
+     "EV-02833",
+     "RE-00985"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin, après la mort de Porter dans la mémoire de la communauté",
+    "vers_date": null,
+    "vers": "Dans l'année 1937-1938 : Porter se tire une balle dans la tempe et meurt à Asheville. Le lendemain, Moellenhoff parle de solitude choisie et de culpabilité collective.",
+    "refs": [
+     "EV-02762",
+     "EV-02763",
+     "SC-00715"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1938",
+    "vers_date": "1938-08-31",
+    "vers": "Un mémo traite du départ de Schawinsky, non réembauché après le théâtre total et la pièce macabre.",
+    "refs": [
+     "CF-00284",
+     "EV-02850",
+     "EV-02816"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1938",
+    "vers_date": "1938-08",
+    "vers": "Fin août : Albers obtient de Moholy-Nagy la suppression de deux remarques de The New Vision qu'il juge fausses.",
+    "refs": [
+     "EV-02849",
+     "SC-00736"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin 1938, vide du pouvoir",
+    "vers_date": "1938",
+    "vers": "Automne : Rice revient en fantôme à Lee Hall, écrit son autobiographie et reçoit sur rendez-vous ses soutiens. Personne ne veut le rectorat, que le Board vote finalement à Wunsch.",
+    "refs": [
+     "EV-02851",
+     "EV-02852",
+     "SC-00729"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Automne 1938, la vie de l'Inn et de la ferme",
+    "vers_date": "1938-12",
+    "vers": "Le MoMA ouvre l'exposition Bauhaus 1919-1928, où figurent des exercices d'élèves d'Albers à Black Mountain.",
+    "refs": [
+     "EV-02794",
+     "EV-02858"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1938, premiers travaux de la ferme",
+    "vers_date": "1940",
+    "vers": "Vers 1940 : le projet de Gropius et Breuer est abandonné au profit de Kocher.",
+    "refs": [
+     "OE-01358",
+     "EV-02772"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1938, vie d'auberge et de ferme",
+    "vers_date": "1948",
+    "vers": "Les étés de 1948 verront Elaine et Bill se retrouver dans le fil new-yorkais que prépare leur année 1938.",
+    "refs": [
+     "EV-02778"
+    ]
+   }
+  ],
+  "motifs": [
+   "La chute et l'ambivalence de Rice, à la fois fondateur absent et figure encore écoutée",
+   "L'argent comme ressort de la mise à l'écart",
+   "Les rumeurs et leurs versions contradictoires",
+   "La mort de Porter et la culpabilité collective",
+   "Le théâtre comme exposition du collectif, ici prolongé par la mémoire",
+   "La ferme et l'auberge comme promesse d'un collège qui se passe de son fondateur"
+  ],
+  "lacunes": "On ignore où se trouvent Rice, Alice, Nell et Albers en juin. Le jour exact de la rupture et du vote du Board n'est pas donné, de même que la date du refus de Chicago (avril ou juin). La date du suicide de Porter reste inconnue, et son lien avec Schawinsky n'est pas affirmé. Les fiches décrivent très peu la vie quotidienne de ce mois, et la composition exacte du Board en juin est inconnue."
+ }
+}

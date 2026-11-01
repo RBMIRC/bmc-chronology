@@ -1,0 +1,264 @@
+{
+ "passe": "mois",
+ "cle": "1938-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4054,
+  "sortie": 10472,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1938-09",
+  "session": null,
+  "saison_et_climat": "Fin d'été puis début d'automne 1938 ; les fiches ne documentent ni le climat ni la saison académique de septembre.",
+  "situation": "Le collège vit son après-Rice. Rice est revenu de Folly Beach sans fonction et s'est installé à Lee Hall, où il écrit son autobiographie et ne reçoit plus que sur rendez-vous discrets. Le rectorat a été confié à Wunsch, que Rice juge gentil mais incapable de diriger. La liaison avec Alice est abandonnée, Portell démissionne, les Bailey rejoignent le personnel, et l'entente entre Rice et Albers ne tient pas. Le collège porte encore la crise du printemps : salaires réduits de 25 % cette année-là, Schawinsky parti, la ferme et l'auberge de Lake Eden en cours de montage. Duberman parle de « monarque déchu », Chaddock de présence à peine visible : les deux sources concordent sur le retrait de Rice, et non sur sa date de retour précise.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Roscoe Penley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "David Bailey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Peggy Bailey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Portell-Vila",
+    "certitude": "probable"
+   },
+   {
+    "nom": "étudiants du séminaire d'écriture (non nommés)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1938-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Retour de Rice à Black Mountain sans fonction : il vit en reclus dans une chambre de Lee Hall et écrit son autobiographie, commencée à Folly Beach.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02851"
+    ]
+   },
+   {
+    "date": "1938-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice reçoit des étudiants en secret, par numéro de chambre ; seuls les membres du séminaire d'écriture le voient régulièrement.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02852"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Automne 1938 : le Board vote le rectorat à Wunsch, poste que personne ne voulait ; Rice juge Wunsch « gentil et sucré » mais incapable de gouverner, et croit Mangold et Albers derrière lui. Date exacte du vote inconnue.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02851"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Automne 1938 : la liaison avec Alice est abandonnée, Portell démissionne, Peggy et David Bailey rejoignent le personnel, un modus vivendi apparaît entre Rice et Albers puis se défait.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02767",
+     "EV-02771",
+     "EV-02769"
+    ]
+   }
+  ],
+  "quotidien": "Rice passe ses journées à écrire dans sa chambre de Lee Hall et reçoit sur rendez-vous les étudiants les plus ardents. La communauté vit de la ferme et de l'auberge de Lake Eden, déjà en route pendant l'été, avec des produits consommés sur place. Le collège fonctionne avec un personnel réduit et des salaires amputés. Le séminaire d'écriture reste le seul lien régulier avec Rice.",
+  "tensions": [
+   "Rice se sent dépossédé et soupçonne Anni Albers de vouloir le poste pour son mari ; ce soupçon est la lecture de Rice, non un fait établi",
+   "Rivalité persistante entre Rice et Albers, malgré le modus vivendi",
+   "Légitimité de Wunsch, élu par un Board dont la composition ce jour-là est inconnue",
+   "Liaison avec Alice abandonnée sans qu'on sache ce qu'elle a réellement été",
+   "Schawinsky parti dans l'amertume, en attente d'un mémo du 31 août qui traite de son départ",
+   "Finances tendues après les coupes de salaires et la dépendance aux budgets de besoin"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Visite par numéro de chambre",
+    "date": "1938-09",
+    "lieu": "Lee Hall, Black Mountain College",
+    "personnages": [
+     "Rice",
+     "un étudiant du séminaire d'écriture"
+    ],
+    "deroule": "Un étudiant est reçu à l'étage de Lee Hall. Rice indique qu'il est dans telle chambre « mais ne le dites à personne ». La conversation porte sur l'avenir du collège et sur la façon dont Rice se voit encore comme son centre.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02852",
+     "EV-02851"
+    ]
+   },
+   {
+    "titre": "Rice apprend le vote du rectorat",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rice",
+     "Wunsch",
+     "Anni Albers"
+    ],
+    "deroule": "Le vote du Board est connu de Rice, qui y lit une manœuvre, soupçonnant Anni Albers d'avoir convoité le poste pour son mari. Il juge Wunsch incapable de gouverner et voit en lui un homme de paille.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02851"
+    ]
+   },
+   {
+    "titre": "Bilan de l'été à Lake Eden",
+    "date": "1938-09",
+    "lieu": "Lake Eden, ferme et auberge",
+    "personnages": [
+     "Dreier",
+     "Roscoe Penley"
+    ],
+    "deroule": "La ferme et l'auberge fonctionnent ; la communauté mange ses propres produits. Dreier pousse le projet de construction, dont le coût est estimé à 500 000 dollars.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02795",
+     "EV-02796",
+     "EV-02772"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rice dans sa chambre de Lee Hall, en train d'écrire son autobiographie commencée à Folly Beach",
+    "vers_date": "1938-03",
+    "vers": "Le congé de mars à Folly Beach, où Rice met en forme ses souvenirs du Sud et reçoit des étudiants.",
+    "refs": [
+     "EV-02851",
+     "EV-02838"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les étudiants qui viennent voir Rice en secret",
+    "vers_date": "1938-01",
+    "vers": "Janvier : Rice explique qu'Alice doit « s'épanouir » et Albers avertit que la perte de confiance menace l'existence du collège.",
+    "refs": [
+     "EV-02833",
+     "SC-00732"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La mémoire du collège sous Rice, après le retour de Rice",
+    "vers_date": "1937-12",
+    "vers": "Après Noël 1937 : Rice s'enferme dans son study, la rumeur de liaison avec Alice circule, et les vieux griefs se rouvrent.",
+    "refs": [
+     "EV-02833"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Une fin d'été marquée par la mise en scène et la mort",
+    "vers_date": "1938-05",
+    "vers": "Danse Macabre de Schawinsky est donnée en mai, et un étudiant acteur se suicide dans la cinquième année ; la date exacte n'est pas précisée.",
+    "refs": [
+     "EV-02846",
+     "EV-02817",
+     "EV-02763"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le projet d'architecture de Lake Eden, encore en discussion",
+    "vers_date": "1940",
+    "vers": "Vers 1940 le projet de Gropius et Breuer est abandonné au profit de Kocher.",
+    "refs": [
+     "OE-01358",
+     "EV-02772"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les expositions et publications du Bauhaus, déjà en préparation",
+    "vers_date": "1938-12",
+    "vers": "En décembre le MoMA ouvre Bauhaus 1919-1928, où figurent des exercices d'élèves d'Albers à Black Mountain.",
+    "refs": [
+     "EV-02794",
+     "EV-02858"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rice, réduit à l'écriture, qui publie depuis son retrait",
+    "vers_date": "1938-11",
+    "vers": "En novembre et décembre Harper's publie en deux parties « Grandmother Smith's Plantation » de Rice.",
+    "refs": [
+     "EV-02853"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La collecte de fonds menée par les Albers et Dreier",
+    "vers_date": "1938-11-19",
+    "vers": "Dreier télégraphie à Eleanor Roosevelt le 19 novembre pour la collecte.",
+    "refs": [
+     "EV-02854"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le fil New York, lointain, de Elaine et Bill",
+    "vers_date": "1948",
+    "vers": "Elaine Fried, élève puis maîtresse de de Kooning, prépare les étés de 1948.",
+    "refs": [
+     "EV-02743",
+     "EV-02744",
+     "EV-02778"
+    ]
+   }
+  ],
+  "motifs": [
+   "le fondateur devenu fantôme",
+   "pouvoir informel contre titre formel",
+   "rendez-vous secrets par numéro de chambre",
+   "rivalité Rice-Albers",
+   "l'après-Rice commence sans lui",
+   "la liaison comme dette jamais tranchée"
+  ],
+  "lacunes": "La session académique de septembre n'est pas nommée. La date exacte du vote du Board pour Wunsch, sa composition et la date de retour de Rice restent inconnues. Les fiches divergent sur la date de début de la liaison (mi-hiver 1938 pour RE-01062, automne 1937 pour CF-00281 et EC-01567) et sur celle du départ pour Folly Beach (3 mars selon les dates de congé, 7 mars selon Duberman). On ignore où se trouvent Alice, Nell Rice et Portell-Vila en septembre, la date de départ de Portell, celle d'arrivée des Bailey, et le contenu exact du mémo du 31 août sur Schawinsky. Le climat et les événements quotidiens de la rentrée ne sont pas documentés."
+ }
+}

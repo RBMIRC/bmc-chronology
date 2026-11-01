@@ -1,0 +1,352 @@
+{
+ "passe": "mois",
+ "cle": "1949-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6021,
+  "sortie": 15402,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1949-04",
+  "session": "semestre de printemps ; les quatre démissionnaires restent jusqu'en juin pour achever leurs cours",
+  "saison_et_climat": "Printemps. Sur les crêtes voisines du collège, pluie les trois premiers jours du camping de Pâques, neige le quatrième, brouillard presque continu, nuits froides ; la neige subsiste encore au retour au collège, sous un soleil revenu.",
+  "situation": "Le collège vit la fin de l'ère fondatrice. Dreier a quitté le campus à mi-avril. Josef et Anni Albers, Trude Guermonprez et Charlotte Schlesinger, démissionnaires depuis février, assurent leurs cours jusqu'en juin sans perspective assurée au-delà. Pittenger refuse de s'engager tant que la querelle des pensions n'est pas tirée au clair, et l'audit de Cole ne protège que 80 % des fonds. La direction reste sans titulaire solide. Lanier et Asawa sont en Californie, loin du campus.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Trude Guermonprez",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charlotte Schlesinger",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier (jusqu'à mi-avril, puis absent)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Gerda Slavson Cooke (camping de Pâques)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mim Sihvonen (camping de Pâques)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Eini Sihvonen (camping de Pâques)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mel Mitchell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cunningham (de passage au printemps, date non donnée)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Robert Rauschenberg (départ prévu au printemps ou début d'été)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Susan Weil (départ prévu au printemps ou début d'été)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants (effectifs de l'année non précisés)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1949-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Camping de Pâques avec les sœurs Sihvonen et Gerda Slavson Cooke sur les crêtes voisines. Pluie, neige le quatrième jour, brouillard, violettes gelées au réveil. Gerda, qui n'a que des baskets, a des orteils gelés et le camp est écourté d'un jour.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04854",
+     "SC-01243"
+    ]
+   },
+   {
+    "date": "1949-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Theodore Dreier quitte définitivement le collège à mi-avril, sans cours en cours, pour la Floride puis un camping dans l'Ouest. Il a accepté un rôle consultatif auprès de Pittenger. Les deux fiches s'accordent sur la date, mais diffèrent sur son statut exact.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04855",
+     "EV-04857"
+    ]
+   },
+   {
+    "date": "1949-04-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Albert Lanier écrit de San Francisco à ses parents que la concurrence entre architectes y est plus rude qu'ailleurs et que le meilleur travail y est exigé.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04861"
+    ]
+   },
+   {
+    "date": "1949-04-20",
+    "precision": "jour",
+    "ce_qui_arrive": "Albert Lanier écrit à Ruth Asawa, lettre conservée aujourd'hui dans les archives de Ruth Asawa Lanier, Inc. ; la relation est née autour de Black Mountain College.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04862"
+    ]
+   },
+   {
+    "date": "1949-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution dans Arts and Architecture, pp. 30-31, de l'article non signé sur la Minimum House, projet étudiant du collège, écrit par Lanier et illustré de photographies d'Hazel Archer. La publication avait été suggérée par Anni et Josef Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04858"
+    ]
+   },
+   {
+    "date": "1949-04-30",
+    "precision": "jour",
+    "ce_qui_arrive": "Laurie Pearson, cousine de Lanier, répond au vase qu'il lui a offert : elle n'osera jamais y mettre de fleurs, tant il est beau nu.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04859"
+    ]
+   },
+   {
+    "date": "1949-04-30",
+    "precision": "jour",
+    "ce_qui_arrive": "Breton prononce à Paris, lors d'un meeting du RDR, une diatribe contre les États-Unis (racisme, hypocrisie sexuelle, Coca-Cola, mainmise sur l'Amérique latine). Événement hors du collège, cité pour l'arrière-plan. La fiche EV-04860 ne donne que le mois.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04860",
+     "EV-04863"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Dehn et Natasha Goldowski tentent de retenir les Albers au moins pour la session d'été. Albers répond que c'est « clos ».",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "L'auditeur Cole rassure sur la légalité du dispositif de pensions, mais seuls 80 % des fonds peuvent être protégés.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les cours continuent pour les Albers, Guermonprez et Schlesinger jusqu'en juin. Les étudiants partent en camping sur les crêtes, avec des sacs de plus de vingt-cinq kilos et sous la pluie. Gerda, les sœurs Sihvonen et Gerda chantent des chorals de Bach en marchant. La Minimum House, construite par les étudiants, paraît en revue. Anni décrit un quotidien marqué par le manque d'intimité et d'argent. Mel Mitchell découvre un Albers chaleureux. Cunningham passe au printemps. Rauschenberg et Susan Weil préparent leur départ pour New York.",
+  "tensions": [
+   "Querelle des pensions : accusations de détournement visant Dreier, qui remontent aux obligations placées au seul nom d'Albers en 1944",
+   "Pittenger refuse de s'engager tant que la question des pensions n'est pas éclaircie ; Cole ne protège que 80 % des fonds",
+   "Dehn et Natasha Goldowski veulent retenir les Albers pour l'été ; Albers refuse, « clos »",
+   "Anni évoque la tension permanente, le manque d'intimité et le manque d'argent",
+   "Factions : Nell Rice et ses cinq collègues contre Dreier ; la liaison de Dreier avec une enseignante de l'école d'art reste un sujet, l'identité de la femme n'étant pas établie",
+   "Sources divergentes : Mel Mitchell décrit un Albers chaleureux, quand les fiches sur la crise le présentent en rupture ; il s'agit de témoignages de natures différentes",
+   "Statut de Dreier en avril : sans cours (EV-04855) ou rôle consultatif auprès de Pittenger (EV-04857)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Chorales de Bach sous la lune sur la route des crêtes",
+    "date": "1949-04",
+    "lieu": "route forestière des crêtes",
+    "personnages": [
+     "Gerda Slavson Cooke",
+     "Mim Sihvonen",
+     "Eini Sihvonen"
+    ],
+    "deroule": "Une nuit du camping, la lune perce les nuages. Sur la route forestière, les trois femmes chantent « Sleepers Awake » et d'autres chorals de Bach, l'ambiance est magique et détachée de la douleur physique.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01243",
+     "EV-04854"
+    ]
+   },
+   {
+    "titre": "Camping de Pâques sous la neige",
+    "date": "1949-04",
+    "lieu": "crêtes des montagnes voisines du collège",
+    "personnages": [
+     "Gerda Slavson Cooke",
+     "Mim Sihvonen",
+     "Eini Sihvonen"
+    ],
+    "deroule": "Cinq jours de marche, écourtés d'un jour à cause d'orteils gelés. Pluie, puis neige le quatrième jour, brouillard sans vue. Dernière nuit sous un rocher en surplomb ; au réveil, violettes gelées comme du verre. Retour au collège au soleil, la neige encore sur les sacs.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04854"
+    ]
+   },
+   {
+    "titre": "Départ de Dreier",
+    "date": "1949-04",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Theodore Dreier",
+     "sa femme"
+    ],
+    "deroule": "À mi-avril, Dreier quitte définitivement le campus, après avoir accepté un rôle consultatif auprès de Pittenger. Il part pour la Floride, puis pour un camping dans l'Ouest, premier vrai repos en vingt-cinq ans.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04857",
+     "EV-04855"
+    ]
+   },
+   {
+    "titre": "Dehn et Goldowski essaient de retenir les Albers",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dehn",
+     "Natasha Goldowski",
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Dehn et Natasha Goldowski demandent aux Albers de rester au moins pour la session d'été. Albers répond que c'est clos. Date exacte de l'échange non donnée.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Lettres de Lanier depuis San Francisco",
+    "date": "1949-04",
+    "lieu": "San Francisco",
+    "personnages": [
+     "Albert Lanier",
+     "Ruth Asawa"
+    ],
+    "deroule": "Lanier écrit à ses parents, le 13, que la concurrence entre architectes californiens est impitoyable et que le travail doit y être excellent ; le 20, il écrit à Asawa. La relation naît autour de Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04861",
+     "EV-04862"
+    ]
+   },
+   {
+    "titre": "La Minimum House dans Arts and Architecture",
+    "date": "1949-04",
+    "lieu": null,
+    "personnages": [
+     "Albert Lanier (auteur non signé)",
+     "Hazel Archer (photographies)"
+    ],
+    "deroule": "Le projet étudiant paraît en avril dans la revue new-yorkaise, sur suggestion des Albers ; un article non signé, rédigé par Lanier, illustré par Archer.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04858"
+    ]
+   },
+   {
+    "titre": "Le vase offert à Laurie Pearson",
+    "date": "1949-04-30",
+    "lieu": null,
+    "personnages": [
+     "Albert Lanier",
+     "Laurie Pearson"
+    ],
+    "deroule": "Lanier a offert un vase à sa cousine. Elle répond qu'elle n'osera jamais y mettre de fleurs, tant il est beau tel quel.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04859"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "avril 1949, pendant l'accusation de détournement contre Dreier",
+    "vers_date": "1944",
+    "vers": "Institution du fonds de pension : les obligations ont été mises au seul nom d'Albers, ce qui nourrit la colère de 1949",
+    "refs": [
+     "EC-02392"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "avril 1949, pendant l'idée d'un Board of Trustees défendu par Albers",
+    "vers_date": "1933",
+    "vers": "Les débuts du collège, fondé en réaction aux trustees de Rollins, où cette machinerie a toujours été méprisée et contournée",
+    "refs": [
+     "EC-02391"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "avril 1949, au moment du départ de Dreier",
+    "vers_date": null,
+    "vers": "Mort de Mark Dreier dans un accident d'automobile au collège ; la Quiet House porte sa mémoire",
+    "refs": [
+     "EC-02393"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "avril 1949, alors qu'Olson est déjà là depuis 1948",
+    "vers_date": "1956",
+    "vers": "Olson domine la communauté jusqu'à la fermeture du collège",
+    "refs": [
+     "EC-02390"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "avril 1949, à la fin du semestre",
+    "vers_date": "1949-06",
+    "vers": "Départ des quatre démissionnaires ; Albers part pour Mexico du 10 juin au 15 août, où il commence les Homage to the Square",
+    "refs": [
+     "chapitre 1949 (synthèse)",
+     "EV-04855"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "avril 1949, pendant la querelle des pensions",
+    "vers_date": "1949-10",
+    "vers": "Pittenger démissionne fin octobre ou en novembre, après six mois de crise (les sources divergent sur la date exacte)",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Fin de l'ère fondatrice et passage de témoin",
+   "L'argent comme moteur de la crise",
+   "Factions et règlements de comptes",
+   "La montagne comme refuge et épreuve physique",
+   "La mémoire des morts (Mark Dreier, la Quiet House)",
+   "Les lettres comme lien entre anciens et nouveaux"
+  ],
+  "lacunes": "On ignore le jour exact du camping de Pâques, la date précise du départ de Dreier au-delà de « mi-avril », et la date de la tentative de Dehn et Goldowski. Les visites de Cunningham et Mel Mitchell ne sont pas datées. Il n'est pas établi si Pittenger est présent en avril, ni si les Sihvonen sont étudiantes ou visiteuses. L'identité de la femme liée à Dreier reste inconnue. Les sources divergent sur la date de départ de Rauschenberg et Susan Weil, et sur celle de la démission de Pittenger."
+ }
+}

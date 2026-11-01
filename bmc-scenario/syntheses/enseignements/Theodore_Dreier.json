@@ -1,0 +1,255 @@
+{
+ "passe": "enseignements",
+ "cle": "Theodore Dreier",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 23703,
+  "sortie": 9383,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Theodore Dreier",
+  "cours": [
+   {
+    "intitule": "Mathématiques et physique (calcul), avec séminaire de lecture",
+    "periodes": [
+     "années 1930-1940 (fourchette large donnée par la fiche)",
+     "les fiches d'idées déduisent ≈1933→1948 ; ces bornes sont inférées, non attestées"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire apparaître les dynamiques qui sous-tendent les mathématiques et traduire les concepts en figures et en graphiques. Le calcul doit servir de description précise de beautés observables.",
+    "deroule_type_seance": "Attesté : un cours régulier, doublé d'un séminaire de lecture hebdomadaire. Le détail minute par minute d'une séance n'est pas documenté. Déduction : on partait de phénomènes visibles (courbe, trajectoire), puis on les mettait en graphique avant de formaliser.",
+    "exercices": [
+     {
+      "consigne": "Participer à un séminaire hebdomadaire, en plus du cours, consacré à la lecture d'extraits de Russell, Hogben, White et Newton.",
+      "materiaux": "Extraits de Russell, Hogben, White et Newton (titres des ouvrages non précisés dans les fiches).",
+      "but": "Faire des mathématiques une langue de la perception, adossée à la pensée scientifique.",
+      "refs": [
+       "CO-00130",
+       "ID-01030"
+      ]
+     },
+     {
+      "consigne": "Regarder des phénomènes concrets, comme la courbe d'une chute d'eau ou le jet d'une balle lancée en l'air, et les traduire en figures et graphiques. Cet exemple vient du témoignage de Stoller ; ce n'est pas une consigne d'exercice formulée comme telle.",
+      "materiaux": "Phénomènes naturels observés, figures et graphiques.",
+      "but": "Voir le calcul comme une description précise de beautés observées.",
+      "refs": [
+       "CO-00130",
+       "ID-01030"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Russell, Hogben, White, Newton (séminaire hebdomadaire)",
+     "Josef Albers et son exigence d'« apprendre à voir » : la fiche présente l'enseignement de Dreier comme un écho de cette admonestation",
+     "Whitehead, The Function of Reason : Anni Albers l'offre à Dreier en mai 1948 (SC-01165). C'est un cadeau personnel ; rien n'atteste qu'il figurait dans un cours."
+    ],
+    "propos_types": [
+     "Le calcul n'est pas qu'un jeu de symboles : il décrit avec précision des beautés que l'on a déjà vues, comme la courbe d'une chute d'eau ou le jet d'une balle (paraphrase, d'après le témoignage de Stoller).",
+     "Il faut faire voir avant de faire calculer (formulation des fiches d'idées, en écho à Albers).",
+     "Principe plus général, hors cours, attesté en 1942-1944 : il vaut mieux aider un étudiant à vraiment travailler que faire du spectacle (SC-00836)."
+    ],
+    "critique_et_evaluation": "Les jugements divergent. Stoller dit que les mathématiques sont devenues pour lui une description précise de beautés observées. Sunley rapporte que beaucoup jugeaient Dreier mauvais enseignant ; la fiche ajoute que, sur quatre, un seul restait en fin de trimestre (formulation ambiguë sur qui reste). Un mémo de Holt, daté de juin 1933 et antérieur à l'ouverture du collège, lui dénie le don rare de transmettre le savoir (SC-00530). Convergence plausible mais non démontrée : le même reproche revient avant et pendant BMC.",
+    "reactions_etudiants": "Positives chez Stoller, qui a reçu une vision nouvelle du calcul. Mitigées ou négatives selon Sunley : beaucoup le trouvaient mauvais, et l'effectif fondait au fil du trimestre.",
+    "evolution": "Non documentée dans le détail. Dreier cumulait enseignement et fonction de trésorier (douze ans selon Lane, SC-00501). Il quitte le collège en 1948-1949. Les sources divergent sur la forme du départ : il l'annonce lui-même fin août 1948 (SC-01187) ; en 1949 il est visé par une demande de démission de cinq dissidents, puis par un vote de la faculté ; il démissionne avant la réunion prévue (SC-01235, SC-01239, SC-01240, SC-01210). La fiche SC-01240 note elle-même des souvenirs contradictoires sur ces événements.",
+    "refs": [
+     "CO-00130",
+     "ID-01030",
+     "SC-00530",
+     "SC-00501",
+     "SC-01165",
+     "SC-01187",
+     "SC-01210",
+     "SC-01235",
+     "SC-01239",
+     "SC-01240",
+     "SC-00836"
+    ]
+   },
+   {
+    "intitule": "Mathématiques (pensée abstraite et méthode)",
+    "periodes": [
+     "c. 1937-1938"
+    ],
+    "atteste": "oui",
+    "objectifs": "Entraîner à la pensée abstraite en la reliant au monde, avec l'accent mis sur la méthode plus que sur les résultats.",
+    "deroule_type_seance": "Des problèmes pratiques servent la méthode ; l'étudiant en tire lui-même la relation ou l'abstraction. Le découpage d'une séance n'est pas attesté.",
+    "exercices": [
+     {
+      "consigne": "Formuler soi-même une relation entre plusieurs variables, au lieu de manipuler des symboles donnés par autrui.",
+      "materiaux": "Problèmes pratiques (nature exacte non précisée dans les fiches).",
+      "but": "Passer de l'application mécanique à la construction de la relation par l'étudiant.",
+      "refs": [
+       "CO-00286"
+      ]
+     },
+     {
+      "consigne": "Découvrir une abstraction qui relie des phénomènes apparemment sans rapport.",
+      "materiaux": "Phénomènes variés tirés de problèmes pratiques.",
+      "but": "Donner une pensée abstraite qui reste liée au monde.",
+      "refs": [
+       "CO-00286"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Molesworth 2015 (source de la fiche) ; aucune lecture précise n'est citée pour ce cours."
+    ],
+    "propos_types": [
+     "Formuler soi-même la relation : l'abstraction naît du monde et n'est pas un symbole reçu (paraphrase du programme du cours).",
+     "Déduction à marquer comme telle : l'insistance sur la méthode rejoint ce que Dreier écrira en 1948, à savoir qu'un projet a besoin d'un accord sur la méthode autant que sur le but (ID-01694)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Ce cours est peut-être la version tardive, ou une description plus fine, du même enseignement que le cours de calcul des années 1930-1940. La fiche ne le dit pas : le rapprochement est déductif.",
+    "refs": [
+     "CO-00286",
+     "CO-00130",
+     "ID-01694"
+    ]
+   },
+   {
+    "intitule": "Philosophy of Science (philosophie des sciences)",
+    "periodes": [
+     "années 1940"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Non documentés dans les fiches.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "La seule trace est une longue préparation d'un cours de ce type. Les fiches ne disent ni qu'il a eu lieu, ni quand, ni avec quels étudiants ; ce qu'on peut en faire dans un scénario est de l'ordre de l'hypothèse.",
+    "refs": [
+     "CO-00349"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le calcul est une langue de la perception : il décrit avec précision les beautés du monde observable.",
+    "en_classe": "Faire regarder avant de faire calculer : une chute d'eau, une balle lancée. Faire dessiner la courbe, puis seulement la formuler. Le séminaire de lecture (Russell, Hogben, White, Newton) soutient ce regard. L'écho avec Albers est une lecture des fiches.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01030",
+     "CO-00130"
+    ]
+   },
+   {
+    "idee": "L'abstraction doit venir de l'étudiant, et rester liée au monde.",
+    "en_classe": "Demander à chaque étudiant de formuler lui-même une relation entre plusieurs variables à partir d'un problème pratique, puis de chercher ce qui relie des phénomènes sans rapport apparent.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00286"
+    ]
+   },
+   {
+    "idee": "On ne lance pas une institution sans budget.",
+    "en_classe": "Scène à rejouer : Rice veut annoncer le collège sans plan ; Dreier passe la nuit à bâtir un budget sobre, présenté au petit-déjeuner d'Aydelotte, qui en fait son trésorier. Les versions diffèrent : chez Chaddock, Dreier proteste contre l'annonce sans plan (SC-00501) ; chez Lane, il est seul à s'inquiéter des finances et Aydelotte lui impose la trésorerie pour douze ans. Le chiffre de 30 000 $ équilibré entre frais de scolarité et dons vient de la fiche d'idée.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00841",
+     "SC-00501",
+     "SC-00500"
+    ]
+   },
+   {
+    "idee": "Le contact avec la terre et le travail manuel sont essentiels à la croissance personnelle.",
+    "en_classe": "Séance de travail sur le campus : entretien des terrains, charbon, fourneaux. Dreier y est parmi les plus fervents croyants, avec Flight from the City de Borsodi comme texte sacré. Le rôle d'enseignement du travail manuel reste une extrapolation ; en 1944 il apparaît en bleu de travail, mais seulement de temps en temps, au triangle du matin (SC-00895). En 1940, il montre des photos du chantier de Lake Eden aux Roosevelt (SC-00758).",
+    "atteste": "oui",
+    "refs": [
+     "ID-00873",
+     "SC-00895",
+     "SC-00758"
+    ]
+   },
+   {
+    "idee": "Un projet pédagogique exige un accord sur la méthode autant que sur le but, et la volonté de la suivre.",
+    "en_classe": "Débat d'assemblée : peut-on tolérer des pédagogies divergentes dans une même communauté ? Dreier, dans son rapport de démission (Summary Report, 1948), attribue la désunion d'après-guerre à des jeunes enseignants sans lien avec la fondation. Il estime que le collège incarnait sous Albers un radicalisme non politique qui revenait aux fondamentaux par des moyens modernes. La mise en forme du débat est une proposition des fiches, non attestée comme exercice.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01693",
+     "ID-01694",
+     "SC-00920"
+    ]
+   },
+   {
+    "idee": "Le « sense of the meeting » quaker ne fonctionne qu'avec un groupe homogène.",
+    "en_classe": "Faire simuler une décision à l'unanimité dans deux groupes, l'un petit et homogène, l'autre plus divers. Dreier le constate rétrospectivement ; Bentley y voit un leurre qui masque des rapports de pouvoir. La séance de juin 1944 sur consensus contre majorité (SC-00920) donne le contexte. Cette thèse rétrospective (Duberman) n'est pas attestée comme enseignée.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01576",
+     "SC-00920"
+    ]
+   },
+   {
+    "idee": "La peur du ressentiment local peut devenir une excuse pour ne jamais progresser.",
+    "en_classe": "Étude de cas : Dreier loue le terrain pour la conférence YMCA malgré l'avertissement de l'avocat. Il soutient qu'il faut accorder progressivement aux Noirs une démocratie plus réelle chez eux pour qu'ils aident l'effort de guerre (lettre à Stephen Forbes). Transposition en classe proposée, non attestée.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01430"
+    ]
+   },
+   {
+    "idee": "Le collège doit officiellement soutenir les conventions sexuelles établies et protéger son image, malgré sa vocation initiale à les changer.",
+    "en_classe": "Séance morale type de l'été 1944 : Dreier fait la leçon à deux étudiants après leur « confession », puis défend la convention en faculté. Sur l'affaire des étudiantes en auto-stop, la rumeur de gonorrhée est contestée : Bentley dit qu'elle n'en avait pas. Ne pas présenter la rumeur comme un fait.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01696",
+     "SC-00923",
+     "SC-00925"
+    ]
+   },
+   {
+    "idee": "Refus des modèles réducteurs d'éducation : ni petite Bohème, ni institut d'efficacité, ni primauté de l'intellectuel. Former des personnes matures et responsables plutôt que les choyer.",
+    "en_classe": "Discussion sur ce que le collège ne doit pas devenir. Le principe se vérifie dans l'épisode de la morale faite à de Graaff : moins de spectacle sur la Russie, plus d'aide réelle au travail d'un étudiant. La scène a laissé de Graaff en larmes de fureur, ce qui montre aussi le revers condescendant de cette posture. Dreier défend aussi, avec Rice, l'idée que certaines opinions valent plus que d'autres (SC-00705).",
+    "atteste": "oui",
+    "refs": [
+     "ID-01697",
+     "SC-00836",
+     "SC-00705"
+    ]
+   },
+   {
+    "idee": "On ne peut vivre à l'aise dans un pays affamé quand on a du cœur : refus moral de partir travailler en Allemagne d'après-guerre.",
+    "en_classe": "Non attesté comme thème de cours ou de séance. Source : une lettre privée à Ise Gropius (22 août 1947), suscitée par la conférence d'un candidat au poste d'histoire, ancien officier du Military Government. Dreier est gêné par son objectivité détachée. Pourrait nourrir une scène de conversation à table ou de lettre, pas une séance.",
+    "atteste": "non",
+    "refs": [
+     "ID-01031",
+     "ID-01695",
+     "SC-00484",
+     "SC-01033"
+    ]
+   },
+   {
+    "idee": "La précarité financière a pu souder la communauté.",
+    "en_classe": "Évoquer l'alerte rituelle d'avril sur la réouverture incertaine. C'est une interprétation rétrospective de Duberman, non un propos de Dreier ; à manier comme lecture critique, pas comme fait vécu.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00898"
+    ]
+   },
+   {
+    "idee": "Black Mountain a ouvert des sentiers que d'autres reprendront ailleurs.",
+    "en_classe": "Scène de départ : bilan des quinze années de valeur exemplaire dans la lettre d'adieu miméographiée de 1949, malgré les échecs et les querelles. Elle suit la lettre de fin août 1948 (« le dé est jeté »), qui annonçait son départ et une période de transition vers Albers.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02186",
+     "SC-01187",
+     "SC-01210"
+    ]
+   },
+   {
+    "idee": "Chacun doit apprendre à être un artiste : développer le silence et la paix intérieurs est une œuvre artistique.",
+    "en_classe": "Tardif et extérieur au collège : Dreier, engagé dans la Méditation transcendantale, aide Maharishi et enseigne à l'université de MT en Iowa, y voyant le prolongement de l'idéal éducatif de BMC. L'idée que BMC visait déjà cette conversion intérieure est une hypothèse d'après Lane (1990), non un propos attesté au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01296"
+    ]
+   }
+  ]
+ }
+}

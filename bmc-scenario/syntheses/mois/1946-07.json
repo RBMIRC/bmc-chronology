@@ -1,0 +1,282 @@
+{
+ "passe": "mois",
+ "cle": "1946-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3749,
+  "sortie": 15088,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1946-07",
+  "session": "session d'été : Summer Art Institute (juillet-août 1946)",
+  "saison_et_climat": "Été 1946 sur la crête de Black Mountain. Aucune fiche ne décrit le temps ; le climat estival est une déduction, non une donnée.",
+  "situation": "Le collège vit son moment de visibilité publique : l'institut d'été attire étudiants et presse, l'atelier de tissage d'Anni Albers travaille à With Verticals et Leo Amino vient d'arriver. En coulisses, la communauté reste divisée. La mort de Jalowetz au printemps a décimé le département de musique, Wallen préside le Council contre l'avis d'Albers, et l'institut touche à sa fin avec le départ annoncé des Albers pour une année sabbatique.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Leo Amino",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jacob Lawrence",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Blumeneau",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Lindenfeld",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Zeisler",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Guermonprez",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Charlotte Schlesinger",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mme Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Eddie Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rondthaler",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jim Tite",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ann Mayer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1946-07",
+    "precision": "session",
+    "ce_qui_arrive": "Summer Art Institute (juillet-août) : cours de l'institut, atelier de tissage d'Anni Albers où quatre tisserandes travaillent pendant qu'Anni achève With Verticals, sa dernière tenture à grande échelle.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1946:ETE"
+    ]
+   },
+   {
+    "date": "1946-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Leo Amino enseigne à l'institut ; faute d'atelier de coulée pour la résine polyester, il sculpte en plein air sous le Studies Building.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03971",
+     "synthese-1946:ETE"
+    ]
+   },
+   {
+    "date": "1946-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Wallen est élu président du Council, ce qui renforce la méfiance d'Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1946:HIVER-PRINTEMPS"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "annee",
+    "ce_qui_arrive": "Eddie Lowinsky, boursier Guggenheim, voit son voyage en Italie reporté d'un an ; le collège le retient jusqu'en août 1947.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1946:HIVER-PRINTEMPS"
+    ]
+   }
+  ],
+  "quotidien": "Le collège déborde : 75 étudiants au printemps pour des locaux prévus pour 60. Trois baraquements militaires servent d'études, de classes et de réserve. La bibliothèque est enfin éclairée. Les étudiants remontent à la main le baraquement Deep South. Schlesinger et Mme Jalowetz font vivre la musique, avec des cours de chant et une initiation à la reliure. Jim Tite et Ann Mayer remettent la presse en état. Weitzer prend le woodshop, que Molly Gregory quitte, et co-enseigne un cours de student-teaching. Le coût de la vie monte vite, la nourriture passant de 23 595 $ à 36 279 $ entre 1945-46 et 1946-47. Les repas et la vie matérielle restent précaires.",
+  "tensions": [
+   "Albers contre Wallen : « The Kaiser », méthodes jugées identiques à celles des « Bentleyites », présidence du Council",
+   "Le soupçon politique autour de Niebyl, suspecté par les Européens de vouloir fonder une cellule communiste",
+   "Le deuil de Jalowetz et l'affaiblissement du département de musique",
+   "La surpopulation étudiante et la précarité financière, faute d'argent pour construire",
+   "La pression des étudiants pour l'intégration raciale, plus rapide que celle de la faculté",
+   "Le départ de Molly Gregory et l'incertitude sur la ferme, reprise à l'automne par les Moles et les Trayers",
+   "La question du pouvoir : le Council, le référendum révocatoire, le vote en faculté"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Amino au Studies Building",
+    "date": "1946-07",
+    "lieu": "Studies Building, plein air",
+    "personnages": [
+     "Leo Amino",
+     "étudiants de l'institut"
+    ],
+    "deroule": "Amino travaille le bois de récupération sous le bâtiment, faute de local pour couler la résine. Le paysage rural lui renvoie les formes organiques de ses sculptures.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03971",
+     "synthese-1946:ETE"
+    ]
+   },
+   {
+    "titre": "Les quatre tisserandes dans l'atelier d'Anni",
+    "date": "1946-07",
+    "lieu": "atelier de tissage d'Anni Albers",
+    "personnages": [
+     "Anni Albers",
+     "Blumeneau",
+     "Lindenfeld",
+     "Zeisler",
+     "Guermonprez"
+    ],
+    "deroule": "Quatre tisserandes partagent l'atelier pendant qu'Anni achève With Verticals, sa dernière tenture à grande échelle.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1946:ETE"
+    ]
+   },
+   {
+    "titre": "Albers face à Wallen pendant l'institut",
+    "date": "1946-07",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "John Wallen"
+    ],
+    "deroule": "Albers, qui prépare son départ en sabbatique, juge Wallen trop avide de pouvoir. Wallen préside désormais le Council. La tension se lit dans les couloirs de l'institut, et les lettres qu'Albers écrira ensuite aux Dreier en prolongent les doutes.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1946:HIVER-PRINTEMPS",
+     "synthese-1946:ETE"
+    ]
+   },
+   {
+    "titre": "Une leçon de reliure chez Mme Jalowetz",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Mme Jalowetz",
+     "étudiants"
+    ],
+    "deroule": "Mme Jalowetz donne un cours de reliure et forme quelques étudiants au chant, pour maintenir la vie musicale après la mort de son mari.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1946:HIVER-PRINTEMPS"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juillet 1946, alors que le département de musique tient grâce à Schlesinger et Mme Jalowetz",
+    "vers_date": "1946",
+    "vers": "La mort de Heinrich Jalowetz, qui s'effondre sur la pelouse devant chez les Straus après un concert. Les récits la datent de la nuit d'hiver ou d'un soir de printemps, selon Lane, et de 1945 selon Duberman.",
+    "refs": [
+     "synthese-1946:HIVER-PRINTEMPS"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet 1946, pendant que la communauté se déchire sur le pouvoir",
+    "vers_date": "1945-11",
+    "vers": "Réunions sur le programme de travail les 13 et 27 novembre, et pétition de 34 étudiants et 11 enseignants, probablement de l'automne 1945, avec Jalowetz parmi les signataires européens.",
+    "refs": [
+     "synthese-1946:HIVER-PRINTEMPS"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet 1946, Wallen au Council et Albers en pleine tension",
+    "vers_date": "1946-05-13",
+    "vers": "Déclaration écrite lue par Wallen devant la faculté pour « mettre les choses au grand jour », où il reproche à Albers les tactiques des « Bentleyites ».",
+    "refs": [
+     "synthese-1946:HIVER-PRINTEMPS"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin de l'institut d'été, à la fin juillet ou en août 1946",
+    "vers_date": "1946-08",
+    "vers": "Départ des Albers en voiture pour une année sabbatique : New York, Boston, Niagara, Chicago, Denver, la Californie, puis le Nouveau-Mexique.",
+    "refs": [
+     "synthese-1946:ETE"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1946, le départ d'Albers se prépare",
+    "vers_date": "1946-12",
+    "vers": "Installation des Albers dans une maison en adobe à La Luz, où Josef écrit « enfin la paix » et où naît la série Variants/Adobes selon une fiche.",
+    "refs": [
+     "synthese-1946:AUTOMNE",
+     "EV-03971"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1946, Lowinsky retenu au collège après la mort de Jalowetz",
+    "vers_date": "1947-08",
+    "vers": "Fin de la rétention : Eddie Lowinsky peut enfin partir pour l'Italie.",
+    "refs": [
+     "synthese-1946:HIVER-PRINTEMPS"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1946, les Albers encore au collège",
+    "vers_date": "1946",
+    "vers": "À l'automne, sans Albers, Bolotowsky enseigne la peinture et abroge de fait les exercices collectifs, ce qui provoque des frictions.",
+    "refs": [
+     "synthese-1946:AUTOMNE"
+    ]
+   }
+  ],
+  "motifs": [
+   "l'institut d'été comme vitrine publique et fragile",
+   "deuil et mémoire de Jalowetz",
+   "pouvoir, soupçon et Council",
+   "surpopulation et précarité matérielle",
+   "ateliers et matière : tissage, sculpture, presse",
+   "l'Europe et l'exil : Albers, Lowinsky, Jalowetz"
+  ],
+  "lacunes": "Les fiches ne sont que de la synthèse de chapitre (sans identifiant propre, cités ici par section) et une seule fiche datée de juillet (EV-03971). On ignore le programme précis de l'institut et la liste complète de ses participants. L'« aventure d'été discrète sur la crête » est mentionnée sans aucun détail. La date de la mort de Jalowetz varie selon les sources (1945 ou début 1946) ; elle est de toute façon antérieure à juillet. La pétition de 61 étudiants et le chiffre de 75 étudiants ne concordent pas. L'heure de la rétention de Niebyl et sa sortie du collège ne sont pas datées. Dreier est nominalement recteur mais absent. Le climat et la vie quotidienne précise de juillet ne sont pas documentés."
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "passe": "mois",
+ "cle": "1944-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 1625,
+  "sortie": 11851,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1944-12",
+  "session": "Trimestre d'automne 1944 (déduit : les fiches ne datent aucune session de décembre ; le trimestre d'automne est le cadre visé par la question de l'admission)",
+  "saison_et_climat": "Hiver 1944 (déduit du calendrier ; aucune fiche ne décrit le temps ni le paysage de décembre)",
+  "situation": "Le collège est en recomposition. La question de l'admission d'étudiants noirs, débattue de janvier à mai, s'est résolue par un compromis : une professeure de musique de Fort Valley est admise pour l'été avec un statut hybride de « membre de l'Institut ». Pour le fond, rien n'est tranché : Lane date la décision définitive à l'automne 1945. Depuis septembre 1944, la scission entre anciens (Bentley, de Graaff, Cohen) et nouveaux se précise, et un projet de collège rival, porté par les partants, est en gestation. Orr a démissionné en avril, la direction s'use et le corps enseignant se reconstitue. Les fiches ne donnent aucun événement interne daté de décembre 1944.",
+  "presents_probables": [
+   {
+    "nom": "Straus (contre l'admission, tenue en faculté le 17 avril)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Josef Albers (contre l'admission)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hansgirg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch (auteur de la lettre à Evarts sur la « guerre ouverte au Sud »)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Miller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier (isolé après l'ordre de rompre avec le Rosenwald Fund, selon Lane)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bentley (en scission depuis 1944-09, présence incertaine)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "de Graaff (en scission depuis 1944-09, présence incertaine)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Cohen (en scission depuis 1944-09, présence incertaine)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Radin",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Sidney Janis retient des œuvres pour l'exposition « Abstract and Surrealist Art in America » à la Mortimer Brandt Gallery, New York, dont des dessins de W. de Kooning ; il publie le livre du même titre. Événement hors du collège, fenêtre novembre-décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03667"
+    ]
+   },
+   {
+    "date": "1944-04-26",
+    "precision": "jour",
+    "ce_qui_arrive": "Le trésorier adjoint Orr démissionne, en partie à cause de l'admission et plus largement parce que le collège tente « trop avec trop peu ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": "1944-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Scission entre anciens (Bentley, de Graaff, Foreman, Cohen) et nouveaux ; début du projet de collège rival des partants, qui court jusqu'en mars 1945.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse) : fils « Scission anciens / nouveaux » et « Projet de collège rival »"
+    ]
+   },
+   {
+    "date": "1944",
+    "precision": "annee",
+    "ce_qui_arrive": "Le comité exécutif de la Southern Conference for Human Welfare siège plusieurs jours au collège et se prononce à l'unanimité pour l'admission.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "precision": "saison",
+    "ce_qui_arrive": "La professeure de musique de Fort Valley, recommandée par Bond, est admise pour l'été avec un statut de « membre de l'Institut ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Dreier reçoit l'ordre de rompre avec le Rosenwald Fund, après que le corps enseignant a reculé sur son engagement (version de Lane, non tranchée par les autres sources).",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse) : version de Lane"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "annee",
+    "ce_qui_arrive": "Lane situe la décision définitive sur l'admission à l'automne 1945.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse) : version de Lane"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire de décembre 1944 (repas, travaux, cours, musique). On dispose seulement de quelques éléments non datés : deux étudiants noirs et un professeur de Fisk ont logé sans incident en dortoir ; Wunsch a proposé un cours sur les relations raciales précédant l'accueil de visiteurs à l'institut de musique ; les instituts d'été forment une vitrine parallèle au cursus régulier.",
+  "tensions": [
+   "Admission des étudiants noirs : le vote étudiant est tôt favorable (deux contre un), le corps enseignant est partagé presque à égalité, et l'opposition invoque boycott, incendie criminel et précédent d'Anniston.",
+   "Compromis contesté : Bentley parle de Hofjude à propos de la professeure admise ; Straus dit rester contre sans se battre.",
+   "Propos publics : Straus déclare en faculté que « le Noir est étrange », Albers demande d'élargir l'admission à d'autres minorités pour éviter une agression perçue.",
+   "Pression extérieure : lettres de mise en garde de Hurston, Rubye Lipsey et du président Shepard, que Wunsch avait lui-même sollicitées.",
+   "Contradiction de sources sur Dreier : Duberman le place parmi les partisans, Lane le décrit comme ayant obtenu l'engagement du corps enseignant puis lâché par celui-ci.",
+   "Contradiction sur la clôture : le consensus d'avril-mai est présenté comme une solution, Lane soutient que la question n'est tranchée qu'à l'automne 1945.",
+   "Scission des anciens et projet de collège rival, qui menace la continuité des effectifs et de la direction.",
+   "Usure de la direction après la démission d'Orr et la reconstruction du corps enseignant."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Dreier convoqué pour rompre avec le Rosenwald Fund",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dreier"
+    ],
+    "deroule": "Dreier apprend qu'il doit rompre avec la fondation, alors que le corps enseignant a reculé sur l'engagement qu'il avait obtenu. Il reste seul face à une décision qu'il n'a pas prise.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse) : version de Lane"
+    ]
+   },
+   {
+    "titre": "Lettre de Wunsch à Evarts",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Wunsch",
+     "Evarts"
+    ],
+    "deroule": "Wunsch écrit que l'intégration reviendrait à déclarer une guerre ouverte au Sud. Il a lui-même sollicité les lettres de mise en garde qui nourrissent l'opposition.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Janis monte l'exposition new-yorkaise",
+    "date": "1944-11",
+    "lieu": "Mortimer Brandt Gallery, New York",
+    "personnages": [
+     "Sidney Janis"
+    ],
+    "deroule": "Janis retient les œuvres pour « Abstract and Surrealist Art in America », y compris des dessins de W. de Kooning, et prépare le livre qui paraîtra sous le même titre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03667"
+    ]
+   },
+   {
+    "titre": "« Le Noir est étrange » en faculté",
+    "date": "1944-04-17",
+    "lieu": "Réunion de faculté",
+    "personnages": [
+     "Straus"
+    ],
+    "deroule": "Straus affirme en faculté que « le Noir est étrange » et juge que « nous sommes tous des êtres humains » est une formule trop simple.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le compromis du Hofjude",
+    "date": "1944-05",
+    "lieu": "Réunion de faculté",
+    "personnages": [
+     "Bentley",
+     "Straus"
+    ],
+    "deroule": "Le consensus retient une seule femme noire pour l'été, statut hybride. Bentley le raille en parlant de Hofjude ; Straus dit rester contre sans se battre.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Décembre : la question de l'admission reste ouverte et les membres repensent aux séances marathon de l'hiver.",
+    "vers_date": "1944-01",
+    "vers": "Les réunions de faculté du 25 janvier au 10 mai, avec caucus secrets et vote étudiant tôt favorable.",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Dreier, seul après l'ordre de rompre avec le Rosenwald Fund, repense à l'engagement qu'il avait obtenu.",
+    "vers_date": null,
+    "vers": "Le corps enseignant avait promis son appui, puis a reculé sous menaces et pressions.",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse) : version de Lane"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre 1944 : le compromis de l'été est en place, mais le débat n'est pas clos.",
+    "vers_date": "1945",
+    "vers": "Décision définitive sur l'admission à l'automne 1945, selon Lane.",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse) : version de Lane"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre 1944 : les partants préparent leur projet de collège rival.",
+    "vers_date": "1945-03",
+    "vers": "Horizon de fin du projet de collège rival des partants.",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse) : fil « Projet de collège rival »"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre 1944 : les instituts d'été servent à la fois de vitrine et de voie parallèle.",
+    "vers_date": "1947",
+    "vers": "Les instituts d'été se poursuivent jusqu'en 1947 comme voie parallèle au cursus régulier.",
+    "refs": [
+     "chapitre de l'année 1944 (synthèse) : fil « Les instituts d'été »"
+    ]
+   }
+  ],
+  "motifs": [
+   "trop avec trop peu",
+   "guerre ouverte au Sud",
+   "Hofjude",
+   "pas trop vite",
+   "le compromis de l'été",
+   "la lettre sollicitée qui revient en arme",
+   "la fondation rompue",
+   "le collège qui se divise"
+  ],
+  "lacunes": "Aucun événement interne du collège n'est daté de décembre 1944. Présence effective de chaque membre ce mois-ci non attestée, et sortie de Bentley, de Graaff et Cohen non datée. Statut exact de la professeure admise pour l'été non précisé après l'été. Date et forme de l'ordre fait à Dreier inconnues (source unique : Lane). Date d'arrivée des deux étudiants noirs et du professeur de Fisk en dortoir non donnée. Météo et paysage de décembre absents. Contradiction Duberman / Lane sur la position de Dreier et sur la solidité de l'engagement du corps enseignant."
+ }
+}

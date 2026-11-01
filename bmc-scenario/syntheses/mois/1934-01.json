@@ -1,0 +1,287 @@
+{
+ "passe": "mois",
+ "cle": "1934-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3721,
+  "sortie": 11056,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "janvier 1934 (1934-01)",
+  "session": "fin de la première année académique, trimestre d'hiver-printemps 1934, avant l'été à la Blue Ridge Assembly",
+  "saison_et_climat": "Hiver en Caroline du Nord, dans la région d'Asheville. Les fiches ne donnent ni température ni météo, et ne décrivent pas les conditions de vie du campus en hiver.",
+  "situation": "Le collège est dans sa première année et cherche à se stabiliser financièrement. Albers, arrivé fin 1933, enseigne sans anglais courant et ne sait pas s'il restera : il pose sa candidature à Bennington pour 1934-35, avec l'appui de Philip Johnson et de Mrs. Swan, en invoquant l'incertitude financière de BMC et le désir d'être plus près de New York. Son contrat expire le 12 juin 1934. La correspondance avec Leigh commence en janvier. Le collège reçoit déjà des visiteurs et des journalistes, tandis que la gouvernance étudiante et la répartition des pouvoirs sont en discussion.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rice (Black Mountain College)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Georgia (recteur)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bobbie Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John (pseudonyme, étudiant)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Paul (pseudonyme, étudiant)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ann (pseudonyme, étudiante)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Une délégation d'étudiants obtient l'abandon des traducteurs et des leçons d'anglais donnés à Albers pendant l'hiver 1933-34. Albers préfère alors se faire comprendre par le dessin.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers pose sa candidature à Bennington pour 1934-35, avec l'appui de Johnson et de Mrs. Swan. La correspondance sur ce sujet court de janvier à début avril.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1933-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Holt, à Rollins, publie une édition spéciale du bulletin pour contester le rapport de l'AAUP, qui dénonce l'autorité présidentielle excessive de Rice. Le retentissement de l'affaire se fait sentir dans la presse nationale.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02220"
+    ]
+   },
+   {
+    "date": "1934-02-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Thornton Wilder donne une conférence formelle au collège, à l'invitation d'Evarts, avant que BMC n'ait six mois d'existence.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice publie dans Progressive Education un article de présentation du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934-04-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Leigh refuse la candidature d'Albers à Bennington et réclame une personne d'expérience « plus essentiellement américaine ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934-06-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Le contrat d'Albers avec BMC expire.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934-06-03",
+    "precision": "jour",
+    "ce_qui_arrive": "Le budget est révisé à la hausse d'environ 2 000 dollars, surtout pour des bourses.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934-05-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Des amendements aux statuts donnent aux étudiants un droit d'accès aux registres, la possibilité d'adopter une constitution et de siéger aux réunions de faculté, ainsi qu'un siège au Board pour le Student Moderator.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1934 (synthèse)",
+     "EC-01262"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Les journaux de la première année racontent l'amour de John pour Paul. John se fait railler puis recadrer par Rice, qui détruit sa confiance retrouvée. Paul se lie à Ann. Les noms sont des pseudonymes.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Albers donne ses cours en se passant de l'anglais et s'appuie sur le dessin et la démonstration visuelle. Les étudiants vivent sur le campus, la vie intellectuelle est dense et les visiteurs se succèdent. Les fiches ne donnent pas le détail des repas, de la musique, ni des travaux de ferme hivernaux.",
+  "tensions": [
+   "Le sort professionnel d'Albers reste incertain : contrat qui expire en juin, candidature à Bennington en cours, refus de Leigh qui se dessine",
+   "La langue : l'anglais d'Albers reste limité et les traducteurs ont été abandonnés à la demande des étudiants",
+   "Les finances de BMC sont fragiles et le collège devra réviser son budget",
+   "Le pouvoir de Rice fait débat, dans le collège comme au-dehors (affaire de Rollins, rapport AAUP)",
+   "Les étudiants réclament une voix dans la gouvernance, tandis que les liens personnels (John, Paul, Ann) provoquent des heurts"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Albers se passe de traducteur",
+    "date": null,
+    "lieu": "salle de classe de BMC",
+    "personnages": [
+     "Josef Albers",
+     "étudiants"
+    ],
+    "deroule": "Une délégation étudiante a obtenu la fin des traductions et des leçons d'anglais. Albers reprend son enseignement par le dessin et la démonstration, et ses étudiants comprennent la leçon sans parole.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Albers écrit à Bennington",
+    "date": "1934-01",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "Philip Johnson",
+     "Mrs. Swan"
+    ],
+    "deroule": "Albers rédige sa candidature à Bennington, appuyée par Johnson et Mrs. Swan. Il y invoque l'incertitude financière de BMC et son désir de se rapprocher de New York. La réponse de Leigh tarde, puis tourne au refus.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "titre": "L'aveu de John",
+    "date": null,
+    "lieu": "BMC",
+    "personnages": [
+     "John",
+     "Paul",
+     "Ann",
+     "Rice"
+    ],
+    "deroule": "John avoue son amour à Paul, qui est choqué. Paul se rapproche d'Ann. John est raillé puis recadré par Rice, qui détruit la confiance qu'il vient de retrouver.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "janvier 1934, pendant que la candidature d'Albers à Bennington est en cours",
+    "vers_date": "1933-06",
+    "vers": "Rice jette ses affaires dans des cartons, juin 1933, quelques semaines avant l'ouverture du collège",
+    "refs": [
+     "EC-01261"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "janvier 1934, à la lecture de l'affaire Rollins et du rapport AAUP",
+    "vers_date": "1933-11",
+    "vers": "Publication du rapport officiel de l'AAUP qui blanchit Rice et sanctionne Rollins, autorité présidentielle jugée excessive",
+    "refs": [
+     "EV-02220",
+     "EC-01262"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "janvier 1934, quand on parle de Wunsch et de la région d'Asheville",
+    "vers_date": null,
+    "vers": "Wunsch donne des ateliers d'été à Asheville, été 1933, avant la fondation du collège",
+    "refs": [
+     "EC-01260"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1934, pendant la candidature d'Albers",
+    "vers_date": "1934-04-06",
+    "vers": "Leigh refuse la candidature d'Albers à Bennington (6 avril 1934)",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1934, quand le collège reçoit ses premiers visiteurs",
+    "vers_date": "1934-02-23",
+    "vers": "Thornton Wilder donne sa conférence au collège, devant 250 invités extérieurs",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1934, quand BMC se pose la question de sa gouvernance",
+    "vers_date": "1934-05-02",
+    "vers": "Amendements aux statuts qui donnent aux étudiants un accès aux registres et un siège au Board",
+    "refs": [
+     "chapitre 1934 (synthèse)",
+     "EC-01262"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1934, avec le contrat d'Albers qui arrive à son terme",
+    "vers_date": "1934-06-12",
+    "vers": "Expiration du contrat d'Albers à BMC",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "janvier 1934, pendant que Josef et Anni Albers restent à BMC",
+    "vers_date": "1934-12-28",
+    "vers": "Les Albers partent pour Cuba avec Ted et Bobbie Dreier. C'est le début d'une série de voyages en Amérique latine jusqu'en 1956",
+    "refs": [
+     "chapitre 1934 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "la langue comme obstacle et comme langage (dessin contre anglais)",
+   "un contrat qui court vers son terme",
+   "la visibilité du collège (visiteurs, presse) face à sa fragilité financière",
+   "la gouvernance comme réponse aux abus d'autorité (Rollins, AAUP)",
+   "l'amour et le cadre institutionnel (John, Paul, Ann, Rice)"
+  ],
+  "lacunes": "Les fiches ne datent pas les épisodes des journaux (John, Paul, Ann) ni le recadrage de Rice au sein de la première année. On ne sait pas si Wunsch est déjà arrivé en janvier 1934, et la présence de Ted et Bobbie Dreier en janvier n'est pas attestée. Les fiches ne décrivent ni le quotidien matériel de l'hiver, ni les repas, ni la musique. Le chapitre de synthèse n'a pas d'identifiant, il est donc cité par son titre. La raison exacte du refus de Leigh reste incertaine : Leigh invoque le caractère américain, Johnson suggère que le facteur allemand n'était qu'un prétexte."
+ }
+}

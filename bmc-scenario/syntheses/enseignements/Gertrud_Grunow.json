@@ -1,0 +1,130 @@
+{
+ "passe": "enseignements",
+ "cle": "Gertrud Grunow",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1523,
+  "sortie": 3028,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Gertrud Grunow",
+  "cours": [
+   {
+    "intitule": "Harmonisation (Harmonisierungslehre), dite aussi séances pratiques d'harmonisation et volet du cours préliminaire, au Bauhaus de Weimar",
+    "periodes": [
+     "Bauhaus Weimar, vers 1920-1924 (CO-00020)",
+     "1920-1921 pour la version rattachée au cours préliminaire (CO-00041)",
+     "vers 1920-1923 pour les séances pratiques (CO-00025)",
+     "jusqu'en avril 1924 (CO-00073)"
+    ],
+    "atteste": "non",
+    "objectifs": "Selon la définition de Gropius (1923), il s'agit de créer un équilibre entre les propriétés physiques et mentales de l'individu, sur une base commune du son, de la couleur et de la forme (CO-00020, CO-00073). Grunow elle-même parle de « la création de la forme vivante par la couleur » dans son texte de l'album du Bauhaus de 1923 (CO-00025). Dans le cadre du cours préliminaire, le but est le desserrement, la libération de la personne (CO-00041). Ces fiches concernent le Bauhaus de Weimar. Aucune ne dit que Grunow ait enseigné à Black Mountain College : toutes portent atteste_a_bmc = non. Sa présence ici passe donc par Albers, qui l'a suivie à Weimar.",
+    "deroule_type_seance": "Attesté : les séances se tiennent individuellement avec chaque étudiant (CO-00025). Le travail est corporel et individuel : chaque émotion se fixe dans le corps et veut s'exprimer, et l'on y est toujours seul (CO-00020). Le déroulé détaillé d'une séance n'est pas documenté au-delà de la scène d'exercice. Déduction prudente : l'étudiant se tient debout, les yeux fermés, et enchaîne les couleurs l'une après l'autre, avec musique et danse rythmique en appui (CO-00073, SC-00105). La durée, la fréquence et la taille des groupes ne sont pas donnés. Le témoignage d'Anni Albers (fiche CO-00073) indique que rien n'était vraiment organisé à l'époque.",
+    "exercices": [
+     {
+      "consigne": "Debout, bras écartés, yeux fermés, l'étudiant se concentre sur une couleur, s'en imprègne, élimine toute autre idée, puis passe à la couleur suivante.",
+      "materiaux": "Le corps de l'étudiant ; couleurs évoquées ou présentées (la nature exacte du support n'est pas précisée) ; musique et danse rythmique mentionnées pour l'ensemble du cours.",
+      "but": "Éprouver la couleur dans le corps et rétablir l'équilibre entre physique et mental.",
+      "refs": [
+       "CO-00073",
+       "SC-00105"
+      ]
+     },
+     {
+      "consigne": "Marcher dans les tons, ou les éprouver debout.",
+      "materiaux": "Sons ou tons (instrument non précisé).",
+      "but": "Libérer, desserrer la personne (loosening up).",
+      "refs": [
+       "CO-00041",
+       "CO-00020"
+      ]
+     },
+     {
+      "consigne": "Se mouvoir dans les couleurs, la lumière et la forme.",
+      "materiaux": "Couleurs, lumière, formes.",
+      "but": "Libérer la personne ; fonder son équilibre sur la base commune son, couleur, forme.",
+      "refs": [
+       "CO-00041",
+       "CO-00020"
+      ]
+     },
+     {
+      "consigne": "Repérer des correspondances entre couleurs et zones du corps : regard et pommettes pour la verticale, mâchoire et diaphragme pour l'horizontale.",
+      "materiaux": "Le corps.",
+      "but": "Relier la couleur et la direction (vertical/horizontal) à des zones corporelles précises.",
+      "refs": [
+       "CO-00073"
+      ]
+     },
+     {
+      "consigne": "Étudier douze couleurs disposées sur la circonférence d'un cercle et leurs fluctuations à l'intérieur du corps humain.",
+      "materiaux": "Un cercle chromatique de douze couleurs.",
+      "but": "Observer comment les couleurs varient dans le corps.",
+      "refs": [
+       "CO-00073"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Texte de Grunow, « La création de la forme vivante par la couleur », dans l'album du Bauhaus de 1923 (CO-00025)",
+     "Définition de l'harmonisation par Gropius en 1923 (CO-00020, CO-00073)"
+    ],
+    "propos_types": [
+     "Chaque émotion se fixe dans le corps et cherche à s'exprimer (paraphrase du principe rapporté, CO-00020)",
+     "Se concentrer sur une seule couleur et chasser toute autre idée avant de passer à la suivante (consigne de l'exercice, CO-00073, SC-00105)",
+     "Les couleurs agissent en fluctuations à l'intérieur du corps (CO-00073)",
+     "Ses propos directs ne sont pas rapportés dans ces fiches : ce qui précède reformule les principes et les consignes, pas des citations."
+    ],
+    "critique_et_evaluation": "Les sources mentionnent une tension entre mystique et corps (SC-00105, atmosphère de la scène). Albers aurait rejeté ensuite des éléments de la pédagogie d'Itten, selon l'enjeu dramatique de SC-00105. Les retours d'Anni Albers et de Josef Albers donnent une image ambivalente (voir ci-dessous). Aucune évaluation formelle de l'étudiant n'est documentée.",
+    "reactions_etudiants": "Les témoignages divergent. Josef Albers fut profondément influencé (CO-00025) et décrit à Perdekamp un effet libérateur, qu'on ne peut pas nommer (CO-00041). Il dit aussi que tout est très rigide sous la surcharge de stress et que l'on est toujours seul là-bas (CO-00020). Anni Albers juge l'ensemble plutôt obscur et brumeux, rien de vraiment organisé à l'époque (CO-00073).",
+    "evolution": "Les dates divergent selon les fiches : 1920-1921 pour le cours préliminaire (CO-00041), vers 1920-1923 pour les séances pratiques (CO-00025), jusqu'en avril 1924 à Weimar (CO-00073). Il peut s'agir de volets distincts ou d'imprécisions de datation ; les sources ne tranchent pas. Aucune fiche ne documente d'évolution après 1924 ni de passage à BMC.",
+    "refs": [
+     "CO-00020",
+     "CO-00025",
+     "CO-00041",
+     "CO-00073",
+     "SC-00105"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Éprouver la couleur par le corps : se concentrer sur une seule couleur, bras écartés, yeux fermés, puis passer à la suivante en excluant toute autre pensée.",
+    "en_classe": "Séance courte d'attention : les étudiants, debout et yeux fermés, reçoivent une couleur à tour de rôle, notent ce qu'ils ressentent corporellement, puis la reproduisent à la gouache. Cette transposition est une déduction : Grunow n'est pas attestée à BMC et la fiche ne décrit aucun support pour les couleurs.",
+    "atteste": "non",
+    "refs": [
+     "CO-00073",
+     "SC-00105"
+    ]
+   },
+   {
+    "idee": "Mettre le corps en mouvement dans les tons, la lumière et la forme pour desserrer la personne avant de travailler.",
+    "en_classe": "Échauffement avant un atelier : marcher selon des sons puis selon des variations de lumière, afin de relâcher la tension. Rien n'atteste cet usage à BMC ; Albers a reconnu l'effet libérateur à Weimar mais ne le nomme pas.",
+    "atteste": "non",
+    "refs": [
+     "CO-00041",
+     "CO-00020"
+    ]
+   },
+   {
+    "idee": "Cartographier les correspondances entre couleurs, directions et zones du corps (vertical, horizontal) et étudier douze couleurs en cercle.",
+    "en_classe": "Faire dessiner un cercle de douze couleurs, y placer les sensations corporelles associées, puis comparer les résultats entre étudiants pour tester la subjectivité du dispositif. Transposition non attestée ; les fiches ne donnent pas l'ordre ni le choix des douze couleurs.",
+    "atteste": "non",
+    "refs": [
+     "CO-00073"
+    ]
+   },
+   {
+    "idee": "Le travail est individuel et solitaire : chaque émotion se fixe dans le corps et demande à s'exprimer, sans le groupe.",
+    "en_classe": "Alterner temps individuels silencieux et discussion de groupe, ou en faire un contrepoint dramatique : l'étudiant seul face à la couleur, ce qu'Albers a gardé en mémoire (« toujours seul »). Non attesté à BMC.",
+    "atteste": "non",
+    "refs": [
+     "CO-00020",
+     "CO-00025"
+    ]
+   }
+  ]
+ }
+}

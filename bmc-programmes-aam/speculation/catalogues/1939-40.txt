@@ -1,0 +1,203 @@
+# Concordance des cours 1939-40 → gabarits de l'année reconstituée.
+#
+# ATTENTION : la liste des cours de 1939-40 n'est pas lisible dans le corpus. La fiche 2017.40.015 (catalogue 1939-40) n'a
+# que 5 images (titre, sommaire, organisation, situation, vie) ; son texte transcrit reproduit en fait le catalogue 1938-39.
+# Le sommaire authentique (image 015-02) donne les mêmes matières qu'en 1938-39 (Art, Music, Dramatics, Writing, English
+# and American Literature, Foreign Languages, History, Economics and Sociology, Psychology, Sciences, Mathematics,
+# Philosophy). La liste de 1938-39 (relue sur scan) est donc reconduite (code LISTE_VOISINE, +15), et les présences sont
+# corrigées d'après les lettres d'information de l'année :
+#   2017.40.255a-b (août 1939) : départ d'Allan Sly, remplacé par Heinrich Jalowetz ; départ des Moellenhoff ; second
+#     enseignant d'art recherché ; congé sabbatique de Dreier (MIT) et de Rice au semestre d'automne
+#   2017.40.253 (mars 1940) : Rice en congé « this year », démission à la fin de l'année ; Wunsch recteur
+#   2017.40.254 (mai 1940) : « the faculty has been understaffed this year » ; postes vacants en biologie, histoire
+#     américaine, science politique, physique (« Ted Dreier is now giving all his time to teaching Mathematics ») ;
+#     Bedford Thurman assistant en théâtre ; Gerald Barnes en économie (à remplacer) ; Erwin Straus présent (Guest Week)
+#   2017.40.258 (janv. 1941) : Kirill Chenkin, français et littérature comparée, a enseigné de février à décembre 1940
+#   2017.40.260a-b (août 1941) : Surette malade depuis plus de deux ans → ne paraît plus enseigner
+#
+# C|id|discipline|titre (liste 1938-39)|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+C|art.dessin1|Art|Introductory Drawing|Introductory Drawing (1938-39)|voir 1940-41
+C|art.dessin2|Art|Advanced Drawing|Advanced Drawing (1938-39)|voir 1940-41
+C|art.couleur1|Art|Introductory Color|Introductory Color (1938-39)|voir 1940-41
+C|art.couleur2|Art|Advanced Color|Advanced Color (1938-39)|voir 1940-41
+C|art.werklehre|Art|Werklehre|Werklehre (1938-39)|voir 1940-41
+C|art.tissage_t|Art|Weaving Theory|Weaving Theory (1938-39)|voir 1940-41
+C|art.tissage_p|Art|Weaving Practice|Weaving Practice (1938-39)|voir 1940-41
+C|art.classe|Art|General Art Class|General Art Class (1938-39)|voir 1940-41
+C|art.seminaire|Art|Private Art Seminar|Private Art Seminar (1938-39)|voir 1940-41
+C|mu.app1|Music|Music Appreciation I|Music Appreciation I (1938-39)|voir 1940-41
+C|mu.app2|Music|Music Appreciation II|Music Appreciation II (1938-39)|voir 1940-41
+C|mu.app3|Music|Music Appreciation III|Music Appreciation III (1938-39)|voir 1940-41
+C|mu.chant|Music|General Singing|General Singing (1938-39)|voir 1940-41
+C|mu.choeur|Music|Chorus and Orchestra|Chorus and Orchestra (1938-39)|voir 1940-41
+C|mu.chambre|Music|Chamber Music|Chamber Music (1938-39)|voir 1940-41
+C|mu.piano|Music|Piano Lessons|Piano Lessons (1938-39)|voir 1940-41
+C|mu.violon|Music|Violin Lessons|Violin Lessons (1938-39)|voir 1940-41
+C|mu.composition|Music|Composition|Composition (1938-39)|voir 1940-41
+C|mu.ecoles|Music|Teaching Music in Schools|Teaching Music in Schools (1938-39)|voir 1940-41
+C|mu.opera|Music|Nineteenth Century Opera|Nineteenth Century Opera (1938-39)|voir 1940-41
+C|mu.bach|Music|Bach Chorale Preludes Seminar|Bach Chorale Preludes Seminar (1938-39)|voir 1940-41
+C|dr.1|Dramatics|Dramatics I|Dramatics I (1938-39)|voir 1940-41
+C|dr.2|Dramatics|Dramatics II|Dramatics II (1938-39)|voir 1940-41
+C|dr.3|Dramatics|Dramatics III|Dramatics III (1938-39)|voir 1940-41
+C|ecr.intro|Writing|Introductory Writing|Introductory Writing (1938-39)|voir 1940-41
+C|ecr.seminaire|Writing|Writing Seminar|Writing Seminar (1938-39)|voir 1940-41
+C|ecr.journalisme|Writing|Journalism|Journalism (1938-39)|voir 1940-41
+C|en.survey|English|Introductory Survey of English Literature|Introductory Survey of English Literature (1938-39)|voir 1940-41
+C|en.medieval|English|Chaucer and Medieval Literature|Chaucer and Medieval Literature (1938-39)|voir 1940-41
+C|en.shakespeare|English|Shakespeare and the Elizabethan Drama|Shakespeare and the Elizabethan Drama (1938-39)|voir 1940-41
+C|en.xvii|English|Seventeenth Century Literature|Seventeenth Century Literature (1938-39)|voir 1940-41
+C|en.xviii|English|Eighteenth Century Literature|Eighteenth Century Literature (1938-39)|voir 1940-41
+C|en.romantique|English|The Romantic Movement|The Romantic Movement (1938-39)|voir 1940-41
+C|en.victorien|English|Victorian England|Victorian England (1938-39)|voir 1940-41
+C|en.am19|English|Nineteenth Century American Literature|Nineteenth Century American Literature (1938-39)|voir 1940-41
+C|en.amcontemp|English|Contemporary American Literature|Contemporary American Literature (1938-39)|voir 1940-41
+C|en.lectures|English|Readings in Literature|Readings in Literature (1938-39)|voir 1940-41
+C|en.forme|English|Form in Literature|Form in Literature (1938-39)|voir 1940-41
+C|en.roman|English|Problems of the Novel|Problems of the Novel (1938-39)|voir 1940-41
+C|en.poesie|English|Poetry Reading|Poetry Reading (1938-39)|voir 1940-41
+C|ling.intro|English|General Introduction to Linguistics|General Introduction to Linguistics (1938-39)|voir 1940-41
+C|fr.intro|French|Introductory French|Introductory French (1938-39)|voir 1940-41
+C|fr.avance|French|Advanced French|Advanced French (1938-39)|voir 1940-41
+C|fr.survey|French|Introductory Survey of French Literature|Introductory Survey of French Literature (1938-39)|voir 1940-41
+C|fr.seminaire|French|Seminar on Stendhal, Flaubert, and Proust|Seminar on Stendhal, Flaubert, and Proust (1938-39)|voir 1940-41
+C|de.intro|German|Introductory German|Introductory German (1938-39)|voir 1940-41
+C|de.avance|German|Advanced German|Advanced German (1938-39)|voir 1940-41
+C|de.xix|German|Nineteenth Century German Literature|Nineteenth Century German Literature (1938-39)|voir 1940-41
+C|de.goethe|German|Seminar on Goethe|Seminar on Goethe (1938-39)|voir 1940-41
+C|gr.intro|Greek|Introductory Greek|Introductory Greek (1938-39)|voir 1940-41
+C|gr.avance|Greek|Advanced Greek|Advanced Greek (1938-39)|voir 1940-41
+C|la.lyrique|Latin|Latin Lyric Poetry|Latin Lyric Poetry (1938-39)|voir 1940-41
+C|es.intro|Spanish|Introductory Spanish|Introductory Spanish (1938-39)|voir 1940-41
+C|es.avance|Spanish|Advanced Spanish|Advanced Spanish (1938-39)|voir 1940-41
+C|es.cervantes|Spanish|Seminar on Cervantes|Seminar on Cervantes (1938-39)|voir 1940-41
+C|hi.usa|History|History of the United States|History of the United States (1938-39)|voir 1940-41
+C|hi.nouveaumonde|History|Civilization in the New World|Civilization in the New World (1938-39)|voir 1940-41
+C|hi.europe|History|History of Modern Europe|History of Modern Europe (1938-39)|voir 1940-41
+C|hi.russie|History|Modern Russia|Modern Russia (1938-39)|voir 1940-41
+C|hi.renaissance|History|Renaissance and Reformation|Renaissance and Reformation (1938-39)|voir 1940-41
+C|eco.generale|Economics and Sociology|General Economics|General Economics (1938-39)|voir 1940-41
+C|eco.social|Economics and Sociology|Social Problems|Social Problems (1938-39)|voir 1940-41
+C|eco.sociologie|Economics and Sociology|General Sociology|General Sociology (1938-39)|voir 1940-41
+C|eco.travail|Economics and Sociology|Labor Problems|Labor Problems (1938-39)|voir 1940-41
+C|psy.fond|Psychology|Fundamentals of Psychology|Fundamentals of Psychology (1938-39)|voir 1940-41
+C|psy.pathologie|Psychology|Psychopathology|Psychopathology (1938-39)|voir 1940-41
+C|psy.anormale|Psychology|Abnormal Psychology|Abnormal Psychology (1938-39)|voir 1940-41
+C|psy.psychanalyse|Psychology|Psychoanalysis|Psychoanalysis (1938-39)|voir 1940-41
+C|ph.intro|Physics|Introductory General Physics|Introductory General Physics (1938-39)|voir 1940-41
+C|ph.musique|Physics|Physics of Musical Sounds|Physics of Musical Sounds (1938-39)|voir 1940-41
+C|ph.optique|Physics|Elementary Optics|Elementary Optics (1938-39)|voir 1940-41
+C|ph.elec|Physics|Electricity|Electricity (1938-39)|voir 1940-41
+C|ph.meca|Physics|Mechanics|Mechanics (1938-39)|voir 1940-41
+C|ch.intro|Chemistry|Introductory General Chemistry|Introductory General Chemistry (1938-39)|voir 1940-41
+C|ch.quali|Chemistry|Qualitative Analysis|Qualitative Analysis (1938-39)|voir 1940-41
+C|ch.quanti|Chemistry|Quantitive Analysis|Quantitive Analysis (1938-39)|voir 1940-41
+C|bio.intro|Biology|Introductory Biology|Introductory Biology (1938-39)|voir 1940-41
+C|bio.seminaire|Biology|Biology Seminar|Biology Seminar (1938-39)|voir 1940-41
+C|sc.histoire|Sciences|History of Science|History of Science (1938-39)|voir 1940-41
+C|ma.calcul1|Mathematics|Calculus I|Calculus I (1938-39)|voir 1940-41
+C|ma.trigo|Mathematics|Trigonometry|Trigonometry (1938-39)|voir 1940-41
+C|ma.geom|Mathematics|Analytic Geometry|Analytic Geometry (1938-39)|voir 1940-41
+C|ma.calcul2|Mathematics|Calculus II|Calculus II (1938-39)|voir 1940-41
+C|ma.equations|Mathematics|Differential Equations|Differential Equations (1938-39)|voir 1940-41
+C|phi.platon1|Philosophy|Plato I|Plato I (1938-39)|voir 1940-41
+C|phi.platon2|Philosophy|Plato II|Plato II (1938-39)|voir 1940-41
+# ---------- ART (Josef et Anni Albers ; « second art teacher… to share the work now being done by Josef Albers ») ----------
+U|A1|Josef Albers|4|LISTE_VOISINE+R_NOMME+VOISIN|art.dessin1|||1|Albers présent (conférence « The Meaning of Art », Guest Week 1940)|||
+U|A2|Josef Albers|4|LISTE_VOISINE+R_NOMME+VOISIN|art.dessin2|||1|seul enseignant d'art (un second est recherché)|||
+U|A3|Josef Albers|2|LISTE_VOISINE+R_NOMME+VOISIN|art.couleur1|||1|idem|||
+U|A4|Josef Albers|2|LISTE_VOISINE+R_NOMME+VOISIN|art.couleur2|||1|idem|||
+U|A5|Josef Albers|2|LISTE_VOISINE+R_NOMME+VOISIN|art.werklehre|||1|idem||exposition « Werklehre » à la Guest Week (mai 1940)|
+U|A6|Anni Albers|1|LISTE_VOISINE+R_NOMME+VOISIN|art.tissage_t|||1|Anni Albers présente (« Mrs Albers », mai 1940)||exposition de tissage à la Guest Week|
+U|A7|Anni Albers|4|LISTE_VOISINE+R_NOMME+VOISIN|art.tissage_p|||1|idem|||
+U|A8|Josef Albers; Anni Albers|1|LISTE_VOISINE+R_NOMME+VOLUME+OCCASION|art.seminaire|||1|idem||séance indicative|
+N|art.classe|réunion occasionnelle : activité possible du dimanche (ligne S)
+
+# ---------- MUSIC (Evarts ; Jalowetz remplace Sly ; les Sly et Surette ne sont plus là) ----------
+U|MU1|John Evarts|3|LISTE_VOISINE+R_NOMME+VOISIN|mu.app1|||1|Evarts présent (lettres de mars et mai 1940)|||
+U|MU2|John Evarts|3|LISTE_VOISINE+R_NOMME+VOISIN|mu.app2|||1|idem|||
+U|MU3|John Evarts|3|LISTE_VOISINE+R_NOMME+VOLUME|mu.app3|||1|idem|||
+U|MU4|John Evarts|1|LISTE_VOISINE+R_NOMME+VOISIN|mu.opera|||1|idem|||
+U|MU5|Heinrich Jalowetz|1|LISTE_VOISINE+R_ELIM+VOISIN|mu.chant|pour toute la communauté||1|Jalowetz nommé « to fill the vacancy in the Music Department occasioned by the resignation of Allan Sly »|mar 19:30-20:30||
+U|MU6|Heinrich Jalowetz|3|LISTE_VOISINE+R_ELIM+VOISIN|mu.choeur|||1|idem (chœur et orchestre de Sly)|||
+U|MU7|Heinrich Jalowetz|2|LISTE_VOISINE+R_ELIM+VOLUME|mu.chambre|||1|idem||Trudi Straus (violon) et Jalowetz jouent ensemble à l'automne 1940 (2017.40.257) : ici seulement plausible|
+U|MU8|John Evarts; Heinrich Jalowetz|1|LISTE_VOISINE+R_NOMME+OCCASION+VOLUME|mu.piano|leçons individuelles||1|« piano instructor to share the teaching of Dr Jalowetz and John Evarts » (mai 1940)||plage indicative|
+U|MU9|Heinrich Jalowetz|2|LISTE_VOISINE+R_ELIM+VOLUME|mu.composition||mu.bach|1/2|Jalowetz, élève de Schoenberg en composition (notice, août 1939)||un séminaire à la fois|
+N|mu.violon|Betty Ware Sly part avec Allan Sly (inféré ; non dit)
+N|mu.ecoles|Surette ne paraît plus enseigner (malade depuis plus de deux ans en août 1941)
+N|mu.bach|candidat de l'unité MU9
+
+# ---------- DRAMATICS, WRITING (Wunsch, recteur ; Bedford Thurman, assistant ; Rice en congé) ----------
+U|DR1|Robert Wunsch; Bedford Thurman|2|LISTE_VOISINE+R_NOMME+VOLUME|dr.1|débutants||1|Wunsch ; Bedford Thurman « assistant in Dramatics » (mai 1940)|||
+U|DR2|Robert Wunsch|2|LISTE_VOISINE+R_NOMME+VOLUME|dr.2||dr.3|1/2|idem|||
+U|W1|Robert Wunsch|3|LISTE_VOISINE+R_NOMME+VOLUME|ecr.intro||ecr.seminaire|1/2|Rice en congé : l'écriture revient à Wunsch seul||un des deux cours d'écriture, peut-être réunis|
+U|W2|Robert Wunsch|2|LISTE_VOISINE+R_NOMME+VOISIN|ecr.journalisme|||1|idem|||
+N|ecr.seminaire|candidat de W1 (Rice, qui le partageait, est en congé toute l'année)
+
+# ---------- ENGLISH AND AMERICAN LITERATURE (Mangold, Wunsch attestés ; Bailey et Kurtz incertains ; Surette absent) ----------
+U|BA1|Hilda Loram Bailey|3|LISTE_VOISINE+R_ELIM+VOISIN+PRESENCE|en.survey|||1/2|présence de Hilda Loram Bailey en 1939-40 non attestée (David Bailey l'est, août 1939 ; elle n'est plus au catalogue 1940-41)|||
+U|KU1|Kenneth Kurtz|3|LISTE_VOISINE+R_COMPET+VOLUME+PRESENCE|en.lectures||en.romantique;en.victorien;en.medieval;en.shakespeare;en.xvii;en.xviii|1/3|Kurtz est au catalogue 1940-41 ; 1939-40 non attesté|||
+U|WU1|Robert Wunsch|2|LISTE_VOISINE+R_NOMME+VOISIN|en.am19|||1/2|Wunsch nommé pour la littérature américaine en 1936-38||un semestre : automne|fall
+U|WU2|Robert Wunsch|2|LISTE_VOISINE+R_NOMME+VOISIN|en.amcontemp|||1/2|idem|=WU1|un semestre : printemps|spring
+U|MG1|Frederick R. Mangold|1|LISTE_VOISINE+R_NOMME+VOISIN|en.forme|||1/2|Mangold présent (mai 1940)||automne|fall
+U|MG2|Frederick R. Mangold|2|LISTE_VOISINE+R_NOMME+VOISIN|en.roman|||1/2|idem||printemps|spring
+U|LG|Frederick R. Mangold|3|LISTE_VOISINE+R_NOMME+VOISIN|ling.intro|||1/2|idem||chance 1/2 qu'il soit donné cette année|
+N|en.poesie|Surette ne paraît plus enseigner
+N|en.medieval|candidat de KU1
+N|en.shakespeare|idem
+N|en.xvii|idem
+N|en.xviii|idem
+N|en.romantique|idem
+N|en.victorien|idem
+
+# ---------- FOREIGN LANGUAGES (Mangold ; allemand sans enseignant ; Rice en congé) ----------
+U|F1|Frederick R. Mangold|3|LISTE_VOISINE+R_NOMME+VOISIN|fr.intro||fr.avance|1/2|Mangold présent||alternance : complément de 1938-39 (cours avancé retenu)|
+U|F2|Frederick R. Mangold|3|LISTE_VOISINE+R_NOMME+VOISIN|fr.survey||fr.seminaire|1/2|idem||complément de 1938-39|
+U|CK1|Kirill Chenkin|3|LISTE_VOISINE+R_ATTESTE+VOLUME|fr.seminaire||fr.survey|1/2|« Mr Kirill Chenkin, Instructor in French and Comparative Literature… came to Black Mountain where he taught from February through December of last year » (2017.40.258, janv. 1941)||arrivé en février 1940 : printemps seulement ; littérature française ou comparée|spring
+U|F3|Frederick R. Mangold|3|LISTE_VOISINE+R_ELIM+VOISIN|es.intro||es.avance;es.cervantes|1/2|idem||complément de 1938-39|
+U|D1||3|LISTE_VOISINE+R_COMPET+VOISIN|de.avance||de.intro;de.xix;de.goethe|1/4|Anna Moellenhoff partie ; « applicants are under consideration in the field of German » (août 1939)||chance réduite : enseignant inconnu, peut-être aucun|
+N|gr.intro|Rice en congé toute l'année (sabbatique, puis démission)
+N|gr.avance|idem
+N|la.lyrique|idem
+N|fr.avance|candidat de F1
+N|fr.seminaire|candidat de F2
+
+# ---------- HISTORY (W. C. Barnes incertain : histoire américaine vacante) ----------
+U|HB1|W. C. Barnes|3|LISTE_VOISINE+R_ATTESTE+VOLUME+PRESENCE|hi.europe||hi.renaissance;hi.russie|1/4|seul historien de 1938-39 ; « vacancies in the fields of… American History » (mai 1940)||s'il est resté, il ne donne pas l'histoire américaine ; chance réduite|
+N|hi.usa|histoire américaine vacante (mai 1940)
+N|hi.nouveaumonde|idem (histoire des Amériques)
+
+# ---------- ECONOMICS AND SOCIOLOGY (Gerald Barnes, attesté) ----------
+U|GB1|Gerald Barnes|3|LISTE_VOISINE+R_ATTESTE+VOISIN|eco.generale|||4/5|Gerald Barnes présent (« to replace Gerald Barnes », mai 1940)|||
+U|GB2|Gerald Barnes|3|LISTE_VOISINE+R_ATTESTE+VOISIN|eco.social|||4/5|idem|||
+U|GB3|Gerald Barnes|3|LISTE_VOISINE+R_ATTESTE+VOISIN|eco.sociologie|||4/5|idem|||
+U|GB4|Gerald Barnes|3|LISTE_VOISINE+R_ATTESTE+VOISIN|eco.travail|||4/5|idem|||
+
+# ---------- PSYCHOLOGY (Erwin Straus, attesté ; les Moellenhoff sont partis) ----------
+U|ST1|Erwin Straus|3|LISTE_VOISINE+R_ELIM+VOISIN|psy.fond|||1/2|Straus présent (« Education in Time of Chaos », Guest Week 1940)||automne|fall
+U|ST2|Erwin Straus|3|LISTE_VOISINE+R_ELIM+VOISIN|psy.pathologie|||1/2|idem||automne|fall
+U|ST3|Erwin Straus|3|LISTE_VOISINE+R_ELIM+VOISIN|psy.anormale|||1/2|idem|=ST1|printemps|spring
+U|ST4|Erwin Straus|3|LISTE_VOISINE+R_ELIM+VOISIN|psy.psychanalyse|||1/4|idem|=ST2|cours de Moellenhoff, parti : chance réduite|spring
+
+# ---------- SCIENCES (pas de biologie ni de physique ; chimie : Lindsley probable) ----------
+U|CL1|Charles H. Lindsley|3+4L|LISTE_VOISINE+R_NOMME+VOISIN+PRESENCE|ch.intro|||1|Lindsley gère l'auberge de Lake Eden à l'été 1940 (mai 1940) : présent au collège, enseignement non attesté|||
+U|CL2|Charles H. Lindsley|3|LISTE_VOISINE+R_NOMME+VOLUME+PRESENCE|ch.quali||ch.quanti|1/2|idem|||
+N|ph.intro|« vacancies in the fields of… Physics, since Ted Dreier is now giving all his time to teaching Mathematics » (mai 1940)
+N|ph.musique|idem
+N|ph.optique|idem
+N|ph.elec|idem
+N|ph.meca|idem
+N|bio.intro|biologie vacante : les Moellenhoff sont partis (août 1939, mai 1940)
+N|bio.seminaire|idem
+N|sc.histoire|plus de physicien ; titre sans enseignant connu
+
+# ---------- MATHEMATICS (Dreier : printemps seulement) ----------
+U|M1|Ted Dreier|3|LISTE_VOISINE+R_ATTESTE+VOISIN|ma.calcul1|||1|Dreier « giving all his time to teaching Mathematics » (mai 1940) ; congé au MIT à l'automne (août 1939)|||spring
+U|M2|Ted Dreier|3|LISTE_VOISINE+R_ATTESTE+VOISIN|ma.trigo+ma.geom|réunies comme en 1936-38||1|idem|||spring
+U|M3|Ted Dreier|3|LISTE_VOISINE+R_ATTESTE+VOLUME|ma.calcul2||ma.equations|1/2|idem|||spring
+
+# ---------- PHILOSOPHY (Rice en congé : pas de Platon) ----------
+N|phi.platon1|Rice en congé toute l'année ; aucun autre enseignant de philosophie connu
+N|phi.platon2|idem

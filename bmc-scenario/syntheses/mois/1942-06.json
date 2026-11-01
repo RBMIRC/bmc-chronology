@@ -1,0 +1,302 @@
+{
+ "passe": "mois",
+ "cle": "1942-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2699,
+  "sortie": 12875,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-06",
+  "session": "Vacances d'été, hors trimestre : les fiches ne documentent pas de session d'été",
+  "saison_et_climat": "Été 1942 à Lake Eden, en Caroline du Nord. Les fiches ne décrivent pas le climat ; l'été est surtout marqué par le chantier, la ferme et la campagne de fonds.",
+  "situation": "Deuxième année de guerre au collège. Le chantier communautaire continue, la grange est finie et la laiterie suit. Le collège manque d'argent et n'a pas l'accréditation : il négocie des quotas dans les programmes militaires (Navy V-1, Enlisted Reserve) après des lettres de Wunsch à une dizaine d'universités, dont des réponses favorables. La faculté renonce à presque tout au-delà de 10 $ par mois et par personne, et deux hypothèques pèsent sur les bâtiments.",
+  "presents_probables": [
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Else Regensteiner (visiteuse)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1942-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Wunsch écrit entre mai et juillet à une dizaine d'universités. Antioch, Swarthmore, Reed et l'Université de Caroline du Nord répondent favorablement, et le collège obtient un quota dans les programmes militaires. Le quota est daté 1942 sans mois.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : Survivre : argent, accréditation, programmes de guerre (1941-12→1943)"
+    ]
+   },
+   {
+    "date": "1942-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Campagne de fonds menée presque tout l'été par Albers, Kocher, Mangold et Dreier.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942-07-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Mangold fait le bilan : environ 78 000 $ de dons en deux ans, tous absorbés par la construction.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Une seconde hypothèque de 18 000 $ s'ajoute à un solde de 11 500 $.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : Survivre : argent, accréditation, programmes de guerre (1941-12→1943)"
+    ]
+   },
+   {
+    "date": "1942-06",
+    "precision": "saison",
+    "ce_qui_arrive": "La faculté plafonne sa contribution à 10 $ par mois et par personne. Certains refusent des postes ailleurs, dont un à 10 000 $.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Les lettres de recommandation sur Eric Bentley de Frederic Cohen, Carleton Sprague Smith, John Martin et Martha Graham arrivent de juillet à août.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "Albers conçoit à Harvard, cet été-là, la suite Graphic Tectonic. Ce travail est parallèle à la campagne de fonds menée au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : Albers, des Tectonics à l'après-Mexique (1941→1946)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "Anni Albers reçoit Else Regensteiner, future fondatrice du département de tissage de l'Art Institute de Chicago.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "La grange de Kocher et Godfrey est terminée au printemps. La laiterie et deux silos à maïs suivent pendant l'été et l'automne.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les matinées sont données aux cours et les après-midi au travail volontaire, dans le cadre du chantier communautaire. La grange est achevée et la laiterie se construit. La ferme tourne (troupeaux, légumes). Les soirées du collège continuent. La vie tourne surtout autour de la recherche de fonds : lettres, dons, calculs de dettes.",
+  "tensions": [
+   "Argent : dettes et hypothèques sans liquidités, malgré près de 150 000 $ d'actifs.",
+   "Sacrifice inégal : la faculté a donné sa main-d'œuvre et plafonne ses apports, tandis que certains refusent des postes mieux payés ailleurs.",
+   "Accréditation : le collège n'est accrédité nulle part et la North Carolina Conference lui refuse le droit de délivrer des diplômes, ce qui rend les quotas de guerre décisifs.",
+   "Albers entre la campagne de fonds au collège et le travail à Harvard (les sources ne disent pas clairement lequel des Albers fait quoi)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le bilan du 7 juillet",
+    "date": "1942-07-07",
+    "lieu": "Lake Eden, au collège",
+    "personnages": [
+     "Mangold",
+     "Albers",
+     "Kocher",
+     "Dreier"
+    ],
+    "deroule": "Mangold fait les comptes des deux années de campagne : 78 000 $ de dons, tout absorbé par le chantier. Les autres voient la dette qui ne bouge pas, malgré l'effort de tout l'été.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Les lettres aux universités",
+    "date": "1942-06",
+    "lieu": null,
+    "personnages": [
+     "Wunsch"
+    ],
+    "deroule": "Wunsch attend et lit les réponses venues de plusieurs universités. Les réponses favorables ouvrent un quota, et il pétitionne aussi le Selective Service pour épargner les professeurs les plus âgés.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : Survivre : argent, accréditation, programmes de guerre (1941-12→1943)"
+    ]
+   },
+   {
+    "titre": "Le plafond des 10 dollars",
+    "date": "1942-06",
+    "lieu": null,
+    "personnages": [
+     "Wunsch",
+     "membres de la faculté"
+    ],
+    "deroule": "La faculté décide de ne plus donner au-delà de 10 $ par mois et par personne. Certains refusent des postes extérieurs, dont un à 10 000 $, et la décision pèse sur tous.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Regensteiner dans l'atelier de tissage",
+    "date": "1942",
+    "lieu": "atelier de tissage du collège (lieu déduit)",
+    "personnages": [
+     "Anni Albers",
+     "Else Regensteiner"
+    ],
+    "deroule": "Anni Albers montre son travail à une visiteuse qui deviendra fondatrice d'un département de tissage à Chicago. La scène ouvre sur l'art textile comme refuge pendant la gêne financière.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Les lettres pour Bentley",
+    "date": "1942-07",
+    "lieu": null,
+    "personnages": [
+     "Eric Bentley",
+     "Martha Graham",
+     "John Martin",
+     "Carleton Sprague Smith",
+     "Frederic Cohen"
+    ],
+    "deroule": "Des lettres d'appui arrivent de juillet à août. Chacune témoigne du crédit que Bentley a pour le collège, dans un moment où le collège cherche des soutiens.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Wunsch, en juin, reprend ses lettres de mai et juin",
+    "vers_date": "1942-05-24",
+    "vers": "Rencontre avec Huntley de la Southern Association, qui s'étonne que le collège n'ait pas encore le droit de délivrer des diplômes.",
+    "refs": [
+     "fil : Survivre : argent, accréditation, programmes de guerre (1941-12→1943)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la campagne de fonds de l'été 1942",
+    "vers_date": "1941-05",
+    "vers": "Arrivée du collège à Lake Eden en mai 1941, début de la deuxième année sur le site.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la grange achevée au printemps 1942",
+    "vers_date": "1940",
+    "vers": "Lancement du chantier communautaire à l'automne 1940 : cours le matin et le soir, travail volontaire l'après-midi.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les dettes et l'enquête sur les effets de la guerre",
+    "vers_date": "1942-10-16",
+    "vers": "Fortune envoie un télégramme d'enquête. Le collège répond par une page dactylographiée.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la ferme et les dettes de l'été",
+    "vers_date": "1942",
+    "vers": "Découverte d'un gisement de mica dans le pâturage par Hansgirg et Straus : 250 livres récoltées en deux jours, jugées « bonne muscovite » par la Colonial Mica Corporation, et un mineur embauché.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : Autosuffisance : ferme et mica (1942→1943)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'effort de guerre et les quotas obtenus en été",
+    "vers_date": "1942",
+    "vers": "Départs successifs de Lindsley, Evarts, Boyden, Mangold, Babcock, French et Bliss, entre 1942 et 1943.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : La guerre vide le collège (1941-12→1945)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les dettes et l'image du collège",
+    "vers_date": "1942-11",
+    "vers": "Parution de l'autobiographie de Rice, avec un chapitre sur Black Mountain ; menace de procès en libelle de Hamilton Holt.",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : Le livre de Rice et le contentieux Holt (1942-05→1944)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la fracture qui se prépare sous la surface",
+    "vers_date": "1944",
+    "vers": "Affrontement de 1944. Sam Brown date de l'automne 1942 le début du glissement vers une situation « informe ».",
+    "refs": [
+     "chapitre de l'année 1942 (synthèse)",
+     "fil : La fracture idéologique de 1944 en gestation (1942→1944)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Survivre par la guerre et l'accréditation : chaque quota ouvre une porte et en referme une autre",
+   "Une communauté qui se sacrifie et qui s'épuise, avec la dette comme horizon permanent",
+   "Le décalage entre le travail de l'art (Albers, tissage) et la précarité matérielle",
+   "Le collège comme refuge, et la guerre qui disperse ceux qui le composent"
+  ],
+  "lacunes": "Les fiches ne donnent ni liste d'étudiants présents en juin, ni session d'été documentée, ni mois pour le quota obtenu, ni date pour la visite de Regensteiner. Les sources ne précisent pas non plus si « Albers » désigne Josef (à Harvard, vraisemblablement) ou Anni (au collège). Le contenu des lettres d'universités et des Bentley reste vague. Les fiches n'ont pas d'identifiants EV, SC ou PE : les refs citent les titres des fiches et des fils. Le futur affrontement de 1944 et la crise bedroom ne sont pas datés en juin 1942."
+ }
+}

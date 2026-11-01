@@ -1,0 +1,215 @@
+{
+ "passe": "personnes",
+ "cle": "Isaac Rosenfeld",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3868,
+  "sortie": 5151,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Isaac Rosenfeld",
+  "autres_noms": [],
+  "dates_de_vie": "Non précisées dans les fiches. On sait seulement qu'il est déjà un romancier reconnu en 1948.",
+  "statut_bmc": "Écrivain invité, enseignant à la session d'été 1948. Il est recruté au printemps 1948 sur recommandation d'Alfred Kazin et d'Hannah Arendt. Séjour unique attesté, un seul été.",
+  "presence": [
+   {
+    "debut": "1948-06",
+    "fin": "1948-08",
+    "role": "Enseignant invité : classe sur Tolstoï et « creative writing ». Il joue aussi le majordome dans Le Piège de Méduse. Les gages de la session pour les invités sont le logement et la nourriture, 100 $ de frais de voyage et 25 $ par semaine de présence. Rien ne dit que Rosenfeld ait eu des conditions différentes.",
+    "refs": [
+     "PE-00330",
+     "EV-04508",
+     "CO-00483",
+     "CO-00496",
+     "EV-04175",
+     "EV-04236",
+     "EV-04199"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune description physique dans les fiches. Seul indice visuel : dans la pièce de Satie, il tient le rôle d'un majordome revêche ou bourru. C'est un choix de distribution, qui ne dit rien de son apparence réelle. Le scénariste devra inventer, en le disant.",
+  "noyau_psychologique": "Les sources donnent peu de matière intérieure. Attesté : un écrivain établi (Passage From Home), appuyé par des figures intellectuelles de poids, qui arrive à Black Mountain avec, selon Kazin, du mépris pour l'endroit. Ce mépris est celui que Kazin attribue à la plupart des écrivains présents avant 1950. Il enseigne pourtant avec sérieux (Tolstoï, écriture) et accepte de jouer dans une farce collective. Déduction, à manier avec prudence : un intellectuel urbain et littéraire, à la fois sceptique devant le milieu et capable de s'y prêter. Le majordome grincheux sur scène pourrait même être un clin d'œil à son propre statut d'invité réticent. Rien ne l'atteste.",
+  "blessures": "Rien dans les fiches. Ne pas inventer de blessure biographique à partir de ces seules sources.",
+  "desirs": "Non documentés. Déduction minimale : il a accepté un poste d'été et a écrit à Levi les 18 mars et 15 avril 1948, donc il a cherché ou voulu cette place. Le motif (argent, séjour, prestige, curiosité) est inconnu.",
+  "peurs": "Non documentées.",
+  "maniere_d_aimer": "Non documentée. Aucune relation affective ou amoureuse n'apparaît dans les fiches.",
+  "rapport_au_pouvoir": "Il ne détient aucun pouvoir institutionnel : il est invité d'été, recruté par Levi, et dépend de recommandations de mentors (Kazin, Arendt). Il se plie à la direction de Penn, un étudiant-moniteur, dans la pièce, ce qui montre une certaine souplesse hiérarchique. Son mépris affiché pour l'institution relève d'une posture d'intellectuel extérieur, d'après Kazin.",
+  "voix": {
+   "registre": "Aucune parole de Rosenfeld n'est rapportée. Registre à inventer, ancré dans ce qu'on sait : écrivain new-yorkais cultivé (déduction), enseignant de littérature russe, ironique ou distant envers le lieu (Kazin).",
+   "tics": "Aucun attesté. Seule indication scénique : le rôle du majordome « revêche » / « bourru » dans la pièce, qui n'est pas sa voix réelle.",
+   "exemples_paraphrases": [
+    "Kazin rapporte qu'il « méprisait » Black Mountain : dans une scène, il pourrait traiter l'endroit avec condescendance amusée, sans que ce soit une citation.",
+    "Sur scène, il joue un domestique qui répond sèchement. Il n'y a pas de texte conservé, seulement le caractère du rôle."
+   ]
+  },
+  "habitudes": [
+   "Il enseigne en été une classe sur Tolstoï et un atelier d'écriture (attesté).",
+   "Il écrit à Levi pour préparer sa venue (18 mars et 15 avril 1948).",
+   "Aucune habitude de vie quotidienne (travail, boisson, horaires) n'est documentée."
+  ],
+  "convictions": [
+   "Selon Kazin, il tient Black Mountain en mépris, comme la plupart des écrivains qui y sont passés avant 1950. Le motif exact n'est pas donné.",
+   "L'importance de Tolstoï comme sujet d'enseignement (déduction à partir de son cours)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1948-04",
+    "moment": "Recrutement : Kazin (13 avril) et Arendt (12 avril) le recommandent avec ferveur à Levi ; Rosenfeld lui a écrit le 18 mars et le 15 avril.",
+    "etat_interieur": "Déduction : il est en demande, soutenu, probablement flatté ou soulagé de l'appui de ses pairs. Aucune source ne rapporte ses sentiments.",
+    "refs": [
+     "EV-04479",
+     "RE-01659",
+     "PE-00330"
+    ]
+   },
+   {
+    "date": "1948-06",
+    "moment": "Arrivée pour la session d'été, parmi 74 étudiants et un corps invité (Newhall, Burchard, Bodky, Kaufmann, Grippe, Ames…). Il donne Tolstoï et creative writing.",
+    "etat_interieur": "Attesté de seconde main : il aurait méprisé le lieu (Kazin). Ce qui précède et suit n'est que déduction.",
+    "refs": [
+     "EV-04508",
+     "CO-00496",
+     "CO-00483",
+     "PE-00330"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "moment": "Répétitions du Piège de Méduse. Il est le majordome, aux côtés de Fuller, Elaine de Kooning, Schrauger, Penn, Cunningham et Cage. Les répétitions sont ponctuées de fous rires, et il faut se retenir devant les lazzi de Fuller.",
+    "etat_interieur": "Déduction : il participe à un effort collectif joyeux malgré son scepticisme affiché. On ne sait pas s'il s'y laisse prendre ou garde ses distances. La date exacte des répétitions n'est pas donnée, seulement l'été 1948.",
+    "refs": [
+     "SC-01050",
+     "EV-04175",
+     "EV-04236"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "moment": "Représentation unique de la pièce, jugée le point culminant de l'été. Sans photo ni enregistrement. Sa classe sur Tolstoï est suivie par Davidoff, qui s'y amuse beaucoup.",
+    "etat_interieur": "Inconnu. La date précise de la représentation n'est pas donnée par les fiches ; la fin de session est en août.",
+    "refs": [
+     "EV-04239",
+     "EV-04175",
+     "CO-00483",
+     "EV-04199"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Rosenfeld a publié le roman Passage From Home, qui a établi sa réputation avant 1948.",
+    "refs": [
+     "OE-02071",
+     "PE-00330"
+    ]
+   },
+   {
+    "date": "1948-03",
+    "moment": "Il écrit à Levi le 18 mars, avant même les recommandations de Kazin et d'Arendt, ce qui montre qu'il a pris contact lui-même avec le collège.",
+    "refs": [
+     "EV-04479"
+    ]
+   },
+   {
+    "date": "1948-04",
+    "moment": "Kazin et Hannah Arendt le recommandent chaleureusement, ce qui le place dans leur cercle intellectuel. Rosenfeld écrit de nouveau à Levi le 15 avril.",
+    "refs": [
+     "EV-04479",
+     "RE-01659",
+     "PE-00330"
+    ]
+   }
+  ],
+  "apres": [],
+  "relations_cles": [
+   {
+    "avec": "Alfred Kazin",
+    "nature": "Mentor, protecteur, recommandeur. Source du jugement sur le mépris de Rosenfeld pour le collège.",
+    "evolution": "Kazin le recommande à Levi (lettre du 13 avril 1948) puis le caractérise comme hostile à Black Mountain. On ne sait rien de la suite de leur relation.",
+    "refs": [
+     "RE-01659",
+     "EV-04479",
+     "PE-00330",
+     "EV-04508"
+    ]
+   },
+   {
+    "avec": "Hannah Arendt",
+    "nature": "Soutien intellectuel : recommandation à Levi (lettre du 12 avril 1948).",
+    "evolution": "Un seul geste attesté, sans autre détail.",
+    "refs": [
+     "EV-04479",
+     "PE-00330"
+    ]
+   },
+   {
+    "avec": "Levi (recruteur du collège)",
+    "nature": "Correspondant et décideur : Rosenfeld lui écrit les 18 mars et 15 avril 1948 ; Kazin et Arendt s'adressent à lui.",
+    "evolution": "Le recrutement réussit. Le prénom et la fonction exacte de Levi ne sont pas précisés dans les fiches.",
+    "refs": [
+     "EV-04479",
+     "RE-01659"
+    ]
+   },
+   {
+    "avec": "John Cage, Arthur Penn, Buckminster Fuller, Elaine de Kooning, Merce Cunningham",
+    "nature": "Partenaires de la pièce de Satie. Cage la monte et joue du piano, Penn la met en scène, Fuller en est la vedette.",
+    "evolution": "Collaboration éphémère le temps d'un été, dans une ambiance de fou rire et d'artisanat collectif. Aucune interaction personnelle n'est rapportée.",
+    "refs": [
+     "SC-01050",
+     "EV-04175",
+     "EV-04236",
+     "EV-04339"
+    ]
+   },
+   {
+    "avec": "Davidoff (étudiante-musicienne)",
+    "nature": "Étudiante dans sa classe sur Tolstoï, en échange de ses prestations musicales.",
+    "evolution": "Elle s'y est beaucoup amusée. On ignore ce que cela signifie pour la classe ou pour lui.",
+    "refs": [
+     "EV-04199",
+     "CO-00483"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Tension plutôt que contradiction : Kazin et Arendt le recommandent avec ferveur, mais Kazin dit aussi qu'il méprisait Black Mountain. Il faut décider si le mépris est de Rosenfeld ou une généralisation de Kazin sur « la plupart des écrivains présents avant 1950 ».",
+   "Rôle sur scène : « majordome revêche » (Lane) contre « majordome bourru » (E. de Kooning). Nuance de traduction, même fonction. Duberman parle de « petits rôles » pour lui et Alvin Charles Few.",
+   "Díaz 2014 évoque des enseignants jouant des rôles autodérisoires. Rien ne confirme que ce soit le cas de Rosenfeld, qui pourrait aussi jouer le rôle sans plaisir."
+  ],
+  "situations_revelatrices": [
+   "Une répétition où il doit garder son sérieux de majordome devant les lazzi de Fuller : jusqu'où le mépris attribué par Kazin tient-il face au fou rire collectif ?",
+   "Un cours sur Tolstoï où une étudiante-musicienne (Davidoff) s'amuse beaucoup : comment enseigne-t-il, avec ironie, gravité ou humour ?",
+   "Un dîner avec les invités de la session d'été (Newhall, Bodky, Burchard, Kaufmann, Cage, Fuller) où il se montre condescendant ou, au contraire, se laisse gagner.",
+   "Une lettre à Levi ou à Kazin, où il juge Black Mountain en privé. C'est l'occasion d'écrire la distance entre posture et participation.",
+   "Un moment après la représentation, quand il constate que tout a disparu (pas de photos ni d'enregistrement), alors qu'il est écrivain et que le texte seul demeure."
+  ],
+  "citations": [
+   "PE-00330",
+   "RE-01659",
+   "SC-01050",
+   "EV-04175",
+   "EV-04199",
+   "EV-04236",
+   "EV-04239",
+   "EV-04339",
+   "EV-04479",
+   "EV-04508",
+   "CO-00483",
+   "CO-00496",
+   "OE-02071"
+  ],
+  "questions_ouvertes": [
+   "Quelles sont ses dates de naissance et de mort ? Les fiches n'en disent rien.",
+   "Quel était son contenu exact de cours en creative writing, et quels étudiants y ont participé ?",
+   "Pourquoi méprisait-il Black Mountain ? Qu'a-t-il dit ou écrit sur le collège ? Sa propre version existe-t-elle ?",
+   "A-t-il revu Kazin, Arendt, Cage ou Fuller après 1948 ? Est-il revenu à Black Mountain ?",
+   "Quelle était sa situation personnelle et matérielle en 1948 ? Est-il venu seul ?",
+   "Qu'a-t-il pensé de la pièce et de son rôle ? A-t-il écrit sur cet été ?",
+   "Que devient-il après 1948 ? Les fiches n'offrent rien pour le flash-forward."
+  ]
+ }
+}

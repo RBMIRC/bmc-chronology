@@ -1,0 +1,284 @@
+{
+ "passe": "mois",
+ "cle": "1934-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2793,
+  "sortie": 11236,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1934-10",
+  "session": "Automne 1934, début de la deuxième année académique ; découpage en trimestres ou sessions non précisé par les fiches",
+  "saison_et_climat": "Automne : la rentrée a lieu à cette saison et la récolte de la ferme est moissonnée collectivement à l'automne. Les fiches ne décrivent ni le temps ni le climat de ce mois.",
+  "situation": "Le collège entame sa deuxième année après une rentrée confuse. Rice a repris le rectorat à Georgia, qui est devenu secrétaire sans résistance. Anni Albers entre au corps enseignant et Josef Albers place les cours d'art au centre du curriculum. Le collège multiplie les projets d'autosuffisance (coopérative, imprimerie, meubles, métiers à tisser, Cottage School tenue par des étudiants). Les amendements de mai donnent aux étudiants une place dans la gouvernance. Le financement du salaire de Robert Wunsch reste à régler.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rice (recteur de nouveau en poste)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Georgia (devenu secrétaire)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bobbie Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants de première année passés en deuxième, dont « John » et « Paul » (pseudonymes)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "fermier salarié (non nommé)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1934",
+    "precision": "saison",
+    "ce_qui_arrive": "Rentrée chaotique de la deuxième année, marquée par un rituel d'ouverture désordonné.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934",
+    "precision": "saison",
+    "ce_qui_arrive": "Rice reprend le rectorat ; Georgia, sans résistance, devient secrétaire.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1934 (synthèse)",
+     "Gouvernance, consensus et droits étudiants (1934-05→1934-12)"
+    ]
+   },
+   {
+    "date": "1934",
+    "precision": "saison",
+    "ce_qui_arrive": "Anni Albers entre au corps enseignant et élabore un programme théorique et didactique pour le tissage, faute d'avoir pu enseigner l'année précédente.",
+    "certitude": "atteste",
+    "refs": [
+     "Anni et l'atelier de tissage (1933-11→1934-12)",
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934",
+    "precision": "saison",
+    "ce_qui_arrive": "Josef Albers fait des cours d'art le centre du curriculum, tout en jugeant Rice totalement indiscipliné.",
+    "certitude": "atteste",
+    "refs": [
+     "La pédagogie d'Albers prend forme (1934-01→1934-12)",
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934",
+    "precision": "periode",
+    "ce_qui_arrive": "Tentatives d'autosuffisance en cours : coopérative étudiante aux caisses déséquilibrées, imprimerie, fabrication de meubles et de métiers à tisser, Cottage School tenue par des étudiants.",
+    "certitude": "probable",
+    "refs": [
+     "Ferme, travail collectif et autosuffisance (1934→None)",
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934",
+    "precision": "saison",
+    "ce_qui_arrive": "Récolte moissonnée collectivement à la ferme.",
+    "certitude": "probable",
+    "refs": [
+     "Ferme, travail collectif et autosuffisance (1934→None)",
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   },
+   {
+    "date": "1934-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Clara Porset vient de La Havane voir l'enseignement d'Albers, en est conquise et l'invite à Cuba. Antécédent immédiat du mois.",
+    "certitude": "atteste",
+    "refs": [
+     "Cuba et ouverture latino-américaine (1934-09→1935-01)"
+    ]
+   },
+   {
+    "date": "1934-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Le recrutement de Wunsch est en cours et son salaire n'est pas encore assuré. La levée de mille dollars par les étudiants et le désaccord de la faculté payée en sous-salaire viennent plus tard, en novembre.",
+    "certitude": "deduit",
+    "refs": [
+     "Recrutement de Wunsch (1933-11→1934-11)"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire tourne autour du travail collectif : la ferme, dont un fermier salarié assure la moitié des légumes du réfectoire, la coopérative étudiante, l'imprimerie, la fabrication de meubles et de métiers à tisser, et la Cottage School tenue par des étudiants. Les cours d'art, et en particulier le tissage d'Anni Albers, occupent une place centrale. Les réunions de faculté et d'étudiants sont fréquentes, et Albers s'exaspère de leur absence d'ordre du jour. Les fiches ne donnent pas de détail sur les repas ou la musique de ce mois.",
+  "tensions": [
+   "Albers contre Rice : Albers juge Rice « totalement indiscipliné », alors que Rice vient de reprendre le rectorat qu'il regrettait d'avoir confié à Georgia.",
+   "Des réunions sans ordre du jour, qui exaspèrent Albers et posent la question de la gouvernance.",
+   "Le financement du salaire de Wunsch : la faculté payée en sous-salaire et la question de la répartition des moyens, qui nourrissent un ressentiment latent.",
+   "Des caisses de la coopérative étudiante qui ne s'équilibrent pas.",
+   "Les droits étudiants récemment acquis (accès aux registres, siège au Board, présence aux réunions de faculté) mettent à l'épreuve l'autorité de la faculté."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Une réunion sans ordre du jour",
+    "date": "1934",
+    "lieu": "campus de BMC, lieu de réunion non précisé par les fiches",
+    "personnages": [
+     "Josef Albers",
+     "Rice",
+     "Georgia",
+     "Anni Albers"
+    ],
+    "deroule": "Une réunion de faculté ou d'étudiants où l'on discute sans agenda ; Albers s'impatiente, Rice improvise. La scène peut montrer comment le collège gère ses décisions alors que les étudiants siègent désormais aux réunions.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1934 (synthèse)",
+     "Gouvernance, consensus et droits étudiants (1934-05→1934-12)"
+    ]
+   },
+   {
+    "titre": "Rice reprend le rectorat",
+    "date": "1934",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "Georgia"
+    ],
+    "deroule": "Rice, qui a vite regretté d'avoir fait de Georgia le recteur, reprend le poste. Georgia accepte sans résistance le rôle de secrétaire. La scène peut mettre en valeur la passation et le malaise qu'elle laisse.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Anni présente son programme de tissage",
+    "date": "1934",
+    "lieu": "atelier de tissage",
+    "personnages": [
+     "Anni Albers",
+     "étudiants",
+     "Josef Albers"
+    ],
+    "deroule": "Anni, entrée au corps enseignant, présente le programme théorique et didactique qu'elle a conçu pour le tissage, après une première année sans enseignement faute d'équipement.",
+    "certitude": "atteste",
+    "refs": [
+     "Anni et l'atelier de tissage (1933-11→1934-12)"
+    ]
+   },
+   {
+    "titre": "Moisson collective",
+    "date": "1934",
+    "lieu": "ferme du collège",
+    "personnages": [
+     "étudiants",
+     "fermier salarié"
+    ],
+    "deroule": "Les étudiants et le fermier salarié récoltent ensemble, dans le cadre du travail collectif de la ferme. La récolte alimente le réfectoire.",
+    "certitude": "probable",
+    "refs": [
+     "Ferme, travail collectif et autosuffisance (1934→None)"
+    ]
+   },
+   {
+    "titre": "Le télégramme de Cuba",
+    "date": "1934-09",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Ted Dreier",
+     "Bobbie Dreier"
+    ],
+    "deroule": "Après la visite de Porset en septembre, l'invitation à Cuba reste en suspens. Albers pèse la proposition au milieu de la rentrée. La scène prépare le départ pour Cuba à la fin de décembre.",
+    "certitude": "deduit",
+    "refs": [
+     "Cuba et ouverture latino-américaine (1934-09→1935-01)",
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Albers, en octobre, enseigne au collège qu'il a failli quitter.",
+    "vers_date": "1934-04",
+    "vers": "Bennington refuse Albers en avril 1934 : Leigh écrit qu'il lui faut une personne plus essentiellement américaine. Johnson suggère que le facteur allemand n'était qu'un prétexte.",
+    "refs": [
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les étudiants de deuxième année, dont « John » et « Paul », se souviennent de la première année.",
+    "vers_date": "1934",
+    "vers": "Dans les journaux de la première année, « John » avoue son amour pour « Paul ». L'aveu choque Paul, qui se lie à « Ann ». Rice recadre John et détruit sa confiance retrouvée. Ces noms sont des pseudonymes.",
+    "refs": [
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le collège, en octobre, prépare la venue de Wunsch.",
+    "vers_date": "1934-11",
+    "vers": "À Thanksgiving, Wunsch trouve un collège tourné vers lui-même. Les étudiants lèvent mille dollars pour son salaire, ce qui divise la faculté. Rice renvoie les étudiants convaincre les opposants.",
+    "refs": [
+     "Recrutement de Wunsch (1933-11→1934-11)",
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers pèse l'invitation de Porset en automne.",
+    "vers_date": "1934-12-28",
+    "vers": "Les Albers, avec Ted et Bobbie Dreier, partent pour Cuba le 28 décembre 1934. Josef y donne trois conférences au Lyceum. C'est le premier d'une série de plus de quatorze voyages en Amérique latine jusqu'en 1956.",
+    "refs": [
+     "Cuba et ouverture latino-américaine (1934-09→1935-01)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le collège, en automne, travaille à se faire connaître des visiteurs et de la presse.",
+    "vers_date": null,
+    "vers": "Dewey fait sa première visite pendant l'année 1934-35, date non précisée par la fiche. Il assiste chaque jour au cours de Rice et boit de la bière avec les étudiants. Une autre visite l'amène avec Albert Barnes.",
+    "refs": [
+     "Le collège se montre : visiteurs et presse (1934-02→1935-01)",
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les bois gravés d'Albers ont été portés au MoMA avant fin juillet.",
+    "vers_date": "1935",
+    "vers": "Seule l'Addison Gallery accepte les estampes d'Albers ; l'exposition aura lieu en 1935 selon les autres fiches.",
+    "refs": [
+     "chapitre de l'année 1934 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "La place de l'art comme centre du collège, portée par Albers et Anni",
+   "Le conflit entre Albers et Rice, sur la discipline et la conduite des réunions",
+   "Une gouvernance nouvelle, où les étudiants ont accès aux registres et aux réunions",
+   "L'autosuffisance comme idéal et comme source de déséquilibres",
+   "Les voyages vers le Sud, qui commencent avec Cuba",
+   "Le secret des amours étudiantes, qui se cache derrière des pseudonymes"
+  ],
+  "lacunes": "Aucune date d'octobre 1934 précise dans les fiches. Le climat, les effectifs étudiants, la présence exacte de Robert Wunsch, Ted et Bobbie Dreier, ainsi que le moment de la visite de Dewey (1934-35) ne sont pas documentés. Les pseudonymes John, Paul et Ann ne sont pas identifiés. Les fiches ne précisent pas non plus le découpage en sessions."
+ }
+}

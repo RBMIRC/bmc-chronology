@@ -1,0 +1,302 @@
+{
+ "passe": "mois",
+ "cle": "1954-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 10582,
+  "sortie": 21688,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1954-01",
+  "session": "Hiver : collège fermé pour la saison, aucune session de cours en cours (fermeture hivernale attestée par la synthèse, sans date plus fine)",
+  "saison_et_climat": "Hiver. La neige est attestée en Bavière (Ottobeuren, EV-06422). Aucune donnée sur le temps à Black Mountain ce mois-ci, si ce n'est que le collège est perché dans les montagnes (EC-03014).",
+  "situation": "Le collège est fermé pour l'hiver et ne fonctionne plus comme un établissement ordinaire. Olson exerce de fait le rectorat, formalisé en 1954, et porte seul les démarches : la déclaration d'Einstein du 16 janvier sert la communication mais n'apporte aucun argent. Les finances sont à bout : les enseignants n'ont plus de salaire depuis un an, Paul Williams a à peu près perdu espoir après ses dons et son hypothèque. Albers est à Ulm pour deux mois, jusqu'à fin janvier. Rumaker est à New York, dans une pension de l'Hudson. Creeley est probablement encore à Majorque. La fermeture de la moitié basse du campus et la fin des repas communs sont datées de 1954 sans précision de mois.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Petit noyau de célibataires et d'enseignants restés sur place, non nommés dans les sources (effectif de janvier inconnu)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Kaiser (liaison avec Olson qui occupe le fond de l'année, départ pour New York non daté)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1953-11-24",
+    "precision": "periode",
+    "ce_qui_arrive": "Séjour de deux mois de Josef Albers à la Hochschule für Gestaltung d'Ulm, premier retour en Allemagne depuis la guerre ; il est absent du collège ce mois-ci.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06247"
+    ]
+   },
+   {
+    "date": "1953-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Rumaker loue une chambre exiguë dans une pension près de l'Hudson, à 4 dollars la semaine, travaille chez Prentice-Hall et reste un à deux mois ; sa malle a été expédiée du collège par fret ferroviaire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06250",
+     "SC-01690"
+    ]
+   },
+   {
+    "date": "1954-01-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Jour de l'An à Ottobeuren : Albers et Otl Aicher visitent la basilique et son grand orgue, un moine lançant un alléluia de Nouvel An sans messe.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06422",
+     "SC-01726"
+    ]
+   },
+   {
+    "date": "1954-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Après le Nouvel An, Albers poursuit sa tournée de cathédrales à Fribourg, Strasbourg et Augsbourg.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06420"
+    ]
+   },
+   {
+    "date": "1954-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Anni Albers, inquiète de l'emploi du temps de son mari (fêtes, finitions, adieux, paquets, « le bateau », rapport officiel à rendre), lui écrit à deux reprises pour qu'il sache dire non.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06421"
+    ]
+   },
+   {
+    "date": "1954-01-11",
+    "precision": "jour",
+    "ce_qui_arrive": "Rauschenberg participe à la « Second Annual Exhibition » de la Stable Gallery à New York.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06424"
+    ]
+   },
+   {
+    "date": "1954-01-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Einstein signe une lettre de soutien au collège, obtenue par Olson : une éducation sans relation personnelle vivante reste loin de l'idéal, l'université doit former le caractère, et la production de masse ne doit pas gagner les humains. La synthèse y voit un coup publicitaire sans portée financière ; Dawson y lit un signe que le collège n'a échoué qu'aux ratés. Les sources divergent sur qui a sollicité la lettre : Olson selon EV-06425, une personne citée en post-scriptum selon EV-06426.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06425",
+     "EV-06426"
+    ]
+   },
+   {
+    "date": "1954-01-20",
+    "precision": "jour",
+    "ce_qui_arrive": "Rapport d'un spécialiste américain sur le cours de dessin fondamental, design et couleur donné à Ulm ; la date d'ancrage est indicative, le rapport ayant été republié en 1967 dans Form.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06427"
+    ]
+   },
+   {
+    "date": "1954-01-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Fin prévue du séjour d'Albers à Ulm ; son retour ensuite est une déduction à partir des lettres d'Anni qui mentionnent « le bateau ».",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06247",
+     "EV-06421"
+    ]
+   },
+   {
+    "date": "1954-01-27",
+    "precision": "periode",
+    "ce_qui_arrive": "« Third Annual Exhibition » à la Stable Gallery (jusqu'au 20 février) : Rauschenberg expose un Grass Painting de terre ensemencée et arrosée ; le seul exemplaire conservé meurt de froid dans son atelier de Fulton Street.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06428"
+    ]
+   }
+  ],
+  "quotidien": "Hiver au collège fermé : la moitié basse du campus (cuisine, salle à manger, North et South Lodges) est fermée et chacun se replie sur les cottages et les baraques au-delà du Studies Building. Les repas communs ne se tiennent plus. Les célibataires forment des communes de trois à cinq personnes qui cuisinent sur plaques chauffantes, prélèvent environ deux dollars par semaine et s'approvisionnent à l'A&P avec la complicité de la caissière. Les enseignants ne touchent plus de salaire. Ces pratiques sont décrites pour 1954 en général, leur datation précise en janvier n'est pas attestée. À New York, Rumaker vit seul dans sa chambre, lit dans son fauteuil d'angle et travaille pour Prentice-Hall.",
+  "tensions": [
+   "La question financière domine : enseignants sans salaire depuis un an, billet de 1000 dollars que Forbes accepte de différer (sans date), Paul Williams qui a donné 6500 dollars en 1953 et hypothéqué la ferme pour 25000, à peu près sans espoir, et qui monte ensuite sa propre colonie à Stony Point.",
+   "Olson publicise l'effondrement (lettre d'Einstein, appel aux anciens) alors que le collège se rétrécit ; la lettre d'Einstein n'a aucun effet financier.",
+   "Les sources divergent sur la sollicitation d'Einstein (Olson selon EV-06425, une personne du post-scriptum selon EV-06426).",
+   "Doyle Jones, régisseur de la ferme, démissionne en 1954 (date non précisée) ; Rumaker y voit l'effet du mépris social d'Olson envers ses subordonnés.",
+   "La liaison d'Olson avec Betty Kaiser occupe le fond de l'année ; Connie est en retrait, et Rumaker en est témoin par l'écoute.",
+   "Albers est épuisé selon sa femme, qui redoute surcharge et départ, pendant que la vie du collège se défait à l'autre bout du monde.",
+   "Creeley est loin et reviendra au printemps : son arrivée sera une tension entre l'attente de l'élève et l'autorité d'Olson."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Alléluia à Ottobeuren",
+    "date": "1954-01-01",
+    "lieu": "Abbaye bénédictine d'Ottobeuren",
+    "personnages": [
+     "Josef Albers",
+     "Otl Aicher"
+    ],
+    "deroule": "Trajet en voiture dans le paysage enneigé jusqu'à l'abbaye. Visite de la basilique, sans messe. Un moine se lance à l'orgue dans un alléluia de Nouvel An. Albers écrit à Anni qu'il en reste froid et faible, la mâchoire tombante, devant une exaltation si puissante.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06422",
+     "SC-01726"
+    ]
+   },
+   {
+    "titre": "La chambre de l'Hudson",
+    "date": "1953-12",
+    "lieu": "New York, pension près de l'Hudson",
+    "personnages": [
+     "Michael Rumaker",
+     "la logeuse",
+     "une locataire fardée"
+    ],
+    "deroule": "Visite de la chambre renfermée. La logeuse énumère le prix et les règles : quatre dollars la semaine, draps propres une fois par semaine, loyer à l'heure. Rumaker accepte, attiré par le prix et les cornes de brume. Il vit seul parmi des locataires invisibles. Dans l'escalier sombre, une femme fardée et ivre lui sourit timidement.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01690",
+     "EV-06250"
+    ]
+   },
+   {
+    "titre": "Einstein signe",
+    "date": "1954-01-16",
+    "lieu": null,
+    "personnages": [
+     "Charles Olson",
+     "Albert Einstein (par lettre)"
+    ],
+    "deroule": "Une lettre datée du 16 janvier arrive, ouverte par « To whom it may concern ». Einstein y défend les petites institutions et la formation du caractère. La déclaration sert la campagne d'Olson, qui cherche de l'argent et ne trouve que de la publicité.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06425",
+     "EV-06426"
+    ]
+   },
+   {
+    "titre": "La lettre d'Anni",
+    "date": "1954-01",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Anni, peureuse et protectrice, écrit depuis le Connecticut (lieu non précisé dans la fiche) qu'elle espère son mari sans excès, puis réitère une semaine plus tard : qu'il dise non, avec les fêtes, les finitions, les adieux, les paquets, le bateau et le rapport officiel.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06421"
+    ]
+   },
+   {
+    "titre": "Le départ d'Ulm",
+    "date": "1954-01-23",
+    "lieu": "Ulm, Allemagne",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Fin prévue du séjour de deux mois à la Hochschule für Gestaltung. Albers quitte Ulm et prend le bateau, pour un retour aux États-Unis qui n'est pas directement attesté mais suggéré par les lettres d'Anni.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06247",
+     "EV-06421"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker seul dans sa chambre de l'Hudson, hiver 1953-54",
+    "vers_date": null,
+    "vers": "Son enfance : dormir à trois dans un lit au dortoir de South Lodge, puis une chambre partagée avec Merrill, la promiscuité, et la valeur d'une chambre à soi, même misérable.",
+    "refs": [
+     "EC-03017",
+     "EC-03020",
+     "SC-01690"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker à New York, hiver 1954, lecteur de Williams",
+    "vers_date": null,
+    "vers": "Une conférence de Ben Shahn à Philadelphie, il y a quelques années, où Rumaker, déjà trop timide, n'ose pas parler devant l'artiste admiré.",
+    "refs": [
+     "EC-03013"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Correspondance Olson-Creeley en cours cet hiver",
+    "vers_date": "1950-04",
+    "vers": "Avril 1950 : Creeley, pauvre éleveur de poulets à Littleton (New Hampshire), début de la correspondance qui mène à la Review et au co-enseignement.",
+    "refs": [
+     "EC-03015"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1954, Creeley encore à Majorque",
+    "vers_date": "1954-03-13",
+    "vers": "Creeley arrive à Black Mountain à huit heures du matin après une nuit de route, et fait le soir même un premier cours catastrophique : six étudiants, voix inaudible. Grey Stone le ramène en classe de force jusqu'à la découverte de ses brouillons.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Appel d'Olson en projet, mois de janvier 1954",
+    "vers_date": "1954-03",
+    "vers": "Au printemps, appel aux anciens et aux fondations qui couple la demande d'argent avec un plan d'expansion (nouveau corps professoral, secrétaire administratif). Forbes accepte de différer son billet de 1000 dollars.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Liaison d'Olson avec Betty Kaiser, janvier 1954",
+    "vers_date": "1954",
+    "vers": "Rumaker entend Olson monter chez Betty à Meadows Inn, puis le surprend valise à la main, renonçant à partir. Betty part pour New York, et un fils, Charles Peter, naît en septembre ou à l'automne selon Molesworth.",
+    "refs": [
+     "EC-03034",
+     "EC-03035"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1954, collège replié et communes de célibataires",
+    "vers_date": "1954-11",
+    "vers": "Thanksgiving à Meadows Inn, le dernier grand rassemblement convivial, « making magic out of next to nothing », avant les réunions de plus en plus rudes jusqu'à la fermeture.",
+    "refs": [
+     "EC-03041"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1954, faillite en cours",
+    "vers_date": "1954-12-15",
+    "vers": "Appel du 15 décembre, qui ouvre sur « This is the craziest sort of appeal » : environ 250 dollars seulement. La faculté suspend les cours, la moitié des présents s'en va, huit à dix personnes restent. Rumaker rejoint New York.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, adulte, écrivant ses mémoires",
+    "vers_date": null,
+    "vers": "La liaison épistolaire d'Olson avec Boldereff et le non-mariage légal de Charles et Connie ne seront connus que des années plus tard, ce que la communauté ignorait en 1954.",
+    "refs": [
+     "EC-03038"
+    ]
+   }
+  ],
+  "motifs": [
+   "Olson comme père spirituel, pourtant trahi : la trahison répète celle du père biologique et du foyer du New Jersey (EC-03034, EC-03035, EC-03037).",
+   "L'enclave de Black Mountain, ferveur d'un collège perdu dans les montagnes contre la ville gay de Greenwich Village (EC-03014).",
+   "La timidité devant l'artiste admiré, qui se répète de Shahn à Williams (EC-03013).",
+   "La filiation spirituelle et la figure paternelle, qui se transmet de génération en génération (EC-03037).",
+   "La chambre comme luxe, étroitesse new-yorkaise après la promiscuité passée (EC-03017, EC-03020).",
+   "L'argent comme seule question : le collège survit par bricolage, plaques chauffantes et petits vols à l'A&P."
+  ],
+  "lacunes": "On ignore l'effectif exact présent à Black Mountain en janvier 1954, et la présence de Connie, Betty Kaiser, Wolpe, les Hellman et Olson lui-même n'est pas datée ce mois-ci. La date de la démission de Doyle Jones et celle du billet différé par Forbes sont inconnues. Le moment exact où Olson prend formellement le rectorat n'est pas daté. Qui a sollicité Einstein reste contesté entre EV-06425 et EV-06426. La présence de Creeley à Majorque en janvier est une déduction. La date d'ancrage de EV-06427 (20 janvier) est indicative. Le climat de Black Mountain ce mois-ci n'est pas documenté. Les fiches sur la pratique du repas en communes ne sont pas datées précisément en janvier."
+ }
+}

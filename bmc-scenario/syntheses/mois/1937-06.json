@@ -1,0 +1,398 @@
+{
+ "passe": "mois",
+ "cle": "1937-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 9753,
+  "sortie": 16062,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-06",
+  "session": "Fin de l'année scolaire 1936-1937 : la dernière réunion générale a lieu le 1er juin (EV-02727), puis le collège passe à l'été et aux départs, sans session d'enseignement en cours",
+  "saison_et_climat": "Caroline du Nord : fin de printemps et chaleur qui monte (déduit, aucune fiche ne décrit le climat). Mexique : saison des pluies, routes de boue et ornières entre Puebla et Oaxaca (EV-02713).",
+  "situation": "Le collège sort d'une année de crise. Le camp anti-Rice est en déroute : les huit étudiants dissidents partent, King et Zeuch ne reviennent pas, Georgia est remboursé et s'en va, Portell reste après une démission retirée. Le Board a accepté les départs et Rice a repris la main sur la communauté. Le collège achète le site de Lake Eden, qui met fin au bail annuel et à l'entreposage des meubles. Les réactions extérieures commencent à arriver (Moe, post-mortems).",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Beverly Coleman",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Alsberg",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frederick Zeuch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Francisco Portell-Vila",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Lea Portell-Vila",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Teddy Georgia",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mrs Georgia",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "King",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-06-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Dernière réunion générale : Coleman lit vingt-quatre griefs signés par huit étudiants qui partent tous ; l'affaire du salaire de Georgia fait exploser l'assemblée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02715",
+     "EV-02727",
+     "SC-00706"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Révélation publique des salaires (Rice et Wunsch 2 100 $, Albers 1 700 $, Portell 1 250 $, Georgia 1 300 $). Portell hurle, soulève sa chaise, se maîtrise et sort avec sa femme. Georgia est accusé de paresse, un vote informel le vise et il claque trois fois la porte. Rice retourne la salle en dix minutes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02716",
+     "EV-02717",
+     "EV-02718",
+     "EV-02719",
+     "EV-02720",
+     "SC-00706"
+    ]
+   },
+   {
+    "date": "1937-06-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Le Board reçoit la démission de Portell, la met en table puis la fait retirer après entretien avec Rice ; il accepte celle de Georgia contre 3 500 $, l'équivalent d'un an de salaire. Chaddock dit en revanche que Rice a persuadé Portell de rester, et que Georgia a démissionné après la réunion.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02721",
+     "EV-02725",
+     "EV-02728"
+    ]
+   },
+   {
+    "date": "1937-06-03",
+    "precision": "jour",
+    "ce_qui_arrive": "Accord juridique avec Georgia : remboursement sans intérêt en deux versements de 250 $ et six de 500 $, soit 3 500 $.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02729",
+     "EV-02724"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "precision": "mois",
+    "ce_qui_arrive": "King et Zeuch décident de ne pas revenir. Zeuch laisse « The State of Black Mountain College », cinq mille mots qui accusent le collège de dériver vers le fascisme et relient la peinture abstraite à la démence.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02722",
+     "OE-01307",
+     "CF-00275"
+    ]
+   },
+   {
+    "date": "1937-06-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Henry Allen Moe répond à Rice : pour lui l'aptitude à l'autogouvernement est un héritage britannique, américain et probablement scandinave, et Rice vient d'en avoir une preuve avec les Cubains.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02730"
+    ]
+   },
+   {
+    "date": "1937-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Achat d'un ancien camp de jeunes filles de 700 acres au bord du lac Eden, à trois miles au nord du site de Blue Ridge. Fin du bail annuel et de l'entreposage des meubles. Rice est moins enthousiaste que d'autres. Source unique : Chaddock.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02726"
+    ]
+   },
+   {
+    "date": "1937-06-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Troisième séjour mexicain des Albers avec les Fleischmann. Les parents d'Anni sont présents du 19 juin au 16 juillet ; le groupe parcourt près de 6 000 miles, de Mexico à Oaxaca, Mitla et Monte Albán.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02713",
+     "EV-02731",
+     "EV-02732"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Post-mortems de l'année : Mangold parle de la meilleure année du collège, Moellenhoff évoque une traversée atlantique au temps des voiliers. Les dates de ces propos ne sont pas données.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02723"
+    ]
+   }
+  ],
+  "quotidien": "Les étudiants déménagent et montent les meubles aux combles pendant que le Board tranche. Fin de l'entreposage annuel des meubles avec l'achat de Lake Eden. Mrs Rice est payée 200 $ comme diététicienne alors que sa femme Lea, qui enseigne l'espagnol, ne l'est pas. Les Albers préparent le départ pour le Mexique. Les cours, les repas en commun et la vie musicale ne sont pas décrits pour ce mois.",
+  "tensions": [
+   "Les salaires révèlent des hiérarchies cachées : Portell se compare aux voitures neuves de Albers et Wunsch, et sa femme n'est pas payée.",
+   "L'éviction de Georgia, accusée de paresse, et la phrase de Rice selon laquelle il faut le faire partir en gardant son salaire bas.",
+   "L'accusation portée contre Rice d'être un recteur qui concentre le pouvoir et d'imposer une école à un seul homme.",
+   "Zeuch accuse le collège de fascisme et rapproche l'art abstrait de la dégénérescence, un écho de l'Allemagne fuie.",
+   "La démocratie organique des étudiants contre la persuasion de Rice, Moe ravivant la question de l'autogouvernement.",
+   "Les rumeurs sur la réputation morale du collège, tranchées en avril par un accord interdisant les vacances en groupes mixtes.",
+   "Les mécanismes de fond de la liaison de Rice ne sont pas encore visibles, mais le dispositif de contrôle du recteur est déjà contesté (EC-01627)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La nuit des salaires",
+    "date": "1937-06-01",
+    "lieu": "Black Mountain College, réunion générale",
+    "personnages": [
+     "Beverly Coleman",
+     "John Andrew Rice",
+     "Frederick Zeuch",
+     "Francisco Portell-Vila",
+     "Lea Portell-Vila",
+     "Teddy Georgia",
+     "Mrs Georgia",
+     "Alsberg"
+    ],
+    "deroule": "Coleman lit les vingt-quatre griefs. Alsberg révèle le propos de Rice rapporté par Zeuch ; Zeuch, alité, comparaît et nie. Les salaires sont divulgués, Portell soulève sa chaise puis sort. Georgia est mis en cause, un vote informel le vise, il claque la porte trois fois. Rice retourne la salle en dix minutes et la communauté sort unie.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00706",
+     "EV-02715",
+     "EV-02716",
+     "EV-02717",
+     "EV-02718",
+     "EV-02719",
+     "EV-02720",
+     "EV-02727"
+    ]
+   },
+   {
+    "titre": "Le lendemain au Board",
+    "date": "1937-06-02",
+    "lieu": null,
+    "personnages": [
+     "John Andrew Rice",
+     "Francisco Portell-Vila",
+     "Teddy Georgia",
+     "membres du Board of Fellows"
+    ],
+    "deroule": "Le Board met la démission de Portell en table puis la fait retirer après entretien avec Rice. Il accepte celle de Georgia contre 3 500 $. Pendant ce temps les étudiants déménagent les meubles.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02721",
+     "EV-02725",
+     "EV-02728"
+    ]
+   },
+   {
+    "titre": "Le départ de Zeuch et King",
+    "date": "1937-06",
+    "lieu": null,
+    "personnages": [
+     "Frederick Zeuch",
+     "King",
+     "John Andrew Rice"
+    ],
+    "deroule": "Zeuch rédige sa critique de cinq mille mots, puis le camp anti-Rice se dissout. La communauté rapproche le texte de la thèse nazie sur l'art dégénéré.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02722",
+     "OE-01307",
+     "CF-00275",
+     "EC-01626"
+    ]
+   },
+   {
+    "titre": "La réponse de Moe",
+    "date": "1937-06-08",
+    "lieu": null,
+    "personnages": [
+     "John Andrew Rice",
+     "Henry Allen Moe"
+    ],
+    "deroule": "Rice a écrit à Moe au sujet de la scène des salaires, et Moe répond sur l'autogouvernement, en citant l'héritage anglo-saxon et scandinave. L'ironie porte sur le Cubain Portell.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02730",
+     "EV-02718",
+     "SC-00706"
+    ]
+   },
+   {
+    "titre": "Le site de Lake Eden",
+    "date": "1937-06",
+    "lieu": "Lake Eden, Caroline du Nord",
+    "personnages": [
+     "John Andrew Rice"
+    ],
+    "deroule": "Le collège achète un ancien camp de jeunes filles de 700 acres. Rice est plus réservé que les autres sur cet achat.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02726"
+    ]
+   },
+   {
+    "titre": "Monte Albán sous la pluie",
+    "date": "1937-06-19",
+    "lieu": "Mexique, Mitla et Monte Albán",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Toni Fleischmann",
+     "parents Fleischmann"
+    ],
+    "deroule": "Les quatre visitent Teotihuacán, Tepoztlán, Puebla, Tehuacán puis Oaxaca. Route de boue jusqu'à Mitla, puis Monte Albán le lendemain. Toni tient son journal et achète des petites têtes de dieux en argile.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02731",
+     "EV-02732",
+     "EV-02713"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juin, après la chute des dissidents : retour à la pétition de Zeuch rejetée après les vacances de Noël",
+    "vers_date": "1937-01",
+    "vers": "La pétition de Zeuch pour réviser les non-reconductions de Knickerbocker et Goldenson est rejetée ; Goldenson obtient seulement le droit de démissionner.",
+    "refs": [
+     "EV-02694"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin, au moment où les étudiants disent que la démocratie est organique",
+    "vers_date": "1937-02-17",
+    "vers": "La réunion communautaire de 36 pages : Rice répond que seule la persuasion est légitime et que la séparation est la seule issue.",
+    "refs": [
+     "EV-02705",
+     "SC-00700",
+     "CF-00264"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin, quand le collège règle le schisme par des accords et des départs",
+    "vers_date": "1937-04",
+    "vers": "L'affaire de Floride est jugée sur la réputation morale du collège. L'accord provisoire interdit les vacances en groupes mixtes.",
+    "refs": [
+     "EV-02709",
+     "SC-00703"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin, quand Zeuch accuse le collège de fascisme",
+    "vers_date": null,
+    "vers": "La communauté rapproche la satire de Zeuch de la condamnation nazie de l'art abstrait, écho de l'Allemagne que plusieurs ont fuie.",
+    "refs": [
+     "EC-01626"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, quand Rice triomphe et que le collège se reconstitue",
+    "vers_date": "1937-09",
+    "vers": "Kocher suggère de confier le campus de Lake Eden à Gropius et Breuer, et Rice propose les instituts d'été de musique et d'art.",
+    "refs": [
+     "EV-02735",
+     "EV-02733"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, quand Rice savoure les absences et se croit intouchable",
+    "vers_date": "1937-10",
+    "vers": "Scandale à Charlotte : Rice traite les enfants de nuisances générales devant une association de parents, et les Business Men's Evangelical Clubs le déclarent communiste.",
+    "refs": [
+     "EV-02736",
+     "CO-00288"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, quand Rice triomphe de la crise",
+    "vers_date": "1937",
+    "vers": "Rice s'éprend d'une étudiante. Nell le surprend et se confie à Frank au Carolina Inn ; Rice l'appellera plus tard « a slut ».",
+    "refs": [
+     "EC-01624",
+     "EC-01625",
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, quand Albers et Rice divergent sur le fond",
+    "vers_date": "1937-12",
+    "vers": "Albers est à Harvard en décembre. La fin de l'année voit l'élopement de deux étudiants et la soirée de sketches où Rice se dit choqué.",
+    "refs": [
+     "EV-02741",
+     "EV-02739",
+     "SC-00708"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, depuis la défaite apparente des dissidents",
+    "vers_date": "1938",
+    "vers": "La furie communautaire, la lettre d'Albers, le congé de Rice et la prise du rectorat par Wunsch relèvent de 1938.",
+    "refs": [
+     "CF-00276",
+     "CF-00282"
+    ]
+   }
+  ],
+  "motifs": [
+   "L'argent comme révélateur des hiérarchies : salaires, voitures, épouses non payées.",
+   "Rice comme figure qui absorbe le chaos et retourne une assemblée en dix minutes.",
+   "La menace de fascisme et l'écho de l'art dégénéré, Zeuch contre le collège.",
+   "L'autogouvernement contre l'autorité, de Hutchins à Moe.",
+   "Le Mexique comme refuge, avec la boue, les temples et la photographie.",
+   "Le collège en pionnier, brutal et légitime à la fois (EC-01628)."
+  ],
+  "lacunes": "Aucune fiche ne donne la date exacte du départ des Albers ni celle de l'arrivée des Fleischmann à Veracruz. Les post-mortems de Mangold et Moellenhoff ne sont pas datés. Chaddock seul date l'achat de Lake Eden en juin, et Duberman et Chaddock divergent sur la démission de Georgia (acceptée le lendemain selon l'un, après la réunion selon l'autre) et sur la façon dont Portell est retenu (Board ou Rice). On ignore la présence de Nell Rice, de Wunsch et de Dreier aux réunions de juin, et rien sur les cours ou les repas de ce mois."
+ }
+}

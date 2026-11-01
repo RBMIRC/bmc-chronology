@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Semainier · Black Mountain College</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="lib/event-calendar.min.css">
+<style>
+  :root { --papier:#f6f3ec; --encre:#1d1b18; --gris:#6d6a63; --filet:#d8d3c7; --accent:#8a2b1d; }
+  * { box-sizing:border-box; }
+  html { height:100%; }
+  body { margin:0; height:100%; display:flex; flex-direction:column; background:var(--papier); color:var(--encre);
+    font:14px/1.4 -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  header { display:flex; flex-wrap:wrap; align-items:center; gap:10px 18px; padding:10px 16px;
+    border-bottom:1px solid var(--filet); }
+  header h1 { font-size:15px; margin:0; letter-spacing:.02em; }
+  header h1 small { font-weight:normal; color:var(--gris); }
+  .grp { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  button, select, input { font:inherit; }
+  button { background:#fff; border:1px solid var(--filet); border-radius:3px; padding:3px 8px; cursor:pointer; }
+  button:hover { border-color:var(--gris); }
+  button.on { background:var(--encre); color:#fff; border-color:var(--encre); }
+  input[type=search] { width:190px; padding:3px 6px; border:1px solid var(--filet); border-radius:3px; }
+  .fam { display:inline-flex; align-items:center; gap:4px; font-size:12px; cursor:pointer; user-select:none; }
+  .fam i { width:11px; height:11px; border-radius:2px; display:inline-block; }
+  .fam input { margin:0; }
+  main { display:flex; flex:1; min-height:0; }
+  #cal { flex:1; min-width:0; padding:8px 8px 8px 12px; }
+  #cote { width:360px; flex:none; overflow-y:auto; border-left:1px solid var(--filet); padding:10px 14px 30px; }
+  #cote h2 { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--gris);
+    margin:18px 0 6px; border-bottom:1px solid var(--filet); padding-bottom:3px; }
+  #cote h2:first-child { margin-top:4px; }
+  .vide { color:var(--gris); font-style:italic; font-size:12px; }
+  .per { margin:4px 0; font-size:13px; }
+  .per b { font-weight:600; }
+  .pct { display:inline-block; font-size:10px; padding:0 4px; border-radius:7px; background:#e9e4d8;
+    color:#555; vertical-align:1px; white-space:nowrap; }
+  .pct.p0 { background:#dfe9da; color:#2f5a25; }
+  .pct.p30 { background:#f1d9cf; color:#7a2a12; }
+  .doc { display:flex; gap:8px; margin:7px 0; font-size:12px; text-decoration:none; color:inherit; }
+  .doc img { width:62px; height:80px; object-fit:cover; background:#e6e1d6; flex:none; border:1px solid var(--filet); }
+  .doc .t { font-weight:600; }
+  .doc:hover .t { text-decoration:underline; }
+  .doc .m { color:var(--gris); }
+  .pers { display:flex; flex-wrap:wrap; gap:3px 5px; }
+  .pers a { font-size:12px; color:var(--encre); text-decoration:none; border-bottom:1px dotted var(--gris); cursor:pointer; }
+  .pers a sup { color:var(--gris); }
+  details summary { cursor:pointer; font-size:12px; color:var(--gris); }
+  .cours { font-size:12px; margin:4px 0 4px 8px; }
+  .cours .q { color:var(--gris); }
+  .legende { font-size:11px; color:var(--gris); }
+  .legende span { display:inline-block; width:22px; height:10px; vertical-align:-1px; margin:0 3px 0 8px; border:1px solid #999; }
+  @media (max-width: 1000px) { main { flex-direction:column; overflow:auto; } #cal { flex:none; height:80vh; }
+    #cote { width:auto; border-left:0; border-top:1px solid var(--filet); overflow:visible; } }
+  /* événements */
+  .ec-event { cursor:pointer; }
+  .ec-event.d-mid { opacity:.78; }
+  .ec-event.d-haut { background-image:repeating-linear-gradient(135deg, rgba(255,255,255,.38) 0 4px, transparent 4px 8px); opacity:.72; }
+  .ec-event.approx { outline:1.5px dashed rgba(0,0,0,.55); outline-offset:-2px; }
+  .ec-event.spec { border:1.5px dashed currentColor; font-style:italic; }
+  .fam i.ispec { background:#fff; border:1.5px dashed #555; }
+  .reconst { background:#fff; border:1.5px dashed var(--gris); padding:8px 10px; font-size:12.5px; margin:6px 0; }
+  #fiche h4 { font-size:14px; margin:16px 0 4px; } #fiche table { border-collapse:collapse; font-size:12px; } #fiche td { border-top:1px solid #eee; padding:2px 6px; vertical-align:top; }
+  .ev-b { font-size:9.5px; opacity:.9; margin-left:3px; white-space:nowrap; }
+  .ec-timeline .ec-event { font-size:11px; }
+  /* fiche */
+  #voile { position:fixed; inset:0; background:rgba(20,18,15,.45); display:none; align-items:center; justify-content:center; z-index:50; }
+  #voile.on { display:flex; }
+  #fiche { background:#fff; max-width:640px; width:92%; max-height:86vh; overflow:auto; padding:18px 22px; border-radius:4px; }
+  #fiche h3 { margin:0 0 4px; font-size:17px; }
+  #fiche dl { display:grid; grid-template-columns:130px 1fr; gap:4px 12px; font-size:13px; margin:12px 0 0; }
+  #fiche dt { color:var(--gris); }
+  #fiche dd { margin:0; }
+  #fiche .fermer { float:right; }
+  #info { font-size:11px; color:var(--gris); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Semainier · Black Mountain College <small>d'après les fiches de l'Asheville Art Museum</small></h1>
+  <div class="grp">
+    <button data-vue="timeGridWeek" class="on">Semaine</button>
+    <button data-vue="presences">Présences</button>
+    <button data-vue="listWeek">Liste</button>
+    <button data-vue="dayGridMonth">Mois</button>
+  </div>
+  <div class="grp">
+    <button id="precSem" title="Semaine documentée précédente">◀ doc.</button>
+    <input type="date" id="saut" min="1933-09-01" max="1957-12-31">
+    <button id="suivSem" title="Semaine documentée suivante">doc. ▶</button>
+    <select id="reperes" style="max-width:190px"><option value="">Repères…</option></select>
+  </div>
+  <div class="grp">
+    <input type="search" id="q" placeholder="Personne, cours, lieu…">
+    <label class="fam" title="Part de déduction maximale affichée">déduction ≤ <select id="maxPct">
+      <option>0</option><option>10</option><option>20</option><option>30</option><option>50</option><option>60</option><option>75</option><option selected>100</option></select> %</label>
+  </div>
+  <div class="grp" id="familles"></div>
+  <label class="fam" title="Semaines reconstituées à partir de sources indirectes"><input type="checkbox" id="spec" checked><i class="ispec"></i>Couche spéculative</label>
+</header>
+<main>
+  <div id="cal"></div>
+  <aside id="cote"></aside>
+</main>
+<div id="voile"><div id="fiche"></div></div>
+
+<script src="lib/event-calendar.min.js"></script>
+<script src="data.js"></script>
+<script>
+const D = window.BMC;
+const FAMILLES = [
+  ["cours", "Cours, ateliers", "#3b6ea5", ["cours", "atelier"]],
+  ["reunions", "Réunions", "#6b5b8c", ["reunion"]],
+  ["scene", "Concerts, théâtre, danse", "#b0413e", ["concert", "theatre", "danse"]],
+  ["conf", "Conférences, radio", "#c27a1a", ["conference", "radio"]],
+  ["vie", "Vie de la communauté", "#4c8c4a", ["social", "travail", "expo", "visite", "sortie", "autre"]],
+  ["cal", "Calendrier, examens", "#7d6a55", ["calendrier", "examen"]],
+];
+const FAM_DE = {}; FAMILLES.forEach(f => f[3].forEach(t => FAM_DE[t] = f));
+const etat = { familles: new Set(FAMILLES.map(f => f[0])), maxPct: 100, q: "", spec: true };
+const teinte = (hex, k) => { const n = parseInt(hex.slice(1), 16), c = [n >> 16, (n >> 8) & 255, n & 255].map(v => Math.round(v + (255 - v) * k)); return `rgb(${c.join(",")})`; };
+
+D.events.forEach(e => {
+  const f = FAM_DE[e.extendedProps.type] || FAMILLES[4];
+  if (e.extendedProps.spec) { e.backgroundColor = teinte(f[2], .85); e.textColor = f[2]; } else e.backgroundColor = f[2];
+  e.extendedProps.fam = f[0];
+  e._txt = (e.title + " " + e.extendedProps.qui + " " + e.resourceIds.join(" ") + " " + e.extendedProps.lieu).toLowerCase();
+});
+const JOURS = [...new Set(D.events.map(e => e.start.slice(0, 10)))].sort();
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+const pctTag = p => `<span class="pct ${p === 0 ? "p0" : p >= 30 ? "p30" : ""}" title="part déduite des sources">${p} %</span>`;
+const fmt = s => new Date(s.length === 10 ? s + "T12:00" : s).toLocaleDateString("fr-FR", {weekday:"long", day:"numeric", month:"long", year:"numeric"});
+
+function garde(e) {
+  const q = etat.q.toLowerCase().trim();
+  return etat.familles.has(e.extendedProps.fam) && e.extendedProps.pct <= etat.maxPct && (!q || e._txt.includes(q));
+}
+const JOURS_ABR = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"];
+const plusJours = (s, n) => { const x = new Date(s + "T12:00"); x.setDate(x.getDate() + n); return iso(x); };
+// couche spéculative : gabarit du trimestre appliqué à chacune de ses semaines, seulement pour les dates demandées
+const GAB = {};
+for (const [an, Y] of Object.entries(D.spec || {})) for (const g of Y.gabarits) (GAB[an + "|" + g.terme] ||= []).push(g);
+function specEntre(a, b) {
+  if (!etat.spec) return [];
+  const out = [];
+  for (const [an, Y] of Object.entries(D.spec || {})) for (const S of Y.semaines) {
+    if (S.lundi >= b || plusJours(S.lundi, 7) <= a) continue;
+    const jours = new Set(S.jours);
+    (GAB[an + "|" + S.terme] || []).forEach((g, k) => {
+      const f = FAM_DE[g.type] || FAMILLES[4];
+      let start, end, allDay = false;
+      if (g.jour === "semaine") { start = S.lundi; end = plusJours(S.lundi, 7); allDay = true; }
+      else {
+        const d = plusJours(S.lundi, JOURS_ABR.indexOf(g.jour));
+        if (!jours.has(d) || d < a || d >= b) return;
+        if (g.debut) { start = `${d}T${g.debut}`; end = `${d}T${g.fin || g.debut}`; } else { start = d; end = plusJours(d, 1); allDay = true; }
+      }
+      const e = { id: `s:${an}:${S.lundi}:${k}`, title: g.activite, start, end, allDay, resourceIds: g.resourceIds,
+        backgroundColor: teinte(f[2], .85), textColor: f[2],
+        extendedProps: { type: g.type, fam: f[0], qui: g.qui, lieu: g.lieu, note: g.note, pct: g.part_deduite_pct, motifs: g.motifs_deduction,
+          rec: false, src: g.document_source, inv: g.inventaire, url: g.url_source, heure: g.debut, fin: g.fin, spec: true, codes: g.codes,
+          annee: an, terme: g.libelle_terme, semaine: S.numero, placement: "reconstitution : jour et heure proposés (voir la part déduite)",
+          unite: g.unite, discipline: g.discipline, cours_catalogue: g.cours_catalogue, precision: g.precision, candidats: g.candidats,
+          chance: g.chance, rattachement: g.rattachement, equivalent_avant: g.equivalent_avant, equivalent_apres: g.equivalent_apres,
+          part_case_pct: g.part_case_pct, part_titre_pct: g.part_titre_pct } };
+      e._txt = (e.title + " " + g.qui + " " + g.resourceIds.join(" ")).toLowerCase();
+      if (garde(e)) out.push(e);
+    });
+  }
+  return out;
+}
+function evenementsEntre(a, b) {
+  return D.events.filter(e => { const d = e.start.slice(0, 10); return d >= a && d < b && garde(e); }).concat(specEntre(a, b));
+}
+
+// ---- calendrier
+const ec = EventCalendar.create(document.getElementById("cal"), {
+  view: "timeGridWeek",
+  date: "1944-10-23",
+  locale: "fr-FR",
+  firstDay: 1,
+  height: "100%",
+  slotMinTime: "06:00", slotMaxTime: "24:00", scrollTime: "08:00",
+  slotHeight: 22, nowIndicator: false, dayMaxEvents: true,
+  allDayContent: "jour",
+  headerToolbar: { start: "prev,next", center: "title", end: "" },
+  buttonText: { today: "auj.", listWeek: "liste" },
+  resources: D.resources,
+  filterResourcesWithEvents: true,
+  resourcesInitiallyExpanded: true,
+  views: {
+    presences: { type: "resourceTimelineWeek", slotDuration: { days: 1 }, slotWidth: 170,
+      slotLabelFormat: { weekday: "short", day: "numeric", month: "short" } },
+  },
+  eventSources: [{ events: info => evenementsEntre(iso(info.start), iso(info.end)) }],
+  eventClassNames: info => {
+    const p = info.event.extendedProps, c = [];
+    if (p.spec) c.push("spec"); else if (p.pct >= 30) c.push("d-haut"); else if (p.pct >= 10) c.push("d-mid");
+    if (p.placement && p.placement.startsWith("«")) c.push("approx");
+    return c;
+  },
+  eventContent: info => {
+    const p = info.event.extendedProps;
+    const h = p.heure ? (/^\d/.test(p.heure) ? p.heure + " " : `[${p.heure}] `) : "";
+    const b = p.pct ? `<span class="ev-b">${p.spec ? "spéc. " : ""}${p.pct} %</span>` : "";
+    return { html: `<div class="ec-event-title">${esc(h)}${esc(info.event.title)}${b}</div>` };
+  },
+  eventClick: info => fiche(info.event),
+  datesSet: info => { cote(info.start, info.end); majHash(); },
+});
+
+// ---- panneau latéral
+function cote(debut, fin) {
+  const a = iso(debut), b = iso(fin);
+  const evs = evenementsEntre(a, b);
+  let h = "";
+  const pers = D.periodes.filter(p => { const d = p.debut || p.fin, f = p.fin || p.debut; return d < b && f >= a; });
+  h += `<h2>Période</h2>` + (pers.length ? pers.map(p =>
+    `<div class="per"${p.spec ? ' style="border:1.5px dashed var(--gris);padding:3px 5px;background:#fff"' : ""}><b>${esc(p.libelle)}</b>${p.spec ? " <i>(calendrier spéculatif : " + esc(p.note) + ")</i>" : ""} · ${p.debut}${p.fin && p.fin !== p.debut ? " → " + p.fin : ""} ${pctTag(p.pct)}<br>
+     <a href="${esc(p.url)}" target="_blank" class="legende" style="color:var(--gris)">${esc(p.src)}</a></div>`).join("")
+    : `<div class="vide">Aucun trimestre ni vacances attestés pour ces dates.</div>`);
+
+  const lun = new Date(debut); lun.setDate(lun.getDate() - ((lun.getDay() + 6) % 7));
+  const au = (D.audit || {})[iso(lun)];
+  if (au) {
+    let lib = au.statut === "cours" ? `semaine de cours · remplissage <b>${au.niveau}</b>` : `semaine : <b>${au.statut === "inconnu" ? "hors calendrier attesté" : au.statut}</b>`;
+    if (+au.speculatif) lib += ` · reconstituée (${au.speculatif} jours)` + (au.statut === "inconnu" ? " sur un calendrier spéculatif" : "");
+    h += `<h2>État de la semaine (audit)</h2><div class="per">${lib}<br><span class="legende">${au.activites} activités attestées, dont ${au.issues_de_recurrences} projetées depuis une grille ou une récurrence · ${au.seances_cours} séances de cours sur ${au.jours_avec_cours} jours · ${au.documents} documents</span></div>`;
+  }
+  const sp = evs.filter(e => e.extendedProps.spec);
+  if (sp.length) {
+    const cle = sp[0].extendedProps.annee;
+    const moy = Math.round(sp.reduce((t, e) => t + e.extendedProps.pct, 0) / sp.length);
+    h += `<h2>Semaine reconstituée</h2><div class="reconst">${sp.length} entrées spéculatives (cadre pointillé), part déduite moyenne ${moy} %, d'après le gabarit « ${esc(sp[0].extendedProps.terme)} ».
+      Aucun document ne donne le programme précis de cette semaine : le gabarit du trimestre est reconstitué à partir des catalogues de l'année et des années voisines.
+      ${cle ? `<br><a href="#" id="lireAnalyse" data-k="${cle}">Lire l'analyse de l'année et le barème</a>` : ""}</div>`;
+  }
+  h += `<h2>${evs.length} activité${evs.length > 1 ? "s" : ""} sur ces dates</h2>`;
+  const cpt = {};
+  evs.forEach(e => e.resourceIds.forEach(r => cpt[r] = (cpt[r] || 0) + 1));
+  const noms = Object.keys(cpt).filter(n => n !== "(non nommé)").sort((x, y) => cpt[y] - cpt[x]);
+  h += noms.length ? `<div class="pers">${noms.map(n => `<a data-q="${esc(n)}">${esc(n)}<sup>${cpt[n]}</sup></a>`).join("")}</div>`
+    : `<div class="vide">Personne de nommé.</div>`;
+
+  const docs = D.documents.filter(d => d.date >= a && d.date < b);
+  const invSem = new Set(evs.flatMap(e => e.extendedProps.inv.split(" ; ")));
+  const sources = D.documents.filter(d => invSem.has(d.inv) && !(d.date >= a && d.date < b));
+  const carte = d => `<a class="doc" href="${esc(d.url)}" target="_blank">
+      ${d.img ? `<img loading="lazy" src="${esc(d.img)}" alt="">` : `<img alt="">`}
+      <div><div class="t">${esc(d.titre)}</div>
+      <div class="m">${d.date ? fmt(d.date) : esc(d.date_musee)} · inv. ${esc(d.inv)}${d.nimg > 1 ? ` · ${d.nimg} vues` : ""}</div>
+      <div class="m">${esc(d.datation)}${d.kind === "extra" ? " · " + pctTag(d.pct) : ""}</div></div></a>`;
+  h += `<h2>Documents datés de ces jours</h2>` + (docs.length ? docs.map(carte).join("") : `<div class="vide">Aucun document daté de ces jours-là.</div>`);
+  if (sources.length) h += `<h2>Autres sources des activités affichées</h2>` + sources.map(carte).join("");
+
+  const mid = new Date((debut.getTime() + fin.getTime()) / 2), y = mid.getFullYear();
+  const an = mid.getMonth() >= 8 ? `${y}-${String((y + 1) % 100).padStart(2, "0")}` : `${y - 1}-${String(y % 100).padStart(2, "0")}`;
+  const cours = D.cours.filter(c => c.periode.includes(an) || (c.periode.startsWith(String(y)) && !/^\d{4}-\d{2}/.test(c.periode))
+    || (c.periode.includes(String(y)) && /summer/i.test(c.periode)));
+  const parPer = {};
+  cours.forEach(c => (parPer[c.periode] ||= []).push(c));
+  h += `<h2>Cours offerts en ${an} (catalogues, bulletins)</h2>` + (cours.length ? Object.entries(parPer).map(([p, l]) =>
+    `<details><summary>${esc(p)} — ${l.length}</summary>${l.map(c => `<div class="cours">${esc(c.cours)}
+      ${c.qui && c.qui !== "—" ? `<span class="q">· ${esc(c.qui)}</span>` : ""}${c.horaire ? ` <span class="q">· ${esc(c.horaire)}</span>` : ""}
+      ${pctTag(c.pct)} <a href="${esc(c.url)}" target="_blank" title="${esc(c.src)}">source</a></div>`).join("")}</details>`).join("")
+    : `<div class="vide">Aucune liste de cours pour cette année.</div>`);
+
+  h += `<h2>Lecture</h2><div class="legende">Couleur = famille d'activité.
+    <span style="background:#3b6ea5"></span>attesté
+    <span style="background:#3b6ea5;opacity:.75"></span>10–25 % déduit
+    <span style="background:repeating-linear-gradient(135deg,#9db4d0 0 4px,#3b6ea5 4px 8px)"></span>≥ 30 % déduit
+    <span style="background:#3b6ea5;outline:1.5px dashed #000;outline-offset:-2px"></span>heure indicative (« soir »…)
+    <span style="background:#d8e2ed;border:1.5px dashed #3b6ea5"></span>couche spéculative (reconstitution)<br>
+    Cliquer une activité ouvre sa fiche : source exacte, part déduite et motifs.</div>
+    <p id="info">Données générées le ${D.genere} · ${D.events.length} activités · ${D.documents.length} documents · calendrier : Event Calendar (MIT, vkurko).</p>`;
+  const el = document.getElementById("cote");
+  el.innerHTML = h;
+  const la = el.querySelector("#lireAnalyse");
+  if (la) la.onclick = ev => { ev.preventDefault(); analyse(la.dataset.k); };
+  el.querySelectorAll(".pers a").forEach(a => a.onclick = () => { qEl.value = a.dataset.q; etat.q = a.dataset.q; maj(); });
+}
+
+// ---- fiche d'une activité
+function fiche(ev) {
+  const p = ev.extendedProps;
+  const d = iso(ev.start);
+  const invs = p.inv.split(" ; "), urls = p.url.split(" "), srcs = p.src.split(" ; ");
+  const doc = D.documents.find(x => x.inv === invs[0]);
+  const liens = srcs.map((t, i) => `<a href="${esc(urls[i] || "")}" target="_blank">${esc(t)}</a>`).join("<br>");
+  const ligne = (k, v) => v ? `<dt>${k}</dt><dd>${v}</dd>` : "";
+  document.getElementById("fiche").innerHTML = `
+    <button class="fermer" onclick="fermer()">fermer</button>
+    <h3>${esc(ev.title)}</h3>
+    <div>${fmt(d)}${p.heure ? " · " + esc(p.heure) : ""}${p.fin ? "–" + esc(p.fin) : ""} · ${esc(p.type)}</div>
+    <dl>
+      ${ligne("Qui", esc(p.qui))}
+      ${ligne("Lieu", esc(p.lieu))}
+      ${ligne("Note", esc(p.note))}
+      ${ligne("Part déduite", pctTag(p.pct) + " " + esc(p.motifs))}
+      ${ligne("Récurrence", p.rec ? "occurrence calculée à partir d'une récurrence (grille, « chaque lundi »…)" : "")}
+      ${ligne("Affichage", esc(p.placement))}
+      ${ligne("Couche", p.spec ? `<b>spéculative</b> : reconstitution, pas un fait attesté · ${esc(p.terme)}, semaine ${p.semaine} · codes ${esc(p.codes)} · <a href="#" onclick="analyse('${esc(p.annee)}');return false">analyse de l'année</a>` : "")}
+      ${p.unite ? ligne("Cours du catalogue", `<b>${esc(p.cours_catalogue)}</b>${p.precision ? " — " + esc(p.precision) : ""}<br><span class="legende">${esc(p.discipline)} · « Courses of Instruction » 1935-36 (2017.40.011, scans 011-08/09) · unité ${esc(p.unite)}</span>`) : ""}
+      ${p.unite ? ligne("Parts déduites", `case ${esc(p.part_case_pct)} % · titre ${esc(p.part_titre_pct)} % (chance ${esc(p.chance)}) → total ${p.pct} %`) : ""}
+      ${p.candidats ? ligne("Autres cours possibles", p.candidats.split(" | ").map(esc).join("<br>")) : ""}
+      ${p.unite ? ligne("Rattachement", esc(p.rattachement)) : ""}
+      ${p.unite ? ligne("Année précédente", esc(p.equivalent_avant)) : ""}
+      ${p.unite ? ligne("Année suivante", esc(p.equivalent_apres)) : ""}
+      ${ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
+      ${ligne("Inventaire", esc(p.inv))}
+      ${doc && doc.img ? ligne("Vue", `<a href="${esc(urls[0])}" target="_blank"><img src="${esc(doc.img)}" style="max-width:220px;border:1px solid #ddd"></a>`) : ""}
+    </dl>`;
+  document.getElementById("voile").classList.add("on");
+}
+function analyse(k) {
+  const md = ((D.spec || {})[k] || {}).analyse; if (!md) return;
+  const inl = t => esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/\*(.+?)\*/g, "<i>$1</i>").replace(/`(.+?)`/g, "<code>$1</code>");
+  let h = "", liste = false;
+  for (const l of md.split("\n")) {
+    if (/^- /.test(l)) { if (!liste) { h += "<ul>"; liste = true; } h += `<li>${inl(l.slice(2))}</li>`; continue; }
+    if (/^  /.test(l) && liste) { h = h.replace(/<\/li>$/, "<br>" + inl(l.trim()) + "</li>"); continue; }
+    if (liste) { h += "</ul>"; liste = false; }
+    if (/^# /.test(l)) h += `<h3>${inl(l.slice(2))}</h3>`;
+    else if (/^##+ /.test(l)) h += `<h4>${inl(l.replace(/^#+ /, ""))}</h4>`;
+    else if (/^\|/.test(l)) { if (!/^\|---/.test(l)) h += `<table><tr>${l.split("|").slice(1, -1).map(c => `<td>${inl(c.trim())}</td>`).join("")}</tr></table>`; }
+    else if (l.trim()) h += `<p>${inl(l)}</p>`;
+  }
+  if (liste) h += "</ul>";
+  document.getElementById("fiche").innerHTML = `<button class="fermer" onclick="fermer()">fermer</button>${h}`;
+  document.getElementById("voile").classList.add("on");
+}
+function fermer() { document.getElementById("voile").classList.remove("on"); }
+document.getElementById("voile").onclick = e => { if (e.target.id === "voile") fermer(); };
+document.addEventListener("keydown", e => { if (e.key === "Escape") fermer(); });
+
+// ---- commandes
+function maj() {
+  ec.refetchEvents();
+  const v = ec.getView(); cote(v.currentStart, v.currentEnd); majHash();
+}
+const fams = document.getElementById("familles");
+FAMILLES.forEach(([k, lib, c]) => {
+  const l = document.createElement("label"); l.className = "fam";
+  l.innerHTML = `<input type="checkbox" checked><i style="background:${c}"></i>${lib}`;
+  l.querySelector("input").onchange = e => { e.target.checked ? etat.familles.add(k) : etat.familles.delete(k); maj(); };
+  fams.appendChild(l);
+});
+const qEl = document.getElementById("q");
+let tq; qEl.oninput = () => { clearTimeout(tq); tq = setTimeout(() => { etat.q = qEl.value; maj(); }, 200); };
+document.getElementById("spec").onchange = e => { etat.spec = e.target.checked; maj(); };
+document.getElementById("maxPct").onchange = e => { etat.maxPct = +e.target.value; maj(); };
+document.querySelectorAll("[data-vue]").forEach(b => b.onclick = () => vue(b.dataset.vue));
+function vue(v) {
+  ec.setOption("view", v);
+  document.querySelectorAll("[data-vue]").forEach(x => x.classList.toggle("on", x.dataset.vue === v));
+  majHash();
+}
+function aller(d) { if (d) ec.setOption("date", d); }
+document.getElementById("saut").onchange = e => aller(e.target.value);
+function voisin(sens) {
+  const v = ec.getView(), a = iso(v.currentStart), b = iso(v.currentEnd);
+  const d = sens > 0 ? JOURS.find(j => j >= b) : [...JOURS].reverse().find(j => j < a);
+  if (d) aller(d);
+}
+document.getElementById("suivSem").onclick = () => voisin(1);
+document.getElementById("precSem").onclick = () => voisin(-1);
+
+// repères : premières semaines de trimestre attestées + semaines les plus documentées
+const rep = document.getElementById("reperes");
+const parSem = {};
+D.events.forEach(e => { const d = new Date(e.start.slice(0, 10) + "T12:00"); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); const k = iso(d); parSem[k] = (parSem[k] || 0) + 1; });
+rep.innerHTML += `<optgroup label="Années reconstituées (spéculatif)">${Object.entries(D.spec || {}).map(([k, Y]) => `<option value="${Y.semaines[0].lundi}">${k} · ${Y.semaines.length} semaines</option>`).join("")}</optgroup>`;
+const plusDoc = Object.entries(parSem).sort((x, y) => y[1] - x[1]).slice(0, 12).sort();
+rep.innerHTML += `<optgroup label="Semaines les plus documentées">${plusDoc.map(([k, n]) => `<option value="${k}">${k} · ${n} activités</option>`).join("")}</optgroup>`;
+const termes = D.periodes.filter(p => /term|quarter|semester|session|institute/i.test(p.libelle) && !/vacation|recess/i.test(p.libelle));
+rep.innerHTML += `<optgroup label="Débuts de trimestre et sessions">${termes.map(p => `<option value="${p.debut}">${p.debut} · ${esc(p.libelle)}</option>`).join("")}</optgroup>`;
+rep.onchange = () => { aller(rep.value); rep.value = ""; };
+
+// adresse partageable : #2024-01-01/vue
+function majHash() {
+  const v = ec.getView();
+  const d = iso(ec.getOption("date")); document.getElementById("saut").value = d;
+  history.replaceState(null, "", `#${d}/${v.type}`);
+}
+(function lireHash() {
+  const m = location.hash.match(/^#(\d{4}-\d{2}-\d{2})(?:\/(\w+))?/);
+  if (m) { aller(m[1]); if (m[2]) vue(m[2]); }
+})();
+</script>
+</body>
+</html>

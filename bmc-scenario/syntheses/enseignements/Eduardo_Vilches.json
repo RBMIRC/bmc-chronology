@@ -1,0 +1,62 @@
+{
+ "passe": "enseignements",
+ "cle": "Eduardo Vilches",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 651,
+  "sortie": 1219,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Eduardo Vilches",
+  "cours": [
+   {
+    "intitule": "Cours de couleur (avec gravure et dessin), aussi présenté comme « Cours de Couleur »",
+    "periodes": [
+     "dès 1964",
+     "années 1960-1970"
+    ],
+    "atteste": "oui",
+    "objectifs": "Attesté : le cours cherche à fusionner l'inspiration locale du Taller 99 avec la rigueur de l'école d'Albers à Yale, et à diffuser les théories albersiennes de la couleur par une pédagogie planifiée. Les fiches indiquent que ce cours n'a pas été donné à Black Mountain College : c'est un héritage indirect d'Albers, hors du collège. Le cadre institutionnel (la PUC) n'apparaît que dans la fiche d'idée, sans précision supplémentaire. Le Chili est mentionné dans la fiche sur la réception.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [
+     "Les théories de la couleur d'Albers (référence centrale, citée comme matière diffusée).",
+     "Le Taller 99 (source d'inspiration locale) et l'école d'Albers à Yale (modèle de rigueur)."
+    ],
+    "propos_types": [
+     "Déduit de l'idée attribuée à Vilches : il faut réduire l'interaction entre abstraction et couleur pour que l'attention se porte sur les formes, sans distraction. Ce n'est pas une parole rapportée, seulement une position de pensée."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Le cours devient l'un des principaux vecteurs des théories de la couleur d'Albers au Chili. Il s'agit d'un effet de réception, pas d'un témoignage d'étudiants. Aucune réaction individuelle n'est rapportée.",
+    "evolution": "Les fiches datent le cours « dès 1964 » et le situent plus largement dans les années 1960-1970. L'idée associée est datée d'environ 1958-1970 (date déduite, à manier avec prudence). Aucune évolution interne du cours n'est documentée.",
+    "refs": [
+     "CO-00849",
+     "CO-00860",
+     "ID-03527"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Réduire l'interaction de l'abstraction et de la couleur afin de concentrer l'attention sur les formes, sans distraction. Cela renverse le primat albersien de l'interaction colorée et s'accompagne d'une pédagogie planifiée.",
+    "en_classe": "Transposition déduite, non attestée. Une séance pourrait comparer deux versions d'une même composition abstraite : l'une où les couleurs interagissent fortement, l'autre où la couleur est réduite et neutralisée. Les étudiants jugeraient ce qui attire l'œil dans chacune, forme ou couleur. L'exercice serait planifié en étapes. Les fiches ne donnent aucune consigne exacte de Vilches.",
+    "atteste": "non",
+    "refs": [
+     "ID-03527",
+     "CO-00860"
+    ]
+   },
+   {
+    "idee": "Fusionner une inspiration locale (Taller 99) et la rigueur méthodique de l'école d'Albers à Yale, au service d'une pédagogie planifiée de la couleur.",
+    "en_classe": "Déduit : on pourrait alterner l'observation de références locales avec des exercices de couleur structurés d'inspiration albersienne. Non attesté à Black Mountain College : la fiche précise que le cours est hors collège, un héritage indirect d'Albers.",
+    "atteste": "non",
+    "refs": [
+     "CO-00849",
+     "ID-03527"
+    ]
+   }
+  ]
+ }
+}

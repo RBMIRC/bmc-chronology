@@ -1,0 +1,53 @@
+#annee 1941-42
+#catalogue speculation/catalogues/1941-42.txt 2017.40.017+2017.40.016+2017.40.260a-b+2017.40.261a-b+2017.40.262a-b+2017.40.076a-f
+> ## 1941-42 : première année à Lake Eden, un catalogue sans cours
+>
+> **Une source incomplète.** Le musée n'a transcrit que la notice du catalogue 1941-42 (2017.40.017, fiche 6585). Ses 15 images ont été relues par un nouvel OCR. Ce sont seulement les pages liminaires : calendrier (image 017-03), buts, organisation, situation, vie, études, divisions, travail, examinateurs. Il n'y a ni corps enseignant ni « Courses of Instruction ». La liste de 1940-41, relue sur scan, est donc reconduite (LISTE_VOISINE, +15), puis corrigée par les présences attestées.
+>
+> **1. Le cadre.** L'ouverture est reportée au 22 septembre 1941, car le collège s'installe à Lake Eden.
+> - Le catalogue imprime : semestre d'automne du 22 septembre au 4 février, vacances d'hiver du 21 décembre au 11 janvier, semestre de printemps du 5 février au 10 juin, vacances de printemps du 22 mars au 5 avril.
+> - La lettre d'octobre 1941 (2017.40.261a-b) donne un calendrier révisé : fin du premier trimestre le 31 janvier, retour le 12 janvier, fermeture le 6 juin.
+> - Le calendrier de guerre (2017.40.019) arrête le second semestre au 23 mai 1942, pour ouvrir le 22 juin un trimestre d'été accéléré.
+> - Les bulletins de mars 1942 réduisent les vacances de printemps au jeudi 2 – dimanche 5 avril. Des cours et des réunions sont attestés du 23 au 31 mars, et c'est ce calendrier effectif qui est suivi.
+>
+> **2. Les personnes**, établies par les lettres et les bulletins de l'année :
+> - **de retour ou présents** : Josef et Anni Albers, Kocher, Evarts (souvent à New York pour le collège), Jalowetz, Jessie Ann Nelson, les Straus, Wunsch (recteur), Kurtz, Mangold, Babcock, French, Carpenter, Dreier ;
+> - **arrivés** : Peter Bergmann (physique, à la place de Rosen), Roland Boyden (histoire), Frances de Graaff (français), Paul Radin (anthropologie), Howard Dearstyne (assistant de Kocher, novembre 1941) ;
+> - **partis en cours d'année** : Lindsley (chimie) vers le 15 octobre, remplacé par Margot Bergmann ; Babcock en mai 1942 ;
+> - **absents des documents** : Gothe (économie), W. C. Barnes (histoire), Reed (art). L'économie n'a pas d'enseignant connu, et ses cours sont retirés.
+>
+> **3. Les cours** sont repris de 1940-41, avec un rattachement par présence.
+> - Quatre cours sont attestés pour l'année même (MEME_ANNEE) : American Life and Letters (Kurtz), l'anthropologie (Radin), le cours de structure architecturale (Dearstyne) et Drama I (Wunsch).
+> - Deux activités sont aussi attestées : le chœur du mardi soir (Jalowetz) et le groupe de madrigaux.
+> - Les cours en années alternées prennent le complément de 1940-41 : littérature des XVIIe et XVIIIe siècles, français d'introduction, espagnol d'introduction, allemand avancé.
+>
+> **4. Le rythme de la journée.** Le catalogue décrit la vie de 1941-42 dans les mêmes termes que 1940-41 : « Two or three times a week there is a half hour of informal dancing after dinner, and almost every Saturday night a semi-formal dance ». Les bulletins attestent aussi plusieurs rendez-vous :
+> - la réunion de la faculté presque chaque lundi soir (Kocher Room) ;
+> - le programme radio du dimanche à 21 h sur WWNC, à partir du 9 novembre 1941 ;
+> - les concerts du samedi soir ;
+> - le Current Affairs Group le mardi soir au printemps.
+>
+> Les étudiants donnent « two or three afternoons of work a week » au chantier du nouveau Studies Building, en particulier les trois jours sans cours de la fin octobre 1941.
+
+S|semaine|||calendrier|Semaine de cours, {terme} (calendrier révisé de 1941-42 : lettres d'octobre 1941 et bulletins de 1942)|||aucun congé attesté dans la semaine|SEMAINE|2017.40.261a-b+2017.40.019
+
+S|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||repas en commun ; heure : bulletins de Lake Eden 1943-44|SEMAINE+LOIN|2017.40.017+2017.40.172a-g|fall,spring
+S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||heure de début : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.017+2017.40.172a-g|fall,spring
+S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.017+2017.40.172a-g|fall,spring
+S|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.172a-g|fall,spring
+S|dim|13:00|14:00|social|Dîner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.172a-g|fall,spring
+S|dim|18:00|18:45|social|Souper du dimanche|Communauté||souper froid le dimanche en 1944, heure non donnée|SEMAINE+LOIN+HEURE|2017.40.172a-g|fall,spring
+
+S|lun,mer,ven|13:30|16:00|travail|Chantier du Studies Building et des logements de Lake Eden (équipes de volontaires)|Communauté||« Students were urged to volunteer for a least two or three afternoons of work a week » (oct. 1941) ; jours choisis|SEMAINE+JOUR+HEURE_CADRE|2017.40.261a-b+2017.40.262a-b|fall,spring
+S|mar,jeu,sam|13:30|16:00|travail|Autres travaux de l'après-midi : ferme, bois, bibliothèque, imprimerie, scène ; plein air|Communauté||description du travail (catalogues 1940-42)|SEMAINE+JOUR+HEURE_CADRE+VOISIN|2017.40.016+2017.40.017|fall,spring
+S|lun,mer,ven|19:00|19:30|danse|Demi-heure de danse informelle après le dîner|Communauté||« Two or three times a week there is a half hour of informal dancing after dinner » (catalogue 1941-42, image 017-08)|SEMAINE+JOUR+HEURE_CADRE|2017.40.017|fall,spring
+S|sam|21:30|23:30|social|Bal semi-habillé du samedi soir, après le concert ou le programme|Communauté|Dining hall|« almost every Saturday night a semi-formal dance » (catalogue 1941-42)|SEMAINE+HEURE_CADRE|2017.40.017|fall,spring
+S|sam|20:30|21:30|concert|Concert ou programme du samedi soir : possible|Communauté|Dining hall|concerts du samedi attestés de janvier à mai 1942 (20:00 à 20:30)|OCCASION+HEURE_CADRE|2017.40.054+2017.40.055+2017.40.067a-b|fall,spring
+S|lun|19:30|21:00|reunion|Réunion hebdomadaire de la faculté|Faculty|Kocher Room|faculty meetings du lundi soir attestés de décembre 1941 à mai 1942 (19:00 ou 19:30)|SEMAINE+HEURE_CADRE|2017.40.052+2017.40.053+2017.40.066+2017.40.075|fall,spring
+S|dim|21:00|21:30|radio|Programme radio de Black Mountain College sur WWNC|Radio Committee|Station WWNC, Asheville|« BMC radio series renewed » (9 nov. 1941) ; programmes du dimanche à 21 h attestés jusqu'en avril 1942|SEMAINE|2017.40.262a-b+2017.40.063a-b|fall@1941-11-09..1942-01-31,spring
+S|mar|21:00|22:00|reunion|Current Affairs Group : possible|Current Affairs Group|Kocher Room|attesté les 28 avril et 5 mai 1942|OCCASION|2017.40.072a-b+2017.40.073a-b|spring
+S|jeu|19:30|20:30|reunion|Réunion générale de toute la communauté : possible cette semaine|Communauté|Dining hall|réunions générales attestées le lundi, le mercredi ou le jeudi (1941-42)|OCCASION+JOUR+HEURE_CADRE|2017.40.054+2017.40.056+2017.40.075|fall,spring
+S|jeu|20:30|21:30|conference|Causerie d'un visiteur : possible|Communauté|Dining hall|« a fairly constant stream of visitors, many of whom speak » (catalogue 1941-42) ; conférence de Rupert Wildt un jeudi à 20 h 30 (avril 1942)|OCCASION+JOUR+HEURE_CADRE|2017.40.017+2017.40.069a-b|fall,spring
+S|mar,ven|20:30|22:00|theatre|Répétition de la pièce en cours|Robert Wunsch||« Several plays are presented during the year » (catalogue 1941-42) ; productions attestées : programme de Noël (14 déc. 1941), The Highbrow Ladies (28 févr. 1942), Suppressed Desires (12 mars)|SEMAINE+JOUR+HEURE|2017.40.017+2017.40.064a-b+2017.40.065.01a-b|fall,spring
+S|lun-sam|13:30|17:30|travail|Work Camp et programme de travail d'été : construction, ferme, réparations, aménagements (étudiants de la Summer School et campeurs)|Ted Dreier; Molly Gregory; A. Lawrence Kocher||« The Work Program, in which Summer School students also participate, has been under the direction of Mr Dreier, Miss Gregory, and Mr Kocher » ; « Work campers who take courses will in general work five hours a day » ; heures choisies|SEMAINE+HEURE|2017.40.076a-f+2017.40.019|summer
+S|mer|20:30|21:30|conference|Conférence publique hebdomadaire d'un membre de la communauté sur un sujet d'actualité|Communauté|Dining hall|« Public lectures, on different contemporary topics, have been presented once a week by members of the community » (été 1942)|SEMAINE+JOUR+HEURE|2017.40.076a-f|summer

@@ -1,0 +1,276 @@
+{
+ "passe": "mois",
+ "cle": "1941-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3768,
+  "sortie": 9789,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1941-11",
+  "session": "trimestre d'automne (déduit : rentrée fin septembre, calendrier suspendu en décembre)",
+  "saison_et_climat": "Fin d'automne. Aucune fiche ne décrit le temps de ce mois ; le chantier en plein air et la pose prochaine du toit du Studies Building suggèrent un temps encore praticable avant l'hiver (déduit).",
+  "situation": "Le collège, installé depuis la rentrée de fin septembre dans des bâtiments à moitié finis et dispersés, travaille au rythme de la session d'automne. Les cours ont lieu le matin et le soir, et le chantier occupe les après-midi dans la limite conseillée d'un à trois par semaine. Le Studies Building s'achève et le toit en est le dernier grand chantier, avant la suspension du calendrier en décembre. Le deuil de Lee Hall et la dispersion des bâtiments nourrissent les discussions, tandis que la guerre reste encore lointaine pour la vie du collège, jusqu'à Pearl Harbor qui suit en décembre.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Brett",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Will Hamlin",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alex Reed",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Frances Kuntz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Richard Carpenter",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Harold Raymond",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1941-11-15",
+    "precision": "jour",
+    "ce_qui_arrive": "Marcia Winn publie dans le Chicago Daily Tribune un article sur les bijoux en quincaillerie d'Anni Albers, qui entrent en concurrence avec les priorités militaires en temps de restriction.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03233"
+    ]
+   },
+   {
+    "date": "1941-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Préparation du chantier du toit du Studies Building, qui mobilisera tout le collège avant la suspension du calendrier en décembre.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03234",
+     "SC-00830"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "annee",
+    "ce_qui_arrive": "Wunsch prépare deux Molière, dont Frances Kuntz fait vingt-six costumes avec 25 dollars ; le premier magazine littéraire étudiant est en cours d'impression.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03176",
+     "EV-03174"
+    ]
+   }
+  ],
+  "quotidien": "Cours le matin et le soir, chantier volontaire l'après-midi (drainage, isolation, fondations, bâtiments en finition). Ateliers en activité : tissage et bijoux d'Anni Albers, menuiserie de Molly Gregory, Graphic Tectonics de Josef Albers, chantier de la Jalowetz House sous Stoller, Kocher qui enseigne. Les étudiants occupent les nouveaux espaces de travail du Studies Building. Répétitions du Molière de Wunsch et couture des costumes de Kuntz. Dîners communs et chansons sur le chemin du chantier, qui agacent les « zombies ».",
+  "tensions": [
+   "Le chantier divise : ferveur du salut par le travail face aux étudiants qui le trouvent pénible, avec un maximum conseillé désormais fixé.",
+   "La dispersion en une douzaine de bâtiments fait regretter la perte de l'unité de Lee Hall.",
+   "L'argent reste rare depuis l'été ; le don anonyme de 5 000 dollars est soupçonné venir de Dreier lui-même.",
+   "Les matériaux métalliques d'Anni Albers entrent en concurrence avec les priorités militaires, ce qui fragilise son travail.",
+   "Josef Albers s'oppose au « laisser-faire » des écoles progressistes lors d'une réunion de BMC (date non précisée).",
+   "Le collège cherche une formation gouvernementale (V-1 de la Navy, Enlisted Reserve Corps) sans être accrédité : l'enjeu de 1942.",
+   "Le toit du Studies Building fait peur à Richard Carpenter, terrifié par les hauteurs, alors que le chantier avance malgré un faux calcul sur le chêne séché au four."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Anni Albers lit l'article de Winn",
+    "date": "1941-11-15",
+    "lieu": "atelier de tissage, Black Mountain (déduit)",
+    "personnages": [
+     "Anni Albers",
+     "Alex Reed"
+    ],
+    "deroule": "Anni lit l'article du Chicago Tribune qui met en scène ses bijoux de quincaillerie face aux priorités de guerre. Elle pèse ce que signifie cette visibilité et la concurrence du métal pour l'armée, tandis que Reed reprend les critiques de Atwater.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03233",
+     "EV-03224",
+     "EV-03040"
+    ]
+   },
+   {
+    "titre": "Albers contre le laisser-faire",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "membres de la faculté"
+    ],
+    "deroule": "Lors d'une réunion de BMC, Albers s'oppose au laisser-faire des écoles progressistes et défend une discipline de travail et de matière. La discussion rend visible le désaccord pédagogique qui traverse la faculté.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03207"
+    ]
+   },
+   {
+    "titre": "Betty Brett sur le chantier",
+    "date": "1941-11",
+    "lieu": "chantier, Lake Eden",
+    "personnages": [
+     "Betty Brett",
+     "étudiants du chantier"
+    ],
+    "deroule": "Betty Brett, chef d'équipe depuis avril, tient son rang sur le terrassement. Elle garde sa lucidité de ne pas vouloir être « creuseuse de fossés » et observe les autres étudiants qui se plaignent.",
+    "certitude": "deduit",
+    "refs": [
+     "SC-00825",
+     "CI-01623"
+    ]
+   },
+   {
+    "titre": "Répétition du Molière de Wunsch",
+    "date": "1941",
+    "lieu": null,
+    "personnages": [
+     "Wunsch",
+     "Frances Kuntz"
+    ],
+    "deroule": "Kuntz confectionne ses costumes avec 25 dollars pour les deux Molière de Wunsch. Entre les tissus rares et les répétitions du soir, le théâtre étudiant prend forme malgré le manque d'argent.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03176",
+     "EV-03174"
+    ]
+   },
+   {
+    "titre": "Carpenter cloue sur le toit",
+    "date": "1941-12",
+    "lieu": "toit du Studies Building",
+    "personnages": [
+     "Richard Carpenter",
+     "équipe du toit"
+    ],
+    "deroule": "Le jeune biologiste, terrifié par les hauteurs, cloue toute la journée sur le toit collectif. Le chantier engage tout le collège et la suspension du calendrier le rend presque obligatoire.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Novembre, après l'article de Winn sur les bijoux d'Albers",
+    "vers_date": "1941-08",
+    "vers": "La tournée de collecte d'août : Evarts en Californie, où seul Melvyn Douglas donne vraiment, et l'annonce par Dreier du don anonyme de 5 000 dollars.",
+    "refs": [
+     "EV-03222",
+     "EV-03223",
+     "CI-01595"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre, au souvenir de la dispersion des bâtiments",
+    "vers_date": "1941-06",
+    "vers": "Le départ de Hall en juin, quand l'argent manque et que « le monde appelle » ; le déménagement de Lee Hall vers Lake Eden a été achevé en mai-juin par la navette de Bovington.",
+    "refs": [
+     "EV-03221",
+     "EV-03220",
+     "LI-00691",
+     "QU-00742"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, sur le toit du Studies Building",
+    "vers_date": "1942",
+    "vers": "La mort de Richard Carpenter, emporté un an plus tard par un cancer du poumon (date déduite du texte, approximative).",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, au moment où Albers et la faculté discutent de l'avenir",
+    "vers_date": "1941-12",
+    "vers": "Pearl Harbor : radio apportée au dîner, incrédulité, puis la réunion étudiante au lobby de North Lodge qui vote un message de soutien, dans l'hiver 1941-1942 (déduit).",
+    "refs": [
+     "EV-03235",
+     "SC-00831",
+     "EV-03142",
+     "SC-00801",
+     "CF-00350"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, avec la question du programme gouvernemental",
+    "vers_date": "1942",
+    "vers": "La recherche d'accréditation pour la formation de la Navy et de l'Enlisted Reserve Corps, qui n'aboutit pas et devient l'enjeu de 1942.",
+    "refs": [
+     "EV-03150",
+     "CF-00353"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, à la fin de la session d'automne",
+    "vers_date": null,
+    "vers": "La mort du jeune Mark Dreier dans un accident de véhicule sur le campus (moment non précisé), et la Quiet House bâtie à la main en sa mémoire par Alex Reed et Molly Gregory.",
+    "refs": [
+     "EV-03173",
+     "LI-00697"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre, au moment des échos de Goodman sur le cadre et l'écran",
+    "vers_date": "1952",
+    "vers": "L'événement de Cage en 1952, que les théories de participation de Goodman préparent sans que Goodman ait encore visité le collège.",
+    "refs": [
+     "EC-01792"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le salut par le travail face à la fatigue du chantier",
+   "L'unité perdue de Lee Hall face à la dispersion des bâtiments",
+   "L'art de la matière confronté aux priorités de guerre",
+   "La pédagogie d'Albers comme ligne de partage de la faculté",
+   "Le collège qui se prépare à une entrée dans la guerre sans l'avoir vue venir"
+  ],
+  "lacunes": "Aucune date précise de novembre n'est donnée pour les réunions, le chantier ou les cours hors de l'article du 15 novembre. La date de la réunion chez les Wiener, celle de la mort de Mark Dreier et celle de la Quiet House sont inconnues. Les étudiants présents ne sont pas listés pour ce mois. La version Lane (EV-03157) lie le déménagement au départ de Thomas, ce qui contredit le reste des sources et n'est pas retenu. Le lien entre le don de 5 000 dollars et Dreier reste une rumeur. La présence exacte de chaque enseignant en novembre n'est pas attestée."
+ }
+}

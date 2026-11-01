@@ -1,0 +1,276 @@
+{
+ "passe": "mois",
+ "cle": "1936-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6767,
+  "sortie": 12952,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-01",
+  "session": "Trimestre d'hiver, non nommé dans les fiches (déduit du mois de janvier)",
+  "saison_et_climat": "Hiver de montagne en Caroline du Nord, non décrit par les fiches (déduit). Au Mexique, en altitude, les Albers notent une fraîcheur matinale sous un soleil aveuglant (SC-00654).",
+  "situation": "Janvier 1936 : Louis et Stella Adamic sont installés au collège pour une visite d'un après-midi qui s'étire sur des semaines. Rice leur expose sa doctrine et devient le centre de l'attention. Une interview de Rice dans le Herald Tribune, jugée suffisante et dénigrante pour les autres collèges, provoque un malaise, dont Evarts témoigne le 29 janvier. Josef et Anni Albers sont au Mexique avec les Dreier, et la carte postale de Josef est oblitérée le 11 janvier. Le collège se prépare sans eux au canular de février, et les Albers doivent rentrer à temps pour cet épisode. Le collège n'est pas encore célèbre, mais la visite d'Adamic lance la mécanique qui va le rendre célèbre et fracturé.",
+  "presents_probables": [
+   {
+    "nom": "Louis Adamic",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Stella Adamic",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Goldenson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Zeuch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Joe Martin",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1935-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Les Albers, avec Theodore et Barbara Dreier, parcourent le Mexique en voiture (Oaxaca, Monte Albán, Mitla) et commencent à acheter des fragments de céramique et des figurines auprès des paysans.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00627"
+    ]
+   },
+   {
+    "date": "1936-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Louis et Stella Adamic arrivent au collège sur la suggestion de Henry Allen Moe, pour une visite prévue d'un après-midi. Ils restent plusieurs semaines, la durée exacte étant contestée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02566",
+     "EV-02568"
+    ]
+   },
+   {
+    "date": "1936-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice expose longuement à Adamic sa doctrine : enseigner la méthode plutôt que le contenu, le processus plutôt que les résultats.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02547",
+     "CI-01337"
+    ]
+   },
+   {
+    "date": "1936-01-11",
+    "precision": "jour",
+    "ce_qui_arrive": "Josef écrit de la route mexicaine une carte postale à Franz Perdekamp, ornée d'enfants devant un grand cactus. Les distances parcourues (400 ou 4000 km) divergent selon les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02569",
+     "SC-00654",
+     "SC-00655"
+    ]
+   },
+   {
+    "date": "1936-01-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Evarts consigne dans son journal son malaise devant l'interview de Rice dans le Herald Tribune, jugée trop suffisante et dénigrante pour les autres collèges. La date est celle de la note, non celle de la parution.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02567",
+     "EV-02570"
+    ]
+   },
+   {
+    "date": "1936-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Elaine de Kooning obtient son diplôme à Erasmus Hall High School, à Brooklyn. Elle n'est pas au collège, et elle entrera ensuite au Hunter College.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02565"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches décrivent peu la vie ordinaire de janvier. La vie du collège tourne autour des conversations avec Adamic, qui écoute beaucoup et se laisse porter par Rice, et autour des échanges sur la pédagogie. Les repas, les cours, les travaux et la musique ne sont pas documentés pour ce mois.",
+  "tensions": [
+   "L'interview de Rice dans la presse, qui dénigre les autres collèges, divise la communauté et inquiète Evarts.",
+   "Adamic se concentre sur Rice, ce qui crée une inégalité d'attention au sein de la faculté.",
+   "Les Albers sont absents, et le collège fonctionne sans son centre de gravité artistique.",
+   "La doctrine de Rice (méthode contre contenu) est exposée à l'extérieur avant d'être discutée à l'intérieur, ce qui prépare la querelle à venir."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les miniatures entre les mains des paysans",
+    "date": "1935-12",
+    "lieu": "Oaxaca, Monte Albán, Mitla",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Theodore Dreier",
+     "Barbara Dreier"
+    ],
+    "deroule": "En labourant, des paysans trouvent des fragments de céramique, têtes finement façonnées et figurines souvent brisées. Les Albers les examinent, en achètent, et commencent une collection qui atteindra plus de mille objets.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00627"
+    ]
+   },
+   {
+    "titre": "Carte postale depuis la route mexicaine",
+    "date": "1936-01-11",
+    "lieu": "Mexique",
+    "personnages": [
+     "Josef Albers",
+     "Franz Perdekamp"
+    ],
+    "deroule": "Josef, après trois semaines de route, écrit en notes brèves à son vieil ami resté en Allemagne : Indiens, pyramides, cactus, climat merveilleux et « l'art ancien incroyablement bon ». La carte est postée le 11 janvier.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00654",
+     "SC-00655",
+     "EV-02569"
+    ]
+   },
+   {
+    "titre": "Adamic absorbé par les étudiants et par Rice",
+    "date": "1936-01",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Louis Adamic",
+     "Stella Adamic",
+     "Rice",
+     "étudiants"
+    ],
+    "deroule": "Adamic prend tout, comme une éponge, pendant que les étudiants arrosent. Rice déroule sa doctrine pendant des heures. La scène est une composition plausible à partir des fiches, non un moment documenté.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02566",
+     "EV-02547",
+     "CI-01337"
+    ]
+   },
+   {
+    "titre": "Le journal d'Evarts et l'interview",
+    "date": "1936-01-29",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Evarts",
+     "Rice"
+    ],
+    "deroule": "Evarts lit l'interview de Rice dans le Herald Tribune et consigne son dégoût, en craignant qu'elle n'alerte des soutiens sensés. Le conflit entre l'autopromotion de Rice et la réserve des autres est déjà visible.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02567",
+     "EV-02570"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Adamic écoute Rice pendant son séjour de janvier, et l'article qu'il écrira ensuite contient une première partie sur la querelle de Rollins et la fondation.",
+    "vers_date": null,
+    "vers": "La querelle de Rollins et la fondation du collège, racontées dans le brouillon « Education on a Mountain ».",
+    "refs": [
+     "EV-02550",
+     "EV-02576"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rice fait l'éloge de son propre parcours auprès d'Adamic, lui-même ancien boursier Guggenheim.",
+    "vers_date": null,
+    "vers": "Le séjour d'un an en Europe que Rice a passé comme boursier Guggenheim, source de sa vision du collège.",
+    "refs": [
+     "EV-02568"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Josef découvre au Mexique un art ancien qui le fascine, en tant qu'ancien du Bauhaus émigré.",
+    "vers_date": null,
+    "vers": "Le Bauhaus, dont Josef est issu et qu'il quitte pour l'émigration.",
+    "refs": [
+     "SC-00655"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les Albers rentrent du Mexique pour le canular, et Josef a déjà en tête son retour vers le Mexique.",
+    "vers_date": "1936-06",
+    "vers": "Les Albers repartent au Mexique pour trois mois. Josef peint des huiles Archaeologic, Anni fait ses tapisseries Ancient Writing et Monte Alban, et Clave de sol est exposée à El Nacional.",
+    "refs": [
+     "EV-02595",
+     "EV-02597",
+     "EV-02598"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier : le collège prépare la farce contre le Mondrian de Morton Steinau.",
+    "vers_date": "1936-02",
+    "vers": "Le canular du 4-5 février : un Mondrian remplacé par une toile cirée rayée, une assemblée et une fouille, et la remise en place du tableau.",
+    "refs": [
+     "EV-02573",
+     "SC-00656"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le débat sur l'article d'Adamic et sur Rice, qui commence dans la communauté après sa lecture.",
+    "vers_date": "1936-04",
+    "vers": "L'article « Education on a Mountain » paraît dans Harper's, avec la réplique de DeVoto, qui compare le collège à un sanatorium d'amateurs.",
+    "refs": [
+     "EV-02583",
+     "EV-02578"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La visibilité naissante du collège, nourrie par la presse et la visite d'Adamic.",
+    "vers_date": "1936-06",
+    "vers": "La page photo du New York Times, et 50 à 55 lettres la première semaine. Van Middlesworth juge l'article « horrible, mensongère ».",
+    "refs": [
+     "EV-02581",
+     "EV-02593",
+     "CI-01365"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La tension entre Rice et les autres enseignants, née de la visite d'Adamic.",
+    "vers_date": "1936-12-07",
+    "vers": "L'appel de Zeuch contre le non-réappointement de Knickerbocker et Goldenson est rejeté, la démission de Goldenson est autorisée, et Zeuch parle de « début de la fin ».",
+    "refs": [
+     "EV-02609",
+     "EV-02610"
+    ]
+   }
+  ],
+  "motifs": [
+   "L'éponge et l'eau : Adamic absorbe, les étudiants s'imprègnent.",
+   "La publicité qui fabrique le mythe, avant même la fracture.",
+   "L'art ancien mexicain comme source d'un tournant pour Josef.",
+   "Les farces et les canulars, qui servent de soupape à la faculté.",
+   "Les contradictions entre sources (durées, distances, numérotation des voyages) comme matière de scène."
+  ],
+  "lacunes": "Date exacte d'arrivée et de départ d'Adamic : deux, deux mois et demi ou trois mois selon les sources, et EV-02566 parle d'abord de deux ou trois jours. Date du retour des Albers à Black Mountain. Nom de la session. Distance du voyage mexicain (400 ou 4000 km) et numérotation des voyages. Vie quotidienne (cours, repas, travaux, musique) non documentée. Présence en janvier des autres enseignants cités, non attestée nommément. Date de la première partie du brouillon d'Adamic (le Rollins) et date de l'article de presse de Rice, dont la parution exacte n'est pas donnée."
+ }
+}

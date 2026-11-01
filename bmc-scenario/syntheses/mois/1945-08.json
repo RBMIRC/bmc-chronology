@@ -1,0 +1,357 @@
+{
+ "passe": "mois",
+ "cle": "1945-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4967,
+  "sortie": 15394,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1945-08",
+  "session": "session d'été (instituts d'été 1945), proche de sa fin : le marathon du dernier mercredi en marque l'approche",
+  "saison_et_climat": "Plein été dans la montagne de Caroline du Nord : chaleur, baignade au lac et à la cascade, averses (il pleut le jour du marathon), crue nocturne évoquée par la synthèse sans date précise, serpents et crotale tué par Hayes.",
+  "situation": "Le collège vit son été grâce aux instituts. Carol Brice, après quatre semaines, arrive en fin de séjour, Roland Hayes prend le relais et donne son récital, George Martin entre dans le collège le 6 août, Jalowetz et Bodky donnent leurs concerts-marathon. La session s'achève et les Martin repartent pour New York. La rentrée d'automne apportera de nouveaux enseignants et la polarisation Wallen/Albers, sur fond de silence après l'affaire Wunsch de juin. Selon la synthèse, le récital de Hayes, aux places intégrées, est le test décisif de l'intégration.",
+  "presents_probables": [
+   {
+    "nom": "George Martin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nina Martin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Trudi Straus",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mme Straus",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hugo Kauder",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Edward Lowinsky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Roland Hayes (avec sa femme et sa fille)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Carol Brice (avec sa mère et son bébé)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bodky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mme Chareau (Nicole)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Reiss",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Gropius, Feininger, Motherwell, Marx",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ray Johnson et Elaine Schmitt",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-08-06",
+    "precision": "jour",
+    "ce_qui_arrive": "George Martin arrive à Black Mountain depuis la gare au moment où Bodky joue les douze premières fugues du Second Clavier bien tempéré.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03800"
+    ]
+   },
+   {
+    "date": "1945-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Carol Brice donne son dernier concert après environ quatre semaines de séjour ; Roland Hayes arrive ce jour-là avec sa femme et sa fille et reste environ deux semaines.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03794"
+    ]
+   },
+   {
+    "date": "1945-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Chez les Lowinsky, Hayes chante à Brice ses arrangements inédits de spirituals noirs et promet de lui en envoyer des copies.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03794"
+    ]
+   },
+   {
+    "date": "1945-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Le récital de Hayes se déroule devant environ 400 personnes, dont 30 à 40 Noirs, avec des places intégrées et sans incident ; Lowinsky avait fait instruire les ouvreurs. Le détail des effectifs vient de la synthèse.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00967"
+    ]
+   },
+   {
+    "date": "1945-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Mme Straus apporte au collège la nouvelle de l'entrée en guerre de l'URSS contre le Japon, peu après l'arrivée de Martin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03795"
+    ]
+   },
+   {
+    "date": "1945-08",
+    "precision": "session",
+    "ce_qui_arrive": "Dernier mercredi de la session : Jalowetz et Bodky jouent Schönberg op. 7 à deux pianos le matin, l'Art de la fugue est joué aux cordes l'après-midi, Albers projette des diapositives le soir, sous la pluie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03796"
+    ]
+   },
+   {
+    "date": "1945-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Nina Martin, soliste dans le Quatrième Concerto brandebourgeois, connaît un succès presque sensationnel ; le lendemain elle part en pique-nique avec ses partenaires du concert.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03798"
+    ]
+   },
+   {
+    "date": "1945-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Les Martin rentrent à New York. En taxi depuis Pennsylvania Station, Nina siffle par la vitre pour saluer Michael Kuttner, second violon du Gordon String Quartet.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03797"
+    ]
+   },
+   {
+    "date": "1945-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Mme Chareau commente les travaux étudiants devant un paysage à route, parle de la tendresse des poteaux télégraphiques et de la combinaison de pauvreté et de luxe du lieu ; John Reiss montre des peintures figuratives et non figuratives qui donnent à Martin son premier plaisir devant un travail étudiant à BMC.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03799"
+    ]
+   },
+   {
+    "date": "1945-08",
+    "precision": "session",
+    "ce_qui_arrive": "Fin de la session d'été : les instituts et leurs visiteurs se dispersent avant la rentrée d'automne.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03796",
+     "EV-03797"
+    ]
+   }
+  ],
+  "quotidien": "Les journées sont denses et ritualisées : chorales de Bach de Jalowetz qui durent deux à trois heures ; chants en chaîne de table en table au dîner ; pas de couvre-feu. Les repas se prennent parfois au sol faute de chaises (œufs durs, salades, fruits, lait, fromage), et la viande n'est servie qu'aux randonnées. Straus travaille le violon au petit lac à l'aube. Albers tient son samedi matin (« Does this have color? »). Il y a des baignades nues à la cascade, des serpents partout, un crotale tué par Hayes. Hayes raconte pendant des heures son expérience d'homme noir et la musique noire, et chante le soir chez les Lowinsky. Les Européens mangent à table à part des étudiants américains.",
+  "tensions": [
+   "Le récital de Hayes, en salle intégrée, est un test que le collège n'a pas encore réussi à généraliser : le Sud-Est reste hostile.",
+   "Deux mondes se côtoient : exilés européens à table, étudiants américains, avec un doute sur ce que transmettent vraiment les exilés.",
+   "Kauder moque l'imitation européenne de l'Amérique ; Martin songe que Dada, farce de 1918, s'enseigne désormais comme art des maîtres.",
+   "L'affaire Wunsch de juin reste couverte par le silence imposé par la faculté ; personne n'a protesté et les remords sont à venir.",
+   "La rumeur d'« instabilité nerveuse » contre Wallen, vérifiée auprès de l'armée et jugée fausse, couve encore ; Albers est cité comme source possible selon Wallen.",
+   "Pauvreté matérielle (chaises, argent) contre luxe du lieu ; Fritz Cohen, sans argent, cherche à vendre son Music Institute.",
+   "Les sources divergent sur le rôle de Wunsch et sur le rectorat d'Albers, ce qui ne se verra qu'à l'automne."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Kauder contre Dada, entre omelette et miel",
+    "date": "1945-08",
+    "lieu": "table de BMC",
+    "personnages": [
+     "Hugo Kauder",
+     "George Martin",
+     "étudiants"
+    ],
+    "deroule": "Au repas, Kauder lance que les mouvements nés d'un monde en désintégration deviennent absurdes transposés en Amérique saine, le plus absurde étant que les Européens viennent eux-mêmes y imiter. Martin songe que Dada, farce de 1918, s'enseigne désormais comme art des maîtres.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00965"
+    ]
+   },
+   {
+    "titre": "Matin au petit lac : trois nuages, trois collines",
+    "date": "1945-08",
+    "lieu": "petit lac de BMC",
+    "personnages": [
+     "George Martin",
+     "Trudi Straus"
+    ],
+    "deroule": "Calme matinal. On entend Straus travailler le violon ; trois petits nuages dérivent au-dessus de trois petites collines.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00966"
+    ]
+   },
+   {
+    "titre": "Le concert de Roland Hayes",
+    "date": "1945-08",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Roland Hayes",
+     "Edward Lowinsky"
+    ],
+    "deroule": "Hayes, voix déclinante, construit son récital par le rythme : les pauses calculées portent l'auditeur jusqu'au bout. Lowinsky affirme que le mouvement est ponctué par la pause.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00967",
+     "EV-03794"
+    ]
+   },
+   {
+    "titre": "Marathon du dernier mercredi de la session",
+    "date": "1945-08",
+    "lieu": "BMC, Lake Eden",
+    "personnages": [
+     "Jalowetz",
+     "Bodky",
+     "Albers",
+     "étudiants"
+    ],
+    "deroule": "Schönberg op. 7 à deux pianos le matin, l'Art de la fugue aux cordes l'après-midi, projection de diapositives par Albers le soir. Il pleut.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03796"
+    ]
+   },
+   {
+    "titre": "Le Quatrième Concerto brandebourgeois de Nina",
+    "date": "1945-08",
+    "lieu": "BMC, Lake Eden",
+    "personnages": [
+     "Nina Martin",
+     "partenaires du concert"
+    ],
+    "deroule": "Nina obtient un succès presque sensationnel en soliste, puis part le lendemain en pique-nique avec ses partenaires.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03798"
+    ]
+   },
+   {
+    "titre": "Les nouvelles de l'URSS au bord de l'eau",
+    "date": "1945-08",
+    "lieu": "BMC, au bord de l'eau",
+    "personnages": [
+     "Mme Straus",
+     "George Martin"
+    ],
+    "deroule": "Mme Straus apporte la nouvelle de l'entrée en guerre de l'URSS contre le Japon, peu après l'arrivée de Martin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03795"
+    ]
+   },
+   {
+    "titre": "Arrivée de Martin pendant les fugues de Bodky",
+    "date": "1945-08-06",
+    "lieu": "gare de Black Mountain puis salle de concert",
+    "personnages": [
+     "George Martin",
+     "Bodky"
+    ],
+    "deroule": "Martin arrive à pied depuis la gare au moment où Bodky joue les douze premières fugues du Second Clavier bien tempéré.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03800"
+    ]
+   },
+   {
+    "titre": "Le retour en taxi de Nina",
+    "date": "1945-08",
+    "lieu": "Pennsylvania Station puis taxi, New York",
+    "personnages": [
+     "Nina Martin",
+     "George Martin",
+     "Michael Kuttner"
+    ],
+    "deroule": "En taxi depuis la gare, Nina siffle par la fenêtre pour saluer Mike, second violon du Gordon String Quartet.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03797"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "le récital de Hayes, aux places intégrées, rappelle la question raciale débattue depuis la rentrée 1944",
+    "vers_date": "1945-05-16",
+    "vers": "Wallen écrit au collège le 16 mai ; Straus l'a recommandé après évaluation à Baltimore, et la rumeur d'instabilité nerveuse retarde sa nomination",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "le silence du collège en août, après une affaire que personne n'évoque",
+    "vers_date": "1945-06",
+    "vers": "mi-juin : l'arrestation de Wunsch près d'Asheville, la réduction de l'inculpation, le rachat de sa bibliothèque, son départ nocturne sous les yeux de Molly Gregory",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le marathon de Schönberg, de l'Art de la fugue et des diapositives d'Albers, qui préparent les controverses sur l'art et la communauté",
+    "vers_date": "1945",
+    "vers": "à l'automne, Wallen et Albers se polarisent : Wallen pour la dynamique de groupe, Albers pour l'art ; les réunions de novembre portent sur le programme de travail",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'article d'Albers, « Art at Black Mountain College », que la fin de l'été annonce",
+    "vers_date": "1945-12",
+    "vers": "Albers rédige en décembre son article sur l'art au collège, au moment où la polarisation s'installe",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la réussite du récital de Hayes et le rôle de Lowinsky dans la formation des ouvreurs",
+    "vers_date": "1947",
+    "vers": "l'intégration racial s'installe au collège jusqu'en 1947 ; Sylvesta Martin devient la première étudiante noire à plein temps à l'automne 1945 selon des dates divergentes",
+    "refs": [
+     "SC-00967"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la démobilisation de Rauschenberg évoquée par la synthèse, qui le fait venir à New York en famille",
+    "vers_date": "1948",
+    "vers": "Rauschenberg ne viendra à Black Mountain qu'en 1948, après un détour par New York et la famille déménagée à Lafayette",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "la scène comme test de l'intégration",
+   "idylle et poids du lieu",
+   "la parole qui se transmet : exilés européens et étudiants américains",
+   "le silence qui protège et qui pèse, après le départ de Wunsch",
+   "la pause et le rythme (Hayes, Lowinsky)",
+   "la nourriture et les chaises comme signes de pauvreté et de partage",
+   "le son qui traverse le lac et les fenêtres (violon de Straus, sifflement de Nina)"
+  ],
+  "lacunes": "Le jour exact du récital de Hayes, la date de fin de session et les départs précis ne sont pas donnés ; le jour de l'annonce de la guerre URSS-Japon et celui du marathon sont inconnus, sauf le mercredi de la session. Les effectifs du récital (400 personnes, 30 à 40 Noirs) viennent de la synthèse, non d'une fiche datée. Les fiches ne disent pas si Gropius, Feininger, Motherwell, Marx, Ray Johnson et Elaine Schmitt étaient présents en août. Les sources divergent sur le rectorat d'Albers (Chaddock en 1945, d'autres en 1948) et sur la date de la première étudiante noire à plein temps. Les refs marquées vides viennent de la synthèse 1945, sans identifiant de fiche."
+ }
+}

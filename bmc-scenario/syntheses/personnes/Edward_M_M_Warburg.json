@@ -1,0 +1,289 @@
+{
+ "passe": "personnes",
+ "cle": "Edward M. M. Warburg",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 7384,
+  "sortie": 3407,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Edward M. M. Warburg",
+  "autres_noms": [
+   "Eddie Warburg",
+   "Edward Warburg",
+   "Ted Warburg (homonymie possible avec Ted Dreier — à ne pas confondre)"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Jamais membre du collège : bienfaiteur extérieur décisif. Trustee du MoMA dès ses 25 ans (1933), il finance l'émigration des Albers, participe au recrutement de Josef pour Black Mountain et contribue au financement fondateur du collège.",
+  "presence": [
+   {
+    "debut": "1933-08",
+    "fin": "1933-11-24",
+    "precision": "mois",
+    "role": "Intermédiaire et mécène : avec Philip Johnson, propose Albers à Rice, paie les billets de paquebot, obtient des visas non-quota, accompagne les Albers à leur arrivée à New York",
+    "refs": [
+     "EV-01667",
+     "EV-01735",
+     "EV-02140",
+     "EV-02146",
+     "EV-01737",
+     "EV-02222"
+    ]
+   },
+   {
+    "debut": "1934-07",
+    "fin": null,
+    "precision": "mois",
+    "role": "Reçoit Albers au MoMA avec ses bois gravés et active Mongan et Sawyer pour la première exposition américaine",
+    "refs": [
+     "SC-00602",
+     "EV-02346",
+     "EV-02291"
+    ]
+   }
+  ],
+  "portrait_physique": "Jeune homme de 23-24 ans pendant les événements clés (né vers 1909-1910, date non précisée dans les fiches) ; héritier de la grande banque allemande-américaine, allure de jeune premier de la Cinquième Avenue, manières galantes et empressées.",
+  "noyau_psychologique": "Fils de la grande fortune (yachts, paquebots en première, manoir néo-Renaissance sur la haute Cinquième Avenue) qui cherche dans l'art moderne une issue à cette « banalité » dorée. Agit vite, donne vite, écrit vite : sa générosité est aussi une manière d'exister par lui-même. Mécène de 24 ans qui avance l'argent que les institutions ne peuvent fournir, parfois anonymement.",
+  "blessures": "Le mépris parental pour ses choix esthétiques : ses Klee relégués au squash court familial (il en fait une galerie, geste de défi élégant). Constat que ses réseaux juifs n'aident que les universitaires juifs, alors qu'Albers ne l'est pas — tension entre loyauté communautaire et urgence du sauvetage.",
+  "desirs": "Faire exister un « Bauhaus américain » dont Albers serait le noyau ; aider savants et artistes fuir l'Allemagne nazie ; imposer l'art moderne (Klee, Calder, Miró, Bauhaus) dans une Amérique encore indifférente.",
+  "peurs": "Implicitement : l'échec du sauvetage (les files d'attente au consulat), le refus des musées, la montée du nazisme qui engloutit le monde du Bauhaus qu'il a visité et aimé.",
+  "maniere_d_aimer": "Aime par l'acquisition et le don : achète des toiles, paie des billets, avance des salaires, ouvre des portes. Le récit du Picasso de 1905 acheté parce que lui, Kirstein et Johnson étaient amoureux du modèle suggère un désir qui passe par l'objet et le geste, plus que par la déclaration.",
+  "rapport_au_pouvoir": "Né dans le pouvoir (fortune, trustee du MoMA à 25 ans), il l'exerce discrètement et efficacement : contre-pouvoir familial (le squash court), contournement de la bureaucratie (visas non-quota, file coupée au consulat), pression douce sur les musées (« plusieurs musées ont déjà demandé cette exposition », formule pressante peut-être exagérée).",
+  "voix": {
+   "registre": "Élégant, rapide, enthousiaste, légèrement hâbleur quand il s'agit d'accélérer les choses ; passe sans effort à l'allemand.",
+   "tics": "Signe ses lettres « Eddie » ; superlatifs pressants ; promesses immédiates d'argent ou d'appui.",
+   "exemples_paraphrases": [
+    "Avec Albers ici, nous avons le noyau d'un Bauhaus américain !",
+    "Plusieurs musées ont déjà demandé cette exposition — répondez au plus vite.",
+    "Je paie les billets, occupez-vous du reste."
+   ]
+  },
+  "habitudes": [
+   "Acheter de sa poche ce que les institutions ne peuvent financer, parfois anonymement",
+   "Se déplacer en première classe sur paquebots et yachts",
+   "Arriver sans rendez-vous chez les artistes et attendre poliment (assis sur la marche, pendant la sonate de Bach)",
+   "Écrire le jour même aux directeurs de musées pour activer un dossier"
+  ],
+  "convictions": [
+   "L'art moderne est l'aventure spirituelle de son époque",
+   "Il faut sauver les artistes et savants juifs d'Allemagne — et au-delà",
+   "Un Bauhaus peut renaître en Amérique, à Black Mountain, autour d'Albers",
+   "Albers est à la fois pédagogue essentiel et artiste d'exposition (un « plumier » pour le MoMA)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933-08",
+    "precision": "mois",
+    "moment": "Entretien décisif au MoMA avec Rice et Johnson : quinze minutes, Albers proposé malgré « un défaut » (aucun anglais), Rice donne carte blanche",
+    "etat_interieur": "Évidence partagée, coup de foudre institutionnel pour le projet de Rice",
+    "refs": [
+     "SC-00413",
+     "SC-00538",
+     "EV-01735",
+     "EV-01895"
+    ]
+   },
+   {
+    "date": "1933-08-31",
+    "precision": "jour",
+    "moment": "Lettre à Alfred Barr : expose le montage financier, garantit le salaire, voit dans Albers « le noyau d'un Bauhaus américain » ; sollicite Mrs. Rockefeller",
+    "etat_interieur": "Chef d'orchestre discret du sauvetage, conscient des obstacles d'immigration",
+    "refs": [
+     "EV-02160",
+     "CI-01129"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Complète le financement fondateur de Black Mountain : après 10 000 $ anonymes des Forbes et 2 000 $ de ses parents, il ajoute le manque après avoir obtenu 500 $ de Mrs. Rockefeller — selon Dreier, sans lui le collège n'aurait pas ouvert ; obtient aussi les visas non-quota et paie les billets des Albers",
+    "etat_interieur": "Mécène fondateur, rôle qu'il n'occupera jamais officiellement",
+    "refs": [
+     "EV-01877",
+     "EV-01737",
+     "EV-02140",
+     "EV-02146",
+     "EV-01799"
+    ]
+   },
+   {
+    "date": "1933-11-24",
+    "precision": "jour",
+    "moment": "Accueille les Albers au débarcadère du S.S. Europa ; le lendemain, les emmène chez ses parents (1109 Fifth Avenue) voir Rembrandt et Dürer, puis au Metropolitan ; Thanksgiving à Brooklyn Heights chez les Dreier avec Duchamp et Grosz",
+    "etat_interieur": "Fierté d'avoir ramené ses artistes ; joie du collectionneur qui montre ses trésors",
+    "refs": [
+     "EV-02222",
+     "SC-00563"
+    ]
+   },
+   {
+    "date": "1934-07",
+    "precision": "mois",
+    "moment": "Albers vient au MoMA avec ses bois gravés ; Warburg écrit aussitôt à Mongan et Sawyer ; seule l'Addison Gallery accepte (exposition 1934)",
+    "etat_interieur": "Zèle partagé : faire exister l'artiste, pas seulement le professeur",
+    "refs": [
+     "SC-00602",
+     "EV-02346",
+     "EV-02291"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1905",
+    "precision": "annee",
+    "moment": "Achète (plus tard, selon le témoignage) un Picasso de 1905 — portrait d'un jeune garçon dont lui, Kirstein et Johnson étaient amoureux",
+    "refs": [
+     "EV-00186"
+    ]
+   },
+   {
+    "date": "1927",
+    "precision": "annee",
+    "moment": "Visite du Bauhaus de Dessau avec d'autres Américains sophisticés (Johnson, Barr)",
+    "refs": [
+     "EV-01667",
+     "EV-01668"
+    ]
+   },
+   {
+    "date": "1928",
+    "precision": "annee",
+    "moment": "Encore étudiant à Harvard, cofonde la Harvard Society for Contemporary Art avec Kirstein et Walker",
+    "refs": [
+     "PE-00132",
+     "EV-01592"
+    ]
+   },
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "Visite Klee à Dessau sans prévenir, lettre de Curt Valentin en poche ; attend la fin du Bach sur le seuil ; achète Departure of the Ships et Romantic Park (~800 $ pièce) ; le chat marche sur une aquarelle humide et Klee rit",
+    "refs": [
+     "EV-01523",
+     "SC-00361",
+     "SC-00362",
+     "RE-00699"
+    ]
+   },
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "Ses parents relèguent les Klee au squash court du manoir ; il l'accroche exactement, galerie blanche improvisée",
+    "refs": [
+     "EV-01524"
+    ]
+   },
+   {
+    "date": "1931",
+    "precision": "annee",
+    "moment": "Première exposition Bauhaus en Amérique à la Harvard Society (deux pièces au-dessus de la Harvard Coop) : prépare l'accueil des Bauhäusler",
+    "refs": [
+     "EV-01592"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Trustee du MoMA à 25 ans ; enseigne l'art moderne à Bryn Mawr en payant anonymement son propre salaire ; lié à la mère de Dreier via Margaret Lewisohn",
+    "refs": [
+     "PE-00132",
+     "EV-02160"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1934",
+    "precision": "annee",
+    "moment": "L'exposition d'estampes d'Albers à l'Addison Gallery (Andover), qu'il a facilitée, conduit Sawyer à recruter plus tard Albers à Yale",
+    "refs": [
+     "EV-02291"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Mécénat et mentorat",
+    "evolution": "De sauveur financier (billets, visas, salaire garanti, 1933) à agent d'exposition (bois gravés, 1934) : il fait exister Albers comme émigré ET comme artiste en Amérique",
+    "refs": [
+     "RE-00812",
+     "RE-00908",
+     "SC-00602"
+    ]
+   },
+   {
+    "avec": "Philip Johnson",
+    "nature": "Amitié et association au MoMA",
+    "evolution": "Complices de longue date (visites du Bauhaus, passions partagées) ; pensent à Albers presque au même instant lors de l'entretien avec Rice ; duo complémentaire — Johnson convainc, Warburg finance",
+    "refs": [
+     "RE-00885",
+     "EV-01735",
+     "SC-00538"
+    ]
+   },
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Rencontre fondatrice",
+    "evolution": "Une seule conversation de quinze minutes en 1933, qui scelle le destin artistique de Black Mountain ; aucun contact attesté ensuite dans les fiches",
+    "refs": [
+     "SC-00413",
+     "EV-01895"
+    ]
+   },
+   {
+    "avec": "Paul Klee",
+    "nature": "Admiration de jeune collectionneur",
+    "evolution": "La visite de 1930 (Bach, chat, deux toiles) reste le moment fondateur de sa vocation ; désaveu parental au retour",
+    "refs": [
+     "RE-00699",
+     "EV-01523"
+    ]
+   },
+   {
+    "avec": "Ted Dreier",
+    "nature": "Alliance de financement",
+    "evolution": "Warburg complète anonymement le capital fondateur du collège quand Dreier échoue à réunir les derniers 5 000 $ ; Dreier dira que sans lui le collège n'aurait pas existé",
+    "refs": [
+     "EV-01877"
+    ]
+   },
+   {
+    "avec": "Katherine Dreier / famille Dreier",
+    "nature": "Liens familiaux et mondains",
+    "evolution": "La mère de Warburg est amie de la mère de Dreier (via Margaret Lewisohn) — chaîne de recommandations qui mène Rice jusqu'au MoMA ; Thanksgiving 1933 chez les parents Dreier",
+    "refs": [
+     "PE-00132",
+     "EV-02160",
+     "SC-00563"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Sur la genèse de l'invitation : certains récits font de la rencontre Rice-Johnson-Warburg au MoMA un moment fortuit et bref (Duberman, Chaddock) ; Taube 1988 et Anni Albers 1985 racontent plutôt un thé dans l'appartement berlinois des Albers où Johnson propose l'Amérique — deux scènes concurrentes pour la même décision.",
+   "Sur le financement fondateur : Horowitz & Danilowitz créditent surtout la famille Forbes ; Weber 2009 détaille les 15 000 $ (Forbes 10 000 anonymes, parents de Warburg 2 000, don final de Warburg comblant le manque) et rapporte que Dreier attribuait à Warburg la survie du collège ; Harris 2005 parle de 14 500 $ garantis sans nommer Warburg.",
+   "Le Picasso de 1905 (EV-00186) : achat probablement postérieur à la date de l'œuvre, rapporté sur mode de témoignage direct — à manier avec prudence.",
+   "Date de la visite du Bauhaus par Warburg : 1927 selon EV-01667/EV-01668, « visiteur du Bauhaus de Dessau » sans date ailleurs ; Johnson rencontre les Albers à Berlin en 1932 puis juillet 1933 selon Albers noir et blanc."
+  ],
+  "situations_revelatrices": [
+   "Assis sur la marche d'une porte, attendant la fin d'une sonate de Bach avant de frapper : le respect comme seconde nature",
+   "Accrochant lui-même ses Klee dans le squash court parental : l'élégance blessée du fils désavoué",
+   "Tranchant en quinze minutes d'un mot un recrutement qui décidera de seize ans d'histoire : l'instinct du faiseur",
+   "Comblant de sa poche, presque anonymement, les derniers dollars d'un collège qu'il ne visitera peut-être jamais : le pouvoir qui se cache",
+   "Écrivant à Barr que ses contacts juifs n'aident que les universitaires juifs, alors qu'Albers ne l'est pas : l'angoisse du sauvetage sélectif"
+  ],
+  "citations": [
+   "CI-01129"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, vie après 1934 (les fiches s'arrêtent à l'exposition Addison) — a-t-il gardé un lien avec Black Mountain au-delà de la fondation ?",
+   "A-t-il jamais mis les pieds à Black Mountain même ? Rien ne l'atteste.",
+   "Rôle exact dans sa « commission de sauvetage d'artistes allemands » : structure, moyens, autres sauvés ?",
+   "Le portrait Picasso de 1905 : quand l'a-t-il réellement acheté, et quelle était la nature exacte du trio avec Kirstein et Johnson ?",
+   "Contenu de ses relations avec Alfred Barr et Mrs. Rockefeller au-delà des lettres citées ?"
+  ]
+ }
+}

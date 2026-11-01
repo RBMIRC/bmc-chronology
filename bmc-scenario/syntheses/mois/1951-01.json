@@ -1,0 +1,253 @@
+{
+ "passe": "mois",
+ "cle": "1951-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 13596,
+  "sortie": 17085,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "janvier 1951 (1951-01)",
+  "session": "trimestre d'hiver (déduit : aucune fiche ne nomme la session de ce mois)",
+  "saison_et_climat": "Hiver, dans la région d'Asheville citée par les fiches (déduit de la saison). Aucune fiche ne décrit le temps, les bâtiments ni le paysage de janvier.",
+  "situation": "Le collège sort de la reconstruction de 1949-1950. Le groupe qui l'a relevé (Goldowski, les quakers, Pittenger, Trayer, Corkran) est encore là, mais déjà en partance : les départs, par dégoût et à des moments divers, se font au printemps (attesté). Olson est au Yucatan ou sur le point d'y partir, la date de départ étant contestée : fin 1950 selon Dawson, février 1951 selon Harris. Le mariage Levi se défait, sans date précise. La faculté résidente n'est pas encore réduite à presque rien ; cela vient après le printemps. La fragilité financière est déjà réelle (déduit). Hors campus : Albers est à Yale et sa querelle avec le collège dure ; de Kooning et Elaine sont à New York. Rauschenberg, Twombly, Cage, Shahn, Tudor, Litz, la saison photographique et le Glyph Exchange sont postérieurs à ce mois.",
+  "presents_probables": [
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bill Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards (présence contestée : Lane la dit partie en 1951, Dawson la fait enseigner à l'automne)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Pittenger",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Corkran",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Paul Leser",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Turner",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Pete Jennerjahn et sa famille",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Charles Olson (départ contesté : fin 1950 ou février 1951)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Harding et Mildred Harding",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Doyle",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ron Robertson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Carl Kent",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1951-01",
+    "precision": "mois",
+    "ce_qui_arrive": "À New York, au Whitney, une dispute pendant la rétrospective Gorky : Elaine recommande Porter à Thomas Hess pour ARTnews, et Porter obtient le poste de critique qu'elle quittait.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05486"
+    ]
+   },
+   {
+    "date": "1951-01-15",
+    "precision": "jour",
+    "ce_qui_arrive": "Life publie la photo des quatorze hommes et de la seule femme, Hedda Sterne, habillés en banquiers à la demande de Newman, surnommés Irascibles depuis mai 1950.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05487"
+    ]
+   },
+   {
+    "date": "1951-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson part pour le Yucatan pour quatre ou cinq mois ; ses dix-sept lettres à Creeley vont du 18 février au 1er juillet. Le départ est antérieur à février selon Dawson, ce que Harris ne confirme pas.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1951 (synthèse)"
+    ]
+   },
+   {
+    "date": "1951-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Le groupe qui avait reconstruit le collège depuis 1949 s'en va au printemps, à des moments divers, après une dernière ronde de factionnalisme.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1951 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Aucune fiche ne décrit janvier. Par extrapolation prudente des autres saisons de 1951 (déduit) : cours et ateliers ordinaires, repas au réfectoire, jours de paie avec le camion du collège (les Harding s'y battent pour une place), économie de subsistance (chez les Harding : lait, œufs, haricots rouges), lectures et textes qui circulent entre étudiants. Le théâtre et la musique de l'été (Litz, Harrison, Tudor) ne viennent qu'après.",
+  "tensions": [
+   "Factionnalisme inextricable : chacun assure que les autres sources se trompent, et les personnalités de Natasha et de Bill Levi pèsent plus que les enjeux pédagogiques.",
+   "Le mariage Levi se défait : Bill part pour Washington University avec leur fille Estelle, laissant M.C. Richards dans ce que Dawson tient pour sa période la plus basse (date du départ non fixée).",
+   "Statut d'Olson contesté : Chaddock le dit « élu recteur vite », Molesworth ne le fait recteur officiel qu'en 1954, de facto d'abord ; il est absent et son départ est daté de deux façons.",
+   "Pauvreté et déficit : le collège ne tient que par le travail des étudiants et l'argent avancé (déduit pour janvier, documenté pour l'automne).",
+   "Querelle Albers-Cage-collège, à distance, depuis Yale."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le Whitney et la critique",
+    "date": "1951-01",
+    "lieu": "Whitney Museum, New York",
+    "personnages": [
+     "Elaine de Kooning",
+     "Fairfield Porter"
+    ],
+    "deroule": "Devant les toiles de Gorky, Elaine lui parle de la qualité de ses textes, lui de leur médiocrité (Porter l'écrit à un ami). Elle recommande Porter à Hess pour ARTnews ; il prend le poste de critique qu'elle quitte.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05486"
+    ]
+   },
+   {
+    "titre": "Quatorze hommes et une femme posent pour Life",
+    "date": "1951-01-15",
+    "lieu": "New York",
+    "personnages": [
+     "Hedda Sterne",
+     "Newman"
+    ],
+    "deroule": "Les peintres, vêtus comme des banquiers, posent pour la photo que Life publie ; Sterne est placée pour dominer le groupe, trois absents n'ont pas posé. Le surnom Irascibles date de la presse de mai 1950.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05487"
+    ]
+   },
+   {
+    "titre": "Olson part pour le Yucatan",
+    "date": null,
+    "lieu": "Black Mountain College, puis Yucatan",
+    "personnages": [
+     "Charles Olson",
+     "M.C. Richards"
+    ],
+    "deroule": "Olson quitte un collège qui ne sait pas s'il l'a chargé de quelque chose. Il passe quatre ou cinq mois sur les fouilles (tessons, première pierre gravée) ; ses lettres à Creeley commencent le 18 février. Le départ est daté entre fin 1950 et février 1951 selon les sources.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1951 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Gestalt Therapy à trois mains",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Frederick Perls",
+     "Ralph Hefferline",
+     "Paul Goodman"
+    ],
+    "deroule": "Les trois auteurs rédigent le livre ; son format expérimental, avec étudiants anonymes répondant par écrit, prolonge la pédagogie de laboratoire de Hefferline au collège.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02682",
+     "EC-02689"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Janvier 1951, le groupe de 1949 tient encore le collège",
+    "vers_date": "1949",
+    "vers": "La reconstruction du collège par Goldowski, les quakers, Pittenger, Trayer et Corkran, avec le factionnalisme qui la traverse.",
+    "refs": [
+     "chapitre 1951 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La photo des Irascibles dans Life, janvier 1951",
+    "vers_date": "1950-05-23",
+    "vers": "Le Herald Tribune baptise les Irascibles Eighteen ; la photo fixe leur respectabilité bourgeoise.",
+    "refs": [
+     "EV-05487"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Olson au début de 1951, avant le Yucatan",
+    "vers_date": "1951-07",
+    "vers": "Olson revient pour de bon à l'été : Richards le persuade, Fitton et Oppenheimer collectent cent dollars de façade, il reçoit l'appartement et la place room and board, puis enseigne « For use, now ».",
+    "refs": [
+     "chapitre 1951 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Olson en janvier 1951, dont le corps et la fin restent à venir",
+    "vers_date": "1970",
+    "vers": "La tombe d'Olson à Gloucester, une pierre puritaine dérisoire parmi les pêcheurs portugais, décrite par Williams.",
+    "refs": [
+     "EC-02652"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le printemps 1951, au moment des départs",
+    "vers_date": "1952",
+    "vers": "Le Theater Piece No. 1 de 1952, préparé par les échanges de Richards, Litz et Tudor, dont la traduction d'Artaud.",
+    "refs": [
+     "chapitre 1951 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Goodman écrit Gestalt Therapy en 1951, au moment où le collège se défait",
+    "vers_date": null,
+    "vers": "Goodman étudia au collège dans les années 1930 ; il y prônait un peu plus de désordre, de saleté, d'affection et d'absence de gouvernement.",
+    "refs": [
+     "EC-02716"
+    ]
+   }
+  ],
+  "motifs": [
+   "Un collège qui se défait par ses factions et se refonde autour d'une figure contestée (Olson, recteur ou non).",
+   "La pédagogie du faire et de l'expérience directe (Albers, Perls, Goodman) comme fil commun.",
+   "La respectabilité officielle (Irascibles) face à la marge du collège.",
+   "L'économie de subsistance : travail des étudiants, pins vendus, paie et camion.",
+   "Les absents : Albers, Rauschenberg, Twombly, Cage, à distance du collège."
+  ],
+  "lacunes": "Aucune fiche ne couvre janvier 1951 à Black Mountain College en propre, sauf le départ d'Olson, daté de façon contradictoire (fin 1950 selon Dawson, février selon Harris). La session, le climat, l'effectif exact, les cours et les repas de janvier sont inconnus. Richards est partie (Lane) ou enseigne (Dawson) à l'automne. Cage est présent au dîner (Lane) ou absent (Harris) pour l'été. Rumaker place Olson et Harrison au collège en avril, alors qu'Olson est au Yucatan et que Harrison arrive en août. Les échos Gestalt sont datés ≈1951 sans lien daté avec le collège. Les fiches EV-05486 et EV-05487 sont new-yorkaises, sans lien direct avec le collège. Les refs « chapitre 1951 (synthèse) » n'ont pas d'identifiant propre."
+ }
+}

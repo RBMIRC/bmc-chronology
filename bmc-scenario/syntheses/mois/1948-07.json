@@ -1,0 +1,528 @@
+{
+ "passe": "mois",
+ "cle": "1948-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 19250,
+  "sortie": 14349,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1948-07",
+  "session": "Session d'été 1948 (juin à août) : nous sommes au cœur de l'été, entre les premières semaines et le sommet d'août.",
+  "saison_et_climat": "Plein été en Caroline du Nord. Les sources évoquent un jour de pluie (effondrement du dôme), des trajets en train estivaux, des marches nocturnes sous un ciel étoilé et des baignades au ponton. Aucune température n'est donnée.",
+  "situation": "Le collège tourne à plein régime avec une session d'été de 74 étudiants payants, des enseignants invités et une vie sociale inhabituellement dense. Sous cette surface, l'affrontement entre Albers et Dreier d'un côté, Levi et Rondthaler de l'autre se prépare sans que les gens de l'été le voient (EV-04510). En juillet, Mary Caroline Richards écrit aux Dreier pour dire son désaccord de fond sur la direction du collège (EV-04545, SC-01184). Côté de Kooning, Bill travaille dans le cottage à Asheville tandis qu'Elaine et lui vivent séparés une partie du temps (EV-04529). La nouvelle de la mort de Gorky arrive à la fin du mois (EV-04532, SC-01180).",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Trude Guermonprez",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Cage",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Merce Cunningham",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Buckminster Fuller",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Willem de Kooning",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Elaine de Kooning",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Richard Lippold",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Kenneth Snelson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Arthur Penn",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "William Schrager",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Erwin Bodky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Winslow Ames",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Beaumont Newhall",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Peter Grippe",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ray Spillenger",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Droll",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Pat Passlof",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Caroline Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Heinrich Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ruth Asawa",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Kenneth Noland",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Joseph Fiore",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ray Johnson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Paul et Vera Williams",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1948-06",
+    "precision": "session",
+    "ce_qui_arrive": "Session d'été : environ 74 étudiants payant 350 dollars, avec corvées obligatoires ; invités et enseignants en noyau autour d'Albers, Cage, Cunningham, Fuller et de Kooning.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04496",
+     "EV-04508",
+     "EV-04525"
+    ]
+   },
+   {
+    "date": "1948-07-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion spéciale de la faculté : Goldowski se plaint de ne pas savoir quelles idées représentent les principes du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04544"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Fuller donne sa conférence inaugurale, déclarant obsolètes le carré, le cube et le nombre deux. Elaine décide aussitôt de suivre ses cours.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04538",
+     "SC-01177"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Bill résout le cube de Fuller en quelques secondes, là où les étudiants échouaient pendant une heure et demie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04539",
+     "SC-01183"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers interrompt la classe de Fuller et plaisante sur son jargon de mécanicien.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04540"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Cage prononce devant le public du Bauhaus un discours contre Beethoven avant un récital Satie, ce qui provoque la fureur de la salle.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01178",
+     "EV-04515"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Le dôme géodésique en lattes de stores vénitiens s'effondre sous la pluie, sous les rires du campus, Elaine restant convaincue que Fuller a raison.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04521",
+     "SC-01175"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Cage monte Le Piège de Méduse de Satie, avec Elaine en Frisette, Fuller en baron et Cunningham en singe mécanique ; Arthur Penn met en scène.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04522"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Bill transforme son séjour au cottage : il remplit les murs de pastels puis peint à l'huile sur une feuille de 25 × 32 pouces, ce qui donne naissance à Asheville.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04527",
+     "EV-04542",
+     "SC-01179"
+    ]
+   },
+   {
+    "date": "1948-07-21",
+    "precision": "jour",
+    "ce_qui_arrive": "Mort d'Arshile Gorky (21 juillet selon SC-01180). De Kooning s'enferme, puis dit à Pat Passlof qu'il a maintenant une chance. Les sources divergent sur la façon dont la nouvelle arrive.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04532",
+     "EV-04533",
+     "SC-01180"
+    ]
+   },
+   {
+    "date": "1948-07-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Lettre de Mary Caroline Richards aux Dreier : elle préférerait un campus débraillé, plus de professeurs, moins d'étudiants et moins d'argent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04545",
+     "SC-01184"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Ray Spillenger arrive au collège en train, après une petite annonce de The Nation ; Cage et Cunningham lui apprennent que Tobey est malade et que de Kooning le remplace.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04530",
+     "SC-01181"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Visite du campus avec Albers ; installation des de Kooning dans les studios de la Quiet House, Bill refusant d'y peindre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04534"
+    ]
+   },
+   {
+    "date": "1948-06",
+    "precision": "session",
+    "ce_qui_arrive": "Droll passe de l'académie militaire à la vie du collège : sandales, kakis roulés, décision de rester.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04523"
+    ]
+   },
+   {
+    "date": "1948-06",
+    "precision": "session",
+    "ce_qui_arrive": "Satie culmine dans la programmation estivale ; Cage donne environ vingt-cinq concerts sur l'ensemble de la série.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04515",
+     "EV-04496"
+    ]
+   }
+  ],
+  "quotidien": "Petit-déjeuner quotidien de Cage, Fuller et Cunningham, qui imaginent une « finishing school » parodique. Elaine suit la danse de Cunningham de 8 h à 10 h puis le cours de couleur d'Albers de 10 h à midi ; Bill enseigne à une dizaine d'étudiants. Les repas se prennent à la cloche dans la Great Hall, et les retardataires finissent sans nourriture. Bill dort dans un dortoir et mange son hamburger au couvert (EV-04497). Les conférences de Fuller durent quatre à cinq heures, avec une pause spectacle de figures géométriques. Les soirs, petites fêtes dans les studios, grands bals dans les cottages, marches nocturnes sur la route. Cunningham donne un récital solo pour la communauté, assisté de Lippold et Hamill. Les repas et la vie commune sont décrits comme plus festifs que pendant les cinq années précédentes.",
+  "tensions": [
+   "Le conflit de fond sous-jacent : Albers et Dreier contre Levi et Rondthaler (EV-04510), dont seul Fuller est au courant.",
+   "Le désaccord de Mary Caroline Richards avec la ligne de design lisse défendue par les Dreier (EV-04545 ; SC-01184).",
+   "La querelle musicale entre Cage et Bodky, sur Beethoven face à Satie, qui divise le campus avant d'être désamorcée par un duel de nourriture (SC-01178, EV-04515).",
+   "La confusion idéologique : Goldowski ne sait pas quels principes sont censés représenter le collège (EV-04544).",
+   "Les étudiants et anciens du Bauhaus rient de l'effondrement du dôme et s'opposent à l'esprit de récupération défendu par Fuller (SC-01175).",
+   "L'estrangement de Bill et d'Elaine pendant l'été, Bill dormant souvent ailleurs (EV-04529).",
+   "Le deuil de Gorky, qui pèse sur de Kooning et sur sa peinture.",
+   "Albers, dans la classe de Fuller, se montre à la fois sévère et moqueur envers le jargon de Fuller (EV-04540)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le dôme sous la pluie",
+    "date": "1948-07",
+    "lieu": "Black Mountain College, pelouse du dôme",
+    "personnages": [
+     "Buckminster Fuller",
+     "Elaine de Kooning",
+     "étudiants",
+     "curieux du campus"
+    ],
+    "deroule": "Un jour de pluie, la classe boulonne les lattes. Fuller avoue à Elaine que ça ne marchera pas. Le dôme monte de quelques pieds puis s'affaisse sur l'herbe, sous les rires des Bauhaus. Elaine reste convaincue que Fuller a raison.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01175",
+     "EV-04521",
+     "EV-04531"
+    ]
+   },
+   {
+    "titre": "Le cube de Bill",
+    "date": "1948-07",
+    "lieu": "classe de Fuller",
+    "personnages": [
+     "Buckminster Fuller",
+     "Willem de Kooning",
+     "étudiants en ingénierie de Harvard",
+     "Elaine de Kooning"
+    ],
+    "deroule": "Deux morceaux de métal passent de main en main pendant une heure et demie. Bill entre, les soupèse et les emboîte pour former un cube parfait. Il explique qu'il a cherché la voie la moins logique.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01183",
+     "EV-04539"
+    ]
+   },
+   {
+    "titre": "Cage contre Beethoven",
+    "date": "1948-07",
+    "lieu": "salle de concert du collège",
+    "personnages": [
+     "John Cage",
+     "anciens du Bauhaus",
+     "Erwin Bodky"
+    ],
+    "deroule": "Avant un récital Satie, Cage dénonce la centralité de Beethoven devant un public qui l'admire. La salle s'enflamme. Le débat finit par dégénérer en bataille de nourriture, selon le chapitre sur 1948.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01178",
+     "EV-04515",
+     "chapitre 1948"
+    ]
+   },
+   {
+    "titre": "Les murs couverts de pastels",
+    "date": "1948-07",
+    "lieu": "cottage des de Kooning",
+    "personnages": [
+     "Willem de Kooning",
+     "Elaine de Kooning"
+    ],
+    "deroule": "Dans le vide du cottage, Bill couvre les murs de pastels pendant des semaines, puis fixe une feuille de 25 × 32 pouces sur un chevalet et peint à l'huile. Chaque soir il racle la surface, et l'image qu'Elaine aimait est détruite.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01179",
+     "EV-04527",
+     "EV-04528",
+     "EV-04542"
+    ]
+   },
+   {
+    "titre": "Le message de Gorky",
+    "date": "1948-07-21",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Willem de Kooning",
+     "Pat Passlof",
+     "Elaine de Kooning"
+    ],
+    "deroule": "La nouvelle de la mort de Gorky arrive. De Kooning se séquestre pendant des jours et déclare à Pat Passlof qu'il a maintenant une chance. Elaine et lui marchent longtemps pour évoquer le peintre. Les sources ne s'accordent pas sur la façon dont la nouvelle arrive.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01180",
+     "SC-01182",
+     "EV-04532",
+     "EV-04533"
+    ]
+   },
+   {
+    "titre": "Le wagon qui se vide",
+    "date": "1948-07",
+    "lieu": "train vers la Caroline du Nord",
+    "personnages": [
+     "Ray Spillenger",
+     "John Cage",
+     "Merce Cunningham"
+    ],
+    "deroule": "Le wagon se vide au fil du trajet. Ray rejoint les deux hommes restés au fond et apprend que Tobey est malade et que de Kooning le remplace. C'est ainsi que se décide son été à Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01181",
+     "EV-04530"
+    ]
+   },
+   {
+    "titre": "Le dîner manqué",
+    "date": "1948-07",
+    "lieu": "ponton puis Great Hall",
+    "personnages": [
+     "Willem de Kooning",
+     "Elaine de Kooning"
+    ],
+    "deroule": "Assis sur le ponton, ils ne réagissent pas à la cloche. Vingt minutes plus tard, la nourriture a disparu. Ils deviennent ensuite des sprinteurs à chaque cloche.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04535"
+    ]
+   },
+   {
+    "titre": "Lettre aux Dreier",
+    "date": "1948-07-25",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Mary Caroline Richards",
+     "Theodore Dreier",
+     "Barbara Dreier"
+    ],
+    "deroule": "Richards demande franchement aux Dreier si elle se trompe : veulent-ils faire de BMC un joyau lisse de design moderne, ce qui coûte cher ? Elle préférerait un campus débraillé, plus de professeurs et moins d'étudiants.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01184",
+     "EV-04545"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Bill, dans le cottage, en train de peindre au chevalet ; il retrouve le faux marbre rose et gris appris à seize ans en Hollande pour les décors du Piège de Méduse",
+    "vers_date": null,
+    "vers": "Apprentissage de décorateur en Hollande vers seize ans",
+    "refs": [
+     "EC-02369",
+     "EC-02381"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Bill et Elaine, à l'annonce de la mort de Gorky, se souviennent de la fête de fin février chez Julian Levy, dernière rencontre avec leur maître",
+    "vers_date": "1948-02",
+    "vers": "Dernière rencontre avec Gorky lors d'une fête de fin février 1948 chez Julian Levy",
+    "refs": [
+     "EC-02353"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers, en classe de couleur ou dans la visite des studios, rappelle l'héritage de son enseignement",
+    "vers_date": "1919",
+    "vers": "Le Bauhaus (1919-1933), où Albers a intégré beaux-arts, artisanat et technologie ; les studios minuscules du collège en perpétuent le design",
+    "refs": [
+     "EC-02364",
+     "EC-02384",
+     "EC-02372"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Cunningham, pendant son récital solo, face à un public qui ignore encore la danse moderne",
+    "vers_date": "1943",
+    "vers": "Solos chorégraphiés chez Martha Graham dès 1943, puis récital new-yorkais de 1944",
+    "refs": [
+     "EC-02375"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Elaine, au milieu de ses cours, devant les peintures de l'été",
+    "vers_date": "1949",
+    "vers": "Robe blanche de Frisette portée dans le film The Dogwood Maiden de Rudy Burckhardt, puis disparition du costume",
+    "refs": [
+     "EC-02370",
+     "EC-02382"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, à la fin de l'été, prépare sa ligne de réorganisation",
+    "vers_date": "1950",
+    "vers": "Albers, doyen à Yale, engage Bill comme premier artiste recruté pour des crits bi-hebdomadaires",
+    "refs": [
+     "EC-02383",
+     "EC-02362"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Cage et Elaine, dans leur amitié d'été autour de la musique et de la peinture",
+    "vers_date": "1958",
+    "vers": "Cage dédie Solo for Piano à Elaine ; le réseau musical de BMC irrigue sa vie new-yorkaise",
+    "refs": [
+     "EC-02352",
+     "EC-02363"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fuller, dont le dôme s'est effondré à BMC",
+    "vers_date": "1967",
+    "vers": "Le pavillon américain de l'Expo 67 à Montréal ; le monde saura que le dôme était un brillant succès",
+    "refs": [
+     "EC-02374",
+     "EC-02379",
+     "EC-02367"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Elaine, dont les peintures de l'été 1948 restent dans sa mémoire",
+    "vers_date": "1991",
+    "vers": "Exposition Black Mountain Paintings from 1948 à la Washburn Gallery et acquisition par le Met",
+    "refs": [
+     "EC-02365"
+    ]
+   }
+  ],
+  "motifs": [
+   "La cloche et les réflexes conditionnés, avec la métaphore des « chiens de Pavlov ».",
+   "Le hasard et l'intuition contre la logique (le cube de Bill, l'échec du dôme).",
+   "L'échec comme pédagogie : Fuller affirme plus tard avoir voulu démontrer la sécurité d'un effondrement.",
+   "La destruction comme méthode : l'image est détruite et reconstruite chaque soir (Bill).",
+   "La surface d'été contre la profondeur de l'année : euphorie de l'été et violence de l'hiver à venir (EC-02378).",
+   "L'hommage à Satie et la guerre des lignées musicales, allemande contre française.",
+   "Le deuil de Gorky, l'héritage du maître mort, et la question de la liberté (« Now I have a chance »)."
+  ],
+  "lacunes": "On ne sait pas quand Levi et Dreier sont exactement présents en juillet, ni quand exactement Richards écrit sa lettre depuis le campus. Le jour de la mort de Gorky est donné par SC-01180 (21 juillet), mais le moment où la nouvelle parvient à Black Mountain reste flou : Curtis parle d'une lettre d'Egan avec une coupure de presse, Molesworth d'une annonce plus tardive. Le nombre de concerts Satie diverge : environ vingt-cinq selon E. de Kooning, « la série entière » selon Duberman. Fuller est signalé comme ayant décliné puis annoncé sa venue (EV-04536), alors que SC-01177 le montre arrivant avec sa remorque. Le jour exact de l'effondrement du dôme et celui du récital de Cunningham ne sont pas datés."
+ }
+}

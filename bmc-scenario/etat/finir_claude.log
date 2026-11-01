@@ -1,0 +1,96 @@
+=== début 2026-11-01 09:08
+personnes : 1 tâches, 0.00 M caractères ≈ 0.00 M tokens
+  Harry Seidler (591→2446 tokens)
+annees : 1 tâches, 0.11 M caractères ≈ 0.03 M tokens
+  1939 (50543→16350 tokens)
+enseignements : 1 tâches, 0.00 M caractères ≈ 0.00 M tokens
+  Adrienne Rich (566→801 tokens)
+personnes : 185 tâches, 2.39 M caractères ≈ 0.66 M tokens
+Traceback (most recent call last):
+  File "/Users/sylvain/Documents/bmc-scenario/pipeline/06_synthese.py", line 292, in <module>
+    main()
+  File "/Users/sylvain/Documents/bmc-scenario/pipeline/06_synthese.py", line 266, in main
+    moteurs.soumettre(moteurs.client("claude"), [
+  File "/Users/sylvain/Documents/bmc-scenario/pipeline/moteurs.py", line 133, in soumettre
+    b = cl.messages.batches.create(requests=[
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/anthropic/resources/messages/batches.py", line 80, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/anthropic/_base_client.py", line 1374, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/anthropic/_base_client.py", line 1147, in request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "requests.16.custom_id: String should match pattern '^[a-zA-Z0-9_-]{1,64}$'"}, 'request_id': 'req_011Cgbnrin2wadtdtZKgZRft'}
+=== début 2026-11-01 09:12
+personnes : 1 tâches, 0.00 M caractères ≈ 0.00 M tokens
+  Wilhelm Reich (1112→4218 tokens)
+annees : 1 tâches, 0.12 M caractères ≈ 0.03 M tokens
+  1935 (53654→19896 tokens)
+enseignements : 1 tâches, 0.00 M caractères ≈ 0.00 M tokens
+  Karen Karnes et David Weinrib (669→2594 tokens)
+personnes : 184 tâches, 2.39 M caractères ≈ 0.66 M tokens
+lot msgbatch_01AgWv1K7EKq3girh1fF5j3M : 184 requêtes envoyées
+annees : 22 tâches, 7.92 M caractères ≈ 2.20 M tokens
+lot msgbatch_0141sExbfHsf7YHpkb2Aqg1q : 22 requêtes envoyées
+enseignements : 140 tâches, 4.79 M caractères ≈ 1.33 M tokens
+lot msgbatch_01HHMZZtjG8cTvxCbnQe1rXe : 140 requêtes envoyées
+    [09:16] 1 lot(s) en cours, nouvel examen dans 3 min
+    [09:19] 1 lot(s) en cours, nouvel examen dans 3 min
+msgbatch_01AgWv1K7EKq3girh1fF5j3M ended : 184 ok, 0 erreurs, 0 en cours, 0 expirés
+    [09:22] 1 lot(s) en cours, nouvel examen dans 3 min
+msgbatch_0141sExbfHsf7YHpkb2Aqg1q ended : 22 ok, 0 erreurs, 0 en cours, 0 expirés
+    [09:25] 1 lot(s) en cours, nouvel examen dans 3 min
+msgbatch_01HHMZZtjG8cTvxCbnQe1rXe ended : 140 ok, 0 erreurs, 0 en cours, 0 expirés
+mois : 1 tâches, 0.00 M caractères ≈ 0.00 M tokens
+  1944-10 ÉCHEC BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgbpAbniMu8BGWNv4pfX1'}
+1 échec(s)
+=== début 2026-11-01 17:11
+personnes : 0 tâches, 0.00 M caractères ≈ 0.00 M tokens
+annees : 0 tâches, 0.00 M caractères ≈ 0.00 M tokens
+enseignements : 0 tâches, 0.00 M caractères ≈ 0.00 M tokens
+personnes : 0 tâches, 0.00 M caractères ≈ 0.00 M tokens
+rien à envoyer (tout est fait ou déjà en attente)
+annees : 0 tâches, 0.00 M caractères ≈ 0.00 M tokens
+rien à envoyer (tout est fait ou déjà en attente)
+enseignements : 0 tâches, 0.00 M caractères ≈ 0.00 M tokens
+rien à envoyer (tout est fait ou déjà en attente)
+msgbatch_01AgWv1K7EKq3girh1fF5j3M ended : 184 ok, 0 erreurs, 0 en cours, 0 expirés
+msgbatch_0141sExbfHsf7YHpkb2Aqg1q ended : 22 ok, 0 erreurs, 0 en cours, 0 expirés
+msgbatch_01HHMZZtjG8cTvxCbnQe1rXe ended : 140 ok, 0 erreurs, 0 en cours, 0 expirés
+mois : 1 tâches, 0.00 M caractères ≈ 0.00 M tokens
+  1944-10 (1488→12397 tokens)
+mois : 291 tâches, 3.95 M caractères ≈ 1.10 M tokens
+lot msgbatch_01Jr1kVPJpHTskdhtRJopUzZ : 291 requêtes envoyées
+    [17:13] 1 lot(s) en cours, nouvel examen dans 3 min
+    [17:16] 1 lot(s) en cours, nouvel examen dans 3 min
+    [17:19] 1 lot(s) en cours, nouvel examen dans 3 min
+msgbatch_01Jr1kVPJpHTskdhtRJopUzZ ended : 291 ok, 0 erreurs, 0 en cours, 0 expirés
+personnes : 0 tâches, 0.00 M caractères ≈ 0.00 M tokens
+rien à envoyer (tout est fait ou déjà en attente)
+msgbatch_01AgWv1K7EKq3girh1fF5j3M ended : 184 ok, 0 erreurs, 0 en cours, 0 expirés
+annees : 0 tâches, 0.00 M caractères ≈ 0.00 M tokens
+rien à envoyer (tout est fait ou déjà en attente)
+msgbatch_0141sExbfHsf7YHpkb2Aqg1q ended : 22 ok, 0 erreurs, 0 en cours, 0 expirés
+enseignements : 0 tâches, 0.00 M caractères ≈ 0.00 M tokens
+rien à envoyer (tout est fait ou déjà en attente)
+msgbatch_01HHMZZtjG8cTvxCbnQe1rXe ended : 140 ok, 0 erreurs, 0 en cours, 0 expirés
+mois : 0 tâches, 0.00 M caractères ≈ 0.00 M tokens
+rien à envoyer (tout est fait ou déjà en attente)
+msgbatch_01Jr1kVPJpHTskdhtRJopUzZ ended : 291 ok, 0 erreurs, 0 en cours, 0 expirés
+/Users/sylvain/Documents/bmc-scenario/sortie/004_bmc_scenario_1933-1957.json  (70.6 Mo)
+  evenements 8901, personnes 2147, relations 3362, cours 893, idees 4716, lieux 1765, quotidien 2271, scenes 2289, citations 4680, oeuvres 4625, conflits 1002, echos 3747, dossiers_personnages 336, chapitres_annees 25, mois_decrits 292, enseignants 142
+  mois avec fiches : 262/292, dates précises : 2485
+02 texte         59 sources
+03 morceaux      1095
+04 extraction    1095/1095 morceaux
+05 fusion        1095 morceaux fusionnés
+06 personnes     336
+06 annees        25
+06 enseignements 142
+06 mois          292
+07 sorties       ['004_bmc_scenario_1933-1957.json']
+extraction.jsonl   10.47 M tokens entrée, 8.26 M sortie, ≈ 0.00 $ au tarif direct (lots : moitié ; z.ai : forfait)
+syntheses.jsonl    15.08 M tokens entrée, 7.66 M sortie, ≈ 44.24 $ au tarif direct (lots : moitié ; z.ai : forfait)
+=== TERMINÉ 2026-11-01 17:23

@@ -1,0 +1,405 @@
+{
+ "passe": "mois",
+ "cle": "1957-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2698,
+  "sortie": 12509,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1957-07",
+  "session": null,
+  "saison_et_climat": "Été, déduit du mois ; les fiches ne décrivent ni la température ni la lumière de juillet 1957.",
+  "situation": "Le collège ne fonctionne plus comme établissement : aucun trimestre d'hiver ni session documentée en 1957, pas d'annonce publique de fermeture (la décision est datée de l'automne 1956 par Chaddock), et la liquidation des biens est en cours, menée surtout par Olson. Il ne reste sur place qu'une poignée de personnes : quelques étudiants épuisés à la ferme et les derniers occupants de la colline des cabanes, sans chauffage ni réfectoire. Les fiches ne datent pas précisément la fin de la présence d'Olson sur place.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "les Olson (Charles et son épouse, départ prévu pour Gloucester)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "derniers occupants de la colline des cabanes (non nommés)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "quelques étudiants de la ferme (non nommés)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Selon Chaddock, décision de fermer prise à l'automne 1956 sans annonce publique : peu de retours, terres vendues par parcelles, trimestre d'hiver non ouvert. Les sources sont confuses sur le moment exact.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06834"
+    ]
+   },
+   {
+    "date": "1957-01-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit à Rumaker à San Francisco et lui envoie The Librarian le jour même.",
+    "certitude": "atteste",
+    "refs": [
+     "CI-03462",
+     "OE-03158"
+    ]
+   },
+   {
+    "date": "1957-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson est à San Francisco pour ses conférences Special View of History.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1957-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Un juge ordonne l'arrêt des programmes éducatifs jusqu'au paiement des dettes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06964",
+     "EV-06966",
+     "CF-00806"
+    ]
+   },
+   {
+    "date": "1957-04-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit à John Rice, qui réclame environ 2000 volumes, et lui annonce la fermeture par la formule « les loups ont eu tes moutons ».",
+    "certitude": "atteste",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "date": "1957-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Daniel Dixon, ancien étudiant, écrit dans Pageant qu'il croyait le collège invincible.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01858",
+     "CI-03463"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Photographie de la communauté réunie pour l'annonce de la fermeture ; non datée précisément dans l'année.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06949"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Selon Duberman, Olson vend ce qui reste de l'immobilier, règle la question de la bibliothèque de Rice et prévoit l'entretien des tombes de Jalowetz et de Max Dehn.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06766",
+     "EV-06933"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Les Olson partent pour la maison familiale de Gloucester ; Olson écrit à Mary Caroline Richards « Now, ARISE » : Black Mountain s'est dispersée sans échouer.",
+    "certitude": "atteste",
+    "refs": [
+     "CI-03430"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Olson tente en vain de vendre le pot shop et son terrain à un potier local.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06935"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "La bibliothèque de Rice est en partie emportée par Nell Rice ; le reste est vendu au North Carolina Wesleyan College de Rocky Mount.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06844"
+    ]
+   },
+   {
+    "date": "1957-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson annonce à Rice la vente au Wesleyan ; Rice est furieux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06910",
+     "CF-00800"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "La réédition de l'autobiographie de Rice supprime les chapitres sur Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06662"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "saison",
+    "ce_qui_arrive": "À l'automne paraît le septième et dernier numéro de la Black Mountain Review (Ginsberg, Kerouac, Snyder, Whalen, McClure, extrait de Naked Lunch, fragment de Last Exit to Brooklyn, recension négative de Howl par Rumaker). Du matériel existait pour un huitième numéro.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Jonathan Williams parcourt le pays avec des livres Jargon, Grove, City Lights et New Directions et diffuse les Black Mountain Poets.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06909"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Duncan poursuit son atelier de théâtre à San Francisco après avoir été directeur adjoint du Poetry Center.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06948",
+     "EV-06798"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Oppenheimer assure, au Cedar Bar, qu'il aurait pu inscrire vingt jeunes à Black Mountain un samedi soir.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06908"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Josef Albers, retraité de Yale depuis 1956 mais encore chairman jusqu'en 1958, engage Welliver, Engman et Hauer et introduit le cours Structural Organization.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06927",
+     "EV-06928",
+     "EV-06786"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Le tissage d'Anni Albers est installé au Temple Emanu-El de Dallas ; elle publie « The Pliable Plane ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06899",
+     "EV-06903"
+    ]
+   },
+   {
+    "date": "1957-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Anni Albers rédige sa déclaration pour Asilomar.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06968"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Elaine de Kooning quitte le studio de la 28e Rue pour St. Mark's Place ; la séparation d'avec Bill est publique et dure sans divorce.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06887"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Ruth Asawa est photographiée à San Francisco par Imogen Cunningham.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06938"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Cage compose et dédie des pièces à ses amis ; Rauschenberg et Johns commencent leur ascension chez Castelli.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06946",
+     "EV-06947"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Anni Albers écrit sur l'éducation qui doit apprendre à construire, contre l'éducation qui pourvoit au lieu de préparer.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03243"
+    ]
+   }
+  ],
+  "quotidien": "Aucune fiche ne décrit la vie ordinaire de juillet 1957. Ce qu'on peut tenir pour acquis : des travaux de liquidation (inventaire, vente, dispositions pour les tombes), une ferme travaillée par quelques étudiants épuisés, des occupants de la colline des cabanes vivant sans chauffage ni réfectoire, et aucun rituel ni réunion commune sauf en cas de menace. Pas de musique ni de cours documentés pour ce mois.",
+  "tensions": [
+   "Olson liquide le collège tout en affirmant qu'il s'est dispersé sans échouer ; Rice et d'autres y lisent un échec.",
+   "Le conflit autour de la bibliothèque de Rice : réclamation de 2000 volumes, partage entre Nell Rice et la vente au Wesleyan, colère de Rice en septembre.",
+   "Un juge a suspendu les programmes éducatifs jusqu'au paiement des dettes, ce qui rend la fermeture irréversible.",
+   "Une communauté sans gouvernement ni rituel, qui ne se réunit que sous la menace : la fin arrive sans décision commune.",
+   "La réédition de l'autobiographie de Rice efface les chapitres sur Black Mountain, alors que la légende se répand ailleurs.",
+   "La recension négative de Howl par Rumaker dans la dernière Review, face à l'accueil des Beats."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Olson seul avec la liquidation",
+    "date": "1957-07",
+    "lieu": "campus, colline des cabanes, ferme",
+    "personnages": [
+     "Charles Olson",
+     "derniers occupants non nommés"
+    ],
+    "deroule": "Olson vend ce qui reste de l'immobilier, règle la question de la bibliothèque et prépare l'entretien des tombes de Jalowetz et de Max Dehn, pendant que les derniers occupants vivent sans chauffage ni réfectoire sur la colline.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "LI-01405"
+    ]
+   },
+   {
+    "titre": "Le pot shop à vendre",
+    "date": null,
+    "lieu": "pot shop et son terrain",
+    "personnages": [
+     "Charles Olson",
+     "un potier local"
+    ],
+    "deroule": "Olson propose le pot shop et son terrain à un potier de la région ; l'offre ne aboutit pas.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06935"
+    ]
+   },
+   {
+    "titre": "Now, ARISE",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Charles Olson",
+     "Mary Caroline Richards"
+    ],
+    "deroule": "Au moment du départ pour Gloucester, Olson écrit à Richards qu'il faut se relever : la dispersion n'est pas un échec.",
+    "certitude": "deduit",
+    "refs": [
+     "CI-03430"
+    ]
+   },
+   {
+    "titre": "Les rayons partagés",
+    "date": "1957",
+    "lieu": "bibliothèque de Black Mountain",
+    "personnages": [
+     "Nell Rice",
+     "Charles Olson"
+    ],
+    "deroule": "La bibliothèque de Rice est triée : une part part avec Nell Rice, le reste sera vendu au Wesleyan de Rocky Mount.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06844",
+     "EV-06910"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juillet 1957, Olson achève la liquidation, en repensant à la décision prise sans annonce à l'automne 1956",
+    "vers_date": "1956",
+    "vers": "La décision de fermer, prise sans annonce publique à l'automne 1956",
+    "refs": [
+     "EV-06834"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet 1957, après la lettre qui a annoncé la fermeture à Rice",
+    "vers_date": "1957-04-01",
+    "vers": "La lettre du 1er avril à John Rice et sa formule sur les loups et les moutons",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet 1957, Anni Albers pense aux années Bauhaus aux côtés de Klee",
+    "vers_date": null,
+    "vers": "Les années Bauhaus d'Anni et Josef Albers aux côtés de Paul Klee",
+    "refs": [
+     "EC-03244"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1957, la bibliothèque de Rice est en train d'être démantelée",
+    "vers_date": "1957-09",
+    "vers": "L'annonce à Rice de la vente au Wesleyan de Rocky Mount et sa colère",
+    "refs": [
+     "EV-06910",
+     "CF-00800"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1957, la communauté est dispersée et la Review encore en préparation",
+    "vers_date": "1957",
+    "vers": "Le septième et dernier numéro de la Black Mountain Review à l'automne",
+    "refs": [
+     "EV-06906",
+     "EV-06907"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1957, Albers enseigne encore à Yale et y transmet sa méthode",
+    "vers_date": "1958",
+    "vers": "La fin de la présidence d'Albers à Yale, qui n'arrive qu'en 1958",
+    "refs": [
+     "EV-06927",
+     "EV-06928"
+    ]
+   }
+  ],
+  "motifs": [
+   "extinction sans annonce plutôt que fermeture nette",
+   "dispersion contre échec",
+   "liquidation par Olson et dernier survivant",
+   "la bibliothèque comme objet de conflit",
+   "la légende qui se répand hors du campus",
+   "transmission de la méthode par le faire vers l'extérieur",
+   "hiérarchie fondée sur le talent et l'honnêteté"
+  ],
+  "lacunes": "Aucune fiche ne date un événement de juillet 1957, ni la session, ni la météo, ni la vie quotidienne. Le moment exact de la décision est contesté (automne 1956 selon Chaddock, sans consensus). Le nombre d'étudiants payants en fin de parcours (moins d'une demi-douzaine) ne dit pas qui était présent en juillet. La date du départ des Olson, de la lettre à Richards, de la vente du pot shop et de la photographie de l'annonce reste inconnue."
+ }
+}

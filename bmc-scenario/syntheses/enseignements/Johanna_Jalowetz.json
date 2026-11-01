@@ -1,0 +1,125 @@
+{
+ "passe": "enseignements",
+ "cle": "Johanna Jalowetz",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3344,
+  "sortie": 2622,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Johanna Jalowetz",
+  "cours": [
+   {
+    "intitule": "Reliure (bookbinding / bindery)",
+    "periodes": [
+     "années 1930",
+     "1947-1948",
+     "à partir de l'automne 1949",
+     "début des années 1950"
+    ],
+    "atteste": "oui",
+    "objectifs": "Transmettre l'art de la reliure à la main (CO-00608). Attesté comme enseignement au collège dès les années 1930 (CO-00132). Les fiches ne détaillent pas de programme au-delà de cet objectif ; le reste est déduit des travaux cités.",
+    "deroule_type_seance": "Peu documenté. Un atelier est installé dans The Stables (CO-00608). Dans l'atelier, une énergie nerveuse règne, avec l'interdiction de toucher à quoi que ce soit (CO-00608) : on regarde et on travaille le matériau avec soin. La consigne récurrente est de ne pas « travailler dans le vide » (CO-00444). Rien n'indique une structure horaire ni une progression des séances. La fiche de 1949 associe la reliure au chant (CO-00568), ce qui laisse penser qu'elle menait les deux activités en parallèle, sans que l'on sache comment elles s'articulaient.",
+    "exercices": [
+     {
+      "consigne": "Relier les livres de la bibliothèque pour Nell.",
+      "materiaux": "Atelier dans The Stables (le matériel précis n'est pas donné).",
+      "but": "Travail de reliure réel au service de la bibliothèque. La finalité est déduite du libellé.",
+      "refs": [
+       "CO-00608"
+      ]
+     },
+     {
+      "consigne": "Enseigner l'art de la reliure aux sœurs Franklin, Phyllis et Arlene, du Kansas.",
+      "materiaux": "Atelier dans The Stables.",
+      "but": "Transmettre le métier à des élèves précises.",
+      "refs": [
+       "CO-00608"
+      ]
+     },
+     {
+      "consigne": "Relier le manuscrit illustré du Journal of Albion Moonlight de Patchen pour Jonathan Williams.",
+      "materiaux": "Manuscrit illustré, travail de reliure main. Le détail des matériaux n'est pas donné.",
+      "but": "Réaliser une commande réelle pour un étudiant et poète, Jonathan Williams.",
+      "refs": [
+       "CO-00608"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Elle admonestait avec patience : « Don't work in the air », c'est-à-dire travailler le matériau lui-même, concrètement, plutôt que dans l'abstrait. Ann Rice entendait encore cette voix des années plus tard (CO-00444)."
+    ],
+    "critique_et_evaluation": "Aucune évaluation formelle n'est attestée dans les fiches. Seule l'admonestation sur le travail concret (CO-00444) fait office de correction.",
+    "reactions_etudiants": "Ann Rice garde en mémoire sa voix, longtemps après (CO-00444). Rumaker, invité à regarder l'atelier, est si mal à l'aise face à l'énergie nerveuse de la séance et à l'interdiction de toucher qu'il part avant la fin (CO-00608). Les deux réactions divergent : attachement durable d'un côté, inconfort de l'autre.",
+    "evolution": "Les fiches la situent dans l'enseignement de la reliure dès les années 1930 (CO-00132), puis en 1947-1948 (CO-00444), à partir de l'automne 1949 (CO-00568) et au début des années 1950 (CO-00608). La datation de CO-00132 (1930, avec la mention « années 1930 ») est floue, car le collège est fondé en 1933 : prudence. Elle enseigne aussi à l'époque où elle devient veuve (voir les scènes sur la mort de Heinrich).",
+    "refs": [
+     "CO-00132",
+     "CO-00444",
+     "CO-00568",
+     "CO-00608"
+    ]
+   },
+   {
+    "intitule": "Leçons de chant",
+    "periodes": [
+     "à partir de l'automne 1949",
+     "début des années 1950"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non précisés dans les fiches. On sait seulement qu'elle donnait des leçons de chant en parallèle de la reliure (CO-00568, CO-00607).",
+    "deroule_type_seance": "Une seule image de séance : elle écoute en balançant la tête d'un côté à l'autre, les yeux noirs écarquillés d'étonnement, le front plissé (CO-00607). Ni répertoire ni exercices techniques ne sont documentés.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "À propos de Virginia, elle confie qu'elle n'a « not much of a voice » (CO-00607) : jugement franc, rapporté par Rumaker, sur une voix qu'elle entendait pourtant."
+    ],
+    "critique_et_evaluation": "Appréciation sincère et sans fard sur la qualité d'une voix (CO-00607). On ignore si elle la disait à l'élève elle-même : la fiche parle d'une confidence.",
+    "reactions_etudiants": null,
+    "evolution": "Les leçons de chant apparaissent associées à la reliure à partir de l'automne 1949 (CO-00568). Contexte : le collège chantait des œuvres chorales de Brahms à l'occasion du deuil de Heinrich (SC-00970, SC-00971), mais rien n'indique que ces moments relevaient de ses cours.",
+    "refs": [
+     "CO-00568",
+     "CO-00607"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Travailler le matériau, pas dans le vide : l'apprentissage passe par le contact avec la matière réelle plutôt que par l'abstraction.",
+    "en_classe": "Attesté au collège : c'est sa phrase d'atelier (CO-00444). Transposable en séance : chaque exercice débute par la manipulation d'un objet réel (papier, fil, cuir), et l'on corrige les gestes avant les idées. Lien déduit avec la reliure de commandes réelles (CO-00608).",
+    "atteste": "oui",
+    "refs": [
+     "CO-00444",
+     "CO-00608"
+    ]
+   },
+   {
+    "idee": "Le travail à la main comme service à la communauté : relier les livres de la bibliothèque, un manuscrit pour un camarade.",
+    "en_classe": "Attesté pour les commandes (CO-00608). Séance possible : chaque élève répare ou relie un livre ou un manuscrit d'un autre membre de la communauté. L'extension à une règle pédagogique générale est une déduction. Écho possible avec le deuil collectif par le travail manuel (SC-00970), mais ce n'est pas son enseignement.",
+    "atteste": "incertain",
+    "refs": [
+     "CO-00608",
+     "SC-00970"
+    ]
+   },
+   {
+    "idee": "L'écoute attentive et sincère : écouter une voix avec tout le corps, puis dire franchement ce que l'on entend.",
+    "en_classe": "Attesté seulement comme attitude de séance (balancement de tête, étonnement) et comme jugement confié sur Virginia (CO-00607). La transposition en exercice d'écoute est une déduction, non attestée au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "CO-00607"
+    ]
+   },
+   {
+    "idee": "Le savoir-faire artisanal comme cadre d'une vie commune : couture d'une robe de mariage dans un tissu d'Anni Albers pour Ruth Asawa.",
+    "en_classe": "Hors cours, en 1949 : Johanna Jalowetz coud la robe noire d'Asawa dans un tissu d'Anni Albers (SC-01206). Elle n'enseigne pas la couture selon les fiches ; c'est un indice sur ses compétences manuelles, à ne pas transformer en cours.",
+    "atteste": "non",
+    "refs": [
+     "SC-01206"
+    ]
+   }
+  ]
+ }
+}

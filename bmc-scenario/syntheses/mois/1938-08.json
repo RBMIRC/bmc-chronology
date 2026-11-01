@@ -1,0 +1,264 @@
+{
+ "passe": "mois",
+ "cle": "1938-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4310,
+  "sortie": 16069,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "août 1938 (1938-08)",
+  "session": "Vacances d'été, intersession : l'année académique 1937-1938 est close (déduit, aucune session d'été n'est attestée dans les fiches)",
+  "saison_et_climat": "Été 1938. Les fiches ne décrivent ni le temps ni le climat, et ne disent pas si la chaleur ou les intempéries pèsent sur les travaux.",
+  "situation": "Le collège est entre deux années et sans recteur. Rice a été écarté du rectorat en avril (EV-02840) et son congé, voté à l'unanimité par les fellows, court jusqu'en septembre ; rien n'atteste son retour avant l'automne. La question du rectorat ne se règle qu'à l'automne, par un vote du Board en faveur de Wunsch (EV-02851). Pendant l'été, la gestion courante tient : l'auberge du Lake Eden Inn, une ferme naissante, des plans d'architecture pour le campus. Deux affaires de correspondance marquent la fin du mois : Albers exige la correction des remarques de Moholy-Nagy sur le Vorkurs (EV-02849, SC-00736), et le Board acte le non-renouvellement de Schawinsky, mémo daté du 31 août (EV-02850). Les salaires, coupés de 25 % cette année-là, et les budgets de besoin forment le fond économique de la période.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold (secrétaire)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier (trésorier)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Roscoe Penley",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1938-08-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers écrit à Moholy-Nagy pour exiger la suppression de deux remarques de la réédition de The New Vision, qu'il juge fausses, et l'accuse d'avoir repris les termes Struktur, Faktur et Textur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02849",
+     "SC-00736"
+    ]
+   },
+   {
+    "date": "1938-08-31",
+    "precision": "jour",
+    "ce_qui_arrive": "Moholy-Nagy cède et promet de retirer les passages incriminés de l'édition 1938 ; la date du 31 août est déduite du délai de trois jours indiqué par la scène.",
+    "certitude": "probable",
+    "refs": [
+     "SC-00736",
+     "EV-02849"
+    ]
+   },
+   {
+    "date": "1938-08-31",
+    "precision": "jour",
+    "ce_qui_arrive": "Mémo confidentiel au Board of Fellows sur le non-renouvellement de Schawinsky ; des lettres de Mangold d'avril et d'août attestent l'hostilité envers lui.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02850"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "Le collège gère l'auberge du Lake Eden Inn ; la ferme prend forme avec Roscoe Penley et l'énergie de Dreier, et la communauté mange déjà ses produits.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02795",
+     "EV-02796"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "saison",
+    "ce_qui_arrive": "Gropius et Breuer livrent des plans contre 400 dollars ; Dreier estime la réalisation à 500 000 dollars.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02772",
+     "OE-01358"
+    ]
+   }
+  ],
+  "quotidien": "Travaux de l'été : l'auberge du Lake Eden Inn est tenue par le collège, la ferme se met en place sous Roscoe Penley avec l'appui de Dreier, et la communauté consomme déjà ses propres produits. Les fiches ne mentionnent ni cours, ni concerts, ni répétitions pour ce mois.",
+  "tensions": [
+   "Rice, absent, reste une figure contestée : la faculté conditionne son retour et le rectorat reste à pourvoir.",
+   "Albers contre Moholy-Nagy : paternité du Vorkurs et honneur pédagogique d'Albers, déjà installé en Amérique.",
+   "Mangold et le Board contre Schawinsky : hostilité attestée et non-réembauche, avec un départ qui se joue fin août.",
+   "Économie fragile : salaires réduits de 25 %, budgets de besoin, et un projet architectural estimé à 500 000 dollars pour des plans payés 400 dollars.",
+   "Sources contradictoires sur le printemps : date du départ de Rice (3 ou 7 mars), date du refus de Chicago (avril chez Chaddock, juin chez Duberman), chronologie des décisions d'avril et de mai ; ces écarts pèsent sur ce que chacun sait en août.",
+   "Le lien entre le suicide de Dick Porter et le matériau macabre de Schawinsky est plausible mais jamais affirmé."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La lettre d'Albers à Moholy-Nagy",
+    "date": "1938-08-28",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "László Moholy-Nagy"
+    ],
+    "deroule": "Albers, qui juge fausses deux remarques de The New Vision, exige leur suppression ; trois jours plus tard, Moholy cède et dit que cette suppression rejoint ses propres intentions. La froideur est courtoise, et l'enjeu est la paternité du Vorkurs.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00736",
+     "EV-02849"
+    ]
+   },
+   {
+    "titre": "Le mémo du Board sur Schawinsky",
+    "date": "1938-08-31",
+    "lieu": null,
+    "personnages": [
+     "Schawinsky",
+     "Mangold",
+     "Board of Fellows"
+    ],
+    "deroule": "Le Board examine le non-renouvellement de Schawinsky, dans un climat où les lettres de Mangold d'avril et d'août attestent son hostilité. Le contenu exact du mémo n'est pas connu ; la scène ne peut montrer que la décision et son contexte.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02850"
+    ]
+   },
+   {
+    "titre": "Les plans de Gropius et Breuer",
+    "date": "1938",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Dreier",
+     "Roscoe Penley",
+     "Gropius",
+     "Breuer"
+    ],
+    "deroule": "Les plans arrivent contre 400 dollars. Dreier, qui pousse la ferme, chiffre leur réalisation à 500 000 dollars, somme hors de portée. L'ambition architecturale se heurte à la réalité de la ferme.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02772",
+     "OE-01358",
+     "EV-02795"
+    ]
+   },
+   {
+    "titre": "Première récolte à la ferme",
+    "date": "1938",
+    "lieu": "ferme de Lake Eden",
+    "personnages": [
+     "Roscoe Penley",
+     "Dreier",
+     "la communauté"
+    ],
+    "deroule": "La communauté mange déjà les produits de la ferme, en pleine mise en place. Le détail des repas et des tâches n'est pas documenté.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02795",
+     "EV-02796"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le mémo du 31 août sur Schawinsky, déjà marqué par l'hostilité de Mangold",
+    "vers_date": "1938-05",
+    "vers": "Danse Macabre de Schawinsky donnée en mai : théâtre en rond, spectateurs masqués et encapuchonnés, partition d'Evarts, orchestre sous Allan Sly",
+    "refs": [
+     "EV-02846",
+     "EV-02817",
+     "EV-02765"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La querelle Albers-Moholy de fin août, qui ravive la question de l'honneur pédagogique",
+    "vers_date": "1938-03-03",
+    "vers": "Mangold et Dreier négocient avec Rice un congé jusqu'au 1er mai ; Rice part seul pour Folly Beach, départ daté du 3 ou du 7 mars selon les sources",
+    "refs": [
+     "EV-02837",
+     "EV-02835",
+     "SC-00733",
+     "EV-02838"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'été sans recteur, avec le congé de Rice prolongé jusqu'en septembre",
+    "vers_date": "1938-04-13",
+    "vers": "Chaddock fait démissionner Rice du rectorat ; le vote unanime des fellows prolonge son congé ; réunion spéciale du Board le 29 avril",
+    "refs": [
+     "EV-02840",
+     "EV-02839",
+     "EV-02841"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La pause de l'été, quand la communauté se disperse et que l'isolement pèse",
+    "vers_date": null,
+    "vers": "Suicide de Dick Porter, date non précisée (cinquième année, donc 1937-1938) ; le lendemain, Moellenhoff parle en réunion générale de culpabilité collective face à une solitude choisie",
+    "refs": [
+     "EV-02762",
+     "EV-02763",
+     "SC-00715"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin août, Rice encore absent et le rectorat vacant",
+    "vers_date": "1938",
+    "vers": "Automne : Rice revient en « fantôme » à Lee Hall, écrit son autobiographie et reçoit ses soutiens sur rendez-vous ; le Board vote le rectorat à Wunsch",
+    "refs": [
+     "EV-02851",
+     "EV-02852",
+     "SC-00729",
+     "CO-00297"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin août, la fierté d'Albers en jeu dans la querelle avec Moholy-Nagy",
+    "vers_date": "1938-11-19",
+    "vers": "Dreier télégraphie à Eleanor Roosevelt le 19 novembre ; Albers prononce son discours au Cosmopolitan Club de New York le 9 décembre ; l'exposition Bauhaus 1919-1928 du MoMA, en décembre, présente des exercices d'élèves d'Albers",
+    "refs": [
+     "EV-02854",
+     "EV-02860",
+     "EV-02794",
+     "EV-02858"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin août, les plans de Gropius et Breuer sur la table",
+    "vers_date": "1940",
+    "vers": "Le projet architectural est abandonné vers 1940 au profit de Kocher",
+    "refs": [
+     "OE-01358"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1938, Elaine Fried à New York, hors du collège",
+    "vers_date": "1948",
+    "vers": "Elaine Fried, après sa rencontre avec Milton Resnick, devient élève et maîtresse de Willem de Kooning ; ce fil prépare les étés de 1948",
+    "refs": [
+     "EV-02743",
+     "EV-02744",
+     "EV-02778"
+    ]
+   }
+  ],
+  "motifs": [
+   "retrait et fantôme : Rice comme absence qui continue de peser",
+   "honneur pédagogique et paternité des idées (Vorkurs, Struktur/Faktur/Textur)",
+   "fondation sans chef : le collège tient sans recteur",
+   "économie de pénurie et autosuffisance agricole",
+   "mémoire blessée : suicide de Porter, scène de Schawinsky"
+  ],
+  "lacunes": "Les fiches ne disent pas où se trouvent Rice, Alice, Nell, Schawinsky, Moholy-Nagy ou Aydelotte en août, ni qui est présent à Lake Eden. Le contenu exact du mémo du 31 août sur Schawinsky est inconnu. Le jour exact de l'engagement de Moholy n'est pas précisé au-delà de la déduction de trois jours. La date du suicide de Porter est inconnue. Aucune trace de cours, de concerts ou de la météo n'apparaît pour ce mois."
+ }
+}

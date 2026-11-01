@@ -1,0 +1,171 @@
+{
+ "passe": "mois",
+ "cle": "1956-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3154,
+  "sortie": 12003,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1956-01",
+  "session": "hiver 1956, sans session formelle : la synthèse décrit un collège sans organisation ni rituels",
+  "saison_et_climat": "hiver ; les fiches ne décrivent pas le climat de janvier",
+  "situation": "Le collège survit sans l'avouer. Wolpe est parti début 1956, les inscriptions oscillent autour d'une quinzaine d'étudiants qui vont et viennent, enseignants et étudiants se servent mutuellement de ressource, et le campus bas est loué à un camp de garçons chrétien qui ouvrira l'été. La fermeture n'est pas encore décidée ; elle sera annoncée en octobre.",
+  "presents_probables": [
+   {
+    "nom": "Joe Fiore",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eloise Mixon",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956-01-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Ebbe Borregaard, en fin de service militaire à Newport News, écrit au collège pour demander son admission. Il sera le dernier étudiant recruté.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06838"
+    ]
+   },
+   {
+    "date": "1956-01-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Keller écrit au président Griswold pour tenter de rétablir à Yale une grande partie du programme d'avant 1950, à l'approche de la fin du mandat d'Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06839"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "periode",
+    "ce_qui_arrive": "Stefan Wolpe quitte définitivement le collège, convaincu que la communauté n'a aucune chance à long terme et qu'on n'y forme pas de professionnels. D'après la synthèse 1956, qui ne donne pas d'identifiant de fiche.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Pendant l'hiver, Joe Fiore exprime à Dan Rice un ressentiment qu'Olson a nourri envers lui. Rice, qui n'est plus étudiant, préfère partir ; Fiore parle bientôt de partir aussi. D'après la synthèse 1956, qui ne donne pas d'identifiant de fiche.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Sans structure ni rituels, la vie se fait en tutorat. Les admissions passent par Eloise Mixon, qui a perdu le statut GI et répond aux demandes en joignant une fausse brochure. Rice reste au collège sans être étudiant. Les fiches ne disent rien des repas, de la musique, des cours ni des travaux de ce mois.",
+  "tensions": [
+   "Fiore contre Rice, avec l'ombre du ressentiment d'Olson",
+   "Le départ de Wolpe, qui juge que le collège ne forme pas de professionnels",
+   "Le statut GI perdu et la fausse brochure d'Eloise Mixon",
+   "Des dettes qui absorbent presque tout l'argent et une survie financière incertaine",
+   "Keller contre l'héritage pédagogique d'Albers à Yale"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Fiore reproche à Rice l'estime d'Olson",
+    "date": "1956",
+    "lieu": null,
+    "personnages": [
+     "Joe Fiore",
+     "Dan Rice"
+    ],
+    "deroule": "Pendant l'hiver, Fiore fait sentir à Rice le ressentiment qu'Olson a nourri envers lui, parce qu'Olson le tenait pour le meilleur peintre en activité. Rice, qui ne suit plus de cours, profite du vide de structure ; il veut partir, et Fiore ne tarde pas à parler de partir aussi.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Lettre de Borregaard depuis Newport News",
+    "date": "1956-01-08",
+    "lieu": "Newport News, Virginie",
+    "personnages": [
+     "Ebbe Borregaard"
+    ],
+    "deroule": "Borregaard, au bout de son service militaire, écrit au collège. Sa discipline de caserne contraste déjà avec l'anarchie qu'il découvrira à l'automne. Sa lettre est conservée aux Western Regional Archives.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06838",
+     "EC-03194"
+    ]
+   },
+   {
+    "titre": "Keller écrit à Griswold",
+    "date": "1956-01-17",
+    "lieu": "Yale",
+    "personnages": [
+     "Keller",
+     "Griswold"
+    ],
+    "deroule": "Keller plaide auprès de Griswold pour restaurer l'essentiel du programme d'avant 1950, au moment où le mandat d'Albers touche à sa fin. Le geste porte sur l'héritage pédagogique d'Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06839"
+    ]
+   },
+   {
+    "titre": "Elaine devant le bébé de Joan Ward",
+    "date": "1956-01-29",
+    "lieu": "Hôpital, New York",
+    "personnages": [
+     "Elaine de Kooning",
+     "Willem de Kooning",
+     "Joan Ward"
+    ],
+    "deroule": "Elaine, qui vient de subir une hystérectomie, découvre la nouveau-née et le registre où Joan Ward figure comme « Joan de Kooning ». Elle répond par une phrase joyeuse, « Comme c'est merveilleux. Bill et moi avons toujours voulu un bébé. », qui masque sa déchirure. Scène hors du collège, rapportée par oui-dire ; elle pèse sur le couple Elaine-Bill.",
+    "certitude": "probable",
+    "refs": [
+     "SC-01844"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashforward",
+    "depuis": "En janvier, Borregaard écrit depuis Newport News, encore en service",
+    "vers_date": "1956-09",
+    "vers": "Son arrivée fin septembre sur un campus envahi par le kudzu et sans électricité, où il découvre une liberté sans règles",
+    "refs": [
+     "EV-06838",
+     "EC-03194"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Pendant l'hiver, Fiore et Rice parlent de partir",
+    "vers_date": "1956-10",
+    "vers": "La dispersion d'automne : Fiore à New York, le collège qui se défait et la fermeture annoncée à la bougie chez Olson",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "En janvier, le collège fonctionne encore sans spectacle majeur en vue",
+    "vers_date": "1956-08-29",
+    "vers": "Medea de Duncan jouée les 29 et 30 août, dernier spectacle du collège ; EC-03193 le place en septembre, ce qui contredit la synthèse",
+    "refs": [
+     "EC-03193"
+    ]
+   }
+  ],
+  "motifs": [
+   "La dispersion plutôt que la mort nette du collège",
+   "Le tutorat qui remplace une structure disparue",
+   "Le prestige passé face aux ruines présentes",
+   "Le ressentiment d'Olson, relayé par Fiore contre Rice",
+   "Une liberté sans règles, en rupture avec la discipline militaire",
+   "Les dettes qui absorbent l'argent"
+  ],
+  "lacunes": "La vie quotidienne réelle de janvier (cours, repas, musique, travaux) n'est pas documentée. La présence de Huss, Williams, Creeley et Duncan en janvier n'est pas attestée. La date exacte du départ de Wolpe reste floue. La réponse de Griswold à Keller est inconnue. La date de Medea diverge entre la synthèse (29-30 août) et EC-03193 (septembre)."
+ }
+}

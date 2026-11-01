@@ -1,0 +1,236 @@
+{
+ "passe": "mois",
+ "cle": "1940-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5612,
+  "sortie": 12911,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-09",
+  "session": "Automne 1940, rentrée probable d'après le contexte (déduit) ; les fiches ne nomment pas de session. Le work camp d'été, lancé plus tôt, fait place au chantier d'automne.",
+  "saison_et_climat": "Fin d'été puis automne naissant dans les Blue Ridge. Les fiches ne donnent pas de météo ; seul le sol détrempé, qui cache des poches de boue sous les fondations, indique un terrain humide.",
+  "situation": "Le campus de Lake Eden se construit par la communauté elle-même. Le chantier du Studies Building est ouvert le 12 septembre (synthèse 1940), avec l'objectif d'un toit avant Noël. Kocher s'installe à temps plein. Un vendredi de ce mois, des poches de boue sous les fondations rendent nécessaires des pieux, donc une machine inabordable. Le samedi suivant, Charlie Godfrey propose un pilon à pieux tiré par le Farmall. Le lundi, le béton est remplacé par la coupe de pieux en forêt, avec un retard estimé à deux semaines. Le collège manque d'argent, au point de peiner à payer la nourriture.",
+  "presents_probables": [
+   {
+    "nom": "Charlie Godfrey, entrepreneur local qui invente le pilon à pieux",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "le narrateur, ingénieur et probablement Lane (source Lane 1990)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lawrence Kocher, installé à temps plein avec sa famille",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "« Larry », qui dirige les travaux avec Charlie dans EV-03124 (probablement Kocher)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants de Black Mountain College, exaltés par le plan de la forêt",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "enseignants de Black Mountain College, qui vont couper des pieux le lundi",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "étudiants de la Harvard School of Architecture, dont Nim et Nik, arrivés au chantier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eddie Dreier, qui photographie l'avancement du chantier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bascombe Allen, chef charpentier",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Un vendredi après-midi, après le drainage et les tranchées prêtes pour le béton du lundi, on découvre des poches de boue. Il faut des pieux, et aucune machine n'est abordable.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03122",
+     "SC-00796"
+    ]
+   },
+   {
+    "date": "1940-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Le samedi soir, Charlie Godfrey montre au narrateur le schéma d'une machine à pieux montée sur le Farmall : une tour de 27 pieds, un billon de black-gum de 500 livres lâché d'une poulie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03123",
+     "SC-00797"
+    ]
+   },
+   {
+    "date": "1940-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Le programme du lundi change : étudiants et enseignants montent couper des pieux au lieu de couler le béton. Le retard est estimé à deux semaines.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03124",
+     "SC-00798"
+    ]
+   },
+   {
+    "date": "1940-09-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Ouverture du chantier du Studies Building, avec l'objectif « roof by Christmas ».",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1940"
+    ]
+   },
+   {
+    "date": "1940-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Kocher s'installe à temps plein au collège. Il travaille chaque jour à la construction selon ses plans et donne des cours d'architecture et de design.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03126"
+    ]
+   },
+   {
+    "date": "1940-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Des étudiants de la Harvard School of Architecture rejoignent le chantier, dont deux Thaïlandais surnommés Nim et Nik.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03126"
+    ]
+   },
+   {
+    "date": "1940-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Harper's publie « My Father's Folks », souvenirs de Rice sur la maison de sa grand-mère paternelle, écrits avec un mépris qui ne ménage pas les femmes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03132"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Une nuit, deux mécontents affichent « Wanted: zombies for the work program », visant Dreier et les chants folkloriques du chemin de chantier. Une assemblée houleuse suit, sans date précise.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1940"
+    ]
+   }
+  ],
+  "quotidien": "Des journées de chantier : drainage, tranchées, coupe de pieux en forêt, ossature bois montée vite. Étudiants et enseignants alternent cours et travail manuel. Kocher donne des cours d'architecture et de design en plus du chantier. La nourriture est rationnée faute d'argent. Des chants folkloriques rythment le chemin vers le chantier, selon la synthèse de l'automne.",
+  "tensions": [
+   "Le programme de construction risque de s'arrêter à cause du sol instable, et le collège n'a pas d'argent pour une machine.",
+   "Le narrateur redoute ce qu'il dira aux étudiants pleins d'espoir : l'enthousiasme repose sur un plan improvisé.",
+   "Crise de liquidité : seuls 40 % des salaires non garantis seront payés en 1940-41, pire que du temps de Lee Hall (synthèse).",
+   "Contestation naissante contre la « mystique du salut par le travail » (synthèse, date incertaine).",
+   "La campagne des deux millions échoue après la chute de la France : les donateurs ont peur.",
+   "Le souvenir de Rice, publié dans Harper's, rouvre les plaies du départ."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le vendredi noir du chantier",
+    "date": "1940-09",
+    "lieu": "Chantier du Studies Building puis route vers Blue Ridge",
+    "personnages": [
+     "le narrateur",
+     "Charlie Godfrey"
+    ],
+    "deroule": "Le narrateur amène Charlie voir les poches de boue et le laisse réfléchir. Puis il redescend vers Blue Ridge, en se demandant quoi dire aux étudiants pleins d'espoir.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00796",
+     "EV-03122"
+    ]
+   },
+   {
+    "titre": "Samedi soir : le croquis",
+    "date": "1940-09",
+    "lieu": "Maison de Charlie, près de Blue Ridge",
+    "personnages": [
+     "Charlie Godfrey",
+     "le narrateur"
+    ],
+    "deroule": "Charlie téléphone. Le narrateur descend chez lui et voit le schéma d'un pilon à pieux mû par le Farmall. Ingénieur, il juge que la machine tient.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00797",
+     "EV-03123"
+    ]
+   },
+   {
+    "titre": "Lundi en forêt",
+    "date": "1940-09",
+    "lieu": "Forêt du domaine, Lake Eden",
+    "personnages": [
+     "étudiants de Black Mountain College",
+     "enseignants de Black Mountain College",
+     "Charlie Godfrey"
+    ],
+    "deroule": "Le béton est remplacé par la coupe de pieux. Les étudiants sont exaltés : le retard n'est que de deux semaines, le temps que la machine enfonce les pieux.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00798",
+     "EV-03124"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Au retour vers Blue Ridge, après le vendredi noir, le narrateur mesure ce qu'il a permis en ayant acheté le tracteur quelques mois plus tôt.",
+    "vers_date": "1940-05",
+    "vers": "En mai, le collège dégage 3 000 $ pour un tracteur Farmall et un wagon de ciment. C'est ce tracteur qui rend possible la machine de Charlie.",
+    "refs": [
+     "EV-03123"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Au moment où Harper's publie les souvenirs de Rice, qui est alors retiré à Southern Pines.",
+    "vers_date": "1940-02",
+    "vers": "Le départ de Rice se joue en février : démission datée du 17 février selon Chaddock, réglée en mars, avec une annonce publique de départ volontaire.",
+    "refs": [
+     "EV-03132"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Quand les photos du chantier partent vers le nord pour être montrées aux donateurs potentiels.",
+    "vers_date": "1940",
+    "vers": "À l'automne, les photos sont montrées à la Maison-Blanche, où Dreier dîne avec les Roosevelt. Elles remontent le moral sans rapporter d'argent direct.",
+    "refs": [
+     "EV-03124"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Au moment où le chantier avance sans machine ni argent, avec des étudiants qui coupent des pieux.",
+    "vers_date": "1941",
+    "vers": "En 1941, la faculté pose un maximum conseillé d'un à trois après-midi de travail par semaine, ce qui apaise le conflit né de la mystique du travail.",
+    "refs": [
+     "EV-03124"
+    ]
+   }
+  ],
+  "motifs": [
+   "le salut par le travail face au réel",
+   "l'improvisation technique comme vertu collective",
+   "l'espoir collectif fragile",
+   "le Farmall, machine de la survie du chantier",
+   "les photos comme monnaie d'espoir",
+   "le fantôme de Rice, entre départ réglé et écrits publiés"
+  ],
+  "lacunes": "Aucune fiche ne donne le jour exact du vendredi, du samedi ou du lundi de ce mois, ni la date d'arrivée de Kocher ou des étudiants de Harvard. La session n'est pas nommée. L'identité du « narrateur » n'est pas explicite (Lane 1990, probable). « Larry » est probablement Kocher, à vérifier. Divergence : EV-03124 dit que les photos rapportent de l'argent, alors que la synthèse affirme qu'elles ne rapportent pas d'argent direct. La date de l'affiche « zombies » et de l'assemblée reste inconnue. Les récits de Lane sont des témoignages, avec les limites de la mémoire."
+ }
+}

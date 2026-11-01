@@ -1,0 +1,221 @@
+{
+ "passe": "mois",
+ "cle": "1945-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3927,
+  "sortie": 12783,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1945-07",
+  "session": "session d'été : instituts d'été (Gropius, Feininger, Motherwell, Kauder, Bodky, Marx et d'autres), sans session régulière à ce moment",
+  "saison_et_climat": "Été dans les montagnes autour d'Asheville, à Lake Eden : chaleur, crue nocturne du torrent, cascade où l'on se baigne nu, serpents partout, crotales. Détails tirés de la synthèse 1945, qui n'a pas d'identifiant.",
+  "situation": "Le collège accueille ses instituts d'été dans une communauté réduite et réorganisée depuis la scission de 1944. Deux chanteurs noirs, Carol Brice puis Roland Hayes, sont venus selon la formule d'intégration arrêtée en mai. Le récital de Hayes sert de test décisif. Le collège garde le silence sur l'affaire Wunsch de juin et prépare l'automne : neuf nouveaux enseignants, GI Bill, arrivée de Wallen.",
+  "presents_probables": [
+   {
+    "nom": "Roland Hayes",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "femme et fille de Roland Hayes (non nommées)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Carol Brice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "mère et bébé de Carol Brice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Edward Lowinsky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Reginald Boardman",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "ouvreurs étudiants",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Gropius, Feininger, Motherwell, Kauder, Bodky, Marx",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ray Johnson, Elaine Schmitt",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Carol Brice, avec sa mère et son bébé, reste quatre semaines. Le jour de son dernier concert arrivent Roland Hayes, sa femme et sa fille ; Hayes reste deux semaines.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03794",
+     "SC-00964"
+    ]
+   },
+   {
+    "date": "1945-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Récital de Roland Hayes devant environ 400 personnes dont 30 à 40 Noirs, places intégrées, aucun incident, ouvreurs briefés par Lowinsky.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00963"
+    ]
+   },
+   {
+    "date": "1945-07",
+    "precision": "session",
+    "ce_qui_arrive": "Les instituts d'été amènent Gropius, Feininger, Motherwell, Kauder, Bodky, Marx. Ray Johnson et Elaine Schmitt sont admis. Albers tient son samedi matin.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Vie d'été dense : repas où les Européens sont à table pendant que les étudiants américains forment l'autre monde ; chants en chaîne de table en table au dîner ; pas de couvre-feu ; baignades nues à la cascade ; steaks seulement aux randonnées ; nouvelles du soir ; serpents et crotales, dont un tué par Hayes. Ces éléments viennent de la synthèse 1945 et ne sont pas datés au jour.",
+  "tensions": [
+   "L'intégration est un pari en Caroline du Nord : le Klan reste une peur que Lowinsky a fait taire, et la remarque d'une Blanche « les temps ont changé » laisse deviner une gêne persistante.",
+   "Silence imposé sur Wunsch : la faculté interdit d'informer les étudiants, la version officielle parle de surmenage, personne n'a protesté.",
+   "Idylle contre poids du lieu, notée par Lane et Martin.",
+   "Deux mondes qui cohabitent sans se mêler : Européens à table, étudiants américains ailleurs.",
+   "La rumeur d'« instabilité nerveuse » contre Wallen, levée après vérification, annonce la polarisation Wallen contre Albers qui commence à l'automne. Selon Wallen, Albers en serait l'origine.",
+   "Sources en désaccord sur le rectorat d'Albers : Chaddock le place peu après Wunsch, d'autres fiches en 1948."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le concert de Roland Hayes",
+    "date": "1945-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Roland Hayes",
+     "Reginald Boardman",
+     "Edward Lowinsky",
+     "ouvreurs étudiants"
+    ],
+    "deroule": "Plus grande foule jamais vue au collège, environ 400 personnes dont 30 à 40 Noirs. Lowinsky a briefé les ouvreurs à une courtoisie extrême ; à la question des places, réponse « où vous voudrez ». Places intégrées, aucun incident. À la réception, une Blanche murmure « les temps ont changé ». Tension maîtrisée puis triomphe silencieux.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00963"
+    ]
+   },
+   {
+    "titre": "Hayes chante pour Brice chez les Lowinsky",
+    "date": "1945-07",
+    "lieu": "maison des Lowinsky",
+    "personnages": [
+     "Roland Hayes",
+     "Carol Brice",
+     "Edward Lowinsky"
+    ],
+    "deroule": "Le jour du dernier concert de Brice, Hayes arrive avec sa femme et sa fille. Il n'a jamais entendu Brice et il est conquis. Lors d'une soirée, il chante ses arrangements inédits de spirituals noirs et promet les copies. Passage de relais entre la fin d'une carrière et le début d'une autre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00964",
+     "EV-03794"
+    ]
+   },
+   {
+    "titre": "Crue nocturne et chaîne humaine",
+    "date": "1945-07",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "étudiants",
+     "membres des instituts d'été"
+    ],
+    "deroule": "Une crue pendant la nuit fait sortir la communauté, qui forme une chaîne humaine. Scène tirée de la synthèse 1945 : le fait est attesté, son jour ne l'est pas.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Baignade nue à la cascade",
+    "date": "1945-07",
+    "lieu": "cascade proche du collège",
+    "personnages": [
+     "étudiants",
+     "membres des instituts d'été",
+     "Roland Hayes"
+    ],
+    "deroule": "Baignade nue à la cascade, au milieu des serpents. Hayes tue un crotale pendant ces journées d'été.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Le samedi matin d'Albers",
+    "date": "1945-07",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "étudiants des instituts"
+    ],
+    "deroule": "Albers dirige son samedi matin et pose sa question : « Does this have color? ». Scène d'enseignement de la couleur, dans l'entre-deux des instituts.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "juillet, pendant les soirées de Hayes et le récital",
+    "vers_date": "1945-06",
+    "vers": "Mi-juin : arrestation de Wunsch près d'Asheville, réduite à une intrusion ; départ nocturne de Wunsch et version officielle de surmenage. Le silence qui pèse en juillet vient de là.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "le récital de Hayes, premier test de la formule décidée",
+    "vers_date": "1945-05",
+    "vers": "16 mai : lettre de Wallen, recommandation de Straus, rumeur d'instabilité nerveuse vérifiée et jugée fausse. Formule arrêtée en mai : deux étudiants noirs aux instituts d'été, puis un enseignant noir à l'automne.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la fin des instituts d'été",
+    "vers_date": "1945",
+    "vers": "Automne : arrivée de Wallen, Richards, Levi, Niebyl et ses disciples, Baker. Wallen donne des cours sans manuel et la polarisation avec Albers commence.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Elaine de Kooning, à New York, qui écrit son premier article sur Stuart Davis",
+    "vers_date": "1945",
+    "vers": "Automne : croisière à Provincetown avec Bill Hardy, retour en décembre ; expulsion de l'atelier de la 22e Rue, puis installation au 63 Carmine Street.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le départ de Wunsch en juin, sa maladie en Louisiane",
+    "vers_date": null,
+    "vers": "Disparition de Wunsch en Californie, date inconnue.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rauschenberg, démobilisé de la Navy, retrouve sa famille à Lafayette",
+    "vers_date": "1948",
+    "vers": "Il ne viendra à Black Mountain College qu'en 1948.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "intégration raciale comme épreuve publique",
+   "silence et version officielle",
+   "idylle et poids du lieu",
+   "deux mondes : Européens à table, étudiants américains",
+   "nature menaçante, corps et baignade",
+   "Wallen contre Albers, en germe",
+   "passage de relais entre chanteurs noirs"
+  ],
+  "lacunes": "Les fiches ne donnent que le mois pour le récital, l'arrivée de Hayes et la soirée chez les Lowinsky. Durée exacte du séjour de Hayes (deux semaines selon EV-03794), date d'arrivée de Brice, noms de la femme et de la fille de Hayes. Présence précise de Gropius et des autres instituts en juillet. Les éléments de la synthèse 1945 (crue, baignades, dîners) n'ont pas d'identifiant ni de date au jour. Rectorat d'Albers contesté (Chaddock contre 1948)."
+ }
+}

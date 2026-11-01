@@ -1,0 +1,309 @@
+{
+ "passe": "personnes",
+ "cle": "Madame Goldowski",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 7164,
+  "sortie": 9059,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Madame Goldowski",
+  "autres_noms": [
+   "Madame",
+   "mère de Natasha Goldowski",
+   "Madame G. (non attesté, à ne pas utiliser)"
+  ],
+  "dates_de_vie": "Inconnues. Rumaker la décrit comme octogénaire en 1952 (« dans les 80 ans »), ce qui situerait sa naissance dans les années 1870, par déduction seulement. Date et lieu de mort absents des fiches.",
+  "statut_bmc": "Pas membre du corps enseignant au sens plein. Mère de la physicienne Natasha Goldowski, elle vit sur le campus à Streamside et donne des cours de français : un semestre en 1948-1949, puis un tutorat à Michael Rumaker à l'automne 1952. Figure familière et redoutée du petit monde du collège, elle part avec sa fille en 1953.",
+  "presence": [
+   {
+    "debut": "1948",
+    "fin": "1949",
+    "role": "Enseignante de français (un semestre). Les étudiants la jugent tyrannique : « Quelle tyranne ! ».",
+    "refs": [
+     "CO-00479",
+     "PE-00259"
+    ]
+   },
+   {
+    "debut": "1948-09",
+    "fin": "1953",
+    "role": "Mère de Natasha, vivant dans l'orbite du couple Natasha-Eric. Elle se fait rare avec eux aux repas communs et aux événements publics, vit à Streamside et dîne parfois avec eux à Meadows Inn.",
+    "refs": [
+     "EV-04570",
+     "PE-00259"
+    ]
+   },
+   {
+    "debut": "1952-09",
+    "fin": "1953",
+    "role": "Tutrice de français de Rumaker, son unique élève. Elle reçoit dans l'arrière-salon de son appartement de Streamside.",
+    "refs": [
+     "EV-05863",
+     "EV-05668",
+     "CO-00709",
+     "CO-00713",
+     "EV-05703"
+    ]
+   },
+   {
+    "debut": "1953",
+    "fin": "1953",
+    "role": "Part avec Natasha et Eric vers la ferme louée près de Beaucatcher Mountain (automne 1953). Reste ensuite en contact par les visites de Rumaker, qui ne la reverra plus.",
+    "refs": [
+     "EV-06009",
+     "EV-06010",
+     "EV-06011"
+    ]
+   }
+  ],
+  "portrait_physique": "Minuscule, « quatre pieds » selon Rumaker (environ 1,20 m). Elle paraît frêle, mais cet air est trompeur. Cheveux argentés en petit chignon lâche, calotte noire à pont retroussé, châle tricoté noir, doigt osseux qu'elle pointe vers le coin pour faire taire les chiens. Voix douce de vieille femme, qui devient aiguë, gériatrique et perçante quand elle s'énerve. Natasha la conduit à la main sur les racines pendant l'incendie.",
+  "noyau_psychologique": "Une vieille aristocrate de l'exil qui gouverne son petit monde par la volonté, faute d'avoir autre chose. Elle est autoritaire, pointilleuse sur l'heure (10 h précises) et sur la prononciation, et plaintive en permanence. Elle est aussi curieuse de tout ce qui se passe au collège, avide de commérages qu'elle simule de désapprouver, et secrètement nostalgique de Black Mountain. Sa tyrannie semble faite autant de peur de perdre prise que de goût du commandement. Sa dureté est réelle, mais elle laisse voir une sociabilité affamée. Seule sa fille ne se laisse pas intimider par elle (PE-00259). Ce dernier trait et la nostalgie sont des déductions du témoin Rumaker, non des paroles de Madame.",
+  "blessures": "Déduit, non dit directement par les sources : la perte brutale de son monde. Le père de famille, capitaliste blanc, perd ses deux usines chimiques confisquées par les bolcheviks. Viennent ensuite l'exil en France, l'exode à pied de 1940 sous les mitraillages, le Maroc, puis les États-Unis en 1942. Elle garde de ce passé une boîte à chapeau contenant son plus beau chapeau, sauvé des bombes, et peut-être un manuel ancien. Elle est aussi déracinée une dernière fois, à la ferme, loin de la vie du collège dont elle a le mal du pays. Les fiches ne contiennent aucune parole d'elle sur ces blessures.",
+  "desirs": "Savoir ce qui se passe au collège : qui couche avec qui, qui a fait quoi. Être obéie et ponctuellement respectée. Transmettre un français « correct » (celui du XIXe siècle). Garder sa fille près d'elle. Déduit : retrouver une place dans une communauté vivante, car à la ferme elle pose ses questions sur l'école d'un ton faussement indifférent.",
+  "peurs": "Aucune peur n'est exprimée directement. Déduit de la boîte à chapeau serrée contre l'estomac sous les mitraillages et du « Dépêchons ! » du soir de l'incendie : peur de la catastrophe, du feu, de la fuite, de perdre le peu qu'on a. Autre peur probable : l'isolement et la dépendance matérielle. À la ferme, ses finances semblent inexistantes, elle dépend de Natasha et s'ennuie du collège.",
+  "maniere_d_aimer": "Elle aime à la manière d'une mère féroce, pétulante, qui se plaint sans cesse de sa chambre à travers les murs minces. Rumaker (RE-02591) dit qu'elle tient Natasha attachée à la terre « comme à un pieu », malgré ses tentatives d'envol. Natasha et Eric supportent ses plaintes avec patience. Avec Rumaker, elle flatte (« Michel Pange ») et tire de lui des ragots. Sa tendresse passe par l'autorité et la curiosité, jamais par la douceur déclarée. Elle ne dit pas « je t'aime » : c'est une lecture de scénariste, à partir des gestes (thé, présence à table, nostalgie).",
+  "rapport_au_pouvoir": "Autoritaire malgré son âge et sa taille : elle impose l'heure, la discipline, la prononciation, le silence aux chiens. Dans le petit royaume de son appartement, ses règles valent. Elle est tyrannique avec les élèves, ce qui frappe les étudiants en 1948-1949. Devant plus puissant qu'elle (feu, pompiers, Olson), elle ne fait que marmonner « Dépêchons ! » et suivre sa fille. Ses fiches ne la montrent pas dans les conflits institutionnels. Natasha est la seule qui lui résiste, et c'est Natasha qui a affronté Olson.",
+  "voix": {
+   "registre": "Français à fort accent de Russe blanc, d'un XIXe siècle désuet et rude. Anglais approximatif. Ton de maîtresse d'école impatiente quand elle enseigne, ton « artificieusement sournois et indifférent » quand elle cherche des ragots. Voix douce et fragile au repos, aiguë et perçante dans l'impatience.",
+   "tics": "Injonctions courtes et répétées : « Allez, allez », « Szlence ! » (silence, prononcé à la russe), « s'il vous plaît », « Dépêchons ! Dépêchons ! », « Très bien, très bien » au réveil. Quand on ne la comprend pas, elle répète le mot de plus en plus fort (« Noots ! Noots ! »). Elle corrige la prononciation du « et ». Elle pointe un doigt osseux vers le coin.",
+   "exemples_paraphrases": [
+    "Elle ordonne aux chiens de se taire d'un seul mot sec, à la russe, dès qu'un visiteur entre.",
+    "Elle s'endort pendant la lecture à voix haute et se réveille en murmurant que c'était très bien, comme si elle n'avait jamais dormi.",
+    "Elle flatte son élève d'un surnom francisé, « Michel Pange », avant de lui demander qui fréquente qui sur le campus.",
+    "Quand l'élève ne devine pas le mot « noots » (pour « nuts »), elle le répète plus fort, jusqu'à la crise de nerfs.",
+    "Elle feint d'être choquée quand les ragots sont trop grivois, avec un charme d'hypocrite."
+   ]
+  },
+  "habitudes": [
+   "Tutorat à 10 h précises, plusieurs matins par semaine, dans l'arrière-salon de Streamside.",
+   "Thé et commérages en anglais pendant la première moitié de la séance, puis lecture à voix haute de traductions tirées d'un manuel ancien (dont Le Tour du monde en quatre-vingts jours), pendant laquelle elle s'endort.",
+   "Garde une demi-douzaine de chiens errants « vicieux », qui aboient à la porte, s'endorment avec elle et obéissent à « Szlence ! ».",
+   "Se tient surtout dans sa chambre, d'où ses plaintes traversent les murs minces ; interroge volontiers les visiteurs sur l'école.",
+   "Dîne parfois avec Natasha et Eric à Meadows Inn ; à la ferme, ne daigne paraître à table que pour s'informer des ragots.",
+   "Conserve un manuel ancien, probablement venu de Russie dans la boîte à chapeau (supposé par Rumaker), et un chapeau sauvé de 1940."
+  ],
+  "convictions": [
+   "Le français correct est celui qu'elle a appris, et elle l'enseigne tel quel, sans se soucier qu'on le comprenne ailleurs (les autres ne le comprennent pas).",
+   "L'autorité de l'âge : l'élève se présente à l'heure et répond sans discuter.",
+   "Les convenances, au moins en façade : elle feint de désapprouver les ragots trop salaces tout en les réclamant. Cette contradiction est attestée.",
+   "Déduit : attachement à la Russie d'avant, que le chapeau sauvé symbolise ; il n'est pas formulé comme conviction politique."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1948",
+    "moment": "Premier passage connu : un semestre de cours de français (1948-1949). Les étudiants parlent d'une « taskmaster » (Gerda, selon Lane 1990).",
+    "etat_interieur": "Énergique, exigeante, dans le rôle de la maîtresse d'école ; on ignore tout de ses sentiments.",
+    "refs": [
+     "CO-00479",
+     "PE-00259"
+    ]
+   },
+   {
+    "date": "1948-09",
+    "moment": "Natasha refuse le bâtiment scientifique construit pour elle et se retire avec Eric et sa mère ; le trio devient quasi reclus, rare à la salle à manger.",
+    "etat_interieur": "Déduit : elle partage l'isolement de sa fille, dans la chambre et les plaintes.",
+    "refs": [
+     "EV-04570"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "moment": "Rumaker s'inscrit à son tutorat de français ; elle le reçoit à Streamside, dans l'arrière-salon, à 10 h précises.",
+    "etat_interieur": "Tyrannique en apparence, curieuse de ragots ; sa frêle silhouette cache une vive avidité d'information.",
+    "refs": [
+     "EV-05863",
+     "EV-05668",
+     "CO-00709",
+     "CO-00713",
+     "RE-02381"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "moment": "Le malentendu des « noots » (noix) au dîner de Noël de Natasha : une demi-heure de crise avant que Rumaker comprenne « nuts ». La conversation en français s'arrête, il ne reste que la lecture.",
+    "etat_interieur": "Exaspération qui monte jusqu'au cri aigu ; vanité blessée d'enseignante, comique pour le témoin.",
+    "refs": [
+     "SC-01501",
+     "RE-02381"
+    ]
+   },
+   {
+    "date": "1952-12→1953-02",
+    "moment": "Incendie de Roadside, un soir de souper. Natasha conduit sa mère à travers les racines ; Madame marmonne « Dépêchons ! ». Selon PE-00259, elle est « excitée » par l'incendie.",
+    "etat_interieur": "Mélange de peur, de hâte et d'excitation devant le spectacle ; elle obéit à sa fille et ne commande plus.",
+    "refs": [
+     "SC-01584",
+     "EV-05915",
+     "CI-02858",
+     "PE-00259"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "Natasha quitte le collège à l'automne 1953 et emmène Eric et sa mère dans une ferme louée hors de la route d'Asheville, près de Beaucatcher Mountain.",
+    "etat_interieur": "Déduit : déracinement ; on la sait nostalgique de Black Mountain. Elle se tient dans sa chambre et geint pendant que Natasha est heureuse.",
+    "refs": [
+     "EV-06009",
+     "SC-01613"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "Premier dîner à la ferme : Madame daigne se mettre à table, plus aimable envers Rumaker pour obtenir les derniers ragots, qu'elle réclame en français d'un air faussement indifférent.",
+    "etat_interieur": "Mélancolie cachée, mal du pays pour le collège ; curiosité vorace sous un ton innocent.",
+    "refs": [
+     "SC-01615",
+     "EV-06010",
+     "PE-00259"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "Dernière rencontre : Rumaker ne reverra ni Natasha, ni Eric, ni Madame.",
+    "etat_interieur": "Non documenté pour elle ; c'est Natasha qui est radieuse, Madame disparaît des sources.",
+    "refs": [
+     "EV-06011"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1917",
+    "moment": "Famille de capitalistes blancs russes : les bolcheviks confisquent les deux usines chimiques « du père » (la fiche ne dit pas explicitement si c'est le mari de Madame ou son propre père). Fuite vers la France ; Natasha y danse le ballet, fait de l'acrobatie, soutient un doctorat à la Sorbonne. Ouï-dire rapporté par Rumaker.",
+    "refs": [
+     "EV-00469",
+     "PE-00259"
+    ]
+   },
+   {
+    "date": "1940",
+    "moment": "Après l'invasion nazie, Madame et Natasha traversent la France à pied sous les mitraillages de la Luftwaffe vers les ports du sud ; Madame serre contre l'estomac une boîte à chapeau contenant son plus beau chapeau de la Russie d'avant. Ouï-dire.",
+    "refs": [
+     "EV-02998",
+     "PE-00259"
+    ]
+   },
+   {
+    "date": "1940",
+    "moment": "Séjour au Maroc pendant les premières années de guerre.",
+    "refs": [
+     "EV-02998",
+     "PE-00259"
+    ]
+   },
+   {
+    "date": "1942",
+    "moment": "Arrivée aux États-Unis (donnée de la fiche agrégée, non reprise dans les fiches d'événements).",
+    "refs": [
+     "PE-00259"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1953",
+    "moment": "Vie à la ferme louée avec Natasha et Eric ; un chapeau, un manuel, des plaintes à travers les murs ; Natasha s'occupe de la vache Rougea, du fromage, du beurre, des poules, pendant que Madame reste dans sa chambre et réclame des nouvelles du collège. Finances apparemment inexistantes.",
+    "refs": [
+     "SC-01613",
+     "SC-01615",
+     "PE-00259"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "Dernière visite de Rumaker, qui ne la reverra jamais ; la suite de sa vie, sa mort et sa postérité sont absentes des sources.",
+    "refs": [
+     "EV-06011"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Natasha Goldowski",
+    "nature": "Mère et fille ; dépendance mutuelle, la fille étant la seule à ne pas se laisser intimider.",
+    "evolution": "Exode commun (1917, 1940, exil américain), puis vie partagée au collège (reclusion de 1948), puis ferme (1953). Rumaker voit en Madame un pieu qui retient Natasha à la terre ; Natasha et Eric supportent ses plaintes avec patience.",
+    "refs": [
+     "RE-02591",
+     "EV-02998",
+     "EV-04570",
+     "EV-06009",
+     "PE-00259"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Tutrice et unique élève, pour du français, des ragots et des surnoms (« Michel Pange »).",
+    "evolution": "Leçons d'automne 1952 à 10 h, puis fin de la conversation après les « noots » ; le tutorat est jugé infructueux et il demande Flola Shepard ; elle le reçoit à la ferme et lui pose des questions en français ; Rumaker ne la reverra plus.",
+    "refs": [
+     "RE-02381",
+     "EV-05668",
+     "EV-05703",
+     "SC-01501",
+     "SC-01615",
+     "EV-06011"
+    ]
+   },
+   {
+    "avec": "Eric Renner",
+    "nature": "Gendre, ancien étudiant de Natasha, qui supporte ses plaintes ; il conduit Rumaker à la ferme.",
+    "evolution": "Même isolement du trio au collège, puis ferme.",
+    "refs": [
+     "EV-04570",
+     "EV-06009",
+     "EV-06010",
+     "RE-02591"
+    ]
+   },
+   {
+    "avec": "Les chiens (une demi-douzaine d'errants)",
+    "nature": "Compagnie et troupe soumise à « Szlence ! ».",
+    "evolution": "Présents dans les leçons de 1952 ; leur sort à la ferme n'est pas dit.",
+    "refs": [
+     "CI-02853",
+     "EV-05668",
+     "SC-01501"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Logement : la fiche agrégée la situe à Streamside (appartement), mais elle dîne avec Natasha et Eric à Meadows Inn, et la citation CI-02858 la dit « fuyant Meadows Inn pendant l'incendie ». Or l'incendie est à Roadside, sur la route de la ferme, avec crainte pour Meadows Inn et Streamside : le contexte de CI-02858 semble approximatif.",
+   "Âge : la fiche agrégée hésite (« dans la force de l'âge... non : dans les 80 ans ») ; il faut retenir environ 80 ans (octogénaire en 1952), sans date de naissance certaine.",
+   "Fiche psychologique : « avait autrefois tenu Rumaker attaché à terre » est probablement une confusion avec RE-02591, où elle tient Natasha attachée à la terre.",
+   "Français : les leçons se font en anglais pour les commérages et en lecture ; après l'épisode des « noots », Rumaker renonce à converser en français avec elle (RE-02381), mais à la ferme, elle l'interroge en français (SC-01615) ; il n'y a pas contradiction stricte si c'est elle qui parle français et lui qui répond tant bien que mal.",
+   "Tutorat : il dure l'automne 1952 (CO-00713), alors que EV-05703 le dit « infructueux » et le place « ≈1952→1953 » avant la demande à Flola Shepard ; la durée exacte est floue.",
+   "Voix à l'incendie : la fiche agrégée la dit « excitée par l'incendie » alors que Rumaker la montre menée par Natasha en marmonnant « Dépêchons ! » ; l'excitation est un jugement du témoin.",
+   "Un seul témoin pour presque tout : Rumaker 2003 (témoignage direct sur 1952-1953, ouï-dire pour 1917 et 1940) ; Lane 1990 est la seule autre source, pour 1948-1949.",
+   "Moralisme : elle feint de réprouver les ragots grivois qu'elle adore ; c'est une contradiction interne attestée, non une erreur de source."
+  ],
+  "situations_revelatrices": [
+   "Une leçon à 10 h : la vieille femme, le thé, les chiens, les ragots, puis le sommeil et le « très bien » au réveil.",
+   "Un malentendu de langue qui fait monter sa voix aiguë (« noots »).",
+   "Une catastrophe (incendie) qui la fait trotter, menée par sa fille : elle marmonne « Dépêchons ! » au lieu de commander.",
+   "Un dîner où elle daigne paraître pour obtenir des ragots et où sa nostalgie perce sous l'indifférence.",
+   "La nuit, dans sa chambre aux murs minces, quand elle geint pendant que Natasha rayonne avec la vache.",
+   "Dans un flash-back, la marche à pied sous les mitraillages avec la boîte à chapeau serrée sur l'estomac."
+  ],
+  "citations": [
+   "CI-02853 — « Szlence ! », ordre aux chiens à l'arrivée de Rumaker (1952).",
+   "CI-02858 — « Dépéchons ! Dépêchons ! », marmonné pendant l'incendie, menée par Natasha.",
+   "SC-01501 — « Noots ! Noots ! », cri de plus en plus aigu quand Rumaker ne comprend pas qu'elle veut dire « nuts ».",
+   "CO-00479 — « What a taskmaster! » (réaction d'une étudiante en 1948-1949 ; Gerda l'entend encore).",
+   "CO-00713 — « Allez, allez », « s'il vous plaît », « Très bien, très bien » au réveil.",
+   "EV-05703 — le surnom « Michel Pange » pour Rumaker."
+  ],
+  "questions_ouvertes": [
+   "Son prénom, son nom de naissance, sa date de naissance et sa mort : rien dans les fiches.",
+   "Qui était le mari de Madame, et le père dont les usines ont été confisquées : est-ce le même ?",
+   "Comment elle est arrivée à Black Mountain, en quelle année exactement, et quel rôle elle y jouait avant 1948.",
+   "Qu'elle ait été recrutée comme enseignante de français en 1948-1949 par qui, et avec quel statut (payé ? tolérée ?).",
+   "Ce que devient Madame après 1953 : sort à la ferme, santé, mort, relation durable avec Natasha.",
+   "Comment elle vivait la reclusion de Natasha, et si elle a pris parti dans le conflit avec Olson.",
+   "Ce que contient exactement le manuel (ancien, probablement apporté dans la boîte à chapeau) et d'où elle le tenait.",
+   "Si les chiens ont une histoire propre (nom, origine) ; le nombre varie entre « six » et « demi-douzaine ».",
+   "Comment elle s'est comportée avec d'autres élèves que Rumaker (1948-1949, Lane 1990)."
+  ]
+ }
+}

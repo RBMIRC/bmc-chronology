@@ -1,0 +1,372 @@
+{
+ "passe": "mois",
+ "cle": "1936-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 7233,
+  "sortie": 15862,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-09",
+  "session": "Rentrée d'automne 1936, début de l'année scolaire ; les fiches ne nomment pas de trimestre pour ce mois.",
+  "saison_et_climat": "Septembre, fin de l'été et début de l'automne. Les fiches ne décrivent ni le temps ni l'ambiance saisonnière.",
+  "situation": "Le collège reprend avec 55 étudiants, après une année de notoriété et de polémique (article de Harper's, courrier de lecteurs, page photo du New York Times). Albers est rentré du Mexique et prépare son exposé de rentrée. Le débat sur l'enseignement occupe les réunions de faculté. La crise Knickerbocker-Goldenson couve, sans être encore tranchée.",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "William Zeuch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Joseph Martin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Herminio Portell-Vila",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Basil Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tasker Howard",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Knickerbocker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Goldenson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Xavier Schawinsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Irene Schawinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Les 55 étudiants de la rentrée (noms non donnés)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Tasker Howard, du comité d'admissions, envoie à tout le comité une lettre dactylographiée de quatre pages pour et contre l'admission d'un étudiant nommé Sweeney. Evarts en fait état dans son journal.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02600"
+    ]
+   },
+   {
+    "date": "1936-09-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers présente un papier lors de la première assemblée générale du collège. Le texte n'est pas décrit dans les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02604"
+    ]
+   },
+   {
+    "date": "1936-09-14",
+    "precision": "periode",
+    "ce_qui_arrive": "Hors collège : Willem de Kooning a des œuvres dans New Horizons in American Art au MoMA (jusqu'au 16 octobre), où il rencontre le critique Harold Rosenberg.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02605"
+    ]
+   },
+   {
+    "date": "1936-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Kocher, encore rédacteur en chef d'Architectural Record, cite BMC parmi dix écoles pionnières de pédagogie du design et retient l'essai d'Albers « Art as Experience ». Le collège est inclus dans l'article sur la formation de l'architecte (Architectural Record 80.3, p. 212).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02601",
+     "EV-02602"
+    ]
+   },
+   {
+    "date": "1936-09-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion de faculté sur l'enseignement, attendue depuis deux ans et demi. Rice ouvre le débat ; Albers, Zeuch, Dreier, Martin et Portell-Vila interviennent. Les procès-verbaux sont conservés aux archives de Caroline du Nord.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00665",
+     "EV-02606",
+     "EV-02607",
+     "EV-02608"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Schawinsky, invité par Albers, démarre ses Stage Studies, laboratoire de scène qui mènera au Spectodrama. Sa femme Irene fait les costumes sans être créditée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02545",
+     "EV-02516",
+     "EV-02517",
+     "EV-02521"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Wunsch inaugure le cours d'écriture créative. Le work program est formalisé.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02522",
+     "EV-02524",
+     "EV-02518"
+    ]
+   },
+   {
+    "date": "1936-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Série de réunions de faculté : 12 octobre (faut-il exclure les délégués étudiants ?), 19 octobre (impérialisme, feedback), 16 novembre (personnalités dangereuses).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02603",
+     "EV-02615",
+     "EV-02616",
+     "EV-02621"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Pour la première fois, le Board vote des salaires au-delà des frais de subsistance : Rice et Wunsch 2 100 $, Albers 1 700 $, Georgia 1 300 $, Martin 300 $.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02614"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Résolution de non-réappointement contre Knickerbocker et Goldenson. Duberman la place six semaines après la rentrée, Chaddock après Thanksgiving. Les deux datations ne se concilient pas, sauf à supposer deux votes.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02609",
+     "EV-02619",
+     "EV-02610"
+    ]
+   },
+   {
+    "date": "1936-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers écrit à Kandinsky : Barr l'a cité mais exclu de Cubism and Abstract Art, et il n'a pas peint depuis son retour.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02618"
+    ]
+   },
+   {
+    "date": "1936-12-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Zeuch a demandé une réunion de faculté nocturne. L'appel est rejeté, la démission de Goldenson est autorisée, et Zeuch parle de « début de la fin ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02609",
+     "EV-02619",
+     "EV-02610",
+     "EV-02629",
+     "EV-02622",
+     "CI-01387"
+    ]
+   },
+   {
+    "date": "1936-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers donne trois ateliers à la Graduate School of Design de Harvard et un discours au Cosmopolitan Club. Deux étudiants s'enfuient pour se marier.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02625",
+     "EV-02626",
+     "EV-02624"
+    ]
+   }
+  ],
+  "quotidien": "Les étudiants suivent les cours d'écriture créative de Wunsch et l'atelier de Schawinsky, où Irene travaille aux costumes. L'enseignement individualiste d'Albers continue : Nancy Farrell est suivie seule pendant que les autres apprennent en regardant. Les réunions de faculté se succèdent, et le comité d'admissions instruit des dossiers, comme celui de Sweeney. Les fiches ne décrivent ni les repas, ni la musique, ni les travaux matériels de septembre.",
+  "tensions": [
+   "Le fond de la discussion pédagogique oppose Albers, pour qui l'enseignement vient de l'expérience et d'une personnalité forte, à Zeuch, pour qui vingt personnalités donneraient vingt méthodes et qui refuse les disciples. Dreier répond que tout bon enseignant fait des disciples.",
+   "Zeuch approuve Albers d'avoir refusé Noguchi, mais lui reproche de croire que son point de vue est le seul.",
+   "Rice distingue les disciples « à opinions » des disciples du « malaise mental », et célèbre l'enseignement individualiste d'Albers.",
+   "Le sort de Knickerbocker et Goldenson reste en suspens. Le Board leur avait envoyé un message de pessimisme en avril, et ils annoncent leur retour pour leur « année de grâce ». Des factions étudiantes se forment autour de Rice et de Knickerbocker.",
+   "La notoriété récente fait peser un risque : après l'article de Harper's et la page du New York Times, le collège reçoit beaucoup de courrier, et Van Middlesworth juge la photo mensongère. Le Board refuse de diffuser des tirés à part."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Réunion de faculté du 28 septembre : qu'est-ce que l'enseignement ?",
+    "date": "1936-09-28",
+    "lieu": "Black Mountain College, salle de réunion",
+    "personnages": [
+     "John Andrew Rice",
+     "Josef Albers",
+     "Joseph Martin",
+     "Herminio Portell-Vila",
+     "William Zeuch",
+     "Basil Dreier"
+    ],
+    "deroule": "Rice s'excuse du report : le sujet attendu depuis deux ans et demi avait été différé car Albers était hors de la ville. Albers hésite (« par quelle extrémité commencer ? ») puis distingue information et formation du caractère. Rice propose « instruction » et « education ». Albers réclame des professeurs de menuiserie mais d'abord la liberté. Martin objecte la distinction avec l'école professionnelle. Rice taquine Portell. Dreier demande si l'on ne peut pas prendre position trop tôt. Zeuch plaide pour vingt méthodes. Rice célèbre l'enseignement individualiste d'Albers, avec l'exemple de Nancy Farrell. Version contestée (Chaddock) : Rice est absent, Zeuch attaque sa personnalité, la révision est rejetée et Goldenson est autorisé à démissionner ce jour-là, ce qui contredit la date du 7 décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00665",
+     "EV-02606",
+     "EV-02607",
+     "EV-02608"
+    ]
+   },
+   {
+    "titre": "Premier exposé d'Albers à l'assemblée générale",
+    "date": "1936-09-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "la communauté du collège"
+    ],
+    "deroule": "Albers présente un papier à la première réunion générale de la rentrée. Le contenu n'est pas décrit dans les fiches : la scène peut montrer la prise de parole, mais son texte reste à inventer hors des sources.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02604"
+    ]
+   },
+   {
+    "titre": "La lettre sur Sweeney",
+    "date": "1936-09",
+    "lieu": "Black Mountain College, comité d'admissions",
+    "personnages": [
+     "Tasker Howard",
+     "les membres du comité d'admissions",
+     "John Evarts"
+    ],
+    "deroule": "Howard écrit à tout le comité une lettre de quatre pages en interligne simple, pesant le pour et le contre de l'admission de Sweeney. Evarts consigne l'affaire dans son journal.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02600"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Septembre, au retour d'Albers et de sa femme Anni du Mexique.",
+    "vers_date": "1936-06",
+    "vers": "L'été mexicain (juin-août) : Josef peint onze à douze huiles et expose Clave de sol au hall d'El Nacional, où le journal le salue comme « l'un des fondateurs de l'abstraction ». Anni fait ses tapisseries Ancient Writing et Monte Alban et signe pour la première fois « AA ».",
+    "refs": [
+     "EV-02595",
+     "EV-02597",
+     "EV-02598",
+     "EV-02485",
+     "CF-00256"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Lors des débats de faculté sur l'enseignement, qui rappellent la doctrine de Rice.",
+    "vers_date": "1936-01",
+    "vers": "La visite d'Adamic et de sa femme Stella. Rice expose à Adamic sa doctrine : enseigner la méthode et non le contenu, le processus et non les résultats. Adamic lit ensuite « Education on a Mountain », et le procès du portrait de Rice commence.",
+    "refs": [
+     "EV-02547",
+     "CI-01337",
+     "EV-02550",
+     "EV-02576"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le 28 septembre, quand Albers et Rice reprennent la querelle sur la personnalité et l'autorité.",
+    "vers_date": "1936-02",
+    "vers": "Le canular du Mondrian de Morton Steinau, remplacé par une toile cirée rayée. Albers fait une assemblée et une fouille, et les farceurs ne se dénoncent jamais.",
+    "refs": [
+     "EV-02573",
+     "SC-00656"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Au moment où Knickerbocker et Goldenson annoncent leur retour à l'automne.",
+    "vers_date": "1936-04",
+    "vers": "Le Board vote par 5 voix contre 2 (Georgia et Martin dissidents) un message de pessimisme sur leur avenir d'enseignants. Rice fait semblant d'ignorer que Knickerbocker se dit renvoyé.",
+    "refs": [
+     "EV-02584",
+     "EV-02580"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Depuis la rentrée, pendant que le sort de Knickerbocker et Goldenson reste en suspens.",
+    "vers_date": "1936-12-07",
+    "vers": "L'appel de Zeuch pour une réunion nocturne est rejeté, et la démission de Goldenson est autorisée. Zeuch parle de « début de la fin ».",
+    "refs": [
+     "EV-02609",
+     "EV-02619",
+     "EV-02610",
+     "EV-02629",
+     "EV-02622",
+     "CI-01387"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Depuis le lancement des Stage Studies de Schawinsky.",
+    "vers_date": "1937",
+    "vers": "La performance du Spectodrama, dont la date reste incertaine (1936 ou 1937).",
+    "refs": [
+     "EV-02545",
+     "EV-02516"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Pendant les réunions de faculté de l'automne, où Rice évoque la question des personnalités dangereuses.",
+    "vers_date": null,
+    "vers": "Un soir, Rice propose de « fermer le collège » (date non précisée dans l'année).",
+    "refs": [
+     "EV-02549"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Pendant la vie hors collège d'Albers, avec le MoMA et Harvard.",
+    "vers_date": "1937-02",
+    "vers": "Les « 4 Painters » exposent à Addison, après Bennington. Kocher cite BMC dans l'Architectural Record.",
+    "refs": [
+     "EV-02611",
+     "EV-02601"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le professeur démocratique n'est pas un professeur (Albers) : l'autorité contre la liberté",
+   "La personnalité comme pédagogie, entre enseignement individualiste et « fabrique » d'opinions",
+   "Visibilité nationale et gêne interne : la notoriété publique attire et divise",
+   "Le départ annoncé puis suspendu de Knickerbocker et Goldenson comme fil rouge de l'automne"
+  ],
+  "lacunes": "Le contenu de l'exposé d'Albers du 7 septembre n'est pas donné. Le climat, les repas, la musique et les travaux matériels de septembre ne sont pas documentés. Les 55 étudiants ne sont pas nommés. La date de la résolution contre Knickerbocker et Goldenson est contestée (environ six semaines après la rentrée selon Duberman, après Thanksgiving selon Chaddock). La version Chaddock du 28 septembre (Rice absent, Goldenson autorisé à démissionner) contredit à la fois Duberman et la date du 7 décembre. Les fiches EC-01545 à EC-01548 concernent une route et un récit (Goodman Reader), sans lien avec BMC : je les écarte."
+ }
+}

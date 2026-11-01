@@ -1,0 +1,255 @@
+{
+ "passe": "mois",
+ "cle": "1945-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3065,
+  "sortie": 11466,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1945-02",
+  "session": "Trimestre d'hiver, déduit de la rubrique « Hiver et printemps » et des cours de rattrapage ; aucun calendrier précis dans les fiches",
+  "saison_et_climat": "Hiver 1945 à Lake Eden. La saison est attestée par la synthèse, mais les fiches ne décrivent ni le climat ni la météo.",
+  "situation": "Le collège se reconstruit après la scission de 1944, qui a emporté sa moitié rebelle. Le camp dissident tente de monter un collège à New York sans supplanter BMC. Clark Foreman a annoncé en janvier qu'il partait pour le National Citizens Political Action Committee. La faculté est réduite : Lowinsky improvise des cours de rattrapage, et Zabriskie et Kazin, arrivés récemment, ne restent ni heureux ni longtemps. Les Cohen sont sans argent. Beidler est nommé instructeur et architecte-conseil en février.",
+  "presents_probables": [
+   {
+    "nom": "Lowinsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zabriskie",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kazin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Paul Beidler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fritz Cohen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Paul Beidler est nommé instructeur et architecte-conseil ; il conçoit le Music Cubicle, construit l'été suivant.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03782"
+    ]
+   },
+   {
+    "date": "1945-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Clark Foreman annonce, après six mois de préparatifs, qu'il devient secrétaire du National Citizens Political Action Committee.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Lowinsky improvise des cours de rattrapage ; Zabriskie et Kazin sont arrivés, sans y être heureux ni y rester longtemps.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Le camp rebelle tente de lancer un nouveau collège à New York ; le projet ne supplante pas BMC.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Fritz Cohen tente en vain de vendre son Music Institute ; la vente à Kenyon, prévue en mars, échoue.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire est dense et ritualisée. Jalowetz dirige des chorales de Bach de deux à trois heures ; au dîner, les chants passent de table en table. Il n'y a pas de couvre-feu. La faculté doit assurer les cours avec peu de monde, et les nouveaux arrivants s'adaptent mal.",
+  "tensions": [
+   "La question raciale divise la faculté depuis la rentrée 1944 : Lowinsky la porte, Straus et Kurtz s'y opposent.",
+   "Le départ de la moitié rebelle laisse un collège à effectif réduit, avec des cours improvisés.",
+   "Les Cohen sont sans argent et leur Music Institute ne trouve pas d'acheteur.",
+   "Zabriskie et Kazin ne se plaisent pas au collège et risquent de partir vite."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Beidler devient architecte-conseil",
+    "date": "1945-02",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Paul Beidler"
+    ],
+    "deroule": "Ancien étudiant, Beidler est nommé instructeur d'architecture et architecte-conseil. Il dessine le Music Cubicle, qui sera construit l'été suivant, alors que le campus se vide d'une partie de ses habitants.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03782"
+    ]
+   },
+   {
+    "titre": "Cours de rattrapage dans un collège réduit",
+    "date": "1945-02",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Lowinsky",
+     "Zabriskie",
+     "Kazin"
+    ],
+    "deroule": "Lowinsky improvise des cours pour combler les trous laissés par les départs. Zabriskie et Kazin, arrivés récemment, peinent à trouver leur place.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Fritz Cohen cherche un acheteur",
+    "date": "1945-02",
+    "lieu": null,
+    "personnages": [
+     "Fritz Cohen"
+    ],
+    "deroule": "Fritz démarche pour vendre son Music Institute, sans succès. La piste de Kenyon, en mars, échouera également.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Chorale de Bach et chants de table",
+    "date": "1945",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Jalowetz"
+    ],
+    "deroule": "Jalowetz conduit des chorales de Bach de deux à trois heures. Au dîner, les chants passent de table en table, sans couvre-feu.",
+    "certitude": "probable",
+    "refs": [
+     "fil : Le chœur de Jalowetz (1945→1946)",
+     "chapitre 1945 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Février : le collège reconstruit avec une faculté réduite",
+    "vers_date": "1944",
+    "vers": "La scission de 1944, qui a emporté la moitié rebelle du collège vers New York.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Janvier-février : Foreman vient d'annoncer son départ",
+    "vers_date": "1944-07",
+    "vers": "≈ Le début des préparatifs de Foreman, six mois avant son annonce de janvier.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février : Fritz Cohen cherche à vendre son Music Institute",
+    "vers_date": "1945-03",
+    "vers": "En mars, la piste de Kenyon échoue ; Fritz ne sera sauvé que par l'Opera Workshop de Juilliard.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février : la question raciale est en débat depuis la rentrée 1944",
+    "vers_date": "1945-05",
+    "vers": "En mai, la formule est arrêtée. Le 16 mai, Wallen écrit au collège, et une rumeur d'« instabilité nerveuse » retarde sa nomination.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février : enseignants fragiles et faculté réduite",
+    "vers_date": "1945-06",
+    "vers": "Mi-juin : l'affaire Wunsch. Wunsch est arrêté près d'Asheville, démissionne, et repart chercher ses affaires à une heure du matin. Molly Gregory l'entend sans oser descendre, et le collège se tait.",
+    "refs": [
+     "fil : Affaire Wunsch et son silence (1945-06→None)",
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février : Beidler dessine le Music Cubicle",
+    "vers_date": "1945",
+    "vers": "L'été 1945 voit la construction du Music Cubicle, avant le départ de Beidler pour fonder son cabinet.",
+    "refs": [
+     "EV-03782"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février : pendant que BMC se reconstruit, le milieu new-yorkais des de Kooning avance",
+    "vers_date": "1945",
+    "vers": "Elaine de Kooning écrit son premier article sur Stuart Davis ; Denby lui envoie un télégramme : « Magnificent ».",
+    "refs": [
+     "fil : Parallèle new-yorkais (de Kooning, Rauschenberg) (1945→1948)",
+     "chapitre 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février : Albers est déjà une figure centrale de la faculté",
+    "vers_date": null,
+    "vers": "Chaddock affirme qu'Albers est élu recteur peu après juin 1945 ; d'autres fiches placent son rectorat en 1948. La contradiction reste non résolue.",
+    "refs": [
+     "chapitre 1945 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "reconstruction après la scission",
+   "collège réduit et cours improvisés",
+   "survie financière (Cohen)",
+   "rituels communautaires (chorales, chants de table)",
+   "rivalité avec le projet new-yorkais",
+   "silence et tensions qui préparent juin"
+  ],
+  "lacunes": "On ignore le calendrier exact du trimestre d'hiver, les dates d'arrivée de Zabriskie et Kazin, l'effectif étudiant, le climat, la présence confirmée de chaque enseignant en février, le détail des cours de Lowinsky, et le jour exact de la nomination de Beidler (seul le mois est donné). Le rôle d'Albers dans le rectorat reste contradictoire selon les sources (1945 ou 1948)."
+ }
+}

@@ -1,0 +1,865 @@
+{
+ "passe": "enseignements",
+ "cle": "Anni Albers",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 170291,
+  "sortie": 25052,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Anni Albers",
+  "cours": [
+   {
+    "intitule": "Atelier de tissage de Black Mountain (cursus général)",
+    "periodes": [
+     "1933-1949 selon la plupart des fiches",
+     "mise en place 1933-1934 (CO-00155)",
+     "les fiches CO-00246 et ID-01390 parlent plutôt de l'automne 1934 : début 1933 ou 1934, à ne pas trancher",
+     "été 1946 : atelier à quatre tisseuses (SC-00994)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Professionnaliser le tissage : former des étudiants à l'enseignement ou au design en partant de la construction des armures, la structure passant avant la décoration (CO-00150, ID-01157). Approche expérimentale et individuelle, contre la reproduction de motifs coloniaux (CO-00155). Distinguer les tissages fonctionnels (serving objects) des tissages picturaux faits pour le seul regard (CO-00155, CO-00160). Transposer au métier la méthode de la couleur de Klee et la grille orthogonale comme langage légitime du tissu (CO-00145, CO-00146). Concevoir au contact direct des matériaux, et pour l'industrie (CO-00217).",
+    "deroule_type_seance": "Aucun emploi du temps n'est attesté. Reconstitution déduite : d'abord des études de matière sans métier, assis au sol (CO-00222, CO-00150), puis seulement le tissage réel sur un métier simple. Ensuite viennent les échantillons sur métier à lames, les études de couleur sur papier (CO-00344), puis un objet fonctionnel ou un tissage pictural. Le travail au métier est long et peut être vécu comme une méditation (CO-00374). Le cours a pu être interrompu par l'imprévu : un serpent noir dans l'armoire à laines classées par couleur (CO-00310).",
+    "exercices": [
+     {
+      "consigne": "Construire des matrices ou cadres mères de tissage pour expérimenter ensemble les relations de couleur et de texture.",
+      "materiaux": "Fils de chaîne et de trame sur métier à tisser",
+      "but": "Faire reconnaître la grille d'angle droit comme langage légitime du tissu ; variations modulaires figure/fond sur la grille.",
+      "refs": [
+       "CO-00145",
+       "CO-00146"
+      ]
+     },
+     {
+      "consigne": "Explorer les relations de couleur entre chaînes et trames, établies à partir des densités et des structures employées.",
+      "materiaux": "Fils sur métier",
+      "but": "Faire comprendre que la couleur du tissu naît de la construction.",
+      "refs": [
+       "CO-00145"
+      ]
+     },
+     {
+      "consigne": "Études de couleur sur papier, puis échantillons tissés à huit lames (Lore Kadden, 1945-48) et expérimentation de fils changeants (Don Page).",
+      "materiaux": "Laine, coton, papier et peinture",
+      "but": "Maîtriser les structures formelles : couleur, structure, forme.",
+      "refs": [
+       "CO-00344"
+      ]
+     },
+     {
+      "consigne": "Tisser des objets fonctionnels traditionnels (nappes, tapisseries d'ameublement) et des tissages picturaux à accrocher au mur. Utiliser la trame flottante : un fil horizontal supplémentaire, sans fonction structurelle, qui dessine des lignes en surface.",
+      "materiaux": "Fils, laines, fibres ; plus tard coton, jute, ruban métallique",
+      "but": "Faire de la matière une aventure qui borne l'imagination libre.",
+      "refs": [
+       "CO-00274"
+      ]
+     },
+     {
+      "consigne": "Composer à la machine à écrire des textures qui imitent le tissage.",
+      "materiaux": "Machine à écrire, papier",
+      "but": "Simuler des textures tissées.",
+      "refs": [
+       "CO-00193"
+      ]
+     },
+     {
+      "consigne": "Faire répondre les étudiants aux fibres aussi intensément que possible.",
+      "materiaux": "Fibres textiles",
+      "but": "Donner le sentiment de ce que signifie construire quelque chose en partant de zéro.",
+      "refs": [
+       "CO-00232"
+      ]
+     },
+     {
+      "consigne": "Construire ses propres métiers à sangle (backstrap).",
+      "materiaux": null,
+      "but": null,
+      "refs": [
+       "CO-00476"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Méthode de la couleur de Paul Klee, transposée au métier (CO-00146) ; héritage du Bauhaus.",
+     "Textiles précolombiens et techniques préindustrielles : sujet de conversation dans l'atelier à l'été 1946 (SC-00994). Les fiches ID-01251 et ID-01191 disent qu'elle montrait des textiles anciens à ses élèves (à confirmer).",
+     "Ses propres textes de l'époque : « Work with Material » (BMC Bulletin, 1938 : ID-00637, ID-00079), « Design: Anonymous and Timeless » (1947 : ID-00600), un article de The Weaver (1941 : ID-01491).",
+     "Archives à consulter : carnet de cours de Lolita Georgia (1935, CO-00271) ; notes d'Elizabeth Osbourne Richards (v. 1944-46) et de Nell Goldsmith (v. 1942-44) (CO-00344)."
+    ],
+    "propos_types": [
+     "Le tissage pictural ne doit être « ni assis ni foulé, seulement regardé » (CO-00155).",
+     "Travailler les matériaux, c'est être proche de la substance dont le monde est fait et avoir foi en sa propre force (CO-00274).",
+     "Il faut quitter le terrain sûr des conventions et expérimenter librement (CO-00134).",
+     "Le tissage doit servir des objets et viser un design anonyme et intemporel (CO-00160).",
+     "La rétrospection est un antidote à l'ivresse du progrès : elle montre où l'on a avancé, où l'on a régressé, et suggère de nouvelles expériences (CO-00160).",
+     "Le sens tactile s'est perdu avec les matériaux tout faits : on ne fait plus que griller le pain (CO-00150, CO-00222).",
+     "« Hero! » : son cri devant le serpent dans l'armoire à laine (CO-00310, SC-00399, SC-00802)."
+    ],
+    "critique_et_evaluation": "Aucune note ni critique collective attestée. Le critère qui ressort est la structure contre l'ornement (CO-00150, ID-01157) et le refus des motifs coloniaux copiés (CO-00155). Dans la ligne Bauhaus, la discipline de la construction corrige la tentation décorative (CO-00863, incertain pour BMC).",
+    "reactions_etudiants": "À l'ouverture, quelques étudiantes volontaires sans équipement (CO-00155). Certains étudiants, surtout les garçons, se montrent très inventifs en construction ; plusieurs diplômés en textile (CO-00150). Des travaux d'élèves documentent l'enseignement (CO-00145). Heures au métier vécues comme une méditation à la fois agréable et compréhensible en 1943-44 (CO-00374). Été 1946 : Claire Zeisler dit voir son travail comme une « primitive sophistiquée » (SC-00994, interprétation de l'auteur).",
+    "evolution": "Début sans métiers, puis métiers à pédales fabriqués par Frederick Georgia (CO-00155). Vers 1936, les tissages picturaux s'ajoutent aux objets fonctionnels (CO-00274). Dans les années 1940 : études de couleur et échantillons à huit lames (CO-00344). 1948-1950 : construction de métiers à sangle (CO-00476), période qui déborde son départ de 1949 (SC-01210) : à vérifier. En 1948, Edgar Kaufmann Jr. lui propose une exposition au MoMA, à laquelle elle se consacre dès l'automne (SC-01099). Les Albers démissionnent en 1949 avec Dreier (SC-01210, SC-01239).",
+    "refs": [
+     "CO-00134",
+     "CO-00145",
+     "CO-00146",
+     "CO-00150",
+     "CO-00155",
+     "CO-00160",
+     "CO-00193",
+     "CO-00217",
+     "CO-00232",
+     "CO-00245",
+     "CO-00246",
+     "CO-00271",
+     "CO-00274",
+     "CO-00310",
+     "CO-00344",
+     "CO-00374",
+     "CO-00476",
+     "SC-00399",
+     "SC-00802",
+     "SC-00994",
+     "SC-01099",
+     "SC-01210",
+     "SC-01239",
+     "ID-00637",
+     "ID-00079",
+     "ID-00600",
+     "ID-01491",
+     "ID-01157",
+     "ID-01390"
+    ]
+   },
+   {
+    "intitule": "Initiation à la chaîne et à la trame par bâtonnets et ficelle",
+    "periodes": [
+     "années BMC, non datées plus précisément (fiches ancrées sur une très large fourchette)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire comprendre à partir de zéro le principe du tissage : chaîne et trame, avant tout métier.",
+    "deroule_type_seance": "Démonstration matérielle, puis explication patiente de la chaîne, de la trame et de leur fonctionnement (CO-00012, SC-00127).",
+    "exercices": [
+     {
+      "consigne": "Passer des bâtonnets de balsa légers (type abaisse-langues) sur et sous une ficelle tendue, de sorte qu'ils tiennent par le seul entrelacement.",
+      "materiaux": "Bâtonnets de balsa, ficelle",
+      "but": "Montrer que le tissage se réduit à l'entrelacement sur/sous.",
+      "refs": [
+       "CO-00012",
+       "SC-00127",
+       "ID-00286"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Explication patiente de ce que sont la chaîne et la trame « et comment cela marche » (SC-00127, paraphrase).",
+     "On peut enseigner le tissage avec trois fois rien, pourvu qu'on ait la patience d'expliquer (ID-00286)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Le témoignage vient d'une étudiante qui y comprend « ce que c'est que de commencer à zéro » ; elle ignore alors qu'elle a devant elle la grande technicienne du métier à douze lames (CO-00012, SC-00127). Le témoignage est rapporté dans le livre de 1965 ; la date exacte à BMC est inconnue.",
+    "evolution": "Même démonstration avec un couvercle de boîte pour Weber, plus tard hors de BMC (voir le cours suivant, CO-00017, CO-00875). Continuité sur des décennies : c'est une déduction.",
+    "refs": [
+     "CO-00012",
+     "SC-00127",
+     "ID-00286"
+    ]
+   },
+   {
+    "intitule": "Études de matière et sensibilisation tactile (pré-tissage)",
+    "periodes": [
+     "1933-1947 (CO-00222)",
+     "à partir de 1933 (CO-00233)",
+     "fin des années 1930 pour les études de papier et de grains (ID-01310, incertain)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Réactiver la « perceptivité latente de la matière » et déranger le sens tactile des étudiants avant tout tissage (CO-00222). Élargir la sensibilité tactile par une « productivité joueuse » qui va de l'expérimentation libre vers des solutions fonctionnelles ou esthétiques (CO-00233). Établir l'ordre textile sans métier (CO-00150).",
+    "deroule_type_seance": "D'abord les études de matière, ensuite seulement le « tissage réel » sur métier primitif (CO-00222). À Lake Eden, la séance a pu se tenir sans toit ni métier : assis ensemble au sol, on assemble herbes et graines dans des ordres textiles, et non sculpturaux ou métalliques (CO-00150, SC-00547).",
+    "exercices": [
+     {
+      "consigne": "Ramasser mousse, écorce, papier, tiges de fleurs, copeaux de bois ou de métal ; les grouper, couper, boucler, mélanger, coller pour fixer un ordre.",
+      "materiaux": "Mousse, écorce, papier, tiges, copeaux ; cellophane, aluminium, lurex pour les textiles",
+      "but": "Rétablir artificiellement l'implication du faire.",
+      "refs": [
+       "CO-00222",
+       "CO-00150"
+      ]
+     },
+     {
+      "consigne": "Rendre un papier lisse fibreux en le griffant, perforant, déchirant, tordant.",
+      "materiaux": "Papier",
+      "but": "Travailler la surface par la main.",
+      "refs": [
+       "CO-00222"
+      ]
+     },
+     {
+      "consigne": "Assembler charbon de bois, herbes, copeaux métalliques, graines, papier tordu en compositions qui puissent se reproduire structurellement sur le métier.",
+      "materiaux": "Charbon, herbes, copeaux métalliques, graines, papier tordu",
+      "but": "« Voir quelque chose dans rien », puis passer à la structure tissée.",
+      "refs": [
+       "CO-00233"
+      ]
+     },
+     {
+      "consigne": "Disposer de petits éléments identiques (grains de maïs) en motifs et observer le rythme (études de texture).",
+      "materiaux": "Grains de maïs",
+      "but": "Explorer le motif par répétition d'unités identiques.",
+      "refs": [
+       "ID-02129",
+       "ID-01310"
+      ]
+     },
+     {
+      "consigne": "Tisser ensuite sur un métier à cardes (card loom / back loom), équipement simple et presque archaïque.",
+      "materiaux": "Métier à cardes",
+      "but": "Vivre la « venue à l'être d'un objet ».",
+      "refs": [
+       "CO-00222"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Pas de lecture attestée. La formulation écrite se trouve dans On Weaving (1965, ch.15) : œillères pour ne voir que la surface, simulation d'une laine duveteuse avec des graines plumeuses, hachures à la machine à écrire. Elle est postérieure et sa pratique à BMC n'est pas attestée en détail (CO-00863)."
+    ],
+    "propos_types": [
+     "Nous ne faisons plus que griller le pain : les matériaux arrivent moulus, tranchés, mixés, et l'on n'y met plus les mains (CO-00222).",
+     "Le sens tactile se perd avec le cellophane et le pain emballé : il faut rétablir artificiellement l'implication dans le faire (CO-00150, ID-01156).",
+     "« Voir quelque chose dans rien » est très instructif ; cette productivité joueuse mène au bon design et à l'art (CO-00233).",
+     "Ces expériences ne sont pas une fin : elles enrichissent le vocabulaire du langage tactile (CO-00863, texte de 1965, à marquer comme non attesté à BMC)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Expérience aussi absorbante que la peinture, selon Albers (CO-00222).",
+    "evolution": "Née en partie d'une contrainte : pas de toit ni de métiers à Lake Eden (ID-01156, SC-00547). Ces exercices ont ensuite été théorisés dans On Weaving (CO-00863). Datation incertaine : la scène du cours sans toit est ancrée en 1933 par la fiche, alors que le texte la situe à l'époque des nouveaux bâtiments de Lake Eden. À traiter avec prudence avant de la placer à l'arrivée des Albers.",
+    "refs": [
+     "CO-00150",
+     "CO-00222",
+     "CO-00233",
+     "CO-00863",
+     "ID-01156",
+     "ID-01310",
+     "ID-02129",
+     "SC-00547"
+    ]
+   },
+   {
+    "intitule": "Atelier bijoux et objets trouvés",
+    "periodes": [
+     "v. 1940-1942",
+     "expositions 1940-41 (ID-00037)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Trouver la beauté et l'inventivité (valeur spirituelle) dans les matériaux les plus communs (CO-00352).",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Collectionner dans les magasins 5 & 10 cents rondelles, épingles à cheveux, bouchons d'évier, isolateurs en verre, gommes, livres d'images.",
+      "materiaux": "Objets de ménage et de bureau, métal plaqué",
+      "but": "Regarder la quincaillerie comme un pur matériau.",
+      "refs": [
+       "CO-00352",
+       "SC-00574",
+       "ID-00037"
+      ]
+     },
+     {
+      "consigne": "Monter des colliers : épingles à cheveux sur chaîne métallique ; filtre de lavabo, chaîne et trombones. D'autres colliers enfilent anneaux de rideau, boutons de tiroir en verre, rondelles, ressorts, équerres, parfois sur des chaînes de porte.",
+      "materiaux": "Quincaillerie ménagère, chaînes",
+      "but": "Passer du rebut à l'objet précieux.",
+      "refs": [
+       "CO-00352",
+       "CO-00233"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Les trésors de la tombe 7 de Monte Albán (or, perles, jade, cristal de roche, coquillages) servent de référence (CO-00352, ID-00037)."
+    ],
+    "propos_types": [
+     "Les joyaux de Monte Albán révèlent l'étrange pauvreté des matériaux joyaux conventionnels (CO-00352).",
+     "La guerre est une compétition de fausses valeurs ; se libérer des valeurs non spirituelles va dans la bonne direction. Ses bijoux de rondelles sont sa contribution à l'effort de guerre (« defense work ») : discours au collège au printemps 1942 (ID-01184)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Projet conçu avec l'étudiant Alex Reed, enchanté devant les bouchons d'évier et les isolateurs de verre (ID-00037, SC-00574).",
+    "evolution": "Les bijoux sont exposés en 1940-41 (ID-00037). La date de la scène du magasin 5 & 10 est floue (fiche ancrée sur une longue période).",
+    "refs": [
+     "CO-00352",
+     "CO-00233",
+     "SC-00574",
+     "ID-00037",
+     "ID-01184"
+    ]
+   },
+   {
+    "intitule": "Exercice du « point zéro » à Black Mountain",
+    "periodes": [
+     "années 1930-40"
+    ],
+    "atteste": "oui",
+    "objectifs": "Remettre l'étudiant à zéro absolu pour reconstruire depuis les besoins premiers : l'éducation traditionnelle part de ce qui existe et l'explique, alors qu'il faut repartir de rien.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Se placer « à zéro absolu, dans le désert, au Pérou. Rien n'est là. Quelle est la première chose à laquelle il faut penser ? »",
+      "materiaux": null,
+      "but": "Reconstruire l'outil, le fil et l'usage à partir des besoins.",
+      "refs": [
+       "CO-00133"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "L'éducation part du déjà-là ; ici on part de rien (CO-00133)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "La version détaillée (côte du Pérou au Xe siècle) n'est attestée qu'au MoMA : voir le cours suivant.",
+    "refs": [
+     "CO-00133",
+     "ID-00028"
+    ]
+   },
+   {
+    "intitule": "Ateliers du MoMA : Principes du tissage / l'exercice péruvien",
+    "periodes": [
+     "1949, en même temps que l'exposition d'Anni (CO-00588)",
+     "autres séances de datation incertaine (CO-00016, ancrage très large)"
+    ],
+    "atteste": "non",
+    "objectifs": "Enseigner les principes fondamentaux du tissage en repartant de zéro, sans machine ; encourager l'invention et faire toucher l'essentiel plutôt que transmettre un savoir ; accroître la maîtrise des matériaux (CO-00588, CO-00016).",
+    "deroule_type_seance": "Atelier pratique mêlant novices (dames de Park Avenue, institutrices du Queens) et avancés. Elle parle d'une voix douce, avec un accent berlinois, évoque la côte, les algues, les branches mortes et les peaux, puis laisse inventer sans consigne imposée (CO-00016, SC-00149). CO-00016 et CO-00588 décrivent très probablement le même exercice (déduction : publics et détails diffèrent).",
+    "exercices": [
+     {
+      "consigne": "S'imaginer au Xe siècle sur la côte du Pérou, sans rien d'acheté ni de fabriqué d'avance, sans aucune puissance mécanique, et réfléchir à la façon de tisser des étoffes.",
+      "materiaux": "Imaginaires : ressources du littoral (algues, branches mortes, sable, arêtes, coquillages, peaux)",
+      "but": "Repartir de ce que la nature offre.",
+      "refs": [
+       "CO-00016",
+       "CO-00588",
+       "SC-00149"
+      ]
+     },
+     {
+      "consigne": "Inventer comment construire un métier : brindilles parallèles espacées à intervalles égaux, reliées par des bandes perpendiculaires en lanières de feuilles.",
+      "materiaux": "Brindilles, feuilles",
+      "but": "Découvrir chaîne, trame et tension.",
+      "refs": [
+       "CO-00588",
+       "CO-00016"
+      ]
+     },
+     {
+      "consigne": "Fabriquer des fils de toutes couleurs, forces et largeurs, coupés peut-être avec une pierre tranchante ; créer des matières avec peaux, plumes, écorce déchiquetée, pétales, algues ; réfléchir aux usages (sacs, vêtements, besoins propres).",
+      "materiaux": "Peaux d'animaux, plumes, écorce, pétales de fleurs sauvages, algues",
+      "but": "Relier fibre, outil et usage.",
+      "refs": [
+       "CO-00016",
+       "CO-00588"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Textiles du Pérou ancien, auxquels elle dédie On Weaving (ID-00036, ID-03431)."
+    ],
+    "propos_types": [
+     "« There you are, on the coast line, with absolutely nothing there except for what nature has put there » (CO-00016, SC-00149).",
+     "Au moins une fois dans la vie, il est bon de repartir de zéro (CO-00588, ID-00028)."
+    ],
+    "critique_et_evaluation": "Pas de consigne imposée (CO-00016). Elle retient comme le plus impressionnant l'étudiant qui a fabriqué un métier miniature avec des allumettes (CO-00588).",
+    "reactions_etudiants": "L'étudiant aux allumettes marque Anni (CO-00588). Le lieu est New York, donc hors BMC : ne pas mettre cette scène au collège sans l'indiquer.",
+    "evolution": "Les consignes formulées à BMC (CO-00133) se retrouvent développées à New York après son départ.",
+    "refs": [
+     "CO-00016",
+     "CO-00588",
+     "SC-00149",
+     "ID-00028",
+     "ID-00329"
+    ]
+   },
+   {
+    "intitule": "Leçon chaîne et trame hors BMC : le métier dans un couvercle de boîte",
+    "periodes": [
+     "début des années 1970 (≈1972 pour la version rapportée ; fiches à ancrage très large)"
+    ],
+    "atteste": "non",
+    "objectifs": "Expliquer chaîne et trame à un profane, en repartant de zéro (CO-00017, CO-00875).",
+    "deroule_type_seance": "Elle prépare le métier d'avance, puis explique patiemment son fonctionnement à l'élève fasciné, dans sa pièce de travail du Connecticut (CO-00017, SC-00150).",
+    "exercices": [
+     {
+      "consigne": "Entailler les petits côtés d'un couvercle de boîte blanche (Lord & Taylor), tendre des ficelles entre les entailles, passer des bâtonnets de balsa ou de glace dessus-dessous pour figurer la trame.",
+      "materiaux": "Couvercle de boîte, ficelle, bâtonnets de balsa ou de glace",
+      "but": "Comprendre chaîne et trame en cinq minutes.",
+      "refs": [
+       "CO-00017",
+       "CO-00875",
+       "SC-00150"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "« It is better that way. You are not one of those craft people. I will tell you how weaving works » (CO-00017, SC-00150).",
+     "Elle déteste « tout ce bazar de l'artisanat » (CO-00875).",
+     "Elle expliquait souvent son travail de textile et de gravure par des procédés de matière : étirer une substance simple, comme le beurre en fleurs avec le beurrier à friser (CO-00019, incertain pour BMC)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Weber, enchanté, comprend warp et weft (CO-00017, CO-00875).",
+    "evolution": "Même geste que les bâtonnets de BMC (CO-00012) : continuité probable, non prouvée.",
+    "refs": [
+     "CO-00017",
+     "CO-00875",
+     "CO-00019",
+     "SC-00150"
+    ]
+   },
+   {
+    "intitule": "Séminaires textile pour étudiants d'architecture (Yale) et à Haystack",
+    "periodes": [
+     "printemps 1955 (Yale)",
+     "1955 (Haystack Mountain School of Crafts)"
+    ],
+    "atteste": "non",
+    "objectifs": "Faire comprendre aux architectes le textile comme premier abri, premier « plafond » architectural (CO-00819) ; communiquer, faire réfléchir (CO-00820).",
+    "deroule_type_seance": "Séances tôt le matin dans un bureau de la nouvelle Yale Art Gallery de Kahn, pour quelques étudiants descendus de leur salle de dessin du dernier étage. Elle expose l'idée, puis distribue cartes et fils et chacun tisse sa bande (CO-00819, SC-01795). Anni est timide d'abord, puis pleine d'étincelle (SC-01795).",
+    "exercices": [
+     {
+      "consigne": "Tisser au moyen de cartes perforées une bande d'environ un pouce (2,5 cm) de large, en fils noirs et blancs.",
+      "materiaux": "Cartes de tissage, fils noirs et blancs",
+      "but": "Éprouver le textile comme surface architecturale.",
+      "refs": [
+       "CO-00819",
+       "CO-00820",
+       "SC-01795"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Les idées du séminaire se retrouvent dans l'essai « The Pliable Plane » (1957, ID-01307, ID-01834)."
+    ],
+    "propos_types": [
+     "Les textiles ont probablement été la toute première « surplombance » ou protection architecturale (CO-00819)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "McNair garde ses cartes des décennies plus tard ; il retient le charme d'Anni, son besoin de communiquer, sa timidité publique puis son étincelle (CO-00819, CO-00820).",
+    "evolution": "Ces séances sont postérieures à BMC. Attention : CO-00820 cite la même source et la même bande d'un pouce, mais place la séance à Haystack. Il s'agit peut-être du même séminaire de Yale, mal localisé ; l'épisode Haystack de SC-01797 ne contient aucun détail de cours.",
+    "refs": [
+     "CO-00819",
+     "CO-00820",
+     "SC-01795",
+     "SC-01797",
+     "ID-01307"
+    ]
+   },
+   {
+    "intitule": "Cours reconstitué d'après On Weaving (1965) : armures, histoire du métier, notation, projet de revêtement mural",
+    "periodes": [
+     "texte publié en 1965 (fiches ancrées vers 1965)"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Faire saisir que les armures élaborées sont des expansions faciles des trois armures de base (CO-00862). Suivre l'histoire du métier jusqu'aux idées sous-jacentes du métier moderne (CO-00861). Apprendre à lire et écrire une armure par la notation (CO-00890). Montrer pas à pas un processus de conception qui part des exigences de l'objet (CO-00864).",
+    "deroule_type_seance": "Déduit du livre et non attesté à BMC. Leçon magistrale sur le métier : tension de la chaîne, lisse, peigne et battant (CO-00861). Pour les armures : toile, déformée en côtes, groupée en panier, décalée en sergés, flottante en satin et damas, puis empilée en doubles étoffes (CO-00862). Pour la conception : des exigences découlent le matériau, puis l'armure, la couleur, enfin la composition (CO-00864).",
+    "exercices": [
+     {
+      "consigne": "Identifier sur un métier la chaîne (fils fixes sous tension) et la trame (fils mobiles à angle droit) ; reconnaître le shed naturel (latte) et le shed artificiel (lisse) ; observer qu'un tissage même complexe peut s'exécuter avec un équipement minimal si l'on a le temps.",
+      "materiaux": "Métier médiéval à quelques lames, lisses, lattes, battant, peigne",
+      "but": "Comprendre le métier par ses inventions successives.",
+      "refs": [
+       "CO-00861"
+      ]
+     },
+     {
+      "consigne": "Construire une armure côtelée en rompant l'équilibre chaîne/trame ; élaborer un sergé pour un usage donné sans recette ; construire une double étoffe en toile sur quatre lisses (1 et 3 pour la couche supérieure, 2 et 4 pour l'inférieure) ; varier la séquence de trame pour tisser une étoffe qui se déplie au double de la largeur du métier.",
+      "materiaux": "Métier à quatre lisses minimum, deux ensouples pour les côtes",
+      "but": "Prouver que la double étoffe est accessible au sens commun.",
+      "refs": [
+       "CO-00862",
+       "ID-03908",
+       "ID-01007"
+      ]
+     },
+     {
+      "consigne": "Tracer l'armure sur papier millimétré (carré rempli = fil de chaîne levé) ; marquer l'unité de base en couleur ; analyser un échantillon fil à fil avec une longue aiguille ; couper le long d'une trame pour voir le trajet des fils ; noter couleur, torsion, matière et densités.",
+      "materiaux": "Papier millimétré, aiguille, loupe, échantillon coupable",
+      "but": "Réunir tout ce qu'il faut pour reproduire une étoffe.",
+      "refs": [
+       "CO-00890"
+      ]
+     },
+     {
+      "consigne": "Dresser la liste des exigences d'un revêtement mural de musée (antipoussière, solide à la lumière, ignifuge, anti-mites, trous de clous qui se referment, couleur claire non agressive) ; exclure la laine ; choisir la toile ; opposer teinture en pièce et teinture en fil ; conclure sur un lin en chaîne croisé d'une trame synthétique blanche brillante.",
+      "materiaux": "Lin, raphia, fibre synthétique pailleuse",
+      "but": "Montrer que le tissu « se forme lui-même » et que le designer pratique une passivité attentive.",
+      "refs": [
+       "CO-00864",
+       "ID-00425"
+      ]
+     },
+     {
+      "consigne": "Expérimenter bouclage, filet, torsadage avec du fil, voire de la corde, pour retrouver les qualités essentielles du textile.",
+      "materiaux": "Fil ou corde",
+      "but": "Comprendre les processus de base par la pratique.",
+      "refs": [
+       "ID-03915",
+       "ID-03917"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "On Weaving (1965 ; chapitres cités : ch.8 à ch.17 selon les fiches).",
+     "Sources archéologiques sur le Pérou (O'Neale, Bird) pour les étoffes pliées en accordéon (ID-01007, SC-01545, non attesté pour la classe)."
+    ],
+    "propos_types": [
+     "Le tissage travaille une matière soumise ; chaque gain de temps mécanique se paie d'une perte de liberté du tisserand sur le dessin (CO-00861, ID-03900).",
+     "Les livres publient des centaines de recettes de sergés, mais un sergé adapté à une occasion précise se construit avec du bon sens (CO-00862).",
+     "Ce qui compte, c'est l'« événement d'un fil » (ID-03830).",
+     "La notation révèle les éléments structurels invisibles en surface et suffit souvent là où les chercheurs compliquent (CO-00890)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Ces fiches viennent d'un livre publié après BMC (1965). Elles donnent la logique de sa pensée, non un programme prouvé du collège. Les fiches signalent elles-mêmes « incertain » quant à BMC.",
+    "refs": [
+     "CO-00861",
+     "CO-00862",
+     "CO-00863",
+     "CO-00864",
+     "CO-00890",
+     "ID-03908",
+     "ID-01007",
+     "ID-00425",
+     "ID-03900",
+     "ID-03915",
+     "ID-03917",
+     "ID-03830",
+     "SC-01545"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Repartir de zéro : au moins une fois dans sa vie, tout reconstruire depuis les besoins premiers.",
+    "en_classe": "Enlever machine et atelier : « Vous êtes dans le désert, rien n'est là, à quoi pensez-vous d'abord ? » Attesté à BMC sous cette forme brève (CO-00133) ; la version détaillée du Pérou, avec brindilles et algues, vient du MoMA (non BMC).",
+    "atteste": "oui",
+    "refs": [
+     "CO-00133",
+     "CO-00588",
+     "CO-00016",
+     "ID-00028",
+     "ID-00475",
+     "ID-00329"
+    ]
+   },
+   {
+    "idee": "Enseigner le tissage avec presque rien : des bâtonnets et une ficelle, avec la patience d'expliquer chaîne et trame.",
+    "en_classe": "Démonstration immédiate sur table : bâtonnets de balsa dessus-dessous sur une ficelle tendue, puis demander aux élèves de dire ce qui tient et pourquoi.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00012",
+     "SC-00127",
+     "ID-00286"
+    ]
+   },
+   {
+    "idee": "Le sens tactile s'est atrophié avec les matériaux tout faits ; il faut le rééduquer avant toute technique.",
+    "en_classe": "Séance au sol, sans métier : ramasser mousse, écorce, copeaux, papier, et les ordonner en une surface textile. Puis, yeux fermés, décrire des matières avec les mains (la partie yeux fermés relève d'ID-00421/ID-00137, non attestée à BMC).",
+    "atteste": "oui",
+    "refs": [
+     "CO-00222",
+     "CO-00150",
+     "ID-01156",
+     "ID-00137",
+     "ID-00421"
+    ]
+   },
+   {
+    "idee": "« Voir quelque chose dans rien » : la productivité joueuse mène au bon design et à l'art.",
+    "en_classe": "Distribuer charbon, herbes, graines, papier tordu ; faire composer une surface dont l'ordre se puisse ensuite tisser. Ne rien dire de la finalité au départ.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00233",
+     "ID-01052"
+    ]
+   },
+   {
+    "idee": "Voir les choses détachées de leur usage, comme purs matériaux dignes de devenir précieux (Monte Albán, quincaillerie).",
+    "en_classe": "Faire regarder une rondelle comme une pierre précieuse, puis la monter en collier ; discuter de ce qui est précieux.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00352",
+     "SC-00574",
+     "ID-00037",
+     "ID-01184",
+     "ID-00764"
+    ]
+   },
+   {
+    "idee": "La structure avant la décoration : enseigner d'abord la construction des armures, parce que le tissage à la main tombe vite dans l'ornemental.",
+    "en_classe": "Analyser un échantillon à l'endroit et à l'envers et nommer ce qui le construit avant tout jugement décoratif. ID-00328 et ID-00609 prolongent l'idée (ID-00609 est classée attestée à BMC, ID-00328 incertaine).",
+    "atteste": "oui",
+    "refs": [
+     "ID-01157",
+     "CO-00150",
+     "ID-00609",
+     "ID-00328"
+    ]
+   },
+   {
+    "idee": "Les limites du matériau sont une aventure et un moteur d'invention, plus stimulants que la liberté illimitée de la peinture (le « non » du matériau contourné par le « oui » d'une solution).",
+    "en_classe": "Imposer un seul fil, une seule armure, un prix ; demander ce qu'on trouve à dire dedans. L'idée apparaît dans l'article de 1938 (attesté) ; les formulations sur le tube de peinture et le « non » viennent de textes ultérieurs (incertain pour la classe).",
+    "atteste": "oui",
+    "refs": [
+     "ID-00637",
+     "ID-00079",
+     "CO-00274",
+     "ID-01389",
+     "ID-01624",
+     "ID-00439",
+     "ID-03951",
+     "ID-04262"
+    ]
+   },
+   {
+    "idee": "Deux voies pour le tissage : l'objet qui sert (serving objects) et le tissage pictural, fait pour être regardé et traité comme art à part entière.",
+    "en_classe": "Poser deux tissus et demander lequel sert une pièce, lequel sert le regard. Interdire de dire à quoi sert un tissu et le faire décrire comme un tableau.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00155",
+     "CO-00160",
+     "ID-00078",
+     "ID-00444",
+     "ID-01345",
+     "ID-00281"
+    ]
+   },
+   {
+    "idee": "Les tisserands andins comme maîtres et leurs textiles comme langage : le textile porte du sens sans écriture.",
+    "en_classe": "Montrer un fragment andin et faire « lire » ses effets de contour et de structure comme une écriture. Attesté : elle y puisait pour son enseignement et son œuvre (ID-00250, ID-01197). La fiche ID-01251 donne ses textiles anciens comme exemples pour ses étudiants (incertain).",
+    "atteste": "oui",
+    "refs": [
+     "ID-00250",
+     "ID-01197",
+     "ID-01251",
+     "ID-00245",
+     "ID-00369",
+     "ID-00529",
+     "ID-03934"
+    ]
+   },
+   {
+    "idee": "Le monumental peut loger dans le minuscule ; une matière humble produit un grand art.",
+    "en_classe": "Montrer de très petites figures agrandies et chercher leur monumentalité ; faire modeler de petites figures en argile. Idée née des miniatures mexicaines, non attestée comme exercice à BMC.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01191",
+     "ID-01194",
+     "ID-01292",
+     "ID-03410",
+     "ID-03411",
+     "ID-01254"
+    ]
+   },
+   {
+    "idee": "La grille comme langage légitime du métier, puis une entorse délibérée : régularité numérique avec une irrégularité voulue.",
+    "en_classe": "Faire tisser une grille stricte, puis demander une seule entorse calculée. Seule ID-04185 classe l'idée comme matière de son enseignement ; les autres sont incertaines.",
+    "atteste": "incertain",
+    "refs": [
+     "CO-00145",
+     "CO-00146",
+     "ID-00077",
+     "ID-00595",
+     "ID-00652",
+     "ID-04185"
+    ]
+   },
+   {
+    "idee": "Le fil lui-même porte la forme : laisser le fil faire tout ce qu'il peut, sans dessin préalable (écho de Klee, « take a line for a walk »).",
+    "en_classe": "Demander ce qu'un fil peut faire par lui-même avant de dessiner quoi que ce soit.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00594",
+     "ID-00599"
+    ]
+   },
+   {
+    "idee": "Le design anonyme et intemporel : « plus servir, moins s'exprimer » ; laisser parler le matériau.",
+    "en_classe": "Critiquer un objet « bavard » face à un objet anonyme de la maison. Le thème est lié à son essai de 1947 écrit à BMC (ID-00600) et à CO-00160.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00160",
+     "ID-00537",
+     "ID-00442",
+     "ID-00677",
+     "SC-00310",
+     "ID-00600"
+    ]
+   },
+   {
+    "idee": "Restaurer chez le designer l'expérience directe du matériau et concevoir pour l'industrie ; réconcilier artisanat et machine.",
+    "en_classe": "Faire concevoir le même objet une fois pour la main, une fois pour la machine ; discuter de la place du tisserand à la main dans l'industrie.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01044",
+     "CO-00217",
+     "ID-00600",
+     "ID-00440",
+     "ID-00676",
+     "ID-01391",
+     "ID-00441"
+    ]
+   },
+   {
+    "idee": "Le travail manuel des matériaux engendre une agilité physique, psychique et intellectuelle qui fonde des choix empathiques et éthiques.",
+    "en_classe": "Faire manipuler les matériaux disponibles dans une culture de rareté et demander ensuite ce qu'ils ont dicté.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00803",
+     "ID-01491"
+    ]
+   },
+   {
+    "idee": "La rétrospection est un agent actif contre l'ivresse du progrès.",
+    "en_classe": "Faire l'inventaire de ce qui a avancé et de ce qui a régressé dans le tissage ou dans sa discipline ; analyser des textiles traditionnels avant d'innover.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00160",
+     "ID-01160",
+     "ID-01828"
+    ]
+   },
+   {
+    "idee": "Black Mountain comme un « vide » accueillant : un espace sans idées préalables ni programme, à remplir par la création.",
+    "en_classe": "Présenter le lieu d'enseignement comme un espace vide à remplir plutôt qu'un programme à suivre.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00368",
+     "ID-01246"
+    ]
+   },
+   {
+    "idee": "Textile et architecture : construire des touts complexes à partir de parties qui gardent leur identité ; le textile comme surface souple et écran.",
+    "en_classe": "Concevoir des partitions textiles pour une salle d'exposition avec des panneaux de transparences diverses. Idée attestée pour la pratique de BMC (Room Dividers 1949) ; l'essai « The Pliable Plane » et le séminaire de Yale sont postérieurs.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01307",
+     "CO-00819",
+     "ID-01834",
+     "ID-03482"
+    ]
+   },
+   {
+    "idee": "Écrire et tisser sont sœurs : texte et textile ; lire un tissage comme un texte.",
+    "en_classe": "Faire écrire un texte dans la trame, puis le laisser devenir illisible pour ne garder que le rythme ; comparer une phrase et une armure. Les textes sont de 1965 et plus tard.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00282",
+     "ID-00419",
+     "ID-00428",
+     "SC-00197",
+     "ID-00420"
+    ]
+   },
+   {
+    "idee": "Le tissage est janusien : endroit et envers, chaîne et trame, tissu à deux faces qui peuvent chacune se lire comme un endroit.",
+    "en_classe": "Retourner un tissage et demander lequel est l'endroit. Texte de 1965, non attesté en classe.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00283",
+     "ID-00393"
+    ]
+   },
+   {
+    "idee": "Le tissu se forme lui-même : passivité attentive plutôt que volonté du designer.",
+    "en_classe": "Devant un métier, écouter le fil avant de lui imposer une forme ; demander « qu'est-ce qui a guidé tes mains, toi ou le fil ? ».",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00425",
+     "ID-01384",
+     "CO-00864"
+    ]
+   },
+   {
+    "idee": "Chaque gain de temps mécanique se paie d'une perte de liberté du tisserand : histoire du métier comme échange entre efficacité et liberté.",
+    "en_classe": "Comparer un métier simple et un métier à lames et demander ce que chacun permet et interdit.",
+    "atteste": "incertain",
+    "refs": [
+     "CO-00861",
+     "ID-03900",
+     "ID-03826",
+     "ID-00278",
+     "ID-00678"
+    ]
+   },
+   {
+    "idee": "Les doubles étoffes sont à la portée du sens commun ; les étoffes péruviennes très larges ont pu être tissées en couches dépliées en accordéon.",
+    "en_classe": "Faire tisser deux couches liées d'un seul côté et les déplier au double de la largeur.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-03908",
+     "ID-01007",
+     "ID-01627",
+     "CO-00862"
+    ]
+   },
+   {
+    "idee": "Le processus importe plus que le produit fini ; le titre d'une œuvre vient après les essais sur la matière.",
+    "en_classe": "Regarder l'atelier, l'ébauche, la chaîne avant la forme achevée ; faire tordre des fils, voir ce qui arrive, et ne nommer qu'à la fin.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00086",
+     "ID-00515",
+     "ID-00599"
+    ]
+   },
+   {
+    "idee": "L'accident et la juxtaposition involontaire sont des instruments de création.",
+    "en_classe": "Déplacer un objet familier hors de son contexte et demander ce qu'il devient entre les mains des élèves.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00351",
+     "SC-00153"
+    ]
+   },
+   {
+    "idee": "Contrainte maximale, richesse maximale : deux couleurs, une forme, des carrés seuls.",
+    "en_classe": "Limiter les étudiants à deux couleurs et une forme, puis comparer ce qui naît du manque.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00654",
+     "ID-00272",
+     "ID-00605"
+    ]
+   },
+   {
+    "idee": "On peut aller n'importe où depuis n'importe où : tout point de départ vaut, la matière la plus humble ouvre un chemin.",
+    "en_classe": "Dire à un étudiant perdu que n'importe quel matériau peut être un début. La formule est attestée comme maxime d'Anni, mais sa date comme parole d'enseignante à BMC est incertaine (épigraphe du livre de 1965).",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00074",
+     "ID-00330",
+     "ID-00344"
+    ]
+   },
+   {
+    "idee": "Dessiner l'illusion du toucher : hachures, pointillés et lignes ondulées, y compris à la machine à écrire.",
+    "en_classe": "Inventer à la machine à écrire ou au crayon des signes qui suggèrent une matière sans représenter d'objet. Les exercices à la machine à écrire sont attestés à BMC (CO-00193).",
+    "atteste": "oui",
+    "refs": [
+     "CO-00193",
+     "CO-00863",
+     "ID-03930",
+     "ID-01310"
+    ]
+   },
+   {
+    "idee": "Jeu libre et sans but avec la matière avant toute technique ; l'utilité vient ensuite et discipline la découverte.",
+    "en_classe": "Commencer par jouer avec le fil sans projet, puis fixer une fonction (absorber le son, réfléchir la lumière) et laisser la contrainte ordonner les trouvailles.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00432",
+     "ID-00433",
+     "ID-00393"
+    ]
+   }
+  ]
+ }
+}

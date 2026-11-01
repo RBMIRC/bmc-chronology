@@ -1,0 +1,392 @@
+{
+ "passe": "personnes",
+ "cle": "Marcel Duchamp",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 11240,
+  "sortie": 4628,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Marcel Duchamp",
+  "autres_noms": [
+   "Marcel"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Jamais présent à Black Mountain College ; figure d'influence indirecte majeure sur le réseau Cage/Rauschenberg issu du collège, et pôle opposé aux valeurs de Josef Albers.",
+  "presence": [],
+  "portrait_physique": "Non décrit physiquement dans les fiches ; les témoignages le montrent en action : griffonnant fébrilement pendant un symposium, montant les escaliers de Front Street à 71 ans passés pour visiter des studios de jeunes inconnus.",
+  "noyau_psychologique": "Un ironiste méthodique : il veut effacer la « personnalité » subjective de l'artiste par le hasard — protocoles rigoureusement déterminés produisant des résultats indéterminés. Officiellement il ne produit plus d'art, vivant à New York depuis 1942, tout en travaillant en secret sur Étant donnés (1946-1966). Il observe la jeune génération avec une approbation rare et franche, trouvant les Américains « remarquablement intelligents » ; malicieux, secret, il transmet par gestes (une feuille de gribouillages signée) plus que par manifestes.",
+  "blessures": "Non documentées dans les fiches ; à déduire de son retrait officiel de la production artistique et de son goût du secret.",
+  "desirs": "Que l'idée de jugement disparaisse ; que l'art s'adresse à la matière grise et non à la rétine ; effacer la subjectivité de l'artiste ; trouver des héritiers — il voit chez Rauschenberg et Tinguely l'esprit du surréalisme et reconnaît en Rauschenberg son propre jeune moi de 1910-13.",
+  "peurs": "Non documentées ; on peut déduire une allergie à la solemnité, au jugement moral, au « contentement rétinien » de la peinture new-yorkaise acclamée.",
+  "maniere_d_aimer": "Par la complicité et le geste offert : dîners à Chinatown avec Teeny après la visite des studios, page de gribouillages signée et offerte à Rauschenberg, recommandations discrètes (Bed à EROS) qui font carrière sans qu'il s'affiche.",
+  "rapport_au_pouvoir": "Refuse le pouvoir du jugement — « l'idée de jugement doit disparaître » — mais exerce une autorité de sage dada en coulisses : organise EROS et Surrealist Intrusion, recommande les jeunes, tranche (inclusion de Dalí honni malgré les critiques des surréalistes). Témoignage de Jaguer le dit aussi franchement égotiste et maladroit dans l'organisation.",
+  "voix": {
+   "registre": "Aphoristique, paradoxal, détaché et malicieux ; passe du constat sec à l'ironie ; bilingue français-anglais, aphorismes souvent formulés en anglais.",
+   "tics": "Ellipses et points de suspension ; formules lapidaires recyclées (« les regardeurs font les tableaux ») ; renversement paradoxal d'une évidence.",
+   "exemples_paraphrases": [
+    "L'idée de jugement doit disparaître",
+    "Ton hasard est différent du mien",
+    "Ce sont les regardeurs qui font les tableaux",
+    "Depuis l'impressionnisme, c'est toujours de la peinture rétinienne",
+    "Le grand mérite du surréalisme est d'avoir tenté de se défaire d'un contenu rétinien",
+    "Sur Rauschenberg et Johns : remarquablement intelligents, un plaisir de les voir et de leur parler"
+   ]
+  },
+  "habitudes": [
+   "Vit à New York depuis 1942",
+   "Prend beaucoup de notes pendant les symposiums — qui se révèlent être des gribouillages, qu'il signe et offre",
+   "Visite personnellement studios et expositions de jeunes artistes",
+   "Dîners conviviaux (Chinatown avec Rauschenberg, Johns et Teeny)"
+  ],
+  "convictions": [
+   "L'acte créateur n'est pas accompli par l'artiste seul : le spectateur complète l'œuvre par son interprétation (transmutation)",
+   "La peinture moderne, de l'impressionnisme à l'abstraction, s'est arrêtée à la rétine ; seul le surréalisme a tenté d'y échapper",
+   "Le hasard peut être « mis en boîte » : protocole déterminé, résultats imprévisibles",
+   "Le hasard permet d'effacer la personnalité subjective de l'artiste ; le mieux est quand hasard et design deviennent indiscernables",
+   "Le « coefficient d'art » mesure l'écart entre intention et résultat",
+   "L'idée de jugement doit disparaître"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "moment": "Thanksgiving à Brooklyn Heights chez les parents Dreier : rencontre des Albers fraîchement débarqués du S.S. Europa ; Josef le juge « a great fellow » ; ils visitent son exposition Brancusi",
+    "etat_interieur": "Rôle d'accueil du vieux monde européen envers les rescapés du Bauhaus — avant que la suite oppose leurs esthétiques",
+    "refs": [
+     "SC-00563",
+     "EV-02208"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "moment": "Arrivée/installation à New York parmi les artistes européens exilés (Breton, Ernst, Matta, Tanguy, Masson) ; rencontre de Kooning à l'exposition de John Graham",
+    "etat_interieur": "Réfugié devenu figure de proue de l'avant-garde new-yorkaise",
+    "refs": [
+     "EV-02921",
+     "EV-03300",
+     "EV-03302"
+    ]
+   },
+   {
+    "date": "1945-04",
+    "precision": "mois",
+    "moment": "Vitrine pour Arcane 17 à la Gotham Book Mart, avec un store masquant un sein dans le poster de Matta ; feuilletait Cahiers d'Art avec Breton (lettre du 27 octobre 1945)",
+    "etat_interieur": "En dialogue constant avec Breton sur l'argument anti-rétinien",
+    "refs": [
+     "PE-00076",
+     "RE-01277"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Interview par Jouffroy à Paris : théorie de la peinture rétinienne, derniers mots « l'idée de jugement doit disparaître » ; Breton s'approprie l'idée juste après",
+    "etat_interieur": "Spectateur théoricien, à contre-courant de l'abstraction plate new-yorkaise alors acclamée",
+    "refs": [
+     "SC-01724",
+     "SC-01725",
+     "EV-06407",
+     "RE-02662"
+    ]
+   },
+   {
+    "date": "1955-01",
+    "precision": "mois",
+    "moment": "Entretien avec Jean Schuster : « ce sont les regardeurs qui font les tableaux » (publié dans Le Surréalisme, même, printemps 1957)",
+    "etat_interieur": null,
+    "refs": [
+     "CI-03338",
+     "CI-03339"
+    ]
+   },
+   {
+    "date": "1959-01",
+    "precision": "mois",
+    "moment": "Visite des studios de Rauschenberg et Johns au 128 Front Street, accompagné de Nicolas Calas (et non de Cage) ; dîner à Chinatown avec Teeny ; amitié naissante, Rauschenberg et Johns commencent à collectionner son œuvre",
+    "etat_interieur": "Découverte d'héritiers : il reconnaîtra en Rauschenberg son jeune moi de 1910-13",
+    "refs": [
+     "SC-01912",
+     "EV-07187",
+     "EV-07188",
+     "EV-07189",
+     "EV-07163",
+     "EV-07167",
+     "RE-02568",
+     "RE-02871",
+     "RE-02938"
+    ]
+   },
+   {
+    "date": "1959",
+    "precision": "annee",
+    "moment": "Sur l'enquête de Breton, recommande Rauschenberg et Johns pour EROS ; conseille d'envoyer Bed ; lettre de Castelli du 10 septembre 1959 confirmant l'expédition de Bed et Target with Plaster Casts, « the piece that Marcel Duchamp had in mind »",
+    "etat_interieur": "Faiseur de rois discret entre New York et Paris",
+    "refs": [
+     "EV-07208",
+     "EV-07169",
+     "EV-07173",
+     "RE-02870",
+     "RE-02873",
+     "RE-02878"
+    ]
+   },
+   {
+    "date": "1959-12-15",
+    "precision": "jour",
+    "moment": "Ouverture d'EROS chez Daniel Cordier, co-organisée avec Breton et José Pierre ; émotion vive des surréalistes devant Bed",
+    "etat_interieur": "Retour au premier plan du surréalisme international",
+    "refs": [
+     "EV-07224",
+     "SC-01910"
+    ]
+   },
+   {
+    "date": "1960-11-28",
+    "precision": "jour",
+    "moment": "Surrealist Intrusion chez D'Arcy Galleries, co-dirigé avec Breton depuis New York ; son idée de tapis de mousse écartée faute d'argent ; inclusion de Dalé honni lui vaut les critiques des surréalistes (tract et lettre de Breton du 11 décembre 1960)",
+    "etat_interieur": "Libre penseur au-dessus des chapelles, encaissant les critiques détournées",
+    "refs": [
+     "EV-07344",
+     "EV-07345",
+     "PE-00076"
+    ]
+   },
+   {
+    "date": "1961-10-19",
+    "precision": "jour",
+    "moment": "Symposium The Art of Assemblage au MoMA : panéliste aux côtés de Rauschenberg, griffonne pendant la séance, puis signe et offre sa page de gribouillages (une oreille reconnaissable) à Rauschenberg",
+    "etat_interieur": "Passage de relais symbolique du vieil ironiste à l'héritier provocateur",
+    "refs": [
+     "SC-01947",
+     "SC-01959",
+     "EV-07382"
+    ]
+   },
+   {
+    "date": "1961-12-08",
+    "precision": "jour",
+    "moment": "Entretien : les jeunes Américains « remarquablement intelligents » ; compare Rauschenberg à son propre jeune moi de 1910-13 ; cite Rauschenberg et Tinguely comme porteurs de l'esprit surréaliste",
+    "etat_interieur": "Satisfaction d'un maître voyant son esprit survivre",
+    "refs": [
+     "CI-03714",
+     "EV-07396",
+     "RE-02661",
+     "RE-02663"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1912",
+    "precision": "annee",
+    "moment": "Doit à Raymond Roussel d'avoir pensé au-delà de la peinture rétinienne (aveu dans une lettre à Carrouges de 1950)",
+    "refs": [
+     "PE-00076"
+    ]
+   },
+   {
+    "date": "1913",
+    "precision": "annee",
+    "moment": "Erratum Musical : vingt-cinq notes tirées d'un chapeau par Duchamp et ses deux sœurs ; Roue de bicyclette",
+    "refs": [
+     "OE-00238",
+     "OE-00242"
+    ]
+   },
+   {
+    "date": "1913",
+    "precision": "annee",
+    "moment": "3 Standard Stoppages : un mètre de fil lâché trois fois, formes gabaritées — le « hasard en boîte »",
+    "refs": [
+     "OE-00243",
+     "PE-00076"
+    ]
+   },
+   {
+    "date": "1914",
+    "precision": "annee",
+    "moment": "Porte-bouteilles et autres ready-mades (Bottlerack)",
+    "refs": [
+     "PE-00076"
+    ]
+   },
+   {
+    "date": "1915",
+    "precision": "annee",
+    "moment": "La Mariée mise à nu par ses célibataires, même (Grand Verre) — future « balise » des surréalistes, « notre phare » pour Jouffroy",
+    "refs": [
+     "OE-00261",
+     "OE-00262",
+     "OE-01898"
+    ]
+   },
+   {
+    "date": "1913",
+    "precision": "periode",
+    "moment": "Le hasard comme mesure de 1913 à 1923 ; lettre de 1932 sur les ready-mades",
+    "refs": [
+     "PE-00076"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1961-12-08",
+    "precision": "jour",
+    "moment": "Dernier grand entretien documenté ici : comparaison de Rauschenberg à son jeune moi de 1910-13",
+    "refs": [
+     "PE-00076",
+     "CI-03714"
+    ]
+   },
+   {
+    "date": "1962-05-05",
+    "precision": "jour",
+    "moment": "Dans le public de Construction of Boston de Rauschenberg (Koch/Cunningham), au Maidman Playhouse",
+    "refs": [
+     "EV-07533"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "periode",
+    "moment": "Travaille en secret sur Étant donnés de 1946 à 1966 — la face cachée du « sage dada » officiellement retiré",
+    "refs": [
+     "PE-00076",
+     "OE-01824"
+    ]
+   },
+   {
+    "date": "1963",
+    "precision": "periode",
+    "moment": "Sa phrase « c'est le spectateur qui fait le tableau » est reprise en sens opposés par Audoin (1963) puis Robbe-Grillet (1968)",
+    "refs": [
+     "CI-03552"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "periode",
+    "moment": "Influence croissante et durable sur les artistes new-yorkais et européens depuis 1954 ; La Mariée reste « notre phare » pour Jouffroy",
+    "refs": [
+     "PE-00076"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Estime personnelle, rejet esthétique",
+    "evolution": "Rencontre chaleureuse à Thanksgiving 1933 (« a great fellow »), mais Albers méprise durablement (≈1933-1958) les valeurs associées à Duchamp : hasard, improvisation, art comme autobiographie",
+    "refs": [
+     "SC-00563",
+     "EV-02208",
+     "RE-00789"
+    ]
+   },
+   {
+    "avec": "André Breton",
+    "nature": "Collaboration et dialogue théorique",
+    "evolution": "L'argument anti-rétinien probablement élaboré ensemble à New York pendant la guerre ; Breton l'adopte après l'interview de 1954 ; co-organisation d'EROS (1959-60) et de Surrealist Intrusion (1960-61), malgré les frictions sur Dalí",
+    "refs": [
+     "RE-01277",
+     "EV-07224",
+     "EV-07344"
+    ]
+   },
+   {
+    "avec": "John Cage",
+    "nature": "Admiration de Cage, puis amitié",
+    "evolution": "Hommage musical dès 1947 ; Cage tente de répliquer les 3 Standard Stoppages (ficelle qui se pelote) ; proximité personnelle un peu après janvier 1959 — ce n'est pas lui qui accompagne Duchamp chez Rauschenberg",
+    "refs": [
+     "RE-01303",
+     "RE-01304",
+     "RE-02460",
+     "RE-02871",
+     "EV-04089",
+     "EV-01223"
+    ]
+   },
+   {
+    "avec": "Robert Rauschenberg",
+    "nature": "Mentorat puis amitié (1953-1961+)",
+    "evolution": "Premier croisement à la Stable Gallery en 1953 ; visite du studio en janvier 1959 ; recommandations pour EROS ; dîners, panels, feuille de gribouillages offerte ; Rauschenberg et Johns collectionnent son œuvre",
+    "refs": [
+     "RE-02568",
+     "RE-02661",
+     "RE-02663",
+     "RE-02869",
+     "RE-02870",
+     "RE-02873",
+     "RE-02938",
+     "SC-01947",
+     "SC-01959"
+    ]
+   },
+   {
+    "avec": "Nicolas Calas",
+    "nature": "Amitié de longue date (depuis la fin des années 1930)",
+    "evolution": "Calas organise la tournée de studios de janvier 1959 et présente Rauschenberg et Johns à Duchamp",
+    "refs": [
+     "RE-00654",
+     "EV-07188",
+     "RE-02931"
+    ]
+   },
+   {
+    "avec": "Alain Jouffroy",
+    "nature": "Mentorat intellectuel",
+    "evolution": "Interview fondatrice de 1954 (peinture rétinienne, fin du jugement) dont Jouffroy se servira pour lire Rauschenberg",
+    "refs": [
+     "RE-02662",
+     "SC-01724",
+     "SC-01725"
+    ]
+   },
+   {
+    "avec": "Teeny Duchamp",
+    "nature": "Épouse et partenaire de scène sociale",
+    "evolution": "Présente aux visites de studios et au dîner de Chinatown ; co-présentatrice de Lebel à Cage (≈1951-1973)",
+    "refs": [
+     "EV-07163",
+     "EV-05443"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Rencontre Rauschenberg-Duchamp : 1953 à la Stable Gallery (premier croisement) vs 1960 par Calas (Rauschenberg Berlin 1980) — l'amitié ne commence réellement qu'après janvier 1959",
+   "Le symposium Art of Assemblage est daté 1961 dans certaines fiches, précisé au 19 octobre 1961 dans SC-01959",
+   "Une aura entoure son nom au début des années 1950, mais on ignore quand Rauschenberg a réellement rencontré son œuvre (la Roue de bicyclette au MoMA en 1961-62 serait sa première rencontre en personne avec un ready-made)",
+   "Témoignage de Jaguer (homme maladroit, franchement égotiste) contredit l'image habituelle de sage dada malicieux"
+  ],
+  "situations_revelatrices": [
+   "Le dîner de Thanksgiving 1933 : le maître du hasard face à Albers, l'homme du contrôle — courtoisie mutuelle, abysses sous-jacents",
+   "La visite des deux étages de Front Street : le vieil homme montant les escaliers, regardant silencieusement, puis recommandant ce qu'il a vu",
+   "Le symposium où il griffonne au lieu de prendre des notes : le geste qui résume sa carrière",
+   "L'organisation d'EROS et de Surrealist Intrusion : l'anti-autoritaire obligé de décider, d'inclure Dalí, d'encaisser les tracts",
+   "Les dîners à Chinatown : transmission conviviale, sans discours"
+  ],
+  "citations": [
+   "CI-01836",
+   "CI-02749",
+   "CI-02895",
+   "CI-03161",
+   "CI-03162",
+   "CI-03338",
+   "CI-03339",
+   "CI-03552",
+   "CI-03714"
+  ],
+  "questions_ouvertes": [
+   "Ses dates de naissance et de mort ne figurent pas dans les fiches",
+   "A-t-il jamais mis un pied à Black Mountain ou rencontré d'autres figures du collège qu'Albers ? Rien ne l'atteste",
+   "Nature et datation exactes de sa proximité avec Cage avant 1959 (la fiches disent « un peu après » la visite de Front Street)",
+   "Ce que disaient réellement ses gribouillages de notes, hormis l'oreille reconnaissable",
+   "Sa réaction précise aux critiques surréalistes sur l'inclusion de Dalí"
+  ]
+ }
+}

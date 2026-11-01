@@ -1,0 +1,381 @@
+{
+ "passe": "mois",
+ "cle": "1947-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3909,
+  "sortie": 17499,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1947-10 (octobre 1947)",
+  "session": "Trimestre d'automne de la rentrée 1947-1948, dans le calendrier en trimestres adopté le 18 mars 1947 (déduit : la fiche ne nomme pas explicitement la session d'octobre)",
+  "saison_et_climat": "Automne sur les hauts plateaux des Appalaches de Caroline du Nord : rentrée fraîche, vie dans les barraques, la ferme et les ateliers. Le climat précis n'est pas documenté dans les fiches.",
+  "situation": "Rentrée 1947-1948 après une année de réorganisation. Levi et Rondthaler tiennent la gouvernance. Albers est encore à Mexico jusqu'à fin octobre, son retour est annoncé et son poste de peinture est tenu par Bolotowsky. Les effectifs ont grimpé à environ 90 étudiants grâce au GI Bill, avec plus de la moitié d'hommes logés dans des baraques de surplus militaire. Le budget prévoit un déficit (115 239 $ de recettes pour 119 402 $ de dépenses). Un seul sociologue est parti et un seul remplacement est autorisé. Le collège a déclaré l'admission ouverte à toutes les races mais n'a recruté aucun enseignant noir, et les étudiants noirs vivent presque reclus. L'imprimerie repart avec Rice et Tite, et Richards prépare ses Poems pour décembre.",
+  "presents_probables": [
+   {
+    "nom": "Charles Bloomstein",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bill Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Howard Rondthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M. C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tasker Howard Jr.",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Frank Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jim Tite",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trude Guermonprez",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Arthur Penn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bolotowsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Moles et Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Masurovsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lyle",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1947-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Charles Bloomstein, expert-comptable, rejoint le personnel pour tenir les livres et superviser les comptes de la ferme, du magasin et des ateliers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04122"
+    ]
+   },
+   {
+    "date": "1947-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Josef Albers doit revenir de Mexico à la fin du mois, après un séjour d'avril ou début mai à fin octobre (la date d'arrivée diverge selon les fiches).",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1947-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Levi prononce The Meaning of Black Mountain. Les effectifs passent de 65 à 85, puis à environ 90 étudiants, et le programme se rééquilibre vers les humanités.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1947",
+    "precision": "saison",
+    "ce_qui_arrive": "L'automne apporte une nouvelle équipe : Natasha Goldowski, Tasker Howard Jr., Trude Guermonprez en remplacement d'Anni Albers, Arthur Penn comme étudiant régulier, et le couple Moles et Trayer qui lance le régime agricole de Lake Eden.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1947-12",
+    "precision": "mois",
+    "ce_qui_arrive": "M. C. Richards imprime ses Poems, en 50 exemplaires, sur le Print Shop.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1947-08-22",
+    "precision": "jour",
+    "ce_qui_arrive": "Dreier écrit à Ise Gropius qu'il songe à partir en Allemagne, après la conférence troublante d'un candidat au poste d'histoire.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1947-05-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers écrit aux Dreier, puis réclame au Board au moins 1 000 $ pour son second semestre.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1947-05-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers annote la lettre de Levi qui refusait de prolonger son congé, la lisant en partie comme une réponse du Board.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1947-04-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Arthur Penn fait une proposition à la faculté, liée à la relance de l'imprimerie (contenu non précisé).",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1947-03-27",
+    "precision": "jour",
+    "ce_qui_arrive": "Notification du non-renouvellement de Niebyl, suivi de deux pétitions étudiantes, d'une réunion du Board le 8 mai et de deux notices le 9 mai. Niebyl part.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1947-03-18",
+    "precision": "jour",
+    "ce_qui_arrive": "La faculté adopte le calendrier en trimestres de Hansgirg, qui évite une pause de trois mois d'un bloc.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1947-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Ted Dreier soutient l'élection de Bill Levi comme recteur. À la mi-mars, John Wallen remet sa démission, que le Board confirme après une redéfinition mollement acceptée de sa chaire.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "ce_qui_arrive": "Molly Gregory démissionne du secrétariat de la corporation et refuse de se représenter au Board. Albers l'accuse de l'avoir vendu.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "ce_qui_arrive": "Le budget 1947-48 prévoit 115 239 $ de recettes contre 119 402 $ de dépenses. Les frais passent de 1 400 à 1 600 $ et le personnel d'entretien et de cuisine est renvoyé.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1947",
+    "precision": "saison",
+    "ce_qui_arrive": "La faculté vote la fin du stade expérimental et déclare l'admission ouverte à toutes les races. Seule une des cinq étudiantes noires de l'hiver revient à l'automne.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les cours sont donnés dans un collège turbulent : Dehn (Problèmes de philosophie, à la demande des étudiants), Rondthaler qui compose dans sa cabane, Goldowski, M. C. Richards qui fait son séminaire par terre, et Wallen qui conduit le psychodrame avec la règle du texte justificatif en cas d'absence. Dans la ferme, la génisse Junket a mis bas un veau noir de boucherie, et les terres défrichées sont en pâture. L'imprimerie tourne avec la presse de surplus. Les étudiants circulent en jeep et en jalopy, la cuisine a perdu son personnel et la vaisselle casse. Les mères organisent une garderie informelle. Penn monte des sketchs burlesques légèrement grivois.",
+  "tensions": [
+   "Débat collège ou communauté : Wallen contre les anciens, et la démission de Wallen (confirmée, mais des sources le disent encore enseignant en 1947-48 et son groupe ne part qu'à l'été 1948).",
+   "Retour d'Albers : Levi a refusé de prolonger son congé, Albers réclame de l'argent au Board et son poste est tenu par Bolotowsky. Le conflit art contre humanités, prolongé par le recul de la peinture au programme, prépare le conflit du retour.",
+   "Bolotowsky et les autres enseignants : leur tension mutuelle est contenue par leur aversion commune pour Levi.",
+   "Affaire Gregory : elle se dit utilisée comme propriété d'Albers et de Dreier, et Albers l'accuse de l'avoir vendu.",
+   "Gouvernance par la dette : l'hypothèque de second rang de 16 500 $ détenue par les Dreier pèse sur toutes les décisions, et le budget est en déficit.",
+   "Racial : les étudiantes noires sont presque toutes parties, Lowinsky a écrit que BMC n'a pas de Noirs parce qu'il n'en veut pas vraiment, et la ville est hostile (affaire Krikorian : arrestation, sursis, voiture saisie).",
+   "Dreier, découragé, songe à partir en Allemagne. Le dernier candidat à l'histoire l'a troublé."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le comptable face aux livres",
+    "date": "1947-10",
+    "lieu": "bureau de gestion du Black Mountain College",
+    "personnages": [
+     "Charles Bloomstein",
+     "Bill Levi"
+    ],
+    "deroule": "Bloomstein arrive pour tenir les livres et superviser ferme, magasin et ateliers. Il découvre un budget déficitaire (115 239 $ de recettes pour 119 402 $ de dépenses), des frais relevés, du personnel renvoyé et une hypothèque de 16 500 $ due aux Dreier. Levi présente ces mesures comme une victoire de gestion.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-04122"
+    ]
+   },
+   {
+    "titre": "Le retour de Mexico",
+    "date": "1947-10",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Bill Levi",
+     "Ted Dreier",
+     "Bolotowsky"
+    ],
+    "deroule": "Fin octobre, les Albers reviennent de Mexico après la série des Adobes. Ils découvrent que Bolotowsky enseigne la peinture à leur place. Albers se souvient de la lettre où Levi refusait de prolonger son congé, et réclame son argent. Le rectorat et l'hypothèque des Dreier se nouent dans les couloirs.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Le séminaire par terre",
+    "date": "1947-10",
+    "lieu": "une salle de classe",
+    "personnages": [
+     "M. C. Richards",
+     "étudiants"
+    ],
+    "deroule": "Richards enseigne assise par terre avec ses étudiants, dans la lignée de l'école turbulente. Elle prépare ses Poems, qui paraîtront en décembre. Les étudiants ont obtenu leur cours de philosophie, confié à Dehn.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "La valse qui écrase le piano",
+    "date": "1947",
+    "lieu": "salle commune",
+    "personnages": [
+     "Natasha Goldowski",
+     "Lyle"
+    ],
+    "deroule": "La valse de Natasha et de Lyle finit par écraser un piano. La scène dit le ton du collège : une liberté joyeuse sans règle écrite.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Penn et le petit choc",
+    "date": "1947",
+    "lieu": "salle de spectacle ou réfectoire",
+    "personnages": [
+     "Arthur Penn",
+     "étudiants",
+     "faculté"
+    ],
+    "deroule": "Penn, 24 ans, étudiant régulier, monte des sketchs burlesques légèrement grivois. L'effet est un petit choc, et le théâtre commence à naître avec lui.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Le croc à viande dans la porte du frigo",
+    "date": "1947",
+    "lieu": "cuisine",
+    "personnages": [
+     "étudiants",
+     "personnel de cuisine"
+    ],
+    "deroule": "Un croc à viande est planté dans la porte du frigo. Dans une cuisine où le personnel a été renvoyé et la vaisselle casse, la scène dit la fatigue du service.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "La garderie des mères",
+    "date": "1947",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "mères de la communauté"
+    ],
+    "deroule": "Pendant les cours, les mères organisent une garderie informelle pour les enfants de la communauté.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Albers à Mexico, qui achève la série Variants/Adobes et confie dix peintures à Inés Amor",
+    "vers_date": "1946-12",
+    "vers": "L'hiver à La Luz et le début de la diète de peinture, qui fait basculer les Albers vers l'art",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Penn, qui connaît le Bauhaus par les récits de son frère",
+    "vers_date": null,
+    "vers": "Le récit de l'arrivée d'Anni au Bauhaus, écrit à Mexico en 1947",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la lecture de Goodman sur l'après-guerre, qui compare la confiance pacifique et l'anxiété atomique",
+    "vers_date": "1920",
+    "vers": "L'âge d'or de l'avant-garde et du Bauhaus, dont Albers est l'héritier",
+    "refs": [
+     "EC-02186"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la ferme de Lake Eden et ses bêtes",
+    "vers_date": "1947-05",
+    "vers": "La ferme ordonnée au printemps : ravin défriché en pâture, 8 acres loués, 4 500 arbres plantés, la génisse Junket et son veau",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Levi et son dossier de rentrée",
+    "vers_date": "1947-03",
+    "vers": "L'élection de Levi, le calendrier en trimestres, la démission de Wallen et le non-renouvellement de Niebyl",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Wallen et ses anciens, dans les tensions sur la nature du lieu",
+    "vers_date": "1948",
+    "vers": "Le départ du groupe de Wallen à l'été 1948 (une source le dit encore enseignant en 1947-48)",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Penn et ses sketchs",
+    "vers_date": "1948",
+    "vers": "La naissance du théâtre avec Arthur Penn",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers, de retour de Mexico, face à la gouvernance Levi-Rondthaler",
+    "vers_date": "1948",
+    "vers": "Le rectorat et la tension sur l'art contre la communauté, dont la date précise n'est pas fixée",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le régime agricole de Moles et Trayer",
+    "vers_date": "1949",
+    "vers": "La croissance des effectifs et les logements de surplus jusqu'en 1949",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Richards et ses Poems",
+    "vers_date": "1947-12",
+    "vers": "La parution des Poems en 50 exemplaires sur le Print Shop",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "« form follows function » : la lecture Bauhaus d'Albers au collège, discutée par Goodman (EC-02185)",
+   "Le calendrier en trimestres contre la pause d'un seul bloc",
+   "La communauté contre le collège, et l'art contre l'humanisme au programme",
+   "L'hypothèque des Dreier, le budget et la vaisselle cassée",
+   "L'exclusion raciale de fait sous une politique d'ouverture déclarée",
+   "Le GI Bill, les baraques de surplus militaire et la croissance des effectifs",
+   "La ferme, l'imprimerie et le théâtre comme lieux de fabrique du collège"
+  ],
+  "lacunes": "La synthèse 1947 et la liste des Fils n'ont pas d'identifiant : les éléments qui en viennent ont des refs vides. Contradictions : arrivée d'Albers à Mexico (fin avril ou 1er mai), nombre d'études (environ 70, 80 ou plus de 100), rectorat d'Albers (1947 ou 1948), départ de Wallen (1947-48 ou été 1948), date d'Anahuacalli (1947 ou 1949), rôle de Dreier comme recteur nominal. Non documentés : climat exact, présence réelle de Dreier et de Hansgirg en octobre, jour précis du retour d'Albers, effectif exact d'octobre, date de l'arrestation de Krikorian, date de la proposition de Penn."
+ }
+}

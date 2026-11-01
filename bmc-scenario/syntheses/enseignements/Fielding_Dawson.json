@@ -1,0 +1,212 @@
+{
+ "passe": "enseignements",
+ "cle": "Fielding Dawson",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 51306,
+  "sortie": 7347,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Fielding Dawson",
+  "cours": [
+   {
+    "intitule": "Classe de dessin (fiche CO-00296, attribution à clarifier)",
+    "periodes": [
+     "date de la fiche ≈1938→1954 (fourchette très large, déduite) ; présence de Dawson au collège attestée par les fiches de 1949 jusqu'au début des années 1950, mais aucune date de cours n'est donnée"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Les fiches ne donnent aucun programme de Dawson. Il apparaît presque toujours comme ÉTUDIANT : élève de Joe Fiore en dessin (SC-01317, ID-02301), d'Olson, de Wolpe en chant, de Dan Rice sur le chantier, de M.C. Richards. Une seule fiche de cours porte son nom (CO-00296) et décrit une classe de dessin où un étudiant refuse d'écouter. Rien dans les fiches ne dit que Dawson ait été enseignant régulier du collège, ni qu'il ait tenu cette classe en titre. Je ne le prétends donc pas. Cette fiche peut aussi être une scène vue de l'élève, ou un cours de Fiore mal étiqueté. Sa source (Dawson 1970 p.227) est la page de la nuit de l'incendie de montagne (SC-00727), sans rapport visible avec le dessin. Il faut donc la manier avec prudence. Lecture déduite pour le scénario : la discipline du regard et de la ligne que Dawson a reçue d'Albers et de Fiore (ID-02988, ID-01774) est ce qu'il pouvait transmettre.",
+    "deroule_type_seance": "Aucun déroulé de séance n'est attesté pour Dawson enseignant. La seule trace (CO-00296) montre un étudiant sommé de repasser sans cesse sur le trait d'origine de son dessin, faute d'avoir écouté, parce qu'il ne pouvait pas le laisser tranquille. Pour le déroulé réellement vécu par Dawson comme élève de dessin, voir SC-01317 et ID-02301 : une heure d'observation du papier, puis un seul trait vertical. Cela relève de la classe de Fiore, pas de la sienne.",
+    "exercices": [
+     {
+      "consigne": "À un étudiant qui ne voulait pas écouter : tracer des lignes sur les lignes sur les lignes de son premier trait, parce qu'il ne pouvait pas le laisser tranquille. (Fiche à attribution douteuse ; le texte ne dit pas explicitement que Dawson donne la consigne.)",
+      "materiaux": "papier, trait (crayon ou fusain non précisé)",
+      "but": "Contraindre l'étudiant à regarder et à cesser de retoucher compulsivement ; but déduit, non énoncé dans la fiche.",
+      "refs": [
+       "CO-00296"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Références de Dawson étudiant, non attestées comme matière d'un cours qu'il donnait : Olson, Melville (The Confidence-Man), Faulkner, Joyce, D.H. Lawrence, W.C. Williams, imités par lui (ID-02294) ; « Anecdote of the Jar » de Wallace Stevens, lu par M.C. Richards (SC-01122) ; Freud, Moses and Monotheism, et King Lear, lus ou non lus chez Olson (SC-01324, SC-01325)."
+    ],
+    "propos_types": [
+     "Non attesté en classe : ce qu'il écrit plus tard sur la méthode. On commence par imiter ceux qu'on admire, puis on forge son propre prototype, puis on le brise (ID-02294).",
+     "Non attesté en classe : la peinture ou la page te dit quand elle est finie ; il faut apprendre à entrer dans l'œuvre (ID-01059).",
+     "Non attesté en classe : l'intuition et la capacité de changer sont des portes d'entrée, pas des échappatoires (ID-02300)."
+    ],
+    "critique_et_evaluation": "Les fiches ne donnent aucune évaluation par Dawson. Il décrit seulement la liberté sans notes du collège comme un fardeau pour l'étudiant, avec pression des pairs et honte des mains vides (ID-02304, SC-01325). C'est la matière dont il a été formé, pas un système qu'il appliquait.",
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "CO-00296",
+     "SC-01317",
+     "ID-02301",
+     "ID-02988",
+     "ID-01774",
+     "ID-02294",
+     "ID-02304",
+     "SC-01325"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Savoir où commencer est l'acte même de composition : on regarde le papier, on cherche son centre visuel, on ne touche pas avant d'avoir trouvé le point qui appelle la première marque.",
+    "en_classe": "Séance de dessin sans dessiner : fixer la feuille, tester les coins, repérer la place, puis tracer un seul trait vertical et le regarder. Chez Fiore, Dawson a passé une heure sur la feuille avant de faire sa première ligne à partir du coin supérieur gauche. Chez Albers, la pose du modèle suivait le même principe : crayon tenu à quelques centimètres du papier. Cette discipline est attestée à Black Mountain, mais Dawson la reçoit, il ne l'enseigne pas (SC-01317 est un cours de Fiore).",
+    "atteste": "oui",
+    "refs": [
+     "ID-01774",
+     "ID-02301",
+     "SC-01317",
+     "ID-02988"
+    ]
+   },
+   {
+    "idee": "On ne regarde pas le paysage, on regarde en lui : le dessin, l'écriture et la composition apprennent à regarder à l'intérieur du paysage et des gens.",
+    "en_classe": "Dessiner non la forme extérieure de l'arbre mais ce qu'il y a dedans ; regarder un camarade comme on regarde un tableau. Proposition issue de la fiche, non attestée comme exercice réel au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01056"
+    ]
+   },
+   {
+    "idee": "La formation d'un style passe par trois étapes : imiter un artiste admiré, développer son propre prototype de voix, puis le briser. Dawson cite ses imitations (Olson, Melville, Faulkner, Joyce, Lawrence, Williams).",
+    "en_classe": "Dire à un étudiant de copier ceux qu'il aime comme début honnête d'un style. Formulé par la fiche au conditionnel ; rien n'atteste que Dawson l'ait dit en classe.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02294"
+    ]
+   },
+   {
+    "idee": "L'intuition et la capacité de changer sont des portes d'entrée dans le processus, pas des échappatoires. À BMC, tous, Olson compris, apprenaient à apprendre intuitivement, en écoutant à un point qui variait à chaque séance.",
+    "en_classe": "Conseil à un étudiant doué mais sans discipline ; la classe d'Olson à l'automne 1951 en est l'exemple vécu. La nuit où Olson, troublé en lisant à voix haute, laisse Dawson lire à sa place avant que chacun lise son propre texte, montre ce renversement (SC-01473).",
+    "atteste": "oui",
+    "refs": [
+     "ID-02300",
+     "ID-02296",
+     "SC-01473"
+    ]
+   },
+   {
+    "idee": "Une chose vue devient parole : la perception empirique cristallise les métaphores, et une faute d'orthographe peut devenir un fait poétique.",
+    "en_classe": "Adopter l'erreur comme matière, comme le « mirrow » de Speedy, qui provoque le hurlement de Charley (SC-01468). Ce moment relève de la pédagogie d'Olson, reçue par Dawson.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02888",
+     "SC-01468"
+    ]
+   },
+   {
+    "idee": "Le chêne n'admet pas la pensée : seuls comptent l'œil, le bras et la tête du clou. La leçon du matériau est aussi une leçon de volonté.",
+    "en_classe": "Dan Rice la donne à Dawson sur le chantier du hangar à tabac en 1952 : « That's oak. » Dawson incapable d'amorcer son premier clou, puis absorbé au point de ne pas voir la nuit tomber (SC-01539). Leçon vécue en tant qu'étudiant au travail, non donnée par lui.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02889",
+     "ID-02939",
+     "SC-01571",
+     "SC-01572",
+     "SC-01539"
+    ]
+   },
+   {
+    "idee": "La liberté académique de Black Mountain alourdit le fardeau au lieu de le lever : sans notes ni règlements, tout repose sur l'étudiant, sous le regard des pairs.",
+    "en_classe": "Formule possible : « On vous laisse libre, donc produisez, sinon vous êtes nu. » Scènes vécues par Dawson comme élève pris en défaut devant Olson (Freud non lu, King Lear non lu). Les deux fiches du mensonge sur le livre non lu (SC-00725, qui désigne l'enseignant sous le surnom « Hitler », et SC-01324, qui nomme Olson) racontent probablement le même épisode ; c'est une déduction.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02304",
+     "SC-00725",
+     "SC-01324",
+     "SC-01325"
+    ]
+   },
+   {
+    "idee": "Le hasard, dans la peinture intuitive, n'est exploitable que s'il s'accorde au travail. Chez Kline, on regarde l'accident, on retourne la toile, on recule, on décide.",
+    "en_classe": "Exercice possible autour d'une tache accidentelle. Méthode vue chez Kline, non attestée comme pratique de classe à Black Mountain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01773"
+    ]
+   },
+   {
+    "idee": "L'enfance, même la prime enfance, est cruciale pour comprendre l'œuvre d'un artiste. Dawson dit lui-même être arrivé à Black Mountain déjà formé par ses sensations d'enfance (verger de Pennsylvanie, plage de Key West).",
+    "en_classe": "Étudier côte à côte les dessins d'enfant et les grandes toiles d'un même artiste, ou faire raconter une sensation d'enfance. Aucune séance de ce type n'est attestée au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00209",
+     "ID-01451",
+     "ID-02166",
+     "SC-00746",
+     "SC-00747"
+    ]
+   },
+   {
+    "idee": "L'obscurité nocturne de la vallée est une expérience archaïque et fondatrice : on apprend à recevoir les ténèbres dans les ténèbres.",
+    "en_classe": "Leçon d'attention sensitive : écouter le silence jusqu'à sentir la terre. Dawson l'a pratiquée en marchant pieds nus la nuit sur la route du Studies Building (SC-01250, SC-01469) ; ce n'est pas un exercice de cours.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02191",
+     "SC-01250",
+     "SC-01469"
+    ]
+   },
+   {
+    "idee": "L'école, c'étaient les gens qui s'y trouvaient : d'où ses changements soudains, et l'impression fausse que donnent les listes de célébrités. L'école avait une compréhension organique de sa propre transience.",
+    "en_classe": "Devise de communauté attribuée à Dan : « The school was the people who were there » (ID-02189). Dawson insiste aussi sur les gens ordinaires (Harvey Harmon, Tim LaFarge, Andy Oates, Trueman McHenry), et dit qu'on ne peut pas exhumer le collège : il faut le créer (ID-02194).",
+    "atteste": "oui",
+    "refs": [
+     "ID-02189",
+     "ID-02194"
+    ]
+   },
+   {
+    "idee": "Le fait central de Black Mountain était une discipline de la composition : une communauté qui compose. Avec Josef et Anni Albers, on était aussi discipliné à voir qu'à dessiner ; le regard précède le geste.",
+    "en_classe": "Ne touche pas encore : regarde, compose dans l'œil, puis seulement commence. Cœur de l'enseignement d'Albers tel que Dawson l'a vécu (il en reste l'élève, pas le maître).",
+    "atteste": "oui",
+    "refs": [
+     "ID-02988"
+    ]
+   },
+   {
+    "idee": "Les petits faits (côtelette de porc, mot de travers, détail minuscule) révèlent plus un homme qu'un traité ; Maximus se bâtit sur un abîme d'omissions. Lecture critique d'Olson par un ancien élève.",
+    "en_classe": "Exercice possible : regarder un plat, un couloir, une phrase, et y chercher l'histoire. Méthode de Dawson mémorialiste, non attestée comme pratique de classe ; la lecture d'Olson est postérieure au collège.",
+    "atteste": "non",
+    "refs": [
+     "ID-01501",
+     "ID-01503",
+     "ID-01231"
+    ]
+   },
+   {
+    "idee": "L'art est devenu démocratique : on le fait d'abord, on le comprend après. Les années 1950 n'avaient pas les mots, et les critiques ont pris la parole à leur place.",
+    "en_classe": "Faire d'abord, penser ensuite, puis discuter de ce déséquilibre. Pensée d'après coup (Dawson 1970, écrit tardivement), non attestée au collège.",
+    "atteste": "non",
+    "refs": [
+     "ID-00210",
+     "ID-01775"
+    ]
+   },
+   {
+    "idee": "Le règne du père décline, la mère monte : l'abstraction comme fuite de la figure maternelle et féminine ; nombre de peintres abstraits viennent de familles sans père. Dawson l'applique à ses condisciples de BMC.",
+    "en_classe": "Conversation de réfectoire sur ces origines familiales, ou autour d'un modèle : pourquoi peindre la figure, et que se passe-t-il quand on ne la peint plus ? Thèse de Dawson écrivain, non attestée comme propos de classe.",
+    "atteste": "non",
+    "refs": [
+     "ID-01058",
+     "ID-00208"
+    ]
+   },
+   {
+    "idee": "M.C. Richards devrait être placée au centre de toute définition de Black Mountain : voir l'école à travers une personne plutôt qu'à travers des doctrines.",
+    "en_classe": "Raconter le collège à partir d'un seul personnage plutôt que d'un programme. Proposition de méthode narrative de Dawson, utile pour le scénario ; non attestée dans un enseignement.",
+    "atteste": "non",
+    "refs": [
+     "ID-02038",
+     "SC-01122",
+     "SC-01310"
+    ]
+   }
+  ]
+ }
+}

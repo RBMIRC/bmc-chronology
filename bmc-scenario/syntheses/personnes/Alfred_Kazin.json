@@ -1,0 +1,239 @@
+{
+ "passe": "personnes",
+ "cle": "Alfred Kazin",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 4356,
+  "sortie": 4723,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Alfred Kazin",
+  "autres_noms": [],
+  "dates_de_vie": "Non précisées dans les fiches. Il a 29 ans à son arrivée à Black Mountain en 1944 (donc né vers 1915, par déduction). Un cours est daté « ≈1943→1987 » dans une fiche, ce qui reste une fourchette incertaine et non une date de mort. Interviewé par Duberman le 22 février 1967.",
+  "statut_bmc": "Enseignant invité, critique littéraire, présent un seul trimestre (automne 1944). Une fiche évoque aussi le printemps 1945 sans trancher. Il fait partie des premiers ajouts au personnel après la scission. Sa célébrité vient de son premier livre, On Native Grounds.",
+  "presence": [
+   {
+    "debut": "1944",
+    "fin": "1944",
+    "role": "Enseignant de littérature (Melville et Blake, Moby Dick, Emerson et Melville). Un trimestre, session d'automne. Une fiche parle d'une session d'automne 1944, une autre du printemps 1945.",
+    "refs": [
+     "PE-00247",
+     "EV-03521",
+     "CO-00396",
+     "EV-03522",
+     "EV-03668"
+    ]
+   },
+   {
+    "debut": "1945",
+    "fin": "1945",
+    "role": "Possible prolongement ou datation divergente : la scène de Mozart est datée de 1945 et le profil mentionne le printemps 1945. Les sources ne permettent pas de trancher entre un deuxième séjour et une datation approximative.",
+    "refs": [
+     "SC-00928",
+     "PE-00247"
+    ]
+   }
+  ],
+  "portrait_physique": "Les fiches donnent très peu. Un homme de 29 ans, assis seul en haut des marches du Round House, yeux fermés et visage levé vers le soleil. Les fiches mentionnent un style de parole staccato, bégayant, « parfois testacé » (irritable). Elles ne disent rien de la taille, du visage ni des vêtements, et le scénariste devra les inventer.",
+  "noyau_psychologique": "Un intellectuel passionné et exigeant, convaincu que la culture se transmet par l'information et la lecture rigoureuse, évangéliste de Melville et Blake. Il arrive sceptique et distant, dans une période de transition personnelle (mariage brisé), et se protège par la sévérité et la concentration. Il méprise la pédagogie du lieu et reste fasciné par ses habitants. Déduction : sa raideur critique couvre une vraie sensibilité (la musique, la lumière d'automne dans son journal).",
+  "blessures": "Attesté : il vient de se séparer d'un mariage brisé. Rien de plus dans les fiches. Déduction prudente : l'isolement qu'il cherche (marches seul, yeux fermés) peut relever d'un repli après cette rupture.",
+  "desirs": "Déduit à partir des cours et idées : transmettre un canon littéraire (Melville, Blake, Emerson), être pris au sérieux comme écrivain et critique, trouver un lieu de travail et de refuge. Les fiches ne donnent pas de désir exprimé explicitement.",
+  "peurs": "Non documentées directement. Déduction : il redoute l'absence de rigueur et l'ignorance (il est consterné par le manque de connaissances des étudiants) ainsi que l'auto-indulgence. Il s'étonne de voir un tel endroit produire autre chose que des « nebbish intellectuels complets ».",
+  "maniere_d_aimer": "Non documentée sur le plan amoureux, hormis le mariage brisé. Sur le plan amical et professionnel, il s'engage avec ferveur pour ceux qu'il estime : en 1948, il recommande Isaac Rosenfeld à Levi avec ardeur. Il se sent plus proche des Européens de la communauté que des Américains, qu'il juge auto-indulgents.",
+  "rapport_au_pouvoir": "Il n'a pas de pouvoir institutionnel attesté. Son autorité est celle du maître : cours magistral plus discussion, exigence (dissertations, ponctualité, présence), conservatisme éducatif assumé. Il se met en porte-à-faux avec la pédagogie du lieu sans chercher à diriger la communauté. En 1948, son poids de recommandation compte auprès de Levi, ce qui prouve une influence de réseau.",
+  "voix": {
+   "registre": "Passionné, impétueux, mêlant commérages, profondeur, exhortations. Tantôt rhapsodique, tantôt bouffon inapte. Sec et distant dans la vie courante, évangélique en classe.",
+   "tics": "Style staccato, bégaiement, humeur parfois testacée. Des formules brutales et imagées (« crétins », « half-assed », « galerie du névrotisme supérieur »). Une impétuosité qu'on dit « calculée ».",
+   "exemples_paraphrases": [
+    "Pour un écrivain sérieux, ce collège est un endroit plutôt bâclé.",
+    "Les gens ici, c'est comme une galerie du névrotisme supérieur : pas un seul ennuyeux.",
+    "Personne ne sait qui est Jonas ? Alors on arrête Melville, et je vous fais l'Ancien Testament.",
+    "Je n'ai aucun respect pour ce qui se fait ici en matière d'éducation."
+   ]
+  },
+  "habitudes": [
+   "Joue chaque jour après le déjeuner le finale de l'acte II des Noces de Figaro, assis seul en haut des marches du Round House, yeux fermés, visage au soleil.",
+   "Tient un journal (note du 7 novembre 1944 sur l'herbe gelée près de la salle à manger).",
+   "Fréquente la cible de fléchettes dans l'étude des étudiants.",
+   "Enseigne dans une salle surchauffée, bondée d'auditeurs libres."
+  ],
+  "convictions": [
+   "Apprendre, c'est assimiler et accumuler de l'information (conservatisme éducatif).",
+   "Melville et Blake sont à prêcher, et Moby Dick exige un fond biblique.",
+   "Black Mountain, dominé alors par les arts visuels, est mal adapté à un écrivain sérieux : refuge et lieu de travail, pas de partage de l'écriture.",
+   "Les gens de Black Mountain sont idiosyncratiques, fous, merveilleux, sans une seule personne banale."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1944",
+    "moment": "Arrivée après la scission, juste après le succès de On Native Grounds. Il connaissait déjà le lieu pour l'avoir visité.",
+    "etat_interieur": "Sceptique, distant, en transition (mariage brisé). Célébrité littéraire reconnue, avec un fond d'admiration réservé.",
+    "refs": [
+     "EV-03521",
+     "OE-01684",
+     "PE-00247"
+    ]
+   },
+   {
+    "date": "1944",
+    "moment": "Cours Melville et Blake : lecture de Moby Dick. Découverte que personne ne connaît Jonas ; il interrompt tout pour un mini-cours biblique.",
+    "etat_interieur": "Consterné, impérieux, conservateur. Il se sent investi d'une mission d'évangéliste. Les cours deviennent vite les plus populaires.",
+    "refs": [
+     "CO-00396",
+     "EV-03522",
+     "ID-01642"
+    ]
+   },
+   {
+    "date": "1944-11-07",
+    "moment": "Note de journal sur le gel de l'automne près de la salle à manger.",
+    "etat_interieur": "Attention intime au paysage, sensibilité cachée sous la sévérité.",
+    "refs": [
+     "EV-03668",
+     "CI-01793"
+    ]
+   },
+   {
+    "date": "1945",
+    "moment": "Rituel quotidien du sextet de Mozart sur les marches du Round House, observé en secret par un jeune témoin (A. G.).",
+    "etat_interieur": "Concentration totale, fermé au monde, apaisement. Il ignore qu'il est observé.",
+    "refs": [
+     "SC-00928"
+    ]
+   },
+   {
+    "date": "1944",
+    "moment": "Départ après un seul trimestre. Il n'est pas heureux, pense peu de bien du lieu, ne reste pas.",
+    "etat_interieur": "Déçu pédagogiquement, mais marqué par les personnes. Déduction : soulagement mêlé de fascination.",
+    "refs": [
+     "EV-03521",
+     "ID-01643",
+     "CI-01733"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1944",
+    "moment": "Premier livre, On Native Grounds (essai critique), accueilli avec enthousiasme juste avant son arrivée. Matière pour un flash-back sur l'auteur à l'orée de la gloire, à 29 ans.",
+    "refs": [
+     "OE-01684",
+     "PE-00247"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Visite antérieure de Black Mountain, sans autre détail dans les fiches.",
+    "refs": [
+     "PE-00247"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Mariage brisé, séparation récente. Aucun détail sur la femme, les causes ou les dates.",
+    "refs": [
+     "PE-00247"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1948-04",
+    "moment": "Recommande chaleureusement Isaac Rosenfeld à Levi (lettre du 13 avril 1948), comme Hannah Arendt. Rosenfeld sera recruté. Preuve qu'il garde des liens avec le collège.",
+    "refs": [
+     "EV-04479",
+     "RE-01659"
+    ]
+   },
+   {
+    "date": "1967-02-22",
+    "moment": "Interviewé par Michael Duberman. Il se souvient du « frisson tremendous » des montagnes mais n'oublie que des histoires individuelles. Il juge le collège un endroit « bâtard » pour un écrivain.",
+    "refs": [
+     "PE-00247",
+     "CI-01733"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Communauté de Black Mountain",
+    "nature": "Admiration malgré le mépris pour l'éducation",
+    "evolution": "Du scepticisme à une admiration pour les individus, qu'il décrit en souvenir comme « une galerie du névrotisme supérieur ».",
+    "refs": [
+     "RE-01426",
+     "CI-01734"
+    ]
+   },
+   {
+    "avec": "Albert William Levi",
+    "nature": "Collègue et correspondant. Kazin le décrit comme une version plus détachée, moins abrasive d'Eric Bentley.",
+    "evolution": "En 1948, il s'adresse à lui pour recommander Rosenfeld. Le lien persiste après son départ.",
+    "refs": [
+     "RE-01427",
+     "RE-01659"
+    ]
+   },
+   {
+    "avec": "Isaac Rosenfeld",
+    "nature": "Mentorat/parrainage (recommandation)",
+    "evolution": "Kazin et Hannah Arendt le soutiennent auprès de Levi, ce qui conduit à son recrutement. Rosenfeld réagira lui aussi négativement à Black Mountain.",
+    "refs": [
+     "RE-01659",
+     "EV-04479",
+     "ID-01643"
+    ]
+   },
+   {
+    "avec": "Georgie Zabriskie",
+    "nature": "Arrivée parallèle, collègue de passage",
+    "evolution": "Tous deux mécontents et partent vite ; réactions négatives communes.",
+    "refs": [
+     "EV-03521",
+     "ID-01643"
+    ]
+   },
+   {
+    "avec": "Étudiants (dont Roberts et A. G.)",
+    "nature": "Maître sévère, admiré",
+    "evolution": "Passage de la distance à une influence durable : Roberts garde un de ses meilleurs cours ; A. G. découvre la musique en l'observant.",
+    "refs": [
+     "CO-00375",
+     "SC-00928",
+     "CO-00396"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Durée du séjour : un seul trimestre en 1944 (automne) ; une fiche mentionne aussi le printemps 1945 et la scène de Mozart est datée de 1945.",
+   "Dates des cours : CO-00375 est tagué « ≈1943→1987 » et CO-00386 « ≈1944→1946 », bien plus larges qu'un trimestre. Ce sont des fourchettes déduites à manier avec prudence.",
+   "Attitude : il méprise l'éducation du lieu, mais trouve ses gens remarquables. Il est « sévère et distant » mais « passionné, évangéliste ». Il est fermé au monde dans la scène de Mozart, pourtant observé par un témoin.",
+   "Il juge le lieu faible pour un écrivain, alors que ses cours deviennent les plus populaires du collège."
+  ],
+  "situations_revelatrices": [
+   "Cours sur Moby Dick interrompu par le constat que personne ne connaît Jonas : sévérité, générosité pédagogique, ironie.",
+   "Rituel de Mozart seul sur les marches du Round House : intériorité cachée, musique, solitude.",
+   "Soirée de commérages avec la communauté : il se plaît dans les histoires individuelles tout en méprisant le cadre éducatif.",
+   "Échange avec des collègues européens : il se sent plus proche d'eux que des Américains auto-indulgents.",
+   "Rédaction du journal en novembre : la rigueur critique laisse place à une lumière poétique.",
+   "Lettre de recommandation pour Rosenfeld : loyauté intellectuelle."
+  ],
+  "citations": [
+   "CI-01733",
+   "CI-01734",
+   "CI-01793",
+   "EV-03522",
+   "SC-00928"
+  ],
+  "questions_ouvertes": [
+   "Quelle est la date exacte de naissance, et que devient Kazin après 1967 ? Les fiches ne le disent pas.",
+   "Qui est l'épouse dont il vient de se séparer, et quand et pourquoi le mariage s'est-il brisé ?",
+   "Pourquoi est-il parti après un seul trimestre : insatisfaction, offre ailleurs, saison ?",
+   "A-t-il vraiment fait une seconde session au printemps 1945, ou s'agit-il d'une erreur de datation ?",
+   "Quel est son rapport concret avec Eric Bentley, évoqué par comparaison avec Levi ?",
+   "Qui est A. G., témoin de la scène du sextet, et comment a-t-il rencontré Kazin ensuite ?",
+   "Que pensait-il du collège après les années 1950, quand l'écriture est devenue centrale avec Olson, Creeley et Duncan ?"
+  ]
+ }
+}

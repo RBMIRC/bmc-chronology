@@ -1,0 +1,360 @@
+{
+ "passe": "mois",
+ "cle": "1937-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4917,
+  "sortie": 18352,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-09",
+  "session": "Rentrée d'automne, début de l'année scolaire 1937-1938 (déduit : aucune fiche ne nomme le trimestre)",
+  "saison_et_climat": "Fin d'été puis début d'automne à Black Mountain, en Caroline du Nord. Aucune fiche ne décrit le temps qu'il fait ; la saison n'apparaît que par les instituts d'été proposés et le retour d'Adamic à l'automne.",
+  "situation": "Le collège repart après la crise de juin. Les huit étudiants dissidents sont partis, Zeuch et King ne reviennent pas, Georgia a démissionné contre 3 500 $, et la démission de Portell a été retirée. La rentrée affiche 55 étudiants, huit non-retours et cinq enseignants non revenus (EV-02669, EV-02734). Rice, qui croit avoir gagné, savoure les absences et écrit à Adamic que l'année commence mieux que jamais. Pourtant le collège prépare déjà, sans le savoir, la crise de 1938 : la liaison de Rice naît à l'automne et n'est pas encore une crise déclarée.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Portell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Adamic",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Surette",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alice (étudiante)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Somers (étudiante réadmise en fin d'année)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Sargent",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Norris",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-09-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Rice propose le premier l'idée d'instituts d'été de musique et d'art de quatre à cinq semaines ; la faculté en confie la planification aux enseignants de ces disciplines.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02733"
+    ]
+   },
+   {
+    "date": "1937-09-20",
+    "precision": "jour",
+    "ce_qui_arrive": "Rice écrit à Adamic que l'année commence très bien, plus calme que jamais, et qu'il a savouré les absences.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02734"
+    ]
+   },
+   {
+    "date": "1937-09-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Kocher écrit à Theodore Dreier pour proposer de confier le campus de Lake Eden à Gropius et Breuer, émigrés allemands enseignant à Harvard.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02735"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "saison",
+    "ce_qui_arrive": "Adamic revient au collège à l'automne.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02635"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Surette, visiteur assidu, accepte un poste au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02667"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "saison",
+    "ce_qui_arrive": "Le séminaire d'écriture hebdomadaire de Rice, dans son study de Lee Hall, est à son meilleur.",
+    "certitude": "atteste",
+    "refs": [
+     "CO-00288",
+     "SC-00692"
+    ]
+   },
+   {
+    "date": "1937-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice traite les enfants de « nuisances générales » devant une association de parents à Charlotte ; les Business Men's Evangelical Clubs le déclarent « radical et communiste ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02736"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "saison",
+    "ce_qui_arrive": "Rice s'éprend d'une étudiante rencontrée dans les rondes automnales entre studies ; les rumeurs circulent, la nature physique de la relation reste inconnue.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693",
+     "EC-01624"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Nell surprend Rice et se confie à son fils Frank au Carolina Inn, pendant qu'elle passe de longs séjours en Indiana après la mort de sa mère.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Soirée de sketches où Alice paraît en cantatrice de papier mâché ; seul Rice, jaloux, se dit « choqué ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02740",
+     "SC-00708"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Deux étudiants s'élopent ; Rice réagit plus fort que tous. La date exacte est contestée (voir lacunes).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02739"
+    ]
+   },
+   {
+    "date": "1937-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers séjourne à Harvard.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02741"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent ni les repas, ni les cours ordinaires, ni la vie des studies au jour le jour. On sait : une rentrée de 55 étudiants, le séminaire d'écriture hebdomadaire de Rice dans son study de Lee Hall, des rondes entre studies à l'automne, et la préparation des instituts d'été de musique et d'art. Lake Eden, acheté en juin, cesse d'être un lieu de bail annuel et d'entreposage des meubles, et la question de son aménagement (Kocher, Gropius, Breuer) s'ouvre.",
+  "tensions": [
+   "Rice triomphe du départ des dissidents, mais la blessure reste ouverte : Zeuch, parti, a publié un pamphlet accusant le collège de dériver vers le fascisme.",
+   "Les salaires révélés en juin (Rice et Wunsch 2 100 $, Albers 1 700 $, Portell 1 250 $) laissent une hiérarchie que Portell n'a pas digérée.",
+   "La réputation morale du collège, soupçonné de libre amour, pèse sur la vie étudiante depuis l'accord de Floride, qui interdit les vacances mixtes en groupe.",
+   "Le scandale de Charlotte en octobre expose Rice à l'hostilité de parents et d'associations religieuses.",
+   "La liaison de Rice avec une étudiante fait naître des rumeurs ; Nell, revenue de ses longs séjours, la découvre et se confie à Frank.",
+   "Le clivage Rice/Albers sur le fond de l'éducation (savoir ou manière de faire) n'est pas résolu.",
+   "Le projet de campus à Lake Eden, avec Gropius et Breuer, dépend de Dreier et reste en suspens."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La lettre de la rentrée",
+    "date": "1937-09-20",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rice",
+     "Louis Adamic"
+    ],
+    "deroule": "Rice écrit à Adamic depuis le campus que l'année commence mieux que jamais. Le départ des dissidents lui laisse une paix qu'il savoure et qu'il dit sans fard. Scène d'un homme qui croit avoir gagné.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02734"
+    ]
+   },
+   {
+    "titre": "Les instituts d'été proposés en réunion",
+    "date": "1937-09-13",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rice",
+     "enseignants de musique",
+     "enseignants d'art",
+     "faculté"
+    ],
+    "deroule": "Rice propose des instituts d'été de quatre à cinq semaines. Après un accord général, il charge les enseignants de musique et d'art de planifier les sessions et de faire rapport à toute la faculté. Un projet modeste, qui deviendra la renommée du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02733"
+    ]
+   },
+   {
+    "titre": "Kocher écrit à Dreier pour Lake Eden",
+    "date": "1937-09-24",
+    "lieu": "correspondance",
+    "personnages": [
+     "Kocher",
+     "Theodore Dreier"
+    ],
+    "deroule": "Kocher suggère de confier le nouveau campus à Gropius et Breuer, émigrés allemands enseignant à Harvard. La lettre est conservée dans les papiers Dreier ; le projet sera plus tard jugé trop coûteux pour l'économie de guerre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02735"
+    ]
+   },
+   {
+    "titre": "Rondes d'automne et premier rapprochement",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rice",
+     "une étudiante (probablement Alice)"
+    ],
+    "deroule": "Pendant les rondes entre studies, Rice croise une étudiante et une attirance naît. Les rumeurs courent avant qu'on sache si la relation est allée plus loin. Scène probable, mais aucune date de jour n'est attestée.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693",
+     "EC-01624"
+    ]
+   },
+   {
+    "titre": "Alice en cantatrice de papier mâché",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rice",
+     "Alice",
+     "étudiants et enseignants présents à la soirée"
+    ],
+    "deroule": "Une soirée de sketches où Alice paraît en cantatrice de papier mâché. Seul Rice se dit « choqué ». Son irritation a plus l'air de jalousie que d'indignation morale.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02740",
+     "SC-00708"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rice en septembre, qui savoure les absences après la crise",
+    "vers_date": "1937-06",
+    "vers": "Le réquisitoire de Coleman en 24 points, la salle qui explose sur les salaires, Portell qui soulève sa chaise, Georgia qui claque la porte, et Rice qui retourne la salle en dix minutes.",
+    "refs": [
+     "EV-02715",
+     "EV-02716",
+     "EV-02720",
+     "EV-02727"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rice en septembre, qui ose dire que la démocratie de comptage de nez ne l'intéresse pas",
+    "vers_date": "1937-02-17",
+    "vers": "La réunion communautaire de 36 pages : Harrington, Alsberg et Coleman défendent la démocratie organique, Rice répond que seule la persuasion est légitime et que la séparation est la seule issue.",
+    "refs": [
+     "EV-02705",
+     "SC-00700",
+     "CF-00264"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la lettre de Kocher à Dreier sur Lake Eden, en septembre",
+    "vers_date": "1937-06",
+    "vers": "L'achat de Lake Eden en juin, qui met fin au bail annuel et à l'entreposage des meubles chaque année.",
+    "refs": [
+     "EV-02726"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la rentrée de septembre, où Albers n'est pas encore revenu du Mexique",
+    "vers_date": "1937",
+    "vers": "L'été mexicain des Albers avec les parents d'Anni : près de 6 000 miles en voiture neuve, Mitla sous la pluie, Monte Albán.",
+    "refs": [
+     "EV-02713",
+     "EV-02731",
+     "SC-00675"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la liaison de Rice qui commence à l'automne, et les rumeurs",
+    "vers_date": "1938",
+    "vers": "La furie communautaire, la lettre d'Albers, le congé de Rice et la prise du rectorat par Wunsch, l'année suivante.",
+    "refs": [
+     "CF-00276",
+     "CF-00282"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la liaison de Rice avec une étudiante, à l'automne",
+    "vers_date": null,
+    "vers": "Des années plus tard, Rice traite Alice de « a slut », et l'auteur annonce que quiconque peut devenir victime, Rice le premier.",
+    "refs": [
+     "EC-01624",
+     "EC-01625"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les instituts d'été proposés en septembre",
+    "vers_date": null,
+    "vers": "Les instituts d'été, associés à l'ère Albers, feront la renommée du collège.",
+    "refs": [
+     "EV-02733"
+    ]
+   }
+  ],
+  "motifs": [
+   "L'absence comme victoire : Rice savoure les départs",
+   "Démocratie organique contre persuasion : deux conceptions du pouvoir",
+   "L'exil allemand en filigrane : Weimar, art dégénéré, Gropius et Breuer",
+   "Le mythe des pionniers, où la dureté est revendiquée comme vertu",
+   "Le salaire comme nerf du pouvoir",
+   "La jalousie de Rice et la maîtrise de soi"
+  ],
+  "lacunes": "Aucune fiche ne donne le temps qu'il fait ni la vie quotidienne (repas, cours ordinaires). Les dates exactes de la rentrée, du retour d'Albers du Mexique et de celui d'Adamic sont inconnues. Contradiction : EC-01627 place l'élopement de deux étudiants à la fin de 1936, alors que la synthèse le place au dernier mois de 1937 (EV-02739). La liaison de Rice est datée « hiver 1937 » par EC-01624 et « rondes automnales » par la synthèse. Sa nature physique reste inconnue. La présence de Kocher, Sargent, Mangold, Norris et Nell Rice en septembre n'est pas établie. La date du poste de Surette est inconnue. Duberman et Chaddock divergent sur plusieurs dates, sans précision dans ces fiches."
+ }
+}

@@ -1,0 +1,397 @@
+{
+ "passe": "enseignements",
+ "cle": "Merce Cunningham",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 18740,
+  "sortie": 11975,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Merce Cunningham",
+  "cours": [
+   {
+    "intitule": "Classe de danse d'été 1948 (technique quotidienne et atelier de danse)",
+    "periodes": [
+     "été 1948",
+     "années 1940 (étés, formulation vague)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Deux visées coexistent dans les fiches. D'un côté, la rigueur technique (CO-00473) et le « développement de la personne d'une manière individuelle » (CO-00490). De l'autre, faire découvrir la capacité expressive du corps (CO-00522) et apprendre à se mouvoir sans aucun talent préalable (CO-00469). Il s'agit moins de fabriquer des imitateurs que de faire découvrir à chacun quelque chose sur soi.",
+    "deroule_type_seance": "Deux heures le matin, six jours par semaine, de 8 h à 10 h, dans la salle à manger transformée en studio. Environ trente élèves, dans une classe décrite comme rigoureuse (CO-00466, CO-00467, CO-00473, CO-00549). Cunningham fait travailler le mouvement pendant que John Cage accompagne au piano, en frappant et en pinçant les cordes, sans perdre le beat (CO-00469, SC-00977). Le contenu exact de la séquence d'exercices n'est pas donné, seulement l'image du fil. Cunningham est venu à Black Mountain au printemps 1948 avec Cage (SC-01162, SC-01163) ; les étudiants lui ont laissé des cadeaux sous la voiture, ce qui scelle l'invitation de l'été (déduction à partir de SC-01163).",
+    "exercices": [
+     {
+      "consigne": "Bouger comme si la tête était suspendue à un fil tiré d'en haut ; se lever parce que ce fil vous tire.",
+      "materiaux": "Piano tenu par Cage (frappes et pincements de cordes, pulsation constante)",
+      "but": "Apprendre à se mouvoir. Ravin, danseuse médiocre, s'y sent acceptée et garde cette technique toute sa vie, par exemple pour monter les escaliers sans effort.",
+      "refs": [
+       "CO-00469",
+       "SC-00977"
+      ]
+     },
+     {
+      "consigne": "Classe quotidienne technique de deux heures, sans séquence détaillée dans les sources (« classe rigoureuse »).",
+      "materiaux": "Salle à manger du collège, piano de Cage",
+      "but": "Rigueur technique ; Elaine de Kooning s'inscrit sur-le-champ et suit le cours assidûment.",
+      "refs": [
+       "CO-00466",
+       "CO-00467",
+       "CO-00473",
+       "CO-00549",
+       "CO-00511"
+      ]
+     },
+     {
+      "consigne": "Récital solo de Cunningham pour la communauté, assisté de Louise Lippold et de Sara Hamill. Ce n'est pas un exercice d'élève, mais le prolongement public du cours.",
+      "materiaux": null,
+      "but": "Montrer la danse « en elle-même » ; le public, sans a priori sur la danse moderne, le reçoit « comme des enfants devant un Klee » et retient sa « discipline ordonnée ».",
+      "refs": [
+       "CO-00490",
+       "ID-02102"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Satie, The Ruse of Medusa (Cunningham y joue le « singe mécanique » Jonas, qui danse les intermèdes, sous la direction d'Arthur Penn, avec Fuller en Baron Medusa) : pratique de scène parallèle à l'enseignement, à rapprocher de la danse comme jeu (SC-01112, SC-01096).",
+     "Klee, cité comme comparaison par le public du récital, non par Cunningham (CO-00490).",
+     "Buckminster Fuller, présent la même session : Cunningham l'adore d'emblée (SC-01177) et petit-déjeune avec lui et Cage en inventant en riant une école itinérante (SC-01146). On ne sait pas si cela a pesé sur sa pédagogie."
+    ],
+    "propos_types": [
+     "Il ne cherche pas à se faire imiter : même si l'élève fait ce qu'il donne, il ne veut pas que ce soit exactement comme lui. L'enjeu est de découvrir quelque chose sur soi (CO-00490, paraphrase).",
+     "Aucun talent de danse n'est requis ; l'important est de se mouvoir (CO-00469).",
+     "Il refuse d'expliquer la danse, car l'expliquer serait trahir. Le mouvement est un royaume autonome qui ne doit rien suggérer d'autre (ID-01725). Attention : la fiche rattache cette idée à une « démonstration muette » en 1948, mais la source indiquée (Duberman p.288-289) décrit aussi le concert d'avril de Cage (SC-01162), donc le rattachement à la classe d'été reste une déduction."
+    ],
+    "critique_et_evaluation": "Les témoins insistent sur la discipline ordonnée (CO-00490) et le sérieux technique (CO-00473). Don McDonagh décrit la danse de Cunningham comme une « reddition au chaos » pour qui confond processus naturel et ordre linéaire (ID-02102). Duberman restitue des appréciations très favorables du public ; aucune critique négative du cours d'été 1948 n'apparaît dans les fiches.",
+    "reactions_etudiants": "Elaine de Kooning s'inscrit sur-le-champ, suit tous les matins et juge ces cours « wonderful » (CO-00473, CO-00549, CO-00511, CO-00466). Ravin se sent acceptée malgré son manque de talent (CO-00469). Asawa en tire les formes biomorphes et ondulantes de ses sculptures suspendues et dit que ce cours a fortement déterminé ses aspirations (CO-00337, CO-00522). Certains séjours ultérieurs sont suggérés (« et séjours suivants », CO-00522) mais non détaillés.",
+    "evolution": "Les fiches datent de l'été 1948 mais le cours est décrit dans des sources rédigées bien plus tard (Lane 1990, Duberman 1972) ; la date « vers 1948 » du témoignage de Ravin est approximative (CO-00469). Le programme se resserre ensuite sur la technique (printemps 1949), puis sur la composition (1952) et la compagnie (1953).",
+    "refs": [
+     "CO-00337",
+     "CO-00466",
+     "CO-00467",
+     "CO-00469",
+     "CO-00473",
+     "CO-00490",
+     "CO-00511",
+     "CO-00522",
+     "CO-00549",
+     "SC-00977",
+     "SC-01162",
+     "SC-01163",
+     "SC-01112",
+     "SC-01096",
+     "SC-01146",
+     "SC-01177",
+     "ID-01725",
+     "ID-02102"
+    ]
+   },
+   {
+    "intitule": "Atelier de danse moderne (automne 1948)",
+    "periodes": [
+     "automne 1948"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non précisés dans les fiches.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Une seule mention, sans détail (Boston Globe) ; on ne sait pas si c'est une annonce ou un cours effectivement donné ni qui l'a suivi. À ne pas développer en scène sans autre source.",
+    "refs": [
+     "CO-00546"
+    ]
+   },
+   {
+    "intitule": "Classe de danse (printemps 1949)",
+    "periodes": [
+     "printemps 1949"
+    ],
+    "atteste": "oui",
+    "objectifs": "Perfection physique.",
+    "deroule_type_seance": "Pas de déroulé donné. Les sources n'en conservent qu'une règle de travail et l'effet sur l'élève.",
+    "exercices": [
+     {
+      "consigne": "Ne pas lever la jambe sans pouvoir la lever entièrement.",
+      "materiaux": null,
+      "but": "Exigence de perfection physique, sans demi-mesure.",
+      "refs": [
+       "CO-00561"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "La règle est rapportée sous forme d'exigence : on ne lève pas la jambe à moitié (CO-00561, paraphrase)."
+    ],
+    "critique_et_evaluation": "Le cours est ressenti comme un travail acharné (CO-00561).",
+    "reactions_etudiants": "L'élève découvre des muscles qu'il n'avait jamais remarqués, travaille avec acharnement et éprouve un sentiment de grandeur (Lane 1990). La fiche ne nomme pas cet élève ; l'ancrage « printemps 1949 » est singulier, puisque les autres sessions de 1948 sont estivales. À manier avec prudence.",
+    "evolution": "Accent sur la technique pure, plus étroit que la formule de 1948 centrée sur la découverte de soi.",
+    "refs": [
+     "CO-00561"
+    ]
+   },
+   {
+    "intitule": "Classe de composition et cours de danse (été 1952)",
+    "periodes": [
+     "été 1952"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire créer à chacun sa propre danse (CO-00703). Le cours technique est suivi par Rauschenberg (CO-00729).",
+    "deroule_type_seance": "Déroulé non conservé. Les photographies de Hazel Larsen Archer documentent la classe (CO-00729). La même saison voit l'événement multimédia de Black Mountain (Theater Piece No. 1), où Cunningham danse dans les allées entre des chaises, poursuivi, selon les versions, par un chien ; la présence du chien est contestée entre témoins (SC-01487, SC-01557, SC-01558, SC-01533).",
+    "exercices": [
+     {
+      "consigne": "Créer sa propre danse. Charlip imagine une pièce où l'on se tient debout puis on tombe, encore et encore, jusqu'aux hématomes.",
+      "materiaux": null,
+      "but": "Premier acte de composition ; Charlip dit y avoir fait sa première danse et avoir compris qu'il essayait de se tuer, ce qui l'a obligé à s'arrêter.",
+      "refs": [
+       "CO-00703"
+      ]
+     },
+     {
+      "consigne": "Danser dans les allées entre les chaises, sans répétition ; seul l'espace a été travaillé au préalable pour ne blesser personne (c'est la pratique de Cunningham lors de l'événement, pas un exercice de cours).",
+      "materiaux": "Chaises du réfectoire, allées diagonales, musique sans battement jouée par Tudor",
+      "but": "Mettre en pratique la simultanéité d'activités séparées.",
+      "refs": [
+       "ID-01977",
+       "SC-01557"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Theater Piece No. 1 / événement sans titre (Cage, Tudor, Rauschenberg, Richards, Olson) : cadre dans lequel Cunningham applique l'idée de simultanéité (SC-01487, SC-01519, SC-01534)."
+    ],
+    "propos_types": [
+     "La vie est toutes ces choses séparées qui se passent en même temps : la société est extraordinairement complexe, et la télévision apporte instantanément ce qui se passe ailleurs (ID-01684, ID-02895, ID-01977 ; réflexion datée du soir de Theater Piece No. 1)."
+    ],
+    "critique_et_evaluation": "Le cours de composition est dangereux dans le cas rapporté par Charlip : la consigne ouverte a conduit à un travail qui blessait réellement (CO-00703). Les spectateurs de l'événement réagissent diversement : Wolpe proteste et sort, d'autres trouvent cela ennuyeux, d'autres intéressant (SC-01558).",
+    "reactions_etudiants": "Charlip évoque son expérience avec une distance critique (CO-00703) ; Rauschenberg suit le cours (CO-00729).",
+    "evolution": "Passage de la technique à la composition, puis à l'inscription dans des formes collectives où chaque art garde sa durée. Les versions de l'événement divergent beaucoup (chien, ordre des actions, contenu de la conférence de Cage) ; je ne tranche pas.",
+    "refs": [
+     "CO-00703",
+     "CO-00729",
+     "SC-01487",
+     "SC-01519",
+     "SC-01533",
+     "SC-01534",
+     "SC-01557",
+     "SC-01558",
+     "ID-01684",
+     "ID-01977",
+     "ID-02895"
+    ]
+   },
+   {
+    "intitule": "Classe de danse quotidienne et répétitions de la compagnie (été 1953)",
+    "periodes": [
+     "été 1953"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire travailler une compagnie soudée (sept danseurs venus de New York) et produire des œuvres nouvelles. Elles sont présentées en fin d'été : Banjo, Dime a Dance, Septet, Untitled Solo (SC-01645).",
+    "deroule_type_seance": "Danse le matin, répétition l'après-midi, repas, sieste, répétition le soir, coucher : rythme épuisant qui coupe la compagnie du reste de l'été (CO-00738). Huit heures de travail et plus par jour (SC-01653). Le cours de 8 h au dining hall est ponctuel à lire avec prudence : Cunningham arrive en retard, gris et penaud après une fête surprise, puis fait aussitôt sauter la salle en exercices ; Paul Taylor suit avec la même énergie (SC-01623). La fiche ne dit pas s'il s'agit de la classe de compagnie ou du cours de mouvement pour acteurs (CO-00749, même heure et même lieu) ; rapprochement par déduction.",
+    "exercices": [
+     {
+      "consigne": "Cours technique du matin, puis répétitions l'après-midi et le soir. Les exercices eux-mêmes ne sont pas décrits.",
+      "materiaux": "Dining hall, studios, plein air",
+      "but": "Entraînement de la compagnie ; photos d'Arnold Eagle pour Untitled Solo.",
+      "refs": [
+       "CO-00738",
+       "SC-01653"
+      ]
+     },
+     {
+      "consigne": "Septet : chorégraphie minutée où chaque danseur, dans un éventail de mouvements distribués par procédure de hasard, trouve sa propre réalisation et son propre centre de gravité (deux femmes en arabesque, chacune selon son centre).",
+      "materiaux": "Procédures de hasard",
+      "but": "Le chorégraphe se retire de l'exécution pour que chacun découvre comment mieux réaliser ses mouvements.",
+      "refs": [
+       "ID-01824",
+       "SC-01645"
+      ]
+     },
+     {
+      "consigne": "Danser avec une musique indépendante : Tudor rejoue la Bagatelle de Beethoven (The Eclectic) depuis le début ; la danse étant plus longue, il n'avance que d'une phrase et demie et s'arrête net, la danse continuant.",
+      "materiaux": "Piano de Tudor, partition de Beethoven",
+      "but": "Accepter l'indépendance de la musique et de la danse, « le résultat était le résultat ».",
+      "refs": [
+       "SC-01591"
+      ]
+     },
+     {
+      "consigne": "Untitled Solo : travailler pendant des jours sur la musique de Christian Wolff jugée impossible ; Cunningham s'effondre au sol, Tudor propose de continuer quand même et ils y parviennent.",
+      "materiaux": "Salle à manger, Tudor au piano",
+      "but": "Faire exister l'œuvre malgré l'impossibilité apparente.",
+      "refs": [
+       "SC-01590"
+      ]
+     },
+     {
+      "consigne": "Tudor joue « Banjo » devant les danseurs sceptiques, à l'initiative de Cunningham, qui lui dit qu'ils ne savent pas ce qu'il fait (« I don't know myself »).",
+      "materiaux": "Piano, salle de répétition",
+      "but": "Convertir la compagnie à la vision de Cunningham.",
+      "refs": [
+       "SC-01589"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Musique de Christian Wolff (Untitled Solo) et Beethoven (Bagatelle) (SC-01590, SC-01591).",
+     "Banjo (Cage / Tudor) mentionné dans SC-01589 et SC-01645."
+    ],
+    "propos_types": [
+     "Il dit à Tudor, à propos des danseurs : ils ne savent pas ce que je fais — et il ajoute qu'il ne le sait pas non plus (SC-01589).",
+     "À propos de la fin de la Bagatelle : il s'est arrêté, c'était la fin et le résultat était le résultat (SC-01591)."
+    ],
+    "critique_et_evaluation": "Le rythme épuisant isole la compagnie ; Anita Dencks tombe malade, remplacée par des débutants (Lichtenstein, Herlihy) (CO-00738). Les danseurs doutent d'abord de la musique du pianiste attitré, jugé sans virtuosité (SC-01589). Aucune évaluation écrite des élèves n'est donnée.",
+    "reactions_etudiants": "Dencks malade, remplaçants débutants (CO-00738). Danser du matin au soir semblait « juste » à une danseuse (SC-01653). Les danseurs sont d'abord sceptiques, puis convaincus par Tudor (SC-01589).",
+    "evolution": "Les fiches font de l'été 1953 l'origine de la compagnie Cunningham (SC-01645). Les procédures de hasard y sont élaborées et montrées (ID-01824). La rupture ultérieure de Rauschenberg avec Cunningham en 1964 est hors périmètre (SC-02009).",
+    "refs": [
+     "CO-00738",
+     "SC-01589",
+     "SC-01590",
+     "SC-01591",
+     "SC-01623",
+     "SC-01645",
+     "SC-01653",
+     "ID-01824",
+     "SC-02009"
+    ]
+   },
+   {
+    "intitule": "Cours de mouvement pour acteurs (été 1953)",
+    "periodes": [
+     "été 1953"
+    ],
+    "atteste": "oui",
+    "objectifs": "Aider le jeu des acteurs par le mouvement.",
+    "deroule_type_seance": "À 8 h au dining hall, après le petit-déjeuner, plusieurs matins par semaine (CO-00749).",
+    "exercices": [
+     {
+      "consigne": "Sauter à travers la salle : « Fly across the floor! Fly! Fly! »",
+      "materiaux": "Sol du dining hall",
+      "but": "Libérer le corps de l'acteur par le saut et l'élan ; ce n'est pas un exercice de technique de danse.",
+      "refs": [
+       "CO-00749"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Il criait « Fly! Fly! » avec grande bonne humeur (CO-00749)."
+    ],
+    "critique_et_evaluation": "Aucune critique formelle. Rumaker, élève, se juge maladroit (« poussin apprenant à voler ») et sa gaucherie amuse Cunningham (CO-00749).",
+    "reactions_etudiants": "Rumaker se sent poussin apprenant à voler ; Cunningham s'amuse de sa gaucherie (CO-00749).",
+    "evolution": null,
+    "refs": [
+     "CO-00749"
+    ]
+   },
+   {
+    "intitule": "Cours avancé et théorie de la danse / chorégraphie (été 1953)",
+    "periodes": [
+     "été 1953"
+    ],
+    "atteste": "oui",
+    "objectifs": "Développer des danses expérimentales.",
+    "deroule_type_seance": "L'après-midi au dining hall. Les danseurs sont étalés au sol autour de Cunningham pour la théorie. Dans la fenêtre ouverte, Rumaker écoute (CO-00750).",
+    "exercices": [
+     {
+      "consigne": "Exposé de théorie : un jour, longue conférence reliant l'Ulysses de Joyce à la danse, devant des danseurs étalés au sol.",
+      "materiaux": "Dining hall, fenêtres ouvertes",
+      "but": "Montrer comment l'invention formelle de Joyce ouvre l'espace de la danse (déduction de la fiche d'idée).",
+      "refs": [
+       "CO-00750",
+       "ID-02960"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Ulysses de Joyce, que les cours d'écriture d'Olson rejetaient comme forme fermée et cul-de-sac (ID-02960)."
+    ],
+    "propos_types": [
+     "Long exposé liant Joyce à la danse (CO-00750, ID-02960). Le contenu précis de l'argument n'est pas rapporté."
+    ],
+    "critique_et_evaluation": "Le désaccord avec Olson sur Joyce est une tension de fond, non un incident rapporté en classe (ID-02960).",
+    "reactions_etudiants": "Rumaker écoute avidement par les fenêtres ouvertes (CO-00750). Plus tard, Olson applaudit fort une danseuse non nommée à micro-mouvements, dans une soirée du dining hall, alors que le public reste timide (SC-01620) ; rien ne prouve qu'elle fasse partie du cours ou de la compagnie de Cunningham.",
+    "evolution": null,
+    "refs": [
+     "CO-00750",
+     "ID-02960",
+     "SC-01620"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le mouvement est un royaume autonome, qui ne doit rien suggérer d'autre ; expliquer la danse revient à se trahir.",
+    "en_classe": "Montrer sans commenter et laisser le geste parler. Non attesté comme méthode de classe : la fiche rattache l'idée à une démonstration muette en 1948, mais Cunningham parle aussi beaucoup en 1953 (« Fly! », exposé sur Joyce). Une séance doit donc l'utiliser comme moment de démonstration et non comme règle générale.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01725",
+     "SC-01162",
+     "CO-00749",
+     "CO-00750"
+    ]
+   },
+   {
+    "idee": "La danse en elle-même et pour elle-même : ni récit, ni équivalence aux rythmes musicaux, ni symbolisme ; tout mouvement naturel du danseur peut devenir matière à danse.",
+    "en_classe": "Ne pas faire imiter : même les exercices imposés doivent mener chacun à se découvrir lui-même. Attesté pour l'été 1948 par la parole de Cunningham sur l'imitation ; le détail des exercices manque.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02102",
+     "CO-00490"
+    ]
+   },
+   {
+    "idee": "La vie est des choses séparées qui se passent en même temps, d'où la valeur des activités simultanées séparées.",
+    "en_classe": "Faire composer des événements où chaque art suit sa propre durée sans accompagner les autres, avec la règle de sécurité de Cunningham : travailler l'espace avant pour ne blesser personne. Attesté comme pratique d'événement en 1952, pas comme exercice de cours.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01684",
+     "ID-01977",
+     "ID-02895",
+     "SC-01557",
+     "SC-01558"
+    ]
+   },
+   {
+    "idee": "Le chorégraphe se retire de l'exécution pour laisser chaque danseur trouver sa meilleure réalisation de ses mouvements propres, grâce aux procédures de hasard.",
+    "en_classe": "Composer un éventail de mouvements, les distribuer par tirage au sort, puis laisser chacun trouver sa réalisation et son centre de gravité (exemple : Septet). Attesté dans les répétitions et les œuvres d'été 1953 ; l'usage comme exercice d'élèves n'est pas confirmé.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01824",
+     "SC-01645"
+    ]
+   },
+   {
+    "idee": "Persévérer malgré l'impossible, et accepter l'indépendance de la danse et de la musique (musique plus courte, plus longue, ou sans lien).",
+    "en_classe": "Faire travailler une danse sur une musique que le groupe juge impossible, ou jouer une pièce en continuant même quand elle s'arrête, sans corriger. Attesté en 1953 entre Cunningham et Tudor.",
+    "atteste": "oui",
+    "refs": [
+     "SC-01590",
+     "SC-01591"
+    ]
+   },
+   {
+    "idee": "La danse peut dialoguer avec la littérature et en retirer une ouverture formelle (Joyce).",
+    "en_classe": "Faire écouter ou lire un extrait de roman puis chercher ce que sa structure change dans la composition d'une danse. Attesté comme exposé en 1953 ; aucun exercice précis n'est conservé.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02960",
+     "CO-00750"
+    ]
+   },
+   {
+    "idee": "Le corps expressif peut se découvrir sans talent préalable : image du fil tiré par la tête, saut et élan.",
+    "en_classe": "Séances d'échauffement sur l'alignement (« tête tirée par un fil ») avec une pulsation constante au piano ; saut à travers la salle en criant « Fly! » pour libérer des non-danseurs.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00469",
+     "SC-00977",
+     "CO-00749"
+    ]
+   }
+  ]
+ }
+}

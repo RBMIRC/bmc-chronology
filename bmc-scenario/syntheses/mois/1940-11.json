@@ -1,0 +1,233 @@
+{
+ "passe": "mois",
+ "cle": "1940-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4247,
+  "sortie": 14083,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-11",
+  "session": "session d'automne en cours (déduit : cours réguliers, semaine d'interlude en novembre, visite de Sarton ; les fiches ne nomment pas la session)",
+  "saison_et_climat": "fin d'automne sur les pentes de Lake Eden ; les fiches ne décrivent ni temps ni température, seulement des camions qui descendent la montagne chaque après-midi",
+  "situation": "Le collège est entré dans la phase du chantier : le mur de pierre se monte au ciment, l'équipe monte chaque après-midi, et l'objectif « roof by Christmas », fixé le 12 septembre, pèse sur tous. Rice est parti depuis mars, sa sortie réglée ; la faculté se passe de lui. Kocher travaille à temps plein depuis l'automne, et le campus rêvé a été réduit à une seule aile de sa conception. L'argent manque : seuls 40 % des salaires non garantis seront payés en 1940-41. La vie intellectuelle tient pourtant : Sarton donne sa conférence sur Yeats et lit son poème sur la liberté, que le collège discute longuement. Une contestation contre la mystique du salut par le travail couve, portée par des affiches anonymes.",
+  "presents_probables": [
+   {
+    "nom": "May Sarton",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Erwin Straus",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "une jeune fille (non nommée) qui passe les pierres",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "un petit garçon (non nommé) qui scelle les pierres",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "étudiants et enseignants en convoi vers le chantier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Kocher (installé à temps plein à l'automne)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Godfrey (enseigne la construction)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bascombe Allen (chef charpentier)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier (visé par l'affiche, photographie le chantier)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nim et Nik (deux étudiants thaïlandais de la Harvard School of Architecture, arrivés à l'automne)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "deux mécontents anonymes (auteurs de l'affiche)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-11",
+    "precision": "mois",
+    "ce_qui_arrive": "May Sarton passe dix jours au collège : elle aide au mur de pierre un après-midi, donne une conférence sur Yeats et lit un long poème sur la liberté",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03133",
+     "EV-03134",
+     "EV-03135"
+    ]
+   },
+   {
+    "date": "1940-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Le collège discute la critique de Sarton (manque d'hommage et de silence, « fétiche de la liberté ») lors d'une excellente discussion impersonnelle",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03135"
+    ]
+   },
+   {
+    "date": "1940-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Une étudiante consacre une semaine d'interlude, sans cours, à étudier les livres de Yeats apportés par Sarton",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03134"
+    ]
+   },
+   {
+    "date": "1940-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Sarton, dans une lettre à Rosalind Greene, décrit les camions, Straus lançant les pierres, et son propre rôle au mur",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03133",
+     "SC-00799"
+    ]
+   },
+   {
+    "date": "1940-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Time publie « Fish of the Heart », article non signé qui méprise Klee et cite 750 $ le canvas, prix des achats d'Edward Warburg (chiffre erroné selon Weber)",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03136"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Deux mécontents affichent de nuit « Wanted: zombies for the work program », visant Dreier et les chants folkloriques du chemin du chantier ; une assemblée houleuse suit, à date inconnue",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "L'après-midi : camions remplis d'enseignants et d'étudiants qui descendent la montagne vers le chantier ; on passe les pierres de main en main et on les scelle au ciment ; des chants folkloriques rythment le chemin. Cours : Godfrey enseigne la construction (déduit), les cours continuent (déduit) sans que la fiche les décrive. Un interlude sans cours permet à une étudiante de travailler seule à Yeats pendant une semaine. Repas, logement et vie domestique ne sont pas documentés. Musique : chants folkloriques.",
+  "tensions": [
+   "La mystique du salut par le travail est contestée : affiches anonymes de nuit, visant Dreier et les chants, puis assemblée houleuse (date inconnue)",
+   "Sarton reproche au collège son manque d'hommage et de silence, et parle de « fétiche de la liberté » ; le collège répond par une discussion calme et impersonnelle, sans rupture visible",
+   "Crise de liquidité : 40 % seulement des salaires non garantis en 1940-41, pire que du temps de Lee Hall",
+   "Menace de la YMCA sur le bail de Blue Ridge pour une école de filles ; le calendrier de cette menace est contesté entre sources",
+   "Peur des donateurs après la chute de la France ; la campagne des deux millions a échoué",
+   "Séquelles de la sortie de Rice : « révolution de palais » selon Mangold, peu de réjouissances selon Chaddock",
+   "Déclaration d'Albers sur l'art « au centre de toute activité », germe de futures querelles",
+   "Gropius et Breuer, vexés, jugés trop coûteux ; Gothe a déjà paru trop autocrate pour les étudiants américains"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le mur scellé au ciment",
+    "date": "1940-11",
+    "lieu": "chantier de Lake Eden",
+    "personnages": [
+     "Erwin Straus",
+     "May Sarton",
+     "une jeune fille",
+     "un petit garçon",
+     "étudiants et enseignants"
+    ],
+    "deroule": "Les camions descendent la montagne l'après-midi. Straus, cheveux blancs, lance les pierres à une jeune fille, qui les passe à un garçon, qui les scelle dans le mur au ciment. Sarton aide un après-midi et s'en sent plus entière. Une phrase, « it is a great sight… », est rapportée dans sa lettre à Rosalind.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00799",
+     "EV-03133"
+    ]
+   },
+   {
+    "titre": "Sarton lit Yeats puis son poème sur la liberté",
+    "date": "1940-11",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "May Sarton",
+     "une étudiante (non nommée)",
+     "le collège"
+    ],
+    "deroule": "Sarton donne sa conférence sur Yeats et lit un long poème, « mauvais mais provocant », sur la liberté. Le collège le discute longuement ; elle reproche le manque d'hommage et de silence. Ensuite, une étudiante passe une semaine d'interlude à lire les livres de Yeats que Sarton a laissés.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03134",
+     "EV-03135"
+    ]
+   },
+   {
+    "titre": "L'affiche de nuit",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "deux mécontents (non nommés)",
+     "Dreier (visé)"
+    ],
+    "deroule": "Une nuit, deux mécontents placardent « Wanted: zombies for the work program ». L'affiche vise Dreier et les chants folkloriques du chemin du chantier. Une assemblée houleuse suit, à date inconnue.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Time contre Klee à New York",
+    "date": "1940-11",
+    "lieu": "New York",
+    "personnages": [
+     "Edward Warburg (mentionné)",
+     "rédaction de Time (anonyme)"
+    ],
+    "deroule": "Un article non signé caricature Klee comme un babillage puéril. Il cite 750 $ le canvas, prix des achats de Warburg, et ironise sur Hitler et l'art dégénéré. Le grand public américain découvre ainsi Klee par la moquerie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03136"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "novembre, pendant la visite de Sarton : la discussion sur le silence et la liberté",
+    "vers_date": "1940-02",
+    "vers": "La deuxième conférence avec Rice et Nell : Rice pleure et quitte la maison, se disant répudié ; il démissionnera par retour du courrier",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "le mur qui se monte au ciment, l'équipe qui court après l'objectif de Noël",
+    "vers_date": "1940-09-12",
+    "vers": "Ouverture officielle du chantier, objectif « roof by Christmas », et découverte des poches de boue dans le terrain drainé",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la critique de Sarton sur le manque de silence et d'hommage",
+    "vers_date": "1940-06",
+    "vers": "Albers, devant des donateurs à New York, fait une déclaration politique contre la guerre et place l'enseignement de l'art au centre de toute activité",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le chantier de novembre, les camions de l'après-midi",
+    "vers_date": "1941",
+    "vers": "La faculté fixe un maximum d'un à trois après-midi de travail par semaine, ce qui apaise le conflit. En 1941-42, seuls 32 % des salaires non garantis seront payés",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "utopie en acte : le travail manuel comme communion",
+   "liberté contre discipline et silence",
+   "l'art au centre contre l'utilitaire du chantier",
+   "argent et dépendance aux donateurs",
+   "héritage de Rice et lutte de pouvoir dans la faculté",
+   "exil et Bauhaus en filigrane (Klee, Albers)",
+   "la beauté du chantier comme preuve pour les donateurs"
+  ],
+  "lacunes": "Session exacte, climat et météo non documentés. Présence de Dreier, Kocher, Godfrey, Bascombe Allen, Albers ou Gothe en novembre seulement déduite, non attestée. Dates exactes de la visite de Sarton, de l'affiche et de l'assemblée inconnues. Prénoms de la jeune fille, du petit garçon et de l'étudiante absents. Repas et vie domestique absents. La synthèse 1940 n'a pas d'identifiant de fiche et ne donne pas de jour précis ; elle reste donc citée sans ref. Le calendrier de la menace YMCA reste contesté entre sources. Tension de sources : Lane décrit la critique de Sarton comme bien reçue, tandis que la synthèse évoque une contestation de l'automne ; il faut distinguer les deux épisodes."
+ }
+}

@@ -1,0 +1,292 @@
+{
+ "passe": "personnes",
+ "cle": "Joseph Martin",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5451,
+  "sortie": 3176,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Joseph Martin",
+  "autres_noms": [
+   "Joe Martin"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Professeur d'anglais, membre fondateur du corps enseignant (1933), membre du Board of Fellows",
+  "presence": [
+   {
+    "debut": "1933-09-23",
+    "fin": "1936-12",
+    "precision": "mois",
+    "role": "Professeur d'anglais ; enseigne la composition anglaise ; membre du Board of Fellows où il vote systématiquement contre l'éviction de Knickerbocker et Goldenson ; parmi les moins bien payés (300 $ en 1936)",
+    "refs": [
+     "EV-01998",
+     "EV-02182",
+     "EV-02169",
+     "EV-02614",
+     "EV-02609"
+    ]
+   },
+   {
+    "debut": "1933-09",
+    "fin": "1933-09",
+    "precision": "semaine",
+    "role": "Arrivée à la gare de Black Mountain, accueilli par Rice puis installé par les Hinckley ; présent à l'ouverture informelle du collège",
+    "refs": [
+     "EV-02182",
+     "SC-00557",
+     "SC-00552",
+     "EV-02168"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Intellectuel formé aux meilleures institutions (Haverford, Oxford) mais déçu par l'enseignement établi, venu à Black Mountain pour tenter une aventure pédagogique. Homme posé, à la parole calme, qui ouvre tranquillement la critique plutôt que de l'agiter : c'est lui qui, en mars 1936, lance le premier la mise en cause du tableau idyllique d'Adamic. Indépendant d'esprit, minoritaire de principe : il vote seul ou presque contre les évictions successives de Knickerbocker et Goldenson, non par faction mais par fidélité à une certaine justice.",
+  "blessures": "Déception précoce envers l'enseignement universitaire classique, qui l'a poussé vers BMC ; impressions initiales déstabilisantes à l'arrivée (lobby vide, photos trompeuses) ; position récurrente de dissident isolé dans les votes du Board of Fellows.",
+  "desirs": "Distinguer clairement la fonction du collège de celle d'une école professionnelle : on y vient pour l'information et l'expérience, pas pour un développement personnel idéalisé ; voir la communauté se juger honnêtement plutôt que se contenter de mythes.",
+  "peurs": "Que le collège se raconte une légende : pour lui, BMC n'est pas aussi bon qu'Adamic le prétend et les exemples cités sont l'exception.",
+  "maniere_d_aimer": "Non documenté dans les fiches.",
+  "rapport_au_pouvoir": "Méfiance envers l'autorité charismatique (Rice) comme envers la pression du groupe : il conteste le portrait de Rice en « chef et sauveur » tout en refusant les expulsions collectives. Minoritaire stoïque, il assume ses votes contre la majorité sans chercher à mener une faction.",
+  "voix": {
+   "registre": "Calme, mesuré, analytique ; celui qui pose le premier la pierre critique dans un débat sans élever la voix.",
+   "tics": null,
+   "exemples_paraphrases": [
+    "Ouvrir la critique en tempérant l'enthousiasme ambiant : le collège n'est pas aussi bon qu'on le dit, les beaux exemples sont l'exception.",
+    "Objecter en séance de doctrine : le collège doit se distinguer d'une école professionnelle, on y vient pour l'information.",
+    "Comparer plus tard l'ouverture du collège à une partie de football improvisée : nous étions là, et cela suffisait."
+   ]
+  },
+  "habitudes": [
+   "Rédiger ses souvenirs assez tôt : écrit dès septembre 1935 un mémoire dactylographié sur la première année (1933), abondamment utilisé par les historiens.",
+   "Relire avec un « courage particulier » le manuscrit de Duberman des décennies plus tard.",
+   "Écrire de longues lettres retrospectives (dont une à Duberman, 23 juin 1970)."
+  ],
+  "convictions": [
+   "Le collège n'est pas aussi bon qu'Adamic le prétend ; ses exemples sont l'exception, pas la règle.",
+   "Dissidence des deux résolutions contre Knickerbocker et Goldenson.",
+   "Distinguer la fonction du collège de celle de l'école professionnelle : on y va pour l'information, pas pour le développement personnel.",
+   "L'enseignement établi (universités, écoles de pédagogie) ne produit pas d'éducation réelle."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933-09-23",
+    "precision": "jour",
+    "moment": "Arrivée à la gare de Black Mountain : Rice l'accueille en plaisantant comme un guide touristique, Hinckley l'installe ; déçu d'abord par le lobby vide et la route cabossée, il reprend espoir grâce à Meg Hinckley (thé, course au beurre en ville)",
+    "etat_interieur": "désenchantement initial puis sentiment le soir même d'être venu au bon endroit",
+    "refs": [
+     "EV-02182",
+     "SC-00557"
+    ]
+   },
+   {
+    "date": "1933-09",
+    "precision": "semaine",
+    "moment": "Première rentrée chaotique : sans routine ni programme, il découvre son voisin Evarts mal rasé et rongé de doute ; les Rollinois forment un bloc, les étrangers errent ; puis ouverture informelle sur le porche de Lee Hall, sans discours ni pompe",
+    "etat_interieur": "excitation mêlée de peur ; frappé au point d'oublier jusqu'à l'énoncé des idéaux — l'ouverture lui semble une partie de football improvisée",
+    "refs": [
+     "SC-00548",
+     "SC-00552",
+     "EV-02165",
+     "EV-02168",
+     "CI-01150"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Enseigne l'anglais (composition anglaise, parfois avec un seul étudiant, Cramer) ; la croisade agricole autour de Borsodi enveloppe le collège d'une atmosphère de prosélytisme tendu qu'il observe avec recul",
+    "etat_interieur": "engagé mais déjà observateur lucide de la ferveur communautaire",
+    "refs": [
+     "CO-00101",
+     "EV-02007",
+     "EV-02169"
+    ]
+   },
+   {
+    "date": "1935-09",
+    "precision": "mois",
+    "moment": "Écrit ses souvenirs de la première année, « Black Mountain College : 1933 », mémoire dactylographié qui deviendra une source majeure",
+    "etat_interieur": "besoin de fixer par écrit l'expérience fondatrice",
+    "refs": [
+     "OE-01204"
+    ]
+   },
+   {
+    "date": "1936-03",
+    "precision": "mois",
+    "moment": "Après la lecture publique de l'article d'Adamic, il ouvre la critique : le collège n'est pas aussi bon qu'on le dit, les exemples sont l'exception ; s'ensuit le procès de Rice qui durera des semaines",
+    "etat_interieur": "rôle de lanceur d'alerte tranquille — c'est lui qui déclenche la mise à nu du pouvoir de Rice",
+    "refs": [
+     "EV-02576",
+     "EV-02577",
+     "SC-00657"
+    ]
+   },
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "moment": "Au Board of Fellows, vote contre (avec Georgia) l'envoi d'avertissements pessimistes à Knickerbocker et Goldenson — vote 5 contre 2",
+    "etat_interieur": "dissident assumé, minoritaire au sein de l'instance dirigeante",
+    "refs": [
+     "EV-02584"
+    ]
+   },
+   {
+    "date": "1936-09-28",
+    "precision": "jour",
+    "moment": "Réunion de faculté sur l'enseignement : il objecte à Albers qu'il faut distinguer le collège d'une école professionnelle ; Albers répond que même une école dentaire devrait enseigner la décence",
+    "etat_interieur": "attaché à la clarté des finalités du collège, frotté au génie pédagogique d'Albers",
+    "refs": [
+     "EV-02606",
+     "SC-00665"
+    ]
+   },
+   {
+    "date": "1936-10",
+    "precision": "mois",
+    "moment": "Dissente à nouveau sur la résolution définitive de non-reconduction de Knickerbocker et Goldenson ; premiers salaires votés : Rice 2100 $, lui 300 $ (montants publics en juin 1937, comparaisons et rancunes)",
+    "etat_interieur": "fidèle à sa ligne minoritaire ; position matérielle fragile au collège",
+    "refs": [
+     "EV-02609",
+     "EV-02614",
+     "EV-02620"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1930",
+    "precision": "annee",
+    "moment": "Diplômé d'Haverford",
+    "refs": [
+     "EV-01998",
+     "PE-00139"
+    ]
+   },
+   {
+    "date": "1932",
+    "precision": "annee",
+    "moment": "B.A. d'Oxford",
+    "refs": [
+     "EV-01998",
+     "PE-00139"
+    ]
+   },
+   {
+    "date": "1932",
+    "precision": "periode",
+    "moment": "Un trimestre de doctorat de littérature anglaise à Columbia ; fatigué de la vie étudiante, tenté par l'aventure",
+    "refs": [
+     "EV-01998",
+     "PE-00139"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Sa sœur Mitzi, étudiante dissidente à Rollins et partisane de Rice, lui parle du nouveau collège ; deux entretiens avec Rice, et il est embauché pour l'anglais",
+    "refs": [
+     "EV-01998"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1968",
+    "precision": "annee",
+    "moment": "Écrit « Community at Black Mountain », retour sur l'expérience communautaire",
+    "refs": [
+     "PE-00139"
+    ]
+   },
+   {
+    "date": "1970-06-23",
+    "precision": "jour",
+    "moment": "Longue lettre à Duberman parmi d'autres, à propos de son histoire du collège",
+    "refs": [
+     "PE-00139"
+    ]
+   },
+   {
+    "date": "1972",
+    "precision": "periode",
+    "moment": "Relit le manuscrit de Duberman avec « un courage particulier » — lucidité maintenue sur sa propre histoire",
+    "refs": [
+     "PE-00139"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Fondateur-charismatique et jeune professeur recruté ; Rice l'accueille à la gare en plaisantant",
+    "evolution": "De la séduction initiale à la critique lucide : Martin ouvre en 1936 le procès du pouvoir de Rice, sans pour autant rejoindre les évictions — position médiane et indépendante",
+    "refs": [
+     "EV-02182",
+     "EV-02577",
+     "SC-00657"
+    ]
+   },
+   {
+    "avec": "John Evarts",
+    "nature": "Voisins de chambre à Lee Hall dès septembre 1933 ; complices dans la critique de mars 1936",
+    "evolution": "Amitié de la première heure, renforcée par la dissidence commune envers la malice ambiante",
+    "refs": [
+     "SC-00548",
+     "EV-02165",
+     "EV-02577"
+    ]
+   },
+   {
+    "avec": "Mitzi Martin",
+    "nature": "Sœur cadette, étudiante dissidente à Rollins, partisane de Rice",
+    "evolution": "C'est elle qui souffle à Joseph l'idée de postuler à Black Mountain — le lien familial comme pont vers l'aventure",
+    "refs": [
+     "EV-01998"
+    ]
+   },
+   {
+    "avec": "Frederick Georgia",
+    "nature": "Allié de vote au Board of Fellows",
+    "evolution": "Duo dissident permanent contre les évictions de Knickerbocker et Goldenson (avril, octobre, novembre 1936)",
+    "refs": [
+     "EV-02584",
+     "EV-02609",
+     "EV-02620"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Collègue de faculté ; interlocuteur au débat sur l'enseignement (septembre 1936)",
+    "evolution": "Confrontation doctrinale courtoise : Martin distingue collège et école professionnelle, Albers élargit la visée à la décence et au caractère",
+    "refs": [
+     "EV-02606",
+     "SC-00665"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Sur la réunion du 28 septembre 1936 : Duberman décrit un débat philosophique sur l'enseignement avec Rice présent et Martin objectant à Albers ; Chaddock (2002) donne une autre version de la même date où Rice est absent, parti en conférence, et où la réunion porte sur la révocation de Knickerbocker et Goldenson avec la démission de ce dernier — les deux récits ne concordent ni sur la présence de Rice ni sur l'objet de la réunion.",
+   "Sur son recrutement : les deux sources concordent sur l'essentiel (Haverford, Oxford, Columbia, sœur à Rollins) mais Chaddock insiste sur la lassitude de la vie étudiante et le rôle initiateur de la sœur, Duberman sur la déception envers l'enseignement établi."
+  ],
+  "situations_revelatrices": [
+   "Les votes du Board of Fellows : seul ou presque, main levée contre la majorité.",
+   "Le premier soir à la gare et la course au beurre avec Meg Hinckley : l'idéalisme mis à l'épreuve du beurre et des commerçants.",
+   "La nuit de mars 1936 où, calmement, il allume le procès de Rice.",
+   "La réunion sur l'enseignement face à Albers : le théoricien lucide contre le pédagogue charismatique.",
+   "La révélation des salaires en juin 1937 : lui à 300 $ contre 2100 $ pour Rice et Wunsch."
+  ],
+  "citations": [
+   "CI-01150",
+   "OE-01204"
+  ],
+  "questions_ouvertes": [
+   "Quand exactement quitte-t-il le collège, et dans quelles circonstances (départ volontaire, non-reconduction, lassitude) ? Les fiches ne donnent pas de date de fin.",
+   "Sa vie après BMC entre 1937 et 1968 (carrière, lieux, famille) est inconnue des sources.",
+   "L'écart de salaire massif (300 $ contre 2100 $) : malaise exprimé, conséquences sur son départ ?",
+   "Portrait physique et vie affective totalement absents des fiches."
+  ]
+ }
+}

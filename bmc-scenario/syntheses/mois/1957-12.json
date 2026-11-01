@@ -1,0 +1,210 @@
+{
+ "passe": "mois",
+ "cle": "1957-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2479,
+  "sortie": 10271,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1957-12",
+  "session": null,
+  "saison_et_climat": "Hiver en Caroline du Nord. Aucune fiche ne décrit le temps de décembre 1957 ; on peut seulement déduire du froid, puisque la colline des cabanes n'a ni chauffage ni réfectoire (LI-01405).",
+  "situation": "Le collège n'existe plus comme établissement. Selon Chaddock, la décision date de l'automne 1956, sans annonce publique (EV-06834) ; les lettres d'avril 1957 annoncent la fermeture à Rice (CI-03464, CI-03465). La Review a paru pour la dernière fois à l'automne (EV-06906). Il reste un campus en liquidation, tenu par Olson et quelques occupants. La bibliothèque de Rice a été en partie emportée par Nell Rice, le reste vendu à Rocky Mount, et Rice reste furieux (EV-06910, CF-00800).",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "famille Olson (épouse incluse, « Les Olson »)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "derniers occupants des cabanes sur la colline (non nommés)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "quelques étudiants épuisés à la ferme (non nommés)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1957-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson annonce à Rice que le reste de la bibliothèque part au North Carolina Wesleyan College de Rocky Mount. Rice est furieux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06844",
+     "EV-06910",
+     "CF-00800"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "saison",
+    "ce_qui_arrive": "Parution à l'automne du septième et dernier numéro de la Black Mountain Review (Ginsberg, Kerouac, Snyder, Whalen, McClure, extrait de Naked Lunch, recension de Howl par Rumaker). Du matériel existait pour un huitième numéro, mais il n'y avait plus de collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   },
+   {
+    "date": "1957-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Une sélection d'œuvres d'Albers est exposée à la IVe Biennale de São Paulo, alors qu'il est encore chairman à Yale.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06969"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Olson vend ce qui reste de l'immobilier, règle la question de la bibliothèque de Rice, prévoit l'entretien des tombes de Jalowetz et de Max Dehn, puis part pour la maison familiale de Gloucester. Il reste le dernier. La date du départ n'est pas précisée.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "CI-03430"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Olson tente en vain de vendre le pot shop et son terrain à un potier local.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06935"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "La réédition de l'autobiographie de Rice supprime les chapitres sur Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06662"
+    ]
+   }
+  ],
+  "quotidien": "Il n'y a plus ni cours ni repas collectif. La vie ordinaire est celle de la liquidation : ventes, décisions sur les livres et sur les tombes, vide progressif des bâtiments. La ferme n'est plus travaillée que par quelques étudiants épuisés (EV-06390), et les cabanes sont sans chauffage ni réfectoire (LI-01405). Aucune fiche ne décrit la musique ni les repas de décembre.",
+  "tensions": [
+   "Olson contre Rice au sujet de la bibliothèque : Rice réclame environ 2000 volumes, Olson lui annonce la fermeture en lui disant que les loups ont eu ses moutons (CI-03464, CI-03465).",
+   "Deux datations de la fin : Chaddock place la décision à l'automne 1956 sans annonce, alors que les lettres d'avril 1957 parlent d'une fermeture déjà actée (EV-06834, CI-03464).",
+   "Olson parle de dispersion sans échec (CI-03430), alors que Dixon écrit qu'il croyait le collège invincible (SC-01858, CI-03463).",
+   "Creeley voit la dernière Review comme un endroit aussi bon qu'un autre pour finir (EV-06907), tandis que le milieu du Cedar Bar se lasse de la légende (EV-06908).",
+   "Díaz compte moins d'une demi-douzaine d'étudiants payants à la fin (EV-06911), mais aucune fiche ne donne d'effectif pour décembre."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le pot shop sans acheteur",
+    "date": "1957",
+    "lieu": "Pot shop et son terrain, Black Mountain",
+    "personnages": [
+     "Olson",
+     "potier local (non nommé)"
+    ],
+    "deroule": "Olson fait visiter le pot shop et son terrain à un potier de la région. L'affaire ne se conclut pas, et le lieu reste vide.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06935"
+    ]
+   },
+   {
+    "titre": "Le dernier qui ferme",
+    "date": "1957-12",
+    "lieu": "Campus de Black Mountain",
+    "personnages": [
+     "Olson",
+     "famille Olson"
+    ],
+    "deroule": "Olson règle les dernières ventes et dresse la liste des tombes à entretenir, puis prend la route de Gloucester avec sa famille.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "CI-03430"
+    ]
+   },
+   {
+    "titre": "Froid dans les cabanes",
+    "date": "1957-12",
+    "lieu": "Colline des cabanes",
+    "personnages": [
+     "derniers occupants (non nommés)"
+    ],
+    "deroule": "Les derniers occupants vivent sans chauffage ni réfectoire et s'organisent comme ils peuvent pour manger et se réchauffer.",
+    "certitude": "deduit",
+    "refs": [
+     "LI-01405"
+    ]
+   },
+   {
+    "titre": "La nouvelle de Rocky Mount",
+    "date": "1957-09",
+    "lieu": null,
+    "personnages": [
+     "Olson",
+     "John Rice"
+    ],
+    "deroule": "Rice apprend qu'une partie de sa bibliothèque part à Rocky Mount et se fâche. La scène se joue en septembre et se raconte rétrospectivement en décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06910",
+     "CF-00800"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Décembre 1957, Olson sur le campus presque vide, en repensant à ce qui a été décidé",
+    "vers_date": "1956",
+    "vers": "La décision de l'automne 1956, prise sans annonce publique, quand le trimestre d'hiver n'ouvre pas, dans une communauté sans gouvernement ni rituel",
+    "refs": [
+     "EV-06834",
+     "EV-06536"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Décembre 1957, Olson face aux livres de Rice encore à régler",
+    "vers_date": "1957-01",
+    "vers": "Fin janvier 1957 : Olson écrit à Rumaker à San Francisco et lui envoie « The Librarian » le jour même",
+    "refs": [
+     "CI-03462",
+     "OE-03158"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre 1957, Albers encore chairman à Yale",
+    "vers_date": "1958",
+    "vers": "Fin de la présidence d'Albers à Yale en 1958 ; il y introduit ensuite le cours Structural Organization et transmet la méthode Bauhaus-Black Mountain",
+    "refs": [
+     "EV-06927",
+     "EV-06928",
+     "EV-06786"
+    ]
+   }
+  ],
+  "motifs": [
+   "dispersion sans échec",
+   "la bibliothèque comme dette et querelle",
+   "la légende qui s'installe avant même la fin",
+   "Olson comme dernier gardien du lieu",
+   "héritage transmis par Albers, la Review et les Beats"
+  ],
+  "lacunes": "Aucune fiche datée de décembre 1957 : ni session, ni présences, ni climat, ni date du départ d'Olson pour Gloucester. On ignore s'il est encore au campus ce mois-là, combien d'occupants restent et qui ils sont. La photographie de l'annonce de fermeture (EV-06949) n'est pas datée précisément. Chaddock (1956) et les lettres (1957) ne s'accordent pas sur le moment où la décision a été prise."
+ }
+}

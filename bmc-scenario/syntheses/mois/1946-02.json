@@ -1,0 +1,235 @@
+{
+ "passe": "mois",
+ "cle": "1946-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4279,
+  "sortie": 14923,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1946-02 (février 1946)",
+  "session": "Semestre d'hiver-printemps 1946, en cours. Les sources parlent du « semestre » où la question du pouvoir occupe tout le temps. L'institut d'été n'arrive qu'en juillet.",
+  "saison_et_climat": "Plein hiver. Les fiches ne décrivent ni le froid ni la neige de février. L'hiver n'apparaît que dans le récit de Lane (nuit d'hiver, concert du samedi soir), sans date fixe.",
+  "situation": "Le collège traverse l'hiver avec deux fronts ouverts. Depuis le 13 février, la faculté a créé le comité Wallen-Levi-Rondthaler pour réviser le gouvernement de la communauté, et Albers s'y oppose publiquement. Le 28 février, Wallen défend Otto Rank par lettre à Allport. En toile de fond, il y a le deuil de Heinrich Jalowetz, dont la date reste contestée, et un effectif d'anciens combattants qui déborde les locaux. Le collège profite de l'après-guerre (GI Bill, surplus militaires), mais la communauté se méfie d'elle-même.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rondthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Edward Lowinsky, retenu au collège (voyage en Italie reporté)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Molly Gregory (annoncera son départ au printemps)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mme Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Charlotte « Bimbus » Schlesinger",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Karl Niebyl (contrat en cours, date de l'affaire non fixée)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Étudiants, une soixantaine à soixante-quinze selon les chiffres",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1946-02-13",
+    "precision": "jour",
+    "ce_qui_arrive": "La faculté crée le comité Wallen-Levi-Rondthaler pour réviser le gouvernement du collège. Albers déclare qu'il faudrait moins de souci à « gouverner les autres » et plus d'études réelles. Il ne nommera jamais Wallen, même en entrevue en 1967.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03961"
+    ]
+   },
+   {
+    "date": "1946-02-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Wallen écrit à Gordon Allport pour défendre les idées d'Otto Rank, qu'il juge utilisées sans être citées, dans une « conspiration du silence ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03962"
+    ]
+   },
+   {
+    "date": "1946-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Un ancien étudiant du collège, non nommé, est admis en classe avancée à la Harvard Graduate School of Design sans diplôme de BMC. Il obtiendra son M.Arch. en 1949.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03957"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Mort soudaine de Heinrich Jalowetz, possiblement cet hiver. Duberman la place début 1946 et Lane dans une nuit d'hiver, mais le récit de Lane centré sur Weitzer la met au printemps et Duberman la dit vers 1945. Le corps est enterré sous un tas de pierres.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les cours tournent avec un effectif qui déborde : 75 étudiants au printemps pour des locaux prévus pour 60, beaucoup d'anciens combattants. Le collège improvise, sans argent pour construire. Le département de musique est amputé, mais Mme Jalowetz et Schlesinger tiennent la vie musicale. Des concerts du samedi soir et des soirées chez les Straus rythment le collège. Les réunions de communauté absorbent les soirs, et les papiers circulent (comités, pétitions, lettres).",
+  "tensions": [
+   "Albers voit en Wallen un homme qui veut « prendre le pouvoir » (« The Kaiser »), alors que Wallen condamnera plus tard chez Albers les tactiques des « Bentleyites ».",
+   "Le comité est une réforme portée par des enseignants américains contre une faculté européenne qui tient à son autorité.",
+   "Wallen défend une psychologie marginale (Rank) contre sa profession, ce qui le met en porte-à-faux avec ses pairs.",
+   "Le deuil de Jalowetz fragilise la musique, et les Lowinsky sont retenus contre leur gré (voyage en Italie reporté).",
+   "Soupçon politique : Dehn et Albers suspectent Niebyl de vouloir fonder une cellule communiste. Son contrat ne sera pas renouvelé, à une date non fixée.",
+   "Surcharge : 75 étudiants pour des locaux pour 60, sans argent pour construire."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La discussion de faculté du 13 février",
+    "date": "1946-02-13",
+    "lieu": "Black Mountain College (lieu de réunion non précisé)",
+    "personnages": [
+     "Josef Albers",
+     "John Wallen",
+     "Levi",
+     "Rondthaler",
+     "autres membres de la faculté"
+    ],
+    "deroule": "Albers prend la parole contre l'idée de « gouverner les autres ». Le comité est constitué, sur fond de défiance réciproque. La scène peut laisser le conflit en suspens : Albers ne nomme pas Wallen dans sa déclaration.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03961"
+    ]
+   },
+   {
+    "titre": "La lettre à Allport",
+    "date": "1946-02-28",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Wallen"
+    ],
+    "deroule": "Wallen écrit à Gordon Allport que les idées de Rank sont reprises sans être citées, et y voit une « conspiration du silence ». Le geste révèle un homme qui défend une cause impopulaire au moment où le collège cherche à se réorganiser.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03962"
+    ]
+   },
+   {
+    "titre": "Le corps sur le wagon plat",
+    "date": null,
+    "lieu": "Black Mountain College (lieu contesté selon les récits)",
+    "personnages": [
+     "Heinrich Jalowetz",
+     "Mme Jalowetz",
+     "Ross Penley",
+     "Charlotte Schlesinger",
+     "étudiants"
+    ],
+    "deroule": "Les étudiants creusent la tombe dans un rocher. Le corps est transporté sur un wagon plat tiré par le tracteur. Un Requiem est chanté. Les témoins décrivent la sidération de la communauté. Le lieu et l'heure de la mort divergent selon les récits.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Février 1946, pendant les discussions du comité",
+    "vers_date": "1945-11",
+    "vers": "Les réunions de communauté sur le programme de travail (13 et 27 novembre 1945) et la pétition de 34 étudiants et 11 enseignants, probablement de l'automne 1945, où figure Jalowetz.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Février 1946, au moment où le comité révise le gouvernement",
+    "vers_date": "1945",
+    "vers": "L'embauche de Wallen, psychologue formé à Harvard, en 1945, qui précède la crise.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le comité du 13 février",
+    "vers_date": "1946",
+    "vers": "À la fin du printemps, le Community Council de huit membres : référendum révocatoire aux deux tiers, comité disciplinaire paritaire, vote à la majorité simple en faculté.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La lettre du 28 février à Allport",
+    "vers_date": "1946-05-13",
+    "vers": "Wallen lit à la faculté une déclaration écrite pour « mettre les choses au grand jour » et reproche à Albers ses tactiques. Le mois suivant, il est élu président du Council.",
+    "refs": [
+     "EV-03962"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La mort de Jalowetz et le deuil du département de musique",
+    "vers_date": "1947-08",
+    "vers": "Le voyage des Lowinsky en Italie, financé par la bourse Guggenheim d'Eddie, est reporté d'un an ; le collège les retient jusqu'en août 1947.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le climat conflictuel de février",
+    "vers_date": "1946",
+    "vers": "Dès la fin du Summer Art Institute, les Albers partent en voiture pour une année sabbatique. Albers écrit aux Dreier qu'il doute, attaque Wallen et « hait l'égalisation pour l'égalisation ».",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'admission en classe avancée à Harvard",
+    "vers_date": "1949",
+    "vers": "Le même ancien étudiant obtient son M.Arch. en 1949.",
+    "refs": [
+     "EV-03957"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'année qui s'ouvre au collège",
+    "vers_date": "1946-12",
+    "vers": "Les Albers s'installent à La Luz, dans une maison en adobe, où Josef écrit « enfin la paix ». Une fiche y place la naissance de la série Variants/Adobes, d'autres au Mexique en 1947.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "pouvoir et gouvernement communautaire",
+   "défiance entre Européens et Américains",
+   "deuil et continuité du collège",
+   "psychologie contestée (Rank, Wallen)",
+   "vitrine médiatique face au désordre interne",
+   "GI Bill et surplus militaires",
+   "soupçon politique (Niebyl, communisme)"
+  ],
+  "lacunes": "La date de la mort de Jalowetz est contestée : quatre récits, quatre dates (début 1946, nuit d'hiver, printemps, vers 1945). La plupart des faits de la synthèse n'ont pas d'identifiant, donc refs vides. La fiche EV-03959 (cancer et opération de Gorky, un mois après un incendie) concerne un peintre hors du collège : je ne la retiens pas. Rien sur le climat précis de février, les horaires ou les repas. L'affaire Niebyl et le télégramme « 47 » ne sont pas datés. La pétition « 1946-47 » est probablement de 1945, sans confirmation. Les effectifs varient : 60 places, 75 au printemps, 90 étudiants dans la pétition de 61."
+ }
+}

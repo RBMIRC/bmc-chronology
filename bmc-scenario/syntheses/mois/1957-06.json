@@ -1,0 +1,174 @@
+{
+ "passe": "mois",
+ "cle": "1957-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3237,
+  "sortie": 8026,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1957-06",
+  "session": "aucune : le trimestre d'hiver n'a pas ouvert et le collège ne fonctionne plus comme établissement ; juin relève de la liquidation, pas d'une session",
+  "saison_et_climat": "Été. Le climat n'est pas documenté dans les fiches ; une chaleur humide de Caroline du Nord est une déduction à vérifier.",
+  "situation": "Le collège est fermé de fait. Selon Chaddock, la décision remonte à l'automne 1956 sans annonce publique (EV-06834), tandis que la lettre d'Olson du 1er avril 1957 annonce la fermeture comme chose faite (CI-03464, CI-03465). Il reste peu de monde sur le campus, la liquidation des biens est en cours et Olson apparaît comme le dernier responsable. Anni Albers prépare à distance sa déclaration pour Asilomar.",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "quelques étudiants épuisés restés à la ferme",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "derniers occupants de la colline des cabanes",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1957-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Anni Albers écrit sa déclaration pour la première conférence annuelle des artisans américains à Asilomar, texte publié ensuite dans On Designing.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06968"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Olson vend ce qui reste de l'immobilier, règle la question de la bibliothèque de Rice et prévoit l'entretien des tombes de Jalowetz et de Max Dehn. Les sources ne datent pas ces gestes ; juin est plausible mais non attesté.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "CI-03430"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Olson tente en vain de vendre le pot shop et son terrain à un potier local.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06935"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Les Olson partent pour la maison familiale de Gloucester une fois la liquidation avancée.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06766"
+    ]
+   }
+  ],
+  "quotidien": "Le campus ressemble à celui des derniers jours : la ferme n'est plus travaillée que par quelques étudiants épuisés et la colline des cabanes abrite les derniers occupants, sans chauffage ni réfectoire. Les repas, la musique et les cours réguliers ont disparu ; la vie se résume à l'entretien minimal et aux démarches de vente. Ce tableau est déduit des fiches, non daté au jour près.",
+  "tensions": [
+   "Olson contre John Rice au sujet des environ 2000 volumes prêtés à la bibliothèque, qui se règlent pendant la liquidation",
+   "Les dettes du collège : un juge a ordonné l'arrêt des programmes jusqu'au paiement (EV-06964, EV-06966, CF-00806)",
+   "Légende contre échec : Olson voit une dispersion et non un échec, alors que Dixon disait croire le collège invincible (SC-01858)",
+   "Chronologie disputée : décision en automne 1956 selon Chaddock, annonce publique en avril 1957 selon les lettres d'Olson"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Anni Albers fait mentalement sa valise",
+    "date": "1957-06",
+    "lieu": null,
+    "personnages": [
+     "Anni Albers"
+    ],
+    "deroule": "En préparant son intervention pour Asilomar, elle passe en revue une valise imaginaire : brosse à dents, imperméable, vêtements à séchage rapide, aucun objet tissé main ni conçu par un artisan. Le constat sert son propos : l'artisan doit retrouver les problèmes pratiques qu'il a désertés.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01871",
+     "EV-06968"
+    ]
+   },
+   {
+    "titre": "Olson vend les derniers biens du collège",
+    "date": null,
+    "lieu": "Black Mountain",
+    "personnages": [
+     "Olson"
+    ],
+    "deroule": "Olson vend ce qui reste de l'immobilier, tente de céder le pot shop, règle le sort de la bibliothèque de Rice et prévoit l'entretien des tombes de Jalowetz et de Max Dehn. Scène plausible, sans jour précis.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "EV-06935"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "juin 1957, Olson liquide le collège et les dettes pèsent encore",
+    "vers_date": "1957-04",
+    "vers": "l'annonce de la fermeture par lettre à John Rice et la réaction de Daniel Dixon, qui croyait le collège invincible",
+    "refs": [
+     "CI-03464",
+     "CI-03465",
+     "SC-01858",
+     "CI-03463"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "juin 1957, Anni Albers écrit sur l'éducation par le faire",
+    "vers_date": null,
+    "vers": "les années Bauhaus d'Anni et Josef Albers aux côtés de Paul Klee, référence intellectuelle qui revient dans ses journaux",
+    "refs": [
+     "EC-03244",
+     "EC-03243"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "juin 1957, pendant la liquidation de la bibliothèque",
+    "vers_date": "1957-09",
+    "vers": "Olson annonce à Rice que le reste de la bibliothèque est vendu au North Carolina Wesleyan College de Rocky Mount ; Rice est furieux",
+    "refs": [
+     "EV-06844",
+     "EV-06910",
+     "CF-00800"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "juin 1957, quand le collège n'existe plus mais que la Review a encore du matériel",
+    "vers_date": "1957",
+    "vers": "le septième et dernier numéro de la Black Mountain Review paraît à l'automne avec Ginsberg, Kerouac, Snyder et la recension de Howl par Rumaker",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "juin 1957, Albers encore chairman à Yale",
+    "vers_date": "1958",
+    "vers": "Albers quitte la présidence de Yale en 1958 après avoir transmis la méthode Bauhaus-Black Mountain, notamment à Welliver, Engman et Hauer",
+    "refs": [
+     "EV-06927",
+     "EV-06928",
+     "EV-06786"
+    ]
+   }
+  ],
+  "motifs": [
+   "extinction plus que fermeture nette",
+   "liquidation par Olson",
+   "dispersion de l'esprit du lieu hors campus",
+   "transmission de la méthode Bauhaus-Black Mountain",
+   "la bibliothèque comme objet de conflit"
+  ],
+  "lacunes": "On ignore le jour précis de tout geste de juin, le nombre exact de personnes présentes, la date du départ pour Gloucester et la localisation de Josef Albers et d'Anni Albers pendant ce mois. Les sources divergent sur le moment de la décision de fermeture (automne 1956 ou printemps 1957). Le climat et l'état précis des bâtiments ne sont pas documentés."
+ }
+}

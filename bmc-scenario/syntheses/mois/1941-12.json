@@ -1,0 +1,261 @@
+{
+ "passe": "mois",
+ "cle": "1941-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4273,
+  "sortie": 11167,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1941-12",
+  "session": "Trimestre d'automne, interrompu en décembre : le calendrier académique est suspendu pour finir le toit du Studies Building avant Noël (atteste, EV-03234).",
+  "saison_et_climat": "Fin d'automne qui glisse vers l'hiver dans la vallée de Lake Eden (déduit de la saison ; les fiches ne décrivent ni le temps ni le climat de ce mois).",
+  "situation": "Le collège vit à Lake Eden, dans des bâtiments encore à moitié finis depuis la rentrée de fin septembre. Le dernier grand chantier est le toit du Studies Building, dont l'échéance est Noël. Pour la tenir, on a suspendu les cours et toute la communauté monte sur le toit ; le faux calcul sur le chêne séché au four a coûté du temps. Lee Hall n'est plus le lieu commun, Hall est parti en juin, Rice a quitté le collège en 1940 et Zoya Sandomirsky est repartie pour Chicago cet été. Pearl Harbor ouvre la dernière partie de l'année 1941 : les fiches ne donnent pas de jour, et la réaction (radio apportée au dîner, débat étudiant) est décrite comme d'abord incrédule puis divisée.",
+  "presents_probables": [
+   {
+    "nom": "Richard Carpenter",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "communauté du collège (étudiants et enseignants montant sur le toit)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Brett",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Will Hamlin",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alex Reed",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frances Kuntz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Harold Raymond",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1941-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Course pour achever le toit du Studies Building avant Noël : cours suspendus, toute la communauté monte sur le toit, Carpenter cloue une journée entière, un sapin est hissé au point le plus haut, fête et discours.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03234",
+     "SC-00830"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "periode",
+    "ce_qui_arrive": "Pearl Harbor ouvre la dernière partie de l'année ; au dîner on apporte une radio, la première depuis la campagne Willkie. Le jour exact n'est pas donné ; le mois de décembre est plausible mais non attesté.",
+    "certitude": "probable",
+    "refs": [
+     "SC-00831",
+     "EV-03235"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Réunion étudiante au lobby de North Lodge, modérée par Harold Raymond : débat entre pacifistes et partisans de la guerre, puis vote d'un message de soutien (« BMC déclare la guerre à l'Axe »). Placée dans l'hiver 1941-1942 par déduction.",
+    "certitude": "deduit",
+    "refs": [
+     "SC-00801",
+     "CF-00350",
+     "EV-03142"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Mort du jeune Mark Dreier, fils de Theodore, dans un accident de véhicule sur le campus, à un moment non précisé ; la Quiet House sera bâtie à la main en sa mémoire par Alex Reed et Molly Gregory.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03173",
+     "LI-00697"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "ce_qui_arrive": "Richard Carpenter meurt d'un cancer du poumon à environ un an de distance, peu après le toit (« petite année plus tard » selon une source : le délai exact reste flou).",
+    "certitude": "probable",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "ce_qui_arrive": "Le collège cherche un programme de formation gouvernemental (V-1 de la Navy, Enlisted Reserve Corps) sans être accrédité : c'est l'enjeu de l'année à venir.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03150",
+     "CF-00353"
+    ]
+   }
+  ],
+  "quotidien": "Les cours se tiennent le matin et le soir, les après-midi appartiennent au chantier (un à trois après-midi par semaine recommandés). Ce mois-ci le chantier se concentre sur le toit. Albers poursuit son enseignement du dessin et de la matière, et son travail sur les Graphic Tectonics. Wunsch prépare le premier magazine littéraire étudiant et deux Molière dont Frances Kuntz dessine les costumes avec 25 dollars. Kocher enseigne, Stoller dirige le chantier de la Jalowetz House, Molly Gregory installe l'atelier de menuiserie, et l'on travaille à la bibliothèque de disques de Surette (deduit pour ce mois précis, les fiches ne datent pas chaque activité).",
+  "tensions": [
+   "Le chantier est à la fois ferveur et querelle : les partisans du salut par le travail face aux « zombies » agacés",
+   "Le toit repose sur un faux calcul de séchage du chêne, avec le coût du temps perdu",
+   "Dispersion des bâtiments et perte de l'unité de Lee Hall, regrettée par certains",
+   "Le pacifisme contre le parti de la guerre au moment de Pearl Harbor",
+   "Carpenter, terrifié par les hauteurs, cloue quand même toute la journée",
+   "Le collège est à peine financé et dépend de dons et de tournées depuis l'été",
+   "Albers contre le laisser-faire des écoles progressistes, et la tradition contre le changement"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Carpenter cloue sur le toit",
+    "date": "1941-12",
+    "lieu": "toit du Studies Building, Lake Eden",
+    "personnages": [
+     "Richard Carpenter",
+     "communauté entière"
+    ],
+    "deroule": "Pour tenir l'échéance de Noël, les cours sont suspendus et tout le monde monte sur le toit. Carpenter, biologiste arrivé récemment et terrifié par les hauteurs, cloue toute la journée. En fin de journée, un petit sapin est hissé au point le plus haut, on étale vin et nourriture, les discours sont bon enfant. Le sacrifice ordinaire rencontre la fête, et l'on sait déjà que Carpenter mourra un an plus tard.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00830",
+     "EV-03234"
+    ]
+   },
+   {
+    "titre": "La radio au dîner",
+    "date": "1941",
+    "lieu": "dîner collectif (lieu précis non donné)",
+    "personnages": [
+     "la communauté du collège"
+    ],
+    "deroule": "Après Pearl Harbor, on apporte une radio au dîner, la première depuis la campagne Willkie. L'incrédulité domine d'abord ; le collège, longtemps coupé de la politique, découvre que la guerre le concerne. La date exacte n'est pas dans les fiches.",
+    "certitude": "probable",
+    "refs": [
+     "SC-00831",
+     "EV-03235"
+    ]
+   },
+   {
+    "titre": "Le débat du lobby de North Lodge",
+    "date": null,
+    "lieu": "lobby de North Lodge",
+    "personnages": [
+     "Harold Raymond",
+     "étudiants pacifistes",
+     "partisans de la guerre"
+    ],
+    "deroule": "Une réunion étudiante, modérée par Harold Raymond, confronte pacifistes et partisans de la guerre. Le débat aboutit à un vote de soutien et à la déclaration « BMC déclare la guerre à l'Axe ». La scène est placée dans l'hiver 1941-1942 par déduction.",
+    "certitude": "deduit",
+    "refs": [
+     "SC-00801",
+     "CF-00350",
+     "EV-03142"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Depuis le toit en décembre, au moment où l'on mesure la distance avec la rentrée de fin septembre",
+    "vers_date": "1941-09",
+    "vers": "La première assemblée : Albers revient sur ses mois à Harvard, huit ans d'existence contre trois siècles de tradition, « la vie signifie changement, notre but est en avant ». Betty Brett y lit « un autre collège », plus petit et chaleureux.",
+    "refs": [
+     "SC-00826",
+     "CI-01624",
+     "CI-01626"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Depuis le toit et le chantier en cours, où l'on regrette la perte de Lee Hall",
+    "vers_date": "1941-05",
+    "vers": "Le site de Lake Eden est à peine habitable ; Derek Bovington fait la navette en tracteur et emporte jusqu'au système de chauffage de Lee Hall, ce qui irrite la Blue Ridge Assembly.",
+    "refs": [
+     "EV-03219",
+     "EV-03220"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Depuis le toit achevé, où Carpenter cloue encore",
+    "vers_date": "1942",
+    "vers": "Carpenter meurt d'un cancer du poumon, un an environ après la course au toit.",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Depuis le débat du lobby, au moment où le pacifisme est mis en question",
+    "vers_date": null,
+    "vers": "Dans l'hiver 1941-1942, le collège vote son message de soutien à la guerre et cherche à se faire accréditer pour une formation gouvernementale.",
+    "refs": [
+     "SC-00801",
+     "CF-00350",
+     "EV-03150"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Depuis la pensée de Goodman sur le cadre et l'écran (vers 1941, date déduite)",
+    "vers_date": "1952",
+    "vers": "Les expériences scéniques du collège (théâtre, danse, événement de Cage en 1952) que préparent la typologie du spectacle et le théâtre de participation de Goodman.",
+    "refs": [
+     "EC-01792",
+     "EC-01791"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le toit comme sacrifice ordinaire et fête collective",
+   "Le travail physique comme ferveur et comme usure",
+   "La perte de l'unité de Lee Hall",
+   "La guerre qui entre dans un collège resté à l'écart",
+   "Les morts qui se profilent : Carpenter, Mark Dreier",
+   "Le changement contre la tradition, que porte Albers"
+  ],
+  "lacunes": "Le jour exact de Pearl Harbor, de la réunion étudiante et de la mort de Mark Dreier n'est pas donné ; le climat de décembre n'est pas décrit. Les fiches sont contradictoires sur le délai de la mort de Carpenter (« un an plus tard » contre « petite année plus tard »). La présence effective de chaque enseignant et étudiant en décembre n'est pas attestée, seulement déduite. Les fiches ne précisent pas non plus si le débat étudiant a eu lieu avant ou après la réunion dont il est question dans les sources."
+ }
+}

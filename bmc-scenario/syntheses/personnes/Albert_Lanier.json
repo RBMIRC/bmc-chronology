@@ -1,0 +1,393 @@
+{
+ "passe": "personnes",
+ "cle": "Albert Lanier",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 19496,
+  "sortie": 4652,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Albert Lanier",
+  "autres_noms": [
+   "Mr. Lanier",
+   "mari d'Asawa"
+  ],
+  "dates_de_vie": "anniversaire le 12 avril ; années de naissance et de mort non précisées par les fiches",
+  "statut_bmc": "Étudiant en architecture (cercle de Buckminster Fuller, projet Minimum House) ; quitte le collège à l'automne 1948 pour San Francisco",
+  "presence": [
+   {
+    "debut": "1946",
+    "fin": "1948",
+    "precision": "annee",
+    "role": "Étudiant, notamment auprès de Buckminster Fuller ; participe au Supine Dome (été 1948) et au chantier étudiant de la Minimum House ; y rencontre Ruth Asawa et Peggy Tolk-Watkins",
+    "refs": [
+     "EV-03913",
+     "SC-01103",
+     "QU-01181",
+     "EV-04219",
+     "RE-01236"
+    ]
+   },
+   {
+    "debut": "1948-10",
+    "fin": null,
+    "precision": "mois",
+    "role": "Départ définitif : traverse le pays en voiture avec les Watkins pour s'installer à San Francisco (n'a plus de présence physique au collège)",
+    "refs": [
+     "EV-04583"
+    ]
+   }
+  ],
+  "portrait_physique": "Non décrit physiquement par les fiches ; on le voit en action : épuisé par des chantiers nocturnes, déjeunant copieusement dans une chaise Mies van der Rohe, dessiné endormi auprès de son petit-fils en 1978.",
+  "noyau_psychologique": "Architecte ambitieux et travailleur qui définit sa vie contre la Bohème : il veut un foyer moderne, lumineux, fonctionnel — un « playhouse » — bâti de ses propres mains. Il aime par le biais de l'architecture : la maison, la ville, le pont Golden Gate deviennent dans ses lettres le langage de sa passion pour Ruth Asawa. Soutien conjugal exemplaire, il accepte d'être en pratique l'homme au foyer et l'agent de sa femme, tout en restant lucide (et précoce) sur les deuils qu'implique la vie de parent.",
+  "blessures": "Tourmenté par les doutes d'Asawa sur leur mariage — il lui écrit que savoir combien cela le tourmente (« You must know how this torments me »). Peur de compromettre sa carrière d'architecte, qui le pousse à refuser le partenariat du Tin Angel.",
+  "desirs": "Fonder avec Ruth un foyer à la fois atelier et scène domestique : espace nu et propre, cloisons mobiles plutôt que murs, place pour des amis, une scie circulaire, un décor de théâtre, de la place pour danser. Réussir comme architecte en Californie, où la concurrence est la plus rude. Que le travail de Ruth soit vu, crédité, bien accroché.",
+  "peurs": "Vivre « bohémienement » ; diluer son identité professionnelle (il invoque de Kooning vendeur de bijoux pour justifier son refus du Tin Angel) ; le méli-mélo des grandes expositions où l'œuvre individuelle se perd.",
+  "maniere_d_aimer": "Par la construction et la lettre lyrique : il décrit le Golden Gate comme « religieux, sculptural, sexuel », mélange la nuit ses rêves avec Ruth et « une dimension difficile de la maison ». Il aime avec une fierté concrète, appelant simplement le travail de sa femme « wire stuff », la démarchant auprès de Laverne et d'Entenza, construisant ses socles, ses tambours pleine échelle et sa table de travail.",
+  "rapport_au_pouvoir": "Modeste et courtois dans la rivalité : à la vente aux enchères de la caserne de pompiers, voyant Adams présent, il s'abstient d'enchérir. Autorité domestique paternelle mais comique (l'enquête sur la pomme dans les toilettes). Refuse les arrangements financiers qui le détourneraient de sa trajectoire d'architecte.",
+  "voix": {
+   "registre": "Vif, ironique dans la correspondance avec parents et fiancée ; lyrique et sensuel quand il parle d'architecture et d'amour ; net et tranchant sur les questions professionnelles",
+   "tics": "Mêler systématiquement vocabulaire architectural et déclaration amoureuse ; employer des formules frappantes en anglais (« wire stuff », « hodge-podge », « playhouse »)",
+   "exemples_paraphrases": [
+    "Le pont Golden Gate est à la fois religieux, sculptural et sexuel, et il pensera à elle à chaque traversée",
+    "N'importe quel endroit vaut pour commencer une vie à deux",
+    "Il imagine un espace nu et propre, tous les coins réalisés, pour travailler et pour aimer",
+    "Qu'aurait fait de Kooning s'il était devenu vendeur de bijoux ?",
+    "Être mère, c'est une suite de morts — celle du bébé, du petit garçon, de l'étudiant"
+   ]
+  },
+  "habitudes": [
+   "Visites de site le soir sur la colline de Sausalito où il a acheté un terrain",
+   "Bricolage et plomberie permanents : murs abattus, plan ouvert, plomberie faite de nuit à marée basse sous le ponton",
+   "Jardinage passionné ; coquelicots qu'il élevait et qu'Asawa dessinait",
+   "Anniversaire le 12 avril, partagé avec Cunningham et Pamela Woodbridge, fêté à Golden Gate Park",
+   "Correspondance intense et datée avec Asawa et ses parents",
+   "Déjeuner copieux à sa grande table dans une chaise Mies van der Rohe"
+  ],
+  "convictions": [
+   "Le bon design peut être bon marché : économie des matériaux apprise de Fuller",
+   "Rejet de la Bohème : la domesticité moderne, sobre et lumineuse, contre la fête baroque",
+   "Le foyer doit être l'espace le plus vivant et stimulant de la ville, avec cloisons mobiles et place pour tout faire",
+   "Les objets artisanaux méritent une présentation conçue qui relie les démarches sans les fusionner",
+   "La maternité comporte des deuils successifs qu'il faut nommer"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1946",
+    "precision": "annee",
+    "moment": "Étudiant à Black Mountain ; rencontre de Ruth Asawa et Peggy Tolk-Watkins",
+    "etat_interieur": "Jeune architecte en formation, énergique et ambitieux",
+    "refs": [
+     "EV-03913"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Été du Supine Dome : il soutient de ses bras, avec Dreier et Elaine de Kooning, le premier dôme géodésique qui refuse de se dresser",
+    "etat_interieur": "Imprégné de la pédagogie de l'échec assumé et de l'économie des matériaux de Fuller",
+    "refs": [
+     "SC-01103",
+     "QU-01181",
+     "EV-04340"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Chantier étudiant de la Minimum House (~1000 dollars, pierres ramassées dans les bois, pierre tombale de Jalowetz maçonnée par erreur)",
+    "etat_interieur": "Conviction concrète qu'un bon design n'est pas forcément cher",
+    "refs": [
+     "EV-04219",
+     "EV-04628"
+    ]
+   },
+   {
+    "date": "1948-10",
+    "precision": "mois",
+    "moment": "Traversée du pays en voiture avec les Watkins vers San Francisco, laissant Ruth derrière — début de la correspondance amoureuse à distance",
+    "etat_interieur": "Déchiré entre le départ professionnel et l'amour naissant",
+    "refs": [
+     "EV-04583",
+     "RE-01715"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Dessinateur dans un cabinet d'architecture où il avait rencontré le mari de Woodbridge ; découvre la poterie de Wildenhain dans Arts and Architecture, encore étudiant",
+    "refs": [
+     "PE-00043"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1948-10",
+    "precision": "mois",
+    "moment": "Installation à Sausalito chez les Watkins : corvées et bébé contre le gîte, rénovation du cottage du Tin Angel, mezzanine nocturne jusqu'à 2 h du matin, douche en toile, plomberie de nuit à marée basse",
+    "etat_interieur": "Énergique, romantique, épuisé par les chantiers",
+    "refs": [
+     "EV-04358",
+     "EV-04360",
+     "SC-00999",
+     "RE-01716"
+    ]
+   },
+   {
+    "date": "1948-09-25",
+    "precision": "jour",
+    "moment": "Refuse le partenariat financier du Tin Angel pour protéger son établissement comme architecte",
+    "refs": [
+     "EV-04576"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "Engagé chez Mario Corbett grâce aux photos de la Minimum House ; Varda l'a présenté ; Corbett lui commande des dessins au trait « à la manière de Black Mountain »",
+    "refs": [
+     "EV-03921",
+     "EV-04362",
+     "EV-04363",
+     "RE-01717"
+    ]
+   },
+   {
+    "date": "1949-04",
+    "precision": "mois",
+    "moment": "Publie sous anonymat l'article sur la Minimum House dans Arts and Architecture (recommandation des Albers) ; offre un vase de Pond Farm à sa cousine ; écrit à ses parents que la concurrence californienne exige le meilleur",
+    "refs": [
+     "EV-04858",
+     "EV-04859",
+     "EV-04861",
+     "OE-02191"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "saison",
+    "moment": "Mariage estival chez Corbett sur Wolfback Ridge : robe noire en tissu d'Anni Albers cousue par Johanna Jalowetz, alliance dymaxion dessinée par Fuller, Schlesinger au piano, Asawa butant sur ses vœux, bébé Ragland rampant au sol, charcuterie et champagne",
+    "etat_interieur": "Ému et rieur — « ils riaient tous et nous pleurions » — union controversée juste après l'abrogation des lois anti-métissage",
+    "refs": [
+     "EV-04704",
+     "EV-04705",
+     "SC-01206",
+     "RE-01850"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Installation à Saturn Street puis rénovations en cascade : intérieur démoli, jours de récupération de pavés (août 1954), maison pour ses parents, rénovation pour Merry Renk voisine qu'il a conseillée",
+    "refs": [
+     "EV-05073",
+     "EV-06477",
+     "EV-06478",
+     "SC-01740",
+     "EV-05075"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Agent de Ruth : lettres à Laverne sur son « wire stuff », à Entenza sur ses papiers pliés ; conçoit l'accrochage de Four Artist-Craftsmen (1954) au San Francisco Museum of Art",
+    "refs": [
+     "EV-05575",
+     "EV-05809",
+     "EV-06227",
+     "EV-06458",
+     "OE-02836"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Achat du 21 Saturn Street ; le couple fait de la maison un chantier permanent mêlant art et famille ; visites à Pond Farm, correspondance avec Wildenhain (1953) puis maison d'hôtes bâtie pour elle en 1962",
+    "refs": [
+     "EV-06477",
+     "EV-04714",
+     "RE-02561",
+     "EV-07462"
+    ]
+   },
+   {
+    "date": "1960",
+    "precision": "annee",
+    "moment": "Achat de la maison de Noe Valley ; il creuse un sous-sol en demi-niveau pour donner à Ruth son premier véritable atelier",
+    "refs": [
+     "EV-07273",
+     "EV-05077",
+     "RE-01851"
+    ]
+   },
+   {
+    "date": "1967",
+    "precision": "annee",
+    "moment": "Photographié déjeunant à la table qu'il a conçue lors du reportage d'Olga Gueft ; lettre à Gueft du 21 mai 1967",
+    "refs": [
+     "SC-02044",
+     "EV-07922",
+     "PE-00043"
+    ]
+   },
+   {
+    "date": "1971",
+    "precision": "annee",
+    "moment": "Construit avec Hector Villaneuva le tambour pleine échelle (14 pieds) de la San Francisco Fountain dans la maison et le jardin ; la fontaine restera sans signature",
+    "refs": [
+     "EV-08211",
+     "RE-03065"
+    ]
+   },
+   {
+    "date": "1972",
+    "precision": "annee",
+    "moment": "Cuneo couche deux sculptures de fil sur le lit conjugal ; Lanier, qui voulait un inventaire documentaire, n'aime pas l'image",
+    "refs": [
+     "SC-02101",
+     "EV-08229"
+    ]
+   },
+   {
+    "date": "1978",
+    "precision": "annee",
+    "moment": "Dessiné endormi auprès de son petit-fils Ken par Asawa",
+    "refs": [
+     "EV-08447",
+     "RE-02104"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Des décennies plus tard : avec Ruth, embauche une assistante pour le catalogage sisyphéen de son œuvre sculptée, presque entièrement intitulée Untitled",
+    "refs": [
+     "EV-03915"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Ruth Asawa",
+    "nature": "Amour à distance puis mariage (été 1949), collaboration artistique et familiale",
+    "evolution": "Correspondance intense 1948-1949 où il rêve le foyer-idéal et elle doute ; mariage non conformiste ; six enfants ; il devient l'homemaker et l'agent de sa carrière (socles, accrochages, démarchage, crédits) ; trois maisons-ateliers construites ensemble ; catalogage de l'œuvre",
+    "refs": [
+     "RE-01715",
+     "RE-01719",
+     "RE-01530",
+     "RE-01850",
+     "RE-02079",
+     "EV-04719",
+     "EV-03915"
+    ]
+   },
+   {
+    "avec": "Peggy Tolk-Watkins et Rags Watkins",
+    "nature": "Amitié, cohabitation, collaboration de chantier",
+    "evolution": "Logé chez eux à l'arrivée à Sausalito ; corvées et bébé contre le gîte ; mezzanine nocturne ; refuse leur offre de partenariat au Tin Angel pour protéger sa carrière ; Peggy lui chante une « ode à Ruth »",
+    "refs": [
+     "RE-01716",
+     "EV-04359",
+     "EV-04576",
+     "SC-00999"
+    ]
+   },
+   {
+    "avec": "Mario Corbett",
+    "nature": "Mentorat professionnel",
+    "evolution": "Présenté par Varda, embauché grâce aux photos de la Minimum House ; Corbett l'invite à dîner, lui commande des dessins au trait « à la manière de Black Mountain » ; le mariage se fait chez lui ; Lanier ouvrira ensuite son propre cabinet",
+    "refs": [
+     "RE-01266",
+     "EV-04361",
+     "EV-04362",
+     "EV-04363"
+    ]
+   },
+   {
+    "avec": "Jean Varda",
+    "nature": "Amitié et contre-modèle",
+    "evolution": "Varda, ex-enseignant BMC, l'introduit chez Corbett mais son décor baroque du Tin Angel cristallise le rejet de la Bohème par Lanier",
+    "refs": [
+     "RE-01717",
+     "SC-01001",
+     "EV-03919"
+    ]
+   },
+   {
+    "avec": "Buckminster Fuller",
+    "nature": "Influence formatrice",
+    "evolution": "Du Supine Dome à l'économie des matériaux appliquée aux cottages et foyers ; Fuller dessine l'alliance de mariage dymaxion",
+    "refs": [
+     "ID-01847",
+     "EV-04705",
+     "QU-01181"
+    ]
+   },
+   {
+    "avec": "Marguerite Wildenhain",
+    "nature": "Amitié et clientèle architecturale",
+    "evolution": "Correspondance dès 1953, visites à Pond Farm, collection de pots ; il bâtit une maison d'hôtes pour elle en 1962",
+    "refs": [
+     "RE-02561",
+     "EV-04714",
+     "EV-07462"
+    ]
+   },
+   {
+    "avec": "Imogen Cunningham",
+    "nature": "Amitié domestique",
+    "evolution": "Arrive avec de la confiture de prunes en 1950 ; anniversaires partagés le 12 avril à Golden Gate Park ; il apprécie certaines de ses photos comme « excitantes photographiquement »",
+    "refs": [
+     "EV-05085",
+     "SC-01301",
+     "EV-00339",
+     "PE-00043"
+    ]
+   },
+   {
+    "avec": "Merry Renk",
+    "nature": "Conseil et chantier",
+    "evolution": "La convainc d'acheter le victorien adjacent et en rénove l'intérieur avec mezzanine-atelier",
+    "refs": [
+     "RE-02086",
+     "EV-05075"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Les fiches donnent des bornes très larges et approximatives pour la présence de Lanier à BMC (« fin des années 1940 », « années 1940 », 1946-1948) ; seul le départ en octobre 1948 est précis",
+   "Troeller 2025 souligne une inversion de stéréotypes : le visionnaire du logement idéal était l'homme, la pragmatique la femme — à ne pas lisser dans l'écriture",
+   "Les récits du Supine Dome varient légèrement (échec dès l'assemblage vs structure tenue à bout de bras pour la photo), mais tous attestent l'échec bon enfant"
+  ],
+  "situations_revelatrices": [
+   "Chantiers nocturnes : la mezzanine à 2 h du matin, la plomberie à marée basse — il se révèle les mains dans le gravier",
+   "Lettres d'amour architecturales : décrire un pont ou une maison pour dire le désir",
+   "Scènes de refus : le partenariat du Tin Angel, l'enchère abandonnée devant Adams — ses renoncements disent ses priorités",
+   "Comédie domestique : la pomme dans les toilettes devant six visages innocents",
+   "Conflits de représentation : Reclining, où son désir d'inventaire documentaire se heurte à l'image d'art"
+  ],
+  "citations": [
+   "CI-01904",
+   "CI-01905",
+   "CI-02108",
+   "CI-02109",
+   "CI-02242",
+   "CI-02450",
+   "CI-02451",
+   "CI-03086",
+   "CI-03833"
+  ],
+  "questions_ouvertes": [
+   "Années et lieu de naissance, date et circonstances de sa mort",
+   "Sa famille d'origine, son parcours avant Black Mountain, où il a étudié",
+   "Ce qu'il a précisément fait à BMC comme étudiant (cours suivis, années exactes)",
+   "Sa carrière propre après l'ouverture de son cabinet : bâtiments signés Lanier",
+   "Sa réaction, au fil des ans, à l'effacement partiel de sa propre carrière derrière celle de Ruth"
+  ]
+ }
+}

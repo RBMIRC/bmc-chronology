@@ -1,0 +1,70 @@
+{
+ "passe": "enseignements",
+ "cle": "invités dont Coron",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2378,
+  "sortie": 1546,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "invités dont Coron",
+  "cours": [
+   {
+    "intitule": "Histoire des Indiens d'Amérique",
+    "periodes": [
+     "après 1950, à Roosevelt University (hors Black Mountain College)"
+    ],
+    "atteste": "non",
+    "objectifs": "Les fiches ne donnent aucun objectif. Elles indiquent seulement que ce cours a été donné après 1950 à Roosevelt University, pas à BMC. On peut déduire, avec prudence, un lien avec la découverte des pointes de flèche à Lake Eden (SC-00880), présentée comme la naissance d'une vocation d'historien. Ce lien est une déduction, non une affirmation des sources.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Selon SC-00880, la trouvaille d'une pointe de flèche dans le gravier lavé par la pluie devant Meadows Inn marque le début d'une vocation d'historien. Les pointes « sautent » ensuite vers lui, surtout dans le champ de maïs en pente. Le cours de Roosevelt University, après 1950, en serait un prolongement possible. C'est une déduction : aucune fiche ne l'établit.",
+    "refs": [
+     "CO-00591",
+     "SC-00880"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le prestige de Black Mountain tenait au luxe de l'esprit, non au luxe matériel. Chacun gagnait sa place par la prouesse intellectuelle ou artistique, pas par l'étalage de sa richesse.",
+    "en_classe": "Séance de discussion ou de scène : chacun doit se faire reconnaître par ce qu'il fait ou propose, sans signe de statut. Image attestée : les étudiants descendent North Fork Road à pied jusqu'à la route pour prendre le bus d'Asheville. Cela vient d'un témoignage de la vie du collège, pas d'un exercice de classe : rien n'atteste que l'idée ait été enseignée en cours.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01630"
+    ]
+   },
+   {
+    "idee": "La poésie de Wordsworth sert de grille de lecture à la nature de Lake Eden. Les montagnes y deviennent le vieux Protée, les fleurs la corne du Triton, et la nature offre des « glimpses » qui consolent de la modernité.",
+    "en_classe": "Marche ou séance de botanique lue avec Wordsworth : lire quelques vers sur le terrain, puis nommer ce que l'on voit. La fiche cite « Great God! I'd rather be / A Pagan suckled in a creed outworn ». Le statut est incertain : la fiche présente cette grille comme l'armature de ses marches et de sa botanique, sans attester une séance de classe à BMC.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01632"
+    ]
+   },
+   {
+    "idee": "La vraie excitation est la découverte d'une nouvelle espèce, non les spectacles du modernisme. Critique voilée des « héroïques marchands de modernisme » venus conférer au collège.",
+    "en_classe": "Sortie d'observation sur les sentiers pour chercher des orchis (rose, pourpre, violet frangé) et opposer cette trouvaille à l'effet d'une conférence vedette. Le scénario peut s'appuyer sur SC-00878 : Marion Corkran lui montre l'oconee-bell qu'il cherchait en vain depuis des années, et il bondit de joie. L'idée est attestée comme propos de l'auteur sur le collège ; l'usage en séance formelle n'est pas attesté.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01633",
+     "SC-00878"
+    ]
+   },
+   {
+    "idee": "La responsabilité des enseignants en excursion : une alerte nocturne au mont Mitchell, qui se termine en comédie.",
+    "en_classe": "Préparer une sortie en montagne en prévoyant l'alerte, le téléphone du ranger et la logistique de retour. Fait attesté : une étudiante est jugée au bord de la mort, le ranger téléphone, Molly Gregory fait quinze milles de routes en lacets et arrive à 2 h du matin ; le lendemain, on apprend que la malade avait trop bu de « mountain dew » de contrebande. Il s'agit d'un épisode d'excursion, non d'un cours : le cadre pédagogique est déduit.",
+    "atteste": "oui",
+    "refs": [
+     "SC-00879"
+    ]
+   }
+  ]
+ }
+}

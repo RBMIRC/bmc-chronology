@@ -1,0 +1,545 @@
+{
+ "passe": "mois",
+ "cle": "1933-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 15506,
+  "sortie": 21074,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1933-11",
+  "session": "Premier trimestre d'automne, quelques semaines après l'ouverture du 25 septembre 1933 (déduit de l'ouverture, pas d'une date de session donnée par les fiches)",
+  "saison_et_climat": "Automne de Caroline du Nord, fin novembre, semaine de Thanksgiving. Lumière du Sud, vue sur les Blue Ridge (SC-00564). Aucune donnée météo locale précise dans les fiches. L'ouragan de la traversée (SC-00563) a eu lieu en mer.",
+  "situation": "Le collège, ouvert depuis deux mois, vit dans Lee Hall avec environ douze enseignants, vingt-deux étudiants (dont treize venus de Rollins) et une poignée de personnels (EV-02211). Le Board of Fellows et le recteur Georgia gouvernent sans trustees, depuis les statuts adoptés le 28 octobre après la mort de Lounsbury le 16 octobre (synthèse annuelle, sans identifiant). Les sept premiers instructeurs sont élus officiellement en novembre, sans salaire (EV-02195). Le rapport de l'AAUP sur Rollins paraît en novembre et soutient Rice (EV-02217, EV-02220). Holt riposte par une campagne de lettres et une édition spéciale de décembre (EV-02220). Les Albers, arrivés de Berlin via New York, s'installent à la fin du mois. Josef est le seul enseignant rémunéré (1 000 $, EV-02204). L'art occupe une place centrale et tout le monde y assiste (synthèse).",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Georgia (recteur, prénom seul dans les fiches)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ted Dreier (trésorier, fondateur)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bobby Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jack Lipsey (chef)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rubye Lipsey",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Evarts (musique)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Martin (anglais)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hinckley (psychologie)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Helen Boyden (économie)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hilda « Peggy » Loram (anglais et art dramatique)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Emmy Zastrow (allemand)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Keith (langues romanes)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nat French (student moderator)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Norman Weston (étudiant)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anne Chapin (étudiante)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "David Bailey (étudiant)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wunsch (visite de Thanksgiving ; nommé Heinrich Jalowetz dans une fiche)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mangold (rédacteur des procès-verbaux)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cramer (au portique)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Moellenhoff",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "la secrétaire du collège (non nommée)",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Élection officielle des sept premiers instructeurs lors d'une réunion spéciale du Board : ils enseignent depuis quatre ou cinq semaines, logés et nourris sans salaire, sur le principe du « Marx modifié ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02195"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Arrivée des Albers à la gare de Black Mountain. Rice les accueille et se dit convaincu en une demi-heure. Anni sert d'interprète, Josef parle très peu anglais. Une autre version (Harris 2005) fait accueillir les Albers par Ted et Bobby Dreier. Les deux versions sont contradictoires sur l'accueilleur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02196",
+     "EV-02215"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Réception des Albers à Lee Hall : colonnes doriques en bois, affiche punaisée, « I want to open eyes », et la remarque d'une femme qui juge Albers trop âgé pour apprendre l'anglais. Rice se fâche contre cette remarque.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02197",
+     "SC-00560"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Comité de la faculté sur les conditions d'admission (entretien, examen spécial, attestation du proviseur). Recommandations adoptées à l'unanimité un mois plus tard, en décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02203"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board vote mille dollars à Albers, seul salaire formel de la faculté, sur un don spécial. La fiche indique « le mois suivant son arrivée », ce qui peut déplacer le vote en décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02204"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Dreier établit le budget prévisionnel : environ 32 000 $ par an, avec un déficit potentiel de plus de 8 000 $ en fin de première année. Il faut des quêtes permanentes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02205"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution du Bulletin n° 1 : la bibliothèque est minuscule, et les étudiants y gagnent en apprenant à chercher l'information eux-mêmes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02206"
+    ]
+   },
+   {
+    "date": "1933-11-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion de faculté du 7 novembre : le procès-verbal, rédigé par Mangold, ne consigne que les présents et les décisions.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02224"
+    ]
+   },
+   {
+    "date": "1933-11-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Ted Dreier prononce devant le Women's Club de Black Mountain un discours sur les débuts du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02225"
+    ]
+   },
+   {
+    "date": "1933-11-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Arrivée des Albers à New York sur le S.S. Europa, avec environ dix heures de retard selon Horowitz. Accueil par les photographes (« prenons aussi la femme ») et par Johnson, qui les emmène le lendemain chez les Warburg.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02222",
+     "EV-02219",
+     "SC-00570",
+     "SC-00568"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "semaine",
+    "ce_qui_arrive": "Thanksgiving à Brooklyn Heights chez les parents Dreier : Aunt Kate, Duchamp, Grosz, Johnson, Warburg, Drewes. Albers juge Duchamp « a great fellow » et Grosz « sehr sympathisch ». Les sources ne s'accordent pas sur le retour vers Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02208",
+     "SC-00563"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Annonce de presse de l'arrivée d'Albers dans les journaux new-yorkais, poussée par les relations publiques du MoMA. La date diffère selon les fiches : 26 novembre (une une de trois journaux) ou 29 novembre (New York Times). Le Herald Tribune annonce le 10 décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00571",
+     "EV-02228",
+     "EV-02209"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Arrivée des Albers à Black Mountain, deux jours après New York selon EV-02222. EV-02196 place pourtant l'arrivée « quelques jours avant Thanksgiving ». Les fiches ne fixent pas le jour du retour.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02222",
+     "EV-02196",
+     "EV-02221"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board et la faculté statuent sur le logement d'un étudiant noir venu avec un groupe de visiteurs lié à Charles Loram : il sera logé en ville sans consultation des étudiants. Une pétition de onze étudiants exige une réunion.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02211",
+     "EV-02203"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunion communautaire : trois étudiants proposent une ferme pour économiser et renforcer la communauté ; vote unanime après une longue discussion. Molesworth date le vote de novembre, Duberman le place à la mi-année.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02216",
+     "SC-00567"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Le rapport officiel de l'AAUP sur Rollins paraît dans le Bulletin ; il soutient Rice. Holt contre-attaque en décembre avec une édition spéciale du Rollins College Bulletin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02217",
+     "EV-02220"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Départ définitif des Albers d'Allemagne. Anni se sent coupable de sa judéité, qui a forcé Josef à quitter sa patrie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02221",
+     "EV-02222",
+     "EV-02214",
+     "EV-02218"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Émigration des Albers aux États-Unis. L'offre de travail est parvenue avant le départ grâce à des relations new-yorkaises et de Nouvelle-Angleterre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02214",
+     "EV-02215"
+    ]
+   }
+  ],
+  "quotidien": "Lee Hall est le centre de la vie commune : repas partagés, petit-déjeuner à définir, étages séparés pour hommes et femmes, querelle des repas du dimanche (deux ou trois). Les familles avec jeunes enfants vivent dans les cottages. On débat des tarifs de la buanderie. Les cours d'art attirent enseignants et gens du village. Albers enseigne au tableau noir et par gestes, Anni l'aidant. Georgia fabrique des métiers à pédales pour Anni. Les séminaires du soir démarrent : « Philosophies of Social Reconstruction », « Creative Writing », « The Eighteenth Century ». La troupe prépare The Way of the World de Congreve, répétitions depuis octobre, représentation prévue vers Noël. Les étudiants demandent une ferme. Les visites de chambres sont encadrées par une règle : mélange libre tant qu'il n'y a pas de draps sur le lit pliant. L'unique petite bibliothèque se bat avec le manque de livres.",
+  "tensions": [
+   "Le fantôme de Rollins : le collège se définit par l'opposition à Rollins, et Wunsch le juge « haineux » en novembre (SC-00562). Holt prépare sa contre-offensive (EV-02220).",
+   "Le Board décide seul du logement d'un étudiant noir en ville, sans consulter les étudiants : une pétition de onze étudiants exige une réunion (EV-02211, EV-02203).",
+   "Querelle d'interprétation entre Zastrow et Evarts, que Rice complète à sa façon : une délégation d'étudiants obtient leur renvoi, et Albers reprend l'enseignement seul (synthèse).",
+   "Les garçons boudent d'abord l'art, et Anni manque d'équipement et de tradition locale (synthèse).",
+   "Suspicions du village sur l'amour libre et le nudisme (shorts, sandales) : les étudiants règlent la question par des règles sur les visites de chambres (synthèse).",
+   "Budget : un déficit potentiel de plus de 8 000 $ pèse sur les quêtes de fonds (EV-02205). Gratuité totale sauf pour Albers (EV-02195, EV-02204).",
+   "Les Albers se heurtent à la langue : Josef ne parle presque pas anglais et Anni sert d'intermédiaire. La remarque de la femme sur son âge blesse (EV-02197).",
+   "Culpabilité d'Anni, qui se sent responsable de l'exil de Josef à cause de sa judéité (EV-02222)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La réception à Lee Hall",
+    "date": "1933-11",
+    "lieu": "Lee Hall, Black Mountain",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Emmy Zastrow",
+     "étudiants",
+     "une femme non nommée"
+    ],
+    "deroule": "La table allemande d'Emmy Zastrow a fait répéter des phrases de bienvenue, vite oubliées en montant les marches. Anni découvre les colonnes doriques en bois, une photo punaisée à l'une d'elles. Josef dit « I want to open eyes ». Une femme lui demande son âge, « quarante-cinq », et déclare qu'il n'apprendra jamais l'anglais. Rice s'indigne de la remarque.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00560",
+     "EV-02197"
+    ]
+   },
+   {
+    "titre": "Le porche et la secrétaire pieds nus",
+    "date": "1933-11",
+    "lieu": "porche de Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "la secrétaire du collège"
+    ],
+    "deroule": "Le premier jour, la secrétaire, « une fille très saine et appétissante », accueille les Albers sur le porche, pieds nus dans des sandales. Anni pense : « Peut-être que c'est une vraie histoire ». Elle y lit la réalité de la liberté proclamée.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00564",
+     "EV-02210"
+    ]
+   },
+   {
+    "titre": "La punaise sur la colonne",
+    "date": "1933-11",
+    "lieu": "Robert E. Lee Hall, Black Mountain",
+    "personnages": [
+     "Anni Albers",
+     "Josef Albers"
+    ],
+    "deroule": "Un avis fixé par une punaise sur une colonne. En Allemagne les colonnes sont en marbre, ici elles sont en bois. Les fiches divergent : EV-02197 parle de colonnes doriques, SC-00569 de colonne ionique.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00569",
+     "EV-02197"
+    ]
+   },
+   {
+    "titre": "« Prenons aussi la femme » sur les quais",
+    "date": "1933-11-24",
+    "lieu": "quais de New York",
+    "personnages": [
+     "Anni Albers",
+     "Josef Albers",
+     "Philip Johnson",
+     "photographes de presse"
+    ],
+    "deroule": "Les reporters mitraillent le professeur du Bauhaus. Quelqu'un crie de photographier aussi la femme. Anni y voit de la gentillesse américaine. Sur la photo, elle est digne, en manteau de phoque, pas joyeuse. Johnson attend au débarcadère.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00570",
+     "SC-00568",
+     "EV-02222",
+     "EV-02219"
+    ]
+   },
+   {
+    "titre": "Thanksgiving chez les Dreier à Brooklyn Heights",
+    "date": "1933-11-24",
+    "lieu": "Brooklyn Heights, maison des parents Dreier",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Katherine Dreier",
+     "Marcel Duchamp",
+     "George Grosz",
+     "Philip Johnson",
+     "Edward M. M. Warburg",
+     "Werner Drewes"
+    ],
+    "deroule": "Après la traversée retardée, les Albers dînent chez les Dreier, rencontrent Duchamp et Grosz, visitent l'exposition Brancusi et croisent leurs bienfaiteurs et un ancien du Bauhaus. Le vieux monde de l'art accueille les rescapés du Bauhaus.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00563",
+     "EV-02208",
+     "EV-02222"
+    ]
+   },
+   {
+    "titre": "Le procès-verbal creux du 7 novembre",
+    "date": "1933-11-07",
+    "lieu": "Black Mountain College, réunion de faculté",
+    "personnages": [
+     "Mangold",
+     "la faculté"
+    ],
+    "deroule": "Réunion de faculté. Le procès-verbal dactylographié ne retient que les présents et les décisions. Mangold n'y consigne « rien du tout ». Les décisions du mois ne sont donc connues que par d'autres sources.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02224"
+    ]
+   },
+   {
+    "titre": "Dreier devant le Women's Club",
+    "date": "1933-11-08",
+    "lieu": "Black Mountain (ville), Caroline du Nord",
+    "personnages": [
+     "Ted Dreier",
+     "membres du Women's Club"
+    ],
+    "deroule": "Dreier présente le collège aux notables de la ville et raconte ses débuts. Le discours est dactylographié et souvent cité. C'est la vitrine publique du collège auprès de voisins méfiants.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02225"
+    ]
+   },
+   {
+    "titre": "La ferme votée à l'unanimité",
+    "date": "1933-11",
+    "lieu": "salle de réunion, Lee Hall (Blue Ridge Assembly)",
+    "personnages": [
+     "Norman Weston",
+     "Anne Chapin",
+     "David Bailey",
+     "étudiants et enseignants"
+    ],
+    "deroule": "Trois étudiants proposent une ferme pour économiser et bâtir la communauté. Longue discussion animée, puis vote unanime. Duberman place le vote à la mi-année, Molesworth en novembre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00567",
+     "EV-02216"
+    ]
+   },
+   {
+    "titre": "Premier cours d'Albers au tableau noir",
+    "date": "1933-11",
+    "lieu": "classe d'Albers, Lee Hall",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Emmy Zastrow",
+     "Evarts",
+     "étudiants"
+    ],
+    "deroule": "Albers, interrogé sur ce qu'il enseignera, répond « To make open the eyes ». Il enseigne au tableau noir et par gestes, Anni l'aidant. Les interprètes Zastrow et Evarts se disputent sur le sens de ses paroles. Les étudiants obtiennent leur renvoi. Le cours est organisé comme le Vorkurs du Bauhaus, élargi à la formation de la personne entière.",
+    "certitude": "probable",
+    "refs": [
+     "EC-01018",
+     "EC-01020"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Lee Hall, novembre 1933, à la table de Rice et de Dreier",
+    "vers_date": "1933-04-26",
+    "vers": "La mise en fin de fonctions de Rice à Rollins, notifiée le 26 avril, après la profession de foi et la demande d'enquête de l'AAUP.",
+    "refs": [
+     "EC-01261",
+     "EV-02217",
+     "EV-02220"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Lee Hall, novembre 1933, quand Albers enseigne sans anglais",
+    "vers_date": "1933-04",
+    "vers": "La fermeture du Bauhaus, effective en avril selon une fiche, dissolution votée à l'unanimité le 20 juillet selon une autre. Albers a refusé des conditions et des professeurs nazis.",
+    "refs": [
+     "EC-01015",
+     "EV-02214"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Lee Hall, novembre 1933, à la classe d'Albers",
+    "vers_date": null,
+    "vers": "Le Vorkurs du Bauhaus d'après Itten, purgé de mysticisme, qui est reproduit ici.",
+    "refs": [
+     "EC-01018"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Thanksgiving 1933, Wunsch en visite au collège",
+    "vers_date": "1934-11",
+    "vers": "À Thanksgiving 1934, Wunsch trouve le collège debout, engagé dans un programme positif, Rollins oublié. Il passe de la déception à l'enthousiasme.",
+    "refs": [
+     "SC-00562"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La classe d'Albers, fin novembre 1933",
+    "vers_date": null,
+    "vers": "Trente ans plus tard, Albers juge que la femme avait raison : trop tard pour une nouvelle flexibilité de la bouche. Rice se souvient de la classe d'Albers : « pas un jour sans que mes yeux ne disent Albers ».",
+    "refs": [
+     "EC-01013",
+     "EC-01016"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Rollins et la campagne de Holt, fin 1933",
+    "vers_date": "1933-12",
+    "vers": "Le rapport AAUP, la campagne de Holt et le retrait de Rollins de la liste de l'AAUP en fin d'année. La structure élue de Black Mountain répond aux abus décrits dans ce rapport.",
+    "refs": [
+     "EV-02220",
+     "EC-01262"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre 1933, la gouvernance naissante",
+    "vers_date": null,
+    "vers": "Cramer découvrira plus tard la cruauté de Rice dans le débat intellectuel ; et les souvenirs d'anciens (Weston, Sunley, Moellenhoff avec ses huit tasses de café) confirment un style d'éducation permanente.",
+    "refs": [
+     "EC-01295",
+     "EC-01297",
+     "EC-01298"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le « Marx modifié » : gratuité pour tous sauf Albers, un salaire pour un seul.",
+   "« I want to open eyes » : la phrase d'Albers rejoint le projet d'éducation globale.",
+   "Colonnes en bois déguisées en pierre : l'Amérique n'est pas ce qu'elle paraît.",
+   "« Let's get the wife, too » : la gentillesse américaine en opposition à la culpabilité d'Anni.",
+   "Rollins comme repoussoir : le collège se définit contre ce qu'il vient de fuir.",
+   "Le Bauhaus comme modèle transplanté : Albers enseigne le Vorkurs, Anni tisse sur des métiers fabriqués à la main.",
+   "Le mélange libre sous condition : pas de draps sur le lit pliant.",
+   "L'art comme centre et spectacle : tout l'emploi du temps tourne autour des cours d'art."
+  ],
+  "lacunes": "On ignore le jour exact de l'arrivée des Albers à Black Mountain et le jour du vote sur le salaire d'Albers (novembre ou décembre). La date de la réception à Lee Hall n'est pas fixée. Les fiches divergent sur la date de l'annonce de presse (26 ou 29 novembre), sur l'accueillant des Albers à la gare (Rice ou Ted et Bobby Dreier), sur la forme des colonnes (dorique ou ionique) et sur le vote de la ferme (novembre ou mi-année). Wunsch est désigné par Heinrich Jalowetz dans la fiche SC-00562. On ne sait pas si Rice a été rejoint par le reste des fondateurs à Black Mountain avant décembre. La liste nominative des vingt-deux étudiants n'est pas connue, hormis trois noms. La vie du village et la météo précise manquent. La synthèse annuelle de 1933, sans identifiant, sert de source pour plusieurs points de ce mois (Lounsbury, statuts du 28 octobre, Rollins, admission) : ces points n'ont pas de référence EV ou SC."
+ }
+}

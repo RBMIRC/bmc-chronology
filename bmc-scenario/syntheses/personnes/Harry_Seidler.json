@@ -1,0 +1,98 @@
+{
+ "passe": "personnes",
+ "cle": "Harry Seidler",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 591,
+  "sortie": 2446,
+  "cache_lu": 0,
+  "cache_ecrit": 2875
+ },
+ "donnees": {
+  "nom": "Harry Seidler",
+  "autres_noms": [],
+  "dates_de_vie": "Non précisées dans les fiches. Seul est attesté son passage comme étudiant à l'été 1946.",
+  "statut_bmc": "Étudiant au cours de l'été 1946 (session d'été). Il suit les cours de couleur, de design et de Basic Design de Josef Albers.",
+  "presence": [
+   {
+    "debut": "1946",
+    "fin": "1946",
+    "role": "Étudiant de la session d'été, élève d'Albers (couleur, design, Basic Design)",
+    "refs": [
+     "PE-00277",
+     "EV-03943",
+     "EV-03944"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune donnée dans les fiches : ni apparence, ni âge, ni allure. Le scénariste devra l'inventer sans que les sources le contredisent ni le confirment.",
+  "noyau_psychologique": "Les fiches ne disent rien de ses motivations. Seul indice attesté : une application studieuse, car il prend des notes détaillées et suivies. Déduction prudente, non attestée : un élève méthodique, qui veut comprendre et garder la matière du cours plutôt que se contenter de l'expérience. Tout ce qui va plus loin relève de la fiction.",
+  "blessures": "Non documenté dans les fiches.",
+  "desirs": "Non documenté. On peut seulement déduire, sans preuve, un désir d'apprendre les principes de la perception visuelle et du design auprès d'Albers.",
+  "peurs": "Non documenté.",
+  "maniere_d_aimer": "Non documenté : aucune relation affective ni amicale n'apparaît dans les fiches.",
+  "rapport_au_pouvoir": "Non documenté. Seule relation d'autorité attestée : celle d'élève à maître face à Albers, dont il suit les cours avec assiduité.",
+  "voix": {
+   "registre": "Aucune parole de lui n'est rapportée dans les fiches. Le registre est entièrement à inventer. Seule trace écrite : des notes de cours, donc un écrit d'élève, descriptif et appliqué.",
+   "tics": "Aucun attesté.",
+   "exemples_paraphrases": []
+  },
+  "habitudes": [
+   "Prend des notes de cours détaillées, notamment sur la perception visuelle dans le cours de design de base d'Albers (PE-00277).",
+   "Tient ses notes par écrit sur les cours de couleur, de design et de Basic Design : environ 8 pages pour l'été 1946, peut-être davantage (EV-03943, EV-03944)."
+  ],
+  "convictions": [
+   "Aucune conviction explicite n'est attestée. Déduction très fragile : accorder de la valeur à l'enseignement d'Albers sur la perception et la couleur, puisqu'il le consigne soigneusement."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1946",
+    "moment": "Été 1946 : il suit les cours d'Albers sur la couleur, le design et le design de base, et en prend des notes détaillées. Elles sont aujourd'hui conservées à l'Albers Foundation.",
+    "etat_interieur": "Non documenté. On peut déduire de la minutie des notes une attention soutenue, voire un engagement intellectuel, sans en connaître la nature ni l'intensité.",
+    "refs": [
+     "PE-00277",
+     "EV-03943",
+     "EV-03944"
+    ]
+   }
+  ],
+  "avant": [],
+  "apres": [],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Élève de son enseignement (couleur, design, Basic Design) pendant l'été 1946.",
+    "evolution": "Aucune évolution documentée : seule la relation pédagogique ponctuelle de l'été 1946 est attestée, à travers les notes de cours.",
+    "refs": [
+     "PE-00277",
+     "EV-03943",
+     "EV-03944"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Écart mineur sur le volume des notes : EV-03943 et PE-00277 parlent de 8 pages pour l'été 1946, EV-03944 de « 8 pages et plus ».",
+   "Les références diffèrent : Horowitz & Danilowitz 2009 (pp. 135 et 279) pour la fiche agrégée, Díaz 2014 (p. 164) pour les deux événements. Elles concordent sur l'essentiel (été 1946, notes détaillées d'après les cours d'Albers).",
+   "Le lieu de conservation des notes (Albers Foundation) n'est donné que par EV-03944."
+  ],
+  "situations_revelatrices": [
+   "Une salle de cours d'Albers où il écrit sans relâche pendant une démonstration sur la couleur ou la perception visuelle.",
+   "Un moment où il relit ou recopie ses notes, pour montrer comment il apprend.",
+   "Un face-à-face avec Albers où l'on voit ce qu'il a retenu ou compris de ses exercices."
+  ],
+  "citations": [
+   "PE-00277",
+   "EV-03943",
+   "EV-03944"
+  ],
+  "questions_ouvertes": [
+   "Quelles sont ses dates de naissance et de mort, son origine, sa formation avant le collège ? Les fiches sont muettes : matière à flash-back à chercher ailleurs.",
+   "Pourquoi est-il venu à Black Mountain en 1946 et comment l'a-t-il connu ?",
+   "Combien de temps est-il resté : l'été 1946 seul ou davantage ?",
+   "Qui a-t-il fréquenté au collège en dehors d'Albers ?",
+   "Que devient-il après 1946 ? Aucun élément pour le flash-forward : à chercher dans des sources biographiques.",
+   "Comment parlait-il, quel était son caractère ? Aucun témoignage dans les fiches.",
+   "Que contiennent précisément les notes (contenu, forme, croquis éventuels) conservées à l'Albers Foundation ?"
+  ]
+ }
+}

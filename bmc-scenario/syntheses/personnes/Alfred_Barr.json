@@ -1,0 +1,278 @@
+{
+ "passe": "personnes",
+ "cle": "Alfred Barr",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 4654,
+  "sortie": 8367,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Alfred Barr",
+  "autres_noms": [
+   "Alfred H. Barr",
+   "Alfred H. Barr Jr",
+   "Barr"
+  ],
+  "dates_de_vie": "Non données par les fiches. Il est connu comme critique d'art et savant, futur directeur du MoMA dès la fin des années 1920, et directeur du MoMA en 1950.",
+  "statut_bmc": "Figure extérieure et jamais attestée sur place. Barr n'est pas résident ni enseignant à Black Mountain. Il agit à distance comme relais institutionnel et juge de réputation depuis New York : destinataire des lettres de Warburg et de Johnson en 1933, puis sélectionneur et exposant des artistes passés par le collège (Albers cité mais non exposé, Bayer, de Kooning). Pour un scénario, c'est un personnage hors-champ ou de scènes new-yorkaises, dont l'ombre pèse sur Black Mountain.",
+  "presence": [],
+  "portrait_physique": "Aucune description physique dans les fiches. Il faudra l'inventer ou la chercher ailleurs. Les fiches le montrent surtout par ses lettres, ses expositions et ses refus.",
+  "noyau_psychologique": "Attesté : un esprit d'institution, sensible aux avant-gardes européennes, qui voyage tôt (Bauhaus de Dessau, fin des années 1920) et correspond en allemand avec Albers dès 1929. Il est favorable au projet Albers en 1933 (EV-02175). Il fait le tri pour le musée : il cite l'enseignement d'Albers sans l'exposer (1936) et refuse Monogram de Rauschenberg (1959). Déduit, avec prudence : un homme de canon et de cohérence d'histoire de l'art, plus à l'aise avec ce qui est déjà reconnu, diffusé et classable qu'avec le travail encore en formation. C'est le reproche d'Albers, qui est une partie intéressée. En 1936, Barr est à la fois sensible à l'idée d'Albers (le Bauhaus enseigné) et réticent à l'inscrire dans le récit officiel.",
+  "blessures": "Les sources ne disent rien de ses blessures. Rien ne permet d'en inventer sans le signaler. Le seul retour affectif attesté va dans l'autre sens : c'est Albers qui est blessé par lui (RE-00998, EV-02617).",
+  "desirs": "Déduit : construire au MoMA un récit cohérent de l'art moderne, avec le Bauhaus et l'abstraction comme jalons. Attesté : il invite Bayer pour l'exposition Bauhaus 1919–1928 (1938-1939), organise Cubism and Abstract Art (1936) et choisit des artistes pour Venise (1950). Il est favorable à l'arrivée d'Albers en Amérique (1933).",
+  "peurs": "Non attestées. Hypothèse de travail à marquer comme telle : craindre de compromettre le musée ou son récit en acceptant des œuvres ou des noms insuffisamment établis. Elle découle de ses refus (Albers non exposé, Monogram décliné) mais les sources n'en donnent pas le mobile.",
+  "maniere_d_aimer": "Non documentée comme intimité. Sa manière d'admirer passe par l'écrit et par l'achat, l'exposition ou le soutien discret : lettre longue en allemand à Albers en 1929, appui quatre ans plus tard, sélection de de Kooning. L'estime est réelle mais ne garantit pas l'exposition, comme le montre le cas d'Albers.",
+  "rapport_au_pouvoir": "Il exerce un pouvoir de légitimation : directeur du MoMA, il décide de ce qui entre ou non dans le récit officiel. Il est aussi un point d'appui pour les autres : Warburg lui écrit pour savoir s'il faut aller voir Mrs Rockefeller (EV-02160, EV-02146), et le MoMA est le débouché de la chaîne Ethel Dreier → Ted Dreier. Les riches mécènes et les amis de New York passent par lui ou par ses cercles. Il garde la main sur les entrées au musée : il décline Monogram quand Scull propose de l'acheter pour le MoMA.",
+  "voix": {
+   "registre": "Aucune parole directe de Barr dans les fiches. À partir des seuls indices : registre de lettré et d'institution, passant d'une langue à l'autre (longue lettre en allemand en 1929), mesuré et plutôt écrit qu'oral. À confirmer par d'autres sources avant d'écrire ses dialogues.",
+   "tics": "Aucun tic attesté. On peut seulement souligner qu'on lui prête, par la bouche d'Albers, une propension à se fier aux œuvres déjà beaucoup reproduites.",
+   "exemples_paraphrases": [
+    "Albers à Kandinsky, en 1936 : le pauvre Barr ne croit qu'aux œuvres que l'on reproduit le plus souvent (parole d'Albers sur Barr, non de Barr).",
+    "Warburg à Barr, en 1933 : voici l'occasion d'un Bauhaus américain, le noyau en serait Albers (parole de Warburg adressée à Barr).",
+    "Barr, selon une version de 1950 : il choisit Pollock et de Kooning, avec quatre autres artistes, pour de petites expositions individuelles au pavillon américain de Venise (rapport de Hall, non une parole)."
+   ]
+  },
+  "habitudes": [
+   "Il voyage et visite les écoles d'avant-garde : Dessau, fin des années 1920 (PE-00287, EV-01592).",
+   "Il entretient une correspondance avec les artistes, y compris dans leur langue (lettre en allemand à Albers en 1929).",
+   "Il est consulté par le cercle des mécènes et des jeunes riches new-yorkais (Warburg, Johnson) sur les affaires de soutien à l'art moderne.",
+   "Il cite dans un catalogue ce qu'il n'accroche pas : note de bas de page sur l'enseignement d'Albers dans Cubism and Abstract Art."
+  ],
+  "convictions": [
+   "Déduit : l'art moderne mérite un musée et une histoire écrite, avec le Bauhaus comme point fort (1938-1939).",
+   "Déduit : la reconnaissance passe par ce qui est déjà établi et reproduit, selon la critique d'Albers. À prendre comme un point de vue contesté.",
+   "Attesté : il est favorable à ce qu'Albers vienne enseigner en Amérique (EV-02175)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933-08",
+    "moment": "Warburg écrit à Barr sur le projet Black Mountain, sur l'immigration d'Albers et sur l'opportunité de solliciter Mrs Rockefeller. Il parle d'un « Bauhaus américain ».",
+    "etat_interieur": "Déduit : intéressé et sollicité comme arbitre ou relais. Barr est consulté parce qu'on pense qu'il pèse, et il est favorable. Les sources ne donnent pas sa réponse.",
+    "refs": [
+     "EV-02160",
+     "EV-02140",
+     "EV-02146"
+    ]
+   },
+   {
+    "date": "1933-09",
+    "moment": "Johnson écrit à Barr en faveur d'Albers (500 $ de Mrs R. déjà obtenus) ; Barr, qui connaît Albers depuis Dessau, est favorable.",
+    "etat_interieur": "Attesté : favorable. Déduit : il reconnaît en Albers un interlocuteur de longue date et un bon candidat, sans s'engager lui-même.",
+    "refs": [
+     "EV-02175"
+    ]
+   },
+   {
+    "date": "1936",
+    "moment": "Cubism and Abstract Art au MoMA : Barr cite l'enseignement d'Albers en note de catalogue mais ne l'expose pas.",
+    "etat_interieur": "Attesté : intérêt pour l'enseignement, absence de l'œuvre dans l'exposition. Le motif n'est pas donné par Barr. Albers y voit une vision étroite et le dit à Kandinsky en novembre 1936.",
+    "refs": [
+     "PE-00287",
+     "RE-00998",
+     "EV-02617",
+     "EV-02618"
+    ]
+   },
+   {
+    "date": "1938",
+    "moment": "Barr invite Herbert Bayer, qui conçoit l'exposition Bauhaus 1919–1928 (décembre 1938–janvier 1939) au MoMA.",
+    "etat_interieur": "Déduit : le Bauhaus est désormais défendu par le musée, mais par Bayer plutôt que par Albers, ce qui prolonge la tension de 1936.",
+    "refs": [
+     "EV-02827"
+    ]
+   },
+   {
+    "date": "1948",
+    "moment": "Écho : l'été où de Kooning enseigne à BMC, le MoMA achète son premier tableau (octobre 1948) et Barr le sélectionne ensuite pour Venise. La fiche ne date pas la sélection avec précision.",
+    "etat_interieur": "Déduit : Barr devient celui qui consacre des artistes passés par le collège, alors que le collège n'a pas été l'objet de sa première attention.",
+    "refs": [
+     "EC-00166"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Barr sélectionne de Kooning pour la 25e Biennale de Venise (sa première exposition à l'étranger). Selon Hall, il choisit aussi Pollock et quatre autres artistes.",
+    "etat_interieur": "Attesté : il choisit, avec autorité. Déduit : il a désormais un regard tourné vers la nouvelle peinture américaine.",
+    "refs": [
+     "EV-05168",
+     "EV-05183",
+     "EV-04916"
+    ]
+   },
+   {
+    "date": "1959",
+    "moment": "Robert Scull propose d'acheter Monogram de Rauschenberg pour le donner au MoMA ; Barr décline.",
+    "etat_interieur": "Attesté : refus. Motif non donné. Déduit : même frontière du recevable que pour Albers, mais appliquée à une œuvre plus radicale. À manier avec prudence tant que le rôle exact de Barr au MoMA en 1959 n'est pas établi.",
+    "refs": [
+     "EV-07164"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1929",
+    "moment": "Barr rencontre Albers au Bauhaus de Dessau et lui écrit peu après une longue lettre en allemand (quatre ans avant 1933).",
+    "refs": [
+     "EV-02175",
+     "PE-00287"
+    ]
+   },
+   {
+    "date": "1920-1929",
+    "moment": "Fin des années 1920 : Barr visite le Bauhaus de Dessau, comme Johnson et Warburg, et en rapporte des comptes rendus élogieux. Il est alors critique d'art et savant, futur directeur du MoMA.",
+    "refs": [
+     "EV-01592",
+     "PE-00287"
+    ]
+   },
+   {
+    "date": "1931",
+    "moment": "Première exposition Bauhaus aux États-Unis, à la Harvard Society for Contemporary Art (cofondée en 1928 par Warburg, Kirstein, Walker). C'est le contexte qui prépare l'accueil américain des Bauhäusler. Barr y figure parmi les Américains sophistiqués ayant visité Dessau, sans que la fiche détaille son rôle dans l'exposition.",
+    "refs": [
+     "EV-01592"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1936",
+    "moment": "Cubism and Abstract Art au MoMA, avec la note sur Albers.",
+    "refs": [
+     "PE-00287",
+     "RE-00998"
+    ]
+   },
+   {
+    "date": "1938-12",
+    "moment": "Exposition Bauhaus 1919–1928 au MoMA, conçue par Bayer, invité par Barr (décembre 1938–janvier 1939).",
+    "refs": [
+     "EV-02827"
+    ]
+   },
+   {
+    "date": "1948-10",
+    "moment": "Le MoMA achète le premier tableau de de Kooning. Écho situé à l'été de son enseignement à BMC.",
+    "refs": [
+     "EC-00166"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Barr choisit de Kooning (et selon une version, Pollock et quatre autres) pour la Biennale de Venise. À l'automne, Albers invite de Kooning à Yale, hors BMC.",
+    "refs": [
+     "EV-05168",
+     "EV-05183",
+     "EV-04916"
+    ]
+   },
+   {
+    "date": "1959",
+    "moment": "Barr décline Monogram de Rauschenberg proposé par Scull ; l'œuvre sera achetée en décembre 1964 par le Moderna Museet de Stockholm.",
+    "refs": [
+     "EV-07164"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Connaissance de longue date, estime intellectuelle et conflit de reconnaissance.",
+    "evolution": "Rencontre à Dessau, lettre de 1929, soutien favorable en 1933, puis frustration d'Albers en 1936 : l'enseignement est cité, l'œuvre n'est pas exposée. C'est la version d'Albers (lettre à Kandinsky) ; celle de Barr n'est pas connue.",
+    "refs": [
+     "RE-00998",
+     "EV-02617",
+     "EV-02618",
+     "EV-02175",
+     "PE-00287"
+    ]
+   },
+   {
+    "avec": "Edward (Eddie) Warburg",
+    "nature": "Correspondant et jeune mécène new-yorkais qui le consulte.",
+    "evolution": "Warburg lui écrit en août 1933 sur le projet Black Mountain et l'immigration d'Albers, et lui demande s'il faut aller voir Mrs Rockefeller. Il le tient informé du financement.",
+    "refs": [
+     "EV-02160",
+     "EV-02140",
+     "EV-02146"
+    ]
+   },
+   {
+    "avec": "Philip Johnson",
+    "nature": "Pair du milieu des avant-gardes new-yorkaises.",
+    "evolution": "Johnson lui écrit en septembre 1933 pour défendre Albers tout en refusant toute responsabilité personnelle.",
+    "refs": [
+     "EV-02175",
+     "EV-01592"
+    ]
+   },
+   {
+    "avec": "Herbert Bayer",
+    "nature": "Invité du MoMA pour la grande exposition Bauhaus.",
+    "evolution": "Bayer immigre en 1938 sur invitation de Barr et installe l'exposition Bauhaus 1919–1928.",
+    "refs": [
+     "EV-02827"
+    ]
+   },
+   {
+    "avec": "Willem de Kooning",
+    "nature": "Artiste sélectionné pour Venise ; ses liens avec BMC passent par l'été 1948.",
+    "evolution": "Le MoMA achète son premier tableau en octobre 1948 ; Barr le sélectionne pour Venise en 1950.",
+    "refs": [
+     "EC-00166",
+     "EV-05168",
+     "EV-05183"
+    ]
+   },
+   {
+    "avec": "Robert Rauschenberg (via Robert Scull)",
+    "nature": "Rapport indirect : refus d'une proposition d'achat.",
+    "evolution": "Scull propose Monogram pour le MoMA ; Barr décline en 1959.",
+    "refs": [
+     "EV-07164"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Barr et Albers : les fiches disent à la fois qu'il s'intéressait vivement à l'enseignement d'Albers (cité au catalogue) et qu'il ne l'a pas exposé. Le motif (vision étroite) n'est donné que par Albers, partie prenante.",
+   "Venise 1950 : une version (Hall) fait choisir par Barr Pollock et de Kooning avec quatre autres artistes ; une autre (Hess) met l'accent sur de Kooning qui termine Excavation à temps, sans mention de Barr ; les fiches EV-05168 et EV-05183 attribuent la sélection de de Kooning à Barr.",
+   "Date de l'écho EC-00166 : l'ancrage ('≈1904-04-24→1954') est incohérent. Il mêle apparemment des dates de de Kooning ; la sélection pour Venise est ailleurs datée de 1950, et l'achat par le MoMA d'octobre 1948. À manier avec prudence.",
+   "Financement d'Albers (1933) : Johnson dit qu'Albers paierait son voyage si nécessaire, Warburg obtient 500 $ de Mrs Rockefeller, égalés par 500 $ de Warburg et 500 $ de don au collège. Ce n'est pas une contradiction mais des fiches complémentaires à ne pas confondre."
+  ],
+  "situations_revelatrices": [
+   "Une lettre de mécène (Warburg, Johnson) qui lui demande son aval pour une affaire de réfugiés ou de professeurs : Barr comme arbitre silencieux.",
+   "Une visite d'exposition ou la préparation du catalogue, où Albers découvre la note de bas de page qui le cite sans l'exposer.",
+   "Un face-à-face entre Barr et un artiste du collège (Albers, de Kooning, Rauschenberg) au moment d'un choix : accrocher, acheter, ou décliner.",
+   "Un dîner ou un bureau du MoMA où Scull propose de donner une œuvre et où Barr dit non (1959).",
+   "Flash-back : Dessau, fin des années 1920, Barr visiteur étranger, curieux et mesuré, face à Albers et au Bauhaus, avant la lettre en allemand de 1929."
+  ],
+  "citations": [
+   "PE-00287",
+   "RE-00998",
+   "EV-01592",
+   "EV-02140",
+   "EV-02146",
+   "EV-02160",
+   "EV-02175",
+   "EV-02617",
+   "EV-02618",
+   "EV-02827",
+   "EV-04916",
+   "EV-05168",
+   "EV-05183",
+   "EV-07164",
+   "EC-00166"
+  ],
+  "questions_ouvertes": [
+   "Dates de vie, famille, formation et caractère de Barr : rien dans les fiches.",
+   "Que contenait la lettre en allemand à Albers en 1929, et quelle fut la réponse de Barr à la lettre de Warburg du 31 août 1933 ? Les fiches disent seulement qu'il était favorable.",
+   "Barr est-il jamais venu à Black Mountain ? Aucune fiche ne l'atteste.",
+   "Pourquoi Barr n'a-t-il pas exposé Albers en 1936 ? Seule la version d'Albers est connue.",
+   "Quel fut le rôle exact de Barr dans l'exposition Bauhaus 1938-1939, au-delà de l'invitation de Bayer ?",
+   "Quel rôle précis avait Barr au MoMA en 1959 lors du refus de Monogram, et pour quelles raisons a-t-il décliné ?",
+   "Qui a choisi quoi pour Venise 1950 (Barr seul, comité, autres artistes) et selon quels critères ?",
+   "Quelle fut la réaction de Barr à la nouvelle peinture américaine passée par BMC (de Kooning, Rauschenberg) en dehors des décisions rapportées ?"
+  ]
+ }
+}

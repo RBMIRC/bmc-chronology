@@ -1,0 +1,271 @@
+{
+ "passe": "mois",
+ "cle": "1952-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6515,
+  "sortie": 13974,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1952-05",
+  "session": "Printemps 1952, avant la session d'été. Aucune fiche ne nomme la session ni la fin de trimestre ; c'est une déduction.",
+  "saison_et_climat": "Printemps 1952. Les fiches ne donnent pas de météo pour mai. Les repères du lieu sont la neige de janvier, le lac Eden et la ferme.",
+  "situation": "Olson dirige le collège de fait depuis 1951 et doit tenir face à un déclin matériel : Forbes a cessé ses dons après plus de 20 000 $, et la faculté se divise entre conservateurs et novateurs. En mai, il embauche des potiers : le conseil de Wildenhain aboutit à un poste officiel pour David Weinrib, et le collège obtient aussi Karen Karnes. Anni Albers travaille à New Haven sur son essai sur les étoffes péruviennes, loin du campus. David Tudor a créé Water Music à New York avant de revenir à Black Mountain. Le collège attend les arrivées de juin (Rumaker, Tworkov, Kline, Wolpe) et prépare l'été, qui réunira environ 70 personnes.",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cage",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rauschenberg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Twombly",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-05-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson remercie Wildenhain de son conseil sur les potiers d'Alfred. La recommandation visait Karnes, mais le poste officiel va à Weinrib, sur suggestion de Harder ; le collège obtient les deux, mais Weinrib touche le salaire pendant les deux années alors que Karnes est l'instructrice nommée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05819"
+    ]
+   },
+   {
+    "date": "1952-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Anni Albers date et signe à New Haven son étude sur les larges étoffes péruviennes, qui propose des couches repliées en accordéon sur des métiers étroits. L'essai paraîtra dans On Designing en 1961.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05817",
+     "SC-01545"
+    ]
+   },
+   {
+    "date": "1952-05",
+    "precision": "mois",
+    "ce_qui_arrive": "David Tudor crée Water Music à la New School de New York avant de retourner à Black Mountain. C'est probablement l'œuvre qu'il jouera pendant Theater Piece No. 1 en août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05818"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "saison",
+    "ce_qui_arrive": "Le Graphics Workshop imprime le broadside de Duncan, dont la couverture est attribuée à Twombly. La saison d'impression n'est pas précisée ; le printemps est probable.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-05739"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "periode",
+    "ce_qui_arrive": "Entre février et juin, la faculté débat du sort de Sprague et Adams, deux conservateurs.",
+    "certitude": "atteste",
+    "refs": [
+     "RE-02244",
+     "RE-02245"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "periode",
+    "ce_qui_arrive": "Walker Evans décline l'invitation de Hazel Larsen Archer à enseigner la photographie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05814"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "periode",
+    "ce_qui_arrive": "Olson, Leach et Wildenhain échangent sur l'artisanat et l'éducation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05812"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches disent peu de la vie ordinaire de mai : ni repas, ni cours, ni travaux de ferme. On sait que l'atelier de céramique et l'imprimerie du Graphics Workshop travaillent, que la correspondance d'Olson occupe beaucoup de place, et que le campus se prépare à l'afflux d'été.",
+  "tensions": [
+   "Olson contre une partie de la faculté conservatrice, à propos de Sprague et Adams.",
+   "Écart salarial entre Karnes et Weinrib, qui révèle une discrimination.",
+   "Olson sauve Rauschenberg tout en le rejetant après la crise de janvier.",
+   "Le financement se réduit depuis la fin des dons de Forbes.",
+   "La rupture entre Albers et Cage autour du hasard se prépare, mais sa date n'est pas fixée."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le calcul des couches, seule à New Haven",
+    "date": "1952-05",
+    "lieu": "New Haven, Connecticut",
+    "personnages": [
+     "Anni Albers",
+     "Junius Bird (objections citées)"
+    ],
+    "deroule": "Albers, seule avec ses diagrammes et ses échantillons, reprend point par point les objections de Bird et de O'Neale sur le nombre de fils et de couches. Elle propose de tisser par les deux bouts vers le milieu et de poser les dernières trames à l'aiguille.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01545",
+     "EV-05817"
+    ]
+   },
+   {
+    "titre": "Le conseil de Wildenhain et l'embauche des potiers",
+    "date": "1952-05-24",
+    "lieu": null,
+    "personnages": [
+     "Olson",
+     "Wildenhain",
+     "Karen Karnes",
+     "David Weinrib"
+    ],
+    "deroule": "Olson remercie Wildenhain. La lettre expose l'arbitrage entre les deux potiers : Karnes est la cible de la recommandation, mais Weinrib reçoit le poste officiel, et le collège garde les deux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05819"
+    ]
+   },
+   {
+    "titre": "Water Music à la New School",
+    "date": "1952-05",
+    "lieu": "New School for Social Research, New York",
+    "personnages": [
+     "David Tudor"
+    ],
+    "deroule": "Tudor crée Water Music : une partition hybride où un sifflet à vapeur côtoie l'instruction de verser l'eau d'un récipient dans un autre, écrite en majuscules calligraphiées.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05818"
+    ]
+   },
+   {
+    "titre": "Le broadside de Duncan au Graphics Workshop",
+    "date": "1952",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Robert Duncan",
+     "Twombly (couverture attribuée)"
+    ],
+    "deroule": "Le Graphics Workshop imprime le broadside de Duncan. La couverture est attribuée à Twombly, qui se trouve alors au collège avec Rauschenberg.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-05739"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Olson, au printemps, qui doit encore gérer les suites de la crise de janvier",
+    "vers_date": "1952-01-28",
+    "vers": "La nuit de la neige : Rauschenberg, pieds nus, entre dans le lac Eden, Twombly le suit jusqu'à mi-corps, Olson le couvre et le porte jusqu'à la cuisine. La presse parle de tentative de suicide ou de cri d'attention. Olson écrit à Creeley le lendemain.",
+    "refs": [
+     "EV-05800",
+     "SC-01542",
+     "RE-02465"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers, pendant qu'elle rédige son étude",
+    "vers_date": "1952-03-11",
+    "vers": "La conversation du 11 mars avec Junius Bird, puis la visite d'Isabel Guernsey le 14 mars, qui ont nourri l'argument de l'essai.",
+    "refs": [
+     "EV-05817"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Tudor, qui a étudié Boulez entre 1948 et 1952",
+    "vers_date": "1938",
+    "vers": "La publication du Théâtre et son Double en France, dont la lecture irrigue la pensée de Cage sur le vide et le hasard.",
+    "refs": [
+     "EC-02847"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin, quand Rumaker arrive sur un campus vide",
+    "vers_date": "1952-06",
+    "vers": "Rumaker rencontre Connie Olson, puis Olson le soir ; Olson jette ses poèmes mais lit sa nouvelle avec intérêt et l'encourage à postuler.",
+    "refs": [
+     "EV-05821",
+     "EV-05822",
+     "EV-05823",
+     "EV-05824",
+     "EV-05652"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Tudor, de retour de New York",
+    "vers_date": "1952-08",
+    "vers": "Un soir d'août, Cage et Tudor organisent dans le réfectoire Theater Piece No. 1 : quatre triangles de chaises, lectures, peintures, piano, danse poursuivie par un chien, café dans des tasses faisant office de cendriers. Wolpe part furieux.",
+    "refs": [
+     "EV-05630",
+     "EV-05843",
+     "EV-05844",
+     "EV-05631",
+     "EV-05632"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La lettre d'Olson à Wildenhain",
+    "vers_date": "1952-10",
+    "vers": "Le Pottery Seminar réunit Hamada, Leach, Yanagi et Wildenhain. Wildenhain refuse ensuite l'offre d'Olson.",
+    "refs": [
+     "EV-05740"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Karnes et Weinrib, recrutés en mai",
+    "vers_date": "1952-11",
+    "vers": "À Thanksgiving, des os de dinde sont empilés dans les plats de Karnes, signe de l'hostilité d'une partie de la communauté envers les potiers installés dans l'atelier de Turner.",
+    "refs": [
+     "EV-05622"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'autorité d'Olson, de plus en plus contestée",
+    "vers_date": "1952-12",
+    "vers": "Le Community Council démissionne : « We therefore resign ».",
+    "refs": [
+     "EV-05643"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les séries Variant d'Albers, commencées dans ces années-là",
+    "vers_date": "1958",
+    "vers": "Homage to the Square, après Black Mountain, prolonge le travail que la planche du collège annonçait.",
+    "refs": [
+     "EC-02851"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le recrutement comme transaction fragile, entre salaires inégaux et postes officiels",
+   "Le lac Eden et la neige de janvier comme point de bascule de l'année",
+   "Olson au centre de toutes les décisions et de toutes les lettres",
+   "Les départs annoncés et les arrivées de juin",
+   "Le hasard comme ligne de fracture entre Cage et Albers"
+  ],
+  "lacunes": "Aucune fiche ne décrit la vie quotidienne de mai (repas, cours, ferme). La présence réelle d'Olson, Cage, Rauschenberg et Twombly en mai n'est pas attestée. La date exacte d'impression du broadside et celle du refus de Walker Evans restent inconnues. La rupture Albers-Cage n'est pas datée. Les sources ne s'accordent pas sur la prise de contact avec Rumaker : EC-02852 la place au printemps, la synthèse à la visite de début juin. La session en cours n'est nommée nulle part."
+ }
+}

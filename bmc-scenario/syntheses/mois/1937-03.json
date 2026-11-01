@@ -1,0 +1,297 @@
+{
+ "passe": "mois",
+ "cle": "1937-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5088,
+  "sortie": 11495,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-03",
+  "session": "Trimestre d'hiver-printemps, en cours, après les vacances de Noël",
+  "saison_et_climat": "Fin d'hiver, vers le printemps. Les fiches ne décrivent pas le climat du mois ; cette indication est une simple déduction saisonnière.",
+  "situation": "Le collège sort d'une série de réunions houleuses. La pétition de Zeuch au Board of Fellows, qui demandait la révision des non-reconductions de Knickerbocker et Goldenson, a été rejetée, et l'on n'a lâché à Goldenson que l'autorisation de démissionner. Le conflit a glissé vers la gouvernance : Rice a dit aux visiteurs (16 février) que le collège n'est pas une communauté idéale mais un lieu où l'on vient faire ce qu'on a à faire, puis partir. La réunion du 17 février a montré que les deux camps ne peuvent plus s'accorder et tiennent la séparation pour seule issue. Rice prépare sa riposte publique à Hutchins pour le printemps. Hors campus, Anni est à New York, où elle assiste à un cocktail, rencontre des personnalités de l'architecture et du musée, et accueille les Gropius à leur arrivée. Elle écrit à Ted Dreier le 18 mars.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Zeuch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alsberg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Coleman",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Harrington",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Goldenson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "King",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Georgia",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Knickerbocker",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Pétition de Zeuch au Board of Fellows pour réviser les non-reconductions de Knickerbocker et Goldenson, après Noël. Rejet ; Goldenson obtient seulement l'autorisation de démissionner.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02694"
+    ]
+   },
+   {
+    "date": "1937-02-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Rice dit à des étudiants visiteurs que le collège n'est pas une communauté idéale mais un lieu où l'on vient faire ce qu'on a à faire, puis partir.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02704"
+    ]
+   },
+   {
+    "date": "1937-02-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion communautaire de 36 pages sténographiées. Harrington, Alsberg et Coleman défendent la démocratie organique avec un Board élu par la communauté. Rice répond que seule la persuasion est légitime et qu'il décide lui-même qui est intelligent. Les deux camps concluent que la séparation est la seule issue. Les enseignants dissidents parlent peu, Knickerbocker pas du tout.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02705",
+     "SC-00700",
+     "CF-00264"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Rice publie dans Harper's « Fundamentalism and the Higher Learning », réponse à Hutchins : l'éducation est une manière de faire, et « savoir ne suffit pas ». Le mois exact n'est pas donné.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02666",
+     "EV-02668",
+     "OE-01340"
+    ]
+   },
+   {
+    "date": "1937-03-18",
+    "precision": "jour",
+    "ce_qui_arrive": "Anni écrit en allemand à Ted Dreier depuis New York : Black Mountain est son refuge face à Manhattan, comme Weimar l'était face à Berlin. Elle se dit confuse de ne pouvoir être « communiste et nazi à la fois ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02707",
+     "EV-02708"
+    ]
+   },
+   {
+    "date": "1937-03-18",
+    "precision": "jour",
+    "ce_qui_arrive": "Cocktail chez l'architecte William Lescaze : Anni reste debout une heure et demie, s'estime maladroite. Rencontre Hudnut (Harvard), Kocher (Architectural Record) et Youtz (Brooklyn Museum).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02707",
+     "SC-00701"
+    ]
+   },
+   {
+    "date": "1937-03-18",
+    "precision": "jour",
+    "ce_qui_arrive": "À l'aube, Anni accueille à quai le bateau de Walter et Ise Gropius, venus faire de l'Amérique leur nouvelle patrie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02707",
+     "SC-00702"
+    ]
+   },
+   {
+    "date": "1937-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Youtz, directeur du Brooklyn Museum, invite Anni le lendemain de sa lettre, pour un projet de départements de textile et d'arts industriels.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02707"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent presque rien de la vie ordinaire de mars : pas de détail sur les repas, les cours, la musique ni les travaux. On sait que la communauté se réunit beaucoup et longuement en assemblée, que Rice reçoit des étudiants visiteurs, et que Josef Albers atteint ses 49 ans dans les jours qui suivent la lettre d'Anni, donc vers le 19 mars. Anni est absente, à New York.",
+  "tensions": [
+   "Rice contre les dissidents : persuasion contre « démocratie organique » et Board élu. Rice refuse la démocratie de comptage et se réserve le droit de juger qui est intelligent.",
+   "Rupture déjà consommée sur le principe : les deux camps ne croient plus à un ajustement possible, seule la séparation est envisagée.",
+   "Rice contre Hutchins : le débat public sur la philosophie du collège est engagé, et sa riposte est imminente.",
+   "Les enseignants dissidents (Zeuch, Goldenson, King, Georgia) restent silencieux en assemblée ; Knickerbocker ne parle pas du tout, ce qui pèse sur la suite.",
+   "Rejet de la pétition de Zeuch : la confiance envers le Board est entamée.",
+   "Anni, à New York, se sent étrangère au milieu moderniste et ne cache pas son malaise social."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Réunion communautaire du 17 février",
+    "date": "1937-02-17",
+    "lieu": null,
+    "personnages": [
+     "Harrington",
+     "Alsberg",
+     "Coleman",
+     "Rice"
+    ],
+    "deroule": "Les étudiants dissidents défendent une démocratie organique, avec un Board élu par toute la communauté. Rice répond que seule la persuasion est légitime et refuse la démocratie de comptage de nez. La discussion tourne à la séparation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02705",
+     "SC-00700",
+     "CF-00264"
+    ]
+   },
+   {
+    "titre": "Rice devant des étudiants visiteurs",
+    "date": "1937-02-16",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "étudiants visiteurs"
+    ],
+    "deroule": "Rice décrit le collège comme un lieu de travail où l'on vient et d'où l'on repart, et non une communauté idéale. Il dit cela sans fard, en pleine crise.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02704"
+    ]
+   },
+   {
+    "titre": "Cocktail chez Lescaze",
+    "date": "1937-03-18",
+    "lieu": "maison William Lescaze, New York",
+    "personnages": [
+     "Anni Albers",
+     "Joseph Hudnut",
+     "Lawrence Kocher",
+     "Philip Youtz",
+     "Mrs Swan"
+    ],
+    "deroule": "Anni reste debout une heure et demie au milieu du blanc et du verre incurvé, probablement un verre d'eau à la main. Elle parle avec Hudnut, Kocher et Youtz. Une Mrs Swan inconnue se montre froide, et Anni y voit un malaise qu'elle ne comprend pas.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00701",
+     "EV-02707"
+    ]
+   },
+   {
+    "titre": "Le bateau des Gropius à l'aube",
+    "date": "1937-03-18",
+    "lieu": "quais de New York",
+    "personnages": [
+     "Anni Albers",
+     "Walter Gropius",
+     "Ise Gropius"
+    ],
+    "deroule": "Anni se lève avant 6 h pour accueillir Walter et Ise, qui viennent faire de l'Amérique leur nouvelle patrie. Celle que Gropius a décidée à 22 ans lui souhaite la bienvenue. Aucun détail de leurs échanges n'est donné.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00702",
+     "EV-02707"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Anni, dans sa lettre du 18 mars, en pleine confusion new-yorkaise",
+    "vers_date": null,
+    "vers": "Weimar, le refuge qui l'a protégée de Berlin ; la comparaison avec Black Mountain fonde son attachement au collège.",
+    "refs": [
+     "EV-02707"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Anni accueillant le bateau des Gropius à l'aube",
+    "vers_date": null,
+    "vers": "Le moment où, à 22 ans, quelques paragraphes de Gropius sur le Bauhaus ont changé sa vie.",
+    "refs": [
+     "SC-00702",
+     "EV-02707"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les dissidents après le rejet de la pétition de Zeuch, au retour des vacances de Noël",
+    "vers_date": null,
+    "vers": "La tentative de réviser par le Board les non-reconductions de Knickerbocker et Goldenson, et l'échec qui a poussé les dissidents vers la gouvernance.",
+    "refs": [
+     "EV-02694"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mi-mars, alors que la lettre d'Anni reste sans suite",
+    "vers_date": "1937-04",
+    "vers": "L'affaire de Floride : le collège est jugé sur sa réputation morale de « centre du libre amour ». Elle se solde par un accord interdisant les vacances en groupes mixtes.",
+    "refs": [
+     "EV-02709",
+     "SC-00703"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La dispute sur la démocratie et la persuasion en février",
+    "vers_date": "1937-06",
+    "vers": "Le schisme de juin : Coleman lit son réquisitoire en 24 points, Georgia est poussé vers la sortie, Zeuch laisse « The State of Black Mountain College ».",
+    "refs": [
+     "EV-02715",
+     "EV-02716"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La séparation tenue pour seule issue en février",
+    "vers_date": "1938",
+    "vers": "La furie communautaire, la lettre d'Albers, le congé de Rice et la prise du rectorat par Wunsch relèvent de l'année suivante.",
+    "refs": [
+     "CF-00276",
+     "CF-00282"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rice, sûr de sa parole de persuasion et de son séminaire à venir",
+    "vers_date": "1937",
+    "vers": "À l'automne, Rice s'éprend d'une étudiante pendant que Nell est en Indiana. Les rumeurs courent, et Nell le surprend.",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   }
+  ],
+  "motifs": [
+   "Weimar comme refuge face à Berlin, et Black Mountain comme refuge face à Manhattan",
+   "Persuasion contre démocratie de comptage de nez",
+   "La séparation comme seule issue",
+   "Anni, passeuse du modernisme aux États-Unis",
+   "Gropius, figure de mentor et d'arrivée",
+   "Le collège comme lieu de passage où l'on vient faire ce qu'on a à faire, puis partir"
+  ],
+  "lacunes": "On ne sait pas où se trouve Josef Albers en mars ; sa présence au collège est seulement déduite. Le mois exact de la publication de Rice dans Harper's n'est pas donné. Le climat et la vie quotidienne (cours, repas, musique, travaux) sont absents des fiches. Le statut exact de Knickerbocker et l'ampleur de sa cause en mars ne sont pas établis. Les fiches ne donnent pas les détails de la réunion d'arrivée des Gropius, et le lieu précis de la réunion du 17 février n'est pas indiqué. La date de l'invitation de Youtz n'est donnée que par rapport à la lettre. Les sources (Duberman, Chaddock) divergent sur plusieurs dates de l'année 1937 sans que ces divergences concernent directement mars."
+ }
+}

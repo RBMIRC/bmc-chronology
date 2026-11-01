@@ -1,0 +1,124 @@
+{
+ "passe": "enseignements",
+ "cle": "Madame Goldowski",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2803,
+  "sortie": 2719,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Madame Goldowski",
+  "cours": [
+   {
+    "intitule": "Français (cours au collège, 1948-1949)",
+    "periodes": [
+     "un semestre, 1948-1949"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non documenté dans les fiches. Seul le cadre est attesté : un cours de français suivi sur un semestre.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": "Une étudiante, Gerda, se souvient d'une enseignante exigeante : « What a taskmaster! » (Lane 1990). C'est le seul jugement attesté sur ce cours.",
+    "reactions_etudiants": "Gerda garde en mémoire l'exclamation « What a taskmaster! », signe d'une enseignante sévère. La fiche ne dit rien de plus.",
+    "evolution": "Ce cours précède de trois ans le tutorat de 1952. Les fiches ne permettent pas de dire si la méthode a changé entre les deux, ni si la sévérité de 1948-1949 se retrouve en 1952. Le portrait de 1952 est celui d'une vieille dame plus comique que redoutable, ce qui reste une impression à manier avec prudence.",
+    "refs": [
+     "CO-00479"
+    ]
+   },
+   {
+    "intitule": "Tutorat de français (« Ta Leçon »), automne 1952",
+    "periodes": [
+     "automne 1952, matins"
+    ],
+    "atteste": "oui",
+    "objectifs": "Enseigner le français à Michael Rumaker, son unique étudiant. La leçon reste très informelle : conversation sur les ragots du campus, puis lecture de traductions.",
+    "deroule_type_seance": "Séance du matin, à 10 h précises, dans l'arrière-salon de l'appartement de Madame à Streamside. Elle est octogénaire, d'apparence trompeusement frêle. Les chiens aboient à la porte et on sert du thé. Première demi-heure : elle questionne Rumaker sur les commérages du campus, et il doit répondre en anglais. Seconde demi-heure : lecture à haute voix de traductions tirées du manuel. Pendant cette lecture, Madame et les chiens s'endorment, puis elle se réveille en disant « Très bien, très bien ».",
+    "exercices": [
+     {
+      "consigne": "Première demi-heure : elle pose des questions sur les commérages du campus. Les réponses sont exigées en anglais.",
+      "materiaux": "Tasses de thé ; arrière-salon de l'appartement de Streamside.",
+      "but": "Non explicité. Les fiches montrent que Rumaker invente parfois des ragots salaces pour l'amuser, ce qui exerce son imagination d'écrivain. Cet effet n'est pas présenté comme un but pédagogique voulu par Madame.",
+      "refs": [
+       "CO-00713",
+       "CO-00709"
+      ]
+     },
+     {
+      "consigne": "Seconde demi-heure : lecture à haute voix de traductions tirées du manuel, dont le Tour du monde en quatre-vingts jours de Jules Verne (1873).",
+      "materiaux": "Manuel ancien, probablement apporté de Russie dans la boîte à chapeau (supposition de la source).",
+      "but": "Exercice de prononciation et de lecture. Madame corrige notamment la prononciation du « et ».",
+      "refs": [
+       "CO-00713"
+      ]
+     },
+     {
+      "consigne": "Épisode « noots » : Rumaker cherche pendant une demi-heure ce que Madame veut dire par « noots » servis au dîner de Noël de Natasha, jusqu'à comprendre « nuts ».",
+      "materiaux": null,
+      "but": "Aucun but pédagogique : c'est un malentendu comique. L'épisode marque la fin de la conversation en anglais ou en français, et la leçon se réduit désormais à la lecture. La fiche ne précise pas si cette conversation était en anglais ou en français ; la chronologie reste à confirmer, car le déroulé type de CO-00713 inclut encore les commérages.",
+      "refs": [
+       "SC-01501"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Manuel de français ancien, probablement venu de Russie",
+     "Jules Verne, Le Tour du monde en quatre-vingts jours (1873), en traduction lue à haute voix"
+    ],
+    "propos_types": [
+     "Elle corrige la prononciation du « et ».",
+     "Elle lance « silence ! » aux chiens qui aboient.",
+     "Elle dit « s'il vous plaît » et conclut par « Très bien, très bien » à son réveil.",
+     "Elle s'énerve et crie de plus en plus aigu « Noots ! Noots ! » quand l'élève ne comprend pas."
+    ],
+    "critique_et_evaluation": "Aucune évaluation formelle n'est attestée. Elle réagit par la correction orale de la prononciation et par des mots d'approbation comme « Très bien, très bien ». Le ton et la rigueur sont inégaux : le cadre est strict (10 h précises), mais la séance dérive vers la sieste.",
+    "reactions_etudiants": "Rumaker, seul élève, joue le jeu. Il invente parfois des ragots salaces pour amuser Madame. Plus tard, il parle un français à l'accent russe, appris d'elle, que seule Madame comprend (SC-01615).",
+    "evolution": "Les fiches de 1952 montrent une séance en deux temps, puis la conversation qui s'efface au profit de la lecture après l'épisode « noots ». En 1953, à la ferme de sa fille Natasha, elle interroge toujours Rumaker en français sur les ragots du collège, d'un air faussement indifférent. Cela prolonge le tutorat hors du cadre scolaire, sans qu'il s'agisse d'une séance formelle.",
+    "refs": [
+     "CO-00709",
+     "CO-00713",
+     "SC-01501",
+     "SC-01615"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Une conversation sur les ragots comme exercice de langue : on parle de ce qui intéresse vraiment, ici la vie du campus, dans une langue imposée (anglais, d'après CO-00713).",
+    "en_classe": "Faire raconter à l'élève les nouvelles de l'école sous contrainte de langue, puis laisser l'élève inventer des variantes. C'est un exercice de fiction orale. Attesté dans le tutorat de 1952 ; non attesté pour le cours de 1948-1949.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00713"
+    ]
+   },
+   {
+    "idee": "Lecture à haute voix de traductions tirées d'un manuel, avec correction de la prononciation en temps réel.",
+    "en_classe": "Choisir un roman d'aventures (Verne) en traduction, le lire à voix haute, et corriger les sons un par un, comme pour le « et ». Attesté en 1952, en tête-à-tête ; non attesté au collège pour le cours de 1948-1949.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00713"
+    ]
+   },
+   {
+    "idee": "Le malentendu comme scène d'apprentissage : chercher longuement le sens d'un mot mal prononcé (noots/nuts) force l'élève à l'attention auditive.",
+    "en_classe": "Mettre l'élève devant un mot déformé et lui laisser chercher. L'effet pédagogique n'est pas voulu par Madame ; c'est une déduction à partir de la scène, qui tourne plutôt à l'impatience.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-01501"
+    ]
+   },
+   {
+    "idee": "Le français comme langue de la vie quotidienne et de l'intimité familiale : en 1953, Madame et Natasha l'utilisent à la ferme (le seau demandé en français, l'interrogatoire à table), en alternance avec le russe.",
+    "en_classe": "Situer l'apprentissage dans des gestes concrets (traite, repas) plutôt que dans le manuel. Hors cours : relevé dans des scènes de la ferme, non attesté comme méthode au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-01613",
+     "SC-01615"
+    ]
+   }
+  ]
+ }
+}

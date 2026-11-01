@@ -1,0 +1,250 @@
+{
+ "passe": "mois",
+ "cle": "1940-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5861,
+  "sortie": 14720,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-02",
+  "session": "Trimestre d'hiver 1939-1940 (déduit du mot « hiver » et de l'année universitaire en cours ; les fiches ne nomment pas la session)",
+  "saison_et_climat": "Hiver. Les fiches ne décrivent ni la météo ni le paysage de Lake Eden ce mois-ci. Le chantier n'a pas encore commencé ; il ouvrira en septembre.",
+  "situation": "Le conseil obtient le départ de Rice. La demande formelle est envoyée, la lettre de Wunsch du 16 février clôt la lutte, et Rice démissionne vers le 17. Le collège doit désormais se passer de son fondateur, tandis que l'annonce publique et le règlement financier restent à négocier (réglés en mars). Dreier est à Cambridge, Albers et les Mangold sont présents.",
+  "presents_probables": [
+   {
+    "nom": "Robert Wunsch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anne Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fred Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants et reste de la faculté",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Le conseil, qui attendait une semaine sans démission, envoie la demande formelle. Mangold écrit à Dreier, alors à Cambridge, qu'il doute de l'obtenir facilement : Rice voudra probablement un accord financier préalable et une part élevée en cas de liquidation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03091"
+    ]
+   },
+   {
+    "date": "1940-02",
+    "precision": "mois",
+    "ce_qui_arrive": "La deuxième conférence, la plus dure, se tient avec Nell présente. Rice propose de revenir en habitant la maison de pierre, en dînant chaque jour et en donnant un cours trois fois par semaine. Wunsch répond que le conseil préfère fermer. Rice jure qu'il a changé et prédit un collège inerte ; Nell énumère ses promesses rompues ; Rice pleure, quitte la pièce puis la maison.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1940-02-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Le magazine Life publie un reportage sur l'école d'art de Yale, « tradition et technique ». Il ne concerne pas Black Mountain ; c'est un repère extérieur sur l'enseignement artistique américain de l'époque.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03094",
+     "EV-03095"
+    ]
+   },
+   {
+    "date": "1940-02-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Fête costumée de la Saint-Valentin : les costumes reprennent les études de matières faites en classe plus tôt dans la journée. Albers les documente en diapositives couleur.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03096"
+    ]
+   },
+   {
+    "date": "1940-02-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Wunsch écrit à Rice la lettre qui réclame la démission : la moitié de la faculté refuse une nouvelle lutte interne, et la confiance est perdue. À Nell, il écrit séparément que Rice en est responsable.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03097",
+     "SC-00789"
+    ]
+   },
+   {
+    "date": "1940-02-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Rice rédige un bref mémoire de démission, effective à la fin de l'année universitaire. Duberman décrit une réponse par retour du courrier, à la surprise du conseil.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03092"
+    ]
+   },
+   {
+    "date": "1940-02",
+    "precision": "mois",
+    "ce_qui_arrive": "La lettre de démission est montrée à la faculté et aux responsables étudiants ; on discute de l'annonce publique et d'un règlement financier équitable. Anne Mangold note une attitude excellente, sans triomphalisme (« les fils sont sur le trône »). Chaddock parle de soulagement, mais sans réjouissances.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03092"
+    ]
+   },
+   {
+    "date": "1940-02-19",
+    "precision": "jour",
+    "ce_qui_arrive": "Rice écrit à Wunsch une lettre apaisante : avec le temps, l'affaire ne fera pas plus qu'un brin d'herbe remué, un petit rire, surtout au second Old Fashioned. Il dit que son affection pour Wunsch s'est approfondie. Il se sent trahi par Dreier et croit qu'Albers lui en voulait.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03098",
+     "EV-03099",
+     "SC-00790"
+    ]
+   },
+   {
+    "date": "1940-02-21",
+    "precision": "jour",
+    "ce_qui_arrive": "Wunsch envoie à Fred Mangold une copie manuscrite de la lettre que Rice lui a écrite le 19.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03099"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire se mêle à l'enseignement : la fête de la Saint-Valentin reprend les études de matières de la journée, et Albers en garde des images. Les fiches ne décrivent ni le détail des cours, ni les repas, ni la musique. Le whisky et les cocktails (Old Fashioned) circulent dans les lettres comme dans les rencontres. La maison de pierre de Rice est un enjeu ce mois-ci.",
+  "tensions": [
+   "Rice contre le conseil : refus de le reprendre, liaison, facture de 145 $, perte de confiance. Il se dit « répudié » et accuse Dreier de trahison.",
+   "Rice soupçonne Albers d'avoir jalousé son influence et sa spontanéité.",
+   "Nell énumère les promesses rompues ; Wunsch lui écrit que Rice est seul responsable de la perte de confiance.",
+   "La faculté est divisée : la moitié refuse une nouvelle lutte interne en pleine insécurité économique.",
+   "Climat interne contesté : Anne Mangold le dit excellent, Chaddock y voit du soulagement sans réjouissances.",
+   "Calendrier du règlement financier contesté : Chaddock le place après le dernier voyage de Wunsch à Southern Pines (donc avant la démission), la synthèse le place lors de la visite de mars.",
+   "Dreier absent à Cambridge et visé par les reproches de Rice."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La deuxième conférence",
+    "date": "1940-02",
+    "lieu": null,
+    "personnages": [
+     "John Andrew Rice",
+     "Robert Wunsch",
+     "Nell Rice"
+    ],
+    "deroule": "Rice propose de revenir en habitant la maison de pierre et en donnant un cours trois fois par semaine. Wunsch répond que le conseil préfère fermer. Rice se dit changé et prédit un collège inerte. Nell égrène ses promesses rompues. Rice pleure et quitte la maison, se disant répudié.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "titre": "La lettre-réquisitoire",
+    "date": "1940-02-16",
+    "lieu": null,
+    "personnages": [
+     "Robert Wunsch",
+     "John Andrew Rice",
+     "Nell Rice"
+    ],
+    "deroule": "Wunsch réclame la démission promise, invoquant la moitié de la faculté épuisée et la perte de confiance. Dans une lettre séparée à Nell, il dit que Rice seul est responsable.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00789"
+    ]
+   },
+   {
+    "titre": "La lettre apaisante",
+    "date": "1940-02-19",
+    "lieu": "Black Mountain College, envoyée par courrier",
+    "personnages": [
+     "John Andrew Rice",
+     "Robert Wunsch"
+    ],
+    "deroule": "Rice, encore partagé entre colère et tristesse, rassure Wunsch : l'affaire ne pèsera qu'un brin d'herbe, et l'affection entre eux s'est approfondie.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00790"
+    ]
+   },
+   {
+    "titre": "La Saint-Valentin des costumes",
+    "date": "1940-02-14",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "étudiants"
+    ],
+    "deroule": "Les étudiants se déguisent en reprenant les études de matières de la journée. Albers photographie les costumes en couleur, et la vie communautaire se confond avec la pédagogie.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03096"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Février, au moment où la démission se joue ; les protagonistes repensent aux échecs des voyages précédents",
+    "vers_date": "1939-12",
+    "vers": "Le premier voyage de Wunsch, vers la fin de décembre ou en janvier : Rice l'empêche de formuler sa demande, et Wunsch le juge ensuite « calme, amical et sage ». Le conseil a décidé en janvier de ne pas miser sur son retour.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Au moment où le conseil justifie son départ",
+    "vers_date": "1939",
+    "vers": "L'accident de voiture et la facture de réparation de 145 $, probable déclencheur selon Duberman. La date exacte de l'accident n'est pas donnée.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin février, Rice encore à Southern Pines",
+    "vers_date": "1940-03",
+    "vers": "Troisième visite de Wunsch, avec Nell : steak grillé, cocktails, discussion sur New Harmony et Brook Farm. Règlement financier (salaire jusqu'à la fin de l'année, petite allocation, scolarité de la fille, intérêt à Lake Eden) et annonce publique diffusée dans la Newsletter n° 7.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Depuis la démission, qui ouvre la place à l'écriture de Rice",
+    "vers_date": "1940-09",
+    "vers": "Rice publie « My Father's Folks » dans Harper's, et il est à Bella Vista avec ses enfants en juin et août.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Depuis la démission et la construction qui se prépare",
+    "vers_date": "1940-09-12",
+    "vers": "Ouverture du chantier de Lake Eden, avec l'objectif « roof by Christmas ». Le collège doit bâtir sans machines ni argent.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "la chute du fondateur",
+   "« révolution de palais » : les fils sur le trône",
+   "l'humour et le whisky comme défense contre la douleur",
+   "une amitié qui survit à la débâcle",
+   "vie et enseignement confondus, comme au Bauhaus",
+   "la maison de pierre comme objet de désir et de regret"
+  ],
+  "lacunes": "La date de la deuxième conférence n'est qu'à « février » (synthèse sans fiche). Les sources divergent sur le moment du règlement financier et sur la date exacte de la démission (17 février selon Chaddock, retour du courrier selon Duberman). On ne sait pas si « Mangold » qui écrit à Dreier est Fred ou Anne. Rien sur la météo, le détail des cours, les effectifs, les activités quotidiennes, ni sur la présence exacte de Rice au collège entre les conférences."
+ }
+}

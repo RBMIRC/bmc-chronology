@@ -1,0 +1,92 @@
+{
+ "passe": "enseignements",
+ "cle": "Conrad Marca-Relli",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1662,
+  "sortie": 1412,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Conrad Marca-Relli",
+  "cours": [
+   {
+    "intitule": "Cours de dessin, Leonardo da Vinci Art School",
+    "periodes": [
+     "1935-1936"
+    ],
+    "atteste": "non",
+    "objectifs": "Amener chaque étudiant à produire son meilleur travail, à sa propre manière (CO-00270). Cet enseignement a lieu à New York, pas à Black Mountain College.",
+    "deroule_type_seance": "Non documenté en détail. On sait seulement que la consigne de fond est de dessiner toute la journée, chaque jour. Toute structure de séance plus précise (horaires, corrections, temps de pose) serait une déduction, rien ne l'atteste dans les fiches.",
+    "exercices": [
+     {
+      "consigne": "Dessiner toute la journée, chaque jour.",
+      "materiaux": null,
+      "but": "Pousser l'étudiant à produire son meilleur travail, à sa propre manière.",
+      "refs": [
+       "CO-00270"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Il n'est pas intrusif : il n'impose pas sa manière.",
+     "Il encourage les étudiants à travailler dur et à leur façon (CO-00270)."
+    ],
+    "critique_et_evaluation": "Aucune méthode d'évaluation n'est attestée. L'attitude non intrusive laisse penser à peu de corrections directives, mais c'est une déduction.",
+    "reactions_etudiants": "Elaine (de Kooning) s'y submerge dans le dessin, huit à dix heures par jour (CO-00270).",
+    "evolution": "Les fiches décrivent ensuite un cours de peinture et dessin avec modèles nus, sur 1936-1938, dans la même école. Cela suggère une continuité d'enseignement, mais le lien entre les deux fiches est une déduction.",
+    "refs": [
+     "CO-00270"
+    ]
+   },
+   {
+    "intitule": "Cours de peinture et dessin, Leonardo da Vinci Art School",
+    "periodes": [
+     "1936-1938"
+    ],
+    "atteste": "non",
+    "objectifs": "Non précisés dans la fiche. Cours de peinture et de dessin avec modèles nus, donné à New York, pas à Black Mountain College.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Dessin de modèles nus.",
+      "materiaux": null,
+      "but": null,
+      "refs": [
+       "CO-00273"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Elaine s'exclame : « this is living! » (CO-00273).",
+    "evolution": "Les dates sont données comme « années 1936-1938 ». Elles prolongent l'enseignement de 1935-1936, mais aucune fiche ne décrit un changement de contenu.",
+    "refs": [
+     "CO-00273"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le projecteur de la critique peut être aussi destructeur que le rejet. Le jamboree des éloges « verrouille » l'artiste autant que le dénigrement. Exemple donné : la période d'acclamation de Kline (ID-02085).",
+    "en_classe": "Transposition possible, mais sans aucune attestation au collège : discussion sur l'effet du succès et de la reconnaissance sur le travail. Un exercice pourrait consister à faire produire un travail à l'abri du regard évaluateur, puis à le comparer à un travail exposé et commenté. L'idée est datée d'environ 1948-1984, donc sans ancrage précis dans la période du collège.",
+    "atteste": "non",
+    "refs": [
+     "ID-02085"
+    ]
+   },
+   {
+    "idee": "Laisser chacun travailler à sa manière, sans intrusion, mais avec une exigence d'effort intense (dessiner toute la journée, chaque jour).",
+    "en_classe": "Séance de dessin longue, sans correction directive : le professeur circule peu et ne fait qu'encourager. Cela repose sur CO-00270 et CO-00273, qui concernent la Leonardo da Vinci Art School. Rien n'atteste cette pratique à Black Mountain College. Il s'agit d'une transposition.",
+    "atteste": "non",
+    "refs": [
+     "CO-00270",
+     "CO-00273"
+    ]
+   }
+  ]
+ }
+}

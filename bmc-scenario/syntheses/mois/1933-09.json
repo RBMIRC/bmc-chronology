@@ -1,0 +1,542 @@
+{
+ "passe": "mois",
+ "cle": "1933-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 16733,
+  "sortie": 26038,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1933-09",
+  "session": "Rentrée et ouverture du trimestre d'automne, première session du collège (ouverture officielle le 25 septembre)",
+  "saison_et_climat": "Fin d'été puis entrée en automne dans les Blue Ridge (déduit de la rentrée du 25 septembre et du trimestre d'automne). Les fiches ne donnent aucun détail météo ; seule image : des nuages qui s'accrochent aux sommets vus depuis le portique.",
+  "situation": "Le collège s'installe à la Blue Ridge Assembly (YMCA), en Caroline du Nord, dans une maison commune, Lee Hall. Le nombre d'étudiants varie selon les fiches : 22, 21 ou 19. Le Board of Fellows, né le 20 septembre, s'est élu lui-même comme faculté (Rice, Dreier, Georgia et Lounsbury nommés professeurs). Les statuts sont reportés au 28 octobre. Georgia dirige sous le titre de « rector », compromis trouvé après la pancarte « president ». Rice n'a pas de titre officiel tant que l'AAUP n'a pas tranché sur Rollins. Albers est encore à Berlin : il n'arrive qu'à l'automne, après le début du trimestre. Personne ne sait encore quels cours seront donnés.",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frederick Georgia",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Ralph Lounsbury",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mrs Lounsbury (intendante générale)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Joseph Martin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Evarts",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bill Hinckley",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Meg Hinckley",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Loram",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Boyden",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zastrow",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Keith",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Frank Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nat French",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Gary McGraw",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Doughten Cramer",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Margaret Dwight",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Alice Lee Swan",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1933-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Annonce miméographiée de six pages présentant sept hommes et deux femmes enseignants, avec la mention que la liste sera complétée. Albers et plusieurs autres n'arriveront qu'après le début du trimestre d'automne.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02169"
+    ]
+   },
+   {
+    "date": "1933-09",
+    "precision": "semaine",
+    "ce_qui_arrive": "Holt déclare à la presse qu'il croit au succès de Black Mountain parce que le collège reprend, selon lui, le Conference Plan et le système de divisions de Rollins. Il réduit ainsi la fondation à une copie de Rollins.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02172"
+    ]
+   },
+   {
+    "date": "1933-09",
+    "precision": "semaine",
+    "ce_qui_arrive": "Georgia s'installe dans le plus grand bureau du rez-de-chaussée et affiche « president ». Rice et Dreier obtiennent le compromis « rector », qui restera le titre du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02171",
+     "SC-00553"
+    ]
+   },
+   {
+    "date": "1933-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Installation dans Lee Hall : célibataires aux 2e et 3e étages, couples dans les ailes, familles dans les cabanes ; livres de la faculté mis en commun ; premier horaire réglé par les repas.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02165",
+     "EV-02173"
+    ]
+   },
+   {
+    "date": "1933-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Premier entretien de Doughten Cramer avec Rice sur le portique : Rice l'oriente vers l'économie et l'histoire et l'entraîne en composition et en musique.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02174",
+     "SC-00554"
+    ]
+   },
+   {
+    "date": "1933-09-03",
+    "precision": "jour",
+    "ce_qui_arrive": "Dreier écrit à Edward Corsi pour les visas des Albers ; réponse favorable le 5 septembre. Les Albers croiront plus tard à l'intervention de Mrs Rockefeller, que Johnson démentira en 1970.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02176",
+     "SC-00555"
+    ]
+   },
+   {
+    "date": "1933-09-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Evarts écrit à Rice après avoir appris l'ouverture. Il est embauché pour la musique grâce à son improvisation au piano plus qu'à sa lecture de partitions.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02177"
+    ]
+   },
+   {
+    "date": "1933-09-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Le New York Times annonce la fondation sous le titre « Coeducation in A New College », en page 3.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02178"
+    ]
+   },
+   {
+    "date": "1933-09-20",
+    "precision": "jour",
+    "ce_qui_arrive": "Première réunion du Board of Fellows à Blue Ridge : un peu plus d'une demi-heure, quatre membres sur six présents. Dreier est élu trésorier, et Georgia, Lounsbury et Rice se nomment professeurs. La procédure prévue (élection par la faculté) est inversée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02179",
+     "EV-02180"
+    ]
+   },
+   {
+    "date": "1933-09-21",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers écrit de Berlin aux Grote à Dessau. Il parle de ses leçons d'anglais quotidiennes et de son appartement abandonné, sans révéler l'invitation américaine.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02181",
+     "SC-00556"
+    ]
+   },
+   {
+    "date": "1933-09-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Joseph Martin arrive à la gare de Black Mountain. Rice le reçoit en guide touristique, Bill Hinckley l'installe, et Meg Hinckley l'emmène en ville chercher du beurre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02182",
+     "SC-00557"
+    ]
+   },
+   {
+    "date": "1933-09-25",
+    "precision": "jour",
+    "ce_qui_arrive": "Ouverture officielle sur le porche de Lee Hall, sans discours ni programme. Nat French est nommé student moderator, on débat des tarifs de la buanderie, et Georgia appelle le gardien pour les précautions incendie. Le chiffre de 21 étudiants (13 ex-Rollins, 8 nouveaux) s'oppose à celui de 19 donné par EV-02167.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02183",
+     "EV-02184",
+     "EV-02168",
+     "SC-00558"
+    ]
+   },
+   {
+    "date": "1933-09-30",
+    "precision": "jour",
+    "ce_qui_arrive": "Première réunion de la faculté : les quatre membres résidents discutent cinq heures des statuts et reportent la décision au 28 octobre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02185"
+    ]
+   },
+   {
+    "date": "1933-09-30",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion spéciale de la faculté où Rice rapporte les derniers mots de Lounsbury (« Que dira-t-on, John ? Je suis un échec. »). Mrs Lounsbury reste comme intendante générale. La synthèse place la mort de Lounsbury le 16 octobre, ce qui contredit cette fiche.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02186"
+    ]
+   },
+   {
+    "date": "1933-09-30",
+    "precision": "jour",
+    "ce_qui_arrive": "Le New York Evening Post titre « Progressive Education Becomes Collegiate » (p. 3). L'étiquette progressiste est collée au collège malgré les protestations de Rice.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02187"
+    ]
+   }
+  ],
+  "quotidien": "Lee Hall sert de maison : bureaux administratifs au rez-de-chaussée, chambres aux étages, ailes pour les couples, cabanes pour les familles. On fouille la maison pour trouver des meubles, la faculté met ses livres en commun, et les repas ponctuent la journée. On débat des tarifs de la buanderie. Le samedi soir, il y a de la danse après le dîner. On descend en ville à trois miles pour le beurre et les courses, où les commerçants sont aimables ; Meg Hinckley offre le thé. Sur le portique, les rocking-chairs verts font face aux sommets, et Rice fume sa pipe. Les séminaires du soir ne démarrent qu'ensuite, sans date précise dans les fiches.",
+  "tensions": [
+   "Le titre de direction : Georgia tient pour « president », Rice et Dreier imposent « rector ». Le compromis est acté, mais la pancarte reste sur la porte du plus grand bureau.",
+   "Rice sans titre officiel, faute d'une décision de l'AAUP sur Rollins : il est là, mais pas tout à fait reconnu.",
+   "Le Board s'élit lui-même comme faculté, en inversant la procédure prévue, lors d'une réunion de trente minutes à quatre présents. Cela alimentera plus tard les accusations d'oligopole.",
+   "Holt salue un collège qui serait une copie de Rollins, alors que Rice a voulu rompre avec Rollins. La presse parle d'éducation progressiste, étiquette que Rice déteste.",
+   "Un bloc de Rollinois face aux nouveaux : ceux-ci errent sans cours, et l'un d'eux parle de la confusion des anciens de Rollins avec les élus de Dieu.",
+   "Personne ne sait quels cours existeront, alors que les étudiants arrivent et que la communauté doit d'abord clarifier ses buts.",
+   "Lounsbury affaibli : ses dernières paroles sont rapportées le 30 septembre, mais la synthèse datée sa mort au 16 octobre.",
+   "Le nombre d'étudiants diverge (19, 21 ou 22) selon les fiches.",
+   "La scène SC-00546 (arrivée des Albers à la véranda, avec les Weston) est datée de septembre, alors que la synthèse et EV-02169 font arriver les Albers en novembre. Je ne la retiens donc pas pour ce mois.",
+   "Les visas : les Albers attribuent leur salut à Johnson et à Abby Rockefeller, ce que Johnson conteste."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les nouveaux cherchent leurs marques",
+    "date": "1933-09",
+    "lieu": "Lee Hall",
+    "personnages": [
+     "Joseph Martin",
+     "John Evarts",
+     "Gary McGraw"
+    ],
+    "deroule": "Sans programme, les premiers jours passent en tumulte. Les Rollinois forment un bloc, les autres errent à la recherche de cours qui n'existent pas encore. Martin découvre son voisin Evarts, mal rasé et rongé de doutes. McGraw, seul externe, parle d'un état de confusion complète.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00548",
+     "EV-02165"
+    ]
+   },
+   {
+    "titre": "Ouverture informelle sur le porche",
+    "date": "1933-09",
+    "lieu": "porche de Robert E. Lee Hall",
+    "personnages": [
+     "John Andrew Rice",
+     "Theodore Dreier",
+     "Frederick Georgia",
+     "Ralph Lounsbury",
+     "Joseph Martin"
+    ],
+    "deroule": "Face aux Blue Ridge Mountains, il n'y a ni discours ni programme. Martin comparera plus tard la chose à une partie de football improvisée (« nous étions là, et cela suffisait »). Tout finit par le déjeuner.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00552",
+     "EV-02168"
+    ]
+   },
+   {
+    "titre": "La pancarte « president »",
+    "date": "1933-09",
+    "lieu": "bureau du rez-de-chaussée, Lee Hall",
+    "personnages": [
+     "Frederick Georgia",
+     "John Andrew Rice",
+     "Theodore Dreier"
+    ],
+    "deroule": "Georgia s'installe dans le plus grand bureau et affiche « president ». Rice, atterré, s'allie à Dreier pour plaider « chairman » puis « rector », éducateur parmi ses pairs. Georgia tient d'abord bon, puis le compromis « rector » est accepté.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00553",
+     "EV-02171"
+    ]
+   },
+   {
+    "titre": "Le premier entretien de Cramer",
+    "date": "1933-09",
+    "lieu": "portique de Lee Hall, rocking-chairs verts",
+    "personnages": [
+     "John Andrew Rice",
+     "Doughten Cramer"
+    ],
+    "deroule": "Rice, pipe en main, demande à Cramer, 18 ans, ce qu'il veut étudier. L'étudiant bégaie que l'histoire est plutôt amusante, puis avoue vouloir comprendre ce qui a causé la Dépression. Rice rit (« a large order ») et l'oriente vers l'économie, l'histoire, la composition et la musique.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00554",
+     "EV-02174"
+    ]
+   },
+   {
+    "titre": "Les visas en suspens",
+    "date": "1933-09-05",
+    "lieu": "New York",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Theodore Dreier",
+     "Edward Corsi",
+     "Philip Johnson"
+    ],
+    "deroule": "Dreier écrit le 3 septembre au commissaire à l'Immigration, et la réponse favorable arrive le 5. Les Albers nommeront plus tard Johnson « notre saint patron » et croiront à l'intervention d'Abby Rockefeller, que Johnson démentira en 1970.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00555",
+     "EV-02176"
+    ]
+   },
+   {
+    "titre": "Lettre de Berlin aux Grote",
+    "date": "1933-09-21",
+    "lieu": "Berlin",
+    "personnages": [
+     "Josef Albers",
+     "Ludwig Grote",
+     "Maud Grote"
+    ],
+    "deroule": "Albers écrit à Dessau, apprend l'anglais chaque jour et renonce à son appartement. Il tait l'invitation qui va changer sa vie.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00556",
+     "EV-02181"
+    ]
+   },
+   {
+    "titre": "Premier soir de Joe Martin",
+    "date": "1933-09-23",
+    "lieu": "gare de Black Mountain puis Lee Hall",
+    "personnages": [
+     "Joseph Martin",
+     "John Andrew Rice",
+     "Bill Hinckley",
+     "Meg Hinckley"
+    ],
+    "deroule": "Déçu par le lobby vide et les photos trompeuses, Martin reprend espoir quand Meg Hinckley lui propose le thé et l'emmène chercher du beurre en ville. Le soir, il sent qu'il est au bon endroit.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00557",
+     "EV-02182"
+    ]
+   },
+   {
+    "titre": "Ouverture sans cérémonie",
+    "date": "1933-09-25",
+    "lieu": "portique de Lee Hall",
+    "personnages": [
+     "communauté",
+     "Nat French",
+     "Frederick Georgia",
+     "gardien de la Blue Ridge Assembly"
+    ],
+    "deroule": "Ni invocation ni procession. Nat French est nommé student moderator, on débat des tarifs de la buanderie, et Georgia appelle le gardien pour les précautions incendie, ce que Rice jugera plus tard « juste et approprié ». La réunion se lève, et le collège est lancé.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00558",
+     "EV-02184"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Lee Hall, Rice qui fonde le collège en Caroline du Nord",
+    "vers_date": null,
+    "vers": "L'enfance de Rice et le « Vieux Sud » de sa grand-mère Smith, patrie émotionnelle jamais trouvée ailleurs.",
+    "refs": [
+     "EC-01276"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la pancarte « president » et la querelle du titre",
+    "vers_date": null,
+    "vers": "Le système d'Oxford et de Cambridge, avec son board élu par la faculté et la tenure, modèle que Rice connaît depuis sa jeunesse.",
+    "refs": [
+     "EC-01294",
+     "EC-01278"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la déclaration de Holt sur le Conference Plan",
+    "vers_date": "1926",
+    "vers": "Le Conference Plan adopté à Rollins, sept ans plus tôt, que Holt invoque pour réduire BMC à une copie.",
+    "refs": [
+     "EV-02172"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "les cartons de Rice et les premiers jours de septembre",
+    "vers_date": "1933-06",
+    "vers": "Rice qui jette ses affaires dans des cartons dans une rage sombre, avant la fondation.",
+    "refs": [
+     "EC-01261"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "l'aménagement de Lee Hall et les couloirs meublés à la hâte",
+    "vers_date": null,
+    "vers": "Les fantasmes antérieurs de Rice sur le collège idéal, dont Lee Hall réalise le plan physique.",
+    "refs": [
+     "EC-01266"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Holt qui croit écraser la rébellion de Rollins",
+    "vers_date": "1933-04",
+    "vers": "La purge de Holt à Rollins au printemps 1933, après la demande d'enquête de l'AAUP.",
+    "refs": [
+     "EC-01263"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la lettre de Berlin d'Albers aux Grote, où il tait l'invitation",
+    "vers_date": "1933-07",
+    "vers": "La dissolution du Bauhaus, après douze ans d'expérimentation sociale et la décision de fermer plutôt que d'accepter des professeurs nazis. Les fiches divergent sur la date exacte.",
+    "refs": [
+     "EC-01015"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "les cours d'Albers à venir dans les cahiers de septembre",
+    "vers_date": null,
+    "vers": "Le Vorkurs du Bauhaus, cours préliminaire d'Itten que Albers reprendra, purgé du mysticisme.",
+    "refs": [
+     "EC-01018"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la classe d'Albers, dont Rice n'a pas encore vu la première leçon",
+    "vers_date": "1963",
+    "vers": "Rice, plus de trente ans après, se souvient de la classe d'Albers : « pas un jour sans que mes yeux ne disent Albers ».",
+    "refs": [
+     "EC-01016"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le premier entretien de Cramer sous le portique",
+    "vers_date": null,
+    "vers": "Cramer découvrira plus tard la cruauté de Rice dans le débat intellectuel.",
+    "refs": [
+     "EC-01295"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'ouverture du 25 septembre sans cérémonie",
+    "vers_date": null,
+    "vers": "Le collège ne retrouvera jamais tant de simplicité ni d'aisance dans ses débuts.",
+    "refs": [
+     "EC-01296"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les visas des Albers et la rédaction de la lettre à Corsi",
+    "vers_date": "1933-11-24",
+    "vers": "Arrivée des Albers à New York sous les flashs des reporters, puis leur entrée à Lee Hall.",
+    "refs": [
+     "EC-01279"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la déclaration de Holt et la réunion du Board",
+    "vers_date": "1933-11",
+    "vers": "Publication du rapport de l'AAUP sur Rollins, qui fonde l'idée d'une gouvernance communautaire à Black Mountain.",
+    "refs": [
+     "EC-01262"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la lettre de Rice et de Dreier au moment de la fondation",
+    "vers_date": null,
+    "vers": "Des années plus tard, Rice dira « I love Ted » de Dreier, témoignage qui éclaire la relation orageuse dès l'origine.",
+    "refs": [
+     "EC-01264"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'été 1933 et la gestation des idées",
+    "vers_date": "1936",
+    "vers": "La visite de Louis Adamic, où la doctrine de Rice est formulée et cristallise ces trois années de discussions.",
+    "refs": [
+     "EC-01280"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le titre comme enjeu d'autorité : « president » contre « rector », éducateur parmi ses pairs",
+   "La rentrée sans programme : tout reste à décider, et la communauté se construit avant le cursus",
+   "Le refus du rituel : le porche, la cérémonie vide, le déjeuner comme fin",
+   "L'ombre de Rollins et de Holt, qui pèse sur la presse et la légitimité du collège",
+   "Le Bauhaus absent mais présent : l'invitation tue, les lettres, l'anglais qu'Albers apprend avant de venir",
+   "Les mémoires concurrentes : Rice contre d'autres témoins sur Georgia, et le souvenir de l'invitation d'Albers",
+   "La maison comme cadre : Lee Hall, rez-de-chaussée administratif, chambres, repas comme seul repère"
+  ],
+  "lacunes": "On ignore le nombre exact d'étudiants (19, 21 ou 22). La date de la mort de Lounsbury est contradictoire (30 septembre implicite contre 16 octobre). La présence en septembre de Loram, Boyden, Zastrow et Keith n'est pas attestée. Nell Rice est à Sullivan dans l'été, sans indication pour septembre. Le climat et la température ne sont pas décrits. La scène SC-00546 (arrivée des Albers en septembre) contredit la date d'arrivée de novembre. Les dates de dissolution du Bauhaus divergent (avril, 11 avril, 20 juillet). Les séminaires du soir n'ont pas de date de démarrage précise."
+ }
+}

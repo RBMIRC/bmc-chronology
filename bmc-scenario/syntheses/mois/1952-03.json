@@ -1,0 +1,233 @@
+{
+ "passe": "mois",
+ "cle": "1952-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6448,
+  "sortie": 13541,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1952-03",
+  "session": null,
+  "saison_et_climat": "Fin de l'hiver. Les fiches ne décrivent pas le temps de mars ; la neige et le froid de la nuit du 28 janvier restent l'arrière-plan immédiat.",
+  "situation": "Le collège se délite sur le plan administratif et financier, mais la vie intellectuelle et épistolaire continue. Olson dirige de fait depuis 1951 (RE-02273) et multiplie les échanges. La crise de janvier (lac Eden, Rauschenberg, Olson) n'est pas refermée. Le refus définitif de Forbes, daté du 12 mars, prive le collège d'un bailleur majeur (EV-05798). Les recrutements avancent par à-coups : Walker Evans décline l'invitation à enseigner la photographie (EV-05814), tandis qu'Olson, Leach et Wildenhain débattent d'artisanat et d'éducation (EV-05812). Le débat facultaire sur les conservateurs Sprague et Adams s'ouvre en février et se prolonge jusqu'en juin (RE-02244, RE-02245).",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rauschenberg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Twombly",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hazel Larsen Archer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Huss",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-03-05",
+    "precision": "jour",
+    "ce_qui_arrive": "Wildenhain ouvre l'échange sur l'artisanat et l'éducation par une lettre du 5 mars ; Olson répond le 8 mars, et la discussion se poursuit jusqu'au 19 mars avec Leach.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05812"
+    ]
+   },
+   {
+    "date": "1952-03-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Forbes refuse définitivement de soutenir encore le collège, après plus de 20 000 dollars donnés, en disant ne plus se sentir proche du lieu ni en esprit ni dans la connaissance qu'il en a.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05798"
+    ]
+   },
+   {
+    "date": "1952-03-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Walker Evans décline poliment, par télégramme adressé à Hazel Larsen, l'invitation d'Archer à enseigner la photographie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05814"
+    ]
+   },
+   {
+    "date": "1952-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Le corps enseignant débat du cas des conservateurs Sprague et Adams ; le débat court de février à juin, sans date précise dans les fiches.",
+    "certitude": "atteste",
+    "refs": [
+     "RE-02244",
+     "RE-02245"
+    ]
+   }
+  ],
+  "quotidien": "Vie ordinaire peu documentée pour mars : une correspondance dense (Olson, Leach, Wildenhain), des démarches pour attirer des enseignants (Evans, Archer), une recherche de fonds qui s'effrite. Les fiches ne donnent ni repas, ni cours, ni musique pour ce mois. La ferme et la cuisine n'apparaissent qu'à propos de janvier et de l'automne.",
+  "tensions": [
+   "Le refus de Forbes, après les nouvelles demandes de Huss, fait perdre un bailleur majeur (EV-05798).",
+   "La blessure de janvier reste vive : Olson a sauvé Rauschenberg tout en le rejetant, et sa lettre du 29 janvier range Rauschenberg, Herb et d'autres parmi les « sexually marginal girls and boys » (EV-05801, RE-02463).",
+   "Le conflit entre conservateurs et réformateurs s'installe avec le débat sur Sprague et Adams (RE-02244, RE-02245).",
+   "Les collectes de fonds de 1952 sont ratées (EV-05733, EV-05735), et les recrutements tardent ou échouent."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le refus de Forbes",
+    "date": "1952-03-12",
+    "lieu": null,
+    "personnages": [
+     "Forbes",
+     "Huss"
+    ],
+    "deroule": "Huss, qui a relancé Forbes, reçoit une réponse négative : Forbes ne se sent plus proche du collège et estime avoir fait sa part. La réaction de Huss n'est pas documentée ; la scène ne tient que par le refus lui-même.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-05798"
+    ]
+   },
+   {
+    "titre": "Le télégramme d'Evans",
+    "date": "1952-03-14",
+    "lieu": null,
+    "personnages": [
+     "Walker Evans",
+     "Hazel Larsen Archer"
+    ],
+    "deroule": "Archer a invité Evans à enseigner la photographie ; Evans répond par un télégramme poli qui décline, adressé à Hazel Larsen. Une porte se referme sur un projet de recrutement.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05814"
+    ]
+   },
+   {
+    "titre": "Olson, Leach et Wildenhain sur l'artisanat",
+    "date": "1952-03-05",
+    "lieu": null,
+    "personnages": [
+     "Olson",
+     "Leach",
+     "Wildenhain"
+    ],
+    "deroule": "Wildenhain ouvre le débat le 5 mars ; Olson répond le 8 mars ; l'échange se poursuit jusqu'au 19 mars. Le sujet central est la place de l'artisanat dans l'éducation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05812"
+    ]
+   },
+   {
+    "titre": "Olson et Rauschenberg deux mois après le lac",
+    "date": "1952-03",
+    "lieu": "Black Mountain",
+    "personnages": [
+     "Olson",
+     "Rauschenberg"
+    ],
+    "deroule": "Olson, qui a porté Rauschenberg jusqu'à la cuisine, continue de le côtoyer tout en le tenant à distance dans ses lettres. Les fiches n'attestent aucune rencontre en mars : la scène est une construction fondée sur la double attitude d'Olson.",
+    "certitude": "deduit",
+    "refs": [
+     "SC-01542",
+     "RE-02463",
+     "EV-05801"
+    ]
+   },
+   {
+    "titre": "Schapiro devant Woman I (hors collège)",
+    "date": "1952-03",
+    "lieu": "atelier de de Kooning, New York",
+    "personnages": [
+     "Willem de Kooning",
+     "Meyer Schapiro"
+    ],
+    "deroule": "De Kooning, qui juge Woman I ratée, a retiré la toile de ses châssis ; Schapiro vient, le convainc de retravailler l'image et de l'achever. Scène hors du collège, utile comme contrepoint.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01544",
+     "EV-05811"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Olson ou Huss, mars 1952, quand l'argent se tarit et que la crise de janvier pèse encore",
+    "vers_date": "1952-01-28",
+    "vers": "La nuit du lac Eden : Rauschenberg pieds nus dans le lac, Twombly qui le suit jusqu'à mi-corps puis recule, Olson qui le couvre et le porte jusqu'à la cuisine.",
+    "refs": [
+     "EV-05800",
+     "SC-01542",
+     "RE-02465"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Olson, mars 1952, dans son rôle de dirigeant de fait",
+    "vers_date": "1951",
+    "vers": "Olson prend en main la direction du collège de fait en 1951.",
+    "refs": [
+     "RE-02273"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les recrutements en échec, mars 1952 (Evans refuse)",
+    "vers_date": "1952-05-24",
+    "vers": "Olson remercie Wildenhain de ses conseils sur les potiers d'Alfred ; Weinrib est officiellement recruté, Karnes en bonus.",
+    "refs": [
+     "EV-05819"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les échanges sur l'artisanat et l'éducation, mars 1952",
+    "vers_date": "1952-08",
+    "vers": "Theater Piece No. 1 dans le réfectoire, un soir d'août : Cage, Tudor, Olson et la communauté ; premier happening, récits contradictoires.",
+    "refs": [
+     "EV-05630",
+     "EV-05843",
+     "EV-05844"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le vide financier de mars 1952",
+    "vers_date": "1952-08",
+    "vers": "Fin de l'été : Rauschenberg part pour l'Italie avec Twombly, après la séparation d'avec Susan Weil.",
+    "refs": [
+     "EV-05747",
+     "EV-05849"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ des bailleurs, mars 1952",
+    "vers_date": "1952-12",
+    "vers": "Décembre : Merrill Gillespie fait sa proposition à Rumaker, qui cède ; Huss dresse fin 1952 le bilan des « réalisations » du collège.",
+    "refs": [
+     "EV-05912",
+     "EV-05913",
+     "EV-05914",
+     "EV-05639"
+    ]
+   }
+  ],
+  "motifs": [
+   "Fragilité économique : chaque lettre de fonds compte",
+   "Ambivalence d'Olson, à la fois protecteur et rejetant",
+   "Le recrutement d'artistes et de potiers comme pari sur l'avenir",
+   "Artisanat contre art : le débat sur l'éducation (Olson, Leach, Wildenhain)",
+   "La crise de janvier comme ombre portée sur toute l'année"
+  ],
+  "lacunes": "La session en cours n'est pas précisée ; les fiches ne couvrent que la fin de l'hiver et le printemps. Aucune fiche ne décrit la vie quotidienne de mars (repas, cours, musique, travail). Leach et Wildenhain sont en correspondance, mais leur présence au collège en mars n'est pas documentée. Les fiches Albers (Junius Bird, Guernsey) et la lettre de Keller à Griswold concernent Yale et ne disent rien de Black Mountain. La date exacte du débat Sprague et Adams n'est pas donnée."
+ }
+}

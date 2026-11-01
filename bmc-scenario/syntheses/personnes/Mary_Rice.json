@@ -1,0 +1,308 @@
+{
+ "passe": "personnes",
+ "cle": "Mary Rice",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 4156,
+  "sortie": 5478,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Mary Rice",
+  "autres_noms": [
+   "Mary Aydelotte Rice"
+  ],
+  "dates_de_vie": "née en 1920 à Lincoln (Nebraska) ; date de mort non donnée par les fiches",
+  "statut_bmc": "Enfant de la famille du fondateur John Andrew Rice, non étudiante ni enseignante. Elle est présente au collège comme fille de Rice et comme travailleuse d'été en 1939. Elle n'y est donc qu'une figure périphérique et très jeune.",
+  "presence": [
+   {
+    "debut": "1933",
+    "fin": "1938",
+    "role": "Fille du recteur-fondateur. Les fiches ne la situent pas précisément à Black Mountain avant 1938 : l'année 1933 est celle de la fondation, et les envois à Sullivan montrent qu'elle vit souvent loin de son père. Cette présence est une déduction.",
+    "refs": [
+     "PE-00288",
+     "EV-01994"
+    ]
+   },
+   {
+    "debut": "1939-06",
+    "fin": "1939",
+    "role": "Employée d'été au Lake Eden Inn, voisin du collège, avec son frère Frank, pendant que Nell achève son travail à l'Asheville Normal School.",
+    "refs": [
+     "EV-02949",
+     "QU-00694",
+     "PE-00288"
+    ]
+   }
+  ],
+  "portrait_physique": "Yeux bleus frappants, hérités de sa mère Nell (attesté). Les fiches ne disent rien d'autre sur son aspect : taille, cheveux et allure sont à inventer, avec prudence. Elle a 8 ans en 1929, environ 13 ans à la fondation du collège, 18 ans à son entrée à Swarthmore en 1938, et 20 ans à Bella Vista en 1940.",
+  "noyau_psychologique": "Elle est la cadette, fille prise entre deux parents qui se séparent, et elle penche du côté de sa mère. Enfant, elle est captive des histoires de son père, ce qui montre un attachement réel à lui. Adulte, elle n'est jamais tout à fait à l'aise avec sa nouvelle vie, mais elle sait reconnaître les mérites de Dikka Moen, ce qui suggère de l'équité plus que de la rancune. Les fiches la montrent surtout en observatrice discrète, souvent déplacée d'un lieu à l'autre au gré des décisions des adultes. Tout trait plus précis est une déduction.",
+  "blessures": "Attestés : une enfance de déménagements. À New Brunswick et Highland Park (1927-1928), elle n'a pas d'amis, la famille est dite misérable, sa mère est alitée et le couple se dégrade. Les départs répétés vers Sullivan, puis la rupture définitive de ses parents, sont aussi attestés. Déduit : une fatigue de l'instabilité, et un sentiment d'être le témoin d'une guerre qui n'est pas la sienne.",
+  "desirs": "Les fiches ne les expriment pas. On peut déduire le désir d'une famille stable, d'études sans embarras à Swarthmore, et peut-être d'un lien conservé avec son père malgré la rupture (elle lui rend visite à Southern Pines).",
+  "peurs": "Non documentées. Déduit, à manier avec prudence : la peur de voir sa famille se déchirer davantage, ou de devoir choisir entre ses parents.",
+  "maniere_d_aimer": "Fidèle aux deux parents sans se ranger ouvertement contre l'un : elle sympathise avec Nell, mais visite Rice et voyage avec lui en 1940. Avec son frère Frank, elle forme un duo de loyauté (emplois d'été communs, voyage à Bella Vista). Elle aime par présence plus que par éclat.",
+  "rapport_au_pouvoir": "Elle ne dispose d'aucun pouvoir et subit celui des adultes, son père, l'argent d'Aydelotte, les décisions du collège. À Bella Vista, elle assiste en spectatrice à l'autorité socratique de son père sur Ann. Plus tard, elle siège à la Chambre des délégués de Virginie, ce qui montre qu'elle s'engagera dans la vie publique.",
+  "voix": {
+   "registre": "Aucune parole directe n'est rapportée. Par déduction du contexte : une jeune femme cultivée, de milieu universitaire, mesurée, peu encline à l'éclat.",
+   "tics": "Non attestés. Ne pas lui en inventer de marqués.",
+   "exemples_paraphrases": [
+    "Elle pourrait dire à sa mère qu'elle comprend pourquoi la vie avec son père n'est plus possible, sans le condamner (déduction).",
+    "Face à une dispute à table, elle se tait ou détourne la conversation plutôt que de prendre parti (déduction à partir de la scène de Bella Vista)."
+   ]
+  },
+  "habitudes": [
+   "Accompagner sa mère à Sullivan, Indiana, chez ses grands-parents, de façon régulière dans les années 1920-1930.",
+   "Être présente aux repas de poisson frais au cottage de la faculté, à Lake Osceola, avec sa mère, pendant que son père et son frère pêchent.",
+   "Travailler l'été : emploi au Lake Eden Inn en 1939.",
+   "Voyager en voiture avec son père et son frère (Bella Vista, 1940), avec le teckel Nicky."
+  ],
+  "convictions": [
+   "Elle donne raison à Dikka Moen malgré sa gêne envers la nouvelle vie de son père : elle juge les gens sur leurs actes, non sur ses loyautés (attesté en partie, interprétation en partie).",
+   "Les fiches ne rapportent aucune conviction idéologique pour la période du collège. Son engagement politique en Virginie est postérieur et non détaillé."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1920",
+    "moment": "Naissance à Lincoln (Nebraska), second enfant de John Andrew et Nell Rice.",
+    "etat_interieur": "Sans objet. On retient surtout le fait qu'elle est la cadette, après Frank.",
+    "refs": [
+     "EV-00661",
+     "PE-00288"
+    ]
+   },
+   {
+    "date": "1927/1928",
+    "moment": "Années de malheur à New Brunswick puis Highland Park : logement exigu, absence d'amis, mère malade, départ de Nell avec elle pour plusieurs mois à Sullivan.",
+    "etat_interieur": "Isolement et instabilité. Elle n'a pas d'amis et dépend de la fuite de sa mère.",
+    "refs": [
+     "EV-01304"
+    ]
+   },
+   {
+    "date": "1929-06",
+    "moment": "Année Guggenheim à Londres, installée à Hampstead Heath. Elle a 8 ans.",
+    "etat_interieur": "Heureuse de son école londonienne (attesté) : respiration entre deux périodes sombres. Captivée par les histoires de son père.",
+    "refs": [
+     "EV-01443",
+     "PE-00288"
+    ]
+   },
+   {
+    "date": "1930/1933",
+    "moment": "Années de Winter Park : après-midis de pêche de Rice et Frank, repas de poisson au cottage du lac avec Nell et Mary.",
+    "etat_interieur": "Un temps de tranquillité familiale apparente, où elle reste avec sa mère pendant que les hommes pêchent. Les tensions conjugales croissent en arrière-plan.",
+    "refs": [
+     "EV-01503",
+     "EV-01612"
+    ]
+   },
+   {
+    "date": "1933",
+    "moment": "Avant le départ définitif de Rice de Winter Park, Nell et Mary quittent la ville pour Sullivan, laissant Rice seul avec sa colère à propos de son renvoi.",
+    "etat_interieur": "Elle subit la crise sans la décider. Elle est du côté de sa mère dans l'éloignement.",
+    "refs": [
+     "EV-01994"
+    ]
+   },
+   {
+    "date": "1938",
+    "moment": "Mary entre à Swarthmore à l'automne ; sa scolarité est payée par le collège directement, dans le cadre du départ de son père. Aydelotte finance aussi les frais médicaux de Mary et de Frank.",
+    "etat_interieur": "Elle dépend de la générosité d'Aydelotte. Sa mère s'est engagée dans la formation de bibliothécaire et refuse de reprendre la vie commune.",
+    "refs": [
+     "EV-02823",
+     "EV-02821",
+     "PE-00288"
+    ]
+   },
+   {
+    "date": "1939-06",
+    "moment": "Rice quitte Black Mountain pour Southern Pines ; Mary et Frank reviennent pour l'été et travaillent au Lake Eden Inn.",
+    "etat_interieur": "Elle assiste à l'échec d'une réconciliation tentée par son père ; elle est entre deux foyers. Elle est occupée par un travail concret.",
+    "refs": [
+     "EV-02949",
+     "QU-00694"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1920",
+    "moment": "Naissance à Lincoln (Nebraska), avec les yeux bleus de sa mère.",
+    "refs": [
+     "EV-00661",
+     "PE-00288"
+    ]
+   },
+   {
+    "date": "années 1920",
+    "moment": "Voyages réguliers avec Nell à Sullivan, Indiana, chez les parents de celle-ci, puis en Angleterre.",
+    "refs": [
+     "RE-00258",
+     "PE-00288"
+    ]
+   },
+   {
+    "date": "1927/1928",
+    "moment": "Enfance à New Brunswick, puis Highland Park, dans la misère domestique et sans amis.",
+    "refs": [
+     "EV-01304"
+    ]
+   },
+   {
+    "date": "1929/1930",
+    "moment": "Année à Londres : école appréciée, famille réunie à Hampstead Heath.",
+    "refs": [
+     "EV-01443",
+     "PE-00288"
+    ]
+   },
+   {
+    "date": "vers 1930/1933",
+    "moment": "Séjours à Winter Park, repas au bord du lac Osceola.",
+    "refs": [
+     "EV-01503",
+     "EV-01612"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1938",
+    "moment": "Première année à Swarthmore à l'automne.",
+    "refs": [
+     "EV-02823",
+     "PE-00288"
+    ]
+   },
+   {
+    "date": "1939-06",
+    "moment": "Emploi d'été au Lake Eden Inn, puis visite de son père à Southern Pines.",
+    "refs": [
+     "EV-02949",
+     "PE-00288"
+    ]
+   },
+   {
+    "date": "1940-06",
+    "moment": "Voyage avec son père et son frère vers Bella Vista. Arrêt à Asheville où Frank retrouve par hasard Ann Craig Sutton.",
+    "refs": [
+     "EV-03112",
+     "PE-00288"
+    ]
+   },
+   {
+    "date": "1940-08",
+    "moment": "Elle est à Bella Vista lors du premier dîner d'Ann avec les Rice, où Rice mène un interrogatoire socratique qui fait fuir Ann en larmes.",
+    "refs": [
+     "SC-00795",
+     "EV-03121"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Plus tard, membre de la Chambre des délégués de Virginie (date non précisée par les fiches).",
+    "refs": [
+     "PE-00288"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Nell Rice (mère)",
+    "nature": "Famille : alliée affective principale, compagne de voyage vers Sullivan.",
+    "evolution": "Elles partent ensemble de façon régulière dans les années 1920-1930. Nell finit par refuser de reprendre la vie commune avec Rice et se prépare à une carrière de bibliothécaire. Mary sympathise avec elle.",
+    "refs": [
+     "RE-00258",
+     "EV-01994",
+     "EV-02823",
+     "PE-00288"
+    ]
+   },
+   {
+    "avec": "John Andrew Rice (père)",
+    "nature": "Famille : père fascinant, conteur, mais dont la nouvelle vie la met mal à l'aise.",
+    "evolution": "Enfant captive de ses histoires ; adulte, elle le visite à Southern Pines et voyage avec lui en 1940, tout en restant gênée par sa vie nouvelle.",
+    "refs": [
+     "PE-00288",
+     "EV-03112"
+    ]
+   },
+   {
+    "avec": "Frank Rice (frère aîné)",
+    "nature": "Fratrie : compagnon de galère et de voyage.",
+    "evolution": "Ils partagent la misère de New Brunswick, les emplois d'été de 1939 et le voyage à Bella Vista. Frank est plus proche de leur père dans les scènes de pêche.",
+    "refs": [
+     "EV-01304",
+     "QU-00694",
+     "EV-03112",
+     "EV-01503"
+    ]
+   },
+   {
+    "avec": "Dikka Moen",
+    "nature": "Nouvelle compagne de son père : Mary reconnaît ses mérites malgré sa gêne.",
+    "evolution": "Attestée dans une fiche seulement : acceptation mesurée plutôt que chaleur.",
+    "refs": [
+     "PE-00288"
+    ]
+   },
+   {
+    "avec": "Ann Craig Sutton",
+    "nature": "Future belle-sœur, témoin involontaire de son épreuve.",
+    "evolution": "Première rencontre à Bella Vista en août 1940 ; le rôle exact de Mary dans la scène n'est pas précisé. Une relation affectueuse entre Rice et Ann viendra plus tard.",
+    "refs": [
+     "SC-00795",
+     "EV-03121"
+    ]
+   },
+   {
+    "avec": "Aydelotte (Swarthmore)",
+    "nature": "Bienfaiteur de la famille.",
+    "evolution": "Il finance sa scolarité et ses frais médicaux, ainsi que les voyages de Nell.",
+    "refs": [
+     "EV-02821",
+     "PE-00288"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Aucune contradiction forte. Deux points de tension mineurs : le nom de Mary aux deux dates de 1920 (naissance) et la mention « 8 ans au départ de 1929 » sont cohérents (elle a 8-9 ans). La fiche PE-00288 dit scolarité payée « par le collège directement à Swarthmore » alors que EV-02821 évoque Aydelotte comme financeur : les deux sont compatibles, mais l'origine exacte des fonds reste à clarifier.",
+   "La fiche PE-00288 mentionne un « job d'été à Black Mountain » ; EV-02949 et QU-00694 précisent le Lake Eden Inn, voisin du collège : il ne s'agit pas d'un emploi du collège lui-même.",
+   "Les fiches EV-01503 et EV-01612 décrivent presque la même scène de pêche, avec des datations différentes (vers 1930-1933 pour l'une, 1932 pour l'autre) : à traiter comme un même souvenir récurrent plutôt que deux événements."
+  ],
+  "situations_revelatrices": [
+   "Un repas de famille où l'autorité de Rice tourne à l'épreuve : Mary regarde sans intervenir, mais elle observe ce que cela coûte à ceux qui le subissent (Bella Vista).",
+   "Un voyage en train avec Nell vers Sullivan : l'enfant comprend plus qu'on ne lui dit sur la crise conjugale.",
+   "Un repas de poisson au cottage pendant que les hommes pêchent en silence : la place de la fille et de la mère, hors du cercle père-fils.",
+   "Un emploi d'été au Lake Eden Inn, pendant que le collège et le couple parental se défont à côté.",
+   "Une conversation entre Mary et Nell sur l'avenir, à l'automne 1938, au moment où Nell choisit la bibliothéconomie."
+  ],
+  "citations": [
+   "PE-00288",
+   "RE-00258",
+   "SC-00795",
+   "EV-00661",
+   "EV-01304",
+   "EV-01443",
+   "EV-01503",
+   "EV-01612",
+   "EV-01994",
+   "EV-02821",
+   "EV-02823",
+   "EV-02949",
+   "EV-03112",
+   "EV-03121",
+   "QU-00694"
+  ],
+  "questions_ouvertes": [
+   "Où Mary vit-elle exactement entre 1933 et 1938 : chez sa mère à Sullivan, à Black Mountain, ailleurs ?",
+   "A-t-elle été scolarisée ou présente au collège dans ses premières années ?",
+   "Quel est son avis réel sur le renvoi de son père de Rollins puis sur la fondation du collège ?",
+   "Qu'a-t-elle fait à Swarthmore, et qu'a-t-elle étudié ?",
+   "Comment s'est déroulée sa relation avec Dikka Moen au-delà de la formule de la fiche ?",
+   "Quelles sont les dates et les circonstances de son mariage, de son déménagement en Virginie et de son mandat à la Chambre des délégués ?",
+   "Quelle fut sa relation à son père après 1940 et à sa mort ?"
+  ]
+ }
+}

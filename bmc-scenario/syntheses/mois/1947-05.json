@@ -1,0 +1,302 @@
+{
+ "passe": "mois",
+ "cle": "1947-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5414,
+  "sortie": 13055,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1947-05",
+  "session": "Trimestre de printemps probable : le calendrier en trimestres adopté le 18 mars 1947 évite une pause de trois mois, mais aucune fiche ne nomme la session de mai (déduit).",
+  "saison_et_climat": "Printemps. Les fiches décrivent la ferme au printemps (terres défrichées, arbres plantés sur les pentes érodées du pâturage de montagne) mais ne donnent pas de température ni de climat précis. À Mexico, Albers peint presque jour et nuit, sous un ciel et une lumière qu'aucune fiche ne décrit.",
+  "situation": "Le collège se gouverne sans son pilier. Josef Albers est en sabbatical à Mexico depuis l'automne 1946 (absent de Black Mountain depuis septembre 1946) ; il y arrive fin avril ou début mai selon les sources, qui divergent. Bill Levi, élu recteur en mars avec l'appui de Ted Dreier, forme avec Howard Rondthaler l'équipe de réorganisation : frais relevés, personnel d'entretien et de cuisine renvoyé, déficit 1946-47 évité de justesse, budget 1947-48 en déficit prévu (115 239 $ de recettes contre 119 402 $ de dépenses). Le débat collège ou communauté dure depuis deux ans ; John Wallen a remis sa démission à la mi-mars, sans que les sources s'accordent sur son départ réel. Niebyl n'est pas renouvelé (notifié le 27 mars), deux pétitions étudiantes suivent, le Board se réunit le 8 mai, deux notices sont données le 9 mai et Niebyl part. Molly Gregory a démissionné du secrétariat de la corporation. Toute la gouvernance se noue autour de l'hypothèque de second rang de 16 500 $ détenue par les Dreier. Albers, depuis Mexico, demande une prolongation de congé ; Levi lui répond que l'année a été rude et que les étudiants seraient perdus sans lui ; Albers annote cette lettre comme en partie une réponse du Board (24 mai) ; il écrit aux Dreier (29 mai) puis réclame au moins 1 000 $ pour son second semestre (30 mai). Le collège a voté la fin du stade expérimental et l'admission ouverte à toutes les races, sans enseignant noir recruté ; les étudiants noirs présents vivent presque reclus.",
+  "presents_probables": [
+   {
+    "nom": "Bill Levi (recteur)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Howard Rondthaler",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Niebyl (jusqu'à son départ après le 9 mai)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers (à Mexico avec son mari, non attesté explicitement)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1947-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers arrive à Mexico, à la fin avril ou au début de mai selon les sources qui divergent ; il y restera jusqu'à fin octobre.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "date": "1947-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers, installé à Mexico, demande la prolongation de son congé de douze mois ; Levi lui répond que l'année a été rude et que ses étudiants seraient perdus sans lui.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04106",
+     "SC-01030"
+    ]
+   },
+   {
+    "date": "1947-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers peint la série des Variants/Adobes à Mexico, une couleur, une couche, un thème ; les chiffres d'études varient selon les sources.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "date": "1947-05",
+    "precision": "mois",
+    "ce_qui_arrive": "La ferme du collège est décrite dans son bulletin de mai : compost en piles retournées, machine à traire, stalles cimentées, 4 500 jeunes arbres plantés, 8 acres de la terre de Bennett louées en cultures de printemps ; la génisse Junket met bas un veau noir de race à viande.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04105"
+    ]
+   },
+   {
+    "date": "1947-05-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion du Board of Fellows au sujet du non-renouvellement de Niebyl.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "date": "1947-05-09",
+    "precision": "jour",
+    "ce_qui_arrive": "Deux notices sont données à Niebyl, qui quitte ensuite le collège (date exacte du départ non précisée).",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "date": "1947-05-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers reçoit les trois pages de la lettre de Levi et annote au crayon qu'il la considère en partie comme une réponse du Board of Fellows.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04107",
+     "SC-01031"
+    ]
+   },
+   {
+    "date": "1947-05-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers écrit à Ted et Bobbie Dreier sur la crise financière et de gouvernance ; leurs réponses sont perdues ou détruites.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04108"
+    ]
+   },
+   {
+    "date": "1947-05-30",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers réclame au Board of Fellows au moins 1 000 dollars pour son second semestre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04109"
+    ]
+   }
+  ],
+  "quotidien": "Vie de ferme au printemps : retournement du compost, traite mécanique, abreuvoirs individuels, herses et brouettes repeintes, plantation des pentes érodées, cultures sur les terres louées. Les sources ne documentent ni les repas, ni les cours de mai, ni la musique ce mois-ci. La vie de l'effectif réduit, entre le départ de Niebyl et l'absence d'Albers, n'est pas décrite.",
+  "tensions": [
+   "Levi contre Albers : une lettre qui demande le retour et qu'Albers lit comme une décision du Board.",
+   "Les Dreier et l'hypothèque de 16 500 $ au centre de la gouvernance ; Albers réclame de l'argent au Board.",
+   "Le départ forcé de Niebyl après la réunion du Board du 8 mai et les deux pétitions étudiantes.",
+   "Le débat collège ou communauté, la démission de Wallen et l'opposition des anciens.",
+   "Molly Gregory se sent utilisée comme propriété d'Albers et de Dreier ; Albers l'accuse de l'avoir vendu.",
+   "Réductions de personnel (entretien, cuisine) : économies réelles mais vaisselle cassée et locaux dégradés.",
+   "La question raciale : admission déclarée ouverte à toutes les races, sans enseignant noir recruté ; étudiants noirs isolés dans une ville hostile.",
+   "Art contre collège : la domination de l'art recule, ce qui prépare le conflit du retour des Albers."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Albers lit la lettre de Levi et l'annote",
+    "date": "1947-05-24",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers reçoit les trois pages de Levi, prend un crayon et écrit en haut de la première page qu'elle est en partie une réponse du Board of Fellows. Froideur administrative : le conflit s'inscrit désormais dans les documents.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01031",
+     "EV-04107"
+    ]
+   },
+   {
+    "titre": "Lettres entre Mexico et Black Mountain",
+    "date": "1947-05",
+    "lieu": "Mexico / Black Mountain",
+    "personnages": [
+     "Josef Albers",
+     "Albert William Levi"
+    ],
+    "deroule": "Albers demande une prolongation depuis Mexico. Levi répond que l'année a été rude, que tous sont bouleversés, et demande à Albers s'il sait à quel point il est voulu et nécessaire. Fatigue et appel au retour des deux côtés.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01030",
+     "EV-04106"
+    ]
+   },
+   {
+    "titre": "Réunion du Board et notices données à Niebyl",
+    "date": "1947-05-08",
+    "lieu": null,
+    "personnages": [
+     "Niebyl",
+     "membres du Board of Fellows"
+    ],
+    "deroule": "Le Board se réunit le 8 mai sur le cas Niebyl, dont le non-renouvellement avait été notifié le 27 mars et contesté par deux pétitions. Le 9 mai, deux notices sont données ; Niebyl part.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "titre": "Junket met bas un veau noir",
+    "date": "1947-05",
+    "lieu": "Ferme du collège, Lake Eden",
+    "personnages": [
+     "la génisse Junket",
+     "les éleveurs de la ferme"
+    ],
+    "deroule": "La génisse vagabonde, qui déjoue les plans du troupeau, met bas un veau noir de race à viande, ce qui déconcerte le projet laitier et de boucherie de la ferme.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04105"
+    ]
+   },
+   {
+    "titre": "Albers écrit aux Dreier sur la gouvernance",
+    "date": "1947-05-29",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "Ted Dreier",
+     "Bobbie Dreier"
+    ],
+    "deroule": "Albers écrit aux Dreier au sujet de la crise financière et de gouvernance. Les réponses des Dreier sont perdues ; seule la lettre d'Albers subsiste, et la hypothèque de 16 500 $ en est le nœud.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04108"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Albers, à Mexico en mai, réfléchissant à son absence de Black Mountain",
+    "vers_date": "1946-09",
+    "vers": "Son départ en sabbatique à l'automne 1946 : il quitte le collège et n'y est plus revenu depuis.",
+    "refs": [
+     "EV-04106",
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Levi, en mai, face à la demande de prolongation d'Albers",
+    "vers_date": "1947-03",
+    "vers": "La démission de John Wallen à la mi-mars, que Levi et Rondthaler tentent d'empêcher en redéfinissant sa chaire en community development.",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les lecteurs d'après-guerre qui comparent l'avant-garde de 1947 à celle d'avant 1933",
+    "vers_date": "1920",
+    "vers": "Les années 1920, âge d'or de l'avant-garde et du Bauhaus, avec leur confiance pacifique opposée à l'anxiété atomique de 1947.",
+    "refs": [
+     "EC-02186"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers à Mexico, son retour annoncé",
+    "vers_date": "1947-10",
+    "vers": "Fin octobre, retour attendu au collège, et le conflit entre sa peinture et l'orientation du collège. Bolotowsky le remplace en 1947-48 et les tensions montent entre eux.",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La ferme au printemps 1947",
+    "vers_date": "1947",
+    "vers": "À l'automne, le couple Moles et Trayer inaugure à Lake Eden un régime agricole d'inspiration biologique.",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le collège en mai, avant le renouvellement de l'équipe",
+    "vers_date": "1947-06",
+    "vers": "Frank Rice arrive avec sa famille, logée à Last Chance, pour enseigner l'allemand et relancer l'imprimerie.",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Arthur Penn, dont la proposition du 24 avril lié à l'imprimerie est restée en suspens",
+    "vers_date": "1947",
+    "vers": "À l'automne, Penn s'inscrit comme étudiant régulier et met en scène des sketchs qui causent un petit choc, premiers pas du théâtre au collège.",
+    "refs": [
+     "synthèse 1947"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le débat sur la nature du collège, en mai",
+    "vers_date": "1948",
+    "vers": "Le groupe de Wallen quitte le collège à l'été 1948 selon une source, alors qu'une autre le dit encore en activité en 1947-48.",
+    "refs": [
+     "synthèse 1947"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le pilier absent : Albers à Mexico, son retour espéré par les uns, redouté par les autres.",
+   "Lettre et annotation : le document comme arme de la querelle administrative.",
+   "La dette et l'hypothèque : l'argent comme langage du pouvoir.",
+   "Collège ou communauté : l'identité du lieu en jeu.",
+   "La ferme comme ordre retrouvé, face au chaos de la faculté.",
+   "La race et l'exclusion : une admission déclarée ouverte, une ville hostile.",
+   "Génération et renouvellement : des anciens qui partent, de nouveaux venus à l'horizon."
+  ],
+  "lacunes": "On ignore la session exacte de mai, le climat de Black Mountain et les effectifs présents. Les dates de départ de Niebyl et de Wallen sont imprécises ; les sources divergent sur la date réelle de l'arrivée d'Albers à Mexico (fin avril ou 1er mai) et sur le fait que Wallen enseigne encore en 1947-48. La date de l'arrestation de Leo Krikorian n'est pas donnée et ne peut être placée en mai. Le rôle de Dreier est contradictoire : recteur nominal absent en 1946-47 pour une fiche, soutien de l'élection de Levi en mars pour une autre. L'acceptation du rectorat par Albers est datée de 1947 par une fiche, de 1948 par le reste des sources. Les réponses des Dreier sont perdues."
+ }
+}

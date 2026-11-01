@@ -1,0 +1,262 @@
+{
+ "passe": "personnes",
+ "cle": "Ed Dorn",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5535,
+  "sortie": 2940,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Ed Dorn",
+  "autres_noms": [
+   "Edward Dorn"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant en poésie sous Olson, dernier diplômé du collège (1955), membre du groupe des jeunes poètes d'Olson",
+  "presence": [
+   {
+    "debut": "1951",
+    "fin": "1955-08",
+    "precision": "annee",
+    "role": "Étudiant, imprimeur du texte d'Olson (A Letter for Melville, 1951), poète de l'ère littéraire 1953-1956 ; diplômé en août 1955, l'un des trois derniers de l'école ; vit à Streamside avec Helene et les enfants vers 1954-1955",
+    "refs": [
+     "EV-05325",
+     "EV-06733",
+     "PE-00083",
+     "RE-02737"
+    ]
+   }
+  ],
+  "portrait_physique": "Grand, musculeusement mince, blond ; gilets noirs, bottes noires usées écrasées, lunettes à monture métallique ; profil sculpté façon John Barrymore. Visage maigre, masque parfait même alcoolisé, impénétrabilité faciale enviable. Bondit en montant les descendant les marches. Conduit une minuscule Morris Minor noire et poussiéreuse.",
+  "noyau_psychologique": "Énergie impatiente, ironique, « ornery » : testait toute expérience avant de lui accorder sa reconnaissance, ne supportait pas l'ennui. Observateur distant au regard intense et pénétrant, esprit sournois plus réservé que sa femme. Charmeur et résistant à la fois : il séduit par la voix et le sourire, mais refuse d'entrer dans ce qui le dérange. Un secret structure sa jeunesse : il a menti à l'armée en se disant homosexuel pour échapper à la Corée, et ce mensuel fondateur cohabite avec une dureté réelle envers les homosexuels.",
+  "blessures": "Le mensuel du 4-F — avoir feint l'homosexualité devant la commission de Mattoon — qu'il recouvre d'un aplomb qui ressemble à du dédain. Sans doute aussi la pauvreté de la vie d'étudiant marié avec enfants.",
+  "desirs": "Vivre en poète libre de l'ethos expérimental de Black Mountain : énergie spirituelle, franchise, mépris de la bourgeoisie middle-class. S'échapper du campus (bars d'Asheville vécus comme des vacances). Comprendre Olson plus vite et plus loin que les autres (What I See in the Maximus Poems, 1960).",
+  "peurs": "Que sa simulation devant le draft board le rattrape (le Pentagone durcit face aux simulateurs, homophobie rageuse du Sud) ; être enfermé, ennuyé, défini.",
+  "maniere_d_aimer": "Avec Helene : exigeant, « constamment après elle » nuit après nuit ; elle, épuisée, traits tirés, teint d'argile, n'ose pas protester. Avec les amis : loyauté chaleureuse mais limitée — on peut l'admirer, pas lui confier ce qui le dépasse.",
+  "rapport_au_pouvoir": "Mépris de la bourgeoisie middle-class, méfiance envers l'armée et l'État (draft). En classe, il brave Olson avec le troupeau (affaire Woolf) mais l'idolâtre assez pour comprendre ses Maximus mieux que quiconque. Plus tard, refuse l'étiquette « Black Mountain School of Poets » : pas de superstructure, pas de chapelle.",
+  "voix": {
+   "registre": "Soyeuse, posée, mannered, théâtrale et cinématographique (façon de tenir sa Bull Durham roulée) ; charme et raison en surface, distance dessous",
+   "tics": "Sourire sly, silences espiègles, cigarette Bull Durham tenue avec effet, masque facial impénétrable",
+   "exemples_paraphrases": [
+    "« C'est quelque chose dont nous ne comprenons rien. » — dit avec charme et raison pour clore une confidence gay sans poser de question",
+    "Mépris véhément pour une « love story » de golfeurs middle-class frappant une petite balle blanche",
+    "À Rumaker : être au bar du quartier pauvre est plus éducatif que d'être enfermé dans la vieille bibliothèque Pack"
+   ]
+  },
+  "habitudes": [
+   "Roule ses cigarettes au Bull Durham",
+   "Bondit en montant les descendant les marches",
+   "Découvre les bars d'Asheville avec Dan Rice, sort du campus comme en vacances",
+   "N'aime pas Stan Getz",
+   "Entasse six à huit personnes dans sa Morris Minor"
+  ],
+  "convictions": [
+   "Énergie spirituelle, franchise sexuelle, ethos expérimental de Black Mountain",
+   "Mépris de la bourgeoisie middle-class et de ses fictions (golfeurs, mélodrame)",
+   "L'expérience directe — regarder et écouter dehors — vaut mieux que l'étude enfermée",
+   "Pas de « superstructure » Black Mountain : le label d'école poétique est une reconstruction a posteriori",
+   "Durété sous-jacente envers les homosexuels (après avoir feint de l'être devant le draft board)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Imprime A Letter for Melville d'Olson sur la presse du collège — première entrée dans l'orbite d'Olson",
+    "etat_interieur": "Apprenti typographe et poète, un seul poème paru dans Origin",
+    "refs": [
+     "EV-05325",
+     "PE-00083"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "La classe snobe la nouvelle de Douglas Woolf ; Dorn et Fick les plus véhéments ; Olson les réprimande collectivement pour leur obtusité",
+    "etat_interieur": "Choc d'avoir été piégé par le maître ; humiliation du troupeau",
+    "refs": [
+     "SC-01639",
+     "SC-01708",
+     "EV-06320",
+     "RE-02616"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Vers 1954-1955 : vit à Streamside avec Helene et les enfants ; Wieners prend un « shine » pour lui, admiration mutuelle",
+    "etat_interieur": "Figure admirée des plus jeunes, centre du clan poétique",
+    "refs": [
+     "RE-02638",
+     "RE-02737",
+     "EV-06564"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "mois",
+    "moment": "≈1954-1955 : à Ma Peak's, Rumaker et Wieners se confessent gays ; Dorn répond avec charme : « That's something we don't understand anything about »",
+    "etat_interieur": "Impénétrable ; sous le ton amical, refus de comprendre ; le mensuel de son propre 4-F affleure",
+    "refs": [
+     "SC-01715",
+     "EV-06341",
+     "CI-03137"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "mois",
+    "moment": "Projets de fin d'études sur les Grecs avec Olson : traîne Rumaker de la Pack Library vers un bar blue-collar d'Asheville — la leçon vivante contre la bibliothèque",
+    "etat_interieur": "Joyeusement subversif, persuadé d'obéir à Olson mieux qu'à la lettre",
+    "refs": [
+     "SC-01776",
+     "EV-06569"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "mois",
+    "moment": "Virée à Ma Peak's, puis traversée burlesque du champ de maïs en Morris Minor avec Olson et les autres",
+    "etat_interieur": "Excité, ludique, fêtant prématurément son diplôme",
+    "refs": [
+     "SC-01785",
+     "EV-06593"
+    ]
+   },
+   {
+    "date": "1955-08",
+    "precision": "mois",
+    "moment": "Graduation : cérémonie individuelle, interrogé oralement par tout le corps enseignant ; l'un des trois derniers diplômés de l'école",
+    "etat_interieur": "Sorti d'un collège en train de mourir, avec la peur du monde extérieur (récession, draft) en toile de fond",
+    "refs": [
+     "EV-06733",
+     "EV-06600"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1951",
+    "precision": "periode",
+    "moment": "Un seul poème paru dans Origin avant d'arriver",
+    "refs": [
+     "PE-00083"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "periode",
+    "moment": "Pendant la guerre de Corée, déclare à la commission de draft de Mattoon, Illinois (sa ville natale) qu'il est homosexuel ; si convaincant qu'il reçoit le statut 4-F",
+    "etat_interieur": "Ruse froide, aplomb théâtral",
+    "refs": [
+     "EV-06342",
+     "PE-00083"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1959",
+    "precision": "annee",
+    "moment": "Publie « When the Fairies » — poème d'hostilité envers les homosexuels, inclus dans The New American Poetry de Don Allen",
+    "etat_interieur": "La contradiction du 4-F ressort dans l'écriture",
+    "refs": [
+     "OE-03266",
+     "PE-00083"
+    ]
+   },
+   {
+    "date": "1960",
+    "precision": "annee",
+    "moment": "Inclus dans The New American Poetry ; publie l'essai What I See in the Maximus Poems, qui montre son avance dans la compréhension d'Olson",
+    "refs": [
+     "EV-07269",
+     "OE-03339"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Rétrospectivement (≈1951-1971), conteste l'idée d'une école Black Mountain : pas de superstructure reliant les gens et leurs œuvres",
+    "refs": [
+     "ID-02354"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Charles Olson",
+    "nature": "Maître et élève, puis admiration mutuelle",
+    "evolution": "Conflit en 1954 (Dorn en tête du mépris de la nouvelle de Woolf, Olson furieux), puis complicité chaleureuse (projet grec, traversée du champ de maïs où Olson exulte) ; après le collège, Dorn comprend les Maximus Poems mieux que presque tous",
+    "refs": [
+     "RE-02616",
+     "SC-01639",
+     "EV-06569",
+     "EV-06593",
+     "OE-03339"
+    ]
+   },
+   {
+    "avec": "Helene Dorn",
+    "nature": "Mariage (années 1950), enfants à Streamside",
+    "evolution": "Il exige des rapports nuit après nuit ; Helene, épuisée, a peur de protester ; elle, plus chaleureuse et empathique que lui",
+    "refs": [
+     "RE-01990",
+     "RE-02737",
+     "EV-06344",
+     "PE-00083"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Amitié d'étudiants, virées à Asheville et Ma Peak's",
+    "evolution": "Complicité (bar des collilles, leçon vivante) brisée à demi par l'incompréhension polie de Dorn lors de la confidence gay à Ma Peak's",
+    "refs": [
+     "SC-01715",
+     "SC-01776",
+     "EV-06341"
+    ]
+   },
+   {
+    "avec": "John Wieners",
+    "nature": "Admiration mutuelle après le départ des Dunn",
+    "evolution": "Refroidie par la même incompréhension lors de la confidence à Ma Peak's",
+    "refs": [
+     "RE-02638",
+     "EV-06564",
+     "EV-06341"
+    ]
+   },
+   {
+    "avec": "Jorge Fick",
+    "nature": "Complices de classe, comparses dans le mépris de la nouvelle de Woolf ; tous deux diplômés 1955",
+    "refs": [
+     "SC-01639",
+     "EV-06320",
+     "EV-06733"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Aucune contradiction factuelle nette entre fiches ; tension interne au personnage : il a feint l'homosexualité pour obtenir son 4-F (Rumaker) tout en affichant ensuite incompréhension et hostilité envers les homosexuels (« When the Fairies », 1959) — contradiction que Rumaker souligne lui-même."
+  ],
+  "situations_revelatrices": [
+   "La sortie du placard avortée à Ma Peak's : son masque de charme et de raison se referme sur une confidence",
+   "La réprimande d'Olson après le mépris de la nouvelle de Woolf : le meneur du troupeau humilié par le maître",
+   "Le bar blue-collar d'Asheville contre la bibliothèque : sa pédagogie inversée, vive et fraternelle",
+   "La traversée du champ de maïs en Morris Minor : le joueur, l'instigateur de fête",
+   "La nuit où Helene, épuisée, confie à Rumaker ce qu'elle n'ose pas dire à Ed"
+  ],
+  "citations": [
+   "CI-03137"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, vie familiale avant le collège, circonstances exactes de son arrivée à Black Mountain (été 1951 ?).",
+   "Ce qu'il devient concrètement entre 1955 et 1960 (vie matérielle après la fermeture du collège).",
+   "Sa propre version de l'affaire Woolf et de la soirée à Ma Peak's — tout vient du témoignage de Rumaker.",
+   "Le contenu exact de « When the Fairies » et sa réception.",
+   "Le mariage avec Helene : durée, suites de l'épuisement qu'elle confie en 1955."
+  ]
+ }
+}

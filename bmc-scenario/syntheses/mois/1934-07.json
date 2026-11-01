@@ -1,0 +1,204 @@
+{
+ "passe": "mois",
+ "cle": "1934-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3363,
+  "sortie": 10612,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1934-07",
+  "session": "été : entre les deux années académiques, campus loué à la Blue Ridge Assembly pour ses conférences",
+  "saison_et_climat": "Été. Les fiches ne décrivent ni le temps ni la lumière du campus.",
+  "situation": "Le collège est en pause estivale et le campus est occupé par les conférences de la Blue Ridge Assembly. Albers est à New York pour porter ses bois gravés au MoMA, où Warburg réagit aussitôt. Son contrat BMC expirait le 12 juin ; il est resté à BMC après le refus de Bennington, mais les fiches ne documentent pas son statut contractuel au-delà de juin. La ferme tourne grâce aux roulements d'étudiants de l'été.",
+  "presents_probables": [
+   {
+    "nom": "Fred Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Isabel Mangold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Étudiants en roulement à la ferme",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fermier salarié",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers (à New York, au MoMA)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Edward Warburg (MoMA)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rice (destinataire des bulletins de Mangold ; présence non documentée)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1934-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers se présente au MoMA avec son portefeuille de bois gravés récents, espérant une exposition. Warburg écrit aussitôt à Agnes Mongan (Fogg) et à Charles Sawyer (Addison Gallery).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02346",
+     "SC-00602"
+    ]
+   },
+   {
+    "date": "1934-07",
+    "precision": "saison",
+    "ce_qui_arrive": "Le campus est loué à la Blue Ridge Assembly ; environ neuf cents adventistes occupent les lieux pendant que Fred et Isabel Mangold le gardent.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "date": "1934-07",
+    "precision": "saison",
+    "ce_qui_arrive": "Les étudiants assurent la ferme par roulements estivaux ; la récolte collective est reportée à l'automne.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1934"
+    ]
+   }
+  ],
+  "quotidien": "Travail agricole par roulements étudiants, sans date précise dans les fiches. Fred et Isabel Mangold gardent les lieux et écrivent à Rice des bulletins moqueurs sur les occupants adventistes. Un fermier salarié fournit environ la moitié des légumes du réfectoire (période non précisée). Les cours, la musique et le rythme du réfectoire en juillet ne sont pas documentés.",
+  "tensions": [
+   "Albers veut être reconnu comme artiste et non seulement comme professeur, alors que le MoMA n'accueille pas son projet ; seule l'Addison acceptera plus tard.",
+   "Statut d'Albers après le 12 juin : contrat expiré, candidature à Bennington refusée en avril, maintien à BMC sans nouveau contrat documenté.",
+   "Fragilité financière du collège, que la hausse budgétaire de juin (surtout pour les bourses) ne résout pas.",
+   "Un campus loué à des conférenciers adventistes, que les Mangold tournent en dérision, alors que le collège veut se montrer.",
+   "Tension latente entre Rice et Georgia : Rice regrettera bientôt de l'avoir fait recteur, mais cela n'apparaît dans les fiches qu'à l'automne."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Albers apporte ses bois gravés au MoMA",
+    "date": "1934-07",
+    "lieu": "Bureau d'Edward Warburg, Museum of Modern Art, New York",
+    "personnages": [
+     "Josef Albers",
+     "Edward M. M. Warburg"
+    ],
+    "deroule": "Albers se présente avec son portefeuille, un an après son arrivée à BMC, espérant une exposition au musée. Warburg lui répond que plusieurs musées ont déjà demandé cette exposition et écrit sans attendre à Mongan et à Sawyer.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00602",
+     "EV-02346"
+    ]
+   },
+   {
+    "titre": "Bulletins moqueurs depuis le campus loué",
+    "date": "1934-07",
+    "lieu": "Campus de Black Mountain College, occupé par la Blue Ridge Assembly",
+    "personnages": [
+     "Fred Mangold",
+     "Isabel Mangold",
+     "Rice (destinataire)"
+    ],
+    "deroule": "Les Mangold gardent le campus pendant les conférences et envoient à Rice des bulletins ironiques sur les neuf cents « crétins végétariens » adventistes.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "titre": "Travail d'été à la ferme",
+    "date": "1934-07",
+    "lieu": "Ferme du collège",
+    "personnages": [
+     "Étudiants en roulement",
+     "Fermier salarié"
+    ],
+    "deroule": "Les étudiants se relaient aux champs pendant que le fermier salarié s'occupe de la production qui approvisionne le réfectoire ; la moisson collective est pour l'automne.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1934"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, pendant la visite au MoMA, à l'heure où Albers pèse son avenir",
+    "vers_date": "1934-04-06",
+    "vers": "Refus de Leigh à la candidature de Bennington : il lui faut une personne « plus essentiellement américaine ». Albers avait répondu en allemand.",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet, après la parution du Bulletin n° 2 qui porte son nom",
+    "vers_date": "1934-06",
+    "vers": "« Concerning Art Instruction » d'Albers, traduit par Ted Dreier, où le dessin passe au centre et où Albers avoue que la plupart des étudiants ne deviendront pas artistes.",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, après la lettre de Warburg à Sawyer",
+    "vers_date": "1935",
+    "vers": "L'Addison Gallery accepte les estampes d'Albers et organise une exposition d'estampes ; le MoMA n'accueille pas le projet.",
+    "refs": [
+     "EV-02346",
+     "SC-00602"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, avant la rentrée",
+    "vers_date": "1934-09",
+    "vers": "Clara Porset vient de La Havane voir l'enseignement d'Albers, en est conquise et l'invite à Cuba.",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, avant la rentrée d'automne",
+    "vers_date": "1934-11",
+    "vers": "À Thanksgiving, Robert Wunsch trouve un collège tourné vers lui-même ; les étudiants lèvent mille dollars pour son salaire, ce qui crée du ressentiment chez une partie de la faculté.",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, au campus encore occupé par la Blue Ridge",
+    "vers_date": "1934-12-28",
+    "vers": "Les Albers, avec Ted et Bobbie Dreier, partent pour Cuba : premier de plus de quatorze voyages en Amérique latine jusqu'en 1956.",
+    "refs": [
+     "synthèse 1934"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet, les visiteurs du collège se multiplient",
+    "vers_date": null,
+    "vers": "Première visite de John Dewey, qui suit chaque jour le cours de Rice ; une autre visite l'amène avec Albert Barnes. La date exacte n'est pas donnée.",
+    "refs": [
+     "synthèse 1934"
+    ]
+   }
+  ],
+  "motifs": [
+   "La visibilité de l'émigré : être reconnu comme artiste et pas seulement comme enseignant.",
+   "Le campus comme ressource louée pendant que le collège se montre au dehors.",
+   "L'art au centre du curriculum, et la ferme comme travail collectif et autosuffisance.",
+   "Le mécénat rapide (Warburg) face à l'incertitude financière de BMC."
+  ],
+  "lacunes": "Aucune date précise à l'intérieur de juillet, sauf l'avant-fin-juillet de la visite au MoMA. Les fiches ne disent rien du climat, de la présence de Rice, d'Anni Albers ou de Ted Dreier ce mois-ci, ni du statut contractuel d'Albers après le 12 juin. On ignore aussi la date de réponse de Mongan, et la date de la décision de l'Addison."
+ }
+}

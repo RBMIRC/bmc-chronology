@@ -1,0 +1,336 @@
+{
+ "passe": "mois",
+ "cle": "1955-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 11049,
+  "sortie": 16930,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "juin 1955 (1955-06)",
+  "session": "Fin du trimestre de printemps, probablement. La lettre du 5 juin parle d'un trimestre « gaspillé » et renvoie la graduation de Rumaker à la fin de l'été. Aucune session d'été n'est attestée : ce cadre est déduit.",
+  "saison_et_climat": "Début d'été. Le 5 juin, un torrent gronde au dehors de l'étude de Rumaker. Les fiches ne disent rien de la chaleur ni de la pluie au-delà de cet indice.",
+  "situation": "Le collège survit en autarcie sur un campus en partie fermé : moitié basse abandonnée, ferme à l'arrêt, forêts louées aux bûcherons. La crise de la forclusion se dénoue ce mois-ci. Mary Fiore réunit 5 250 $ par sa famille, l'argent est mis en séquestre, et Forbes, qui avait fixé l'exigibilité au 29 juin, renvoie les documents avec un mot amer sur Olson. Nell Rice part en congé permanent. Creeley revient de Majorque dans une dégradation personnelle. Les effectifs sont réduits, sans chiffre pour juin.",
+  "presents_probables": [
+   {
+    "nom": "Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Creeley",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Kaiser",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Richard Bogart",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wieners",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tom Field",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ed Dorn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jerry Van de Wiele",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Chamberlain",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Fick",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1955-06-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Échéance fixée par Forbes pour l'exigibilité de la dette. La date vient de la synthèse de l'année, non de la fiche EV-06724. La forclusion est évitée grâce à l'argent de Mary Fiore.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06724"
+    ]
+   },
+   {
+    "date": "1955-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Mary Fiore réunit par sa famille les 5 250 $. Huss notifie que la somme est en séquestre, en attendant les billets annulés et l'acte de fiducie. Forbes retourne les documents avec un mot bref qui regrette la fin de la collaboration et son manque de foi en Olson.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06724"
+    ]
+   },
+   {
+    "date": "1955-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Nell Rice, aliénée du collège depuis 1954, part en congé permanent une fois les deux affaires réglées.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06725"
+    ]
+   },
+   {
+    "date": "1955-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Creeley revient de Majorque alors que la situation du collège s'est encore dégradée. Sa rupture conjugale imminente le hante.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06726"
+    ]
+   },
+   {
+    "date": "1955-06-05",
+    "precision": "jour",
+    "ce_qui_arrive": "Rumaker tape à la machine une longue lettre à Olson : trimestre gaspillé, Shakespeare inaccessible, angoisse de l'oral devant toute la faculté, projet de graduate school, question de ce qui reste à faire avant la fin de l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06727",
+     "SC-01820"
+    ]
+   },
+   {
+    "date": "1955-06-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Rumaker emprunte 50 $ de plus au collège, aux mêmes conditions, ce qui lui permet de rester jusqu'à début septembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06728"
+    ]
+   },
+   {
+    "date": "1955-06",
+    "precision": "mois",
+    "ce_qui_arrive": "À Ulm, les vingt-six étudiants d'Albers lui offrent un scrapbook avec la liste de leurs noms. Contrepoint lointain au collège.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01819"
+    ]
+   },
+   {
+    "date": "1955-05-19",
+    "precision": "periode",
+    "ce_qui_arrive": "Albers enseigne à nouveau à la Hochschule für Gestaltung d'Ulm jusqu'au 9 août. Le voyage mexicain d'Anni avec Sewell Sillman est annulé par la maladie du frère de Sewell. Trois fiches redondantes décrivent ce séjour.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06718",
+     "EV-06719",
+     "EV-06720"
+    ]
+   },
+   {
+    "date": "1955-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Le numéro d'été de la Black Mountain Review, qui publie « Sound of Talking » de James Purdy, est attendu à cette période. Sa date exacte n'est pas donnée.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "quotidien": "Vie d'autarcie : cuisine commune en petits groupes, achats et brocante de meubles, tables et réfrigérateurs revendus pour garder l'école à flot, ferme à l'arrêt, ateliers et cours réduits. Les étudiants cherchent les distractions au Ma Peak's, à Asheville ou au softball du dimanche. Les fêtes ont migré dans le hall de Streamside. Rumaker travaille sur Shakespeare et sur ses examens, et les nuits d'Olson et Betty s'entendent à travers le plafond de Meadows Inn.",
+  "tensions": [
+   "Rumaker, épuisé par la graduation, dépend d'Olson pour son avenir comme pour sa dette.",
+   "Creeley glisse dans l'alcool et la drogue, et ses étudiants doivent le ramener.",
+   "Le sursis du collège dépend d'une famille (les Fiore), non de ses dirigeants : Forbes méprise Olson et Nell Rice s'en va.",
+   "Olson est pris entre Betty et Connie, dont la rupture est en cours après l'affaire de mai avec Chamberlain.",
+   "Jake a été chassé après la fête de mai, et la réputation de ville fantôme persiste.",
+   "Les professeurs n'ont toujours pas été payés, et la dette de Rumaker grossit à chaque avance."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La lettre tapée sur le piano",
+    "date": "1955-06-05",
+    "lieu": "Étude de Rumaker, Black Mountain College",
+    "personnages": [
+     "Rumaker",
+     "Olson (destinataire)"
+    ],
+    "deroule": "Rumaker tape sur le vieux piano droit de Merrill une longue lettre à Olson. Il dit avoir gaspillé le trimestre, décrit Shakespeare comme une vitre qu'il voit sans pouvoir la franchir, se compare à un crapaud, redoute l'oral devant la faculté et demande ce qui reste à faire avant la fin de l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06727",
+     "SC-01820"
+    ]
+   },
+   {
+    "titre": "Le compte à rebours de la forclusion",
+    "date": "1955-06",
+    "lieu": null,
+    "personnages": [
+     "Mary Fiore",
+     "Wes Huss",
+     "Forbes (par lettre)"
+    ],
+    "deroule": "Mary Fiore apporte les 5 250 $ réunis par sa famille. Huss notifie la mise en séquestre, et Forbes retourne les documents avec un mot bref. La scène se joue surtout par écrit, dans le temps qui reste avant le 29 juin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06724"
+    ]
+   },
+   {
+    "titre": "Le départ de Nell Rice",
+    "date": "1955-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Nell Rice"
+    ],
+    "deroule": "Une fois les affaires réglées, Nell Rice, qui ne trouvait plus ni fonction ni style de vie conforme au sien, part en congé permanent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06725"
+    ]
+   },
+   {
+    "titre": "Le retour de Creeley",
+    "date": "1955-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Creeley",
+     "étudiants"
+    ],
+    "deroule": "Creeley revient de Majorque, rongé par sa rupture conjugale. Il entre dans la spirale d'alcool, de marijuana et de monologues. La suite (Ma Peak's, accusations) se situe plutôt en juillet-août ; seul le retour est attesté pour juin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06726"
+    ]
+   },
+   {
+    "titre": "Le cadeau des étudiants d'Ulm",
+    "date": "1955-06",
+    "lieu": "HfG Ulm",
+    "personnages": [
+     "Josef Albers",
+     "étudiants du cours"
+    ],
+    "deroule": "Les vingt-six étudiants offrent à Albers un scrapbook avec la liste de leurs noms. Scène de gratitude qui montre une pédagogie traversant les générations et les frontières.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01819"
+    ]
+   },
+   {
+    "titre": "Cinquante dollars de plus",
+    "date": "1955-06-13",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rumaker",
+     "le collège"
+    ],
+    "deroule": "Rumaker obtient 50 $ supplémentaires aux mêmes conditions, ce qui lui permet de rester jusqu'à début septembre. Si l'on additionne la reconnaissance de dette du 29 mars (287,50 $) et cette avance, la dette atteint 337,50 $ (déduction).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06728"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker dans son étude, en entendant les nuits d'Olson et Betty à travers le plafond",
+    "vers_date": null,
+    "vers": "L'enfance dans la maison exiguë du New Jersey, où il écoutait les ébats de ses parents à travers les cloisons de papier",
+    "refs": [
+     "EC-03158"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, après la menace de Jake brandissant une bouteille cassée à la fête de mai",
+    "vers_date": null,
+    "vers": "Les coups de ceinture et de pied de son père ivre, qui accusait sa mère à travers la cloison",
+    "refs": [
+     "EC-03174"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, en repensant à la fête de Streamside en mai",
+    "vers_date": null,
+    "vers": "Les moonshine dances des premières années, où presque tout le collège venait et où le hall servait de lieu de fête",
+    "refs": [
+     "EC-03169"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker en juin, sensible aux accidents du printemps",
+    "vers_date": "1955-08",
+    "vers": "Le cabriolet rouge qui s'écrase devant Meadows Inn, que Rumaker lira comme le présage du commencement de la fin",
+    "refs": [
+     "EC-03164"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker en juin, qui boit du bourbon bon marché au collège",
+    "vers_date": null,
+    "vers": "L'alcool devenu besoin central après Black Mountain",
+    "refs": [
+     "EC-03173"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker en juin 1955, dans un collège qui s'éteint",
+    "vers_date": "1957",
+    "vers": "La fermeture de Black Mountain, que Rumaker lit comme un accouchement enfin survenu : les idées et les formes dispersées dans le monde",
+    "refs": [
+     "EC-03183",
+     "EC-03179"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker en juin, avec la phrase « vectors of force » d'Olson qu'il mâche pendant des jours",
+    "vers_date": "1955-10",
+    "vers": "La lettre de Duncan du 7 octobre qui juge rétrospectivement les trois essais présentés",
+    "refs": [
+     "EC-03128",
+     "EC-03130"
+    ]
+   }
+  ],
+  "motifs": [
+   "la vitre de verre et le crapaud : le savoir inaccessible",
+   "la dette comme lien de faveur et de dépendance",
+   "le torrent et le lac : l'eau comme menace",
+   "présages et accidents qui annoncent la fin",
+   "la fête comme étreinte du passé",
+   "l'écoute des nuits à travers les cloisons",
+   "Olson comme dieu vivant aux pieds d'argile"
+  ],
+  "lacunes": "Les fiches ne donnent ni la session exacte, ni la météo, ni l'effectif de juin, ni la présence certaine d'Olson, Chamberlain, Wieners ou Dorn ce mois-ci. La date du 29 juin vient de la synthèse, non d'une fiche datée. Les fiches EV-06718, EV-06719 et EV-06720 décrivent le même séjour d'Albers à Ulm, avec des formulations redondantes. La date du numéro d'été de la Review reste inconnue."
+ }
+}

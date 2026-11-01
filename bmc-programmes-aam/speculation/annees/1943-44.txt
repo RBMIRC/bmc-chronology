@@ -1,0 +1,56 @@
+#annee 1943-44
+#catalogue speculation/catalogues/1943-44.txt 2017.40.124a-e+2017.40.025+2017.40.021+2017.40.018
+#periodes 08:15,09:15,10:15,11:15 16:00 55
+> ## 1943-44 : une liste de cours complète, sans grille
+>
+> **Les sources.** Le Summer Bulletin 15 (2017.40.124a-e, 13 septembre 1943) donne la liste complète des cours de l'année : enseignant, heures par semaine, trimestres. Les « Annual Announcements » de novembre 1943 (2017.40.025) répartissent les cours entre automne, hiver et printemps (F, W, S). Les cours sont donc presque tous attestés pour l'année même, avec leur enseignant (MEME_ANNEE + R_ATTESTE, 0 %). Restent supposés le jour et l'heure de chaque séance, et parfois le volume. Aucune grille horaire de 1943-44 ne figure au musée : la première grille complète de l'année scolaire est celle de l'automne 1944 (2017.40.176a-h).
+>
+> **1. Le cadre** (calendrier attesté) :
+> - « Tous les trimestres commencent un mardi et finissent un samedi » ;
+> - automne du 28 septembre au 11 décembre 1943 ;
+> - vacances d'hiver jusqu'au lundi 17 janvier à minuit ;
+> - hiver du 18 janvier au 31 mars 1944, avec un Interlude du 6 au 13 mars ;
+> - printemps d'avril au 17 juin, sans vacances entre l'hiver et le printemps, avec un Interlude du 24 au 29 mai.
+>
+> L'été 1944 (Music Institute, Art Institute, Summer School) est connu par la grille de 2017.40.162a-e et n'est pas reconstitué.
+>
+> **2. L'horaire.** Les cours reprennent le 18 janvier « at 8:15 ». La matinée finit à 12 h 15 : le trimestre d'automne s'achève « on Saturday, December 11 at 12:15 », et « Lunch will be served as usual at 12:15 » (22 nov. 1943). Les périodes de 55 minutes de 1942-43 (8:15, 9:20, 10:25, 11:30) ne tiennent plus dans cette matinée. J'en déduis quatre périodes de 55 minutes séparées par 5 minutes : 8:15, 9:15, 10:15, 11:15, plus 16 h l'après-midi. Cette grille est déduite, pas attestée.
+> - Quand la liste donne la forme des séances, elle est suivie : « two 1½-hour periods » pour l'eukinétique avancée et les Philosophical Classics, une séance de 2 h le soir pour l'eukinétique de la communauté, 5 h de calcul, 5 h + 4 h de laboratoire pour Matter and Energy.
+> - Le travail occupe « three afternoons a week » (bulletin d'octobre 1943).
+>
+> **3. Les personnes** (2017.40.021 et bulletins) : Josef et Anni Albers, Cohen, Jalowetz, Lowinsky, les Straus, Kahl, Wunsch (recteur), Kurtz, de Graaff, Dreier, Hansgirg, Bentley, Miller. S'y ajoutent :
+> - **Clark Foreman** (histoire américaine, gouvernement) ;
+> - **Paul Radin**, qui arrive enfin pour l'hiver (anthropologie, Amérique latine, espagnol) ;
+> - **McGuire Wood** (construction, dessin mécanique), **Molly Gregory** (menuiserie), **Robert C. Orr** (économie), **Gorman Mattison** (marketing).
+>
+> Kocher est en congé, et Voigt est parti : la biologie n'est pas donnée.
+>
+> **4. Le rythme de la semaine**, attesté par les bulletins :
+> - réunion de la faculté et des officiers étudiants le mardi à 16 h 30 ;
+> - Board of Fellows le mardi vers 15 h 45 ;
+> - réunion des étudiants le jeudi à 19 h ;
+> - conférence le jeudi à 20 h ;
+> - résumé des nouvelles le lundi soir ;
+> - International Relations Club le lundi à 18 h 45 au printemps ;
+> - programme musical du dimanche soir chez les Lowinsky à l'hiver ;
+> - concerts et soirées du samedi.
+
+S|semaine|||calendrier|Semaine de cours, {terme} (calendrier des trimestres 1943-44 : annonces et bulletins)|||aucun congé attesté dans la semaine|SEMAINE|2017.40.025+2017.40.125a-d
+
+S|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||heure : bulletins de 1944-45 (année voisine)|SEMAINE+VOISIN|2017.40.172a-g
+S|lun-sam|12:15|13:00|social|Déjeuner en commun|Communauté||« Lunch will be served as usual at 12:15 P.M. » (22 nov. 1943) ; fin non attestée|SEMAINE|2017.40.134a-c
+S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins de 1944-45 ; fin non attestée|SEMAINE+VOISIN|2017.40.172a-g
+S|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||usage de 1944-45|SEMAINE+VOISIN|2017.40.172a-g
+S|dim|13:00|14:00|social|Dîner du dimanche|Communauté||usage de 1944-45|SEMAINE+VOISIN|2017.40.172a-g
+S|dim|18:00|18:45|social|Souper froid du dimanche|Communauté||« Cold supper » le dimanche (1944-45), heure non donnée|SEMAINE+VOISIN+HEURE|2017.40.172a-g
+
+S|lun,mer,ven|13:30|16:00|travail|Community Work Program : ferme, bois, mica, charbon, construction (équipes)|Mac Wood; Molly Gregory||« three afternoons a week » (bulletin du 4 oct. 1943) ; résumés hebdomadaires du Work Program dans les bulletins ; jours choisis|SEMAINE+JOUR+HEURE_CADRE|2017.40.126.01a-g|fall,winter,spring
+S|lun|18:40|19:00|conference|Résumé et commentaire des nouvelles de la semaine|Communauté|Lobby of North Lodge|« Weekly news summary and commentary » le lundi à 18 h 40 (automne 1943)|SEMAINE|2017.40.135a-e|fall,winter
+S|lun|18:45|19:45|reunion|International Relations Club|International Relations Club|Lobby of North Lodge|réunions du lundi à 18 h 45 attestées neuf fois au printemps 1944|SEMAINE|2017.40.143a-d+2017.40.144a-c|spring
+S|mar|16:30|17:45|reunion|Réunion de la faculté et des officiers étudiants|Faculty; student officers|Kocher Room|attestée dix-sept fois le mardi à 16 h 30 en 1943-44 ; fin non attestée|SEMAINE+HEURE_CADRE|2017.40.130a-c+2017.40.133a-g|fall,winter,spring
+S|mar|15:30|16:30|reunion|Board of Fellows|Board of Fellows|Study 10|« regular weekly meeting on Tuesday afternoon » à 15 h 30 ou 15 h 45 (1943-44)|SEMAINE+HEURE_CADRE|2017.40.130a-c|fall,winter,spring
+S|jeu|19:00|20:00|reunion|Réunion hebdomadaire des étudiants|Students|Lobby of North Lodge|« The students will hold their regular weekly meetings… on Thursday evening at 7:00 » (dix-neuf fois)|SEMAINE|2017.40.131a-c|fall,winter,spring
+S|jeu|20:00|21:00|conference|Conférence du jeudi soir (visiteur ou membre de la faculté) : possible|Communauté|Dining hall|conférences du jeudi à 20 h attestées en 1943-44 (Hardin, Grant, Boring, Knaths, Dehn…)|OCCASION|2017.40.133a-g+2017.40.145a-e|fall,winter,spring
+S|dim|20:00|21:30|concert|Programme musical informel du dimanche soir chez les Lowinsky|Edward Lowinsky; Gretel Lowinsky|Black Dwarf|attesté chaque dimanche de l'hiver 1944 (2017.40.143a-d) ; ailleurs possible|OCCASION|2017.40.143a-d|fall,spring
+S|sam|20:15|21:30|concert|Concert, disques commentés ou programme du samedi soir : possible|Music Department|Dining hall|concerts du samedi à 20 h ou 20 h 30 attestés une douzaine de fois|OCCASION+HEURE_CADRE|2017.40.141a-d+2017.40.144a-c|fall,winter,spring
+S|mar,ven|20:30|22:00|theatre|Répétition de la pièce en cours|Robert Wunsch||productions : The Importance of Being Earnest (8 déc. 1943), Outward Bound (8 avril 1944), More Straw for the Scarecrow (avril 1944)|SEMAINE+JOUR+HEURE|2017.40.136a-d+2017.40.150a-g|fall,winter,spring

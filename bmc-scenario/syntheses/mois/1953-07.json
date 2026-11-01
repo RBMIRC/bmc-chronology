@@ -1,0 +1,496 @@
+{
+ "passe": "mois",
+ "cle": "1953-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 13911,
+  "sortie": 17082,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1953-07",
+  "session": "Summer Institute, session d'été 1953 (juin à août), dernière grande session du collège",
+  "saison_et_climat": "Été : lumière du matin sous le Studies Building sur les galets dorés et le gravier fauve, soirs au crépuscule, pins sonores (chouettes-hulottes, engoulevents), chauves-souris qui volent bas. Les fiches ne donnent ni température ni précision sur la chaleur ou la pluie.",
+  "situation": "Le collège vit sa dernière grande session d'été, avec ateliers, concerts, fêtes et visiteurs, mais sous une pression matérielle croissante : la nourriture manque déjà, la ferme et les bourses de travail s'effondrent, et le repli d'automne se prépare. Olson dirige de fait le collège depuis 1950 et doit être nommé recteur officiel après le Summer Art Institute. Josef Albers est au Chili depuis le milieu de juin (arrivée à Santiago le 14 juin) : il est probablement absent du campus ce mois-ci. Dawson part pour être incorporé à Saint-Louis, et l'armistice coréen est signé fin juillet.",
+  "presents_probables": [
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Connie Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hilda Morley",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Vicente (enseignant de dessin)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "David Tudor",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Irma Wolpe Rademacher",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hans Rademacher",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Stefan Wolpe",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lou Harrison",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Ann Fretz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Seymour Barab",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Le jeune pianiste allemand, protégé d'Irma Wolpe (non nommé)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tim La Farge",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bea Huss",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Karen Karnes",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Merrill",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Herlihy",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bill McNeil",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cunningham et ses sept danseurs",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dawson (jusqu'à son départ pour l'armée)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fiola (orthographe incertaine, peut-être Flola Shepard)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Malrey Few",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1953-06-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Josef et Anni Albers arrivent à Santiago pour un séjour d'environ six semaines d'enseignement ; Josef est donc hors du campus pendant la session d'été",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06216",
+     "EV-06213",
+     "EV-06214"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Cours de dessin d'après modèle nu sous le Studies : Vicente circule entre les chevalets et complimente Rumaker ; Mary Ann Fretz, Tim La Farge et Hilda Morley posent nus sur les galets",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06196",
+     "EV-06197",
+     "EV-06198",
+     "EV-06199"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Cunningham arrive avec sept danseurs sans salaire et crée quatre danses en six semaines ; Tudor sauve Banjo, que les danseurs n'aimaient pas, et dispute le solo avec Cunningham",
+    "certitude": "probable",
+    "refs": [
+     "EV-05940",
+     "EV-05945",
+     "EV-05947",
+     "EV-05948"
+    ]
+   },
+   {
+    "date": "1953-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Dawson descend la route vers Saint-Louis pour son incorporation ; Olson, assis sur les marches, le regarde partir avec indifférence",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06217"
+    ]
+   },
+   {
+    "date": "1953-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Armistice de Corée signé fin juillet : soulagement de Dawson, mais angoisse et sentiment aigu de perte de lieux aimés persistent",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06218"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "La nuit où Tudor, à bout, fait taire la bande de la cuisine pendant son répétition de Mozart, puis abandonne et repart",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06202",
+     "SC-01678"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Le jeune pianiste protégé d'Irma Wolpe joue la Deuxième Sonate de Boulez au concert du samedi soir ; Olson : « He has soul »",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06204",
+     "SC-01679"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Lettre de Boulez en écriture minuscule et en français, étalée chez Ma Peak's après une corvée ; personne ne parvient à la déchiffrer",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06206",
+     "SC-01680"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Au crépuscule devant Meadows Inn, Olson demande à Rumaker le sens de « manqué » ; Rumaker répond « mistaken » et s'en veut pendant des jours",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06207"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Seymour Barab, violoncelliste du trio d'été, croise le regard de Mary Ann Fretz ; elle deviendra sa maîtresse puis sa femme en moins d'un an",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06205",
+     "EC-02988"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Black Arts Ball pour les quarante-cinq ans de Wes Huss ; Karen Karnes joue Ophélie nue sur le radeau, Rumaker se costume en Bacchus",
+    "certitude": "probable",
+    "refs": [
+     "EV-06039",
+     "EC-02977"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Incidents racistes : gong d'incendie sonné par des voyous, Cadillac qui crie des insultes, refus de servir une visiteuse indienne chez Ma Peak's",
+    "certitude": "probable",
+    "refs": [
+     "EV-06048",
+     "EV-06049",
+     "EV-06050"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Pénurie alimentaire : la nourriture disparaît cinq minutes après le gong, et le poker se joue autour du casier frigorifique crocheté",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05935",
+     "EV-05936"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Première lecture publique de Rumaker avec Dawson ; Wolpe lui dit qu'il « ne sait pas encore mentir »",
+    "certitude": "probable",
+    "refs": [
+     "EV-06042",
+     "SC-01626"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "session",
+    "ce_qui_arrive": "Bill McNeil quitte le collège pendant l'été",
+    "certitude": "probable",
+    "refs": [
+     "EC-02921"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Nomination officielle d'Olson comme recteur, après la fin du Summer Art Institute",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06103"
+    ]
+   }
+  ],
+  "quotidien": "Matin : dessin d'après modèle nu sous le Studies, Vicente passant de chevalet en chevalet. Repas au gong, les plats disparaissent en quelques minutes. Corvées de cuisine et de réfectoire, la bande nocturne bavarde sous le rack à marmites. Après les corvées, ales chez Ma Peak's. Cours de français et promenades jusqu'au Meadows Inn au crépuscule. Concerts du samedi soir au réfectoire, sur le Steinway ; Tudor répète de nuit, puis rentre à pied vers le Music House isolé, sans électricité. Répétitions de Cunningham et de ses danseurs. Anniversaires et fêtes, dont le bal de Huss. Poker autour du casier frigorifique.",
+  "tensions": [
+   "Tudor contre la bande nocturne de la cuisine : le musicien le plus doux se heurte à la tradition du bavardage",
+   "Olson contre Rumaker : vénération, désir de plaire et humiliation publique",
+   "Cunningham contre Tudor sur le solo, et les danseurs qui rejettent Banjo",
+   "Irma Wolpe, technique mécanique, contre le jeune pianiste à la sensibilité brute",
+   "La pénurie alimentaire et l'effondrement des bourses de travail et de la ferme",
+   "Racisme ambiant : gong d'incendie, insultes, refus de servir une visiteuse indienne",
+   "Angoisse de Dawson face à l'incorporation et à la perte des lieux aimés",
+   "Absence d'Albers pendant l'été et distance avec Paris via la lettre illisible de Boulez"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Hilda Morley entre nue sur les galets",
+    "date": null,
+    "lieu": "Sous le Studies, plateforme sur galets dorés",
+    "personnages": [
+     "Hilda Morley",
+     "Vicente",
+     "Michael Rumaker"
+    ],
+    "deroule": "En pleine matinée, Hilda Morley franchit les doubles portes en robe de velours bleu foncé, la retire sans hésiter et pose. Rumaker, qui la connaît comme professeur habillée de James et de métaphysique, est déstabilisé puis se met à dessiner. Vicente s'arrête devant son chevalet et complimente le croquis, première reconnaissance artistique de Rumaker.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01676",
+     "EV-06199"
+    ]
+   },
+   {
+    "titre": "Lulu écouté chez Lou Harrison",
+    "date": null,
+    "lieu": "Streamside, appartement du deuxième étage",
+    "personnages": [
+     "Lou Harrison",
+     "Michael Rumaker",
+     "une visiteuse blonde à lunettes"
+    ],
+    "deroule": "Harrison choisit un petit groupe pour écouter Lulu sur un phonographe portatif, « seulement ceux qui sont vraiment intéressés ». Il ponctue la musique de grimaces extatiques et de commentaires, tandis qu'une visiteuse bavarde tricote de l'argyle pendant tout l'opéra. Pour Rumaker, c'est la première fois qu'il entend Berg.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01677",
+     "EV-06200"
+    ]
+   },
+   {
+    "titre": "La nuit où Tudor fit taire la cuisine",
+    "date": null,
+    "lieu": "Réfectoire et cuisine, la nuit",
+    "personnages": [
+     "David Tudor",
+     "la bande de la cuisine",
+     "Michael Rumaker"
+    ],
+    "deroule": "Tudor répète son Mozart dans le réfectoire obscurci, bute sur un passage, puis surgit au guichet pour ordonner le silence. Après un bref silence stupéfait, le bruit reprend. Il claque le couvercle et la partition, reprend plus faiblement, multiplie les erreurs et abandonne dans la nuit. La bande crie « How dare he! ».",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01678",
+     "EV-06202"
+    ]
+   },
+   {
+    "titre": "« He has soul » : le jeune Allemand joue Boulez",
+    "date": null,
+    "lieu": "Réfectoire, concert du samedi soir",
+    "personnages": [
+     "le protégé allemand d'Irma Wolpe",
+     "Charles Olson",
+     "le public"
+    ],
+    "deroule": "Le pianiste taciturne joue la Deuxième Sonate de Boulez avec une intensité qui captive tout le monde, chauves-souris comprises. À la fin, Olson se lève, bouleversé, et proclame « He has soul ». Le jeune homme salue timidement depuis le banc du piano, sous les applaudissements. Le souffle s'oppose à la mécanique d'Irma.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01679",
+     "EV-06204"
+    ]
+   },
+   {
+    "titre": "La lettre de Boulez chez Ma Peak's",
+    "date": null,
+    "lieu": "Ma Peak's",
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker",
+     "Wesley Huss",
+     "Dan Rice",
+     "peut-être Stefan Wolpe"
+    ],
+    "deroule": "Après une corvée, autour d'ales, Olson étale la lettre de Boulez, en français et en écriture minuscule. Chacun tente de la déchiffrer, Rumaker avec son « spotty French », mais personne n'y arrive. Rumaker savoure de voir Olson frustré par une écriture aussi illisible que la sienne.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01680",
+     "EV-06206"
+    ]
+   },
+   {
+    "titre": "Dawson part pour l'incorporation",
+    "date": "1953-07",
+    "lieu": "Marches de la salle à manger, route vers Saint-Louis",
+    "personnages": [
+     "Charles Olson",
+     "Dawson"
+    ],
+    "deroule": "Olson, assis sur les marches, regarde Dawson descendre la route vers Saint-Louis. Olson reste indifférent, alors que Dawson est mort de peur. Quatre ans de proximité s'achèvent là.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06217"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Été 1953, Rumaker découvre Olson nu dans son lit",
+    "vers_date": null,
+    "vers": "L'aube d'hiver de l'enfance où le père, en caleçon, ouvre la fenêtre ébréchée ; Olson devient une figure paternelle",
+    "refs": [
+     "EC-02904"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Amitié Olson-Metcalf au collège, été 1953",
+    "vers_date": null,
+    "vers": "Années 1930 : Olson, jeune et pauvre, hébergé par la famille Melville, accès aux papiers de Melville",
+    "refs": [
+     "EC-02906"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Quiet House, rendez-vous d'été 1953",
+    "vers_date": null,
+    "vers": "Années 1940 : construction du mémorial par Molly Gregory et Alex Reed, en mémoire d'Eddie Dreier tué sur le campus",
+    "refs": [
+     "EC-02920"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Départ de Bill McNeil, été 1953",
+    "vers_date": null,
+    "vers": "San Francisco, années 1970, puis le sida au début des années 1980 ; Bill est l'un des premiers à partir",
+    "refs": [
+     "EC-02921"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rencontre de Barab et de Mary Ann Fretz, été 1953",
+    "vers_date": "1954",
+    "vers": "Moins d'un an plus tard, Barab est l'amant puis le mari de Mary Ann Fretz ; amitié avec Ben Weber",
+    "refs": [
+     "EC-02988"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Lecture publique de Rumaker, été 1953",
+    "vers_date": "1954",
+    "vers": "Une première histoire de veau écrite en classe d'Olson près d'un an plus tard, fruit de l'insight de Wolpe sur la beauté du temps à Black Mountain",
+    "refs": [
+     "EC-02981",
+     "EC-02916"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Essai de Rumaker sur Bartleby, classe d'Olson, 1953",
+    "vers_date": "1963",
+    "vers": "Publication du texte dans Kulchur 10, à l'été 1963",
+    "refs": [
+     "EC-02908"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Bal d'été 1953 : Rumaker en Bacchus",
+    "vers_date": null,
+    "vers": "Ses futurs combats avec l'alcool ; il note lui-même l'ironie présageante du costume",
+    "refs": [
+     "EC-02977"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Achat du premier Maximus 1-10 en 1953",
+    "vers_date": null,
+    "vers": "Des années plus tard, après désintoxication et dans la pauvreté, Rumaker revend ce premier exemplaire puis le Maximus 11-22",
+    "refs": [
+     "EC-02986",
+     "EC-02990"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Poème sur Billie Holiday critiqué par Olson, classe de 1953",
+    "vers_date": null,
+    "vers": "Un février, environ trois ans après le départ du collège, Rumaker la rencontre dans un bar de West Philly",
+    "refs": [
+     "EC-02917"
+    ]
+   }
+  ],
+  "motifs": [
+   "le maître et l'élève : vénération, désir de plaire, humiliation",
+   "le corps exposé dans le dessin : nudité, double standard et regard",
+   "la musique nouvelle contre la technique et le bavardage",
+   "l'écriture illisible et la distance avec l'Europe",
+   "la pénurie et la fragilité matérielle du collège",
+   "les lieux aimés perdus, de Dawson à Bill McNeil",
+   "le racisme du Sud qui s'invite au campus",
+   "Lawrence comme père spirituel controversé"
+  ],
+  "lacunes": "On ignore la date exacte des événements de juillet, sauf l'arrivée d'Albers (14 juin), le départ de Dawson et l'armistice. On ignore si Albers revient avant la fin de l'été et quand Lou Harrison quitte le collège. Le départ de Bill McNeil reste daté au seul été. Les quatre danses de Cunningham et les concerts de Tudor ne sont pas datés au jour près. Les sources divergent sur l'incendie du bâtiment Roadside : Duberman le place à l'automne, Rumaker à l'hiver précédent. Le nom « Fiola » reste incertain, peut-être Flola Shepard. Les fiches ne disent rien du climat ni du moment où l'argent manque le plus."
+ }
+}

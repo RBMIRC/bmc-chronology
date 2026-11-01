@@ -1,0 +1,348 @@
+{
+ "passe": "personnes",
+ "cle": "Ilya Bolotowsky",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5955,
+  "sortie": 4034,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Ilya Bolotowsky",
+  "autres_noms": [
+   "Ilya Bolotowsky (orthographe anglaise)"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Professeur de peinture, remplaçant de Josef Albers pendant son congé sabbatique (années 1946-1948)",
+  "presence": [
+   {
+    "debut": "1946",
+    "fin": "1948-05",
+    "precision": "mois",
+    "role": "Professeur de peinture intérimaire pendant le sabbatique mexicain d'Albers, puis en parallèle au retour d'Albers jusqu'au printemps 1948",
+    "refs": [
+     "EV-01937",
+     "EV-03939",
+     "EV-04020",
+     "EV-04222",
+     "EV-04244",
+     "EV-04245",
+     "EV-04088"
+    ]
+   },
+   {
+    "debut": "1946",
+    "fin": "1947",
+    "precision": "annee",
+    "role": "Remplacement d'Albers pour la saison 1946-47 ; abroge les exercices collectifs d'Albers",
+    "refs": [
+     "EV-03849",
+     "EV-03941",
+     "CO-00429",
+     "CO-00441"
+    ]
+   },
+   {
+    "debut": "1947",
+    "fin": "1948-05",
+    "precision": "saison",
+    "role": "Cours de peinture (automne 1947-printemps 1948) : laisse chaque étudiant peindre dans son style puis critique depuis celui-ci",
+    "refs": [
+     "EV-04088",
+     "CO-00456",
+     "EV-04245"
+    ]
+   }
+  ],
+  "portrait_physique": "Non décrit physiquement dans les fiches ; indices matériels : conduit une vieille voiture (tacot/jalopy), puis une Studebaker à siège rumble-seat dont il use pour ses courses d'alcool en Caroline du Sud, le comté de Buncombe étant « dry ».",
+  "noyau_psychologique": "Peintre abstrait d'origine juive russe, de vingt ans le cadet d'Albers, arrivé à Mondrian par une sensibilité cristalline et lyrique. Il fonctionne par réciprocité : gentillesse rendue en gentillesse, férocité calculée si on l'attaque. Pédagogue avunculaire et permissif, il préfère libérer l'étudiant dans son propre style plutôt que de le mouler — position qui le met en conflit frontal avec Albers, conflit qu'il nourrit d'ailleurs volontiers avec humour et espièglerie (farces, défense théorique de blagues d'atelier).",
+  "blessures": "N'a pas osé approcher M.C. (Richards) à l'époque, la voyant comme « un couple » avec Levi — jugement qu'il regrette lui-même comme injuste. Conflit durable avec Albers, qui lui dénie l'influence pédagogique qu'il revendique (le cas Noland).",
+  "desirs": "Faire reconnaître la supériorité de l'abstraction (départ abstrait, rejet de la nature) comme pratique moderne ; propager un « langage plastique universel » respectant la différence individuelle ; être reconnu comme le vrai maître de Kenneth Noland ; être aimé comme figure paternelle des étudiants.",
+  "peurs": "Peu explicitées dans les fiches ; on lit une vulnérabilité à la modestie excessive (son « grand défaut » selon Neumann) et à l'effacement face à la légende Albers dans les récits ultérieurs.",
+  "maniere_d_aimer": "Affection paternelle et complice : emmène des étudiantes en virée filmée, joue de leur espièglerie, suscite chez des élèves comme Masurovsky le sentiment d'« une famille loin de la maison » — encre renforcée par une communauté d'origine juive russe. Tendre mais distant sur le plan sentimental (voir M.C.).",
+  "rapport_au_pouvoir": "Anti-autoritaire dans la pédagogie : refuse de « mouler » les étudiants, abroge les exercices collectifs d'Albers. Mais sa douceur est tactique : il escalade calculé (« s'ils sont vils, je suis super-vil »), utilise la farce comme arme dans la guerre des standards, refuse pourtant la proposition (contestée) de Levi de virer Albers — loyauté envers le collège ou scrupule.",
+  "voix": {
+   "registre": "Chaleureux, enjoué, ironique ; teinte néoplatonicienne héritée de Mondrian quand il théorise ; espiègle avec les jeunes, cinglant en privé contre ses ennemis.",
+   "tics": "Rire de ses propres farces ; vocabulaire de l'« harmonie » et du « langage plastique universel » ; autodérision sur sa propre embauche.",
+   "exemples_paraphrases": [
+    "Si on est gentil avec moi, je suis gentil… si on est sauvage, je suis sauvage.",
+    "L'art abstrait s'efforce de dépeindre une essence d'harmonie.",
+    "C'est lui qui a commencé [la toile], j'ai continué.",
+    "Certaines manœuvres autour de la querelle des standards relèvent des sottises."
+   ]
+  },
+  "habitudes": [
+   "Courses d'alcool en Caroline du Sud dans sa Studebaker à rumble-seat (comté de Buncombe « dry »)",
+   "Conduite « folle » de son tacot sur les routes de montagne",
+   "Filmer en continu lors des sorties avec les étudiants",
+   "Laisser peindre chacun dans son style avant de critiquer depuis ce style"
+  ],
+  "convictions": [
+   "L'abstraction, non la nature, est la pratique moderne suprême : elle saisit l'essence et non l'apparence",
+   "Un « langage plastique universel » doit laisser place à la différence individuelle",
+   "L'originalité est encouragée ; mieux vaut une œuvre mature imitant un style qu'un exercice collectif",
+   "Le hasard dadaïste est une loi sérieuse de l'art (expérience « post-Dali »)",
+   "Albers « établissait la loi » et moule trop les étudiants",
+   "Approche de la peinture partant de la base du cubisme, réponse lyrique aux verticales et horizontales de Mondrian"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Embauche : Albers, ayant apprécié son exposition personnelle à la New Art Circle de J. B. Neumann, le fait engager ; Neumann présente sa modestie excessive comme son seul grand défaut — ce qui, selon Bolotowsky, décida l'affaire",
+    "etat_interieur": "amuse et honoré ; il racontera plus tard cette embauche avec ironie",
+    "refs": [
+     "EV-04222"
+    ]
+   },
+   {
+    "date": "1946",
+    "fin": null,
+    "precision": "annee",
+    "moment": "Arrivée comme intérimaire pendant le sabbatique mexicain des Albers (congé de dix-huit mois) ; il abroge les exercices collectifs d'Albers",
+    "etat_interieur": "libérateur ; il impose sa méthode : œuvres « matures », cubisme comme base, liberté de style",
+    "refs": [
+     "EV-01937",
+     "EV-03939",
+     "EV-03941",
+     "EV-03849",
+     "CO-00429",
+     "CO-00441"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "annee",
+    "moment": "Kenneth Noland devient presque immédiatement son élève ; Ray Johnson et Joseph Fiore, séduit par son caractère paternel et son acceptation du geste expressif, se forment aussi auprès de lui",
+    "etat_interieur": "père pédagogique épanoui, contraste avec le moule d'Albers",
+    "refs": [
+     "EV-03849",
+     "EV-01500",
+     "EV-03730",
+     "EV-03907",
+     "RE-01256"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "L'après-midi magique de la jalopy : il emmène quatre jeunes filles (Girsh, Banks, Oline, Bernstein) à travers lacs ornementaux, mines de mica et sommets, filmant sans arrêt",
+    "etat_interieur": "insouciant, joueur, offrant une rare évasion des peurs du Ravin",
+    "refs": [
+     "SC-01011",
+     "EV-03998",
+     "OE-01870"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "saison",
+    "moment": "Retour d'Albers : Bolotowsky reste néanmoins enseigner (automne 1947-printemps 1948) ; les tensions montent, attisées par les étudiants, contenues par leur aversion commune pour Levi",
+    "etat_interieur": "prudent mais tenace ; il creuse sa méthode anti-moule",
+    "refs": [
+     "EV-04020",
+     "EV-04245",
+     "EV-04088",
+     "CO-00456",
+     "RE-01566"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Guerre des standards : un étudiant traite les exercices de matière d'Albers d'illusionnisme ; Albers fait vernir le sol de la salle d'exposition par représailles",
+    "etat_interieur": "conflit ouvert par étudiants interposés",
+    "refs": [
+     "EV-04246"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Affaire « Anonymous Blotch » : la toile collective de restes de peinture est accrochée à la salle à manger ; Bolotowsky identifie chaque palette, rit, et la défend comme expérience sérieuse sur la loi du hasard — calculé pour enrager Albers",
+    "etat_interieur": "féroce gaieté : la blague comme arme théorique",
+    "refs": [
+     "SC-01074",
+     "EV-04247",
+     "ID-01900",
+     "CI-01957"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "mois",
+    "moment": "Avant la session d'été, Levi lui aurait proposé de rester s'ils essayaient de « virer » Albers ; Bolotowsky refuse (offre contestée)",
+    "etat_interieur": "intègre ou lucide : il ne veut pas d'une victoire par coup de force",
+    "refs": [
+     "EV-04248"
+    ]
+   },
+   {
+    "date": "1948-05",
+    "precision": "mois",
+    "moment": "Départ au printemps 1948, juste avant l'explosion communautaire de la fin de l'été ; il jugera ensuite que « sottises » décrit le mieux certaines manœuvres de la querelle",
+    "etat_interieur": "amer et lucide, à distance de la mêlée",
+    "refs": [
+     "EV-04244",
+     "EV-04245"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1930",
+    "precision": "periode",
+    "moment": "Peintre abstrait new-yorkais, très réceptif à Mondrian et au néoplasticisme, jusqu'au vocabulaire néoplatonicien ; de vingt ans le cadet d'Albers",
+    "refs": [
+     "EV-01494",
+     "RE-00664"
+    ]
+   },
+   {
+    "date": "1936",
+    "precision": "annee",
+    "moment": "Membre fondateur de l'American Abstract Artists (AAA) avec Albers ; il y défend la minorité qui part de l'abstraction en rejetant la nature",
+    "refs": [
+     "EV-02541",
+     "EV-05380"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Exposition personnelle à la New Art Circle de J. B. Neumann, vue et appréciée d'Albers — l'origine de son recrutement à BMC",
+    "refs": [
+     "EV-04222",
+     "PE-00116"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Repart à New York avant l'explosion communautaire ; le conflit de clans Albers/Bolotowsky laisse des rancunes durables entre étudiants (représailles contre un étudiant ami de Bolotowsky)",
+    "refs": [
+     "EV-04244",
+     "EV-04261"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "periode",
+    "moment": "Réécriture du passé : il estime qu'Albers moule excessivement ses étudiants (peu développent leur propre style) et se revendique comme le vrai professeur de Noland, contre la version de Time (18 avril 1969) qui crédite Albers",
+    "refs": [
+     "EV-04262"
+    ]
+   },
+   {
+    "date": "1982",
+    "precision": "annee",
+    "moment": "Raconte ses « aventures » avec Henry Geldzahler",
+    "refs": [
+     "PE-00116"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Rivalité pédagogique et personnelle : moule Albers contre liberté Bolotowsky ; départ du cubisme et rejet de la nature contre observation de la nature ; pourtant tous deux fondateurs de l'AAA en 1936 et inviteurs de praticiens divergents",
+    "evolution": "Conflit lors du remplacement (abrogation des exercices), tensions attisées par les étudiants après le retour, « Anonymous Blotch » et vernis du sol comme représailles croisées ; selon Stiles, les deux hommes s'entendaient en personne — version contestée ; rancunes durables",
+    "refs": [
+     "RE-00664",
+     "RE-01537",
+     "RE-01206",
+     "EV-04247",
+     "EV-04246",
+     "EV-04261",
+     "EV-04262",
+     "EV-00657"
+    ]
+   },
+   {
+    "avec": "Kenneth Noland",
+    "nature": "Mentorat : Noland devient presque immédiatement son élève pendant le sabbatique d'Albers",
+    "evolution": "Travaille plus longtemps et plus agréablement avec lui qu'avec Albers ; Noland corrige plus tard les biographies qui surestiment Albers, ce qu'Albers ressent ; Bolotowsky se revendique comme son vrai professeur",
+    "refs": [
+     "RE-01500",
+     "EV-03849",
+     "EV-04020",
+     "EV-04262"
+    ]
+   },
+   {
+    "avec": "Joseph Fiore",
+    "nature": "Mentorat : caractère avunculaire, acceptation du geste expressif et des compositions moins abouties",
+    "evolution": "Fiore se détourne d'Albers et se forme auprès de lui",
+    "refs": [
+     "RE-01256",
+     "EV-03907"
+    ]
+   },
+   {
+    "avec": "Greg Masurovsky",
+    "nature": "Admiration réciproque : « une famille loin de la maison », peut-être par communauté juive russe",
+    "evolution": "Attachement affectueux durant 1947-1948",
+    "refs": [
+     "RE-01551",
+     "PE-00116"
+    ]
+   },
+   {
+    "avec": "A. R. (Jerrold) Levi",
+    "nature": "Aversion commune avec Albers ; Levi lui aurait proposé de rester pour « virer » Albers, offre refusée (contestée)",
+    "evolution": "Méfiance constante, tempère paradoxalement le conflit avec Albers",
+    "refs": [
+     "RE-01566",
+     "EV-04248",
+     "PE-00116"
+    ]
+   },
+   {
+    "avec": "Ray Johnson",
+    "nature": "Enseignement de la peinture et du dessin (1945-1948, avec interruption)",
+    "evolution": "Contribue à sa formation la plus rigoureuse ; Johnson rejoindra ensuite les AAA à New York",
+    "refs": [
+     "EV-03730",
+     "EV-05380"
+    ]
+   },
+   {
+    "avec": "M.C. Richards",
+    "nature": "Admiration non consommée : il ne l'a pas approchée car il la voyait en « couple » avec Levi",
+    "evolution": "Regret ultérieur d'un jugement qu'il juge lui-même injuste",
+    "refs": [
+     "PE-00116"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Durée du remplacement : la plupart des sources disent 1946-1947 (sabbatique d'une année ou de dix-huit mois), l'agrégée mentionne aussi une « période 1947-1948 » ; il reste en fait enseigner après le retour d'Albers jusqu'au printemps 1948 (EV-04245, EV-04020).",
+   "Selon Stiles (via Duberman), Albers et Bolotowsky s'entendaient personnellement et seuls leurs étudiants se battaient — version contestée par le récit des représailles et de la rage d'Albers devant l'Anonymous Blotch.",
+   "La proposition de Levi pour écarter Albers (EV-04248) est contestée : Duberman n'a trouvé aucune preuve que Levi ait voulu purger le collège.",
+   "L'affaire Anonymous Blotch et le vernis du sol sont des oui-dire ; les représailles contre l'étudiant ami de Bolotowsky sont un témoignage direct mais tardif (≈1948-1949).",
+   "Time (18 avril 1969) crédite Albers de la formation de Noland ; Bolotowsky revendique ce rôle — les deux hommes réécrivent chacun l'histoire."
+  ],
+  "situations_revelatrices": [
+   "La virée en tacot filmée avec quatre étudiantes : le pédagogue complice qui fabrique un monde en paix",
+   "Un crit de classe : il laisse l'étudiant peindre dans son style puis critique depuis ce style — le contre-Albers en acte",
+   "La défense publique de l'Anonymous Blotch comme théorie du hasard : la farce comme manifeste",
+   "Le refus de l'offre de Levi : sa ligne morale sous pression",
+   "Les courses d'alcool dans le comté dry : la débrouille joyeuse du juif russe new-yorkais dans la Caroline du Nord rurale",
+   "Le regard rétrospectif sur M.C. : le regret de la prudence sentimentale"
+  ],
+  "citations": [
+   "CI-01059",
+   "CI-01957"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort absentes des fiches.",
+   "Détail de sa vie à New York après 1948 (enseignement, expositions) hors l'anecdote Geldzahler de 1982.",
+   "Contenu exact de son cours d'automne 1947-48 (document aux NC State Archives, non détaillé).",
+   "Nature précise de sa relation avec Albers en personne : cordiale ou tendue ?",
+   "Ce que les étudiantes de la virée de 1947 ont pensé de lui, au-delà du témoignage de l'une d'elles."
+  ]
+ }
+}

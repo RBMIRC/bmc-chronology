@@ -1,0 +1,228 @@
+{
+ "passe": "mois",
+ "cle": "1943-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3297,
+  "sortie": 9737,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "avril 1943 (1943-04)",
+  "session": "Non précisée par les fiches ; probablement le trimestre de printemps (déduit, non attesté).",
+  "saison_et_climat": "Printemps en Caroline du Nord. Les fiches ne décrivent pas le climat d'avril ; la chaleur écrasante des travaux est attestée pour l'été suivant, pas pour ce mois.",
+  "situation": "Le collège, à Lake Eden, est en creux d'effectifs : les hommes sont partis à la guerre et le recrutement pour la suite est fragile. Le chantier communautaire de 1940 touche à sa fin, la faculté est en tension sur la conduite des étudiants, et l'affaire du livre de John Andrew Rice pèse encore. Oppenheimer part pour l'armée de l'air ce mois-ci. La conférence interracial prévue au collège est déplacée à Talladega le 13 avril.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eric Bentley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Étudiantes du collège (nombre et noms non donnés par les fiches)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1943-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Dreier remercie Forbes d'un don de 3 000 dollars et évoque la nécessité de licenciements, ce qui prépare le climat d'avril.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Oppenheimer, après neuf mois au collège, quitte BMC pour le service actif dans l'armée de l'air.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03424"
+    ]
+   },
+   {
+    "date": "1943-04-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Une conférence interracial, prévue à BMC, est déplacée au Talladega College pour des raisons que Duberman n'a pas pu élucider.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03425"
+    ]
+   },
+   {
+    "date": "1943-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Harper retire le livre de Rice après la menace de poursuite de Holt ; Anni Albers date son essai sur la forme et les objets, qui critique la décoration.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Le chantier communautaire se poursuit : allées gravelées, bordées de galax et de laurier ; Albers dirige une équipe qui lambrisse et peint la salle à manger et les halls du lodge. Albers peint la nuit dans la salle blanche de Black Dwarf. Les concerts du samedi attirent parfois des blessés du Moore General Hospital, et le Quatuor Kolisch répète au réfectoire (dates précises non données). Barbara Morgan expose parfois ses photographies de Martha Graham. La vie culturelle tient malgré la faiblesse des effectifs.",
+  "tensions": [
+   "Le chapitre sur BMC dans l'autobiographie de Rice : Albers, Dreier et Nell Rice ont d'abord refusé de le lire (« Drame, drame, drame », selon Evarts), et la menace de Holt pèse sur le livre.",
+   "Le déplacement de la conférence interracial vers Talladega, sans explication claire dans les sources.",
+   "Les licenciements évoqués par Dreier et le départ d'Oppenheimer, dans un collège qui manque d'argent et d'étudiants.",
+   "Les mœurs : la question des visites dans les chambres de l'autre sexe, déjà posée par les étudiants et l'« accord » en discussion (les épisodes précis datent plutôt de l'automne ou de l'hiver, déduit).",
+   "Le malaise de Wunsch devant les couples et l'alcool, rapporté par lui-même à Evarts (date non précisée, probablement postérieure à avril, déduit).",
+   "Les nouveaux enseignants, énergiques, se heurtent à Albers, Dreier et Wunsch qui dominent toujours la faculté (déduit, daté seulement ≈1943)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le départ d'Oppenheimer",
+    "date": "1943-04",
+    "lieu": "BMC",
+    "personnages": [
+     "Oppenheimer",
+     "Albers",
+     "Dreier"
+    ],
+    "deroule": "Après neuf mois au collège, Oppenheimer quitte un campus qui se vide de ses hommes pour le service actif. Les autres membres de la faculté, peu nombreux, enregistrent le départ au milieu des comptes difficiles et du chantier qui touche à sa fin.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03424",
+     "chapitre 1943 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La conférence qui change de ville",
+    "date": "1943-04-13",
+    "lieu": "Talladega College (prévue à BMC)",
+    "personnages": [
+     "organisateurs du collège (non nommés dans les fiches)"
+    ],
+    "deroule": "Une conférence interracial est préparée pour le campus, puis déplacée à Talladega. Les raisons restent inconnues ; la scène peut se jouer sur ce silence, entre les réunions qui ont eu lieu et celles qu'on n'a pas tenues à BMC.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03425",
+     "chapitre 1943 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Lambrissage de la salle à manger",
+    "date": null,
+    "lieu": "Salle à manger et halls du lodge",
+    "personnages": [
+     "Josef Albers",
+     "équipe du chantier communautaire"
+    ],
+    "deroule": "Albers dirige une équipe qui lambrisse et peint la salle à manger et les halls du lodge. C'est une scène de travail collectif, qui montre à la fois la communauté qui bâtit et la faculté réduite.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Peinture de nuit dans la salle blanche",
+    "date": null,
+    "lieu": "Black Dwarf, salle blanche",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Albers peint seul la nuit dans la salle blanche de Black Dwarf, pendant que le collège dort ou discute des mœurs au réfectoire.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "En avril, la faculté se souvient encore de la lecture refusée du chapitre de Rice sur BMC, qui a embarrassé Albers, Dreier et Nell Rice.",
+    "vers_date": "1943-02",
+    "vers": "Fin février : l'autobiographie de John Andrew Rice suscite la gêne, et la lecture du chapitre sur BMC est refusée.",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Au printemps, la communauté prend du recul sur les événements du début d'année, dont la Negro History Week.",
+    "vers_date": "1943",
+    "vers": "Début 1943 : Negro History Week avec conférences, film sur Hampton Institute, invité W. A. Robinson et professeurs noirs du lycée d'Asheville invités par Wunsch.",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril, avec le départ d'Oppenheimer et le déplacement de la conférence.",
+    "vers_date": "1943-09",
+    "vers": "Jean Charlot visite le collège et donne sa conférence sur le Mexique (les 6 et 7 septembre), avant qu'on lui demande d'enseigner l'été suivant.",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Au milieu d'une faculté qui doit ajuster ses effectifs et ses comptes.",
+    "vers_date": "1943-11",
+    "vers": "Hansgirg annonce son projet d'extraction de magnésium de l'olivine et offre 20 % au collège ; le don restera sans suite.",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril, quand la faculté espère encore relancer le recrutement.",
+    "vers_date": "1943-12-09",
+    "vers": "Elaine Fried épouse Willem de Kooning, qui enseignera à BMC à l'été 1948.",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Au printemps 1943, avec les tensions entre nouveaux enseignants et anciens.",
+    "vers_date": "1944",
+    "vers": "La scission de 1944 : la rivalité Bentley/Straus et la guerre idéologique interne aboutissent à une rupture (déduction à partir des fiches datées ≈1942-1944).",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril, quand la mine de mica et les travaux d'été ne sont pas encore engagés.",
+    "vers_date": "1943",
+    "vers": "L'été : une mine de mica ouverte sur la propriété absorbe une partie de l'énergie, tandis que Molly Gregory tente de vendre des surplus de légumes.",
+    "refs": [
+     "chapitre 1943 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Un collège qui bâtit alors qu'il se vide de ses hommes",
+   "Le départ d'Oppenheimer comme début de la perte d'effectifs",
+   "Une conférence déplacée sans explication, qui pose la question raciale au cœur de la communauté",
+   "Le contrôle des mœurs face à une communauté qui réclame la parole",
+   "La codification (notes externes, absences, passage accéléré) face au discours démocratique de Wunsch",
+   "La musique et le théâtre comme refuge et source de conflits",
+   "Le rapport entre Albers, la photographie et le « voir »"
+  ],
+  "lacunes": "Aucune date précise d'avril hors départ d'Oppenheimer et conférence du 13 avril. La session exacte n'est pas indiquée. La présence de Wunsch est contradictoire : Burns dit qu'il quitte BMC en 1943, alors que les fiches le montrent à la rentrée et au Nouvel An. La date d'arrivée de Bentley est inconnue. Le sort de la mine de mica est contradictoire selon les fiches. Les raisons du déplacement de la conférence restent obscures chez Duberman. On ignore quand Evarts et les autres enseignants partis à la guerre ont quitté le collège, et si Sam Brown est présent en avril."
+ }
+}

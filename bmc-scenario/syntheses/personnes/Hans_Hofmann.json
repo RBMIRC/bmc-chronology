@@ -1,0 +1,334 @@
+{
+ "passe": "personnes",
+ "cle": "Hans Hofmann",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 14717,
+  "sortie": 9180,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Hans Hofmann",
+  "autres_noms": [
+   "Hofmann",
+   "Hans Hofmann (maître de l'école Hofmann, Munich puis New York et Provincetown)"
+  ],
+  "dates_de_vie": "Non données par les fiches. Il est septuagénaire en 1950 (PE-00166) et encore actif et reconnaissable à New York vers la fin des années 1950 (SC-01857, date ≈).",
+  "statut_bmc": "Statut incertain, et c'est la première chose à trancher. La fiche agrégée le dit « connu hors passage » avec des sessions d'été 1950 et 1951, mais toutes les pages citées décrivent Provincetown et New York. ID-01771 parle de sessions d'été à Black Mountain en 1938-1939, hors du passage, et EC-03745 le range parmi les « figures des étés du collège ». Les fiches de cours disent atteste_a_bmc : non. À traiter comme une présence périphérique et non vérifiée, ou comme une figure en miroir de BMC : le rival new-yorkais d'Albers, plus que le résident.",
+  "presence": [
+   {
+    "debut": "1938",
+    "fin": "1939",
+    "role": "Enseignant aux sessions d'été de Black Mountain, selon une seule fiche qui le place « hors de ce passage ». À vérifier.",
+    "refs": [
+     "ID-01771"
+    ]
+   },
+   {
+    "debut": "1950",
+    "fin": "1951",
+    "role": "Sessions d'été au collège selon la fiche agrégée (« connu hors passage »), sans aucune scène ni événement à l'appui ; les sources détaillées de ces étés montrent Provincetown. Contradiction avec ID-01771 (1938-1939).",
+    "refs": [
+     "PE-00166",
+     "EC-03745"
+    ]
+   }
+  ],
+  "portrait_physique": "Attesté : grande figure et vigueur de quasi-athlète pour un septuagénaire (1950), « buoyant », avec une énergie nerveuse prodigieuse. À Provincetown, chemise à manches courtes, pantalon ample et sandales bohèmes ; à New York, plus tard, un coûteux costume gris. Elaine de Kooning le décrit comme « une sorte d'éléphant mâle » (EV-04597). Il se couvre de peinture et éclabousse autour de lui. Fort accent allemand. Debout, toujours en mouvement entre palette et chevalet, il fait de grands gestes fulgurants (SC-01338) ; il n'est assis que pour ses exercices hebdomadaires sur papier.",
+  "noyau_psychologique": "Un pédagogue-peintre qui se met volontairement en danger : il peint devant ses élèves depuis des décennies et se méfie de l'intellectualisme et de la virtuosité. Il croit qu'un tableau est un monde entier, qu'on y saute d'un bloc, et que la technique sert le concept. Il exige absolument et détruirait un tableau qu'on ne peut plus regarder. Déduction : sa générosité et sa férocité viennent de la même foi, qui est de prendre l'art assez au sérieux pour ne rien pardonner aux jeunes ambitieux et tout pardonner aux amateurs sincères. Dans la dernière image que nous avons de lui, c'est un homme qui cherche sa communauté perdue.",
+  "blessures": "Les fiches ne donnent pas de blessure intime. Attesté : il quitte son pays natal en 1930 à la demande de ses étudiants américains, et l'on ne sait rien de ce que cela lui coûte. Attesté aussi : une nostalgie, tardive, de la communauté artistique disparue (SC-01857). Déduction : la dispersion du monde d'avant, celui de Paris, de Munich puis du downtown new-yorkais, est sa vraie perte.",
+  "desirs": "Faire un tableau complet, un monde entier, d'un seul souffle. Plonger les élèves dans toute la complexité de l'art. Rester entouré d'images fortes qui lui suggèrent de nouvelles idées. Se nourrir de l'art des autres (il achète des Dubuffet récents à Paris en 1949, EV-04818). Retrouver un lieu où les artistes se rencontrent encore.",
+  "peurs": "Attesté : la virtuosité vide, le savoir qui tue le sentiment, la retouche qui rapièce, le tableau qu'on ne supporte plus de regarder. Il craint de perdre son « fond » (« si je perds mon fond, j'ai dépassé mon but », SC-01339). Déduction : la fin d'une scène artistique commune, qui se lit dans sa question plaintive de la fin.",
+  "maniere_d_aimer": "Attesté : généreux avec les peintres du dimanche, qu'il loue, et sévère avec les jeunes hommes (EV-04596, CO-00551). Il donne des fêtes au punch dévastateur (EV-04597). Sa femme Miz est la seule personne admise dans son atelier pendant qu'il travaille, avec le personnel (RE-00142). Elaine de Kooning le compare à Raymond Jonson pour la générosité, la vitalité et le pouvoir de stimuler les autres (PE-00166, EC-03745). Déduction : il aime en exigeant, et traite ses élèves en pairs possibles plutôt qu'en protégés.",
+  "rapport_au_pouvoir": "Un pouvoir exercé par la présence et le verdict, non par l'institution : une école fondée à Munich (1915), une autre ouverte à New York en 1934, qui attire des étudiants de tout le pays. Il peint devant la classe, juge chaque semaine en « crit » devant une salle comble, et son atelier est interdit à presque tous. Son influence domine à New York (Rosenberg, Greenberg le tiennent pour l'étalon d'or) et dépasse longtemps celle d'Albers, avant de s'inverser après la fermeture de BMC (RE-01283).",
+  "voix": {
+   "registre": "Un maître et un aphoriste. Phrases brèves et tranchantes, avec un humour sec (la bière citée comme medium possible). Il parle avec un fort accent allemand. Il dit « picture », « finished », « one sweep », et passe d'une consigne technique à une affirmation métaphysique sur la création.",
+   "tics": "Formules sentencieuses sur la peinture en général plutôt que sur le tableau en cause (CO-00551 : Elaine retient ce qu'il dit de la peinture, pas du tableau). Il insiste sur « one sweep », « finished » et le « fond ». Il se moque des « palettes affamées » de ses élèves. Dans les dernières scènes, une question plaintive et redoublée.",
+   "exemples_paraphrases": [
+    "Faire un tableau est presque un combat physique.",
+    "Un tableau se termine d'un seul élan ; si c'est raté, on refait tout, on ne rapièce pas.",
+    "La technique est toujours la conséquence du concept qui domine.",
+    "Au moment de peindre, je veux ne pas savoir ce que je fais.",
+    "Peindre, pour moi, c'est former avec la couleur.",
+    "On ne peut pas se servir de ses biceps sur un petit tableau.",
+    "Une forme peut être triste ou gaie ; une ligne, délirante.",
+    "Dans les limites de cette feuille se trouve le message créatif complet.",
+    "Si on bloque, on ajoute du blanc ; mais on garde le fond.",
+    "Où sont passés tous les autres ? Où les artistes se retrouvent-ils aujourd'hui ?"
+   ]
+  },
+  "habitudes": [
+   "Peint debout, sans jamais s'asseoir, en aller-retour constant entre palette et chevalet ; une toile est souvent finie en quelques heures (SC-01338).",
+   "Chaque semaine, exercices rapides assis sur papier ou panneau : vingt ou trente temperas à l'heure, au pinceau, comme gymnastique (ID-00241).",
+   "Dessine toujours au pinceau, jamais plus à la plume, au crayon ou à la craie.",
+   "Étudie longuement le motif avant le premier coup, dessine l'« architecture » en lignes fines, puis frotte les fonds à la gaze ; peint parfois au sol ou toile inclinée pour diriger les coulures (SC-01339).",
+   "Martyrise ses pinceaux, préfère un pinceau bon marché ébouriffé, peint aussi au couteau, au chiffon, à la main (ID-00242).",
+   "Nettoyage méticuleux en fin de séance, térébenthine et grand rouleau de gaze ; gros stock de matériel.",
+   "Vit entouré de ses propres tableaux et de ceux des autres (Dubuffet, primitifs français), qui lui servent d'épreuve quotidienne (ID-01772, EV-04818).",
+   "Hiver à Manhattan, été à Provincetown.",
+   "Interdit son atelier à tous sauf à Miz (RE-00142).",
+   "Donne des fêtes au punch redoutable (EV-04597)."
+  ],
+  "convictions": [
+   "Un tableau doit être fini d'un seul souffle et rester fini à chaque étape de son développement.",
+   "La technique découle du concept : quand le concept change, la technique change.",
+   "On peint avec le sentiment, non avec le savoir ; les possibilités du medium se sentent.",
+   "Le blanc est la couleur la plus importante ; toute couleur peut être pure, c'est dans leurs relations qu'elles se salissent.",
+   "L'espace est vivant, et les objets valent comme « faiseurs d'espace » (ID-00240).",
+   "Théorie du push-pull : chaud avance, froid recule, les formes superposées créent le mouvement.",
+   "L'étude d'après nature reste la base, mais sans copier les apparences.",
+   "Un tableau qu'on ne peut plus regarder doit être détruit.",
+   "Inventer une composition, c'est inventer un monde ; il faut souder les parties en un tout presque mystique.",
+   "La grande toile pour les biceps, mais la monumentalité doit pouvoir tenir en petit format (ID-00241)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1938",
+    "moment": "Selon ID-01771 seulement : sessions d'été au collège en 1938-1939, hors passage.",
+    "etat_interieur": "Déduction très prudente : un maître déjà installé, prêt à enseigner en Amérique dans un cadre moins formel que New York. Aucune fiche n'en décrit le vécu.",
+    "refs": [
+     "ID-01771"
+    ]
+   },
+   {
+    "date": "1948",
+    "moment": "Rétrospective à l'Addison Gallery pendant que la collection glisse du rigorisme Bauhaus vers l'expressionnisme abstrait ; Albers reste délaissé jusqu'en 1956.",
+    "etat_interieur": "Reconnaissance institutionnelle. Déduction : il sait que son monde pèse plus lourd que celui d'Albers dans les musées.",
+    "refs": [
+     "EV-03016"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Été à Provincetown : cours, crit hebdomadaire devant une salle comble, punch dévastateur. Elaine de Kooning vient chercher un mentor.",
+    "etat_interieur": "Au sommet de son prestige. Généreux avec les amateurs, rude avec les jeunes hommes. Fête et exigence mêlées.",
+    "refs": [
+     "EV-04596",
+     "EV-04597",
+     "EV-04600",
+     "CO-00551",
+     "RE-01810"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Exposition Intrasubjectives chez Kootz ; achat de Dubuffet à Paris.",
+    "etat_interieur": "Insère son œuvre dans le groupe new-yorkais et regarde encore l'Europe.",
+    "refs": [
+     "EV-04661",
+     "EV-04818"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Exécution de Fruit Bowl, No. I sous les yeux d'Elaine de Kooning : une longue étude du motif, puis trois heures et huit heures de peinture ; l'effondrement du fond oblige à ne suivre que la logique du tableau. Exposition Black on White chez Kootz.",
+    "etat_interieur": "Ferveur physique et contrôlée à la fois ; il se laisse déborder par l'accident et en tire sa force. Il est dans sa période la plus documentée.",
+    "refs": [
+     "SC-01339",
+     "EV-05206",
+     "OE-02317",
+     "EV-04969",
+     "SC-01338"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Enseigne devant sa feuille de papier tendue : « le message créatif complet ». Opposition frontale avec Albers sur le trait.",
+    "etat_interieur": "Foi romantique dans le saut ; défense d'une pédagogie contre celle des éléments.",
+    "refs": [
+     "SC-01306",
+     "RE-02053",
+     "RE-00655"
+    ]
+   },
+   {
+    "date": "1957",
+    "moment": "Vers la date de fermeture de BMC (≈ 1957, datation très incertaine) : il croise Elaine de Kooning à University Place et demande où sont passés les autres.",
+    "etat_interieur": "Mélancolie : un monde se termine, le sien. Ce moment sert de contrepoint à l'esprit de communauté de BMC.",
+    "refs": [
+     "SC-01857",
+     "EV-06894",
+     "CI-03428"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Il connaît Picasso, Matisse et Braque à Paris, sans date ni circonstances.",
+    "refs": [
+     "PE-00166"
+    ]
+   },
+   {
+    "date": "1915",
+    "moment": "Fonde son école d'art à Munich ; dès lors sa vie se partage entre enseignement et peinture. Il forme de nombreux étudiants américains qui l'attireront aux États-Unis.",
+    "refs": [
+     "EV-00396",
+     "EV-00397"
+    ]
+   },
+   {
+    "date": "1930",
+    "moment": "Quitte son pays natal pour l'University of California (Berkeley) à la demande de ses étudiants américains, avec une réputation légendaire.",
+    "refs": [
+     "EV-01540",
+     "EV-01541",
+     "PE-00166"
+    ]
+   },
+   {
+    "date": "1934",
+    "moment": "Ouvre une école à New York, deux jours éprouvants par semaine (matin, après-midi, soir), parfois soixante-dix personnes en démonstration. Il devient l'un des professeurs d'art les plus influents de sa génération.",
+    "refs": [
+     "EV-02330",
+     "EV-02331"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1949",
+    "moment": "Il achète des Dubuffet à Paris lors de son exposition et les accroche à Provincetown et à New York, parmi ses propres toiles.",
+    "refs": [
+     "EV-04818"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Black on White chez Kootz ; il est à ce moment « septuagénaire » et toujours en forme.",
+    "refs": [
+     "EV-04969",
+     "PE-00166"
+    ]
+   },
+   {
+    "date": "1951",
+    "moment": "Il est une figure de référence de l'Expressionnisme abstrait ; les participants et les absents du Ninth Street Show se répartissent en têtes d'affiche et seconds couteaux (aucune fiche ne dit s'il y était).",
+    "refs": [
+     "EV-05369"
+    ]
+   },
+   {
+    "date": "1957",
+    "moment": "Il se tient à University Place, en costume gris, absorbé, devant des fruits ; il demande où sont les artistes. Elaine répond « nulle part ». La fiche date l'événement de ≈1957, mais le texte parle de quelques années après 1959.",
+    "refs": [
+     "SC-01857",
+     "EV-06894"
+    ]
+   },
+   {
+    "date": "1957",
+    "moment": "Après la fermeture de BMC, le rapport de force avec Albers s'inverse : l'accent sur les principes premiers revient au premier plan (assemblages, peinture géométrique, Judd). Son école, étalon d'or pour Rosenberg et Greenberg, avait longtemps dépassé l'influence d'Albers.",
+    "refs": [
+     "RE-01283",
+     "PE-00166"
+    ]
+   },
+   {
+    "date": "1961",
+    "moment": "Plus tard, il devient dans les écrits d'Elaine de Kooning un étalon du mentor artiste, auquel elle compare Raymond Jonson, et sa pédagogie est citée à propos de sa feuille de papier (≈1950-1961).",
+    "refs": [
+     "EC-03745",
+     "SC-01306"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Miz Hofmann",
+    "nature": "famille (sa femme)",
+    "evolution": "Seule admise avec le personnel dans l'atelier ; stable sur toute la période (≈1915-1950).",
+    "refs": [
+     "RE-00142",
+     "PE-00166"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "rivalité de pédagogies",
+    "evolution": "Années 1930-1940 : deux pédagogies opposées (éléments contre complexité totale ; Albers moins sensible à la métaphore immédiate, Hofmann la loge dès la première marque). Années 1940-1950 : à New York, l'influence de Hofmann domine. Après la fermeture de BMC, le rapport s'inverse. Albers interdit peut-être le fusain pour se démarquer de l'école de Hofmann (EC-01127, RE-02053).",
+    "refs": [
+     "RE-00655",
+     "RE-01283",
+     "RE-02053",
+     "EC-01127",
+     "EV-03016"
+    ]
+   },
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "mentorat puis admiration",
+    "evolution": "Été 1949 : elle assiste à ses cours à Provincetown, cherche un mentor loin de Bill, retient « garde le fond, ajoute du blanc ». 1950 : elle observe Fruit Bowl. Vers 1953 : elle compare Dickinson à Hofmann. Plus tard, rencontre mélancolique sur University Place.",
+    "refs": [
+     "RE-01810",
+     "EV-04596",
+     "SC-01339",
+     "RE-02584",
+     "SC-01857"
+    ]
+   },
+   {
+    "avec": "Earl Kerkam",
+    "nature": "mentorat indirect",
+    "evolution": "Un élève de Hofmann, Jensen, lui aurait montré la construction de Picasso. EC-00363 présente ça comme le « Bauhaus de Hans Hofmann », ce qui est probablement une confusion de la fiche.",
+    "refs": [
+     "RE-00172",
+     "EC-00363"
+    ]
+   },
+   {
+    "avec": "Hofmann School (élèves)",
+    "nature": "maître et classe",
+    "evolution": "Du début à la fin, une salle pleine : jeunes hommes rudoyés, vieilles dames louées, démonstrations devant soixante-dix personnes.",
+    "refs": [
+     "CO-00261",
+     "CO-00551",
+     "EV-04600"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Présence à BMC : la fiche agrégée annonce des sessions d'été 1950-1951, ID-01771 des sessions de 1938-1939, et les cours détaillés sont marqués atteste_a_bmc : non. Les scènes sont toutes à Provincetown ou New York.",
+   "SC-01857 / EV-06894 : dates ≈1957 mais texte « quelques années après 1959 ».",
+   "EV-02330 compte les quatre ans depuis l'arrivée aux États-Unis, EV-02331 depuis le départ d'Allemagne ; EV-01540/01541 donnent 1930 pour l'Université de Californie. La différence est mineure mais le calcul reste à vérifier.",
+   "EV-04818 date l'exposition parisienne de 1949 mais la décrit comme l'année précédant l'article de 1950, ce qui est cohérent mais garde une incertitude.",
+   "Contradictions internes de Hofmann : il prône le travail d'après nature mais fait des peintures « automatiques » ; il aime les grands formats mais s'impose de petits exercices.",
+   "ID-00237 le dit proche d'Albers (sensation avant connaissance) alors que les autres fiches l'opposent à Albers.",
+   "EC-00363 qualifie son monde de « Bauhaus », terme qui renvoie plutôt à Albers dans les autres sources.",
+   "PE-00166 lui prête une générosité d'ensemble mais aussi de la férocité envers les jeunes hommes ; la tonalité dépend de qui parle (Elaine)."
+  ],
+  "situations_revelatrices": [
+   "Le maître devant la feuille de papier : un geste, une phrase, tout le message créatif (SC-01306).",
+   "Le peintre qui refait toute la toile d'un seul mouvement plutôt que de rapiécer.",
+   "Le fond de papier qui s'effondre en plein Fruit Bowl : il doit obéir à la logique du tableau.",
+   "La crit hebdomadaire dans la pièce surchauffée : louanges aux amateurs, rudesse aux jeunes hommes.",
+   "La fête de Provincetown et son punch : tout le monde repart à quatre pattes.",
+   "Le face-à-face avec un disciple d'Albers : deux écoles, deux conceptions du trait.",
+   "Le vieil homme en costume gris devant des fruits : où se retrouve-t-on aujourd'hui ?",
+   "L'atelier fermé, où seule Miz entre."
+  ],
+  "citations": [
+   "CI-02469 : « Within its confines is the complete creative message. » (devant la feuille de papier)",
+   "CI-02516 : « Making a picture is almost a physical struggle. »",
+   "CI-02517 / CI-02520 : « A picture must be finished in one sweep. »",
+   "CI-02518 : « Technique is always the consequence of the dominating concept. »",
+   "CI-02519 : « At the time of making a picture, I want not to know what I'm doing. »",
+   "CI-02521 : « Painting to me means forming with color. »",
+   "CI-02522 : « A shape can be sad or gay; a line, delirious. »",
+   "CI-02523 : « You can't use your biceps on a small picture. »",
+   "CI-03428 : « Where is everybody? Where do the artists go to meet nowadays? »",
+   "SC-01339 : « Si je perds mon fond, j'ai dépassé mon but. »"
+  ],
+  "questions_ouvertes": [
+   "A-t-il réellement enseigné à Black Mountain, et quand (1938-1939 selon ID-01771, 1950-1951 selon la fiche agrégée, ou jamais) ? Qui l'a invité, et comment s'est passé le face-à-face avec Albers sur place ?",
+   "Quelles sont ses dates de naissance et de mort ? Les fiches ne donnent que « septuagénaire en 1950 ».",
+   "Qui est Miz Hofmann, au-delà de son rôle de seule admise dans l'atelier ?",
+   "Qu'est-ce qui, dans sa vie, a précédé 1915 (Paris, Munich) et que pense-t-il de la Première Guerre, de l'exil, de 1930 ?",
+   "Que fait-il entre 1951 et la rencontre de University Place ? Cette rencontre date-t-elle de 1957 ou de plus tard ?",
+   "Que pense-t-il d'Albers en personne, et pas seulement à travers ses pédagogies ?",
+   "Quelle est la place exacte d'Elaine de Kooning dans sa vie d'enseignant, et que sait-il de Bill ?"
+  ]
+ }
+}

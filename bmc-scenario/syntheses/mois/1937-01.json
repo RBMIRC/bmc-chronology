@@ -1,0 +1,227 @@
+{
+ "passe": "mois",
+ "cle": "1937-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5143,
+  "sortie": 13256,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1937-01 (janvier 1937)",
+  "session": "trimestre d'hiver, juste après les vacances de Noël (déduit : les fiches ne nomment pas la session)",
+  "saison_et_climat": "hiver ; les fiches ne décrivent ni le temps ni le paysage de ce mois, seule la saison est déduite",
+  "situation": "Le collège reprend après Noël dans un conflit ouvert. La pétition de Zeuch demandant au Board de revenir sur les non-reconductions de Knickerbocker et Goldenson est rejetée ; on n'accorde à Goldenson qu'une autorisation de démissionner. Les dissidents se tournent alors vers la question de la gouvernance. Dans le même temps, Rice s'engage dans une liaison naissante avec Alice, et la critique de Dewey contre Hutchins, que Rice partage, paraît dans Social Frontier.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Zeuch (pétitionnaire, enseignant dissident)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Goldenson (visé par la décision du Board)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alice (présente à la soirée de sketches, dont la date est discutée)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "King (enseignant dissident)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Knickerbocker (non-reconduit, encore au collège en attendant son départ)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Albers (membre du corps enseignant, présence hivernale non attestée)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Harrington (étudiant dissident, présence déduite des réunions de février)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alsberg (étudiant dissident, présence déduite des réunions de février)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Coleman (étudiant dissident, présence déduite des réunions de février)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1937-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Zeuch pétitionne officiellement le Board pour qu'il revienne sur les non-reconductions de Knickerbocker et Goldenson. La pétition est rejetée ; Goldenson reçoit en guise de concession l'autorisation de démissionner.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02694"
+    ]
+   },
+   {
+    "date": "1937-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Dans Social Frontier, Dewey reproche à Hutchins de s'appuyer sur une autorité fixe. Rice, son ami, souscrit à cette critique.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02703"
+    ]
+   },
+   {
+    "date": "1937-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Vers la mi-hiver, Rice s'éprend d'Alice. Il la décrit comme quelqu'un qu'il faut faire briller et s'en pose en père bienveillant. La date exacte est inconnue et la liaison peut déborder sur février.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02695"
+    ]
+   },
+   {
+    "date": "1937-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Soirée de sketches : Alice parodie une cantatrice dans un costume de papier mâché qui rend son corps minuscule et sa tête énorme. Tout le monde s'amuse sauf Rice, jaloux. Les fiches ne s'accordent pas sur la date de cette soirée (voir lacunes).",
+    "certitude": "probable",
+    "refs": [
+     "EV-02695",
+     "EV-02740",
+     "SC-00708"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire de janvier : ni repas, ni travaux, ni musique, ni cours. On sait seulement que le collège a repris après Noël, qu'une soirée de sketches a lieu, et que Rice marche et converse avec des étudiants. Le reste est à documenter ailleurs.",
+  "tensions": [
+   "La pétition de Zeuch rejetée oppose les enseignants dissidents (Zeuch, Goldenson, King) au Board et à Rice.",
+   "La gouvernance divise : les étudiants dissidents défendent une démocratie organique, Rice répond par la persuasion et refuse le comptage des voix.",
+   "Rice contre Hutchins : une querelle de philosophie publique dans laquelle Rice s'appuie sur Dewey.",
+   "Jalousie de Rice face à Alice, sous couvert de protection paternelle.",
+   "Knickerbocker, combatif, avait prévenu Rice avant son embauche : le conflit a des racines antérieures à l'hiver (écho)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La pétition de Zeuch devant le Board",
+    "date": "1937-01",
+    "lieu": null,
+    "personnages": [
+     "Zeuch",
+     "Board of Fellows",
+     "Goldenson"
+    ],
+    "deroule": "Zeuch remet sa demande de révision des non-reconductions. Le Board la rejette et accorde à Goldenson l'autorisation de démissionner, qu'il disait avoir souhaitée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02694"
+    ]
+   },
+   {
+    "titre": "Rice marche avec un étudiant et parle d'Alice",
+    "date": "1937-01",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "un étudiant (non nommé)"
+    ],
+    "deroule": "En chemin, Rice explique qu'il connaît Alice « un peu mieux » : elle a besoin d'être mise en valeur et de s'épanouir. Il se présente en père bienveillant.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02695"
+    ]
+   },
+   {
+    "titre": "La cantatrice de papier mâché",
+    "date": "1937-01",
+    "lieu": null,
+    "personnages": [
+     "Alice",
+     "Rice",
+     "le public du collège"
+    ],
+    "deroule": "Alice se présente en cantatrice dans un costume de papier mâché qui la rend minuscule et lui donne une tête énorme. Le public rit ; seul Rice, jaloux, se dit choqué.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02695",
+     "EV-02740",
+     "SC-00708"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "la pétition rejetée de janvier 1937, quand la dispute sur Knickerbocker resurgit",
+    "vers_date": null,
+    "vers": "l'entretien d'embauche de Knickerbocker avec Rice à Cambridge, où il avait prévenu qu'il était combattif et qu'il ne fallait pas l'engager s'il ne le voulait pas",
+    "refs": [
+     "EC-01574"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la pétition rejetée et le début de la querelle sur la gouvernance",
+    "vers_date": "1937-02-17",
+    "vers": "la réunion communautaire de 36 pages, précédée le 16 février par les propos de Rice aux visiteurs. Les dissidents défendent une démocratie organique, Rice répond que seule la persuasion est légitime, et les deux camps concluent que la séparation est la seule issue",
+    "refs": [
+     "EV-02704",
+     "EV-02705",
+     "SC-00700",
+     "CF-00264"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la querelle sur la gouvernance, qui s'envenime dès janvier",
+    "vers_date": "1937-06",
+    "vers": "le schisme : Coleman lit un réquisitoire en 24 points signé de huit étudiants qui partent, la question du salaire de Georgia fait exploser l'assemblée, et Zeuch laisse un texte accusant le collège de glisser vers le fascisme",
+    "refs": [
+     "EV-02715",
+     "EV-02722",
+     "EV-02727"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la prophétie de Zeuch, qui annonce dès décembre 1936 « le début de la fin »",
+    "vers_date": "1957",
+    "vers": "la fermeture du collège, que le spectateur connaît et que Zeuch ignore",
+    "refs": [
+     "EC-01576"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la liaison naissante de Rice avec Alice",
+    "vers_date": "1937",
+    "vers": "Nell, de retour après de longs séjours en Indiana, surprend Rice puis se confie à son fils Frank au Carolina Inn",
+    "refs": [
+     "EV-02670",
+     "EV-02671",
+     "SC-00693"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la liaison naissante de Rice avec Alice et la jalousie qu'elle nourrit",
+    "vers_date": "1938",
+    "vers": "la furie communautaire, la lettre d'Albers, le congé de Rice et la prise du rectorat par Wunsch",
+    "refs": [
+     "CF-00276",
+     "CF-00282"
+    ]
+   }
+  ],
+  "motifs": [
+   "Persuasion contre comptage des voix : Rice fonde son autorité sur sa capacité à déterminer qui est intelligent.",
+   "Le fait accompli : King compare la décision du Board à la remilitarisation de la Rhénanie par Hitler, écho de l'actualité européenne de 1936.",
+   "La prophétie de Zeuch, ironie à l'usage du spectateur qui connaît la fermeture de 1957.",
+   "Le paternalisme de Rice envers Alice, qui se double de jalousie.",
+   "Des concessions symboliques (l'os jeté à Goldenson) qui ne règlent pas le fond du conflit."
+  ],
+  "lacunes": "Les fiches ne donnent ni le jour de la pétition ni celui de la soirée de sketches. Elles se contredisent sur la date de cette soirée : EV-02695 la place à la mi-hiver 1937, alors que la section sur la liaison la rattache à la fin de l'année. Duberman 1972 et Chaddock 2002 divergent sur plusieurs dates, sans que les fiches de ce mois permettent de trancher. La session exacte, le temps, la vie quotidienne et la présence effective d'Albers et de Knickerbocker en janvier ne sont pas documentés. La nature physique de la liaison de Rice et Alice reste inconnue. Les fiches « May Ninth » de Goodman (EC-01622, EC-01623, OE-01339) relèvent d'une fiction datée de Chicago sans lien établi avec le collège : elles sont exclues."
+ }
+}

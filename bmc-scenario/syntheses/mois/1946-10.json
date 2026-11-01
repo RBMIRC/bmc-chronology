@@ -1,0 +1,431 @@
+{
+ "passe": "mois",
+ "cle": "1946-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3681,
+  "sortie": 15604,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1946-10",
+  "session": "semestre d'automne (déduit : l'institut d'été est clos et les fiches parlent de l'automne comme d'une reprise ; aucune date de rentrée n'est donnée)",
+  "saison_et_climat": "Automne 1946 en Caroline du Nord. Aucune fiche ne décrit le climat d'octobre. Les dépenses de chauffage et de nourriture, Thanksgiving et Noël se profilent à l'horizon.",
+  "situation": "Le collège sort d'un été médiatisé (institut d'été, presse) mais reste fracturé. Albers est parti en sabbatique en voiture dès la fin de l'institut d'été et ne sera pas là ce mois-ci. Bolotowsky enseigne la peinture à sa place et, selon Díaz, a aboli de fait ses exercices collectifs, ce qui crée des frictions. Dreier est recteur nominal et absent ; Molly Gregory dirige de fait, mais la ferme passe à deux couples quakers, les Moles et les Trayers. Le Community Council existe depuis le printemps, Wallen en est président, et la faculté semble avoir cédé sur l'admission immédiate d'étudiants noirs (collecte prévue pendant les vacances de Noël). Le coût de la vie grimpe. Le collège déborde de GI (75 étudiants pour 60 places) et s'installe dans des baraquements militaires. Le département de musique, décimé par la mort de Jalowetz, tient grâce à Schlesinger et à Mme Jalowetz. Les affaires Niebyl, du télégramme 47 et de la pétition sont closes ou en voie de l'être.",
+  "presents_probables": [
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bolotowsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kenneth Noland",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Irwin Kremen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joseph Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Charlotte « Bimbus » Schlesinger",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mme Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eddie Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rondthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jim Tite",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ann Mayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "couple Moles (quakers)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "couple Trayer (quakers)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1946-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Fin de l'institut d'été et départ des Albers en voiture pour une année sabbatique (New York, Boston, Niagara, Chicago, Denver, Californie, Nouveau-Mexique).",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Summer Art Institute (juillet-août) : Jacob Lawrence, Leo Amino sculptant sous le Studies Building, quatre tisserandes dans l'atelier d'Anni Albers, achèvement de With Verticals.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "saison",
+    "ce_qui_arrive": "Bolotowsky enseigne la peinture en l'absence d'Albers et abroge de fait les exercices collectifs, d'où des frictions.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "saison",
+    "ce_qui_arrive": "Arrivée de Kenneth Noland, Irwin Kremen (venu après un reportage de la Partisan Review) et Joseph Fiore. Le témoignage de Lane ne permet pas toujours de dater à l'année.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "saison",
+    "ce_qui_arrive": "Les couples quakers Moles et Trayer prennent la ferme que Molly Gregory faisait tourner presque seule ; Dreier, absent, laisse Molly Gregory diriger de fait.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "annee",
+    "ce_qui_arrive": "Hausse rapide du coût de la vie : nourriture de 23 595 $ à 36 279 $ entre 1945-46 et 1946-47.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "saison",
+    "ce_qui_arrive": "Résolution étudiante d'admission immédiate d'autant d'étudiants noirs que possible, hommes compris, avec collecte pendant les vacances de Noël ; la faculté cède à l'unanimité ; Lowinsky élargit ses contacts (lycées noirs, NAACP, YMCA, AFSC).",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946-11",
+    "precision": "mois",
+    "ce_qui_arrive": "À Thanksgiving, match de football parodique (Cro-Magnons contre Sticky Attitudes) qui tourne au sérieux sur le terrain au bord de Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Début décembre : Levi remet au Board un rapport préliminaire sur les salaires.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Les Albers s'installent dans une maison en adobe à La Luz, où Josef écrit « enfin la paix » ; la série Variants/Adobes y naîtrait selon une fiche (les autres la placent au Mexique en 1947).",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "session",
+    "ce_qui_arrive": "Cinq étudiants noirs inscrits à l'hiver 1947.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Wallen est élu président du Community Council, le mois suivant sa déclaration écrite à la faculté ; Albers voit en lui « The Kaiser ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "periode",
+    "ce_qui_arrive": "Pétition de 61 étudiants rejetée sèchement ; Wallen et Levi persuadent les pétitionnaires que la politique n'est pas en cause. Date et effectif contestés (1945 ou 1946-47 ; 90 étudiants ou 75).",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Mort de Heinrich Jalowetz, effondré sur la pelouse chez les Straus après un concert ; enterré sous un tas de pierres sur un site rocheux, Requiem de Brahms chanté. Date contestée (hiver 1945-46, printemps 1946, ou vers 1945).",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Le collège improvise. Les étudiants remontent à la main le baraquement Deep South (1946-48, selon Lane) ; trois baraquements militaires servent d'études, de salles de classe et de réserve. La bibliothèque enfin éclairée réjouit Nell Rice. Le gouvernement a fourni une presse, des machines à écrire, un lave-vaisselle et, selon Duberman, cent chaises tournantes et un repasse-pantalons. Au cours du printemps, Tite et Ann Mayer ont remis en état la presse retrouvée sous l'atelier de menuiserie, et un cours de douze étudiants pratique le student-teaching avec Weitzer. Weitzer tient le woodshop que Molly Gregory quitte, à condition que la porte reste déverrouillée. Mme Jalowetz forme quelques étudiants au chant et donne un cours de reliure ; Schlesinger maintient la musique. Dreier rêve d'un programme de quinze ans pour 125-150 étudiants et a engagé Architects' Collaborative. Hors du collège, Elaine de Kooning écrit pour Mademoiselle un article sur les compagnies de ballet new-yorkaises.",
+  "tensions": [
+   "Wallen contre Albers : « prendre le pouvoir » contre « gouverner les autres », avec la déclaration du 13 mai et la présidence du Council qui renforcent la méfiance d'Albers.",
+   "Albers absent mais présent par ses lettres aux Dreier, où il avoue ses doutes, attaque Wallen et « hait l'égalisation pour l'égalisation » ; Horowitz et Danilowitz lient le climat conflictuel à son départ.",
+   "Bolotowsky face aux anciens exercices d'Albers : frictions entre sa méthode et celle que les étudiants ont connue.",
+   "Étudiants qui poussent l'intégration plus vite que la faculté ; cinq admissions prévues pour l'hiver 1947.",
+   "Économie de guerre et de survie : coût de la vie, salaires en cours d'examen (rapport de Levi), ferme passée à des quakers, absence du recteur nominal.",
+   "Soupçon politique (Niebyl, cellule communiste supposée, télégramme 47) encore présent dans les esprits malgré les épisodes clos.",
+   "Contradictions entre sources : date de la mort de Jalowetz, date et effectif de la pétition, lieu et date de Variants/Adobes."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Premier Council sous présidence Wallen",
+    "date": "1946-10",
+    "lieu": "salle de réunion du collège",
+    "personnages": [
+     "John Wallen",
+     "Albers (absent, par lettres)",
+     "Levi",
+     "Rondthaler",
+     "étudiants élus au Council"
+    ],
+    "deroule": "Wallen préside une réunion où le référendum révocatoire et le comité disciplinaire paritaire sont pour la première fois mis en pratique. La présence d'Albers manque à la table, et ses lettres aux Dreier circulent dans les conversations.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le cours de Bolotowsky sans les exercices d'Albers",
+    "date": "1946-10",
+    "lieu": "atelier de peinture",
+    "personnages": [
+     "Bolotowsky",
+     "Kenneth Noland",
+     "Irwin Kremen",
+     "Joseph Fiore"
+    ],
+    "deroule": "Les nouveaux arrivants découvrent une peinture enseignée sans les exercices collectifs d'Albers. Les frictions avec ceux qui gardent la méthode de l'ancien maître se font sentir.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le transfert de la ferme aux quakers",
+    "date": "1946",
+    "lieu": "la ferme du collège",
+    "personnages": [
+     "Molly Gregory",
+     "couple Moles",
+     "couple Trayer",
+     "Dreier (absente)"
+    ],
+    "deroule": "Molly Gregory, qui faisait tourner la ferme presque seule, passe la main à deux couples quakers. Dreier est absente et Molly Gregory reste la figure qui dirige de fait.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La presse retrouvée",
+    "date": "1946",
+    "lieu": "atelier de menuiserie et Black Mountain Press",
+    "personnages": [
+     "Jim Tite",
+     "Ann Mayer",
+     "Rondthaler",
+     "Weitzer",
+     "douze étudiants"
+    ],
+    "deroule": "La presse Challenge-Gordon, remise en état avec un moteur Kelvinator, sert au cours de student-teaching. Rondthaler célèbre la « résurrection » de la Black Mountain Press.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La bibliothèque enfin éclairée",
+    "date": "1946",
+    "lieu": "bibliothèque",
+    "personnages": [
+     "Nell Rice",
+     "étudiants"
+    ],
+    "deroule": "La bibliothèque, désormais bien éclairée, change la vie de travail des étudiants serrés dans les baraquements militaires.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La collecte de Noël pour l'admission",
+    "date": "1946-12",
+    "lieu": "campus",
+    "personnages": [
+     "étudiants",
+     "Lowinsky",
+     "Mme Jalowetz"
+    ],
+    "deroule": "Pendant les vacances de Noël, les étudiants organisent une collecte pour financer l'admission d'étudiants noirs, en élargissant les contacts avec les lycées noirs, la NAACP, le YMCA et l'AFSC.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Thanksgiving et le match parodique",
+    "date": "1946-11",
+    "lieu": "terrain au bord de Lake Eden",
+    "personnages": [
+     "étudiants",
+     "Cro-Magnons",
+     "Sticky Attitudes"
+    ],
+    "deroule": "Un match de football parodique qui tourne au sérieux sur le terrain au bord de Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1946, quand Mme Jalowetz donne ses cours de chant et de reliure",
+    "vers_date": null,
+    "vers": "La mort de Heinrich Jalowetz, sur la pelouse chez les Straus, et l'enterrement sous les pierres, avec le Requiem de Brahms chanté ; date contestée.",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1946, dans les réunions du Council et dans les débats sur le programme de travail",
+    "vers_date": "1945-11",
+    "vers": "Réunions de communauté sur le programme des 13 et 27 novembre 1945, avec la pétition de 34 étudiants et 11 enseignants et le plan de groupes de douze, dont Jalowetz est signataire.",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1946, au moment où Albers est sur la route",
+    "vers_date": "1946-07",
+    "vers": "Summer Art Institute : Lawrence, Amino, les quatre tisserandes et la dernière tenture With Verticals.",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1946, dans les discussions sur le pouvoir au collège",
+    "vers_date": "1946-05-13",
+    "vers": "Déclaration écrite de Wallen à la faculté, « pour mettre les choses au grand jour », qui reproche à Albers les tactiques des « Bentleyites ».",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1946, à la veille du départ de Lowinsky pour l'Italie qui n'a pas lieu",
+    "vers_date": "1947-08",
+    "vers": "Le collège retient les Lowinsky jusqu'en août 1947 : la bourse Guggenheim d'Eddie est reportée d'un an.",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1946, Albers encore sur la route",
+    "vers_date": "1946-12",
+    "vers": "Installation des Albers dans la maison en adobe de La Luz ; « enfin la paix » ; naissance possible de la série Variants/Adobes (date et lieu contestés).",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1946, avant le rapport sur les salaires",
+    "vers_date": "1946-12",
+    "vers": "Levi remet au Board un rapport préliminaire sur les salaires, au début de décembre.",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1946, dans l'élan des admissions d'étudiants noirs",
+    "vers_date": "1947",
+    "vers": "Cinq étudiants noirs inscrits à l'hiver 1947.",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1946, avec les baraquements qu'on relève à la main",
+    "vers_date": "1948",
+    "vers": "Fin de la construction du baraquement Deep South (1946-48, selon Lane).",
+    "refs": [
+     "chapitre de l'année 1946 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "le pouvoir et la défiance dans une communauté qui se gouverne elle-même",
+   "la succession d'un maître (Albers) et la survie d'une méthode",
+   "le deuil de Jalowetz et la continuité par Mme Jalowetz et Schlesinger",
+   "l'entassement et le provisoire matériel (GI, baraquements, presse retrouvée)",
+   "l'intégration raciale poussée par les étudiants plus vite que la faculté",
+   "l'argent et la hausse du coût de la vie",
+   "les témoignages qui se contredisent sur les dates",
+   "la presse et la vitrine publique du collège"
+  ],
+  "lacunes": "Octobre 1946 n'est jamais daté précisément : tous les arrivages et départs de l'automne sont datés « à l'automne » ou « 1946-47 ». On ne sait pas où se trouve Albers ce mois-ci, ni à quelle étape de son voyage. Les fiches ne donnent ni climat ni détail de la vie quotidienne d'octobre. Lowinsky, Levi, les quakers et Molly Gregory sont présents par déduction, sans attestation directe pour ce mois. La date de la mort de Jalowetz, celle de la pétition, son effectif (75 ou 90), et le lieu de Variants/Adobes restent contradictoires. Le chapitre de synthèse n'a pas d'identifiant : il est cité par son titre. Elaine de Kooning n'apparaît dans aucune autre fiche du collège, et l'article de Mademoiselle reste hors du collège."
+ }
+}

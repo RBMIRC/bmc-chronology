@@ -1,0 +1,326 @@
+{
+ "passe": "mois",
+ "cle": "1954-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 11532,
+  "sortie": 15316,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1954-06",
+  "session": "Fin du trimestre de printemps : le départ de Rumaker et Field a lieu « après le terme de printemps de juin 1954 ». La session d'été s'installe ensuite, sans date de début dans les fiches. Les Albers enseignent à Honolulu du 23 juin au 3 août, donc absents du collège.",
+  "saison_et_climat": "Début d'été. Les fiches ne donnent pas de météo. Chaleur et poussière sont déduites des routes cahoteuses de Caroline du Nord et de Géorgie et des chemins effrités.",
+  "situation": "Le collège est au plus bas de sa courbe. Le campus se rétrécit : partie basse fermée, repas communs finis selon Duberman, communes de célibataires qui volent à l'A&P et cuisinent sur plaques chauffantes. Les enseignants ne sont pas payés depuis un an, Olson exerce le rectorat, et les appels d'argent n'aboutissent pas. Paul Williams est parti monter sa propre colonie. En juin, le départ de Rumaker et Field pour La Nouvelle-Orléans coïncide avec un été où Olson dîne presque chaque soir chez les Hellman. Ces éléments viennent de la synthèse 1954 : aucune fiche ne les date au mois près.",
+  "presents_probables": [
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tom Field",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jonathan Williams",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Robert Creeley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Kaiser",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Vicente (cours de dessin)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Stefan Wolpe",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hilda Wolpe",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "les Hellman",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1954-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Début juin, les colocataires vont chercher des caisses de livres chez les libraires Braider, qu'on entrepose au sous-sol de la Red House à East Hampton. Ce fait n'a pas de lien direct avec Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06460"
+    ]
+   },
+   {
+    "date": "1954-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Pollock, ivre, se casse la cheville en trébuchant sur le chemin effrité derrière la Red House, où Elaine de Kooning l'avait appelé. L'accident devient une cause célèbre entre rivaux. Ce milieu est hors du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06461",
+     "SC-01738"
+    ]
+   },
+   {
+    "date": "1954-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Après le terme de printemps, Rumaker et Tom Field partent en auto-stop vers La Nouvelle-Orléans, en voiture de Jonathan Williams jusqu'à Highlands, où ils dorment chez ses parents absents.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06463",
+     "EV-06464"
+    ]
+   },
+   {
+    "date": "1954-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Un samedi matin, première voiture : trois jeunes ivres dans un vieux Chevy, qui font des rebel yells. Rumaker et Field descendent à un carrefour sous un prétexte inventé.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06465"
+    ]
+   },
+   {
+    "date": "1954-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Un samedi de fin d'après-midi à Atlanta, les deux hommes mangent dans un greasy spoon d'arrière-rue, puis prennent un bus municipal ségrégué vers la périphérie. Tom y commente l'esclavage et la décision de la Cour suprême, et un jeune Sudiste menace.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06466",
+     "EV-06467",
+     "SC-01739"
+    ]
+   },
+   {
+    "date": "1954-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Un lift en tracteur avec remorque de poisson congelé les conduit vers Laurel (Mississippi). Le chauffeur bavarde de sa mère et s'entend avec Tom.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06468"
+    ]
+   },
+   {
+    "date": "1954-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Willem de Kooning expose plus de vingt tableaux au pavillon américain de la Biennale de Venise. Ce fait est hors collège et ne sert que de repère de milieu.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06470"
+    ]
+   },
+   {
+    "date": "1954-06-23",
+    "precision": "periode",
+    "ce_qui_arrive": "Les Albers donnent conférences et cours d'atelier à l'Université d'Hawaï, jusqu'au 3 août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06471",
+     "EV-06472",
+     "EV-06473"
+    ]
+   },
+   {
+    "date": "1954-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Un dessin à l'encre fait en cours avec Vicente est punaisé dans le lobby du Meadows Inn, où vivent Field et Rumaker. Joe Fiore le complimente. Le fait est signalé comme se situant dans l'été, jusqu'en août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06462"
+    ]
+   }
+  ],
+  "quotidien": "Vie d'été en communes de trois à cinq personnes, sur plaques chauffantes, avec des vols à l'A&P. Olson dîne presque chaque soir chez les Hellman, où Wolpe et Stefan partagent Black Dwarf. Wes Huss monte Oncle Vania et des scènes de Ghosts. Vicente donne un cours de dessin dont les travaux circulent dans le lobby. Rumaker prend des cours de français avec Flola Shepard, et Tom et lui parlent de jazz et du French Quarter, qu'il rêvent à partir des récits de Jonathan Williams sur George Lewis. Hart Crane est interdit en classe mais lu en cachette. Les travaux de la session et les répétitions de Wolpe (son opéra d'après Peer Gynt, plutôt fin d'été) se mêlent à ce quotidien.",
+  "tensions": [
+   "Naïveté politique de Tom face au Sud : sur le bus d'Atlanta, la discussion rationnelle attire la haine et met deux voyageurs en danger.",
+   "Peur de Rumaker, qui voit le Sud comme un danger mortel et a envie de tuer Tom pour sa naïveté.",
+   "Pauvreté : Rumaker a économisé des semaines, la valise a été payée avec des Yellow Savings Stamps, et Tom ne vit que du GI Bill.",
+   "Olson et la liaison avec Betty Kaiser, que Rumaker entend monter chez elle au Meadows Inn ; Connie est absente, à Scituate avec Kate (été).",
+   "Effondrement matériel du collège : repas communs finis, salaires impayés, ferme qui s'éteint, fermetures de bâtiments.",
+   "Le rivage du collège (Creeley, Rumaker) se défait : Creeley est en route vers Majorque et Rumaker sent qu'il faudra partir."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Départ en auto-stop et premières heures de route",
+    "date": "1954-06",
+    "lieu": "Black Mountain puis Highlands (Caroline du Nord)",
+    "personnages": [
+     "Michael Rumaker",
+     "Tom Field",
+     "Jonathan Williams"
+    ],
+    "deroule": "Après le terme de printemps, Jonathan emmène les deux amis dans sa Hillman Minx anglaise jusqu'à Highlands. La valise de faux crocodile de Rumaker est pleine de l'argent de sa mère. Ils dorment dans la maison aux panneaux de pin, dont la vue sur trois États est exhibée comme un domaine. Il faut pousser la petite voiture par-dessus les crêtes des Blue Ridge.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06463",
+     "EV-06464"
+    ]
+   },
+   {
+    "titre": "Trois ivres sur la route de Géorgie",
+    "date": "1954-06",
+    "lieu": "Routes de campagne du nord de la Géorgie",
+    "personnages": [
+     "Michael Rumaker",
+     "Tom Field",
+     "trois jeunes ivres"
+    ],
+    "deroule": "Un Chevy fonce sur des routes cahoteuses. Le chauffeur roux pousse des rebel yells. Rumaker et Field inventent un prétexte à un carrefour pour descendre, et la voiture repart dans un nuage de poussière.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06465"
+    ]
+   },
+   {
+    "titre": "Le bus d'Atlanta",
+    "date": "1954-06",
+    "lieu": "Bus municipal ségrégué, Atlanta vers la périphérie",
+    "personnages": [
+     "Michael Rumaker",
+     "Tom Field",
+     "jeune Sudiste",
+     "passagers blancs"
+    ],
+    "deroule": "Au crépuscule, Rumaker rêve d'Autant en emporte le vent. Tom pontifie sur l'esclavage, la guerre de Sécession et la décision de la Cour suprême. Un jeune homme se retourne et menace à voix basse, en corrigeant le nom de la guerre. Tom tente une discussion rationnelle, Rumaker supplie et se recroqueville. Ils descendent aux limites de la ville.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01739",
+     "EV-06466",
+     "EV-06467"
+    ]
+   },
+   {
+    "titre": "Le camion de poisson congelé vers Laurel",
+    "date": "1954-06",
+    "lieu": "Route vers Laurel (Mississippi)",
+    "personnages": [
+     "Michael Rumaker",
+     "Tom Field",
+     "chauffeur au visage méditerranéen"
+    ],
+    "deroule": "Le tracteur à remorque de poisson congelé avance. Le chauffeur nerveux bavarde surtout de sa mère, et s'entend à merveille avec Tom. Le contraste avec le bus d'Atlanta est marqué.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06468"
+    ]
+   },
+   {
+    "titre": "Pollock se casse la cheville à la Red House",
+    "date": "1954-06",
+    "lieu": "Red House, East Hampton (hors collège)",
+    "personnages": [
+     "Jackson Pollock",
+     "Elaine de Kooning",
+     "Willem de Kooning"
+    ],
+    "deroule": "Les colocataires étant partis chercher des livres, Pollock arrive ivre dans sa Model A et continue à boire. Elaine appelle la librairie pour presser le retour des hommes. Tous bambochent sur le chemin effrité ; Pollock trébuche, Bill tombe sur lui et la cheville casse. Un récit dit qu'il poursuivait Elaine, ce que les sources ne confirment pas.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01738",
+     "EV-06461"
+    ]
+   },
+   {
+    "titre": "Le pouce ensanglanté d'Olson dans l'escalier",
+    "date": "1954-06",
+    "lieu": null,
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Entre juin et novembre, Rumaker voit Olson blessé au pouce dans l'escalier. Il veut le consoler, comme il aurait voulu soigner son père brûlé par un pack d'allumettes, mais n'ose pas. Le vers de Marlowe sur le sang du Christ lui traverse l'esprit.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03086",
+     "EC-03087"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, au Meadows Inn, entend les ébats d'Olson et Betty au-dessus de sa chambre.",
+    "vers_date": null,
+    "vers": "Enfance dans la maison du New Jersey : les parents derrière les cloisons en papier, la peur de l'incendie, l'oreille tendue.",
+    "refs": [
+     "EC-03034"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Olson blessé dans l'escalier, entre juin et novembre.",
+    "vers_date": null,
+    "vers": "Le père de Rumaker brûlé par un pack d'allumettes dans son fauteuil, et la peur de trahir la mère.",
+    "refs": [
+     "EC-03086"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La scène de la valise d'Olson, qui renonce à partir, inquiète Rumaker pour la communauté.",
+    "vers_date": null,
+    "vers": "Une nuit d'hiver où le père ivre est parti en hurlant qu'il ne reviendrait jamais, et Rumaker resta hébété en classe.",
+    "refs": [
+     "EC-03035"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La peur du feu pour les archives Crosby, en 1954.",
+    "vers_date": "1952",
+    "vers": "Le feu de forêt de 1952 et la destruction de Roadside.",
+    "refs": [
+     "EC-03039"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, au moment de la liaison d'Olson avec Betty Kaiser au Meadows Inn.",
+    "vers_date": null,
+    "vers": "Des années plus tard seulement, Rumaker apprend la liaison épistolaire d'Olson avec Boldereff et le non-mariage légal de Charles et Connie.",
+    "refs": [
+     "EC-03038"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le collège au bord de l'effondrement, en été.",
+    "vers_date": "1955",
+    "vers": "Le départ de Rumaker, qu'il sent sans l'admettre encore.",
+    "refs": [
+     "EC-03093"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le Sud réel contre l'utopie de Black Mountain : la naïveté de Tom en danger physique.",
+   "La filiation paternelle et spirituelle : Olson en père trahissant, les parents de Rumaker, les pères d'écrivain.",
+   "Le collège qui se rétrécit : maisons fermées, communes, repas en déclin.",
+   "La blessure qui tombe sur un homme qu'on admire (Pollock, Olson).",
+   "Le départ comme sortie : Rumaker économise, prépare la fuite vers le Sud puis vers New York."
+  ],
+  "lacunes": "Aucune fiche ne donne un jour précis pour les événements de juin (sauf le début de la session d'Hawaï, le 23 juin). On ignore la date d'arrivée de la session d'été, la présence exacte d'Olson, de Creeley ou de Joe Fiore en juin, et si Rumaker et Field sont revenus au collège. Les sources ne donnent pas de date pour la fin des repas communs ni pour le licenciement de Doyle Jones. La date de la liaison d'Olson avec Betty Kaiser est seulement située en 1954. Les fiches Pollock, de Kooning et Biennale de Venise relèvent d'un autre milieu : elles sont rattachées à juin par leur seule date. Le récit de la poursuite de Pollock est contesté par le fait qu'il est rapporté par « un récit ». Les fiches de Goodman ne sont pas datées de ce mois."
+ }
+}

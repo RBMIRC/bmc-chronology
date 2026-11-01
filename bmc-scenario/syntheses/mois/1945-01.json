@@ -1,0 +1,160 @@
+{
+ "passe": "mois",
+ "cle": "1945-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3393,
+  "sortie": 8645,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "janvier 1945",
+  "session": "Hiver 1945 ; les fiches ne précisent pas le calendrier des sessions à Lake Eden ce mois-ci.",
+  "saison_et_climat": "Hiver ; les fiches ne disent rien du temps qu'il fait en Caroline du Nord.",
+  "situation": "Le collège se reconstruit après la scission de 1944, qui l'a vidé de sa moitié rebelle. Le corps enseignant est réduit : Lowinsky improvise des cours de rattrapage, et Zabriskie et Kazin, arrivés récemment, n'y sont pas heureux. Le camp rebelle tente de monter un nouveau collège à New York, mais ce projet ne supplante pas BMC. Le projet de Foreman s'effondre ce mois-ci : Foreman, Fritz et Elsa Cohen se trouvent à New York, pas au collège.",
+  "presents_probables": [
+   {
+    "nom": "Lowinsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zabriskie",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kazin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Foreman annonce un soir qu'il devient secrétaire du National Citizens Political Action Committee, après six mois de préparatifs du nouveau collège. Coup dur pour les Cohen, qui n'ont aucune réserve d'argent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03781",
+     "SC-00959"
+    ]
+   },
+   {
+    "date": "1945-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Les Cohen vivent dans une misère terrible. Fritz tente en vain de vendre son Music Institute à d'autres écoles.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03781"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Le camp rebelle tente de fonder un nouveau collège à New York.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Le collège vit au rythme des rituels : Jalowetz dirige des chorales de Bach qui durent deux à trois heures, et au dîner les chants passent de table en table. Il n'y a pas de couvre-feu. Lowinsky assure des cours de rattrapage pour compenser le manque d'enseignants. La faculté débat de la question raciale depuis la rentrée 1944, sans trancher.",
+  "tensions": [
+   "Fritz et Elsa Cohen sont ruinés et sans plan après le retrait de Foreman.",
+   "La faculté est réduite et démoralisée ; Zabriskie et Kazin ne s'y plaisent pas.",
+   "Lowinsky porte la question de l'admission d'étudiants et d'enseignants noirs, que Straus et Kurtz refusent ou freinent.",
+   "Le camp rebelle de New York et BMC se disputent le même héritage, sans que le premier l'emporte."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Foreman annonce son retrait",
+    "date": "1945-01",
+    "lieu": "maison de Park Avenue, New York",
+    "personnages": [
+     "Clark Foreman",
+     "Fritz Cohen",
+     "Elsa Kahl Cohen",
+     "Frances de Graaff"
+    ],
+    "deroule": "Un soir, dans l'appartement de Park Avenue, Foreman, très bouleversé et honteux, annonce qu'il rejoint le National Citizens Political Action Committee. Pour les Cohen, sans réserve d'argent, c'est l'effondrement de six mois de préparatifs.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00959"
+    ]
+   },
+   {
+    "titre": "Chorale de Bach et chants de table",
+    "date": "1945",
+    "lieu": null,
+    "personnages": [
+     "Jalowetz",
+     "étudiants"
+    ],
+    "deroule": "Une longue répétition de chorale de Bach dirigée par Jalowetz, qui peut durer deux à trois heures, puis au dîner des chants qui passent de table en table.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Foreman qui abandonne le projet, et les Cohen dans leur misère",
+    "vers_date": "1944",
+    "vers": "Les six mois de préparatifs du nouveau collège, commencés vers l'été 1944 (déduit de la durée), et la scission de 1944 qui a emporté la moitié rebelle de BMC.",
+    "refs": [
+     "EV-03781",
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la misère des Cohen en janvier",
+    "vers_date": null,
+    "vers": "Fritz ne sera tiré d'affaire que par l'Opera Workshop de Juilliard, dont il prendra la tête ; la date n'est pas donnée.",
+    "refs": [
+     "EV-03781",
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la faculté encore en place au début de l'année, avec Wunsch comme recteur",
+    "vers_date": "1945-06",
+    "vers": "L'affaire Wunsch : arrestation près d'Asheville, réduction de l'inculpation, démission et départ nocturne, silence imposé à la communauté.",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le débat sur la question raciale, ouvert depuis la rentrée 1944",
+    "vers_date": "1945-05",
+    "vers": "La formule est arrêtée : deux étudiants noirs aux instituts d'été, puis un enseignant noir à l'automne. Wallen obtient un contrat d'un an après l'évaluation de Straus.",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "reconstruction après la scission de 1944",
+   "dépendance aux fonds extérieurs (Rosenwald, GI Bill)",
+   "départ des fondateurs rebelles",
+   "la question raciale qui s'ouvre",
+   "rêves de collège alternatif qui s'effondrent"
+  ],
+  "lacunes": "Aucune fiche ne donne le jour de l'annonce de Foreman ni d'événement quotidien précis pour janvier. On ignore la date d'arrivée de Zabriskie et Kazin, le calendrier de la session, le climat et les effectifs étudiants. Les sources divergent sur la suite de Wunsch et sur le rectorat d'Albers : Chaddock le place en 1945, d'autres fiches en 1948."
+ }
+}

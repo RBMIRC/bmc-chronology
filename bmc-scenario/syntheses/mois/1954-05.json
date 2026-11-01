@@ -1,0 +1,290 @@
+{
+ "passe": "mois",
+ "cle": "1954-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6962,
+  "sortie": 20402,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1954-05",
+  "session": "Non précisée par les fiches. Printemps, après la fermeture d'hiver ; Creeley enseigne depuis le 13 mars.",
+  "saison_et_climat": "Printemps (déduit : Creeley arrive mi-mars et la Review paraît au printemps). Les fiches ne disent rien du climat de mai.",
+  "situation": "Le collège survit au ralenti. Le campus s'est rétréci, la moitié basse est fermée, les repas communs ont cessé (date non précisée) et les célibataires vivent en communes. Olson assume le rectorat et cherche de l'argent : appel de mars couplé à un plan d'expansion, billet de 1 000 dollars différé par Forbes, Paul Williams qui a presque renoncé et monte Stony Point. La Black Mountain Review, imprimée à Majorque, paraît au printemps. La ferme s'éteint et son régisseur démissionne en 1954 (date non fixée). Les enseignants n'ont pas touché de salaire depuis environ un an. L'effondrement de décembre (appel de 15 décembre rapportant environ 250 dollars, cours suspendus) n'a pas encore eu lieu : mai est une période de maintien, pas de fin (déduit).",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Creeley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rumaker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Grey Stone",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Kaiser",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stefan Wolpe",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Connie",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Doyle Jones",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1954-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Huntington Hartford publie dans la presse nationale la pleine page « The Public Be Damned ? » contre l'art moderne, visant de Kooning. Aucun lien documenté avec le collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06459"
+    ]
+   },
+   {
+    "date": "1954-04",
+    "precision": "periode",
+    "ce_qui_arrive": "Exposition Four Artist-Craftsmen au San Francisco Museum of Art, ouverte jusqu'au 2 mai 1954, avec Asawa, ancienne du collège. Dispositif de Lanier, contre-modèle au designer-craftsman.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06458"
+    ]
+   },
+   {
+    "date": "1954-03-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Creeley arrive à Black Mountain à huit heures du matin, enseigne le soir même ; premier cours catastrophique devant six étudiants.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1954 (synthèse)"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "saison",
+    "ce_qui_arrive": "La Black Mountain Review paraît au printemps, imprimée à Majorque ; les Creeley ont rebaptisé leur affaire Divers Press.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1954 (synthèse)"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "ce_qui_arrive": "En mars, appel aux anciens couplé à un plan d'expansion ; Forbes accepte de différer un billet de 1 000 dollars ; Paul Williams, qui avait donné 6 500 dollars en 1953, monte Stony Point.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1954 (synthèse)"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "ce_qui_arrive": "Liaison d'Olson avec Betty Kaiser, étudiante en musique élève de Wolpe, au fond de l'année. Rumaker l'entend monter chez elle à Meadows Inn.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1954 (synthèse)",
+     "EC-03034"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "ce_qui_arrive": "Doyle Jones, régisseur de la ferme, démissionne. Rumaker y voit l'aboutissement de mauvaises relations avec Olson. La ferme s'arrêtera complètement en 1955.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1954 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Vie de commune : célibataires en groupes de trois à cinq personnes, environ deux dollars par semaine, cuisine sur plaques chauffantes, vols à l'A&P avec la complicité de la caissière. Les repas communs ont cessé. Cours : Creeley enseigne depuis mi-mars ; Hart Crane est interdit par Olson mais lu en cachette, Creeley parle de jazz et lit Williams. Creeley boit chez Ma Peak. Musique : Wolpe, dont l'opéra d'après Peer Gynt sera achevé plus tard, en fin d'été. La ferme est en fin de course, les vaches seront vendues (date non fixée).",
+  "tensions": [
+   "Olson et l'argent : appels sans résultat, billet différé, rectorat formel sans ressources",
+   "Liaison d'Olson avec Betty Kaiser, pendant que Connie reste en retrait",
+   "Rumaker craint l'effondrement de la communauté, comme celui de sa famille",
+   "Doyle Jones contre Olson : mépris social et mauvaises relations",
+   "Creeley contre Grey Stone et la pression de classe ; Olson fait interdire Hart Crane",
+   "Salaires impayés depuis environ un an et communes qui vivent de vols",
+   "Séductions avortées de Rumaker (Fee Dawson), vécues comme manipulations"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Creeley dans la Reading Room",
+    "date": "1954",
+    "lieu": "Reading Room",
+    "personnages": [
+     "Creeley",
+     "étudiants lecteurs de Crane (non nommés)"
+    ],
+    "deroule": "Creeley, installé dans la petite Reading Room, lit Hart Crane et Williams et parle de jazz. Des étudiants lisent Crane en cachette, alors qu'Olson en a fait un interdit ou un objet de railleries.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1954 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Grey Stone ramène Creeley en classe",
+    "date": "1954",
+    "lieu": "salle de classe, puis les poubelles",
+    "personnages": [
+     "Grey Stone",
+     "Creeley"
+    ],
+    "deroule": "Creeley, qui boit chez Ma Peak, est ramené en classe de force par Grey Stone, jusqu'au jour où celui-ci découvre ses brouillons dans les poubelles.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1954 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Les ébats au-dessus de la chambre",
+    "date": "1954",
+    "lieu": "Meadows Inn",
+    "personnages": [
+     "Rumaker",
+     "Olson",
+     "Betty Kaiser"
+    ],
+    "deroule": "La nuit, Rumaker entend Olson et Betty Kaiser au-dessus de sa chambre. Le plafond réactive pour lui la chambre d'enfance où il écoutait les parents à travers les cloisons.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03034",
+     "chapitre 1954 (synthèse)"
+    ]
+   },
+   {
+    "titre": "La valise",
+    "date": "1954",
+    "lieu": null,
+    "personnages": [
+     "Olson",
+     "Rumaker"
+    ],
+    "deroule": "Rumaker surprend Olson la valise à la main ; Olson renonce à partir. Rumaker, inquiet pour la paye et pour la communauté, repense à la nuit où son père ivre est parti en hurlant.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1954 (synthèse)",
+     "EC-03035"
+    ]
+   },
+   {
+    "titre": "Le vol à l'A&P",
+    "date": "1954",
+    "lieu": "A&P",
+    "personnages": [
+     "membres d'une commune de célibataires (non nommés)",
+     "caissière de l'A&P"
+    ],
+    "deroule": "Une commune prélève environ deux dollars par semaine, vole à l'A&P avec la complicité de la caissière, puis fait cuire les repas sur plaques chauffantes.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1954 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le départ de Doyle Jones",
+    "date": "1954",
+    "lieu": "la ferme",
+    "personnages": [
+     "Doyle Jones",
+     "Rumaker"
+    ],
+    "deroule": "Le régisseur quitte la ferme. Rumaker y voit l'aboutissement de ses mauvaises relations avec Olson et de son mépris social.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1954 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, au-dessus de sa chambre de Meadows Inn, entend Olson et Betty",
+    "vers_date": null,
+    "vers": "Enfance dans le New Jersey : les frottements furtifs des parents derrière les cloisons en papier, la peur de l'incendie",
+    "refs": [
+     "EC-03034"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker surprend Olson la valise à la main et craint pour la paye",
+    "vers_date": null,
+    "vers": "Nuit d'hiver où le père ivre part en hurlant ; Rumaker hébété en classe de Miss Newcomb",
+    "refs": [
+     "EC-03035"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "1954 : la crainte du feu pour les archives Crosby (date exacte non fixée, peut-être vers la fin de l'année)",
+    "vers_date": "1952",
+    "vers": "Feu de forêt de 1952 et destruction de Roadside",
+    "refs": [
+     "EC-03039"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker face aux rendez-vous avortés de Fee Dawson",
+    "vers_date": "1953",
+    "vers": "Ellen Schasberger, printemps 1953, qui semblait aussi jouer avec lui",
+    "refs": [
+     "EC-03036"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "1954, quand la liaison Olson-Betty se vit sans que la communauté en connaisse les dessous",
+    "vers_date": null,
+    "vers": "Rumaker écrit ses mémoires et découvre « des années plus tard » la liaison épistolaire Olson-Boldereff et le non-mariage de Charles et Connie",
+    "refs": [
+     "EC-03038"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les dîners encore conviviaux de 1954",
+    "vers_date": "1954-11",
+    "vers": "Thanksgiving aux Meadows Inn, dernier grand rassemblement convivial ; les suivants, plus rudes, jusqu'à la fermeture",
+    "refs": [
+     "EC-03041"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les incidents de la vie de commune en 1954",
+    "vers_date": "1954-12",
+    "vers": "Noël 1954 : ivrogne gelé et marine bagarreur, notés dans les carnets du futur écrivain",
+    "refs": [
+     "EC-03044"
+    ]
+   }
+  ],
+  "motifs": [
+   "Olson en père de substitution : sa trahison répète celle du père biologique",
+   "Filiation spirituelle : Olson avait lui-même pris Melville et Pound pour pères",
+   "Le feu : désastre de 1952 et crainte pour les archives",
+   "Être étranger au foyer familial (vers de Maximus repris par Rumaker)",
+   "Séductions avortées vécues comme manipulations",
+   "La peur de l'effondrement de la famille, répétée de l'enfance au collège"
+  ],
+  "lacunes": "Aucun jour ni nom de session n'est donné pour mai. Les fiches ne donnent ni le nombre d'étudiants ni la liste des présents en mai. Dates non fixées : démission de Doyle Jones, fin des repas communs, départ de Betty Kaiser pour New York, scène de la valise, nuits de Meadows Inn (≈1954). La synthèse 1954 n'a pas d'identifiant et est citée par son titre. Les fiches Goodman se contredisent sur son passage au collège (1943-1944 selon EC-03071 ; début des années 1950 selon EC-03075 ; sessions d'été selon EC-03076) et n'attestent pas sa présence en mai ; ce sont surtout des analyses de son livre de 1954. EV-06458 et EV-06459 concernent le monde de l'art hors du collège."
+ }
+}

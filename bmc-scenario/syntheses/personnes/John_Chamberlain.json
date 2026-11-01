@@ -1,0 +1,256 @@
+{
+ "passe": "personnes",
+ "cle": "John Chamberlain",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5902,
+  "sortie": 3156,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "John Chamberlain",
+  "autres_noms": [
+   "John"
+  ],
+  "dates_de_vie": "né à une date non précisée par les fiches ; vivant au moins jusqu'en 1961 (fiches imprécises)",
+  "statut_bmc": "Étudiant en sculpture (ancien de l'Art Institute of Chicago, venu avec ses outils de soudure) ; seul sculpteur sérieux du campus à son arrivée",
+  "presence": [
+   {
+    "debut": "1955",
+    "fin": "1956",
+    "precision": "annee",
+    "role": "Étudiant en sculpture ; reste après avoir conduit des amis depuis Chicago ; environ une année décisive (1955-1956)",
+    "refs": [
+     "EV-06571",
+     "EV-01939",
+     "EV-06304",
+     "PE-00125"
+    ]
+   }
+  ],
+  "portrait_physique": "Solide et trapu, grands bras et larges épaules, ventre rond au nombril large, moustache noire, épais cheveux noirs ondulés et broussailleux, traits larges et sensuels évoquant le slave et le méditerranéen, nez pugace et bulbeux, yeux calmes, chaleureux, non-jugeants ; chemises dont le devant remonte toujours.",
+  "noyau_psychologique": "Loup solitaire doux, magnétique et chaleureux, qui inspire immédiatement confiance : chacun sent qu'il pourrait lui confier ses secrets et qu'il comprendrait sans un mot. Déteste officiellement la « communauté » Black Mountain qu'il juge puérile, mais le lieu et ceux qui le prennent au sérieux (Olson, Creeley, Duncan) le transforment artistiquement en quelques mois. Il avance par attraction : pour les écrits d'Olson et Creeley, pour les femmes, pour le métal qu'il tord au chalumeau ou à la force des muscles.",
+  "blessures": "Divorcé — un passé matrimonial qui l'oblige, via Elaine sa fiancée très catholique, à attendre une dispense pontificale pour se remarier ; frustration sexuelle prolongée pendant cette attente.",
+  "desirs": "Travailler le métal et être pris au sérieux comme sculpteur ; les femmes — il les aime vraiment (« la femme en lui », intuition de Rumaker) ; séduire, verbalement et physiquement, notamment Connie Olson.",
+  "peurs": "Rien d'explicite dans les sources ; on peut déduire une peur de l'enfermement communautaire (d'où son mépris du côté « scouts ») et de l'attente indéterminée imposée par la religion d'Elaine.",
+  "maniere_d_aimer": "Séduction douce et subtile : il parle bas, avec une confusion apparente mais une intimité immédiate — chacun se croit seul à l'écouter. Geste signature : le grand bras en appui contre le mur au-dessus de l'épaule de la femme qu'il séduit, comme un mur excluant les autres. Il « fait l'amour » avec des mots d'un autre sujet. Envers Connie : admiration et affection de longue date, distante et respectueuse, avant le basculement de la fête de Streamside.",
+  "rapport_au_pouvoir": "Indifférence ironique aux hiérarchies et à la communauté (« mickey-mouse », « une immense et banale scène de scouts ») ; il ne cherche pas de pouvoir, mais son charisme magnétique lui donne une influence immédiate, y compris sur les femmes d'autrui. Face à Olson, coexistence d'une attraction pour ses écrits et d'une tentation sur sa femme.",
+  "voix": {
+   "registre": "Bas, lent, apparemment confus mais d'une intimité immédiate ; humour chaleureux ; fraîcheur tordue dans la façon de voir et de dire, comme les torsions de ses sculptures",
+   "tics": "Parler bas en se penchant vers l'interlocuteur ; le bras levé appuyé au mur au-dessus de l'épaule d'une femme ; détournement du sujet pour séduire",
+   "exemples_paraphrases": [
+    "Décrire Black Mountain comme un lieu où l'on s'intéresse plus à ce qu'on ne sait pas qu'à ce qu'on sait",
+    " qualifier la vie communautaire de grande et banale scène de scouts",
+    " parler de coiffer les femmes sans la moindre défensive"
+   ]
+  },
+  "habitudes": [
+   "Souder tard dans la nuit (ateliers d'imprimerie), éclairs bleu-blanc du chalumeau dans l'obscurité",
+   "Travailler par intermittence comme coiffeur pour financer études et sculpture ; embauchable dans n'importe quel salon d'embellissement",
+   "Expérimentation du collage",
+   "Marathons de poker enfumés dans une étude vide du Studies Building",
+   "Arbitrer les matchs de softball du dimanche",
+   "Cours informels : apprendre l'espagnol avec Dan Rice, aux côtés d'Elaine"
+  ],
+  "convictions": [
+   "Black Mountain : lieu où l'on s'intéresse davantage à ce qu'on ne sait pas qu'à ce qu'on sait (malgré son mépris du côté communautaire)",
+   "Attraction forte pour les écrits et la présence d'Olson et Creeley",
+   "Mépris relatif pour l'idéologie « communauté » du collège"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Arrivée depuis Chicago avec Van de Wiele et ses outils de soudure, sur le conseil de ce dernier ; reste comme étudiant en sculpture",
+    "etat_interieur": "Sculpteur peu remarqué, travail serré proche de David Smith ; étranger au milieu, attiré malgré lui",
+    "refs": [
+     "EV-06571",
+     "EV-01939",
+     "RE-01993",
+     "RE-02169"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Année décisive : pris au sérieux par Creeley (et Olson, Duncan) ; son travail s'ouvre en élaborations baroques — « trois ou quatre ans de développement en six mois » selon un contemporain, il a « grandi de deux pieds »",
+    "etat_interieur": "Mépris affiché du lieu qui pourtant le transforme ; épanouissement artistique fulgurant",
+    "refs": [
+     "EV-06304",
+     "RE-02679"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Soude ses premières sculptures en acier la nuit dans l'atelier d'imprimerie ; Olson s'écrie depuis la route que le doigt de Dieu touche Black Mountain (oui-dire)",
+    "etat_interieur": "Obsession créatrice nocturne",
+    "refs": [
+     "EV-04409",
+     "OE-02047"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "mois",
+    "moment": "Fiançailles en attente : Elaine, très catholique, reste à Chicago pour obtenir la dispense pontificale ; refuse tout rapport avant le mariage religieux ; John frustré mais accepte d'attendre, et lorgne Connie Olson",
+    "etat_interieur": "Frustration (« comme un sculpteur sur métal sans chalumeau »)",
+    "refs": [
+     "EV-06572",
+     "RE-02714",
+     "RE-02726"
+    ]
+   },
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "moment": "Fête du samedi soir à Streamside : il isole Connie sous son bras levé contre le mur, lui parle bas et avec intensité ; elle répond d'un regard flirteur inédit ; ils disparaissent ensemble de la fête, sous l'œil neutre de Charles",
+    "etat_interieur": "Séducteur magnétique ; la jalousie et l'alcool de Connie font le reste",
+    "refs": [
+     "SC-01816",
+     "EV-06714",
+     "EV-06715",
+     "RE-02725"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "mois",
+    "moment": "Nuit de l'accident : la Buick de Tom percute la cheminée de Meadows Inn ; Chamberlain apparaît au lobby avec Elaine nouvellement arrivée, parmi les secours improvisés",
+    "etat_interieur": "Retour d'Elaine dans un contexte de chaos — la dispense a-t-elle abouti ? les sources ne le disent pas",
+    "refs": [
+     "SC-01846",
+     "EV-06851"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1950",
+    "precision": "periode",
+    "moment": "Étudiant à l'Art Institute of Chicago avec Jerry Van de Wiele et Richard Bogart ; premiers travaux serrés proches de David Smith ; marin de l'US Navy (chronologie exacte non précisée)",
+    "refs": [
+     "PE-00125",
+     "RE-01993"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Marié puis divorcé ; fiancé à Elaine, jeune artiste très catholique, à Chicago",
+    "refs": [
+     "EV-06572",
+     "PE-00125"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Van de Wiele lui dit d'aller à Black Mountain — il y va ; il y conduit des amis depuis Chicago et reste",
+    "refs": [
+     "RE-02169",
+     "EV-01939",
+     "EV-06571"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Son œuvre s'ouvre en élaborations baroques — suite directe de l'année BMC",
+    "refs": [
+     "EV-06304",
+     "PE-00125"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Jerry Van de Wiele",
+    "nature": "Amitié, mentorat d'aîné",
+    "evolution": "Camarades à l'Art Institute ; Jerry le persuade (puis Bogart) de venir à Black Mountain",
+    "refs": [
+     "RE-01993",
+     "RE-02169"
+    ]
+   },
+   {
+    "avec": "Robert Creeley",
+    "nature": "Mentorat, affection",
+    "evolution": "Creeley le prend au sérieux et le chérit, ce qui nourrit son épanouissement fulgurant",
+    "refs": [
+     "RE-02679",
+     "EV-06304"
+    ]
+   },
+   {
+    "avec": "Elaine (Chamberlain)",
+    "nature": "Fiançailles, attente d'une dispense pontificale",
+    "evolution": "Refus de tout rapport avant le mariage religieux ; John exaspéré mais patient ; lorgne Connie en attendant ; Elaine arrive enfin à BMC à l'été 1956",
+    "refs": [
+     "RE-02714",
+     "RE-02726",
+     "EV-06572",
+     "EV-06851"
+    ]
+   },
+   {
+    "avec": "Constance « Connie » Wilcock (Olson)",
+    "nature": "Admiration distante puis séduction",
+    "evolution": "Œillades discrètes et persistantes, techniques de salon de beauté subtilement séductrices ; basculement à la fête de Streamside : isolement sous le bras levé, flirtation inédite de Connie, disparition ensemble de la fête",
+    "refs": [
+     "RE-02715",
+     "RE-02725",
+     "SC-01816",
+     "EV-06715"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Amitié immédiate",
+    "evolution": "Rumaker l'aime aussitôt, comme tout le monde, surtout les femmes ; sentiment qu'il pourrait lui confier ses secrets les plus intimes",
+    "refs": [
+     "RE-02713",
+     "PE-00125"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "Attraction pour les écrits et la présence, tension latente (Connie)",
+    "evolution": "Fascination intellectuelle respectueuse ; Olson s'exclame devant ses soudures nocturnes ; à la fête, Charles ne montre rien quand Connie disparaît avec John",
+    "refs": [
+     "EV-04409",
+     "SC-01816",
+     "EV-06715"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Duberman dit que Chamberlain « déteste apparemment la communauté » (comparée à une scène de scouts), tandis que sa propre citation retenue par Molesworth décrit BMC comme un lieu où l'on s'intéresse à ce qu'on ne sait pas — tonalité affectueuse ; les deux coexistent sans être réconciliées.",
+   "Harris 2005 et Rumaker/Duberman divergent légèrement sur le mode d'arrivée : venu « conduire des amis depuis Chicago » et resté (Harris) vs convaincu par Van de Wiele comme étudiant (Rumaker, Duberman) — les deux peuvent se combiner mais les fiches ne le précisent pas.",
+   "Certaines fiches (EV-02806, EC-01656) placent John et Elaine Chamberlain ensemble à BMC « pendant le service militaire de Dawson » (années 1950, dates déduites ≈1938→1954, peu fiables) alors que Rumaker situe Elaine bloquée à Chicago en 1955 et arrivée seulement à l'été 1956 ; la chronologie fine de la présence d'Elaine reste floue.",
+   "La fiche agrégée donne plusieurs fenêtres d'arrivée (« années 1950 », « environ une année vers 1955-1956 », « avant 1955 », « été 1955 ») : le consensus le plus solide est 1955."
+  ],
+  "situations_revelatrices": [
+   "La nuit de soudure : seul dans l'atelier d'imprimerie, éclairs bleu-blanc, Olson hurlant depuis la route",
+   "La fête de Streamside : le bras contre le mur, la voix basse, la disparition à deux sous l'œil impassible d'Olson",
+   "Le match de softball : lui en arbitre, traversé par les hurlements de Fee Dawson, entre le jeu et le spectacle",
+   "La scène de la dispense : John parlant d'Elaine à Chicago, entre fidélité agacée et frustration",
+   "Les secours après l'accident de la Buick, Elaine tout juste arrivée à ses côtés"
+  ],
+  "citations": [
+   "CI-00797",
+   "CI-01540",
+   "CI-03116"
+  ],
+  "questions_ouvertes": [
+   "Dates et lieu de naissance, mort : aucune fiche ne les donne précisément",
+   "La dispense pontificale a-t-elle été accordée ? John et Elaine se sont-ils mariés, et quand exactement Elaine arrive-t-elle (été 1956 attesté, jour inconnu) ?",
+   "Ce qui s'est passé exactement quand John et Connie ont disparu de la fête de Streamside",
+   "Sa vie après 1956 : carrière new-yorkaise, exposition de 1961 citée sans lien direct avec lui — à documenter",
+   "Ce que « la femme en lui » (Rumaker) recouvre exactement : amitiés féminines, identité, intuition ?"
+  ]
+ }
+}

@@ -1,0 +1,568 @@
+{
+ "passe": "enseignements",
+ "cle": "Buckminster Fuller",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 29867,
+  "sortie": 18999,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Buckminster Fuller",
+  "cours": [
+   {
+    "intitule": "Été 1948 — Structure / dôme géodésique / Comprehensive Design (intitulés variables selon les sources : « Architecture et Industrial Engineering », « Cours de géométrie et de design », etc.)",
+    "periodes": [
+     "été 1948"
+    ],
+    "atteste": "oui",
+    "objectifs": "Attesté : comprendre comment les choses fonctionnent plutôt que comment elles ressemblent, par le calcul et la manipulation (CO-00474, CO-00550). Ériger le premier dôme géodésique à l'échelle réelle et comprendre la répartition des contraintes (CO-00465). Rendre la technologie moins spécialisée et mieux distribuée (CO-00527). Remettre à l'épreuve les idées reçues sur la forme artistique et architecturale, refuser la spécialisation, repenser la société technocratique d'après-guerre (CO-00540, CO-00541). Faire du design une pratique sociale (CO-00542). Déduction : les fiches donnent plusieurs intitulés pour un même été ; rien ne prouve qu'il s'agisse de cours distincts, et je les fusionne. Le titre « Comprehensive Design » est celui que ID-00687 donne au cours de l'été 1948.",
+    "deroule_type_seance": "Reconstitution composite, sans horaire attesté. (1) Séance en salle, avec tableau noir et maquettes mobiles : Fuller « tourbillonne », manipule objets et diagrammes, mêle histoire du calcul (puni de mort au Moyen Âge), écologie, ingénierie et technologie, puis déclare le carré, le cube, le 2 et le 10 obsolètes au profit du 3, du 9, du cercle, du triangle, du tétraèdre et de la sphère (CO-00527, ID-02096, SC-01113). (2) Problème à résoudre en commun devant un petit clan d'étudiants d'architecture et d'ingénierie de Harvard, tous des hommes sauf Elaine de Kooning d'après Lane et E. de Kooning, plus quelques artistes dont Snelson (CO-00474, CO-00550). (3) Calculs : jonctions des six grands cercles, résistance des lamelles. Ils se font la nuit, sans machine électrique (CO-00488, SC-01114). (4) Chantier : lamelles d'aluminium boulonnées sur la pelouse, sous la pluie, devant tout le campus (SC-01175, SC-01186). (5) Verdict de l'effondrement, commenté avec humour. Lien avec les conférences marathon : voir le cours suivant.",
+    "exercices": [
+     {
+      "consigne": "Assembler deux morceaux de métal irréguliers en un cube parfait. Les étudiants d'ingénierie échouent pendant environ une heure et demie ; Fuller sollicite alors Willem de Kooning, présenté comme quelqu'un d'une autre discipline. Celui-ci soupèse, observe et emboîte les pièces d'emblée.",
+      "materiaux": "Deux pièces de métal irrégulières (nature exacte non précisée).",
+      "but": "Comprendre les structures par la manipulation ; opposer l'intuition de l'artiste à la logique des ingénieurs. De Kooning dira plus tard avoir cherché la voie la moins logique.",
+      "refs": [
+       "CO-00474",
+       "CO-00550",
+       "SC-01048",
+       "SC-01183"
+      ]
+     },
+     {
+      "consigne": "Bâtir des structures géométriques mobiles et démontrer que les formes sont des performances structurelles et non des conventions.",
+      "materiaux": "Épingles à cheveux, pinces à linge, articles de cinq-et-dime.",
+      "but": "Rendre palpables les rapports de forme et d'effort.",
+      "refs": [
+       "CO-00474",
+       "CO-00527",
+       "ID-02104"
+      ]
+     },
+     {
+      "consigne": "Replier un icosaèdre ingénieusement confectionné en le tordant et en doublant ou triplant ses modules jusqu'au tétraèdre.",
+      "materiaux": "Maquette d'icosaèdre articulée.",
+      "but": "Montrer la parenté des polyèdres et l'abandon du carré.",
+      "refs": [
+       "CO-00527",
+       "ID-02096",
+       "ID-02104"
+      ]
+     },
+     {
+      "consigne": "Dessiner un carré au tableau noir, tracer la diagonale et la présenter à la classe comme un vieil ami, l'hypoténuse.",
+      "materiaux": "Tableau noir.",
+      "but": "Introduire la géométrie du triangle contre celle du carré.",
+      "refs": [
+       "CO-00527",
+       "SC-01113",
+       "ID-02096"
+      ]
+     },
+     {
+      "consigne": "Calculer les jonctions des six grands cercles qui triangulent le dôme.",
+      "materiaux": null,
+      "but": "Préparer l'armature du dôme.",
+      "refs": [
+       "CO-00474",
+       "CO-00550",
+       "CO-00465"
+      ]
+     },
+     {
+      "consigne": "Déterminer la résistance à la traction des lamelles de stores vénitiens. La conclusion est qu'il faut des bandes doubles, alors que le budget ne finance que des bandes simples.",
+      "materiaux": "Lamelles d'aluminium de stores vénitiens (chutes multicolores), vis, boulons.",
+      "but": "Lier calcul et contrainte économique.",
+      "refs": [
+       "CO-00474",
+       "CO-00550",
+       "CO-00465",
+       "CO-00488"
+      ]
+     },
+     {
+      "consigne": "Calculer de nuit les points de perçage, sans machine électrique, puis assembler six grands cercles de lamelles et les boulonner pour tenter de dresser le dôme.",
+      "materiaux": "Lamelles d'aluminium en rouleaux, boulons.",
+      "but": "Mise à l'échelle réelle d'un prototype qu'on sait fragile ; l'échec sert de donnée.",
+      "refs": [
+       "CO-00465",
+       "CO-00488",
+       "CO-00542",
+       "SC-01114",
+       "SC-01175"
+      ]
+     },
+     {
+      "consigne": "Réaliser une version modifiée du X-Piece de Snelson (tensegrity), colonne de deux croix de bois dont la supérieure est suspendue par des fils nylon tendus.",
+      "materiaux": "Bois, fil nylon.",
+      "but": "Tirer un principe d'ingénierie du travail d'un étudiant. Datation incertaine : CO-00542 la place en 1948, SC-01228 en 1949.",
+      "refs": [
+       "CO-00542",
+       "SC-01228",
+       "SC-01142"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucune lecture assignée n'est attestée dans les fiches.",
+     "Le contenu rejoint des textes postérieurs ou extérieurs au collège : synopsis du cours « Comprehensive Design » rédigé pour Chicago puis adapté en essai « Comprehensive Designing » (CO-00544) ; « Design for Survival—Plus » (conférence à l'IIT, début 1949, ID-00820) ; lettre à Henry Luce de 1949 (ID-00693, ID-00821). Rien ne dit que ces textes aient été utilisés à BMC.",
+     "Le « Great Circle Sphere Model » et le modèle de Dymaxion servent de supports (ID-01863, ID-01508 incertain)."
+    ],
+    "propos_types": [
+     "Il demande aux étudiants de penser les choses à frais nouveaux et de se méfier des mots hérités ; selon lui, l'homme dit pratique a perdu contact avec les faits réels (ID-02069).",
+     "Ce qui compte, c'est le fonctionnement d'une structure, pas son apparence. Il reproche aux programmes qui font « out-Mies Mies » de négliger les fondamentaux énergétiques et économiques (CO-00542, ID-02105, ID-00696).",
+     "Les bâtiments terrestres sont des forteresses surconstruites parce que personne ne sait ce qu'ils pèsent ; le poids est le facteur oublié (ID-00694).",
+     "La sphère enferme le plus d'espace avec le moins de surface ; composée de tétraèdres, elle résiste aussi à la pression extérieure. Un dôme peut être fait de presque tout matériau, bon marché et universel (ID-02100, ID-00695).",
+     "Il compare son dôme léger à du confetti, qui ne peut blesser personne (CO-00518, CO-00542, SC-01114).",
+     "Avant le montage, il confie à Elaine que ça ne marchera pas mais qu'on essaie quand même ; il invoque aussi les voies du Tout-Puissant (CO-00465, CO-00474, SC-01049).",
+     "Après coup, il dit n'apprendre que par ses échecs (CO-00465, ID-02090) ; SC-01114 lui prête la formule selon laquelle on réussit quand on cesse d'échouer.",
+     "Il salue ses formes comme de vieux amis : le tétraèdre, l'hypoténuse (CO-00488, CO-00527, SC-01102).",
+     "Hors cours, il transforme tout en leçon : au restaurant, il construit avec l'argenterie et conclut sur le « paradoxe de la résistance à la traction » devant le hamburger tenu à la pince d'Elaine (SC-01166). Il complimente Elaine au bal de fin d'été d'une « performance terrifique à l'once » (SC-01153).",
+     "Il explique à Droll que, placé d'une certaine façon, on sent la terre tourner (SC-01068, ID-02101)."
+    ],
+    "critique_et_evaluation": "Aucune note, aucun examen ni critère d'évaluation n'est rapporté pour son cours ; seule la liberté générale de l'été (examen quand on veut) est attestée par Tworkov (SC-01095). L'évaluation passe par l'épreuve du réel : le dôme tient ou non. Fuller critique la préoccupation Bauhaus du design, ce qui irrite la faculté régulière, avec un conflit ouvert avec Albers (ID-02105) ; les gens du Bauhaus rient pendant le montage (SC-01175). Lane juge que la théorie était juste et que seul le financement manquait (ID-02105, SC-01186). SC-01114 (Díaz) lui prête l'intention d'avoir poussé volontairement des lamelles insuffisantes ; CO-00465, CO-00550 et CO-00541 parlent plutôt de contrainte budgétaire. Contradiction à conserver : échec voulu ou subi. Autre divergence sur la taille du dôme : 22 pieds (CO-00542, SC-01114) contre 50 pieds et moins de 100 livres (ID-02100, Duberman). Sur l'issue : le dôme monte de quelques pieds puis s'effondre (CO-00465) ; il reste affalé sur l'herbe (SC-01049, SC-01186) ; il s'affaisse comme un sac à demi gonflé (version Duberman, SC-01175) ; ou il est tenu à bout de bras pour la photo de Beaumont Newhall (version Molesworth, SC-01114). Díaz relit l'épisode comme une leçon de persévérance de l'inventeur (SC-01098) et un seul dôme raté comme peu important face à la stratégie globale (ID-01862, ID-02064).",
+    "reactions_etudiants": "Fascination quasi hypnotique : « on l'aimait et on buvait ses paroles » (CO-00550). Elaine de Kooning est éblouie par ses théories (CO-00527) et, lors de l'échec, persuadée que Fuller a raison contre les rieurs du Bauhaus (CO-00465, SC-01175). Une version orale la dit amoureuse de lui à l'instant où il présente le tétraèdre (SC-01102, oui-dire). Penn juge sa vision presque palpable ; la compréhension reste souvent difficile mais emportée par la passion et le rythme (CO-00488). Réceptivité très forte des étudiants à l'idée de porter le design au niveau social (CO-00541, ID-00693). Les professeurs et étudiants sont vivifiés, mais le processus paraît désordonné aux participants (CO-00542). Droll bascule vers l'adhésion dans la nuit de la montagne (SC-01068).",
+    "evolution": "Fuller arrive faute de mieux : Albers se rabat sur lui après le refus de Bertrand Goldberg, alors que Fuller traîne un passif d'échecs (SC-01145). Il trouve enfin un public enthousiaste (SC-01172). Après l'effondrement, Hazel Larsen photographie du ciel le dôme couché, depuis un petit avion (SC-01100), et l'échec devient image. Il se reprend grâce à la tensegrité de Snelson (SC-01142). Il joue aussi le Baron Médusa dans la pièce de Satie mise en scène par Arthur Penn, qui l'aide à surmonter sa peur du ridicule par des exercices (SC-01070, SC-01112, SC-01050). Il invente avec Cage et Cunningham, aux petits-déjeuners, une école-caravane itinérante qui renverserait les approches conventionnelles (SC-01146). En 1949, le dôme est dressé (voir cours suivants).",
+    "refs": [
+     "CO-00465",
+     "CO-00474",
+     "CO-00488",
+     "CO-00526",
+     "CO-00527",
+     "CO-00540",
+     "CO-00541",
+     "CO-00542",
+     "CO-00550",
+     "CO-00544",
+     "SC-01048",
+     "SC-01183",
+     "SC-01113",
+     "SC-01114",
+     "SC-01175",
+     "SC-01186",
+     "SC-01049",
+     "SC-01101",
+     "SC-01142",
+     "SC-01145",
+     "SC-01166",
+     "SC-01100",
+     "SC-01102",
+     "SC-01070",
+     "SC-01112",
+     "SC-01050",
+     "SC-01146",
+     "SC-01153",
+     "SC-01068",
+     "SC-01095",
+     "SC-01098",
+     "ID-02096",
+     "ID-02104",
+     "ID-02105",
+     "ID-02100",
+     "ID-00687"
+    ]
+   },
+   {
+    "intitule": "Conférences marathon (dômes géodésiques, synergétique, ressources mondiales)",
+    "periodes": [
+     "été 1948",
+     "été 1949"
+    ],
+    "atteste": "oui",
+    "objectifs": "Conduire à une écologie de la pensée antispécialisée, « synergétique », faite de collaboration, d'universalité et d'interdépendance, jusqu'à l'intendance de la « Spaceship Earth » (CO-00518, ID-01863, ID-01179). Faire penser les étudiants structurellement aux bâtiments et porter le design au niveau d'une pratique sociale (CO-00542).",
+    "deroule_type_seance": "Longues conférences, parfois recyclées en papiers de position plus longs (CO-00541). Durées contradictoires : trois heures le soir de l'arrivée (SC-01177), quatre à cinq heures avec intermission (Duberman, CO-00488, SC-01102), six à huit heures (Hall, CO-00512). À mi-parcours, Fuller annonce une « petite intermission » : rideaux ouverts, tables couvertes de figures géométriques, public qui fume et discute (CO-00488, SC-01102). Thèmes : gestion mondiale des ressources, industrialisation, innovation militaire (CO-00518) ; murs à supprimer, cultures de l'eau et de l'intérieur, maisons larguées d'avions (CO-00488). Dans la tradition de ses cours, un exposé pouvait s'ouvrir sur des statistiques de population et de sous-alimentation, mais ce n'est pas attesté à BMC (ID-01511). Contradiction sur l'arrivée : camping-car Dymaxion bourré de maquettes en juin (SC-01172) contre remorque d'aluminium déchargée par des étudiants le soir d'arrivée, en juillet (SC-01177, CO-00518).",
+    "exercices": [
+     {
+      "consigne": "Décharger les modèles géométriques de la remorque et les présenter : tétraèdres, dodécaèdres, icosaèdres, dômes, pyramides cristallines.",
+      "materiaux": "Modèles en aluminium.",
+      "but": "Faire de la manipulation de modèles le premier contact avec le système.",
+      "refs": [
+       "CO-00518",
+       "SC-01177"
+      ]
+     },
+     {
+      "consigne": "Brandir un solide, lancer un salut au vieil ami et laisser les étudiants manipuler les modèles sur les tables pendant l'intermission.",
+      "materiaux": "Tables de figures géométriques, rideaux ouverts.",
+      "but": "Entrecouper la conférence par une manipulation pour le public.",
+      "refs": [
+       "CO-00488",
+       "SC-01102",
+       "ID-02100"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucune lecture attestée.",
+     "Références orales : histoire du calcul, statistiques mondiales (incertain), énergie et ressources.",
+     "Plus tard, Fuller publiera ces thèmes dans The Comprehensive Designer (1950) et Operating Manual for Spaceship Earth (1969/1978) ; ces textes ne sont pas des supports de cours attestés."
+    ],
+    "propos_types": [
+     "Il annonce la fin de « l'ère du carré » (SC-01177).",
+     "Il parle du tétraèdre comme d'un vieil ami (SC-01102).",
+     "Il dit que l'industrie, par sa dynamique, distribuera les ressources mieux que la politique (ID-01511, ID-02169) ; ce passage relève de la déduction pour BMC.",
+     "Selon lui, l'humanité a achevé sa « plomberie » cosmique et peut ouvrir les vannes de la richesse (ID-02185, été 1949, devant plus de cinquante étudiants).",
+     "Il veut un bâtiment si léger qu'on n'a pas peur qu'il tombe, comme du confetti (CO-00518).",
+     "Il tient l'échec tactique pour une part de la méthode expérimentale (CO-00518, ID-01862)."
+    ],
+    "critique_et_evaluation": "Les étudiants le surnomment « Fuckmister Buller » dans son dos, plus pour la durée que pour l'avant-gardisme (CO-00512). Lippold le compare à Zoroastre parlant l'islamique ; on hésite entre vendeur ambulant, prophète, futuriste et charlatan (SC-01177). La critique de fond est d'un Fuller sûr de savoir ce que veut le client (ID-00728, non attesté à BMC). En 1949, la lecture d'un de ses poèmes de 200 pages devant 250 invités extérieurs fait somnoler la salle ; Fuller exige pourtant qu'elle aille jusqu'au bout (SC-01197).",
+    "reactions_etudiants": "Cunningham éprouve une adoration et un amour immédiats (SC-01177) ; Elaine de Kooning est séduite (SC-01102, version orale) ; Penn voit sa vision comme presque palpable ; compréhension souvent difficile (CO-00488). Fuller enthousiasme au point d'entraîner un cortège de disciples dans d'autres collèges (SC-00782, datation large 1940-1953).",
+    "evolution": "Le cadre de 1948 (arrivée, ère du carré) fait place en 1949 à un rôle plus installé : conférences, lecture d'un poème, dôme réussi (SC-01197, SC-01229). Le contenu devient plus social et écologique, mais les fiches ne détaillent pas ces séances de 1949.",
+    "refs": [
+     "CO-00488",
+     "CO-00512",
+     "CO-00518",
+     "CO-00541",
+     "CO-00542",
+     "SC-01172",
+     "SC-01177",
+     "SC-01102",
+     "SC-00782",
+     "SC-01197",
+     "ID-01863",
+     "ID-01179",
+     "ID-02185",
+     "ID-02169",
+     "ID-01511",
+     "ID-00728"
+    ]
+   },
+   {
+    "intitule": "Session d'été 1949 : second dôme, tensegrité et moules (intitulé reconstitué, non attesté)",
+    "periodes": [
+     "été 1949"
+    ],
+    "atteste": "oui",
+    "objectifs": "Dresser un dôme qui tienne et valider tout le système de pensée de Fuller (SC-01229, ID-02063). Fabriquer des moules pour dôme (CO-00518).",
+    "deroule_type_seance": "Des étudiants de l'Institute of Design de Chicago arrivent avec Fuller. On monte un dôme en tubes d'aluminium, préparé pour le Pentagone, puis on teste une peau plastique transparente thermosoudée (SC-01229). Nakagawa photographie Fuller avec le modèle (SC-01227). Snelson et Asawa figurent parmi les participants ; le déroulé précis des séances n'est pas attesté.",
+    "exercices": [
+     {
+      "consigne": "Monter le second dôme en tubes d'aluminium avec les étudiants ; observer que le treillis devient plus fort que ses parties à mesure qu'il s'élève.",
+      "materiaux": "Tubes d'aluminium ; peau plastique transparente thermosoudée à essayer ensuite.",
+      "but": "Valider la tensegrité et la pensée totale après l'échec de 1948.",
+      "refs": [
+       "SC-01229",
+       "SC-01227",
+       "ID-02063",
+       "SC-01098"
+      ]
+     },
+     {
+      "consigne": "Fabriquer des moules pour dôme.",
+      "materiaux": null,
+      "but": "Passer du prototype à la reproduction.",
+      "refs": [
+       "CO-00518"
+      ]
+     },
+     {
+      "consigne": "Examiner la X-Piece de Snelson et demander une version modifiée.",
+      "materiaux": "Colonne d'environ un pied, croix de bois, fils nylon.",
+      "but": "Tirer un principe d'ingénierie du travail d'un étudiant. La fiche date la scène de 1949, CO-00542 de 1948.",
+      "refs": [
+       "SC-01228",
+       "CO-00542"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Aucune lecture attestée.",
+     "Les fiches mentionnent un projet de dôme pour le Pentagone et des modèles de sphères (Great Circle Sphere Model, ID-01863)."
+    ],
+    "propos_types": [
+     "Un seul test réussi prouve tout le système de pensée qui l'a produit (ID-02063).",
+     "Les échecs et ridicules d'hier fondent sa crédibilité d'expérimentaliste (ID-02064, ID-01075).",
+     "Fuller brandit une maquette de sphère géodésique devant les étudiants (ID-01179)."
+    ],
+    "critique_et_evaluation": "La critique est celle du succès : le dôme tient, ce qui valide la méthode ; les fiches ne mentionnent aucune évaluation individuelle. Divergence : SC-01098 (Molesworth) fait dresser le dôme par les étudiants à côté de Fuller ; SC-01227 (Díaz) insiste sur l'érection par Fuller lui-même. On peut les concilier dans une scène collective.",
+    "reactions_etudiants": "Triomphe d'un processus « synergétique » après l'échec de 1948 (SC-01229) ; euphorie convictionnelle (SC-01227) ; humilité puis exaltation collective (SC-01098).",
+    "evolution": "Rédemption après l'échec de 1948 ; la paternité de la tensegrité reste disputée entre Snelson et Fuller (SC-01228).",
+    "refs": [
+     "SC-01098",
+     "SC-01227",
+     "SC-01228",
+     "SC-01229",
+     "CO-00518",
+     "CO-00542",
+     "ID-02063",
+     "ID-02064",
+     "ID-01075",
+     "ID-01179",
+     "ID-01863"
+    ]
+   },
+   {
+    "intitule": "Comprehensive Design à l'Institute of Design, Chicago (hors BMC)",
+    "periodes": [
+     "du 4 octobre 1948 au 29 janvier 1949"
+    ],
+    "atteste": "non",
+    "objectifs": "Exposer sa méthodologie de « design complet » et de « total thinking » (CO-00544). Le problème d'évacuation nucléaire vise la planification anticipatoire (CO-00587). Ces éléments ne sont pas attestés à Black Mountain.",
+    "deroule_type_seance": "Conférences à Chicago ; le synopsis rédigé pour ce cours est ensuite adapté en essai (CO-00544). La fiche CO-00544 indique aussi la fascination d'Elaine de Kooning pour le cours de BMC, ce qui montre la continuité entre les deux lieux. Contradiction : ID-02169 place le devoir nucléaire au « cœur de son enseignement d'été » à BMC ; CO-00587 et SC-01230 le placent à Chicago et CO-00587 le marque comme non attesté à BMC. Je le traite comme non attesté au collège.",
+    "exercices": [
+     {
+      "consigne": "Résoudre l'énoncé distribué : la ville est à évacuer, toutes les concentrations résidentielles et industrielles de 50 000 personnes ou plus sont en danger immédiat d'anéantissement, les biens de consommation sont détournés vers de petites communautés décentralisées, tout ce qui n'est pas décentralisé sera détruit.",
+      "materiaux": null,
+      "but": "Transformer la peur nucléaire en exercice de design anticipatoire.",
+      "refs": [
+       "CO-00587",
+       "SC-01230",
+       "ID-02169"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Synopsis de « Comprehensive Design » (CO-00544) ; conférence « Design for Survival—Plus » à l'IIT, 1949 (ID-00820) ; Considerations for a Curriculum, qu'on situe dans une période d'écriture large (ID-00341, incertain)."
+    ],
+    "propos_types": [
+     "Fuller soutient que le designer complet et anticipatif prépare à l'avance le matériel salvateur contre l'urgence certaine et rend le tonnage des ressources mondiales distribuable à toute la population (ID-02169).",
+     "Il dit que l'intégration d'une série complexe d'échecs est le seul moyen d'obtenir de la nature les données nécessaires (ID-00820, ID-01945)."
+    ],
+    "critique_et_evaluation": "Paradoxe technocratique pointé par Díaz : le designer sait mieux que le client ce dont il a besoin (ID-00728, non attesté à BMC).",
+    "reactions_etudiants": null,
+    "evolution": "Ses étudiants de Chicago viennent ensuite à BMC pour monter le dôme de 1949 (SC-01229), ce qui relie les deux cours.",
+    "refs": [
+     "CO-00544",
+     "CO-00587",
+     "SC-01230",
+     "SC-01229",
+     "ID-02169",
+     "ID-00820",
+     "ID-01945",
+     "ID-00728",
+     "ID-00341"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "L'échec est la donnée première de l'expérimentation en design : on n'apprend que par l'échec, l'échec est honorable en design et le risque éducatif compte plus que le succès d'un dôme isolé.",
+    "en_classe": "Laisser les élèves essayer des réponses sans souci du succès, consigner les ruptures comme données et en tirer ensemble la leçon pour le système, sur le modèle du Supine Dome.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01945",
+     "ID-02090",
+     "ID-01862",
+     "ID-00729",
+     "ID-02064",
+     "ID-00820",
+     "CO-00465",
+     "SC-01114"
+    ]
+   },
+   {
+    "idee": "Construire un prototype voué à l'échec pour montrer le renforcement progressif. Contradiction : Fuller l'a présenté comme voulu, alors que d'autres fiches parlent d'un budget insuffisant.",
+    "en_classe": "Faire monter une structure trop légère pour blesser quiconque, observer où elle cède, puis la renforcer pas à pas jusqu'à ce qu'elle tienne.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00691",
+     "ID-01400",
+     "SC-01114",
+     "CO-00542",
+     "CO-00550"
+    ]
+   },
+   {
+    "idee": "Le fonctionnement d'abord, l'apparence ensuite : les innovations de surface doivent suivre les tests des principes d'ingénierie.",
+    "en_classe": "Demander d'analyser la structure et la matière d'un objet avant toute discussion de son style ; c'est ce qui irrite Albers et la faculté (conflit ouvert avec Albers selon ID-02105).",
+    "atteste": "oui",
+    "refs": [
+     "ID-02105",
+     "ID-00696",
+     "CO-00550",
+     "CO-00542"
+    ]
+   },
+   {
+    "idee": "Le carré, le cube, le 2 et le 10 sont obsolètes ; l'avenir appartient au 3, au 9, au cercle, au triangle, au tétraèdre et à la sphère.",
+    "en_classe": "Partir d'épingles à cheveux et de pinces à linge, bâtir des formes mobiles, plier un icosaèdre en tétraèdre, tracer une diagonale au tableau pour saluer l'hypoténuse.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02096",
+     "ID-02104",
+     "CO-00527",
+     "SC-01113"
+    ]
+   },
+   {
+    "idee": "Géométrie énergétique : le tétraèdre est l'ur-forme dont se déduit le comportement des sphères ; combinés, les tétraèdres distribuent la charge et le tout dépasse les parties (synergie). La démonstration du Dymaxion comprimé jusqu'au triangle puis relâché n'est pas attestée à BMC.",
+    "en_classe": "Assembler des tétraèdres pour montrer la distribution de la charge ; mesurer les rapports surface/volume du tétraèdre et de la sphère.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00695",
+     "ID-02100",
+     "ID-01508",
+     "ID-01662"
+    ]
+   },
+   {
+    "idee": "Le poids est le facteur oublié de l'architecture terrestre ; le dôme léger comme du confetti.",
+    "en_classe": "Peser des maquettes, comparer flottabilité, portance et construction au sol pour faire sentir ce que coûte la masse inutile.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00694",
+     "ID-02100",
+     "CO-00518"
+    ]
+   },
+   {
+    "idee": "Raisonner en performance par livre, par dollar et par heure-homme ; le dôme comme grille discontinue légère et démontable, montée par une main-d'œuvre non qualifiée. Le slogan « comptez les livres » n'est pas de Fuller mais une consigne imaginée.",
+    "en_classe": "Comparer deux solutions de construction sur ce rapport performance/coût en conservant l'idée d'un Fuller attentif à la masse.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01116",
+     "ID-01117"
+    ]
+   },
+   {
+    "idee": "Le designer complet, artiste-scientifique, synthèse d'artiste, inventeur, mécanicien, économiste et stratège de l'évolution, contre la spécialisation.",
+    "en_classe": "Dire aux élèves d'art que leur liberté créative, jointe à la compétence de l'ingénieur, peut renouveler le design de l'abri ; pour BMC, voir l'interprétation de Díaz.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00693",
+     "ID-01050",
+     "ID-01511",
+     "ID-00821"
+    ]
+   },
+   {
+    "idee": "La synergie et la pensée « géodésique » : collaboration, interdépendance, intendance de la planète comme vaisseau (Spaceship Earth) ; un test réussi valide tout le système.",
+    "en_classe": "Faire construire et manipuler des modèles polyédriques pour qu'ils découvrent le « systems thinking ».",
+    "atteste": "oui",
+    "refs": [
+     "ID-01863",
+     "ID-01662",
+     "ID-02063",
+     "ID-01179",
+     "ID-01075"
+    ]
+   },
+   {
+    "idee": "Penser à frais nouveaux : refuser les termes hérités, inventer ses mots.",
+    "en_classe": "Commencer une séance en interdisant les mots usuels pour décrire l'objet d'étude.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02069"
+    ]
+   },
+   {
+    "idee": "L'intuition de l'artiste contre la logique des ingénieurs : celui d'une autre discipline résout le cube que les spécialistes n'ont pas résolu.",
+    "en_classe": "Mélanger des disciplines devant un problème concret et donner d'abord la parole à l'élève qui n'est pas du métier.",
+    "atteste": "oui",
+    "refs": [
+     "SC-01048",
+     "SC-01183",
+     "CO-00550"
+    ]
+   },
+   {
+    "idee": "L'étudiant inspire le maître : Fuller lit dans la X-Piece de Snelson un principe d'ingénierie nouveau.",
+    "en_classe": "Laisser un élève présenter son essai et demander une version modifiée. Datation incertaine, 1948 ou 1949.",
+    "atteste": "oui",
+    "refs": [
+     "SC-01228",
+     "CO-00542",
+     "SC-01142"
+    ]
+   },
+   {
+    "idee": "Accepter de se rendre ridicule : Fuller avoue à Penn sa peur du ridicule, et Penn en fait un exercice libérateur de rires et de roulades.",
+    "en_classe": "Faire tenter l'absurde en groupe pour dédramatiser le risque d'échec devant les autres.",
+    "atteste": "oui",
+    "refs": [
+     "SC-01070",
+     "ID-02064",
+     "SC-01112"
+    ]
+   },
+   {
+    "idee": "Le probing intuitif plutôt que l'entraînement perceptif : ne pas montrer d'exemple de solution. Fuller le formule en contraste avec la pédagogie d'Albers, mais sans attestation à BMC.",
+    "en_classe": "Poser un problème aux enjeux vitaux sans exemple de solution et laisser les possibles ouverts.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01946"
+    ]
+   },
+   {
+    "idee": "La vie comme expérience : remplir le problème donné et l'explorer à fond (conférence de Chicago probable).",
+    "en_classe": "Traiter chaque exercice comme une expérience complète et non comme une démonstration.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02070"
+    ]
+   },
+   {
+    "idee": "Ouvrir un exposé par des statistiques de population, d'alimentation et de ressources, avant toute démonstration.",
+    "en_classe": "Débuter par des chiffres sur la distribution des ressources, comme dans The Comprehensive Designer (1950) ; non attesté en classe à BMC.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01511"
+    ]
+   },
+   {
+    "idee": "La maison doit être mobile comme l'homme : la maison préfabriquée classique est périmée et le dôme pliable se traite comme du fret (Dymaxion, Standard of Living Package, 1947).",
+    "en_classe": "Faire dessiner une habitation à partir des activités qu'elle abrite et de la capacité à se déplacer, non d'une façade ; cette idée est liée à l'esprit de ses étés mais non attestée telle quelle à BMC.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00726",
+     "ID-01949",
+     "ID-01117"
+    ]
+   },
+   {
+    "idee": "Révolution par le design plutôt que politique : la technologie distribuée équitablement élève tout le monde ; le design remplace la politique.",
+    "en_classe": "Faire calculer quand l'accès universel à la technologie serait atteint et ce que cela implique ; le thème « design contre politique » est attesté à BMC, mais le calcul de 1952 est une formulation postérieure.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00727",
+     "ID-00687",
+     "ID-02169"
+    ]
+   },
+   {
+    "idee": "Le designer voyant qui sait ce dont le client a besoin mieux que lui, paradoxe du technocratisme.",
+    "en_classe": "Discuter : qui décide des besoins, le designer ou l'usager ? Non attesté à BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-00728"
+    ]
+   },
+   {
+    "idee": "La « fountain factory » : une filature en étages-tamis suspendus à un mât central sous un dôme. Projet postérieur à BMC, mené avec des étudiants de North Carolina State.",
+    "en_classe": "Étudier la structure en porte-à-faux d'un bâtiment indépendant de son enveloppe.",
+    "atteste": "non",
+    "refs": [
+     "ID-01512"
+    ]
+   },
+   {
+    "idee": "Transcendantalisme : l'intelligence humaine fait partie de la nature et évolue avec elle ; sentir la terre tourner en se tenant d'une certaine façon au sommet d'une montagne.",
+    "en_classe": "Sortir de la salle de nuit et faire éprouver un phénomène par le corps avant de l'expliquer.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02101",
+     "SC-01068"
+    ]
+   },
+   {
+    "idee": "Le poète est celui qui met les choses ensemble ; Fuller défend son long poème épique comme de la prose ventilée. La formule est tenue ailleurs qu'à BMC, mais une lecture de 200 pages est attestée en 1949.",
+    "en_classe": "Rapprocher design scientifique et poésie, en exigeant une lecture longue (et en jouant sur ses limites).",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02341",
+     "SC-01197"
+    ]
+   },
+   {
+    "idee": "Une science du design complet peut être développée par les universités, avec un programme interdisciplinaire pour diplômés (« Considerations for a Curriculum »).",
+    "en_classe": "Concevoir un programme croisant sciences, arts et logistique des ressources ; écho de ses étés à BMC sans attestation précise.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00341"
+    ]
+   }
+  ]
+ }
+}

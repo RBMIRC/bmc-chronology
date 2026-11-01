@@ -1,0 +1,152 @@
+{
+ "passe": "enseignements",
+ "cle": "Iddings Clark",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2976,
+  "sortie": 4531,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Iddings Clark",
+  "cours": [
+   {
+    "intitule": "Cours de littérature au lycée de Northport (étude de « The Minister's Black Veil » de Hawthorne et de « Snowbound » de Whittier)",
+    "periodes": [
+     "huit années d'enseignement avant la crise racontée dans la nouvelle (durée donnée par la fiche, sans date calendaire)"
+    ],
+    "atteste": "non",
+    "objectifs": "Faire étudier à une classe de lycée la nouvelle de Hawthorne sur le voile noir, lue chaque année, et un long poème de Whittier. Les objectifs ne sont pas formulés. On peut seulement déduire que la nouvelle sert de matière de fond à la crise du maître, et que le poème est une lecture imposée dont le maître doute lui-même. Clark est un personnage de fiction, enseignant du secondaire à Northport, et non un enseignant de Black Mountain College. Rien n'indique qu'il ait enseigné au collège ; les fiches le signalent elles-mêmes comme « non » attesté à BMC.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Lire la nouvelle de Hawthorne « The Minister's Black Veil » avec la classe, deux fois par an, pendant huit ans.",
+      "materiaux": "Texte de Hawthorne.",
+      "but": "Non précisé. La scène SC-02242 suggère que cette lecture répétée finit par entrer dans la vie du maître, qui reconnaît le voile noir sur les visages.",
+      "refs": [
+       "CO-00892",
+       "SC-02242"
+      ]
+     },
+     {
+      "consigne": "Devoir : lire en entier « Snowbound » de Whittier.",
+      "materiaux": "Poème de Whittier.",
+      "but": "Non précisé. Le maître juge pourtant que ce n'est pas un grand poème. La fiche mentionne seulement qu'une élève, Rea (13 ans), l'a lu en entier.",
+      "refs": [
+       "CO-00892",
+       "SC-02245"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Nathaniel Hawthorne, « The Minister's Black Veil »",
+     "John Greenleaf Whittier, « Snowbound »"
+    ],
+    "propos_types": [
+     "À propos de Snowbound, il doute de la valeur du poème et se demande ce qui a pu pousser Whittier à l'écrire : « Ce n'est pas un grand poème. Qu'est-ce qui a bien pu le pousser à l'écrire ? » (CO-00892).",
+     "Dans la scène de la salle d'anglais, il paraît en lien avec le voile de Hawthorne : il déclare qu'il ne portera pas, lui, de voile noir. Il tient Whittier en main et dialogue avec Rea sur Snowbound (SC-02245)."
+    ],
+    "critique_et_evaluation": "Aucune méthode d'évaluation n'est donnée. La seule appréciation attestée est le jugement du maître sur Whittier, poème qu'il impose pourtant en lecture intégrale.",
+    "reactions_etudiants": "Rea, 13 ans, a lu tout le poème (CO-00892). Contradiction apparente : SC-02245 évoque l'âge de Rea sous la forme « 31 ans contre mille », ce qui ne s'accorde pas avec ses 13 ans ; probablement une erreur de la fiche ou une inversion de chiffres, à vérifier dans le texte source. Dans la même scène, toute la classe fuit le maître nu, sauf Rea qui reste, puis éclate en sanglots.",
+    "evolution": "Aucune progression pédagogique n'est attestée. La seule évolution est dramatique : huit ans de lecture répétée de la nouvelle aboutissent à la crise pendant le chant de « Jingle Bells », puis à l'épisode du sapin chez Otto, à la conférence dans le noir et à la scène nue devant Rea (SC-02242, SC-02243, SC-02244, SC-02245). À utiliser comme matière romanesque, pas comme récit d'enseignement.",
+    "refs": [
+     "CO-00892",
+     "SC-02242",
+     "SC-02243",
+     "SC-02244",
+     "SC-02245"
+    ]
+   },
+   {
+    "intitule": "Hooker Lecture on Literature : « The Incentives of Poetry » (conférence publique, auditorium du lycée)",
+    "periodes": [
+     "jour de l'An, un mardi (précision donnée telle quelle par la fiche, sans date plus exacte)"
+    ],
+    "atteste": "non",
+    "objectifs": "Sujet annoncé : la poésie comme production d'objets et de formes, le plaisir d'inventer, « comme si l'homme était Prométhée ». Le maître le dévoie en parlant de la poésie comme communication, puis de sa propre solitude. Conférence publique et non cours régulier ; contexte fictif, hors BMC.",
+    "deroule_type_seance": "Introduction par le Dean Croydon. Clark, blanc, crispé au pupitre, abandonne son sujet pour la communication. Il cite Baudelaire (valet de cœur et dame de pique « causant sinistrement de leurs amours défunts »), invoque Pygmalion, procède par silences et phrases en rafales. Les enfants du balcon débattent de son âge. Il s'arrête net, la lumière est coupée, applaudissements dans le noir, il disparaît.",
+    "exercices": [
+     {
+      "consigne": "Lire Baudelaire à haute voix devant le public et demander : « Pourquoi dire cela ? »",
+      "materiaux": "Vers de Baudelaire sur le valet de cœur et la dame de pique.",
+      "but": "Montrer que les symboles exacts de la poésie ne sont perçus que par ceux qui y prêtent une attention étroite. Cette lecture figure parmi les usages possibles « en classe » proposés par la fiche d'idée, et non comme un exercice attesté.",
+      "refs": [
+       "CO-00893",
+       "ID-04597",
+       "SC-02244"
+      ]
+     },
+     {
+      "consigne": "Invoquer Pygmalion et la statue encore prisonnière du roc : « Come alive, Galatea! that I may talk to you! »",
+      "materiaux": "Mythe de Pygmalion.",
+      "but": "Illustrer le désir de parler à un public qui reste de pierre.",
+      "refs": [
+       "CO-00893",
+       "ID-04597"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Baudelaire (vers sur le valet de cœur et la dame de pique)",
+     "Mythe de Pygmalion",
+     "Meyer Liben, cité pour la formule du mur (SC-02244)"
+    ],
+    "propos_types": [
+     "Parler au public lui est comme parler à un mur. La formule est attribuée à Meyer Liben dans la scène : « Parler à vous, comme disait Meyer Liben, c'est comme parler à un mur ! » (CO-00893, SC-02244).",
+     "Les poètes ne parlent qu'aux poètes (CO-00893, ID-04597).",
+     "Les amoureux parlent de l'être aimé ; sortis de l'amour, ils cherchent encore la sympathie, « faisant honte à tous » (CO-00893, ID-04598).",
+     "Il dit avoir plus de souvenirs que s'il avait mille ans (SC-02244)."
+    ],
+    "critique_et_evaluation": "Aucune évaluation. La conférence est un échec du programme annoncé : le maître dévie vers la confession.",
+    "reactions_etudiants": "Les enfants du balcon chuchotent : « Mr. Clark a mille ans ! ». L'auditoire est interloqué, puis applaudit dans le noir après la coupure de courant (CO-00893, SC-02244).",
+    "evolution": "Passage du sujet annoncé (la poésie comme fabrication) à la poésie comme communication impossible, puis à la confession personnelle. La conférence précède, dans le récit, la scène nue devant Rea selon l'ordre où les fiches se présentent, mais aucune fiche ne date précisément ces épisodes.",
+    "refs": [
+     "CO-00893",
+     "ID-04597",
+     "ID-04598",
+     "SC-02244"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Les poètes ne parlent qu'aux poètes : les symboles exacts de la poésie ne sont perçus que par ceux qui y prêtent une attention étroite et s'approprient cette langue ; s'adresser au commun, c'est parler à un mur.",
+    "en_classe": "Faire lire à haute voix des vers de Baudelaire (le valet de cœur et la dame de pique) et poser « Pourquoi dire cela ? », puis comparer ce que perçoivent un lecteur attentif et un auditeur distrait. La fiche y voit un écho du débat sur l'art pour l'art au collège, rapprochement non attesté : Clark est fictif et Goodman n'est pas cité ici comme enseignant de BMC.",
+    "atteste": "non",
+    "refs": [
+     "ID-04597",
+     "CO-00893",
+     "SC-02244"
+    ]
+   },
+   {
+    "idee": "L'amour rend le discours compulsif et honteux : les amoureux ne peuvent s'empêcher de parler de l'être aimé, et blessés ils cherchent encore la sympathie, « faisant honte à tous ».",
+    "en_classe": "Relier la confession publique au voile de Hawthorne et au geste de Rea écrivant à la craie son amour sur le mur de l'école (REA LOVES DONALD W), dans le cadre d'une séance sur le secret et l'aveu. Usage proposé par la fiche, non attesté en classe.",
+    "atteste": "non",
+    "refs": [
+     "ID-04598",
+     "CO-00893",
+     "SC-02245"
+    ]
+   },
+   {
+    "idee": "Une lecture répétée (huit ans de Hawthorne) peut entrer dans la vie du lecteur et le briser : le voile noir cesse d'être un symbole et devient une perception.",
+    "en_classe": "Déduction à partir des scènes, non formulée comme idée dans les fiches : proposer de relire deux fois un même texte et de noter ce qui change. Rien n'atteste cet exercice, ni à Northport ni à BMC.",
+    "atteste": "incertain",
+    "refs": [
+     "CO-00892",
+     "SC-02242"
+    ]
+   },
+   {
+    "idee": "Arracher un peu d'ordre au désordre : le maître décore le sapin en entassant tout dans un coin, laisse le reste noir et isole l'étoile entre quatre bougies en croix (« quatre soldats »), tandis qu'Otto veut réarranger l'arbre en secret.",
+    "en_classe": "Déduction à partir de la scène, non attestée comme enseignement : comparer deux dispositions d'un même ensemble (ordre conventionnel contre composition obsessionnelle) et demander ce que chacune dit de celui qui l'a faite.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-02243"
+    ]
+   }
+  ]
+ }
+}

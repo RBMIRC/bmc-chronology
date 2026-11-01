@@ -1,0 +1,295 @@
+{
+ "passe": "personnes",
+ "cle": "Barbara Anderson",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 7311,
+  "sortie": 9534,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Barbara Anderson",
+  "autres_noms": [
+   "Andy (surnom employé par ses amis et dans les récits)",
+   "Barbara Anderson Dupee (nom de femme mariée, connu pour 1967)"
+  ],
+  "dates_de_vie": "Naissance en juin 1923, déduite de son 21e anniversaire fêté à minuit en prison à Chattanooga en juin 1944 ; le jour exact n'est pas donné. Date de décès inconnue. En 1967 elle est mariée et porte le nom Dupee.",
+  "statut_bmc": "Étudiante, à Black Mountain dans les années 1940 et attestée en 1944. Proche d'Eric Bentley. Exclue pour l'été 1944 à la suite de l'affaire de Chattanooga et de la rumeur de blennorragie, avec retour possible à l'automne. Elle quitte alors le collège avec Addison Bray. Rien dans les fiches n'indique qu'elle y soit revenue.",
+  "presence": [
+   {
+    "debut": "",
+    "fin": "1944-07",
+    "role": "Étudiante, amie de Jeanne Wacker, compagne d'Addison Bray, disciple fervente de Bentley. Début du séjour inconnu. Sa sortie est prononcée en juin 1944 et son départ effectif se situe en juillet, l'ordre exact des départs restant flou dans les sources.",
+    "refs": [
+     "PE-00315",
+     "EV-03643",
+     "EV-03648",
+     "SC-00925"
+    ]
+   }
+  ],
+  "portrait_physique": "Attestés : une jeune fille « attractive » de vingt ans. À l'autostop elle porte un imperméable et tient une petite valise. Dans le récit de l'arrestation, son modeste « oui » est dit avec une pointe d'acide perceptible. Les fiches ne donnent ni taille, ni cheveux, ni traits. Le scénariste devra les inventer en restant dans ce registre : une allure de jeune fille qui joue la modestie avec un fond d'ironie, les yeux malicieux quand elle raconte, vingt-trois ans plus tard.",
+  "noyau_psychologique": "Une jeune femme de vingt et un ans qui se protège par l'insolence et l'humour. Elle affiche une docilité de façade, doublée d'acide, et une frivolité apparente. Dessous, elle souffre en profondeur (selon de Graaff, EV-03643 et PE-00315) ; la fiche la montre terrifiée à l'idée d'avoir la blennorragie. Elle n'adhère pas au collège : elle admettra plus tard, avec Wacker, qu'elles ne l'aimaient pas comme Ted Dreier l'aimait, et qu'elle n'avait aucune idée de ce que « s'occuper d'un collège » signifie. Sa loyauté va à des personnes, Bentley et Bray, et à son amie Jeanne, pas à l'institution. Elle refuse qu'on décide à sa place de ce qu'elle a vécu, d'où la phrase de 1967 : c'est sa blennorragie. (Interprétation, à partir de PE-00315, EV-03642, EV-03643, SC-02050.)",
+  "blessures": "Attesté : l'arrestation, la nuit en prison, l'examen médical qualifié de sadique et dit « sorti de Faulkner », le diagnostic positif suivi cinq jours plus tard d'un résultat négatif à Asheville, puis la condamnation à soixante jours de workhouse, suspendue. À cela s'ajoute l'interrogatoire de Dreier sur sa vie sexuelle, jugé « pire que la prison ». Enfin, le débat public de la faculté sur son état d'esprit : Anni Albers la trouve frivole, Josef Albers l'estime peu profondément touchée, alors que de Graaff la sait bouleversée. Interprétation : être jugée en son absence par ceux qui ne la croient pas, ou la croient trop pour la protéger mal.",
+  "desirs": "Attesté : suivre Bentley (« sanctuaire » de la dévotion), partir quand il n'y a plus de héros sur le campus, circuler librement (autostop), vivre sa sexualité sans tutelle avec Bray. Déduit : trouver une communauté idéologiquement cohérente, comme Highlander, plutôt qu'un collège qu'elle juge moralisateur et consensuel.",
+  "peurs": "Attesté : avoir contracté la blennorragie (effroi à 21 ans, avec l'image de « choses sur les sièges de toilettes »). Déduit : n'avoir « nulle part où aller » quand on la chasse (elle le dit à Dreier selon EV-03642), et être humiliée devant des hommes qui jugent son corps (examen, interrogatoire sexuel).",
+  "maniere_d_aimer": "Fidèle et directe avec Bray, avec qui elle a des rapports sexuels librement ; lui part avec elle plutôt que de la laisser seule, et la défend avec un certificat médical d'Asheville. Envers Bentley, une admiration sans faille, presque dévote. Avec Jeanne Wacker, complicité d'accomplice qui rit en prison et qui se taquine encore en 1967. Elle convainc Jeanne de rester pour l'institut de musique, un geste qui montre qu'elle peut arbitrer sa propre loyauté.",
+  "rapport_au_pouvoir": "Elle le provoque d'abord sur le ton de la modestie acide : face aux policiers, face à Dreier, face à la faculté. Elle refuse d'abord de partir quand Dreier l'interroge, puis part, mais en colère, avec Bray. Elle est méfiante à l'égard de ceux qui incarnent l'institution (Dreier : « il ne nous aimait pas »), sans révolte organisée. Au tribunal, secouée, elle ne dit rien : l'insolence a une limite quand le pouvoir est vraiment hostile.",
+  "voix": {
+   "registre": "Langue bien pendue, ironique, mépris des « fuddy-duddies ». Faussement docile avec une pointe d'acide, bouffonne avec aplomb. Colloquial américain de jeune étudiante des années 1940. En 1967, elle raconte avec une gaieté qui laisse passer des élaborations contradictoires qu'elle assume.",
+   "tics": "Réponses brèves et polies qui contiennent un piquant (le « oui » modeste à la question « Êtes-vous vierge ? »). Refus sec quand on empiète sur sa vie privée. Avertissement préalable que sa mémoire n'est « pas très bonne » avant de raconter. Fou rire partagé avec Jeanne.",
+   "exemples_paraphrases": [
+    "Ce que je fais de ma vie ne regarde pas les policiers.",
+    "« Oui », dit-elle avec une modestie dont l'acidité n'échappe à personne.",
+    "Nous n'aimions pas cet endroit comme Ted Dreier l'aimait.",
+    "Ce n'est pas un dossier, c'est ma blennorragie : fichez-moi la paix.",
+    "Mon souvenir n'est pas fameux, je vous préviens, mais voici comment je le raconte."
+   ]
+  },
+  "habitudes": [
+   "Autostop avec une petite valise et un imperméable, y compris sur de longues distances.",
+   "Vie sexuelle libre, sans la cacher (avec Bray).",
+   "Lecture : en cellule, elle lit avec Jeanne.",
+   "Conduit ses amitiés en tandem avec Jeanne Wacker.",
+   "Raconte son histoire en la réécrivant, avec des variantes assumées."
+  ],
+  "convictions": [
+   "Trouve Highlander plus satisfaisant idéologiquement que Black Mountain (EV-02887, PE-00315).",
+   "Selon elle, Black Mountain est anti-travail-rédempteur, anti-consensus quaker et anti-intellectuel (anti-arts-and-crafts) : la formulation est ambiguë dans la fiche.",
+   "Fisk lui paraît guindé : les deux filles en sont « absolument horrifiées » (EV-02887).",
+   "Ne se sent pas liée au collège comme Dreier : pour elle il n'est pas une cause (RE-01203)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "",
+    "moment": "Étudiante avant l'été 1944 : dévotion à Bentley, relation avec Bray, amitié avec Wacker, sentiment que le campus n'a plus de héros.",
+    "etat_interieur": "Attachement à une personne plutôt qu'au collège ; ennui et distance par rapport à la vie communautaire.",
+    "refs": [
+     "RE-01405",
+     "EV-03648",
+     "PE-00315",
+     "RE-01203"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "moment": "Elle fait de l'autostop avec Jeanne. Un camionneur les met mal à l'aise (dispute feinte), puis la police s'arrête, les interroge sur leur virginité, les arrête pour « loitering ».",
+    "etat_interieur": "Insouciance, insolence, modestie acide, puis basculement dans la peur.",
+    "refs": [
+     "EV-03634",
+     "SC-00921"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "moment": "Nuit en prison, soupçons de prostitution, ségrégation, cellule peuplée de femmes arrêtées ; elle fête ses 21 ans à minuit.",
+    "etat_interieur": "Tension, fatigue, solidarité avec Jeanne ; l'anniversaire devient un moment amer et presque irréel.",
+    "refs": [
+     "EV-03635",
+     "SC-00922"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "moment": "Examen médical humiliant, diagnostic positif, procès sans avocat, soixante jours de workhouse, transfert au pénitencier, lettres censurées, intervention de Dreier : peines suspendues, retour en bus.",
+    "etat_interieur": "Humiliation, silence sous la pression, puis soulagement mêlé de méfiance envers Dreier.",
+    "refs": [
+     "EV-03636",
+     "EV-03637",
+     "EV-03638",
+     "EV-03639"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "moment": "Retour au collège. Dreier l'interroge sur sa vie sexuelle ; elle et Bray « confessent ». La faculté vote son exclusion estivale. Bray part avec elle chez les Foreman. Elle persuade Jeanne de rester pour l'institut de musique.",
+    "etat_interieur": "Colère, indignation d'être jugée, loyauté envers Bray et Wacker ; elle n'a « nulle part où aller » mais choisit de partir.",
+    "refs": [
+     "EV-03642",
+     "EV-03643",
+     "RE-01411",
+     "RE-01415"
+    ]
+   },
+   {
+    "date": "1944-07",
+    "moment": "Elle part vers le nord rejoindre Bentley à Fisk (selon EV-03648), tandis que le collège s'agite autour de la rumeur de gonorrhée, avec des réunions de faculté en juillet et la défense de de Graaff.",
+    "etat_interieur": "Fuite vers l'homme admiré ; indifférence apparente à la tempête qu'elle laisse derrière elle.",
+    "refs": [
+     "EV-03648",
+     "SC-00925",
+     "EV-03540"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1923-06",
+    "moment": "Naissance (déduite de son 21e anniversaire en juin 1944). Rien d'autre dans les fiches sur sa famille, son origine, ses études précédentes ou la date de son arrivée à Black Mountain.",
+    "refs": [
+     "EV-03635"
+    ]
+   },
+   {
+    "date": "1944-06",
+    "moment": "Séjour à Highlander Folk School (une nuit) et visite à Fisk auprès de Bentley, juste avant l'arrestation : joie pour Highlander, consternation devant le guindé de Fisk. Un flash-back peut montrer le trajet aller, léger et fier.",
+    "refs": [
+     "EV-02887",
+     "EV-03636"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Les débuts de sa relation avec Addison Bray et de sa dévotion à Bentley, antérieurs à l'été 1944 : à imaginer, non documentés.",
+    "refs": [
+     "RE-01405",
+     "RE-01430"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1944-07",
+    "moment": "Elle part rejoindre Bentley à Fisk ; un avocat de Chattanooga appelle Dreier une semaine plus tard.",
+    "refs": [
+     "EV-03648",
+     "PE-00315"
+    ]
+   },
+   {
+    "date": "1944→1945-01",
+    "moment": "Elle partage brièvement un appartement de Greenwich Village avec Jeanne Wacker et Fran de Graaff, au moment où le camp rebelle (Foreman, Cohen) cherche à fonder un nouveau collège.",
+    "refs": [
+     "EV-03510"
+    ]
+   },
+   {
+    "date": "1967-05-31",
+    "moment": "Mariée, connue sous le nom de Barbara Anderson Dupee, elle raconte l'aventure à Martin Duberman à New York avec Jeanne Wacker ; elle avoue qu'elle avait peut-être cru avoir la blennorragie, Jeanne croyant à un montage ; fou rire et taquineries, malgré les trous de mémoire.",
+    "refs": [
+     "SC-02050",
+     "CI-04024",
+     "PE-00315",
+     "RE-01412"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Dans ses récits à Duberman, elle parle avec regret de ses exubérances et de ses légèretés ; elle admet son peu d'attachement au collège.",
+    "refs": [
+     "EV-03498",
+     "PE-00315"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Eric Bentley",
+    "nature": "Admiration, dévotion à son « sanctuaire ».",
+    "evolution": "Elle part le rejoindre à Fisk à l'été 1944, ce qui déclenche l'affaire juridique. Bentley affirme péremptoirement qu'elle n'avait pas la gonorrhée.",
+    "refs": [
+     "RE-01405",
+     "EV-03540",
+     "SC-00925"
+    ]
+   },
+   {
+    "avec": "Addison Bray",
+    "nature": "Petit ami, amour, rapports sexuels.",
+    "evolution": "Il la défend avec un certificat médical d'Asheville, quitte le collège avec elle par colère contre les interrogatoires « scoutesques » de Dreier ; ils partent chez les Foreman ; retour jugé peu probable.",
+    "refs": [
+     "RE-01411",
+     "RE-01430",
+     "EV-03642",
+     "EV-03643"
+    ]
+   },
+   {
+    "avec": "Jeanne Wacker",
+    "nature": "Amitié, complicité d'aventure.",
+    "evolution": "Rient ensemble en prison ; Andy la convainc de rester pour l'institut de musique ; elles partent ensuite rejoindre Bentley ; partagent un appartement à New York ; se taquinent encore en 1967.",
+    "refs": [
+     "RE-01412",
+     "EV-03643",
+     "EV-03510",
+     "SC-02050"
+    ]
+   },
+   {
+    "avec": "Theodore Dreier",
+    "nature": "Conflit, méfiance réciproque ; il la sauve pourtant de Chattanooga.",
+    "evolution": "Retour en bus poli et sans sermon ; interrogatoire sexuel jugé pire que la prison ; plus tard elle reconnaît qu'elle n'aimait pas le collège comme lui.",
+    "refs": [
+     "RE-01415",
+     "RE-01203",
+     "EV-03639",
+     "EV-03642"
+    ]
+   },
+   {
+    "avec": "Frances de Graaff",
+    "nature": "Conseillère, défenseuse.",
+    "evolution": "Elle plaide pour elle à la faculté, affirme qu'elle n'a rien fait de malhonnête ; puis loge avec elle et Jeanne à Greenwich Village.",
+    "refs": [
+     "EV-03643",
+     "EV-03648",
+     "EV-03510"
+    ]
+   },
+   {
+    "avec": "Anni et Josef Albers",
+    "nature": "Juges sceptiques.",
+    "evolution": "Anni la voit frivole et amusée, rapporte sa phrase « meilleure expérience de sa vie » ; Josef estime que penser qu'elle souffre profondément « crée un sérieux problème au collège ».",
+    "refs": [
+     "EV-03643",
+     "PE-00315"
+    ]
+   },
+   {
+    "avec": "Martin Duberman",
+    "nature": "Historien à qui elle raconte l'affaire en 1967.",
+    "evolution": "Il se montre sympathique aux Bentleyites ; elle le prévient que sa mémoire est mauvaise.",
+    "refs": [
+     "SC-02050",
+     "EV-03498",
+     "PE-00315"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Blennorragie : le médecin de Chattanooga la dit positive, un examen à Asheville cinq jours plus tard est négatif, Bentley et Bray nient toute maladie, et en 1967 elle avoue qu'elle a peut-être cru réellement l'avoir tandis que Jeanne pensait qu'elles avaient été victimes d'un montage. La vérité reste non tranchée (conteste).",
+   "État intérieur : Anni Albers rapporte qu'elle disait avoir vécu la meilleure expérience de sa vie et paraissait frivole ; de Graaff la savait bouleversée, et Josef Albers pense que sa souffrance est profonde. La fiche d'agrégation note que la façade amusée cache une souffrance.",
+   "Chronologie : l'exclusion et le départ avec Bray sont ancrés en juin 1944 (EV-03643), mais les réunions de faculté sont datées des 10, 14 et 17 juillet (SC-00925) et le départ vers Fisk est daté de juillet (EV-03648). L'ordre exact entre le voyage à Fisk, l'arrestation, le retour, l'exclusion et le second départ n'est pas clair : le texte la montre arrêtée en revenant de Fisk et de Highlander, puis partant à nouveau rejoindre Bentley.",
+   "Jeanne Wacker : elle reste pour l'institut de musique selon EV-03643, mais EV-03648 et SC-00925 la montrent partie avec Andy à Fisk et revenue ensuite.",
+   "Dates : EV-02887 est ancré « ≈1939→1968 », ce qui ne peut correspondre à son séjour réel ; PE-00315 ne date que par « années 1940 ». Les dates d'arrivée et de départ définitifs sont donc incertaines.",
+   "Mémoire : en 1967, elle prévient d'élaborations contradictoires assumées et d'une mémoire peu fiable."
+  ],
+  "situations_revelatrices": [
+   "Face à des figures d'autorité masculines qui la jugent (policiers, médecin, juge, Dreier) : modestie ironique ou silence.",
+   "En cellule ou sur la route avec Jeanne : humour partagé qui masque la peur.",
+   "En conseil de faculté ou dans un entretien où l'on décide de son sort en sa présence ou en son absence.",
+   "Face à Bray ou Bentley : loyauté, dévotion, départ en couple ou rejoindre le maître.",
+   "À New York en 1967 : raconter l'histoire à un historien avec Jeanne, fou rire, réécriture de la mémoire.",
+   "Devant un lieu qu'elle ne sent pas sien (Black Mountain, Fisk) par opposition à un lieu qui lui plaît (Highlander)."
+  ],
+  "citations": [
+   "SC-00921 : « I don't think that's any of your business » (paraphrase : ça ne vous regarde pas) ; à la question « Are you a virgin? » : « Yes », dit avec acidité perceptible.",
+   "CI-04024 / SC-02050 : « It's my gonorrhea … just leave me alone » (c'est ma blennorragie, laissez-moi tranquille).",
+   "SC-02050 : Jeanne répond « That's fantastic! I just assumed we both knew we had been framed ».",
+   "RE-01203 / PE-00315 : elle reconnaît que Wacker et elle n'aimaient pas le collège comme Ted Dreier l'aimait.",
+   "EV-03642 : l'interrogatoire par Dreier est « pire que la prison ».",
+   "SC-00925 : Bentley dit qu'elle n'avait pas la gonorrhée et qu'il n'y en avait pas à Black Mountain."
+  ],
+  "questions_ouvertes": [
+   "D'où vient-elle, quelle est sa famille, quel est son parcours avant Black Mountain, quand est-elle arrivée et que fait-elle des études ?",
+   "Quel est son nom de naissance complet ? Le surnom « Andy » a-t-il une origine ?",
+   "Est-elle revenue à Black Mountain à l'automne 1944 ou bien s'est-elle fixée à New York ?",
+   "Comment s'est terminée sa relation avec Bray ? A-t-elle épousé Dupee, et quand ?",
+   "Que devient-elle après 1967 ? Quel travail a-t-elle exercé ?",
+   "A-t-elle réellement cru avoir la blennorragie en 1944 ou l'a-t-elle dit en 1967 pour plaisanter ?",
+   "Quelle est exactement la chronologie entre voyage à Fisk, arrestation, exclusion et départ définitif ?",
+   "Que pense-t-elle de Bentley après 1944 ?"
+  ]
+ }
+}

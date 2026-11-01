@@ -1,0 +1,555 @@
+{
+ "passe": "enseignements",
+ "cle": "John Cage",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 36147,
+  "sortie": 16422,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "John Cage",
+  "cours": [
+   {
+    "intitule": "Concert-conférence : Sonates et interludes (visite d'avril 1948)",
+    "periodes": [
+     "avril 1948 (fourchette de la fiche : du 3 au 8 avril)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire entendre son travail à la communauté et le lui expliquer. Les fiches ne parlent pas d'un cours régulier : c'est une séance invitée, qui scelle l'invitation pour l'été (la dernière phrase est une déduction à partir des cadeaux laissés sous la voiture).",
+    "deroule_type_seance": "Cage joue seize sonates et quatre interludes sur piano préparé, puis répond longuement aux questions d'une communauté étonnée mais amicale. Il développe alors sa conception : le temps plutôt que l'harmonie, l'art comme intégration, la société à venir. Au départ, Cage et Cunningham trouvent sous leur voiture un tas de présents (tableaux, dessins, objets divers).",
+    "exercices": [
+     {
+      "consigne": "Écouter l'exécution de seize sonates et quatre interludes, puis interroger le compositeur sans limite de temps.",
+      "materiaux": "Piano préparé : boulons, vis et lanières de cuir glissés entre les cordes pour obtenir des sons percussifs.",
+      "but": "Entendre une musique structurée par la durée, où chaque unité reflète l'ensemble comme un microcosme.",
+      "refs": [
+       "CO-00487",
+       "SC-01162",
+       "ID-01723"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Sa musique est construite sur des durées, non sur l'harmonie ; chaque petite unité répète en miniature la forme du tout.",
+     "L'art est tout ce qu'un homme fait, une intégration de ses facultés, capable de produire la même intégration chez l'auditeur.",
+     "Une société nouvelle peut naître lentement de cette coordination gagnée sur soi : cela commence avec la musique et finit avec une commune nature humaine."
+    ],
+    "critique_et_evaluation": "Duberman décrit un discours « juste assez compréhensible » pour que la communauté y reconnaisse ses préoccupations, et assez vague pour que chacun comble les blancs. Le climat « assez germanique » imposé par Albers s'accordait, selon Duberman, avec cette insistance sur la forme (ID-01723, déduction de la fiche).",
+    "reactions_etudiants": "Un étudiant dit que l'événement « illumina le collège ». L'accueil fut amical, et les présents laissés sous la voiture en sont le signe.",
+    "evolution": "Cette visite conduit à l'engagement de l'été 1948 (fiche SC-01163 : « sceller l'invitation »).",
+    "refs": [
+     "CO-00487",
+     "SC-01162",
+     "SC-01163",
+     "ID-01723",
+     "ID-01724"
+    ]
+   },
+   {
+    "intitule": "Session d'été 1948 : composition / The Structure of Music and Choreography / festival Satie",
+    "periodes": [
+     "été 1948",
+     "automne 1948 (une seule fiche, CO-00545, donne cet intitulé pour l'automne : à vérifier)"
+    ],
+    "atteste": "oui",
+    "objectifs": "C'est le premier poste de composition de Cage. Il s'agissait de détourner la tradition schoenbergienne du collège, de faire entendre les 18 partitions existantes de Satie et sa seule pièce de théâtre, et de promouvoir la durée et le rythme contre l'harmonie allemande.",
+    "deroule_type_seance": "Soirées de récitals de Satie précédées de courts exposés. À mi-session vient une conférence plus longue, qui tombe « comme une bombe » (voir le cours suivant). Le point culminant est la mise en scène de The Ruse of Medusa (1913), d'Erik Satie. Arthur Penn, étudiant, la dirige. Fuller joue le Baron Medusa, Elaine de Kooning sa fille Frisette, Cunningham le « singe mécanique » qui danse les intermèdes, et les de Kooning signent des décors en trompe-l'œil. La pièce mêle slapstick, jeux de mots, monologues absurdes, farces arithmétiques (« cinq plus trois font onze ») et jeu non naturaliste, sans séparation nette entre scène et salle. Les répétitions furent nombreuses, pour ne pas éclater de rire devant les lazzi de Fuller.",
+    "exercices": [
+     {
+      "consigne": "Jouer les 18 partitions de Satie pendant l'été. Selon CO-00538, exclusivement Satie ; selon CO-00489, un seul concert fait exception, consacré à des œuvres de Cage.",
+      "materiaux": "Les 18 partitions de Satie ; piano préparé (objets entre les cordes).",
+      "but": "Prouver que la durée et le rythme comptent plus que l'harmonie, et rendre Satie audible à une école germanique.",
+      "refs": [
+       "CO-00538",
+       "CO-00489",
+       "CO-00519"
+      ]
+     },
+     {
+      "consigne": "Proposer et monter un « festival amateur » Satie. Un témoignage (Duberman) parle de 25 demi-heures de Satie jouées par un pianiste médiocre ; le chiffre ne concorde pas avec les 18 partitions des autres fiches, il n'y a pas d'explication dans les fiches.",
+      "materiaux": "Partitions de Satie.",
+      "but": "Montrer qu'une musique simple n'exige pas de génie pour exister.",
+      "refs": [
+       "CO-00538",
+       "ID-01964"
+      ]
+     },
+     {
+      "consigne": "Monter The Ruse of Medusa avec enseignants et étudiants, après de nombreuses répétitions.",
+      "materiaux": "Script de la pièce, costumes (robe de gaze, costume du Baron), décors trompe-l'œil.",
+      "but": "Faire jouer la bouffonnerie absurde de Satie, jalon vers le Happening de 1952 (jalon donné par SC-01112).",
+      "refs": [
+       "CO-00519",
+       "SC-01096",
+       "SC-01112",
+       "SC-01050"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Les 18 partitions de Satie et la pièce The Ruse of Medusa",
+     "Webern, cité avec Satie contre Beethoven pour la structure par durées",
+     "Coomaraswamy (art comme imitation de la nature dans sa manière d'opérer), cité dans la conférence"
+    ],
+    "propos_types": [
+     "Beethoven et la tradition harmonique allemande ont fait fausse route ; Satie et Webern ont redécouvert que les parties d'une œuvre se définissent par des longueurs de temps.",
+     "Le silence ne s'entend pas en hauteur ni en harmonie, mais en durée.",
+     "« Expérimental » désigne un acte dont on ignore l'issue, non un acte à juger ensuite en succès ou échec.",
+     "La musique n'a pas besoin de génie pour être jouée : la simplicité de Satie suffit (formulation d'une fiche, qui la donne comme remarque possible)."
+    ],
+    "critique_et_evaluation": "Hostilité latente des émigrés allemands, car Cage marche sur le terrain musical, déjà glorieux à BMC. À table, les convives proclament leurs positions sur l'existence même de la musique et la communauté se scinde en deux camps pour l'été (Lane). Un témoin l'appelle « bataille esthétique pour l'âme du collège ». Les sources divergent sur Albers. Il exige les causeries avant les concerts (CO-00543), mais SC-01111 le range parmi les émigrés exaspérés. Même désaccord sur la réception : accueil « étonnamment cordial » (Duberman), fureur d'anciens du Bauhaus (Molesworth), scandale (Díaz).",
+    "reactions_etudiants": "Public d'émigrés allemands et d'anciens du Bauhaus exaspéré par un programme exclusivement satien. La pièce, en revanche, connaît un succès populaire.",
+    "evolution": "L'été se passe aussi sur le porche et sous les arbres : Cage, Cunningham et Fuller imaginent chaque matin une « finishing school » itinérante qui abolirait l'école conventionnelle (SC-01146). Albers confie à Lippold sa lassitude du cycle annuel (SC-01094). La méthode de l'été 1948 annonce le Theater Piece No. 1 de 1952 (ID-01074).",
+    "refs": [
+     "CO-00489",
+     "CO-00498",
+     "CO-00519",
+     "CO-00538",
+     "CO-00545",
+     "SC-01094",
+     "SC-01096",
+     "SC-01111",
+     "SC-01112",
+     "SC-01146",
+     "SC-01050",
+     "SC-01042",
+     "ID-01964",
+     "ID-01861",
+     "ID-01074"
+    ]
+   },
+   {
+    "intitule": "Causeries d'avant-concert et conférence « Defense of Satie » (été 1948)",
+    "periodes": [
+     "été 1948 (une fiche précise juillet 1948 pour un récital)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Albers exige ces causeries pour rendre acceptable, dans une école germanique, une session entière consacrée à Satie. La conférence centrale expose les vues anti-beethovéniennes de Satie et sert de manifeste à Cage.",
+    "deroule_type_seance": "Causeries courtes avant chaque concert, bien reçues. À mi-session, une conférence plus longue : ouverture ironique sur l'artiste moderne névrosé qui court chez le psychanalyste, reconstruction de la musique depuis zéro, puis provocations (néoclassicisme contre nature, Schoenberg et Stravinsky surestimés, harmonie tonale jugée matérialiste), enfin la flèche contre Beethoven, destinée à Bodky qui enseigne les derniers quatuors. Elle se clôt sur une bénédiction orientale : la solution de la structure rythmique, traditionnelle en Orient, arrive en Occident au moment où celui-ci a besoin de paix de l'esprit et de connaissance de soi, et la bonne musique guide la bonne vie.",
+    "exercices": [
+     {
+      "consigne": "Écouter une causerie brève avant chaque concert de Satie, puis la conférence longue de mi-session.",
+      "materiaux": null,
+      "but": "Préparer l'écoute et justifier le programme.",
+      "refs": [
+       "CO-00543",
+       "SC-01148"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Satie et Webern, contre Beethoven",
+     "Ramakrishna lu à travers Satie (ID-02010)",
+     "Coomaraswamy (imiter la nature dans la manière de ses opérations)"
+    ],
+    "propos_types": [
+     "Il n'y a eu qu'une seule idée nouvelle depuis Beethoven : celle de Webern et Satie, qui définissent les parties par la longueur de temps.",
+     "Beethoven s'est trompé, il a tué l'art musical et failli faire échouer la musique sur une île de décadence.",
+     "Après The Perilous Night, constat : soit il ne communique pas, soit tout artiste parle une langue privée ; Satie lui montre qu'on peut renoncer à l'expression et cultiver un esprit sobre et calme.",
+     "L'originalité est la source de la solitude de l'artiste moderne (ouverture sardonique)."
+    ],
+    "critique_et_evaluation": "Version et lieu contestés. (1) Salle de conférence, devant Albers, avec Goodman qui serait sorti furieux : Duberman établit que Goodman n'était pas là cet été-là (SC-01097). (2) Un récital Satie en juillet, devant des anciens du Bauhaus (SC-01178). (3) Une déclaration lancée à table, provoquant la colère de Bodky et un « duel » verbal (SC-01079, SC-01080 absent, SC-00908, ID-01980). (4) Cage soutient que l'offensé était Goodman, non Bodky (SC-00908, certitude « conteste »). Le prénom de Bodky varie selon les fiches (Erich, Ernst, Erwin). On ne peut pas trancher entre une conférence unique ou plusieurs sorties.",
+    "reactions_etudiants": "Scandale, « comme une bombe tombant sur l'endroit ». Fureur dans la salle, outrage parlant de « désécration », brouille personnelle durable.",
+    "evolution": "Durée plutôt qu'harmonie devient le socle des idées de Cage (ID-01225), prolongé vers le hasard en 1952 (ID-01488).",
+    "refs": [
+     "CO-00543",
+     "SC-01148",
+     "SC-01097",
+     "SC-01104",
+     "SC-01178",
+     "SC-01079",
+     "SC-00908",
+     "SC-01111",
+     "ID-01225",
+     "ID-01660",
+     "ID-01980",
+     "ID-02010",
+     "ID-02011",
+     "ID-02012"
+    ]
+   },
+   {
+    "intitule": "Théorie de la musique (vers 1948)",
+    "periodes": [
+     "vers 1948"
+    ],
+    "atteste": "oui",
+    "objectifs": "Non documenté : l'enseignement est attesté (Lane p.210), la fiche n'en précise ni le contenu ni le public.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Probablement lié à l'enseignement de l'été 1948 (déduction, aucune fiche ne le dit).",
+    "refs": [
+     "CO-00470"
+    ]
+   },
+   {
+    "intitule": "Accompagnement du cours de danse de Cunningham",
+    "periodes": [
+     "un été, année non précisée (fiche à ancrage vague, ≈1946→1988)"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Fournir au cours de Cunningham un accompagnement rythmique au piano. Ce n'est pas un cours de Cage.",
+    "deroule_type_seance": "Cunningham fait travailler le mouvement ; Cage joue en frappant et pinçant les cordes, sans jamais perdre le beat. Une étudiante, peu douée, apprend à bouger comme si sa tête pendait à un fil qui la tire vers le haut.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Le témoignage de Sheila Ravin dit qu'elle trouve là un lieu où elle n'a pas besoin d'être douée (Lane).",
+    "evolution": null,
+    "refs": [
+     "SC-00977"
+    ]
+   },
+   {
+    "intitule": "Composition / classe sur le Williams Mix (été 1952)",
+    "periodes": [
+     "été 1952"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire travailler des apprentis aux découpes et collages de bande magnétique du Williams Mix. Cage annonce qu'il n'enseignera pas le travail des étudiants mais le sien, et qualifie leur refus de « réticence à travailler ».",
+    "deroule_type_seance": "Prévu : couper et recoller de la bande magnétique pendant des heures. Réalité : aucun inscrit ; l'heure venue, la salle reste vide (SC-01518, CO-00728) ; selon d'autres fiches, le cours n'a jamais eu lieu (CO-00698, CO-00733). Sources non concordantes sur ce point : classe vide à l'heure dite, ou annulation avant. Cage annule tout enseignement formel pour la session.",
+    "exercices": [
+     {
+      "consigne": "Découper et coller des morceaux de bande magnétique pour fabriquer le Williams Mix pour Cage.",
+      "materiaux": "Bande magnétique.",
+      "but": "Réaliser une œuvre dont les juxtapositions sont réglées par le hasard (ID-01488, ID-02891).",
+      "refs": [
+       "CO-00698",
+       "CO-00728",
+       "CO-00733",
+       "ID-02891"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Ils ne voulaient pas faire mon travail pour moi, donc je ne les enseignerais pas.",
+     "Le hasard doit gouverner entièrement la création ; depuis 1952 il n'emploie plus que lui (formulé dans les fiches comme constat, pas comme propos tenu en classe)."
+    ],
+    "critique_et_evaluation": "Molesworth parle d'étudiants « trop sages pour venir ». Les fiches ne disent pas si Cage jugeait l'épisode comme un échec (déduction : il le lit comme une réticence au travail).",
+    "reactions_etudiants": "Pas une inscription. Les étudiants en musique deviennent simplement ses amis (discussions, strip-poker).",
+    "evolution": "La seule séance formelle de l'été sera la lecture du Huang Po, puis le Theater Piece No. 1.",
+    "refs": [
+     "CO-00698",
+     "CO-00728",
+     "CO-00733",
+     "SC-01518",
+     "ID-02891",
+     "ID-01488"
+    ]
+   },
+   {
+    "intitule": "Lecture intégrale du Huang Po (Doctrine of Universal Mind)",
+    "periodes": [
+     "été 1952"
+    ],
+    "atteste": "oui",
+    "objectifs": "Partager le texte zen qui lui semblait l'essentiel.",
+    "deroule_type_seance": "Lecture tard dans la nuit devant vingt à trente personnes, première édition lue en entier, notes et préface comprises. Plusieurs assistants jouent la partie dialoguée où le maître insulte l'élève. Des conversations suivent, notées par Francine du Plessix.",
+    "exercices": [
+     {
+      "consigne": "Assister à la lecture intégrale de la première édition, notes et préface comprises.",
+      "materiaux": "Le livre.",
+      "but": "Entendre le texte dans sa durée.",
+      "refs": [
+       "CO-00699",
+       "SC-01486"
+      ]
+     },
+     {
+      "consigne": "Jouer le dialogue où le maître insulte l'élève.",
+      "materiaux": null,
+      "but": "Rendre sensible la pédagogie du maître zen.",
+      "refs": [
+       "CO-00699"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Huang Po, The Zen Doctrine of Universal Mind (première édition)"
+    ],
+    "propos_types": [
+     "Dans le zen, rien n'est meilleur que quoi que ce soit ; les actes humains forment un complexe non hiérarchique, et l'art est un acte dans la vie (d'après le journal de Francine du Plessix).",
+     "Parler de la vie comme expérience passive et de l'art comme engagement volontaire sonne creux ; l'inverse est au moins aussi vrai.",
+     "Une action expérimentale née d'un esprit vide ne passe ni par approximations ni par erreurs : elle voit directement (lecture de Díaz, pas parole de Cage)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Effet profond : un vétéran de Corée « au bout du rouleau », un étudiant à un tournant de sa vie.",
+    "evolution": "Les fiches présentent cette lecture comme le seul enseignement formel de Cage cet été-là. Elle prépare la conférence zen du Theater Piece No. 1.",
+    "refs": [
+     "CO-00699",
+     "SC-01486",
+     "SC-01077",
+     "ID-02892",
+     "ID-01682"
+    ]
+   },
+   {
+    "intitule": "Conférence sur le zen et Maître Eckhart dans le Theater Piece No. 1 (août 1952)",
+    "periodes": [
+     "août 1952"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire de la conférence une composante de la pièce plutôt qu'un cours. Objectif proclamé : couper l'expérimentalisme de l'intention artistique, chaque événement étant centré sur lui-même et indépendant des autres (centricity et non-dependence).",
+    "deroule_type_seance": "Public assis sur des chaises disposées en carré (quatre triangles convergeant sans se joindre), une tasse à chaque place ; des White Paintings forment un dais ou une croix. Cage lit sa conférence d'une échelle (un témoin, Weinrib, dit à un pupitre), avec de longs silences. Le sujet est le rapport de la musique au zen ; selon les sources, Maître Eckhart figure ou non au texte (contesté). Pendant ce temps : Olson lit ses poèmes d'une échelle (ou son poème est distribué en parties) ; Richards récite Edna St. Vincent Millay d'une échelle ; Cunningham danse dans les allées, poursuivi ou harcelé par un chien ; Tudor joue du piano préparé (probablement Water Music) ; Rauschenberg montre ses peintures, passe d'anciens disques (Piaf en accéléré) sur un gramophone à manivelle et projette des diapositives ; film muet possible ; café servi pendant la performance. Wolpe proteste et sort.",
+    "exercices": [
+     {
+      "consigne": "Chaque participant reçoit une plage horaire précise pendant laquelle il agit à sa guise, sans consigne de contenu ; exemple : le projectionniste commence à 16 minutes et joue librement jusqu'à 23 minutes.",
+      "materiaux": "Scripts minutés ; échelles ; chaises en carré avec tasses ; White Paintings ; piano préparé ; gramophone et disques ; diapositives.",
+      "but": "Faire coexister musique, danse, poésie et film sans lien causal, dans un cadre horaire rigoureux.",
+      "refs": [
+       "SC-01534",
+       "SC-01558",
+       "ID-01378",
+       "ID-01401"
+      ]
+     },
+     {
+      "consigne": "Tenir une durée de segment exacte : un segment de projecteur de 6 minutes 5 secondes à respecter précisément.",
+      "materiaux": "Chronomètre ; projecteur.",
+      "but": "Illustrer que seules la quantité et la longueur des sections sont tirées au hasard, et que les questions elles-mêmes restent cadrées par Cage (ID-01678).",
+      "refs": [
+       "ID-01678"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Maître Eckhart (contesté)",
+     "Huang Po",
+     "Artaud et Duchamp (rapprochements faits par Díaz ; ID-01976)",
+     "Poème d'Olson, Edna St. Vincent Millay"
+    ],
+    "propos_types": [
+     "Mrs. Jalowetz demande où est la meilleure place ; Cage répond qu'elles sont toutes également bonnes.",
+     "Plus tard (1969), Cage dit avoir simplement puisé dans les ressources de la communauté.",
+     "Ma responsabilité est de poser des questions plutôt que de faire des choix (ID-01678, citation attribuée à Cage sur les œuvres autour de Theater Piece No. 1)."
+    ],
+    "critique_et_evaluation": "La pièce divise : Wolpe proteste, certains la jugent ennuyeuse, d'autres intéressante, d'autres pensent qu'on n'était pas censé comprendre littéralement. Sources non concordantes : durée de 45 minutes prévue contre deux heures racontées (Lane : de 20 h 30 à 22 h 30, d'autres récits plus longs) ; présence d'Olson incertaine pour une version ; Cage sur une échelle ou à un pupitre ; White Paintings comme tableaux, écrans ou scénographie. SC-01519 et SC-01557 sont classées « contesté ». Il n'y a ni répétition ni script préétabli au sens narratif (ID-00564).",
+    "reactions_etudiants": "La plupart restent jusqu'au bout, sauf Wolpe. Richards en tire une règle de réception : laisser rouler sur soi, ne pas chercher à donner sens à chaque fil. Considéré rétrospectivement comme le premier Happening américain.",
+    "evolution": "Les éléments se retrouvent chez les héritiers de Cage (CO-00838), par exemple dans Water Walk à la télévision en 1960, où la précision horaire gouverne un désordre apparent (SC-01935, hors BMC).",
+    "refs": [
+     "CO-00694",
+     "CO-00731",
+     "CO-00732",
+     "SC-01487",
+     "SC-01519",
+     "SC-01533",
+     "SC-01534",
+     "SC-01554",
+     "SC-01556",
+     "SC-01557",
+     "SC-01558",
+     "SC-01532",
+     "ID-00563",
+     "ID-00564",
+     "ID-01378",
+     "ID-01401",
+     "ID-01678",
+     "ID-01679",
+     "ID-01976"
+    ]
+   },
+   {
+    "intitule": "Sound Experiments (Institute of Design, Chicago)",
+    "periodes": [
+     "1941-1942"
+    ],
+    "atteste": "non",
+    "objectifs": "Centre de musique expérimentale à l'Institute of Design de Chicago ; hors Black Mountain College.",
+    "deroule_type_seance": "Cours avorté : Cage renonce en découvrant que toutes les classes se tiennent dans une salle commune.",
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "CO-00369"
+    ]
+   },
+   {
+    "intitule": "Experimental Composition (New School for Social Research)",
+    "periodes": [
+     "≈1948-1957 (fiche CO-00539, date déduite, « après BMC »)",
+     "1957-1959 (fiche CO-00838)"
+    ],
+    "atteste": "non",
+    "objectifs": "Pédagogie fondée sur la logique instructionnelle du Theater Piece No. 1 ; introduire la possibilité de la contingence dans la notation et la performance. Hors BMC.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": "Critiquée pour des directives parfois étroitement interprétables (Díaz).",
+    "reactions_etudiants": "Jackson Mac Low, Allan Kaprow, Al Hansen, George Brecht et Dick Higgins y découvrent la contingence et la développeront en happenings et event scores.",
+    "evolution": "Prolongement postérieur de l'expérience de 1952. Les deux fiches se recoupent peut-être sur un même cours ; les dates divergent.",
+    "refs": [
+     "CO-00539",
+     "CO-00838"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "La musique se structure par la durée, non par l'harmonie : le silence s'entend en longueurs de temps, et chaque unité reflète le tout comme un microcosme.",
+    "en_classe": "Faire écouter une œuvre et montrer comment chaque petit segment répète la forme de l'ensemble. Remplacer l'étude de l'harmonie beethovénienne par celle du rythme, de la durée et des bruits ambiants. Au collège, Cage le professe en 1948 par le festival Satie.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01723",
+     "ID-01660",
+     "ID-01980",
+     "ID-01225",
+     "ID-00407"
+    ]
+   },
+   {
+    "idee": "Satie, simple et anti-beethovénien, est la source de la musique moderne : on peut jouer sans génie ni pathos.",
+    "en_classe": "Monter une soirée Satie jouée par des amateurs, précédée d'un bref exposé.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01964",
+     "CO-00538"
+    ]
+   },
+   {
+    "idee": "Expérimental : acte dont l'issue est inconnue, à ne pas juger en succès ou échec.",
+    "en_classe": "Composer ou organiser une performance par opérations aléatoires et accepter ce qui advient. Une soirée où l'on écoute les bruits de la salle comme musique correspond à la « musique d'ameublement » de Satie (proposé par la fiche ID-01861, comme illustration).",
+    "atteste": "oui",
+    "refs": [
+     "ID-01049",
+     "ID-01074",
+     "ID-01861",
+     "ID-02059"
+    ]
+   },
+   {
+    "idee": "Poser des questions au lieu de faire des choix. Le hasard n'est pas un abandon des choix mais une discipline, et Cage garde le cadre (seules la quantité et la longueur des sections sont tirées au hasard).",
+    "en_classe": "Remplacer le choix d'auteur par des questions soumises au hasard (durée, tempo, dynamique), avec un cadre fixé d'avance. L'application à Theater Piece No. 1 est attestée à Black Mountain en août 1952.",
+    "atteste": "oui",
+    "refs": [
+     "ID-00563",
+     "ID-01678",
+     "ID-02931",
+     "ID-02071"
+    ]
+   },
+   {
+    "idee": "Des événements indépendants peuvent coexister sans lien causal, chacun centré sur lui-même ; le sens se fait dans le spectateur.",
+    "en_classe": "Donner à chacun une plage horaire sans consigne de contenu et laisser coexister musique, danse, poésie et film ; le minutage doit rester strict.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01378",
+     "ID-01401",
+     "ID-01679",
+     "ID-01976",
+     "ID-00564"
+    ]
+   },
+   {
+    "idee": "Le silence n'existe pas ; écouter la salle est une œuvre (4'33'').",
+    "en_classe": "Piste évoquée par des fiches de seconde main : asseoir les étudiants, fermer le piano, chronométrer trois silences, puis demander ce qu'ils ont entendu ; ou écouter le silence de la salle et nommer les sons. Rien ne prouve qu'il l'ait fait en classe à BMC. Le lieu et la date de composition de 4'33'' divergent : ID-01680 la dit composée à Black Mountain en 1952, tandis que SC-01444 la fait naître de la découverte des White Paintings chez Rauschenberg (1951, lieu non précisé).",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01680",
+     "ID-02870",
+     "ID-02925",
+     "ID-01663",
+     "ID-02858",
+     "SC-01444",
+     "ID-02060"
+    ]
+   },
+   {
+    "idee": "Les sons doivent être eux-mêmes, non des symboles ni des véhicules d'émotion : l'art affirme la vie et la nature opère sans désir humain.",
+    "en_classe": "Écouter le son comme son, accepter ce qui est là, ne rien ordonner ; vérifier ses habitudes du regard devant les œuvres de Rauschenberg. Pas attesté comme exercice daté à BMC.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02087",
+     "ID-02160",
+     "ID-01343",
+     "ID-01488"
+    ]
+   },
+   {
+    "idee": "Le hasard n'est pas une libération romantique mais une méthode d'investigation ; l'indétermination est une contingence contrôlée.",
+    "en_classe": "Faire répéter une expérience de hasard pour constater qu'elle ne se répète pas. Tension relevée par une fiche : une pièce dite unique, comme Solo for Piano, est contredite par Tudor qui répétait ses réalisations, et le lien avec BMC reste incertain.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02071",
+     "ID-02062",
+     "ID-02109"
+    ]
+   },
+   {
+    "idee": "L'art comme intégration des facultés, susceptible d'intégrer la société ; la bonne musique guide la bonne vie.",
+    "en_classe": "Lancer la question : que se passe-t-il en nous quand nous écoutons ensemble ? Formulé à BMC en avril 1948.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01724",
+     "ID-02011",
+     "ID-01663"
+    ]
+   },
+   {
+    "idee": "Renoncer à l'expression et à la communication comme motif de composer, pour cultiver l'esprit calme.",
+    "en_classe": "Raconter l'échec de The Perilous Night (toute l'émotion mise dans une pièce qui n'est passée nulle part) puis montrer ce que Satie apprend. La fiche formule cela comme discours possible devant les étudiants.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02010"
+    ]
+   },
+   {
+    "idee": "Le zen : ni bien ni mal, tout acte vaut ; état d'esprit vide qui laisse venir l'inattendu.",
+    "en_classe": "Lecture à plusieurs voix du Huang Po, tard le soir, avec conversation, comme en 1952.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02892",
+     "ID-01682",
+     "CO-00699"
+    ]
+   },
+   {
+    "idee": "Utopie sociale : anarchie, non-opposition du chaos et de l'ordre, lien avec Fuller.",
+    "en_classe": "Débat sur le hasard comme modèle de coexistence ; pari lancé aux étudiants de transformer le monde en musique ou en université Fuller. Les fiches ne datent pas ces propos à BMC (incertain) ; seule la rencontre avec Fuller à l'été 1948, ses petits-déjeuners et la « finishing school » itinérante, est attestée (témoignage de Fuller).",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00641",
+     "ID-01317",
+     "ID-01947",
+     "ID-02103",
+     "SC-01146"
+    ]
+   },
+   {
+    "idee": "Le piano préparé rend l'instrument tactile, « extra-aural ».",
+    "en_classe": "Musique qui s'écoute avec la peau autant qu'avec l'oreille ; démonstration au piano préparé, comme au concert d'avril 1948.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01493",
+     "CO-00487"
+    ]
+   },
+   {
+    "idee": "La poésie naît quand on réalise qu'on ne possède rien ; regarder sans hiérarchie ; factisme et beauté sous nos pieds.",
+    "en_classe": "Regarder un panneau en ne cherchant pas ce qu'il signifie mais ce qu'il fait ; juxtaposer des images comme un poème. Ces formules viennent de textes de 1961-1963 sur Rauschenberg (Silence, catalogue Sonnabend), rapportées à BMC de façon incertaine ; aucune fiche ne dit que Cage les a prononcées en cours.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02026",
+     "ID-02025",
+     "ID-03593",
+     "ID-03843",
+     "ID-00560",
+     "ID-02984",
+     "ID-03762",
+     "ID-02032"
+    ]
+   }
+  ]
+ }
+}

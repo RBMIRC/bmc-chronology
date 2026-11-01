@@ -1,0 +1,162 @@
+{
+ "passe": "personnes",
+ "cle": "Ati Gropius Johansen",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1318,
+  "sortie": 3882,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Ati Gropius Johansen",
+  "autres_noms": [
+   "Ati Gropius",
+   "fille de Walter Gropius"
+  ],
+  "dates_de_vie": "Les fiches ne donnent aucune date de naissance ni de mort. Elle est la fille de Walter Gropius (attesté). Elle est encore en vie en 1988 et en 2001, puisqu'elle reçoit une lettre de Ted Dreier en 1988 et que l'auteur de la source PE-00292 s'entretient avec elle par téléphone en décembre 2001.",
+  "statut_bmc": "Étudiante, au milieu des années 1940 (≈1944-1946). Fille de Walter Gropius. Elle a suivi l'enseignement de Josef Albers.",
+  "presence": [
+   {
+    "debut": "1944",
+    "fin": "1946",
+    "role": "Étudiante à Black Mountain College, venue en partie grâce au programme d'études d'Albers fondé sur la formation du Bauhaus. Les fiches ne précisent ni les mois d'arrivée et de départ, ni le nombre de séjours. Les bornes 1944-1946 viennent de la fiche d'événement et la lettre de Gropius du 10 mai 1946 en est le terme le mieux attesté.",
+    "refs": [
+     "EV-03562",
+     "PE-00292",
+     "RE-01244",
+     "EV-03969"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune description physique dans les fiches. Seul indice visuel : elle dessine. Une œuvre à l'encre sur papier (8½ x 16¾ pouces), « Untitled (Woman and Two Men) », lui est attribuée. Le format allongé et la scène à trois figures sont notés, mais la date exacte n'est pas attestée (la fiche donne ≈1931-1956). Tout le reste (allure, voix, âge exact) reste à inventer en cohérence avec les sources externes.",
+  "noyau_psychologique": "Ce que les fiches permettent de dire : une jeune femme qui fait le lien entre deux manières de penser, l'abstraction et le visuel. Son père insiste sur ce double talent, et c'est ce qu'Albers l'aide à fusionner (attesté, via la lettre de Gropius). On peut en déduire, prudemment, une fille d'un grand nom qui cherche sa propre voie dans l'atelier d'un autre maître issu du même milieu Bauhaus. Le reste, ses moteurs intimes, est à construire. On ne sait rien de ses motivations personnelles. Le regard de son père et celui de Dreier sont les seuls témoignages dont on dispose.",
+  "blessures": "Rien dans les sources. Piste purement déductive, à signaler comme telle au scénariste : la présence d'un père célèbre. Les fiches n'en disent pas plus et ne montrent aucun conflit.",
+  "desirs": "Non documentés directement. Attesté : elle étudie sous Albers et construit son talent entre abstraction et vision. Déduction : elle veut se former sérieusement au travail visuel et au dessin.",
+  "peurs": "Aucune source. Ne rien affirmer. On peut écrire des peurs plausibles (se perdre dans l'ombre paternelle, décevoir), mais elles seraient inventées.",
+  "maniere_d_aimer": "Non documentée. Seul indice indirect : la lettre de Dreier, en 1988, suppose une relation durable avec le collège et avec ses anciens, et un ton de camaraderie (« nous en avons joui, n'est-ce pas »). Cela suggère qu'elle est restée en lien avec la communauté bien après son départ.",
+  "rapport_au_pouvoir": "Rien dans les fiches sur son rapport à l'autorité. Elle reçoit le guidage d'Albers, mentor reconnu, et son père l'a confiée à ce programme, ce qui montre une position d'élève plutôt que de meneuse, au moins dans ces années-là. Le dossier ne montre aucun conflit.",
+  "voix": {
+   "registre": "Aucune parole d'Ati n'est rapportée dans les fiches. Registre à construire à partir de son milieu (famille de la Bauhaus, formation à l'abstraction) sans lui prêter de citations attestées.",
+   "tics": "Aucun tic de langage documenté.",
+   "exemples_paraphrases": [
+    "Ce qu'on peut faire dire à Ati sans trahir les sources : qu'on lui a appris à penser abstraitement et à voir en même temps (reprise de la formule de Gropius, à ne pas lui attribuer en citation).",
+    "Elle pourrait évoquer plus tard, comme Dreier, que ces années ont marqué tout ce qui a suivi (ce sont les mots de Dreier à elle, non les siens)."
+   ]
+  },
+  "habitudes": [
+   "Elle dessine à l'encre sur papier (œuvre OE-00865).",
+   "Elle suit l'enseignement d'Albers, qui insiste sur l'usage avisé du bois et des assemblages, sans gaspillage du matériau (PE-00292). Les notes de cours d'Albers sont conservées dans les archives du Black Mountain College Research Project. On ignore si elle a suivi précisément ces cours de fabrication de meubles : la fiche ne le dit pas."
+  ],
+  "convictions": [
+   "Aucune conviction personnelle attestée.",
+   "Climat intellectuel qu'elle a traversé : Albers prône l'économie de moyens et le respect du matériau.",
+   "Dreier, en 1988, lui écrit que le système de Black Mountain visait l'action positive et la participation, base du plaisir de vivre. Cela exprime la vision de Dreier, non la sienne."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1944",
+    "moment": "Arrivée au collège, attirée en partie par le programme d'Albers inspiré du Bauhaus. La date de départ de la fiche est 1944 mais reste globale.",
+    "etat_interieur": "Non documenté. À construire : une jeune fille d'un grand nom qui arrive dans un lieu où l'on prolonge la tradition de son père.",
+    "refs": [
+     "EV-03562"
+    ]
+   },
+   {
+    "date": "1944/1946",
+    "moment": "Travail avec Albers. Il l'aide à articuler la pensée abstraite et le talent visuel.",
+    "etat_interieur": "Déduction à partir de la lettre de Gropius : elle progresse et son père s'en félicite. Son ressenti propre est inconnu.",
+    "refs": [
+     "RE-01244",
+     "PE-00292"
+    ]
+   },
+   {
+    "date": "1946-05",
+    "moment": "Lettre de Gropius à Albers pour le remercier du guidage donné à sa fille. Conservée aux Western Regional Archives, Asheville.",
+    "etat_interieur": "Non documenté. Le contenu montre la reconnaissance du père, pas la réaction d'Ati.",
+    "refs": [
+     "EV-03969"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Fille de Walter Gropius, donc élevée dans le monde du Bauhaus. Les fiches ne détaillent ni l'enfance, ni l'émigration, ni les études antérieures. Tout détail biographique est à chercher ailleurs.",
+    "refs": [
+     "EV-03562"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1988",
+    "moment": "Ted Dreier lui écrit que les années de Black Mountain ont profondément affecté tout ce qui a suivi, que les souvenirs restent des graines fertiles pour penser et agir. Elle est donc considérée comme une témoin ou une mémoire du collège, sans doute sollicitée sur cette période.",
+    "refs": [
+     "EV-08648",
+     "EC-00983"
+    ]
+   },
+   {
+    "date": "2001-12",
+    "moment": "Entretien téléphonique avec l'auteur de la source (PE-00292). Elle est encore vivante et sert de témoin, mais la fiche ne dit rien du contenu.",
+    "refs": [
+     "PE-00292"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Mentorat : son professeur à Black Mountain.",
+    "evolution": "Il la guide au milieu des années 1940 pour fusionner abstraction et vision, comme le dit Gropius dans sa lettre du 10 mai 1946. On ne sait rien de la suite de leur relation.",
+    "refs": [
+     "RE-01244",
+     "EV-03969",
+     "PE-00292"
+    ]
+   },
+   {
+    "avec": "Walter Gropius",
+    "nature": "Père. Il lui a fait suivre le programme d'Albers et écrit à Albers pour le remercier.",
+    "evolution": "Ses lettres montrent un père attentif au développement de sa fille. L'intimité réelle entre eux n'est pas documentée.",
+    "refs": [
+     "EV-03969",
+     "EV-03562"
+    ]
+   },
+   {
+    "avec": "Ted Dreier",
+    "nature": "Correspondant, ancien du collège (cofondateur d'après d'autres sources, non mentionné dans ces fiches).",
+    "evolution": "Lettre de 1988 sur l'importance durable de Black Mountain. Cela suggère des liens de mémoire commune, sans que l'on sache si ils se sont connus intimement à l'époque.",
+    "refs": [
+     "EV-08648",
+     "EC-00983"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Aucune contradiction frontale. Points de prudence : EV-03562 donne 1944-1946 tandis que PE-00292 dit seulement « milieu des années 1940 ». L'œuvre OE-00865 est datée de façon très large (≈1931-1956), donc impossible à situer dans le séjour. Une fiche indique que la lettre de Dreier est de 1988, une autre note l'entretien de 2001 : à ne pas confondre."
+  ],
+  "situations_revelatrices": [
+   "Atelier avec Albers : un exercice où elle doit passer de l'idée abstraite à la forme visible.",
+   "Réception d'une lettre ou d'un jugement de son père : comment elle vit d'être évaluée à travers un grand nom.",
+   "Soirée de retrouvailles ou lettre de 1988 : elle relit sa jeunesse à travers les mots de Dreier.",
+   "Scène de dessin à l'encre : une figure féminine entre deux hommes (en écho à l'œuvre OE-00865, sans lien établi avec un épisode précis)."
+  ],
+  "citations": [
+   "Gropius à Albers, 10 mai 1946 (paraphrase de EV-03969) : il le remercie d'avoir aidé sa fille à combiner son talent de pensée abstraite avec son talent visuel. Seul fragment textuel conservé dans les fiches.",
+   "Dreier à Ati, 1988 (EV-08648) : « et nous en avons joui, n'est-ce pas, à bien des niveaux ? »"
+  ],
+  "questions_ouvertes": [
+   "Date de naissance, nom de naissance exact et parcours avant Black Mountain : à chercher.",
+   "Mois d'arrivée et de départ, durée réelle, matières suivies en dehors d'Albers.",
+   "Pourquoi le collège plutôt qu'une autre école, et qui a décidé : elle ou son père.",
+   "Relations avec les autres étudiants et enseignants hors Albers.",
+   "Ce qu'elle a fait après 1946 : études, carrière, mariage (son nom Johansen est attesté mais le mari ne l'est pas dans ces fiches).",
+   "Date et contexte de l'œuvre « Woman and Two Men » et lien avec le collège.",
+   "Ce qu'elle a dit à l'auteur lors de l'entretien de décembre 2001 et ce qui a motivé la lettre de Dreier en 1988."
+  ]
+ }
+}

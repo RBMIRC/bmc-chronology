@@ -1,0 +1,296 @@
+{
+ "passe": "mois",
+ "cle": "1949-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3702,
+  "sortie": 12811,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1949-12",
+  "session": "automne 1949 ; trimestre probablement en cours, fin de semestre non datée dans les fiches",
+  "saison_et_climat": "Hiver naissant dans les montagnes de Caroline du Nord. Aucune fiche ne décrit le temps ; le climat est déduit de la saison.",
+  "situation": "Le collège n'a plus de recteur. Pittenger, qui assumait le rectorat depuis juillet, a démissionné fin octobre ou en novembre, après six mois de crise. Une double recherche est en cours : un recteur et une nouvelle gouvernance. Une réunion chez Forbes en octobre, avec six anciens étudiants, Pittenger et Corkran, a proposé un Board of Overseers et évoqué jusqu'à 6 000 $ pour un bâtiment des sciences. La faculté s'est reconstituée de façon hétéroclite : anciens revenus, noyau quaker recruté par Trayer et Bodky, arrivants d'Olivet. Les effectifs tournent autour de 45 étudiants. Albers est très probablement absent (MoMA, Cincinnati, Yale), Dreier a quitté le campus en avril et les Albers ont démissionné en février. La querelle de factions est appelée à culminer en 1950-1951.",
+  "presents_probables": [
+   {
+    "nom": "Robert Turner",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Corkran",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hazel Larsen Archer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jennerjahn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Johanna Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bodky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "McCandless",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Warrington",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hetherington",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Louise Hetherington",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Paul Leser",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eliane (Flola) Shepard",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1949-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Réunion chez Forbes avec six anciens étudiants, Pittenger et Corkran : proposition d'un Board of Overseers et offre de Forbes allant jusqu'à 6 000 $ pour un bâtiment des sciences.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "date": "1949-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Démission de Pittenger, fin octobre ou en novembre selon les sources. Le rectorat devient vacant.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "date": "1949-11-04",
+    "precision": "periode",
+    "ce_qui_arrive": "Exposition groupée à San Francisco, ouverte jusqu'au 8 janvier 1950 : Asawa y présente cinq projets de papier peint, Guermonprez y participe aussi.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04904"
+    ]
+   },
+   {
+    "date": "1949-12-22",
+    "precision": "jour",
+    "ce_qui_arrive": "Fuller écrit à Snelson pour lui reconnaître publiquement l'invention de la démonstration des pressions discontinues et des tensions continues, et le salue comme un vrai pionnier.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04908"
+    ]
+   },
+   {
+    "date": "1949-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Recherche d'un recteur en cours, avec réunions de faculté sur la gouvernance.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "saison",
+    "ce_qui_arrive": "À l'automne, Albers expose au MoMA, enseigne à Cincinnati et entame sa collaboration avec Kahn à Yale.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "saison",
+    "ce_qui_arrive": "Les effectifs tombent à environ 45 étudiants à l'automne.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "L'atelier de poterie est construit par Paul Williams en consultation avec Turner. La date exacte n'est pas donnée.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne documentent pas la vie ordinaire de décembre. On peut déduire des cours repris avec une petite population (environ 45 étudiants), des travaux en cours (atelier de poterie bâti par Paul Williams avec Turner, structures géodésiques de Fuller encore sur place), un enseignement de céramique et de musique, et une économie de restriction après la vente de 70 acres et la suspension des rentes d'été. Aucun repas, concert ou fête n'est connu pour ce mois.",
+  "tensions": [
+   "Vacance du rectorat et doute sur toute réorganisation (Board of Overseers, don de Forbes) dans une faculté divisée.",
+   "Anciens du printemps (Dehn, Corkran, Levi) face aux nouveaux venus quakers, avec le souvenir de la morale de Trayer condamnant la liaison de Dreier.",
+   "Rancœurs durables : Pittenger a traité Anni de sorcière, les Albers gardent leurs griefs, la querelle des pensions de Dreier n'est pas réglée dans les fiches.",
+   "Argent : reliquat de la vente de 70 acres à Grove Stone, réserves de professeurs, don conditionnel de Forbes.",
+   "Natasha écrit avec optimisme aux Rondthaler alors que la recherche d'un recteur piétine ; sa brouille avec Fuller date de la fin de l'été.",
+   "Sources divergentes sur la solidité du dôme géodésique (réussi selon certaines, aplati en septembre selon Duberman)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Lettre de Fuller à Snelson",
+    "date": "1949-12-22",
+    "lieu": null,
+    "personnages": [
+     "Fuller",
+     "Snelson"
+    ],
+    "deroule": "Fuller rédige une lettre qui reconnaît à Snelson l'origine de la démonstration tension/compression et promet de le citer dans ses conférences. Scène de lecture ou de réception, à cadrer selon la présence de Snelson.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04908"
+    ]
+   },
+   {
+    "titre": "Asawa et Guermonprez à San Francisco",
+    "date": "1949-11-04",
+    "lieu": "San Francisco",
+    "personnages": [
+     "Asawa",
+     "Guermonprez"
+    ],
+    "deroule": "Les papiers peints d'Asawa sont exposés parmi les soumissions de la compétition, ouverte jusqu'au 8 janvier 1950. Guermonprez y est aussi présent. Scène hors du campus, à utiliser comme regard extérieur sur le collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04904"
+    ]
+   },
+   {
+    "titre": "Réunion de faculté sur la succession du rectorat",
+    "date": "1949-12",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Trayer",
+     "Bodky",
+     "Corkran",
+     "Natasha Goldowski",
+     "Dehn",
+     "Paul Leser"
+    ],
+    "deroule": "Après le départ de Pittenger, la faculté discute du rectorat, du Board of Overseers et de l'offre de Forbes. Les anciens défendent leur autorité, les quakers et les nouveaux arrivants pèsent sur le choix.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Natasha écrit aux Rondthaler",
+    "date": "1949-12",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Natasha Goldowski"
+    ],
+    "deroule": "Natasha rédige une lettre optimiste sur l'avenir du collège, en décalage avec la recherche de rectorat. Scène intime où la rhétorique masque l'incertitude.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Décembre, à la lumière du départ de Pittenger",
+    "vers_date": "1949-01-27",
+    "vers": "Pittenger arrive pour discuter d'un poste d'administrateur et juge Albers « impossible comme exécutant ». Il séjourne jusqu'au 30 janvier. Ce jugement éclaire la rancune qui pèse encore.",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Décembre, dans l'attente d'un nouveau recteur",
+    "vers_date": "1949-04",
+    "vers": "Dreier quitte définitivement le campus à mi-avril, après la querelle des pensions et les accusations de détournement.",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Décembre, devant le dôme et les structures de Fuller",
+    "vers_date": "1949-07",
+    "vers": "Dawson arrive à dix-neuf ans et découvre Olson, M.C. Richards et les mœurs libres du collège. Fuller monte le dôme et teste sa peau plastique.",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre, avec l'offre de Forbes en suspens",
+    "vers_date": "1950-01-08",
+    "vers": "Clôture de l'exposition de San Francisco, où Asawa et Guermonprez ont présenté leurs projets.",
+    "refs": [
+     "EV-04904"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre, avec la recherche de recteur ouverte",
+    "vers_date": "1950",
+    "vers": "Albers reste hors du collège jusqu'en 1950, et la reconstruction de la faculté entre dans une guerre de factions qui culmine en 1950-1951.",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Décembre, après la construction de l'atelier de poterie",
+    "vers_date": null,
+    "vers": "La Minimum House, bâtie par les étudiants, est publiée dans Arts and Architecture au mois d'avril. L'année n'est pas précisée dans la fiche, probablement 1950.",
+    "refs": [
+     "chapitre 1949 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "vacance du rectorat",
+   "recomposition hétéroclite de la faculté",
+   "arts décoratifs et compétition californienne",
+   "architecture géodésique et tensegrity",
+   "don conditionnel et bâtiment des sciences",
+   "absence d'Albers et survie du collège"
+  ],
+  "lacunes": "Les fiches ne donnent ni la vie quotidienne de décembre, ni le temps, ni la date de fin de semestre. On ignore si Olson, Dawson, Richards, Fuller et Snelson sont sur le campus. On ignore si Forbes a versé ses fonds, si le Board of Overseers a été créé, si la querelle des pensions a été réglée, et à quelle date exacte l'atelier de poterie a été construit. La date de publication de la Minimum House reste incertaine, et l'état réel du dôme en décembre est contesté."
+ }
+}

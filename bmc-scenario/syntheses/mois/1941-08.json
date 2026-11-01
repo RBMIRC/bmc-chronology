@@ -1,0 +1,346 @@
+{
+ "passe": "mois",
+ "cle": "1941-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4072,
+  "sortie": 11555,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1941-08",
+  "session": "session d'été 1941 : cours d'été et work camp, entre la fin de la tournée de collecte et une rentrée repoussée de deux semaines",
+  "saison_et_climat": "fin d'été à Lake Eden, dans la vallée au pied de la Blue Ridge : chaleur, travaux en plein air et bâtiments encore inachevés",
+  "situation": "Le collège a quitté Lee Hall et Hall est parti en juin. L'argent reste court, la tournée de collecte s'achève en août sans grand résultat hors de Melvyn Douglas. Le chantier d'été continue, avec le début de la grande grange de Kocher et Godfrey, et les cours d'été se poursuivent. Albers est à New York en juillet pour son atelier du MoMA, et la critique d'Atwater circule. La rentrée est prévue fin septembre dans des bâtiments à moitié finis.",
+  "presents_probables": [
+   {
+    "nom": "Zoya Sandomirsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Eric Bentley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Godfrey",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Betty Brett",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1941-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Derek Bovington fait la navette en tracteur avec une grande remorque et emporte instruments, livres, matériel et le chauffage de Lee Hall, ce qui irrite la Blue Ridge Assembly",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03220"
+    ]
+   },
+   {
+    "date": "1941-06",
+    "precision": "periode",
+    "ce_qui_arrive": "La tournée de collecte commence et se prolonge jusqu'en août ; Evarts obtient peu à Hollywood, seul Melvyn Douglas donne réellement, et les fonds tombent assez bas pour menacer le travail",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03222",
+     "EV-03223",
+     "CI-01595"
+    ]
+   },
+   {
+    "date": "1941-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Hall quitte le collège",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03221"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "saison",
+    "ce_qui_arrive": "Été combinant work camp et cours d'été, dont celui d'Eric Bentley, « grisant » ; début de la grande grange de Kocher et Godfrey",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03146",
+     "EV-03147"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "saison",
+    "ce_qui_arrive": "Zoya Sandomirsky passe quelques semaines au chantier de maïs, puis la rubéole, la quarantaine et la fontaine « For Colored » d'Asheville la font repartir pour Chicago",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00804",
+     "SC-00805",
+     "EV-03146",
+     "EV-03147"
+    ]
+   },
+   {
+    "date": "1941-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers est à New York pour son atelier du MoMA",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03225"
+    ]
+   },
+   {
+    "date": "1941-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Mary Meigs Atwater publie dans The Weaver un article sceptique, « C'est joli, mais est-ce de l'art ? », sur le travail d'Anni Albers",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03224"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Lors d'une réunion de BMC chez les Wiener, Albers s'oppose au laisser-faire des écoles progressistes",
+    "certitude": "probable",
+    "refs": [
+     "EV-03207"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Panofsky vient au collège pendant le sabbatique des Albers",
+    "certitude": "probable",
+    "refs": [
+     "EV-03155"
+    ]
+   },
+   {
+    "date": "1941-09",
+    "precision": "mois",
+    "ce_qui_arrive": "La rentrée, repoussée de deux semaines, a lieu fin septembre dans des bâtiments à moitié finis",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03226"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "annee",
+    "ce_qui_arrive": "Mark Dreier, fils de Theodore, meurt dans un accident de véhicule sur le campus ; la Quiet House sera bâtie en sa mémoire",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03173",
+     "LI-00697"
+    ]
+   },
+   {
+    "date": "1941-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Pearl Harbor : au dîner, une radio est apportée, la première depuis la campagne Willkie",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03235",
+     "SC-00831"
+    ]
+   },
+   {
+    "date": "1941-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le collège suspend le calendrier et tout le monde monte sur le toit du Studies Building ; Richard Carpenter cloue toute la journée malgré sa peur des hauteurs",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03234",
+     "SC-00830",
+     "EC-01752"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "annee",
+    "ce_qui_arrive": "Richard Carpenter meurt d'un cancer du poumon, environ un an après le chantier du toit",
+    "certitude": "atteste",
+    "refs": [
+     "EC-01752"
+    ]
+   }
+  ],
+  "quotidien": "Les matinées restent aux cours réduits, les après-midi au chantier : terrassement, fondations et grange de Kocher et Godfrey, binage du maïs. Les repas se prennent en commun. Les chansons sur le chemin des travaux continuent d'agacer les « zombies ». La musique entre dans la vie du collège avec le legs de Surette, mort en 1941, dont la bibliothèque de disques enrichit les écoutes.",
+  "tensions": [
+   "Argent : les fonds sont si bas que le travail peut s'arrêter, et la tournée n'a rapporté presque rien à Hollywood",
+   "Chantier : ferveur de Dreier contre lassitude de ceux qui se disent « zombies », et règle du maximum d'après-midi de travail",
+   "Esthétique : la critique d'Atwater vise Anni Albers et son travail de tissage",
+   "Pédagogie : Albers oppose la rigueur aux écoles progressistes laissez-faire",
+   "Perte de Lee Hall : le collège n'est plus unifié sous un seul toit, et le départ de Hall et le déménagement de Bovington froissent la Blue Ridge Assembly",
+   "Racisme : la fontaine « For Colored » d'Asheville pousse Zoya à partir",
+   "Don anonyme de 5 000 dollars que l'on soupçonne venir de Dreier lui-même"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La fontaine et le départ",
+    "date": "1941",
+    "lieu": "Asheville puis Lake Eden",
+    "personnages": [
+     "Zoya Sandomirsky",
+     "Josef Albers",
+     "Jalowetz"
+    ],
+    "deroule": "Après sa quarantaine, Zoya quitte le chantier de maïs. La fontaine réservée aux Noirs d'Asheville lui fait abandonner la houe pour Chicago, et le collège absorbe son départ entre le travail et la chaleur.",
+    "certitude": "probable",
+    "refs": [
+     "SC-00804",
+     "SC-00805",
+     "EV-03146",
+     "EV-03147"
+    ]
+   },
+   {
+    "titre": "Retour de tournée sans argent",
+    "date": "1941-08",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Evarts",
+     "Theodore Dreier"
+    ],
+    "deroule": "La tournée touche à sa fin. Le bilan est maigre, seul Melvyn Douglas a donné, et l'on attend le don anonyme de 5 000 dollars qui fera soupçonner Dreier de l'avoir envoyé.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03222",
+     "EV-03223",
+     "CI-01595"
+    ]
+   },
+   {
+    "titre": "Critique à la table des Albers",
+    "date": "1941-08",
+    "lieu": null,
+    "personnages": [
+     "Anni Albers",
+     "Josef Albers"
+    ],
+    "deroule": "L'article d'Atwater circule dans le collège. Anni y répond ou s'en tait, et Josef y voit une attaque contre la pensée de la matière.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03224"
+    ]
+   },
+   {
+    "titre": "Cours d'été et chantier",
+    "date": "1941",
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Eric Bentley",
+     "Kocher",
+     "Godfrey",
+     "Betty Brett"
+    ],
+    "deroule": "Le matin, un cours d'été dont Bentley reste le souvenir « grisant ». L'après-midi, les étudiants montent la grange sous la chaleur, et Betty Brett, chef d'équipe, mesure ce qu'elle refuse d'être.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03146",
+     "EV-03147",
+     "SC-00825"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Fin d'été 1941, le campus éclaté entre les chantiers",
+    "vers_date": "1941-04",
+    "vers": "Lee Hall, grand bâtiment unique où tout le monde dormait sous le même toit",
+    "refs": [
+     "LI-00691"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Août 1941, quand le chantier estival est encore une ferveur",
+    "vers_date": "1940-09",
+    "vers": "Début des après-midis volontaires : drainage, isolation et fondations, avec les premières querelles",
+    "refs": [
+     "EV-02990",
+     "EV-03125",
+     "RE-01181"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Août 1941, pendant les cours d'été et les travaux",
+    "vers_date": "1941-09",
+    "vers": "Rentrée fin septembre dans des bâtiments à moitié finis, et l'assemblée où Albers parle de changement",
+    "refs": [
+     "EV-03226",
+     "SC-00826",
+     "CI-01624"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin d'été 1941, avec l'argent qui manque encore",
+    "vers_date": "1941-12",
+    "vers": "Pearl Harbor, la radio au dîner, puis le toit du Studies Building",
+    "refs": [
+     "EV-03235",
+     "SC-00831",
+     "EV-03234"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Août 1941, dans les travaux de grange et de toit encore à venir",
+    "vers_date": "1952",
+    "vers": "Les expériences scéniques de Black Mountain, dont l'événement de Cage, préparées par la pensée de Goodman sur le cadre et le public",
+    "refs": [
+     "EC-01792",
+     "EC-01791"
+    ]
+   }
+  ],
+  "motifs": [
+   "Argent et survie",
+   "Le chantier comme ferveur et querelle",
+   "Le départ de Lee Hall et la dispersion",
+   "Le racisme ordinaire, à travers la fontaine d'Asheville",
+   "Albers contre les pédagogies laxistes",
+   "Une guerre encore lointaine mais proche"
+  ],
+  "lacunes": "On ignore la date exacte de presque tout ce qui est d'août. Evarts est-il rentré de Californie ? Albers et Anni sont-ils au collège en août ? La date de la visite de Panofsky, de la réunion chez les Wiener et de l'arrivée du don de 5 000 dollars est inconnue. On ne sait pas quand Zoya est partie ni quand Mark Dreier est mort. La version Lane de EV-03157 relie le déménagement au départ de Thomas, ce qui contredit le reste : on retient le déménagement de mai-juin. Le don anonyme est attribué à Dreier par soupçon, non attesté."
+ }
+}

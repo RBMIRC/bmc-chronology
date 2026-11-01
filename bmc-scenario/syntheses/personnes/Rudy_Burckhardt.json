@@ -1,0 +1,305 @@
+{
+ "passe": "personnes",
+ "cle": "Rudy Burckhardt",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 6372,
+  "sortie": 3354,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Rudy Burckhardt",
+  "autres_noms": [
+   "Rudy"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Invité d'un été : photographe et cinéaste suisse-américain, ami de longue date des de Kooning, venu projeter ses films de ville à l'été 1948",
+  "presence": [
+   {
+    "debut": "1948",
+    "fin": "1948",
+    "precision": "saison",
+    "role": "Cinéaste invité pour l'été ; projette ses films de ville devant la communauté",
+    "refs": [
+     "EV-04177",
+     "PE-00093"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Observateur lucide et amusé du milieu artistique new-yorkais, Burckhardt agit par l'œil plutôt que par la parole : il photographie, il filme, il note. Sa position naturelle est en retrait, derrière l'objectif, avec une ironie tranquille qui ne blesse jamais. Il collectionne les artistes avant leur gloire (premier collectionneur de de Kooning), leur rend service (Harper's Bazaar, photos pour les articles d'Elaine) et garde de chaque époque des souvenirs vivaces et précis, pleins de détails concrets.",
+  "blessures": "Peu visibles dans les sources ; on le voit bouleversé par l'état d'Elaine à Sloan-Kettering en 1988, réduit au silence et à la pudeur face à sa maladie.",
+  "desirs": "Fixer par l'image la vie des artistes et des villes qu'il aime ; rester un compagnon fidèle et utile du milieu new-yorkais.",
+  "peurs": null,
+  "maniere_d_aimer": "Fidélité amicale de très longue durée : ami de Bill et Elaine depuis les années 1930, marié à Yvonne avec qui il visite Elaine mourante. Sa tendresse passe par l'attention aux détails et le service discret.",
+  "rapport_au_pouvoir": "Indifférent aux hiérarchies : il traite également les artistes consacrés et débutants, s'amuse des travers des puissants (la comédie galante d'Albers, les trous de cigarettes des Diller) sans jamais s'y frotter lui-même.",
+  "voix": {
+   "registre": "Suisse-au masculin new-yorkais : phrases courtes, factuelles, teintées d'une ironie douce ; mémoire photographique des détails concrets",
+   "tics": "Rire discret en spectateur ; remarques sur les petits objets et gestes (une cigarette sur le pavé, des trous de brûlure dans un canapé)",
+   "exemples_paraphrases": [
+    "Je crois que c'était le coup de foudre (sur Bill et Elaine en 1937)",
+    "Ce qu'il avait en tête ne pouvait pas être fait à la hâte (sur de Kooning)",
+    "J'y suis déjà allé (à propos de Machu Picchu, proposé par Elaine mourante)",
+    "Où en es-tu arrivé aujourd'hui ? Je peux prendre la photo demain ? (à Rauschenberg devant sa peinture détruite)",
+    "Il n'avait aucun point de repos qui révélât son caractère (sur le visage de Denby)"
+   ]
+  },
+  "habitudes": [
+   "Accompagne Elaine comme photographe lors de ses articles pour Art News (Diller, Albers)",
+   "Pose comme modèle pour de Kooning",
+   "Joue de la guitare dans ses propres films",
+   "Montre ses films de ville en projection",
+   "A déjà visité Machu Picchu",
+   "Se souvient des fêtes du Nouvel An au Club : beaucoup de whisky et de buveurs volontaires"
+  ],
+  "convictions": [
+   "Que de Kooning ne pouvait pas travailler à la hâte et ne finissait jamais ses tableaux, dès ses débuts",
+   "Que Bill n'a jamais divorcé pour ne jamais avoir à épouser personne, y compris la mère de sa fille",
+   "Que l'attention aux plus petits détails du réel (une cigarette sur le pavé) vaut regard"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1948",
+    "precision": "saison",
+    "moment": "Été à Black Mountain College : il projette ses extraordinaires films de ville devant la communauté",
+    "etat_interieur": "En visiteur observateur,Sharing son regard de cinéaste urbain dans cette communauté rurale",
+    "refs": [
+     "EV-04177"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "Conséquence directe de l'été 1948 : il tourne The Dogwood Maiden à Wading River, avec Elaine en Sorcière puis en Clarissa, réutilisant le costume victorien de Frisette venu de BMC ; il joue lui-même de la guitare dans le film",
+    "etat_interieur": "Chef de troupe amateur et complice, dirigeant Elaine dans un rôle taillé pour sa souplesse de danseuse",
+    "refs": [
+     "EV-04595",
+     "OE-02079",
+     "EC-02370",
+     "EC-02382"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1933",
+    "precision": "annee",
+    "moment": "Arrivé dans l'orbite de de Kooning via un chaton : le chat de Browner et de Kooning saute sur une échelle de secours voisine ; Bill va le chercher et rencontre ses sauveurs, Denby et Burckhardt, amants partageant un loft rue Ouest 21e",
+    "refs": [
+     "EV-01653"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "moment": "Voisins de palier de de Kooning avec Denby, ils deviennent ses premiers collectionneurs convaincus ; Burckhardt se souvient que Bill fut inscrit au WPA un an ou plus (le « $23.50 Club »)",
+    "refs": [
+     "EV-02446",
+     "EV-02447"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "annee",
+    "moment": "Témoin de la rencontre entre de Kooning et Elaine Fried : il dira plus tard que c'était le coup de foudre",
+    "refs": [
+     "EV-02684",
+     "CI-01423"
+    ]
+   },
+   {
+    "date": "1938",
+    "precision": "periode",
+    "moment": "Séances de photos de mode avec Elaine : robes empruntées à S. Klein, étiquettes cachées ; plus tard ses photos de rues prises depuis les toits inciteront Elaine à dessiner des immeubles du bas Manhattan",
+    "refs": [
+     "EV-02752"
+    ]
+   },
+   {
+    "date": "1940-03",
+    "precision": "mois",
+    "moment": "Par son entremise avec Harper's Bazaar, il ouvre à Bill le travail d'illustrateur : croquis de coiffures publiés à 75 $ pièce, Elaine comme modèle",
+    "refs": [
+     "EV-03100"
+    ]
+   },
+   {
+    "date": "1944",
+    "precision": "annee",
+    "moment": "Retour à New York après son service dans l'Armée",
+    "refs": [
+     "PE-00093"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "The Dogwood Maiden à Wading River, Long Island : film muet comique de 21 minutes avec cartons, Elaine en Sorcière puis en Clarissa",
+    "refs": [
+     "EV-04595",
+     "EV-04654"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Mounting Tension : Elaine y esquive avec grâce les avances de Larry Rivers",
+    "refs": [
+     "EV-04592"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "periode",
+    "moment": "Chez Rauschenberg : venu photographier une peinture commandée par un magazine, il découvre que l'artiste l'a sciée en deux et détruit une moitié ; malaise, compromis — Rauschenberg insiste pour qu'on photographie aussi ce qu'il ne fait pas",
+    "refs": [
+     "SC-01216",
+     "EV-04748"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Ses photographies illustrent l'article de Hess « De Kooning Paints a Picture », qui érige le portrait de l'artiste-héros ; il documente l'évolution de Bill de 1952 à 1981",
+    "refs": [
+     "EV-05711",
+     "RE-00632"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Aux côtés d'Elaine pour ses articles : chez Albers, il rit en photographiant le peintre poursuivant Elaine autour de la table pour l'embrasser, le jour du baptême public d'Homage to the Square ; avec Diller, anguille fumée et boilermakers au bar, tandis que l'artiste cache ses douleurs",
+    "refs": [
+     "SC-01660",
+     "SC-01661",
+     "EV-06160",
+     "EV-06166"
+    ]
+   },
+   {
+    "date": "1960-12",
+    "precision": "mois",
+    "moment": "Ses photos illustrent le profil ARTnews d'Elaine par Lawrence Campbell, dont la fameuse silhouette devant l'immense canevas",
+    "refs": [
+     "EV-07346"
+    ]
+   },
+   {
+    "date": "1959",
+    "precision": "periode",
+    "moment": "Hommage à Denby au 827 Broadway : projection de ses films où figure Denby, lectures d'Ashbery, danse",
+    "refs": [
+     "SC-01895",
+     "EV-07095"
+    ]
+   },
+   {
+    "date": "1988-11",
+    "precision": "mois",
+    "moment": "Elaine, hospitalisée à Sloan-Kettering, l'invite avec Yvonne ; bouleversés, ils n'osent pas aborder la maladie ; elle propose des vacances communes — Machu Picchu ? Rudy y est déjà allé ; « une autre destination alors » ; Yvonne comprend qu'elle veut dire adieu sans charger personne",
+    "refs": [
+     "SC-02192",
+     "EV-08666"
+    ]
+   },
+   {
+    "date": "1990-03-12",
+    "precision": "jour",
+    "moment": "Orateur au grand mémorial d'Elaine au Cooper Union, soir de son anniversaire, devant plusieurs centaines de personnes",
+    "refs": [
+     "EV-08696",
+     "PE-00093"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Willem de Kooning",
+    "nature": "Amitié de quatre décennies ; voisin, premier collectionneur, modèle, photographe",
+    "evolution": "De la rencontre fortuite autour d'un chaton (1933) au portrait documentaire de l'évolution de Bill de 1952 à 1981",
+    "refs": [
+     "EV-01653",
+     "EV-02447",
+     "RE-00632",
+     "RE-00994",
+     "RE-01040"
+    ]
+   },
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "Collaboration : photos de mode, photos d'articles, actrice de ses films improvisés",
+    "evolution": "De la jeune modèle en robe empruntée (fin des années 1930) à la Sorcière de The Dogwood Maiden, puis à la dernière invitation à Sloan-Kettering",
+    "refs": [
+     "RE-01144",
+     "EV-02752",
+     "EV-04595",
+     "EV-08666"
+    ]
+   },
+   {
+    "avec": "Edwin Denby",
+    "nature": "Amants partageant un loft, puis complices de toute une vie new-yorkaise",
+    "evolution": "Rencontre via de Kooning vers 1933-1943 ; ses films nourriront le tribut à Denby",
+    "refs": [
+     "EV-01653",
+     "EV-07095",
+     "CI-01866"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Photographe-spectateur comique",
+    "evolution": "Témoin amusé de la poursuite d'Albers autour de la table lors du baptême d'Homage to the Square (1953)",
+    "refs": [
+     "SC-01660",
+     "EV-06160"
+    ]
+   },
+   {
+    "avec": "Robert Rauschenberg",
+    "nature": "Photographe confronté au doute de l'artiste",
+    "evolution": "Une scène de malaise : venu photographier une commande, il trouve la toile sciée en deux",
+    "refs": [
+     "SC-01216",
+     "EV-04748"
+    ]
+   },
+   {
+    "avec": "Burgoyne Diller",
+    "nature": "Compagnon de reportage et de bar",
+    "evolution": "Aiguille fumée et boilermakers pendant l'interview de janvier 1953, dernières rencontres avant la mort de Diller",
+    "refs": [
+     "SC-01661",
+     "EV-06166"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La fiche PE-00093 attribue The Dogwood Maiden à « ~1949 » avec hésitation, alors que Curtis 2017 et d'autres fiches le datent fermement de 1949",
+   "L'article « Albers Paints a Picture » est daté 1950 selon la table, 1953 selon la préface des écrits d'Elaine",
+   "Lane 1990 donne deux versions du costume : robe blanche de Frisette / robe victorienne cousue par Mary Outten"
+  ],
+  "situations_revelatrices": [
+   "Derrière son objectif pendant qu'un peintre poursuit une critique autour d'une table : le rire discret qui définit tout son personnage",
+   "Face à une peinture sciée en deux : le photographe poli qui pose des questions simples auxquelles l'artiste ne peut répondre",
+   "Au bar avec Diller : celui qui remarque les trous de cigarettes sur le canapé et les grimaces de douleur cachées",
+   "À l'hôpital face à Elaine mourante : la pudeur qui empêche de parler de la maladie et détourne la conversation vers des vacances"
+  ],
+  "citations": [
+   "CI-00203",
+   "CI-01423",
+   "CI-01866"
+  ],
+  "questions_ouvertes": [
+   "Dates et lieu de naissance et de mort, nationalité suisse exacte, parcours de formation : rien dans les fiches",
+   "Ce qu'il a réellement fait et vu à Black Mountain au-delà de la projection : interactions avec Albers, les étudiants, la communauté, non documentées",
+   "Comment son service militaire (retour en 1944) a affecté son travail et ses relations",
+   "Sa relation avec Yvonne Burckhardt : mariage, rencontre, non documentées",
+   "Le contenu précis de son discours au mémorial d'Elaine en 1990"
+  ]
+ }
+}

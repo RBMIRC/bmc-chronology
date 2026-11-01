@@ -1,0 +1,230 @@
+{
+ "passe": "mois",
+ "cle": "1942-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3821,
+  "sortie": 15487,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-04",
+  "session": "Trimestre de printemps (déduit : la synthèse distingue le printemps et le trimestre d'automne sans nommer la session d'avril)",
+  "saison_et_climat": "Printemps. Une seule notation de temps : un jour frais et pluvieux d'avril, mais dans la ville natale de Fielding Dawson, pas au collège. Le climat de Lake Eden n'est pas décrit pour ce mois.",
+  "situation": "Deuxième année du collège à Lake Eden, première où la guerre règle le quotidien. Le chantier communautaire, lancé à l'automne 1940 pour près de trois ans, se poursuit : cours le matin et le soir, travail volontaire l'après-midi. La grande grange de Kocher et Godfrey, commencée à l'été 1941, est terminée au printemps. Le collège possède des actifs estimés à 150 000 $ mais n'a pas de liquidités, et il n'est accrédité nulle part : il ne peut délivrer de diplômes et ses étudiants n'obtiennent pas de sursis de draft. Les fiches ne décrivent pas encore les démarches, qui commencent en mai.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Tom Leonard (photographe de la classe d'Albers)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "étudiants de la classe d'Albers (non nommés)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wunsch (président, qui lancera les démarches d'accréditation en mai)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Godfrey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lindsley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Boyden",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Babcock",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "French",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bliss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1942-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers dessine un lys devant sa classe, pendant que Tom Leonard le photographie.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03304",
+     "SC-00840"
+    ]
+   },
+   {
+    "date": "1942-04-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Enterrement du père de Fielding Dawson dans sa ville natale, hors du collège. L'enfant ne reconnaît pas le mort ; les tantes lui demandent d'être un bon garçon.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03305",
+     "SC-00841"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "La grande grange de Kocher et Godfrey est achevée au printemps, selon la synthèse de l'année (sans identifiant de fiche).",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1942-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Entre mai et juillet, Wunsch écrit à une dizaine d'universités pour obtenir l'accréditation et des programmes militaires. Le 24 mai, il rencontre Huntley de la Southern Association. Hors du mois, mais c'est la suite directe de la situation d'avril.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Cours le matin et le soir, travail volontaire sur le chantier l'après-midi, avec la grange qui s'achève. Albers enseigne en dessinant, qu'il s'agisse du lys de ce mois. Les fiches ne décrivent pas d'autres activités d'avril : bals, orgue, spectacles et réunions sont datés de l'automne 1942 ou de 1942-1943.",
+  "tensions": [
+   "Le deuil refoulé de Fielding Dawson : yeux secs, refus de reconnaître le mort et injonction d'être un bon garçon. Tension intime, hors du collège (SC-00841).",
+   "Finances : actifs sans liquidités. Déduit : les dons de deux ans sont déjà absorbés par la construction, comme Mangold le résumera en juillet.",
+   "Accréditation : sans diplômes ni sursis, le collège risque de perdre ses étudiants face à la conscription. Déduit, les démarches ne commencent qu'en mai.",
+   "Fatigue du chantier : trois ans de cours et de travail en parallèle. Déduit de la synthèse."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Albers dessine un lys en classe",
+    "date": "1942-04",
+    "lieu": "Black Mountain College, salle de classe",
+    "personnages": [
+     "Josef Albers",
+     "Tom Leonard",
+     "étudiants de la classe"
+    ],
+    "deroule": "Albers dessine un lys devant ses étudiants pour leur apprendre à regarder, et Tom Leonard prend la photographie. La scène illustre sa méthode : montrer en dessinant.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00840",
+     "EV-03304"
+    ]
+   },
+   {
+    "titre": "Funérailles du père de Fielding Dawson",
+    "date": "1942-04-06",
+    "lieu": "Domicile familial puis cimetière de la ville natale (hors collège)",
+    "personnages": [
+     "Fielding Dawson",
+     "Cara Byars Dawson",
+     "tantes"
+    ],
+    "deroule": "Dans le salon victorien aux rideaux tirés, la mère boit un sherry et les tantes fixent le sol. Au cimetière, l'enfant regarde le visage cireux de son père, dit que ce n'est pas son père, puis détourne la tête. Pendant le cortège, il regarde les arbres d'avril par la fenêtre. Une tante lui dit qu'il faudra être un bon garçon.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00841",
+     "EV-03305"
+    ]
+   },
+   {
+    "titre": "La grange achevée au printemps",
+    "date": "1942",
+    "lieu": "Lake Eden, grange de Kocher et Godfrey",
+    "personnages": [
+     "Kocher",
+     "Godfrey"
+    ],
+    "deroule": "La grange, commencée à l'été 1941, est terminée. Elle est l'un des rares biens achevés d'un collège qui n'a pas de liquidités, et le chantier continue l'après-midi. Scène déduite de la synthèse, sans fiche dédiée.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "l'enterrement du 6 avril, l'enfant qui fixe le cercueil",
+    "vers_date": null,
+    "vers": "La longue maladie du père, évoquée seulement comme cause de la mort ('after long illness').",
+    "refs": [
+     "EV-03305",
+     "SC-00841"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la grange achevée au printemps et les après-midi de travail volontaire",
+    "vers_date": "1940",
+    "vers": "Le lancement du chantier communautaire à l'automne 1940.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la deuxième année du collège à Lake Eden",
+    "vers_date": "1941-05",
+    "vers": "L'installation du collège à Lake Eden en mai 1941.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les lettres de Wunsch aux universités d'avril à juillet",
+    "vers_date": "1942",
+    "vers": "Le quota obtenu dans les programmes Navy V-1 et Enlisted Reserve Corps. Les fiches datent l'année 1942 sans préciser le mois.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les départs qui commencent à vider le collège",
+    "vers_date": "1942-10-16",
+    "vers": "Le télégramme d'enquête de Fortune sur les effets de la guerre, auquel le collège répond par une page dactylographiée.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les trimestres de l'année, dont le trimestre d'automne",
+    "vers_date": "1942-11",
+    "vers": "La parution de I Came Out of the Eighteenth Century de Rice, avec son chapitre sur Black Mountain, et la menace de procès en libelle d'Hamilton Holt.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Albers qui enseigne en dessinant et la vie commune du collège",
+    "vers_date": "1944",
+    "vers": "La fracture idéologique de 1944, dont Sam Brown date le début du glissement à l'automne 1942 (source : fil de la synthèse).",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "Le lys dessiné pour apprendre à voir",
+   "Le visage du mort qu'on refuse de reconnaître",
+   "Sherry, fauteuil capitonné, rideaux tirés : le deuil victorien",
+   "La grange comme seul bien achevé d'un collège sans liquidités",
+   "Le chantier qui absorbe tous les dons"
+  ],
+  "lacunes": "Les fiches ne décrivent aucun événement collectif du collège en avril, hormis le cours d'Albers. La session d'avril n'est pas nommée, et les présences listées sont déduites des départs datés 1942-1943. La date de l'enterrement diffère selon les fiches : 4 avril pour le titre de journal (EV-03305), 6 avril pour la scène (SC-00841). Le titre annonce une inhumation « Mon. », ce qui est compatible avec le 6 ; je retiens donc le 6, précision jour. La source Dawson 1970 est une observation directe (temoignage_direct), traitée ici comme attestée. La présence de Fielding Dawson au collège en avril n'est pas établie. La synthèse et les fils n'ont pas d'identifiants de fiche, d'où des refs vides. Le début des démarches d'accréditation (mai) n'est pas attesté en avril."
+ }
+}

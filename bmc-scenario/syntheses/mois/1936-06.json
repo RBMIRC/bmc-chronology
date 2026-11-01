@@ -1,0 +1,361 @@
+{
+ "passe": "mois",
+ "cle": "1936-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6304,
+  "sortie": 19354,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-06",
+  "session": "Session d'été : Van Middlesworth dirige les sessions d'été (EV-02599). Les fiches ne décrivent pas le trimestre régulier de juin.",
+  "saison_et_climat": "Début d'été. Les fiches ne décrivent pas le climat de Black Mountain en juin. Pour le Mexique, où les Albers partent pour l'été, le climat est jugé fabuleux (EV-02588).",
+  "situation": "Juin ouvre la session d'été, mais la vie du collège reste dominée par la presse et la querelle interne. Le 2 juin, une assemblée générale voit parler quatorze professeurs sur quinze et quarante-deux étudiants sur quarante-neuf (EV-02591), et un débat sur les « accords » oppose les étudiants sur la différence entre règle et accord (EV-02592, SC-00661). Le dimanche 7 juin, le supplément du New York Times publie une pleine page photographique ; le courrier afflue (50 à 55 lettres la première semaine, une quarantaine la seconde, EV-02593), souvent adressé à « Dear Rollins Rebels ». Un membre de BMC juge la page « horrible, mensongère » (EV-02593, CI-01365). Les Albers partent probablement dès juin pour trois mois au Mexique (EV-02588). Le Board a décidé de ne pas joindre de tirés à part au catalogue, par discrétion publicitaire (EV-02498). La crise Knickerbocker-Goldenson reste en suspens depuis le vote d'avril : les deux enseignants annoncent leur retour à l'automne pour leur « année de grâce » (EV-02584, EV-02580).",
+  "presents_probables": [
+   {
+    "nom": "Van Middlesworth (dirige les sessions d'été)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Harrington",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frank Stella",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Janet Seasongood",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nat French",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Alice (admise de justesse, date non précisée)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "La plupart des professeurs et étudiants de l'assemblée du 2 juin (14 professeurs sur 15, 42 étudiants sur 49 ont parlé)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-06-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Assemblée générale : quatorze professeurs sur quinze et quarante-deux étudiants sur quarante-neuf prennent la parole",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02591"
+    ]
+   },
+   {
+    "date": "1936-06-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Débat étudiant sur les « accords » : à qui s'adresser pour en enfreindre un, différence entre règle sanctionnée et accord sans sanction, refus de se laisser ramener au niveau du groupe",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02592",
+     "SC-00661"
+    ]
+   },
+   {
+    "date": "1936-06-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Pleine page photographique dans le supplément du Sunday New York Times",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02593",
+     "CI-01365"
+    ]
+   },
+   {
+    "date": "1936-06-07",
+    "precision": "semaine",
+    "ce_qui_arrive": "Courrier des lecteurs : 50 à 55 lettres la première semaine, une quarantaine la seconde. Les chiffres ne concordent pas avec les 40 à 50 lettres par jour signalées après l'article d'avril (EV-02581)",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02593",
+     "EV-02581"
+    ]
+   },
+   {
+    "date": "1936-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Josef et Anni Albers quittent Black Mountain pour le Mexique en voiture, Josef refusant l'avion ; le voyage dure au moins sept jours et le séjour trois mois, jusqu'en août. La date de départ n'est pas donnée",
+    "certitude": "probable",
+    "refs": [
+     "EV-02588",
+     "EV-02589"
+    ]
+   },
+   {
+    "date": "1936-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Van Middlesworth dirige les sessions d'été à Black Mountain",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02599"
+    ]
+   },
+   {
+    "date": "1936-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Noguchi laisse entendre qu'il viendra faire un bas-relief ; le projet échoue devant l'opposition apparente d'Albers",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02599"
+    ]
+   },
+   {
+    "date": "1936-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Anni Albers tisse ses deux grandes tapisseries, Ancient Writing (Escritura antigua) et Monte Albán, et signe pour la première fois d'un « AA » brodé",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02589",
+     "EV-02590",
+     "EV-02598",
+     "EV-02485"
+    ]
+   },
+   {
+    "date": "1936-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Exposition au journal El Nacional, à Mexico, du 15 au 25 août : graphiques et série Clave de sol. Le journal salue Albers en une comme l'un des fondateurs de l'abstraction",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02589",
+     "EV-02590",
+     "CF-00256",
+     "EV-02597"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Alice est admise de justesse (date et procédure non précisées)",
+    "certitude": "probable",
+    "refs": [
+     "EV-02594"
+    ]
+   }
+  ],
+  "quotidien": "Vie d'été : sessions dirigées par Van Middlesworth, cours réduits, un collège qui traite son courrier et ses débats internes. Josef et Anni, eux, sont en route ou au Mexique, où Josef peint et Anni tisse. Les fiches ne disent rien des repas, de la musique ni du rythme des cours de juin.",
+  "tensions": [
+   "Le courrier du New York Times fausse l'image du collège, et la presse entretient la querelle (Harper's, DeVoto)",
+   "Le débat sur les accords oppose l'individu à la communauté : qui décide des règles sans sanctions",
+   "L'avenir de Knickerbocker et Goldenson reste incertain depuis le vote d'avril, sous l'ambiguïté du texte du Board",
+   "Le Board refuse de joindre des tirés à part au catalogue, alors que l'image publique se dégrade (EV-02498)",
+   "Le projet de bas-relief de Noguchi échoue, et l'opposition d'Albers reste dite « apparente » par les sources",
+   "Van Middlesworth doit diriger l'été pendant que les Albers sont au Mexique (déduction)"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le débat sur les accords",
+    "date": "1936-06-02",
+    "lieu": "Black Mountain College, réunion étudiante",
+    "personnages": [
+     "Harrington",
+     "Nat French",
+     "Frank Stella",
+     "Janet Seasongood"
+    ],
+    "deroule": "Harrington demande à qui s'adresser pour enfreindre un accord. French distingue la règle, qui a une sanction, de l'accord, qui n'en a pas. Stella refuse d'être ramenée au niveau du groupe. French répond qu'on ne peut garder les avantages du groupe en refusant ses restrictions. Seasongood conclut qu'on peut choisir ses propres responsabilités",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00661",
+     "EV-02592"
+    ]
+   },
+   {
+    "titre": "La pleine page du dimanche",
+    "date": "1936-06-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Van Middlesworth (probable)"
+    ],
+    "deroule": "Le supplément du dimanche arrive au collège avec la photo pleine page. Un membre de BMC la juge horrible et mensongère, tandis que le courrier s'accumule, parfois adressé à « Dear Rollins Rebels » ou prenant le collège pour un rêve bon marché",
+    "certitude": "probable",
+    "refs": [
+     "EV-02593",
+     "CI-01365"
+    ]
+   },
+   {
+    "titre": "Le bas-relief qui ne se fera pas",
+    "date": "1936-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Noguchi (absent)",
+     "Van Middlesworth",
+     "Albers (opposition apparente)"
+    ],
+    "deroule": "Noguchi laisse entendre qu'il viendra faire un bas-relief. L'opposition d'Albers, apparente selon les sources, fait échouer le projet pendant l'été",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02599"
+    ]
+   },
+   {
+    "titre": "Le départ vers le sud",
+    "date": "1936-06",
+    "lieu": "Route depuis la Caroline du Nord vers Mexico",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Josef refuse l'avion et fait la route en voiture, au moins sept jours, vers un été qui sera productif. Le séjour dure trois mois",
+    "certitude": "probable",
+    "refs": [
+     "EV-02588"
+    ]
+   },
+   {
+    "titre": "Clave de sol au hall d'El Nacional",
+    "date": "1936-08",
+    "lieu": "Mexico, journal El Nacional",
+    "personnages": [
+     "Josef Albers",
+     "Clara Porset et Xavier Guerrero (relais probables)"
+    ],
+    "deroule": "Du 15 au 25 août, graphiques et série Clave de sol exposés. Le journal salue l'artiste comme l'un des fondateurs de l'abstraction, ce qu'il n'attendait pas, puisqu'il croyait le muralisme hostile",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02589",
+     "EV-02590",
+     "CF-00256",
+     "EV-02483"
+    ]
+   },
+   {
+    "titre": "Rencontre avec Diego Rivera",
+    "date": "1936-06",
+    "lieu": "Mexico",
+    "personnages": [
+     "Josef Albers",
+     "Diego Rivera",
+     "Anni Albers"
+    ],
+    "deroule": "Les Albers rencontrent Rivera pendant l'été, date non précisée. Anni juge plus tard les fresques récentes de Rivera « horribles »",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02589",
+     "EV-02590",
+     "EV-02598"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juin : le débat sur les accords et l'assemblée du 2 juin, où l'on discute ce qui fait une communauté",
+    "vers_date": "1936-01",
+    "vers": "La visite d'Adamic et de sa femme Stella. Rice expose sa doctrine (enseigner la méthode, non le contenu) et Adamic éponge les étudiants. Fin janvier, l'interview de Rice dans le Herald Tribune paraît trop suffisante et écœure les autres collèges",
+    "refs": [
+     "EV-02547",
+     "CI-01337",
+     "EV-02567",
+     "EV-02570"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin : la mémoire de la réunion étudiante sur les règles et les accords",
+    "vers_date": "1936-02",
+    "vers": "Adamic lit « Education on a Mountain ». Le portrait de Rice en chef et sauveur déclenche un procès (Joe Martin, Evarts, Hendrickson, Barber, Nat French, Goldenson, Zeuch). La date est février pour Chaddock et mars pour Duberman",
+    "refs": [
+     "SC-00657",
+     "EV-02576",
+     "EV-02577",
+     "CI-01292"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin : la pleine page du New York Times et le courrier qui en découle",
+    "vers_date": "1936-04",
+    "vers": "Harper's publie l'article sur Rice, suivi de la réplique de DeVoto qui compare le collège à un sanatorium d'amateurs. DeVoto réplique avec fureur de mars à mai, et Gannett, Anderson et Adamic défendent le collège",
+    "refs": [
+     "EV-02583",
+     "EV-02578"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin : les Albers en route pour le Mexique",
+    "vers_date": "1936-01",
+    "vers": "Le premier voyage d'hiver : Oaxaca, Monte Albán et Mitla, avec achat de poteries et figurines aux paysans. Josef voyage en voiture avec les Dreier. Les sources divergent sur la distance et sur le statut du voyage",
+    "refs": [
+     "SC-00627",
+     "SC-00633"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été mexicain : le collège continue sans Albers et la crise de l'enseignement couve",
+    "vers_date": "1936-12-07",
+    "vers": "L'appel de Zeuch pour une réunion de faculté nocturne est rejeté. La démission de Goldenson est autorisée, et Zeuch parle de « début de la fin »",
+    "refs": [
+     "EV-02609",
+     "EV-02619",
+     "EV-02610",
+     "EV-02622"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin : Knickerbocker et Goldenson restent dans l'incertitude après le vote d'avril",
+    "vers_date": "1936-09",
+    "vers": "Rentrée à 55 étudiants. Albers présente un exposé le 7 septembre. Knickerbocker et Goldenson annoncent leur retour à l'automne pour leur « année de grâce »",
+    "refs": [
+     "EV-02545",
+     "EV-02603",
+     "EV-02584",
+     "EV-02580"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été : Albers est au Mexique, et l'opposition apparente à Noguchi est laissée sans suite",
+    "vers_date": "1936-09",
+    "vers": "Schawinsky, invité par Albers, démarre ses Stage Studies, qui mèneront au Spectodrama (date de la performance 1936 ou 1937). Sa femme Irene fait les costumes sans être nommée",
+    "refs": [
+     "EV-02545",
+     "EV-02516",
+     "EV-02517",
+     "EV-02521"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin : l'image publique du collège, fragilisée par le courrier et la presse",
+    "vers_date": "1936-12",
+    "vers": "Deux étudiants s'enfuient pour se marier. D'autres collèges envoient des délégations visiter BMC. Albers donne trois ateliers à la Graduate School of Design de Harvard et un discours au Cosmopolitan Club",
+    "refs": [
+     "EV-02624",
+     "EV-02627",
+     "EV-02625",
+     "EV-02626"
+    ]
+   }
+  ],
+  "motifs": [
+   "La règle contre l'accord : qui décide des règles d'une communauté sans sanction",
+   "L'image publique du collège, déformée par la presse (NYT, Harper's)",
+   "Le pouvoir de Rice et sa doctrine de la méthode, contestée dans l'assemblée",
+   "L'art ancien comme source : Oaxaca, Monte Albán, le Mexique",
+   "L'absence d'Albers et la continuité de l'œuvre à distance",
+   "Les procès de février et mars comme mémoire de la communauté"
+  ],
+  "lacunes": "Les fiches ne donnent ni le jour du départ des Albers ni la date exacte de la rencontre avec Rivera. Elles divergent sur plusieurs points : premier ou deuxième voyage mexicain, onze ou douze toiles, gouache ou aquarelle, et 40 à 50 lettres par jour (EV-02581) contre 50 à 55 la première semaine de juin (EV-02593). La date d'admission d'Alice est inconnue. Le statut exact de Knickerbocker et Goldenson en juin n'est pas documenté. Le climat de Black Mountain et la vie quotidienne de juin (repas, musique, cours d'été) manquent. Les fiches EC-01545 à EC-01548 (route 4W, chaussure, tilleul, Perry) ne concernent pas ce collège et n'ont pas été utilisées."
+ }
+}

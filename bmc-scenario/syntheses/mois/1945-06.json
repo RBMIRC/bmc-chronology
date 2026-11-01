@@ -1,0 +1,280 @@
+{
+ "passe": "mois",
+ "cle": "1945-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4341,
+  "sortie": 14341,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1945-06",
+  "session": "Fin de printemps, entre la fin du trimestre et les instituts d'été (déduit : les fiches ne donnent aucune session pour juin, et les instituts n'arrivent qu'à l'été)",
+  "saison_et_climat": "Début de l'été dans les montagnes de Caroline du Nord. Aucune fiche ne décrit le temps de juin : chaleur et verdure sont déduites de la saison. Pour l'été suivant, les fiches signalent crues nocturnes, serpents et baignade à la cascade.",
+  "situation": "Le collège, amputé de sa moitié rebelle par la scission de 1944, se réorganise avec un corps enseignant réduit. Mi-juin, Robert Wunsch, recteur, est arrêté près d'Asheville pour « crimes contre nature » ; l'inculpation est ensuite ramenée à une simple intrusion avec sursis. Il démissionne sans que personne ne le retienne, et la bibliothèque achetée par le collège couvre discrètement 700 dollars. La faculté interdit d'informer les étudiants. Dreier est parti au lac George. Molly Gregory passe outre l'interdiction, convoque la communauté, et Herbert Miller dit la vérité sur un départ déjà accompli. Le collège entre dans l'été, qui amène les instituts et l'épreuve de l'intégration.",
+  "presents_probables": [
+   {
+    "nom": "Robert Wunsch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Herbert Miller",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Beidler",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Zabriskie",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kazin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fritz Cohen",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Wunsch est arrêté près d'Asheville, garé avec un marin, pour « crimes contre nature ». Il plaide coupable ; des amis influents font ramener l'inculpation à une intrusion avec sursis. La réduction est attestée, mais les récits d'avocat et de juge varient.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03789"
+    ]
+   },
+   {
+    "date": "1945-06",
+    "precision": "mois",
+    "ce_qui_arrive": "La faculté réagit à l'arrestation : trois ou quatre membres s'indignent (« Comment a-t-il pu nous faire ça ?! »). Wunsch avait caché son homosexualité, et l'institution passe avant les personnes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03790"
+    ]
+   },
+   {
+    "date": "1945-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Wunsch démissionne sans être retenu. Le collège, sur conseil de son avocat, n'effectue aucun paiement officiel et achète sa bibliothèque pour 700 dollars. Dreier, depuis le lac George, juge que payer davantage serait une absolution officielle.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03791"
+    ]
+   },
+   {
+    "date": "1945-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Dreier part en vacances au lac George, laissant la crise à ses collègues.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03791"
+    ]
+   },
+   {
+    "date": "1945-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Selon l'accord avec le Conseil des Fellows, Wunsch revient à une heure du matin chercher ses affaires et repart avant le réveil. Molly Gregory l'entend descendre et remonter avec des livres, sans oser l'aider.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00962",
+     "EV-03791"
+    ]
+   },
+   {
+    "date": "1945-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Molly Gregory, officier le plus ancien, convoque la communauté. Herbert Miller dit la vérité et présente le départ comme accompli. La version officielle parle de surmenage, puis de légère dépression nerveuse.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03791"
+    ]
+   },
+   {
+    "date": "1945-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Dreier suggère, sans preuve, que le marin était un agent provocateur, la police et la justice locales ayant depuis longtemps repéré l'homosexualité de Wunsch. Cette vue n'a pas été retenue à l'époque.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03789"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Les instituts d'été amènent Gropius, Feininger, Motherwell, Kauder, Bodky, Marx et d'autres. Ray Johnson et Elaine Schmitt y sont admis, et Albers dirige son samedi matin.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les chorales de Bach de Jalowetz durent deux à trois heures. Au dîner, les chants passent de table en table. Il n'y a pas de couvre-feu. Lowinsky donne des cours de rattrapage, Zabriskie et Kazin enseignent sans y trouver leur place, et Beidler, instructeur depuis février, dessine le Music Cubicle. Le collège continue ses repas, sa musique et son travail, comme si l'affaire ne le touchait pas.",
+  "tensions": [
+   "Le code du silence : la faculté interdit d'informer les étudiants, et Molly Gregory le transgresse seule.",
+   "Dreier est absent pendant la crise, et la responsabilité se dilue entre collègues.",
+   "La rumeur d'« instabilité nerveuse », tirée d'une lettre d'Allport, a retardé la nomination de Wallen ; Wallen en accuse Albers, et l'armée la juge fausse.",
+   "La question raciale divise la faculté : Lowinsky la porte, Straus et Kurtz s'y opposent.",
+   "Les Cohen sont sans argent ; la vente du Music Institute a échoué, notamment à Kenyon.",
+   "Les récits sur les motifs et le procès de Wunsch divergent : agent provocateur, marin, adultère, ou montage.",
+   "La réputation de l'institution prime déjà sur le sort des individus."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le départ nocturne de Wunsch",
+    "date": "1945-06",
+    "lieu": "campus, chambre de Molly Gregory",
+    "personnages": [
+     "Robert Wunsch",
+     "Molly Gregory"
+    ],
+    "deroule": "Wunsch revient à une heure du matin reprendre ses affaires. Molly, éveillée, entend ses petits pas portant des livres. On lui a dit de ne pas intervenir, et elle ne descend pas. Elle ne pardonnera jamais ce silence.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00962",
+     "EV-03791"
+    ]
+   },
+   {
+    "titre": "La communauté convoquée",
+    "date": "1945-06",
+    "lieu": "campus",
+    "personnages": [
+     "Molly Gregory",
+     "Herbert Miller",
+     "la communauté"
+    ],
+    "deroule": "Dreier étant parti, Molly, officier le plus ancien, défie l'interdiction et réunit tout le monde. Herbert Miller dit la vérité et présente le départ comme un fait accompli. La version publique invoque le surmenage.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03791"
+    ]
+   },
+   {
+    "titre": "L'indignation du personnel",
+    "date": "1945-06",
+    "lieu": "campus",
+    "personnages": [
+     "trois ou quatre membres de la faculté"
+    ],
+    "deroule": "Après l'arrestation, quelques professeurs s'indignent : « Comment a-t-il pu nous faire ça ?! ». Ils parlent de l'homme comme d'une menace pour l'institution, sans chercher à savoir ce qu'il vit.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03790"
+    ]
+   },
+   {
+    "titre": "L'arrestation près d'Asheville",
+    "date": "1945-06",
+    "lieu": "Asheville",
+    "personnages": [
+     "Robert Wunsch",
+     "un marin",
+     "l'avocat",
+     "le juge",
+     "des amis influents"
+    ],
+    "deroule": "Wunsch est arrêté, garé avec un marin. Il plaide coupable, et des relations influentes ramènent l'inculpation à une intrusion avec sursis. L'avocat et le juge racontent l'affaire différemment, et Dreier soupçonne un piège monté par la police.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03789"
+    ]
+   },
+   {
+    "titre": "La lettre de Dreier à Forbes",
+    "date": "1945-06",
+    "lieu": null,
+    "personnages": [
+     "Dreier",
+     "Stephen Forbes"
+    ],
+    "deroule": "Depuis le lac George, Dreier écrit à Forbes : payer davantage ressemblerait à une absolution officielle. Le collège paie quand même, par l'achat de la bibliothèque, pour 700 dollars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03791"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juin 1945, au moment de l'arrestation de Wunsch",
+    "vers_date": "1945-05",
+    "vers": "Lettre de Wallen du 16 mai : la rumeur d'« instabilité nerveuse » retarde sa nomination. Wallen l'attribue à Albers, et l'armée la juge fausse. Il obtient finalement un contrat d'un an.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin 1945, au moment où le collège se reconstruit",
+    "vers_date": "1944",
+    "vers": "La scission de 1944 a vidé le collège de sa moitié rebelle ; la reconstruction de 1945 part de là.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mi-juin 1945, au départ de Wunsch",
+    "vers_date": null,
+    "vers": "Wunsch rentre en Louisiane, malade plusieurs mois, puis disparaît en Californie. Les sources ne s'accordent pas sur les raisons de son départ.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1945, pendant les instituts",
+    "vers_date": "1945",
+    "vers": "Le récital de Roland Hayes devant environ 400 personnes, dont 30 à 40 Noirs, se déroule avec des places intégrées et sans incident : c'est le test décisif de l'intégration.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin 1945, dans la vacance du rectorat",
+    "vers_date": null,
+    "vers": "Chaddock dit qu'Albers est élu recteur peu après ; d'autres fiches placent son rectorat en 1948. La contradiction reste ouverte.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin 1945, à Lake Eden et à New York",
+    "vers_date": "1945-12",
+    "vers": "Elaine de Kooning rentre en décembre d'une croisière d'automne à Provincetown avec Bill Hardy, au grand dam de celui-ci. Rauschenberg, démobilisé, ne viendra à BMC qu'en 1948.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "Le code du silence et la réputation avant les personnes",
+   "La compassion impuissante : les petits pas dans la nuit et la chambre de Molly",
+   "Acheter la discrétion : la bibliothèque payée pour éviter une absolution officielle",
+   "La rumeur administrative d'« instabilité nerveuse »",
+   "L'idylle du lac contre le poids du lieu",
+   "La reconstruction après la scission de 1944",
+   "L'intégration raciale comme épreuve"
+  ],
+  "lacunes": "Aucune date précise pour l'arrestation, le départ nocturne ou le retour de Dreier. La présence de Zabriskie, Kazin, Fritz Cohen et Beidler en juin n'est pas datée. Wallen n'est pas attesté en juin (contrat en mai, arrivée à l'automne). Les dates et la fin de la session de juin sont inconnues. Les sources divergent sur les motifs, le procès de Wunsch et le rectorat d'Albers."
+ }
+}

@@ -1,0 +1,352 @@
+{
+ "passe": "mois",
+ "cle": "1952-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 9327,
+  "sortie": 16545,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1952-07",
+  "session": "session d'été : le soir de l'incident de la côtelette est dit « en session d'été » (EV-05833)",
+  "saison_et_climat": "Été : soirs doux, repas sous le porche grillagé de la salle à manger, montagnes au loin et vue sur le lac (SC-01552). Le reste du climat n'est pas décrit dans les fiches.",
+  "situation": "Le collège tourne en session d'été avec une communauté élargie (environ 70 personnes au cours de l'été, EV-05607). Olson dirige de fait depuis 1951 (RE-02273) et le lieu vit à crédit : les dons de Forbes se sont arrêtés après plus de 20 000 $ (EV-05798). Les invités donnent de la vitalité (les Tworkov en juillet, Kline attendu en août, la bande de Cage présente), mais la fin de l'année se profile déjà. Rumaker n'est pas là : il travaille à Jamestown jusqu'en septembre (EV-05826 à EV-05829).",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Connie (Constance Wilcock, épouse d'Olson)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Kate Olson, leur fille en bas âge",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jack Tworkov",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wally Tworkov",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Hermine Tworkov (environ 11 ans)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Helen Tworkov (environ 9 ans)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Fielding Dawson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cage",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tudor",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cunningham",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rauschenberg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wolpe et Hilda Morley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Francine du Plessix Gray",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mrs Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Paul Goodman",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Un cuisinier prénommé Charles (identité non précisée)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Séjour d'un mois des Tworkov (Jack, Wally, Hermine et Helen). Kline est attendu en août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05834",
+     "EV-05832"
+    ]
+   },
+   {
+    "date": "1952-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Incident de la côtelette de porc au dîner : Hermine prend la côtelette réservée à Kate, Olson soulève l'enfant au-dessus des poutres et exige le coupable devant toute l'école.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05833",
+     "EV-05835",
+     "SC-01552"
+    ]
+   },
+   {
+    "date": "1952-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Le soir même, Olson et Connie rient ensemble dans leur appartement de South Lodge, Olson pestant contre Dahlberg. Olson ne parlera jamais de l'incident.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01553",
+     "EV-05835"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Été : M.C. Richards écrit les paroles de A French Farce Based on a Wagnerian Opera, à laquelle presque toute l'école participe. Date exacte inconnue.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05832"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Rumaker travaille à l'usine Automatic Voting Machine à Jamestown (bains d'acide) et n'est pas au collège. Il n'y reviendra qu'au début de septembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05826",
+     "EV-05828",
+     "EV-05829",
+     "EV-05850"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Été : Cage donne un cours de composition sans élèves, qui sert en fait de chantier de découpe de bande magnétique pour le Williams Mix. Il lit le Huang Po devant 20 à 30 personnes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05626",
+     "EV-05725",
+     "EV-05789",
+     "EV-05627"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Été : Cunningham soigne une appendicite au sac de glace. Cage se lie aux étudiants en musique autour du strip-poker.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05636",
+     "EV-05626"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Été : Albers rompt avec Cage à cause du hasard.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05782"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Été : Wolpe et Hilda Morley s'installent au collège, Wolpe ayant été persuadé par Lou Harrison de venir.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05625"
+    ]
+   }
+  ],
+  "quotidien": "Repas communs sous le porche grillagé au-dessus du lac, avec la famille Olson à South Lodge à l'écart. Enfants de visiteurs (les filles Tworkov) mêlés à la vie de la salle à manger. Ateliers et cours d'été, dont la composition de Cage, réduite à de la découpe de bande. Lectures publiques (Huang Po), danse de Cunningham, jeux et flirts entre étudiants en musique, histoires de santé (appendicite) et de réputation.",
+  "tensions": [
+   "Olson impose l'honneur alimentaire en humiliant publiquement une enfant devant toute l'école (EV-05833, SC-01552).",
+   "Le souvenir de Dahlberg (Gloucester, 1940) traverse le couple : la vengeance est rejouée par la plaisanterie, mais l'incident touche à leur fille et à leur vie privée (EV-05835, SC-01553).",
+   "Finances en chute : Forbes a arrêté ses dons après plus de 20 000 $ (EV-05798) ; Rockefeller et Ford refuseront de subventionner en novembre (EV-05909).",
+   "Cage et Albers se brouillent sur le hasard (EV-05782), et Cage n'attire aucun inscrit à son cours (EV-05789).",
+   "Olson frappe Francine du Plessix Gray de son verdict et elle repart avec l'interdit de publier dix ans (EV-05604 à EV-05606). Les familles de visiteurs (Tworkov) observent la scène."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Olson brandit Kate au-dessus des poutres",
+    "date": "1952-07",
+    "lieu": "porche grillagé au-dessus du lac",
+    "personnages": [
+     "Charles Olson",
+     "Connie (Constance Wilcock)",
+     "Kate Olson",
+     "Hermine Tworkov",
+     "Helen Tworkov",
+     "Jack Tworkov",
+     "Wally Tworkov",
+     "Fielding Dawson"
+    ],
+    "deroule": "Repas de côtelettes, bonne humeur générale. Connie entre avec Kate sur la hanche et glisse un mot à Charles. Olson se lève, arrache l'enfant, la pose sur sa paume droite, bras tendu à près de onze pieds du sol, et demande qui a volé la côtelette de sa fille. Silence de tombe.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01552",
+     "EV-05833"
+    ]
+   },
+   {
+    "titre": "Soir de l'incident, South Lodge",
+    "date": "1952-07",
+    "lieu": "appartement d'Olson et Connie, South Lodge",
+    "personnages": [
+     "Charles Olson",
+     "Connie (Constance Wilcock)"
+    ],
+    "deroule": "Après le dîner, le couple se retrouve seul. Ils gardent un visage sérieux puis rient. Connie connaît la version de 1940 de Dahlberg. Olson, toujours en colère, rit en maudissant Dahlberg.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01553",
+     "EV-05835"
+    ]
+   },
+   {
+    "titre": "French Farce d'été",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "M.C. Richards",
+     "presque toute l'école"
+    ],
+    "deroule": "Richards écrit les paroles d'une farce inspirée d'un opéra wagnérien, et presque toute l'école y participe. Le spectacle précède les adieux de fin d'été, tristes mais suivis d'une école qui se redéfinit.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05832"
+    ]
+   },
+   {
+    "titre": "Le cours de composition qui n'en est pas un",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Cage",
+     "étudiants en musique"
+    ],
+    "deroule": "Cage annonce un cours de composition, personne ne s'inscrit, et la classe devient un chantier de découpe de bande magnétique pour le Williams Mix. Les étudiants en musique traînent autour de lui et de jeux de cartes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05626",
+     "EV-05725",
+     "EV-05789"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le soir de l'incident, à South Lodge, Olson rit en maudissant Dahlberg",
+    "vers_date": "1940",
+    "vers": "L'affaire Dahlberg à Gloucester, dont Connie connaissait la variation. Douze ans plus tard, la revanche de Dahlberg tient au système d'honneur alimentaire.",
+    "refs": [
+     "EV-05835",
+     "SC-01553"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le porche grillagé, pendant l'incident de la côtelette",
+    "vers_date": "1959",
+    "vers": "Hermine demande à Dawson de garder le silence sur l'incident, sept ans plus tard. La phrase est citée pour 1959.",
+    "refs": [
+     "EV-05833",
+     "SC-01552"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le soir de l'incident, à South Lodge",
+    "vers_date": null,
+    "vers": "Olson ne parlera plus jamais de l'incident : le silence scelle la chose pour le reste de sa vie.",
+    "refs": [
+     "SC-01553",
+     "EV-05835"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La session d'été, pendant la French Farce et les cours de Cage",
+    "vers_date": "1952-08",
+    "vers": "L'Untitled Event du réfectoire, rebaptisé Theater Piece No. 1, avec chaises en triangles, Cage et Tudor, la danse de Cunningham, le café dans des tasses, Wolpe furieux et Olson neutre. Aucune photo ne subsiste.",
+    "refs": [
+     "EV-05630",
+     "EV-05843",
+     "EV-05844",
+     "EV-05631",
+     "EV-05632"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été, le départ de Rauschenberg se prépare",
+    "vers_date": null,
+    "vers": "Rauschenberg et Twombly partent pour l'Italie à la fin de l'été, après la dépression de Rauschenberg liée à la séparation d'avec Susan Weil.",
+    "refs": [
+     "EV-05747",
+     "EV-05849"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, absent à Jamestown en juillet",
+    "vers_date": "1952-09",
+    "vers": "Rumaker arrive au collège avec une bourse de travail, perd sa chambre au profit de Jorge Fick et passe au dortoir. Il échoue à la ferme, puis passe à la cuisine.",
+    "refs": [
+     "EV-05850",
+     "EV-05855",
+     "EV-05864",
+     "EV-05678"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été : Olson part et ne revient pas tout de suite",
+    "vers_date": null,
+    "vers": "À l'automne, Olson est absent, à Washington chez Caresse Crosby ou au Yucatan selon les fiches, et les étudiants collectent 100 $ pour le faire revenir.",
+    "refs": [
+     "EV-05670",
+     "EV-05879",
+     "EV-05669"
+    ]
+   }
+  ],
+  "motifs": [
+   "L'enfant comme instrument d'autorité et de honte collective",
+   "Le silence de la communauté et du couple face à l'humiliation",
+   "La vengeance par procuration : Dahlberg, 1940, rejoué en 1952",
+   "La nourriture comme enjeu moral (honneur alimentaire, côtelettes, plats)",
+   "Les invités comme miroir des fractures du collège",
+   "Le hasard et l'arrivée de l'imprévu dans le théâtre de Cage"
+  ],
+  "lacunes": "Aucune liste nominative des étudiants présents en juillet. Les dates précises des épisodes d'été sont inconnues. Les sources divergent : EV-05607 et EV-05634 font arriver les Tworkov en juin, alors qu'EV-05834 et EV-05832 les situent en juillet. Hermine a environ 11 ans (EV-05834), mais EV-05737 évoque ses 13 ans pendant l'été. SC-01553 écrit « Connie Avon » là où SC-01552 écrit Constance Wilcock. Le cuisinier « Charles » n'est pas identifié. Olson est présent en juillet, mais ses déplacements de l'été ne sont pas documentés. La date exacte de l'Untitled Event (août) n'est pas connue."
+ }
+}

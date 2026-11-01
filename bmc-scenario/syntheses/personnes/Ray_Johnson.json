@@ -1,0 +1,304 @@
+{
+ "passe": "personnes",
+ "cle": "Ray Johnson",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 9939,
+  "sortie": 3145,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Ray Johnson",
+  "autres_noms": [
+   "Raymond Johnson"
+  ],
+  "dates_de_vie": "né en 1927 à Détroit",
+  "statut_bmc": "étudiant (peinture, dessin, arts appliqués), été 1945 – 1948",
+  "presence": [
+   {
+    "debut": "1945",
+    "fin": "1948",
+    "precision": "annee",
+    "description": "Admis avec Elaine Schmitt Urbain au Summer Art Institute 1945 ; études continues jusqu'en 1948, avec une courte interruption à New York. Peinture/dessin avec Bolotowsky, menuiserie avec Molly Gregory, tissage avec Franziska Mayer et Trude Guermonprez, couleur/design/dessin avec Josef Albers. Présent aux sessions d'été 1946 et 1948.",
+    "role": "étudiant",
+    "refs": [
+     "EV-03729",
+     "EV-03730",
+     "EV-03945",
+     "EV-04531",
+     "EV-04525"
+    ]
+   },
+   {
+    "debut": "1948-07",
+    "fin": "1948-08",
+    "precision": "session",
+    "description": "Été 1948 : décors et accessoires de The Ruse of Medusa de Satie avec Ruth Asawa et les de Kooning ; participe aux travaux sur le premier dôme géodésique de Fuller qui reste couché.",
+    "role": "étudiant, décorateur/accessoiriste",
+    "refs": [
+     "EV-04429",
+     "EV-04339",
+     "SC-01103"
+    ]
+   }
+  ],
+  "portrait_physique": "Cheveux rares couleur mousse de champagne, teint délavé (« washed-out ») ; visible en chemise sombre au profil dans la classe de dessin d'Albers, photographié par Hazel Larsen Archer.",
+  "noyau_psychologique": "Étudiant sérieux et appliqué — prenant des notes en classe — devenu un artiste facétieux et parodique, fasciné par le hasard, l'éphémère, le déplacement des objets et des mots hors de leur contexte. Obstiné et rancunier sous une douceur d'apparence : le clown grinçant qui refuse les institutions sans jamais tout à fait les quitter.",
+  "blessures": "Se sentait en dehors de la communauté — « nous ne nous sentions jamais à l'aise avec lui », disent les autres ; rancœur persistante envers le collège qu'il continue pourtant de retravailler dans ses collages pendant trente ans.",
+  "desirs": "Que l'art circule : donné, échangé, envoyé par la poste, plutôt que vendu aux musées et au marché. Transformer le familier en « quelque chose d'autre ».",
+  "peurs": "L'enfermement — par le marché, par les institutions, par ses propres œuvres (ses moticos s'élaborent « jusqu'à l'étouffement » selon Nayland Blake).",
+  "maniere_d_aimer": "Par le don et la correspondance : envois postaux, œuvres-offrandes, amitiés entretenues par lettres pendant des décennies. Avec Richard Lippold, un partenariat amoureux de vingt ans commencé à New York.",
+  "rapport_au_pouvoir": "Refus de principe : pacifiste, il ne reconnaît pas « leurs » tribunaux ni « leurs » institutions face aux « nôtres » — mais vient quand même à l'audience qu'il désapprouve, et finit par accepter la main tendue de l'avocat. Anarchiste de façade, courtois dans les faits.",
+  "voix": {
+   "registre": "Blague, parodie, non-sens désarmant ; sérieux scolaire qui affleure sous la facétie",
+   "tics": "Formules répétées (« galaxy of talent »), réponses parodiques aux questions sérieuses, dates multiples inscrites sur ses œuvres",
+   "exemples_paroles": [
+    "Parler de la « galaxie de talents » du collège au lieu d'en faire la description",
+    "Envoyer à un historien venu l'interviewer un faux entretien intitulé de façon farcesque",
+    "Refuser de témoigner en invoquant qu'on ne peut plaider dans « leur » tribunal"
+   ]
+  },
+  "habitudes": [
+   "Travailler ses collages en boucle : dessiner un gribouillis, photocopier, coller sur carton, poncer jusqu'à quasi-disparition, répéter",
+   "Prendre des notes soigneuses en classe — puis brûler ses carnets dans les années 1950",
+   "Découper, assembler, déplacer des matériaux trouvés (nids de chenilles sur papier métallique)",
+   "Retravailler les mêmes collages sur des décennies",
+   "Envoyer des œuvres par la poste à ses amis"
+  ],
+  "convictions": [
+   "L'art doit être donné et échangé, non vendu aux musées et au marché",
+   "On ne peut pas, en conscience, intenter un procès dans « leur » tribunal",
+   "Voir autrement : un nid d'arbre posé sur une surface dure devient « autre chose »",
+   "L'intérêt des Albers pour les idéogrammes et écritures anciennes, prolongé dans ses codes et glyphes personnels"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1945",
+    "precision": "annee",
+    "moment": "École d'été à l'Art Institute de Chicago : Elaine Schmitt Urbain lui parle de Black Mountain ; admis au Summer Institute avec elle",
+    "etat_interieur": "jeune étudiant de Détroit, sérieux, en quête d'une formation rigoureuse",
+    "refs": [
+     "EV-03729",
+     "RE-01476",
+     "EV-03618"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "annee",
+    "moment": "Été 1946 : institut d'art avec Jacob Lawrence, Jean Varda, Beaumont Newhall ; réalise une matière avec des nids de chenilles tenturières sur papier réfléchissant, photographiée par Theodore Dreier ; hommage aquarellé à Ruth Asawa",
+    "etat_interieur": "élève appliqué d'Albers, intériorise la leçon des matières et la grille",
+    "refs": [
+     "EV-03945",
+     "EV-03726",
+     "SC-00377",
+     "OE-01748",
+     "OE-01812"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Albers, reconnaissant son talent, lui obtient la commande de la couverture du magazine Interiors",
+    "etat_interieur": "première reconnaissance professionnelle, fierté d'élève choisi",
+    "refs": [
+     "EV-04059",
+     "RE-01475"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Été 1948, « galaxie de talents » : décors et accessoires de The Ruse of Medusa ; repas du hamburger à la pince avec Fuller et Elaine de Kooning ; premier dôme géodésique qui reste couché ; fin de ses études",
+    "etat_interieur": "au cœur de l'avant-garde, à l'aise dans le non-sens et le bricolage",
+    "refs": [
+     "EV-04429",
+     "EV-04525",
+     "SC-01166",
+     "SC-01103"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1927",
+    "precision": "annee",
+    "moment": "Naissance à Détroit",
+    "refs": [
+     "PE-00044"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Cours au Detroit Art Institute et à la Cass Technical High School",
+    "refs": [
+     "PE-00044"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "annee",
+    "moment": "École d'été à l'Art Institute de Chicago ; amitié d'Elaine Schmitt Urbain (elle-même liée à Milwaukee) qui le renseigne sur BMC",
+    "refs": [
+     "PE-00044",
+     "EV-03729",
+     "RE-01476"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "À New York : peintures géométriques, expose avec les American Abstract Artists (dont Albers et Bolotowsky étaient membres fondateurs) ; visite l'exposition d'Asawa chez Laverne Originals et décrit ses formes emboîtées",
+    "refs": [
+     "EV-05380",
+     "EV-05411"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Short Circuit de Rauschenberg, exposé à la Stable Gallery, incorpore un collage de Ray Johnson aux côtés de Weil et Johns",
+    "refs": [
+     "EV-06648"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "moment": "Série Moticos (1957-58) avec images de James Dean : collages répétant des motifs détachés de leur source",
+    "refs": [
+     "EV-06953",
+     "OE-03148",
+     "OE-03149"
+    ]
+   },
+   {
+    "date": "1958",
+    "precision": "annee",
+    "moment": "Envoie par la poste à May Wilson quatre boules de fil d'Asawa ; elle s'assoit dessus, les cloue sur un triangle de bois et les peint en noir — l'œuvre d'Asawa méconnaissable",
+    "refs": [
+     "EV-07023",
+     "SC-01887"
+    ]
+   },
+   {
+    "date": "1968",
+    "precision": "annee",
+    "moment": "À Duberman venu l'interviewer pour son histoire du collège, répond par un texte parodique, « Norman Soloman's Doberman Interviews Ray Johnson », où il parle facétieusement de la « galaxy of talent »",
+    "refs": [
+     "EV-08032",
+     "EV-08033",
+     "CI-04066"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Collages portant des dates multiples (c.1948-80, c.1953-1959-1980) avec inscriptions manuscrites sur « the black mt. college » : mémoire du collège retravaillée des décennies durant",
+    "refs": [
+     "OE-02035",
+     "OE-02038",
+     "EC-01520",
+     "EC-01532"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "mentorat",
+    "evolution": "Enseignement de la couleur, du design, du dessin (1945-48) ; Albers reconnaît son talent et lui obtient la commande d'Interiors en 1947 ; influence durable visible jusque dans le mail art (grille, couleur, matériaux)",
+    "refs": [
+     "RE-01475",
+     "EV-04059"
+    ]
+   },
+   {
+    "avec": "Richard Lippold",
+    "nature": "amour",
+    "evolution": "Rencontré à Black Mountain ; deviennent amants à New York, partagent un studio, partenariat de vingt ans",
+    "refs": [
+     "RE-00722",
+     "RE-01034",
+     "RE-02065",
+     "EV-01583"
+    ]
+   },
+   {
+    "avec": "Ruth Asawa",
+    "nature": "amitié",
+    "evolution": "Amis à BMC (avec Elaine Schmitt Urbain, ils l'avaient suppliée de venir) ; il visite son exposition de 1951, correspond, lui rend hommage en aquarelle, diffuse ses boules de fil après le collège",
+    "refs": [
+     "RE-01033",
+     "RE-02088",
+     "EV-01219",
+     "OE-01812"
+    ]
+   },
+   {
+    "avec": "Elaine Schmitt Urbain",
+    "nature": "amitié",
+    "evolution": "Rencontrée à l'école d'été de Chicago ; c'est elle qui l'oriente vers BMC puis, avec lui, attire Asawa au collège",
+    "refs": [
+     "RE-01476",
+     "EV-03618"
+    ]
+   },
+   {
+    "avec": "Duyckman (avocat)",
+    "nature": "conflit puis courtoisie",
+    "evolution": "Refus pacifiste de témoigner dans « leur » tribunal ; l'avocat le chasse, se ravise en souvenir de sa carrière de défenseur des libertés civiles et lui tend la main",
+    "refs": [
+     "RE-02211",
+     "SC-01334",
+     "EV-05197"
+    ]
+   },
+   {
+    "avec": "Reggie Cameron",
+    "nature": "débat idéologique",
+    "evolution": "Opposition entre « leurs » et « nos » institutions contre l'héritage juridique de 750 ans depuis Magna Carta",
+    "refs": [
+     "RE-02212",
+     "SC-01334"
+    ]
+   },
+   {
+    "avec": "Meg",
+    "nature": "rejet",
+    "evolution": "La juge mauvaise mère, la pense méchante — position qui offense la loyauté du groupe",
+    "refs": [
+     "RE-02213",
+     "EV-05197"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Fiche PE-00044 mentionne une présence « ca. 1938 » manifestement erronée (naissance en 1927) contre 1945-1948 attesté ailleurs.",
+   "La mise en scène de The Ruse of Medusa est attribuée à Cage par certaines fiches, à Arthur Penn par d'autres (Díaz 2014, Harris 2005, E. de Kooning) ; Johnson y est crédité des décors dans toutes les versions.",
+   "La relation Goodman 1963 (tribunal, Meg, années ≈1950-1957) situe un « Ray Johnson » pacifiste dans un cercle new-yorkais ; la cohérence avec l'artiste de BMC est plausible mais les fiches ne garantissent pas l'identité complète."
+  ],
+  "situations_revelatrices": [
+   "L'exercice de matière : poser un nid de chenilles sur du papier métallique et attendre que personne ne reconnaisse",
+   "Le repas au restaurant : regarder Fuller bâtir des formes avec l'argenterie sans cesser de manger",
+   "L'audience chez l'avocat : refuser de témoigner, être chassé, revenir sur la main tendue",
+   "La réponse à l'historien : envoyer un faux entretien au lieu d'une interview",
+   "L'envoi postal d'œuvres à des amis qui ne savent qu'en faire"
+  ],
+  "citations": [
+   "CI-00330",
+   "CI-04066"
+  ],
+  "questions_ouvertes": [
+   "Circonstances et motifs exacts de la brûlure de ses carnets d'Albers dans les années 1950",
+   "Détails de la « courte interruption à New York » pendant ses études (dates, raisons)",
+   "Nature de son malaise à BMC : qui disait « nous ne nous sentions jamais à l'aise avec lui », et pourquoi ?",
+   "La date « ca. 1938 » de présence : erreur manifeste ou confusion avec un homonyme ?",
+   "Vie personnelle et itinéraire complet entre 1958 et 1968, mal couverts par les fiches"
+  ]
+ }
+}

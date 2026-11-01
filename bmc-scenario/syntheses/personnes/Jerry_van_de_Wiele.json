@@ -1,0 +1,308 @@
+{
+ "passe": "personnes",
+ "cle": "Jerry van de Wiele",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 7786,
+  "sortie": 3818,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Jerry van de Wiele",
+  "autres_noms": [
+   "Gerry Van de Wiele",
+   "Gerald Van de Wiele"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant en peinture, recruteur clé du réseau Chicago/Détroit ; présent de l'institut d'été 1953 aux derniers étés du collège (1956), l'un des derniers habitants",
+  "presence": [
+   {
+    "debut": "1953",
+    "fin": "1956",
+    "precision": "periode",
+    "role": "Étudiant en peinture (présence attestée à l'institut d'été 1953, puis 1954-1956 ; mentionné parmi les derniers occupants du campus ; fiches datant certaines scènes de 1954-1956)",
+    "refs": [
+     "PE-00084",
+     "SC-01736",
+     "SC-01742",
+     "SC-01849",
+     "EV-06790",
+     "EV-06856"
+    ]
+   }
+  ],
+  "portrait_physique": "Beau garçon, musculature d'haltérophile, ancien marine ; sourire éclatant, quasi enfantin, qui illumine celui qui le regarde (PE-00084). En 1956, Duncan le fait jouer en bébé géant, bonnet et layette dans une poussette : le contraste comique entre le corps de culturiste et le déguisement est exploitable en scène (EV-06856).",
+  "noyau_psychologique": "Ancien marine reconverti en peintre, séducteur à l'aise dans son corps mais en quête d'appartenance : BMC est le premier lieu où il se sente chez lui. Sociable, bavard, commère de talent, il est à la fois le centre des fêtes et l'observateur lucide de la décomposition du collège. Sa violence (le KO de Creeley) coexiste avec une peur très concrète de la violence des autres : il est celui qui tape sur l'asphalte et celui qui cache sa hache.",
+  "blessures": "Rien d'attesté sur son passé de guerre ; on peut seulement déduire qu'un homme qui cache sa hache quand on frappe à sa porte connaît la peur du débordement violent (EV-06869).",
+  "desirs": "Appartenir — il le dit explicitement : jamais il n'a autant senti qu'il appartenait à un lieu (CI-03117). Peindre et écrire ; attirer ses camarades de Chicago vers cette école qu'il aime (EV-00326, EV-06707).",
+  "peurs": "La violence imprévisible des autres étudiants, surtout sous alcool ou drogue — d'où la hache dissimulée à chaque coup à la porte (EV-06869) ; la fiche agrégée le note aussi « craintif face aux étudiants imprévisibles » (PE-00084).",
+  "maniere_d_aimer": "Séducteur à l'aise, flatté par l'intérêt des femmes (Bea) mais dépassé par l'intensité de la rencontre, dont il ne sait quoi faire ; lucide sur sa propre témérité, il y repense avec stupéfaction mêlée d'un soupçon de vantardise (EV-06017, EV-08793, CI-03000). On peut déduire une sexualitéDisplayed, assumée : bain de soleil nu, corps exposé.",
+  "rapport_au_pouvoir": "Il n'en veut pas : ni chef ni disciple, il est médiateur — celui qui apaise Jake (SC-01817), qui conseille Chamberlain d' venir (EV-00326), qui relaie les commérages sur les tensions Olson-Duncan (EV-06773). Il accepte de se prêter au jeu satirique contre Olson dans la pièce de Duncan (rôle du bébé-Charles), mais comme acteur amateur, sans enjeu de pouvoir personnel.",
+  "voix": {
+   "registre": "Direct, familier, argotique, exclamatif ; passe du récit vantard au étonnement perplexe ; grand imitateur, doué pour le portrait physique des autres (le « coq arrogant » de Jake)",
+   "tics": "Exclamations blasphématoires (« Jesus… ») ; imitations gestuelles expressives ; ton mi-cajoleur mi-exaspéré face aux gens incontrôlables",
+   "exemples_paraphrases": [
+    "S'écrier, en repensant à sa nuit avec Bea, que c'était la femme de Wes",
+    " supplier Jake d'arrêter sa comédie et de venir boire et s'amuser",
+    " raconter l'anecdote des moniteurs chrétiens en imitant leur accent et leur charité condescendante"
+   ]
+  },
+  "habitudes": [
+   "Bain de soleil nu sur la terrasse derrière les Studies (PE-00084, EV-06017)",
+   "Haltérophilie (PE-00084)",
+   "Auto-stop fréquent vers New York ; parfois raccompagné par les moniteurs du camp chrétien jusqu'à Asheville (PE-00084, EV-06842)",
+   "Studio dans les Stables, puis appartement à Next-to-Last-Chance (PE-00084, EV-06869)",
+   "Cacher sa hache à fendre le bois quand on frappe à sa porte (EV-06869)",
+   "Rire aux bons endroits pendant les lectures en classe (SC-01742)"
+  ],
+  "convictions": [
+   "Black Mountain vaut le déplacement : il y envoie ses amis (EV-00326, RE-01993)",
+   "C'était un vrai lieu d'apprentissage, même réduit à asile, camp de repos et cocotte-minute (EV-06536)",
+   "Déduction : méfiance goguenarde envers la piété condescendante (traduction intérieure des moniteurs chrétiens, EV-06842)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Institut d'été : il est déjà là quand Rumaker arrive ; son studio est dans les Stables. Rencontre nocturne avec Bea, femme de Wes, qui l'aborde sur la route — il l'emmène chez les Olson puis la laisse repartir ; Bea n'en parlera jamais",
+    "etat_interieur": "Flatté, perplexe, inquiet de sa témérité ; il rumine l'incident",
+    "refs": [
+     "PE-00084",
+     "EV-06017",
+     "EV-08793",
+     "CI-03000"
+    ]
+   },
+   {
+    "date": "1954-03",
+    "precision": "mois",
+    "moment": "Première classe catastrophique de Creeley : Jerry fait partie des six étudiants autour de la grande table",
+    "etat_interieur": "Témoins de la naissance difficile d'un enseignement",
+    "refs": [
+     "SC-01736",
+     "EV-06276"
+    ]
+   },
+   {
+    "date": "1954-10",
+    "precision": "mois",
+    "moment": "Lecture de « The Truck » de Rumaker en classe d'Olson : ses rires, avec Tom Field, tombent aux bons endroits",
+    "etat_interieur": "Lecteur complice, réactif, bon public",
+    "refs": [
+     "SC-01742",
+     "EV-06483"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Surprend Grey Stone et sa boîte à graines divisée en deux, semées de bonnes et de mauvaises pensées",
+    "etat_interieur": "Curiosité amusée devant le mysticisme rustique du camarade",
+    "refs": [
+     "SC-01698"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Une nuit, au retour de Ma Peak's, il met Creeley KO sur l'asphalte, dispute au sujet de l'étudiante Martha Davis",
+    "etat_interieur": "Violence physique soudaine — face cachée du souriant marine",
+    "refs": [
+     "RE-01992",
+     "EV-06347"
+    ]
+   },
+   {
+    "date": "1955-02",
+    "precision": "jour",
+    "moment": "Lettre d'Olson : Jerry est nommé parmi « les solides », noyau étudiant autour duquel reconstruire le collège",
+    "etat_interieur": "Reconnu comme pilier de la communauté",
+    "refs": [
+     "EV-06688"
+    ]
+   },
+   {
+    "date": "1955-05",
+    "precision": "mois",
+    "moment": "Fête de Streamside : Jake fait irruption, défonce la porte, brandit une bouteille cassée ; Jerry tente de l'apaiser en vain",
+    "etat_interieur": "Cajoleur puis exaspéré, impuissant face à la haine de Jake",
+    "refs": [
+     "SC-01817",
+     "EV-06714",
+     "EV-06716",
+     "CI-03363"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Arrivée de Chamberlain, qu'il a convaincu ; la colonie Chicago/Détroit qu'il a attirée est en place",
+    "etat_interieur": "Recruteur accompli, entouré des siens",
+    "refs": [
+     "EV-00327",
+     "EV-06571",
+     "EV-06707"
+    ]
+   },
+   {
+    "date": "1956-03",
+    "precision": "mois",
+    "moment": "Le campus bas est loué à un camp de garçons chrétien ;Jerry fait de l'auto-stop avec les moniteurs et se mord la lèvre devant leur charité accentuée",
+    "etat_interieur": "Goguenard, contraint à la diplomatie burlesque entre saints et pêcheurs",
+    "refs": [
+     "EV-06842",
+     "SC-01704"
+    ]
+   },
+   {
+    "date": "1956-06",
+    "precision": "saison",
+    "moment": "Dernière session d'été : Duncan le fait jouer, en couches-culottes et poussette, le bébé-Charles de The Origins of Old Sun, satire contre Olson ; Jerry informe Rumaker des tensions entre les deux hommes",
+    "etat_interieur": "Acteur de la dérision, commère des guerres de chefs",
+    "refs": [
+     "EV-06773",
+     "EV-06856",
+     "EV-06578"
+    ]
+   },
+   {
+    "date": "1956-08",
+    "precision": "mois",
+    "moment": "Derniers jours : caché à Next-to-Last-Chance, il cache sa hache quand on frappe, par peur des étudiants imprévisibles ; il fait partie du dernier groupe de peintres (avec Rice, King, Fick, Field, Fiore)",
+    "etat_interieur": "Attaché au lieu jusqu'au bout, mais peureux dans un campus glauque",
+    "refs": [
+     "EV-06869",
+     "EV-06790",
+     "EV-06536",
+     "CI-03117"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Artiste régimentaire (war artist) dans l'US Marine Corps",
+    "refs": [
+     "PE-00084"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Étudiant à l'Art Institute of Chicago, où il se lie avec John Chamberlain et Richard Bogart",
+    "refs": [
+     "PE-00084",
+     "RE-01993",
+     "EV-06571"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Conseille à Chamberlain d'aller à Black Mountain, persuadera aussi Bogart — le bouche-à-oreille qui amène toute une colonie",
+    "refs": [
+     "EV-00326",
+     "RE-02169"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1957",
+    "precision": "annee",
+    "moment": "Après la fermeture du collège, son parcours n'est pas documenté dans les fiches — sa trace ultérieure reste à chercher",
+    "refs": []
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Chamberlain",
+    "nature": "Amitié de l'Art Institute de Chicago, mentorat de recrutement",
+    "evolution": "Jerry le convainc de venir à BMC en 1955 ; Chamberlain y devient le seul sculpteur sérieux du campus",
+    "refs": [
+     "RE-01993",
+     "RE-02169",
+     "EV-06571"
+    ]
+   },
+   {
+    "avec": "Robert Creeley",
+    "nature": "Conflit violent",
+    "evolution": "Une nuit, au retour de Ma Peak's, Jerry le met KO sur l'asphalte, dispute au sujet de Martha Davis — rancune ou indifférence ensuite, non documenté",
+    "refs": [
+     "RE-01992",
+     "EV-06347"
+    ]
+   },
+   {
+    "avec": "Bea Huss",
+    "nature": "Rencontre sexuelle unique",
+    "evolution": "Elle l'aborde de nuit après une fête ; l'incident n'est jamais renouvelé, Bea le nie ou l'efface totalement ; Jerry reste interloqué",
+    "refs": [
+     "RE-03286",
+     "EV-06017",
+     "EV-08793"
+    ]
+   },
+   {
+    "avec": "Jake",
+    "nature": "Médiateur apeuré face à la violence",
+    "evolution": "Tentative d'apaisement à la fête de Streamside (1955) ; ensuite il imite Jake en commère amusée — le « coq arrogant » ; par peur, il cachera sa hache quand on frappe à sa porte",
+    "refs": [
+     "SC-01817",
+     "EV-06578",
+     "EV-06869"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Amitié, complicité de fêtes et de classe",
+    "evolution": "Complice des lectures et des soirées ; Jerry lui raconte Bea, imite Jake, l'informe des tensions Olson-Duncan",
+    "refs": [
+     "EV-06017",
+     "SC-01742",
+     "EV-06773",
+     "EV-06869"
+    ]
+   },
+   {
+    "avec": "Charles Olson et Robert Duncan",
+    "nature": "Spectateur-acteur des guerres de chefs",
+    "evolution": "Nommé parmi « les solides » par Olson en février 1955, il joue pourtant le bébé-Charles dans la satire de Duncan en 1956 — neutralité ludique entre les deux hommes",
+    "refs": [
+     "EV-06688",
+     "EV-06773",
+     "EV-06856"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Le récit de la rencontre Bea-Jerry est du oui-dire rapporté par Rumaker (deux versions quasi identiques, EV-06017 et EV-08793) : à manier comme témoignage, non comme fait établi.",
+   "La première classe de Creeley (SC-01736 / EV-06276) concerne Jerry indirectement ; deux versions existent (Duberman et Rumaker) mais ne se contredisent pas sur sa présence.",
+   "Chamberlain : Rumaker dit qu'il arrive en 1955 convaincu par Jerry ; Molesworth le décrit comme arrivant « avec » Van de Wiele, déjà en place — la chronologie exacte du séjour initial de Jerry (été 1953 ?) reste à préciser."
+  ],
+  "situations_revelatrices": [
+   "La fête où Jake brandit la bouteille cassée : Jerry seul à tenter l'apaisement, entre bravoure et inconscience",
+   "Le KO de Creeley sur l'asphalte : le marine qui reprend le dessus",
+   "La hache cachée derrière la porte : la peur de l'homme le plus musclé du campus",
+   "L'auto-stop avec les moniteurs chrétiens : le comique du pêcheur poli contraint à la patience",
+   "Le bébé en poussette dans la pièce de Duncan : le corps d'athlète offert à la dérision",
+   "Le retour d'auto-stop depuis New York : la route qui monte et le sentiment d'appartenir enfin à un lieu"
+  ],
+  "citations": [
+   "CI-03000",
+   "CI-03117",
+   "CI-03363",
+   "CI-04421"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, vie complète après 1957 (a-t-il continué à peindre ? à New York ?)",
+   "Son expérience réelle de la guerre comme artiste régimentaire des Marines — matière à flash-back",
+   "Ce qui s'est passé exactement entre lui et Creeley après le KO : réconciliation ou rupture ?",
+   "Sa liaison éventuelle avec Rumaker (une nuit, Rumaker l'avait suivi jusqu'à son studio des Stables « sans succès », EV-06017) — jalon de sa vie affective",
+   "Le contenu de son travail de peintre : une seule œuvre attestée (Portrait Sketches of Jorge Fick, OE-00866)"
+  ]
+ }
+}

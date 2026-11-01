@@ -1,0 +1,427 @@
+{
+ "passe": "mois",
+ "cle": "1952-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 12712,
+  "sortie": 22512,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1952-08",
+  "session": "session d'été 1952, en fin de session ; la rentrée d'automne se prépare",
+  "saison_et_climat": "Fin d'été : soirs chauds et lourds sur le campus, nuits de lune côté Chautauqua ; à Jamestown, dans l'ouest new-yorkais, la fraîcheur précoce de mi-août fait déjà rougir les feuilles",
+  "situation": "Le collège clôt sa session d'été avec environ 70 personnes selon la synthèse. Cage, Cunningham, Tudor, Richards et Rauschenberg sont là, tout comme Olson. Kline, invité à enseigner la peinture, est attesté en août, mais sa date d'arrivée reste discutée. Le Theater Piece No. 1 se joue au réfectoire un soir d'août, sous le regard hostile de Wolpe. Les adieux de fin août sont tristes, mais l'école se prépare à l'automne et à un nouveau contingent d'étudiantes. Rumaker est absent : il travaille à Jamestown et attend la réponse à sa demande de bourse de travail.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Cage",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Merce Cunningham",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "David Tudor",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Caroline Richards",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Rauschenberg",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Stefan Wolpe",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mrs Jalowetz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Francine du Plessix Gray",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Franz Kline",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jack Tworkov",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hermine et Helen Tworkov",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nicholas Cernovich",
+    "certitude": "probable"
+   },
+   {
+    "nom": "David Weinrib",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hilda Morley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Paul Goodman",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Séjour des Tworkov (Jack, Wally, Hermine et Helen) pendant environ un mois, puis arrivée de Franz Kline en août, avec une vitalité neuve pour la communauté",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05834",
+     "EV-05832"
+    ]
+   },
+   {
+    "date": "1952-07",
+    "precision": "periode",
+    "ce_qui_arrive": "M.C. Richards écrit les paroles d'une « French Farce Based on a Wagnerian Opera » à laquelle presque toute l'école participe",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05832"
+    ]
+   },
+   {
+    "date": "1952-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Rumaker travaille à la galvanoplastie de l'usine Automatic Voting Machine à Jamestown, loin du collège, et gagne de quoi remplacer ses vêtements rongés par l'acide",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05828",
+     "EV-05826"
+    ]
+   },
+   {
+    "date": "1952-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Un soir d'août, au réfectoire, Cage fait jouer le Theater Piece No. 1 : lectures, danse, piano préparé, peintures de Rauschenberg, disques, projection, café servi. Wolpe sort furieux, Mrs Jalowetz psalmodie, et l'événement devient rétroactivement le premier Happening",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05843",
+     "EV-05844",
+     "EV-05840",
+     "EV-05848",
+     "SC-01557",
+     "SC-01558"
+    ]
+   },
+   {
+    "date": "1952-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Kline est invité à enseigner la peinture, et Dawson lui fait un adieu très émotionnel à la gare avec Nancy",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05847"
+    ]
+   },
+   {
+    "date": "1952-08",
+    "precision": "semaine",
+    "ce_qui_arrive": "Vers la mi-août, Connie Olson écrit à Rumaker : sa demande de bourse de travail est acceptée, arrivée attendue début septembre",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05842"
+    ]
+   },
+   {
+    "date": "1952-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Au retour de Chautauqua après la Neuvième de Beethoven, Rumaker, auto-stoppeur, est agressé puis refuse ; le conducteur le punit d'une course à 100 miles/heure jusqu'au gravier de la ferme",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05841",
+     "SC-01555"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Albers rompt avec Cage à cause du hasard",
+    "certitude": "probable",
+    "refs": [
+     "EV-05782"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "saison",
+    "ce_qui_arrive": "Cage propose un cours de composition qui est en réalité un chantier de découpe de bande magnétique pour le Williams Mix ; personne ne s'inscrit, et il renonce à l'enseignement formel",
+    "certitude": "probable",
+    "refs": [
+     "EV-05626",
+     "EV-05725",
+     "EV-05789"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "saison",
+    "ce_qui_arrive": "Cage lit en entier le Huang Po devant 20 à 30 personnes",
+    "certitude": "probable",
+    "refs": [
+     "EV-05627"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "saison",
+    "ce_qui_arrive": "Incident de la côtelette de porc volée à Kate, qui fait basculer la salle dans un silence glacé",
+    "certitude": "probable",
+    "refs": [
+     "EV-05833"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "saison",
+    "ce_qui_arrive": "Francine du Plessix Gray, lauréate du workshop, est foudroyée par Olson et repart avec l'interdit de publier pendant dix ans",
+    "certitude": "probable",
+    "refs": [
+     "EV-05604",
+     "EV-05605",
+     "EV-05606"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "saison",
+    "ce_qui_arrive": "McGee essuie le refus du Board de lui accorder un master",
+    "certitude": "probable",
+    "refs": [
+     "EV-05608"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "saison",
+    "ce_qui_arrive": "Cunningham soigne son appendicite avec un sac de glace",
+    "certitude": "probable",
+    "refs": [
+     "EV-05636"
+    ]
+   }
+  ],
+  "quotidien": "Cours d'été et ateliers improvisés : le cours de composition de Cage sans élèves, la lecture du Huang Po, les répétitions de Cunningham qui se remet de son opération, le piano préparé de Tudor, la French Farce de Richards avec presque toute l'école. Vie de ferme, repas en commun, soirées entre étudiants en musique (strip-poker), cafés et discussions autour du réfectoire. Rumaker, lui, vit ailleurs : usine à Jamestown le jour, baignades nocturnes, drive-in et concerts à Chautauqua.",
+  "tensions": [
+   "Horaires du Theater Piece divergents : 20 h 30 à 22 h 30 selon Lane, début à 20 h 30 et parole de Cage jusqu'à 16 h 30 selon le journal de du Plessix, deux heures selon une autre fiche",
+   "Surface de projection contestée : écran, plafond ou White Painting (Four Panel) ; Richards dessine de mémoire la Painting de Kline, que la plupart des souvenirs ne placent pas",
+   "Rôle d'Olson : il distribue un poème et fait lire le public debout selon Weinrib, ou joue la neutralité selon une autre fiche",
+   "Hermine Tworkov : environ 11 ans selon Dawson, « fête ses 13 ans » selon la synthèse",
+   "Arrivée des Tworkov : juin selon la synthèse, juillet pour un séjour d'un mois selon Dawson",
+   "Kline : arrivée en août selon EV-05832, adieu à la gare en août selon EV-05847, départ à l'automne selon la synthèse",
+   "Wolpe, persuadé par Lou Harrison de le remplacer, rejette le chaos de Cage et quitte la salle en colère",
+   "Albers rompt avec Cage à cause du hasard, pendant que Cage fait du hasard son protocole central",
+   "Du Plessix Gray est foudroyée par Olson, ce qui cristallise les tensions de la session d'été",
+   "Goodman, enseignant d'été, est prié de quitter le collège vers septembre"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le Theater Piece No. 1 au réfectoire",
+    "date": "1952-08",
+    "lieu": "réfectoire, Black Mountain College",
+    "personnages": [
+     "John Cage",
+     "Charles Olson",
+     "Mary Caroline Richards",
+     "Robert Rauschenberg",
+     "David Tudor",
+     "Merce Cunningham",
+     "Nicholas Cernovich",
+     "Francine du Plessix Gray",
+     "David Weinrib",
+     "Stefan Wolpe"
+    ],
+    "deroule": "Chaises en quatre triangles, une tasse par place. Cage parle de Zen sur un escabeau, Olson et Richards lisent depuis une échelle, Cunningham danse harcelé par un chien, Tudor joue au piano préparé, Rauschenberg passe des disques et montre ses peintures au plafond, des films ou diapositives sont projetés, du café circule, des sifflets et des bébés s'ajoutent, et Piaf passe en accéléré. Wolpe proteste et sort.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01557",
+     "SC-01558",
+     "SC-01554",
+     "EV-05844",
+     "EV-05845"
+    ]
+   },
+   {
+    "titre": "La lettre de Connie Olson",
+    "date": "1952-08",
+    "lieu": "Ferme de la famille de Roger, État de New York",
+    "personnages": [
+     "Michael Rumaker",
+     "Connie Olson"
+    ],
+    "deroule": "Vers la mi-août, la lettre arrive : la bourse de travail est acceptée, l'arrivée est prévue début septembre. Joie de quitter les vêtements rongés par l'acide et de partir vers le sud.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05842"
+    ]
+   },
+   {
+    "titre": "La course vengeresse de l'auto-stoppeur",
+    "date": "1952-08",
+    "lieu": "Route de campagne près de Chautauqua",
+    "personnages": [
+     "Michael Rumaker",
+     "auto-stoppeur agressif"
+    ],
+    "deroule": "Après la Neuvième de Beethoven, le conducteur pelote Rumaker, qui refuse. Furieux, il accélère jusqu'à 100 miles/heure pour l'effrayer, puis le dépose sur le gravier de la ferme.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01555",
+     "EV-05841"
+    ]
+   },
+   {
+    "titre": "Adieu à la gare",
+    "date": "1952-08",
+    "lieu": null,
+    "personnages": [
+     "Dawson",
+     "Nancy",
+     "Franz Kline"
+    ],
+    "deroule": "Dawson fait à Kline un adieu très émotionnel à la gare, au moment de l'invitation à enseigner la peinture. La fiche ne dit pas si c'est l'arrivée ou le départ de Kline.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05847",
+     "EV-05832"
+    ]
+   },
+   {
+    "titre": "Répétitions de la French Farce",
+    "date": "1952-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Mary Caroline Richards",
+     "presque toute l'école"
+    ],
+    "deroule": "Richards écrit les paroles d'une farce en français sur un opéra wagnérien, à laquelle presque toute l'école participe avant les adieux de fin août.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05832"
+    ]
+   },
+   {
+    "titre": "La côtelette de porc volée",
+    "date": "1952",
+    "lieu": null,
+    "personnages": [
+     "Kate"
+    ],
+    "deroule": "Une côtelette de porc disparaît aux dépens de Kate, et la salle se fige dans un silence glacé pendant le repas.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05833"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashforward",
+    "depuis": "Le Theater Piece No. 1, un soir d'août au réfectoire",
+    "vers_date": null,
+    "vers": "Les critiques contre Cage portent sur l'intention de celui qui agit au hasard, et deviennent le terrain des attaques de ses années post-Black Mountain",
+    "refs": [
+     "EC-02850",
+     "EV-05843"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le Theater Piece No. 1, quand Cage lit Artaud et Zen",
+    "vers_date": "1938",
+    "vers": "La chaîne Boulez, Mallarmé, Artaud remonte au Théâtre et son Double publié en France en 1938",
+    "refs": [
+     "EC-02847",
+     "EC-02846"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le Theater Piece No. 1, face à la théorie de l'illusion construite",
+    "vers_date": null,
+    "vers": "Le théâtre du Bauhaus, avec Schlemmer et Schawinsky, oppose l'illusion calculée à l'immédiateté du vide",
+    "refs": [
+     "EC-02848"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Les protocoles de hasard de Cage à Black Mountain",
+    "vers_date": "1913",
+    "vers": "Duchamp et ses 3 Standard Stoppages, 1913-1914, servent de modèle direct à l'expérience du fil lâché",
+    "refs": [
+     "EC-02849"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les séries Variant d'Albers, qui se poursuivent après la session d'été",
+    "vers_date": "1958",
+    "vers": "Homage to the Square, 1958, prolonge du collège vers Yale le travail d'Albers",
+    "refs": [
+     "EC-02851"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, à Jamestown, attend la lettre de mi-août",
+    "vers_date": "1952-09",
+    "vers": "Olson absent, Rumaker arrive au collège et découvre une figure enseignante qui ne répond pas aux attentes",
+    "refs": [
+     "EC-02866",
+     "EV-05842"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, sur la route de nuit après la Neuvième",
+    "vers_date": "1952-12",
+    "vers": "La poursuite plus vivifiante que la capture, sa relation avec Merrill, et la leçon de Stendhal à son dernier été à BMC",
+    "refs": [
+     "EC-02809"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Goodman, enseignant d'été prié de quitter",
+    "vers_date": "1952-09",
+    "vers": "Au retour de Rumaker en septembre, le chien orange de Goodman a disparu",
+    "refs": [
+     "EC-02862"
+    ]
+   }
+  ],
+  "motifs": [
+   "le hasard comme sujet et comme responsabilité",
+   "le spectateur rendu au centre, sommé de tourner la tête",
+   "silence et vide, Zen, Artaud, Duchamp",
+   "les arts superposés face à la lignée Bauhaus",
+   "la réputation façonnée par le vide documentaire",
+   "le désir refusé sur la route de nuit",
+   "l'effacement de la figure d'Olson au profit des autres"
+  ],
+  "lacunes": "Pas de jour précis pour le Theater Piece : le calendrier du collège note seulement « a 'concert' by John Cage » et une date possible le 16 août. Aucune photo ni film, un seul score. L'effectif exact n'est pas connu (environ 70). La présence de Herb Roco, Dan Rice et Connie Olson en août n'est pas établie. Les dates d'arrivée de Kline et de départ de Goodman restent incertaines. Le calendrier des cours d'été n'est pas documenté."
+ }
+}

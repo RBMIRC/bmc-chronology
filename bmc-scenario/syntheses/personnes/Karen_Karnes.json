@@ -1,0 +1,336 @@
+{
+ "passe": "personnes",
+ "cle": "Karen Karnes",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 8464,
+  "sortie": 3720,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Karen Karnes",
+  "autres_noms": [
+   "Karen Weinrib (nom d'épouse de l'époque)"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiante à l'été 1946, puis instructrice de céramique et potière en résidence de 1952 à 1954 (co-direction du Pot Shop avec son mari d'alors, David Weinrib)",
+  "presence": [
+   {
+    "debut": "1946",
+    "fin": "1946",
+    "precision": "session",
+    "role": "Étudiante à la session d'été (avec Josef Albers et Molly Gregory) ; seule céramiste américaine de studio à avoir été à la fois étudiante et enseignante au collège",
+    "refs": [
+     "EV-03903"
+    ]
+   },
+   {
+    "debut": "1952",
+    "fin": "1954",
+    "precision": "annee",
+    "role": "Instructrice de céramique et potière en résidence ; co-dirige le pot shop avec David Weinrib ; le salaire du collège est versé au mari bien qu'elle soit l'instructrice nommée",
+    "refs": [
+     "PE-00077",
+     "EV-05452",
+     "EV-05621",
+     "EV-05819",
+     "EV-06381"
+    ]
+   },
+   {
+    "debut": "1952",
+    "fin": "1952",
+    "precision": "mois",
+    "role": "Accueil du séminaire de céramique d'octobre 1952 (Hamada, Yanagi, Leach, Wildenhain) puis du deuxième institut l'été 1953",
+    "refs": [
+     "EV-05889",
+     "EV-05891",
+     "EV-05938"
+    ]
+   }
+  ],
+  "portrait_physique": "Figure solide et voluptueuse, décrite comme une déesse, pleinement exhibée dans les Tableaux de l'été 1953 (Molesworth). Au quotidien : jupe en denim et sandales, assise en tailleur au tour de potier. Présence physique impressionnante de solidité.",
+  "noyau_psychologique": "Travailleuse acharnée, calme, concentrée, imperturbable — rien de l'Ophélie égarée qu'elle incarne pourtant au bal de 1953. Elle fait les choses : elle tourne, elle vend, elle enseigne, elle ose dire à Creeley de parler plus fort. Elle croit au travail bien fait, à la fonction, au geste épuré, et non aux discours. Solide, sensuelle, lucide, d'une franchise directe qui tranche avec les tourments de la communauté.",
+  "blessures": "Le mépris d'une partie de la communauté pour sa poterie jugée trop commerciale, pas assez « rugueuse, réelle, naturelle » — symbolisé par les os de dinde empilés dans ses plats après Thanksgiving. La discrimination salariale : le salaire versé à son mari alors qu'elle est l'instructrice nommée. La rupture avec David (Stud) avant l'été 1953.",
+  "desirs": "Travailler l'argile au plus près de la fonction ; vendre et vivre de son travail ; être reconnue pour sa poterie et non comme corps exposé ; tenir son studio.",
+  "peurs": "Non attesté ; on peut déduire une vulnérabilité à la solitude après sa rupture (soupirs nocturnes à travers le mur).",
+  "maniere_d_aimer": "Jalouse et possessive : elle met fin au projet de David de faire poser nue Mary Ann Fretz en Ophélie et s'impose elle-même dans le rôle. Après la rupture avec David, soupirs nocturnes audibles chez le voisin ; son corps est fantasmé par les hommes de la communauté.",
+  "rapport_au_pouvoir": "Elle accepte sans bruit apparent les arrangements discriminatoires de l'époque (salaire versé au mari), mais elle est la seule à oser interpeller Creeley dans sa classe. Rapport pratique, non idéologique : elle tire parti des foires artisanales et du commerce d'Asheville pour compenser un maigre salaire, sans demander la permission.",
+  "voix": {
+   "registre": "Sèche, directe, lucide, sans détour ; bienveillante sous l'exaspération",
+   "tics": "Franchise frontale qui coupe court ; économie de mots",
+   "exemples_paraphrases": [
+    "Demande sèche à Creeley de parler plus fort devant tous",
+    "Sur le pot shop : « parfait pour le studio »",
+    "Aux chercheurs : vous croyez qu'il y a des réponses à tout, vous vous trompez"
+   ]
+  },
+  "habitudes": [
+   "Travaille la poterie fonctionnelle aux formes simples, dont les anneaux de surface trahissent le processus",
+   "Vend sa production dans les commerces d'Asheville et de New York, aux foires artisanales locales (Southern Highland Craft Fair, Jugtown, Seagrove)",
+   "Assise en tailleur au tour, en jupe denim et sandales",
+   "Utilise l'équipement du collège mais garde l'autonomie du four (achats et recettes)"
+  ],
+  "convictions": [
+   "Il n'y a pas nécessairement des « réponses » à tout",
+   "Chaque pièce est une expression individuelle aux caractéristiques propres",
+   "Le travail doit être centré sur la fonction, épuré",
+   "Le pot shop isolé était « parfait pour le studio »"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1946",
+    "precision": "session",
+    "moment": "Été 1946 : étudiante à la session d'été avec Albers et Molly Gregory — premier contact avec le collège",
+    "etat_interieur": "Formation, découverte du lieu",
+    "refs": [
+     "EV-03903"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Avec Weinrib, elle accepte le poste à 80 $/mois que tous leurs camarades d'Alfred avaient refusé ; découvertes de l'atelier de Turner, en parfait état, le meilleur des fours — « parfait pour le studio »",
+    "etat_interieur": "Enthousiasme professionnel pragmatique, malgré le compromis (pas membres du corps enseignant la première année)",
+    "refs": [
+     "EV-05621",
+     "CI-01896"
+    ]
+   },
+   {
+    "date": "1952-10",
+    "precision": "mois",
+    "moment": "Séminaire de céramique de dix jours : elle voit Hamada ramasser argiles et émaux sur le coteau, improviser des pinceaux en mauvaises herbes, travailler au tour — révélation de l'académisme de la poterie américaine",
+    "etat_interieur": "Marquée durablement ; l'esthétique japonaise influencera ses formes et décors ultérieurs",
+    "refs": [
+     "EV-05772",
+     "EV-05889",
+     "EV-05891",
+     "RE-02423",
+     "EC-02273"
+    ]
+   },
+   {
+    "date": "1952-11",
+    "precision": "mois",
+    "moment": "Après le dîner de Thanksgiving, des convives empilent leurs os de dinde dans ses plats et pots pour marquer leur mépris de sa poterie « commerciale »",
+    "etat_interieur": "Blessure : le rejet de l'idéal « brut » communautaire envers son travail",
+    "refs": [
+     "SC-01580",
+     "EV-05622"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Rupture avec David (Stud) avant l'été ; elle habite seule l'appartement partagé, soupirs nocturnes audibles à travers le mur",
+    "etat_interieur": "Solitude douloureuse ; objet de fantasmes masculins",
+    "refs": [
+     "RE-02526",
+     "EC-02989"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "saison",
+    "moment": "Black Arts Ball : elle met fin au projet de David de faire poser nue Mary Ann Fretz et tient elle-même le rôle d'Ophélie, nue, drapée de feuilles et fleurs, sur le radeau du lac — « amazonienne », rien de l'Ophélie suicidaire",
+    "etat_interieur": "Affirmation de soi : elle reprend le contrôle du désir et de l'image",
+    "refs": [
+     "EV-06039",
+     "SC-01624",
+     "RE-02513",
+     "QU-01753"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "mois",
+    "moment": "Première classe de Creeley : seule à oser lui demander de parler plus fort",
+    "etat_interieur": "Imperturbabilité et franchise au service de la communauté",
+    "refs": [
+     "SC-01697",
+     "SC-01736",
+     "EV-06276"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "saison",
+    "moment": "Automne 1954 : départ avec Weinrib pour la Gate Hill Cooperative de Stony Point (Richards, Tudor, Cage) ; le pot shop reste orphelin",
+    "etat_interieur": "Tourner la page vers une vie de travail communautaire",
+    "refs": [
+     "EV-06381",
+     "EV-06382",
+     "RE-02424"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Études à Brooklyn College avec l'architecte émigré russe Serge Chermayeff (futur directeur du New Bauhaus de Chicago)",
+    "refs": [
+     "PE-00077"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Formation à Alfred University (graduate work)",
+    "refs": [
+     "PE-00077",
+     "EV-05098"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Untitled (Candleholder), bougeoir asymétrique à l'architecture intérieure sensuelle — pièce antérieure à BMC",
+    "refs": [
+     "OE-02240"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Année en Italie à Sesto Fiorentino avec Weinrib : rencontre de Gio Ponti, Double Vase publiée dans Domus, prix d'achat au Sixteenth Ceramic Annual de l'Everson Museum (Syracuse)",
+    "refs": [
+     "EV-05389",
+     "OE-02429",
+     "PE-00077"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Rejoint la Gate Hill Cooperative à Stony Point avec Richards, Tudor et Cage (selon Duberman, le départ effectif vers Stony Point daterait de 1955)",
+    "refs": [
+     "EV-06302",
+     "EV-06381",
+     "PE-00077"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "periode",
+    "moment": "Vingt-cinq ans de travail ininterrompu au Land (Gate Hill) : pots, vaisseaux populaires, jardinières, tabourets, cheminées faits main pour tenir la showroom garnie ; seule David Tudor dépasse sa longévité sur place",
+    "etat_interieur": null,
+    "refs": [
+     "EV-06388"
+    ]
+   },
+   {
+    "date": "1969",
+    "precision": "annee",
+    "moment": "Vue favorablement dans Centering de Mary Caroline Richards, qui avait été son élève (admiration depuis les années 1950)",
+    "refs": [
+     "PE-00077",
+     "RE-02149"
+    ]
+   },
+   {
+    "date": "2013-12-03",
+    "precision": "jour",
+    "moment": "Interviewée par Helen Molesworth à Concord (Massachusetts) ; clôt l'entretien par une formule sèche sur l'obsession contemporaine des réponses",
+    "refs": [
+     "SC-02210",
+     "EV-08778",
+     "CI-04413"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "David Weinrib",
+    "nature": "Mariage ; co-enseignants et co-directeurs du pot shop",
+    "evolution": "Arrivés ensemble en 1952, parents de l'atelier et des instituts de céramique ; tensions de jalousie (affaire Mary Ann Fretz/Ophélie) ; rupture avant l'été 1953 ; partent pourtant ensemble à Gate Hill en 1954",
+    "refs": [
+     "RE-00845",
+     "RE-02348",
+     "RE-02424",
+     "RE-02513",
+     "RE-02526",
+     "EV-06381"
+    ]
+   },
+   {
+    "avec": "Shoji Hamada",
+    "nature": "Mentorat / admiration à distance",
+    "evolution": "Le voir travailler au tour au séminaire d'octobre 1952 influence durablement ses formes et sa sensibilité décorative",
+    "refs": [
+     "RE-02423",
+     "RE-02427",
+     "EV-05772"
+    ]
+   },
+   {
+    "avec": "Mary Caroline Richards",
+    "nature": "Professeure / élève, puis admiration",
+    "evolution": "Richards travaille intensivement avec le couple, loue ensuite l'épure de son travail dans Centering",
+    "refs": [
+     "RE-02149",
+     "EV-05452",
+     "EV-06382"
+    ]
+   },
+   {
+    "avec": "Robert Creeley",
+    "nature": "Collègue",
+    "evolution": "Seule à oser lui demander de parler plus fort lors de sa première classe catastrophique",
+    "refs": [
+     "SC-01697",
+     "SC-01736",
+     "EV-06276"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Communauté ; il assiste aux séminaires et aux bals",
+    "evolution": "Après quelques sessions ensemble, elle ne gardait visiblement pas grand espoir pour lui (tentative brève de poterie) ; son corps alimente les fantasmes masculins après sa rupture",
+    "refs": [
+     "EV-05891",
+     "PE-00077",
+     "QU-01773"
+    ]
+   },
+   {
+    "avec": "John Cage / David Tudor / M.C. Richards",
+    "nature": "Compagnons d'exode communautaire",
+    "evolution": "Les rejoignent à Gate Hill (Stony Point) après le départ de BMC",
+    "refs": [
+     "EV-06381",
+     "EV-06382",
+     "EV-06302"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Date du départ vers Stony Point : Molesworth situe le départ pour Gate Hill en 1954 (automne), Duberman en 1955 ; Duberman (1972, p.362,364) présente le couple comme gagnant le statut de faculté après un an, Molesworth insiste sur la discrimination salariale (salaire versé à Weinrib).",
+   "Nature de l'engagement 1952 : Duberman parle d'acceptation d'un poste à 80 $/mois refusé par les autres étudiants d'Alfred ; Molesworth précise une embauche pour l'été 1952 afin de reprendre les fonctions de Turner et superviser le séminaire d'octobre.",
+   "Statut perçu de son travail : jugée trop fonctionnelle/commerciale et méprisée par certains (Duberman, Harris) versus vue favorablement par Richards ; sa grande habileté technique est perçue négativement par certains, comparée à l'expérimentation de Weinrib."
+  ],
+  "situations_revelatrices": [
+   "Au tour, seule dans son atelier au champ, anneaux de surface marquant le processus",
+   "Face aux os de dinde empilés dans ses plats : la blessure silencieuse",
+   "Vendant ses pots aux foires artisanales face aux potiers vernaculaires appalachiens",
+   "Posant nue en Ophélie sur le radeau, par jalousie maîtrisée",
+   "Interpellant Creeley dans la salle silencieuse",
+   "Vieillie, clôt l'interview d'un geste de la main et d'une phrase sèche"
+  ],
+  "citations": [
+   "CI-01896",
+   "CI-04413"
+  ],
+  "questions_ouvertes": [
+   "Dates et lieu de naissance et de décès (non couverts par les fiches)",
+   "Circonstances précises de la rupture avec Weinrib et de leur départ commun à Stony Point",
+   "Contenu exact de son enseignement et nombre réel d'élèves",
+   "Sa perception propre de la discrimination salariale (jamais citée directement là-dessus)",
+   "Sa vie à Gate Hill après 1979 et sa reconnaissance tardive aux États-Unis"
+  ]
+ }
+}

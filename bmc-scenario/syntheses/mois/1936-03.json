@@ -1,0 +1,343 @@
+{
+ "passe": "mois",
+ "cle": "1936-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4918,
+  "sortie": 12949,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-03",
+  "session": "trimestre de printemps (déduit, non attesté explicitement dans les fiches)",
+  "saison_et_climat": "Fin d'hiver (déduit de la date) ; les fiches ne donnent aucune information météorologique pour ce mois.",
+  "situation": "Adamic est probablement encore au collège : les sources datent son séjour de deux mois, deux mois et demi ou trois à partir de janvier. Sa lecture de « Education on a Mountain » a eu lieu en février ou en mars selon les sources, et le débat qu'elle provoque dure plusieurs semaines. Rice est au centre de la controverse. Albers, rentré du Mexique, est sollicité par le doyen Hudnut de Harvard. La réplique de DeVoto dans Harper's commence à circuler, et le Board prépare son vote d'avril sur Knickerbocker et Goldenson.",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Louis Adamic",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Stella Adamic",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Sly",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Martin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hendrickson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Barber",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nat French",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Goldenson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zeuch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Knickerbocker",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Georgia",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Gannett",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anderson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Morton Steinau",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hudnut",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Lecture par Adamic de « Education on a Mountain » devant la communauté, puis procès du portrait de Rice en chef et sauveur : Joe Martin, Evarts, Hendrickson, Barber, Nat French, Wunsch, Goldenson et Zeuch interviennent. Chaddock date la lecture de février, Duberman de mars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02550",
+     "EV-02576",
+     "EV-02577",
+     "SC-00657",
+     "CI-01292",
+     "CI-01293",
+     "CI-01268"
+    ]
+   },
+   {
+    "date": "1936-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Le débat sur le texte d'Adamic se poursuit ; Rice avoue son impatience, appelle à faire de petits « anti-Rice » et exprime sa faim de reconnaissance.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02550",
+     "EV-02576",
+     "EV-02577",
+     "SC-00657",
+     "CI-01292",
+     "CI-01293",
+     "CI-01268"
+    ]
+   },
+   {
+    "date": "1936-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Le doyen Hudnut de Harvard approche Albers, sans obtenir d'accord. Les motifs de cette démarche sont contestés.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02575"
+    ]
+   },
+   {
+    "date": "1936-03",
+    "precision": "mois",
+    "ce_qui_arrive": "DeVoto réplique dans Harper's en comparant le collège à un sanatorium d'amateurs ; Gannett, Anderson et Adamic le défendent, et DeVoto répond avec fureur de mars à mai.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02583",
+     "EV-02578"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire de mars : ni les cours, ni les repas, ni la musique, ni les travaux. On sait seulement que la communauté vit au rythme de la visite prolongée d'Adamic, que les soirées tournent autour de son texte et de la figure de Rice, et que les étudiants se rangent dans des camps. Le travail d'atelier d'Albers en mars n'est pas documenté.",
+  "tensions": [
+   "Rice contre une partie du corps enseignant : Barber évoque « trop de moutons », Zeuch dénonce le ghost-writing de Rice, Goldenson le compare à un Socrate qui manquerait de Jésus.",
+   "Querelle sur l'image publique du collège : Rice fait l'objet d'un article de presse jugé suffisant et dénigrant par les autres collèges, et Evarts note que beaucoup en sont écœurés.",
+   "Albers, furieux après le canular du Mondrian (valeur annoncée de 50 000 dollars), reste méfiant envers la communauté, et Hudnut le sollicite.",
+   "Divergence de vues entre Adamic, qui absorbe les idées de Rice, et les professeurs qui les contestent.",
+   "Tensions annoncées pour avril : le Board votera 5 contre 2 (Georgia et Martin dissidents) un message de pessimisme à Knickerbocker et Goldenson."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le procès du portrait",
+    "date": null,
+    "lieu": "Black Mountain College (lieu de la lecture non précisé)",
+    "personnages": [
+     "Louis Adamic",
+     "Rice",
+     "Joe Martin",
+     "Evarts",
+     "Hendrickson",
+     "Barber",
+     "Nat French",
+     "Wunsch",
+     "Goldenson",
+     "Zeuch"
+    ],
+    "deroule": "Adamic lit son brouillon. La première partie, sur la querelle de Rollins et la fondation, passe bien. La partie consacrée à Rice en chef et sauveur déclenche les objections. Barber lance la formule des « moutons », Goldenson parle de Socrate et de Jésus, Zeuch accuse Rice de ghost-writing, et Rice, pipe aux lèvres, avoue son impatience. La date de la soirée reste disputée entre février et mars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02550",
+     "EV-02576",
+     "EV-02577",
+     "SC-00657",
+     "CI-01292",
+     "CI-01293",
+     "CI-01268"
+    ]
+   },
+   {
+    "titre": "Le sanatorium d'amateurs",
+    "date": "1936-03",
+    "lieu": null,
+    "personnages": [
+     "Gannett",
+     "Anderson",
+     "Adamic",
+     "DeVoto"
+    ],
+    "deroule": "La réplique de DeVoto paraît dans Harper's et compare le collège à un sanatorium d'amateurs. Gannett et Anderson répondent, Anderson évoquant le « sonnet ou le bain », et Adamic prend aussi la défense du collège. Les échanges s'échauffent jusqu'en mai.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02583",
+     "EV-02578"
+    ]
+   },
+   {
+    "titre": "Hudnut à l'atelier",
+    "date": "1936-03",
+    "lieu": "Black Mountain College (rencontre non localisée dans les fiches)",
+    "personnages": [
+     "Josef Albers",
+     "Hudnut"
+    ],
+    "deroule": "Le doyen de Harvard tente d'attirer Albers, qui ne donne pas son accord. Les fiches ne précisent pas le motif de l'approche, et plusieurs lectures sont possibles.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02575"
+    ]
+   },
+   {
+    "titre": "L'éponge et l'eau",
+    "date": "1936-03",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Louis Adamic",
+     "Stella Adamic",
+     "Rice",
+     "étudiants"
+    ],
+    "deroule": "Adamic absorbe les conversations et les idées des étudiants, selon l'image d'une éponge arrosée par eux. Rice lui expose longuement sa doctrine : enseigner la méthode et non le contenu, le processus et non les résultats.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02547",
+     "CI-01337",
+     "EV-02566"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Mars, pendant le débat sur le texte d'Adamic",
+    "vers_date": "1936-02-04",
+    "vers": "La nuit du 4 au 5 février, Evarts et Sly remplacent le Mondrian de Morton Steinau par une toile cirée rayée. Albers, furieux, annonce une valeur de 50 000 dollars, que Anni ramène à moins. Une assemblée et une fouille suivent, et les farceurs ne se dénoncent pas.",
+    "refs": [
+     "EV-02573",
+     "SC-00656"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mars, quand Adamic est encore en séjour",
+    "vers_date": "1936-01",
+    "vers": "Arrivée d'Adamic et de Stella pour une visite d'un après-midi, qui se prolonge en plusieurs semaines. Fin janvier, une interview de Rice dans le New York Herald Tribune paraît trop suffisante et dénigrante pour les autres collèges.",
+    "refs": [
+     "EV-02566",
+     "EV-02568",
+     "EV-02567",
+     "EV-02570"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mars, quand Albers reçoit les propositions de Harvard",
+    "vers_date": "1935-12",
+    "vers": "Fin 1935 et janvier 1936, Albers fait la route du Mexique en voiture avec les Dreier, visite Oaxaca, Monte Albán et Mitla, et achète des fragments de poterie et des figurines aux paysans.",
+    "refs": [
+     "SC-00627",
+     "SC-00633"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, pendant la réplique de DeVoto",
+    "vers_date": "1936-04",
+    "vers": "Harper's publie l'article d'Adamic « Education on a Mountain », accompagné de la réplique de DeVoto. Les conséquences immédiates sont 40 à 50 lettres par jour.",
+    "refs": [
+     "EV-02583",
+     "EV-02578"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, pendant la tension entre Rice et les professeurs",
+    "vers_date": "1936-04",
+    "vers": "Le Board vote 5 contre 2 un message de pessimisme à Knickerbocker et Goldenson. Dans le jardin, Rice, qui bêche des pommes de terre, fait semblant de ne pas savoir que Knickerbocker se dit renvoyé.",
+    "refs": [
+     "EV-02584",
+     "EV-02580"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, pendant la fin de séjour d'Adamic (≈)",
+    "vers_date": "1936-04",
+    "vers": "Adamic quitte le collège après trois mois de séjour, selon EV-02566. Date probable, non précisée dans les fiches.",
+    "refs": [
+     "EV-02566"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, quand Albers reste en retrait de la vie publique",
+    "vers_date": "1936-06",
+    "vers": "Albers repart au Mexique pour trois mois, peint onze à douze huiles aujourd'hui perdues et voit Clave de sol exposée dans le hall d'El Nacional. Anni fait ses tapisseries Ancient Writing et Monte Alban.",
+    "refs": [
+     "EV-02595",
+     "EV-02597",
+     "EV-02598"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, pendant la controverse de presse",
+    "vers_date": "1936-06",
+    "vers": "Une page photo du New York Times, avec 50 à 55 lettres la première semaine. Van Middlesworth la juge « horrible, mensongère ». Le Board décide de ne pas joindre de tirés à part au catalogue.",
+    "refs": [
+     "EV-02581",
+     "EV-02593",
+     "CI-01365",
+     "EV-02498"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, pendant la crise Knickerbocker-Goldenson",
+    "vers_date": "1936-12",
+    "vers": "Une résolution de non-réappointement est votée, six semaines après la rentrée selon Duberman ou après Thanksgiving selon Chaddock, sources qui ne se concilient pas. Zeuch exige une réunion nocturne, l'appel est rejeté le 7 décembre, et la démission de Goldenson est autorisée.",
+    "refs": [
+     "EV-02609",
+     "EV-02619",
+     "EV-02610",
+     "EV-02629"
+    ]
+   }
+  ],
+  "motifs": [
+   "La publicité comme mythe fondateur : l'article et la presse font de Rice un personnage public.",
+   "Éponge et eau : l'influence circule à sens unique entre Adamic et les étudiants.",
+   "La farce comme forme de contestation : le canular du Mondrian ne sera jamais élucidé.",
+   "Charisme contre ghost-writing : Rice est admiré et accusé en même temps.",
+   "La fracture du collège : Knickerbocker et Goldenson contre Rice, qui s'annonce dès mars."
+  ],
+  "lacunes": "Aucune date précise n'est donnée pour mars. La date de la lecture d'Adamic (février ou mars) et la durée exacte de son séjour sont contestées. Les fiches ne disent rien de la météo, de la vie quotidienne, des cours, de la musique ni de la présence de Knickerbocker et Goldenson en mars. Le motif de l'approche de Hudnut reste discuté. La visite de Walter Locke et la phrase de Rice sur « fermer le collège » ne sont pas datées."
+ }
+}

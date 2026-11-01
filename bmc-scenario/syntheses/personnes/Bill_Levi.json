@@ -1,0 +1,310 @@
+{
+ "passe": "personnes",
+ "cle": "Bill Levi",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 11307,
+  "sortie": 4249,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Bill Levi",
+  "autres_noms": [
+   "Bill T. Levi",
+   "William Levi"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Professeur de philosophie/sciences sociales (1945-1950), recteur de mars 1947 à juin 1948 ; figure centrale du schisme Albers-Levi et de la dernière grande querelle interne",
+  "presence": [
+   {
+    "debut": "1945",
+    "fin": "1948-06",
+    "precision": "annee",
+    "role": "Professeur (sciences sociales/philosophie), puis recteur élu en mars 1947 ; démissionne du rectorat en juin 1948 mais reste enseignant",
+    "refs": [
+     "EV-03722",
+     "EV-04098",
+     "EV-04516"
+    ]
+   },
+   {
+    "debut": "1948-08",
+    "fin": "1949",
+    "precision": "annee",
+    "role": "Congé d'un an avec M.C. Richards, départ en Europe (avec retour bref fin août 1948 pour le Ruse de Méduse)",
+    "refs": [
+     "EV-04516",
+     "EV-04551",
+     "EV-05319"
+    ]
+   },
+   {
+    "debut": "1949",
+    "fin": "1950-12",
+    "precision": "annee",
+    "role": "Retour à l'automne 1949 (à contrecœur) comme professeur ; non réengagé au vote de juin 1950 ; départ effectif en décembre 1950",
+    "refs": [
+     "EV-04643",
+     "EV-05229",
+     "EV-05266"
+    ]
+   }
+  ],
+  "portrait_physique": "Chauve, traits fins, barbe en collier ; ressemblance frappante avec Lénine — détail à exploiter visuellement face à Albers (PE-00088).",
+  "noyau_psychologique": "Intellectuel lucide, organisateur brillant, convaincu que l'éducation est transmission de culture et accumulation d'informations. Ambitionne d'être une figure charismatique aimée pour son autorité naturelle — et ne l'est pas, ce qui nourrit sa haine d'Albers, qui l'était (PE-00088). Mêle un vrai souci des individus à un instinct d'impressionner et un goût de la politique interne et des camps. Au fond : un philosophe qui croit à la raison, dépassé par ses propres rancunes.",
+  "blessures": "Le renversement du vote de juin 1948, vécu comme manœuvre délibérée et malveillante : « s'ils veulent tellement cet endroit, qu'ils le gardent » (SC-01171, EV-04516). Ne jamais être aimé comme leader ; être vu comme froid, condescendant, « totalement abstrait » (PE-00088). Un mariage fragile qui se défait en public (RE-01189, RE-01656).",
+  "desirs": "Élever sciences sociales et humanités au rang des arts, enseignées autour des problèmes actuels de politique publique ; élargir le collège et recruter ; que sa compétence administrative soit reconnue (EV-04041, EV-04516, PE-00088).",
+  "peurs": "Que le collège reste une oligarchie informelle des arts autour d'Albers ; l'effacement de sa propre autorité (EV-04241, RE-01649).",
+  "maniere_d_aimer": "Mariage avec M.C. Richards, styles opposés — lui impressionnant, elle encourageante ; on suppose qu'elle partage toutes ses opinions alors que leurs tempéraments diffèrent (RE-01643, RE-01189). La séparation (1951) se joue dans l'arène collective : il part avec leur fille Estelle, elle reste (EV-05457, EV-05266).",
+  "rapport_au_pouvoir": "Croit au « leadership » de la faculté en classe ; veut des pouvoirs d'embauche pour le recteur ; mais déclare aussi que Black Mountain fonctionne « bien plus comme une famille que comme une institution » (CI-02365, PE-00088, ID-01974). Accusé par Albers de chercher une « prise de contrôle » — Duberman le juge moins déterminé et moins adroit qu'Albers ne le prétendait ; l'offre contestée à Bolotowsky d'« virer » Albers n'est pas prouvée (RE-01649, EV-04248).",
+  "voix": {
+   "registre": "Formel, précis, un peu froid ; didactique, pontifiant ; mais capable d'ironie légère et d'absurde cérémonial (le duel culinaire)",
+   "tics": "Tintement de verre pour prendre la parole ; citations d'informations inconnues de l'interlocuteur ; prétend admirer avant de suggérer, mais glisse vers la critique",
+   "exemples_paraphrases": [
+    "Deux sortes de gens au collège : les yeux bleus qui travaillent les mains, les yeux bruns qui parlent d'idées",
+    "L'économie est plus importante que l'art (selon Albers)",
+    "Tout est d'un calme inquiétant : personne n'a encore proposé d'amender la constitution étudiante",
+    "Seuls des moyens sans précédent peuvent résoudre une crise sans précédent — d'où le duel aux wiener schnitzel"
+   ]
+  },
+  "habitudes": [
+   "Golf au parcours municipal de Black Mountain (1946-48)",
+   "Participe aux brigades de vaisselle et de corvées comme tout le monde, sandales comprises",
+   "Fait tinter son verre pour annoncer les choses importantes",
+   "Collecte d'informations, culte de l'« expertise », dissections abstraites et érudites en classe"
+  ],
+  "convictions": [
+   "L'éducation est transmission de culture et de standards disciplinés, avec ouverture",
+   "Priorité des sciences sociales sur l'art dans la mission du collège",
+   "Conscience des motivations inconscientes que l'homme ne reconnaîtra jamais",
+   "Accepte l'enseignement par les étudiants ; Black Mountain comme famille plus qu'institution",
+   "Les deux emphases, active et contemplative, valent pour professeurs comme étudiants"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1945",
+    "precision": "annee",
+    "moment": "Arrivée au corps enseignant pendant l'expansion d'après-guerre (GI Bill) ; relations d'emblée épineuses avec Albers",
+    "etat_interieur": "Nouveau venu ambitieux, voulant rééquilibrer le collège dominé par les arts",
+    "refs": [
+     "EV-03722",
+     "RE-01474"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "annee",
+    "moment": "Co-auteur du rapport Wallen-Levi-Rondthaler : création du Community Council ; apaise la pétition Niebyl ; accepte le student-teaching ; parallèle rivalité croissante avec Wallen pour les étudiants de sciences sociales",
+    "etat_interieur": "Réformateur confiant, démocratisateur vu par les craintifs comme révolutionnaire de palais",
+    "refs": [
+     "EV-03878",
+     "EV-03876",
+     "EV-03831",
+     "RE-01513"
+    ]
+   },
+   {
+    "date": "1947-03",
+    "precision": "mois",
+    "moment": "Élu recteur avec l'appui de Dreier ; réformes financières avec Rondthaler (frais, renvoi du personnel, réserve constituée) ; rééquilibrage du programme ; départ des Albers au Mexique ; lettre à Albers annotée au crayon ; mai : ironie sur la constitution étudiante",
+    "etat_interieur": "Au sommet de son influence, administrateur efficace",
+    "refs": [
+     "EV-04098",
+     "EV-04040",
+     "EV-04041",
+     "EV-04107",
+     "CI-01953"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Printemps : retour d'Albers qui désapprouve tout et l'accuse de prise de pouvoir ; friction domestique à Roadside (désordre, chaudière) ; participe avec M.C. et Wallen à la classe de théâtre de Penn ; désamorce la querelle Cage/Bodky par son duel culinaire parodique ; déclare « l'économie plus importante que l'art »",
+    "etat_interieur": "Confiant en public, rongé par l'opposition personnelle et politique",
+    "refs": [
+     "EV-04241",
+     "EV-04242",
+     "SC-01063",
+     "EV-04234",
+     "SC-01147"
+    ]
+   },
+   {
+    "date": "1948-06",
+    "precision": "mois",
+    "moment": "Le Board of Fellows bloque ses propositions ; vote gagné à une voix puis renversé pendant l'interruption de séance ; il démissionne du rectorat ; congé d'un an",
+    "etat_interieur": "Sentiment de trahison profonde, blessure qui ne se refermera pas",
+    "refs": [
+     "SC-01171",
+     "EV-04516",
+     "EV-04517"
+    ]
+   },
+   {
+    "date": "1948-07",
+    "precision": "mois",
+    "moment": "Séjour chez les Rondthaler à Ocracoke ; brève retour fin août pour le Ruse de Méduse traduit par M.C. ; fin août : Albers élu recteur, les Levi protestent en vain et partent pour l'Europe sans savoir s'ils reviendront",
+    "etat_interieur": "Exilé amer ; M.C. évoque fonder ailleurs « un bon endroit tourné vers l'avenir »",
+    "refs": [
+     "EV-04524",
+     "EV-04551",
+     "EV-04552"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "Retour à l'automne, lui plus à contrecœur ; la déclaration sur Pittenger (« ne rapportait pas d'argent ») ; lettre à de Kooning promettant des « vibrations moins négatives » ; rivalité avec Natasha qui devient le foyer décisif du conflit",
+    "etat_interieur": "Revenu par devoir plus que par désir ; lucidité amère sur le potentiel humain",
+    "refs": [
+     "EV-04643",
+     "EV-04902",
+     "EV-04905",
+     "RE-01829",
+     "RE-01655"
+    ]
+   },
+   {
+    "date": "1950-06",
+    "precision": "mois",
+    "moment": "Le Board (8 membres sur 22, bulletin secret) vote de ne pas réengager les Levi et Joe Fiore ; le vote contre M.C. est un vote contre lui ; sondage étudiant de Cernovich le soutient ; Betty Jennerjahn défend sa réélection malgré son antipathie personnelle",
+    "etat_interieur": "Défait institutionnellement mais soutenu par la majorité — position paradoxale",
+    "refs": [
+     "EV-05229",
+     "EV-05230",
+     "SC-01272",
+     "RE-01952"
+    ]
+   },
+   {
+    "date": "1950-12",
+    "precision": "mois",
+    "moment": "Départ de Black Mountain ; à Huss qui lui propose un dîner d'adieu, il répond « Natasha » — celle qui a dirigé la campagne contre lui ; M.C. choisit de rester, séparation définitive",
+    "etat_interieur": "Mélancolie magnanime ; « voilà le philosophe qui est en lui » (Dan Rice)",
+    "refs": [
+     "EV-05266",
+     "SC-01271",
+     "EV-04956",
+     "RE-01656"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Diplômé de l'Université de Chicago, où il enseignait la philosophie avant de rejoindre BMC",
+    "refs": [
+     "EV-03722",
+     "PE-00088"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Après la dernière dévastatrice querelle de faculté, part pour Washington University emmenant sa fille Estelle ; sa séparation d'avec M.C. est consommée ; il demeure l'un des deux foyers (avec Natasha) du factionnalisme final",
+    "refs": [
+     "EV-05457",
+     "EV-05320",
+     "RE-02318",
+     "PE-00088"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Mary Caroline Richards",
+    "nature": "mariage",
+    "evolution": "Années 1940 à 1951 ; mariage fragile, tempéraments opposés (lui impressionnant, elle encourageante) ; assimilée à lui au vote de purge de 1950 ; séparation consommée quand il part en décembre 1950 et elle reste",
+    "refs": [
+     "RE-01189",
+     "RE-01194",
+     "RE-01643",
+     "RE-01656",
+     "EV-05319"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "rivalité puis conflit ouvert",
+    "evolution": "Relations épineuses dès 1945 ; domesticité partagée à Roadside et chaudière en 1948 ; retour d'Albers et accusation de prise de pouvoir ; renversement de vote de juin 1948 ; plus un mot échangé ; phrase « l'économie plus importante que l'art » comme détonateur ; se solde par l'élection d'Albers comme recteur et le départ des Levi ; rancunes albersiennes intactes des années plus tard",
+    "refs": [
+     "RE-01474",
+     "RE-01642",
+     "RE-01648",
+     "RE-01649",
+     "EV-04242",
+     "EV-04444"
+    ]
+   },
+   {
+    "avec": "Natasha Goldowski",
+    "nature": "rivalité personnelle",
+    "evolution": "1948-1951 : leurs travers de personnalité comptent plus que la politique ; elle dirige l'effort pour l'évincer ; en partant il l'invite pourtant à son dîner d'adieu — geste de réconciliation manqué ou grande d'âme",
+    "refs": [
+     "RE-01655",
+     "RE-01829",
+     "RE-01833",
+     "SC-01271"
+    ]
+   },
+   {
+    "avec": "Theodore Wallen",
+    "nature": "co-auteur puis rival",
+    "evolution": "Co-auteurs du rapport de réorganisation de 1946, mais les étudiants de sciences sociales migrent de Wallen vers Levi, dont le modèle moins menaçant",
+    "refs": [
+     "RE-01513",
+     "EV-03878"
+    ]
+   },
+   {
+    "avec": "Wesley Huss",
+    "nature": "amitié",
+    "evolution": "Organise son dîner d'adieu en 1950 ; confident du geste « Natasha »",
+    "refs": [
+     "RE-01954",
+     "EV-04956"
+    ]
+   },
+   {
+    "avec": "Arthur Penn",
+    "nature": "professeur devenu étudiant de son étudiant",
+    "evolution": "En 1948, Levi suit le cours de théâtre du jeune Penn, dont il était professeur — figure de son acceptation réelle du student-teaching",
+    "refs": [
+     "SC-01063",
+     "EV-04211"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Départ daté différemment : Lane 1990 situe le départ en 1950 après le vote manqué de réélection ; Duberman confirme décembre 1950 ; mais la fiche agrégée mentionne aussi un départ pour l'Europe en 1948 (congé d'un an) puis pour Washington University « vers 1951 » — deux départs distincts à ne pas confondre (PE-00088, EV-05266, EV-05457).",
+   "Levi décrit tantôt comme trop ordonné et discipliné par les étudiants, tantôt dénoncé comme « complètement non structuré » par Trude Guermonprez (PE-00088).",
+   "L'accusation d'Albers de « prise de contrôle » — et l'offre rapportée à Bolotowsky d'écarter Albers — n'est pas corroborée ; Duberman n'a trouvé aucune preuve d'une volonté de purge (RE-01649, EV-04248).",
+   "Portrait clivé : réserve didactique et condescendance pour les uns ; esprit fin, généreux, attentif aux individus pour les autres (PE-00088).",
+   "La déclaration « l'économie plus importante que l'art » est rapportée par Albers lui-même (Díaz 2014) — donc une source adverse."
+  ],
+  "situations_revelatrices": [
+   "La parodie du duel culinaire : le sérieux imperturbable au service de l'absurde pour désamorcer un conflit (SC-01069, EV-04234)",
+   "Le renversement de vote de juin 1948 : sa réaction à la trahison, la démission (SC-01171)",
+   "En classe, comme étudiant de Penn devant ses propres étudiants : acceptation concrète du student-teaching (SC-01063)",
+   "Les corvées de vaisselle en sandales : l'égalitarisme pratiqué (QU-01085)",
+   "Le dîner d'adieu et le nom « Natasha » : le philosophe au moment de la défaite (SC-01271)",
+   "Le golf municipal et l'ironie sur la constitution étudiante : son humour discret en temps calme (QU-01039, CI-01953)"
+  ],
+  "citations": [
+   "CI-01953",
+   "CI-02344",
+   "CI-02365"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, vie avant Chicago, vie après Washington University : rien dans les fiches",
+   "Contenu exact de sa lettre de trois pages à Albers (mai 1947) et de l'annotation au crayon d'Albers",
+   "Ce que lui et M.C. se sont dit au moment de la séparation ; le silence de Dawson suggère une période dont « personne ne parle »",
+   "Sa position exacte lors des alignements obscurs de la dernière querelle — Duberman note que chaque principal participant disait toutes les autres sources inexactes (EV-05320)",
+   "L'attribution à Bill Levi du Levi cité par EV-02808 avec Natasha pour les Sciences dans la haine Olson/Doyle (≈1938-1954) : cohérente chronologiquement mais à manier avec prudence, la fiche débutant avant son arrivée"
+  ]
+ }
+}

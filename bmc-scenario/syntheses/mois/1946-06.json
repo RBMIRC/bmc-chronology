@@ -1,0 +1,206 @@
+{
+ "passe": "mois",
+ "cle": "1946-06",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3675,
+  "sortie": 8658,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1946-06",
+  "session": "Fin du semestre de printemps, entre-deux avant le Summer Art Institute de juillet-août ; les fiches ne datent pas juin plus finement.",
+  "saison_et_climat": "Fin de printemps qui glisse vers l'été. Le climat n'est pas documenté dans les fiches ; on peut seulement supposer (déduit) une chaleur croissante en Caroline du Nord.",
+  "situation": "Le collège sort d'un printemps tendu. Le Community Council de huit membres est installé et Wallen est en passe de le présider. Albers, qui se méfie de lui, reste en poste jusqu'à la fin de l'institut d'été puis part en sabbatique. Le département de musique est amputé par la mort de Jalowetz, dont la date reste contestée. La presse est en cours de remise en état. L'institut d'été approche, avec la visibilité que lui donnent le numéro de Design et l'article de Junior Bazaar.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mme Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Charlotte « Bimbus » Schlesinger",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jim Tite",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ann Mayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rondthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lowinsky (Eddie et son épouse)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1946-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Trude Guermonprez, fille des Jalowetz restée aux Pays-Bas pendant la guerre, obtient un visa américain sur l'invitation d'Anni Albers. Elle enseignera avec Albers de 1947 à 1948.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03970"
+    ]
+   },
+   {
+    "date": "1946-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Wallen est élu président du Community Council, le mois suivant sa déclaration écrite du 13 mai contre Albers. Ce vote accroît la méfiance d'Albers. Source : synthèse de l'année, sans date de fiche précise.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1946-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Préparatifs de l'institut d'été (juillet-août) : ateliers à remettre en ordre, tisserandes et sculpteurs attendus, dernier semestre d'Albers avant sa sabbatique.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les GI remplissent des locaux prévus pour soixante étudiants. Les baraquements montés à la main, dont le Deep South, servent d'études et de salles de classe. Mme Jalowetz donne des cours de chant et de reliure. Tite et Mayer remettent la presse en état, et un cours de douze étudiants pratique le student-teaching avec Weitzer. Molly Gregory fait encore tourner la ferme à peu près seule, en attendant l'arrivée des Moles et des Trayers à l'automne.",
+  "tensions": [
+   "Albers accuse Wallen de vouloir « prendre le pouvoir » (« The Kaiser ») et lui reproche ses méthodes, qui rappellent celles des « Bentleyites ».",
+   "Le Council et son référendum révocatoire inquiètent une partie de la faculté qui y voit une perte d'autorité.",
+   "Niebyl est soupçonné par les Européens de préparer une cellule communiste ; son contrat va bientôt prendre fin.",
+   "Le télégramme « 47 », ouvert par erreur, nourrit des soupçons de complot.",
+   "Les étudiants poussent l'intégration raciale plus vite que la faculté.",
+   "La mort de Jalowetz et la perte de la moitié du département de musique pèsent sur la communauté.",
+   "Wallen renonce à son doctorat de Harvard, ce qui nourrit les rumeurs sur ses intentions.",
+   "Le coût de la vie monte vite avec l'afflux d'étudiants."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le woodshop passe à Weitzer",
+    "date": null,
+    "lieu": "atelier de menuiserie",
+    "personnages": [
+     "Weitzer",
+     "Rondthaler",
+     "Molly Gregory"
+    ],
+    "deroule": "Molly Gregory annonce son départ. Rondthaler demande à Weitzer de prendre seul l'atelier, à condition que la porte reste déverrouillée. La scène peut jouer le passage de témoin et le climat de confiance fragile entre les anciens et les nouveaux.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "La presse retrouvée se remet en marche",
+    "date": "1946",
+    "lieu": "annexe cachée de l'atelier de menuiserie",
+    "personnages": [
+     "Jim Tite",
+     "Ann Mayer",
+     "Rondthaler"
+    ],
+    "deroule": "La presse Challenge-Gordon et ses casses en désordre, découvertes à l'aube, sont nettoyées et remontées. Un moteur de Kelvinator est installé. Rondthaler bénit la « résurrection » de la Black Mountain Press, et l'équipe ira observer un imprimeur d'Asheville.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Wallen prend la présidence du Council",
+    "date": "1946-06",
+    "lieu": null,
+    "personnages": [
+     "John Wallen",
+     "Josef Albers",
+     "Levi",
+     "Rondthaler"
+    ],
+    "deroule": "Après la déclaration écrite de Wallen, Albers voit dans sa montée à la présidence la confirmation de ses craintes. La faculté doit accepter un pouvoir nouveau dans une ambiance de soupçon. La scène peut tourner autour du silence d'Albers.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Cours de chant et de reliure de Mme Jalowetz",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Mme Jalowetz",
+     "Charlotte Schlesinger",
+     "étudiants"
+    ],
+    "deroule": "Mme Jalowetz forme quelques étudiants au chant et enseigne la reliure. Dans le département de musique affaibli, les cours sont le seul lien avec Heinrich Jalowetz.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juin 1946, dans le département de musique désorganisé par le deuil",
+    "vers_date": null,
+    "vers": "La mort de Heinrich Jalowetz, sur la pelouse après un concert chez les Straus, selon Lane ; ou après le Requiem de Brahms, selon un autre récit de Lane. Duberman la place début 1946 ou vers 1945, et Rumaker raconte un corps transporté sur un wagon plat puis enterré sous des pierres. Les sources se contredisent sur la date.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juin 1946, quand la presse et le Council sont au centre des discussions",
+    "vers_date": "1946-05-13",
+    "vers": "La déclaration écrite de Wallen devant la faculté après son entretien « communication zéro » avec Albers, qui lui reproche d'user des tactiques des Bentleyites.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin 1946, à la veille de l'institut d'été",
+    "vers_date": "1946-12",
+    "vers": "Les Albers s'installent à La Luz, dans une maison en adobe où Josef écrit « enfin la paix » ; la série Variants/Adobes y naît selon une fiche, au Mexique selon d'autres.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin 1946, quand Guermonprez obtient son visa",
+    "vers_date": "1947",
+    "vers": "Trude Guermonprez enseigne aux côtés d'Albers, de 1947 à 1948 ; elle est arrivée grâce à l'invitation d'Anni Albers.",
+    "refs": [
+     "EV-03970"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juin 1946, quand le voyage en Italie des Lowinsky est reporté",
+    "vers_date": "1947-08",
+    "vers": "Les Lowinsky, retenus par le collège à cause de la mort de Jalowetz et de la perte du département de musique, ne partent pour l'Italie qu'en août 1947, après un report d'un an de la bourse Guggenheim.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "Le deuil de Jalowetz et la mémoire de la communauté",
+   "La querelle sur le pouvoir : Council contre autorité européenne",
+   "La presse ressuscitée et le travail manuel",
+   "L'afflux de GI et la pression matérielle de l'après-guerre",
+   "L'intégration raciale poussée par les étudiants",
+   "Le départ de la génération européenne et la relève"
+  ],
+  "lacunes": "La date de la mort de Jalowetz reste contestée entre 1945 et le début de 1946. Je ne trouve aucune fiche datée précisément en juin à part le visa de Guermonprez. Les dates de la présidence de Wallen, de la fin du contrat de Niebyl, de la pétition et du départ de Molly Gregory ne sont pas fixées. Les fiches datées « 1946-47 » pourraient en réalité renvoyer à l'automne 1945. Les sources donnent 61 pétitionnaires sur 90 étudiants, puis 75 étudiants au printemps, ce qui ne concorde pas. La synthèse de l'année n'a pas d'identifiant de fiche, d'où des refs vides."
+ }
+}

@@ -1,0 +1,279 @@
+{
+ "passe": "mois",
+ "cle": "1936-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 7235,
+  "sortie": 15321,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-04",
+  "session": "Fin du printemps de l'année universitaire 1935-1936 ; les fiches ne nomment pas de session précise pour ce mois",
+  "saison_et_climat": "Printemps. Le jardin est au travail (les pommes de terre sont bêchées). Les fiches ne décrivent pas le climat plus précisément.",
+  "situation": "Le collège vit deux affaires à la fois. Le Board of Fellows vient de voter (5 voix contre 2) un message de pessimisme à Knickerbocker et Goldenson, deux jeunes enseignants, et la version de ce vote devient un enjeu. Dans le même temps, l'article d'Adamic paraît dans Harper's, suivi de l'attaque de Bernard DeVoto : le collège entre dans le débat national, alors qu'il est divisé en interne (Rice contre Knickerbocker, factions étudiantes). Adamic et sa femme sont probablement sur le départ, après un séjour de deux à trois mois selon les sources.",
+  "presents_probables": [
+   {
+    "nom": "John Andrew Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mangold",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Beaman",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Georgia",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Joe Martin",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Irving Knickerbocker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Goldenson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Louis Adamic",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zeuch",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution de l'article d'Adamic dans Harper's. Les sources donnent des titres différents (« Education on a Mountain », « Black Mountain: An Experiment in Education », ou simple récit du passage d'un étudiant de l'isolement à l'intégration). C'est le premier grand relais public du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02579",
+     "EV-02581",
+     "EV-02582"
+    ]
+   },
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Bernard DeVoto attaque le collège dans sa chronique « The Easy Chair » et le compare à un sanatorium tenu par des amateurs optimistes. Harold H. Anderson lui répond (le « sonnet ou le bain »). Rice attribue l'hostilité à l'origine utahne de DeVoto.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02583"
+    ]
+   },
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board of Fellows vote, par 5 voix contre 2 (Georgia et Martin dissidents), l'envoi d'avertissements à Knickerbocker (fin de première année) et à Goldenson (fin de deuxième année). Le message juge pessimiste leur aptitude à devenir des enseignants durables. Aucun compte rendu de la réunion ne subsiste.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02584"
+    ]
+   },
+   {
+    "date": "1936-04-15",
+    "precision": "jour",
+    "ce_qui_arrive": "Lettre de Georgia à Knickerbocker, datée du 15 avril, dans le sillage de sa dissidence au Board.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02584"
+    ]
+   },
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Scène du jardin : Rice bêche les pommes de terre, une étudiante lui annonce que Knickerbocker se dit renvoyé. Rice feint l'ignorance et renvoie à la lettre du Board, dont la formulation n'équivaut pas à un renvoi. Knickerbocker et Goldenson annoncent leur retour à l'automne pour une « année de grâce ».",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00658",
+     "EV-02580"
+    ]
+   },
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Des factions étudiantes se forment autour de Rice et de Knickerbocker.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02553"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Départ probable de Louis Adamic et de sa femme, après un séjour de deux, deux mois et demi ou trois mois selon les sources.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02566"
+    ]
+   }
+  ],
+  "quotidien": "Le travail du jardin (Rice bêche les pommes de terre). Les réunions de faculté et les débats : le texte d'Adamic, lu depuis février, continue de diviser, le Board délibère sur les deux jeunes enseignants, et les étudiants se rangent en factions. Les fiches ne décrivent ni les repas, ni la musique, ni les cours de ce mois.",
+  "tensions": [
+   "La version des faits sur Knickerbocker : avertissement ou renvoi. Le Board parle d'avertissement, Knickerbocker et ses partisans parlent de renvoi, et Rice joue l'ignorance.",
+   "Le Board est divisé 5 contre 2 ; Georgia et Martin sont seuls dissidents, face à Rice et Albers dans la majorité.",
+   "L'article d'Adamic divise : Gannett, Anderson et Adamic le défendent, DeVoto y voit un sanatorium d'amateurs.",
+   "Le portrait de Rice en chef et sauveur irrite une partie des professeurs : Zeuch dénonce le ghost-writing, Goldenson ironise sur le « Socrate rude ».",
+   "Rice avoue sa faim de reconnaissance tout en appelant à des « anti-Rice » : sa posture publique et la critique interne se contredisent.",
+   "Le collège attire la publicité alors qu'il est fracturé de l'intérieur : le mythe naissant contre la réalité des conflits."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le jardin et la lettre du Board",
+    "date": "1936-04",
+    "lieu": "jardin du collège",
+    "personnages": [
+     "John Andrew Rice",
+     "une étudiante",
+     "Irving Knickerbocker"
+    ],
+    "deroule": "Rice bêche les pommes de terre. Une étudiante l'aborde (« You're a nice one ») et lui annonce que Knickerbocker se dit renvoyé. Rice joue l'étonnement (« We did? Are you sure? ») et l'invite à demander la lettre du Board. Le piège retourne le mensonge contre Knickerbocker, et ses partisans commencent à le lâcher.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00658",
+     "EV-02580"
+    ]
+   },
+   {
+    "titre": "Le vote du Board sur les avertissements",
+    "date": "1936-04",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Andrew Rice",
+     "Josef Albers",
+     "Dreier",
+     "Mangold",
+     "Mary Beaman",
+     "Georgia",
+     "Joe Martin"
+    ],
+    "deroule": "Le Board of Fellows statue sur Knickerbocker et Goldenson. Vote : 5 pour (Rice, Dreier, Mangold, Albers et la modératrice étudiante Mary Beaman), 2 contre (Georgia et Martin). Le message de pessimisme part, sans compte rendu conservé : la scène ne peut se reconstituer qu'à partir de témoignages divergents.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02584"
+    ]
+   },
+   {
+    "titre": "Harper's sur la table",
+    "date": "1936-04",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Louis Adamic",
+     "John Andrew Rice"
+    ],
+    "deroule": "Le numéro de Harper's circule. Adamic y raconte comment un étudiant passe de la nuit du désespoir à l'intégration au groupe. Puis paraît la chronique de DeVoto, qui compare le collège à un sanatorium d'amateurs. Rice attribue l'attaque à l'origine utahne de DeVoto, et Adamic écrit à Rice que DeVoto « résume ce qui ne va pas ». La polémique sort du campus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02579",
+     "EV-02583"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Avril : la lettre du Board et l'article de Harper's, le collège cherche son image",
+    "vers_date": "1936-01",
+    "vers": "L'arrivée d'Adamic en janvier et l'exposé de Rice sur la méthode contre le contenu, qui nourrit l'article.",
+    "refs": [
+     "EV-02566",
+     "EV-02547"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Avril : la bataille des versions autour de Knickerbocker",
+    "vers_date": "1936-02",
+    "vers": "Le canular du Mondrian remplacé par une toile cirée, les 4-5 février : une farce collective que personne ne dénonce.",
+    "refs": [
+     "EV-02573",
+     "SC-00656"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Avril : le portrait de Rice en sauveur a déjà déclenché le procès du collège",
+    "vers_date": "1936-02",
+    "vers": "La lecture du brouillon d'Adamic, « Education on a Mountain », devant la communauté : février pour Chaddock, mars pour Duberman. Le procès qui suit dure des semaines.",
+    "refs": [
+     "EV-02550",
+     "EV-02576",
+     "EV-02577",
+     "SC-00657"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril : l'article de Harper's et la réplique de DeVoto",
+    "vers_date": "1936-06",
+    "vers": "Début juin : 50 à 55 lettres la première semaine, une page photo du New York Times que Van Middlesworth juge « horrible, mensongère ». Le Board refuse les tirés à part.",
+    "refs": [
+     "EV-02581",
+     "EV-02593",
+     "CI-01365",
+     "EV-02498"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril : le vote 5 contre 2 et la scène du jardin",
+    "vers_date": "1936-09",
+    "vers": "À l'automne, Knickerbocker et Goldenson reviennent pour leur « année de grâce ».",
+    "refs": [
+     "EV-02580",
+     "EV-02584"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril : la dissidence de Georgia et Martin au Board",
+    "vers_date": "1936-12-07",
+    "vers": "Le 7 décembre, la réunion de faculté rejette l'appel de Zeuch, la démission de Goldenson est autorisée, et Zeuch parle de « début de la fin ».",
+    "refs": [
+     "EV-02609",
+     "EV-02619",
+     "EV-02610"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril : Albers et sa femme au collège, avant leur retour au Mexique",
+    "vers_date": "1936-06",
+    "vers": "Juin à août : Albers repart au Mexique, peint des huiles et expose à El Nacional, tandis qu'Anni fait ses deux grandes tapisseries.",
+    "refs": [
+     "EV-02595",
+     "EV-02597",
+     "EV-02598"
+    ]
+   }
+  ],
+  "motifs": [
+   "La version des faits : renvoi ou avertissement",
+   "La presse comme miroir d'un collège divisé",
+   "L'autorité de Rice et le ressentiment qu'elle suscite",
+   "Le mythe naissant face aux conflits internes",
+   "L'innocence jouée et l'ironie",
+   "La dissidence minoritaire au Board"
+  ],
+  "lacunes": "Aucun compte rendu du vote du Board n'a survécu, et Chaddock et Duberman divergent sur ce qui s'y est dit. Les événements d'avril restent datés au mois, sauf la lettre de Georgia. On ignore la date exacte du départ des Adamic (deux, deux mois et demi ou trois mois selon les sources) et le titre exact de l'article de Harper's, que les fiches donnent différemment. Le nom de la session n'est pas indiqué. Les fiches ne disent rien des repas, de la musique ou des cours d'avril. La réunion d'explication du Board n'est pas datée et n'est attestée qu'en décembre."
+ }
+}

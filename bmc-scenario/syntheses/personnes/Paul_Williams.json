@@ -1,0 +1,328 @@
+{
+ "passe": "personnes",
+ "cle": "Paul Williams",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5649,
+  "sortie": 3456,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Paul Williams",
+  "autres_noms": [
+   "Paul Beidler Williams (à vérifier)"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Ancien étudiant (été 1948), époux de Vera Williams, bienfaiteur majeur, architecte résident, créancier principal du collège à la fin",
+  "presence": [
+   {
+    "debut": "1948",
+    "fin": "1948",
+    "precision": "session",
+    "role": "Étudiant à la session d'été (futur soutien de Cage et Cunningham ; le Williams Mix portera son nom)",
+    "refs": [
+     "EV-04531",
+     "EV-04525"
+    ]
+   },
+   {
+    "debut": "1946",
+    "fin": "1948",
+    "precision": "periode",
+    "role": "Présence attestée via concerts de disques informels (hi-fi, Bach, Beethoven, Bartók) — dates déduites, période à manier avec prudence",
+    "refs": [
+     "EV-03844",
+     "QU-01040"
+    ]
+   },
+   {
+    "debut": "1949",
+    "fin": "1949",
+    "precision": "annee",
+    "role": "Architecte : conçoit la Minimum House (financée par sa mère, ~1 000 $) et le pot shop en consultation avec Robert Turner",
+    "refs": [
+     "EV-04219",
+     "EV-04628",
+     "EV-04682",
+     "SC-01203"
+    ]
+   },
+   {
+    "debut": "1953",
+    "fin": "1953",
+    "precision": "annee",
+    "role": "Architecte résident ; donateur-clé avec Vera (6 500 $, hypothèque de 25 000 $ sur la ferme) ; soutien financier de la fondation de la compagnie Cunningham",
+    "refs": [
+     "EV-06108",
+     "EV-05951",
+     "RE-02488",
+     "EV-06097"
+    ]
+   },
+   {
+    "debut": "1953-09",
+    "fin": "1953-12",
+    "precision": "mois",
+    "role": "Retour en visite pour évaluer la situation périlleuse et aider financièrement ; classe d'architecture informelle ; organisation de la scie circulaire du samedi matin",
+    "refs": [
+     "EV-06224",
+     "CO-00758",
+     "QU-01767"
+    ]
+   }
+  ],
+  "portrait_physique": "Mince, manières timides, allure presque juvénile malgré son rôle de mécène.",
+  "noyau_psychologique": "Ange gardien discret : architecte de métier, héritier d'une fortune de gantier, il donne sans conditions et sans vouloir de pouvoir en retour. Sa timidité s'allie à une fidélité obstinée — il revient toujours au collège quand celui-ci se noie, chèque en main. Mais sa générosité a une limite : quand l'acrimonie remplace le projet, il se détourne et bâtit ailleurs ce que BMC n'a pas su devenir.",
+  "blessures": "Vers 1954, il perd presque tout espoir de redresser Black Mountain : environ 40 000 $ lui resteront dus ; l'érosion de son allégeance face à la désorganisation des dernières années.",
+  "desirs": "Redresser le collège, d'abord financièrement ; fonder des communautés intentionnelles viables — bâtir sur des coteaux, autour de places ouvertes favorisant les rencontres ; un rêve de « quasi-village italien de colline ».",
+  "peurs": "Non attesté directement ; on peut déduis une crainte de voir l'argent dilapidé dans les querelles plutôt que mis au service du travail.",
+  "maniere_d_aimer": "Il aime en soutenant : argent « sans conditions », « magnifiquement », pour Cage, Tudor, le Living Theater, le collège entier. Avec Vera, en couple bienfaiteur uni.",
+  "rapport_au_pouvoir": "Refuse le pouvoir : il prête, donne, conçoit, mais ne s'engage pas dans les luttes internes ; il reste l'homme des chèques de la onzième heure, jamais l'homme des factions.",
+  "voix": {
+   "registre": "Doucement ironique, poli, ferme ; l'euphémisme comme arme pudique",
+   "tics": "Formulations atténuées (« méthodes particulières » plutôt que « couple ouvert »)",
+   "exemples_paraphrases": [
+    "À Betty Schmitt qui fait le tour des tables : il ne peut pas digérer son repas si elle va et vient régler ses affaires.",
+    "Parler des Williams-Watkins en évoquant sobrement leurs « façons uniques ».",
+    "Décrire Stony Point comme un quasi-village italien de colline avec des maisons autour d'une place."
+   ]
+  },
+  "habitudes": [
+   "Concerts de disques informels : installe du matériel hi-fi, fait écouter des quatuors de Bach et Beethoven, fait découvrir Bartók",
+   "Chèques de sauvetage de la dernière heure, à répétition dans les années 1950",
+   "Chaque samedi matin à l'automne 1953 : découpe du bois à la scie circulaire avec tous ceux qui peuvent aider"
+  ],
+  "convictions": [
+   "Le soutien doit être sans conditions",
+   "Croyance aux communautés intentionnelles et à la construction sur coteaux, avec des places ouvertes qui provoquent les rencontres",
+   "Un bon design peut être bon marché (Minimum House, ~1 000 $)",
+   "Après BMC : idéal modeste — une coopérative de voisinage suffit, la consolation doit être aisément disponible"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1946",
+    "precision": "periode",
+    "moment": "Présence aux années 1940 : concerts de disques hi-fi, vie musicale informelle du collège (dates approximatives)",
+    "etat_interieur": "Jeune mécène discret, amoureux de la musique de chambre",
+    "refs": [
+     "EV-03844",
+     "PE-00106"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Étudiant à la « galaxie de talents » de l'été 1948 aux côtés de Cage, Cunningham, Fuller ; avec Vera",
+    "etat_interieur": "Imprégnation par le milieu artistique qu'il financera ensuite",
+    "refs": [
+     "EV-04525",
+     "EV-04531"
+    ]
+   },
+   {
+    "date": "1949",
+    "precision": "annee",
+    "moment": "Conçoit la Minimum House (payée par sa mère, pierre tombale de Jalowetz maçonnée par erreur dans le mur) et le pot shop avec Turner ; reste en dehors des luttes post-Albers",
+    "etat_interieur": "Bâtisseur neutre, artisan plus que politicien",
+    "refs": [
+     "EV-04219",
+     "EV-04220",
+     "EV-04628",
+     "SC-01203",
+     "EV-04682"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Finance le Williams Mix de Cage ; prête 5 000 $ pour le troupeau de bœufs et 5 000 $ pour bourses et fonctionnement ; chèques de onzième heure",
+    "etat_interieur": "Créancier de plus en plus seul face à la dérive financière",
+    "refs": [
+     "EV-05628",
+     "EV-05724",
+     "EV-05639",
+     "QU-01591",
+     "QU-01600"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Pic de l'engagement : 6 500 $ donnés, hypothèque de 25 000 $ sur la ferme ; aide à la fondation de la compagnie Cunningham ; esprit kibboutz (bourses de travail, gombo, barn à tabac)",
+    "etat_interieur": "Dernier grand espoir de sauver l'expérience",
+    "refs": [
+     "RE-02488",
+     "EV-05951",
+     "EV-06097",
+     "EV-06108"
+    ]
+   },
+   {
+    "date": "1953-09",
+    "precision": "mois",
+    "moment": "Retour en visite : évalue la situation périleuse ; classe d'architecture informelle ; scie circulaire du samedi matin ; sa fortune familiale de gantier mobilisée",
+    "etat_interieur": "Mélange de loyauté et de lucidité inquiète",
+    "refs": [
+     "EV-06224",
+     "CO-00758",
+     "QU-01767",
+     "QU-01768"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Lettre de Huss au printemps : la qualité du travail augmente malgré les revers ; mais Williams a à peu près perdu espoir et se replie vers Stony Point ; ~40 000 $ lui resteront dus",
+    "etat_interieur": "Fidélité érodée par l'acrimonie ; deuil du rêve communautaire",
+    "refs": [
+     "EV-06290",
+     "EV-06302",
+     "QU-01843",
+     "EV-06108"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Architecte de formation et de métier avant/après ses séjours (attesté comme architecte)",
+    "refs": [
+     "PE-00106",
+     "SC-01203"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Issu d'une fortune familiale de gantiers — l'argent qu'il donnera vient de là ; sa mère paiera la Minimum House",
+    "refs": [
+     "EV-06224",
+     "EV-04219",
+     "QU-01768"
+    ]
+   },
+   {
+    "date": "1947",
+    "precision": "annee",
+    "moment": "Lecture de Communitas des frères Goodman, qui le galvanise, lui et Vera, et prépare la fondation future de Gate Hill (date du livre ; moment de lecture déduit)",
+    "refs": [
+     "RE-02074",
+     "EV-06387"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Fondation de la Gate Hill Cooperative à Stony Point (comté de Rockland, NY, ~100 acres de coteaux) avec Vera et d'autres issus de BMC ; première construction : le studio de céramique de Karnes et Weinrib ; rêve d'un quasi-village italien de colline",
+    "refs": [
+     "EV-06302",
+     "EV-06382",
+     "EV-06387",
+     "CI-01968"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Karnes et Weinrib rejoignent Stony Point ; puis Cage, Cunningham, Mary Caroline Richards et David Tudor",
+    "refs": [
+     "EV-06302"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Soutien financier durable de Cage et Cunningham ; soutien précoce de David Tudor et du Living Theater ; le Williams Mix (1952-53) perpétue son nom",
+    "refs": [
+     "EV-04531",
+     "EV-05628"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Vera Williams",
+    "nature": "Couple et binôme de bienfaiteurs",
+    "evolution": "Agissent ensemble de l'été 1948 à la fondation de Gate Hill ; désengagement commun de BMC vers 1954",
+    "refs": [
+     "EV-04531",
+     "EV-06108",
+     "EV-06387"
+    ]
+   },
+   {
+    "avec": "John Cage (et Merce Cunningham)",
+    "nature": "Mécénat sans conditions",
+    "evolution": "Du financement du Williams Mix (1952) à l'aide à la fondation de la compagnie Cunningham (1953), puis au regroupement à Stony Point",
+    "refs": [
+     "EV-05628",
+     "EV-05724",
+     "EV-06097",
+     "EV-06302"
+    ]
+   },
+   {
+    "avec": "Wesley Huss",
+    "nature": "Sauveteur de la direction",
+    "evolution": "Dans les années 1950, Williams joue pour Huss le rôle d'ange providentiel que Forbes jouait pour Dreier ; chèques répétés, puis retrait",
+    "refs": [
+     "RE-01941",
+     "EV-06290"
+    ]
+   },
+   {
+    "avec": "Robert Turner",
+    "nature": "Collaboration architecturale",
+    "evolution": "Conception conjointe du pot shop (1949) ; Williams, comme Turner, reste hors des luttes internes",
+    "refs": [
+     "SC-01203",
+     "EV-04682"
+    ]
+   },
+   {
+    "avec": "Paul Goodman",
+    "nature": "Influence intellectuelle",
+    "evolution": "Communitas galvanise les Williams et inspire directement Gate Hill",
+    "refs": [
+     "RE-02074"
+    ]
+   },
+   {
+    "avec": "Black Mountain College",
+    "nature": "Donateur devenu créancier",
+    "evolution": "De dons et prêts répétés à un abandon quasi total vers 1954, avec ~40 000 $ non remboursés",
+    "refs": [
+     "RE-02488",
+     "QU-01843",
+     "EV-06302"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La présence des années 1940 (concerts de disques) est datée par approximations (≈1946, témoignage de Lane) ; à manier avec prudence par rapport aux dates attestées de l'été 1948.",
+   "Sur 4'33'' de Cage, une version (Guggenheim 2004) le lie aux toiles blanches de Rauschenberg et une autre (Molesworth 2015) au Williams Mix — sans rapport direct avec Williams, mais les deux récits coexistent dans EV-05724.",
+   "Les montants se recoupent globalement (6 500 $ + 25 000 $ ; ~40 000 $ dus) mais les fiches présentent parfois le couple 1952 (2×5 000 $) et l'hypothèque 1953 séparément : chronologie financière à reconstituer avec soin."
+  ],
+  "situations_revelatrices": [
+   "Le dîner où il dit à Betty Schmitt qu'il ne peut pas digérer avec elle courant entre les tables : la gêne polie du mécène timide",
+   "La sortie répétée du chéquier de la dernière heure, dans une salle où personne d'autre n'a d'argent",
+   "Le samedi matin à la scie circulaire : l'architecte en manches retroussées, donnant l'exemple",
+   "La découverte de la pierre tombale de Jalowetz maçonnée dans la Minimum House",
+   "La lettre de Huss au printemps 1954, lue alors qu'il a déjà un pied à Stony Point"
+  ],
+  "citations": [
+   "CI-01671",
+   "CI-01968"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, origine familiale précise (fortune de gantiers) hors fiches",
+   "La nature exacte de son statut d'étudiant à l'été 1948 et ses études d'architecture",
+   "Sa vie à Gate Hill/Stony Point après 1955, et s'il a jamais été remboursé",
+   "Le rôle exact de Vera dans les décisions financières du couple"
+  ]
+ }
+}

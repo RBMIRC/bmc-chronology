@@ -1,0 +1,271 @@
+{
+ "passe": "mois",
+ "cle": "1945-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2984,
+  "sortie": 12756,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "mars 1945",
+  "session": "Trimestre de printemps (déduit : l'exposition d'examen de mars et le chapitre parlent de « hiver et printemps » ; les fiches ne nomment pas la session)",
+  "saison_et_climat": "Fin de l'hiver puis entrée au printemps à Lake Eden, dans les montagnes de Caroline du Nord ; les fiches ne donnent aucune indication de climat ou de météo.",
+  "situation": "Le collège se reconstruit après la scission de 1944 avec un corps enseignant réduit. La moitié rebelle tente un nouveau collège à New York, sans supplanter BMC. Les finances sont fragiles : Cohen est sans argent, Foreman est parti en janvier, et Fritz cherche à vendre son Music Institute. La faculté débat de la question raciale sans trancher ; la formule ne sera arrêtée qu'en mai. Beidler a été nommé en février. Les étudiants en fin de cursus préparent leur exposition d'examen, et le code du silence commence à se durcir.",
+  "presents_probables": [
+   {
+    "nom": "Lowinsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zabriskie",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kazin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Beidler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jane Slater",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Herbert Miller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Fritz Cohen",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants en fin de cursus",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Exposition d'examen de fin d'études de Jane Slater, installée à BMC puis photographiée pour la documentation du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03783"
+    ]
+   },
+   {
+    "date": "1945-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Fritz tente en vain de vendre son Music Institute, notamment à Kenyon ce mois-ci.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "La question raciale occupe la faculté : Lowinsky la porte, Straus et Kurtz s'y opposent.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Le collège fonctionne avec un corps enseignant réduit : Lowinsky improvise des cours de rattrapage, Zabriskie et Kazin sont arrivés sans y rester heureux.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Chorale de Bach de Jalowetz qui dure deux à trois heures ; chants en chaîne de table en table au dîner ; pas de couvre-feu. Lowinsky assure des cours de rattrapage. Zabriskie et Kazin enseignent. Beidler, instructeur et architecte-conseil depuis février, dessine le Music Cubicle. Les étudiants finissent leur année avec une exposition d'examen.",
+  "tensions": [
+   "Question raciale : Lowinsky contre Straus et Kurtz, formule pas encore arrêtée.",
+   "Argent : Fritz cherche un acheteur pour son Music Institute et échoue à Kenyon.",
+   "Faculté réduite : personne ne semble heureux ni ne reste longtemps.",
+   "Rivalité avec le projet new-yorkais des dissidents, qui ne supplante pas BMC.",
+   "Code du silence et psychologie de groupe qui se durcissent."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Fritz Cohen en quête d'acheteur pour le Music Institute",
+    "date": "1945-03",
+    "lieu": "Kenyon (tentative de vente)",
+    "personnages": [
+     "Fritz Cohen",
+     "interlocuteurs de Kenyon"
+    ],
+    "deroule": "Fritz tente de vendre son Music Institute à Kenyon en mars, sans succès. Il ne sera tiré d'affaire que plus tard, par l'Opera Workshop de Juilliard.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Exposition d'examen de Jane Slater",
+    "date": "1945-03",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Jane Slater"
+    ],
+    "deroule": "Installation de l'exposition de fin d'études de Slater, photographiée pour la documentation du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03783"
+    ]
+   },
+   {
+    "titre": "Chorale de Bach de Jalowetz",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Jalowetz",
+     "choristes étudiants et enseignants"
+    ],
+    "deroule": "Séance de deux à trois heures de Bach, l'un des rituels quotidiens du collège.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Chants en chaîne au dîner",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "étudiants",
+     "enseignants"
+    ],
+    "deroule": "Les chants passent de table en table pendant le dîner, sans couvre-feu ensuite.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Débat de faculté sur la formule d'intégration",
+    "date": null,
+    "lieu": "Black Mountain College, réunion de faculté",
+    "personnages": [
+     "Lowinsky",
+     "Straus",
+     "Kurtz"
+    ],
+    "deroule": "Lowinsky défend l'entrée d'étudiants noirs, Straus et Kurtz s'y opposent. La formule (deux étudiants noirs aux instituts d'été, puis un enseignant noir à l'automne si le candidat est de calibre) ne sera arrêtée qu'en mai.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Mars : la faculté réduite se souvient de la scission de 1944 qui a vidé le collège de sa moitié rebelle",
+    "vers_date": "1944",
+    "vers": "La scission de 1944 et la reconstruction qui commence ensuite",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Mars : le départ de janvier pèse encore sur la faculté",
+    "vers_date": "1945-01",
+    "vers": "Clark Foreman annonce qu'il devient secrétaire du National Citizens Political Action Committee, après six mois de préparatifs",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars : la question raciale reste en suspens",
+    "vers_date": "1945-05-16",
+    "vers": "Lettre de Wallen au collège. Straus l'a évalué à Baltimore et recommandé. Deux voix vocales retardent la nomination par une rumeur d'instabilité nerveuse tirée d'une lettre d'Allport, vérifiée auprès de l'armée et jugée fausse. Wallen obtient un contrat d'un an. Selon Wallen, Albers serait l'une des deux voix.",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars : Fritz cherche à vendre, la faculté s'accommode du silence",
+    "vers_date": "1945-06",
+    "vers": "Mi-juin : arrestation de Wunsch près d'Asheville selon Duberman, inculpation réduite à une intrusion avec sursis, interdiction d'informer les étudiants, démission, départ de nuit et silence de la communauté. Les sources divergent sur les faits.",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars : le Music Institute de Fritz est invendable",
+    "vers_date": null,
+    "vers": "Fritz est sauvé par l'Opera Workshop de Juilliard (date non précisée)",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars : le collège attend ses nouveaux étudiants",
+    "vers_date": "1945",
+    "vers": "Été : instituts d'été avec Gropius, Feininger, Motherwell et autres ; admission de Ray Johnson et Elaine Schmitt ; récital de Roland Hayes devant environ 400 personnes, places intégrées et sans incident, test décisif de l'intégration",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars : le parallèle new-yorkais se dessine",
+    "vers_date": "1945",
+    "vers": "Elaine de Kooning écrit son premier article d'art sur Stuart Davis ; à l'automne elle part à Provincetown ; Rauschenberg, démobilisé, ne viendra à BMC qu'en 1948",
+    "refs": [
+     "chapitre de l'année 1945 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "silence et code interne",
+   "dépendance aux fondations et aux fonds de secours",
+   "intégration raciale comme test",
+   "rituel communautaire",
+   "usure et rotation des enseignants",
+   "rivalité des projets new-yorkais"
+  ],
+  "lacunes": "Les fiches ne donnent ni le nom exact de la session, ni les dates des cours de rattrapage de Lowinsky, ni l'arrivée précise de Zabriskie et Kazin, ni le statut de Wunsch en mars, ni la date du Music Cubicle. Aucune donnée sur le climat. Le lieu de la tentative de vente est seulement « Kenyon ». Le seul événement daté de mars est l'exposition de Slater."
+ }
+}

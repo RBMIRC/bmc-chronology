@@ -1,0 +1,257 @@
+{
+ "passe": "enseignements",
+ "cle": "Joseph Fiore",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 9136,
+  "sortie": 8236,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Joseph Fiore",
+  "cours": [
+   {
+    "intitule": "Dessin et peinture : département et critique hebdomadaire",
+    "periodes": [
+     "à partir de l'automne 1949",
+     "1949-1956 (direction du département de peinture et dessin)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Attesté : développer l'observation du monde naturel et l'expression personnelle (CO-00576). Apprendre à regarder la feuille ou la toile blanche jusqu'à voir où commencer, le début étant traité comme un acte de composition (CO-00356). Privilégier la rugosité et l'expérimentation sur l'achèvement (CO-00576).",
+    "deroule_type_seance": "Attesté : cours hebdomadaires où l'on regardait le travail de chacun, et visites fréquentes de Fiore dans les studios des étudiants (CO-00356). On ne sait pas combien d'élèves suivaient ces cours, ni le jour ou l'heure. Déduit : les cours de dessin décrits dans les autres fiches (modèle, arbres, lignes sur papier) sont des variantes de ce cadre, et la peinture elle-même est très peu documentée dans les fiches.",
+    "exercices": [
+     {
+      "consigne": "Regarder la feuille blanche (ou la toile) jusqu'à voir l'endroit où commencer.",
+      "materiaux": "papier, toile",
+      "but": "Faire du point de départ un acte de composition",
+      "refs": [
+       "CO-00356"
+      ]
+     },
+     {
+      "consigne": "Se détourner de la feuille pendant qu'on dessine, et préférer la rugosité et l'essai à l'œuvre achevée.",
+      "materiaux": null,
+      "but": "Développer l'observation et puiser dans son propre puits intérieur de créativité",
+      "refs": [
+       "CO-00576"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Puisez dans votre propre puits intérieur de créativité (paraphrase de Molesworth, CO-00576).",
+     "Il faut savoir où commencer avant de toucher le papier ou la toile (principe rapporté par Dawson, CO-00356)."
+    ],
+    "critique_et_evaluation": "Critique hebdomadaire de groupe, avec regard sur le travail de chacun, plus des visites dans les studios (CO-00356). Aucune fiche ne donne de notation ni de critères formels. Les critères sous-jacents sont une ligne vivante, non « slick » (CO-00584), et le refus de l'achèvement lisse (CO-00576).",
+    "reactions_etudiants": "Dawson dit que depuis ce cours il ne touche plus papier ni toile sans savoir où commencer (CO-00356). Hors classe, une scène très vague dans le temps montre des étudiants qui craignent la colère de Fiore après avoir bu sa bière dans la cuisine du collège. Il part en racheter, et les coupables se terrent (SC-00960). Autre scène : Lane dérange Fiore en plein début de toile, et Fiore ne répond que « OK » (SC-00981).",
+    "evolution": "Arrivé en 1946 comme étudiant sur un campus à son sommet, Fiore devient professeur en 1949 et part en 1956 (SC-00996). La même fiche dit qu'il voit la plupart de ses œuvres partir en fumée en 1953. Il reste jusqu'aux derniers mois : on le voit en décembre 1955 chanter des carols de porte en porte avec Mary dans un collège sans chauffage ni salaires (SC-01826), puis à l'annonce de la fermeture en octobre 1956 (SC-01854). Prudence sur les dates : CO-00356 annonce « années 1940-1950 », ce qui ne colle pas avec une arrivée en 1946 et un poste d'enseignant en 1949. La plupart des fiches sur sa pédagogie viennent d'un seul témoin, Dawson (1970), ce qui limite les recoupements.",
+    "refs": [
+     "CO-00356",
+     "CO-00567",
+     "CO-00576",
+     "SC-00996",
+     "SC-00960",
+     "SC-00981",
+     "SC-01826",
+     "SC-01854"
+    ]
+   },
+   {
+    "intitule": "Dessin d'après modèle",
+    "periodes": [
+     "1949-1953"
+    ],
+    "atteste": "oui",
+    "objectifs": "Discipliner l'œil et la main, et garder la ligne vivante plutôt que « slick » (lisse, trop fini).",
+    "deroule_type_seance": "Attesté : le modèle, Bea Huss, pose puis remet sa robe. L'étudiant dessine en alternant le regard entre le modèle et la feuille, jusqu'à ce que le rythme devienne routine. Il apprend ensuite à s'en libérer (CO-00584). La fiche ne donne ni la durée des poses ni l'ordre exact des consignes.",
+    "exercices": [
+     {
+      "consigne": "Dessiner le modèle sans regarder le papier.",
+      "materiaux": "papier, plume ou crayon",
+      "but": "Obtenir une ligne plus fluide et vivante, non lissée",
+      "refs": [
+       "CO-00584"
+      ]
+     },
+     {
+      "consigne": "Travailler le rythme œil-main : du modèle au papier, du modèle au papier, puis s'affranchir de ce rythme une fois devenu routine.",
+      "materiaux": "papier, plume ou crayon",
+      "but": "Discipliner l'œil et la main sans tomber dans l'automatisme",
+      "refs": [
+       "CO-00584"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "« Ne regardez pas le papier » (formule rapportée par Dawson)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Dawson découvre une ligne plus fluide et dit adopter pour toujours « le côté rugueux des choses » (CO-00584).",
+    "evolution": "La consigne de CO-00576 (détourner le regard de la feuille) recoupe celle-ci. On peut déduire que Fiore la pratiquait sur toute la période 1949-1956, mais seul 1949-1953 est attesté pour le modèle.",
+    "refs": [
+     "CO-00584",
+     "CO-00576"
+    ]
+   },
+   {
+    "intitule": "Dessin : les arbres (séance en plein air)",
+    "periodes": [
+     "années 1950"
+    ],
+    "atteste": "oui",
+    "objectifs": "Apprendre à voir et à dessiner la forme de l'intérieur, non par le contour.",
+    "deroule_type_seance": "Attesté : promenade, puis montée de la route avec le matériel. Les étudiants s'installent dispersés le long de la route, reçoivent une consigne d'observation, puis dessinent d'après nature (CO-00642). Ce dispositif n'est documenté que par le récit de Dawson, sans autre séance comparable.",
+    "exercices": [
+     {
+      "consigne": "Monter la route avec planche, papier journal, encre de Chine et bâtonnets, s'installer à distance les uns des autres, et regarder l'écorce.",
+      "materiaux": "planche, papier journal, encre de Chine, bâtonnets, crayon, plume, carnet de croquis",
+      "but": "Voir la matière de l'arbre avant de le dessiner",
+      "refs": [
+       "CO-00642"
+      ]
+     },
+     {
+      "consigne": "Dessiner l'intérieur d'une feuille en suivant les nervures vers les bords de la page (les « inlines »).",
+      "materiaux": "papier journal, encre de Chine, bâtonnets",
+      "but": "Construire la forme de l'intérieur plutôt que par le contour",
+      "refs": [
+       "CO-00642"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "« OK, allez-y. Regardez l'écorce. » (CO-00642, paraphrase)"
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Dawson, qui échouait au lycée, comprend immédiatement et dessine tout : racines, tronc, branches, chaque nervure (CO-00642).",
+    "evolution": null,
+    "refs": [
+     "CO-00642"
+    ]
+   },
+   {
+    "intitule": "Drawing class : la feuille, le signal et la ligne",
+    "periodes": [
+     "≈1950-1953 (années où Dawson est étudiant, date déduite)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Prendre conscience du champ du papier et de son centre visuel, et acquérir la discipline de la lenteur.",
+    "deroule_type_seance": "Attesté : séance de trois heures, consignes strictes. Le papier est punaisé sur une planche posée à l'horizontale sur une chaise. L'étudiant regarde la feuille sans dessiner, et chaque ligne n'est tracée qu'après le signal du professeur (CO-00650). Dawson s'agite, regarde par la fenêtre, puis s'absorbe. Il teste les quatre coins et « chauffe » au coin supérieur gauche, main gauche en l'air, crayon au-dessus de la surface. Il trace une ligne verticale après le signal, se rassied et la regarde (CO-00650, SC-01317). La fiche SC-01317 situe la scène à « The Eye », sans que cela soit précisé par ailleurs.",
+    "exercices": [
+     {
+      "consigne": "Regarder le papier une heure sans dessiner.",
+      "materiaux": "papier 18x24 pouces punaisé sur une planche posée sur une chaise",
+      "but": "Voir le champ du papier et trouver son point de départ",
+      "refs": [
+       "CO-00650",
+       "SC-01317"
+      ]
+     },
+     {
+      "consigne": "Faire une seule ligne verticale de trois à quatre pouces, au signal du professeur.",
+      "materiaux": "crayon, papier 18x24 pouces",
+      "but": "Poser une première marque consciente dans le champ",
+      "refs": [
+       "CO-00650",
+       "SC-01317"
+      ]
+     },
+     {
+      "consigne": "À la classe suivante, deux lignes verticales, puis trois, puis trois verticales et une horizontale (progression de séance en séance).",
+      "materiaux": "crayon, papier 18x24 pouces, papier journal",
+      "but": "Construire pas à pas la conscience de la composition et du centre visuel",
+      "refs": [
+       "CO-00650"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "« Look at the paper. Don't draw yet. I'll tell you when you can begin. »",
+     "« Okay. Make the mark. »"
+    ],
+    "critique_et_evaluation": "Aucune critique verbale détaillée n'est rapportée : l'évaluation passe par le contrôle du signal, puis par le regard que l'étudiant pose sur sa propre ligne (SC-01317).",
+    "reactions_etudiants": "Dawson s'agite d'abord, puis le papier devient clair pour lui. Il trouve le point de départ au coin supérieur gauche (CO-00650). SC-01317 présente la scène comme la « naissance d'un artiste » : c'est la lecture de Dawson, non un fait vérifiable.",
+    "evolution": "La progression est attestée sur au moins quatre classes consécutives (une, deux, trois lignes verticales, puis trois verticales et une horizontale). Ce qui vient après n'est pas documenté.",
+    "refs": [
+     "CO-00650",
+     "SC-01317"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Voir avant de faire : le début est une décision de composition, pas un geste réflexe.",
+    "en_classe": "Attesté : on regarde la feuille blanche jusqu'à voir où commencer, une heure dans la séance des lignes, avec un signal du professeur avant la première marque.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00356",
+     "CO-00650",
+     "SC-01317"
+    ]
+   },
+   {
+    "idee": "Apprendre la ligne en se coupant du contrôle visuel : le regard va au modèle, pas au papier.",
+    "en_classe": "Attesté : dessiner le modèle sans regarder le papier, alterner modèle/feuille jusqu'à ce que le rythme devienne routine, puis s'en défaire. L'enjeu est d'éviter la ligne « slick ».",
+    "atteste": "oui",
+    "refs": [
+     "CO-00584",
+     "CO-00576"
+    ]
+   },
+   {
+    "idee": "La forme se construit de l'intérieur (nervures, écorce), non en contournant un objet fini.",
+    "en_classe": "Attesté : séance en plein air, dessin de feuille par ses « inlines », observation de l'écorce, puis dessin de l'arbre entier d'après nature.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00642"
+    ]
+   },
+   {
+    "idee": "Préférer la rugosité et l'essai à l'achèvement, et puiser dans un fonds personnel plutôt que dans un modèle imposé.",
+    "en_classe": "Attesté : conseil d'expérimenter et de rester brut, présenté comme un appel au « puits intérieur » de créativité de chaque étudiant.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00576",
+     "CO-00584"
+    ]
+   },
+   {
+    "idee": "Le seuil de la première touche est sacré : on ne dérange pas un peintre qui se prépare à poser la première couleur sur une toile vierge.",
+    "en_classe": "Non attesté comme règle de classe. La scène montre Fiore dans son studio, pinceau chargé devant une toile blanche de 4x5 pieds, avec un panneau DO NOT DISTURB, et sa réaction à l'intrusion de Lane (« OK »). On peut en déduire un lien avec sa pédagogie du début, mais cette liaison reste une hypothèse du scénariste.",
+    "atteste": "non",
+    "refs": [
+     "SC-00981",
+     "CO-00356"
+    ]
+   },
+   {
+    "idee": "Se laisser traverser par ses maîtres, sans se soumettre à un seul : l'« éponge » qui fuit Albers (« plus pédagogue que peintre ») et s'attache à Bolotowsky.",
+    "en_classe": "Non attesté comme pratique pédagogique : ce sont des propos de Fiore sur lui-même et sur Albers, rapportés par Molesworth. On peut s'en inspirer pour une séance de transmission, mais cela reste de l'invention.",
+    "atteste": "non",
+    "refs": [
+     "SC-00996"
+    ]
+   },
+   {
+    "idee": "Le hasard comme réponse aux « standards » : tableau accumulé par les restes de peinture jetés chaque soir, signé « Anonymous Blotch ».",
+    "en_classe": "Incertain pour Fiore : il figure parmi les personnages de la scène, mais la fiche ne dit pas ce qu'il y fait ni ce qu'il en pensait. C'est Bolotowsky qui en tire la défense théorique du hasard, face à Albers. Source de seconde main (oui-dire, Duberman).",
+    "atteste": "incertain",
+    "refs": [
+     "SC-01074"
+    ]
+   },
+   {
+    "idee": "Le regard d'un peintre sur le récit : questionner la motivation d'une scène d'un camarade (« pourquoi un meurtre ? »).",
+    "en_classe": "Incertain : Fiore est cité dans la séance d'Olson où Rumaker lit « The Pipe », avec cette question. Rien ne dit s'il participe en tant qu'enseignant ou comme auditeur. Cette transposition ne relève pas de son cours de dessin.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-01812"
+    ]
+   }
+  ]
+ }
+}

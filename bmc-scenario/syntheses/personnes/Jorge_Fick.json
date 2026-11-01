@@ -1,0 +1,365 @@
+{
+ "passe": "personnes",
+ "cle": "Jorge Fick",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 13142,
+  "sortie": 4344,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Jorge Fick",
+  "autres_noms": [
+   "Fick"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant peintre venu de Détroit (via l'Art Institute de Chicago), figure de la colonie Détroit/Chicago ; l'un des trois derniers diplômés du collège (1955, examinateur externe : Franz Kline) ; resté parmi les derniers habitants du site jusqu'en 1956.",
+  "presence": [
+   {
+    "debut": "1950",
+    "fin": null,
+    "precision": "annee",
+    "role": "Étudiant en peinture (première arrivée, un ou deux ans)",
+    "refs": [
+     "PE-00046"
+    ]
+   },
+   {
+    "debut": null,
+    "fin": "1952",
+    "precision": "annee",
+    "role": "Départ pour un séjour au Mexique",
+    "refs": [
+     "PE-00046"
+    ]
+   },
+   {
+    "debut": "1953",
+    "fin": "1955",
+    "precision": "annee",
+    "role": "Étudiant peintre et poète, retour après le Mexique ; diplômé en août 1955 (examinateur Kline)",
+    "refs": [
+     "PE-00046",
+     "EV-06733"
+    ]
+   },
+   {
+    "debut": "1956",
+    "fin": null,
+    "precision": "annee",
+    "role": "Parmi les derniers habitants du collège délabré (cabanes), après la remise des derniers diplômes",
+    "refs": [
+     "EV-06790"
+    ]
+   }
+  ],
+  "portrait_physique": "Jeune homme de Détroit au visage ovale très pâle, coupe d'équipage noire de jais, yeux très sombres ; Charles Ezzard Mack, en accès d'humeur, compara son visage à un « enjoliveur ». Après le Mexique : mine décharnée, cheveux longs et filasse, sombréro et serape (frissons de malaria attrapée là-bas), veste Wrangler délavée, levis rentrés dans de solides bottes de moto noires, goatee bebop noir de jais, grosses lunettes noires opaques de style cool jazz — un hybride d'Emiliano Zapata et de hipster de Motown, en idolâtrie de Marlon Brando dans L'Équipée sauvage.",
+  "noyau_psychologique": "Agressiveur masque : l'attaque verbale comme mode de relation, la moquerie comme sport et comme blindage. Sous l'arrogance de colonie Détroit/Chicago, un passionné — de Hart Crane (en secret, contre Olson), de Brando, de la moto, du jazz — qui travaille avec une intensité monacale (des jours sans voir personne). Sa cruauté juvénile (expulser Rumaker, les Fanny Hurst) coexiste avec une capacité de fidélité : c'est lui qui découvre Rumaker les poignets ouverts et alarme tout le monde.",
+  "blessures": "Cicatrice de quinze points de suture au visage après un crash de moto sur une route secondaire près du collège ; malaria contractée au Mexique (frissons récurrents).",
+  "desirs": "Être en pointe, côté peinture comme côté style ; une chambre à soi (promesse brisée par Hazel) ; lire et faire vivre Crane malgré la désapprobation d'Olson ; séduire Pat Nelson par la poésie.",
+  "peurs": "Non attesté explicitement ; à déduire : le déclassement (être jugé sentimental ou « corny » — d'où son mépris envers Woolf), la perte de son territoire.",
+  "maniere_d_aimer": "Par la performance : lit Crane à voix haute à Pat Nelson dans un doorway du Lower East Side, avec emphase, enthousiasme de gamin et grands gestes, sous le regard de celle vaguement amusée. Rapports de gang avec les copains de l'Art Institute — on se raille, on se provoque (moqueries au sujet de la cour de Rumaker).",
+  "rapport_au_pouvoir": "Frictionne les autres étudiants (Charles, Rumaker) et se moque même à chaud dans le dos d'Olson (« le bébé va pleurer »), mais ne remet pas frontalement le maître en cause : sa révolte est souterraine, celle de la lecture clandestine de Crane. Prend des coups symboliques quand le maître réprimande le troupeau (affaire Woolf).",
+  "voix": {
+   "registre": "Argot urbain tranchant de Détroit, cool et méprisant ; passages d'exaltation emphatique quand il lit des poèmes à voix haute.",
+   "tics": "Claquement de portes, sourire malicieux et entendu (smirk, snicker), chantonnement dégoulinant de moquerie, lectures gesticulées.",
+   "exemples_paraphrases": [
+    "Apostrophe brutale à l'arrivant : qu'est-ce que tu fous ici ?",
+    "Juron contre Hazel : cette sacrée femme, elle m'avait promis une chambre individuelle",
+    "Verdict sans appel : tu déménages",
+    "Pique en passant devant un bureau encombré de romans sentimentaux qu'il a lui-même déposés : tu apprécies ton Fanny Hurst ?",
+    "Chantonné traînant après une semonce d'Olson à un tiers : awww, le bébé va pleurer",
+    "Supplique effarée à Tom au volant fou : oh, Tom, arrête"
+   ]
+  },
+  "habitudes": [
+   "Softball pris très au sérieux (champ centre), déstabilisé par les pitreries du pitcher Rumaker",
+   "Marathons de poker enfumés dans une étude vide du Studies Building",
+   "Rapporte des disques de Detroit (fait découvrir Miles Davis — et plus tard Chris Connor)",
+   "Soirées bière du lobby",
+   "Travaille avec une telle intensité qu'il ne voit personne pendant des jours",
+   "Moto achetée en hommage à Brando (finalement crashée)"
+  ],
+  "convictions": [
+   "Admiration secrète pour Hart Crane, malgré Olson",
+   "Idolâtrie de Marlon Brando dans L'Équipée sauvage (style, moto, bottes)",
+   "Mépris des conventions narratives bourgeoises (l'« histoire de golfeurs » de Woolf jugée corny) — corrigé en partie par la réprimande d'Olson",
+   "Exigence d'être en pointe, en art comme en style"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1952-09",
+    "precision": "mois",
+    "moment": "Entrée en claquant la porte : découvre Rumaker installé dans sa chambre de South Lodge, furieux contre Hazel, obtient son expulsion au dortoir",
+    "etat_interieur": "Colérique, possessif de son territoire",
+    "refs": [
+     "SC-01560",
+     "RE-02372",
+     "RE-02373",
+     "CI-02933",
+     "CI-02934",
+     "CI-02935"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Guerre d'usure railleuse contre Rumaker : dépôt subreptice de romans sentimentaux sur son bureau ; mais Rumaker cite les meilleurs vers de son propre poème en classe d'Olson",
+    "etat_interieur": "Moqueur, perfide ; néanmoins reconnu comme poète par la citation de Rumaker",
+    "refs": [
+     "EV-05975",
+     "EV-05976",
+     "CI-02975",
+     "RE-02404"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Dépose le disque de Miles Davis à une party du samedi soir : Olson, sidéré, exige le nom et fait rejouer le disque",
+    "etat_interieur": "Fier d'être celui qui apporte le son neuf",
+    "refs": [
+     "SC-01603",
+     "EV-05988"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "mois",
+    "moment": "Après Niagara, assiste en classe aux commentaires connivents d'Olson sur Marilyn Monroe ; à un déjeuner, chante « le bébé va pleurer » après la semonce d'Olson à Rumaker",
+    "etat_interieur": "Complice moqueur de la culture machiste du groupe",
+    "refs": [
+     "SC-01611",
+     "EV-06000",
+     "EV-06012",
+     "CI-02998"
+    ]
+   },
+   {
+    "date": "1953-10",
+    "precision": "mois",
+    "moment": "Boit dans le lobby voisin de la chambre de Rumaker et entend, parois de pin minces, la scène avec Merrill ; lendemain : sourire entendu, indifférence des autres",
+    "etat_interieur": "Complicité moqueuse, sans méchanceté ouverte",
+    "refs": [
+     "SC-01687",
+     "EV-06237"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Avec Dorn, le plus véhément à snober la nouvelle de Douglas Woolf lue par Olson ; réprimande collective du maître pour leur obtusité",
+    "etat_interieur": "Mépris juvénile retourné en soufflet ; sentiment d'avoir été piégé",
+    "refs": [
+     "SC-01639",
+     "SC-01708",
+     "EV-06320"
+    ]
+   },
+   {
+    "date": "1954-10",
+    "precision": "mois",
+    "moment": "Assistant bouche bée au triomphe de la lecture de « The Truck » de Rumaker en classe d'Olson",
+    "etat_interieur": "Éberlué, comme devant un miracle — le moqué devancé par le moqueur",
+    "refs": [
+     "SC-01742",
+     "EV-06483"
+    ]
+   },
+   {
+    "date": "1954-12",
+    "precision": "mois",
+    "moment": "Pendant la pause d'hiver à New York, lit à voix haute des poèmes de Crane à Pat Nelson dans un doorway de First Avenue, sans savoir que Rumaker écoute à distance",
+    "etat_interieur": "Exalté, amoureux, transmetteur clandestin de Crane",
+    "refs": [
+     "SC-01753",
+     "SC-01754",
+     "EV-06496",
+     "EV-06497",
+     "RE-02626"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Dernière année : softball dominical (sort furieux de la boîte du batteur face aux cravates de Rumaker), virées à Ma Peak's, traversée hilare du champ de maïs en Morris Minor ; à la fête de Streamside, cible possible de la harangue de Jake et de sa bouteille cassée",
+    "etat_interieur": "En pointe, joueur, dans la déliquescence collective",
+    "refs": [
+     "EV-06573",
+     "EV-06593",
+     "SC-01785",
+     "SC-01817",
+     "EV-06716"
+    ]
+   },
+   {
+    "date": "1955-08",
+    "precision": "mois",
+    "moment": "Diplômé — l'un des trois derniers (avec Rumaker et Dorn), examinateur externe Franz Kline, questions orales de tout le corps enseignant ; peu après, quitte tôt le poker de Meadows Inn et découvre Rumaker les poignets ouverts contre la Jeep : crie, alerte Tom, Mary et Joe",
+    "etat_interieur": "Du triomphe du diplôme à l'effroi du sauvetage",
+    "refs": [
+     "EV-06733",
+     "SC-01821",
+     "SC-01822",
+     "EV-06735",
+     "EV-06737"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "annee",
+    "moment": "Été chez Ma Peak's : à bord de la Buick quand Tom, ivre et harcelé par les passagers, fonce sur la cheminée de Meadows Inn ; Jorge en sort relativement indemne, tourne en petits cercles sur l'herbe, mains contre la tête",
+    "etat_interieur": "Paniqué, hébété — le masque tombé",
+    "refs": [
+     "SC-01846",
+     "EV-06850",
+     "EV-06851"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Formation à l'Art Institute de Chicago ; membre du réseau Détroit/Chicago (Cass Tech High School pour la colonie), tous interconnectés et attirés à BMC notamment par Jerry Van de Wiele",
+    "refs": [
+     "PE-00046",
+     "EV-06707",
+     "RE-02739"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Premier séjour à Black Mountain comme étudiant en peinture (un ou deux ans)",
+    "refs": [
+     "PE-00046"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Séjour au Mexique — en revient avec la malaria, un serape, un sombréro et une allure zapatiste",
+    "refs": [
+     "PE-00046"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1956",
+    "precision": "annee",
+    "moment": "Parmi les derniers habitants du site délabré (avec Rice, King, Field, Van de Wiele, Fiore), réfugié dans les cabanes dépenaillées — dernier groupe de peintres d'un collège tourné vers l'écrit",
+    "refs": [
+     "EV-06790"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Conflit initial (expulsion de chambre, romans sentimentaux) évoluant vers une complicité tacite dans la lecture clandestine de Crane",
+    "evolution": "De bourreau railleur à camarade secret ; c'est Jorge qui découvre Rumaker après sa tentative de suicide — « relativement indemne » à ses côtés jusqu'au bout",
+    "refs": [
+     "RE-02373",
+     "RE-02404",
+     "RE-02629",
+     "SC-01822",
+     "EV-06737"
+    ]
+   },
+   {
+    "avec": "Pat Nelson",
+    "nature": "Amour / cour (1954-1955)",
+    "evolution": "Lecture de Crane dans un doorway du Lower East Side, elle le regarde vaguement amusée ; suites inconnues",
+    "refs": [
+     "RE-02626",
+     "SC-01753"
+    ]
+   },
+   {
+    "avec": "Ed Dorn",
+    "nature": "Complicité de clan, mépris partagé envers Woolf, soirées bière et champ de maïs",
+    "evolution": "Co-diplômés de la dernière classe (1955)",
+    "refs": [
+     "SC-01639",
+     "SC-01785",
+     "EV-06733"
+    ]
+   },
+   {
+    "avec": "Hazel Larsen",
+    "nature": "Conflit : promesse de chambre individuelle brisée",
+    "evolution": "Se plaint au bureau et obtient gain de cause ; pas de suite relatée",
+    "refs": [
+     "RE-02372",
+     "SC-01560"
+    ]
+   },
+   {
+    "avec": "Ezzard Mack Charles",
+    "nature": "Frictions récurrentes ; Charles compare son visage à un « enjoliveur »",
+    "evolution": "Tension d'égal à égal au sein du machisme ambiant",
+    "refs": [
+     "RE-01959"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "Élément turbulent du troupeau : moqueries à chaud, snobage de Woolf corrigé par réprimande ; mais c'est son disque de Miles Davis qui saisit le maître",
+    "evolution": "Rapport jamais rompu : Olson danse sur son disque, le fait diplômer avec Kline",
+    "refs": [
+     "SC-01603",
+     "EV-06012",
+     "SC-01708",
+     "EV-06733"
+    ]
+   },
+   {
+    "avec": "Richard Bogart",
+    "nature": "Copains de l'Art Institute de Chicago dans la colonie Détroit ; raillaient Richard au sujet de la cour de Rumaker",
+    "evolution": "Fidélité de bande, avant 1955",
+    "refs": [
+     "RE-02739"
+    ]
+   },
+   {
+    "avec": "Tom Field",
+    "nature": "Compagnon de beuveries, de poker et de virées ; témoin effaré de la folie de Tom au volant",
+    "evolution": "Supplique (« oh, Tom, arrête ») puis hébétude après le crash",
+    "refs": [
+     "EV-06358",
+     "SC-01846"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Chronologie de présence incertaine : la fiche agrégée indique ≈1950-1952 puis un retour pour finir diplômé en 1955 (PE-00046), tandis que la scène de première rencontre avec Rumaker (septembre 1952) le montre « fraîchement arrivé de Détroit » (SC-01560, EV-05855) — soit deux arrivées distinctes, soit une reconstruction datée ≈ à manier avec prudence.",
+   "Le crash de moto (15 points de suture) est daté ≈1954-1955 chez Duberman (EV-06288), mais Rumaker le raconte comme antérieur à la nuit d'août 1955 où Jorge porte encore ses bottes en idolâtrie de Brando (EV-06737) — cohérent mais imprécis.",
+   "Le statut de Fick face à la fermeture : diplômé en 1955 (EV-06733) mais encore présent sur le site en 1956 (EV-06790) — séjours post-diplôme non explicités par les sources."
+  ],
+  "situations_revelatrices": [
+   "L'entrée claquant la porte chez lui : sa territorialité explosive",
+   "Le dépôt secret des romans sentimentaux : une cruauté inventive, presque artistique",
+   "La pose du disque de Miles Davis : le goût en avant-garde, le pouvoir de l'apport",
+   "La réprimande d'Olson après le snobage de Woolf : le masque d'assurance fissuré",
+   "La lecture de Crane à Pat Nelson : l'amour et la poésie comme clandestinité partagée",
+   "La découverte du sang de Rumaker et les petits cercles affolés après le crash : le moqueur devenu secouriste terrifié"
+  ],
+  "citations": [
+   "CI-02933",
+   "CI-02934",
+   "CI-02935",
+   "CI-02975",
+   "CI-02998"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, vie après 1956 : carrière de peintre, New York ?, liens durables avec Rumaker, Dorn, Field ?",
+   "Ce qui s'est passé exactement entre Pat Nelson et lui après l'hiver 1954-1955 ?",
+   "Que pensait-il réellement d'Olson — la dévotion à Crane cachait-elle un dissentiment plus profond ?",
+   "Contenu et destin de sa peinture : que regarda Franz Kline lors de l'examen de diplôme ?",
+   "Les circonstances précises du crash de moto et de l'épisode de la malaria au Mexique ?"
+  ]
+ }
+}

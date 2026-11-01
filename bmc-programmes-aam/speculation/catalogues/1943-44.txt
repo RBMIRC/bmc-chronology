@@ -1,0 +1,178 @@
+# Concordance des cours 1943-44 → gabarits de l'année reconstituée (trimestres de onze semaines).
+#
+# Sources : pour la première fois depuis 1940-41, une liste complète des cours de l'année, avec enseignant, volume
+# horaire et trimestre :
+#   2017.40.124a-e (Summer Bulletin 15, 13 sept. 1943) : « courses for 1943-44 », par enseignant, avec heures par semaine
+#     et trimestres (« three quarters », « fall quarter », « winter and spring quarters »…)
+#   2017.40.025 (Annual Announcements 1943-44, nov. 1943) : répartition par trimestre (F, W, S) des cours de sciences
+#     sociales, langues, sciences et arts
+#   2017.40.021 (Announcements 1943-44) : corps enseignant (Kocher en congé ; Orr économie ; Mattison marketing)
+#   2017.40.018 (catalogue 1943) : offre de cours par matière (nombre de trimestres)
+#   bulletins de l'année : Radin arrive pour l'hiver (anthropologie, 2017.40.145a-e) ; Bentley donne « Founders of
+#     Modern Drama » au printemps (2017.40.152a-c) ; « Seeing Art » discuté le jeudi 9 décembre 1943 à 20 h
+# Les cours sont donc presque tous MEME_ANNEE + R_ATTESTE ; ce qui reste supposé, c'est le jour et l'heure (et le
+# volume quand la liste ne le donne pas). Voigt est parti (« biology is not being offered » à l'automne) ; Kocher est en
+# congé ; Lowinsky peut être mobilisé (« Jalowetz si Lowinsky est mobilisé »).
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ART (J. et A. Albers), CONSTRUCTION (McG. Wood, M. Gregory) ----------
+C|art.dessin1|Art|Drawing I|Introductory Drawing (1940-43)|—
+C|art.dessin2|Art|Drawing II (figure and portrait)|Advanced Drawing (1940-43)|—
+C|art.couleur1|Art|Color I|Introductory Color (1940-43)|—
+C|art.werklehre|Art|Werklehre (Fundamental Design, form in material)|Werklehre (1940-43)|—
+C|art.seeing|Art|Seeing Art (picture of the month)|Seeing Art (hiver 1943)|—
+C|art.peinture|Art|Private Studies in Painting (advanced)|—|—
+C|art.tissage1|Art|Introductory Weaving|Weaving Theory / Practice (1940-43)|—
+C|art.tissage2|Art|Advanced Weaving|Weaving Practice (1940-43)|—
+C|cons.maison|Construction|Small House Design|—|—
+C|cons.dessin|Construction|Mechanical and Architectural Drawing|Structures; Mechanical Drawing (Kopp, 1942-43, approché)|—
+C|cons.bois|Construction|Woodworking|—|—
+C|cons.leger|Construction|Light Construction|—|—
+U|A1|Josef Albers|4|MEME_ANNEE+R_ATTESTE|art.dessin1|||1|« Drawing I », 4 h par semaine, trois trimestres (liste détaillée des cours de 1943-44 (Summer Bulletin 15, 2017.40.124a-e))|||
+U|A2|Josef Albers|4|MEME_ANNEE+R_ATTESTE|art.dessin2|||1|« Drawing II (figure and portrait) », 4 h par semaine (idem)||trimestres non précisés : toute l'année|
+U|A3|Josef Albers|3|MEME_ANNEE+R_ATTESTE|art.couleur1|||2/3|« Color I », 3 h par semaine, deux trimestres (idem)||lesquels : inconnu (chance 2/3 par trimestre)|
+U|A4|Josef Albers|3|MEME_ANNEE+R_ATTESTE|art.werklehre|||1|« Werklehre », 3 h par semaine, trois trimestres (idem)|||
+U|SA|Josef Albers|1x90|MEME_ANNEE+R_ATTESTE+OCCASION|art.seeing|||1|« Seeing Art (picture of the month) », une séance d'1 à 2 h par mois (idem) ; discussion attestée le jeudi 9 décembre 1943 à 20 h|jeu 20:00-21:30|une fois par mois : rien ne dit que ce soit cette semaine-là|
+N|art.peinture|étude privée avancée, sans horaire (tutorat)
+U|AA1|Anni Albers|1+4|MEME_ANNEE+R_ATTESTE|art.tissage1|||1|« Introductory Weaving », théorie 1 h + atelier 6 h au moins par semaine, trois trimestres (idem)||l'atelier (6 h, en partie libre) est réduit à deux doubles périodes|
+U|AA2|Anni Albers|1+4|MEME_ANNEE+R_ATTESTE|art.tissage2|||1|« Advanced Weaving », même structure (idem)|||
+U|MW1|McGuire Wood|3|MEME_ANNEE+R_ATTESTE+VOLUME|cons.maison|||1|« Small House Design », trimestre d'automne (idem)||volume supposé|fall
+U|MW2|McGuire Wood|3|MEME_ANNEE+R_ATTESTE+VOLUME|cons.dessin|||1|« Mechanical and Architectural Drawing », trimestre de printemps (idem ; « Mechanical Drawing (S) », 2017.40.025)||volume supposé|spring
+U|MW3|McGuire Wood|2|MEME_ANNEE+R_ATTESTE+VOLUME|cons.leger|||1/2|« Light Construction » (Annual Announcements 1943-44) ; Wood, « Building Construction » (2017.40.021)||trimestre et volume inconnus|
+U|MG|Molly Gregory|2|MEME_ANNEE+R_ATTESTE+VOLUME+OCCASION|cons.bois|||1|« Woodworking », sur rendez-vous, trois trimestres (idem)||plage indicative|
+
+# ---------- MUSIC (H. Jalowetz, F. Cohen, E. Lowinsky, G. Straus) ; ACOUSTIQUE (F. Hansgirg) ----------
+C|mu.intro|Music|Introduction to Music (11 weeks)|Music Appreciation I (Evarts, 1940-42, approché)|—
+C|mu.harmonie3|Music|Harmony III|Musical Theory (Cohen, 1942-43, approché)|—
+C|mu.harmonie|Music|Harmony I-II; Counterpoint|Harmony and Counterpoint (1940-43)|—
+C|mu.piano|Music|Piano Lessons; Piano Seminar; Chamber Music|Instruction in Piano and Violin (1940-43)|—
+C|mu.choeur|Music|Chorus (for all members of the community)|Chorus (1942-43)|—
+C|mu.ensemble|Music|Ensemble|Chamber Music (1942-43, approché)|—
+C|mu.symphonie|Music|The Classic and Romantic Symphony|—|—
+C|mu.wagner|Music|Music Since Wagner|—|—
+C|mu.histoire|Music|History of Music from Monteverdi to Beethoven|Music History (1942-43)|—
+C|mu.bach|Music|Seminar on Bach's Instrumental Music|—|—
+C|mu.acappella|Music|A Cappella Singing|A Cappella (1942-43)|—
+C|mu.violon|Music|Violin; Chamber Music|Instruction in Piano and Violin (1940-43)|—
+C|mu.mozart|Music|The Operas of Mozart|Mozart Class (1942-43)|—
+C|mu.acoustique|Music|Acoustics for Musicians|Physics of Musical Sounds (1936-41, approché)|—
+U|CO1|Frederic Cohen|3|MEME_ANNEE+R_ATTESTE+VOLUME|mu.intro|||1|« Introduction to Music (11 weeks) », trimestre d'automne (idem)||volume supposé|fall
+U|CO2|Frederic Cohen|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.harmonie3|||1|« Harmony III », automne (idem)||volume supposé|fall
+U|CO3|Frederic Cohen|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.harmonie|||1/2|« Harmony I-III, Counterpoint » (Annual Announcements)||trimestres inconnus|winter,spring
+U|CO4|Frederic Cohen; Gertrude Straus|2|MEME_ANNEE+R_ATTESTE|mu.piano|séminaire de piano (2 h) ; leçons individuelles (1 h) en plus||1|« Piano Lessons; Chamber Music », 1 h individuelle + 2 h de séminaire de piano par semaine, trois trimestres (idem) ; Trudi Straus, violon et musique de chambre sur rendez-vous|||
+U|JA1|Heinrich Jalowetz|1x90|MEME_ANNEE+R_ATTESTE+VOISIN+HEURE_CADRE|mu.choeur|||1|« Chorus (for all members of the community) », trois trimestres (idem)|mar 19:30-21:00|soir et heure : Community Chorus du mardi 19 h 30 à l'automne 1944 (2017.40.176a-h)|
+U|JA2|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.ensemble|||1|« Ensemble », trois trimestres (idem) ; dix semaines d'étude d'ensemble avec Cohen au printemps (2017.40.155a-e)||volume supposé|
+U|JA3|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.symphonie|||1|« The Classic and Romantic Symphony », trois trimestres (idem)||volume supposé|
+U|JA4|Heinrich Jalowetz|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.wagner|||1|« Music Since Wagner », hiver et printemps (idem)||volume supposé|winter,spring
+U|LO1|Edward Lowinsky|3|MEME_ANNEE+R_ATTESTE|mu.histoire|||1|« History of Music from Monteverdi to Beethoven », 3 h par semaine, trois trimestres (idem) ; « Jalowetz si Lowinsky est mobilisé »|||
+U|LO2|Edward Lowinsky|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.bach|||1|« Seminar on Bach's Instrumental Music » (idem)||volume supposé|
+U|LO3|Edward Lowinsky|1x90|MEME_ANNEE+R_ATTESTE+VOISIN+HEURE_CADRE|mu.acappella|||1|« A Cappella Singing » (idem)|ven 19:00-20:30|soir et heure de 1942-43 (vendredi 19-20 h 30)|
+N|mu.violon|donné avec le séminaire de piano et sur rendez-vous (unité CO4)
+N|mu.mozart|au catalogue 1943 (3 trimestres) mais absent de la liste détaillée de septembre 1943 : non programmé
+U|HG3|Fritz Hansgirg|2|MEME_ANNEE+R_ATTESTE+VOLUME|mu.acoustique|||1|« Acoustics for Musicians », trois trimestres (idem)||volume supposé|
+
+# ---------- DRAMATICS, EUKINETICS, WRITING (R. Wunsch, E. Kahl) ----------
+C|dr.prod|Dramatics|Dramatic Production|Play Production I (1940-43)|—
+C|dr.ecriture|Dramatics|Playwriting|—|—
+C|dr.euk2|Eukinetics|Eukinetics (advanced)|Eukinetics (1942-43)|—
+C|dr.euk1|Eukinetics|Eukinetics class for the community (training of the body)|Eukinetics (1942-43)|—
+C|ecr.intro|Writing|Introductory Writing|Introductory Writing (1940-43)|—
+C|ecr.journalisme|Writing|Journalism (if requested)|Journalism (Mattison, 1942-43)|—
+U|DR1|Robert Wunsch|3|MEME_ANNEE+R_ATTESTE|dr.prod|||1|« Dramatic Production », 3 à 6 h par semaine, trois trimestres (idem) ; productions : The Importance of Being Earnest (automne), Outward Bound (hiver)||3 h en cours ; les répétitions du soir sont une ligne à part|
+U|DR2|Robert Wunsch|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.ecriture|||1/2|« Playwriting (W) » (Annual Announcements)||volume supposé|winter
+U|EK1|Elsa Kahl|2x90|MEME_ANNEE+R_ATTESTE|dr.euk2|||1|« Eukinetics (advanced) », deux séances d'1 h 30 par semaine, trois trimestres (idem)|||
+U|EK2|Elsa Kahl|1x120|MEME_ANNEE+R_ATTESTE+JOUR+HEURE_CADRE|dr.euk1|||1|« Eukinetics class for the community », une séance de 2 h le soir (idem)|lun 20:00-22:00|soir choisi|
+U|W1|Robert Wunsch|3|MEME_ANNEE+R_ATTESTE|ecr.intro|||1|« Introductory Writing », 3 h par semaine, trois trimestres (idem)|||
+U|W2|Robert Wunsch|2|MEME_ANNEE+R_ATTESTE+VOLUME|ecr.journalisme|||1/2|« Journalism (if requested) » (idem) ; « Journalism (F) » (Annual Announcements)||volume supposé ; seulement sur demande|fall
+
+# ---------- LANGUES ET LITTÉRATURE (F. de Graaff, G. Straus, P. Radin, K. Kurtz) ----------
+C|fr.debut|French|Beginning French (5 h)|Introductory French (1940-43)|—
+C|fr.inter|French|Intermediate French (3 h)|Advanced French (1940-43, approché)|—
+C|fr.xix|French|French Literature in the 19th Century|Introductory Survey of French Literature (approché)|—
+C|fr.revision|French|Tutorial Review French (1 h)|—|—
+C|ru.avance|Russian|Advanced Russian (3 h); Russian classics|—|—
+C|ru.debut|Russian|Beginning Russian|—|—
+C|es.debut|Spanish|Spanish|Introductory Spanish (Mangold, 1941-42)|—
+C|de.debut|German|Beginning German|Introductory German (1940-43)|—
+C|de.avance|German|Advanced German|Advanced German (1940-43)|—
+C|en.tradition|English|The English Literary Tradition|Introductory Survey of English Literature (approché)|—
+C|en.poesie|English|The Art of Poetry (with tutorials in 19th-century English literature)|—|—
+C|en.xix|English|Nineteenth-Century English Essay and Poetry|—|—
+C|en.amcontemp|English|Contemporary American Literature|Contemporary American Literature (1940-42)|—
+U|FG1|Frances de Graaff|3+2|MEME_ANNEE+R_ATTESTE|fr.debut||fr.inter|1/2|« Beginning French (5 h) or Intermediate French (3 h) » ; « trois de ces cours au trimestre d'automne » (idem)||l'un ou l'autre selon les inscriptions|
+U|FG2|Frances de Graaff|3|MEME_ANNEE+R_ATTESTE+VOLUME|fr.xix|||1|« French Literature in the 19th Century » (idem ; Annual Announcements : toute l'année)||volume supposé|
+U|FG3|Frances de Graaff|3|MEME_ANNEE+R_ATTESTE|ru.avance||fr.revision|1/2|« Advanced Russian (3 h) » ; « Russian classics » (Annual Announcements)||à l'automne, trois cours parmi quatre|
+U|FG4|Frances de Graaff|3|MEME_ANNEE+R_ATTESTE+VOLUME|ru.debut|||1/2|« Russian (beginning; Russian classics) » (Annual Announcements)||trimestres inconnus|winter,spring
+N|fr.inter|candidat de FG1
+N|fr.revision|candidat de FG3
+U|PR3|Paul Radin|3|MEME_ANNEE+R_ATTESTE+VOLUME|es.debut|||1|« Spanish », hiver et printemps (idem ; « Spanish (W-S) »)||volume supposé|winter,spring
+U|GS1|Gertrude Straus|3|MEME_ANNEE+R_ATTESTE+VOLUME|de.debut|||1|« Beginning German; Advanced German », trois trimestres (idem)||volume supposé|
+U|GS2|Gertrude Straus|3|MEME_ANNEE+R_ATTESTE+VOLUME|de.avance|||1/2|idem||selon les inscriptions|
+U|KU1|Kenneth Kurtz|3|MEME_ANNEE+R_ATTESTE|en.tradition|||1|« The English Literary Tradition », 3 h par semaine, trois trimestres (idem)|||
+U|KU2|Kenneth Kurtz|3|MEME_ANNEE+R_ATTESTE|en.poesie|||1|« The Art of Poetry; Tutorials in 19th-Century English Literature », 3 h par semaine, automne (idem)|||fall
+U|KU3|Kenneth Kurtz|3|MEME_ANNEE+R_ATTESTE+VOLUME|en.xix|||1|« 19th-century English Essay and Poetry (W) » (Annual Announcements)|=KU2||winter
+U|KU4|Kenneth Kurtz|3|MEME_ANNEE+R_ATTESTE+VOLUME|en.amcontemp|||1|« Contemporary American Literature (S) » (Annual Announcements)|=KU3||spring
+
+# ---------- SCIENCES SOCIALES (E. Bentley, C. Foreman, H. A. Miller, P. Radin, R. C. Orr, G. E. Mattison) ----------
+C|hi.politique|Social Studies|Theory and Practice of Twentieth Century Politics|—|—
+C|hi.poesie|Social Studies|Cultural History of Recent Times: Roots of Modern Poetry|—|—
+C|hi.idees|Social Studies|Cultural History of Recent Times: Evolution of Modern Ideas|—|—
+C|hi.drame|Social Studies|Cultural History of Recent Times: Founders of Modern Drama (Drama Since Ibsen)|—|—
+C|hi.europe1|Social Studies|History of Europe 1453-1789|—|—
+C|hi.europe2|Social Studies|History of Europe 1789-1914|—|—
+C|hi.amerique|Social Studies|American History (to 1830; 1830-1880; 1880-1944)|—|—
+C|gv.usa|Social Studies|United States Government (Federal, North Carolina and Local)|—|—
+C|soc.problemes|Social Studies|Social Problems and Their Treatment|—|—
+C|soc.population|Social Studies|Population|—|—
+C|soc.minorites|Social Studies|American Minorities|—|—
+C|soc.religion|Social Studies|Religious Trends|—|—
+C|anth.gen|Social Studies|General Anthropology|—|—
+C|anth.amsud|Social Studies|South American Cultures (Latin America)|—|—
+C|eco.elem|Social Studies|Elementary Economics|—|—
+C|eco.sud|Social Studies|Economic Problems of the South|—|—
+C|eco.marketing|Social Studies|Marketing|—|—
+U|EB1|Eric Bentley; Clark Foreman|3|MEME_ANNEE+R_ATTESTE|hi.politique|||1|« Theory and Practice of Twentieth Century Politics », 3 h, automne (idem)|||fall
+U|EB2|Eric Bentley|3|MEME_ANNEE+R_ATTESTE|hi.poesie|||1|« Roots of Modern Poetry (fall) » (idem)|||fall
+U|EB3|Eric Bentley|3|MEME_ANNEE+R_ATTESTE|hi.idees|||1|« Evolution of Modern Ideas (winter) » (idem)|=EB2||winter
+U|EB4|Eric Bentley|3|MEME_ANNEE+R_ATTESTE|hi.drame|||1|« Founders of Modern Drama (spring) » (idem) ; attesté au printemps 1944 (2017.40.152a-c)|=EB3||spring
+U|EB5|Eric Bentley|3|MEME_ANNEE+R_ATTESTE|hi.europe1|||1|« History of Europe since 1453 » (idem) ; « Europe 1453-1789 (W) » (Annual Announcements)|||winter
+U|EB6|Eric Bentley|3|MEME_ANNEE+R_ATTESTE|hi.europe2|||1|« Europe 1789-1914 (S) » (Annual Announcements)|=EB5||spring
+U|CF1|Clark Foreman|3|MEME_ANNEE+R_ATTESTE|hi.amerique|||1|« American History (to 1830; 1830-1880; 1880-1944) », 3 h, trois trimestres (idem)|||
+U|CF2|Clark Foreman; Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE|gv.usa|||1|« United States Government », 3 h, hiver et printemps (idem) ; cours combiné de sociologie et de gouvernement avec Miller à l'hiver, avec une enquête sur la ville de Black Mountain (2017.40.131a-c)|||winter,spring
+U|HM1|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE|soc.problemes|||1|« Social Problems and Their Treatment », 3 h, trois trimestres (idem)|||
+U|HM2|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE|soc.population|||1|« Population », 3 h, automne (idem)|||fall
+U|HM3|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|soc.minorites|||1|« American Minorities (W) » (Annual Announcements)|=HM2||winter
+U|HM4|Herbert A. Miller|3|MEME_ANNEE+R_ATTESTE+VOLUME|soc.religion|||1|« Religious Trends (S) » (Annual Announcements)|=HM3||spring
+U|PR1|Paul Radin|3|MEME_ANNEE+R_ATTESTE|anth.gen|||1|« Anthropology », 3 h, hiver et printemps (idem) ; attesté à l'hiver (2017.40.145a-e)|||winter,spring
+U|PR2|Paul Radin|3|MEME_ANNEE+R_ATTESTE|anth.amsud|||1|« Latin America », 3 h, hiver et printemps (idem) ; « South American Cultures (W-S) »|||winter,spring
+U|RO1|Robert C. Orr|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.elem||eco.sud|1/2|« Robert C. Orr, Economics » (2017.40.021) ; « Elementary Economics » et « Economic Problems of the South » au catalogue 1943 (2017.40.018)||absent de la liste détaillée de septembre : chance 1/2|
+N|eco.sud|candidat de RO1
+U|GM|Gorman E. Mattison|2|MEME_ANNEE+R_ATTESTE+VOLUME|eco.marketing|||1/2|« Gorman E. Mattison, Marketing » (2017.40.021)||trimestre et volume inconnus|
+
+# ---------- PSYCHOLOGIE ET PHILOSOPHIE (E. W. Straus, T. Dreier) ----------
+C|psy.social|Psychology|Psychology of the Human World: Social Psychology|Fundamentals of Psychology (1940-43, approché)|—
+C|psy.personnalite|Psychology|Psychology of the Human World: Personality and Development|—|—
+C|psy.enfant|Psychology|Psychology of the Human World: Child Psychology and Psychoanalysis|—|—
+C|phi.classiques|Philosophy|Philosophical Classics: Descartes (fall); Goethe's Faust, Greek drama and Poetics (winter, spring)|Philosophical Classics (1940-43)|—
+C|phi.sciences|Philosophy|Philosophy of Science (on demand)|—|—
+U|ES1|Erwin Straus|3|MEME_ANNEE+R_ATTESTE|psy.social|||1|« Social Psychology (fall) », 3 h (idem)|||fall
+U|ES2|Erwin Straus|3|MEME_ANNEE+R_ATTESTE|psy.personnalite|||1|« Personality and Development (winter) » (idem)|=ES1||winter
+U|ES3|Erwin Straus|3|MEME_ANNEE+R_ATTESTE|psy.enfant|||1|« Child Psychology and Psychoanalysis (spring) » (idem) ; visites à la Mountain Orphanage|=ES2||spring
+U|ES4|Erwin Straus|2x90|MEME_ANNEE+R_ATTESTE|phi.classiques|||1|« Philosophical Classics », deux séances d'1 h 30 par semaine, trois trimestres (idem)|||
+U|TD3|Ted Dreier|2|MEME_ANNEE+R_ATTESTE|phi.sciences|||1/2|« Philosophy of Science (on demand) », 2 h (idem) ; « (W-S) » (Annual Announcements)||seulement sur demande|winter,spring
+
+# ---------- MATHÉMATIQUES ET SCIENCES (T. Dreier, F. Hansgirg) ----------
+C|ma.calcul|Mathematics|Calculus and Analytic Geometry (5 h)|Mathematical Analysis (1940-43)|—
+C|ma.pensee|Mathematics|Introduction to Mathematical Thinking|Elementary Mathematics (M. Kopp, 1942-43, approché)|—
+C|ma.equations|Mathematics|Differential Equations|—|—
+C|ma.avance|Mathematics|Advanced Calculus|—|—
+C|sc.matiere|Physics and Chemistry|Matter and Energy (chemistry, physics, physical chemistry) + laboratory|General Chemistry ; General Physics (Hansgirg, 1942-43)|—
+C|bio.gen|Biology|Biology (vacant)|—|—
+U|TD1|Ted Dreier|3+2|MEME_ANNEE+R_ATTESTE|ma.calcul|||1|« Calculus », 5 h par semaine, automne et hiver (idem)|||fall,winter
+U|TD2|Ted Dreier|2+1|MEME_ANNEE+R_ATTESTE|ma.pensee|2 h de cours + 1 h de conférence||1|« Introduction to Mathematical Thinking », 2 h + 1 h de conférence, trois trimestres (idem)|||
+U|TD4|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.equations|||1/2|« Differential Equations (S) » (Annual Announcements)||volume supposé|spring
+U|TD5|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.avance|||1/2|« Advanced Calculus (W-S) » (Annual Announcements)||volume supposé|winter,spring
+U|HG1|Fritz Hansgirg|3+2+4L|MEME_ANNEE+R_ATTESTE|sc.matiere|||1|« Matter and Energy… + laboratory », 5 h + laboratoire 4 h par semaine, trois trimestres (idem)|||
+N|bio.gen|« During the fall quarter work in biology is not being offered because of a vacancy in the staff » (Annual Announcements) ; pas de biologiste attesté ensuite

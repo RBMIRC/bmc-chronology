@@ -1,0 +1,236 @@
+{
+ "passe": "mois",
+ "cle": "1939-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2689,
+  "sortie": 10879,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1939-03",
+  "session": "printemps 1939 (session présumée en cours ; les fiches ne donnent ni les dates de trimestre ni les vacances)",
+  "saison_et_climat": "fin d'hiver et début de printemps, déduit du mois et de la mention « printemps 1939 » ; les fiches ne décrivent pas le climat",
+  "situation": "Le collège se déchire autour de Rice, retiré dans sa chambre de Lee Hall pour écrire son autobiographie. La trêve avec Dreier et Albers a déjà cédé, Portell a démissionné, Alice reste sur place après la fin de sa liaison avec Rice, Nell vit ailleurs, et la faculté prépare le départ de Rice.",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Alice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Portell",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Allan Sly",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Marian Nacke",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1939-03",
+    "precision": "saison",
+    "ce_qui_arrive": "Printemps 1939 : le collège se divise autour de Rice, qui vit à l'écart dans Lee Hall, et une partie de la faculté veut son éviction",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)"
+    ]
+   },
+   {
+    "date": "1939",
+    "precision": "saison",
+    "ce_qui_arrive": "La trêve entre Rice, Dreier et Albers ne tient pas : Rice et Albers se querellent à nouveau",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Portell, l'adversaire de Rice, démissionne ; la date exacte n'est pas donnée",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)"
+    ]
+   },
+   {
+    "date": "1939-04-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Lettre de Marian Nacke : une partie de la faculté veut évincer Rice et menace de faire éclater le collège ; elle prédit une explosion « dans les six semaines » et annonce que Sly ne reviendra pas",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)",
+     "Fils: La sortie de Rice (1939-04→1940-02)",
+     "Fils: La musique après Sly (1939-04→1947)"
+    ]
+   },
+   {
+    "date": "1939-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Querelle publique de Rice dans Harper's avec son cousin William H. Smith au sujet de « Grandmother Smith's Plantation » ; Rice répond en citant son discours antilynchage de 1935 ; la menace de procès n'aboutit pas",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)"
+    ]
+   },
+   {
+    "date": "1939-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice quitte le collège fin juin pour Southern Pines ; Duberman parle d'un congé d'un an, Chaddock d'un seul semestre obtenu à contrecœur",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)",
+     "Fils: La sortie de Rice (1939-04→1940-02)"
+    ]
+   },
+   {
+    "date": "1939-06-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Josef et Anni Albers partent pour Mexico, où ils restent jusqu'au 8 septembre",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)",
+     "Fils: Le voyage mexicain d'Albers (1939-06→1939-09)"
+    ]
+   }
+  ],
+  "quotidien": "Rice travaille seul dans sa chambre de Lee Hall à son autobiographie, commencée à Folly Beach. Sly tient la musique sous des exigences qui paralysent Nacke. Les fiches ne décrivent ni cours, ni repas, ni travaux précis pour ce mois. Les projets d'architecture (Gropius et Breuer) existent déjà sur le papier, sans date précise, et restent inabordables.",
+  "tensions": [
+   "Rice contre Albers : la querelle reprend aussitôt après la trêve",
+   "Rice contre une partie de la faculté : ses disciples se sentent trahis, et ses insultes aux donateurs et aux étudiants sont invoquées contre lui",
+   "Rice contre son cousin William H. Smith, avec menace de procès en diffamation",
+   "Le congé de Rice : Duberman y voit un sabbatique d'un an voulu par le conseil, Chaddock un semestre arraché de haute lutte",
+   "Sly et la musique : des exigences qui épuisent Nacke et l'amènent à réclamer un successeur",
+   "Alice reste au collège après la fin de sa liaison avec Rice ; Nell est ailleurs",
+   "Portell démissionne, sans que le conflit s'apaise pour autant"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Rice seul dans Lee Hall",
+    "date": "1939-03",
+    "lieu": "Lee Hall, chambre de Rice",
+    "personnages": [
+     "Rice",
+     "un collègue venu le presser de partir"
+    ],
+    "deroule": "Rice, isolé, écrit son autobiographie pendant qu'un collègue vient lui parler de son départ. Il évite l'affrontement et se replie sur son manuscrit.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)",
+     "Fils: Le livre de Rice (1938→1942)"
+    ]
+   },
+   {
+    "titre": "La trêve qui casse",
+    "date": "1939-03",
+    "lieu": "salle commune du collège",
+    "personnages": [
+     "Rice",
+     "Albers",
+     "Dreier"
+    ],
+    "deroule": "Une réunion censée sceller la trêve entre Dreier, Albers et Rice tourne à la querelle. Chacun reprend ses griefs, et l'accord ne tient pas.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Les exigences de Sly",
+    "date": "1939-03",
+    "lieu": "salle de musique du collège",
+    "personnages": [
+     "Allan Sly",
+     "Marian Nacke"
+    ],
+    "deroule": "Sly présente à Nacke des exigences qui la paralysent. Elle commence à penser à un successeur, sans avoir encore pris de décision.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)",
+     "Fils: La musique après Sly (1939-04→1947)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rice dans Lee Hall, en mars, en reprenant son manuscrit commencé à Folly Beach",
+    "vers_date": "1935-04-16",
+    "vers": "le discours antilynchage que Rice citera contre son cousin en avril 1939",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)",
+     "Fils: Le livre de Rice (1938→1942)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rice retiré dans Lee Hall, au moment où Alice reste au collège sans liaison avec lui",
+    "vers_date": "1938",
+    "vers": "la rupture avec Alice, le début de l'autobiographie à Folly Beach et le retrait de Rice des affaires communes",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)",
+     "Fils: Le livre de Rice (1938→1942)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la querelle de mars, pendant que la faculté prépare le départ de Rice",
+    "vers_date": "1939-05",
+    "vers": "Guernica vu à New York, et la petite fille parisienne dont le père déchire la première histoire",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la fin des tensions de mars, quand Rice est en route vers Southern Pines",
+    "vers_date": "1939-11",
+    "vers": "le titre définitif de l'autobiographie, I Came Out of the Eighteenth Century, trouvé en novembre, et la rétrospective Picasso",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la sortie de Rice en juin 1939, puis le conflit sur la facture et le contrat d'édition",
+    "vers_date": "1940-02",
+    "vers": "la fin de la correspondance sur la facture de 145 dollars et la sortie définitive de Rice",
+    "refs": [
+     "chapitre de l'année 1939 (synthèse)",
+     "Fils: La sortie de Rice (1939-04→1940-02)"
+    ]
+   }
+  ],
+  "motifs": [
+   "l'isolement d'un fondateur qui écrit sa vie pendant que son collège se défait",
+   "la trahison ressentie par les disciples et les rivalités personnelles",
+   "la parole publique et la réputation (Harper's, discours de 1935)",
+   "le congé comme éloignement administratif",
+   "l'argent et la fragilité du collège",
+   "Albers, figure d'exigence et de rivalité"
+  ],
+  "lacunes": "Les fiches ne datent aucun événement précis de mars 1939 : pas de jour, pas de session exacte, pas de date pour la démission de Portell ni pour la reprise de la querelle Rice-Albers. Elles ne donnent pas les identifiants EV, SC ou PE, donc les refs citent les titres des fiches. On ignore si Nell, Frank et Mary Rice sont présents en mars, et la date exacte du congé de Rice reste disputée (un an chez Duberman, un semestre chez Chaddock)."
+ }
+}

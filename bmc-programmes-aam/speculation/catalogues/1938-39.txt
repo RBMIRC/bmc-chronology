@@ -1,0 +1,192 @@
+# Concordance des cours 1938-39 → gabarits de l'année reconstituée.
+#
+# Sources :
+#   1938-39 : catalogue 2017.40.014 (fiche 6582), relu par un OCR refait sur ses images (scans/014-*.jpg) ; calendrier p. 2
+#             (014-04, lu sur l'image) ; cours pp. 10-19 (014-12 à 014-21) ; officiers p. 26 (014-29). Les notices du corps
+#             enseignant (p. 27 et suivantes) sont incomplètes dans les images du musée : les groupes d'enseignants en tête
+#             de chaque matière servent de corps enseignant.
+#             Pour chaque matière : un groupe d'enseignants et des titres, sans heures ni attribution par cours.
+#             « Most of the courses are being given this year. Some, in general the more advanced courses, are offered in
+#             alternate years; still others are given only on demand. »
+#             Psychologie : « *F MOELLENHOFF, E W STRAUS… *On leave of absence 1938-1939 ».
+#   1937-38 : catalogue 2017.40.013 (colonne « année précédente ») ; 1936-38 (2017.40.012) pour les structures
+#
+# C|id|discipline|titre 1938-39|année précédente (1937-38)|année suivante ; structure connue
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ART (groupe : A. Albers, J. Albers ; Schawinsky est parti) ----------
+C|art.dessin1|Art|Introductory Drawing|Introductory Drawing|1936-38 : deux semestres, 4 h
+C|art.dessin2|Art|Advanced Drawing|Advanced Drawing (Schawinsky)|1936-38 : 4 h
+C|art.couleur1|Art|Introductory Color|Introductory Color|1936-38 : 2 h
+C|art.couleur2|Art|Advanced Color|Advanced Color (Schawinsky)|1936-38 : 2 h
+C|art.werklehre|Art|Werklehre|Werklehre|1936-38 : 2 h
+C|art.tissage_t|Art|Weaving Theory|Weaving Theory|1936-38 : 1 h
+C|art.tissage_p|Art|Weaving Practice|Weaving Practice|1936-38 : 4 h
+C|art.classe|Art|General Art Class|General Art Class|occasionnel
+C|art.seminaire|Art|Private Art Seminar|Private Art Seminar|sans horaire
+U|A1|Josef Albers|4|MEME_ANNEE+R_NOMME+VOISIN|art.dessin1|||1|groupe Art ; Albers nommé en 1936-38|||
+U|A2|Josef Albers|4|MEME_ANNEE+R_ELIM+VOISIN|art.dessin2|||1|Schawinsky parti : Josef Albers, seul enseignant d'art du groupe (Anni Albers : tissage)|||
+U|A3|Josef Albers|2|MEME_ANNEE+R_NOMME+VOISIN|art.couleur1|||1|idem|||
+U|A4|Josef Albers|2|MEME_ANNEE+R_ELIM+VOISIN|art.couleur2|||1|idem, après le départ de Schawinsky|||
+U|A5|Josef Albers|2|MEME_ANNEE+R_NOMME+VOISIN|art.werklehre|||1|idem|||
+U|A6|Anni Albers|1|MEME_ANNEE+R_NOMME+VOISIN|art.tissage_t|||1|groupe Art ; « Textile Design » (notice p. 27)|||
+U|A7|Anni Albers|4|MEME_ANNEE+R_NOMME+VOISIN|art.tissage_p|||1|idem|||
+U|A8|Josef Albers; Anni Albers|1|MEME_ANNEE+R_ELIM+VOLUME+OCCASION|art.seminaire|||1|groupe Art||séance indicative|
+N|art.classe|réunion occasionnelle de toute la communauté : activité possible du dimanche (ligne S du fichier de l'année)
+
+# ---------- MUSIC (groupe : J. Evarts, A. B. Sly, E. W. Sly, T. W. Surette) ----------
+C|mu.app1|Music|Music Appreciation I|Music Appreciation I|1936-38 : deux semestres, 3 h, Evarts
+C|mu.app2|Music|Music Appreciation II|Music Appreciation II|idem
+C|mu.app3|Music|Music Appreciation III|Music Appreciation III|heures non données
+C|mu.chant|Music|General Singing|General Singing|une fois par semaine ; « intended for the entire community »
+C|mu.choeur|Music|Chorus and Orchestra|Choral Singing ; Orchestra and Chamber Music|1936-38 : chœur une fois par semaine, orchestre 3 h
+C|mu.chambre|Music|Chamber Music|Orchestra and Chamber Music|—
+C|mu.piano|Music|Piano Lessons|Piano Lessons|« as required »
+C|mu.violon|Music|Violin Lessons|Violin Lessons (Betty Ware Sly)|—
+C|mu.composition|Music|Composition|Composition|—
+C|mu.ecoles|Music|Teaching Music in Schools|— (nouveau)|—
+C|mu.opera|Music|Nineteenth Century Opera|Nineteenth Century Opera|1936-38 : 1 h
+C|mu.bach|Music|Bach Chorale Preludes Seminar|Music Seminar (approché)|—
+U|MU1|John Evarts|3|MEME_ANNEE+R_NOMME+VOISIN|mu.app1|||1|groupe Music ; Evarts nommé en 1936-38|||
+U|MU2|John Evarts|3|MEME_ANNEE+R_NOMME+VOISIN|mu.app2|||1|idem|||
+U|MU3|John Evarts|3|MEME_ANNEE+R_NOMME+VOLUME|mu.app3|||1|idem|||
+U|MU4|John Evarts|1|MEME_ANNEE+R_NOMME+VOISIN|mu.opera|||1|idem|||
+U|MU5|Allan Sly|1|MEME_ANNEE+R_NOMME+VOISIN|mu.chant|pour toute la communauté||1|groupe Music ; Sly nommé en 1936-38|mar 19:30-20:30|après le dîner : choix|
+U|MU6|Allan Sly|3|MEME_ANNEE+R_NOMME+VOISIN|mu.choeur|||1|idem||chœur et orchestre réunis sous un titre : volume de l'orchestre de 1936-38|
+U|MU7|Allan Sly; Betty Ware Sly|2|MEME_ANNEE+R_ELIM+VOLUME|mu.chambre|||1|groupe Music : les Sly (alto, violon) pour la musique de chambre||volume supposé|
+U|MU8|John Evarts; Allan Sly|1|MEME_ANNEE+R_NOMME+VOISIN+OCCASION|mu.piano|leçons individuelles||1|idem||plage indicative|
+U|MU9|Betty Ware Sly|1|MEME_ANNEE+R_NOMME+VOLUME+OCCASION|mu.violon|leçons individuelles||1|« E W Sly » au groupe ; Betty Ware Sly nommée pour le violon en 1937-38||plage indicative|
+U|MU10|Allan Sly|2|MEME_ANNEE+R_ELIM+VOLUME|mu.composition|||1/2|groupe Music||cours sans structure connue ; peut-être « on demand »|
+U|MU11|Thomas Whitney Surette|2|MEME_ANNEE+R_ELIM+VOLUME|mu.ecoles||mu.bach|1/2|groupe Music : Surette, ancien pédagogue de la musique à l'école (Concord)||l'un des deux séminaires ; présence de Surette toute l'année non attestée|
+U|MU12|John Evarts|2|MEME_ANNEE+R_ELIM+VOLUME|mu.bach||mu.ecoles|1/2|groupe Music||idem|
+
+# ---------- DRAMATICS, WRITING (W. R. Wunsch, recteur ; J. A. Rice) ----------
+C|dr.1|Dramatics|Dramatics I|Dramatics I|plays throughout the year
+C|dr.2|Dramatics|Dramatics II|Dramatics II|idem
+C|dr.3|Dramatics|Dramatics III|Dramatics III|idem
+C|ecr.intro|Writing|Introductory Writing|— (nouveau)|—
+C|ecr.seminaire|Writing|Writing Seminar|Writing Seminar|1936-38 : creative writing, 3 h
+C|ecr.journalisme|Writing|Journalism|Journalism|1936-38 : 2 h, Wunsch
+U|DR1|Robert Wunsch|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.1|débutants||1|seul nom du groupe Dramatics||volume supposé|
+U|DR2|Robert Wunsch|2|MEME_ANNEE+R_ATTESTE+VOLUME|dr.2||dr.3|1/2|idem||niveaux II et III, sans doute réunis|
+U|W1|Robert Wunsch|3|MEME_ANNEE+R_ELIM+VOLUME|ecr.intro|||1|groupe Writing : Rice et Wunsch ; l'écriture élémentaire était à Wunsch||Wunsch est aussi recteur cette année|
+U|W2|John A. Rice|3|MEME_ANNEE+R_ELIM+VOISIN|ecr.seminaire|||1|groupe Writing : Rice||le séminaire, peut-être mené à deux|
+U|W3|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOISIN|ecr.journalisme|||1|Wunsch nommé en 1936-38|||
+
+# ---------- ENGLISH AND AMERICAN LITERATURE (groupe : H. L. Bailey, K. Kurtz, F. R. Mangold, T. W. Surette, W. R. Wunsch ; Martin est parti) ----------
+C|en.survey|English|Introductory Survey of English Literature|Introductory Survey of English Literature (Martin)|1936-38 : deux semestres, 3 h
+C|en.medieval|English|Chaucer and Medieval Literature|Chaucer and Medieval Literature|1936-38 : un semestre, 3 h, années alternées
+C|en.shakespeare|English|Shakespeare and the Elizabethan Drama|Shakespeare and the Elizabethan Drama|idem
+C|en.xvii|English|Seventeenth Century Literature|Seventeenth Century Literature|idem
+C|en.xviii|English|Eighteenth Century Literature|Eighteenth Century Literature|idem
+C|en.romantique|English|The Romantic Movement|The Romantic Movement|idem
+C|en.victorien|English|Victorian England|Victorian England|idem
+C|en.am19|English|Nineteenth Century American Literature|American Literature|1936-38 : american literature I (1850-1914), un semestre, 2 h, Wunsch
+C|en.amcontemp|English|Contemporary American Literature|American Literature|1936-38 : american literature II (post-war), un semestre, 2 h, Wunsch
+C|en.lectures|English|Readings in Literature|— (nouveau)|—
+C|en.forme|English|Form in Literature|Form in Literature|1936-38 : un semestre, 1 h, Mangold
+C|en.roman|English|Problems of the Novel|Problems of the Novel|1936-38 : un semestre, 2 h, Mangold
+C|en.poesie|English|Poetry Reading|Poetry Reading|—
+C|ling.intro|English|General Introduction to Linguistics|General Introduction to Linguistics|1936-38 : deux semestres, 3 h, Mangold et Martin
+U|BA1|Hilda Loram Bailey|3|MEME_ANNEE+R_ELIM+VOISIN|en.survey|||1|groupe English : Martin parti, Hilda Loram Bailey (« English », notice p. 27) reprend le cours général||revenue en 1938 après Miquon School (notice)|
+U|BA2|Hilda Loram Bailey|3|MEME_ANNEE+R_COMPET+VOISIN|en.shakespeare||en.medieval;en.xvii;en.xviii|1/4|groupe English : par compétence (elle enseignait déjà le théâtre et l'anglais en 1933-35)||un semestre, une année sur deux ; ordre de 1936-38 : 1938-39 reprendrait le cycle de 1936-37|fall
+U|BA3|Hilda Loram Bailey|3|MEME_ANNEE+R_COMPET+VOISIN|en.xvii||en.medieval;en.shakespeare;en.xviii|1/4|idem|=BA2|idem|spring
+U|KU1|Kenneth Kurtz|3|MEME_ANNEE+R_COMPET+VOLUME|en.lectures||en.romantique;en.victorien|1/3|groupe English : Kenneth Kurtz, nouveau venu, par compétence||« Readings in Literature », nouveau titre, va de pair avec un nouvel enseignant|
+U|WU1|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOISIN|en.am19|||1/2|Wunsch nommé pour la littérature américaine en 1936-38 (scan p. 24)||un semestre : automne|fall
+U|WU2|Robert Wunsch|2|MEME_ANNEE+R_NOMME+VOISIN|en.amcontemp|||1/2|idem|=WU1|un semestre : printemps|spring
+U|MG1|Frederick R. Mangold|1|MEME_ANNEE+R_NOMME+VOISIN|en.forme|||1/2|Mangold nommé en 1936-38||un semestre : automne|fall
+U|MG2|Frederick R. Mangold|2|MEME_ANNEE+R_NOMME+VOISIN|en.roman|||1/2|idem||un semestre : printemps|spring
+U|SU1|Thomas Whitney Surette|1|MEME_ANNEE+R_ELIM+VOLUME+HEURE|en.poesie|||1/2|groupe English : Surette (« Music and Poetry » en 1937-38)|dim 20:00-21:00|présence toute l'année non attestée|
+U|LG|Frederick R. Mangold|3|MEME_ANNEE+R_NOMME+VOISIN|ling.intro|||1|Mangold nommé en 1936-38 (avec Martin, parti)|||
+
+# ---------- FOREIGN LANGUAGES (groupe : F. R. Mangold, A. Moellenhoff, J. A. Rice) ----------
+C|fr.intro|French|Introductory French|Introductory French|années alternées avec le cours avancé ; 1936-38 : 3 h, Mangold
+C|fr.avance|French|Advanced French|Advanced French|idem
+C|fr.survey|French|Introductory Survey of French Literature|Introductory Survey of French Literature|idem
+C|fr.seminaire|French|Seminar on Stendhal, Flaubert, and Proust|Seminar on Stendhal, Flaubert, and Proust|idem
+C|de.intro|German|Introductory German|Introductory German|années alternées ; 1936-38 : 3 h, Moellenhoff
+C|de.avance|German|Advanced German|Advanced German|idem
+C|de.xix|German|Nineteenth Century German Literature|Nineteenth Century German Literature|idem
+C|de.goethe|German|Seminar on Goethe|Seminar on Goethe|idem
+C|gr.intro|Greek|Introductory Greek|Introductory Greek|1936-38 : 3 h, Rice
+C|gr.avance|Greek|Advanced Greek|— (nouveau)|années alternées avec l'introduction
+C|la.lyrique|Latin|Latin Lyric Poetry|Latin Lyric Poetry|1936-38 : 3 h, Rice
+C|es.intro|Spanish|Introductory Spanish|Introductory Spanish|années alternées
+C|es.avance|Spanish|Advanced Spanish|Advanced Spanish|idem
+C|es.cervantes|Spanish|Seminar on Cervantes|— (nouveau)|—
+U|F1|Frederick R. Mangold|3|MEME_ANNEE+R_NOMME+VOISIN|fr.avance||fr.intro|1/2|Mangold nommé en 1936-38||alternance : complément de 1937-38 (introduction retenue)|
+U|F2|Frederick R. Mangold|3|MEME_ANNEE+R_NOMME+VOISIN|fr.seminaire||fr.survey|1/2|idem||complément de 1937-38 (survey retenu)|
+U|F3|Frederick R. Mangold|3|MEME_ANNEE+R_ELIM+VOISIN|es.avance||es.intro|1/2|seul enseignant de langues romanes||complément de 1937-38|
+U|F4|Frederick R. Mangold|2|MEME_ANNEE+R_ELIM+VOLUME+OCCASION|es.cervantes|||1/2|idem||séminaire nouveau, sans doute « on demand »|
+U|D1|Anna Moellenhoff|3|MEME_ANNEE+R_NOMME+VOISIN|de.intro||de.avance|1/2|Mrs Moellenhoff nommée en 1936-38||complément de 1937-38 (avancé retenu)|
+U|D2|Anna Moellenhoff|3|MEME_ANNEE+R_NOMME+VOISIN|de.goethe||de.xix|1/2|idem||Nietzsche a disparu de la liste ; 1937-38 avait retenu Nietzsche, 1936-37 le XIXe siècle|
+U|R1|John A. Rice|3|MEME_ANNEE+R_NOMME+VOISIN|gr.avance||gr.intro|1/2|Rice nommé pour le grec en 1936-38||« Advanced Greek » apparaît : règle d'alternance, l'introduction ayant été retenue les années précédentes|
+U|R2|John A. Rice|3|MEME_ANNEE+R_NOMME+VOISIN|la.lyrique|||1|idem|||
+
+# ---------- HISTORY (W. C. Barnes seul) ----------
+C|hi.usa|History|History of the United States|— (pas d'histoire hors Amériques en 1937-38)|—
+C|hi.nouveaumonde|History|Civilization in the New World|History of Civilization in the New World (Portell-Vilá)|—
+C|hi.europe|History|History of Modern Europe|—|—
+C|hi.russie|History|Modern Russia|—|—
+C|hi.renaissance|History|Renaissance and Reformation|— (the renaissance and reformation, King, 1936-37)|—
+U|HB1|W. C. Barnes|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.usa||hi.russie|4/5|seul nom du groupe History||« most of the courses are being given this year » : quatre des cinq cours à la fois (12 h), chance 4/5 ; ordre du catalogue|
+U|HB2|W. C. Barnes|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.nouveaumonde||hi.russie|4/5|idem||idem|
+U|HB3|W. C. Barnes|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.europe||hi.russie|4/5|idem||idem|
+U|HB4|W. C. Barnes|3|MEME_ANNEE+R_ATTESTE+VOLUME|hi.renaissance||hi.russie|4/5|idem||idem|
+
+# ---------- ECONOMICS AND SOCIOLOGY (Gerald Barnes seul) ----------
+C|eco.generale|Economics and Sociology|General Economics|Introductory Economics (J. J. King)|—
+C|eco.social|Economics and Sociology|Social Problems|—|—
+C|eco.sociologie|Economics and Sociology|General Sociology|—|—
+C|eco.travail|Economics and Sociology|Labor Problems|Contemporary Labor Problems (J. J. King)|—
+U|GB1|Gerald Barnes|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.generale|||4/5|seul nom du groupe ; « Gerald Barnes, Economics and Sociology » (notice p. 27)||« most of the courses are being given this year » : chance 4/5|
+U|GB2|Gerald Barnes|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.social|||4/5|idem|||
+U|GB3|Gerald Barnes|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.sociologie|||4/5|idem|||
+U|GB4|Gerald Barnes|3|MEME_ANNEE+R_ATTESTE+VOLUME|eco.travail|||4/5|idem|||
+
+# ---------- PSYCHOLOGY (Erwin Straus ; Fritz Moellenhoff en congé) ----------
+C|psy.fond|Psychology|Fundamentals of Psychology|Introductory Psychology|1936-38 : un semestre, 3 h
+C|psy.pathologie|Psychology|Psychopathology|Studies in Psychopathology|idem
+C|psy.anormale|Psychology|Abnormal Psychology|Abnormal Psychology|idem
+C|psy.psychanalyse|Psychology|Psychoanalysis|Psychoanalysis (F. Moellenhoff)|idem
+U|ST1|Erwin Straus|3|MEME_ANNEE+R_ELIM+VOISIN|psy.fond|||1/2|groupe Psychology : Moellenhoff « on leave of absence 1938-1939 », reste Erwin Straus||un semestre : automne|fall
+U|ST2|Erwin Straus|3|MEME_ANNEE+R_ELIM+VOISIN|psy.pathologie|||1/2|idem||un semestre : automne|fall
+U|ST3|Erwin Straus|3|MEME_ANNEE+R_ELIM+VOISIN|psy.anormale|||1/2|idem|=ST1|un semestre : printemps|spring
+U|ST4|Erwin Straus|3|MEME_ANNEE+R_ELIM+VOISIN|psy.psychanalyse|||1/4|idem|=ST2|cours propre à Moellenhoff, en congé : chance réduite (1/4) que Straus l'ait donné|spring
+
+# ---------- SCIENCES (groupe : T. Dreier, C. H. Lindsley, A. Moellenhoff) ----------
+C|ph.intro|Physics|Introductory General Physics|Introductory General Physics|1936-38 : deux semestres, 3 h + 4 h, Dreier
+C|ph.musique|Physics|Physics of Musical Sounds|Physics of Musical Sounds|1936-38 : un semestre, 3 h + 4 h, Dreier
+C|ph.optique|Physics|Elementary Optics|Elementary Optics|—
+C|ph.elec|Physics|Electricity|Electricity|—
+C|ph.meca|Physics|Mechanics|Mechanics|—
+C|ch.intro|Chemistry|Introductory General Chemistry|— (pas de chimie en 1937-38)|1936-38 : deux semestres, 3 h + 4 h
+C|ch.quali|Chemistry|Qualitative Analysis|—|« one and two semesters »
+C|ch.quanti|Chemistry|Quantitive Analysis|—|idem
+C|bio.intro|Biology|Introductory Biology|Introductory Biology|1936-38 : deux semestres, 3 h + 4 h, Moellenhoff
+C|bio.seminaire|Biology|Biology Seminar|Biology Seminar|—
+C|sc.histoire|Sciences|History of Science|— (nouveau)|—
+U|P1|Ted Dreier|3+4L|MEME_ANNEE+R_NOMME+VOISIN|ph.intro|||1|groupe Sciences ; Dreier nommé en 1936-38|||
+U|P2|Ted Dreier|3+4L|MEME_ANNEE+R_NOMME+VOISIN|ph.musique|||1/2|idem||un semestre : printemps|spring
+U|P3|Ted Dreier|3|MEME_ANNEE+R_ELIM+VOLUME+OCCASION|ph.optique||ph.elec;ph.meca|1/3|idem||travail avancé « arranged to meet their special needs »|fall
+U|CL1|Charles H. Lindsley|3+4L|MEME_ANNEE+R_ELIM+VOISIN|ch.intro|||1|groupe Sciences : Lindsley, chimiste nommé pour 1938-39 (« regular instruction in Chemistry will be resumed in September, 1938 », 1937-38)|||
+U|CL2|Charles H. Lindsley|3|MEME_ANNEE+R_ELIM+VOLUME|ch.quali||ch.quanti|1/2|idem||un cours avancé ; lequel : inconnu|
+U|B1|Anna Moellenhoff|3+4L|MEME_ANNEE+R_NOMME+VOISIN|bio.intro|||1|groupe Sciences ; Mrs Moellenhoff nommée en 1936-38|||
+U|B2|Anna Moellenhoff|2|MEME_ANNEE+R_ELIM+VOLUME+OCCASION|bio.seminaire|||1/2|idem|||
+U|HS|Ted Dreier; Charles H. Lindsley|2|MEME_ANNEE+R_COMPET+VOLUME|sc.histoire|||1/2|groupe Sciences : enseignant inconnu ; Dreier et Lindsley proposés||titre nouveau, structure inconnue|
+
+# ---------- MATHEMATICS (T. Dreier seul) ----------
+C|ma.calcul1|Mathematics|Calculus I|Differential and Integral Calculus|1936-38 : deux semestres, 3 h
+C|ma.trigo|Mathematics|Trigonometry|Trigonometry|1936-38 : réunie à l'algèbre et à la géométrie analytique, 3 h
+C|ma.geom|Mathematics|Analytic Geometry|Analytic Geometry|idem
+C|ma.calcul2|Mathematics|Calculus II|Differential and Integral Calculus|—
+C|ma.equations|Mathematics|Differential Equations|— (nouveau)|—
+U|M1|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOISIN|ma.calcul1|||1|seul nom du groupe Mathematics||le catalogue invite l'étudiant à commencer par le calcul, « even if he has not had trigonometry »|
+U|M2|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOISIN|ma.trigo+ma.geom|réunies comme en 1936-38||1|idem|||
+U|M3|Ted Dreier|3|MEME_ANNEE+R_ATTESTE+VOLUME|ma.calcul2||ma.equations|1/2|idem||cours avancés, « in general… offered in alternate years »|
+
+# ---------- PHILOSOPHY (J. A. Rice seul) ----------
+C|phi.platon1|Philosophy|Plato I|Plato I|1936-38 : deux semestres, 1 h
+C|phi.platon2|Philosophy|Plato II|Plato II|1936-38 : deux semestres, 3 h
+U|R3|John A. Rice|1|MEME_ANNEE+R_ATTESTE+VOISIN|phi.platon1|pour les nouveaux venus||1|seul nom du groupe Philosophy|||
+U|R4|John A. Rice|3|MEME_ANNEE+R_ATTESTE+VOISIN|phi.platon2|||1|idem|||

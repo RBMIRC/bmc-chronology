@@ -1,0 +1,289 @@
+{
+ "passe": "personnes",
+ "cle": "Frank O'Hara",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 6467,
+  "sortie": 3198,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Frank O'Hara",
+  "autres_noms": [
+   "Frank"
+  ],
+  "dates_de_vie": "mort en 1966 (naissance non donnée par les fiches)",
+  "statut_bmc": "Passage d'un été (1952) ; poète et critique du cercle new-yorkais lié à Black Mountain",
+  "presence": [
+   {
+    "debut": "1952",
+    "fin": "1952",
+    "precision": "annee",
+    "role": "présence estivale au collège (été 1952)",
+    "refs": [
+     "PE-00136"
+    ]
+   }
+  ],
+  "portrait_physique": "Front large surmonté d'une pointe de cheveux en V très prononcée ; corps mince, presque décharné — Elaine le disait « sans hanches comme un serpent ». Pose la main gauche sur la hanche, le poids sur la jambe droite.",
+  "noyau_psychologique": "Caméléon affectif et social : identités multiples, il adopte les traits de ceux qu'il fréquente, au point d'écrire que ses yeux « ne font que refléter ». Sous le masque du boute-en-train, homosexuel menant une double vie dans un monde hétérosexuel, il transforme le déplacement des gens et des idées en art — le ragot, la citation, le calembour comme formes vitales.",
+  "blessures": "Double vie d'homosexuel dans un monde hétérosexuel (peint en masque par Grace Hartigan) ; constitution ruinée par l'alcool et le tabac, qui le tuent indirectement en 1966.",
+  "desirs": "Faire du dialogue lui-même une œuvre ; inspirer et éprouver l'amour (sa lecture de Kline : une puissance qui n'existe que pour inspirer l'amour) ; tenir ensemble les mondes de la peinture et de la poésie.",
+  "peurs": "Être figé, réduit à une seule identité ; l'ennui et la lourdeur — d'où la parade permanente d'esprit.",
+  "maniere_d_aimer": "Par l'adoration verbale et le surnom mythifiant (Elaine devient « la Déesse Blanche »), par la complicité drôle et la générosité critique ; homosexualité discrète, partagée avec Joe LeSueur à qui LeSueur le juge « adorable, imprévoyant ».",
+  "rapport_au_pouvoir": "Institutionnellement puissant (conservateur au MoMA, plume d'Art News) mais exerçant ce pouvoir par la confiance et la mise en valeur d'autrui : c'est sa personne qui donne à de Kooning assez d'assurance pour accepter la rétrospective de 1969.",
+  "voix": {
+   "registre": "Fusillade d'esprit : calembours, citations en cascade, formules choc ; passe du cabaret irrévérencieux à la tendresse nue.",
+   "tics": "Parler par citations interposées ; surnoms mythiques ; paradoxes sentencieux sur l'âge et la mort.",
+   "exemples_paraphrases": [
+    "Vieillir n'est pas si grave, c'est la non-existence qui fait mal.",
+    "Les artistes lisent les tableaux et regardent les livres (bon mot qu'il colporte).",
+    "Sur Elaine : elle savait tout, en disait peu bien qu'elle parlât beaucoup, et nous l'adorions tous."
+   ]
+  },
+  "habitudes": [
+   "Main gauche sur la hanche, poids sur la jambe droite",
+   "Forte consommation d'alcool et de tabac",
+   "Retoucher les scripts collectifs de sa plume",
+   "Lire les conférences d'Elaine au Club quand sa timidité la bloque"
+  ],
+  "convictions": [
+   "Une acception large de la « nature » en art, incluant l'abstraction",
+   "La puissance (lue chez Kline) refuse la domination et n'existe que pour inspirer l'amour",
+   "Le ragot et l'on-dit comme forme d'art et miroir du monde de l'art",
+   "La poésie comme vocabulaire légitime de la critique picturale (Rauschenberg relu comme « sérieux talent lyrique »)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Été à Black Mountain ; la même année à New York, il introduit le panel « New Poets » du Club avec Ashbery, Guest et Schuyler (14 mai)",
+    "etat_interieur": "poète charnière entre la scène BMC et le New York School",
+    "refs": [
+     "PE-00136",
+     "EV-05799"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Amant occasionnel de Larry Rivers au moment de la tentative de suicide de celui-ci ; il protège le secret, fustigé par Elaine",
+    "etat_interieur": "double vie, discrétion amoureuse",
+    "refs": [
+     "EV-03672",
+     "EV-05576"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Amant occasionnel de Larry Rivers, diners manqués au Cedar Tavern vers 1945-1950",
+    "refs": [
+     "EV-03672"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "periode",
+    "moment": "Participe à la table ronde du Club sur le réalisme aux côtés de Goldberg, Hartigan, Resnick, Mitchell et Elaine",
+    "refs": [
+     "EV-04475"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Recommandé par Elaine comme critique à Thomas Hess à ARTnews ; façonne durablement la rédaction",
+    "refs": [
+     "EV-04917"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "moment": "Recense dans Art News la 4e exposition de Rauschenberg à la Egan Gallery : ancre le vocabulaire de la « poésie » dans la critique de Rauschenberg",
+    "refs": [
+     "EV-06406"
+    ]
+   },
+   {
+    "date": "1955-01-28",
+    "precision": "jour",
+    "moment": "Son essai sur la « nature » et l'abstraction inspire le panel « Nature and the New Painting II » ; il écrit que ce qu'Elaine éprouve « va droit à la toile »",
+    "refs": [
+     "EV-06683",
+     "CI-02192"
+    ]
+   },
+   {
+    "date": "1959",
+    "precision": "annee",
+    "moment": "Co-auteur du Hearsay Panel avec Elaine, Mitchell, Goldberg, Bluhm : trois soirées privées puis enregistrement studio ; il retouche le script, se voit commander un poème sur Norman Bluhm ; il envoie Bed, Thaw et Kickback de Rauschenberg à documenta 2",
+    "etat_interieur": "au cœur du cabaret d'avant-garde new-yorkais",
+    "refs": [
+     "EV-07185",
+     "SC-01911",
+     "RE-02881",
+     "EV-07204"
+    ]
+   },
+   {
+    "date": "1960-10",
+    "precision": "mois",
+    "moment": "Le « coup d'éclat » chez lui et Joe LeSueur : il héberge le piège à Ruth Kligman puis escorte Elaine en star jusqu'à son taxi",
+    "refs": [
+     "EV-07340",
+     "SC-01940"
+    ]
+   },
+   {
+    "date": "1961",
+    "precision": "periode",
+    "moment": "Présente le jeune poète Frank Lima à Kenneth Koch et au milieu",
+    "refs": [
+     "EV-07354"
+    ]
+   },
+   {
+    "date": "1962",
+    "precision": "annee",
+    "moment": "Pose pour Elaine dans l'atelier froid de Wolf Kahn (pardessus prêté, invisible) ; elle efface son visage : « plus Frank que quand le visage était là » ; son frère reconnaît le portrait à la Graham Gallery. La même année (≈), il surnomme Elaine « la Déesse Blanche »",
+    "refs": [
+     "EV-07437",
+     "PE-00136",
+     "CI-00294"
+    ]
+   },
+   {
+    "date": "1963",
+    "precision": "annee",
+    "moment": "Elaine achète le portrait cutout d'O'Hara par Alex Katz et le place près de son lit (« je me réveillais et trouvais un homme là »)",
+    "refs": [
+     "EV-07560",
+     "RE-03045"
+    ]
+   },
+   {
+    "date": "1966",
+    "precision": "annee",
+    "moment": "Mort à Fire Island : un buggy des dunes le percute ; l'alcool et le tabac ont affaibli sa constitution ; dernier échange avec Elaine (« Oh, Elaine, quel plaisir. — Rétablis-toi. — D'accord. ») ; il meurt sept heures plus tard",
+    "etat_interieur": "douceur banale au bord de la mort",
+    "refs": [
+     "EV-07848",
+     "SC-02032"
+    ]
+   },
+   {
+    "date": "1969",
+    "precision": "annee",
+    "moment": "À titre posthume : sa confiance avait convaincu de Kooning d'accepter la rétrospective du MoMA organisée par Hess",
+    "refs": [
+     "EV-08095",
+     "SC-02067",
+     "RE-02976"
+    ]
+   },
+   {
+    "date": "1990-03-12",
+    "precision": "jour",
+    "moment": "Hartigan rappelle dans son oraison funèbre d'Elaine que la jeune femme timide lui demandait de lire ses conférences au Club",
+    "refs": [
+     "EV-08697"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "amitié, collaboration, modèle",
+    "evolution": "Dès la fin des années 1940 au Club ; il introduit les « New Poets » (1952), la recommande à ARTnews, écrit sur ses basketteurs (1955), co-écrit le Hearsay Panel (1959), la sauve de justesse dans le dîner Kligman (1960), pose pour son portrait sans visage (1962) qu'elle baptise « plus Frank que Frank » ; il l'appelle « la Déesse Blanche » ; dernier échange à l'hôpital en 1966",
+    "refs": [
+     "EV-05799",
+     "EV-06683",
+     "RE-02881",
+     "EV-07340",
+     "EV-07437",
+     "SC-02032",
+     "CI-00294"
+    ]
+   },
+   {
+    "avec": "Joe LeSueur",
+    "nature": "compagnon, co-hôte",
+    "evolution": "Vie commune à New York ; complices dans le dîner d'octobre 1960 ; LeSueur le juge adorable et imprévoyant",
+    "refs": [
+     "EV-07340",
+     "SC-01940"
+    ]
+   },
+   {
+    "avec": "Willem de Kooning",
+    "nature": "confiance d'artiste à conservateur",
+    "evolution": "Sa personne inspire assez de confiance à Bill pour qu'il accepte la rétrospective du MoMA (acceptée 1968-69) ; Bill gardera un silence évocateur sur lui dans ses années de dérive",
+    "refs": [
+     "EV-08095",
+     "SC-02067",
+     "RE-02976",
+     "EC-03534"
+    ]
+   },
+   {
+    "avec": "Larry Rivers",
+    "nature": "liaison amoureuse",
+    "evolution": "Amant occasionnel vers 1945-1950 ; O'Hara protège leur secret, ce qu'Elaine lui reproche avec humour",
+    "refs": [
+     "EV-03672",
+     "EV-05576"
+    ]
+   },
+   {
+    "avec": "Norman Bluhm, Mike Goldberg, Joan Mitchell",
+    "nature": "complices du Hearsay Panel",
+    "evolution": "Trois soirées privées puis l'enregistrement de 1959 : conversation en on-dit, poème commandé sur Norman, satire du culte du Nouveau",
+    "refs": [
+     "EV-07185",
+     "SC-01911",
+     "SC-02288"
+    ]
+   },
+   {
+    "avec": "Grace Hartigan",
+    "nature": "amitié de milieu",
+    "evolution": "Elle le peint en masque — image de sa double vie",
+    "refs": [
+     "PE-00136"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La date du portrait peint par Elaine varie selon les fiches : 1962 (séances de pose attestées) vs 1963 (fiche de relation RE-03045) ; l'effacement du visage a peut-être eu lieu à la reprise en 1963.",
+   "Le portrait cutout d'Alex Katz acheté en 1963 est distinct du portrait peint par Elaine — à ne pas confondre.",
+   "Les dates de certaines citations sont des fourchettes larges et approximatives (≈) dans les sources (ex. surnom de la « Déesse Blanche »)."
+  ],
+  "situations_revelatrices": [
+   "La table du Hearsay Panel : il brille en retouchant le script et en livrant le poème commandé — le ragot élevé au rang d'art",
+   "Le dîner piégé d'octobre 1960 : loyal envers Elaine jusqu'au théâtre final du taxi",
+   "La pose de 1962 dans le froid, pardessus sur le dos, pendant qu'Elaine efface son visage : l'identité en question",
+   "La chambre d'hôpital de 1966 : l'homme de l'esprit réduit à trois répliques nues"
+  ],
+  "citations": [
+   "CI-00294",
+   "CI-01350",
+   "CI-02192",
+   "CI-02354",
+   "CI-03266",
+   "ID-04716"
+  ],
+  "questions_ouvertes": [
+   "Sa date et son lieu de naissance, sa jeunesse avant New York — rien dans les fiches.",
+   "Ce qu'il a exactement fait et dit à Black Mountain durant l'été 1952 — seule sa présence est attestée.",
+   "Sa vie intime avec Joe LeSueur au quotidien, et son rapport à sa propre homosexualité.",
+   "Son travail précis de conservateur au MoMA en dehors de l'épisode de Kooning."
+  ]
+ }
+}

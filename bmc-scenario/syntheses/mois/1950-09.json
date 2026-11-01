@@ -1,0 +1,287 @@
+{
+ "passe": "mois",
+ "cle": "1950-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4547,
+  "sortie": 13778,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1950-09",
+  "session": "Rentrée d'automne. Les fiches ne décrivent pas de découpage en sessions ou en trimestres pour 1950, la session reste donc non précisée.",
+  "saison_et_climat": "Fin de l'été puis début de l'automne. Aucune fiche ne décrit le temps de ce mois. Par déduction seulement, la chaleur recule après les baignades et les expéditions d'été.",
+  "situation": "Le collège entre dans sa nouvelle année sans recteur installé (Ballou a refusé, le statut de Huss reste incertain) et après un été de crise. Albers quitte BMC pour New Haven ce mois-ci, en laissant un contentieux ouvert sur le fonds de pension et les planchers. Olson commence à enseigner à l'automne et la nouvelle génération (Kitty, Rockburne) arrive. Les anciens (Levi, Goldowski, Trayer, Corkran) restent sur la scène jusqu'à leur sortie progressive. Le collège est coupé entre conservateurs et gauche Levi–Richards, et la forme de son gouvernement n'est pas tranchée.",
+  "presents_probables": [
+   {
+    "nom": "Levi (Lewis Levi)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Corkran",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kitty (potier)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dorothea Rockburne",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Johanna Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Pete et Betty Jennerjahn",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1950-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Josef et Anni Albers quittent BMC pour le Connecticut, Josef ayant été invité à présider le Département de Design de Yale.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05256"
+    ]
+   },
+   {
+    "date": "1950-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers commence à Yale et s'installe avec Anni en périphérie de New Haven, début de la période Yale (1950-1958).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05257"
+    ]
+   },
+   {
+    "date": "1950-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Lancement à Yale du programme Graphic Arts par Alvin Eisenman, avec une composante de premier cycle ajoutée à l'insistance d'Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05258"
+    ]
+   },
+   {
+    "date": "1950-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Graphic Design et City Planning deviennent des cursus diplômants à Yale.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05259"
+    ]
+   },
+   {
+    "date": "1950-09",
+    "precision": "saison",
+    "ce_qui_arrive": "Rencontre de Twombly et Rauschenberg à l'Art Students League de New York, qui deviennent rapidement amis.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05260"
+    ]
+   },
+   {
+    "date": "1950-09",
+    "precision": "periode",
+    "ce_qui_arrive": "De Kooning fait la navette hebdomadaire entre New York et New Haven pour enseigner à Yale jusqu'en décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05261"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Olson commence à enseigner à l'automne : lecture des manuscrits à voix haute et atelier d'écriture. Son départ pour le Yucatan suit vers la fin de l'année.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Arrivée à BMC de Kitty (potier gay) et de Dorothea Rockburne, venue de Montréal, qui épousera ensuite Carroll Williams.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les cours reprennent autour de l'enseignement d'Olson : manuscrits lus à voix haute et atelier d'écriture. Au studio de poterie installé de l'autre côté du lac par Robert Turner (tours, four à huile, four électrique), M.C. Richards apprend le tournage. Le dîner jazz avec George Shearing et les expéditions d'été (mont Mitchell pour Stamos, baignades sous la cascade) appartiennent à la période précédente et ne sont plus signalés. Amino revient à la sculpture.",
+  "tensions": [
+   "Contentieux Albers : 20 % du fonds de pension retenus, 2 000 pieds de plancher de pin, et une lettre furieuse en novembre exigeant que son nom et celui d'Anni disparaissent des publications du collège.",
+   "Levi contre Trayer : la violence de la réunion estivale (Levi frappé, Oppenheimer sur le dos de Trayer) pèse sur la communauté, et Levi doit partir en décembre.",
+   "Le mariage Levi–Richards se défait et Richards choisit de rester.",
+   "Le Board conservateur contre la faculté : la réintégration de M.C. Richards a été imposée et le Board a reculé.",
+   "L'« été homosexuel » de Goodman, vu par les conservateurs comme preuve de désintégration morale, tandis que les Quakers et Max Dehn s'inquiètent pour les adolescents.",
+   "Le rectorat reste flou : Ballou a refusé, Huss est tantôt business manager, tantôt recteur.",
+   "Joe Fiore et Mary Fitton : liaison d'un enseignant avec une étudiante alors que sa femme est internée près d'Asheville, et non-réembauche votée en juin.",
+   "Baisse des inscriptions après la modification du GI Bill et schisme de la faculté, qui réduit les publications officielles."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le dernier départ des Albers",
+    "date": "1950-09",
+    "lieu": "BMC, puis route vers le Connecticut",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Le couple quitte le collège pour présider le département de design de Yale. Le départ se fait sur fond de contentieux : fonds de pension amputé de 20 %, planchers de pin réclamés, et une lettre à venir exigeant l'effacement de leurs noms des publications. La synthèse place aussi le départ en 1949, ce qui reste à trancher.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05256"
+    ]
+   },
+   {
+    "titre": "Ouverture du programme Graphic Arts à Yale",
+    "date": "1950-09",
+    "lieu": "Yale University, New Haven",
+    "personnages": [
+     "Josef Albers",
+     "Alvin Eisenman"
+    ],
+    "deroule": "Eisenman lance le programme à l'automne, avec un volet de premier cycle ajouté à l'insistance d'Albers, qu'il décrit comme très attentionné. Les cursus Graphic Design et City Planning deviennent diplômants le même mois.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05257",
+     "EV-05258",
+     "EV-05259"
+    ]
+   },
+   {
+    "titre": "La navette de de Kooning",
+    "date": "1950-09",
+    "lieu": "Train New York–New Haven",
+    "personnages": [
+     "Willem de Kooning"
+    ],
+    "deroule": "De Kooning fait chaque semaine le trajet entre New York et New Haven pour enseigner à Yale pendant l'automne.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05261"
+    ]
+   },
+   {
+    "titre": "Twombly rencontre Rauschenberg",
+    "date": "1950-09",
+    "lieu": "Art Students League, New York",
+    "personnages": [
+     "Cy Twombly",
+     "Robert Rauschenberg"
+    ],
+    "deroule": "À l'automne, les deux hommes se rencontrent et se lient vite d'amitié. Twombly suivra Rauschenberg à Black Mountain l'été suivant.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05260"
+    ]
+   },
+   {
+    "titre": "Première lecture à voix haute d'Olson",
+    "date": "1950",
+    "lieu": null,
+    "personnages": [
+     "Charles Olson",
+     "étudiants de BMC"
+    ],
+    "deroule": "Olson lit des manuscrits à voix haute devant la communauté et anime un atelier d'écriture. La scène est plausible à l'automne, mais sa date exacte n'est pas fixée.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Levi et Trayer face à face après la bagarre",
+    "date": null,
+    "lieu": "BMC, salle de réunion",
+    "personnages": [
+     "Lewis Levi",
+     "Trayer",
+     "Oppenheimer"
+    ],
+    "deroule": "Les membres de la faculté se retrouvent après la réunion où Levi a été frappé. La tension reste palpable, et la faculté doit décider de la suite de l'affaire Goodman et de la place de Levi.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Début septembre, au moment où les Albers partent pour Yale",
+    "vers_date": "1950",
+    "vers": "L'été de Goodman : son arrivée, la réunion où Levi est frappé par Trayer, et le vote massif de la faculté contre son maintien.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La rentrée, quand le Board reste sous contrôle conservateur",
+    "vers_date": "1950-06",
+    "vers": "Le vote à bulletin secret de juin qui écarte les Levi et Joe Fiore, puis la réintégration presque immédiate de M.C. Richards.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ des Albers et la mise en place de Yale",
+    "vers_date": "1958",
+    "vers": "La période Yale d'Albers (1950-1958) et la diffusion de ses idées par les diplômés du programme Graphic Design.",
+    "refs": [
+     "EV-05257"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'arrivée des nouveaux enseignants à l'automne",
+    "vers_date": "1950-12",
+    "vers": "Rumaker entame à l'hiver sa liaison avec Merrill et découvre à Noël que BMC est « sa maison ». Levi part en décembre.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Goodman et la querelle sur sa liaison",
+    "vers_date": "1965",
+    "vers": "Goodman écrit sur BMC en 1965 et décrit l'expérience comme un modèle réel de guilde de savants, sans dotation comparable.",
+    "refs": [
+     "EC-02574"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La vie de la communauté à l'automne 1950",
+    "vers_date": null,
+    "vers": "Goodman affirme que le ton de communauté intentionnelle de BMC a eu une influence durable sur la culture américaine, phrase à exploiter pour les suites du collège.",
+    "refs": [
+     "EC-02575"
+    ]
+   }
+  ],
+  "motifs": [
+   "passage de témoin entre anciens et nouveaux enseignants",
+   "dépendance à l'argent et à un recteur qui n'arrive pas",
+   "liberté sexuelle comme menace pour l'ordre moral",
+   "fidélité à la communauté contre l'institution",
+   "départs qui s'accumulent",
+   "carrières qui se déplacent vers New York et New Haven"
+  ],
+  "lacunes": "La date précise de la plupart des arrivées et départs de ce mois n'est pas donnée. Olson est daté seulement « à l'automne ». La chronologie de Rumaker et des dimanches d'été est douteuse. Le départ d'Albers est daté 1949 par la synthèse mais 1950-09 par EV-05256. Le statut de Huss varie selon les sources. Le sondage étudiant est daté 23 mars ou juin. Le sort de Fiore après le vote n'est pas documenté. La présence de Dawson et de Rumaker en septembre n'est pas établie. Le climat et le découpage en sessions ne sont pas décrits."
+ }
+}

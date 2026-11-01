@@ -1,0 +1,253 @@
+{
+ "passe": "mois",
+ "cle": "1948-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6485,
+  "sortie": 13670,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1948-04",
+  "session": "Fin du trimestre de printemps, avant l'institut d'été de juin (déduit : les fiches ne nomment pas la session)",
+  "saison_et_climat": "Printemps. Les fiches ne décrivent ni le temps ni le paysage, seulement un arbre que Nell Rice juge mal placé.",
+  "situation": "Le collège vit à la fois un foisonnement artistique et une crise de gouvernance. Albers, revenu du Mexique, juge sévèrement l'expansion de l'ère Levi et craint que Levi et les nouveaux venus ne prennent le pouvoir ; un conflit domestique à Roadside (salon désordonné, dispute sur la chaudière) double cette querelle. Côté finances, une dette de 10 000 $ passe en premier rang, la deuxième hypothèque de 16 500 $ reste détenue par la famille Dreier, et un prêt de 9 500 $ de Stephen Forbes échelonne le tout ; les banques ont refusé le refinancement. Le collège tient grâce au prêt, aux droits de scolarité et aux dons. Côté art, Cage et Cunningham visitent le collège en avril et Cage y donne son concert de piano préparé, dont les récits enthousiastes attireront plus tard des artistes new-yorkais. Hors du collège, un comité réuni à Yale les 24 et 25 avril, où siège Albers, défend un tronc commun et des problèmes visuels collaboratifs.",
+  "presents_probables": [
+   {
+    "nom": "John Cage",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Merce Cunningham",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Levi (recteur de l'ère d'expansion)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier (famille détentrice de la seconde hypothèque)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1948-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Nouveau versement sur l'hypothèque initiale ; la dette de 10 000 $ devient première, remboursable 1 000 $ par an pendant dix ans ; les banques refusent le refinancement ; Forbes prête 9 500 $.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04478"
+    ]
+   },
+   {
+    "date": "1948-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Kazin et Hannah Arendt recommandent chaleureusement Isaac Rosenfeld à Levi, par lettres des 12 et 13 avril ; Rosenfeld avait écrit à Levi en mars et en avril.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04479"
+    ]
+   },
+   {
+    "date": "1948-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Première visite de Merce Cunningham au collège, avec John Cage ; il y reviendra cinq fois, pour des séjours de quelques jours à six semaines.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04480"
+    ]
+   },
+   {
+    "date": "1948-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Cage arrive sans poste d'enseignant, en accompagnateur de Cunningham ; cette visibilité conduira Albers à lui offrir un poste pour la session d'été.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04481"
+    ]
+   },
+   {
+    "date": "1948-04-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Au départ de Cage et Cunningham, les étudiants laissent sous leur voiture tableaux, dessins et présents.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01163"
+    ]
+   },
+   {
+    "date": "1948-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Cage joue seize sonates et quatre interludes pour piano préparé, puis expose sa conception du temps, de l'art comme intégration et de la société à venir, devant une communauté à la fois séduite et perplexe.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01162"
+    ]
+   },
+   {
+    "date": "1948-04-24",
+    "precision": "jour",
+    "ce_qui_arrive": "Premier comité réuni à Yale (24-25 avril) : le rapport de Cheek recommande un cursus de base ; la voix d'Albers s'y entend (« think in situations, not by predigested theory ») et une annexe propose des problèmes collaboratifs.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04482"
+    ]
+   }
+  ],
+  "quotidien": "La vie ordinaire passe par les conversations sur la véranda, où l'on peut s'asseoir et discuter des heures avec un inconnu, et par les gestes d'affection envers les hôtes de passage, comme les présents laissés sous la voiture. Les soirées tournent autour de la musique de Cage et de ses causeries, que la communauté écoute avec un mélange de curiosité et de réserve. Au quotidien domestique, le salon commun de Roadside est en désordre et la chaudière fait l'objet de disputes. Les fiches ne décrivent ni repas ni cours précis pour ce mois.",
+  "tensions": [
+   "Albers contre l'expansion de l'ère Levi : cours donnés par des étudiants, essor des sciences sociales, crainte d'une prise de pouvoir.",
+   "Le conflit domestique de Roadside (désordre, chaudière) alimente et redouble la querelle politique.",
+   "Précarité financière : refinancement refusé par les banques, déficit annuel, dépendance au prêt Forbes et à la famille Dreier.",
+   "Décalage entre l'avant-garde de Cage et la communauté : elle reconnaît ses préoccupations mais chacun remplit les blancs à sa manière.",
+   "Le recrutement de Rosenfeld, recommandé par Kazin et Arendt, dépend d'une décision de Levi que les fiches ne documentent pas."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les cadeaux sous la voiture",
+    "date": "1948-04-08",
+    "lieu": "parking du campus",
+    "personnages": [
+     "John Cage",
+     "Merce Cunningham",
+     "les étudiants"
+    ],
+    "deroule": "Au moment de prendre la route, Cage et Cunningham découvrent sous leur voiture un tas de présents : tableaux, dessins et autres objets. Geste d'affection et de gratitude qui scelle l'invitation à revenir pour l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01163"
+    ]
+   },
+   {
+    "titre": "Le fou de la véranda",
+    "date": "1948-04",
+    "lieu": "véranda du campus",
+    "personnages": [
+     "Merce Cunningham",
+     "John Cage",
+     "un patient échappé d'un hôpital psychiatrique",
+     "un soignant"
+    ],
+    "deroule": "Au cours d'une conversation sur la véranda, un homme s'assied et participe au propos pendant des heures, jusqu'à ce qu'un soignant de l'hôpital voisin vienne le réclamer. Cunningham s'enchante de son intégration et conclut que les fous n'ont pas besoin d'être enfermés.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01160"
+    ]
+   },
+   {
+    "titre": "Nell Rice et l'arbre mal placé",
+    "date": "1948-04",
+    "lieu": "campus",
+    "personnages": [
+     "Nell Rice",
+     "Merce Cunningham"
+    ],
+    "deroule": "Nell Rice, qui contemple le paysage depuis vingt ans, lance qu'un seul arbre est mal placé ; Cunningham est charmé par cet esprit pince-sans-rire.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01161"
+    ]
+   },
+   {
+    "titre": "Seize sonates et l'explication de Cage",
+    "date": "1948-04",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "John Cage",
+     "la communauté",
+     "Josef Albers",
+     "Anni Albers",
+     "Merce Cunningham"
+    ],
+    "deroule": "Cage joue seize sonates et quatre interludes pour piano préparé, puis répond aux questions étonnées mais amicales en expliquant le temps plutôt que l'harmonie et l'art comme intégration. La salle reconnaît ses préoccupations, sans tout comprendre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01162"
+    ]
+   },
+   {
+    "titre": "Nommer les tableaux à Carmine Street",
+    "date": "1948-04",
+    "lieu": "appartement de Carmine Street, New York (hors collège)",
+    "personnages": [
+     "Elaine de Kooning",
+     "Willem de Kooning",
+     "Charles Egan"
+    ],
+    "deroule": "Avant le vernissage, le couple et Egan cherchent un titre pour chaque tableau, selon une règle de trois votes positifs. Le rituel fixe ce qui reste inachevé avant l'exposition.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01159"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "l'été 1948 à Black Mountain, quand la nouvelle de la mort de Gorky parvient à Bill",
+    "vers_date": "1948-02",
+    "vers": "la fête chez Julian Levy, dernière rencontre de Bill avec Gorky, et les enseignements du maître",
+    "refs": [
+     "EC-02353"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Elaine, étudiante d'Albers à l'été 1948, à l'approche de la session où elle suit ses cours de couleur",
+    "vers_date": null,
+    "vers": "des décennies plus tard, sa mémoire oppose la pédagogie d'Albers à la patience de Bill, entre blessure (composition déchirée) et admiration",
+    "refs": [
+     "EC-02351"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'amitié naissante d'Elaine et de Cage au printemps-été 1948",
+    "vers_date": null,
+    "vers": "une décennie plus tard, Cage dédie Solo for Piano à Elaine, hommage par transmutation visuelle de la notation",
+    "refs": [
+     "EC-02352"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la première exposition de Bill chez Egan, au printemps 1948, sans vente malgré les critiques",
+    "vers_date": "1948",
+    "vers": "quatre mois plus tard, le MoMA achète Painting, consécration muséale",
+    "refs": [
+     "EC-02355"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le Club de Bill et d'Elaine à la fin des années 1940, où le monde downtown se retrouve",
+    "vers_date": "1956",
+    "vers": "mémorial de Pollock au Club après sa mort en voiture, fin d'une époque",
+    "refs": [
+     "EC-02354"
+    ]
+   }
+  ],
+  "motifs": [
+   "Bâtir ensemble comme rite d'institution, le bâtiment qui crée des esprits, comme l'autoconstruction du campus (EC-02317) et le mythe de fondation qui donne un commencement à la cité (EC-02319).",
+   "La communauté inventée à la campagne reprend l'idéal fondateur de 1933 (EC-02316) : une source littéraire de Goodman, à manier comme écho et non comme fait du collège.",
+   "Le rire qui se retourne en menace, quand la blague des trois déplacés devient personnage (EC-02321).",
+   "L'ouverture radicale : accueillir même la folie, cultiver le regard, privilégier le temps à l'harmonie."
+  ],
+  "lacunes": "La session exacte n'est pas nommée. Le climat et le quotidien d'avril sont peu documentés, et l'on ignore les dates précises du conflit de Roadside et de la querelle sur la chaudière. Le jour exact du concert de Cage et les dates de la lettre d'Albers depuis le Mexique ne sont pas donnés. On ignore si Levi, Dreier, Bodky ou Rosenfeld sont présents ce mois-ci, et si Rosenfeld est finalement recruté. De Kooning, Fuller, Penn, Dahlberg et Olson ne sont pas attestés au collège en avril. La date de l'exposition Egan n'est pas précisée."
+ }
+}

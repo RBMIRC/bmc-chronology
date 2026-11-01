@@ -1,0 +1,354 @@
+{
+ "passe": "personnes",
+ "cle": "Stephen Forbes",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 6665,
+  "sortie": 3765,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Stephen Forbes",
+  "autres_noms": [
+   "Steve Forbes"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant vers le milieu des années 1930, puis bienfaiteur et créancier hypothécaire de longue date (premier mortgage), jamais titulaire de pouvoir officiel",
+  "presence": [
+   {
+    "debut": "1933",
+    "fin": "1939",
+    "precision": "periode",
+    "role": "Étudiant (milieu des années 1930) ; finance anonymement le café de Roy hors des limites de la ville sèche ; désapprouve la consommation d'alcool fort au Cat and Fiddle",
+    "refs": [
+     "EV-02405",
+     "RE-00601",
+     "EV-01765"
+    ]
+   },
+   {
+    "debut": "1943",
+    "fin": "1943-03-11",
+    "precision": "jour",
+    "role": "Donateur : don de 3 000 $ après d'autres aides",
+    "refs": [
+     "EV-03423"
+    ]
+   },
+   {
+    "debut": "1948-04",
+    "fin": "1948-04",
+    "precision": "mois",
+    "role": "Prêteur : 9 500 $ pour échéancer les deux hypothèques et sauver le collège",
+    "refs": [
+     "EV-04478"
+    ]
+   },
+   {
+    "debut": "1949-10",
+    "fin": "1949-10",
+    "precision": "mois",
+    "role": "Hôte d'une réunion de réorganisation de deux jours chez lui ; offre 6 000 $ pour un bâtiment des sciences ; se dit favorable au plan de Levi et prêt à siéger au Board élargi",
+    "refs": [
+     "EV-04898",
+     "EV-04899",
+     "SC-01252"
+    ]
+   },
+   {
+    "debut": "1949",
+    "fin": "1950-05",
+    "precision": "mois",
+    "role": "Bénévole : recherche de recteur (échec), puis rend les dossiers et part en Europe",
+    "refs": [
+     "EV-04939"
+    ]
+   }
+  ],
+  "description": "Forbes traverse le collège en plusieurs statuts : étudiant, donateur discret, prêteur de dernier recours, organisateur bénévole, enfin liquidateur contraint.",
+  "portrait_physique": null,
+  "noyau_psychologique": "Bienfaiteur de l'ombre : il donne beaucoup (plus de 20 000 $ au total), prête, invente pour les enfants du collège (un circuit téléphonique de 2 000 pieds construit sur un printemps entier), mais refuse tout pouvoir et recherche l'anonymat. Son engagement est d'abord moral et sentimental — lié à l'honneur du nom de Black Mountain et à une éthique de Nouvelle-Angleterre — et c'est précisément au nom de cet honneur qu'il finira par exiger la fermeture propre plutôt que l'agonie endettée.",
+  "blessures": "Se sent blessé dans sa loyauté : les récits de décadence et d'immoralité, la dévalorisation des lettres, la mise à l'écart de ce qui faisait selon lui l'esprit du collège. Après la foreclosure, se sent mal d'avoir récupéré 5 000 $ et les reverse aux avocats des plaignants ; regrette rétrospectivement d'avoir exploité sa position de premier créancier et se demande si on n'aurait pas pu « garder le cœur battant ».",
+  "desirs": "Servir sans dominer ; mesurer honnêtement l'avis de la communauté (son questionnaire de 1941) ; que le collège meure, s'il doit mourir, en payant toutes ses dettes ; protéger l'honneur du nom de Black Mountain.",
+  "peurs": "La décadence morale et l'immoralité racontées par Nell Rice et d'autres ; que le collège s'étiole en vendant ses actifs par morceaux pour des frais de fonctionnement et meure endetté ; les « appels délirants » d'Olson.",
+  "maniere_d_aimer": "Par l'argent anonyme, le temps donné (projets pour les enfants, recherche de recteur), la correspondance soutenue (Wunsch, Dreier, Olson, Huss) — un attachement pratique, loyal et inquiet, qui se blesse facilement et se referme en rancune contenue.",
+  "rapport_au_pouvoir": "Refus structurel du pouvoir officiel : il finance sans siéger, aide sans exiger, n'accepterait un siège au Board que dans le cadre du plan de Levi. Mais sa position de créancier lui confère un pouvoir de vie ou de mort qu'il finit par utiliser — ce dont il doutera ensuite.",
+  "voix": {
+   "registre": "Courtoisie notariale de Nouvelle-Angleterre : précis, mesuré, chiffré, courtois même dans la rupture ; la fermeté sous le velours.",
+   "tics": "Chiffres exacts (20 000 $, 45 000 $, 40 000 $, 5 000 $) ; euphémismes moraux (« fin honorable ») ; regret formulé en deux temps (« je regrette… mais je me réjouis »)",
+   "exemples_paraphrases": [
+    "La plupart des candidats pensent d'abord à une église en entendant « rector » — employons plutôt « president ».",
+    "Je regrette que mon association se termine ainsi, mais je me réjouis qu'elle se termine : je n'ai tout simplement pas en Olson la foi que j'avais dans les recteurs précédents."
+   ]
+  },
+  "habitudes": [
+   "Notait les réunions étudiantes à la machine à écrire et tenait un journal",
+   "Distribuait des questionnaires chiffrés à la communauté",
+   "Finançait anonymement, cherchait l'anonymat même quand il était l'homme providentiel",
+   "Construisait de ses mains des projets pour les enfants (cabanes, greniers, circuit téléphonique)"
+  ],
+  "convictions": [
+   "On peut servir sans dominer : intérêt sans pouvoir officiel",
+   "L'avis de la communauté doit être mesuré, pas supposé",
+   "Restriction contre l'expansion",
+   "Une institution doit fermer honorablement plutôt que s'étioler en s'endettant",
+   "Les lettres comptaient dans l'éducation, et leur mise à l'écart est une perte"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1935",
+    "precision": "annee",
+    "moment": "La ville devient sèche ; il finance anonymement le café de Roy hors des limites, malgré sa désapprobation de l'alcool fort — les étudiants découvrent l'investissement et son montant",
+    "etat_interieur": "Générosité joueur, désir d'anonymat déjà trahi par les ragots",
+    "refs": [
+     "EV-02405",
+     "RE-00601"
+    ]
+   },
+   {
+    "date": "1941",
+    "precision": "annee",
+    "moment": "Distribue son questionnaire sur la combinaison travail académique et travail physique",
+    "etat_interieur": "Foi rationnelle dans la communauté et sa voix",
+    "refs": [
+     "EV-03153"
+    ]
+   },
+   {
+    "date": "1943-03-11",
+    "precision": "jour",
+    "moment": "Don de 3 000 $ ; Wunsch lui écrit que les « bonnes choses » continuent pendant la guerre",
+    "etat_interieur": "Attachement chaleureux maintenu à distance",
+    "refs": [
+     "EV-03423",
+     "EV-03381"
+    ]
+   },
+   {
+    "date": "1948-04",
+    "precision": "mois",
+    "moment": "Prête 9 500 $ pour échéancer les hypothèques quand les banques refusent",
+    "etat_interieur": "L'homme providentiel une fois de plus, sans contrepartie de pouvoir",
+    "refs": [
+     "EV-04478"
+    ]
+   },
+   {
+    "date": "1948-10",
+    "precision": "mois",
+    "moment": "Tournée nord d'Albers et Dreier : il se dérobe, « penche légèrement vers la position de Levi », regrettant la dévalorisation des lettres",
+    "etat_interieur": "Première fêlure : la réorientation artistique l'inquiète",
+    "refs": [
+     "EV-04579",
+     "RE-00612"
+    ]
+   },
+   {
+    "date": "1949-10",
+    "precision": "mois",
+    "moment": "Hôte d'une réunion de deux jours sur la réorganisation ; offre 6 000 $ pour un bâtiment des sciences ; favorable au plan de Levi ; recherche de recteur en parallèle",
+    "etat_interieur": "Conciliant, constructif, serviable en vacances",
+    "refs": [
+     "EV-04898",
+     "EV-04899",
+     "SC-01252"
+    ]
+   },
+   {
+    "date": "1950-05",
+    "precision": "mois",
+    "moment": "Échec de la recherche de recteur (90 $/mois, pouvoirs non définis) ; rend les dossiers et part en Europe ; accepte de maintenir l'hypothèque à ses conditions pour la vente des 70 acres",
+    "etat_interieur": "Découragement pratique, mais loyauté financière intacte",
+    "refs": [
+     "EV-04939",
+     "EV-04640"
+    ]
+   },
+   {
+    "date": "1952-01-16",
+    "precision": "periode",
+    "moment": "Huss sollicite à nouveau ; refus définitif : il ne se sent plus proche de Black Mountain « ni en esprit ni dans la connaissance du lieu », estime avoir donné plus de 20 000 $ et avoir fait sa part",
+    "etat_interieur": "Rupture intime avant la rupture juridique",
+    "refs": [
+     "EV-05798",
+     "EV-05638"
+    ]
+   },
+   {
+    "date": "1953-12",
+    "precision": "periode",
+    "moment": "Accuse le collège d'impayés, s'excuse (erreur de comptabilité de ses avocats), diffère un billet de 1 000 $",
+    "etat_interieur": "Rancune qui se corrige elle-même : l'honnêteté reprend le dessus",
+    "refs": [
+     "EV-06249"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "annee",
+    "moment": "Sous l'aiguillon de Nell Rice, l'ambivalence devient décision : refus de la vente partielle, doctrine de la vente totale pour payer les dettes, ultimatum du 29 juin",
+    "etat_interieur": "Effrayé par la décadence, résolu à une « fin honorable à la Nouvelle-Angletterre »",
+    "refs": [
+     "EV-06526",
+     "EV-06527",
+     "EV-06528",
+     "EV-06529",
+     "EV-06530",
+     "RE-02607",
+     "RE-02677"
+    ]
+   },
+   {
+    "date": "1955-06",
+    "precision": "mois",
+    "moment": "Mary Fiore réunit les 5 250 $ ; Huss notifie froidement le dépôt en séquestre ; Forbes rend les documents avec son mot d'adieu amer : plus de foi en Olson",
+    "etat_interieur": "Rancune contenue, deuil d'une fidélité de vingt ans",
+    "refs": [
+     "EV-06724",
+     "SC-01764",
+     "CI-03270"
+    ]
+   },
+   {
+    "date": "1955",
+    "precision": "periode",
+    "moment": "Récupère 5 000 $ dans la foreclosure puis, se sentant mal, les verse aux honoraires d'avocat des plaignants du procès des salaires",
+    "etat_interieur": "Culpabilité du créancier ; la générosité reprend le dessus une dernière fois",
+    "refs": [
+     "EV-06539",
+     "RE-02685"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "inconnue",
+    "moment": "Issu d'une riche famille de Nouvelle-Angleterre — c'est ce que Roy découvre, ouvrant l'épisode du café",
+    "refs": [
+     "EV-02405",
+     "PE-00103"
+    ]
+   },
+   {
+    "date": "1933",
+    "precision": "periode",
+    "moment": "Soirées de conversation dans les chambres d'étudiants (groupe avec Rice et un professeur)",
+    "refs": [
+     "EV-01765"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1955",
+    "precision": "periode",
+    "moment": "Procès des salaires de la faculté : longue correspondance juridique jusqu'en 1967, l'essentiel clos en 1962 ; fermeture définitive du collège",
+    "refs": [
+     "EV-06539",
+     "RE-02685"
+    ]
+   },
+   {
+    "date": "1967-04-03",
+    "precision": "jour",
+    "moment": "Interviewé les 1-2 avril 1967 par Duberman ; lettre du 3 avril ; y développe sa politique de restriction contre l'expansion et exprime ses doutes rétrospectifs : se demande si on n'aurait pas pu « garder le cœur battant » jusqu'à un nouveau niveau",
+    "refs": [
+     "PE-00103"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Roy A. Taylor",
+    "nature": "Collaboration financière (café Roy's hors de la ville sèche, vers le milieu des années 1930)",
+    "evolution": "Financement anonyme découvert par les étudiants, montant compris — incompréhension amusée de Forbes",
+    "refs": [
+     "EV-02405",
+     "RE-00601"
+    ]
+   },
+   {
+    "avec": "Theodore Dreier",
+    "nature": "Bienfaiteur et responsable : Dreier se sent personnellement responsable de l'investissement de longue date de Forbes",
+    "evolution": "Forbes se dérobe en 1948, regrettant la réorientation artistique",
+    "refs": [
+     "RE-00612"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Soliciteur et allié des années 1940",
+    "evolution": "Déclinera la proposition d'Albers en mars 1949",
+    "refs": [
+     "PE-00103",
+     "EV-04579"
+    ]
+   },
+   {
+    "avec": "Charles Olson",
+    "nature": "Correspondant puis adversaire : conflit sur la survie du collège (1954-1956)",
+    "evolution": "De l'échange de vues à la rupture : Forbes n'a plus foi en Olson contrairement aux recteurs précédents ; procédure de foreclosure, ultimatum, mot d'adieu amer",
+    "refs": [
+     "RE-02607",
+     "RE-02685",
+     "SC-01764"
+    ]
+   },
+   {
+    "avec": "Nell Rice",
+    "nature": "Influence décisive (1955)",
+    "evolution": "Sa visite convertit l'ambivalence inquiète de Forbes en décision active : refus de la vente partielle, puis ultimatum",
+    "refs": [
+     "RE-02677",
+     "EV-06526"
+    ]
+   },
+   {
+    "avec": "Wes Huss",
+    "nature": "Correspondant administratif",
+    "evolution": "Tentatives de ranimer son intérêt (1952) ; échanges comptables (excuses de 1953-54) ; notification froide du dépôt en séquestre en juin 1955",
+    "refs": [
+     "EV-05638",
+     "EV-05798",
+     "EV-06249",
+     "EV-06724"
+    ]
+   },
+   {
+    "avec": "Wunsch",
+    "nature": "Correspondant amical pendant la guerre",
+    "evolution": "Wunsch l'assure que les « bonnes choses » continuent",
+    "refs": [
+     "EV-03381"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Statut : les fiches le disent tantôt étudiant (EV-02405, Lane 1990), tantôt donateur de la première heure détenteur du premier mortgage (PE-00103, RE-01195) ; à concilier en un passage d'étudiant à bienfaiteur.",
+   "Achat d'une taverne (Peek's/Brown's) : simple oui-dire rapporté par Rondthaler (Lane 1990, deux fiches aux dates floues et redondantes), jamais attesté.",
+   "Ironie structurelle : créancier hypothécaire qui forclôt, puis bienfaiteur des plaignants en reversant les 5 000 $ récupérés — contradiction vécue et assumée dans le regret.",
+   "Date de l'offre des 6 000 $ pour le bâtiment des sciences : placée en 1949 (EV-04899) dans un contexte d'offre « après d'autres aides » (RE-01195 la date de 1949) ; PE-00103 mentionne le don dans la rubrique « après BMC » — classement interne incohérent, la date 1949-10 est la mieux attestée."
+  ],
+  "situations_revelatrices": [
+   "La générosité anonyme trahie : les étudiants découvrent qu'il finance le café de Roy",
+   "Le printemps passé à construire un circuit téléphonique de 2 000 pieds pour les enfants",
+   "La réunion de deux jours chez lui autour du plan de réorganisation : l'homme qui accueille, finance et refuse le pouvoir",
+   "La correspondance comptable avec Olson : deux éthiques de la dette qui s'affrontent par lettres",
+   "Le moment où, ayant récupéré 5 000 $, il se sent mal et les reverse aux avocats des plaignants",
+   "L'interview de 1967 : le vieil homme qui doute d'avoir eu raison"
+  ],
+  "citations": [
+   "CI-02228",
+   "CI-03270"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de mort, trajectoire familiale exacte en Nouvelle-Angleterre",
+   "Ce qu'il devient après 1955 en dehors du procès : vie en Europe ? rachat réel de la taverne ?",
+   "Contenu complet de son journal et de ses notes dactylographiées des réunions",
+   "Sa lettre du 3 avril 1967 : texte intégral et nuances de son autocritique",
+   "Nature exacte de sa relation avec Dreier et les billets à demande de la famille Dreier"
+  ]
+ }
+}

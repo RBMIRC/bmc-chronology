@@ -1,0 +1,234 @@
+{
+ "passe": "personnes",
+ "cle": "Dorothea Rockburne",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 3429,
+  "sortie": 2508,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Dorothea Rockburne",
+  "autres_noms": [],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiante en peinture venue du Canada (Montréal), puis jeune mère mariée à un enseignant",
+  "presence": [
+   {
+    "debut": "1950",
+    "fin": null,
+    "precision": "annee",
+    "role": "Étudiante en peinture, très jeune diplômée du secondaire arrivée du Canada ; contemporaine de Rauschenberg",
+    "refs": [
+     "EV-01939",
+     "EV-05061",
+     "PE-00143"
+    ]
+   },
+   {
+    "debut": "1952",
+    "fin": "1953",
+    "precision": "annee",
+    "role": "Épouse de Carroll Williams, mère d'un bébé, installée à North Lodge ; encore étudiante (photographie avec Hazel-Frieda Larsen, avec Rauschenberg et Twombly)",
+    "refs": [
+     "RE-02384",
+     "EV-04375",
+     "SC-01601",
+     "SC-01625"
+    ]
+   }
+  ],
+  "portrait_physique": null,
+  "noyau_psychologique": "Jeune femme d'esprit vif et de talent reconnu (Merrill la cite parmi ses amours pour cela), arrivée à dix-huit ans avec l'ambition de faire de l'art, mais vite saisie par le mariage et la maternité. Elle compense par un ancrage dans le concret : elle rassure les autres par des conseils pratiques et immédiats, et absorbe avidement ce que le collège offre — Vicente, Dehn et les mathématiques de la nature — pour nourrir une œuvre à venir.",
+  "blessures": "Déchirure entre la vocation artististe et la grossesse précoce qui lui laisse peu de temps pour créer (contradiction interne explicite chez Molesworth).",
+  "desirs": "Faire de l'art, apprendre (elle dit plus tard que Dehn lui a appris à voir les mathématiques dans la nature) ; mener de front vie de famille et vie d'artiste.",
+  "peurs": null,
+  "maniere_d_aimer": "Amour précoce et concret : elle épouse Carroll Williams presque dès son arrivée à dix-huit ans, fonde un foyer à North Lodge avec le bébé, et aime par les gestes du quotidien — le thé partagé, la musique écoutée avec l'enfant dans l'herbe.",
+  "rapport_au_pouvoir": "Aucune trace de rapport direct au pouvoir ; elle se tient dans le cercle des amitiés et du mentorat, pas des querelles institutionnelles (Olson, Wolpe).",
+  "voix": {
+   "registre": "Pratique, rassurante, directe ; on ramène l'autre au geste immédiat plutôt qu'au discours",
+   "tics": "Sourire en donnant un conseil pragmatique",
+   "exemples_paraphrases": [
+    "À Rumaker paralysé par le trac avant sa lecture : qu'a-t-il besoin de faire maintenant ? se raser — alors qu'il le fasse."
+   ]
+  },
+  "habitudes": [
+   "Venait écouter la musique avec sa fille bébé depuis l'appartement de North Lodge partagé avec Carroll Williams",
+   "Prend le thé avec Merrill et Rumaker",
+   "Assiste aux soirées intimes du collège (bière chez Mrs Peek's, chambre de M.C. Richards)"
+  ],
+  "convictions": [
+   "L'art s'apprend par la transmission directe : ce que Vicente lui a appris demeure dans son œuvre",
+   "Les mathématiques sont visibles dans la nature — leçon de Max Dehn qui façonne sa peinture",
+   "Le concret d'abord : on traverse l'angoisse par l'action immédiate"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Arrivée à dix-huit ans depuis Montréal pour étudier l'art ; rencontre de Carroll Williams, grossesse",
+    "etat_interieur": "Ambition fraîche d'artiste, bientôt entravée par la maternité naissante",
+    "refs": [
+     "EV-05061",
+     "EV-01939",
+     "RE-02063"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Merrill la cite parmi ses amours du collège, pour l'esprit et le talent ; thés avec Merrill et Rumaker",
+    "etat_interieur": "Intégration réussie dans la communauté, appréciée pour son intelligence",
+    "refs": [
+     "EV-04962",
+     "PE-00143"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Vie de jeune mère avec Carroll et le bébé à North Lodge ; études de photographie avec Hazel-Frieda Larsen aux côtés de Rauschenberg et Twombly ; cadeau fait avec Rauschenberg pour les treize ans d'Hermine Tworkov ; conversations avec Max Dehn",
+    "etat_interieur": "Tiraillement entre le foyer et l'atelier, mais apprentissage intense qui prépare l'œuvre future",
+    "refs": [
+     "RE-02384",
+     "EV-04375",
+     "SC-01522",
+     "EV-05061"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Après-midis musicaux aux plonges avec le bébé devant les roses sauvages ; matin de la première lecture de Rumaker, où elle le rassure et le recentre sur le concret",
+    "etat_interieur": "Présence apaisante et maternelle pour les plus jeunes, tout en restant dans l'orbite créatrice du collège",
+    "refs": [
+     "SC-01601",
+     "SC-01625",
+     "RE-02519"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Jeune diplômée du secondaire à Montréal, décide de partir étudier l'art au Canada vers la Caroline du Nord",
+    "refs": [
+     "EV-01939",
+     "EV-05061",
+     "PE-00143"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1972",
+    "precision": "annee",
+    "moment": "Réalise « A Drawing Which Makes Itself », crayon sur papier, entré au Guggenheim en 1981 par don de Leon Hecht",
+    "refs": [
+     "OE-03974",
+     "PE-00143"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Sa peinture célébrée porte la marque de ce qu'elle apprit de Vicente et des mathématiques de Dehn vues dans la nature",
+    "refs": [
+     "RE-00849",
+     "EV-05061",
+     "PE-00143"
+    ]
+   },
+   {
+    "date": "2014-09-26",
+    "precision": "jour",
+    "moment": "Interview où elle rappelle que Dehn lui a appris à voir les mathématiques dans la nature",
+    "refs": [
+     "EV-05061"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Carroll Williams",
+    "nature": "Mariage (premier mari), enseignant de gravure",
+    "evolution": "Rencontré dès son arrivée à dix-huit ans ; grossesse qui suit ; en 1952-1953 ils vivent avec le bébé à North Lodge",
+    "refs": [
+     "RE-02063",
+     "RE-01967",
+     "RE-02384"
+    ]
+   },
+   {
+    "avec": "Esteban Vicente",
+    "nature": "Mentorat artistique",
+    "evolution": "Ce qu'elle apprit de lui demeure dans son œuvre d'après le collège",
+    "refs": [
+     "RE-00849"
+    ]
+   },
+   {
+    "avec": "Max Dehn",
+    "nature": "Mentorat intellectuel",
+    "evolution": "Leurs conversations nourrissent sa peinture célèbre ; il lui apprend à voir les mathématiques dans la nature",
+    "refs": [
+     "EV-05061"
+    ]
+   },
+   {
+    "avec": "Robert Rauschenberg",
+    "nature": "Amitié d'atelier, contemporains",
+    "evolution": "Étudient la photographie ensemble sous Hazel-Frieda Larsen ; font ensemble un cadeau pour l'anniversaire d'Hermine Tworkov en 1952",
+    "refs": [
+     "EV-04375",
+     "SC-01522",
+     "PE-00143"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Amitié",
+    "evolution": "Thé ensemble, présence rassurante ; le matin de sa première lecture en 1953, elle le recentre sur le concret (« rase-toi »)",
+    "refs": [
+     "PE-00143",
+     "RE-02519",
+     "SC-01625"
+    ]
+   },
+   {
+    "avec": "James Merrill (Merrill)",
+    "nature": "Amitié, admiration mutuelle",
+    "evolution": "Merrill la liste parmi ses amours du collège pour son esprit et son talent ; thés partagés",
+    "refs": [
+     "EV-04962",
+     "PE-00143"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Rumaker (2003, p.65-66 et 131) situe le couple avec bébé à North Lodge en 1952 ; Molesworth (2015, p.280) fait remonter la rencontre et la grossesse à l'arrivée en 1950 — les deux se combinent (rencontre 1950, foyer établi vers 1952) mais Rumaker place l'appartement « premier étage » quand la fiche agrégée dit « deuxième étage ».",
+   "Les fiches oscillent entre « arrivée en 1950 à 18 ans » (EV-05061, Molesworth) et Harris 2005 (EV-01939) qui la fait arriver l'année du retour de Rauschenberg avec Twombly — dates à tenir pour approximatives."
+  ],
+  "situations_revelatrices": [
+   "L'étudiante de dix-huit ans qui arrive du Canada, seule, dans une école expérimentale",
+   "Le moment où la grossesse referme l'atelier sur la chambre de bébé",
+   "Le conseil du matin : face à un ami paniqué, elle sourit et ramène tout à un geste simple",
+   "L'après-midi musical aux plonges, bébé dans les bras, musique débordant sur le lac",
+   "Le cadeau d'anniversaire fabriqué avec Rauschenberg pour une enfant de treize ans"
+  ],
+  "citations": [
+   "EV-05061",
+   "SC-01625",
+   "EV-04962",
+   "RE-00849"
+  ],
+  "questions_ouvertes": [
+   "Dates et lieu de naissance exacts, vie après le départ du collège (quand part-elle ? divorce avec Carroll Williams ?)",
+   "Ce qu'elle a réellement produit comme art pendant ses années BMC",
+   "Son implication exacte dans les ateliers Light Sound Movement (elle n'est pas listée nommément dans les fiches d'ateliers)",
+   "Déroulé de son mentorat avec Vicente : quand, dans quel cadre",
+   "Son propre récit de la tension maternité/création au-delà de la mention de Molesworth"
+  ]
+ }
+}

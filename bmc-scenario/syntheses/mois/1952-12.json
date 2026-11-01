@@ -1,0 +1,395 @@
+{
+ "passe": "mois",
+ "cle": "1952-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 12731,
+  "sortie": 19590,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1952-12",
+  "session": "Hiver 1952 ; la session précise n'est nommée dans aucune fiche (ni trimestre ni vacances)",
+  "saison_et_climat": "Hiver installé : obscurité qui tombe tôt, nuits très froides où le souffle se voit dehors, plancher glacé malgré le poêle, lumières vives et crues dans les bâtiments. Le campus est presque vide et silencieux.",
+  "situation": "Le collège se vide et se défait. Rauschenberg et Twombly sont à Tanger vers la mi-décembre (EV-05919), Tworkov et Kline sont partis, Dawson est appelé sous les drapeaux et Herb Roco est rentré au Texas en novembre (EV-05908). Le Community Council a démissionné (EV-05643), Rockefeller et Ford ont refusé de subventionner (EV-05909) et le catalogue 1952-53 gonfle une offre que le collège ne peut plus tenir (EV-05616). Olson, absent à l'automne, est probablement revenu et se retrouve au centre des crises. Trois fils dominent le mois : la proposition de Merrill à Rumaker, l'incendie de Roadside et ses suites, et l'effondrement financier.",
+  "presents_probables": [
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Merrill Gillespie",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bea Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joseph Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Madame Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Karnes",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Weinrib",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Madame Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Victor Sprague et sa femme",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cynthia Homire",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hilda Morley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Wolpe",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Doyle Jones",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-12",
+    "precision": "saison",
+    "ce_qui_arrive": "Au souper, la salle à manger presque vide résonne de Bach joué en juste intonation par trois flûtes à bec, moment de clarté pour Rumaker.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05911"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Merrill fait à Rumaker sa première proposition sexuelle, devant les Studies, une nuit froide. Rumaker répond qu'il y réfléchira et Merrill dit qu'il reviendra à la charge dans quelques jours.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05912",
+     "SC-01582"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Merrill attend Rumaker à la sortie de la vaisselle et le conduit à Next-to-the-Last-Chance. Rumaker accepte, et c'est la première nuit ensemble, avec thé vert, poêle militaire et matelas tiré hors du lit de mariage de Merrill et Herb. Les récits placent cet épisode quelques jours après la proposition, sans date précise.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05913",
+     "EV-05914",
+     "SC-01583"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Community Council démissionne et déclare « We therefore resign ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05643"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Roadside, la maison des Huss et des Fiore, brûle pendant un souper. Sans point d'eau ni matériel, les pompiers volontaires arrivent trop tard. La rumeur accuse Wes. La synthèse place l'incendie en décembre, alors que la fiche de Rumaker l'étend jusqu'à février 1953.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05915",
+     "SC-01584"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Après l'incendie, Olson vient au dortoir chercher du whiskey pour Wes. Rumaker, qui a une bouteille cachée, se tait et garde la sienne. Les fiches datent cette scène de la même période que l'incendie, décembre 1952 à février 1953.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05916",
+     "SC-01585"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Huss dresse fin 1952 un bilan des « réalisations » du collège : troupeau, bourses, bâtiment scientifique inachevé, tentative d'accréditation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05639"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Rosenberg publie « The American Action Painters » dans ARTnews et forge la notion de peinture d'action, hors du campus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05917",
+     "EV-05920"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Mort de Franz Perdekamp, correspondant de longue date d'Albers, ce qui met fin à leur échange.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05918"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Rauschenberg et Twombly traversent l'Atlas et le Sahara jusqu'à Marrakech, puis s'installent à Tanger vers la mi-décembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05919"
+    ]
+   },
+   {
+    "date": "1952-12-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Albers, depuis le Connecticut, écrit à Piwonka pour décrire son projet de cours d'exercices basiques de construction, combinaison et dessin.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05921"
+    ]
+   }
+  ],
+  "quotidien": "Souper au réfectoire, puis vaisselle : Rumaker travaille à la cuisine (EV-05678) et rentre par la route de la ferme. Il vit au studio du bas des Studies ou au dortoir de South Lodge, où il cache sous ses sous-vêtements une bouteille de bourbon achetée à Asheville. Les soirs, on se réchauffe au poêle à huile ; le thé vert circule à Next-to-the-Last-Chance, et l'on joue du Bach en juste intonation. Le hangar à tabac de Dawson et Dan Rice, commencé à l'automne, n'est pas daté en décembre. Karnes et Weinrib travaillent dans l'atelier de Turner. Les cours de ce mois ne sont pas documentés.",
+  "tensions": [
+   "Le désir de Rumaker pour Merrill se heurte à la culpabilité envers Herb, dont le souvenir hante le lit de mariage.",
+   "La rumeur accuse Wes de l'incendie, et Olson tente de le soutenir alors que Rumaker garde sa bouteille pour lui.",
+   "La faillite menace : Forbes a coupé ses dons pendant l'hiver (EV-05798), Rockefeller et Ford ont refusé, et l'incendie aggrave les pertes.",
+   "Le Community Council démissionne et l'autorité d'Olson est contestée : Doyle Jones lui est hostile, et Goldowski, qui le méprise, figure pourtant au catalogue.",
+   "Karnes et Weinrib, installés dans l'atelier de Turner, sont mal vus par une partie de la communauté (EV-05622).",
+   "Les fiches ne concordent pas sur la date de l'incendie (décembre selon la synthèse, décembre à février selon la fiche de Rumaker) ni sur les allées et venues d'Olson à l'automne (Washington ou Yucatan)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La proposition devant les Studies",
+    "date": "1952-12",
+    "lieu": "devant les Studies, sur la route",
+    "personnages": [
+     "Michael Rumaker",
+     "Merrill Gillespie"
+    ],
+    "deroule": "Par une nuit froide, Merrill attend Rumaker près de la route, souffle visible et regard résolu, et lui demande sans détour s'il veut coucher avec lui. Rumaker, bouleversé, répond qu'il réfléchira, puis répète plus fort, comme il l'a appris avec son frère sourd. Merrill annonce qu'il reviendra dans quelques jours, et Rumaker se réfugie dans son studio et verrouille la porte.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01582",
+     "EV-05912"
+    ]
+   },
+   {
+    "titre": "La marche jusqu'à Next-to-the-Last-Chance",
+    "date": "1952-12",
+    "lieu": "route de la ferme, Next-to-the-Last-Chance",
+    "personnages": [
+     "Michael Rumaker",
+     "Merrill Gillespie"
+    ],
+    "deroule": "Après la vaisselle, Merrill surgit de l'ombre et marche avec Rumaker en se jaugeant, en passant devant Quiet House, l'imprimerie, les maisons Jalowetz et Sprague et Minimum House. Dans la pièce chauffée au poêle militaire, Merrill prépare le thé vert, puis le déshabille lentement sous la lumière crue et se déshabille à son tour, dans le lit de mariage de Herb.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01583",
+     "EV-05913",
+     "EV-05914"
+    ]
+   },
+   {
+    "titre": "L'incendie de Roadside pendant le souper",
+    "date": "1952-12",
+    "lieu": "route de la ferme, au-delà de la passerelle",
+    "personnages": [
+     "Wesley Huss",
+     "Bea Huss",
+     "Joseph Fiore",
+     "Mary Fiore",
+     "Natasha Goldowski",
+     "Madame Goldowski",
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Pendant le souper, la maison de bardeaux créosotés s'embrase. Tout le monde accourt de la salle à manger et reste impuissant devant la boule de flammes et les étincelles qui menacent les pins. Natasha conduit sa mère à travers les racines en criant « Dépêchons ! ». Les pompiers volontaires arrivent trop tard. Olson pose la main sur l'épaule voûtée de Wes, qui se tient le visage frappé par la lueur.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01584",
+     "EV-05915"
+    ]
+   },
+   {
+    "titre": "Olson au dortoir et la bouteille cachée",
+    "date": "1952-12",
+    "lieu": "dortoir de South Lodge",
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Olson baisse sa grande tête sous la porte du dortoir et va de lit en lit à voix basse, réclamant du whiskey pour Wes qui est en piteux état. Rumaker, seul à posséder une bouteille, se tait et la garde. Olson repart les mains vides, sombre et inquiet.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01585",
+     "EV-05916"
+    ]
+   },
+   {
+    "titre": "Bach dans la salle à manger presque vide",
+    "date": "1952-12",
+    "lieu": "salle à manger du collège",
+    "personnages": [
+     "trois musiciens aux flûtes à bec",
+     "Michael Rumaker"
+    ],
+    "deroule": "Au souper, dans une salle presque déserte, trois musiciens jouent Bach en juste intonation aux flûtes à bec. Rumaker entre, éprouve une clarté d'esprit et se sent apaisé malgré l'obscurité de l'hiver.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05911"
+    ]
+   },
+   {
+    "titre": "Pierres tombales et carnaval à Tanger",
+    "date": "1952-12",
+    "lieu": "Atlas, Sahara, Marrakech, Tanger (carnaval probablement à Tétouan)",
+    "personnages": [
+     "Robert Rauschenberg",
+     "Cy Twombly"
+    ],
+    "deroule": "Après la traversée de l'Atlas et du Sahara, Twombly fouille les ruines romaines et Rauschenberg photographie les pierres tombales, pendant que les deux hommes assistent à un carnaval et se baignent sous un rocher dans le paysage aride.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05919"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Dans la nuit de la proposition, la douche que Rumaker n'a pas prise rappelle une chambre d'hôtel à Chautauqua.",
+    "vers_date": null,
+    "vers": "Sa relation antérieure avec le professeur de géométrie Henry L. Wood, dans une chambre d'hôtel de Chautauqua.",
+    "refs": [
+     "EC-02808"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'insistance de Merrill et le « je te le redemanderai » font revenir Rumaker au répétition plus forte apprise avec son frère sourd Bill.",
+    "vers_date": null,
+    "vers": "L'enfance de Rumaker avec son frère aîné sourd, et la manière de se faire entendre en répétant plus fort.",
+    "refs": [
+     "EC-02811"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La nuit dans le matelas de Next-to-the-Last-Chance laisse une image qui ne s'efface pas.",
+    "vers_date": "1997",
+    "vers": "Le vétéran nu de 1952 reste gravé dans la mémoire de Rumaker près de quarante-cinq ans plus tard, selon son témoignage de 2003.",
+    "refs": [
+     "EC-02810"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La liaison naissante avec Merrill, dans le collège qui se vide.",
+    "vers_date": null,
+    "vers": "Le dernier été de Rumaker à BMC, où il apprendra amèrement la leçon de Stendhal sur la poursuite plus vivifiante que la capture.",
+    "refs": [
+     "EC-02809"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les soupers de Nell Rice, bienveillants dans un collège qui se défait.",
+    "vers_date": null,
+    "vers": "La veuve de John Rice deviendra la femme vengeresse dont les procès abattront le collège.",
+    "refs": [
+     "EC-02889"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Hilda Morley qui disparaît des classes après Henry James.",
+    "vers_date": "1953",
+    "vers": "L'été 1953 de l'institut, où elle pose nue dans la classe de dessin d'Esteban Vicente.",
+    "refs": [
+     "EC-02874"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La remarque de Virginia, « You exaggerate everything », que Rumaker entend au collège.",
+    "vers_date": "1956",
+    "vers": "La devise de Rumaker sur le mensonge créateur, puis sa lettre à Olson de 1956 qui en fait une poétique personnelle.",
+    "refs": [
+     "EC-02878"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La lecture du manuel de Madame, sauvé de la fuite de Russie blanche.",
+    "vers_date": "1917",
+    "vers": "La fuite de la famille Goldowski après 1917, et la boîte à chapeau qui a sauvé le manuel.",
+    "refs": [
+     "EC-02879"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ de Glenn Lewis pour Princeton, qui laisse Rumaker seul avec son béguin.",
+    "vers_date": "1954",
+    "vers": "Rumaker à Princeton puis à New York, de 1954 à 1958, et le prêt de 200 dollars en 1958.",
+    "refs": [
+     "EC-02892"
+    ]
+   }
+  ],
+  "motifs": [
+   "La lumière crue, ampoule éblouissante, lueur orange de l'incendie et lumière laissée allumée.",
+   "Le froid et la chaleur : poêle à huile, plancher glacé, matelas simple contre le grand lit.",
+   "Le secret et la bouteille cachée, dont le silence coupable hante Rumaker.",
+   "La répétition plus forte, qui relie le désir pour Merrill à l'enfance avec le frère sourd.",
+   "Les routes nocturnes de la ferme, qui mènent du collège aux maisons isolées."
+  ],
+  "lacunes": "Aucune fiche ne donne le jour de la proposition, de la première nuit ni de l'incendie ; la fenêtre de l'incendie va de décembre 1952 à février 1953 selon les sources. La session n'est pas nommée. On ignore si Cage, Tudor, Cunningham, Wolpe, Richards et Albers sont au collège en décembre. Herb Roco est parti en novembre : rien ne prouve qu'il soit l'« Herb » du lit de mariage, qui pourrait être un souvenir. Le retour d'Olson et le statut de Dawson et Dan Rice pendant ce mois ne sont pas établis. Le déroulé des cours n'est documenté nulle part pour décembre."
+ }
+}

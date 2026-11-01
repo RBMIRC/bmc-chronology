@@ -1,0 +1,356 @@
+{
+ "passe": "personnes",
+ "cle": "Malrey",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 8080,
+  "sortie": 8220,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Malrey",
+  "autres_noms": [
+   "Malrey (prénom seul dans toutes les fiches ; nom de famille non donné)"
+  ],
+  "dates_de_vie": "Inconnues. Aucune fiche ne donne sa naissance ni sa mort. Elle est adulte, tante d'Alvin, qui termine la 8e année en 1953 : c'est une déduction, pas un fait attesté.",
+  "statut_bmc": "Cuisinière du collège, personnel et non enseignante ni étudiante. Elle est noire, dans un Sud ségrégué. Elle dirige de fait la cuisine, avec Cornelia et, à un moment, George. Une cuisine qui tourne avec ses étudiants-travailleurs, des diététiciennes de passage et un budget serré.",
+  "presence": [
+   {
+    "debut": "1948",
+    "fin": "1953",
+    "role": "Cuisinière, étés compris (fiche agrégée). L'attestation de 1948 est indirecte : son neveu Alvin joue un Page cet été-là, mais rien ne dit qu'elle travaillait déjà au collège. Pour 1953, la fiche dit « été 1953 au moins ».",
+    "refs": [
+     "PE-00255",
+     "EV-06054"
+    ]
+   },
+   {
+    "debut": "1949",
+    "fin": "1950",
+    "role": "Travaille en cuisine avec Cornelia et George ; Vera Baker Williams et June Christensen tiennent le poste de diététicienne cette année-là.",
+    "refs": [
+     "EV-04625",
+     "QU-01234"
+    ]
+   },
+   {
+    "debut": "1950-12-25",
+    "fin": "1950-12-25",
+    "role": "Rôtit d'avance l'énorme dindon du Noël au collège, un jour de congé pour elle et Cornelia.",
+    "refs": [
+     "EV-05273",
+     "SC-01356",
+     "QU-01331"
+    ]
+   },
+   {
+    "debut": "1951",
+    "fin": "1953",
+    "role": "Cuisinière en titre : poulet rôti du samedi soir, repas de plus en plus sans viande, souper tardif gardé chaud, petit-déjeuner aux horaires intangibles, bal de 1953.",
+    "refs": [
+     "QU-01543",
+     "QU-01625",
+     "QU-01641",
+     "QU-01647",
+     "QU-01337",
+     "SC-01623",
+     "SC-01624"
+    ]
+   }
+  ],
+  "portrait_physique": "Petite, épaules rondes, plantureuse. Ses lunettes glissent sans cesse sur l'arête presque inexistante de son nez, devant le fourneau comme sur la piste de danse. Elle se met en tenue de dimanche pour la remise de diplômes de son neveu. Au bal de 1953 elle est en sorcière : cape noire, grand chapeau pointu, long nez en cône de papier orange tenu par un élastique. Son regard farfouille de tous côtés pour ne rien rater. Rumaker la décrit curieuse de tout et grimaçante de joie.",
+  "noyau_psychologique": "Une maîtresse de cuisine à l'autorité tranquille et sans appel sur ce qui compte pour elle : les horaires de repas, la nourriture chaude, les gens nourris. Elle est curieuse, joyeuse, un peu fantaisiste (sorcière de bal, eau-de-vie de pêche), et son humour surgit parfois. Elle nourrit ceux qui travaillent, étudiants, volontaires, hôtes. Elle est fière de sa famille et fait entrer ses jeunes blancs dans son monde à elle (graduation d'Alvin). Tout cela est attesté dans les gestes ; son for intérieur reste largement à déduire.",
+  "blessures": "Aucune blessure n'est directement nommée. Déduction : la ségrégation du Sud est le fond d'air de toute sa vie. La scène de graduation montre l'écart de moyens entre les écoles noires et blanches, et Rumaker pose que son bal avec lui est probablement le seul couple noir-blanc dansant publiquement dans le Sud d'alors. Reste à ne pas lui prêter de ressentiment que les sources ne formulent pas.",
+  "desirs": "Attesté : que les repas soient servis à l'heure et complets malgré un budget de « nickels et dimes », que son neveu Alvin soit reconnu et honoré, que les gens autour d'elle soient bien nourris, et s'amuser quand l'occasion se présente (le bal). Le reste est à inventer avec prudence.",
+  "peurs": "Non documentées. À déduire seulement du contexte : le manque d'argent (budget de nourriture serré, repas de moins en moins carnés) et les regards sur un couple noir-blanc dans le Sud. Les fiches n'expriment aucune crainte de sa part.",
+  "maniere_d_aimer": "Par la nourriture et l'invitation : elle garde les plats chauds sur l'arrière du fourneau pour les volontaires de l'incendie, dépose le dimanche fromage, pain et pommes pour le souper des étudiants, invite Rumaker et Mary Fiore à la graduation et les présente à sa famille. L'amitié avec Rumaker est dite « mutuelle » (fondness). Elle danse avec lui, sans façon, au bal. Sa fierté pour son neveu est attestée ; on ne sait rien d'un conjoint ou d'enfants.",
+  "rapport_au_pouvoir": "Un pouvoir de terrain : le petit-déjeuner est servi à heure fixe, aucune exception, même pour Merce Cunningham ou les grands danseurs innovants. Merce s'excuse aussitôt d'un sourire penaud. Elle n'a pas de rôle dans les affaires du collège, mais la cuisine est son royaume, avec Cornelia (qui sonne le gong, seule cloche du campus). Vis-à-vis du monde blanc du Sud, aucun fait ne montre qu'elle exerce un pouvoir, seulement qu'elle y joue le jeu de la politesse mutuelle.",
+  "voix": {
+   "registre": "Aucune parole directe de Malrey n'est rapportée dans les fiches. Le registre est à construire à partir des actes : concise, pratique, directive sur les horaires, avec des éclats d'enthousiasme et d'humour. On peut la faire parler comme une cuisinière noire du Sud rural des années 1950, en évitant la caricature.",
+   "tics": "Un tic visuel : la remontée des lunettes sur le nez. Elle ne laisse rien passer sur les heures de repas. Elle pousse des exclamations joyeuses, les grimaces de joie notées par Rumaker.",
+   "exemples_paraphrases": [
+    "Elle refuse net un petit-déjeuner à Merce arrivé en retard après la fête, quelle que soit sa renommée.",
+    "Au bal, elle révèle à Rumaker qu'elle avait déjà porté ce costume de sorcière à un bal d'Halloween de Sugar Hill, à Harlem.",
+    "Elle invite Rumaker et Mary Fiore à la graduation de son neveu et les présente aux siens."
+   ]
+  },
+  "habitudes": [
+   "Cuisine du matin au soir, y compris pendant les étés, avec Cornelia ; elle y tient le gros four de cuisson.",
+   "Petit-déjeuner à heure fixe, sans exception.",
+   "Garde chaud sur le poêle à mazout ou au fourneau le souper tardif des travailleurs.",
+   "Le dimanche soir, jour de congé des cuisiniers, elle laisse fromage, pain maison et pommes chez Nell Rice pour le souper des étudiants.",
+   "Prépare le poulet rôti du samedi soir, soirée d'habillage, avec l'aide d'étudiants.",
+   "Cuisine des repas de plus en plus sans viande avec l'étroitesse des finances, d'où son « lentilburger ».",
+   "Fume et boit un petit coup d'eau-de-vie de pêche maison, « puissante », dans la cuisine avec Cornelia ; elle en sert aussi dans une coupe de papier lors de soirées.",
+   "Joue le jeu des bals costumés et réutilise ses costumes."
+  ],
+  "convictions": [
+   "Les repas sont sacrés : horaires tenus, nourriture chaude, personne n'en est exempté.",
+   "La famille compte, et l'instruction du neveu en particulier (hypothèse tirée de l'invitation à la graduation).",
+   "Un bal est fait pour qu'on y danse, quelles que soient la couleur ou la réputation du partenaire (attitude déduite de sa conduite)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1948",
+    "moment": "Son neveu Alvin figure comme Page dans The Ruse of Medusa de Satie, avec Fuller et Cunningham, au dining hall. C'est un lien familial avec le collège, sans preuve qu'elle y fût déjà cuisinière.",
+    "etat_interieur": "Non documenté ; fierté familiale probable (déduction).",
+    "refs": [
+     "EV-06054"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Elle travaille en cuisine avec Cornelia et George, tandis que Vera Baker Williams et June Christensen tiennent le poste de diététicienne ; excursions au marché des fermiers, fêtes qui transforment la salle à manger. La période court sur 1949-1950.",
+    "etat_interieur": "Rôle d'ancrage de la cuisine, déduit.",
+    "refs": [
+     "EV-04625",
+     "QU-01234"
+    ]
+   },
+   {
+    "date": "1950",
+    "moment": "Kermesse de l'école d'Alvin Charles Few : elle s'y rend avec June, Vera et Mary. La diseuse de bonne aventure prédit des fausses couches à chacune.",
+    "etat_interieur": "Non documenté ; on sait seulement que Mary admire la lecture sociale de la voyante.",
+    "refs": [
+     "EV-04932"
+    ]
+   },
+   {
+    "date": "1950-12-25",
+    "moment": "Noël : elle rôtit d'avance un énorme dindon ; le repas devient pour Rumaker la preuve que BMC est sa maison.",
+    "etat_interieur": "Généreuse, organisatrice ; elle est en congé ce jour-là et prépare tout de même.",
+    "refs": [
+     "EV-05273",
+     "SC-01356",
+     "QU-01331"
+    ]
+   },
+   {
+    "date": "1951",
+    "moment": "Poulet rôti du samedi soir avec Cornelia et des étudiants ; déjeuner annoncé à la cloche.",
+    "etat_interieur": "Routine maîtrisée.",
+    "refs": [
+     "QU-01543"
+    ]
+   },
+   {
+    "date": "1952-09",
+    "moment": "Automne 1952 : après l'arrivée de Rumaker à la cuisine, souper tardif gardé chaud ; en octobre, incendie de forêt sur les Seven Sisters : elle garde la nourriture chaude pour Weinberger, Burns et les autres volontaires.",
+    "etat_interieur": "Soin concret des travailleurs ; sérénité dans l'urgence (déduction).",
+    "refs": [
+     "QU-01625",
+     "EV-05892",
+     "QU-01641",
+     "SC-01565"
+    ]
+   },
+   {
+    "date": "1952",
+    "moment": "Années de restrictions : repas de plus en plus sans viande, budget de « nickels et dimes », lentilburger.",
+    "etat_interieur": "Ingéniosité sous contrainte (déduction).",
+    "refs": [
+     "QU-01337",
+     "QU-01338"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "Elle refuse un petit-déjeuner à Merce, en retard et gris au cours de 8h après la fête surprise de son anniversaire à Streamside.",
+    "etat_interieur": "Inflexible, sans méchanceté ; l'autorité de la cuisine.",
+    "refs": [
+     "SC-01623",
+     "EV-06027"
+    ]
+   },
+   {
+    "date": "1953-05",
+    "moment": "Fin du printemps, un dimanche après-midi : elle invite Rumaker et Mary Fiore à la remise des diplômes de 8e année d'Alvin, dans l'école noire de planches non peintes près d'Asheville. La date précise n'est pas donnée.",
+    "etat_interieur": "Fierté ; confiance accordée aux deux étudiants blancs.",
+    "refs": [
+     "EV-06054",
+     "RE-02524"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "Été 1953, Black Arts Ball : en sorcière, elle attrape Rumaker pour un foxtrot ; le couple noir-blanc est vu comme unique dans le Sud.",
+    "etat_interieur": "Joie, jeu, farfouillage du regard ; le plaisir d'être là.",
+    "refs": [
+     "SC-01624",
+     "RE-02516",
+     "QU-01754",
+     "QU-01753",
+     "EC-02982"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Elle avait déjà porté son costume de sorcière à un bal d'Halloween de Sugar Hill, à Harlem, avant BMC. Elle l'apprend à Rumaker au bal de 1953. Cela suggère un séjour ou des fréquentations à Harlem, sans chronologie ni détail.",
+    "refs": [
+     "EC-02982",
+     "PE-00255"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Famille proche d'Asheville : son neveu Alvin y fréquente l'école noire, ce qui suggère des attaches locales. Rien de plus sur son enfance ni sa formation.",
+    "refs": [
+     "EV-06054"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "",
+    "moment": "Basil et Martha King donnent le prénom Malrey à leur fille en son honneur. La date n'est pas donnée ; la fiche agrégée cite Dawson 1970 p.262, alors que le passage de Dawson à cette page est la scène du sandwich, dont rien n'indique qu'elle parle de la naissance de la fillette. Une fille nommée Malrey existe avant 1970.",
+    "refs": [
+     "PE-00255",
+     "QU-01754"
+    ]
+   },
+   {
+    "date": "1970",
+    "moment": "Dawson 1970 évoque encore Cornelia et Malrey à propos de l'eau-de-vie de pêche (période ≈1933-1970, ancrage très large). Il ne donne pas de devenir de Malrey.",
+    "refs": [
+     "QU-00522",
+     "QU-01474"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Amitié mutuelle ; elle l'emploie et le côtoie en cuisine",
+    "evolution": "Il arrive à la cuisine en 1952. En 1953 elle l'invite à la graduation d'Alvin et à rencontrer sa famille, puis danse avec lui un foxtrot qui devient le seul couple noir-blanc du Sud. Le lien progresse de la collaboration quotidienne à une confiance qui dépasse le collège.",
+    "refs": [
+     "RE-02516",
+     "RE-02524",
+     "SC-01624",
+     "EV-06054",
+     "QU-01766"
+    ]
+   },
+   {
+    "avec": "Cornelia",
+    "nature": "Collègue et co-cuisinière ; complicité (eau-de-vie, gong, café noir)",
+    "evolution": "Stable sur toute la période : elles se partagent les repas, les congés et les petits plaisirs de cuisine.",
+    "refs": [
+     "QU-00522",
+     "QU-01337",
+     "EV-05273",
+     "QU-01543"
+    ]
+   },
+   {
+    "avec": "Alvin (neveu)",
+    "nature": "Famille ; fierté",
+    "evolution": "Page en 1948 au dining hall, puis diplômé de 8e année en 1953 : il grandit pendant ses années de cuisine.",
+    "refs": [
+     "EV-06054",
+     "PE-00255"
+    ]
+   },
+   {
+    "avec": "Mary Fiore",
+    "nature": "Amitié de cuisine ; Mary l'aide au dindon et l'accompagne à la graduation",
+    "evolution": "Complicité autour de 1950, puis invitation conjointe en 1953.",
+    "refs": [
+     "EV-05273",
+     "RE-02524",
+     "EV-06054"
+    ]
+   },
+   {
+    "avec": "Merce Cunningham",
+    "nature": "Cuisinière / artiste hôte, rapport d'autorité",
+    "evolution": "En 1953 elle ne fait aucune exception à son petit-déjeuner, malgré sa stature ; il s'excuse.",
+    "refs": [
+     "SC-01623",
+     "EV-06027"
+    ]
+   },
+   {
+    "avec": "June Christensen, Vera Baker Williams et Mary",
+    "nature": "Collègues et compagnes de sortie",
+    "evolution": "Travail de cuisine en 1949-1950, puis kermesse ensemble.",
+    "refs": [
+     "EV-04625",
+     "EV-04932",
+     "QU-01234"
+    ]
+   },
+   {
+    "avec": "Fielding Dawson",
+    "nature": "Présente par Dawson au jeune homme perdu comme cuisinière",
+    "evolution": "Une scène d'hospitalité en cuisine, dont l'ancrage temporel est flou (≈1941-1953).",
+    "refs": [
+     "SC-00819",
+     "EV-03194"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "La fiche agrégée dit qu'elle est cuisinière de 1948 à 1953 ; la première attestation directe en cuisine dans les fiches est 1949-1950 (Lane) et la présence de 1948 repose seulement sur le neveu Alvin.",
+   "La fiche agrégée cite Dawson 1970 p.262 pour la fille nommée Malrey, mais le passage de Dawson à cette page est la scène du sandwich (SC-00819), qui ne dit rien de ce baptême ; la source de cette information est donc peu claire.",
+   "Dans EV-04932 (Lane), les femmes qui comparent les prédictions sont dites « blanches » alors que Malrey, noire, est du groupe : la fiche est ambiguë sur sa place dans la scène, ou sur la couleur de la voyante.",
+   "La scène du jeune homme perdu (SC-00819, EV-03194) est datée ≈1941-1953, une fourchette large et déduite ; Malrey n'y apparaît que comme nom, impossible de savoir à quelle année la situer.",
+   "QU-01754 suppose Rumaker et Malrey « probablement » le seul couple noir-blanc dansant publiquement dans tout le Sud ; c'est une hypothèse de Rumaker, pas une certitude.",
+   "L'écart de ton entre le portrait de Rumaker (curieuse, joyeuse) et l'image d'inflexibilité sur les horaires est un contraste à jouer, non une contradiction."
+  ],
+  "situations_revelatrices": [
+   "Le petit-déjeuner à heure fixe, devant un grand nom en retard : l'autorité sans méchanceté.",
+   "Une urgence nocturne (incendie) : elle garde la nourriture chaude et nourrit ceux qui reviennent couverts de suie.",
+   "Le bal costumé : fantaisie, jeu, danse avec un jeune homme blanc dans un Sud ségrégué.",
+   "La graduation de son neveu dans une école noire de planches nues : sa famille, son monde, vus par deux étudiants blancs qui y sont les seuls invités.",
+   "La cuisine en temps de budget serré : le lentilburger, les « nickels et dimes », l'inventivité.",
+   "Les petits plaisirs partagés avec Cornelia : l'eau-de-vie de pêche, le gong, le café noir.",
+   "La dispute possible autour de l'accès au réfectoire (hypothèse de scène, non attestée)."
+  ],
+  "citations": [
+   "PE-00255",
+   "RE-02516",
+   "RE-02524",
+   "SC-00819",
+   "SC-01356",
+   "SC-01565",
+   "SC-01623",
+   "SC-01624",
+   "EV-03194",
+   "EV-04625",
+   "EV-04932",
+   "EV-05273",
+   "EV-05862",
+   "EV-05892",
+   "EV-06027",
+   "EV-06039",
+   "EV-06054",
+   "EC-02982",
+   "QU-00522",
+   "QU-01234",
+   "QU-01331",
+   "QU-01337",
+   "QU-01338",
+   "QU-01474",
+   "QU-01543",
+   "QU-01625",
+   "QU-01641",
+   "QU-01647",
+   "QU-01753",
+   "QU-01754",
+   "QU-01766"
+  ],
+  "questions_ouvertes": [
+   "Son nom de famille, ses dates de vie et son origine : née dans la région d'Asheville ou ailleurs ?",
+   "Quand et comment est-elle arrivée au collège, et quand l'a-t-elle quitté ? Les fiches s'arrêtent à l'été 1953.",
+   "Quel est son séjour à Harlem (Sugar Hill) : un passé personnel, un voyage, un épisode de jeunesse ?",
+   "Qui sont Basil et Martha King par rapport à elle, et dans quel contexte ont-ils nommé leur fille Malrey ?",
+   "Quel est son lien exact avec Alvin : neveu par sa sœur ou son frère, et que devient-il après 1953 ?",
+   "Comment vit-elle la ségrégation au quotidien au collège et en ville, et que pense-t-elle des étudiants blancs qui la dansent ou l'invitent ?",
+   "Sa place exacte dans la hiérarchie de la cuisine par rapport à Cornelia, aux diététiciennes et à George.",
+   "Qu'est-il advenu d'elle après la fermeture du collège en 1957 ?"
+  ]
+ }
+}

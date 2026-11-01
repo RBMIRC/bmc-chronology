@@ -1,0 +1,280 @@
+{
+ "passe": "mois",
+ "cle": "1940-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3915,
+  "sortie": 14506,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-07",
+  "session": "session d'été : work camp de construction à Lake Eden, hors année scolaire régulière",
+  "saison_et_climat": "Été 1940 à Lake Eden. Les fiches ne décrivent ni le temps qu'il fait ni l'ambiance physique du site en juillet.",
+  "situation": "En juillet 1940, Rice est parti depuis mars, sa démission étant réglée et annoncée publiquement. Le campus rêvé de Gropius et Breuer est abandonné : Kocher, consulté par lettres, conçoit une seule aile que la communauté doit construire elle-même. La campagne des deux millions s'est effondrée, la YMCA menace le bail de Blue Ridge, et le collège n'a pas encore d'argent pour bâtir. Le work camp d'été démarre et la construction devient la preuve que le collège existe.",
+  "presents_probables": [
+   {
+    "nom": "Dreier (Ted)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Gothe",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Godfrey",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher (par correspondance, pas encore installé à temps plein)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "étudiants du work camp",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Le collège retient Kocher pour le bâtiment des Studies, après une mésentente avec Gropius et Breuer, qui en sont vexés.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03114"
+    ]
+   },
+   {
+    "date": "1940-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Dreier écrit à Kocher les 8, 11 et 17 juillet pour préparer le projet, pendant que Gropius et Breuer recommandent Kocher sans s'y retrouver tout à fait.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03114"
+    ]
+   },
+   {
+    "date": "1940-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Le campus rêvé est abandonné au profit d'une seule aile conçue par Kocher et construite par la communauté.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": "1940-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Mort de Paul Klee en Suisse, des suites de la sclérodermie, peu après ses soixante ans.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03115"
+    ]
+   },
+   {
+    "date": "1940-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Schlemmer note dans son journal l'apport de Klee et s'inquiète de l'avenir de l'art abstrait dans une Europe hostile au modernisme.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03116"
+    ]
+   },
+   {
+    "date": "1940-07-18",
+    "precision": "jour",
+    "ce_qui_arrive": "Dewey écrit à Dreier : le collège est « a living example of democracy in action », enraciné dans les « grass roots » d'un mode de vie démocratique.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03117",
+     "EV-03118",
+     "EV-03119"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Le work camp d'été démarre à Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Gothe, économiste allemand et ancien des camps de travail, est engagé, mais il se révèle trop autocrate pour les étudiants américains. Godfrey enseigne la construction.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Au moment de la chute de la France, la campagne des deux millions menée par Dreier depuis le MIT s'effondre, la peur gagnant les donateurs.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Juillet est un temps de chantier : le work camp fait tourner les étudiants et les enseignants autour de la construction, Godfrey enseigne le bâtiment et Gothe encadre. Dreier entretient la correspondance avec Kocher et les donateurs, tandis que Dewey encourage par lettre. Les fiches ne disent rien des repas, de la musique ni des cours hors construction.",
+  "tensions": [
+   "Gropius et Breuer, vexés de voir Kocher retenu, sont tenus à l'écart du bâtiment principal.",
+   "Le campus rêvé, pensé par les architectes, cède la place à une seule aile construite par les étudiants et les enseignants.",
+   "La campagne des deux millions s'effondre quand la France tombe, et la peur gagne les donateurs.",
+   "La YMCA veut transformer Blue Ridge en école de filles, ce qui menace le collège ; le calendrier de cette menace est contesté.",
+   "Gothe, autocrate, heurte les étudiants américains.",
+   "Le collège doit payer ses salaires non garantis, sans recettes assurées."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les lettres de Dreier à Kocher",
+    "date": "1940-07",
+    "lieu": "BMC (correspondance)",
+    "personnages": [
+     "Dreier",
+     "Kocher",
+     "Gropius",
+     "Breuer"
+    ],
+    "deroule": "Dreier écrit à Kocher trois fois en juillet, les 8, 11 et 17. Gropius et Breuer, froissés, finissent par recommander Kocher tout en acceptant de le conseiller, et le projet passe de la maquette rêvée à une seule aile.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03114"
+    ]
+   },
+   {
+    "titre": "La lettre de Dewey arrive",
+    "date": "1940-07-18",
+    "lieu": null,
+    "personnages": [
+     "Dreier",
+     "Dewey"
+    ],
+    "deroule": "Dewey, membre du conseil consultatif, écrit à Dreier pour approuver le projet. Il y voit un collège enraciné dans une démocratie vivante. Cette lettre est un appui moral pour une entreprise à court d'argent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03117",
+     "EV-03118",
+     "EV-03119"
+    ]
+   },
+   {
+    "titre": "Premiers jours du work camp à Lake Eden",
+    "date": null,
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Gothe",
+     "Godfrey",
+     "étudiants",
+     "Dreier"
+    ],
+    "deroule": "Gothe, habitué des camps de travail, prend la tête des équipes d'étudiants, mais son autorité se heurte à l'esprit des étudiants américains. Godfrey, lui, enseigne les gestes du bâtiment à ceux qui n'ont jamais construit.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Schlemmer écrit sur la mort de Klee",
+    "date": "1940-07",
+    "lieu": null,
+    "personnages": [
+     "Schlemmer"
+    ],
+    "deroule": "Apprenant la mort de Klee, Schlemmer écrit dans son journal ce qu'il lui doit, puis se demande si l'art abstrait trouvera encore des chefs et un refuge dans une Europe hostile au modernisme.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03115",
+     "EV-03116"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "juillet 1940, alors que le collège cherche un architecte après le départ de Rice",
+    "vers_date": "1940-02-16",
+    "vers": "Le 16 février, Wunsch écrit à Rice que la moitié de la faculté ne peut plus affronter une lutte interne ; Rice démissionne peu après, et sa sortie pèse encore sur la confiance du collège.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "juillet 1940, face au campus rêvé qu'on abandonne",
+    "vers_date": "1940-06",
+    "vers": "En juin, Albers, devant des donateurs à New York, fait une rare déclaration contre la guerre et proclame que l'enseignement de l'art est « au centre de toute activité », ce qui annonce des querelles futures.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "juillet 1940, quand la question du bail de Blue Ridge pèse",
+    "vers_date": "1940-05",
+    "vers": "En mai, le collège dégage 3 000 $ pour un tracteur Farmall et un wagon de ciment, après que la YMCA, selon Lane, a accordé une année de grâce.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'été du work camp, pendant que les pieux restent à enfoncer",
+    "vers_date": "1940-09-12",
+    "vers": "Le 12 septembre, le chantier est ouvert avec l'objectif « roof by Christmas ». Godfrey invente un pilon de 27 pieds tiré par le Farmall pour enfoncer les pieux dans la boue.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'été 1940, quand Rice a quitté le collège et vit de l'écriture",
+    "vers_date": "1940-08",
+    "vers": "En août, Rice est à Bella Vista avec ses enfants, où son dîner socratique fait fuir en larmes sa future belle-fille. En septembre, Harper's publie « My Father's Folks ».",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'été, quand le chantier commence à faire parler de lui",
+    "vers_date": "1940-11",
+    "vers": "En novembre, May Sarton passe dix jours au collège : elle aide au mur de pierre, donne une conférence sur Yeats et critique le « fétiche de la liberté » qu'elle voit au manque d'hommage et de silence.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le mécontentement né à l'automne contre la « mystique du salut par le travail »",
+    "vers_date": "1941",
+    "vers": "En 1941, la faculté pose un maximum conseillé d'un à trois après-midi de travail par semaine, ce qui apaise le conflit.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la crise financière qui s'annonce dès l'été",
+    "vers_date": "1940",
+    "vers": "Seuls 40 % des salaires non garantis de la faculté sont payés en 1940-41, puis 32 % l'année suivante. La crise de liquidité est pire que du temps de Lee Hall.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "le campus rêvé contre le campus possible, avec une aile construite à la main",
+   "les blessures d'architectes et la rivalité des chefs",
+   "la démocratie vécue comme argument, avec la lettre de Dewey",
+   "le travail comme salut, déjà contesté",
+   "l'argent qui manque, dans une Europe en guerre où les donateurs ont peur",
+   "l'art abstrait menacé, vu depuis le Bauhaus par Schlemmer"
+  ],
+  "lacunes": "Aucune date de jour pour la mort de Klee, et la lettre de Dewey est décrite différemment : EV-03118 la rattache à une visite des années 1930, alors qu'EV-03117 et EV-03119 la datent du 18 juillet 1940. Le calendrier de la menace YMCA est contesté. Les fiches ne disent pas où se trouvent exactement Dreier, Kocher et les étudiants en juillet, ni où est Albers. Le climat et le quotidien du site ne sont pas décrits. On ignore quand Anni apprend la fuite de sa mère."
+ }
+}

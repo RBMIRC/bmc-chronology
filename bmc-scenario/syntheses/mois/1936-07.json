@@ -1,0 +1,196 @@
+{
+ "passe": "mois",
+ "cle": "1936-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5593,
+  "sortie": 12333,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-07",
+  "session": "Session d'été 1936 : Van Middlesworth dirige les sessions d'été, selon la synthèse de l'année 1936",
+  "saison_et_climat": "Été 1936. Au Mexique, le climat est décrit comme fabuleux (EV-02588). Le climat du collège en Caroline du Nord n'est pas documenté dans les fiches.",
+  "situation": "Juillet 1936 : le collège tourne en session d'été, pendant que Josef et Anni Albers sont au Mexique, selon les fiches entre juin et août. Le printemps a laissé des traces : le courrier suscité par la pleine page du New York Times continue d'arriver, la polémique Harper's et DeVoto a fait son bruit, le Board a décidé de ne pas joindre de tirés à part au catalogue, et la crise Knickerbocker-Goldenson attend la rentrée. Alice vient d'être admise de justesse, et 55 étudiants sont attendus à l'automne.",
+  "presents_probables": [
+   {
+    "nom": "Van Middlesworth",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "un membre de la faculté, anonyme, qui a voté contre l'admission d'Alice",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-06",
+    "precision": "periode",
+    "ce_qui_arrive": "Premier séjour mexicain des Albers (trois mois, juin-août) : Josef peint onze ou douze huiles, aujourd'hui perdues, et prépare les études de Tenayuca ; Anni tisse Ancient Writing et Monte Alban. Le nombre des voyages reste contesté entre les sources.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02588",
+     "EV-02589",
+     "EV-02590"
+    ]
+   },
+   {
+    "date": "1936-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Exposition de Josef au journal El Nacional (15-25 août) : gravures et série Clave de sol. Le journal le salue comme l'un des fondateurs de l'abstraction, ce qu'il n'attendait pas.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02589",
+     "EV-02590"
+    ]
+   },
+   {
+    "date": "1936-06-07",
+    "precision": "jour",
+    "ce_qui_arrive": "Pleine page photographique du Sunday New York Times sur le collège. Le courrier reçu (50-55 lettres la première semaine, une quarantaine la seconde) est jugé mensonger par un membre de BMC.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02593"
+    ]
+   },
+   {
+    "date": "1936-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Admission d'Alice : postulante à l'été, elle est admise de justesse après un vote contre d'un membre de la faculté. Elle entre à l'automne parmi cinquante-cinq étudiants.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02594"
+    ]
+   },
+   {
+    "date": "1936",
+    "precision": "saison",
+    "ce_qui_arrive": "Noguchi annonce qu'il viendra faire un bas-relief pour le collège ; le projet échoue, l'opposition apparente d'Albers jouant un rôle. Le moment précis de l'été n'est pas fixé.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02599"
+    ]
+   }
+  ],
+  "quotidien": "Vie d'été réduite : session dirigée par Van Middlesworth, courrier abondant issu de la publicité du New York Times, admissions discutées en réunion de faculté. Du côté mexicain, Anni travaille ses tapisseries, Josef dessine et peint, et le couple fréquente Clara Porset et Xavier Guerrero. Les fiches ne décrivent pas les repas, les cours ni la musique du campus ce mois-ci.",
+  "tensions": [
+   "L'image publique (pleine page du NYT, article de Harper's) ne correspond pas à la vie du collège, et le courrier le prouve.",
+   "Le Board refuse les tirés à part pour des raisons de discrétion, alors que le collège veut de la visibilité.",
+   "Admission d'Alice contestée : un membre de la faculté doute que le collège « puisse supporter un autre vampire ».",
+   "Le projet de bas-relief de Noguchi échoue, dans une session où Albers est absent.",
+   "La crise Knickerbocker-Goldenson reste ouverte : le message de pessimisme voté en avril n'a pas été résolu, et les deux enseignants ont annoncé leur retour à l'automne.",
+   "Les factions étudiantes autour de Rice et de Knickerbocker, formées au printemps, restent en place."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le courrier du Times",
+    "date": "1936-06-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Van Middlesworth"
+    ],
+    "deroule": "Les lettres arrivent pendant la session d'été. Elles commencent souvent par « Dear Rollins Rebels » ou « The Black Mountain Cooperative College ». Certaines correspondantes veulent venir parce que le collège ne coûte rien. On les lit en mesurant l'écart entre l'image publique et la vie réelle du lieu.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02593"
+    ]
+   },
+   {
+    "titre": "Le vote sur Alice",
+    "date": "1936-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Alice",
+     "un membre de la faculté qui vote contre"
+    ],
+    "deroule": "Une réunion de faculté examine la candidature d'Alice. Un membre doute que le collège puisse supporter un autre vampire. Il est mis en minorité, et Alice est admise de justesse.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02594"
+    ]
+   },
+   {
+    "titre": "Le bas-relief de Noguchi",
+    "date": "1936",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Van Middlesworth",
+     "Isamu Noguchi",
+     "Josef Albers (absent, à distance)"
+    ],
+    "deroule": "Van Middlesworth dirige la session d'été. Noguchi, qui avait laissé entendre qu'il viendrait faire un bas-relief, voit son projet bloqué par l'opposition apparente d'Albers, qui se trouve alors au Mexique.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02599"
+    ]
+   },
+   {
+    "titre": "Exposition à Mexico",
+    "date": "1936-08",
+    "lieu": "Mexico, calle de París 23 et hall du journal El Nacional",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Diego Rivera",
+     "Clara Porset",
+     "Xavier Guerrero"
+    ],
+    "deroule": "Josef accroche la série Clave de sol et ses gravures dans le hall d'El Nacional, du 15 au 25 août. Anni termine ses tapisseries. Le couple rencontre Diego Rivera, dont Anni trouve les fresques récentes « horribles ». Clara Porset et Xavier Guerrero deviennent leurs relais dans le milieu mexicain.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02589",
+     "EV-02590",
+     "EV-02483"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juillet 1936, quand le courrier du NYT arrive encore",
+    "vers_date": "1936-02",
+    "vers": "L'hiver des Adamic : Rice expose sa doctrine à Adamic, l'interview du Herald Tribune paraît, puis « Education on a Mountain » déclenche le procès du portrait de Rice. C'est l'origine de la fracture que la pleine page du Times a rendue publique.",
+    "refs": [
+     "EV-02547",
+     "EV-02567",
+     "EV-02583"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1936, avec Alice admise de justesse",
+    "vers_date": "1936-09",
+    "vers": "Rentrée avec 55 étudiants. Albers présente un exposé lors de la première réunion générale (7 septembre), Wunsch lance son cours d'écriture créative, et Rice organise une série de réunions de faculté sur l'enseignement.",
+    "refs": [
+     "EV-02594",
+     "EV-02545",
+     "EV-02522",
+     "EV-02603"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet 1936, avec la crise Knickerbocker-Goldenson encore ouverte",
+    "vers_date": "1936-12-07",
+    "vers": "Zeuch exige une réunion de faculté nocturne. L'appel est rejeté, la démission de Goldenson est autorisée, et Zeuch parle de « début de la fin ».",
+    "refs": [
+     "EV-02609",
+     "EV-02610"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le faux et le vrai : image publique contre vie réelle du collège (NYT, Harper's, « mensongère »)",
+   "La farce qui n'est jamais dénoncée (Mondrian remplacé, plus tôt dans l'année)",
+   "Le Mexique comme terre promise et refuge créatif",
+   "Le courrier comme mesure du succès et de la fracture",
+   "Le « vampire » : l'admission comme jugement moral sur un candidat"
+  ],
+  "lacunes": "On ne sait pas où sont Rice, Knickerbocker, Goldenson, Zeuch, Evarts et les autres enseignants en juillet ; les fiches ne les placent pas. Le climat du collège, les repas, les cours d'été et la musique ne sont pas documentés. Le nombre des voyages mexicains est contradictoire (premier ou deuxième séjour), et la distance parcourue en 1936 varie selon les sources. La date exacte du vote sur Alice, celle du bas-relief de Noguchi, et l'identité du membre qui a voté contre Alice restent inconnues. On ignore si le courrier du NYT se prolonge en juillet et combien de lettres arrivent alors."
+ }
+}

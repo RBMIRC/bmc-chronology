@@ -1,0 +1,70 @@
+{
+ "passe": "enseignements",
+ "cle": "communauté BMC",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 964,
+  "sortie": 2337,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "communauté BMC",
+  "cours": [
+   {
+    "intitule": "Apprendre en vivant ensemble : repas, corvées, conversation et gouvernance (pas un cours formel, aucun intitulé de cours ni horaire dans les fiches)",
+    "periodes": [
+     "≈1933-08→1934"
+    ],
+    "atteste": "incertain",
+    "objectifs": "Les fiches ne décrivent aucun cours donné par « la communauté ». Elles donnent un principe pédagogique collectif, attesté à BMC d'après Duberman 1972 : « vivre » et « apprendre » doivent être entrelacés, et l'éducation a lieu partout. La classe n'en est qu'un lieu parmi d'autres. Le texte de la fiche la juge même souvent parmi les pires environnements d'apprentissage. Cette entrée sert donc de cadre de vie et de culture commune pour le scénario, pas de programme de cours. Le premier catalogue ajoute un cadre de prudence : on ne tente rien sans « reasonable likelihood of good results », et le collège se contente alors de combiner des expériences déjà éprouvées.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [
+     "Premier catalogue : avant-propos de Rice, qui pose la règle de la « reasonable likelihood of good results » et combine « for the present » des expériences déjà éprouvées (ID-01145)",
+     "Duberman 1972, pp. 22-25, source de toutes les fiches ci-dessus"
+    ],
+    "propos_types": [
+     "Le slogan favori, paraphrasé : il y a autant d'éducation réelle autour des tasses de café qu'en classe (ID-01144).",
+     "La salle de classe, telle qu'on la structure d'ordinaire, compte parmi les pires environnements d'apprentissage (ID-01144).",
+     "Expérimenter n'est pas bon en soi : les innovations touchent des personnes qui peuvent en être blessées (ID-01145).",
+     "On vise le « sense of the meeting » à la quaker : un consensus sur lequel les représentants élus agissent (ID-01146)."
+    ],
+    "critique_et_evaluation": "Duberman relève une tension : la prudence « responsable » du premier catalogue, poussée à la lettre, interdirait toute aventure inconnue, alors que le collège veut être neuf (ID-01145). Pour le consensus, la fiche note que le désaccord peut durer des heures pour des enjeux minuscules. Elle donne l'exemple de la bataille des « two-mealers » contre les « three-mealers » sur le déjeuner du dimanche (ID-01146).",
+    "reactions_etudiants": "Non attesté dans ces fiches pour les étudiants en tant que groupe. Seule la querelle sur le déjeuner du dimanche montre la communauté, sans distinction précise de statuts, absorbée par des enjeux domestiques (ID-01146).",
+    "evolution": "D'après la fiche ID-01146, le consensus échoue « plus tard » sur des divisions graves, notamment l'admission d'étudiants noirs. Le Board doit alors décider contre une minorité, voire une majorité. Aucune date précise n'est donnée dans les fiches : à situer avec prudence dans le scénario pour un flash-forward.",
+    "refs": [
+     "ID-01144",
+     "ID-01145",
+     "ID-01146"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "« Vivre » et « apprendre » doivent être entrelacés : l'éducation a lieu partout, pas seulement en classe.",
+    "en_classe": "Transposition possible en séance : faire d'un repas ou d'une corvée partagée un lieu d'échange où faculté et étudiants discutent ensemble. Seul l'exemple des repas pris en commun est attesté (ID-01144). Aucune séance ni consigne précise n'est attestée à BMC, tout format est une déduction. Scénaristiquement, la scène de café ou de repas serait légitime.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01144"
+    ]
+   },
+   {
+    "idee": "L'expérimentation n'est pas bonne en soi : on doit peser le risque de blesser des personnes avant d'innover.",
+    "en_classe": "Déduction pour une séance : discuter avant un essai nouveau de sa « reasonable likelihood of good results » et de ceux qu'il pourrait blesser. Ce débat en classe n'est pas attesté ; seule la position du premier catalogue l'est (ID-01145). Elle s'oppose à l'image d'un collège qui expérimente sans retenue, et la fiche signale la tension avec la volonté d'être neuf.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01145"
+    ]
+   },
+   {
+    "idee": "Le consensus à la quaker, le « sense of the meeting », comme idéal de gouvernance, avec ses limites.",
+    "en_classe": "Transposition possible en atelier : une réunion cherchant un consensus sur une question concrète, comme le déjeuner du dimanche, puis exécution par des représentants. Cet exercice n'est pas attesté comme tel en classe. Ce qui est attesté, ce sont la gouvernance, la durée des discussions sur des enjeux minuscules (two-mealers contre three-mealers) et, plus tard, l'échec du consensus sur l'admission d'étudiants noirs (ID-01146).",
+    "atteste": "oui",
+    "refs": [
+     "ID-01146"
+    ]
+   }
+  ]
+ }
+}

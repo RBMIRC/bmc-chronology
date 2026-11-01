@@ -1,0 +1,46 @@
+{
+ "passe": "enseignements",
+ "cle": "Beaumont Newhall",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1489,
+  "sortie": 633,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Beaumont Newhall",
+  "cours": [
+   {
+    "intitule": "Histoire de la photographie",
+    "periodes": [
+     "été 1948"
+    ],
+    "atteste": "oui",
+    "objectifs": "Les fiches ne donnent aucun programme. On sait seulement que Newhall tenait un cours d'histoire de la photographie à la session d'été 1948 (CO-00484, CO-00537). Ses objectifs précis ne sont pas documentés ; toute reconstitution serait une déduction.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": null,
+    "refs": [
+     "CO-00484",
+     "CO-00537",
+     "SC-01117"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le collège devrait former des artistes professionnels et leur donner une éducation complète, au lieu de placer au centre l'expérience de l'art. Newhall est ici l'auteur de l'idée, qui marque un tournant par rapport à la pratique antérieure.",
+    "en_classe": "Le « contexte culturel » ne serait enseigné qu'en lien avec les cours d'art, par la faculté d'art ou des conférenciers invités. Les champs forts seraient l'art, la musique et l'écriture, avec une faculté visiteuse pour les autres domaines. Le plan visait des attentes plus claires pour les étudiants, une publicité facilitée et moins de concurrence avec les collèges classiques, que BMC ne pouvait pas financer. Il a été adopté à la réunion de New York de janvier 1949, puis rendu caduc par la crise. Aucune fiche ne montre son application en classe : il s'agit d'un projet de cursus, non d'une séance attestée.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02113"
+    ]
+   }
+  ]
+ }
+}

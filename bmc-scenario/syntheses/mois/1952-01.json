@@ -1,0 +1,203 @@
+{
+ "passe": "mois",
+ "cle": "1952-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 7070,
+  "sortie": 11097,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "janvier 1952 (1952-01)",
+  "session": "Hiver 1952 ; les fiches ne précisent pas le découpage en trimestres ni le calendrier des cours",
+  "saison_et_climat": "Hiver rigoureux : neige, froid et nuit noire. Le 28 janvier, il neige depuis deux heures, la température chute et l'eau du lac Eden est glacée.",
+  "situation": "Olson dirige de fait le collège depuis 1951 (RE-02273). L'institution s'affaiblit : Forbes met fin à ses dons après plus de 20 000 dollars versés (EV-05798), et la communauté vit dans la fatigue des crises. Le mois s'ouvre sur la nuit du lac, dont les suites occupent les lettres et les rumeurs.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Cy Twombly",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Rauschenberg",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nick Cernovich",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Trois étudiants musiciens (non nommés) qui jouent la musique de Feldman au réfectoire",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Quatre hommes assis à la table de la cuisine (non nommés)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Herb Roco",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Constance Olson et Kate, qui attendent Olson à la maison",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1951-12-30",
+    "precision": "periode",
+    "ce_qui_arrive": "Lanier écrit à Erwine Laverne, du showroom new-yorkais, à propos du « wire stuff » (travail du fil) de Ruth. Le brouillon d'une lettre de Ruth, non daté, est attribué à 1952. Ce fil n'a pas de lien direct avec le collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05575"
+    ]
+   },
+   {
+    "date": "1952-01-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Exposition « New Work by Josef Albers — Homage to the Square et Transformation of a Scheme » à la Sidney Janis Gallery, à New York, jusqu'au 26 janvier. Les fiches ne disent pas si Albers est alors sur le campus.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05797"
+    ]
+   },
+   {
+    "date": "1952-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Huss relance Forbes pour de nouveaux fonds. Forbes refuse définitivement, car il ne se sent plus proche du collège, et le refus est confirmé le 12 mars. Le collège perd un bailleur majeur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05798"
+    ]
+   },
+   {
+    "date": "1952-01-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Nuit du lac : Rauschenberg, pieds nus, entre dans le lac glacé. Twombly le suit jusqu'à mi-corps puis rebrousse chemin, avant de le guider hors de l'eau. Olson le sauve et le porte jusqu'à la cuisine. Tentative de suicide ou cri d'attention, non tranché.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05800",
+     "SC-01542",
+     "RE-02465"
+    ]
+   },
+   {
+    "date": "1952-01-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit à Creeley, exaspéré, et désigne Herb, Rauschenberg et d'autres étudiants comme « sexuellement marginaux ». Le même texte accuse le désordre sexuel du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05801",
+     "RE-02463"
+    ]
+   }
+  ],
+  "quotidien": "Les soirées tournent autour de la musique et du jeu : canasta à la ferme, musique de Feldman jouée au réfectoire par Twombly et trois étudiants. Le réfectoire sert aussi de cuisine, avec sa cuisinière électrique et ses tables où l'on passe le temps. Olson circule entre le collège et la maison où il retrouve Constance et Kate. Il y a des voitures, des radiateurs à purger, des lampes de poche qu'on cherche. La vie de la communauté est sans éclat, dans le froid et la neige.",
+  "tensions": [
+   "Olson sauve Rauschenberg tout en le méprisant, et ses lettres dessinent une hostilité envers les étudiants jugés marginaux",
+   "Twombly reste silencieux et digne après l'épisode, tandis que Rauschenberg est fragilisé",
+   "Les quatre hommes de la cuisine ignorent la scène, et l'un d'eux sourit, ce qui révèle une indifférence ou un plaisir passif",
+   "Le départ de Forbes et les demandes de fonds répétées placent le collège dans une précarité matérielle",
+   "Olson est partagé entre sa famille et l'homme qu'il aime, selon la lecture de l'enjeu dramatique de la scène",
+   "Les réorganisations administratives et les collectes ratées de l'année pèsent sur la vie du collège (EV-05733, EV-05735), sans date précise"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La nuit du lac",
+    "date": "1952-01-28",
+    "lieu": "réfectoire et rive du lac Eden",
+    "personnages": [
+     "Charles Olson",
+     "Cy Twombly",
+     "Robert Rauschenberg",
+     "Nick Cernovich",
+     "trois étudiants musiciens",
+     "quatre hommes de la cuisine"
+    ],
+    "deroule": "Au réfectoire, Twombly et les étudiants jouent Feldman. Olson cherche une lampe de poche pour vidanger son radiateur. La lampe est dans la voiture de Rauschenberg, qui, excité par la canasta, sort pieds nus et entre dans l'eau. Olson éclaire la tête de Rauschenberg dans le lac. Twombly avance jusqu'à mi-corps puis rebrousse chemin, vaincu par le froid, avant de guider Rauschenberg vers la rive. Olson l'enveloppe de couvertures et le porte jusqu'à la cuisine, où quatre hommes ignorent la scène. Olson se couche, les chevilles froides.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01542",
+     "EV-05800"
+    ]
+   },
+   {
+    "titre": "La lettre à Creeley",
+    "date": "1952-01-29",
+    "lieu": null,
+    "personnages": [
+     "Charles Olson"
+    ],
+    "deroule": "Olson écrit à Creeley au lendemain de la nuit du lac. Dans sa lettre, il s'exaspère contre les étudiants qu'il juge sexuellement marginaux, nomme Herb et Rauschenberg, et reconnaît avoir sauvé le second tout en le rejetant.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05801",
+     "RE-02463"
+    ]
+   },
+   {
+    "titre": "Le refus de Forbes",
+    "date": "1952-01",
+    "lieu": null,
+    "personnages": [
+     "Huss",
+     "Forbes"
+    ],
+    "deroule": "Huss tente une nouvelle demande de fonds auprès de Forbes. Forbes répond qu'il ne se sent plus proche du collège ni en esprit ni dans la connaissance du lieu, qu'il a déjà donné plus de 20 000 dollars et qu'il a fait sa part. Le refus est définitif.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05798"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Olson, au lendemain de la nuit du lac, en position de directeur de fait",
+    "vers_date": "1951",
+    "vers": "La prise de direction de fait par Olson, qui commence en 1951 et explique son autorité sur les étudiants et les finances.",
+    "refs": [
+     "RE-02273"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rauschenberg et Twombly, après la nuit du lac, dans leur crise personnelle",
+    "vers_date": "1952",
+    "vers": "Départ pour l'Italie avec Twombly à la fin de l'été. Dépression de Rauschenberg après sa séparation d'avec Susan Weil, bourse de voyage de Twombly, collages et Feticci à Rome.",
+    "refs": [
+     "EV-05747",
+     "EV-05849"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Olson, dans sa lettre du 29 janvier, qui désigne Herb parmi les étudiants marginaux",
+    "vers_date": "1952-11",
+    "vers": "Herb Roco repart au Texas, ce qui clôt sa présence au collège.",
+    "refs": [
+     "EV-05908",
+     "EV-05801"
+    ]
+   }
+  ],
+  "motifs": [
+   "L'eau glacée et le froid comme épreuve de la nuit",
+   "La lampe de poche, objet partagé qui circule et qui sauve",
+   "La musique de Feldman comme déclencheur de l'emportement",
+   "L'ambivalence d'Olson, qui sauve et méprise",
+   "La dignité blessée de Twombly",
+   "Le silence complice de la cuisine"
+  ],
+  "lacunes": "Les fiches ne donnent ni le découpage du trimestre ni le calendrier des cours de janvier. On ignore qui vit où et qui est présent hormis ceux de la nuit du lac. La présence d'Albers et de Creeley en janvier n'est pas attestée. La cause du geste de Rauschenberg reste non tranchée, et la réponse de Creeley n'est pas connue. Les réorganisations et collectes ratées (EV-05733, EV-05735) ne sont pas datées avec précision. La fiche de Lanier (EV-05575) ne se rattache pas clairement au collège."
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "passe": "mois",
+ "cle": "1954-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 9239,
+  "sortie": 10425,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1954-09",
+  "session": "Aucune session formelle n'est attestée pour septembre : la session d'été est close et la reprise d'automne n'apparaît qu'indirectement (cours en octobre). Pas de rentrée datée.",
+  "saison_et_climat": "Fin d'été qui bascule vers l'automne ; à la fin du mois, une nuit froide suffit à réveiller Rumaker (EV-06480).",
+  "situation": "Le collège s'est replié sur ses cottages et baraques au-delà du Studies Building. La cuisine, la salle à manger et les Lodges sont fermés, les repas communs ont cessé, et les célibataires cuisinent en petites communes. Olson exerce le rectorat de fait et dirige une institution où les enseignants n'ont pas été payés depuis un an. Betty Baker, secrétaire administrative depuis août, est en poste. Creeley est reparti à Majorque avant l'automne. La Black Mountain Review a paru au printemps ; son numéro d'automne, avec les lettres de Duncan, n'est pas encore sorti. Le mois vit dans l'attente de l'appel de décembre, sans effondrement spectaculaire encore.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Betty Baker",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Connie Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Kaiser",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Stefan Wolpe",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hilda Wolpe",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Hellman (couple)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kate Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "David Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Flola Shepard",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1954-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Rumaker écrit en une nuit presque entière « The Truck » dans sa chambre de Meadows Inn, à partir d'un gang de rue de Camden qu'il ressuscite.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06480",
+     "SC-01741"
+    ]
+   },
+   {
+    "date": "1954-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Naissance de Charles Peter, fils d'Olson et de Betty Kaiser. La fiche le place en septembre, mais la synthèse de Molesworth hésite entre septembre et automne.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06481"
+    ]
+   },
+   {
+    "date": "1954",
+    "precision": "annee",
+    "ce_qui_arrive": "Olson rejoint Betty Kaiser dans sa chambre de Meadows Inn, et Rumaker entend les bruits depuis le dessous. La liaison occupe le fond de l'année.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03034"
+    ]
+   }
+  ],
+  "quotidien": "Les repas se prennent en petites communes de trois à cinq personnes, sur des plaques chauffantes, pour environ deux dollars par semaine, avec des achats à l'A&P où la caissière ferme les yeux. Les cottages et baraques remplacent la salle à manger. Rumaker écrit la nuit, Olson prend ses repas du soir à Meadows Inn, et la vie du collège se réduit à des cours irréguliers, des lectures et des conversations. Flola Shepard enseigne le français à Rumaker. Le bar de Ma Peak et la petite Reading Room restent des lieux de sociabilité, où l'on lit Crane en cachette.",
+  "tensions": [
+   "Olson partage son attention entre sa femme Connie et Betty Kaiser, qui attend un enfant de lui.",
+   "Rumaker est tiraillé entre admiration pour Olson, peur de lui et désir de partir.",
+   "Betty Baker, secrétaire administrative, tient tête à Olson et sera bientôt à couteaux tirés avec lui.",
+   "Le manque d'argent : aucun salaire depuis un an, des communes qui vivent de quelques dollars et une ferme en voie d'extinction.",
+   "Les sujets de la trahison et de la paternité traversent les relations : Olson joue le rôle de père d'écrivain et d'amant trahissant."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Nuit d'écriture de « The Truck »",
+    "date": "1954-09",
+    "lieu": "Meadows Inn, chambre de Rumaker",
+    "personnages": [
+     "Michael Rumaker"
+    ],
+    "deroule": "Une nuit froide de fin septembre, Rumaker se relève en sous-vêtements, écrit debout penché sur le grand bureau en pin, se recouche, se relève encore, jusqu'au brouillon presque complet à l'aube.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01741",
+     "EV-06480"
+    ]
+   },
+   {
+    "titre": "Écoute nocturne des ébats d'Olson et Betty Kaiser",
+    "date": "1954",
+    "lieu": "Meadows Inn, chambre de Rumaker",
+    "personnages": [
+     "Michael Rumaker",
+     "Charles Olson",
+     "Betty Kaiser"
+    ],
+    "deroule": "Rumaker, dans sa chambre, entend Olson monter chez Betty au-dessus de lui. Le bruit des frottements réveille l'enfance, les cloisons en papier de la maison familiale, et la peur de l'incendie.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03034"
+    ]
+   },
+   {
+    "titre": "Olson la valise à la main",
+    "date": "1954",
+    "lieu": null,
+    "personnages": [
+     "Michael Rumaker",
+     "Charles Olson"
+    ],
+    "deroule": "Rumaker surprend Olson avec une valise prête à partir ; Olson renonce. L'inquiétude de Rumaker pour l'effondrement du collège se mêle au souvenir du père parti en hurlant.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03035"
+    ]
+   },
+   {
+    "titre": "Le pouce ensanglanté d'Olson dans l'escalier",
+    "date": "1954",
+    "lieu": null,
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Rumaker voit le pouce d'Olson ensanglanté. Il voudrait courir le consoler, comme il voulait soigner son père brûlé dans son fauteuil, mais n'ose pas.",
+    "certitude": "probable",
+    "refs": [
+     "EC-03086"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, la nuit où il écrit « The Truck », dans la chambre de Meadows Inn",
+    "vers_date": null,
+    "vers": "L'enfance dans une maison du New Jersey, où il écoutait les frottements de ses parents à travers les cloisons, en craignant l'incendie.",
+    "refs": [
+     "EC-03034"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La scène de la valise d'Olson, qui réveille l'inquiétude de Rumaker pour le collège",
+    "vers_date": null,
+    "vers": "Une nuit d'hiver où son père ivre est parti en hurlant qu'il ne reviendrait pas ; Rumaker, effrayé pour la paye du chantier naval, est resté hébété en classe.",
+    "refs": [
+     "EC-03035"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le pouce ensanglanté d'Olson",
+    "vers_date": null,
+    "vers": "Le père de Rumaker brûlé par un pack d'allumettes dans son fauteuil, des années plus tôt.",
+    "refs": [
+     "EC-03086"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le dernier rassemblement convivial de l'automne, à venir en novembre",
+    "vers_date": "1954-11",
+    "vers": "Le Thanksgiving à Meadows Inn, que Rumaker identifie comme le dernier grand dîner de l'ancien esprit de Black Mountain.",
+    "refs": [
+     "EC-03041"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La liaison d'Olson et Betty Kaiser, vécue dans l'ignorance de la communauté",
+    "vers_date": null,
+    "vers": "La révélation, « des années plus tard », de la liaison épistolaire d'Olson avec Boldereff et du non-mariage légal de Charles et Connie.",
+    "refs": [
+     "EC-03038"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La parution de la Black Mountain Review et la lettre de Creeley qui l'annonce",
+    "vers_date": "1968",
+    "vers": "En 1968, Rumaker dira à Duberman que la revue était leur Bible.",
+    "refs": [
+     "EC-03098"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'arrivée de Lorraine, nouvelle étudiante new-yorkaise",
+    "vers_date": "1957",
+    "vers": "Son mariage avec Harvey Harmon à San Francisco, après la fermeture du collège.",
+    "refs": [
+     "EC-03090"
+    ]
+   }
+  ],
+  "motifs": [
+   "La paternité spirituelle : Olson comme père d'écrivain, père de famille trahi.",
+   "La répétition des trahisons : celle du père biologique et celle d'Olson.",
+   "Le feu et la fragilité des archives, qui hantent la communauté.",
+   "L'étrangeté au foyer familial, relue à partir du vers de Maximus."
+  ],
+  "lacunes": "La date de la naissance (septembre ou automne selon Molesworth) reste à confirmer. Le départ de Betty Kaiser pour New York n'est pas daté. Les scènes de la valise et de l'écoute nocturne ne sont pas datées précisément. La rentrée d'automne et la session effective sont inconnues. La présence exacte des Hellman et des Huss en septembre n'est pas attestée. Le retour de Creeley n'est annoncé que pour l'été suivant. Le plan pour l'après-1956 est daté de 1954 sans précision de mois."
+ }
+}

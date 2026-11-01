@@ -1,0 +1,155 @@
+{
+ "passe": "enseignements",
+ "cle": "Ben Shahn",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2166,
+  "sortie": 4451,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Ben Shahn",
+  "cours": [
+   {
+    "intitule": "Peinture et conférences sur l'art (séjour d'été)",
+    "periodes": [
+     "été 1951 (quatre semaines)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Enseigner la peinture et faire dialoguer figuration et abstraction (CO-00684). Les fiches ne détaillent ni programme ni niveau des étudiants. Le contexte est un été 1951 où les abstraits dominent, Motherwell étant cité (SC-01461), et où Shahn fait figure de réaliste social. Cette tension est un cadrage dramatique de la fiche, pas un propos de Shahn.",
+    "deroule_type_seance": null,
+    "exercices": [
+     {
+      "consigne": "Collaborer avec les danseurs et participer au « Glyph Exchange », une manifestation multimédia. Les fiches ne disent ni comment ni sous quelle forme.",
+      "materiaux": null,
+      "but": "Non précisé. Le séjour vise le dialogue entre figuration et abstraction, mais le lien avec cette activité n'est pas attesté.",
+      "refs": [
+       "CO-00684"
+      ]
+     },
+     {
+      "consigne": "Concevoir un décor et un motif pour la danse de Nicholas Cernovich.",
+      "materiaux": null,
+      "but": "Non précisé. Il s'agit d'un travail de création commun avec la danse, plus que d'un exercice d'atelier au sens strict.",
+      "refs": [
+       "CO-00684"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Le réalisme est « une recherche sincère de la vérité dans le cadre de ses propres valeurs ».",
+     "L'être humain est la valeur ultime, et les arts en sont la première manifestation."
+    ],
+    "critique_et_evaluation": "Rien dans les fiches sur la manière de critiquer ou d'évaluer le travail des étudiants. Aucun exercice de peinture proprement dit n'est attesté. On ne connaît que les collaborations avec la danse et la conférence.",
+    "reactions_etudiants": "Seule la conférence « Aspects of Realism » est dite captivante (CO-00684, SC-01461). Aucune réaction sur l'atelier de peinture.",
+    "evolution": "Le séjour attesté est celui de 1951. Une conférence de 1952 est mentionnée (voir le cours suivant). Aucune fiche ne documente un enseignement continu, et Shahn est seulement cité parmi les artistes de passage dans SC-00996, sans détail. Rien ne dit s'il est revenu enseigner la peinture en 1952.",
+    "refs": [
+     "CO-00684",
+     "SC-00996",
+     "SC-01461"
+    ]
+   },
+   {
+    "intitule": "« Aspects of Realism » (conférence au réfectoire)",
+    "periodes": [
+     "été 1951",
+     "29 juillet 1951"
+    ],
+    "atteste": "oui",
+    "objectifs": "Faire percevoir que le réalisme est contingent et que le réel a plusieurs aspects. L'idée n'est pas de tout relativiser (ID-02272). Shahn défend aussi l'usage de l'abstraction au service de la figure, pour retenir ce qui est individuel et humain (ID-02273, lien établi par la fiche avec son séjour).",
+    "deroule_type_seance": "Conférence unique, dont une transcription est conservée (CO-00687). Elle se tient au réfectoire devant la communauté réunie pour manger, et la salle de repas devient une sorte d'amphithéâtre (SC-01461). Shahn improvise une série de regards fictifs sur un même tableau : un psychologue y verrait le subconscient, un physicien la structure atomique, un critique des tendances (ID-02272, SC-01461). Il en tire sa définition du réalisme. Les fiches ne donnent ni la durée ni la suite de l'exposé. Le tableau pris pour exemple est peut-être Song (1950), mais c'est une déduction : la fiche cite Song comme exemple de l'idée, sans dire que ce tableau a servi de support de la conférence.",
+    "exercices": [
+     {
+      "consigne": "Imaginer devant un même tableau les réponses successives d'un psychologue, d'un physicien et d'un critique. C'est un procédé de conférence, pas un exercice donné aux étudiants.",
+      "materiaux": "Un tableau. Le support exact n'est pas précisé. Song (1950) est cité comme exemple de l'idée.",
+      "but": "Montrer la pluralité des aspects du réel sans relativisme. L'artiste construit sa perspective en observant le quotidien.",
+      "refs": [
+       "ID-02272",
+       "SC-01461"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Transcription conservée de la conférence (CO-00687)."
+    ],
+    "propos_types": [
+     "Le réalisme est une recherche sincère de la vérité dans le cadre de ses propres valeurs (formule citée en anglais : « an earnest search for truth within the framework of one's own values »).",
+     "Un même tableau appelle des lectures différentes selon la discipline qui le regarde : subconscient pour le psychologue, structure atomique pour le physicien, tendances pour le critique.",
+     "L'artiste construit sa perspective à partir de l'observation du quotidien."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "La conférence est décrite comme captivante (CO-00684, SC-01461).",
+    "evolution": "Les fiches CO-00686 et CO-00687 sont des doublons de la même conférence. Elles renvoient à des pages différentes de Molesworth 2015 (p.386 pour l'une, p.324 et 326 pour les autres). Je les traite comme un seul événement, mais le décalage de pagination reste à vérifier dans la source.",
+    "refs": [
+     "CO-00686",
+     "CO-00687",
+     "CO-00684",
+     "ID-02272",
+     "ID-02273",
+     "SC-01461"
+    ]
+   },
+   {
+    "intitule": "« The Education of an Artist » (conférence)",
+    "periodes": [
+     "été 1952"
+    ],
+    "atteste": "oui",
+    "objectifs": "Défendre l'idée que la fonction publique de l'art est de créer la communauté. En plaçant l'art au centre du cursus, on forme une communauté d'artistes qui sont à la fois praticiens et public (ID-01176).",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "La fonction publique de l'art a toujours été de créer la communauté. Ce n'est pas nécessairement son intention, mais c'est son résultat.",
+     "Une phase de l'art a créé la communauté religieuse, une autre la communauté paysanne.",
+     "Placer l'art au centre du cursus crée une communauté d'artistes, à la fois praticiens et public."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": null,
+    "evolution": "Seule ID-01176 mentionne cette conférence, sans détail sur le déroulé, la durée ou la réception. Elle est datée d'une fourchette large (≈1933-12→1952). L'été 1952 est donné par le champ « lien_bmc ». La présence de Shahn au collège en 1952 n'est documentée que par cette conférence.",
+    "refs": [
+     "ID-01176"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Le réalisme est contingent et a de multiples aspects. Un même tableau se lit différemment selon le psychologue, le physicien ou le critique, et cela ne relativise pas tout : cela révèle la pluralité du réel.",
+    "en_classe": "Transposition suggérée par la fiche : faire débattre un même tableau selon plusieurs disciplines. Seule la conférence, avec ses regards fictifs improvisés, est attestée au collège. Un débat en séance n'est pas attesté. Exemple possible : Song (1950), deux chanteurs, la concentration du chant proche de l'agonie.",
+    "atteste": "oui",
+    "refs": [
+     "ID-02272",
+     "SC-01461"
+    ]
+   },
+   {
+    "idee": "La figure et l'abstraction peuvent se servir l'une l'autre. Aplats, distorsion et couleur servent à saisir les contorsions fugaces du corps en performance et à retenir ce qui est individuel, particulier, humain.",
+    "en_classe": "Transposition suggérée par la fiche : peindre une performance en aplat, par superposition de plans. Cet exercice n'est pas attesté au collège. Seul est attesté le séjour de 1951 et l'usage de ces outils dans l'œuvre de Shahn. Références visuelles dans Song : le visage du guitariste encadré par le pupitre triangulaire noir, les bras rouges croisés sur la robe verte de la chanteuse.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-02273",
+     "CO-00684"
+    ]
+   },
+   {
+    "idee": "La fonction publique de l'art est de créer la communauté. Mettre l'art au centre du cursus forme des artistes qui sont à la fois praticiens et public.",
+    "en_classe": "Question de séance suggérée par la fiche : « Pour qui peint-on ? ». Elle n'est pas attestée comme exercice. Seule la conférence de 1952 l'est.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01176"
+    ]
+   },
+   {
+    "idee": "Le réalisme est une recherche sincère de la vérité à l'intérieur de ses propres valeurs, et l'être humain est la valeur ultime, les arts en étant la première manifestation.",
+    "en_classe": "Ouvrir une séance de peinture ou de discussion en demandant à chacun quelles valeurs encadrent sa propre recherche de vérité. C'est une transposition déduite, pas une pratique attestée.",
+    "atteste": "incertain",
+    "refs": [
+     "CO-00684",
+     "SC-01461"
+    ]
+   }
+  ]
+ }
+}

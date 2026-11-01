@@ -1,0 +1,195 @@
+{
+ "passe": "mois",
+ "cle": "1956-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3168,
+  "sortie": 11325,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1956-02",
+  "session": "Aucune session précisée ; hiver implicite, non documenté par les fiches",
+  "saison_et_climat": "Hiver 1956 ; les fiches ne décrivent ni le temps ni les conditions matérielles de février.",
+  "situation": "Le collège fonctionne encore sur un mode lâche, sans structure formelle ni rituels : enseignants et étudiants se servent les uns des autres (chapitre). Wolpe part définitivement au début de l'année. Pendant l'hiver, le ressentiment de Fiore contre Rice s'exprime, et Rice reste sur place sans être étudiant. Les inscriptions tournent autour d'une douzaine à quinze personnes, avec des allers-retours. Creeley est encore là mais partira au printemps ; Williams va et vient depuis New York. Le collège n'est pas fermé : la fermeture ne sera annoncée qu'en octobre (chapitre).",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dan Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Creeley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Eloise Mixon",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Schweikher, président de Yale assiégé, démissionne et quittera Yale à la fin du semestre ; la succession d'Albers devient caduque.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06840"
+    ]
+   },
+   {
+    "date": "1956-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Dawson dessine Olson de mémoire chez Kline pour l'annonce du deuxième volume des Maximus Letters (11-22) ; le dessin servira aussi à la couverture du Black Mountain Book.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06841",
+     "SC-01845"
+    ]
+   },
+   {
+    "date": "1956",
+    "precision": "periode",
+    "ce_qui_arrive": "Début 1956 : Stefan Wolpe part définitivement, convaincu que la communauté n'a aucune chance à long terme et qu'elle ne forme pas de professionnels.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Pendant l'hiver, Fiore exprime à Rice un ressentiment hérité d'Olson ; Rice préfère partir et Fiore parle bientôt de partir aussi.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Au printemps, Creeley part pour San Francisco, avec un retour attendu ; le dernier numéro de la revue s'oriente vers la scène Beat.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1956-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Sort le Bulletin de quinze pages, avec ses divisions savantes ; il sert surtout de vitrine à la V.A.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1956",
+    "precision": "saison",
+    "ce_qui_arrive": "Le collège loue son campus bas à un camp de garçons chrétien, qui ouvre l'été.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1956",
+    "precision": "periode",
+    "ce_qui_arrive": "Un homme décide ensuite d'acheter le campus ; cette base financière est jugée marginale, presque tout l'argent allant aux dettes.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Vie ordinaire : tutorat plutôt que cours structurés, personnes qui se remplacent, Olson qui écrit (il sera productif, avec un poème en avril). Williams prépare à New York Maximus 11/22 par souscription ; Dawson travaille à New York avec Kline. Eloise Mixon répond aux demandes d'admission, et le statut GI est perdu ; les fiches ne datent pas ce point. Les fiches ne décrivent ni les repas, ni la musique, ni les cours de février.",
+  "tensions": [
+   "Fiore contre Rice : ressentiment alimenté par Olson, qui tenait Rice pour le meilleur peintre ; Rice profite d'un cadre sans structure.",
+   "Wolpe : départ motivé par la conviction que la communauté n'a pas d'avenir et ne forme pas de professionnels.",
+   "Image contre réalité : le Bulletin met en avant des divisions savantes, alors que la réalité est le tutorat et des ressources épuisées.",
+   "Finances : les dettes absorbent presque tout l'argent ; la location d'été sert de bouée avant la vente du campus.",
+   "Statut GI perdu ; la fausse brochure d'Eloise Mixon relève d'un geste désespéré.",
+   "Dispersion : Creeley part, Williams va et vient, les anciens se détachent."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Dessin de mémoire chez Kline",
+    "date": "1956-02",
+    "lieu": "studio de Franz Kline, New York",
+    "personnages": [
+     "Fielding Dawson",
+     "Franz Kline"
+    ],
+    "deroule": "Dawson montre la lettre de Williams et affirme pouvoir dessiner Olson de mémoire ; Kline lui fournit papier, encre et pinceau. Après quelques essais, le dessin est montré, et Kline approuve : « Pretty good! ».",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01845",
+     "EV-06841"
+    ]
+   },
+   {
+    "titre": "Fiore et Rice : le ressentiment de l'hiver",
+    "date": "1956",
+    "lieu": "campus de Black Mountain (déduit)",
+    "personnages": [
+     "Joe Fiore",
+     "Dan Rice"
+    ],
+    "deroule": "Fiore fait savoir à Rice le ressentiment qu'Olson a nourri à son égard. Rice préfère partir, Fiore envisage de faire de même ; le cadre sans structure permet à Rice de rester.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Schweikher quitte Yale",
+    "date": "1956-02",
+    "lieu": "Yale",
+    "personnages": [
+     "Schweikher"
+    ],
+    "deroule": "Le président assiégé démissionne et annonce son départ pour la fin du semestre. Scène hors collège, qui rend caduque la question de la succession d'Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06840"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashforward",
+    "depuis": "le dessin de Dawson chez Kline, en février",
+    "vers_date": "1956",
+    "vers": "Le dessin devient la couverture du Black Mountain Book et sert à l'annonce de Maximus 11/22 ; l'objet survit à la fermeture du collège.",
+    "refs": [
+     "EV-06841",
+     "SC-01845"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le départ de Creeley, attendu au printemps",
+    "vers_date": "1956",
+    "vers": "Le dernier numéro de la revue s'oriente vers la scène Beat, à San Francisco.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les tensions de l'hiver entre Fiore, Rice et Olson",
+    "vers_date": "1956-10",
+    "vers": "La dispersion d'octobre : Fiore part pour New York, la fermeture est annoncée à la bougie chez Olson.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "les allers-retours de Wolpe et l'effacement de l'organisation formelle au début de l'année",
+    "vers_date": null,
+    "vers": "Les années de programme de travail et de structure, que le collège abandonne désormais.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "dispersion plutôt que mort brutale",
+   "réputation contre réalité",
+   "mémoire et dessin",
+   "héritage des anciens dans le New York d'après",
+   "chaque départ rétrécit le groupe",
+   "dette et argent"
+  ],
+  "lacunes": "Aucune fiche ne donne le jour, ni même le mois précis, des départs de Wolpe et de Rice. La session, les cours, le temps et la vie matérielle de février manquent. L'effectif exact est inconnu. La présence de Duncan, Van de Wiele, Huss et Williams en février n'est pas documentée. Les fiches ne datent ni la vente du campus ni la brochure de Mixon. Le chapitre de synthèse n'a pas d'identifiant : les faits qu'il porte ne sont donc reliés à aucune fiche source. Aucune contradiction explicite entre sources n'apparaît pour ce mois."
+ }
+}

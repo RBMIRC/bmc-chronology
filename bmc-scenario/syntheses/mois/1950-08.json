@@ -1,0 +1,387 @@
+{
+ "passe": "mois",
+ "cle": "1950-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5368,
+  "sortie": 15300,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1950-08",
+  "session": "été 1950 : session d'été probable, que les fiches ne nomment pas",
+  "saison_et_climat": "Plein été dans la région de Black Mountain : longues après-midi de baignade, soleil qui brunit les corps, serpents et tritons dans le Snake River, électricité rationnée, essence rare, sorties peinture au mont Mitchell et dîners d'été.",
+  "situation": "Le collège traverse la fin de l'été après les secousses du printemps et de juin. Le rectorat reste vacant : Ballou a refusé mi-juillet, Huss hésite entre business manager et recteur. Le Board, réduit et dominé par les conservateurs, a voté contre Levi et Fiore en juin, mais M.C. Richards a été réintégrée. L'arrivée de Goodman a provoqué l'« explosion » de l'été, et la réunion qui l'a suivie a dégénéré en violence. La vie communautaire reste intense (baignades, peinture, poterie, fêtes), mais tout est en sursis avant l'automne qui recomposera la communauté.",
+  "presents_probables": [
+   {
+    "nom": "Goodman",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Johanna Jalowetz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Max Dehn",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stamos",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Frankenthaler",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Greenberg",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Robert Turner",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Amino",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Tom (probablement Rumaker)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Michael (identité non précisée)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1950-07",
+    "precision": "periode",
+    "ce_qui_arrive": "Baignades quotidiennes au tourbillon du Snake River : Tom et Michael nagent et prennent le soleil sur les rochers, parfois harcelés de pierres par des fils de fermiers ; les tritons, appelés newts, ressemblent à des serpents.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05245"
+    ]
+   },
+   {
+    "date": "1950-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Dawson et Tim LaFarge occupent deux jours la petite maison d'Olson à Washington pendant son absence ; au retour, Olson les réveille en leur annonçant leur départ. Dawson reste ensuite à D.C. chez Ken et Neil Noland.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05255",
+     "SC-01349",
+     "SC-01350"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "L'été commence par l'arrivée de Goodman, qui affirme la liberté sexuelle et provoque une explosion. Un ancien marine l'accuse d'avoir uriné en public pendant un match de softball ; les réunions étudiantes tranchent pour lui, mais trop lentement.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Réunion de la faculté sur le maintien de Goodman : le vote est massivement contre. Levi, qui l'a défendu, est frappé par Trayer en pleine séance ; Oppenheimer saute sur le dos de Trayer, Johanna Jalowetz l'encourage, et Goodman repart.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Stamos emmène ses élèves peindre au mont Mitchell et change de langage pictural. Frankenthaler rend visite à Greenberg, dessine beaucoup sur papier, nage sous la cascade.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Robert Turner installe le studio de poterie de l'autre côté du lac (tours, four à huile, four électrique) ; M.C. Richards y apprend le tournage.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Goodman écrit « The Quiet House », maison-fête d'après Mondrian de Don Alter ; une fête du même genre est évoquée.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Dîner jazz au sommet avec George Shearing.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Rumaker se joint aux moqueries contre un dramaturge pacifiste ridiculisé lors des dimanches et lectures. La présence d'Olson à ces moments est datée de l'été, mais la datation est douteuse.",
+    "certitude": "probable",
+    "refs": [
+     "EC-02634",
+     "chapitre 1950 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Baignades à Snake River, séances de peinture sur le mont Mitchell, dessins sur papier, dîners, fêtes au style Mondrian, lectures et moqueries entre étudiants, travail de poterie qui commence de l'autre côté du lac. Les tâches matérielles (rationnement de l'électricité, essence rare) pèsent sur les déplacements.",
+  "tensions": [
+   "Goodman contre la faculté : sa rhétorique de la liberté sexuelle inquiète les Quakers pour leurs enfants et Max Dehn pour les adolescents, tandis que Levi le défend comme un prix raisonnable pour son génie.",
+   "Violence de la réunion : Levi frappé par Trayer, l'enseignement jugé dangereux, la faculté invoque la dissidence et Goodman repart.",
+   "La gauche (Levi, Natasha, Richards) contre la droite conservatrice (Trayer, Corkran, Goldowski, groupe Forbes), dans le sillage du vote de juin qui exclut Levi pour l'année suivante.",
+   "Vacance du rectorat : Ballou a refusé mi-juillet en invoquant la « confusion » entre communauté et éducation ; Huss hésite ; le poste reste sans pouvoirs fixés.",
+   "Levi et Richards : mariage défait, Richards choisit de rester ; Levi demande que Natasha soit invitée à son dîner d'adieu.",
+   "Joe Fiore vit avec l'étudiante Mary Fitton pendant que sa femme est internée près d'Asheville ; le Board a voté contre son réengagement en juin.",
+   "« L'été homosexuel » devient pour les conservateurs la preuve de la désintégration morale ; l'autorité charnelle d'Olson sur ses anciens étudiants pèse sur Dawson et LaFarge.",
+   "Le contentieux Albers reste ouvert : fonds de pension retenu à 20 %, plancher de pin, lettre de réclamation à venir en novembre."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Départ à l'aube chez Olson",
+    "date": "1950-08",
+    "lieu": "maison d'Olson, Washington D.C.",
+    "personnages": [
+     "Charles Olson",
+     "Fielding Dawson",
+     "Tim LaFarge"
+    ],
+    "deroule": "Dawson et LaFarge dorment au sol du hall. Olson rentre à l'improviste, sort de la salle de bain nu et imposant, et leur ordonne de partir. Les deux jeunes gens plient draps et couvertures dans la gêne et le rire.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01349"
+    ]
+   },
+   {
+    "titre": "Douches au sous-sol de l'ancien maître",
+    "date": "1950-08",
+    "lieu": "maison d'Olson, Washington D.C.",
+    "personnages": [
+     "Fielding Dawson",
+     "Tim LaFarge"
+    ],
+    "deroule": "Les deux jeunes gens descendent l'escalier étroit du sous-sol, pliés de rire à l'idée du géant Olson sur ces marches. Chacun prend une douche sans rideau sur le ciment, en s'courbant comme lui.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01350"
+    ]
+   },
+   {
+    "titre": "La réunion qui tourne à la bagarre",
+    "date": "1950",
+    "lieu": null,
+    "personnages": [
+     "Goodman",
+     "Levi",
+     "Trayer",
+     "Oppenheimer",
+     "Johanna Jalowetz",
+     "Max Dehn"
+    ],
+    "deroule": "Après le vote massif contre Goodman, Levi, qui a défendu le poète et évoqué l'abandon de la ferme, est frappé par Trayer. Oppenheimer saute sur le dos de Trayer tandis que Jalowetz l'encourage. Levi s'étonne de voir l'enseignement si dangereux, et Goodman repart.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Peinture au mont Mitchell avec Stamos",
+    "date": "1950",
+    "lieu": "mont Mitchell",
+    "personnages": [
+     "Stamos",
+     "ses élèves"
+    ],
+    "deroule": "Stamos emmène ses élèves peindre en plein air. Son langage pictural change au contact du paysage.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Baignade sous la cascade",
+    "date": "1950",
+    "lieu": "cascade près du collège (lieu non nommé)",
+    "personnages": [
+     "Frankenthaler",
+     "Greenberg"
+    ],
+    "deroule": "Frankenthaler, venue voir Greenberg, nage sous la cascade, dessine beaucoup sur papier, puis repart devant les serpents, l'électricité rationnée et la rareté de l'essence.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Premiers tours au studio de l'autre côté du lac",
+    "date": "1950",
+    "lieu": "studio de poterie de l'autre côté du lac",
+    "personnages": [
+     "M.C. Richards",
+     "Robert Turner"
+    ],
+    "deroule": "Turner installe les tours, le four à huile et le four électrique. Richards apprend le tournage dans cet atelier neuf.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Baignade et tritons au Snake River",
+    "date": "1950-07",
+    "lieu": "Snake River, près de Black Mountain College",
+    "personnages": [
+     "Tom (probablement Rumaker)",
+     "Michael"
+    ],
+    "deroule": "Les deux garçons nagent dans le tourbillon et prennent le soleil sur les rochers. Ils sont parfois lapidés par des fils de fermiers depuis les buissons. Tom rassure Michael sur les tritons qu'il appelle newts.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05245"
+    ]
+   },
+   {
+    "titre": "Dîner jazz au sommet",
+    "date": "1950",
+    "lieu": "sommet (lieu non nommé)",
+    "personnages": [
+     "George Shearing",
+     "convives non précisés"
+    ],
+    "deroule": "Un dîner jazz réunit la communauté avec George Shearing au sommet.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Août 1950 : la faculté digère le vote de juin contre Levi et Fiore et la réintégration de M.C. Richards",
+    "vers_date": "1950-06",
+    "vers": "Le vote à bulletin secret du Board, la pression des sondages étudiants et le recul final de la direction",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Août 1950 : Ballou vient de refuser le rectorat à la mi-juillet",
+    "vers_date": "1950-06",
+    "vers": "L'offre de fin juin : rectorat à Ballou et business manager avec art dramatique à Huss",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Dawson, à D.C. chez les Noland, repense à sa première année",
+    "vers_date": "1950",
+    "vers": "La lecture de « Father » à la Community House sous les applaudissements, et le mot « writer » que lui adresse Mary Richards",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker au bord de la rivière, face à la moquerie du dramaturge",
+    "vers_date": null,
+    "vers": "Les humiliations qu'il a subies auprès d'Olson, dont il comprend désormais la logique",
+    "refs": [
+     "EC-02634"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin d'été 1950 : Olson doit commencer à enseigner",
+    "vers_date": "1950",
+    "vers": "À l'automne, lecture des manuscrits à voix haute et atelier d'écriture, avant son départ pour le Yucatan vers la fin de l'année",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, à l'été 1950, honteux des épisodes de Chattanooga et La Nouvelle-Orléans",
+    "vers_date": null,
+    "vers": "Le narrateur rétrospectif en rit, et transforme la honte en matière littéraire",
+    "refs": [
+     "EC-02635"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker contemple l'échec sexuel du Cajun et son paradis sensoriel",
+    "vers_date": null,
+    "vers": "Quelques années plus tard à San Francisco, la même peur homosexuelle dans un autre refuge de tolérance",
+    "refs": [
+     "EC-02632"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin d'année 1950 : Rumaker entame sa liaison avec Merrill et refuse de rentrer à Noël",
+    "vers_date": "1950",
+    "vers": "À l'hiver 1950-1951, liaison avec Merrill à « Next-to-the-Last-Chance » ; à Noël il découvre que BMC est « sa maison »",
+    "refs": [
+     "chapitre 1950 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'été du scandale Goodman, quand la communauté se défait",
+    "vers_date": null,
+    "vers": "Goodman affirme plus tard que l'ton de BMC a laissé son influence dans la culture américaine, après la fermeture",
+    "refs": [
+     "EC-02575"
+    ]
+   }
+  ],
+  "motifs": [
+   "L'eau et le tourbillon : le Snake River comme miroir sauvage du lac et de la communauté",
+   "L'autorité charnelle et enfantine d'Olson sur ses anciens étudiants",
+   "La honte transformée en matière littéraire (Rumaker)",
+   "La maison : BMC comme refuge ou comme territoire conquis",
+   "La poterie et le tour : les artisanats qui s'installent en périphérie",
+   "Le sexe comme enjeu politique : « l'été homosexuel » de la faction conservatrice"
+  ],
+  "lacunes": "Les sources ne datent ni l'arrivée de Goodman, ni la réunion violente, ni la fête The Quiet House, seulement « l'été ». Les épisodes Rumaker mettant Olson au collège en août sont datés de façon douteuse : Olson est à D.C. et n'enseigne qu'à l'automne. On ignore le statut de Fiore, Corkran et Huss en août ; Huss est présenté tantôt comme business manager, tantôt comme recteur. La nature exacte de la session n'est pas nommée, l'identité de Michael reste floue, et le lieu du dîner Shearing et de la cascade n'est pas donné. Le sondage étudiant est daté du 23 mars ou de juin selon les sources, donc hors de ce mois."
+ }
+}

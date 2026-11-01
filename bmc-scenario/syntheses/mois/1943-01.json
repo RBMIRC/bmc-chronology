@@ -1,0 +1,208 @@
+{
+ "passe": "mois",
+ "cle": "1943-01",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3040,
+  "sortie": 11112,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1943-01 (janvier 1943)",
+  "session": "Trimestre d'hiver, déduit : les fiches ne nomment pas la session de janvier.",
+  "saison_et_climat": "Hiver. Les fiches ne décrivent pas le climat de janvier ; seule la chaleur écrasante de l'été, pendant le travail sur la route, est attestée.",
+  "situation": "Le collège de Lake Eden achève son chantier communautaire, lancé à l'automne 1940 pour près de trois ans. La faculté est clairsemée par la guerre et ceux qui restent sont surtout des femmes et des étrangers déplacés ; Albers, Dreier et Wunsch dominent encore face aux nouveaux enseignants. Les affaires qui vont marquer 1943 (autobiographie de Rice, finances, mœurs) couvent sans que les fiches les datent à janvier. La crise de recrutement la plus nette est postérieure, à la rentrée d'octobre.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Eric Bentley",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Sam Brown",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1943",
+    "precision": "annee",
+    "ce_qui_arrive": "Le chantier communautaire lancé à l'automne 1940 touche à sa fin. L'équipe d'Albers passe des mois à lambrisser et peindre la salle à manger et les halls du lodge.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "periode",
+    "ce_qui_arrive": "Negro History Week, au « début de 1943 » : conférences, film sur Hampton Institute, invité W. A. Robinson, professeurs noirs du lycée d'Asheville invités par Wunsch. La fiche ne donne pas de jour ; janvier n'est pas attesté.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)",
+     "Fil : Le débat sur la race et l'intégration (1943→1944)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Réveillon de South Lodge : Wunsch s'inquiète de couples enlacés par trop de vin. Les fiches le placent au Nouvel An sans préciser s'il s'agit de la fin de 1942 ou d'une autre année.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Le chantier des allées (gravier, galax, laurier) et les travaux de lambrissage et de peinture occupent les bras. Les concerts du samedi, qui attirent des blessés du Moore General Hospital, et les répétitions du Quatuor Kolisch au réfectoire font partie de la vie culturelle ; les fiches ne datent pas ces épisodes à janvier. Les bals du samedi, la vie amoureuse des étudiants et les visites en chambre sont l'objet de surveillance.",
+  "tensions": [
+   "Mœurs : les étudiants refusent l'« accord » qui interdit les visites dans les chambres de l'autre sexe et réclament voix égale et libre discussion des standards moraux en réunion générale.",
+   "Malaise de Wunsch devant les couples du bal et du réveillon, qu'il confie à Evarts, déjà parti à l'armée.",
+   "Faculté : les nouveaux enseignants énergiques se heurtent aux anciens qui dominent encore.",
+   "Codification : notation redevenue externe pour les transferts, absences à surveiller, passage accéléré en division supérieure, selon la lecture de Duberman.",
+   "Rhétorique démocratique de Wunsch soupçonnée par certains étudiants et enseignants.",
+   "Le scandale de l'autobiographie de John Andrew Rice commence à embarrasser le collège fin février ; il se joue surtout à New York et en Floride.",
+   "Recrutement faible et départs vers la guerre, qui vident la faculté et les étudiants."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le réveillon de South Lodge",
+    "date": null,
+    "lieu": "South Lodge",
+    "personnages": [
+     "Wunsch",
+     "couples d'étudiants",
+     "Evarts (destinataire de la confidence, plus tard)"
+    ],
+    "deroule": "Wunsch observe des couples enlacés après trop de vin et le juge contraire à l'esprit du collège. Il s'en ouvre plus tard à Evarts. La date exacte reste ambiguë.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Le lambrissage de la salle à manger",
+    "date": "1943",
+    "lieu": "salle à manger et halls du lodge",
+    "personnages": [
+     "Josef Albers",
+     "équipe de travail"
+    ],
+    "deroule": "Albers dirige une équipe qui lambrisse et peint les espaces communs du lodge pendant que le chantier collectif touche à sa fin.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Negro History Week",
+    "date": "1943",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Wunsch",
+     "W. A. Robinson",
+     "professeurs du lycée d'Asheville",
+     "étudiants"
+    ],
+    "deroule": "Conférences, film sur Hampton Institute et accueil chaleureux des professeurs noirs d'Asheville, à l'initiative de Wunsch. Une conférence interracial prévue au collège sera déplacée à Talladega en avril, pour des raisons que Duberman n'élucide pas.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)",
+     "Fil : Le débat sur la race et l'intégration (1943→1944)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Janvier 1943, chantier presque achevé",
+    "vers_date": "1940",
+    "vers": "Le lancement du chantier communautaire à l'automne 1940, programmé pour près de trois ans.",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Janvier 1943, les allées et le site en construction",
+    "vers_date": "1942",
+    "vers": "Les débuts de l'autosuffisance agricole et de la construction du site, qui commencent en 1942 selon le fil.",
+    "refs": [
+     "Fil : Autosuffisance agricole et construction du site (1942→1945)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1943, la faculté et les ouvrages en préparation",
+    "vers_date": "1943-02",
+    "vers": "Fin février, l'autobiographie de John Andrew Rice embarrasse le collège. Albers, Dreier et Nell Rice refusent de lire le chapitre sur BMC ; Harper la retire en mai après la menace de poursuite de Holt.",
+    "refs": [
+     "chapitre de l'année 1943 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1943, les finances à peine fragiles",
+    "vers_date": "1943",
+    "vers": "Au fil de l'été 1943, l'euphorie du mica pousse la faculté à rouvrir le collège ; une mine de mica ouverte sur la propriété absorbe énergie et espoirs, et Straus accuse Bentley d'endoctrinement pro-soviétique.",
+    "refs": [
+     "Fil : La mine de mica et l'effort de guerre (1943→1945)",
+     "Fil : De la rivalité Bentley/Straus à la scission de 1944 (1943→1944)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Janvier 1943, le recrutement et le départ des hommes",
+    "vers_date": "1943-12-09",
+    "vers": "Willem de Kooning épouse Elaine Fried le 9 décembre 1943 ; il enseignera à BMC à l'été 1948.",
+    "refs": [
+     "Fil : Hors campus : le mariage des de Kooning (1943→1943-12-09)",
+     "Fil : Hors campus : futurs liens avec BMC (1943→1948)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Un collège qui se vide de ses hommes tout en continuant de bâtir et de faire de la musique",
+   "Communauté contre règles : la « codification » et les mœurs",
+   "Le rhétorique démocratique face aux pratiques d'autorité",
+   "Le travail manuel comme ciment collectif",
+   "Les fils qui ne touchent BMC qu'en flash-forward (de Kooning, Cage, Rauschenberg, Olson)"
+  ],
+  "lacunes": "Les fiches fournies n'ont pas d'identifiants (EV-, SC-, PE-) : les refs renvoient au titre du chapitre et aux fils. Aucune fiche ne donne de jour de janvier 1943. Le climat, la session exacte et la présence de chaque enseignant ce mois-là restent inconnus. Les sources divergent sur Wunsch : Burns dit qu'il quitte BMC en 1943, alors que les fiches le montrent à la rentrée et au Nouvel An. Le sort de la mine de mica est contesté. La date de Talladega et les motifs du déplacement sont inconnus. L'arrivée de Bentley, le départ de Kocher et celui des enseignants partis à la guerre (Lindsley, Evarts, Boyden, Mangold, Babcock, French) ne sont pas datés. Les épisodes idéologiques datés ≈1942-1944 peuvent appartenir à 1943 ou 1944, selon une déduction."
+ }
+}

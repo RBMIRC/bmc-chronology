@@ -1,0 +1,180 @@
+# Concordance des cours 1936-37 → gabarits de l'année reconstituée.
+#
+# Sources (titres, heures et enseignants relus sur les scans et recoupés par un OCR refait sur les images) :
+#   1936-37 : catalogue « 1936-1937 and 1937-1938 » 2017.40.012 (fiche 6580), cours pp. 13-34 (images 012-08 à 012-19),
+#             corps enseignant p. 43 (image 012-23) : Fritz Moellenhoff « absent on leave, 1936-37 »
+#             « Most of the courses listed are being given this year. Some are offered in alternate years; others are
+#             offered only on demand » (p. 13) ; « In all the languages an Introductory Course and an Advanced Course are
+#             offered in alternate years » (p. 25)
+#   1935-36 : catalogue 2017.40.011, scans 011-08/09 (colonne « année précédente »)
+#   1937-38 : catalogue 2017.40.013 (colonne « année suivante », d'après l'extraction)
+#   Ici le catalogue nomme l'enseignant (R_ATTESTE, 0 %) et le volume de chaque cours : la part déduite d'une case tient
+#   surtout au jour, à l'heure, et au semestre des cours d'un seul semestre.
+#
+# C|id|discipline|titre (scan)|année précédente (1935-36)|année suivante (1937-38) ; structure 1936-38
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ART ----------
+C|art.dessin1|Art|drawing I|Introductory Drawing|Introductory Drawing ; deux semestres, 4 h ; Mr Albers
+C|art.dessin2|Art|drawing II|Advanced Drawing|Advanced Drawing ; deux semestres, 4 h ; Mr Schawinsky
+C|art.couleur1|Art|color I|Introductory Color|Introductory Color ; deux semestres, 2 h ; Mr Albers
+C|art.couleur2|Art|color II|Advanced Color|Advanced Color ; deux semestres, 2 h ; Mr Schawinsky
+C|art.werklehre|Art|werklehre|Werklehre (the development of the feeling for material and space)|Werklehre ; deux semestres, 2 h ; Mr Albers
+C|art.scene|Art|stage studies|—|Stage Studies ; deux semestres, 4 h ; Mr Schawinsky, « music collaborator, Mr Evarts »
+C|art.classe|Art|general art class|—|General Art Class ; « occasional meetings for the whole community » ; Mr Albers, Mr Schawinsky
+C|art.seminaire|Art|private art seminar|Art Seminar|Private Art Seminar ; sans horaire ; Mr Albers et Mr Schawinsky
+C|art.tissage|Art|weaving|Weaving Theory ; Weaving Practice|Weaving Theory, Weaving Practice ; deux semestres, 1 h de théorie + 4 h de pratique ; Mrs Albers
+U|A1|Josef Albers|4|MEME_ANNEE+R_ATTESTE|art.dessin1|||1|« Mr Albers » (p. 15)|||
+U|A2|Xanti Schawinsky|4|MEME_ANNEE+R_ATTESTE|art.dessin2|||1|« Mr Schawinsky » (p. 15)||arrivé à l'automne 1936 (« formerly of the Bauhaus », corps enseignant)|
+U|A3|Josef Albers|2|MEME_ANNEE+R_ATTESTE|art.couleur1|||1|« Mr Albers » (p. 16)|||
+U|A4|Xanti Schawinsky|2|MEME_ANNEE+R_ATTESTE|art.couleur2|||1|« Mr Schawinsky » (p. 16)|||
+U|A5|Josef Albers|2|MEME_ANNEE+R_ATTESTE|art.werklehre|||1|« Mr Albers » (p. 16)|||
+U|A6|Xanti Schawinsky; John Evarts|4|MEME_ANNEE+R_ATTESTE|art.scene|||1|« Mr Schawinsky ; music collaborator, Mr Evarts » (p. 17)|||
+U|A7|Josef Albers; Xanti Schawinsky|1|MEME_ANNEE+R_ATTESTE+VOLUME+OCCASION|art.seminaire|||1|« Mr Albers and Mr Schawinsky » (p. 17)||« only for those who have done art work independently outside of class » : séance indicative|
+U|A8|Anni Albers|1+4|MEME_ANNEE+R_ATTESTE|art.tissage|théorie (1 h) et pratique (4 h)||1|« Mrs Albers » (p. 18)|||
+N|art.classe|réunion occasionnelle de toute la communauté : placée comme activité possible du dimanche soir dans le fichier de l'année (ligne S)
+
+# ---------- MUSIC ----------
+C|mu.app1|Music|music appreciation I|Music Appreciation and History (three successive full-year courses…)|Music Appreciation I ; deux semestres, 3 h ; Mr Evarts
+C|mu.app2|Music|music appreciation II|idem|Music Appreciation II ; deux semestres, 3 h ; Mr Evarts
+C|mu.app3|Music|music appreciation III|idem|Music Appreciation III ; heures non données ; Mr Evarts
+C|mu.opera|Music|19th century opera|Nineteenth Century Opera|Nineteenth Century Opera ; deux semestres, 1 h ; Mr Evarts
+C|mu.chant|Music|general singing|Choral, Orchestral and Chamber Music|General Singing ; deux semestres, une fois par semaine ; Mr Sly
+C|mu.choeur|Music|choral singing|idem|Choral Singing ; deux semestres, une fois par semaine ; Mr Sly
+C|mu.orchestre|Music|orchestra|idem|Orchestra and Chamber Music ; deux semestres, 3 h ; Mr Sly
+C|mu.piano|Music|piano lessons|Instruction in Composition and Piano Playing|Piano Lessons ; « throughout the year as required » ; Mr Evarts et Mr Sly
+U|MU1|John Evarts|3|MEME_ANNEE+R_ATTESTE|mu.app1|||1|« Mr Evarts » (p. 19)|||
+U|MU2|John Evarts|3|MEME_ANNEE+R_ATTESTE|mu.app2|||1|idem|||
+U|MU3|John Evarts|3|MEME_ANNEE+R_ATTESTE+VOLUME|mu.app3|||1|idem||heures non données : 3 h comme I et II|
+U|MU4|John Evarts|1|MEME_ANNEE+R_ATTESTE|mu.opera|||1|idem|||
+U|MU5|Allan Sly|1|MEME_ANNEE+R_ATTESTE|mu.chant|pour toute la communauté||1|« Mr Sly » (p. 20)|mar 19:30-20:30|« once a week » ; après le dîner : choix|
+U|MU6|Allan Sly|1|MEME_ANNEE+R_ATTESTE|mu.choeur|plain-chant, Bach, Holst, Hindemith||1|idem|jeu 19:30-20:30|« once a week »|
+U|MU7|Allan Sly|3|MEME_ANNEE+R_ATTESTE|mu.orchestre|||1|« Mr Sly » (p. 21)|||
+U|MU8|John Evarts; Allan Sly|1|MEME_ANNEE+R_ATTESTE+VOLUME+OCCASION|mu.piano|leçons individuelles||1|« Mr Evarts and Mr Sly » (p. 21)||« as required » : plage indicative|
+
+# ---------- DRAMATICS, WRITING, ENGLISH ----------
+C|dr.pieces|Dramatics|dramatics (« plays are worked on and produced throughout the year »)|Dramatic Direction ; Play Writing|Dramatics 1, 2, 3 ; Mr Wunsch
+C|ecr.creative|Writing|creative writing|Elementary Writing|Writing Seminar (Rice, Wunsch) ; deux semestres, 3 h ; Mr Wunsch
+C|ecr.journalisme|Writing|journalism|—|Journalism ; deux semestres, 2 h ; Mr Wunsch
+C|en.survey|English|introductory historical survey|—|Introductory Survey ; deux semestres, 3 h ; Mr Martin
+C|en.medieval|English|medieval literature|Chaucer and his Period|Chaucer and Medieval ; un semestre, 3 h, années alternées ; Mr Martin
+C|en.xvi|English|16th century literature|Shakespeare and Contemporary Dramatists ; Elizabethan Non-Dramatic Literature|Shakespeare and Elizabethan Drama ; idem
+C|en.xvii|English|17th century literature|Milton and Seventeenth Century Literature|17th and 18th Century ; idem
+C|en.xviii|English|18th century literature|the Restoration and the Augustans|17th and 18th Century ; idem
+C|en.romantique|English|the romantic movement|the Romantic Poets|Romantic Movement ; idem
+C|en.xix|English|19th century literature|Nineteenth Century Literature|Victorian England ; idem
+C|en.am1|English|american literature I|the Rise of American Literature|American Literature ; un semestre, 2 h ; Mr Wunsch
+C|en.am2|English|american literature II|Contemporary American Literature|American Literature ; un semestre, 2 h ; Mr Wunsch
+C|en.forme|English|form in literature|—|Form in Literature ; un semestre, 1 h ; Mr Mangold
+C|en.roman|English|problems of the novel|Development of the Novel|Problems of the Novel ; un semestre, 2 h ; Mr Mangold
+C|ling.intro|English|general introduction to linguistics|General Introduction to Linguistics|— ; deux semestres, 3 h ; Mr Mangold et Mr Martin
+U|W1|Robert Wunsch|3|MEME_ANNEE+R_ATTESTE|ecr.creative|||1|« Mr Wunsch » (p. 22)|||
+U|W2|Robert Wunsch|2|MEME_ANNEE+R_ATTESTE|ecr.journalisme|||1|idem||« practical work in writing articles for local newspapers »|
+U|W3|Robert Wunsch|2|MEME_ANNEE+R_ATTESTE|en.am1|||1/2|« Mr Wunsch » (p. 24, scan ; le texte transcrit du musée donne Martin)||un semestre chacun : american literature I à l'automne, II au printemps, sans certitude|fall
+U|W4|Robert Wunsch|2|MEME_ANNEE+R_ATTESTE|en.am2|||1/2|« Mr Wunsch » (p. 24)|=W3|idem|spring
+U|MT1|Joseph W. Martin|3|MEME_ANNEE+R_ATTESTE|en.survey|||1|« Mr Martin » (p. 23)|||
+U|MT2|Joseph W. Martin|3|MEME_ANNEE+R_ATTESTE|en.medieval||en.xvi;en.xvii;en.xviii;en.romantique;en.xix|1/4|idem||un semestre et une année sur deux : chance 1/2 × 1/2 ; six titres → trois par an, environ deux par semestre ; ordre du catalogue|fall
+U|MT3|Joseph W. Martin|3|MEME_ANNEE+R_ATTESTE|en.xvi||en.medieval;en.xvii;en.xviii;en.romantique;en.xix|1/4|idem||idem|fall
+U|MT4|Joseph W. Martin|3|MEME_ANNEE+R_ATTESTE|en.xvii||en.medieval;en.xvi;en.xviii;en.romantique;en.xix|1/4|idem|=MT2|idem|spring
+U|MT5|Joseph W. Martin|3|MEME_ANNEE+R_ATTESTE|en.xviii||en.medieval;en.xvi;en.xvii;en.romantique;en.xix|1/4|idem|=MT3|idem|spring
+U|MG1|Frederick R. Mangold|1|MEME_ANNEE+R_ATTESTE|en.forme|||1/2|« Mr Mangold » (p. 24, scan ; le texte transcrit du musée donne Wunsch)||un semestre : placé à l'automne, sans certitude|fall
+U|MG2|Frederick R. Mangold|2|MEME_ANNEE+R_ATTESTE|en.roman|||1/2|« Mr Mangold » (p. 24)||un semestre : placé au printemps, sans certitude|spring
+U|LG|Frederick R. Mangold; Joseph W. Martin|3|MEME_ANNEE+R_ATTESTE|ling.intro|||1|« Mr Mangold and Mr Martin » (p. 24)|||
+N|dr.pieces|répétitions et productions placées comme activité du soir dans le fichier de l'année (ligne S)
+
+# ---------- FOREIGN LANGUAGES (« offered last year and this year ») ----------
+C|fr.intro|French|introductory french|Introductory French|introductory french ; deux semestres, 3 h ; Mr Mangold ; années alternées avec le cours avancé
+C|fr.avance|French|advanced french|Advanced French|advanced french ; idem
+C|fr.survey|French|introductory survey of french literature|Survey of French Literature|idem
+C|fr.seminaire|French|seminar on stendhal, flaubert, and proust|Seminar in French Literature|idem
+C|de.intro|German|introductory german|Introductory German|introductory german ; deux semestres, 3 h ; Mrs Moellenhoff ; années alternées
+C|de.avance|German|advanced german|Advanced German|advanced german ; idem
+C|de.xix|German|19th century german literature|—|19th century ; idem
+C|de.goethe|German|seminar on goethe|Goethe|Goethe ; idem
+C|de.nietzsche|German|seminar on nietzsche|—|Nietzsche ; idem
+C|gr.intro|Greek|introductory greek|Elementary Greek|Introductory Greek ; deux semestres, 3 h ; Mr Rice
+C|la.lyrique|Latin|latin lyric poetry|Latin Lyric Poetry|Latin Lyric Poetry ; deux semestres, 3 h ; Mr Rice
+C|es.intro|Spanish|introductory spanish|Introductory Spanish|Spanish ; deux semestres, 3 h ; enseignant non nommé
+C|es.avance|Spanish|advanced spanish|Advanced Spanish|idem
+U|F1|Frederick R. Mangold|3|MEME_ANNEE+R_ATTESTE|fr.avance||fr.intro|1/2|« Mr Mangold » (p. 25)||alternance : 1935-36 a retenu l'introduction, 1936-37 retient donc le cours avancé ; l'ordre réel des années est inconnu|
+U|F2|Frederick R. Mangold|3|MEME_ANNEE+R_ATTESTE|fr.seminaire||fr.survey|1/2|idem||les deux cours de littérature « offered last year and this year » : 1935-36 a retenu le survey, 1936-37 le séminaire|
+U|F3|Frederick R. Mangold|3|MEME_ANNEE+R_ELIM|es.avance||es.intro|1/2|l'espagnol n'a pas d'enseignant nommé ; Mangold est le seul enseignant de langues romanes||même règle d'alternance (complément de 1935-36)|
+U|D1|Anna Moellenhoff|3|MEME_ANNEE+R_ATTESTE|de.intro||de.avance|1/2|« Mrs Moellenhoff » (p. 25)||alternance : 1935-36 a retenu le cours avancé, 1936-37 l'introduction|
+U|D2|Anna Moellenhoff|3|MEME_ANNEE+R_ATTESTE|de.xix||de.nietzsche;de.goethe|1/3|idem||un cours de littérature à la fois ; Goethe a été retenu pour 1935-36 (titre du catalogue 1935-36) : il reste le XIXe siècle ou Nietzsche|
+U|R1|John A. Rice|3|MEME_ANNEE+R_ATTESTE|gr.intro|||1|« Mr Rice » (p. 25)|||
+U|R2|John A. Rice|3|MEME_ANNEE+R_ATTESTE|la.lyrique|||1|idem|||
+
+# ---------- HISTORY ----------
+C|hi.renaissance|History|the renaissance and reformation|the Renaissance and Reformation|— (King n'est plus là en 1937-38 : « poste vacant ») ; deux semestres, 3 h, années alternées ; Mr King
+C|hi.troissiecles|History|the last three centuries in europe|the Last Three Centuries in Europe|idem
+C|hi.angleterre|History|england since 1485|England since Elizabeth|idem
+C|hi.biographie|History|modern biography|—|idem
+C|hi.amerique|History|american history|Trends in American History|idem
+C|hi.nouveaumonde|History|history of civilization in the new world|History of Civilization in the New World|idem (Portell-Vilá) ; deux semestres, 3 h
+C|hi.diplomatie|History|american diplomatic history|—|American Diplomatic History ; deux semestres, 2 h ; Mr Portell-Vila
+C|hi.latino|History|modern latin america|Modern Latin America|Modern Latin America ; un semestre, 1 h ; Mr Portell-Vila
+C|hi.actualite|History|current international affairs|Current International Affairs|Current International Affairs ; deux semestres, 1 h ; Mr Portell-Vila
+U|H1|James Gore King Jr.|3|MEME_ANNEE+R_ATTESTE|hi.troissiecles||hi.renaissance;hi.biographie|1/2|« Mr King » (p. 27)||deux semestres, une année sur deux : cinq titres → deux ou trois par an ; 1935-36 a retenu la Renaissance : 1936-37 retient les autres|
+U|H2|James Gore King Jr.|3|MEME_ANNEE+R_ATTESTE|hi.angleterre||hi.renaissance;hi.biographie|1/2|idem||idem|
+U|H3|James Gore King Jr.|3|MEME_ANNEE+R_ATTESTE|hi.amerique||hi.renaissance;hi.biographie|1/2|idem||idem|
+U|PV1|Herminio Portell-Vilá|3|MEME_ANNEE+R_ATTESTE|hi.nouveaumonde|||1|« Mr Portell-Vila » (p. 27)|||
+U|PV2|Herminio Portell-Vilá|2|MEME_ANNEE+R_ATTESTE|hi.diplomatie|||1|idem||« Prerequisite: reading knowledge of French and Spanish »|
+U|PV3|Herminio Portell-Vilá|1|MEME_ANNEE+R_ATTESTE|hi.latino|||1/2|idem||un semestre : placé à l'automne, sans certitude|fall
+U|PV4|Herminio Portell-Vilá|1|MEME_ANNEE+R_ATTESTE|hi.actualite|||1|idem||« consideration of important world events as they happen »|
+
+# ---------- ECONOMICS (William E. Zeuch) ----------
+C|eco.principes|Economics|economic principles, problems, and policies|Theory and Problems of Economics (approché)|Introductory Economics (J. J. King) ; un semestre, 4 h ; Mr Zeuch
+C|eco.ressources|Economics|world resources|Economic Geography (approché)|— ; un semestre, 3 h ; Mr Zeuch
+C|eco.genetique|Economics|genetic economics|Social Origins (approché)|— ; un semestre, 3 h
+C|eco.amerique|Economics|american economic history|Economic History (approché)|— ; un semestre, 3 h
+C|eco.europe|Economics|economic development of modern europe|Economic History (approché)|— ; un semestre, 3 h
+U|Z1|William E. Zeuch|4|MEME_ANNEE+R_ATTESTE|eco.principes|||2/3|« Mr Zeuch » (p. 29)||« all of the courses are of one semester duration ; the first meets four hours a week » : le cours de principes, « the first », est placé à l'automne (chance 2/3)|fall
+U|Z2|William E. Zeuch|3|MEME_ANNEE+R_ATTESTE|eco.ressources||eco.genetique|1/2|idem||« for the purpose of acquainting the beginning student » : automne plutôt, sans certitude|fall
+U|Z3|William E. Zeuch|3|MEME_ANNEE+R_ATTESTE|eco.amerique||eco.genetique|1/2|idem|=Z1|un semestre : printemps, sans certitude|spring
+U|Z4|William E. Zeuch|3|MEME_ANNEE+R_ATTESTE|eco.europe||eco.genetique|1/2|idem|=Z2|idem|spring
+
+# ---------- PSYCHOLOGY (Irving Knickerbocker ; Fritz Moellenhoff en congé) ----------
+C|psy.intro|Psychology|introductory psychology|General Psychology|Introductory (F. Moellenhoff) ; un semestre, 3 h ; Mr Knickerbocker, Mr Moellenhoff
+C|psy.developpement|Psychology|developmental psychology|Child Psychology|— (« not offered 1937-1938 ») ; un semestre, 3 h ; Mr Knickerbocker
+C|psy.dynamique|Psychology|dynamic (abnormal) psychology|Abnormal Psychology|Abnormal (F. Moellenhoff) ; un semestre, 3 h ; Mr Knickerbocker ; « not offered 1937-1938 »
+C|psy.probleme|Psychology|problems: child vs adult|—|— (« not offered 1937-1938 ») ; deux semestres, 1 h ; Mr Knickerbocker
+C|psy.psychanalyse|Psychology|psychoanalysis|Seminar in Psychoanalysis|Psychoanalysis ; un semestre, 3 h ; Mr Moellenhoff
+C|psy.psychopathologie|Psychology|studies in psychopathology|—|Studies in Psychopathology ; un semestre, 3 h ; Mr Moellenhoff
+U|K1|Irving Knickerbocker|3|MEME_ANNEE+R_ATTESTE|psy.intro|||1/2|« Mr Knickerbocker, Mr Moellenhoff » (p. 29) : Knickerbocker seul, Moellenhoff étant en congé||un semestre : placé à l'automne, sans certitude|fall
+U|K2|Irving Knickerbocker|3|MEME_ANNEE+R_ATTESTE|psy.developpement|||1/2|« Mr Knickerbocker » (p. 30)||« not offered 1937-1938 » : donc donné en 1936-37 ; semestre inconnu|fall
+U|K3|Irving Knickerbocker|3|MEME_ANNEE+R_ATTESTE|psy.dynamique|||1/2|idem|=K1|idem|spring
+U|K4|Irving Knickerbocker|1|MEME_ANNEE+R_ATTESTE|psy.probleme|||1|idem||deux semestres, une heure ; « not offered 1937-1938 »|
+N|psy.psychanalyse|Fritz Moellenhoff « absent on leave, 1936-37 » (corps enseignant, p. 43, scan 012-23)
+N|psy.psychopathologie|idem
+
+# ---------- SCIENCES, MATHEMATICS ----------
+C|bio.intro|Biology|introductory biology|Introduction to General Biology|Introductory Biology ; deux semestres, 3 h + 4 h de laboratoire ; Mrs Moellenhoff
+C|ch.intro|Chemistry|introductory general chemistry|General Chemistry|— (chimie non enseignée en 1937-38) ; deux semestres, 3 h + 4 h de laboratoire ; Mr Georgia
+C|ch.avance|Chemistry|qualitative analysis, quantitative analysis, organic chemistry|Qualitative Analysis ; Quantitative Analysis ; Organic Chemistry|— ; « one and two semesters, with appropriate class and laboratory periods » ; Mr Georgia
+C|ph.intro|Physics|introductory general physics|General Physics|Introductory General Physics ; deux semestres, 3 h + 4 h de laboratoire ; Mr Dreier
+C|ph.musique|Physics|physics of musical sounds|—|Physics of Musical Sounds ; un semestre, 3 h + 4 h de laboratoire ; Mr Dreier
+C|ma.algebre|Mathematics|algebra, trigonometry, and analytic geometry|Trigonometry ; Advanced Algebra ; Analytic Geometry|idem ; deux semestres, 3 h ; Mr Dreier
+C|ma.calcul|Mathematics|differential and integral calculus|Differential and Integral Calculus|idem ; deux semestres, 3 h ; Mr Dreier
+U|B1|Anna Moellenhoff|3+4L|MEME_ANNEE+R_ATTESTE|bio.intro|||1|« Mrs Moellenhoff » (p. 31)|||
+U|C1|Frederick R. Georgia|3+4L|MEME_ANNEE+R_ATTESTE|ch.intro|||1|« Mr Georgia » (p. 31)|||
+U|C2|Frederick R. Georgia|3|MEME_ANNEE+R_ATTESTE+VOLUME|ch.avance|un des trois cours avancés||1/2|idem||« one and two semesters » : lequel, et s'il y a un étudiant avancé cette année, inconnu|
+U|P1|Ted Dreier|3+4L|MEME_ANNEE+R_ATTESTE|ph.intro|||1|« Mr Dreier » (p. 32)|||
+U|P2|Ted Dreier|3+4L|MEME_ANNEE+R_ATTESTE|ph.musique|||1/2|idem||un semestre : placé au printemps, sans certitude|spring
+U|M1|Ted Dreier|3|MEME_ANNEE+R_ATTESTE|ma.algebre|||1|« Mr Dreier » (p. 33)|||
+U|M2|Ted Dreier|3|MEME_ANNEE+R_ATTESTE|ma.calcul|||1|idem|||
+
+# ---------- PHILOSOPHY ----------
+C|phi.platon1|Philosophy|plato I|Plato Seminar|Plato I ; deux semestres, 1 h ; Mr Rice
+C|phi.platon2|Philosophy|plato II|Plato Seminar|Plato II ; deux semestres, 3 h ; Mr Rice
+C|phi.logique|Philosophy|logic|Logic|— (« not offered 1937-1938 ») ; un semestre, 3 h ; Mr Goldenson
+C|phi.ethique|Philosophy|ethics|Ethics|idem
+C|phi.esthetique|Philosophy|esthetics|Seminar in Aesthetics|idem (« esthetics » lu sur le scan p. 34, absent du texte transcrit du musée)
+C|phi.dialogues|Philosophy|plato's dialogs|Plato Seminar|idem
+C|phi.science|Philosophy|the philosophy of science|Philosophy of Science|idem
+U|R3|John A. Rice|1|MEME_ANNEE+R_ATTESTE|phi.platon1|pour les nouveaux venus||1|« Mr Rice » (p. 33)|||
+U|R4|John A. Rice|3|MEME_ANNEE+R_ATTESTE|phi.platon2|||1|« Mr Rice » (p. 34)|||
+U|G1|Robert M. Goldenson|3|MEME_ANNEE+R_ATTESTE|phi.logique||phi.dialogues;phi.science|1/2|« Mr Goldenson » (p. 34)||cinq cours d'un semestre, tous donnés en 1936-37 (« not offered 1937-1938 ») : trois à l'automne, deux au printemps, répartis dans l'ordre du catalogue|fall
+U|G2|Robert M. Goldenson|3|MEME_ANNEE+R_ATTESTE|phi.ethique||phi.dialogues;phi.science|1/2|idem||idem|fall
+U|G3|Robert M. Goldenson|3|MEME_ANNEE+R_ATTESTE|phi.esthetique||phi.dialogues;phi.science|1/2|idem||idem|fall
+U|G4|Robert M. Goldenson|3|MEME_ANNEE+R_ATTESTE|phi.dialogues||phi.logique;phi.ethique;phi.esthetique|1/2|idem|=G1|idem|spring
+U|G5|Robert M. Goldenson|3|MEME_ANNEE+R_ATTESTE|phi.science||phi.logique;phi.ethique;phi.esthetique|1/2|idem|=G2|idem|spring

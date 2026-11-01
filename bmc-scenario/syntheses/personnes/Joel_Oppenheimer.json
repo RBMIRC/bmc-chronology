@@ -1,0 +1,286 @@
+{
+ "passe": "personnes",
+ "cle": "Joel Oppenheimer",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 9631,
+  "sortie": 3477,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Joel Oppenheimer",
+  "autres_noms": [
+   "The Wild Bull of the Campus"
+  ],
+  "dates_de_vie": null,
+  "statut_bmc": "Étudiant (1950-1953), poète, imprimeur ; figure centrale du dernier Black Mountain littéraire",
+  "presence": [
+   {
+    "debut": "1950-02",
+    "fin": "1953",
+    "precision": "annee",
+    "role": "Étudiant en poésie : passe par l'atelier de M.C. Richards, puis Paul Goodman, puis deux ans chez Olson ; imprimeur (Sad Devil Press) ; éditeur de la première Black Mountain Review (juin 1951)",
+    "refs": [
+     "PE-00078",
+     "EV-05220",
+     "EV-05519",
+     "EV-03737",
+     "RE-01944"
+    ]
+   }
+  ],
+  "portrait_physique": "À vingt ans : garçon adorable, très ordonné, soigné, responsable ; costaud — dos, épaules et jambes solides (ancien footballeur de Cornell) ; traits féroces. Plus tard : barde barbu du Greenwich Village qui « yawpe ».",
+  "noyau_psychologique": "Insécurité paternelle structurelle : un père inefficace qu'il détestait, remplacé successivement par Olson (le « bon » père) puis par Max Finstein à New York. Il ajuste sa personnalité à ce qu'il croit devoir paraître, d'où des conclusions erronées sur lui-même. Lucide tôt : il sait que ses limites sont réelles et choisit le bon sens et la vie plutôt que la route du génie autodestructeur. Aimant la vie, énergique, argumentatif, doux et ordonné sous la carapace séditieuse.",
+  "blessures": "Père inefficace, haï ; le Bronx et l'enfance refoulés qui affleurent (il pleure « c'est une règle du Bronx » au poker, mains sur les genoux) ; une sensibilité aux apparences plus grande qu'il ne l'admettait.",
+  "desirs": "Être là quand ça arrive et l'écrire ; que le poème porte son souffle ; une famille (il fonde le sien : fils, père attentionné) ; un père de substitution.",
+  "peurs": "L'inefficacité héritée du père ; dépasser ses limites réelles vers l'autodestruction.",
+  "maniere_d_aimer": "Fidèle et concret : marié à Cissy en 1952 (brièvement séparée par l'épisode Don Jones, puis retrouvée au soulagement de certains) ; père attentionné ; affection virile et bruyante (saute sur le dos de Trayer, chahute, gueule au poker).",
+  "rapport_au_pouvoir": "Impétueux et séditieux contre l'autorité injuste (Trayer frappant Levi, le quaker giflant son enfant, le procès Goodman), mais discipliné par un mentor juste : Olson le « manie » avec discipline et liberté, et il refuse tout imitateur — chacun ses propres poèmes. Pointilleux sur les règles, précisément parce qu'il vient d'un monde (le Bronx) dont les règles le maintenaient.",
+  "voix": {
+   "registre": "Discursif, divaguant : anecdotes, histoire militaire, sexe, humour de conteur ; ligne poétique libre et plate contre la ligne serrée de Creeley",
+   "tics": "Gueule en jouant ; cite les règles ; injures crues en colère",
+   "exemples_paraphrases": [
+    "L'histoire de la vieille dame de l'hôtel invitant le commis à monter sur la commode pour mieux voir l'homme nu",
+    "« On ne peut pas relancer après avoir passé » — règle du Bronx",
+    "« On gâche le jeu, fermez-la ! » au dé de poker",
+    "« Enculé ! » hurlé sur le dos de Trayer"
+   ]
+  },
+  "habitudes": [
+   "Poker quasi nocturne au dé sur le lac, jusqu'à l'aube",
+   "Lanceur au softball",
+   "Lit des William Carlos Williams aux soirées de lecture du dimanche",
+   "Imprime lui-même ses plaquettes (Sad Devil Press)",
+   "Boit à la brasserie chez Mrs Peek's et dans les chambres",
+   "Plus tard : a arrêté de boire et l'a pris avec sérénité ; travaillait 9h-17h et revenait chaque jour chez Max Finstein"
+  ],
+  "convictions": [
+   "Anti-pacifisme né du spectacle d'un quaker giflant son enfant (1950)",
+   "Le poème doit porter le souffle de son auteur, se lire comme lu à voix haute",
+   "Ligne très libre et plate, contre celle très serrée de Creeley",
+   "« Sois là quand ça arrive, écris-le » : la présence vaut la théorie",
+   "Sobriété et attention consciente, jour après jour",
+   "Le collège pouvait et devait continuer (fin des années 50, vingt jeunes se seraient inscrits un samedi soir au Cedar)"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1950-02",
+    "precision": "mois",
+    "moment": "Arrivée à vingt ans juste, expulsé de Cornell et de Chicago ; adopte aussitôt Black Mountain mais trouve les quakers très étranges ; voyant un quaker gifler son enfant de cinq ans qui criait au camion-poubelle militaire, décide de ne pas être pacifiste",
+    "etat_interieur": "Refuge, énergie, ironie d'observateur ; premières décisions identitaires par la négation",
+    "refs": [
+     "EV-05220",
+     "SC-01265"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "La « question Goodman » : il défend Goodman avec l'histoire de la vieille dame de l'hôtel ; puis Trayer frappe Levi en réunion de faculté et Oppenheimer saute sur son dos en hurlant ; Goodman le surnomme « The Wild Bull of the Campus »",
+    "etat_interieur": "Séditieux, loyal, physique ; côté des nouveaux contre les anciens Black Mountain",
+    "refs": [
+     "SC-01267",
+     "SC-01266",
+     "EV-04946",
+     "EV-04947"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Avec Fitton, il collecte cent dollars parmi les étudiants pour le salaire de façade qui ramène Olson définitivement ; publie Four Poems To Spring imprimé de sa main (mai) puis co-dirige la première Black Mountain Review (juin) ; The Dancer, illustré par Rauschenberg, paraît chez Jargon Press",
+    "etat_interieur": "Devenu imprimeur et éditeur ; organisateur du retour du père littéraire",
+    "refs": [
+     "EV-05324",
+     "EV-05516",
+     "EV-05519",
+     "EV-05392",
+     "EV-05422",
+     "SC-01432"
+    ]
+   },
+   {
+    "date": "1951-10",
+    "precision": "mois",
+    "moment": "La nuit où Olson apprend à enseigner : dans le cercle des textes passés de main en main, il assiste au renversement pédagogique ; il suit ensuite l'atelier d'Olson pendant deux ans",
+    "etat_interieur": "Élève au cœur du groupe, en apprentissage d'écoute",
+    "refs": [
+     "SC-01473",
+     "EV-05566",
+     "RE-01944"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Mariage avec Cissy, barracks Last Chance ; bref intermède Don Jones à North Lodge, puis retrouvailles ; soirées de lectures dominicales sans Olson (il lit Williams)",
+    "etat_interieur": "Vie de couple dans la communauté ; attente du retour du mentor",
+    "refs": [
+     "RE-02400",
+     "EV-05693",
+     "EV-05673"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Atelier d'Olson au office cottage, parties de poker nocturnes ; il pleure « c'est une règle du Bronx » vers minuit ; il lance au match de softball avec les peintres",
+    "etat_interieur": "Le Bronx et le père refoulés affleurent sous la surface du joueur bavard et argumentatif",
+    "refs": [
+     "EV-05972",
+     "EV-06149",
+     "SC-01656",
+     "EV-06186"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Enfance dans le Bronx ; père propriétaire d'un magasin de bagages à mid-Manhattan ; football américain à Cornell, où il décide de ne pas être ingénieur civil ; voulait d'abord être peintre, découvre qu'il ne l'est pas",
+    "refs": [
+     "PE-00078"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "annee",
+    "moment": "Expulsé de Cornell puis de l'Université de Chicago ; vient de fêter ses vingt ans quand il arrive à Black Mountain",
+    "refs": [
+     "PE-00078",
+     "EV-05220"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1953",
+    "precision": "annee",
+    "moment": "Départ du collège (après la majeure partie de trois années) vers New York",
+    "refs": [
+     "PE-00078"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "moment": "Années New York : vit de l'imprimerie apprise au collège, travaillant 9h-17h ; Max Finstein devient la chose la plus proche d'un père ; influence durable sur l'attention de Dawson aux détails (boissons, cigarettes) — « du reste de ma vie »",
+    "etat_interieur": null,
+    "refs": [
+     "RE-02572",
+     "RE-02576",
+     "PE-00078"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "moment": "Au Cedar Bar : affirme qu'on en avait assez d'entendre vanter Black Mountain, mais que fin des années 50 il aurait pu un samedi soir y inscrire vingt jeunes avec de l'argent",
+    "refs": [
+     "EV-06908"
+    ]
+   },
+   {
+    "date": "1960",
+    "precision": "annee",
+    "moment": "Inclus dans The New American Poetry de Donald Allen comme « poète de Black Mountain » — étiquette qu'il juge avec le recul exagérée ; devient barde barbu du Village, très aimé ; témoigne auprès de Duberman ; a eu des fils ; a arrêté de boire avec sérénité ; décédé au moment où Dawson écrit",
+    "refs": [
+     "EV-07269",
+     "EV-07241",
+     "PE-00078"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Charles Olson",
+    "nature": "Mentorat (1950-1953)",
+    "evolution": "Oppenheimer passe par M.C. Richards puis Paul Goodman avant l'atelier d'Olson pendant deux ans ; Olson le « manie » comme il aurait voulu que son père le fasse — discipline (« mets-toi en selle et écris ! ») et liberté ; aucun imitateur toléré dans la classe",
+    "refs": [
+     "RE-01944",
+     "CI-02376"
+    ]
+   },
+   {
+    "avec": "Cissy Oppenheimer",
+    "nature": "Mariage (1952)",
+    "evolution": "Couple du barracks Last Chance ; séparé brièvement par le séjour de Cissy avec Don Jones à North Lodge, puis réuni au soulagement de certains",
+    "refs": [
+     "RE-02400",
+     "EV-05693"
+    ]
+   },
+   {
+    "avec": "Paul Goodman",
+    "nature": "Défense lors de la « question Goodman » (1950)",
+    "evolution": "Oppenheimer, défenseur ironique et efficace, reçoit de Goodman son surnom « The Wild Bull of the Campus »",
+    "refs": [
+     "SC-01267",
+     "EV-04947"
+    ]
+   },
+   {
+    "avec": "Fielding Dawson",
+    "nature": "Amitié et influence réciproque (BMC et après)",
+    "evolution": "Le pointillisme de Joel sur les détails (boissons, cigarettes) marque durablement l'écriture de Dawson — « du reste de ma vie »",
+    "refs": [
+     "RE-02576",
+     "PE-00078"
+    ]
+   },
+   {
+    "avec": "Max Finstein",
+    "nature": "Substitution paternelle (années New York)",
+    "evolution": "Max fut la chose la plus proche d'un père que Joel ait eue ; il revenait chaque jour chez lui après le travail — ce qui explique en partie son comportement « étrange »",
+    "refs": [
+     "RE-02572"
+    ]
+   },
+   {
+    "avec": "Robert Creeley",
+    "nature": "Compagnon d'école poétique",
+    "evolution": "Ligne très libre et plate d'Oppenheimer contre la ligne incroyablement serrée de Creeley : divergence formelle au sein du même credo du souffle",
+    "refs": [
+     "RE-00076",
+     "ID-02351"
+    ]
+   },
+   {
+    "avec": "Robert Rauschenberg / Jonathan Williams",
+    "nature": "Collaboration éditoriale (1951)",
+    "evolution": "The Dancer : poème d'Oppenheimer, dessin à l'encre de Rauschenberg, publié par Williams chez Jargon Press",
+    "refs": [
+     "EV-05392",
+     "SC-01432"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Les fiches donnent une présence 1950-1953 (majeure partie de trois années) mais la fiche agrégée mentionne aussi « 1950-1951 environ » — la date exacte de départ n'est pas fermement attestée",
+   "Sur le retour d'Olson : une fiche (1951) attribue la collecte des cent dollars à Fitton et Oppenheimer, une autre (1952) à Mary et Joe Fiore — le rôle exact d'Oppenheimer dans la collecte varie selon les témoins",
+   "Décrit comme doux, ordonné et responsable, mais aussi comme impétueux et séditieux — les deux portraits coexistent sans être reconciliés par les sources"
+  ],
+  "situations_revelatrices": [
+   "Le dé de poker à minuit : il pleure en évoquant une règle du Bronx — l'enfance et le père refoulés percent",
+   "Il saute sur le dos de Trayer en réunion de faculté — loyauté physique, instinctif",
+   "Sa défense de Goodman par l'histoire de la vieille dame — l'arme du conteur contre le procès en sorcellerie",
+   "Le match de Dodgers à Asheville : il quitte un voisin raciste pour changer de place",
+   "La collecte des cent dollars pour ramener Olson — l'organisateur discret du retour du père"
+  ],
+  "citations": [
+   "CI-02376",
+   "CI-02555",
+   "CI-02574",
+   "CI-03047"
+  ],
+  "questions_ouvertes": [
+   "Dates de naissance et de décès exactes",
+   "Circonstances précises de son départ de Black Mountain en 1953",
+   "Sa vie conjugale et ses fils après le collège",
+   "Le détail de son témoignage écrit à Duberman",
+   "Ce qu'il devient précisément comme figure du Greenwich Village (columns, publications)"
+  ]
+ }
+}

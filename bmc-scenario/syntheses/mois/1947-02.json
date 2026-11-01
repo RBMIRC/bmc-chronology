@@ -1,0 +1,222 @@
+{
+ "passe": "mois",
+ "cle": "1947-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5091,
+  "sortie": 13327,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1947-02",
+  "session": "Hiver 1946-1947, avant le passage au calendrier en trimestres voté le 18 mars 1947. Les fiches ne précisent pas le découpage exact de cette session.",
+  "saison_et_climat": "Hiver sur la montagne de Black Mountain, dont les fiches ne décrivent pas le climat. À La Luz (Nouveau-Mexique), désert, ciel bleu, maison d'adobe, isolement.",
+  "situation": "Le collège tourne sans son pilier. Josef et Anni Albers sont en congé sabbatique à La Luz, où Josef peint et écrit qu'il a enfin la paix. Ted Dreier, recteur nominal de 1946-47, est absent, et Molly Gregory dirige de fait. Le débat sur la nature du lieu, collège ou communauté, dure depuis deux ans. Les décisions de mars (élection de Levi, démissions, réorganisation) se préparent, sans que les fiches datent de réunion en février.",
+  "presents_probables": [
+   {
+    "nom": "Molly Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Niebyl",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M. C. Richards",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bill Levi",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Howard Rondthaler",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Cinq étudiantes noires de l'hiver (noms non donnés)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1947-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Josef et Anni Albers sont en congé sabbatique à La Luz, dans leur maison d'adobe. Josef se remet à peindre intensément, loin de l'enseignement et de l'administration.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03979",
+     "EV-03980"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Le débat sur la nature du lieu, collège ou communauté, dure depuis deux ans et alimentera les démissions du printemps.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "date": "1947-02",
+    "precision": "saison",
+    "ce_qui_arrive": "Cinq étudiantes noires sont présentes pendant l'hiver. Une seule reviendra à l'automne, et les étudiants noirs vivent presque reclus dans une ville hostile.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "date": "1947-02",
+    "precision": "saison",
+    "ce_qui_arrive": "Molly Gregory dirige de fait le collège pendant que le recteur nominal est absent. Elle se sent utilisée comme propriété d'Albers et de Dreier.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent ni les cours ni les repas de février. Ce qui est documenté tient au cadre : un collège à l'économie serrée, dont le personnel de cuisine et d'entretien est encore en place (son renvoi est postérieur, date non fixée), des étudiants noirs en retrait, et une gouvernance qui fonctionne sans recteur effectif. La vie de la communauté n'est pas documentée pour ce mois.",
+  "tensions": [
+   "Le rectorat est vacant de fait : Albers et Dreier sont absents, et Gregory tient la barre en se sentant instrumentalisée.",
+   "Collège ou communauté : le débat oppose ceux qui veulent un collège ouvert toute l'année, soutenus par Richards, à ceux qui défendent l'autre vision.",
+   "Wallen contre les anciens : il veut redéfinir sa chaire, et sa démission se prépare pour mi-mars.",
+   "Albers accuse Gregory de l'avoir vendu, soupçon qui n'est pas daté par les fiches.",
+   "Racisme : la ville est hostile aux étudiants noirs, et l'admission reste ouverte sans enseignant noir recruté.",
+   "Finances : l'hypothèque de second rang de 16 500 $ détenue par les Dreier pèse sur toute la gouvernance."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La maison d'adobe de La Luz",
+    "date": "1947-02",
+    "lieu": "La Luz, Nouveau-Mexique",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers"
+    ],
+    "deroule": "Josef s'impose une diète de peinture stricte : couleur pure sortie du tube, étalée au couteau, une seule couche, un seul thème. Il peint presque jour et nuit, et l'effet de ses expériences sur les couleurs le fascine, ce qu'il rapportera plus tard par lettre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01008"
+    ]
+   },
+   {
+    "titre": "La paix retrouvée",
+    "date": "1947-02",
+    "lieu": "La Luz, Nouveau-Mexique",
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Josef écrit à Perdekamp qu'ils sont enfin loin de l'éducation et de l'administration, et qu'ils peuvent de nouveau penser à eux-mêmes. La lettre est un soulagement et une rupture avec le collège.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01009"
+    ]
+   },
+   {
+    "titre": "Gregory, propriété d'Albers et de Dreier",
+    "date": "1947-02",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Molly Gregory",
+     "Josef Albers",
+     "Ted Dreier"
+    ],
+    "deroule": "Gregory, qui dirige de fait le collège, se sent exploitée par le couple Albers et par Dreier. Elle n'a pas encore démissionné, et sa démission n'est pas datée. Le soupçon d'Albers, qui l'accuse de l'avoir vendu, plane sur la scène sans date précise.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Les étudiantes noires de l'hiver",
+    "date": "1947-02",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Cinq étudiantes noires (noms non donnés)"
+    ],
+    "deroule": "Les cinq étudiantes vivent presque recluses, la ville étant hostile. Elles sont présentes au collège pendant l'hiver, et leur présence contraste avec l'admission déclarée ouverte à toutes les races.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Février 1947, pendant le débat collège ou communauté qui dure depuis deux ans",
+    "vers_date": "1920",
+    "vers": "Le Bauhaus des années 1920, âge d'or de l'avant-garde, avec sa confiance pacifique. Goodman compare ce climat à l'anxiété de l'après-guerre de 1947.",
+    "refs": [
+     "EC-02186"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1947, Wallen encore en poste",
+    "vers_date": "1947-03",
+    "vers": "Mi-mars, Wallen remet sa démission. Levi et Rondthaler le pressent de rester, et le Board accepte mollement sa redéfinition de chaire en community development.",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1947, Albers encore à La Luz",
+    "vers_date": "1947-04",
+    "vers": "Albers arrive à Mexico fin avril ou le 1er mai (les fiches divergent) et y reste jusqu'à fin octobre, où il peint la série des Variants/Adobes.",
+    "refs": [
+     "EV-03980",
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1947, gouvernance encore sans recteur effectif",
+    "vers_date": "1947-03",
+    "vers": "Le 18 mars, la faculté adopte le calendrier en trimestres de Hansgirg. Le 27 mars, le non-renouvellement de Niebyl est notifié, avec deux pétitions étudiantes et une réunion du Board.",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Hiver 1947, cinq étudiantes noires présentes au collège",
+    "vers_date": "1947",
+    "vers": "À l'automne, une seule des cinq revient. La faculté a alors voté la fin du stade expérimental et déclaré l'admission ouverte à toutes les races.",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Février 1947, Dreier encore au centre de la gouvernance",
+    "vers_date": "1947-08",
+    "vers": "Le 22 août, Dreier, découragé, écrit à Ise Gropius qu'il songe à partir en Allemagne après une conférence troublante.",
+    "refs": [
+     "chapitre de l'année 1947 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Sabbatique et peinture pure comme refuge loin du collège",
+   "Pouvoir vacant : recteur absent, direction de fait contestée",
+   "Collège ou communauté : la question de nature du lieu",
+   "Gouvernance adossée à l'hypothèque Dreier de 16 500 $",
+   "Ville hostile et admission raciale en théorie ouverte",
+   "Désert de La Luz contre montagne de Black Mountain"
+  ],
+  "lacunes": "Les fiches ne donnent aucun fait daté à l'intérieur de février : ni réunion, ni cours, ni repas, ni lettre précisément datée. Contradictions : Albers arrive à Mexico fin avril ou le 1er mai ; Wallen enseigne encore en 1947-48 ou part à l'été 1948 ; l'acceptation du rectorat par Albers est datée de 1947 ou de 1948 ; la visite d'Anahuacalli est datée de 1947 ou de 1949. La date de la démission de Gregory n'est pas donnée, et l'on ignore si Levi occupe déjà une fonction avant mars. Les cinq étudiantes noires ne sont pas nommées."
+ }
+}

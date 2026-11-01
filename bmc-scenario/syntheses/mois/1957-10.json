@@ -1,0 +1,206 @@
+{
+ "passe": "mois",
+ "cle": "1957-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2479,
+  "sortie": 6461,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1957-10 (octobre 1957)",
+  "session": "Aucune : le trimestre d'hiver n'ouvre pas et le collège n'a plus de session en cours. La fermeture est déjà actée dans les faits, et l'annonce de 1957 ne fait que la rendre publique.",
+  "saison_et_climat": "Automne. Les fiches ne décrivent ni le temps ni la lumière d'octobre 1957.",
+  "situation": "Le collège est éteint et se liquide. Il n'y a plus de cours. Olson est le dernier à s'occuper des affaires, en vendant les biens, en réglant la bibliothèque de Rice et en s'occupant des tombes. La vente de la bibliothèque à Rocky Mount est annoncée depuis septembre, et le dernier numéro de la Review vient de paraître ou est sur le point de paraître.",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Quelques étudiants restés sur place (non nommés dans les fiches)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1957-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson annonce à John Rice que le reste de la bibliothèque est vendu au North Carolina Wesleyan College de Rocky Mount. Rice est furieux. Ce conflit court depuis mars 1956.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06844",
+     "EV-06910",
+     "CF-00800"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Paraît à l'automne le septième et dernier numéro de la Black Mountain Review, avec Ginsberg, Kerouac, Snyder, Whalen, McClure, un extrait du Naked Lunch, un fragment de Last Exit to Brooklyn et une recension négative de Howl par Rumaker. Creeley y voit un bon endroit pour finir. Du matériel existait pour un huitième numéro, mais il n'y avait plus de collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "Olson vend ce qui reste de l'immobilier, règle la question de la bibliothèque de Rice et prévoit l'entretien des tombes de Jalowetz et de Max Dehn. Les Olson partent ensuite pour la maison familiale de Gloucester. Le moment précis du départ n'est pas donné.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "CI-03430"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Olson tente en vain de vendre le pot shop et son terrain à un potier local.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06935"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Une partie de la bibliothèque de Rice est emportée par Nell Rice. La date n'est pas donnée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06844"
+    ]
+   },
+   {
+    "date": "1957",
+    "precision": "annee",
+    "ce_qui_arrive": "La réédition de l'autobiographie de Rice supprime les chapitres sur Black Mountain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06662"
+    ]
+   },
+   {
+    "date": "1957-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Josef Albers présente une sélection de ses œuvres à la IVe Biennale de São Paulo, au Museu de Arte Moderna.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06969"
+    ]
+   }
+  ],
+  "quotidien": "Il ne reste pas de vie commune organisée. La ferme n'est plus travaillée que par quelques étudiants épuisés, et la colline des cabanes abrite les derniers occupants, sans chauffage ni réfectoire. Les journées sont faites de ventes, de démarches et de rangement de livres et de biens. Les fiches ne disent rien des repas, de la musique ni des cours.",
+  "tensions": [
+   "Rice contre Olson autour de la bibliothèque : les 2000 volumes prêtés, la vente à Rocky Mount et la rupture annoncée en avril 1957.",
+   "Chaddock date la décision à l'automne 1956, sans annonce publique, alors que d'autres fiches parlent de 1957 comme année de fermeture et de l'annonce faite à la communauté. Les sources se contredisent sur le moment exact.",
+   "Olson parle d'une dispersion et non d'un échec, alors que d'autres témoins décrivent une extinction sans gouvernement.",
+   "Des anciens tiennent le lieu pour un vrai lieu d'apprentissage, tandis que la fin est vécue comme une perte."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le dernier règlement de comptes avec Rice",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Olson",
+     "John Rice",
+     "Nell Rice"
+    ],
+    "deroule": "Rice, furieux depuis l'annonce de septembre, cherche à récupérer ses livres ou à obtenir une compensation. Olson règle la question sur le papier, et Nell Rice a déjà emporté une partie des volumes.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06844",
+     "EV-06910",
+     "CF-00800",
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "titre": "Les tombes de Jalowetz et de Max Dehn",
+    "date": null,
+    "lieu": "Lieu du cimetière non précisé",
+    "personnages": [
+     "Olson"
+    ],
+    "deroule": "Olson s'occupe de l'entretien des tombes de deux anciens membres du collège avant de partir pour Gloucester. Une scène de dernière visite serait tirée de son projet.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06766"
+    ]
+   },
+   {
+    "titre": "La tentative de vente du pot shop",
+    "date": null,
+    "lieu": "Le pot shop et son terrain",
+    "personnages": [
+     "Olson",
+     "un potier local (non nommé)"
+    ],
+    "deroule": "Olson présente le pot shop et son terrain à un potier de la région. L'échec de la vente laisse un bâtiment vide sur la colline.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06935"
+    ]
+   },
+   {
+    "titre": "Le dernier numéro sort",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Olson",
+     "Creeley",
+     "Rumaker"
+    ],
+    "deroule": "Le septième numéro arrive, avec la recension négative de Howl par Rumaker et les textes de la nouvelle génération. Les anciens y voient la fin d'un lieu, et le matériel du huitième numéro reste sans collège.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Octobre 1957, au moment où Rice réclame encore ses livres et où la vente à Rocky Mount se dessine.",
+    "vers_date": "1957-04-01",
+    "vers": "Le 1er avril 1957, Olson annonce à Rice la fermeture du collège. Il écrit : « cette fois, John Rice, les loups ont eu tes moutons », et le salue comme le « Papa » du collège.",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Octobre 1957, à la liquidation des biens, quand la légende se répand.",
+    "vers_date": "1958",
+    "vers": "Goodman affronte la jeunesse Beat, et Albers reste chairman à Yale jusqu'en 1958. La méthode Bauhaus-Black Mountain continue de se diffuser à New York et à Yale.",
+    "refs": [
+     "EV-06927",
+     "EV-06928",
+     "EV-06786"
+    ]
+   }
+  ],
+  "motifs": [
+   "extinction sans annonce publique",
+   "liquidation par Olson",
+   "bibliothèque de Rice",
+   "dispersion et légende",
+   "dernier numéro de la Review",
+   "méthode Bauhaus-Black Mountain transmise ailleurs"
+  ],
+  "lacunes": "On ignore la date exacte de la décision et de l'annonce à la communauté, ainsi que celle du départ d'Olson pour Gloucester. On ne sait pas qui exactement est resté sur le campus en octobre, ni le nombre de personnes présentes. Le moment où Nell Rice a emporté les livres n'est pas donné. Rien sur le climat, la nourriture, la musique ou les cours de ce mois."
+ }
+}

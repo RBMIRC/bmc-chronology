@@ -1,0 +1,229 @@
+{
+ "passe": "mois",
+ "cle": "1944-09",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 1982,
+  "sortie": 11953,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1944-09",
+  "session": "Institut de musique d'été 1944 (ouverture attestée en septembre) ; le trimestre d'automne, où devait entrer le premier étudiant noir, n'est pas daté par les fiches",
+  "saison_et_climat": "Fin d'été et rentrée 1944. Les fiches ne décrivent pas le climat de la Caroline du Nord à cette date.",
+  "situation": "Le collège consomme la scission : les partants ont remis leur démission, le Board répond de façon pro forma, et Kurtz envoie à de Graaff un chèque de 1 000 $ le 13 septembre. Dans le même temps, l'Institut de musique d'été rassemble presque tout le cercle schönbergien. Schoenberg, à Los Angeles, ne peut pas venir mais envoie à Jalowetz un salut personnel pour l'ouverture. La question de l'admission des Noirs, tranchée provisoirement en avril-mai, pèse encore sur la communauté, et un projet de collège rival est en gestation chez les partants.",
+  "presents_probables": [
+   {
+    "nom": "Jalowetz (« Jalo »)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch (destinataire de la lettre des étudiants d'été)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Frederic Cohen (auteur des estimations financières de l'Institut)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "huit étudiants d'été (non nommés)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kurtz (écrit au nom du Board)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "de Graaff (destinataire du chèque, présence au collège incertaine)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Diverses lettres de démission parviennent au Board, qui y répond de manière pro forma.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03658"
+    ]
+   },
+   {
+    "date": "1944-09-13",
+    "precision": "jour",
+    "ce_qui_arrive": "Kurtz écrit au nom du Board à de Graaff et joint un chèque de 1 000 $ : la scission est consommée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03658"
+    ]
+   },
+   {
+    "date": "1944-09",
+    "precision": "mois",
+    "ce_qui_arrive": "L'Institut de musique 1944 réunit presque tout le cercle des élèves et admirateurs de Schoenberg ; Schoenberg envoie un salut personnel à Jalowetz pour l'ouverture.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03666"
+    ]
+   },
+   {
+    "date": "1944-09-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Huit étudiants d'été écrivent une lettre à Wunsch.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03666"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Frederic Cohen signe des estimations financières pour l'Institut (date non précisée).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03666"
+    ]
+   },
+   {
+    "date": "1944-09",
+    "precision": "periode",
+    "ce_qui_arrive": "Les partants portent un projet de collège rival, jusqu'en mars 1945 environ ; le corps enseignant se reconstitue et la direction s'use pendant 1944-1945.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1944-04-26",
+    "precision": "jour",
+    "ce_qui_arrive": "Le trésorier adjoint Orr démissionne, en partie à cause de l'admission de la femme noire et plus largement parce que le collège tente « trop avec trop peu ».",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1944-04",
+    "precision": "periode",
+    "ce_qui_arrive": "Consensus d'avril-mai : une seule femme noire, âgée et qualifiée, professeur de musique à Fort Valley, est admise pour l'été avec un statut hybride de « membre de l'Institut ». Straus dit rester contre sans se battre.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Selon Lane seul, Dreier avait obtenu l'engagement du corps enseignant avec le Rosenwald Fund ; le corps enseignant recule sous des menaces, et Dreier reçoit l'ordre de rompre avec la fondation.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les fiches décrivent peu la vie ordinaire de septembre 1944. Le centre de la vie est l'Institut de musique d'été, autour de Jalowetz et de l'héritage schönbergien, avec des cours et un travail musical non détaillés. Les estimations financières de Frederic Cohen montrent que l'argent est une préoccupation concrète. Repas, travaux et cours hors musique ne sont pas documentés.",
+  "tensions": [
+   "La scission est consommée : le Board verse 1 000 $ à de Graaff, et les anciens partent, ce qui fragilise la direction.",
+   "La question raciale se règle par un compromis fragile : une seule femme admise, avec un statut hybride que Bentley raille en parlant de Hofjude, et Straus qui reste contre.",
+   "Les fiches se contredisent sur l'issue : le chapitre parle d'un consensus d'avril-mai, alors que Lane affirme que la question n'est tranchée qu'à l'automne 1945 et que le corps enseignant a reculé sous la pression.",
+   "Lane et le chapitre divergent sur Dreier : le chapitre le place parmi les hésitants, Lane en fait un homme seul contre la faculté.",
+   "Orr part sur fond de « trop avec trop peu », c'est-à-dire de précarité financière et d'épuisement.",
+   "Schoenberg est absent de l'Institut, et son salut dit à la fois proximité et éloignement."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le salut de Schoenberg à l'ouverture de l'Institut",
+    "date": "1944-09",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Jalowetz",
+     "participants de l'Institut d'été"
+    ],
+    "deroule": "Le message personnel de Schoenberg, qui se sent incapable du long voyage depuis Los Angeles, arrive pour l'ouverture de l'Institut. Jalowetz en tire une grande joie. La scène peut se jouer devant le cercle réuni des élèves et admirateurs de Schoenberg.",
+    "certitude": "probable",
+    "refs": [
+     "EV-03666"
+    ]
+   },
+   {
+    "titre": "Le chèque du Board",
+    "date": "1944-09-13",
+    "lieu": null,
+    "personnages": [
+     "Kurtz",
+     "de Graaff"
+    ],
+    "deroule": "Kurtz écrit au nom du Board à de Graaff et joint un chèque de 1 000 $. Le geste acte la scission. Le ton de la lettre et la réaction de de Graaff ne sont pas documentés.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03658"
+    ]
+   },
+   {
+    "titre": "La lettre des étudiants d'été à Wunsch",
+    "date": "1944-09-14",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Wunsch",
+     "huit étudiants d'été"
+    ],
+    "deroule": "Huit étudiants d'été écrivent à Wunsch. Le contenu de la lettre n'est pas donné par les fiches ; la scène peut porter sur l'attente de réponse d'une jeune génération restée à l'Institut.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03666"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Kurtz et le chèque du Board, mi-septembre 1944",
+    "vers_date": "1942",
+    "vers": "Les premiers signes de la scission entre anciens et nouveaux membres, qui conduisent à la démission des partants.",
+    "refs": [
+     "EV-03658"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le chèque du Board et la scission consommée, mi-septembre 1944",
+    "vers_date": "1944-01",
+    "vers": "Le débat de quatre mois sur l'admission d'étudiants noirs, qui s'ouvre le 25 janvier 1944 et se termine le 10 mai, avec les réunions de faculté et les caucus secrets.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le projet de collège rival des partants, en septembre 1944",
+    "vers_date": "1945-03",
+    "vers": "Fin de la période où le projet de collège rival est porté par les partants.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La question de l'admission après le compromis d'avril-mai, en septembre 1944",
+    "vers_date": "1945",
+    "vers": "Selon Lane, la question de l'admission n'est tranchée qu'à l'automne 1945, ce qui contredit la lecture d'un consensus clos en mai 1944.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le salut de Schoenberg à Jalowetz pour l'ouverture de l'Institut, en septembre 1944",
+    "vers_date": "1956-04",
+    "vers": "Le discours de Lowinsky du 10 avril 1956 sur cet institut est une source rétrospective qui en retrace l'histoire.",
+    "refs": [
+     "EV-03666"
+    ]
+   }
+  ],
+  "motifs": [
+   "scission des anciens et des nouveaux",
+   "l'argent comme nerf de la guerre (chèque du Board, estimations, départ d'Orr)",
+   "absence de Schoenberg et présence de son cercle",
+   "statut hybride de la femme admise",
+   "la promesse ou la menace de la rupture avec le Rosenwald Fund",
+   "compromis contre engagement"
+  ],
+  "lacunes": "Ignoré : le climat, la vie quotidienne et les cours du mois ; la date d'arrivée et le nom de la femme noire admise ; si Josef et Anni Albers sont présents en septembre 1944 (le chapitre les dit contre l'admission, sans date) ; le contenu de la lettre des huit étudiants d'été ; la réaction de de Graaff au chèque ; la position exacte de Bentley et de Foreman à cette date ; l'unique version de Lane sur Dreier n'est pas confirmée par une autre fiche."
+ }
+}

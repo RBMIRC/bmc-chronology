@@ -1,0 +1,334 @@
+{
+ "passe": "mois",
+ "cle": "1946-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3921,
+  "sortie": 15803,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1946-04",
+  "session": "semestre de printemps 1946 (deduit : la synthese dit que la question du pouvoir occupe tout le semestre)",
+  "saison_et_climat": "Printemps 1946. Aucune fiche ne decrit le temps d'avril. Le decor est celui du site de Lake Eden, ou la tombe de Jalowetz a ete creusee dans un rocher.",
+  "situation": "Le college croit vite et se gouverne mal. Environ 75 etudiants (GI Bill) occupent des locaux prevus pour 60. Le comite Wallen-Levi-Rondthaler, forme le 13 fevrier, prepare le futur Community Council ; Wallen a deja recu 17 etudiants sur 60 en mars. Le departement de musique a ete decime par la mort de Jalowetz et ne tient que grace a Charlotte Schlesinger et a Mme Jalowetz. La presse se relance, et Design publie en avril un numero special sur le college. Albers, encore la jusqu'a l'institut d'ete, se mefie de la reforme.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Wallen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rondthaler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mme Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Charlotte « Bimbus » Schlesinger",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jim Tite",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ann Mayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Weitzer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nell Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Eddie Lowinsky",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Adolf Dehn",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Karl Niebyl",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "etudiants (environ 75)",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1946-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution d'un numero special de Design consacre au college, dans la vague de visibilite publique qui precede l'institut d'ete.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1946",
+     "fil:Visibilite-publique-du-college"
+    ]
+   },
+   {
+    "date": "1946-04",
+    "precision": "mois",
+    "ce_qui_arrive": "A New York, de Kooning peint avec Milton Resnick une toile de fond pour Labyrinth de Marie Marchowsky : environ 17 pieds carres, peinture de quincaillerie a 5 dollars, pour un cachet de 50 dollars. Hors du college, mais dans le meme mois.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03967"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "saison",
+    "ce_qui_arrive": "Au printemps, Jim Tite trouve a l'aube l'annexe cachee de l'atelier de menuiserie, avec la presse Challenge-Gordon et des casses en desordre. La remise en etat commence.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese-1946"
+    ]
+   },
+   {
+    "date": "1946-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Le comite Wallen-Levi-Rondthaler poursuit son rapport de cinq pages. Le Council de huit membres ne sera arrete qu'a la fin du printemps.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1946",
+     "fil:Wallen-Council"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "periode",
+    "ce_qui_arrive": "Rondthaler obtient trois baraquements militaires (etudes, salles de classe, reserve), faute d'argent pour construire. La date precise n'est pas donnee.",
+    "certitude": "probable",
+    "refs": [
+     "synthese-1946"
+    ]
+   },
+   {
+    "date": "1946",
+    "precision": "periode",
+    "ce_qui_arrive": "Un cours de douze etudiants, premiere experience de student-teaching, s'ouvre pres de la presse remise en etat ; Weitzer y devient co-enseignant.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1946",
+     "fil:Renaissance-Black-Mountain-Press"
+    ]
+   }
+  ],
+  "quotidien": "Les etudiants sont nombreux et les locaux serres. Les GI remontent a la main le baraquement Deep South. La bibliotheque vient d'etre eclairee, ce que Nell Rice salue. Le gouvernement a envoye une presse, des machines a ecrire, un lave-vaisselle et, selon Duberman, cent chaises tournantes et un repasse-pantalons. Weitzer herite du woodshop, dont la porte doit rester deverrouillee ; Molly Gregory annonce son depart et dirige deja la ferme. Mme Jalowetz donne des cours de chant et de reliure. Le cout de la nourriture monte deja (23 595 $ en 1945-46, 36 279 $ en 1946-47).",
+  "tensions": [
+   "Albers voit en Wallen un homme qui veut « prendre le pouvoir » (« The Kaiser ») ; Wallen veut « mettre les choses au grand jour » et reproche a Albers les methodes des « Bentleyites ».",
+   "Le comite est paritaire, mais le vote a la majorite simple en faculte et le referendum revocatoire font craindre aux Europeens un pouvoir mal reparti.",
+   "Soupcon politique autour de Karl Niebyl, que Dehn et Albers pensent capable de fonder une cellule communiste sous le couvert du Southern Negro Youth Congress.",
+   "Deuil et sidération : la communaute porte la mort de Jalowetz, et l'enseignement musical est fragilise.",
+   "Surpeuplement : 75 etudiants pour 60 places, avec des locaux de fortune.",
+   "Wallen renonce a son doctorat de Harvard, signe de son engagement dans le college plutot qu'ailleurs.",
+   "Le departement de Molly Gregory et la ferme sont a bout de souffle, faute de main-d'oeuvre."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Entretiens du comite",
+    "date": "1946-04",
+    "lieu": "campus",
+    "personnages": [
+     "John Wallen",
+     "un etudiant"
+    ],
+    "deroule": "Wallen recoit l'etudiant selon son schema en trois etapes. Le comite avance, mais la faculte reste a distance et se mefie du processus.",
+    "certitude": "deduit",
+    "refs": [
+     "fil:Wallen-Council",
+     "synthese-1946"
+    ]
+   },
+   {
+    "titre": "La presse retrouvee",
+    "date": "1946",
+    "lieu": "atelier de menuiserie",
+    "personnages": [
+     "Jim Tite",
+     "Ann Mayer",
+     "Rondthaler"
+    ],
+    "deroule": "A l'aube, Tite decouvre l'annexe cachee de l'atelier. Il remet la presse en etat avec un moteur de Kelvinator. Rondthaler parle de « resurrection » de la Black Mountain Press.",
+    "certitude": "probable",
+    "refs": [
+     "synthese-1946",
+     "fil:Renaissance-Black-Mountain-Press"
+    ]
+   },
+   {
+    "titre": "Labyrinth a New York",
+    "date": "1946-04",
+    "lieu": "New York",
+    "personnages": [
+     "Willem de Kooning",
+     "Milton Resnick"
+    ],
+    "deroule": "De Kooning agrandit une peinture sur papier pour un decor de danse. Le materiel vient de la quincaillerie, et une chaussure a talon haut apparait pres de la creature satyresque.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03967"
+    ]
+   },
+   {
+    "titre": "Chant et reliure",
+    "date": "1946-04",
+    "lieu": "campus",
+    "personnages": [
+     "Mme Jalowetz",
+     "Charlotte « Bimbus » Schlesinger",
+     "etudiants"
+    ],
+    "deroule": "Mme Jalowetz forme quelques etudiants au chant et donne un cours de reliure. Schlesinger tient ce qui reste du departement de musique.",
+    "certitude": "deduit",
+    "refs": [
+     "synthese-1946"
+    ]
+   },
+   {
+    "titre": "Le baraquement Deep South",
+    "date": "1946",
+    "lieu": "campus",
+    "personnages": [
+     "etudiants",
+     "Lane (temoin)"
+    ],
+    "deroule": "Les etudiants remontent a la main le baraquement, dans le cadre du manque de moyens. Lane date le chantier de 1946-48.",
+    "certitude": "probable",
+    "refs": [
+     "synthese-1946"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Au printemps, la communaute revient sur la mort de Jalowetz, dont la date reste discutee",
+    "vers_date": "1946",
+    "vers": "La mort de Heinrich Jalowetz sur la pelouse, apres un verre chez les Straus, puis l'enterrement sous un tas de pierres. Les dates varient selon les sources.",
+    "refs": [
+     "synthese-1946"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Avril, apres les entretiens de Wallen",
+    "vers_date": "1946-03",
+    "vers": "Wallen recoit 17 etudiants sur 60 en mars et ecrit a ses parents le 25 mars son schema en trois etapes.",
+    "refs": [
+     "synthese-1946",
+     "fil:Wallen-Council"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le comite pese sur la faculte au printemps",
+    "vers_date": "1946-02-13",
+    "vers": "Creation du comite Wallen-Levi-Rondthaler ; Albers declare qu'il faudrait moins de souci a « gouverner les autres » et plus d'etudes reelles.",
+    "refs": [
+     "synthese-1946"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Avril, sur la defense de Rank",
+    "vers_date": "1946-02-28",
+    "vers": "Wallen ecrit a Allport pour defendre Rank.",
+    "refs": [
+     "synthese-1946"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La question du programme de travail reste ouverte",
+    "vers_date": "1945-11",
+    "vers": "Reunions de communaute les 13 et 27 novembre 1945 (probablement) ; Jalowetz figure parmi les deux signataires europeens d'une petition, dont les fiches datees 1946-47 relevent vraisemblablement.",
+    "refs": [
+     "synthese-1946"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin de printemps, la reforme aboutit",
+    "vers_date": "1946-05",
+    "vers": "Le Council de huit membres est arrete ; Wallen lit a la faculte sa declaration (13 mai selon les archives) et est elu president du Council le mois suivant.",
+    "refs": [
+     "synthese-1946",
+     "fil:Wallen-Council"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril, avant l'ete",
+    "vers_date": "1946-07",
+    "vers": "Le Summer Art Institute (juillet-aout) est le moment fort du college, dans une presse qui l'a mis en vedette. Jacob Lawrence y decouvre une dette envers Albers ; Anni Albers acheve With Verticals.",
+    "refs": [
+     "synthese-1946"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril, les Albers preparent leur depart",
+    "vers_date": "1946-08",
+    "vers": "Les Albers partent en voiture pour une annee sabbatique (New York, Boston, Chicago, Denver, Californie, Nouveau-Mexique). Albers ecrit des lettres ou il attaque Wallen.",
+    "refs": [
+     "synthese-1946",
+     "fil:Albers-doutes-sabbatique"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le voyage des Lowinsky en Italie est bloque",
+    "vers_date": "1947-08",
+    "vers": "Le voyage en Italie des Lowinsky est reporte d'un an ; le college les retient jusqu'en aout 1947.",
+    "refs": [
+     "synthese-1946"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin 1946, Albers s'installe",
+    "vers_date": "1946-12",
+    "vers": "Albers s'installe dans une maison en adobe a La Luz, ou il ecrit « enfin la paix ». Une fiche situe la serie Variants/Adobes la, d'autres au Mexique en 1947.",
+    "refs": [
+     "synthese-1946",
+     "fil:Albers-doutes-sabbatique"
+    ]
+   }
+  ],
+  "motifs": [
+   "la pierre sur la tombe et le rocher cache sous la terre",
+   "la porte du woodshop deverrouillee",
+   "la presse retrouvee a l'aube",
+   "le Kaiser et le « pouvoir »",
+   "le telegramme « 47 » pris pour un complot",
+   "les chaises tournantes et le repasse-pantalons",
+   "le voyage d'Italie reporte"
+  ],
+  "lacunes": "Date exacte de la mort de Jalowetz contestee (fin 1945, debut 1946, nuit d'hiver ou soir de printemps). Date du rapport de cinq pages et de la formation du Council imprecise. Date de la remise des baraquements et de la presse inconnue. Date de fin du contrat de Niebyl inconnue. Effectif contradictoire (75 au printemps, 61 sur 90 en petition). Date du baraquement Deep South selon Lane seulement. Presence de Dreier non precisee. Le temps d'avril n'est pas documente. Les fiches datees 1946-47 renvoient probablement a l'automne 1945, mais ce n'est pas etabli."
+ }
+}

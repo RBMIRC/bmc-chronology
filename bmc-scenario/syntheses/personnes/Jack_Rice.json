@@ -1,0 +1,336 @@
+{
+ "passe": "personnes",
+ "cle": "Jack Rice",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 8172,
+  "sortie": 9054,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Jack Rice",
+  "autres_noms": [
+   "Jack (chez Rumaker, 1955)",
+   "frère de Dan Rice"
+  ],
+  "dates_de_vie": "Inconnues dans les fiches. C'est un ancien marine, adulte en 1953, père d'une fille (Megan) et d'un enfant à naître. Il est frère aîné de Dan Rice (RE-02647 le dit « aîné »).",
+  "statut_bmc": "Ancien étudiant du collège, puis membre du personnel et non enseignant : chef du Work Committee, coordinateur du travail (« nouvellement embauché » à l'été 1953 selon Rumaker), brièvement responsable de l'entretien, et constructeur d'une aile de poterie pour les Weinrib. Il démissionne après une dispute avec Huss.",
+  "presence": [
+   {
+    "debut": "1949",
+    "fin": "1952",
+    "role": "Chef du Work Committee avec Dawson et Clark. Il participe au Work Program, aux soirées arrosées et au projet de décalage horaire. Cette période vient de Lane et Dawson, et elle est difficile à concilier avec l'« embauche nouvelle » de 1953 chez Rumaker. On peut y voir une présence d'étudiant ou de travailleur avant son engagement officiel (déduction).",
+    "refs": [
+     "QU-01237",
+     "QU-01495",
+     "QU-01288",
+     "EV-05153",
+     "EV-05159",
+     "PE-00209"
+    ]
+   },
+   {
+    "debut": "1951-07",
+    "fin": "",
+    "role": "Chargé par les Weinrib d'édifier une aile entière pour la poterie. Les bornes de la fiche sont très larges (jusqu'en 1966), donc la date réelle du chantier reste incertaine.",
+    "refs": [
+     "EV-05527"
+    ]
+   },
+   {
+    "debut": "1952",
+    "fin": "1953",
+    "role": "Coordinateur du travail, « gung-ho » sur « the plant ». Il réveille les récalcitrants et tente de remettre de l'ordre dans le programme de bourses de travail. Len Billing prend ensuite le relais. Rumaker le place à l'été 1953, avec sa femme Barbara enceinte et sa fille Megan.",
+    "refs": [
+     "QU-01601",
+     "QU-01677",
+     "QU-01719",
+     "EV-06014",
+     "EV-05952",
+     "PE-00209"
+    ]
+   },
+   {
+    "debut": "1953",
+    "fin": "1953",
+    "role": "Démission furieuse après une dispute avec Huss (et Olson selon Rumaker), précédée d'un ultimatum de six pages épinglé au tableau. Une fiche, fondée sur Rumaker p.490, la situe vers 1954-1956, alors que Duberman la place en 1952-1953.",
+    "refs": [
+     "EV-05642",
+     "EV-06015",
+     "EV-06360",
+     "RE-02482",
+     "RE-02502"
+    ]
+   }
+  ],
+  "portrait_physique": "Deux portraits coexistent. Chez Rumaker, en 1953 : ex-marine, veste de cuir noir, large ceinture à grosse boucle, levis crasseux et moulants, lourdes bottes de travail, visage d'oiseau moucheté, pommettes hautes, lèvres fines et serrées, yeux bleus perçants, crâne en brosse blond fraise. Une autre description, rattachée à la même fiche (le « Jack » de 1955 ?), parle de cheveux bruns ondulés et brillants, d'une beauté farouche, d'un corps bien fait, d'yeux bleu acier « laser » et d'une poigne d'acier. Les deux ne se superposent pas (voir contradictions). Constantes : le regard perçant, le corps dur, les vêtements de travail.",
+  "noyau_psychologique": "Un homme de commandement et de loyauté brute qui a besoin d'un cadre à tenir : le travail, le « plant », la discipline du marine. Quand le cadre ne tient pas (installations délabrées, faculté qui ne le soutient pas), la frustration éclate en colère écrite et sonore. Sous l'aboiement, il y a un complice rieur des étudiants : il voit leurs combines et les approuve. Sa fierté est telle qu'il ne supporte pas d'être refusé ou de manquer de soutien. Sa seule loyauté sans faille va à Olson, qu'il exempte de tout reproche (attesté). Tout le reste est interprétation du scénariste.",
+  "blessures": "Le sentiment de ne pas être soutenu par la faculté et par Huss, face à des bâtiments irréparables et à un programme de travail qui s'effondre (attesté). Le refus qu'il ne peut admettre en 1955 : la déception chez lui est à peine perceptible, car il est trop fier (EV-06674). Le reste est déduit : une fidélité à une hiérarchie qui ne la lui rend pas.",
+  "desirs": "Faire marcher « the plant » et obtenir ordre et reconnaissance. Dans la partie new-yorkaise (si le « Jack » de Rumaker est bien lui), il désire Rumaker avec une intensité féroce (attesté chez Rumaker). Il le flatte, le séduit et organise une rencontre « fortuite » après avoir extorqué son adresse.",
+  "peurs": "Peu documentées. Chez lui, la peur est surtout absente de la scène : c'est Rumaker qui a peur. On sait qu'il cache sa vie privée à ses deux colocataires néerlandais, ce qui suggère la crainte du dévoilement (déduction). Il joue aussi le gardien de l'hétérosexualité de son frère Dan, qu'il maintient « strictement rassuré » (EV-06360), ce qui peut trahir un enjeu de peur ou de contrôle sur ce sujet (déduction).",
+  "maniere_d_aimer": "Envahissante et physique. Au cinéma, il serre la main de Rumaker sous le manteau sans relâche, jusqu'à lui faire mal aux os. Dans la rue, il s'arrange pour tomber sur lui, monologue avec charme en le fixant, et lui envoie le message muet de monter dans sa chambre. Il intimide par la force de son appétit, et il se retire sans éclat quand on le refuse. La relation avec Rumaker est une attirance mutuelle jamais consommée.",
+  "rapport_au_pouvoir": "Sergent instructeur : il aboie les ordres, martèle les portes, réveille les dormeurs. Il est aussi un subalterne qui exige du soutien d'en haut, et il se brouille avec presque tout le monde. Il épargne Olson seul, et lui seul peut désamorcer sa colère par le rire. Il fait confiance aux combines des étudiants quand elles sont drôles ou astucieuses. Il s'engage avec zèle dans les plans du Work Committee, même le décalage horaire dont il voit bien l'argument caché.",
+  "voix": {
+   "registre": "Anglais parfait, légèrement accentué de néerlandais chez le « Jack » de 1955. Il est bavard, charmant, soyeux et énergique dans ce registre. Ordres secs et aboyés dans le registre travail. Solennité moqueuse devant les étudiants.",
+   "tics": "Il aboie le nom de famille (« Gillespie ») suivi d'une question de rappel à l'ordre. Il insiste par des relances courtes (« Tu viens ? »). Il rit d'un coup devant l'absurde ou le dégoût. Il lance des formules pince-sans-rire au ton grave. Il martèle les portes.",
+   "exemples_paraphrases": [
+    "Aux dormeurs : il rappelle sèchement qu'ils sont de corvée ce matin, puis demande s'ils viennent, sans attendre vraiment de réponse (EV-06014).",
+    "En classe d'Olson, après un long silence, il décrète d'un air solennel que le texte est une sorte de crise gothique, et toute la classe reprend en chœur (SC-01490).",
+    "Devant la fosse septique débordée, il dit en riant : « Okay. Let's look inside » (rapporté dans la fiche agrégée).",
+    "À Rumaker, en 1955, il se dit passé par hasard dans le quartier, puis tisse un monologue charmant sans quitter ses yeux (SC-01805)."
+   ]
+  },
+  "habitudes": [
+   "Il porte en permanence des levis crasseux de travailleur, un cuir noir et de lourdes bottes.",
+   "Il fait le tour des équipes de travail à l'aube et frappe aux portes.",
+   "Il boit avec Dawson et d'autres : « ivresses communes » (QU-01288).",
+   "Il cache sa vie privée à ses colocataires (période new-yorkaise, si identification correcte).",
+   "Il lit les affiches du tableau d'entrée, où il épingle lui-même son ultimatum de six pages.",
+   "Il surveille son frère Dan sur la question de l'hétérosexualité."
+  ],
+  "convictions": [
+   "Le travail commun doit tenir : les corvées sont dues, les équipes se lèvent.",
+   "Les installations délabrées ne sont pas son fait ; la faculté doit le soutenir.",
+   "Olson est le seul innocent de l'incompétence et de la magouille ambiantes (attesté : lettre de démission).",
+   "Les combines des étudiants sont légitimes tant qu'elles sont drôles ou ingénieuses (déduction à partir de EV-05159)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1949",
+    "moment": "Membre puis chef du Work Committee, et compagnon de beuveries de Dawson. Il approuve le plan de décalage de l'heure du collège pour avoir plus de jour pour le travail, tout en voyant que c'est un prétexte à boire plus tard.",
+    "etat_interieur": "Complice, joyeux, plein d'énergie, lucide sur les combines. Date vague : fiches ≈1949-1952.",
+    "refs": [
+     "QU-01237",
+     "QU-01288",
+     "EV-05159",
+     "QU-01495",
+     "EV-05153"
+    ]
+   },
+   {
+    "date": "1951-07",
+    "moment": "Les Weinrib lui confient la construction d'une aile entière pour la poterie. Les bornes de la fiche sont très larges, et on ne sait pas si c'est avant ou après sa période de coordinateur.",
+    "etat_interieur": "Constructeur sollicité, artisan efficace (déduction).",
+    "refs": [
+     "EV-05527"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "Été 1953 selon Rumaker : il arrive comme coordinateur du travail avec sa femme Barbara enceinte et sa fille Megan. Il réveille à l'aube les récalcitrants dont Merrill Gillespie, découvre Merrill et Rumaker enlacés, fixe le renflement de la couette et sort en claquant la porte, sans l'ébruiter dans les fiches.",
+    "etat_interieur": "Autorité rigide mais regard aigu, silencieux sur ce qu'il a vu. Tension entre machisme militaire et sexualité tue.",
+    "refs": [
+     "EV-06014",
+     "SC-01616",
+     "QU-01677",
+     "CI-02999"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "Le programme de travail s'effondre (bourses de travail négligées, ferme perdue). Dispute avec Huss et Olson sur le manque de soutien perçu. Rice épingle un ultimatum de six pages au tableau et écrit une lettre de démission enragée, presque incohérente, qui n'innocente qu'Olson.",
+    "etat_interieur": "Colère, frustration, orgueil blessé, accès de « testostérone » selon Rumaker.",
+    "refs": [
+     "EV-05642",
+     "EV-05952",
+     "EV-06015",
+     "RE-02482",
+     "RE-02502",
+     "CI-02834"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "Olson, devant la lettre, se pend au cou un écriteau « I am exonerated ». Rice, furieux contre tous, éclate de rire. La querelle se transforme en rire complice, avec Olson seul.",
+    "etat_interieur": "Désarmé par l'humour, réconcilié avec le seul qu'il respecte.",
+    "refs": [
+     "SC-01489",
+     "RE-02357",
+     "EV-05642"
+    ]
+   },
+   {
+    "date": "1953",
+    "moment": "À une date non précisée : dans le cours d'Olson, il lance sa formule solennelle (« une sorte de crise gothique »), qui devient un refrain de classe. Les sources placent la scène entre ≈1952 et 1970 : on ne peut pas l'ancrer précisément dans l'arc.",
+    "etat_interieur": "Ironique, complice des étudiants, pince-sans-rire (déduction).",
+    "refs": [
+     "SC-01490"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Ancien marine ; la fiche en fait un « sergent instructeur ». Son style de commandement est celui du Corps.",
+    "refs": [
+     "PE-00209",
+     "EV-06014"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Ancien étudiant du collège, frère aîné de Dan Rice. Il joue auprès de lui le gardien de son hétérosexualité. Aucune date précise n'est donnée pour ses études ni pour leur fin.",
+    "refs": [
+     "PE-00209",
+     "RE-02647",
+     "EV-06360"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Selon la fiche agrégée, un « journaliste et romancier en herbe venu de Hollande » correspondrait au Jack de 1955. Rien d'autre sur ce passé néerlandais, qui est difficile à concilier avec le marine américain (voir contradictions).",
+    "refs": [
+     "PE-00209",
+     "EV-06673"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1953",
+    "moment": "Démission du collège après sa dispute avec Huss. Il ne reste pas, et le programme de travail perd son encadrement (Len Billing prend le relais, puis arrêt complet du programme en 1955).",
+    "refs": [
+     "EV-05642",
+     "EV-05952",
+     "QU-01601"
+    ]
+   },
+   {
+    "date": "1954",
+    "moment": "Selon Rumaker (p.490), sa démission furieuse est liée à la frustration contre les installations délabrées et au sentiment de non-soutien de la faculté. La fiche EV-06360 date l'épisode d'environ 1954-1956, ce qui entre en conflit avec la date de Duberman.",
+    "refs": [
+     "EV-06360",
+     "RE-02647"
+    ]
+   },
+   {
+    "date": "1955-01",
+    "moment": "À New York, un « Jack », journaliste hollandais, séduit Rumaker : soirée à Camille avec la main serrée à lui faire mal ; rencontre « fortuite » à Sheridan Square et invitation muette à monter. Rumaker fuit. Ce « Jack » est lié à Jack Rice par la fiche agrégée et RE-02694 ; l'identification est à vérifier.",
+    "refs": [
+     "EV-06673",
+     "SC-01804",
+     "EV-06674",
+     "SC-01805",
+     "RE-02694"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Charles Olson",
+    "nature": "Conflit transformé en complicité ; le seul qu'il innocente.",
+    "evolution": "La lettre de démission l'exonère, Olson répond par l'écriteau, et Rice éclate de rire. Pourtant Olson ne dit rien publiquement de l'ultimatum épinglé, et Rumaker note qu'Olson, amusé, demande aux lecteurs leur avis.",
+    "refs": [
+     "RE-02357",
+     "SC-01489",
+     "EV-06015",
+     "EV-05642"
+    ]
+   },
+   {
+    "avec": "Wesley Huss",
+    "nature": "Conflit direct.",
+    "evolution": "La dispute avec Huss provoque la démission. L'ultimatum de six pages vise « Huss et consort ». Une fiche relationnelle mélange son nom (« Theodore Dreier Huss »), ce qui est suspect.",
+    "refs": [
+     "RE-02482",
+     "RE-02502",
+     "EV-05952",
+     "EV-06015"
+    ]
+   },
+   {
+    "avec": "Dan Rice",
+    "nature": "Famille : frère aîné et gardien.",
+    "evolution": "Il rassure strictement Dan sur son orientation avant de partir furieux.",
+    "refs": [
+     "RE-02647",
+     "EV-06360"
+    ]
+   },
+   {
+    "avec": "Michael Rumaker",
+    "nature": "Surprise à l'aube en 1953, puis attirance non consommée en 1955.",
+    "evolution": "En 1953 il découvre Rumaker avec Merrill et reste silencieux. En 1955 (si c'est lui) il le séduit : Rumaker, séduit mais effrayé, fuit à chaque rencontre.",
+    "refs": [
+     "EV-06014",
+     "RE-02694",
+     "EV-06673",
+     "EV-06674"
+    ]
+   },
+   {
+    "avec": "Merrill Gillespie",
+    "nature": "Subordonné récalcitrant.",
+    "evolution": "Rice le tire de son sommeil pour la corvée et ne le dénonce pas dans les fiches ; l'incident vaudra pourtant à Merrill une nouvelle demande de départ selon Rumaker.",
+    "refs": [
+     "SC-01616",
+     "EV-06014"
+    ]
+   },
+   {
+    "avec": "Dawson (narrateur) et Clark Kent",
+    "nature": "Compagnons de travail et de boisson.",
+    "evolution": "Complicité autour du Work Committee et du décalage horaire, qu'il approuve en connaissance de cause.",
+    "refs": [
+     "EV-05159",
+     "QU-01288",
+     "QU-01495",
+     "EV-05153"
+    ]
+   },
+   {
+    "avec": "Weinrib (couple)",
+    "nature": "Employeurs ponctuels : ils lui commandent l'aile de poterie.",
+    "evolution": "Sans suite dans les fiches.",
+    "refs": [
+     "EV-05527"
+    ]
+   },
+   {
+    "avec": "Len Billing",
+    "nature": "Successeur dans l'encadrement des bourses de travail.",
+    "evolution": "Billing continue après Rice, sans améliorer le résultat.",
+    "refs": [
+     "QU-01601",
+     "QU-01719"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Identité : l'« ancien marine » frère de Dan Rice et le « Jack » journaliste et romancier venu de Hollande, à l'anglais accentué de néerlandais, ne cadrent pas bien. La fiche agrégée et RE-02694 les fusionnent, mais EV-06673 et EV-06674 ne disent pas « Rice ». C'est une hypothèse d'identification, à ne pas traiter comme acquise.",
+   "Apparence : brosse blond fraise et visage d'oiseau moucheté (EV-06014) contre cheveux bruns ondulés et beauté farouche (fiche agrégée).",
+   "Chronologie : Duberman et Rumaker situent sa démission en 1952-1953 ; EV-06360 (Rumaker p.490) la place vers 1954-1956. Dawson et Lane le montrent dans le Work Committee dès 1949-1950, alors que Rumaker le dit « nouvellement embauché » à l'été 1953 ; l'explication « ancien étudiant » est une déduction.",
+   "Rôle : coordinateur du travail selon Rumaker et Duberman, mais aussi « responsable de l'entretien » selon EV-06360. La fiche note que Billing a pris le relais (QU-01601).",
+   "Dispute : Duberman parle d'une querelle avec Huss seul ; Rumaker parle de Huss et d'Olson, que Rice exonère pourtant dans l'ultimatum. Lettre de démission et ultimatum épinglé sont-ils un même document ? Ce n'est pas dit.",
+   "Contexte et réaction d'Olson : Duberman raconte l'écriteau « I am exonerated » et le rire de Rice ; Rumaker dit qu'Olson n'en a rien dit publiquement. Les deux versions peuvent se concilier (écriteau plus tard), mais pas nécessairement."
+  ],
+  "situations_revelatrices": [
+   "Réveil à l'aube d'un dormeur récalcitrant, avec ordre sec et claquement de porte.",
+   "Corvée dégoûtante (fosse septique) où il rit de la grimace d'un autre.",
+   "Réunion ou tableau d'affichage où il met son colère par écrit.",
+   "Classe d'Olson où il joue la solennité moqueuse.",
+   "Face à Olson, qui désamorce par l'humour.",
+   "Rencontre amoureuse où son désir intimide l'autre jusqu'à la fuite.",
+   "Discussion avec son frère Dan sur la sexualité, où il joue le gardien."
+  ],
+  "citations": [
+   "« It's a… it's a kind of Gothic seizure » : Rice en classe d'Olson (SC-01490).",
+   "« Gillespie, you know you're on a work crew this morning? » : Rice, à l'aube (CI-02999, SC-01616).",
+   "« You coming? » : Rice insiste auprès de Merrill (SC-01616).",
+   "« I am exonerated » : écriteau d'Olson, qui fait rire Rice (SC-01489).",
+   "« Okay. Let's look inside » : Rice devant la fosse (PE-00209).",
+   "Seul Olson est innocenté d'incompétence et de magouilles dans sa lettre de démission (CI-02834, paraphrase)."
+  ],
+  "questions_ouvertes": [
+   "Le Jack hollandais de 1955 est-il bien Jack Rice, frère de Dan ?",
+   "Quand Rice a-t-il été étudiant au collège, et pourquoi y revient-il comme employé ?",
+   "Quelle est la date exacte de sa démission (1953, ou après) ?",
+   "Qui sont Barbara et Megan avant et après son départ ?",
+   "Que devient-il après le collège (emploi, lieu, mort) ?",
+   "Que contient la lettre de démission des Raleigh Archives, et se confond-elle avec l'ultimatum de six pages ?",
+   "Dan Rice et lui : que sait-on de leur relation hors du « gardiennage » ?",
+   "À quel moment exact se situent la scène « Gothic seizure » et le chantier de poterie pour les Weinrib ?"
+  ]
+ }
+}

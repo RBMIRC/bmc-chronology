@@ -1,0 +1,99 @@
+{
+ "passe": "enseignements",
+ "cle": "Jean Charlot",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1449,
+  "sortie": 1838,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Jean Charlot",
+  "cours": [
+   {
+    "intitule": "Cours / classe de dessin et fresque (atelier de fresque)",
+    "periodes": [
+     "été 1944"
+    ],
+    "atteste": "oui",
+    "objectifs": "Transmettre le processus complet de la fresque, du mortier à la pose des pigments (CO-00390). Appliquer aux nouveaux bâtiments du collège les techniques de fresque que Charlot avait mises au point pour ses muraux mexicains (CO-00380, CO-00381).",
+    "deroule_type_seance": "Attesté de façon partielle. On travaillait à l'ombre fraîche sous le Studies Building, devant un pilier de ciment (CO-00390). Le déroulé se reconstitue ainsi : préparer le ciment et le mortier, reporter section par section les diagrammes sur papier brun contre le mur, au rythme du séchage, puis poser les pigments. Cet ordre est une déduction à partir des exercices cités, aucune fiche ne décrit une séance minutée. Les fiches ne donnent ni horaires, ni effectif, ni jours précis.",
+    "exercices": [
+     {
+      "consigne": "Mélanger et pelleter le ciment (travail manuel de préparation du support, que les étudiants assuraient eux-mêmes).",
+      "materiaux": "Ciment, mortier frais",
+      "but": "Faire comprendre le processus de la fresque dès la préparation du mortier.",
+      "refs": [
+       "CO-00390"
+      ]
+     },
+     {
+      "consigne": "Reporter les diagrammes sur papier brun sur le mur, section par section, au fur et à mesure que le mortier sèche.",
+      "materiaux": "Papier brun, diagrammes, mortier frais, pigments",
+      "but": "Apprendre à avancer par sections selon le séchage, puis à poser les pigments.",
+      "refs": [
+       "CO-00390"
+      ]
+     },
+     {
+      "consigne": "Décorer en fresque les piliers de béton qui soutiennent le nouveau pavillon d'études (Studies Building), en appliquant les techniques de fresque développées par Charlot pour ses muraux mexicains.",
+      "materiaux": "Fresque sur béton",
+      "but": "Réaliser une œuvre réelle et durable intégrée à l'architecture du collège.",
+      "refs": [
+       "CO-00380",
+       "CO-00381",
+       "CO-00390"
+      ]
+     }
+    ],
+    "lectures_et_references": [
+     "Les muraux mexicains de Charlot, dont les techniques servent de modèle à l'atelier (CO-00380, CO-00381).",
+     "Sa conférence sur le Mexique de septembre 1943, donnée à BMC avant l'invitation à enseigner (SC-00867, SC-00868)."
+    ],
+    "propos_types": [
+     "Aucune parole de Charlot en cours n'est rapportée dans les fiches. Seuls les propos de son journal de septembre 1943 existent : il admire les photographies du Mexique prises par Albers, évoque sa conférence sur le Mexique, la réception avec du vin, et note qu'on lui demande d'enseigner l'été suivant (SC-00867, SC-00868)."
+    ],
+    "critique_et_evaluation": null,
+    "reactions_etudiants": "Chez Woldin, l'atelier fit naître une fascination durable pour le mortier humide et la liaison (CO-00390). C'est la seule réaction attestée dans les fiches.",
+    "evolution": "L'enseignement fait suite à l'invitation formulée en septembre 1943 (SC-00867, SC-00868) et se réalise l'été 1944. Les fiches ne montrent pas de suite au-delà de cet été. Les fresques de 1944 sont décrites comme le fruit d'une collaboration avec les Albers (SC-00868).",
+    "refs": [
+     "CO-00380",
+     "CO-00381",
+     "CO-00390",
+     "SC-00867",
+     "SC-00868"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "La fresque est un processus où le geste suit la matière : on avance par sections au rythme du séchage du mortier, ce qui impose de planifier le dessin à l'avance (diagrammes reportés sur papier brun).",
+    "en_classe": "Faire préparer le support par les étudiants, reporter un carton section par section, et faire poser les pigments pendant que le mortier est encore frais. L'attesté s'arrête à l'atelier de 1944 (CO-00390). La formulation de l'idée comme principe est une déduction.",
+    "atteste": "incertain",
+    "refs": [
+     "CO-00390"
+    ]
+   },
+   {
+    "idee": "Les techniques d'un art de tradition mexicaine peuvent s'appliquer à l'architecture moderne : la fresque sur béton pour les piliers du nouveau bâtiment.",
+    "en_classe": "Associer la pratique d'atelier à un lieu réel du collège, un pilier ou un mur, de sorte que l'exercice devienne une décoration durable. Attesté pour les piliers du Studies Building en 1944.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00380",
+     "CO-00381",
+     "CO-00390"
+    ]
+   },
+   {
+    "idee": "Le Mexique comme horizon commun : Charlot et les Albers partagent images et récits du Mexique, ce qui prépare l'enseignement.",
+    "en_classe": "Ouvrir une séance ou un cycle par une conférence illustrée et une rencontre conviviale autour de photographies. Attesté en septembre 1943 comme conférence et réception, mais pas comme dispositif de cours.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-00867",
+     "SC-00868"
+    ]
+   }
+  ]
+ }
+}

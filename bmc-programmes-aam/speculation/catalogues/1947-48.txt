@@ -1,0 +1,137 @@
+# Concordance des cours 1947-48 → gabarits de l'année reconstituée (deux semestres).
+#
+# Sources : aucun bulletin de la communauté entre décembre 1946 et 1949 dans le corpus. Restent :
+#   2017.40.041 (Announcements 1948-49, avril 1948) : liste par domaine des cours donnés en 1947-48, et corps enseignant
+#     (avec matière) ; les enseignants sont rattachés par cette liste
+#   2017.40.039 (mars 1947) : calendrier 1947-48 (17 sept. – 4 févr. ; 12 févr. – 16 juin) ; Lowinsky en congé
+#     (Guggenheim) ; Albers de retour en septembre
+#   2017.40.042 / 043 (Summer Session 1948 : annonce d'avril, bilan de septembre)
+# Les semestres de chaque cours sont inconnus : 2 chances sur 3 par semestre (les cours des deux listes de 1947-48 sont
+# ceux « donnés » dans l'année). Les vacances de Noël 1947 ne sont pas attestées : elles sont supposées du 14 décembre au
+# 6 janvier (entre les usages de 1946-47 et de 1948-49) et exclues des gabarits.
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ARTS (J. et A. Albers, I. Bolotowsky, T. Guermonprez, J. Jalowetz, C. Schlesinger, M. C. Richards) ----------
+C|art.peinture|Arts|Painting|Painting (Bolotowsky, 1946-47)|—
+C|art.dessin|Arts|Drawing|Drawing (Bolotowsky, 1946-47)|—
+C|art.design|Arts|Design|Design (Albers, 1945-46)|—
+C|art.tissage|Arts|Weaving|Weaving I-II (Mayer, 1946-47)|—
+C|art.reliure|Arts|Bookbinding|Book Binding (1946-47)|—
+C|mu.musique|Arts|Music (theory)|Harmony; Counterpoint (Schlesinger, 1946-47)|—
+C|mu.piano|Arts|Piano|Piano (1946-47)|—
+C|mu.choeur|Arts|Chorus|Chorus (1946-47)|—
+C|ecr.ecriture|Arts|Writing|Writing (Richards, 1946-47)|—
+C|etu.groupes|Arts|Student-led groups in Acting, Sculpture, Printing|—|—
+U|JA1|Josef Albers|4|MEME_ANNEE+R_NOMME+VOISIN|art.design|||1|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Josef Albers, « Art » ; de retour en septembre 1947 (2017.40.039)|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|JA2|Josef Albers|4|MEME_ANNEE+R_NOMME+VOISIN|art.dessin|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|IB1|Ilya Bolotowsky|4|MEME_ANNEE+R_NOMME+VOISIN|art.peinture|||1|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Bolotowsky, « Painting and Drawing »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|IB2|Ilya Bolotowsky|4|MEME_ANNEE+R_NOMME+VOISIN|art.dessin|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|AA|Anni Albers; Trude Guermonprez|1+4|MEME_ANNEE+R_NOMME+VOISIN|art.tissage|||1|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Anni Albers, « Textile Design » ; Trude Guermonprez, « Weaving »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|JJ|Johanna Jalowetz|2|MEME_ANNEE+R_NOMME+VOLUME|art.reliure|||1|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Johanna Jalowetz, « Bookbinding and Voice »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|CS1|Charlotte Schlesinger|2|MEME_ANNEE+R_NOMME+VOLUME|mu.musique|||1|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Schlesinger, « Music » ; Lowinsky en congé (Guggenheim)|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|CS2|Charlotte Schlesinger|2x90|MEME_ANNEE+R_NOMME+VOISIN+HEURE_CADRE|mu.choeur|||1|idem ; chœur du mardi soir des années précédentes|mar 19:30-21:00||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|CS3|Charlotte Schlesinger; Johanna Jalowetz|1|MEME_ANNEE+R_NOMME+OCCASION|mu.piano|leçons individuelles (piano, chant)||1|idem||plage indicative|fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|MR1|Mary Caroline Richards|3|MEME_ANNEE+R_NOMME+VOLUME|ecr.ecriture|||2/3|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Richards, « English »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+N|etu.groupes|groupes dirigés par des étudiants, sans horaire
+
+# ---------- LANGUES ET LITTÉRATURE (T. Rondthaler, F. A. Rice, M. C. Richards, D. Corkran) ----------
+C|la.latin|Latin|Latin|Elementary Latin (1946-47)|—
+C|de.debut|German|German (beginning)|—|—
+C|de.inter|German|German (intermediate)|—|—
+C|fr.ru|Languages|French and Russian (informal study)|French (Malton, 1946-47)|—
+C|en.langue|English|History of the English Language|—|—
+C|en.poesie|English|Poetry|—|—
+C|en.fiction|English|Fiction|—|—
+C|en.grec|English|Greek Drama|Cultural History of the Greek World (Levi, 1946-47, approché)|—
+C|en.amlit|English|American Literature 1850-1900|American Civilization (1946-47, approché)|—
+U|TR|Theodore Rondthaler|3|MEME_ANNEE+R_NOMME+VOLUME|la.latin|||2/3|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Rondthaler, « History »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|FR1|Frank A. Rice|3|MEME_ANNEE+R_NOMME+VOLUME|de.debut|||1|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Frank A. Rice, « German »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|FR2|Frank A. Rice|3|MEME_ANNEE+R_NOMME+VOLUME|de.inter|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+N|fr.ru|« informal study » : sans horaire
+U|MR2|Mary Caroline Richards|3|MEME_ANNEE+R_COMPET+VOLUME|en.poesie|||2/3|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Richards, « English »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|MR3|Mary Caroline Richards|3|MEME_ANNEE+R_COMPET+VOLUME|en.fiction|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|MR4|Mary Caroline Richards|2|MEME_ANNEE+R_COMPET+VOLUME|en.langue|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|MR5|Mary Caroline Richards; Albert W. Levi|3|MEME_ANNEE+R_COMPET+VOLUME|en.grec|||2/3|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; enseignant par compétence (Levi a donné l'histoire culturelle du monde grec en 1946-47)|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|DC1|David Corkran|3|MEME_ANNEE+R_NOMME+VOLUME|en.amlit|||2/3|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Corkran, « American History and Literature »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+
+# ---------- MATHÉMATIQUES ET SCIENCES (M. Dehn, T. Dreier, N. Goldowski) ----------
+C|ma.elem|Mathematics|Elementary and Higher Mathematics|Mathematics (Dehn, 1946-47)|—
+C|ma.projective|Mathematics|Projective Geometry|—|—
+C|ma.meca|Mathematics|Mathematical Analysis and Mechanics|Mechanics and Mathematical Analysis (1946-47)|—
+C|ma.calcul|Mathematics|Calculus|—|—
+C|ma.avance|Mathematics|Advanced Mathematics|—|—
+C|ph.physique|Physics|Physics|Physics (Dreier, 1946-47)|—
+C|ch.chimie|Chemistry|Chemistry|Introduction to Theoretical Chemistry (Hansgirg, 1946-47)|—
+C|ch.organique|Chemistry|Organic Chemistry|—|—
+C|ch.quanti|Chemistry|Quantitative Analysis|—|—
+U|MD1|Max Dehn|3|MEME_ANNEE+R_NOMME+VOLUME|ma.elem|||1|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Dehn et Dreier, « Mathematics »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|MD2|Max Dehn|3|MEME_ANNEE+R_NOMME+VOLUME|ma.projective|||2/3|idem ; la géométrie projective est la spécialité de Dehn|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|MD3|Max Dehn|3|MEME_ANNEE+R_COMPET+VOLUME|ma.avance|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|TD1|Ted Dreier|3|MEME_ANNEE+R_NOMME+VOLUME|ma.meca|||2/3|idem ; « Mechanics and Mathematical Analysis » de Dreier en 1946-47|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04
+U|TD2|Ted Dreier|3|MEME_ANNEE+R_COMPET+VOLUME|ma.calcul|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|NG1|Natasha Goldowski|3+4L|MEME_ANNEE+R_NOMME+VOLUME|ch.chimie|||1|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Natasha Goldowski, « Chemistry and Physics »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|NG2|Natasha Goldowski|3|MEME_ANNEE+R_NOMME+VOLUME|ph.physique|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|NG3|Natasha Goldowski|3|MEME_ANNEE+R_NOMME+VOLUME|ch.organique||ch.quanti|1/2|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+N|ch.quanti|candidat de NG3
+
+# ---------- SCIENCES SOCIALES ET PHILOSOPHIE (J. Wallen, C. Bloomstein, D. Corkran, A. W. Levi) ----------
+C|psy.groupe|Social Studies|Group Process|Human Relations (1946-47, approché)|—
+C|psy.individu|Social Studies|Individual and Society|Psychology of Social Issues (1946-47, approché)|—
+C|soc.luttes|Social Studies|History of Social Struggles|—|—
+C|soc.sol|Social Studies|Soil and Steel|—|—
+C|eco.intro|Social Studies|Introductory Economics|Historical Introduction to Present-Day Economic Analysis (Niebyl, 1946-47, approché)|—
+C|eco.compta|Social Studies|Accounting|—|—
+C|eco.travail|Social Studies|Labor's Economic Problems|—|—
+C|eco.relations|Social Studies|Labor Relations|—|—
+C|gv.am|Social Studies|American Government|American Government (1946-47)|—
+C|hi.amciv|Social Studies|American Civilization|American Civilization (1946-47)|—
+C|phi.logique|Social Studies|Logic|Logic and the Philosophy of Science (Dreier, 1946-47)|—
+C|phi.ethique|Social Studies|Ethics|—|—
+C|phi.sciences|Social Studies|Philosophy of Science|—|—
+C|phi.histoire|Social Studies|History of Philosophy|Medieval Philosophy (Levi, 1946-47, approché)|—
+C|phi.mill|Social Studies|John Stuart Mill|—|—
+C|phi.contemp|Social Studies|Contemporary Philosophy|—|—
+U|JW1|John Wallen|3|MEME_ANNEE+R_NOMME+VOLUME|psy.groupe|||1|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Wallen, « Psychology »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|JW2|John Wallen|3|MEME_ANNEE+R_NOMME+VOLUME|psy.individu|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|CB1|Charles Bloomstein|3|MEME_ANNEE+R_NOMME+VOLUME|eco.intro|||1|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Charles Bloomstein, « Social Science and Business Administration »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|CB2|Charles Bloomstein|2|MEME_ANNEE+R_NOMME+VOLUME|eco.compta|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|CB3|Charles Bloomstein|3|MEME_ANNEE+R_NOMME+VOLUME|eco.travail||eco.relations|2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|CB4|Charles Bloomstein|3|MEME_ANNEE+R_COMPET+VOLUME|soc.luttes||soc.sol|1/2|idem ; enseignant par compétence|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+N|eco.relations|candidat de CB3
+N|soc.sol|candidat de CB4 (« Soil and Steel », sans enseignant connu)
+U|DC2|David Corkran|3|MEME_ANNEE+R_NOMME+VOLUME|hi.amciv|||2/3|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Corkran, « American History and Literature »|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|DC3|David Corkran|3|MEME_ANNEE+R_NOMME+VOLUME|gv.am|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|BL1|Albert W. Levi|3|MEME_ANNEE+R_NOMME+VOLUME|phi.logique|||2/3|liste des cours donnés en 1947-48 (Announcements 1948-49, avril 1948, 2017.40.041) ; Levi, « Social Science » ; philosophe|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|BL2|Albert W. Levi|3|MEME_ANNEE+R_NOMME+VOLUME|phi.ethique|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|BL3|Albert W. Levi|3|MEME_ANNEE+R_NOMME+VOLUME|phi.histoire|||2/3|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|BL4|Albert W. Levi|2|MEME_ANNEE+R_NOMME+VOLUME|phi.mill||phi.contemp|1/2|idem|||fall@1947-09-17..1947-12-13,fall@1948-01-07..1948-02-04,spring
+U|TD3|Ted Dreier|2|MEME_ANNEE+R_COMPET+VOLUME|phi.sciences|||2/3|idem ; Dreier annonçait « Logic and the Philosophy of Science » pour le printemps 1947|||spring
+N|phi.contemp|candidat de BL4
+
+# ---------- SUMMER SESSION 1948 (bilan de septembre 1948, 2017.40.043) ----------
+C|ete.sculpture|Summer Session 1948|Sculpture|—|—
+C|ete.peinture|Summer Session 1948|Painting|—|—
+C|ete.archi|Summer Session 1948|Architecture and Industrial Engineering|—|—
+C|ete.musique|Summer Session 1948|Structure of Music; Choreography|—|—
+C|ete.danse|Summer Session 1948|Technique of Dancing|—|—
+C|ete.theatre|Summer Session 1948|Speech and Acting|—|—
+C|ete.clavier|Summer Session 1948|Development of Keyboard Music; Sonatas of Beethoven|—|—
+C|ete.tolstoi|Summer Session 1948|Tolstoy; individual work with writing students|—|—
+C|ete.culture|Summer Session 1948|Culture and Personality; Freudianism and the Social Sciences|—|—
+C|ete.design|Summer Session 1948|Color and Design|—|—
+C|ete.tissage|Summer Session 1948|Weaving|—|—
+C|ete.bois|Summer Session 1948|Woodworking|—|—
+U|E1|Peter Grippe|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.sculpture|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E2|Willem de Kooning|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.peinture|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E3|Buckminster Fuller|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.archi|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E4|John Cage|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.musique|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E5|Merce Cunningham|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.danse|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E6|Helen Livingston|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.theatre|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E7|Erwin Bodky|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.clavier|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E8|Isaac Rosenfeld|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.tolstoi|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E9|Donald Calhoun|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.culture|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E10|Josef Albers|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.design|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E11|Anni Albers; Trude Guermonprez|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.tissage|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer
+U|E12|Richard Lischer|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.bois|||1|cours de la Summer Session 1948 avec son enseignant (bilan, « Black Mountain College Bulletin: Summer Session 1948 », sept. 1948)||volume et horaire supposés|summer

@@ -1,0 +1,288 @@
+{
+ "passe": "mois",
+ "cle": "1934-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3297,
+  "sortie": 15446,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1934-11",
+  "session": "Automne 1934, début de la deuxième année académique",
+  "saison_et_climat": "Fin d'automne. Aucune fiche ne décrit le temps ; on peut déduire un froid croissant, des jours courts et Thanksgiving vers la fin du mois.",
+  "situation": "Le collège entame sa deuxième année. Rice reprend le poste de recteur que Georgia, sans résistance, abandonne pour devenir secrétaire. Anni Albers entre enfin au corps enseignant et prépare un programme théorique et didactique pour le tissage. Josef Albers a fait des cours d'art le centre du curriculum et juge Rice totalement indiscipliné. Le collège multiplie les tentatives d'autosuffisance (coopérative étudiante, imprimerie, meubles, métiers à tisser, Cottage School tenue par des étudiants). Le dossier du recrutement de Robert Wunsch arrive à son point critique : les étudiants ont levé mille dollars pour son salaire, la faculté payée en sous-ordre conteste, et la réunion n'aboutit à aucun consensus. Au dehors, la presse commence à parler du collège (éditorial de Walter Locke le 16 novembre) tandis que Mies et Johnson se brouillent par lettres.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "John Rice (de retour au poste de recteur)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Georgia (secrétaire, ancien recteur)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Bobbie Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Robert Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "étudiants (collectif, non nommés)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1934-11-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Johnson écrit à Mies une lettre très ferme, lui demandant d'endosser une exposition d'« élèves » qu'il n'a pas formés. Le courrier met environ deux semaines par bateau.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02353"
+    ]
+   },
+   {
+    "date": "1934-11-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Walter Locke, ami de Rice, publie un éditorial sur BMC dans le Dayton Daily News (Ohio), l'un des tout premiers articles de presse sur le collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02354"
+    ]
+   },
+   {
+    "date": "1934-11-23",
+    "precision": "jour",
+    "ce_qui_arrive": "Mies répond sèchement à Johnson : il refuse de cautionner une exposition d'élèves qu'il n'a pas formés et exige les standards les plus stricts. Johnson réagit en annonçant qu'il quitte le Modern et en prédisant la fin des expositions d'architecture en Amérique, prédiction démentie par la suite.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02353"
+    ]
+   },
+   {
+    "date": "1934-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Les étudiants lèvent mille dollars pour le salaire de Wunsch ; la faculté payée en sous-ordre s'en indigne ; la réunion reste sans consensus et Rice renvoie les étudiants convaincre les opposants. La fiche ne donne pas de date précise pour cette séquence.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1934-11",
+    "precision": "mois",
+    "ce_qui_arrive": "À Thanksgiving, Robert Wunsch constate que le collège est enfin tourné vers lui-même et non plus vers Rollins.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1934-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Anni Albers, admise au corps enseignant, élabore le programme théorique et didactique du tissage.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1934",
+    "precision": "saison",
+    "ce_qui_arrive": "La récolte de la ferme est moissonnée collectivement à l'automne, par les étudiants et le fermier salarié, qui fournit à peu près la moitié des légumes du réfectoire.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Cours d'Albers, centré sur le dessin ; cours de tissage d'Anni en cours de structuration ; cours de Rice à reprendre sous un régime de direction de nouveau assumé. Vie d'exploitation : récolte collective à l'automne, ferme gérée par les étudiants et un fermier salarié, légumes du réfectoire. Vie d'atelier : imprimerie, fabrication de meubles et de métiers à tisser, Cottage School tenue par des étudiants. Vie administrative : réunions de faculté souvent sans ordre du jour, coopérative étudiante aux caisses déséquilibrées. La musique et les repas hors légumes ne sont pas documentés.",
+  "tensions": [
+   "Albers contre Rice : Albers juge Rice totalement indiscipliné et s'exaspère des réunions sans ordre du jour.",
+   "Le salaire de Wunsch : les étudiants financent un poste que la faculté payée en sous-ordre voit d'un mauvais œil ; pas de consensus, Rice renvoie les étudiants convaincre les opposants.",
+   "Rice regrette d'avoir fait de Georgia le recteur et reprend le poste ; Georgia accepte sans résistance, ce qui laisse une amertume latente.",
+   "Gouvernance étudiante neuve (droits d'accès aux registres, constitution possible, siège au Board) qui crée des frictions avec une faculté peu habituée à partager la décision.",
+   "Finances fragiles : le budget a été relevé en juin pour des bourses, mais la coopérative étudiante et le salaire de Wunsch restent des points d'équilibre précaires.",
+   "Rupture Mies-Johnson par lettres (hors campus) : Johnson quitte le Modern, Mies refuse de cautionner des élèves qu'il n'a pas formés."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "L'éditorial de Locke arrive sur le campus",
+    "date": "1934-11-16",
+    "lieu": "campus de Black Mountain",
+    "personnages": [
+     "John Rice",
+     "Josef Albers",
+     "étudiants"
+    ],
+    "deroule": "Le journal de l'Ohio circule parmi les membres du collège. Rice, ami de Locke, en tire une fierté mêlée d'inquiétude sur ce qu'on dira du collège à l'extérieur ; Albers y voit surtout un signe de présence publique. Le texte devient un sujet de conversation entre étudiants et faculté.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02354"
+    ]
+   },
+   {
+    "titre": "Réunion de faculté sans ordre du jour",
+    "date": null,
+    "lieu": "campus de Black Mountain",
+    "personnages": [
+     "Josef Albers",
+     "John Rice",
+     "faculté"
+    ],
+    "deroule": "La réunion s'étire sans agenda. Albers, qui a conçu les cours d'art comme centre du curriculum, s'exaspère ; Rice se montre désinvolte et refuse de cadrer la discussion. Tension visible, sans rupture ouverte.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Le pari de la collecte pour Wunsch",
+    "date": "1934-11",
+    "lieu": "campus de Black Mountain",
+    "personnages": [
+     "Robert Wunsch",
+     "John Rice",
+     "étudiants",
+     "faculté payée en sous-ordre"
+    ],
+    "deroule": "Les étudiants présentent les mille dollars recueillis comme une évidence. Une partie de la faculté conteste la priorité donnée à ce salaire. Rice demande aux étudiants de retourner convaincre les opposants ; la réunion se termine sans consensus.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Thanksgiving : Wunsch découvre le collège",
+    "date": "1934-11",
+    "lieu": "campus de Black Mountain",
+    "personnages": [
+     "Robert Wunsch",
+     "Josef Albers",
+     "étudiants"
+    ],
+    "deroule": "Au repas de fête, Wunsch observe un collège concentré sur lui-même plutôt que sur Rollins. Ce moment peut servir de bascule : il voit ce qu'il pourrait faire ici, et les étudiants voient en lui l'homme qu'ils ont payé.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Lettre de Mies à Johnson",
+    "date": "1934-11-23",
+    "lieu": "Berlin / New York",
+    "personnages": [
+     "Mies van der Rohe",
+     "Philip Johnson"
+    ],
+    "deroule": "Mies répond sèchement, refusant d'endosser des élèves qu'il n'a pas formés et exigeant des standards stricts. Johnson, vexé, annonce qu'il quitte le Modern et prédit la fin des expositions d'architecture en Amérique ; la brouille durera jusqu'après-guerre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02353"
+    ]
+   },
+   {
+    "titre": "Anni et le programme de tissage",
+    "date": "1934-11",
+    "lieu": "atelier de tissage",
+    "personnages": [
+     "Anni Albers"
+    ],
+    "deroule": "Anni, désormais enseignante, met par écrit un programme qui distingue théorie et didactique du tissage. Elle y travaille seule, entre des ateliers qui manquent encore d'équipement.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "La moisson collective",
+    "date": "1934",
+    "lieu": "ferme du collège",
+    "personnages": [
+     "étudiants",
+     "fermier salarié"
+    ],
+    "deroule": "Les étudiants récoltent ensemble, comme un rituel de fin de saison. Le fermier salarié encadre le travail ; les légumes iront au réfectoire, où ils couvrent à peu près la moitié de la consommation.",
+    "certitude": "deduit",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Albers, en novembre, au moment où il a le pied dans le collège sans avoir de sécurité",
+    "vers_date": "1934-04-06",
+    "vers": "Mrs Leigh refuse la candidature de Bennington : il lui faut une personne « plus essentiellement américaine ». Albers avait répondu en allemand, croyant à un malentendu de langue ; Johnson lui suggère que le facteur allemand n'était peut-être qu'un prétexte (17 avril). Albers reste à BMC.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rice, en novembre, au moment où il reprend le poste de recteur",
+    "vers_date": "1934",
+    "vers": "Georgia, recteur au terme de la première année, rappelle que le collège sera jugé sur son travail intellectuel, resté en deçà de ce que le groupe est capable de faire.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la réunion étudiante sur le salaire de Wunsch, en novembre",
+    "vers_date": null,
+    "vers": "Les journaux de la première année : l'aveu d'amour de « John » pour « Paul » choque ce dernier, qui se lie à « Ann » ; John est raillé puis recadré par Rice, qui détruit sa confiance retrouvée. Pseudonymes, selon Duberman.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "les tensions de novembre autour de Wunsch et de la gouvernance",
+    "vers_date": "1934-12-08",
+    "vers": "Réunion sur le rôle des étudiants, qui prolonge le débat sur leur place dans les décisions du collège.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "fin novembre, Albers encore à BMC",
+    "vers_date": "1934-12-28",
+    "vers": "Les Albers, avec Ted et Bobbie Dreier, partent pour Cuba. Josef y donne trois conférences au Lyceum ; c'est le premier d'une série de plus de quatorze voyages en Amérique latine jusqu'en 1956.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'éditorial de Locke, mi-novembre",
+    "vers_date": "1935-01",
+    "vers": "Grace Alexandra Young publie « Art as a Fourth R » dans Arts and Decorations, second article de presse qui fait de BMC un sujet national.",
+    "refs": [
+     "EV-02354"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'automne, Albers qui fait des bois gravés pour le MoMA et le Fogg",
+    "vers_date": "1935",
+    "vers": "L'exposition d'estampes d'Albers a lieu à l'Addison Gallery, seule institution à l'accepter après le refus du MoMA et du Fogg.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Anni, en novembre, qui pense à la suite",
+    "vers_date": "1935",
+    "vers": "Anni songe au Mexique pour l'année suivante, premier signe de l'ouverture du collège vers l'Amérique latine.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "l'automne, l'enseignement de Rice et la vie étudiante",
+    "vers_date": null,
+    "vers": "Première visite de John Dewey, pendant l'année 1934-35 (moment non précisé) : il assiste chaque jour au cours de Rice, boit de la bière avec les étudiants ; une autre visite l'amène avec Albert Barnes.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "L'argent contre la parole : financer un salaire par les étudiants et ce que cela dit du pouvoir.",
+   "Tenir ensemble : le sceau concentrique d'Albers (se rassembler, tenir ensemble, travailler ensemble).",
+   "Le dessin au centre : la pédagogie d'Albers face à l'indiscipline de Rice.",
+   "Gouvernance étudiante : droits nouveaux, réunions sans ordre du jour, consensus introuvable.",
+   "Autosuffisance agricole et artisanale : ferme, imprimerie, meubles, tissage.",
+   "Le prestige extérieur : presse, expositions, visiteurs, et la brouille Mies-Johnson qui s'en éloigne.",
+   "La fidélité contrariée d'Albers : il est resté malgré un projet de départ, et ne cesse de juger le collège."
+  ],
+  "lacunes": "Aucune fiche ne donne le jour de la séquence Wunsch (collecte, réunion sans consensus, Thanksgiving) : son ordre dans le paragraphe n'est pas chronologique, et on ne sait pas si Wunsch est déjà arrivé en novembre. La visite de Dewey n'est pas datée. Le temps qu'il fait, la musique, les repas hors légumes, et la vie quotidienne des étudiants ne sont pas documentés. La chronique de l'année est une synthèse sans identifiants : les éléments qui en proviennent ont des refs vides. L'échange Mies-Johnson se déroule hors de BMC et n'implique pas directement le collège. Les noms des étudiants de l'affaire John/Paul/Ann sont des pseudonymes dont on ne sait pas s'ils sont encore au collège en novembre 1934."
+ }
+}

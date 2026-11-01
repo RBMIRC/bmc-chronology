@@ -1,0 +1,243 @@
+{
+ "passe": "mois",
+ "cle": "1950-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4013,
+  "sortie": 12143,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1950-04",
+  "session": "Printemps 1950, fin de l'année universitaire (déduit : les fiches ne donnent pas le calendrier)",
+  "saison_et_climat": "Printemps 1950 en Caroline du Nord. Les fiches ne décrivent ni la météo ni le climat d'avril ; seul l'été est évoqué (serpents, cascade, électricité rationnée).",
+  "situation": "Le collège est pris dans la querelle sur son avenir. Albers a quitté Black Mountain en 1949 et enseigne à Pratt ce printemps, encore suspendu à Harvard (Gropius lui a écrit en mars qu'il était le premier choix, sans garantie). Le poste de recteur reste vacant : Forbes cherche sans succès, le poste est mal payé (90 $ par mois) et sans pouvoirs définis. Le conflit oppose le camp conservateur (Corkran, Trayer, Warrington, Goldowski, Forbes) au camp Levi (Shepard, Leser, Richards). Le Board doit voter en juin sur les réembauches de Levi, Fiore et Richards, et le sondage étudiant de Cernovich les soutient. Huss et Ballou ne sont pas encore pressentis (offre fin juin).",
+  "presents_probables": [
+   {
+    "nom": "Levi",
+    "certitude": "probable"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Corkran",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Forbes",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Warrington",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Flola Shepard",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Leser",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Fitton",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Pete Jennerjahn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Betty Jennerjahn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nick Cernovich",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1950-03-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Gropius écrit à Albers qu'il est le premier choix pour Harvard, mais que l'administration veut un homme plus jeune et moins cher ; il lui demande son avis sur des candidats juniors. Albers reste en suspens.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05223"
+    ]
+   },
+   {
+    "date": "1950-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Exposition de la relève Talent 1950 à la Samuel Kootz Gallery de New York, avec vingt-trois artistes choisis par Greenberg et Schapiro ; Weldon Kees la salue dans The Nation et souligne que les grandes galeries de la 57e Rue les ignorent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05225"
+    ]
+   },
+   {
+    "date": "1950",
+    "precision": "saison",
+    "ce_qui_arrive": "Le printemps est dominé par la recherche d'un recteur. Forbes ne trouve personne, rend ses dossiers et part pour l'Europe. Corkran juge les candidats médiocres ; Washburne se retire.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Sondage étudiant mené par Nick Cernovich en soutien à Levi, Richards et Fiore. Les sources le datent soit du 23 mars, soit de juin : la date reste contestée.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les fiches décrivent peu la vie ordinaire d'avril : réunions de faculté et de Community Council, débats sur le Board, cours et ateliers. Les lectures publiques au Community House sont attestées dans la communauté (Dawson y lit « Father » vers la fin du printemps). Rien sur les repas, la musique ou le travail quotidien ce mois-ci.",
+  "tensions": [
+   "Recteur : les conservateurs veulent un recteur fort, un Board réduit et des bulletins secrets ; le camp Levi veut un Community Council étoffé et des étudiants influents.",
+   "Menace sur Levi, Fiore et Richards : le Board, dominé par les conservateurs, prépare un vote de non-réembauche (vote en juin).",
+   "Richards est regroupée avec les Levi dans le « paquet » visé, alors que le couple Levi–Richards est déjà fragile.",
+   "Fiore vit avec l'étudiante Mary Fitton pendant que sa femme est internée près d'Asheville : un scandale latent.",
+   "Albers est parti avec des comptes en suspens (fonds de pension, plancher de pin) et l'incertitude sur Harvard.",
+   "Le poste de recteur est si mal défini qu'aucun candidat sérieux ne se présente, ce qui nourrit le mépris de Corkran."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Entretien d'un candidat au rectorat",
+    "date": "1950-04",
+    "lieu": "Black Mountain College (salle de réunion, non précisée)",
+    "personnages": [
+     "Forbes",
+     "Corkran",
+     "Levi",
+     "Shepard",
+     "Leser"
+    ],
+    "deroule": "Un candidat est reçu devant une partie de la faculté. Les conservateurs jugent la liste pauvre, les Levi plaident pour un conseil étoffé, et le flou du poste (sans pouvoirs ni garantie) pèse sur la discussion.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Le sondage de Cernovich",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Nick Cernovich",
+     "Levi",
+     "M.C. Richards",
+     "Joe Fiore",
+     "étudiants"
+    ],
+    "deroule": "Un étudiant recueille les opinions de la communauté. Le soutien aux trois enseignants menacés est massif. La date exacte fait débat (23 mars ou juin), ce qui change le poids du sondage avant le vote du Board.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "titre": "Vernissage de la relève chez Kootz",
+    "date": "1950-04",
+    "lieu": "Samuel Kootz Gallery, New York",
+    "personnages": [
+     "Greenberg",
+     "Schapiro",
+     "Weldon Kees",
+     "Elaine de Kooning (point culminant de son année, selon Curtis 2017)"
+    ],
+    "deroule": "Vingt-trois jeunes artistes sont exposés, choisis par deux critiques influents. Kees note l'ignorance des grandes galeries et l'optimisme de l'ensemble, dans un contexte où le monde de l'art new-yorkais reste distant de Black Mountain.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-05225"
+    ]
+   },
+   {
+    "titre": "Fiore et Fitton",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Joe Fiore",
+     "Mary Fitton"
+    ],
+    "deroule": "La liaison entre le professeur et l'étudiante est connue de quelques-uns, alors que la femme de Fiore est internée près d'Asheville. Le dossier servira d'argument au Board en juin.",
+    "certitude": "probable",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Avril 1950 : Albers enseigne à Pratt, toujours en attente de Harvard.",
+    "vers_date": "1949",
+    "vers": "Son départ de 1949 et les comptes qu'il laisse derrière lui : fonds de pension, plancher de pin.",
+    "refs": [
+     "EV-05223"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1950 : Albers attend encore la réponse de Harvard.",
+    "vers_date": "1950-06",
+    "vers": "Gropius lui annonce qu'il n'aura pas le poste pour des raisons bureaucratiques ; il part pour Yale à l'automne.",
+    "refs": [
+     "EV-05223"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Printemps 1950 : la recherche de recteur tourne court et le Board se prépare à voter.",
+    "vers_date": "1950-06",
+    "vers": "Le Board, à bulletin secret, refuse de réembaucher Levi et Fiore ; M.C. Richards est réintégrée presque aussitôt, et la faculté recommande les réembauches.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Été 1950 : la liberté sexuelle prônée par Goodman divise déjà la communauté.",
+    "vers_date": "1950",
+    "vers": "Une réunion sur Goodman tourne à la violence : Trayer frappe Levi, Oppenheimer lui saute dessus, et Goodman quitte le collège.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Printemps 1950 : BMC fonctionne encore comme une communauté au ton singulier.",
+    "vers_date": null,
+    "vers": "Son influence sur la culture américaine après la fermeture du collège.",
+    "refs": [
+     "EC-02575"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Printemps 1950 : BMC est une expérience concrète d'enseignement sans dotation.",
+    "vers_date": "1965",
+    "vers": "Goodman, en 1965, en tire un modèle de guilde de savants face aux coûts universitaires.",
+    "refs": [
+     "EC-02574"
+    ]
+   }
+  ],
+  "motifs": [
+   "recteur sans pouvoirs ni garantie",
+   "vote à bulletin secret",
+   "le « paquet » Levi",
+   "liaison Fiore–Fitton",
+   "départ d'Albers et ses comptes en suspens",
+   "passage de témoin entre deux lignées"
+  ],
+  "lacunes": "Peu de fiches sont datées d'avril : seule l'exposition Kootz a un mois. Le sondage Cernovich est daté soit du 23 mars, soit de juin. Le calendrier de session, la vie quotidienne et la météo ne sont pas documentés. La plupart des éléments viennent de la synthèse 1950, qui n'a pas d'identifiant (refs vides). La présence d'avril est déduite des fiches sur l'année, pas attestée jour par jour. Goodman, Olson, Stamos, Frankenthaler et Rumaker arrivent plus tard et ne sont pas comptés. Huss et Ballou n'entrent en scène qu'en juin-juillet. La date de la lecture de « Father » n'est pas précisée."
+ }
+}

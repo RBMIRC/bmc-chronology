@@ -1,0 +1,334 @@
+{
+ "passe": "mois",
+ "cle": "1953-02",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 8556,
+  "sortie": 16022,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1953-02",
+  "session": "Institut d'hiver « New Sciences of Man » (début février à fin mars, avec von Franz à partir de la mi-mars ; durée contestée par les fiches)",
+  "saison_et_climat": "Hiver en montagne, à Black Mountain. Les fiches ne donnent pas de détail météo pour février ; la nuit de l'incendie se passe en plein hiver, à la campagne, avec le gong du souper.",
+  "situation": "En février 1953, le collège vit un entre-deux. L'institut d'hiver monte en puissance autour d'Olson, qui a préparé les étudiants pendant des semaines ; Jung, invité, est malade et ne vient pas, et von Franz est attendue pour la mi-mars. La classe d'écriture d'Olson est le centre de la vie intellectuelle. L'incendie du cottage Roadside, survenu dans l'hiver 1952-1953, a laissé des pertes et une rumeur de faute contre Wes Huss. Les finances et la ferme se dégradent (bœufs, dettes), mais l'effondrement complet n'est pas encore là. Creeley est à Majorque et Elaine de Kooning à New York.",
+  "presents_probables": [
+   {
+    "nom": "Charles Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wesley Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bea Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joseph Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mary Fiore",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Madame Goldowski",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Len Billing",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1952-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Incendie du cottage Roadside pendant le souper, durant le premier hiver de Rumaker. Le bâtiment brûle sans hydrant ni matériel, les pompiers volontaires arrivent trop tard. Rumeur de faute de Wes Huss. Les Huss et les Fiore perdent tout. Duberman situe l'incendie à l'automne suivant, ce qui contredit les fiches de Rumaker.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05915",
+     "SC-01584",
+     "EV-05954"
+    ]
+   },
+   {
+    "date": "1952-12",
+    "precision": "periode",
+    "ce_qui_arrive": "Olson vient au dortoir chercher du whiskey pour Wes. Rumaker, qui cache un bourbon, se tait ; ce silence le hantera.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05916",
+     "SC-01585"
+    ]
+   },
+   {
+    "date": "1953-02-02",
+    "precision": "session",
+    "ce_qui_arrive": "Ouverture de l'institut d'hiver « New Sciences of Man », consacré à la mythologie et à l'archéologie. Jung, invité, est malade ; sa place est prise par von Franz plus tard. Les fiches disent aussi « trois semaines », alors que les dates vont jusqu'à fin mars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06172"
+    ]
+   },
+   {
+    "date": "1953-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Colère publique d'Olson contre Rumaker en classe, avec critiques cruelles de son manuscrit. Rumaker datera de ce jour le début de sa vie d'écrivain.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06169",
+     "EV-05992",
+     "EC-02971"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Un Bartleby de Rumaker fait enfin plaisir à Olson, qui lui ouvre sa bibliothèque privée. La fiche le place après les critiques de février, sans date précise.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05993",
+     "EV-05994",
+     "EV-05996"
+    ]
+   },
+   {
+    "date": "1953-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Elaine de Kooning conçoit les décors de Presenting Jane au Theatre de Lys, à New York, pour dix-sept dollars de budget, dont elle dépense quatorze. Hors du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06168",
+     "SC-01663"
+    ]
+   },
+   {
+    "date": "1953-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Selon la fiche, un artiste (Rauschenberg) tombé malade quitte l'Afrique du Nord pour l'Italie. Hors du collège, simple résonance du mois.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06171"
+    ]
+   },
+   {
+    "date": "1953-03",
+    "precision": "saison",
+    "ce_qui_arrive": "Retour d'Olson du Yucatán, daté « au début du printemps » par une fiche. Cette date est difficile à concilier avec les fiches qui le montrent en classe dès février.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05971"
+    ]
+   },
+   {
+    "date": "1953-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Von Franz arrive à la mi-mars pour remplacer Jung. Elle se loge sous les combles de Streamside, monte une des Seven Sisters avant le dîner, fait des causeries en salle à manger et reçoit des consultations de rêves.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06172",
+     "EV-06174",
+     "EV-06175",
+     "EC-02973"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Wes Huss monte Mother Courage avec presque toute l'école, au cours de l'hiver et du printemps.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06176"
+    ]
+   }
+  ],
+  "quotidien": "Repas au gong dans la salle à manger, avec les rivalités de table. Classe d'écriture d'Olson : manuscrit obligatoire pour entrer, fumée de Camels, tableaux de Kline, Tworkov et de Kooning au-dessus de la cheminée. Dortoir de South Lodge, où Rumaker garde sa bouteille de bourbon pour les samedis. Institut : cours sur Jung, circulation des livres jungiens, discussions sur les rêves. Wes Huss monte Mother Courage. Après l'incendie, les familles Huss et Fiore vivent avec peu de biens.",
+  "tensions": [
+   "Rumeur de faute de Wes Huss après l'incendie, contre la version selon laquelle il n'était pas en faute",
+   "Colère publique d'Olson contre Rumaker, alors que celui-ci cherche sa place et craint un nouvel exil",
+   "Silence coupable de Rumaker (la bouteille) face à la demande d'Olson pour Wes",
+   "Dépendance de l'institut à Jung, malade, et attente de von Franz",
+   "Dettes et ferme qui se dégradent, sans date précise dans les fiches",
+   "Contradiction sur la date de l'incendie : Rumaker l'hiver 1952-1953, Duberman l'automne suivant",
+   "Contradiction sur la durée de l'institut : trois semaines selon une fiche, plus de sept selon les dates",
+   "Contradiction sur le retour d'Olson du Yucatán : printemps selon une fiche, février selon d'autres"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "L'incendie de Roadside",
+    "date": "1952-12",
+    "lieu": "Route de la ferme, Black Mountain",
+    "personnages": [
+     "Wesley Huss",
+     "Bea Huss",
+     "Joseph Fiore",
+     "Mary Fiore",
+     "Natasha Goldowski",
+     "Madame Goldowski",
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Pendant le souper, le cottage s'embrase et tous accourent sans pouvoir rien faire. Les étincelles menacent les pins et les toits voisins. Natasha conduit sa mère à travers les racines. Les pompiers volontaires arrivent trop tard. Wes, décharné, est soutenu par la main d'Olson sur son épaule, Bea et le bébé près de lui. La faute de Wes, chuchotée comme notoire, le brise sous les yeux de tous.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01584",
+     "EV-05915"
+    ]
+   },
+   {
+    "titre": "Olson au dortoir : « Wes est en piteux état »",
+    "date": "1952-12",
+    "lieu": "Dortoir de South Lodge",
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Olson entre pour la première fois au dortoir, baisse sa grande tête sous la porte et va de lit en lit à voix basse, demandant du whiskey pour Wes. Rumaker, seul détenteur d'une bouteille cachée, se tait, figé par une culpabilité confuse. Olson repart les mains vides, sombre et inquiet.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01585",
+     "EV-05916"
+    ]
+   },
+   {
+    "titre": "Les décors à quatorze dollars",
+    "date": "1953-02",
+    "lieu": "Theatre de Lys, New York",
+    "personnages": [
+     "Elaine de Kooning",
+     "John Bernard Myers",
+     "Herbert Machiz"
+    ],
+    "deroule": "Myers annonce trois jours et dix-sept dollars pour les décors de Presenting Jane. Elaine les livre pour quatorze et festoie avec les trois restants. Scène hors du collège, mais dans le même monde de poètes.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01663",
+     "EV-06168"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Les rêves discutés en classe pendant l'hiver 1953, quand Rumaker écrit sur le Delaware",
+    "vers_date": null,
+    "vers": "Son enfance dans une ville du sud du New Jersey, les ponts brisés et la mère dans la barque, que Olson le presse d'écrire « from there »",
+    "refs": [
+     "EC-02974"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'arrivée de von Franz en mars, qui remplace Jung malade",
+    "vers_date": "1953-02",
+    "vers": "L'invitation déclinée de Jung et l'injonction de Rumaker « so long as it's psychologically true », qui gouverne son mémoire",
+    "refs": [
+     "EC-02973"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Sa place au collège après la fureur d'Olson en classe",
+    "vers_date": null,
+    "vers": "Ses rejets antérieurs (« cast out once more »), qui réactivent la peur d'un nouvel exil",
+    "refs": [
+     "EC-02976"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La méditation sur Stendhal dans l'écriture de l'hiver",
+    "vers_date": null,
+    "vers": "Son amour à distance de la jeunesse à Chautauqua, qui nourrit la lecture de la cristallisation",
+    "refs": [
+     "EC-02975"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La repartie de Rumaker sur le pape en classe d'Olson",
+    "vers_date": null,
+    "vers": "Ses batailles récentes avec sa mère sur Dieu et la religion, dont l'athéisme conquis nourrit son aisance",
+    "refs": [
+     "EC-02918"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La fureur d'Olson en classe, février 1953",
+    "vers_date": null,
+    "vers": "La carrière d'écrivain de Rumaker et sa vie entière après BMC, qu'il date de ce jour-là",
+    "refs": [
+     "EC-02971"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les discussions sur les rêves à BMC, hiver 1953",
+    "vers_date": "1957-01-28",
+    "vers": "Les lettres d'Olson de Gloucester (1957 et février 1958) et la publication de « 8 Dreams » en 1958, où le problème du rêve continue de les occuper",
+    "refs": [
+     "EC-02972"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le poème sur Billie Holiday critiqué par Olson à BMC",
+    "vers_date": null,
+    "vers": "Une rencontre réelle avec Billie Holiday dans un bar de West Philly, un février environ trois ans après son départ",
+    "refs": [
+     "EC-02917"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le travail d'étudiant sur Bartleby, célébré à BMC en 1953",
+    "vers_date": "1963",
+    "vers": "La publication du texte dans Kulchur 10, à l'été 1963, neuf ans plus tard",
+    "refs": [
+     "EC-02908"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La phrase d'Olson sur le cloacal et le génital, 1953",
+    "vers_date": "1977",
+    "vers": "La scène visionnaire d'A Day and a Night at the Baths, où les propos reviennent après l'alcool et les drogues",
+    "refs": [
+     "EC-02905"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'insight de Wolpe entendu à BMC en 1953",
+    "vers_date": "1954",
+    "vers": "La première histoire de veau en classe d'Olson vers 1954, puis la formulation « le mensonge de l'imagination » des années plus tard",
+    "refs": [
+     "EC-02916"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le rêve comme matière et comme conflit",
+   "La fureur d'Olson comme baptême d'écrivain",
+   "L'alcool caché et la faute silencieuse",
+   "Père spirituel et paternité : Olson et Rumaker",
+   "Jung absent, von Franz en remplacement",
+   "Le feu et la rumeur contre Wes Huss",
+   "L'argent derrière le prestige intellectuel"
+  ],
+  "lacunes": "On ignore la date exacte de l'incendie de Roadside (fenêtre décembre 1952 à février 1953, et Duberman le met à l'automne suivant). On ignore aussi la date du Bartleby et de l'ouverture de la bibliothèque d'Olson, celle de l'hypothèque de Williams et des troubles de la ferme, ainsi que la durée réelle de l'institut. La liste des présents est déduite des fiches de l'incendie, qui sont datées en fenêtre et non en février. Rien ne dit la température ni la vie matérielle précise de ce mois."
+ }
+}

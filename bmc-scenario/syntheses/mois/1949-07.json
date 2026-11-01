@@ -1,0 +1,427 @@
+{
+ "passe": "mois",
+ "cle": "1949-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4516,
+  "sortie": 15779,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1949-07",
+  "session": "Session d'été, six semaines dirigées par Fuller pour 800 $, sous le rectorat de Pittenger",
+  "saison_et_climat": "Été 1949. Les fiches ne décrivent pas le climat du campus. Seul le wagon Pullman du trajet vers Black Mountain est décrit comme tiède, avec un air ralenti.",
+  "situation": "Le collège vit un sursis d'été. Pittenger est recteur depuis juillet, la faculté lui ayant accordé toutes les prérogatives administratives, pendant qu'on cherche un recteur permanent. Natasha Goldowski sert de secrétaire et de recruteuse d'enseignants. Dreier a quitté le campus à la mi-avril. Josef Albers est, selon la synthèse, au Mexique du 10 juin au 15 août, mais une fiche le place à Yale le 9 juillet (voir tensions). La session d'été est tenue par Fuller et son équipe. L'argent manque : les rentes d'été des Albers sont suspendues et une vente de 70 acres est négociée.",
+  "presents_probables": [
+   {
+    "nom": "Pittenger",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Fuller",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Walley",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Woelffer",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Vashi",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Neuf ingénieurs de l'Institute of Design (non nommés)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Snelson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bodky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Olson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dawson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "M.C. Richards",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Trayer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Mr. Kean",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dr. Penniman",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Arnold (étudiant ou membre du collège, identité non précisée)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1949-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Pittenger devient recteur. La faculté lui accorde toutes les prérogatives administratives pour agir sans entrave, pendant qu'on cherche un titulaire permanent.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04879"
+    ]
+   },
+   {
+    "date": "1949-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Fuller dirige la session d'été pendant six semaines, pour 800 $, accompagné de Walley, Woelffer, Vashi et de neuf ingénieurs de l'Institute of Design.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "date": "1949-07-09",
+    "precision": "jour",
+    "ce_qui_arrive": "À Yale, réunion sur la proposition de Sawyer : Kahn présente son idée de centre collaboratif sur les plastiques. Albers y participe selon la fiche, ce qui contredit la date de son séjour au Mexique.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04881"
+    ]
+   },
+   {
+    "date": "1949-07-11",
+    "precision": "jour",
+    "ce_qui_arrive": "Mr. Kean et le Dr Penniman rendent visite à Dawson, qui travaille alors à une fresque. La date est déduite de la lettre du 12 juillet, qui dit « la veille ».",
+    "certitude": "deduit",
+    "refs": [
+     "EV-04882"
+    ]
+   },
+   {
+    "date": "1949-07-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Dawson écrit à sa sœur Ca et à son beau-frère Bill pour se plaindre des mœurs du collège : filles qui boivent du gin et jurent, sobriquet « grandma », enseignants qui jurent en classe, obscénités dans un cours.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04882",
+     "EV-04883"
+    ]
+   },
+   {
+    "date": "1949-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Dawson arrive au collège à dix-neuf ans. Pendant le trajet en Pullman, il a une vision intérieure (« tu vas vers un lieu et tu vas changer ») et reconnaît plus tard en Olson l'homme qu'il cherchait.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04880",
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "date": "1949-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Fuller donne une fête où il lit un poème interminable de deux cents pages et affirme que l'homme a achevé la « plomberie » cosmique.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "date": "1949-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Bodky organise un festival Bach de trois jours.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "date": "1949-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Olson présente « Wagadu, after Frobenius », faute d'argent pour son projet de théâtre homérique.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "date": "1949-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Le dôme géodésique est monté et sa peau plastique testée. Snelson montre sa X-Piece, d'où naît le mot « tensegrity ». La solidité du dôme fait débat (voir tensions).",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Le Conseil suspend les rentes d'été des Albers. Dreier proteste. Pittenger répond qu'Albers a « presque coulé le bateau en désertant l'équipage ».",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Vente de 70 acres à la Grove Stone Company, négociée autour de 30 000 $ moins 10 % de commission. Elle sauve la trésorerie, non sans réserves de professeurs.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "date": "1949-06-10",
+    "precision": "periode",
+    "ce_qui_arrive": "Albers est au Mexique jusqu'au 15 août, où il commence les Homage to the Square. Cette période contredit sa participation à la réunion de Yale du 9 juillet.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese",
+     "EV-04881"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Olson quitte le collège pour son second Guggenheim, au Yucatan. La fiche ne donne qu'« ensuite », après la session d'été.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   }
+  ],
+  "quotidien": "Une session d'été sans rentrée pour la plupart : cours et ateliers de fortune, fresques (Dawson en peint une), concerts et festivals (le festival Bach de trois jours), lectures publiques (Fuller et son poème). Il y a de la bière et du gin, des jurons en classe et dans les couloirs, un langage que les nouveaux venus jugent grossier. Les repas, les réunions informelles et les visites de l'extérieur rythment le quotidien. On s'occupe aussi des étudiants et des enseignants déjà en poste, et l'on cherche des professeurs pour l'automne.",
+  "tensions": [
+   "Pittenger est recteur selon EV-04879 et la synthèse, mais Trayer est « cité » comme recteur par intérim : les sources ne s'accordent pas sur l'autorité réelle.",
+   "Fuller aurait refusé la rectorie, d'après certaines fiches seulement ; ce refus n'est pas établi par toutes les sources.",
+   "Albers est au Mexique du 10 juin au 15 août selon la synthèse, mais il participe à une réunion à Yale le 9 juillet (EV-04881) et écrit à Sawyer le 23 juillet. Le lieu de ses activités est donc contesté.",
+   "Le Conseil suspend les rentes d'été des Albers, Dreier proteste et Pittenger accuse Albers d'avoir déserté. La faction Pittenger et la faction des démissionnaires s'opposent sur les finances.",
+   "Le dôme : réussi pour certaines sources, aplati en septembre selon Duberman. L'avenir du dôme n'est pas encore tranché en juillet.",
+   "Dawson dénonce les mœurs du collège (gin, jurons, obscénités en cours) ; le collège tolère ces pratiques. Le conflit de normes morales traverse la session d'été.",
+   "La vente de 70 acres sauve la trésorerie, mais des professeurs émettent des réserves. Le financement de l'automne reste incertain.",
+   "Fuller et les ingénieurs de l'Institute of Design méprisent la politique locale ; l'équipe de Fuller reste à l'écart des querelles du collège."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le train de Dawson",
+    "date": "1949-07",
+    "lieu": "Train vers Black Mountain",
+    "personnages": [
+     "Dawson"
+    ],
+    "deroule": "Un wagon Pullman presque vide et tiède, un air ralenti. Dawson, dix-neuf ans, entend dans une brume une voix qui lui annonce qu'il va vers un lieu où il changera. Il panique, mais il désire ce changement. Plus tard, il lira « Ce qui ne change pas est la volonté de changer » et se dira qu'il a trouvé son homme, Olson.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04880"
+    ]
+   },
+   {
+    "titre": "La fresque et les deux visiteurs",
+    "date": "1949-07-11",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dawson",
+     "Mr. Kean",
+     "Dr. Penniman"
+    ],
+    "deroule": "Dawson peint une fresque. Kean et Penniman viennent le voir sans prévenir. Le lendemain, il écrit à sa sœur pour se plaindre du gin, des jurons et du langage obscène des enseignants, et pour raconter qu'on l'appelle « grandma ». Il ajoute qu'un certain Arnold est merveilleux. Le texte de la lettre donne le ton du collège en été.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-04882",
+     "EV-04883"
+    ]
+   },
+   {
+    "titre": "Plastiques à Yale",
+    "date": "1949-07-09",
+    "lieu": "Yale",
+    "personnages": [
+     "Kahn",
+     "Sawyer",
+     "Albers (selon la fiche)"
+    ],
+    "deroule": "Samedi, réunion sur la proposition de Sawyer. Kahn développe « Collaborative Problem—1949 : An Idea Center for Plastics » ; le manuscrit est annoté par Kahn. Albers y participe selon la fiche, malgré la thèse de son séjour au Mexique.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04881"
+    ]
+   },
+   {
+    "titre": "La fête de Fuller",
+    "date": "1949-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Fuller",
+     "Walley",
+     "Woelffer",
+     "Vashi",
+     "Dawson",
+     "Olson",
+     "Richards"
+    ],
+    "deroule": "Fuller lit un poème interminable de deux cents pages, puis déclare que l'homme a achevé la « plomberie » cosmique. La fête réunit la session d'été et les étudiants présents, dont Dawson, qui découvre à cette occasion Olson et M.C. Richards.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese",
+     "EV-04880"
+    ]
+   },
+   {
+    "titre": "Festival Bach de Bodky",
+    "date": "1949-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Bodky"
+    ],
+    "deroule": "Trois jours de concerts consacrés à Bach, organisés par Bodky pendant la session d'été.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "titre": "« Wagadu » devant le public",
+    "date": "1949-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Olson"
+    ],
+    "deroule": "Olson présente « Wagadu, after Frobenius », faute d'argent pour monter son projet de théâtre homérique. La lecture dit l'ambition d'Olson et ses limites matérielles.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "titre": "Le dôme sous la peau plastique",
+    "date": "1949-07",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Fuller",
+     "Snelson",
+     "Walley",
+     "Woelffer"
+    ],
+    "deroule": "Le dôme géodésique est monté et sa peau plastique est testée. Snelson montre sa X-Piece, d'où naît le mot « tensegrity ». Le dôme est tenu pour une réussite par certaines sources, mais Duberman le dit aplati en septembre.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "titre": "Les rentes d'Albers suspendues",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dreier",
+     "Pittenger",
+     "Albers (absent)"
+    ],
+    "deroule": "Le Conseil suspend les rentes d'été des Albers. Dreier proteste. Pittenger répond qu'Albers a « presque coulé le bateau en désertant l'équipage ». Le conflit s'inscrit dans la reconstruction et la guerre des factions.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Juillet : Dehn et Natasha Goldowski, au printemps, tentent de retenir les Albers pour la session d'été.",
+    "vers_date": "1949",
+    "vers": "Albers répond que c'est « clos ». Anni évoque la tension, le manque d'intimité et le manque d'argent constants.",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet : la suspension des rentes d'été renvoie au départ de Dreier et aux démissions de l'hiver.",
+    "vers_date": "1949-02-18",
+    "vers": "Démissions de Schlesinger, Guermonprez, Anni et Josef Albers, datées du 18 février. Pittenger avait traité Anni de « sorcière » dans sa lettre du 1er février.",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Juillet : Dawson raconte son arrivée à Dawson et ses rencontres.",
+    "vers_date": "1949-04",
+    "vers": "Dreier quitte définitivement le campus à la mi-avril, pour la Floride puis un camping dans l'Ouest.",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet : le dôme vient d'être monté.",
+    "vers_date": "1949-09",
+    "vers": "Selon Duberman, le dôme est aplati en septembre.",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet : Natasha Goldowski est secrétaire et recruteuse.",
+    "vers_date": "1949-08",
+    "vers": "À la fin de l'été, Natasha cesse de parler à Fuller après le départ des ingénieurs et leur attitude envers la politique locale.",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet : Pittenger assume le rectorat.",
+    "vers_date": "1949-10",
+    "vers": "En octobre, une réunion chez Forbes propose un Board of Overseers. Pittenger démissionne fin octobre ou en novembre.",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Juillet : la vente de 70 acres renfloue la trésorerie.",
+    "vers_date": "1950",
+    "vers": "La querelle de factions et la recherche d'un recteur se poursuivent jusqu'en 1950-1951.",
+    "refs": [
+     "chapitre-1949-synthese"
+    ]
+   }
+  ],
+  "motifs": [
+   "le sursis : une session d'été qui tient lieu de reconstruction",
+   "la dette morale et financière envers Albers et Dreier",
+   "l'art comme expérimentation technique (dôme, tensegrity, plastiques)",
+   "la voix et la transformation (Dawson, Olson)",
+   "la pudeur et la transgression dans les mœurs du collège",
+   "l'absence d'Albers, présente par sa contestation",
+   "le savoir qui circule entre Yale, Institute of Design et BMC"
+  ],
+  "lacunes": "On ignore les dates exactes de la session d'été et de la présence de Fuller. On ne sait pas si Anni Albers accompagne son mari au Mexique ni où il se trouve réellement le 9 juillet et le 23 juillet. L'identité de Mr. Kean, du Dr Penniman et d'Arnold n'est pas établie. On ignore le nombre d'étudiants présents en juillet et l'état de la trésorerie après la vente. La rentrée et la date de départ d'Olson ne sont pas datées. La synthèse n'a pas d'identifiant propre, d'où la ref « chapitre-1949-synthese »."
+ }
+}

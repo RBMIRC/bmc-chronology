@@ -1,0 +1,239 @@
+{
+ "passe": "mois",
+ "cle": "1953-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5312,
+  "sortie": 10051,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1953-05",
+  "session": "Intersession de printemps entre l'institut d'hiver (début février à fin mars) et le Summer Institute ; aucune session nommée n'est documentée pour mai (déduit)",
+  "saison_et_climat": "Printemps 1953 en Caroline du Nord ; les fiches ne décrivent pas le climat, qu'on peut tenir pour doux (déduit)",
+  "situation": "Le collège sort de l'institut d'hiver et de la visite de von Franz, mais il est endetté et sa ferme est en crise. Olson dirige déjà le collège de fait, sans titre officiel avant l'été. Son atelier d'écriture reste le centre de la vie intellectuelle, et Rumaker en est le fil le plus documenté. Merrill, qui ne parvient plus à faire revenir Herb par lettres ou par téléphone, prépare son départ pour Houston. Le collège se prépare au Summer Institute, dernière grande session, tandis que la ferme et les bourses de travail s'effondrent en coulisse.",
+  "presents_probables": [
+   {
+    "nom": "Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rumaker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Len Billing",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Paul Williams",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Eleanor Melville Metcalf",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Johanna Jalowetz",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Natasha Goldowski",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1953-05",
+    "precision": "periode",
+    "ce_qui_arrive": "Merrill décide d'aller à Houston pour convaincre Herb de quitter son père malade et le garage familial. Rumaker espère secrètement l'échec de cette démarche.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06190"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Visite d'Eleanor Melville Metcalf au collège, dans le cadre de son amitié avec Olson.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-05997",
+     "EC-02906"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Retour d'Olson du Yucatán au début du printemps, selon une source. D'autres fiches le montrent pourtant actif en classe dès février ; les deux versions ne concordent pas.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05971",
+     "EV-05972"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Le Bartleby de Rumaker plaît enfin à Olson, qui lui ouvre l'accès à sa bibliothèque privée après les critiques et la colère publique de février.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05992",
+     "EV-05993",
+     "EV-05994",
+     "EV-05996"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Wes Huss monte Mother Courage avec presque toute l'école.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06176"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Plantation des potagers et construction de la grange à tabac dans la ferme, sur le financement de Paul Williams.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-05951",
+     "EV-05952"
+    ]
+   },
+   {
+    "date": "1953-06",
+    "precision": "session",
+    "ce_qui_arrive": "Arrivée annoncée du Summer Institute, dernière grande session, avec Cunningham et sa troupe de sept danseurs.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-05940",
+     "EV-05945",
+     "EV-06058"
+    ]
+   }
+  ],
+  "quotidien": "Les journées tournent autour de la classe d'écriture d'Olson, où l'on fume beaucoup de Camels sous les tableaux de Kline, Tworkov et de Kooning au-dessus de la cheminée. Le téléphone à pièces du hall des Studies sert aux appels longue distance. La ferme se remet en culture, avec potagers et grange à tabac, tandis que les étudiants travaillent dans les bourses de travail supervisées par Billing. Le théâtre occupe les soirs avec Mother Courage. La nourriture est rare, et l'on sait déjà qu'elle se vide vite après le gong.",
+  "tensions": [
+   "Olson contre Rumaker : critiques cruelles et colère publique en février, puis reconnaissance tardive, qui laisse le jeune homme dépendant du maître",
+   "Merrill contre Herb : la piété filiale de Herb face à l'appel de Merrill, et l'intérim affectif de Rumaker",
+   "Ferme en faillite : le troupeau de bœufs a tourné au désastre, et les bourses de travail ne tiennent plus l'« esprit kibboutz »",
+   "Olson contre l'autorité : il dirige de fait le collège sans titre officiel, à un moment où la gestion financière échappe à tous",
+   "Conflit d'hypothèque : la ferme est gagée à hauteur de 25 000 $ auprès de Paul Williams"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le téléphone à pièces du hall des Studies",
+    "date": "1953-05",
+    "lieu": "hall des Studies, Black Mountain College",
+    "personnages": [
+     "Merrill",
+     "Rumaker"
+    ],
+    "deroule": "Merrill appelle Herb en longue distance et qualifie sa piété filiale de gutless. Rumaker, qui espère secrètement l'échec de la démarche, est dans les parages et comprend qu'il n'est qu'un intérimaire pour Merrill.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06190"
+    ]
+   },
+   {
+    "titre": "Olson lit le Bartleby de Rumaker",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Olson",
+     "Rumaker"
+    ],
+    "deroule": "Après les critiques de février, le Bartleby de Rumaker plaît enfin à Olson, qui lui ouvre sa bibliothèque privée. Scène de reconnaissance qui pèse sur la suite de leur relation.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05992",
+     "EV-05993",
+     "EV-05994",
+     "EV-05996"
+    ]
+   },
+   {
+    "titre": "Eleanor Melville Metcalf au collège",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Eleanor Melville Metcalf",
+     "Olson"
+    ],
+    "deroule": "La petite-fille de Melville visite le collège. Olson, qui doit ses accès aux papiers de Melville à leur amitié, la reçoit ; scène de dette et d'archives.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05997",
+     "EC-02906"
+    ]
+   },
+   {
+    "titre": "Mother Courage monté par Huss",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Wes Huss"
+    ],
+    "deroule": "Huss met en scène Mother Courage avec presque toute l'école. Le théâtre mobilise la communauté au printemps, pendant que la ferme s'effondre.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06176"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "La relation de Rumaker à Olson, qui devient figure paternelle au fil de 1953",
+    "vers_date": null,
+    "vers": "L'aube d'hiver de l'enfance où son père, en caleçon, ouvre la fenêtre ébréchée ; la même nudité réapparaît dans la chambre d'Olson à l'été 1953",
+    "refs": [
+     "EC-02904"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La visite d'Eleanor Melville Metcalf au printemps",
+    "vers_date": null,
+    "vers": "Les années 1930 où Olson, pauvre, est hébergé chez la famille Melville et accède aux papiers de l'écrivain",
+    "refs": [
+     "EC-02906"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le succès du Bartleby de Rumaker auprès d'Olson",
+    "vers_date": "1963",
+    "vers": "Publication de l'essai sur Bartleby dans Kulchur 10, à New York",
+    "refs": [
+     "EC-02908"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les propos d'Olson sur le cloacal et le génital, tenus en classe",
+    "vers_date": "1977",
+    "vers": "A Day and a Night at the Baths, roman où les paroles d'Olson remontent après l'alcool et les drogues",
+    "refs": [
+     "EC-02905"
+    ]
+   }
+  ],
+  "motifs": [
+   "Olson comme figure paternelle, entre nudité, héritage et emprise",
+   "L'archive melvillienne comme dette et comme pouvoir",
+   "La piété filiale contre l'appel de la vie ailleurs (Merrill et Herb)",
+   "Le mentorat par la brûlure : critique violente puis reconnaissance",
+   "Lawrence comme père spirituel controversé"
+  ],
+  "lacunes": "Aucune date précise de mai n'est donnée, et le statut de la session n'est pas documenté. Le retour d'Olson du Yucatán est placé au début du printemps, mais il contredit son activité en classe dès février ; les sources ne tranchent pas. Les dates de la visite de Metcalf, du Bartleby et de la crise bovine restent floues. Duberman place l'incendie du bâtiment Roadside après la période, quand les fiches de Rumaker le situent à l'hiver précédent. La date exacte du départ de Merrill pour Houston et l'issue de sa démarche auprès de Herb sont inconnues. Le climat n'est pas décrit."
+ }
+}

@@ -1,0 +1,257 @@
+{
+ "passe": "mois",
+ "cle": "1934-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4302,
+  "sortie": 13405,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1934-12",
+  "session": "Deuxième année académique (1934-35), session d'automne ; les fiches ne donnent pas les dates de trimestre",
+  "saison_et_climat": "Fin d'automne et début d'hiver. Les fiches ne décrivent pas le climat de BMC en décembre. Le contraste avec la chaleur de Cuba est attesté, et un hiver froid est déduit du calendrier.",
+  "situation": "Le collège entre dans son deuxième automne. Rice a repris la direction, Georgia est devenu secrétaire, Anni Albers enseigne le tissage et Josef Albers met les cours d'art au centre du programme. Les efforts d'autosuffisance se poursuivent (coopérative, imprimerie, meubles, métiers, Cottage School). Le débat sur le salaire de Robert Wunsch, payé plus que les autres et financé en partie par une collecte étudiante de mille dollars, reste sans consensus. La presse commence à parler de BMC : éditorial de Walter Locke le 16 novembre, article de Grace Young attendu en janvier. Le 8 décembre, une réunion traite du rôle des étudiants. Les Albers et les Dreier quittent le campus pour Cuba le 28 décembre.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Georgia (secrétaire)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Robert Wunsch",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bobbie Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Étudiants (John, Paul, Ann, pseudonymes des journaux de 1933-34 ; présence en 1934-12 non attestée)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1934-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Les étudiants lèvent mille dollars pour le salaire de Robert Wunsch. La faculté payée en sous en conteste le principe. La réunion reste sans consensus et Rice renvoie les étudiants convaincre les opposants.",
+    "certitude": "atteste",
+    "refs": [
+     "fil: Recrutement de Wunsch",
+     "synthèse 1934 (sans identifiant)"
+    ]
+   },
+   {
+    "date": "1934-12-08",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunion sur le rôle des étudiants, après les amendements de mai qui leur donnent accès aux registres, le droit d'adopter une constitution et un siège au Board.",
+    "certitude": "atteste",
+    "refs": [
+     "fil: Gouvernance, consensus et droits étudiants",
+     "synthèse 1934 (sans identifiant)"
+    ]
+   },
+   {
+    "date": "1934-12-28",
+    "precision": "jour",
+    "ce_qui_arrive": "Josef et Anni Albers partent avec Ted et Bobbie Dreier en voiture et ferry de Miami vers La Havane, à l'invitation de Clara Porset.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02360",
+     "EV-02358",
+     "EV-02357"
+    ]
+   },
+   {
+    "date": "1934-12-28",
+    "precision": "periode",
+    "ce_qui_arrive": "Cycle de trois conférences de Josef au Lyceum de La Havane. Le séjour se prolonge jusqu'à mi-janvier 1935.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02360",
+     "SC-00603",
+     "EV-02358"
+    ]
+   },
+   {
+    "date": "1934-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Premier voyage latino-américain, à Cuba. Il ouvre une série de plus de quatorze voyages en Amérique latine jusqu'en 1956.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02355"
+    ]
+   }
+  ],
+  "quotidien": "La ferme est rentrée depuis la récolte collective de l'automne, et un fermier salarié fournit environ la moitié des légumes du réfectoire. Les étudiants tiennent la coopérative, l'imprimerie, la fabrication de meubles et de métiers à tisser, et la Cottage School. Anni enseigne le tissage selon le programme qu'elle vient d'élaborer. Josef prépare ses bois gravés, qui attendent des réponses de la Addison Gallery. Les fiches ne mentionnent ni musique ni cours particuliers pour ce mois.",
+  "tensions": [
+   "Le salaire de Wunsch divise la faculté : les étudiants ont levé l'argent, mais une partie des enseignants payés en sous conteste le principe.",
+   "Albers juge Rice « totalement indiscipliné » et s'exaspère des réunions sans ordre du jour, alors que Rice a vite regretté d'avoir fait de Georgia le recteur.",
+   "Le rôle des étudiants dans la gouvernance est à redéfinir après les amendements de mai, et la réunion du 8 décembre n'a pas de résultat connu.",
+   "Le collège veut se suffire à lui-même, mais ses finances restent fragiles : la coopérative a des caisses déséquilibrées.",
+   "Les journaux de la première année racontent l'amour de John pour Paul, l'aveu qui a choqué Paul, puis le recadrage de John par Rice. Ces pseudonymes ne sont pas attestés en décembre 1934."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Réunion du 8 décembre sur le rôle des étudiants",
+    "date": "1934-12-08",
+    "lieu": null,
+    "personnages": [
+     "Rice",
+     "Georgia",
+     "délégués étudiants",
+     "faculté"
+    ],
+    "deroule": "Réunion qui suit les amendements de mai. Les étudiants demandent leur place dans les décisions, et la faculté doit dire ce qu'elle accepte de partager. Les fiches ne donnent ni l'issue ni le lieu.",
+    "certitude": "probable",
+    "refs": [
+     "fil: Gouvernance, consensus et droits étudiants",
+     "synthèse 1934 (sans identifiant)"
+    ]
+   },
+   {
+    "titre": "Départ pour Cuba",
+    "date": "1934-12-28",
+    "lieu": "Miami, puis La Havane",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Ted Dreier",
+     "Bobbie Dreier"
+    ],
+    "deroule": "Voyage en voiture des Dreier, puis ferry depuis Miami. Accueil à La Havane par Clara Porset. Découverte des palmiers, des fruits, du café fort, du tabac noir et du rhum.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02357",
+     "EV-02358",
+     "SC-00603"
+    ]
+   },
+   {
+    "titre": "Le Nouvel An à La Havane",
+    "date": "1934-12",
+    "lieu": "La Havane",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Ted Dreier",
+     "Bobbie Dreier"
+    ],
+    "deroule": "Vin espagnol le soir du Nouvel An. Josef écrit ensuite aux Kandinsky que tout est « différent de l'Amérique du Nord... excellent tout ».",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00603",
+     "EV-02358"
+    ]
+   },
+   {
+    "titre": "Wunsch et la collecte de mille dollars",
+    "date": "1934-11",
+    "lieu": null,
+    "personnages": [
+     "Robert Wunsch",
+     "Rice",
+     "étudiants",
+     "faculté payée en sous"
+    ],
+    "deroule": "Les étudiants lèvent l'argent du salaire de Wunsch. Une partie de la faculté conteste. Rice renvoie les étudiants convaincre les opposants.",
+    "certitude": "probable",
+    "refs": [
+     "fil: Recrutement de Wunsch",
+     "synthèse 1934 (sans identifiant)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Albers, au moment où il part pour Cuba, repense à sa tentative pour Bennington",
+    "vers_date": "1934-04-06",
+    "vers": "Le refus de Leigh (6 avril) pour un poste trop peu « américain », puis le malentendu de langue. Albers est resté à BMC.",
+    "refs": [
+     "synthèse 1934 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Wunsch, à la fin de novembre, dans la foulée de son recrutement",
+    "vers_date": null,
+    "vers": "Son passage à Rollins, dont BMC s'est détaché pour se tourner vers lui-même.",
+    "refs": [
+     "fil: Recrutement de Wunsch"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le séjour à La Havane, fin décembre",
+    "vers_date": "1935-01-16",
+    "vers": "Fin du cycle de conférences au Lyceum et retour des voyageurs.",
+    "refs": [
+     "EV-02360"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Josef, à La Havane",
+    "vers_date": "1935-02-04",
+    "vers": "Lettre aux Kandinsky qui décrit Cuba comme un monde différent de l'Amérique du Nord.",
+    "refs": [
+     "EV-02357",
+     "SC-00603"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La tournée de l'hiver 1934-35",
+    "vers_date": "1935",
+    "vers": "Exposition d'estampes d'Albers à l'Addison Gallery. Anni songe déjà au Mexique pour l'année suivante.",
+    "refs": [
+     "synthèse 1934 (sans identifiant)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le premier voyage à Cuba",
+    "vers_date": "1956",
+    "vers": "Plus de quatorze voyages en Amérique latine, jusqu'en 1956.",
+    "refs": [
+     "EV-02355"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le campus de décembre",
+    "vers_date": null,
+    "vers": "Première visite de John Dewey (1934-35, moment non précisé). Il assiste au cours de Rice, boit de la bière avec les étudiants, puis revient avec Albert Barnes.",
+    "refs": [
+     "synthèse 1934 (sans identifiant)"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le collège se regarde plus qu'il n'est regardé, alors que la presse commence à le découvrir.",
+   "Les discours d'autonomie se heurtent aux conflits d'argent, comme le salaire de Wunsch.",
+   "Pendant que le collège apprend à se gouverner, ses maîtres partent vers l'Amérique latine.",
+   "L'art au centre du programme, Albers contre Rice.",
+   "Cuba comme échappée et comme répertoire d'images."
+  ],
+  "lacunes": "On ignore l'issue du débat sur le salaire de Wunsch et celle de la réunion du 8 décembre. La date exacte de la première visite de Dewey n'est pas donnée (1934-35). On ne sait pas si l'affaire John-Paul-Ann continue. Le climat de décembre à BMC, la musique et les cours particuliers ne sont pas documentés. La date de la note de Locke et celle de l'article de Young ne sont pas contradictoires, mais aucune fiche ne précise la date exacte de Thanksgiving ni celle du débat sur Wunsch. La synthèse 1934 n'a pas d'identifiant, ce qui est signalé dans les refs."
+ }
+}

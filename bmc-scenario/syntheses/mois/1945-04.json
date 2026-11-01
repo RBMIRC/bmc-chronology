@@ -1,0 +1,310 @@
+{
+ "passe": "mois",
+ "cle": "1945-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2847,
+  "sortie": 13474,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1945-04",
+  "session": "Printemps 1945, année scolaire régulière en cours ; les fiches ne précisent ni trimestre ni découpage, seule la session d'été des instituts est documentée, plus tard dans l'année",
+  "saison_et_climat": "Printemps dans les montagnes de Caroline du Nord. Les fiches ne décrivent pas le temps d'avril ; on peut seulement déduire un printemps de montagne doux et humide, sans détail attesté.",
+  "situation": "En avril 1945, le collège de Lake Eden se remet de la scission de 1944 avec un corps enseignant réduit. Lowinsky improvise des cours de rattrapage, Zabriskie et Kazin viennent d'arriver sans y être heureux, et Beidler, nommé instructeur et architecte-conseil en février, dessine le Music Cubicle. La question raciale reste ouverte entre Lowinsky, qui la porte, et Straus et Kurtz, qui s'y opposent ; la formule sera arrêtée en mai. Wunsch est encore recteur, sa chute n'arrivera qu'en juin. Aucune fiche ne date un événement précis d'avril.",
+  "presents_probables": [
+   {
+    "nom": "Lowinsky",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jalowetz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kurtz",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch (recteur)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zabriskie",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kazin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Beidler",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fritz Cohen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Les Cohen (couple, sans argent)",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1945-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Clark Foreman, après six mois de préparatifs, annonce qu'il devient secrétaire du National Citizens Political Action Committee ; il quitte le projet de collège.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse) : hiver et printemps"
+    ]
+   },
+   {
+    "date": "1945-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Beidler est nommé instructeur et architecte-conseil.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse) : hiver et printemps"
+    ]
+   },
+   {
+    "date": "1945-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Fritz Cohen tente en vain de vendre son Music Institute, notamment à Kenyon ; il ne sera sauvé que par l'Opera Workshop de Juilliard.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse) : hiver et printemps"
+    ]
+   },
+   {
+    "date": "1945-05",
+    "precision": "mois",
+    "ce_qui_arrive": "La faculté arrête la formule sur la question raciale : deux étudiants noirs aux instituts d'été, puis un enseignant noir à l'automne si le candidat est de calibre.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse) : hiver et printemps",
+     "fil : Intégration raciale (1944-09→1947)"
+    ]
+   },
+   {
+    "date": "1945-05-16",
+    "precision": "jour",
+    "ce_qui_arrive": "Wallen écrit au collège ; Straus l'a recommandé après évaluation à Baltimore. Deux voix vocales retardent la nomination via une rumeur d'instabilité nerveuse tirée d'une lettre d'Allport, rumeur vérifiée auprès de l'armée puis jugée fausse ; Wallen obtient un contrat d'un an. Selon Wallen, Albers serait une des deux voix.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse) : hiver et printemps",
+     "fil : Wallen contre Albers : art contre communauté (1945-05→1947)"
+    ]
+   },
+   {
+    "date": "1945-06",
+    "precision": "mois",
+    "ce_qui_arrive": "Affaire Wunsch : arrestation près d'Asheville pour « crimes contre nature », réduite à une intrusion avec sursis grâce à des amis influents ; la faculté interdit d'informer les étudiants ; Wunsch démissionne et vient chercher ses affaires de nuit avant de repartir à l'aube. Les récits divergent selon les sources.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse) : juin",
+     "fil : Affaire Wunsch et son silence (1945-06→None)"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Instituts d'été : Gropius, Feininger, Motherwell, Kauder, Bodky, Marx et d'autres ; Albers dirige son samedi matin ; Roland Hayes donne son récital devant environ 400 personnes avec places intégrées et sans incident, test décisif de l'intégration.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse) : été"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "saison",
+    "ce_qui_arrive": "Neuf nouveaux enseignants, huit jeunes et américains avec enfants, dont John et Rachel Wallen, Bill Levi et M.C. Richards, Niebyl et ses trois disciples, Baker. Le collège est agréé pour le GI Bill.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse) : automne"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "annee",
+    "ce_qui_arrive": "Sylvesta Martin devient la première étudiante noire à plein temps ; les sources divergent sur la date exacte.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1945 (synthèse) : automne",
+     "fil : Intégration raciale (1944-09→1947)"
+    ]
+   },
+   {
+    "date": "1945-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers rédige son article « Art at Black Mountain College », marquant la polarisation entre art et communauté.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre 1945 (synthèse) : automne",
+     "fil : La matière et la culture d'atelier d'Albers (1945→1948)"
+    ]
+   },
+   {
+    "date": "1945",
+    "precision": "annee",
+    "ce_qui_arrive": "Albers serait élu recteur peu après l'affaire Wunsch selon Chaddock ; d'autres fiches placent son rectorat en 1948. Contradiction non tranchée.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1945 (synthèse) : juin"
+    ]
+   }
+  ],
+  "quotidien": "Vie courante dense et ritualisée : chorales de Bach de Jalowetz qui durent deux à trois heures, chants en chaîne de table en table au dîner, aucun couvre-feu. Lowinsky assure des cours de rattrapage dans une faculté réduite. Les Cohen manquent d'argent, Fritz démarche sans succès la vente de son Music Institute. L'atelier de menuiserie et l'imprimerie s'organisent en fil continu.",
+  "tensions": [
+   "La question raciale divise la faculté : Lowinsky pousse l'intégration, Straus et Kurtz s'y opposent, la formule se négocie en vue de mai.",
+   "Corps enseignant réduit et instable : Zabriskie et Kazin ne sont ni heureux ni durables au collège.",
+   "Précarité financière : Fritz Cohen et son Music Institute sans acheteur, sauvetage seulement par Juilliard plus tard.",
+   "Le projet rival de New York existe mais ne supplante pas BMC, ce qui laisse planer une concurrence.",
+   "Le code du silence se durcit au sein de la communauté, préfigurant la façon dont l'affaire Wunsch sera tue.",
+   "Hostilité du sud-est des États-Unis face à l'ouverture aux Noirs."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Répétition de chorale Bach",
+    "date": "1945-04",
+    "lieu": null,
+    "personnages": [
+     "Jalowetz",
+     "étudiants du chœur"
+    ],
+    "deroule": "Jalowetz fait travailler des Bach pendant deux à trois heures ; la répétition longue rassemble une communauté amoindrie et sert de rituel commun.",
+    "certitude": "probable",
+    "refs": [
+     "fil : Le chœur de Jalowetz (1945→1946)"
+    ]
+   },
+   {
+    "titre": "Dîner et chants en chaîne",
+    "date": "1945-04",
+    "lieu": "réfectoire",
+    "personnages": [
+     "Jalowetz",
+     "Lowinsky",
+     "étudiants"
+    ],
+    "deroule": "Au dîner, les chants passent de table en table ; une habitude ritualisée qui soude ou exclut selon qui chante.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre 1945 (synthèse) : hiver et printemps"
+    ]
+   },
+   {
+    "titre": "Débat de faculté sur l'intégration",
+    "date": "1945-04",
+    "lieu": null,
+    "personnages": [
+     "Lowinsky",
+     "Straus",
+     "Kurtz"
+    ],
+    "deroule": "Lowinsky porte la question raciale, Straus et Kurtz s'y opposent ; la discussion mène à la formule arrêtée en mai.",
+    "certitude": "deduit",
+    "refs": [
+     "fil : Intégration raciale (1944-09→1947)",
+     "chapitre 1945 (synthèse) : hiver et printemps"
+    ]
+   },
+   {
+    "titre": "Démarches de vente du Music Institute",
+    "date": "1945-04",
+    "lieu": null,
+    "personnages": [
+     "Fritz Cohen"
+    ],
+    "deroule": "Fritz Cohen poursuit ses démarches après l'échec de Kenyon, sans acheteur ; la précarité pèse sur le couple.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1945 (synthèse) : hiver et printemps"
+    ]
+   },
+   {
+    "titre": "Beidler dessine le Music Cubicle",
+    "date": "1945-04",
+    "lieu": null,
+    "personnages": [
+     "Beidler"
+    ],
+    "deroule": "Nommé en février architecte-conseil, Beidler dessine le Music Cubicle dans une vie de chantier et de réunions.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre 1945 (synthèse) : hiver et printemps"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Avril 1945 : la faculté débat encore de la question raciale héritée de la rentrée 1944.",
+    "vers_date": "1944",
+    "vers": "La scission de 1944 vide le collège de sa moitié rebelle et ouvre la question de l'intégration à la rentrée de septembre 1944.",
+    "refs": [
+     "fil : Intégration raciale (1944-09→1947)",
+     "fil : Reconstruction après la scission de 1944 (1944-12→1945-12)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1945 : la formule d'intégration n'est pas encore arrêtée, Wallen n'est pas encore venu.",
+    "vers_date": "1945-05-16",
+    "vers": "La lettre de Wallen, la rumeur d'instabilité nerveuse et le contrat d'un an obtenu après vérification.",
+    "refs": [
+     "fil : Wallen contre Albers : art contre communauté (1945-05→1947)",
+     "chapitre 1945 (synthèse) : hiver et printemps"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril 1945 : Wunsch dirige encore le collège, sans que rien ne soit visible.",
+    "vers_date": "1945-06",
+    "vers": "Arrestation de Wunsch, sursis, démission nocturne, silence de la faculté et version officielle de surmenage.",
+    "refs": [
+     "fil : Affaire Wunsch et son silence (1945-06→None)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Printemps 1945 : la communauté se prépare à l'été des instituts.",
+    "vers_date": null,
+    "vers": "Été 1945 : instituts, Albers qui enseigne le samedi matin, récital de Roland Hayes avec places intégrées, soirées chez les Lowinsky.",
+    "refs": [
+     "chapitre 1945 (synthèse) : été"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Printemps 1945 : Elaine et Willem de Kooning à New York, atelier de la 22e Rue.",
+    "vers_date": "1948",
+    "vers": "Rauschenberg, démobilisé de la Navy, ne viendra à BMC qu'en 1948 ; les de Kooning sont expulsés de leur atelier puis s'installent au 63 Carmine Street.",
+    "refs": [
+     "fil : Parallèle new-yorkais (de Kooning, Rauschenberg) (1945→1948)",
+     "chapitre 1945 (synthèse) : hors du collège"
+    ]
+   }
+  ],
+  "motifs": [
+   "reconstruction après la scission",
+   "intégration raciale comme test de la communauté",
+   "code du silence",
+   "ritualisation de la vie commune",
+   "précarité et dépendance aux fondations",
+   "musique comme sociabilité"
+  ],
+  "lacunes": "Aucune fiche ne date un événement d'avril 1945 : le mois est reconstruit par débordement des fils et du chapitre de l'année. Les fiches n'ont pas d'identifiants EV-, SC- ou PE- ; les refs renvoient donc aux titres. Session et climat ne sont pas documentés. Sources contradictoires : rectorat d'Albers (1945 selon Chaddock, 1948 ailleurs), récit de l'affaire Wunsch (note de Molesworth tronquée, Rumaker, Dreier), date de Sylvesta Martin. Présence en avril de Dreier, Molly Gregory, Herbert Miller et du nombre exact d'enseignants non documentée."
+ }
+}

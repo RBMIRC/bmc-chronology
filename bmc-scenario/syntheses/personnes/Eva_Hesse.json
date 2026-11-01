@@ -1,0 +1,177 @@
+{
+ "passe": "personnes",
+ "cle": "Eva Hesse",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1499,
+  "sortie": 4686,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Eva Hesse",
+  "autres_noms": [],
+  "dates_de_vie": "Non précisées dans les fiches. Les repères datés sont une lettre du 1er mai 1958 et des expérimentations avec les fils vers 1969, à dater avec prudence.",
+  "statut_bmc": "Présence à Black Mountain College non attestée par les fiches. Le seul lien explicite est la fiche OE-01008, qui la dit « étudiante à BMC » à la publication d'Interaction of Color. Cela contredit l'autre fiche (PE-00293), qui la place à Yale dans le cours de couleur d'Albers, et son passage reste « lié au contexte du livre ». Il faut la traiter comme une figure périphérique, élève d'Albers à Yale, jusqu'à vérification.",
+  "presence": [
+   {
+    "debut": "",
+    "fin": "",
+    "role": "Élève d'Albers (cours de couleur à Yale, free study avec feuilles). Présence physique à BMC non démontrée : lien indirect via Albers et via la planche d'Interaction of Color.",
+    "refs": [
+     "PE-00293",
+     "OE-01008"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucun détail physique dans les fiches. On ne peut que montrer son corps au travail : elle fait sécher des pièces en latex sur un radiateur ou dans un moule à muffins au four, lave des tubs de caoutchouc dans le bain, travaille serrée dans un coin d'atelier encombré.",
+  "noyau_psychologique": "Déduction à partir de peu de matière : une artiste qui cherche la liberté d'expérimenter et supporte mal les cadres qui la bornent. Elle rejette l'institution qui n'« approuve » ni la recherche ni l'expression. Son atelier montre le contraire d'un goût pour la grandeur : elle s'accommode de la promiscuité, d'un coin, de la cuisine et de la salle de bains, pourvu que la matière avance. Elle est pragmatique et physique dans son rapport aux matériaux.",
+  "blessures": "Attesté : le sentiment d'être contrariée par Yale, où l'on ne reconnaît ni l'expérimentation ni la liberté (CI-02439, PE-00293). Rien d'autre dans les fiches : toute blessure familiale ou biographique serait une invention.",
+  "desirs": "Déduit de la plainte à Yale et des pratiques d'atelier : le droit d'expérimenter, de chercher, de s'exprimer sans validation préalable, et de pousser la sculpture vers des matières et des fils inattendus (EV-08076).",
+  "peurs": "Non documentées. À déduire avec prudence : l'étouffement par l'académisme, l'obligation de se conformer.",
+  "maniere_d_aimer": "Les fiches indiquent seulement un mari, Tom Doyle, avec qui elle partage un studio à deux niveaux à Bowery. Elle se réserve le rez-de-chaussée, « son coin ». Cela suggère une intimité où chacun garde un espace de travail, mais rien sur l'affect n'est attesté.",
+  "rapport_au_pouvoir": "Méfiance envers l'autorité institutionnelle : « ils » n'approuvent rien de ce qui compte pour elle (CI-02439). Albers est son professeur et son nom reste lié au cours de couleur. La fiche ne précise pas si la plainte vise aussi Albers : à ne pas supposer.",
+  "voix": {
+   "registre": "Familier, direct, en anglais. Phrases sèches et factuelles pour l'atelier. Jugement global et rageur quand elle parle de l'institution.",
+   "tics": "L'énumération par trois ou quatre termes (expérimentation, recherche, liberté, expression), le « ils » collectif pour désigner l'autorité, l'adverbe « seulement/only » pour délimiter son espace.",
+   "exemples_paraphrases": [
+    "Elle dit de Yale que ces gens ne veulent ni qu'on essaie, ni qu'on cherche, ni qu'on soit libre, ni qu'on s'exprime de quelque façon que ce soit.",
+    "À Lippard, elle explique qu'elle ne travaille qu'au rez-de-chaussée, dans son coin, et que c'est franchement encombré."
+   ]
+  },
+  "habitudes": [
+   "Fait sécher des pièces en latex sur le radiateur ou dans un moule à muffins au four.",
+   "Lave les tubs de caoutchouc dans la baignoire.",
+   "Travaille uniquement au niveau inférieur du studio de la Bowery, dans un coin encombré.",
+   "Écrit des lettres à une correspondante, la Dre Helene Papanek (mai 1958)."
+  ],
+  "convictions": [
+   "Un enseignement digne de ce nom doit autoriser l'expérimentation, la recherche, la liberté et l'expression (CI-02439).",
+   "Les fils et les matières souples peuvent servir de méthode sculpturale alternative (EV-08076, interprétation d'auteur)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "",
+    "moment": "Rattachement à l'univers d'Albers : cours de couleur, free study avec feuilles. La fiche OE-01008 la dit « à BMC », mais PE-00293 indique Yale. Date flottante, entre 1933 et 1962 selon l'ancrage de la fiche.",
+    "etat_interieur": "Déduit : curiosité pour la couleur, irritation devant un cadre qui bride. Non attesté directement pour BMC.",
+    "refs": [
+     "OE-01008",
+     "PE-00293"
+    ]
+   },
+   {
+    "date": "1958-05",
+    "moment": "Elle écrit à la Dre Helene Papanek, lettre citée par Anne Middleton Wagner. Le contenu n'est pas donné dans les fiches.",
+    "etat_interieur": "Inconnu. La lettre est un point d'ancrage à creuser.",
+    "refs": [
+     "EV-07069",
+     "PE-00293"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "≈1950",
+    "moment": "Années d'étudiante à Yale, où elle se plaint que les professeurs n'approuvent ni l'expérimentation, ni la recherche, ni la liberté. La date est approximative (fiche CI-02439 : ≈1950→2009).",
+    "refs": [
+     "CI-02439",
+     "PE-00293"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Étude libre avec feuilles réalisée dans le cours de couleur d'Albers, reproduite plus tard en planche XXV-1 d'Interaction of Color.",
+    "refs": [
+     "OE-01008",
+     "PE-00293"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "",
+    "moment": "Studio sur deux niveaux à Bowery, New York, partagé avec son mari Tom Doyle. Elle y travaille en bas, dans son coin, et le décrit à Lippard. Date non précisée (≈1950→1977).",
+    "refs": [
+     "PE-00293",
+     "CI-02457"
+    ]
+   },
+   {
+    "date": "1969",
+    "moment": "Vers cette époque, elle expérimente les fils comme méthode sculpturale alternative, comme Sheila Hicks. Les catalogues Constantine-Larsen encadrent le mouvement fiber art jusqu'en 1981. Un lien avec On Weaving d'Anni Albers est possible mais incertain : interprétation d'auteur.",
+    "refs": [
+     "EV-08076",
+     "EC-00528"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Professeur du cours de couleur (Yale) ; son exercice est reproduit dans Interaction of Color.",
+    "evolution": "Les fiches ne donnent aucune évolution ni aucun jugement personnel de Hesse sur lui.",
+    "refs": [
+     "PE-00293",
+     "OE-01008"
+    ]
+   },
+   {
+    "avec": "Dre Helene Papanek",
+    "nature": "Destinataire d'une lettre datée de mai 1958.",
+    "evolution": "Inconnue.",
+    "refs": [
+     "EV-07069"
+    ]
+   },
+   {
+    "avec": "Tom Doyle",
+    "nature": "Mari ; partage avec elle le studio de la Bowery.",
+    "evolution": "Inconnue.",
+    "refs": [
+     "PE-00293",
+     "CI-02457"
+    ]
+   },
+   {
+    "avec": "Lucy Lippard",
+    "nature": "Interlocutrice à qui elle décrit son atelier (« Lippard » dans la fiche).",
+    "evolution": "Non précisée.",
+    "refs": [
+     "PE-00293",
+     "CI-02457"
+    ]
+   },
+   {
+    "avec": "Sheila Hicks",
+    "nature": "Contemporaine qui expérimente aussi le fil en sculpture ; parallèle posé par un auteur.",
+    "evolution": "Rapprochement historiographique, pas une relation attestée.",
+    "refs": [
+     "EV-08076"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "OE-01008 dit que Hesse est « étudiante à BMC » à la publication d'Interaction of Color, alors que PE-00293 et CI-02439 la situent à Yale dans le cours de couleur d'Albers. Le livre date d'ailleurs de 1963, et la fiche OE-01008 donne un ancrage flou (≈1933-11→1962).",
+   "Les dates de CI-02439 (≈1950→2009) et CI-02457 (≈1950→1977) sont des plages déduites, donc très vagues.",
+   "La date de la citation sur Yale est incertaine ; les deux citations viennent de livres différents (Horowitz & Danilowitz 2009 p.250 ; Troeller 2025 sur Asawa p.91), alors que PE-00293 cite plusieurs pages de Horowitz & Danilowitz."
+  ],
+  "situations_revelatrices": [
+   "Une critique ou un cours où l'on bride sa recherche : elle réagit par une plainte globale et amère.",
+   "Un atelier exigu dans lequel elle se replie dans un coin et manipule du latex et du caoutchouc comme une cuisinière.",
+   "Un échange avec une critique ou une amie sur son espace de travail : concision, précision spatiale.",
+   "Une scène de correspondance (lettre de 1958) où elle s'ouvre à une confidente."
+  ],
+  "citations": [
+   "« ils n'approuvent ni l'expérimentation, ni la recherche, ni la liberté, ni aucune forme d'expression » (CI-02439, plainte à Yale)",
+   "« Je travaille seulement en bas. Dans mon coin. C'est vraiment encombré » (CI-02457, à Lippard)"
+  ],
+  "questions_ouvertes": [
+   "A-t-elle réellement séjourné à Black Mountain College, et quand ? Les fiches se contredisent.",
+   "Que dit la lettre à la Dre Papanek de 1958 ?",
+   "Quelles sont ses dates de naissance et de mort, son milieu familial, son parcours avant Yale ?",
+   "Qui sont exactement les « ils » de Yale, et Albers est-il concerné par la plainte ?",
+   "Quand a-t-elle épousé Tom Doyle et quand datent précisément les deux ateliers de la Bowery ?",
+   "A-t-elle connu On Weaving, ou le lien avec le fiber art est-il seulement une rencontre de calendrier ?"
+  ]
+ }
+}

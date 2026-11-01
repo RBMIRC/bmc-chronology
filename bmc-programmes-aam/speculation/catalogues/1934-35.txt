@@ -1,0 +1,155 @@
+# Concordance des « Courses of Instruction » 1934-35 → gabarits de l'année reconstituée.
+#
+# Sources (titres et corps enseignant relus sur les scans) :
+#   1934-35 : catalogue 2017.40.009 (fiche 6577), cours scans 009-08 et 009-09, corps enseignant 009-04 (état de l'hiver :
+#             étudiants « Fall and Winter Terms 1934-1935 ») ; encart « Fall Term, 1934 » 2017.40.008 (fiche 6576), scan 008-01
+#   1933-34 : catalogue 2017.40.006, scans 006-12/13 (colonne « année précédente »)
+#   1935-36 : catalogue 2017.40.011, scans 011-08/09 (colonne « année suivante ») ; 1936-38 (2017.40.012) pour les volumes
+#   L'automne et l'hiver ont deux états du corps enseignant : Hinckley (psychologie) est dans l'encart d'automne, plus au
+#   catalogue ; Wunsch (anglais et théâtre) est au catalogue, pas dans l'encart. Personne n'enseigne l'allemand.
+#
+# C|id|discipline|titre 1934-35 (scan)|année précédente (1933-34)|année suivante (1935-36 ; volumes 1936-38)
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ART (Josef Albers ; Anni Albers, « Instructor in Weaving ») ----------
+C|art.dessin1|Art|Introductory Drawing|Drawing|Introductory Drawing ; 1936-38 : 4 h
+C|art.dessin2|Art|Advanced Drawing|Drawing|Advanced Drawing ; 1936-38 : 4 h
+C|art.couleur1|Art|Introductory Color|Color|Introductory Color ; 1936-38 : 2 h
+C|art.couleur2|Art|Advanced Color|Color|Advanced Color ; 1936-38 : 2 h
+C|art.werklehre|Art|Werklehre (the development of the feeling for material and space)|Werklehre|Werklehre ; 1936-38 : 2 h
+C|art.seminaire|Art|Art Seminar|—|Art Seminar
+C|art.tissage_t|Art|Weaving Theory|Weaving (hors liste)|Weaving Theory ; 1936-38 : 1 h
+C|art.tissage_p|Art|Weaving Practice|Weaving (hors liste)|Weaving Practice ; 1936-38 : 4 h
+U|A1|Josef Albers|4|MEME_ANNEE+R_SEUL+VOLUME|art.dessin1|||1|seul enseignant d'art (encart 008-01, catalogue 009-04)|||
+U|A2|Josef Albers|4|MEME_ANNEE+R_SEUL+VOLUME|art.dessin2|||1|idem|||
+U|A3|Josef Albers|2|MEME_ANNEE+R_SEUL+VOLUME|art.couleur1|||1|idem|||
+U|A4|Josef Albers|2|MEME_ANNEE+R_SEUL+VOLUME|art.couleur2|||1|idem|||
+U|A5|Josef Albers|2|MEME_ANNEE+R_SEUL+VOLUME|art.werklehre|||1|idem|||
+U|A6|Josef Albers|1|MEME_ANNEE+R_SEUL+VOLUME+OCCASION|art.seminaire|||1|idem||séminaire sans horaire connu : séance indicative|
+U|A7|Anni Albers|1|MEME_ANNEE+R_SEUL+VOLUME|art.tissage_t|||1|« Instructor in Weaving » (encart et catalogue)|||
+U|A8|Anni Albers|4|MEME_ANNEE+R_SEUL+VOLUME|art.tissage_p|||1|idem|||
+
+# ---------- CHEMISTRY (Frederick R. Georgia, secrétaire) ----------
+C|ch.gen|Chemistry|General Chemistry|General Chemistry|General Chemistry ; 1936-38 : 3 h + 4 h de laboratoire
+C|ch.quali|Chemistry|Qualitative Analysis|Qualitative Analysis|Qualitative Analysis
+C|ch.quanti|Chemistry|Quantitative Analysis|Quantitative Analysis|Quantitative Analysis
+C|ch.org|Chemistry|Organic Chemistry|Organic Chemistry|Organic Chemistry
+U|CH1|Frederick R. Georgia|3+4L|MEME_ANNEE+R_SEUL+VOLUME|ch.gen|||1|seul enseignant de chimie|||
+U|CH2|Frederick R. Georgia|3|MEME_ANNEE+R_SEUL+VOLUME|ch.quali||ch.quanti;ch.org|1/3|idem||un cours avancé ; lequel des trois : inconnu (ordre du catalogue)|
+
+# ---------- ECONOMICS (Helen Boyden) ----------
+C|eco.elem|Economics|Elementary Economics|Elementary Economics|Introduction to Economic Literature (approché)
+C|eco.hist|Economics|Economic History|Economic History|Economic History
+C|eco.theorie|Economics|Evolution of Economic Theory|Evolution of Economic Theory|Theory and Problems of Economics (approché)
+C|eco.cycle|Economics|The Business Cycle|—|—
+C|eco.socialisme|Economics|Socialism|Philosophies of Social Reconstruction (approché)|—
+U|E1|Helen Boyden|3|MEME_ANNEE+R_SEUL+VOLUME|eco.elem||eco.cycle;eco.socialisme|3/5|seule enseignante d'économie||cinq titres, environ trois à la fois ; ordre du catalogue|
+U|E2|Helen Boyden|3|MEME_ANNEE+R_SEUL+VOLUME|eco.hist||eco.cycle;eco.socialisme|3/5|idem||idem|
+U|E3|Helen Boyden|3|MEME_ANNEE+R_SEUL+VOLUME|eco.theorie||eco.cycle;eco.socialisme|3/5|idem||idem|
+
+# ---------- ENGLISH (Martin, « English » ; Loram, « English and Dramatics » ; Wunsch, idem, à partir de l'hiver) ----------
+C|en.chaucer|English|Chaucer and his Period|Chaucer|Chaucer and his Period
+C|en.shakespeare|English|Shakespeare and the Elizabethan Drama|Shakespeare|Shakespeare and Contemporary Dramatists
+C|en.spenser|English|Spenser and other Sixteenth Century Non-dramatic Literature|—|Elizabethan Non-Dramatic Literature
+C|en.milton|English|Milton and the Puritan Revolution|Milton|Milton and Seventeenth Century Literature
+C|en.xvii|English|Seventeenth Century Literature|—|Milton and Seventeenth Century Literature
+C|en.xviii|English|Seminar in the Eighteenth Century|The Restoration (approché)|the Restoration and the Augustans
+C|en.poesie19|English|Nineteenth Century Poetry|—|the Romantic Poets (approché)
+C|en.prose19|English|Nineteenth Century Prose|—|Nineteenth Century Literature
+C|en.drame|English|English Drama from Sheridan to the Present Day|Contemporary Drama (approché)|Development of the Drama (approché)
+C|ecr.elem|English|Elementary Writing|Elements of English Composition (approché)|Elementary Writing ; 1936-38 : creative writing, 3 h, Wunsch
+C|ecr.avance|English|Advanced Writing|Seminar in Writing (approché)|— (absent en 1935-36)
+C|ecr.nouvelle|English|the Modern Short Story|—|the Modern Short Story
+C|ecr.mise|English|Dramatic Direction|Dramatics|Dramatic Direction
+U|MT1|Joseph W. Martin|3|MEME_ANNEE+R_NOMME+VOLUME|en.chaucer||en.shakespeare;en.spenser;en.milton;en.xvii;en.xviii;en.poesie19;en.prose19|3/8|cours d'époque : tous à Martin en 1936-38||huit titres d'époque, environ trois à la fois ; ordre du catalogue|
+U|MT2|Joseph W. Martin|3|MEME_ANNEE+R_NOMME+VOLUME|en.shakespeare||en.chaucer;en.spenser;en.milton;en.xvii;en.xviii;en.poesie19;en.prose19|3/8|idem||idem|
+U|MT3|Joseph W. Martin|3|MEME_ANNEE+R_NOMME+VOLUME|en.spenser||en.chaucer;en.shakespeare;en.milton;en.xvii;en.xviii;en.poesie19;en.prose19|3/8|idem||idem|
+U|L1|Hilda Loram|3|MEME_ANNEE+R_ELIM+VOLUME|en.drame|||1|le théâtre revient aux enseignants « English and Dramatics »|||
+U|L2|Hilda Loram|3|MEME_ANNEE+R_ELIM+VOLUME|ecr.elem|||1|idem (seule « English and Dramatics » à l'automne)|||
+U|L3|Hilda Loram|2|MEME_ANNEE+R_ELIM+VOLUME+HEURE|ecr.mise|répétitions et productions||1|idem|mar 20:00-22:00|séance du soir choisie par moi|
+U|L4|Hilda Loram|3|MEME_ANNEE+R_ELIM+VOLUME|ecr.avance||ecr.nouvelle|1/2|à l'automne, Wunsch n'est pas encore là (encart 008-01)||l'un des deux à la fois, vraisemblablement|fall
+U|W1|Robert Wunsch|3|MEME_ANNEE+R_NOMME+VOLUME+PRESENCE|ecr.avance|||1|l'écriture est à Wunsch en 1935-38 ; au catalogue (hiver), pas dans l'encart d'automne||date d'arrivée inconnue : présence pendant tout l'hiver non attestée|winter
+U|W2|Robert Wunsch|3|MEME_ANNEE+R_NOMME+VOLUME+PRESENCE|ecr.nouvelle|||1|idem||idem|winter
+U|W3|Robert Wunsch|3|MEME_ANNEE+R_NOMME+VOLUME|ecr.avance|||1|idem|=W1||spring
+U|W4|Robert Wunsch|3|MEME_ANNEE+R_NOMME+VOLUME|ecr.nouvelle|||1|idem|=W2||spring
+
+# ---------- FRENCH, SPANISH, ITALIAN, LINGUISTICS (Frederick R. Mangold, « Instructor in Romance Languages ») ----------
+C|fr.intro|French|Introductory French|Elementary French|Introductory French ; 1936-38 : 3 h, années alternées
+C|fr.avance|French|Advanced French|Advanced French|Advanced French
+C|fr.survey|French|Survey of French Literature|—|Survey of French Literature
+C|fr.seminaire|French|Seminar in French Literature (dealing with an historical period, a literary genre, several writers or a single writer, according to the needs of the students)|Seminar|Seminar in French Literature
+C|es.intro|Spanish|Introductory Spanish|Elementary Spanish|Introductory Spanish
+C|es.avance|Spanish|Advanced Spanish|Advanced Spanish|Advanced Spanish
+C|es.survey|Spanish|Survey of Spanish Literature|—|Survey of Spanish Literature
+C|es.philologie|Spanish|Seminar in Spanish Philology|—|— (absent en 1935-36)
+C|es.seminaire|Spanish|Seminar in Spanish Literature (dealing with an historical period, a literary genre, several writers or a single writer, according to the needs of the students)|—|Seminar in Spanish Literature
+C|es.cervantes|Spanish|Cervantes|—|Cervantes
+C|it.intro|Italian|Introductory Italian|Elementary Italian|Introductory Italian
+C|ling.intro|Linguistics|General Introduction to Linguistics|—|General Introduction to Linguistics ; 1936-38 : 3 h, Mangold et Martin
+U|MA1|Frederick R. Mangold|3|MEME_ANNEE+R_SEUL+VOLUME|fr.intro||fr.avance|1/2|seul enseignant de langues romanes (encart et catalogue)||l'un des deux à la fois (règle d'alternance attestée en 1936-38 seulement)|
+U|MA2|Frederick R. Mangold|3|MEME_ANNEE+R_SEUL+VOLUME|fr.survey||fr.seminaire|1/2|idem|||
+U|MA3|Frederick R. Mangold|3|MEME_ANNEE+R_SEUL+VOLUME|es.intro||es.avance|1/2|idem|||
+U|MA4|Frederick R. Mangold|2|MEME_ANNEE+R_SEUL+VOLUME+OCCASION|es.survey||es.philologie;es.seminaire;es.cervantes|1/4|idem||littérature espagnole pour un ou deux étudiants avancés, sans doute en tutorat|
+U|LG|Frederick R. Mangold; Joseph W. Martin|3|MEME_ANNEE+R_NOMME+VOLUME|ling.intro|||1/2|discipline sans enseignant ; tous deux nommés en 1936-38||chance 1/2 qu'il soit donné cette année|
+N|it.intro|un seul enseignant pour tout le domaine roman : l'italien, au mieux à la demande d'un étudiant
+
+# ---------- GERMAN (aucun enseignant) ----------
+C|de.intro|German|Introductory German|Elementary and Advanced (Emmy Zastrow)|Introductory German (Anna Moellenhoff)
+U|D1||3|MEME_ANNEE+R_COMPET+VOLUME|de.intro|||1/2|aucun enseignant d'allemand ni dans l'encart ni au catalogue ; Emmy Zastrow est partie||cours inscrit au catalogue sans personne pour le donner : chance 1/2 qu'il ait eu lieu, par un membre germanophone de la communauté (inconnu)|
+
+# ---------- GREEK, LATIN, PLATO (John A. Rice, recteur) ----------
+C|gr.elem|Greek|Elementary Greek|Elementary Greek|Elementary Greek ; 1936-38 : 3 h
+C|gr.platon|Greek|Plato|Plato|Plato
+C|la.virgile|Latin|Virgil|Virgil|Virgil
+C|la.lyrique|Latin|Latin Lyric Poetry|Latin Lyric Poetry|Latin Lyric Poetry
+C|la.comedie|Latin|Roman Comedy|Latin Comedy|Roman Comedy
+U|R1|John A. Rice|3|MEME_ANNEE+R_SEUL+VOLUME|gr.elem|||1|seul enseignant de lettres classiques|||
+U|R2|John A. Rice|3|MEME_ANNEE+R_SEUL+VOLUME|gr.platon|||1/2|idem||le Platon en grec peut se confondre avec le « Seminar on Plato » de philosophie (unité R4)|
+U|R3|John A. Rice|3|MEME_ANNEE+R_SEUL+VOLUME|la.virgile||la.lyrique;la.comedie|1/3|idem||un cours de latin à la fois ; ordre du catalogue|
+
+# ---------- HISTORY (James Gore King Jr., « Instructor in History ») ----------
+C|hi.grece|History|Greek History|Ancient History|Greek History and Culture
+C|hi.medieval|History|Intellectual History of the Middle Ages|Intellectual History of the Middle Ages|the Medieval Mind
+C|hi.europe|History|Modern European History|—|the Last Three Centuries in Europe (approché)
+C|hi.angleterre|History|English History from 1600|—|England since Elizabeth
+C|hi.amerique|History|American History|—|Trends in American History
+U|H1|James Gore King Jr.|3|MEME_ANNEE+R_SEUL+VOLUME|hi.grece||hi.europe;hi.angleterre;hi.amerique|3/5|seul enseignant d'histoire (encart et catalogue)||cinq titres, environ trois à la fois ; ordre du catalogue ; « Greek History » pourrait revenir à Rice|
+U|H2|James Gore King Jr.|3|MEME_ANNEE+R_SEUL+VOLUME|hi.medieval||hi.europe;hi.angleterre;hi.amerique|3/5|idem||idem|
+U|H3|James Gore King Jr.|3|MEME_ANNEE+R_SEUL+VOLUME|hi.europe||hi.angleterre;hi.amerique|3/5|idem||idem|
+
+# ---------- MATHEMATICS, PHYSICS (Theodore Dreier, trésorier) ----------
+C|ma.trigo|Mathematics|Trigonometry|Trigonometry|Trigonometry
+C|ma.geom|Mathematics|Analytic Geometry|Analytical Geometry|Analytic Geometry
+C|ma.calcul|Mathematics|Differential and Integral Calculus|Differential and Integral Calculus|Differential and Integral Calculus
+C|ph.survey|Physics|Elementary Survey of Physics|Elementary Survey of Physics|Elementary Survey of Physics
+C|ph.gen|Physics|General Physics|General Physics|General Physics ; 1936-38 : 3 h + 4 h de laboratoire
+C|ph.optique|Physics|Elementary Optics|Elementary Optics|Elementary Optics
+C|ph.elec|Physics|Electricity|Electricity|Electricity
+C|ph.meca|Physics|Mechanics|Mechanics|Mechanics
+C|ph.moderne|Physics|Modern Physics|Modern Physics|Modern Physics
+U|P1|Ted Dreier|3+4L|MEME_ANNEE+R_SEUL+VOLUME|ph.gen|||1|seul enseignant de physique et mathématiques|||
+U|P2|Ted Dreier|3|MEME_ANNEE+R_SEUL+VOLUME+OCCASION|ph.elec||ph.survey;ph.optique;ph.meca;ph.moderne|1/5|idem||un cours au-delà de l'introduction, en petit groupe ; lequel : inconnu|
+U|M1|Ted Dreier|3|MEME_ANNEE+R_SEUL+VOLUME+EQUIV|ma.trigo+ma.geom|réunis en un cours comme en 1936-38||1|idem||rien ne dit qu'ils étaient déjà réunis|
+U|M2|Ted Dreier|3|MEME_ANNEE+R_SEUL+VOLUME|ma.calcul|||1|idem|||
+
+# ---------- MUSIC (John Evarts) ----------
+C|mu.jusqua|Music|Music (through Beethoven)|Appreciation of Music|Music Appreciation and History (three successive full-year courses) ; 1936-38 : 3 h
+C|mu.depuis|Music|Music (since Beethoven)|Appreciation of Music|idem
+C|mu.opera|Music|Opera|Nineteenth Century Opera|Nineteenth Century Opera ; 1936-38 : 1 h
+C|mu.piano|Music|Piano|—|Instruction in Composition and Piano Playing
+U|MU1|John Evarts|3|MEME_ANNEE+R_SEUL+VOLUME|mu.jusqua|||1|seul enseignant de musique (encart et catalogue)|||
+U|MU2|John Evarts|3|MEME_ANNEE+R_SEUL+VOLUME|mu.depuis|||1|idem|||
+U|MU3|John Evarts|1|MEME_ANNEE+R_SEUL+VOLUME|mu.opera|||1|idem|||
+U|MU4|John Evarts|1|MEME_ANNEE+R_SEUL+VOLUME+OCCASION|mu.piano|leçons individuelles||1|idem||leçons à la demande : plage indicative|
+
+# ---------- PHILOSOPHY (Robert M. Goldenson, « Instructor in Philosophy » ; Rice pour Platon ; Hinckley à l'automne) ----------
+C|phi.logique|Philosophy|Logic and the Scientific Method|—|Logic ; 1936-38 : un semestre, 3 h
+C|phi.ethique|Philosophy|Ethics|—|Ethics ; idem
+C|phi.platon|Philosophy|Seminar on Plato|— (séminaire collectif de philosophie, approché)|Plato Seminar ; 1936-38 : Rice
+C|phi.tendances|Philosophy|Seminar in Contemporary Trends|—|—
+C|phi.psycho|Philosophy|General Psychology|General Psychology (Hinckley)|General Psychology (Knickerbocker et Moellenhoff)
+U|G1|Robert M. Goldenson|3|MEME_ANNEE+R_ELIM+VOLUME|phi.logique||phi.ethique|1/2|par élimination : Platon est à Rice||l'un des deux à la fois (un semestre chacun en 1936-38)|
+U|G2|Robert M. Goldenson|2|MEME_ANNEE+R_ELIM+VOLUME|phi.tendances|||1|idem|||
+U|R4|John A. Rice|3|MEME_ANNEE+R_NOMME+VOLUME|phi.platon|||1|Platon est à Rice d'une année à l'autre|||
+U|PS1|William W. Hinckley|3|MEME_ANNEE+R_ELIM+VOLUME|phi.psycho|||1|« Instructor in Psychology » dans l'encart d'automne||à l'automne seulement : il n'est plus au catalogue de l'hiver|fall
+U|PS2|Robert M. Goldenson|3|MEME_ANNEE+R_ELIM+VOLUME|phi.psycho|||1/2|après le départ de Hinckley, le cours est rangé en philosophie : Goldenson|=PS1|chance 1/2 qu'il ait continué après l'automne|winter,spring

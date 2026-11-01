@@ -1,0 +1,344 @@
+{
+ "passe": "mois",
+ "cle": "1953-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 10569,
+  "sortie": 13573,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1953-03",
+  "session": "institut d'hiver « New Sciences of Man » (2 février–23 mars 1953), en cours ce mois-ci",
+  "saison_et_climat": "fin d'hiver et entrée au printemps ; lumière déclinante sur les montagnes autour du campus, pentes raides derrière North Lodge ; les fiches ne décrivent pas le climat plus précisément",
+  "situation": "Le collège termine son institut d'hiver sur les « New Sciences of Man », conçu autour de Jung, dont la maladie prive le campus de sa visite ; von Franz le remplace à partir de la mi-mars. Olson mène déjà la vie intellectuelle depuis sa classe d'écriture et dirige le collège de fait depuis 1950, mais il ne sera nommé recteur officiellement qu'après l'été. Sur le plan matériel, la situation se dégrade : le troupeau de bœufs financé par Paul Williams tourne au désastre, la ferme est grevée d'une hypothèque de 25 000 $, des potagers sont plantés et une grange à tabac construite, et l'« esprit kibboutz » commence à se défaire.",
+  "presents_probables": [
+   {
+    "nom": "Marie-Louise von Franz",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Michael Rumaker",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cornelia",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Wes Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Cynthia Homire",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Fee Dawson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "la majorité des étudiants et de la faculté",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1953-02-02",
+    "precision": "periode",
+    "ce_qui_arrive": "Institut d'hiver « New Sciences of Man » sur la mythologie et l'archéologie ; Jung, invité par Olson, est malade et ne vient pas",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06172"
+    ]
+   },
+   {
+    "date": "1953-02",
+    "precision": "mois",
+    "ce_qui_arrive": "Rumaker subit les critiques cruelles d'Olson, puis une colère publique de sa part en classe",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06169",
+     "EV-05992"
+    ]
+   },
+   {
+    "date": "1953-03",
+    "precision": "semaine",
+    "ce_qui_arrive": "Arrivée de von Franz à la place de Jung, en mi-mars ; elle monte aussitôt une Seven Sister et revient au gong",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06174",
+     "EV-06172",
+     "SC-01666"
+    ]
+   },
+   {
+    "date": "1953-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Entretiens de rêves avec von Franz, dans la chambre sous les combles de Streamside, courts et limités en minutes",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06175",
+     "SC-01667"
+    ]
+   },
+   {
+    "date": "1953-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Causeries de von Franz en salle à manger, suivies de questions-réponses",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06176"
+    ]
+   },
+   {
+    "date": "1953-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Mother Courage de Brecht, mise en scène par Wes Huss avec presque toute l'école",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06176"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Le Bartleby de Rumaker fait enfin plaisir à Olson, qui lui ouvre l'accès à sa bibliothèque privée",
+    "certitude": "probable",
+    "refs": [
+     "EV-05993",
+     "EV-05994",
+     "EV-05996"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "saison",
+    "ce_qui_arrive": "Visite d'Eleanor Melville Metcalf au printemps",
+    "certitude": "probable",
+    "refs": [
+     "EV-05997"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "saison",
+    "ce_qui_arrive": "Visiteurs de New York au printemps",
+    "certitude": "probable",
+    "refs": [
+     "EV-05990",
+     "EV-06185"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "saison",
+    "ce_qui_arrive": "Retour d'Olson du Yucatán « au début du printemps », ce que contredisent les fiches qui le montrent actif en classe dès février",
+    "certitude": "probable",
+    "refs": [
+     "EV-05971"
+    ]
+   },
+   {
+    "date": "1953",
+    "precision": "annee",
+    "ce_qui_arrive": "Le troupeau de bœufs tourne au désastre : taureaux qui effraient les citadins, mammite, rafle dans les pâtures, vente aux enchères au pire moment du marché",
+    "certitude": "probable",
+    "refs": [
+     "EV-05949",
+     "EV-05950"
+    ]
+   }
+  ],
+  "quotidien": "Classe d'écriture d'Olson, où le manuscrit est obligatoire pour entrer, la fumée des Camels flotte et les tableaux de Kline, Tworkov et de Kooning dominent la cheminée ; repas en salle à manger avec causeries ; répétitions de Mother Courage ; gong de Cornelia qui règle les heures ; sorties dans les montagnes ; consultations de rêves ; travaux de la ferme (bœufs, potagers, grange à tabac).",
+  "tensions": [
+   "Olson, qui gouverne le collège sans en avoir le titre, humilie publiquement Rumaker puis lui ouvre sa bibliothèque : faveur et violence s'entremêlent.",
+   "Rumaker doute de sa voie et de sa part queer ; il cherche une réponse chez von Franz et s'en remet à la figure du Vieux Sage incarnée par Olson.",
+   "Le collège attendait Jung et reçoit von Franz, ce qui pèse sur l'atmosphère de l'institut.",
+   "La ferme s'effondre : troupeau perdu, hypothèque, corvées désertées ; Jack Rice quitte le collège après une dispute avec Huss, à une date non précisée.",
+   "Les sources se contredisent sur le retour d'Olson du Yucatán (début du printemps contre présence en classe dès février) et sur la durée de l'institut (« trois semaines » contre une période du 2 février au 23 mars)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "L'ascension de von Franz",
+    "date": "1953-03",
+    "lieu": "cuisine puis montagne derrière North Lodge",
+    "personnages": [
+     "Marie-Louise von Franz",
+     "Michael Rumaker",
+     "Cornelia"
+    ],
+    "deroule": "À peine installée à Streamside, von Franz redescend demander l'heure du souper, apprend qu'il reste une demi-heure, puis grimpe seule une Seven Sister et revient au coup de gong, revigorée. Rumaker tombe sous le charme.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01666",
+     "EV-06174"
+    ]
+   },
+   {
+    "titre": "Le pèlerinage des rêves",
+    "date": "1953-03",
+    "lieu": "chambre sous les combles, Streamside",
+    "personnages": [
+     "Marie-Louise von Franz",
+     "Michael Rumaker"
+    ],
+    "deroule": "Rumaker monte avec son cœur qui bat et lui soumet ses rêves ; elle lit vite, interprète trop vite, reconnaît l'anima et identifie le turban noir d'Olson au Vieux Sage. Il n'ose pas poser ses vraies questions sur sa voie et sur son identité.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01667",
+     "EV-06175"
+    ]
+   },
+   {
+    "titre": "Mother Courage et la question du pilote",
+    "date": "1953-03",
+    "lieu": "salle à manger",
+    "personnages": [
+     "Wes Huss",
+     "Cynthia Homire",
+     "Fee Dawson",
+     "Marie-Louise von Franz"
+    ],
+    "deroule": "Pendant la séance de questions après la première causerie, Dawson révèle que le pilote qu'elle joue est un de ses archétypes, un animus de son ombre qui pourrait la détourner de sa vraie voie ; von Franz répond d'un air malicieux.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06176"
+    ]
+   },
+   {
+    "titre": "Le baptême de fureur",
+    "date": "1953-02",
+    "lieu": null,
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Olson accable Rumaker de critiques cruelles puis éclate en colère devant la classe. Rumaker y verra plus tard le début de sa vie d'écrivain, une seconde naissance.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06169",
+     "EV-05992",
+     "EC-02971",
+     "EC-02976"
+    ]
+   },
+   {
+    "titre": "Le Bartleby qui plaît à Olson",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "Charles Olson",
+     "Michael Rumaker"
+    ],
+    "deroule": "Le texte de Rumaker sur Bartleby enfin apprécié par Olson, qui lui ouvre sa bibliothèque privée ; le travail d'étudiant débouchera sur une publication new-yorkaise des années plus tard.",
+    "certitude": "probable",
+    "refs": [
+     "EV-05993",
+     "EV-05994",
+     "EV-05996",
+     "EC-02908"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, sur la pente de l'entretien de rêves, quand revient la rivière de son enfance dans le sud du New Jersey",
+    "vers_date": null,
+    "vers": "les ponts brisés et la mère dans la barque de ses rêves renvoient à son enfance ; Olson le presse : « write from there »",
+    "refs": [
+     "EC-02974"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, en se demandant si sa place au collège est précaire, pendant l'institut",
+    "vers_date": null,
+    "vers": "ses exclusions antérieures (« cast out once more ») qui réactivent la peur d'un nouvel exil",
+    "refs": [
+     "EC-02976"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, en voyant von Franz remplacer Jung",
+    "vers_date": null,
+    "vers": "l'invitation de Jung déclinée pour cause de maladie et l'injonction « so long as it's psychologically true » qui gouverne son mémoire",
+    "refs": [
+     "EC-02973"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Olson, figure qui réveille chez Rumaker la mémoire paternelle",
+    "vers_date": null,
+    "vers": "l'aube d'hiver de l'enfance, où son père en caleçon ouvrit la fenêtre ébréchée, et l'image du père nu",
+    "refs": [
+     "EC-02904"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, après la fureur d'Olson en classe",
+    "vers_date": null,
+    "vers": "sa carrière d'écrivain et sa vie entière après Black Mountain College",
+    "refs": [
+     "EC-02971"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, avec le texte sur Bartleby accepté par Olson",
+    "vers_date": "1963",
+    "vers": "publication de l'essai dans Kulchur 10, à New York, neuf ans plus tard",
+    "refs": [
+     "EC-02908"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, à propos des discussions sur les rêves du collège",
+    "vers_date": "1958-02",
+    "vers": "lettres d'Olson de Gloucester (février 1958 et janvier 1957) et publication de « 8 Dreams » en 1958, où le problème du rêve continue de les occuper",
+    "refs": [
+     "EC-02972"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, au moment où les propos d'Olson sur le cloacal et le génital lui reviennent",
+    "vers_date": "1977",
+    "vers": "scène visionnaire de A Day and a Night at the Baths, après l'épreuve de l'alcool et des drogues",
+    "refs": [
+     "EC-02905"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rumaker, quand Olson évoque la rupture d'un étudiant parti tôt",
+    "vers_date": null,
+    "vers": "San Francisco dans les années 1970, puis les années du sida au début des années 1980, avec Bill McNeil « l'un des premiers à partir »",
+    "refs": [
+     "EC-02921"
+    ]
+   }
+  ],
+  "motifs": [
+   "rêve et interprétation jungienne (Vieux Sage, anima, archétypes)",
+   "Olson en figure paternelle et en maître ambivalent",
+   "identité queer de Rumaker et peur de la voie fausse",
+   "exil et exclusion répétés",
+   "Lawrence comme père spirituel controversé",
+   "l'écriture comme seconde naissance",
+   "la ferme comme promesse d'autonomie qui s'effondre"
+  ],
+  "lacunes": "On ignore la date exacte de la visite de von Franz au-delà de la mi-mars, la date de la fureur d'Olson et celle du Bartleby, la date des incidents de la ferme et du départ de Jack Rice, et le climat réel du mois. Les fiches sur Rauschenberg à Rome et Tétouan, ou sur Hartigan et de Kooning à New York, ne concernent pas le collège et ne sont pas exploitées ici. Le nombre et l'identité des étudiants présents ne sont pas établis."
+ }
+}

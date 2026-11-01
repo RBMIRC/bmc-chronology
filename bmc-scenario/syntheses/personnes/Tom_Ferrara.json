@@ -1,0 +1,202 @@
+{
+ "passe": "personnes",
+ "cle": "Tom Ferrara",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3375,
+  "sortie": 6360,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Tom Ferrara",
+  "autres_noms": [
+   "Ferrara"
+  ],
+  "dates_de_vie": "Non documentées dans les fiches. En 1979, il est présenté comme un « jeune artiste ». Il est actif auprès de de Kooning pendant les années 1980.",
+  "statut_bmc": "Aucune fiche ne l'associe à Black Mountain College (1933-1957) : pas de séjour, pas d'enseignement, pas d'étudiant attesté. Il n'apparaît que dans l'orbite tardive de Willem de Kooning à Long Island (East Hampton), à partir de 1979. Pour le scénario, c'est un personnage de l'après-collège. Il ne peut servir que de flash-forward, par exemple comme regard sur le vieux de Kooning ou comme témoin de ce que la légende du peintre est devenue. Tout lien direct avec le collège serait une invention.",
+  "presence": [],
+  "portrait_physique": "Aucune description physique dans les fiches. Seuls des traits de tempérament sont donnés : intense, silencieux, lent et délibéré dans son travail, polyvalent. Il est jeune en 1979 et bon cuisinier. Il conduit aussi Lisa et ses amies.",
+  "noyau_psychologique": "Ferrara est un protecteur possessif. Il s'attache à Bill (de Kooning), aux yeux de qui il passe pour l'assistant préféré, et il estime savoir seul comment le traiter. Sa loyauté prend la forme du soin concret : repas, surveillance de l'alcool, préparation des couleurs, sens du moment où une toile est terminée. Le même zèle le rend envahissant. Il s'arroge une autorité sur l'œuvre, et il en veut à quiconque, Elaine comprise, ne s'y prend pas comme lui. Ce portrait est une synthèse des fiches, que le scénariste devra incarner sans le surcharger : les sources donnent des comportements, presque jamais de monologue intérieur.",
+  "blessures": "Rien n'est attesté sur son passé. Déduction prudente : son humiliation la plus nette est le renvoi par Elaine après une explosion au sujet des pilules (oui-dire, EV-08487). La date de ce renvoi est incertaine, entre 1980 et 1987 environ.",
+  "desirs": "Attesté : que Bill soit bien nourri, tenu à l'écart de l'alcool, bien traité, et qu'il continue à peindre. Il pense que Bill devrait être « plus comme Matisse, plus pur ». Déduit : il veut aussi une place d'arbitre dans l'atelier, celle de celui qui sait quand c'est fini.",
+  "peurs": "Déduit des fiches : la déchéance de Bill (dépression, alcool, pilules), qu'il observe de près, et peut-être la perte de sa place auprès de lui. La citation CI-02502 laisse entendre qu'il sait les jours de de Kooning comptés.",
+  "maniere_d_aimer": "Il aime par le soin et la présence : il va chaque soir s'assurer que Bill mange, cuisine, chauffe, veille. Cet amour est possessif et jaloux de ses méthodes. Il le fait entrer en conflit avec Elaine (pilules) et inquiète JoAnne Lowenthal, qui le juge « trop familier ». La relation avec Bill est classée « amitié » dans les fiches. Elle tient autant de la filiation d'atelier ou du gardiennage : à vous de trancher.",
+  "rapport_au_pouvoir": "Pouvoir de fait, sans titre. Il décide quand un tableau est fini et quand Bill doit le laisser tranquille. Il travaille lui-même sur certaines toiles (témoignage de JoAnne, qui s'en inquiète). Il se heurte à l'autorité d'Elaine, qui peut le renvoyer. Attesté : l'influence sur l'œuvre. Contesté : l'ampleur de ses retouches.",
+  "voix": {
+   "registre": "Aucune parole directe d'atelier n'est conservée, hormis une phrase de témoignage sur de Kooning (CI-02502). Elle est imagée et simple : une métaphore corporelle, la respiration. On peut en déduire une voix sobre, concrète, peu bavarde, d'un homme silencieux qui parle surtout de gestes et de matière.",
+   "tics": "Aucun tic de langage attesté. Déduit seulement : il ramène volontiers les choses au corps et au métier (pigments, ponçage, cuisine).",
+   "exemples_paraphrases": [
+    "Dans les années 1980, de Kooning ne peinait plus : peindre était devenu comme respirer, il expirait ses tableaux (CI-02502).",
+    "Il raconte que le titre Pirate vient d'une voile de bateau pirate (anecdote rapportée, PE-00188).",
+    "Déduit : devant Elaine, il refuse qu'on abrutisse Bill de pilules ; d'après le oui-dire, il aurait fini par crier (EV-08487)."
+   ]
+  },
+  "habitudes": [
+   "Travaille lentement et avec délibération.",
+   "Connaît la chimie des pigments et la manière de traiter les toiles : eau, huile de girofle, ponçage (RE-03208).",
+   "Prépare les couleurs avec Robert Chapman et trace les contours au fusain sur les toiles vierges (QU-02205).",
+   "Aide à la préparation de toiles poncées dont les « fantômes » servent de départ à de nouvelles images (QU-02205).",
+   "Cuisine pour Bill et s'assure qu'il mange le soir (EV-08466).",
+   "Conduit Lisa et ses amies (PE-00188).",
+   "Photographie le travail : quatorze états d'Untitled XXIII (PE-00188, EC-02617).",
+   "Assiste à une séance de gravure en 1981 (PE-00188)."
+  ],
+  "convictions": [
+   "Bill devrait être « plus comme Matisse, plus pur ».",
+   "Il faut traiter Bill d'une certaine façon, et les pilules d'Elaine sont nocives (QU-02194, RE-03209).",
+   "Il pense que le silence d'Elaine sur sa propre maladie tenait à sa rivalité avec Joan Ward (PE-00188)."
+  ],
+  "arc_bmc": [],
+  "avant": [],
+  "apres": [
+   {
+    "date": "1979",
+    "moment": "À l'automne, sur recommandation d'un certain Conrad, Ferrara, jeune artiste et bon cuisinier, prend la garde de Bill à East Hampton : il doit aller chaque soir s'assurer qu'il mange. Il relaie Conrad.",
+    "refs": [
+     "EV-08466",
+     "PE-00188"
+    ]
+   },
+   {
+    "date": "1980",
+    "moment": "Pendant l'été, JoAnne Lowenthal, assistante d'Elaine, le voit dire à Bill quand une peinture est terminée et quand il faut la laisser tranquille, et travailler lui-même sur des toiles. Elle se retient de parler. Il est alors l'assistant préféré de Bill.",
+    "refs": [
+     "SC-02157",
+     "EV-08486",
+     "RE-03208"
+    ]
+   },
+   {
+    "date": "1980",
+    "moment": "Il est mêlé à l'entourage de Lisa : une sortie en voiture « avec Tom » où elle dépense 600 dollars pour une cravate. L'identification avec Ferrara est probable (il la conduisait, d'après PE-00188) mais non certaine.",
+    "refs": [
+     "EV-08511",
+     "PE-00188"
+    ]
+   },
+   {
+    "date": "1981",
+    "moment": "Il assiste Bill lors d'une séance de gravure. À la même période, l'anecdote de la voile de bateau pirate lui est attribuée pour expliquer le titre Pirate (1981).",
+    "refs": [
+     "PE-00188"
+    ]
+   },
+   {
+    "date": "1982",
+    "moment": "Castagna est embauché « comme une sorte d'espion » pour aider Ferrara à tenir Bill à l'écart de l'alcool, avant de devenir lui-même assistant. Ferrara est donc toujours en poste.",
+    "refs": [
+     "EV-08531"
+    ]
+   },
+   {
+    "date": "1980/1987",
+    "moment": "Renvoi par Elaine après une explosion de colère au sujet des pilules. La date est floue (fourchette approximative des fiches). Les faits reposent sur du oui-dire.",
+    "refs": [
+     "EV-08487",
+     "RE-03208",
+     "RE-03209"
+    ]
+   },
+   {
+    "date": "",
+    "moment": "Dans les années 1980, il documente quatorze états d'Untitled XXIII, ce qui fait écho aux photographies de Rudolph Burckhardt sur Woman I trente ans plus tôt. Avec Robert Chapman, il avait été engagé pour relancer l'artiste déprimé.",
+    "refs": [
+     "PE-00188",
+     "EC-02617"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Willem de Kooning (Bill)",
+    "nature": "Assistant préféré, gardien, quasi-ami (RE-03208 : « amitié »). Relation de soin et d'atelier.",
+    "evolution": "En 1979, il arrive comme gardien et cuisinier. Dans les années 1980, il devient assistant d'atelier, avec une autorité croissante sur l'achèvement des toiles. Il est ensuite renvoyé (date incertaine), sans que la rupture avec Bill lui-même soit documentée.",
+    "refs": [
+     "EV-08466",
+     "RE-03208",
+     "SC-02157",
+     "EV-08487"
+    ]
+   },
+   {
+    "avec": "Elaine de Kooning",
+    "nature": "Conflit latent, puis ouvert. Elle gère l'entourage de Bill et lui donne des pilules que Ferrara déteste.",
+    "evolution": "Elle le tolère d'abord, puis le renvoie après une explosion. Elle le fait doubler par Castagna dès 1982 pour surveiller l'alcool. Elle reste une présence « dynamo, pleine d'énergie » dans le récit de 1979.",
+    "refs": [
+     "RE-03209",
+     "QU-02194",
+     "EV-08487",
+     "EV-08531",
+     "EV-08466"
+    ]
+   },
+   {
+    "avec": "JoAnne Lowenthal",
+    "nature": "Observatrice méfiante : elle le trouve « trop familier » et s'inquiète de ses retouches.",
+    "evolution": "Elle se tait pendant l'été 1980, alors qu'elle désapprouve.",
+    "refs": [
+     "EV-08486",
+     "SC-02157"
+    ]
+   },
+   {
+    "avec": "Robert Chapman",
+    "nature": "Collègue assistant, engagé avec lui pour relancer l'artiste dépressif ; ils préparent les couleurs ensemble.",
+    "evolution": "Non documentée.",
+    "refs": [
+     "PE-00188",
+     "QU-02205"
+    ]
+   },
+   {
+    "avec": "Castagna",
+    "nature": "Renfort recruté pour l'aider à garder Bill sobre, puis assistant à part entière.",
+    "evolution": "Il vit d'abord chez Elaine. La nature de ses rapports avec Ferrara n'est pas précisée.",
+    "refs": [
+     "EV-08531"
+    ]
+   },
+   {
+    "avec": "Lisa de Kooning",
+    "nature": "Il la conduit, ainsi que ses amies ; rapport utilitaire et amical plausible.",
+    "evolution": "Non documentée. Elle a des dépenses folles pendant l'été 1980 (600 dollars pour une cravate). L'identification du « Tom » de cette fiche est à vérifier.",
+    "refs": [
+     "PE-00188",
+     "EV-08511"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Assistant « préféré » et aimé de Bill (RE-03208) mais « trop familier » selon JoAnne, qui l'accuse de travailler sur des toiles. Les sources hésitent entre dévouement et appropriation.",
+   "Le renvoi par Elaine est rapporté en oui-dire (« aurait ») et daté seulement d'une fourchette large, 1980-1987. Il est pourtant confirmé par deux fiches concordantes (RE-03208, RE-03209) tirées de la même source. Or en 1982 Ferrara est encore actif (EV-08531).",
+   "Les deux versions de son arrivée diffèrent : gardien recommandé par Conrad à l'automne 1979 (Curtis) ; engagé avec Chapman pour relancer l'artiste dépressif (agrégat). Elles peuvent désigner deux moments ou deux rôles successifs.",
+   "Le « Tom » de la dépense de 600 dollars (EV-08511) n'est pas explicitement identifié comme Ferrara.",
+   "Le chaos de l'atelier est daté ≈1960-1976 (EV-07260) et ≈1970-1979 (EV-08125), sans lien direct avec Ferrara, qui arrive en 1979 : ses fonctions de gardien semblent venir après ce désordre."
+  ],
+  "situations_revelatrices": [
+   "Le soir : il prépare le repas de Bill, qui n'a pas faim, et s'assure qu'il mange.",
+   "Dans l'atelier, un tableau est presque fini ; Bill veut continuer, Ferrara dit qu'il faut s'arrêter. JoAnne observe sans rien dire.",
+   "Face à Elaine qui tend les pilules : la colère de Ferrara monte jusqu'au cri et au renvoi.",
+   "Devant les toiles poncées, dont les fantômes amorcent de nouvelles images : Ferrara prépare les couleurs et trace les contours au fusain.",
+   "La photographie des états successifs d'une toile : le chroniqueur qui voit le maître peindre « comme on respire ».",
+   "La voiture avec Lisa, où l'argent file."
+  ],
+  "citations": [
+   "CI-02502 — « Il ne se débattait pas… C'est devenu comme respirer. Il les expirait. » (Ferrara sur la productivité tardive de de Kooning ; la même phrase figure dans PE-00188).",
+   "SC-02157 / EV-08486 — JoAnne Lowenthal, face à Ferrara qui décide de la fin des toiles : elle se répète de se taire (témoignage direct, été 1980).",
+   "RE-03208 — Assistant préféré, aimé de Bill, qui connaît sa chimie de la peinture (eau, huile de girofle, ponçage).",
+   "EV-08531 — Castagna est embauché « comme une sorte d'espion » pour aider Ferrara à tenir Bill loin de l'alcool."
+  ],
+  "questions_ouvertes": [
+   "D'où vient Ferrara, quel âge a-t-il, quelle est sa formation d'artiste, quelle œuvre a-t-il produite ? Les fiches ne le disent pas.",
+   "A-t-il un lien quelconque avec Black Mountain College ou son réseau ? Aucun n'est attesté.",
+   "Quelle est l'étendue réelle de ses retouches sur les tableaux de Bill ? Seul JoAnne en témoigne.",
+   "Quand exactement a-t-il été renvoyé, et comment Bill a-t-il réagi ?",
+   "Qui est exactement « Conrad » ?",
+   "Le « Tom » de l'épisode de Lisa est-il bien Ferrara ?",
+   "Que devient-il après son départ, et reste-t-il en contact avec Bill ou ses proches ?",
+   "Où sont passées ses photographies des quatorze états d'Untitled XXIII ?"
+  ]
+ }
+}

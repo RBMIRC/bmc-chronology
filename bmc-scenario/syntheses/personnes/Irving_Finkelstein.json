@@ -1,0 +1,116 @@
+{
+ "passe": "personnes",
+ "cle": "Irving Finkelstein",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1195,
+  "sortie": 3310,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Irving Finkelstein",
+  "autres_noms": [],
+  "dates_de_vie": "Inconnues : les fiches ne donnent ni naissance ni mort. Seule activité attestée : entretiens avec Albers en 1965-1966, thèse soutenue en 1968.",
+  "statut_bmc": "Aucune présence au collège attestée dans les fiches. C'est un chercheur d'après-coup, qui rencontre Josef Albers (enseignant à Black Mountain de 1933 à 1949 selon le cadre du projet, non précisé dans ces fiches) bien après la fermeture. Il sert de témoin et de passeur, pas de personnage de la vie du collège. Tout usage à l'échelle 1 entre 1933 et 1957 serait de l'invention.",
+  "presence": [],
+  "portrait_physique": "Rien dans les sources : ni âge, ni traits, ni allure. À inventer, en le signalant comme tel. Seul fait concret : un homme qui passe beaucoup de temps dans l'atelier et la maison des Albers, un magnétophone ou des carnets à la main (le magnétophone est une déduction, les fiches parlent d'« heures d'entretiens »).",
+  "noyau_psychologique": "Les fiches ne décrivent pas son caractère. On déduit un historien d'art méthodique et patient, qui construit sa thèse sur la parole d'un maître vivant plutôt que sur les seuls documents. Il a l'œil exercé : vingt-neuf ans (soit plus ou moins) après les faits, il garde en mémoire la taille et les couleurs de trois tableaux vus une fois. Il est aussi un peu aveugle sur ce qu'on lui cache : Albers ne lui parle jamais de ses photographies ni de ses photocollages. Tout cela est inférence, pas attesté.",
+  "blessures": "Non documenté. Une fragilité professionnelle est possible : sa thèse affirmait qu'il n'existait qu'une douzaine de dessins, gravures sur bois et lithographies de la période d'avant le Bauhaus. Les sources ultérieures semblent le citer comme une référence, sans mentionner de correction. Rien n'indique qu'il en ait souffert.",
+  "desirs": "Attesté seulement par ses actes : obtenir son doctorat (New York University, 1968) et comprendre l'œuvre d'Albers de l'intérieur. Au-delà, il faudrait inventer.",
+  "peurs": "Non documenté.",
+  "maniere_d_aimer": "Non documenté. On peut seulement dire qu'il se consacre à un sujet (Albers) avec assiduité sur au moins deux ans.",
+  "rapport_au_pouvoir": "Position de chercheur face à un artiste âgé et reconnu qui contrôle l'accès à son atelier, à ses souvenirs et à ses œuvres. Albers lui accorde de longues heures mais garde ses secrets (les montages photographiques). Cette dépendance est déduite des faits EV-07742 et EV-07746, non formulée par les sources.",
+  "voix": {
+   "registre": "Aucune parole directe n'est rapportée. Seule trace : un souvenir d'historien décrivant des tableaux en termes simples et visuels (petits, couleurs très vives). On peut en déduire un registre universitaire américain des années 1960, précis, descriptif, sans lyrisme. Déduction.",
+   "tics": "Aucun attesté.",
+   "exemples_paraphrases": [
+    "Il dit se rappeler des tableaux petits, aux couleurs très vives, vus chez les Albers en 1965 (EV-07741, EV-07745).",
+    "Il affirme, dans sa thèse, qu'il ne reste qu'une douzaine de dessins, gravures sur bois et lithographies d'avant le Bauhaus (PE-00291)."
+   ]
+  },
+  "habitudes": [
+   "Passer de longues heures dans l'atelier d'Albers (PE-00291).",
+   "Mener des entretiens étalés sur 1965-1966 (EV-07742, EV-07746).",
+   "Noter que les œuvres annonçant la série « Homenaje » sont nées des stimulations reçues au Mexique (PE-00291)."
+  ],
+  "convictions": [
+   "Les œuvres qui annoncent la série « Homenaje » sont issues de ce qu'Albers a reçu au Mexique (PE-00291, d'après la fiche agrégée, sources Albers voyages Amérique latine et Weber 1984).",
+   "Le corpus d'Albers d'avant le Bauhaus est mince : une douzaine de pièces (PE-00291)."
+  ],
+  "arc_bmc": [],
+  "avant": [],
+  "apres": [
+   {
+    "date": "1965",
+    "moment": "Il voit chez les Albers trois tableaux de 1936 aujourd'hui perdus (Arqueológico I, Arqueológico II, Templo) et se souvient de petits formats aux couleurs très vives. Son témoignage est le seul témoignage direct connu sur ces œuvres, que l'on ne connaît plus que par d'anciennes photographies en noir et blanc.",
+    "refs": [
+     "EV-07741",
+     "EV-07745",
+     "PE-00291"
+    ]
+   },
+   {
+    "date": "1965/1966",
+    "moment": "Il interroge Albers pendant de nombreuses heures pour sa thèse. On parle des voyages au Mexique et de l'art mésoaméricain ; Albers ne mentionne jamais ses photographies ni ses photocollages. Cela confirme le caractère secret de ces montages.",
+    "refs": [
+     "EV-07742",
+     "EV-07746",
+     "PE-00291"
+    ]
+   },
+   {
+    "date": "1968",
+    "moment": "Soutenance de sa thèse (Ph.D., New York University) sur Albers, fondée sur ces entretiens.",
+    "refs": [
+     "PE-00291"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Josef Albers",
+    "nature": "Chercheur et artiste interrogé ; accès intime à la maison et à l'atelier.",
+    "evolution": "Relation attestée seulement pour 1965-1966. Albers répond longuement sur ses voyages mais garde pour lui ses photographies et photocollages, ce que Finkelstein ne perçoit pas. Rien avant ni après.",
+    "refs": [
+     "EV-07741",
+     "EV-07742",
+     "EV-07746",
+     "PE-00291"
+    ]
+   },
+   {
+    "avec": "Anni Albers",
+    "nature": "Probable présence à la maison où il voit les tableaux (« les Albers »). Aucune interaction attestée.",
+    "evolution": "Non documentée.",
+    "refs": [
+     "EV-07741"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Aucune contradiction réelle. Les fiches EV-07741 et EV-07745 décrivent le même souvenir de 1965, avec une légère variation de lieu (« maison des Albers » ou « domicile de Josef Albers »), sans conflit. Les citations de pages (p.71, p.240) ne désignent pas des faits différents.",
+   "La fiche agrégée PE-00291 est marquée « ≈ » (date déduite) : à manier avec prudence."
+  ],
+  "situations_revelatrices": [
+   "Une séance d'entretien où Finkelstein pose des questions sur le Mexique et où Albers, sans mentir, évite un pan de sa pratique (les photocollages).",
+   "La découverte des petits tableaux aux couleurs vives dans la maison des Albers, en 1965, et l'impression durable qu'ils lui laissent.",
+   "Une soutenance ou un travail de rédaction où il affirme que le corpus d'avant le Bauhaus tient en une douzaine de pièces."
+  ],
+  "citations": [
+   "EV-07741",
+   "EV-07742",
+   "EV-07745",
+   "EV-07746",
+   "PE-00291"
+  ],
+  "questions_ouvertes": [
+   "A-t-il eu un lien quelconque avec Black Mountain College, comme élève, visiteur ou lecteur ? Aucune fiche ne l'indique.",
+   "Quelles sont ses dates de vie, son parcours avant son doctorat, sa carrière après 1968 ?",
+   "Dans quelle ville et quelle maison a-t-il vu les tableaux de 1936 (les fiches parlent seulement de la maison des Albers) ?",
+   "Comment a-t-il connu Albers, et pourquoi lui a-t-il accordé tant d'heures ?",
+   "A-t-il su plus tard que des photocollages existaient, et comment a-t-il réagi ?",
+   "Quel poids exact a sa thèse de 1968 dans les écrits ultérieurs sur Albers ?"
+  ]
+ }
+}

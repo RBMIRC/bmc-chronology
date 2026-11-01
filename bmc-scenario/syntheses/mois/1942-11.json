@@ -1,0 +1,220 @@
+{
+ "passe": "mois",
+ "cle": "1942-11",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2969,
+  "sortie": 12994,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1942-11",
+  "session": "Trimestre d'automne 1942 (probablement en cours ; dates exactes non fournies)",
+  "saison_et_climat": "Fin d'automne 1942. Le climat n'est pas documenté dans les fiches ; on peut seulement déduire un temps froid et humide sur ce plateau de montagne de Caroline du Nord.",
+  "situation": "Le collège achève son trimestre d'automne. La grande grange est terminée depuis le printemps, la laiterie et les silos sont en chantier ou achevés. L'accréditation reste bloquée : le quota dans les programmes militaires est obtenu, mais le collège n'a toujours pas le droit de délivrer des diplômes. Le mica du pâturage vient d'être jugé de bonne qualité par les inspecteurs d'Asheville. Fin octobre, la crise de l'accord étudiant « bedroom » s'est réglée par l'abandon de l'accord. Rice vient de publier son autobiographie, avec un chapitre sur le collège. Le Board of Fellows doit prendre en décembre une décision transmise par télégramme, dont l'objet n'est pas indiqué.",
+  "presents_probables": [
+   {
+    "nom": "Fritz Hansgirg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Madame Hansgirg",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Oppenheimer",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Stoller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Molly Gregory",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1942-11",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution d'I Came Out of the Eighteenth Century de Rice, avec son chapitre sur Black Mountain. Le New York Times (4 novembre) le trouve brillant mais décousu, Time (23 novembre) salue un témoignage à charge contre sa propre profession.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03334"
+    ]
+   },
+   {
+    "date": "1942",
+    "precision": "session",
+    "ce_qui_arrive": "Trimestre d'automne : arrivée des Hansgirg, soirées Bach, orgue Hammond dans la salle à manger, collection de disques ; la ferme se développe, le poulailler tourne mal.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1942",
+    "precision": "saison",
+    "ce_qui_arrive": "Hansgirg et Straus trouvent un trou de mica dans le pâturage ; en deux jours on récolte 250 livres, les inspecteurs de la Colonial Mica Corporation le jugent de bonne qualité, et un mineur est embauché.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1942-12",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board of Fellows prend une décision transmise par télégramme, dont l'objet n'est pas indiqué.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Stoller, refusé par l'Enlisted Reserve à cause d'une oreille sourde, est mobilisé après le trimestre d'automne.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Les cours ont lieu le matin et le soir, et l'après-midi est consacré au chantier communautaire commencé à l'automne 1940 et qui court encore près de trois ans. La ferme occupe beaucoup de bras : troupeaux, légumes, taureau offert par Marshall Field, poulailler raté dont les poules ont fini dans les casseroles. La menuiserie, reprise par Molly Gregory après le départ de Bliss, devient le cœur du programme de construction. La vie s'organise autour de la salle à manger : soirées Bach et cookies au Hammond, disques, bals du samedi avec Evarts au piano, valse viennoise d'Elsa Kahl, tsatska de Frances de Graaf sur deux chaises, spectacles du samedi (Ethan Frome, La Mégère apprivoisée) pour lesquels on réquisitionne Oppenheimer. La dispute sur la crème fraîche réclamée par Hansgirg amuse la communauté. Ces scènes sont datées de 1942 ou de 1942-1943 selon les fiches.",
+  "tensions": [
+   "Clivage entre les admirateurs du Hammond et des cookies (Hansgirg) et l'élément « anti-gemütlichkeit », qui y voit un luxe déplacé.",
+   "Argent : la faculté ne met que 10 $ par mois et par personne, deux hypothèques s'accumulent (18 000 $ en plus d'un solde de 11 500 $), et certains refusent des postes ailleurs, dont un à 10 000 $.",
+   "Accréditation : le quota militaire est obtenu, mais la bibliothèque et les salaires empêchent toujours de diplômer.",
+   "Départs pour la guerre : Lindsley, Evarts, Boyden, Mangold, Babcock, French, Bliss ; Stoller est mobilisé après le trimestre d'automne.",
+   "La crise « bedroom », réglée fin octobre par l'abandon de l'accord, a abouti à une lettre ouverte des responsables étudiants. Son contenu reste inconnu.",
+   "Contentieux avec Hamilton Holt, qui menace Rice de poursuites pour libelle à propos du chapitre sur le collège.",
+   "Sam Brown date de l'automne 1942 le glissement vers une situation « informe ». Mais les fiches couvrant 1942-1944 ne prouvent pas que la fracture se joue déjà en 1942."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Lecture des critiques de Rice",
+    "date": "1942-11",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Rice",
+     "les membres de la faculté"
+    ],
+    "deroule": "Les premières critiques new-yorkaises arrivent au collège : l'éloge s'accompagne de réserves, et Time présente le livre comme un témoignage contre la profession. Holt menace de poursuites, et le collège doit mesurer l'effet de cette publicité sur ses finances et son accréditation.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03334"
+    ]
+   },
+   {
+    "titre": "Soirée Bach au Hammond",
+    "date": "1942",
+    "lieu": "Salle à manger",
+    "personnages": [
+     "Fritz Hansgirg",
+     "Madame Hansgirg",
+     "les opposants à la « gemütlichkeit » (non nommés)"
+    ],
+    "deroule": "Musique de Bach, cookies et disques dans une salle à manger transformée. Une partie de la communauté savoure ce confort ; l'autre le juge déplacé alors que les comptes sont vides et que l'on construit à la main.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Le trou de mica",
+    "date": "1942",
+    "lieu": "Le pâturage",
+    "personnages": [
+     "Hansgirg",
+     "Straus",
+     "les inspecteurs de la Colonial Mica Corporation d'Asheville",
+     "un mineur embauché"
+    ],
+    "deroule": "Hansgirg et Straus découvrent une poche de 15 sur 10 pieds pleine de mica. En deux jours, on récolte 250 livres. Les inspecteurs la jugent « bonne muscovite », un mineur est embauché, et la ferme se découvre une ressource de guerre.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "titre": "Le dernier jeune homme",
+    "date": "1942-1943",
+    "lieu": "Salle de spectacle du collège",
+    "personnages": [
+     "Oppenheimer",
+     "Albers",
+     "la communauté"
+    ],
+    "deroule": "Pour un spectacle du samedi (Ethan Frome ou La Mégère apprivoisée), Oppenheimer est réquisitionné comme l'un des rares jeunes hommes restants. Albers, en classe, monte sur une table pour mimer un arc gothique et loue ses figurines d'argile.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Des châteaux en Espagne",
+    "date": "1942",
+    "lieu": "Salle de réunion de la faculté",
+    "personnages": [
+     "la faculté"
+    ],
+    "deroule": "Réunion de faculté sur les efforts et les moyens. Elle se termine sur la formule « dix-huit personnes bâtissant des châteaux en Espagne », qui résume la distance entre les projets et les ressources.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "titre": "Le télégramme du Board",
+    "date": "1942-12",
+    "lieu": null,
+    "personnages": [
+     "Board of Fellows"
+    ],
+    "deroule": "Au début du mois suivant, le Board arrête une décision transmise par télégramme, dont l'objet n'est pas indiqué. Les fiches ne disent pas si elle concerne les finances, l'accréditation ou la crise étudiante.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Novembre 1942, avec la parution du livre de Rice",
+    "vers_date": "1942-05-24",
+    "vers": "Le 24 mai, Wunsch rencontre Huntley de la Southern Association, qui s'étonne que le collège n'ait pas encore le droit de diplômer. Point de départ de la course à l'accréditation.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre 1942, après l'argent du trimestre",
+    "vers_date": "1942-07",
+    "vers": "En juillet, Mangold fait le bilan : environ 78 000 $ de dons en deux ans, tous absorbés par la construction. La faculté a renoncé à tout au-delà de 10 $ par mois et par personne.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Novembre 1942, devant le chantier qui se prolonge",
+    "vers_date": "1940",
+    "vers": "Automne 1940 : début du chantier communautaire, cours le matin et le soir, travail volontaire l'après-midi. La grange de Kocher et Godfrey, commencée à l'été 1941, est terminée au printemps 1942.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre 1942, à la fin du trimestre d'automne",
+    "vers_date": "1943",
+    "vers": "1942-1943 : départs successifs à la guerre (Lindsley, Evarts, Boyden, Mangold, Babcock, French), Stoller mobilisé, et Molly Gregory à la tête de la menuiserie.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Novembre 1942, avec la fragilité de la faculté",
+    "vers_date": "1944",
+    "vers": "En 1944, la fracture idéologique du collège éclate. Sam Brown en fait remonter le début à l'automne 1942, mais les fiches la datent surtout de 1944.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "La guerre vide le collège et le fait travailler.",
+   "Le décor de l'abondance (Cadillac crème, Hammond) contre une pauvreté réelle.",
+   "L'accréditation comme condition de survie.",
+   "La ferme et le mica comme rêve d'autosuffisance.",
+   "Une communauté qui se fissure sous des soirées agréables.",
+   "L'écrit public (Rice, Fortune) qui fait du collège un objet de discours."
+  ],
+  "lacunes": "Hormis le livre de Rice, aucune fiche ne donne un fait précisément daté de novembre 1942. La synthèse de 1942 n'a pas d'identifiant et ses faits sont datés au mois ou à la saison. Le contenu de l'accord « bedroom » et l'objet du télégramme de décembre restent inconnus. Le climat et les dates exactes du trimestre d'automne ne sont pas documentés. La présence de Wunsch, Albers ou Evarts en novembre n'est pas attestée. Les soirées et spectacles sont datés tantôt de 1942, tantôt de 1942-1943, et les fiches sur Bentley, de Graaff et Straus couvrent 1942-1944 sans prouver que la fracture était déjà là en 1942."
+ }
+}

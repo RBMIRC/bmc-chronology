@@ -1,0 +1,246 @@
+{
+ "passe": "mois",
+ "cle": "1948-12",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 5756,
+  "sortie": 11109,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1948-12",
+  "session": "semestre d'automne 1948, en cours (déduit : les fiches parlent de semestre et d'hiver, sans dates de fin)",
+  "saison_et_climat": "Hiver. Les fiches mentionnent l'hiver et la peur de la fermeture, sans détail météo pour décembre.",
+  "situation": "Le collège est sous la menace de fermeture. Albers, recteur depuis la fin de l'été, n'a pas d'aide institutionnelle : la Whitney Foundation refuse de financer 1949. Les six trustees invités les 12 et 13 décembre demandent un mois de réflexion, ce qui reporte la décision à janvier 1949. Les effectifs ne sont qu'une cinquantaine depuis la rentrée, contre environ 90 prévus, et le personnel administratif manque. Les Levi sont probablement toujours en Europe, Dreier a annoncé son départ, et Bill de Kooning écrit de New York. La présence d'Elaine à Black Mountain n'est pas attestée.",
+  "presents_probables": [
+   {
+    "nom": "Mrs Graham Blaine",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John E. Burchard",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Beaumont Newhall",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Bartlett H. Hayes Jr.",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Samuel Cooley",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Alex Reed",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Albers, recteur",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Olson, enseignant trois jours par mois",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Rauschenberg, arrivé à l'automne",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Susan Weil, arrivée à l'automne",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Fuller",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "une cinquantaine d'étudiants, chiffre de la rentrée",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1948-12",
+    "precision": "mois",
+    "ce_qui_arrive": "La Whitney Foundation annonce qu'elle ne peut pas financer le collège en 1949. Elle préfère soutenir des projets à leurs débuts et ne désapprouve pas l'évolution de BMC. Le collège reste sans aide majeure.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04588"
+    ]
+   },
+   {
+    "date": "1948-12",
+    "precision": "mois",
+    "ce_qui_arrive": "De Kooning écrit de New York au rédacteur d'ARTnews sur Gorky : l'atmosphère de l'atelier, vers 1933-1934, l'a presque fait tourner de l'œil, et il reconnaît qu'on ne peut échapper à l'influence de Gorky tant qu'on la garde en soi.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04589"
+    ]
+   },
+   {
+    "date": "1948-12-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Les six futurs trustees sont reçus au collège. Le premier jour porte sur le renouvellement des étudiants, les responsabilités juridiques en Caroline du Nord et les garanties contre de nouveaux troubles. Le second jour porte sur les propositions budgétaires et programmatiques. Ils demandent un mois avant de s'engager.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04590",
+     "SC-01190"
+    ]
+   },
+   {
+    "date": "1949-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution de la lettre de de Kooning sur Gorky dans ARTnews.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04589"
+    ]
+   },
+   {
+    "date": "1949-01",
+    "precision": "mois",
+    "ce_qui_arrive": "Décision des trustees potentiels, reportée d'un mois après la réunion de décembre.",
+    "certitude": "probable",
+    "refs": [
+     "EV-04590",
+     "SC-01190"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie ordinaire de décembre. On sait que les étudiants, peu nombreux depuis la rentrée, vivent sur un campus pauvre où l'on mange encore à la cloche (souvenir de l'été). La Minimum House s'élève, dates non précisées. Les étudiants-architectes rejettent le dortoir des Architects' Collaborative. La Mush War secoue la communauté, et Penn travaille à ses trois pièces en un acte. Tout cela est daté au mieux de l'année 1948, pas de décembre.",
+  "tensions": [
+   "Le collège doit se soumettre au regard extérieur des trustees qu'il a toujours fui (SC-01190)",
+   "Albers, recteur à contrecœur, applique une ligne de réduction (faculté réduite, visiting teachers sans vote) à laquelle s'oppose le camp Levi",
+   "Le budget est intenable : scolarité proposée à 1 800 $, aide plafonnée à 900 $, Whitney refusée, laboratoire brûlé et assurance insuffisante",
+   "Dreier a annoncé son départ et l'absence de Levi laisse le pouvoir vacant",
+   "La méfiance des trustees envers les troubles internes rejoint l'inquiétude d'Albers devant la prise de pouvoir redoutée par Levi"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Les six trustees face au collège",
+    "date": "1948-12-12",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Mrs Graham Blaine",
+     "John E. Burchard",
+     "Beaumont Newhall",
+     "Bartlett H. Hayes Jr.",
+     "Samuel Cooley",
+     "Alex Reed",
+     "Albers, recteur (présence déduite)"
+    ],
+    "deroule": "Le premier jour, les trustees interrogent le collège sur le renouvellement de ses étudiants, sa responsabilité juridique en Caroline du Nord et ses garanties contre de nouveaux troubles internes. Le second jour, ils avancent leurs suggestions : scolarité à 1 800 $, prêts au lieu de réductions, aide plafonnée à 900 $, campagne de publicité, faculté visiteuse. Ils refusent de s'engager avant vérifications.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01190",
+     "EV-04590"
+    ]
+   },
+   {
+    "titre": "Le refus de la Whitney parvient au collège",
+    "date": "1948-12",
+    "lieu": null,
+    "personnages": [
+     "Albers, recteur (présence déduite)"
+    ],
+    "deroule": "La fondation signale qu'elle ne financera pas 1949. Elle ne désapprouve pas l'évolution du collège, mais elle ne soutient que des projets à leurs débuts. Le collège reste sans aide majeure, au moment où les trustees demandent du temps.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-04588"
+    ]
+   },
+   {
+    "titre": "Lettre de de Kooning sur Gorky",
+    "date": "1948-12",
+    "lieu": "New York",
+    "personnages": [
+     "Bill de Kooning"
+    ],
+    "deroule": "De Kooning écrit au rédacteur d'ARTnews. Il rappelle son entrée dans l'atelier de Gorky vers 1933-1934, le vertige de cette atmosphère et la lucidité qu'il a dû retrouver aussitôt. Il constate qu'on ne peut échapper à l'influence de Gorky tant qu'on la garde en soi. La lettre paraît en janvier 1949.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04589"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Les trustees réunis le 12 décembre, face à la méfiance du campus",
+    "vers_date": "1933",
+    "vers": "La fondation du collège en 1933 s'était faite en réaction aux trustees de Rollins. Cette machinerie a toujours été méprisée et contournée à Black Mountain.",
+    "refs": [
+     "EC-02391"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La lettre de Bill à ARTnews sur Gorky, en décembre",
+    "vers_date": "1933",
+    "vers": "L'entrée de Bill dans l'atelier de Gorky, vers 1933-1934, selon le « il y a environ quinze ans » de la lettre.",
+    "refs": [
+     "EV-04589"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers, recteur en crise, reprend la ligne qu'il tient depuis le Mexique",
+    "vers_date": "1919",
+    "vers": "Albers au Bauhaus, de 1919 à 1933, qui intègre beaux-arts, artisanat et technologie. Cet héritage est celui qu'il porte à Black Mountain.",
+    "refs": [
+     "EC-02364"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Olson accepte à contrecœur d'enseigner trois jours par mois",
+    "vers_date": "1956",
+    "vers": "Olson, remplaçant de passage, devient l'homme fort de la communauté jusqu'à la fermeture en 1956.",
+    "refs": [
+     "EC-02390"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le collège attend la décision des trustees et la fin de l'année 1948",
+    "vers_date": "1949",
+    "vers": "Accusations de détournement contre Dreier en 1949. Elles reposent sur les obligations mises au seul nom d'Albers en 1944.",
+    "refs": [
+     "EC-02392"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Bill et Elaine à New York, au moment de la lettre sur Gorky",
+    "vers_date": "1950",
+    "vers": "Albers, devenu doyen à Yale, invite Bill à des crits bi-hebdomadaires. Elaine sera invitée à enseigner à Yale en 1967.",
+    "refs": [
+     "EC-02362"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les peintures de l'été 1948 d'Elaine, déjà produites",
+    "vers_date": "1991",
+    "vers": "Exposition Black Mountain Paintings from 1948 à la Washburn Gallery, puis acquisition par le Met.",
+    "refs": [
+     "EC-02365"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le regard extérieur que le collège a toujours fui, incarné par les trustees",
+   "La fondation comme rite : bâtir pour créer un commencement, à l'image du mythe de Remus",
+   "La communauté à inventer à partir de rien, idéal fondateur repris dans la consultation fictive",
+   "L'enthousiasme du départ qui enferme dans l'invention plutôt que dans le retour",
+   "L'influence de Gorky qu'on ne peut éviter, dans la lettre de de Kooning",
+   "La machinerie des trustees, toujours contournée, qui devient aujourd'hui nécessaire pour survivre"
+  ],
+  "lacunes": "On ignore le détail de la vie quotidienne de décembre 1948 : cours, repas, activités, nombre exact d'étudiants présents. On ne sait pas où se trouvent précisément Albers, Fuller, Olson, Cage et Cunningham ce mois-là. La date exacte où la Whitney a rendu sa décision reste inconnue. Les dates de la Minimum House, de la Mush War et des pièces de Penn ne sont pas précisées. Les dates de fin de semestre manquent. La présence d'Elaine à Black Mountain en décembre n'est pas attestée."
+ }
+}

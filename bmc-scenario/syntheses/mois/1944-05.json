@@ -1,0 +1,240 @@
+{
+ "passe": "mois",
+ "cle": "1944-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3644,
+  "sortie": 9586,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1944-05",
+  "session": "Trimestre de printemps en fin de course ; les instituts d'été approchent. Les fiches ne nomment pas la session de mai, donc ce cadrage est déduit.",
+  "saison_et_climat": "Printemps avancé, en fin de saison académique. Les fiches ne disent rien du temps qu'il fait.",
+  "situation": "Le débat sur l'admission d'étudiants noirs arrive à sa fin. Les réunions de faculté se sont échelonnées du 25 janvier au 10 mai, sans trancher de façon nette. Le consensus d'avril-mai retient une seule femme noire, admise pour l'été avec un statut hybride. Le trésorier adjoint Orr a démissionné le 26 avril en partie à cause de cette question, et le collège doute de sa capacité à « trop » entreprendre avec « trop peu ». La question de fond reste ouverte selon Lane, qui la juge tranchée seulement à l'automne 1945.",
+  "presents_probables": [
+   {
+    "nom": "Wunsch",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Jamieson",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Straus",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bentley",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Lowinsky",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1944-05-10",
+    "precision": "jour",
+    "ce_qui_arrive": "Dernière réunion de faculté du débat sur l'intégration ; la série avait commencé le 25 janvier.",
+    "certitude": "atteste",
+    "refs": [
+     "synthese 1944 (sans identifiant)"
+    ]
+   },
+   {
+    "date": "1944-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Admission d'une femme noire, professeur de musique à Fort Valley, comme étudiante pour l'été, avec le statut hybride de « membre de l'Institut ». Recommandée par Bond.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03627",
+     "synthese 1944 (sans identifiant)"
+    ]
+   },
+   {
+    "date": "1944-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Visite de Jimmy Jamieson, ancien étudiant, qui propose des week-ends sans vêtements. Wunsch le prend si mal qu'il refuse de lui parler.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03628"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Dreier, qui avait obtenu l'engagement du corps enseignant auprès du Rosenwald Fund, reçoit l'ordre de rompre avec la fondation et reste seul. Selon Lane, le corps enseignant avait reculé sous des menaces possibles.",
+    "certitude": "probable",
+    "refs": [
+     "synthese 1944 (sans identifiant)",
+     "EC-01933"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Arrivée des instituts d'été, dont les sessions d'Albers (relativité de la couleur, fil de fer, papier plié) et la visite d'Agnes de Mille.",
+    "certitude": "atteste",
+    "refs": [
+     "EC-01861",
+     "EC-01867",
+     "EC-01933"
+    ]
+   }
+  ],
+  "quotidien": "Le quotidien est dominé par les réunions interminables, les caucus secrets et la correspondance : Wunsch écrit à Evarts, Albers à d'Harnoncourt, les lettres de Hurston, Lipsey et Shepard circulent. Une pétition de 38 étudiants sur 50 réclame plus d'un étudiant noir. Deux étudiants noirs et un professeur de Fisk logent en dortoir sans incident. Le projet de visiteurs noirs pour quelques semaines à l'institut de musique, précédé d'un cours sur les relations raciales, est en discussion. Les fiches ne donnent pas davantage de détails sur les repas, les cours ou la musique ce mois-ci.",
+  "tensions": [
+   "Le camp de la prudence craint le boycott des commerçants et l'incendie criminel, en s'appuyant sur le précédent du séminaire d'Anniston.",
+   "Wunsch estime qu'intégrer reviendrait à « déclarer une guerre ouverte au Sud », alors qu'aucune loi de Caroline du Nord n'impose la ségrégation dans le supérieur.",
+   "Les réfugiés européens (Straus, Albers, Dreier) s'opposent à l'accueil d'étudiants noirs. Bentley moque cette position avec la formule du « Hofjude », ce qui fait naître une ironie tendue.",
+   "Straus reste contre, sans vouloir se battre. Son refrain « le Noir est étrange » a été dit en avril.",
+   "Dreier est mis à l'écart et reste seul, à la suite de l'ordre de rompre avec le Rosenwald Fund.",
+   "Wunsch et Jamieson sont brouillés après la visite de Jamieson.",
+   "Les sources divergent sur la portée du dénouement : le chapitre présente une admission ponctuelle, Lane parle d'une question tranchée seulement en 1945."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Jamieson et Wunsch : le refus de parler",
+    "date": "1944-05",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Wunsch",
+     "Jamieson"
+    ],
+    "deroule": "Jamieson, de passage, défend ses week-ends sans vêtements. Wunsch, déjà à bout après le débat sur l'intégration, se met dans une colère telle qu'il refuse de lui adresser la parole. La scène peut servir de soupape à la tension du mois.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03628"
+    ]
+   },
+   {
+    "titre": "Le statut hybride et la plaisanterie de Bentley",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Bentley",
+     "Straus",
+     "Wunsch"
+    ],
+    "deroule": "Lors de la décision sur la femme noire admise pour l'été, Bentley la raille par le mot « Hofjude ». Straus déclare qu'il reste contre mais ne se battra pas. La scène tient dans la discussion de faculté, entre ironie et résignation.",
+    "certitude": "probable",
+    "refs": [
+     "synthese 1944 (sans identifiant)",
+     "EC-01931"
+    ]
+   },
+   {
+    "titre": "Dreier seul face au Rosenwald Fund",
+    "date": null,
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Dreier"
+    ],
+    "deroule": "Dreier, qui avait obtenu l'engagement de la faculté, apprend qu'il doit rompre avec la fondation. Le corps enseignant a reculé et il reste isolé. La scène peut porter la solitude du personnage.",
+    "certitude": "probable",
+    "refs": [
+     "synthese 1944 (sans identifiant)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Le débat de mai, où les réfugiés refusent l'égalité à d'autres persécutés",
+    "vers_date": null,
+    "vers": "La fuite des réfugiés européens du racisme nazi, avant leur arrivée à Black Mountain.",
+    "refs": [
+     "EC-01931"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "L'argument de la peur de l'incendie criminel",
+    "vers_date": null,
+    "vers": "Le séminaire d'Anniston, incendié, précédent invoqué par Rubye Lipsey.",
+    "refs": [
+     "EC-01932"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La cour de Meadows Inn et la fleur locale",
+    "vers_date": null,
+    "vers": "Les années 1790 et la Shortia galacifolia nommée par André Michaux, longtemps introuvable.",
+    "refs": [
+     "EC-01865"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'admission de la femme noire, présentée comme une porte ouverte à un statut partiel",
+    "vers_date": "1950",
+    "vers": "Les violences sudistes qui accompagnent l'intégration scolaire dans les années 1950-60, que Duberman juge déjà prévisibles.",
+    "refs": [
+     "EC-01930"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'été des instituts, où Margaret Kennard Johnson suit les cours d'Albers",
+    "vers_date": "1988",
+    "vers": "Johnson enseigne encore à Princeton, environ 44 ans plus tard, en reprenant la base visuelle d'Albers.",
+    "refs": [
+     "EC-01861"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'été des instituts, première rencontre avec D'Amico",
+    "vers_date": "1946",
+    "vers": "L'invitation de Victor D'Amico à enseigner au MoMA à l'automne 1946.",
+    "refs": [
+     "EC-01864"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le soulagement de Dreier à l'arrivée des instituts",
+    "vers_date": null,
+    "vers": "Le coup de téléphone de l'avocat de Chattanooga au sujet d'Anderson et Wacker, qui brise ce soulagement.",
+    "refs": [
+     "EC-01933"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La question de l'intégration encore ouverte à l'été 1944",
+    "vers_date": "1945",
+    "vers": "Lane situe à l'automne 1945 la vraie conclusion de la question de l'admission des Noirs.",
+    "refs": [
+     "synthese 1944 (sans identifiant)"
+    ]
+   }
+  ],
+  "motifs": [
+   "La peur de l'incendie et du boycott",
+   "Les réfugiés face au racisme : l'ironie du Hofjude",
+   "« Trop avec trop peu »",
+   "La guerre ouverte avec le Sud",
+   "Les instituts d'été comme vitrine",
+   "La solitude de Dreier"
+  ],
+  "lacunes": "On ignore les dates précises de la plupart des événements de mai, la date de la rupture de Dreier avec le Rosenwald Fund, et l'identité de la femme admise. Les fiches ne disent pas quand les deux étudiants noirs et le professeur de Fisk sont arrivés, ce qui contredit « première admission d'une Noire » (EV-03627). La synthèse du chapitre n'a pas d'identifiant, et Lane et Duberman divergent sur la portée du dénouement. Rien n'est dit sur la vie quotidienne proprement dite, ni sur le climat."
+ }
+}

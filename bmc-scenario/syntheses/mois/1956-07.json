@@ -1,0 +1,223 @@
+{
+ "passe": "mois",
+ "cle": "1956-07",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4672,
+  "sortie": 16199,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1956-07",
+  "session": "session d'été 1956, dernière session d'été du collège (finale)",
+  "saison_et_climat": "Plein été 1956 sur un campus presque vidé de ses étudiants. Aucune fiche ne décrit le temps de juillet ni la chaleur ; seul l'automne est décrit, avec le kudzu qui envahit le campus.",
+  "situation": "Le collège vit ses derniers mois sans structure formelle : une douzaine à une quinzaine de personnes, des présences qui vont et viennent, plus de rituels ni de programme de travail. Stefan Wolpe est parti en début d'année, Creeley est à San Francisco depuis le printemps, Dan Rice voulait partir dès l'hiver. Anni Albers est au Mexique pour son neuvième voyage. Le campus bas est loué à un camp de garçons chrétien qui ouvre l'été. Duncan monte son spectacle final et écrit Medea. Olson est là et reste productif. L'argent est le problème de fond : presque tout ce qui rentre doit aller aux dettes, et le campus est promis à la vente.",
+  "presents_probables": [
+   {
+    "nom": "Robert Duncan",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Gerald Van de Wiele",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Huss",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Jess",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1956-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Incendie du grand magasin Wanamaker entre West 8th et West 10th Streets à New York. Bill de Kooning regarde flamber un repère familier, ce qui inspire The Time of the Fire (1956). Hors du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06860"
+    ]
+   },
+   {
+    "date": "1956-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Sawyer est évincé de New Haven avec peu de reconnaissance pour dix ans de travail ; il part pour l'université du Michigan à Ann Arbor. Un nouveau doyen ne sera nommé que deux ans plus tard. Hors du collège, mais dans le réseau d'Albers à Yale.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06861"
+    ]
+   },
+   {
+    "date": "1956-07-22",
+    "precision": "jour",
+    "ce_qui_arrive": "Elaine de Kooning croque au Yankee Stadium le joueur Norm Siebern, un mois après ses débuts en Ligue majeure, et lui donne une taille étrangement réduite. Hors du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06862"
+    ]
+   },
+   {
+    "date": "1956-07",
+    "precision": "mois",
+    "ce_qui_arrive": "Neuvième voyage au Mexique, de juillet à août : Anni Albers découvre un métier à ceinture à Santo Tomás et rencontre Thornton Wilder.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06857",
+     "EV-06858",
+     "EV-06859",
+     "SC-01847"
+    ]
+   },
+   {
+    "date": "1956-06",
+    "precision": "session",
+    "ce_qui_arrive": "Dernière session d'été : Duncan monte The Origins of Old Sun, avec Van de Wiele dans le rôle principal.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06856"
+    ]
+   },
+   {
+    "date": "1956-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Le campus bas est loué à un camp de garçons chrétien qui ouvre l'été.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1956-06",
+    "precision": "saison",
+    "ce_qui_arrive": "Duncan fait travailler voyelles, consonnes et syllabes et écrit Medea au fil des répétitions, d'après la synthèse 1956 qui le place au printemps et à l'été.",
+    "certitude": "probable",
+    "refs": []
+   },
+   {
+    "date": "1956-08-29",
+    "precision": "jour",
+    "ce_qui_arrive": "Medea est jouée les 29 et 30 août selon la synthèse 1956 ; EC-03193 parle plutôt d'un dernier spectacle en septembre.",
+    "certitude": "atteste",
+    "refs": [
+     "EC-03193"
+    ]
+   }
+  ],
+  "quotidien": "Répétitions de Medea : Duncan travaille la voix avec les acteurs, pièce en train de s'écrire. La session d'été monte The Origins of Old Sun avec des étudiants. Le réfectoire reste le lieu des repas et des conversations, où Olson lance ses remarques (EC-03204). Le travail se fait surtout en tutorat, sans rituels ni programme. Le campus bas, loué au camp chrétien, vit une autre vie. Aucune fiche ne mentionne de musique ni de cours réguliers ce mois-ci.",
+  "tensions": [
+   "La satire de Duncan contre Olson : le titre est Old Sun dans EV-06856 et Old Son dans la synthèse ; le protagoniste est un adulte en couches-culottes selon l'une, un bébé en poussette selon l'autre. Rumaker la juge méchante, par oui-dire.",
+   "Le ressentiment de Fiore envers Dan Rice, que Olson aurait nourri en tenant Rice pour le meilleur peintre, persiste depuis l'hiver.",
+   "Finances : presque tout l'argent doit aller aux dettes et le campus est promis à la vente, base financière jugée marginale.",
+   "Effectif réduit, statut GI perdu, inscriptions qui vont et viennent.",
+   "Départs successifs (Wolpe, Creeley, Rice) et sentiment que la communauté se disperse."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Découverte du métier à ceinture à Santo Tomás",
+    "date": "1956-07",
+    "lieu": "Santo Tomás, Mexique",
+    "personnages": [
+     "Anni Albers"
+    ],
+    "deroule": "Au cours du neuvième voyage, Anni repère dans le village un métier à ceinture. Dans une lettre à John Cohen de novembre, elle le juge « une variété intéressante du type habituel ». Elle rencontre aussi Thornton Wilder pendant le voyage. Scène de curiosité d'ethnologue, où l'artiste reconnaît dans le geste des tisserandes le sien propre.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01847",
+     "EV-06857",
+     "EV-06858",
+     "EV-06859"
+    ]
+   },
+   {
+    "titre": "Old Sun : Duncan monte la satire d'Olson",
+    "date": "1956-06",
+    "lieu": "Black Mountain College, session d'été",
+    "personnages": [
+     "Robert Duncan",
+     "Gerald Van de Wiele"
+    ],
+    "deroule": "Dans la dernière session d'été, Duncan met en scène une pièce malicieuse. Son protagoniste adulte, joué par Van de Wiele, porte des couches-culottes et parodie la théorie d'Olson sur le genre (masculinité solaire, féminité lunaire) ainsi que la fécondité de la demi-décennie écoulée. La synthèse décrit plutôt un bébé en poussette : le détail est contradictoire.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06856"
+    ]
+   },
+   {
+    "titre": "Répétitions de Medea",
+    "date": "1956-06",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Robert Duncan",
+     "la troupe du collège"
+    ],
+    "deroule": "Duncan fait travailler voyelles, consonnes et syllabes, et écrit la pièce au fil des répétitions. Scène d'atelier, sans jour précis dans les fiches.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Le campus bas loué au camp chrétien",
+    "date": "1956-06",
+    "lieu": "campus bas du Black Mountain College",
+    "personnages": [
+     "les garçons du camp chrétien",
+     "les restes du collège"
+    ],
+    "deroule": "Le campus bas est loué à un camp de garçons chrétien qui ouvre l'été. Scène de contraste : deux vies sur un même campus, l'une de jeunes en vacances, l'autre d'un collège qui se défait.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rumaker, seul et mélancolique à Meadows Inn pendant ce dernier été",
+    "vers_date": null,
+    "vers": "La remarque d'Olson, lancée derrière la cuisine du réfectoire, sur l'introversion de Rumaker, que celui-ci se rappelle mot pour mot.",
+    "refs": [
+     "EC-03204"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "La passerelle vers Streamside à l'aube, après le drame de l'été",
+    "vers_date": null,
+    "vers": "La fête à Streamside où Jake les avait menacés.",
+    "refs": [
+     "EC-03205"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "L'accident de la Buick, pendant l'été",
+    "vers_date": "1957",
+    "vers": "La fermeture du collège, Olson dernier partant. Rumaker pressent que c'est très largement la fin pour lui dans les Seven Sisters.",
+    "refs": [
+     "EC-03206"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les répétitions de Medea pendant l'été",
+    "vers_date": "1956-10",
+    "vers": "La suite de la trilogie Medea à San Francisco avec Duncan, Jess et Huss, après la diaspora.",
+    "refs": [
+     "EC-03193"
+    ]
+   }
+  ],
+  "motifs": [
+   "Dispersion plutôt que mort nette du collège",
+   "Ruines qui gardent la trace des accomplissements passés",
+   "La satire comme déclaration d'indépendance",
+   "Ironie et renversement des rôles entre Olson et ses étudiants",
+   "Mémoire et remontée du temps",
+   "Continuité entre tissage populaire et art moderne (Anni Albers)"
+  ],
+  "lacunes": "On ignore la date exacte des répétitions de Medea et de Old Sun, le temps qu'il fait, qui occupe le campus bas au quotidien, la présence exacte de Fiore, Huss et Jess en juillet, et la date de mise en vente du campus. Contradictions : la synthèse place Medea les 29 et 30 août, EC-03193 parle d'un dernier spectacle en septembre ; le titre de la satire est Old Son dans la synthèse et Old Sun dans EV-06856 ; la synthèse fait arriver Rumaker en août alors qu'EC-03204 le place à Meadows Inn pendant l'été."
+ }
+}

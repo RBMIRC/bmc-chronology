@@ -1,0 +1,221 @@
+{
+ "passe": "mois",
+ "cle": "1940-03",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 4713,
+  "sortie": 14576,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-03",
+  "session": null,
+  "saison_et_climat": "Mars : fin d'hiver et début de printemps dans les Carolines. Aucune fiche ne décrit le temps, le climat reste donc une simple déduction du calendrier.",
+  "situation": "Le départ de Rice est acquis mais pas encore apuré. La démission, datée de février, a été reprise en main lors d'une troisième visite de Wunsch et Nell à Southern Pines, une dizaine de jours après la démission. L'annonce publique (Newsletter n° 7) et le règlement financier sont en cours. Le collège continue sans son fondateur, dans une faculté divisée, dont la moitié ne veut plus d'une lutte interne. La recherche de fonds est active : la campagne des deux millions n'a pas encore échoué (ce ne sera qu'après la chute de la France, en juin), et Lake Eden est déjà le site visé, sans chantier avant l'été. La menace de la YMCA sur le bail de Blue Ridge est possible, mais sa date reste disputée entre les sources.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Dreier (campagne de fonds menée depuis le MIT)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "John Andrew Rice (à Southern Pines, hors du collège, en fin de mandat)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Nell Rice (à Southern Pines)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Max Wilhelm Dehn Wunsch (envoyé du conseil pour la négociation, à Southern Pines pour la visite)",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Troisième visite à Southern Pines : Wunsch et Nell règlent les détails du départ. Rice s'emporte d'abord, puis se calme autour d'un steak grillé et de cocktails, et l'annonce dira simplement qu'il se consacre à l'écriture.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03101",
+     "SC-00791"
+    ]
+   },
+   {
+    "date": "1940-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Annonce publique dans la BMC Newsletter n° 7 : la démission est présentée comme un choix volontaire pour écrire. Newsweek la reprend le 15 avril, ce qui la fait sortir du cercle du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03103",
+     "EV-03102"
+    ]
+   },
+   {
+    "date": "1940-03",
+    "precision": "mois",
+    "ce_qui_arrive": "Règlement financier : Rice garde le même pourcentage de salaire jusqu'à la fin de l'année académique, puis une petite allocation mensuelle pour nourriture et logement, et la scolarité de sa fille est assurée. La négociation se fait par lettres Steinau–Rice de mars à mai.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03102",
+     "EV-03103"
+    ]
+   },
+   {
+    "date": "1940-03",
+    "precision": "mois",
+    "ce_qui_arrive": "À New York, Elaine de Kooning pousse Bill à faire des croquis de coiffures pour Harper's Bazaar. La série paraît dans le numéro de mars, à 75 $ le croquis, et Brodovitch n'en reprendra pas.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03100"
+    ]
+   }
+  ],
+  "quotidien": "Les fiches ne décrivent pas la vie de tous les jours en mars : ni cours, ni repas, ni musique, ni travail précis n'est attesté. On peut seulement déduire que les cours et ateliers tournent sans leur fondateur, que les salaires sont maintenus au même pourcentage jusqu'à la fin de l'année donc sans coupe immédiate, et qu'il n'y a pas encore de chantier, puisque la construction ne démarre qu'en été.",
+  "tensions": [
+   "Rice se sent chassé, craint de ne plus trouver de travail ni de collège après son expulsion, et avertit qu'on ne doit pas couper les têtes des meilleurs comme des pires.",
+   "Rice garde une blessure envers Dreier, qu'il accuse de trahison, et soupçonne Albers de jalousie ; ces rancœurs survivent à la sortie.",
+   "La version publique présente un départ volontaire, alors que le conseil a en réalité imposé la fin : écart entre ce qui se dit et ce qui se vit.",
+   "Finances fragiles : le collège ne peut garantir les salaires au-delà de la fin de l'année, et Rice compte finir son livre sans chercher de travail tout en devant soutenir sa fille, ce qui se heurte à l'assurance donnée pour la scolarité.",
+   "Menace de la YMCA sur le bail de Blue Ridge, dont la date est contestée, alors qu'aucun autre site n'égale Lake Eden."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Steak grillé et fraternité retrouvée : troisième visite",
+    "date": "1940-03",
+    "lieu": "Southern Pines",
+    "personnages": [
+     "John Andrew Rice",
+     "Max Wilhelm Dehn Wunsch",
+     "Nell Rice"
+    ],
+    "deroule": "Tirade de Rice qui se sent chassé, puis détente : pipe, cocktails, steak grillé, longue discussion sur New Harmony et Brook Farm, et enfin les finances sur un ton bienveillant. Scène pivot de la réconciliation.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-00791",
+     "EV-03101"
+    ]
+   },
+   {
+    "titre": "Lettres de négociation financière",
+    "date": "1940-03",
+    "lieu": null,
+    "personnages": [
+     "Steinau (rôle non précisé dans les fiches)",
+     "John Andrew Rice"
+    ],
+    "deroule": "Échange épistolaire de mars à mai sur l'allocation et la scolarité de la fille. Scène de bureau tendue, en contraste avec la chaleur de la visite.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03103",
+     "EV-03102"
+    ]
+   },
+   {
+    "titre": "Le collège apprend le départ",
+    "date": "1940-03",
+    "lieu": "BMC (≈)",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Dreier",
+     "Wunsch"
+    ],
+    "deroule": "Après la Newsletter n° 7, la nouvelle circule à l'intérieur. Les rancœurs de Rice envers Dreier et les soupçons de jalousie envers Albers pèsent sur les conversations. Scène inférée, à traiter comme hypothèse.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-03103",
+     "chapitre 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Croquis de coiffures pour Harper's Bazaar",
+    "date": "1940-03",
+    "lieu": "New York",
+    "personnages": [
+     "Elaine de Kooning",
+     "Bill"
+    ],
+    "deroule": "Elaine convainc Bill, qui hésite, de tenter le dessin de mode via Rudy Burckhardt et Harper's Bazaar ; elle pose comme modèle pour les croquis publiés dans le numéro de mars, payés 75 $ chacun. Scène hors collège, utile pour un parallèle.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-03100"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Début mars, au moment où Rice a quitté la faculté et où le conseil règle sa sortie",
+    "vers_date": "1939",
+    "vers": "Rice est en congé depuis l'automne 1939, retiré à Southern Pines, et le conseil hésite déjà à le reprendre.",
+    "refs": [
+     "chapitre 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Début mars, quand la démission est déjà actée",
+    "vers_date": "1940-02",
+    "vers": "La deuxième conférence de février, avec Nell présente : Rice pleure, quitte la maison en se disant répudié, puis sa démission part par retour du courrier.",
+    "refs": [
+     "chapitre 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, au moment où l'annonce est publiée dans la Newsletter",
+    "vers_date": "1940-04-15",
+    "vers": "Newsweek reprend la démission le 15 avril, en lui donnant une diffusion extérieure au collège.",
+    "refs": [
+     "EV-03103"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, pendant que la campagne des deux millions continue",
+    "vers_date": "1940-06",
+    "vers": "La chute de la France fait s'effondrer la campagne de Dreier depuis le MIT, et la menace de la YMCA sur le bail de Blue Ridge se précise selon certaines sources.",
+    "refs": [
+     "chapitre 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, alors qu'il n'y a pas encore de chantier à Lake Eden",
+    "vers_date": "1940-09-12",
+    "vers": "Le chantier de Lake Eden s'ouvre avec l'objectif « roof by Christmas » ; le terrain drainé révèle des poches de boue et il faut foncer des pieux sans machine.",
+    "refs": [
+     "chapitre 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Mars, quand Rice compte finir son livre hors du marché du travail",
+    "vers_date": "1940-09",
+    "vers": "Rice publie « My Father's Folks » dans Harper's, après un été passé à Bella Vista avec ses enfants.",
+    "refs": [
+     "chapitre 1940 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "fin d'un fondateur",
+   "dignité du départ",
+   "écart entre version publique et vécu",
+   "fragilité financière",
+   "rancœurs qui survivent",
+   "bascule vers le campus de Lake Eden"
+  ],
+  "lacunes": "La session (trimestre ou autre) n'est pas donnée. Les jours précis de la troisième visite, de l'annonce et des lettres ne sont pas précisés. On ne sait pas clairement si la faculté se trouve encore à Blue Ridge en mars ou déjà à Lake Eden. La vie quotidienne (cours, repas, musique) est absente. Le rôle de Steinau n'est pas précisé. Les sources divergent sur le climat interne (Mangold parle de révolution de palais, Chaddock de soulagement sans réjouissances) et sur la date de la démission (Chaddock : mémoire du 17 février ; Duberman : envoi par retour du courrier). La date de la menace de la YMCA est contestée."
+ }
+}

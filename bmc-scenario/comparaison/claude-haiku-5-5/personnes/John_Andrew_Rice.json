@@ -1,0 +1,845 @@
+{
+ "passe": "personnes",
+ "cle": "John Andrew Rice",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 258701,
+  "sortie": 16167,
+  "cache_lu": 0,
+  "cache_ecrit": 2875
+ },
+ "donnees": {
+  "nom": "John Andrew Rice",
+  "autres_noms": [
+   "Andrew Rice",
+   "Old Andrew",
+   "Rice (le fondateur)",
+   "John Rice",
+   "Papa Rice",
+   "« Mr. Rice »"
+  ],
+  "dates_de_vie": "1888 (1er février, Lynchburg, Caroline du Sud) – 1968 (17 novembre, hôpital de Bethesda, Maryland) ; décès aussi daté 1963 dans une fiche isolée, mais contredit par la majorité des sources",
+  "statut_bmc": "Fondateur et premier recteur de Black Mountain College ; démissionne de la direction début 1940 (effective fin 1939-1940), quitte le collège, réduit ensuite à une figure périphérique puis absente",
+  "presence": [
+   {
+    "debut": "1933",
+    "fin": "1940",
+    "role": "Co-fondateur, enseignant de classiques et de philosophie, recteur (dès 1934 selon certaines fiches, en 1938 il cède le rectorat à Wunsch), figure centrale de la communauté",
+    "refs": [
+     "EV-01703",
+     "EV-01900",
+     "EV-02192",
+     "EV-02311",
+     "EV-02824",
+     "SC-00552",
+     "SC-00534",
+     "SC-00536"
+    ]
+   },
+   {
+    "debut": "1938-03",
+    "fin": "1939-06",
+    "role": "Éloigné du collège par un congé forcé puis prolongé, retiré à Folly Beach puis négociant son retour, sans fonction officielle",
+    "refs": [
+     "EV-02835",
+     "EV-02839",
+     "EV-02840",
+     "EV-02843",
+     "EV-02848",
+     "EV-02949"
+    ]
+   },
+   {
+    "debut": "1940-01",
+    "fin": "1940-06",
+    "role": "Démission négociée à Southern Pines après plusieurs visites de Wunsch ; quitte définitivement le collège",
+    "refs": [
+     "SC-00785",
+     "SC-00788",
+     "SC-00791",
+     "EV-03090",
+     "EV-03092",
+     "EV-03093",
+     "EV-02975"
+    ]
+   }
+  ],
+  "portrait_physique": "Taille moyenne (environ 1,70 m), ventripotent et fripé après Oxford, pipe toujours à la main, lunettes rondes cerclées de fer, visage plein, « allure de hibou d'académicien » ; voix basse, lisse, à peine sudiste, rythmée plutôt que traînante. Il s'assoit volontiers dans un rocking-chair sur le portique de Lee Hall, fume près de la cheminée de pierre, lit pieds nus sur la véranda de sa maison de Winter Park. Vers quarante-huit ans, il paraît un grand-père parmi les étudiants. Plus tard, à Barnesville, il plante et récolte un grand potager.",
+  "noyau_psychologique": "Un enfant qui a perdu le seul foyer chaleureux qu'il connaissait et qui a appris à se protéger par l'ironie et la supériorité. Il cherche ensuite, chez des maîtres puis des communautés, ce qu'il n'a pas eu : une « invitation », une chose à saisir, une loyauté qui tienne. Mais il ne sait ni se soumettre ni recevoir l'autorité, et sa franchise tourne facilement à la charge. Il veut faire des autres des individus libres ; il les juge aussi avec une sévérité qui l'isole. Sa conviction de fond est que l'art, la conversation et la personne comptent plus que les structures, les plans et les diplômes.",
+  "blessures": "La mort brutale de sa mère en avril 1899, quand il a onze ans, suivie de l'éclatement de la famille et du placement dans un orphelinat méthodiste ; un père pasteur dominateur qu'il craint et n'aime pas ; le sentiment d'être pauvre de « l'absence d'invitation » ; le renvoi de Rollins en 1933 (ressenti comme une injustice), puis l'éviction de son propre collège en 1938-1940, qu'il vit comme une répudiation par sa femme et par la communauté.",
+  "desirs": "Être le maître qu'il a admiré (John Webb, les tutors d'Oxford) ; illuminer de jeunes esprits ; fonder un lieu où vivre la démocratie et l'éducation de la personne entière ; réussir à être aimé et tenu pour important (il avoue que c'est ce que veut Norris, et lui-même) ; obtenir la sécurité matérielle et une vie respectable, « riche respectablement » ; trouver enfin un loyalisme qu'il n'a jamais réussi à tenir.",
+  "peurs": "Être inutile, dilué dans une grande institution (Lovejoy : « spread a little thinner » ; il répond qu'il n'appartient pas aux institutions) ; se voir petit ; être répudié ; la pauvreté matérielle ; la stagnation d'un collège qui ne vivrait plus. Il se redoute lui-même : « Je n'ai jamais eu le moindre tact de ma vie » ; il se sait tyrannique.",
+  "maniere_d_aimer": "Il aime avec exubérance et sentimentalisme (lettres à sa belle-mère et à Nell, « I have found the end of the rainbow »), mais aussi par possession et par jalousie (scène du sketch d'Alice). Il s'attache fortement à des hommes plus âgés ou à des figures d'autorité (Webb, Avery, Dewey), puis à des amis-compagnons (Dreier, Wunsch, Adamic). Avec ses enfants il est distant, impatient, sévère, mais capable de tendresse à ses heures (pêche silencieuse sur le lac Osceola). Il tient à la personne plutôt qu'à l'idée : « J'aime les gens plutôt que les idées abstraites ».",
+  "rapport_au_pouvoir": "Il rejette l'autorité statutaire mais exerce une autorité d'influence très forte : il est « l'autorité, bien que non statutaire » (sa propre formule), tient la salle par la parole, décide qui est intelligent. Il méprise la hiérarchie et les règles (il veut un collège sans trustees, sans notes, sans crédits), mais refuse aussi le partage du pouvoir quand cela le menace. Il sait manœuvrer, mais se fait prendre par ses colères et ses provocations. Il dit à Black Mountain : « je ne crois pas que la démocratie au sens du comptage de nez soit juste ».",
+  "voix": {
+   "registre": "Oral, vif, d'un humour sec et mordant ; conteur magistral qui fait des chutes ; mélange de formules d'Oxford, de tournures du Sud, de citations grecques et de jurons à peine voilés. Il pratique le questionnement socratique : il pose une question, relance, puis se moque. Il parle en fumant et en tassant sa pipe.",
+   "tics": "Pipe qu'il tasse, allume, tapote ; rire qui monte du ventre à la gorge ; « Well, you know » ; réponse du tac au tac ; provocation au moment où l'on s'y attend le moins ; imitation des accents d'Uncle Remus ; questions-pièges (« Why? Don't you like them? ») ; renvoi à Platon ; refus de développer une idée une fois lancée.",
+   "exemples_paraphrases": [
+    "Il demande à une doyenne pourquoi il a quitté le Nebraska et répond qu'il se pose la question depuis qu'il est arrivé.",
+    "Il dit à un étudiant trop bavard : si tu es trop bête pour faire ton emploi du temps, pourquoi es-tu venu ?",
+    "Il conseille à un jeune professeur de philosophie de devenir pro de golf, en pensant vraiment ce qu'il dit.",
+    "Il affirme que les images de calendrier qu'il a épinglées sont « obscènes », en voulant dire exécrables de forme.",
+    "Il répond à Holt qu'il est venu les mains dans les poches, et que son collège a besoin de lui : « Le collège a besoin de moi. »",
+    "Il dit à un étudiant : « Vous feriez mieux de vous faire ignorer une fois par Albers. » Il pique les autres sans les blesser en apparence."
+   ]
+  },
+  "habitudes": [
+   "Pipe au coin de la bouche dans presque toutes les scènes ; s'assoit en rocking-chair sur le portique ou au coin de la cheminée",
+   "Conversations nocturnes, séminaires d'écriture le soir après le dîner, bière et conversation tard dans son study ; le soir, il reçoit des étudiants et des visiteurs dans un bruit de rires",
+   "Lecture à voix haute : il lit à sa femme pendant les après-midis où il prétend avoir mal aux yeux ; il lit à ses enfants ; il lit les tragédies grecques le dimanche soir",
+   "Marche quotidienne après le déjeuner, accompagné de chiens de la faculté",
+   "Pêche silencieuse en bateau sur le lac Osceola avec son fils, immobile, presque sans parole",
+   "Potager et plantation sans enthousiasme au départ ; à Barnesville il planifie et plante, laisse le désherbage aux enfants",
+   "Il commence une journée tard et répond tard aux lettres",
+   "Ne fait pas de sport (dégoût) ; joue au golf avec mépris ; aime les danses du samedi soir en smoking"
+  ],
+  "convictions": [
+   "L'éducation doit s'adresser à la personne entière, non à un savoir découpé en crédits ; il faut « des individus plutôt que des individualistes »",
+   "Le professeur est l'élément le plus important ; enseigner est un art et le professeur, s'il possède cet art, est un artiste",
+   "Il n'y a pas de système de vie ni d'expérience contrôlée : Black Mountain est « une expérience vécue », non un test",
+   "Le collège doit abolir notes, crédits, registrars et diplômes de complaisance ; il faut « fusiller le registrar — le fusiller, pas le licencier »",
+   "L'art au centre du programme : « nous ne formons pas des artistes, nous vous rendons plus attentifs à l'ordre »",
+   "Contre le « labyrinthe » de l'université allemande et son influence sur l'Amérique ; contre les Great Books comme éducation (« une école professionnelle sans profession »)",
+   "Le savoir sans l'action ne suffit pas : « Savoir ne suffit pas. »",
+   "Méfiance envers les donateurs et les plans : il refuse de présenter un plan à Carnegie et Rockefeller, de peur d'être tenu à l'exécuter",
+   "Aversion pour la religion organisée (« ce monstre qui planait sur nos vies »), pour le travail manuel obligatoire (« il y a de la dégradation dans la sueur obligatoire »), pour le mythe du labeur",
+   "Préférence pour le questionnement sur la réponse ; méfiance envers les mathématiques « les plus éloignées de l'expérience »",
+   "Coéducation : il l'approuve, et juge que mettre les sexes ensemble freine l'imagination",
+   "Hostilité au mérite comptable et au calibrage de l'intelligence ; il défend le droit des étudiants « de n'être pas tous dans la même case »"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933",
+    "moment": "Renvoi de Rollins College après une guerre de gouvernance et de personnalités ; ses partisans (Dreier, Georgia, Lounsbury et d'autres) le suivent. Le petit groupe conçoit un collège sans trustees ; l'argent vient des Forbes, de Dreier, de Warburg. Il fonde Black Mountain College en septembre 1933 sur le site de la Blue Ridge Assembly.",
+    "etat_interieur": "Euphorie et rage mêlées. Il croit qu'il tient enfin son collège et refuse tout plan. Il se sent injustement chassé mais lucide : il sait qu'il déteste être mesuré.",
+    "refs": [
+     "EV-01703",
+     "EV-01900",
+     "EV-01676",
+     "EV-02089",
+     "SC-00533",
+     "SC-00536",
+     "SC-00543",
+     "SC-00552"
+    ]
+   },
+   {
+    "date": "1933-11",
+    "moment": "Recrutement de Josef Albers, sur la recommandation de Philip Johnson et Edward Warburg. Rice a décidé à l'intuition et télégraphie « Come anyway ». Il choisit l'art comme cœur de la pédagogie et tient le rectorat (par intérim, ou de fait).",
+    "etat_interieur": "Enthousiasme total pour Albers (« un Allemand gracieux »), confiance dans l'intuition, conviction que l'art est la clé. Premiers signes d'irritation pour le goût de l'ordre chez Albers.",
+    "refs": [
+     "EV-01895",
+     "EV-01896",
+     "EV-02196",
+     "SC-00441",
+     "SC-00538",
+     "CI-01155"
+    ]
+   },
+   {
+    "date": "1934-1936",
+    "moment": "Rice mène les séminaires d'écriture et le cours socratique, avec Dewey qui assiste à ses cours. Il connaît la gloire intellectuelle, reçoit Adamic qui l'idéalise. Il soutient sa position face aux étudiants qui réclament plus de responsabilité.",
+    "etat_interieur": "Plénitude intellectuelle, mais aussi besoin de reconnaissance (« J'étais aussi affamé de reconnaissance, de louange »). Il commence à se croire indispensable.",
+    "refs": [
+     "EV-02273",
+     "EV-02298",
+     "EV-02443",
+     "EV-02547",
+     "EV-02550",
+     "SC-00595",
+     "SC-00652",
+     "SC-00657"
+    ]
+   },
+   {
+    "date": "1936-1937",
+    "moment": "Crise communautaire : l'article d'Adamic dans Harper's le fait héros et cible ; les étudiants le critiquent publiquement ; le renvoi de Knickerbocker et Goldenson divise le collège en deux factions ; la réunion marathon de mai 1937 où il défend son pouvoir ; l'affaire du salaire de Georgia éclate en juin 1937. Il conduit une liaison avec une étudiante, Alice.",
+    "etat_interieur": "Acculé, sincèrement déchiré entre l'idéal de démocratie et son besoin de contrôle. Il s'accuse lui-même (« Le pire péché est l'impatience, et je suis le plus impatient ici ») tout en refusant de céder le pouvoir. Il se sent aimé et jaloux à la fois.",
+    "refs": [
+     "SC-00652",
+     "SC-00657",
+     "SC-00670",
+     "SC-00671",
+     "SC-00700",
+     "SC-00705",
+     "SC-00706",
+     "EV-02716",
+     "EV-02720",
+     "EV-02695"
+    ]
+   },
+   {
+    "date": "1937-1938",
+    "moment": "Infatuation puis liaison avec Alice, rapportée au collège et à Nell. Après la découverte de l'adultère, Nell le quitte. La faculté l'éloigne par un congé forcé en mars 1938 ; il démissionne du rectorat en avril, se retire à Folly Beach, écrit son autobiographie. Wunsch devient recteur.",
+    "etat_interieur": "Honte, rancune, sentiment de répudiation, et écriture comme refuge. Il se sent victime (« panique et quasi-folie »), mais aussi conscient de ses propres torts.",
+    "refs": [
+     "EV-02851",
+     "EV-02835",
+     "EV-02840",
+     "SC-00734",
+     "SC-00694",
+     "SC-00693",
+     "EV-02769",
+     "CI-01436",
+     "CI-01421"
+    ]
+   },
+   {
+    "date": "1939-1940",
+    "moment": "Sabbatique, puis tentatives de retour : il refuse de se laisser démettre sans accord financier, rencontre Wunsch à Southern Pines, pleure, propose de revenir « pour prouver qu'il est un homme changé ». Il démissionne en février 1940. Le collège lui verse une rente et une allocation.",
+    "etat_interieur": "Désir désespéré de se racheter, alternant colère, larmes et hauteur philosophique. Il dit « le collège a besoin de moi » tout en sachant que la faculté veut qu'il parte.",
+    "refs": [
+     "SC-00785",
+     "SC-00788",
+     "SC-00791",
+     "SC-00789",
+     "SC-00790",
+     "EV-03090",
+     "EV-03101",
+     "EV-03098"
+    ]
+   },
+   {
+    "date": "1940-1942",
+    "moment": "Quitte définitivement Black Mountain, divorce de Nell (dernière rencontre en 1941 au mariage de Frank), second mariage avec Dikka Moen (1941-1942), vie errante entre New York, Hampton et Clinton. Il achève I Came Out of the Eighteenth Century, qui est primé par Harper (1942).",
+    "etat_interieur": "Pauvreté, humiliation, mais aussi reprise de l'écriture. Il se consolide par le second mariage et l'argent du prix. Il ne reviendra jamais à l'enseignement supérieur.",
+    "refs": [
+     "EV-02975",
+     "EV-03209",
+     "EV-03210",
+     "EV-03296",
+     "EV-03240",
+     "EV-03329",
+     "EV-03211"
+    ]
+   },
+   {
+    "date": "1943-1955",
+    "moment": "Vie d'écrivain et d'évaluateur : Sarasota, Charleston, Boone Hall ; nouvelles pour le New Yorker, Collier's et Saturday Evening Post ; recueil Local Color (1955). Retour au projet de biographie de Ben Tillman, refusé par Harper. Pauvreté avec les enfants, suspension et fugues de Peter, rupture définitive avec Peter.",
+    "etat_interieur": "Désillusion et amertume, avec des moments de tendresse et de fierté. Il se souvient du collège avec un mélange de rancœur et d'affection. Il devient plus doux avec l'âge.",
+    "refs": [
+     "EV-03411",
+     "EV-03603",
+     "EV-03607",
+     "EV-06661",
+     "EV-03605",
+     "EV-03604",
+     "EV-04806",
+     "EV-03600"
+    ]
+   },
+   {
+    "date": "1957-1963",
+    "moment": "La bibliothèque laissée au collège est dispersée par Olson ; Rice furieux. Il vit à Gaithersburg puis à Barnesville, potager, amitié avec les Chambers et Helen McGraw. Il écrit peu, tente un livre sur Black Mountain qu'il n'achève pas.",
+    "etat_interieur": "Mélancolie, vieillissement, sentiment de l'échec, nostalgie. Il sait qu'il n'a su qu'opposer (« L'homme qui a bâti une communauté démocratique avoue n'avoir su qu'opposer »).",
+    "refs": [
+     "EV-06844",
+     "EV-06910",
+     "EV-07621",
+     "EV-07664",
+     "EV-07309",
+     "EV-07054",
+     "EV-05180",
+     "SC-01328"
+    ]
+   },
+   {
+    "date": "1967",
+    "moment": "Entretiens avec Duberman (huit heures), dont il reconnaît son arrogance (« I learned too late that I really was arrogant ») et se décrit comme un homme qui voit ses propres travers. Il assume sa boutade du golf pro.",
+    "etat_interieur": "Lucidité tardive et autodérision noire. Il regarde le jeune Rice avec ironie et se trouve « très souvent » dans le rôle du tyran.",
+    "refs": [
+     "EV-07964",
+     "EV-07966",
+     "SC-02051",
+     "SC-00428",
+     "CI-04003",
+     "CI-04035"
+    ]
+   },
+   {
+    "date": "1968-1969",
+    "moment": "Maladie (cancer des os généralisé), derniers mois à l'hôpital de Bethesda. Il rêve qu'il doit critiquer un livre qu'il n'a pas encore écrit. Derniers mots à sa belle-fille : « No… only more so. »",
+    "etat_interieur": "Sérénité ironique, alerte presque jusqu'au bout, avec une légère inquiétude de n'avoir pas fini d'écrire.",
+    "refs": [
+     "SC-02075",
+     "SC-02082",
+     "EV-08068",
+     "EV-08116",
+     "CI-04084",
+     "CI-04117"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1888-02-01",
+    "moment": "Naissance à Lynchburg, Caroline du Sud, dans un Sud partagé entre nostalgie de la plantation et Reconstruction ; fils d'un pasteur méthodiste itinérant, John Andrew Rice Sr.",
+    "refs": [
+     "EV-00092",
+     "EV-00090"
+    ]
+   },
+   {
+    "date": "1894",
+    "moment": "Le père est nommé président de Columbia Female College ; la famille s'installe au collège. Andrew y écoute en secret les conversations des étudiantes derrière les rideaux et sous les lits.",
+    "refs": [
+     "EV-00099",
+     "EV-00022",
+     "SC-00007"
+    ]
+   },
+   {
+    "date": "≈1862-1899",
+    "moment": "Étés à Tanglewood, la plantation de sa mère, avec la grand-mère Mary McLeod Smith et l'oncle Melt, qui lui apprend le dialogue. La charrette à pastèques lui montre la ligne de race.",
+    "refs": [
+     "EV-00019",
+     "EV-00093",
+     "SC-00001",
+     "SC-00002",
+     "SC-00003",
+     "RE-00002"
+    ]
+   },
+   {
+    "date": "1899-04",
+    "moment": "Mort soudaine de sa mère, Anna Belle Smith Rice, à 37 ans. Andrew a onze ans. Perte de l'unique foyer affectif.",
+    "refs": [
+     "EV-00126",
+     "EV-00127",
+     "RE-00033"
+    ]
+   },
+   {
+    "date": "1899",
+    "moment": "Placement des trois fils : Andrew est pensionnaire payant à l'orphelinat méthodiste de Columbia, où il paie un garçon pour allumer son feu chaque matin.",
+    "refs": [
+     "EV-00121",
+     "EV-00122",
+     "SC-00025"
+    ]
+   },
+   {
+    "date": "1900-1902",
+    "moment": "Deux ans à la plantation pauvre de Grandmother Rice dans le comté de Colleton ; école rurale à classe unique, instituteur qui fouette à la branche de pêcher ; Andrew, suffisant, apprend plus d'algèbre que le maître.",
+    "refs": [
+     "EV-00143",
+     "EV-00144",
+     "EV-00145",
+     "SC-00033"
+    ]
+   },
+   {
+    "date": "1901",
+    "moment": "Internat méthodiste de Bamberg.",
+    "refs": [
+     "EV-00152"
+    ]
+   },
+   {
+    "date": "1902",
+    "moment": "Retour du père avec une nouvelle épouse, Launa Darnell ; Andrew s'attache immédiatement à sa belle-mère. Il quitte l'école et devient agent de recouvrement à Montgomery.",
+    "refs": [
+     "EV-00161",
+     "EV-00162",
+     "RE-00046"
+    ]
+   },
+   {
+    "date": "1905-1908",
+    "moment": "Webb School à Bell Buckle, Tennessee, sous les frères Webb ; rencontre avec John Webb, « Old Jack », qui devient son maître. Le « Books! » du soir et la question du Clansman lui apprennent à penser par lui-même.",
+    "refs": [
+     "EV-00183",
+     "EV-00184",
+     "EV-00188",
+     "SC-00049",
+     "SC-00050",
+     "RE-00055"
+    ]
+   },
+   {
+    "date": "1908-1911",
+    "moment": "Tulane (externe), avec son frère Mike ; le registrar refuse ses unités jusqu'à ce que John Webb les reconstitue ; il inspecte les taudis de la Nouvelle-Orléans et devient SAE ; BA en trois ans.",
+    "refs": [
+     "EV-00231",
+     "EV-00232",
+     "EV-00241",
+     "EV-00293",
+     "SC-00059"
+    ]
+   },
+   {
+    "date": "1911",
+    "moment": "Rhodes scholar de Louisiane, après la sélection de Baton Rouge. Détour par l'Allemagne, qu'il juge ennuyeuse et ordonnée.",
+    "refs": [
+     "EV-00294",
+     "EV-00295",
+     "EV-00296",
+     "SC-00075"
+    ]
+   },
+   {
+    "date": "1911-1914",
+    "moment": "Oxford, Queen's College. Il étudie le droit et obtient une first-class honours (1914), vit « three wonderful years of loafing » ; romance avec Nell Aydelotte au printemps 1913 ; mariage à St. Louis en décembre 1914.",
+    "refs": [
+     "EV-00299",
+     "EV-00300",
+     "EV-00359",
+     "EV-00343",
+     "EV-00377",
+     "SC-00076",
+     "SC-00090"
+    ]
+   },
+   {
+    "date": "1914-1917",
+    "moment": "Un an d'enseignement à Webb School ; accuse Son Will de paresse ; soutient John Webb contre Sawney ; Webb meurt d'une attaque en 1916 ; Rice quitte la Webb School en 1917.",
+    "refs": [
+     "EV-00369",
+     "EV-00372",
+     "EV-00361",
+     "EV-00424",
+     "EV-00425",
+     "EV-00484",
+     "SC-00109"
+    ]
+   },
+   {
+    "date": "1917-1919",
+    "moment": "Doctorat de classics à Chicago, jamais terminé ; un an au renseignement militaire à Washington ; quelques mois au lycée Soldan à St. Louis.",
+    "refs": [
+     "EV-00486",
+     "EV-00520",
+     "EV-00575"
+    ]
+   },
+   {
+    "date": "1919-1927",
+    "moment": "Associate professor of classics à l'Université du Nebraska ; mentorat par le chancelier Sam Avery, qui lui enseigne la méthode inductive ; conspire contre l'administration pour des augmentations ; exclu de la graduate faculty ; Avery tombe malade en 1927.",
+    "refs": [
+     "EV-00576",
+     "EV-00815",
+     "EV-01300",
+     "EV-01301",
+     "RE-00251",
+     "SC-00172",
+     "SC-00173"
+    ]
+   },
+   {
+    "date": "1927-1929",
+    "moment": "New Jersey College for Women (Rutgers) ; faction anti-Douglass ; départ négocié avec 2 500 $ en juin 1929 ; relation extraconjugale présumée avec une coach de théâtre.",
+    "refs": [
+     "EV-01303",
+     "EV-01419",
+     "SC-00293",
+     "RE-00509",
+     "RE-00510"
+    ]
+   },
+   {
+    "date": "1929-1930",
+    "moment": "Année Guggenheim à Londres ; recherches sur Swift et la lettre de Stella ; échec du projet de livre ; Frank à l'école progressiste de Londres.",
+    "refs": [
+     "EV-01443",
+     "EV-01499",
+     "EV-01420",
+     "SC-00342"
+    ]
+   },
+   {
+    "date": "1930-1933",
+    "moment": "Rollins College, Winter Park : enseignement socratique, conflit avec Holt, licenciement en avril-mai 1933 après une enquête de l'AAUP.",
+    "refs": [
+     "EV-01562",
+     "EV-01574",
+     "EV-01676",
+     "EV-02089",
+     "SC-00369",
+     "SC-00404",
+     "SC-00521"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1940",
+    "moment": "Séparation de Nell, divorce en 1941, second mariage avec Dikka Moen (1941-42), fils Peter Nicolai né en 1942 ; installation à Bella Vista puis Sarasota.",
+    "refs": [
+     "EV-02975",
+     "EV-03209",
+     "EV-03329",
+     "EV-03411"
+    ]
+   },
+   {
+    "date": "1942",
+    "moment": "Publication de I Came Out of the Eighteenth Century chez Harper ; prix Harper du 125e anniversaire ; procès menacé par Holt, retrait partiel du livre en 1943.",
+    "refs": [
+     "EV-03240",
+     "EV-03296",
+     "EV-03330",
+     "EV-03428"
+    ]
+   },
+   {
+    "date": "1944-1955",
+    "moment": "Nouvelles pour le New Yorker, Collier's, Saturday Evening Post ; recueil Local Color (1955) ; installation à Shrub Oak puis Charleston et Boone Hall ; difficultés avec Peter, fugues, départ définitif du fils.",
+    "refs": [
+     "EV-03597",
+     "EV-03603",
+     "EV-03775",
+     "EV-03949",
+     "EV-06661",
+     "EV-03605"
+    ]
+   },
+   {
+    "date": "1949",
+    "moment": "Proposition de rappeler Rice à Black Mountain, écartée par Aydelotte ; Rice ne poursuit pas la piste (« For a moment the clouds seemed to open »).",
+    "refs": [
+     "EV-04805",
+     "EV-04641",
+     "CI-02303"
+    ]
+   },
+   {
+    "date": "1951",
+    "moment": "Mort de Louis Adamic, son ami le plus proche, qu'il croit assassiné.",
+    "refs": [
+     "EV-05558"
+    ]
+   },
+   {
+    "date": "1954-1958",
+    "moment": "Installation dans le Maryland (Montgomery County, Washington Grove, Gaithersburg) ; amitié avec Bob Chambers et Helen McGraw ; achat de la ferme de Barnesville en 1958.",
+    "refs": [
+     "EV-06414",
+     "EV-06415",
+     "EV-07054",
+     "EV-05180"
+    ]
+   },
+   {
+    "date": "1957",
+    "moment": "Olson vend la bibliothèque de Rice au North Carolina Wesleyan ; Rice furieux, jugeant l'affaire un pillage.",
+    "refs": [
+     "EV-06844",
+     "EV-06910"
+    ]
+   },
+   {
+    "date": "1960",
+    "moment": "Membre d'une commission sur les enseignants du Maryland ; minority statement contre l'Ed.D. et les administrateurs.",
+    "refs": [
+     "EV-07309",
+     "CI-03638",
+     "CI-03639"
+    ]
+   },
+   {
+    "date": "1967",
+    "moment": "Huit heures d'entretiens avec Martin Duberman ; il reconnaît son arrogance ; il est hospitalisé à Bethesda.",
+    "refs": [
+     "EV-07964",
+     "EV-07966",
+     "SC-02051"
+    ]
+   },
+   {
+    "date": "1968-1969",
+    "moment": "Mort de Rice (17 novembre 1968, selon la plupart des sources ; une fiche indique 28 novembre 1969).",
+    "refs": [
+     "EV-08068",
+     "EV-08116"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Nell Aydelotte Rice",
+    "nature": "épouse (mariage décembre 1914) ; beau-frère de Frank Aydelotte",
+    "evolution": "Passion en 1913, mariage en 1914, tensions croissantes à Rollins, adultère présumé et crise de confiance en 1937 (Nell le surprend), séparation de fait en 1938, divorce en 1941. Nell devient ensuite l'une de ses plus féroces adversaires dans l'histoire du collège.",
+    "refs": [
+     "RE-00120",
+     "RE-00127",
+     "RE-00175",
+     "SC-00693",
+     "EV-02671",
+     "EV-03209",
+     "RE-00783"
+    ]
+   },
+   {
+    "avec": "John Webb (Old Jack)",
+    "nature": "maître et modèle pédagogique",
+    "evolution": "Admiration totale dès 1906 ; lectures nocturnes ; Rice prend son parti contre Sawney ; Webb meurt en 1916, et Rice devient son héritier intellectuel. Il est le seul enseignant qu'il accepte d'appeler maître.",
+    "refs": [
+     "RE-00055",
+     "RE-00128",
+     "SC-00050",
+     "SC-00098",
+     "SC-00109",
+     "EV-00362",
+     "CI-00222"
+    ]
+   },
+   {
+    "avec": "Sam Avery",
+    "nature": "mentor au Nebraska, chancelier",
+    "evolution": "Protection et conversations nocturnes (1920-1927) ; Avery lui enseigne la méthode inductive. La maladie d'Avery en 1927 fait perdre à Rice son protecteur. Rice dit : « J'aimais Sam Avery et il m'aimait. »",
+    "refs": [
+     "RE-00251",
+     "RE-00256",
+     "SC-00172",
+     "CI-04031",
+     "CI-00375"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "professeur d'art recruté, complice puis rival",
+    "evolution": "Intuition commune en 1933 ; admiration mutuelle et « nous nous sommes plu tout de suite » ; agacements sur le style (Albers veut de l'ordre, Rice improvise) ; rivalité qui devient hostilité à partir de 1935, liaison d'Alice aggravant tout ; lettre amère de 1938 ; rupture silencieuse en 1940 ; Rice croit qu'Albers le jalousait.",
+    "refs": [
+     "RE-00749",
+     "RE-00833",
+     "RE-00985",
+     "RE-01092",
+     "SC-00390",
+     "EV-02312",
+     "EV-02833",
+     "RE-00891"
+    ]
+   },
+   {
+    "avec": "Theodore (Ted) Dreier",
+    "nature": "compagnon de fondation, trésorier, ami",
+    "evolution": "Amis depuis Rollins ; Dreier fait le budget et devient trésorier ; complémentarité (Rice l'intuitif, Dreier le pragmatique) ; tension en 1938 quand Dreier négocie le congé ; Rice se sent trahi ; affection persistante (« I loved Ted ») malgré l'éviction.",
+    "refs": [
+     "RE-00813",
+     "RE-00882",
+     "RE-01107",
+     "RE-01305",
+     "RE-02197",
+     "SC-00501",
+     "EV-02121"
+    ]
+   },
+   {
+    "avec": "Robert Wunsch",
+    "nature": "collègue de Rollins, collègue de BMC, successeur au rectorat",
+    "evolution": "Amitié et admiration ; Wunsch lui succède ; Wunsch est chargé de négocier sa démission ; ils restent liés malgré tout, Rice écrit que l'affection est « approfondie » après la démission.",
+    "refs": [
+     "RE-00824",
+     "RE-00735",
+     "RE-01106",
+     "RE-01114",
+     "RE-01306",
+     "SC-00789",
+     "EV-03098"
+    ]
+   },
+   {
+    "avec": "Hamilton Holt",
+    "nature": "président de Rollins, employeur",
+    "evolution": "Engagé à Stoke Poges en 1930 (lettre sur la permanence), puis licencié en 1933 ; le conflit est décisif pour la fondation de BMC ; Holt écrit « war to the death ». Rice se moque de lui dans son autobiographie, Holt menace un procès.",
+    "refs": [
+     "RE-00588",
+     "RE-00734",
+     "RE-00780",
+     "EV-02089",
+     "EV-02102",
+     "EV-03330"
+    ]
+   },
+   {
+    "avec": "Louis Adamic",
+    "nature": "ami intime, admirateur, biographe",
+    "evolution": "Amitié immédiate en 1935-1936 ; Adamic publie l'article qui fait de Rice le héros du collège ; les deux hommes restent liés jusqu'à la mort d'Adamic (1951), que Rice croit criminelle.",
+    "refs": [
+     "RE-00582",
+     "RE-00973",
+     "RE-01047",
+     "EV-02569",
+     "EV-05558",
+     "RE-00689"
+    ]
+   },
+   {
+    "avec": "Frank Rice (fils)",
+    "nature": "fils, chauffeur, compagnon de pêche",
+    "evolution": "Proche pendant la fondation (silences sur le lac Osceola, voyage de treize États) ; conflit en 1947 quand Frank part enseigner à BMC ; Frank devient le principal témoin de ses dernières années.",
+    "refs": [
+     "RE-00677",
+     "RE-00878",
+     "RE-01586",
+     "SC-00358",
+     "SC-00529",
+     "SC-02075"
+    ]
+   },
+   {
+    "avec": "Peter Rice (fils)",
+    "nature": "fils, victime d'une autorité paternelle écrasante",
+    "evolution": "Père dominateur, fils craintif puis rebelle ; falsification des bulletins, fugues, départ définitif à dix-huit ans. Rupture durable.",
+    "refs": [
+     "RE-01309",
+     "EV-03605"
+    ]
+   },
+   {
+    "avec": "Dikka Moen Rice",
+    "nature": "seconde épouse (1941-1942)",
+    "evolution": "Rencontrée à New York pendant le divorce ; elle le pousse à finir son livre ; elle devient bibliothécaire et assure la stabilité financière ; achète la ferme de Barnesville.",
+    "refs": [
+     "RE-01348",
+     "EV-03210",
+     "EV-06414",
+     "EV-07054"
+    ]
+   },
+   {
+    "avec": "Mary McLeod Smith (grand-mère)",
+    "nature": "matriarche de Tanglewood",
+    "evolution": "Admiration et crainte ; la chaise à fond clivé au soleil reste l'image première de l'autorité.",
+    "refs": [
+     "RE-00003",
+     "SC-00001"
+    ]
+   },
+   {
+    "avec": "Anna Belle Smith Rice (mère)",
+    "nature": "mère morte en 1899",
+    "evolution": "Tendresse profonde jusqu'à sa mort ; il transfère cette tendresse à sa belle-mère Launa.",
+    "refs": [
+     "RE-00033",
+     "EV-00126",
+     "SC-00004"
+    ]
+   },
+   {
+    "avec": "John Andrew Rice Sr. (père)",
+    "nature": "pasteur méthodiste, père distant et dominateur",
+    "evolution": "Craint et peu aimé ; lettre affectueuse de 1913 ; éloignement durable ; reproche « Si tu es si malin… » qu'il apprend à ignorer.",
+    "refs": [
+     "RE-00001",
+     "RE-00104",
+     "SC-00092",
+     "EV-00190"
+    ]
+   },
+   {
+    "avec": "Launa Darnell Rice (belle-mère)",
+    "nature": "belle-mère, institutrice, confidente",
+    "evolution": "Attachement immédiat dès 1902 ; lettres d'Oxford presque exclusivement à elle ; elle le pousse vers la Webb School.",
+    "refs": [
+     "RE-00046",
+     "RE-00103",
+     "EV-00183",
+     "EV-00342"
+    ]
+   },
+   {
+    "avec": "Frank Aydelotte",
+    "nature": "beau-frère, conseiller, puis négociateur et allié de la fondation",
+    "evolution": "Réserves au mariage de sa sœur (1913), rapports respectueux dans les années 1920, protecteur pendant la crise de Rollins, conseil du collège (« peu de règles »), héberge la fondation à Swarthmore ; se prononce contre le retour de Rice en 1949.",
+    "refs": [
+     "RE-00121",
+     "RE-00252",
+     "RE-00874",
+     "RE-00879",
+     "RE-01882",
+     "RE-00490"
+    ]
+   },
+   {
+    "avec": "Max Dehn / Jalowetz / Olson",
+    "nature": "figures de la fin du collège",
+    "evolution": "Olson règle la liquidation du collège et disperse la bibliothèque de Rice en 1957 ; Rice est furieux. Olson l'élogie publiquement en 1968.",
+    "refs": [
+     "RE-02787",
+     "EV-06844",
+     "EV-06766"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Date de naissance : 1888 (1er février) est la plus fréquente ; la fiche chronologique d'Oxford et la 'vaste notice' ne donnent pas la même année pour le retour au Nebraska.",
+   "Date de mort : Chaddock et Duberman donnent 17 novembre 1968 (hôpital de Bethesda) ; une fiche isolée indique 1963 et une autre 28 novembre 1969 ; la fiche de la lettre à Duberman (1967) et la fiche Lane (1990) divergent sur l'âge (79 ans en 1967 contre 'vers 76 ans' en 1958).",
+   "Rollins : les fiches parlent d'un renvoi (Holt, Lovejoy, AAUP), d'une démission de Rice ou de ses collègues ; Molesworth et Lane présentent Rice comme 'licencié' ou 'démis', Holt le juge 'disruptif'. Holt lui-même dément des propos attribués par Rice ('Never said it').",
+   "Rôle de Dreier dans les finances : Chaddock fait de Dreier le trésorier nommé après une nuit de budget chez Aydelotte ; Weber donne le pourcentage des dons (Forbes 10 000 $, parents de Ted 2 000 $) ; Lane donne 1 000 $ d'un père de Rollins et 10 000 $ de souscription anonyme.",
+   "Rectorat : les fiches disent que Rice est recteur 'dès la deuxième année' (1934), ou que Georgia est recteur (1933-1934), ou que Rice cède le rectorat à Georgia puis le reprend. La chronologie exacte du titre n'est pas stable.",
+   "Rencontre Albers : Chaddock raconte un recrutement en 1933 à l'intuition après un télégramme 'Come anyway' ; Taube et Anni Albers parlent d'une rencontre fortuite de Johnson à Berlin ; Molesworth et Harris rapportent une autre version du télégramme.",
+   "Liaison avec Alice : Duberman parle d'une liaison de 1937-1938 avec des témoignages indirects (épisode du canapé, rapporté par Nell) ; Chaddock parle d'une étudiante anonyme dont la relation physique reste incertaine ; l'ensemble n'est pas établi.",
+   "Démission : une fiche dit que Rice démissionne sur demande de la faculté (1940), une autre que Wunsch le pousse à partir ; la fiche 'Rupture définitive' date la séparation de 1938 ; la date exacte de la démission (13 avril 1938 pour le rectorat, février 1940 pour le collège) est confuse.",
+   "Autobiographie : titre I Came Out of the Eighteenth Century (1942) ; une fiche précise que les chapitres sur Rollins et BMC ont été retirés dans l'édition de 1957, mais Chaddock présente le chapitre BMC comme ajouté à la demande de Canfield.",
+   "Dewey : Chaddock dit qu'il assiste aux cours chaque jour pendant deux semaines ; Duberman écrit qu'il est resté assis en silence ; Reynolds dit qu'il visite deux fois en 1934-1935.",
+   "Le départ de Rice de Rollins et la fondation de BMC : Lane et Molesworth présentent la fondation comme l'œuvre d'un groupe; Chaddock et Duberman insistent sur le rôle de Rice comme figure unique. Le nombre d'étudiants et de professeurs au premier trimestre varie (22 étudiants, 11 professeurs ; ou 'environ 100 étudiants' dans un résumé)."
+  ],
+  "situations_revelatrices": [
+   "Le cours socratique autour de la table à Rollins, avec les images de calendrier épinglées au mur et les questions qui ne cessent de revenir",
+   "La réunion de faculté où il tient la salle par la parole et retourne une crise en dix minutes",
+   "Le perron de Lee Hall en discussion avec un étudiant partant à la ferme (la charge contre le mythe du labeur)",
+   "Le conseil d'orientation sur le perron, en rocking-chair, où il envoie l'étudiant chercher la question qui le travaille",
+   "Les audiences AAUP dans la sacristie : il répond point par point aux affidavits, rit des accusations, et lâche des jugements cruels",
+   "Les conversations nocturnes au coin du feu, pipe en main, qui deviennent des cours sur la vie",
+   "Les moments où il humilie ou taquine un collègue sans scrupule (golf pro, Platon, Bacardi)",
+   "Les après-midis de pêche silencieuse en bateau, où il se tait et contemple",
+   "Les réunions où il présente sa démission ou la refuse, les pleurs à Southern Pines",
+   "Le dîner du règlement à Southern Pines, où il évoque New Harmony et Brook Farm",
+   "La lecture à voix haute à sa femme pendant qu'il feint d'avoir mal aux yeux",
+   "La scène du jardin où il feint d'ignorer un renvoi",
+   "Les derniers jours à l'hôpital, avec sa réplique sur le rêve de livre à écrire"
+  ],
+  "citations": [
+   "Dans le Sud de mon enfance et de ma jeunesse, la vie était intensément personnelle. Les idées faisaient bâiller. (CI-00019)",
+   "Mon sentiment de pauvreté est le manque d'invitation, le manque d'une chose là, à saisir. (CI-00020)",
+   "Tout le monde était pauvre et tout le monde acceptait la pauvreté comme un acte de Dieu. (CI-00084)",
+   "Grand-mère Rice était un légume. (CI-00085)",
+   "Savoir ne suffit pas. (CI-00111)",
+   "Enseigner est un art, et le professeur, s'il possède cet art, est un artiste. (CI-00136)",
+   "La première chose serait de fusiller le registrar, le fusiller, pas le licencier. (CI-00138)",
+   "On ne peut pas parler de liberté à un Allemand. (CI-00186)",
+   "Trois merveilleuses années de farniente. (CI-00189)",
+   "J'ai enfin trouvé le bout de l'arc-en-ciel, et ce n'est pas du tout un pot d'or. (CI-00212)",
+   "J'ai toujours eu besoin d'être loyal envers quelque chose ou quelqu'un, et je n'y ai jamais réussi. (CI-00213)",
+   "Tu as toujours été le meilleur des pères. (CI-00214)",
+   "Je n'ai jamais eu le moindre tact de ma vie. (CI-00378)",
+   "Si nous devons chanter la moyenne, ne l'appelons pas divine. (CI-00595)",
+   "Le monde tel qu'il est ne mérite pas d'être sauvé ; il faut le refaire. (CI-00635)",
+   "Dean Douglass, je me le demande depuis que je suis ici. (CI-00642)",
+   "Si je ne trouve pas l'homme qu'il faut pour l'art, alors ça ne marchera pas. (CI-00873)",
+   "Mon Dieu, non ! c'est la dernière chose que je veux. Ce sont les endroits les plus affreux du monde ! (CI-00874)",
+   "Trop de Socrate, pas assez de Jésus. (CI-01064)",
+   "Je les trouve obscènes. (CI-01066)",
+   "Je ne sais pas comment cette chose va tourner. (CI-00424)",
+   "Je ne vais pas faire ça. (CI-04027)",
+   "Pourquoi ne pas décider, ce soir même, de mettre fin au collège. (CI-01338)",
+   "Le pire péché du monde est l'impatience, et je suis la personne la plus impatiente d'ici. (CI-01292)",
+   "Vous devriez faire de vous de petits anti-Rice. (CI-01293)",
+   "Je peux enseigner de cette façon parce que je ne sais pas. (CI-01382)",
+   "Je me suis pour ainsi dire délecté de la jouissance des absences. (CI-01444)",
+   "Je veux revenir pour vous prouver que je suis un homme changé. Je veux me racheter. (CI-01571)",
+   "J'ai été répudié par ma femme et par le collège. (CI-01572)",
+   "Dans la longue portée du temps, cette affaire ne fera pas plus que remuer un brin d'herbe. (CI-01578)",
+   "Le collège a besoin de moi. (CI-01580)",
+   "Ne coupez pas les têtes des meilleurs et des pires pour rendre l'endroit confortable aux médiocres. (CI-01581)",
+   "Je ne laisserais pas même un chien jaune à moi appartenir à cette organisation. (CI-01420)",
+   "L'ostracisme, sous quelque nom, est très ancien, mais la peine de cœur l'est encore plus. (CI-01421)",
+   "J'ai appris trop tard que j'étais vraiment arrogant. (CI-04035)",
+   "Je saw The Last Days of Hitler the other day, and I saw myself several times. (CI-04025)",
+   "J'aimais Sam Avery et il m'aimait. (CI-04031)",
+   "Je rêvais que je devais rendre compte d'un livre ; mais d'abord l'écrire. (CI-04084)",
+   "Non… seulement plus encore. (CI-04117)"
+  ],
+  "questions_ouvertes": [
+   "Quelle est la date exacte de sa naissance (1888 ou autre) et de sa mort (1968 ou 1969) ? Les fiches divergent.",
+   "Quelle est l'ampleur réelle de la liaison avec Alice (1937-1938) ? Les témoignages sont indirects (Nell, faculté, Evarts) et jamais établis.",
+   "Quelle est la nature exacte de la relation avec la coach de théâtre de New Brunswick et l'étudiante anonyme de 1937 ?",
+   "Que contenait son autobiographie inachevée sur Black Mountain, et pourquoi n'a-t-il jamais assemblé un manuscrit exploitable ?",
+   "Quel rôle exact joua Rice dans la rupture avec Dreier en 1938, et que sait-on des « dissensions internes » qui mènent à sa démission ?",
+   "Quelle fut sa vie intime avec Dikka et ses enfants après 1950 ? Peter et Frank laissent des témoignages contradictoires.",
+   "Quels étaient ses liens réels avec le Bauhaus et l'art moderne, au-delà de la recommandation d'Albers ?",
+   "Que pensait-il vraiment de la question raciale au-delà des propos de 1967 (« Jefferson a fait de son mieux... ») et de sa lettre à Duberman ?"
+  ]
+ }
+}

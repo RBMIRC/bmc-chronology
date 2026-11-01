@@ -1,0 +1,312 @@
+{
+ "passe": "mois",
+ "cle": "1940-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3003,
+  "sortie": 13518,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1940-10",
+  "session": "aucune session scolaire documentée ; le collège vit le chantier d'automne qui suit le camp d'été",
+  "saison_et_climat": "Automne 1940 à Lake Eden, Caroline du Nord. Les fiches ne décrivent pas le temps d'octobre. En septembre, le terrain drainé révèle des poches de boue qui retardent les fondations.",
+  "situation": "Rice est parti en mars 1940 et ne revient pas. Le chantier de Lake Eden, ouvert le 12 septembre, avance sur l'aile conçue par Kocher, bâtie par la communauté, avec un retard d'environ deux semaines après le problème de boue. La levée de fonds a échoué après la chute de la France, la YMCA menace le bail de Blue Ridge, et la faculté ne sera payée qu'à 40 % de ses salaires non garantis en 1940-41. La contestation contre la « mystique du salut par le travail » vient de s'exprimer par une affiche anonyme.",
+  "presents_probables": [
+   {
+    "nom": "Godfrey",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dreier",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kocher",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Bascombe Allen",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Gothe",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nim et Nik (étudiants thaïlandais de Harvard)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "étudiants et enseignants du chantier (collectif)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "les deux auteurs anonymes de l'affiche",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1940-09-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Ouverture du chantier de Lake Eden, avec pour objectif roof by Christmas.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": "1940-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Un vendredi, le terrain drainé révèle des poches de boue ; il faut enfoncer des pieux sans machine ni argent.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": "1940-09",
+    "precision": "mois",
+    "ce_qui_arrive": "Godfrey invente un pilon de 27 pieds tiré par le Farmall. Le lundi suivant, étudiants et enseignants coupent des pieux en forêt ; le retard reste de deux semaines.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Kocher s'installe à temps plein à Lake Eden.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "saison",
+    "ce_qui_arrive": "Dreier fait photographier l'avancement du chantier ; les photos circulent auprès des donateurs et, à l'automne, à la Maison-Blanche où il dîne avec les Roosevelt.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "periode",
+    "ce_qui_arrive": "Des étudiants de la Harvard School of Architecture arrivent sur le chantier, dont deux Thaïlandais surnommés Nim et Nik.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Deux mécontents affichent une nuit « Wanted: zombies for the work program », visant Dreier et les chants folkloriques sur le chemin du chantier.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Une assemblée générale houleuse suit l'affiche.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   }
+  ],
+  "quotidien": "Après-midis de travail sur le chantier, coupe de pieux en forêt le lundi, marche sur le chemin du chantier en chantant des airs folkloriques. Godfrey enseigne la construction et les cours continuent. Les étudiants de Harvard s'ajoutent. Les repas et la vie domestique ne sont pas documentés.",
+  "tensions": [
+   "la « mystique du salut par le travail » contre l'idéal de liberté du collège, avec Dreier comme cible",
+   "l'autocratie de Gothe face aux étudiants américains",
+   "retard du chantier face à l'objectif roof by Christmas",
+   "faculté payée à 40 % de ses salaires non garantis, crise de liquidité",
+   "menace de la YMCA sur le bail de Blue Ridge",
+   "campus rêvé de Gropius et Breuer abandonné au profit d'une aile unique de Kocher"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le pilon de Godfrey",
+    "date": "1940-09",
+    "lieu": "chantier de Lake Eden",
+    "personnages": [
+     "Godfrey",
+     "le Farmall",
+     "étudiants",
+     "enseignants"
+    ],
+    "deroule": "Le terrain révèle des poches de boue. Sans machine ni argent, Godfrey invente un pilon de 27 pieds tiré par le Farmall pour enfoncer les pieux.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Les pieux de la forêt",
+    "date": "1940-09",
+    "lieu": "forêt proche du chantier",
+    "personnages": [
+     "étudiants",
+     "enseignants"
+    ],
+    "deroule": "Le lundi suivant la découverte de la boue, étudiants et enseignants vont couper des pieux en forêt. Le retard reste de deux semaines.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "L'affiche de nuit",
+    "date": null,
+    "lieu": "campus",
+    "personnages": [
+     "deux mécontents anonymes",
+     "Dreier"
+    ],
+    "deroule": "Deux mécontents placardent « Wanted: zombies for the work program ». L'affiche vise Dreier et les chants folkloriques du chemin du chantier.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "L'assemblée houleuse",
+    "date": null,
+    "lieu": null,
+    "personnages": [
+     "étudiants",
+     "faculté"
+    ],
+    "deroule": "Une assemblée générale houleuse suit la contestation. Les sources ne donnent pas de date.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Photographier le chantier",
+    "date": null,
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Dreier"
+    ],
+    "deroule": "Dreier fait photographier l'avancement pour les donateurs. Les images ne rapportent pas d'argent direct mais remontent le moral, jusqu'au dîner à la Maison-Blanche.",
+    "certitude": "atteste",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Arrivée des étudiants de Harvard",
+    "date": null,
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Nim",
+     "Nik",
+     "étudiants de la Harvard School of Architecture"
+    ],
+    "deroule": "Des étudiants de la Harvard School of Architecture rejoignent le chantier. Date non précisée.",
+    "certitude": "probable",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "titre": "Gothe face aux étudiants",
+    "date": null,
+    "lieu": "Lake Eden",
+    "personnages": [
+     "Gothe",
+     "étudiants américains"
+    ],
+    "deroule": "Économiste allemand et ancien des camps de travail, Gothe se révèle trop autocrate pour les étudiants américains. La friction peut alimenter la contestation du travail.",
+    "certitude": "deduit",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "le chantier d'automne, quand la faculté compte ses salaires",
+    "vers_date": "1940-06",
+    "vers": "la chute de la France fait s'effondrer la campagne des deux millions menée par Dreier depuis le MIT ; le campus rêvé est abandonné en juillet au profit d'une aile de Kocher.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "les photos du chantier montrées aux donateurs",
+    "vers_date": "1940-02",
+    "vers": "la sortie de Rice : la deuxième conférence tourne à la rupture, puis sa démission et son règlement financier réglé en mars.",
+    "refs": [
+     "Après Rice : sa vie d'exilé et son héritage (1940-02→None)",
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "l'affiche et l'assemblée houleuse",
+    "vers_date": "1940-01",
+    "vers": "les 9 et 10 janvier, Gropius et Breuer présentent au MoMA la maquette de maisons vitrées sur pilotis, que Gropius défend comme « letting the life form the house ».",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "la vie de Rice à Southern Pines",
+    "vers_date": "1940-09",
+    "vers": "Rice publie « My Father's Folks » dans Harper's en septembre, tandis que le collège bâtit sans lui.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le chantier en cours",
+    "vers_date": "1940-12",
+    "vers": "l'objectif roof by Christmas reste une cible : les fiches ne disent pas si elle est tenue.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "le chantier et ses visiteurs",
+    "vers_date": "1940-11",
+    "vers": "May Sarton passe dix jours au collège : elle aide au mur de pierre, donne une conférence sur Yeats et critique le « fétiche de la liberté ».",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "la crise de liquidité de 1940",
+    "vers_date": "1941",
+    "vers": "en 1941, la faculté pose un maximum conseillé d'un à trois après-midi de travail par semaine, ce qui apaise le conflit ; les salaires non garantis tombent à 32 %.",
+    "refs": [
+     "chapitre de l'année 1940 (synthèse)"
+    ]
+   }
+  ],
+  "motifs": [
+   "la boue et les pieux : le retard qui devient récit",
+   "le pilon de Godfrey, invention sous contrainte",
+   "l'affiche « zombies » et la mystique du salut par le travail",
+   "Dreier comme image publique du chantier",
+   "Kocher et l'aile unique : le campus rêvé abandonné",
+   "crise de liquidité et salaires partiels",
+   "le campus comme témoignage, avec les limites de la mémoire"
+  ],
+  "lacunes": "Aucune session ni calendrier scolaire d'octobre n'est documenté. Les dates de l'affiche, de l'assemblée et de l'arrivée des étudiants de Harvard sont inconnues. La localisation d'Albers en octobre est inconnue (voyages au Mexique, au Nouveau-Mexique et à Harvard non datés). Le dîner à la Maison-Blanche n'a pas de date précise. La menace de la YMCA sur Blue Ridge est datée différemment selon les sources (voir questions ouvertes). Repas, météo et vie domestique ne sont pas documentés. Les fiches n'ont pas d'identifiants propres : les références sont donc les titres des fiches. Les souvenirs de témoins sont à prendre avec précaution."
+ }
+}

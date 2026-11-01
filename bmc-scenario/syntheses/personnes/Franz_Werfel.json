@@ -1,0 +1,200 @@
+{
+ "passe": "personnes",
+ "cle": "Franz Werfel",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 8227,
+  "sortie": 6679,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Franz Werfel",
+  "autres_noms": [],
+  "dates_de_vie": "Non données par les fiches. Déduction : premier recueil en 1911 \"à 21 ans\" (PE-00283), donc né vers 1890, à Prague. Aucune fiche ne donne sa mort.",
+  "statut_bmc": "Aucun lien attesté avec Black Mountain College. Les fiches le placent dans l'orbite du Bauhaus : poète viennois, amant puis compagnon d'Alma Mahler, rival amoureux de Walter Gropius. Il apparaît en 1924 parmi les soutiens du Cercle d'amis du Bauhaus. Il peut servir de figure d'arrière-plan ou de source de flash-back, pas de personnage du collège.",
+  "presence": [],
+  "portrait_physique": "Traits irréguliers, front sillonné, expression accablée. Il n'a pas la beauté de Gropius, et le texte le souligne par contraste. Gros fumeur de cigares. L'émotion le fait bégayer (PE-00283). Rien d'autre sur sa taille, sa tenue ou son âge apparent.",
+  "noyau_psychologique": "Poète expressionniste qui veut se laisser \"dissoudre par le sentiment\". Il est naïf, passionné et se dévoue entièrement à Alma. Il ne calcule pas : il écrit, supplie, s'effondre, remercie, tout avec la même ardeur. Sa sincérité fait sa force et sa faiblesse : il décrit à Gropius son bonheur avec Alma sans voir la cruauté de ce récit (EV-00619). Déduction : il vit sa passion comme une affaire d'âme et de mots, et laisse à Alma comme à Gropius le rôle de régler la vie pratique.",
+  "blessures": "Attesté : la culpabilité devant la générosité de Gropius, au point de manquer s'évanouir (RE-00181). Le déchirement quand Alma le quitte périodiquement, et qu'il court les rues de Vienne pour la retrouver (RE-00210, EV-00674). La mort de Martin, qu'il tenait pour son fils, lui est annoncée par télégramme de Gropius (EV-00607, RE-00180). Déduction : son doute (\"Est-ce mon enfant ?\") puis cette perte forment une blessure double, que les fiches ne décrivent pas de l'intérieur.",
+  "desirs": "Être aimé d'Alma et vivre avec elle, soit exclusivement, soit par le partage six mois / six mois qu'il soutient auprès de Gropius (EV-00619, PE-00283). Être dissous dans le sentiment. Être \"parent\" de l'humanité, d'après la devise pacifiste citée dans PE-00283.",
+  "peurs": "Déduction à partir des scènes : perdre Alma (EV-00674), mais aussi le jugement moral de Gropius, dont la bonté l'écrase (SC-00137). Les fiches ne nomment pas de peur explicite.",
+  "maniere_d_aimer": "Totale, exposée, sans stratégie. Il tutoie, écrit des vers sur l'enfant, cherche l'amante dans les rues. Il croit à un amour partagé à trois, où les deux hommes aideraient ensemble Alma \"déchirée\", et il la dit \"née que pour des fins divines\" (EV-00619). Il corrige ses épreuves pendant les visites d'Alma à l'Hôtel Bristol (EV-00501). Une ombre : son interrogation sur la paternité, puis la remarque sur le rythme \"sémitique\" du bébé (EV-00537, CI-00298), qui montre un regard plus froid, voire un préjugé de l'époque, dans l'intime. Les fiches n'en disent pas davantage.",
+  "rapport_au_pouvoir": "Il n'en cherche pas. Il est pacifiste rebelle et véhément (PE-00283), proche du mouvement avec Martin Buber, auteur d'une adaptation pacifiste des Troyennes en 1915 (OE-00271). Face à Gropius, mari trahi, il s'incline : la magnanimité l'emporte sur lui (SC-00137). En 1924, il prend à table la place près d'Alma que Kandinsky a refusée, ce qui le montre comme appui social d'Alma (SC-00272, version contestée).",
+  "voix": {
+   "registre": "Allemand ; ton expressionniste, intense, exalté et sentimental. Lettres ferventes, vers, déclarations sans filtre.",
+   "tics": "Bégaiement quand l'émotion monte (PE-00283). Mots de dévotion et de gratitude, tutoiement, appel à la \"parenté\" universelle.",
+   "exemples_paraphrases": [
+    "À Gropius, après le billet : il le remercie et l'admire, bouleversé (EV-00540, RE-00181).",
+    "À Alma, trois jours après la naissance : il demande si l'enfant est de lui (EV-00537).",
+    "Dans sa lettre de 1919 : il dit son bonheur de deux semaines avec Alma, Gropius \"proche de son cœur\", et supplie qu'on aide ensemble Alma déchirée (EV-00619).",
+    "Devise pacifiste : son seul souhait est d'être le parent de l'Homme (PE-00283)."
+   ]
+  },
+  "habitudes": [
+   "Fume de gros cigares (PE-00283).",
+   "Corrige ses épreuves (Le Jour du Jugement) à l'Hôtel Bristol, à Vienne, pendant les visites d'Alma (EV-00501, OE-00306).",
+   "Fait la sieste en journée, d'où l'épisode de la porte (SC-00137).",
+   "Écrit des vers pour les grands événements intimes (OE-00382)."
+  ],
+  "convictions": [
+   "Pacifisme : il l'affirme par son adaptation des Troyennes d'Euripide en 1915 et le mouvement avec Buber (OE-00271, PE-00283).",
+   "Fraternité humaine : \"Mon seul souhait est d'être parent de toi, ô Homme !\" (PE-00283).",
+   "Primat du sentiment sur la raison ou la propriété conjugale : il défend le partage d'Alma entre les deux hommes (EV-00619)."
+  ],
+  "arc_bmc": [],
+  "avant": [
+   {
+    "date": "1911",
+    "moment": "Premier recueil de poèmes à 21 ans : succès foudroyant. Il vient d'une riche famille juive de Prague, père marchand de gants, et il est ami de Kafka depuis le lycée.",
+    "refs": [
+     "PE-00283"
+    ]
+   },
+   {
+    "date": "1915",
+    "moment": "Son poème \"Man Aware\" paraît dans un magazine ; Alma le lit dans la chaleur d'un magasin d'équipement militaire berlinois et retient son nom. Il publie la même année une adaptation pacifiste des Troyennes, en lien avec Martin Buber.",
+    "refs": [
+     "EV-00387",
+     "EC-00224",
+     "OE-00271",
+     "PE-00283"
+    ]
+   },
+   {
+    "date": "1916-12",
+    "moment": "Il rejoint Alma à Vienne, dans sa loge au concert du Chant de la Terre, puis la raccompagne ; premier baiser. Gropius a envoyé ce jour-là un télégramme citant un vers de Werfel, sans savoir qui était l'amant.",
+    "refs": [
+     "EV-00467",
+     "RE-00154"
+    ]
+   },
+   {
+    "date": "1917-02",
+    "moment": "Alma rend visite à Werfel à l'Hôtel Bristol ; elle est de nouveau enceinte, de lui, sans le dire.",
+    "refs": [
+     "EV-00501",
+     "OE-00306"
+    ]
+   },
+   {
+    "date": "1917-06",
+    "moment": "Une carte postale de Bottrop salue \"Wir sind\" de Werfel comme magnifique. L'auteur de la carte n'est pas nommé dans la fiche.",
+    "refs": [
+     "EV-00509"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1924",
+    "moment": "Werfel figure parmi les soutiens du Cercle d'amis du Bauhaus, \"son rival en amour\". Alma est alors engagée avec lui, et elle surveille de près la réunion de Gropius avec sa fille à Vienne.",
+    "refs": [
+     "EV-01042",
+     "EV-01040"
+    ]
+   },
+   {
+    "date": "1924",
+    "moment": "À Vienne, lors du dîner où Kandinsky refuse la place à côté d'Alma, Werfel occupe cette place ; Alma a répandu la rumeur que Kandinsky était antisémite. Récit de Nina Kandinsky, jugé lacunaire et partial.",
+    "refs": [
+     "SC-00272",
+     "EV-01053"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Alma Mahler (Gropius)",
+    "nature": "Amour passionné, instable.",
+    "evolution": "Rencontre grâce à un ami ; baiser en décembre 1916 ; liaison de plus en plus ouverte, connue des cafés dès fin 1917. Grossesse cachée, naissance d'un enfant que Werfel pense être le sien (août 1918). Confrontation du 4 novembre 1918 : Alma promet de rompre, mais le voit chaque jour. Début mai 1919, elle retourne vers Weimar ; mi-juin elle repart vers lui sous prétexte de cure. Elle le quitte périodiquement en 1920, il la cherche dans les rues. En 1924, elle est \"engagée avec Werfel\".",
+    "refs": [
+     "RE-00154",
+     "RE-00180",
+     "RE-00210",
+     "EV-00467",
+     "EV-00501",
+     "EV-00511",
+     "EV-00543",
+     "EV-00613",
+     "EV-00674",
+     "EV-01040"
+    ]
+   },
+   {
+    "avec": "Walter Gropius",
+    "nature": "Rival, mari trahi, interlocuteur épistolaire.",
+    "evolution": "En août 1918, Gropius laisse chez Werfel une carte et un billet de pure magnanimité ; Werfel est bouleversé. En novembre 1918, Gropius se jette aux pieds d'Alma devant lui. En mai 1919, Gropius lui télégraphie la mort de Martin. En août 1919, Werfel lui écrit pour proposer le partage six mois / six mois ; Gropius ne répond pas et range la lettre dans un tiroir. En 1924, Werfel soutient le Bauhaus.",
+    "refs": [
+     "RE-00181",
+     "SC-00137",
+     "SC-00138",
+     "EV-00543",
+     "EV-00607",
+     "EV-00619",
+     "EV-01042"
+    ]
+   },
+   {
+    "avec": "Martin (fils d'Alma, né en août 1918)",
+    "nature": "Fils probable ; Werfel doute puis perd l'enfant.",
+    "evolution": "Trois jours après la naissance, il demande à Alma si l'enfant est de lui, écrit \"La Naissance du Fils\" et note un rythme \"sémitique\". L'enfant meurt en mai 1919, dans une clinique viennoise.",
+    "refs": [
+     "EV-00537",
+     "CI-00298",
+     "OE-00382",
+     "EV-00607",
+     "PE-00283"
+    ]
+   },
+   {
+    "avec": "Kafka et Martin Buber",
+    "nature": "Amitié ancienne (Kafka, depuis le lycée) ; compagnonnage de pensée (Buber, mouvement pacifiste).",
+    "evolution": "Ce que les fiches disent s'arrête là ; rien sur leur évolution.",
+    "refs": [
+     "PE-00283"
+    ]
+   },
+   {
+    "avec": "Wassily Kandinsky",
+    "nature": "Rencontre mondaine indirecte, à Vienne en 1924.",
+    "evolution": "Werfel s'assoit à la place qu'a refusée Kandinsky ; il est du côté d'Alma dans une affaire d'accusation d'antisémitisme.",
+    "refs": [
+     "SC-00272",
+     "EV-01053"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Date de la révélation à Gropius : EV-00540 et SC-00137 la situent le 26 août 1918, à Vienne, par un appel téléphonique surpris ; EV-00581 (Weber 2020) la place après la naissance, la \"première année du Bauhaus\" à Weimar, deux semaines après l'accouchement. Or le Bauhaus ouvre au printemps 1919 et Martin meurt en mai 1919. Il y a donc un décalage chronologique entre les deux sources.",
+   "Dans EV-00581, Gropius croit d'abord Martin son fils, alors que le billet du 26 août 1918 évoque déjà \"suppose que nous perdions l'enfant\" : savait-il, soupçonnait-il ou non ?",
+   "Paternité : PE-00283 et RE-00180 disent \"probablement\" ; EV-00581 dit que Werfel est \"le vrai père\" ; EV-00537 montre Werfel lui-même incertain.",
+   "PE-00283 mentionne un homme \"récemment jugé pour trahison\", sans doute un autre personnage que Werfel (peut-être Gropius ou un tiers) ; fusion probable d'une fiche agrégée, à ne pas attribuer à Werfel.",
+   "EV-00509 : la carte postale de Bottrop, qui salue Wir sind et mentionne un état dépressif, n'a pas d'auteur nommé ; ne pas l'attribuer à Werfel.",
+   "Le dîner de 1924 (SC-00272, EV-01053) est \"contesté\" : ce récit vient de Nina Kandinsky, jugé plein de trous, qui cherche à triompher d'une rivale."
+  ],
+  "situations_revelatrices": [
+   "Une porte à laquelle on frappe pendant qu'il dort : la sieste qui lui fait manquer la rencontre avec Gropius (SC-00137).",
+   "Être convoqué devant Alma et Gropius, qui se jette à ses pieds, tandis que lui reste silencieux (SC-00138).",
+   "La lecture à voix haute d'une lettre où il décrit son bonheur à celui qu'il a trahi (EV-00619).",
+   "Une rue de Vienne où il cherche Alma partie (EV-00674).",
+   "Le premier baiser après un concert, dans le tumulte (EV-00467).",
+   "Un dîner où l'on se bat pour une place à table (SC-00272)."
+  ],
+  "citations": [
+   "CI-00298 (journal, août 1918, à la vue du nouveau-né) : \"The rhythm of its substance seems strongly Semitic\" – le rythme de sa substance me semble fortement sémitique.",
+   "PE-00283 : \"Mon seul souhait est d'être parent de toi, ô Homme !\" (poème pacifiste).",
+   "EV-00537 : à Alma, trois jours après la naissance : \"Est-ce mon enfant ?\"",
+   "SC-00137 (billet de Gropius à lui, 26 août 1918, paraphrasé) : être prudent avec Alma, l'émotion, le lait, supposer qu'on perde l'enfant.",
+   "EV-00619 (paraphrase) : Alma est \"née que pour des fins divines\"."
+  ],
+  "questions_ouvertes": [
+   "Où et comment Werfel a-t-il appris la mort de Martin, et comment a-t-il réagi ? Les fiches ne donnent que le télégramme de Gropius.",
+   "A-t-il répondu à Gropius après la lettre rangée dans un tiroir en 1919 ?",
+   "Que lui reste-t-il de Prague et de sa famille, et que pense-t-il de sa judéité ? Seule la remarque sur le rythme \"sémitique\" l'effleure.",
+   "Qu'a-t-il écrit et publié entre 1920 et 1924, au-delà des Troyennes créées à Vienne en mars 1920 ?",
+   "Quels liens exacts avec Black Mountain College, ou avec ses fondateurs et enseignants ? Aucune fiche n'en mentionne.",
+   "Dates de naissance et de mort, et suite de la vie avec Alma après 1924 : rien dans les fiches."
+  ]
+ }
+}

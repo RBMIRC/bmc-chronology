@@ -1,0 +1,230 @@
+{
+ "passe": "personnes",
+ "cle": "John Graham",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 5567,
+  "sortie": 3114,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "John Graham",
+  "autres_noms": [
+   "Ivan Dombrowsky (non attesté dans les fiches — à vérifier)"
+  ],
+  "dates_de_vie": "mort en 1961 (attesté) ; date de naissance non donnée par les fiches",
+  "statut_bmc": "Jamais présent à Black Mountain College : figure du milieu new-yorkais avant-gardiste, mentor et « découvreur » de Willem de Kooning et de Jackson Pollock. Son influence sur de Kooning (et donc indirectement sur l'été 1948 de BMC) en fait une matière de flash-back et de contraste.",
+  "presence": [],
+  "portrait_physique": "Petit, compact, élégant (dapper) ; toujours tiré à quatre épingles, allure d'aristocrate.",
+  "noyau_psychologique": "Émigré russe au passé aristocratique, érudit flamboyant et sûr de lui jusqu'à l'arrogance, Graham a besoin d'être le passeur : il rapporte de Paris les Cahiers d'Art, collectionne l'art africain, écrit le traité qui circule dans tous les ateliers. Il fonctionne par enthousiasme immédiat — s'exclame devant une toile, revient une demi-heure plus tard avec les billets — et par fidélité d'ami même quand son esthétique a basculé. Sa trajectoire est celle d'un apôtre devenu apostat : champion de Picasso et de l'inconscient, puis réactionnaire vénérant les vieux maîtres, dégouté par la lutte créatrice des autres, réfugié dans l'ésotérisme.",
+  "blessures": "Exil russe (ancien aristocrate tsariste) ; rupture douloureuse avec ses propres convictions modernistes, visible dans son incapacité à regarder de Kooning peindre.",
+  "desirs": "Être reconnu comme le mentor et l'oracle intellectuel de l'avant-garde new-yorkaise ; guider les jeunes peintres vers Picasso et l'inconscient (puis, après son virage, vers les vieux maîtres) ; collectionner.",
+  "peurs": "Assister à la souffrance créatrice d'autrui — il ne peut « stand someone struggling » ; l'idée d'avoir été dupe : d'où son accusation d'escroquerie contre Picasso.",
+  "maniere_d_aimer": "Loyauté concrète et généreuse : il achète quand l'ami est fauché, acclame avant tout le monde, reste fidèle en dépit du désaccord esthétique. Mais il impose sa vision et peut être envahissant, chahuteur, importun aux femmes en soirée.",
+  "rapport_au_pouvoir": "Autorité charismatique de l'érudit ; il n'occupe pas d'institution mais fabrique des réputations (de Kooning, Pollock, l'exposition McMillen de 1942). Arrogant dans le jugement, humble dans l'amitié.",
+  "voix": {
+   "registre": "Péremptoire, théoricien, ponctué d'enthousiasmes brusques ; le français et l'anglais se mêlent chez cet exilé cultivé",
+   "tics": "S'exclamer devant une œuvre puis disparaître et revenir aussitôt ; discourir sans se lasser sur théories et expériences ; s'asseoir dos aux tableaux qu'il ne veut pas voir naître",
+   "exemples_paraphrases": [
+    "Bill, tout ce que tu fais est assez bon pour moi — fidélité malgré son rejet du picassisme",
+    "Son art est une escroquerie — sur Picasso, dans son manifeste de 1946",
+    "Je reviens tout de suite — avant de revenir avec cinquante dollars en main"
+   ]
+  },
+  "habitudes": [
+   "Voyages fréquents à Paris, d'où il rapporte les numéros des Cahiers d'Art pour de Kooning et Gorky",
+   "Collectionneur d'art d'avant-garde et de masques africains (pour la collection Crowninshield)",
+   "Discuter théories et expériences sans se lasser",
+   "S'asseoir dos aux tableaux en cours de création"
+  ],
+  "convictions": [
+   "D'abord : Picasso sommet de l'art depuis la préhistoire ; l'art doit explorer l'inconscient par automatisme et « rêverie intuitive »",
+   "Marx et Freud, vertus de l'abstraction, modernisme militant (System and Dialectics of Art, 1937)",
+   "Après son virage : rejet de Picasso (« hoax », fabrique d'argent internationale), abandon de la psychanalyse pour l'ésotérisme et la magie, culte des vieux maîtres",
+   "Fidélité en amitié indépendante des désaccords esthétiques"
+  ],
+  "arc_bmc": [],
+  "avant": [
+   {
+    "date": "1920",
+    "precision": "annee",
+    "moment": "Émigré russe arrivé aux États-Unis",
+    "refs": [
+     "PE-00111"
+    ]
+   },
+   {
+    "date": "1927",
+    "precision": "annee",
+    "moment": "Connu de de Kooning dès cette date ; il le fait entrer dans le cercle new-yorkais (Gorky, Davis) avec Stuart Davis et Arshile Gorky",
+    "refs": [
+     "RE-00512",
+     "EV-08863"
+    ]
+   },
+   {
+    "date": "1929",
+    "precision": "annee",
+    "moment": "Vernissage à la Dudensing Gallery : de Kooning le remarque en train d'importuner des femmes, le prend pour le marchand, découvre l'artiste élégant. Début d'un mentorat décisif ; l'un des « Trois Mousquetaires » avec Davis et Gorky",
+    "refs": [
+     "EV-01416",
+     "EV-01421",
+     "SC-00344",
+     "RE-00554",
+     "RE-00555"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "annee",
+    "moment": "Publication de System and Dialectics of Art : Picasso comme aboutissement de l'art, automatisme et rêverie intuitive ; livre présent dans tous les ateliers des futurs grands des années 1940 ; acclame de Kooning cinq ans avant tout autre critique",
+    "refs": [
+     "EV-02650",
+     "OE-01312",
+     "PE-00111",
+     "ID-00107"
+    ]
+   },
+   {
+    "date": "1934",
+    "precision": "annee",
+    "moment": "Fréquente l'Artist's Union aux côtés de Gorky, Davis et de Kooning",
+    "refs": [
+     "EV-02308"
+    ]
+   },
+   {
+    "date": "1940",
+    "precision": "annee",
+    "moment": "Achète Seated Figure encore mouillée pour 50 dollars (loyer : 35 $) ; premier acheteur enthousiaste d'une toile de Bill",
+    "refs": [
+     "EV-03080",
+     "SC-00784",
+     "RE-00627",
+     "EV-02787"
+    ]
+   },
+   {
+    "date": "1942-01",
+    "precision": "mois",
+    "moment": "Organise « American and French Paintings » chez McMillen : de Kooning, Davis, Diaz, Pollock, Krasner, Graham, face à Picasso, Braque, Matisse, de Chirico ; première critique pour de Kooning, première rencontre avec Pollock et Duchamp. Personne n'achète la peinture américaine",
+    "refs": [
+     "EV-03299",
+     "EV-03300",
+     "EV-03301",
+     "EV-03302"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1946",
+    "precision": "annee",
+    "moment": "Fait circuler son manifeste de quatre pages The case of Mr. Picasso : Picasso accusé d'escroquerie et de fabrique d'argent internationale ; abandon de la psychanalyse pour l'ésotérisme, vilipende l'abstraction, vénère les vieux maîtres",
+    "refs": [
+     "EV-03951",
+     "CI-01915"
+    ]
+   },
+   {
+    "date": "1951",
+    "precision": "annee",
+    "moment": "Revend Seated Figure à Bill pour 500 dollars (achetée 50 $ dix ans plus tôt) ; Bill la rachète",
+    "refs": [
+     "EV-05485",
+     "RE-01327"
+    ]
+   },
+   {
+    "date": "1952",
+    "precision": "annee",
+    "moment": "Étés chez Leo Castelli et Ileana Sonnabend à East Hampton : Graham est marié à la mère d'Ileana, les deux couples deviennent amis proches ; Namuth photographie les de Kooning en 1953",
+    "refs": [
+     "EV-05591"
+    ]
+   },
+   {
+    "date": "1961",
+    "precision": "annee",
+    "moment": "Mort de Graham ; de Kooning lui resta ami jusqu'au bout",
+    "refs": [
+     "EV-04308"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Willem de Kooning",
+    "nature": "Mentorat puis amitié fidèle ; premier acheteur, premier critique, « découvreur »",
+    "evolution": "De modèle intellectuel (1929-1937) à soutien matériel (achat de 1940, exposition de 1942), puis affection malaisée après son virage réactionnaire : il s'assied dos aux tableaux mais répète sa loyauté ; transaction inversée en 1951 ; intimité estivale chez Castelli en 1952-1953 ; amitié jusqu'à sa mort en 1961",
+    "refs": [
+     "RE-00224",
+     "RE-00512",
+     "RE-00554",
+     "RE-00555",
+     "RE-00627",
+     "RE-00695",
+     "RE-01313",
+     "RE-01327",
+     "SC-00784",
+     "SC-00916",
+     "CI-01648"
+    ]
+   },
+   {
+    "avec": "Jackson Pollock",
+    "nature": "Découverre — de Kooning insiste : Graham a découvert Pollock, personne d'autre",
+    "evolution": "Le fait exposer aux côtés des maîtres européens en 1942 ; première rencontre de Kooning et Pollock à cette occasion",
+    "refs": [
+     "RE-01317",
+     "EV-03299"
+    ]
+   },
+   {
+    "avec": "Arshile Gorky et Stuart Davis",
+    "nature": "Compagnons des « Trois Mousquetaires » de l'avant-garde new-yorkaise ; lien d'étrangers avec de Kooning",
+    "evolution": "Cercle fondateur des années 1929-1930 ; mort de Gorky en 1948, de Davis en 1964",
+    "refs": [
+     "PE-00111",
+     "EV-01511",
+     "EV-08863",
+     "EV-04308"
+    ]
+   },
+   {
+    "avec": "Ileana Sonnabend et Leo Castelli",
+    "nature": "Famille par alliance (marié à la mère d'Ileana) et amitié estivale",
+    "evolution": "Partage la maison d'East Hampton avec les de Kooning deux étés",
+    "refs": [
+     "EV-05591"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Date de l'achat de Seated Figure : 1940 selon EV-03080/SC-00784, « ≈1938-1948 » selon EV-02787 qui parle de « dix ans » avant la revente de 1951",
+   "Contenu de l'exposition de 1942 : les versions divergent légèrement sur les artistes européens inclus (Braque/Rouault/Picasso/Matisse/de Chirico) et sur le commanditaire (McMillen, Inc.)",
+   "L'entretien derrière The case of Mr. Picasso daterait du 15 janvier 1942 mais le manifeste a circulé en 1946",
+   "Première rencontre de Kooning et Pollock : située à l'exposition McMillen de 1942, cohérente entre sources, mais la composition exacte de l'exposition varie"
+  ],
+  "situations_revelatrices": [
+   "Le vernissage de 1929 où il importune des femmes : le chaos élégant du personnage",
+   "L'achat impulsif de la toile mouillée : générosité immédiate, argent comptant, atelier bohème",
+   "Assis dos aux tableaux de Bill (1944) : la fidélité qui refuse de voir",
+   "La circulation du manifeste contre Picasso : l'apostat qui brûle ce qu'il a adoré",
+   "La revente à 500 $ du tableau acheté 50 $ : l'ami qui rend son trésor"
+  ],
+  "citations": [
+   "CI-01648",
+   "CI-01915",
+   "ID-00107"
+  ],
+  "questions_ouvertes": [
+   "Date et lieu de naissance, vrai nom d'émigré (les fiches ne donnent ni l'un ni l'autre)",
+   "Sa vie conjugale précise : mariage avec la mère d'Ileana Sonnabend, autres mariages",
+   "Ses rapports directs avec Breton, Éluard, Picasso — revendiqués mais non documentés dans les fiches",
+   "Ce qu'il devient concrètement entre 1953 et sa mort en 1961 (peinture, expositions personnelles)",
+   "Sa réaction éventuelle aux séjours de de Kooning à Black Mountain et à l'après-guerre de l'Expressionnisme abstrait"
+  ]
+ }
+}

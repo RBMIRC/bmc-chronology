@@ -1,0 +1,250 @@
+{
+ "passe": "personnes",
+ "cle": "Rubye Lipsey",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 3164,
+  "sortie": 9681,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Rubye Lipsey",
+  "autres_noms": [],
+  "dates_de_vie": "Inconnues : aucune fiche ne donne sa naissance ni sa mort. La seule borne tardive est une relation avec Jack Lipsey datée d'environ 1933 à 1964 (RE-00766), dont la nature de la fin n'est pas précisée.",
+  "statut_bmc": "Personnel du collège, cuisinière avec son mari Jack, présente dès la fondation (1933). Afro-américaine, diplômée universitaire. En plus de la cuisine, elle fait de fait un travail de counseling auprès des étudiantes, autant que quiconque au collège. Très estimée, elle est tenue pour une « force considérable » du lieu.",
+  "presence": [
+   {
+    "debut": "1933",
+    "fin": "1943",
+    "role": "Cuisinière avec Jack et conseillère informelle des étudiantes. Elle encadre la cuisine dans le work program formalisé en 1936. La fin est déduite : la fiche PE-00154 dit que le couple est parti vivre à Atlanta « l'année précédente (1943) » par rapport au contexte de 1944.",
+    "refs": [
+     "PE-00154",
+     "EV-01718",
+     "EV-02211",
+     "EV-02518",
+     "EV-02012",
+     "QU-00435",
+     "RE-00766"
+    ]
+   }
+  ],
+  "portrait_physique": "Aucune description physique dans les fiches : ni âge, ni silhouette, ni vêtements. Seuls sont attestés son statut de femme noire, son niveau d'études et un tempérament décrit comme cultivé et énergique. Tout le reste est à inventer, en s'appuyant sur le cadre : une cuisine collective, une salle à manger de cafétéria, des aides, et un cottage du personnel noir plus froid que Lee Hall.",
+  "noyau_psychologique": "Attesté : une femme instruite, énergique, lucide sur les dangers. Elle sait ce que coûterait au collège, et à ceux qui y vivent, un geste qui provoquerait le village. Déduction : elle pèse chaque geste en fonction du risque réel, avec une prudence assumée (elle préfère le long terme et l'éducation des Blancs à la démonstration de principe). Elle accepte de payer un prix personnel (le froid, les rhumes) plutôt que d'attiser l'hostilité. Cette prudence n'est pas de la docilité : les sources la montrent argumentant, conseillant, écrivant de longues lettres mesurées.",
+  "blessures": "Rien n'est documenté directement. Déduction à manier avec prudence : elle vit au quotidien la ségrégation du Sud, dans un collège qui se dit progressiste mais où, selon elle, la sécurité passe avant l'égalité. Elle vit aussi l'ambivalence d'être très estimée tout en étant tenue de se faire discrète ou de s'exclure pour protéger les autres. Le précédent de l'incendie du séminaire d'Anniston, qu'elle invoque en 1944, suggère une peur intériorisée de la violence.",
+  "desirs": "Attesté ou fortement suggéré : que le collège survive et reste accepté dans la communauté locale. Elle juge l'intégration une idée « noble » mais irréaliste à court terme : il faut d'abord éduquer les Blancs, ce qui prendra des années (convictions partagées avec Jack). Déduction : elle veut aussi la sécurité de son couple et de leurs aides.",
+  "peurs": "L'hostilité du village, l'incendie criminel (EC-01932 : le séminaire d'Anniston brûlé sert de précédent), et qu'un défi direct à la ségrégation menace la sécurité du collège. Déduction : la peur de se retrouver, avec les autres Noirs du personnel, en première ligne en cas de représailles.",
+  "maniere_d_aimer": "Surtout par l'action concrète : nourrir toute la communauté et conseiller les étudiantes. Avec Jack, elle forme un couple de travail et de pensée (cuisine commune, mêmes vues sur la ségrégation). Elle protège par la lucidité plutôt que par l'effusion. Rice dit vénérer le couple. Les fiches ne donnent rien sur sa tendresse, ses enfants éventuels ou ses amitiés intimes.",
+  "rapport_au_pouvoir": "Elle n'a pas de poste d'autorité formel, mais une autorité morale et pratique reconnue : cuisine guidée avec Jack dans le work program, counseling, présence aux réunions générales où les Lipsey pèsent. Elle refuse les faveurs qui l'exposeraient (les deux chambres de Lee Hall en 1935). En 1944, son avis d'éducatrice noire est sollicité par Wunsch, qui l'utilise pour appuyer le camp de la prudence : elle est à la fois une voix écoutée et, peut-être, un argument instrumentalisé. Déduction : elle connaît les rapports de force et choisit son terrain.",
+  "voix": {
+   "registre": "À l'écrit, attesté : lettres longues et mesurées (Duberman). À l'oral, rien n'est rapporté en style direct. Déduction : un ton posé, argumenté, d'une personne cultivée qui explique plutôt qu'elle n'éclate, et qui donne le motif pratique de ses refus.",
+   "tics": "Aucun tic de langage documenté. Seule régularité : elle donne la raison concrète (l'hostilité du village) plutôt qu'un principe.",
+   "exemples_paraphrases": [
+    "Nous ne pouvons pas accepter ces chambres dans Lee Hall : cela provoquerait trop d'hostilité dans le village (paraphrase de EV-02416).",
+    "L'intégration est une belle idée, mais les Blancs doivent d'abord être éduqués, et cela prendra des années (opinion attribuée au couple, PE-00154).",
+    "Voyez ce qui est arrivé au séminaire d'Anniston, brûlé : le même danger pèse sur Black Mountain (paraphrase de EC-01932)."
+   ]
+  },
+  "habitudes": [
+   "Cuisiner chaque jour pour toute la communauté avec Jack et deux ou trois aides, en cuisine du Sud (légumes cuits dans la graisse), avec petit-déjeuner servi en cafétéria.",
+   "Superviser, avec Jack, le volet cuisine du work program (travail physique de 13h à 16h).",
+   "Conseiller les étudiantes, en plus du service.",
+   "Écrire de longues lettres pesées.",
+   "Prendre part aux grandes réunions générales."
+  ],
+  "convictions": [
+   "La ségrégation ne peut être défiée de front sans mettre le collège en danger (même position que Jack).",
+   "L'intégration est noble mais irréaliste à court terme : les Blancs doivent d'abord être éduqués, ce qui prendra des années.",
+   "Le collège fait partie de la communauté locale et doit en tenir compte.",
+   "Mieux vaut le froid que l'hostilité du village : on ne se met pas en avant (EV-02416).",
+   "Les Lipsey se rangent plutôt du côté de Booker T. Washington que de W. E. B. Du Bois (EV-01758, SC-00421)."
+  ],
+  "arc_bmc": [
+   {
+    "date": "1933",
+    "moment": "Arrivée avec Jack et prise en charge de la cuisine à la fondation ; dès novembre, le couple est très estimé dans un collège de 12 enseignants et 22 étudiants.",
+    "etat_interieur": "Déduction : confiance et énergie, la fierté d'un travail qui compte, mêlées d'une vigilance constante sur la couleur de peau dans le Sud.",
+    "refs": [
+     "PE-00154",
+     "EV-01718",
+     "EV-02211",
+     "QU-00435"
+    ]
+   },
+   {
+    "date": "1933",
+    "moment": "Réunion générale sur le visiteur noir : les Lipsey invoquent Booker T. Washington. La prudence l'emporte à contrecœur et le visiteur est logé en ville.",
+    "etat_interieur": "Déduction : sentiment aigu du risque et peut-être amertume de voir un principe sacrifié, mais conviction que c'est inévitable. La date varie : 1933 ou 1933-1934 selon les fiches.",
+    "refs": [
+     "SC-00421",
+     "EV-01758"
+    ]
+   },
+   {
+    "date": "1935",
+    "moment": "Panne de chauffage dans le cottage du personnel noir ; Anna Moellenhoff propose deux grandes chambres dans Lee Hall. Rubye refuse : cela susciterait trop d'hostilité.",
+    "etat_interieur": "Lucidité et dignité ; elle protège le collège au prix de l'inconfort (rhumes). Témoignage direct.",
+    "refs": [
+     "EV-02416",
+     "PE-00154"
+    ]
+   },
+   {
+    "date": "1936",
+    "moment": "Le work program est formalisé à Blue Ridge Assembly ; les Lipsey guident le travail de cuisine, signe d'une intégration à l'économie du collège.",
+    "etat_interieur": "Déduction : place reconnue dans la vie collective ; le travail aplatit les hiérarchies sur le papier.",
+    "refs": [
+     "EV-02518"
+    ]
+   },
+   {
+    "date": "1938",
+    "moment": "Période où Rice vénère le couple et aime Mary Barnes (arrivée en 1938) : les Lipsey sont au cœur de la vie quotidienne (thé, danses, marches).",
+    "etat_interieur": "Déduction : stabilité, estime des figures dirigeantes.",
+    "refs": [
+     "EV-02012"
+    ]
+   },
+   {
+    "date": "1943",
+    "moment": "Départ des Lipsey pour Atlanta.",
+    "etat_interieur": "Inconnu : les raisons du départ (choix, lassitude, besoin) ne sont pas dites.",
+    "refs": [
+     "PE-00154"
+    ]
+   },
+   {
+    "date": "1944",
+    "moment": "De loin, elle écrit à Wunsch à propos de l'intégration et invoque le précédent du séminaire d'Anniston incendié ; ses lettres renforcent le camp de la prudence.",
+    "etat_interieur": "Prudence maintenue, avec un rôle de conseillère extérieure ; sa voix est utilisée sans doute plus qu'elle ne le souhaite.",
+    "refs": [
+     "EV-03484",
+     "EC-01932"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "",
+    "moment": "Diplômée universitaire (établissement, discipline, lieu et année inconnus) ; mariée à Jack Lipsey avant l'arrivée au collège. Le couple vient cuisiner dès la fondation.",
+    "refs": [
+     "PE-00154",
+     "EV-01718",
+     "RE-00766"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1943",
+    "moment": "Installation à Atlanta avec Jack ; activité professionnelle inconnue.",
+    "refs": [
+     "PE-00154"
+    ]
+   },
+   {
+    "date": "1944",
+    "moment": "Lettre au sujet de l'intégration, sollicitée par Wunsch avec celle de Hurston ; elle mentionne le risque d'incendie (Anniston).",
+    "refs": [
+     "EV-03484",
+     "EC-01932"
+    ]
+   },
+   {
+    "date": "1964",
+    "moment": "Borne de la relation avec Jack dans les fiches (≈1933→1964). Nature de cette fin (décès, séparation, fin des sources) inconnue ; à n'utiliser qu'avec précaution.",
+    "refs": [
+     "RE-00766"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Jack Lipsey",
+    "nature": "Mari, collègue de cuisine ; mêmes vues prudentes sur la ségrégation.",
+    "evolution": "Couple stable de 1933 à l'Atlanta de 1943 ; la fiche RE-00766 étend la relation jusqu'à environ 1964. Rice lit l'opinion de Jack dans sa façon de tendre une assiette, alors que Rubye s'exprime par la parole et l'écrit.",
+    "refs": [
+     "RE-00766",
+     "PE-00154",
+     "EV-01718",
+     "EV-02012"
+    ]
+   },
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Recteur-fondateur qui vénère les Lipsey et compte Rubye parmi les personnes les plus importantes du collège.",
+    "evolution": "Estime attestée dans les années 1930 ; le contenu de leurs échanges n'est pas documenté.",
+    "refs": [
+     "PE-00154",
+     "EV-02012",
+     "SC-00421"
+    ]
+   },
+   {
+    "avec": "Anna Moellenhoff",
+    "nature": "Collègue qui voulait loger le personnel noir dans Lee Hall en 1935.",
+    "evolution": "Rubye refuse la proposition en expliquant l'hostilité du village ; le désaccord est cordial mais net.",
+    "refs": [
+     "EV-02416"
+    ]
+   },
+   {
+    "avec": "Les étudiantes",
+    "nature": "Counseling informel, avec une autorité morale.",
+    "evolution": "Constant dès 1933 ; aucun cas individuel n'est documenté.",
+    "refs": [
+     "EV-01718",
+     "QU-00435"
+    ]
+   },
+   {
+    "avec": "Wunsch",
+    "nature": "Il la consulte en 1944 pour prouver que le Sud n'est pas prêt.",
+    "evolution": "Il obtient d'elle (et de Hurston) les réponses qu'il cherchait, renforçant le camp de la prudence. La fiche ne dit pas si elle se sentait utilisée.",
+    "refs": [
+     "EV-03484"
+    ]
+   },
+   {
+    "avec": "Hurston",
+    "nature": "Autre correspondante noire sollicitée par Wunsch.",
+    "evolution": "Seul contact attesté : la consultation de 1944.",
+    "refs": [
+     "EV-03484"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Datation de la réunion sur le visiteur noir : EV-01758 et SC-00421 disent ≈1933→1934, tandis qu'EV-02416 parle de « deux ans » avant 1935, soit 1933.",
+   "La prudence est attribuée tantôt aux Lipsey comme couple plus proche de Booker T. Washington (EV-01758), tantôt à Jack et Rubye avec les mêmes vues (PE-00154) : on ne sait pas ce qui vient d'elle seule.",
+   "Rôle dans la cuisine : Jack est présenté comme le cuisinier aidé de sa femme (EV-01718), alors qu'ailleurs ils sont les cuisiniers (EV-02518, PE-00154), ce qui laisse flou le partage des tâches et du prestige.",
+   "Hiérarchie de l'estime de Rice : Rubye est comptée parmi les plus importantes (PE-00154) ; Mary Barnes est « la femme la plus importante du lieu » (EV-02012) ; les deux jugements coexistent sans être rapprochés.",
+   "Ses dates de présence : PE-00154 donne 1933 à 1943 par déduction, RE-00766 étend la relation jusqu'en 1964 ; EV-03484 la montre active en 1944 depuis Atlanta, alors que PE-00154 indique le départ de 1943."
+  ],
+  "situations_revelatrices": [
+   "Une réunion générale où il faut choisir entre principe et sécurité ; elle argumente calmement, sans emphase.",
+   "Un refus de faveur : une proposition généreuse d'un collègue blanc qu'elle décline pour une raison pratique.",
+   "Une nuit froide au cottage avec le chauffage en panne, où se joue le prix de la prudence.",
+   "Le counseling : une étudiante vient lui confier un problème dans la cuisine, loin de l'autorité académique.",
+   "L'écriture d'une longue lettre sur l'intégration, sollicitée par quelqu'un qui connaît déjà la réponse qu'il veut.",
+   "Le départ pour Atlanta : adieux ou non-dits à la cuisine."
+  ],
+  "citations": [
+   "EV-02416 — Rubye explique que loger les Noirs dans Lee Hall susciterait trop d'hostilité dans le village (témoignage direct, Duberman).",
+   "SC-00421 / EV-01758 — Les Lipsey invoquent Booker T. Washington ; un étudiant dira plus tard que « les temps étaient différents ».",
+   "EV-03484 — Wunsch cite les lettres de Hurston et de Rubye Lipsey pour prouver que le Sud n'est pas prêt.",
+   "EC-01932 — Rubye invoque le séminaire d'Anniston incendié comme précédent.",
+   "PE-00154 — Lettres longues et mesurées ; opinion prudente sur la ségrégation, noble mais irréaliste."
+  ],
+  "questions_ouvertes": [
+   "Où et dans quelle discipline a-t-elle étudié ? Quel âge a-t-elle ? D'où vient-elle ?",
+   "A-t-elle des enfants, de la famille, des amis noirs hors du collège ?",
+   "Qui était le visiteur noir de 1933 et a-t-elle parlé à la réunion ?",
+   "Pourquoi Atlanta en 1943, et que devient-elle ensuite ? Revient-elle au collège ?",
+   "Que contiennent exactement ses lettres de 1944 ? Pensait-elle ce qu'elle écrivait ou répondait-elle aux attentes de Wunsch ?",
+   "Qu'est-ce qui se joue entre elle et Rice, et comment parlait-elle des étudiantes ?",
+   "Qui de Jack ou de Rubye a l'initiative dans les choix politiques du couple ?",
+   "Que signifie la borne de 1964 pour Jack et Rubye ?"
+  ]
+ }
+}

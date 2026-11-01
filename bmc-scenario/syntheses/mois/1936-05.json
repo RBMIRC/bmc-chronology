@@ -1,0 +1,324 @@
+{
+ "passe": "mois",
+ "cle": "1936-05",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 6410,
+  "sortie": 17025,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1936-05",
+  "session": "Fin de l'année universitaire, avant la session d'été (déduit : les fiches ne documentent pas la session de mai, mais précisent que Van Middlesworth dirige les sessions d'été de juin à août)",
+  "saison_et_climat": "Printemps. Les fiches ne décrivent pas le climat du collège en mai. Le vent de mai et la colle qui vole relèvent du texte Goodman, situé ailleurs, et ne sont pas utilisés ici.",
+  "situation": "Le collège vit encore de la querelle ouverte par la visite d'Adamic. L'article Adamic-Rice paru dans Harper's en avril, flanqué de la réplique de DeVoto, continue de faire polémique jusqu'en mai, et le courrier reçoit 40 à 50 lettres par jour. En avril, le Board a voté par 5 voix contre 2 un message de pessimisme à Knickerbocker et Goldenson, qui annoncent leur retour à l'automne pour leur « année de grâce ». Rice reste la figure visible de la controverse. Les Albers se préparent vraisemblablement à partir pour le Mexique en juin (déduit).",
+  "presents_probables": [
+   {
+    "nom": "Rice",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Wunsch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Knickerbocker",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Goldenson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Evarts",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Sly",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Joe Martin",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Georgia",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Hendrickson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Zeuch",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Barber",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Nat French",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Van Middlesworth",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Alice",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Parution dans Harper's de l'article sur le collège, suivi de la réplique de DeVoto qui compare le lieu à un sanatorium d'amateurs ; défense de Gannett, Anderson (« le sonnet ou le bain ») et Adamic ; DeVoto réplique avec fureur de mars à mai",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02583",
+     "EV-02578"
+    ]
+   },
+   {
+    "date": "1936-05",
+    "precision": "mois",
+    "ce_qui_arrive": "Le courrier reçu à propos de l'article atteint 40 à 50 lettres par jour, et la polémique se prolonge",
+    "certitude": "probable",
+    "refs": [
+     "EV-02581",
+     "EV-02593",
+     "CI-01365"
+    ]
+   },
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Board vote par 5 voix contre 2 (Georgia et Martin dissidents) un message de pessimisme à Knickerbocker et Goldenson sur leur avenir d'enseignants ; le texte est ambigu",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02584",
+     "EV-02580"
+    ]
+   },
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Scène du jardin : Rice bêche les pommes de terre et fait semblant de ne pas savoir que Knickerbocker se croit renvoyé ; Knickerbocker et Goldenson annoncent leur retour à l'automne pour leur « année de grâce »",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02584",
+     "EV-02580"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Des factions étudiantes se forment autour de Rice et de Knickerbocker",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02553"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Visite de Walter Locke : Rice hausse les épaules devant la question de l'« intrigant »",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02548"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Rice propose, un soir, de « fermer le collège » (date non fixée dans l'année)",
+    "certitude": "probable",
+    "refs": [
+     "EV-02549"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Le Board décide de ne pas joindre de tirés à part au catalogue, par discrétion publicitaire (date non fixée ; la source la place après la page du New York Times, donc probablement en juin)",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02498"
+    ]
+   }
+  ],
+  "quotidien": "Le mois est dominé par le courrier (40 à 50 lettres par jour), par la lecture et la réponse aux articles, et par les conversations de couloir et de jardin autour de Rice, Knickerbocker et Goldenson. Les factions étudiantes se forment. La préparation de la session d'été et des admissions (Alice admise de justesse, plus tard) est probable mais non datée. Les repas, la musique et le détail des cours ne sont documentés nulle part pour ce mois.",
+  "tensions": [
+   "Rice contre Knickerbocker et Goldenson : l'avenir de deux enseignants, et le sens ambigu du message du Board",
+   "Un Board divisé, avec Georgia et Martin dissidents",
+   "Un collège devenu objet de scandale public, attaqué par DeVoto et pris dans un flot de lettres",
+   "Albers en colère après le canular de février, et sollicité par Harvard (Hudnut) sans accord",
+   "La querelle sur le portrait de Rice en sauveur et sur le ghost-writing (Zeuch)",
+   "Des factions étudiantes qui se rangent derrière Rice ou derrière Knickerbocker"
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le jardin des pommes de terre",
+    "date": "1936-04",
+    "lieu": "jardin du collège",
+    "personnages": [
+     "Rice",
+     "Knickerbocker"
+    ],
+    "deroule": "Knickerbocker se dit renvoyé ; Rice bêche les pommes de terre et fait semblant de ne pas comprendre. L'ambiguïté du message du Board nourrit l'échange.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02584",
+     "EV-02580"
+    ]
+   },
+   {
+    "titre": "Le courrier de Harper's",
+    "date": "1936-05",
+    "lieu": "bureau du courrier du collège",
+    "personnages": [
+     "Rice"
+    ],
+    "deroule": "Les lettres s'accumulent, 40 à 50 par jour, pour ou contre le collège. L'article a dépassé le cercle de la communauté, et la lecture du courrier devient une épreuve quotidienne.",
+    "certitude": "probable",
+    "refs": [
+     "EV-02581",
+     "EV-02593",
+     "CI-01365"
+    ]
+   },
+   {
+    "titre": "La lettre de pessimisme du Board",
+    "date": "1936-04",
+    "lieu": "salle du Board",
+    "personnages": [
+     "Board of Fellows",
+     "Knickerbocker",
+     "Goldenson",
+     "Georgia",
+     "Joe Martin"
+    ],
+    "deroule": "Le vote passe 5 voix contre 2. Le texte est ambigu. Knickerbocker et Goldenson répondent qu'ils reviendront à l'automne pour leur « année de grâce ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02584",
+     "EV-02580"
+    ]
+   },
+   {
+    "titre": "La réplique de DeVoto",
+    "date": "1936-04",
+    "lieu": "pages de Harper's",
+    "personnages": [
+     "DeVoto",
+     "Gannett",
+     "Anderson",
+     "Adamic"
+    ],
+    "deroule": "DeVoto compare le collège à un sanatorium d'amateurs. Anderson répond par « le sonnet ou le bain », Gannett et Adamic défendent le collège, et DeVoto réplique avec fureur.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02583",
+     "EV-02578"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "En mai, la mémoire des débats de la conférence d'Adamic nourrit les rancunes contre le portrait de Rice",
+    "vers_date": "1936-02",
+    "vers": "Lecture par Adamic de « Education on a Mountain » : la première partie passe bien, puis le portrait de Rice en chef et sauveur déclenche un procès mené par Joe Martin, Evarts, Hendrickson, Barber et Nat French. Wunsch défend Rice, Goldenson lance son « Socrate rude » et Zeuch dénonce le ghost-writing. Rice avoue son impatience et sa faim de reconnaissance. Les sources datent la soirée de février ou de mars.",
+    "refs": [
+     "EV-02550",
+     "EV-02576",
+     "EV-02577",
+     "SC-00657"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "En mai, le souvenir de la farce qui circule encore dans le collège",
+    "vers_date": "1936-02-04",
+    "vers": "Nuit du 4 au 5 février : Evarts et Sly remplacent le Mondrian de Morton Steinau par une planche de toile cirée rayée. Albers, furieux, annonce une valeur de 50 000 dollars, qu'Anni ramène à un chiffre moindre. Assemblée, fouille, remise en place en quelques heures. Les farceurs ne se dénoncent jamais.",
+    "refs": [
+     "EV-02573",
+     "SC-00656"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "En mai, à l'heure où Rice est devenu le visage public du collège",
+    "vers_date": "1936-01",
+    "vers": "Arrivée d'Adamic et de Stella, danseuse, pour une visite d'un après-midi qui dure deux à trois mois selon les sources. Adamic « éponge » les étudiants et Rice, qui expose sa doctrine : enseigner la méthode, non le contenu. À la fin du mois, une interview de Rice dans le New York Herald Tribune paraît suffisante et dénigrante, et Evarts note que beaucoup en sont écœurés.",
+    "refs": [
+     "EV-02547",
+     "CI-01337",
+     "EV-02567",
+     "EV-02570"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin mai, au moment où la polémique de presse dure encore",
+    "vers_date": "1936-06",
+    "vers": "Assemblée générale de début juin : 14 professeurs sur 15 et 42 étudiants sur 49 prennent la parole, et un débat porte sur la différence entre règles et « accords ». Une page photo du New York Times paraît, qui provoque 50 à 55 lettres la première semaine ; Van Middlesworth la juge « horrible, mensongère ».",
+    "refs": [
+     "EV-02591",
+     "EV-02592",
+     "EV-02581",
+     "EV-02593",
+     "CI-01365"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin mai, à la veille du départ de Josef et Anni Albers",
+    "vers_date": "1936-06",
+    "vers": "Les Albers repartent au Mexique pour trois mois. Josef peint onze à douze huiles, aujourd'hui perdues, expose Clave de sol et des gravures au hall d'El Nacional, et le journal le salue comme « l'un des fondateurs de l'abstraction ». Anni tisse Ancient Writing et Monte Alban, signés pour la première fois « AA ». À Black Mountain, Van Middlesworth dirige les sessions d'été.",
+    "refs": [
+     "EV-02595",
+     "EV-02597",
+     "CF-00256",
+     "EV-02485",
+     "EV-02598",
+     "EV-02599"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Fin mai, quand les promesses d'une « année de grâce » font espérer un retour",
+    "vers_date": "1936-10",
+    "vers": "À la rentrée, une résolution de non-réappointement est votée six semaines après la rentrée (Duberman) ou après Thanksgiving (Chaddock) ; les deux datations ne se concilient pas sauf à supposer deux votes. Zeuch exige une réunion de faculté nocturne, l'appel est rejeté le 7 décembre, la démission de Goldenson est autorisée, et Zeuch parle de « début de la fin ».",
+    "refs": [
+     "EV-02609",
+     "EV-02619",
+     "EV-02610",
+     "EV-02629",
+     "EV-02622",
+     "CI-01387"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le canular contre l'autorité : le faux Mondrian et la fureur d'Albers",
+   "Le pouvoir de Rice et le ghost-writing",
+   "La presse comme arène : Harper's, DeVoto, New York Times, courrier",
+   "La démission et le renvoi comme armes du Board",
+   "La méthode contre le contenu, et le désaccord sur le « professeur démocratique »",
+   "Le jardin comme lieu de malentendu"
+  ],
+  "lacunes": "Les fiches EV-02585 à EV-02587, SC-00659 et SC-00660, ainsi que EC-01545 à EC-01548, datées du 9 mai 1936, viennent de Goodman Reader 2011. Elles décrivent des panneaux publicitaires et un voisinage dans un lieu non identifié, avec l'année écrite « 19— ». Rien ne les rattache au collège : je ne les ai pas utilisées comme scènes ni comme présences. Les sources se contredisent sur la date de la soirée Adamic (février ou mars), sur la date de la résolution (six semaines après la rentrée ou après Thanksgiving) et sur la distance des voyages mexicains. La session exacte de mai n'est pas documentée, la présence effective des professeurs en mai n'est pas attestée, et la vie quotidienne (repas, musique, cours) reste inconnue. La date du refus des tirés à part est indéterminée."
+ }
+}

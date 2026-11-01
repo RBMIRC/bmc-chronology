@@ -1,0 +1,331 @@
+{
+ "passe": "personnes",
+ "cle": "Louis Adamic",
+ "modele": "glm-5.2",
+ "usage": {
+  "entree": 12788,
+  "sortie": 4171,
+  "cache_lu": 1920,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Louis Adamic",
+  "autres_noms": [],
+  "dates_de_vie": "1899-1951 (attesté par sa mort à 52 ans en septembre 1951)",
+  "statut_bmc": "Écrivain et journaliste yougoslave (tchéco-américain selon une fiche) naturalisé américain, ancien boursier Guggenheim, devenu premier chroniqueur et « champion utopique » du collège ; visiteur de longue durée, jamais membre du corps enseignant",
+  "presence": [
+   {
+    "debut": "1935",
+    "fin": "1935",
+    "precision": "annee",
+    "role": "Premier séjour rapporté (durées divergentes selon les sources : deux mois et demi à trois mois), avec ou sans Stella selon les versions ; origine des conversations publiées dans « The Long Road » (My America, 1938)",
+    "refs": [
+     "EV-02382",
+     "EV-02443",
+     "SC-00621"
+    ]
+   },
+   {
+    "debut": "1936-01",
+    "fin": "1936-04",
+    "precision": "mois",
+    "role": "Second séjour avec Stella, danseuse, d'abord prévu pour deux ou trois jours (ou un après-midi selon Chaddock), étiré à près de deux/trois mois ; écrit « Education on a Mountain », lit le brouillon en réunion de communauté en février-mars, départ lié à la publication dans Harper's (avril 1936)",
+    "refs": [
+     "EV-02566",
+     "EV-02568",
+     "EV-02550",
+     "SC-00652",
+     "SC-00657"
+    ]
+   },
+   {
+    "debut": "1937",
+    "fin": "1937",
+    "precision": "saison",
+    "role": "Retour à l'automne 1937 ; correspondant de Rice et Mangold pendant la crise interne",
+    "refs": [
+     "EV-02635",
+     "EV-02712"
+    ]
+   }
+  ],
+  "portrait_physique": "Non décrit physiquement dans les fiches ; trait distinctif : bègue qui refuse de bégayer, serre et grince des dents pour arracher les mots un à un — donnée corporelle majeure pour un acteur",
+  "noyau_psychologique": "Immigrant slave devenu observateur ardent de l'Amérique, il est animé par un amour dispersé de l'humanité et une faim d'utopies concrètes. Enthousiaste, effusif, il absorbe tout (« il était une éponge et nous l'eau ») puis restitue avec excès. Violent dans la dispute et jaloux de son amour-propre dans l'argument, il transforme chaque rencontre en adoration ou en polémique, sans demi-mesure.",
+  "blessures": "Le bégaiement combattu corps à corps, symptôme d'une tension permanente entre impulsion et maîtrise de soi ; condition d'immigré qui le rend hypersensible aux questions d'appartenance et de reconnaissance",
+  "desirs": "Faire connaître ce qu'il aime (Black Mountain, Rice) au plus grand nombre ; voir l'éducation vécue plutôt qu'« obtenue » ; fuir le tempo et la confusion de New York pour une forme pastorale de communauté",
+  "peurs": "Peu visibles dans les fiches : on note seulement l'absence de stress apparent malgré un livre en chantier — déduction possible d'un déni ou d'une sérénité affichée",
+  "maniere_d_aimer": "Par dévotion totale et publicitaire : il aime en écrivant, en érigeant l'être aimé en héros (Rice « l'un des grands enseignants de tous les temps ») ; dans le couple, complicité nocturne rythmée avec Stella (le kiosque de 23 h)",
+  "rapport_au_pouvoir": "Ambivalent : il déteste le pouvoir mal employé (DeVoto « incarne ce qui ne va pas dans le monde ») mais son adulation crée du pouvoir — elle fait de Rice le héros public du collège et déclenche la crise de 1936. Il admire la « group influence » comme force sans malice qui fait renaître les individus",
+  "voix": {
+   "registre": "Véhément, effusif, mordant ; passe de l'extase descriptive à la polémique coupante ; politesse hachée, mot à mot, quand il est en colère",
+   "tics": "Grince des dents pour forcer les mots ; arrache chaque syllabe plutôt que de bégayer ; hyperboles élogieuses (« gomme sur toutes les pages »)",
+   "exemples_paraphrases": [
+    "Le roi Édouard VIII ? Un damné imbécile, craché en grinçant des dents",
+    "Rice est peut-être l'un des plus grands enseignants de tous les temps, et intensément humain",
+    "À Black Mountain, pas de bourrage de crâne : l'éducation y engage la personne entière",
+    "Un sourcil qui se lève est pour eux une phrase entière",
+    "DeVoto, ce type, résume à lui seul tout ce qui cloche dans l'éducation et le monde",
+    "Ne sont-ils pas des élus, ces étudiants qui ont tourné le dos à Harvard et Vassar ?"
+   ]
+  },
+  "habitudes": [
+   "À New York, incapable d'attendre le matin : sortie vers 23 h avec Stella (et Rice) au kiosque de journaux le plus proche, pour le premier journal de la crise, suivie de disputes quasi quotidiennes",
+   "Correspondance abondante avec Rice et Mangold",
+   "Absorbe tout ce qu'il observe avant d'écrire"
+  ],
+  "convictions": [
+   "L'éducation doit être vécue et éprouvée, non « obtenue » ni bourrée dans les crânes",
+   "L'imagination est la distinction majeure de l'homme, négligée partout ailleurs ; méthode contre contenu, processus contre résultats",
+   "Black Mountain est indescriptible : il faut le vivre",
+   "La « group influence », née accidentellement de la vie communautaire, force l'individu, sans malice, à brûler son faux moi et à renaître ; personne n'est là pour le protéger",
+   "Rice est un enseignant né, immense ; Wunsch est passionnément dévoué à l'influence du groupe, psychologue instinctif précieux malgré une apparence moins brillante que Rice ou Albers",
+   "Sympathie ultérieure pour Tito"
+  ],
+  "arc_bmc": [
+   {
+    "date": "1935",
+    "precision": "annee",
+    "moment": "En road-trip pastoral pour fuir New York, poussé par Henry Allen Moe de la fondation Guggenheim, il arrive au collège ; un dîner qui se prolonge passé minuit transforme une visite de quelques jours en séjour de deux mois et demi",
+    "etat_interieur": "Enchanté, euphorique — le lieu le saisit immédiatement",
+    "refs": [
+     "EV-02382",
+     "SC-00621",
+     "EV-02443"
+    ]
+   },
+   {
+    "date": "1935",
+    "precision": "annee",
+    "moment": "Observe le séminaire d'écriture de Rice et la vie communautaire ; juge certains textes étudiants « définitivement publiables » ; recueille la pédagogie de Rice (méthode contre contenu)",
+    "etat_interieur": "Absorption totale — il devient « une éponge »",
+    "refs": [
+     "SC-00595",
+     "EV-02298",
+     "EV-02383"
+    ]
+   },
+   {
+    "date": "1936-01",
+    "precision": "mois",
+    "moment": "Revient avec Stella pour deux ou trois jours, reste près de deux-trois mois ; décide d'écrire l'article pour Harper's, Rice développant longuement ses idées pour lui",
+    "etat_interieur": "Dévotion croissante envers le lieu et surtout Rice",
+    "refs": [
+     "EV-02566",
+     "EV-02568",
+     "EV-02547"
+    ]
+   },
+   {
+    "date": "1936-02",
+    "precision": "mois",
+    "moment": "Lit son brouillon en réunion communautaire ; l'éloge de Rice (« idéaliste-optimiste ») déclenche les premières critiques ouvertes contre le fondateur",
+    "etat_interieur": "Probablement pris de court : son enthousiasme devient explosif social",
+    "refs": [
+     "EV-02550",
+     "EV-02571",
+     "SC-00652"
+    ]
+   },
+   {
+    "date": "1936-03",
+    "precision": "mois",
+    "moment": "Nouvelle lecture mot à mot devant la communauté ; silence total, puis procès de Rice en pleine nuit (Barber, Martin, Evarts…) ; Adamic interpelle Rice lui-même",
+    "etat_interieur": "Au centre d'une tempête qu'il a écrite",
+    "refs": [
+     "SC-00657",
+     "EV-02576",
+     "EV-02577"
+    ]
+   },
+   {
+    "date": "1936-04",
+    "precision": "mois",
+    "moment": "Publication de « Education on a Mountain » dans Harper's : 40-50 lettres par jour pour le collège, condensé dans Reader's Digest, puis polémique DeVoto qu'Adamic trouve « une scream » tout en condamnant son auteur",
+    "etat_interieur": "Triomphe public mêlé de controverse nationale",
+    "refs": [
+     "EV-02581",
+     "EV-02579",
+     "EV-02583",
+     "EV-02578"
+    ]
+   },
+   {
+    "date": "1937",
+    "precision": "saison",
+    "moment": "Retour à l'automne 1937 ; Rice lui écrit le 20 septembre que l'année commence bien et qu'il a savouré les absences",
+    "etat_interieur": "Fidèle au lieu, dans l'amitié de Rice",
+    "refs": [
+     "EV-02635",
+     "EV-02734",
+     "EV-02712"
+    ]
+   }
+  ],
+  "avant": [
+   {
+    "date": "1899",
+    "precision": "annee",
+    "moment": "Naissance en Yougoslavie (fiche PE-00047, sans date précise) — déduit de sa mort à 52 ans en 1951",
+    "refs": [
+     "EV-05558"
+    ]
+   },
+   {
+    "date": "1932",
+    "precision": "annee",
+    "moment": "Boursier Guggenheim ; The Native's Return (1934) le rend célèbre et, par l'intermédiaire de Henry Allen Moe, le conduit vers Black Mountain",
+    "refs": [
+     "PE-00047",
+     "EV-02568",
+     "OE-01070"
+    ]
+   },
+   {
+    "date": "1930",
+    "precision": "periode",
+    "moment": "Amitié new-yorkaise avec Rice : sorties nocturnes au kiosque et disputes véhémentes quasi quotidiennes, dont la nuit de la crise de l'abdication d'Édouard VIII (« the damned fool » ; « j'envie quiconque peut aimer autant »)",
+    "refs": [
+     "RE-00582",
+     "EV-01680",
+     "SC-00635",
+     "SC-00636"
+    ]
+   }
+  ],
+  "apres": [
+   {
+    "date": "1938",
+    "precision": "annee",
+    "moment": "Publication de My America (Harper), avec « The Long Road », version révisée de l'article — quatorze livres au total, direction de Common Ground et de la série Peoples of America",
+    "refs": [
+     "PE-00047",
+     "OE-01354",
+     "OE-01199"
+    ]
+   },
+   {
+    "date": "1939",
+    "precision": "annee",
+    "moment": "Avec Stella, il héberge Rice à Milford (New Jersey), l'encourage vers l'autobiographie et l'introduit chez Harper and Brothers (contrat d'octobre 1939)",
+    "refs": [
+     "RE-01133",
+     "EV-02834",
+     "EV-02956"
+    ]
+   },
+   {
+    "date": "1943",
+    "precision": "annee",
+    "moment": "My America continue à recruter pour le collège : Lorrie Goulet s'inscrit après l'avoir lu",
+    "refs": [
+     "EV-03352",
+     "OE-01636"
+    ]
+   },
+   {
+    "date": "1948",
+    "precision": "annee",
+    "moment": "Enquêté par le HUAC pour ses associations de gauche",
+    "refs": [
+     "EV-05558"
+    ]
+   },
+   {
+    "date": "1951-09",
+    "precision": "mois",
+    "moment": "Trouvé mort d'une balle dans sa ferme du New Jersey pendant l'absence de Stella ; la ferme brûle à peu près au moment du décès ; verdict officiel de suicide, contesté par Rice et de nombreux amis qui y voient un crime ; Rice, devasté, garde la conviction du meurtre",
+    "etat_interieur": "Mystère final : pas de note, pas de mobile clair",
+    "refs": [
+     "SC-01470",
+     "EV-05558",
+     "RE-00689"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "John Andrew Rice",
+    "nature": "Amitié orageuse, admiration mutuelle, mentorat croisé",
+    "evolution": "Disputes nocturnes new-yorkaises → adoration pendant les séjours de 1935-1936 (Rice « ghost-écrit » en partie l'article selon Zeuch) → correspondance pendant la crise de 1937 → refuge et encouragement littéraire à Milford (1938-1940) → contacts espacés → deuil et conviction du meurtre en 1951",
+    "refs": [
+     "RE-00582",
+     "RE-00608",
+     "RE-00991",
+     "RE-01133",
+     "RE-00689",
+     "EV-02956"
+    ]
+   },
+   {
+    "avec": "Stella Adamic",
+    "nature": " Couple ; complices des sorties nocturnes",
+    "evolution": "Présente à Black Mountain en 1936 ; elle approuve l'envie d'aimer du roi contre le jugement de Louis ; absente de la ville lors de sa mort",
+    "refs": [
+     "SC-00636",
+     "EV-02568",
+     "SC-01470"
+    ]
+   },
+   {
+    "avec": "Bernard De Voto",
+    "nature": "Polémique publique dans Harper's (1936-1945)",
+    "evolution": "DeVoto compare BMC à une phalange fouriériste et à un « sanatorium pour maladies mentales tenu par des amateurs » ; Adamic le tient pour l'incarnation de ce qui ne va pas dans le monde, tout en trouvant l'attaque « une scream »",
+    "refs": [
+     "RE-01004",
+     "RE-01005",
+     "EV-01707",
+     "EV-02583"
+    ]
+   },
+   {
+    "avec": "Robert Wunsch",
+    "nature": "Admiratif",
+    "evolution": "Le décrit comme passionnément dévoué à la group influence, psychologue instinctif « immensément précieux », malgré une apparence moins brillante que Rice ou Albers",
+    "refs": [
+     "RE-00649"
+    ]
+   },
+   {
+    "avec": "Josef Albers",
+    "nature": "Observation admirative indirecte",
+    "evolution": "Assiste aux cours d'Albers, décrits comme les plus dramatiques du collège avec ceux de Rice",
+    "refs": [
+     "SC-00486",
+     "EV-02550"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Durée et dates du premier séjour : trois mois en 1935 (EV-02382) contre près de deux mois (EV-02443) ; certaines fiches datent tout du séjour janvier-avril 1936 (EV-02566) — les sources semblent fusionner un ou deux séjours (1935 et/ou 1936)",
+   "Une fiche signale une première visite dès la fin 1933 (SC-00542, EV-02149), incompatible avec les chronologies centrées sur 1935-1936",
+   "Origine : « écrivain tchéco-américain » (PE-00047) contre « né en Yougoslavie » / « écrivain yougoslave » (EV-02568) — à éclaircir",
+   "Ghost-writing de Rice contesté : Zeuch parle d'un « secret ouvert » (SC-00652), Rice le laisse entendre sans le confirmer pleinement",
+   "L'article, nourri par Rice selon plusieurs sources, produit des effets contradictoires : publicité et afflux de candidatures d'un côté, cristallisation des antagonismes contre Rice de l'autre"
+  ],
+  "situations_revelatrices": [
+   "La table de la salle à manger qui se prolonge passé minuit : le visiteur pressé qui reste deux mois et demi",
+   "La lecture publique de son propre texte : l'écrivain découvrant que son enthousiasme devient une arme contre son héros",
+   "Le kiosque de 23 h pendant la crise de l'abdication : morale publique furieuse contre tendresse privée, mots arrachés en grinçant des dents",
+   "La réponse à DeVoto : défendre ce qu'on aime avec véhémence et un rien de dérision",
+   "La ferme en flammes du New Jersey : solitude finale de l'enthousiaste, entre suicide officiel et meurtre soupçonné"
+  ],
+  "citations": [
+   "CI-01004",
+   "CI-01007",
+   "CI-01285",
+   "CI-01336",
+   "CI-01339",
+   "CI-01356",
+   "CI-01357",
+   "CI-01358",
+   "CI-01359"
+  ],
+  "questions_ouvertes": [
+   "Le récit des sorties nocturnes (Lane 1990) est un témoignage direct de « l'auteur » — probablement Rice lui-même ; qui parle exactement et quelle part d'autofiction ?",
+   "Circonstances exactes de la mort : suicide, accident ou assassinat lié au HUAC et à la sympathie pour Tito ?",
+   "Dates et circonstances de l'arrivée aux États-Unis, du mariage avec Stella, de la naturalisation",
+   "Contenu précis de sa correspondance avec Mangold pendant la crise de 1937",
+   "La visite de fin 1933 (SC-00542) est-elle une erreur de datation ou un tout premier contact ?"
+  ]
+ }
+}

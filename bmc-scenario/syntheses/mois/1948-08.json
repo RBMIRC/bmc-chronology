@@ -1,0 +1,579 @@
+{
+ "passe": "mois",
+ "cle": "1948-08",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 16490,
+  "sortie": 20280,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1948-08",
+  "session": "Session d'été (juillet–août 1948), dans ses dernières semaines : point d'orgue le 14 août avec Le Piège de Méduse, puis clôture avant la rentrée de septembre.",
+  "saison_et_climat": "Plein été dans les montagnes de Caroline du Nord : nuits étoilées et clair de lune, marches sur la route. Au moins une averse fait s'effondrer le dôme de Fuller (date du jour non précisée). Les fiches ne décrivent pas la chaleur.",
+  "situation": "Le collège clôt sa session d'été dans l'éclat du spectacle, mais la crise institutionnelle se joue en coulisses. Après la représentation, les Levi partent pour l'Europe. Rondthaler démissionne comme trésorier. Dreier annonce qu'il ne veut plus être recteur et envoie sa démission le 31 août. Albers est élu recteur sans opposition lors d'une séance « animée et non concluante ». Les étudiants d'été repartent, les enseignants d'été rentrent, et la rentrée de septembre s'annonce difficile. La plupart des étudiants et des invités ignorent ce qui se trame, sauf Fuller, à qui Dreier s'est confié.",
+  "presents_probables": [
+   {
+    "nom": "Elaine de Kooning",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Willem « Bill » de Kooning",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Buckminster Fuller",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "John Cage",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Merce Cunningham",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Trude Guermonprez",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Caroline Richards",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Arthur Penn",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Helen Livingston",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Mary Outten",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Schrager",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Erwin Bodky",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Charles Burchard",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Theodore Dreier",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Rondthaler",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Levi (couple, prénom non donné)",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Dehn",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Louise Lippold",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Sara Hamill",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Beaumont Newhall",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Isaac Rosenfeld",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Edgar Kaufmann Jr.",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Peter Grippe",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Richard Lischer",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Pat Passlof",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Droll",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ruth Asawa",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kenneth Noland",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Ray Johnson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Kenneth Snelson",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1948-08-14",
+    "precision": "jour",
+    "ce_qui_arrive": "Représentation du Piège de Méduse de Satie dans la salle à manger, faute de théâtre : Fuller en baron, Elaine en Frisette, Cunningham en singe mécanique, Penn à la mise en scène, Cage au piano désaccordé. C'est le sommet de l'été.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04547",
+     "EV-04557",
+     "EV-04548"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "periode",
+    "ce_qui_arrive": "Répétitions sous la direction de Penn : Fuller coaché pour ne pas se ridiculiser, Elaine guidée vers une démarche « pigeonnante », Bill fabrique le faux marbre du décor, Mary Outten coud les costumes.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04548",
+     "EC-02369"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "periode",
+    "ce_qui_arrive": "Les Levi, revenus brièvement pour la représentation, quittent le collège pour l'Europe sans savoir s'ils reviendront.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04551",
+     "EV-04552"
+    ]
+   },
+   {
+    "date": "1948-08-27",
+    "precision": "jour",
+    "ce_qui_arrive": "Réunions de faculté des 27 et 28 août : Albers évoque une aide extérieure (promesse de 2 000 dollars) et un institut d'art pour l'été suivant avec « un grand nombre d'étudiants ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04558"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "periode",
+    "ce_qui_arrive": "Fin août : Rondthaler démissionne comme trésorier, Dreier déclare ne plus vouloir être recteur, Dehn propose Albers, qui est élu sans opposition. Albers pose ses conditions : faculté restreinte, nouveaux enseignants « visiting teachers » sans vote pendant deux ans, et Dreier doit rester. Les minutes disent « spirited and inconclusive ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04552",
+     "EV-04558"
+    ]
+   },
+   {
+    "date": "1948-08-31",
+    "precision": "jour",
+    "ce_qui_arrive": "Dreier écrit aux Gropius que « le dé est jeté » et envoie sa démission, en copie aux Gropius. Il reste un temps pour la transition vers Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04559",
+     "EV-04560",
+     "SC-01187"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "periode",
+    "ce_qui_arrive": "En fin d'été, Albers reproche à de Kooning l'influence qu'il a eue sur ses étudiants : six des dix quittent le collège pour New York en septembre. De Kooning assume : il leur a conseillé de quitter l'école, prendre un studio et peindre. Albers ne lui en tient pas rigueur. Les versions diffèrent sur les mots, pas sur le fond.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04550",
+     "EV-04553",
+     "EV-04555"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "periode",
+    "ce_qui_arrive": "Fin d'été : deux enseignants d'été déçus se plaignent du sérieux des étudiants et se sentent moniteurs de colonie. Le peintre rétorque « I'm neurotic too » et compare avec New York, où l'hostilité est filtrée.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04549",
+     "SC-01185"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Le dôme géodésique en lattes de stores, sous-dimensionné, s'affaisse sous la pluie devant tout le campus, qui vient se moquer. On le surnomme Supine Dome.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01186",
+     "EC-02379"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Bill achève « Asheville », sa peinture unique de l'été. Elaine repart avec un rouleau de peintures à l'émail sur papier kraft.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04556",
+     "EV-04542",
+     "EV-04527"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "mois",
+    "ce_qui_arrive": "Le Museum of Modern Art achète Painting pour 750 dollars, quatre mois après la fermeture de l'exposition Egan. Source divergente : une autre version date l'achat d'octobre.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04546",
+     "EC-02355"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "periode",
+    "ce_qui_arrive": "Un bal final dans l'été, où Elaine valse avec Fuller, qui lui glisse un compliment sur sa « performance per ounce ». Les fêtes se multiplient : cocktails dans les studios, soirées dans les cottages.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04543"
+    ]
+   },
+   {
+    "date": "1948-08",
+    "precision": "periode",
+    "ce_qui_arrive": "Dans l'été, la nouvelle de la mort de Gorky parvient à de Kooning. La date exacte n'est pas donnée.",
+    "certitude": "atteste",
+    "refs": [
+     "EC-02353"
+    ]
+   }
+  ],
+  "quotidien": "Après le petit-déjeuner, Bill rejoint sa dizaine d'étudiants. Elaine suit le cours de danse de Cunningham de 8 h à 10 h, puis, certains matins, le cours de couleur d'Albers de 10 h à midi. Elle imite « Juppy » devant Bill le soir, surnom donné par Anni Albers. Cage et Fuller prennent leur petit-déjeuner ensemble chaque jour et rêvent d'une « finishing school ». Fuller dort par siestes de deux heures toutes les six heures et parle le reste du temps. Les conférences du soir, habillées, durent parfois quatre à cinq heures, avec, à mi-parcours, les tables de figures géométriques de Fuller. Cage donne une série de concerts Satie, avec causeries. Les repas se prennent à la cloche, la nourriture est indigente. Le soir, bals, cocktails, marches nocturnes. Bill dort dans un dortoir et mange son hamburger au couvert.",
+  "tensions": [
+   "Albers contre Levi, Rondthaler et le camp Levi, dans le conflit de gouvernance ; Dreier s'en retire.",
+   "Albers reproche à de Kooning d'avoir poussé six étudiants vers New York, sans rancune mais avec une vraie inquiétude.",
+   "Bodky contre Cage : la dénonciation de Beethoven divise le campus, jusqu'à la « bataille de nourriture ».",
+   "Fuller et son dôme : l'échec public face à la moquerie de l'école entière.",
+   "Penn contre la timidité de Fuller et l'affectation d'Elaine pendant les répétitions.",
+   "Les enseignants d'été, plus exigeants, contre des étudiants jugés immatures.",
+   "Le campus communautaire contre les allégeances : la séduction de l'été ne dissout pas la crise de gouvernance."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La représentation du Piège de Méduse",
+    "date": "1948-08-14",
+    "lieu": "salle à manger du collège",
+    "personnages": [
+     "Fuller",
+     "Elaine de Kooning",
+     "Cunningham",
+     "Arthur Penn",
+     "Cage",
+     "Schrager"
+    ],
+    "deroule": "Dans la salle à manger, Fuller joue le baron, Elaine Frisette, Cunningham un singe mécanique, Schrager le soupirant. Cage joue sur un piano désaccordé. Penn a fait répéter des exercices absurdes pour libérer Fuller. Le public est celui de l'été, plein d'adolescents et de vétérans.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04547",
+     "EV-04548",
+     "EV-04557"
+    ]
+   },
+   {
+    "titre": "Le dôme affaissé sous la pluie",
+    "date": "1948-08",
+    "lieu": "pelouse du campus",
+    "personnages": [
+     "Fuller",
+     "étudiants",
+     "école entière"
+    ],
+    "deroule": "Malgré les lamelles insuffisantes, tous assemblent le dôme. Il s'affaisse sur l'herbe comme des spaghettis mouillés. L'école entière vient se moquer sous la pluie. Fuller répond : « One never knows the ways of the Almighty ».",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01186",
+     "EC-02379"
+    ]
+   },
+   {
+    "titre": "La lettre du 31 août",
+    "date": "1948-08-31",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Theodore Dreier",
+     "Walter Gropius",
+     "Ise Gropius"
+    ],
+    "deroule": "Après quelques jours de réflexion, Dreier écrit aux Gropius que le dé est jeté et qu'il veut partir. Il joint les Gropius à sa démission officielle, puis reste un temps pour la transition vers Albers.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01187",
+     "EV-04560"
+    ]
+   },
+   {
+    "titre": "Le peintre névrosé",
+    "date": "1948-08",
+    "lieu": "BMC, fin d'été",
+    "personnages": [
+     "auteur anonyme",
+     "peintre enseignant d'été",
+     "sculpteur enseignant d'été"
+    ],
+    "deroule": "Les deux enseignants se plaignent de la médiocrité des étudiants. L'auteur leur conseille la tolérance. Le peintre se redresse et répond « I'm neurotic too », puis compare avec New York, où l'hostilité se dilue dans le métro.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01185",
+     "EV-04549"
+    ]
+   },
+   {
+    "titre": "La confrontation Albers / de Kooning",
+    "date": "1948-08",
+    "lieu": "Black Mountain College",
+    "personnages": [
+     "Josef Albers",
+     "Willem de Kooning"
+    ],
+    "deroule": "Albers demande à Bill s'il sait que six de ses dix étudiants partent pour New York. Bill répond qu'il leur a conseillé de quitter l'école pour être artistes. Albers ne lui en veut pas. Deux ans plus tard, Albers engagera Bill à Yale.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04553",
+     "EV-04555",
+     "EV-04550"
+    ]
+   },
+   {
+    "titre": "La séance animée et non concluante",
+    "date": "1948-08",
+    "lieu": "salle de réunion du collège",
+    "personnages": [
+     "Josef Albers",
+     "Theodore Dreier",
+     "Rondthaler",
+     "Dehn",
+     "Levi"
+    ],
+    "deroule": "Dehn propose Albers, qui est élu sans opposition. Les Levi protestent en vain contre les conditions d'Albers. Rondthaler démissionne comme trésorier, Dreier annonce qu'il ne veut plus être recteur. Les Levi repartent ensuite pour l'Europe, les Rondthaler pour Ocracoke.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04552",
+     "EV-04551"
+    ]
+   },
+   {
+    "titre": "Bill marche seul dans la nuit",
+    "date": null,
+    "lieu": "route au clair de lune, près du campus",
+    "personnages": [
+     "Willem de Kooning"
+    ],
+    "deroule": "Bill fuit une fête bruyante et marche. À dix minutes du campus, plus aucune lumière ni aucun son, un ciel noir velouté plein d'étoiles. Il veut rentrer : « The universe gives me the creeps. »",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04543"
+    ]
+   },
+   {
+    "titre": "Bill peint dans le vide du cottage",
+    "date": null,
+    "lieu": "cottage des de Kooning",
+    "personnages": [
+     "Willem de Kooning",
+     "Elaine de Kooning"
+    ],
+    "deroule": "Bill couvre les murs de pastels pendant deux semaines, puis fixe une feuille de 25 x 32 pouces sur un chevalet et peint à l'huile. Chaque soir, il racle la peinture pour garder la surface fraîche. Elaine admire les images qu'il détruit systématiquement.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04542",
+     "EV-04527"
+    ]
+   },
+   {
+    "titre": "Les conférences-marathons de Fuller",
+    "date": null,
+    "lieu": "salle de conférence du collège",
+    "personnages": [
+     "Buckminster Fuller",
+     "Elaine de Kooning"
+    ],
+    "deroule": "Fuller parle quatre à cinq heures d'affilée. À mi-parcours, il ouvre les rideaux et sort des tables couvertes de figures géométriques. Elaine dit être tombée amoureuse à cet instant, quand il présente « notre vieil ami, le tétraèdre ».",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04513",
+     "EV-04512"
+    ]
+   },
+   {
+    "titre": "Le récital solo de Cunningham",
+    "date": null,
+    "lieu": "salle du campus",
+    "personnages": [
+     "Merce Cunningham",
+     "Louise Lippold",
+     "Sara Hamill"
+    ],
+    "deroule": "Cunningham danse en solo pour la communauté. Le public, qui ignore la danse moderne, n'en mesure pas la rupture. Il retient une « discipline ordonnée » et le développement personnel.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04514"
+    ]
+   },
+   {
+    "titre": "Cage contre Bodky",
+    "date": null,
+    "lieu": "salle de concert",
+    "personnages": [
+     "John Cage",
+     "Erwin Bodky"
+    ],
+    "deroule": "Cage donne ses concerts Satie et ses causeries, obligatoires selon Albers. Sa dénonciation de Beethoven vise Bodky. Le campus se divise, jusqu'au duel de Levi, qui tourne en bataille de nourriture.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-04515",
+     "EV-04537"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Bill qui peint dans le cottage, au moment où il déchire ses toiles",
+    "vers_date": "1948-02",
+    "vers": "La fête de fin février chez Julian Levy, dernière rencontre avec Gorky, dont la mort ravive le souvenir des enseignements du maître.",
+    "refs": [
+     "EC-02353"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Bill qui fabrique le faux marbre du Piège de Méduse",
+    "vers_date": null,
+    "vers": "L'apprentissage de décorateur à Amsterdam (en Hollande) à seize ans, où il a appris la technique du faux marbre.",
+    "refs": [
+     "EC-02369",
+     "EC-02381"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers enseignant la couleur à l'été 1948",
+    "vers_date": "1919",
+    "vers": "Le Bauhaus, où Albers a enseigné de 1919 à 1933, intégrant beaux-arts, artisanat et technologie, et dont les studios exigus de Black Mountain reprennent le dépouillement.",
+    "refs": [
+     "EC-02364",
+     "EC-02384",
+     "EC-02372"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Le récital solo de Cunningham, public qui ne mesure pas sa radicalité",
+    "vers_date": "1943",
+    "vers": "Les solos chorégraphiés dès 1943 chez Martha Graham, puis le récital new-yorkais de 1944.",
+    "refs": [
+     "EC-02375"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La confrontation de fin d'été sur les six étudiants partis à New York",
+    "vers_date": "1950",
+    "vers": "Albers, devenu doyen à Yale, engage Bill comme premier artiste et l'invite à des crits bi-hebdomadaires.",
+    "refs": [
+     "EV-04553",
+     "EC-02383",
+     "EC-02362"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le dôme affaissé sous la pluie",
+    "vers_date": "1967",
+    "vers": "Le dôme que le monde entier saura être un succès quelques années plus tard, avec le pavillon américain de l'Expo 67 à Montréal, né de cet échec de Black Mountain.",
+    "refs": [
+     "EC-02379",
+     "EC-02374",
+     "EC-02367"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La scène du Piège de Méduse et le costume de Frisette",
+    "vers_date": "1949",
+    "vers": "Elaine porte la robe de Frisette dans le film The Dogwood Maiden de Rudy Burckhardt, puis la robe disparaît.",
+    "refs": [
+     "EC-02370",
+     "EC-02382"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "La carrière de Cage et son concert pour Satie",
+    "vers_date": "1958",
+    "vers": "Cage dédie Solo for Piano à Elaine ; le réseau musical de Black Mountain irrigue ensuite toute sa vie new-yorkaise.",
+    "refs": [
+     "EC-02352",
+     "EC-02363"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Les peintures de l'été, que Bill et Elaine ont montrées au collège",
+    "vers_date": "1991",
+    "vers": "Exposition Black Mountain Paintings from 1948 à la Washburn Gallery, avec une acquisition par le Met.",
+    "refs": [
+     "EC-02365"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le départ des six étudiants pour New York, à la rentrée",
+    "vers_date": "1948-09",
+    "vers": "Six étudiants quittent le collège pour New York en septembre, sur le conseil de de Kooning ; la rentrée n'accueille qu'environ cinquante étudiants au lieu de quatre-vingt-dix.",
+    "refs": [
+     "EV-04555",
+     "EV-04553"
+    ]
+   }
+  ],
+  "motifs": [
+   "Le dôme qui s'effondre et annonce son triomphe futur : l'échec comme promesse.",
+   "La succession de l'autorité : Dreier qui part, Albers qui prend la charge à contrecœur.",
+   "La surface de l'été contre la profondeur de l'année communautaire.",
+   "L'enseignement qui crée des départs : la pédagogie de Bill, la discipline d'Albers, la liberté de Cunningham et de Cage.",
+   "L'écho du Bauhaus dans les studios et la pédagogie d'Albers.",
+   "La dérision et le théâtre : la scène improvisée dans la salle à manger, les figures géométriques de Fuller, le duel de nourriture.",
+   "Le solitaire face au ciel : Bill devant le vide, « The universe gives me the creeps »."
+  ],
+  "lacunes": "Les sources divergent sur la date de l'achat de Painting par le MoMA (août selon l'une, octobre selon l'autre). Elles donnent 74 étudiants d'été dans une source et environ 75 dans une autre. Le titre de la pièce varie (Le Piège de Méduse / Ruse of the Medusa). La date du décès de Gorky et celle de la séance qui élit Albers ne sont pas précises. Les fiches ne donnent pas la liste des six étudiants qui partent, ni les noms du peintre et du sculpteur anonymes de la scène « névrosée ». On ignore si Pat Passlof reste ou part. Le jour exact du récital de Cunningham et du bal final n'est pas indiqué. Le nombre de concerts de Cage varie selon les sources (une série entière Satie d'un côté, vingt-cinq concerts de l'autre)."
+ }
+}

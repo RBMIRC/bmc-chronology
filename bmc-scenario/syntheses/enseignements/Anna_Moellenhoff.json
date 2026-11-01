@@ -1,0 +1,77 @@
+{
+ "passe": "enseignements",
+ "cle": "Anna Moellenhoff",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1637,
+  "sortie": 3157,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Anna Moellenhoff",
+  "cours": [
+   {
+    "intitule": "Biologie",
+    "periodes": [
+     "années 1930 (étudiants de Raymond à Lee Hall, d'après CO-00095)",
+     "vers 1935 (ouverture du cours, d'après CO-00267)",
+     "présence au collège estimée d'environ 1933 à 1938 (ID-00899, dates déduites)"
+    ],
+    "atteste": "oui",
+    "objectifs": "Attesté : un enseignement très bien structuré, dont la logique était de partir de l'embryologie de base pour que l'évolution devienne évidente, presque implicite, sans être imposée comme thèse. Déduit avec prudence : la dissection servait de support concret à cette progression, mais les fiches ne le disent pas explicitement. Point de datation : CO-00095 porte l'ancrage 1930, antérieur à la fondation du collège (1933). Il faut y lire « années 1930 » et non une date exacte.",
+    "deroule_type_seance": "Aucun déroulé type n'est documenté. On sait seulement que, dans le témoignage de Lane 1990, la classe comptait quatre étudiants et que les séances comprenaient des dissections avec du formol. Le plan précis d'une séance, sa durée et son rythme ne sont pas attestés.",
+    "exercices": [
+     {
+      "consigne": "Disséquer des grenouilles. La consigne exacte n'est pas rapportée ; seule l'activité l'est.",
+      "materiaux": "Grenouilles ; formol et radiateur de laboratoire figurent parmi les matériaux du cours, sans que la fiche précise leur emploi pour cet exercice.",
+      "but": null,
+      "refs": [
+       "CO-00095"
+      ]
+     },
+     {
+      "consigne": "Disséquer des cœurs de bœuf, fournis par le cuisinier du collège. Les étapes précises ne sont pas rapportées.",
+      "materiaux": "Cœurs de bœuf obtenus auprès du cuisinier ; formol ; radiateur de laboratoire.",
+      "but": null,
+      "refs": [
+       "CO-00095"
+      ]
+     }
+    ],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Attesté (ID-00899) : elle observait que les étudiants de BMC obéissaient plutôt au principe de plaisir. Ils pouvaient travailler avec une intensité inimaginable pour atteindre un but, puis ne rien faire pendant des mois. Cette remarque porte sur les étudiants en général, et rien n'indique qu'elle l'ait dite en cours.",
+     "Version de Chaddock 2002 (Rice) de la réunion de faculté (SC-00665) : elle conclut son intervention sur la loyauté. C'est une prise de parole en faculté, non un propos de cours, et cette version est contredite par celle de Duberman (voir critique)."
+    ],
+    "critique_et_evaluation": "Le témoignage de Lane 1990 (CO-00095) présente son enseignement comme magnifiquement structuré. Contradiction de sources sur la réunion de faculté de septembre 1936 (SC-00665) : la version principale (sujet « qu'est-ce que l'enseignement ? », Rice, Albers, Martin, Portell, Zeuch, Dreier) ne la compte pas parmi les personnages. La version de Chaddock 2002 la fait intervenir : Rice absent, Zeuch attaque sa personnalité, Wunsch rapporte les faits venus des étudiants, la révision est rejetée et Goldenson est autorisé à démissionner. Les deux récits décrivent des séances très différentes. On ne peut donc pas affirmer sa présence dans la scène sans trancher.",
+    "reactions_etudiants": "Attesté : « We all loved her » (Lane 1990, CO-00095). Un incident avec le formol empêcha les étudiants de dîner, sans que la fiche en donne les détails. Vers 1935, huit étudiants devinrent « simplement fous » de biologie dès l'ouverture du cours (Duberman 1972, CO-00267).",
+    "evolution": "Les fiches donnent quatre étudiants dans la classe de Lane, puis huit vers 1935 chez Duberman. Il peut s'agir de deux moments, de deux groupes ou de deux souvenirs différents, ce qui n'est pas établi. Aucune évolution du contenu du cours n'est documentée.",
+    "refs": [
+     "CO-00095",
+     "CO-00267",
+     "ID-00899",
+     "SC-00665"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "Partir de l'embryologie de base pour que l'évolution apparaisse d'elle-même : l'ordre du cours fait comprendre le principe sans le proclamer.",
+    "en_classe": "Séance possible : dissection d'une grenouille ou d'un cœur de bœuf, où l'observation des structures précède toute explication théorique, l'enseignante laissant les étudiants formuler le lien évolutif. Seule la structure embryologie vers évolution est attestée ; la conduite détaillée de la séance est une reconstitution.",
+    "atteste": "oui",
+    "refs": [
+     "CO-00095"
+    ]
+   },
+   {
+    "idee": "Les étudiants de BMC fonctionnaient selon le principe de plaisir : une intensité extrême au service d'un but, suivie de longues périodes d'inactivité.",
+    "en_classe": "Dans une séance ou un scénario : alterner des phases de travail intensif, comme une dissection menée jusqu'au bout, et des temps libres sans contrainte. Ce rythme serait la traduction dramatique de son observation. Il s'agit d'une observation sur les étudiants, nullement d'une méthode d'enseignement attestée au collège. L'usage en classe reste donc de l'ordre de l'hypothèse.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-00899"
+    ]
+   }
+  ]
+ }
+}

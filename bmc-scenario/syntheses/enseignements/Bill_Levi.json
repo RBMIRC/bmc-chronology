@@ -1,0 +1,89 @@
+{
+ "passe": "enseignements",
+ "cle": "Bill Levi",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 2431,
+  "sortie": 3365,
+  "cache_lu": 1769,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "enseignant": "Bill Levi",
+  "cours": [
+   {
+    "intitule": "Logic / The Individual in Society",
+    "periodes": [
+     "automne 1947",
+     "≈1948-1950 : Levi reste au collège ; les fiches ne donnent aucun autre intitulé de cours"
+    ],
+    "atteste": "oui",
+    "objectifs": "Enseigner les sciences sociales à partir des problèmes actuels et pressants de politique publique (CO-00452, attesté). Levi est rattaché aux sciences sociales (SC-01147). Par son rapport à la culture (ID-01968), on peut déduire qu'il y transmettait un corps de savoirs et de critères intellectuels, mais les fiches ne décrivent pas le contenu du cours.",
+    "deroule_type_seance": null,
+    "exercices": [],
+    "lectures_et_references": [],
+    "propos_types": [
+     "Dans la lignée de sa conception de l'éducation comme transmission de culture et accumulation d'informations (ID-01968), il soutenait, selon la paraphrase d'Arthur Penn, qu'il existe un corps de pensée disciplinée et de standards que l'on peut employer si l'on reste ouvert (attesté).",
+     "Hors cours, dans le débat sur la mission du collège, il déclarait que l'économie compte plus que l'art ; Albers rapporte la phrase (SC-01147, attesté), qui l'irrite durablement. Rien n'indique qu'il l'ait dite en classe.",
+     "Devant les étudiants et professeurs au déjeuner, il maniait un sérieux imperturbable : il annonçait une crise sans précédent qui exigeait des moyens sans précédent, et proposait un duel de nourriture (SC-01069). C'est une plaisanterie de réfectoire, non un propos de cours."
+    ],
+    "critique_et_evaluation": "Les fiches ne rapportent aucune évaluation formelle (notes, examens). Elles décrivent une critique de son style : sa conception de l'éducation le poussait à la conférence et au pontificat (ID-01968, attesté, d'après Duberman).",
+    "reactions_etudiants": "Certains étudiants étaient effrayés par son style, d'autres dépassés : il parlait au-dessus de leur tête (ID-01968, attesté). La fiche ne dit pas quels étudiants ni à quel moment.",
+    "evolution": "Le seul cours daté est celui de l'automne 1947. Le style magistral est attribué à Levi pour la période ≈1948→1963 (ID-01968), mais cette borne dépasse largement sa présence au collège, qui s'achève vers 1950 (SC-01271) : l'ancrage est donc à manier avec prudence. Levi démissionne de son poste de recteur en juin 1948 (SC-01171). En 1950 sa position fait encore l'objet d'un vote de faculté (SC-01272), puis il part (SC-01271). Les fiches ne disent pas si son enseignement a changé entre-temps.",
+    "refs": [
+     "CO-00452",
+     "ID-01968",
+     "SC-01147",
+     "SC-01069",
+     "SC-01171",
+     "SC-01271",
+     "SC-01272"
+    ]
+   }
+  ],
+  "idees_enseignables": [
+   {
+    "idee": "L'éducation est avant tout transmission de culture et accumulation d'informations.",
+    "en_classe": "Séance magistrale : l'enseignant expose un corps de pensée et des standards, que les étudiants peuvent utiliser s'ils restent ouverts. Pour la scène, on peut jouer le décalage avec ceux qu'il effraie ou qu'il dépasse. Attesté comme conception et comme style de Levi au collège ; le contenu précis des séances ne l'est pas.",
+    "atteste": "oui",
+    "refs": [
+     "ID-01968"
+    ]
+   },
+   {
+    "idee": "Black Mountain fonctionne comme une famille plus que comme une institution : le risque des conflits internes d'embauche doit être assumé, car il est constitutif de la communauté.",
+    "en_classe": "Il s'agit d'un propos tenu en réunion, non d'un enseignement. Il peut servir de séance de discussion sur la gouvernance, où l'on débat des embauches comme d'affaires de famille. Cette transposition en cours n'est pas attestée au collège.",
+    "atteste": "incertain",
+    "refs": [
+     "ID-01974"
+    ]
+   },
+   {
+    "idee": "L'économie est plus importante que l'art : les sciences sociales et les problèmes de politique publique priment sur la pratique artistique.",
+    "en_classe": "Séance-débat sur la mission du collège, opposant sciences sociales et art. L'affirmation est attestée comme déclaration de Levi dans la querelle avec Albers (rapportée par Albers), mais non comme thèse de cours. Elle s'accorde avec l'objectif de son cours de 1947 sur les problèmes de politique publique, rapprochement que l'on déduit sans qu'une fiche le dise.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-01147",
+     "CO-00452"
+    ]
+   },
+   {
+    "idee": "Désamorcer un conflit par l'absurde en prenant au sérieux une crise ridicule.",
+    "en_classe": "Au déjeuner, Levi fait tinter son verre et annonce gravement une scission insoluble de la faculté. Il propose un duel entre béthovéniens armés de wiener schnitzel froids et satistes armés de crêpes Suzette flambées. Une bataille générale de nourriture s'ensuit. La scène vise la querelle Cage/Bodky. Elle est attestée comme événement du réfectoire, non comme exercice de classe.",
+    "atteste": "oui",
+    "refs": [
+     "SC-01069"
+    ]
+   },
+   {
+    "idee": "Personne ne devrait être chassé de Black Mountain par antipathie personnelle, et il faut savoir rester grand dans la défaite.",
+    "en_classe": "Cas de discussion sur le principe opposé au sentiment dans une décision collective. Betty Jennerjahn le défend lors du vote de faculté de 1950, et Pete vote contre Levi par malentendu. Ensuite, Levi propose d'inviter à son dîner d'adieu Natasha, qui avait mené la campagne contre lui. Ces faits sont attestés mais ne relèvent pas de l'enseignement de Levi. Les fiches ne disent pas qui sont « Joe et Mary » (SC-01272) ni qui est Natasha, et ne précisent pas l'objet exact du vote.",
+    "atteste": "incertain",
+    "refs": [
+     "SC-01272",
+     "SC-01271"
+    ]
+   }
+  ]
+ }
+}

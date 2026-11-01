@@ -1,0 +1,99 @@
+{
+ "passe": "personnes",
+ "cle": "Wilhelm Reich",
+ "modele": "claude-sonnet-5-5",
+ "usage": {
+  "entree": 1112,
+  "sortie": 4218,
+  "cache_lu": 2875,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "nom": "Wilhelm Reich",
+  "autres_noms": [],
+  "dates_de_vie": "Non précisées dans les fiches fournies.",
+  "statut_bmc": "Aucun lien direct avec Black Mountain College n'est attesté dans les fiches. Reich n'y apparaît que comme référence intellectuelle citée par Paul Goodman et par Perls, Hefferline et Goodman (1951). Il ne figure ni comme résident, ni comme enseignant, ni comme visiteur. Tout rapprochement avec le collège serait une invention du scénariste, à marquer comme telle.",
+  "presence": [],
+  "portrait_physique": "Aucune information dans les fiches : ni apparence, ni gestes, ni âge. Seule piste : la théorie de la cuirasse porte sur le corps (contractions musculaires), ce qui pourrait inspirer une manière de filmer son rapport au corps des autres. Pure déduction, rien d'attesté sur son corps à lui.",
+  "noyau_psychologique": "Les fiches ne donnent aucun accès à sa vie intérieure. On ne voit que sa pensée, telle que d'autres la rapportent. Attesté : il pense que le névrosé s'étouffe lui-même par un système de contractions musculaires. Il voit dans le masochisme non pas la recherche de la douleur mais celle de la libération des instincts refoulés. Il rétablit l'unité du psychisme et du corps. Il répète qu'on change les gens par la psychiatrie, non par la critique. Déduction prudente : un homme qui croit à la libération de l'énergie contenue dans le corps et qui préfère l'intervention thérapeutique au commentaire. Les critiques de PE-00324 lui prêtent aussi un positivisme scientifique « obsessionnel », jugement porté par des tiers.",
+  "blessures": "Rien dans les fiches. Ne rien inventer sans source supplémentaire.",
+  "desirs": "Pas de désir personnel attesté. Au niveau des idées : libérer les instincts et l'énergie refoulés (PE-00324), et obtenir un changement réel des gens par la thérapie plutôt que par la discussion (RE-03301).",
+  "peurs": "Non documentées.",
+  "maniere_d_aimer": "Non documentée. La seule relation attestée est intellectuelle : un rôle de mentor auprès de Goodman et de sa génération (RE-03301). Il s'y exprime par une insistance doctrinale.",
+  "rapport_au_pouvoir": "Les fiches ne disent rien de son rapport à l'autorité ou aux institutions. Un seul indice, tiré de sa position : il valorise le psychiatre, détenteur d'un savoir et d'une pratique d'intervention, au détriment du critique (RE-03301). Les auteurs de 1951 lui reprochent aussi de traiter la cuirasse comme un objet extérieur qu'on pourrait briser, ce qui suppose une position d'expert face au patient (RE-02268, RE-02269). C'est une lecture de leur critique, non un fait biographique.",
+  "voix": {
+   "registre": "Registre inconnu : aucune parole directe de Reich n'est conservée dans les fiches. On ne dispose que de reformulations par Goodman et ses coauteurs. Le seul trait de voix attesté est l'insistance (« ne cessait de dire »), ce qui suggère un discours répété, assertif, doctrinal.",
+   "tics": "Aucun tic de langage attesté. Seul indice : la répétition d'une même sentence, celle sur les psychiatres et les critiques. Vocabulaire associé à sa pensée : cuirasse ou armure caractérielle (character-armor), orgone, oracles du corps (cette dernière formule vient des critiques, pas forcément de lui).",
+   "exemples_paraphrases": [
+    "Ce ne sont pas des critiques qu'il faut pour changer les gens, ce sont des psychiatres (RE-03301, PE-00324, formule rapportée par Goodman, répétée à sa génération).",
+    "Le névrosé se défend contre ses propres élans spontanés en contractant son corps : c'est là son armure de caractère (PE-00324).",
+    "Quand un masochiste semble chercher la douleur, ce n'est pas elle qu'il cherche mais la libération des instincts qu'il a refoulés (PE-00324)."
+   ]
+  },
+  "habitudes": [
+   "Aucune habitude de vie attestée dans les fiches.",
+   "Seule pratique rapportée : il répétait sans cesse à Goodman et à sa génération que le changement passe par la psychiatrie et non par la critique (RE-03301)."
+  ],
+  "convictions": [
+   "Le corps et l'esprit forment une unité psychosomatique (PE-00324).",
+   "Le névrosé étouffe ses impulsions spontanées par un système de contractions musculaires, l'armure caractérielle (PE-00324).",
+   "Dans le masochisme, on recherche la libération des instincts refoulés, non la douleur (PE-00324).",
+   "Une énergie, l'orgone, agit comme puissance bio-physique et vient du dehors, selon la présentation qu'en donnent ses critiques. Ces mêmes critiques estiment que sa conception de l'énergie humaine reste malgré tout centrée sur l'intérieur de la peau (PE-00324).",
+   "Pour changer les gens, il faut des psychiatres plutôt que des critiques (RE-03301, PE-00324).",
+   "La frustration sexuelle épuise l'énergie par la conscience : Perls, Hefferline et Goodman y renvoient explicitement à Reich dans leur théorie du rêve (EC-02707)."
+  ],
+  "arc_bmc": [],
+  "avant": [],
+  "apres": [
+   {
+    "date": "1951",
+    "moment": "Réception critique de sa pensée : dans Gestalt Therapy (Perls, Hefferline, Goodman), la notion d'armure caractérielle est reprise puis critiquée comme réification. Elle donnerait un statut d'objet à ce qui est l'agression de la personne contre elle-même. Sa théorie de l'énergie et de la frustration sexuelle y est aussi utilisée, dans la théorie du rêve (≈1951).",
+    "refs": [
+     "RE-02268",
+     "RE-02269",
+     "EC-02707",
+     "PE-00324"
+    ]
+   }
+  ],
+  "relations_cles": [
+   {
+    "avec": "Paul Goodman",
+    "nature": "Mentorat intellectuel, d'après RE-03301 (non daté) ; admiration partielle puis rejet de certains concepts dans le texte de 1951.",
+    "evolution": "Dans les fiches, Reich est présenté comme une voix tutélaire qui martelait à la génération de Goodman que seule la psychiatrie change les gens. En 1951, Goodman, avec Perls et Hefferline, cite le concept de cuirasse caractérielle mais le critique : la cuirasse ne serait pas un objet à briser, mais l'agression de la personne retournée contre elle-même. Les fiches ne disent pas si les deux hommes se sont rencontrés. Le texte de 1951 reste une relation de lecteur à auteur.",
+    "refs": [
+     "RE-03301",
+     "RE-02268",
+     "RE-02269"
+    ]
+   }
+  ],
+  "contradictions_entre_sources": [
+   "Les deux fiches de relation tirées de la même page de Perls, Hefferline, Goodman (RE-02268 « admiration » et RE-02269 « rejet ») caractérisent différemment la même critique. Il s'agit probablement d'un même geste, reprise suivie de critique, étiqueté de deux façons par l'extraction.",
+   "PE-00324 attribue à Reich une pensée en tension : une unité psychosomatique rétablie, mais une énergie humaine censée venir de l'intérieur de la peau. La théorie de l'orgone projetterait pourtant cette unité comme force agissant de l'extérieur. C'est une lecture critique des auteurs de 1951, pas un fait biographique.",
+   "Les fiches sont toutes issues de lecteurs critiques ou de disciples : aucune source directe de Reich, donc aucune confirmation de ses positions par lui-même.",
+   "La date de RE-03301 est inconnue (≈?) : on ne sait pas à quelle époque Reich disait cela à Goodman ni dans quel contexte."
+  ],
+  "situations_revelatrices": [
+   "Une scène de discussion où quelqu'un critique ou commente un problème social et où Reich ramène, avec insistance, la question à la thérapie (RE-03301). Il faudrait la situer chez Goodman ou dans son entourage, sans attestation d'un lieu.",
+   "Une scène thérapeutique ou corporelle où une contraction ou une rigidité est lue comme une défense contre une impulsion (PE-00324). À manier comme illustration de sa théorie, non comme fait biographique.",
+   "Un débat entre disciple et maître sur la nature de la cuirasse, objet à briser ou agression retournée contre soi (RE-02268, RE-02269). Imaginable seulement comme scène fictive, car rien n'atteste un tel face-à-face.",
+   "Une conversation sur la frustration sexuelle et l'épuisement de l'énergie par la conscience, en écho à EC-02707."
+  ],
+  "citations": [
+   "PE-00324 : synthèse de sa pensée par les critiques (Perls, Hefferline, Goodman 1951, pp. 218 et 392).",
+   "RE-02268 : Goodman cite la « character-armor » en la critiquant (1951, p. 218).",
+   "RE-02269 : critique de l'armure caractérielle comme réification (1951, p. 218).",
+   "RE-03301 : Reich répétait à Goodman que le changement passe par la psychiatrie, non par la critique (Goodman Reader 2011, ch. 34).",
+   "EC-02707 : référence explicite à Reich sur la frustration sexuelle, dans la théorie du rêve (1951, p. 262)."
+  ],
+  "questions_ouvertes": [
+   "Quelles sont ses dates de vie, son parcours et ses lieux de résidence ? Aucune fiche ne les donne : il faudrait des sources biographiques.",
+   "A-t-il eu un lien réel avec Black Mountain College (visite, correspondance, lectures, étudiants, enseignants influencés) ? Rien dans les fiches ne l'établit.",
+   "Quand et dans quelles circonstances Goodman a-t-il été son disciple ou son auditeur ? Que veut dire « sa génération » ?",
+   "Quelle était sa voix réelle, son style oral et écrit ? Il faudrait des textes de lui pour sortir des paraphrases de tiers.",
+   "Comment voyait-il l'orgone ? Seule la présentation critique de 1951 figure dans les fiches.",
+   "Que sont devenus Reich et ses idées après 1951 ? Les fiches ne donnent que la réception chez Perls, Hefferline et Goodman."
+  ]
+ }
+}

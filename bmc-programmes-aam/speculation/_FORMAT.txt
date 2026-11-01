@@ -1,0 +1,14 @@
+Couche spéculative : semaines reconstituées là où aucun document ne donne le programme précis.
+Un fichier par semaine : speculation/AAAA-MM-JJ.txt (lundi de la semaine). Traité par scripts/speculer.py.
+
+#semaine AAAA-MM-JJ          lundi de la semaine
+> texte                      analyse (recopiée en tête du rapport programme/speculatif/semaine_AAAA-MM-JJ.md)
+S|jours|début|fin|type|activité|qui|lieu|note|codes|sources
+    activité placée à la main. jours : lun,mer,ven | lun-sam | dim | semaine (bandeau sur toute la semaine)
+K|cours|enseignant(s)|volume|codes|sources|note
+    cours à répartir automatiquement dans la semaine. volume (heures par semaine) :
+    1 = 1 séance de 60 min ; 2 = 1 × 120 min ; 3 = 2 × 90 min ; 4 = 2 × 120 min ; nL = laboratoire (après-midi seulement) ;
+    combinaisons avec + (ex. 3+4L = cours de 3 h + laboratoire de 4 h).
+    Le script ajoute d'office SEMAINE + JOUR + HEURE_CADRE (voir les règles de répartition dans speculer.py).
+codes : séparés par + ; chacun ajoute des points à la part déduite (table CODES de speculer.py, plafond 90 %).
+sources : numéros d'inventaire séparés par + (le premier est la source principale).

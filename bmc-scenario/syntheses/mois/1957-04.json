@@ -1,0 +1,249 @@
+{
+ "passe": "mois",
+ "cle": "1957-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 2466,
+  "sortie": 11236,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1957-04",
+  "session": "aucune session ouverte : le trimestre d'hiver n'ouvre pas et aucune session de printemps n'est attestée",
+  "saison_et_climat": "printemps ; les fiches ne décrivent pas le temps, seulement une ferme presque abandonnée et des cabanes sans chauffage (LI-01405)",
+  "situation": "Le collège est en extinction avancée. Selon Chaddock, la décision remonte à l'automne 1956 : peu de retours, terres vendues par parcelles, trimestre d'hiver non ouvert, et aucune annonce publique (EV-06834). Ce mois-ci, la fermeture est dite par écrit : le 1er avril, Olson écrit à John Rice, qui réclame environ 2000 volumes, et lui annonce la fin du collège (CI-03464, CI-03465). Daniel Dixon, ancien étudiant, apprend la nouvelle et la commente dans Pageant (SC-01858, CI-03463). Olson reste le dernier et liquide ce qui reste (EV-06766, EV-06933). En mars, un juge a ordonné l'arrêt des programmes éducatifs jusqu'au paiement des dettes (EV-06964, EV-06966, CF-00806).",
+  "presents_probables": [
+   {
+    "nom": "Josef Olson",
+    "certitude": "probable"
+   },
+   {
+    "nom": "quelques étudiants épuisés, à la ferme (non nommés)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "les derniers occupants de la colline des cabanes (non nommés)",
+    "certitude": "probable"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1957-04-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Olson écrit à John Rice, qui réclame environ 2000 volumes prêtés à la bibliothèque, et lui annonce la fermeture avec la formule « les loups ont eu tes moutons » ; il le salue comme le « Papa » du collège.",
+    "certitude": "atteste",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "date": "1957-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Daniel Dixon apprend la fermeture et écrit dans Pageant qu'il croyait le collège invincible.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01858",
+     "CI-03463"
+    ]
+   },
+   {
+    "date": "1957-04",
+    "precision": "mois",
+    "ce_qui_arrive": "L'exposition The Jewish Museum (New York) à laquelle participe un artiste est ouverte du 10 mars au 28 avril ; la fiche ne nomme pas l'artiste, la source citée est Rauschenberg (Berlin 1980).",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06967"
+    ]
+   },
+   {
+    "date": null,
+    "precision": "inconnue",
+    "ce_qui_arrive": "Une photographie des archives de l'Université du Connecticut montre la communauté réunie pour l'annonce de la fermeture ; elle n'est pas datée dans l'année, donc rien ne permet de la placer en avril.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06949"
+    ]
+   }
+  ],
+  "quotidien": "La ferme n'est plus travaillée que par quelques étudiants épuisés, et la colline des cabanes abrite les derniers occupants sans chauffage ni réfectoire. Olson règle les affaires : il tente de vendre le pot shop et son terrain à un potier local, sans succès, et prévoit la vente de l'immobilier restant, la question de la bibliothèque de Rice et l'entretien des tombes de Jalowetz et de Max Dehn (EV-06935, EV-06766). Le collège n'a plus d'étudiants payants en nombre, moins d'une demi-douzaine selon Díaz (EV-06911).",
+  "tensions": [
+   "Olson parle de dispersion sans échec, alors que Rice perd ses livres et se sent trahi ; sa lettre mêle moquerie et flatterie (CI-03464, CI-03465).",
+   "La décision est datée de l'automne 1956 sans annonce publique par Chaddock, mais une photo montre la communauté réunie pour une annonce : les sources ne s'accordent pas sur le moment ni la forme de l'annonce (EV-06834, EV-06949).",
+   "La suspension judiciaire des programmes pèse sur la liquidation, qui doit financer les dettes (EV-06966, CF-00806).",
+   "Dixon croyait le collège invincible ; la fin le surprend, alors que les anciens continuaient de le tenir pour un lieu d'apprentissage (SC-01858, EV-06536).",
+   "Il n'y a plus de gouvernement ni de rituel : on ne se réunit que sous une menace commune (EV-06536, EV-06537)."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La lettre à Rice",
+    "date": "1957-04-01",
+    "lieu": null,
+    "personnages": [
+     "Josef Olson",
+     "John Rice"
+    ],
+    "deroule": "Olson écrit à Rice, qui réclame ses livres, et lui annonce la fermeture avec sa formule sur les loups et les moutons ; il le remercie d'être un des rares à avoir compté et le nomme « Papa ». La lettre sert de point de bascule entre la demande de restitution et l'annonce.",
+    "certitude": "atteste",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "titre": "Les derniers jours sur le campus",
+    "date": "1957-04",
+    "lieu": "ferme, campus et colline des cabanes",
+    "personnages": [
+     "quelques étudiants épuisés",
+     "les derniers occupants des cabanes",
+     "Olson"
+    ],
+    "deroule": "Le campus ressemble à celui des derniers jours : peu de travail à la ferme, des cabanes froides et sans réfectoire, une vie réduite à quelques personnes qui restent.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06390",
+     "LI-01405"
+    ]
+   },
+   {
+    "titre": "Dixon apprend la fin",
+    "date": "1957-04",
+    "lieu": null,
+    "personnages": [
+     "Daniel Dixon"
+    ],
+    "deroule": "Dixon, ancien étudiant, apprend que le collège ferme. Il écrit dans Pageant qu'il le croyait invincible ; le texte exprime le choc d'un ancien élève devant une fin qu'il n'avait pas vue venir.",
+    "certitude": "atteste",
+    "refs": [
+     "SC-01858",
+     "CI-03463"
+    ]
+   },
+   {
+    "titre": "Liquidation des biens",
+    "date": null,
+    "lieu": "Black Mountain",
+    "personnages": [
+     "Josef Olson"
+    ],
+    "deroule": "Olson vend ce qui reste de l'immobilier, règle la question de la bibliothèque de Rice, prévoit l'entretien des tombes et tente de céder le pot shop. La date exacte n'est pas dans les fiches ; la scène se place dans les derniers mois sur place.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06766",
+     "EV-06933",
+     "EV-06935"
+    ]
+   },
+   {
+    "titre": "Annonce de la fermeture devant la communauté",
+    "date": null,
+    "lieu": "Black Mountain",
+    "personnages": [
+     "la communauté réunie (non nommée)"
+    ],
+    "deroule": "La photographie montre les membres réunis pour l'annonce de la fermeture. La date reste inconnue, et l'annonce ne peut pas être située avec certitude en avril.",
+    "certitude": "probable",
+    "refs": [
+     "EV-06949"
+    ]
+   },
+   {
+    "titre": "Exposition au Jewish Museum",
+    "date": "1957-04",
+    "lieu": "The Jewish Museum, New York",
+    "personnages": [
+     "un artiste participant (non nommé)"
+    ],
+    "deroule": "L'exposition New York School Second Generation est ouverte jusqu'au 28 avril. Un artiste y participe ; la fiche ne dit pas lequel.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-06967"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "avril 1957, dans la lettre à Rice qui réclame les livres",
+    "vers_date": "1956",
+    "vers": "l'automne 1956, décision de fermer prise sans annonce publique selon Chaddock",
+    "refs": [
+     "EV-06834"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "avril 1957, quand Olson appelle Rice « Papa »",
+    "vers_date": "1956-03",
+    "vers": "début de l'affaire de la bibliothèque de Rice",
+    "refs": [
+     "CI-03464",
+     "CI-03465"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "avril 1957, quand Dixon se souvient d'un collège invincible",
+    "vers_date": "1955",
+    "vers": "vie sans gouvernement ni rituel, hiérarchie fondée sur le talent et l'honnêteté, réunions seulement sous menace",
+    "refs": [
+     "EV-06536",
+     "EV-06537"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "avril 1957, pendant la liquidation de la bibliothèque",
+    "vers_date": "1957-09",
+    "vers": "Olson annonce à Rice que le reste de la bibliothèque part au North Carolina Wesleyan ; Nell Rice en emporte une partie, Rice est furieux",
+    "refs": [
+     "EV-06844",
+     "EV-06910",
+     "CF-00800"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "avril 1957, après la fin des activités",
+    "vers_date": "1957",
+    "vers": "septième et dernier numéro de la Black Mountain Review, avec Ginsberg, Kerouac, Snyder, Creeley ; pas de huitième numéro",
+    "refs": [
+     "EV-06906",
+     "EV-06907",
+     "CI-03449"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "avril 1957, dans le milieu d'Albers à Yale",
+    "vers_date": "1958",
+    "vers": "Albers reste chairman jusqu'en 1958 et introduit le cours Structural Organization",
+    "refs": [
+     "EV-06927",
+     "EV-06928",
+     "EV-06786"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "avril 1957, chez Anni Albers",
+    "vers_date": "1957-06",
+    "vers": "Anni Albers rédige sa déclaration pour Asilomar",
+    "refs": [
+     "EV-06968"
+    ]
+   }
+  ],
+  "motifs": [
+   "la dispersion sans échec",
+   "les livres de Rice et la question de la propriété",
+   "le « Papa » et les loups",
+   "l'annonce sans annonce",
+   "la légende qui commence à se répandre",
+   "la fin de la Review"
+  ],
+  "lacunes": "On ignore si une session de printemps a eu lieu et combien d'étudiants restaient réellement. On ne sait pas où se trouve Olson en avril, ni la date de la vente de l'immobilier, de la photographie de l'annonce, ou de la réédition de l'autobiographie de Rice. Le climat n'est pas décrit. Les dates de la suspension judiciaire ne sont pas précisées au jour près, et l'artiste du Jewish Museum n'est pas nommé."
+ }
+}

@@ -1,0 +1,246 @@
+{
+ "passe": "mois",
+ "cle": "1934-04",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3365,
+  "sortie": 12523,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1934-04",
+  "session": "Printemps 1934, fin de la première année académique (hiver-printemps, déduit du découpage de la synthèse). Le contrat d'Albers expire le 12 juin et l'été est prévu à la Blue Ridge Assembly.",
+  "saison_et_climat": "Printemps (avril). Les fiches ne donnent ni météo ni détail agricole pour ce mois ; seul le cadre saisonnier est déduit.",
+  "situation": "Albers reste à BMC après le refus de Bennington. Leigh écrit le 6 avril qu'il faut une personne d'expérience « plus essentiellement américaine » et évoque un membre d'origine allemande au anglais limité ; Albers, qui avait répondu en allemand, croit à un malentendu de langue et consulte Philip Johnson. Le 17 avril, Johnson suggère que le facteur allemand n'était qu'un prétexte et qu'une candidature l'année suivante pourrait réussir. Le collège reçoit un flux constant de visiteurs, qui assistent presque toujours aux cours d'Albers (lettre à Kandinsky). Rice prépare son article pour Progressive Education (avril-mai). Les sources divergent sur l'anglais d'Albers : Leigh le juge insuffisant, tandis qu'Albers à Kandinsky dit que les visiteurs louent son anglais, perfectible mais réel.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers",
+    "certitude": "atteste"
+   },
+   {
+    "nom": "Anni Albers (pas encore enseignante, présente sur le campus)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Rice",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Georgia (recteur jusqu'à l'automne)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Ted Dreier",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "« John » (pseudonyme, étudiant de première année)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "« Paul » (pseudonyme, étudiant de première année)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "« Ann » (pseudonyme, liée à Paul)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Visiteurs extérieurs (non nommés) qui assistent aux cours",
+    "certitude": "atteste"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1934-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Albers écrit à Kandinsky que le flux constant de visiteurs assiste presque toujours à ses cours et loue son anglais, pourtant perfectible.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02341"
+    ]
+   },
+   {
+    "date": "1934-04-06",
+    "precision": "jour",
+    "ce_qui_arrive": "Leigh refuse la candidature d'Albers à Bennington malgré le soutien de Mrs. Swan, en invoquant son origine allemande et son anglais limité.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02342"
+    ]
+   },
+   {
+    "date": "1934-04-17",
+    "precision": "jour",
+    "ce_qui_arrive": "Johnson suggère que le facteur allemand n'était qu'un prétexte et conseille une candidature pour l'année suivante ; Albers reste à BMC.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02343"
+    ]
+   },
+   {
+    "date": "1934-04",
+    "precision": "mois",
+    "ce_qui_arrive": "Rice publie dans Progressive Education un article de présentation du collège (parution avril-mai).",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1934-05-01",
+    "precision": "jour",
+    "ce_qui_arrive": "Rice écrit à Elmer Davis que l'éducation progressiste stupide est plus stupide que l'autre, après des visites décourageantes dont celle de la Lincoln School.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1934-05-02",
+    "precision": "jour",
+    "ce_qui_arrive": "Amendements aux statuts : accès des étudiants aux registres, faculté d'adopter une constitution, siège aux réunions de faculté et siège effectif au Board pour le Student Moderator.",
+    "certitude": "atteste",
+    "refs": []
+   },
+   {
+    "date": "1934-06-12",
+    "precision": "jour",
+    "ce_qui_arrive": "Expiration du contrat d'Albers à BMC, dans un contexte d'incertitude financière du collège.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "quotidien": "Albers enseigne sans anglais courant, en se faisant comprendre par le visuel, souvent devant des visiteurs de passage. Le collège vit au rythme des visites, de la presse et des préparatifs de l'été. La ferme, travaillée par les étudiants et un fermier salarié, fournit une part des légumes du réfectoire. Les fiches ne disent rien de précis sur les repas, la musique ou l'emploi du temps des étudiants ce mois-ci.",
+  "tensions": [
+   "Position précaire d'Albers : refus de Bennington, contrat qui expire le 12 juin, finances incertaines.",
+   "Question de l'anglais d'Albers, jugé insuffisant par Leigh et loué par les visiteurs.",
+   "Des visiteurs nombreux face à l'exigence de discipline intellectuelle que Wilder réclamait déjà.",
+   "Liaison privée entre « John » et « Paul » : l'aveu choque Paul, Paul se lie à « Ann », John est raillé puis recadré par Rice (date non précisée).",
+   "Rice contre l'éducation progressiste, posture publique qui peut heurter les partenaires du collège.",
+   "Droits étudiants en cours d'élargissement, qui préfigurent des conflits de gouvernance."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "La lettre de Leigh et la réponse en allemand",
+    "date": "1934-04-06",
+    "lieu": "BMC (correspondance)",
+    "personnages": [
+     "Josef Albers",
+     "Leigh (Bennington)"
+    ],
+    "deroule": "Albers reçoit le refus de Leigh, qui invoque son origine allemande et son anglais limité. Il répond en allemand, croyant à un malentendu de langue, puis se tourne vers Johnson.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02342"
+    ]
+   },
+   {
+    "titre": "Le conseil de Johnson",
+    "date": "1934-04-17",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "Philip Johnson"
+    ],
+    "deroule": "Johnson écrit que le facteur allemand n'était peut-être qu'un prétexte et qu'une candidature l'année suivante aurait plus de chances. Albers reste à BMC.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02343"
+    ]
+   },
+   {
+    "titre": "Un cours sous les yeux des visiteurs",
+    "date": "1934-04",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers",
+     "visiteurs extérieurs"
+    ],
+    "deroule": "Des visiteurs assistent presque toujours à ses leçons et en louent la clarté malgré un anglais perfectible. Albers enseigne par le visuel.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02341"
+    ]
+   },
+   {
+    "titre": "Rice rédige la présentation du collège",
+    "date": "1934-04",
+    "lieu": null,
+    "personnages": [
+     "Rice"
+    ],
+    "deroule": "Rice met en forme la présentation du collège pour Progressive Education, qui paraît en avril-mai, quelques semaines avant sa lettre sévère à Elmer Davis.",
+    "certitude": "deduit",
+    "refs": []
+   },
+   {
+    "titre": "Le contrat qui arrive à son terme",
+    "date": "1934-06-12",
+    "lieu": null,
+    "personnages": [
+     "Josef Albers"
+    ],
+    "deroule": "Le contrat d'Albers expire. Le budget est révisé à la hausse en juin, surtout pour des bourses, ce qui laisse ouverte la question de son renouvellement.",
+    "certitude": "atteste",
+    "refs": []
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Avril, au moment où Albers doit défendre sa place à BMC",
+    "vers_date": "1933-12",
+    "vers": "Arrivée d'Albers fin 1933, enseignement sans anglais courant, abandon des traducteurs et des leçons d'anglais sur demande d'une délégation étudiante.",
+    "refs": []
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Avril, quand Wilder est déjà loin",
+    "vers_date": "1934-02-23",
+    "vers": "Conférence formelle de Wilder, qui dîne avec les étudiants, lit ses pièces devant la cheminée de Lee Hall et juge le climat « mystérieusement heureux » tout en réclamant plus de discipline intellectuelle.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril, quand les statuts ne sont pas encore amendés",
+    "vers_date": "1934-05-02",
+    "vers": "Amendements aux statuts qui donnent aux étudiants l'accès aux registres et un siège au Board.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril, quand Albers publie encore peu",
+    "vers_date": "1934-06",
+    "vers": "Bulletin n° 2 avec « Concerning Art Instruction » d'Albers, traduit par Ted Dreier ; Albers y dit que la plupart des étudiants ne deviendront pas artistes.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril, au moment où Johnson suggère une nouvelle candidature",
+    "vers_date": "1935",
+    "vers": "Exposition d'estampes d'Albers à l'Addison Gallery, seule institution à accepter ses bois gravés après le MoMA ; candidature à Bennington possible l'année suivante.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril, le campus reste ouvert aux visiteurs",
+    "vers_date": "1934-09",
+    "vers": "Clara Porset vient de La Havane voir l'enseignement d'Albers et l'invite à Cuba.",
+    "refs": []
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Avril, le collège attend son renouvellement financier",
+    "vers_date": "1934-12-28",
+    "vers": "Départ des Albers et des Dreier pour Cuba ; premier d'une série de plus de quatorze voyages en Amérique latine jusqu'en 1956.",
+    "refs": []
+   }
+  ],
+  "motifs": [
+   "L'avenir précaire d'un maître qui ne parle pas couramment la langue du pays.",
+   "Un collège qui se donne en spectacle tout en réclamant du travail intellectuel.",
+   "La reconnaissance extérieure contre la légitimité intérieure.",
+   "Les étudiants comme acteurs institutionnels naissants.",
+   "Les secrets privés (amour entre « John » et « Paul ») dans un collège qui se veut ouvert."
+  ],
+  "lacunes": "Aucune fiche sur le climat, la vie matérielle (repas, musique) ou le déroulé précis de la session d'avril. La date de la réponse d'Albers en allemand reste inconnue. La chronologie de la liaison entre « John », « Paul » et « Ann » n'est pas datée (et ces noms sont des pseudonymes). La date exacte de la décision sur le renouvellement du contrat n'est pas connue. Les éléments tirés de la synthèse n'ont pas d'identifiant de fiche, d'où des refs vides. Les sources divergent sur l'anglais d'Albers et doivent rester en tension."
+ }
+}

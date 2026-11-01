@@ -1,0 +1,233 @@
+{
+ "passe": "mois",
+ "cle": "1939-10",
+ "modele": "claude-haiku-5-5",
+ "usage": {
+  "entree": 3228,
+  "sortie": 15902,
+  "cache_lu": 2613,
+  "cache_ecrit": 0
+ },
+ "donnees": {
+  "mois": "1939-10",
+  "session": "Trimestre d'automne, ouvert à la rentrée du 12 septembre 1939 (déduit : la synthèse date du 12 septembre le discours d'ouverture de la septième année d'Albers)",
+  "saison_et_climat": "Automne 1939 ; les fiches ne décrivent ni le temps ni le paysage de Lake Eden ce mois-ci (climat non documenté)",
+  "situation": "Le collège a repris à la rentrée du 12 septembre et fonctionne sans Rice, parti à Southern Pines fin juin, où il écrit son autobiographie et négocie avec Harper. Nell est vraisemblablement à Chapel Hill. Les Albers sont rentrés du Mexique le 8 septembre. Jalowetz est arrivé avec sa femme et leur fille et trouve une communauté absorbée par le chantier du nouveau foyer à Lake Eden. La musique n'a plus Allan Sly et la recherche d'un peintre invité a échoué. Octobre voit Rice recevoir le contrat de Harper et ses conseils de coupe, tandis que la facture de 145 dollars lance la correspondance avec Dreier.",
+  "presents_probables": [
+   {
+    "nom": "Josef Albers (rentré du Mexique le 8 septembre, a ouvert l'année le 12)",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Anni Albers",
+    "certitude": "deduit"
+   },
+   {
+    "nom": "Jalowetz (arrivé à la rentrée avec sa femme et leur fille)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Johanna Jalowetz (reliure et chant)",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Alice, ex-liaison de Rice, restée au collège",
+    "certitude": "probable"
+   },
+   {
+    "nom": "Marian Nacke",
+    "certitude": "deduit"
+   }
+  ],
+  "evenements": [
+   {
+    "date": "1939-10-20",
+    "precision": "jour",
+    "ce_qui_arrive": "Cass Canfield, chez Harper and Brothers, accepte aussitôt le manuscrit d'autobiographie de Rice après deux chapitres d'échantillon, à la suite d'une proposition faite via les Adamic ; avance de 500 dollars.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02956"
+    ]
+   },
+   {
+    "date": "1939-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Harper conseille à Rice de retirer ses chapitres d'opinion (éducation progressiste, écoles normales, gens du Middle West, « The Gentleman, the Lady, and the Negro ») et de fondre ses idées dans la narration ; elles finissent intégrées aux chapitres sur Webb, Tulane, Oxford, le Nebraska et Rollins.",
+    "certitude": "atteste",
+    "refs": [
+     "EV-02957"
+    ]
+   },
+   {
+    "date": "1939-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Une facture de 145 dollars liée à un accident de voiture ouvre une correspondance avec Dreier, qui juge l'affaire à la limite de la malhonnêteté ; l'échange court de septembre à février.",
+    "certitude": "atteste",
+    "refs": [
+     "synthèse 1939 (automne)",
+     "fil : La sortie de Rice (1939-04→1940-02)"
+    ]
+   },
+   {
+    "date": "1939-10",
+    "precision": "session",
+    "ce_qui_arrive": "Albers prêche « Truthfulness in Art » : l'enseignant ne peut exiger de l'étudiant ce qu'il ne fait pas lui-même, et l'on ne développe les autres qu'en se développant soi-même. Il dit aussi que Black Mountain est du côté des Indiens mayas.",
+    "certitude": "probable",
+    "refs": [
+     "fil : La parole d'Albers sur l'enseignement (1939-09→1939-12)"
+    ]
+   },
+   {
+    "date": "1939-10",
+    "precision": "mois",
+    "ce_qui_arrive": "Le collège est absorbé par la construction du nouveau foyer à Lake Eden ; Jalowetz s'émerveille de l'ouverture et de l'intérêt de chacun.",
+    "certitude": "probable",
+    "refs": [
+     "synthèse 1939 (automne)",
+     "fil : Le campus de Lake Eden et le choix de l'architecte (1938→1940)"
+    ]
+   }
+  ],
+  "quotidien": "La vie de Lake Eden tourne autour du chantier du foyer. Johanna Jalowetz relie des livres et chante. Albers enseigne et harangue ses étudiants sur la vérité dans l'art. La musique continue sans Sly, sans successeur connu. Rice est absent et règle contrat et facture à distance. Anni, qui a noté dans ses lettres d'été l'anxiété de ses démarches au Mexique, fréquente encore le collège comme « housewife » à l'administration du foyer (déduit, non documenté).",
+  "tensions": [
+   "Rice est dans l'impasse : contrat Harper à 500 dollars contre conseils de coupe, facture de 145 dollars après un accident, et Dreier qui juge l'affaire frôlant la malhonnêteté.",
+   "Les sources se contredisent sur le congé de Rice : Duberman parle d'un sabbatique pour toute l'année 1939-40 voulu par le conseil pour l'éloigner ; Chaddock parle d'un seul semestre obtenu à contrecœur.",
+   "La menace de Nacke d'une explosion « dans les six semaines » (avril) n'est documentée nulle part dans les fiches ; l'éviction de Rice reste à l'état de menace.",
+   "Le foyer Gropius-Breuer est jugé inabordable : 50 000 dollars pour le bâtiment d'études selon une fiche, 500 000 pour l'ensemble selon une autre. Faute d'argent, les plans restent sur le papier et le collège se tourne vers Kocher en 1940.",
+   "Albers est intraitable sur le recrutement d'un peintre invité (« pas un autre peintre abstrait », candidat « inflexible et vide », soupçon de communisme « insupportable ») ; aucun recrutement n'aboutit.",
+   "La trêve entre Rice et Albers n'a pas tenu ; leur querelle reprend et Portell a démissionné.",
+   "Le discours moral d'Albers sur le développement de soi se tient dans un collège sous pression financière et personnelle."
+  ],
+  "scenes_possibles": [
+   {
+    "titre": "Le courrier de Canfield",
+    "date": "1939-10-20",
+    "lieu": "Southern Pines (Rice) ; New York (Harper)",
+    "personnages": [
+     "H. Rice",
+     "Cass Canfield",
+     "Louis et Stella Adamic (en arrière-plan)"
+    ],
+    "deroule": "Rice reçoit la lettre où Canfield loue le charme de son manuscrit et accepte aussitôt, avec une avance de 500 dollars. L'éditeur demande ensuite de fondre les chapitres d'opinion dans la narration. Dans le même automne arrive la facture de 145 dollars.",
+    "certitude": "deduit",
+    "refs": [
+     "EV-02956",
+     "EV-02957"
+    ]
+   },
+   {
+    "titre": "Le chantier du foyer",
+    "date": "1939-10",
+    "lieu": "Lake Eden, chantier du nouveau foyer",
+    "personnages": [
+     "Josef Albers",
+     "Anni Albers",
+     "Jalowetz",
+     "Johanna Jalowetz"
+    ],
+    "deroule": "Jalowetz découvre un collège absorbé par le chantier et frappé par l'ouverture de chacun. Pendant ce temps, les plans Gropius-Breuer restent sur le papier, jugés inabordables.",
+    "certitude": "deduit",
+    "refs": [
+     "fil : Le campus de Lake Eden et le choix de l'architecte (1938→1940)",
+     "synthèse 1939 (automne)"
+    ]
+   },
+   {
+    "titre": "« Truthfulness in Art »",
+    "date": "1939-10",
+    "lieu": "Black Mountain College, salle de cours",
+    "personnages": [
+     "Josef Albers",
+     "étudiants"
+    ],
+    "deroule": "Albers prêche que l'enseignant ne peut exiger ce qu'il ne fait pas lui-même. Il affirme que Black Mountain se range du côté des Indiens mayas, dans un discours qui laisse certains étudiants marqués.",
+    "certitude": "probable",
+    "refs": [
+     "fil : La parole d'Albers sur l'enseignement (1939-09→1939-12)"
+    ]
+   },
+   {
+    "titre": "La facture et Steinau",
+    "date": "1939-10",
+    "lieu": "correspondance Rice–Dreier",
+    "personnages": [
+     "H. Rice",
+     "Dreier"
+    ],
+    "deroule": "Rice s'explique sur la facture de 145 dollars liée à l'accident de voiture. Dreier, écrivant depuis Steinau, juge que cela frôle la malhonnêteté. La correspondance se prolongera jusqu'en février.",
+    "certitude": "deduit",
+    "refs": [
+     "synthèse 1939 (automne)"
+    ]
+   }
+  ],
+  "ouvertures_temporelles": [
+   {
+    "sens": "flashback",
+    "depuis": "Rice, à Southern Pines, en octobre, relisant les conseils de Harper",
+    "vers_date": "1939-04-24",
+    "vers": "La lettre de Marian Nacke annonçant qu'une partie de la faculté veut évincer Rice et menace de faire éclater le collège s'il reste.",
+    "refs": [
+     "synthèse 1939 (printemps)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Anni Albers, en octobre, qui garde une anxiété chronique de ses démarches",
+    "vers_date": "1939-06-22",
+    "vers": "L'arrivée à Veracruz de l'Orinoco des parents Fleischmann, en exil définitif, qu'Anni a dû faire débarquer en corrompant une personne après l'autre.",
+    "refs": [
+     "synthèse 1939 (été, Mexique)"
+    ]
+   },
+   {
+    "sens": "flashback",
+    "depuis": "Albers, en octobre, après ses lettres de l'été à Fred Mangold",
+    "vers_date": "1939-08",
+    "vers": "Les lettres des 29 juin, 8 juillet et 7 août où il rejette les peintres invités candidats, sans qu'aucun recrutement n'en sorte.",
+    "refs": [
+     "synthèse 1939 (été, Mexique)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Rice, à l'automne, dont le congé reste flou",
+    "vers_date": "1939-12",
+    "vers": "À partir de Noël, Wunsch rend visite à Rice à Southern Pines pour obtenir sa démission ; la première visite tourne au jeu du chat et de la souris et échoue.",
+    "refs": [
+     "synthèse 1939 (fin d'année)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le chantier du foyer, resté sur le papier faute d'argent",
+    "vers_date": "1940",
+    "vers": "Le collège se tourne vers Kocher pour le bâtiment, après l'échec des plans Gropius-Breuer.",
+    "refs": [
+     "fil : Le campus de Lake Eden et le choix de l'architecte (1938→1940)"
+    ]
+   },
+   {
+    "sens": "flashforward",
+    "depuis": "Le contrat Harper signé en octobre",
+    "vers_date": "1942",
+    "vers": "Le livre de Rice, commencé à Folly Beach, arrive au terme de son fil d'écriture, qui court jusqu'en 1942.",
+    "refs": [
+     "EV-02956",
+     "fil : Le livre de Rice (1938→1942)"
+    ]
+   }
+  ],
+  "motifs": [
+   "la trahison ressentie par les disciples et la quête de sécurité",
+   "un homme qui écrit sa vie tout en la réduisant au récit",
+   "l'exigence artistique qui vire à l'intransigeance",
+   "un chantier comme utopie communautaire",
+   "la vérité dans l'art (« Truthfulness »)",
+   "l'argent contre l'idéal",
+   "les départs et les absences (Rice, Nell, Sly)",
+   "le père qui déchire la première histoire (motif hors collège, à rapprocher d'Olson)"
+  ],
+  "lacunes": "On ignore la date d'arrivée de Jalowetz (seulement « à la rentrée »), la présence effective de Rice et de Dreier en octobre, le successeur de Sly, la date de la naturalisation des Albers, la date du plan Gropius-Breuer, la durée réelle du congé de Rice (un an selon Duberman, un semestre selon Chaddock), le sort de la menace de Nacke, le montant du chantier (50 000 ou 500 000 dollars), la date de la pièce de Chaet et l'identité de l'enfant Fee (Fielding Dawson n'est qu'une hypothèse)."
+ }
+}

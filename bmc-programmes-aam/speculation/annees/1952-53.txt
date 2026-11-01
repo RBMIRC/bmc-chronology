@@ -1,0 +1,46 @@
+#annee 1952-53
+#catalogue speculation/catalogues/1952-53.txt 2017.40.050+2017.40.051
+#periodes 08:30,09:30,10:30,11:30 15:00,16:00 50
+> ## 1952-53 : l'année des « institutes » et du catalogue gonflé
+>
+> **Les sources.** Le catalogue 1952-53 (2017.40.050, novembre 1952) est la seule source AAM de l'année. Il donne :
+> - le calendrier ;
+> - cinq « institutes » datés ;
+> - pour chaque enseignant, une liste de cours.
+>
+> Aucun bulletin, aucun programme daté. Duberman (ch. 13-14) prévient que ce catalogue est « grotesquely padded with course offerings that bore only the faintest relation to reality ». Il cite en exemple les neuf cours de Natasha Goldowski (revenue « briefly »), les huit de Huss, et les dix de Sprague, qui « left before the year was over because he couldn't drum up enough students for one course ».
+>
+> **Ce qui est reconstitué.** Les titres du catalogue sont gardés comme annonces (ANNONCE, +15). Un enseignant aux nombreux titres a une ou deux unités, avec les autres titres comme candidats (chance 1/n). Les titres que Duberman cite comme fictifs ne sont pas programmés. Goldowski n'est placée qu'à l'automne, et Sprague au printemps avec une chance sur quatre. Le cours d'écriture d'Olson est attesté à la fois par le catalogue et par Duberman (atelier « un soir par semaine »). La confiance est faible : la plupart des cours sont à 70-90 %.
+>
+> **1. Le cadre** (attesté, 2017.40.050) :
+> - premier semestre du 22 septembre 1952 (inscriptions ; cours le 23) au 31 janvier 1953, avec les vacances d'hiver du 13 décembre au 4 janvier ;
+> - second semestre du 2 février (cours le 3) au 6 juin 1953, avec les vacances de printemps du 28 mars au 12 avril ;
+> - Summer Session of the Arts du 1er juillet au 26 août 1953 (« July 6 – August 24 » dans le corps du texte).
+>
+> **2. Les instituts** (annoncés avec leurs dates, en bandeaux sur leurs semaines) :
+> - The Crafts, du 22 septembre au 15 novembre, avec le séminaire de céramique de Leach, Hamada et Yanagi (15-29 octobre). Il a eu lieu : Duberman le décrit sur dix jours ;
+> - The Theatre, du 16 novembre au 13 décembre, puis du 5 au 31 janvier ;
+> - The New Sciences of Man, du 2 février au 28 mars. Il est réduit à un séminaire de trois semaines (Olson, Braidwood, von Franz) dont les dates ne sont pas données ;
+> - The Natural Sciences, du 13 avril au 6 juin. Aucune trace de réalisation.
+>
+> **3. L'été 1953** n'est connu que par Duberman. On y trouve les six semaines de Cunningham et de sa compagnie (cours le matin, répétitions l'après-midi et le soir dans la salle à manger, trois spectacles pour la communauté), Vicente en peinture, Tudor et un concert Wolpe. La première de « Banjo » (22 août) est dans la couche Duberman.
+>
+> **4. Le rythme** : les heures de repas et les périodes de cours des années précédentes (LOIN, VOISIN). Max Dehn meurt au cours de l'année (Duberman, sans date) ; il n'est pas au catalogue.
+
+S|semaine|||calendrier|Semaine de cours, {terme} (calendrier du catalogue 1952-53)|||aucun document de la semaine|SEMAINE|2017.40.050|fall,spring
+S|semaine|||calendrier|Semaine de la Summer Session of the Arts 1953|||aucun document de la semaine|SEMAINE|2017.40.050|summer
+
+S|semaine|||atelier|Institute: The Crafts (annoncé, 22 septembre – 15 novembre 1952)|||institut de huit semaines annoncé par le catalogue ; réalisé au moins en partie (séminaire de céramique, Duberman p. 370-372)|SEMAINE|2017.40.050|fall@1952-09-22..1952-11-15
+S|semaine|||atelier|Pottery Seminar : Bernard Leach, Shoji Hamada, Soetsu Yanagi ; hôtesse Marguerite Wildenhain|Bernard Leach; Shoji Hamada; Soetsu Yanagi; Marguerite Wildenhain||« October 16 through October 29 » (catalogue) ; institut de dix jours selon Duberman (p. 370-372), Hamada travaille l'argile locale|SEMAINE|2017.40.050|fall@1952-10-15..1952-10-29
+S|semaine|||theatre|Institute: The Theatre (annoncé)|||catalogue : 16 novembre – 13 décembre 1952 et 5 – 31 janvier 1953 (« January 5-13 » dans le texte) ; réalisation non attestée|SEMAINE+OCCASION|2017.40.050|fall@1952-11-16..1952-12-12,fall@1953-01-05..1953-01-31
+S|semaine|||conference|Institute: The New Sciences of Man (annoncé ; séminaire de trois semaines selon Duberman, dates non données)|Charles Olson; Robert Braidwood; Marie-Louise von Franz||catalogue : 2 février – 28 mars 1953 ; « a three-week seminar on archeology and mythology » (Duberman, p. 370)|SEMAINE+OCCASION|2017.40.050|spring@1953-02-02..1953-03-28
+S|semaine|||conference|Institute: The Natural Sciences, « Some Aspects of Form and Motion » (annoncé)|||catalogue : 13 avril – 6 juin 1953 ; aucune trace de réalisation|SEMAINE+OCCASION|2017.40.050|spring@1953-04-13..1953-06-06
+
+S|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté|Dining hall|heure de 1944-45|SEMAINE+LOIN|2017.40.172a-g
+S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté|Dining hall|heure de 1944-45 ; fin non attestée|SEMAINE+LOIN|2017.40.172a-g
+S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté|Dining hall|heure de 1944-45|SEMAINE+LOIN|2017.40.172a-g
+S|dim|13:00|14:00|social|Dîner du dimanche|Communauté|Dining hall|usage de 1944-45|SEMAINE+LOIN|2017.40.172a-g
+
+S|lun-ven|15:00|17:30|danse|Répétitions de la compagnie Cunningham|Merce Cunningham|Dining hall|« répétitions l'après-midi et le soir dans la salle à manger » (Duberman) ; six semaines sur huit ; heures choisies|SEMAINE+HEURE_CADRE+PRESENCE|Duberman, ch. 14, p. 395-397 (¶1631-1635)|summer
+S|lun-ven|20:00|22:00|danse|Répétitions de la compagnie Cunningham (soir)|Merce Cunningham|Dining hall|idem|SEMAINE+HEURE_CADRE+PRESENCE|Duberman, ch. 14, p. 395-397 (¶1631-1635)|summer
+S|sam|20:30|22:00|danse|Spectacle de la compagnie Cunningham pour la communauté : possible|Merce Cunningham|Dining hall|« trois spectacles pour la communauté » (Duberman, p. 397-399) ; jour et heure supposés|OCCASION+JOUR+HEURE_CADRE|Duberman, ch. 14, p. 397-399 (¶1635-1639)|summer

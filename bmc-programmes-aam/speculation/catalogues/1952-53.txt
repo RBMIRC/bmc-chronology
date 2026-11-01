@@ -1,0 +1,129 @@
+# Concordance des cours 1952-53 → gabarits de l'année reconstituée (deux semestres + Summer Session of the Arts 1953).
+#
+# Sources :
+#   2017.40.050 (catalogue 1952-53, novembre 1952) : calendrier, cinq « institutes » datés, cours par enseignant
+#   2017.40.051 (catalogue 1954) : récapitulatif des enseignants des Summer Institutes 1951-53, sans année
+#   Duberman, ch. 13-14, p. 368-403 (¶1513-1652) : le catalogue est « grotesquely padded with course offerings that bore
+#     only the faintest relation to reality » ; Goldowski « returned briefly » ; Sprague « left before the year was over
+#     because he couldn't drum up enough students for one course » ; institut de céramique réalisé (dix jours) ; « New
+#     Sciences of Man » réduit à un séminaire de trois semaines ; été 1953 : Cunningham et sa compagnie (cours le matin,
+#     répétitions l'après-midi et le soir), Vicente, Tudor, Wolpe
+# Règle : le catalogue est une annonce (ANNONCE, +15) que Duberman dit gonflée. Un enseignant aux nombreux titres a une
+# ou deux unités à plusieurs candidats (chance 1/n) ; les titres que Duberman cite comme fictifs sont non programmés.
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+# ---------- ARTS (J. Fiore, F. Kline, H.-F. Larsen, J. Jalowetz, K. Karnes, D. Weinrib, C. Williams) ----------
+C|art.dessin|Art|Drawing|Drawing (1951-52, domaine)|—
+C|art.composition|Art|Composition (Drawing)|—|—
+C|art.peinture|Art|Painting|Painting (1951-52, domaine)|—
+C|art.paysage|Art|Landscape Painting|—|—
+C|art.seminaire|Art|Seminar on Contemporary Painting|—|—
+C|art.couleur|Art|Color|Color and Design (1951-52, domaine)|—
+C|art.kline|Art|Painting: class sessions and individual criticism during two-week visiting periods|—|—
+C|art.design1|Art|Design I (Learning to See)|Color and Design (1951-52, domaine)|—
+C|art.design2|Art|Design II|—|—
+C|art.photo|Art|Photography|Photography (1951-52, domaine)|—
+C|art.film|Art|Movie Photography|—|—
+C|art.histphoto|Art|History of Photography|—|—
+C|art.reliure|Art|Bookbinding|Bookbinding (1951-52, domaine)|—
+C|art.ceramique|Art|Ceramics|Ceramics (1951-52, domaine)|—
+C|art.imprimerie|Art|Printing|Printing (1951-52, domaine)|—
+C|art.tissage|Art|Weaving|Weaving (1951-52, domaine)|—
+C|art.bois|Art|Woodworking|Woodshop (1951-52, domaine)|—
+U|JF1|Joe Fiore|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|art.dessin||art.composition|1/2|« Drawing; Painting; Landscape Painting; Seminar on Contemporary Painting; Composition (Drawing); Color », Joe Fiore (2017.40.050)|||fall,spring
+U|JF2|Joe Fiore|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|art.peinture||art.paysage|1/2|idem|||fall,spring
+U|JF3|Joe Fiore|2|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|art.seminaire||art.couleur|1/2|idem|||fall,spring
+U|FK|Franz Kline|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME+OCCASION|art.kline|séjours de deux semaines||1|« Painting: class sessions and individual criticism during two-week visiting periods throughout the fall semester », Franz Kline (2017.40.050) ; rien ne dit qu'il est là cette semaine-là|||fall
+U|HL1|Hazel-Frieda Larsen|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|art.design1||art.design2|1/2|« Design I (Learning to See); Design II; Photography; Movie Photography; History of Photography », Hazel-Frieda Larsen (2017.40.050)|||fall,spring
+U|HL2|Hazel-Frieda Larsen|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|art.photo|atelier|art.film;art.histphoto|1/3|idem|||fall,spring
+U|JJ2|Johanna Jalowetz|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|art.reliure|atelier||1/2|« Bookbinding; Singing », Johanna Jalowetz (2017.40.050)|||fall,spring
+U|KW|Karen Karnes; David Weinrib|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|art.ceramique|atelier||2/3|« Ceramics », Karen Karnes; David Weinrib (2017.40.050) ; « potters-in-residence » arrivés à l'été 1952 (Duberman, ch. 13, p. 370-372)|||fall,spring
+U|CW|Carroll Williams|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|art.imprimerie|atelier||1/2|« Printing », Carroll Williams (2017.40.050)|||fall,spring
+U|TI|—|1x120L|MEME_ANNEE+ANNONCE+R_COMPET+VOLUME|art.tissage|atelier ; enseignant à nommer||1/3|« Weaving; Woodworking », enseignants à nommer (2017.40.050)|||fall,spring
+U|BO|—|1x120L|MEME_ANNEE+ANNONCE+R_COMPET+VOLUME|art.bois|atelier ; enseignant à nommer||1/3|idem|||fall,spring
+
+# ---------- MUSIQUE ET THÉÂTRE (S. Wolpe, J. Jalowetz, W. Huss) ----------
+C|mu.composition|Music|Musical Composition|Music (Harrison, 1951-52, domaine)|—
+C|mu.chant|Music|Singing|Voice (1951-52, domaine)|—
+C|th.theatre|Theatre|Theatre|Acting and Theatre (1951-52, domaine)|—
+C|th.approche|Theatre|Approach to Acting|—|—
+C|th.avance|Theatre|Advanced Acting|—|—
+C|th.production|Theatre|Production|—|—
+C|th.espace|Theatre|Space Design for Theatre|—|—
+C|th.mouvement|Theatre|Movement for Actors|—|—
+C|th.pretense|Theatre|Pretense for Dancers|—|—
+C|th.groupe|Theatre|Group Dynamics|—|—
+U|SW|Stefan Wolpe|2|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|mu.composition|||2/3|« Musical Composition », Stefan Wolpe (2017.40.050) ; Wolpe remplace Lou Harrison pendant sa bourse Guggenheim (Duberman, ch. 14, p. 382-383)|||fall,spring
+U|JJ1|Johanna Jalowetz|1|MEME_ANNEE+R_ATTESTE+ANNONCE+OCCASION|mu.chant|leçons individuelles||1/2|« Bookbinding; Singing », Johanna Jalowetz (2017.40.050)||plage indicative|fall,spring
+U|WH1|Wesley Huss|2|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|th.approche||th.avance;th.mouvement|1/3|« Theatre; Approach to Acting; Advanced Acting; Production; Space Design for Theatre; Movement for Actors; Pretense for Dancers; Group Dynamics », Wesley Huss (2017.40.050) ; huit cours, « from the actual (Approach to Acting) to the fanciful… to the bizarre » (Duberman, p. 369)|||fall,spring
+U|WH2|Wesley Huss|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|th.theatre|atelier|th.production|1/2|idem|||fall,spring
+N|th.espace|« fanciful » selon Duberman (p. 369) : titre de catalogue gonflé
+N|th.pretense|« bizarre » selon Duberman (p. 369) : titre de catalogue gonflé
+N|th.groupe|un des huit titres de Huss ; aucune trace de réalisation
+
+# ---------- ÉCRITURE, LANGUES, LITTÉRATURE (C. Olson, F. L. Shepard, H. Morley) ----------
+C|ecr.olson|Writing|The Act of Writing in the Context of Post-Modern Man|Writing (Olson, 1951-52)|—
+C|la.langues|Language|French, German or Spanish (introductory, advanced)|Languages (1951-52, domaine)|—
+C|la.intro|Language|Introduction to the Study of Language|Linguistics (1951-52, domaine)|—
+C|la.anglais|Language|History of the English Language|—|—
+C|la.problemes|Language|Problems in Linguistics|—|—
+C|la.caste|Language|Caste, Class and Prejudice in the Use of Language|—|—
+C|lit.19e|Literature|English Literature of the 19th Century|Literature (1951-52, domaine)|—
+C|lit.metaphysiques|Literature|The 17th-Century Metaphysicals|—|—
+C|lit.hebreu|Literature|Hebrew|—|—
+U|CO|Charles Olson|1x240|MEME_ANNEE+R_ATTESTE|ecr.olson|un soir par semaine||1|« The Act of Writing in the Context of Post-Modern Man », Charles Olson (2017.40.050) ; atelier d'écriture d'Olson « un soir par semaine », une séance de 19 h à 23 h (Duberman, ch. 14, p. 409-421)|jeu 19:00-23:00|jour choisi ; heure d'une séance racontée par Duberman|fall,spring
+U|FS1|Flola L. Shepard|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|la.langues|||2/3|« Introduction to the Study of Language; French, German or Spanish (introductory, advanced); History of the English Language; Problems in Linguistics; Caste, Class and Prejudice in the Use of Language », Flola L. Shepard (2017.40.050)|||fall,spring
+U|FS2|Flola L. Shepard|2|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|la.intro||la.anglais;la.problemes;la.caste|1/4|idem|||fall,spring
+U|HM1|Hilda Morley|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|lit.19e||lit.metaphysiques|1/2|« Hebrew; English Literature of the 19th Century; The 17th-Century Metaphysicals », Hilda Morley (2017.40.050) ; « Hilda Morley enseigne la littérature et l'hébreu » (Duberman, ch. 14, p. 382-383)|||fall,spring
+U|HM2|Hilda Morley|2|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|lit.hebreu|||1/2|idem|||fall,spring
+
+# ---------- SCIENCES (V. Sprague, N. Goldowski) ----------
+C|bio.fondements|Biology|Foundations (3 h lect. + 4 h lab.)|Natural Sciences (Sprague, 1951-52, domaine)|—
+C|bio.invertebres|Biology|Invertebrates (6 h)|—|—
+C|bio.vertebres|Biology|Vertebrates (10 h)|—|—
+C|bio.embryologie|Biology|Vertebrate Embryology (10 h)|—|—
+C|bio.genetique|Biology|Genetics (3 h)|—|—
+C|bio.developpement|Biology|Factors in Development (3 h)|—|—
+C|bio.terrain|Biology|Field Zoology (2 h + 4 h)|—|—
+C|bio.parasitologie|Biology|Animal Parasitology (2 h + 4 h)|—|—
+C|bio.microtechnique|Biology|Microtechnique (10 h)|—|—
+C|bio.problemes|Biology|Biological Problems|—|—
+C|sc.chimie|Science|Chemistry: Introductory|Introductory Physics; Physics and Chemistry (1950-51)|—
+C|sc.organique|Science|Chemistry: Organic|—|—
+C|sc.materiaux|Science|Chemistry: Properties of Plastics and Metals|—|—
+C|sc.physique|Science|Physics: Introductory|—|—
+C|sc.atome|Science|Physics: Atomic|—|—
+C|sc.avance|Science|Physics: Advanced|—|—
+C|sc.humanites|Science|Physics for Humanities Students|—|—
+C|sc.maths|Science|Mathematics: Elementary|Mathematics (Dehn, 1951-52, domaine)|—
+C|sc.mathsphys|Science|Mathematics applied to Physics|—|—
+U|VS|Victor Sprague|3+4L|MEME_ANNEE+R_ATTESTE+ANNONCE|bio.fondements|||1/3|« Biology: Foundations (3 h lect. + 4 h lab.) », Victor Sprague (2017.40.050 : volume donné) ; Sprague « couldn't drum up enough students for one course » (Duberman, p. 369)|||fall
+U|VSp|Victor Sprague|3+4L|MEME_ANNEE+R_ATTESTE+ANNONCE+PRESENCE|bio.fondements|||1/4|idem ; Sprague « left before the year was over » (Duberman, p. 369) : présence au printemps incertaine|=VS||spring
+N|bio.invertebres|un des dix titres de biologie du catalogue « gonflé » (Duberman, p. 369)
+N|bio.vertebres|idem
+N|bio.embryologie|idem
+N|bio.genetique|idem
+N|bio.developpement|idem
+N|bio.terrain|idem
+N|bio.parasitologie|idem
+N|bio.microtechnique|idem
+N|bio.problemes|idem
+U|NG|Natasha Goldowski|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME+PRESENCE|sc.chimie||sc.physique;sc.humanites|1/3|neuf cours au catalogue (2017.40.050) ; Goldowski « returned briefly to the college after her year's leave » (Duberman, p. 369) : automne seulement, présence incertaine|||fall
+N|sc.organique|un des neuf titres de Goldowski, revenue « briefly » (Duberman, p. 369)
+N|sc.materiaux|idem
+N|sc.atome|idem
+N|sc.avance|idem
+N|sc.maths|idem
+N|sc.mathsphys|idem
+
+# ---------- FERME (D. Jones, J. Rice) ----------
+C|fe.ferme|Farm|Farm: general crop farming, timber operations, beef cattle, dairying, swine, poultry, farm management; maintenance and repair|Farm Workshop (Trayer, 1950-51)|—
+U|FE|Doyle Jones; Jack Rice|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|fe.ferme|atelier||1/2|« Farm », Doyle Jones; Jack Rice (2017.40.050) ; « Other Training Areas » (Duberman, p. 369) ; Jack Rice démissionne en cours d'année (Duberman, p. 401-402)|||fall,spring
+
+# ---------- SUMMER SESSION OF THE ARTS 1953 (Duberman ; 2017.40.051) ----------
+C|ete.danse|Summer 1953|Dance: classes (Merce Cunningham and company)|—|—
+C|ete.peinture|Summer 1953|Painting|—|—
+U|E1|Merce Cunningham|1x120|MEME_ANNEE+R_ATTESTE+VOLUME+PRESENCE|ete.danse|cours du matin||1|« Six semaines de Cunningham : cours le matin, répétitions l'après-midi et le soir dans la salle à manger » (Duberman, ch. 14, p. 395-397, ¶1631-1635) ; Cunningham au récapitulatif des Summer Institutes 1951-53 (2017.40.051) ; six semaines sur huit|lun,mar,mer,jeu,ven 09:30-11:30|heure choisie dans « le matin »|summer
+U|E2|Esteban Vicente|3|MEME_ANNEE+R_ATTESTE+VOLUME|ete.peinture|||1|Vicente, peinture, « dernière session d'été » (Duberman, ch. 14, p. 372-396) ; Vicente au récapitulatif des Summer Institutes 1951-53 (2017.40.051)||volume et horaire supposés|summer

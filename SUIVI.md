@@ -36,6 +36,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 | 1949-50 | fait | 45 (aut. 18, print. 18, été 9) | 263 (~4 380) | 60,5 % (aut. 63, print. 65, été 42) | « speculation 1949-50 » |
 | 1950-51 | fait | 45 (aut. 13+5, print. 18, été 4+5) | 357 (~3 820) | 50,1 % (aut. 47, print. 62, été 39-41) | « speculation 1950-51 » |
 | 1951-52 | fait | 30 (aut. 15, print. 15 ; été non daté) | 112 (~1 680) | 65,1 % (cours seuls : 86 %) | « speculation 1951-52 » |
+| 1952-53 | fait | 44 (aut. 19 en 5 morceaux, print. 16 en 2, été 9) | 497 (~2 600) | 64,7 % (été 40) | « speculation 1952-53 » |
 
 ### Notes 1949-50
 - Sources : 2017.40.360 (corps enseignant de septembre 1949), 2017.40.048 (« courses given » 1949-50, sans semestre),
@@ -63,6 +64,14 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 - Été 1952 : pas de période attestée dans `calendrier_periodes.csv` → non reconstitué (Duberman seul).
 - **Questions** : M. C. Richards enseigne-t-elle en 1951-52 ? Dehn enseigne-t-il encore en 1951-52 ? Qui tient
   céramique, imprimerie, tissage et l'atelier du bois ?
+
+### Notes 1952-53
+- Catalogue 2017.40.050 (annonce) contre Duberman (« grotesquely padded ») : pas de conflit de dates ; titres gardés en
+  ANNONCE avec chances réduites ; 18 titres non programmés (biologie et sciences de Goldowski, titres « fanciful » de Huss).
+- Instituts en bandeaux sur leurs dates (Crafts, céramique, Theatre, New Sciences of Man, Natural Sciences).
+- Été 1953 d'après Duberman (Cunningham : cours le matin, répétitions après-midi et soir ; Vicente) et 2017.40.051.
+- **Questions** : dates réelles du séminaire « New Sciences of Man » (trois semaines) ; date du départ de Sprague ;
+  date de la mort de Max Dehn (Duberman ne la donne pas).
 
 ## Points à vérifier sur scan
 (aucun pour l'instant)

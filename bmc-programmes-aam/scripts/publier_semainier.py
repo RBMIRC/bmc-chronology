@@ -84,6 +84,16 @@ def main():
     V = {k: [v[0], "", v[2] if len(v) > 2 else ""] for k, v in V.items()}
     retraits["extraits de vérification (verification.js)"] = len(V)
     tailles["verification.js"] = ecrire_js(out, "verification.js", ent, aff, V)
+    # langues : fichier d'interface et traductions ; /en/ ouvre la version anglaise
+    shutil.copy(os.path.join(SEM, "i18n.js"), os.path.join(out, "i18n.js"))
+    if os.path.exists(os.path.join(SEM, "data_en.js")):
+        shutil.copy(os.path.join(SEM, "data_en.js"), os.path.join(out, "data_en.js")); tailles["data_en.js"] = os.path.getsize(os.path.join(out, "data_en.js"))
+    os.makedirs(os.path.join(out, "en"), exist_ok=True)
+    open(os.path.join(out, "en", "index.html"), "w", encoding="utf-8").write(
+        '<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Weekly calendar · Black Mountain College</title>'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">'
+        '<script>location.replace("../?lang=en" + location.hash);</script></head>'
+        '<body><a href="../?lang=en">Black Mountain College — weekly calendar (English)</a></body></html>\n')
     # scénario et synthèses : tels quels
     for nom in ("data_scenario.js", "data_syntheses.js"):
         shutil.copy(os.path.join(SEM, nom), os.path.join(out, nom)); tailles[nom] = os.path.getsize(os.path.join(out, nom))
@@ -113,7 +123,10 @@ def main():
     L += [f"| `{k}` | {v / 1e6:.1f} Mo |" for k, v in sorted(tailles.items()) if not k.startswith("spec/")]
     L += [f"| `spec/*.js` ({sum(1 for k in tailles if k.startswith('spec/'))} années, chargées à la demande) | {sum(v for k, v in tailles.items() if k.startswith('spec/')) / 1e6:.1f} Mo |",
           "", f"Total : {total / 1e6:.1f} Mo (servis compressés par GitHub Pages).", "",
-          "Bibliothèque d'affichage : Event Calendar (licence MIT), dans `lib/`."]
+          "Bibliothèque d'affichage : Event Calendar (licence MIT), dans `lib/`.", "",
+         "## English", "", "English version: https://rbmirc.github.io/week/en/ (or `?lang=en`). The interface, collections, scoring "
+         "rules and reconstructed activities are translated and reviewed; titles and notes written in French are machine-translated "
+         "(marked ≈, original French in each record); long syntheses remain in French."]
     open(os.path.join(out, "README.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
     print("\n".join(L[-12:]))
 

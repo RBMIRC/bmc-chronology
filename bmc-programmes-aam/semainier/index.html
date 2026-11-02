@@ -222,6 +222,7 @@
 <header>
   <h1>Semainier · Black Mountain College <small>d'après les fiches de l'Asheville Art Museum<span id="mention"></span></small></h1>
   <div class="grp">
+    <button id="langue" title="Français / English">EN</button>
     <button data-vue="journal" class="on" title="Les 7 jours de la semaine ; les options choisissent ce qui apparaît dans chaque jour">Semaine</button>
     <button data-vue="timeGridWeek" title="Grille horaire (lisible surtout pour les semaines à horaire attesté)">Grille</button>
     <button data-vue="presences">Présences</button>
@@ -255,6 +256,7 @@
 </main>
 <div id="voile"><div id="fiche"></div></div>
 
+<script src="i18n.js"></script>
 <script src="lib/event-calendar.min.js"></script>
 <script src="data.js"></script>
 <script src="data_scenario.js"></script>
@@ -331,6 +333,7 @@ const COLLECTIONS = [
   ["spec_cours", "Reconstitution (analyse croisée des documents)", "Emploi du temps reconstitué", "Reconstitué", "cours du trimestre placés d'après les catalogues, bulletins, listes de cours, fiches d'étudiants et témoignages", "#3b6ea5"],
   ["spec_vie", "Reconstitution (analyse croisée des documents)", "Vie commune reconstituée", "Reconstitué", "repas, travail, réunions et soirées du gabarit du trimestre", "#4c8c4a"],
 ];
+if (window.LANG === "en") COLLECTIONS.forEach(c => { const x = COL_EN[c[0]]; if (x) { c[2] = x[0]; c[3] = x[1]; c[4] = x[2]; } c[1] = GROUPES_EN[c[1]] || c[1]; });
 const COL = Object.fromEntries(COLLECTIONS.map(c => [c[0], { cle: c[0], groupe: c[1], nom: c[2], court: c[3], desc: c[4], coul: c[5] }]));
 const CAT_DOC = {}; (D.documents || []).forEach(d => { if (d.inv) CAT_DOC[d.inv] = d.categorie; });
 const livreDe = e => (e.extendedProps.src || "").replace(/,? p\..*$/, "").replace(/\s*\(.*$/, "").trim() || "livre non précisé";
@@ -348,18 +351,21 @@ function collection(e) {
 // date d'un fait daté au mois ou à la saison, en clair (« été 1936 », « août 1936 », « juin → août 1936 »)
 function dateLarge(e) {
   const p = e.extendedProps, brut = String(p.date_livre || p.date_src || p.date_scen || "");
-  const M = d => new Date(d + "T12:00").toLocaleDateString("fr-FR", { month: "long", year: "numeric" });
-  const NS = { spring: "printemps", summer: "été", fall: "automne", autumn: "automne", winter: "hiver", ete: "été", printemps: "printemps", automne: "automne", hiver: "hiver" };
+  const M = d => new Date(d + "T12:00").toLocaleDateString(LOC, { month: "long", year: "numeric" });
+  const NS = window.LANG === "en" ? { spring: "spring", summer: "summer", fall: "fall", autumn: "fall", winter: "winter", ete: "summer", "été": "summer", printemps: "spring", automne: "fall", hiver: "winter" }
+    : { spring: "printemps", summer: "été", fall: "automne", autumn: "automne", winter: "hiver", ete: "été", printemps: "printemps", automne: "automne", hiver: "hiver" };
   const sa = brut.toLowerCase().match(/spring|summer|fall|autumn|winter|ete|été|printemps|automne|hiver/);
   if (p.precision === "saison" && sa) return `${NS[sa[0]] || sa[0]} ${e.start.slice(0, 4)}`;
   const f = e.fin_periode || e.start;
   if (f.slice(0, 7) === e.start.slice(0, 7)) return M(e.start);
   return `${M(e.start).replace(" " + e.start.slice(0, 4), e.start.slice(0, 4) === f.slice(0, 4) ? "" : " " + e.start.slice(0, 4))} → ${M(f)}`;
 }
+// titre affiché dans la langue choisie ; « ≈ » signale une traduction automatique
+const titreTr = e => { const x = tr(e.title); return x.auto ? x.t + " ≈" : x.t; };
 const nomCourt = e => { const k = collection(e); return k === "livres" ? livreDe(e) : COL[k].court; };
 const badgeCol = e => { const k = collection(e), c = COL[k];
   return `<span class="couche cb" style="background:${k.startsWith("spec") ? "#fff" : c.coul};${k.startsWith("spec") ? "color:#6d6a63;border:1px dashed #6d6a63" : ""}" title="${esc(c.nom + " — " + c.desc)}">${esc(nomCourt(e))}</span>`; };
-const fmt = s => new Date(s.length === 10 ? s + "T12:00" : s).toLocaleDateString("fr-FR", {weekday:"long", day:"numeric", month:"long", year:"numeric"});
+const fmt = s => new Date(s.length === 10 ? s + "T12:00" : s).toLocaleDateString(LOC, {weekday:"long", day:"numeric", month:"long", year:"numeric"});
 
 const cleVerif = (id, p) => p.vkey || id;
 function garde(e) {
@@ -371,7 +377,21 @@ function garde(e) {
 let verifEnCours = null;
 const ficheOuverte = () => document.getElementById("voile").classList.contains("on");
 const PUBLIC = !!window.BMC_PUBLIC;
-if (PUBLIC) document.getElementById("mention").textContent = " · version publique : références sans extraits";
+if (PUBLIC) document.getElementById("mention").textContent = t(" · version publique : références sans extraits");
+// en-tête statique dans la langue choisie ; bouton de langue (garde la semaine affichée)
+(function traduireEntete() {
+  const b = document.getElementById("langue"); b.textContent = window.LANG === "en" ? "FR" : "EN";
+  b.title = window.LANG === "en" ? "Version française" : "English version";
+  b.onclick = () => { const u = new URL(location.href); u.searchParams.set("lang", window.LANG === "en" ? "fr" : "en"); try { localStorage.setItem("bmc-lang", u.searchParams.get("lang")); } catch (e) {} location.href = u.toString(); };
+  document.documentElement.lang = window.LANG;
+  if (window.LANG !== "en") return;
+  document.title = "Weekly calendar · Black Mountain College";
+  const w = document.createTreeWalker(document.querySelector("header"), NodeFilter.SHOW_TEXT);
+  const L = []; while (w.nextNode()) L.push(w.currentNode);
+  L.forEach(n => { const k = n.nodeValue.trim(); if (k && UI_EN[k] !== undefined) n.nodeValue = n.nodeValue.replace(k, UI_EN[k]); });
+  document.querySelectorAll("header [placeholder]").forEach(x => x.placeholder = t(x.placeholder));
+  document.querySelectorAll("header [title]").forEach(x => { if (UI_EN[x.title]) x.title = UI_EN[x.title]; });
+})();
 function chargerVerif() {
   if (window.BMC_VERIF) return Promise.resolve();
   return verifEnCours ||= new Promise((ok, ko) => { const sc = document.createElement("script"); sc.src = "verification.js";
@@ -481,19 +501,19 @@ function blocVerif(id, p) {
   if (PUBLIC) {
     if (!p.verif && !window.BMC_VERIF) return `<div class="verif" id="verifBloc"><b>Vérifier dans la source</b> · chargement…</div>`;
     const st = p.verif ? p.verif[0] : ((window.BMC_VERIF || {})[cleVerif(id, p)] || [])[0] || "";
-    return `<div class="verif"><b>Vérifier dans la source</b>${st ? ` <span class="st ${ST_CLASSE[st] || "relire"}">${esc(st)}</span>` : ""}${p.url ? ` · <a href="${esc(p.url.split(" ")[0])}" target="_blank">ouvrir la fiche du musée</a>` : ""}
-      <div class="legende">Version publique : la référence exacte est donnée ci-dessus ; les extraits des textes cités ne sont pas reproduits (droits des auteurs et des éditeurs).</div></div>`;
+    return `<div class="verif"><b>${t("Vérifier dans la source")}</b>${st ? ` <span class="st ${ST_CLASSE[st] || "relire"}">${esc(t(st))}</span>` : ""}${p.url ? ` · <a href="${esc(p.url.split(" ")[0])}" target="_blank">${t("ouvrir la fiche du musée")}</a>` : ""}
+      <div class="legende">${t("Version publique : la référence exacte est donnée ci-dessus ; les extraits des textes cités ne sont pas reproduits (droits des auteurs et des éditeurs).")}</div></div>`;
   }
   if (p.verif) { const sauve = window.BMC_VERIF; window.BMC_VERIF = { __: p.verif }; const h = blocVerif("__", { url: p.url, chronos: true }); window.BMC_VERIF = sauve; return h; }
   if (!window.BMC_VERIF) return `<div class="verif" id="verifBloc"><b>Vérifier dans la source</b> · chargement…</div>`;
   const v = BMC_VERIF[cleVerif(id, p)];
   if (!v) return `<div class="verif"><b>Vérifier dans la source</b> · <span class="legende">entrée non couverte par la dernière vérification (relancer scripts/verifier_sources.py)</span></div>`;
   const [st, ex, note] = v;
-  const lien = p.url ? ` · <a href="${esc(p.url.split(" ")[0])}" target="_blank">ouvrir la fiche du musée</a>` : "";
+  const lien = p.url ? ` · <a href="${esc(p.url.split(" ")[0])}" target="_blank">${t("ouvrir la fiche du musée")}</a>` : "";
   const txt = esc(ex).replace(/\x01/g, "<mark>").replace(/\x02/g, "</mark>");
-  return `<div class="verif"><b>Vérifier dans la source</b> <span class="st ${ST_CLASSE[st] || "relire"}">${esc(st)}</span>${lien}
-    <div class="legende">${esc(ST_TEXTE[st] || "")}${note ? " · " + esc(note) : ""}</div>
-    ${ex ? `<div class="ext">${txt}</div><div class="legende">Extrait du texte cité (${p.chronos ? "texte de la source" : p.duberman ? "Duberman, texte corrigé" : p.scenario ? "livre, page citée" : p.spec ? "document cité par le gabarit" : "OCR de la fiche du musée"}) ; surligné : ce qui a été retrouvé.</div>` : ""}</div>`;
+  return `<div class="verif"><b>${t("Vérifier dans la source")}</b> <span class="st ${ST_CLASSE[st] || "relire"}">${esc(t(st))}</span>${lien}
+    <div class="legende">${esc(t(ST_TEXTE[st] || ""))}${note ? " · " + esc(note) : ""}</div>
+    ${ex ? `<div class="ext">${txt}</div><div class="legende">${t("Extrait du texte cité")} (${t(p.chronos ? "texte de la source" : p.duberman ? "Duberman, texte corrigé" : p.scenario ? "livre, page citée" : p.spec ? "document cité par le gabarit" : "OCR de la fiche du musée")}) ; ${t("surligné : ce qui a été retrouvé.")}</div>` : ""}</div>`;
 }
 const JOURS_ABR = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"];
 const plusJours = (s, n) => { const x = new Date(s + "T12:00"); x.setDate(x.getDate() + n); return iso(x); };
@@ -551,7 +571,7 @@ function evenementsEntre(a, b) {
 const ec = EventCalendar.create(document.getElementById("cal"), {
   view: "timeGridWeek",
   date: "1944-03-27",
-  locale: "fr-FR",
+  locale: LOC,
   firstDay: 1,
   height: "100%",
   slotMinTime: "06:00", slotMaxTime: "24:00", scrollTime: "08:00",
@@ -580,8 +600,8 @@ const ec = EventCalendar.create(document.getElementById("cal"), {
     const p = info.event.extendedProps;
     const h = p.heure ? (/^\d/.test(p.heure) ? p.heure + " " : `[${p.heure}] `) : "";
     const b = p.pct ? `<span class="ev-b">${p.spec ? "spéc. " : ""}${p.pct} %</span>` : "";
-    if (p.duberman || p.chronos || p.scenario) return { html: `<div class="ec-event-title">${esc(h)}<b>${esc(nomCourt(info.event))}.</b> ${esc(info.event.title)}${b}</div>` };
-    return { html: `<div class="ec-event-title">${esc(h)}${esc(info.event.title)}${b}</div>` };
+    if (p.duberman || p.chronos || p.scenario) return { html: `<div class="ec-event-title">${esc(h)}<b>${esc(nomCourt(info.event))}.</b> ${esc(tx(info.event.title))}${b}</div>` };
+    return { html: `<div class="ec-event-title">${esc(h)}${esc(tx(info.event.title))}${b}</div>` };
   },
   eventClick: info => fiche(info.event),
   datesSet: info => { cote(info.start, info.end); majHash(); },
@@ -594,7 +614,7 @@ function cote(debut, fin) {
   let h = "";
   const pers = D.periodes.filter(p => { const d = p.debut || p.fin, f = p.fin || p.debut; return d < b && f >= a; });
   h += `<h2>Période</h2>` + (pers.length ? pers.map(p =>
-    `<div class="per"${p.spec ? ' style="border:1.5px dashed var(--gris);padding:3px 5px;background:#fff"' : ""}><b>${esc(p.libelle)}</b>${p.spec ? " <i>(calendrier spéculatif : " + esc(p.note) + ")</i>" : ""} · ${p.debut}${p.fin && p.fin !== p.debut ? " → " + p.fin : ""} ${pctTag(p.pct)}<br>
+    `<div class="per"${p.spec ? ' style="border:1.5px dashed var(--gris);padding:3px 5px;background:#fff"' : ""}><b>${esc(tx(p.libelle))}</b>${p.spec ? " <i>(calendrier spéculatif : " + esc(p.note) + ")</i>" : ""} · ${p.debut}${p.fin && p.fin !== p.debut ? " → " + p.fin : ""} ${pctTag(p.pct)}<br>
      <a href="${esc(p.url)}" target="_blank" class="legende" style="color:var(--gris)">${esc(p.src)}</a></div>`).join("")
     : `<div class="vide">Aucun trimestre ni vacances attestés pour ces dates.</div>`);
 
@@ -618,7 +638,7 @@ function cote(debut, fin) {
     for (const mo of mois) {
       const c = BMC_SYNTH.chroniques[mo]; if (!c) continue;
       const pp = (c.presents_probables || []).filter(p => !/invente/.test(p.certitude || ""));
-      h += `<h2>Chronique de ${new Date(mo + "-15T12:00").toLocaleDateString("fr-FR", { month: "long", year: "numeric" })} (d'après les livres)</h2>
+      h += `<h2>Chronique de ${new Date(mo + "-15T12:00").toLocaleDateString(LOC, { month: "long", year: "numeric" })} (d'après les livres)</h2>
         <div class="chron"><div class="legende">Synthèse rédigée par un modèle de langage à partir des fiches de lecture des livres et études, non relue : à lire avec ses références.</div>
         ${c.session ? `<p><b>Session.</b> ${esc(c.session)}</p>` : ""}${c.situation ? `<p>${esc(c.situation)}</p>` : ""}
         ${(c.evenements || []).length ? `<p><b>Ce qui arrive.</b></p>` + c.evenements.map(e => `<p>· ${esc(e.date || "")} ${esc(e.ce_qui_arrive || "")} <span class="legende">(${esc(e.certitude || "")})</span> ${refsHtml(e.refs)}</p>`).join("") : ""}
@@ -655,7 +675,7 @@ function cote(debut, fin) {
   if (etat.dub) {
     const dp = D.duberman_panneau.filter(e => e.start < b && e.fin_periode >= a && garde(e));
     const duree = e => (new Date(e.fin_periode) - new Date(e.start)) / 864e5;
-    const ligneDub = e => `<div class="dubp" data-k="${D.duberman_panneau.indexOf(e)}">${esc(e.title)} <span class="q legende">· ${esc(e.extendedProps.date_livre)}</span> ${pctTag(e.extendedProps.pct)}</div>`;
+    const ligneDub = e => `<div class="dubp" data-k="${D.duberman_panneau.indexOf(e)}">${esc(titreTr(e))} <span class="q legende">· ${esc(e.extendedProps.date_livre)}</span> ${pctTag(e.extendedProps.pct)}</div>`;
     const court = dp.filter(e => duree(e) <= 122), long = dp.filter(e => duree(e) > 122);
     if (dp.length) h += `<h2>Duberman (1972) : ${dp.length} fait${dp.length > 1 ? "s" : ""} datés de façon imprécise</h2>
       <div class="legende">Datés au mois, à la saison ou à l'année dans le livre : la période couvre ces jours, l'événement n'est pas placé dans la grille.</div>` +
@@ -665,12 +685,12 @@ function cote(debut, fin) {
   if (etat.chr) {
     const cp = CHR.panneau.filter(e => e.start < b && e.fin_periode >= a && garde(e));
     if (cp.length) h += `<h2>Témoignages, Silver, compléments : ${cp.length} fait${cp.length > 1 ? "s" : ""} datés au mois ou plus</h2>` +
-      cp.map(e => `<div class="chrp" data-k="${CHR.panneau.indexOf(e)}">${esc(e.title)} <span class="legende">· ${esc(e.extendedProps.date_src)} · ${esc(COL[collection(e)].nom)}</span> ${pctTag(e.extendedProps.pct)}</div>`).join("");
+      cp.map(e => `<div class="chrp" data-k="${CHR.panneau.indexOf(e)}">${esc(titreTr(e))} <span class="legende">· ${esc(e.extendedProps.date_src)} · ${esc(COL[collection(e)].nom)}</span> ${pctTag(e.extendedProps.pct)}</div>`).join("");
   }
   if (etat.scen) {
     const duree = e => (new Date(e.fin_periode) - new Date(e.start)) / 864e5;
     const sp = SC.panneau.filter(e => e.start < b && e.fin_periode >= a && garde(e));
-    const ligneS = e => `<div class="scenp" data-k="${SC.panneau.indexOf(e)}">${esc(e.title)} <span class="legende">· ${esc(e.extendedProps.date_scen)} · ${esc(e.extendedProps.src.split(", p.")[0])}</span> ${pctTag(e.extendedProps.pct)}</div>`;
+    const ligneS = e => `<div class="scenp" data-k="${SC.panneau.indexOf(e)}">${esc(titreTr(e))} <span class="legende">· ${esc(e.extendedProps.date_scen)} · ${esc(e.extendedProps.src.split(", p.")[0])}</span> ${pctTag(e.extendedProps.pct)}</div>`;
     const court = sp.filter(e => duree(e) <= 45), moyen = sp.filter(e => duree(e) > 45 && duree(e) <= 122), long = sp.filter(e => duree(e) > 122);
     if (sp.length) h += `<h2>Autres livres et études : ${sp.length} fait${sp.length > 1 ? "s" : ""} datés de façon imprécise</h2>
       <div class="legende">Extraction automatique (non relue) de 60 livres. Datées au mois, à la saison, à la session ou à l'année : non placées dans la grille.</div>` +
@@ -738,6 +758,7 @@ function cote(debut, fin) {
     Cliquer une activité ouvre sa fiche : source exacte, part déduite et motifs.</div>
     <p id="info">Données générées le ${D.genere} · ${D.events.length} activités attestées (AAM) · ${D.duberman.length + D.duberman_panneau.length} événements Duberman · ${SC.grille.length + SC.panneau.length} faits tirés de 52 livres et études · ${D.documents.length} documents · calendrier : Event Calendar (MIT, vkurko).</p>`;
   const el = document.getElementById("cote");
+  if (window.LANG === "en") h = traduireHtml(h);
   el.innerHTML = h;
   const la = el.querySelector("#lireAnalyse");
   if (la) la.onclick = ev => { ev.preventDefault(); analyse(la.dataset.k); };
@@ -759,32 +780,34 @@ function fiche(ev) {
   const invs = p.inv.split(" ; "), urls = p.url.split(" "), srcs = p.src.split(" ; ");
   const doc = invs[0] ? D.documents.find(x => x.inv === invs[0]) : null;
   const liens = srcs.map((t, i) => `<a href="${esc(urls[i] || "")}" target="_blank">${esc(t)}</a>`).join("<br>");
-  const ligne = (k, v) => v ? `<dt>${k}</dt><dd>${v}</dd>` : "";
+  const ligne = (k, v) => v ? `<dt>${t(k)}</dt><dd>${v}</dd>` : "";
   document.getElementById("fiche").innerHTML = `
-    <button class="fermer" onclick="fermer()">fermer</button>
-    <h3>${esc(ev.title)}</h3>
-    <div>${fmt(d)}${p.heure ? " · " + esc(p.heure) : ""}${p.fin ? "–" + esc(p.fin) : ""} · ${esc(p.type)}</div>
+    <button class="fermer" onclick="fermer()">${t("fermer")}</button>
+    <h3>${esc(tr(ev.title).t)}</h3>${tr(ev.title).t !== ev.title ? `<div class="legende">${t("Original (français)")} : ${esc(ev.title)}${tr(ev.title).auto ? " · " + t("traduction automatique") : ""}</div>` : ""}
+    <div>${fmt(d)}${p.heure ? " · " + esc(p.heure) : ""}${p.fin ? "–" + esc(p.fin) : ""} · ${esc(t(p.type))}</div>
     <dl>
       ${ligne("Collection", `<b>${esc(COL[collection(ev)].nom)}</b>${collection(ev) === "livres" ? " : " + esc(livreDe(ev)) : ""}<br><span class="legende">${esc(COL[collection(ev)].groupe)} · ${esc(COL[collection(ev)].desc)}</span>`)}
-      ${ligne("Qui", esc(p.qui))}
+      ${ligne("Qui", esc(window.LANG === "en" ? (p.qui || "").replace(/Communauté/g, "Community") : p.qui))}
       ${ligne("Lieu", esc(p.lieu) + (lieuDe(p.lieu) ? ` <span class="dossier-lien" onclick="ouvrirLieu('${esc(lieuDe(p.lieu)).replace(/'/g, "\\'")}')" title="ce lieu selon les livres">ⓘ ${esc(lieuDe(p.lieu))}</span>` : ""))}
-      ${ligne("Note", esc(p.note))}
-      ${ligne("Part déduite", pctTag(p.pct) + " " + esc(p.motifs))}
+      ${ligne("Note", esc(tx(p.note)) + (window.LANG === "en" && p.note && tx(p.note) !== p.note ? `<br><span class="legende">${t("Original (français)")} : ${esc(p.note)}</span>` : ""))}
+      ${ligne("Part déduite", pctTag(p.pct) + " " + esc(trMotifs(p.motifs)))}
       ${ligne("Récurrence", p.rec ? "occurrence calculée à partir d'une récurrence (grille, « chaque lundi »…)" : "")}
-      ${ligne("Affichage", esc(p.placement))}
-      ${ligne("Couche", p.spec ? `<b>spéculative</b> : reconstitution, pas un fait attesté · ${esc(p.terme)}, semaine ${p.semaine} · codes ${esc(p.codes)} · <a href="#" onclick="analyse('${esc(p.annee)}');return false">analyse de l'année</a>` : "")}
+      ${ligne("Affichage", esc(tx(p.placement)))}
+      ${ligne("Couche", p.spec ? (window.LANG === "en"
+          ? `<b>speculative</b>: reconstruction, not an attested fact · ${esc(tx(p.terme))}, week ${p.semaine} · codes ${esc(p.codes)} · <a href="#" onclick="analyse('${esc(p.annee)}');return false">analysis of the year (in French)</a>`
+          : `<b>spéculative</b> : reconstitution, pas un fait attesté · ${esc(p.terme)}, semaine ${p.semaine} · codes ${esc(p.codes)} · <a href="#" onclick="analyse('${esc(p.annee)}');return false">analyse de l'année</a>`) : "")}
       ${p.unite ? ligne("Cours du catalogue", `<b>${esc(p.cours_catalogue)}</b>${p.precision ? " — " + esc(p.precision) : ""}<br><span class="legende">${esc(p.discipline)} · « Courses of Instruction » 1935-36 (2017.40.011, scans 011-08/09) · unité ${esc(p.unite)}</span>`) : ""}
       ${p.unite ? ligne("Parts déduites", `case ${esc(p.part_case_pct)} % · titre ${esc(p.part_titre_pct)} % (chance ${esc(p.chance)}) → total ${p.pct} %`) : ""}
       ${p.candidats ? ligne("Autres cours possibles", p.candidats.split(" | ").map(esc).join("<br>")) : ""}
       ${p.unite ? ligne("Rattachement", esc(p.rattachement)) : ""}
       ${p.unite ? ligne("Année précédente", esc(p.equivalent_avant)) : ""}
       ${p.unite ? ligne("Année suivante", esc(p.equivalent_apres)) : ""}
-      ${p.duberman ? ligne("Couche", `<b>Duberman</b> : événement tiré du livre (${esc(p.categorie)}) · date dans le livre : ${esc(p.date_livre)}`) : ""}
+      ${p.duberman ? ligne("Couche", window.LANG === "en" ? `<b>Duberman</b>: event drawn from the book (${esc(t(p.categorie))}) · date in the book: ${esc(p.date_livre)}` : `<b>Duberman</b> : événement tiré du livre (${esc(p.categorie)}) · date dans le livre : ${esc(p.date_livre)}`) : ""}
       ${p.duberman ? ligne("Source", `${esc(p.src)}<br><span class="legende">chapitre ${esc(p.chapitre)} · p. ${esc(p.page)} · ${esc(p.paragraphe)}</span>`) : p.scenario ? "" : ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
-      ${p.duberman && p.notes ? ligne("Notes de Duberman", `<details><summary>source primaire citée</summary>${esc(p.notes)}</details>`) : ""}
+      ${p.duberman && p.notes ? ligne("Notes de Duberman", `<details><summary>${t("source primaire citée")}</summary>${esc(p.notes)}</details>`) : ""}
       ${p.duberman && p.aam && p.aam.length ? ligne("Même jour (AAM)", p.aam.map(r => `<div class="renvoi">rapprochement possible : ${esc(r.activite)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span></div>`).join("")) : ""}
-      ${p.chronos ? ligne("Couche", `<b>${esc(COL[collection(ev)].nom)}</b> · ${/Rumaker/.test(p.source_chronos) ? "dépouillement manuel du texte corrigé" : /^Livres/.test(p.source_chronos) ? "phrase datée tirée automatiquement des textes des PDF (novembre 2026), à relire" : "extraction automatique de décembre 2025, à relire"} · ${esc(p.statut)} · date dans la source : ${esc(p.date_src)}`) : ""}
-      ${p.scenario ? ligne("Couche", `<b>${esc(livreDe(ev))}</b> : ${p.categorie === "scene" ? "scène" : "événement"} extrait automatiquement du livre (non relu) · certitude : ${esc(p.certitude)} · date dans le scénario : ${esc(p.date_scen)}`) : ""}
+      ${p.chronos ? ligne("Couche", `<b>${esc(COL[collection(ev)].nom)}</b> · ${t(/Rumaker/.test(p.source_chronos) ? "dépouillement manuel du texte corrigé" : /^Livres/.test(p.source_chronos) ? "phrase datée tirée automatiquement des textes des PDF (novembre 2026), à relire" : "extraction automatique de décembre 2025, à relire")} · ${esc(t(p.statut))} · ${t("date dans la source")} : ${esc(p.date_src)}`) : ""}
+      ${p.scenario ? ligne("Couche", `<b>${esc(livreDe(ev))}</b> : ${window.LANG === "en" ? `${p.categorie === "scene" ? "scene" : "event"} drawn automatically from the book (unreviewed) · certainty: ${esc(p.certitude)} · date given: ${esc(p.date_scen)}` : `${p.categorie === "scene" ? "scène" : "événement"} extrait automatiquement du livre (non relu) · certitude : ${esc(p.certitude)} · date dans le scénario : ${esc(p.date_scen)}`}`) : ""}
       ${p.scenario ? ligne("Source", esc(p.src)) : ""}
       ${p.scenario && p.versions ? ligne("Autres versions", `<details><summary>selon d'autres livres</summary><span class="legende">${esc(p.versions)}</span></details>`) : ""}
       ${p.scenario && p.recoupement ? ligne("Recoupement", p.recoupement.split(" || ").map(r => `<div class="renvoi rs">${esc(r)}</div>`).join("")) : ""}
@@ -836,7 +859,7 @@ function srcCourt(p) {
 }
 function titreSemaine(lun) {
   const a = new Date(lun + "T12:00"), b = new Date(plusJours(lun, 6) + "T12:00");
-  const f = (d, o) => d.toLocaleDateString("fr-FR", o);
+  const f = (d, o) => d.toLocaleDateString(LOC, o);
   return a.getMonth() === b.getMonth() ? `${a.getDate()} – ${f(b, { day: "numeric", month: "long", year: "numeric" })}`
     : `${f(a, { day: "numeric", month: "long" })} – ${f(b, { day: "numeric", month: "long", year: "numeric" })}`;
 }
@@ -867,7 +890,8 @@ function dessinerFrise(lun) {
   c.title = "Cliquer pour aller à cette semaine";
 }
 // ---- semainier : les 7 jours côte à côte ; les options (collections) choisissent ce qui apparaît dans chaque jour
-const OPTIONS = COLLECTIONS.map(c => [c[0], c[2], c[4], c[5], c[1]]).concat([["periode", "Faits datés au mois ou à la saison", "faits sans jour précis dont la période couvre la semaine (bande au-dessus des jours)", "#7d6a55", "Précision de la date"]]);
+const OPTIONS = COLLECTIONS.map(c => [c[0], c[2], c[4], c[5], c[1]]).concat([window.LANG === "en" ? ["periode", "Facts dated to the month or season", "facts without an exact day whose period covers the week (band above the days)", "#7d6a55", "Date precision"]
+                                 : ["periode", "Faits datés au mois ou à la saison", "faits sans jour précis dont la période couvre la semaine (bande au-dessus des jours)", "#7d6a55", "Précision de la date"]]);
 const VIS = (() => { const d = Object.fromEntries(OPTIONS.map(o => [o[0], true]));
   try { Object.assign(d, JSON.parse(localStorage.getItem("bmc-vis2") || "{}")); } catch (e) {} return d; })();
 const LIVRES_EXCLUS = (() => { try { return new Set(JSON.parse(localStorage.getItem("bmc-livres-exclus") || "[]")); } catch (e) { return new Set(); } })();
@@ -896,44 +920,44 @@ function rendreJournal() {
   const per = D.periodes.filter(p => { const a = p.debut || p.fin, b = p.fin || p.debut; return a < fin && b >= lun; });
   const perTxt = [...new Set(per.map(p => p.libelle))];
   let h = `<div class="j-tete"><h2>${titreSemaine(lun)}</h2>
-    <span class="j-nav"><button onclick="aller(plusJours('${lun}', -7))">◀ semaine</button> <button onclick="aller(plusJours('${lun}', 7))">semaine ▶</button></span>
-    <span class="per">${perTxt.length ? perTxt.slice(0, 3).map(esc).join(" · ") : "hors période de cours attestée"}</span>
-    <button class="ctx${contexteOuvert ? " on" : ""}" onclick="basculerContexte()">Contexte de la semaine ${contexteOuvert ? "▾" : "▸"}</button></div>
-    <canvas id="frise"></canvas><div class="frise-leg"><span>1933</span><span>barres : faits attestés de la semaine · fond gris : semaine reconstituée · trait rouge : semaine affichée</span><span>1957</span></div>
+    <span class="j-nav"><button onclick="aller(plusJours('${lun}', -7))">${t("◀ semaine")}</button> <button onclick="aller(plusJours('${lun}', 7))">${t("semaine ▶")}</button></span>
+    <span class="per">${perTxt.length ? perTxt.slice(0, 3).map(x => esc(tx(x))).join(" · ") : t("hors période de cours attestée")}</span>
+    <button class="ctx${contexteOuvert ? " on" : ""}" onclick="basculerContexte()">${t("Contexte de la semaine")} ${contexteOuvert ? "▾" : "▸"}</button></div>
+    <canvas id="frise"></canvas><div class="frise-leg"><span>1933</span><span>${t("barres : faits attestés de la semaine · fond gris : semaine reconstituée · trait rouge : semaine affichée")}</span><span>1957</span></div>
     <div class="opts">${[...new Set(OPTIONS.map(o => o[4]))].map(g => `<div class="opt-g"><span class="opt-gt">${esc(g)}</span>${OPTIONS.filter(o => o[4] === g).map(([k, lib, tit, c]) =>
         `<label class="opt${VIS[k] ? " on" : ""}${nb[k] ? "" : " zero"}" title="${esc(tit)}"><input type="checkbox" data-o="${k}"${VIS[k] ? " checked" : ""}><i style="background:${c}${k.startsWith("spec") ? ";border:1.5px dashed #fff;outline:1px dashed " + c : ""}"></i>${esc(lib)} <b>${nb[k]}</b></label>`).join("")}</div>`).join("")}
-      <div class="opts-tout"><a href="#" data-tout="1">tout</a> · <a href="#" data-tout="0">rien</a> · <a href="#" data-tout="att" title="documents du collège lus et relus, Duberman et Rumaker dépouillés">sources relues seulement</a></div></div>
-    ${livresSemaine.length ? `<details class="livres-sel"${VIS.livres ? "" : " hidden"}><summary>Autres livres et études cette semaine : ${livresSemaine.length} titre${livresSemaine.length > 1 ? "s" : ""} — choisir</summary><div>${livresSemaine.map(([t, n]) =>
+      <div class="opts-tout"><a href="#" data-tout="1">${t("tout")}</a> · <a href="#" data-tout="0">${t("rien")}</a> · <a href="#" data-tout="att" title="${t("documents du collège lus et relus, Duberman et Rumaker dépouillés")}">${t("sources relues seulement")}</a></div></div>
+    ${livresSemaine.length ? `<details class="livres-sel"${VIS.livres ? "" : " hidden"}><summary>${t("Autres livres et études cette semaine")} : ${livresSemaine.length} ${t(livresSemaine.length > 1 ? "titres" : "titre")} — ${t("choisir")}</summary><div>${livresSemaine.map(([t, n]) =>
         `<label class="opt${LIVRES_EXCLUS.has(t) ? "" : " on"}"><input type="checkbox" data-livre="${esc(t)}"${LIVRES_EXCLUS.has(t) ? "" : " checked"}>${esc(t)} <b>${n}</b></label>`).join("")}</div></details>` : ""}`;
   // bande des faits datés au mois ou à la saison
   const largesVus = larges.filter(e => VIS[e._g] && !(e._g === "livres" && LIVRES_EXCLUS.has(livreDe(e))));
   if (VIS.periode && largesVus.length) {
-    const M = d => new Date(d + "T12:00").toLocaleDateString("fr-FR", { month: "short", year: "numeric" });
-    h += `<details class="bande" open><summary>Datés au mois ou à la saison, sans jour précis (${largesVus.length})</summary><div class="bande-l">${largesVus.map(e => {
+    const M = d => new Date(d + "T12:00").toLocaleDateString(LOC, { month: "short", year: "numeric" });
+    h += `<details class="bande" open><summary>${t("Datés au mois ou à la saison, sans jour précis")} (${largesVus.length})</summary><div class="bande-l">${largesVus.map(e => {
       const i = EVJ.push(e) - 1, p = e.extendedProps, [ck, cl] = couche(p);
-      return `<span class="b-it" data-i="${i}" title="${esc(srcCourt(p))}"><span class="b-d">${esc(dateLarge(e))}</span> ${esc(e.title)} ${badgeCol(e)}${pctTag(+p.pct)}</span>`; }).join("")}</div></details>`;
+      return `<span class="b-it" data-i="${i}" title="${esc(srcCourt(p))}"><span class="b-d">${esc(dateLarge(e))}</span> ${esc(titreTr(e))} ${badgeCol(e)}${pctTag(+p.pct)}</span>`; }).join("")}</div></details>`;
   }
   // 7 colonnes
   const fam = e => (FAM_DE[e.extendedProps.type] || FAMILLES[4])[2];
   const carte = e => { const i = EVJ.push(e) - 1, p = e.extendedProps;
     const hr = e.allDay ? (p.heure && !/^\d/.test(p.heure) ? p.heure : "") : e.start.slice(11, 16);
-    return `<div class="it${p.spec ? " spec" : ""}" data-i="${i}" style="border-left-color:${fam(e)}" title="${esc(e.title + (p.qui ? " · " + p.qui : "") + " · " + srcCourt(p))}">
-      ${hr ? `<span class="h">${esc(hr)}</span>` : ""}<span class="t">${esc(e.title)}</span>
+    return `<div class="it${p.spec ? " spec" : ""}" data-i="${i}" style="border-left-color:${fam(e)}" title="${esc(tx(e.title) + (p.qui ? " · " + p.qui : "") + " · " + srcCourt(p))}">
+      ${hr ? `<span class="h">${esc(hr)}</span>` : ""}<span class="t">${esc(titreTr(e))}</span>
       <span class="pied">${badgeCol(e)}<span class="cert">${certitude(p)}</span>${pctTag(+p.pct)}</span></div>`; };
   const groupe = (hr, L, spec) => { const it = L.map(e => { const i = EVJ.push(e) - 1, p = e.extendedProps;
-      return `<span class="g-it" data-i="${i}" title="${esc(e.title + (p.qui ? " · " + p.qui : "") + " · part déduite " + p.pct + " %")}">${esc(e.title)}${p.qui ? ` <small>${esc(p.qui.split(";")[0])}</small>` : ""}</span>`; }).join("");
+      return `<span class="g-it" data-i="${i}" title="${esc(tx(e.title) + (p.qui ? " · " + p.qui : "") + " · " + t("Part déduite") + " " + p.pct + " %")}">${esc(titreTr(e))}${p.qui ? ` <small>${esc(p.qui.split(";")[0])}</small>` : ""}</span>`; }).join("");
     const moy = Math.round(L.reduce((t, e) => t + +e.extendedProps.pct, 0) / L.length);
-    return `<div class="it grp${spec ? " spec" : ""}" style="border-left-color:#3b6ea5"><span class="h">${hr}</span><span class="t">${L.length} cours ${spec ? "reconstitués" : "attestés"}</span>
-      <span class="g">${it}</span><span class="pied">${badgeCol(L[0])}${spec ? `moy. ${pctTag(moy)}` : `<span class="cert">●●●</span>`}</span></div>`; };
+    return `<div class="it grp${spec ? " spec" : ""}" style="border-left-color:#3b6ea5"><span class="h">${hr}</span><span class="t">${L.length} ${t(spec ? "cours reconstitués" : "cours attestés")}</span>
+      <span class="g">${it}</span><span class="pied">${badgeCol(L[0])}${spec ? `${t("moy.")} ${pctTag(moy)}` : `<span class="cert">●●●</span>`}</span></div>`; };
   const semaineEntiere = vus.filter(e => e.allDay && e.end && e.end.slice(0, 10) >= plusJours(e.start.slice(0, 10), 7));
   // récurrences attestées (« chaque jour », « chaque lundi ») : une ligne pour la semaine, pas une case par jour
   const grpR = {};
   vus.filter(e => e.extendedProps.rec && !e.extendedProps.spec && !estCours(e)).forEach(e => (grpR[e.title + "|" + (e.allDay ? "" : e.start.slice(11, 16))] ||= []).push(e));
   const recur = Object.values(grpR).filter(L => new Set(L.map(e => e.start.slice(0, 10))).size >= 2);
   recur.flat().forEach(e => semaineEntiere.push(e));
-  if (recur.length) h += `<div class="bande rec"><b class="rec-t">Chaque jour ou chaque semaine</b> <span class="legende">(récurrence attestée par un document)</span><div class="bande-l">${recur.map(L => {
+  if (recur.length) h += `<div class="bande rec"><b class="rec-t">${t("Chaque jour ou chaque semaine")}</b> <span class="legende">${t("(récurrence attestée par un document)")}</span><div class="bande-l">${recur.map(L => {
       const e = L[0], i = EVJ.push(e) - 1, p = e.extendedProps, js = [...new Set(L.map(x => JOURS_ABR[(new Date(x.start.slice(0, 10) + "T12:00").getDay() + 6) % 7]))];
-      return `<span class="b-it" data-i="${i}" title="${esc(e.title)}"><span class="b-d">${e.allDay ? "" : e.start.slice(11, 16) + " · "}${js.join(", ")}</span> ${esc(e.title.length > 110 ? e.title.slice(0, 108) + "…" : e.title)} <span class="couche aam">AAM</span>${pctTag(+p.pct)}</span>`; }).join("")}</div></div>`;
+      return `<span class="b-it" data-i="${i}" title="${esc(tx(e.title))}"><span class="b-d">${e.allDay ? "" : e.start.slice(11, 16) + " · "}${js.join(", ")}</span> ${esc((x => x.length > 110 ? x.slice(0, 108) + "…" : x)(titreTr(e)))} ${badgeCol(e)}${pctTag(+p.pct)}</span>`; }).join("")}</div></div>`;
   h += `<div class="sem-grid">`;
   for (let k = 0; k < 7; k++) {
     const d = plusJours(lun, k), dd = new Date(d + "T12:00");
@@ -952,14 +976,19 @@ function rendreJournal() {
       } else { vus2.add(e); corps += carte(e); }
     }
     const nAtt = L.filter(e => !e.extendedProps.spec).length, nSpc = L.length - nAtt;
-    h += `<div class="sem-col${L.length ? "" : " vide"}"><div class="sem-j"><b>${dd.toLocaleDateString("fr-FR", { weekday: "long" })}</b> ${dd.toLocaleDateString("fr-FR", { day: "numeric", month: "short" })}
-      <small>${nAtt ? nAtt + " attesté" + (nAtt > 1 ? "s" : "") : ""}${nAtt && nSpc ? " · " : ""}${nSpc ? nSpc + " reconst." : ""}</small></div>${corps || `<div class="rien">—</div>`}</div>`;
+    h += `<div class="sem-col${L.length ? "" : " vide"}"><div class="sem-j"><b>${dd.toLocaleDateString(LOC, { weekday: "long" })}</b> ${dd.toLocaleDateString(LOC, { day: "numeric", month: "short" })}
+      <small>${nAtt ? nAtt + " " + t(nAtt > 1 ? "attestés" : "attesté") : ""}${nAtt && nSpc ? " · " : ""}${nSpc ? nSpc + " " + t("reconst.") : ""}</small></div>${corps || `<div class="rien">—</div>`}</div>`;
   }
   h += `</div>`;
   const toute = semaineEntiere.filter(e => !recur.flat().includes(e));
-  if (toute.length) h += `<div class="j-semaine">Toute la semaine : ${toute.map(e => { const i = EVJ.push(e) - 1; return `<span class="lien" data-i="${i}">${esc(e.title)}</span> ${pctTag(+e.extendedProps.pct)}`; }).join(" · ")}</div>`;
+  if (toute.length) h += `<div class="j-semaine">${t("Toute la semaine")} : ${toute.map(e => { const i = EVJ.push(e) - 1; return `<span class="lien" data-i="${i}">${esc(titreTr(e))}</span> ${pctTag(+e.extendedProps.pct)}`; }).join(" · ")}</div>`;
   const anneesSpec = [...new Set(tous.filter(e => e.extendedProps.spec).map(e => e.extendedProps.annee))];
-  h += `<details class="j-leg"><summary>Lire les marques et la reconstitution</summary>Certitude <b>●●●</b> part déduite &lt; 10 % · <b>●●○</b> 10-29 % · <b>●○○</b> 30-59 % · <b>○○○</b> 60 % et plus.
+  h += window.LANG === "en"
+    ? `<details class="j-leg"><summary>${t("Lire les marques et la reconstitution")}</summary>Certainty <b>●●●</b> deduced share &lt; 10 % · <b>●●○</b> 10-29 % · <b>●○○</b> 30-59 % · <b>○○○</b> 60 % or more.
+      Boxes <i>in italics, with a dotted rule</i> are reconstructed: the term timetable established by cross-analysing catalogues, bulletins, course lists, student records and testimonies, then applied to each teaching week; each keeps its deduced share and the reasons for it.
+      Titles marked ≈ are machine translations from French (the original is in the record).
+      ${anneesSpec.map(a => `<a href="#" onclick="analyse('${esc(a)}');return false">Analysis ${esc(a)} and scoring (in French)</a>`).join(" · ")} Click a box: source, deduced share and verification.</details>`
+    : `<details class="j-leg"><summary>Lire les marques et la reconstitution</summary>Certitude <b>●●●</b> part déduite &lt; 10 % · <b>●●○</b> 10-29 % · <b>●○○</b> 30-59 % · <b>○○○</b> 60 % et plus.
       Les cases <i>en italique, filet pointillé</i> sont reconstituées : emploi du temps du trimestre établi par l'analyse croisée des catalogues, bulletins, listes de cours, fiches d'étudiants et témoignages, puis appliqué à chaque semaine de cours ; chacune garde sa part déduite et ses motifs.
       ${anneesSpec.map(a => `<a href="#" onclick="analyse('${esc(a)}');return false">Analyse ${esc(a)} et barème</a>`).join(" · ")} Cliquer une case : source, part déduite et vérification.</details>`;
   const J = document.getElementById("journal"); J.innerHTML = h;
@@ -980,7 +1009,7 @@ function maj() {
   const v = ec.getView(); cote(v.currentStart, v.currentEnd); majHash(); rendreJournal();
 }
 const fams = document.getElementById("familles");
-FAMILLES.forEach(([k, lib, c]) => {
+FAMILLES.forEach(([k, lib, c]) => { lib = t(lib);
   const l = document.createElement("label"); l.className = "fam";
   l.innerHTML = `<input type="checkbox" checked><i style="background:${c}"></i>${lib}`;
   l.querySelector("input").onchange = e => { e.target.checked ? etat.familles.add(k) : etat.familles.delete(k); maj(); };
@@ -1022,11 +1051,11 @@ document.getElementById("precSem").onclick = () => voisin(-1);
 const rep = document.getElementById("reperes");
 const parSem = {};
 D.events.forEach(e => { const d = new Date(e.start.slice(0, 10) + "T12:00"); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); const k = iso(d); parSem[k] = (parSem[k] || 0) + 1; });
-rep.innerHTML += `<optgroup label="Années reconstituées (spéculatif)">${Object.entries(D.spec || {}).map(([k, Y]) => `<option value="${Y.semaines[0].lundi}">${k} · ${Y.semaines.length} semaines</option>`).join("")}</optgroup>`;
+rep.innerHTML += `<optgroup label="${t("Années reconstituées (spéculatif)")}">${Object.entries(D.spec || {}).map(([k, Y]) => `<option value="${Y.semaines[0].lundi}">${k} · ${Y.semaines.length} ${t("semaines")}</option>`).join("")}</optgroup>`;
 const plusDoc = Object.entries(parSem).sort((x, y) => y[1] - x[1]).slice(0, 12).sort();
-rep.innerHTML += `<optgroup label="Semaines les plus documentées">${plusDoc.map(([k, n]) => `<option value="${k}">${k} · ${n} activités</option>`).join("")}</optgroup>`;
+rep.innerHTML += `<optgroup label="${t("Semaines les plus documentées")}">${plusDoc.map(([k, n]) => `<option value="${k}">${k} · ${n} ${t("activités")}</option>`).join("")}</optgroup>`;
 const termes = D.periodes.filter(p => /term|quarter|semester|session|institute/i.test(p.libelle) && !/vacation|recess/i.test(p.libelle));
-rep.innerHTML += `<optgroup label="Débuts de trimestre et sessions">${termes.map(p => `<option value="${p.debut}">${p.debut} · ${esc(p.libelle)}</option>`).join("")}</optgroup>`;
+rep.innerHTML += `<optgroup label="${t("Débuts de trimestre et sessions")}">${termes.map(p => `<option value="${p.debut}">${p.debut} · ${esc(tx(p.libelle))}</option>`).join("")}</optgroup>`;
 rep.onchange = () => { aller(rep.value); rep.value = ""; };
 
 // adresse partageable : #2024-01-01/vue

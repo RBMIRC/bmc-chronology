@@ -360,6 +360,13 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   - semaine « très parcellaire » (31 août 1936) : le Journal montre désormais aussi les faits datés au mois ou à la
     saison dont la période couvre la semaine (Duberman, Chronos, scénario ; ceux datés à l'année, repliés) ; les jours
     vides consécutifs sont regroupés.
+  - « Le semainier n'est pas facile à lire : il faudrait les 7 jours, et selon l'option choisie on voit ou non ce
+    qu'il y a chaque jour » (3/11/2026) : la vue « Semaine » (par défaut) montre les 7 jours en colonnes (4 puis 1 sur
+    écran étroit). Options au-dessus, avec le nombre d'entrées de la semaine, mémorisées dans le navigateur : faits
+    attestés (AAM), cours attestés, Duberman, Chronos et Rumaker, scénario, cours reconstitués, vie commune
+    reconstituée, faits au mois ou à la saison (bande au-dessus des colonnes) ; raccourcis « tout », « rien »,
+    « attesté seul ». Cours d'un même créneau réunis en une case ; récurrences de l'AAM en une ligne ; contexte (colonne
+    de droite) ouvert à la demande ; fiches en fenêtre au clic, inchangées.
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

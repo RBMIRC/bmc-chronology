@@ -44,6 +44,15 @@ Source : collection.ashevilleart.org (fonds Theodore Dreier Sr. 2017.40.*, etc.)
   (`semainier/data_scenario.js`, chargé à part) montre les entrées de 13 mois au plus : au jour dans la grille (prune,
   « S. »), les autres au panneau ; un fait déjà dans l'AAM ou Duberman (même jour, même personne, mot commun) est fondu
   en « Renvoi scénario » dans leur fiche.
+  **Vérification des sources** (2/11/2026) : `scripts/verifier_sources.py` ouvre, pour chaque entrée affichée (AAM,
+  Duberman, scénario, spéculatif), le texte de la source citée — OCR de la fiche du musée (`pages_txt/`), paragraphe
+  de Duberman (`duberman/_appui/paged.json` + notes), page du livre (`../bmc-scenario/texte/`), documents du gabarit —
+  et y cherche ses témoins (noms, prénoms, mots du titre ou leurs équivalents anglais, année et mois) réunis dans un
+  même passage de 600 caractères, pondérés par leur rareté. Statuts : retrouvé, indice faible, à relire, référence
+  introuvable, sans source. Un contrôle négatif (texte d'une autre entrée tiré au hasard) mesure les faux positifs.
+  Sorties : `programme/audit/NNN_verification_sources.csv/.md` et `semainier/verification.js` (chargé à la demande) :
+  chaque fiche du semainier a un bloc « Vérifier dans la source » (statut, extrait surligné, lien vers la fiche du
+  musée), et la case « Retrouvées seulement » masque le reste. À relancer après toute régénération de `data.js`.
   Ajouter des documents datés (photos, lettres d'autres fonds) : une ligne dans `semainier/documents_extra.csv`
   (date, titre, url, image, type, datation, source, part_deduite_pct, inventaire), puis relancer le script.
 - **Couche spéculative** (semaines reconstituées là où aucun document ne donne le programme) :

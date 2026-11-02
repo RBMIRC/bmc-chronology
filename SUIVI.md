@@ -11,6 +11,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 | 2 | Couche spéculative 1949-50 → 1956-57 | fait (1955-57 sans semaines, faute de calendrier) | une année = un commit |
 | 3 | Contrôles (`construire.py --verifier`, navigateur headless, avant/après) | fait | « contrôles finaux » |
 | 4 | Scénario (bmc-scenario, 60 livres) reporté sur le semainier et recoupé | fait | « semainier : couche Scénario et recoupements » |
+| 5 | Vérification des sources de chaque entrée, extrait dans chaque fiche | fait | « vérification des sources » |
 
 ## Étape 0 — chemins
 - `scripts/selectionner.py` : déjà relatif (`ROOT` calculé depuis le script), rien à changer.
@@ -118,6 +119,20 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
   (titre + enseignant), 372 enseignants présents cette année-là mais titre absent de l'AAM, 71 absents de l'AAM.
 - **Questions** : faut-il relire et valider à la main les 82 fusions avec Duberman ? Reporter le contenu des cours du
   scénario (objectifs, exercices) dans le panneau « Cours offerts » ?
+
+## Étape 5 — vérification des sources (2/11/2026)
+- `scripts/verifier_sources.py` → `programme/audit/001_verification_sources.csv/.md`, `semainier/verification.js`.
+- Résultat (18 270 entrées) : aucune sans source, aucune référence introuvable.
+
+| couche | entrées | retrouvé | indice faible | à relire | faux positifs (contrôle négatif) |
+|---|---|---|---|---|---|
+| AAM | 4 650 | 78 % | 21 % | 0,4 % | 11 % |
+| Duberman | 935 | 91 % | 7 % | 2 % | 5 % |
+| Scénario | 4 335 | 79 % | 17 % | 5 % | 7 % |
+| Spéculatif | 8 350 | 70 % | 20 % | 10 % | 36 % (catalogues : mêmes enseignants d'une année à l'autre) |
+
+- Périodes (203), cours (821), documents (1 355) : tous ont une source et un lien.
+- Reste à relire à la main : les « à relire » et « indice faible » (listes dans le CSV, extrait dans chaque fiche).
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

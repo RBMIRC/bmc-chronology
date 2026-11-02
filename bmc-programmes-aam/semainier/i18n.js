@@ -330,3 +330,16 @@ if (window.LANG === "en") {
       .observe(document.body, { childList: true, subtree: true, characterData: true });
   });
 }
+
+// Références des sources (entretiens, renvois Chronos, livres) : seules nos parties françaises sont traduites.
+const L = (fr, en) => window.LANG === "en" ? en : fr;
+function trSrc(s) {
+  if (window.LANG !== "en" || !s) return s || "";
+  return s.replace(/^Entretien de (.+?) avec (.+?), /, "Interview with $1 by $2, ")
+    .replace(/ — transcription /, " — transcript ").replace(/, d'après Chronos /, ", from Chronos ")
+    .replace(/\(1972 ; Anchor 1973\)/, "(1972; Anchor 1973)")
+    .replace(/^Albers, voyages Amérique latine/, "Albers, Latin American travels").replace(/^Albers noir et blanc/, "Albers, black and white")
+    .replace(/^Albers, miniatures précolombiennes/, "Albers, pre-Columbian miniatures").replace(/, écrits\b/, ", writings")
+    .replace(/^W\. de Kooning dessins/, "W. de Kooning, drawings").replace(/^thèse UMD/, "UMD dissertation")
+    .replace(/^article art\/démocratie/, "article on art and democracy");
+}

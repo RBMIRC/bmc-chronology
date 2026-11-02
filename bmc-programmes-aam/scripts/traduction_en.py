@@ -5,7 +5,8 @@
   (traduction : semainier/i18n/lots/lot_NNN.en.tsv  — une ligne « id<TAB>traduction » par chaîne)
   python3 scripts/traduction_en.py verifier NNN [NNN…]       contrôles ; si tout passe, intègre dans revu_en.tsv
   python3 scripts/traduction_en.py etat                       avancement par source
-Priorité : Duberman, documents du musée (AAM), reconstitution, compléments (Chronos), notes, livres et études.
+Priorité : Duberman, documents du musée (AAM), reconstitution, compléments (Chronos), notes, livres et études,
+puis champs des fiches (lieu, « qui », références, rattachements, renvois, autres versions) et résumés des livres.
 revu_en.tsv est additif : une traduction déjà intégrée n'est remplacée qu'avec --remplacer.
 """
 import csv, glob, json, os, re, sys
@@ -13,7 +14,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import traduire_en as T
 
 ROOT = T.ROOT; I18N = T.I18N; LOTS = os.path.join(I18N, "lots"); REVU = os.path.join(I18N, "revu_en.tsv")
-ORDRE = ["Duberman", "AAM", "reconstitution", "Chronos", "note", "livres"]
+ORDRE = ["Duberman", "AAM", "reconstitution", "Chronos", "note", "livres", "fiches", "resumes"]
 OUTILS_FR = re.compile(r"\b(le|la|les|des|du|une|pour|avec|dans|sur|qui|que|chez|selon|puis|aux|au|ses|leur|est|sont|été|à|où|très|après|avant|lors)\b", re.I)
 # noms de lieux qui se traduisent (Caroline du Nord → North Carolina…) : pas des noms propres à garder tels quels
 LIEUX_FR = {"Caroline", "Floride", "Géorgie", "Virginie", "Californie", "Louisiane", "Pennsylvanie", "Mexique", "Allemagne",
@@ -57,6 +58,9 @@ def sources():
         for g in Y["gabarits"]: ajout(g.get("note", ""), "note", None, g.get("activite", ""))
     for e in S["grille"] + S["panneau"]: ajout(e["title"], "livres", e, e["extendedProps"].get("src", "")[:60])
     for p in D["periodes"]: ajout(p["libelle"], "AAM")
+    # champs des fiches et résumés des livres (ajoutés en novembre 2026) : mêmes chaînes que traduire_en.chaines("fiches"/"resumes")
+    for t in T.chaines("fiches"): ajout(t, "fiches")
+    for e in S["grille"] + S["panneau"]: ajout(e["extendedProps"].get("note", ""), "resumes", e, e["extendedProps"].get("src", "")[:60])
     return ctx
 
 
@@ -68,7 +72,7 @@ def preparer(taille):
         if f.endswith(".en.tsv"): continue
         for r in csv.reader(open(f, encoding="utf-8"), delimiter="\t"):
             if len(r) == 4 and r[0] != "id": deja.add(r[3])
-    a_faire = [(ctx[t][0], t, ctx[t][1]) for t in ctx if t not in deja and T.francais(t)]
+    a_faire = [(ctx[t][0], t, ctx[t][1]) for t in ctx if t not in deja and T.francais(t) and not T.noms_seuls(t)]
     a_faire.sort(key=lambda x: ORDRE.index(x[0]) if x[0] in ORDRE else 9)
     nums = [int(re.search(r"lot_(\d+)\.tsv$", f).group(1)) for f in glob.glob(os.path.join(LOTS, "lot_*.tsv")) if not f.endswith(".en.tsv")]
     n0 = max(nums, default=0)
@@ -146,7 +150,7 @@ def etat():
     from collections import Counter
     tot, ok = Counter(), Counter()
     for t, (s, _) in ctx.items():
-        if T.francais(t): tot[s] += 1; ok[s] += t in R
+        if T.francais(t) and not T.noms_seuls(t): tot[s] += 1; ok[s] += t in R
     for s in ORDRE: print(f"{s:15s} {ok[s]:5d} / {tot[s]:5d} relues")
     print(f"{'total':15s} {sum(ok.values()):5d} / {sum(tot.values()):5d}")
 

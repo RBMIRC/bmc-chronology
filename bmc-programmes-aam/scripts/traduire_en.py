@@ -7,7 +7,7 @@ Deux sources de traduction, par ordre de priorité :
 Les chaînes en anglais (titres de cours, fiches du musée…) ne sont pas traduites.
 Sortie : semainier/data_en.js → window.BMC_EN = {revu: {original: traduction}, auto: {original: traduction}}
 (la page ne la charge qu'en anglais ; chaque texte traduit automatiquement y est signalé, l'original reste dans la fiche).
-Usage : python3 scripts/traduire_en.py [--champs titres|notes|tout] [--max N]   (relançable : reprend où il s'est arrêté)
+Usage : python3 scripts/traduire_en.py [--champs titres|notes|fiches|resumes|tout] [--max N]   (relançable : reprend où il s'est arrêté)
 """
 import csv, json, os, re, sys, time
 
@@ -33,6 +33,15 @@ def imbriques(t):
     return "".join(out)
 
 
+def noms_seuls(t):
+    """« Frances de Graaff; Erwin Straus » : liste de noms propres, rien à traduire (« Communauté » est rendu par la page)."""
+    PART = {"de", "du", "des", "van", "von", "der", "den", "la", "le", "di", "da", "y", "and", "et", "Jr.", "Sr.", "Mrs.", "Mr.", "Dr."}
+    for it in re.split(r"\s*[;,]\s*", t.strip()):
+        if not it or it == "Communauté": continue
+        if not all(w in PART or w[:1].isupper() or w[:1] in "\"'(" for w in it.split()): return False
+    return True
+
+
 def charge(nom):
     s = open(os.path.join(SEM, nom), encoding="utf-8").read()
     return json.loads(s[s.index("{"): s.rstrip().rstrip(";").rindex("}") + 1])
@@ -48,11 +57,26 @@ def chaines(champs):
     notes = [e["extendedProps"].get("note", "") for e in D["events"]] + [g["note"] for g in G] + \
             [e["extendedProps"].get("note", "") for e in C["grille"] + C["panneau"]] + \
             [e["extendedProps"].get("note", "") for e in D["duberman"] + D["duberman_panneau"]]
-    out = titres if champs == "titres" else notes if champs == "notes" else titres + notes
+    # champs des fiches (lieu, « qui », références, rattachements, renvois) et résumés des événements tirés des livres
+    fiches = []
+    for L in (D["events"], D["duberman"] + D["duberman_panneau"], C["grille"] + C["panneau"], S["grille"] + S["panneau"]):
+        for e in L:
+            p = e["extendedProps"]
+            fiches += [p.get(k, "") for k in ("lieu", "qui", "recoupement", "statut", "heure")]   # src : trSrc (i18n.js)
+            for k in ("dub", "aam", "scen"):
+                fiches += [x for r in (p.get(k) or []) for x in (r.get("motif", ""), r.get("activite", ""), r.get("qui", ""), r.get("note", ""))]
+            if p.get("versions"):
+                try: fiches += [x for v in json.loads(p["versions"]) for x in (v.get("titre", ""), v.get("lieu", ""), v.get("description", ""))]
+                except ValueError: pass
+    fiches += [g.get(k, "") for g in G for k in ("rattachement", "motifs_deduction", "equivalent_avant", "equivalent_apres", "precision",
+                                                  "libelle_terme", "qui", "cours_catalogue", "discipline")]
+    resumes = [e["extendedProps"].get("note", "") for e in S["grille"] + S["panneau"]]
+    out = titres if champs == "titres" else notes if champs == "notes" else fiches if champs == "fiches" else \
+        resumes if champs == "resumes" else titres + notes + fiches + resumes
     vus, L = set(), []
     for t in out:
         t = (t or "").strip()
-        if t and t not in vus and francais(t): vus.add(t); L.append(t)
+        if t and t not in vus and francais(t) and not noms_seuls(t): vus.add(t); L.append(t)
     return L
 
 
@@ -109,8 +133,9 @@ def main():
         print(f"{egaux} chaînes laissées telles quelles (déjà en anglais, noms seuls, ou protection non rendue)", flush=True)
     with open(os.path.join(SEM, "data_en.js"), "w", encoding="utf-8") as f:
         f.write("// généré par scripts/traduire_en.py — traductions relues (revu) et automatiques (auto, Argos Translate fr→en)\n")
-        f.write("window.BMC_EN = " + json.dumps({"revu": revu, "auto": auto}, ensure_ascii=False, separators=(",", ":")) + ";\n")
-    print(f"semainier/data_en.js : relues {len(revu)}, automatiques {len(auto)}")
+        reste = {k: v for k, v in auto.items() if k not in revu}   # l'automatique ne sert plus que pour ce qui n'est pas relu
+        f.write("window.BMC_EN = " + json.dumps({"revu": revu, "auto": reste}, ensure_ascii=False, separators=(",", ":")) + ";\n")
+    print(f"semainier/data_en.js : relues {len(revu)}, automatiques non relues {len(reste)} (cache : {len(auto)})")
 
 
 if __name__ == "__main__":

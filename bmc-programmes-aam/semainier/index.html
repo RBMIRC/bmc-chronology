@@ -779,7 +779,7 @@ function fiche(ev) {
   const d = iso(ev.start);
   const invs = p.inv.split(" ; "), urls = p.url.split(" "), srcs = p.src.split(" ; ");
   const doc = invs[0] ? D.documents.find(x => x.inv === invs[0]) : null;
-  const liens = srcs.map((t, i) => `<a href="${esc(urls[i] || "")}" target="_blank">${esc(t)}</a>`).join("<br>");
+  const liens = srcs.map((t, i) => `<a href="${esc(urls[i] || "")}" target="_blank">${esc(trSrc(t))}</a>`).join("<br>");
   const ligne = (k, v) => v ? `<dt>${t(k)}</dt><dd>${v}</dd>` : "";
   document.getElementById("fiche").innerHTML = `
     <button class="fermer" onclick="fermer()">${t("fermer")}</button>
@@ -787,38 +787,45 @@ function fiche(ev) {
     <div>${fmt(d)}${p.heure ? " · " + esc(p.heure) : ""}${p.fin ? "–" + esc(p.fin) : ""} · ${esc(t(p.type))}</div>
     <dl>
       ${ligne("Collection", `<b>${esc(COL[collection(ev)].nom)}</b>${collection(ev) === "livres" ? " : " + esc(livreDe(ev)) : ""}<br><span class="legende">${esc(COL[collection(ev)].groupe)} · ${esc(COL[collection(ev)].desc)}</span>`)}
-      ${ligne("Qui", esc(window.LANG === "en" ? (p.qui || "").replace(/Communauté/g, "Community") : p.qui))}
-      ${ligne("Lieu", esc(p.lieu) + (lieuDe(p.lieu) ? ` <span class="dossier-lien" onclick="ouvrirLieu('${esc(lieuDe(p.lieu)).replace(/'/g, "\\'")}')" title="ce lieu selon les livres">ⓘ ${esc(lieuDe(p.lieu))}</span>` : ""))}
+      ${ligne("Qui", esc(window.LANG === "en" ? tx(p.qui || "").replace(/Communauté/g, "Community") : p.qui))}
+      ${ligne("Lieu", esc(tx(p.lieu || "")) + (lieuDe(p.lieu) ? ` <span class="dossier-lien" onclick="ouvrirLieu('${esc(lieuDe(p.lieu)).replace(/'/g, "\\'")}')" title="${L("ce lieu selon les livres", "this place according to the books")}">ⓘ ${esc(lieuDe(p.lieu))}</span>` : ""))}
       ${ligne("Note", esc(tx(p.note)) + (window.LANG === "en" && p.note && tx(p.note) !== p.note ? `<br><span class="legende">${t("Original (français)")} : ${esc(p.note)}</span>` : ""))}
       ${ligne("Part déduite", pctTag(p.pct) + " " + esc(trMotifs(p.motifs)))}
-      ${ligne("Récurrence", p.rec ? "occurrence calculée à partir d'une récurrence (grille, « chaque lundi »…)" : "")}
+      ${ligne("Récurrence", p.rec ? L("occurrence calculée à partir d'une récurrence (grille, « chaque lundi »…)", "occurrence calculated from a recurrence (schedule, “every Monday”…)") : "")}
       ${ligne("Affichage", esc(tx(p.placement)))}
       ${ligne("Couche", p.spec ? (window.LANG === "en"
           ? `<b>speculative</b>: reconstruction, not an attested fact · ${esc(tx(p.terme))}, week ${p.semaine} · codes ${esc(p.codes)} · <a href="#" onclick="analyse('${esc(p.annee)}');return false">analysis of the year (in French)</a>`
           : `<b>spéculative</b> : reconstitution, pas un fait attesté · ${esc(p.terme)}, semaine ${p.semaine} · codes ${esc(p.codes)} · <a href="#" onclick="analyse('${esc(p.annee)}');return false">analyse de l'année</a>`) : "")}
-      ${p.unite ? ligne("Cours du catalogue", `<b>${esc(p.cours_catalogue)}</b>${p.precision ? " — " + esc(p.precision) : ""}<br><span class="legende">${esc(p.discipline)} · « Courses of Instruction » 1935-36 (2017.40.011, scans 011-08/09) · unité ${esc(p.unite)}</span>`) : ""}
-      ${p.unite ? ligne("Parts déduites", `case ${esc(p.part_case_pct)} % · titre ${esc(p.part_titre_pct)} % (chance ${esc(p.chance)}) → total ${p.pct} %`) : ""}
+      ${p.unite ? ligne("Cours du catalogue", `<b>${esc(p.cours_catalogue)}</b>${p.precision ? " — " + esc(p.precision) : ""}<br><span class="legende">${esc(p.discipline)} · « Courses of Instruction » 1935-36 (2017.40.011, scans 011-08/09) · ${L("unité", "unit")} ${esc(p.unite)}</span>`) : ""}
+      ${p.unite ? ligne("Parts déduites", L(`case ${esc(p.part_case_pct)} % · titre ${esc(p.part_titre_pct)} % (chance ${esc(p.chance)}) → total ${p.pct} %`, `time slot ${esc(p.part_case_pct)}% · title ${esc(p.part_titre_pct)}% (chance ${esc(p.chance)}) → total ${p.pct}%`)) : ""}
       ${p.candidats ? ligne("Autres cours possibles", p.candidats.split(" | ").map(esc).join("<br>")) : ""}
-      ${p.unite ? ligne("Rattachement", esc(p.rattachement)) : ""}
-      ${p.unite ? ligne("Année précédente", esc(p.equivalent_avant)) : ""}
-      ${p.unite ? ligne("Année suivante", esc(p.equivalent_apres)) : ""}
+      ${p.unite ? ligne("Rattachement", esc(tx(p.rattachement || ""))) : ""}
+      ${p.unite ? ligne("Année précédente", esc(tx(p.equivalent_avant || ""))) : ""}
+      ${p.unite ? ligne("Année suivante", esc(tx(p.equivalent_apres || ""))) : ""}
       ${p.duberman ? ligne("Couche", window.LANG === "en" ? `<b>Duberman</b>: event drawn from the book (${esc(t(p.categorie))}) · date in the book: ${esc(p.date_livre)}` : `<b>Duberman</b> : événement tiré du livre (${esc(p.categorie)}) · date dans le livre : ${esc(p.date_livre)}`) : ""}
-      ${p.duberman ? ligne("Source", `${esc(p.src)}<br><span class="legende">chapitre ${esc(p.chapitre)} · p. ${esc(p.page)} · ${esc(p.paragraphe)}</span>`) : p.scenario ? "" : ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
+      ${p.duberman ? ligne("Source", `${esc(trSrc(p.src))}<br><span class="legende">${L("chapitre", "chapter")} ${esc(p.chapitre)} · p. ${esc(p.page)} · ${esc(p.paragraphe)}</span>`) : p.scenario ? "" : ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
       ${p.duberman && p.notes ? ligne("Notes de Duberman", `<details><summary>${t("source primaire citée")}</summary>${esc(p.notes)}</details>`) : ""}
-      ${p.duberman && p.aam && p.aam.length ? ligne("Même jour (AAM)", p.aam.map(r => `<div class="renvoi">rapprochement possible : ${esc(r.activite)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span></div>`).join("")) : ""}
+      ${p.duberman && p.aam && p.aam.length ? ligne("Même jour (AAM)", p.aam.map(r => `<div class="renvoi">${L("rapprochement possible", "possible match")} : ${esc(r.activite)}<br><span class="legende">${esc(tx(r.motif))} · ${esc(trSrc(r.src))}</span></div>`).join("")) : ""}
       ${p.chronos ? ligne("Couche", `<b>${esc(COL[collection(ev)].nom)}</b> · ${t(/Rumaker/.test(p.source_chronos) ? "dépouillement manuel du texte corrigé" : /^Livres/.test(p.source_chronos) ? "phrase datée tirée automatiquement des textes des PDF (novembre 2026), à relire" : "extraction automatique de décembre 2025, à relire")} · ${esc(t(p.statut))} · ${t("date dans la source")} : ${esc(p.date_src)}`) : ""}
       ${p.scenario ? ligne("Couche", `<b>${esc(livreDe(ev))}</b> : ${window.LANG === "en" ? `${p.categorie === "scene" ? "scene" : "event"} drawn automatically from the book (unreviewed) · certainty: ${esc(p.certitude)} · date given: ${esc(p.date_scen)}` : `${p.categorie === "scene" ? "scène" : "événement"} extrait automatiquement du livre (non relu) · certitude : ${esc(p.certitude)} · date dans le scénario : ${esc(p.date_scen)}`}`) : ""}
-      ${p.scenario ? ligne("Source", esc(p.src)) : ""}
-      ${p.scenario && p.versions ? ligne("Autres versions", `<details><summary>selon d'autres livres</summary><span class="legende">${esc(p.versions)}</span></details>`) : ""}
-      ${p.scenario && p.recoupement ? ligne("Recoupement", p.recoupement.split(" || ").map(r => `<div class="renvoi rs">${esc(r)}</div>`).join("")) : ""}
-      ${p.livres && p.livres.length ? ligne("Aussi dans les livres", p.livres.map(r => `<div class="renvoi">${esc(r.ref)} <span class="legende">· ${esc(r.nature)} · date dans le livre : ${esc(r.date)} · vérifié au jour, relu</span>${r.phrase ? `<details><summary>phrase</summary><span class="legende">${esc(r.phrase)}</span></details>` : ""}</div>`).join("")) : ""}
-      ${p.scen && p.scen.length ? ligne("Aussi dans les livres (lecture automatique)", p.scen.map(r => `<div class="renvoi rs">${r.decision === "même fait" ? "même fait" : "même jour, même personne"} : ${esc(r.activite)} ${r.pct != null ? pctTag(r.pct) : ""}<br><span class="legende">${esc(r.src)}${r.certitude ? " · " + esc(r.certitude) : ""}</span></div>`).join("")) : ""}
-      ${p.dub && p.dub.length ? ligne("Renvoi Duberman", p.dub.map(r => `<div class="renvoi">${r.decision === "doublon" ? "même événement" : "rapprochement possible"} : ${esc(r.activite)} ${pctTag(r.pct)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span>${r.notes ? `<details><summary>notes de Duberman</summary><span class="legende">${esc(r.notes)}</span></details>` : ""}</div>`).join("")) : ""}
+      ${p.scenario ? ligne("Source", esc(trSrc(p.src))) : ""}
+      ${p.scenario && p.versions ? ligne("Autres versions", `<details><summary>${L("selon d'autres livres", "according to other books")}</summary><span class="legende">${versionsHtml(p.versions)}</span></details>`) : ""}
+      ${p.scenario && p.recoupement ? ligne("Recoupement", p.recoupement.split(" || ").map(r => `<div class="renvoi rs">${esc(tx(r))}</div>`).join("")) : ""}
+      ${p.livres && p.livres.length ? ligne("Aussi dans les livres", p.livres.map(r => `<div class="renvoi">${esc(r.ref)} <span class="legende">· ${esc(tx(r.nature))} · ${L("date dans le livre", "date in the book")} : ${esc(r.date)} · ${L("vérifié au jour, relu", "checked to the day, reviewed")}</span>${r.phrase ? `<details><summary>${L("phrase", "sentence")}</summary><span class="legende">${esc(r.phrase)}</span></details>` : ""}</div>`).join("")) : ""}
+      ${p.scen && p.scen.length ? ligne("Aussi dans les livres (lecture automatique)", p.scen.map(r => `<div class="renvoi rs">${r.decision === "même fait" ? L("même fait", "same fact") : L("même jour, même personne", "same day, same person")} : ${esc(tx(r.activite))} ${r.pct != null ? pctTag(r.pct) : ""}<br><span class="legende">${esc(trSrc(r.src))}${r.certitude ? " · " + esc(t(r.certitude)) : ""}</span></div>`).join("")) : ""}
+      ${p.dub && p.dub.length ? ligne("Renvoi Duberman", p.dub.map(r => `<div class="renvoi">${r.decision === "doublon" ? L("même événement", "same event") : L("rapprochement possible", "possible match")} : ${esc(tx(r.activite))} ${pctTag(r.pct)}<br><span class="legende">${esc(tx(r.motif))} · ${esc(trSrc(r.src))}</span>${r.notes ? `<details><summary>${L("notes de Duberman", "Duberman's notes")}</summary><span class="legende">${esc(r.notes)}</span></details>` : ""}</div>`).join("")) : ""}
       ${p.duberman || p.scenario ? "" : ligne("Inventaire", esc(p.inv))}
       ${doc && doc.img ? ligne("Vue", `<a href="${esc(urls[0])}" target="_blank"><img src="${esc(doc.img)}" style="max-width:220px;border:1px solid #ddd"></a>`) : ""}
     </dl>${blocVerif(ev.id, p)}`;
   document.getElementById("voile").classList.add("on");
   if (!window.BMC_VERIF && !p.verif) chargerVerif().then(() => { if (ficheOuverte() && document.getElementById("verifBloc")) fiche(ev); });
+}
+// autres versions d'un même fait dans d'autres livres (liste JSON) : titre traduit, date, source
+function versionsHtml(v) {
+  let V; try { V = JSON.parse(v); } catch (e) { return esc(v); }
+  const src = x => Array.isArray(x.sources) ? x.sources.map(y => typeof y === "string" ? y : (y.titre || y.livre || y.source || "") + (Array.isArray(y.pages) && y.pages.length ? ", " + y.pages.join(", ") : "")).filter(Boolean).join(" ; ") : (x.sources || "");
+  return V.map(x => `<b>${esc(titreTr({ title: x.titre || "" }))}</b>${x.date ? " · " + esc(x.date) + (x.date_fin ? "–" + esc(x.date_fin) : "") : ""}${x.lieu ? " · " + esc(tx(x.lieu)) : ""}${x.certitude ? " · " + esc(t(x.certitude)) : ""}`
+    + (x.description ? `<br>${esc(tx(x.description))}` : "") + (src(x) ? `<br><i>${esc(trSrc(src(x)))}</i>` : "")).join("<br><br>");
 }
 function analyse(k) {
   if (D.spec && D.spec[k] && !D.spec[k].gabarits) { chargerSpec(k).then(() => analyse(k)); return; }

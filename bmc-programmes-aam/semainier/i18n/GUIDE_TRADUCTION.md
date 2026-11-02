@@ -25,7 +25,15 @@ But : un anglais irréprochable, fidèle et homogène pour tout ce que le semain
 - Heures : « 20 h » → « 8 p.m. » ; « 16 h 30 » → « 4:30 p.m. ».
 - « X à Y » (lettre) → « X to Y » ; « X à Y : … » → « X to Y: … ». Espaces françaises avant « : ; ! ? » supprimées.
 - Noms de personnes, de lieux et d'institutions : **inchangés** (Lake Eden, Blue Ridge, Lee Hall, Studies Building,
-  Black Mountain College). « Mrs », « Mr » → « Mrs. », « Mr. ».
+  Black Mountain College). « Mrs », « Mr », « Dr », « St » → « Mrs. », « Mr. », « Dr. », « St. » (St. Elizabeths).
+- Guillemets : “ ” ; à l'intérieur d'une citation ou d'un titre entre guillemets, ‘ ’ (usage américain). Les traductions
+  peuvent garder “ ” imbriqués : `traduire_en.py` les convertit en ‘ ’ en écrivant `data_en.js`.
+- Virgule de série (« Rice, Albers, and Dreier »), virgule dans les nombres (« $1,500 »), « 21% », « 4:30 p.m. ».
+- Étage : le « deuxième étage » français est le « third floor » américain.
+- Titres d'œuvres français gardés tels quels : liste `TITRES_FR` dans `scripts/traduction_en.py` (à compléter au besoin) ;
+  noms anglais qui contiennent un mot outil français (Big Sur, La Luz, Le Nain, avant-garde) : liste voisine.
+- Mots français entre guillemets dans nos textes (« clandestines », « question Goodman ») : ce ne sont pas des citations
+  des sources, on les traduit (le vérificateur le signale seulement par un avertissement).
 
 ## Glossaire du collège (obligatoire)
 
@@ -56,9 +64,27 @@ But : un anglais irréprochable, fidèle et homogène pour tout ce que le semain
 | part déduite | deduced share |
 | reconstitué | reconstructed |
 
+## Outils de brouillon
+
+Pour les notes répétitives, un brouillon est produit puis vérifié comme une traduction faite à la main :
+- `scripts/traduction_modeles.py lots/lot_NNN.tsv` : « présence attestée », souvenirs du BMC Yearbook, « document daté »,
+  cours suivis (fiches d'étudiants) ; ce qui ne suit pas un modèle est listé (RESTE) et se traduit à la main ;
+- `scripts/traduction_composer.py besoins NNN…` puis `ecrire NNN` : notes de recoupement « Recoupement — Duberman … Scénario,
+  mêmes pages : EV-… » ; chaque pièce (préfixe, titre du scénario) est traduite une fois dans `i18n/pieces_en.tsv`, et les
+  titres tronqués sont rendus en entier.
+
 ## Contrôles automatiques (scripts/traduction_en.py verifier)
 
-Un lot n'est intégré que si, pour chaque chaîne : la traduction existe ; chaque citation de l'original s'y retrouve
-mot pour mot ; chaque nom propre connu et chaque nombre de l'original s'y retrouvent ; il ne reste aucun mot outil
-français hors citations et titres d'œuvres ; le glossaire est respecté (avertissement sinon). Les écarts sont listés ;
-le lot est corrigé puis revérifié.
+Un lot n'est intégré que si, pour chaque chaîne : la traduction existe ; chaque citation anglaise de l'original s'y
+retrouve mot pour mot (la plus intérieure en cas de guillemets imbriqués) ; chaque nom propre connu et chaque nombre de
+l'original s'y retrouvent, les dates « 25/09/1933 » et « 23/02 » rendues en mois anglais, les heures « 14:30 » / « 16 h 30 »
+en « 2:30 p.m. » ; il ne reste aucun mot outil français hors citations, titres d'œuvres et particules de noms (du Plessix) ;
+le glossaire est respecté (avertissement sinon). Les écarts sont listés ; le lot est corrigé puis revérifié.
+Une correction ultérieure s'ajoute à `revu_en.tsv` (la dernière ligne pour un même original l'emporte) : `verifier NNN
+--remplacer`, ou une ligne « original<TAB>traduction » ajoutée à la fin.
+
+## État
+
+Novembre 2026 : les 7 147 chaînes françaises affichées (Duberman, documents de l'AAM, reconstitution, compléments, notes,
+livres et études) sont traduites, vérifiées et intégrées (lots 001 à 072). La traduction automatique (Argos) ne sert plus
+que de filet pour une chaîne nouvelle, signalée ≈ ; `traduction_en.py preparer` en fait un nouveau lot.

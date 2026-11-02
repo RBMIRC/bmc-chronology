@@ -532,7 +532,7 @@ function chargerSpec(an) {
 function specEntre(a, b) {
   if (!etat.spec) return [];
   const out = [];
-  for (const [an, Y] of Object.entries(D.spec || {})) for (const S of Y.semaines) {
+  for (const [an, Y] of Object.entries(D.spec || {})) for (const S of Y.semaines.concat(Y.quotidien || [])) {
     if (S.lundi >= b || plusJours(S.lundi, 7) <= a) continue;
     if (!Y.gabarits) { chargerSpec(an).then(maj); continue; }
     const jours = new Set(S.jours);
@@ -542,14 +542,14 @@ function specEntre(a, b) {
       if (g.jour === "semaine") { start = S.lundi; end = plusJours(S.lundi, 7); allDay = true; }
       else {
         const d = plusJours(S.lundi, JOURS_ABR.indexOf(g.jour));
-        if (!jours.has(d) || d < a || d >= b) return;
+        if (!jours.has(d) || d < a || d >= b || (g.sauf && g.sauf.includes(d))) return;
         if (g.debut) { start = `${d}T${g.debut}`; end = `${d}T${g.fin || g.debut}`; } else { start = d; end = plusJours(d, 1); allDay = true; }
       }
       const e = { id: `s:${an}:${S.lundi}:${k}`, title: g.activite, start, end, allDay, resourceIds: g.resourceIds,
         backgroundColor: teinte(f[2], .85), textColor: f[2],
         extendedProps: { type: g.type, fam: f[0], qui: g.qui, lieu: g.lieu, note: g.note, pct: g.part_deduite_pct, motifs: g.motifs_deduction,
           rec: false, src: g.document_source, inv: g.inventaire, url: g.url_source, heure: g.debut, fin: g.fin, spec: true, codes: g.codes,
-          annee: an, terme: g.libelle_terme, semaine: S.numero, placement: "reconstitution : jour et heure proposés (voir la part déduite)",
+          annee: an, terme: g.libelle_terme, semaine: S.numero, placement: S.terme.endsWith("~q") ? "reconstitution : routine quotidienne projetée sur chaque jour du trimestre (voir la part déduite)" : "reconstitution : jour et heure proposés (voir la part déduite)",
           unite: g.unite, discipline: g.discipline, cours_catalogue: g.cours_catalogue, precision: g.precision, candidats: g.candidats,
           chance: g.chance, rattachement: g.rattachement, equivalent_avant: g.equivalent_avant, equivalent_apres: g.equivalent_apres,
           part_case_pct: g.part_case_pct, part_titre_pct: g.part_titre_pct, vkey: `g:${an}:${S.terme}:${k}` } };

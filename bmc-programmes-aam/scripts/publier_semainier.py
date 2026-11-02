@@ -128,7 +128,7 @@ def main():
          "Our own French texts are translated by hand into American English and checked line by line "
          "(`scripts/traduction_en.py`, guide in `semainier/i18n/GUIDE_TRADUCTION.md`): interface, collections, scoring rules, "
          "and every title, summary, and note from Duberman, the museum documents, the reconstruction, the supplements, the student "
-         "records, and the other books and studies (14,045 strings, all reviewed). Machine translation is kept only as a fallback "
+         "records, and the other books and studies (14,082 strings, all reviewed). Machine translation is kept only as a fallback "
          "for a text added later, marked ≈ with the original French in the record; long syntheses remain in French."]
     open(os.path.join(out, "README.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
     print("\n".join(L[-12:]))

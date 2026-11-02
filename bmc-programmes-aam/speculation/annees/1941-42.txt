@@ -31,12 +31,12 @@
 
 S|semaine|||calendrier|Semaine de cours, {terme} (calendrier révisé de 1941-42 : lettres d'octobre 1941 et bulletins de 1942)|||aucun congé attesté dans la semaine|SEMAINE|2017.40.261a-b+2017.40.019
 
-S|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||repas en commun ; heure : bulletins de Lake Eden 1943-44|SEMAINE+LOIN|2017.40.017+2017.40.172a-g|fall,spring
-S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||heure de début : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.017+2017.40.172a-g|fall,spring
-S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.017+2017.40.172a-g|fall,spring
-S|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.172a-g|fall,spring
-S|dim|13:00|14:00|social|Dîner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.172a-g|fall,spring
-S|dim|18:00|18:45|social|Souper du dimanche|Communauté||souper froid le dimanche en 1944, heure non donnée|SEMAINE+LOIN+HEURE|2017.40.172a-g|fall,spring
+Q|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||repas en commun ; heure : bulletins de Lake Eden 1943-44|SEMAINE+LOIN|2017.40.017+2017.40.172a-g|fall,spring|breakfast|petit[- ]d[ée]jeuner
+Q|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||heure de début : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.017+2017.40.172a-g|fall,spring|\blunch|^d[ée]jeuner|luncheon
+Q|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.017+2017.40.172a-g|fall,spring|dinner|supper|d[îi]ner|souper
+Q|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.172a-g|fall,spring|breakfast|petit[- ]d[ée]jeuner
+Q|dim|13:00|14:00|social|Dîner du dimanche|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.172a-g|fall,spring|dinner|lunch|d[îi]ner|d[ée]jeuner
+Q|dim|18:00|18:45|social|Souper du dimanche|Communauté||souper froid le dimanche en 1944, heure non donnée|SEMAINE+LOIN+HEURE|2017.40.172a-g|fall,spring|supper|souper|papersack|paper-sack|picnic|pique-nique|dinner|d[îi]ner
 
 S|lun,mer,ven|13:30|16:00|travail|Chantier du Studies Building et des logements de Lake Eden (équipes de volontaires)|Communauté||« Students were urged to volunteer for a least two or three afternoons of work a week » (oct. 1941) ; jours choisis|SEMAINE+JOUR+HEURE_CADRE|2017.40.261a-b+2017.40.262a-b|fall,spring
 S|mar,jeu,sam|13:30|16:00|travail|Autres travaux de l'après-midi : ferme, bois, bibliothèque, imprimerie, scène ; plein air|Communauté||description du travail (catalogues 1940-42)|SEMAINE+JOUR+HEURE_CADRE+VOISIN|2017.40.016+2017.40.017|fall,spring
@@ -51,3 +51,9 @@ S|jeu|20:30|21:30|conference|Causerie d'un visiteur : possible|Communauté|Dinin
 S|mar,ven|20:30|22:00|theatre|Répétition de la pièce en cours|Robert Wunsch||« Several plays are presented during the year » (catalogue 1941-42) ; productions attestées : programme de Noël (14 déc. 1941), The Highbrow Ladies (28 févr. 1942), Suppressed Desires (12 mars)|SEMAINE+JOUR+HEURE|2017.40.017+2017.40.064a-b+2017.40.065.01a-b|fall,spring
 S|lun-sam|13:30|17:30|travail|Work Camp et programme de travail d'été : construction, ferme, réparations, aménagements (étudiants de la Summer School et campeurs)|Ted Dreier; Molly Gregory; A. Lawrence Kocher||« The Work Program, in which Summer School students also participate, has been under the direction of Mr Dreier, Miss Gregory, and Mr Kocher » ; « Work campers who take courses will in general work five hours a day » ; heures choisies|SEMAINE+HEURE|2017.40.076a-f+2017.40.019|summer
 S|mer|20:30|21:30|conference|Conférence publique hebdomadaire d'un membre de la communauté sur un sujet d'actualité|Communauté|Dining hall|« Public lectures, on different contemporary topics, have been presented once a week by members of the community » (été 1942)|SEMAINE+JOUR+HEURE|2017.40.076a-f|summer
+
+# Routine quotidienne (lignes Q, ajout du 2/11/2026) : chaque jour du trimestre, même dans les semaines complètes en données attestées ; retirée les jours où un document donne ce moment (scripts/speculer.py)
+Q|lun-sam|08:00|08:30|autre|Ménage des chambres et lits faits|Communauté||seul horaire connu : « Cleaning up rooms and making up beds (daily except Sunday): 8.00-9.00. Sunday: 9:30-10:00 » (American Seminar, été 1943) ; chacun fait sa chambre (pas de personnel de service) ; en période de cours (premier cours à 8 h 30), heure ramenée par moi à 8:00-8:30|SEMAINE+LOIN+HEURE|2017.40.113a-d||cleaning up rooms|making up beds|m[ée]nage des chambres
+Q|dim|09:30|10:00|autre|Ménage des chambres et lits faits (dimanche)|Communauté||seul horaire connu : « Cleaning up rooms and making up beds (daily except Sunday): 8.00-9.00. Sunday: 9:30-10:00 » (American Seminar, été 1943) ; chacun fait sa chambre (pas de personnel de service)|SEMAINE+LOIN|2017.40.113a-d||cleaning up rooms|making up beds|m[ée]nage des chambres
+Q|lun-sam|10:00|11:00|autre|Courrier distribué (une fois par jour)|Communauté||« From now on mail will be delivered once a day—between 10:00 and 11:00 o'clock in the morning » (23 mars 1942) ; avant cette date, horaire non donné|SEMAINE+VOISIN|2017.40.067a-b||\bmail\b|courrier
+Q|lun-sam|13:30|15:30|autre|Repos et détente (été)|Communauté||« Rest and Recreation: 1:30-3:30 » (American Seminar, été 1943)|SEMAINE+VOISIN|2017.40.113a-d|summer|rest and recreation|repos

@@ -100,7 +100,7 @@ racontée deux fois), on le reprend entre “ ” ; sinon discours indirect, san
 
 ## État
 
-Novembre 2026 : les 14 045 chaînes françaises affichées (Duberman, documents de l'AAM, reconstitution, compléments,
-notes, fiches d'étudiants, livres et études, résumés) sont traduites, vérifiées et intégrées (lots 001 à 143). La
+Novembre 2026 : les 14 082 chaînes françaises affichées (Duberman, documents de l'AAM, reconstitution, compléments,
+notes, fiches d'étudiants, livres et études, résumés) sont traduites, vérifiées et intégrées (lots 001 à 144 ; lot 144 : routine quotidienne et tissage). La
 traduction automatique (Argos) ne sert plus que de filet pour une chaîne nouvelle, signalée ≈ ;
 `traduction_en.py preparer` en fait un nouveau lot, `traduction_en.py etat` donne le décompte.

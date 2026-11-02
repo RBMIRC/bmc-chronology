@@ -37,11 +37,19 @@ S|semaine|||theatre|Institute: The Theatre (annoncé)|||catalogue : 16 novembre 
 S|semaine|||conference|Institute: The New Sciences of Man (annoncé ; séminaire de trois semaines selon Duberman, dates non données)|Charles Olson; Robert Braidwood; Marie-Louise von Franz||catalogue : 2 février – 28 mars 1953 ; « a three-week seminar on archeology and mythology » (Duberman, p. 370)|SEMAINE+OCCASION|2017.40.050|spring@1953-02-02..1953-03-28
 S|semaine|||conference|Institute: The Natural Sciences, « Some Aspects of Form and Motion » (annoncé)|||catalogue : 13 avril – 6 juin 1953 ; aucune trace de réalisation|SEMAINE+OCCASION|2017.40.050|spring@1953-04-13..1953-06-06
 
-S|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté|Dining hall|heure de 1944-45|SEMAINE+LOIN|2017.40.172a-g
-S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté|Dining hall|heure de 1944-45 ; fin non attestée|SEMAINE+LOIN|2017.40.172a-g
-S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté|Dining hall|heure de 1944-45|SEMAINE+LOIN|2017.40.172a-g
-S|dim|13:00|14:00|social|Dîner du dimanche|Communauté|Dining hall|usage de 1944-45|SEMAINE+LOIN|2017.40.172a-g
+Q|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté|Dining hall|heure de 1944-45|SEMAINE+LOIN|2017.40.172a-g||breakfast|petit[- ]d[ée]jeuner
+Q|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté|Dining hall|heure de 1944-45 ; fin non attestée|SEMAINE+LOIN|2017.40.172a-g||\blunch|^d[ée]jeuner|luncheon
+Q|lun-sam|18:15|19:00|social|Dîner en commun|Communauté|Dining hall|heure de 1944-45|SEMAINE+LOIN|2017.40.172a-g||dinner|supper|d[îi]ner|souper
+Q|dim|13:00|14:00|social|Dîner du dimanche|Communauté|Dining hall|usage de 1944-45|SEMAINE+LOIN|2017.40.172a-g||dinner|lunch|d[îi]ner|d[ée]jeuner
 
 S|lun-ven|15:00|17:30|danse|Répétitions de la compagnie Cunningham|Merce Cunningham|Dining hall|« répétitions l'après-midi et le soir dans la salle à manger » (Duberman) ; six semaines sur huit ; heures choisies|SEMAINE+HEURE_CADRE+PRESENCE|Duberman, ch. 14, p. 395-397 (¶1631-1635)|summer
 S|lun-ven|20:00|22:00|danse|Répétitions de la compagnie Cunningham (soir)|Merce Cunningham|Dining hall|idem|SEMAINE+HEURE_CADRE+PRESENCE|Duberman, ch. 14, p. 395-397 (¶1631-1635)|summer
 S|sam|20:30|22:00|danse|Spectacle de la compagnie Cunningham pour la communauté : possible|Merce Cunningham|Dining hall|« trois spectacles pour la communauté » (Duberman, p. 397-399) ; jour et heure supposés|OCCASION+JOUR+HEURE_CADRE|Duberman, ch. 14, p. 397-399 (¶1635-1639)|summer
+
+# Routine quotidienne (lignes Q, ajout du 2/11/2026) : chaque jour du trimestre, même dans les semaines complètes en données attestées ; retirée les jours où un document donne ce moment (scripts/speculer.py)
+Q|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||heure : bulletins de 1944-45|SEMAINE+LOIN|2017.40.172a-g||breakfast|petit[- ]d[ée]jeuner
+Q|dim|18:00|18:45|social|Souper du dimanche|Communauté||« Cold supper » le dimanche (1944-45), heure non donnée|SEMAINE+LOIN+HEURE|2017.40.172a-g||supper|souper|papersack|paper-sack|picnic|pique-nique|dinner|d[îi]ner
+Q|lun-sam|08:00|08:30|autre|Ménage des chambres et lits faits|Communauté||seul horaire connu : « Cleaning up rooms and making up beds (daily except Sunday): 8.00-9.00. Sunday: 9:30-10:00 » (American Seminar, été 1943) ; chacun fait sa chambre (pas de personnel de service) ; en période de cours (premier cours à 8 h 30), heure ramenée par moi à 8:00-8:30|SEMAINE+LOIN+HEURE|2017.40.113a-d||cleaning up rooms|making up beds|m[ée]nage des chambres
+Q|dim|09:30|10:00|autre|Ménage des chambres et lits faits (dimanche)|Communauté||seul horaire connu : « Cleaning up rooms and making up beds (daily except Sunday): 8.00-9.00. Sunday: 9:30-10:00 » (American Seminar, été 1943) ; chacun fait sa chambre (pas de personnel de service)|SEMAINE+LOIN|2017.40.113a-d||cleaning up rooms|making up beds|m[ée]nage des chambres
+Q|lun-sam|11:00|11:30|autre|Courrier distribué|Communauté||heure de la session 1944-45 : « Incoming mail arrives between 11:00 and 11:30 o'clock each morning except Sunday »|SEMAINE+LOIN|2017.40.172a-g||\bmail\b|courrier
+Q|lun-sam|13:30|15:30|autre|Repos et détente (été)|Communauté||« Rest and Recreation: 1:30-3:30 » (American Seminar, été 1943)|SEMAINE+LOIN|2017.40.113a-d|summer|rest and recreation|repos

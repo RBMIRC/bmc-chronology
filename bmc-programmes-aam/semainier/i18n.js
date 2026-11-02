@@ -177,6 +177,7 @@ const REGLES_EN = [
   [/^aucune heure dans la source : affiché en journée entière/, "no time in the source: shown as all-day"],
   [/^fin non attestée : durée d'1 h affichée par défaut/, "end not attested: 1-hour duration shown by default"],
   [/^reconstitution : jour et heure proposés \(voir la part déduite\)/, "reconstruction: day and hour proposed (see the deduced share)"],
+  [/^reconstitution : routine quotidienne projetée sur chaque jour du trimestre \(voir la part déduite\)/, "reconstruction: daily routine projected onto every day of the term (see the deduced share)"],
   [/^« (soir|après-midi|matin) » dans la source : placé (.+) à titre indicatif/, (m, a, b) => `"${({ soir: "evening", "après-midi": "afternoon", matin: "morning" })[a]}" in the source: placed ${b} as an indication`],
   [/^plage de dates dans le livre : affiché du (\S+) au (\S+)/, "date range in the book: shown from $1 to $2"],
   [/^date « ([\w_]+) »(?: dans le scénario)? : listé dans le panneau, pas dans la grille/, (m, x) => `date to the ${({ annee: "year", mois: "month", saison: "season", session: "session", periode: "period", plage: "range", inconnue: "unknown", annee_scolaire: "school year", semaine: "week", ete: "summer" })[x] || x}: listed in the panel, not in the grid`],

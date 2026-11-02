@@ -50,6 +50,8 @@ CODES = {
     "ANNONCE": (15, "domaine annoncé à l'avance (« fields represented will be… ») : cours réel non attesté"),
     # ajouté le 2/11/2026 : directive « #suivis » (scripts/suivis_speculation.py)
     "SUIVI": (0, "cours suivi ce trimestre-là d'après les fiches d'étudiants (BMC Yearbook, bmcyearbook.org)"),
+    # ajouté le 2/11/2026 : lignes Q (cours d'une période sans gabarit, ex. tissage de l'été 1943)
+    "CONDITION": (25, "cours annoncé sous condition (« if enough students ») : tenue non attestée"),
 }
 JOURS = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"]
 NOMS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
@@ -236,7 +238,7 @@ def semaines_completes():
 def traiter(path):
     global MATIN, APREM, PERIODES
     MATIN, APREM, PERIODES = ["08:30", "10:30"], ["16:00"], None    # valeurs par défaut, remplacées par « #periodes »
-    annee, analyse, S, cat, deduits, suivis = None, [], [], None, {}, None
+    annee, analyse, S, Q, cat, deduits, suivis = None, [], [], [], None, {}, None
     for l in open(path, encoding="utf-8"):
         l = l.rstrip("\n")
         if l.startswith("#annee"): annee = l.split()[1]
@@ -250,6 +252,10 @@ def traiter(path):
             f = l.split("|")[1:]
             if len(f) not in (10, 11): sys.exit(f"ligne S mal formée ({len(f)} champs) : {l[:80]}")
             S.append(f + [""] * (11 - len(f)))
+        elif l.startswith("Q|"):      # Q|… comme S|… + motif (regex, peut contenir « | ») des activités attestées qui la remplacent
+            f = l.split("|", 12)[1:]
+            if len(f) not in (10, 11, 12): sys.exit(f"ligne Q mal formée ({len(f)} champs) : {l[:80]}")
+            Q.append(f + [""] * (12 - len(f)))
     a0 = int(annee[:4]); debut_an, fin_an = dt.date(a0, 9, 1), dt.date(a0 + 1, 8, 31)
     cal = calendrier.charger(spec=True); compl = semaines_completes(); D = docs()
     D["BMCYearbook"] = ("BMC Yearbook, biographies, rubrique « Courses Taken » (bmcyearbook.org/biographies, Black Mountain "
@@ -376,23 +382,26 @@ def traiter(path):
     for s_, ms in par_saison.items():          # dans l'ordre de l'année : une reprise peut viser un trimestre précédent
         positions[s_] = allouer(s_, ms, avant); avant.update(positions[s_])
 
-    gabarits, semaines, place_de = [], [], collections.defaultdict(dict)
+    gabarits, semaines, quotidien, place_de = [], [], [], collections.defaultdict(dict)
+    attestes = collections.defaultdict(list)       # activités attestées (repas, courrier…) par jour, pour les exclusions des lignes Q
+    for e in lire_csv(os.path.join(ROOT, "programme", "evenements.csv")):
+        attestes[dt.date.fromisoformat(e["date"])].append(e)
     for k, s, lib_t, jours_t, lundis_saison in sous:
         deb_t, fin_t = jours_t[0], jours_t[-1]
-        def ajouter(j, a, b, typ, quoi, qui, lieu, note, codes, sources, extra=None):
+        def ajouter(j, a, b, typ, quoi, qui, lieu, note, codes, sources, extra=None, terme=None, sauf=""):
             p_case, mot = somme(codes); xx = extra or {}
             chance = Fraction(xx.get("chance") or "1"); p_titre = round(100 * (1 - chance))
             p = min(90, round(100 * (1 - (1 - p_case / 100) * (1 - p_titre / 100))))
             if p_titre: mot.append(f"titre : chance {chance} que ce soit bien ce cours ce trimestre-là (part du titre {p_titre} %)")
             invs = [i for i in sources.split("+") if i]; inv_aam = [i for i in invs if re.match(r"\d{4}\.", i)]
-            gabarits.append({"annee": annee, "terme": k, "libelle_terme": lib_t, "jour": j, "debut": a, "fin": b,
+            gabarits.append({"annee": annee, "terme": terme or k, "libelle_terme": lib_t, "jour": j, "debut": a, "fin": b,
                 "type": typ, "activite": quoi, "qui": qui, "lieu": lieu, "note": note, "codes": "+".join(codes),
                 "part_case_pct": p_case, "part_titre_pct": p_titre, "part_deduite_pct": p, "motifs_deduction": " ; ".join(mot),
                 "unite": xx.get("unite", ""), "discipline": xx.get("disc", ""), "cours_catalogue": xx.get("cours", ""),
                 "precision": xx.get("precision", ""), "candidats": xx.get("candidats", ""), "chance": str(chance),
                 "rattachement": xx.get("rattachement", ""), "equivalent_avant": xx.get("e_av", ""), "equivalent_apres": xx.get("e_ap", ""),
                 "document_source": " ; ".join(D.get(i, (i, ""))[0] for i in invs), "inventaire": " ; ".join(inv_aam),
-                "url_source": " ".join(D.get(i, ("", ""))[1] for i in invs)})
+                "url_source": " ".join(D.get(i, ("", ""))[1] for i in invs), "sauf": sauf})
         for jt, a, b, typ, quoi, qui, lieu, note, codes, sources, tm in S:
             if not pour(tm, s, deb_t, fin_t, True): continue
             cs = [c for c in codes.split("+") if c]
@@ -424,6 +433,42 @@ def traiter(path):
             for j, a, b, lab in poses:
                 ajouter(j, a, b, "cours", titre + (" — laboratoire" if lab else ""), u["qui"], "", note, cs, sources, extra)
             place_de[u["unite"]][k] = sorted(poses, key=lambda p: (JOURS.index(p[0]), p[1]))
+        # lignes Q (routine quotidienne, et cours d'une période sans gabarit) : toutes les semaines du trimestre, même
+        # complètes en données attestées. Exclusions (« sauf ») : repas, courrier… → le jour où un document donne déjà ce
+        # moment (même motif, heure à 90 min près) ; cours ou atelier → la semaine où un document donne ce cours (même motif,
+        # n'importe quelle heure), et les semaines où le gabarit ordinaire du trimestre le contient déjà ; bornes de dates
+        # « saison@début..fin » → jours hors bornes
+        kq = k + "~q"; n_q = 0
+        gab_k = [g for g in gabarits if g["terme"] == k]
+        for jt, a, b, typ, quoi, qui, lieu, note, codes, sources, tm, rx in Q:
+            toks = [t.strip() for t in tm.split(",") if t.strip()]
+            if toks and not any(t.partition("@")[0] == s for t in toks): continue
+            bornes_q = [tuple(map(dt.date.fromisoformat, t.partition("@")[2].split(".."))) for t in toks if t.partition("@")[0] == s and "@" in t]
+            dans = lambda x: not bornes_q or any(a_ <= x <= z_ for a_, z_ in bornes_q)
+            if not any(dans(x) for x in jours_t): continue
+            cours_q = typ in ("cours", "atelier")
+            sem_exclues = set()
+            if cours_q and rx:
+                for x, es in attestes.items():
+                    if any(re.search(rx, e["activite"], re.I) for e in es): sem_exclues.add(x - dt.timedelta(x.weekday()))
+                if any(re.search(rx, g["activite"], re.I) for g in gab_k):
+                    sem_exclues |= {x - dt.timedelta(x.weekday()) for x in jours_t if x - dt.timedelta(x.weekday()) not in compl}
+            cs = [c for c in codes.split("+") if c]
+            for j in jours(jt):
+                wd = JOURS.index(j) if j in JOURS else -1
+                def exclu(x):
+                    if not dans(x): return True
+                    if cours_q: return x - dt.timedelta(x.weekday()) in sem_exclues
+                    return bool(rx) and any(re.search(rx, e["activite"], re.I) and (not a or not re.match(r"\d\d:\d\d", e["debut"]) or abs(mn(e["debut"][:5]) - mn(a)) <= 90)
+                                            for e in attestes.get(x, []))
+                sauf = sorted(x.isoformat() for x in jours_t if x.weekday() == wd and exclu(x))
+                if wd >= 0 and len(sauf) == sum(1 for x in jours_t if x.weekday() == wd): continue
+                ajouter(j, a, b, typ, quoi.replace("{terme}", lib_t), qui, lieu, note, cs, sources, terme=kq, sauf=" ".join(sauf)); n_q += 1
+        if n_q:
+            for lun in sorted({x - dt.timedelta(x.weekday()) for x in jours_t}):
+                js = [x for x in jours_t if lun <= x < lun + dt.timedelta(7)]
+                quotidien.append({"annee": annee, "terme": kq, "libelle_terme": lib_t, "numero": lundis_saison.index(lun) + 1,
+                                  "lundi": lun.isoformat(), "jours": " ".join(x.isoformat() for x in js)})
         # semaines du trimestre
         lundis = sorted({x - dt.timedelta(x.weekday()) for x in jours_t})
         for lun in lundis:
@@ -435,7 +480,7 @@ def traiter(path):
 
     os.makedirs(OUT, exist_ok=True)
     base = os.path.join(OUT, f"annee_{annee}")
-    if not gabarits or not semaines:
+    if not gabarits or not (semaines or quotidien):
         # année sans aucun jour de cours dans le calendrier attesté (ajout du 1/11/2026, 1955-57) : pas de gabarit,
         # seulement l'analyse ; le semainier ne lit que les _gabarits.csv
         L = [f"# {annee} — reconstitution spéculative de l'année", "",
@@ -444,9 +489,11 @@ def traiter(path):
         open(base + ".md", "w", encoding="utf-8").write("\n".join(L) + "\n")
         print(f"{os.path.relpath(base, ROOT)} : aucune semaine (pas de période attestée) ; analyse seule")
         return
-    for suff, rows in (("_gabarits", gabarits), ("_semaines", semaines)):
+    for suff, rows in (("_gabarits", gabarits), ("_semaines", semaines), ("_quotidien", quotidien)):
+        if not rows and suff == "_quotidien": continue
         with open(base + suff + ".csv", "w", encoding="utf-8", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
+            w = csv.DictWriter(f, fieldnames=list(rows[0].keys()) if rows else ["annee", "terme", "libelle_terme", "numero", "lundi", "jours"])
+            w.writeheader(); w.writerows(rows)
     # rapport
     L = [f"# {annee} — reconstitution spéculative de l'année", "",
          f"Généré par `scripts/speculer.py` depuis `{os.path.relpath(path, ROOT)}`" + (f" et `{cat[0]}`" if cat else "") +
@@ -456,9 +503,9 @@ def traiter(path):
     L += [f"| {c} | +{p} | {m} |" for c, (p, m) in CODES.items()]
     L += ["", "Case de cours : s'ajoute la part du titre, 100 × (1 − chance). Total = 100 × (1 − (1 − case) × (1 − titre)), plafonné à 90 %.", ""]
     for t in dict.fromkeys(g["terme"] for g in gabarits):
-        gs = [g for g in gabarits if g["terme"] == t]; ss = [x for x in semaines if x["terme"] == t]
+        gs = [g for g in gabarits if g["terme"] == t]; ss = [x for x in semaines + quotidien if x["terme"] == t]
         moy = sum(g["part_deduite_pct"] for g in gs) / len(gs)
-        L += [f"## Gabarit — {gs[0]['libelle_terme']}", "",
+        L += [f"## Gabarit — {gs[0]['libelle_terme']}" + (" — lignes Q : routine quotidienne et cours de toutes les semaines du trimestre (même complètes)" if t.endswith("~q") else ""), "",
               f"{len(ss)} semaines : " + ", ".join(x["lundi"] for x in ss) + f". Part déduite moyenne du gabarit : {moy:.0f} %.", ""]
         for j in ["semaine"] + JOURS:
             es = sorted([g for g in gs if g["jour"] == j], key=lambda g: (g["debut"] or "", g["activite"]))
@@ -473,6 +520,7 @@ def traiter(path):
                     ligne += f"  \n  ↳ année précédente : {e['equivalent_avant']} · année suivante : {e['equivalent_apres']}"
                 else: ligne += f" ({e['codes']})"
                 ligne += f"  \n  ↳ sources : {e['inventaire']}" + (f" · {e['note']}" if e["note"] else "")
+                if e["sauf"]: ligne += f"  \n  ↳ retiré {len(e['sauf'].split())} jour(s) où un document donne déjà ce moment : {e['sauf'][:120]}{' …' if len(e['sauf']) > 120 else ''}"
                 L.append(ligne)
             L.append("")
     if suivis:

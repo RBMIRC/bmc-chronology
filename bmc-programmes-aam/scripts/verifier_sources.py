@@ -80,7 +80,10 @@ LEXIQUE = {"reunion": ["meeting", "met"], "enseignant": ["faculty", "teacher"], 
            "photographie": ["photograph"], "composition": ["compos"], "piano": ["piano"], "chant": ["sing", "voice"],
            "anniversaire": ["birthday", "anniversary"], "noel": ["christmas"], "malade": ["ill", "sick"],
            "hopital": ["hospital"], "suicide": ["suicide"], "divorce": ["divorce"], "enfant": ["child", "baby"],
-           "bebe": ["baby"], "epouse": ["wife", "married"], "femme": ["wife", "woman"], "mari": ["husband"]}
+           "bebe": ["baby"], "epouse": ["wife", "married"], "femme": ["wife", "woman"], "mari": ["husband"],
+           # ajout du 2/11/2026 : routine quotidienne (lignes Q de la couche spéculative)
+           "menage": ["cleaning", "clean"], "chambres": ["room"], "lits": ["bed"], "courrier": ["mail"], "repos": ["rest"],
+           "detente": ["recreation"], "souper": ["supper"], "sac": ["papersack", "sack"], "distribue": ["distribut", "deliver"]}
 RACINES = {v for vs in LEXIQUE.values() for v in vs}
 
 FENETRE = 600   # les témoins doivent être réunis dans un même passage de cette longueur
@@ -129,6 +132,8 @@ def temoins(qui, titre, langue_titre):
         if q and q[:1].isupper():
             ws = [w.strip(".’'") for w in q.split()]
             if ws and len(ws[-1]) > 2 and plat(ws[-1]) not in VIDES:
+                if len(ws) == 1 and plat(ws[0]) in LEXIQUE:      # nom commun de groupe (« Communauté ») : ses équivalents anglais
+                    mots[plat(ws[0])] = LEXIQUE[plat(ws[0])] + [plat(ws[0])]; continue
                 noms[plat(ws[-1])] = [plat(ws[-1])] + ([plat(ws[0])] if len(ws) > 1 and len(ws[0]) > 3 else [])
     for w in re.findall(r"\b[A-ZÉ][a-zà-ÿ’'-]{3,}\b", titre or ""):
         w2 = plat(w.strip("’'"))

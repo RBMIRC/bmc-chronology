@@ -291,10 +291,14 @@ def main():
             for q in g["resourceIds"]:
                 res.setdefault(q, 0); res[q] += 1
             for k in ("part_case_pct", "part_titre_pct", "part_deduite_pct"): g[k] = int(g[k])
-        for x in sem: x["jours"] = x["jours"].split()
-        spec[an] = {"gabarits": gab, "semaines": sem,
+        pq = os.path.join(dspec, f"annee_{an}_quotidien.csv")      # routine quotidienne (lignes Q) : toutes les semaines
+        quo = lire(pq) if os.path.exists(pq) else []
+        for x in sem + quo: x["jours"] = x["jours"].split()
+        for g in gab:
+            if not g.get("sauf"): g.pop("sauf", None)
+        spec[an] = {"gabarits": gab, "semaines": sem, "quotidien": quo,
                     "analyse": open(os.path.join(dspec, f"annee_{an}.md"), encoding="utf-8").read()}
-        nspec += sum(1 for x in sem for g in gab if g["terme"] == x["terme"] and (g["jour"] == "semaine" or True))
+        nspec += sum(1 for x in sem + quo for g in gab if g["terme"] == x["terme"])
 
     resources = [{"id": "G:personnes", "title": "Personnes", "children": []},
                  {"id": "G:groupes", "title": "Groupes et instances", "children": []}]

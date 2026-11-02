@@ -19,3 +19,16 @@ Colonne « decision » : unité (titre confirmé), unité (discipline) (trimestr
 trimestre et nouveau (unité « SN » ajoutée pour ce seul trimestre), discipline (plusieurs unités), non rattaché et hors
 cours (sans effet). « unite_contredite » : unité dont l'attribution déduite est contredite par la fiche.
 « enseignant_precise » : enseignant donné à une unité qui n'en avait pas. Règles dans speculer.py (lire_suivis).
+
+Ligne « Q » (ajout du 2/11/2026, fichier d'année) : routine quotidienne et cours d'une période sans gabarit.
+Q|jours|début|fin|type|activité|qui|lieu|note|codes|sources|termes|motif
+    mêmes champs qu'une ligne S, plus « motif » (expression régulière, peut contenir « | ») des activités attestées qui
+    la remplacent. Une ligne Q s'applique à TOUTES les semaines du trimestre, y compris celles qui sont complètes en
+    données attestées (une ligne S ne s'y applique pas). Exclusions, listées dans la colonne « sauf » du gabarit :
+      - repas, courrier, ménage… (types social, autre…) : le jour où un document donne une activité qui répond au motif,
+        à 90 min près de l'heure de la ligne (ou sans heure) ;
+      - cours ou atelier : toute la semaine où un document donne ce cours (motif, à n'importe quelle heure), et les
+        semaines non complètes dont le gabarit ordinaire du trimestre contient déjà ce cours ;
+      - termes bornés « summer@AAAA-MM-JJ..AAAA-MM-JJ » : les jours hors bornes.
+    Sortie : programme/speculatif/annee_AAAA-AA_quotidien.csv (semaines de la routine), terme « <trimestre>~q ».
+

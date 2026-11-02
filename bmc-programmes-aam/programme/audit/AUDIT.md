@@ -1,10 +1,10 @@
 # Audit du programme semaine par semaine
 
-Généré par `scripts/audit_semaines.py` le 2026-11-01.
+Généré par `scripts/audit_semaines.py` le 2026-11-02.
 
 1255 semaines du 1933-09-18 au 1957-09-30 : cours 772, inconnu 333, vacances 142, work camp 8.
 
-Semaines de cours (772) : complète 28, partielle 91, maigre 239, vide 414 ; 553 semaines de cours ont une couche spéculative, 191 restent sans programme complet ni reconstitution.
+Semaines de cours (772) : complète 28, partielle 98, maigre 232, vide 414 ; 744 semaines de cours ont une couche spéculative, 0 restent sans programme complet ni reconstitution.
 
 ## Par année scolaire
 
@@ -18,10 +18,10 @@ Semaines de cours (772) : complète 28, partielle 91, maigre 239, vide 414 ; 553
 | 1938-39 | 31 | 0 | 0 | 5 | 26 | 14 | 12 |
 | 1939-40 | 32 | 0 | 0 | 10 | 22 | 14 | 20 |
 | 1940-41 | 32 | 0 | 1 | 22 | 9 | 6 | 73 |
-| 1941-42 | 43 | 0 | 7 | 34 | 2 | 3 | 250 |
-| 1942-43 | 41 | 9 | 19 | 13 | 0 | 0 | 1049 |
+| 1941-42 | 43 | 0 | 12 | 29 | 2 | 3 | 292 |
+| 1942-43 | 41 | 9 | 19 | 13 | 0 | 0 | 1256 |
 | 1943-44 | 42 | 8 | 31 | 3 | 0 | 0 | 1259 |
-| 1944-45 | 44 | 11 | 22 | 11 | 0 | 0 | 1448 |
+| 1944-45 | 44 | 11 | 24 | 9 | 0 | 0 | 2529 |
 | 1945-46 | 45 | 0 | 1 | 34 | 10 | 0 | 157 |
 | 1946-47 | 44 | 0 | 10 | 10 | 24 | 0 | 179 |
 | 1947-48 | 49 | 0 | 0 | 7 | 42 | 0 | 14 |

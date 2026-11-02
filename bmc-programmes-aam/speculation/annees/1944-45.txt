@@ -36,12 +36,12 @@
 
 S|semaine|||calendrier|Semaine de cours, {terme} (calendrier des trimestres 1944-45 : annonces et bulletins)|||aucun congé attesté dans la semaine|SEMAINE|2017.40.172a-g+2017.40.185.01a-g
 
-S|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||« Breakfast: 7:30-8:00 » (annonces de l'automne 1944)|SEMAINE|2017.40.172a-g
-S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||« Lunch: 12:30 » (idem) ; fin non attestée|SEMAINE|2017.40.172a-g
-S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||« Dinner: 6:15 » (idem) ; fin non attestée|SEMAINE|2017.40.172a-g
-S|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||« Sunday Breakfast 8:30-9:00 » (idem)|SEMAINE|2017.40.172a-g
-S|dim|13:00|14:00|social|Dîner du dimanche|Communauté||« Dinner 1:00 » (idem)|SEMAINE|2017.40.172a-g
-S|dim|18:00|18:45|social|Souper froid du dimanche|Communauté||« Cold supper », heure non donnée|SEMAINE+HEURE|2017.40.172a-g
+Q|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||« Breakfast: 7:30-8:00 » (annonces de l'automne 1944)|SEMAINE|2017.40.172a-g||breakfast|petit[- ]d[ée]jeuner
+Q|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||« Lunch: 12:30 » (idem) ; fin non attestée|SEMAINE|2017.40.172a-g||\blunch|^d[ée]jeuner|luncheon
+Q|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||« Dinner: 6:15 » (idem) ; fin non attestée|SEMAINE|2017.40.172a-g||dinner|supper|d[îi]ner|souper
+Q|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||« Sunday Breakfast 8:30-9:00 » (idem)|SEMAINE|2017.40.172a-g||breakfast|petit[- ]d[ée]jeuner
+Q|dim|13:00|14:00|social|Dîner du dimanche|Communauté||« Dinner 1:00 » (idem)|SEMAINE|2017.40.172a-g||dinner|lunch|d[îi]ner|d[ée]jeuner
+Q|dim|18:00|18:45|social|Souper froid du dimanche|Communauté||« Cold supper », heure non donnée|SEMAINE+HEURE|2017.40.172a-g||supper|souper|papersack|paper-sack|picnic|pique-nique|dinner|d[îi]ner
 
 S|lun,mer,ven|13:30|17:30|travail|Community Work Program (ferme, bois, ménage, chaudières, transport)|Communauté||« jobs on the Work Program that require a full afternoon should begin at 1:30 o'clock and end at 5:30 o'clock » (décisions des étudiants, oct. 1944) ; jours choisis|SEMAINE+JOUR|2017.40.176a-h+2017.40.186a-e|fall,winter,spring
 S|lun|19:00|19:30|conference|Résumé et commentaire des nouvelles de la semaine|Dick Bush-Brown; Bill McLaughlin; Herbert A. Miller|Lobby of South Lodge|attesté le lundi à 19 h onze fois en 1945|SEMAINE|2017.40.187a-c+2017.40.199a-d|winter,spring
@@ -51,3 +51,12 @@ S|mer,ven|15:45|16:30|social|Thé|Communauté|Lobby of South Lodge|« Tea », me
 S|mer|20:15|21:15|conference|Conférence du mercredi soir : possible|Communauté|Dining hall|conférences du mercredi à 19 h 30 ou 20 h 15 attestées en 1945|OCCASION|2017.40.190.01a-c+2017.40.200a-d|winter,spring
 S|sam|20:15|21:30|concert|Concert du samedi soir : possible|Music Department|Dining hall|concerts du samedi à 20 h 15 attestés sept fois en 1945|OCCASION|2017.40.187a-c+2017.40.200a-d|winter,spring
 S|mar,ven|20:30|22:00|theatre|Répétition de la pièce en cours|Robert Wunsch||productions : The Braggart Warrior (nov. 1944), The Street Attends a Funeral (hiver), Landscape with Figures (printemps 1945)|SEMAINE+JOUR+HEURE|2017.40.176a-h+2017.40.190.01a-c+2017.40.195a-c|fall,winter,spring
+
+# Routine quotidienne (lignes Q, ajout du 2/11/2026) : chaque jour du trimestre, même dans les semaines complètes en données attestées ; retirée les jours où un document donne ce moment (scripts/speculer.py)
+Q|lun-sam|08:00|08:30|autre|Ménage des chambres et lits faits|Communauté||seul horaire connu : « Cleaning up rooms and making up beds (daily except Sunday): 8.00-9.00. Sunday: 9:30-10:00 » (American Seminar, été 1943) ; chacun fait sa chambre (pas de personnel de service) ; en période de cours (premier cours à 8 h 30), heure ramenée par moi à 8:00-8:30|SEMAINE+VOISIN+HEURE|2017.40.113a-d||cleaning up rooms|making up beds|m[ée]nage des chambres
+Q|dim|09:30|10:00|autre|Ménage des chambres et lits faits (dimanche)|Communauté||seul horaire connu : « Cleaning up rooms and making up beds (daily except Sunday): 8.00-9.00. Sunday: 9:30-10:00 » (American Seminar, été 1943) ; chacun fait sa chambre (pas de personnel de service)|SEMAINE+VOISIN|2017.40.113a-d||cleaning up rooms|making up beds|m[ée]nage des chambres
+Q|lun-sam|11:00|11:30|autre|Courrier distribué dans les boîtes du porche du Dining Hall|Communauté||« Incoming mail arrives between 11:00 and 11:30 o'clock each morning except Sunday » (session 1944-45)|SEMAINE|2017.40.172a-g+2017.40.185.01a-g||\bmail\b|courrier
+Q|lun-sam|13:30|15:30|autre|Repos et détente (été)|Communauté||« Rest and Recreation: 1:30-3:30 » (American Seminar, été 1943) ; Art Institute 1945 : « afternoons for rest, private work, outdoor activities »|SEMAINE+VOISIN|2017.40.113a-d+2017.40.357|summer|rest and recreation|repos
+
+# Tissage d'Anni Albers (lignes Q, ajout du 2/11/2026) : été sans gabarit ou semaines complètes en données attestées sans tissage
+Q|lun,mer,ven|09:00|12:00|atelier|Textile Design (Art Institute 1945)|Anni Albers|Weaving Room|Textile Design, Anni Albers, du 2 juillet au 8 septembre 1945 (périodes de résidence de l'Art Institute) ; « Directed class work in the mornings » (horaire type de l'Art Institute 1945) ; suivi par William Joseph (« Weaving / Anni Albers », été 1945, BMC Yearbook) ; jours et heures choisis par moi|MEME_ANNEE+R_ATTESTE+SUIVI+SEMAINE+JOUR+HEURE_CADRE+VOLUME|2017.40.036+2017.40.357+BMCYearbook|summer@1945-07-02..1945-09-08|weav|textile design|tissage

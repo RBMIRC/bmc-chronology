@@ -395,6 +395,16 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
     indirect, ou l'anglais exact quand il figure dans une notice voisine. L'automatique (Argos) ne sert plus que de filet
     pour un texte ajouté plus tard (signalé ≈). Publié sur https://rbmirc.github.io/week/en/.
 
+  - « La routine de la journée… absolument, sur tout l'ensemble, source à l'appui » ; « le tissage d'Anni Albers : on met avec
+    probabilités, c'est quasi certain qu'il y avait des cours de tissage car des élèves sont attestés » (2/11/2026) :
+    lignes `Q|` dans `speculation/annees/*.txt` (routine sur chaque jour de trimestre, même dans les semaines complètes ;
+    retirée là où un document la donne) ; horaires attestés en `E|R:` à 10 % (American Seminar 1943, session 1944-45,
+    courrier 1942). Repas, ménage, courrier, repos d'été, repas en sac du dimanche ; pas de repas en commun après 1953.
+    Tissage : été 1943 (Advanced 55 %, Beginning « if enough students » 80 %, élèves du printemps et de l'automne 1943),
+    été 1944 avant l'Art Institute (fiche de Marilyn Bauer), Textile Design de l'Art Institute 1945 (2017.40.036, William
+    Joseph). Les lignes déjà publiées de l'American Seminar passent de 20 % à 10 % (« Regular Daily Schedule »).
+    Vérification refaite (programme/audit/007_verification_sources.md) ; lot de traduction 144 (37 chaînes).
+
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le
 corpus pour ces années ; tous les horaires sont supposés et codés comme tels).

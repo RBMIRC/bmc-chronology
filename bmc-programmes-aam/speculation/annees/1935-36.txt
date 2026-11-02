@@ -63,12 +63,12 @@
 
 S|semaine|||calendrier|Semaine de cours, {terme} (calendrier imprimé dans les catalogues 1934-35 et 1935-36)|||aucun congé attesté dans la semaine|SEMAINE|2017.40.009+2017.40.011
 
-S|lun-sam|07:30|08:00|social|Petit déjeuner en commun (service assuré à tour de rôle par les membres du collège)|Communauté||repas pris ensemble : catalogues 1934-35 et 1935-36 ; heure : bulletins de Lake Eden 1943-44|SEMAINE+LOIN|2017.40.011+2017.40.009+2017.40.172a-g
-S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||heure de début : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.011+2017.40.009+2017.40.172a-g
-S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.011+2017.40.009+2017.40.172a-g
-S|dim|08:30|09:00|social|Petit déjeuner du dimanche (plus tard qu'en semaine)|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.011+2017.40.172a-g
-S|dim|13:00|14:00|social|Dîner du dimanche à 13 h|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.011+2017.40.172a-g
-S|dim|18:00|18:45|social|Souper froid du dimanche|Communauté||« cold supper » le dimanche en 1944, heure non donnée|SEMAINE+LOIN+HEURE|2017.40.011+2017.40.172a-g
+Q|lun-sam|07:30|08:00|social|Petit déjeuner en commun (service assuré à tour de rôle par les membres du collège)|Communauté||repas pris ensemble : catalogues 1934-35 et 1935-36 ; heure : bulletins de Lake Eden 1943-44|SEMAINE+LOIN|2017.40.011+2017.40.009+2017.40.172a-g||breakfast|petit[- ]d[ée]jeuner
+Q|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||heure de début : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.011+2017.40.009+2017.40.172a-g||\blunch|^d[ée]jeuner|luncheon
+Q|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||heure : bulletins 1943-44 ; fin non attestée|SEMAINE+LOIN|2017.40.011+2017.40.009+2017.40.172a-g||dinner|supper|d[îi]ner|souper
+Q|dim|08:30|09:00|social|Petit déjeuner du dimanche (plus tard qu'en semaine)|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.011+2017.40.172a-g||breakfast|petit[- ]d[ée]jeuner
+Q|dim|13:00|14:00|social|Dîner du dimanche à 13 h|Communauté||usage de 1943-44|SEMAINE+LOIN|2017.40.011+2017.40.172a-g||dinner|lunch|d[îi]ner|d[ée]jeuner
+Q|dim|18:00|18:45|social|Souper froid du dimanche|Communauté||« cold supper » le dimanche en 1944, heure non donnée|SEMAINE+LOIN+HEURE|2017.40.011+2017.40.172a-g||supper|souper|papersack|paper-sack|picnic|pique-nique|dinner|d[îi]ner
 
 S|lun-sam|13:30|16:00|travail|Plein air : tennis, gymnase, terrain de sport, coupe du bois pour les cheminées, ferme, réparation des routes|Communauté||« about two hours in the early afternoon » (1935-36) ; « between lunch and four o'clock, when classes are resumed » (1936-38)|SEMAINE+VOISIN|2017.40.011+2017.40.009+2017.40.012
 
@@ -82,3 +82,8 @@ S|sam|20:30|23:00|social|Bal semi-habillé du samedi soir|Communauté||« almost
 S|mar,ven|20:30|22:00|theatre|Répétition de la pièce en cours (pièce non identifiée)|Robert Wunsch||théâtre « a regular place in the schedule » (1935-36) ; « plays are worked on and produced throughout the year » (1936-38)|SEMAINE+JOUR+HEURE|2017.40.011+2017.40.012
 S|dim|20:00|21:00|conference|Art class pour toute la communauté (thèmes de forme, critique des expositions et des tissages) : réunion occasionnelle, possible|Josef Albers||« occasional meetings for the whole community » (1936-38, Albers et Schawinsky ; Schawinsky n'arrive qu'à l'automne 1936)|VOISIN+OCCASION+JOUR+HEURE|2017.40.012
 
+# Routine quotidienne (lignes Q, ajout du 2/11/2026) : chaque jour du trimestre, même dans les semaines complètes en données attestées ; retirée les jours où un document donne ce moment (scripts/speculer.py)
+Q|lun-sam|08:00|08:30|autre|Ménage des chambres et lits faits|Communauté||seul horaire connu : « Cleaning up rooms and making up beds (daily except Sunday): 8.00-9.00. Sunday: 9:30-10:00 » (American Seminar, été 1943) ; chacun fait sa chambre (pas de personnel de service) ; en période de cours (premier cours à 8 h 30), heure ramenée par moi à 8:00-8:30|SEMAINE+LOIN+HEURE|2017.40.113a-d||cleaning up rooms|making up beds|m[ée]nage des chambres
+Q|dim|09:30|10:00|autre|Ménage des chambres et lits faits (dimanche)|Communauté||seul horaire connu : « Cleaning up rooms and making up beds (daily except Sunday): 8.00-9.00. Sunday: 9:30-10:00 » (American Seminar, été 1943) ; chacun fait sa chambre (pas de personnel de service)|SEMAINE+LOIN|2017.40.113a-d||cleaning up rooms|making up beds|m[ée]nage des chambres
+Q|lun-sam|11:00|11:30|autre|Courrier distribué|Communauté||heure de la session 1944-45 : « Incoming mail arrives between 11:00 and 11:30 o'clock each morning except Sunday »|SEMAINE+LOIN|2017.40.172a-g||\bmail\b|courrier
+Q|lun-sam|13:30|15:30|autre|Repos et détente (été)|Communauté||« Rest and Recreation: 1:30-3:30 » (American Seminar, été 1943)|SEMAINE+LOIN|2017.40.113a-d|summer|rest and recreation|repos

@@ -30,12 +30,12 @@
 
 S|semaine|||calendrier|Semaine de cours, {terme} (calendrier 1946-47 : annonces de mai 1946)|||aucun congé attesté dans la semaine|SEMAINE|2017.40.037+2017.40.214.01a-h
 
-S|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g
-S|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||horaire de 1944-45 ; fin non attestée|SEMAINE+VOISIN|2017.40.172a-g
-S|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g
-S|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g
-S|dim|13:00|14:00|social|Dîner du dimanche|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g
-S|dim|18:00|18:45|social|Souper froid du dimanche|Communauté||usage de 1944-45, heure non donnée|SEMAINE+VOISIN+HEURE|2017.40.172a-g
+Q|lun-sam|07:30|08:00|social|Petit déjeuner en commun|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g||breakfast|petit[- ]d[ée]jeuner
+Q|lun-sam|12:30|13:15|social|Déjeuner en commun|Communauté||horaire de 1944-45 ; fin non attestée|SEMAINE+VOISIN|2017.40.172a-g||\blunch|^d[ée]jeuner|luncheon
+Q|lun-sam|18:15|19:00|social|Dîner en commun|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g||dinner|supper|d[îi]ner|souper
+Q|dim|08:30|09:00|social|Petit déjeuner du dimanche|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g||breakfast|petit[- ]d[ée]jeuner
+Q|dim|13:00|14:00|social|Dîner du dimanche|Communauté||horaire de 1944-45|SEMAINE+VOISIN|2017.40.172a-g||dinner|lunch|d[îi]ner|d[ée]jeuner
+Q|dim|18:00|18:45|social|Souper froid du dimanche|Communauté||usage de 1944-45, heure non donnée|SEMAINE+VOISIN+HEURE|2017.40.172a-g||supper|souper|papersack|paper-sack|picnic|pique-nique|dinner|d[îi]ner
 
 S|lun,mer,ven|13:30|17:30|travail|Programme de travail (ferme, bois, construction des logements fédéraux, ménage)|Communauté||horaires de 1944-45 ; Work Program Planning Committee (nov. 1946)|SEMAINE+JOUR+VOISIN|2017.40.176a-h+2017.40.218.01|fall,spring
 S|lun|19:30|21:00|reunion|Réunion de la faculté|Faculty||« Regular Faculty meetings », le lundi soir (automne 1946) ; heure supposée|SEMAINE+HEURE+TERME_DEDUIT|2017.40.218.01|fall@1947-01-09..1947-02-08,spring
@@ -45,3 +45,9 @@ S|dim|10:00|11:30|danse|Modern Dance Group|Students||« This group meets Sunday 
 S|dim|20:00|21:30|concert|Disques et exposition du dimanche soir dans la salle d'art : possible|Don Wight|Art Room|« Don Wight planned record concerts and art showings for Sunday evenings in the art room » (nov. 1946)|OCCASION+HEURE|2017.40.218.01|fall@1947-01-09..1947-02-08,spring
 S|sam|20:30|22:00|concert|Concert du samedi soir : possible|Music Department|Dining hall|« Concerts will be given every three weeks at least » (nov. 1946) ; concerts du samedi à 20 h 30 attestés le 1er et le 15 mars et le 26 avril 1947|OCCASION|2017.40.218.01+2017.40.320+2017.40.323|fall,spring
 S|ven|20:30|22:00|theatre|Groupe de lecture de pièces : possible|Students||« The established time up to now has been 8:30 on Friday evenings » (nov. 1946)|OCCASION+TERME_DEDUIT|2017.40.218.01|fall@1947-01-09..1947-02-08,spring
+
+# Routine quotidienne (lignes Q, ajout du 2/11/2026) : chaque jour du trimestre, même dans les semaines complètes en données attestées ; retirée les jours où un document donne ce moment (scripts/speculer.py)
+Q|lun-sam|08:00|08:30|autre|Ménage des chambres et lits faits|Communauté||seul horaire connu : « Cleaning up rooms and making up beds (daily except Sunday): 8.00-9.00. Sunday: 9:30-10:00 » (American Seminar, été 1943) ; chacun fait sa chambre (pas de personnel de service) ; en période de cours (premier cours à 8 h 30), heure ramenée par moi à 8:00-8:30|SEMAINE+LOIN+HEURE|2017.40.113a-d||cleaning up rooms|making up beds|m[ée]nage des chambres
+Q|dim|09:30|10:00|autre|Ménage des chambres et lits faits (dimanche)|Communauté||seul horaire connu : « Cleaning up rooms and making up beds (daily except Sunday): 8.00-9.00. Sunday: 9:30-10:00 » (American Seminar, été 1943) ; chacun fait sa chambre (pas de personnel de service)|SEMAINE+LOIN|2017.40.113a-d||cleaning up rooms|making up beds|m[ée]nage des chambres
+Q|lun-sam|11:00|11:30|autre|Courrier distribué|Communauté||heure de la session 1944-45 : « Incoming mail arrives between 11:00 and 11:30 o'clock each morning except Sunday »|SEMAINE+LOIN|2017.40.172a-g||\bmail\b|courrier
+Q|lun-sam|13:30|15:30|autre|Repos et détente (été)|Communauté||« Rest and Recreation: 1:30-3:30 » (American Seminar, été 1943)|SEMAINE+LOIN|2017.40.113a-d|summer|rest and recreation|repos

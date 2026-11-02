@@ -125,7 +125,8 @@ def verifier(num, remplacer=False, partiel=False):
         hors = re.sub(r"\b\d{1,2}/\d{1,2}\b", " ", hors)
         for h, mn in re.findall(r"\b(\d{1,2})[:h]\s?(\d{2})\b", hors):          # 14:30, 16 h 30 → 2:30 p.m.
             h12 = (int(h) - 1) % 12 + 1
-            if not re.search(rf"\b({int(h)}|{h12}):{mn}\b", en): erreurs.append(f"{i} : heure {h}:{mn} mal rendue")
+            duree = re.search(rf"\b{int(h)} hours? (?:and )?{int(mn)} minutes\b", en) or (int(h) == 1 and mn == "30" and "hour and a half" in en)   # durée « 1h30 »
+            if not duree and not re.search(rf"\b({int(h)}|{h12}):{mn}\b", en): erreurs.append(f"{i} : heure {h}:{mn} mal rendue")
         hors = re.sub(r"\b\d{1,2}[:h]\s?\d{2}\b", " ", hors)
         if re.search(r"\b(?:inch|inches|foot|feet|gallons?|pounds?|miles?|yards?|ounces?)\b|-(?:inch|foot|gallon|pound|mile|yard)\b", en):   # mesures métriques rendues dans les unités américaines d'origine
             hors = re.sub(r"\b\d+(?:[,.]\d+)?(?:\s?[-–à]\s?\d+(?:[,.]\d+)?)?\s?(?:cm|mm|m|km|kg|g|l|litres?|mètres?|kilos?|kilomètres?|centimètres?)\b", " ", hors)

@@ -36,6 +36,14 @@ Source : collection.ashevilleart.org (fonds Theodore Dreier Sr. 2017.40.*, etc.)
   **Couche Duberman** (1/11/2026) : événements de `duberman/evenements_duberman.csv` en sarcelle (« D. »), case
   « Duberman » ; doublons avec l'AAM fondus dans la ligne AAM (renvoi dans sa fiche) d'après `duberman/001_doublons_aam.csv` ;
   dates imprécises au panneau latéral ; documents datés des notes de Duberman dans « Documents datés ». Voir `duberman/LISEZMOI_duberman.md`.
+  **Couche Scénario** (2/11/2026) : `scripts/integrer_scenario.py` lit le dernier `../bmc-scenario/sortie/NNN_*.json.gz`
+  (extraction automatique, non relue, de 60 livres) et écrit `scenario/NNN_evenements_scenario.csv`,
+  `_recoupements_`, `_divergences_`, `_cours_scenario.csv` et `_rapport_scenario.md` (jamais écrasés : `--numero`
+  ou numéro suivant). Barème : +10 d'office, certitude (témoignage +10, interprétation +15, ouï-dire / contesté /
+  hypothèse +25), date (semaine +10, mois et au-delà +25, tirée du cadre du passage +25), plafond 90 %. Le semainier
+  (`semainier/data_scenario.js`, chargé à part) montre les entrées de 13 mois au plus : au jour dans la grille (prune,
+  « S. »), les autres au panneau ; un fait déjà dans l'AAM ou Duberman (même jour, même personne, mot commun) est fondu
+  en « Renvoi scénario » dans leur fiche.
   Ajouter des documents datés (photos, lettres d'autres fonds) : une ligne dans `semainier/documents_extra.csv`
   (date, titre, url, image, type, datation, source, part_deduite_pct, inventaire), puis relancer le script.
 - **Couche spéculative** (semaines reconstituées là où aucun document ne donne le programme) :

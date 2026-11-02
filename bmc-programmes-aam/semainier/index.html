@@ -64,6 +64,12 @@
   .fam i.idub { background:#1f7f7f; border-left:3px solid #0b4f4f; }
   .dubp { font-size:12px; margin:5px 0; padding:3px 6px; border-left:3px solid #1f7f7f; background:#eef6f6; cursor:pointer; }
   .dubp:hover { background:#e0eeee; }
+  /* couche Scénario (extraction automatique de 60 livres) : prune, filet pointillé à gauche */
+  .ec-event.scen { border-left:4px dotted #4a1f3a; }
+  .fam i.iscen { background:#8b3a6b; border-left:3px dotted #4a1f3a; }
+  .scenp { font-size:12px; margin:5px 0; padding:3px 6px; border-left:3px dotted #8b3a6b; background:#f6eef3; cursor:pointer; }
+  .scenp:hover { background:#efe0ea; }
+  .renvoi.rs { border-left:3px dotted #8b3a6b; background:#f8f1f5; }
   .renvoi { border-left:3px solid #1f7f7f; padding:2px 6px; margin:3px 0; background:#f3f8f8; }
   .reconst { background:#fff; border:1.5px dashed var(--gris); padding:8px 10px; font-size:12.5px; margin:6px 0; }
   #fiche h4 { font-size:14px; margin:16px 0 4px; } #fiche table { border-collapse:collapse; font-size:12px; } #fiche td { border-top:1px solid #eee; padding:2px 6px; vertical-align:top; }
@@ -104,6 +110,7 @@
   <div class="grp" id="familles"></div>
   <label class="fam" title="Semaines reconstituées à partir de sources indirectes"><input type="checkbox" id="spec" checked><i class="ispec"></i>Couche spéculative</label>
   <label class="fam" title="Événements tirés de Duberman, Black Mountain: An Exploration in Community (1972) ; les doublons avec l'AAM sont fondus dans la ligne AAM"><input type="checkbox" id="dub" checked><i class="idub"></i>Duberman</label>
+  <label class="fam" title="Événements et scènes du scénario (extraction automatique, non relue, de 60 livres : bmc-scenario) ; les faits déjà dans l'AAM ou Duberman y sont fondus en renvoi"><input type="checkbox" id="scen" checked><i class="iscen"></i>Scénario</label>
 </header>
 <main>
   <div id="cal"></div>
@@ -113,6 +120,7 @@
 
 <script src="lib/event-calendar.min.js"></script>
 <script src="data.js"></script>
+<script src="data_scenario.js"></script>
 <script>
 const D = window.BMC;
 const FAMILLES = [
@@ -125,7 +133,9 @@ const FAMILLES = [
 ];
 const FAM_DE = {}; FAMILLES.forEach(f => f[3].forEach(t => FAM_DE[t] = f));
 const DUB_COULEUR = "#1f7f7f";
-const etat = { familles: new Set(FAMILLES.map(f => f[0])), maxPct: 100, q: "", spec: true, dub: true };
+const SCEN_COULEUR = "#8b3a6b";
+const SC = window.BMC_SCEN || { grille: [], panneau: [], renvois: {}, personnes: {} };
+const etat = { familles: new Set(FAMILLES.map(f => f[0])), maxPct: 100, q: "", spec: true, dub: true, scen: !!window.BMC_SCEN };
 const teinte = (hex, k) => { const n = parseInt(hex.slice(1), 16), c = [n >> 16, (n >> 8) & 255, n & 255].map(v => Math.round(v + (255 - v) * k)); return `rgb(${c.join(",")})`; };
 
 D.events.forEach(e => {
@@ -140,6 +150,16 @@ D.duberman.concat(D.duberman_panneau).forEach(e => {
   e.backgroundColor = DUB_COULEUR; e.extendedProps.fam = f[0];
   e._txt = (e.title + " " + e.extendedProps.qui + " " + e.resourceIds.join(" ") + " " + e.extendedProps.lieu + " duberman").toLowerCase();
 });
+SC.grille.concat(SC.panneau).forEach(e => {
+  const f = FAM_DE[e.extendedProps.type] || FAMILLES[4];
+  e.backgroundColor = SCEN_COULEUR; e.extendedProps.fam = f[0];
+  e._txt = (e.title + " " + e.extendedProps.qui + " " + e.resourceIds.join(" ") + " " + e.extendedProps.lieu + " scenario scénario").toLowerCase();
+});
+// renvois du scénario dans les fiches AAM (id = n° de ligne) et Duberman (id = d + n° de ligne)
+D.events.concat(D.duberman).forEach(e => { const r = SC.renvois[e.id]; if (r) e.extendedProps.scen = r; });
+// personnes du scénario absentes des ressources (vue Présences)
+{ const connus = new Set(D.resources.flatMap(g => g.children.map(c => c.id)));
+  Object.entries(SC.personnes).forEach(([q, n]) => { if (!connus.has(q)) D.resources[q === "(non nommé)" ? 1 : 0].children.push({ id: q, title: q, extendedProps: { n } }); }); }
 const JOURS = [...new Set(D.events.map(e => e.start.slice(0, 10)))].sort();
 
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -188,7 +208,8 @@ function specEntre(a, b) {
 function evenementsEntre(a, b) {
   const dans = e => { const d = e.start.slice(0, 10); return d >= a && d < b && garde(e); };
   const dub = etat.dub ? D.duberman.filter(e => { const d = e.start.slice(0, 10), f = e.allDay ? e.end.slice(0, 10) : plusJours(d, 1); return d < b && f > a && garde(e); }) : [];
-  return D.events.filter(dans).concat(dub, specEntre(a, b));
+  const scen = etat.scen ? SC.grille.filter(e => { const d = e.start.slice(0, 10), f = e.allDay ? e.end.slice(0, 10) : plusJours(d, 1); return d < b && f > a && garde(e); }) : [];
+  return D.events.filter(dans).concat(dub, scen, specEntre(a, b));
 }
 
 // ---- calendrier
@@ -215,6 +236,7 @@ const ec = EventCalendar.create(document.getElementById("cal"), {
     const p = info.event.extendedProps, c = [];
     if (p.spec) c.push("spec"); else if (p.pct >= 30) c.push("d-haut"); else if (p.pct >= 10) c.push("d-mid");
     if (p.duberman) c.push("dub");
+    if (p.scenario) c.push("scen");
     if (p.placement && p.placement.startsWith("«")) c.push("approx");
     return c;
   },
@@ -223,6 +245,7 @@ const ec = EventCalendar.create(document.getElementById("cal"), {
     const h = p.heure ? (/^\d/.test(p.heure) ? p.heure + " " : `[${p.heure}] `) : "";
     const b = p.pct ? `<span class="ev-b">${p.spec ? "spéc. " : ""}${p.pct} %</span>` : "";
     if (p.duberman) return { html: `<div class="ec-event-title">${esc(h)}<b>D.</b> ${esc(info.event.title)}${b}</div>` };
+    if (p.scenario) return { html: `<div class="ec-event-title">${esc(h)}<b>S.</b> ${esc(info.event.title)}${b}</div>` };
     return { html: `<div class="ec-event-title">${esc(h)}${esc(info.event.title)}${b}</div>` };
   },
   eventClick: info => fiche(info.event),
@@ -272,6 +295,17 @@ function cote(debut, fin) {
       court.map(ligneDub).join("") +
       (long.length ? `<details><summary>${long.length} daté${long.length > 1 ? "s" : ""} à l'année ou sur plusieurs années</summary>${long.map(ligneDub).join("")}</details>` : "");
   }
+  if (etat.scen) {
+    const duree = e => (new Date(e.fin_periode) - new Date(e.start)) / 864e5;
+    const sp = SC.panneau.filter(e => e.start < b && e.fin_periode >= a && garde(e));
+    const ligneS = e => `<div class="scenp" data-k="${SC.panneau.indexOf(e)}">${esc(e.title)} <span class="legende">· ${esc(e.extendedProps.date_scen)} · ${esc(e.extendedProps.src.split(", p.")[0])}</span> ${pctTag(e.extendedProps.pct)}</div>`;
+    const court = sp.filter(e => duree(e) <= 45), moyen = sp.filter(e => duree(e) > 45 && duree(e) <= 122), long = sp.filter(e => duree(e) > 122);
+    if (sp.length) h += `<h2>Scénario : ${sp.length} entrée${sp.length > 1 ? "s" : ""} datées de façon imprécise</h2>
+      <div class="legende">Extraction automatique (non relue) de 60 livres. Datées au mois, à la saison, à la session ou à l'année : non placées dans la grille.</div>` +
+      court.map(ligneS).join("") +
+      (moyen.length ? `<details><summary>${moyen.length} datée${moyen.length > 1 ? "s" : ""} à la saison ou à la session</summary>${moyen.map(ligneS).join("")}</details>` : "") +
+      (long.length ? `<details><summary>${long.length} datée${long.length > 1 ? "s" : ""} à l'année</summary>${long.map(ligneS).join("")}</details>` : "");
+  }
   const docs = D.documents.filter(d => d.date >= a && d.date < b);
   const invSem = new Set(evs.flatMap(e => e.extendedProps.inv.split(" ; "))); invSem.delete("");
   const sources = D.documents.filter(d => invSem.has(d.inv) && !(d.date >= a && d.date < b));
@@ -303,13 +337,16 @@ function cote(debut, fin) {
     <span style="background:repeating-linear-gradient(135deg,#9db4d0 0 4px,#3b6ea5 4px 8px)"></span>≥ 30 % déduit
     <span style="background:#3b6ea5;outline:1.5px dashed #000;outline-offset:-2px"></span>heure indicative (« soir »…)
     <span style="background:#d8e2ed;border:1.5px dashed #3b6ea5"></span>couche spéculative (reconstitution)
-    <span style="background:#1f7f7f;border-left:4px solid #0b4f4f"></span>Duberman (livre de 1972, « D. »)<br>
+    <span style="background:#1f7f7f;border-left:4px solid #0b4f4f"></span>Duberman (livre de 1972, « D. »)
+    <span style="background:#8b3a6b;border-left:4px dotted #4a1f3a"></span>scénario (60 livres, extraction automatique, « S. »)<br>
     Cliquer une activité ouvre sa fiche : source exacte, part déduite et motifs.</div>
-    <p id="info">Données générées le ${D.genere} · ${D.events.length} activités attestées (AAM) · ${D.duberman.length + D.duberman_panneau.length} événements Duberman · ${D.documents.length} documents · calendrier : Event Calendar (MIT, vkurko).</p>`;
+    <p id="info">Données générées le ${D.genere} · ${D.events.length} activités attestées (AAM) · ${D.duberman.length + D.duberman_panneau.length} événements Duberman · ${SC.grille.length + SC.panneau.length} entrées du scénario · ${D.documents.length} documents · calendrier : Event Calendar (MIT, vkurko).</p>`;
   const el = document.getElementById("cote");
   el.innerHTML = h;
   const la = el.querySelector("#lireAnalyse");
   if (la) la.onclick = ev => { ev.preventDefault(); analyse(la.dataset.k); };
+  el.querySelectorAll(".scenp").forEach(x => x.onclick = () => { const e = SC.panneau[+x.dataset.k];
+    fiche({ title: e.title, start: new Date(e.start + "T12:00"), extendedProps: e.extendedProps }); });
   el.querySelectorAll(".dubp").forEach(x => x.onclick = () => { const e = D.duberman_panneau[+x.dataset.k];
     fiche({ title: e.title, start: new Date(e.start + "T12:00"), extendedProps: e.extendedProps }); });
   el.querySelectorAll(".pers a").forEach(a => a.onclick = () => { qEl.value = a.dataset.q; etat.q = a.dataset.q; maj(); });
@@ -342,11 +379,16 @@ function fiche(ev) {
       ${p.unite ? ligne("Année précédente", esc(p.equivalent_avant)) : ""}
       ${p.unite ? ligne("Année suivante", esc(p.equivalent_apres)) : ""}
       ${p.duberman ? ligne("Couche", `<b>Duberman</b> : événement tiré du livre (${esc(p.categorie)}) · date dans le livre : ${esc(p.date_livre)}`) : ""}
-      ${p.duberman ? ligne("Source", `${esc(p.src)}<br><span class="legende">chapitre ${esc(p.chapitre)} · p. ${esc(p.page)} · ${esc(p.paragraphe)}</span>`) : ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
+      ${p.duberman ? ligne("Source", `${esc(p.src)}<br><span class="legende">chapitre ${esc(p.chapitre)} · p. ${esc(p.page)} · ${esc(p.paragraphe)}</span>`) : p.scenario ? "" : ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
       ${p.duberman && p.notes ? ligne("Notes de Duberman", `<details><summary>source primaire citée</summary>${esc(p.notes)}</details>`) : ""}
       ${p.duberman && p.aam && p.aam.length ? ligne("Même jour (AAM)", p.aam.map(r => `<div class="renvoi">rapprochement possible : ${esc(r.activite)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span></div>`).join("")) : ""}
+      ${p.scenario ? ligne("Couche", `<b>Scénario</b> : ${p.categorie === "scene" ? "scène" : "événement"} extrait automatiquement d'un livre (non relu) · certitude : ${esc(p.certitude)} · date dans le scénario : ${esc(p.date_scen)}`) : ""}
+      ${p.scenario ? ligne("Source", esc(p.src)) : ""}
+      ${p.scenario && p.versions ? ligne("Autres versions", `<details><summary>selon d'autres livres</summary><span class="legende">${esc(p.versions)}</span></details>`) : ""}
+      ${p.scenario && p.recoupement ? ligne("Recoupement", p.recoupement.split(" || ").map(r => `<div class="renvoi rs">${esc(r)}</div>`).join("")) : ""}
+      ${p.scen && p.scen.length ? ligne("Renvoi scénario", p.scen.map(r => `<div class="renvoi rs">${r.decision === "même fait" ? "même fait" : "même jour, même personne"} : ${esc(r.activite)} ${r.pct != null ? pctTag(r.pct) : ""}<br><span class="legende">${esc(r.src)}${r.certitude ? " · " + esc(r.certitude) : ""}</span></div>`).join("")) : ""}
       ${p.dub && p.dub.length ? ligne("Renvoi Duberman", p.dub.map(r => `<div class="renvoi">${r.decision === "doublon" ? "même événement" : "rapprochement possible"} : ${esc(r.activite)} ${pctTag(r.pct)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span>${r.notes ? `<details><summary>notes de Duberman</summary><span class="legende">${esc(r.notes)}</span></details>` : ""}</div>`).join("")) : ""}
-      ${p.duberman ? "" : ligne("Inventaire", esc(p.inv))}
+      ${p.duberman || p.scenario ? "" : ligne("Inventaire", esc(p.inv))}
       ${doc && doc.img ? ligne("Vue", `<a href="${esc(urls[0])}" target="_blank"><img src="${esc(doc.img)}" style="max-width:220px;border:1px solid #ddd"></a>`) : ""}
     </dl>`;
   document.getElementById("voile").classList.add("on");
@@ -388,6 +430,8 @@ const qEl = document.getElementById("q");
 let tq; qEl.oninput = () => { clearTimeout(tq); tq = setTimeout(() => { etat.q = qEl.value; maj(); }, 200); };
 document.getElementById("spec").onchange = e => { etat.spec = e.target.checked; maj(); };
 document.getElementById("dub").onchange = e => { etat.dub = e.target.checked; maj(); };
+document.getElementById("scen").onchange = e => { etat.scen = e.target.checked; maj(); };
+if (!window.BMC_SCEN) document.getElementById("scen").closest("label").style.display = "none";
 document.getElementById("maxPct").onchange = e => { etat.maxPct = +e.target.value; maj(); };
 document.querySelectorAll("[data-vue]").forEach(b => b.onclick = () => vue(b.dataset.vue));
 function vue(v) {

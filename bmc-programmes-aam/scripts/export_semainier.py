@@ -121,6 +121,53 @@ def duberman(evs, res):
     st.update(grille=len(grille), panneau=len(panneau))
     return grille, panneau, st
 
+SCEN_GRILLE = {"jour", "soir", "nuit", "apres-midi", "matin"}
+SCEN_MOMENT = {"soir": "soir", "nuit": "soir", "apres-midi": "après-midi", "matin": "matin"}
+
+def scenario():
+    """Couche « Scénario » (scenario/NNN_evenements_scenario.csv, le plus récent, produit par scripts/integrer_scenario.py),
+    écrite à part dans semainier/data_scenario.js. Les entrées fondues dans une fiche AAM ou Duberman n'y sont pas en
+    double : elles deviennent des renvois, appliqués par la page."""
+    d = os.path.join(ROOT, "scenario")
+    fs = sorted(f for f in os.listdir(d) if re.fullmatch(r"\d{3}_evenements_scenario\.csv", f)) if os.path.isdir(d) else []
+    if not fs: return None
+    lignes = lire(os.path.join(d, fs[-1]))
+    grille, panneau, renvois, res = [], [], {}, {}
+    for e in lignes:
+        lien = {"id": e["id"], "activite": e["activite"], "src": e["document_source"], "pct": int(e["part_deduite_pct"]),
+                "certitude": e["certitude"], "date": e["date_scenario"]}
+        if e["fondu_dans"]:
+            base, i = e["fondu_dans"].split(":")
+            renvois.setdefault(("" if base == "AAM" else "d") + i, []).append(dict(lien, decision="même fait"))
+            continue
+        if e["semainier"] != "oui": continue
+        qui = personnes(e["qui"]) or ["(non nommé)"]
+        x = {"id": "s" + e["id"], "title": e["activite"], "resourceIds": qui,
+             "extendedProps": {"type": e["type"] if e["type"] != "scene" else "social", "qui": e["qui"], "lieu": e["lieu"],
+                               "note": e["note"], "pct": int(e["part_deduite_pct"]), "motifs": e["motifs_deduction"], "rec": False,
+                               "src": e["document_source"], "inv": "", "url": "", "heure": SCEN_MOMENT.get(e["precision"], ""), "fin": "",
+                               "scenario": True, "categorie": e["categorie"], "certitude": e["certitude"],
+                               "precision": e["precision"], "date_scen": e["date_scenario"], "versions": e["autres_versions"],
+                               "recoupement": e["recoupement"]}}
+        dur = (dt.date.fromisoformat(e["date_fin"] or e["date"]) - dt.date.fromisoformat(e["date"])).days
+        if e["precision"] in SCEN_GRILLE or (e["precision"] in ("plage", "semaine") and dur <= 14):
+            placer(x, e["date"], SCEN_MOMENT.get(e["precision"], ""), "", e["date_fin"] if e["precision"] in ("plage", "semaine") else "")
+            for q in qui: res[q] = res.get(q, 0) + 1
+            grille.append(x)
+        else:
+            x["start"], x["fin_periode"] = e["date"], e["date_fin"] or e["date"]
+            x["extendedProps"]["placement"] = f"date « {e['precision']} » dans le scénario : listé dans le panneau, pas dans la grille"
+            panneau.append(x)
+    # rapprochements « même jour, même personne » : renvoi possible des deux côtés
+    rp = sorted(f for f in os.listdir(d) if re.fullmatch(r"\d{3}_recoupements_scenario\.csv", f))
+    if rp:
+        for r in lire(os.path.join(d, rp[-1])):
+            if r["decision"] != "même jour, même personne": continue
+            cle = ("" if r["base"] == "AAM" else "d") + r["ligne_base"]
+            renvois.setdefault(cle, []).append({"id": r["scenario_id"], "activite": r["scenario"], "src": "", "pct": None,
+                                                "certitude": "", "date": r["date"], "decision": "même jour, même personne"})
+    return {"fichier": fs[-1], "grille": grille, "panneau": panneau, "renvois": renvois, "personnes": res}
+
 def refs():
     """inventaire -> date établie (#ref) depuis extraction/."""
     d = {}
@@ -235,6 +282,13 @@ def main():
             "documents": sorted(docs.values(), key=lambda d: d["date"] or "9999"),
             "periodes": periodes, "cours": cours}
     os.makedirs(SEM, exist_ok=True)
+    sc = scenario()
+    if sc:
+        with open(os.path.join(SEM, "data_scenario.js"), "w", encoding="utf-8") as f:
+            f.write("// généré par scripts/export_semainier.py depuis scenario/" + sc["fichier"] + " — ne pas éditer à la main\n")
+            f.write("window.BMC_SCEN = " + json.dumps(sc, ensure_ascii=False, separators=(",", ":")) + ";\n")
+        print(f"semainier/data_scenario.js : {len(sc['grille'])} entrées du scénario dans la grille, {len(sc['panneau'])} au panneau, "
+              f"{sum(len(v) for v in sc['renvois'].values())} renvois vers {len(sc['renvois'])} fiches AAM ou Duberman")
     with open(os.path.join(SEM, "data.js"), "w", encoding="utf-8") as f:
         f.write("// généré par scripts/export_semainier.py — ne pas éditer à la main\n")
         f.write("window.BMC = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")

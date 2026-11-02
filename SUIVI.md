@@ -10,6 +10,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 | 1 | Intégrer Duberman au semainier | fait | « semainier : couche Duberman » |
 | 2 | Couche spéculative 1949-50 → 1956-57 | fait (1955-57 sans semaines, faute de calendrier) | une année = un commit |
 | 3 | Contrôles (`construire.py --verifier`, navigateur headless, avant/après) | fait | « contrôles finaux » |
+| 4 | Scénario (bmc-scenario, 60 livres) reporté sur le semainier et recoupé | fait | « semainier : couche Scénario et recoupements » |
 
 ## Étape 0 — chemins
 - `scripts/selectionner.py` : déjà relatif (`ROOT` calculé depuis le script), rien à changer.
@@ -103,6 +104,20 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 - Chromium headless : une semaine par année de 1933 à 1956 (Semaine et Présences), vues Liste et Mois, filtres de
   famille, de part déduite, recherche, cases « Couche spéculative » et « Duberman », fiche d'une entrée spéculative,
   analyse d'année : 0 erreur console.
+
+## Étape 4 — scénario (2/11/2026)
+- Source : `bmc-scenario/sortie/009_bmc_scenario_1933-1957.json.gz` (extraction **automatique** de 60 livres, non relue).
+- `bmc-programmes-aam/scripts/integrer_scenario.py` → `bmc-programmes-aam/scenario/001_*` (événements, recoupements,
+  divergences, cours, rapport). Barème propre : +10 d'office (extraction non relue), certitude, précision de la date.
+- 7277 événements et scènes datés 1933-09 → 1957 ; 4252 reportés dans le semainier (283 dans la grille, 3 969 au
+  panneau), part déduite moyenne 37.8 % ; 2 942 écartés (plus de 13 mois) ;
+  83 fondus dans une fiche existante (1 AAM, 82 Duberman), 43 renvois « même jour, même personne ».
+- Couche « Scénario » (prune, « S. ») dans `semainier/data_scenario.js` (fichier séparé : data.js reste inchangé).
+- Recoupements notables : le scénario écrit « Robert » Lounsbury (Ralph dans l'AAM et Duberman) ; 2 divergences de date
+  avec Duberman (`scenario/001_divergences_scenario.csv`) ; 708 fiches « cours » : 113 concordent avec l'AAM
+  (titre + enseignant), 372 enseignants présents cette année-là mais titre absent de l'AAM, 71 absents de l'AAM.
+- **Questions** : faut-il relire et valider à la main les 82 fusions avec Duberman ? Reporter le contenu des cours du
+  scénario (objectifs, exercices) dans le panneau « Cours offerts » ?
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

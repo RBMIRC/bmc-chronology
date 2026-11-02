@@ -294,12 +294,21 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   - Par texte : Harris 780 (275 au jour), Canter 163, Díaz 92, Gilsanz Díaz 148 (traduction automatique, +20),
     Lane 46, Peifer 22, Benfey 19, autres moins de 15. Les articles généraux (Muir, Lindsay, Migašová…) n'ont pas de
     date au jour ; la Black Mountain College Review de 1951 n'en a aucune.
-  - Recoupés (même date, personne et mot communs ; deux mots pour une date imprécise) : AAM 55, Duberman 172,
-    Rumaker 11, un autre livre 60 ; témoin négatif (dates décalées de 400 jours) : 3,4 % contre 15,8 %.
-- Semainier : couche « Chronos, Rumaker, livres » ; au jour dans la grille (505), le reste au panneau ; chaque fiche
-  donne la référence (page imprimée et page du PDF), la phrase exacte et le recoupement.
-- Limites : extraction automatique non relue (+10) ; l'activité affichée est la proposition du texte qui porte la date
-  (en anglais), pas un résumé ; les noms de famille partagés (Albers, Dreier, Beidler…) ne sont pas attribués.
+- **Révision du même jour (demande : « ne mets pas de dates à moitié vérifiées, les json sont de meilleure qualité »)** :
+  `chronos/010_livres_couche.csv` (1 357 entrées, dont 505 dans la grille) est remplacée par `chronos/011_livres_couche.csv`,
+  vide : aucun fait de ces textes n'entre seul dans le semainier.
+  - Seuls les faits vérifiés au jour par une source qui fait foi (AAM, Duberman au jour, Rumaker au jour, fiche du
+    musée au jour ; même jour exact, même personne avec le même prénom, mot commun ; pour une lettre citée, toutes ses
+    personnes) deviennent des **renvois** « Aussi dans les livres » sur la fiche existante : 34 trouvés, tous relus
+    à la main (`livres/revue_renvois.txt`) : 32 justes, 2 faux écartés (lettre d'Olson à Aydelotte du 26 mai 1955 ≠
+    collecte de Mary Fiore ; bulletin du 20 novembre 1944 ≠ cours « Calculus »). Avant durcissement, 7 faux sur 40
+    (plage de dates de Duberman, nom de famille seul : Anne / Frederick Mangold).
+  - Témoin négatif (faits au jour décalés de 400 jours) : 0 vérification fausse sur 505.
+  - Hors semainier : 180 faits qui ne s'accordent qu'au mois, la thèse en traduction automatique, et le reste :
+    `livres/002_a_verifier.md` liste les 252 faits au jour qui nomment une personne, avec les indices (AAM ou Duberman
+    au mois, scénario, autres livres) pour une relecture.
+- Limites : l'activité affichée est la proposition du texte qui porte la date (en anglais) ; noms de famille partagés
+  (Albers, Dreier, Beidler…) non attribués.
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

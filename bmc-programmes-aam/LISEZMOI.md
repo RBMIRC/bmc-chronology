@@ -191,10 +191,10 @@ Voir la section « Avancement » ci-dessous (mise à jour à chaque sauvegarde).
 - Conversion sur l'ordinateur qui a les PDF : `scripts/pdf_vers_texte.py <dossier des PDF> <sortie>` (pdftotext page par
   page, OCR tesseract des pages scannées) ; les .txt seuls vont dans `DATA_BMC/textes_pdf` (pas de PDF dans le dépôt).
 - `scripts/livres_extraire.py` (avec `livres_commun.py`) : inventaire (référence d'après la page de titre, genre,
-  doublons, page imprimée), phrases datées de 1933-1957 qui parlent du collège, personnes de la base du BMC Yearbook,
-  recoupements avec l'AAM, Duberman, Rumaker et les autres livres (témoin négatif dans le rapport) →
-  `livres/NNN_*` et `chronos/NNN_livres_couche.csv` (couche Chronos du semainier). Barème : étude ou témoignage +10,
-  traduction automatique +20, document d'époque 0 ; extraction non relue +10 ; date au mois ou à la saison +25 ;
-  année reprise du contexte +15. Ajouter un texte : le verser dans `DATA_BMC/textes_pdf`, compléter la table META
-  (référence et genre), relancer le script puis `scripts/export_semainier.py`.
-
+  doublons, page imprimée), phrases datées de 1933-1957 qui parlent du collège, personnes de la base du BMC Yearbook.
+  **Rien n'entre seul dans le semainier** : un fait vérifié au jour par l'AAM, Duberman, Rumaker ou une fiche du musée
+  (même jour exact, même personne, mot commun) devient un renvoi « Aussi dans les livres » sur la fiche existante,
+  après relecture (`livres/revue_renvois.txt`, « id_fait|clé|ok ou faux|motif ») ; le reste va dans
+  `livres/NNN_a_verifier.md`. Sorties : `livres/NNN_*`, `chronos/NNN_livres_couche.csv` (vide). Ajouter un texte : le
+  verser dans `DATA_BMC/textes_pdf`, compléter la table META (référence et genre), relancer le script, relire les
+  nouveaux renvois dans `revue_renvois.txt`, puis `scripts/export_semainier.py`.

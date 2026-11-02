@@ -198,7 +198,18 @@ def chronos():
                 x["start"], x["fin_periode"] = e["date"], fin
                 x["extendedProps"]["placement"] = f"date « {e['precision']} » : listé dans le panneau, pas dans la grille"
                 panneau.append(x)
-    return {"fichiers": dernier, "grille": grille, "panneau": panneau, "personnes": res}
+    # renvois des livres et articles (livres/NNN_renvois_semainier.csv, scripts/livres_extraire.py) : faits vérifiés au
+    # jour sur une fiche existante (AAM : n° de ligne ; Duberman : « d » + n° ; couches Chronos : leur id), relus à la main
+    livres = {}
+    dl = os.path.join(ROOT, "livres")
+    fl = sorted(f for f in os.listdir(dl) if re.fullmatch(r"\d{3}_renvois_semainier\.csv", f)) if os.path.isdir(dl) else []
+    if fl:
+        for r in lire(os.path.join(dl, fl[-1])):
+            if r["revue"] == "faux": continue
+            livres.setdefault(r["cle"], []).append({"ref": r["reference"], "date": r["date_livre"], "nature": r["nature"],
+                                                     "phrase": r["phrase"], "revue": r["revue"]})
+    return {"fichiers": dernier, "grille": grille, "panneau": panneau, "personnes": res, "livres": livres,
+            "fichier_livres": fl[-1] if fl else ""}
 
 def refs():
     """inventaire -> date établie (#ref) depuis extraction/."""

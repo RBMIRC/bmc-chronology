@@ -10,13 +10,17 @@ Entrée : DATA_BMC/textes_pdf/*.txt (scripts/pdf_vers_texte.py, sur l'ordinateur
    collège (personne de la base du BMC Yearbook, ou lieu ou mot du collège dans la phrase ou la précédente).
    Personnes : noms complets de la base, ou nom de famille seul quand il est propre à une seule personne du corps
    enseignant ; type d'après les mots de la phrase. L'activité affichée est le début de la phrase : rien n'est réécrit.
-3. Recoupements (règle stricte) : AAM, Duberman, Rumaker et les autres livres : même date (le jour ; le mois pour une
-   date au mois), une personne commune et un mot significatif commun. « Date différente » : mêmes personnes et trois
-   mots communs à moins de 60 jours d'écart.
+3. Vérification (règle du 2/11/2026, demande de Sylvain : « ne mets pas de dates à moitié vérifiées ») : rien de ces
+   textes n'entre seul dans le semainier. Un fait n'y paraît que vérifié AU JOUR par une source qui fait foi (document
+   daté de l'AAM, Duberman daté au jour, Rumaker daté au jour, fiche du musée datée au jour) : même jour exact (pas une
+   plage, pas un mois), personne commune avec le même prénom, mot commun ; pour une lettre ou un procès-verbal cité,
+   toutes ses personnes dans la fiche de base. Il devient un renvoi sur la fiche existante, après relecture manuelle
+   (livres/revue_renvois.txt). Le reste est « à vérifier » (livres/NNN_a_verifier.md), avec ce qu'en disent l'AAM ou
+   Duberman au mois, le scénario et les autres livres (indices, pas preuves). Traduction automatique : jamais posée.
 Part déduite : genre (étude +10 ; témoignage écrit après coup +10 ; traduction automatique +20 ; document de l'époque 0)
 + extraction automatique non relue +10 + date au mois ou à la saison +25 ou année reprise du contexte +15 ; plafond 90.
-Sorties (numéro suivant, jamais écrasées) : livres/NNN_inventaire.csv, NNN_evenements_livres.csv, NNN_rapport_livres.md,
-chronos/NNN_livres_couche.csv (couche « Chronos » du semainier : dates au jour dans la grille, les autres au panneau).
+Sorties (numéro suivant, jamais écrasées) : livres/NNN_inventaire.csv, NNN_evenements_livres.csv, NNN_renvois_semainier.csv,
+NNN_a_verifier.md, NNN_rapport_livres.md ; chronos/NNN_livres_couche.csv vide (aucune entrée propre au semainier).
 """
 import collections, csv, datetime as dt, glob, hashlib, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -259,67 +263,117 @@ def main():
                                   "activite": act, "qui": "; ".join(qui_s),
                                   "noms_ambigus": "; ".join(amb_s), "lieu": lieu, "phrase": s[:900], "page": pg, "genre": genre,
                                   "document_source": f"{ref}, {pg}", "part_deduite_pct": min(pct, 90), "motifs_deduction": " ; ".join(mot)})
-    # ---------------------------------------------------------------- recoupements
+    # ---------------------------------------------------------------- vérification (règle du 2/11/2026)
+    # Rien de ces textes n'entre seul dans le semainier. Un fait n'y paraît que s'il est VÉRIFIÉ AU JOUR par une source
+    # qui fait foi : document daté de l'AAM, Duberman corrigé daté au jour, Rumaker daté au jour (dépouillement manuel),
+    # fiche du musée datée au jour (Chronos Asheville) — même jour, personne commune et mot commun (trois mots sans
+    # personne). Il devient alors un renvoi (« aussi dans… ») sur la fiche existante, pas un nouvel événement.
+    # Hors semainier : dates au mois ou à la saison, accords au mois seulement, traduction automatique, et tout le reste
+    # (« à vérifier », avec ce qu'en disent le scénario et les autres livres, qui ne valent pas preuve).
     aam = lire(os.path.join(ROOT, "programme", "evenements.csv"))
     dub = lire(os.path.join(ROOT, "duberman", "evenements_duberman.csv"))
-    rum = lire(sorted(glob.glob(os.path.join(ROOT, "rumaker", "[0-9][0-9][0-9]_evenements_rumaker.csv")))[-1])
-    def idx(L_, champ="activite"):
+    f_rum = sorted(glob.glob(os.path.join(ROOT, "rumaker", "[0-9][0-9][0-9]_evenements_rumaker.csv")))[-1]
+    rum = lire(f_rum); n_rum = os.path.basename(f_rum)[:3]
+    ash = lire(sorted(glob.glob(os.path.join(ROOT, "chronos", "[0-9][0-9][0-9]_asheville_couche.csv")))[-1])
+    scen = lire(sorted(glob.glob(os.path.join(ROOT, "scenario", "[0-9][0-9][0-9]_evenements_scenario.csv")))[-1])
+    for i, x in enumerate(aam): x["_cle"] = str(i); x["precision"] = "jour"
+    for i, x in enumerate(dub): x["_cle"] = f"d{i}"
+    for x in rum: x["_cle"] = f"rm{n_rum}-{x['id']}"
+    for x in ash: x["_cle"] = x["id"]
+    def idx(L_):
         I = collections.defaultdict(list)
         for x in L_:
-            if x.get("date"): I[x["date"][:7]].append(x)
+            if re.fullmatch(r"\d{4}-\d{2}-\d{2}", x.get("date") or ""): I[x["date"][:7]].append(x)
         return I
-    I_aam, I_dub, I_rum, I_liv = idx(aam), idx(dub), idx(rum), idx(faits)
-    def recoupe(f, I, nom, meme_source=None, decalage=0):
-        """même date (le jour ; pour une date au mois ou à la saison : dans la période), personne commune et mot commun
-        (deux mots pour une date imprécise ; trois sans personne nommée, au jour seulement)."""
+    I_aam, I_dub, I_rum, I_ash, I_sce, I_liv = idx(aam), idx(dub), idx(rum), idx(ash), idx(scen), idx(faits)
+    FOI = ((I_aam, "AAM"), (I_dub, "Duberman"), (I_rum, "Rumaker"), (I_ash, "fiche du musée (Asheville)"))
+    def prenom_autre(qui_f, qui_x, nom_f):
+        """vrai si les deux côtés donnent un prénom différent pour ce nom de famille."""
+        pf = {V.plat(q.split()[0]) for q in qui_f.split("; ") if len(q.split()) > 1 and V.plat(q.split()[-1]) == nom_f}
+        px = {V.plat(q.split()[0]) for q in qui_x if len(q.split()) > 1 and V.plat(q.split()[-1]) == nom_f}
+        return bool(pf and px and not ({a[:1] for a in pf} & {b[:1] for b in px}))
+    def recoupe(f, I, au_jour=True, meme_source=None, decalage=0):
+        """au_jour : même jour exact des deux côtés (dates au jour), personne commune et un mot commun (trois sans
+        personne) ; sinon accord dans la période (mois, saison) : personne commune et deux mots communs."""
         d0 = dt.date.fromisoformat(f["date"]) + dt.timedelta(decalage)
         d1 = (dt.date.fromisoformat(f["date_fin"]) if f["date_fin"] else dt.date.fromisoformat(f["date"])) + dt.timedelta(decalage)
-        ns = K.noms_famille(f["qui"].split("; ")); mq = mots_sig(f["phrase"]); precis = f["precision"] in ("jour", "plage")
-        best, autre = None, None
+        ns = K.noms_famille(f["qui"].split("; ")); mq = mots_sig(f["phrase"])
+        best = None
         mois = {(d0 + dt.timedelta(k)).isoformat()[:7] for k in range(0, (d1 - d0).days + 1, 10)} | {d1.isoformat()[:7]}
         for x in (y for m_ in mois for y in I.get(m_, [])):
             if meme_source and x.get("code") == meme_source: continue
-            xn = K.noms_famille((x.get("qui") or "").replace("; ", ";").split(";"))
+            # au jour : la fiche de base doit être datée au jour même (pas une plage, pas un mois)
+            if au_jour and (x.get("precision") or "jour") not in ("jour", "soir", "matin", "apres-midi", "nuit"): continue
+            xq = [q.strip() for q in (x.get("qui") or "").replace("; ", ";").split(";") if q.strip()]
+            xn = K.noms_famille(xq)
             if ns and not (ns & xn): continue
+            # même nom de famille mais autre prénom des deux côtés (Anne / Frederick Mangold) : pas la même personne
+            if au_jour and ns and all(prenom_autre(f["qui"], xq, n_) for n_ in ns & xn): continue
+            # document cité (lettre, procès-verbal) : toutes ses personnes nommées doivent être dans la fiche de base
+            if au_jour and f["nature"].startswith("document") and ns - xn: continue
             com = mq & mots_sig((x.get("activite") or "") + " " + (x.get("note") or "") + " " + (x.get("phrase") or ""))
             xd0 = dt.date.fromisoformat(x["date"]); xd1 = dt.date.fromisoformat(x.get("date_fin") or x["date"])
-            x_precis = x.get("precision", "jour") in ("jour", "plage", "")
-            meme = (xd0 <= d1 and d0 <= xd1) if (precis and x_precis) else (xd0 <= d1 and d0 <= xd1)
-            besoin = (1 if precis and x_precis else 2) if ns else (3 if precis and x_precis else 99)
-            if meme and len(com) >= besoin:
-                if best is None or len(com) > best[0]: best = (len(com), x)
-            elif not meme and ns and len(com) >= 3 and precis and x_precis and abs((xd0 - d0).days) <= 60:
-                autre = x
-        if best:
-            x = best[1]; src = f"{nom} {x['date']} « {(x.get('activite') or '')[:80]} »"
-            return src + (f" ({x['document_source'][:80]})" if nom == "autre livre" else ""), ""
-        return "", (f"{nom} : {autre['date']} « {(autre.get('activite') or '')[:70]} »" if autre else "")
-    # témoin négatif : mêmes faits décalés de 400 jours (taux de faux recoupements)
-    temoin = sum(1 for f in faits if any(recoupe(f, I, n_, None, 400)[0] for I, n_ in ((I_aam, "AAM"), (I_dub, "Duberman"), (I_rum, "Rumaker"))))
+            if au_jour and (xd1 - xd0).days > 14: continue
+            if not (xd0 <= d1 and d0 <= xd1): continue
+            besoin = (1 if ns else 3) if au_jour else (2 if ns else 99)
+            if len(com) >= besoin and (best is None or len(com) > best[0]): best = (len(com), x)
+        return best[1] if best else None
+    jour = lambda f: f["precision"] in ("jour", "plage")
+    # relecture manuelle des renvois (livres/revue_renvois.txt : « id_fait|clé de la fiche|ok ou faux|motif ») :
+    # un renvoi jugé faux n'est pas posé
+    revue = {}
+    p_rev = os.path.join(ICI, "revue_renvois.txt")
+    if os.path.exists(p_rev):
+        for l in open(p_rev, encoding="utf-8"):
+            if l.strip() and not l.startswith("#"):
+                i_, c_, d_, m_ = (l.rstrip("\n").split("|") + ["", "", "", ""])[:4]; revue[(i_.strip(), c_.strip())] = (d_.strip(), m_.strip())
+    # témoin négatif : mêmes faits décalés de 400 jours
+    temoin = sum(1 for f in faits if jour(f) and any(recoupe(f, I, True, None, 400) for I, _ in FOI))
+    renvois = []
     for f in faits:
-        r = [recoupe(f, I, n_) for I, n_ in ((I_aam, "AAM"), (I_dub, "Duberman"), (I_rum, "Rumaker"))]
-        rl = recoupe(f, I_liv, "autre livre", f["code"])
-        f["recoupement"] = " ; ".join(x for x, _ in r if x); f["autre_livre"] = rl[0]
-        f["date_differente"] = " ; ".join(y for _, y in r + [rl] if y)
-        f["statut"] = ("confirmé (" + ", ".join(n_ for (x, _), n_ in zip(r, ("AAM", "Duberman", "Rumaker")) if x) + ")") if f["recoupement"] \
-            else "confirmé par un autre livre" if f["autre_livre"] else "source seule"
+        verif = [(n_, x) for I, n_ in FOI if jour(f) and (x := recoupe(f, I, True))]
+        rejet = [(n_, x) for n_, x in verif if revue.get((f["id"], x["_cle"]), ("", ""))[0] == "faux"]
+        verif = [v for v in verif if v not in rejet]
+        f["renvoi_rejete"] = " ; ".join(f"{n_} {x['date']} « {(x.get('activite') or '')[:60]} » : {revue[(f['id'], x['_cle'])][1]}" for n_, x in rejet)
+        mois_ = [(n_, x) for I, n_ in FOI if not verif and (x := recoupe(f, I, False))]
+        sc = recoupe(f, I_sce, jour(f)); lv = recoupe(f, I_liv, jour(f), f["code"])
+        f["verifie_par"] = " ; ".join(f"{n_} {x['date']} « {(x.get('activite') or '')[:80]} »" for n_, x in verif)
+        f["accord_au_mois"] = " ; ".join(f"{n_} {x['date']} « {(x.get('activite') or '')[:70]} »" for n_, x in mois_)
+        f["scenario"] = f"{sc['id']} {sc['date']} « {sc['activite'][:70]} » ({sc['document_source'][:60]})" if sc else ""
+        f["autre_livre"] = f"{lv['code']} {lv['page']} « {lv['activite'][:70]} »" if lv else ""
+        if verif and f["genre"] == "traduction automatique":
+            f["statut"] = "vérifié au jour, mais texte en traduction automatique : hors semainier"
+        elif verif:
+            f["statut"] = "vérifié au jour (" + ", ".join(n_ for n_, _ in verif) + ") : renvoi sur la fiche existante"
+            for n_, x in verif:
+                renvois.append({"revue": revue.get((f["id"], x["_cle"]), ("non relu", ""))[0], "cle": x["_cle"], "base": n_, "date_fiche": x["date"], "fiche": (x.get("activite") or "")[:120],
+                                "code": f["code"], "reference": f["document_source"], "date_livre": f["date_source"], "nature": f["nature"],
+                                "phrase": f["phrase"], "id_fait": f["id"]})
+        elif mois_:
+            f["statut"] = "accord au mois seulement (jour non vérifié) : hors semainier"
+        else:
+            f["statut"] = "à vérifier : hors semainier"
     # ---------------------------------------------------------------- sorties
     num = K.prochain_numero(ICI)
-    for suff, rows in (("_inventaire", inv), ("_evenements_livres", faits)):
+    for suff, rows in (("_inventaire", inv), ("_evenements_livres", faits), ("_renvois_semainier", renvois)):
+        if not rows: continue
         with open(os.path.join(ICI, f"{num}{suff}.csv"), "w", encoding="utf-8", newline="") as fo:
             w = csv.DictWriter(fo, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
+    # la couche « livres » du semainier ne garde aucune entrée propre (remplace chronos/010_livres_couche.csv)
     nc = K.prochain_numero(K.SORTIE)
-    couche = [{"id": f"lv{num}-{f['id']}", "source_chronos": f"Livres et articles (PDF) : {f['code']}", "date": f["date"], "date_fin": f["date_fin"],
-               "precision": f["precision"], "type": f["type"], "activite": f["activite"], "qui": f["qui"], "lieu": f["lieu"],
-               "note": " ".join(x for x in (("Recoupement — " + f["recoupement"]) if f["recoupement"] else "",
-                                            ("Autre livre — " + f["autre_livre"]) if f["autre_livre"] else "",
-                                            ("Date différente ailleurs — " + f["date_differente"]) if f["date_differente"] else "",
-                                            ("Nom de famille seul, non rattaché : " + f["noms_ambigus"]) if f["noms_ambigus"] else "") if x),
-               "part_deduite_pct": f["part_deduite_pct"], "motifs_deduction": f["motifs_deduction"], "document_source": f["document_source"],
-               "inventaire": "", "url_source": "", "statut": f["statut"], "verif_statut": "phrase exacte du texte (extraction automatique)",
-               "verif_extrait": f["phrase"], "date_source": f["date_source"]} for f in faits]
     with open(os.path.join(K.SORTIE, f"{nc}_livres_couche.csv"), "w", encoding="utf-8", newline="") as fo:
-        w = csv.DictWriter(fo, fieldnames=list(couche[0].keys())); w.writeheader(); w.writerows(couche)
+        fo.write("id,source_chronos,date,date_fin,precision,type,activite,qui,lieu,note,part_deduite_pct,motifs_deduction,document_source,"
+                 "inventaire,url_source,statut,verif_statut,verif_extrait,date_source\n")
+    # liste à vérifier : faits au jour, hors semainier, qui nomment une personne (les plus utiles à relire)
+    av = sorted((f for f in faits if f["statut"].startswith(("à vérifier", "accord au mois")) and jour(f) and f["qui"]
+                 and f["genre"] != "traduction automatique"), key=lambda f: f["date"])
+    A = [f"# Livres et articles : faits datés au jour à vérifier ({num})", "",
+         "Hors semainier. Chaque ligne : date lue, texte et page, personnes, phrase ; puis ce qu'en disent l'AAM ou Duberman au "
+         "mois, le scénario et les autres livres (indices, pas preuves : le scénario vient en partie des mêmes livres).", ""]
+    for f in av:
+        A.append(f"- **{f['date']}** ({f['date_source']}) · {f['code']} {f['page']} · {f['qui']} · {f['nature']}  \n  « {f['phrase'][:400]} »"
+                 + "".join(f"  \n  ↳ {k} : {f[c]}" for k, c in (("au mois", "accord_au_mois"), ("scénario", "scenario"), ("autre livre", "autre_livre")) if f[c]))
+    open(os.path.join(ICI, f"{num}_a_verifier.md"), "w", encoding="utf-8").write("\n".join(A) + "\n")
     N = collections.Counter
     R = [f"# Livres et articles (textes des PDF) : dépouillement automatique ({num})", "",
          f"{len(inv)} textes dans `DATA_BMC/textes_pdf` ; {sum(1 for x in inv if x['doublon_de'])} doublons écartés "
@@ -329,17 +383,18 @@ def main():
     R += [f"| {x['code']} | {x['genre']} | {x['pages_pdf']} | {x['pages_deux_colonnes']} | {'décalage ' + str(x['decalage_page_imprimee']) if x['decalage_page_imprimee'] != '' else 'PDF'} | {x['mots']} | {nf.get(x['code'], 0) if not x['doublon_de'] else 'doublon'} |" for x in inv]
     R += ["", f"## {len(faits)} faits datés de 1933 à 1957", "",
           "- Précision : " + ", ".join(f"{k} {v}" for k, v in N(f["precision"] for f in faits).most_common()) + ".",
-          "- Statut : " + ", ".join(f"{k} {v}" for k, v in N(f["statut"] for f in faits).most_common()) + ".",
+          "- Statut : " + "; ".join(f"{k} {v}" for k, v in N(f["statut"] for f in faits).most_common()) + ".",
+          f"- Renvois posés sur des fiches existantes du semainier : {len(renvois)} (`livres/{num}_renvois_semainier.csv`) ; "
+          f"aucune entrée nouvelle (`chronos/{nc}_livres_couche.csv` est vide). À vérifier : `livres/{num}_a_verifier.md` ({len(av)} faits au jour nommant une personne).",
           "- Nature : " + ", ".join(f"{k} {v}" for k, v in N(f["nature"] for f in faits).most_common()) + ".",
-          f"- Témoin négatif (mêmes faits décalés de 400 jours) : {temoin} recoupements faux sur {len(faits)} ({100 * temoin / max(1, len(faits)):.1f} %), "
-          f"contre {sum(1 for f in faits if f['recoupement'])} ({100 * sum(1 for f in faits if f['recoupement']) / max(1, len(faits)):.1f} %) à la bonne date.",
-          f"- Avec au moins une personne de la base : {sum(1 for f in faits if f['qui'])} ; date différente ailleurs : {sum(1 for f in faits if f['date_differente'])}.",
+          f"- Témoin négatif (faits au jour décalés de 400 jours) : {temoin} vérifications fausses sur {sum(1 for f in faits if jour(f))} faits au jour, "
+          f"contre {sum(1 for f in faits if f['verifie_par'])} à la bonne date.",
+          f"- Avec au moins une personne de la base : {sum(1 for f in faits if f['qui'])} .",
           f"- Part déduite moyenne : {sum(f['part_deduite_pct'] for f in faits) / max(1, len(faits)):.1f} %.",
-          f"- Couche du semainier : `chronos/{nc}_livres_couche.csv` (au jour dans la grille : {sum(1 for f in faits if f['precision'] == 'jour')}).", "",
-          "## Dates différentes d'une source à l'autre (à vérifier)", ""]
-    R += [f"- {f['date']} {f['code']} {f['page']} « {f['activite'][:100]} » — {f['date_differente']}" for f in faits if f["date_differente"]][:150]
+          ""] + ["## Faits vérifiés au jour (renvois)", ""] + [f"- {f['date']} {f['code']} {f['page']} « {f['activite'][:100]} » — {f['verifie_par'][:160]}" for f in faits if f["verifie_par"]] + ["", 
+          ]
     open(os.path.join(ICI, f"{num}_rapport_livres.md"), "w", encoding="utf-8").write("\n".join(R) + "\n")
-    print("\n".join(R[:60]))
+    print("\n".join(R[:48]))
 
 
 if __name__ == "__main__":

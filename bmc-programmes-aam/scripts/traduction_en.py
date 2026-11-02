@@ -23,7 +23,7 @@ LIEUX_FR = {"Caroline", "Floride", "Géorgie", "Virginie", "Californie", "Louisi
             "Vienne", "Prague", "Moscou", "Russie", "Hollande", "Belgique", "Canada", "Cuba", "Europe", "Amérique", "Pacifique", "Atlantique"}
 # titres d'œuvres français gardés tels quels dans l'anglais (guide : « les titres d'œuvres gardent leur langue »)
 # graphie corrigée dans la traduction quand le résumé français écorche un nom (« Frederic March » → Fredric March)
-ORTHO_NOMS = {"Frederic": "Fredric", "Florace": "Horace", "Fiola": "Flola", "Edith": "Édith", "Victor": "Vicente", "Hild": "Field", "Hore": "Fiore", "Peek": "Peak"}
+ORTHO_NOMS = {"Frederic": "Fredric", "Florace": "Horace", "Fiola": "Flola", "Edith": "Édith", "Victor": "Vicente", "Hild": "Field", "Hore": "Fiore", "Peek": "Peak", "Emanuel": "Emanu-El"}
 TITRES_FR = ["L'Honneur des poètes", "Le Déshonneur des poètes", "Le Piège de Méduse", "Le Malade imaginaire", "Le Médecin malgré lui", "Les Précieuses ridicules", "Pelléas et Mélisande", "Les Nuages", "Symphonie pour un homme seul", "Iceberg de poche",
              "Le Sacre du printemps", "Les Demoiselles d'Avignon", "La Cerisaie", "Les Mamelles de Tirésias",
              "Les Mariés de la tour Eiffel"]
@@ -131,6 +131,10 @@ def verifier(num, remplacer=False, partiel=False):
             duree = re.search(rf"\b{int(h)} hours? (?:and )?{int(mn)} minutes\b", en) or (int(h) == 1 and mn == "30" and "hour and a half" in en)   # durée « 1h30 »
             if not duree and not re.search(rf"\b({int(h)}|{h12}):{mn}\b", en): erreurs.append(f"{i} : heure {h}:{mn} mal rendue")
         hors = re.sub(r"\b\d{1,2}[:h]\s?\d{2}\b", " ", hors)
+        for h in re.findall(r"\b(\d{1,2})\s?h\b(?!\s?\d)", hors):   # « de 21h à 4h » → 9 p.m. to 4 a.m.
+            h12 = (int(h) - 1) % 12 + 1
+            if not re.search(rf"\b({int(h)}|{h12})(?::00)?\s?(?:a\.m\.|p\.m\.|o'clock)", en) and not re.search(rf"\b{int(h)}\b", en): erreurs.append(f"{i} : heure {h}h mal rendue")
+        hors = re.sub(r"\b\d{1,2}\s?h\b(?!\s?\d)", " ", hors)
         if re.search(r"\b(?:inch|inches|foot|feet|gallons?|pounds?|miles?|yards?|ounces?)\b|-(?:inch|foot|gallon|pound|mile|yard)\b", en):   # mesures métriques rendues dans les unités américaines d'origine
             hors = re.sub(r"\b\d+(?:[,.]\d+)?(?:\s?[-–à]\s?\d+(?:[,.]\d+)?)?\s?(?:cm|mm|m|km|kg|g|l|litres?|mètres?|kilos?|kilomètres?|centimètres?)\b", " ", hors)
         for n in set(re.findall(r"\b\d+\b", hors)):

@@ -23,6 +23,16 @@ def francais(t):
     return f > e or (f == e and bool(ACCENTS.search(t)))
 
 
+def imbriques(t):
+    """Usage américain : guillemets doubles dehors, simples dedans (“Olson's program of ‘institutes’”)."""
+    out, n = [], 0
+    for c in t:
+        if c == "“": out.append("‘" if n else "“"); n += 1
+        elif c == "”" and n: n -= 1; out.append("’" if n else "”")
+        else: out.append(c)
+    return "".join(out)
+
+
 def charge(nom):
     s = open(os.path.join(SEM, nom), encoding="utf-8").read()
     return json.loads(s[s.index("{"): s.rstrip().rstrip(";").rindex("}") + 1])
@@ -57,7 +67,7 @@ def main():
     if os.path.exists(p_revu):
         for l in open(p_revu, encoding="utf-8"):
             if "\t" in l and not l.startswith("#"):
-                a, b = l.rstrip("\n").split("\t", 1); revu[a] = b
+                a, b = l.rstrip("\n").split("\t", 1); revu[a] = imbriques(b)
     L = [t for t in chaines(champs) if t not in revu and t not in auto][:maxi]
     print(f"{len(L)} chaînes à traduire automatiquement ({champs}) ; déjà : relues {len(revu)}, automatiques {len(auto)}", flush=True)
     # Les sources sont en anglais : rien d'anglais n'est traduit. Dans nos textes français, les citations (« … », “ … ”,

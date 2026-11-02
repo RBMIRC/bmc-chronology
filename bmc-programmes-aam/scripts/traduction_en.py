@@ -76,7 +76,8 @@ def preparer(taille):
     print(f"{len(a_faire)} chaînes à traduire → lots {nums and max(nums) + 1 or 1} à {n0}")
 
 
-def citations(t): return [q.strip() for q in re.findall(r"«\s*([^»]+?)\s*»|“([^”]+)”|\"([^\"]+)\"", t) for q in q if q]
+def citations(t):   # guillemets imbriqués (« titre « citation » ») : on garde la citation la plus intérieure
+    return [q.split("«")[-1].strip() for q in re.findall(r"«\s*([^»]+?)\s*»|“([^”]+)”|\"([^\"]+)\"", t) for q in q if q]
 
 
 def verifier(num, remplacer=False):
@@ -105,6 +106,7 @@ def verifier(num, remplacer=False):
             if not (re.search(rf"\b{int(j)}\b", en) and a in en and re.search(MOIS[int(m) - 1][:3], en)): erreurs.append(f"{i} : date {j}/{m}/{a} mal rendue")
         hors = re.sub(r"\b\d{1,2}/\d{1,2}/\d{4}\b", " ", hors)
         for j, m in re.findall(r"\b(\d{1,2})/(\d{1,2})\b", hors):              # bulletin du 23/02 → February 23 bulletin
+            if f"{j}/{m}" in en: continue                                      # fraction (chance 1/2), recopiée telle quelle
             if not (1 <= int(m) <= 12 and re.search(rf"\b{int(j)}\b", en) and re.search(MOIS[int(m) - 1][:3], en)): erreurs.append(f"{i} : date {j}/{m} mal rendue")
         hors = re.sub(r"\b\d{1,2}/\d{1,2}\b", " ", hors)
         for h, mn in re.findall(r"\b(\d{1,2})[:h]\s?(\d{2})\b", hors):          # 14:30, 16 h 30 → 2:30 p.m.
@@ -115,7 +117,7 @@ def verifier(num, remplacer=False):
             if n not in en and not (len(n) <= 2 and re.search(r"\bh\b|heure", hors)): erreurs.append(f"{i} : nombre {n} absent")
         sans = re.sub(r"“[^”]*”|\"[^\"]*\"|\*[^*]*\*|\([^)]*\)", " ", en)
         # particules des noms propres (Francine du Plessix Gray) et articles des titres d’œuvres (Le Piège de Méduse), repris de l’original
-        sans = re.sub(r"\b(?i:du|de|des|la|le|les|un|une)\s+([A-Z][\w'’\-]+)", lambda m: " " if m.group(1) in fr and m.group(1) not in LIEUX_FR else m.group(0), sans)
+        sans = re.sub(r"\b(?i:du|de|des|la|le|les|un|une)\s+([A-Z][\w'’\-]+)", lambda m: " " if re.sub(r"['’]s$", "", m.group(1)) in fr and m.group(1) not in LIEUX_FR else m.group(0), sans)
         reste = OUTILS_FR.findall(sans)
         if reste: erreurs.append(f"{i} : français restant ({', '.join(sorted(set(reste)))}) : {en[:70]}")
         if re.search(r"\s[:;!?](\s|$)", en): avert.append(f"{i} : espace avant ponctuation")

@@ -367,6 +367,16 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
     reconstituée, faits au mois ou à la saison (bande au-dessus des colonnes) ; raccourcis « tout », « rien »,
     « attesté seul ». Cours d'un même créneau réunis en une case ; récurrences de l'AAM en une ligne ; contexte (colonne
     de droite) ouvert à la demande ; fiches en fenêtre au clic, inchangées.
+  - « Le nom des collections est peu clair : Chronos ne dit rien ; subdiviser avec des noms évidents pour un
+    chercheur » (3/11/2026) : chaque entrée est rangée sous sa source, en quatre groupes —
+    Documents du collège (Asheville Art Museum) : Bulletins de la communauté, Catalogues et annonces, Bulletins
+    d'information, Programmes de concerts et spectacles (d'après la catégorie de la fiche), Cours à horaire attesté,
+    Fiches du musée en lecture automatique ; Témoignages : Entretiens de Mary Emma Harris, Rumaker (2003) ;
+    Histoires et études : Duberman (1972), Duberman en lecture automatique, Silver, The Farm (2024), Autres livres et
+    études (52 titres, choix titre par titre) ; Reconstitution : Emploi du temps reconstitué, Vie commune reconstituée.
+    Chaque case porte le nom court de sa source (« Bulletin », « Entretien Harris », « Molesworth 2015 »…) ; la fiche
+    commence par sa collection ; mêmes noms dans la grille, le panneau et les filtres (« Chronos » et « scénario »
+    n'apparaissent plus).
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

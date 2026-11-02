@@ -175,6 +175,13 @@
   .opt b { font-weight:600; font-size:11px; color:var(--gris); }
   .opt:not(.on) { background:transparent; color:var(--gris); text-decoration:line-through; text-decoration-color:#bbb; }
   .opt:not(.on) i { opacity:.35; } .opt.zero { opacity:.55; }
+  .couche.cb { text-transform:none; letter-spacing:0; font-weight:600; max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; vertical-align:-2px; }
+  .it .pied .couche.cb { font-size:9.5px; max-width:70%; display:inline-block; }
+  .opt-g { display:inline-flex; flex-wrap:wrap; align-items:center; gap:4px 5px; margin-right:12px; }
+  .opt-gt { font:600 10.5px -apple-system, Arial, sans-serif; text-transform:uppercase; letter-spacing:.05em; color:var(--gris); margin-right:2px; }
+  .opts { flex-direction:column; align-items:flex-start; gap:4px; }
+  .livres-sel { font-size:12px; margin:-2px 0 8px; } .livres-sel summary { color:var(--gris); }
+  .livres-sel > div { display:flex; flex-wrap:wrap; gap:4px 5px; margin-top:4px; max-height:8em; overflow-y:auto; }
   .opts-tout { font-size:11.5px; color:var(--gris); margin-left:6px; } .opts-tout a { color:var(--gris); }
   .bande { background:#efebe1; border-radius:3px; padding:4px 8px; margin:0 0 8px; font-size:12px; }
   .bande summary { font:600 12px Georgia, serif; color:var(--encre); }
@@ -234,11 +241,11 @@
       <option>0</option><option>10</option><option>20</option><option>30</option><option>50</option><option>60</option><option>75</option><option selected>100</option></select> %</label>
   </div>
   <div class="grp" id="familles"></div>
-  <label class="fam" title="Semaines reconstituées à partir de sources indirectes"><input type="checkbox" id="spec" checked><i class="ispec"></i>Couche spéculative</label>
-  <label class="fam" title="Événements tirés de Duberman, Black Mountain: An Exploration in Community (1972) ; les doublons avec l'AAM sont fondus dans la ligne AAM"><input type="checkbox" id="dub" checked><i class="idub"></i>Duberman</label>
+  <label class="fam" title="Semaines reconstituées à partir de sources indirectes"><input type="checkbox" id="spec" checked><i class="ispec"></i>Reconstitution (emploi du temps)</label>
+  <label class="fam" title="Événements tirés de Duberman, Black Mountain: An Exploration in Community (1972) ; les doublons avec l'AAM sont fondus dans la ligne AAM"><input type="checkbox" id="dub" checked><i class="idub"></i>Duberman (1972)</label>
   <label class="fam" title="N'afficher que les entrées dont la source citée a été ouverte et contient les témoins de l'entrée (scripts/verifier_sources.py)"><input type="checkbox" id="verifSeul">Retrouvées seulement</label>
-  <label class="fam" title="Chronos : extractions automatiques (décembre 2025) des fiches du musée, des entretiens de Mary Emma Harris, du livre sur la ferme et de Duberman, seulement ce que l'AAM et Duberman n'ont pas déjà, à relire ; Rumaker : dépouillement manuel de Black Mountain Days (2003) "><input type="checkbox" id="chr" checked><i class="ichr"></i>Chronos, Rumaker</label>
-  <label class="fam" title="Événements et scènes du scénario (extraction automatique, non relue, de 60 livres : bmc-scenario) ; les faits déjà dans l'AAM ou Duberman y sont fondus en renvoi"><input type="checkbox" id="scen" checked><i class="iscen"></i>Scénario</label>
+  <label class="fam" title="Entretiens de Mary Emma Harris, Rumaker (Black Mountain Days, 2003), Silver (The Farm, 2024), fiches du musée et Duberman en lecture automatique : seulement ce que les documents et Duberman n'ont pas déjà"><input type="checkbox" id="chr" checked><i class="ichr"></i>Témoignages, Silver, compléments</label>
+  <label class="fam" title="Lecture automatique, non relue, de 52 livres et études (biographies, catalogues d'exposition, monographies) ; les faits déjà dans les documents ou chez Duberman y sont fondus en renvoi"><input type="checkbox" id="scen" checked><i class="iscen"></i>Autres livres et études (52)</label>
   </div></details>
 </header>
 <main>
@@ -307,6 +314,51 @@ const JOURS = [...new Set(D.events.map(e => e.start.slice(0, 10)))].sort();
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 const pctTag = p => `<span class="pct ${p === 0 ? "p0" : p >= 30 ? "p30" : ""}" title="part déduite des sources">${p} %</span>`;
+// ---- collections : chaque entrée est rangée sous sa source, avec un nom compréhensible pour un chercheur
+const COLLECTIONS = [
+  ["bulletins", "Documents du collège (Asheville Art Museum)", "Bulletins de la communauté", "Bulletin", "Community Bulletins hebdomadaires du collège, lus et relus (AAM)", "#3d3a35"],
+  ["catalogues", "Documents du collège (Asheville Art Museum)", "Catalogues et annonces", "Catalogue", "catalogues annuels, annonces de cours et de sessions (AAM)", "#5f564a"],
+  ["newsletters", "Documents du collège (Asheville Art Museum)", "Bulletins d'information", "Newsletter", "newsletters et bulletins envoyés aux amis du collège (AAM)", "#7a6e5e"],
+  ["programmes", "Documents du collège (Asheville Art Museum)", "Programmes de concerts et spectacles", "Programme", "programmes, affiches et invitations (AAM)", "#b0413e"],
+  ["cours", "Documents du collège (Asheville Art Museum)", "Cours à horaire attesté", "Cours", "cours placés d'après une grille horaire ou un bulletin daté (AAM)", "#3b6ea5"],
+  ["musee_auto", "Documents du collège (Asheville Art Museum)", "Fiches du musée, lecture automatique", "Musée (auto.)", "compléments tirés automatiquement des 377 fiches du musée, recoupés avec la lecture relue", "#6b7a1f"],
+  ["harris", "Témoignages", "Entretiens de Mary Emma Harris", "Entretien Harris", "165 entretiens du Black Mountain College Project : faits tirés automatiquement, vérifiés dans les transcriptions", "#8a5a1d"],
+  ["rumaker", "Témoignages", "Rumaker, Black Mountain Days (2003)", "Rumaker", "mémoires d'un étudiant (1952-1956), dépouillement relu", "#a0682a"],
+  ["duberman", "Histoires et études", "Duberman, Black Mountain (1972)", "Duberman", "histoire du collège par Martin Duberman, dépouillement relu (935 faits)", "#1f7f7f"],
+  ["duberman_auto", "Histoires et études", "Duberman (1972), lecture automatique", "Duberman (auto.)", "compléments d'une ancienne lecture automatique du livre, recoupés", "#4f9a9a"],
+  ["silver", "Histoires et études", "Silver, The Farm at Black Mountain College (2024)", "Silver (ferme)", "histoire de la ferme du collège, lecture automatique recoupée", "#4c8c4a"],
+  ["livres", "Histoires et études", "Autres livres et études", "", "lecture automatique, non relue, de 52 livres (biographies, catalogues d'exposition, études) ; choix titre par titre", "#8b3a6b"],
+  ["spec_cours", "Reconstitution (analyse croisée des documents)", "Emploi du temps reconstitué", "Reconstitué", "cours du trimestre placés d'après les catalogues, bulletins, listes de cours, fiches d'étudiants et témoignages", "#3b6ea5"],
+  ["spec_vie", "Reconstitution (analyse croisée des documents)", "Vie commune reconstituée", "Reconstitué", "repas, travail, réunions et soirées du gabarit du trimestre", "#4c8c4a"],
+];
+const COL = Object.fromEntries(COLLECTIONS.map(c => [c[0], { cle: c[0], groupe: c[1], nom: c[2], court: c[3], desc: c[4], coul: c[5] }]));
+const CAT_DOC = {}; (D.documents || []).forEach(d => { if (d.inv) CAT_DOC[d.inv] = d.categorie; });
+const livreDe = e => (e.extendedProps.src || "").replace(/,? p\..*$/, "").replace(/\s*\(.*$/, "").trim() || "livre non précisé";
+function collection(e) {
+  const p = e.extendedProps;
+  if (p.spec) return ["cours", "atelier"].includes(p.type) && !e.allDay ? "spec_cours" : "spec_vie";
+  if (p.duberman) return "duberman";
+  if (p.scenario) return "livres";
+  if (p.chronos) { const s = p.source_chronos || "";
+    return /^Harris/.test(s) ? "harris" : /^Ferme/.test(s) ? "silver" : /^Asheville/.test(s) ? "musee_auto" : /^Duberman/.test(s) ? "duberman_auto" : /Rumaker/.test(s) ? "rumaker" : "livres"; }
+  if (["cours", "atelier"].includes(p.type) && !e.allDay) return "cours";
+  const c = CAT_DOC[(p.inv || "").split(" ; ")[0]] || "";
+  return /^A_/.test(c) ? "catalogues" : /^C_/.test(c) ? "newsletters" : /^D_/.test(c) ? "programmes" : "bulletins";
+}
+// date d'un fait daté au mois ou à la saison, en clair (« été 1936 », « août 1936 », « juin → août 1936 »)
+function dateLarge(e) {
+  const p = e.extendedProps, brut = String(p.date_livre || p.date_src || p.date_scen || "");
+  const M = d => new Date(d + "T12:00").toLocaleDateString("fr-FR", { month: "long", year: "numeric" });
+  const NS = { spring: "printemps", summer: "été", fall: "automne", autumn: "automne", winter: "hiver", ete: "été", printemps: "printemps", automne: "automne", hiver: "hiver" };
+  const sa = brut.toLowerCase().match(/spring|summer|fall|autumn|winter|ete|été|printemps|automne|hiver/);
+  if (p.precision === "saison" && sa) return `${NS[sa[0]] || sa[0]} ${e.start.slice(0, 4)}`;
+  const f = e.fin_periode || e.start;
+  if (f.slice(0, 7) === e.start.slice(0, 7)) return M(e.start);
+  return `${M(e.start).replace(" " + e.start.slice(0, 4), e.start.slice(0, 4) === f.slice(0, 4) ? "" : " " + e.start.slice(0, 4))} → ${M(f)}`;
+}
+const nomCourt = e => { const k = collection(e); return k === "livres" ? livreDe(e) : COL[k].court; };
+const badgeCol = e => { const k = collection(e), c = COL[k];
+  return `<span class="couche cb" style="background:${k.startsWith("spec") ? "#fff" : c.coul};${k.startsWith("spec") ? "color:#6d6a63;border:1px dashed #6d6a63" : ""}" title="${esc(c.nom + " — " + c.desc)}">${esc(nomCourt(e))}</span>`; };
 const fmt = s => new Date(s.length === 10 ? s + "T12:00" : s).toLocaleDateString("fr-FR", {weekday:"long", day:"numeric", month:"long", year:"numeric"});
 
 const cleVerif = (id, p) => p.vkey || id;
@@ -366,7 +418,7 @@ function ouvrirRef(r) {
   const x = (window.BMC_SYNTH || {}).refs?.[r]; if (!x) return;
   const v = window.BMC_VERIF && (BMC_VERIF["f" + r] || BMC_VERIF["s" + r]);
   document.getElementById("fiche").innerHTML = `<button class="fermer" onclick="fermer()">fermer</button>
-    <h3>${esc(x.t)}</h3><div>fiche ${r} du scénario · ${esc(x.d)} · certitude : ${esc(x.c)}</div>
+    <h3>${esc(x.t)}</h3><div>fiche ${r} (lecture automatique des livres) · ${esc(x.d)} · certitude : ${esc(x.c)}</div>
     <dl><dt>Source</dt><dd>${esc(x.s)}</dd></dl>
     ${v ? blocVerif(r, { vkey: BMC_VERIF["f" + r] ? "f" + r : "s" + r, scenario: true }) : `<div class="verif legende">Vérification : ${window.BMC_VERIF ? "fiche non couverte par la dernière vérification" : "chargement…"}</div>`}`;
   document.getElementById("voile").classList.add("on");
@@ -408,7 +460,7 @@ function ouvrirDossier(nom) {
   const att = Object.entries(d.atteste || {}).map(([b, v]) => `${b} : du ${v[0]} au ${v[1]} (${v[2]} activité${v[2] > 1 ? "s" : ""})`).join(" · ");
   document.getElementById("fiche").innerHTML = `<button class="fermer" onclick="fermer()">fermer</button>
     <h3>${esc(k)}</h3><div>${esc(d.dates_de_vie || "")} · ${esc(d.statut_bmc || d.statut || "")}</div>${blocBase(nom) || blocBase(k)}
-    <div class="legende">Dossier du scénario : synthèse rédigée par un modèle de langage à partir des fiches ; seuls les éléments référencés sont repris (cliquer une référence pour voir sa source).</div>
+    <div class="legende">Dossier d'après les livres et études : synthèse rédigée par un modèle de langage à partir des fiches de lecture ; seuls les éléments référencés sont repris (cliquer une référence pour voir sa source).</div>
     <h4>Présence à Black Mountain</h4>${(d.presence || []).map(p => `<div class="cours">${esc(p.debut || "?")} → ${esc(p.fin || "?")} : ${esc(p.role || "")} ${refsHtml(p.refs)}</div>`).join("")}
     <div class="renvoi"><b>Recoupement</b> · ${att ? esc(att) : "aucune activité de cette personne dans l'AAM ni datée au jour chez Duberman"}</div>
     ${moments(d.arc_bmc, "Moments à Black Mountain")}${moments(d.avant, "Avant")}${moments(d.apres, "Après")}
@@ -528,9 +580,7 @@ const ec = EventCalendar.create(document.getElementById("cal"), {
     const p = info.event.extendedProps;
     const h = p.heure ? (/^\d/.test(p.heure) ? p.heure + " " : `[${p.heure}] `) : "";
     const b = p.pct ? `<span class="ev-b">${p.spec ? "spéc. " : ""}${p.pct} %</span>` : "";
-    if (p.duberman) return { html: `<div class="ec-event-title">${esc(h)}<b>D.</b> ${esc(info.event.title)}${b}</div>` };
-    if (p.chronos) return { html: `<div class="ec-event-title">${esc(h)}<b>C.</b> ${esc(info.event.title)}${b}</div>` };
-    if (p.scenario) return { html: `<div class="ec-event-title">${esc(h)}<b>S.</b> ${esc(info.event.title)}${b}</div>` };
+    if (p.duberman || p.chronos || p.scenario) return { html: `<div class="ec-event-title">${esc(h)}<b>${esc(nomCourt(info.event))}.</b> ${esc(info.event.title)}${b}</div>` };
     return { html: `<div class="ec-event-title">${esc(h)}${esc(info.event.title)}${b}</div>` };
   },
   eventClick: info => fiche(info.event),
@@ -568,8 +618,8 @@ function cote(debut, fin) {
     for (const mo of mois) {
       const c = BMC_SYNTH.chroniques[mo]; if (!c) continue;
       const pp = (c.presents_probables || []).filter(p => !/invente/.test(p.certitude || ""));
-      h += `<h2>Chronique de ${new Date(mo + "-15T12:00").toLocaleDateString("fr-FR", { month: "long", year: "numeric" })} (scénario)</h2>
-        <div class="chron"><div class="legende">Synthèse rédigée par un modèle de langage à partir des fiches du scénario, non relue : à lire avec ses références.</div>
+      h += `<h2>Chronique de ${new Date(mo + "-15T12:00").toLocaleDateString("fr-FR", { month: "long", year: "numeric" })} (d'après les livres)</h2>
+        <div class="chron"><div class="legende">Synthèse rédigée par un modèle de langage à partir des fiches de lecture des livres et études, non relue : à lire avec ses références.</div>
         ${c.session ? `<p><b>Session.</b> ${esc(c.session)}</p>` : ""}${c.situation ? `<p>${esc(c.situation)}</p>` : ""}
         ${(c.evenements || []).length ? `<p><b>Ce qui arrive.</b></p>` + c.evenements.map(e => `<p>· ${esc(e.date || "")} ${esc(e.ce_qui_arrive || "")} <span class="legende">(${esc(e.certitude || "")})</span> ${refsHtml(e.refs)}</p>`).join("") : ""}
         ${pp.length ? `<p><b>Présents probables</b> <span class="legende">(✓ = nommé ce mois-ci dans l'AAM ou Duberman)</span><br>` + pp.map(p => `<span class="pp ${p.confirme ? "ok" : "non"}" title="${esc(p.certitude || "")}${p.confirme ? " · confirmé : " + esc(p.confirme) : " · non confirmé ce mois-ci"}">${esc(p.nom)}</span>`).join("") + "</p>" : ""}
@@ -607,22 +657,22 @@ function cote(debut, fin) {
     const duree = e => (new Date(e.fin_periode) - new Date(e.start)) / 864e5;
     const ligneDub = e => `<div class="dubp" data-k="${D.duberman_panneau.indexOf(e)}">${esc(e.title)} <span class="q legende">· ${esc(e.extendedProps.date_livre)}</span> ${pctTag(e.extendedProps.pct)}</div>`;
     const court = dp.filter(e => duree(e) <= 122), long = dp.filter(e => duree(e) > 122);
-    if (dp.length) h += `<h2>Duberman : ${dp.length} événement${dp.length > 1 ? "s" : ""} datés de façon imprécise</h2>
+    if (dp.length) h += `<h2>Duberman (1972) : ${dp.length} fait${dp.length > 1 ? "s" : ""} datés de façon imprécise</h2>
       <div class="legende">Datés au mois, à la saison ou à l'année dans le livre : la période couvre ces jours, l'événement n'est pas placé dans la grille.</div>` +
       court.map(ligneDub).join("") +
       (long.length ? `<details><summary>${long.length} daté${long.length > 1 ? "s" : ""} à l'année ou sur plusieurs années</summary>${long.map(ligneDub).join("")}</details>` : "");
   }
   if (etat.chr) {
     const cp = CHR.panneau.filter(e => e.start < b && e.fin_periode >= a && garde(e));
-    if (cp.length) h += `<h2>Chronos : ${cp.length} entrée${cp.length > 1 ? "s" : ""} datées au mois ou plus</h2>` +
-      cp.map(e => `<div class="chrp" data-k="${CHR.panneau.indexOf(e)}">${esc(e.title)} <span class="legende">· ${esc(e.extendedProps.date_src)} · ${esc(e.extendedProps.source_chronos)}</span> ${pctTag(e.extendedProps.pct)}</div>`).join("");
+    if (cp.length) h += `<h2>Témoignages, Silver, compléments : ${cp.length} fait${cp.length > 1 ? "s" : ""} datés au mois ou plus</h2>` +
+      cp.map(e => `<div class="chrp" data-k="${CHR.panneau.indexOf(e)}">${esc(e.title)} <span class="legende">· ${esc(e.extendedProps.date_src)} · ${esc(COL[collection(e)].nom)}</span> ${pctTag(e.extendedProps.pct)}</div>`).join("");
   }
   if (etat.scen) {
     const duree = e => (new Date(e.fin_periode) - new Date(e.start)) / 864e5;
     const sp = SC.panneau.filter(e => e.start < b && e.fin_periode >= a && garde(e));
     const ligneS = e => `<div class="scenp" data-k="${SC.panneau.indexOf(e)}">${esc(e.title)} <span class="legende">· ${esc(e.extendedProps.date_scen)} · ${esc(e.extendedProps.src.split(", p.")[0])}</span> ${pctTag(e.extendedProps.pct)}</div>`;
     const court = sp.filter(e => duree(e) <= 45), moyen = sp.filter(e => duree(e) > 45 && duree(e) <= 122), long = sp.filter(e => duree(e) > 122);
-    if (sp.length) h += `<h2>Scénario : ${sp.length} entrée${sp.length > 1 ? "s" : ""} datées de façon imprécise</h2>
+    if (sp.length) h += `<h2>Autres livres et études : ${sp.length} fait${sp.length > 1 ? "s" : ""} datés de façon imprécise</h2>
       <div class="legende">Extraction automatique (non relue) de 60 livres. Datées au mois, à la saison, à la session ou à l'année : non placées dans la grille.</div>` +
       court.map(ligneS).join("") +
       (moyen.length ? `<details><summary>${moyen.length} datée${moyen.length > 1 ? "s" : ""} à la saison ou à la session</summary>${moyen.map(ligneS).join("")}</details>` : "") +
@@ -672,7 +722,7 @@ function cote(debut, fin) {
     const carteC = c => `<div class="cours"><b>${esc(c.t)}</b> <span class="q">· ${esc(c.ens)} · ${esc(c.per)}</span> <span class="ref" data-ref="${c.id}">${c.id}</span>
       <br><span class="legende">${c.aam ? "AAM : " + esc(c.aam.replace("enseignant enseignant", "enseignant présent")) + (c.aam_cours ? " (« " + esc(c.aam_cours.slice(0, 80)) + " », " + esc(c.aam_per) + ")" : "") : ""}${c.bmc === "incertain" ? " · enseigné à BMC : incertain" : ""}</span>
       ${c.obj || c.ex.length || c.der ? `<details><summary>contenu</summary>${c.obj ? `<div><i>Objectifs.</i> ${esc(c.obj)}</div>` : ""}${c.ex.length ? `<div><i>Exercices.</i> ${c.ex.map(esc).join(" · ")}</div>` : ""}${c.mat ? `<div><i>Matériaux.</i> ${esc(typeof c.mat === "string" ? c.mat : JSON.stringify(c.mat))}</div>` : ""}${c.der ? `<div><i>Déroulé.</i> ${esc(c.der)}</div>` : ""}${c.prop ? `<div><i>Propos.</i> ${esc(typeof c.prop === "string" ? c.prop : JSON.stringify(c.prop))}</div>` : ""}${c.rea ? `<div><i>Réactions.</i> ${esc(typeof c.rea === "string" ? c.rea : JSON.stringify(c.rea))}</div>` : ""}<div class="legende">${esc(c.s)}</div></details>` : `<div class="legende">${esc(c.s)}</div>`}</div>`;
-    if (cs.length) h += `<h2>Cours de ${an} selon les livres (scénario)</h2><div class="legende">Fiches « cours » extraites automatiquement des livres ; référence cliquable pour la source et sa vérification.</div>` +
+    if (cs.length) h += `<h2>Cours de ${an} selon les livres et études</h2><div class="legende">Fiches « cours » extraites automatiquement des livres ; référence cliquable pour la source et sa vérification.</div>` +
       precis.map(carteC).join("") + (larges.length ? `<details><summary>${larges.length} cours datés sur plusieurs années</summary>${larges.map(carteC).join("")}</details>` : "");
   }
 
@@ -682,10 +732,11 @@ function cote(debut, fin) {
     <span style="background:repeating-linear-gradient(135deg,#9db4d0 0 4px,#3b6ea5 4px 8px)"></span>≥ 30 % déduit
     <span style="background:#3b6ea5;outline:1.5px dashed #000;outline-offset:-2px"></span>heure indicative (« soir »…)
     <span style="background:#d8e2ed;border:1.5px dashed #3b6ea5"></span>couche spéculative (reconstitution)
-    <span style="background:#1f7f7f;border-left:4px solid #0b4f4f"></span>Duberman (livre de 1972, « D. »)
-    <span style="background:#8b3a6b;border-left:4px dotted #4a1f3a"></span>scénario (60 livres, extraction automatique, « S. »)<br>
+    <span style="background:#1f7f7f;border-left:4px solid #0b4f4f"></span>Duberman (1972), « Duberman. »
+    <span style="background:#6b7a1f;border-left:4px dashed #3d4a12"></span>témoignages, Silver et compléments (nom de la source en tête)
+    <span style="background:#8b3a6b;border-left:4px dotted #4a1f3a"></span>autres livres et études (titre du livre en tête)<br>
     Cliquer une activité ouvre sa fiche : source exacte, part déduite et motifs.</div>
-    <p id="info">Données générées le ${D.genere} · ${D.events.length} activités attestées (AAM) · ${D.duberman.length + D.duberman_panneau.length} événements Duberman · ${SC.grille.length + SC.panneau.length} entrées du scénario · ${D.documents.length} documents · calendrier : Event Calendar (MIT, vkurko).</p>`;
+    <p id="info">Données générées le ${D.genere} · ${D.events.length} activités attestées (AAM) · ${D.duberman.length + D.duberman_panneau.length} événements Duberman · ${SC.grille.length + SC.panneau.length} faits tirés de 52 livres et études · ${D.documents.length} documents · calendrier : Event Calendar (MIT, vkurko).</p>`;
   const el = document.getElementById("cote");
   el.innerHTML = h;
   const la = el.querySelector("#lireAnalyse");
@@ -714,6 +765,7 @@ function fiche(ev) {
     <h3>${esc(ev.title)}</h3>
     <div>${fmt(d)}${p.heure ? " · " + esc(p.heure) : ""}${p.fin ? "–" + esc(p.fin) : ""} · ${esc(p.type)}</div>
     <dl>
+      ${ligne("Collection", `<b>${esc(COL[collection(ev)].nom)}</b>${collection(ev) === "livres" ? " : " + esc(livreDe(ev)) : ""}<br><span class="legende">${esc(COL[collection(ev)].groupe)} · ${esc(COL[collection(ev)].desc)}</span>`)}
       ${ligne("Qui", esc(p.qui))}
       ${ligne("Lieu", esc(p.lieu) + (lieuDe(p.lieu) ? ` <span class="dossier-lien" onclick="ouvrirLieu('${esc(lieuDe(p.lieu)).replace(/'/g, "\\'")}')" title="ce lieu selon les livres">ⓘ ${esc(lieuDe(p.lieu))}</span>` : ""))}
       ${ligne("Note", esc(p.note))}
@@ -731,13 +783,13 @@ function fiche(ev) {
       ${p.duberman ? ligne("Source", `${esc(p.src)}<br><span class="legende">chapitre ${esc(p.chapitre)} · p. ${esc(p.page)} · ${esc(p.paragraphe)}</span>`) : p.scenario ? "" : ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
       ${p.duberman && p.notes ? ligne("Notes de Duberman", `<details><summary>source primaire citée</summary>${esc(p.notes)}</details>`) : ""}
       ${p.duberman && p.aam && p.aam.length ? ligne("Même jour (AAM)", p.aam.map(r => `<div class="renvoi">rapprochement possible : ${esc(r.activite)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span></div>`).join("")) : ""}
-      ${p.chronos ? ligne("Couche", `<b>${/Rumaker/.test(p.source_chronos) ? "Rumaker" : /^Livres/.test(p.source_chronos) ? "Livres et articles" : "Chronos"}</b> · ${esc(p.source_chronos)} · ${/Rumaker/.test(p.source_chronos) ? "dépouillement manuel du texte corrigé" : /^Livres/.test(p.source_chronos) ? "phrase datée tirée automatiquement des textes des PDF (novembre 2026), à relire" : "extraction automatique de décembre 2025, à relire"} · ${esc(p.statut)} · date dans la source : ${esc(p.date_src)}`) : ""}
-      ${p.scenario ? ligne("Couche", `<b>Scénario</b> : ${p.categorie === "scene" ? "scène" : "événement"} extrait automatiquement d'un livre (non relu) · certitude : ${esc(p.certitude)} · date dans le scénario : ${esc(p.date_scen)}`) : ""}
+      ${p.chronos ? ligne("Couche", `<b>${esc(COL[collection(ev)].nom)}</b> · ${/Rumaker/.test(p.source_chronos) ? "dépouillement manuel du texte corrigé" : /^Livres/.test(p.source_chronos) ? "phrase datée tirée automatiquement des textes des PDF (novembre 2026), à relire" : "extraction automatique de décembre 2025, à relire"} · ${esc(p.statut)} · date dans la source : ${esc(p.date_src)}`) : ""}
+      ${p.scenario ? ligne("Couche", `<b>${esc(livreDe(ev))}</b> : ${p.categorie === "scene" ? "scène" : "événement"} extrait automatiquement du livre (non relu) · certitude : ${esc(p.certitude)} · date dans le scénario : ${esc(p.date_scen)}`) : ""}
       ${p.scenario ? ligne("Source", esc(p.src)) : ""}
       ${p.scenario && p.versions ? ligne("Autres versions", `<details><summary>selon d'autres livres</summary><span class="legende">${esc(p.versions)}</span></details>`) : ""}
       ${p.scenario && p.recoupement ? ligne("Recoupement", p.recoupement.split(" || ").map(r => `<div class="renvoi rs">${esc(r)}</div>`).join("")) : ""}
       ${p.livres && p.livres.length ? ligne("Aussi dans les livres", p.livres.map(r => `<div class="renvoi">${esc(r.ref)} <span class="legende">· ${esc(r.nature)} · date dans le livre : ${esc(r.date)} · vérifié au jour, relu</span>${r.phrase ? `<details><summary>phrase</summary><span class="legende">${esc(r.phrase)}</span></details>` : ""}</div>`).join("")) : ""}
-      ${p.scen && p.scen.length ? ligne("Renvoi scénario", p.scen.map(r => `<div class="renvoi rs">${r.decision === "même fait" ? "même fait" : "même jour, même personne"} : ${esc(r.activite)} ${r.pct != null ? pctTag(r.pct) : ""}<br><span class="legende">${esc(r.src)}${r.certitude ? " · " + esc(r.certitude) : ""}</span></div>`).join("")) : ""}
+      ${p.scen && p.scen.length ? ligne("Aussi dans les livres (lecture automatique)", p.scen.map(r => `<div class="renvoi rs">${r.decision === "même fait" ? "même fait" : "même jour, même personne"} : ${esc(r.activite)} ${r.pct != null ? pctTag(r.pct) : ""}<br><span class="legende">${esc(r.src)}${r.certitude ? " · " + esc(r.certitude) : ""}</span></div>`).join("")) : ""}
       ${p.dub && p.dub.length ? ligne("Renvoi Duberman", p.dub.map(r => `<div class="renvoi">${r.decision === "doublon" ? "même événement" : "rapprochement possible"} : ${esc(r.activite)} ${pctTag(r.pct)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span>${r.notes ? `<details><summary>notes de Duberman</summary><span class="legende">${esc(r.notes)}</span></details>` : ""}</div>`).join("")) : ""}
       ${p.duberman || p.scenario ? "" : ligne("Inventaire", esc(p.inv))}
       ${doc && doc.img ? ligne("Vue", `<a href="${esc(urls[0])}" target="_blank"><img src="${esc(doc.img)}" style="max-width:220px;border:1px solid #ddd"></a>`) : ""}
@@ -773,8 +825,8 @@ const certitude = p => { const n = p.pct < 10 ? 3 : p.pct < 30 ? 2 : p.pct < 60 
 function couche(p) {
   if (p.spec) return ["spec", "reconstitué"];
   if (p.duberman) return ["dub", "Duberman"];
-  if (p.chronos) return /Rumaker/.test(p.source_chronos) ? ["rum", "Rumaker"] : ["chr", "Chronos"];
-  if (p.scenario) return ["scen", "scénario"];
+  if (p.chronos) return /Rumaker/.test(p.source_chronos) ? ["rum", "Rumaker"] : ["chr", "témoignage ou étude"];
+  if (p.scenario) return ["scen", "livre"];
   return ["aam", "AAM"];
 }
 function srcCourt(p) {
@@ -814,46 +866,32 @@ function dessinerFrise(lun) {
   c.onclick = ev => { const x = ev.offsetX, kk = Math.floor(x / bw); const d = new Date(FRISE.t0); d.setDate(d.getDate() + 7 * kk); aller(iso(d)); };
   c.title = "Cliquer pour aller à cette semaine";
 }
-// ---- semainier : les 7 jours côte à côte ; les options choisissent ce qui apparaît dans chaque jour
-const OPTIONS = [
-  ["aam", "Faits attestés", "documents datés du musée (AAM)", "#3d3a35"],
-  ["coursAtt", "Cours attestés", "grilles horaires et bulletins datés", "#3b6ea5"],
-  ["dub", "Duberman", "livre de 1972, dépouillé", "#1f7f7f"],
-  ["chr", "Chronos · Rumaker", "extractions recoupées, mémoires de Rumaker", "#6b7a1f"],
-  ["scen", "Scénario", "extraction automatique de livres", "#8b3a6b"],
-  ["specCours", "Cours reconstitués", "emploi du temps du trimestre, analyse croisée des documents", "#3b6ea5"],
-  ["specVie", "Vie commune reconstituée", "repas, travail, réunions, soirées du gabarit", "#4c8c4a"],
-  ["periode", "Au mois ou à la saison", "faits sans jour précis dont la période couvre la semaine", "#7d6a55"],
-];
+// ---- semainier : les 7 jours côte à côte ; les options (collections) choisissent ce qui apparaît dans chaque jour
+const OPTIONS = COLLECTIONS.map(c => [c[0], c[2], c[4], c[5], c[1]]).concat([["periode", "Faits datés au mois ou à la saison", "faits sans jour précis dont la période couvre la semaine (bande au-dessus des jours)", "#7d6a55", "Précision de la date"]]);
 const VIS = (() => { const d = Object.fromEntries(OPTIONS.map(o => [o[0], true]));
-  try { Object.assign(d, JSON.parse(localStorage.getItem("bmc-vis") || "{}")); } catch (e) {} return d; })();
-const sauverVis = () => { try { localStorage.setItem("bmc-vis", JSON.stringify(VIS)); } catch (e) {} };
+  try { Object.assign(d, JSON.parse(localStorage.getItem("bmc-vis2") || "{}")); } catch (e) {} return d; })();
+const LIVRES_EXCLUS = (() => { try { return new Set(JSON.parse(localStorage.getItem("bmc-livres-exclus") || "[]")); } catch (e) { return new Set(); } })();
+const sauverVis = () => { try { localStorage.setItem("bmc-vis2", JSON.stringify(VIS)); localStorage.setItem("bmc-livres-exclus", JSON.stringify([...LIVRES_EXCLUS])); } catch (e) {} };
 const estCours = e => ["cours", "atelier"].includes(e.extendedProps.type) && !e.allDay;
-function genre(e) {
-  const p = e.extendedProps;
-  if (p.spec) return estCours(e) ? "specCours" : "specVie";
-  if (p.duberman) return "dub";
-  if (p.chronos) return "chr";
-  if (p.scenario) return "scen";
-  return estCours(e) ? "coursAtt" : "aam";
-}
+const visible = e => VIS[e._g] && !(e._g === "livres" && LIVRES_EXCLUS.has(livreDe(e)));
 function tousEntre(a, b) {      // toutes les couches, pour les comptes des options ; les options filtrent ensuite
   const s = { spec: etat.spec, dub: etat.dub, chr: etat.chr, scen: etat.scen };
   Object.assign(etat, { spec: true, dub: true, chr: true, scen: true });
   const r = evenementsEntre(a, b); Object.assign(etat, s); return r;
 }
-const BADGE = { aam: ["aam", "AAM"], coursAtt: ["aam", "AAM"], dub: ["dub", "Dub."], chr: ["chr", "Chr."], scen: ["scen", "Scén."], specCours: ["spec", "reconst."], specVie: ["spec", "reconst."] };
-let contexteOuvert = false;
+const RELUES = ["bulletins", "catalogues", "newsletters", "programmes", "cours", "rumaker", "duberman"];
+let contexteOuvert = false, livresOuvert = false;
 function rendreJournal() {
   if (!document.body.classList.contains("j")) return;
   const lun = lundiDe(iso(ec.getOption("date"))), fin = plusJours(lun, 7);
-  const tous = tousEntre(lun, fin).map(e => (e._g = genre(e), e));
-  if (tous.some(e => e.extendedProps.chronos && /Rumaker/.test(e.extendedProps.source_chronos))) BADGE.chr = ["chr", "Chr./Rum."];
+  const tous = tousEntre(lun, fin).map(e => (e._g = collection(e), e));
   const duree = e => (new Date((e.fin_periode || e.start) + "T12:00") - new Date(e.start + "T12:00")) / 864e5;
   const larges = [].concat(D.duberman_panneau, CHR.panneau, SC.panneau).filter(e => e.start < fin && (e.fin_periode || e.start) >= lun && garde(e) && duree(e) <= 100)
-    .sort((x, y) => x.start.localeCompare(y.start));
-  const nb = Object.fromEntries(OPTIONS.map(o => [o[0], o[0] === "periode" ? larges.length : tous.filter(e => e._g === o[0]).length]));
-  const vus = tous.filter(e => VIS[e._g]);
+    .map(e => (e._g = collection(e), e)).sort((x, y) => x.start.localeCompare(y.start));
+  // compte d'une collection : ses faits au jour + ceux datés au mois ou à la saison (bande)
+  const nb = Object.fromEntries(OPTIONS.map(o => [o[0], o[0] === "periode" ? larges.length : tous.filter(e => e._g === o[0]).length + larges.filter(e => e._g === o[0]).length]));
+  const vus = tous.filter(visible);
+  const livresSemaine = Object.entries([...tous, ...larges].filter(e => e._g === "livres").reduce((o, e) => (o[livreDe(e)] = (o[livreDe(e)] || 0) + 1, o), {})).sort((a, b) => b[1] - a[1]);
   EVJ.length = 0;
   const per = D.periodes.filter(p => { const a = p.debut || p.fin, b = p.fin || p.debut; return a < fin && b >= lun; });
   const perTxt = [...new Set(per.map(p => p.libelle))];
@@ -862,27 +900,31 @@ function rendreJournal() {
     <span class="per">${perTxt.length ? perTxt.slice(0, 3).map(esc).join(" · ") : "hors période de cours attestée"}</span>
     <button class="ctx${contexteOuvert ? " on" : ""}" onclick="basculerContexte()">Contexte de la semaine ${contexteOuvert ? "▾" : "▸"}</button></div>
     <canvas id="frise"></canvas><div class="frise-leg"><span>1933</span><span>barres : faits attestés de la semaine · fond gris : semaine reconstituée · trait rouge : semaine affichée</span><span>1957</span></div>
-    <div class="opts">${OPTIONS.map(([k, lib, tit, c]) => `<label class="opt${VIS[k] ? " on" : ""}${nb[k] ? "" : " zero"}" title="${esc(tit)}"><input type="checkbox" data-o="${k}"${VIS[k] ? " checked" : ""}><i style="background:${c}${k.startsWith("spec") ? ";border:1.5px dashed #fff;outline:1px dashed " + c : ""}"></i>${lib} <b>${nb[k]}</b></label>`).join("")}
-      <span class="opts-tout"><a href="#" data-tout="1">tout</a> · <a href="#" data-tout="0">rien</a> · <a href="#" data-tout="att">attesté seul</a></span></div>`;
+    <div class="opts">${[...new Set(OPTIONS.map(o => o[4]))].map(g => `<div class="opt-g"><span class="opt-gt">${esc(g)}</span>${OPTIONS.filter(o => o[4] === g).map(([k, lib, tit, c]) =>
+        `<label class="opt${VIS[k] ? " on" : ""}${nb[k] ? "" : " zero"}" title="${esc(tit)}"><input type="checkbox" data-o="${k}"${VIS[k] ? " checked" : ""}><i style="background:${c}${k.startsWith("spec") ? ";border:1.5px dashed #fff;outline:1px dashed " + c : ""}"></i>${esc(lib)} <b>${nb[k]}</b></label>`).join("")}</div>`).join("")}
+      <div class="opts-tout"><a href="#" data-tout="1">tout</a> · <a href="#" data-tout="0">rien</a> · <a href="#" data-tout="att" title="documents du collège lus et relus, Duberman et Rumaker dépouillés">sources relues seulement</a></div></div>
+    ${livresSemaine.length ? `<details class="livres-sel"${VIS.livres ? "" : " hidden"}><summary>Autres livres et études cette semaine : ${livresSemaine.length} titre${livresSemaine.length > 1 ? "s" : ""} — choisir</summary><div>${livresSemaine.map(([t, n]) =>
+        `<label class="opt${LIVRES_EXCLUS.has(t) ? "" : " on"}"><input type="checkbox" data-livre="${esc(t)}"${LIVRES_EXCLUS.has(t) ? "" : " checked"}>${esc(t)} <b>${n}</b></label>`).join("")}</div></details>` : ""}`;
   // bande des faits datés au mois ou à la saison
-  if (VIS.periode && larges.length) {
+  const largesVus = larges.filter(e => VIS[e._g] && !(e._g === "livres" && LIVRES_EXCLUS.has(livreDe(e))));
+  if (VIS.periode && largesVus.length) {
     const M = d => new Date(d + "T12:00").toLocaleDateString("fr-FR", { month: "short", year: "numeric" });
-    h += `<details class="bande" open><summary>Au mois ou à la saison, sans jour précis (${larges.length})</summary><div class="bande-l">${larges.map(e => {
+    h += `<details class="bande" open><summary>Datés au mois ou à la saison, sans jour précis (${largesVus.length})</summary><div class="bande-l">${largesVus.map(e => {
       const i = EVJ.push(e) - 1, p = e.extendedProps, [ck, cl] = couche(p);
-      return `<span class="b-it" data-i="${i}" title="${esc(srcCourt(p))}"><span class="b-d">${esc(p.precision === "saison" ? (p.date_livre || p.date_src || p.date_scen || M(e.start)) : M(e.start))}</span> ${esc(e.title)} <span class="couche ${ck}">${cl}</span>${pctTag(+p.pct)}</span>`; }).join("")}</div></details>`;
+      return `<span class="b-it" data-i="${i}" title="${esc(srcCourt(p))}"><span class="b-d">${esc(dateLarge(e))}</span> ${esc(e.title)} ${badgeCol(e)}${pctTag(+p.pct)}</span>`; }).join("")}</div></details>`;
   }
   // 7 colonnes
   const fam = e => (FAM_DE[e.extendedProps.type] || FAMILLES[4])[2];
-  const carte = e => { const i = EVJ.push(e) - 1, p = e.extendedProps, [ck, cl] = BADGE[e._g];
+  const carte = e => { const i = EVJ.push(e) - 1, p = e.extendedProps;
     const hr = e.allDay ? (p.heure && !/^\d/.test(p.heure) ? p.heure : "") : e.start.slice(11, 16);
     return `<div class="it${p.spec ? " spec" : ""}" data-i="${i}" style="border-left-color:${fam(e)}" title="${esc(e.title + (p.qui ? " · " + p.qui : "") + " · " + srcCourt(p))}">
       ${hr ? `<span class="h">${esc(hr)}</span>` : ""}<span class="t">${esc(e.title)}</span>
-      <span class="pied"><span class="couche ${ck}">${cl}</span><span class="cert">${certitude(p)}</span>${pctTag(+p.pct)}</span></div>`; };
+      <span class="pied">${badgeCol(e)}<span class="cert">${certitude(p)}</span>${pctTag(+p.pct)}</span></div>`; };
   const groupe = (hr, L, spec) => { const it = L.map(e => { const i = EVJ.push(e) - 1, p = e.extendedProps;
       return `<span class="g-it" data-i="${i}" title="${esc(e.title + (p.qui ? " · " + p.qui : "") + " · part déduite " + p.pct + " %")}">${esc(e.title)}${p.qui ? ` <small>${esc(p.qui.split(";")[0])}</small>` : ""}</span>`; }).join("");
     const moy = Math.round(L.reduce((t, e) => t + +e.extendedProps.pct, 0) / L.length);
     return `<div class="it grp${spec ? " spec" : ""}" style="border-left-color:#3b6ea5"><span class="h">${hr}</span><span class="t">${L.length} cours ${spec ? "reconstitués" : "attestés"}</span>
-      <span class="g">${it}</span><span class="pied"><span class="couche ${spec ? "spec" : "aam"}">${spec ? "reconst." : "AAM"}</span>${spec ? `moy. ${pctTag(moy)}` : `<span class="cert">●●●</span>`}</span></div>`; };
+      <span class="g">${it}</span><span class="pied">${badgeCol(L[0])}${spec ? `moy. ${pctTag(moy)}` : `<span class="cert">●●●</span>`}</span></div>`; };
   const semaineEntiere = vus.filter(e => e.allDay && e.end && e.end.slice(0, 10) >= plusJours(e.start.slice(0, 10), 7));
   // récurrences attestées (« chaque jour », « chaque lundi ») : une ligne pour la semaine, pas une case par jour
   const grpR = {};
@@ -924,7 +966,9 @@ function rendreJournal() {
   J.querySelectorAll("[data-i]").forEach(x => x.onclick = ev => { ev.stopPropagation(); fiche(versEv(EVJ[+x.dataset.i])); });
   J.querySelectorAll("[data-o]").forEach(x => x.onchange = () => { VIS[x.dataset.o] = x.checked; sauverVis(); rendreJournal(); });
   J.querySelectorAll("[data-tout]").forEach(x => x.onclick = ev => { ev.preventDefault(); const v = x.dataset.tout;
-    OPTIONS.forEach(([k]) => VIS[k] = v === "1" ? true : v === "0" ? false : ["aam", "coursAtt", "dub", "chr"].includes(k)); sauverVis(); rendreJournal(); });
+    OPTIONS.forEach(([k]) => VIS[k] = v === "1" ? true : v === "0" ? false : RELUES.includes(k)); sauverVis(); rendreJournal(); });
+  J.querySelectorAll("[data-livre]").forEach(x => x.onchange = () => { x.checked ? LIVRES_EXCLUS.delete(x.dataset.livre) : LIVRES_EXCLUS.add(x.dataset.livre); sauverVis(); rendreJournal(); });
+  const ls = J.querySelector(".livres-sel"); if (ls) ls.open = livresOuvert, ls.ontoggle = () => livresOuvert = ls.open;
   dessinerFrise(lun);
 }
 function basculerContexte() { contexteOuvert = !contexteOuvert; document.body.classList.toggle("ctx-on", contexteOuvert); rendreJournal(); }

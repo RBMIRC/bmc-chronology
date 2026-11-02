@@ -120,7 +120,7 @@ def verifier(num, remplacer=False):
         for n in set(re.findall(r"\b\d+\b", hors)):
             if n not in en and not (len(n) <= 2 and re.search(r"\bh\b|heure", hors)): erreurs.append(f"{i} : nombre {n} absent")
         sans = re.sub(r"“[^”]*”|\"[^\"]*\"|\*[^*]*\*|\([^)]*\)", " ", en)
-        for x in TITRES_FR: sans = sans.replace(x, " ")
+        for x in TITRES_FR + ["Big Sur", "Des Moines", "La Luz", "Le Corbusier"]: sans = sans.replace(x, " ")
         # particules des noms propres (Francine du Plessix Gray) et articles des titres d’œuvres (Le Piège de Méduse), repris de l’original
         sans = re.sub(r"\b(?i:du|de|des|la|le|les|un|une)\s+([A-Z][\w'’\-]+)", lambda m: " " if re.sub(r"['’]s$", "", m.group(1)) in fr and m.group(1) not in LIEUX_FR else m.group(0), sans)
         reste = OUTILS_FR.findall(sans)

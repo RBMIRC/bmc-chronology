@@ -32,6 +32,10 @@ But : un anglais irréprochable, fidèle et homogène pour tout ce que le semain
 - Étage : le « deuxième étage » français est le « third floor » américain.
 - Titres d'œuvres français gardés tels quels : liste `TITRES_FR` dans `scripts/traduction_en.py` (à compléter au besoin) ;
   noms anglais qui contiennent un mot outil français (Big Sur, La Luz, Le Nain, avant-garde) : liste voisine.
+- Phrase française entre guillemets qui traduit des paroles ou un écrit anglais (« Vous avez dansé comme une baleine »,
+  « une personne parfaite si… ») : on ne connaît pas les mots exacts ; en anglais, **pas de guillemets** (discours
+  indirect ou formule neutre), pour ne pas fabriquer une fausse citation. Seules les citations restées en anglais dans
+  nos textes sont reprises entre “ ”.
 - Mots français entre guillemets dans nos textes (« clandestines », « question Goodman ») : ce ne sont pas des citations
   des sources, on les traduit (le vérificateur le signale seulement par un avertissement).
 

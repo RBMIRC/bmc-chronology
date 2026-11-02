@@ -39,7 +39,7 @@ def main():
     out = os.path.abspath(sys.argv[1])
     if not os.path.isdir(os.path.join(out, ".git")): sys.exit(f"{out} n'est pas un dépôt git (cloner RBMIRC/week d'abord)")
     for x in os.listdir(out):          # le dépôt public est entièrement régénéré (git garde l'historique)
-        if x == ".git": continue
+        if x in (".git", "24h"): continue      # 24h/ : page « 24 Hours », publiée par RBMIRC/24hours (scripts/page_24h.py)
         p = os.path.join(out, x); shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
     tailles, retraits = {}, {}
     # page et bibliothèque

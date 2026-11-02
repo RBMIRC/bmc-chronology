@@ -23,7 +23,7 @@ LIEUX_FR = {"Caroline", "Floride", "Géorgie", "Virginie", "Californie", "Louisi
             "Vienne", "Prague", "Moscou", "Russie", "Hollande", "Belgique", "Canada", "Cuba", "Europe", "Amérique", "Pacifique", "Atlantique"}
 # titres d'œuvres français gardés tels quels dans l'anglais (guide : « les titres d'œuvres gardent leur langue »)
 # graphie corrigée dans la traduction quand le résumé français écorche un nom (« Frederic March » → Fredric March)
-ORTHO_NOMS = {"Frederic": "Fredric", "Florace": "Horace", "Fiola": "Flola", "Edith": "Édith", "Victor": "Vicente", "Hild": "Field", "Hore": "Fiore"}
+ORTHO_NOMS = {"Frederic": "Fredric", "Florace": "Horace", "Fiola": "Flola", "Edith": "Édith", "Victor": "Vicente", "Hild": "Field", "Hore": "Fiore", "Peek": "Peak"}
 TITRES_FR = ["L'Honneur des poètes", "Le Déshonneur des poètes", "Le Piège de Méduse", "Le Malade imaginaire", "Le Médecin malgré lui", "Les Précieuses ridicules", "Pelléas et Mélisande", "Les Nuages", "Symphonie pour un homme seul", "Iceberg de poche",
              "Le Sacre du printemps", "Les Demoiselles d'Avignon", "La Cerisaie", "Les Mamelles de Tirésias",
              "Les Mariés de la tour Eiffel"]

@@ -262,7 +262,7 @@ def main():
         meme_ens_annee = [k for k in cands if proche(k)]
         mc = mots(c.get("intitule") or "")
         titre = [k for k in meme_ens_annee if mc & mots(k["cours"])]
-        statut = ("titre et enseignant dans l'AAM" if titre else "enseignant enseignant à BMC cette année-là (AAM), titre absent"
+        statut = ("titre et enseignant dans l'AAM" if titre else "enseignant présent à BMC cette année-là (AAM), titre absent"
                   if meme_ens_annee else "enseignant connu de l'AAM, pas cette année-là" if cands else "absent de l'AAM")
         best = (titre or meme_ens_annee or cands or [{}])[0]
         cr.append({"id": c["id"], "enseignant": c.get("enseignant", ""), "intitule": c.get("intitule", ""), "periode": c.get("periode", ""),

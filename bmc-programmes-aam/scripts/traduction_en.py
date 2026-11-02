@@ -19,6 +19,9 @@ OUTILS_FR = re.compile(r"\b(le|la|les|des|du|une|pour|avec|dans|sur|qui|que|chez
 LIEUX_FR = {"Caroline", "Floride", "Géorgie", "Virginie", "Californie", "Louisiane", "Pennsylvanie", "Mexique", "Allemagne",
             "Angleterre", "Suisse", "Autriche", "Italie", "Espagne", "Grèce", "Japon", "Chine", "Inde", "Nouvelle", "Orléans", "Londres",
             "Vienne", "Prague", "Moscou", "Russie", "Hollande", "Belgique", "Canada", "Cuba", "Europe", "Amérique", "Pacifique", "Atlantique"}
+# titres d'œuvres français gardés tels quels dans l'anglais (guide : « les titres d'œuvres gardent leur langue »)
+TITRES_FR = ["L'Honneur des poètes", "Le Piège de Méduse", "Le Malade imaginaire", "Pelléas et Mélisande", "Les Nuages",
+             "Le Sacre du printemps", "Les Demoiselles d'Avignon", "La Cerisaie", "Les Mamelles de Tirésias"]
 GLOSSAIRE = [(r"réunion (du corps enseignant|de la faculté)", "faculty meeting"), (r"\brecteur\b", "rector"),
              (r"programme de travail", "work program"), (r"officiers étudiants", "student officers"),
              (r"salle à manger", "dining hall"), (r"\bBoard of Fellows\b", "Board of Fellows")]
@@ -116,6 +119,7 @@ def verifier(num, remplacer=False):
         for n in set(re.findall(r"\b\d+\b", hors)):
             if n not in en and not (len(n) <= 2 and re.search(r"\bh\b|heure", hors)): erreurs.append(f"{i} : nombre {n} absent")
         sans = re.sub(r"“[^”]*”|\"[^\"]*\"|\*[^*]*\*|\([^)]*\)", " ", en)
+        for x in TITRES_FR: sans = sans.replace(x, " ")
         # particules des noms propres (Francine du Plessix Gray) et articles des titres d’œuvres (Le Piège de Méduse), repris de l’original
         sans = re.sub(r"\b(?i:du|de|des|la|le|les|un|une)\s+([A-Z][\w'’\-]+)", lambda m: " " if re.sub(r"['’]s$", "", m.group(1)) in fr and m.group(1) not in LIEUX_FR else m.group(0), sans)
         reste = OUTILS_FR.findall(sans)

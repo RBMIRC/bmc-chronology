@@ -386,6 +386,14 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
     traduction identique écartée) ; citations « … » et noms de personnes et de lieux protégés et rendus mot pour mot
     (contrôle : 0 citation altérée). Traductions relues à mettre dans `semainier/i18n/revu_en.tsv` (elles priment).
     Restent en français : synthèses longues (chroniques, dossiers) et analyses d'année.
+  - « Il faut un anglais parfait, fais un workflow » (novembre 2026) : circuit `scripts/traduction_en.py` (préparer →
+    traduire → vérifier → intégrer → état) et guide `semainier/i18n/GUIDE_TRADUCTION.md`. Les 14 045 chaînes
+    françaises affichées (Duberman, AAM, reconstitution, compléments, notes, fiches d'étudiants, livres et études,
+    résumés « Paroles / Atmosphère / Enjeu ») sont traduites à la main en anglais américain, en 143 lots, chacun
+    vérifié automatiquement (citations anglaises mot pour mot, noms, nombres, dates, heures, aucun mot outil
+    français) avant intégration dans `revu_en.tsv`. Citations françaises qui traduisent des paroles anglaises : discours
+    indirect, ou l'anglais exact quand il figure dans une notice voisine. L'automatique (Argos) ne sert plus que de filet
+    pour un texte ajouté plus tard (signalé ≈). Publié sur https://rbmirc.github.io/week/en/.
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

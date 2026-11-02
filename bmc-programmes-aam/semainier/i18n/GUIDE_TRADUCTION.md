@@ -87,8 +87,20 @@ le glossaire est respecté (avertissement sinon). Les écarts sont listés ; le 
 Une correction ultérieure s'ajoute à `revu_en.tsv` (la dernière ligne pour un même original l'emporte) : `verifier NNN
 --remplacer`, ou une ligne « original<TAB>traduction » ajoutée à la fin.
 
+Tolérances du vérificateur, à compléter au besoin dans `scripts/traduction_en.py` :
+- `ORTHO_NOMS` : nom mal orthographié dans la source et corrigé en silence dans la traduction (Frederic → Fredric,
+  Fiola → Flola, Hore → Fiore, Emanuel → Emanu-El…) ;
+- noms français d'organisations et de lieux (`LIEUX_FR`, liste d'exclusion) et titres d'œuvres français (`TITRES_FR`) ;
+- mesures métriques rendues dans les unités américaines d'origine (« 2,75 m » → « 9 feet ») : le nombre métrique n'est
+  pas exigé si la traduction emploie inch, foot, feet, gallon, pound, mile ;
+- « 1 000 » ou « 1000 » ↔ « 1,000 » ; dates ISO « 1953-11-24 » ↔ « November 24, 1953 » ; heures « 21h » ↔ « 9 p.m. » ;
+  durées « 1h30 » ↔ « an hour and a half ».
+Citation française qui traduit des paroles anglaises : si l'anglais exact figure dans une notice voisine (même scène
+racontée deux fois), on le reprend entre “ ” ; sinon discours indirect, sans guillemets.
+
 ## État
 
-Novembre 2026 : les 7 147 chaînes françaises affichées (Duberman, documents de l'AAM, reconstitution, compléments, notes,
-livres et études) sont traduites, vérifiées et intégrées (lots 001 à 072). La traduction automatique (Argos) ne sert plus
-que de filet pour une chaîne nouvelle, signalée ≈ ; `traduction_en.py preparer` en fait un nouveau lot.
+Novembre 2026 : les 14 045 chaînes françaises affichées (Duberman, documents de l'AAM, reconstitution, compléments,
+notes, fiches d'étudiants, livres et études, résumés) sont traduites, vérifiées et intégrées (lots 001 à 143). La
+traduction automatique (Argos) ne sert plus que de filet pour une chaîne nouvelle, signalée ≈ ;
+`traduction_en.py preparer` en fait un nouveau lot, `traduction_en.py etat` donne le décompte.

@@ -12,6 +12,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 | 3 | Contrôles (`construire.py --verifier`, navigateur headless, avant/après) | fait | « contrôles finaux » |
 | 4 | Scénario (bmc-scenario, 60 livres) reporté sur le semainier et recoupé | fait | « semainier : couche Scénario et recoupements » |
 | 5 | Vérification des sources de chaque entrée, extrait dans chaque fiche | fait | « vérification des sources » |
+| 6 | Synthèses du scénario : chroniques mensuelles, dossiers, références | en cours | « synthèses du scénario » |
 
 ## Étape 0 — chemins
 - `scripts/selectionner.py` : déjà relatif (`ROOT` calculé depuis le script), rien à changer.
@@ -133,6 +134,13 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 
 - Périodes (203), cours (821), documents (1 355) : tous ont une source et un lien.
 - Reste à relire à la main : les « à relire » et « indice faible » (listes dans le CSV, extrait dans chaque fiche).
+
+## Étape 6 — synthèses du scénario (2/11/2026)
+- 6a fait : `scripts/integrer_syntheses.py` → `scenario/002_*`, `semainier/data_syntheses.js`. 292 chroniques mensuelles,
+  334 dossiers (champs factuels), 10 241 fiches référencées (2 introuvables). Présents probables : 3 322 mentions,
+  709 (21 %) nommées le même mois dans l'AAM ou Duberman ; 1 marquée « invente_pour_le_recit_interdit », écartée.
+- 6b à faire : vérification des fiches référencées (verifier_sources.py).
+- 6c à faire : contenu des cours du scénario dans « Cours offerts ».
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

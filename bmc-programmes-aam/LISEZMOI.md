@@ -53,6 +53,14 @@ Source : collection.ashevilleart.org (fonds Theodore Dreier Sr. 2017.40.*, etc.)
   Sorties : `programme/audit/NNN_verification_sources.csv/.md` et `semainier/verification.js` (chargé à la demande) :
   chaque fiche du semainier a un bloc « Vérifier dans la source » (statut, extrait surligné, lien vers la fiche du
   musée), et la case « Retrouvées seulement » masque le reste. À relancer après toute régénération de `data.js`.
+  **Synthèses du scénario** (2/11/2026) : `scripts/integrer_syntheses.py` → `scenario/NNN_chroniques_mois.json`,
+  `_dossiers.json`, `_references.json`, `_recoupement_presences.csv`, `_rapport_syntheses.md` et
+  `semainier/data_syntheses.js` (chargé en arrière-plan). Panneau : « Chronique du mois (scénario) » (session, situation,
+  ce qui arrive, présents probables ✓ si nommés ce mois-là dans l'AAM ou Duberman, quotidien, tensions, lacunes),
+  chaque élément avec ses références de fiche cliquables (livre, pages, extrait vérifié) ; « ⓘ » après un nom ouvre le
+  dossier du personnage (présence, moments, relations, contradictions, questions ouvertes) avec, en regard, ses
+  activités attestées (AAM, Duberman). Les portraits psychologiques ne sont pas repris ; une présence marquée
+  « inventée pour le récit » est écartée.
   Ajouter des documents datés (photos, lettres d'autres fonds) : une ligne dans `semainier/documents_extra.csv`
   (date, titre, url, image, type, datation, source, part_deduite_pct, inventaire), puis relancer le script.
 - **Couche spéculative** (semaines reconstituées là où aucun document ne donne le programme) :

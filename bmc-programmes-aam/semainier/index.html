@@ -76,6 +76,14 @@
   .st { display:inline-block; font-size:11px; padding:1px 7px; border-radius:8px; font-weight:600; }
   .st.ok { background:#dfe9da; color:#2f5a25; } .st.faible { background:#f3ecd3; color:#6a5414; }
   .st.relire { background:#f1d9cf; color:#7a2a12; } .st.manque { background:#7a2a12; color:#fff; }
+  /* synthèses du scénario (chronique du mois, dossiers) */
+  .chron { font-size:12.5px; border-left:3px double #8b3a6b; padding:2px 8px; margin:6px 0; background:#fbf7f9; }
+  .chron p { margin:4px 0; }
+  .ref { display:inline-block; font-size:10px; padding:0 4px; margin:0 1px; border:1px solid #c9a5bb; border-radius:6px; color:#6a2a52; cursor:pointer; background:#fff; }
+  .ref:hover { background:#f3e3ec; }
+  .pp { display:inline-block; font-size:11.5px; margin:1px 4px 1px 0; }
+  .pp.ok::after { content:" ✓"; color:#2f5a25; } .pp.non { color:var(--gris); }
+  .dossier-lien { font-size:10px; color:#8b3a6b; cursor:pointer; margin-left:1px; }
   .renvoi.rs { border-left:3px dotted #8b3a6b; background:#f8f1f5; }
   .renvoi { border-left:3px solid #1f7f7f; padding:2px 6px; margin:3px 0; background:#f3f8f8; }
   .reconst { background:#fff; border:1.5px dashed var(--gris); padding:8px 10px; font-size:12.5px; margin:6px 0; }
@@ -187,6 +195,52 @@ function chargerVerif() {
   if (window.BMC_VERIF) return Promise.resolve();
   return verifEnCours ||= new Promise((ok, ko) => { const sc = document.createElement("script"); sc.src = "verification.js";
     sc.onload = ok; sc.onerror = () => { window.BMC_VERIF = {}; ok(); }; document.head.appendChild(sc); });
+}
+// synthèses du scénario : chargées en arrière-plan
+let synthEnCours = null;
+function chargerSynth() {
+  if (window.BMC_SYNTH) return Promise.resolve();
+  return synthEnCours ||= new Promise(ok => { const sc = document.createElement("script"); sc.src = "data_syntheses.js";
+    sc.onload = ok; sc.onerror = () => { window.BMC_SYNTH = null; ok(); }; document.head.appendChild(sc); });
+}
+const refsHtml = refs => (refs || []).filter(r => /^[A-Z]{2}-\d{5}$/.test(r)).map(r => `<span class="ref" data-ref="${r}" title="ouvrir la fiche citée">${r}</span>`).join("");
+// dossier d'une personne : nom exact, sinon nom de famille + initiale, sinon nom de famille unique
+let IDX_DOSS = null;
+function dossierDe(nom) {
+  const Y = window.BMC_SYNTH; if (!Y) return null;
+  if (!IDX_DOSS) { IDX_DOSS = {}; for (const k of Object.keys(Y.dossiers)) { const w = k.replace(/\(.*?\)/g, "").trim().split(/\s+/);
+    (IDX_DOSS[w[w.length - 1].toLowerCase()] ||= []).push(k); } }
+  if (Y.dossiers[nom]) return nom;
+  const w = nom.trim().split(/\s+/), c = IDX_DOSS[w[w.length - 1].toLowerCase()] || [];
+  const m = c.filter(k => k[0] === nom[0]); return m.length === 1 ? m[0] : c.length === 1 && w.length === 1 ? c[0] : null;
+}
+function ouvrirRef(r) {
+  const x = (window.BMC_SYNTH || {}).refs?.[r]; if (!x) return;
+  const v = window.BMC_VERIF && (BMC_VERIF["f" + r] || BMC_VERIF["s" + r]);
+  document.getElementById("fiche").innerHTML = `<button class="fermer" onclick="fermer()">fermer</button>
+    <h3>${esc(x.t)}</h3><div>fiche ${r} du scénario · ${esc(x.d)} · certitude : ${esc(x.c)}</div>
+    <dl><dt>Source</dt><dd>${esc(x.s)}</dd></dl>
+    ${v ? blocVerif(r, { vkey: BMC_VERIF["f" + r] ? "f" + r : "s" + r, scenario: true }) : `<div class="verif legende">Vérification : ${window.BMC_VERIF ? "fiche non couverte par la dernière vérification" : "chargement…"}</div>`}`;
+  document.getElementById("voile").classList.add("on");
+  if (!window.BMC_VERIF) chargerVerif().then(() => ouvrirRef(r));
+}
+function ouvrirDossier(nom) {
+  const k = dossierDe(nom), Y = window.BMC_SYNTH; if (!k) return;
+  const d = Y.dossiers[k];
+  const moments = (l, titre) => l && l.length ? `<h4>${titre}</h4>` + l.map(m => `<div class="cours">${esc(m.date || "")} ${esc(m.moment || m.role || "")} ${refsHtml(m.refs)}</div>`).join("") : "";
+  const att = Object.entries(d.atteste || {}).map(([b, v]) => `${b} : du ${v[0]} au ${v[1]} (${v[2]} activité${v[2] > 1 ? "s" : ""})`).join(" · ");
+  document.getElementById("fiche").innerHTML = `<button class="fermer" onclick="fermer()">fermer</button>
+    <h3>${esc(k)}</h3><div>${esc(d.dates_de_vie || "")} · ${esc(d.statut_bmc || d.statut || "")}</div>
+    <div class="legende">Dossier du scénario : synthèse rédigée par un modèle de langage à partir des fiches ; seuls les éléments référencés sont repris (cliquer une référence pour voir sa source).</div>
+    <h4>Présence à Black Mountain</h4>${(d.presence || []).map(p => `<div class="cours">${esc(p.debut || "?")} → ${esc(p.fin || "?")} : ${esc(p.role || "")} ${refsHtml(p.refs)}</div>`).join("")}
+    <div class="renvoi"><b>Recoupement</b> · ${att ? esc(att) : "aucune activité de cette personne dans l'AAM ni datée au jour chez Duberman"}</div>
+    ${moments(d.arc_bmc, "Moments à Black Mountain")}${moments(d.avant, "Avant")}${moments(d.apres, "Après")}
+    ${d.relations_cles ? "<h4>Relations</h4>" + d.relations_cles.map(r => `<div class="cours"><b>${esc(r.avec)}</b> (${esc(r.nature || "")}) : ${esc(r.evolution || "")} ${refsHtml(r.refs)}</div>`).join("") : ""}
+    ${d.contradictions_entre_sources ? "<h4>Contradictions entre sources</h4>" + d.contradictions_entre_sources.map(t => `<div class="cours">${esc(t)}</div>`).join("") : ""}
+    ${d.questions_ouvertes ? "<h4>Questions ouvertes</h4>" + d.questions_ouvertes.map(t => `<div class="cours">${esc(t)}</div>`).join("") : ""}
+    ${d.citations ? "<h4>Citations</h4>" + refsHtml(d.citations) : ""}`;
+  document.getElementById("fiche").querySelectorAll(".ref").forEach(x => x.onclick = () => ouvrirRef(x.dataset.ref));
+  document.getElementById("voile").classList.add("on");
 }
 const ST_CLASSE = { "retrouvé": "ok", "indice faible": "faible", "à relire": "relire", "référence introuvable": "manque", "sans source": "manque" };
 const ST_TEXTE = { "retrouvé": "les témoins de l'entrée (noms, mots du titre, date) sont réunis dans un même passage du texte cité",
@@ -311,11 +365,24 @@ function cote(debut, fin) {
       Aucun document ne donne le programme précis de cette semaine : le gabarit du trimestre est reconstitué à partir des catalogues de l'année et des années voisines.
       ${cle ? `<br><a href="#" id="lireAnalyse" data-k="${cle}">Lire l'analyse de l'année et le barème</a>` : ""}</div>`;
   }
+  if (etat.scen && window.BMC_SYNTH) {
+    const mois = [...new Set([a.slice(0, 7), iso(new Date(fin.getTime() - 864e5)).slice(0, 7)])];
+    for (const mo of mois) {
+      const c = BMC_SYNTH.chroniques[mo]; if (!c) continue;
+      const pp = (c.presents_probables || []).filter(p => !/invente/.test(p.certitude || ""));
+      h += `<h2>Chronique de ${new Date(mo + "-15T12:00").toLocaleDateString("fr-FR", { month: "long", year: "numeric" })} (scénario)</h2>
+        <div class="chron"><div class="legende">Synthèse rédigée par un modèle de langage à partir des fiches du scénario, non relue : à lire avec ses références.</div>
+        ${c.session ? `<p><b>Session.</b> ${esc(c.session)}</p>` : ""}${c.situation ? `<p>${esc(c.situation)}</p>` : ""}
+        ${(c.evenements || []).length ? `<p><b>Ce qui arrive.</b></p>` + c.evenements.map(e => `<p>· ${esc(e.date || "")} ${esc(e.ce_qui_arrive || "")} <span class="legende">(${esc(e.certitude || "")})</span> ${refsHtml(e.refs)}</p>`).join("") : ""}
+        ${pp.length ? `<p><b>Présents probables</b> <span class="legende">(✓ = nommé ce mois-ci dans l'AAM ou Duberman)</span><br>` + pp.map(p => `<span class="pp ${p.confirme ? "ok" : "non"}" title="${esc(p.certitude || "")}${p.confirme ? " · confirmé : " + esc(p.confirme) : " · non confirmé ce mois-ci"}">${esc(p.nom)}</span>`).join("") + "</p>" : ""}
+        <details><summary>quotidien, tensions, lacunes</summary>${c.quotidien ? `<p>${esc(c.quotidien)}</p>` : ""}${(c.tensions || []).map(t => `<p>· ${esc(t)}</p>`).join("")}${c.lacunes ? `<p><i>Lacunes : ${esc(c.lacunes)}</i></p>` : ""}</details></div>`;
+    }
+  } else if (etat.scen && window.BMC_SYNTH === undefined) chargerSynth().then(() => { const v = ec.getView(); cote(v.currentStart, v.currentEnd); });
   h += `<h2>${evs.length} activité${evs.length > 1 ? "s" : ""} sur ces dates</h2>`;
   const cpt = {};
   evs.forEach(e => e.resourceIds.forEach(r => cpt[r] = (cpt[r] || 0) + 1));
   const noms = Object.keys(cpt).filter(n => n !== "(non nommé)").sort((x, y) => cpt[y] - cpt[x]);
-  h += noms.length ? `<div class="pers">${noms.map(n => `<a data-q="${esc(n)}">${esc(n)}<sup>${cpt[n]}</sup></a>`).join("")}</div>`
+  h += noms.length ? `<div class="pers">${noms.map(n => `<a data-q="${esc(n)}">${esc(n)}<sup>${cpt[n]}</sup></a>${dossierDe(n) ? `<span class="dossier-lien" data-d="${esc(n)}" title="dossier du scénario">ⓘ</span>` : ""}`).join("")}</div>`
     : `<div class="vide">Personne de nommé.</div>`;
 
   if (etat.dub) {
@@ -382,6 +449,8 @@ function cote(debut, fin) {
     fiche({ id: e.id, title: e.title, start: new Date(e.start + "T12:00"), extendedProps: e.extendedProps }); });
   el.querySelectorAll(".dubp").forEach(x => x.onclick = () => { const e = D.duberman_panneau[+x.dataset.k];
     fiche({ id: e.id, title: e.title, start: new Date(e.start + "T12:00"), extendedProps: e.extendedProps }); });
+  el.querySelectorAll(".dossier-lien").forEach(x => x.onclick = () => ouvrirDossier(x.dataset.d));
+  el.querySelectorAll(".ref").forEach(x => x.onclick = () => ouvrirRef(x.dataset.ref));
   el.querySelectorAll(".pers a").forEach(a => a.onclick = () => { qEl.value = a.dataset.q; etat.q = a.dataset.q; maj(); });
 }
 

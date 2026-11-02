@@ -100,6 +100,17 @@ def verifier(num, remplacer=False):
         for w in set(re.findall(r"\b[A-Z][a-zà-ÿ'’\-]{2,}\b", hors)):
             if w in noms and w not in en and w not in LIEUX_FR:   # premier mot (« Avis au tableau ») : peut-être un mot commun
                 (avert if re.match(rf"\W*{w}\b", fr) else erreurs).append(f"{i} : nom « {w} » absent")
+        MOIS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+        for j, m, a in re.findall(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b", hors):   # 25/09/1933 → September 25, 1933 (ou Sept. 25)
+            if not (re.search(rf"\b{int(j)}\b", en) and a in en and re.search(MOIS[int(m) - 1][:3], en)): erreurs.append(f"{i} : date {j}/{m}/{a} mal rendue")
+        hors = re.sub(r"\b\d{1,2}/\d{1,2}/\d{4}\b", " ", hors)
+        for j, m in re.findall(r"\b(\d{1,2})/(\d{1,2})\b", hors):              # bulletin du 23/02 → February 23 bulletin
+            if not (1 <= int(m) <= 12 and re.search(rf"\b{int(j)}\b", en) and re.search(MOIS[int(m) - 1][:3], en)): erreurs.append(f"{i} : date {j}/{m} mal rendue")
+        hors = re.sub(r"\b\d{1,2}/\d{1,2}\b", " ", hors)
+        for h, mn in re.findall(r"\b(\d{1,2})[:h]\s?(\d{2})\b", hors):          # 14:30, 16 h 30 → 2:30 p.m.
+            h12 = (int(h) - 1) % 12 + 1
+            if not re.search(rf"\b({int(h)}|{h12}):{mn}\b", en): erreurs.append(f"{i} : heure {h}:{mn} mal rendue")
+        hors = re.sub(r"\b\d{1,2}[:h]\s?\d{2}\b", " ", hors)
         for n in set(re.findall(r"\b\d+\b", hors)):
             if n not in en and not (len(n) <= 2 and re.search(r"\bh\b|heure", hors)): erreurs.append(f"{i} : nombre {n} absent")
         sans = re.sub(r"“[^”]*”|\"[^\"]*\"|\*[^*]*\*|\([^)]*\)", " ", en)

@@ -110,7 +110,7 @@ def verifier(num, remplacer=False, partiel=False):
             norm = lambda x: re.sub(r"\s+([;:!?])", r"\1", x).replace("’", "'")
             if not T.francais(q) and re.search(r"[A-Za-z]{3}", q) and not re.search(r"[éèêàùç]", q) and norm(q) not in norm(en):
                 # citation à mots outils anglais : bloquante ; mot isolé (anglais ou français ?) : à relire
-                (erreurs if T.EN.search(q) and not re.search(r"\b(?:comme|une|les|des|avait|jamais|est|pas|n'|qu'|d'|l')", q) else avert).append(f"{i} : citation altérée ou absente « {q[:50]} »")
+                (erreurs if T.EN.search(q) and not re.search(r"\b(?:comme|une|les|des|avait|jamais|est|pas|va|se|ne|que|qui|avec|pour|dans|sur|tout|nous|vous|il|elle|n'|qu'|d'|l'|m')", q) else avert).append(f"{i} : citation altérée ou absente « {q[:50]} »")
         hors = re.sub(r"«[^»]*»|“[^”]*”|\"[^\"]*\"|\*[^*]*\*", " ", fr)
         for w in set(re.findall(r"\b[A-Z][a-zà-ÿ'’\-]{2,}\b", hors)):
             if w in noms and w not in en and w not in LIEUX_FR and not (w in ORTHO_NOMS and ORTHO_NOMS[w] in en):   # premier mot (« Avis au tableau ») : peut-être un mot commun

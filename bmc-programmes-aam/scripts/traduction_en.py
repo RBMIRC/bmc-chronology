@@ -127,6 +127,8 @@ def verifier(num, remplacer=False, partiel=False):
             h12 = (int(h) - 1) % 12 + 1
             if not re.search(rf"\b({int(h)}|{h12}):{mn}\b", en): erreurs.append(f"{i} : heure {h}:{mn} mal rendue")
         hors = re.sub(r"\b\d{1,2}[:h]\s?\d{2}\b", " ", hors)
+        if re.search(r"\b(?:inch|inches|foot|feet|gallons?|pounds?|miles?|yards?|ounces?)\b|-(?:inch|foot|gallon|pound|mile|yard)\b", en):   # mesures métriques rendues dans les unités américaines d'origine
+            hors = re.sub(r"\b\d+(?:[,.]\d+)?(?:\s?[-–à]\s?\d+(?:[,.]\d+)?)?\s?(?:cm|mm|m|km|kg|g|l|litres?|mètres?|kilos?|kilomètres?|centimètres?)\b", " ", hors)
         for n in set(re.findall(r"\b\d+\b", hors)):
             if n not in en and n not in re.sub(r"(\d),(\d{3})\b", r"\1\2", en) and not (len(n) <= 2 and re.search(r"\bh\b|heure", hors)): erreurs.append(f"{i} : nombre {n} absent")
         sans = re.sub(r"“[^”]*”|\"[^\"]*\"|\*[^*]*\*|\([^)]*\)", " ", en)

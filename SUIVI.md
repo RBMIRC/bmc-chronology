@@ -329,6 +329,22 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
 - Reste à exploiter : rubriques secondaires d'Asheville (calendrier 229 périodes, cours 1 440, enseignants 1 443,
   étudiants 2 147, visiteurs 838, décisions 133), à confronter au calendrier attesté et aux catalogues AAM.
 
+## Étape 12 — Modèle du semainier pour la mise en ligne (2/11/2026)
+- Constat (mesures sur les 1 062 semaines) : une semaine type porte ~3 faits AAM, 1 Duberman, 1 Chronos et ~120 cases
+  spéculatives (jusqu'à 334, semaine du 27 mars 1944) ; dans la grille horaire, 8 à 10 cours à la même heure font des
+  cases de 10 px, et la vue est inutilisable sur téléphone.
+- Enquête de design : incertitude marquée par des signes discrets plutôt que par du flou (points de Priestley, *Chart of
+  Biography*, 1765 ; Kräutli et Boyd Davis : un rendu flou suggère plus de confiance que les données n'en donnent) ;
+  versions divergentes en colonnes parallèles (Lenglet Du Fresnoy) ; vue agenda plus lisible sur téléphone que la grille
+  quand les événements se chevauchent.
+- Nouvelle vue par défaut **« Journal »** (`semainier/index.html#AAAA-MM-JJ/journal`) : frise 1933-1957 (faits attestés
+  par semaine, semaines reconstituées), puis 1. Attesté et rapporté, jour par jour (couche écrite, certitude ●●● à
+  ○○○, part déduite, source courte ; récurrences de l'AAM regroupées en une ligne) ; 2. Emploi du temps reconstitué,
+  replié, en tableau créneaux × jours (liste par jour sur téléphone) ; 3. contexte (colonne de droite inchangée).
+  La grille horaire reste sous « Grille ». Filtres repliables ; aucune donnée modifiée.
+- Suite : version publique pour https://rbmirc.github.io/week (dépôt RBMIRC/week) : références gardées, extraits longs
+  retirés, données découpées par année ; version complète gardée pour l'usage local.
+
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le
 corpus pour ces années ; tous les horaires sont supposés et codés comme tels).

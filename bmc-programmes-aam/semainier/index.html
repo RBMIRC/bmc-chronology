@@ -94,6 +94,68 @@
   #fiche h4 { font-size:14px; margin:16px 0 4px; } #fiche table { border-collapse:collapse; font-size:12px; } #fiche td { border-top:1px solid #eee; padding:2px 6px; vertical-align:top; }
   .ev-b { font-size:9.5px; opacity:.9; margin-left:3px; white-space:nowrap; }
   .ec-timeline .ec-event { font-size:11px; }
+  /* ---- journal de la semaine (vue par défaut, 2/11/2026) ----
+     attesté et reconstitué séparés (colonnes parallèles de Lenglet Du Fresnoy) ; certitude en marques discrètes
+     (●●● à ○○○, d'après les points de Priestley) plutôt qu'en flou, toujours avec la couche écrite et la part déduite */
+  #journal { flex:1; min-width:0; overflow-y:auto; padding:10px 18px 40px; display:none; }
+  body.j #journal { display:block; } body.j #cal { display:none; }
+  .j-tete { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 14px; margin:2px 0 4px; }
+  .j-tete h2 { font:600 22px/1.2 Georgia, "Times New Roman", serif; margin:0; }
+  .j-tete .per { color:var(--gris); font-size:13px; margin:0; }
+  .j-nav button { font-size:13px; }
+  #frise { width:100%; height:46px; display:block; margin:6px 0 2px; cursor:pointer; }
+  .frise-leg { display:flex; justify-content:space-between; font-size:10.5px; color:var(--gris); margin-bottom:10px; }
+  .j-leg { font-size:11.5px; color:var(--gris); margin:4px 0 12px; line-height:1.7; }
+  .j-leg b { color:var(--encre); font-weight:600; }
+  .j-bloc { margin:14px 0 22px; }
+  .j-bloc > h3 { font:600 12px/1.3 -apple-system, "Helvetica Neue", Arial, sans-serif; text-transform:uppercase; letter-spacing:.07em;
+    color:var(--gris); border-bottom:1.5px solid var(--encre); padding-bottom:4px; margin:0 0 6px; display:flex; justify-content:space-between; gap:10px; }
+  .j-bloc > h3 small { text-transform:none; letter-spacing:0; font-weight:normal; }
+  .j-jour { display:grid; grid-template-columns:92px 1fr; gap:0 12px; border-bottom:1px solid var(--filet); padding:6px 0; }
+  .j-jour > .d { font:600 13px/1.3 Georgia, serif; padding-top:2px; }
+  .j-jour > .d small { display:block; font:11px -apple-system, Arial, sans-serif; color:var(--gris); }
+  .j-jour.vide-j > .l { color:var(--gris); font-size:12px; font-style:italic; padding-top:3px; }
+  .j-ev { display:grid; grid-template-columns:44px 1fr auto; gap:0 10px; padding:3px 4px; border-radius:3px; cursor:pointer; align-items:baseline; }
+  .j-ev:hover { background:#fff; }
+  .j-ev .h { font-variant-numeric:tabular-nums; color:var(--gris); font-size:12px; }
+  .j-ev .t { font-size:13.5px; }
+  .j-ev .m { font-size:11.5px; color:var(--gris); display:block; margin-top:1px; }
+  .j-ev .c { white-space:nowrap; text-align:right; font-size:11px; }
+  .cert { letter-spacing:1px; font-size:10px; color:var(--encre); }
+  .couche { display:inline-block; font-size:10px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; padding:0 4px;
+    border-radius:2px; color:#fff; margin-right:4px; vertical-align:1px; }
+  .couche.aam { background:#3d3a35; } .couche.dub { background:#1f7f7f; } .couche.chr { background:#6b7a1f; }
+  .couche.rum { background:#8a5a1d; } .couche.scen { background:#8b3a6b; } .couche.spec { background:#fff; color:var(--gris); border:1px dashed var(--gris); }
+  .aussi { font-size:11px; color:#1f5f5f; }
+  .j-ev .fam-pt { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px; vertical-align:0; }
+  .j-spec-resume { font-size:12.5px; background:#fff; border:1.5px dashed var(--gris); padding:8px 10px; margin:4px 0 8px; }
+  table.edt { border-collapse:collapse; width:100%; font-size:11.5px; table-layout:fixed; }
+  table.edt th { font-weight:600; text-align:left; padding:3px 4px; border-bottom:1px solid var(--encre); font-size:11px; }
+  table.edt th:first-child { width:52px; }
+  table.edt td { vertical-align:top; border-bottom:1px solid var(--filet); padding:3px 4px; font-style:italic; color:#4b4740; }
+  table.edt td.hr { font-style:normal; color:var(--gris); font-variant-numeric:tabular-nums; }
+  table.edt .ci { cursor:pointer; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  table.edt .ci:hover { text-decoration:underline; }
+  table.edt details summary { font-style:normal; color:var(--encre); font-size:11.5px; }
+  .edt-mobile { display:none; }
+  @media (max-width: 760px) {
+    .j-jour { grid-template-columns:1fr; } .j-jour > .d { border-bottom:1px dotted var(--filet); margin-bottom:3px; }
+    .j-ev { grid-template-columns:40px 1fr; } .j-ev .c { grid-column:2; text-align:left; }
+    table.edt { display:none; } .edt-mobile { display:block; }
+    #journal { padding:8px 10px 30px; }
+  }
+  header details#filtres { flex-basis:100%; } header details#filtres > summary { font-size:12px; color:var(--gris); cursor:pointer; }
+  header details#filtres[open] > summary { margin-bottom:6px; }
+  header details#filtres > div { display:flex; flex-wrap:wrap; align-items:center; gap:8px 16px; }
+  .j-semaine { font-size:12px; color:var(--gris); margin-top:6px; }
+  .j-semaine .lien, .j-rec .lien { cursor:pointer; text-decoration:underline dotted; color:var(--encre); }
+  .j-rec { border-bottom:1px solid var(--filet); padding:6px 0 8px; font-size:12.5px; }
+  .j-rec .lib { font:600 12px/1.3 Georgia, serif; margin-right:6px; }
+  .j-rec .it { display:inline-block; margin:2px 14px 2px 0; }
+  .j-rec .it small { color:var(--gris); }
+  @media (max-width: 1000px) { #journal { flex:none; overflow:visible; } }
+  @media (max-width: 760px) { .frise-leg span:nth-child(2) { display:none; } }
+  .j-leg > summary { font-size:11.5px; color:var(--gris); }
   /* fiche */
   #voile { position:fixed; inset:0; background:rgba(20,18,15,.45); display:none; align-items:center; justify-content:center; z-index:50; }
   #voile.on { display:flex; }
@@ -110,7 +172,8 @@
 <header>
   <h1>Semainier · Black Mountain College <small>d'après les fiches de l'Asheville Art Museum</small></h1>
   <div class="grp">
-    <button data-vue="timeGridWeek" class="on">Semaine</button>
+    <button data-vue="journal" class="on" title="Journal de la semaine : attesté, puis reconstitué, puis contexte">Journal</button>
+    <button data-vue="timeGridWeek" title="Grille horaire (lisible surtout pour les semaines à horaire attesté)">Grille</button>
     <button data-vue="presences">Présences</button>
     <button data-vue="listWeek">Liste</button>
     <button data-vue="dayGridMonth">Mois</button>
@@ -121,6 +184,7 @@
     <button id="suivSem" title="Semaine documentée suivante">doc. ▶</button>
     <select id="reperes" style="max-width:190px"><option value="">Repères…</option></select>
   </div>
+  <details id="filtres" open><summary>Filtres et couches</summary><div>
   <div class="grp">
     <input type="search" id="q" placeholder="Personne, cours, lieu…">
     <label class="fam" title="Part de déduction maximale affichée">déduction ≤ <select id="maxPct">
@@ -132,8 +196,10 @@
   <label class="fam" title="N'afficher que les entrées dont la source citée a été ouverte et contient les témoins de l'entrée (scripts/verifier_sources.py)"><input type="checkbox" id="verifSeul">Retrouvées seulement</label>
   <label class="fam" title="Chronos : extractions automatiques (décembre 2025) des fiches du musée, des entretiens de Mary Emma Harris, du livre sur la ferme et de Duberman, seulement ce que l'AAM et Duberman n'ont pas déjà, à relire ; Rumaker : dépouillement manuel de Black Mountain Days (2003) "><input type="checkbox" id="chr" checked><i class="ichr"></i>Chronos, Rumaker</label>
   <label class="fam" title="Événements et scènes du scénario (extraction automatique, non relue, de 60 livres : bmc-scenario) ; les faits déjà dans l'AAM ou Duberman y sont fondus en renvoi"><input type="checkbox" id="scen" checked><i class="iscen"></i>Scénario</label>
+  </div></details>
 </header>
 <main>
+  <div id="journal"></div>
   <div id="cal"></div>
   <aside id="cote"></aside>
 </main>
@@ -639,10 +705,136 @@ function fermer() { document.getElementById("voile").classList.remove("on"); }
 document.getElementById("voile").onclick = e => { if (e.target.id === "voile") fermer(); };
 document.addEventListener("keydown", e => { if (e.key === "Escape") fermer(); });
 
+// ---- journal de la semaine
+const lundiDe = d => { const x = new Date(d + "T12:00"); x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); return iso(x); };
+const certitude = p => { const n = p.pct < 10 ? 3 : p.pct < 30 ? 2 : p.pct < 60 ? 1 : 0; return "●".repeat(n) + "○".repeat(3 - n); };
+function couche(p) {
+  if (p.spec) return ["spec", "reconstitué"];
+  if (p.duberman) return ["dub", "Duberman"];
+  if (p.chronos) return /Rumaker/.test(p.source_chronos) ? ["rum", "Rumaker"] : ["chr", "Chronos"];
+  if (p.scenario) return ["scen", "scénario"];
+  return ["aam", "AAM"];
+}
+function srcCourt(p) {
+  if (p.duberman) return `Duberman 1972, p. ${p.page}`;
+  if (p.chronos || p.scenario) return (p.src || "").replace(/\s*\(.*$/, "").slice(0, 70);
+  return p.inv ? "inv. " + p.inv.split(" ; ")[0] + (p.rec ? " · récurrence" : "") : "";
+}
+function titreSemaine(lun) {
+  const a = new Date(lun + "T12:00"), b = new Date(plusJours(lun, 6) + "T12:00");
+  const f = (d, o) => d.toLocaleDateString("fr-FR", o);
+  return a.getMonth() === b.getMonth() ? `${a.getDate()} – ${f(b, { day: "numeric", month: "long", year: "numeric" })}`
+    : `${f(a, { day: "numeric", month: "long" })} – ${f(b, { day: "numeric", month: "long", year: "numeric" })}`;
+}
+const EVJ = [];
+const versEv = e => ({ ...e, start: new Date(e.start.length === 10 ? e.start + "T12:00" : e.start) });
+// frise 1933-1957 : faits attestés par semaine (barres), semaines reconstituées (fond gris)
+const FRISE = (() => {
+  const t0 = new Date("1933-09-04T12:00"), n = Math.ceil((new Date("1958-01-06T12:00") - t0) / 6048e5);
+  const att = new Array(n).fill(0), spc = new Array(n).fill(0);
+  const ix = d => Math.floor((new Date(d.slice(0, 10) + "T12:00") - t0) / 6048e5);
+  D.events.concat(D.duberman, CHR.grille, SC.grille).forEach(e => { const k = ix(e.start); if (k >= 0 && k < n && !e.extendedProps.spec) att[k]++; });
+  for (const Y of Object.values(D.spec || {})) for (const S of Y.semaines) { const k = ix(S.lundi); if (k >= 0 && k < n) spc[k] = 1; }
+  return { t0, n, att, spc, max: Math.max(...att), ix };
+})();
+function dessinerFrise(lun) {
+  const c = document.getElementById("frise"); if (!c) return;
+  const w = c.clientWidth, h = c.clientHeight, r = window.devicePixelRatio || 1;
+  c.width = w * r; c.height = h * r; const g = c.getContext("2d"); g.scale(r, r);
+  const bw = w / FRISE.n, base = h - 12;
+  for (let k = 0; k < FRISE.n; k++) {
+    if (FRISE.spc[k]) { g.fillStyle = "#e4dfd3"; g.fillRect(k * bw, 4, Math.max(bw, 1), base - 4); }
+    if (FRISE.att[k]) { const bh = Math.max(2, Math.sqrt(FRISE.att[k] / FRISE.max) * (base - 6)); g.fillStyle = "#3d3a35"; g.fillRect(k * bw, base - bh, Math.max(bw * .8, 1), bh); }
+  }
+  g.fillStyle = "#6d6a63"; g.font = "9px sans-serif";
+  for (let y = 1934; y <= 1957; y++) { const k = FRISE.ix(`${y}-01-01`); g.fillRect(k * bw, base, 1, y % 5 ? 3 : 6); if (y % 5 === 0) g.fillText(y, k * bw + 2, h - 1); }
+  const k = FRISE.ix(lun); g.fillStyle = "#c0392b"; g.fillRect(k * bw - 1, 0, 3, base);
+  c.onclick = ev => { const x = ev.offsetX, kk = Math.floor(x / bw); const d = new Date(FRISE.t0); d.setDate(d.getDate() + 7 * kk); aller(iso(d)); };
+  c.title = "Cliquer pour aller à cette semaine";
+}
+let edtOuvert = false;
+function rendreJournal() {
+  if (!document.body.classList.contains("j")) return;
+  const lun = lundiDe(iso(ec.getOption("date"))), fin = plusJours(lun, 7);
+  const evs = evenementsEntre(lun, fin);
+  const att = evs.filter(e => !e.extendedProps.spec), spc = evs.filter(e => e.extendedProps.spec);
+  EVJ.length = 0;
+  const per = D.periodes.filter(p => { const a = p.debut || p.fin, b = p.fin || p.debut; return a < fin && b >= lun; });
+  const perTxt = [...new Set(per.map(p => p.libelle))];
+  let h = `<div class="j-tete"><h2>${titreSemaine(lun)}</h2>
+    <span class="j-nav"><button onclick="aller(plusJours('${lun}', -7))">◀ semaine</button> <button onclick="aller(plusJours('${lun}', 7))">semaine ▶</button></span>
+    <span class="per">${perTxt.length ? perTxt.slice(0, 3).map(esc).join(" · ") : "hors période de cours attestée"}</span></div>
+    <canvas id="frise"></canvas><div class="frise-leg"><span>1933</span><span>barres : faits attestés de la semaine · fond gris : semaine reconstituée · trait rouge : semaine affichée</span><span>1957</span></div>
+    <details class="j-leg" open><summary>Lire les marques</summary>Certitude <b>●●●</b> part déduite &lt; 10 % · <b>●●○</b> 10-29 % · <b>●○○</b> 30-59 % · <b>○○○</b> 60 % et plus.
+      Couches : <span class="couche aam">AAM</span>document du musée <span class="couche dub">Duberman</span>livre de 1972 <span class="couche rum">Rumaker</span>mémoires
+      <span class="couche chr">Chronos</span>extraction automatique recoupée <span class="couche scen">scénario</span>extraction automatique de livres
+      <span class="couche spec">reconstitué</span>gabarit spéculatif. Cliquer une ligne : source, part déduite et vérification.</details>`;
+  // 1. attesté et rapporté, jour par jour
+  const row = e => {
+    const i = EVJ.push(e) - 1, p = e.extendedProps, [ck, cl] = couche(p), f = FAM_DE[p.type] || FAMILLES[4];
+    const hr = e.allDay ? (p.heure && !/^\d/.test(p.heure) ? p.heure : "") : e.start.slice(11, 16);
+    const fe = e.allDay && e.end ? plusJours(e.end.slice(0, 10), -1) : "";
+    const plage = fe && fe > e.start.slice(0, 10) ? ` · jusqu'au ${fmt(fe).replace(/^\w+ /, "")}` : "";
+    const aussi = [(p.livres || []).length ? `${p.livres.length} livre${p.livres.length > 1 ? "s" : ""}` : "",
+                   (p.scen || []).length ? "scénario" : "", (p.dub || []).length ? "Duberman" : ""].filter(Boolean);
+    return `<div class="j-ev" data-i="${i}"><span class="h">${esc(hr)}</span><span><span class="t"><i class="fam-pt" style="background:${f[2]}" title="${esc(f[1])}"></i>${esc(e.title)}</span>
+      <span class="m">${[p.qui, p.lieu, srcCourt(p)].filter(Boolean).map(esc).join(" · ")}${plage}${aussi.length ? ` · <span class="aussi">aussi : ${aussi.join(", ")}</span>` : ""}</span></span>
+      <span class="c"><span class="couche ${ck}">${cl}</span><span class="cert" title="certitude">${certitude(p)}</span> ${pctTag(p.pct)}</span></div>`;
+  };
+  const ordre = (x, y) => (x.allDay === y.allDay ? 0 : x.allDay ? -1 : 1) || x.start.localeCompare(y.start) || x.extendedProps.pct - y.extendedProps.pct;
+  h += `<section class="j-bloc"><h3><span>1. Attesté et rapporté</span><small>${att.length} entrée${att.length > 1 ? "s" : ""} · documents datés, livres dépouillés, extractions recoupées</small></h3>`;
+  // entrées récurrentes de l'AAM (« chaque jour », « chaque lundi ») : une ligne pour la semaine au lieu d'une par jour
+  const grp = {};
+  att.filter(e => e.extendedProps.rec).forEach(e => (grp[e.title + "|" + (e.allDay ? "" : e.start.slice(11, 16))] ||= []).push(e));
+  const recur = Object.values(grp).filter(L => new Set(L.map(e => e.start.slice(0, 10))).size >= 2);
+  const dansRecur = new Set(recur.flat());
+  if (recur.length) h += `<div class="j-rec"><span class="lib">Chaque jour ou chaque semaine</span><span class="legende">(récurrence attestée par un document)</span><br>${recur.map(L => {
+      const e = L[0], i = EVJ.push(e) - 1, p = e.extendedProps, js = [...new Set(L.map(x => JOURS_ABR[(new Date(x.start.slice(0, 10) + "T12:00").getDay() + 6) % 7]))];
+      return `<span class="it"><span class="lien" data-i="${i}">${esc(e.title.length > 90 ? e.title.slice(0, 88) + "…" : e.title)}</span> <small>${e.allDay ? "" : e.start.slice(11, 16) + " · "}${js.join(", ")} · ${esc(srcCourt(p))}</small> <span class="cert">${certitude(p)}</span> ${pctTag(p.pct)}</span>`; }).join("")}</div>`;
+  for (let k = 0; k < 7; k++) {
+    const d = plusJours(lun, k);
+    const L = att.filter(e => !dansRecur.has(e)).filter(e => { const s0 = e.start.slice(0, 10) < lun ? lun : e.start.slice(0, 10); return s0 === d; }).sort(ordre);
+    const dd = new Date(d + "T12:00");
+    h += `<div class="j-jour${L.length ? "" : " vide-j"}"><div class="d">${dd.toLocaleDateString("fr-FR", { weekday: "long" })}<small>${dd.toLocaleDateString("fr-FR", { day: "numeric", month: "long" })}</small></div>
+      <div class="l">${L.length ? L.map(row).join("") : "rien d'attesté ce jour-là"}</div></div>`;
+  }
+  h += `</section>`;
+  // 2. emploi du temps reconstitué (gabarit du trimestre)
+  if (spc.length) {
+    const p0 = spc[0].extendedProps, moy = Math.round(spc.reduce((t, e) => t + e.extendedProps.pct, 0) / spc.length);
+    const termes = [...new Set(spc.map(e => e.extendedProps.terme))];
+    const semaine = spc.filter(e => e.allDay && e.end && e.end.slice(0, 10) >= plusJours(e.start.slice(0, 10), 7));
+    const jours = spc.filter(e => !semaine.includes(e));
+    const cols = [0, 1, 2, 3, 4, 5, 6].filter(k => jours.some(e => e.start.slice(0, 10) === plusJours(lun, k)));
+    const heures = [...new Set(jours.map(e => e.allDay ? "journée" : e.start.slice(11, 16)))].sort((a, b) => a === "journée" ? -1 : b === "journée" ? 1 : a.localeCompare(b));
+    const cell = L => { if (!L.length) return ""; const it = L.map(e => { const i = EVJ.push(e) - 1; return `<span class="ci" data-i="${i}" title="${esc(e.title + (e.extendedProps.qui ? " · " + e.extendedProps.qui : "") + " · " + e.extendedProps.pct + " %")}">${esc(e.title)}${e.extendedProps.qui ? " · " + esc(e.extendedProps.qui.split(";")[0]) : ""}</span>`; }).join("");
+      return L.length > 6 ? `<details><summary>${L.length} entrées</summary>${it}</details>` : it; };
+    const de = (k, hh) => jours.filter(e => e.start.slice(0, 10) === plusJours(lun, k) && (e.allDay ? "journée" : e.start.slice(11, 16)) === hh).sort((x, y) => x.title.localeCompare(y.title));
+    h += `<section class="j-bloc"><h3><span>2. Emploi du temps reconstitué</span><small>${spc.length} entrées · part déduite moyenne ${moy} % · ○○○ à ●○○</small></h3>
+      <div class="j-spec-resume">Aucun document ne donne le programme de cette semaine heure par heure : c'est le gabarit de <b>${termes.map(esc).join(", ")}</b>,
+        reconstitué d'après les catalogues et bulletins de l'année et appliqué à chaque semaine de cours. Chaque case garde sa part déduite et ses motifs.
+        <a href="#" onclick="analyse('${esc(p0.annee)}');return false">Analyse de l'année et barème</a>.
+        ${semaine.length ? `<div class="j-semaine">Toute la semaine : ${semaine.map(e => { const i = EVJ.push(e) - 1; return `<span class="lien" data-i="${i}">${esc(e.title)}</span> ${pctTag(e.extendedProps.pct)}`; }).join(" · ")}</div>` : ""}</div>
+      <details id="edt"${edtOuvert ? " open" : ""}><summary>afficher l'emploi du temps reconstitué (${jours.length} cases)</summary>
+      <table class="edt"><tr><th></th>${cols.map(k => `<th>${new Date(plusJours(lun, k) + "T12:00").toLocaleDateString("fr-FR", { weekday: "short", day: "numeric" })}</th>`).join("")}</tr>
+      ${heures.map(hh => `<tr><td class="hr">${hh}</td>${cols.map(k => `<td>${cell(de(k, hh))}</td>`).join("")}</tr>`).join("")}</table>
+      <div class="edt-mobile">${cols.map(k => `<div class="j-jour"><div class="d">${new Date(plusJours(lun, k) + "T12:00").toLocaleDateString("fr-FR", { weekday: "long", day: "numeric" })}</div><div class="l">${heures.map(hh => { const L = de(k, hh); return L.length ? `<div class="j-ev" style="cursor:default"><span class="h">${hh}</span><span>${cell(L)}</span></div>` : ""; }).join("")}</div></div>`).join("")}</div>
+      </details></section>`;
+  } else if (etat.spec) h += `<section class="j-bloc"><h3><span>2. Emploi du temps reconstitué</span><small>aucun</small></h3><div class="vide">Pas de reconstitution pour cette semaine (semaine déjà documentée, vacances, ou année sans gabarit).</div></section>`;
+  h += `<section class="j-bloc"><h3><span>3. Contexte</span><small>période, documents, cours, personnes, chronique</small></h3><div class="legende">Dans la colonne de droite (en bas sur téléphone).</div></section>`;
+  const J = document.getElementById("journal"); J.innerHTML = h;
+  if (window.innerWidth < 760 && !rendreJournal.legVue) J.querySelector(".j-leg").open = false;
+  J.querySelector(".j-leg").ontoggle = e => rendreJournal.legVue = true;
+  J.querySelectorAll("[data-i]").forEach(x => x.onclick = ev => { if (ev.target.closest("summary")) return; ev.stopPropagation(); fiche(versEv(EVJ[+x.dataset.i])); });
+  const ed = document.getElementById("edt"); if (ed) ed.ontoggle = () => edtOuvert = ed.open;
+  dessinerFrise(lun);
+}
+window.addEventListener("resize", () => { if (document.body.classList.contains("j")) dessinerFrise(lundiDe(iso(ec.getOption("date")))); });
+
 // ---- commandes
 function maj() {
   ec.refetchEvents();
-  const v = ec.getView(); cote(v.currentStart, v.currentEnd); majHash();
+  const v = ec.getView(); cote(v.currentStart, v.currentEnd); majHash(); rendreJournal();
 }
 const fams = document.getElementById("familles");
 FAMILLES.forEach(([k, lib, c]) => {
@@ -663,11 +855,17 @@ if (!window.BMC_SCEN) document.getElementById("scen").closest("label").style.dis
 document.getElementById("maxPct").onchange = e => { etat.maxPct = +e.target.value; maj(); };
 document.querySelectorAll("[data-vue]").forEach(b => b.onclick = () => vue(b.dataset.vue));
 function vue(v) {
-  ec.setOption("view", v);
   document.querySelectorAll("[data-vue]").forEach(x => x.classList.toggle("on", x.dataset.vue === v));
+  if (v === "journal") {
+    document.body.classList.add("j");
+    if (ec.getView().type !== "timeGridWeek") ec.setOption("view", "timeGridWeek");    // le panneau suit la semaine
+    rendreJournal(); majHash(); return;
+  }
+  document.body.classList.remove("j");
+  ec.setOption("view", v);
   majHash();
 }
-function aller(d) { if (d) ec.setOption("date", d); }
+function aller(d) { if (d) { ec.setOption("date", d); rendreJournal(); } }
 document.getElementById("saut").onchange = e => aller(e.target.value);
 function voisin(sens) {
   const v = ec.getView(), a = iso(v.currentStart), b = iso(v.currentEnd);
@@ -692,11 +890,13 @@ rep.onchange = () => { aller(rep.value); rep.value = ""; };
 function majHash() {
   const v = ec.getView();
   const d = iso(ec.getOption("date")); document.getElementById("saut").value = d;
-  history.replaceState(null, "", `#${d}/${v.type}`);
+  history.replaceState(null, "", `#${d}/${document.body.classList.contains("j") ? "journal" : v.type}`);
 }
 (function lireHash() {
   const m = location.hash.match(/^#(\d{4}-\d{2}-\d{2})(?:\/(\w+))?/);
-  if (m) { aller(m[1]); if (m[2]) vue(m[2]); }
+  if (m) aller(m[1]);
+  vue(m && m[2] ? m[2] : "journal");
+  if (window.innerWidth < 760) document.getElementById("filtres").open = false;
 })();
 </script>
 </body>

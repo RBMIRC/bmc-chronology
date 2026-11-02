@@ -22,7 +22,9 @@ LIEUX_FR = {"Caroline", "Floride", "Géorgie", "Virginie", "Californie", "Louisi
             "Angleterre", "Suisse", "Autriche", "Italie", "Espagne", "Grèce", "Japon", "Chine", "Inde", "Nouvelle", "Orléans", "Londres",
             "Vienne", "Prague", "Moscou", "Russie", "Hollande", "Belgique", "Canada", "Cuba", "Europe", "Amérique", "Pacifique", "Atlantique"}
 # titres d'œuvres français gardés tels quels dans l'anglais (guide : « les titres d'œuvres gardent leur langue »)
-TITRES_FR = ["L'Honneur des poètes", "Le Piège de Méduse", "Le Malade imaginaire", "Pelléas et Mélisande", "Les Nuages",
+# graphie corrigée dans la traduction quand le résumé français écorche un nom (« Frederic March » → Fredric March)
+ORTHO_NOMS = {"Frederic": "Fredric"}
+TITRES_FR = ["L'Honneur des poètes", "Le Piège de Méduse", "Le Malade imaginaire", "Le Médecin malgré lui", "Les Précieuses ridicules", "Pelléas et Mélisande", "Les Nuages",
              "Le Sacre du printemps", "Les Demoiselles d'Avignon", "La Cerisaie", "Les Mamelles de Tirésias",
              "Les Mariés de la tour Eiffel"]
 GLOSSAIRE = [(r"réunion (du corps enseignant|de la faculté)", "faculty meeting"), (r"\brecteur\b", "rector"),
@@ -110,7 +112,7 @@ def verifier(num, remplacer=False, partiel=False):
                 (erreurs if T.EN.search(q) and not re.search(r"\b(?:comme|une|les|des|avait|jamais|est|pas|n'|qu'|d'|l')", q) else avert).append(f"{i} : citation altérée ou absente « {q[:50]} »")
         hors = re.sub(r"«[^»]*»|“[^”]*”|\"[^\"]*\"|\*[^*]*\*", " ", fr)
         for w in set(re.findall(r"\b[A-Z][a-zà-ÿ'’\-]{2,}\b", hors)):
-            if w in noms and w not in en and w not in LIEUX_FR:   # premier mot (« Avis au tableau ») : peut-être un mot commun
+            if w in noms and w not in en and w not in LIEUX_FR and not (w in ORTHO_NOMS and ORTHO_NOMS[w] in en):   # premier mot (« Avis au tableau ») : peut-être un mot commun
                 (avert if re.match(rf"\W*{w}\b", fr) else erreurs).append(f"{i} : nom « {w} » absent")
         MOIS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
         for j, m, a in re.findall(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b", hors):   # 25/09/1933 → September 25, 1933 (ou Sept. 25)

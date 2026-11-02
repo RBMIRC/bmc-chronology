@@ -352,6 +352,14 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
     compressés (42 Mo en tout au lieu de 61). L'adresse `#AAAA-MM-JJ/journal` se partage.
   - Version complète inchangée pour l'usage local (`bmc-programmes-aam/semainier/`, mêmes fichiers, même page :
     `window.BMC_PUBLIC` n'y est pas défini). Republier : relancer le script puis commiter et pousser dans RBMIRC/week.
+- Corrections après relecture de Sylvain (2/11/2026) :
+  - la couche spéculative semblait perdue : la page s'ouvrait sur le 23 octobre 1944 (semaine entièrement attestée,
+    sans reconstitution) et l'emploi du temps reconstitué était replié. Le bloc 2 devient « Emploi du temps de la
+    semaine », ouvert, qui réunit les cours attestés (● en romain, grille horaire) et les cours reconstitués (en
+    italique, part déduite) ; ouverture sur le 27 mars 1944 ;
+  - semaine « très parcellaire » (31 août 1936) : le Journal montre désormais aussi les faits datés au mois ou à la
+    saison dont la période couvre la semaine (Duberman, Chronos, scénario ; ceux datés à l'année, repliés) ; les jours
+    vides consécutifs sont regroupés.
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

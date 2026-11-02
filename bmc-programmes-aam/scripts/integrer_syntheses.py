@@ -21,6 +21,25 @@ DEPOT = os.path.dirname(ROOT)
 SORTIE = os.path.join(ROOT, "scenario")
 CHAMPS_DOSSIER = ["nom", "autres_noms", "dates_de_vie", "statut_bmc", "presence", "arc_bmc", "avant", "apres",
                   "relations_cles", "contradictions_entre_sources", "questions_ouvertes", "citations"]
+# lieux du collège : clé canonique ← motifs (nom de la fiche du scénario, ou champ « lieu » d'une activité)
+LIEUX_BMC = [
+    ("Studies Building", r"studies building|pavillon d.etudes|batiment des etudes"),
+    ("Salle à manger (dining hall)", r"dining hall|salle a manger|refectoire"),
+    ("Lee Hall (Blue Ridge)", r"lee hall"),
+    ("Blue Ridge Assembly", r"blue ridge"),
+    ("Lake Eden (campus)", r"lake eden|lac eden|lac de black mountain|le lac"),
+    ("Quiet House", r"quiet house"),
+    ("Round House", r"round ?house|roundhouse"),
+    ("South Lodge", r"south lodge"), ("North Lodge", r"north lodge"),
+    ("Streamside", r"streamside"), ("Roadside", r"roadside"),
+    ("Community house", r"community house|maison commune"),
+    ("Ferme du collège", r"ferme (de bmc|du college|du black mountain|de doyle)|^la ferme|\bsilo\b|college farm|farm (of|at) (bmc|black mountain)"),
+    ("Atelier de céramique (pot shop)", r"pot ?shop|atelier de ceramique|pottery"),
+    ("Science building / laboratoire", r"science (building|lab)|laboratoire"),
+    ("Meadows Inn (Black Mountain)", r"meadows inn"),
+    ("Ma Peek's tavern", r"pe[ae]k.?s tavern"),
+    ("Village de Black Mountain", r"village de black mountain|town of black mountain|ville de black mountain"),
+]
 CHAMPS_MOIS = ["session", "situation", "presents_probables", "evenements", "quotidien", "tensions", "lacunes"]
 
 
@@ -137,6 +156,51 @@ def main():
                       "aam": k.get("statut", ""), "aam_cours": k.get("aam_cours", ""), "aam_per": k.get("aam_periode", "")})
         refs_utiles.add(c["id"])
 
+    # ---------------------------------------------------------------- lieux, conflits, œuvres, quotidien, idées
+    def annees(x):
+        a = x.get("ancrage") or {}
+        d0, d1 = str(a.get("debut") or ""), str(a.get("fin") or a.get("debut") or "")
+        return (int(d0[:4]) if d0[:4].isdigit() else None, int(d1[:4]) if d1[:4].isdigit() else None)
+    def dans(x, maxi):
+        y0, y1 = annees(x)
+        return y0 and y1 and y1 >= 1933 and y0 <= 1957 and y1 - y0 <= maxi, y0, y1
+    lieux = collections.defaultdict(list)
+    for x in S["fiches"]["lieux"]:
+        n = plat(x.get("nom", ""))
+        cle = next((k for k, rx in LIEUX_BMC if re.search(rx, n)), None)
+        y0, y1 = annees(x)
+        if not cle or (y0 and y0 > 1957) or (y1 and y1 < 1933): continue
+        lieux[cle].append({"id": x["id"], "nom": x.get("nom", ""), "per": x.get("periode") or "", "y0": y0, "y1": y1,
+                           "desc": x.get("description_physique") or "", "usages": x.get("usages") or "",
+                           "amb": x.get("ambiance") or "", "s": src_txt(x)})
+        refs_utiles.add(x["id"])
+    for v in lieux.values(): v.sort(key=lambda z: (z["y0"] or 0))
+    conflits, oeuvres, quotidien = [], [], []
+    for x in S["fiches"]["conflits"]:
+        ok, y0, y1 = dans(x, 3)
+        if not ok: continue
+        conflits.append({"id": x["id"], "t": x.get("titre", ""), "per": x.get("periode") or "", "y0": y0, "y1": y1,
+                         "camps": x.get("camps") or "", "enjeu": x.get("enjeu") or "", "der": x.get("deroule") or "",
+                         "issue": x.get("issue") or "", "s": src_txt(x)}); refs_utiles.add(x["id"])
+    for x in S["fiches"]["oeuvres"]:
+        ok, y0, y1 = dans(x, 2)
+        if not ok or not (x.get("lien_bmc") or "").strip(): continue
+        oeuvres.append({"id": x["id"], "t": x.get("titre", ""), "aut": x.get("auteur") or "", "date": x.get("date") or "",
+                        "y0": y0, "y1": y1, "tech": x.get("technique") or "", "desc": x.get("description") or "",
+                        "lien": x.get("lien_bmc") or "", "s": src_txt(x)}); refs_utiles.add(x["id"])
+    for x in S["fiches"]["quotidien"]:
+        ok, y0, y1 = dans(x, 2)
+        if not ok: continue
+        quotidien.append({"id": x["id"], "th": (x.get("theme") or "autre").replace("argement", "argent"), "per": x.get("periode") or "",
+                          "y0": y0, "y1": y1, "desc": x.get("description") or "", "s": src_txt(x)}); refs_utiles.add(x["id"])
+    nidees = 0
+    for x in S["fiches"]["idees"]:
+        if x.get("atteste_a_bmc") != "oui": continue
+        d = next((doss[k] for k in doss if nom_famille(k) == nom_famille(x.get("auteur")) and k[:1] == (x.get("auteur") or " ")[:1]), None)
+        if not d: continue
+        d.setdefault("idees", []).append({"id": x["id"], "idee": x.get("idee") or "", "classe": x.get("en_classe") or "",
+                                          "s": src_txt(x)}); refs_utiles.add(x["id"]); nidees += 1
+
     # ---------------------------------------------------------------- références
     refs = {}
     for r in sorted(refs_utiles):
@@ -148,13 +212,16 @@ def main():
 
     # ---------------------------------------------------------------- écriture
     base = os.path.join(SORTIE, num)
-    for suff, obj in (("chroniques_mois", chron), ("dossiers", doss), ("references", refs), ("cours", cours)):
+    for suff, obj in (("chroniques_mois", chron), ("dossiers", doss), ("references", refs), ("cours", cours),
+                      ("lieux", lieux), ("conflits", conflits), ("oeuvres", oeuvres), ("quotidien", quotidien)):
         json.dump(obj, open(f"{base}_{suff}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     with open(f"{base}_recoupement_presences.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rec[0].keys())); w.writeheader(); w.writerows(rec)
     with open(os.path.join(ROOT, "semainier", "data_syntheses.js"), "w", encoding="utf-8") as f:
         f.write(f"// généré par scripts/integrer_syntheses.py ({num}) — ne pas éditer à la main\n")
-        f.write("window.BMC_SYNTH = " + json.dumps({"numero": num, "chroniques": chron, "dossiers": doss, "refs": refs, "cours": cours},
+        f.write("window.BMC_SYNTH = " + json.dumps({"numero": num, "chroniques": chron, "dossiers": doss, "refs": refs, "cours": cours,
+                                                    "lieux": lieux, "lieux_motifs": LIEUX_BMC, "conflits": conflits,
+                                                    "oeuvres": oeuvres, "quotidien": quotidien},
                                                     ensure_ascii=False, separators=(",", ":")) + ";\n")
     C = collections.Counter
     pp = [r for r in rec if r["type"].startswith("présent")]
@@ -165,6 +232,9 @@ def main():
          f"- Chroniques mensuelles : {len(chron)} mois ({min(chron)} → {max(chron)}).",
          f"- Dossiers de personnages : {len(doss)} (champs factuels seulement : {', '.join(CHAMPS_DOSSIER)}).",
          f"- Références citées : {len(refs)} fiches ; introuvables dans le scénario : {introuv}.",
+         f"- Lieux du collège : {len(lieux)} lieux, {sum(len(v) for v in lieux.values())} fiches ; conflits (≤ 3 ans) : {len(conflits)} ; "
+         f"œuvres liées à BMC (≤ 2 ans) : {len(oeuvres)} ; vie quotidienne (≤ 2 ans) : {len(quotidien)} ; idées enseignées à BMC "
+         f"rattachées à un dossier : {nidees}.",
          f"- Cours enseignés à BMC selon les livres : {len(cours)} (" + ", ".join(f"{k or 'sans concordance'} {v}" for k, v in C(c['aam'] for c in cours).most_common()) + ").", "",
          "## Recoupement des présences", "",
          f"- « Présents probables » des chroniques : {len(pp)} mentions ; nommés le même mois dans l'AAM ou Duberman : "

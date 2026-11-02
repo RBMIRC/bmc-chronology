@@ -191,6 +191,7 @@ function garde(e) {
 }
 // vérification des sources : chargée à la demande (fichier lourd)
 let verifEnCours = null;
+const ficheOuverte = () => document.getElementById("voile").classList.contains("on");
 function chargerVerif() {
   if (window.BMC_VERIF) return Promise.resolve();
   return verifEnCours ||= new Promise((ok, ko) => { const sc = document.createElement("script"); sc.src = "verification.js";
@@ -214,6 +215,25 @@ function dossierDe(nom) {
   const w = nom.trim().split(/\s+/), c = IDX_DOSS[w[w.length - 1].toLowerCase()] || [];
   const m = c.filter(k => k[0] === nom[0]); return m.length === 1 ? m[0] : c.length === 1 && w.length === 1 ? c[0] : null;
 }
+// lieux du collège : même motif que scripts/integrer_syntheses.py (texte sans accents, minuscules)
+const platJS = t => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+function lieuDe(lieu) {
+  const Y = window.BMC_SYNTH; if (!Y || !Y.lieux_motifs || !lieu) return null;
+  const n = platJS(lieu), m = Y.lieux_motifs.find(([k, rx]) => new RegExp(rx).test(n));
+  return m && Y.lieux[m[0]] ? m[0] : null;
+}
+function ouvrirLieu(cle) {
+  const Y = window.BMC_SYNTH, l = Y.lieux[cle], rx = new RegExp(Y.lieux_motifs.find(m => m[0] === cle)[1]);
+  const ici = D.events.filter(e => rx.test(platJS(e.extendedProps.lieu))).map(e => e.start.slice(0, 10)).sort();
+  document.getElementById("fiche").innerHTML = `<button class="fermer" onclick="fermer()">fermer</button>
+    <h3>${esc(cle)}</h3><div class="legende">Lieu du collège selon les livres (fiches « lieux » du scénario, extraction automatique) ; cliquer une référence pour sa source.</div>
+    <div class="renvoi"><b>Recoupement</b> · ${ici.length ? `${ici.length} activité${ici.length > 1 ? "s" : ""} attestée${ici.length > 1 ? "s" : ""} à cet endroit dans l'AAM, du ${ici[0]} au ${ici[ici.length - 1]}` : "aucune activité AAM n'est située à cet endroit"}</div>
+    ${l.map(x => `<h4>${esc(x.nom)} <span class="legende">· ${esc(x.per || "période non donnée")}</span> <span class="ref" data-ref="${x.id}">${x.id}</span></h4>
+      ${x.desc ? `<div><i>Aspect.</i> ${esc(x.desc)}</div>` : ""}${x.usages ? `<div><i>Usages.</i> ${esc(x.usages)}</div>` : ""}${x.amb ? `<div><i>Ambiance.</i> ${esc(x.amb)}</div>` : ""}
+      <div class="legende">${esc(x.s)}</div>`).join("")}`;
+  document.getElementById("fiche").querySelectorAll(".ref").forEach(x => x.onclick = () => ouvrirRef(x.dataset.ref));
+  document.getElementById("voile").classList.add("on");
+}
 function ouvrirRef(r) {
   const x = (window.BMC_SYNTH || {}).refs?.[r]; if (!x) return;
   const v = window.BMC_VERIF && (BMC_VERIF["f" + r] || BMC_VERIF["s" + r]);
@@ -222,7 +242,7 @@ function ouvrirRef(r) {
     <dl><dt>Source</dt><dd>${esc(x.s)}</dd></dl>
     ${v ? blocVerif(r, { vkey: BMC_VERIF["f" + r] ? "f" + r : "s" + r, scenario: true }) : `<div class="verif legende">Vérification : ${window.BMC_VERIF ? "fiche non couverte par la dernière vérification" : "chargement…"}</div>`}`;
   document.getElementById("voile").classList.add("on");
-  if (!window.BMC_VERIF) chargerVerif().then(() => ouvrirRef(r));
+  if (!window.BMC_VERIF) chargerVerif().then(() => { if (ficheOuverte()) ouvrirRef(r); });
 }
 function ouvrirDossier(nom) {
   const k = dossierDe(nom), Y = window.BMC_SYNTH; if (!k) return;
@@ -238,6 +258,7 @@ function ouvrirDossier(nom) {
     ${d.relations_cles ? "<h4>Relations</h4>" + d.relations_cles.map(r => `<div class="cours"><b>${esc(r.avec)}</b> (${esc(r.nature || "")}) : ${esc(r.evolution || "")} ${refsHtml(r.refs)}</div>`).join("") : ""}
     ${d.contradictions_entre_sources ? "<h4>Contradictions entre sources</h4>" + d.contradictions_entre_sources.map(t => `<div class="cours">${esc(t)}</div>`).join("") : ""}
     ${d.questions_ouvertes ? "<h4>Questions ouvertes</h4>" + d.questions_ouvertes.map(t => `<div class="cours">${esc(t)}</div>`).join("") : ""}
+    ${d.idees ? `<h4>Idées enseignées à Black Mountain (${d.idees.length})</h4><details><summary>afficher</summary>` + d.idees.map(i => `<div class="cours">${esc(i.idee)} <span class="ref" data-ref="${i.id}">${i.id}</span>${i.classe ? `<br><span class="legende">En classe : ${esc(i.classe)}</span>` : ""}<br><span class="legende">${esc(i.s)}</span></div>`).join("") + "</details>" : ""}
     ${d.citations ? "<h4>Citations</h4>" + refsHtml(d.citations) : ""}`;
   document.getElementById("fiche").querySelectorAll(".ref").forEach(x => x.onclick = () => ouvrirRef(x.dataset.ref));
   document.getElementById("voile").classList.add("on");
@@ -377,6 +398,25 @@ function cote(debut, fin) {
         ${pp.length ? `<p><b>Présents probables</b> <span class="legende">(✓ = nommé ce mois-ci dans l'AAM ou Duberman)</span><br>` + pp.map(p => `<span class="pp ${p.confirme ? "ok" : "non"}" title="${esc(p.certitude || "")}${p.confirme ? " · confirmé : " + esc(p.confirme) : " · non confirmé ce mois-ci"}">${esc(p.nom)}</span>`).join("") + "</p>" : ""}
         <details><summary>quotidien, tensions, lacunes</summary>${c.quotidien ? `<p>${esc(c.quotidien)}</p>` : ""}${(c.tensions || []).map(t => `<p>· ${esc(t)}</p>`).join("")}${c.lacunes ? `<p><i>Lacunes : ${esc(c.lacunes)}</i></p>` : ""}</details></div>`;
     }
+    const Y = BMC_SYNTH, mid = new Date((debut.getTime() + fin.getTime()) / 2), yy = mid.getFullYear();
+    const a0s = mid.getMonth() >= 8 ? yy : yy - 1;          // année scolaire a0-(a0+1)
+    const carteR = (x, corps) => `<div class="cours">${corps} <span class="ref" data-ref="${x.id}">${x.id}</span><br><span class="legende">${esc(x.s)}</span></div>`;
+    const cf = (Y.conflits || []).filter(x => x.y0 <= yy && x.y1 >= yy);
+    if (cf.length) {
+      const c1 = cf.filter(x => x.y1 - x.y0 <= 1), c2 = cf.filter(x => x.y1 - x.y0 > 1);
+      const carteC = x => carteR(x, `<b>${esc(x.t)}</b> <span class="q">· ${esc(x.per)}</span>${x.camps ? `<br><i>Camps.</i> ${esc(x.camps)}` : ""}${x.enjeu ? `<br><i>Enjeu.</i> ${esc(x.enjeu)}` : ""}${x.der ? `<br><i>Déroulé.</i> ${esc(x.der)}` : ""}${x.issue ? `<br><i>Issue.</i> ${esc(x.issue)}` : ""}`);
+      h += `<h2>Conflits en ${yy} selon les livres (${cf.length})</h2><details><summary>${c1.length} datés de ${yy} (ou ${yy}-${yy + 1})</summary>${c1.map(carteC).join("")}</details>` +
+        (c2.length ? `<details><summary>${c2.length} sur plusieurs années</summary>${c2.map(carteC).join("")}</details>` : "");
+    }
+    const qu = (Y.quotidien || []).filter(x => x.y0 <= a0s + 1 && x.y1 >= a0s);
+    if (qu.length) {
+      const th = {}; qu.forEach(x => (th[x.th] ||= []).push(x));
+      h += `<h2>Vie quotidienne ${a0s}-${String((a0s + 1) % 100).padStart(2, "0")} selon les livres (${qu.length})</h2>` +
+        Object.entries(th).sort((a, b) => b[1].length - a[1].length).map(([t, l]) => `<details><summary>${esc(t.replace(/_/g, " "))} (${l.length})</summary>${l.map(x => carteR(x, `<span class="q">${esc(x.per)}</span> ${esc(x.desc)}`)).join("")}</details>`).join("");
+    }
+    const oe = (Y.oeuvres || []).filter(x => x.y0 <= yy && x.y1 >= yy);
+    if (oe.length) h += `<h2>Œuvres liées à BMC en ${yy} selon les livres (${oe.length})</h2><details><summary>afficher</summary>` +
+      oe.map(x => carteR(x, `<b>${esc(x.t)}</b> <span class="q">· ${esc(x.aut)} · ${esc(x.date || "")}</span>${x.tech ? `<br>${esc(x.tech)}` : ""}${x.desc ? `<br>${esc(x.desc)}` : ""}<br><i>Lien avec BMC.</i> ${esc(x.lien)}`)).join("") + "</details>";
   } else if (etat.scen && window.BMC_SYNTH === undefined) chargerSynth().then(() => { const v = ec.getView(); cote(v.currentStart, v.currentEnd); });
   h += `<h2>${evs.length} activité${evs.length > 1 ? "s" : ""} sur ces dates</h2>`;
   const cpt = {};
@@ -477,7 +517,7 @@ function fiche(ev) {
     <div>${fmt(d)}${p.heure ? " · " + esc(p.heure) : ""}${p.fin ? "–" + esc(p.fin) : ""} · ${esc(p.type)}</div>
     <dl>
       ${ligne("Qui", esc(p.qui))}
-      ${ligne("Lieu", esc(p.lieu))}
+      ${ligne("Lieu", esc(p.lieu) + (lieuDe(p.lieu) ? ` <span class="dossier-lien" onclick="ouvrirLieu('${esc(lieuDe(p.lieu)).replace(/'/g, "\\'")}')" title="ce lieu selon les livres">ⓘ ${esc(lieuDe(p.lieu))}</span>` : ""))}
       ${ligne("Note", esc(p.note))}
       ${ligne("Part déduite", pctTag(p.pct) + " " + esc(p.motifs))}
       ${ligne("Récurrence", p.rec ? "occurrence calculée à partir d'une récurrence (grille, « chaque lundi »…)" : "")}
@@ -503,7 +543,7 @@ function fiche(ev) {
       ${doc && doc.img ? ligne("Vue", `<a href="${esc(urls[0])}" target="_blank"><img src="${esc(doc.img)}" style="max-width:220px;border:1px solid #ddd"></a>`) : ""}
     </dl>${blocVerif(ev.id, p)}`;
   document.getElementById("voile").classList.add("on");
-  if (!window.BMC_VERIF) chargerVerif().then(() => { if (document.getElementById("verifBloc")) fiche(ev); });
+  if (!window.BMC_VERIF) chargerVerif().then(() => { if (ficheOuverte() && document.getElementById("verifBloc")) fiche(ev); });
 }
 function analyse(k) {
   const md = ((D.spec || {})[k] || {}).analyse; if (!md) return;

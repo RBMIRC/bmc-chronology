@@ -147,6 +147,16 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
   panneau « Cours de AAAA-AA selon les livres », avec la concordance AAM (`scenario/001_cours_scenario.csv`) et la
   référence vérifiable ; sorties `scenario/003_*` (002 conservé), vérification `programme/audit/003_*`.
 
+## Étape 7 — lieux, conflits, vie quotidienne, œuvres, idées (2/11/2026)
+- `integrer_syntheses.py` (sorties `scenario/004_*`) : 18 lieux du collège (407 fiches), 509 conflits (≤ 3 ans),
+  1 256 fiches de vie quotidienne (≤ 2 ans, 22 thèmes), 1 108 œuvres liées à BMC (≤ 2 ans), 784 idées enseignées à BMC
+  rattachées aux dossiers. Écartés : échos (flash-back du scénario), relations (déjà dans les dossiers), œuvres sans lien
+  avec BMC, fiches couvrant plus de 2 ou 3 ans.
+- Semainier : « ⓘ » sur le lieu d'une activité → dossier du lieu, avec le nombre d'activités AAM situées là ; panneau :
+  conflits de l'année, vie quotidienne par thème, œuvres ; dossiers : idées enseignées.
+- Vérification `programme/audit/004_*` : 11 565 fiches citées, 81 % retrouvées (6 % au hasard), 3 sans page.
+- Correctif : une fiche fermée pendant le chargement de la vérification ne se rouvre plus.
+
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le
 corpus pour ces années ; tous les horaires sont supposés et codés comme tels).

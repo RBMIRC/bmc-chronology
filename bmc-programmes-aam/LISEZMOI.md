@@ -61,7 +61,9 @@ Source : collection.ashevilleart.org (fonds Theodore Dreier Sr. 2017.40.*, etc.)
   dossier du personnage (présence, moments, relations, contradictions, questions ouvertes) avec, en regard, ses
   activités attestées (AAM, Duberman). Les portraits psychologiques ne sont pas repris ; une présence marquée
   « inventée pour le récit » est écartée. Panneau « Cours de AAAA-AA selon les livres » : fiches « cours » du scénario
-  (contenu, concordance avec les cours AAM, référence vérifiable) ; les cours datés sur plus de deux ans sont repliés.
+  (contenu, concordance avec les cours AAM, référence vérifiable) ; les cours datés sur plus de deux ans sont repliés. Lieux du collège (motifs `LIEUX_BMC` du script) : « ⓘ » après le lieu
+  d'une activité ouvre le dossier du lieu selon les livres, avec le nombre d'activités AAM situées là. Panneau : conflits
+  de l'année, vie quotidienne de l'année scolaire par thème, œuvres liées à BMC ; dossiers : idées enseignées à BMC.
   Ajouter des documents datés (photos, lettres d'autres fonds) : une ligne dans `semainier/documents_extra.csv`
   (date, titre, url, image, type, datation, source, part_deduite_pct, inventaire), puis relancer le script.
 - **Couche spéculative** (semaines reconstituées là où aucun document ne donne le programme) :

@@ -160,7 +160,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 ## Étape 8 — dossier Chronos (DATA_BMC/Chronos, versé le 2/11/2026), JSON un par un
 Inventaire : extractions automatiques de décembre 2025 (GPT-4o pour la ferme). Sources de base, traitées une à une :
 1. `asheville_events.json` (377 fiches du musée) — **fait**
-2. `harris_events.json` (165 entretiens de Mary Emma Harris) — à faire
+2. `harris_events.json` (165 entretiens de Mary Emma Harris) — **fait**
 3. `farm_events.json` (Silver, The Farm at BMC) — à faire
 4. `bmc_chronology.json` (Duberman, « Chronos 2 ») — à faire
 5. `BlackMountainPeople.txt` (1 299 personnes, rôles, années) — à faire
@@ -175,6 +175,17 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   (absents de l'audit datés au jour, documents hors corpus), à relire ; rien n'est ajouté au programme attesté.
 - Exemples : visite de Frank Porter Graham datée par Chronos du jour du bulletin (« Wednesday of last week » : l'AAM a
   le 30 mai 1945) ; départ de Kenneth Kurtz pour Yale (2017.40.173a-c) absent de notre extraction : oubli probable.
+
+### 8.2 harris_events.json
+- `scripts/chronos_harris.py` → `chronos/002_harris_*` (recoupement, cours, incertains, couche, rapport).
+- 715 faits : citation retrouvée telle quelle dans la transcription 684, en partie 26, introuvable 3, vide 2.
+- Recoupement : confirmés le même jour ou mois 4 (AAM 3, Duberman 1) ; présence de la personne attestée dans la
+  période 215 ; non confirmés 417 ; dates illisibles 79 (« uncertain »). Dates surtout à l'année ou à la saison
+  (22 au jour).
+- Couche Chronos : 565 souvenirs (témoignage oral recueilli 20 à 60 ans après, +10) ; l'extrait de la fiche montre la
+  citation dans la transcription (548/563 contrôlés).
+- 300 cours cités : 187 titre et enseignant dans l'AAM, 16 enseignant cette année-là, 97 absents de l'AAM.
+- 271 faits jugés incertains par l'extraction : `chronos/002_harris_incertains.csv` (hors couche).
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

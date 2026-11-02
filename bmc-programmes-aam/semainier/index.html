@@ -84,6 +84,10 @@
   .pp { display:inline-block; font-size:11.5px; margin:1px 4px 1px 0; }
   .pp.ok::after { content:" ✓"; color:#2f5a25; } .pp.non { color:var(--gris); }
   .dossier-lien { font-size:10px; color:#8b3a6b; cursor:pointer; margin-left:1px; }
+  /* couche Chronos (extractions automatiques de décembre 2025 : fiches du musée, entretiens Harris, ferme) */
+  .ec-event.chr { border-left:4px dashed #3d4a12; }
+  .fam i.ichr { background:#6b7a1f; border-left:3px dashed #3d4a12; }
+  .chrp { font-size:12px; margin:5px 0; padding:3px 6px; border-left:3px dashed #6b7a1f; background:#f3f5e8; cursor:pointer; }
   .renvoi.rs { border-left:3px dotted #8b3a6b; background:#f8f1f5; }
   .renvoi { border-left:3px solid #1f7f7f; padding:2px 6px; margin:3px 0; background:#f3f8f8; }
   .reconst { background:#fff; border:1.5px dashed var(--gris); padding:8px 10px; font-size:12.5px; margin:6px 0; }
@@ -126,6 +130,7 @@
   <label class="fam" title="Semaines reconstituées à partir de sources indirectes"><input type="checkbox" id="spec" checked><i class="ispec"></i>Couche spéculative</label>
   <label class="fam" title="Événements tirés de Duberman, Black Mountain: An Exploration in Community (1972) ; les doublons avec l'AAM sont fondus dans la ligne AAM"><input type="checkbox" id="dub" checked><i class="idub"></i>Duberman</label>
   <label class="fam" title="N'afficher que les entrées dont la source citée a été ouverte et contient les témoins de l'entrée (scripts/verifier_sources.py)"><input type="checkbox" id="verifSeul">Retrouvées seulement</label>
+  <label class="fam" title="Chronos : extractions automatiques (décembre 2025) des fiches du musée, des entretiens de Mary Emma Harris et du livre sur la ferme ; seulement ce que l'AAM et Duberman n'ont pas déjà, à relire"><input type="checkbox" id="chr" checked><i class="ichr"></i>Chronos</label>
   <label class="fam" title="Événements et scènes du scénario (extraction automatique, non relue, de 60 livres : bmc-scenario) ; les faits déjà dans l'AAM ou Duberman y sont fondus en renvoi"><input type="checkbox" id="scen" checked><i class="iscen"></i>Scénario</label>
 </header>
 <main>
@@ -137,6 +142,7 @@
 <script src="lib/event-calendar.min.js"></script>
 <script src="data.js"></script>
 <script src="data_scenario.js"></script>
+<script src="data_chronos.js"></script>
 <script>
 const D = window.BMC;
 const FAMILLES = [
@@ -150,8 +156,10 @@ const FAMILLES = [
 const FAM_DE = {}; FAMILLES.forEach(f => f[3].forEach(t => FAM_DE[t] = f));
 const DUB_COULEUR = "#1f7f7f";
 const SCEN_COULEUR = "#8b3a6b";
+const CHR = window.BMC_CHRONOS || { grille: [], panneau: [], personnes: {} };
+const CHR_COULEUR = "#6b7a1f";
 const SC = window.BMC_SCEN || { grille: [], panneau: [], renvois: {}, personnes: {} };
-const etat = { familles: new Set(FAMILLES.map(f => f[0])), maxPct: 100, q: "", spec: true, dub: true, scen: !!window.BMC_SCEN };
+const etat = { familles: new Set(FAMILLES.map(f => f[0])), maxPct: 100, q: "", spec: true, dub: true, scen: !!window.BMC_SCEN, chr: !!window.BMC_CHRONOS };
 const teinte = (hex, k) => { const n = parseInt(hex.slice(1), 16), c = [n >> 16, (n >> 8) & 255, n & 255].map(v => Math.round(v + (255 - v) * k)); return `rgb(${c.join(",")})`; };
 
 D.events.forEach(e => {
@@ -166,6 +174,11 @@ D.duberman.concat(D.duberman_panneau).forEach(e => {
   e.backgroundColor = DUB_COULEUR; e.extendedProps.fam = f[0];
   e._txt = (e.title + " " + e.extendedProps.qui + " " + e.resourceIds.join(" ") + " " + e.extendedProps.lieu + " duberman").toLowerCase();
 });
+CHR.grille.concat(CHR.panneau).forEach(e => {
+  const f = FAM_DE[e.extendedProps.type] || FAMILLES[4];
+  e.backgroundColor = CHR_COULEUR; e.extendedProps.fam = f[0];
+  e._txt = (e.title + " " + e.extendedProps.qui + " " + e.resourceIds.join(" ") + " chronos " + e.extendedProps.source_chronos).toLowerCase();
+});
 SC.grille.concat(SC.panneau).forEach(e => {
   const f = FAM_DE[e.extendedProps.type] || FAMILLES[4];
   e.backgroundColor = SCEN_COULEUR; e.extendedProps.fam = f[0];
@@ -175,6 +188,7 @@ SC.grille.concat(SC.panneau).forEach(e => {
 D.events.concat(D.duberman).forEach(e => { const r = SC.renvois[e.id]; if (r) e.extendedProps.scen = r; });
 // personnes du scénario absentes des ressources (vue Présences)
 { const connus = new Set(D.resources.flatMap(g => g.children.map(c => c.id)));
+  Object.entries(CHR.personnes).forEach(([q, n]) => { if (!connus.has(q)) { connus.add(q); D.resources[q === "(non nommé)" ? 1 : 0].children.push({ id: q, title: q, extendedProps: { n } }); } });
   Object.entries(SC.personnes).forEach(([q, n]) => { if (!connus.has(q)) D.resources[q === "(non nommé)" ? 1 : 0].children.push({ id: q, title: q, extendedProps: { n } }); }); }
 const JOURS = [...new Set(D.events.map(e => e.start.slice(0, 10)))].sort();
 
@@ -269,6 +283,7 @@ const ST_TEXTE = { "retrouvé": "les témoins de l'entrée (noms, mots du titre,
   "à relire": "le texte cité est ouvert mais rien n'y est retrouvé automatiquement (traduction, paraphrase, OCR) : à relire",
   "référence introuvable": "la référence citée n'existe pas dans les textes du dépôt", "sans source": "aucune source indiquée" };
 function blocVerif(id, p) {
+  if (p.verif) { const sauve = window.BMC_VERIF; window.BMC_VERIF = { __: p.verif }; const h = blocVerif("__", { url: p.url, chronos: true }); window.BMC_VERIF = sauve; return h; }
   if (!window.BMC_VERIF) return `<div class="verif" id="verifBloc"><b>Vérifier dans la source</b> · chargement…</div>`;
   const v = BMC_VERIF[cleVerif(id, p)];
   if (!v) return `<div class="verif"><b>Vérifier dans la source</b> · <span class="legende">entrée non couverte par la dernière vérification (relancer scripts/verifier_sources.py)</span></div>`;
@@ -277,7 +292,7 @@ function blocVerif(id, p) {
   const txt = esc(ex).replace(/\x01/g, "<mark>").replace(/\x02/g, "</mark>");
   return `<div class="verif"><b>Vérifier dans la source</b> <span class="st ${ST_CLASSE[st] || "relire"}">${esc(st)}</span>${lien}
     <div class="legende">${esc(ST_TEXTE[st] || "")}${note ? " · " + esc(note) : ""}</div>
-    ${ex ? `<div class="ext">${txt}</div><div class="legende">Extrait du texte cité (${p.duberman ? "Duberman, texte corrigé" : p.scenario ? "livre, page citée" : p.spec ? "document cité par le gabarit" : "OCR de la fiche du musée"}) ; surligné : ce qui a été retrouvé.</div>` : ""}</div>`;
+    ${ex ? `<div class="ext">${txt}</div><div class="legende">Extrait du texte cité (${p.chronos ? "texte du document dans le dossier Chronos" : p.duberman ? "Duberman, texte corrigé" : p.scenario ? "livre, page citée" : p.spec ? "document cité par le gabarit" : "OCR de la fiche du musée"}) ; surligné : ce qui a été retrouvé.</div>` : ""}</div>`;
 }
 const JOURS_ABR = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"];
 const plusJours = (s, n) => { const x = new Date(s + "T12:00"); x.setDate(x.getDate() + n); return iso(x); };
@@ -317,7 +332,8 @@ function evenementsEntre(a, b) {
   const dans = e => { const d = e.start.slice(0, 10); return d >= a && d < b && garde(e); };
   const dub = etat.dub ? D.duberman.filter(e => { const d = e.start.slice(0, 10), f = e.allDay ? e.end.slice(0, 10) : plusJours(d, 1); return d < b && f > a && garde(e); }) : [];
   const scen = etat.scen ? SC.grille.filter(e => { const d = e.start.slice(0, 10), f = e.allDay ? e.end.slice(0, 10) : plusJours(d, 1); return d < b && f > a && garde(e); }) : [];
-  return D.events.filter(dans).concat(dub, scen, specEntre(a, b));
+  const chr = etat.chr ? CHR.grille.filter(e => { const d = e.start.slice(0, 10), f = e.allDay ? e.end.slice(0, 10) : plusJours(d, 1); return d < b && f > a && garde(e); }) : [];
+  return D.events.filter(dans).concat(dub, scen, chr, specEntre(a, b));
 }
 
 // ---- calendrier
@@ -345,6 +361,7 @@ const ec = EventCalendar.create(document.getElementById("cal"), {
     if (p.spec) c.push("spec"); else if (p.pct >= 30) c.push("d-haut"); else if (p.pct >= 10) c.push("d-mid");
     if (p.duberman) c.push("dub");
     if (p.scenario) c.push("scen");
+    if (p.chronos) c.push("chr");
     if (p.placement && p.placement.startsWith("«")) c.push("approx");
     return c;
   },
@@ -353,6 +370,7 @@ const ec = EventCalendar.create(document.getElementById("cal"), {
     const h = p.heure ? (/^\d/.test(p.heure) ? p.heure + " " : `[${p.heure}] `) : "";
     const b = p.pct ? `<span class="ev-b">${p.spec ? "spéc. " : ""}${p.pct} %</span>` : "";
     if (p.duberman) return { html: `<div class="ec-event-title">${esc(h)}<b>D.</b> ${esc(info.event.title)}${b}</div>` };
+    if (p.chronos) return { html: `<div class="ec-event-title">${esc(h)}<b>C.</b> ${esc(info.event.title)}${b}</div>` };
     if (p.scenario) return { html: `<div class="ec-event-title">${esc(h)}<b>S.</b> ${esc(info.event.title)}${b}</div>` };
     return { html: `<div class="ec-event-title">${esc(h)}${esc(info.event.title)}${b}</div>` };
   },
@@ -435,6 +453,11 @@ function cote(debut, fin) {
       court.map(ligneDub).join("") +
       (long.length ? `<details><summary>${long.length} daté${long.length > 1 ? "s" : ""} à l'année ou sur plusieurs années</summary>${long.map(ligneDub).join("")}</details>` : "");
   }
+  if (etat.chr) {
+    const cp = CHR.panneau.filter(e => e.start < b && e.fin_periode >= a && garde(e));
+    if (cp.length) h += `<h2>Chronos : ${cp.length} entrée${cp.length > 1 ? "s" : ""} datées au mois ou plus</h2>` +
+      cp.map(e => `<div class="chrp" data-k="${CHR.panneau.indexOf(e)}">${esc(e.title)} <span class="legende">· ${esc(e.extendedProps.date_src)} · ${esc(e.extendedProps.source_chronos)}</span> ${pctTag(e.extendedProps.pct)}</div>`).join("");
+  }
   if (etat.scen) {
     const duree = e => (new Date(e.fin_periode) - new Date(e.start)) / 864e5;
     const sp = SC.panneau.filter(e => e.start < b && e.fin_periode >= a && garde(e));
@@ -494,6 +517,8 @@ function cote(debut, fin) {
   el.innerHTML = h;
   const la = el.querySelector("#lireAnalyse");
   if (la) la.onclick = ev => { ev.preventDefault(); analyse(la.dataset.k); };
+  el.querySelectorAll(".chrp").forEach(x => x.onclick = () => { const e = CHR.panneau[+x.dataset.k];
+    fiche({ id: e.id, title: e.title, start: new Date(e.start + "T12:00"), extendedProps: e.extendedProps }); });
   el.querySelectorAll(".scenp").forEach(x => x.onclick = () => { const e = SC.panneau[+x.dataset.k];
     fiche({ id: e.id, title: e.title, start: new Date(e.start + "T12:00"), extendedProps: e.extendedProps }); });
   el.querySelectorAll(".dubp").forEach(x => x.onclick = () => { const e = D.duberman_panneau[+x.dataset.k];
@@ -533,6 +558,7 @@ function fiche(ev) {
       ${p.duberman ? ligne("Source", `${esc(p.src)}<br><span class="legende">chapitre ${esc(p.chapitre)} · p. ${esc(p.page)} · ${esc(p.paragraphe)}</span>`) : p.scenario ? "" : ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
       ${p.duberman && p.notes ? ligne("Notes de Duberman", `<details><summary>source primaire citée</summary>${esc(p.notes)}</details>`) : ""}
       ${p.duberman && p.aam && p.aam.length ? ligne("Même jour (AAM)", p.aam.map(r => `<div class="renvoi">rapprochement possible : ${esc(r.activite)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span></div>`).join("")) : ""}
+      ${p.chronos ? ligne("Couche", `<b>Chronos</b> · ${esc(p.source_chronos)} · extraction automatique de décembre 2025, à relire · ${esc(p.statut)} · date dans la source : ${esc(p.date_src)}`) : ""}
       ${p.scenario ? ligne("Couche", `<b>Scénario</b> : ${p.categorie === "scene" ? "scène" : "événement"} extrait automatiquement d'un livre (non relu) · certitude : ${esc(p.certitude)} · date dans le scénario : ${esc(p.date_scen)}`) : ""}
       ${p.scenario ? ligne("Source", esc(p.src)) : ""}
       ${p.scenario && p.versions ? ligne("Autres versions", `<details><summary>selon d'autres livres</summary><span class="legende">${esc(p.versions)}</span></details>`) : ""}
@@ -543,7 +569,7 @@ function fiche(ev) {
       ${doc && doc.img ? ligne("Vue", `<a href="${esc(urls[0])}" target="_blank"><img src="${esc(doc.img)}" style="max-width:220px;border:1px solid #ddd"></a>`) : ""}
     </dl>${blocVerif(ev.id, p)}`;
   document.getElementById("voile").classList.add("on");
-  if (!window.BMC_VERIF) chargerVerif().then(() => { if (ficheOuverte() && document.getElementById("verifBloc")) fiche(ev); });
+  if (!window.BMC_VERIF && !p.verif) chargerVerif().then(() => { if (ficheOuverte() && document.getElementById("verifBloc")) fiche(ev); });
 }
 function analyse(k) {
   const md = ((D.spec || {})[k] || {}).analyse; if (!md) return;
@@ -583,6 +609,8 @@ let tq; qEl.oninput = () => { clearTimeout(tq); tq = setTimeout(() => { etat.q =
 document.getElementById("spec").onchange = e => { etat.spec = e.target.checked; maj(); };
 document.getElementById("dub").onchange = e => { etat.dub = e.target.checked; maj(); };
 document.getElementById("scen").onchange = e => { etat.scen = e.target.checked; maj(); };
+document.getElementById("chr").onchange = e => { etat.chr = e.target.checked; maj(); };
+if (!window.BMC_CHRONOS) document.getElementById("chr").closest("label").style.display = "none";
 document.getElementById("verifSeul").onchange = e => { etat.verifSeul = e.target.checked; if (etat.verifSeul) chargerVerif().then(maj); else maj(); };
 if (!window.BMC_SCEN) document.getElementById("scen").closest("label").style.display = "none";
 document.getElementById("maxPct").onchange = e => { etat.maxPct = +e.target.value; maj(); };

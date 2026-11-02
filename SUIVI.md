@@ -157,6 +157,25 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 - Vérification `programme/audit/004_*` : 11 565 fiches citées, 81 % retrouvées (6 % au hasard), 3 sans page.
 - Correctif : une fiche fermée pendant le chargement de la vérification ne se rouvre plus.
 
+## Étape 8 — dossier Chronos (DATA_BMC/Chronos, versé le 2/11/2026), JSON un par un
+Inventaire : extractions automatiques de décembre 2025 (GPT-4o pour la ferme). Sources de base, traitées une à une :
+1. `asheville_events.json` (377 fiches du musée) — **fait**
+2. `harris_events.json` (165 entretiens de Mary Emma Harris) — à faire
+3. `farm_events.json` (Silver, The Farm at BMC) — à faire
+4. `bmc_chronology.json` (Duberman, « Chronos 2 ») — à faire
+5. `BlackMountainPeople.txt` (1 299 personnes, rôles, années) — à faire
+Dérivés (inventoriés seulement, pour ne pas compter deux fois) : `bmc_chronology_{enriched,final,complete,ultimate,
+wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.json`, `bmc_series_bible.json`,
+`*_temp.json`, `people_enrichments.json`, `wikipedia_*.json`. Les scripts d'origine ne sont pas versés (clé d'API).
+
+### 8.1 asheville_events.json
+- `scripts/chronos_asheville.py` (+ `scripts/chronos_commun.py`) → `bmc-programmes-aam/chronos/001_asheville_*`.
+- 1906 événements : confirmé 1120, absent de l'AAM 331, confirmé par un autre document AAM 172, confirmé (calendrier) 107, document hors corpus 105, date différente 51, date illisible 18, confirmé par Duberman 2.
+- Couche « Chronos » du semainier (`semainier/data_chronos.js`, case « Chronos », olive, « C. ») : 215 entrées
+  (absents de l'audit datés au jour, documents hors corpus), à relire ; rien n'est ajouté au programme attesté.
+- Exemples : visite de Frank Porter Graham datée par Chronos du jour du bulletin (« Wednesday of last week » : l'AAM a
+  le 30 mai 1945) ; départ de Kenneth Kurtz pour Yale (2017.40.173a-c) absent de notre extraction : oubli probable.
+
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le
 corpus pour ces années ; tous les horaires sont supposés et codés comme tels).

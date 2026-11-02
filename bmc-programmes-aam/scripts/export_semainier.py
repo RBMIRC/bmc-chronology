@@ -168,6 +168,38 @@ def scenario():
                                                 "certitude": "", "date": r["date"], "decision": "même jour, même personne"})
     return {"fichier": fs[-1], "grille": grille, "panneau": panneau, "renvois": renvois, "personnes": res}
 
+def chronos():
+    """Couche « Chronos » : chronos/NNN_<source>_couche.csv (scripts/chronos_*.py), la plus récente de chaque source,
+    écrite dans semainier/data_chronos.js. Chaque entrée porte sa vérification (statut, extrait du texte cité)."""
+    d = os.path.join(ROOT, "chronos")
+    if not os.path.isdir(d): return None
+    dernier = {}
+    for f in sorted(os.listdir(d)):
+        m = re.fullmatch(r"(\d{3})_(\w+?)_couche\.csv", f)
+        if m: dernier[m.group(2)] = f
+    grille, panneau, res = [], [], {}
+    for src, f in sorted(dernier.items()):
+        for e in lire(os.path.join(d, f)):
+            qui = personnes(e["qui"]) or ["(non nommé)"]
+            x = {"id": e["id"], "title": e["activite"], "resourceIds": qui,
+                 "extendedProps": {"type": e["type"], "qui": e["qui"], "lieu": e["lieu"], "note": e["note"],
+                                   "pct": int(e["part_deduite_pct"]), "motifs": e["motifs_deduction"], "rec": False,
+                                   "src": e["document_source"], "inv": e["inventaire"], "url": e["url_source"],
+                                   "heure": SCEN_MOMENT.get(e["precision"], ""), "fin": "", "chronos": True,
+                                   "source_chronos": e["source_chronos"], "statut": e["statut"], "precision": e["precision"],
+                                   "date_src": e["date_source"], "verif": [e["verif_statut"], e["verif_extrait"], ""]}}
+            fin = e["date_fin"] or e["date"]
+            dur = (dt.date.fromisoformat(fin) - dt.date.fromisoformat(e["date"])).days
+            if e["precision"] in SCEN_GRILLE or (e["precision"] in ("plage", "semaine") and dur <= 14):
+                placer(x, e["date"], SCEN_MOMENT.get(e["precision"], ""), "", e["date_fin"] if e["precision"] in ("plage", "semaine") else "")
+                for q in qui: res[q] = res.get(q, 0) + 1
+                grille.append(x)
+            else:
+                x["start"], x["fin_periode"] = e["date"], fin
+                x["extendedProps"]["placement"] = f"date « {e['precision']} » : listé dans le panneau, pas dans la grille"
+                panneau.append(x)
+    return {"fichiers": dernier, "grille": grille, "panneau": panneau, "personnes": res}
+
 def refs():
     """inventaire -> date établie (#ref) depuis extraction/."""
     d = {}
@@ -289,6 +321,13 @@ def main():
             f.write("window.BMC_SCEN = " + json.dumps(sc, ensure_ascii=False, separators=(",", ":")) + ";\n")
         print(f"semainier/data_scenario.js : {len(sc['grille'])} entrées du scénario dans la grille, {len(sc['panneau'])} au panneau, "
               f"{sum(len(v) for v in sc['renvois'].values())} renvois vers {len(sc['renvois'])} fiches AAM ou Duberman")
+    ch = chronos()
+    if ch:
+        with open(os.path.join(SEM, "data_chronos.js"), "w", encoding="utf-8") as f:
+            f.write("// généré par scripts/export_semainier.py depuis chronos/ — ne pas éditer à la main\n")
+            f.write("window.BMC_CHRONOS = " + json.dumps(ch, ensure_ascii=False, separators=(",", ":")) + ";\n")
+        print(f"semainier/data_chronos.js : {len(ch['grille'])} entrées Chronos dans la grille, {len(ch['panneau'])} au panneau "
+              f"({', '.join(ch['fichiers'].values())})")
     with open(os.path.join(SEM, "data.js"), "w", encoding="utf-8") as f:
         f.write("// généré par scripts/export_semainier.py — ne pas éditer à la main\n")
         f.write("window.BMC = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n")

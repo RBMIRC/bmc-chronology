@@ -64,6 +64,10 @@ Source : collection.ashevilleart.org (fonds Theodore Dreier Sr. 2017.40.*, etc.)
   (contenu, concordance avec les cours AAM, référence vérifiable) ; les cours datés sur plus de deux ans sont repliés. Lieux du collège (motifs `LIEUX_BMC` du script) : « ⓘ » après le lieu
   d'une activité ouvre le dossier du lieu selon les livres, avec le nombre d'activités AAM situées là. Panneau : conflits
   de l'année, vie quotidienne de l'année scolaire par thème, œuvres liées à BMC ; dossiers : idées enseignées à BMC.
+  **Couche Chronos** (2/11/2026) : sources du dossier `../DATA_BMC/Chronos` (extractions automatiques de décembre 2025),
+  traitées une à une par `scripts/chronos_*.py` → `chronos/NNN_<source>_recoupement.csv`, `_rapport.md`, `_couche.csv`.
+  Chaque événement est confronté au texte de sa source et aux couches existantes ; seul ce qui manque à l'AAM et à
+  Duberman va dans la couche « Chronos » du semainier (`semainier/data_chronos.js`), avec sa vérification embarquée.
   Ajouter des documents datés (photos, lettres d'autres fonds) : une ligne dans `semainier/documents_extra.csv`
   (date, titre, url, image, type, datation, source, part_deduite_pct, inventaire), puis relancer le script.
 - **Couche spéculative** (semaines reconstituées là où aucun document ne donne le programme) :

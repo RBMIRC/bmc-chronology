@@ -1,0 +1,34 @@
+# Concordance des cours 1954-55 → gabarits de l'année reconstituée (fin du Summer Quarter 1954 et Fall Quarter 1954).
+#
+# Sources :
+#   2017.40.051 (Bulletin, hiver 1953-54) : Fall Quarter 1954-55 du 20 septembre au 4 décembre 1954 ; revue mensuelle
+#   2017.40.324 (Summer Quarter 1954, du 21 juin au 4 septembre) : unités de l'été reprises pour le 1er-4 septembre
+#   Duberman, ch. 14 (¶1764-1786) : cours du soir de Creeley en 1954-55 ; hiver 1954-55 « le plus bas » (neuf étudiants,
+#     une demi-douzaine d'enseignants) ; cours suspendus trois mois juste avant Noël 1954 ; Creeley déjà parti
+# Hiver et printemps 1955 : aucune date attestée ; cours suspendus de Noël à mars 1955 (Duberman) : non reconstitués.
+# Fall Quarter 1954 : aucune liste ; les enseignants résidents de l'été 1954 sont reconduits dans leur domaine
+# (LISTE_VOISINE + PRESENCE, une chance sur deux). Olson et Creeley : lignes S du fichier de l'année (source Duberman).
+#
+# C|id|discipline|titre|année précédente|année suivante
+# U|unité|enseignant(s)|volume|codes|retenu(s)|précision|candidats|chance|rattachement|placement|note|termes
+
+C|ete.ecriture|Writing|Special Institute in Writing|The Act of Writing… (Olson, 1952-53)|—
+C|ete.peinture|Art|Painting; basic instruction in Lithography and the lithography workshop|Painting (Fiore, 1952-53)|—
+C|ete.theatre|Theatre|Theater (workshop in production method)|Theatre; Production (Huss, 1952-53)|—
+C|ete.poterie|Crafts|Pottery|Ceramics (Karnes, Weinrib, 1952-53)|—
+C|ete.carreaux|Crafts|Ceramics and Tiles|Ceramics (Karnes, Weinrib, 1952-53)|—
+C|ete.langues|Language|Languages|French, German or Spanish (Shepard, 1952-53)|—
+C|ete.musique|Music|Music: Theory and Composition|Musical Composition (Wolpe, 1952-53)|—
+U|E1|Robert Creeley; Charles Olson|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.ecriture|||1|« Special Institute in Writing », Robert Creeley; Charles Olson (2017.40.324)||volume et horaire supposés|summer
+U|E2|Joseph Fiore|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.peinture|||1|« Painting; basic instruction in Lithography and the lithography workshop », Joseph Fiore (2017.40.324)||volume et horaire supposés|summer
+U|E3|Wesley Huss|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.theatre|atelier||1|« Theater (workshop in production method) », Wesley Huss (2017.40.324)||volume et horaire supposés|summer
+U|E4|Karen Karnes|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.poterie|atelier||1|« Pottery », Karen Karnes (2017.40.324)||volume et horaire supposés|summer
+U|E5|David Weinrib|1x120L|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.carreaux|atelier||1|« Ceramics and Tiles », David Weinrib (2017.40.324)||volume et horaire supposés|summer
+U|E6|Robert Hellman|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.langues|||1/2|« Languages », Robert Hellman (2017.40.324) ; Duberman (ch. 14, p. 446-447, ¶1801) le fait enseigner à partir de l'été 1955 seulement : réalisation en 1954 incertaine||volume et horaire supposés|summer
+U|E7|Stefan Wolpe|3|MEME_ANNEE+R_ATTESTE+ANNONCE+VOLUME|ete.musique|||1|« Music: Theory and Composition », Stefan Wolpe (2017.40.324)||volume et horaire supposés|summer
+
+# ---------- FALL QUARTER 1954 : enseignants résidents reconduits depuis l'été 1954 (aucune liste) ----------
+U|F2|Joseph Fiore|3|ANNONCE+R_NOMME+VOLUME+LISTE_VOISINE+PRESENCE|ete.peinture|domaine de l'été 1954 ; titre inconnu||1/2|enseignant résident (2017.40.324) ; aucune liste du Fall Quarter 1954 dans le corpus||volume et horaire supposés|fall
+U|F3|Wesley Huss|1x120L|ANNONCE+R_NOMME+VOLUME+LISTE_VOISINE+PRESENCE|ete.theatre|atelier ; domaine de l'été 1954||1/2|idem||volume et horaire supposés|fall
+U|F4|Karen Karnes; David Weinrib|1x120L|ANNONCE+R_NOMME+VOLUME+LISTE_VOISINE+PRESENCE|ete.poterie|atelier ; domaine de l'été 1954||1/2|idem ; Karnes et Weinrib partent pour Stony Point en 1955 (Duberman, p. 443)||volume et horaire supposés|fall
+U|F7|Stefan Wolpe|3|ANNONCE+R_NOMME+VOLUME+LISTE_VOISINE+PRESENCE|ete.musique|domaine de l'été 1954 ; titre inconnu||1/2|idem ; Wolpe quitte la communauté au début de 1956 (Duberman, p. 451)||volume et horaire supposés|fall

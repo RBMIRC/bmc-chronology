@@ -8,7 +8,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 |---|---|---|---|
 | 0 | Chemins `~/Documents/...` → chemins relatifs à la racine du dépôt | fait | « chemins relatifs » |
 | 1 | Intégrer Duberman au semainier | fait | « semainier : couche Duberman » |
-| 2 | Couche spéculative 1949-50 → 1956-57 | en cours | une année = un commit |
+| 2 | Couche spéculative 1949-50 → 1956-57 | fait (1955-57 sans semaines, faute de calendrier) | une année = un commit |
 | 3 | Contrôles (`construire.py --verifier`, navigateur headless, avant/après) | à faire | |
 
 ## Étape 0 — chemins
@@ -38,6 +38,9 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 | 1951-52 | fait | 30 (aut. 15, print. 15 ; été non daté) | 112 (~1 680) | 65,1 % (cours seuls : 86 %) | « speculation 1951-52 » |
 | 1952-53 | fait | 44 (aut. 19 en 5 morceaux, print. 16 en 2, été 9) | 497 (~2 600) | 64,7 % (été 40) | « speculation 1952-53 » |
 | 1953-54 | fait (printemps et été 1954 seulement) | 22 (print. 11, été 11) | 29 (~320) | 66,1 % (print. 71, été 62) | « speculation 1953-54 » |
+| 1954-55 | fait (Fall Quarter 1954 + fin de l'été 1954) | 12 (aut. 11, été 1) | 29 (~150) | 67,3 % (aut. 73) | « speculation 1954-55 » |
+| 1955-56 | analyse seule : aucune période attestée | 0 | 0 | — | « speculation 1955-56 » |
+| 1956-57 | analyse seule : fermeture, aucun trimestre | 0 | 0 | — | « speculation 1956-57 » |
 
 ### Notes 1949-50
 - Sources : 2017.40.360 (corps enseignant de septembre 1949), 2017.40.048 (« courses given » 1949-50, sans semestre),
@@ -81,6 +84,14 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
   depuis l'été (proches du plafond). Été 1954 d'après 2017.40.324 (Hellman : annonce 1954 contre Duberman 1955).
 - **Questions** : l'annonce du Spring Quarter 1954 (« recent announcement », citée par 2017.40.051) existe-t-elle dans
   un autre fonds ? Dates des trimestres d'automne 1953 et d'hiver 1954 ?
+
+### Notes 1954-57
+- 1954-55 : Fall Quarter 1954 seulement (cours suspendus de Noël à mars 1955, hiver et printemps sans dates).
+- 1955-56 et 1956-57 : aucun jour de cours dans `calendrier_periodes.csv` → `speculer.py` (modifié : année sans
+  période = analyse seule, sans gabarit) ne produit que `annee_AAAA-AA.md`. Non-régression vérifiée : gabarits et
+  semaines de 1933-1951 identiques après relance complète.
+- **Question** : faut-il un calendrier spéculatif pour 1954-55 (hiver-printemps 1955) et 1955-56 (sessions d'hiver et
+  de printemps 1956), transposé des trimestres de 1954 comme pour 1934-35 (30-45 % sur les dates) ?
 
 ## Points à vérifier sur scan
 (aucun pour l'instant)

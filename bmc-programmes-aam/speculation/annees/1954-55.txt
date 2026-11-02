@@ -1,0 +1,22 @@
+#annee 1954-55
+#catalogue speculation/catalogues/1954-55.txt 2017.40.324+2017.40.051
+#periodes 08:30,09:30,10:30,11:30 15:00,16:00 50
+> ## 1954-55 : un seul trimestre daté, puis la suspension des cours
+>
+> **Les sources.** Le corpus AAM n'a que deux dates pour 1954-55 :
+> - la fin du Summer Quarter 1954 (jusqu'au 4 septembre, 2017.40.324) ;
+> - le Fall Quarter 1954, du 20 septembre au 4 décembre (2017.40.051).
+>
+> Il n'y a ni liste de cours ni document daté de la vie du collège. Duberman (ch. 14) décrit l'hiver 1954-55 comme « the low point » : une tentative de suicide, un incendie qui détruit presque toutes les peintures de Fiore, pas d'argent pour le charbon, neuf étudiants et une demi-douzaine d'enseignants. Juste avant Noël 1954, la communauté suspend tous les cours pour trois mois ; Creeley est déjà parti, et la moitié du groupe s'en va. Les cours reprennent au printemps 1955, mais sans dates. Robert Duncan fait un premier séjour au printemps 1955. Hellman et Landreau arrivent à l'été 1955.
+>
+> **Ce qui est reconstitué.** Seulement les jours datés :
+> - la fin du Summer Quarter 1954 (1er-4 septembre), avec les unités de l'été ;
+> - le Fall Quarter 1954 : les cours du soir d'Olson et de Creeley (Duberman : Grey Stone va chercher Creeley au Ma Peak's tavern « les soirs de cours »), la revue mensuelle des travaux, et les domaines des enseignants résidents de l'été 1954 avec une chance sur deux (LISTE_VOISINE, PRESENCE).
+>
+> L'hiver et le printemps 1955 ne sont pas reconstitués : aucune date de trimestre n'est attestée, et les cours sont suspendus de Noël à mars. Il n'y a plus de repas en commun. **Confiance très faible.**
+
+S|semaine|||calendrier|Semaine de cours, {terme} (trimestres de onze semaines, 2017.40.051)|||aucun document de la semaine|SEMAINE|2017.40.051|fall
+S|semaine|||calendrier|Semaine du Summer Quarter 1954 (fin)|||aucun document de la semaine|SEMAINE|2017.40.324|summer
+S|semaine|||reunion|Revue mensuelle de tous les travaux d'étudiants par le corps enseignant : possible cette semaine|Faculty||« the Faculty maintains a monthly review of all student work » (2017.40.051) ; jour non donné|OCCASION+VOISIN|2017.40.051|fall,summer
+S|jeu|19:00|23:00|cours|Cours d'écriture de Charles Olson (un soir par semaine)|Charles Olson||atelier d'écriture d'Olson au Studies Building, 1951-1956, « un soir par semaine » (Duberman) ; jour choisi|SEMAINE+JOUR+HEURE_CADRE+R_DUBERMAN|Duberman, ch. 14, p. 409-421 (¶1680-1715)|fall
+S|mar|20:00|22:00|cours|Cours du soir de Robert Creeley|Robert Creeley|Studies Building|1954-55 : Creeley boit l'après-midi au Ma Peak's tavern, Grey Stone vient le chercher en pick-up « les soirs de cours » (« Now, teach ») (Duberman) ; parti avant Noël ; jour et heures choisis|SEMAINE+JOUR+HEURE_CADRE+R_DUBERMAN+PRESENCE|Duberman, ch. 14, p. 435-436 (¶1764-1765)|fall

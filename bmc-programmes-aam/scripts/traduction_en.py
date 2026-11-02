@@ -23,7 +23,7 @@ LIEUX_FR = {"Caroline", "Floride", "Géorgie", "Virginie", "Californie", "Louisi
             "Vienne", "Prague", "Moscou", "Russie", "Hollande", "Belgique", "Canada", "Cuba", "Europe", "Amérique", "Pacifique", "Atlantique"}
 # titres d'œuvres français gardés tels quels dans l'anglais (guide : « les titres d'œuvres gardent leur langue »)
 # graphie corrigée dans la traduction quand le résumé français écorche un nom (« Frederic March » → Fredric March)
-ORTHO_NOMS = {"Frederic": "Fredric"}
+ORTHO_NOMS = {"Frederic": "Fredric", "Florace": "Horace"}
 TITRES_FR = ["L'Honneur des poètes", "Le Déshonneur des poètes", "Le Piège de Méduse", "Le Malade imaginaire", "Le Médecin malgré lui", "Les Précieuses ridicules", "Pelléas et Mélisande", "Les Nuages",
              "Le Sacre du printemps", "Les Demoiselles d'Avignon", "La Cerisaie", "Les Mamelles de Tirésias",
              "Les Mariés de la tour Eiffel"]
@@ -106,6 +106,7 @@ def verifier(num, remplacer=False, partiel=False):
             if not partiel: erreurs.append(f"{i} : traduction manquante")
             continue
         for q in citations(fr):          # citations des sources (en anglais) : à l'identique ; mots français entre guillemets : traduits
+            q = re.sub(r"^(?:la|le|les|un|une|des|l')\s*(?=[a-z])", "", q) if re.match(r"^(?:la|le|les|un|une|des|l')\s*[a-z]+ [a-z]+ (?:of|the|and|to)\b", q) else q   # « la stupendous task of… » : article français collé à la citation
             norm = lambda x: re.sub(r"\s+([;:!?])", r"\1", x).replace("’", "'")
             if not T.francais(q) and re.search(r"[A-Za-z]{3}", q) and not re.search(r"[éèêàùç]", q) and norm(q) not in norm(en):
                 # citation à mots outils anglais : bloquante ; mot isolé (anglais ou français ?) : à relire

@@ -118,6 +118,25 @@ def main():
                         "aam_dernier": (b.get("AAM") or ["", "", ""])[1], "aam_n": (b.get("AAM") or ["", "", ""])[2]})
         garder_refs(x); doss[p["nom"]] = x
 
+    # ---------------------------------------------------------------- cours (fiches « cours » à BMC), avec concordance AAM
+    conc = {}
+    cc = sorted(glob.glob(os.path.join(SORTIE, "[0-9][0-9][0-9]_cours_scenario.csv")))
+    if cc: conc = {r["id"]: r for r in lire(cc[-1])}
+    cours = []
+    for c in S["fiches"]["cours"]:
+        if c.get("atteste_a_bmc") == "non": continue
+        a = c.get("ancrage") or {}
+        y0 = int(a["debut"][:4]) if str(a.get("debut", ""))[:4].isdigit() else None
+        y1 = int(a["fin"][:4]) if str(a.get("fin", ""))[:4].isdigit() else y0
+        k = conc.get(c["id"], {})
+        cours.append({"id": c["id"], "ens": c.get("enseignant", ""), "t": c.get("intitule", ""), "per": c.get("periode", ""),
+                      "y0": y0, "y1": y1, "bmc": c.get("atteste_a_bmc", ""), "obj": c.get("objectifs") or "",
+                      "ex": [e if isinstance(e, str) else " — ".join(str(v) for v in e.values() if v) for e in c.get("exercices") or []],
+                      "der": c.get("deroule_seance") or "", "prop": c.get("propos_de_l_enseignant") or "",
+                      "rea": c.get("reactions_etudiants") or "", "mat": c.get("materiaux") or "", "s": src_txt(c),
+                      "aam": k.get("statut", ""), "aam_cours": k.get("aam_cours", ""), "aam_per": k.get("aam_periode", "")})
+        refs_utiles.add(c["id"])
+
     # ---------------------------------------------------------------- références
     refs = {}
     for r in sorted(refs_utiles):
@@ -129,13 +148,13 @@ def main():
 
     # ---------------------------------------------------------------- écriture
     base = os.path.join(SORTIE, num)
-    for suff, obj in (("chroniques_mois", chron), ("dossiers", doss), ("references", refs)):
+    for suff, obj in (("chroniques_mois", chron), ("dossiers", doss), ("references", refs), ("cours", cours)):
         json.dump(obj, open(f"{base}_{suff}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     with open(f"{base}_recoupement_presences.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rec[0].keys())); w.writeheader(); w.writerows(rec)
     with open(os.path.join(ROOT, "semainier", "data_syntheses.js"), "w", encoding="utf-8") as f:
         f.write(f"// généré par scripts/integrer_syntheses.py ({num}) — ne pas éditer à la main\n")
-        f.write("window.BMC_SYNTH = " + json.dumps({"numero": num, "chroniques": chron, "dossiers": doss, "refs": refs},
+        f.write("window.BMC_SYNTH = " + json.dumps({"numero": num, "chroniques": chron, "dossiers": doss, "refs": refs, "cours": cours},
                                                     ensure_ascii=False, separators=(",", ":")) + ";\n")
     C = collections.Counter
     pp = [r for r in rec if r["type"].startswith("présent")]
@@ -145,7 +164,8 @@ def main():
          "seules les parties qui renvoient à des fiches sont reprises, avec leurs références.", "",
          f"- Chroniques mensuelles : {len(chron)} mois ({min(chron)} → {max(chron)}).",
          f"- Dossiers de personnages : {len(doss)} (champs factuels seulement : {', '.join(CHAMPS_DOSSIER)}).",
-         f"- Références citées : {len(refs)} fiches ; introuvables dans le scénario : {introuv}.", "",
+         f"- Références citées : {len(refs)} fiches ; introuvables dans le scénario : {introuv}.",
+         f"- Cours enseignés à BMC selon les livres : {len(cours)} (" + ", ".join(f"{k or 'sans concordance'} {v}" for k, v in C(c['aam'] for c in cours).most_common()) + ").", "",
          "## Recoupement des présences", "",
          f"- « Présents probables » des chroniques : {len(pp)} mentions ; nommés le même mois dans l'AAM ou Duberman : "
          f"{sum(1 for r in pp if r['confirme_ce_mois'] != 'non')} ({100 * sum(1 for r in pp if r['confirme_ce_mois'] != 'non') / max(1, len(pp)):.0f} %) ; "

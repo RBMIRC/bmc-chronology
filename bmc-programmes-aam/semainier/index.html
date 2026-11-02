@@ -430,6 +430,15 @@ function cote(debut, fin) {
       ${c.qui && c.qui !== "—" ? `<span class="q">· ${esc(c.qui)}</span>` : ""}${c.horaire ? ` <span class="q">· ${esc(c.horaire)}</span>` : ""}
       ${pctTag(c.pct)} <a href="${esc(c.url)}" target="_blank" title="${esc(c.src)}">source</a></div>`).join("")}</details>`).join("")
     : `<div class="vide">Aucune liste de cours pour cette année.</div>`);
+  if (etat.scen && window.BMC_SYNTH && BMC_SYNTH.cours) {
+    const a0 = +an.slice(0, 4), cs = BMC_SYNTH.cours.filter(c => c.y0 && c.y0 <= a0 + 1 && (c.y1 || c.y0) >= a0);
+    const precis = cs.filter(c => (c.y1 || c.y0) - c.y0 <= 2), larges = cs.filter(c => (c.y1 || c.y0) - c.y0 > 2);
+    const carteC = c => `<div class="cours"><b>${esc(c.t)}</b> <span class="q">· ${esc(c.ens)} · ${esc(c.per)}</span> <span class="ref" data-ref="${c.id}">${c.id}</span>
+      <br><span class="legende">${c.aam ? "AAM : " + esc(c.aam) + (c.aam_cours ? " (« " + esc(c.aam_cours.slice(0, 80)) + " », " + esc(c.aam_per) + ")" : "") : ""}${c.bmc === "incertain" ? " · enseigné à BMC : incertain" : ""}</span>
+      ${c.obj || c.ex.length || c.der ? `<details><summary>contenu</summary>${c.obj ? `<div><i>Objectifs.</i> ${esc(c.obj)}</div>` : ""}${c.ex.length ? `<div><i>Exercices.</i> ${c.ex.map(esc).join(" · ")}</div>` : ""}${c.mat ? `<div><i>Matériaux.</i> ${esc(typeof c.mat === "string" ? c.mat : JSON.stringify(c.mat))}</div>` : ""}${c.der ? `<div><i>Déroulé.</i> ${esc(c.der)}</div>` : ""}${c.prop ? `<div><i>Propos.</i> ${esc(typeof c.prop === "string" ? c.prop : JSON.stringify(c.prop))}</div>` : ""}${c.rea ? `<div><i>Réactions.</i> ${esc(typeof c.rea === "string" ? c.rea : JSON.stringify(c.rea))}</div>` : ""}<div class="legende">${esc(c.s)}</div></details>` : `<div class="legende">${esc(c.s)}</div>`}</div>`;
+    if (cs.length) h += `<h2>Cours de ${an} selon les livres (scénario)</h2><div class="legende">Fiches « cours » extraites automatiquement des livres ; référence cliquable pour la source et sa vérification.</div>` +
+      precis.map(carteC).join("") + (larges.length ? `<details><summary>${larges.length} cours datés sur plusieurs années</summary>${larges.map(carteC).join("")}</details>` : "");
+  }
 
   h += `<h2>Lecture</h2><div class="legende">Couleur = famille d'activité.
     <span style="background:#3b6ea5"></span>attesté

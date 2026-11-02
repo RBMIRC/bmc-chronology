@@ -205,7 +205,7 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
 - Vérifié à la main : Wilder (1934, pas 1936) et Kazin (1944, pas 1945) — notre dépouillement est juste ; les autres
   « dates différentes » sont deux faits distincts du même paragraphe.
 
-### 8.5 BlackMountainPeople.txt (base des personnes, provenance non indiquée)
+### 8.5 BlackMountainPeople.txt (base des personnes ; provenance : BMC Yearbook, voir 8.7)
 - `scripts/chronos_personnes.py` → `chronos/007_personnes_presences.csv`, `_cours_suivis.csv`, `_rapport.md`,
   `semainier/data_personnes.js`.
 - Présences (nom ET prénom contre l'AAM et Duberman) : concordant 285, débordement 74 (activités attestées hors des
@@ -214,7 +214,7 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   l'AAM cette année-là 598, absent de l'AAM 709, enseignant non nommé 1 038.
 - Semainier : panneau « Cours suivis (trimestre) selon les fiches d'étudiants » ; « ⓘ » ouvre aussi la fiche de la base
   (biographie, rôle, années, relations, cours suivis, recoupement).
-- **Question** : d'où vient BlackMountainPeople.txt (base du BMC Museum + Arts Center ? de Mary Emma Harris ?) ?
+- Provenance donnée le 2/11/2026 : https://bmcyearbook.org/biographies (voir 8.7).
 - Piste : les cours suivis par semestre (1949-53 surtout) permettraient de corriger les « 2 chances sur 3 » de la couche
   spéculative. → fait, 8.6.
 
@@ -242,6 +242,30 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   « Truman » (Algebra, printemps 1950) = l'étudiant Trueman MacHenry ? « William » (Social Science) = A. W. Levi ?
   Qui sont Kennedy (Intro to Mathematics, automne 1949), Oscar (Drawing II, été 1952), Pete (Light Sound Movement,
   printemps 1951) ? Ces noms sont repris tels quels.
+
+### 8.7 BMC Yearbook (bmcyearbook.org/biographies), source de BlackMountainPeople.txt (2/11/2026)
+- Projet du Black Mountain College Museum + Arts Center (Amanda Hartman, Heron Studio), notices compilées des archives
+  (Western Regional Archives), beaucoup de Mary Emma Harris (Black Mountain College Project). Site « All rights
+  reserved » : copie de travail, dépôt à garder privé.
+- `scripts/yearbook_telecharger.py` → `DATA_BMC/bmcyearbook/001_biographies.jsonl` : 1 359 notices sur 1 361 (Robert
+  Kumabe et Marie Mulholland en erreur 500 sur le site, deux essais ; une entrée de liste sans page).
+- `scripts/chronos_personnes.py` lit désormais le site (le .txt en contrôle et en secours) → `chronos/009_personnes_*` :
+  - 1 360 personnes ; contre le .txt : 59 seulement sur le site, 1 seulement dans le .txt (Ursula Lewis, reprise),
+    40 listes de cours différentes (le site en a plus), 16 années différentes (le .txt met « 1933-1938 » à plusieurs
+    John : John Cage, John Bailey, John Taylor… ; le site est plus juste) ; noms d'épouse rapprochés (Vera Baker
+    Williams, Lorna Blaine Halper) ;
+  - arrivée et départ au jour : pour moitié le premier ou le dernier jour d'une période de cours attestée, 70 % à une
+    semaine près (ce sont des dates de trimestre, pas de voyage) ; contre l'AAM et Duberman : 192 personnes dans les
+    dates, 118 citées après leur départ (nouvelles d'anciens dans les bulletins), 61 citées avant leur arrivée ;
+  - 453 renvois des notices à des fiches de l'AAM (221 personnes) : nom retrouvé dans notre OCR 364, fiche connue mais
+    nom non retrouvé 18, fiche absente de notre corpus 71 (surtout 2017.40.214, .218, .181, .217 : bulletins à
+    ajouter au corpus) ;
+  - 5 850 inscriptions à des cours (notes entre crochets gardées : « audit », « Evans taught a 6-week elementary
+    math course »…).
+- Couche spéculative : tables `speculation/suivis/AAAA-AA_2.csv` refaites depuis le site, directives `#suivis`
+  pointées dessus, six années relancées, aucun chevauchement ; source des entrées : « BMC Yearbook ».
+- Semainier : fiche de personne avec lien vers la notice, dates au jour, naissance et décès, documents de l'AAM cités ;
+  panneau « Arrivées et départs cette semaine selon le BMC Yearbook ».
 
 ## Étape 9 — Rumaker, Black Mountain Days (DATA_BMC/Rumaker, texte corrigé v6)
 - Alignement ¶ → pages du livre sur l'OCR paginé du scénario (`rumaker/paragraphes_pages.json`) : 829 ¶ sur 851.

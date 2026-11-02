@@ -1,6 +1,6 @@
 # Concordance des cours — 1950-51
 
-79 cours : 78 programmés, 0 candidats, 1 non programmés.
+77 cours : 76 programmés, 0 candidats, 1 non programmés.
 
 - Sources :
 - 2017.40.049 (Bulletin, 20 août 1950) : cours annoncés pour l'automne 1950, enseignant par enseignant
@@ -212,41 +212,37 @@
   année précédente : — · année suivante : —
 - **LightSound Movement** — Warren P. Jennerjahn — *programmé* : S19 (Warren P. Jennerjahn ; spring : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Painting** — Vicente — *programmé* : S20 (Vicente ; summer#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / summer#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+- **Counterpoint I** — Vollmer Hetherington — *programmé* : S20 (Vollmer Hetherington ; fall#1 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 / fall#2 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Drawing** — Vicente — *programmé* : S21 (Vicente ; summer#1 : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 / summer#2 : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
+- **Weaving** — Oates — *programmé* : S21 (Oates ; fall#1 : jeu 16:00-18:00 / fall#2 : jeu 16:00-18:00 ; chance 1)  
   année précédente : — · année suivante : —
-- **Counterpoint I** — Vollmer Hetherington — *programmé* : S22 (Vollmer Hetherington ; fall#1 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 / fall#2 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
+- **Sight Reading** — Johanna Jalowetz — *programmé* : S22 (Johanna Jalowetz ; fall#1 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / fall#2 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Weaving** — Oates — *programmé* : S23 (Oates ; fall#1 : jeu 16:00-18:00 / fall#2 : jeu 16:00-18:00 ; chance 1)  
+- **European history 1848-present** — Paul W. Leser — *programmé* : S23 (Paul W. Leser ; spring : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Sight Reading** — Johanna Jalowetz — *programmé* : S24 (Johanna Jalowetz ; fall#1 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / fall#2 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
+- **Light Sound Movement Workshop** — Warren P. Jennerjahn — *programmé* : S24 (Warren P. Jennerjahn ; spring : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **European history 1848-present** — Paul W. Leser — *programmé* : S25 (Paul W. Leser ; spring : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+- **Weaving** — Oates — *programmé* : S25 (Oates ; spring : mer 16:00-18:00 ; chance 1)  
   année précédente : — · année suivante : —
-- **Light Sound Movement Workshop** — Warren P. Jennerjahn — *programmé* : S26 (Warren P. Jennerjahn ; spring : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+- **Historical Methods** — Paul W. Leser — *programmé* : S26 (Paul W. Leser ; summer#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / summer#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Weaving** — Oates — *programmé* : S27 (Oates ; spring : mer 16:00-18:00 ; chance 1)  
+- **Chorus** — Harrison — *programmé* : S27 (Harrison ; summer#1 : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 / summer#2 : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Historical Methods** — Paul W. Leser — *programmé* : S28 (Paul W. Leser ; summer#1 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / summer#2 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
+- **Composition** — Harrison — *programmé* : S28 (Harrison ; summer#1 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / summer#2 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Chorus** — Harrison — *programmé* : S29 (Harrison ; summer#1 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / summer#2 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
+- **Counterpoint** — Harrison — *programmé* : S29 (Harrison ; summer#1 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / summer#2 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Composition** — Harrison — *programmé* : S30 (Harrison ; summer#1 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / summer#2 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+- **Modern Dancing** — Katherine Litz — *programmé* : S30 (Katherine Litz ; summer#1 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / summer#2 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
   année précédente : — · année suivante : —
-- **Counterpoint** — Harrison — *programmé* : S31 (Harrison ; summer#1 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 / summer#2 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
+- **Piano** — Tudor — *programmé* : S31 (Tudor ; summer#1 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 / summer#2 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
   année précédente : — · année suivante : —
-- **Modern Dancing** — Katherine Litz — *programmé* : S32 (Katherine Litz ; summer#1 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / summer#2 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
+- **European History** — Paul W. Leser — *programmé* : S32 (Paul W. Leser ; summer#1 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / summer#2 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Piano** — Tudor — *programmé* : S33 (Tudor ; summer#1 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / summer#2 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+- **Light Sound Movement Workshop** — Warren P. Jennerjahn — *programmé* : S33 (Warren P. Jennerjahn ; fall#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / fall#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **European History** — Paul W. Leser — *programmé* : S34 (Paul W. Leser ; summer#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / summer#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+- **Body Movement** — Wesley Huss — *programmé* : S34 (Wesley Huss ; spring : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Light Sound Movement Workshop** — Warren P. Jennerjahn — *programmé* : S35 (Warren P. Jennerjahn ; fall#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / fall#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+- **Printing** — Warren P. Jennerjahn — *programmé* : S35 (Warren P. Jennerjahn ; spring : jeu 15:00-17:00 ; chance 1)  
   année précédente : — · année suivante : —
-- **Body Movement** — Wesley Huss — *programmé* : S36 (Wesley Huss ; spring : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
-  année précédente : — · année suivante : —
-- **Printing** — Warren P. Jennerjahn — *programmé* : S37 (Warren P. Jennerjahn ; spring : jeu 15:00-17:00 ; chance 1)  
-  année précédente : — · année suivante : —
-- **Light Sound Movement** — Pete — *programmé* : S38 (Pete ; spring : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+- **Light Sound Movement** — Pete — *programmé* : S36 (Pete ; spring : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
   année précédente : — · année suivante : —

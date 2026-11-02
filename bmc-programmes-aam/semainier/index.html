@@ -276,7 +276,7 @@ function blocBase(nom) {
   const j = f.j || [], vie = f.vie || [];
   const aam = (f.aam || []).map(([inv, lib, st]) => `<div class="cours">${esc(inv)} ${esc(lib)} <span class="legende">· ${esc(st)}</span></div>`).join("");
   return `<h4>BMC Yearbook${f.url ? ` · <a href="${esc(f.url)}" target="_blank">notice en ligne</a>` : ""}</h4>
-    <div>${esc(f.role)} · ${esc(f.dom)} · ${j[0] ? `au collège du ${esc(j[0])} au ${esc(j[1] || "?")} <span class="legende">(dates du site : en général premier et dernier jour d'un trimestre)</span>` : `années ${f.a || "?"}–${f.z || "?"}`}</div>
+    <div>${esc(f.role)} · ${esc(f.dom)} · ${j[0] ? `au collège du ${esc(j[0])} au ${esc(j[1] || "?")} <span class="legende">(dates du site : pour moitié le premier ou le dernier jour d'une période de cours attestée, 70 % à une semaine près)</span>` : `années ${f.a || "?"}–${f.z || "?"}`}</div>
     ${vie[0] || vie[1] || vie[2] ? `<div class="legende">${vie[0] ? "né(e) le " + esc(vie[0]) : ""}${vie[1] ? " · mort(e) le " + esc(vie[1]) : ""}${vie[2] ? " · " + esc(vie[2]) : ""}</div>` : ""}
     <div class="cours">${esc(f.bio)}</div>${f.auteur ? `<div class="legende">Notice : ${esc(f.auteur)}</div>` : ""}
     ${f.rel ? `<div class="legende">Relations : ${esc(f.rel)}</div>` : ""}
@@ -524,7 +524,7 @@ function cote(debut, fin) {
       if (j[0] && j[0] >= a && j[0] < b) mv.push([j[0], "arrivée", n, f]);
       if (j[1] && j[1] >= a && j[1] < b) mv.push([j[1], "départ", n, f]); }
     if (mv.length) h += `<h2>Arrivées et départs cette semaine selon le BMC Yearbook (${mv.length})</h2>
-      <div class="legende">Dates des notices du site, en général le premier ou le dernier jour du trimestre (pas le jour réel du voyage).</div>
+      <div class="legende">Dates des notices du site : pour moitié le premier ou le dernier jour d'une période de cours attestée (70 % à une semaine près), pas forcément le jour réel du voyage.</div>
       <details><summary>afficher</summary>` + mv.sort((x, y) => (x[0] + x[1]).localeCompare(y[0] + y[1])).map(([d, k, n, f]) => `<div class="cours">${esc(d)} · ${k} · <a class="dossier-lien" data-d="${esc(n)}">${esc(n)}</a> <span class="legende">· ${esc(f.role)}${f.url ? ` · <a href="${esc(f.url)}" target="_blank">notice</a>` : ""}</span></div>`).join("") + "</details>";
     const mo = mid.getMonth() + 1, cles = mo >= 9 ? [`automne ${y}`] : mo <= 3 ? [`hiver ${y}`, `printemps ${y}`] : mo <= 5 ? [`printemps ${y}`] : [`été ${y}`];
     const cs = cles.flatMap(c => (BMC_PERS.cours[c] || []).map(x => ({ ...x, t: c })));

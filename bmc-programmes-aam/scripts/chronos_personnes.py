@@ -4,7 +4,8 @@ Harris pour le Black Mountain College Project).
 Source lue : la copie du site DATA_BMC/bmcyearbook/NNN_biographies.jsonl (scripts/yearbook_telecharger.py), la plus
 récente ; à défaut, l'export texte DATA_BMC/Chronos/BlackMountainPeople.txt (1 299 notices, même base, sans les dates
 au jour ni les renvois à l'AAM), qui sert alors de contrôle : personnes absentes de l'une ou l'autre, cours différents.
-Le site donne en plus : dates d'arrivée et de départ au jour (en général le premier et le dernier jour d'un trimestre),
+Le site donne en plus : dates d'arrivée et de départ au jour (pour moitié le premier ou le dernier jour d'une période de
+cours attestée, 70 % à une semaine près : contrôle du 2/11/2026),
 naissance et décès, lien vers la notice, et les documents de l'AAM qui nomment la personne (« Asheville Art Museum
 Collection : 2017.40.024 September 1943 bulletin, "…" ») : chaque renvoi est cherché dans notre OCR de la fiche.
 
@@ -123,25 +124,40 @@ def main():
     comparaison = []
     if yb:
         # libellés de domaine du .txt, appris sur les personnes communes (code du site → libellé)
-        par_nom = {V.plat(t["NAME"]): t for t in TXT}
+        def cle(n):        # prénom + nom de famille, sans surnom ni ponctuation (« Mary "M.C." Richards » = « Mary "MC" Richards »)
+            w = re.findall(r"[a-z]+", V.plat(re.sub(r'"[^"]*"|“[^”]*”|\(.*?\)', " ", n)))
+            return f"{w[0]} {w[-1]}" if w else V.plat(n)
+        par_nom = {cle(t["NAME"]): t for t in TXT}
         brut = [json.loads(l) for l in open(yb[-1], encoding="utf-8")]
         fx = collections.defaultdict(collections.Counter)
         for d in brut:
-            q = d["personne"]; n = V.plat(" ".join(x for x in (q.get("firstName"), q.get("nickname"), q.get("lastName")) if x))
+            q = d["personne"]; n = cle(" ".join(x for x in (q.get("firstName"), q.get("nickname"), q.get("lastName")) if x))
             if n in par_nom and q.get("focus"): fx[q["focus"]][par_nom[n]["Focus"]] += 1
         P = lire_yearbook(yb[-1], {k: v.most_common(1)[0][0] for k, v in fx.items()})
         SRC = f"BMC Yearbook (bmcyearbook.org/biographies), copie {os.path.basename(yb[-1])}"
-        noms_yb = {V.plat(p["NAME"]) for p in P}
+        # rapprochement de secours (nom d'épouse, surnom) : même prénom et nom du .txt dans le nom complet du site,
+        # ou même début de biographie
+        complet = {d["url"]: V.plat(d["nom_liste"] or "") for d in brut}
+        bio40 = {V.plat(p["BIO"])[:60]: p for p in P if len(p["BIO"]) > 60}
+        for t in TXT:
+            if cle(t["NAME"]) in {cle(p["NAME"]) for p in P}: continue
+            w = re.findall(r"[a-z]+", V.plat(re.sub(r'"[^"]*"', " ", t["NAME"])))
+            m = [p for p in P if w and complet.get(p["url"], "").split()[:1] == w[:1] and re.search(rf"\b{w[-1]}\b", complet.get(p["url"], ""))]
+            m = m or [bio40[k] for k in [V.plat(t["BIO"])[:60]] if k in bio40]
+            if len(m) == 1: par_nom[cle(m[0]["NAME"])] = t; m[0]["autre_nom"] = t["NAME"]
+        noms_yb = {cle(p["NAME"]) for p in P} | {cle(p["autre_nom"]) for p in P if p.get("autre_nom")}
         for p in P:
-            t = par_nom.get(V.plat(p["NAME"]))
+            t = par_nom.get(cle(p["NAME"]))
             if not t: comparaison.append({"nom": p["NAME"], "url": p["url"], "ecart": "absent du .txt (ajouté au site depuis l'export ?)", "detail": ""}); continue
             if (t["Start Year"], t["End Year"]) != (p["Start Year"], p["End Year"]):
                 comparaison.append({"nom": p["NAME"], "url": p["url"], "ecart": "années différentes", "detail": f".txt {t['Start Year']}-{t['End Year']} ; site {p['debut']} → {p['fin']}"})
             ct, cy = len(parse_cours(t["COURSE TAKEN"])) if t["COURSE TAKEN"] else 0, len(parse_cours(p["COURSE TAKEN"])) if p["COURSE TAKEN"] else 0
             if ct != cy: comparaison.append({"nom": p["NAME"], "url": p["url"], "ecart": "nombre de cours différent", "detail": f".txt {ct} ; site {cy}"})
         for t in TXT:
-            if V.plat(t["NAME"]) not in noms_yb:
-                comparaison.append({"nom": t["NAME"], "url": "", "ecart": "absent du site (nom changé ou notice retirée)", "detail": f"{t['Role']} {t['Start Year']}-{t['End Year']}"})
+            if cle(t["NAME"]) not in noms_yb:
+                comparaison.append({"nom": t["NAME"], "url": "", "ecart": "absent du site (nom changé, notice retirée ou en erreur) : repris du .txt", "detail": f"{t['Role']} {t['Start Year']}-{t['End Year']}"})
+                P.append(dict(t, url="", auteur="", bmcp="", refs_aam=[], debut="", fin="", naissance="", deces="", lieux="",
+                              BIO=t["BIO"] + " [notice reprise de l'export BlackMountainPeople.txt : absente de la copie du site]"))
     else:
         P, SRC = TXT, "DATA_BMC/Chronos/BlackMountainPeople.txt (export du BMC Yearbook)"
     # fiches AAM indexées aussi par numéro de base (« 2017.40.196a-e » → « 2017.40.196 ») : le site cite sans suffixe
@@ -207,6 +223,7 @@ def main():
                        "aam": [[r[0], r[1], r[3]] for r in p.get("refs_aam", [])], "auteur": p.get("auteur", ""),
                        "cours": [[s, y, c, e, nt] for s, y, c, e, nt in cs], "cours_brut": p["COURSE TAKEN"][:3000] if not cs else "",
                        "statut": st, "att": [len(hits), min((d for d, _ in hits), default=""), max((d for d, _ in hits), default="")]}
+        if p.get("autre_nom"): fiches[p["autre_nom"]] = dict(fiches[nom], alias_de=nom)     # nom de l'export .txt (nom de jeune fille…)
 
     num = K.prochain_numero(K.SORTIE)
     base = os.path.join(K.SORTIE, f"{num}_personnes")

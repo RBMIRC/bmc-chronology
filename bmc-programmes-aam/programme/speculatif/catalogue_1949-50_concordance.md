@@ -1,6 +1,6 @@
 # Concordance des cours — 1949-50
 
-90 cours : 70 programmés, 17 candidats, 3 non programmés.
+93 cours : 73 programmés, 17 candidats, 3 non programmés.
 
 - Sources :
 - 2017.40.048 (Bulletin 1950-51, Vol. 8 No. 1, mars 1950) : « courses given » en 1949-50, avec l'enseignant de chaque
@@ -211,61 +211,73 @@
 
 ## Cours suivis (fiches d'étudiants)
 
-- **Plato** — Albert William Levi — *programmé* : S5 (Albert William Levi ; spring : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
+- **Modern Dancing** — Katherine Litz — *programmé* : S5 (Katherine Litz ; summer : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Ethics** — Max Dehn — *programmé* : S6 (Max Dehn ; spring : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+- **Art Criticism** — Clement Greenberg — *programmé* : S6 (Clement Greenberg ; summer : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
   année précédente : — · année suivante : —
-- **Dancing** — Elizabeth Jennerjahn — *programmé* : S7 (Elizabeth Jennerjahn ; spring : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
+
+## Philosophy
+
+- **Introduction to Plato** — Max Dehn — *programmé* : S7 (Max Dehn ; summer : mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
+  année précédente : — · année suivante : Philosophy from 400 B.C. until 1600 A.D. (Dehn, 1950-51)
+
+## Cours suivis (fiches d'étudiants)
+
+- **Plato** — Albert William Levi — *programmé* : S8 (Albert William Levi ; spring : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Ethics** — Max Dehn — *programmé* : S9 (Max Dehn ; spring : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Dancing** — Elizabeth Jennerjahn — *programmé* : S10 (Elizabeth Jennerjahn ; spring : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
   année précédente : — · année suivante : —
 
 ## Workshops
 
-- **Printing** — John H. McCandless — *programmé* : S8 (John H. McCandless ; summer : mar 15:00-17:00 ; chance 1)  
+- **Printing** — John H. McCandless — *programmé* : S11 (John H. McCandless ; summer : mar 15:00-17:00 ; chance 1)  
   année précédente : — · année suivante : Printing (1950-51)
 
 ## Cours suivis (fiches d'étudiants)
 
-- **Theory of Knowledge** — Max Dehn — *programmé* : S9 (Max Dehn ; fall : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
+- **Theory of Knowledge** — Max Dehn — *programmé* : S12 (Max Dehn ; fall : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
   année précédente : — · année suivante : —
-- **Functions of a Complex Variable** — Max Dehn — *programmé* : S10 (Max Dehn ; fall : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
+- **Functions of a Complex Variable** — Max Dehn — *programmé* : S13 (Max Dehn ; fall : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Differential Equations** — Max Dehn — *programmé* : S11 (Max Dehn ; fall : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
+- **Differential Equations** — Max Dehn — *programmé* : S14 (Max Dehn ; fall : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Gamma functions (Graduation Thesis)** — Max Dehn — *programmé* : S12 (Max Dehn ; spring : mar 15:00-15:50 ; chance 1)  
+- **Gamma functions (Graduation Thesis)** — Max Dehn — *programmé* : S15 (Max Dehn ; spring : mar 15:00-15:50 ; chance 1)  
   année précédente : — · année suivante : —
-- **Algebra** — MacHenry — *programmé* : S13 (MacHenry ; spring : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+- **Algebra** — MacHenry — *programmé* : S16 (MacHenry ; spring : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
   année précédente : — · année suivante : —
 
 ## Language
 
-- **Russian** — Anna Goldowski — *programmé* : S14 (Anna Goldowski ; summer : mar 11:30-12:20, jeu 11:30-12:20 ; chance 1)  
+- **Russian** — Anna Goldowski — *programmé* : S17 (Anna Goldowski ; summer : lun 16:00-16:50, jeu 16:00-16:50 ; chance 1)  
   année précédente : French and Russian (tutor, 1948-49) · année suivante : Russian and French (individual tutorials, 1950-51)
 
 ## Cours suivis (fiches d'étudiants)
 
-- **Proust** — Albert William Levi — *programmé* : S15 (Albert William Levi ; fall : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
+- **Proust** — Albert William Levi — *programmé* : S18 (Albert William Levi ; fall : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Proust Tutorial** — Albert William Levi — *programmé* : S16 (Albert William Levi ; spring : mar 16:00-16:50 ; chance 1)  
+- **Proust Tutorial** — Albert William Levi — *programmé* : S19 (Albert William Levi ; spring : mar 16:00-16:50 ; chance 1)  
   année précédente : — · année suivante : —
-- **Shakespeare** — Paul Goodman — *programmé* : S17 (Paul Goodman ; summer : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+- **Shakespeare** — Paul Goodman — *programmé* : S20 (Paul Goodman ; summer : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **History of the Stage** — Robert Klein — *programmé* : S18 (Robert Klein ; summer : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
+- **History of the Stage** — Robert Klein — *programmé* : S21 (Robert Klein ; summer : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Theater** — Robert Klein — *programmé* : S19 (Robert Klein ; summer : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
+- **Intro to Mathematics** — Kennedy — *programmé* : S22 (Kennedy ; fall : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Community Planning Seminar** — Paul Goodman — *programmé* : S20 (Paul Goodman ; summer : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
+- **Intro toSocial Science** — Albert William Levi — *programmé* : S23 (Albert William Levi ; spring : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
   année précédente : — · année suivante : —
-- **Intro to Mathematics** — Kennedy — *programmé* : S21 (Kennedy ; fall : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+- **Theater** — Robert Klein — *programmé* : S24 (Robert Klein ; summer : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
   année précédente : — · année suivante : —
-- **Intro toSocial Science** — Albert William Levi — *programmé* : S22 (Albert William Levi ; spring : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
+- **Community Planning Seminar** — Paul Goodman — *programmé* : S25 (Paul Goodman ; summer : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
   année précédente : — · année suivante : —
 
 ## Art
 
-- **Color** — Warren P. Jennerjahn — *programmé* : S23 (Warren P. Jennerjahn ; summer : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
+- **Color** — Warren P. Jennerjahn — *programmé* : S26 (Warren P. Jennerjahn ; summer : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
   année précédente : — · année suivante : Color (1950-51)
 
 ## Cours suivis (fiches d'étudiants)
 
-- **Photography** — Oates — *programmé* : S24 (Oates ; summer : mar 16:00-18:00 ; chance 1)  
+- **Photography** — Oates — *programmé* : S27 (Oates ; summer : mar 16:00-18:00 ; chance 1)  
   année précédente : — · année suivante : —

@@ -60,27 +60,43 @@ def main():
                 a, b = l.rstrip("\n").split("\t", 1); revu[a] = b
     L = [t for t in chaines(champs) if t not in revu and t not in auto][:maxi]
     print(f"{len(L)} chaînes à traduire automatiquement ({champs}) ; déjà : relues {len(revu)}, automatiques {len(auto)}", flush=True)
-    # noms de famille des personnes (BMC Yearbook) : « X à Y » ne devient « X to Y » (lettre) que si Y est une personne
+    # Les sources sont en anglais : rien d'anglais n'est traduit. Dans nos textes français, les citations (« … », “ … ”,
+    # " … ") et les noms de personnes et de lieux connus sont protégés et rendus mot pour mot ; une « traduction »
+    # identique à l'original (texte déjà anglais, liste de noms) n'est pas gardée.
     try:
         P = charge("data_personnes.js")
-        noms = {re.sub(r"[^A-Za-z]", "", k.split()[-1]) for k in P["fiches"] if k.split()}
+        noms = {w for k in P["fiches"] for w in re.findall(r"[A-Z][a-zà-ÿ'’\-]+", re.sub(r'"[^"]*"', " ", k))}
     except Exception:
         noms = set()
-    def lettre(m):
-        return m.group(1) + (" to " if re.sub(r"[^A-Za-z]", "", m.group(2).split()[-1]) in noms else " à ") + m.group(2)
+    noms |= {"Lake", "Eden", "Black", "Mountain", "College", "Asheville", "Blue", "Ridge", "Lee", "Hall", "Studies", "Building",
+             "Board", "Fellows", "Folly", "Beach", "Blackie", "Robert", "North", "Carolina", "New", "York", "Bauhaus", "Yale", "Harvard"}
+    def proteger(t):
+        gardes = []
+        def g(m): gardes.append(m.group(0)); return f"X{len(gardes) - 1}X"
+        t2 = re.sub(r"«[^»]*»|“[^”]*”|\"[^\"]*\"", g, t)
+        t2 = re.sub(r"\b(?:Mrs?\.\s|Dr\.\s|Miss\s)?[A-Z][a-zà-ÿ'’\-]+(?:\s+[A-Z][a-zà-ÿ'’\-]+)*",
+                    lambda m: g(m) if all(w in noms for w in re.findall(r"[A-Z][a-zà-ÿ'’\-]+", m.group(0)) if w not in ("Mrs", "Mr", "Dr", "Miss")) else m.group(0), t2)
+        return t2, gardes
+    def rendre(t, gardes):
+        for k, x in enumerate(gardes):
+            x = re.sub(r"^«\s*(.*?)\s*»$", r"“\1”", x)
+            t = re.sub(rf"X\s?{k}\s?X", lambda m: x, t)
+        return t
     if L:
         import argostranslate.translate as T
-        t0, n = time.time(), 0
+        t0, n, egaux = time.time(), 0, 0
         for t in L:
-            # « X à Y » entre deux noms propres (lettres) : « X to Y » ; le modèle lit « à » comme « in »
-            src = re.sub(r"(\b[A-Z][\w.'’-]+) à ([A-Z][\w.'’-]+(?: [A-Z][\w.'’-]+)?)", lettre, t)
-            try: auto[t] = T.translate(src, "fr", "en")
+            src, gardes = proteger(t)
+            try: res = rendre(T.translate(src, "fr", "en"), gardes)
             except Exception as e: print("échec :", t[:60], e, flush=True); continue
             n += 1
+            if re.sub(r"\W", "", res.lower()) == re.sub(r"\W", "", t.lower()) or re.search(r"X\s?\d+\s?X", res): egaux += 1; continue
+            auto[t] = res
             if n % 200 == 0:
                 json.dump(auto, open(p_auto, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
                 print(f"  {n}/{len(L)} ({time.time() - t0:.0f} s)", flush=True)
         json.dump(auto, open(p_auto, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+        print(f"{egaux} chaînes laissées telles quelles (déjà en anglais, noms seuls, ou protection non rendue)", flush=True)
     with open(os.path.join(SEM, "data_en.js"), "w", encoding="utf-8") as f:
         f.write("// généré par scripts/traduire_en.py — traductions relues (revu) et automatiques (auto, Argos Translate fr→en)\n")
         f.write("window.BMC_EN = " + json.dumps({"revu": revu, "auto": auto}, ensure_ascii=False, separators=(",", ":")) + ";\n")

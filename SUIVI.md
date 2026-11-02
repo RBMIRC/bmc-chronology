@@ -342,8 +342,16 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   ○○○, part déduite, source courte ; récurrences de l'AAM regroupées en une ligne) ; 2. Emploi du temps reconstitué,
   replié, en tableau créneaux × jours (liste par jour sur téléphone) ; 3. contexte (colonne de droite inchangée).
   La grille horaire reste sous « Grille ». Filtres repliables ; aucune donnée modifiée.
-- Suite : version publique pour https://rbmirc.github.io/week (dépôt RBMIRC/week) : références gardées, extraits longs
-  retirés, données découpées par année ; version complète gardée pour l'usage local.
+- **Publication** (2/11/2026) : `bmc-programmes-aam/scripts/publier_semainier.py /home/user/week` → dépôt RBMIRC/week,
+  branche `main` (site https://rbmirc.github.io/week, GitHub Pages à activer sur `main`, dossier racine).
+  - Version publique : toutes les entrées, références exactes et parts déduites ; retirés : extraits de vérification
+    (29 835, statut gardé), notes de Duberman recopiées (670), extraits Chronos et Rumaker (1 166), phrases des livres
+    (32 renvois), biographies du BMC Yearbook (1 359, lien vers la notice gardé). Scénario et synthèses gardés (résumés
+    rédigés avec références).
+  - Couche spéculative découpée par année (`spec/AAAA-AA.js`, chargée à la demande) ; chargement initial ≈ 2 Mo
+    compressés (42 Mo en tout au lieu de 61). L'adresse `#AAAA-MM-JJ/journal` se partage.
+  - Version complète inchangée pour l'usage local (`bmc-programmes-aam/semainier/`, mêmes fichiers, même page :
+    `window.BMC_PUBLIC` n'y est pas défini). Republier : relancer le script puis commiter et pousser dans RBMIRC/week.
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

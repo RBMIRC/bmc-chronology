@@ -170,7 +170,7 @@
 </head>
 <body>
 <header>
-  <h1>Semainier · Black Mountain College <small>d'après les fiches de l'Asheville Art Museum</small></h1>
+  <h1>Semainier · Black Mountain College <small>d'après les fiches de l'Asheville Art Museum<span id="mention"></span></small></h1>
   <div class="grp">
     <button data-vue="journal" class="on" title="Journal de la semaine : attesté, puis reconstitué, puis contexte">Journal</button>
     <button data-vue="timeGridWeek" title="Grille horaire (lisible surtout pour les semaines à horaire attesté)">Grille</button>
@@ -275,6 +275,8 @@ function garde(e) {
 // vérification des sources : chargée à la demande (fichier lourd)
 let verifEnCours = null;
 const ficheOuverte = () => document.getElementById("voile").classList.contains("on");
+const PUBLIC = !!window.BMC_PUBLIC;
+if (PUBLIC) document.getElementById("mention").textContent = " · version publique : références sans extraits";
 function chargerVerif() {
   if (window.BMC_VERIF) return Promise.resolve();
   return verifEnCours ||= new Promise((ok, ko) => { const sc = document.createElement("script"); sc.src = "verification.js";
@@ -346,7 +348,7 @@ function blocBase(nom) {
   return `<h4>BMC Yearbook${f.url ? ` · <a href="${esc(f.url)}" target="_blank">notice en ligne</a>` : ""}</h4>
     <div>${esc(f.role)} · ${esc(f.dom)} · ${j[0] ? `au collège du ${esc(j[0])} au ${esc(j[1] || "?")} <span class="legende">(dates du site : pour moitié le premier ou le dernier jour d'une période de cours attestée, 70 % à une semaine près)</span>` : `années ${f.a || "?"}–${f.z || "?"}`}</div>
     ${vie[0] || vie[1] || vie[2] ? `<div class="legende">${vie[0] ? "né(e) le " + esc(vie[0]) : ""}${vie[1] ? " · mort(e) le " + esc(vie[1]) : ""}${vie[2] ? " · " + esc(vie[2]) : ""}</div>` : ""}
-    <div class="cours">${esc(f.bio)}</div>${f.auteur ? `<div class="legende">Notice : ${esc(f.auteur)}</div>` : ""}
+    ${f.bio ? `<div class="cours">${esc(f.bio)}</div>` : f.url ? `<div class="cours"><a href="${esc(f.url)}" target="_blank">Lire la biographie sur bmcyearbook.org</a></div>` : ""}${f.auteur ? `<div class="legende">Notice : ${esc(f.auteur)}</div>` : ""}
     ${f.rel ? `<div class="legende">Relations : ${esc(f.rel)}</div>` : ""}
     ${aam ? `<details><summary>documents de l'AAM cités par la notice (${f.aam.length})</summary>${aam}</details>` : ""}
     <div class="renvoi"><b>Recoupement</b> · ${att[0] ? `${att[0]} activité(s) attestée(s) (AAM, Duberman), du ${att[1]} au ${att[2]}` : "aucune activité attestée à ce nom (nom et prénom)"} · ${esc(f.statut)}</div>
@@ -381,6 +383,12 @@ const ST_TEXTE = { "retrouvé": "les témoins de l'entrée (noms, mots du titre,
   "à relire": "le texte cité est ouvert mais rien n'y est retrouvé automatiquement (traduction, paraphrase, OCR) : à relire",
   "référence introuvable": "la référence citée n'existe pas dans les textes du dépôt", "sans source": "aucune source indiquée" };
 function blocVerif(id, p) {
+  if (PUBLIC) {
+    if (!p.verif && !window.BMC_VERIF) return `<div class="verif" id="verifBloc"><b>Vérifier dans la source</b> · chargement…</div>`;
+    const st = p.verif ? p.verif[0] : ((window.BMC_VERIF || {})[cleVerif(id, p)] || [])[0] || "";
+    return `<div class="verif"><b>Vérifier dans la source</b>${st ? ` <span class="st ${ST_CLASSE[st] || "relire"}">${esc(st)}</span>` : ""}${p.url ? ` · <a href="${esc(p.url.split(" ")[0])}" target="_blank">ouvrir la fiche du musée</a>` : ""}
+      <div class="legende">Version publique : la référence exacte est donnée ci-dessus ; les extraits des textes cités ne sont pas reproduits (droits des auteurs et des éditeurs).</div></div>`;
+  }
   if (p.verif) { const sauve = window.BMC_VERIF; window.BMC_VERIF = { __: p.verif }; const h = blocVerif("__", { url: p.url, chronos: true }); window.BMC_VERIF = sauve; return h; }
   if (!window.BMC_VERIF) return `<div class="verif" id="verifBloc"><b>Vérifier dans la source</b> · chargement…</div>`;
   const v = BMC_VERIF[cleVerif(id, p)];
@@ -396,12 +404,22 @@ const JOURS_ABR = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"];
 const plusJours = (s, n) => { const x = new Date(s + "T12:00"); x.setDate(x.getDate() + n); return iso(x); };
 // couche spéculative : gabarit du trimestre appliqué à chacune de ses semaines, seulement pour les dates demandées
 const GAB = {};
-for (const [an, Y] of Object.entries(D.spec || {})) for (const g of Y.gabarits) (GAB[an + "|" + g.terme] ||= []).push(g);
+const indexerGab = an => { const Y = D.spec[an]; if (Y && Y.gabarits) for (const g of Y.gabarits) (GAB[an + "|" + g.terme] ||= []).push(g); };
+Object.keys(D.spec || {}).forEach(indexerGab);
+// version publique : les gabarits d'une année sont dans spec/AAAA-AA.js, chargé quand une de ses semaines est affichée
+const specEnCours = {};
+function chargerSpec(an) {
+  const Y = D.spec[an]; if (!Y || Y.gabarits) return Promise.resolve();
+  return specEnCours[an] ||= new Promise(ok => { const sc = document.createElement("script"); sc.src = `spec/${an}.js`;
+    sc.onload = () => { const x = (window.BMC_SPEC_AN || {})[an] || {}; Y.gabarits = x.gabarits || []; Y.analyse = x.analyse || ""; indexerGab(an); ok(); };
+    sc.onerror = () => { Y.gabarits = []; ok(); }; document.head.appendChild(sc); });
+}
 function specEntre(a, b) {
   if (!etat.spec) return [];
   const out = [];
   for (const [an, Y] of Object.entries(D.spec || {})) for (const S of Y.semaines) {
     if (S.lundi >= b || plusJours(S.lundi, 7) <= a) continue;
+    if (!Y.gabarits) { chargerSpec(an).then(maj); continue; }
     const jours = new Set(S.jours);
     (GAB[an + "|" + S.terme] || []).forEach((g, k) => {
       const f = FAM_DE[g.type] || FAMILLES[4];
@@ -675,7 +693,7 @@ function fiche(ev) {
       ${p.scenario ? ligne("Source", esc(p.src)) : ""}
       ${p.scenario && p.versions ? ligne("Autres versions", `<details><summary>selon d'autres livres</summary><span class="legende">${esc(p.versions)}</span></details>`) : ""}
       ${p.scenario && p.recoupement ? ligne("Recoupement", p.recoupement.split(" || ").map(r => `<div class="renvoi rs">${esc(r)}</div>`).join("")) : ""}
-      ${p.livres && p.livres.length ? ligne("Aussi dans les livres", p.livres.map(r => `<div class="renvoi">${esc(r.ref)} <span class="legende">· ${esc(r.nature)} · date dans le livre : ${esc(r.date)} · vérifié au jour, relu</span><details><summary>phrase</summary><span class="legende">${esc(r.phrase)}</span></details></div>`).join("")) : ""}
+      ${p.livres && p.livres.length ? ligne("Aussi dans les livres", p.livres.map(r => `<div class="renvoi">${esc(r.ref)} <span class="legende">· ${esc(r.nature)} · date dans le livre : ${esc(r.date)} · vérifié au jour, relu</span>${r.phrase ? `<details><summary>phrase</summary><span class="legende">${esc(r.phrase)}</span></details>` : ""}</div>`).join("")) : ""}
       ${p.scen && p.scen.length ? ligne("Renvoi scénario", p.scen.map(r => `<div class="renvoi rs">${r.decision === "même fait" ? "même fait" : "même jour, même personne"} : ${esc(r.activite)} ${r.pct != null ? pctTag(r.pct) : ""}<br><span class="legende">${esc(r.src)}${r.certitude ? " · " + esc(r.certitude) : ""}</span></div>`).join("")) : ""}
       ${p.dub && p.dub.length ? ligne("Renvoi Duberman", p.dub.map(r => `<div class="renvoi">${r.decision === "doublon" ? "même événement" : "rapprochement possible"} : ${esc(r.activite)} ${pctTag(r.pct)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span>${r.notes ? `<details><summary>notes de Duberman</summary><span class="legende">${esc(r.notes)}</span></details>` : ""}</div>`).join("")) : ""}
       ${p.duberman || p.scenario ? "" : ligne("Inventaire", esc(p.inv))}
@@ -685,6 +703,7 @@ function fiche(ev) {
   if (!window.BMC_VERIF && !p.verif) chargerVerif().then(() => { if (ficheOuverte() && document.getElementById("verifBloc")) fiche(ev); });
 }
 function analyse(k) {
+  if (D.spec && D.spec[k] && !D.spec[k].gabarits) { chargerSpec(k).then(() => analyse(k)); return; }
   const md = ((D.spec || {})[k] || {}).analyse; if (!md) return;
   const inl = t => esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/\*(.+?)\*/g, "<i>$1</i>").replace(/`(.+?)`/g, "<code>$1</code>");
   let h = "", liste = false;
@@ -892,12 +911,16 @@ function majHash() {
   const d = iso(ec.getOption("date")); document.getElementById("saut").value = d;
   history.replaceState(null, "", `#${d}/${document.body.classList.contains("j") ? "journal" : v.type}`);
 }
-(function lireHash() {
+function lireHash() {
   const m = location.hash.match(/^#(\d{4}-\d{2}-\d{2})(?:\/(\w+))?/);
   if (m) aller(m[1]);
   vue(m && m[2] ? m[2] : "journal");
-  if (window.innerWidth < 760) document.getElementById("filtres").open = false;
-})();
+}
+lireHash();
+if (window.innerWidth < 760) document.getElementById("filtres").open = false;
+// lien partagé ou saisi à la main (#1944-03-27/journal) : la page suit l'adresse
+window.addEventListener("hashchange", () => { const m = location.hash.match(/^#(\d{4}-\d{2}-\d{2})/);
+  if (m && lundiDe(m[1]) !== lundiDe(iso(ec.getOption("date")))) lireHash(); });
 </script>
 </body>
 </html>

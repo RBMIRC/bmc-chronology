@@ -198,3 +198,11 @@ Voir la section « Avancement » ci-dessous (mise à jour à chaque sauvegarde).
   `livres/NNN_a_verifier.md`. Sorties : `livres/NNN_*`, `chronos/NNN_livres_couche.csv` (vide). Ajouter un texte : le
   verser dans `DATA_BMC/textes_pdf`, compléter la table META (référence et genre), relancer le script, relire les
   nouveaux renvois dans `revue_renvois.txt`, puis `scripts/export_semainier.py`.
+
+## Semainier en ligne (version publique)
+- https://rbmirc.github.io/week (dépôt RBMIRC/week, branche `main`), généré par `scripts/publier_semainier.py <clone de
+  RBMIRC/week>` depuis `semainier/` : même page (vue « Journal » par défaut), références et parts déduites gardées,
+  extraits longs retirés (vérification réduite au statut, notes de Duberman, extraits Chronos et Rumaker, phrases des
+  livres, biographies du Yearbook), couche spéculative chargée par année (`spec/`). La version complète reste ici,
+  pour l'usage local. Ne rien modifier à la main dans RBMIRC/week : tout y est régénéré.
+

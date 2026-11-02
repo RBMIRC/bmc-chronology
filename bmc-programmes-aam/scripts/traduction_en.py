@@ -128,7 +128,7 @@ def verifier(num, remplacer=False, partiel=False):
             if not re.search(rf"\b({int(h)}|{h12}):{mn}\b", en): erreurs.append(f"{i} : heure {h}:{mn} mal rendue")
         hors = re.sub(r"\b\d{1,2}[:h]\s?\d{2}\b", " ", hors)
         for n in set(re.findall(r"\b\d+\b", hors)):
-            if n not in en and not (len(n) <= 2 and re.search(r"\bh\b|heure", hors)): erreurs.append(f"{i} : nombre {n} absent")
+            if n not in en and n not in re.sub(r"(\d),(\d{3})\b", r"\1\2", en) and not (len(n) <= 2 and re.search(r"\bh\b|heure", hors)): erreurs.append(f"{i} : nombre {n} absent")
         sans = re.sub(r"“[^”]*”|\"[^\"]*\"|\*[^*]*\*|\([^)]*\)", " ", en)
         for x in TITRES_FR + ["Big Sur", "Des Moines", "La Luz", "Le Corbusier", "Le Nain", "avant-garde", "Comité de lutte contre la répression coloniale", "Comité d'action des intellectuels"]: sans = sans.replace(x, " ")
         # particules des noms propres (Francine du Plessix Gray) et articles des titres d’œuvres (Le Piège de Méduse), repris de l’original

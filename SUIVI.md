@@ -161,7 +161,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 Inventaire : extractions automatiques de décembre 2025 (GPT-4o pour la ferme). Sources de base, traitées une à une :
 1. `asheville_events.json` (377 fiches du musée) — **fait**
 2. `harris_events.json` (165 entretiens de Mary Emma Harris) — **fait**
-3. `farm_events.json` (Silver, The Farm at BMC) — à faire
+3. `farm_events.json` (Silver, The Farm at BMC) — **fait**
 4. `bmc_chronology.json` (Duberman, « Chronos 2 ») — à faire
 5. `BlackMountainPeople.txt` (1 299 personnes, rôles, années) — à faire
 Dérivés (inventoriés seulement, pour ne pas compter deux fois) : `bmc_chronology_{enriched,final,complete,ultimate,
@@ -186,6 +186,16 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   citation dans la transcription (548/563 contrôlés).
 - 300 cours cités : 187 titre et enseignant dans l'AAM, 16 enseignant cette année-là, 97 absents de l'AAM.
 - 271 faits jugés incertains par l'extraction : `chronos/002_harris_incertains.csv` (hors couche).
+
+### 8.3 farm_events.json
+- `scripts/chronos_ferme.py` → `chronos/003_ferme_*`. 193 événements + 101 documents datés (lettres, rapports cités par
+  Silver). Vérification dans l'OCR des deux pages du scan citées (`DATA_BMC/_correction_farm/pages.json`), pages du livre
+  d'après `pagemap.json` : retrouvé 209, indice faible 79, à relire 6.
+- Dates : écrites AAAA-MM-01 même au mois ou à l'année ; la précision déclarée est respectée (pas de faux jour).
+- Recoupement (règle stricte : même date, personne commune ET mot commun) : 3 confirmés, 78 présences attestées,
+  199 non confirmés, 14 dates illisibles. Couche Chronos : 248 entrées (1933-1957).
+- Même règle stricte appliquée à Harris → `chronos/004_harris_*` (002 conservé) : 1 confirmation au lieu de 4
+  (les 3 autres étaient de simples coïncidences de nom le même mois).
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

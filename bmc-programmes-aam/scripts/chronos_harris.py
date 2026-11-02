@@ -126,8 +126,13 @@ def main():
             else:
                 ns = K.noms_famille(pers)
                 hits = [(x, b, a) for n in ns for (x, b, a) in par_nom.get(n, []) if d[0] <= x <= d[1]]
-                if d[2] in ("jour", "plage", "mois") and hits:
-                    statut = f"confirmé ({hits[0][1]})"; avec = f"{hits[0][0]} « {hits[0][2][:100]} »"
+                # confirmé : même date, personne commune ET mot significatif commun (hors noms de personnes)
+                mq = {w for w in re.findall(r"[a-z]{5,}", V.plat(quoi)) if w not in V.VIDES} - ns - \
+                     {w for p in pers for w in re.findall(r"[a-z]+", V.plat(p))} - {"board", "fellows", "college", "black", "mountain", "faculty"}
+                commun = lambda h: len(mq & set(re.findall(r"[a-z]{4,}", V.plat(h[2]))))
+                precis = sorted([h for h in hits if commun(h)], key=lambda h: -commun(h))
+                if d[2] in ("jour", "plage", "mois") and precis:
+                    statut = f"confirmé ({precis[0][1]})"; avec = f"{precis[0][0]} « {precis[0][2][:100]} »"
                 elif hits:
                     statut = f"présence attestée ({', '.join(sorted({h[1] for h in hits}))})"
                     avec = f"{len(hits)} activité(s), du {min(h[0] for h in hits)} au {max(h[0] for h in hits)}"

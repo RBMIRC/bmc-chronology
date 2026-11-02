@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Mountain College - Timeline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-hover: #1a1a25;
+            --accent: #c9a227;
+            --accent-light: #e8c547;
+            --text-primary: #f5f5f5;
+            --text-secondary: #a0a0a0;
+            --text-muted: #666;
+            --border: #2a2a35;
+            --timeline-line: #3a3a45;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(ellipse at top, #1a1a2e 0%, transparent 50%),
+                radial-gradient(ellipse at bottom right, #0f0f1a 0%, transparent 50%);
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent);
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: var(--text-primary);
+            font-weight: 400;
+        }
+
+        /* Search */
+        .search-container {
+            flex: 1;
+            max-width: 400px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            padding-left: 2.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            transition: all 0.3s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.1);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        /* Stats */
+        .stats {
+            display: flex;
+            gap: 2rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .stat-value {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        /* Main Layout */
+        main {
+            display: flex;
+            margin-top: 80px;
+            min-height: calc(100vh - 80px);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            position: fixed;
+            left: 0;
+            top: 80px;
+            bottom: 0;
+            background: var(--bg-card);
+            border-right: 1px solid var(--border);
+            padding: 1.5rem;
+            overflow-y: auto;
+        }
+
+        .filter-section {
+            margin-bottom: 2rem;
+        }
+
+        .filter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.9rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .year-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.5rem;
+        }
+
+        .year-btn {
+            padding: 0.5rem;
+            background: var(--bg-dark);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .year-btn:hover {
+            border-color: var(--accent);
+            color: var(--text-primary);
+        }
+
+        .year-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: var(--bg-dark);
+            font-weight: 600;
+        }
+
+        .category-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .category-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            background: transparent;
+            border: none;
+            border-radius: 4px;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+        }
+
+        .category-btn:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+
+        .category-btn.active {
+            background: rgba(201, 162, 39, 0.15);
+            color: var(--accent);
+        }
+
+        .category-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        /* Timeline Content */
+        .timeline-container {
+            flex: 1;
+            margin-left: 280px;
+            padding: 2rem 3rem;
+            max-width: 1000px;
+        }
+
+        .timeline-header {
+            margin-bottom: 2rem;
+        }
+
+        .timeline-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--accent), var(--timeline-line), var(--accent));
+        }
+
+        .year-section {
+            margin-bottom: 3rem;
+        }
+
+        .year-marker {
+            position: relative;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            margin-left: -40px;
+            padding-left: 50px;
+        }
+
+        .year-marker::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 18px;
+            background: var(--accent);
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(201, 162, 39, 0.5);
+        }
+
+        .month-section {
+            margin-bottom: 2rem;
+        }
+
+        .month-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
+
+        /* Event Cards */
+        .event-card {
+            position: relative;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .event-card::before {
+            content: '';
+            position: absolute;
+            left: -32px;
+            top: 1.5rem;
+            width: 10px;
+            height: 10px;
+            background: var(--bg-card);
+            border: 2px solid var(--timeline-line);
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+
+        .event-card:hover {
+            border-color: var(--accent);
+            transform: translateX(5px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .event-card:hover::before {
+            border-color: var(--accent);
+            background: var(--accent);
+        }
+
+        .event-date {
+            font-size: 0.8rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .event-title {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+        }
+
+        .event-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .event-tag {
+            padding: 0.25rem 0.5rem;
+            background: var(--bg-dark);
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .event-tag.category {
+            background: rgba(201, 162, 39, 0.15);
+            color: var(--accent);
+        }
+
+        .event-people {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .person-tag {
+            padding: 0.2rem 0.5rem;
+            background: var(--bg-hover);
+            border-radius: 20px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+        }
+
+        .person-tag:hover {
+            background: var(--accent);
+            color: var(--bg-dark);
+        }
+
+        .event-source {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+            font-style: italic;
+        }
+
+        .event-quote {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: var(--bg-dark);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 8px 8px 0;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Expanded event */
+        .event-card.expanded {
+            border-color: var(--accent);
+        }
+
+        .event-details {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .event-card.expanded .event-details {
+            display: block;
+        }
+
+        /* Loading */
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+            color: var(--text-secondary);
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-secondary);
+        }
+
+        .empty-state h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Pagination */
+        .load-more {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            margin-top: 2rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--accent);
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .load-more:hover {
+            background: var(--accent);
+            color: var(--bg-dark);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .sidebar {
+                display: none;
+            }
+            .timeline-container {
+                margin-left: 0;
+                padding: 1.5rem;
+            }
+            .header-content {
+                flex-wrap: wrap;
+            }
+            .stats {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">BLACK MOUNTAIN <span>COLLEGE</span></div>
+            <div class="search-container">
+                <input type="text" class="search-input" id="searchInput" placeholder="Rechercher un événement, une personne...">
+            </div>
+            <div class="stats">
+                <div><span class="stat-value" id="totalEvents">-</span> événements</div>
+                <div><span class="stat-value" id="filteredEvents">-</span> affichés</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <aside class="sidebar">
+            <div class="filter-section">
+                <div class="filter-title">Années</div>
+                <div class="year-grid" id="yearFilters"></div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-title">Catégories</div>
+                <div class="category-list" id="categoryFilters"></div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-title">Personnes clés</div>
+                <div class="category-list" id="peopleFilters"></div>
+            </div>
+        </aside>
+
+        <div class="timeline-container">
+            <div class="timeline-header">
+                <h1>Chronologie</h1>
+                <p>1933 — 1956 · L'histoire d'une utopie artistique</p>
+            </div>
+
+            <div id="timeline" class="timeline">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Chargement de la chronologie...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Configuration
+        const EVENTS_PER_PAGE = 50;
+        let allEvents = [];
+        let filteredEvents = [];
+        let displayedEvents = 0;
+        let selectedYear = null;
+        let selectedCategory = null;
+        let selectedPerson = null;
+        let searchQuery = '';
+
+        // Catégories avec couleurs
+        const CATEGORIES = {
+            'academic': { label: 'Académique', color: '#4a9eff' },
+            'artistic': { label: 'Artistique', color: '#ff6b9d' },
+            'performance': { label: 'Performance', color: '#9d4edd' },
+            'administrative': { label: 'Administratif', color: '#00b894' },
+            'construction': { label: 'Construction', color: '#fdcb6e' },
+            'farm': { label: 'Ferme', color: '#55a630' },
+            'financial': { label: 'Financier', color: '#e17055' },
+            'visit': { label: 'Visite', color: '#74b9ff' },
+            'war': { label: 'Guerre', color: '#d63031' },
+            'calendar': { label: 'Calendrier', color: '#636e72' },
+            'other': { label: 'Autre', color: '#a0a0a0' }
+        };
+
+        // Mois en français
+        const MONTHS = {
+            '01': 'Janvier', '02': 'Février', '03': 'Mars', '04': 'Avril',
+            '05': 'Mai', '06': 'Juin', '07': 'Juillet', '08': 'Août',
+            '09': 'Septembre', '10': 'Octobre', '11': 'Novembre', '12': 'Décembre'
+        };
+
+        // Charger les données
+        async function loadData() {
+            try {
+                const response = await fetch('../bmc_chronology_ultimate.json');
+                const data = await response.json();
+                allEvents = data.events || [];
+                
+                document.getElementById('totalEvents').textContent = allEvents.length.toLocaleString();
+                
+                initFilters();
+                applyFilters();
+            } catch (error) {
+                console.error('Erreur de chargement:', error);
+                document.getElementById('timeline').innerHTML = `
+                    <div class="empty-state">
+                        <h3>Erreur de chargement</h3>
+                        <p>Impossible de charger le fichier JSON. Assurez-vous que le fichier bmc_chronology_ultimate.json est présent.</p>
+                        <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                            Conseil: Lancez un serveur local avec <code>python -m http.server 8000</code>
+                        </p>
+                    </div>
+                `;
+            }
+        }
+
+        // Initialiser les filtres
+        function initFilters() {
+            // Années
+            const years = [...new Set(allEvents.map(e => extractYear(e.date)).filter(y => y))].sort();
+            const yearGrid = document.getElementById('yearFilters');
+            yearGrid.innerHTML = years.map(y => `
+                <button class="year-btn" data-year="${y}">${y}</button>
+            `).join('');
+
+            // Catégories
+            const categories = [...new Set(allEvents.map(e => e.category || 'other'))];
+            const catList = document.getElementById('categoryFilters');
+            catList.innerHTML = Object.entries(CATEGORIES)
+                .filter(([key]) => categories.includes(key))
+                .map(([key, val]) => `
+                    <button class="category-btn" data-category="${key}">
+                        <span class="category-dot" style="background: ${val.color}"></span>
+                        ${val.label}
+                    </button>
+                `).join('');
+
+            // Personnes les plus fréquentes
+            const peopleCounts = {};
+            allEvents.forEach(e => {
+                (e.people || []).forEach(p => {
+                    if (p) peopleCounts[p] = (peopleCounts[p] || 0) + 1;
+                });
+            });
+            const topPeople = Object.entries(peopleCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 15);
+            
+            const peopleList = document.getElementById('peopleFilters');
+            peopleList.innerHTML = topPeople.map(([name, count]) => `
+                <button class="category-btn" data-person="${name}">
+                    ${name} <span style="opacity: 0.5">(${count})</span>
+                </button>
+            `).join('');
+
+            // Event listeners
+            yearGrid.addEventListener('click', (e) => {
+                if (e.target.classList.contains('year-btn')) {
+                    const year = e.target.dataset.year;
+                    selectedYear = selectedYear === year ? null : year;
+                    document.querySelectorAll('.year-btn').forEach(b => b.classList.remove('active'));
+                    if (selectedYear) e.target.classList.add('active');
+                    applyFilters();
+                }
+            });
+
+            catList.addEventListener('click', (e) => {
+                const btn = e.target.closest('.category-btn');
+                if (btn) {
+                    const cat = btn.dataset.category;
+                    selectedCategory = selectedCategory === cat ? null : cat;
+                    document.querySelectorAll('#categoryFilters .category-btn').forEach(b => b.classList.remove('active'));
+                    if (selectedCategory) btn.classList.add('active');
+                    applyFilters();
+                }
+            });
+
+            peopleList.addEventListener('click', (e) => {
+                const btn = e.target.closest('.category-btn');
+                if (btn) {
+                    const person = btn.dataset.person;
+                    selectedPerson = selectedPerson === person ? null : person;
+                    document.querySelectorAll('#peopleFilters .category-btn').forEach(b => b.classList.remove('active'));
+                    if (selectedPerson) btn.classList.add('active');
+                    applyFilters();
+                }
+            });
+        }
+
+        // Extraire l'année d'une date
+        function extractYear(dateStr) {
+            if (!dateStr) return null;
+            const match = String(dateStr).match(/(\d{4})/);
+            return match ? match[1] : null;
+        }
+
+        // Extraire le mois
+        function extractMonth(dateStr) {
+            if (!dateStr) return null;
+            const match = String(dateStr).match(/\d{4}-(\d{2})/);
+            return match ? match[1] : null;
+        }
+
+        // Appliquer les filtres
+        function applyFilters() {
+            filteredEvents = allEvents.filter(e => {
+                // Filtre année
+                if (selectedYear && extractYear(e.date) !== selectedYear) return false;
+                
+                // Filtre catégorie
+                if (selectedCategory && (e.category || 'other') !== selectedCategory) return false;
+                
+                // Filtre personne
+                if (selectedPerson && !(e.people || []).includes(selectedPerson)) return false;
+                
+                // Recherche
+                if (searchQuery) {
+                    const query = searchQuery.toLowerCase();
+                    const eventText = (e.event || '').toLowerCase();
+                    const peopleText = (e.people || []).join(' ').toLowerCase();
+                    const sourceText = (e.source || '').toLowerCase();
+                    if (!eventText.includes(query) && !peopleText.includes(query) && !sourceText.includes(query)) {
+                        return false;
+                    }
+                }
+                
+                return true;
+            });
+
+            document.getElementById('filteredEvents').textContent = filteredEvents.length.toLocaleString();
+            displayedEvents = 0;
+            renderTimeline();
+        }
+
+        // Afficher la timeline
+        function renderTimeline() {
+            const timeline = document.getElementById('timeline');
+            
+            if (filteredEvents.length === 0) {
+                timeline.innerHTML = `
+                    <div class="empty-state">
+                        <h3>Aucun événement trouvé</h3>
+                        <p>Essayez de modifier vos filtres ou votre recherche.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Grouper par année puis par mois
+            const eventsToShow = filteredEvents.slice(0, displayedEvents + EVENTS_PER_PAGE);
+            displayedEvents = eventsToShow.length;
+
+            const grouped = {};
+            eventsToShow.forEach(e => {
+                const year = extractYear(e.date) || 'Date inconnue';
+                const month = extractMonth(e.date) || '00';
+                if (!grouped[year]) grouped[year] = {};
+                if (!grouped[year][month]) grouped[year][month] = [];
+                grouped[year][month].push(e);
+            });
+
+            let html = '';
+            Object.keys(grouped).sort().forEach(year => {
+                html += `<div class="year-section">`;
+                html += `<div class="year-marker">${year}</div>`;
+                
+                Object.keys(grouped[year]).sort().forEach(month => {
+                    const monthName = MONTHS[month] || '';
+                    if (monthName) {
+                        html += `<div class="month-section">`;
+                        html += `<div class="month-label">${monthName}</div>`;
+                    }
+                    
+                    grouped[year][month].forEach(e => {
+                        html += renderEventCard(e);
+                    });
+                    
+                    if (monthName) html += `</div>`;
+                });
+                
+                html += `</div>`;
+            });
+
+            // Bouton charger plus
+            if (displayedEvents < filteredEvents.length) {
+                html += `<button class="load-more" onclick="loadMore()">
+                    Charger plus d'événements (${filteredEvents.length - displayedEvents} restants)
+                </button>`;
+            }
+
+            timeline.innerHTML = html;
+
+            // Ajouter les event listeners pour expand
+            document.querySelectorAll('.event-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    card.classList.toggle('expanded');
+                });
+            });
+        }
+
+        // Rendre une carte d'événement
+        function renderEventCard(e) {
+            const category = CATEGORIES[e.category] || CATEGORIES.other;
+            const people = (e.people || []).slice(0, 5);
+            
+            return `
+                <div class="event-card">
+                    <div class="event-date">${e.date || 'Date inconnue'}</div>
+                    <div class="event-title">${e.event || 'Événement'}</div>
+                    <div class="event-meta">
+                        <span class="event-tag category" style="background: ${category.color}20; color: ${category.color}">
+                            ${category.label}
+                        </span>
+                        ${e.location ? `<span class="event-tag">${e.location}</span>` : ''}
+                    </div>
+                    ${people.length > 0 ? `
+                        <div class="event-people">
+                            ${people.map(p => `<span class="person-tag">${p}</span>`).join('')}
+                        </div>
+                    ` : ''}
+                    <div class="event-details">
+                        ${e.quote ? `<div class="event-quote">"${e.quote}"</div>` : ''}
+                        ${e.source ? `<div class="event-source">Source: ${e.source}</div>` : ''}
+                        ${e.details ? `<p style="margin-top: 0.75rem; color: var(--text-secondary)">${e.details}</p>` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Charger plus d'événements
+        function loadMore() {
+            renderTimeline();
+        }
+
+        // Recherche
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            applyFilters();
+        });
+
+        // Charger au démarrage
+        loadData();
+    </script>
+</body>
+</html>
+
+

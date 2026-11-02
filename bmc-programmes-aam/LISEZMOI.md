@@ -60,7 +60,8 @@ Source : collection.ashevilleart.org (fonds Theodore Dreier Sr. 2017.40.*, etc.)
   chaque élément avec ses références de fiche cliquables (livre, pages, extrait vérifié) ; « ⓘ » après un nom ouvre le
   dossier du personnage (présence, moments, relations, contradictions, questions ouvertes) avec, en regard, ses
   activités attestées (AAM, Duberman). Les portraits psychologiques ne sont pas repris ; une présence marquée
-  « inventée pour le récit » est écartée.
+  « inventée pour le récit » est écartée. Panneau « Cours de AAAA-AA selon les livres » : fiches « cours » du scénario
+  (contenu, concordance avec les cours AAM, référence vérifiable) ; les cours datés sur plus de deux ans sont repliés.
   Ajouter des documents datés (photos, lettres d'autres fonds) : une ligne dans `semainier/documents_extra.csv`
   (date, titre, url, image, type, datation, source, part_deduite_pct, inventaire), puis relancer le script.
 - **Couche spéculative** (semaines reconstituées là où aucun document ne donne le programme) :

@@ -12,7 +12,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 | 3 | Contrôles (`construire.py --verifier`, navigateur headless, avant/après) | fait | « contrôles finaux » |
 | 4 | Scénario (bmc-scenario, 60 livres) reporté sur le semainier et recoupé | fait | « semainier : couche Scénario et recoupements » |
 | 5 | Vérification des sources de chaque entrée, extrait dans chaque fiche | fait | « vérification des sources » |
-| 6 | Synthèses du scénario : chroniques mensuelles, dossiers, références | en cours | « synthèses du scénario » |
+| 6 | Synthèses du scénario : chroniques mensuelles, dossiers, références, cours | fait | « synthèses du scénario » |
 
 ## Étape 0 — chemins
 - `scripts/selectionner.py` : déjà relatif (`ROOT` calculé depuis le script), rien à changer.
@@ -143,7 +143,9 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
   citées) », clé « f » + id) → `programme/audit/002_verification_sources.*` : 87 % retrouvées (4 % au hasard),
   citations : texte original cherché dans la page (1 158 citations, 95 % retrouvées) ; 2 fiches sans numéro de page.
   Lecture des pages améliorée (« pp. », « 90, 93 », « (note 11) », chapitres « ch17 » des livres numériques).
-- 6c à faire : contenu des cours du scénario dans « Cours offerts ».
+- 6c fait : 708 fiches « cours » à BMC (objectifs, exercices, matériaux, déroulé, propos, réactions) dans le
+  panneau « Cours de AAAA-AA selon les livres », avec la concordance AAM (`scenario/001_cours_scenario.csv`) et la
+  référence vérifiable ; sorties `scenario/003_*` (002 conservé), vérification `programme/audit/003_*`.
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

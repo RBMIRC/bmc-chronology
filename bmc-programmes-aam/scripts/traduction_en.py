@@ -98,10 +98,14 @@ def verifier(num, remplacer=False):
                 (erreurs if T.EN.search(q) else avert).append(f"{i} : citation altérée ou absente « {q[:50]} »")
         hors = re.sub(r"«[^»]*»|“[^”]*”|\"[^\"]*\"|\*[^*]*\*", " ", fr)
         for w in set(re.findall(r"\b[A-Z][a-zà-ÿ'’\-]{2,}\b", hors)):
-            if w in noms and w not in en and w not in LIEUX_FR: erreurs.append(f"{i} : nom « {w} » absent")
+            if w in noms and w not in en and w not in LIEUX_FR:   # premier mot (« Avis au tableau ») : peut-être un mot commun
+                (avert if re.match(rf"\W*{w}\b", fr) else erreurs).append(f"{i} : nom « {w} » absent")
         for n in set(re.findall(r"\b\d+\b", hors)):
             if n not in en and not (len(n) <= 2 and re.search(r"\bh\b|heure", hors)): erreurs.append(f"{i} : nombre {n} absent")
-        reste = OUTILS_FR.findall(re.sub(r"“[^”]*”|\"[^\"]*\"|\*[^*]*\*|\([^)]*\)", " ", en))
+        sans = re.sub(r"“[^”]*”|\"[^\"]*\"|\*[^*]*\*|\([^)]*\)", " ", en)
+        # particules des noms propres (Francine du Plessix Gray) et articles des titres d’œuvres (Le Piège de Méduse), repris de l’original
+        sans = re.sub(r"\b(?i:du|de|des|la|le|les|un|une)\s+([A-Z][\w'’\-]+)", lambda m: " " if m.group(1) in fr and m.group(1) not in LIEUX_FR else m.group(0), sans)
+        reste = OUTILS_FR.findall(sans)
         if reste: erreurs.append(f"{i} : français restant ({', '.join(sorted(set(reste)))}) : {en[:70]}")
         if re.search(r"\s[:;!?](\s|$)", en): avert.append(f"{i} : espace avant ponctuation")
         for g, v in GLOSSAIRE:

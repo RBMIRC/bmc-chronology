@@ -9,7 +9,7 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 | 0 | Chemins `~/Documents/...` → chemins relatifs à la racine du dépôt | fait | « chemins relatifs » |
 | 1 | Intégrer Duberman au semainier | fait | « semainier : couche Duberman » |
 | 2 | Couche spéculative 1949-50 → 1956-57 | fait (1955-57 sans semaines, faute de calendrier) | une année = un commit |
-| 3 | Contrôles (`construire.py --verifier`, navigateur headless, avant/après) | à faire | |
+| 3 | Contrôles (`construire.py --verifier`, navigateur headless, avant/après) | fait | « contrôles finaux » |
 
 ## Étape 0 — chemins
 - `scripts/selectionner.py` : déjà relatif (`ROOT` calculé depuis le script), rien à changer.
@@ -93,5 +93,17 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 - **Question** : faut-il un calendrier spéculatif pour 1954-55 (hiver-printemps 1955) et 1955-56 (sessions d'hiver et
   de printemps 1956), transposé des trimestres de 1954 comme pour 1934-35 (30-45 % sur les dates) ?
 
+## Étape 3 — contrôles (2/11/2026)
+- `python3 scripts/construire.py --verifier` : « 5073 événements, 821 cours, 198 périodes », identique avant (état du
+  début de session, 3c7a9b4~1) et après. Les CSV de `programme/` (evenements, cours_par_periode, calendrier_periodes)
+  n'ont pas changé.
+- `data.js` avant : 4 650 activités attestées, 16 années spéculatives, 324 documents.
+  Après : 4 650 activités attestées (inchangé) + 484 événements Duberman dans la grille et 434 au panneau, 22 années
+  spéculatives (1933-34 → 1954-55), 1 355 documents.
+- Chromium headless : une semaine par année de 1933 à 1956 (Semaine et Présences), vues Liste et Mois, filtres de
+  famille, de part déduite, recherche, cases « Couche spéculative » et « Duberman », fiche d'une entrée spéculative,
+  analyse d'année : 0 erreur console.
+
 ## Points à vérifier sur scan
-(aucun pour l'instant)
+Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le
+corpus pour ces années ; tous les horaires sont supposés et codés comme tels).

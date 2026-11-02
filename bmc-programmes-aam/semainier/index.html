@@ -315,7 +315,7 @@ const JOURS = [...new Set(D.events.map(e => e.start.slice(0, 10)))].sort();
 
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
-const pctTag = p => `<span class="pct ${p === 0 ? "p0" : p >= 30 ? "p30" : ""}" title="part déduite des sources">${p} %</span>`;
+const pctTag = p => `<span class="pct ${p === 0 ? "p0" : p >= 30 ? "p30" : ""}" title="${window.LANG === "en" ? "share deduced from the sources" : "part déduite des sources"}">${p} %</span>`;
 // ---- collections : chaque entrée est rangée sous sa source, avec un nom compréhensible pour un chercheur
 const COLLECTIONS = [
   ["bulletins", "Documents du collège (Asheville Art Museum)", "Bulletins de la communauté", "Bulletin", "Community Bulletins hebdomadaires du collège, lus et relus (AAM)", "#3d3a35"],
@@ -599,7 +599,7 @@ const ec = EventCalendar.create(document.getElementById("cal"), {
   eventContent: info => {
     const p = info.event.extendedProps;
     const h = p.heure ? (/^\d/.test(p.heure) ? p.heure + " " : `[${p.heure}] `) : "";
-    const b = p.pct ? `<span class="ev-b">${p.spec ? "spéc. " : ""}${p.pct} %</span>` : "";
+    const b = p.pct ? `<span class="ev-b">${p.spec ? (window.LANG === "en" ? "spec. " : "spéc. ") : ""}${p.pct} %</span>` : "";
     if (p.duberman || p.chronos || p.scenario) return { html: `<div class="ec-event-title">${esc(h)}<b>${esc(nomCourt(info.event))}.</b> ${esc(tx(info.event.title))}${b}</div>` };
     return { html: `<div class="ec-event-title">${esc(h)}${esc(tx(info.event.title))}${b}</div>` };
   },

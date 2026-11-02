@@ -13,12 +13,12 @@ def souvenir(t):
     return re.sub(r"Souvenir de (.+?) \(([^,()]+), à BMC ([^)]+)\) : « (.+?) »", f, t)
 def suivis(t):
     n = lambda k: f"{k} student" + ("" if k == "1" else "s")
-    t = re.sub(r"Ce trimestre-là : cours suivi par (\d+) étudiant\(s\) : ", lambda m: f"That quarter: course taken by {n(m[1])}: ", t)
+    t = re.sub(r"Ce trimestre-là : cours suivi par (\d+) étudiant\(s\) : ", lambda m: f"That term: course taken by {n(m[1])}: ", t)
     t = re.sub(r"(?<![\w-])Suivi par (\d+) étudiant\(s\) : ", lambda m: f"Taken by {n(m[1])}: ", t)
     t = re.sub(r"Fiches d'étudiants : suivi d'après les fiches d'étudiants en (automne|hiver|printemps|été), d'aucune fiche ce trimestre-ci",
                lambda m: f"Student records: taken in the {dict(automne='fall', hiver='winter', printemps='spring', été='summer')[m[1]]} according to the student records; no record for this quarter", t)
     t = re.sub(r"Fiches d'étudiants : ", "Student records: ", t)
-    t = re.sub(r"titre suivi ce trimestre-là avec un autre enseignant : ", "title taken that quarter with another teacher: ", t)
+    t = re.sub(r"titre suivi ce trimestre-là avec un autre enseignant : ", "title taken that term with another teacher: ", t)
     t = re.sub(r"« ([^»]*?) » avec ", r"“\1” with ", t)
     t = t.replace(" [abandonné]", " [dropped]").replace(" ; BMC Yearbook)", "; BMC Yearbook)").replace("; « ", "; “")
     t = t.replace("plage indicative ; ", "indicative time slot; ").replace("volume et horaire supposés ; ", "hours and schedule assumed; ")

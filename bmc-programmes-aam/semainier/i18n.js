@@ -104,20 +104,20 @@ const GROUPES_EN = { "Documents du collège (Asheville Art Museum)": "College do
 const REGLES_EN = [
   [/^présence cette semaine-là déduite d'un rythme régulier \(hebdomadaire, quotidien, cours de toute l'année\)/, "presence that week deduced from a regular rhythm (weekly, daily, year-long course)"],
   [/^jour choisi par moi/, "day chosen by me"],
-  [/^heure choisie par moi dans un créneau attesté \(matin, après-midi de cours, après le dîner, samedi soir\)/, "hour chosen by me within an attested slot (morning, afternoon classes, after dinner, Saturday evening)"],
-  [/^heure choisie par moi sans source/, "hour chosen by me without a source"],
+  [/^heure choisie par moi dans un créneau attesté \(matin, après-midi de cours, après le dîner, samedi soir\)/, "time chosen by me within an attested time slot (morning, afternoon classes, after dinner, Saturday evening)"],
+  [/^heure choisie par moi sans source/, "time chosen by me without a source"],
   [/^cours ou activité attesté pour l'année même/, "course or activity attested for the same year"],
   [/^extraction automatique par modèle de langage, non relue/, "automatic extraction by a language model, unreviewed"],
   [/^extraction automatique \(Chronos, décembre 2025\), non relue/, "automatic extraction (December 2025), unreviewed"],
   [/^extraction automatique \(GPT-4o Vision sur le scan, décembre 2025\), non relue/, "automatic extraction (GPT-4o Vision on the scan, December 2025), unreviewed"],
   [/^extraction automatique \(Chronos 2\), citation retrouvée dans le texte corrigé de Duberman/, "automatic extraction, quotation found in the corrected text of Duberman"],
-  [/^volume horaire supposé \(non donné pour ce cours\)/, "assumed number of hours (not given for this course)"],
+  [/^volume horaire supposé \(non donné pour ce cours\)/, "number of hours assumed (not given for this course)"],
   [/^enseignant nommé pour ce cours dans le catalogue de l'année/, "teacher named for this course in the year's catalog"],
   [/^structure \(heures, semestres\) ou usage pris dans une année voisine/, "structure (hours, terms) or practice taken from a neighboring year"],
   [/^enseignant rattaché par sa discipline et nommé pour ce cours \(ou son équivalent\) dans une année voisine/, "teacher attributed by subject and named for this course (or its equivalent) in a neighboring year"],
   [/^enseignant rattaché par sa discipline : seul enseignant de cette matière au catalogue/, "teacher attributed by subject: the only teacher of the subject in the catalog"],
-  [/^enseignant rattaché par élimination entre collègues de la même discipline/, "teacher attributed by elimination among colleagues of the same subject"],
-  [/^enseignant inconnu ou rattaché par simple compétence/, "teacher unknown or attributed by competence only"],
+  [/^enseignant rattaché par élimination entre collègues de la même discipline/, "teacher attributed by elimination among colleagues in the same subject"],
+  [/^enseignant inconnu ou rattaché par simple compétence/, "teacher unknown or attributed by competence alone"],
   [/^enseignant rattaché d'après Duberman \(texte corrigé\), pas d'après un document de l'année/, "teacher attributed from Duberman (corrected text), not from a document of the year"],
   [/^enseignant ou rattachement déduit \(pas écrit dans ce document\)/, "teacher or attribution deduced (not written in this document)"],
   [/^témoignage direct \(souvenir publié, souvent tardif\)/, "direct testimony (published memory, often late)"],
@@ -127,10 +127,10 @@ const REGLES_EN = [
   [/^séance projetée sur chaque date d'après un horaire que la source donne comme régulier/, "session projected on each date from a schedule the source gives as regular"],
   [/^séance projetée sur chaque date/, "session projected on each date"],
   [/^régularité déduite par moi/, "regularity deduced by me"],
-  [/^titre : chance (\S+) que ce soit bien ce cours ce trimestre-là \(part du titre (\d+) %\)/, "title: $1 chance that this is the course given that term (title share $2 %)"],
-  [/^liste de cours de l'année précédente : celle de l'année n'est pas lisible dans le corpus/, "course list of the previous year: the year's own list is not readable in the corpus"],
+  [/^titre : chance (\S+) que ce soit bien ce cours ce trimestre-là \(part du titre (\d+) %\)/, "title: a $1 chance that this is the course given that term (title share $2%)"],
+  [/^liste de cours de l'année précédente : celle de l'année n'est pas lisible dans le corpus/, "course list of the previous year: the year's own list is not legible in the corpus"],
   [/^liste de cours donnée pour d'autres trimestres de l'année, reconduite pour celui-ci/, "course list given for other terms of the year, carried over to this one"],
-  [/^transposé d'une période éloignée ou d'un autre campus/, "transposed from a distant period or another campus"],
+  [/^transposé d'une période éloignée ou d'un autre campus/, "carried over from a distant period or another campus"],
   [/^cours suivi ce trimestre-là d'après les fiches d'étudiants \(BMC Yearbook, bmcyearbook\.org\)/, "course taken that term according to student records (BMC Yearbook, bmcyearbook.org)"],
   [/^attesté tel quel dans la source \(meilleure des sources fusionnées\)/, "attested as is in the source (best of the merged sources)"],
   [/^attesté tel quel dans la source/, "attested as is in the source"],
@@ -147,14 +147,14 @@ const REGLES_EN = [
   [/^date corrigée \(incohérence du livre\)/, "date corrected (inconsistency in the book)"],
   [/^date corrigée contre celle du musée ou du document/, "date corrected against the museum's or the document's"],
   [/^plage de (\d+) jours/, "range of $1 days"],
-  [/^activité occasionnelle, mensuelle ou « à la demande » : rien ne dit qu'elle tombe cette semaine/, "occasional, monthly or on-demand activity: nothing says it falls this week"],
+  [/^activité occasionnelle, mensuelle ou « à la demande » : rien ne dit qu'elle tombe cette semaine/, "occasional, monthly, or “on request” activity: nothing says it falls this week"],
   [/^élément supposé par moi \(heure, fin de période…\)/, "element assumed by me (hour, end of period…)"],
   [/^élément supposé \(date, durée ou participant\)/, "element assumed (date, duration or participant)"],
   [/^annoncé à l'avance : réalisation non attestée/, "announced in advance: actual event not attested"],
   [/^annoncé ou prévu, réalisation non attestée/, "announced or planned, actual event not attested"],
-  [/^domaine annoncé à l'avance \(« fields represented will be… »\) : cours réel non attesté/, "field announced in advance (\"fields represented will be…\"): actual course not attested"],
+  [/^domaine annoncé à l'avance \(« fields represented will be… »\) : cours réel non attesté/, "field announced in advance (“fields represented will be…”): actual course not attested"],
   [/^récurrence ou période déduite/, "recurrence or period deduced"],
-  [/^présence de l'enseignant pendant tout le trimestre non attestée/, "teacher's presence through the whole term not attested"],
+  [/^présence de l'enseignant pendant tout le trimestre non attestée/, "the teacher's presence throughout the term not attested"],
   [/^non retenu par l'audit manuel du même document : oubli, règle écartée ou date mal résolue — à relire/, "not kept by the manual audit of the same document: omission, rule set aside or date misread — to be checked"],
   [/^témoins non réunis dans les pages citées : indice faible/, "clues not found together in the cited pages: weak clue"],
   [/^témoins non réunis dans les pages citées : à relire/, "clues not found together in the cited pages: to be checked"],
@@ -164,7 +164,7 @@ const REGLES_EN = [
   [/^ouï-dire/, "hearsay"], [/^confiance « medium » selon l'extraction/, "\"medium\" confidence according to the extraction"],
   [/^fait contesté entre les sources/, "fact disputed between sources"], [/^interprétation de l'auteur du livre/, "interpretation by the book's author"],
   [/^hypothèse de l'auteur/, "author's hypothesis"], [/^lecture corrigée d'une coquille de la source/, "reading corrected for a typo in the source"],
-  [/^le catalogue 1936-38 le dit offert « last year » \(1935-36\)/, "the 1936-38 catalog says it was offered \"last year\" (1935-36)"],
+  [/^le catalogue 1936-38 le dit offert « last year » \(1935-36\)/, "the 1936-38 catalog says it was offered “last year” (1935-36)"],
   [/^statut : annonce reportée\/annulée\/remplacée selon une source \(voir note\)/, "status: announcement postponed/cancelled/replaced according to a source (see note)"],
   [/^citation introuvable dans la transcription/, "quotation not found in the transcript"], [/^citation en partie dans la transcription/, "quotation partly in the transcript"],
   [/^citation vide dans la transcription/, "empty quotation in the transcript"], [/^« day » au 1er janvier traité comme une année/, "\"day\" on 1 January treated as a year"],
@@ -320,9 +320,9 @@ const HTML_EN = [
 ];
 function traduireHtml(h) { for (const [r, v] of HTML_EN) h = h.replace(r, v); return h; }
 
-// Anglais : pas d'espace avant « : » et « ; » (typographie française des gabarits), où que le texte soit affiché.
+// Anglais : pas d'espace avant « : », « ; » ni « % » (typographie française des gabarits), où que le texte soit affiché.
 if (window.LANG === "en") {
-  const corrige = n => { const v = n.nodeValue, w = v.replace(/[ \u00a0\u202f]+([:;!?])(?=\s|$)/g, "$1"); if (w !== v) n.nodeValue = w; };
+  const corrige = n => { const v = n.nodeValue, w = v.replace(/[ \u00a0\u202f]+([:;!?])(?=\s|$)/g, "$1").replace(/(\d)[ \u00a0\u202f]%/g, "$1%"); if (w !== v) n.nodeValue = w; };
   const parcourt = r => { if (r.nodeType === 3) return corrige(r); const w = document.createTreeWalker(r, NodeFilter.SHOW_TEXT); while (w.nextNode()) corrige(w.currentNode); };
   document.addEventListener("DOMContentLoaded", () => {
     parcourt(document.body);

@@ -139,7 +139,10 @@ Reprise : lire ce fichier, puis `PROMPT_CLAUDE_CLOUD.md` (consigne complète).
 - 6a fait : `scripts/integrer_syntheses.py` → `scenario/002_*`, `semainier/data_syntheses.js`. 292 chroniques mensuelles,
   334 dossiers (champs factuels), 10 241 fiches référencées (2 introuvables). Présents probables : 3 322 mentions,
   709 (21 %) nommées le même mois dans l'AAM ou Duberman ; 1 marquée « invente_pour_le_recit_interdit », écartée.
-- 6b à faire : vérification des fiches référencées (verifier_sources.py).
+- 6b fait : `verifier_sources.py` vérifie aussi les 7 213 fiches citées par les synthèses (couche « Scénario (fiches
+  citées) », clé « f » + id) → `programme/audit/002_verification_sources.*` : 87 % retrouvées (4 % au hasard),
+  citations : texte original cherché dans la page (1 158 citations, 95 % retrouvées) ; 2 fiches sans numéro de page.
+  Lecture des pages améliorée (« pp. », « 90, 93 », « (note 11) », chapitres « ch17 » des livres numériques).
 - 6c à faire : contenu des cours du scénario dans « Cours offerts ».
 
 ## Points à vérifier sur scan

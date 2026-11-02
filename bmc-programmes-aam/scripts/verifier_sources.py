@@ -243,6 +243,32 @@ class Livres:
         return self.cache[sid]
 
 
+def pages_citees(x, L, etendre=4):
+    """textes des pages citées par une fiche du scénario. Lit « 476 », « p. 159 », « pp. 336-346 », « 90, 93 »,
+    « 29 (note 11) », et « ch17 », « ch233-236 » pour les livres numériques découpés par chapitres."""
+    morceaux, manq = [], []
+    for s in x.get("sources") or []:
+        pg = L.pages(s.get("source", ""))
+        for p in s.get("pages") or []:
+            p = re.sub(r"\(.*?\)", "", str(p)).strip()
+            m = re.fullmatch(r"(?i)ch(?:ap\.?)?\s*(\d+)(?:\s*[-–]\s*(\d+))?.*", p)
+            if m:                      # livre numérique : le texte est découpé par chapitres (« ch7 »)
+                a_, b_ = int(m.group(1)), int(m.group(2) or m.group(1))
+                trouves = [pg[f"ch{k}"] for k in range(a_, min(b_, a_ + etendre) + 1) if pg.get(f"ch{k}")]
+                morceaux += trouves
+                if not trouves: manq.append(f"{s.get('source')} {p}")
+                continue
+            for a, b in re.findall(r"(\d+)(?:\s*[-–]\s*(\d+))?", p):
+                for q in range(int(a), min(int(b or a), int(a) + etendre) + 1):
+                    if pg.get(str(q)): morceaux.append(pg[str(q)])
+                    elif q == int(a): manq.append(f"{s.get('source')} p. {q}")
+    return morceaux, manq
+
+
+def src_txt_v(x):
+    return " ; ".join(f"{s.get('titre') or s.get('source')}, p. " + ", ".join(str(p) for p in s.get("pages") or []) for s in x.get("sources") or [])
+
+
 def lire(p):
     with open(p, encoding="utf-8") as f: return list(csv.DictReader(f))
 
@@ -310,21 +336,31 @@ def main():
         for e in lire(sc[-1]):
             if e["semainier"] != "oui": continue
             x = par_id.get(e["id"], {})
-            morceaux, manq = [], []
-            for s in x.get("sources") or []:
-                pg = L.pages(s.get("source", ""))
-                for p in s.get("pages") or []:
-                    p = str(p).replace("p. ", "").replace("p.", "").strip()
-                    for q in (re.findall(r"\d+", p)[:1] if "-" in p else [p]):
-                        if pg.get(q): morceaux.append(pg[q])
-                        else: manq.append(f"{s.get('source')} p. {q}")
-                    m = re.fullmatch(r"(\d+)-(\d+)", p)
-                    if m:
-                        for k in range(int(m.group(1)) + 1, min(int(m.group(2)), int(m.group(1)) + 4) + 1):
-                            if pg.get(str(k)): morceaux.append(pg[str(k)])
+            morceaux, manq = pages_citees(x, L, etendre=3)
             cle = ("" if not e["fondu_dans"] else "") + "s" + e["id"]
             noter("Scénario", cle, e["date"], e["activite"], e["qui"], e["document_source"], "\n".join(morceaux), False,
                   ("pages introuvables : " + ", ".join(manq[:5])) if manq else "")
+    # Scénario, fiches citées par les synthèses (chroniques, dossiers) : clé « f » + identifiant
+    rf = sorted(glob.glob(os.path.join(ROOT, "scenario", "[0-9][0-9][0-9]_references.json")))
+    if sc and rf:
+        deja = {l["cle"] for l in lignes}
+        tous = {x["id"]: x for cat in S["fiches"].values() for x in cat if isinstance(x, dict) and x.get("id")}
+        for r in json.load(open(rf[-1], encoding="utf-8")):
+            if "s" + r in deja or r not in tous: continue
+            x = tous[r]
+            morceaux, manq = pages_citees(x, L)
+            if r.startswith("CI-"):     # citation : le texte original lui-même, dans la langue du livre
+                titre, langue = x.get("texte_original") or "", True
+            else:
+                titre = x.get("titre") or x.get("intitule") or x.get("idee") or x.get("nom") or x.get("description") or \
+                        x.get("moment_present") or (f"{x.get('personne_a', '')} {x.get('personne_b', '')}") or ""
+                langue = False
+            qui = "; ".join(p for p in (x.get("personnes") or []) if isinstance(p, str))
+            a_ = x.get("ancrage") or {}
+            date = x.get("date") if isinstance(x.get("date"), str) else a_.get("debut") or ""
+            noter("Scénario (fiches citées)", "f" + r, date or "", str(titre)[:300], qui, src_txt_v(x), "\n".join(morceaux), langue,
+                  ("pages introuvables : " + ", ".join(manq[:5])) if manq else "")
+
     # Spéculatif : chaque entrée de gabarit (clé = année, terme, rang dans le terme, comme dans la page)
     for fn in sorted(glob.glob(os.path.join(ROOT, "programme", "speculatif", "annee_*_gabarits.csv"))):
         an = re.search(r"annee_(\d{4}-\d{2})_", fn).group(1)
@@ -358,7 +394,7 @@ def main():
          "`scripts/verifier_sources.py`. « À relire » ne veut pas dire faux : le passage est souvent traduit ou paraphrasé "
          "(Duberman et le scénario sont en français, leurs sources en anglais), ou l'entrée est générique (repas, thé).", "",
          "| couche | entrées | " + " | ".join(ordre) + " |", "|---|---|" + "---|" * len(ordre)]
-    for c in ("AAM", "Duberman", "Scénario", "Spéculatif"):
+    for c in ("AAM", "Duberman", "Scénario", "Scénario (fiches citées)", "Spéculatif"):
         x = [l for l in lignes if l["couche"] == c]; n = C(l["statut"] for l in x)
         M.append(f"| {c} | {len(x)} | " + " | ".join(f"{n[o]} ({100 * n[o] / max(1, len(x)):.0f} %)" for o in ordre) + " |")
     # autres informations du semainier : présence d'une source et d'un lien
@@ -381,14 +417,14 @@ def main():
           "Taux de « retrouvé » sur 500 entrées par couche, avec leur vraie source puis avec la source d'une autre entrée tirée au hasard. "
           "L'écart mesure ce que vaut « retrouvé » ; le taux avec une source au hasard est le taux de faux positifs.", "",
           "| couche | vraie source | source au hasard |", "|---|---|---|"]
-    for c in ("AAM", "Duberman", "Scénario", "Spéculatif"):
+    for c in ("AAM", "Duberman", "Scénario", "Scénario (fiches citées)", "Spéculatif"):
         X = TEMOINS_TEST[c]
         if len(X) < 50: continue
         ech = random.sample(X, min(500, len(X))); aut = random.sample(X, len(ech))
         v = sum(evaluer(q, t, l, d, src)[-1] == "retrouvé" for q, t, l, d, src in ech) / len(ech)
         h = sum(evaluer(q, t, l, d, a[4])[-1] == "retrouvé" for (q, t, l, d, _), a in zip(ech, aut)) / len(ech)
         M.append(f"| {c} | {100 * v:.0f} % | {100 * h:.0f} % |")
-    for c in ("AAM", "Duberman", "Scénario", "Spéculatif"):
+    for c in ("AAM", "Duberman", "Scénario", "Scénario (fiches citées)", "Spéculatif"):
         intr = [l for l in lignes if l["couche"] == c and l["statut"] in ("référence introuvable", "sans source")]
         if intr:
             M += ["", f"## {c} : références introuvables ou absentes ({len(intr)})", ""]

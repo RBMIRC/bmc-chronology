@@ -281,6 +281,26 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   de 1955 au jour, Thanksgiving 1954 (25 novembre, confirmé par Silver).
 - Reste possible : version 7 du texte (8 lignes parasites), dépouillement de la chronologie relative.
 
+## Étape 10 — Livres et articles (textes des PDF, DATA_BMC/textes_pdf, 2/11/2026)
+- 32 textes convertis sur l'ordinateur de Sylvain (`scripts/pdf_vers_texte.py`), versés dans `DATA_BMC/textes_pdf`.
+  3 doublons écartés (deux copies de Díaz, de *Revisiting Black Mountain*, de *The Three Ecologies*).
+- `scripts/livres_commun.py` : pages, colonnes recollées (pdftotext -layout entrelace les colonnes : Harris 1987 a
+  136 pages à deux, trois ou quatre colonnes, notes comprises), paragraphes, phrases ; page imprimée retrouvée par le
+  décalage avec la page du PDF (Harris : p. imprimée = p. PDF − 28).
+- `scripts/livres_extraire.py` → `livres/001_inventaire.csv`, `001_evenements_livres.csv`, `001_rapport_livres.md`,
+  `chronos/010_livres_couche.csv` : 1 357 faits datés de 1933 à 1957 (jour 502, mois 366, saison 486, plage 3),
+  947 faits racontés et 410 documents cités en note (lettres, procès-verbaux, articles : la date est celle du
+  document) ; personnes reconnues d'après la base du BMC Yearbook (804 faits) ; part déduite moyenne 37 %.
+  - Par texte : Harris 780 (275 au jour), Canter 163, Díaz 92, Gilsanz Díaz 148 (traduction automatique, +20),
+    Lane 46, Peifer 22, Benfey 19, autres moins de 15. Les articles généraux (Muir, Lindsay, Migašová…) n'ont pas de
+    date au jour ; la Black Mountain College Review de 1951 n'en a aucune.
+  - Recoupés (même date, personne et mot communs ; deux mots pour une date imprécise) : AAM 55, Duberman 172,
+    Rumaker 11, un autre livre 60 ; témoin négatif (dates décalées de 400 jours) : 3,4 % contre 15,8 %.
+- Semainier : couche « Chronos, Rumaker, livres » ; au jour dans la grille (505), le reste au panneau ; chaque fiche
+  donne la référence (page imprimée et page du PDF), la phrase exacte et le recoupement.
+- Limites : extraction automatique non relue (+10) ; l'activité affichée est la proposition du texte qui porte la date
+  (en anglais), pas un résumé ; les noms de famille partagés (Albers, Dreier, Beidler…) ne sont pas attribués.
+
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le
 corpus pour ces années ; tous les horaires sont supposés et codés comme tels).

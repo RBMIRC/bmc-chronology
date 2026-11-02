@@ -187,3 +187,14 @@ Voir la section « Avancement » ci-dessous (mise à jour à chaque sauvegarde).
 - Semainier : fiche de personne (ⓘ) avec lien vers la notice, dates au jour, naissance et décès, documents de l'AAM
   cités ; panneau « Arrivées et départs cette semaine selon le BMC Yearbook ».
 
+## Livres et articles (textes des PDF)
+- Conversion sur l'ordinateur qui a les PDF : `scripts/pdf_vers_texte.py <dossier des PDF> <sortie>` (pdftotext page par
+  page, OCR tesseract des pages scannées) ; les .txt seuls vont dans `DATA_BMC/textes_pdf` (pas de PDF dans le dépôt).
+- `scripts/livres_extraire.py` (avec `livres_commun.py`) : inventaire (référence d'après la page de titre, genre,
+  doublons, page imprimée), phrases datées de 1933-1957 qui parlent du collège, personnes de la base du BMC Yearbook,
+  recoupements avec l'AAM, Duberman, Rumaker et les autres livres (témoin négatif dans le rapport) →
+  `livres/NNN_*` et `chronos/NNN_livres_couche.csv` (couche Chronos du semainier). Barème : étude ou témoignage +10,
+  traduction automatique +20, document d'époque 0 ; extraction non relue +10 ; date au mois ou à la saison +25 ;
+  année reprise du contexte +15. Ajouter un texte : le verser dans `DATA_BMC/textes_pdf`, compléter la table META
+  (référence et genre), relancer le script puis `scripts/export_semainier.py`.
+

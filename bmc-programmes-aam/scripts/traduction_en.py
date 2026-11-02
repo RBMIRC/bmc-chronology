@@ -21,7 +21,8 @@ LIEUX_FR = {"Caroline", "Floride", "Géorgie", "Virginie", "Californie", "Louisi
             "Vienne", "Prague", "Moscou", "Russie", "Hollande", "Belgique", "Canada", "Cuba", "Europe", "Amérique", "Pacifique", "Atlantique"}
 # titres d'œuvres français gardés tels quels dans l'anglais (guide : « les titres d'œuvres gardent leur langue »)
 TITRES_FR = ["L'Honneur des poètes", "Le Piège de Méduse", "Le Malade imaginaire", "Pelléas et Mélisande", "Les Nuages",
-             "Le Sacre du printemps", "Les Demoiselles d'Avignon", "La Cerisaie", "Les Mamelles de Tirésias"]
+             "Le Sacre du printemps", "Les Demoiselles d'Avignon", "La Cerisaie", "Les Mamelles de Tirésias",
+             "Les Mariés de la tour Eiffel"]
 GLOSSAIRE = [(r"réunion (du corps enseignant|de la faculté)", "faculty meeting"), (r"\brecteur\b", "rector"),
              (r"programme de travail", "work program"), (r"officiers étudiants", "student officers"),
              (r"salle à manger", "dining hall"), (r"\bBoard of Fellows\b", "Board of Fellows")]

@@ -162,7 +162,7 @@ Inventaire : extractions automatiques de décembre 2025 (GPT-4o pour la ferme). 
 1. `asheville_events.json` (377 fiches du musée) — **fait**
 2. `harris_events.json` (165 entretiens de Mary Emma Harris) — **fait**
 3. `farm_events.json` (Silver, The Farm at BMC) — **fait**
-4. `bmc_chronology.json` (Duberman, « Chronos 2 ») — à faire
+4. `bmc_chronology.json` (Duberman, « Chronos 2 ») — **fait**
 5. `BlackMountainPeople.txt` (1 299 personnes, rôles, années) — à faire
 Dérivés (inventoriés seulement, pour ne pas compter deux fois) : `bmc_chronology_{enriched,final,complete,ultimate,
 wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.json`, `bmc_series_bible.json`,
@@ -196,6 +196,14 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   199 non confirmés, 14 dates illisibles. Couche Chronos : 248 entrées (1933-1957).
 - Même règle stricte appliquée à Harris → `chronos/004_harris_*` (002 conservé) : 1 confirmation au lieu de 4
   (les 3 autres étaient de simples coïncidences de nom le même mois).
+
+### 8.4 bmc_chronology.json (Duberman, « Chronos 2 »)
+- `scripts/chronos_duberman.py` → `chronos/005_duberman_*`. Chaque citation (476 sur 559) est cherchée dans les
+  paragraphes du texte corrigé : 471 retrouvées, ce qui donne ¶ et page de notre édition.
+- Contre notre dépouillement (935) : retrouvés 385 (dont 24 par date et nom, 26 sans date lisible chez Chronos),
+  absents 96 (73 vont dans la couche Chronos), dates différentes 14, sans citation 59, citation introuvable 5.
+- Vérifié à la main : Wilder (1934, pas 1936) et Kazin (1944, pas 1945) — notre dépouillement est juste ; les autres
+  « dates différentes » sont deux faits distincts du même paragraphe.
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

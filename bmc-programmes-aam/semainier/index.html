@@ -860,6 +860,8 @@ function srcCourt(p) {
 function titreSemaine(lun) {
   const a = new Date(lun + "T12:00"), b = new Date(plusJours(lun, 6) + "T12:00");
   const f = (d, o) => d.toLocaleDateString(LOC, o);
+  // anglais : « August 11 – 17, 1952 », « July 28 – August 3, 1952 » (ordre et virgule de l'usage américain)
+  if (window.LANG === "en") return new Intl.DateTimeFormat(LOC, { day: "numeric", month: "long", year: "numeric" }).formatRange(a, b);
   return a.getMonth() === b.getMonth() ? `${a.getDate()} – ${f(b, { day: "numeric", month: "long", year: "numeric" })}`
     : `${f(a, { day: "numeric", month: "long" })} – ${f(b, { day: "numeric", month: "long", year: "numeric" })}`;
 }

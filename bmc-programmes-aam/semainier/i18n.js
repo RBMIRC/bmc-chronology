@@ -21,7 +21,7 @@ const UI_EN = {
   "Témoignages, Silver, compléments": "Testimonies, Silver, supplements", "Autres livres et études (52)": "Other books and studies (52)",
   "Reconstitution (emploi du temps)": "Reconstruction (timetable)",
   " · version publique : références sans extraits": " · public version: references without excerpts",
-  "Cours, ateliers": "Courses, workshops", "Réunions": "Meetings", "Concerts, théâtre, danse": "Concerts, theatre, dance",
+  "Cours, ateliers": "Courses, workshops", "Réunions": "Meetings", "Concerts, théâtre, danse": "Concerts, theater, dance",
   "Conférences, radio": "Lectures, radio", "Vie de la communauté": "Community life", "Calendrier, examens": "Calendar, exams",
   // vue Semaine
   "◀ semaine": "◀ week", "semaine ▶": "week ▶", "hors période de cours attestée": "outside any attested term",
@@ -38,7 +38,7 @@ const UI_EN = {
   "Analyse": "Analysis", "et barème": "and scoring",
   // fiche
   "fermer": "close", "Collection": "Collection", "Qui": "Who", "Lieu": "Place", "Note": "Note", "Part déduite": "Deduced share",
-  "Récurrence": "Recurrence", "Affichage": "Display", "Couche": "Layer", "Cours du catalogue": "Catalogue course",
+  "Récurrence": "Recurrence", "Affichage": "Display", "Couche": "Layer", "Cours du catalogue": "Catalog course",
   "Parts déduites": "Deduced shares", "Autres cours possibles": "Other possible courses", "Rattachement": "Attribution",
   "Année précédente": "Previous year", "Année suivante": "Following year", "Source": "Source", "Document source": "Source document",
   "Documents sources": "Source documents", "Notes de Duberman": "Duberman's notes", "Même jour (AAM)": "Same day (AAM)",
@@ -56,7 +56,7 @@ const UI_EN = {
   "Arrivées et départs cette semaine selon le BMC Yearbook": "Arrivals and departures this week according to the BMC Yearbook",
   "afficher": "show", "notice en ligne": "online entry", "notice": "entry",
   // types, statuts, vérification
-  "cours": "course", "atelier": "workshop", "reunion": "meeting", "concert": "concert", "theatre": "theatre", "danse": "dance", "conference": "lecture",
+  "cours": "course", "atelier": "workshop", "reunion": "meeting", "concert": "concert", "theatre": "theater", "danse": "dance", "conference": "lecture",
   "radio": "radio", "social": "social", "travail": "work", "expo": "exhibition", "visite": "visit", "sortie": "outing", "autre": "other", "calendrier": "calendar", "examen": "exam",
   "lettre": "letter", "proces_verbal": "minutes", "publication": "publication", "document": "document", "journal": "diary", "telegramme": "telegram",
   "les témoins de l'entrée (noms, mots du titre, date) sont réunis dans un même passage du texte cité": "the entry's clues (names, title words, date) are found together in one passage of the cited text",
@@ -82,9 +82,9 @@ const t = s => (window.LANG === "en" && UI_EN[s] !== undefined) ? UI_EN[s] : s;
 // noms des collections (même ordre que COLLECTIONS dans index.html) : [nom, nom court, description]
 const COL_EN = {
   bulletins: ["Community bulletins", "Bulletin", "the college's weekly Community Bulletins, read and checked (AAM)"],
-  catalogues: ["Catalogues and announcements", "Catalogue", "annual catalogues, course and session announcements (AAM)"],
+  catalogues: ["Catalogs and announcements", "Catalog", "annual catalogs, course and session announcements (AAM)"],
   newsletters: ["Newsletters", "Newsletter", "newsletters and bulletins sent to friends of the college (AAM)"],
-  programmes: ["Concert and performance programmes", "Programme", "programmes, posters and invitations (AAM)"],
+  programmes: ["Concert and performance programs", "Program", "programs, posters and invitations (AAM)"],
   cours: ["Courses with attested schedule", "Course", "courses placed from a timetable or a dated bulletin (AAM)"],
   musee_auto: ["Museum records, automatic reading", "Museum (auto.)", "supplements drawn automatically from the 377 museum records, cross-checked with the reviewed reading"],
   harris: ["Mary Emma Harris interviews", "Harris interview", "165 interviews of the Black Mountain College Project: facts drawn automatically, checked against the transcripts"],
@@ -92,8 +92,8 @@ const COL_EN = {
   duberman: ["Duberman, Black Mountain (1972)", "Duberman", "Martin Duberman's history of the college, fully indexed and checked (935 facts)"],
   duberman_auto: ["Duberman (1972), automatic reading", "Duberman (auto.)", "supplements from an earlier automatic reading of the book, cross-checked"],
   silver: ["Silver, The Farm at Black Mountain College (2024)", "Silver (farm)", "history of the college farm, automatic reading cross-checked"],
-  livres: ["Other books and studies", "", "automatic, unreviewed reading of 52 books (biographies, exhibition catalogues, studies); choose title by title"],
-  spec_cours: ["Reconstructed timetable", "Reconstructed", "term courses placed from catalogues, bulletins, course lists, student records and testimonies"],
+  livres: ["Other books and studies", "", "automatic, unreviewed reading of 52 books (biographies, exhibition catalogs, studies); choose title by title"],
+  spec_cours: ["Reconstructed timetable", "Reconstructed", "term courses placed from catalogs, bulletins, course lists, student records and testimonies"],
   spec_vie: ["Reconstructed community life", "Reconstructed", "meals, work, meetings and evenings of the term template"],
 };
 const GROUPES_EN = { "Documents du collège (Asheville Art Museum)": "College documents (Asheville Art Museum)", "Témoignages": "Testimonies",
@@ -112,10 +112,10 @@ const REGLES_EN = [
   [/^extraction automatique \(GPT-4o Vision sur le scan, décembre 2025\), non relue/, "automatic extraction (GPT-4o Vision on the scan, December 2025), unreviewed"],
   [/^extraction automatique \(Chronos 2\), citation retrouvée dans le texte corrigé de Duberman/, "automatic extraction, quotation found in the corrected text of Duberman"],
   [/^volume horaire supposé \(non donné pour ce cours\)/, "assumed number of hours (not given for this course)"],
-  [/^enseignant nommé pour ce cours dans le catalogue de l'année/, "teacher named for this course in the year's catalogue"],
-  [/^structure \(heures, semestres\) ou usage pris dans une année voisine/, "structure (hours, terms) or practice taken from a neighbouring year"],
-  [/^enseignant rattaché par sa discipline et nommé pour ce cours \(ou son équivalent\) dans une année voisine/, "teacher attributed by subject and named for this course (or its equivalent) in a neighbouring year"],
-  [/^enseignant rattaché par sa discipline : seul enseignant de cette matière au catalogue/, "teacher attributed by subject: the only teacher of the subject in the catalogue"],
+  [/^enseignant nommé pour ce cours dans le catalogue de l'année/, "teacher named for this course in the year's catalog"],
+  [/^structure \(heures, semestres\) ou usage pris dans une année voisine/, "structure (hours, terms) or practice taken from a neighboring year"],
+  [/^enseignant rattaché par sa discipline et nommé pour ce cours \(ou son équivalent\) dans une année voisine/, "teacher attributed by subject and named for this course (or its equivalent) in a neighboring year"],
+  [/^enseignant rattaché par sa discipline : seul enseignant de cette matière au catalogue/, "teacher attributed by subject: the only teacher of the subject in the catalog"],
   [/^enseignant rattaché par élimination entre collègues de la même discipline/, "teacher attributed by elimination among colleagues of the same subject"],
   [/^enseignant inconnu ou rattaché par simple compétence/, "teacher unknown or attributed by competence only"],
   [/^enseignant rattaché d'après Duberman \(texte corrigé\), pas d'après un document de l'année/, "teacher attributed from Duberman (corrected text), not from a document of the year"],
@@ -160,11 +160,11 @@ const REGLES_EN = [
   [/^témoins non réunis dans les pages citées : à relire/, "clues not found together in the cited pages: to be checked"],
   [/^témoins non réunis dans le texte du document : indice faible/, "clues not found together in the document's text: weak clue"],
   [/^témoins non réunis dans le texte du document : à relire/, "clues not found together in the document's text: to be checked"],
-  [/^équivalence de titre avec une année voisine probable mais non certaine/, "title equivalence with a neighbouring year probable but not certain"],
+  [/^équivalence de titre avec une année voisine probable mais non certaine/, "title equivalence with a neighboring year probable but not certain"],
   [/^ouï-dire/, "hearsay"], [/^confiance « medium » selon l'extraction/, "\"medium\" confidence according to the extraction"],
   [/^fait contesté entre les sources/, "fact disputed between sources"], [/^interprétation de l'auteur du livre/, "interpretation by the book's author"],
   [/^hypothèse de l'auteur/, "author's hypothesis"], [/^lecture corrigée d'une coquille de la source/, "reading corrected for a typo in the source"],
-  [/^le catalogue 1936-38 le dit offert « last year » \(1935-36\)/, "the 1936-38 catalogue says it was offered \"last year\" (1935-36)"],
+  [/^le catalogue 1936-38 le dit offert « last year » \(1935-36\)/, "the 1936-38 catalog says it was offered \"last year\" (1935-36)"],
   [/^statut : annonce reportée\/annulée\/remplacée selon une source \(voir note\)/, "status: announcement postponed/cancelled/replaced according to a source (see note)"],
   [/^citation introuvable dans la transcription/, "quotation not found in the transcript"], [/^citation en partie dans la transcription/, "quotation partly in the transcript"],
   [/^citation vide dans la transcription/, "empty quotation in the transcript"], [/^« day » au 1er janvier traité comme une année/, "\"day\" on 1 January treated as a year"],
@@ -197,9 +197,9 @@ const REGLES_EN = [
   [/^(.+?) : possible cette semaine(?: \(environ une chance sur quatre\))?$/, (m, x) => `${trAct(x)}: possible this week`],
   [/^(.+?) : possible$/, (m, x) => `${trAct(x)}: possible`],
 ];
-const CAL_EN = [[/^calendrier du premier catalogue$/, "calendar of the first catalogue"], [/^calendrier spéculatif : dates de 1933-34 transposées$/, "speculative calendar: 1933-34 dates transposed"],
-  [/^calendrier imprimé dans les catalogues (.+)$/, "calendar printed in the $1 catalogues"], [/^calendrier du catalogue (.+)$/, "calendar of the $1 catalogue"],
-  [/^calendrier annoncé dans le catalogue (.+)$/, "calendar announced in the $1 catalogue"], [/^calendrier du Bulletin (.+)$/, "calendar of the $1 Bulletin"],
+const CAL_EN = [[/^calendrier du premier catalogue$/, "calendar of the first catalog"], [/^calendrier spéculatif : dates de 1933-34 transposées$/, "speculative calendar: 1933-34 dates transposed"],
+  [/^calendrier imprimé dans les catalogues (.+)$/, "calendar printed in the $1 catalogs"], [/^calendrier du catalogue (.+)$/, "calendar of the $1 catalog"],
+  [/^calendrier annoncé dans le catalogue (.+)$/, "calendar announced in the $1 catalog"], [/^calendrier du Bulletin (.+)$/, "calendar of the $1 Bulletin"],
   [/^calendrier de (.+)$/, "calendar of $1"], [/^calendrier imprimé en (.+)$/, "calendar printed in $1"],
   [/^calendrier des trimestres (.+) : annonces et bulletins$/, "term calendar $1: announcements and bulletins"],
   [/^calendrier révisé de 1941-42 : lettres d'octobre 1941 et bulletins de 1942$/, "revised 1941-42 calendar: October 1941 letters and 1942 bulletins"],
@@ -233,7 +233,7 @@ const ACT_EN = {
   "Programme de travail (ferme, bois, construction des logements fédéraux, ménage)": "Work program (farm, wood, building of the federal housing, housekeeping)",
   "Programme de travail : un après-midi de travail, 8 à 12 heures par semaine (jour non donné)": "Work program: one afternoon of work, 8 to 12 hours a week (day not given)",
   "Thé": "Tea", "Résumé et commentaire des nouvelles de la semaine": "Summary and commentary of the week's news",
-  "Bal semi-habillé du samedi soir": "Saturday evening semi-formal dance", "Bal semi-habillé du samedi soir, après le concert ou le programme": "Saturday evening semi-formal dance, after the concert or programme",
+  "Bal semi-habillé du samedi soir": "Saturday evening semiformal dance", "Bal semi-habillé du samedi soir, après le concert ou le programme": "Saturday evening semiformal dance, after the concert or program",
   "Bal du samedi soir": "Saturday evening dance", "Danse après le concert": "Dancing after the concert",
   "Réunion de la faculté": "Faculty meeting", "Réunion hebdomadaire de la faculté": "Weekly faculty meeting",
   "Réunion de la faculté (avec les officiers étudiants une semaine sur deux)": "Faculty meeting (with the student officers every other week)",
@@ -241,7 +241,7 @@ const ACT_EN = {
   "Réunion hebdomadaire du Board of Fellows avec le comité des trois officiers étudiants": "Weekly Board of Fellows meeting with the committee of the three student officers",
   "Réunion hebdomadaire du Board of Fellows avec les autres officiers étudiants": "Weekly Board of Fellows meeting with the other student officers",
   "Réunion hebdomadaire du Board of Fellows avec les officiers étudiants": "Weekly Board of Fellows meeting with the student officers",
-  "Émission radio du collège": "College radio broadcast", "Programme radio de Black Mountain College sur WWNC": "Black Mountain College radio programme on WWNC",
+  "Émission radio du collège": "College radio broadcast", "Programme radio de Black Mountain College sur WWNC": "Black Mountain College radio program on WWNC",
   "Cours d'écriture de Charles Olson (un soir par semaine)": "Charles Olson's writing class (one evening a week)", "Cours du soir de Robert Creeley": "Robert Creeley's evening class",
   "Séminaire collectif de philosophie (quatre enseignants ou plus à chaque séance)": "Joint philosophy seminar (four or more teachers at each session)",
   "Séminaire collectif de littérature anglaise et d'histoire (quatre enseignants ou plus)": "Joint seminar in English literature and history (four or more teachers)",
@@ -256,18 +256,18 @@ const ACT_EN = {
   "Première semaine : chaque étudiant choisit un conseiller parmi les enseignants": "First week: each student chooses an adviser among the teachers",
   "Première semaine : chaque nouvel étudiant choisit un conseiller": "First week: each new student chooses an adviser",
   "Concert du samedi soir : possible": "Saturday evening concert: possible", "Réunion générale de toute la communauté : possible cette semaine": "General meeting of the whole community: possible this week",
-  "Réunion de toute la communauté": "Meeting of the whole community", "Soirée dansante du samedi": "Saturday dance evening", "Programme musical (gens du collège ou invités)": "Music programme (college people or guests)",
+  "Réunion de toute la communauté": "Meeting of the whole community", "Soirée dansante du samedi": "Saturday dance evening", "Programme musical (gens du collège ou invités)": "Music program (college people or guests)",
   "Réunion d'affaires mensuelle de la faculté avec les officiers étudiants": "Monthly faculty business meeting with the student officers",
   "Réunion d'affaires mensuelle de la faculté, avec les officiers étudiants": "Monthly faculty business meeting, with the student officers",
   "Board of Fellows avec les officiers étudiants": "Board of Fellows with the student officers", "Émission radio du vendredi après-midi": "Friday afternoon radio broadcast",
   "Conférence du mercredi soir (visiteur ou membre de la faculté)": "Wednesday evening lecture (visitor or faculty member)", "Conférence du jeudi soir (visiteur ou membre de la faculté)": "Thursday evening lecture (visitor or faculty member)",
   "Conférence du mercredi soir": "Wednesday evening lecture", "Réunion des étudiants": "Student meeting", "Hygiène : séminaire ou entretien avec le Professor of Hygiene": "Hygiene: seminar or conference with the Professor of Hygiene",
   "Hygiène : séminaire ou entretien avec le Professor of Hygiene (« through seminar and conference rather than by lecture »)": "Hygiene: seminar or conference with the Professor of Hygiene (\"through seminar and conference rather than by lecture\")",
-  "Concert ou programme du samedi soir": "Saturday evening concert or programme", "Projection de film (16 mm)": "Film screening (16 mm)",
-  "Concert ou programme de danse du samedi soir": "Saturday evening concert or dance programme", "General Art Class pour toute la communauté": "General Art Class for the whole community",
+  "Concert ou programme du samedi soir": "Saturday evening concert or program", "Projection de film (16 mm)": "Film screening (16 mm)",
+  "Concert ou programme de danse du samedi soir": "Saturday evening concert or dance program", "General Art Class pour toute la communauté": "General Art Class for the whole community",
   "Réunion de la communauté": "Community meeting", "Conférence ou forum du soir": "Evening lecture or forum",
   "Revue mensuelle de tous les travaux d'étudiants par le corps enseignant": "Monthly review of all student work by the faculty",
-  "Concert, disques commentés ou programme du samedi soir": "Saturday evening concert, commented records or programme", "Réunion de la faculté : possible": "Faculty meeting: possible",
+  "Concert, disques commentés ou programme du samedi soir": "Saturday evening concert, commented records or program", "Réunion de la faculté : possible": "Faculty meeting: possible",
   "Art class pour toute la communauté (thèmes de forme, critique des expositions et des tissages) : réunion occasionnelle": "Art class for the whole community (themes of form, critique of exhibitions and weavings): occasional meeting",
   "General art class pour toute la communauté (formes, matériaux, critique des expositions et des tissages)": "General art class for the whole community (forms, materials, critique of exhibitions and weavings)",
   "Concert, formel ou informel": "Concert, formal or informal", "Disques et exposition du dimanche soir dans la salle d'art": "Sunday evening records and exhibition in the art room",
@@ -306,16 +306,27 @@ const HTML_EN = [
   [/<h2>Autres livres et études : (\d+) faits? datés de façon imprécise/g, "<h2>Other books and studies: $1 facts with an imprecise date"],
   [/<h2>Chronique de ([^(<]+) \(d'après les livres\)/g, "<h2>Chronicle of $1 (from the books, in French)"],
   [/<h2>Conflits en (\d+) selon les livres/g, "<h2>Conflicts in $1 according to the books"], [/<h2>Cours de ([\d-]+) selon les livres et études/g, "<h2>Courses of $1 according to books and studies"],
-  [/<h2>Cours offerts en ([\d-]+) \(catalogues, bulletins\)/g, "<h2>Courses offered in $1 (catalogues, bulletins)"],
+  [/<h2>Cours offerts en ([\d-]+) \(catalogues, bulletins\)/g, "<h2>Courses offered in $1 (catalogs, bulletins)"],
   [/<h2>Cours suivis \(([^)]*)\) selon les fiches d'étudiants/g, "<h2>Courses taken ($1) according to student records"],
   [/<h2>Vie quotidienne ([\d-]+) selon les livres/g, "<h2>Daily life $1 according to the books"], [/<h2>Œuvres liées à BMC en (\d+) selon les livres/g, "<h2>Works related to BMC in $1 according to the books"],
   [/Synthèse rédigée par un modèle de langage à partir des fiches de lecture des livres et études, non relue : à lire avec ses références\./g, "Synthesis written in French by a language model from reading notes on the books and studies, unreviewed: read with its references."],
   [/Dates des notices du site : pour moitié le premier ou le dernier jour d'une période de cours attestée \(70 % à une semaine près\), pas forcément le jour réel du voyage\./g, "Dates of the site's entries: half are the first or last day of an attested teaching period (70 % within a week), not necessarily the actual travel day."],
   [/Datés au mois, à la saison ou à l'année dans le livre : la période couvre ces jours, l'événement n'est pas placé dans la grille\./g, "Dated to the month, season or year in the book: the period covers these days; the event is not placed in the grid."],
   [/Fiches « cours » extraites automatiquement des livres ; référence cliquable pour la source et sa vérification\./g, "\"Course\" records drawn automatically from the books; click a reference for the source and its verification."],
-  [/Couleur = famille d'activité\./g, "Colour = type of activity."], [/✓ = nommé ce mois-ci dans l'AAM ou Duberman/g, "✓ = named this month in the AAM or Duberman"],
+  [/Couleur = famille d'activité\./g, "Color = type of activity."], [/✓ = nommé ce mois-ci dans l'AAM ou Duberman/g, "✓ = named this month in the AAM or Duberman"],
   [/BMC Yearbook \(bmcyearbook\.org\) : cours déclarés par les fiches de/g, "BMC Yearbook (bmcyearbook.org): courses declared in the records of"],
   [/>afficher</g, ">show<"], [/ attesté tel quel dans la source/g, " attested as is in the source"],
   [/semaine : /g, "week: "], [/remplissage /g, "coverage "], [/reconstituée \((\d+) jours?\)/g, "reconstructed ($1 days)"],
 ];
 function traduireHtml(h) { for (const [r, v] of HTML_EN) h = h.replace(r, v); return h; }
+
+// Anglais : pas d'espace avant « : » et « ; » (typographie française des gabarits), où que le texte soit affiché.
+if (window.LANG === "en") {
+  const corrige = n => { const v = n.nodeValue, w = v.replace(/[ \u00a0\u202f]+([:;!?])(?=\s|$)/g, "$1"); if (w !== v) n.nodeValue = w; };
+  const parcourt = r => { if (r.nodeType === 3) return corrige(r); const w = document.createTreeWalker(r, NodeFilter.SHOW_TEXT); while (w.nextNode()) corrige(w.currentNode); };
+  document.addEventListener("DOMContentLoaded", () => {
+    parcourt(document.body);
+    new MutationObserver(L => L.forEach(m => m.type === "characterData" ? corrige(m.target) : m.addedNodes.forEach(parcourt)))
+      .observe(document.body, { childList: true, subtree: true, characterData: true });
+  });
+}

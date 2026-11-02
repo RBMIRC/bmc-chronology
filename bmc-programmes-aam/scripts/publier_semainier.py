@@ -124,9 +124,12 @@ def main():
     L += [f"| `spec/*.js` ({sum(1 for k in tailles if k.startswith('spec/'))} années, chargées à la demande) | {sum(v for k, v in tailles.items() if k.startswith('spec/')) / 1e6:.1f} Mo |",
           "", f"Total : {total / 1e6:.1f} Mo (servis compressés par GitHub Pages).", "",
           "Bibliothèque d'affichage : Event Calendar (licence MIT), dans `lib/`.", "",
-         "## English", "", "English version: https://rbmirc.github.io/week/en/ (or `?lang=en`). The interface, collections, scoring "
-         "rules and reconstructed activities are translated and reviewed; titles and notes written in French are machine-translated "
-         "(marked ≈, original French in each record); long syntheses remain in French."]
+         "## English", "", "English version: https://rbmirc.github.io/week/en/ (or `?lang=en`). Sources quoted in English are never translated. "
+         "Our own French texts are translated by hand into American English and checked line by line "
+         "(`scripts/traduction_en.py`, guide in `semainier/i18n/GUIDE_TRADUCTION.md`): interface, collections, scoring rules, "
+         "and every entry title from Duberman, the museum documents, the reconstruction, and the supplements. "
+         "What is not yet reviewed (some notes, summaries of other books) is machine-translated and marked ≈, with the original "
+         "French in each record; long syntheses remain in French."]
     open(os.path.join(out, "README.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
     print("\n".join(L[-12:]))
 

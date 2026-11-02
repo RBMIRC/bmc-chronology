@@ -216,7 +216,32 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   (biographie, rôle, années, relations, cours suivis, recoupement).
 - **Question** : d'où vient BlackMountainPeople.txt (base du BMC Museum + Arts Center ? de Mary Emma Harris ?) ?
 - Piste : les cours suivis par semestre (1949-53 surtout) permettraient de corriger les « 2 chances sur 3 » de la couche
-  spéculative.
+  spéculative. → fait, 8.6.
+
+### 8.6 Cours suivis → couche spéculative 1949-50 → 1954-55 (2/11/2026)
+- `chronos_personnes.py` corrigé (en-têtes « 1950 Spring Term (1949-50): », initiales « M.C. », « and »/« & » en tête,
+  « —dropped », puce « o » collée) → `chronos/008_personnes_*` (3 775 inscriptions titre et enseignant dans l'AAM).
+- `scripts/suivis_speculation.py` → `speculation/suivis/AAAA-AA.csv` : chaque cours suivi d'un trimestre rattaché à une
+  unité du catalogue spéculatif (enseignant commun ; titre, ou équivalent d'une année voisine ; les mots de discipline
+  seuls — « Anthropology », « Music » — ne confirment que le trimestre).
+- `speculer.py`, directive `#suivis` (code SUIVI, 0) ajoutée aux six années ; aucun chevauchement (contrôle refait).
+- Effet (unités du catalogue confirmées / abaissées, unités ajoutées, part déduite moyenne des cours avant → après) :
+  - 1949-50 automne 27 / 4, +5, 70 → 56 % ; printemps 28 / 4, +8, 73 → 56 % ; été 6 / 0, +11 ; les « 2 chances
+    sur 3 » passent de 17 à 3 (automne) et de 21 à 3 (printemps) ;
+  - 1950-51 automne 20 / 3, +6 ; printemps 17 / 4, +9, 72 → 66 % ; été 1951 +23 (Motherwell, Vicente, Harrison,
+    Tudor, Litz…, à 1/2 car l'été est coupé en deux périodes) ;
+  - 1951-52 automne 8 / 1, +11, 87 → 63 % ; printemps 6 / 4, +10, 87 → 63 % ; été 1952 : 12 cours suivis mais pas de
+    date attestée, rien n'est placé ;
+  - 1952-53 automne 10 / 1, +6, 83 → 63 % ; printemps 8 / 2, +4, 83 → 66 % ; été 1953 +12 ;
+  - 1953-54 et 1954-55 : quelques unités (Olson, Creeley, Fiore, Huss, Wolpe, Shepard) ; automne 1953 et printemps 1955
+    sans date attestée : rien n'est placé.
+- Corrections d'attribution du catalogue 1949-50 : « Plato » suivi avec Levi au printemps 1950 (2 étudiants ; MD4,
+  Platon rattaché à Dehn par élimination, passe à 1/2) ; « Ethics » (printemps, 3 étudiants) et « Theory of Knowledge »
+  (automne, 4 étudiants) suivis avec Dehn (BL1, Levi, abaissé au printemps).
+- Questions : « Bookbinding with Dehn » (John Hamilton, printemps 1952) est-il une erreur de la fiche pour Jalowetz ?
+  « Truman » (Algebra, printemps 1950) = l'étudiant Trueman MacHenry ? « William » (Social Science) = A. W. Levi ?
+  Qui sont Kennedy (Intro to Mathematics, automne 1949), Oscar (Drawing II, été 1952), Pete (Light Sound Movement,
+  printemps 1951) ? Ces noms sont repris tels quels.
 
 ## Étape 9 — Rumaker, Black Mountain Days (DATA_BMC/Rumaker, texte corrigé v6)
 - Alignement ¶ → pages du livre sur l'OCR paginé du scénario (`rumaker/paragraphes_pages.json`) : 829 ¶ sur 851.

@@ -48,6 +48,8 @@ CODES = {
     # ajoutés le 1/11/2026 pour 1951-57 (sans effet sur les années précédentes, qui ne les emploient pas)
     "R_DUBERMAN": (10, "enseignant rattaché d'après Duberman (texte corrigé), pas d'après un document de l'année"),
     "ANNONCE": (15, "domaine annoncé à l'avance (« fields represented will be… ») : cours réel non attesté"),
+    # ajouté le 2/11/2026 : directive « #suivis » (scripts/suivis_speculation.py)
+    "SUIVI": (0, "cours suivi ce trimestre-là d'après les fiches d'étudiants (base des personnes, dossier Chronos)"),
 }
 JOURS = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"]
 NOMS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
@@ -122,6 +124,103 @@ def lire_catalogue(path):
     if manque: sys.exit(f"cours du catalogue non rattachés : {manque}")
     return C, U, N, entete
 
+# Directive « #suivis speculation/suivis/AAAA-AA.csv » (ajout du 2/11/2026) : les cours suivis des fiches d'étudiants
+# (DATA_BMC/Chronos/BlackMountainPeople.txt, « COURSE TAKEN », via scripts/chronos_personnes.py puis
+# scripts/suivis_speculation.py) disent le trimestre d'un cours. Règles :
+#  - unité suivie ce trimestre-là : chance 1, titre = celui qu'a suivi l'étudiant (s'il est l'un des candidats) ;
+#    codes de rattachement déduit, de trimestre reconduit ou de domaine annoncé retirés ; R_ATTESTE + SUIVI ;
+#  - unité suivie un autre trimestre de l'année, mais d'aucune fiche ce trimestre-ci (alors que des fiches existent
+#    pour ce trimestre) : chance ramenée à 1/2 au plus ; si de plus le titre est donné à un autre enseignant par une
+#    fiche du même trimestre (attribution « contredite ») : 1/3 au plus ; contredite seulement : 1/2 au plus ;
+#  - cours absent du catalogue, ou cours d'une unité qui n'est pas programmée ce trimestre-là : unité ajoutée pour ce
+#    seul trimestre (id « suivi.N », unité « SN »), enseignant de la fiche, volume supposé (VOLUME) ;
+#  - unité sans enseignant (« — ») dont une fiche donne le titre : l'enseignant de la fiche lui est donné.
+RETIRES_SI_SUIVI = {"R_ELIM", "R_SEUL", "R_NOMME", "R_COMPET", "R_DUBERMAN", "TERME_DEDUIT", "LISTE_VOISINE", "ANNONCE", "PRESENCE", "EQUIV"}
+ATELIER = re.compile(r"weav|ceram|potter|print|photo|wood|bookbind|sculpt|litho|graphic|carpent|silk", re.I)
+TUTORAT = re.compile(r"tutori|lesson|private|individual|thesis|independent|\bproject", re.I)
+
+def lire_suivis(chemin, C, U):
+    rows = lire_csv(os.path.join(ROOT, chemin))
+    par_u = {u["unite"]: u for u in U}
+    complet = {}                               # nom de famille → nom complet, d'après le catalogue de l'année
+    for u in U:
+        for q in u["qui"].split(";"):
+            q = q.strip()
+            if q and q != "—": complet.setdefault((q.split()[-1].lower(), q[0].lower()), q); complet.setdefault((q.split()[-1].lower(), ""), q)
+    def nom(e):
+        if not e: return ""
+        ini = e[0].lower() if e[1:2] == "." else ""
+        if len(e.split()) > 1 and not ini:      # prénom donné (« Anna Goldowski ») : nom complet du catalogue s'il a ce prénom
+            return next((q for q in complet.values() if q.lower().split()[0] == e.lower().split()[0] and q.lower().split()[-1] == e.lower().split()[-1]), e)
+        return complet.get((e.split()[-1].lower(), ini)) or complet.get((e.split()[-1].lower(), "")) or e
+    def cle_mots(x): return frozenset(w for w in re.findall(r"[a-z]{3,}", x.lower()) if w not in {"and", "the", "with", "tutorial"})
+    def qui_suit(rs):
+        et = []
+        for r in rs:
+            for x in r["etudiants"].split("; "):
+                if x not in et: et.append(x)
+        cours = "; ".join(dict.fromkeys(f"« {r['cours']} » avec {r['enseignant_brut']}" for r in rs))
+        return f"suivi par {len(et)} étudiant(s) : {', '.join(et[:6])}{' …' if len(et) > 6 else ''} ({cours} ; base des personnes, Chronos)"
+    preuve, contre, nouveaux = collections.defaultdict(list), collections.defaultdict(list), collections.OrderedDict()
+    termes_suivis = collections.Counter()
+    for r in rows:
+        d, t = r["decision"], r["terme"]
+        if d in ("unité", "unité (discipline)", "discipline (plusieurs unités)", "unité hors trimestre", "nouveau"): termes_suivis[t] += 1
+        if d in ("unité", "unité (discipline)"):
+            preuve[(r["unite"], t)].append(r)
+            u = par_u[r["unite"]]
+            if r["enseignant_precise"] and u["qui"].strip() in ("", "—"):
+                u["qui"] = nom(r["enseignant_precise"]); u["rattachement"] += f" ; enseignant d'après une fiche d'étudiant : {r['enseignant_brut']}"
+        elif d == "unité hors trimestre":
+            nouveaux.setdefault((t, "u", r["unite"]), []).append(r)
+        elif d == "nouveau":
+            nouveaux.setdefault((t, nom(r["enseignant"]), cle_mots(re.sub(r"\[.*?\]", "", r["cours"]))), []).append(r)
+            if r["unite_contredite"]: contre[(r["unite_contredite"], t)].append(r)
+    def actif(u, t):
+        return t != "summer" if not u["termes"] else t in {x.split("@")[0].strip() for x in u["termes"].split(",")}
+    SV = {}
+    for u in U:
+        prouves = {t for (x, t) in preuve if x == u["unite"]}
+        for t in ("fall", "winter", "spring", "summer"):
+            if not actif(u, t): continue
+            o = {}
+            if (u["unite"], t) in preuve:
+                rs = preuve[(u["unite"], t)]; titres = [r for r in rs if r["decision"] == "unité"]
+                if titres:      # titre confirmé
+                    cid = collections.Counter(r["id_catalogue"] for r in titres).most_common(1)[0][0]
+                    o = {"chance": "1", "ids": [cid] if cid not in u["retenu"].split("+") else None, "suivi": qui_suit(rs)}
+                else:           # discipline seule : le trimestre est sûr, le titre reste à choisir parmi les candidats
+                    n_t = 1 + len([x for x in u["candidats"].split(";") if x])
+                    o = {"chance": str(max(Fraction(u["chance"] or "1"), Fraction(1, n_t))), "ids": None,
+                         "suivi": qui_suit(rs) + (f" ; titre non précisé : 1 chance sur {n_t}" if n_t > 1 else "")}
+            else:
+                lim, mot = None, []
+                if prouves and termes_suivis[t]:
+                    lim = Fraction(1, 2); mot.append(f"suivi d'après les fiches d'étudiants en {', '.join(SAISONS_FR[x] for x in sorted(prouves))}, d'aucune fiche ce trimestre-ci")
+                if (u["unite"], t) in contre:
+                    rs = contre[(u["unite"], t)]
+                    lim = Fraction(1, 3) if lim else Fraction(1, 2)
+                    mot.append("titre suivi ce trimestre-là avec un autre enseignant : " + "; ".join(f"« {r['cours']} » avec {r['enseignant_brut']} ({r['etudiants']})" for r in rs))
+                if lim is not None:
+                    o = {"chance": str(min(Fraction(u["chance"] or "1"), lim)), "ids": None, "baisse": " ; ".join(mot)}
+            if o: SV[(u["unite"], t)] = o
+    k = 0
+    for (t, qui, x), rs in nouveaux.items():
+        k += 1; i = f"suivi.{k}"; r0 = rs[0]
+        if qui == "u":
+            u0 = par_u[x]; cid = r0["id_catalogue"]
+            C[i] = dict(C[cid], id=i); qui_n, vol, place = u0["qui"], u0["vol"], u0["place"]
+            ratt = f"cours de l'unité {x} ({C[cid]['titre']}, {u0['qui']}), suivi un trimestre où elle n'est pas programmée"
+        else:
+            titre = re.sub(r"\s*\[.*?\]", "", r0["cours"]).strip()
+            C[i] = dict(id=i, disc="Cours suivis (fiches d'étudiants)", titre=titre, e_av="—", e_ap="—")
+            qui_n, place = qui, ""; vol = "1x120L" if ATELIER.search(titre) else "1" if TUTORAT.search(titre) else "3"
+            ratt = f"enseignant nommé par la fiche d'étudiant ({r0['enseignant_brut']})"
+            if r0["unite_contredite"]: ratt += f" ; même titre au catalogue sous un autre enseignant : {r0['titre_catalogue']}"
+        U.append(dict(unite=f"S{k}", qui=qui_n, vol=vol, codes="MEME_ANNEE+R_ATTESTE+SUIVI+VOLUME", retenu=i, precision="",
+                      candidats="", chance="1", rattachement=ratt, place=place, note=qui_suit(rs)[0].upper() + qui_suit(rs)[1:], termes=t))
+    return SV, rows
+
 def semaines_completes():
     """lundis des semaines déjà complètes en données attestées (même critère que l'audit)."""
     par = collections.defaultdict(list)
@@ -137,12 +236,13 @@ def semaines_completes():
 def traiter(path):
     global MATIN, APREM, PERIODES
     MATIN, APREM, PERIODES = ["08:30", "10:30"], ["16:00"], None    # valeurs par défaut, remplacées par « #periodes »
-    annee, analyse, S, cat, deduits = None, [], [], None, {}
+    annee, analyse, S, cat, deduits, suivis = None, [], [], None, {}, None
     for l in open(path, encoding="utf-8"):
         l = l.rstrip("\n")
         if l.startswith("#annee"): annee = l.split()[1]
         elif l.startswith("#catalogue"): cat = l.split(None, 2)[1:]
         elif l.startswith("#terme_deduit"): deduits[l.split()[1]] = True
+        elif l.startswith("#suivis"): suivis = l.split()[1]
         elif l.startswith("#periodes"):   # #periodes 08:15,09:20,10:25,11:30 16:00 55
             _, m_, a_, d_ = l.split(); MATIN, APREM, PERIODES = m_.split(","), a_.split(","), int(d_)
         elif l.startswith(">"): analyse.append(l[2:] if len(l) > 1 else "")
@@ -152,9 +252,13 @@ def traiter(path):
             S.append(f + [""] * (11 - len(f)))
     a0 = int(annee[:4]); debut_an, fin_an = dt.date(a0, 9, 1), dt.date(a0 + 1, 8, 31)
     cal = calendrier.charger(spec=True); compl = semaines_completes(); D = docs()
+    D["BlackMountainPeople"] = ("Fiches des personnes, rubrique « COURSE TAKEN » (DATA_BMC/Chronos/BlackMountainPeople.txt, "
+                                "dépouillée dans chronos/008_personnes_cours_suivis.csv, provenance du fichier à préciser)", "")
     C, U, N, entete, src_cat = {}, [], {}, [], ""
     if cat:
         C, U, N, entete = lire_catalogue(os.path.join(ROOT, cat[0])); src_cat = cat[1] if len(cat) > 1 else ""
+    SV, suivis_rows, n_cat = {}, [], len(U)
+    if suivis: SV, suivis_rows = lire_suivis(suivis, C, U)
 
     # trimestres de l'année : jours de cours groupés par (saison, libellé)
     termes = collections.OrderedDict()
@@ -279,14 +383,14 @@ def traiter(path):
             chance = Fraction(xx.get("chance") or "1"); p_titre = round(100 * (1 - chance))
             p = min(90, round(100 * (1 - (1 - p_case / 100) * (1 - p_titre / 100))))
             if p_titre: mot.append(f"titre : chance {chance} que ce soit bien ce cours ce trimestre-là (part du titre {p_titre} %)")
-            invs = [i for i in sources.split("+") if i]
+            invs = [i for i in sources.split("+") if i]; inv_aam = [i for i in invs if re.match(r"\d{4}\.", i)]
             gabarits.append({"annee": annee, "terme": k, "libelle_terme": lib_t, "jour": j, "debut": a, "fin": b,
                 "type": typ, "activite": quoi, "qui": qui, "lieu": lieu, "note": note, "codes": "+".join(codes),
                 "part_case_pct": p_case, "part_titre_pct": p_titre, "part_deduite_pct": p, "motifs_deduction": " ; ".join(mot),
                 "unite": xx.get("unite", ""), "discipline": xx.get("disc", ""), "cours_catalogue": xx.get("cours", ""),
                 "precision": xx.get("precision", ""), "candidats": xx.get("candidats", ""), "chance": str(chance),
                 "rattachement": xx.get("rattachement", ""), "equivalent_avant": xx.get("e_av", ""), "equivalent_apres": xx.get("e_ap", ""),
-                "document_source": " ; ".join(D.get(i, (i, ""))[0] for i in invs), "inventaire": " ; ".join(invs),
+                "document_source": " ; ".join(D.get(i, (i, ""))[0] for i in invs), "inventaire": " ; ".join(inv_aam),
                 "url_source": " ".join(D.get(i, ("", ""))[1] for i in invs)})
         for jt, a, b, typ, quoi, qui, lieu, note, codes, sources, tm in S:
             if not pour(tm, s, deb_t, fin_t, True): continue
@@ -294,16 +398,30 @@ def traiter(path):
             for j in jours(jt):
                 ajouter(j, a, b, typ, quoi.replace("{terme}", lib_t), qui, lieu, note, cs, sources)
         for u in [u for u in U if pour(u["termes"], s, deb_t, fin_t, s != "summer")]:
-            ids = u["retenu"].split("+"); cours = " + ".join(C[i]["titre"] for i in ids)
+            ov = SV.get((u["unite"], s), {})
+            ids = ov.get("ids") or u["retenu"].split("+"); cours = " + ".join(C[i]["titre"] for i in ids)
             titre = cours + (f" — {u['precision']}" if u["precision"] else "")
+            cands = [i for i in u["candidats"].split(";") + u["retenu"].split("+") if i and i not in ids] if ov.get("ids") else [i for i in u["candidats"].split(";") if i]
             extra = dict(unite=u["unite"], disc=C[ids[0]]["disc"], cours=cours, precision=u["precision"],
-                         candidats=" | ".join(C[i]["titre"] for i in u["candidats"].split(";") if i), chance=u["chance"],
+                         candidats=" | ".join(C[i]["titre"] for i in cands), chance=ov.get("chance", u["chance"]),
                          rattachement=u["rattachement"], e_av=" + ".join(C[i]["e_av"] for i in ids), e_ap=" + ".join(C[i]["e_ap"] for i in ids))
             cs = [c for c in u["codes"].split("+") if c]
             cs += ["SEMAINE", "JOUR"] + ([] if "HEURE" in cs else ["HEURE_CADRE"]) + (["TERME_DEDUIT"] if s in deduits else [])
+            note = u["note"]
+            if "suivi" in ov:
+                cs = list(dict.fromkeys([c for c in cs if c not in RETIRES_SI_SUIVI] + ["MEME_ANNEE", "R_ATTESTE", "SUIVI"]))
+                note = (note + " ; " if note else "") + "Ce trimestre-là : cours " + ov["suivi"]
+                extra["rattachement"] += " ; confirmé par les fiches d'étudiants"
+            elif "baisse" in ov:
+                note = (note + " ; " if note else "") + "Fiches d'étudiants : " + ov["baisse"]
+            if u in U[n_cat:] and s == "summer" and len(par_saison[s]) > 1:
+                # été en plusieurs périodes : la fiche dit « summer », pas laquelle
+                extra["chance"] = str(min(Fraction(extra["chance"] or "1"), Fraction(1, 2)))
+                extra["rattachement"] += " ; fiche « summer » sans la période de la session d'été"
+            sources = src_cat + ("+" if src_cat and (ov or u in U[n_cat:]) else "") + ("BlackMountainPeople" if (ov or u in U[n_cat:]) else "")
             poses = positions[s].get(u["unite"], [])
             for j, a, b, lab in poses:
-                ajouter(j, a, b, "cours", titre + (" — laboratoire" if lab else ""), u["qui"], "", u["note"], cs, src_cat, extra)
+                ajouter(j, a, b, "cours", titre + (" — laboratoire" if lab else ""), u["qui"], "", note, cs, sources, extra)
             place_de[u["unite"]][k] = sorted(poses, key=lambda p: (JOURS.index(p[0]), p[1]))
         # semaines du trimestre
         lundis = sorted({x - dt.timedelta(x.weekday()) for x in jours_t})
@@ -355,6 +473,26 @@ def traiter(path):
                 else: ligne += f" ({e['codes']})"
                 ligne += f"  \n  ↳ sources : {e['inventaire']}" + (f" · {e['note']}" if e["note"] else "")
                 L.append(ligne)
+            L.append("")
+    if suivis:
+        dec = collections.Counter(r["decision"] for r in suivis_rows)
+        L += ["", "## Cours suivis d'après les fiches d'étudiants (directive « #suivis »)", "",
+              f"Table : `{suivis}` (scripts/suivis_speculation.py, depuis la rubrique « COURSE TAKEN » de "
+              "`DATA_BMC/Chronos/BlackMountainPeople.txt`). " + ", ".join(f"{k} {v}" for k, v in dec.most_common()) + ".", "",
+              "Règles : unité suivie ce trimestre-là → chance 1 et code SUIVI (rattachement déduit, trimestre reconduit et domaine "
+              "annoncé retirés) ; suivie seulement par la discipline (« Music », « Dance ») → trimestre sûr, titre au plus 1 chance "
+              "sur le nombre de titres possibles ; suivie un autre trimestre seulement → chance 1/2 au plus ; titre suivi avec un autre "
+              "enseignant (attribution déduite contredite) → 1/2, ou 1/3 si les deux ; cours absent du catalogue → unité ajoutée "
+              "pour ce seul trimestre (volume supposé, VOLUME +10) ; été en plusieurs périodes → unité ajoutée à 1/2.", ""]
+        for t in ("fall", "winter", "spring", "summer"):
+            conf = [u for u in U[:n_cat] if "suivi" in SV.get((u["unite"], t), {})]
+            bas = [u for u in U[:n_cat] if "baisse" in SV.get((u["unite"], t), {})]
+            aj = [u for u in U[n_cat:] if u["termes"] == t]
+            if not (conf or bas or aj): continue
+            L += [f"### {SAISONS_FR[t].capitalize()}" + ("" if t in par_saison else " — trimestre absent du calendrier attesté : rien n'est placé"), ""]
+            if conf: L.append("- Confirmées : " + ", ".join(f"{u['unite']} ({u['qui']})" for u in conf) + ".")
+            for u in bas: L.append(f"- Abaissée : {u['unite']} ({u['qui']}, chance {SV[(u['unite'], t)]['chance']}) — {SV[(u['unite'], t)]['baisse']}.")
+            for u in aj: L.append(f"- Ajoutée : {u['unite']} « {C[u['retenu']]['titre']} » ({u['qui']}, volume {u['vol']}) — {u['note']}")
             L.append("")
     open(base + ".md", "w", encoding="utf-8").write("\n".join(L))
     print(f"{os.path.relpath(base, ROOT)} : {len(semaines)} semaines, {len(gabarits)} entrées de gabarit")

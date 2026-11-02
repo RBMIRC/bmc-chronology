@@ -12,3 +12,10 @@ K|cours|enseignant(s)|volume|codes|sources|note
     Le script ajoute d'office SEMAINE + JOUR + HEURE_CADRE (voir les règles de répartition dans speculer.py).
 codes : séparés par + ; chacun ajoute des points à la part déduite (table CODES de speculer.py, plafond 90 %).
 sources : numéros d'inventaire séparés par + (le premier est la source principale).
+
+Directive « #suivis speculation/suivis/AAAA-AA.csv » (ajout du 2/11/2026, fichier d'année) : table produite par
+scripts/suivis_speculation.py depuis les cours suivis des fiches d'étudiants (chronos/NNN_personnes_cours_suivis.csv).
+Colonne « decision » : unité (titre confirmé), unité (discipline) (trimestre confirmé, pas le titre), unité hors
+trimestre et nouveau (unité « SN » ajoutée pour ce seul trimestre), discipline (plusieurs unités), non rattaché et hors
+cours (sans effet). « unite_contredite » : unité dont l'attribution déduite est contredite par la fiche.
+« enseignant_precise » : enseignant donné à une unité qui n'en avait pas. Règles dans speculer.py (lire_suivis).

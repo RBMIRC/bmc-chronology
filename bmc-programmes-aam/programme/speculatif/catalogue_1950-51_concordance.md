@@ -1,6 +1,6 @@
 # Concordance des cours — 1950-51
 
-41 cours : 40 programmés, 0 candidats, 1 non programmés.
+79 cours : 78 programmés, 0 candidats, 1 non programmés.
 
 - Sources :
 - 2017.40.049 (Bulletin, 20 août 1950) : cours annoncés pour l'automne 1950, enseignant par enseignant
@@ -55,48 +55,48 @@
 
 - **Reading Literature** — Mary Caroline Richards — *programmé* : MR1 (Mary Caroline Richards ; fall#1 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 / fall#2 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 / spring : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
   année précédente : History of English Poetry (1949-50) · année suivante : —
-- **Writing** — Mary Caroline Richards — *programmé* : MR2 (Mary Caroline Richards ; fall#1 : mar 16:00-16:50, jeu 16:00-16:50 / fall#2 : mar 16:00-16:50, jeu 16:00-16:50 / spring : mar 16:00-16:50, jeu 16:00-16:50 ; chance 1)  
+- **Writing** — Mary Caroline Richards — *programmé* : MR2 (Mary Caroline Richards ; fall#1 : lun 09:30-10:20, jeu 09:30-10:20 / fall#2 : lun 09:30-10:20, jeu 09:30-10:20 / spring : lun 09:30-10:20, jeu 09:30-10:20 ; chance 1)  
   année précédente : Writing (workshop, 1949-50) · année suivante : —
 
 ## Language
 
-- **Linguistics** — Flola L. Shepard — *programmé* : FS2 (Flola L. Shepard ; fall#1 : lun 11:30-12:20, jeu 11:30-12:20 / fall#2 : lun 11:30-12:20, jeu 11:30-12:20 / spring : lun 11:30-12:20, jeu 11:30-12:20 ; chance 1)  
+- **Linguistics** — Flola L. Shepard — *programmé* : FS2 (Flola L. Shepard ; fall#1 : mar 09:30-10:20, ven 09:30-10:20 / fall#2 : mar 09:30-10:20, ven 09:30-10:20 / spring : mar 09:30-10:20, ven 09:30-10:20 ; chance 1)  
   année précédente : Linguistics (1949-50) · année suivante : —
-- **French and German** — Flola L. Shepard — *programmé* : FS1 (Flola L. Shepard ; fall#1 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / fall#2 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / spring : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
+- **French and German** — Flola L. Shepard — *programmé* : FS1 (Flola L. Shepard ; fall#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / fall#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / spring : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
   année précédente : French; German (1949-50) · année suivante : —
 - **Russian and French (individual tutorials)** — Anna Goldowski — *programmé* : AG (Anna Goldowski ; fall#1 : mar 08:30-09:20 / fall#2 : mar 08:30-09:20 / spring : mar 08:30-09:20 ; chance 1)  
   année précédente : Russian (1949-50) · année suivante : —
 
 ## Science
 
-- **Introductory Physics** — Natasha Goldowski — *programmé* : NG1 (Natasha Goldowski ; fall#1 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / fall#2 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / spring : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
+- **Introductory Physics** — Natasha Goldowski — *programmé* : NG1 (Natasha Goldowski ; fall#1 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / fall#2 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / spring : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
   année précédente : Elementary Physics (1949-50) · année suivante : —
 - **Physics and Chemistry** — Natasha Goldowski — *programmé* : NG2 (Natasha Goldowski ; fall#1 : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 / fall#2 : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 / spring : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
   année précédente : Organic Chemistry (1949-50) · année suivante : —
 
 ## Art
 
-- **Drawing** — Joseph Fiore — *programmé* : JF1 (Joseph Fiore ; fall#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / fall#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / spring : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+- **Drawing** — Joseph Fiore — *programmé* : JF1 (Joseph Fiore ; fall#1 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / fall#2 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / spring : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
   année précédente : Drawing (1949-50) · année suivante : —
-- **Painting** — Joseph Fiore — *programmé* : JF2 (Joseph Fiore ; fall#1 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / fall#2 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / spring : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+- **Painting** — Joseph Fiore — *programmé* : JF2 (Joseph Fiore ; fall#1 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / fall#2 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / spring : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
   année précédente : Painting (1949-50) · année suivante : —
-- **Design** — Warren P. Jennerjahn — *programmé* : WJ1 (Warren P. Jennerjahn ; fall#1 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / fall#2 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / spring : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
+- **Design** — Warren P. Jennerjahn — *programmé* : WJ1 (Warren P. Jennerjahn ; fall#1 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / fall#2 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / spring : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
   année précédente : Design (1949-50) · année suivante : —
-- **Color** — Warren P. Jennerjahn — *programmé* : WJ2 (Warren P. Jennerjahn ; fall#1 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / fall#2 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / spring : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+- **Color** — Warren P. Jennerjahn — *programmé* : WJ2 (Warren P. Jennerjahn ; fall#1 : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 / fall#2 : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 / spring : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
   année précédente : Color (1949-50) · année suivante : —
-- **Percussion** — Warren P. Jennerjahn — *programmé* : WJ3 (Warren P. Jennerjahn ; fall#1 : mar 15:00-15:50 / fall#2 : mar 15:00-15:50 / spring : mar 15:00-15:50 ; chance 1)  
+- **Percussion** — Warren P. Jennerjahn — *programmé* : WJ3 (Warren P. Jennerjahn ; fall#1 : lun 08:30-09:20 / fall#2 : lun 08:30-09:20 / spring : lun 08:30-09:20 ; chance 1)  
   année précédente : — · année suivante : —
 
 ## Dance
 
-- **Dance Technique** — Elizabeth Jennerjahn — *programmé* : EJ1 (Elizabeth Jennerjahn ; fall#1 : mer 10:30-11:20, sam 10:30-11:20 / fall#2 : mer 10:30-11:20, sam 10:30-11:20 / spring : mer 10:30-11:20, sam 10:30-11:20 ; chance 1)  
+- **Dance Technique** — Elizabeth Jennerjahn — *programmé* : EJ1 (Elizabeth Jennerjahn ; fall#1 : lun 11:30-12:20, jeu 11:30-12:20 / fall#2 : lun 11:30-12:20, jeu 11:30-12:20 / spring : lun 11:30-12:20, jeu 11:30-12:20 ; chance 1)  
   année précédente : Dance (workshop, 1949-50) · année suivante : —
 - **Creative Dance** — Elizabeth Jennerjahn — *programmé* : EJ2 (Elizabeth Jennerjahn ; fall#1 : lun 15:00-17:00 / fall#2 : lun 15:00-17:00 / spring : lun 15:00-17:00 ; chance 1)  
   année précédente : — · année suivante : —
 
 ## Theatre
 
-- **Acting** — Wesley Huss — *programmé* : WH1 (Wesley Huss ; fall#1 : lun 08:30-09:20, jeu 08:30-09:20 / fall#2 : lun 08:30-09:20, jeu 08:30-09:20 / spring : lun 08:30-09:20, jeu 08:30-09:20 ; chance 1)  
+- **Acting** — Wesley Huss — *programmé* : WH1 (Wesley Huss ; fall#1 : mar 11:30-12:20, ven 11:30-12:20 / fall#2 : mar 11:30-12:20, ven 11:30-12:20 / spring : mar 11:30-12:20, ven 11:30-12:20 ; chance 1)  
   année précédente : Drama (visiting instructor, 1949-50) · année suivante : —
 - **Theatre** — Wesley Huss — *programmé* : WH2 (Wesley Huss ; fall#1 : lun 16:00-18:00 / fall#2 : lun 16:00-18:00 / spring : lun 16:00-18:00 ; chance 1)  
   année précédente : — · année suivante : —
@@ -116,11 +116,11 @@
 
 ## Music
 
-- **The Shaping Forces in Music** — Vollmer Hetherington; Louise Hetherington — *programmé* : VH1 (Vollmer Hetherington; Louise Hetherington ; fall#1 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 / fall#2 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1) ; VH1p (Vollmer Hetherington; Louise Hetherington ; spring : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1/2)  
+- **The Shaping Forces in Music** — Vollmer Hetherington; Louise Hetherington — *programmé* : VH1 (Vollmer Hetherington; Louise Hetherington ; fall#1 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / fall#2 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1) ; VH1p (Vollmer Hetherington; Louise Hetherington ; spring : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1/2)  
   année précédente : Appreciation (1949-50) · année suivante : —
-- **Music Theory and Practice** — Vollmer Hetherington; Louise Hetherington — *programmé* : VH2 (Vollmer Hetherington; Louise Hetherington ; fall#1 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / fall#2 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1) ; VH2p (Vollmer Hetherington; Louise Hetherington ; spring : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1/2)  
+- **Music Theory and Practice** — Vollmer Hetherington; Louise Hetherington — *programmé* : VH2 (Vollmer Hetherington; Louise Hetherington ; fall#1 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 / fall#2 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1) ; VH2p (Vollmer Hetherington; Louise Hetherington ; spring : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1/2)  
   année précédente : Fundamentals (1949-50) · année suivante : —
-- **Voice Training** — Johanna Jalowetz — *programmé* : JJ1 (Johanna Jalowetz ; fall#1 : mar 09:30-10:20 / fall#2 : mar 09:30-10:20 / spring : mar 09:30-10:20 ; chance 1)  
+- **Voice Training** — Johanna Jalowetz — *programmé* : JJ1 (Johanna Jalowetz ; fall#1 : mer 08:30-09:20 / fall#2 : mer 08:30-09:20 / spring : mer 08:30-09:20 ; chance 1)  
   année précédente : Voice (1949-50) · année suivante : —
 
 ## Philosophy
@@ -137,4 +137,116 @@
 - **Painting (July)** — Ben Shahn — *programmé* : E3 (Ben Shahn ; summer#1 : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
   année précédente : Painting (Stamos, été 1950) · année suivante : —
 - **Painting: visiting painters, two in residence each two weeks in August** — peintres invités — *programmé* : E4 (peintres invités ; summer#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Language
+
+- **Russian and French (individual tutorials)** — Anna Goldowski — *programmé* : S1 (Anna Goldowski ; summer#1 : mar 08:30-09:20 / summer#2 : mar 08:30-09:20 ; chance 1)  
+  année précédente : Russian (1949-50) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Writing** — Olson — *programmé* : S2 (Olson ; summer#1 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / summer#2 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Math** — Anna Goldowski — *programmé* : S3 (Anna Goldowski ; fall#1 : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 / fall#2 : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Piano** — Vollmer Hetherington — *programmé* : S4 (Vollmer Hetherington ; fall#1 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / fall#2 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **European History** — Paul W. Leser — *programmé* : S5 (Paul W. Leser ; spring : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Design** — Joseph Fiore — *programmé* : S6 (Joseph Fiore ; summer#1 : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 / summer#2 : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Art
+
+- **Drawing** — Joseph Fiore — *programmé* : S7 (Joseph Fiore ; summer#1 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / summer#2 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
+  année précédente : Drawing (1949-50) · année suivante : —
+
+## Music
+
+- **Voice Training** — Johanna Jalowetz — *programmé* : S8 (Johanna Jalowetz ; summer#1 : jeu 08:30-09:20 / summer#2 : jeu 08:30-09:20 ; chance 1)  
+  année précédente : Voice (1949-50) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Painting** — Motherwell — *programmé* : S9 (Motherwell ; summer#1 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / summer#2 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Art
+
+- **Painting** — Joseph Fiore — *programmé* : S10 (Joseph Fiore ; summer#1 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 / summer#2 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
+  année précédente : Painting (1949-50) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Weaving** — Oates — *programmé* : S11 (Oates ; summer#1 : lun 15:00-17:00 / summer#2 : lun 15:00-17:00 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Workshops
+
+- **Bookbinding** — Johanna Jalowetz — *programmé* : S12 (Johanna Jalowetz ; summer#1 : lun 16:00-18:00 / summer#2 : lun 16:00-18:00 ; chance 1)  
+  année précédente : Bookbinding (1949-50) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **James Joyce** — Mary Caroline Richards — *programmé* : S13 (Mary Caroline Richards ; spring : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Dancing** — Katherine Litz — *programmé* : S14 (Katherine Litz ; summer#1 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / summer#2 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Theatre
+
+- **Acting** — Wesley Huss — *programmé* : S15 (Wesley Huss ; summer#1 : lun 09:30-10:20, jeu 09:30-10:20 / summer#2 : lun 09:30-10:20, jeu 09:30-10:20 ; chance 1)  
+  année précédente : Drama (visiting instructor, 1949-50) · année suivante : —
+- **Theatre** — Wesley Huss — *programmé* : S16 (Wesley Huss ; summer#1 : mar 15:00-17:00 / summer#2 : mar 15:00-17:00 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Anthropology
+
+- **Social Anthropology** — Paul W. Leser — *programmé* : S17 (Paul W. Leser ; summer#1 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 / summer#2 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
+  année précédente : Introduction to General Anthropology (1949-50) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **History** — Paul W. Leser — *programmé* : S18 (Paul W. Leser ; summer#1 : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 / summer#2 : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **LightSound Movement** — Warren P. Jennerjahn — *programmé* : S19 (Warren P. Jennerjahn ; spring : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Painting** — Vicente — *programmé* : S20 (Vicente ; summer#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / summer#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Drawing** — Vicente — *programmé* : S21 (Vicente ; summer#1 : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 / summer#2 : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Counterpoint I** — Vollmer Hetherington — *programmé* : S22 (Vollmer Hetherington ; fall#1 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 / fall#2 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Weaving** — Oates — *programmé* : S23 (Oates ; fall#1 : jeu 16:00-18:00 / fall#2 : jeu 16:00-18:00 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Sight Reading** — Johanna Jalowetz — *programmé* : S24 (Johanna Jalowetz ; fall#1 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / fall#2 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **European history 1848-present** — Paul W. Leser — *programmé* : S25 (Paul W. Leser ; spring : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Light Sound Movement Workshop** — Warren P. Jennerjahn — *programmé* : S26 (Warren P. Jennerjahn ; spring : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Weaving** — Oates — *programmé* : S27 (Oates ; spring : mer 16:00-18:00 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Historical Methods** — Paul W. Leser — *programmé* : S28 (Paul W. Leser ; summer#1 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / summer#2 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Chorus** — Harrison — *programmé* : S29 (Harrison ; summer#1 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / summer#2 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Composition** — Harrison — *programmé* : S30 (Harrison ; summer#1 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / summer#2 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Counterpoint** — Harrison — *programmé* : S31 (Harrison ; summer#1 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 / summer#2 : lun 16:00-16:50, mer 16:00-16:50, ven 16:00-16:50 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Modern Dancing** — Katherine Litz — *programmé* : S32 (Katherine Litz ; summer#1 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / summer#2 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Piano** — Tudor — *programmé* : S33 (Tudor ; summer#1 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / summer#2 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **European History** — Paul W. Leser — *programmé* : S34 (Paul W. Leser ; summer#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / summer#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Light Sound Movement Workshop** — Warren P. Jennerjahn — *programmé* : S35 (Warren P. Jennerjahn ; fall#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / fall#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Body Movement** — Wesley Huss — *programmé* : S36 (Wesley Huss ; spring : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Printing** — Warren P. Jennerjahn — *programmé* : S37 (Warren P. Jennerjahn ; spring : jeu 15:00-17:00 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Light Sound Movement** — Pete — *programmé* : S38 (Pete ; spring : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
   année précédente : — · année suivante : —

@@ -1,6 +1,6 @@
 # Concordance des cours — 1952-53
 
-58 cours : 25 programmés, 15 candidats, 18 non programmés.
+80 cours : 47 programmés, 15 candidats, 18 non programmés.
 
 - Sources :
 - 2017.40.050 (catalogue 1952-53, novembre 1952) : calendrier, cinq « institutes » datés, cours par enseignant
@@ -156,4 +156,69 @@
 - **Dance: classes (Merce Cunningham and company)** — Merce Cunningham — *programmé* : E1 (Merce Cunningham ; summer : lun 09:30-11:30, mar 09:30-11:30, mer 09:30-11:30, jeu 09:30-11:30, ven 09:30-11:30 ; chance 1)  
   année précédente : — · année suivante : —
 - **Painting** — Esteban Vicente — *programmé* : E2 (Esteban Vicente ; summer : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Drawing** — Esteban Vicente — *programmé* : S1 (Esteban Vicente ; summer : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Ceramics** — MacKenzie — *programmé* : S2 (MacKenzie ; summer : lun 16:00-18:00 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Choreography** — Merce Cunningham — *programmé* : S3 (Merce Cunningham ; summer : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Music
+
+- **Musical Composition** — Stefan Wolpe — *programmé* : S4 (Stefan Wolpe ; summer : mar 08:30-09:20, jeu 08:30-09:20 ; chance 1)  
+  année précédente : Music (Harrison, 1951-52, domaine) · année suivante : —
+
+## Writing
+
+- **The Act of Writing in the Context of Post-Modern Man** — Charles Olson — *programmé* : S5 (Charles Olson ; summer : jeu 19:00-23:00 ; chance 1)  
+  année précédente : Writing (Olson, 1951-52) · année suivante : —
+
+## Farm
+
+- **Farm: general crop farming, timber operations, beef cattle, dairying, swine, poultry, farm management; maintenance and repair** — Doyle Jones; Jack Rice — *programmé* : S6 (Doyle Jones; Jack Rice ; summer : mar 16:00-18:00 ; chance 1)  
+  année précédente : Farm Workshop (Trayer, 1950-51) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Applied Art** — Joe Fiore — *programmé* : S7 (Joe Fiore ; fall#1 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / fall#2 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / fall#3 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / fall#4 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 / fall#5 : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Applied Art** — Joe Fiore — *programmé* : S8 (Joe Fiore ; spring#1 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / spring#2 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Cermaics** — Voulkos — *programmé* : S9 (Voulkos ; summer : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Theatre
+
+- **Theatre** — Wesley Huss — *programmé* : S10 (Wesley Huss ; summer : mer 16:00-18:00 ; chance 1)  
+  année précédente : Acting and Theatre (1951-52, domaine) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Analysis** — Stefan Wolpe — *programmé* : S11 (Stefan Wolpe ; fall#1 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / fall#2 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / fall#3 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / fall#4 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 / fall#5 : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Orchestration** — Stefan Wolpe — *programmé* : S12 (Stefan Wolpe ; fall#1 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / fall#2 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / fall#3 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / fall#4 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 / fall#5 : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Analysis** — Stefan Wolpe — *programmé* : S13 (Stefan Wolpe ; spring#1 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 / spring#2 : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Orchestration** — Stefan Wolpe — *programmé* : S14 (Stefan Wolpe ; spring#1 : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 / spring#2 : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Algebra** — Natasha Goldowski — *programmé* : S15 (Natasha Goldowski ; fall#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / fall#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / fall#3 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / fall#4 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / fall#5 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Repertory** — Merce Cunningham — *programmé* : S16 (Merce Cunningham ; summer : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Composition** — Merce Cunningham — *programmé* : S17 (Merce Cunningham ; summer : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Music for Dancers** — Merce Cunningham — *programmé* : S18 (Merce Cunningham ; summer : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **French** — Anna Goldowski — *programmé* : S19 (Anna Goldowski ; fall#1 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / fall#2 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / fall#3 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / fall#4 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 / fall#5 : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Drama** — Wesley Huss — *programmé* : S20 (Wesley Huss ; fall#1 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / fall#2 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / fall#3 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / fall#4 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 / fall#5 : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **French** — Anna Goldowski — *programmé* : S21 (Anna Goldowski ; spring#1 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 / spring#2 : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Theater** — Wesley Huss — *programmé* : S22 (Wesley Huss ; summer : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
   année précédente : — · année suivante : —

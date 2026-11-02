@@ -1,6 +1,6 @@
 # Concordance des cours — 1951-52
 
-20 cours : 19 programmés, 0 candidats, 1 non programmés.
+53 cours : 52 programmés, 0 candidats, 1 non programmés.
 
 - Sources :
 - 2017.40.361 (BMC Bulletin Vol. 9 No. 3, « Education », 1951-52) : calendrier, et seulement des DOMAINES annoncés
@@ -61,3 +61,84 @@
   année précédente : Geometry; Calculus (Dehn, 1950-51) · année suivante : Mathematics: Elementary (N. Goldowski, 1952-53)
 - **Philosophy** — Max Dehn — *programmé* : MD2 (Max Dehn ; fall : mer 11:30-12:20, sam 11:30-12:20 / spring : mer 11:30-12:20, sam 11:30-12:20 ; chance 1/2)  
   année précédente : Philosophy from 400 B.C. until 1600 A.D. (Dehn, 1950-51) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Advanced MathTutorial** — Max Dehn — *programmé* : S1 (Max Dehn ; fall : mar 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Methods of Anthropology** — Leser — *programmé* : S2 (Leser ; fall : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Elementary Mathematics** — Olson — *programmé* : S3 (Olson ; spring : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **French** — Goldowski — *programmé* : S4 (Goldowski ; fall : mar 09:30-10:20, jeu 09:30-10:20, sam 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **French** — Goldowski — *programmé* : S5 (Goldowski ; spring : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Arts
+
+- **Color and Design** — Hazel Larsen — *programmé* : S6 (Hazel Larsen ;  ; chance 1)  
+  année précédente : Design; Color (W. Jennerjahn, 1950-51) · année suivante : Design I (Learning to See); Color (Larsen, Fiore, 1952-53)
+
+## Cours suivis (fiches d'étudiants)
+
+- **Russian** — Goldowski — *programmé* : S7 (Goldowski ; fall : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Writing Tutorial** — Olson — *programmé* : S8 (Olson ; fall : jeu 16:00-16:50 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Painting** — Kline — *programmé* : S9 (Kline ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Drawing** — Tworkov — *programmé* : S10 (Tworkov ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Reading and Writing** — Olson — *programmé* : S11 (Olson ; fall : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Arts
+
+- **Acting and Theatre** — Wesley Huss — *programmé* : S12 (Wesley Huss ;  ; chance 1)  
+  année précédente : Acting; Theatre (Huss, 1950-51) · année suivante : Theatre; Approach to Acting… (Huss, 1952-53)
+
+## Cours suivis (fiches d'étudiants)
+
+- **Color** — Joseph Fiore — *programmé* : S13 (Joseph Fiore ; spring : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Writing/Projective Verse** — Olson — *programmé* : S14 (Olson ; spring : lun 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Painting** — Tworkov — *programmé* : S15 (Tworkov ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Writing** — Olson — *programmé* : S16 (Olson ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Bookbinding** — Max Dehn — *programmé* : S17 (Max Dehn ; spring : jeu 16:00-18:00 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Drawing II** — Oscar — *programmé* : S18 (Oscar ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Color** — Kline — *programmé* : S19 (Kline ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Mathematical Analysis Tutorial** — Max Dehn — *programmé* : S20 (Max Dehn ; fall : mar 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Patterns of Culture** — John Adams — *programmé* : S21 (John Adams ; fall : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Tutorial** — Wesley Huss — *programmé* : S22 (Wesley Huss ; fall : mar 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Dance** — Litz — *programmé* : S23 (Litz ; fall : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Piano** — Lou Harrison — *programmé* : S24 (Lou Harrison ; fall : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Dance II** — Litz — *programmé* : S25 (Litz ; spring : lun 15:00-15:50, mer 15:00-15:50, ven 15:00-15:50 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Piano Tutorial** — Lou Harrison — *programmé* : S26 (Lou Harrison ; spring : mar 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Dance** — Litz — *programmé* : S27 (Litz ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Counterpoint** — Lou Harrison — *programmé* : S28 (Lou Harrison ; spring : mar 10:30-11:20, jeu 10:30-11:20, sam 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Rhythmics** — Lou Harrison — *programmé* : S29 (Lou Harrison ; spring : lun 08:30-09:20, mer 08:30-09:20, ven 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Composition** — Wolpe — *programmé* : S30 (Wolpe ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Music Composition** — Wolpe — *programmé* : S31 (Wolpe ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Methods of Anthropology** — Levi — *programmé* : S32 (Levi ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Reading & Writing** — Olson — *programmé* : S33 (Olson ; spring : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —

@@ -1,6 +1,6 @@
 # Concordance des cours — 1954-55
 
-7 cours : 7 programmés, 0 candidats, 0 non programmés.
+19 cours : 19 programmés, 0 candidats, 0 non programmés.
 
 - Sources :
 - 2017.40.051 (Bulletin, hiver 1953-54) : Fall Quarter 1954-55 du 20 septembre au 4 décembre 1954 ; revue mensuelle
@@ -40,3 +40,48 @@
 
 - **Music: Theory and Composition** — Stefan Wolpe — *programmé* : E7 (Stefan Wolpe ; summer : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1) ; F7 (Stefan Wolpe ; fall : lun 09:30-10:20, mer 09:30-10:20, ven 09:30-10:20 ; chance 1/2)  
   année précédente : Musical Composition (Wolpe, 1952-53) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Drawing** — Joseph Fiore — *programmé* : S1 (Joseph Fiore ; fall : lun 10:30-11:20, mer 10:30-11:20, ven 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Writing
+
+- **Special Institute in Writing** — Robert Creeley; Charles Olson — *programmé* : S2 (Robert Creeley; Charles Olson ; fall : lun 11:30-12:20, mer 11:30-12:20, ven 11:30-12:20 ; chance 1)  
+  année précédente : The Act of Writing… (Olson, 1952-53) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Weaving** — Landreau — *programmé* : S3 (Landreau ;  ; chance 1)  
+  année précédente : — · année suivante : —
+- **Math** — Wesley Huss — *programmé* : S4 (Wesley Huss ;  ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Writing
+
+- **Special Institute in Writing** — Robert Creeley; Charles Olson — *programmé* : S5 (Robert Creeley; Charles Olson ;  ; chance 1)  
+  année précédente : The Act of Writing… (Olson, 1952-53) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Weaving** — Landreau — *programmé* : S6 (Landreau ; summer : mar 16:00-18:00 ; chance 1)  
+  année précédente : — · année suivante : —
+- **History** — Charles Olson — *programmé* : S7 (Charles Olson ; summer : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **Acting Technique** — Wesley Huss — *programmé* : S8 (Wesley Huss ; fall : mar 08:30-09:20, jeu 08:30-09:20, sam 08:30-09:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **The Greeks-tutorial** — Charles Olson — *programmé* : S9 (Charles Olson ; summer : mar 09:30-10:20 ; chance 1)  
+  année précédente : — · année suivante : —
+- **The Novel-tutorial** — Charles Olson — *programmé* : S10 (Charles Olson ; summer : mar 10:30-11:20 ; chance 1)  
+  année précédente : — · année suivante : —
+
+## Art
+
+- **Painting; basic instruction in Lithography and the lithography workshop** — Joseph Fiore — *programmé* : S11 (Joseph Fiore ;  ; chance 1)  
+  année précédente : Painting (Fiore, 1952-53) · année suivante : —
+
+## Cours suivis (fiches d'étudiants)
+
+- **Drawing** — Joseph Fiore — *programmé* : S12 (Joseph Fiore ; summer : mar 11:30-12:20, jeu 11:30-12:20, sam 11:30-12:20 ; chance 1)  
+  année précédente : — · année suivante : —

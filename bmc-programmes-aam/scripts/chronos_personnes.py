@@ -41,11 +41,13 @@ def parse_base(t):
 
 
 ENTETE = re.compile(r"(?:(\d{4})\s+)?\b(Fall|Spring|Summer|Winter|First|Second)\s*(?:Term|Semester|Quarter|Session|Art Institute|Institute)?\s*"
-                    r"(\d{4})?(?:\s*[-–]\s*(\d{2,4}))?\s*(?:\[[^\]]*\])?\s*:", re.I)
+                    r"\(?(\d{4})?(?:\s*[-–]\s*(\d{2,4}))?\)?\s*(?:\[[^\]]*\])?\s*:", re.I)
 
 
 def parse_cours(txt):
     """[(saison, année du trimestre, cours, enseignants)]"""
+    txt = re.sub(r"\b([A-Z])\.(?=\s?[A-Z])", r"\1", txt)          # initiales : « M.C. Richards » → « MC Richards »
+    txt = re.sub(r"\)o(?=(?:Fall|Spring|Summer|Winter|First|Second)\b)", "); ", txt)   # puce « o » collée : « (Larson)oSpring term »
     out, ms = [], list(ENTETE.finditer(txt))
     for i, m in enumerate(ms):
         seg = txt[m.end(): ms[i + 1].start() if i + 1 < len(ms) else len(txt)]
@@ -55,12 +57,14 @@ def parse_cours(txt):
         if m.group(4) and s in ("spring", "second", "winter", "summer"):       # « Spring 1935-36 » : printemps 1936
             y2 = int(m.group(4)); y = y2 if y2 > 100 else (y // 100) * 100 + y2
         for it in re.split(r"[,;]\s*(?![^()]*\))|\.\s+(?=[A-Z])", seg):
-            it = it.strip(" .;/")
+            it = re.sub(r"^(?:and|&)\s+", "", it.strip(" .;/"))
+            abandon = bool(re.search(r"[—–-]{1,2}\s*dropped|\[dropped", it, re.I))
+            it = re.sub(r"\s*[—–-]{1,2}\s*dropped.*$", "", it, flags=re.I).strip()
             if len(it) < 3: continue
             mm = re.match(r"(.+?)\s+with\s+(.+)$", it) or re.match(r"(.+?)\s*\(([^)]+)\)\s*$", it)
             cours, ens = (mm.group(1).strip(), mm.group(2).strip()) if mm else (it, "")
             cours = re.sub(r"\[[^\]]*\]", "", cours).strip()
-            out.append((SAISON[s], y, cours[:120], ens[:80]))
+            out.append((SAISON[s], y, cours[:120], (ens + (" [abandonné]" if abandon else ""))[:80]))
     return out
 
 

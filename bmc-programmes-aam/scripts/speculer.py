@@ -49,7 +49,7 @@ CODES = {
     "R_DUBERMAN": (10, "enseignant rattaché d'après Duberman (texte corrigé), pas d'après un document de l'année"),
     "ANNONCE": (15, "domaine annoncé à l'avance (« fields represented will be… ») : cours réel non attesté"),
     # ajouté le 2/11/2026 : directive « #suivis » (scripts/suivis_speculation.py)
-    "SUIVI": (0, "cours suivi ce trimestre-là d'après les fiches d'étudiants (base des personnes, dossier Chronos)"),
+    "SUIVI": (0, "cours suivi ce trimestre-là d'après les fiches d'étudiants (BMC Yearbook, bmcyearbook.org)"),
 }
 JOURS = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"]
 NOMS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
@@ -125,7 +125,7 @@ def lire_catalogue(path):
     return C, U, N, entete
 
 # Directive « #suivis speculation/suivis/AAAA-AA.csv » (ajout du 2/11/2026) : les cours suivis des fiches d'étudiants
-# (DATA_BMC/Chronos/BlackMountainPeople.txt, « COURSE TAKEN », via scripts/chronos_personnes.py puis
+# (BMC Yearbook, bmcyearbook.org/biographies, « Courses Taken », via scripts/chronos_personnes.py puis
 # scripts/suivis_speculation.py) disent le trimestre d'un cours. Règles :
 #  - unité suivie ce trimestre-là : chance 1, titre = celui qu'a suivi l'étudiant (s'il est l'un des candidats) ;
 #    codes de rattachement déduit, de trimestre reconduit ou de domaine annoncé retirés ; R_ATTESTE + SUIVI ;
@@ -160,7 +160,7 @@ def lire_suivis(chemin, C, U):
             for x in r["etudiants"].split("; "):
                 if x not in et: et.append(x)
         cours = "; ".join(dict.fromkeys(f"« {r['cours']} » avec {r['enseignant_brut']}" for r in rs))
-        return f"suivi par {len(et)} étudiant(s) : {', '.join(et[:6])}{' …' if len(et) > 6 else ''} ({cours} ; base des personnes, Chronos)"
+        return f"suivi par {len(et)} étudiant(s) : {', '.join(et[:6])}{' …' if len(et) > 6 else ''} ({cours} ; BMC Yearbook)"
     preuve, contre, nouveaux = collections.defaultdict(list), collections.defaultdict(list), collections.OrderedDict()
     termes_suivis = collections.Counter()
     for r in rows:
@@ -252,8 +252,9 @@ def traiter(path):
             S.append(f + [""] * (11 - len(f)))
     a0 = int(annee[:4]); debut_an, fin_an = dt.date(a0, 9, 1), dt.date(a0 + 1, 8, 31)
     cal = calendrier.charger(spec=True); compl = semaines_completes(); D = docs()
-    D["BlackMountainPeople"] = ("Fiches des personnes, rubrique « COURSE TAKEN » (DATA_BMC/Chronos/BlackMountainPeople.txt, "
-                                "dépouillée dans chronos/008_personnes_cours_suivis.csv, provenance du fichier à préciser)", "")
+    D["BMCYearbook"] = ("BMC Yearbook, biographies, rubrique « Courses Taken » (bmcyearbook.org/biographies, Black Mountain "
+                        "College Museum + Arts Center ; copie DATA_BMC/bmcyearbook, dépouillée par scripts/chronos_personnes.py)",
+                        "https://bmcyearbook.org/biographies")
     C, U, N, entete, src_cat = {}, [], {}, [], ""
     if cat:
         C, U, N, entete = lire_catalogue(os.path.join(ROOT, cat[0])); src_cat = cat[1] if len(cat) > 1 else ""
@@ -418,7 +419,7 @@ def traiter(path):
                 # été en plusieurs périodes : la fiche dit « summer », pas laquelle
                 extra["chance"] = str(min(Fraction(extra["chance"] or "1"), Fraction(1, 2)))
                 extra["rattachement"] += " ; fiche « summer » sans la période de la session d'été"
-            sources = src_cat + ("+" if src_cat and (ov or u in U[n_cat:]) else "") + ("BlackMountainPeople" if (ov or u in U[n_cat:]) else "")
+            sources = src_cat + ("+" if src_cat and (ov or u in U[n_cat:]) else "") + ("BMCYearbook" if (ov or u in U[n_cat:]) else "")
             poses = positions[s].get(u["unite"], [])
             for j, a, b, lab in poses:
                 ajouter(j, a, b, "cours", titre + (" — laboratoire" if lab else ""), u["qui"], "", note, cs, sources, extra)
@@ -478,7 +479,7 @@ def traiter(path):
         dec = collections.Counter(r["decision"] for r in suivis_rows)
         L += ["", "## Cours suivis d'après les fiches d'étudiants (directive « #suivis »)", "",
               f"Table : `{suivis}` (scripts/suivis_speculation.py, depuis la rubrique « COURSE TAKEN » de "
-              "`DATA_BMC/Chronos/BlackMountainPeople.txt`). " + ", ".join(f"{k} {v}" for k, v in dec.most_common()) + ".", "",
+              "BMC Yearbook, bmcyearbook.org/biographies). " + ", ".join(f"{k} {v}" for k, v in dec.most_common()) + ".", "",
               "Règles : unité suivie ce trimestre-là → chance 1 et code SUIVI (rattachement déduit, trimestre reconduit et domaine "
               "annoncé retirés) ; suivie seulement par la discipline (« Music », « Dance ») → trimestre sûr, titre au plus 1 chance "
               "sur le nombre de titres possibles ; suivie un autre trimestre seulement → chance 1/2 au plus ; titre suivi avec un autre "

@@ -1,4 +1,4 @@
-"""Cours suivis (fiches d'étudiants de la base des personnes) → tables de rattachement pour la couche spéculative.
+"""Cours suivis (fiches d'étudiants du BMC Yearbook, bmcyearbook.org) → tables de rattachement pour la couche spéculative.
 
 Entrées : chronos/NNN_personnes_cours_suivis.csv (le plus récent, scripts/chronos_personnes.py) et le catalogue
 spéculatif de l'année (speculation/catalogues/AAAA-AA.txt).

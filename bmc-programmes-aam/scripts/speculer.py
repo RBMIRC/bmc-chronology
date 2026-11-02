@@ -316,6 +316,15 @@ def traiter(path):
 
     os.makedirs(OUT, exist_ok=True)
     base = os.path.join(OUT, f"annee_{annee}")
+    if not gabarits or not semaines:
+        # année sans aucun jour de cours dans le calendrier attesté (ajout du 1/11/2026, 1955-57) : pas de gabarit,
+        # seulement l'analyse ; le semainier ne lit que les _gabarits.csv
+        L = [f"# {annee} — reconstitution spéculative de l'année", "",
+             f"Généré par `scripts/speculer.py` depuis `{os.path.relpath(path, ROOT)}`. **Aucune semaine reconstituée** : "
+             "le calendrier attesté (`programme/calendrier_periodes.csv`) n'a aucun jour de cours pour cette année.", ""] + analyse
+        open(base + ".md", "w", encoding="utf-8").write("\n".join(L) + "\n")
+        print(f"{os.path.relpath(base, ROOT)} : aucune semaine (pas de période attestée) ; analyse seule")
+        return
     for suff, rows in (("_gabarits", gabarits), ("_semaines", semaines)):
         with open(base + suff + ".csv", "w", encoding="utf-8", newline="") as f:
             w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)

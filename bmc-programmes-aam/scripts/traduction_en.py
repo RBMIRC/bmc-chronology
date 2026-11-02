@@ -3,7 +3,8 @@
   python3 scripts/traduction_en.py preparer [--taille 100]   lots de ce qui reste à traduire, par priorité :
         semainier/i18n/lots/lot_NNN.tsv  (id, source, contexte, texte français) — jamais écrasés
   (traduction : semainier/i18n/lots/lot_NNN.en.tsv  — une ligne « id<TAB>traduction » par chaîne)
-  python3 scripts/traduction_en.py verifier NNN [NNN…]       contrôles ; si tout passe, intègre dans revu_en.tsv
+  python3 scripts/traduction_en.py verifier NNN [NNN…] [--partiel] [--remplacer]
+        contrôles ; si tout passe, intègre dans revu_en.tsv (--partiel : lot traduit en partie, le reste attend)
   python3 scripts/traduction_en.py etat                       avancement par source
 Priorité : Duberman, documents du musée (AAM), reconstitution, compléments (Chronos), notes, livres et études,
 puis champs des fiches (lieu, « qui », références, rattachements, renvois, autres versions) et résumés des livres.
@@ -88,7 +89,7 @@ def citations(t):   # guillemets imbriqués (« titre « citation » ») : on ga
     return [q.split("«")[-1].strip() for q in re.findall(r"«\s*([^»]+?)\s*»|“([^”]+)”|\"([^\"]+)\"", t) for q in q if q]
 
 
-def verifier(num, remplacer=False):
+def verifier(num, remplacer=False, partiel=False):
     src = os.path.join(LOTS, f"lot_{num}.tsv"); tr = os.path.join(LOTS, f"lot_{num}.en.tsv")
     L = [r for r in csv.reader(open(src, encoding="utf-8"), delimiter="\t") if len(r) == 4 and r[0] != "id"]
     E = {}
@@ -99,7 +100,9 @@ def verifier(num, remplacer=False):
     erreurs, avert = [], []
     for i, _, _, fr in L:
         en = E.get(i)
-        if not en: erreurs.append(f"{i} : traduction manquante"); continue
+        if not en:
+            if not partiel: erreurs.append(f"{i} : traduction manquante")
+            continue
         for q in citations(fr):          # citations des sources (en anglais) : à l'identique ; mots français entre guillemets : traduits
             norm = lambda x: re.sub(r"\s+([;:!?])", r"\1", x).replace("’", "'")
             if not T.francais(q) and re.search(r"[A-Za-z]{3}", q) and not re.search(r"[éèêàùç]", q) and norm(q) not in norm(en):
@@ -139,7 +142,7 @@ def verifier(num, remplacer=False):
     with open(REVU, "a", encoding="utf-8") as f:
         if os.path.getsize(REVU) == 0 if os.path.exists(REVU) else True: f.write("# traductions relues (original\ttraduction) — scripts/traduction_en.py\n")
         for i, _, _, fr in L:
-            if fr in R and not remplacer: continue
+            if i not in E or (fr in R and not remplacer): continue
             f.write(f"{fr}\t{E[i]}\n"); n += 1
     print(f"   intégré : {n} traductions dans revu_en.tsv")
     return True
@@ -158,5 +161,5 @@ def etat():
 if __name__ == "__main__":
     a = sys.argv[1:] or ["etat"]
     if a[0] == "preparer": preparer(int(a[a.index("--taille") + 1]) if "--taille" in a else 100)
-    elif a[0] == "verifier": ok = all([verifier(n, "--remplacer" in a) for n in a[1:] if n != "--remplacer"]); sys.exit(0 if ok else 1)
+    elif a[0] == "verifier": ok = all([verifier(n, "--remplacer" in a, "--partiel" in a) for n in a[1:] if not n.startswith("--")]); sys.exit(0 if ok else 1)
     else: etat()

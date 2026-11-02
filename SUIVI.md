@@ -205,6 +205,20 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
 - Vérifié à la main : Wilder (1934, pas 1936) et Kazin (1944, pas 1945) — notre dépouillement est juste ; les autres
   « dates différentes » sont deux faits distincts du même paragraphe.
 
+## Étape 9 — Rumaker, Black Mountain Days (DATA_BMC/Rumaker, texte corrigé v6)
+- Alignement ¶ → pages du livre sur l'OCR paginé du scénario (`rumaker/paragraphes_pages.json`) : 829 ¶ sur 851.
+- Dépouillement manuel des 151 phrases portant une date absolue : `rumaker/extraction/rumaker.txt` (62 faits, format de
+  Duberman) → `rumaker/construire_rumaker.py` → `rumaker/001_evenements_rumaker.csv`, `001_rapport_rumaker.md`,
+  `chronos/006_rumaker_couche.csv` (couche « Chronos, Rumaker » du semainier).
+- Vérifiés dans leur ¶ : 47 retrouvés, 11 indice faible, 4 à relire ; recoupés par Duberman 30 ; présents aussi dans le
+  scénario (mêmes pages, même personne) 56 — les deux restent affichés, la fiche Rumaker renvoie aux entrées du scénario.
+- Désaccords notés : conférence de Shahn (hiver 1951 chez Rumaker, 1952 chez Duberman) ; diplôme de Rumaker (début
+  septembre 1955 d'après Rumaker lui-même, août 1955 chez Duberman) ; retour de février 1954 « for the spring term »
+  (Spring Quarter annoncé le 29 mars 1954 par 2017.40.051) ; Hellman (1954 ou 1955).
+- Apport propre : horaires des cours de l'automne 1952 (Huss le soir, Morley l'après-midi, Goldowski le matin), lettres
+  de 1955 au jour, Thanksgiving 1954 (25 novembre, confirmé par Silver).
+- Reste possible : version 7 du texte (8 lignes parasites), dépouillement de la chronologie relative.
+
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le
 corpus pour ces années ; tous les horaires sont supposés et codés comme tels).

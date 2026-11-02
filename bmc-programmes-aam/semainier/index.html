@@ -130,7 +130,7 @@
   <label class="fam" title="Semaines reconstituées à partir de sources indirectes"><input type="checkbox" id="spec" checked><i class="ispec"></i>Couche spéculative</label>
   <label class="fam" title="Événements tirés de Duberman, Black Mountain: An Exploration in Community (1972) ; les doublons avec l'AAM sont fondus dans la ligne AAM"><input type="checkbox" id="dub" checked><i class="idub"></i>Duberman</label>
   <label class="fam" title="N'afficher que les entrées dont la source citée a été ouverte et contient les témoins de l'entrée (scripts/verifier_sources.py)"><input type="checkbox" id="verifSeul">Retrouvées seulement</label>
-  <label class="fam" title="Chronos : extractions automatiques (décembre 2025) des fiches du musée, des entretiens de Mary Emma Harris et du livre sur la ferme ; seulement ce que l'AAM et Duberman n'ont pas déjà, à relire"><input type="checkbox" id="chr" checked><i class="ichr"></i>Chronos</label>
+  <label class="fam" title="Chronos : extractions automatiques (décembre 2025) des fiches du musée, des entretiens de Mary Emma Harris, du livre sur la ferme et de Duberman, seulement ce que l'AAM et Duberman n'ont pas déjà, à relire ; Rumaker : dépouillement manuel de Black Mountain Days (2003)"><input type="checkbox" id="chr" checked><i class="ichr"></i>Chronos, Rumaker</label>
   <label class="fam" title="Événements et scènes du scénario (extraction automatique, non relue, de 60 livres : bmc-scenario) ; les faits déjà dans l'AAM ou Duberman y sont fondus en renvoi"><input type="checkbox" id="scen" checked><i class="iscen"></i>Scénario</label>
 </header>
 <main>
@@ -292,7 +292,7 @@ function blocVerif(id, p) {
   const txt = esc(ex).replace(/\x01/g, "<mark>").replace(/\x02/g, "</mark>");
   return `<div class="verif"><b>Vérifier dans la source</b> <span class="st ${ST_CLASSE[st] || "relire"}">${esc(st)}</span>${lien}
     <div class="legende">${esc(ST_TEXTE[st] || "")}${note ? " · " + esc(note) : ""}</div>
-    ${ex ? `<div class="ext">${txt}</div><div class="legende">Extrait du texte cité (${p.chronos ? "texte du document dans le dossier Chronos" : p.duberman ? "Duberman, texte corrigé" : p.scenario ? "livre, page citée" : p.spec ? "document cité par le gabarit" : "OCR de la fiche du musée"}) ; surligné : ce qui a été retrouvé.</div>` : ""}</div>`;
+    ${ex ? `<div class="ext">${txt}</div><div class="legende">Extrait du texte cité (${p.chronos ? "texte de la source" : p.duberman ? "Duberman, texte corrigé" : p.scenario ? "livre, page citée" : p.spec ? "document cité par le gabarit" : "OCR de la fiche du musée"}) ; surligné : ce qui a été retrouvé.</div>` : ""}</div>`;
 }
 const JOURS_ABR = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"];
 const plusJours = (s, n) => { const x = new Date(s + "T12:00"); x.setDate(x.getDate() + n); return iso(x); };
@@ -558,7 +558,7 @@ function fiche(ev) {
       ${p.duberman ? ligne("Source", `${esc(p.src)}<br><span class="legende">chapitre ${esc(p.chapitre)} · p. ${esc(p.page)} · ${esc(p.paragraphe)}</span>`) : p.scenario ? "" : ligne(srcs.length > 1 ? "Documents sources" : "Document source", liens)}
       ${p.duberman && p.notes ? ligne("Notes de Duberman", `<details><summary>source primaire citée</summary>${esc(p.notes)}</details>`) : ""}
       ${p.duberman && p.aam && p.aam.length ? ligne("Même jour (AAM)", p.aam.map(r => `<div class="renvoi">rapprochement possible : ${esc(r.activite)}<br><span class="legende">${esc(r.motif)} · ${esc(r.src)}</span></div>`).join("")) : ""}
-      ${p.chronos ? ligne("Couche", `<b>Chronos</b> · ${esc(p.source_chronos)} · extraction automatique de décembre 2025, à relire · ${esc(p.statut)} · date dans la source : ${esc(p.date_src)}`) : ""}
+      ${p.chronos ? ligne("Couche", `<b>${/Rumaker/.test(p.source_chronos) ? "Rumaker" : "Chronos"}</b> · ${esc(p.source_chronos)} · ${/Rumaker/.test(p.source_chronos) ? "dépouillement manuel du texte corrigé" : "extraction automatique de décembre 2025, à relire"} · ${esc(p.statut)} · date dans la source : ${esc(p.date_src)}`) : ""}
       ${p.scenario ? ligne("Couche", `<b>Scénario</b> : ${p.categorie === "scene" ? "scène" : "événement"} extrait automatiquement d'un livre (non relu) · certitude : ${esc(p.certitude)} · date dans le scénario : ${esc(p.date_scen)}`) : ""}
       ${p.scenario ? ligne("Source", esc(p.src)) : ""}
       ${p.scenario && p.versions ? ligne("Autres versions", `<details><summary>selon d'autres livres</summary><span class="legende">${esc(p.versions)}</span></details>`) : ""}

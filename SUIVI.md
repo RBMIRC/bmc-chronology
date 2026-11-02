@@ -377,6 +377,15 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
     Chaque case porte le nom court de sa source (« Bulletin », « Entretien Harris », « Molesworth 2015 »…) ; la fiche
     commence par sa collection ; mêmes noms dans la grille, le panneau et les filtres (« Chronos » et « scénario »
     n'apparaissent plus).
+  - « Je veux une version FR et une version ENG » ; « toutes les sources sont en anglais : on ne traduit pas un texte
+    ou une source déjà en anglais » (3/11/2026) : page bilingue (bouton FR/EN, `?lang=en`, adresse `/week/en/`).
+    `semainier/i18n.js` : interface, collections, barème (198 formules, par règles), libellés d'affichage, types,
+    activités reconstituées — traduits et relus. `scripts/traduire_en.py` → `semainier/i18n/auto_en.json` et
+    `semainier/data_en.js` : 7 131 titres et notes rédigés en français, traduits automatiquement hors ligne (Argos
+    fr→en), signalés par ≈ avec l'original français dans la fiche ; rien d'anglais n'est traduit (détection de langue,
+    traduction identique écartée) ; citations « … » et noms de personnes et de lieux protégés et rendus mot pour mot
+    (contrôle : 0 citation altérée). Traductions relues à mettre dans `semainier/i18n/revu_en.tsv` (elles priment).
+    Restent en français : synthèses longues (chroniques, dossiers) et analyses d'année.
 
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le

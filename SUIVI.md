@@ -310,6 +310,25 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
 - Limites : l'activité affichée est la proposition du texte qui porte la date (en anglais) ; noms de famille partagés
   (Albers, Dreier, Beidler…) non attribués.
 
+## Étape 11 — Rangement des JSON (2/11/2026)
+- `bmc-programmes-aam/scripts/json_ranger.py` → `DATA_BMC/json/` (voir `DATA_BMC/json/LISEZMOI.md`, `CATALOGUE.md`,
+  `catalogue.csv` : 1 334 JSON inventoriés, chacun avec son statut).
+- `DATA_BMC/json/semainier/` : un JSON compilé par source Chronos (Duberman 559 événements, Harris 165 entretiens /
+  715 faits, ferme 193 événements + 135 documents, Asheville 377 fiches) ; `_meta` (provenance avec sha1, champs,
+  variantes vérifiées, contrôles) et `id` par enregistrement.
+  - Les 7 variantes de la chronologie et les 3 « _temp » comparées une à une : aucun enregistrement manquant ; repris
+    seulement les enrichissements (personnes présentes 498, Wikipedia 438). Les 1 158 entrées « en plus » d'Asheville
+    dans `_ultimate` sont ses rubriques calendrier, décisions et visiteurs remises à plat ; les 110 de la ferme, ses
+    documents.
+  - Originaux identiques dans les fichiers compilés (seules des clés ajoutées) ; doublons marqués : 1 (ferme).
+  - `chronos_asheville/harris/ferme/duberman.py` lisent les fichiers compilés : relancés, ils redonnent exactement les
+    mêmes couches (215, 568, 248, 73 lignes).
+- Rangés par `git mv` (rien supprimé) : originaux et variantes → `DATA_BMC/Chronos/_versions/` ; personnes, relations,
+  Wikipedia, bible de série, météo → `DATA_BMC/json/hors_semainier/` (relations et enrichissements compilés, anciennes
+  versions dans `_versions/`).
+- Reste à exploiter : rubriques secondaires d'Asheville (calendrier 229 périodes, cours 1 440, enseignants 1 443,
+  étudiants 2 147, visiteurs 838, décisions 133), à confronter au calendrier attesté et aux catalogues AAM.
+
 ## Points à vérifier sur scan
 Aucun : aucune entrée de 1949-57 ne repose sur une lecture de grille ou de scan (pas de grille horaire dans le
 corpus pour ces années ; tous les horaires sont supposés et codés comme tels).

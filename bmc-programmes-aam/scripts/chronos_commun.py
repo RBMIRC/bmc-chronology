@@ -9,6 +9,8 @@ import calendar, datetime as dt, os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))          # bmc-programmes-aam/
 DEPOT = os.path.dirname(ROOT)
 CHRONOS = os.path.join(DEPOT, "DATA_BMC", "Chronos")
+# JSON compilés des sources Chronos (rangement du 2/11/2026, scripts/json_ranger.py) : un fichier par source
+JSON_SEM = os.path.join(DEPOT, "DATA_BMC", "json", "semainier")
 SORTIE = os.path.join(ROOT, "chronos")
 MOIS = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july", "august", "september",
                                     "october", "november", "december"], 1)}

@@ -29,7 +29,7 @@ def mots(s): return re.findall(r"[a-z0-9]+", V.plat(s))
 
 
 def main():
-    C = json.load(open(os.path.join(K.CHRONOS, "bmc_chronology.json"), encoding="utf-8"))
+    C = json.load(open(os.path.join(K.JSON_SEM, "duberman_chronologie.json"), encoding="utf-8"))
     paged = json.load(open(os.path.join(K.ROOT, "duberman", "_appui", "paged.json"), encoding="utf-8"))
     par = {int(x["i"]): x for x in paged}
     plat_par = {i: " ".join(mots(x["text"])) for i, x in par.items()}
@@ -119,7 +119,7 @@ def main():
     N = collections.Counter
     st = N(l["statut"] for l in lignes)
     R = [f"# Chronos 4/5 : bmc_chronology.json (Duberman, « Chronos 2 ») contre notre dépouillement ({num})", "",
-         f"Source : `DATA_BMC/Chronos/bmc_chronology.json` ({len(lignes)} événements, extraction du {C['metadata'].get('extraction_date', '')[:10]}). "
+         f"Source : `DATA_BMC/json/semainier/duberman_chronologie.json` (compilé de bmc_chronology.json) ({len(lignes)} événements, extraction du {C['metadata'].get('extraction_date', '')[:10]}). "
          "Référence : `duberman/evenements_duberman.csv` (935 événements, lecture manuelle du texte corrigé).", "",
          "| statut | événements |", "|---|---|"] + [f"| {k} | {v} |" for k, v in st.most_common()]
     R += ["", "- Citations retrouvées dans le texte corrigé (≥ 50 % des segments de cinq mots) : "

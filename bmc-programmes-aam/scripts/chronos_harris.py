@@ -66,7 +66,7 @@ def localiser(quote, texte):
 
 
 def main():
-    H = json.load(open(os.path.join(K.CHRONOS, "harris_events.json"), encoding="utf-8"))
+    H = json.load(open(os.path.join(K.JSON_SEM, "harris_entretiens.json"), encoding="utf-8"))
     aam = lire(os.path.join(K.ROOT, "programme", "evenements.csv"))
     dub = lire(os.path.join(K.ROOT, "duberman", "evenements_duberman.csv"))
     cours_aam = lire(os.path.join(K.ROOT, "programme", "cours_par_periode.csv"))
@@ -176,7 +176,7 @@ def main():
 
     N = collections.Counter
     R = [f"# Chronos 2/5 : harris_events.json — entretiens de Mary Emma Harris ({num})", "",
-         f"Source : `DATA_BMC/Chronos/harris_events.json` (extraction automatique du {H.get('extraction_date', '')[:10]}) : "
+         f"Source : `DATA_BMC/json/semainier/harris_entretiens.json` (compilé de harris_events.json) (extraction automatique du {H.get('extraction_date', '')[:10]}) : "
          f"{len(H['transcripts'])} transcriptions, {len(lignes)} faits, {len(incertains)} faits jugés incertains par l'extraction, "
          f"{len(cours)} cours cités. Les transcriptions sont dans `DATA_BMC/Chronos/harris_transcripts/`.", "",
          "## Vérification dans les transcriptions", "",

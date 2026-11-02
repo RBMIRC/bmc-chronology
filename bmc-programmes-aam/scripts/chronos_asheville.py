@@ -23,7 +23,7 @@ def lire(p):
 
 
 def main():
-    S = json.load(open(os.path.join(K.CHRONOS, "asheville_events.json"), encoding="utf-8"))
+    S = json.load(open(os.path.join(K.JSON_SEM, "asheville_documents.json"), encoding="utf-8"))
     # textes et inventaires des dossiers de la collection
     dossiers, urls = {}, {}
     for p in glob.glob(os.path.join(K.CHRONOS, "asheville_bmc_collection", "*", "metadata.json")):
@@ -162,7 +162,7 @@ def main():
     div = [l for l in lignes if l["statut_aam"] == "date différente"]
     R0 = f"Couche « Chronos » du semainier : {len(couche)} entrées (`{num}_asheville_couche.csv`)."
     R = [f"# Chronos 1/5 : asheville_events.json contre l'AAM audité ({num})", "",
-         f"Source : `DATA_BMC/Chronos/asheville_events.json` (extraction automatique du {S.get('extraction_date', '')[:10]}, "
+         f"Source : `DATA_BMC/json/semainier/asheville_documents.json` (compilé de asheville_events.json) (extraction automatique du {S.get('extraction_date', '')[:10]}, "
          f"{len(S['documents'])} documents, {len(lignes)} événements). Comparé à `programme/evenements.csv` "
          "(4 650 activités, extraction manuelle et audit phrase par phrase) et au texte OCR de chaque document.", "",
          "## Résultat", "",

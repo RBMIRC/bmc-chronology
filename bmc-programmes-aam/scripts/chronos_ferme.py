@@ -39,7 +39,7 @@ def date_ferme(s, prec):
 
 
 def main():
-    F = json.load(open(os.path.join(K.CHRONOS, "farm_events.json"), encoding="utf-8"))
+    F = json.load(open(os.path.join(K.JSON_SEM, "ferme_silver.json"), encoding="utf-8"))
     pages = {p["n"]: " ".join(e.get("text", "") for e in p.get("el") or []) for p in json.load(open(os.path.join(CORR, "pages.json"), encoding="utf-8"))}
     pagemap = json.load(open(os.path.join(CORR, "pagemap.json"), encoding="utf-8"))
     def texte_et_ref(sp):
@@ -123,7 +123,7 @@ def main():
         w = csv.DictWriter(f, fieldnames=list(couche[0].keys())); w.writeheader(); w.writerows(couche)
     N = collections.Counter
     R = [f"# Chronos 3/5 : farm_events.json — Silver, The Farm at Black Mountain College ({num})", "",
-         f"Source : `DATA_BMC/Chronos/farm_events.json` ({F.get('analysis_method', '')}, {F.get('extraction_date', '')[:10]}) : "
+         f"Source : `DATA_BMC/json/semainier/ferme_silver.json` (compilé de farm_events.json) ({F.get('analysis_method', '')}, {F.get('extraction_date', '')[:10]}) : "
          f"{len(F['events'])} événements, {len(F['documents'])} documents dont {sum(1 for l in lignes if l['genre'] == 'document')} datés. "
          "Texte de vérification : OCR des pages du scan (`DATA_BMC/_correction_farm/pages.json`), pages du livre d'après `pagemap.json`.", "",
          "- Vérification dans les pages citées : " + ", ".join(f"{k} {v}" for k, v in N(l["verif"] for l in lignes).most_common()) + ".",

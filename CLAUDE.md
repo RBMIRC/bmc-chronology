@@ -8,6 +8,7 @@ Construire / compléter le semainier du Black Mountain College (1933-1957) : pro
 
 ## Contenu
 - `bmc-programmes-aam/` : projet principal. Lire d'abord `LISEZMOI.md`. `semainier/` (index.html + data.js), `programme/`, `speculation/`, `scripts/`, `duberman/` (935 événements dépouillés, voir `LISEZMOI_duberman.md`), `extraction/` et `pages_txt/` (OCR des fiches), `fiches.json`.
+- `DATA_BMC/json/` : JSON rangés (2/11/2026) : `semainier/` (un JSON compilé par source Chronos), `hors_semainier/`, `CATALOGUE.md` ; variantes et originaux dans `DATA_BMC/Chronos/_versions/`.
 - `DATA_BMC/` : textes corrigés (Duberman, Silver *The Farm*, Rumaker v6) et scripts de nettoyage ; `_correction_*` = pièces de la correction.
 - `bmc-scenario/` : scénario JSON 24 ans ; `sortie/009_...json.gz` est la dernière version (décompresser pour lire).
 

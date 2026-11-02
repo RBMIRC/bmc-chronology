@@ -163,7 +163,7 @@ Inventaire : extractions automatiques de décembre 2025 (GPT-4o pour la ferme). 
 2. `harris_events.json` (165 entretiens de Mary Emma Harris) — **fait**
 3. `farm_events.json` (Silver, The Farm at BMC) — **fait**
 4. `bmc_chronology.json` (Duberman, « Chronos 2 ») — **fait**
-5. `BlackMountainPeople.txt` (1 299 personnes, rôles, années) — à faire
+5. `BlackMountainPeople.txt` (1 299 personnes, rôles, années) — **fait**
 Dérivés (inventoriés seulement, pour ne pas compter deux fois) : `bmc_chronology_{enriched,final,complete,ultimate,
 wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.json`, `bmc_series_bible.json`,
 `*_temp.json`, `people_enrichments.json`, `wikipedia_*.json`. Les scripts d'origine ne sont pas versés (clé d'API).
@@ -204,6 +204,19 @@ wikipedia,with_presence,temp}.json`, `bmc_people_index.json`, `bmc_relations*.js
   absents 96 (73 vont dans la couche Chronos), dates différentes 14, sans citation 59, citation introuvable 5.
 - Vérifié à la main : Wilder (1934, pas 1936) et Kazin (1944, pas 1945) — notre dépouillement est juste ; les autres
   « dates différentes » sont deux faits distincts du même paragraphe.
+
+### 8.5 BlackMountainPeople.txt (base des personnes, provenance non indiquée)
+- `scripts/chronos_personnes.py` → `chronos/007_personnes_presences.csv`, `_cours_suivis.csv`, `_rapport.md`,
+  `semainier/data_personnes.js`.
+- Présences (nom ET prénom contre l'AAM et Duberman) : concordant 285, débordement 74 (activités attestées hors des
+  années de la base), non attesté 938 (surtout des étudiants), années incohérentes 2.
+- Cours suivis : 355 fiches → 5 862 inscriptions par trimestre ; titre et enseignant dans l'AAM 3 517, enseignant dans
+  l'AAM cette année-là 598, absent de l'AAM 709, enseignant non nommé 1 038.
+- Semainier : panneau « Cours suivis (trimestre) selon les fiches d'étudiants » ; « ⓘ » ouvre aussi la fiche de la base
+  (biographie, rôle, années, relations, cours suivis, recoupement).
+- **Question** : d'où vient BlackMountainPeople.txt (base du BMC Museum + Arts Center ? de Mary Emma Harris ?) ?
+- Piste : les cours suivis par semestre (1949-53 surtout) permettraient de corriger les « 2 chances sur 3 » de la couche
+  spéculative.
 
 ## Étape 9 — Rumaker, Black Mountain Days (DATA_BMC/Rumaker, texte corrigé v6)
 - Alignement ¶ → pages du livre sur l'OCR paginé du scénario (`rumaker/paragraphes_pages.json`) : 829 ¶ sur 851.
